@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [PitchCom棒球通信：AI降低逆向门槛的条件式猜想](../cases/pitchcom-ai-reversing-baseball-hypothesis.md) — 一条回复猜测AI可能让PitchCom逆向更容易，另设想用比赛状态预测投球；没有攻击、作弊或预测准确率证据。 **[其他 AI 逆向 · 待验证]**
+- [小米360摄像头：Danilo Dorgam拆机寻找固件，准备交给REA研究](../cases/xiaomi-360-rea-firmware-chip-extraction-project.md) — Danilo Dorgam为摆脱摄像头云服务依赖拆机，未找到在线固件；计划用编程器读芯片并以REA修改，尚未报告提取或刷写成功。 **[REA · 进行中]**
+- [自购5G Wi-Fi路由器：Onur Solmaz报告DeepSeek发现空密码与API注入](../cases/deepseek-opencode-5g-router-security-report.md) — Onur Solmaz称opencode go订阅中的普通DeepSeek检查自购路由器，发现SSH空密码和管理API命令注入；型号与零日属性未核实。 **[其他 AI 逆向 · 待验证]**
 - [scapectl：Claude Code辅助恢复Fractal Scape耳机USB协议与跨平台控制器](../cases/scapectl-fractal-scape-claude-usb-hid.md) — Jamie Dubs介绍scapectl更新；公开Go项目致谢Claude Code帮助恢复USB HID协议，提供托盘、CLI和设备事件，文档只称macOS/Windows已测，Linux未测。 **[其他 AI 逆向 · 进行中]**
 - [V-gate与Car Scanner：Marcin建议用Claude Code研究受限车辆诊断](../cases/mjurczuk-vgate-car-scanner-claude-idea.md) — 在Car Scanner Pro/V-gate诊断与2024款Superb III部分控制器功能受限的讨论中，Marcin提出接电脑后用Claude Code逆向；仅为建议。 **[其他 AI 逆向 · 待验证]**
 - [魅族StarV眼镜：青山建议AI逆向停更设备](../cases/qingshan-starv-ai-glasses-reversing-idea.md) — 青山回应StarV眼镜模型老旧、翻译体验差与固件无法更新的帖子，提出试试AI逆向；没有已替换模型或恢复更新的结果。 **[其他 AI 逆向 · 待验证]**

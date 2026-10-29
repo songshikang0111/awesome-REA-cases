@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1249 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1260 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（260）
-- [硬件与设备互通](categories/hardware.md)（346）
-- [应用与客户端](categories/apps.md)（519）
+- [游戏与游戏保存](categories/games.md)（263）
+- [硬件与设备互通](categories/hardware.md)（349）
+- [应用与客户端](categories/apps.md)（524）
 - [算法与功能重建](categories/algorithms.md)（124）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,8 +26,11 @@
 
 ### 游戏与游戏保存
 
+- [Tachyon: The Fringe：希望AI反编译以更新引擎的读者idea](cases/tachyon-the-fringe-ai-decompilation-idea.md) — 读者希望有人用AI反编译并研究Tachyon: The Fringe，使其拥有更新引擎和同人衍生空间；尚无实施成果。 **[其他 AI 逆向 · 待验证]**
+- [SWBF Renegade Squadron：N00b_B1scu1t披露用AI反编译、移植与修改](cases/swbf-renegade-squadron-ai-decompile-port-project.md) — N00b_B1scu1t明确称正在借AI研究和移植Star Wars Battlefront: Renegade Squadron，并区分手工美术；未提供完成度或测试。 **[其他 AI 逆向 · 进行中]**
+- [Moon-Buggy：Florian BURNEL用REA与Claude读二进制并重建网页游戏](cases/it-connect-moon-buggy-rea-claude-web-rebuild.md) — IT-Connect作者在Linux Mint虚拟机用Claude Opus5.5、REA与Ghidra分析Moon-Buggy，报告12分29秒恢复规则并做独立HTML；作者核对称规则正确，仍有命名偏差。 **[REA · 分析测试]**
 - [Echoes Unbound：AI辅助扩展PrimeDecomp的银河战士Prime2原生移植](cases/odrannnn-metroid-prime2-echoes-unbound.md) — Odrannnn在PrimeDecomp基础上移植Metroid Prime2，公开承认部分AI辅助，使用Aurora/SDL3/WebGPU；预发布需自备兼容镜像，不是AI从零反编译。 **[其他 AI 逆向 · 进行中]**
-- [GTA6游戏系统：SANGOD设想用AI逆向机制加快类似功能开发](cases/sangod-gta6-mechanics-ai-rebuild-idea.md) — SANGOD在GTA6系统复杂度讨论中问AI能否加速建设，并类比反编译复用机制；未报告拿到游戏或实施逆向。 **[其他 AI 逆向 · 待验证]**
+- [GTA6机制重建：SANGOD的idea与tekario六Agent宣称，尚无实现证据](cases/sangod-gta6-mechanics-ai-rebuild-idea.md) — 保留SANGOD的机制复用idea，补充tekario称REA/Opus六Agent在47分钟内做Godot重建；无代码、规格或完整测试，不认定GTA6已被还原。 **[REA · 待验证]**
 - [GOG版MDK2：Mr. K.称用REA提示修复高帧率抖动与挂起](cases/sirstripy-mdk2-gog-rea-jitter-fix-report.md) — Mr. K.购入GOG版MDK2后报告约1600fps但抖动挂起，称几条REA提示后修好；没有补丁、版本或修复后测量。 **[REA · 待验证]**
 - [怒之铁拳：RuiNelson借LLM分析与RageDecompiler把68000逻辑重编译为C++](cases/ruinelson-streets-of-rage-ai-static-recompilation.md) — 公开项目将初代Streets of Rage的游戏逻辑转为C++，保留SDL3硬件模拟，并以逆向状态机支持符号AI玩家；开发者致谢Claude、ChatGPT和Grok，不是完整原生重写或独立通关验证。 **[其他 AI 逆向 · 进行中]**
 - [Forza Motorsport 4：AI辅助静态重编译，公开限定硬件的帧率对照](cases/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev以ShiftGlue和Pinyon Shift为基础将Xbox360的FM4带到Windows，公开承认AI辅助逆向；项目测试把5K与240fps分开，不能理解为5K下240fps。 **[其他 AI 逆向 · 进行中]**
@@ -289,6 +292,9 @@
 
 ### 硬件与设备互通
 
+- [PitchCom棒球通信：AI降低逆向门槛的条件式猜想](cases/pitchcom-ai-reversing-baseball-hypothesis.md) — 一条回复猜测AI可能让PitchCom逆向更容易，另设想用比赛状态预测投球；没有攻击、作弊或预测准确率证据。 **[其他 AI 逆向 · 待验证]**
+- [小米360摄像头：Danilo Dorgam拆机寻找固件，准备交给REA研究](cases/xiaomi-360-rea-firmware-chip-extraction-project.md) — Danilo Dorgam为摆脱摄像头云服务依赖拆机，未找到在线固件；计划用编程器读芯片并以REA修改，尚未报告提取或刷写成功。 **[REA · 进行中]**
+- [自购5G Wi-Fi路由器：Onur Solmaz报告DeepSeek发现空密码与API注入](cases/deepseek-opencode-5g-router-security-report.md) — Onur Solmaz称opencode go订阅中的普通DeepSeek检查自购路由器，发现SSH空密码和管理API命令注入；型号与零日属性未核实。 **[其他 AI 逆向 · 待验证]**
 - [scapectl：Claude Code辅助恢复Fractal Scape耳机USB协议与跨平台控制器](cases/scapectl-fractal-scape-claude-usb-hid.md) — Jamie Dubs介绍scapectl更新；公开Go项目致谢Claude Code帮助恢复USB HID协议，提供托盘、CLI和设备事件，文档只称macOS/Windows已测，Linux未测。 **[其他 AI 逆向 · 进行中]**
 - [V-gate与Car Scanner：Marcin建议用Claude Code研究受限车辆诊断](cases/mjurczuk-vgate-car-scanner-claude-idea.md) — 在Car Scanner Pro/V-gate诊断与2024款Superb III部分控制器功能受限的讨论中，Marcin提出接电脑后用Claude Code逆向；仅为建议。 **[其他 AI 逆向 · 待验证]**
 - [魅族StarV眼镜：青山建议AI逆向停更设备](cases/qingshan-starv-ai-glasses-reversing-idea.md) — 青山回应StarV眼镜模型老旧、翻译体验差与固件无法更新的帖子，提出试试AI逆向；没有已替换模型或恢复更新的结果。 **[其他 AI 逆向 · 待验证]**
@@ -638,6 +644,11 @@
 
 ### 应用与客户端
 
+- [CleanMyMac/CCleaner式清理器：Opus截图重建与删除路径安全检查的自述](cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — 两候选报告Opus5.5从CleanMyMac截图做Electron/React双平台清理器，称释放14.6GB，并修复Windows路径与启动项问题；源码与清理安全性未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [Cursor式开源AI工作区：Zruft转述fsconfig的逆向项目](cases/fsconfig-cursor-open-ai-workspace-report.md) — Zruft称fsconfig逆向Cursor并做开源AI工作区，宣称23个免费AI、5个免账号；项目身份、源码及逆向方式未核实。 **[未确认使用 REA · 待验证]**
+- [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
+- [停更笔记应用：作者称REA与Claude导出14212条笔记并修复共享图片缺陷](cases/claude-rea-dead-notes-14212-markdown-export-report.md) — 作者自述从未具名应用的2.3GB数据恢复Markdown、4517个附件和原日期，以200条抽样找出图片共享问题；无公开导出器或测试记录。 **[REA · 待验证]**
+- [类Windows的Linux：用AI反编译驱动并重建Office兼容软件的愿景](cases/ai-windows-like-linux-driver-office-rebuild-idea.md) — 候选提出把Linux做成Windows式体验，以AI反编译驱动并重建Word、Excel与PowerPoint等软件；仅idea，没有移植或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [加拿大网络安全中心：专家引导AI分析未知恶意软件的五小时报告](cases/canadian-cyber-centre-frontier-ai-malware-report.md) — 加拿大网络安全中心称Frontier AI Lab在专家全程引导下，把未知恶意软件转为验证情报，约五小时完成估算一周工作；无样本或独立计时。 **[其他 AI 逆向 · 待验证]**
 - [claw design：Archie设想用逆向设计工具比较KIMI与Opus](cases/archie-claw-design-model-evaluation-idea.md) — Archie称已有逆向的claw design，可能用来比较KIMI3.1与Opus5.5的设计、空间感及多模态工具能力；尚无评测输出。 **[其他 AI 逆向 · 待验证]**
 - [Agent Web：denzell转述把网页转为REST接口供模型调用](cases/denzell-agent-web-rest-reconstruction-report.md) — denzell介绍Agent Web团队将网页逆向成REST API，意在免去模型读UI；项目身份、具体站点与接口验证未提供。 **[未确认使用 REA · 相关项目]**

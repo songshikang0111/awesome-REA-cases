@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [CleanMyMac/CCleaner式清理器：Opus截图重建与删除路径安全检查的自述](../cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — 两候选报告Opus5.5从CleanMyMac截图做Electron/React双平台清理器，称释放14.6GB，并修复Windows路径与启动项问题；源码与清理安全性未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [Cursor式开源AI工作区：Zruft转述fsconfig的逆向项目](../cases/fsconfig-cursor-open-ai-workspace-report.md) — Zruft称fsconfig逆向Cursor并做开源AI工作区，宣称23个免费AI、5个免账号；项目身份、源码及逆向方式未核实。 **[未确认使用 REA · 待验证]**
+- [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](../cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
+- [停更笔记应用：作者称REA与Claude导出14212条笔记并修复共享图片缺陷](../cases/claude-rea-dead-notes-14212-markdown-export-report.md) — 作者自述从未具名应用的2.3GB数据恢复Markdown、4517个附件和原日期，以200条抽样找出图片共享问题；无公开导出器或测试记录。 **[REA · 待验证]**
+- [类Windows的Linux：用AI反编译驱动并重建Office兼容软件的愿景](../cases/ai-windows-like-linux-driver-office-rebuild-idea.md) — 候选提出把Linux做成Windows式体验，以AI反编译驱动并重建Word、Excel与PowerPoint等软件；仅idea，没有移植或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [加拿大网络安全中心：专家引导AI分析未知恶意软件的五小时报告](../cases/canadian-cyber-centre-frontier-ai-malware-report.md) — 加拿大网络安全中心称Frontier AI Lab在专家全程引导下，把未知恶意软件转为验证情报，约五小时完成估算一周工作；无样本或独立计时。 **[其他 AI 逆向 · 待验证]**
 - [claw design：Archie设想用逆向设计工具比较KIMI与Opus](../cases/archie-claw-design-model-evaluation-idea.md) — Archie称已有逆向的claw design，可能用来比较KIMI3.1与Opus5.5的设计、空间感及多模态工具能力；尚无评测输出。 **[其他 AI 逆向 · 待验证]**
 - [Agent Web：denzell转述把网页转为REST接口供模型调用](../cases/denzell-agent-web-rest-reconstruction-report.md) — denzell介绍Agent Web团队将网页逆向成REST API，意在免去模型读UI；项目身份、具体站点与接口验证未提供。 **[未确认使用 REA · 相关项目]**

@@ -10,15 +10,15 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1249 entries**, organized by use case, without a Top-N or popularity threshold.
+**1260 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (260)
-- [Hardware and interoperability](categories/en/hardware.md) (346)
-- [Applications and clients](categories/en/apps.md) (519)
+- [Games and preservation](categories/en/games.md) (263)
+- [Hardware and interoperability](categories/en/hardware.md) (349)
+- [Applications and clients](categories/en/apps.md) (524)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (124)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -28,8 +28,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Tachyon: The Fringe: a reader's AI-decompilation idea for a newer engine](cases/en/tachyon-the-fringe-ai-decompilation-idea.md) — A reader hopes someone will use AI to decompile and investigate Tachyon: The Fringe for a newer engine and possible fan spin-offs. No implementation result is reported. **[Other AI-assisted work · Needs verification]**
+- [SWBF Renegade Squadron: N00b_B1scu1t discloses AI-assisted decompilation, porting and modification](cases/en/swbf-renegade-squadron-ai-decompile-port-project.md) — N00b_B1scu1t explicitly says AI is used on Star Wars Battlefront: Renegade Squadron, while distinguishing human-made art. Completion and testing are not established. **[Other AI-assisted work · In progress]**
+- [Moon-Buggy: Florian BURNEL uses REA and Claude to read a binary and rebuild a browser game](cases/en/it-connect-moon-buggy-rea-claude-web-rebuild.md) — The IT-Connect author uses Claude Opus 5.5, REA and Ghidra in a Linux Mint VM to analyze Moon-Buggy, reporting recovered rules and standalone HTML in 12m29s. He says the rules check out, with a naming error. **[REA · Analysis test]**
 - [Echoes Unbound: AI-assisted expansion of PrimeDecomp into a native Metroid Prime 2 port](cases/en/odrannnn-metroid-prime2-echoes-unbound.md) — Odrannnn builds on PrimeDecomp with an acknowledged partly AI-assisted Metroid Prime 2 port using Aurora/SDL3/WebGPU. The pre-release needs a compatible user-supplied image; it is not AI decompilation from scratch. **[Other AI-assisted work · In progress]**
-- [GTA 6 systems: SANGOD proposes AI-assisted recovery of mechanics to accelerate similar features](cases/en/sangod-gta6-mechanics-ai-rebuild-idea.md) — In a discussion of GTA 6 system complexity, SANGOD asks whether AI could accelerate development, analogizing to decompilation and reuse of mechanics. No game access or implementation is reported. **[Other AI-assisted work · Needs verification]**
+- [GTA 6 mechanics: SANGOD's idea and tekario's six-agent claim, without checked implementation evidence](cases/en/sangod-gta6-mechanics-ai-rebuild-idea.md) — Retains SANGOD's mechanics-reuse idea and adds tekario's claim of a 47-minute REA/Opus six-agent Godot rebuild. No code, specification or full test establishes recovered GTA 6. **[REA · Needs verification]**
 - [GOG MDK2: Mr. K. reports fixing high-frame-rate jitter and hangs with REA prompts](cases/en/sirstripy-mdk2-gog-rea-jitter-fix-report.md) — Mr. K. reports roughly 1,600 fps but jitter and hangs after buying MDK2 on GOG, then says a few REA prompts fixed it. No patch, build revision or post-fix measurement is available. **[REA · Needs verification]**
 - [Streets of Rage: RuiNelson combines LLM analysis and RageDecompiler to recompile 68000 logic into C++](cases/en/ruinelson-streets-of-rage-ai-static-recompilation.md) — A public project translates the original Streets of Rage logic into C++, retaining SDL3-backed hardware emulation and using recovered state machines for a symbolic player. It credits Claude, ChatGPT and Grok, not a complete native rewrite or independently verified playthrough. **[Other AI-assisted work · In progress]**
 - [Forza Motorsport 4: AI-assisted static recompilation with hardware-bounded frame-rate comparisons](cases/en/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev brings Xbox 360 FM4 to Windows on ShiftGlue and Pinyon Shift, explicitly crediting AI-assisted reversing. Public benchmarks distinguish 5K output from the 240 fps ceiling; they do not show 5K at 240 fps. **[Other AI-assisted work · In progress]**
@@ -291,6 +294,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [PitchCom baseball communication: a conditional hypothesis about AI lowering reversing barriers](cases/en/pitchcom-ai-reversing-baseball-hypothesis.md) — A reply speculates that AI could make PitchCom reversing easier, with game-state pitch prediction as another explanation. No attack, cheating or prediction-accuracy evidence is supplied. **[Other AI-assisted work · Needs verification]**
+- [Xiaomi 360 camera: Danilo Dorgam opens the device to obtain firmware for REA research](cases/en/xiaomi-360-rea-firmware-chip-extraction-project.md) — Danilo Dorgam opens a camera to reduce cloud dependence but cannot find firmware online. Chip reading with a programmer and REA-assisted modification are planned, not completed extraction or flashing. **[REA · In progress]**
+- [A newly bought 5G Wi-Fi router: Onur Solmaz reports DeepSeek finding an empty password and API injection](cases/en/deepseek-opencode-5g-router-security-report.md) — Onur Solmaz says ordinary DeepSeek through his opencode go subscription found empty-password SSH access and management-API command injection on his router. Model and zero-day status are unconfirmed. **[Other AI-assisted work · Needs verification]**
 - [scapectl: Claude Code helps recover Fractal Scape USB HID and build a cross-platform controller](cases/en/scapectl-fractal-scape-claude-usb-hid.md) — Jamie Dubs introduces scapectl updates. The public Go project credits Claude Code for USB HID recovery and offers a tray app, CLI and device events; only macOS and Windows are documented as tested, not Linux. **[Other AI-assisted work · In progress]**
 - [V-gate and Car Scanner: Marcin proposes Claude Code research into restricted vehicle diagnostics](cases/en/mjurczuk-vgate-car-scanner-claude-idea.md) — In a Car Scanner Pro/V-gate discussion about restricted controller features on a 2024 Superb III, Marcin suggests pairing with a computer and using Claude Code for reversing. A proposal only. **[Other AI-assisted work · Needs verification]**
 - [Meizu StarV glasses: Qingshan suggests AI reversing for an unsupported device](cases/en/qingshan-starv-ai-glasses-reversing-idea.md) — Qingshan responds to outdated models, poor translation and unavailable firmware updates on StarV glasses by suggesting AI reverse engineering. No model replacement or restored update path is reported. **[Other AI-assisted work · Needs verification]**
@@ -640,6 +646,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [A CleanMyMac/CCleaner-style cleaner: an Opus screenshot rebuild and deletion-safety account](cases/en/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — Two candidates report Opus 5.5 building an Electron/React cleaner from CleanMyMac screenshots, claiming 14.6GB freed and fixes for Windows paths and startup items. Source and cleanup safety were not independently checked. **[Other AI-assisted work · Needs verification]**
+- [A Cursor-like open AI workspace: Zruft relays fsconfig's reverse-engineering project](cases/en/fsconfig-cursor-open-ai-workspace-report.md) — Zruft says fsconfig reverse-engineered Cursor into an open-source AI workspace, claiming 23 free AIs, five without accounts. Project identity, source and reversing method are unverified. **[REA use unconfirmed · Needs verification]**
+- [WeChat client: Nicholai Yu reports chat management and agent access after nine billion tokens](cases/en/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu reports reversing the WeChat client for history/file management, AI-agent connection and understanding defenses. Nine billion tokens and compatibility scope have no checked validation record. **[Other AI-assisted work · Needs verification]**
+- [An abandoned notes app: an author reports REA/Claude exporting 14,212 notes and fixing shared images](cases/en/claude-rea-dead-notes-14212-markdown-export-report.md) — An author says an unnamed app's 2.3GB file yielded Markdown, 4,517 attachments and original dates, with 200-note checks exposing a shared-image bug. No public exporter or test record is supplied. **[REA · Needs verification]**
+- [Windows-like Linux: an idea to use AI for driver decompilation and Office-compatible replacements](cases/en/ai-windows-like-linux-driver-office-rebuild-idea.md) — A candidate proposes a Windows-like Linux experience, with AI-assisted driver decompilation and rebuilt Word, Excel and PowerPoint equivalents. An idea only, without ports or compatibility tests. **[Other AI-assisted work · Needs verification]**
 - [Canadian Cyber Centre: an expert-guided five-hour AI malware-analysis report](cases/en/canadian-cyber-centre-frontier-ai-malware-report.md) — The Canadian Centre for Cyber Security says its Frontier AI Lab turned unknown malware into validated intelligence in about five hours, compared with an estimated week, with experts guiding every step. No sample or independent timing is available here. **[Other AI-assisted work · Needs verification]**
 - [claw design: Archie proposes using a reverse-engineered design tool to compare KIMI and Opus](cases/en/archie-claw-design-model-evaluation-idea.md) — Archie says he has a reverse-engineered claw design and may compare KIMI 3.1 with Opus 5.5 on design, spatial awareness and multimodal tools. No evaluation output is available. **[Other AI-assisted work · Needs verification]**
 - [Agent Web: denzell relays reconstruction of web interfaces as REST APIs for models](cases/en/denzell-agent-web-rest-reconstruction-report.md) — denzell describes an Agent Web team reversing the web into REST APIs so models need not read UI. Product identity, target sites and interface validation are not supplied. **[REA use unconfirmed · Related project]**

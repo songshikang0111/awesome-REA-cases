@@ -2,8 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Tachyon: The Fringe：希望AI反编译以更新引擎的读者idea](../cases/tachyon-the-fringe-ai-decompilation-idea.md) — 读者希望有人用AI反编译并研究Tachyon: The Fringe，使其拥有更新引擎和同人衍生空间；尚无实施成果。 **[其他 AI 逆向 · 待验证]**
+- [SWBF Renegade Squadron：N00b_B1scu1t披露用AI反编译、移植与修改](../cases/swbf-renegade-squadron-ai-decompile-port-project.md) — N00b_B1scu1t明确称正在借AI研究和移植Star Wars Battlefront: Renegade Squadron，并区分手工美术；未提供完成度或测试。 **[其他 AI 逆向 · 进行中]**
+- [Moon-Buggy：Florian BURNEL用REA与Claude读二进制并重建网页游戏](../cases/it-connect-moon-buggy-rea-claude-web-rebuild.md) — IT-Connect作者在Linux Mint虚拟机用Claude Opus5.5、REA与Ghidra分析Moon-Buggy，报告12分29秒恢复规则并做独立HTML；作者核对称规则正确，仍有命名偏差。 **[REA · 分析测试]**
 - [Echoes Unbound：AI辅助扩展PrimeDecomp的银河战士Prime2原生移植](../cases/odrannnn-metroid-prime2-echoes-unbound.md) — Odrannnn在PrimeDecomp基础上移植Metroid Prime2，公开承认部分AI辅助，使用Aurora/SDL3/WebGPU；预发布需自备兼容镜像，不是AI从零反编译。 **[其他 AI 逆向 · 进行中]**
-- [GTA6游戏系统：SANGOD设想用AI逆向机制加快类似功能开发](../cases/sangod-gta6-mechanics-ai-rebuild-idea.md) — SANGOD在GTA6系统复杂度讨论中问AI能否加速建设，并类比反编译复用机制；未报告拿到游戏或实施逆向。 **[其他 AI 逆向 · 待验证]**
+- [GTA6机制重建：SANGOD的idea与tekario六Agent宣称，尚无实现证据](../cases/sangod-gta6-mechanics-ai-rebuild-idea.md) — 保留SANGOD的机制复用idea，补充tekario称REA/Opus六Agent在47分钟内做Godot重建；无代码、规格或完整测试，不认定GTA6已被还原。 **[REA · 待验证]**
 - [GOG版MDK2：Mr. K.称用REA提示修复高帧率抖动与挂起](../cases/sirstripy-mdk2-gog-rea-jitter-fix-report.md) — Mr. K.购入GOG版MDK2后报告约1600fps但抖动挂起，称几条REA提示后修好；没有补丁、版本或修复后测量。 **[REA · 待验证]**
 - [怒之铁拳：RuiNelson借LLM分析与RageDecompiler把68000逻辑重编译为C++](../cases/ruinelson-streets-of-rage-ai-static-recompilation.md) — 公开项目将初代Streets of Rage的游戏逻辑转为C++，保留SDL3硬件模拟，并以逆向状态机支持符号AI玩家；开发者致谢Claude、ChatGPT和Grok，不是完整原生重写或独立通关验证。 **[其他 AI 逆向 · 进行中]**
 - [Forza Motorsport 4：AI辅助静态重编译，公开限定硬件的帧率对照](../cases/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev以ShiftGlue和Pinyon Shift为基础将Xbox360的FM4带到Windows，公开承认AI辅助逆向；项目测试把5K与240fps分开，不能理解为5K下240fps。 **[其他 AI 逆向 · 进行中]**
