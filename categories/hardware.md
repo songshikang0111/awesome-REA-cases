@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [scapectl：Claude Code辅助恢复Fractal Scape耳机USB协议与跨平台控制器](../cases/scapectl-fractal-scape-claude-usb-hid.md) — Jamie Dubs介绍scapectl更新；公开Go项目致谢Claude Code帮助恢复USB HID协议，提供托盘、CLI和设备事件，文档只称macOS/Windows已测，Linux未测。 **[其他 AI 逆向 · 进行中]**
+- [V-gate与Car Scanner：Marcin建议用Claude Code研究受限车辆诊断](../cases/mjurczuk-vgate-car-scanner-claude-idea.md) — 在Car Scanner Pro/V-gate诊断与2024款Superb III部分控制器功能受限的讨论中，Marcin提出接电脑后用Claude Code逆向；仅为建议。 **[其他 AI 逆向 · 待验证]**
+- [魅族StarV眼镜：青山建议AI逆向停更设备](../cases/qingshan-starv-ai-glasses-reversing-idea.md) — 青山回应StarV眼镜模型老旧、翻译体验差与固件无法更新的帖子，提出试试AI逆向；没有已替换模型或恢复更新的结果。 **[其他 AI 逆向 · 待验证]**
+- [几十元遥控车：爱吃鱼称与GPT恢复蓝牙协议并制作驾驶台](../cases/peter70043350-gpt-bluetooth-toy-car-dashboard.md) — 爱吃鱼报告为儿子的便宜遥控车研究蓝牙协议，借GPT制作专属驾驶台以替代遥控器；型号、协议与控制测试未公开。 **[其他 AI 逆向 · 待验证]**
 - [旧Mi Band滚动短视频：Aditya与Claude研究手环陀螺仪](../cases/aditya-mi-band-claude-gyro-reels.md) — Aditya称正和Claude逆向旧Mi Band，想用陀螺仪滚动reels；设备用途明确，但没有型号、协议、代码或可确认运行结果。 **[其他 AI 逆向 · 进行中]**
 - [Airtel Xtream机顶盒：terminalfix征求REA逆向与精简方案](../cases/airtel-xtream-set-top-box-rea-debloat-request.md) — terminalfix询问是否有人逆向并精简Airtel Xtream机顶盒，愿请咖啡或啤酒换取分享；仅具体设备请求，没有实现结果。 **[REA · 待验证]**
 - [一加5T刷iOS：铁柱AGI提出AI/REA移植疑问](../cases/oneplus5t-ios-rea-port-idea.md) — 铁柱AGI在AI/REA讨论中询问一加5T是否可刷iOS；只有具体机型愿望，未给可行方案或运行结果。 **[REA · 待验证]**

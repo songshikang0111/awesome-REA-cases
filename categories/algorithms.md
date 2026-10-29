@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [白衬衣慢舞：sandmrk反推25.4秒三段生成规格](../cases/sandmrk-knotted-shirt-slow-groove-prompt.md) — AI art gallery把一段白衬衣舞蹈转为三片段文字规格，锁定姿态衔接、慢推镜与发丝惯性；明确生成结果仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
+- [UUID发布标记：Linoix设想用生产字符串触发AI分析拒绝](../cases/linoix-uuid-safety-filter-marker-idea.md) — Linoix提出开发时用UUID、发布时换成敏感字符串的标记切换idea，意在触发AI安全误报；只有C++草案，无编译或模型测试。 **[其他 AI 逆向 · 待验证]**
+- [宫殿猫爪舞：sandmrk反推Muse十一秒视频提示词](../cases/sandmrk-muse-cat-paw-palace-dance-prompt.md) — sandmrk把白发猫爪舞转为Muse文字规格，保留固定镜头、节奏与手套/发丝滞后；原片60fps和生成30fps分开，承认仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
 - [The Flame Ritual：sandmrk反推银甲人物与指尖火焰的Muse两镜头](../cases/sandmrk-muse-flame-ritual-video-prompt.md) — sandmrk将黑色背景中银甲人物举起指尖火焰的短片转为Muse分镜，要求火焰与缓慢手势分速、闭眼后睁红眼；生成结果仍不匹配原片。 **[其他 AI 逆向 · 分析测试]**
 - [Ziping旗袍律动：sandmrk反推Muse八秒舞蹈动作与固定镜头](../cases/sandmrk-muse-ziping-qipao-eight-second-groove.md) — sandmrk把象牙色旗袍女子的八秒舞蹈反推为Muse生成规格，逐秒约束手臂、重心、表情与音频，明确结果仍不匹配原视频。 **[其他 AI 逆向 · 分析测试]**
 - [真人换装短片重建：Nathan AI Lab介绍抽帧、关键帧锁定与CLI流水线](../cases/ai-outfit-transition-keyframe-reconstruction-workflow.md) — Nathan AI Lab介绍从换装原片抽帧反推分镜，以GPT Image锁定首尾人物、Seedance生成转场，再用Claude Code/Python串成CLI的流程；产量与视觉一致性未核验。 **[其他 AI 逆向 · 待验证]**

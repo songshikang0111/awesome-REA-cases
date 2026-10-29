@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [加拿大网络安全中心：专家引导AI分析未知恶意软件的五小时报告](../cases/canadian-cyber-centre-frontier-ai-malware-report.md) — 加拿大网络安全中心称Frontier AI Lab在专家全程引导下，把未知恶意软件转为验证情报，约五小时完成估算一周工作；无样本或独立计时。 **[其他 AI 逆向 · 待验证]**
+- [claw design：Archie设想用逆向设计工具比较KIMI与Opus](../cases/archie-claw-design-model-evaluation-idea.md) — Archie称已有逆向的claw design，可能用来比较KIMI3.1与Opus5.5的设计、空间感及多模态工具能力；尚无评测输出。 **[其他 AI 逆向 · 待验证]**
+- [Agent Web：denzell转述把网页转为REST接口供模型调用](../cases/denzell-agent-web-rest-reconstruction-report.md) — denzell介绍Agent Web团队将网页逆向成REST API，意在免去模型读UI；项目身份、具体站点与接口验证未提供。 **[未确认使用 REA · 相关项目]**
+- [Claude Code项目候补：Prashant让Opus与Fable反推可先用的skill](../cases/prash-claude-code-project-skill-reconstruction.md) — Denys回应Prashant的尝试：因不愿等Claude Code项目候补，他让Opus/Fable反推skill；没有功能范围、实现或成功结果。 **[其他 AI 逆向 · 进行中]**
+- [crackme_04.exe练习：Vyrqo提出按地址写规格再与Python差分测试](../cases/vyrqo-crackme04-python-differential-test-idea.md) — Vyrqo给出Claude Code分析练习程序、记录比较操作数、恢复校验规则并拟跑200随机输入的流程；未提供样本或测试结果。 **[其他 AI 逆向 · 待验证]**
 - [hexgrab：Claude/REA研究PowerToys取色器，九项论断中一项只对了一半](../cases/hexgrab-powertoys-colorpicker-rea-study.md) — Mukesh Murugan从PowerToys发布二进制研究取色器，再以.NET10/WPF写最小替代品；公开评分为8项完全正确、1项部分正确，跨二进制的热键注册是盲点。 **[REA · 分析测试]**
 - [逆向OpenClaw：Johannes在REA讨论中提出的目标](../cases/johannes-openclaw-rea-reversing-idea.md) — Johannes Copeland在回复REA作者的讨论中提出现在该逆向OpenClaw；只有具名目标，没有功能范围、分析材料或结果。 **[REA · 待验证]**
 - [反爬脚本的危险关键词：Mxr猫仙人转述GPT-6拒绝分析现象](../cases/mxr-antiscraping-ai-safety-keyword-report.md) — Mxr猫仙人转述某反爬公司在脚本函数名中埋危险词，使GPT-6拒绝协助分析；公司、原研究者、站点样本和模型响应均未给出。 **[其他 AI 逆向 · 待验证]**
@@ -14,7 +19,7 @@
 - [未具名公司SaaS：Jason fengg报告线下委托逆向重建并小额获利](../cases/jasonfeng-unnamed-company-saas-reconstruction-report.md) — Jason fengg在AI业务复盘中称给一家公司逆向做了SaaS并赚一点；没有原产品、功能、模型或验收细节，属于简短项目自述。 **[其他 AI 逆向 · 待验证]**
 - [Claude本地身份与遥测：stormzhang的客户端逆向线索，不是服务端封号还原](../cases/stormzhang-claude-local-identity-telemetry-analysis.md) — stormzhang称研究Claude本地代码，列账号/设备标识、失败遥测重试、配置备份与凭据存储；承认服务端黑盒，未证明标识与封号因果，也未说明AI辅助。 **[未确认使用 REA · 相关项目]**
 - [BLA对抗REA：公开诱饵与预算边界测试，不是不可逆向保证](../cases/bla-counter-rea-budget-decoy-validation.md) — 0xMarioNawfal介绍BLA保护发布产物；固定README和公开报告展示部分真实REA分析器预算错误，但不等于LLM端到端失败、实付成本暴涨或所有工具无法逆向。 **[REA · 分析测试]**
-- [Rustify：用REA证据、产品规格与分片验证组织二进制到Rust重建](../cases/rustify-rea-binary-to-rust-agent-skills.md) — Runchao Han介绍Rustify的跨Agent技能；公开README给出二进制取证、UX与架构规格、Rust实现、对照和缺口台账，目标是完整产品重建，但不证明任意目标已等价。 **[REA · 进行中]**
+- [Rustify：用REA证据、产品规格与分片验证组织二进制到Rust重建](../cases/rustify-rea-binary-to-rust-agent-skills.md) — Runchao Han介绍Rustify跨Agent重建工作流，又提出用REA执行轨迹验证保真度；规格、Rust实现与缺口台账公开，但完整产品等价与轨迹验证仍需目标实测。 **[REA · 进行中]**
 - [REA/IDA双Agent隔离：规划者只接规格，专员保留原始分析的提案](../cases/annabel-rea-ida-dual-agent-isolation-proposal.md) — Annabel等提出分离规划者与REA/IDA专员；Cloud Whisperer另报告IDA片段受限和本地模型复杂推理不足。均未给受控对照，不能保证隔离或账号安全。 **[REA · 待验证]**
 - [Claude Code状态摘要：遥测成本研究与Bun定时器拦截的转述](../cases/claude-code-agent-summary-telemetry-timer-research.md) — 爆裂队长NEXT转述Flamerix的agent_summary成本与非官方Bun钩子；公开issue支持一次四小时会话及bundle分析，不证明所有用户成本相同，也未说明研究是否由AI辅助。 **[未确认使用 REA · 相关项目]**
 - [Reall：Conra为REA fork制作可解释的五阶段界面](../cases/conra-reall-rea-explainable-gui-fork.md) — Conra称制作Reall，将REA的分析、规格、构建、验证和报告放进简单界面，支持多模型、局部目标、预算与证据展示；源码和运行结果未取得。 **[REA · 进行中]**

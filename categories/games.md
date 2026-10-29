@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Echoes Unbound：AI辅助扩展PrimeDecomp的银河战士Prime2原生移植](../cases/odrannnn-metroid-prime2-echoes-unbound.md) — Odrannnn在PrimeDecomp基础上移植Metroid Prime2，公开承认部分AI辅助，使用Aurora/SDL3/WebGPU；预发布需自备兼容镜像，不是AI从零反编译。 **[其他 AI 逆向 · 进行中]**
+- [GTA6游戏系统：SANGOD设想用AI逆向机制加快类似功能开发](../cases/sangod-gta6-mechanics-ai-rebuild-idea.md) — SANGOD在GTA6系统复杂度讨论中问AI能否加速建设，并类比反编译复用机制；未报告拿到游戏或实施逆向。 **[其他 AI 逆向 · 待验证]**
+- [GOG版MDK2：Mr. K.称用REA提示修复高帧率抖动与挂起](../cases/sirstripy-mdk2-gog-rea-jitter-fix-report.md) — Mr. K.购入GOG版MDK2后报告约1600fps但抖动挂起，称几条REA提示后修好；没有补丁、版本或修复后测量。 **[REA · 待验证]**
 - [怒之铁拳：RuiNelson借LLM分析与RageDecompiler把68000逻辑重编译为C++](../cases/ruinelson-streets-of-rage-ai-static-recompilation.md) — 公开项目将初代Streets of Rage的游戏逻辑转为C++，保留SDL3硬件模拟，并以逆向状态机支持符号AI玩家；开发者致谢Claude、ChatGPT和Grok，不是完整原生重写或独立通关验证。 **[其他 AI 逆向 · 进行中]**
 - [Forza Motorsport 4：AI辅助静态重编译，公开限定硬件的帧率对照](../cases/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev以ShiftGlue和Pinyon Shift为基础将Xbox360的FM4带到Windows，公开承认AI辅助逆向；项目测试把5K与240fps分开，不能理解为5K下240fps。 **[其他 AI 逆向 · 进行中]**
 - [老友重建旧游戏：HumanProbably考虑分摊AI额度](../cases/friends-shared-ai-credits-old-game-clone-idea.md) — HumanProbably与朋友考虑平摊AI额度，重建几十年前一起玩的游戏；游戏未具名，没有开工或可玩版本。 **[其他 AI 逆向 · 待验证]**

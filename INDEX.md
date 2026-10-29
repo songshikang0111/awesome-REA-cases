@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1234 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1249 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（257）
-- [硬件与设备互通](categories/hardware.md)（342）
-- [应用与客户端](categories/apps.md)（514）
-- [算法与功能重建](categories/algorithms.md)（121）
+- [游戏与游戏保存](categories/games.md)（260）
+- [硬件与设备互通](categories/hardware.md)（346）
+- [应用与客户端](categories/apps.md)（519）
+- [算法与功能重建](categories/algorithms.md)（124）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [Echoes Unbound：AI辅助扩展PrimeDecomp的银河战士Prime2原生移植](cases/odrannnn-metroid-prime2-echoes-unbound.md) — Odrannnn在PrimeDecomp基础上移植Metroid Prime2，公开承认部分AI辅助，使用Aurora/SDL3/WebGPU；预发布需自备兼容镜像，不是AI从零反编译。 **[其他 AI 逆向 · 进行中]**
+- [GTA6游戏系统：SANGOD设想用AI逆向机制加快类似功能开发](cases/sangod-gta6-mechanics-ai-rebuild-idea.md) — SANGOD在GTA6系统复杂度讨论中问AI能否加速建设，并类比反编译复用机制；未报告拿到游戏或实施逆向。 **[其他 AI 逆向 · 待验证]**
+- [GOG版MDK2：Mr. K.称用REA提示修复高帧率抖动与挂起](cases/sirstripy-mdk2-gog-rea-jitter-fix-report.md) — Mr. K.购入GOG版MDK2后报告约1600fps但抖动挂起，称几条REA提示后修好；没有补丁、版本或修复后测量。 **[REA · 待验证]**
 - [怒之铁拳：RuiNelson借LLM分析与RageDecompiler把68000逻辑重编译为C++](cases/ruinelson-streets-of-rage-ai-static-recompilation.md) — 公开项目将初代Streets of Rage的游戏逻辑转为C++，保留SDL3硬件模拟，并以逆向状态机支持符号AI玩家；开发者致谢Claude、ChatGPT和Grok，不是完整原生重写或独立通关验证。 **[其他 AI 逆向 · 进行中]**
 - [Forza Motorsport 4：AI辅助静态重编译，公开限定硬件的帧率对照](cases/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev以ShiftGlue和Pinyon Shift为基础将Xbox360的FM4带到Windows，公开承认AI辅助逆向；项目测试把5K与240fps分开，不能理解为5K下240fps。 **[其他 AI 逆向 · 进行中]**
 - [老友重建旧游戏：HumanProbably考虑分摊AI额度](cases/friends-shared-ai-credits-old-game-clone-idea.md) — HumanProbably与朋友考虑平摊AI额度，重建几十年前一起玩的游戏；游戏未具名，没有开工或可玩版本。 **[其他 AI 逆向 · 待验证]**
@@ -286,6 +289,10 @@
 
 ### 硬件与设备互通
 
+- [scapectl：Claude Code辅助恢复Fractal Scape耳机USB协议与跨平台控制器](cases/scapectl-fractal-scape-claude-usb-hid.md) — Jamie Dubs介绍scapectl更新；公开Go项目致谢Claude Code帮助恢复USB HID协议，提供托盘、CLI和设备事件，文档只称macOS/Windows已测，Linux未测。 **[其他 AI 逆向 · 进行中]**
+- [V-gate与Car Scanner：Marcin建议用Claude Code研究受限车辆诊断](cases/mjurczuk-vgate-car-scanner-claude-idea.md) — 在Car Scanner Pro/V-gate诊断与2024款Superb III部分控制器功能受限的讨论中，Marcin提出接电脑后用Claude Code逆向；仅为建议。 **[其他 AI 逆向 · 待验证]**
+- [魅族StarV眼镜：青山建议AI逆向停更设备](cases/qingshan-starv-ai-glasses-reversing-idea.md) — 青山回应StarV眼镜模型老旧、翻译体验差与固件无法更新的帖子，提出试试AI逆向；没有已替换模型或恢复更新的结果。 **[其他 AI 逆向 · 待验证]**
+- [几十元遥控车：爱吃鱼称与GPT恢复蓝牙协议并制作驾驶台](cases/peter70043350-gpt-bluetooth-toy-car-dashboard.md) — 爱吃鱼报告为儿子的便宜遥控车研究蓝牙协议，借GPT制作专属驾驶台以替代遥控器；型号、协议与控制测试未公开。 **[其他 AI 逆向 · 待验证]**
 - [旧Mi Band滚动短视频：Aditya与Claude研究手环陀螺仪](cases/aditya-mi-band-claude-gyro-reels.md) — Aditya称正和Claude逆向旧Mi Band，想用陀螺仪滚动reels；设备用途明确，但没有型号、协议、代码或可确认运行结果。 **[其他 AI 逆向 · 进行中]**
 - [Airtel Xtream机顶盒：terminalfix征求REA逆向与精简方案](cases/airtel-xtream-set-top-box-rea-debloat-request.md) — terminalfix询问是否有人逆向并精简Airtel Xtream机顶盒，愿请咖啡或啤酒换取分享；仅具体设备请求，没有实现结果。 **[REA · 待验证]**
 - [一加5T刷iOS：铁柱AGI提出AI/REA移植疑问](cases/oneplus5t-ios-rea-port-idea.md) — 铁柱AGI在AI/REA讨论中询问一加5T是否可刷iOS；只有具体机型愿望，未给可行方案或运行结果。 **[REA · 待验证]**
@@ -631,6 +638,11 @@
 
 ### 应用与客户端
 
+- [加拿大网络安全中心：专家引导AI分析未知恶意软件的五小时报告](cases/canadian-cyber-centre-frontier-ai-malware-report.md) — 加拿大网络安全中心称Frontier AI Lab在专家全程引导下，把未知恶意软件转为验证情报，约五小时完成估算一周工作；无样本或独立计时。 **[其他 AI 逆向 · 待验证]**
+- [claw design：Archie设想用逆向设计工具比较KIMI与Opus](cases/archie-claw-design-model-evaluation-idea.md) — Archie称已有逆向的claw design，可能用来比较KIMI3.1与Opus5.5的设计、空间感及多模态工具能力；尚无评测输出。 **[其他 AI 逆向 · 待验证]**
+- [Agent Web：denzell转述把网页转为REST接口供模型调用](cases/denzell-agent-web-rest-reconstruction-report.md) — denzell介绍Agent Web团队将网页逆向成REST API，意在免去模型读UI；项目身份、具体站点与接口验证未提供。 **[未确认使用 REA · 相关项目]**
+- [Claude Code项目候补：Prashant让Opus与Fable反推可先用的skill](cases/prash-claude-code-project-skill-reconstruction.md) — Denys回应Prashant的尝试：因不愿等Claude Code项目候补，他让Opus/Fable反推skill；没有功能范围、实现或成功结果。 **[其他 AI 逆向 · 进行中]**
+- [crackme_04.exe练习：Vyrqo提出按地址写规格再与Python差分测试](cases/vyrqo-crackme04-python-differential-test-idea.md) — Vyrqo给出Claude Code分析练习程序、记录比较操作数、恢复校验规则并拟跑200随机输入的流程；未提供样本或测试结果。 **[其他 AI 逆向 · 待验证]**
 - [hexgrab：Claude/REA研究PowerToys取色器，九项论断中一项只对了一半](cases/hexgrab-powertoys-colorpicker-rea-study.md) — Mukesh Murugan从PowerToys发布二进制研究取色器，再以.NET10/WPF写最小替代品；公开评分为8项完全正确、1项部分正确，跨二进制的热键注册是盲点。 **[REA · 分析测试]**
 - [逆向OpenClaw：Johannes在REA讨论中提出的目标](cases/johannes-openclaw-rea-reversing-idea.md) — Johannes Copeland在回复REA作者的讨论中提出现在该逆向OpenClaw；只有具名目标，没有功能范围、分析材料或结果。 **[REA · 待验证]**
 - [反爬脚本的危险关键词：Mxr猫仙人转述GPT-6拒绝分析现象](cases/mxr-antiscraping-ai-safety-keyword-report.md) — Mxr猫仙人转述某反爬公司在脚本函数名中埋危险词，使GPT-6拒绝协助分析；公司、原研究者、站点样本和模型响应均未给出。 **[其他 AI 逆向 · 待验证]**
@@ -643,7 +655,7 @@
 - [未具名公司SaaS：Jason fengg报告线下委托逆向重建并小额获利](cases/jasonfeng-unnamed-company-saas-reconstruction-report.md) — Jason fengg在AI业务复盘中称给一家公司逆向做了SaaS并赚一点；没有原产品、功能、模型或验收细节，属于简短项目自述。 **[其他 AI 逆向 · 待验证]**
 - [Claude本地身份与遥测：stormzhang的客户端逆向线索，不是服务端封号还原](cases/stormzhang-claude-local-identity-telemetry-analysis.md) — stormzhang称研究Claude本地代码，列账号/设备标识、失败遥测重试、配置备份与凭据存储；承认服务端黑盒，未证明标识与封号因果，也未说明AI辅助。 **[未确认使用 REA · 相关项目]**
 - [BLA对抗REA：公开诱饵与预算边界测试，不是不可逆向保证](cases/bla-counter-rea-budget-decoy-validation.md) — 0xMarioNawfal介绍BLA保护发布产物；固定README和公开报告展示部分真实REA分析器预算错误，但不等于LLM端到端失败、实付成本暴涨或所有工具无法逆向。 **[REA · 分析测试]**
-- [Rustify：用REA证据、产品规格与分片验证组织二进制到Rust重建](cases/rustify-rea-binary-to-rust-agent-skills.md) — Runchao Han介绍Rustify的跨Agent技能；公开README给出二进制取证、UX与架构规格、Rust实现、对照和缺口台账，目标是完整产品重建，但不证明任意目标已等价。 **[REA · 进行中]**
+- [Rustify：用REA证据、产品规格与分片验证组织二进制到Rust重建](cases/rustify-rea-binary-to-rust-agent-skills.md) — Runchao Han介绍Rustify跨Agent重建工作流，又提出用REA执行轨迹验证保真度；规格、Rust实现与缺口台账公开，但完整产品等价与轨迹验证仍需目标实测。 **[REA · 进行中]**
 - [REA/IDA双Agent隔离：规划者只接规格，专员保留原始分析的提案](cases/annabel-rea-ida-dual-agent-isolation-proposal.md) — Annabel等提出分离规划者与REA/IDA专员；Cloud Whisperer另报告IDA片段受限和本地模型复杂推理不足。均未给受控对照，不能保证隔离或账号安全。 **[REA · 待验证]**
 - [Claude Code状态摘要：遥测成本研究与Bun定时器拦截的转述](cases/claude-code-agent-summary-telemetry-timer-research.md) — 爆裂队长NEXT转述Flamerix的agent_summary成本与非官方Bun钩子；公开issue支持一次四小时会话及bundle分析，不证明所有用户成本相同，也未说明研究是否由AI辅助。 **[未确认使用 REA · 相关项目]**
 - [Reall：Conra为REA fork制作可解释的五阶段界面](cases/conra-reall-rea-explainable-gui-fork.md) — Conra称制作Reall，将REA的分析、规格、构建、验证和报告放进简单界面，支持多模型、局部目标、预算与证据展示；源码和运行结果未取得。 **[REA · 进行中]**
@@ -1148,6 +1160,9 @@
 
 ### 算法与功能重建
 
+- [白衬衣慢舞：sandmrk反推25.4秒三段生成规格](cases/sandmrk-knotted-shirt-slow-groove-prompt.md) — AI art gallery把一段白衬衣舞蹈转为三片段文字规格，锁定姿态衔接、慢推镜与发丝惯性；明确生成结果仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
+- [UUID发布标记：Linoix设想用生产字符串触发AI分析拒绝](cases/linoix-uuid-safety-filter-marker-idea.md) — Linoix提出开发时用UUID、发布时换成敏感字符串的标记切换idea，意在触发AI安全误报；只有C++草案，无编译或模型测试。 **[其他 AI 逆向 · 待验证]**
+- [宫殿猫爪舞：sandmrk反推Muse十一秒视频提示词](cases/sandmrk-muse-cat-paw-palace-dance-prompt.md) — sandmrk把白发猫爪舞转为Muse文字规格，保留固定镜头、节奏与手套/发丝滞后；原片60fps和生成30fps分开，承认仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
 - [The Flame Ritual：sandmrk反推银甲人物与指尖火焰的Muse两镜头](cases/sandmrk-muse-flame-ritual-video-prompt.md) — sandmrk将黑色背景中银甲人物举起指尖火焰的短片转为Muse分镜，要求火焰与缓慢手势分速、闭眼后睁红眼；生成结果仍不匹配原片。 **[其他 AI 逆向 · 分析测试]**
 - [Ziping旗袍律动：sandmrk反推Muse八秒舞蹈动作与固定镜头](cases/sandmrk-muse-ziping-qipao-eight-second-groove.md) — sandmrk把象牙色旗袍女子的八秒舞蹈反推为Muse生成规格，逐秒约束手臂、重心、表情与音频，明确结果仍不匹配原视频。 **[其他 AI 逆向 · 分析测试]**
 - [真人换装短片重建：Nathan AI Lab介绍抽帧、关键帧锁定与CLI流水线](cases/ai-outfit-transition-keyframe-reconstruction-workflow.md) — Nathan AI Lab介绍从换装原片抽帧反推分镜，以GPT Image锁定首尾人物、Seedance生成转场，再用Claude Code/Python串成CLI的流程；产量与视觉一致性未核验。 **[其他 AI 逆向 · 待验证]**
