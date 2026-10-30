@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Kaddo：REA辅助研究HeyClicky后公开Codex驱动的Mac助手](../cases/kaddo-rea-heyclicky-codex-macos-assistant.md) — Katleho Nkoe称用REA构建Kaddo；公开Swift/macOS实验版文档描述聊天、语音、屏幕上下文和后台Codex Agent，并明确联网、权限及本地验证器条件，未独立运行。 **[REA · 进行中]**
+- [AI Website Cloner Template：以观测与同尺寸比较重建Next.js站点](../cases/jcodesmore-ai-website-cloner-template-workflow.md) — 候选介绍URL到Next.js模板；固定README确认Map/Observe/Build/Compare、响应状态调查和缺口记录，但不保证1:1、后端恢复或资产授权。 **[其他 AI 逆向 · 进行中]**
+- [Hugging Face事件代码分析：晨空转述Claude拒答后改用自部署GLM](../cases/huggingface-incident-glm-attack-code-analysis-report.md) — 晨空称Hugging Face分析攻击代码时Claude拒答，最终自部署GLM才解读；没有原始事件报告、代码或模型输出，攻击归因和规模均未核验。 **[其他 AI 逆向 · 待验证]**
+- [B2B门户取数：SaasNext称浏览器Agent经CDP读取原始JSON](../cases/b2b-browser-agent-cdp-json-api-observation-report.md) — SaasNext报告登录供应商门户后抓Network.responseReceived响应而非读HTML/OCR，称p95为640ms；门户、模型与测量定义未公开。 **[其他 AI 逆向 · 待验证]**
 - [Safarier：多模型辅助研究Safari隐私模式的macOS多环境浏览器](../cases/safarier-ai-safari-private-webkit-browser.md) — 范飒锡Leo转述Gemini/GPT/Opus参与Safarier；公开Swift/WebKit项目文档提供多环境隔离、sing-box和本地Agent桥，但逆向方法与指纹保护效果未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [ASC：Dopax介绍给Agent按需读取APK的反编译器](../cases/asc-agent-android-decompiler-digest-report.md) — Dopax称ASC把APK当只读库、按需提取而不全量索引，面向Agent查询xref与单类反编译；性能、仓库身份和rust_ASC关系未核验。 **[其他 AI 逆向 · 待验证]**
 - [Ghidra MCP：Dopax转述200余工具的Agent分析服务](../cases/ghidra-mcp-200-tools-digest-report.md) — Dopax介绍支持GUI/headless的Ghidra MCP，声称200余工具覆盖反编译、P-code数据流、调试与结构恢复；未确认精确实现，不把production-grade视为认证。 **[其他 AI 逆向 · 待验证]**
@@ -14,7 +18,7 @@
 - [Jump Desktop Fluid：Zack Jackson的AI反编译尝试遇到官方beta](../cases/zack-jump-desktop-fluid-linux-decompile-attempt.md) — Zack Jackson称AI正尝试反编译以实现Linux的Fluid支持，随后发现Jump Desktop beta；没有自制兼容客户端或完成反编译的证据。 **[其他 AI 逆向 · 进行中]**
 - [Jiffshot：Marc-André Moreau澄清Claude只读Snagit文档与截图](../cases/jiffshot-snagit-claude-docs-screenshots-rebuild.md) — Snagit替代品Jiffshot以Rust和Avalonia UI实现；作者明确说没用REA、没反编译，只让Claude读文档和截图。功能与稳定性仍是作者报告。 **[其他 AI 逆向 · 进行中]**
 - [Yosei：An Van称授权控制Mac前让Claude反编译并在虚拟机审计](../cases/anvan-yosei-claude-macos-vm-audit-report.md) — An Van报告Claude Code在临时macOS虚拟机检查Yosei端口、流量、配对与更新，并称未发现后门或回传；版本与审计记录未公开核验。 **[其他 AI 逆向 · 待验证]**
-- [CleanMyMac/CCleaner式清理器：Opus截图重建与删除路径安全检查的自述](../cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — 两候选报告Opus5.5从CleanMyMac截图做Electron/React双平台清理器，称释放14.6GB，并修复Windows路径与启动项问题；源码与清理安全性未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [Cleanly：Opus从CleanMyMac截图重建清理器与安全检查的报告](../cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — Opus5.5截图重建Electron/React双平台清理器，后续拓跋鼠以Cleanly之名介绍并称代码/安装包已公开；14.6GB与删除安全均未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenCursor：fsconfig为Cursor式开源工作区补充第一人称报告](../cases/fsconfig-cursor-open-ai-workspace-report.md) — fsconfig本人称逆向Cursor并重建OpenCursor，提供18个免费模型及Claude Code/Codex接入；早先转述称23个AI，未核对清单或功能等价。 **[未确认使用 REA · 待验证]**
 - [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](../cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
 - [停更笔记应用：作者称REA与Claude导出14212条笔记并修复共享图片缺陷](../cases/claude-rea-dead-notes-14212-markdown-export-report.md) — 作者自述从未具名应用的2.3GB数据恢复Markdown、4517个附件和原日期，以200条抽样找出图片共享问题；无公开导出器或测试记录。 **[REA · 待验证]**

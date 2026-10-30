@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [蓝蝶落鼻：sandmrk反推Muse苗服人物11秒视频提示](../cases/sandmrk-muse-blue-butterfly-nose-prompt.md) — sandmrk把蓝蝶落在虚构苗服女性鼻尖的镜头拆成视线、停留与蝶翼时序；明确生成结果不完全匹配，未恢复模型内部机制。 **[其他 AI 逆向 · 待验证]**
+- [扶头慢摇：sandmrk反推Muse米色挂脖裙舞蹈的重心与收尾](../cases/sandmrk-muse-beige-halter-behind-head-groove.md) — sandmrk以逐秒动作、130.4BPM与固定机位重建CG舞蹈规格，描述9.5秒原片结尾的放手和挥手；承认输出仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
+- [涂鸦女孩穿行写实建筑：sandmrk反推Muse两段舞蹈提示](../cases/sandmrk-muse-doodle-girl-architecture-prompt.md) — sandmrk把2D涂鸦与3D建筑的15.1秒视频拆成两段，强调僵硬动作、风格锁和头发填满画面结尾；未验证生成匹配。 **[其他 AI 逆向 · 待验证]**
+- [女帝的一日：sandmrk把Muse宫廷视频反推为六段约55秒规格](../cases/sandmrk-muse-empress-palace-six-clip-prompt.md) — sandmrk拆解女帝幻想视频的灯会、烟花、斟酒与结尾表情，保留台词时序和镜头约束；六段工作流不等于已验证复现。 **[其他 AI 逆向 · 待验证]**
+- [Codex与Renoise：从科普参考片反推镜头节奏再用云端脚本生成](../cases/codex-renoise-reference-science-video-workflow.md) — Nathan AI Lab介绍先拉片恢复视觉hook、运镜与节奏，再调Seedance/Kling/Wan3和云端剪辑；未提供具体参考片、输出或成本/工时对照。 **[其他 AI 逆向 · 待验证]**
+- [动画反推试验：Fayeque拟用arena的gemini-3.8-flash-low对照参考视频](../cases/fayeque-gemini-arena-animation-reconstruction-trial.md) — Fayeque Peerzade称正在反推Anika所贴AI编码动画，计划测试arena模型slug能否产生相似输出；没有代码或试验结果，不替其修正模型名。 **[其他 AI 逆向 · 进行中]**
 - [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](../cases/hypit-reference-video-semantic-workflow-rebuild.md) — Nathan AI Lab介绍Hypit从视频恢复镜头、字幕与效果工作流；公开README有SVML、可选生成模型及三个示例，但爆款、100变体与成本都是项目口径，未独立渲染。 **[其他 AI 逆向 · 进行中]**
 - [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](../cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
 - [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](../cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**

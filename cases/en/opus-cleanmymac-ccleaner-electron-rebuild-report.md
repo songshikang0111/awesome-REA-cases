@@ -1,4 +1,4 @@
-# A CleanMyMac/CCleaner-style cleaner: an Opus screenshot rebuild and deletion-safety account
+# Cleanly: an Opus CleanMyMac screenshot rebuild and safety-review account
 
 Category: Applications and clients · Other AI-assisted work
 Record date: 2026-10-30
@@ -10,12 +10,16 @@ The author says a separate safety agent caught a DOCUME~1 short-path issue that 
 
 The author claims one afternoon, no manually written code and 14.6GB freed on the first click; the other post compares it with $40/year cleaners. Repository, releases, platform tests, deletion lists, space accounting and pricing were not checked. A draggable physics-bubble disk map and smoky WebGL background are described features, not proof of correct cleanup. Distinguished from existing native-Mac cleaner prototypes. This collection did not install software, delete files or reproduce safety tests. Status remains unverified.
 
-Candidate snapshots: 51 likes/2,676 views/5 reposts and 24 likes/1,232 views/1 repost.
+At 14:19:24, Tuoba Shu (@qwerty__cs) introduces the same nine-UI, eight-agent workflow with a dedicated safety reviewer under the name Cleanly, saying code, Mac/Windows installers and a development account are public. The matching workflow adds a product name and source while retaining the existing ID and URLs. Candidate short links were not independently resolved, nor were source or release signatures inspected. Downloadability is not acceptance testing or a safety recommendation. An REA hashtag does not establish actual REA use.
+
+Earlier candidate snapshots: 51 likes/2,676 views/5 reposts and 24 likes/1,232 views/1 repost.
 One afternoon, 14.6GB, $40/year and safety fixes are author accounts, not independent measurements or audits.
+New Cleanly candidate snapshot: 4 likes, 486 views, 0 reposts. Public code/installers remain a relayed claim; not installed here.
 
 ## Sources
 
 - [Candidate reports screenshot reconstruction, deletion-path review and startup-item fixes, October 30, 2026](https://x.com/i/status/2115870373300326503)
 - [Same-window follow-up: cache/user-file policy and 14.6GB claim, October 30, 2026](https://x.com/i/status/2115878519901229474)
+- [Tuoba Shu names Cleanly and reports public code/installers, October 30, 2026 at 14:19:24](https://x.com/i/status/2116052329539502389)
 
 [中文](../opus-cleanmymac-ccleaner-electron-rebuild-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

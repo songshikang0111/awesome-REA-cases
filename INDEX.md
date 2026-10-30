@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1286 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1301 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（270）
-- [硬件与设备互通](categories/hardware.md)（352）
-- [应用与客户端](categories/apps.md)（536）
-- [算法与功能重建](categories/algorithms.md)（128）
+- [游戏与游戏保存](categories/games.md)（272）
+- [硬件与设备互通](categories/hardware.md)（355）
+- [应用与客户端](categories/apps.md)（540）
+- [算法与功能重建](categories/algorithms.md)（134）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [NFS High Stakes：Fabio Makita建议Claude参考旧赛车项目并用REA适配](cases/nfs-high-stakes-claude-rea-modernization-idea.md) — Fabio Makita建议让Claude读自己的Colin McRae项目，再用REA研究Need for Speed: High Stakes；只是现代系统适配idea，未报告NFS运行结果。 **[REA · 待验证]**
+- [The Console skill：11个Claude技能组织PS2重编译与mod工作](cases/aiedge-ps2-eleven-claude-skills-report.md) — AI Edge转述11个PS2技能；公开console-skill文档确认基于PS2Recomp与前人skill，559个离线合成测试不是559款游戏可玩证明，项目明确实验限制。 **[其他 AI 逆向 · 进行中]**
 - [TabStationToo：Claude协作把PCSX2与四类JIT带进浏览器](cases/tabstationtoo-pcsx2-claude-web-port-report.md) — 不吃泡面转述Claude辅助PCSX2网页移植；固定公开README确认WebAssembly JIT、WebGPU与实验状态，提交含Claude协作署名。游戏速度是项目测量，非本合集复测。 **[其他 AI 逆向 · 进行中]**
 - [Digimon World 1：Alfian Busyro称用REA替换剧情文字](cases/alfian-digimon-world1-rea-scenario-text-mod.md) — Alfian Busyro第一人称报告用REA研究Digimon World 1并把剧情文本换成自己的内容，附视频；没有补丁、版本或文本往返验证。 **[REA · 待验证]**
 - [RDR2的Westworld式体验：Erickkkk设想REA、VR、DLSS5与NPC AI联用](cases/erick-rdr2-rea-vr-dlss-npcai-idea.md) — Erickkkk设想Codex与Opus配合REA，结合VR模式、DLSS5重制和增强NPC AI，并以Red Dead Redemption 2举例；没有开工或成果证据。 **[REA · 待验证]**
@@ -299,6 +301,9 @@
 
 ### 硬件与设备互通
 
+- [Rust Tuesdays：预告Justin演示REA用于CNC控制](cases/rust-tuesdays-justin-rea-cnc-demo-announcement.md) — Rust Bytes预告11月13日Philly Rust Tuesdays的REA/CNC演示；具体设备、协议与控制效果尚未公开核验，不能把预告写成已演示成果。 **[REA · 进行中]**
+- [SPRESENSE自定位：Kenta IDA设想让Claude复建展示并启用AtomS3转换板](cases/ciniml-spresense-claude-self-localization-idea.md) — Kenta IDA回忆Maker Faire的无内部资料SPRESENSE自定位演示，想让Claude重建；续帖称已做AtomS3转换板但搁置，尚无AI实现结果。 **[其他 AI 逆向 · 待验证]**
+- [拖挂房车：码森称Claude反编译app恢复电池与逆变器蓝牙协议](cases/marson-camper-claude-battery-inverter-bluetooth.md) — 码森称拖挂房车内Mac mini读取电池、控制逆变器的蓝牙协议来自Claude反编译厂商app；没有品牌、代码或实机验证记录。 **[其他 AI 逆向 · 待验证]**
 - [麻将眼镜助手：jev lorde转述摄像流与本地模型方案](cases/jevlorde-ai-glasses-mahjong-assistant-report.md) — jev lorde称有人逆向AI眼镜用于桌游/麻将，采用免费仓库与本地模型；没有眼镜型号、仓库链接或演示，兼容性未经核验。 **[其他 AI 逆向 · 待验证]**
 - [Kindle：justin06lee称自建LLM逆向harness并刷入自定义固件](cases/justin06lee-kindle-llm-harness-firmware-report.md) — justin06lee用Claude Code搭建逆向/安全研究harness，并称已反编译自己的Kindle和刷写自定义固件；没有型号、刷写记录或功能测试。 **[其他 AI 逆向 · 待验证]**
 - [Meta眼镜：Nikkie询问用REA研究自购设备的控制权](cases/nikkie-meta-glasses-rea-ownership-idea.md) — Nikkie询问是否有人用REA研究Meta眼镜，动机是购买后仍缺乏控制权；没有型号、协议或实际分析。 **[REA · 待验证]**
@@ -654,6 +659,10 @@
 
 ### 应用与客户端
 
+- [Kaddo：REA辅助研究HeyClicky后公开Codex驱动的Mac助手](cases/kaddo-rea-heyclicky-codex-macos-assistant.md) — Katleho Nkoe称用REA构建Kaddo；公开Swift/macOS实验版文档描述聊天、语音、屏幕上下文和后台Codex Agent，并明确联网、权限及本地验证器条件，未独立运行。 **[REA · 进行中]**
+- [AI Website Cloner Template：以观测与同尺寸比较重建Next.js站点](cases/jcodesmore-ai-website-cloner-template-workflow.md) — 候选介绍URL到Next.js模板；固定README确认Map/Observe/Build/Compare、响应状态调查和缺口记录，但不保证1:1、后端恢复或资产授权。 **[其他 AI 逆向 · 进行中]**
+- [Hugging Face事件代码分析：晨空转述Claude拒答后改用自部署GLM](cases/huggingface-incident-glm-attack-code-analysis-report.md) — 晨空称Hugging Face分析攻击代码时Claude拒答，最终自部署GLM才解读；没有原始事件报告、代码或模型输出，攻击归因和规模均未核验。 **[其他 AI 逆向 · 待验证]**
+- [B2B门户取数：SaasNext称浏览器Agent经CDP读取原始JSON](cases/b2b-browser-agent-cdp-json-api-observation-report.md) — SaasNext报告登录供应商门户后抓Network.responseReceived响应而非读HTML/OCR，称p95为640ms；门户、模型与测量定义未公开。 **[其他 AI 逆向 · 待验证]**
 - [Safarier：多模型辅助研究Safari隐私模式的macOS多环境浏览器](cases/safarier-ai-safari-private-webkit-browser.md) — 范飒锡Leo转述Gemini/GPT/Opus参与Safarier；公开Swift/WebKit项目文档提供多环境隔离、sing-box和本地Agent桥，但逆向方法与指纹保护效果未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [ASC：Dopax介绍给Agent按需读取APK的反编译器](cases/asc-agent-android-decompiler-digest-report.md) — Dopax称ASC把APK当只读库、按需提取而不全量索引，面向Agent查询xref与单类反编译；性能、仓库身份和rust_ASC关系未核验。 **[其他 AI 逆向 · 待验证]**
 - [Ghidra MCP：Dopax转述200余工具的Agent分析服务](cases/ghidra-mcp-200-tools-digest-report.md) — Dopax介绍支持GUI/headless的Ghidra MCP，声称200余工具覆盖反编译、P-code数据流、调试与结构恢复；未确认精确实现，不把production-grade视为认证。 **[其他 AI 逆向 · 待验证]**
@@ -666,7 +675,7 @@
 - [Jump Desktop Fluid：Zack Jackson的AI反编译尝试遇到官方beta](cases/zack-jump-desktop-fluid-linux-decompile-attempt.md) — Zack Jackson称AI正尝试反编译以实现Linux的Fluid支持，随后发现Jump Desktop beta；没有自制兼容客户端或完成反编译的证据。 **[其他 AI 逆向 · 进行中]**
 - [Jiffshot：Marc-André Moreau澄清Claude只读Snagit文档与截图](cases/jiffshot-snagit-claude-docs-screenshots-rebuild.md) — Snagit替代品Jiffshot以Rust和Avalonia UI实现；作者明确说没用REA、没反编译，只让Claude读文档和截图。功能与稳定性仍是作者报告。 **[其他 AI 逆向 · 进行中]**
 - [Yosei：An Van称授权控制Mac前让Claude反编译并在虚拟机审计](cases/anvan-yosei-claude-macos-vm-audit-report.md) — An Van报告Claude Code在临时macOS虚拟机检查Yosei端口、流量、配对与更新，并称未发现后门或回传；版本与审计记录未公开核验。 **[其他 AI 逆向 · 待验证]**
-- [CleanMyMac/CCleaner式清理器：Opus截图重建与删除路径安全检查的自述](cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — 两候选报告Opus5.5从CleanMyMac截图做Electron/React双平台清理器，称释放14.6GB，并修复Windows路径与启动项问题；源码与清理安全性未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [Cleanly：Opus从CleanMyMac截图重建清理器与安全检查的报告](cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — Opus5.5截图重建Electron/React双平台清理器，后续拓跋鼠以Cleanly之名介绍并称代码/安装包已公开；14.6GB与删除安全均未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenCursor：fsconfig为Cursor式开源工作区补充第一人称报告](cases/fsconfig-cursor-open-ai-workspace-report.md) — fsconfig本人称逆向Cursor并重建OpenCursor，提供18个免费模型及Claude Code/Codex接入；早先转述称23个AI，未核对清单或功能等价。 **[未确认使用 REA · 待验证]**
 - [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
 - [停更笔记应用：作者称REA与Claude导出14212条笔记并修复共享图片缺陷](cases/claude-rea-dead-notes-14212-markdown-export-report.md) — 作者自述从未具名应用的2.3GB数据恢复Markdown、4517个附件和原日期，以200条抽样找出图片共享问题；无公开导出器或测试记录。 **[REA · 待验证]**
@@ -1193,6 +1202,12 @@
 
 ### 算法与功能重建
 
+- [蓝蝶落鼻：sandmrk反推Muse苗服人物11秒视频提示](cases/sandmrk-muse-blue-butterfly-nose-prompt.md) — sandmrk把蓝蝶落在虚构苗服女性鼻尖的镜头拆成视线、停留与蝶翼时序；明确生成结果不完全匹配，未恢复模型内部机制。 **[其他 AI 逆向 · 待验证]**
+- [扶头慢摇：sandmrk反推Muse米色挂脖裙舞蹈的重心与收尾](cases/sandmrk-muse-beige-halter-behind-head-groove.md) — sandmrk以逐秒动作、130.4BPM与固定机位重建CG舞蹈规格，描述9.5秒原片结尾的放手和挥手；承认输出仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
+- [涂鸦女孩穿行写实建筑：sandmrk反推Muse两段舞蹈提示](cases/sandmrk-muse-doodle-girl-architecture-prompt.md) — sandmrk把2D涂鸦与3D建筑的15.1秒视频拆成两段，强调僵硬动作、风格锁和头发填满画面结尾；未验证生成匹配。 **[其他 AI 逆向 · 待验证]**
+- [女帝的一日：sandmrk把Muse宫廷视频反推为六段约55秒规格](cases/sandmrk-muse-empress-palace-six-clip-prompt.md) — sandmrk拆解女帝幻想视频的灯会、烟花、斟酒与结尾表情，保留台词时序和镜头约束；六段工作流不等于已验证复现。 **[其他 AI 逆向 · 待验证]**
+- [Codex与Renoise：从科普参考片反推镜头节奏再用云端脚本生成](cases/codex-renoise-reference-science-video-workflow.md) — Nathan AI Lab介绍先拉片恢复视觉hook、运镜与节奏，再调Seedance/Kling/Wan3和云端剪辑；未提供具体参考片、输出或成本/工时对照。 **[其他 AI 逆向 · 待验证]**
+- [动画反推试验：Fayeque拟用arena的gemini-3.8-flash-low对照参考视频](cases/fayeque-gemini-arena-animation-reconstruction-trial.md) — Fayeque Peerzade称正在反推Anika所贴AI编码动画，计划测试arena模型slug能否产生相似输出；没有代码或试验结果，不替其修正模型名。 **[其他 AI 逆向 · 进行中]**
 - [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](cases/hypit-reference-video-semantic-workflow-rebuild.md) — Nathan AI Lab介绍Hypit从视频恢复镜头、字幕与效果工作流；公开README有SVML、可选生成模型及三个示例，但爆款、100变体与成本都是项目口径，未独立渲染。 **[其他 AI 逆向 · 进行中]**
 - [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
 - [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**

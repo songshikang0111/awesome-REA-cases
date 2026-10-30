@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [NFS High Stakes：Fabio Makita建议Claude参考旧赛车项目并用REA适配](../cases/nfs-high-stakes-claude-rea-modernization-idea.md) — Fabio Makita建议让Claude读自己的Colin McRae项目，再用REA研究Need for Speed: High Stakes；只是现代系统适配idea，未报告NFS运行结果。 **[REA · 待验证]**
+- [The Console skill：11个Claude技能组织PS2重编译与mod工作](../cases/aiedge-ps2-eleven-claude-skills-report.md) — AI Edge转述11个PS2技能；公开console-skill文档确认基于PS2Recomp与前人skill，559个离线合成测试不是559款游戏可玩证明，项目明确实验限制。 **[其他 AI 逆向 · 进行中]**
 - [TabStationToo：Claude协作把PCSX2与四类JIT带进浏览器](../cases/tabstationtoo-pcsx2-claude-web-port-report.md) — 不吃泡面转述Claude辅助PCSX2网页移植；固定公开README确认WebAssembly JIT、WebGPU与实验状态，提交含Claude协作署名。游戏速度是项目测量，非本合集复测。 **[其他 AI 逆向 · 进行中]**
 - [Digimon World 1：Alfian Busyro称用REA替换剧情文字](../cases/alfian-digimon-world1-rea-scenario-text-mod.md) — Alfian Busyro第一人称报告用REA研究Digimon World 1并把剧情文本换成自己的内容，附视频；没有补丁、版本或文本往返验证。 **[REA · 待验证]**
 - [RDR2的Westworld式体验：Erickkkk设想REA、VR、DLSS5与NPC AI联用](../cases/erick-rdr2-rea-vr-dlss-npcai-idea.md) — Erickkkk设想Codex与Opus配合REA，结合VR模式、DLSS5重制和增强NPC AI，并以Red Dead Redemption 2举例；没有开工或成果证据。 **[REA · 待验证]**

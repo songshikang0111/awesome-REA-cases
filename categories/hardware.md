@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Rust Tuesdays：预告Justin演示REA用于CNC控制](../cases/rust-tuesdays-justin-rea-cnc-demo-announcement.md) — Rust Bytes预告11月13日Philly Rust Tuesdays的REA/CNC演示；具体设备、协议与控制效果尚未公开核验，不能把预告写成已演示成果。 **[REA · 进行中]**
+- [SPRESENSE自定位：Kenta IDA设想让Claude复建展示并启用AtomS3转换板](../cases/ciniml-spresense-claude-self-localization-idea.md) — Kenta IDA回忆Maker Faire的无内部资料SPRESENSE自定位演示，想让Claude重建；续帖称已做AtomS3转换板但搁置，尚无AI实现结果。 **[其他 AI 逆向 · 待验证]**
+- [拖挂房车：码森称Claude反编译app恢复电池与逆变器蓝牙协议](../cases/marson-camper-claude-battery-inverter-bluetooth.md) — 码森称拖挂房车内Mac mini读取电池、控制逆变器的蓝牙协议来自Claude反编译厂商app；没有品牌、代码或实机验证记录。 **[其他 AI 逆向 · 待验证]**
 - [麻将眼镜助手：jev lorde转述摄像流与本地模型方案](../cases/jevlorde-ai-glasses-mahjong-assistant-report.md) — jev lorde称有人逆向AI眼镜用于桌游/麻将，采用免费仓库与本地模型；没有眼镜型号、仓库链接或演示，兼容性未经核验。 **[其他 AI 逆向 · 待验证]**
 - [Kindle：justin06lee称自建LLM逆向harness并刷入自定义固件](../cases/justin06lee-kindle-llm-harness-firmware-report.md) — justin06lee用Claude Code搭建逆向/安全研究harness，并称已反编译自己的Kindle和刷写自定义固件；没有型号、刷写记录或功能测试。 **[其他 AI 逆向 · 待验证]**
 - [Meta眼镜：Nikkie询问用REA研究自购设备的控制权](../cases/nikkie-meta-glasses-rea-ownership-idea.md) — Nikkie询问是否有人用REA研究Meta眼镜，动机是购买后仍缺乏控制权；没有型号、协议或实际分析。 **[REA · 待验证]**
