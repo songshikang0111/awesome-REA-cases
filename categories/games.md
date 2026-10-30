@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [TabStationToo：Claude协作把PCSX2与四类JIT带进浏览器](../cases/tabstationtoo-pcsx2-claude-web-port-report.md) — 不吃泡面转述Claude辅助PCSX2网页移植；固定公开README确认WebAssembly JIT、WebGPU与实验状态，提交含Claude协作署名。游戏速度是项目测量，非本合集复测。 **[其他 AI 逆向 · 进行中]**
+- [Digimon World 1：Alfian Busyro称用REA替换剧情文字](../cases/alfian-digimon-world1-rea-scenario-text-mod.md) — Alfian Busyro第一人称报告用REA研究Digimon World 1并把剧情文本换成自己的内容，附视频；没有补丁、版本或文本往返验证。 **[REA · 待验证]**
+- [RDR2的Westworld式体验：Erickkkk设想REA、VR、DLSS5与NPC AI联用](../cases/erick-rdr2-rea-vr-dlss-npcai-idea.md) — Erickkkk设想Codex与Opus配合REA，结合VR模式、DLSS5重制和增强NPC AI，并以Red Dead Redemption 2举例；没有开工或成果证据。 **[REA · 待验证]**
 - [Mario Kart Wii移植：Journey称AI帮助反编译、稳定性未核验](../cases/journey-mario-kart-wii-ai-port-secondary-report.md) — Journey在回复中称Mario Kart Wii移植相当稳定，认为AI缩短反编译时间；没有项目身份、代码、平台或具体测试。 **[其他 AI 逆向 · 待验证]**
 - [Badlands：用Claude研究规则并重做3D赛车的读者idea](../cases/badlands-claude-3d-remake-idea.md) — 回复者认为Claude可以研究Badlands，并设想将其做成3D游戏；没有分析或实现成果。 **[其他 AI 逆向 · 待验证]**
 - [Ironman's Super Off Road：从Claude逆向讨论延伸的3D重建idea](../cases/ironman-super-off-road-3d-remake-idea.md) — Badlands讨论的回复者说也常想把Ironman's Super Off Road做成3D游戏；没有报告实际研究。 **[其他 AI 逆向 · 待验证]**

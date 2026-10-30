@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1276 cases & projects
+# 1286 cases & projects
 
-**Latest case update:** October 30, 2026, 08:13 · **Last maintained:** October 30, 2026, 08:13 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** October 30, 2026, 12:15 · **Last maintained:** October 30, 2026, 12:15 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -32,7 +32,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 6. **[Brother: scan straight to your NAS](cases/en/brother-scan-button-claude-rea-server.md)** · `2026-10-18` — Replace the PC button app with a **public Claude/REA-assisted Go service for SMB, FTP, S3 and local storage**, building on prior protocol work. A server is still required; only MFC-L2800DW firmware 1.32 is project-tested. `Public implementation`
 7. **[Claude writes proofs; Rocq checks the binaries](cases/en/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic/Theorem report machine-code no-crash proofs for **239 entry points across 123 libraries**. Single-threaded static RISC-V/Linux, inputs below 64MB; **not bug-free whole libraries**, and the checker was not independently rerun here. `Analysis test`
 8. **[Moon-Buggy: recover the rules, then build a browser game](cases/en/it-connect-moon-buggy-rea-claude-web-rebuild.md)** · `2026-10-29` article — Florian BURNEL reports **REA/Claude/Ghidra analysis of a stripped Linux binary and playable HTML in 12m29s**. Public-source teaching target; the author checks jump timing and scoring but catches a naming error. Full address report and game not independently tested here. `Analysis test`
-9. **[Forza Motorsport 4: recompile the Xbox 360 racer for Windows](cases/en/i2kiselev-forza4-ai-static-recompilation.md)** · `2026-10-29` — Public AI-assisted ShiftGlue/Vulkan project, crediting prior work. Its bounded benchmark reports **102 fps at 5K—not 240 fps at 5K**. Requires supported game files; no LIVE/Kinect, Linux still planned. Not built or benchmarked here. `Experimental`
+9. **[TabStationToo: PS2 games in a browser tab](cases/en/tabstationtoo-pcsx2-claude-web-port-report.md)** · `2026-10-30` report and project commit (Beijing time) — **PCSX2 adapted to WebAssembly JITs and WebGPU**, with Claude credited in a commit. Project reports near-full speed in selected scenes, not every game; bring your own BIOS and games. No phones, no independent gameplay test here. `Experimental`
 10. **[PicasaPy: keep a local photo workflow alive](cases/en/picasapy-ghidra-claude-codex-photo-manager.md)** · `2026-10-28` (Beijing time) — Virág Attila's **Ghidra/Claude/Codex-assisted Python/Qt rewrite** has public research specifications and successful exact-commit CI. Shared **.picasa.ini** files are not conflict-safe synchronization; project documents separate static coverage from click tests. Full parity not established; not run here. `In progress`
 
 ## Classic cases
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **267** |
-| [Hardware & interoperability](categories/en/hardware.md) | **351** |
-| [Applications & clients](categories/en/apps.md) | **531** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **127** |
+| [Games & preservation](categories/en/games.md) | **270** |
+| [Hardware & interoperability](categories/en/hardware.md) | **352** |
+| [Applications & clients](categories/en/apps.md) | **536** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **128** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

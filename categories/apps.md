@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Safarier：多模型辅助研究Safari隐私模式的macOS多环境浏览器](../cases/safarier-ai-safari-private-webkit-browser.md) — 范飒锡Leo转述Gemini/GPT/Opus参与Safarier；公开Swift/WebKit项目文档提供多环境隔离、sing-box和本地Agent桥，但逆向方法与指纹保护效果未独立核验。 **[其他 AI 逆向 · 进行中]**
+- [ASC：Dopax介绍给Agent按需读取APK的反编译器](../cases/asc-agent-android-decompiler-digest-report.md) — Dopax称ASC把APK当只读库、按需提取而不全量索引，面向Agent查询xref与单类反编译；性能、仓库身份和rust_ASC关系未核验。 **[其他 AI 逆向 · 待验证]**
+- [Ghidra MCP：Dopax转述200余工具的Agent分析服务](../cases/ghidra-mcp-200-tools-digest-report.md) — Dopax介绍支持GUI/headless的Ghidra MCP，声称200余工具覆盖反编译、P-code数据流、调试与结构恢复；未确认精确实现，不把production-grade视为认证。 **[其他 AI 逆向 · 待验证]**
+- [Servicepipe指纹脚本：危险词义函数名干扰AI分析的二手测试报告](../cases/servicepipe-ai-analysis-decoy-script-report.md) — 实践哥Li检查Servicepipe脚本；lifcc另转述veritas比较Astra/Daybreak与GLM5.3的分析表现。开发者是否故意布置拒绝陷阱、模型测试是否可重复均未核验。 **[其他 AI 逆向 · 待验证]**
+- [Antigravity：Gemini Argon发现bug后推荐社区逆向补丁的自述](../cases/neko-antigravity-gemini-community-patch-report.md) — 毒猫猫称Gemini Argon在工作中发现Antigravity bug并推荐社区逆向patch；没有bug身份、链接或安装结果，不能认定AI亲自编写修复。 **[其他 AI 逆向 · 待验证]**
 - [理想播客客户端：Moebius设想用REA综合三款应用](../cases/moebius-rea-three-podcast-apps-combination-idea.md) — Moebius在创新争论中设想用REA研究三款播客应用，再组合自己的理想客户端；仅条件式idea，没有选定应用或实现。 **[REA · 待验证]**
 - [28应用组合：DigitalGoldTalk自称19天REA/Claude研究后进入testnet](../cases/digitalgoldtalk-28-apps-rea-testnet-report.md) — DigitalGoldTalk称研究通信、社交、支付和媒体共28款应用，从Photoshop起步，现处testnet；没有完整应用表、代码或兼容测试。 **[REA · 待验证]**
 - [浏览器补丁时差：Choblin转述Epoch的GLM5.3 Firefox/Chrome对照测试](../cases/epoch-glm53-firefox-chrome-patch-gap-report.md) — 二手报告称GLM5.3研究已公开而未部署的修复，在受控Firefox测试成功、Chrome失败；未取得Epoch原报告或复测，不代表现实用户遭攻击。 **[其他 AI 逆向 · 待验证]**
@@ -38,7 +43,7 @@
 - [Chrome：Anthropic报告内部模型串联浏览器漏洞与越沙箱](../cases/anthropic-internal-claude-chrome-chain-report.md) — Ummon转述Anthropic未发布内部模型在人工初始提示后研究Chrome，串联V8与浏览器进程缺陷，并报告macOS默认浏览器打开计算器的演示；62个CVE及修复状态未独立核查。 **[其他 AI 逆向 · 分析测试]**
 - [Safari：二手报道内部Claude模型以纯数据链绕过同源策略](../cases/anthropic-internal-claude-safari-data-only-report.md) — Ummon转述Anthropic研究Safari，组合JavaScriptCore内存、Gigacage与IPC行为绕过同源策略，不依赖任意代码执行；Apple修复为转述，未复现。 **[其他 AI 逆向 · 分析测试]**
 - [Windows QUIC：二手报道内部Claude模型以Ghidra研究内核二进制](../cases/anthropic-internal-claude-windows-quic-report.md) — Ummon转述Anthropic将Windows可执行文件交给内部模型，用Ghidra等工具逆向并写注释C重现，发现HTTP/3内核QUIC越界读取导致拒绝服务；CVE与修复未独立核查。 **[其他 AI 逆向 · 分析测试]**
-- [Linux MPTCP：二手报道内部Claude模型研究内核网络竞态链](../cases/anthropic-internal-claude-linux-mptcp-report.md) — Ummon转述Anthropic内部模型研究Linux多路径TCP内核竞态，报告无凭据远程root执行及48+5分钟演示；CVE、稳定分支修复和实际影响未独立核验。 **[其他 AI 逆向 · 分析测试]**
+- [Linux MPTCP：二手报道内部Claude模型研究内核网络竞态链](../cases/anthropic-internal-claude-linux-mptcp-report.md) — SANS再次报道Claude的Linux MPTCP研究；CVE记录与Go安全团队原信确认底层IPv4 TCP释放后使用和升级建议，MPTCP只是已展示利用条件。48+5分钟为项目演示，未独立复现。 **[其他 AI 逆向 · 分析测试]**
 - [Kuna：Dopax介绍面向Agent的Rust反编译器与WASM入口](../cases/kuna-agent-rust-decompiler-report.md) — Dopax介绍Kuna为从Ghidra移植并独立演进的Rust反编译器，提供CLI、浏览器WASM和Ghidra后端；19MB约三分钟与DecBench排名为二手说法。 **[未确认使用 REA · 相关项目]**
 - [SuperGhidra：常驻Ghidra/MCP与可重编译C的项目转述](../cases/superghidra-daemon-mcp-recompilation-report.md) — Dopax介绍SuperGhidra以常驻守护进程/MCP减少headless冷启动，并称支持C改写、MSVC RTTI/MFC布局恢复与Z3等价检查；未核验具体实现或证明范围。 **[未确认使用 REA · 相关项目]**
 - [付费应用单功能替代：Delor Jr提出Grok/REA/Opus夜间经营方案](../cases/delor-grok-rea-opus-overnight-feature-business-idea.md) — Delor Jr建议Grok找抱怨、REA研究付费应用关键功能、Opus制作9美元产品并在夜间处理支持；没有具名替代品、运行或收入证据。 **[REA · 待验证]**

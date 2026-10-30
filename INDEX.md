@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1276 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1286 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（267）
-- [硬件与设备互通](categories/hardware.md)（351）
-- [应用与客户端](categories/apps.md)（531）
-- [算法与功能重建](categories/algorithms.md)（127）
+- [游戏与游戏保存](categories/games.md)（270）
+- [硬件与设备互通](categories/hardware.md)（352）
+- [应用与客户端](categories/apps.md)（536）
+- [算法与功能重建](categories/algorithms.md)（128）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [TabStationToo：Claude协作把PCSX2与四类JIT带进浏览器](cases/tabstationtoo-pcsx2-claude-web-port-report.md) — 不吃泡面转述Claude辅助PCSX2网页移植；固定公开README确认WebAssembly JIT、WebGPU与实验状态，提交含Claude协作署名。游戏速度是项目测量，非本合集复测。 **[其他 AI 逆向 · 进行中]**
+- [Digimon World 1：Alfian Busyro称用REA替换剧情文字](cases/alfian-digimon-world1-rea-scenario-text-mod.md) — Alfian Busyro第一人称报告用REA研究Digimon World 1并把剧情文本换成自己的内容，附视频；没有补丁、版本或文本往返验证。 **[REA · 待验证]**
+- [RDR2的Westworld式体验：Erickkkk设想REA、VR、DLSS5与NPC AI联用](cases/erick-rdr2-rea-vr-dlss-npcai-idea.md) — Erickkkk设想Codex与Opus配合REA，结合VR模式、DLSS5重制和增强NPC AI，并以Red Dead Redemption 2举例；没有开工或成果证据。 **[REA · 待验证]**
 - [Mario Kart Wii移植：Journey称AI帮助反编译、稳定性未核验](cases/journey-mario-kart-wii-ai-port-secondary-report.md) — Journey在回复中称Mario Kart Wii移植相当稳定，认为AI缩短反编译时间；没有项目身份、代码、平台或具体测试。 **[其他 AI 逆向 · 待验证]**
 - [Badlands：用Claude研究规则并重做3D赛车的读者idea](cases/badlands-claude-3d-remake-idea.md) — 回复者认为Claude可以研究Badlands，并设想将其做成3D游戏；没有分析或实现成果。 **[其他 AI 逆向 · 待验证]**
 - [Ironman's Super Off Road：从Claude逆向讨论延伸的3D重建idea](cases/ironman-super-off-road-3d-remake-idea.md) — Badlands讨论的回复者说也常想把Ironman's Super Off Road做成3D游戏；没有报告实际研究。 **[其他 AI 逆向 · 待验证]**
@@ -296,6 +299,7 @@
 
 ### 硬件与设备互通
 
+- [麻将眼镜助手：jev lorde转述摄像流与本地模型方案](cases/jevlorde-ai-glasses-mahjong-assistant-report.md) — jev lorde称有人逆向AI眼镜用于桌游/麻将，采用免费仓库与本地模型；没有眼镜型号、仓库链接或演示，兼容性未经核验。 **[其他 AI 逆向 · 待验证]**
 - [Kindle：justin06lee称自建LLM逆向harness并刷入自定义固件](cases/justin06lee-kindle-llm-harness-firmware-report.md) — justin06lee用Claude Code搭建逆向/安全研究harness，并称已反编译自己的Kindle和刷写自定义固件；没有型号、刷写记录或功能测试。 **[其他 AI 逆向 · 待验证]**
 - [Meta眼镜：Nikkie询问用REA研究自购设备的控制权](cases/nikkie-meta-glasses-rea-ownership-idea.md) — Nikkie询问是否有人用REA研究Meta眼镜，动机是购买后仍缺乏控制权；没有型号、协议或实际分析。 **[REA · 待验证]**
 - [PitchCom棒球通信：AI降低逆向门槛的条件式猜想](cases/pitchcom-ai-reversing-baseball-hypothesis.md) — 一条回复猜测AI可能让PitchCom逆向更容易，另设想用比赛状态预测投球；没有攻击、作弊或预测准确率证据。 **[其他 AI 逆向 · 待验证]**
@@ -309,7 +313,7 @@
 - [Airtel Xtream机顶盒：terminalfix征求REA逆向与精简方案](cases/airtel-xtream-set-top-box-rea-debloat-request.md) — terminalfix询问是否有人逆向并精简Airtel Xtream机顶盒，愿请咖啡或啤酒换取分享；仅具体设备请求，没有实现结果。 **[REA · 待验证]**
 - [一加5T刷iOS：铁柱AGI提出AI/REA移植疑问](cases/oneplus5t-ios-rea-port-idea.md) — 铁柱AGI在AI/REA讨论中询问一加5T是否可刷iOS；只有具体机型愿望，未给可行方案或运行结果。 **[REA · 待验证]**
 - [OPPO Pad mini运行iPadOS：Zhi提出AI逆向移植愿望](cases/oppo-pad-mini-ipados-ai-port-idea.md) — Zhi因小平板高刷新率话题，提出在OPPO Pad mini上用AI逆向移植iPadOS；没有技术方案、代码或运行结果。 **[其他 AI 逆向 · 待验证]**
-- [mr.y的PS5：Hermes Desktop与开放模型辅助越狱自述](cases/mry-hermes-ps5-jailbreak-report.md) — mr.y称用Hermes Desktop、OpenRouter与GLM/DeepSeek Flash辅助PS5越狱；没有固件、方法或执行日志，不代表AI发现新漏洞。 **[其他 AI 逆向 · 待验证]**
+- [mr.y的PS5：Hermes Desktop与开放模型辅助越狱自述](cases/mry-hermes-ps5-jailbreak-report.md) — mr.y称Hermes/开放模型辅助PS5越狱，续帖宣称输入固件版本后模型自动找利用并搭执行rig；无版本、利用链或日志，仍不能证明自主发现。 **[其他 AI 逆向 · 待验证]**
 - [mr.y的Android精简：Hermes Desktop辅助设备改造的简短报告](cases/mry-hermes-android-debloat-report.md) — mr.y称Hermes Desktop配合OpenRouter及GLM/DeepSeek Flash精简Android；未说明设备、包清单、逆向环节或回滚结果。 **[其他 AI 逆向 · 待验证]**
 - [哈苏X2D系列：Codex辅助CIM研究、Doom与受限自动对焦扩展](cases/radium-hasselblad-cim-codex-feature-research.md) — 极客开源转述Radium Wang用Codex研究哈苏CIM与ARM64/Qt扩展；公开固定README区分一代Doom和AF有限实机反馈、二代静态分析与未完成项目，不支持把CarPlay/GPT转述当完整验收。 **[其他 AI 逆向 · 进行中]**
 - [Pixel 9：二手报道内部Claude模型研究Android锁屏与Play services二进制](cases/anthropic-internal-claude-android-lockscreen-report.md) — Ummon转述Anthropic结合源码、Play services二进制逆向和Pixel 9实机研究锁屏访问，报告三漏洞越过四道保护；Google处理状态未独立核查。 **[其他 AI 逆向 · 分析测试]**
@@ -650,6 +654,11 @@
 
 ### 应用与客户端
 
+- [Safarier：多模型辅助研究Safari隐私模式的macOS多环境浏览器](cases/safarier-ai-safari-private-webkit-browser.md) — 范飒锡Leo转述Gemini/GPT/Opus参与Safarier；公开Swift/WebKit项目文档提供多环境隔离、sing-box和本地Agent桥，但逆向方法与指纹保护效果未独立核验。 **[其他 AI 逆向 · 进行中]**
+- [ASC：Dopax介绍给Agent按需读取APK的反编译器](cases/asc-agent-android-decompiler-digest-report.md) — Dopax称ASC把APK当只读库、按需提取而不全量索引，面向Agent查询xref与单类反编译；性能、仓库身份和rust_ASC关系未核验。 **[其他 AI 逆向 · 待验证]**
+- [Ghidra MCP：Dopax转述200余工具的Agent分析服务](cases/ghidra-mcp-200-tools-digest-report.md) — Dopax介绍支持GUI/headless的Ghidra MCP，声称200余工具覆盖反编译、P-code数据流、调试与结构恢复；未确认精确实现，不把production-grade视为认证。 **[其他 AI 逆向 · 待验证]**
+- [Servicepipe指纹脚本：危险词义函数名干扰AI分析的二手测试报告](cases/servicepipe-ai-analysis-decoy-script-report.md) — 实践哥Li检查Servicepipe脚本；lifcc另转述veritas比较Astra/Daybreak与GLM5.3的分析表现。开发者是否故意布置拒绝陷阱、模型测试是否可重复均未核验。 **[其他 AI 逆向 · 待验证]**
+- [Antigravity：Gemini Argon发现bug后推荐社区逆向补丁的自述](cases/neko-antigravity-gemini-community-patch-report.md) — 毒猫猫称Gemini Argon在工作中发现Antigravity bug并推荐社区逆向patch；没有bug身份、链接或安装结果，不能认定AI亲自编写修复。 **[其他 AI 逆向 · 待验证]**
 - [理想播客客户端：Moebius设想用REA综合三款应用](cases/moebius-rea-three-podcast-apps-combination-idea.md) — Moebius在创新争论中设想用REA研究三款播客应用，再组合自己的理想客户端；仅条件式idea，没有选定应用或实现。 **[REA · 待验证]**
 - [28应用组合：DigitalGoldTalk自称19天REA/Claude研究后进入testnet](cases/digitalgoldtalk-28-apps-rea-testnet-report.md) — DigitalGoldTalk称研究通信、社交、支付和媒体共28款应用，从Photoshop起步，现处testnet；没有完整应用表、代码或兼容测试。 **[REA · 待验证]**
 - [浏览器补丁时差：Choblin转述Epoch的GLM5.3 Firefox/Chrome对照测试](cases/epoch-glm53-firefox-chrome-patch-gap-report.md) — 二手报告称GLM5.3研究已公开而未部署的修复，在受控Firefox测试成功、Chrome失败；未取得Epoch原报告或复测，不代表现实用户遭攻击。 **[其他 AI 逆向 · 待验证]**
@@ -686,7 +695,7 @@
 - [Chrome：Anthropic报告内部模型串联浏览器漏洞与越沙箱](cases/anthropic-internal-claude-chrome-chain-report.md) — Ummon转述Anthropic未发布内部模型在人工初始提示后研究Chrome，串联V8与浏览器进程缺陷，并报告macOS默认浏览器打开计算器的演示；62个CVE及修复状态未独立核查。 **[其他 AI 逆向 · 分析测试]**
 - [Safari：二手报道内部Claude模型以纯数据链绕过同源策略](cases/anthropic-internal-claude-safari-data-only-report.md) — Ummon转述Anthropic研究Safari，组合JavaScriptCore内存、Gigacage与IPC行为绕过同源策略，不依赖任意代码执行；Apple修复为转述，未复现。 **[其他 AI 逆向 · 分析测试]**
 - [Windows QUIC：二手报道内部Claude模型以Ghidra研究内核二进制](cases/anthropic-internal-claude-windows-quic-report.md) — Ummon转述Anthropic将Windows可执行文件交给内部模型，用Ghidra等工具逆向并写注释C重现，发现HTTP/3内核QUIC越界读取导致拒绝服务；CVE与修复未独立核查。 **[其他 AI 逆向 · 分析测试]**
-- [Linux MPTCP：二手报道内部Claude模型研究内核网络竞态链](cases/anthropic-internal-claude-linux-mptcp-report.md) — Ummon转述Anthropic内部模型研究Linux多路径TCP内核竞态，报告无凭据远程root执行及48+5分钟演示；CVE、稳定分支修复和实际影响未独立核验。 **[其他 AI 逆向 · 分析测试]**
+- [Linux MPTCP：二手报道内部Claude模型研究内核网络竞态链](cases/anthropic-internal-claude-linux-mptcp-report.md) — SANS再次报道Claude的Linux MPTCP研究；CVE记录与Go安全团队原信确认底层IPv4 TCP释放后使用和升级建议，MPTCP只是已展示利用条件。48+5分钟为项目演示，未独立复现。 **[其他 AI 逆向 · 分析测试]**
 - [Kuna：Dopax介绍面向Agent的Rust反编译器与WASM入口](cases/kuna-agent-rust-decompiler-report.md) — Dopax介绍Kuna为从Ghidra移植并独立演进的Rust反编译器，提供CLI、浏览器WASM和Ghidra后端；19MB约三分钟与DecBench排名为二手说法。 **[未确认使用 REA · 相关项目]**
 - [SuperGhidra：常驻Ghidra/MCP与可重编译C的项目转述](cases/superghidra-daemon-mcp-recompilation-report.md) — Dopax介绍SuperGhidra以常驻守护进程/MCP减少headless冷启动，并称支持C改写、MSVC RTTI/MFC布局恢复与Z3等价检查；未核验具体实现或证明范围。 **[未确认使用 REA · 相关项目]**
 - [付费应用单功能替代：Delor Jr提出Grok/REA/Opus夜间经营方案](cases/delor-grok-rea-opus-overnight-feature-business-idea.md) — Delor Jr建议Grok找抱怨、REA研究付费应用关键功能、Opus制作9美元产品并在夜间处理支持；没有具名替代品、运行或收入证据。 **[REA · 待验证]**
@@ -1184,6 +1193,7 @@
 
 ### 算法与功能重建
 
+- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](cases/hypit-reference-video-semantic-workflow-rebuild.md) — Nathan AI Lab介绍Hypit从视频恢复镜头、字幕与效果工作流；公开README有SVML、可选生成模型及三个示例，但爆款、100变体与成本都是项目口径，未独立渲染。 **[其他 AI 逆向 · 进行中]**
 - [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
 - [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**
 - [1987年6502音乐例程：自称原作者者报告AI已研究其旧代码](cases/bbcpropaganda-1987-6502-music-ai-reversing.md) — @BBCPropaganda称AI逆向了自己1987年的6502音乐例程，并追述转写电影配乐曾引发诉讼；没有代码、分析报告或法律记录。 **[其他 AI 逆向 · 待验证]**

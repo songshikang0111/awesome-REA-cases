@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](../cases/hypit-reference-video-semantic-workflow-rebuild.md) — Nathan AI Lab介绍Hypit从视频恢复镜头、字幕与效果工作流；公开README有SVML、可选生成模型及三个示例，但爆款、100变体与成本都是项目口径，未独立渲染。 **[其他 AI 逆向 · 进行中]**
 - [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](../cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
 - [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](../cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**
 - [1987年6502音乐例程：自称原作者者报告AI已研究其旧代码](../cases/bbcpropaganda-1987-6502-music-ai-reversing.md) — @BBCPropaganda称AI逆向了自己1987年的6502音乐例程，并追述转写电影配乐曾引发诉讼；没有代码、分析报告或法律记录。 **[其他 AI 逆向 · 待验证]**

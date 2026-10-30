@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1276 个案例与项目
+# 1286 个案例与项目
 
-**最近案例更新：**2026 年 10 月 30 日 08:13 · **最近维护：**2026 年 10 月 30 日 08:13 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 10 月 30 日 12:15 · **最近维护：**2026 年 10 月 30 日 12:15 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -32,7 +32,7 @@
 6. **[Brother：扫描直接进 NAS](cases/brother-scan-button-claude-rea-server.md)** · `2026-10-18` — 以 **Claude/REA 辅助的公开 Go 服务替代电脑按键应用，支持 SMB、FTP、S3 与本地保存**，复用前人协议研究。仍需服务器；项目只报告测试 MFC-L2800DW 固件1.32。`公开实现`
 7. **[Claude 写证明，Rocq 检查二进制](cases/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic／Theorem 报告为 **123 库的 239 个入口**建立机器码无崩溃证明。限单线程静态 RISC-V/Linux、小于64MB输入；**不等于整库无 bug**，本合集未独立重跑检查器。`分析测试`
 8. **[Moon-Buggy：先恢复规则，再重建网页游戏](cases/it-connect-moon-buggy-rea-claude-web-rebuild.md)** · `2026-10-29`文章 — Florian BURNEL报告**REA／Claude／Ghidra分析stripped Linux二进制，12分29秒做出可玩HTML**。目标为有公开源码的教学游戏；作者核对跳跃时长与计分，也发现命名偏差。本合集未独立测试完整地址报告或游戏。`分析测试`
-9. **[Forza Motorsport 4：把Xbox360赛车带到Windows](cases/i2kiselev-forza4-ai-static-recompilation.md)** · `2026-10-29` — 公开AI辅助ShiftGlue/Vulkan项目，注明前人成果。限定环境测试报告**5K下102fps，不是5K下240fps**。需自备受支持游戏文件，不支持LIVE/Kinect，Linux仍在规划。本合集未构建或测帧。`实验版`
+9. **[TabStationToo：在浏览器标签里玩PS2](cases/tabstationtoo-pcsx2-claude-web-port-report.md)** · `2026-10-30`报道及项目提交（北京时间） — **将PCSX2适配为WebAssembly JIT与WebGPU**，提交含Claude协作署名。项目报告限定场景接近全速，不代表所有游戏；须自备BIOS与游戏。不支持手机，本合集未实测游戏。`实验版`
 10. **[PicasaPy：让本地照片工作流继续用](cases/picasapy-ghidra-claude-codex-photo-manager.md)** · `2026-10-28`（北京时间） — Virág Attila用**Ghidra／Claude／Codex辅助Python/Qt重写**，公开研究规格及精确提交的成功CI。共用**.picasa.ini**不等于无冲突同步；项目文档区分静态覆盖与点击测试。未证明全面等价，本合集未运行。`进行中`
 
 ## 经典案例
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **267** |
-| [硬件与设备互通](categories/hardware.md) | **351** |
-| [应用与客户端](categories/apps.md) | **531** |
-| [算法与功能重建](categories/algorithms.md) | **127** |
+| [游戏与游戏保存](categories/games.md) | **270** |
+| [硬件与设备互通](categories/hardware.md) | **352** |
+| [应用与客户端](categories/apps.md) | **536** |
+| [算法与功能重建](categories/algorithms.md) | **128** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
