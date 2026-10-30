@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](../cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
+- [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](../cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**
+- [1987年6502音乐例程：自称原作者者报告AI已研究其旧代码](../cases/bbcpropaganda-1987-6502-music-ai-reversing.md) — @BBCPropaganda称AI逆向了自己1987年的6502音乐例程，并追述转写电影配乐曾引发诉讼；没有代码、分析报告或法律记录。 **[其他 AI 逆向 · 待验证]**
 - [白衬衣慢舞：sandmrk反推25.4秒三段生成规格](../cases/sandmrk-knotted-shirt-slow-groove-prompt.md) — AI art gallery把一段白衬衣舞蹈转为三片段文字规格，锁定姿态衔接、慢推镜与发丝惯性；明确生成结果仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
 - [UUID发布标记：Linoix设想用生产字符串触发AI分析拒绝](../cases/linoix-uuid-safety-filter-marker-idea.md) — Linoix提出开发时用UUID、发布时换成敏感字符串的标记切换idea，意在触发AI安全误报；只有C++草案，无编译或模型测试。 **[其他 AI 逆向 · 待验证]**
 - [宫殿猫爪舞：sandmrk反推Muse十一秒视频提示词](../cases/sandmrk-muse-cat-paw-palace-dance-prompt.md) — sandmrk把白发猫爪舞转为Muse文字规格，保留固定镜头、节奏与手套/发丝滞后；原片60fps和生成30fps分开，承认仍不完全匹配。 **[其他 AI 逆向 · 待验证]**

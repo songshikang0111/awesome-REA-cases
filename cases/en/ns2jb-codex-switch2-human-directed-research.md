@@ -1,7 +1,7 @@
 # ns2jb: Codex-assisted Switch 2 research, with the author correcting the one-prompt autonomous-jailbreak story
 
 Category: Hardware and interoperability · Other AI-assisted work
-Record date: 2026-10-24
+Record date: 2026-10-30
 Stage: In progress
 
 Candidates posted between 16:10 and 19:38 Beijing time on October 22, 2026 describe pepsipu (Sammy Hajhamid), ns2jb, Codex-assisted Switch 2 firmware 23.0.1 research and a Mario Kart World mod. This review traced them to the author's public blog, jailbreaking the switch 2, dated October 18: supplementary first-party evidence from before this window, not research newly released on October 22. Its later Edit has no separate timestamp, so the correction itself is not dated October 18 here.
@@ -17,6 +17,7 @@ This review read the blog and candidates only. It downloaded or executed no expl
 Candidates originally posted 2026-10-22T16:30:18+08:00 and 17:06:02; blog originally dated 2026-10-18, with no separate Edit timestamp.
 Sealed chasm candidate snapshot (2026-10-22): 1,858 likes, 123,985 views and 90 reposts; not independent verification.
 A new candidate at 15:56:48 Beijing time on October 24, 2026 attributes comments to Mike Heskin (HexKyz); the candidate author is unavailable and Heskin's original was not obtained. It says the FS bug and object-exploitation concept were already known; the valuable new AI contribution was making heap grooming work, not discovering the entire chain. FS yields no key material and does not make kernel escalation easier. Other entry points and untethered operation remain theoretical possibilities. A predicted patch to the 23.0.1 chain is this comment's forecast, not testing of later firmware.
+At 06:44:09 Beijing time on October 30, 2026, Chen (@chenYijl) relays that SmileBASIC 4 was removed from eShop and claims older firmware remained usable with no new firmware blocking it at that time. Store history and firmware announcements were not obtained; these changeable states are not established facts here. The post repeats two weeks of research, a one-day Mario Kart World mod and loss on reboot. Generalized claims that AI found the whole chain do not supersede the existing human contributions and recorded failures. Candidate snapshot: 1 like, 18 views, 0 reposts.
 
 ## Sources
 
@@ -24,5 +25,6 @@ A new candidate at 15:56:48 Beijing time on October 24, 2026 attributes comments
 - [Candidate: Chinese report naming Sammy, JetKVM and reboot limits](https://x.com/i/status/2113195160893116655)
 - [Supplementary first-party blog and correction of the prompt/human-effort story](https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb)
 - [New candidate: FS comments attributed to Mike Heskin, October 24, 2026, secondhand](https://x.com/i/status/2113902515779477645)
+- [Current candidate: Chen relays SmileBASIC 4 removal and firmware limits, October 30, 2026](https://x.com/i/status/2115937762637443462)
 
 [中文](../ns2jb-codex-switch2-human-directed-research.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/hardware.md)

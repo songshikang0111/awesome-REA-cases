@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1260 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1276 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（263）
-- [硬件与设备互通](categories/hardware.md)（349）
-- [应用与客户端](categories/apps.md)（524）
-- [算法与功能重建](categories/algorithms.md)（124）
+- [游戏与游戏保存](categories/games.md)（267）
+- [硬件与设备互通](categories/hardware.md)（351）
+- [应用与客户端](categories/apps.md)（531）
+- [算法与功能重建](categories/algorithms.md)（127）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,10 @@
 
 ### 游戏与游戏保存
 
+- [Mario Kart Wii移植：Journey称AI帮助反编译、稳定性未核验](cases/journey-mario-kart-wii-ai-port-secondary-report.md) — Journey在回复中称Mario Kart Wii移植相当稳定，认为AI缩短反编译时间；没有项目身份、代码、平台或具体测试。 **[其他 AI 逆向 · 待验证]**
+- [Badlands：用Claude研究规则并重做3D赛车的读者idea](cases/badlands-claude-3d-remake-idea.md) — 回复者认为Claude可以研究Badlands，并设想将其做成3D游戏；没有分析或实现成果。 **[其他 AI 逆向 · 待验证]**
+- [Ironman's Super Off Road：从Claude逆向讨论延伸的3D重建idea](cases/ironman-super-off-road-3d-remake-idea.md) — Badlands讨论的回复者说也常想把Ironman's Super Off Road做成3D游戏；没有报告实际研究。 **[其他 AI 逆向 · 待验证]**
+- [Mario Kart 64网页多人版：Oliver Sauter披露AI参与并致谢手工反编译](cases/oliver-mario-kart64-ai-web-multiplayer-report.md) — Oliver Sauter称把Mario Kart 64带到网页并提供多人赛；明确依赖既有手工反编译和移植库，版权、运行与多人稳定性未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [Tachyon: The Fringe：希望AI反编译以更新引擎的读者idea](cases/tachyon-the-fringe-ai-decompilation-idea.md) — 读者希望有人用AI反编译并研究Tachyon: The Fringe，使其拥有更新引擎和同人衍生空间；尚无实施成果。 **[其他 AI 逆向 · 待验证]**
 - [SWBF Renegade Squadron：N00b_B1scu1t披露用AI反编译、移植与修改](cases/swbf-renegade-squadron-ai-decompile-port-project.md) — N00b_B1scu1t明确称正在借AI研究和移植Star Wars Battlefront: Renegade Squadron，并区分手工美术；未提供完成度或测试。 **[其他 AI 逆向 · 进行中]**
 - [Moon-Buggy：Florian BURNEL用REA与Claude读二进制并重建网页游戏](cases/it-connect-moon-buggy-rea-claude-web-rebuild.md) — IT-Connect作者在Linux Mint虚拟机用Claude Opus5.5、REA与Ghidra分析Moon-Buggy，报告12分29秒恢复规则并做独立HTML；作者核对称规则正确，仍有命名偏差。 **[REA · 分析测试]**
@@ -292,6 +296,8 @@
 
 ### 硬件与设备互通
 
+- [Kindle：justin06lee称自建LLM逆向harness并刷入自定义固件](cases/justin06lee-kindle-llm-harness-firmware-report.md) — justin06lee用Claude Code搭建逆向/安全研究harness，并称已反编译自己的Kindle和刷写自定义固件；没有型号、刷写记录或功能测试。 **[其他 AI 逆向 · 待验证]**
+- [Meta眼镜：Nikkie询问用REA研究自购设备的控制权](cases/nikkie-meta-glasses-rea-ownership-idea.md) — Nikkie询问是否有人用REA研究Meta眼镜，动机是购买后仍缺乏控制权；没有型号、协议或实际分析。 **[REA · 待验证]**
 - [PitchCom棒球通信：AI降低逆向门槛的条件式猜想](cases/pitchcom-ai-reversing-baseball-hypothesis.md) — 一条回复猜测AI可能让PitchCom逆向更容易，另设想用比赛状态预测投球；没有攻击、作弊或预测准确率证据。 **[其他 AI 逆向 · 待验证]**
 - [小米360摄像头：Danilo Dorgam拆机寻找固件，准备交给REA研究](cases/xiaomi-360-rea-firmware-chip-extraction-project.md) — Danilo Dorgam为摆脱摄像头云服务依赖拆机，未找到在线固件；计划用编程器读芯片并以REA修改，尚未报告提取或刷写成功。 **[REA · 进行中]**
 - [自购5G Wi-Fi路由器：Onur Solmaz报告DeepSeek发现空密码与API注入](cases/deepseek-opencode-5g-router-security-report.md) — Onur Solmaz称opencode go订阅中的普通DeepSeek检查自购路由器，发现SSH空密码和管理API命令注入；型号与零日属性未核实。 **[其他 AI 逆向 · 待验证]**
@@ -644,8 +650,15 @@
 
 ### 应用与客户端
 
+- [理想播客客户端：Moebius设想用REA综合三款应用](cases/moebius-rea-three-podcast-apps-combination-idea.md) — Moebius在创新争论中设想用REA研究三款播客应用，再组合自己的理想客户端；仅条件式idea，没有选定应用或实现。 **[REA · 待验证]**
+- [28应用组合：DigitalGoldTalk自称19天REA/Claude研究后进入testnet](cases/digitalgoldtalk-28-apps-rea-testnet-report.md) — DigitalGoldTalk称研究通信、社交、支付和媒体共28款应用，从Photoshop起步，现处testnet；没有完整应用表、代码或兼容测试。 **[REA · 待验证]**
+- [浏览器补丁时差：Choblin转述Epoch的GLM5.3 Firefox/Chrome对照测试](cases/epoch-glm53-firefox-chrome-patch-gap-report.md) — 二手报告称GLM5.3研究已公开而未部署的修复，在受控Firefox测试成功、Chrome失败；未取得Epoch原报告或复测，不代表现实用户遭攻击。 **[其他 AI 逆向 · 待验证]**
+- [winutil与Windows调整：gIoomy的Opus审查自述保留互相矛盾的计数](cases/gloomy-winutil-opus-readonly-tweak-audit.md) — 作者称Opus5.5先读winutil39项调整、避开BitLocker停用并备份真实设置，选七项改善电脑；启动项与服务数字不一致，未验证性能或回滚。 **[其他 AI 逆向 · 待验证]**
+- [Jump Desktop Fluid：Zack Jackson的AI反编译尝试遇到官方beta](cases/zack-jump-desktop-fluid-linux-decompile-attempt.md) — Zack Jackson称AI正尝试反编译以实现Linux的Fluid支持，随后发现Jump Desktop beta；没有自制兼容客户端或完成反编译的证据。 **[其他 AI 逆向 · 进行中]**
+- [Jiffshot：Marc-André Moreau澄清Claude只读Snagit文档与截图](cases/jiffshot-snagit-claude-docs-screenshots-rebuild.md) — Snagit替代品Jiffshot以Rust和Avalonia UI实现；作者明确说没用REA、没反编译，只让Claude读文档和截图。功能与稳定性仍是作者报告。 **[其他 AI 逆向 · 进行中]**
+- [Yosei：An Van称授权控制Mac前让Claude反编译并在虚拟机审计](cases/anvan-yosei-claude-macos-vm-audit-report.md) — An Van报告Claude Code在临时macOS虚拟机检查Yosei端口、流量、配对与更新，并称未发现后门或回传；版本与审计记录未公开核验。 **[其他 AI 逆向 · 待验证]**
 - [CleanMyMac/CCleaner式清理器：Opus截图重建与删除路径安全检查的自述](cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — 两候选报告Opus5.5从CleanMyMac截图做Electron/React双平台清理器，称释放14.6GB，并修复Windows路径与启动项问题；源码与清理安全性未独立核验。 **[其他 AI 逆向 · 待验证]**
-- [Cursor式开源AI工作区：Zruft转述fsconfig的逆向项目](cases/fsconfig-cursor-open-ai-workspace-report.md) — Zruft称fsconfig逆向Cursor并做开源AI工作区，宣称23个免费AI、5个免账号；项目身份、源码及逆向方式未核实。 **[未确认使用 REA · 待验证]**
+- [OpenCursor：fsconfig为Cursor式开源工作区补充第一人称报告](cases/fsconfig-cursor-open-ai-workspace-report.md) — fsconfig本人称逆向Cursor并重建OpenCursor，提供18个免费模型及Claude Code/Codex接入；早先转述称23个AI，未核对清单或功能等价。 **[未确认使用 REA · 待验证]**
 - [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
 - [停更笔记应用：作者称REA与Claude导出14212条笔记并修复共享图片缺陷](cases/claude-rea-dead-notes-14212-markdown-export-report.md) — 作者自述从未具名应用的2.3GB数据恢复Markdown、4517个附件和原日期，以200条抽样找出图片共享问题；无公开导出器或测试记录。 **[REA · 待验证]**
 - [类Windows的Linux：用AI反编译驱动并重建Office兼容软件的愿景](cases/ai-windows-like-linux-driver-office-rebuild-idea.md) — 候选提出把Linux做成Windows式体验，以AI反编译驱动并重建Word、Excel与PowerPoint等软件；仅idea，没有移植或兼容测试。 **[其他 AI 逆向 · 待验证]**
@@ -1171,6 +1184,9 @@
 
 ### 算法与功能重建
 
+- [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
+- [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**
+- [1987年6502音乐例程：自称原作者者报告AI已研究其旧代码](cases/bbcpropaganda-1987-6502-music-ai-reversing.md) — @BBCPropaganda称AI逆向了自己1987年的6502音乐例程，并追述转写电影配乐曾引发诉讼；没有代码、分析报告或法律记录。 **[其他 AI 逆向 · 待验证]**
 - [白衬衣慢舞：sandmrk反推25.4秒三段生成规格](cases/sandmrk-knotted-shirt-slow-groove-prompt.md) — AI art gallery把一段白衬衣舞蹈转为三片段文字规格，锁定姿态衔接、慢推镜与发丝惯性；明确生成结果仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
 - [UUID发布标记：Linoix设想用生产字符串触发AI分析拒绝](cases/linoix-uuid-safety-filter-marker-idea.md) — Linoix提出开发时用UUID、发布时换成敏感字符串的标记切换idea，意在触发AI安全误报；只有C++草案，无编译或模型测试。 **[其他 AI 逆向 · 待验证]**
 - [宫殿猫爪舞：sandmrk反推Muse十一秒视频提示词](cases/sandmrk-muse-cat-paw-palace-dance-prompt.md) — sandmrk把白发猫爪舞转为Muse文字规格，保留固定镜头、节奏与手套/发丝滞后；原片60fps和生成30fps分开，承认仍不完全匹配。 **[其他 AI 逆向 · 待验证]**

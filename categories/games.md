@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Mario Kart Wii移植：Journey称AI帮助反编译、稳定性未核验](../cases/journey-mario-kart-wii-ai-port-secondary-report.md) — Journey在回复中称Mario Kart Wii移植相当稳定，认为AI缩短反编译时间；没有项目身份、代码、平台或具体测试。 **[其他 AI 逆向 · 待验证]**
+- [Badlands：用Claude研究规则并重做3D赛车的读者idea](../cases/badlands-claude-3d-remake-idea.md) — 回复者认为Claude可以研究Badlands，并设想将其做成3D游戏；没有分析或实现成果。 **[其他 AI 逆向 · 待验证]**
+- [Ironman's Super Off Road：从Claude逆向讨论延伸的3D重建idea](../cases/ironman-super-off-road-3d-remake-idea.md) — Badlands讨论的回复者说也常想把Ironman's Super Off Road做成3D游戏；没有报告实际研究。 **[其他 AI 逆向 · 待验证]**
+- [Mario Kart 64网页多人版：Oliver Sauter披露AI参与并致谢手工反编译](../cases/oliver-mario-kart64-ai-web-multiplayer-report.md) — Oliver Sauter称把Mario Kart 64带到网页并提供多人赛；明确依赖既有手工反编译和移植库，版权、运行与多人稳定性未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [Tachyon: The Fringe：希望AI反编译以更新引擎的读者idea](../cases/tachyon-the-fringe-ai-decompilation-idea.md) — 读者希望有人用AI反编译并研究Tachyon: The Fringe，使其拥有更新引擎和同人衍生空间；尚无实施成果。 **[其他 AI 逆向 · 待验证]**
 - [SWBF Renegade Squadron：N00b_B1scu1t披露用AI反编译、移植与修改](../cases/swbf-renegade-squadron-ai-decompile-port-project.md) — N00b_B1scu1t明确称正在借AI研究和移植Star Wars Battlefront: Renegade Squadron，并区分手工美术；未提供完成度或测试。 **[其他 AI 逆向 · 进行中]**
 - [Moon-Buggy：Florian BURNEL用REA与Claude读二进制并重建网页游戏](../cases/it-connect-moon-buggy-rea-claude-web-rebuild.md) — IT-Connect作者在Linux Mint虚拟机用Claude Opus5.5、REA与Ghidra分析Moon-Buggy，报告12分29秒恢复规则并做独立HTML；作者核对称规则正确，仍有命名偏差。 **[REA · 分析测试]**

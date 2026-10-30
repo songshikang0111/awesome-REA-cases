@@ -2,8 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [理想播客客户端：Moebius设想用REA综合三款应用](../cases/moebius-rea-three-podcast-apps-combination-idea.md) — Moebius在创新争论中设想用REA研究三款播客应用，再组合自己的理想客户端；仅条件式idea，没有选定应用或实现。 **[REA · 待验证]**
+- [28应用组合：DigitalGoldTalk自称19天REA/Claude研究后进入testnet](../cases/digitalgoldtalk-28-apps-rea-testnet-report.md) — DigitalGoldTalk称研究通信、社交、支付和媒体共28款应用，从Photoshop起步，现处testnet；没有完整应用表、代码或兼容测试。 **[REA · 待验证]**
+- [浏览器补丁时差：Choblin转述Epoch的GLM5.3 Firefox/Chrome对照测试](../cases/epoch-glm53-firefox-chrome-patch-gap-report.md) — 二手报告称GLM5.3研究已公开而未部署的修复，在受控Firefox测试成功、Chrome失败；未取得Epoch原报告或复测，不代表现实用户遭攻击。 **[其他 AI 逆向 · 待验证]**
+- [winutil与Windows调整：gIoomy的Opus审查自述保留互相矛盾的计数](../cases/gloomy-winutil-opus-readonly-tweak-audit.md) — 作者称Opus5.5先读winutil39项调整、避开BitLocker停用并备份真实设置，选七项改善电脑；启动项与服务数字不一致，未验证性能或回滚。 **[其他 AI 逆向 · 待验证]**
+- [Jump Desktop Fluid：Zack Jackson的AI反编译尝试遇到官方beta](../cases/zack-jump-desktop-fluid-linux-decompile-attempt.md) — Zack Jackson称AI正尝试反编译以实现Linux的Fluid支持，随后发现Jump Desktop beta；没有自制兼容客户端或完成反编译的证据。 **[其他 AI 逆向 · 进行中]**
+- [Jiffshot：Marc-André Moreau澄清Claude只读Snagit文档与截图](../cases/jiffshot-snagit-claude-docs-screenshots-rebuild.md) — Snagit替代品Jiffshot以Rust和Avalonia UI实现；作者明确说没用REA、没反编译，只让Claude读文档和截图。功能与稳定性仍是作者报告。 **[其他 AI 逆向 · 进行中]**
+- [Yosei：An Van称授权控制Mac前让Claude反编译并在虚拟机审计](../cases/anvan-yosei-claude-macos-vm-audit-report.md) — An Van报告Claude Code在临时macOS虚拟机检查Yosei端口、流量、配对与更新，并称未发现后门或回传；版本与审计记录未公开核验。 **[其他 AI 逆向 · 待验证]**
 - [CleanMyMac/CCleaner式清理器：Opus截图重建与删除路径安全检查的自述](../cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — 两候选报告Opus5.5从CleanMyMac截图做Electron/React双平台清理器，称释放14.6GB，并修复Windows路径与启动项问题；源码与清理安全性未独立核验。 **[其他 AI 逆向 · 待验证]**
-- [Cursor式开源AI工作区：Zruft转述fsconfig的逆向项目](../cases/fsconfig-cursor-open-ai-workspace-report.md) — Zruft称fsconfig逆向Cursor并做开源AI工作区，宣称23个免费AI、5个免账号；项目身份、源码及逆向方式未核实。 **[未确认使用 REA · 待验证]**
+- [OpenCursor：fsconfig为Cursor式开源工作区补充第一人称报告](../cases/fsconfig-cursor-open-ai-workspace-report.md) — fsconfig本人称逆向Cursor并重建OpenCursor，提供18个免费模型及Claude Code/Codex接入；早先转述称23个AI，未核对清单或功能等价。 **[未确认使用 REA · 待验证]**
 - [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](../cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
 - [停更笔记应用：作者称REA与Claude导出14212条笔记并修复共享图片缺陷](../cases/claude-rea-dead-notes-14212-markdown-export-report.md) — 作者自述从未具名应用的2.3GB数据恢复Markdown、4517个附件和原日期，以200条抽样找出图片共享问题；无公开导出器或测试记录。 **[REA · 待验证]**
 - [类Windows的Linux：用AI反编译驱动并重建Office兼容软件的愿景](../cases/ai-windows-like-linux-driver-office-rebuild-idea.md) — 候选提出把Linux做成Windows式体验，以AI反编译驱动并重建Word、Excel与PowerPoint等软件；仅idea，没有移植或兼容测试。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Kindle：justin06lee称自建LLM逆向harness并刷入自定义固件](../cases/justin06lee-kindle-llm-harness-firmware-report.md) — justin06lee用Claude Code搭建逆向/安全研究harness，并称已反编译自己的Kindle和刷写自定义固件；没有型号、刷写记录或功能测试。 **[其他 AI 逆向 · 待验证]**
+- [Meta眼镜：Nikkie询问用REA研究自购设备的控制权](../cases/nikkie-meta-glasses-rea-ownership-idea.md) — Nikkie询问是否有人用REA研究Meta眼镜，动机是购买后仍缺乏控制权；没有型号、协议或实际分析。 **[REA · 待验证]**
 - [PitchCom棒球通信：AI降低逆向门槛的条件式猜想](../cases/pitchcom-ai-reversing-baseball-hypothesis.md) — 一条回复猜测AI可能让PitchCom逆向更容易，另设想用比赛状态预测投球；没有攻击、作弊或预测准确率证据。 **[其他 AI 逆向 · 待验证]**
 - [小米360摄像头：Danilo Dorgam拆机寻找固件，准备交给REA研究](../cases/xiaomi-360-rea-firmware-chip-extraction-project.md) — Danilo Dorgam为摆脱摄像头云服务依赖拆机，未找到在线固件；计划用编程器读芯片并以REA修改，尚未报告提取或刷写成功。 **[REA · 进行中]**
 - [自购5G Wi-Fi路由器：Onur Solmaz报告DeepSeek发现空密码与API注入](../cases/deepseek-opencode-5g-router-security-report.md) — Onur Solmaz称opencode go订阅中的普通DeepSeek检查自购路由器，发现SSH空密码和管理API命令注入；型号与零日属性未核实。 **[其他 AI 逆向 · 待验证]**
