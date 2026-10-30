@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [sh4vita：Claude／Codex辅助把《寂静岭4》PC版静态重编译到PS Vita](../cases/sh4vita-silent-hill4-claude-codex-static-port.md) — vallfrr公开Ghidra函数导出、x86转C及vitaGL运行时，项目报告实机从头到尾可玩；限定GOG v5，繁忙场景低于30fps、长局内存不足等问题仍保留。 **[其他 AI 逆向 · 进行中]**
+- [xmen2-pc：Claude Code辅助重建《X战警2》，扩展四人回滚联机](../cases/xmen2-pc-claude-genesis-native-port.md) — crabsmack公开Genesis原生PC移植，称3047个C函数字节匹配、117个汇编函数指令级对照无差异；四人、宽屏与插值高刷是新增功能，测试较少，未独立重跑。 **[其他 AI 逆向 · 进行中]**
 - [初代Xbox Halo进浏览器：葡文AI周报的多人移植说法](../cases/halo-first-xbox-browser-multiplayer-ai-report.md) — 葡文帖子称首款Xbox Halo经AI辅助拆解后可在浏览器多人游玩；无项目名、开发者、链接或测试，不与OpenCE、Halo3或其他系列项目混同。 **[其他 AI 逆向 · 待验证]**
 - [SM64进入房间：lifcc转述Lucas Martinic的Opus／XR空间碰撞demo](../cases/lucas-martinic-sm64-opus-xr-room-report.md) — lifcc称Lucas Martinic利用已有SM64反编译成果与XR套件，让Opus衔接C物理和空间网格、手部碰撞；90FPS、整部游戏与具体头显兼容尚未核验。 **[其他 AI 逆向 · 待验证]**
 - [NFS High Stakes：Fabio Makita建议Claude参考旧赛车项目并用REA适配](../cases/nfs-high-stakes-claude-rea-modernization-idea.md) — Fabio Makita建议让Claude读自己的Colin McRae项目，再用REA研究Need for Speed: High Stakes；只是现代系统适配idea，未报告NFS运行结果。 **[REA · 待验证]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](../cases/rea-electron-hidden-network-call-blind-test.md) — 作者称未告知REA自建Electron应用结构，仍识别一窗口、一preload、三桥函数、三私有通道及一隐藏网络调用；30秒和全部命中均未独立重跑。 **[REA · 分析测试]**
 - [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](../cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
 - [Mac听写应用：Chrome转述REA／Hopper先写行为规格再重建](../cases/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome转述三部分教程，以Hopper输出辨识Mac听写应用的热键、录音和本地转写，再按文字规格构建自己的版本；软件名称、源码与等价测试未给出。 **[REA · 待验证]**
 - [浏览器连回Omarchy：Patrick称Grok Bot与Claude研究Google远程桌面](../cases/journeydeck-google-remote-desktop-claude-omarchy.md) — Patrick称只用浏览器与Cloudflare账号连回家中Omarchy电脑；后续承认延迟很差，仅用于Claude、复制粘贴与终端，安全性未验证。 **[其他 AI 逆向 · 待验证]**
@@ -441,7 +442,7 @@
 - [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](../cases/ledger-reborn-accounting-app.md) — 第三方 quote 帖称开发者以 REA + Ghidra 研究 QuickBooks 的库存成本、预算与对账，并发布 Windows / Mac 预览版。 **[REA · 相关项目]**
 - [红果短剧：用 REA 逆向并去除广告与悬浮窗](../cases/hongguo-short-drama-ad-removal.md) — 发帖者自述用 REA 逆向红果短剧应用，实现去广告和去悬浮窗功能；连续观看一天未见广告的结果尚未独立核验。 **[REA · 待验证]**
 - [Profound：用 REA 研究并重建 SaaS 工作台](../cases/profound-rea-reconstruction.md) — 作者称用 REA 逆向 Profound 的官网、工作台与管理后台并开源重建项目；所述数据为虚构示例，功能尚未独立核验。 **[REA · 待验证]**
-- [Codex Desktop：作者尝试用 REA 研究其与 CLI 的差异](../cases/codex-desktop-rea-attempt.md) — 作者自述尝试用 REA 逆向 Codex 桌面版，以了解其为何优于 Codex CLI；未报告分析结果或验证。 **[REA · 进行中]**
+- [Codex Desktop：REA差异研究尝试与Grok开源平替idea](../cases/codex-desktop-rea-attempt.md) — 早期作者称用REA研究Codex桌面版与CLI差异；10月31日另一读者向Grok提出反编译并构建开源平替，均未报告发现、代码或验证。 **[REA · 进行中]**
 - [Mac 桌面软件：用 REA 制作分析文档与 UI 参考手册](../cases/mac-app-rea-analysis-workflow.md) — 作者称用 WorkBuddy、DeepSeek 与 REA 分析 Mac 软件，并生成技术/UI 文档及采集工具。 **[REA · 待验证]**
 - [Apple Weather：作者自述用 REA 重建天气应用](../cases/apple-weather-rea-rebuild.md) — 发帖者称用 REA 制作 Apple Weather 克隆；其评分比较未说明方法或独立验证。 **[REA · 待验证]**
 - [Linux cal：从无符号程序追出 1752 年日历切换](../cases/linux-cal-1752-switch.md) — 用 REA 分析无符号 calendar 二进制，定位 1752 年缺失日期规则并作选项测试。 **[REA]**

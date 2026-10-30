@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [火柴人动画：请求Grok反推Deepseek／Gemini对比片的提示词](../cases/deepseek-gemini-stickfigure-grok-prompt-request.md) — 作者在Deepseek v4.1 Flash对Gemini Carbon的火柴人动画帖中请求Grok反推提示词；只是具体视觉提示重建idea，没有返回提示或复现结果。 **[其他 AI 逆向 · 待验证]**
+- [CoinGlass BTC回撤：AI助手小黑报告公式复建与末根价格滞后](../cases/xiaohei-coinglass-btc-drawdown-audit.md) — 小黑自称AI交易助手，在第51轮CoinGlass审计中给出price／历史最高收盘价−1，称最大残差0.005百分点，并指出末根使用T-1价格造成回撤读数差异。 **[其他 AI 逆向 · 分析测试]**
+- [竞争Agent群重写实验：跨队反编译、隐藏故障与独立裁判的idea](../cases/adversarial-agent-swarms-binary-rebuild-benchmark-idea.md) — EERandomness提出多模型隔离团队独立重写同一代码库，红队反编译对手二进制、裁判按功能与性能排名；包含故意注入bug的双面Agent，没有实际运行。 **[其他 AI 逆向 · 待验证]**
 - [Earshot fit：把参考录音拟合成可调代码配方](../cases/earshot-fit-recording-to-parametric-code.md) — 小能猫介绍Earshot供Agent听觉审查与音频逆向合成；公开固定README说明以分析合成拟合录音为参数化Python配方，并披露新留出集并非全面优胜、没有0.4盲听。 **[其他 AI 逆向 · 分析测试]**
 - [粉紫挂脖裙指舞：sandmrk反推Muse约7.5秒动作与中途切断](../cases/sandmrk-muse-mauve-halter-reach-point-groove.md) — sandmrk把Muse固定镜头指舞拆为逐秒手势、重心与结束组合，明确生成结果不能完全匹配；节拍与画面尺寸是作者规格，不是独立测量。 **[其他 AI 逆向 · 待验证]**
 - [雪国列车升镜：Leaf Yeah!反推10秒AI视频提示](../cases/snow-train-ai-video-ten-second-prompt-reconstruction.md) — Leaf Yeah!从未知AI工具的视频反推雪国列车、雪尘、低机位到无人机俯视的10秒一镜到底prompt；未报告使用哪种AI分析或再生成验证。 **[未确认使用 REA · 待验证]**

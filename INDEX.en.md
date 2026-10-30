@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1317 entries**, organized by use case, without a Top-N or popularity threshold.
+**1326 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (274)
-- [Hardware and interoperability](categories/en/hardware.md) (355)
-- [Applications and clients](categories/en/apps.md) (551)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (137)
+- [Games and preservation](categories/en/games.md) (276)
+- [Hardware and interoperability](categories/en/hardware.md) (358)
+- [Applications and clients](categories/en/apps.md) (552)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (140)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [sh4vita: Claude/Codex-assisted static recompilation brings Silent Hill 4 PC to PS Vita](cases/en/sh4vita-silent-hill4-claude-codex-static-port.md) — vallfrr publishes Ghidra function export, x86-to-C translation and a vitaGL runtime, reporting start-to-finish hardware playability. GOG v5 only; sub-30fps heavy scenes and long-session memory failures remain documented. **[Other AI-assisted work · In progress]**
+- [xmen2-pc: Claude Code-assisted X-Men 2 reconstruction adds four-player rollback multiplayer](cases/en/xmen2-pc-claude-genesis-native-port.md) — crabsmack publishes a native Genesis-to-PC port, reporting 3,047 byte-matching C functions and 117 assembly functions with no instruction-level comparison differences. Four-player, widescreen and interpolated high-refresh features are newer and less tested; not rerun here. **[Other AI-assisted work · In progress]**
 - [The first Xbox Halo in a browser: a Portuguese AI roundup claims a multiplayer port](cases/en/halo-first-xbox-browser-multiplayer-ai-report.md) — A Portuguese post claims AI-assisted disassembly brought the first Xbox Halo to browser multiplayer. No project, developer, link or test identifies it; not conflated with OpenCE, Halo 3 or other franchise projects. **[Other AI-assisted work · Needs verification]**
 - [SM64 inside a room: lifcc relays Lucas Martinic's Opus/XR spatial-collision demo](cases/en/lucas-martinic-sm64-opus-xr-room-report.md) — lifcc credits existing SM64 decompilation and XR tooling, with Opus reportedly joining C physics to spatial meshes and hand colliders. 90 fps, whole-game coverage and headset compatibility are unverified. **[Other AI-assisted work · Needs verification]**
 - [NFS High Stakes: Fabio Makita proposes a Claude/REA adaptation using his earlier racing project](cases/en/nfs-high-stakes-claude-rea-modernization-idea.md) — Fabio Makita suggests having Claude read his Colin McRae project and use REA on Need for Speed: High Stakes. This is a modern-system adaptation idea, not a reported NFS result. **[REA · Needs verification]**
@@ -305,6 +307,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Yealink firmware: a reader hopes Claude or Codex will inspect suspicious content](cases/en/yealink-claude-codex-firmware-audit-wish.md) — A reply to venturetwins hopes Claude or Codex thoroughly inspected Yealink firmware. A named-vendor audit wish, with no device model, performed investigation or finding established. **[Other AI-assisted work · Needs verification]**
+- [Brother toner tuning: an author reports studying drivers and firmware with REA in Visual Studio](cases/en/brother-toner-rea-visual-studio-tuning-report.md) — A Norwegian author reports using reverse-engineer-anything and AI on a personal Brother printer's drivers/firmware to reduce toner use. No model, parameters, consumption measurements or print-quality comparison is supplied. **[REA · Needs verification]**
+- [Bastion: Claude router-privacy research leads to a bounded desktop network checker](cases/en/bastion-claude-router-privacy-network-guard-report.md) — An author reports building Bastion after Claude-assisted router research. The public README limits checks to LAN observations, not proven WAN exposure or other devices' traffic, and still places scheduled watch on the roadmap, unlike the promotional post. **[Other AI-assisted work · In progress]**
 - [Rust Tuesdays: an announced Justin demo of REA for CNC control](cases/en/rust-tuesdays-justin-rea-cnc-demo-announcement.md) — Rust Bytes announces a November 13 Philly Rust Tuesdays REA/CNC demo. Hardware, protocol and control results remain unchecked; an announcement is not a completed demonstration. **[REA · In progress]**
 - [SPRESENSE localization: Kenta IDA considers a Claude reconstruction and an idle AtomS3 adapter](cases/en/ciniml-spresense-claude-self-localization-idea.md) — Kenta IDA recalls a Maker Faire SPRESENSE localization demo built without internal information and proposes using Claude. A follow-up mentions an already-made but idle AtomS3 adapter, not an AI implementation result. **[Other AI-assisted work · Needs verification]**
 - [A travel trailer: Marson credits Claude app decompilation with battery and inverter Bluetooth integration](cases/en/marson-camper-claude-battery-inverter-bluetooth.md) — Marson says a trailer's Mac mini reads the battery and controls its inverter through Bluetooth protocols recovered by Claude from vendor apps. Brands, code and hardware-validation records are absent. **[Other AI-assisted work · Needs verification]**
@@ -663,6 +668,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [A hidden Electron network call: the author reports REA matching a homemade answer key in 30 seconds](cases/en/rea-electron-hidden-network-call-blind-test.md) — An author says REA recovered one window, one preload, three bridge functions, three private channels and a hidden network call without being told the structure. The timing and complete matches were not independently rerun. **[REA · Analysis test]**
 - [Privy CLI: dashboard-request research exposes developer-account management to agents](cases/en/privy-cli-dashboard-api-agent-management.md) — Samarth publishes an unofficial Privy management CLI based on dashboard requests. npm confirms 0.1.0; documentation excludes wallet signing and warns that undocumented APIs can change. Not run or acceptance-tested here. **[REA use unconfirmed · Related project]**
 - [A Mac dictation app: Chrome relays REA/Hopper behavior specifications followed by a rebuild](cases/en/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome describes a three-part tutorial identifying hotkeys, recording and local transcription through Hopper output before building from a written specification. Product identity, source and equivalence tests are absent. **[REA · Needs verification]**
 - [Browser access to Omarchy: Patrick reports Google Remote Desktop research with Grok Bot and Claude](cases/en/journeydeck-google-remote-desktop-claude-omarchy.md) — Patrick reports reaching his home Omarchy computer with a browser and Cloudflare account. A follow-up admits poor latency and limits use to Claude, copy/paste and terminal work; security is unchecked. **[Other AI-assisted work · Needs verification]**
@@ -1102,7 +1108,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Ledger Reborn: An Independent Accounting App Informed by QuickBooks Study](cases/en/ledger-reborn-accounting-app.md) — A third-party quote post says a developer studied QuickBooks with REA + Ghidra for inventory costs, budgets and reconciliation, then released Windows and Mac previews. **[REA · Related project]**
 - [Hongguo Short Drama: REA-assisted reverse engineering to remove ads and overlays](cases/en/hongguo-short-drama-ad-removal.md) — The poster says they used REA to reverse-engineer the Hongguo short-drama app and implement ad and overlay removal; the reported day-long ad-free result is unverified. **[REA · Needs verification]**
 - [Profound: a reported REA-assisted SaaS reconstruction](cases/en/profound-rea-reconstruction.md) — The poster says REA was used to study and recreate Profound’s website, workspace and admin pages, then open-source the project; the demo data is fictional and functionality is not independently verified. **[REA · Needs verification]**
-- [Codex Desktop: author reports trying REA to study its differences from CLI](cases/en/codex-desktop-rea-attempt.md) — The author says they tried REA to reverse engineer Codex desktop and understand how it differs from Codex CLI; no findings or validation are reported. **[REA · In progress]**
+- [Codex Desktop: an REA comparison attempt and a Grok-directed open-source alternative idea](cases/en/codex-desktop-rea-attempt.md) — An earlier author reports using REA to compare Codex Desktop with CLI. On October 31 another reader asks Grok about decompiling an open-source alternative. Neither supplies findings, code or validation. **[REA · In progress]**
 - [Mac desktop app: REA-assisted analysis and reference materials](cases/en/mac-app-rea-analysis-workflow.md) — A post reports using WorkBuddy, DeepSeek and REA to analyze an unnamed Mac app and produce UI/technical documents plus a capture tool; claims are not independently verified. **[REA · Needs verification]**
 - [Apple Weather: reported REA-assisted rebuild](cases/en/apple-weather-rea-rebuild.md) — A poster says they made an Apple Weather clone with REA; the reported scores lack methods and independent verification. **[REA · Needs verification]**
 - [Linux cal: tracing the 1752 calendar switch](cases/en/linux-cal-1752-switch.md) — A post reports using REA on a stripped calendar binary to locate the 1752 date-switch rule and test country/calendar options; results are not independently reproduced. **[REA]**
@@ -1217,6 +1223,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Stick-figure animation: asking Grok to infer a prompt from a Deepseek/Gemini comparison](cases/en/deepseek-gemini-stickfigure-grok-prompt-request.md) — A Deepseek v4.1 Flash versus Gemini Carbon post asks Grok to infer a stick-figure animation prompt. A concrete visual-prompt reconstruction idea, with no returned prompt or reproduced output. **[Other AI-assisted work · Needs verification]**
+- [CoinGlass BTC drawdown: AI assistant Xiaohei reports formula reconstruction and a stale final price](cases/en/xiaohei-coinglass-btc-drawdown-audit.md) — Self-described trading AI Xiaohei's round 51 audit gives price / running maximum close - 1, claims a 0.005-percentage-point maximum residual and attributes a drawdown discrepancy to a T-1 price in the final bar. **[Other AI-assisted work · Analysis test]**
+- [Competitive agent-swarm rewrites: an idea combining cross-team decompilation, hidden faults and independent judges](cases/en/adversarial-agent-swarms-binary-rebuild-benchmark-idea.md) — EERandomness proposes isolated multi-model teams rewriting one codebase, red teams decompiling rival binaries and judges ranking functionality/performance. Deliberate bug-injecting double agents are part of the proposal; no run is reported. **[Other AI-assisted work · Needs verification]**
 - [Earshot fit: reconstructing a reference recording as adjustable code](cases/en/earshot-fit-recording-to-parametric-code.md) — A post presents Earshot's agent listening and inverse audio synthesis. A pinned README describes recording-to-Python parameter fitting and discloses mixed fresh-held-out results and no 0.4 listening test. **[Other AI-assisted work · Analysis test]**
 - [Mauve halter-dress pointing groove: sandmrk reconstructs a roughly 7.5-second Muse dance](cases/en/sandmrk-muse-mauve-halter-reach-point-groove.md) — sandmrk specifies second-by-second gestures, weight shifts and a mid-motion ending, explicitly acknowledging an incomplete generated match. Tempo and dimensions are author specifications, not independent measurements. **[Other AI-assisted work · Needs verification]**
 - [A rising shot over a snow train: Leaf Yeah! reconstructs a ten-second AI-video prompt](cases/en/snow-train-ai-video-ten-second-prompt-reconstruction.md) — Leaf Yeah! proposes a ten-second continuous shot of a snow train, drifting snow and a ground-to-drone camera rise from an unidentified AI tool's output. No analysis model or regenerated comparison is reported. **[REA use unconfirmed · Needs verification]**

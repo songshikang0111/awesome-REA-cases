@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1317 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1326 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（274）
-- [硬件与设备互通](categories/hardware.md)（355）
-- [应用与客户端](categories/apps.md)（551）
-- [算法与功能重建](categories/algorithms.md)（137）
+- [游戏与游戏保存](categories/games.md)（276）
+- [硬件与设备互通](categories/hardware.md)（358）
+- [应用与客户端](categories/apps.md)（552）
+- [算法与功能重建](categories/algorithms.md)（140）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [sh4vita：Claude／Codex辅助把《寂静岭4》PC版静态重编译到PS Vita](cases/sh4vita-silent-hill4-claude-codex-static-port.md) — vallfrr公开Ghidra函数导出、x86转C及vitaGL运行时，项目报告实机从头到尾可玩；限定GOG v5，繁忙场景低于30fps、长局内存不足等问题仍保留。 **[其他 AI 逆向 · 进行中]**
+- [xmen2-pc：Claude Code辅助重建《X战警2》，扩展四人回滚联机](cases/xmen2-pc-claude-genesis-native-port.md) — crabsmack公开Genesis原生PC移植，称3047个C函数字节匹配、117个汇编函数指令级对照无差异；四人、宽屏与插值高刷是新增功能，测试较少，未独立重跑。 **[其他 AI 逆向 · 进行中]**
 - [初代Xbox Halo进浏览器：葡文AI周报的多人移植说法](cases/halo-first-xbox-browser-multiplayer-ai-report.md) — 葡文帖子称首款Xbox Halo经AI辅助拆解后可在浏览器多人游玩；无项目名、开发者、链接或测试，不与OpenCE、Halo3或其他系列项目混同。 **[其他 AI 逆向 · 待验证]**
 - [SM64进入房间：lifcc转述Lucas Martinic的Opus／XR空间碰撞demo](cases/lucas-martinic-sm64-opus-xr-room-report.md) — lifcc称Lucas Martinic利用已有SM64反编译成果与XR套件，让Opus衔接C物理和空间网格、手部碰撞；90FPS、整部游戏与具体头显兼容尚未核验。 **[其他 AI 逆向 · 待验证]**
 - [NFS High Stakes：Fabio Makita建议Claude参考旧赛车项目并用REA适配](cases/nfs-high-stakes-claude-rea-modernization-idea.md) — Fabio Makita建议让Claude读自己的Colin McRae项目，再用REA研究Need for Speed: High Stakes；只是现代系统适配idea，未报告NFS运行结果。 **[REA · 待验证]**
@@ -303,6 +305,9 @@
 
 ### 硬件与设备互通
 
+- [Yealink固件：读者希望Claude／Codex检查可疑内容](cases/yealink-claude-codex-firmware-audit-wish.md) — 回复venturetwins的读者希望Claude或Codex彻底审查Yealink固件；只是针对具名厂商的审计愿望，没有型号、已进行研究或发现证据。 **[其他 AI 逆向 · 待验证]**
+- [Brother碳粉调校：作者称在Visual Studio用REA研究驱动与固件](cases/brother-toner-rea-visual-studio-tuning-report.md) — 挪威语作者报告用reverse-engineer-anything和AI拆解自有Brother驱动及固件，微调后降低碳粉消耗；没有型号、参数、用量或打印质量对照。 **[REA · 待验证]**
+- [Bastion：从Claude路由器隐私研究转向有边界的桌面网络检查器](cases/bastion-claude-router-privacy-network-guard-report.md) — 作者称Claude研究自有路由器后创建Bastion；公开README明确只从LAN检查、不能证明WAN暴露或看到其他设备流量，定时监看仍在路线图，与推广帖有所出入。 **[其他 AI 逆向 · 进行中]**
 - [Rust Tuesdays：预告Justin演示REA用于CNC控制](cases/rust-tuesdays-justin-rea-cnc-demo-announcement.md) — Rust Bytes预告11月13日Philly Rust Tuesdays的REA/CNC演示；具体设备、协议与控制效果尚未公开核验，不能把预告写成已演示成果。 **[REA · 进行中]**
 - [SPRESENSE自定位：Kenta IDA设想让Claude复建展示并启用AtomS3转换板](cases/ciniml-spresense-claude-self-localization-idea.md) — Kenta IDA回忆Maker Faire的无内部资料SPRESENSE自定位演示，想让Claude重建；续帖称已做AtomS3转换板但搁置，尚无AI实现结果。 **[其他 AI 逆向 · 待验证]**
 - [拖挂房车：码森称Claude反编译app恢复电池与逆变器蓝牙协议](cases/marson-camper-claude-battery-inverter-bluetooth.md) — 码森称拖挂房车内Mac mini读取电池、控制逆变器的蓝牙协议来自Claude反编译厂商app；没有品牌、代码或实机验证记录。 **[其他 AI 逆向 · 待验证]**
@@ -661,6 +666,7 @@
 
 ### 应用与客户端
 
+- [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](cases/rea-electron-hidden-network-call-blind-test.md) — 作者称未告知REA自建Electron应用结构，仍识别一窗口、一preload、三桥函数、三私有通道及一隐藏网络调用；30秒和全部命中均未独立重跑。 **[REA · 分析测试]**
 - [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
 - [Mac听写应用：Chrome转述REA／Hopper先写行为规格再重建](cases/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome转述三部分教程，以Hopper输出辨识Mac听写应用的热键、录音和本地转写，再按文字规格构建自己的版本；软件名称、源码与等价测试未给出。 **[REA · 待验证]**
 - [浏览器连回Omarchy：Patrick称Grok Bot与Claude研究Google远程桌面](cases/journeydeck-google-remote-desktop-claude-omarchy.md) — Patrick称只用浏览器与Cloudflare账号连回家中Omarchy电脑；后续承认延迟很差，仅用于Claude、复制粘贴与终端，安全性未验证。 **[其他 AI 逆向 · 待验证]**
@@ -1100,7 +1106,7 @@
 - [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](cases/ledger-reborn-accounting-app.md) — 第三方 quote 帖称开发者以 REA + Ghidra 研究 QuickBooks 的库存成本、预算与对账，并发布 Windows / Mac 预览版。 **[REA · 相关项目]**
 - [红果短剧：用 REA 逆向并去除广告与悬浮窗](cases/hongguo-short-drama-ad-removal.md) — 发帖者自述用 REA 逆向红果短剧应用，实现去广告和去悬浮窗功能；连续观看一天未见广告的结果尚未独立核验。 **[REA · 待验证]**
 - [Profound：用 REA 研究并重建 SaaS 工作台](cases/profound-rea-reconstruction.md) — 作者称用 REA 逆向 Profound 的官网、工作台与管理后台并开源重建项目；所述数据为虚构示例，功能尚未独立核验。 **[REA · 待验证]**
-- [Codex Desktop：作者尝试用 REA 研究其与 CLI 的差异](cases/codex-desktop-rea-attempt.md) — 作者自述尝试用 REA 逆向 Codex 桌面版，以了解其为何优于 Codex CLI；未报告分析结果或验证。 **[REA · 进行中]**
+- [Codex Desktop：REA差异研究尝试与Grok开源平替idea](cases/codex-desktop-rea-attempt.md) — 早期作者称用REA研究Codex桌面版与CLI差异；10月31日另一读者向Grok提出反编译并构建开源平替，均未报告发现、代码或验证。 **[REA · 进行中]**
 - [Mac 桌面软件：用 REA 制作分析文档与 UI 参考手册](cases/mac-app-rea-analysis-workflow.md) — 作者称用 WorkBuddy、DeepSeek 与 REA 分析 Mac 软件，并生成技术/UI 文档及采集工具。 **[REA · 待验证]**
 - [Apple Weather：作者自述用 REA 重建天气应用](cases/apple-weather-rea-rebuild.md) — 发帖者称用 REA 制作 Apple Weather 克隆；其评分比较未说明方法或独立验证。 **[REA · 待验证]**
 - [Linux cal：从无符号程序追出 1752 年日历切换](cases/linux-cal-1752-switch.md) — 用 REA 分析无符号 calendar 二进制，定位 1752 年缺失日期规则并作选项测试。 **[REA]**
@@ -1215,6 +1221,9 @@
 
 ### 算法与功能重建
 
+- [火柴人动画：请求Grok反推Deepseek／Gemini对比片的提示词](cases/deepseek-gemini-stickfigure-grok-prompt-request.md) — 作者在Deepseek v4.1 Flash对Gemini Carbon的火柴人动画帖中请求Grok反推提示词；只是具体视觉提示重建idea，没有返回提示或复现结果。 **[其他 AI 逆向 · 待验证]**
+- [CoinGlass BTC回撤：AI助手小黑报告公式复建与末根价格滞后](cases/xiaohei-coinglass-btc-drawdown-audit.md) — 小黑自称AI交易助手，在第51轮CoinGlass审计中给出price／历史最高收盘价−1，称最大残差0.005百分点，并指出末根使用T-1价格造成回撤读数差异。 **[其他 AI 逆向 · 分析测试]**
+- [竞争Agent群重写实验：跨队反编译、隐藏故障与独立裁判的idea](cases/adversarial-agent-swarms-binary-rebuild-benchmark-idea.md) — EERandomness提出多模型隔离团队独立重写同一代码库，红队反编译对手二进制、裁判按功能与性能排名；包含故意注入bug的双面Agent，没有实际运行。 **[其他 AI 逆向 · 待验证]**
 - [Earshot fit：把参考录音拟合成可调代码配方](cases/earshot-fit-recording-to-parametric-code.md) — 小能猫介绍Earshot供Agent听觉审查与音频逆向合成；公开固定README说明以分析合成拟合录音为参数化Python配方，并披露新留出集并非全面优胜、没有0.4盲听。 **[其他 AI 逆向 · 分析测试]**
 - [粉紫挂脖裙指舞：sandmrk反推Muse约7.5秒动作与中途切断](cases/sandmrk-muse-mauve-halter-reach-point-groove.md) — sandmrk把Muse固定镜头指舞拆为逐秒手势、重心与结束组合，明确生成结果不能完全匹配；节拍与画面尺寸是作者规格，不是独立测量。 **[其他 AI 逆向 · 待验证]**
 - [雪国列车升镜：Leaf Yeah!反推10秒AI视频提示](cases/snow-train-ai-video-ten-second-prompt-reconstruction.md) — Leaf Yeah!从未知AI工具的视频反推雪国列车、雪尘、低机位到无人机俯视的10秒一镜到底prompt；未报告使用哪种AI分析或再生成验证。 **[未确认使用 REA · 待验证]**

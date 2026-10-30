@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1317 cases & projects
+# 1326 cases & projects
 
-**Latest case update:** October 31, 2026, 00:13 · **Last maintained:** October 31, 2026, 00:13 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** October 31, 2026, 04:12 · **Last maintained:** October 31, 2026, 04:12 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -32,7 +32,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 6. **[Brother: scan straight to your NAS](cases/en/brother-scan-button-claude-rea-server.md)** · `2026-10-18` — Replace the PC button app with a **public Claude/REA-assisted Go service for SMB, FTP, S3 and local storage**, building on prior protocol work. A server is still required; only MFC-L2800DW firmware 1.32 is project-tested. `Public implementation`
 7. **[Claude writes proofs; Rocq checks the binaries](cases/en/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic/Theorem report machine-code no-crash proofs for **239 entry points across 123 libraries**. Single-threaded static RISC-V/Linux, inputs below 64MB; **not bug-free whole libraries**, and the checker was not independently rerun here. `Analysis test`
 8. **[Earshot fit: turn a recording into adjustable code](cases/en/earshot-fit-recording-to-parametric-code.md)** · `2026-10-30` report; `2026-10-22` project documentation — **Fit a reference sound to a Python synthesis recipe** for new takes and parameter changes, available to agents through CLI/MCP. Public benchmarks retain regressions as well as gains; private reference clips and **no 0.4 listening test** limit verification. Not run here. `Analysis test`
-9. **[TabStationToo: PS2 games in a browser tab](cases/en/tabstationtoo-pcsx2-claude-web-port-report.md)** · `2026-10-30` report and project commit (Beijing time) — **PCSX2 adapted to WebAssembly JITs and WebGPU**, with Claude credited in a commit. Project reports near-full speed in selected scenes, not every game; bring your own BIOS and games. No phones, no independent gameplay test here. `Experimental`
+9. **[X-Men 2: from Genesis to four-player PC co-op](cases/en/xmen2-pc-claude-genesis-native-port.md)** · `2026-10-31` report; `2026-10-28` project documentation — crabsmack credits Claude Code with a native Windows/Linux port, reporting **3,047 byte-matching C functions** plus instruction-level checks for 117 assembly functions. Adds rollback and widescreen; four-player modes are less tested. Bring your own ROM; not rerun here. `Public implementation`
 10. **[PicasaPy: keep a local photo workflow alive](cases/en/picasapy-ghidra-claude-codex-photo-manager.md)** · `2026-10-28` (Beijing time) — Virág Attila's **Ghidra/Claude/Codex-assisted Python/Qt rewrite** has public research specifications and successful exact-commit CI. Shared **.picasa.ini** files are not conflict-safe synchronization; project documents separate static coverage from click tests. Full parity not established; not run here. `In progress`
 
 ## Classic cases
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **274** |
-| [Hardware & interoperability](categories/en/hardware.md) | **355** |
-| [Applications & clients](categories/en/apps.md) | **551** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **137** |
+| [Games & preservation](categories/en/games.md) | **276** |
+| [Hardware & interoperability](categories/en/hardware.md) | **358** |
+| [Applications & clients](categories/en/apps.md) | **552** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **140** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

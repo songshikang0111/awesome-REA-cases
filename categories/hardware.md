@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Yealink固件：读者希望Claude／Codex检查可疑内容](../cases/yealink-claude-codex-firmware-audit-wish.md) — 回复venturetwins的读者希望Claude或Codex彻底审查Yealink固件；只是针对具名厂商的审计愿望，没有型号、已进行研究或发现证据。 **[其他 AI 逆向 · 待验证]**
+- [Brother碳粉调校：作者称在Visual Studio用REA研究驱动与固件](../cases/brother-toner-rea-visual-studio-tuning-report.md) — 挪威语作者报告用reverse-engineer-anything和AI拆解自有Brother驱动及固件，微调后降低碳粉消耗；没有型号、参数、用量或打印质量对照。 **[REA · 待验证]**
+- [Bastion：从Claude路由器隐私研究转向有边界的桌面网络检查器](../cases/bastion-claude-router-privacy-network-guard-report.md) — 作者称Claude研究自有路由器后创建Bastion；公开README明确只从LAN检查、不能证明WAN暴露或看到其他设备流量，定时监看仍在路线图，与推广帖有所出入。 **[其他 AI 逆向 · 进行中]**
 - [Rust Tuesdays：预告Justin演示REA用于CNC控制](../cases/rust-tuesdays-justin-rea-cnc-demo-announcement.md) — Rust Bytes预告11月13日Philly Rust Tuesdays的REA/CNC演示；具体设备、协议与控制效果尚未公开核验，不能把预告写成已演示成果。 **[REA · 进行中]**
 - [SPRESENSE自定位：Kenta IDA设想让Claude复建展示并启用AtomS3转换板](../cases/ciniml-spresense-claude-self-localization-idea.md) — Kenta IDA回忆Maker Faire的无内部资料SPRESENSE自定位演示，想让Claude重建；续帖称已做AtomS3转换板但搁置，尚无AI实现结果。 **[其他 AI 逆向 · 待验证]**
 - [拖挂房车：码森称Claude反编译app恢复电池与逆变器蓝牙协议](../cases/marson-camper-claude-battery-inverter-bluetooth.md) — 码森称拖挂房车内Mac mini读取电池、控制逆变器的蓝牙协议来自Claude反编译厂商app；没有品牌、代码或实机验证记录。 **[其他 AI 逆向 · 待验证]**

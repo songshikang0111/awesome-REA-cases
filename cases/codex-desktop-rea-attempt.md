@@ -1,19 +1,21 @@
-# Codex Desktop：作者尝试用 REA 研究其与 CLI 的差异
+# Codex Desktop：REA差异研究尝试与Grok开源平替idea
 
 分类：应用与客户端 · REA
-记录日期：2026-10-15
+记录日期：2026-10-31
 阶段：进行中
 
-一则个人自述称，作者在其两个 Codex 账号被封后想到自己曾尝试用 REA 逆向 Codex desktop，目的是理解它为何比 Codex CLI 工作得更好。该帖没有说明账号封禁原因，也没有提供逆向分析的发现、重建或验证，因此只能作为作者报告的尝试记录。
+较早的一则个人自述称，作者在其两个Codex账号被封后想到自己曾尝试用REA逆向Codex Desktop，目的是理解它为何比Codex CLI工作得更好。该帖没有说明封禁原因，也没有分析发现、重建或验证；账号事件不建立逆向导致封禁的因果。
 
-evidence: author self-report
-stage: attempted analysis; no findings reported
-target: Codex desktop
-purpose: compare behavior with Codex CLI
-account-ban causation: unconfirmed
+2026年10月31日03:36:40（北京时间），另一读者以Codex App不开源为背景，直接向@grok提出为何没人尝试反编译并构建开源平替。此处追加同一桌面应用目标的替代品idea，保留既有ID与来源，不把两人视为同一作者或同一实施项目。新的请求未提REA，也未说已经调用Grok完成分析。
+
+没有具体App版本、期望功能、平台、样本、仓库、规格或测试；不能认定取得源码、已重建完整客户端或可复用OpenAI私有服务能力。原有进行中状态只表示早期作者报告的尝试仍无结果，新的开源平替仍是未验证建议。本合集未下载、反编译或运行Codex App，也未验证账号事件。
+
+早期证据为作者自述：尝试比较Codex Desktop与CLI，未报告发现；账号封禁因果未确认。
+10月31日新候选快照0赞、36浏览、0转发；另一读者仅提出开源平替idea，不冒充早期项目进展。
 
 ## 来源
 
 - [作者自述尝试用 REA 研究 Codex desktop](https://x.com/i/status/2110377021402661320)
+- [另一读者向Grok提出Codex App反编译开源平替idea，2026-10-31 03:36:40](https://x.com/i/status/2116252970270745059)
 
 [English](en/codex-desktop-rea-attempt.md) | [返回目录](../README.zh-CN.md)

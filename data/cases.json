@@ -1,5 +1,159 @@
 [
   {
+    "id": "deepseek-gemini-stickfigure-grok-prompt-request",
+    "title": "火柴人动画：请求Grok反推Deepseek／Gemini对比片的提示词",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "作者在Deepseek v4.1 Flash对Gemini Carbon的火柴人动画帖中请求Grok反推提示词；只是具体视觉提示重建idea，没有返回提示或复现结果。",
+    "description": "2026年10月31日00:08:44（北京时间），一则以Deepseek v4.1 Flash vs Gemini Carbon为题的帖子称赞火柴人动画，并直接请求@grok“给我逆向出它的提示词”。目标是从参考动画推导可生成类似效果的文字条件，而非恢复模型权重、内部算法或原始源码。\n\n候选未包含Grok回答、推导出的提示、生成对照、时长、帧率或成功率；本合集未观看短链动画，不能确认它由标题中的哪一模型生成，也不将标题模型名当独立核验的版本。按具体现象的AI辅助提示重建想法保留，不声称已经反推出原始提示，或类似输出能证明原提示唯一。REA未提及，没有执行生成或测试。",
+    "sources": [{"label": "作者请求Grok反推火柴人动画提示，2026-10-31 00:08:44", "url": "https://x.com/i/status/2116200641219764267"}],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照1赞、199浏览、0转发；仅有请求，没有完成证据。"],
+    "en": {
+      "title": "Stick-figure animation: asking Grok to infer a prompt from a Deepseek/Gemini comparison",
+      "summary": "A Deepseek v4.1 Flash versus Gemini Carbon post asks Grok to infer a stick-figure animation prompt. A concrete visual-prompt reconstruction idea, with no returned prompt or reproduced output.",
+      "description": "At 00:08:44 Beijing time on October 31, 2026, a post headed Deepseek v4.1 Flash vs Gemini Carbon praises a stick-figure animation and directly asks @grok to reverse-engineer its prompt. The target is a textual condition for generating a similar reference animation, not model weights, internal algorithms or original source.\n\nThe candidate contains no Grok response, inferred prompt, generated comparison, duration, frame rate or success rate. This collection did not watch the short-linked animation and cannot determine which named model generated it; the heading is not independent version verification. Retained as a specific AI-assisted prompt-reconstruction idea, not a recovered original prompt or evidence that similar output identifies a unique original prompt. REA is unspecified; no generation or test was performed.",
+      "metadata": ["Candidate snapshot: 1 like, 199 views, 0 reposts. A request only, with no completion evidence."],
+      "source_labels": ["Author asks Grok to infer the stick-figure animation prompt, October 31, 2026 at 00:08:44"]
+    }
+  },
+  {
+    "id": "rea-electron-hidden-network-call-blind-test",
+    "title": "Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "作者称未告知REA自建Electron应用结构，仍识别一窗口、一preload、三桥函数、三私有通道及一隐藏网络调用；30秒和全部命中均未独立重跑。",
+    "description": "2026年10月31日00:36:00（北京时间），作者在REA指南推广帖中报告一个自建小样本：应用包含一窗口、一preload脚本、三桥函数、三私有通道和一条刻意隐藏的网络调用。作者称没有先告诉REA这些答案，工具在30秒内发现网络调用并指出证明文件，其他数目也全部相符。目标是检查Agent能否从未见软件建立带证据的结构图，尤其发现未披露的通信行为。\n\n原帖没有给样本名、仓库、构建版本、模型修订、调用地址、实际文件名、完整工具输出或计时记录。所谓盲测是作者描述的答案隐瞒，不是本合集控制的独立实验；发现网络调用也不等于证实恶意或数据外泄。它不同于既有四通道Electron Notes测试，也不与Codex三种已知答案fixture或公开Notes导出追踪合并。\n\n作者推荐枚举窗口、preload与IPC，并要求每项引用文件和函数、列出未解决部分。指南还提两会话重建方法，但该段未展示重建产物或行为等价测试。按受控小样本分析报告收录，不外推任意Electron应用的准确率、速度或安全审计能力；未执行目标、安装REA或重跑样本。",
+    "sources": [{"label": "作者报告REA隐藏网络调用小样本与结构计数，2026-10-31 00:36", "url": "https://x.com/i/status/2116207500542239018"}],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照21赞、517浏览、2转发；30秒与结构全部命中为作者自述。"],
+    "en": {
+      "title": "A hidden Electron network call: the author reports REA matching a homemade answer key in 30 seconds",
+      "summary": "An author says REA recovered one window, one preload, three bridge functions, three private channels and a hidden network call without being told the structure. The timing and complete matches were not independently rerun.",
+      "description": "At 00:36:00 Beijing time on October 31, 2026, an author promoting an REA guide reports a homemade fixture containing one window, one preload script, three bridge functions, three private channels and one deliberately hidden network call. They say none of these answers was supplied to REA in advance, yet it found the call in 30 seconds, cited the proving file and matched every other count. The goal is testing whether an agent can map unfamiliar software with evidence, especially undisclosed communication.\n\nNo fixture name, repository, build revision, model revision, destination address, actual filename, complete tool output or timing log is supplied. Blind testing here means the author's claimed withholding of answers, not an independently controlled experiment by this collection. Finding a network call establishes neither malicious behavior nor exfiltration. This differs from the existing four-channel Electron Notes test and is not merged with Codex's three known-answer fixtures or public Notes export tracing.\n\nThe writer recommends enumerating windows, preload and IPC, citing a file and function for each claim and listing unresolved findings. A two-session rebuilding method is also advertised, but no rebuilt artifact or behavioral-equivalence test appears in this segment. Retained as a controlled small-sample analysis report, without extrapolating accuracy, speed or security-audit coverage to arbitrary Electron apps. No target execution, REA installation or fixture rerun occurred here.",
+      "metadata": ["Candidate snapshot: 21 likes, 517 views, 2 reposts. Thirty seconds and complete structural matches are author reports."],
+      "source_labels": ["Author reports the REA hidden-network-call fixture and structural counts, October 31, 2026 at 00:36"]
+    }
+  },
+  {
+    "id": "xiaohei-coinglass-btc-drawdown-audit",
+    "title": "CoinGlass BTC回撤：AI助手小黑报告公式复建与末根价格滞后",
+    "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
+    "summary": "小黑自称AI交易助手，在第51轮CoinGlass审计中给出price／历史最高收盘价−1，称最大残差0.005百分点，并指出末根使用T-1价格造成回撤读数差异。",
+    "description": "2026年10月31日01:25:34（北京时间），自称学习交易的AI助手Xiaohei（小黑）发布CoinGlass审计第51轮结果，目标是理解BTC drawdown页面的计算方式及其显示是否及时。帖子给出value = price / running max close - 1，称已完整逆向该页面，最大残差0.005个百分点。这里running max close指截至相应时间的最高收盘价；不把它扩大为CoinGlass全站所有指标已恢复。\n\n作者报告页面当时显示-34.86%，自己对照的“真实”值为-38.04%，归因为末根bar沿用T-1价格。这些数值及原因都是帖文分析，不是本合集取得行情序列后复算的结论；没有原始数据、时间粒度、采样区间、时区、脚本或截图对照可检验，也不能由单点差异认定平台故意误导。\n\n保留为AI参与的具体金融指标行为重建与数据时效检查，不是交易策略绩效、投资建议或已修复平台错误。第51轮是作者的系列编号，不声称已审读前50轮。未确认所用模型或REA，未调用交易接口、抓取行情或执行代码。",
+    "sources": [{"label": "小黑的CoinGlass第51轮BTC回撤审计，2026-10-31 01:25:34", "url": "https://x.com/i/status/2116219975140770249"}],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照0赞、13浏览、0转发；0.005pp、-34.86%与-38.04%均为作者值。"],
+    "en": {
+      "title": "CoinGlass BTC drawdown: AI assistant Xiaohei reports formula reconstruction and a stale final price",
+      "summary": "Self-described trading AI Xiaohei's round 51 audit gives price / running maximum close - 1, claims a 0.005-percentage-point maximum residual and attributes a drawdown discrepancy to a T-1 price in the final bar.",
+      "description": "At 01:25:34 Beijing time on October 31, 2026, Xiaohei, describing itself as an AI assistant learning trading, posts round 51 of a CoinGlass audit. The goal is understanding the BTC drawdown page's calculation and whether its display is current. It gives value = price / running max close - 1, claims the page is fully reverse-engineered and reports a maximum residual of 0.005 percentage points. Running max close means the maximum closing price up to the relevant time; this does not recover every CoinGlass indicator.\n\nThe writer says the page shows -34.86% versus a comparison value it calls real at -38.04%, attributing this to the final bar retaining the T-1 price. These figures and the explanation are the post's analysis, not conclusions independently recomputed from a price series here. No raw data, interval, sampling period, timezone, script or paired screenshots are available for checking. One discrepancy does not establish deliberate deception by the platform.\n\nIncluded as specific AI-assisted financial-indicator behavior reconstruction and freshness analysis, not trading performance, investment advice or a fixed platform bug. Round 51 is the author's series number, not a claim that this collection reviewed the preceding 50 rounds. The model and REA use are unconfirmed. No trading API, market-data retrieval or code execution occurred here.",
+      "metadata": ["Candidate snapshot: 0 likes, 13 views, 0 reposts. 0.005pp, -34.86% and -38.04% are author figures."],
+      "source_labels": ["Xiaohei's round 51 CoinGlass BTC drawdown audit, October 31, 2026 at 01:25:34"]
+    }
+  },
+  {
+    "id": "yealink-claude-codex-firmware-audit-wish",
+    "title": "Yealink固件：读者希望Claude／Codex检查可疑内容",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "回复venturetwins的读者希望Claude或Codex彻底审查Yealink固件；只是针对具名厂商的审计愿望，没有型号、已进行研究或发现证据。",
+    "description": "2026年10月31日01:29:10（北京时间），一条回复@venturetwins的帖子写道，希望Claude／Codex已经仔细检查“那份Yealink固件”中的可疑内容。Yealink是设备厂商，此处目标只限定到其固件，候选未给设备类型、型号、版本或文件。\n\n保留为具名固件的AI辅助审计想法，而不是作者实际启动的逆向工程，更不证明Yealink含恶意代码。原文使用希望语气，没有命令、日志、反编译结果、补丁或测试；无法据此判断调查是否发生。REA未提及，未下载或执行固件，也不借用其他厂商设备研究的证据。",
+    "sources": [{"label": "读者希望Claude／Codex检查Yealink固件，2026-10-31 01:29:10", "url": "https://x.com/i/status/2116220884427911376"}],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照0赞、32浏览、0转发；愿望不是研究结果，未确认设备型号。"],
+    "en": {
+      "title": "Yealink firmware: a reader hopes Claude or Codex will inspect suspicious content",
+      "summary": "A reply to venturetwins hopes Claude or Codex thoroughly inspected Yealink firmware. A named-vendor audit wish, with no device model, performed investigation or finding established.",
+      "description": "At 01:29:10 Beijing time on October 31, 2026, a reply to @venturetwins expresses hope that Claude or Codex thoroughly inspected 'that Yealink firmware' for suspicious material. Yealink is a device vendor; the candidate identifies only its firmware, not a device type, model, revision or file.\n\nRetained as an AI-assisted audit idea for named firmware, not a reverse-engineering project the writer actually initiated and certainly not proof of malicious Yealink code. The wording expresses hope, with no commands, logs, decompilation, patch or test. It does not establish whether an investigation happened. REA is unspecified. No firmware was downloaded or executed, and evidence from other manufacturers' devices is not transferred here.",
+      "metadata": ["Candidate snapshot: 0 likes, 32 views, 0 reposts. A wish is not a research result; the device model is unconfirmed."],
+      "source_labels": ["Reader hopes Claude/Codex inspected Yealink firmware, October 31, 2026 at 01:29:10"]
+    }
+  },
+  {
+    "id": "sh4vita-silent-hill4-claude-codex-static-port",
+    "title": "sh4vita：Claude／Codex辅助把《寂静岭4》PC版静态重编译到PS Vita",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "vallfrr公开Ghidra函数导出、x86转C及vitaGL运行时，项目报告实机从头到尾可玩；限定GOG v5，繁忙场景低于30fps、长局内存不足等问题仍保留。",
+    "description": "2026年10月31日02:25:06（北京时间）的候选介绍sh4vita，将Konami的Silent Hill 4: The Room从GOG PC版带到PS Vita，称Claude和Codex协助逆向与编码、开发者在真实Vita上测试，并转述v1.0.1修复长局崩溃。补查找到vallfrr/sh4vita，阅读固定提交386541b726538a50f2e3cdf48d5ac24b553d6239的README；该提交为2026-10-30T09:57:00Z，早于候选，仅作项目背景与限制的补充，不另算窗口候选。\n\n文档解释流程：Ghidra导出函数列表，recomp/x86rec.py将x86函数转为C，再与替代Win32、Direct3D8、DirectInput和DirectSound的运行时编译；D3D8建立在vitaGL上。Rust编写的独立sh4prep准备玩家自己的游戏文件。项目明确Claude与Codex用于研究和代码，设计决定及真实硬件验证由人完成；未称REA参与。\n\nREADME报告实机从头到尾可玩，逻辑30fps，性能允许时插值渲染趋近60fps；敌人密集地铁、水牢和部分后期房间仍CPU受限、可低于30fps。首次进房可停约一秒，一小时以上长局仍可能内存不足、丢纹理甚至关闭；Continue灰显须用Load，光晕效果为性能关闭。因此不把候选的1.0.1修复写成所有长局崩溃已消失，也不称恒定60fps。\n\n只支持GOG“1.0 gog v5”Windows文件，其他版本及PS2文件不行；需改机Vita、至少4GB空间和用户自己的shader编译模块。项目代码GPLv3，游戏和生成C不随仓库提供；GPL不授予Konami资产权利。这里只静态阅读公开文档，未下载游戏、运行准备器、安装VPK、实测帧率或独立通关。",
+    "sources": [
+      {"label": "候选转述sh4vita、AI协助及1.0.1修复，2026-10-31 02:25:06", "url": "https://x.com/i/status/2116234958109122747"},
+      {"label": "补充：10月30日固定README，方法、AI归因与尚存实机限制", "url": "https://github.com/vallfrr/sh4vita/blob/386541b726538a50f2e3cdf48d5ac24b553d6239/README.md"}
+    ],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照0赞、80浏览、0转发；通关、帧率和修复均为项目／报道说法，未独立复现。", "补充固定提交2026-10-30T09:57:00Z早于窗口；保留长局内存限制。"],
+    "en": {
+      "title": "sh4vita: Claude/Codex-assisted static recompilation brings Silent Hill 4 PC to PS Vita",
+      "summary": "vallfrr publishes Ghidra function export, x86-to-C translation and a vitaGL runtime, reporting start-to-finish hardware playability. GOG v5 only; sub-30fps heavy scenes and long-session memory failures remain documented.",
+      "description": "The candidate at 02:25:06 Beijing time on October 31, 2026 presents sh4vita, bringing Konami's Silent Hill 4: The Room from its GOG PC release to PS Vita. It credits Claude and Codex with reverse engineering and coding, the developer with real-Vita testing, and v1.0.1 with long-session crash fixes. Supplementary research located vallfrr/sh4vita and read its README at commit 386541b726538a50f2e3cdf48d5ac24b553d6239, dated 2026-10-30T09:57:00Z. This earlier material supplies project context and limits, not an additional window candidate.\n\nThe documented pipeline exports function lists with Ghidra, translates x86 functions to C with recomp/x86rec.py, then compiles them with a replacement Win32, Direct3D 8, DirectInput and DirectSound runtime. D3D8 uses vitaGL. A separate Rust sh4prep tool prepares the player's own game files. Claude and Codex are explicitly credited for research and coding; design decisions and all real-hardware validation are human work. REA is not claimed.\n\nThe README reports start-to-finish playability on hardware, 30fps logic and interpolated rendering toward 60fps when performance permits. Enemy-heavy subway scenes, the water prison and some late rooms remain CPU-limited and can fall below 30fps. First room entry can pause for about a second. Sessions exceeding an hour can still exhaust memory, lose textures or close the game. Continue stays greyed out, requiring Load, and light glow is disabled for speed. Thus the candidate's v1.0.1 fix is not presented as eliminating all long-session crashes or delivering constant 60fps.\n\nOnly Windows GOG '1.0 gog v5' files are supported, not other releases or PS2 files. A modified Vita, at least 4GB free and the user's own shader-compiler module are required. Project code is GPLv3; neither the game nor generated C is distributed with the repository, and GPL grants no rights to Konami assets. This collection only read public documentation: no game download, preparer execution, VPK installation, frame-rate measurement or independent playthrough occurred.",
+      "metadata": ["Candidate snapshot: 0 likes, 80 views, 0 reposts. Playthrough, frame rates and fixes are project/report claims, not independent reproduction.", "Supplementary pinned commit 2026-10-30T09:57:00Z predates the window; long-session memory limits are retained."],
+      "source_labels": ["Candidate relays sh4vita, AI assistance and v1.0.1 fixes, October 31, 2026 at 02:25:06", "Supplementary: October 30 pinned README, method, AI credit and remaining hardware limits"]
+    }
+  },
+  {
+    "id": "xmen2-pc-claude-genesis-native-port",
+    "title": "xmen2-pc：Claude Code辅助重建《X战警2》，扩展四人回滚联机",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "crabsmack公开Genesis原生PC移植，称3047个C函数字节匹配、117个汇编函数指令级对照无差异；四人、宽屏与插值高刷是新增功能，测试较少，未独立重跑。",
+    "description": "2026年10月31日02:36:57（北京时间），The Gaming Emporium（@McGroin83）介绍crabsmack的xmen2-pc，把1995年Sega Mega Drive／Genesis的X-Men 2: Clone Wars原生移植到Windows与Linux，加入四人本地／在线合作、回滚网络、宽屏和高刷。帖文明确披露，开发者称几乎整个项目由Claude Code Agent写成。补读固定提交06783ee115f1e374d35bf088ce432cfa962d5739的README；2026-10-28T01:40:12Z提交早于窗口，仅作项目补证。\n\nREADME把工作拆成字节匹配反汇编、基于segagenesisrecomp的静态重编译、确认原编译器Apple MPW C3.3、可读C重建、去掉68000模拟的原生移植，再到增强和联机。项目称3164函数中3047个原C函数用原编译器编成卡带相同机器码；另117个原汇编函数无法由C编译器字节匹配，采用逐指令对照重编译代码，报告无差异。关闭选项时测试运行逐帧状态和画面一致，但刻意不重现原卡带掉速；这些都是项目报告，不是本合集重算的匹配率或全输入等价证明。\n\n项目称几乎全部由Claude Code在九天内、按可测完成标准实现；REA未提及。16:9视图与改变敌人激活范围的widescreen_gameplay分开；high_fps靠原帧间插值支持61至1000Hz，不是加速游戏逻辑；full_rate_2p把原来减半的双人逻辑恢复60帧。新增三／四人模式明确玩测较少。在线每人须持自己的ROM、同一release，v1.1.0拒绝v1.0.x；网络效果未在这里实测。\n\n只接受USA／Europe兼容ROM，资产启动时从用户文件读取，项目不提供卡带内容。原创代码MIT但所依赖segagenesisrecomp为PolyForm Noncommercial，README说明移植构建不可商用，不能笼统称整个产物可商用MIT。未下载ROM、执行目标、安装依赖或重跑编译／差分测试；以公开实现与明确自测边界收录。",
+    "sources": [
+      {"label": "The Gaming Emporium介绍xmen2-pc，完整原帖含Claude Code披露，2026-10-31 02:36:57", "url": "https://x.com/i/status/2116237941227843747"},
+      {"label": "补充：10月28日固定README，字节匹配、联机与许可边界", "url": "https://github.com/crabsmack/xmen2-pc/blob/06783ee115f1e374d35bf088ce432cfa962d5739/README.md"},
+      {"label": "补充：10月28日文档提交及Claude Opus协作署名", "url": "https://github.com/crabsmack/xmen2-pc/commit/06783ee115f1e374d35bf088ce432cfa962d5739"}
+    ],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照1赞、194浏览、0转发；九天、3047／3164及117函数无差异均为项目报告。", "固定提交早于窗口；四人新功能测试较少，未独立运行游戏或校验匹配。"],
+    "en": {
+      "title": "xmen2-pc: Claude Code-assisted X-Men 2 reconstruction adds four-player rollback multiplayer",
+      "summary": "crabsmack publishes a native Genesis-to-PC port, reporting 3,047 byte-matching C functions and 117 assembly functions with no instruction-level comparison differences. Four-player, widescreen and interpolated high-refresh features are newer and less tested; not rerun here.",
+      "description": "At 02:36:57 Beijing time on October 31, 2026, The Gaming Emporium (@McGroin83) presents crabsmack's xmen2-pc, a native Windows/Linux port of the 1995 Sega Mega Drive/Genesis game X-Men 2: Clone Wars, adding four-player local/online co-op, rollback networking, widescreen and high refresh rates. The post explicitly discloses that the developer credits Claude Code agents with almost the entire project. The README was read at commit 06783ee115f1e374d35bf088ce432cfa962d5739, dated 2026-10-28T01:40:12Z. This earlier project evidence is supplementary, not another window candidate.\n\nThe README separates byte-matching disassembly, static recompilation using segagenesisrecomp, identification of the original Apple MPW C 3.3 compiler, readable C reconstruction, a native port without 68000 emulation, and subsequent enhancements/netplay. It says that of 3,164 functions, the 3,047 originally written in C compile to the cartridge's exact machine code with the original compiler. The remaining 117 were originally assembly and cannot byte-match through a C compiler; their C is compared instruction by instruction against recompiled cartridge code, reporting no differences. With options off, test runs reportedly match state and pictures each frame, except deliberately not reproducing cartridge slowdown. These are project reports, not a match rate recomputed here or proof of equivalence over all inputs.\n\nThe project credits Claude Code with almost all work in nine days under measurable completion criteria; REA is unspecified. The 16:9 view is separate from widescreen_gameplay, which changes enemy activation. high_fps interpolates between game frames for 61–1000Hz rather than accelerating logic. full_rate_2p restores two-player logic from the original's halved rate to 60 frames. New three/four-player modes explicitly have less playtesting. Online players need their own ROM and the same release; v1.1.0 rejects v1.0.x. Network performance was not tested here.\n\nOnly the compatible USA/Europe ROM is accepted, with assets read from the user's file at startup and no cartridge content distributed. Original work is MIT, but segagenesisrecomp uses PolyForm Noncommercial and the README forbids commercial use of port builds; the entire artifact is not simply commercially usable MIT. This collection downloaded no ROM, executed no target, installed no dependencies and reran neither compilation nor differential tests. Included for its public implementation and explicit self-test limits.",
+      "metadata": ["Candidate snapshot: 1 like, 194 views, 0 reposts. Nine days, 3,047/3,164 and the 117-function zero-difference result are project reports.", "Pinned commit predates the window. Four-player additions are less tested; neither gameplay nor matching was independently checked."],
+      "source_labels": ["The Gaming Emporium presents xmen2-pc; full original includes Claude Code disclosure, October 31, 2026 at 02:36:57", "Supplementary: October 28 pinned README, byte matching, networking and license limits", "Supplementary: October 28 documentation commit with Claude Opus co-author credit"]
+    }
+  },
+  {
+    "id": "brother-toner-rea-visual-studio-tuning-report",
+    "title": "Brother碳粉调校：作者称在Visual Studio用REA研究驱动与固件",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "挪威语作者报告用reverse-engineer-anything和AI拆解自有Brother驱动及固件，微调后降低碳粉消耗；没有型号、参数、用量或打印质量对照。",
+    "description": "2026年10月31日02:59:13（北京时间），一则挪威语帖子称作者在Visual Studio中使用“reverse-engineer-anything”，拆解自己Brother打印机的驱动和固件，并通过AI微调系统，使其少用碳粉、节省费用。目标是理解并改变打印消耗，而不是扫描按键、NAS传输或跨平台扫描服务，因此不与既有Brother扫描案例合并。\n\n原文没有打印机型号、驱动或固件版本、模型名称、修改位置、配置值、源码、补丁、页数、耗粉测量或打印质量比较。无法区分改驱动设置、修改固件或其他调整，也无法核验节省金额与因果。作者说多数打印机过量用粉是观点，不作为行业测量结论。\n\nREA分类只反映帖文明示的工具名，不证明其Visual Studio集成方式或底层分析能力。按未验证作者报告收录，不声称安全刷机、保持保修或无质量损失；本合集未连接打印机、运行工具或打印测试。",
+    "sources": [{"label": "作者挪威语自述REA研究Brother驱动和固件、减少用粉，2026-10-31 02:59:13", "url": "https://x.com/i/status/2116243546173034647"}],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照5赞、142浏览、0转发；节省未量化，型号和实施方法未说明。"],
+    "en": {
+      "title": "Brother toner tuning: an author reports studying drivers and firmware with REA in Visual Studio",
+      "summary": "A Norwegian author reports using reverse-engineer-anything and AI on a personal Brother printer's drivers/firmware to reduce toner use. No model, parameters, consumption measurements or print-quality comparison is supplied.",
+      "description": "At 02:59:13 Beijing time on October 31, 2026, a Norwegian post says the author used 'reverse-engineer-anything' in Visual Studio to take apart their Brother printer's drivers and firmware, then refined the system with AI so it uses less toner and saves money. The target is understanding and changing printing consumption, not scan buttons, NAS delivery or a cross-platform scanning service; it is not merged with existing Brother scanning cases.\n\nNo printer model, driver/firmware revision, model name, modification location, setting value, source, patch, page count, toner measurement or print-quality comparison is provided. Driver-setting changes cannot be distinguished from firmware modification or other adjustments, and savings and causation cannot be checked. The statement that most printers overuse toner is the writer's view, not an industry measurement.\n\nThe REA designation reflects only the explicitly named tool, not confirmation of its Visual Studio integration or underlying analysis. Retained as an unverified author report, without promising safe flashing, intact warranty or unchanged quality. This collection connected no printer, ran no tools and performed no printing tests.",
+      "metadata": ["Candidate snapshot: 5 likes, 142 views, 0 reposts. Savings are unquantified; model and implementation are unspecified."],
+      "source_labels": ["Norwegian author reports REA research on Brother drivers/firmware and reduced toner use, October 31, 2026 at 02:59:13"]
+    }
+  },
+  {
+    "id": "bastion-claude-router-privacy-network-guard-report",
+    "title": "Bastion：从Claude路由器隐私研究转向有边界的桌面网络检查器",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "作者称Claude研究自有路由器后创建Bastion；公开README明确只从LAN检查、不能证明WAN暴露或看到其他设备流量，定时监看仍在路线图，与推广帖有所出入。",
+    "description": "2026年10月31日03:37:43（北京时间），作者称用Claude逆向自己的Wi-Fi路由器，发现DNS查询明文可被运营商看到，随后构建Bastion桌面网络检查器。帖称Electron／Node面向Mac与Windows，用九个构建Agent及各自审阅／修复角色、共27个Agent，检查12类入口；首次扫描有SSH、UPnP开启、22邻居网络竞争同信道，得分77/100。这些是作者报告；明文DNS的可观察性不等于运营商已保存所有浏览记录，也不等于解密HTTPS页面。\n\n补充检索找到0xCodez/bastion，固定6fca59ba7a25c62875d1cf3a2b3892f33da23931提交为2026-10-30T19:28:26Z，即本窗口内、早于候选，只用于补证项目而不另算候选，也未确认短链目的地。README列TR-069／7547、UPnP、Telnet／SSH、HTTP管理页、DNS、WPS等从电脑内部可见的检查，明确不尝试密码、不登录路由器、不利用漏洞。LAN端口应答不能证明公网可达；不能看其他设备流量，只能列本机连接与可见设备。路由器API、外部暴露检查与自动修复仍为路线图。\n\n帖子称每5至60分钟监看，只在改变时唤醒Agent；所读README却把scheduled watch列为未来工作，故不确认该功能已交付。帖称已修11个安全问题，未提供可逐项验收的报告。README描述Claude／ChatGPT订阅经已登录官方CLI、或Claude／ChatGPT／Grok自带API key的问答路径；Agent只给建议，改变由用户完成，计划额度和供应商条款仍适用，不是离线AI。\n\n帖子声称发送前去除MAC、设备名、Wi-Fi名及IP末段；文档称发送最小化扫描快照，并说明ipify、公网测速和本地设备PTR查询等联网边界。没有源码逐项审计或实际流量验证，不能据此保证匿名、零泄露或全面安全。Windows构建未签名，macOS ad-hoc且未公证；README仍有截图与克隆地址占位，不把下载入口当独立安装验收。未说明路由器型号、固件或协议恢复细节，REA未提及。本合集只读公开资料，未扫描网络、安装应用、登录CLI或运行项目代码。",
+    "sources": [
+      {"label": "作者报告Claude路由器研究与Bastion构建，2026-10-31 03:37:43", "url": "https://x.com/i/status/2116253233308110936"},
+      {"label": "补充：窗口内较早固定README，LAN观测、隐私与未交付路线图", "url": "https://github.com/0xCodez/bastion/blob/6fca59ba7a25c62875d1cf3a2b3892f33da23931/README.md"}
+    ],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照29赞、810浏览、0转发；27 Agent、12检查、77/100、22邻居网络与修复11项均为帖文说法。", "固定提交2026-10-30T19:28:26Z在窗口内；定时监看在README仍为未来工作，未独立确认。"],
+    "en": {
+      "title": "Bastion: Claude router-privacy research leads to a bounded desktop network checker",
+      "summary": "An author reports building Bastion after Claude-assisted router research. The public README limits checks to LAN observations, not proven WAN exposure or other devices' traffic, and still places scheduled watch on the roadmap, unlike the promotional post.",
+      "description": "At 03:37:43 Beijing time on October 31, 2026, an author says Claude reverse-engineered their Wi-Fi router, finding unencrypted DNS lookups visible to the ISP, then helped build Bastion. The post describes an Electron/Node Mac/Windows checker built by nine agents, each with a reviewer and fixer, totaling 27 agents, and checking 12 categories of entry points. Its first scan reportedly found SSH and UPnP enabled, 22 neighboring networks competing on the channel, and a 77/100 score. These are author reports. Observable unencrypted DNS does not mean an ISP actually stored all browsing history or decrypted HTTPS page content.\n\nSupplementary search located 0xCodez/bastion. Pinned commit 6fca59ba7a25c62875d1cf3a2b3892f33da23931 is dated 2026-10-30T19:28:26Z, inside the window before the candidate. It supplements the project, not another candidate or a confirmed short-link destination. The README lists computer-side checks for TR-069/7547, UPnP, Telnet/SSH, HTTP administration, DNS, WPS and more, explicitly without password attempts, router login or exploits. LAN port responses do not prove internet reachability; it cannot see other devices' traffic, only local-computer connections and visible devices. Router APIs, external exposure checks and automatic fixes remain roadmap items.\n\nThe post claims 5–60-minute monitoring that wakes an agent only on changes; the README still lists scheduled watch as future work, so delivery is unconfirmed. Eleven fixed security issues are also claimed without an itemized acceptance report. The README describes Claude/ChatGPT subscriptions via already authenticated official CLIs, or user-supplied Claude/ChatGPT/Grok API keys. Agents only advise; users make changes. Plan limits and provider terms still apply: this is not offline AI.\n\nThe post claims MAC addresses, device names, Wi-Fi names and the last IP segment are stripped before sending. Documentation describes a privacy-minimized scan snapshot and discloses ipify, public speed testing and local-device PTR lookup boundaries. Without line-by-line source auditing or observed traffic, anonymity, no leakage and complete safety are not guaranteed. Windows builds are unsigned; macOS builds are ad-hoc signed and unnotarized. Screenshot and clone-address placeholders remain in the README; download links are not independent installation acceptance. Router model, firmware and recovered protocol details are unspecified, as is REA. This collection only read public material: no network scan, installation, CLI login or target-code execution occurred.",
+      "metadata": ["Candidate snapshot: 29 likes, 810 views, 0 reposts. Twenty-seven agents, 12 checks, 77/100, 22 neighboring networks and 11 fixes are post claims.", "Pinned commit 2026-10-30T19:28:26Z is within the window. Scheduled watch remains future work in the README and is not independently confirmed."],
+      "source_labels": ["Author reports Claude router research and the Bastion build, October 31, 2026 at 03:37:43", "Supplementary: earlier in-window pinned README, LAN observations, privacy and undelivered roadmap"]
+    }
+  },
+  {
+    "id": "adversarial-agent-swarms-binary-rebuild-benchmark-idea",
+    "title": "竞争Agent群重写实验：跨队反编译、隐藏故障与独立裁判的idea",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "EERandomness提出多模型隔离团队独立重写同一代码库，红队反编译对手二进制、裁判按功能与性能排名；包含故意注入bug的双面Agent，没有实际运行。",
+    "description": "2026年10月31日03:51:16（北京时间），@EERandomness提出一个竞争式多Agent重写实验：多支相互不能直接通信的swarm团队，由Grok、Claude、GPT-6、DeepSeek、GLM等前沿及上一代模型混合构成，用多种自然语言及代码式目标提示，分别独立重写整个代码库。没有指定代码库或既有软件，这是一套具体研究方法idea，不是已完成的迁移项目。\n\n每队红队读取本队代码并攻击其他队的编译二进制，将所谓CVE放入共享数据库；允许反编译对手二进制，把发现用于本队改进。独立裁判持续评估功能等价、性能与规格符合度，并维护公开排行榜。每队另设一个故意引入bug的“双面Agent”，只向裁判私有数据库记录，以帮助构造测试与红队指标；故障注入不是发现真实供应商漏洞，文中的CVE称呼也不表示已获正式编号。\n\n作者还设想裁判分阶段追加功能以影响架构，并让团队依据指标互改提示，双面Agent提示由对手编写；最后按指标选最佳结果、弃其余。补查完整原帖确认这些方案细节，未见执行、成本、样本、测试集、代码或排名。不能把“更多算力更好”观点当实验结果，也不假定所列模型实际可用。REA未提及，本合集没有启动Agent群、反编译目标或执行研究代码。",
+    "sources": [{"label": "EERandomness的竞争swarm与跨队二进制研究方案，2026-10-31 03:51:16", "url": "https://x.com/i/status/2116256645051465922"}],
+    "snapshot_date": "2026-10-31", "metadata": ["候选快照1赞、24浏览、0转发；为提案，未报告代码库、实测或排行榜。"],
+    "en": {
+      "title": "Competitive agent-swarm rewrites: an idea combining cross-team decompilation, hidden faults and independent judges",
+      "summary": "EERandomness proposes isolated multi-model teams rewriting one codebase, red teams decompiling rival binaries and judges ranking functionality/performance. Deliberate bug-injecting double agents are part of the proposal; no run is reported.",
+      "description": "At 03:51:16 Beijing time on October 31, 2026, @EERandomness proposes a competitive multi-agent rewriting experiment. Separate swarms cannot communicate directly; each combines frontier and previous-generation models such as Grok, Claude, GPT-6, DeepSeek and GLM, receives goals in multiple natural languages and code-as-prompts, and independently rewrites an entire codebase. No codebase or existing software is identified. This is a concrete research-method idea, not a completed migration.\n\nEach team's red agents inspect their own code and attack other teams' compiled binaries, sharing purported CVEs in a database. They may decompile opponents' binaries and use findings to improve their own implementation. Independent judges continuously assess feature parity, performance and specification compliance through a public leaderboard. One double agent per team deliberately inserts bugs and reports them only to a judge-private database, helping construct tests and red-team metrics. Injected faults are not discovered vendor vulnerabilities, and the post's CVE terminology does not establish officially assigned identifiers.\n\nThe writer also imagines judges adding features progressively to influence architecture and teams revising prompts from metrics, with opponents writing the double agent's prompt. The best result is selected by metrics and the others discarded. The full original was checked for these details, but no execution, cost, sample, test suite, code or ranking is supplied. 'More compute = better outcome' remains an opinion, not an experimental result, and availability of every named model is not assumed. REA is unspecified. This collection started no swarms, decompiled no target and executed no research code.",
+      "metadata": ["Candidate snapshot: 1 like, 24 views, 0 reposts. A proposal with no identified codebase, measurements or leaderboard."],
+      "source_labels": ["EERandomness proposes competitive swarms and cross-team binary research, October 31, 2026 at 03:51:16"]
+    }
+  },
+  {
     "id":"halo-first-xbox-browser-multiplayer-ai-report", "title":"初代Xbox Halo进浏览器：葡文AI周报的多人移植说法", "category":"games", "rea":"other-ai", "status":"unverified",
     "summary":"葡文帖子称首款Xbox Halo经AI辅助拆解后可在浏览器多人游玩；无项目名、开发者、链接或测试，不与OpenCE、Halo3或其他系列项目混同。",
     "description":"2026年10月30日23:33:13（北京时间），一则葡文AI动态帖称“第一款Xbox Halo”被AI辅助拆解，现在可在浏览器运行并支持多人。这是以旧游戏浏览器适配为目标的具体二手报告，不是本合集已访问的可玩版本；文中没有说明AI用于反编译、清理代码还是平台适配的哪一阶段。\n\n帖子没有作者项目名、仓库、URL、开发者、模型、版本、平台、帧率、关卡或联机日志。无法确认是否基于已有人工逆向成果、是否完整游戏或真正多人互通；也不能把既有OpenCE清理、Halo3 Reforged或Mario参数研究的证据套用到此。工具归为other-ai仅反映帖子明确声称AI参与，未确认REA。\n\n同帖Gemini把桌面照片变赛车游戏属于场景生成，Claude在Windows XP做音乐视频属于创作，均未报告恢复既有软件实现，不另开案例。Halo部分按未验证移植报告保留，不宣称原始源码恢复、资产授权或独立复现。本合集没有下载游戏、运行浏览器端口或测试联机。",
@@ -16444,39 +16598,38 @@
   },
   {
     "id": "codex-desktop-rea-attempt",
-    "title": "Codex Desktop：作者尝试用 REA 研究其与 CLI 的差异",
+    "title": "Codex Desktop：REA差异研究尝试与Grok开源平替idea",
     "category": "apps",
     "status": "in-progress",
     "rea": "REA",
-    "summary": "作者自述尝试用 REA 逆向 Codex 桌面版，以了解其为何优于 Codex CLI；未报告分析结果或验证。",
-    "description": "一则个人自述称，作者在其两个 Codex 账号被封后想到自己曾尝试用 REA 逆向 Codex desktop，目的是理解它为何比 Codex CLI 工作得更好。该帖没有说明账号封禁原因，也没有提供逆向分析的发现、重建或验证，因此只能作为作者报告的尝试记录。",
+    "summary": "早期作者称用REA研究Codex桌面版与CLI差异；10月31日另一读者向Grok提出反编译并构建开源平替，均未报告发现、代码或验证。",
+    "description": "较早的一则个人自述称，作者在其两个Codex账号被封后想到自己曾尝试用REA逆向Codex Desktop，目的是理解它为何比Codex CLI工作得更好。该帖没有说明封禁原因，也没有分析发现、重建或验证；账号事件不建立逆向导致封禁的因果。\n\n2026年10月31日03:36:40（北京时间），另一读者以Codex App不开源为背景，直接向@grok提出为何没人尝试反编译并构建开源平替。此处追加同一桌面应用目标的替代品idea，保留既有ID与来源，不把两人视为同一作者或同一实施项目。新的请求未提REA，也未说已经调用Grok完成分析。\n\n没有具体App版本、期望功能、平台、样本、仓库、规格或测试；不能认定取得源码、已重建完整客户端或可复用OpenAI私有服务能力。原有进行中状态只表示早期作者报告的尝试仍无结果，新的开源平替仍是未验证建议。本合集未下载、反编译或运行Codex App，也未验证账号事件。",
     "sources": [
       {
         "label": "作者自述尝试用 REA 研究 Codex desktop",
         "url": "https://x.com/i/status/2110377021402661320"
+      },
+      {
+        "label": "另一读者向Grok提出Codex App反编译开源平替idea，2026-10-31 03:36:40",
+        "url": "https://x.com/i/status/2116252970270745059"
       }
     ],
-    "snapshot_date": "2026-10-15",
+    "snapshot_date": "2026-10-31",
     "metadata": [
-      "evidence: author self-report",
-      "stage: attempted analysis; no findings reported",
-      "target: Codex desktop",
-      "purpose: compare behavior with Codex CLI",
-      "account-ban causation: unconfirmed"
+      "早期证据为作者自述：尝试比较Codex Desktop与CLI，未报告发现；账号封禁因果未确认。",
+      "10月31日新候选快照0赞、36浏览、0转发；另一读者仅提出开源平替idea，不冒充早期项目进展。"
     ],
     "en": {
-      "title": "Codex Desktop: author reports trying REA to study its differences from CLI",
-      "summary": "The author says they tried REA to reverse engineer Codex desktop and understand how it differs from Codex CLI; no findings or validation are reported.",
-      "description": "In a personal account, the author says that after two Codex accounts were banned, they remembered previously attempting to reverse-engineer Codex desktop with REA to understand why it worked better than Codex CLI. The post does not establish why the accounts were banned or provide analysis findings, a reconstruction or validation. It records only an author-reported attempt.",
+      "title": "Codex Desktop: an REA comparison attempt and a Grok-directed open-source alternative idea",
+      "summary": "An earlier author reports using REA to compare Codex Desktop with CLI. On October 31 another reader asks Grok about decompiling an open-source alternative. Neither supplies findings, code or validation.",
+      "description": "In an earlier personal account, an author says that after two Codex accounts were banned, they remembered attempting to reverse-engineer Codex Desktop with REA to understand why it worked better than Codex CLI. No ban reason, analysis finding, reconstruction or validation is provided. The account event does not establish that reversing caused the bans.\n\nAt 03:36:40 Beijing time on October 31, 2026, another reader, noting that Codex App is not open source, directly asks @grok why nobody tries decompiling it to build an open-source alternative. This adds an alternative-client idea for the same desktop-app target, preserving the existing ID and source without treating the two writers as one author or implementation project. The new request does not mention REA or claim that Grok completed an analysis.\n\nNo app revision, desired features, platform, sample, repository, specification or tests are given. Source recovery, a complete rebuilt client and access to OpenAI's private service capabilities are not established. The retained in-progress status refers only to the earlier reported attempt with no results; the new alternative remains an unverified suggestion. This collection did not download, decompile or execute Codex App or verify the account events.",
       "metadata": [
-        "evidence: author self-report",
-        "stage: attempted analysis; no findings reported",
-        "target: Codex desktop",
-        "purpose: compare behavior with Codex CLI",
-        "account-ban causation: unconfirmed"
+        "Earlier evidence is an author report of a Codex Desktop/CLI comparison attempt with no findings; account-ban causation is unconfirmed.",
+        "October 31 candidate snapshot: 0 likes, 36 views, 0 reposts. Another reader's open-source alternative idea is not progress on the earlier project."
       ],
       "source_labels": [
-        "Author reports attempting to study Codex desktop with REA"
+        "Author reports attempting to study Codex desktop with REA",
+        "Another reader asks Grok about decompiling an open-source Codex App alternative, October 31, 2026 at 03:36:40"
       ]
     }
   },
