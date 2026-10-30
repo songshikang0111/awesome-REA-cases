@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [粉紫挂脖裙指舞：sandmrk反推Muse约7.5秒动作与中途切断](../cases/sandmrk-muse-mauve-halter-reach-point-groove.md) — sandmrk把Muse固定镜头指舞拆为逐秒手势、重心与结束组合，明确生成结果不能完全匹配；节拍与画面尺寸是作者规格，不是独立测量。 **[其他 AI 逆向 · 待验证]**
+- [雪国列车升镜：Leaf Yeah!反推10秒AI视频提示](../cases/snow-train-ai-video-ten-second-prompt-reconstruction.md) — Leaf Yeah!从未知AI工具的视频反推雪国列车、雪尘、低机位到无人机俯视的10秒一镜到底prompt；未报告使用哪种AI分析或再生成验证。 **[未确认使用 REA · 待验证]**
 - [蓝蝶落鼻：sandmrk反推Muse苗服人物11秒视频提示](../cases/sandmrk-muse-blue-butterfly-nose-prompt.md) — sandmrk把蓝蝶落在虚构苗服女性鼻尖的镜头拆成视线、停留与蝶翼时序；明确生成结果不完全匹配，未恢复模型内部机制。 **[其他 AI 逆向 · 待验证]**
 - [扶头慢摇：sandmrk反推Muse米色挂脖裙舞蹈的重心与收尾](../cases/sandmrk-muse-beige-halter-behind-head-groove.md) — sandmrk以逐秒动作、130.4BPM与固定机位重建CG舞蹈规格，描述9.5秒原片结尾的放手和挥手；承认输出仍不完全匹配。 **[其他 AI 逆向 · 待验证]**
 - [涂鸦女孩穿行写实建筑：sandmrk反推Muse两段舞蹈提示](../cases/sandmrk-muse-doodle-girl-architecture-prompt.md) — sandmrk把2D涂鸦与3D建筑的15.1秒视频拆成两段，强调僵硬动作、风格锁和头发填满画面结尾；未验证生成匹配。 **[其他 AI 逆向 · 待验证]**

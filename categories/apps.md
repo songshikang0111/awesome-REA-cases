@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [自有出海网站：Jay Fang称REA发现前端暴露视频提示词](../cases/jayfang-rea-website-video-prompt-exposure.md) — Jay Fang用REA让AI检查自己的网站，称发现原以为放在后台的视频生成提示词可被前端看到；未给站点、泄露路径或修复验证。 **[REA · 待验证]**
+- [TikTok移动API：NewsTongue转述Hermes／REA／GLM低成本研究](../cases/newstongue-tiktok-hermes-rea-glm-api-report.md) — NewsTongue称开发者用Hermes Agent、REA与GLM5.3研究TikTok采集接口，并列出设备身份、原生签名、地区路由与网络指纹四项条件；低于20美元和成功复制均未核验。 **[REA · 待验证]**
+- [30多TB加密数据求助：brucexu.eth建议REA／AI尝试分析](../cases/charles-30tb-rea-ransomware-recovery-idea.md) — brucexu.eth回复Charles Zhang的数据加密求助，建议用REA与AI试破解；只是针对该事件的恢复idea，没有恶意样本、密钥恢复或解密成果。 **[REA · 待验证]**
+- [匿名付费核心组件：开发者日报转述Agent重写与反向授权故事](../cases/anonymous-licensed-component-agent-rewrite-report.md) — Dank日报转述Matt Pocock在Gergely播客背景下讲的匿名公司故事：Agent重写付费组件后，原供应方反向付费授权；产品、实现与财务均未证实。 **[其他 AI 逆向 · 待验证]**
+- [公开网页到design.md：Uno介绍设计提取后交Claude／Lovable重建](../cases/uno-url-designmd-claude-site-rebuild-workflow.md) — indie builder Uno介绍从公开URL提取色彩、字体、设计系统和prompt，再交Claude等生成网页的无代码流程；Stripe只是示例，没有具体交付站点或一致性测试。 **[其他 AI 逆向 · 待验证]**
+- [Device Health：Borya称Opus分析妹妹手机上的可疑APK](../cases/borya-device-health-opus-spyware-audit-claim.md) — Borya声称Claude Code/Opus5.5通过USB调试发现伪装Device Health的应用，分析APK后判断照片上传与键盘记录；缺样本、哈希和日志，不是已确认间谍家族。 **[其他 AI 逆向 · 待验证]**
+- [Claude Code硬回英语：Don Lam拟用REA调查系统提示原因](../cases/donlam-claude-code-language-prompt-rea-idea.md) — Don Lam提出逆向Claude Code，调查中文对话却持续英文输出是否受系统提示影响；同日对话只证实用户报告这种现象，没有提示词提取或因果验证。 **[REA · 待验证]**
 - [Kaddo：REA辅助研究HeyClicky后公开Codex驱动的Mac助手](../cases/kaddo-rea-heyclicky-codex-macos-assistant.md) — Katleho Nkoe称用REA构建Kaddo；公开Swift/macOS实验版文档描述聊天、语音、屏幕上下文和后台Codex Agent，并明确联网、权限及本地验证器条件，未独立运行。 **[REA · 进行中]**
 - [AI Website Cloner Template：以观测与同尺寸比较重建Next.js站点](../cases/jcodesmore-ai-website-cloner-template-workflow.md) — 候选介绍URL到Next.js模板；固定README确认Map/Observe/Build/Compare、响应状态调查和缺口记录，但不保证1:1、后端恢复或资产授权。 **[其他 AI 逆向 · 进行中]**
 - [Hugging Face事件代码分析：晨空转述Claude拒答后改用自部署GLM](../cases/huggingface-incident-glm-attack-code-analysis-report.md) — 晨空称Hugging Face分析攻击代码时Claude拒答，最终自部署GLM才解读；没有原始事件报告、代码或模型输出，攻击归因和规模均未核验。 **[其他 AI 逆向 · 待验证]**
@@ -235,7 +242,7 @@
 - [剪映 AI 调用封装：余温用 REA 研究后暂缓公开](../cases/jianying-gkxspace-rea-ai-control.md) — 余温称已将剪映大量功能封装为 AI 可调用操作，准备脱敏发布后又改为自用；未公开代码或功能清单核验。 **[REA · 进行中]**
 - [Windows 任务管理器：五分钟、两美元 AI 重建的待验证转述](../cases/windows-task-manager-ai-five-minute-report.md) — Onchana01 转述任务管理器被快速逆向；没有原作者、代码或行为测试，保留明确目标而不采纳完成断言。 **[未确认使用 REA · 待验证]**
 - [Antigravity内部研究：旧隐藏模式转述与Jerry的Gemini辅助2.27.0枚举分析](../cases/antigravity-hidden-agent-modes-report.md) — 旧帖称四个隐藏模式；Jerry新增2.27.0 language_server中的Argon、BYOM/BYOK与Jarvis枚举报告，后续确认Gemini分析；静态字段不证明已上线。 **[其他 AI 逆向 · 分析测试]**
-- [Awesome Reverse-Engineered：让 Agent 先查已有互通实现，再决定是否逆向](../cases/awesome-reverse-engineered-agent-index.md) — 具备搜索站与 Agent Skill 的开源互通项目目录，帮助按目标、许可与维护状况选已有工具；条目存在不代表逆向结果正确。 **[未确认使用 REA · 相关项目]**
+- [Awesome Reverse-Engineered：让 Agent 先查已有互通实现，再决定是否逆向](../cases/awesome-reverse-engineered-agent-index.md) — 开源互通项目目录供Agent先查现成实现；10月30日新传播补充MCP入口，固定README列17,744项，提供搜索、项目详情与分类工具。目录数量不是可用性验证。 **[未确认使用 REA · 相关项目]**
 - [中国激光软件 EXE：Dan Nunn 用 Codex 持续恢复 Pascal 逻辑](../cases/chinese-laser-exe-codex-pascal.md) — 作者报告已研究12天，目标是将激光软件可执行文件恢复为Pascal；未报告完成，也未给设备兼容或加工验证。 **[其他 AI 逆向 · 进行中]**
 - [GrapheneOS NFC 支付：让 AI 反编译相关实现的读者愿望](../cases/grapheneos-ai-nfc-payments-idea.md) — 读者希望借助AI反编译让GrapheneOS支持所需NFC支付；没有协议、支付提供方或可行性测试。 **[其他 AI 逆向 · 相关项目]**
 - [dot 分析 Muse：把 REA 逆向任务交给桌面 Agent](../cases/dot-rea-muse-analysis.md) — 丰收称已给dot安排使用REA分析Muse；这是任务启动自述，没有公开具体发现或重建结果。 **[REA · 进行中]**

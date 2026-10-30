@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [SM64进入房间：lifcc转述Lucas Martinic的Opus／XR空间碰撞demo](../cases/lucas-martinic-sm64-opus-xr-room-report.md) — lifcc称Lucas Martinic利用已有SM64反编译成果与XR套件，让Opus衔接C物理和空间网格、手部碰撞；90FPS、整部游戏与具体头显兼容尚未核验。 **[其他 AI 逆向 · 待验证]**
 - [NFS High Stakes：Fabio Makita建议Claude参考旧赛车项目并用REA适配](../cases/nfs-high-stakes-claude-rea-modernization-idea.md) — Fabio Makita建议让Claude读自己的Colin McRae项目，再用REA研究Need for Speed: High Stakes；只是现代系统适配idea，未报告NFS运行结果。 **[REA · 待验证]**
 - [The Console skill：11个Claude技能组织PS2重编译与mod工作](../cases/aiedge-ps2-eleven-claude-skills-report.md) — AI Edge转述11个PS2技能；公开console-skill文档确认基于PS2Recomp与前人skill，559个离线合成测试不是559款游戏可玩证明，项目明确实验限制。 **[其他 AI 逆向 · 进行中]**
 - [TabStationToo：Claude协作把PCSX2与四类JIT带进浏览器](../cases/tabstationtoo-pcsx2-claude-web-port-report.md) — 不吃泡面转述Claude辅助PCSX2网页移植；固定公开README确认WebAssembly JIT、WebGPU与实验状态，提交含Claude协作署名。游戏速度是项目测量，非本合集复测。 **[其他 AI 逆向 · 进行中]**
