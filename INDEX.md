@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1311 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1317 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（273）
+- [游戏与游戏保存](categories/games.md)（274）
 - [硬件与设备互通](categories/hardware.md)（355）
-- [应用与客户端](categories/apps.md)（547）
-- [算法与功能重建](categories/algorithms.md)（136）
+- [应用与客户端](categories/apps.md)（551）
+- [算法与功能重建](categories/algorithms.md)（137）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [初代Xbox Halo进浏览器：葡文AI周报的多人移植说法](cases/halo-first-xbox-browser-multiplayer-ai-report.md) — 葡文帖子称首款Xbox Halo经AI辅助拆解后可在浏览器多人游玩；无项目名、开发者、链接或测试，不与OpenCE、Halo3或其他系列项目混同。 **[其他 AI 逆向 · 待验证]**
 - [SM64进入房间：lifcc转述Lucas Martinic的Opus／XR空间碰撞demo](cases/lucas-martinic-sm64-opus-xr-room-report.md) — lifcc称Lucas Martinic利用已有SM64反编译成果与XR套件，让Opus衔接C物理和空间网格、手部碰撞；90FPS、整部游戏与具体头显兼容尚未核验。 **[其他 AI 逆向 · 待验证]**
 - [NFS High Stakes：Fabio Makita建议Claude参考旧赛车项目并用REA适配](cases/nfs-high-stakes-claude-rea-modernization-idea.md) — Fabio Makita建议让Claude读自己的Colin McRae项目，再用REA研究Need for Speed: High Stakes；只是现代系统适配idea，未报告NFS运行结果。 **[REA · 待验证]**
 - [The Console skill：11个Claude技能组织PS2重编译与mod工作](cases/aiedge-ps2-eleven-claude-skills-report.md) — AI Edge转述11个PS2技能；公开console-skill文档确认基于PS2Recomp与前人skill，559个离线合成测试不是559款游戏可玩证明，项目明确实验限制。 **[其他 AI 逆向 · 进行中]**
@@ -660,6 +661,10 @@
 
 ### 应用与客户端
 
+- [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
+- [Mac听写应用：Chrome转述REA／Hopper先写行为规格再重建](cases/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome转述三部分教程，以Hopper输出辨识Mac听写应用的热键、录音和本地转写，再按文字规格构建自己的版本；软件名称、源码与等价测试未给出。 **[REA · 待验证]**
+- [浏览器连回Omarchy：Patrick称Grok Bot与Claude研究Google远程桌面](cases/journeydeck-google-remote-desktop-claude-omarchy.md) — Patrick称只用浏览器与Cloudflare账号连回家中Omarchy电脑；后续承认延迟很差，仅用于Claude、复制粘贴与终端，安全性未验证。 **[其他 AI 逆向 · 待验证]**
+- [Blademap：James提出截图加行情订阅的AI重建想法](cases/blademap-ai-screenshot-market-data-rebuild-idea.md) — James建议用Blademap界面截图和已有市场数据订阅让AI重建产品，并声称可反编译获取更多后端数据；没有实施、授权或数据可取得的证据。 **[其他 AI 逆向 · 待验证]**
 - [自有出海网站：Jay Fang称REA发现前端暴露视频提示词](cases/jayfang-rea-website-video-prompt-exposure.md) — Jay Fang用REA让AI检查自己的网站，称发现原以为放在后台的视频生成提示词可被前端看到；未给站点、泄露路径或修复验证。 **[REA · 待验证]**
 - [TikTok移动API：NewsTongue转述Hermes／REA／GLM低成本研究](cases/newstongue-tiktok-hermes-rea-glm-api-report.md) — NewsTongue称开发者用Hermes Agent、REA与GLM5.3研究TikTok采集接口，并列出设备身份、原生签名、地区路由与网络指纹四项条件；低于20美元和成功复制均未核验。 **[REA · 待验证]**
 - [30多TB加密数据求助：brucexu.eth建议REA／AI尝试分析](cases/charles-30tb-rea-ransomware-recovery-idea.md) — brucexu.eth回复Charles Zhang的数据加密求助，建议用REA与AI试破解；只是针对该事件的恢复idea，没有恶意样本、密钥恢复或解密成果。 **[REA · 待验证]**
@@ -688,7 +693,7 @@
 - [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
 - [停更笔记应用：作者称REA与Claude导出14212条笔记并修复共享图片缺陷](cases/claude-rea-dead-notes-14212-markdown-export-report.md) — 作者自述从未具名应用的2.3GB数据恢复Markdown、4517个附件和原日期，以200条抽样找出图片共享问题；无公开导出器或测试记录。 **[REA · 待验证]**
 - [类Windows的Linux：用AI反编译驱动并重建Office兼容软件的愿景](cases/ai-windows-like-linux-driver-office-rebuild-idea.md) — 候选提出把Linux做成Windows式体验，以AI反编译驱动并重建Word、Excel与PowerPoint等软件；仅idea，没有移植或兼容测试。 **[其他 AI 逆向 · 待验证]**
-- [加拿大网络安全中心：专家引导AI分析未知恶意软件的五小时报告](cases/canadian-cyber-centre-frontier-ai-malware-report.md) — 加拿大网络安全中心称Frontier AI Lab在专家全程引导下，把未知恶意软件转为验证情报，约五小时完成估算一周工作；无样本或独立计时。 **[其他 AI 逆向 · 待验证]**
+- [加拿大网络安全中心：专家引导AI分析未知恶意软件的五小时报告](cases/canadian-cyber-centre-frontier-ai-malware-report.md) — 加拿大网络安全中心报告专家引导的五小时恶意软件分析；后续第二篇宣传补充从数百MB诱饵中每样本不到一秒找到单行恶意代码并协助制作检测工具，均未独立计时。 **[其他 AI 逆向 · 待验证]**
 - [claw design：Archie设想用逆向设计工具比较KIMI与Opus](cases/archie-claw-design-model-evaluation-idea.md) — Archie称已有逆向的claw design，可能用来比较KIMI3.1与Opus5.5的设计、空间感及多模态工具能力；尚无评测输出。 **[其他 AI 逆向 · 待验证]**
 - [Agent Web：denzell转述把网页转为REST接口供模型调用](cases/denzell-agent-web-rest-reconstruction-report.md) — denzell介绍Agent Web团队将网页逆向成REST API，意在免去模型读UI；项目身份、具体站点与接口验证未提供。 **[未确认使用 REA · 相关项目]**
 - [Claude Code项目候补：Prashant让Opus与Fable反推可先用的skill](cases/prash-claude-code-project-skill-reconstruction.md) — Denys回应Prashant的尝试：因不愿等Claude Code项目候补，他让Opus/Fable反推skill；没有功能范围、实现或成功结果。 **[其他 AI 逆向 · 进行中]**
@@ -1210,6 +1215,7 @@
 
 ### 算法与功能重建
 
+- [Earshot fit：把参考录音拟合成可调代码配方](cases/earshot-fit-recording-to-parametric-code.md) — 小能猫介绍Earshot供Agent听觉审查与音频逆向合成；公开固定README说明以分析合成拟合录音为参数化Python配方，并披露新留出集并非全面优胜、没有0.4盲听。 **[其他 AI 逆向 · 分析测试]**
 - [粉紫挂脖裙指舞：sandmrk反推Muse约7.5秒动作与中途切断](cases/sandmrk-muse-mauve-halter-reach-point-groove.md) — sandmrk把Muse固定镜头指舞拆为逐秒手势、重心与结束组合，明确生成结果不能完全匹配；节拍与画面尺寸是作者规格，不是独立测量。 **[其他 AI 逆向 · 待验证]**
 - [雪国列车升镜：Leaf Yeah!反推10秒AI视频提示](cases/snow-train-ai-video-ten-second-prompt-reconstruction.md) — Leaf Yeah!从未知AI工具的视频反推雪国列车、雪尘、低机位到无人机俯视的10秒一镜到底prompt；未报告使用哪种AI分析或再生成验证。 **[未确认使用 REA · 待验证]**
 - [蓝蝶落鼻：sandmrk反推Muse苗服人物11秒视频提示](cases/sandmrk-muse-blue-butterfly-nose-prompt.md) — sandmrk把蓝蝶落在虚构苗服女性鼻尖的镜头拆成视线、停留与蝶翼时序；明确生成结果不完全匹配，未恢复模型内部机制。 **[其他 AI 逆向 · 待验证]**

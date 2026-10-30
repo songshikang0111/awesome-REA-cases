@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Earshot fit：把参考录音拟合成可调代码配方](../cases/earshot-fit-recording-to-parametric-code.md) — 小能猫介绍Earshot供Agent听觉审查与音频逆向合成；公开固定README说明以分析合成拟合录音为参数化Python配方，并披露新留出集并非全面优胜、没有0.4盲听。 **[其他 AI 逆向 · 分析测试]**
 - [粉紫挂脖裙指舞：sandmrk反推Muse约7.5秒动作与中途切断](../cases/sandmrk-muse-mauve-halter-reach-point-groove.md) — sandmrk把Muse固定镜头指舞拆为逐秒手势、重心与结束组合，明确生成结果不能完全匹配；节拍与画面尺寸是作者规格，不是独立测量。 **[其他 AI 逆向 · 待验证]**
 - [雪国列车升镜：Leaf Yeah!反推10秒AI视频提示](../cases/snow-train-ai-video-ten-second-prompt-reconstruction.md) — Leaf Yeah!从未知AI工具的视频反推雪国列车、雪尘、低机位到无人机俯视的10秒一镜到底prompt；未报告使用哪种AI分析或再生成验证。 **[未确认使用 REA · 待验证]**
 - [蓝蝶落鼻：sandmrk反推Muse苗服人物11秒视频提示](../cases/sandmrk-muse-blue-butterfly-nose-prompt.md) — sandmrk把蓝蝶落在虚构苗服女性鼻尖的镜头拆成视线、停留与蝶翼时序；明确生成结果不完全匹配，未恢复模型内部机制。 **[其他 AI 逆向 · 待验证]**

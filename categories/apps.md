@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](../cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
+- [Mac听写应用：Chrome转述REA／Hopper先写行为规格再重建](../cases/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome转述三部分教程，以Hopper输出辨识Mac听写应用的热键、录音和本地转写，再按文字规格构建自己的版本；软件名称、源码与等价测试未给出。 **[REA · 待验证]**
+- [浏览器连回Omarchy：Patrick称Grok Bot与Claude研究Google远程桌面](../cases/journeydeck-google-remote-desktop-claude-omarchy.md) — Patrick称只用浏览器与Cloudflare账号连回家中Omarchy电脑；后续承认延迟很差，仅用于Claude、复制粘贴与终端，安全性未验证。 **[其他 AI 逆向 · 待验证]**
+- [Blademap：James提出截图加行情订阅的AI重建想法](../cases/blademap-ai-screenshot-market-data-rebuild-idea.md) — James建议用Blademap界面截图和已有市场数据订阅让AI重建产品，并声称可反编译获取更多后端数据；没有实施、授权或数据可取得的证据。 **[其他 AI 逆向 · 待验证]**
 - [自有出海网站：Jay Fang称REA发现前端暴露视频提示词](../cases/jayfang-rea-website-video-prompt-exposure.md) — Jay Fang用REA让AI检查自己的网站，称发现原以为放在后台的视频生成提示词可被前端看到；未给站点、泄露路径或修复验证。 **[REA · 待验证]**
 - [TikTok移动API：NewsTongue转述Hermes／REA／GLM低成本研究](../cases/newstongue-tiktok-hermes-rea-glm-api-report.md) — NewsTongue称开发者用Hermes Agent、REA与GLM5.3研究TikTok采集接口，并列出设备身份、原生签名、地区路由与网络指纹四项条件；低于20美元和成功复制均未核验。 **[REA · 待验证]**
 - [30多TB加密数据求助：brucexu.eth建议REA／AI尝试分析](../cases/charles-30tb-rea-ransomware-recovery-idea.md) — brucexu.eth回复Charles Zhang的数据加密求助，建议用REA与AI试破解；只是针对该事件的恢复idea，没有恶意样本、密钥恢复或解密成果。 **[REA · 待验证]**
@@ -30,7 +34,7 @@
 - [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](../cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
 - [停更笔记应用：作者称REA与Claude导出14212条笔记并修复共享图片缺陷](../cases/claude-rea-dead-notes-14212-markdown-export-report.md) — 作者自述从未具名应用的2.3GB数据恢复Markdown、4517个附件和原日期，以200条抽样找出图片共享问题；无公开导出器或测试记录。 **[REA · 待验证]**
 - [类Windows的Linux：用AI反编译驱动并重建Office兼容软件的愿景](../cases/ai-windows-like-linux-driver-office-rebuild-idea.md) — 候选提出把Linux做成Windows式体验，以AI反编译驱动并重建Word、Excel与PowerPoint等软件；仅idea，没有移植或兼容测试。 **[其他 AI 逆向 · 待验证]**
-- [加拿大网络安全中心：专家引导AI分析未知恶意软件的五小时报告](../cases/canadian-cyber-centre-frontier-ai-malware-report.md) — 加拿大网络安全中心称Frontier AI Lab在专家全程引导下，把未知恶意软件转为验证情报，约五小时完成估算一周工作；无样本或独立计时。 **[其他 AI 逆向 · 待验证]**
+- [加拿大网络安全中心：专家引导AI分析未知恶意软件的五小时报告](../cases/canadian-cyber-centre-frontier-ai-malware-report.md) — 加拿大网络安全中心报告专家引导的五小时恶意软件分析；后续第二篇宣传补充从数百MB诱饵中每样本不到一秒找到单行恶意代码并协助制作检测工具，均未独立计时。 **[其他 AI 逆向 · 待验证]**
 - [claw design：Archie设想用逆向设计工具比较KIMI与Opus](../cases/archie-claw-design-model-evaluation-idea.md) — Archie称已有逆向的claw design，可能用来比较KIMI3.1与Opus5.5的设计、空间感及多模态工具能力；尚无评测输出。 **[其他 AI 逆向 · 待验证]**
 - [Agent Web：denzell转述把网页转为REST接口供模型调用](../cases/denzell-agent-web-rest-reconstruction-report.md) — denzell介绍Agent Web团队将网页逆向成REST API，意在免去模型读UI；项目身份、具体站点与接口验证未提供。 **[未确认使用 REA · 相关项目]**
 - [Claude Code项目候补：Prashant让Opus与Fable反推可先用的skill](../cases/prash-claude-code-project-skill-reconstruction.md) — Denys回应Prashant的尝试：因不愿等Claude Code项目候补，他让Opus/Fable反推skill；没有功能范围、实现或成功结果。 **[其他 AI 逆向 · 进行中]**

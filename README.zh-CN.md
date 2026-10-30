@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1311 个案例与项目
+# 1317 个案例与项目
 
-**最近案例更新：**2026 年 10 月 30 日 20:13 · **最近维护：**2026 年 10 月 30 日 20:13 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 10 月 31 日 00:13 · **最近维护：**2026 年 10 月 31 日 00:13 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**，从设备互通、实用替代品到游戏保存：优先看可检查的实现与明确测试边界，而不是完整重建的宣称。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**，从设备互通、实用替代品到游戏保存与声音重建：优先看可检查的实现与明确测试边界，而不是完整重建的宣称。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[tolpo：Tapo住宅的实时3D视图](cases/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — 转述Claude辅助协议研究，公开**LAN/MCP控制与人工校正户型**。复用python-kasa；较早项目自测覆盖九房间、18设备，不代表所有写操作与型号。设备本地通信不等于AI本地运行。`进行中`
 2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
@@ -31,7 +31,7 @@
 5. **[LG UltraFine：修更新器，而不是破解固件](cases/lg-ultrafine-codex-updater-patch.md)** · `2026-10-19` — Codex 辅助诊断，公开**精确构建限定的内存补丁**；作者报告 scaler 更新达 **100%、CRC 通过**。注明前人错误报告；仅一套 Apple Silicon 配置，本合集未独立刷机。`作者实测补丁`
 6. **[Brother：扫描直接进 NAS](cases/brother-scan-button-claude-rea-server.md)** · `2026-10-18` — 以 **Claude/REA 辅助的公开 Go 服务替代电脑按键应用，支持 SMB、FTP、S3 与本地保存**，复用前人协议研究。仍需服务器；项目只报告测试 MFC-L2800DW 固件1.32。`公开实现`
 7. **[Claude 写证明，Rocq 检查二进制](cases/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic／Theorem 报告为 **123 库的 239 个入口**建立机器码无崩溃证明。限单线程静态 RISC-V/Linux、小于64MB输入；**不等于整库无 bug**，本合集未独立重跑检查器。`分析测试`
-8. **[Moon-Buggy：先恢复规则，再重建网页游戏](cases/it-connect-moon-buggy-rea-claude-web-rebuild.md)** · `2026-10-29`文章 — Florian BURNEL报告**REA／Claude／Ghidra分析stripped Linux二进制，12分29秒做出可玩HTML**。目标为有公开源码的教学游戏；作者核对跳跃时长与计分，也发现命名偏差。本合集未独立测试完整地址报告或游戏。`分析测试`
+8. **[Earshot fit：把录音变成可调代码](cases/earshot-fit-recording-to-parametric-code.md)** · `2026-10-30`介绍；`2026-10-22`项目文档 — **将参考声音拟合成Python合成配方**，调整参数、生成新变体，供Agent通过CLI／MCP使用。公开基准同时保留改善与退步；参考片段私有，**0.4没有人工听测**，限制核验。本合集未运行。`分析测试`
 9. **[TabStationToo：在浏览器标签里玩PS2](cases/tabstationtoo-pcsx2-claude-web-port-report.md)** · `2026-10-30`报道及项目提交（北京时间） — **将PCSX2适配为WebAssembly JIT与WebGPU**，提交含Claude协作署名。项目报告限定场景接近全速，不代表所有游戏；须自备BIOS与游戏。不支持手机，本合集未实测游戏。`实验版`
 10. **[PicasaPy：让本地照片工作流继续用](cases/picasapy-ghidra-claude-codex-photo-manager.md)** · `2026-10-28`（北京时间） — Virág Attila用**Ghidra／Claude／Codex辅助Python/Qt重写**，公开研究规格及精确提交的成功CI。共用**.picasa.ini**不等于无冲突同步；项目文档区分静态覆盖与点击测试。未证明全面等价，本合集未运行。`进行中`
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **273** |
+| [游戏与游戏保存](categories/games.md) | **274** |
 | [硬件与设备互通](categories/hardware.md) | **355** |
-| [应用与客户端](categories/apps.md) | **547** |
-| [算法与功能重建](categories/algorithms.md) | **136** |
+| [应用与客户端](categories/apps.md) | **551** |
+| [算法与功能重建](categories/algorithms.md) | **137** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

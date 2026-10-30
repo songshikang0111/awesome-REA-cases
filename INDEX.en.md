@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1311 entries**, organized by use case, without a Top-N or popularity threshold.
+**1317 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (273)
+- [Games and preservation](categories/en/games.md) (274)
 - [Hardware and interoperability](categories/en/hardware.md) (355)
-- [Applications and clients](categories/en/apps.md) (547)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (136)
+- [Applications and clients](categories/en/apps.md) (551)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (137)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [The first Xbox Halo in a browser: a Portuguese AI roundup claims a multiplayer port](cases/en/halo-first-xbox-browser-multiplayer-ai-report.md) — A Portuguese post claims AI-assisted disassembly brought the first Xbox Halo to browser multiplayer. No project, developer, link or test identifies it; not conflated with OpenCE, Halo 3 or other franchise projects. **[Other AI-assisted work · Needs verification]**
 - [SM64 inside a room: lifcc relays Lucas Martinic's Opus/XR spatial-collision demo](cases/en/lucas-martinic-sm64-opus-xr-room-report.md) — lifcc credits existing SM64 decompilation and XR tooling, with Opus reportedly joining C physics to spatial meshes and hand colliders. 90 fps, whole-game coverage and headset compatibility are unverified. **[Other AI-assisted work · Needs verification]**
 - [NFS High Stakes: Fabio Makita proposes a Claude/REA adaptation using his earlier racing project](cases/en/nfs-high-stakes-claude-rea-modernization-idea.md) — Fabio Makita suggests having Claude read his Colin McRae project and use REA on Need for Speed: High Stakes. This is a modern-system adaptation idea, not a reported NFS result. **[REA · Needs verification]**
 - [The Console skill: eleven Claude skills organize PS2 recompilation and mod work](cases/en/aiedge-ps2-eleven-claude-skills-report.md) — AI Edge relays eleven PS2 skills. Public console-skill documentation credits PS2Recomp and an earlier skill; 559 offline synthetic tests do not prove 559 playable games, and experimental limits are explicit. **[Other AI-assisted work · In progress]**
@@ -662,6 +663,10 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Privy CLI: dashboard-request research exposes developer-account management to agents](cases/en/privy-cli-dashboard-api-agent-management.md) — Samarth publishes an unofficial Privy management CLI based on dashboard requests. npm confirms 0.1.0; documentation excludes wallet signing and warns that undocumented APIs can change. Not run or acceptance-tested here. **[REA use unconfirmed · Related project]**
+- [A Mac dictation app: Chrome relays REA/Hopper behavior specifications followed by a rebuild](cases/en/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome describes a three-part tutorial identifying hotkeys, recording and local transcription through Hopper output before building from a written specification. Product identity, source and equivalence tests are absent. **[REA · Needs verification]**
+- [Browser access to Omarchy: Patrick reports Google Remote Desktop research with Grok Bot and Claude](cases/en/journeydeck-google-remote-desktop-claude-omarchy.md) — Patrick reports reaching his home Omarchy computer with a browser and Cloudflare account. A follow-up admits poor latency and limits use to Claude, copy/paste and terminal work; security is unchecked. **[Other AI-assisted work · Needs verification]**
+- [Blademap: James proposes an AI rebuild from screenshots and a market-data subscription](cases/en/blademap-ai-screenshot-market-data-rebuild-idea.md) — James suggests recreating Blademap from screenshots and an existing market-data subscription, also claiming decompilation could yield backend data. No implementation, authorization or obtainable backend is established. **[Other AI-assisted work · Needs verification]**
 - [A personal export-market website: Jay Fang reports REA finding exposed video prompts](cases/en/jayfang-rea-website-video-prompt-exposure.md) — Jay Fang says an AI/REA review of his own website exposed video-generation prompts he thought were server-side. Site identity, exposure path and remediation tests are absent. **[REA · Needs verification]**
 - [TikTok's mobile API: NewsTongue relays a low-cost Hermes/REA/GLM investigation](cases/en/newstongue-tiktok-hermes-rea-glm-api-report.md) — NewsTongue reports a developer using Hermes Agent, REA and GLM 5.3 to investigate TikTok collection endpoints, identifying device identity, native signatures, regional routing and network fingerprints. Sub-$20 cost and successful replication are unverified. **[REA · Needs verification]**
 - [A plea over 30-plus TB of encrypted data: brucexu.eth suggests trying REA and AI](cases/en/charles-30tb-rea-ransomware-recovery-idea.md) — brucexu.eth suggests REA/AI in response to Charles Zhang's encrypted-data plea. This is a recovery idea for that incident, without a malware sample, recovered key or decryption result. **[REA · Needs verification]**
@@ -690,7 +695,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [WeChat client: Nicholai Yu reports chat management and agent access after nine billion tokens](cases/en/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu reports reversing the WeChat client for history/file management, AI-agent connection and understanding defenses. Nine billion tokens and compatibility scope have no checked validation record. **[Other AI-assisted work · Needs verification]**
 - [An abandoned notes app: an author reports REA/Claude exporting 14,212 notes and fixing shared images](cases/en/claude-rea-dead-notes-14212-markdown-export-report.md) — An author says an unnamed app's 2.3GB file yielded Markdown, 4,517 attachments and original dates, with 200-note checks exposing a shared-image bug. No public exporter or test record is supplied. **[REA · Needs verification]**
 - [Windows-like Linux: an idea to use AI for driver decompilation and Office-compatible replacements](cases/en/ai-windows-like-linux-driver-office-rebuild-idea.md) — A candidate proposes a Windows-like Linux experience, with AI-assisted driver decompilation and rebuilt Word, Excel and PowerPoint equivalents. An idea only, without ports or compatibility tests. **[Other AI-assisted work · Needs verification]**
-- [Canadian Cyber Centre: an expert-guided five-hour AI malware-analysis report](cases/en/canadian-cyber-centre-frontier-ai-malware-report.md) — The Canadian Centre for Cyber Security says its Frontier AI Lab turned unknown malware into validated intelligence in about five hours, compared with an estimated week, with experts guiding every step. No sample or independent timing is available here. **[Other AI-assisted work · Needs verification]**
+- [Canadian Cyber Centre: expert-guided malware analysis and a decoy-file detection report](cases/en/canadian-cyber-centre-frontier-ai-malware-report.md) — The Canadian Cyber Centre reports five-hour expert-guided malware analysis. A follow-up promoting article two adds sub-second per-sample discovery of one malicious line among hundreds of MB of decoys and assistance building detection tools; timing is not independently checked. **[Other AI-assisted work · Needs verification]**
 - [claw design: Archie proposes using a reverse-engineered design tool to compare KIMI and Opus](cases/en/archie-claw-design-model-evaluation-idea.md) — Archie says he has a reverse-engineered claw design and may compare KIMI 3.1 with Opus 5.5 on design, spatial awareness and multimodal tools. No evaluation output is available. **[Other AI-assisted work · Needs verification]**
 - [Agent Web: denzell relays reconstruction of web interfaces as REST APIs for models](cases/en/denzell-agent-web-rest-reconstruction-report.md) — denzell describes an Agent Web team reversing the web into REST APIs so models need not read UI. Product identity, target sites and interface validation are not supplied. **[REA use unconfirmed · Related project]**
 - [Waiting for a Claude Code project: Prashant asks Opus and Fable to reconstruct a usable skill](cases/en/prash-claude-code-project-skill-reconstruction.md) — Denys responds to Prashant's attempt to use Opus/Fable to reconstruct a skill rather than wait for a Claude Code project. Feature scope, implementation and successful results are absent. **[Other AI-assisted work · In progress]**
@@ -1212,6 +1217,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Earshot fit: reconstructing a reference recording as adjustable code](cases/en/earshot-fit-recording-to-parametric-code.md) — A post presents Earshot's agent listening and inverse audio synthesis. A pinned README describes recording-to-Python parameter fitting and discloses mixed fresh-held-out results and no 0.4 listening test. **[Other AI-assisted work · Analysis test]**
 - [Mauve halter-dress pointing groove: sandmrk reconstructs a roughly 7.5-second Muse dance](cases/en/sandmrk-muse-mauve-halter-reach-point-groove.md) — sandmrk specifies second-by-second gestures, weight shifts and a mid-motion ending, explicitly acknowledging an incomplete generated match. Tempo and dimensions are author specifications, not independent measurements. **[Other AI-assisted work · Needs verification]**
 - [A rising shot over a snow train: Leaf Yeah! reconstructs a ten-second AI-video prompt](cases/en/snow-train-ai-video-ten-second-prompt-reconstruction.md) — Leaf Yeah! proposes a ten-second continuous shot of a snow train, drifting snow and a ground-to-drone camera rise from an unidentified AI tool's output. No analysis model or regenerated comparison is reported. **[REA use unconfirmed · Needs verification]**
 - [A blue butterfly on the nose: sandmrk reconstructs an 11-second Muse portrait prompt](cases/en/sandmrk-muse-blue-butterfly-nose-prompt.md) — sandmrk specifies gaze, landing and wing timing for a butterfly visiting a fictional Miao-dressed woman, explicitly acknowledging an incomplete match. Model internals are not recovered. **[Other AI-assisted work · Needs verification]**

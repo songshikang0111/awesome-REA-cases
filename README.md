@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1311 cases & projects
+# 1317 cases & projects
 
-**Latest case update:** October 30, 2026, 20:13 · **Last maintained:** October 30, 2026, 20:13 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** October 31, 2026, 00:13 · **Last maintained:** October 31, 2026, 00:13 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading** for device interoperability, useful replacements and game preservation. Prefer inspectable implementations and explicit test limits over claims of complete reconstruction. Dates below are source or author-update dates, not collection dates.
+**10 worth reading** for device interoperability, useful replacements, game preservation and sound reconstruction. Prefer inspectable implementations and explicit test limits over claims of complete reconstruction. Dates below are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -31,7 +31,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 5. **[LG UltraFine: repair the updater, not the firmware](cases/en/lg-ultrafine-codex-updater-patch.md)** · `2026-10-19` — Codex-assisted diagnosis and a **public, exact-build memory patch**; the author reports a scaler update reaching **100% with CRC passing**. Credits an earlier bug report; one Apple Silicon setup, not independently flashed here. `Author-tested patch`
 6. **[Brother: scan straight to your NAS](cases/en/brother-scan-button-claude-rea-server.md)** · `2026-10-18` — Replace the PC button app with a **public Claude/REA-assisted Go service for SMB, FTP, S3 and local storage**, building on prior protocol work. A server is still required; only MFC-L2800DW firmware 1.32 is project-tested. `Public implementation`
 7. **[Claude writes proofs; Rocq checks the binaries](cases/en/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic/Theorem report machine-code no-crash proofs for **239 entry points across 123 libraries**. Single-threaded static RISC-V/Linux, inputs below 64MB; **not bug-free whole libraries**, and the checker was not independently rerun here. `Analysis test`
-8. **[Moon-Buggy: recover the rules, then build a browser game](cases/en/it-connect-moon-buggy-rea-claude-web-rebuild.md)** · `2026-10-29` article — Florian BURNEL reports **REA/Claude/Ghidra analysis of a stripped Linux binary and playable HTML in 12m29s**. Public-source teaching target; the author checks jump timing and scoring but catches a naming error. Full address report and game not independently tested here. `Analysis test`
+8. **[Earshot fit: turn a recording into adjustable code](cases/en/earshot-fit-recording-to-parametric-code.md)** · `2026-10-30` report; `2026-10-22` project documentation — **Fit a reference sound to a Python synthesis recipe** for new takes and parameter changes, available to agents through CLI/MCP. Public benchmarks retain regressions as well as gains; private reference clips and **no 0.4 listening test** limit verification. Not run here. `Analysis test`
 9. **[TabStationToo: PS2 games in a browser tab](cases/en/tabstationtoo-pcsx2-claude-web-port-report.md)** · `2026-10-30` report and project commit (Beijing time) — **PCSX2 adapted to WebAssembly JITs and WebGPU**, with Claude credited in a commit. Project reports near-full speed in selected scenes, not every game; bring your own BIOS and games. No phones, no independent gameplay test here. `Experimental`
 10. **[PicasaPy: keep a local photo workflow alive](cases/en/picasapy-ghidra-claude-codex-photo-manager.md)** · `2026-10-28` (Beijing time) — Virág Attila's **Ghidra/Claude/Codex-assisted Python/Qt rewrite** has public research specifications and successful exact-commit CI. Shared **.picasa.ini** files are not conflict-safe synchronization; project documents separate static coverage from click tests. Full parity not established; not run here. `In progress`
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **273** |
+| [Games & preservation](categories/en/games.md) | **274** |
 | [Hardware & interoperability](categories/en/hardware.md) | **355** |
-| [Applications & clients](categories/en/apps.md) | **547** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **136** |
+| [Applications & clients](categories/en/apps.md) | **551** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **137** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 
