@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1384 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1397 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（295）
-- [硬件与设备互通](categories/hardware.md)（370）
-- [应用与客户端](categories/apps.md)（571）
-- [算法与功能重建](categories/algorithms.md)（148）
+- [游戏与游戏保存](categories/games.md)（300）
+- [硬件与设备互通](categories/hardware.md)（372）
+- [应用与客户端](categories/apps.md)（576）
+- [算法与功能重建](categories/algorithms.md)（149）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,11 @@
 
 ### 游戏与游戏保存
 
+- [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
+- [Agent-PAL：让模型从DOS仙剑引擎研究走到全流程通关的基准报告](cases/agent-pal-dos-pal-ai-engine-benchmark-report.md) — Jianming Liu报告模型自行研究1995 DOS仙剑并手写脚本，pure模式海外三模型通关、国内组未通关；无独立复核日志。 **[其他 AI 逆向 · 分析测试]**
+- [SM64桌面沙盘：Claude接Unity／PICO CLI的移植转述](cases/sm64-pico-unity-claude-cli-port-report.md) — Xiao Tan转述Opus将已有SM64反编译接Unity、转换几何与MR控制，称一周末稳定90帧；原作者和代码未定位。 **[其他 AI 逆向 · 待验证]**
+- [2009 RuneScape变体：Justin称REA与Claude把世界移入Unreal](cases/justin-runescape2009-rea-claude-unreal-report.md) — Justin称REA、Claude Code与Unreal MCP重建2009 RuneScape变体世界；第一人称与魂类玩法仍是下一步，未见完整逻辑验证。 **[REA · 进行中]**
+- [TOTK上PC：玩家把4K／240fps体验归于Claude与反编译的简短说法](cases/totk-pc-claude-decompilation-player-report.md) — sephiwsh1感谢Claude和反编译带来TOTK的PC体验，但未给项目、配置、测量或实现链接。 **[其他 AI 逆向 · 待验证]**
 - [Mass Effect Pinnacle Station：读者盼AI反编译重建缺失DLC](cases/mass-effect-pinnacle-station-ai-rebuild-idea.md) — Bill在传奇版缺失Pinnacle Station的讨论下建议AI反编译与重建；仅为保存愿望，不是已恢复源码或成功移植。 **[其他 AI 逆向 · 待验证]**
 - [FM 27：Çağatay称Claude Code与REA研究未遇拒答](cases/highsenberg-fm27-claude-rea-exploration.md) — Çağatay说已用Claude Code加REA进入FM 27研究，意外没被拒绝；未披露具体功能、输出或逆向成果。 **[REA · 进行中]**
 - [Stunt Car Racer：REA遇m68k瓶颈，作者转用Ghidra与Gemini](cases/stunt-car-racer-amiga-rea-ghidra-gemini.md) — Scientific Brad研究1989年Amiga赛车，报告Ghidra反编译480函数并映射定点悬架与物理；Gemini继续处理，尚无完整重建验证。 **[REA · 进行中]**
@@ -324,6 +329,8 @@
 
 ### 硬件与设备互通
 
+- [旧Hisense电视：Hasibul简述Claude辅助探索隐藏系统](cases/hasibul-hisense-tv-claude-exploration-report.md) — Hasibul Hasan称用Claude逆向旧Hisense电视；只给探索自述和视频媒体，没有型号、步骤或可检查的完成结果。 **[其他 AI 逆向 · 待验证]**
+- [nv-uefi-unlocker：AI辅助GPU研究的报道与Rust预驱动实现](cases/nv-uefi-unlocker-ai-gpu-compute-report.md) — HKEPC称AI协助制作UEFI解锁工具；公开项目承接多项前人工作，性能与兼容性仍是项目／社区报告，非此处GPU实测。 **[其他 AI 逆向 · 待验证]**
 - [Honda Mapit：Sergio建议REA与DeepSeek研究订阅定位设备](cases/honda-mapit-rea-deepseek-open-tracker-idea.md) — 面对车主抱怨Mapit停订后失效，Sergio建议用REA与免费DeepSeek flash研究开放替代；车主只列入待办，没有实施结果。 **[REA · 待验证]**
 - [Allwinner电视盒：Jorge称Claude经ADB发现系统层风险](cases/jorge-allwinner-tvbox-claude-adb-audit.md) — Jorge原以为Xuper等App有问题，称Claude检查后发现身份伪装、开放ADB与隐藏安装器，遂断电停用；代理流量与无法清理均未独立验证。 **[其他 AI 逆向 · 待验证]**
 - [Apple Neural Engine：nisten拟用Ghidra／REA研究优化](cases/nisten-ane-ghidra-rea-optimization-idea.md) — nisten称一直在探查ANE，想用Ghidra与REA帮助优化；父帖31%语音编码提升属于Joshua Warren的驱动报告，不是nisten的AI成果。 **[REA · 待验证]**
@@ -697,6 +704,11 @@
 
 ### 应用与客户端
 
+- [BogusMips：Jan把Android包、smali与网络流量交给内置AI分析](cases/bogusmips-jan-ai-app-reverse-engineering-tool.md) — Jan介绍Rust桌面逆向工具；公开README将APK／XAPK解析与多模型Agent、模拟器流量联用，明确TLS与Frida限制。 **[其他 AI 逆向 · 相关项目]**
+- [OmniRecon：AI浏览器调查、证据账本与网站重建蓝图](cases/omnirecon-ai-website-reconstruction-mcp.md) — Meda Anilkumar称OmniRecon提供30项工具；固定README写25项且比较表写24项，故不确认工具总数，只保存公开工作流与证据限制。 **[其他 AI 逆向 · 相关项目]**
+- [iPhone隐私报告：kairos提出Claude只读核对麦克风访问记录](cases/kairos-iphone-privacy-report-claude-audit-idea.md) — kairos建议导出App Privacy Report交Claude Code逐条追溯访问事件，明确七天边界；同串备份输出未证明偷录或推荐因果。 **[其他 AI 逆向 · 待验证]**
+- [无广告社交网络：读者提出REA／AI重建常用平台的idea](cases/rea-ai-ad-free-social-network-rebuild-idea.md) — 一则西语帖建议用REA／AI重建常用社交网络，去掉推荐算法、广告、机器人和AI垃圾；没有选定平台或实现。 **[REA · 待验证]**
+- [Android手机安全审计：Forem提出Claude经ADB与jadx追查可疑App](cases/forem-android-adb-jadx-claude-audit-idea.md) — Forem给出先只读查包、权限、活动，再反编译可疑APK的提示；这是调查方案，不是已发现间谍软件或保证能取七天流量。 **[其他 AI 逆向 · 待验证]**
 - [GeForce Now：Angel请Codex定制他人逆向的客户端](cases/geforce-now-codex-client-tailoring-report.md) — Angel称闭源GeForce Now无法像Moonlight那样直接优化，因此找到第三方逆向版本再交Codex个性化；没有仓库或性能对照。 **[其他 AI 逆向 · 待验证]**
 - [HyperOS3 SystemHelper：MeT称GPT发现应用清单与SIM标识载荷](cases/hyperos3-systemhelper-gpt-app-telemetry-report.md) — MeT研究朋友的小米14，称GPT分析SystemHelper枚举应用及24小时使用情况，序列化含设备／SIM标识；未给APK、调用路径或流量证据。 **[其他 AI 逆向 · 待验证]**
 - [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](cases/hyperos3-security-component-gpt-screen-audit.md) — MeT称GPT读出应用列表、语音反诈与三秒屏幕片段云检测实现；没有触发条件或动态证据，不等于全时录屏或已证明泄露。 **[其他 AI 逆向 · 待验证]**
@@ -1153,7 +1165,7 @@
 - [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](cases/bloomberg-style-research-terminal.md) — 多帖描述REA与Claude研究Bloomberg风格工作流、接独立数据；10月24日提案在Kronos预测层外增加TradingAgents研究与风险决策，仍无终端产物或回测结果。 **[REA · 待验证]**
 - [闭源 Coding Agent：逆向多模型协同逻辑并制作 pi 插件](cases/closed-agent-pi-plugin.md) — 作者自述用 REA 研究闭源 Coding Agent 的多模型协同逻辑，并据此开发 pi 插件；目标与实现尚未公开核验。 **[REA · 待验证]**
 - [ChatGPT App：用 REA 分析并为聊天窗口添加渐变背景](cases/chatgpt-app-gradient-background.md) — 作者称用 ChatGPT 与 REA 分析 Electron 应用，并为右侧聊天窗口注入渐变背景。 **[REA · 待验证]**
-- [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](cases/ledger-reborn-accounting-app.md) — 第三方 quote 帖称开发者以 REA + Ghidra 研究 QuickBooks 的库存成本、预算与对账，并发布 Windows / Mac 预览版。 **[REA · 相关项目]**
+- [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](cases/ledger-reborn-accounting-app.md) — 第三方报告称REA／Ghidra研究QuickBooks后制作Python／SQLite记账应用；11月1日新增Mac2024版、逐账户到分对照三张报表的说法，仍无独立审计。 **[REA · 相关项目]**
 - [红果短剧：用 REA 逆向并去除广告与悬浮窗](cases/hongguo-short-drama-ad-removal.md) — 发帖者自述用 REA 逆向红果短剧应用，实现去广告和去悬浮窗功能；连续观看一天未见广告的结果尚未独立核验。 **[REA · 待验证]**
 - [Profound：用 REA 研究并重建 SaaS 工作台](cases/profound-rea-reconstruction.md) — 作者称用 REA 逆向 Profound 的官网、工作台与管理后台并开源重建项目；所述数据为虚构示例，功能尚未独立核验。 **[REA · 待验证]**
 - [Codex Desktop：REA差异研究尝试与Grok开源平替idea](cases/codex-desktop-rea-attempt.md) — 早期作者称用REA研究Codex桌面版与CLI差异；10月31日另一读者向Grok提出反编译并构建开源平替，均未报告发现、代码或验证。 **[REA · 进行中]**
@@ -1271,6 +1283,7 @@
 
 ### 算法与功能重建
 
+- [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**
 - [LLVM优化器idea：让AI比较GCC与LLVM汇编差异后改IL优化](cases/llvm-gcc-assembly-ai-optimizer-idea.md) — 一本正经的瞎扯提出在GCC二进制更快时，让AI对比两套汇编并修改LLVM IL优化器；没有实现或性能测量。 **[其他 AI 逆向 · 待验证]**
 - [车内自拍视频重建：Leaf Yeah用agy反推提示再交Muse生成](cases/leaf-agy-muse-car-selfie-video-prompt.md) — Leaf Yeah公开从抖音参考片反推的两阶段提示：先做普通自拍底图，再做9:16、10秒车内vlog；未核验原片和生成相似度。 **[其他 AI 逆向 · 待验证]**
 - [巨物果园产品片：sandmrk反推Muse六段58秒分镜，承认不能完全匹配](cases/sandmrk-muse-giant-fruit-garden-prompt.md) — sandmrk把汉服女子穿行巨大水果花园的参考片写成六段提示，规定镜头、比例、动作与小瓶产品收尾；这不是找回原始提示或验证复刻。 **[其他 AI 逆向 · 待验证]**

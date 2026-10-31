@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](../cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
+- [Agent-PAL：让模型从DOS仙剑引擎研究走到全流程通关的基准报告](../cases/agent-pal-dos-pal-ai-engine-benchmark-report.md) — Jianming Liu报告模型自行研究1995 DOS仙剑并手写脚本，pure模式海外三模型通关、国内组未通关；无独立复核日志。 **[其他 AI 逆向 · 分析测试]**
+- [SM64桌面沙盘：Claude接Unity／PICO CLI的移植转述](../cases/sm64-pico-unity-claude-cli-port-report.md) — Xiao Tan转述Opus将已有SM64反编译接Unity、转换几何与MR控制，称一周末稳定90帧；原作者和代码未定位。 **[其他 AI 逆向 · 待验证]**
+- [2009 RuneScape变体：Justin称REA与Claude把世界移入Unreal](../cases/justin-runescape2009-rea-claude-unreal-report.md) — Justin称REA、Claude Code与Unreal MCP重建2009 RuneScape变体世界；第一人称与魂类玩法仍是下一步，未见完整逻辑验证。 **[REA · 进行中]**
+- [TOTK上PC：玩家把4K／240fps体验归于Claude与反编译的简短说法](../cases/totk-pc-claude-decompilation-player-report.md) — sephiwsh1感谢Claude和反编译带来TOTK的PC体验，但未给项目、配置、测量或实现链接。 **[其他 AI 逆向 · 待验证]**
 - [Mass Effect Pinnacle Station：读者盼AI反编译重建缺失DLC](../cases/mass-effect-pinnacle-station-ai-rebuild-idea.md) — Bill在传奇版缺失Pinnacle Station的讨论下建议AI反编译与重建；仅为保存愿望，不是已恢复源码或成功移植。 **[其他 AI 逆向 · 待验证]**
 - [FM 27：Çağatay称Claude Code与REA研究未遇拒答](../cases/highsenberg-fm27-claude-rea-exploration.md) — Çağatay说已用Claude Code加REA进入FM 27研究，意外没被拒绝；未披露具体功能、输出或逆向成果。 **[REA · 进行中]**
 - [Stunt Car Racer：REA遇m68k瓶颈，作者转用Ghidra与Gemini](../cases/stunt-car-racer-amiga-rea-ghidra-gemini.md) — Scientific Brad研究1989年Amiga赛车，报告Ghidra反编译480函数并映射定点悬架与物理；Gemini继续处理，尚无完整重建验证。 **[REA · 进行中]**

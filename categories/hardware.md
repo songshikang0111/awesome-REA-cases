@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [旧Hisense电视：Hasibul简述Claude辅助探索隐藏系统](../cases/hasibul-hisense-tv-claude-exploration-report.md) — Hasibul Hasan称用Claude逆向旧Hisense电视；只给探索自述和视频媒体，没有型号、步骤或可检查的完成结果。 **[其他 AI 逆向 · 待验证]**
+- [nv-uefi-unlocker：AI辅助GPU研究的报道与Rust预驱动实现](../cases/nv-uefi-unlocker-ai-gpu-compute-report.md) — HKEPC称AI协助制作UEFI解锁工具；公开项目承接多项前人工作，性能与兼容性仍是项目／社区报告，非此处GPU实测。 **[其他 AI 逆向 · 待验证]**
 - [Honda Mapit：Sergio建议REA与DeepSeek研究订阅定位设备](../cases/honda-mapit-rea-deepseek-open-tracker-idea.md) — 面对车主抱怨Mapit停订后失效，Sergio建议用REA与免费DeepSeek flash研究开放替代；车主只列入待办，没有实施结果。 **[REA · 待验证]**
 - [Allwinner电视盒：Jorge称Claude经ADB发现系统层风险](../cases/jorge-allwinner-tvbox-claude-adb-audit.md) — Jorge原以为Xuper等App有问题，称Claude检查后发现身份伪装、开放ADB与隐藏安装器，遂断电停用；代理流量与无法清理均未独立验证。 **[其他 AI 逆向 · 待验证]**
 - [Apple Neural Engine：nisten拟用Ghidra／REA研究优化](../cases/nisten-ane-ghidra-rea-optimization-idea.md) — nisten称一直在探查ANE，想用Ghidra与REA帮助优化；父帖31%语音编码提升属于Joshua Warren的驱动报告，不是nisten的AI成果。 **[REA · 待验证]**

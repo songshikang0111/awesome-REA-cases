@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [BogusMips：Jan把Android包、smali与网络流量交给内置AI分析](../cases/bogusmips-jan-ai-app-reverse-engineering-tool.md) — Jan介绍Rust桌面逆向工具；公开README将APK／XAPK解析与多模型Agent、模拟器流量联用，明确TLS与Frida限制。 **[其他 AI 逆向 · 相关项目]**
+- [OmniRecon：AI浏览器调查、证据账本与网站重建蓝图](../cases/omnirecon-ai-website-reconstruction-mcp.md) — Meda Anilkumar称OmniRecon提供30项工具；固定README写25项且比较表写24项，故不确认工具总数，只保存公开工作流与证据限制。 **[其他 AI 逆向 · 相关项目]**
+- [iPhone隐私报告：kairos提出Claude只读核对麦克风访问记录](../cases/kairos-iphone-privacy-report-claude-audit-idea.md) — kairos建议导出App Privacy Report交Claude Code逐条追溯访问事件，明确七天边界；同串备份输出未证明偷录或推荐因果。 **[其他 AI 逆向 · 待验证]**
+- [无广告社交网络：读者提出REA／AI重建常用平台的idea](../cases/rea-ai-ad-free-social-network-rebuild-idea.md) — 一则西语帖建议用REA／AI重建常用社交网络，去掉推荐算法、广告、机器人和AI垃圾；没有选定平台或实现。 **[REA · 待验证]**
+- [Android手机安全审计：Forem提出Claude经ADB与jadx追查可疑App](../cases/forem-android-adb-jadx-claude-audit-idea.md) — Forem给出先只读查包、权限、活动，再反编译可疑APK的提示；这是调查方案，不是已发现间谍软件或保证能取七天流量。 **[其他 AI 逆向 · 待验证]**
 - [GeForce Now：Angel请Codex定制他人逆向的客户端](../cases/geforce-now-codex-client-tailoring-report.md) — Angel称闭源GeForce Now无法像Moonlight那样直接优化，因此找到第三方逆向版本再交Codex个性化；没有仓库或性能对照。 **[其他 AI 逆向 · 待验证]**
 - [HyperOS3 SystemHelper：MeT称GPT发现应用清单与SIM标识载荷](../cases/hyperos3-systemhelper-gpt-app-telemetry-report.md) — MeT研究朋友的小米14，称GPT分析SystemHelper枚举应用及24小时使用情况，序列化含设备／SIM标识；未给APK、调用路径或流量证据。 **[其他 AI 逆向 · 待验证]**
 - [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](../cases/hyperos3-security-component-gpt-screen-audit.md) — MeT称GPT读出应用列表、语音反诈与三秒屏幕片段云检测实现；没有触发条件或动态证据，不等于全时录屏或已证明泄露。 **[其他 AI 逆向 · 待验证]**
@@ -458,7 +463,7 @@
 - [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](../cases/bloomberg-style-research-terminal.md) — 多帖描述REA与Claude研究Bloomberg风格工作流、接独立数据；10月24日提案在Kronos预测层外增加TradingAgents研究与风险决策，仍无终端产物或回测结果。 **[REA · 待验证]**
 - [闭源 Coding Agent：逆向多模型协同逻辑并制作 pi 插件](../cases/closed-agent-pi-plugin.md) — 作者自述用 REA 研究闭源 Coding Agent 的多模型协同逻辑，并据此开发 pi 插件；目标与实现尚未公开核验。 **[REA · 待验证]**
 - [ChatGPT App：用 REA 分析并为聊天窗口添加渐变背景](../cases/chatgpt-app-gradient-background.md) — 作者称用 ChatGPT 与 REA 分析 Electron 应用，并为右侧聊天窗口注入渐变背景。 **[REA · 待验证]**
-- [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](../cases/ledger-reborn-accounting-app.md) — 第三方 quote 帖称开发者以 REA + Ghidra 研究 QuickBooks 的库存成本、预算与对账，并发布 Windows / Mac 预览版。 **[REA · 相关项目]**
+- [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](../cases/ledger-reborn-accounting-app.md) — 第三方报告称REA／Ghidra研究QuickBooks后制作Python／SQLite记账应用；11月1日新增Mac2024版、逐账户到分对照三张报表的说法，仍无独立审计。 **[REA · 相关项目]**
 - [红果短剧：用 REA 逆向并去除广告与悬浮窗](../cases/hongguo-short-drama-ad-removal.md) — 发帖者自述用 REA 逆向红果短剧应用，实现去广告和去悬浮窗功能；连续观看一天未见广告的结果尚未独立核验。 **[REA · 待验证]**
 - [Profound：用 REA 研究并重建 SaaS 工作台](../cases/profound-rea-reconstruction.md) — 作者称用 REA 逆向 Profound 的官网、工作台与管理后台并开源重建项目；所述数据为虚构示例，功能尚未独立核验。 **[REA · 待验证]**
 - [Codex Desktop：REA差异研究尝试与Grok开源平替idea](../cases/codex-desktop-rea-attempt.md) — 早期作者称用REA研究Codex桌面版与CLI差异；10月31日另一读者向Grok提出反编译并构建开源平替，均未报告发现、代码或验证。 **[REA · 进行中]**
