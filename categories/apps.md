@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [云照片迁至Immich：codila介绍Claude辅助复用iCloud与Google Photos私有请求](../cases/codila-claude-cloud-photo-immich-migration.md) — codila称Claude可部署Immich／Tailscale并借云相册私有请求导出照片、核对文件数量；是自托管迁移工作流，不是完整重建iCloud或Google Photos。 **[其他 AI 逆向 · 待验证]**
+- [Grokius Terminal：Ryan转述GrokBot辅助构建Pump App式手机交易终端](../cases/grokius-grokbot-pump-style-terminal-report.md) — Ryan称Explosive用GrokBot逆向重建Pump App式meme币终端，列出五Agent分工与512钱包跟踪；仅营销转述，没有源码、交易验收或收益证据。 **[其他 AI 逆向 · 待验证]**
+- [Reverse Lab：PixelRainbow以leanrea分诊与路由减少先全面反编译的工作流](../cases/reverse-lab-leanrea-triage-bot.md) — PixelRainbow介绍先做批量shell清点、按目标选工具、最后才升级GhidraMCP的逆向bot，注明借鉴leanrea；没有公开目标对照或token节省测量。 **[其他 AI 逆向 · 相关项目]**
+- [Clean Room：PixelRainbow以REA输出行为规格与隔离会话重建提示的bot](../cases/clean-room-rea-behavior-spec-prompt-bot.md) — 作者介绍REA驱动的Clean Room：带证据行为SPEC、怀疑式裁判、人工签准及给新会话的PROMPT；明确不运行构建，没有重建等价或隔离有效性验证。 **[REA · 相关项目]**
+- [SAP：读者提出用REA逆向企业软件的愿望](../cases/sap-rea-reverse-engineering-wish.md) — 作者问还要多久才有人逆向SAP，并附REA标签；具体到企业软件产品家族，但没有模块、版本、方案或已启动证据。 **[REA · 待验证]**
 - [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](../cases/rea-electron-hidden-network-call-blind-test.md) — 作者称未告知REA自建Electron应用结构，仍识别一窗口、一preload、三桥函数、三私有通道及一隐藏网络调用；30秒和全部命中均未独立重跑。 **[REA · 分析测试]**
 - [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](../cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
 - [Mac听写应用：Chrome转述REA／Hopper先写行为规格再重建](../cases/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome转述三部分教程，以Hopper输出辨识Mac听写应用的热键、录音和本地转写，再按文字规格构建自己的版本；软件名称、源码与等价测试未给出。 **[REA · 待验证]**
@@ -25,7 +30,7 @@
 - [Antigravity：Gemini Argon发现bug后推荐社区逆向补丁的自述](../cases/neko-antigravity-gemini-community-patch-report.md) — 毒猫猫称Gemini Argon在工作中发现Antigravity bug并推荐社区逆向patch；没有bug身份、链接或安装结果，不能认定AI亲自编写修复。 **[其他 AI 逆向 · 待验证]**
 - [理想播客客户端：Moebius设想用REA综合三款应用](../cases/moebius-rea-three-podcast-apps-combination-idea.md) — Moebius在创新争论中设想用REA研究三款播客应用，再组合自己的理想客户端；仅条件式idea，没有选定应用或实现。 **[REA · 待验证]**
 - [28应用组合：DigitalGoldTalk自称19天REA/Claude研究后进入testnet](../cases/digitalgoldtalk-28-apps-rea-testnet-report.md) — DigitalGoldTalk称研究通信、社交、支付和媒体共28款应用，从Photoshop起步，现处testnet；没有完整应用表、代码或兼容测试。 **[REA · 待验证]**
-- [浏览器补丁时差：Choblin转述Epoch的GLM5.3 Firefox/Chrome对照测试](../cases/epoch-glm53-firefox-chrome-patch-gap-report.md) — 二手报告称GLM5.3研究已公开而未部署的修复，在受控Firefox测试成功、Chrome失败；未取得Epoch原报告或复测，不代表现实用户遭攻击。 **[其他 AI 逆向 · 待验证]**
+- [浏览器补丁时差：Epoch的GLM5.3 Firefox/Chrome对照测试二手报告](../cases/epoch-glm53-firefox-chrome-patch-gap-report.md) — 二手报告称GLM5.3研究已公开而未部署的修复，在受控Firefox测试成功、Chrome失败；新增未知沙箱逃逸串联说法，仍未取得原始记录或复测，不代表现实用户遭攻击。 **[其他 AI 逆向 · 待验证]**
 - [winutil与Windows调整：gIoomy的Opus审查自述保留互相矛盾的计数](../cases/gloomy-winutil-opus-readonly-tweak-audit.md) — 作者称Opus5.5先读winutil39项调整、避开BitLocker停用并备份真实设置，选七项改善电脑；启动项与服务数字不一致，未验证性能或回滚。 **[其他 AI 逆向 · 待验证]**
 - [Jump Desktop Fluid：Zack Jackson的AI反编译尝试遇到官方beta](../cases/zack-jump-desktop-fluid-linux-decompile-attempt.md) — Zack Jackson称AI正尝试反编译以实现Linux的Fluid支持，随后发现Jump Desktop beta；没有自制兼容客户端或完成反编译的证据。 **[其他 AI 逆向 · 进行中]**
 - [Jiffshot：Marc-André Moreau澄清Claude只读Snagit文档与截图](../cases/jiffshot-snagit-claude-docs-screenshots-rebuild.md) — Snagit替代品Jiffshot以Rust和Avalonia UI实现；作者明确说没用REA、没反编译，只让Claude读文档和截图。功能与稳定性仍是作者报告。 **[其他 AI 逆向 · 进行中]**

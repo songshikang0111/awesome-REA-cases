@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [KoF All Star：借AI逆向让游戏离线可玩的愿望](../cases/kof-all-star-ai-offline-preservation-idea.md) — 回复BuffGigas的读者希望借AI逆向热潮让KoF All Star离线可玩；只有目标愿望，没有客户端修改、服务端重建或演示。 **[其他 AI 逆向 · 待验证]**
 - [sh4vita：Claude／Codex辅助把《寂静岭4》PC版静态重编译到PS Vita](../cases/sh4vita-silent-hill4-claude-codex-static-port.md) — vallfrr公开Ghidra函数导出、x86转C及vitaGL运行时，项目报告实机从头到尾可玩；限定GOG v5，繁忙场景低于30fps、长局内存不足等问题仍保留。 **[其他 AI 逆向 · 进行中]**
 - [xmen2-pc：Claude Code辅助重建《X战警2》，扩展四人回滚联机](../cases/xmen2-pc-claude-genesis-native-port.md) — crabsmack公开Genesis原生PC移植，称3047个C函数字节匹配、117个汇编函数指令级对照无差异；四人、宽屏与插值高刷是新增功能，测试较少，未独立重跑。 **[其他 AI 逆向 · 进行中]**
 - [初代Xbox Halo进浏览器：葡文AI周报的多人移植说法](../cases/halo-first-xbox-browser-multiplayer-ai-report.md) — 葡文帖子称首款Xbox Halo经AI辅助拆解后可在浏览器多人游玩；无项目名、开发者、链接或测试，不与OpenCE、Halo3或其他系列项目混同。 **[其他 AI 逆向 · 待验证]**

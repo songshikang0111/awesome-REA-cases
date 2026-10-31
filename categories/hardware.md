@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [经销商App封闭的摄像头：Carsten称用REA恢复协议并自建服务器客户端](../cases/carsten-rea-reseller-camera-server-client.md) — CarstenBKK称用Reverse Engineer Anything研究闲置摄像头的协议，现在已有运行在自己服务器上的客户端；未公开型号、代码或功能测试。 **[REA · 待验证]**
+- [YouFibre ARRIS NVG578LX：Scientific Brad报告AI辅助发现LAN凭据暴露](../cases/youfibre-arris-nvg578lx-rea-lan-disclosure-report.md) — Scientific Brad称用REA、DaybreakBlue与Codex检查CommScope ARRIS NVG578LX，发现未登录LAN客户端可见Wi-Fi凭据，已报YouFibre；等待回应期间不公开细节。 **[REA · 待验证]**
 - [Yealink固件：读者希望Claude／Codex检查可疑内容](../cases/yealink-claude-codex-firmware-audit-wish.md) — 回复venturetwins的读者希望Claude或Codex彻底审查Yealink固件；只是针对具名厂商的审计愿望，没有型号、已进行研究或发现证据。 **[其他 AI 逆向 · 待验证]**
 - [Brother碳粉调校：作者称在Visual Studio用REA研究驱动与固件](../cases/brother-toner-rea-visual-studio-tuning-report.md) — 挪威语作者报告用reverse-engineer-anything和AI拆解自有Brother驱动及固件，微调后降低碳粉消耗；没有型号、参数、用量或打印质量对照。 **[REA · 待验证]**
 - [Bastion：从Claude路由器隐私研究转向有边界的桌面网络检查器](../cases/bastion-claude-router-privacy-network-guard-report.md) — 作者称Claude研究自有路由器后创建Bastion；公开README明确只从LAN检查、不能证明WAN暴露或看到其他设备流量，定时监看仍在路线图，与推广帖有所出入。 **[其他 AI 逆向 · 进行中]**
@@ -36,7 +38,7 @@
 - [扫地机夜巡：Martin称用Opus与Valetudo改为识别宠物的家庭守卫](../cases/vacuum-opus-valetudo-night-guard-report.md) — Martin称root自有扫地机，让Claude Code检查Valetudo与本地相机，再组合YOLO和巡逻规划；没有型号、代码或延迟实测。 **[其他 AI 逆向 · 待验证]**
 - [小米15运行iOS16：读者转述AI逆向移植，尚无启动验证](../cases/xiaomi15-ios16-ai-port-secondary-report.md) — 读者称刷到小米15可运行iOS16的AI移植说法；没有开发者、仓库或启动记录，不认定可刷机。 **[其他 AI 逆向 · 待验证]**
 - [Ray-Ban Meta赛道教练：REA读相机、Claude理解Spa画面的未验证宣称](../cases/rayban-meta-rea-spa-race-coach-report.md) — 帖子称REA让Agent读取眼镜30fps画面、Claude给路线和刹车提示；未证明实时管线、眼镜显示或真实驾驶测试。 **[REA · 待验证]**
-- [Sony FX3／FX30／A7 IV：用AI与REA研究软件功能限制的idea](../cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 作者建议用AI研究三款Sony相机的软件限制；没有指定功能、固件版本、补丁或解锁结果。 **[REA · 待验证]**
+- [Sony FX3／FX30／A7 IV：AI／REA软件限制研究与机内双重曝光愿望](../cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 原作者建议用AI／REA研究三款Sony相机的软件限制；新读者进一步希望A7 IV支持机内双重曝光。仍只有idea，没有固件补丁或解锁结果。 **[REA · 待验证]**
 - [低功耗Broadcom Linux：建议AI反编译固件路径，进一步压缩间歇启动耗时](../cases/broadcom-linux-ai-firmware-fast-boot-idea.md) — 读者在电池/太阳能Linux项目讨论中建议让AI研究固件路径以缩短启动；父串3.5秒是既有背景，不是AI成果。 **[其他 AI 逆向 · 待验证]**
 - [自有路由器配置与流量：Claude只读分析远程支持程序、DNS和转发规则](../cases/router-config-claude-remote-support-audit-report.md) — 作者称给Claude配置导出与一小时流量，发现远程管理、未知支持程序及NAS转发；无原始记录，不把DNS查询等同解密全部浏览。 **[其他 AI 逆向 · 待验证]**
 - [米遥MI-AO：Codex协作研究遥控器BLE，把按住说话送入Mac任务](../cases/fanxeon-mi-ao-xiaomi-remote-codex.md) — MI-AO读取小米2Pro的ATVV音频，经ADPCM与本地Whisper送入Codex；作者报告固件2671端到端测试，macOS14+源码优先beta。 **[其他 AI 逆向 · 进行中]**

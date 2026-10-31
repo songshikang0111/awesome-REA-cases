@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1326 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1334 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（276）
-- [硬件与设备互通](categories/hardware.md)（358）
-- [应用与客户端](categories/apps.md)（552）
+- [游戏与游戏保存](categories/games.md)（277）
+- [硬件与设备互通](categories/hardware.md)（360）
+- [应用与客户端](categories/apps.md)（557）
 - [算法与功能重建](categories/algorithms.md)（140）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [KoF All Star：借AI逆向让游戏离线可玩的愿望](cases/kof-all-star-ai-offline-preservation-idea.md) — 回复BuffGigas的读者希望借AI逆向热潮让KoF All Star离线可玩；只有目标愿望，没有客户端修改、服务端重建或演示。 **[其他 AI 逆向 · 待验证]**
 - [sh4vita：Claude／Codex辅助把《寂静岭4》PC版静态重编译到PS Vita](cases/sh4vita-silent-hill4-claude-codex-static-port.md) — vallfrr公开Ghidra函数导出、x86转C及vitaGL运行时，项目报告实机从头到尾可玩；限定GOG v5，繁忙场景低于30fps、长局内存不足等问题仍保留。 **[其他 AI 逆向 · 进行中]**
 - [xmen2-pc：Claude Code辅助重建《X战警2》，扩展四人回滚联机](cases/xmen2-pc-claude-genesis-native-port.md) — crabsmack公开Genesis原生PC移植，称3047个C函数字节匹配、117个汇编函数指令级对照无差异；四人、宽屏与插值高刷是新增功能，测试较少，未独立重跑。 **[其他 AI 逆向 · 进行中]**
 - [初代Xbox Halo进浏览器：葡文AI周报的多人移植说法](cases/halo-first-xbox-browser-multiplayer-ai-report.md) — 葡文帖子称首款Xbox Halo经AI辅助拆解后可在浏览器多人游玩；无项目名、开发者、链接或测试，不与OpenCE、Halo3或其他系列项目混同。 **[其他 AI 逆向 · 待验证]**
@@ -305,6 +306,8 @@
 
 ### 硬件与设备互通
 
+- [经销商App封闭的摄像头：Carsten称用REA恢复协议并自建服务器客户端](cases/carsten-rea-reseller-camera-server-client.md) — CarstenBKK称用Reverse Engineer Anything研究闲置摄像头的协议，现在已有运行在自己服务器上的客户端；未公开型号、代码或功能测试。 **[REA · 待验证]**
+- [YouFibre ARRIS NVG578LX：Scientific Brad报告AI辅助发现LAN凭据暴露](cases/youfibre-arris-nvg578lx-rea-lan-disclosure-report.md) — Scientific Brad称用REA、DaybreakBlue与Codex检查CommScope ARRIS NVG578LX，发现未登录LAN客户端可见Wi-Fi凭据，已报YouFibre；等待回应期间不公开细节。 **[REA · 待验证]**
 - [Yealink固件：读者希望Claude／Codex检查可疑内容](cases/yealink-claude-codex-firmware-audit-wish.md) — 回复venturetwins的读者希望Claude或Codex彻底审查Yealink固件；只是针对具名厂商的审计愿望，没有型号、已进行研究或发现证据。 **[其他 AI 逆向 · 待验证]**
 - [Brother碳粉调校：作者称在Visual Studio用REA研究驱动与固件](cases/brother-toner-rea-visual-studio-tuning-report.md) — 挪威语作者报告用reverse-engineer-anything和AI拆解自有Brother驱动及固件，微调后降低碳粉消耗；没有型号、参数、用量或打印质量对照。 **[REA · 待验证]**
 - [Bastion：从Claude路由器隐私研究转向有边界的桌面网络检查器](cases/bastion-claude-router-privacy-network-guard-report.md) — 作者称Claude研究自有路由器后创建Bastion；公开README明确只从LAN检查、不能证明WAN暴露或看到其他设备流量，定时监看仍在路线图，与推广帖有所出入。 **[其他 AI 逆向 · 进行中]**
@@ -339,7 +342,7 @@
 - [扫地机夜巡：Martin称用Opus与Valetudo改为识别宠物的家庭守卫](cases/vacuum-opus-valetudo-night-guard-report.md) — Martin称root自有扫地机，让Claude Code检查Valetudo与本地相机，再组合YOLO和巡逻规划；没有型号、代码或延迟实测。 **[其他 AI 逆向 · 待验证]**
 - [小米15运行iOS16：读者转述AI逆向移植，尚无启动验证](cases/xiaomi15-ios16-ai-port-secondary-report.md) — 读者称刷到小米15可运行iOS16的AI移植说法；没有开发者、仓库或启动记录，不认定可刷机。 **[其他 AI 逆向 · 待验证]**
 - [Ray-Ban Meta赛道教练：REA读相机、Claude理解Spa画面的未验证宣称](cases/rayban-meta-rea-spa-race-coach-report.md) — 帖子称REA让Agent读取眼镜30fps画面、Claude给路线和刹车提示；未证明实时管线、眼镜显示或真实驾驶测试。 **[REA · 待验证]**
-- [Sony FX3／FX30／A7 IV：用AI与REA研究软件功能限制的idea](cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 作者建议用AI研究三款Sony相机的软件限制；没有指定功能、固件版本、补丁或解锁结果。 **[REA · 待验证]**
+- [Sony FX3／FX30／A7 IV：AI／REA软件限制研究与机内双重曝光愿望](cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 原作者建议用AI／REA研究三款Sony相机的软件限制；新读者进一步希望A7 IV支持机内双重曝光。仍只有idea，没有固件补丁或解锁结果。 **[REA · 待验证]**
 - [低功耗Broadcom Linux：建议AI反编译固件路径，进一步压缩间歇启动耗时](cases/broadcom-linux-ai-firmware-fast-boot-idea.md) — 读者在电池/太阳能Linux项目讨论中建议让AI研究固件路径以缩短启动；父串3.5秒是既有背景，不是AI成果。 **[其他 AI 逆向 · 待验证]**
 - [自有路由器配置与流量：Claude只读分析远程支持程序、DNS和转发规则](cases/router-config-claude-remote-support-audit-report.md) — 作者称给Claude配置导出与一小时流量，发现远程管理、未知支持程序及NAS转发；无原始记录，不把DNS查询等同解密全部浏览。 **[其他 AI 逆向 · 待验证]**
 - [米遥MI-AO：Codex协作研究遥控器BLE，把按住说话送入Mac任务](cases/fanxeon-mi-ao-xiaomi-remote-codex.md) — MI-AO读取小米2Pro的ATVV音频，经ADPCM与本地Whisper送入Codex；作者报告固件2671端到端测试，macOS14+源码优先beta。 **[其他 AI 逆向 · 进行中]**
@@ -666,6 +669,11 @@
 
 ### 应用与客户端
 
+- [云照片迁至Immich：codila介绍Claude辅助复用iCloud与Google Photos私有请求](cases/codila-claude-cloud-photo-immich-migration.md) — codila称Claude可部署Immich／Tailscale并借云相册私有请求导出照片、核对文件数量；是自托管迁移工作流，不是完整重建iCloud或Google Photos。 **[其他 AI 逆向 · 待验证]**
+- [Grokius Terminal：Ryan转述GrokBot辅助构建Pump App式手机交易终端](cases/grokius-grokbot-pump-style-terminal-report.md) — Ryan称Explosive用GrokBot逆向重建Pump App式meme币终端，列出五Agent分工与512钱包跟踪；仅营销转述，没有源码、交易验收或收益证据。 **[其他 AI 逆向 · 待验证]**
+- [Reverse Lab：PixelRainbow以leanrea分诊与路由减少先全面反编译的工作流](cases/reverse-lab-leanrea-triage-bot.md) — PixelRainbow介绍先做批量shell清点、按目标选工具、最后才升级GhidraMCP的逆向bot，注明借鉴leanrea；没有公开目标对照或token节省测量。 **[其他 AI 逆向 · 相关项目]**
+- [Clean Room：PixelRainbow以REA输出行为规格与隔离会话重建提示的bot](cases/clean-room-rea-behavior-spec-prompt-bot.md) — 作者介绍REA驱动的Clean Room：带证据行为SPEC、怀疑式裁判、人工签准及给新会话的PROMPT；明确不运行构建，没有重建等价或隔离有效性验证。 **[REA · 相关项目]**
+- [SAP：读者提出用REA逆向企业软件的愿望](cases/sap-rea-reverse-engineering-wish.md) — 作者问还要多久才有人逆向SAP，并附REA标签；具体到企业软件产品家族，但没有模块、版本、方案或已启动证据。 **[REA · 待验证]**
 - [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](cases/rea-electron-hidden-network-call-blind-test.md) — 作者称未告知REA自建Electron应用结构，仍识别一窗口、一preload、三桥函数、三私有通道及一隐藏网络调用；30秒和全部命中均未独立重跑。 **[REA · 分析测试]**
 - [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
 - [Mac听写应用：Chrome转述REA／Hopper先写行为规格再重建](cases/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome转述三部分教程，以Hopper输出辨识Mac听写应用的热键、录音和本地转写，再按文字规格构建自己的版本；软件名称、源码与等价测试未给出。 **[REA · 待验证]**
@@ -689,7 +697,7 @@
 - [Antigravity：Gemini Argon发现bug后推荐社区逆向补丁的自述](cases/neko-antigravity-gemini-community-patch-report.md) — 毒猫猫称Gemini Argon在工作中发现Antigravity bug并推荐社区逆向patch；没有bug身份、链接或安装结果，不能认定AI亲自编写修复。 **[其他 AI 逆向 · 待验证]**
 - [理想播客客户端：Moebius设想用REA综合三款应用](cases/moebius-rea-three-podcast-apps-combination-idea.md) — Moebius在创新争论中设想用REA研究三款播客应用，再组合自己的理想客户端；仅条件式idea，没有选定应用或实现。 **[REA · 待验证]**
 - [28应用组合：DigitalGoldTalk自称19天REA/Claude研究后进入testnet](cases/digitalgoldtalk-28-apps-rea-testnet-report.md) — DigitalGoldTalk称研究通信、社交、支付和媒体共28款应用，从Photoshop起步，现处testnet；没有完整应用表、代码或兼容测试。 **[REA · 待验证]**
-- [浏览器补丁时差：Choblin转述Epoch的GLM5.3 Firefox/Chrome对照测试](cases/epoch-glm53-firefox-chrome-patch-gap-report.md) — 二手报告称GLM5.3研究已公开而未部署的修复，在受控Firefox测试成功、Chrome失败；未取得Epoch原报告或复测，不代表现实用户遭攻击。 **[其他 AI 逆向 · 待验证]**
+- [浏览器补丁时差：Epoch的GLM5.3 Firefox/Chrome对照测试二手报告](cases/epoch-glm53-firefox-chrome-patch-gap-report.md) — 二手报告称GLM5.3研究已公开而未部署的修复，在受控Firefox测试成功、Chrome失败；新增未知沙箱逃逸串联说法，仍未取得原始记录或复测，不代表现实用户遭攻击。 **[其他 AI 逆向 · 待验证]**
 - [winutil与Windows调整：gIoomy的Opus审查自述保留互相矛盾的计数](cases/gloomy-winutil-opus-readonly-tweak-audit.md) — 作者称Opus5.5先读winutil39项调整、避开BitLocker停用并备份真实设置，选七项改善电脑；启动项与服务数字不一致，未验证性能或回滚。 **[其他 AI 逆向 · 待验证]**
 - [Jump Desktop Fluid：Zack Jackson的AI反编译尝试遇到官方beta](cases/zack-jump-desktop-fluid-linux-decompile-attempt.md) — Zack Jackson称AI正尝试反编译以实现Linux的Fluid支持，随后发现Jump Desktop beta；没有自制兼容客户端或完成反编译的证据。 **[其他 AI 逆向 · 进行中]**
 - [Jiffshot：Marc-André Moreau澄清Claude只读Snagit文档与截图](cases/jiffshot-snagit-claude-docs-screenshots-rebuild.md) — Snagit替代品Jiffshot以Rust和Avalonia UI实现；作者明确说没用REA、没反编译，只让Claude读文档和截图。功能与稳定性仍是作者报告。 **[其他 AI 逆向 · 进行中]**
