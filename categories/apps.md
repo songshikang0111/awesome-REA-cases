@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [GeForce Now：Angel请Codex定制他人逆向的客户端](../cases/geforce-now-codex-client-tailoring-report.md) — Angel称闭源GeForce Now无法像Moonlight那样直接优化，因此找到第三方逆向版本再交Codex个性化；没有仓库或性能对照。 **[其他 AI 逆向 · 待验证]**
+- [HyperOS3 SystemHelper：MeT称GPT发现应用清单与SIM标识载荷](../cases/hyperos3-systemhelper-gpt-app-telemetry-report.md) — MeT研究朋友的小米14，称GPT分析SystemHelper枚举应用及24小时使用情况，序列化含设备／SIM标识；未给APK、调用路径或流量证据。 **[其他 AI 逆向 · 待验证]**
+- [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](../cases/hyperos3-security-component-gpt-screen-audit.md) — MeT称GPT读出应用列表、语音反诈与三秒屏幕片段云检测实现；没有触发条件或动态证据，不等于全时录屏或已证明泄露。 **[其他 AI 逆向 · 待验证]**
+- [iPhone Superwhisper：Joe Dubs想用REA减少听写切换](../cases/superwhisper-iphone-rea-keyboard-integration-idea.md) — Joe Dubs觉得iPhone听写体验笨重，询问REA能否研究键盘整合，减少切换与橙色提示；没有实现，也未证明系统隐私限制可绕过。 **[REA · 待验证]**
+- [Worldling5.2：Codex按手册重建Linux版WordPerfect5.1体验](../cases/worldling52-codex-wordperfect51-linux-rebuild.md) — Lynn Cole用Go与Bubbletea重做童年DOS文字处理器，让Codex读规格教程；文档流程已入，UI与打印驱动仍在做，100%格式兼容只是目标。 **[其他 AI 逆向 · 进行中]**
+- [DuoDesk：Opus改造开源共享引擎，而非已证实逆向TeamViewer](../cases/duodesk-opus-open-engine-desktop-sharing-report.md) — Movez称11个Opus Agent改约370文件，让Windows与Mac共享输入和剪贴板；正文从开源引擎读码换品牌开始，尚未核验源码与跨平台功能。 **[其他 AI 逆向 · 待验证]**
+- [伪激活器Olympic：Qiita作者报告AI／REA追踪RAT与清理残留](../cases/qiita-rea-olympic-activator-malware-audit.md) — TOMOSIA-LinhND误执行CxxCxx pro activator.exe后，用AI／REA检查假源码、DLL与四片持久化；声称已清除且未泄露，但日志不能作为完备无泄露证明。 **[REA · 待验证]**
+- [Setup_Installer.exe：同一Qiita作者用AI／REA分析另一投放器](../cases/qiita-rea-electron-installer-dropper-analysis.md) — 另一个CxxCxx Pro包被作者归为Electron dropper，报告21个诱饵文件、三重保护、Defender排除与投放链；自称静态分析却又提仿真解密，边界需保留。 **[REA · 待验证]**
 - [OKOK Libre：REA与GLM研究体脂秤APK，重建离线Android客户端](../cases/okok-libre-rea-glm-scale-android.md) — JYunth报告分析OKOK International并重建无广告客户端；公开Kotlin实现支持部分OKOK蓝牙协议，固定主Manifest无联网权限，但未独立测试秤互通或公式等价。 **[REA · 进行中]**
 - [未具名控制软件：江枫称DeepSeek驱动REA通宵逆向不到10元](../cases/deepseek-rea-overnight-control-software-report.md) — 江枫在讨论DeepSeek错峰价格时报告，曾让REA通宵研究一款控制软件，费用不到10元；没有软件名、代码或功能验收。 **[REA · 待验证]**
 - [网站54组证据验收：小金鱼-箱子称用REA研究参考站并复验上线结果](../cases/zi-xiang-rea-website-54-evidence-acceptance.md) — 作者报告参考站截图与布局清单，再为自有站生成9页面、3视口、明暗主题共54组证据，比较改前改后与部署结果；站点、JSON和分数卡未公开。 **[REA · 分析测试]**
@@ -303,7 +311,7 @@
 - [Rosetta：读者提及 AI 时代的兼容层逆向项目](../cases/rosetta-ai-reverse-engineering-reader-report.md) — 读者将Rosetta逆向与AI推动兼容层联系起来；仅有第三方简短提及，未确认实现、AI角色或兼容性。 **[未确认使用 REA · 待验证]**
 - [Bitcoin 2009：Opus 辅助恢复构建环境，而不是恢复源码](../cases/bitcoin-2009-opus-build-environment.md) — t4t5公开历史构建环境重建，报告EXE及RAR逐字节一致；目标是0.1.1时代二进制，DLL未重建。 **[其他 AI 逆向 · 分析测试]**
 - [WayShare：macOS 自带屏幕共享连接 Hyprland，研究 Apple 高性能模式](../cases/wayshare-apple-remote-desktop-linux.md) — Wes Grimes称Grok bot跨机器协调REA、Claude与Codex；有公开项目与成功CI，Standard屏幕及剪贴板未加密。 **[REA · 进行中]**
-- [oma-launcher／oma-cast：REA 研究 Raycast 后为 Omarchy 重建启动器](../cases/omarchy-raycast-rea-launcher.md) — typecraft公开启动器和Raycast 2.8.2研究笔记；搜索与Omarchy集成已有代码，扩展兼容等仍为计划。 **[REA · 进行中]**
+- [oma-launcher／oma-cast：REA 研究 Raycast 后为 Omarchy 重建启动器](../cases/omarchy-raycast-rea-launcher.md) — typecraft公开启动器、Raycast 2.8.2研究笔记，并于10月31日补充REA与omacast视频入口；搜索集成有代码，完整扩展兼容和新演示未独立验证。 **[REA · 进行中]**
 - [旧 Android 手机控制板：AI 研究桌面集成与 OBS 真实状态](../cases/android-phone-ai-desktop-control-pad.md) — 第三方介绍手机浏览器六按钮配桌面助手，报告OBS静音与录制确认；300Agent和零成本未核验。 **[其他 AI 逆向 · 待验证]**
 - [REA MINI：单文件 Python 本地优先逆向 harness 的介绍](../cases/rea-mini-single-file-harness.md) — webXOS介绍受REA启发的单文件Python流水线，称支持本地模型和外部API，实际源码与全流程未核验。 **[未确认使用 REA · 进行中]**
 - [Grokbot 访谈模板：把重建需求转成 Claude Code 提示词](../cases/grokbot-interview-rebuild-prompt.md) — 模板号称用普通英语访谈生成Opus重建提示词，没有具名软件重建验收。 **[其他 AI 逆向 · 相关项目]**

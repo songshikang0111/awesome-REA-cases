@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Honda Mapit：Sergio建议REA与DeepSeek研究订阅定位设备](../cases/honda-mapit-rea-deepseek-open-tracker-idea.md) — 面对车主抱怨Mapit停订后失效，Sergio建议用REA与免费DeepSeek flash研究开放替代；车主只列入待办，没有实施结果。 **[REA · 待验证]**
+- [Allwinner电视盒：Jorge称Claude经ADB发现系统层风险](../cases/jorge-allwinner-tvbox-claude-adb-audit.md) — Jorge原以为Xuper等App有问题，称Claude检查后发现身份伪装、开放ADB与隐藏安装器，遂断电停用；代理流量与无法清理均未独立验证。 **[其他 AI 逆向 · 待验证]**
+- [Apple Neural Engine：nisten拟用Ghidra／REA研究优化](../cases/nisten-ane-ghidra-rea-optimization-idea.md) — nisten称一直在探查ANE，想用Ghidra与REA帮助优化；父帖31%语音编码提升属于Joshua Warren的驱动报告，不是nisten的AI成果。 **[REA · 待验证]**
 - [John Deere拖拉机维修：读者提议用REA研究专有固件](../cases/john-deere-tractor-rea-repair-idea.md) — Muhammad Zahid Ansari因维修费用与专有系统锁定，询问能否用REA研究John Deere固件并推广到其他品牌；尚无目标镜像、实验或法律结论。 **[REA · 待验证]**
 - [Kindle Oasis：David用Claude理解KOReader并定制SimpleUI](../cases/david-kindle-oasis-claude-koreader-simpleui.md) — David称用现成SpiderCat越狱，再让Claude帮助理解KOReader与SimpleUI定制；不是Claude发现越狱漏洞，未公开代码或验收。 **[其他 AI 逆向 · 待验证]**
 - [TP-Link x5700：Jason用GLM、Hermes与REA检查旧路由器遥测](../cases/tplink-x5700-glm-hermes-rea-telemetry-report.md) — Jason Paul Michaels称用GLM、Hermes与REA研究自有旧路由器，认为未见遥测数据暴露点；没有固件、流量记录或安全验收。 **[REA · 待验证]**

@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Mass Effect Pinnacle Station：读者盼AI反编译重建缺失DLC](../cases/mass-effect-pinnacle-station-ai-rebuild-idea.md) — Bill在传奇版缺失Pinnacle Station的讨论下建议AI反编译与重建；仅为保存愿望，不是已恢复源码或成功移植。 **[其他 AI 逆向 · 待验证]**
+- [FM 27：Çağatay称Claude Code与REA研究未遇拒答](../cases/highsenberg-fm27-claude-rea-exploration.md) — Çağatay说已用Claude Code加REA进入FM 27研究，意外没被拒绝；未披露具体功能、输出或逆向成果。 **[REA · 进行中]**
+- [Stunt Car Racer：REA遇m68k瓶颈，作者转用Ghidra与Gemini](../cases/stunt-car-racer-amiga-rea-ghidra-gemini.md) — Scientific Brad研究1989年Amiga赛车，报告Ghidra反编译480函数并映射定点悬架与物理；Gemini继续处理，尚无完整重建验证。 **[REA · 进行中]**
+- [SM64桌面立体模型：转述Michael Steil指挥Claude做Vision Pro移植](../cases/sm64-visionpro-steil-claude-diorama-report.md) — 二手文章称SM64关卡变成Vision Pro桌面场景，玩家走动充当镜头；引用Claude受Steil指导的署名与alpha状态，复用既有反编译和sm64coopdx。 **[其他 AI 逆向 · 待验证]**
+- [Jumputi Heroes：读者建议Claude接手续作复活，AI归因尚属猜测](../cases/jumputi-heroes-claude-revival-reader-idea.md) — TsukyomiKurama在复活项目因法律顾虑转私用的转述下认为Claude可以接手；并非开发者披露AI使用或已开放服务。 **[其他 AI 逆向 · 待验证]**
 - [Unity 2D游戏上Mac：Codex与REA替换依赖并把DX shader转Metal的自述](../cases/nomoreacetoplay-unity-macos-codex-rea-report.md) — Bocchi calls Saul称从Wine／dxmt封装转向Mac原生Unity依赖和player，DX shader改成Metal；未给游戏名、版本或可复查构建。 **[REA · 待验证]**
 - [SNES牧场物语：RodoLy借AI逐例程恢复C，公开原生PC beta](../cases/rodoly-harvest-moon-snes-ai-native-report.md) — The Gaming Emporium报道RodoLy重建SNES牧场物语；固定README确认人工监督AI、778例程／45176指令的项目验证主张，以及自备ROM的原生C beta。 **[其他 AI 逆向 · 分析测试]**
 - [Mario Party初代：n64hub以Claude辅助静态重编译到桌面与浏览器](../cases/n64hub-mario-party-claude-static-recomp.md) — 初代N64 Mario Party独立移植公开Claude披露，复用社区反编译符号及共享调度器，项目称桌面和浏览器可玩；只支持USA ROM，未独立试玩。 **[其他 AI 逆向 · 进行中]**

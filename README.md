@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1368 cases & projects
+# 1384 cases & projects
 
-**Latest case update:** October 31, 2026, 20:11 · **Last maintained:** October 31, 2026, 20:11 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 1, 2026, 00:16 · **Last maintained:** November 1, 2026, 00:16 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading** for device interoperability, useful replacements, game preservation and binary analysis. Prefer inspectable implementations and explicit test limits over claims of complete reconstruction. Dates below are source or author-update dates, not collection dates.
+**10 worth reading** for device interoperability, useful replacements, game preservation and binary analysis. These picks favor inspectable implementations and explicit test limits; a widely shared claim alone does not establish a working replacement. Dates below are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **290** |
-| [Hardware & interoperability](categories/en/hardware.md) | **367** |
-| [Applications & clients](categories/en/apps.md) | **563** |
+| [Games & preservation](categories/en/games.md) | **295** |
+| [Hardware & interoperability](categories/en/hardware.md) | **370** |
+| [Applications & clients](categories/en/apps.md) | **571** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **148** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
