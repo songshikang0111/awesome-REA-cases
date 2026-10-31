@@ -1,5 +1,197 @@
 [
   {
+    "id": "deepseek-rea-overnight-control-software-report",
+    "title": "未具名控制软件：江枫称DeepSeek驱动REA通宵逆向不到10元",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "江枫在讨论DeepSeek错峰价格时报告，曾让REA通宵研究一款控制软件，费用不到10元；没有软件名、代码或功能验收。",
+    "description": "2026年10月31日12:00:41（北京时间），江枫（@maple_cq）谈DeepSeek在0点到8点的错峰价格，称此前开着REA跑了大约一个通宵，把一款控制软件逆向了，花费不到10元。目标是现有控制软件，但没有交代控制何种设备、研究接口还是重建整个客户端。这个成本与持续时间是作者对先前一次工作的回顾，不是本窗口现场测试，也不代表通用报价或可保证的完成时间。\n\n补查确认署名与图片附件，未读取图片。原帖没有模型版本、软件版本、工具记录、公开代码或可检查的输出；“逆向了”不能补成替代软件可用或协议全部恢复。按未核验的具体使用报告收录，不与目标不同或未能确认同一性的既有激光控制项目合并。本合集未运行REA或目标软件。",
+    "sources": [{"label":"江枫的DeepSeek／REA通宵控制软件自述，2026-10-31","url":"https://x.com/i/status/2116379807735026109"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照0赞、16浏览、0转发；不到10元和约一通宵均为作者报告。"],
+    "en": {
+      "title":"Unnamed control software: maple_cq reports an overnight DeepSeek/REA study for under CNY 10",
+      "summary":"Maple_cq recalls running REA overnight on control software while discussing DeepSeek off-peak pricing. Under CNY 10 is self-reported; no software name, code or functional acceptance test is supplied.",
+      "description":"At 12:00:41 Beijing time on October 31, 2026, maple_cq discusses DeepSeek's midnight-to-08:00 off-peak prices and recalls leaving REA running for roughly one night to reverse-engineer a control application for under CNY 10. The target is existing control software, but neither the controlled device nor whether this meant interface research or a complete client rebuild is identified. Cost and duration describe a prior effort, not an experiment performed in this window, a general price quote or a guaranteed completion time.\n\nA lookup confirmed attribution and an image attachment, whose contents were not inspected. There is no model revision, target revision, tool log, public code or inspectable output. 'Reverse-engineered' is not expanded into a working replacement or fully recovered protocol. Retained as a concrete but unverified usage report, not merged with existing laser-control projects whose target identity is different or unestablished. Neither REA nor the target was run here.",
+      "metadata":["Candidate snapshot: 0 likes, 16 views, 0 reposts. Under CNY 10 and roughly one night are the author's figures."],
+      "source_labels":["Maple_cq's overnight DeepSeek/REA control-software report, October 31, 2026"]
+    }
+  },
+  {
+    "id":"rodoly-harvest-moon-snes-ai-native-report",
+    "title":"SNES牧场物语：RodoLy借AI逐例程恢复C，公开原生PC beta",
+    "category":"games", "rea":"other-ai", "status":"analysis-test",
+    "summary":"The Gaming Emporium报道RodoLy重建SNES牧场物语；固定README确认人工监督AI、778例程／45176指令的项目验证主张，以及自备ROM的原生C beta。",
+    "description":"2026年10月31日12:48:40（北京时间），The Gaming Emporium（@McGroin83）报道RodoLy的1996年SNES《牧场物语》C重建与PC beta，称778个例程、45176条指令完成验证，AI使用为暂定重度、人工监督。它不是既有PS1《Back to Nature》案例。\n\n补读RodoLy/HarvestMoonSnesDecomp固定提交54e7371118af81ba6c9a8b00dbd6b951a7d43099的完整README；提交为10月30日07:50:50北京时间，早于候选。作者称喜欢原作，完成重编译后希望逐例程理解并让游戏只运行恢复的C。明确承认AI协助，由人指导、在自己PC测试并决定保留内容，未指明模型或REA。基于ElisaS-Codes与DasK的HM-Decomp命名和内存图；项目统计100%指令／例程覆盖，测试要求128KB WRAM（含栈）、CPU与DMA寄存器相同，另有随机调用和脚本游玩检查。此处是项目文档，不是本合集重跑或覆盖全部游戏状态的证明。\n\n原生构建直接调用恢复的C，不做SNES CPU模拟，但仍软件实现画面与声音芯片。文档说明Windows x64／ARM64与Linux路径，Windows beta下载为源码和本机构建脚本，不是即开即玩的完整游戏包。须自备合法USA ROM；公开可选16:9、十槽状态保存、HM64式暂停菜单、第三年结局后继续经营等。宽屏在地图边缘、小房间和标题回到4:3，不能称全场景宽屏。项目代码采用PolyForm Noncommercial，不授权原游戏资产。未下载ROM、安装依赖、构建游戏或执行校验，保留beta与项目自测边界。",
+    "sources":[{"label":"The Gaming Emporium的SNES牧场物语报道，2026-10-31","url":"https://x.com/i/status/2116391886118121955"},{"label":"补充：固定README的AI披露、验证方法和原生构建，2026-10-30","url":"https://github.com/RodoLy/HarvestMoonSnesDecomp/blob/54e7371118af81ba6c9a8b00dbd6b951a7d43099/README.md"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照0赞、194浏览、0转发；778与45176及100%均为项目口径，未独立验证。"],
+    "en":{
+      "title":"SNES Harvest Moon: RodoLy uses AI to recover readable C and offers a native PC beta",
+      "summary":"The Gaming Emporium reports RodoLy's SNES reconstruction. A pinned README confirms supervised AI assistance, project claims of 778 routines / 45,176 instructions verified, and a native-C beta requiring one's own ROM.",
+      "description":"At 12:48:40 Beijing time on October 31, 2026, The Gaming Emporium (@McGroin83) reports RodoLy's C reconstruction and PC beta of 1996 SNES Harvest Moon, claiming verification of 778 routines and 45,176 instructions and provisionally calling AI usage heavy and human-supervised. This is not the existing PS1 Back to Nature case.\n\nSupplementary reading used the complete README of RodoLy/HarvestMoonSnesDecomp at commit 54e7371118af81ba6c9a8b00dbd6b951a7d43099, dated October 30 at 07:50:50 Beijing time, before the candidate. The author says that after recompilation they wanted to understand a favorite game routine by routine and run it only on recovered C. They explicitly credit AI assistance under human direction, testing on their own PC and human decisions about what stays; no model or REA is identified. Names and memory maps build on ElisaS-Codes and DasK's HM-Decomp. The project counts 100% instruction/routine coverage and describes comparing 128KB WRAM including the stack, CPU and DMA registers, alongside randomized calls and scripted playthroughs. These are project-documentation claims, not reruns here or proof over every possible game state.\n\nThe native build calls recovered C directly rather than emulating the SNES CPU, but picture and sound chips still run in software. Documentation covers Windows x64/ARM64 and Linux; the Windows beta download contains source and a local build script, not a ready-to-play complete game. A legally obtained USA ROM is required. Options include 16:9, ten save-state slots, an HM64-style pause menu and farming beyond the Year 3 ending. Widescreen reverts to 4:3 at map edges, in small rooms and on the title screen, so it is not universal. Project code uses PolyForm Noncommercial; it does not license original game assets. No ROM download, dependency installation, game build or checker execution occurred here. Beta and project-test limitations remain explicit.",
+      "metadata":["Candidate snapshot: 0 likes, 194 views, 0 reposts. 778, 45,176 and 100% are project figures, not independently verified."],
+      "source_labels":["The Gaming Emporium's SNES Harvest Moon report, October 31, 2026","Supplementary pinned README: AI disclosure, verification and native build, October 30, 2026"]
+    }
+  },
+  {
+    "id":"n64hub-mario-party-claude-static-recomp",
+    "title":"Mario Party初代：n64hub以Claude辅助静态重编译到桌面与浏览器",
+    "category":"games", "rea":"other-ai", "status":"in-progress",
+    "summary":"初代N64 Mario Party独立移植公开Claude披露，复用社区反编译符号及共享调度器，项目称桌面和浏览器可玩；只支持USA ROM，未独立试玩。",
+    "description":"2026年10月31日12:51:40（北京时间），The Gaming Emporium（@McGroin83）报道n64hub的Mario Party三部曲，但明确是三个独立项目。本条只记录1998年初代Mario Party。补读固定提交ac7f9b52fc07ecbf20b180ef4854563e2d0c610b的完整README，提交为10月31日08:06:58北京时间，早于候选；另两作分别收录。\n\n项目将原N64 MIPS代码经N64Recomp转为C原生运行，配N64ModernRuntime、RT64和RecompFrontend，复用mariopartyrd/marioparty的社区反编译符号，不是Claude从零恢复全部游戏代码。README明确本仓库几乎所有代码、文档和测试由Claude Agent编写，人指导和试玩，不把这些代码提交给不接受AI代码的上游。共享mario-party-engine调度器以每进程一个线程、一次只运行一个来处理游戏setjmp／longjmp式进程切换，桌面与浏览器复用这部分。\n\n项目称棋盘与小游戏可运行，RT64扩展棋盘视野、背景和HUD并做显示刷新率插帧，浏览器页面由用户ROM生成；文档列Windows和Linux x86-64发行路径及最多四名本地玩家的控制器分配。只支持USA、32MiB大端.z64，不含ROM与游戏资产。未下载ROM、依赖或发行包，未构建、试玩或验证网页与兼容性；可玩与平台覆盖仍为项目自述，不表示每个小游戏完整通过。本仓库代码GPL-3.0，原游戏与上游保留各自权利。",
+    "sources":[{"label":"The Gaming Emporium的三个独立Mario Party移植报道，2026-10-31","url":"https://x.com/i/status/2116392641008951793"},{"label":"补充：初代Mario Party固定README，2026-10-31 08:06北京时间","url":"https://github.com/n64hub/mario-party-recomp/blob/ac7f9b52fc07ecbf20b180ef4854563e2d0c610b/README.md"}],
+    "snapshot_date":"2026-10-31", "metadata":["报道候选快照119赞、2808浏览、11转发，属于三作共用帖子，不能当每作独立热度。"],
+    "en":{
+      "title":"Mario Party: n64hub uses Claude-assisted static recompilation for desktop and browser",
+      "summary":"The first N64 Mario Party port discloses Claude assistance, community decompilation symbols and a shared scheduler. Desktop/browser play is project-reported, USA ROM only, not independently tested here.",
+      "description":"At 12:51:40 Beijing time on October 31, 2026, The Gaming Emporium (@McGroin83) reports n64hub's Mario Party trilogy, explicitly three separate projects. This entry covers only the 1998 first game. Supplementary reading used the complete README at commit ac7f9b52fc07ecbf20b180ef4854563e2d0c610b, dated October 31 at 08:06:58 Beijing time, before the candidate. The other games have separate entries.\n\nThe project translates original N64 MIPS code to C through N64Recomp and runs it natively with N64ModernRuntime, RT64 and RecompFrontend. It reuses symbols from the community mariopartyrd/marioparty decompilation, not an entirely new Claude recovery of all game code. The README says almost all code, documentation and tests in this repository were written by Claude agents, directed and play-tested by a person, and are not offered to upstream projects that reject AI-written code. A shared mario-party-engine scheduler handles the game's setjmp/longjmp process switching with one thread per process, running one at a time, on both desktop and browser.\n\nThe project reports working boards and minigames, RT64-expanded views, backgrounds and HUD, display-rate interpolation, and browser pages built from one's own ROM. Documentation lists Windows and Linux x86-64 release paths and controller assignment for up to four local players. Only the USA 32MiB big-endian .z64 is supported; no ROM or game assets are included. No ROM, dependencies or release package was downloaded, and no build, playtest, browser or compatibility verification occurred here. Playability and platform coverage remain project reports, not proof that every minigame passes. This repository uses GPL-3.0; the original game and upstream work retain their rights.",
+      "metadata":["Report candidate snapshot: 119 likes, 2,808 views, 11 reposts. The post covers all three games; these are not separate per-game engagement figures."],
+      "source_labels":["The Gaming Emporium reports three independent Mario Party ports, October 31, 2026","Supplementary pinned first-game README, October 31, 2026 at 08:06 Beijing time"]
+    }
+  },
+  {
+    "id":"n64hub-mario-party-2-claude-static-recomp",
+    "title":"Mario Party 2：n64hub的Claude辅助原生与网页重编译项目",
+    "category":"games", "rea":"other-ai", "status":"in-progress",
+    "summary":"Mario Party 2独立移植公开Claude辅助与人工试玩，README称六张棋盘、菜单和小游戏可在桌面及浏览器运行；只支持USA ROM，未独立验证。",
+    "description":"2026年10月31日12:51:40（北京时间），The Gaming Emporium（@McGroin83）报道n64hub的三个独立Mario Party静态重编译项目。本条是1999年的Mario Party 2，不是初代附加模式。补读固定提交bd4ee2d474d6ca4cffe178669549300880b59659的完整README，提交为10月31日08:07:23北京时间，早于候选。\n\nREADME明确本仓库几乎所有代码、文档和测试由Claude Agent编写，由人指导和试玩，不向不接受AI代码的上游提交。技术路径为N64Recomp将游戏MIPS转C，以N64ModernRuntime、RT64及RecompFrontend原生执行和呈现，复用mariopartyrd/marioparty2反编译符号及mario-party-engine共享进程调度器；社区原有研究不能归为本作者或AI独立完成。\n\n文档称菜单、六张棋盘与小游戏可在桌面和浏览器运行，棋盘视角、背景、玩家面板适配窗口形状并插帧到显示刷新率；共享调度器每个游戏进程独立线程、一次运行一个。浏览器需从自己的ROM构建页面；提供Windows／Linux x86-64发行路径及最多四人本地控制器分配，只支持USA、32MiB大端.z64。仓库不含ROM或游戏资产，代码为GPL-3.0。未下载游戏或发行包、安装依赖、构建或试玩，不把README状态当全兼容验收；REA未提及。",
+    "sources":[{"label":"The Gaming Emporium的三作独立移植报道，2026-10-31","url":"https://x.com/i/status/2116392641008951793"},{"label":"补充：Mario Party 2固定README，2026-10-31 08:07北京时间","url":"https://github.com/n64hub/mario-party-2-recomp/blob/bd4ee2d474d6ca4cffe178669549300880b59659/README.md"}],
+    "snapshot_date":"2026-10-31", "metadata":["报道候选快照119赞、2808浏览、11转发，为三作共用帖子，不是本作单独热度。"],
+    "en":{
+      "title":"Mario Party 2: n64hub's Claude-assisted native and browser recompilation",
+      "summary":"A distinct Mario Party 2 port discloses Claude assistance and human playtesting. Its README reports six boards, menus and minigames on desktop/browser; USA ROM only, not independently verified.",
+      "description":"At 12:51:40 Beijing time on October 31, 2026, The Gaming Emporium (@McGroin83) reports n64hub's three independent Mario Party static-recompilation projects. This entry is the 1999 Mario Party 2, not an extra mode in the first port. Supplementary reading used the complete README at commit bd4ee2d474d6ca4cffe178669549300880b59659, dated October 31 at 08:07:23 Beijing time, before the candidate.\n\nThe README says almost all repository code, documentation and tests were written by Claude agents under human direction and playtesting, with no contributions offered to upstream projects that reject AI code. N64Recomp translates game MIPS into C, while N64ModernRuntime, RT64 and RecompFrontend provide native execution and presentation. It reuses mariopartyrd/marioparty2 decompilation symbols and the shared mario-party-engine process scheduler. Existing community work is not credited as independently accomplished by this author or AI.\n\nDocumentation reports menus, six boards and minigames running on desktop and browser, with board views, backgrounds and player panels fitted to the window and interpolated to its refresh rate. The shared scheduler runs each game process on its own thread, one at a time. Browser pages are built from one's own ROM; Windows/Linux x86-64 release paths and up to four local players' controller assignments are documented. Only the USA 32MiB big-endian .z64 is supported. No ROM or game assets are included; repository code is GPL-3.0. No game or release download, dependency installation, build or playtest occurred here. README status is not complete-compatibility acceptance. REA is unspecified.",
+      "metadata":["Report candidate snapshot: 119 likes, 2,808 views, 11 reposts. Shared three-game post, not this game's separate engagement."],
+      "source_labels":["The Gaming Emporium reports three separate ports, October 31, 2026","Supplementary pinned Mario Party 2 README, October 31, 2026 at 08:07 Beijing time"]
+    }
+  },
+  {
+    "id":"n64hub-mario-party-3-claude-static-recomp",
+    "title":"Mario Party 3：Claude辅助重编译，保留社区与首个移植的贡献归属",
+    "category":"games", "rea":"other-ai", "status":"in-progress",
+    "summary":"n64hub以Claude辅助重编译Mario Party 3，复用社区符号、共享调度与Rainchus前作研究，项目称六棋盘及小游戏支持桌面和网页；未独立试玩。",
+    "description":"2026年10月31日12:51:40（北京时间），The Gaming Emporium（@McGroin83）报道n64hub的Mario Party三作独立移植。本条只记2000年的Mario Party 3。补读固定提交817b57711faf51ee694a132d4d6c3db70ff8ad96的完整README，提交为10月31日08:06:28北京时间，早于候选。\n\n文档披露本仓库几乎所有代码、文档和测试由Claude Agent编写，人指导和试玩，不提交到拒绝AI代码的上游。以N64Recomp将MIPS转为C，结合N64ModernRuntime、RT64及RecompFrontend，复用mariopartyrd/marioparty3反编译符号和mario-party-engine调度。项目从初代重编译仓库起步，并明确感谢Rainchus的首个MarioParty3-Recomp指出音频微码位置和应挂接的overlay加载器；不把这些社区成果重标为AI首次发现。\n\nREADME称菜单、六棋盘与小游戏在桌面和浏览器运行，窗口适配扩展棋盘相机、背景和HUD，提供显示刷新率插帧；游戏进程用每进程一线程、一次运行一个的共享调度器。文档列Windows／Linux x86-64与最多四人本地控制器分配，网页从自备ROM构建。限USA、32MiB大端.z64，不含游戏文件，代码GPL-3.0。不宣称完整兼容、跨网联机或已独立复现；本合集未下载ROM、安装依赖、运行构建或试玩，REA未提及。",
+    "sources":[{"label":"The Gaming Emporium的三个独立Mario Party项目报道，2026-10-31","url":"https://x.com/i/status/2116392641008951793"},{"label":"补充：Mario Party 3固定README与前人贡献，2026-10-31 08:06北京时间","url":"https://github.com/n64hub/mario-party-3-recomp/blob/817b57711faf51ee694a132d4d6c3db70ff8ad96/README.md"}],
+    "snapshot_date":"2026-10-31", "metadata":["报道候选快照119赞、2808浏览、11转发，属于三作共用帖子，不能当本作独立热度。"],
+    "en":{
+      "title":"Mario Party 3: Claude-assisted recompilation credits community research and the first port",
+      "summary":"N64hub's Claude-assisted Mario Party 3 port reuses community symbols, shared scheduling and Rainchus's earlier research. Six boards and minigames on desktop/browser are project-reported, not independently play-tested.",
+      "description":"At 12:51:40 Beijing time on October 31, 2026, The Gaming Emporium (@McGroin83) reports n64hub's three separate Mario Party ports. This entry covers only the 2000 Mario Party 3. Supplementary reading used the complete README at commit 817b57711faf51ee694a132d4d6c3db70ff8ad96, dated October 31 at 08:06:28 Beijing time, before the candidate.\n\nDocumentation discloses that almost all repository code, documentation and tests were written by Claude agents under human direction and playtesting, not offered upstream where AI code is rejected. N64Recomp translates MIPS to C with N64ModernRuntime, RT64 and RecompFrontend, reusing mariopartyrd/marioparty3 decompilation symbols and mario-party-engine scheduling. The repository started from the first-game recompilation and explicitly credits Rainchus's first MarioParty3-Recomp for locating audio microcode and identifying overlay loaders to hook. Those community results are not relabeled as AI discoveries.\n\nThe README reports menus, six boards and minigames on desktop and browser, window-expanded board cameras, backgrounds and HUD, and display-rate interpolation. Game processes use the shared one-thread-per-process scheduler, running one at a time. Documentation lists Windows/Linux x86-64 and up to four local players' controller assignments; browser pages are built from one's own ROM. Only USA 32MiB big-endian .z64 is supported; game files are absent and repository code is GPL-3.0. Complete compatibility, online multiplayer and independent reproduction are not claimed here. No ROM download, dependency installation, build or playtest occurred. REA is unspecified.",
+      "metadata":["Report candidate snapshot: 119 likes, 2,808 views, 11 reposts. Shared three-game post, not this game's separate engagement."],
+      "source_labels":["The Gaming Emporium reports three independent Mario Party projects, October 31, 2026","Supplementary pinned Mario Party 3 README and prior-work credits, October 31, 2026 at 08:06 Beijing time"]
+    }
+  },
+  {
+    "id":"neohob-rea-isp-ont-health-reboot",
+    "title":"光猫健康检查：Neo@Matrix用REA恢复ISP账号接口并自动触发重启",
+    "category":"hardware", "rea":"REA", "status":"unverified",
+    "summary":"作者称光猫长期开机变慢，REA研究得到的是ISP中心向当前账号下发的接口，而非管理员；路由器检查结合AI诊断调用重启，未公开代码。",
+    "description":"2026年10月31日13:07:57（北京时间），Neo@Matrix（@neohob）报告家中光猫长时间运行会网络变慢，运营商App只有手动重启，于是用REA研究。作者明确修正目标边界：得到的不是光猫管理员权限，而是ISP中心下发的接口，只对自己的当前用户有用。不能改写成获得设备root、通用管理员或任意账号控制。\n\n作者称在路由器加入光猫健康度检查，由AI分析是否属于网络问题，再调用接口令光猫自动重启；没有必要另外做管理端。这是为家庭网络自恢复做的具体集成，不是独立测得重启确能消除所有变慢问题。补查确认署名与图片附件，未读取图片；没有运营商、光猫型号、固件、检查阈值、AI模型、协议记录、代码或稳定性测试。按未核验自述保留，不能推广到其他账号或设备；本合集未访问设备、调用接口或运行检查。",
+    "sources":[{"label":"Neo@Matrix的REA光猫接口与自动重启报告，2026-10-31","url":"https://x.com/i/status/2116396738848403818"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照0赞、22浏览、0转发；仅当前用户接口，不是光猫管理员。"],
+    "en":{
+      "title":"ONT health checks: neohob reports REA recovery of an ISP-account API for automatic rebooting",
+      "summary":"The author says REA research on an ONT that slows over time recovered ISP-center interfaces for their own account, not administrator access. Router checks and AI diagnosis trigger reboots; no code is public.",
+      "description":"At 13:07:57 Beijing time on October 31, 2026, Neo@Matrix (@neohob) reports that their home optical network terminal slows after prolonged uptime, while the ISP app offers only manual rebooting, prompting REA research. The author explicitly narrows the result: it is not ONT administrator access, but interfaces dispatched through the ISP center and usable only for their current user. This is not device root, a universal administrator or control of arbitrary accounts.\n\nThey say a router-based ONT health check asks AI whether the issue is network-related, then calls the interface to reboot the ONT, without building a separate management console. This is a concrete home-network recovery integration, not an independent finding that rebooting fixes every slowdown. A lookup confirmed attribution and an image attachment, not its contents. No ISP, ONT model, firmware, thresholds, AI model, protocol trace, code or stability tests are supplied. Retained as an unverified author report, not generalized to other accounts or devices. No device access, API call or check execution occurred here.",
+      "metadata":["Candidate snapshot: 0 likes, 22 views, 0 reposts. Interfaces for the current user only, not ONT administrator access."],
+      "source_labels":["Neohob's REA ONT-interface and automatic-reboot report, October 31, 2026"]
+    }
+  },
+  {
+    "id":"skyblivion-contributor-code-ai-decompile-allegation",
+    "title":"Skyblivion代码争议：读者称团队用AI反编译前志愿者贡献",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"SystemZ3R0将Skyblivion的前志愿者代码反编译称为AI辅助；祖先报道只说明纠错、争议及团队称已替换代码，未证实模型或方法。",
+    "description":"2026年10月31日13:08:15（北京时间），SystemZ3R0（@SystemZ3RO）在Skyblivion讨论中说团队用了AI反编译一名前志愿者的代码。Skyblivion是重制《上古卷轴4：湮没》的玩家项目；这里记录的是其中贡献代码的维护争议，不是整个游戏由AI重建。\n\n补读祖先串，根帖为Pirat_Nation在10月31日08:47:01北京时间的报道，早于严格候选窗口。它称前志愿者离开后反对团队为修bug而反编译其贡献，争议升级，团队称后来已移除并从零重建受影响系统。该背景只来自报道，不是法律结论、双方完整陈述或替换代码的验证。候选读者额外加入AI归因，但根帖并未确认AI使用。\n\n没有模型、源码差异、反编译输出、开发者技术披露或测试记录，不能断言AI已恢复功能、规避版权或解决法律争议。按未核验二手说法收录；本合集未检查游戏文件、执行代码或复现。REA未提及。",
+    "sources":[{"label":"SystemZ3R0关于AI反编译的回复，2026-10-31 13:08","url":"https://x.com/i/status/2116396810642035182"},{"label":"补充：较早Skyblivion代码维护争议报道，2026-10-31 08:47北京时间","url":"https://x.com/i/status/2116331069263822985"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照0赞、1浏览、0转发；AI归因仅来自读者，非团队确认。"],
+    "en":{
+      "title":"Skyblivion code dispute: a reader alleges AI decompilation of a former volunteer's contribution",
+      "summary":"SystemZ3R0 labels decompilation of a former Skyblivion volunteer's code AI-assisted. The ancestor report describes bug fixing, a dispute and the team's claimed replacement, not a model or method.",
+      "description":"At 13:08:15 Beijing time on October 31, 2026, SystemZ3R0 (@SystemZ3RO) says in a Skyblivion discussion that the team used AI to decompile a former volunteer's code. Skyblivion is a fan remake of The Elder Scrolls IV: Oblivion. This entry concerns maintenance of contributed code, not an AI reconstruction of the entire game.\n\nSupplementary ancestor reading found Pirat_Nation's root report dated October 31 at 08:47:01 Beijing time, before the strict candidate window. It says the departed volunteer objected to decompilation of their contribution for bug fixes, the dispute escalated, and the team says it later removed and rebuilt the affected systems from scratch. That context is reported news, not a legal finding, both parties' complete accounts or verification of replacement code. The candidate reader adds AI attribution, which the root does not confirm.\n\nNo model, source diff, decompiled output, developer technical disclosure or test record is supplied. Successful AI recovery, copyright circumvention and resolution of the dispute are not established. Retained as an unverified secondary allegation. No game-file inspection, code execution or reproduction occurred here. REA is unspecified.",
+      "metadata":["Candidate snapshot: 0 likes, 1 view, 0 reposts. AI attribution is a reader's claim, not team confirmation."],
+      "source_labels":["SystemZ3R0's AI-decompilation reply, October 31, 2026 at 13:08","Supplementary earlier Skyblivion code-maintenance dispute report, October 31, 2026 at 08:47 Beijing time"]
+    }
+  },
+  {
+    "id":"wans-zai-scud-race-ai-port-reader-report",
+    "title":"SCUD Race：读者以街机保存和手柄体验说明AI辅助PC移植价值",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"读者将Wans Zai的SCUD Race PC移植称为AI辅助保存案例，认为原街机稀少且Supermodel手柄转向体验有问题；没有构建或对比测试。",
+    "description":"2026年10月31日13:28:46（北京时间），一名读者在讨论AI游戏移植的利弊时，以Wans Zai的SCUD Race PC移植作为有价值的例子。SCUD Race是Sega街机赛车；读者的理由是仍能运行的实体机分散稀少，虽然可用Supermodel模拟器，但其手柄转向灵敏度令自己认为不可玩，因此欢迎AI辅助移植。这个可获得性与体验评价属于发帖者，不是本合集对模拟器或原生移植的比较结论。\n\n候选有具体游戏、开发者称呼、目标平台和AI参与说法，足以保留为未核验二手报告；没有链接到确定仓库、给出模型、技术路线、版本、发布包或原生移植手柄实测。不能据此称已解决转向问题、完全可玩或优于模拟器。后半关于Needle in a Haystack被复制及作者放弃demo的担忧是讨论背景，不属于SCUD Race的技术成果；既有相关案例不重复建条目。未下载游戏、运行代码或独立复现，REA未提及。",
+    "sources":[{"label":"读者关于Wans Zai的SCUD Race AI移植与保存价值，2026-10-31","url":"https://x.com/i/status/2116401977626169597"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照2赞、28浏览、0转发；手柄体验是读者评价，未做比较测试。"],
+    "en":{
+      "title":"SCUD Race: a reader argues for an AI-assisted PC port through arcade preservation and gamepad access",
+      "summary":"A reader calls Wans Zai's SCUD Race PC port an AI-assisted preservation example, citing rare cabinets and their poor Supermodel steering experience. No build or comparative test is supplied.",
+      "description":"At 13:28:46 Beijing time on October 31, 2026, a reader discussing the merits and harms of AI game ports cites Wans Zai's SCUD Race PC port as a valuable example. SCUD Race is a Sega arcade racer. They argue that working cabinets are rare and dispersed, and although Supermodel emulation exists, gamepad steering sensitivity makes it unplayable in their view, so they welcome an AI-assisted port. Availability and usability assessments belong to the poster, not a collection comparison of emulator and native port.\n\nA specific game, developer name, target platform and AI-involvement claim support retaining an unverified secondary report. There is no mapped repository, model, technical method, revision, release package or native-port gamepad test. Fixed steering, full playability and superiority to emulation are not established. Later concerns about copying Needle in a Haystack and the poster abandoning a demo are discussion context, not SCUD Race achievements; existing related cases are not duplicated. No game download, code execution or independent reproduction occurred here. REA is unspecified.",
+      "metadata":["Candidate snapshot: 2 likes, 28 views, 0 reposts. Gamepad experience is a reader assessment, not comparative testing."],
+      "source_labels":["Reader on Wans Zai's AI-assisted SCUD Race port and preservation, October 31, 2026"]
+    }
+  },
+  {
+    "id":"hey101-bo7-custom-zombies-ai-assisted-ff",
+    "title":"BO7自定义僵尸地图：Hey101以手工逆向为主，AI辅助材质结构与ff实现",
+    "category":"games", "rea":"other-ai", "status":"in-progress",
+    "summary":"Hey101称观察实时数据手工研究BO7结构，以AI加速实现和复杂材质属性，人工审改代码；报告离线客户端和从零生成ff自定义地图，未公开验证。",
+    "description":"2026年10月31日14:21:08（北京时间），Hey101（@102hey102）回答BO7 Custom Zombies项目的问题。BO7指《使命召唤：黑色行动7》，目标是探索僵尸模式和完全自定义地图。作者称从Totenreich推出后开始工作，观察实时数据，手工逆向了相当多游戏结构；AI主要加快开发实现，或协助更复杂的材质属性结构。没有确认具体模型，不能从提问中的Claude反推使用Claude或REA。\n\n作者强调会手动优化、扩展和整理AI代码，逐项理解AI发现和用法，背景自称约20年软件开发、12年逆向经验。这些是个人背景和工作流说明，不是AI贡献比例或准确率测量。回答说明使用离线客户端，否认只是GSC injector模型加载器，称从零编写整个ff文件，按BO7数据格式及正确压缩、头和签名打包，地图是完全自定义。并未提供破解在线反作弊的成果，不应这样转述。\n\n补读祖先串，作者09:32:36北京时间的较早根帖只配BO7CustomZombies等标签和图片；提问用于确认问答对应关系，不是另一条候选。没有源码、ff样本、加载日志、稳定性或可玩性测试，图片未读取。按进行中作者报告保留，未执行游戏或工具，不能认定打包格式和签名已经独立验证。",
+    "sources":[{"label":"Hey101区分手工逆向与AI辅助、解释ff和离线客户端，2026-10-31 14:21","url":"https://x.com/i/status/2116415154262884589"},{"label":"补充：较早BO7 Custom Zombies图片根帖，2026-10-31 09:32北京时间","url":"https://x.com/i/status/2116342540756795501"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照2赞、74浏览、0转发；约20年开发／12年逆向是作者自述，非验证。"],
+    "en":{
+      "title":"BO7 custom Zombies maps: Hey101 combines manual reversing with AI-assisted material structures and ff implementation",
+      "summary":"Hey101 reports manually studying live BO7 structures, with AI speeding implementation and nuanced material properties, followed by human review. An offline client and from-scratch ff maps are claimed, not independently verified.",
+      "description":"At 14:21:08 Beijing time on October 31, 2026, Hey101 (@102hey102) answers questions about a BO7 Custom Zombies project. BO7 means Call of Duty: Black Ops 7; the goal is exploring Zombies and fully custom maps. The author says work began after Totenreich launched, much of the game's structure research was manual observation of live data, and AI mainly accelerated implementation or assisted with nuanced material-property structures. No model is confirmed; Claude in the question does not establish Claude or REA use.\n\nThe author emphasizes manually optimizing, expanding and organizing AI-written code and understanding what it finds and how it uses it. They self-report around 20 years of software development and 12 years of reversing. These describe background and workflow, not a measured AI contribution share or accuracy. The answer specifies an offline client, rejects the suggestion of merely a GSC-injector model loader, and says the entire ff file is written from scratch, encoding BO7 data with appropriate compression, headers and signatures, for fully custom maps. It does not establish an online anti-cheat bypass.\n\nSupplementary ancestor reading found the author's earlier root at 09:32:36 Beijing time with BO7CustomZombies tags and an image. The question establishes the correspondence of answers, not another candidate. No source, ff sample, load log, stability or playability test is supplied; the image was not inspected. Retained as an ongoing author report. Neither game nor tools were executed, and packaging format or signatures were not independently validated.",
+      "metadata":["Candidate snapshot: 2 likes, 74 views, 0 reposts. Around 20 years of development / 12 years of reversing are self-reported background, not verification."],
+      "source_labels":["Hey101 distinguishes manual reversing and AI assistance, explains ff and offline client, October 31, 2026 at 14:21","Supplementary earlier BO7 Custom Zombies image root, October 31, 2026 at 09:32 Beijing time"]
+    }
+  },
+  {
+    "id":"third-strike-ai-169-crop-hud-remaster-idea",
+    "title":"街霸3三度冲击：裁上下与重排HUD，而非改变对战间距的16:9想法",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"Dr. Gan希望借CPS3研究和AI逆向，为3rd做16:9重制；明确只裁上下、重新定位HUD，不扩大横向对战空间，尚无实现。",
+    "description":"2026年10月31日15:03:28（北京时间），Dr. Gan（@Rage_of_PandA）提出：既然CPS3破解和AI逆向在他看来已较成熟，能否为“3rd”做16:9 remaster。CPS3是Capcom街机平台，此处3rd按语境指《Street Fighter III: 3rd Strike》（街霸3三度冲击）。作者的具体设计约束是不要直接把画面变宽，因为角色最大距离会随之改变并影响打法；而应裁掉画面上、下部分，再重排HUD。\n\n这是借AI辅助逆向改显示布局的具体愿望，不是已完成的宽屏补丁。对技术成熟度与玩法影响的判断归作者；没有给裁剪量、分辨率、缩放方式、HUD实现、源码或测试。补查确认署名与视频附件元数据，未观看视频，不能从附件宣称实际效果或成功。也不与另一条sfIII-cps3-decomp反编译项目混为同一作者／成果。本合集未运行游戏或修改资产；REA和模型未指定。",
+    "sources":[{"label":"Dr. Gan的CPS3／3rd裁剪式16:9重制愿望，2026-10-31","url":"https://x.com/i/status/2116425809481101687"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照0赞、3浏览、0转发；具体idea，非完成补丁。"],
+    "en":{
+      "title":"Third Strike: a 16:9 idea using vertical cropping and HUD relocation, not wider fighting distances",
+      "summary":"Dr. Gan proposes using CPS3 research and AI reversing for a Third Strike remaster, explicitly cropping top/bottom and moving the HUD rather than widening the fighting space. No implementation is supplied.",
+      "description":"At 15:03:28 Beijing time on October 31, 2026, Dr. Gan (@Rage_of_PandA) asks whether CPS3 research and AI reversing, which they regard as fairly mature, could enable a 16:9 remaster of '3rd.' CPS3 is Capcom's arcade platform; in context, 3rd is interpreted as Street Fighter III: 3rd Strike. The specific constraint is not simply widening the picture, which the author says would change maximum character separation and gameplay, but cropping the top and bottom and repositioning the HUD.\n\nThis is a concrete wish for AI-assisted display-layout reconstruction, not a completed widescreen patch. Technical-maturity and gameplay-impact judgments belong to the author. No crop amount, resolution, scaling method, HUD implementation, source or tests are given. A lookup confirmed attribution and video metadata, not the video itself, so the attachment does not establish working results here. It is not conflated with the separate sfIII-cps3-decomp project or its authorship. No game execution or asset modification occurred. REA and model are unspecified.",
+      "metadata":["Candidate snapshot: 0 likes, 3 views, 0 reposts. A concrete idea, not a finished patch."],
+      "source_labels":["Dr. Gan's cropped 16:9 CPS3/Third Strike remaster wish, October 31, 2026"]
+    }
+  },
+  {
+    "id":"sandmrk-muse-2350-last-city-six-clip-prompt",
+    "title":"2350年最后城市：sandmrk反推Muse六段科幻短片规格并承认无法完全匹配",
+    "category":"algorithms", "rea":"other-ai", "status":"unverified",
+    "summary":"sandmrk把约59秒第一人称科幻片写为六段Muse提示，细化分镜、对白、声音及最后城市远景，明确生成结果不能完全匹配原片。",
+    "description":"2026年10月31日15:16:23（北京时间），AI art gallery（@sandmrk）发布Muse视频反推提示的续帖，结尾明确说这是reverse-engineered prompt，生成结果无法完全匹配原片，需进一步优化。目标是一部约59秒第一人称科幻喜剧：男性视角醒在2350年，由女性机器人引入人类最后城市，结尾以男人已灭绝的对白和城市树冠远景收束。它与作者既有舞蹈、宫廷等视频反推条目不是同一对象。\n\n补读同日15:15:51的根帖，给出六段、原参考1080×1450／30fps、生成1080×1440／30fps并锁3:4的规格；这些是作者提示里的数值，不表示两者尺寸完全相同或已核实原片。候选续帖给34.5至39.2秒对白、39.2至49秒穿过安检门进入森林城市、49至58.8秒三人对白及55.5秒后切大远景，分别约束人物视线、镜头、声音、节奏和不得加字幕等。用途是把成片动作和叙事转成可生成的分段规格，而不是恢复原始隐藏提示。\n\n作者明确保留不匹配限制，没有模型具体版本、原始提示、完整生成对照或量化相似度；补查阅读的是文字串，未播放原视频或执行生成。不能将详细时间码当逐帧验证，不能断言本帖续文包含完整六段，根帖可读文字与本帖之间仍有中段缺口。按未核验提示重建报告收录，REA未提及。",
+    "sources":[{"label":"sandmrk的最后城市Muse提示续帖与不完全匹配声明，2026-10-31 15:16","url":"https://x.com/i/status/2116429058745737510"},{"label":"补充：Muse六段科幻短片提示根帖，2026-10-31 15:15","url":"https://x.com/i/status/2116428925014339974"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照1赞、40浏览、0转发；时间码与尺寸为提示规格，不是本合集测量。"],
+    "en":{
+      "title":"The last city in 2350: sandmrk infers six Muse video clips and acknowledges incomplete matching",
+      "summary":"Sandmrk specifies a roughly 59-second first-person sci-fi film as six Muse clips, detailing shots, dialogue, sound and a final city panorama, while explicitly saying generated results cannot fully match the reference.",
+      "description":"At 15:16:23 Beijing time on October 31, 2026, AI art gallery (@sandmrk) posts a continuation of an inferred Muse video prompt, explicitly ending that this is a reverse-engineered prompt whose generated result cannot fully match the original and needs optimization. The target is a roughly 59-second first-person sci-fi comedy: a male viewpoint wakes in 2350, android women guide him into one of humanity's last cities, and dialogue about men's extinction ends with a wide canopy shot. This differs from the author's existing dance and palace-video targets.\n\nSupplementary reading of the root at 15:15:51 that day gives six clips, a 1080×1450/30fps reference and 1080×1440/30fps generation locked to 3:4. These are prompt specifications, not proof that the sizes are identical or independently measured. The candidate continuation specifies dialogue at 34.5–39.2 seconds, entering a forest city through security at 39.2–49 seconds, dialogue at 49–58.8 seconds and a wide cut after 55.5 seconds, with gaze, camera, sound, rhythm and no-subtitle constraints. The purpose is translating finished motion and narrative into a generative clip specification, not recovering an original hidden prompt.\n\nThe author explicitly retains mismatching results. No precise model revision, original prompt, complete generated comparison or quantified similarity is supplied. Only text was read; neither reference playback nor generation occurred. Detailed timecodes are not frame-level verification. The continuation is not asserted to contain all six clips; there is still a middle gap between the readable root text and this continuation. Retained as an unverified prompt-reconstruction report. REA is unspecified.",
+      "metadata":["Candidate snapshot: 1 like, 40 views, 0 reposts. Timecodes and dimensions are prompt specifications, not collection measurements."],
+      "source_labels":["Sandmrk's last-city Muse continuation and incomplete-match caveat, October 31, 2026 at 15:16","Supplementary six-clip Muse sci-fi prompt root, October 31, 2026 at 15:15"]
+    }
+  },
+  {
+    "id":"sfiii-cps3-ai-decomp-toolchain-curator-report",
+    "title":"sfIII-cps3-decomp：yibie报告AI披露，同时提出专有编译器分发顾虑",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"yibie在维护逆向目录时提及sfIII-cps3-decomp的AI披露，却因据称含Hitachi SHC编译器二进制而拒绝推荐；本合集仅保留二手项目线索及权利边界。",
+    "description":"2026年10月31日15:31:58（北京时间），yibie（@yibie）介绍三个目录的更新，在AI逆向目录部分提及sfIII-cps3-decomp。名称指向CPS3《街霸3》反编译研究，作者称其AI披露写得很好，但仓库提交了原版Hitachi SHC编译器二进制，属于专有工具链而非游戏资产，因此没有列入自己的推荐目录。这里记录的是具体AI辅助反编译项目的二手披露与分发风险提醒，不是本合集对许可或侵权作出法律结论。\n\n候选没有展开项目AI操作、模型、匹配率、可玩状态或具体仓库URL，本轮未取得其源码、许可证或固定工具链文件清单；不能据目录维护者的判断认定实际分发内容已核实，也不能推断反编译已完成。帖子提及让用户自备工具链的另一项目只作维护方法对照，不附会为本项目已整改。X-Men 2的21处commit trailer是同帖另一已收录目标的陈述，不属于sfIII成果。未下载编译器、游戏或执行代码，保留未核验状态；REA使用未确认。",
+    "sources":[{"label":"yibie的目录更新、sfIII AI披露及工具链顾虑，2026-10-31","url":"https://x.com/i/status/2116432979304280065"}],
+    "snapshot_date":"2026-10-31", "metadata":["候选快照2赞、95浏览、0转发；工具链内容为目录维护者报告，未独立检查。"],
+    "en":{
+      "title":"sfIII-cps3-decomp: yibie reports AI disclosure and raises proprietary-compiler distribution concerns",
+      "summary":"While curating a reversing directory, yibie cites sfIII-cps3-decomp's AI disclosure but declines it for allegedly bundling Hitachi SHC compiler binaries. Retained only as a secondary project report with rights caveats.",
+      "description":"At 15:31:58 Beijing time on October 31, 2026, yibie (@yibie) reports updates to three directories and mentions sfIII-cps3-decomp in the AI-reversing section. Its name points to CPS3 Street Fighter III decompilation research. Yibie praises its AI disclosure but says the repository commits original Hitachi SHC compiler binaries, a proprietary toolchain rather than game assets, and therefore declines to recommend it. This entry records a concrete AI-assisted decompilation project's secondary disclosure and distribution concern, not a legal finding about licensing or infringement.\n\nThe candidate gives no AI operations, model, match rate, playability status or explicit project URL. No source, license or pinned toolchain inventory was obtained here. The curator's assessment does not independently establish what is distributed or that decompilation is complete. Another project's bring-your-own-toolchain approach is a curation comparison, not evidence that this project has remediated anything. The same post's 21 X-Men 2 commit trailers concern another already collected target, not sfIII achievements. No compiler or game was downloaded and no code executed. Status remains unverified; REA use is unconfirmed.",
+      "metadata":["Candidate snapshot: 2 likes, 95 views, 0 reposts. Toolchain contents are a curator report, not independently inspected."],
+      "source_labels":["Yibie's directory update, sfIII AI disclosure and toolchain concern, October 31, 2026"]
+    }
+  },
+  {
     "id": "dwarf-fortress-rea-agent-elements-experiment",
     "title": "矮人要塞：jojonas_xyz用REA研究并尝试引入Agent元素",
     "category": "games", "rea": "REA", "status": "in-progress",

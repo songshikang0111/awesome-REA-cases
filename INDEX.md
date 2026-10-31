@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1344 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1356 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（280）
-- [硬件与设备互通](categories/hardware.md)（361）
-- [应用与客户端](categories/apps.md)（561）
-- [算法与功能重建](categories/algorithms.md)（142）
+- [游戏与游戏保存](categories/games.md)（289）
+- [硬件与设备互通](categories/hardware.md)（362）
+- [应用与客户端](categories/apps.md)（562）
+- [算法与功能重建](categories/algorithms.md)（143）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,15 @@
 
 ### 游戏与游戏保存
 
+- [SNES牧场物语：RodoLy借AI逐例程恢复C，公开原生PC beta](cases/rodoly-harvest-moon-snes-ai-native-report.md) — The Gaming Emporium报道RodoLy重建SNES牧场物语；固定README确认人工监督AI、778例程／45176指令的项目验证主张，以及自备ROM的原生C beta。 **[其他 AI 逆向 · 分析测试]**
+- [Mario Party初代：n64hub以Claude辅助静态重编译到桌面与浏览器](cases/n64hub-mario-party-claude-static-recomp.md) — 初代N64 Mario Party独立移植公开Claude披露，复用社区反编译符号及共享调度器，项目称桌面和浏览器可玩；只支持USA ROM，未独立试玩。 **[其他 AI 逆向 · 进行中]**
+- [Mario Party 2：n64hub的Claude辅助原生与网页重编译项目](cases/n64hub-mario-party-2-claude-static-recomp.md) — Mario Party 2独立移植公开Claude辅助与人工试玩，README称六张棋盘、菜单和小游戏可在桌面及浏览器运行；只支持USA ROM，未独立验证。 **[其他 AI 逆向 · 进行中]**
+- [Mario Party 3：Claude辅助重编译，保留社区与首个移植的贡献归属](cases/n64hub-mario-party-3-claude-static-recomp.md) — n64hub以Claude辅助重编译Mario Party 3，复用社区符号、共享调度与Rainchus前作研究，项目称六棋盘及小游戏支持桌面和网页；未独立试玩。 **[其他 AI 逆向 · 进行中]**
+- [Skyblivion代码争议：读者称团队用AI反编译前志愿者贡献](cases/skyblivion-contributor-code-ai-decompile-allegation.md) — SystemZ3R0将Skyblivion的前志愿者代码反编译称为AI辅助；祖先报道只说明纠错、争议及团队称已替换代码，未证实模型或方法。 **[其他 AI 逆向 · 待验证]**
+- [SCUD Race：读者以街机保存和手柄体验说明AI辅助PC移植价值](cases/wans-zai-scud-race-ai-port-reader-report.md) — 读者将Wans Zai的SCUD Race PC移植称为AI辅助保存案例，认为原街机稀少且Supermodel手柄转向体验有问题；没有构建或对比测试。 **[其他 AI 逆向 · 待验证]**
+- [BO7自定义僵尸地图：Hey101以手工逆向为主，AI辅助材质结构与ff实现](cases/hey101-bo7-custom-zombies-ai-assisted-ff.md) — Hey101称观察实时数据手工研究BO7结构，以AI加速实现和复杂材质属性，人工审改代码；报告离线客户端和从零生成ff自定义地图，未公开验证。 **[其他 AI 逆向 · 进行中]**
+- [街霸3三度冲击：裁上下与重排HUD，而非改变对战间距的16:9想法](cases/third-strike-ai-169-crop-hud-remaster-idea.md) — Dr. Gan希望借CPS3研究和AI逆向，为3rd做16:9重制；明确只裁上下、重新定位HUD，不扩大横向对战空间，尚无实现。 **[其他 AI 逆向 · 待验证]**
+- [sfIII-cps3-decomp：yibie报告AI披露，同时提出专有编译器分发顾虑](cases/sfiii-cps3-ai-decomp-toolchain-curator-report.md) — yibie在维护逆向目录时提及sfIII-cps3-decomp的AI披露，却因据称含Hitachi SHC编译器二进制而拒绝推荐；本合集仅保留二手项目线索及权利边界。 **[其他 AI 逆向 · 待验证]**
 - [矮人要塞：jojonas_xyz用REA研究并尝试引入Agent元素](cases/dwarf-fortress-rea-agent-elements-experiment.md) — 超级大西瓜称睡前让REA研究矮人要塞并加入Agent元素，早晨得到初步产物，但距拿得出手仍有99%要走；没有公开代码或可玩性验证。 **[REA · 进行中]**
 - [Open RAC：读者推荐AI辅助匹配反编译与瑞奇与叮当原生移植](cases/open-rac-ai-assisted-port-reader-report.md) — Bouch MillaTre推荐Open RAC为AI辅助移植范例；公开OpenRAC文档说明PS2游戏恢复为C并原生重建，但匹配率、AI贡献比例及全平台可玩性未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [Lost Odyssey：读者在AI游戏移植讨论中给出的vibecoded案例](cases/lost-odyssey-vibecoded-port-reader-report.md) — Bouch MillaTre把Lost Odyssey列为vibecoded移植例子；仅有游戏名与AI编码归类，未指明具体仓库、版本、平台或验收。 **[其他 AI 逆向 · 待验证]**
@@ -309,6 +318,7 @@
 
 ### 硬件与设备互通
 
+- [光猫健康检查：Neo@Matrix用REA恢复ISP账号接口并自动触发重启](cases/neohob-rea-isp-ont-health-reboot.md) — 作者称光猫长期开机变慢，REA研究得到的是ISP中心向当前账号下发的接口，而非管理员；路由器检查结合AI诊断调用重启，未公开代码。 **[REA · 待验证]**
 - [Clay的光纤激光机：在AI车间实验中报告逆向并写替代软件](cases/clay-fiber-laser-ai-replacement-software-report.md) — Clay称在玩最新AI模型的车间项目中逆向自有中国光纤激光机并写了新软件；缺少型号、协议、源码和安全测试，不能推断机器已可靠运行。 **[其他 AI 逆向 · 待验证]**
 - [经销商App封闭的摄像头：Carsten称用REA恢复协议并自建服务器客户端](cases/carsten-rea-reseller-camera-server-client.md) — CarstenBKK称用Reverse Engineer Anything研究闲置摄像头的协议，现在已有运行在自己服务器上的客户端；未公开型号、代码或功能测试。 **[REA · 待验证]**
 - [YouFibre ARRIS NVG578LX：Scientific Brad报告AI辅助发现LAN凭据暴露](cases/youfibre-arris-nvg578lx-rea-lan-disclosure-report.md) — Scientific Brad称用REA、DaybreakBlue与Codex检查CommScope ARRIS NVG578LX，发现未登录LAN客户端可见Wi-Fi凭据，已报YouFibre；等待回应期间不公开细节。 **[REA · 待验证]**
@@ -673,6 +683,7 @@
 
 ### 应用与客户端
 
+- [未具名控制软件：江枫称DeepSeek驱动REA通宵逆向不到10元](cases/deepseek-rea-overnight-control-software-report.md) — 江枫在讨论DeepSeek错峰价格时报告，曾让REA通宵研究一款控制软件，费用不到10元；没有软件名、代码或功能验收。 **[REA · 待验证]**
 - [网站54组证据验收：小金鱼-箱子称用REA研究参考站并复验上线结果](cases/zi-xiang-rea-website-54-evidence-acceptance.md) — 作者报告参考站截图与布局清单，再为自有站生成9页面、3视口、明暗主题共54组证据，比较改前改后与部署结果；站点、JSON和分数卡未公开。 **[REA · 分析测试]**
 - [reanimate：Claude Code逐帧记录、重建与比较网页动画的公开skill](cases/reanimate-claude-animation-record-rebuild-compare.md) — 技能榜介绍reanimate；固定README公开Stripe等动画重建、时序与像素比较流程和项目测量，保留五轮后未匹配项、随机粒子与登录页限制；未在本合集运行。 **[其他 AI 逆向 · 分析测试]**
 - [OpenBOT × Grok Bot：桌面助手净室对标仍停在未登录旁路盘点](cases/openbot-grokbot-cleanroom-workbench-observation.md) — 署名龙彪的报告记录自研助手对标另一工作台，只完成约16屏未登录草稿；侧栏、agents、computers和skills尚未录完，不装REA，也未进入大规模实现。 **[其他 AI 逆向 · 进行中]**
@@ -1237,6 +1248,7 @@
 
 ### 算法与功能重建
 
+- [2350年最后城市：sandmrk反推Muse六段科幻短片规格并承认无法完全匹配](cases/sandmrk-muse-2350-last-city-six-clip-prompt.md) — sandmrk把约59秒第一人称科幻片写为六段Muse提示，细化分镜、对白、声音及最后城市远景，明确生成结果不能完全匹配原片。 **[其他 AI 逆向 · 待验证]**
 - [南天门／白玉京画作：Huan称用ChatGPT找回遗失的图像提示词](cases/huan-nantianmen-chatgpt-prompt-recovery.md) — Huan在读者索要AI画作提示词后，说原提示找不到，已让ChatGPT反推；目标图像可追溯，但恢复提示与再生成对照未给出。 **[其他 AI 逆向 · 待验证]**
 - [CoinGlass Daily Performance：AI助手称柱状图实际是两日复合收益](cases/coinglass-daily-performance-two-day-formula-report.md) — 17lisevent自称AI助手，报告研究CoinGlass的daily-performance-report页并推得price[i+1]/price[i-1]-1；缺少原始价格、索引对齐与误差记录，未独立复算。 **[其他 AI 逆向 · 待验证]**
 - [火柴人动画：请求Grok反推Deepseek／Gemini对比片的提示词](cases/deepseek-gemini-stickfigure-grok-prompt-request.md) — 作者在Deepseek v4.1 Flash对Gemini Carbon的火柴人动画帖中请求Grok反推提示词；只是具体视觉提示重建idea，没有返回提示或复现结果。 **[其他 AI 逆向 · 待验证]**

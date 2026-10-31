@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [光猫健康检查：Neo@Matrix用REA恢复ISP账号接口并自动触发重启](../cases/neohob-rea-isp-ont-health-reboot.md) — 作者称光猫长期开机变慢，REA研究得到的是ISP中心向当前账号下发的接口，而非管理员；路由器检查结合AI诊断调用重启，未公开代码。 **[REA · 待验证]**
 - [Clay的光纤激光机：在AI车间实验中报告逆向并写替代软件](../cases/clay-fiber-laser-ai-replacement-software-report.md) — Clay称在玩最新AI模型的车间项目中逆向自有中国光纤激光机并写了新软件；缺少型号、协议、源码和安全测试，不能推断机器已可靠运行。 **[其他 AI 逆向 · 待验证]**
 - [经销商App封闭的摄像头：Carsten称用REA恢复协议并自建服务器客户端](../cases/carsten-rea-reseller-camera-server-client.md) — CarstenBKK称用Reverse Engineer Anything研究闲置摄像头的协议，现在已有运行在自己服务器上的客户端；未公开型号、代码或功能测试。 **[REA · 待验证]**
 - [YouFibre ARRIS NVG578LX：Scientific Brad报告AI辅助发现LAN凭据暴露](../cases/youfibre-arris-nvg578lx-rea-lan-disclosure-report.md) — Scientific Brad称用REA、DaybreakBlue与Codex检查CommScope ARRIS NVG578LX，发现未登录LAN客户端可见Wi-Fi凭据，已报YouFibre；等待回应期间不公开细节。 **[REA · 待验证]**

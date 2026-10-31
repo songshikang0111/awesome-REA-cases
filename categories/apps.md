@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [未具名控制软件：江枫称DeepSeek驱动REA通宵逆向不到10元](../cases/deepseek-rea-overnight-control-software-report.md) — 江枫在讨论DeepSeek错峰价格时报告，曾让REA通宵研究一款控制软件，费用不到10元；没有软件名、代码或功能验收。 **[REA · 待验证]**
 - [网站54组证据验收：小金鱼-箱子称用REA研究参考站并复验上线结果](../cases/zi-xiang-rea-website-54-evidence-acceptance.md) — 作者报告参考站截图与布局清单，再为自有站生成9页面、3视口、明暗主题共54组证据，比较改前改后与部署结果；站点、JSON和分数卡未公开。 **[REA · 分析测试]**
 - [reanimate：Claude Code逐帧记录、重建与比较网页动画的公开skill](../cases/reanimate-claude-animation-record-rebuild-compare.md) — 技能榜介绍reanimate；固定README公开Stripe等动画重建、时序与像素比较流程和项目测量，保留五轮后未匹配项、随机粒子与登录页限制；未在本合集运行。 **[其他 AI 逆向 · 分析测试]**
 - [OpenBOT × Grok Bot：桌面助手净室对标仍停在未登录旁路盘点](../cases/openbot-grokbot-cleanroom-workbench-observation.md) — 署名龙彪的报告记录自研助手对标另一工作台，只完成约16屏未登录草稿；侧栏、agents、computers和skills尚未录完，不装REA，也未进入大规模实现。 **[其他 AI 逆向 · 进行中]**

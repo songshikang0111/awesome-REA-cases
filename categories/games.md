@@ -2,6 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [SNES牧场物语：RodoLy借AI逐例程恢复C，公开原生PC beta](../cases/rodoly-harvest-moon-snes-ai-native-report.md) — The Gaming Emporium报道RodoLy重建SNES牧场物语；固定README确认人工监督AI、778例程／45176指令的项目验证主张，以及自备ROM的原生C beta。 **[其他 AI 逆向 · 分析测试]**
+- [Mario Party初代：n64hub以Claude辅助静态重编译到桌面与浏览器](../cases/n64hub-mario-party-claude-static-recomp.md) — 初代N64 Mario Party独立移植公开Claude披露，复用社区反编译符号及共享调度器，项目称桌面和浏览器可玩；只支持USA ROM，未独立试玩。 **[其他 AI 逆向 · 进行中]**
+- [Mario Party 2：n64hub的Claude辅助原生与网页重编译项目](../cases/n64hub-mario-party-2-claude-static-recomp.md) — Mario Party 2独立移植公开Claude辅助与人工试玩，README称六张棋盘、菜单和小游戏可在桌面及浏览器运行；只支持USA ROM，未独立验证。 **[其他 AI 逆向 · 进行中]**
+- [Mario Party 3：Claude辅助重编译，保留社区与首个移植的贡献归属](../cases/n64hub-mario-party-3-claude-static-recomp.md) — n64hub以Claude辅助重编译Mario Party 3，复用社区符号、共享调度与Rainchus前作研究，项目称六棋盘及小游戏支持桌面和网页；未独立试玩。 **[其他 AI 逆向 · 进行中]**
+- [Skyblivion代码争议：读者称团队用AI反编译前志愿者贡献](../cases/skyblivion-contributor-code-ai-decompile-allegation.md) — SystemZ3R0将Skyblivion的前志愿者代码反编译称为AI辅助；祖先报道只说明纠错、争议及团队称已替换代码，未证实模型或方法。 **[其他 AI 逆向 · 待验证]**
+- [SCUD Race：读者以街机保存和手柄体验说明AI辅助PC移植价值](../cases/wans-zai-scud-race-ai-port-reader-report.md) — 读者将Wans Zai的SCUD Race PC移植称为AI辅助保存案例，认为原街机稀少且Supermodel手柄转向体验有问题；没有构建或对比测试。 **[其他 AI 逆向 · 待验证]**
+- [BO7自定义僵尸地图：Hey101以手工逆向为主，AI辅助材质结构与ff实现](../cases/hey101-bo7-custom-zombies-ai-assisted-ff.md) — Hey101称观察实时数据手工研究BO7结构，以AI加速实现和复杂材质属性，人工审改代码；报告离线客户端和从零生成ff自定义地图，未公开验证。 **[其他 AI 逆向 · 进行中]**
+- [街霸3三度冲击：裁上下与重排HUD，而非改变对战间距的16:9想法](../cases/third-strike-ai-169-crop-hud-remaster-idea.md) — Dr. Gan希望借CPS3研究和AI逆向，为3rd做16:9重制；明确只裁上下、重新定位HUD，不扩大横向对战空间，尚无实现。 **[其他 AI 逆向 · 待验证]**
+- [sfIII-cps3-decomp：yibie报告AI披露，同时提出专有编译器分发顾虑](../cases/sfiii-cps3-ai-decomp-toolchain-curator-report.md) — yibie在维护逆向目录时提及sfIII-cps3-decomp的AI披露，却因据称含Hitachi SHC编译器二进制而拒绝推荐；本合集仅保留二手项目线索及权利边界。 **[其他 AI 逆向 · 待验证]**
 - [矮人要塞：jojonas_xyz用REA研究并尝试引入Agent元素](../cases/dwarf-fortress-rea-agent-elements-experiment.md) — 超级大西瓜称睡前让REA研究矮人要塞并加入Agent元素，早晨得到初步产物，但距拿得出手仍有99%要走；没有公开代码或可玩性验证。 **[REA · 进行中]**
 - [Open RAC：读者推荐AI辅助匹配反编译与瑞奇与叮当原生移植](../cases/open-rac-ai-assisted-port-reader-report.md) — Bouch MillaTre推荐Open RAC为AI辅助移植范例；公开OpenRAC文档说明PS2游戏恢复为C并原生重建，但匹配率、AI贡献比例及全平台可玩性未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [Lost Odyssey：读者在AI游戏移植讨论中给出的vibecoded案例](../cases/lost-odyssey-vibecoded-port-reader-report.md) — Bouch MillaTre把Lost Odyssey列为vibecoded移植例子；仅有游戏名与AI编码归类，未指明具体仓库、版本、平台或验收。 **[其他 AI 逆向 · 待验证]**

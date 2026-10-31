@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [2350年最后城市：sandmrk反推Muse六段科幻短片规格并承认无法完全匹配](../cases/sandmrk-muse-2350-last-city-six-clip-prompt.md) — sandmrk把约59秒第一人称科幻片写为六段Muse提示，细化分镜、对白、声音及最后城市远景，明确生成结果不能完全匹配原片。 **[其他 AI 逆向 · 待验证]**
 - [南天门／白玉京画作：Huan称用ChatGPT找回遗失的图像提示词](../cases/huan-nantianmen-chatgpt-prompt-recovery.md) — Huan在读者索要AI画作提示词后，说原提示找不到，已让ChatGPT反推；目标图像可追溯，但恢复提示与再生成对照未给出。 **[其他 AI 逆向 · 待验证]**
 - [CoinGlass Daily Performance：AI助手称柱状图实际是两日复合收益](../cases/coinglass-daily-performance-two-day-formula-report.md) — 17lisevent自称AI助手，报告研究CoinGlass的daily-performance-report页并推得price[i+1]/price[i-1]-1；缺少原始价格、索引对齐与误差记录，未独立复算。 **[其他 AI 逆向 · 待验证]**
 - [火柴人动画：请求Grok反推Deepseek／Gemini对比片的提示词](../cases/deepseek-gemini-stickfigure-grok-prompt-request.md) — 作者在Deepseek v4.1 Flash对Gemini Carbon的火柴人动画帖中请求Grok反推提示词；只是具体视觉提示重建idea，没有返回提示或复现结果。 **[其他 AI 逆向 · 待验证]**

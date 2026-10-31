@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1344 cases & projects
+# 1356 cases & projects
 
-**Latest case update:** October 31, 2026, 12:11 · **Last maintained:** October 31, 2026, 12:11 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** October 31, 2026, 16:10 · **Last maintained:** October 31, 2026, 16:10 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading** for device interoperability, useful replacements, game preservation, sound and motion reconstruction. Prefer inspectable implementations and explicit test limits over claims of complete reconstruction. Dates below are source or author-update dates, not collection dates.
+**10 worth reading** for device interoperability, useful replacements, game preservation and sound reconstruction. Prefer inspectable implementations and explicit test limits over claims of complete reconstruction. Dates below are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Claude writes proofs; Rocq checks the binaries](cases/en/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic/Theorem report machine-code no-crash proofs for **239 entry points across 123 libraries**. Single-threaded static RISC-V/Linux, inputs below 64MB; **not bug-free whole libraries**, and the checker was not independently rerun here. `Analysis test`
 8. **[Earshot fit: turn a recording into adjustable code](cases/en/earshot-fit-recording-to-parametric-code.md)** · `2026-10-30` report; `2026-10-22` project documentation — **Fit a reference sound to a Python synthesis recipe** for new takes and parameter changes, available to agents through CLI/MCP. Public benchmarks retain regressions as well as gains; private reference clips and **no 0.4 listening test** limit verification. Not run here. `Analysis test`
 9. **[X-Men 2: from Genesis to four-player PC co-op](cases/en/xmen2-pc-claude-genesis-native-port.md)** · `2026-10-31` report; `2026-10-28` project documentation — crabsmack credits Claude Code with a native Windows/Linux port, reporting **3,047 byte-matching C functions** plus instruction-level checks for 117 assembly functions. Adds rollback and widescreen; four-player modes are less tested. Bring your own ROM; not rerun here. `Public implementation`
-10. **[reanimate: rebuild motion, then measure the difference](cases/en/reanimate-claude-animation-record-rebuild-compare.md)** · `2026-10-31` roundup; `2026-10-30` project documentation — A public **Claude Code record–spec–build–compare skill** with Stripe and other examples. Motion mode allows **80ms timing error**; exact-look mode also limits **mean pixel mismatch to 2%**. Differences remaining after five rounds are reported. Login pages need recordings; captured assets keep their owners' rights. Not rerun here. `Analysis test`
+10. **[Harvest Moon: readable C that also plays](cases/en/rodoly-harvest-moon-snes-ai-native-report.md)** · `2026-10-31` report; `2026-10-30` project documentation — RodoLy credits **human-supervised AI** and reports **778 routines / 45,176 instructions verified**, comparing memory and registers. Native-C beta adds optional widescreen and endless farming; picture/sound chips still run in software. Bring your own USA ROM and build locally; checks not rerun here. `Analysis test`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **280** |
-| [Hardware & interoperability](categories/en/hardware.md) | **361** |
-| [Applications & clients](categories/en/apps.md) | **561** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **142** |
+| [Games & preservation](categories/en/games.md) | **289** |
+| [Hardware & interoperability](categories/en/hardware.md) | **362** |
+| [Applications & clients](categories/en/apps.md) | **562** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **143** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

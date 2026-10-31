@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1344 entries**, organized by use case, without a Top-N or popularity threshold.
+**1356 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (280)
-- [Hardware and interoperability](categories/en/hardware.md) (361)
-- [Applications and clients](categories/en/apps.md) (561)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (142)
+- [Games and preservation](categories/en/games.md) (289)
+- [Hardware and interoperability](categories/en/hardware.md) (362)
+- [Applications and clients](categories/en/apps.md) (562)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (143)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,15 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [SNES Harvest Moon: RodoLy uses AI to recover readable C and offers a native PC beta](cases/en/rodoly-harvest-moon-snes-ai-native-report.md) — The Gaming Emporium reports RodoLy's SNES reconstruction. A pinned README confirms supervised AI assistance, project claims of 778 routines / 45,176 instructions verified, and a native-C beta requiring one's own ROM. **[Other AI-assisted work · Analysis test]**
+- [Mario Party: n64hub uses Claude-assisted static recompilation for desktop and browser](cases/en/n64hub-mario-party-claude-static-recomp.md) — The first N64 Mario Party port discloses Claude assistance, community decompilation symbols and a shared scheduler. Desktop/browser play is project-reported, USA ROM only, not independently tested here. **[Other AI-assisted work · In progress]**
+- [Mario Party 2: n64hub's Claude-assisted native and browser recompilation](cases/en/n64hub-mario-party-2-claude-static-recomp.md) — A distinct Mario Party 2 port discloses Claude assistance and human playtesting. Its README reports six boards, menus and minigames on desktop/browser; USA ROM only, not independently verified. **[Other AI-assisted work · In progress]**
+- [Mario Party 3: Claude-assisted recompilation credits community research and the first port](cases/en/n64hub-mario-party-3-claude-static-recomp.md) — N64hub's Claude-assisted Mario Party 3 port reuses community symbols, shared scheduling and Rainchus's earlier research. Six boards and minigames on desktop/browser are project-reported, not independently play-tested. **[Other AI-assisted work · In progress]**
+- [Skyblivion code dispute: a reader alleges AI decompilation of a former volunteer's contribution](cases/en/skyblivion-contributor-code-ai-decompile-allegation.md) — SystemZ3R0 labels decompilation of a former Skyblivion volunteer's code AI-assisted. The ancestor report describes bug fixing, a dispute and the team's claimed replacement, not a model or method. **[Other AI-assisted work · Needs verification]**
+- [SCUD Race: a reader argues for an AI-assisted PC port through arcade preservation and gamepad access](cases/en/wans-zai-scud-race-ai-port-reader-report.md) — A reader calls Wans Zai's SCUD Race PC port an AI-assisted preservation example, citing rare cabinets and their poor Supermodel steering experience. No build or comparative test is supplied. **[Other AI-assisted work · Needs verification]**
+- [BO7 custom Zombies maps: Hey101 combines manual reversing with AI-assisted material structures and ff implementation](cases/en/hey101-bo7-custom-zombies-ai-assisted-ff.md) — Hey101 reports manually studying live BO7 structures, with AI speeding implementation and nuanced material properties, followed by human review. An offline client and from-scratch ff maps are claimed, not independently verified. **[Other AI-assisted work · In progress]**
+- [Third Strike: a 16:9 idea using vertical cropping and HUD relocation, not wider fighting distances](cases/en/third-strike-ai-169-crop-hud-remaster-idea.md) — Dr. Gan proposes using CPS3 research and AI reversing for a Third Strike remaster, explicitly cropping top/bottom and moving the HUD rather than widening the fighting space. No implementation is supplied. **[Other AI-assisted work · Needs verification]**
+- [sfIII-cps3-decomp: yibie reports AI disclosure and raises proprietary-compiler distribution concerns](cases/en/sfiii-cps3-ai-decomp-toolchain-curator-report.md) — While curating a reversing directory, yibie cites sfIII-cps3-decomp's AI disclosure but declines it for allegedly bundling Hitachi SHC compiler binaries. Retained only as a secondary project report with rights caveats. **[Other AI-assisted work · Needs verification]**
 - [Dwarf Fortress: jojonas_xyz tries REA research and adding agent elements](cases/en/dwarf-fortress-rea-agent-elements-experiment.md) — Jojonas_xyz says an overnight REA experiment produced an initial result, but is still 99% away from presentable quality. No public code or playability verification. **[REA · In progress]**
 - [Open RAC: a reader recommends AI-assisted matching decompilation and native Ratchet & Clank ports](cases/en/open-rac-ai-assisted-port-reader-report.md) — Bouch MillaTre recommends Open RAC as an AI-assisted port. Public OpenRAC documentation describes PS2-to-C reconstruction and native builds; match rates, AI contribution share and cross-platform playability were not independently verified. **[Other AI-assisted work · Needs verification]**
 - [Lost Odyssey: a reader's vibecoded example in an AI game-port discussion](cases/en/lost-odyssey-vibecoded-port-reader-report.md) — Bouch MillaTre names Lost Odyssey as a vibecoded port. Only a game name and AI-coding characterization are supplied, without a specific repository, revision, platform or acceptance results. **[Other AI-assisted work · Needs verification]**
@@ -311,6 +320,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [ONT health checks: neohob reports REA recovery of an ISP-account API for automatic rebooting](cases/en/neohob-rea-isp-ont-health-reboot.md) — The author says REA research on an ONT that slows over time recovered ISP-center interfaces for their own account, not administrator access. Router checks and AI diagnosis trigger reboots; no code is public. **[REA · Needs verification]**
 - [Clay's fiber laser: replacement software reported among AI-assisted workshop experiments](cases/en/clay-fiber-laser-ai-replacement-software-report.md) — Clay says they reverse-engineered their Chinese fiber laser and wrote new software while experimenting with recent AI models in the workshop. Model, protocol, source and safety tests are absent; reliable machine operation is not established. **[Other AI-assisted work · Needs verification]**
 - [Cameras locked behind a reseller app: Carsten reports an REA-assisted protocol and server client](cases/en/carsten-rea-reseller-camera-server-client.md) — CarstenBKK says Reverse Engineer Anything helped recover the protocol of unused cameras and that a client now runs on their server. Models, code and functional tests are not public in the post. **[REA · Needs verification]**
 - [YouFibre ARRIS NVG578LX: Scientific Brad reports AI-assisted discovery of LAN credential exposure](cases/en/youfibre-arris-nvg578lx-rea-lan-disclosure-report.md) — Scientific Brad says REA, DaybreakBlue and Codex helped inspect a CommScope ARRIS NVG578LX and find Wi-Fi credentials visible to unauthenticated LAN clients. Reported to YouFibre, with details withheld pending a response. **[REA · Needs verification]**
@@ -675,6 +685,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Unnamed control software: maple_cq reports an overnight DeepSeek/REA study for under CNY 10](cases/en/deepseek-rea-overnight-control-software-report.md) — Maple_cq recalls running REA overnight on control software while discussing DeepSeek off-peak pricing. Under CNY 10 is self-reported; no software name, code or functional acceptance test is supplied. **[REA · Needs verification]**
 - [54 website evidence sets: zi_xiang reports REA reference research and post-deployment acceptance checks](cases/en/zi-xiang-rea-website-54-evidence-acceptance.md) — The author reports reference-site captures and a layout checklist, then 54 evidence sets across nine pages, three viewports and two themes for their own site. URLs, JSON and scorecards are not public. **[REA · Analysis test]**
 - [reanimate: a public Claude Code skill for recording, rebuilding and comparing animations frame by frame](cases/en/reanimate-claude-animation-record-rebuild-compare.md) — A skills roundup introduces reanimate. Its pinned README documents Stripe and other reconstructions, timing/pixel comparisons and project measurements, retaining five-round failures, random-particle and login-page limits. Not run here. **[Other AI-assisted work · Analysis test]**
 - [OpenBOT × Grok Bot: a clean-room desktop-assistant study remains at logged-out side observations](cases/en/openbot-grokbot-cleanroom-workbench-observation.md) — A report signed Longbiao CHEN describes about 16 logged-out draft screens for an assistant comparison. Sidebar, agents, computers and skills remain unrecorded; no REA installation or large-scale implementation is reported. **[Other AI-assisted work · In progress]**
@@ -1239,6 +1250,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [The last city in 2350: sandmrk infers six Muse video clips and acknowledges incomplete matching](cases/en/sandmrk-muse-2350-last-city-six-clip-prompt.md) — Sandmrk specifies a roughly 59-second first-person sci-fi film as six Muse clips, detailing shots, dialogue, sound and a final city panorama, while explicitly saying generated results cannot fully match the reference. **[Other AI-assisted work · Needs verification]**
 - [Nantianmen / Baiyujing artwork: Huan reports using ChatGPT to recover a lost image prompt](cases/en/huan-nantianmen-chatgpt-prompt-recovery.md) — After a reader requests an AI-art prompt, Huan says the original was lost and ChatGPT inferred one. The target artwork is traceable, but the recovered prompt and regeneration comparison are absent. **[Other AI-assisted work · Needs verification]**
 - [CoinGlass Daily Performance: an AI assistant reports two-day compounded-return bars](cases/en/coinglass-daily-performance-two-day-formula-report.md) — 17lisevent describes itself as an AI assistant and reports inferring price[i+1]/price[i-1]-1 on CoinGlass's daily-performance-report page. Raw prices, index alignment and error records are absent; not independently recomputed. **[Other AI-assisted work · Needs verification]**
 - [Stick-figure animation: asking Grok to infer a prompt from a Deepseek/Gemini comparison](cases/en/deepseek-gemini-stickfigure-grok-prompt-request.md) — A Deepseek v4.1 Flash versus Gemini Carbon post asks Grok to infer a stick-figure animation prompt. A concrete visual-prompt reconstruction idea, with no returned prompt or reproduced output. **[Other AI-assisted work · Needs verification]**
