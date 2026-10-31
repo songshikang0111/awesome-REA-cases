@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [John Deere拖拉机维修：读者提议用REA研究专有固件](../cases/john-deere-tractor-rea-repair-idea.md) — Muhammad Zahid Ansari因维修费用与专有系统锁定，询问能否用REA研究John Deere固件并推广到其他品牌；尚无目标镜像、实验或法律结论。 **[REA · 待验证]**
+- [Kindle Oasis：David用Claude理解KOReader并定制SimpleUI](../cases/david-kindle-oasis-claude-koreader-simpleui.md) — David称用现成SpiderCat越狱，再让Claude帮助理解KOReader与SimpleUI定制；不是Claude发现越狱漏洞，未公开代码或验收。 **[其他 AI 逆向 · 待验证]**
+- [TP-Link x5700：Jason用GLM、Hermes与REA检查旧路由器遥测](../cases/tplink-x5700-glm-hermes-rea-telemetry-report.md) — Jason Paul Michaels称用GLM、Hermes与REA研究自有旧路由器，认为未见遥测数据暴露点；没有固件、流量记录或安全验收。 **[REA · 待验证]**
+- [Orchard旧iPad Linux：Henrik明确Codex／Opus参与低层GPU工作，未用REA](../cases/henrik-orchard-ipad-linux-ai-gpu-report.md) — Henrik Klee回答iPad Linux工作流时确认先用Pi中的Codex、后主要用Claude Opus；较早报告A10 GPU三角形渲染，但未在此核验驱动或实机。 **[其他 AI 逆向 · 进行中]**
+- [UniXNU的iOS17手机移植：Ken称AI协助，保留尚未工作的硬件清单](../cases/ken-unixnu-ios17-android-ai-port-report.md) — Ken报告AI辅助让iOS17运行于Android手机，称GPU、多核、120Hz和USB可用，但相机、按键、基带与扬声器仍未工作；开源只是未来计划。 **[其他 AI 逆向 · 进行中]**
 - [光猫健康检查：Neo@Matrix用REA恢复ISP账号接口并自动触发重启](../cases/neohob-rea-isp-ont-health-reboot.md) — 作者称光猫长期开机变慢，REA研究得到的是ISP中心向当前账号下发的接口，而非管理员；路由器检查结合AI诊断调用重启，未公开代码。 **[REA · 待验证]**
 - [Clay的光纤激光机：在AI车间实验中报告逆向并写替代软件](../cases/clay-fiber-laser-ai-replacement-software-report.md) — Clay称在玩最新AI模型的车间项目中逆向自有中国光纤激光机并写了新软件；缺少型号、协议、源码和安全测试，不能推断机器已可靠运行。 **[其他 AI 逆向 · 待验证]**
 - [经销商App封闭的摄像头：Carsten称用REA恢复协议并自建服务器客户端](../cases/carsten-rea-reseller-camera-server-client.md) — CarstenBKK称用Reverse Engineer Anything研究闲置摄像头的协议，现在已有运行在自己服务器上的客户端；未公开型号、代码或功能测试。 **[REA · 待验证]**

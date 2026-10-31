@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [LLVM优化器idea：让AI比较GCC与LLVM汇编差异后改IL优化](../cases/llvm-gcc-assembly-ai-optimizer-idea.md) — 一本正经的瞎扯提出在GCC二进制更快时，让AI对比两套汇编并修改LLVM IL优化器；没有实现或性能测量。 **[其他 AI 逆向 · 待验证]**
+- [车内自拍视频重建：Leaf Yeah用agy反推提示再交Muse生成](../cases/leaf-agy-muse-car-selfie-video-prompt.md) — Leaf Yeah公开从抖音参考片反推的两阶段提示：先做普通自拍底图，再做9:16、10秒车内vlog；未核验原片和生成相似度。 **[其他 AI 逆向 · 待验证]**
+- [巨物果园产品片：sandmrk反推Muse六段58秒分镜，承认不能完全匹配](../cases/sandmrk-muse-giant-fruit-garden-prompt.md) — sandmrk把汉服女子穿行巨大水果花园的参考片写成六段提示，规定镜头、比例、动作与小瓶产品收尾；这不是找回原始提示或验证复刻。 **[其他 AI 逆向 · 待验证]**
+- [CoinGlass周期绩效：AI助手报告四页面共享图表与5954行数据](../cases/coinglass-period-performance-r66-audit.md) — 17lisevent自称AI助手，报告恢复周／月／季／年绩效口径并得到2010-07-13至2026-10-30的5954行日数据；未给公式或误差记录。 **[其他 AI 逆向 · 待验证]**
+- [X增粉互动限流：水的声音建议用逆向Agent调查算法](../cases/x-follow-interaction-throttling-agent-idea.md) — 在频繁增粉互动疑被限流的讨论中，水的声音提议让逆向Agent研究原因；尚未进行实验或恢复规则。 **[其他 AI 逆向 · 待验证]**
 - [2350年最后城市：sandmrk反推Muse六段科幻短片规格并承认无法完全匹配](../cases/sandmrk-muse-2350-last-city-six-clip-prompt.md) — sandmrk把约59秒第一人称科幻片写为六段Muse提示，细化分镜、对白、声音及最后城市远景，明确生成结果不能完全匹配原片。 **[其他 AI 逆向 · 待验证]**
 - [南天门／白玉京画作：Huan称用ChatGPT找回遗失的图像提示词](../cases/huan-nantianmen-chatgpt-prompt-recovery.md) — Huan在读者索要AI画作提示词后，说原提示找不到，已让ChatGPT反推；目标图像可追溯，但恢复提示与再生成对照未给出。 **[其他 AI 逆向 · 待验证]**
 - [CoinGlass Daily Performance：AI助手称柱状图实际是两日复合收益](../cases/coinglass-daily-performance-two-day-formula-report.md) — 17lisevent自称AI助手，报告研究CoinGlass的daily-performance-report页并推得price[i+1]/price[i-1]-1；缺少原始价格、索引对齐与误差记录，未独立复算。 **[其他 AI 逆向 · 待验证]**
@@ -132,7 +137,7 @@
 - [MoonBit：Claude 研究符号改名，让 VSCode 调试更易读](../cases/moonbit-claude-debugger-demangling.md) — 作者称 Claude 逆向 name mangling 并写 customDescriptionGenerator 改善调试显示。 **[其他 AI 逆向 · 待验证]**
 - [CSV 导出验收器：三个故意改坏的实现如何逃过简单测试](../cases/rea-csv-evaluator-mutation-test.md) — 作者称简单测试全绿，换成215组原版字节对照才发现三个错误实现。 **[REA · 分析测试]**
 - [混淆 JS 请求签名：REA 分析后恢复取数的作者报告](../cases/rea-obfuscated-web-request-signature.md) — 作者称 REA 五分钟梳理动态签名，改几行代码后得到数据；网站与验证材料未公开。 **[REA · 待验证]**
-- [Polymarket Up/Down bot：REA 分析策略与历史回放的推广自述](../cases/polymarket-updown-rea-replay-report.md) — 作者称用 REA/Opus 理解订单簿策略并逐 tick 回放；没有可检查代码、指标或收益证明。 **[REA · 待验证]**
+- [Polymarket Up/Down bot：REA回放与Claude复刻的未核验推广报告](../cases/polymarket-updown-rea-replay-report.md) — 既有作者称REA／Opus逐tick回放；新增作者称Claude20分钟复刻BTC五分钟套利bot。策略、速度、风控和收益均未独立验证，不证明是同一个bot。 **[REA · 待验证]**
 - [1977 年 DES 测试向量：Claude 追溯随机生成环境的报告](../cases/des-1977-test-vectors-claude.md) — Steve Weis 称 Claude 将 NBS 的 DES S-box 测试向量追溯到 PDP-11 Unix V6 rand()。 **[其他 AI 逆向 · 待验证]**
 - [jq 与 Fossify Calculator：REA 定位函数和初步调查](../cases/rea-jq-fossify-analysis-test.md) — 作者称在 stripped jq 1.8.2 中用 Ghidra 定位一个函数并回溯源码，尚未重建软件。 **[REA · 分析测试]**
 - [NIST ECDSA 曲线：Claude 追溯公开参数的随机生成过程](../cases/nist-ecdsa-origin-claude-report.md) — Anthropic 报告从公开曲线种子识别 lrand48 与时间戳，并公开重算代码；不是破解 ECDSA。 **[其他 AI 逆向 · 分析测试]**

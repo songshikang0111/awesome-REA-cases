@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Unity 2D游戏上Mac：Codex与REA替换依赖并把DX shader转Metal的自述](../cases/nomoreacetoplay-unity-macos-codex-rea-report.md) — Bocchi calls Saul称从Wine／dxmt封装转向Mac原生Unity依赖和player，DX shader改成Metal；未给游戏名、版本或可复查构建。 **[REA · 待验证]**
 - [SNES牧场物语：RodoLy借AI逐例程恢复C，公开原生PC beta](../cases/rodoly-harvest-moon-snes-ai-native-report.md) — The Gaming Emporium报道RodoLy重建SNES牧场物语；固定README确认人工监督AI、778例程／45176指令的项目验证主张，以及自备ROM的原生C beta。 **[其他 AI 逆向 · 分析测试]**
 - [Mario Party初代：n64hub以Claude辅助静态重编译到桌面与浏览器](../cases/n64hub-mario-party-claude-static-recomp.md) — 初代N64 Mario Party独立移植公开Claude披露，复用社区反编译符号及共享调度器，项目称桌面和浏览器可玩；只支持USA ROM，未独立试玩。 **[其他 AI 逆向 · 进行中]**
 - [Mario Party 2：n64hub的Claude辅助原生与网页重编译项目](../cases/n64hub-mario-party-2-claude-static-recomp.md) — Mario Party 2独立移植公开Claude辅助与人工试玩，README称六张棋盘、菜单和小游戏可在桌面及浏览器运行；只支持USA ROM，未独立验证。 **[其他 AI 逆向 · 进行中]**

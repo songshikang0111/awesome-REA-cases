@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [OKOK Libre：REA与GLM研究体脂秤APK，重建离线Android客户端](../cases/okok-libre-rea-glm-scale-android.md) — JYunth报告分析OKOK International并重建无广告客户端；公开Kotlin实现支持部分OKOK蓝牙协议，固定主Manifest无联网权限，但未独立测试秤互通或公式等价。 **[REA · 进行中]**
 - [未具名控制软件：江枫称DeepSeek驱动REA通宵逆向不到10元](../cases/deepseek-rea-overnight-control-software-report.md) — 江枫在讨论DeepSeek错峰价格时报告，曾让REA通宵研究一款控制软件，费用不到10元；没有软件名、代码或功能验收。 **[REA · 待验证]**
 - [网站54组证据验收：小金鱼-箱子称用REA研究参考站并复验上线结果](../cases/zi-xiang-rea-website-54-evidence-acceptance.md) — 作者报告参考站截图与布局清单，再为自有站生成9页面、3视口、明暗主题共54组证据，比较改前改后与部署结果；站点、JSON和分数卡未公开。 **[REA · 分析测试]**
 - [reanimate：Claude Code逐帧记录、重建与比较网页动画的公开skill](../cases/reanimate-claude-animation-record-rebuild-compare.md) — 技能榜介绍reanimate；固定README公开Stripe等动画重建、时序与像素比较流程和项目测量，保留五轮后未匹配项、随机粒子与登录页限制；未在本合集运行。 **[其他 AI 逆向 · 分析测试]**
@@ -438,7 +439,7 @@
 - [微信本地聊天记录：Codex 分析加密数据的作者报告](../cases/wechat-local-chat-decryption-report.md) — 作者称曾用 Codex 处理微信本地加密聊天记录，过程与范围未公开。 **[其他 AI 逆向 · 待验证]**
 - [LightBurn：为自己的激光机重建专用控制软件的报告](../cases/lightburn-personal-laser-rebuild.md) — 作者称用 REA 在16分钟内制作只针对自己激光机的 LightBurn 替代。 **[REA · 待验证]**
 - [MarkText：用 REA 逆向并重建 HTML 导出](../cases/marktext-html-export.md) — 早期作者报告导出重建17项测试通过、Windows待检查；10月28日另一作者补充REA静态追链与人工核对自述，不是动态验证。 **[REA · 进行中]**
-- [Screen Studio：用 REA 拆解后复刻录屏演示工具](../cases/screen-studio-rebuild.md) — 作者报告用 REA 分析 Screen Studio，并以 Claude Code 复刻、录制演示。 **[REA · 待验证]**
+- [Screen Studio重建：REA使用报告与Dolly截图驱动方案](../cases/screen-studio-rebuild.md) — 早期作者称REA分析后由Claude Code复刻；新增Dolly方案从截图重建自动缩放录屏器，但测试占位符与付费规格不能当完成证明。 **[REA · 待验证]**
 - [Claude Desktop：用 REA 观察界面细节](../cases/claude-desktop-ui-details.md) — REA 界面研究从作者观察延伸到公开 Open Claude UI 文档；组件与动效的保真度、新版适用性未独立测试。 **[REA · 分析测试]**
 - [Typeless：用 REA 做本地语音输入替代品](../cases/rea-typeless-local.md) — 作者报告用 REA 分析 Typeless，并完成离线运行的 Swift 语音输入应用。 **[REA · 待验证]**
 - [Eleven：让 Agent 协助分析应用与二进制](../cases/eleven-agent-reverse-engineering.md) — 作者介绍一款开源逆向工具，可查看多平台二进制并让 Agent 协助理解代码。 **[未确认使用 REA · 待验证]**
