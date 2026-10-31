@@ -2,10 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
-- [云照片迁至Immich：codila介绍Claude辅助复用iCloud与Google Photos私有请求](../cases/codila-claude-cloud-photo-immich-migration.md) — codila称Claude可部署Immich／Tailscale并借云相册私有请求导出照片、核对文件数量；是自托管迁移工作流，不是完整重建iCloud或Google Photos。 **[其他 AI 逆向 · 待验证]**
+- [网站54组证据验收：小金鱼-箱子称用REA研究参考站并复验上线结果](../cases/zi-xiang-rea-website-54-evidence-acceptance.md) — 作者报告参考站截图与布局清单，再为自有站生成9页面、3视口、明暗主题共54组证据，比较改前改后与部署结果；站点、JSON和分数卡未公开。 **[REA · 分析测试]**
+- [reanimate：Claude Code逐帧记录、重建与比较网页动画的公开skill](../cases/reanimate-claude-animation-record-rebuild-compare.md) — 技能榜介绍reanimate；固定README公开Stripe等动画重建、时序与像素比较流程和项目测量，保留五轮后未匹配项、随机粒子与登录页限制；未在本合集运行。 **[其他 AI 逆向 · 分析测试]**
+- [OpenBOT × Grok Bot：桌面助手净室对标仍停在未登录旁路盘点](../cases/openbot-grokbot-cleanroom-workbench-observation.md) — 署名龙彪的报告记录自研助手对标另一工作台，只完成约16屏未登录草稿；侧栏、agents、computers和skills尚未录完，不装REA，也未进入大规模实现。 **[其他 AI 逆向 · 进行中]**
+- [ChatGPT URL加载代码：引用Agent用REA检验内部scheme假设的调查](../cases/chatgpt-rea-url-loading-internal-scheme-hypothesis.md) — Aedmar引用Agent称要用REA检查ChatGPT已发布URL加载代码，不接触受保护在线UI；没有平台、版本、scheme内容、分析输出或最终结论。 **[REA · 进行中]**
+- [Homecloud云照片迁至Immich：Claude串联私有请求与外盘存储](../cases/codila-claude-cloud-photo-immich-migration.md) — codila再介绍Claude云照片迁移；ElioEx补充Homecloud外盘入口，固定公开README和提交确认路线、上游复用、空间与账号风险，但未运行导出或证明无损。 **[其他 AI 逆向 · 待验证]**
 - [Grokius Terminal：Ryan转述GrokBot辅助构建Pump App式手机交易终端](../cases/grokius-grokbot-pump-style-terminal-report.md) — Ryan称Explosive用GrokBot逆向重建Pump App式meme币终端，列出五Agent分工与512钱包跟踪；仅营销转述，没有源码、交易验收或收益证据。 **[其他 AI 逆向 · 待验证]**
-- [Reverse Lab：PixelRainbow以leanrea分诊与路由减少先全面反编译的工作流](../cases/reverse-lab-leanrea-triage-bot.md) — PixelRainbow介绍先做批量shell清点、按目标选工具、最后才升级GhidraMCP的逆向bot，注明借鉴leanrea；没有公开目标对照或token节省测量。 **[其他 AI 逆向 · 相关项目]**
-- [Clean Room：PixelRainbow以REA输出行为规格与隔离会话重建提示的bot](../cases/clean-room-rea-behavior-spec-prompt-bot.md) — 作者介绍REA驱动的Clean Room：带证据行为SPEC、怀疑式裁判、人工签准及给新会话的PROMPT；明确不运行构建，没有重建等价或隔离有效性验证。 **[REA · 相关项目]**
+- [Reverse Lab：PixelRainbow以leanrea分诊与路由减少先全面反编译的工作流](../cases/reverse-lab-leanrea-triage-bot.md) — PixelRainbow的Grokbot模板先shell分诊、按目标路由，再升级lauriewired的GhidraMCP；注明leanrea上游，未给token节省测量。 **[其他 AI 逆向 · 相关项目]**
+- [Clean Room：PixelRainbow以REA输出行为规格与隔离会话重建提示的bot](../cases/clean-room-rea-behavior-spec-prompt-bot.md) — REA驱动的行为SPEC、怀疑式裁判、人工签准及新会话PROMPT交接bot；作者补称即使Ultra仍缺Grokbot token，不运行构建，也无等价或隔离验证。 **[REA · 相关项目]**
 - [SAP：读者提出用REA逆向企业软件的愿望](../cases/sap-rea-reverse-engineering-wish.md) — 作者问还要多久才有人逆向SAP，并附REA标签；具体到企业软件产品家族，但没有模块、版本、方案或已启动证据。 **[REA · 待验证]**
 - [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](../cases/rea-electron-hidden-network-call-blind-test.md) — 作者称未告知REA自建Electron应用结构，仍识别一窗口、一preload、三桥函数、三私有通道及一隐藏网络调用；30秒和全部命中均未独立重跑。 **[REA · 分析测试]**
 - [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](../cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
@@ -84,7 +88,7 @@
 - [NVDA交易架构：REA提规则、Claude写状态引擎、Grok调度的未验证自述](../cases/robinhood-nvda-rea-regime-engine-report.md) — 作者称自动化Robinhood交易，以REA提取既有工具规则并接Claude/Grok；没有具名规则源、代码、成交记录或收益测量。 **[REA · 待验证]**
 - [Flash 5重建：Lynn Cole从REA与界面观察转向旧手册驱动的WASM项目](../cases/flash5-wasm-zig-bun-reconstruction-report.md) — Lynn Cole称REA与Codex界面探索未得到满意结果，转用旧Flash手册和教程指导WASM/Zig/Bun重建；三周后报告补间、影片编译与工作区进度。 **[REA · 进行中]**
 - [网络风险SaaS设计系统：用Claude从现有产品恢复规范，以原型交接前端](../cases/cyber-risk-saas-claude-design-system-prototype.md) — 作者回忆为缺设计资源的客户用Claude恢复设计系统，再与设计负责人校验，以可交互原型而非Figma交接。 **[其他 AI 逆向 · 待验证]**
-- [Higgsfield Katana：作者称反推制作Claude动效Skill，依赖Scenario配乐音效](../cases/higgsfield-katana-claude-motion-skill.md) — 作者称用Claude动效Skill替代Katana，文字描述产品后编排与卡点，Scenario负责音乐音效并输出4K；未核验下载或等价性。 **[其他 AI 逆向 · 待验证]**
+- [Higgsfield Katana：作者称反推制作Claude动效Skill，依赖Scenario配乐音效](../cases/higgsfield-katana-claude-motion-skill.md) — Katana替代Skill称可从产品描述制作卡点动效与4K输出；新转述称Scenario Kinetic Film、本地渲染而音频扣积分，官方归属、额度和功能均未核验。 **[其他 AI 逆向 · 待验证]**
 - [8Bit的Solana与REA机器人：Pump/Core研究、v.30及移动端宣称](../cases/8bit-rea-solana-decompiler-research.md) — 8Bit在Pump反汇编与Core本地测试后称REA @bot更新v.30，并宣称研究FOMO/Pump移动端；没有公开日志确认入侵、发布或整链重建。 **[REA · 进行中]**
 - [Rayon：用REA为Windows重做Raycast式启动器，尚待整日使用检验](../cases/rayon-windows-raycast-rea-report.md) — 法语作者称用REA制作Windows启动器Rayon，带命令面板、AI和小工具，先供自己与团队用；明确还没做完整一天对照。 **[REA · 进行中]**
 - [苹果官网本地重建：作者称REA配Antigravity复刻外观](../cases/apple-website-rea-antigravity-local-rebuild.md) — 作者称用REA与Google Antigravity研究苹果官网并本地重做；一模一样仅为作者视觉评价，没有交互或功能对照。 **[REA · 待验证]**

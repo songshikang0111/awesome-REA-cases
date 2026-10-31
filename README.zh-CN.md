@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1334 个案例与项目
+# 1344 个案例与项目
 
-**最近案例更新：**2026 年 10 月 31 日 08:09 · **最近维护：**2026 年 10 月 31 日 08:09 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 10 月 31 日 12:11 · **最近维护：**2026 年 10 月 31 日 12:11 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**，从设备互通、实用替代品到游戏保存与声音重建：优先看可检查的实现与明确测试边界，而不是完整重建的宣称。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**，从设备互通、实用替代品到游戏保存、声音与动效重建：优先看可检查的实现与明确测试边界，而不是完整重建的宣称。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[tolpo：Tapo住宅的实时3D视图](cases/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — 转述Claude辅助协议研究，公开**LAN/MCP控制与人工校正户型**。复用python-kasa；较早项目自测覆盖九房间、18设备，不代表所有写操作与型号。设备本地通信不等于AI本地运行。`进行中`
 2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
@@ -33,7 +33,7 @@
 7. **[Claude 写证明，Rocq 检查二进制](cases/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic／Theorem 报告为 **123 库的 239 个入口**建立机器码无崩溃证明。限单线程静态 RISC-V/Linux、小于64MB输入；**不等于整库无 bug**，本合集未独立重跑检查器。`分析测试`
 8. **[Earshot fit：把录音变成可调代码](cases/earshot-fit-recording-to-parametric-code.md)** · `2026-10-30`介绍；`2026-10-22`项目文档 — **将参考声音拟合成Python合成配方**，调整参数、生成新变体，供Agent通过CLI／MCP使用。公开基准同时保留改善与退步；参考片段私有，**0.4没有人工听测**，限制核验。本合集未运行。`分析测试`
 9. **[X战警2：从Genesis到四人PC合作](cases/xmen2-pc-claude-genesis-native-port.md)** · `2026-10-31`报道；`2026-10-28`项目文档 — crabsmack称Claude Code辅助Windows／Linux原生移植，报告**3047个C函数字节匹配**，另117个汇编函数做指令级对照。新增回滚联机与宽屏；四人模式测试较少。须自备ROM，本合集未重跑。`公开实现`
-10. **[PicasaPy：让本地照片工作流继续用](cases/picasapy-ghidra-claude-codex-photo-manager.md)** · `2026-10-28`（北京时间） — Virág Attila用**Ghidra／Claude／Codex辅助Python/Qt重写**，公开研究规格及精确提交的成功CI。共用**.picasa.ini**不等于无冲突同步；项目文档区分静态覆盖与点击测试。未证明全面等价，本合集未运行。`进行中`
+10. **[reanimate：重建动效，再量出差别](cases/reanimate-claude-animation-record-rebuild-compare.md)** · `2026-10-31`盘点；`2026-10-30`项目文档 — 公开**Claude Code录取—规格—实现—比较skill**及Stripe等样例。运动模式容许**80ms时序误差**，精确外观另限**2%平均像素差**；五轮后仍未匹配项照实列出。登录页需录屏，捕获素材仍保留原权利；本合集未重跑。`分析测试`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **277** |
-| [硬件与设备互通](categories/hardware.md) | **360** |
-| [应用与客户端](categories/apps.md) | **557** |
-| [算法与功能重建](categories/algorithms.md) | **140** |
+| [游戏与游戏保存](categories/games.md) | **280** |
+| [硬件与设备互通](categories/hardware.md) | **361** |
+| [应用与客户端](categories/apps.md) | **561** |
+| [算法与功能重建](categories/algorithms.md) | **142** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

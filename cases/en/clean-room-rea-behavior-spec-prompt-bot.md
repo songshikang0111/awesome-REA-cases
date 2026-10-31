@@ -8,13 +8,16 @@ At 05:58:58 Beijing time on October 31, 2026, PixelRainbow (@PixelRainbowNFT) se
 
 The writer says users supply an authorized website, app, APK, binary, capture, file or repository. After interviewing them, the bot drives morluto's REA to trace real action-to-result paths, labels claims Observation/Inference/Unknown with cited Evidence, and writes a behavior-only SPEC.md. A skeptical judge checks each rule, sends weak claims back for research, checks contamination and waits for approval. A rebuilding interview then covers intent, scope, deltas, platform, stack, constraints, acceptance and tests, producing an XML-tagged, reportedly mutation-tested PROMPT.md for a fresh Opus 5.5 session that has not seen the target.
 
-The author explicitly says Clean Room neither ships an app nor runs a build. It is static-first, with per-run permission required for launching or contacting live targets. No bot configuration, complete sample SPEC, mutation-test logs, cross-session isolation verification or behavioral-equivalence result is supplied. Proven contract is promotional wording, not a guarantee of legal safety, no copyright contamination or correct reconstruction. A lookup confirmed attribution and full text. No bot was opened, REA installed, target executed or reconstruction initiated here.
+At 08:49:14 the author says they also made an REA-based Clean Room bot, but never have enough Grokbot tokens to use it even with an Ultra subscription. This is an author-reported practical constraint without token counts, bills or runtime logs. It establishes neither a completed handoff, a specific cost nor unavailability for every subscription.
 
-The two candidate snapshots are 1 like/151 views/0 reposts and 1 like/227 views/0 reposts. The bot was not independently acceptance-tested.
+The author explicitly says Clean Room neither ships an app nor runs a build. It is static-first, with per-run permission required for launching or contacting live targets. No bot configuration, complete sample SPEC, mutation-test logs, cross-session isolation verification or behavioral-equivalence result is supplied. Proven contract is promotional wording, not a guarantee of legal safety, no copyright contamination or correct reconstruction. Lookups confirmed attribution and text. No bot was opened, REA installed, target executed or reconstruction initiated here.
+
+Earlier snapshots: 1 like/151 views/0 reposts and 1 like/227 views/0 reposts. This window's supplementary post: 0 likes/194 views/0 reposts. The bot was not independently acceptance-tested.
 
 ## Sources
 
 - [PixelRainbow separately lists Clean Room in the Reverse Lab post, October 31, 2026 at 05:58:58](https://x.com/i/status/2116288779254198577)
 - [PixelRainbow's Clean Room specification and prompt-handoff post, October 31, 2026 at 06:10:51](https://x.com/i/status/2116291769230926128)
+- [The author reports insufficient Grokbot tokens even on Ultra, October 31, 2026 at 08:49](https://x.com/i/status/2116331630461620246)
 
 [中文](../clean-room-rea-behavior-spec-prompt-bot.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

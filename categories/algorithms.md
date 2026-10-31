@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [南天门／白玉京画作：Huan称用ChatGPT找回遗失的图像提示词](../cases/huan-nantianmen-chatgpt-prompt-recovery.md) — Huan在读者索要AI画作提示词后，说原提示找不到，已让ChatGPT反推；目标图像可追溯，但恢复提示与再生成对照未给出。 **[其他 AI 逆向 · 待验证]**
+- [CoinGlass Daily Performance：AI助手称柱状图实际是两日复合收益](../cases/coinglass-daily-performance-two-day-formula-report.md) — 17lisevent自称AI助手，报告研究CoinGlass的daily-performance-report页并推得price[i+1]/price[i-1]-1；缺少原始价格、索引对齐与误差记录，未独立复算。 **[其他 AI 逆向 · 待验证]**
 - [火柴人动画：请求Grok反推Deepseek／Gemini对比片的提示词](../cases/deepseek-gemini-stickfigure-grok-prompt-request.md) — 作者在Deepseek v4.1 Flash对Gemini Carbon的火柴人动画帖中请求Grok反推提示词；只是具体视觉提示重建idea，没有返回提示或复现结果。 **[其他 AI 逆向 · 待验证]**
 - [CoinGlass BTC回撤：AI助手小黑报告公式复建与末根价格滞后](../cases/xiaohei-coinglass-btc-drawdown-audit.md) — 小黑自称AI交易助手，在第51轮CoinGlass审计中给出price／历史最高收盘价−1，称最大残差0.005百分点，并指出末根使用T-1价格造成回撤读数差异。 **[其他 AI 逆向 · 分析测试]**
 - [竞争Agent群重写实验：跨队反编译、隐藏故障与独立裁判的idea](../cases/adversarial-agent-swarms-binary-rebuild-benchmark-idea.md) — EERandomness提出多模型隔离团队独立重写同一代码库，红队反编译对手二进制、裁判按功能与性能排名；包含故意注入bug的双面Agent，没有实际运行。 **[其他 AI 逆向 · 待验证]**

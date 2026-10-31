@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [矮人要塞：jojonas_xyz用REA研究并尝试引入Agent元素](../cases/dwarf-fortress-rea-agent-elements-experiment.md) — 超级大西瓜称睡前让REA研究矮人要塞并加入Agent元素，早晨得到初步产物，但距拿得出手仍有99%要走；没有公开代码或可玩性验证。 **[REA · 进行中]**
+- [Open RAC：读者推荐AI辅助匹配反编译与瑞奇与叮当原生移植](../cases/open-rac-ai-assisted-port-reader-report.md) — Bouch MillaTre推荐Open RAC为AI辅助移植范例；公开OpenRAC文档说明PS2游戏恢复为C并原生重建，但匹配率、AI贡献比例及全平台可玩性未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [Lost Odyssey：读者在AI游戏移植讨论中给出的vibecoded案例](../cases/lost-odyssey-vibecoded-port-reader-report.md) — Bouch MillaTre把Lost Odyssey列为vibecoded移植例子；仅有游戏名与AI编码归类，未指明具体仓库、版本、平台或验收。 **[其他 AI 逆向 · 待验证]**
 - [KoF All Star：借AI逆向让游戏离线可玩的愿望](../cases/kof-all-star-ai-offline-preservation-idea.md) — 回复BuffGigas的读者希望借AI逆向热潮让KoF All Star离线可玩；只有目标愿望，没有客户端修改、服务端重建或演示。 **[其他 AI 逆向 · 待验证]**
 - [sh4vita：Claude／Codex辅助把《寂静岭4》PC版静态重编译到PS Vita](../cases/sh4vita-silent-hill4-claude-codex-static-port.md) — vallfrr公开Ghidra函数导出、x86转C及vitaGL运行时，项目报告实机从头到尾可玩；限定GOG v5，繁忙场景低于30fps、长局内存不足等问题仍保留。 **[其他 AI 逆向 · 进行中]**
 - [xmen2-pc：Claude Code辅助重建《X战警2》，扩展四人回滚联机](../cases/xmen2-pc-claude-genesis-native-port.md) — crabsmack公开Genesis原生PC移植，称3047个C函数字节匹配、117个汇编函数指令级对照无差异；四人、宽屏与插值高刷是新增功能，测试较少，未独立重跑。 **[其他 AI 逆向 · 进行中]**
