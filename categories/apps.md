@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [停服记账App数据救援：cabbit称REA／Claude导出11年交易，修正时区日期](../cases/cabbit-dead-budget-app-rea-transaction-export.md) — cabbit称研究640MB本地文件与加载函数后导出18406笔交易、1212张收据图，先发现37笔日期错误；App未具名，代码与抽查未公开。 **[REA · 待验证]**
+- [Karpathy的HN精选视频站：Claude辅助重建阅读体验，不是恢复YouTube算法](../cases/karpathy-hn-youtube-claude-curated-feed-report.md) — 第三方称Karpathy用Claude从HN评论筛出6454个视频与150主题，并解释推荐规则；未查原博客或站点，不认定已逆向YouTube后台。 **[其他 AI 逆向 · 相关项目]**
+- [Ju1y的anti-rea：JS局部改名与惰性诱饵，尚无对Agent有效性的基准](../cases/ju1y-anti-rea-javascript-decoy-obfuscator.md) — Ju1y公开实验性JS混淆器，针对REA等Agent改局部标识符、插不可达字符串；文档明确source map可泄露原码、未benchmark阻断效果。 **[REA · 相关项目]**
+- [usereafun：交易手续费资助REA研究Agent的launchpad方案，尚无确认输出](../cases/usereafun-fee-funded-rea-agent-launchpad.md) — Larpcheck Bot称launchpad与一个代币页存在，但Agent尚未运行；项目方提出手续费积累后用云浏览器和REA研究目标、公开发现与生成文件。 **[REA · 进行中]**
+- [SataEric的创作工具：称以REA、T3 Code与Opus自建付费工作流替代](../cases/sataeric-rea-personal-creative-tool-replacement.md) — 设计师SataEric称不再直接购买Higgsfield、Figma Weave等工具，而以REA、T3 Code与Opus 5.5自建；具体功能未披露。 **[REA · 待验证]**
+- [Cursor到Android：swayam称用REA研究IPA后制作APK](../cases/swayam-cursor-ipa-rea-android-apk.md) — swayam称在MumbaiFOSS用REA研究Cursor的IPA并制作Android APK，自评能用但UI粗糙；未取得可核验实现。 **[REA · 待验证]**
 - [Instagram Reels：sujal称Claude研究APK后，用Java把入口弹回信息流](../cases/sujal-instagram-claude-reels-bounce-blocker.md) — 为减少刷Reels，sujal称USB调试提取Instagram APK并让Claude研究，约30行Java实现点Reels返回feed；无root、无修改App是作者说法。 **[其他 AI 逆向 · 待验证]**
 - [mika：黄小木提出Codex研究包名与service改名的未验证建议](../cases/mika-codex-package-service-rename-idea.md) — 黄小木担心mika自动控制微信／小红书会触发风控，建议用Codex研究并换标识；无实施或降低风险的证据。 **[其他 AI 逆向 · 待验证]**
 - [Kensho Momentum仪表盘：Payal建议用REA／Claude Code研究替代](../cases/kensho-momentum-dashboard-rea-claude-idea.md) — Payal Mantry回应付费股票研究仪表盘推广，建议用REA与Claude Code逆向；父帖可识别目标，但没有重建或数据接入结果。 **[REA · 待验证]**
@@ -40,7 +46,7 @@
 - [Reverse Lab：PixelRainbow以leanrea分诊与路由减少先全面反编译的工作流](../cases/reverse-lab-leanrea-triage-bot.md) — PixelRainbow的Grokbot模板先shell分诊、按目标路由，再升级lauriewired的GhidraMCP；注明leanrea上游，未给token节省测量。 **[其他 AI 逆向 · 相关项目]**
 - [Clean Room：PixelRainbow以REA输出行为规格与隔离会话重建提示的bot](../cases/clean-room-rea-behavior-spec-prompt-bot.md) — REA驱动的行为SPEC、怀疑式裁判、人工签准及新会话PROMPT交接bot；作者补称即使Ultra仍缺Grokbot token，不运行构建，也无等价或隔离验证。 **[REA · 相关项目]**
 - [SAP：读者提出用REA逆向企业软件的愿望](../cases/sap-rea-reverse-engineering-wish.md) — 作者问还要多久才有人逆向SAP，并附REA标签；具体到企业软件产品家族，但没有模块、版本、方案或已启动证据。 **[REA · 待验证]**
-- [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](../cases/rea-electron-hidden-network-call-blind-test.md) — 作者称未告知REA自建Electron应用结构，仍识别一窗口、一preload、三桥函数、三私有通道及一隐藏网络调用；30秒和全部命中均未独立重跑。 **[REA · 分析测试]**
+- [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](../cases/rea-electron-hidden-network-call-blind-test.md) — 既有自建Electron样本报告30秒命中结构与隐藏调用；11月2日新帖补充真实100MB应用有漏项，两类说法均未独立重跑。 **[REA · 分析测试]**
 - [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](../cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
 - [Mac听写应用：Chrome转述REA／Hopper先写行为规格再重建](../cases/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome转述三部分教程，以Hopper输出辨识Mac听写应用的热键、录音和本地转写，再按文字规格构建自己的版本；软件名称、源码与等价测试未给出。 **[REA · 待验证]**
 - [浏览器连回Omarchy：Patrick称Grok Bot与Claude研究Google远程桌面](../cases/journeydeck-google-remote-desktop-claude-omarchy.md) — Patrick称只用浏览器与Cloudflare账号连回家中Omarchy电脑；后续承认延迟很差，仅用于Claude、复制粘贴与终端，安全性未验证。 **[其他 AI 逆向 · 待验证]**
@@ -165,7 +171,7 @@
 - [Hello Mary的可执行文件调查：AI读程序，人继续做GUI、读报告和改harness](../cases/hellomary-ai-executable-investigation-human-harness.md) — Hello Mary称正在让AI调查一个未具名可执行文件，自己仍负责GUI、阅读分析报告与后续harness调整；是具体进行中分工报告，不是已自动重建完整应用。 **[其他 AI 逆向 · 进行中]**
 - [ReAgent：用Ghidra证据与Reverser／Checker闭环重建C／C++，Gate不是等价证明](../cases/reagent-ghidra-reverser-checker-gated-reconstruction.md) — TechVerser介绍ReAgent双角色AI逆向工具；Dryxio/reagent固定README确认Ghidra证据、候选叠加层、构建测试及parity策略，并明确这些是保守检查，不证明语义或二进制等价。 **[其他 AI 逆向 · 相关项目]**
 - [Adrian Alvarez的Loom替代品：Claude Code与REA制作录屏和链接分享流程](../cases/ingalvarezsol-loom-claude-rea-screen-sharing-rebuild.md) — Adrian Alvarez称在酒吧语音要求Jarvis克隆Loom，用Claude Code和REA制作，回家时已可录屏和分享链接；只明确两项基础用途，未提供源码、部署或完整功能对照。 **[REA · 待验证]**
-- [SRE-Bench：Artificial Analysis介绍Pasta Lab的AI逆向评测与联盟合作](../cases/pasta-lab-sre-bench-cyber-index-alliance.md) — Artificial Analysis官方称Pasta Lab开发了评估AI逆向能力的SRE-Bench，并加入Cyber Index Alliance；是具名评测项目与合作公告，不是新模型逆向得分或真实样本成功报告。 **[其他 AI 逆向 · 相关项目]**
+- [SRE-Bench：从联盟公告到执行评测，四次有正确候选不等于会选对](../cases/pasta-lab-sre-bench-cyber-index-alliance.md) — 既有Pasta Lab联盟公告新增论文解读：19个私有程序形成262变体、1572任务；无护栏无预算内部GPT-6-Astra报告88.0%／99.2%，未测无判分器选正确答案的能力。 **[其他 AI 逆向 · 相关项目]**
 - [Jupiter质押：ramezrko称与AI逆向合约指令后追回被盗钱包的锁仓JUP](../cases/ramezrko-jupiter-contract-instruction-ai-investigation.md) — ramezrko称与AI研究Jupiter质押合约指令、ToggleMaxLock与原子批处理，重设解锁时间并将全部JUP移至新钱包；同串有程序地址，但无交易签名或代码，不独立确认资金追回。 **[其他 AI 逆向 · 待验证]**
 - [IDA 9.5：Hex-Rays发布含MCP／Assist与调用图递归反编译的版本](../cases/hexrays-ida95-official-mcp-assist-release.md) — Hex-Rays官方发布帖介绍IDA 9.5的MCP／Assist AI逆向入口、调用图递归反编译及三种新反编译器；是工具发布，不是特定样本上的AI成功率验证。 **[其他 AI 逆向 · 相关项目]**
 - [Jianying Headless：鲸鱼知识库转述逸尘逆向剪映供AI无界面剪辑](../cases/gengdaj-jianying-headless-ai-editing-secondary-report.md) — 鲸鱼知识库将Jianying Headless归于逸尘（gengdaJ），称逆向剪映后让AI无需打开界面即可剪辑导出；未取得原仓库、实现或导出测试，不与余温封装及ReaCut合并。 **[未确认使用 REA · 待验证]**
@@ -214,7 +220,7 @@
 - [Addy的递归自学习REA skill：持续构建工具的作者自述](../cases/addy-recursive-self-learning-rea-skill.md) — Addy再介绍REA衍生skill，链接确认Speedrunlab公开项目；文档定义书面功能清单、连续两次验收与预算/停滞停止规则，自学习是待人工批准的经验记录，不是权重训练。未运行。 **[REA · 相关项目]**
 - [Chess.com可视化复盘：Tjay报告Claude重建分析并接本地Qwen](../cases/tjay-chesscom-local-qwen-visual-review.md) — Tjay称研究Chess.com复盘引擎，用Claude与本地量化Qwen实现棋盘上的走法解释和历史对局同步；宣称Mac、Windows及浏览器可用，开源仍为承诺。 **[其他 AI 逆向 · 待验证]**
 - [STICH FAIXI SiX：AdyLovelace用REA与Ghidra制作Tiny Client的自述](../cases/ady-stich-faixi-six-tiny-client.md) — AdyLovelace称用REA、AI Assist与Ghidra为其称为STICH FAIXI SiX的目标制作实验性Tiny Client；未公开代码或可核查功能。 **[REA · 待验证]**
-- [Ablation：由LLM工具循环连接二进制上下文与分析模块的框架](../cases/ablation-tool-ai-reverse-engineering-framework.md) — Ablation以LLM循环组织二进制分析；Dan Kornas新增语义函数搜索、跨会话假设追踪与跨目标学习介绍，10月27日固定README可追溯这些文档入口，未运行或认证效果。 **[其他 AI 逆向 · 相关项目]**
+- [Ablation：由LLM工具循环连接二进制上下文与分析模块的框架](../cases/ablation-tool-ai-reverse-engineering-framework.md) — Ablation以LLM循环组织二进制分析，已有语义搜索／假设追踪文档；11月2日Nicholas介绍GUIAI可视调查与共享记忆，未证明节省token或提高分析效果。 **[其他 AI 逆向 · 相关项目]**
 - [Hermes研究REA自身：Charles的本地模型简短报告](../cases/hermes-local-llm-rea-self-analysis.md) — Charles Bonetti称Hermes正在本地LLM上逆向REA仓库；没有模型、分析范围或改动结果。 **[其他 AI 逆向 · 待验证]**
 - [Crawlbot：REA负责竞品研究的多Agent产品流程转述](../cases/west-crawlbot-rea-competitor-workflow.md) — Trog转述west的Crawlbot：Grok找需求，REA研究竞品价格，Opus写产品，其他工具测试、写文案与记忆；未取得实现或验收。 **[REA · 相关项目]**
 - [Grok Bots四角色REA流程：观察、规格、隔离重建与验证的提案](../cases/grok-bots-rea-four-role-cleanroom-proposal.md) — francescofaenzi把四Agent clean-room方法移到Grok Bots共享电脑，加入Team Lead与最多约三轮反馈；未展示具体目标或权限隔离测试。 **[REA · 相关项目]**

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Suprik的Starlink路由器：称Claude发现netcache模块与夜间外传](../cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik称Claude检查自有路由器并发现netcache、夜间3.4GB外传，随后隔离重置；未给固件、样本或流量证据，不能证明所述窃取机制。 **[其他 AI 逆向 · 待验证]**
+- [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](../cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
+- [M8 Orange的显卡：称Codex以REA研究其他型号，再移植到Windows自有卡](../cases/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — M8 Orange在显卡unlock讨论中报告Codex／REA跨型号与Windows移植成功；未说自己的型号、解锁内容或测试。 **[REA · 待验证]**
 - [车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关](../cases/car-infotainment-rea-trim-feature-switch-idea.md) — Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。 **[REA · 待验证]**
 - [gm365的闲置Kindle：称CodeBuddy／DeepSeek辅助越狱后装微信读书](../cases/gm365-kindle-deepseek-weread-jailbreak.md) — gm365把闲置Kindle越狱、安装微信读书列入DeepSeek V4.1 Flash硬件折腾成果；未给型号、固件或安装路线。 **[其他 AI 逆向 · 待验证]**
 - [小米温度计3：gm365称DeepSeek辅助刷固件，改作Claude额度显示器](../cases/gm365-xiaomi-thermometer3-claude-quota-firmware.md) — gm365称用CodeBuddy中的DeepSeek V4.1 Flash折腾小米温度计3，刷固件显示Claude剩余订阅额度；没有固件或额度数据链路。 **[其他 AI 逆向 · 待验证]**

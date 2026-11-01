@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1441 个案例与项目
+# 1454 个案例与项目
 
-**最近案例更新：**2026 年 11 月 2 日 00:14 · **最近维护：**2026 年 11 月 2 日 00:14 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 2 日 04:11 · **最近维护：**2026 年 11 月 2 日 04:11 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -33,7 +33,7 @@
 7. **[RETROGRADE：测Agent究竟理解了什么](cases/retrograde-generated-reverse-engineering-agent-benchmark.md)** · `2026-11-01` — celeste提出**即时生成程序、按执行行为评分**，主张附带置信度和证据地址。报告15工作负载、四语言、六ISA；示例分数解释方法，不是模型排行榜。Round0结果待发布，本合集未运行。`进行中`
 8. **[Claude 写证明，Rocq 检查二进制](cases/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic／Theorem 报告为 **123 库的 239 个入口**建立机器码无崩溃证明。限单线程静态 RISC-V/Linux、小于64MB输入；**不等于整库无 bug**，本合集未独立重跑检查器。`分析测试`
 9. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
-10. **[X战警2：从Genesis到四人PC合作](cases/xmen2-pc-claude-genesis-native-port.md)** · `2026-10-31`报道；`2026-10-28`项目文档 — crabsmack称Claude Code辅助Windows／Linux原生移植，报告**3047个C函数字节匹配**，另117个汇编函数做指令级对照。新增回滚联机与宽屏；四人模式测试较少。须自备ROM，本合集未重跑。`公开实现`
+10. **[PE2PC：不用主机模拟器玩寄生前夜II](cases/parasite-eve2-pe2pc-claude-native-port.md)** · `2026-11-02`报道；`2026-11-01`项目记录 — Snaity明确Claude Code分工，建立在**GabeRealB既有反编译**上，以C／Rust实现PC运行时并人工游玩测试。双盘支持为项目自报；**60fps呈现仍是30fps游戏逻辑**。Mod实验性，须自备美版双盘，本合集未重建。`进行中`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **313** |
-| [硬件与设备互通](categories/hardware.md) | **383** |
-| [应用与客户端](categories/apps.md) | **590** |
-| [算法与功能重建](categories/algorithms.md) | **155** |
+| [游戏与游戏保存](categories/games.md) | **315** |
+| [硬件与设备互通](categories/hardware.md) | **386** |
+| [应用与客户端](categories/apps.md) | **596** |
+| [算法与功能重建](categories/algorithms.md) | **157** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

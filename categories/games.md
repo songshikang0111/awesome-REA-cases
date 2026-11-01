@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [PE2PC：Snaity以Claude辅助把寄生前夜II既有反编译移植到Windows](../cases/parasite-eve2-pe2pc-claude-native-port.md) — 公开项目在GabeRealB等人的反编译C代码上构建原生Windows移植，明确Claude Code与人类审阅测试分工；60fps是30fps逻辑间插帧，非逻辑翻倍。 **[其他 AI 逆向 · 进行中]**
+- [波斯王子时之砂：Zer0Z建议Claude反编译原作，再雇Mod作者更新模型](../cases/prince-persia-sands-time-claude-decompile-remodel-idea.md) — 回应玩家资助已取消重制的报道，Zer0Z建议将资金用于Claude反编译原作与模型更新；无实施结果。 **[其他 AI 逆向 · 待验证]**
 - [Pokémon Bank／Mover：Wokann公开Codex辅助离线补丁，不支持HOME传输](../cases/wokann-pokemon-bank-mover-codex-offline-patch.md) — 评论者提到Codex辅助；固定项目README明确AI参与反编译分析、补丁设计、编码和审阅，以3DS本地假服务器保留Bank／Mover流程，非官方服务器完整复刻。 **[其他 AI 逆向 · 进行中]**
 - [Windows弹球到RG35XX：Mr. Matt称Claude基于既有反编译做掌机移植](../cases/mr-matt-windows-pinball-claude-rg35xx-port.md) — Mr. Matt为随身玩童年Windows弹球，让Claude利用开源反编译做Anbernic RG35XX版本；未提供可确认的仓库、构建或性能数据。 **[其他 AI 逆向 · 待验证]**
 - [Persona 1：读者设想借REA重做Persona 5式漫画叙事](../cases/persona1-persona5-manga-rea-remake-idea.md) — 读者想用REA、时间与人工投入，把Persona 1做成Persona 5风格、漫画式叙事的版本；没有启动项目或完成证据。 **[REA · 待验证]**

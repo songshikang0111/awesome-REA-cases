@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1441 cases & projects
+# 1454 cases & projects
 
-**Latest case update:** November 2, 2026, 00:14 · **Last maintained:** November 2, 2026, 00:14 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 2, 2026, 04:11 · **Last maintained:** November 2, 2026, 04:11 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[RETROGRADE: test what an agent actually understands](cases/en/retrograde-generated-reverse-engineering-agent-benchmark.md)** · `2026-11-01` — celeste proposes **freshly generated programs and execution-based scoring**, with confidence and evidence addresses attached to claims. Reports 15 workloads, four languages and six ISAs; example scores illustrate the method, not a model leaderboard. Round 0 results pending; not run here. `In progress`
 8. **[Claude writes proofs; Rocq checks the binaries](cases/en/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic/Theorem report machine-code no-crash proofs for **239 entry points across 123 libraries**. Single-threaded static RISC-V/Linux, inputs below 64MB; **not bug-free whole libraries**, and the checker was not independently rerun here. `Analysis test`
 9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
-10. **[X-Men 2: from Genesis to four-player PC co-op](cases/en/xmen2-pc-claude-genesis-native-port.md)** · `2026-10-31` report; `2026-10-28` project documentation — crabsmack credits Claude Code with a native Windows/Linux port, reporting **3,047 byte-matching C functions** plus instruction-level checks for 117 assembly functions. Adds rollback and widescreen; four-player modes are less tested. Bring your own ROM; not rerun here. `Public implementation`
+10. **[PE2PC: Parasite Eve II without a console emulator](cases/en/parasite-eve2-pe2pc-claude-native-port.md)** · `2026-11-02` report; `2026-11-01` project record — Snaity credits Claude Code and builds on **GabeRealB's existing decompilation**, with a C/Rust PC runtime and human play-testing. Project-reported two-disc support; **60-fps presentation still uses 30-fps game logic**. Experimental mods, your own USA discs, no independent rebuild here. `In progress`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **313** |
-| [Hardware & interoperability](categories/en/hardware.md) | **383** |
-| [Applications & clients](categories/en/apps.md) | **590** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **155** |
+| [Games & preservation](categories/en/games.md) | **315** |
+| [Hardware & interoperability](categories/en/hardware.md) | **386** |
+| [Applications & clients](categories/en/apps.md) | **596** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **157** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 
