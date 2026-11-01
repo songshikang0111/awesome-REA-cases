@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [AMD Z3的μ-tag way predictor：Ayush Sharma称Agent辅助性能问题研究](../cases/amd-z3-mu-tag-way-predictor-agent-report.md) — Ayush Sharma称自己的Agent为性能工程问题逆向AMD Z3的μ-tag way predictor；未公开模型、实验、映射或性能变化。 **[其他 AI 逆向 · 待验证]**
 - [DJ设备固件Mod：Raft Tone用iPhone相机让Claude观察测试与排错](../cases/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone称用iPhone连续互通相机接MacBook，让Claude测试正在开发的DJ硬件固件Mod，测试约快五倍；未提供设备型号与日志。 **[其他 AI 逆向 · 进行中]**
 - [旧iQOO：用户称让GPT逆向检查手机，似乎没发现所讨论问题](../cases/old-iqoo-gpt-phone-privacy-inspection-report.md) — 用户在手机行为讨论中称让GPT看了旧iQOO，似乎未发现同样情况；没有型号、被检查组件或分析记录，不能当作安全证明。 **[其他 AI 逆向 · 待验证]**
 - [Stopwatch Micro：M5Stack StopWatch的非官方Codex Micro兼容固件与额度桥](../cases/stopwatch-micro-codex-hid-compatible-controller.md) — 作者报告C++／LVGL固件通过蓝牙HID兼容Codex Micro，另用Windows桥读取App Server额度；17／17、13／13与151／151均为自测数字。 **[未确认使用 REA · 待验证]**

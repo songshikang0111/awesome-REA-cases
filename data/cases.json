@@ -1,5 +1,118 @@
 [
   {
+    "id": "exoframe-nova-local-rea-orchestration-design",
+    "title": "Exoframe／Nova：编排REA与可替换语义助手的本地优先设计",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。",
+    "description": "2026年11月1日12:40:45（北京时间），Nova the Optimal AI（@novaoptimalAI）回复Sam，介绍Exoframe设计中的职责划分：Nova负责指导工作并调用REA等工具，小型语义助手处理有界决策，REA位于下层负责应用分析和逆向。Exoframe希望在一个Nova环境里协调上下文、执行、持续工作和恢复。\n\n作者称Laya是本地优先的助手选项，Jev是可选的托管替代，后续设计将两者都保持可替换、可不用，普通工作不应依赖任一助手。帖子明确完整本地循环仍需集成和测试；没有目标应用、仓库、调用日志或验收结果。不推断所有模型本地运行、已实现自动恢复或已完成某个逆向任务。本合集补查原帖确认署名，未安装或运行该设计。",
+    "sources": [{"label": "Nova介绍Exoframe／REA分工与待集成边界，2026-11-01", "url": "https://x.com/i/status/2116752277654442222"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、9浏览、0转发；设计与待集成状态为作者自述。"],
+    "en": {
+      "title": "Exoframe/Nova: a local-first design orchestrating REA and replaceable semantic helpers",
+      "summary": "The Nova account describes Exoframe coordinating context, tool execution, ongoing work and recovery, with REA handling app analysis. The complete local loop still needs integration and testing.",
+      "description": "At 12:40:45 Beijing time on November 1, 2026, Nova the Optimal AI (@novaoptimalAI) replies to Sam with the division of labor in the Exoframe design. Nova directs work and calls tools such as REA; a smaller semantic helper can handle bounded decisions, while REA sits underneath for app analysis and reverse engineering. Exoframe aims to coordinate context, execution, ongoing work and recovery in one Nova environment.\n\nThe author names Laya as the local-first helper and Jev as an optional hosted alternative. A later refinement makes both replaceable and optional so ordinary work need not depend on either. The post explicitly says the complete local loop still needs integration and testing. No target app, repository, invocation logs or acceptance results are supplied. This does not establish that every model runs locally, automatic recovery works or a reverse-engineering task has been completed. Original-post lookup confirmed attribution; this collection did not install or run the design.",
+      "metadata": ["Candidate snapshot: 0 likes, 9 views, 0 reposts. Design and pending integration are author reports."],
+      "source_labels": ["Nova describes Exoframe/REA roles and pending integration, November 1, 2026"]
+    }
+  },
+  {
+    "id": "rea-gaze-voice-software-improvement-idea",
+    "title": "注视加语音改软件：UltimApe提出REA辅助交互idea",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "UltimApe设想接通视线检测后，由AI定位自己正在看的软件，再按口述添加改进；尚无实现或测试。",
+    "description": "2026年11月1日12:52:17（北京时间），UltimApe（@ultimape）在引用帖中提出，借助REA，软件可以成为按需修改的对象；等视线检测上线后，自己只需说出改进，AI就能判断正在看什么并自动添加。具体想解决的是口头需求与屏幕中目标软件的定位、修改之间的衔接。\n\n“等视线检测上线”是未来条件，不是已实现眼动输入。帖子没有指定应用、操作系统、视线硬件、修改机制、代码或成功率，也没有证明能修改任意软件。保留为交互工作流idea，不推成现成产品、无障碍方案或自动补丁系统；补查确认署名，本合集未测试。",
+    "sources": [{"label": "UltimApe的REA、视线与语音改进设想，2026-11-01", "url": "https://x.com/i/status/2116755182637703400"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照1赞、234浏览、0转发；视线检测与自动修改均未展示。"],
+    "en": {
+      "title": "Gaze and voice to change software: UltimApe's REA-assisted interaction idea",
+      "summary": "UltimApe imagines enabling gaze detection so AI can identify the software being viewed and add spoken improvements. No implementation or test is shown.",
+      "description": "At 12:52:17 Beijing time on November 1, 2026, UltimApe (@ultimape) proposes in a quote post that REA could make software an object of on-demand modification. Once gaze detection is online, the author imagines speaking improvements and having AI identify what they are looking at and automatically add them. The concrete interaction problem is connecting a spoken request to the software target on screen and its modification.\n\nOnce gaze detection is online is a future condition, not a working eye-tracking input. No app, operating system, gaze hardware, modification mechanism, code or success rate is specified, and arbitrary-software modification is not demonstrated. Retained as an interaction-workflow idea, not an available product, accessibility solution or automatic patch system. Lookup confirmed attribution; this collection did not test it.",
+      "metadata": ["Candidate snapshot: 1 like, 234 views, 0 reposts. Neither gaze detection nor automatic modification is demonstrated."],
+      "source_labels": ["UltimApe's REA, gaze and spoken-improvement idea, November 1, 2026"]
+    }
+  },
+  {
+    "id": "persona1-persona5-manga-rea-remake-idea",
+    "title": "Persona 1：读者设想借REA重做Persona 5式漫画叙事",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "读者想用REA、时间与人工投入，把Persona 1做成Persona 5风格、漫画式叙事的版本；没有启动项目或完成证据。",
+    "description": "2026年11月1日13:14:23（北京时间），一名读者回复@nazran_ramlee，在讨论作品是否由AI生成时提出：如果有REA以及足够投入与时间，能否得到Persona 5风格、以漫画方式讲故事的Persona 1。Persona是游戏系列，此处目标是改变第一作的表现与叙事方式，而不是泛指让AI制作任意游戏。\n\n帖子以疑问表达愿望，末尾还带Tatsuya预购奖励的讽刺玩笑，不能视为官方企划或已有预购。没有平台、原作版本、模型、逆向步骤、代码或演示；不声称作者已经开始重制或解决资源与授权问题。本合集未获取游戏文件或运行实现。",
+    "sources": [{"label": "Persona 1漫画叙事／REA重制设想，2026-11-01", "url": "https://x.com/i/status/2116760745702457379"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照1赞、120浏览、0转发；具体愿望，不是完成报告。"],
+    "en": {
+      "title": "Persona 1: a reader imagines a REA-assisted remake with Persona 5 styling and manga storytelling",
+      "summary": "A reader wonders whether REA, time and human effort could produce Persona 1 in a Persona 5 style with manga-like storytelling. No started project or completed result is shown.",
+      "description": "At 13:14:23 Beijing time on November 1, 2026, a reader replies to @nazran_ramlee in a discussion of whether an artwork is AI-generated. They wonder whether REA, enough effort and time could yield a Persona 5-styled Persona 1 with manga-style storytelling. Persona is a game series; the target here is changing the first game's presentation and narrative form, not a generic request for AI to make any game.\n\nThe post expresses a wish as a question and ends with a sarcastic Tatsuya preorder-bonus joke. It is not an official project or an available preorder. No platform, source-game revision, model, reversing procedure, code or demonstration is provided. The author is not assumed to have begun a remake or resolved asset and permission questions. This collection did not acquire game files or run an implementation.",
+      "metadata": ["Candidate snapshot: 1 like, 120 views, 0 reposts. A concrete wish, not a completion report."],
+      "source_labels": ["Persona 1 manga-storytelling and REA remake idea, November 1, 2026"]
+    }
+  },
+
+  {
+    "id": "pilipala-rea-dafeiyu-bugfix-report",
+    "title": "PiliPala：Estelle Lee称大肥鱼加REA修复多个旧bug",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Estelle Lee回复BBLL修复帖，报告自己也用“大肥鱼”与REA修好PiliPala的一批bug；无具体版本或修改记录。",
+    "description": "2026年11月1日14:23:20（北京时间），Estelle Lee（@LeeEstelle8728）回复Tz的BBLL修复报告，称自己用“大肥鱼”配REA把以前那个PiliPala的一堆bug也修好了。这是作者针对另一个客户端的第一人称修复自述，不把BBLL父帖的字节码注入方法或视频错误直接套在PiliPala上。\n\n帖子未给PiliPala版本、发行包或分支、bug清单、分析过程、补丁、仓库、测试日志；“大肥鱼”保留原称，不猜模型或产品身份。无法判断修复范围、是否直接编辑开源代码、是否采用二进制修改或结果是否可重复。按REA辅助已有客户端排错的未核验报告收录，未安装或测试客户端。补查原帖仅确认署名与回复关系。",
+    "sources": [{"label": "Estelle Lee的PiliPala／REA修复自述，2026-11-01", "url": "https://x.com/i/status/2116778093713015237"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、91浏览、0转发；未披露bug数量或模型身份。"],
+    "en": {
+      "title": "PiliPala: Estelle Lee reports fixing multiple old bugs with Dafeiyu and REA",
+      "summary": "Replying to a BBLL repair post, Estelle Lee says Dafeiyu and REA also fixed a batch of PiliPala bugs. No revision or change record is supplied.",
+      "description": "At 14:23:20 Beijing time on November 1, 2026, Estelle Lee (@LeeEstelle8728) replies to Tz's BBLL repair report, saying Dafeiyu (大肥鱼) paired with REA fixed a batch of bugs in the older PiliPala client. This is a firsthand repair claim about a different client. The parent BBLL post's bytecode-injection method or video-opening error is not imported into PiliPala.\n\nNo PiliPala revision, package or fork, bug list, analysis procedure, patch, repository or test logs are provided. Dafeiyu is retained as the supplied name without guessing its model or product identity. Repair scope, direct editing of open-source code versus binary modification, and reproducibility remain unknown. Retained as an unverified report of REA-assisted debugging of an existing client; no client was installed or tested. Original-post lookup confirmed only attribution and the reply relationship.",
+      "metadata": ["Candidate snapshot: 0 likes, 91 views, 0 reposts. Neither a bug count nor model identity is disclosed."],
+      "source_labels": ["Estelle Lee's PiliPala/REA repair account, November 1, 2026"]
+    }
+  },
+  {
+    "id": "douyin-ai-dylib-wrapper-uiscene-adaptation",
+    "title": "抖音UIScene适配：Ethan Wang称AI把二进制改为dylib后由Wrapper加载",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Ethan Wang描述IPA脱壳、Wrapper加载与Hook，称让AI把抖音二进制改作dylib，再将Window挂到Wrapper的UIScene完成基础适配。",
+    "description": "2026年11月1日15:06:37（北京时间），Ethan Wang（@wsvn53）回复@Amoyzzy，描述对抖音iOS应用做基础适配：先取得脱壳IPA，通过Wrapper应用加载并Hook修改，让AI将抖音二进制变成dylib，再由Wrapper自己使用UIScene，把抖音Window挂在该场景上。UIScene在这里是Apple应用窗口／场景管理接口，dylib是动态库。\n\n作者说这样解决了基础适配，但没有交代目标设备、操作系统、抖音版本、AI模型、转换代码、Hook点、签名方式或测试矩阵。不从UIScene推断特定新平台支持，也不把窗口加载等同登录、播放和全部功能正常。没有说明REA；本合集只补查署名与原文，未脱壳、获取IPA、执行Hook、重签名或运行目标。",
+    "sources": [{"label": "Ethan Wang的抖音dylib／Wrapper／UIScene适配说明，2026-11-01", "url": "https://x.com/i/status/2116788987063087287"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、68浏览、0转发；基础适配为作者说法，无代码或功能验收。"],
+    "en": {
+      "title": "Douyin UIScene adaptation: Ethan Wang reports AI converting the binary to a dylib loaded by a wrapper",
+      "summary": "Ethan Wang describes an unpacked IPA, wrapper loading and hooks, with AI converting Douyin's binary to a dylib and its Window attached to the wrapper's UIScene for basic adaptation.",
+      "description": "At 15:06:37 Beijing time on November 1, 2026, Ethan Wang (@wsvn53) replies to @Amoyzzy with a basic adaptation method for the Douyin iOS app. The account describes obtaining an unpacked IPA, loading it through a wrapper app and applying hooks, having AI turn the Douyin binary into a dylib, and having the wrapper use UIScene with Douyin's Window attached to that scene. UIScene is Apple's app window/scene-management interface; a dylib is a dynamic library.\n\nThe author says this solved basic adaptation, but provides no target device, operating system, Douyin revision, AI model, conversion code, hook locations, signing method or test matrix. UIScene is not taken as proof of support for a particular new platform; window loading does not establish working login, playback or every feature. REA is not mentioned. This collection confirmed attribution and wording only; it did not unpack or acquire an IPA, execute hooks, re-sign or run the target.",
+      "metadata": ["Candidate snapshot: 0 likes, 68 views, 0 reposts. Basic adaptation is an author claim without code or functional acceptance tests."],
+      "source_labels": ["Ethan Wang's Douyin dylib/wrapper/UIScene adaptation account, November 1, 2026"]
+    }
+  },
+  {
+    "id": "amd-z3-mu-tag-way-predictor-agent-report",
+    "title": "AMD Z3的μ-tag way predictor：Ayush Sharma称Agent辅助性能问题研究",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Ayush Sharma称自己的Agent为性能工程问题逆向AMD Z3的μ-tag way predictor；未公开模型、实验、映射或性能变化。",
+    "description": "2026年11月1日15:17:28（北京时间），Ayush Sharma（@__ayushsharma）称自己的Agent为一个性能工程问题逆向了“μ-tag way predictor for AMD Z3”。这里按原文保留Z3，不擅自补成某个具体CPU型号或修订。μ-tag与way predictor涉及缓存路预测这一类微架构行为，但帖子没有解释研究得到的具体函数、地址关系或预测规则。\n\n目标和性能排错动机明确，但没有模型、REA、代码、输入样本、硬件计数器、测量方法、对照实验或性能改善数字。不能把一句完成自述升级为已验证的完整预测器模型、新漏洞或新发现，也不能确认是否复现既有公开研究。本合集补查确认署名，未运行微基准或目标代码。",
+    "sources": [{"label": "Ayush Sharma的AMD Z3 μ-tag预测器研究自述，2026-11-01", "url": "https://x.com/i/status/2116791716959359052"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、2浏览、0转发；未给性能结果或可复现材料。"],
+    "en": {
+      "title": "AMD Z3 μ-tag way predictor: Ayush Sharma reports agent-assisted performance research",
+      "summary": "Ayush Sharma says an agent reverse-engineered the AMD Z3 μ-tag way predictor for a performance-engineering problem. Model, experiments, mapping and performance changes are not published.",
+      "description": "At 15:17:28 Beijing time on November 1, 2026, Ayush Sharma (@__ayushsharma) says an agent reverse-engineered the μ-tag way predictor for AMD Z3 for a performance-engineering problem. Z3 is preserved exactly as supplied rather than expanded to a particular CPU model or stepping. The terminology concerns microarchitectural cache-way prediction, but the post does not explain the recovered function, address relationship or prediction rule.\n\nThe target and performance-debugging motivation are concrete, but no model, REA use, code, input samples, hardware counters, measurement method, controlled experiments or performance-improvement figures are given. A one-sentence completion claim is not upgraded to a validated complete predictor model, a new vulnerability or a novel discovery; it is also unclear whether existing public research was reproduced. Lookup confirmed attribution. This collection did not run microbenchmarks or target code.",
+      "metadata": ["Candidate snapshot: 0 likes, 2 views, 0 reposts. No performance results or reproducibility materials are supplied."],
+      "source_labels": ["Ayush Sharma's AMD Z3 μ-tag predictor research account, November 1, 2026"]
+    }
+  },
+  {
+    "id": "rea-growth-lovable-company-timeline-skill-report",
+    "title": "REA-growth：按时间线拆解企业增长的Agent Skill与Lovable成本自述",
+    "category": "algorithms", "rea": "other-ai", "status": "related-project",
+    "summary": "帖子介绍REA-growth按SEO、AI搜索、广告与社交时间线分析企业增长，称Lovable拆解花费0.58美元；不是morluto/rea二进制逆向的验证。",
+    "description": "2026年11月1日15:32:10（北京时间），一篇帖子介绍开源Agent Skill“/REA-growth”：输入公司名称，工具据称整理该公司的增长行动时间线，覆盖SEO、AI搜索、广告和社交，并称完整Lovable分析成本为0.58美元。目标是从可见商业动作反推增长策略，按广义AI辅助模式分析相关项目保留，而不是软件二进制重建案例。\n\n候选没有提供完整Lovable报告、证据账本、执行日志、所用模型、计费组成或可确认的仓库路径。“每一步行动”是宣传用语，不证明完整覆盖、因果归因或公司内部策略已还原；0.58美元只是一轮作者报告，不是普遍运行成本。名称含REA不代表使用morluto/rea，未确认二者技术关系。本合集未安装Skill或运行分析。",
+    "sources": [{"label": "REA-growth企业时间线Skill与Lovable成本介绍，2026-11-01", "url": "https://x.com/i/status/2116795419896487981"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照2赞、87浏览、0转发；0.58美元为帖子自报，未取得完整分析。"],
+    "en": {
+      "title": "REA-growth: an agent skill for company-growth timelines and a reported Lovable analysis cost",
+      "summary": "A post presents REA-growth for analyzing company growth across SEO, AI search, ads and social timelines, claiming a $0.58 Lovable teardown. This is not validation of morluto/rea binary reversing.",
+      "description": "At 15:32:10 Beijing time on November 1, 2026, a post introduces the open-source agent skill /REA-growth. Given a company name, it reportedly maps growth moves over time across SEO, AI search, advertising and social channels, claiming a complete Lovable teardown cost $0.58. Its target is inferring growth strategy from visible business activity. Retained as a related project in broader AI-assisted pattern analysis, not a binary-software reconstruction case.\n\nThe candidate supplies no complete Lovable report, evidence ledger, execution logs, model, billing breakdown or confirmed repository path. Every move is promotional wording, not evidence of exhaustive coverage, causal attribution or recovery of internal company strategy. The $0.58 figure is one reported run, not a general operating cost. REA in the name does not establish use of morluto/rea, and no technical relationship between them is confirmed. This collection did not install the skill or run an analysis.",
+      "metadata": ["Candidate snapshot: 2 likes, 87 views, 0 reposts. The post reports $0.58; the complete analysis was not obtained."],
+      "source_labels": ["REA-growth company-timeline skill and reported Lovable analysis cost, November 1, 2026"]
+    }
+  },
+  {
     "id":"getting-up-ai-widescreen-repair-idea",
     "title":"Getting Up：玩家盼AI逆向修复Steam版宽屏与运行问题",
     "category":"games", "rea":"unknown", "status":"unverified",
@@ -131,13 +244,19 @@
   },
   {
     "id":"gameframe-legacy-game-agent-reconstruction-skills",
-    "title":"GameFrame：面向人和Agent的旧游戏逆向与重建技能项目介绍",
-    "category":"games", "rea":"other-ai", "status":"related-project",
-    "summary":"双语帖子介绍GameFrame服务旧游戏理解、逆向与重建，但未说明支持的游戏、具体技能、工具实现或运行结果。",
-    "description":"2026年11月1日10:58:41（北京时间），一篇阿拉伯语／英语帖子介绍GameFrame，称其为参与旧游戏逆向与重建的人类和编程Agent提供代码技能，关注遗留系统、游戏逻辑以及可能缺乏文档和维护路径的代码结构。其目的属于软件考古与游戏保存，但正文以用途介绍为主，不是某款游戏完成重建的报告。\n\n没有给支持游戏、指令清单、Agent接口、实现语言、样本或验证记录。公共仓库搜索未取得可确定同一项目的结果，不能把其他同名Unity框架或LED硬件资料嫁接过来。REA未确认，也不猜测已支持自动反编译或等价校验。按相关项目收录，全部功能仍为帖子概述，本合集未安装技能或运行目标。",
-    "sources":[{"label":"GameFrame旧游戏逆向与Agent技能项目介绍，2026-11-01","url":"https://x.com/i/status/2116726591761821933"}],
-    "snapshot_date":"2026-11-01", "metadata":["候选快照0赞、12浏览、0转发；同名项目未擅自合并，未取得实现或测试。"],
-    "en":{"title":"GameFrame: a project introduction for human and agent skills in legacy-game reversing and reconstruction","summary":"An Arabic/English post introduces GameFrame for understanding, reversing and rebuilding old games, without supported games, specific skills, implementation or runtime results.","description":"At 10:58:41 Beijing time on November 1, 2026, an Arabic/English post introduces GameFrame as code skills for humans and programming agents working on legacy-game reverse engineering and reconstruction. It focuses on older systems, game logic and code structures that may lack documentation or maintainable paths. This is software archaeology and preservation as a purpose, not a report of a particular game successfully rebuilt.\n\nNo supported games, command list, agent interface, implementation language, samples or validation records are supplied. Public repository searches did not identify a certain match; unrelated Unity frameworks or LED hardware with similar names must not supply its details. REA is unconfirmed, and automatic decompilation or equivalence checks are not assumed. Retained as a related project: functionality remains a post-level overview, with no skill installation or target execution here.","metadata":["Candidate snapshot: 0 likes, 12 views, 0 reposts. Similarly named projects were not merged; implementation and tests were not obtained."],"source_labels":["GameFrame legacy-game reversing and agent-skills introduction, November 1, 2026"]}
+    "title":"GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界",
+    "category":"games", "rea":"REA", "status":"related-project",
+    "summary":"新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。",
+    "description":"2026年11月1日10:58:41（北京时间），一篇阿拉伯语／英语帖子介绍GameFrame，为人和编程Agent理解、逆向与重建旧游戏提供技能，关注缺乏文档的遗留系统与逻辑。14:30:11的新介绍补充了具体流程：从自己拥有的游戏拷贝出发，依次清点文件、观察运行、反编译、跟踪调用、解析格式、模拟执行、重新实现、验证并合并，称使用Ghidra、Unicorn和REA，每步测试并与原版对照。\n\n新帖列8／16位家用电脑、NES至第七世代主机、Game Boy至Switch掌机、街机，以及id Tech、Build、Unreal、Flash；这些是宣称的框架范围，不是逐平台验收清单。重建版据称共用带启动器、游戏库、设置、渲染器切换、帮助页与事件控制台的外壳。针对90年代末Windows加速卡游戏，介绍还列Glide 2、PowerVR SGL、ATI3DCIF、S3D Toolkit及DirectDraw替身DLL，但明确目前只在Wine下用POD测试过。\n\n安装介绍称把设置提示词交给Claude Code、Codex或Cursor后，Agent先检查环境、安装前询问，再跑Ghidra测试、注册REA并建项目；称代码Apache 2.0、不带游戏文件，游戏本体、提取资源和反编译代码不得提交仓库。另提醒Claude Code的现有游戏复刻限制可能拦截流程；这是报道中的兼容性提醒，不是本合集验证供应商所有政策。\n\n此前公共搜索未找到可确认的同名仓库，本次没有取得固定源码或POD测试记录，故不把其他Unity框架或LED项目嫁接过来，也不把技能步骤等同成功重建游戏。REA归类依据新介绍，不是实际调用日志；本合集未安装技能、获取游戏资产或运行测试。",
+    "sources":[{"label":"GameFrame旧游戏逆向与Agent技能项目介绍，2026-11-01","url":"https://x.com/i/status/2116726591761821933"},{"label":"新增介绍：技能顺序、REA工具链及仅Wine／POD测试边界，2026-11-01 14:30","url":"https://x.com/i/status/2116779819526713673"}],
+    "snapshot_date":"2026-11-01", "metadata":["较早候选0赞、12浏览、0转发；新增候选1赞、221浏览、0转发。","未读固定实现或测试记录；宽平台范围与Apache 2.0均为介绍说法，POD不是全部游戏验收。"],
+    "en":{
+      "title":"GameFrame: a reported REA/Ghidra/Unicorn game-reconstruction skill chain with Wine/POD test limits",
+      "summary":"A new introduction describes an agent skill chain using REA, Ghidra and Unicorn. Replacement DLLs are reported tested only with POD under Wine, not proof of successful reconstruction across all platforms.",
+      "description":"At 10:58:41 Beijing time on November 1, 2026, an Arabic/English post introduces GameFrame skills for humans and programming agents understanding, reversing and rebuilding legacy games, especially undocumented systems and logic. A new introduction at 14:30:11 supplies a concrete sequence: start with an owned game copy, inventory files, observe execution, decompile, trace calls, parse formats, emulate, reimplement, validate and merge. It names Ghidra, Unicorn and REA, claiming tests and comparisons against the original at each step.\n\nThe new post lists 8/16-bit home computers, NES through seventh-generation consoles, Game Boy through Switch handhelds, arcades and id Tech, Build, Unreal and Flash engines. This is a claimed framework scope, not per-platform acceptance results. Rebuilt versions reportedly share a shell containing a launcher, library, settings, renderer switching, help and an event console. For late-1990s Windows accelerator-card games, it also lists replacement DLLs for Glide 2, PowerVR SGL, ATI3DCIF, S3D Toolkit and DirectDraw, explicitly tested so far only with POD under Wine.\n\nThe installation account says a setup prompt given to Claude Code, Codex or Cursor makes the agent inspect the environment, ask before installing anything, run Ghidra tests, register REA and create a project. It claims Apache 2.0 code without game files, requiring the game itself, extracted assets and decompiled code to stay out of the repository. It also warns that Claude Code's restrictions on recreating existing games may interrupt the workflow. This is a reported compatibility warning, not this collection verifying every provider policy.\n\nEarlier public searches did not identify a confirmed same-name repository. No pinned source or POD test record was obtained this round, so unrelated Unity frameworks or LED projects are not merged, and procedural skills are not treated as a successfully rebuilt game. REA classification follows the new introduction, not invocation logs. This collection did not install skills, acquire game assets or run tests.",
+      "metadata":["Earlier candidate: 0 likes, 12 views, 0 reposts. New candidate: 1 like, 221 views, 0 reposts.","No pinned implementation or test records were read. Broad platform scope and Apache 2.0 are introduction-level claims; POD is not acceptance of every game."],
+      "source_labels":["GameFrame legacy-game reversing and agent-skills introduction, November 1, 2026","New introduction: skill sequence, REA toolchain and Wine/POD-only testing, November 1, 2026 at 14:30"]
+    }
   },
   {
     "id":"anyps5-ai-syscall-compatibility-layer-report",
@@ -2089,9 +2208,15 @@
     "category": "apps", "rea": "REA", "status": "analysis-test",
     "summary": "0xMarioNawfal介绍BLA保护发布产物；固定README和公开报告展示部分真实REA分析器预算错误，但不等于LLM端到端失败、实付成本暴涨或所有工具无法逆向。",
     "description": "2026年10月29日15:45:00（北京时间），0xMarioNawfal（@RoundtableSpace）介绍BLA（Blind LLM Agents），称它向发布产物加入诱饵与预算消耗结构，在保持用户功能时让REA分析失败或超预算。补查npm元数据把bla-agents指向qybaihe/bla；这是防御自己软件的相关项目，不是重建某个第三方应用。\n\n阅读仓库固定提交e5a566a3f544f69ef8bbe153e721f1555901578a的README及empirical-rea-validation报告。报告标注2026年10月27日09:56、Asia/Shanghai，Node v24.22.1、tshark 4.4.19，早于候选，只作补证。项目用样本加固前后对照调用真实REA分析路径，报告Go buildinfo超过1MiB、BEAM超过64块、ASAR头部超过16MiB，以及JavaScript语义预算、模型元数据嵌套、SQLite陷阱列与WASM表示预算等受限结果。\n\n报告也保留反例和方法边界：EVM加固后仍status=ok，只接近4MiB输入上限；Flutter采用私有投影逻辑的复刻，状态仍ok；PTX文本未触发预算。ASAR错误说明可通过设置提高默认上限，不能把默认预算失败写成永久不可分析。Ghidra/Hopper、Frida、LLDB/GDB、Rizin、JADX等原生或动态路径未在该环境实测，固件与若干GPU格式被跳过。\n\nREADME把14目标约612.5倍token、292.2倍成本明确列为内部估计，与实际分析器错误不同；14/14运行时等价是项目样本检查，不保证任意软件语义、性能或可维护性。文档v1.4.0是仓库阶段说明，查询到npm latest仍为1.1.0、发布于10月25日，不把它们当同一已发布版本。\n\n这不是云LLM Agent端到端消耗预算、追逐诱饵或完整逆向失败的独立实验证明。固定报告也未给本合集可确认的REA精确修订。本合集未安装BLA、执行目标代码或重跑测试，只静态审读公开项目自述；按对抗REA的分析测试收录，保留公开代码与局限，不保证保护效果。",
-    "sources": [{"label": "0xMarioNawfal介绍BLA及对抗REA结果，2026-10-29", "url": "https://x.com/i/status/2115711483049083166"}, {"label": "补充：BLA固定提交README，区分实测路径、估计与未测能力", "url": "https://github.com/qybaihe/bla/blob/e5a566a3f544f69ef8bbe153e721f1555901578a/README.md"}, {"label": "补充：10月27日项目REA分析器加固前后验证报告，固定提交", "url": "https://github.com/qybaihe/bla/blob/e5a566a3f544f69ef8bbe153e721f1555901578a/docs/redteam/empirical-rea-validation.md"}, {"label": "补充：npm包元数据与10月25日发布记录", "url": "https://registry.npmjs.org/bla-agents"}],
-    "snapshot_date": "2026-10-29", "metadata": ["候选快照10赞、10035浏览、1转发；补查时传播继续变化，不覆盖原快照。", "项目实测是受限样本的分析器路径；token/成本倍数为估计，未独立复跑。", "较早补证：10月27日报告；固定仓库提交时间为2026-10-28T18:09:36Z，非本窗口新发布。"],
-    "en": {"title": "BLA versus REA: public decoy and resource-budget tests, not a guarantee against reversing", "summary": "0xMarioNawfal presents BLA release-artifact protection. A pinned README and public report show some real REA analyzer-budget failures, not end-to-end LLM failure, measured spending multipliers or universal resistance to reverse engineering.", "description": "At 15:45:00 Beijing time on October 29, 2026, 0xMarioNawfal (@RoundtableSpace) presents BLA (Blind LLM Agents), saying it inserts decoys and resource-consuming structures into release artifacts so REA fails or exceeds budgets while user behavior is preserved. Supplementary npm metadata maps bla-agents to qybaihe/bla. This is a related defensive project for one's own software, not reconstruction of a third-party app.\n\nThe repository README and empirical-rea-validation report were read at pinned commit e5a566a3f544f69ef8bbe153e721f1555901578a. The report is dated October 27, 2026, 09:56 Asia/Shanghai, using Node v24.22.1 and tshark 4.4.19, before the candidate and supplementary only. The project compares samples before and after hardening through real REA analysis paths, reporting Go buildinfo beyond 1MiB, BEAM beyond 64 chunks, ASAR headers beyond 16MiB, plus JavaScript semantic budgets, model-metadata nesting, SQLite trap columns and WASM representation limits.\n\nThe report retains counterexamples and method boundaries: hardened EVM remains status=ok and only approaches the 4MiB input cap; Flutter uses a replica of private projection logic and remains ok; PTX text does not hit a budget. The ASAR error explains that settings can raise the default cap, so default rejection is not permanent unanalyzability. Ghidra/Hopper, Frida, LLDB/GDB, Rizin, JADX and other native/dynamic paths were not empirically tested in that environment. Firmware and several GPU formats are skipped.\n\nThe README explicitly labels the 14-target approximately 612.5× token and 292.2× cost figures as internal estimates, distinct from real analyzer errors. Its 14/14 runtime-equivalence result is a project sample check, not a guarantee about arbitrary software semantics, performance or maintainability. Repository documentation stages v1.4.0, while queried npm latest remains 1.1.0, published October 25; they are not treated as the same published revision.\n\nThis does not independently prove a cloud LLM agent spent its budget, followed decoys or failed end-to-end reconstruction. The pinned report also did not provide a REA revision this collection could confirm. No BLA installation, target-code execution or test rerun occurred here; only public project reports were statically read. Included as a counter-REA analysis test with public code and limitations, not a protection guarantee.", "metadata": ["Candidate snapshot: 10 likes, 10,035 views, 1 repost. Engagement continued changing on lookup; original snapshot retained.", "Project measurements cover bounded sample analyzer paths. Token/cost multipliers are estimates, not independently rerun.", "Earlier supplementary evidence: October 27 report; pinned repository commit time 2026-10-28T18:09:36Z, not newly published in this window."], "source_labels": ["0xMarioNawfal introduces BLA and counter-REA results, October 29, 2026", "Supplementary: pinned BLA README separating measured paths, estimates and untested capabilities", "Supplementary: October 27 project before/after REA-analyzer validation report at a pinned commit", "Supplementary: npm metadata and October 25 publication record"]}
+    "sources": [{"label": "0xMarioNawfal介绍BLA及对抗REA结果，2026-10-29", "url": "https://x.com/i/status/2115711483049083166"}, {"label": "补充：BLA固定提交README，区分实测路径、估计与未测能力", "url": "https://github.com/qybaihe/bla/blob/e5a566a3f544f69ef8bbe153e721f1555901578a/README.md"}, {"label": "补充：10月27日项目REA分析器加固前后验证报告，固定提交", "url": "https://github.com/qybaihe/bla/blob/e5a566a3f544f69ef8bbe153e721f1555901578a/docs/redteam/empirical-rea-validation.md"}, {"label": "补充：npm包元数据与10月25日发布记录", "url": "https://registry.npmjs.org/bla-agents"}, {"label": "新增：1.5.2 APK诱饵DEX与1.5.1 Bun修复的版本转述，2026-11-01", "url": "https://x.com/i/status/2116784310317732268"}],
+    "snapshot_date": "2026-11-01", "metadata": ["较早候选快照10赞、10035浏览、1转发；新增候选1赞、457浏览、0转发，不覆盖旧快照。", "项目实测是受限样本的分析器路径；token/成本倍数为估计，未独立复跑。", "较早补证：10月27日报告；固定仓库提交时间为2026-10-28T18:09:36Z，非本窗口新发布。", "11月1日14:48:02的日语报道新增版本信息：GitHub 1.5.2向未签名APK添加外部方法调用的诱饵DEX，JADX实测仍为计划；1.5.1据称修复破坏Bun单体可执行文件的问题，npm仍报1.1.0。这是二手版本说明，未读取该版固定实现或重跑验证，不能把旧1.4.0材料当1.5.2的实测证明。"],
+    "en": {
+      "title": "BLA versus REA: public decoy and resource-budget tests, not a guarantee against reversing",
+      "summary": "0xMarioNawfal presents BLA release-artifact protection. A pinned README and public report show some real REA analyzer-budget failures, not end-to-end LLM failure, measured spending multipliers or universal resistance to reverse engineering.",
+      "description": "At 15:45:00 Beijing time on October 29, 2026, 0xMarioNawfal (@RoundtableSpace) presents BLA (Blind LLM Agents), saying it inserts decoys and resource-consuming structures into release artifacts so REA fails or exceeds budgets while user behavior is preserved. Supplementary npm metadata maps bla-agents to qybaihe/bla. This is a related defensive project for one's own software, not reconstruction of a third-party app.\n\nThe repository README and empirical-rea-validation report were read at pinned commit e5a566a3f544f69ef8bbe153e721f1555901578a. The report is dated October 27, 2026, 09:56 Asia/Shanghai, using Node v24.22.1 and tshark 4.4.19, before the candidate and supplementary only. The project compares samples before and after hardening through real REA analysis paths, reporting Go buildinfo beyond 1MiB, BEAM beyond 64 chunks, ASAR headers beyond 16MiB, plus JavaScript semantic budgets, model-metadata nesting, SQLite trap columns and WASM representation limits.\n\nThe report retains counterexamples and method boundaries: hardened EVM remains status=ok and only approaches the 4MiB input cap; Flutter uses a replica of private projection logic and remains ok; PTX text does not hit a budget. The ASAR error explains that settings can raise the default cap, so default rejection is not permanent unanalyzability. Ghidra/Hopper, Frida, LLDB/GDB, Rizin, JADX and other native/dynamic paths were not empirically tested in that environment. Firmware and several GPU formats are skipped.\n\nThe README explicitly labels the 14-target approximately 612.5× token and 292.2× cost figures as internal estimates, distinct from real analyzer errors. Its 14/14 runtime-equivalence result is a project sample check, not a guarantee about arbitrary software semantics, performance or maintainability. Repository documentation stages v1.4.0, while queried npm latest remains 1.1.0, published October 25; they are not treated as the same published revision.\n\nThis does not independently prove a cloud LLM agent spent its budget, followed decoys or failed end-to-end reconstruction. The pinned report also did not provide a REA revision this collection could confirm. No BLA installation, target-code execution or test rerun occurred here; only public project reports were statically read. Included as a counter-REA analysis test with public code and limitations, not a protection guarantee.",
+      "metadata": ["Earlier candidate snapshot: 10 likes, 10,035 views, 1 repost. New candidate: 1 like, 457 views, 0 reposts; the older snapshot is preserved.", "Project measurements cover bounded sample analyzer paths. Token/cost multipliers are estimates, not independently rerun.", "Earlier supplementary evidence: October 27 report; pinned repository commit time 2026-10-28T18:09:36Z, not newly published in this window.", "A Japanese report at 14:48:02 on November 1 adds version details: GitHub 1.5.2 adds a decoy DEX with external method calls to unsigned APKs, while empirical JADX testing remains planned; 1.5.1 reportedly fixes breakage of Bun standalone executables, and npm is still reported as 1.1.0. These are secondary release descriptions, without reading the pinned implementation or rerunning validation for those revisions. The older 1.4.0 material is not empirical proof for 1.5.2."],
+      "source_labels": ["0xMarioNawfal introduces BLA and counter-REA results, October 29, 2026", "Supplementary: pinned BLA README separating measured paths, estimates and untested capabilities", "Supplementary: October 27 project before/after REA-analyzer validation report at a pinned commit", "Supplementary: npm metadata and October 25 publication record", "New: secondary release account of 1.5.2 APK decoy DEX and 1.5.1 Bun repair, November 1, 2026"]
+    }
   },
   {
     "id": "rustify-rea-binary-to-rust-agent-skills",
@@ -12954,11 +13079,11 @@
   },
   {
     "id": "dx-ball-sound-pan",
-    "title": "DX-Ball：恢复老打砖块游戏的声像算法",
+    "title": "DX-Ball：从声像函数到270个游戏函数匹配，新增原生Windows构建记录",
     "category": "games",
     "rea": "REA",
-    "summary": "恢复并对照验证单个声像函数；10月19日评述另提醒整款游戏构建尚未完成，不能以63字节匹配代表全游戏。",
-    "description": "DX-Ball 是老式打砖块游戏。这个案例不是重做整款游戏，而是恢复音效如何根据屏幕横向位置分配到左右声道。贡献者顺着播放音效的调用找到声像计算函数，结合汇编、常量与调用者补全伪代码，恢复 C 实现。证据记录包含 3,205 组原始 x86 差分测试，以及重编译后完整 63 字节函数匹配；解决的是单个音效算法的准确重建。\n\n10月19日14:10（北京时间）的日语评述进一步强调：REA提供指令、调用者和数据，重实现项目负责构建对照测试，不能把这两层混为一谈。作者引用10月7日进度表称528个Ghidra候选函数包含库函数，不是完成率分母；当时55个函数重写、33个字节匹配，整款可玩游戏尚未构建。这里保留较早日期的第三方进度转述，不把它当10月19日实测或最新进度，也不把能编译等同匹配。\n\n单函数证据不覆盖球的物理、所有碰撞或整款游戏的可玩性。候选中另一段提到Berman与Mario研究，不是DX-Ball的新验证；本合集没有重跑差分或编译目标。",
+    "summary": "Codex通过REA／Ghidra重建DX-Ball 1.07；公开项目报告270个自有游戏函数、84968字节匹配及141单元Windows构建，原版50关全流程仍待测。",
+    "description": "DX-Ball是90年代Windows打砖块游戏。早期REA贡献恢复音效按横向位置分配左右声道的算法：顺着播放调用，结合汇编、常量与调用者恢复C，证据记录包含3205组原始x86差分测试及完整63字节函数的重编译匹配。这是单函数验证，不是当时整款游戏已恢复。\n\n10月19日14:10（北京时间）的日语评述引用10月7日进度：528个Ghidra候选含库函数，不应作为游戏完成率分母；当时55个函数重写、33个匹配，尚无完整可玩构建。这是较早进度的第三方转述，不再代表当前阶段。该评述另谈Berman／Mario，与DX-Ball验证无关。\n\n2026年11月1日12:48:33，拓跋鼠（@qwerty__cs）报道Codex用REA调用Ghidra，以英文DX-Ball 1.07 EXE为参考逐函数重建带类型C／C++，用Visual C++ 4.0编译，对照完整函数并修正类型、控制流与内存布局；比较时把重定位调用和数据引用映射回原地址。报道给出270个非运行库游戏函数、84968字节全部匹配，10月22日完成源码恢复，10月31日增加Windows原生构建。\n\n补读N0zoM1z0/dx-ball固定36856cb0ab246e8727bed5ae9d58bf5ab5a72de7的README和PLAYABILITY_20261031记录，提交时间10月31日18:31:16 UTC，即11月1日02:31:16北京时间，早于本窗口，作为补充资料。项目报告141个C／C++单元编译、53个closure中的270函数匹配；原生重建与10月22日测试程序同为166400字节，仅六个PE／资源时间戳字段的18字节不同，不是与原版EXE整体逐字节相同。仍链接19个原始CRT成员，游戏资源另备；源码MIT不授权分发原版文件。\n\n10月31日报告日期采用Europe/Berlin（UTC+1），不能把目录中的20261101标签当新窗口实验。新Wine／Xvfb测试覆盖基本游玩、编辑器保存重读、cnc-ddraw窗口模式及排行榜重启持久化；Windows 11无重大可玩问题是用户手工反馈，不等于新重建EXE另有启动验收。15分钟到原版第三关、50个自建单砖关卡及立体声结果来自保留的10月22日记录，10月31日未重跑。原版50关通关、全部道具实战、独占模式焦点／表面恢复和完整原生音频／MIDI／帧节奏覆盖仍未验证；窗口wrapper的焦点测试不通过，不能用窗口可玩掩盖。项目另记录有限采样约44.57次计时更新／秒、17ms中位和54ms第95百分位，不是GPU FPS或已修复帧节奏。\n\n旧单函数结论与新全游戏进展按日期并存；这些是项目记录与报道，不是本合集独立复现。本合集只读文档，未获取游戏、编译VC4、重跑差分或游玩。",
     "sources": [
       {
         "label": "案例 PR",
@@ -12971,19 +13096,34 @@
       {
         "label": "10月19日评述：单函数与全游戏验证范围，引用10月7日进度",
         "url": "https://x.com/i/status/2112063745824616946"
+      },
+      {
+        "label": "拓跋鼠报道270函数匹配及原生Windows构建，2026-11-01",
+        "url": "https://x.com/i/status/2116754242870645169"
+      },
+      {
+        "label": "补充：固定README，10月31日18:31:16 UTC提交，早于本窗口",
+        "url": "https://github.com/N0zoM1z0/dx-ball/blob/36856cb0ab246e8727bed5ae9d58bf5ab5a72de7/README.md"
+      },
+      {
+        "label": "补充：10月31日Europe/Berlin构建与窗口游玩报告，固定提交",
+        "url": "https://github.com/N0zoM1z0/dx-ball/blob/36856cb0ab246e8727bed5ae9d58bf5ab5a72de7/docs/research/PLAYABILITY_20261031.md"
       }
     ],
-    "snapshot_date": "2026-10-19",
-    "metadata": [],
+    "snapshot_date": "2026-11-01",
+    "metadata": ["新候选快照0赞、124浏览、0转发；游戏函数分母不含运行库。", "270函数与84968字节为项目匹配结果；原版50关通关等仍待测，未独立重跑。", "补充项目材料早于本窗口；仅18字节时间戳差异的比较对象是10月22日重建测试程序，不是原版EXE。"],
     "en": {
-      "title": "DX-Ball: positional audio function",
-      "summary": "Recover and compare one sound-panning function; October 19 commentary stresses that a 63-byte match does not establish a completed playable game.",
-      "description": "DX-Ball is an older brick-breaking game. This case recovers how sound effects are distributed between left and right audio channels according to horizontal screen position, rather than rebuilding the entire game. A contributor followed sound-playback calls to the panning function and used assembly, constants and callers to complete pseudocode and recover a C implementation. Evidence includes 3,205 differential tests against original x86 code and an exact match of the complete 63-byte function after recompilation. The result is an accurate reconstruction of one sound algorithm.\n\nJapanese commentary posted at 14:10 Beijing time on October 19 further separates REA's instructions, callers and data from the reconstruction project's responsibility for comparison tests. Citing an October 7 progress table, it says 528 Ghidra function candidates include library code and are not a completion-rate denominator; at that time 55 functions were rewritten, 33 byte-matched, and a complete playable game had not been built. These remain third-party reports of dated earlier progress, not October 19 measurements or current progress. A successful build is not treated as a match.\n\nSingle-function evidence does not cover ball physics, every collision or full-game playability. The candidate's separate Berman/Mario discussion is not new DX-Ball verification. This collection did not rerun differential tests or compile the target.",
-      "metadata": [],
+      "title": "DX-Ball: from a panning function to 270 matching game functions and a native Windows build record",
+      "summary": "Codex uses REA/Ghidra to reconstruct DX-Ball 1.07. The public project reports 270 authored game functions, 84,968 matching bytes and a 141-unit Windows build; the original 50-board campaign still needs testing.",
+      "description": "DX-Ball is a 1990s Windows brick-breaking game. An early REA contribution recovered its horizontal-position stereo-panning algorithm by following playback calls and using assembly, constants and callers to reconstruct C. The evidence records 3,205 differential tests against original x86 and recompilation matching the complete 63-byte function. This was one-function validation, not a complete game reconstruction at that time.\n\nJapanese commentary at 14:10 Beijing time on October 19 cites October 7 progress: 528 Ghidra candidates included library code and were not the denominator for game completion; 55 functions were rewritten and 33 matched, with no complete playable build yet. This is a third-party account of earlier progress, no longer the current stage. Its separate Berman/Mario discussion is unrelated to DX-Ball validation.\n\nAt 12:48:33 on November 1, 2026, Tuoba Shu (@qwerty__cs) reports Codex using REA to call Ghidra, reconstructing typed C/C++ function by function from the English DX-Ball 1.07 EXE. Visual C++ 4.0 compilation and complete-function comparison guide corrections to types, control flow and memory layout, mapping relocated calls and data references back to original addresses. The report gives 270 non-runtime game functions and 84,968 matching bytes, with source recovery complete October 22 and native Windows build work added October 31.\n\nSupplementary reading inspected N0zoM1z0/dx-ball's README and PLAYABILITY_20261031 at 36856cb0ab246e8727bed5ae9d58bf5ab5a72de7. Its commit is October 31 at 18:31:16 UTC, or November 1 at 02:31:16 Beijing time, before this window and supplementary only. The project reports 141 compiled C/C++ units and 270 matching functions across 53 closures. The native rebuild and October 22 tested executable are both 166,400 bytes, differing in 18 bytes across six PE/resource timestamp fields. This is not whole-EXE identity with the original retail file. Nineteen original CRT members are still linked and game assets must be supplied separately; MIT source licensing does not authorize redistribution of original files.\n\nThe October 31 report uses Europe/Berlin (UTC+1), so its 20261101 directory labels are not new-window experiments. New Wine/Xvfb checks cover basic play, editor save/reload, cnc-ddraw windowed operation and ranking persistence across restart. Windows 11 play without major problems is scoped manual user feedback, not another launch acceptance test of the newly rebuilt EXE. A fifteen-minute original-bank episode reaching board three, fifty editor-created one-brick boards and stereo results come from the retained October 22 record and were not repeated October 31. The original fifty-board campaign, every power-up in live play, exclusive-mode focus/surface recovery and complete native audio/MIDI/frame-pacing coverage remain unverified. The windowed wrapper fails the exclusive focus fixture; windowed play does not erase that limit. A limited sample records about 44.57 timer updates per second, median 17ms and 95th percentile 54ms, not GPU FPS or a fixed frame-pacing problem.\n\nThe older function-level finding and newer game-wide progress coexist with dates. These are project records and reporting, not this collection's independent reproduction. Only documents were read; no game acquisition, VC4 compilation, differential-test rerun or play occurred here.",
+      "metadata": ["New candidate snapshot: 0 likes, 124 views, 0 reposts. The game-function denominator excludes runtime code.", "270 functions and 84,968 bytes are project matching results. The original fifty-board campaign and other checks remain pending; no independent rerun.", "Supplementary project material predates this window. The 18-byte timestamp-only comparison is against the October 22 reconstructed test executable, not the original EXE."],
       "source_labels": [
         "Case PR",
         "Evidence record",
-        "October 19 commentary: single-function versus full-game verification, citing October 7 progress"
+        "October 19 commentary: single-function versus full-game verification, citing October 7 progress",
+        "Tuoba Shu reports 270 matching functions and a native Windows build, November 1, 2026",
+        "Supplementary: pinned README, commit October 31 at 18:31:16 UTC, before this window",
+        "Supplementary: October 31 Europe/Berlin build and windowed-play report, pinned commit"
       ]
     },
     "status": "case"

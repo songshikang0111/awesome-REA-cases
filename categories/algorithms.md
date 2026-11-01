@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [REA-growth：按时间线拆解企业增长的Agent Skill与Lovable成本自述](../cases/rea-growth-lovable-company-timeline-skill-report.md) — 帖子介绍REA-growth按SEO、AI搜索、广告与社交时间线分析企业增长，称Lovable拆解花费0.58美元；不是morluto/rea二进制逆向的验证。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](../cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](../cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](../cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**

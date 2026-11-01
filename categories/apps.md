@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Exoframe／Nova：编排REA与可替换语义助手的本地优先设计](../cases/exoframe-nova-local-rea-orchestration-design.md) — Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。 **[REA · 进行中]**
+- [注视加语音改软件：UltimApe提出REA辅助交互idea](../cases/rea-gaze-voice-software-improvement-idea.md) — UltimApe设想接通视线检测后，由AI定位自己正在看的软件，再按口述添加改进；尚无实现或测试。 **[REA · 待验证]**
+- [PiliPala：Estelle Lee称大肥鱼加REA修复多个旧bug](../cases/pilipala-rea-dafeiyu-bugfix-report.md) — Estelle Lee回复BBLL修复帖，报告自己也用“大肥鱼”与REA修好PiliPala的一批bug；无具体版本或修改记录。 **[REA · 待验证]**
+- [抖音UIScene适配：Ethan Wang称AI把二进制改为dylib后由Wrapper加载](../cases/douyin-ai-dylib-wrapper-uiscene-adaptation.md) — Ethan Wang描述IPA脱壳、Wrapper加载与Hook，称让AI把抖音二进制改作dylib，再将Window挂到Wrapper的UIScene完成基础适配。 **[其他 AI 逆向 · 待验证]**
 - [KRAKEN：转述面向Agent的原生反编译与逐函数Rust重写校验工作台](../cases/kraken-agent-native-decompiler-rust-validation-workbench.md) — 开源盘点称KRAKEN把原生反编译、CLI／GUI／MCP协作放进同项目，目标是逐函数Rust重写校验；未取得源码或实际校验结果。 **[其他 AI 逆向 · 相关项目]**
 - [Infinite Mac上的BeOS：转述Codex辅助研究屏幕设置文件格式](../cases/infinite-mac-beos-codex-screen-settings-format.md) — 帖子称Infinite Mac经DingusPPC在浏览器运行BeOS，作者用Codex研究屏幕设置格式；未取得原开发文章、格式定义或复现日志。 **[其他 AI 逆向 · 待验证]**
 - [BBLL Android TV：Tz称6.1 sol用字节码注入修复视频打开错误](../cases/bbll-android-tv-gpt61-bytecode-playback-repair.md) — Tz报告让6.1 sol访问电视、研究停更BBLL并修复视频播放入口；未公开App版本、补丁或测试记录。 **[其他 AI 逆向 · 待验证]**

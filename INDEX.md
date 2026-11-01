@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1418 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1425 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（310）
-- [硬件与设备互通](categories/hardware.md)（377）
-- [应用与客户端](categories/apps.md)（580）
-- [算法与功能重建](categories/algorithms.md)（151）
+- [游戏与游戏保存](categories/games.md)（311）
+- [硬件与设备互通](categories/hardware.md)（378）
+- [应用与客户端](categories/apps.md)（584）
+- [算法与功能重建](categories/algorithms.md)（152）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,13 +26,14 @@
 
 ### 游戏与游戏保存
 
+- [Persona 1：读者设想借REA重做Persona 5式漫画叙事](cases/persona1-persona5-manga-rea-remake-idea.md) — 读者想用REA、时间与人工投入，把Persona 1做成Persona 5风格、漫画式叙事的版本；没有启动项目或完成证据。 **[REA · 待验证]**
 - [Getting Up：玩家盼AI逆向修复Steam版宽屏与运行问题](cases/getting-up-ai-widescreen-repair-idea.md) — 玩家提出为Getting Up制作正常运行的宽屏版本，称Steam版即使用Mod仍有问题；没有实施或完成证据。 **[未确认使用 REA · 待验证]**
 - [DX RUST：Deus Ex的Rust／Bevy重实现，公开文档仍待完整通关测试](cases/dx-rust-deus-ex-bevy-ai-reimplementation-report.md) — 报道将DX RUST归于Claude辅助；公开Rust／Bevy项目读取自备Deus Ex文件，声明全游戏已实现，但1.0前仍需完整通关、逐图存档往返与性能测试。 **[其他 AI 逆向 · 进行中]**
 - [D2-Web：人类指导AI重建Diablo II 1.13c浏览器引擎，仍是Act1早期Alpha](cases/d2-web-diablo2-ai-wasm-reimplementation.md) — Virtastic公开C++／Wasm引擎，文档明确大量AI编码、人工指导审查及零售程序研究，非净室；只报告Act1初始内容可运行，须自备游戏文件。 **[其他 AI 逆向 · 进行中]**
 - [MD水浒传：作者称AI辅助逆向ROM并完成童年游戏重制](cases/megadrive-shuihu-ai-rom-remake-report.md) — 作者称刚完成Mega Drive水浒传重制，用AI以新形式重玩童年游戏；未给版本、代码、模型或功能验收。 **[其他 AI 逆向 · 待验证]**
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
-- [GameFrame：面向人和Agent的旧游戏逆向与重建技能项目介绍](cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 双语帖子介绍GameFrame服务旧游戏理解、逆向与重建，但未说明支持的游戏、具体技能、工具实现或运行结果。 **[其他 AI 逆向 · 相关项目]**
+- [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
 - [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — 读者把AnyPS5描述为AI加速系统调用逆向的兼容层，并与Proton作类比；未提供源码、游戏测试或AI分工，不能确认无仿真或已可玩。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
@@ -252,7 +253,7 @@
 - [Firefighter：把老 DOS 游戏恢复成可维护的 Rust 代码](cases/firefighter-rust.md) — 从旧 DOS 二进制恢复 Pascal，再转写为 Rust。 **[其他 AI 逆向]**
 - [《现代战争 2》：用多 Agent 重建游戏代码](cases/mw2-decompilation.md) — 多 Agent 反编译游戏，以原二进制核对恢复函数。 **[其他 AI 逆向]**
 - [Urban Terror：把桌面多人射击游戏移植到浏览器](cases/urban-terror-web.md) — 定位引擎与字节码布局差异，将游戏移植到浏览器。 **[其他 AI 逆向]**
-- [DX-Ball：恢复老打砖块游戏的声像算法](cases/dx-ball-sound-pan.md) — 恢复并对照验证单个声像函数；10月19日评述另提醒整款游戏构建尚未完成，不能以63字节匹配代表全游戏。 **[REA]**
+- [DX-Ball：从声像函数到270个游戏函数匹配，新增原生Windows构建记录](cases/dx-ball-sound-pan.md) — Codex通过REA／Ghidra重建DX-Ball 1.07；公开项目报告270个自有游戏函数、84968字节匹配及141单元Windows构建，原版50关全流程仍待测。 **[REA]**
 - [《东方幻想乡》：恢复环形弹幕的角度计算](cases/th04-bullet-ring.md) — 恢复《东方幻想乡》环形弹幕的角度计算。 **[REA]**
 - [东方系列：用 Agent 重建旧游戏，并迁移到新平台](cases/touhou-reconstruction.md) — 重建东方系列代码并迁移平台；新增浮点常量漏验的历史修复证据。 **[REA]**
 - [Dinosaur：解释网页跑酷游戏如何逐渐加速](cases/dinosaur-speed.md) — 读网页脚本，实验验证跑酷游戏的加速规则。 **[REA]**
@@ -339,6 +340,7 @@
 
 ### 硬件与设备互通
 
+- [AMD Z3的μ-tag way predictor：Ayush Sharma称Agent辅助性能问题研究](cases/amd-z3-mu-tag-way-predictor-agent-report.md) — Ayush Sharma称自己的Agent为性能工程问题逆向AMD Z3的μ-tag way predictor；未公开模型、实验、映射或性能变化。 **[其他 AI 逆向 · 待验证]**
 - [DJ设备固件Mod：Raft Tone用iPhone相机让Claude观察测试与排错](cases/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone称用iPhone连续互通相机接MacBook，让Claude测试正在开发的DJ硬件固件Mod，测试约快五倍；未提供设备型号与日志。 **[其他 AI 逆向 · 进行中]**
 - [旧iQOO：用户称让GPT逆向检查手机，似乎没发现所讨论问题](cases/old-iqoo-gpt-phone-privacy-inspection-report.md) — 用户在手机行为讨论中称让GPT看了旧iQOO，似乎未发现同样情况；没有型号、被检查组件或分析记录，不能当作安全证明。 **[其他 AI 逆向 · 待验证]**
 - [Stopwatch Micro：M5Stack StopWatch的非官方Codex Micro兼容固件与额度桥](cases/stopwatch-micro-codex-hid-compatible-controller.md) — 作者报告C++／LVGL固件通过蓝牙HID兼容Codex Micro，另用Windows桥读取App Server额度；17／17、13／13与151／151均为自测数字。 **[未确认使用 REA · 待验证]**
@@ -719,6 +721,10 @@
 
 ### 应用与客户端
 
+- [Exoframe／Nova：编排REA与可替换语义助手的本地优先设计](cases/exoframe-nova-local-rea-orchestration-design.md) — Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。 **[REA · 进行中]**
+- [注视加语音改软件：UltimApe提出REA辅助交互idea](cases/rea-gaze-voice-software-improvement-idea.md) — UltimApe设想接通视线检测后，由AI定位自己正在看的软件，再按口述添加改进；尚无实现或测试。 **[REA · 待验证]**
+- [PiliPala：Estelle Lee称大肥鱼加REA修复多个旧bug](cases/pilipala-rea-dafeiyu-bugfix-report.md) — Estelle Lee回复BBLL修复帖，报告自己也用“大肥鱼”与REA修好PiliPala的一批bug；无具体版本或修改记录。 **[REA · 待验证]**
+- [抖音UIScene适配：Ethan Wang称AI把二进制改为dylib后由Wrapper加载](cases/douyin-ai-dylib-wrapper-uiscene-adaptation.md) — Ethan Wang描述IPA脱壳、Wrapper加载与Hook，称让AI把抖音二进制改作dylib，再将Window挂到Wrapper的UIScene完成基础适配。 **[其他 AI 逆向 · 待验证]**
 - [KRAKEN：转述面向Agent的原生反编译与逐函数Rust重写校验工作台](cases/kraken-agent-native-decompiler-rust-validation-workbench.md) — 开源盘点称KRAKEN把原生反编译、CLI／GUI／MCP协作放进同项目，目标是逐函数Rust重写校验；未取得源码或实际校验结果。 **[其他 AI 逆向 · 相关项目]**
 - [Infinite Mac上的BeOS：转述Codex辅助研究屏幕设置文件格式](cases/infinite-mac-beos-codex-screen-settings-format.md) — 帖子称Infinite Mac经DingusPPC在浏览器运行BeOS，作者用Codex研究屏幕设置格式；未取得原开发文章、格式定义或复现日志。 **[其他 AI 逆向 · 待验证]**
 - [BBLL Android TV：Tz称6.1 sol用字节码注入修复视频打开错误](cases/bbll-android-tv-gpt61-bytecode-playback-repair.md) — Tz报告让6.1 sol访问电视、研究停更BBLL并修复视频播放入口；未公开App版本、补丁或测试记录。 **[其他 AI 逆向 · 待验证]**
@@ -1302,6 +1308,7 @@
 
 ### 算法与功能重建
 
+- [REA-growth：按时间线拆解企业增长的Agent Skill与Lovable成本自述](cases/rea-growth-lovable-company-timeline-skill-report.md) — 帖子介绍REA-growth按SEO、AI搜索、广告与社交时间线分析企业增长，称Lovable拆解花费0.58美元；不是morluto/rea二进制逆向的验证。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**

@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1418 entries**, organized by use case, without a Top-N or popularity threshold.
+**1425 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (310)
-- [Hardware and interoperability](categories/en/hardware.md) (377)
-- [Applications and clients](categories/en/apps.md) (580)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (151)
+- [Games and preservation](categories/en/games.md) (311)
+- [Hardware and interoperability](categories/en/hardware.md) (378)
+- [Applications and clients](categories/en/apps.md) (584)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (152)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,13 +28,14 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Persona 1: a reader imagines a REA-assisted remake with Persona 5 styling and manga storytelling](cases/en/persona1-persona5-manga-rea-remake-idea.md) — A reader wonders whether REA, time and human effort could produce Persona 1 in a Persona 5 style with manga-like storytelling. No started project or completed result is shown. **[REA · Needs verification]**
 - [Getting Up: a player asks for an AI-era widescreen and compatibility repair](cases/en/getting-up-ai-widescreen-repair-idea.md) — A player asks for a properly working widescreen Getting Up, reporting problems with the Steam version even with mods. No implementation or completion evidence is supplied. **[REA use unconfirmed · Needs verification]**
 - [DX RUST: a Rust/Bevy Deus Ex reimplementation still awaiting full-playthrough testing](cases/en/dx-rust-deus-ex-bevy-ai-reimplementation-report.md) — A report credits Claude assistance. The public Rust/Bevy project reads users' own Deus Ex files and says the whole game is implemented, but full playthroughs, per-map save round trips and performance work remain before 1.0. **[Other AI-assisted work · In progress]**
 - [D2-Web: human-directed AI assistance for a browser Diablo II 1.13c engine, still early Act 1 alpha](cases/en/d2-web-diablo2-ai-wasm-reimplementation.md) — Virtastic's public C++/Wasm engine documents extensive AI coding under human direction and review, retail-program research and a non-clean-room process. Only early Act 1 is reported running; users need their own game files. **[Other AI-assisted work · In progress]**
 - [Mega Drive Shuihu: an author reports an AI-assisted ROM investigation and childhood-game remake](cases/en/megadrive-shuihu-ai-rom-remake-report.md) — The author says a Mega Drive Shuihu remake is finished, using AI to revisit a childhood game in a new form. Revision, code, model and feature acceptance tests are absent. **[Other AI-assisted work · Needs verification]**
 - [Weely's game-research workflow: Claude for reversing, ChatGPT for the rest](cases/en/weely-claude-chatgpt-game-reversing-division-report.md) — In a Super Wrestlemania showcase thread, Weely reports Claude helping with reversing and ChatGPT being more promising for other work. A shared project or playable artifact is not established. **[Other AI-assisted work · Needs verification]**
 - [Sonic Unleashed: an announcement of Claude-assisted fan decompilation and a PC port](cases/en/sonic-unleashed-claude-fan-decompilation-announcement.md) — The poster announces Claude-assisted Sonic Unleashed decompilation and PC work, promising day/night stages, Werehog action and boost gameplay. No verifiable build or completion evidence is supplied. **[Other AI-assisted work · In progress]**
-- [GameFrame: a project introduction for human and agent skills in legacy-game reversing and reconstruction](cases/en/gameframe-legacy-game-agent-reconstruction-skills.md) — An Arabic/English post introduces GameFrame for understanding, reversing and rebuilding old games, without supported games, specific skills, implementation or runtime results. **[Other AI-assisted work · Related project]**
+- [GameFrame: a reported REA/Ghidra/Unicorn game-reconstruction skill chain with Wine/POD test limits](cases/en/gameframe-legacy-game-agent-reconstruction-skills.md) — A new introduction describes an agent skill chain using REA, Ghidra and Unicorn. Replacement DLLs are reported tested only with POD under Wine, not proof of successful reconstruction across all platforms. **[REA · Related project]**
 - [AnyPS5: a reader credits AI with faster PS5 syscall research; compatibility and playability remain unverified](cases/en/anyps5-ai-syscall-compatibility-layer-report.md) — A reader describes AnyPS5 as an AI-accelerated syscall compatibility layer and compares it to Proton. No code, game tests or AI task breakdown establish playability or an absence of emulation. **[Other AI-assisted work · Needs verification]**
 - [Eden-NS2: a Switch 2 community-emulator report with unconfirmed specific AI contributions](cases/en/eden-ns2-switch2-ai-era-emulator-report.md) — A post describes an Eden fork adding Switch 2 support, including Donkey Kong/Mario Kart compatibility and graphics defects. Its AI-era framing does not establish direct AI development or measured performance. **[REA use unconfirmed · Needs verification]**
 - [Medal of Honor: European Assault: Claude-assisted Xbox recompilation and an author-tested Windows port](cases/en/moh-european-assault-xbox-claude-pc-port.md) — Project documentation credits interactive Claude reversing and human in-game testing for a Windows port with mouse, rendering and audio changes. Most code is not open source; higher frame rates and some mods remain limited. **[Other AI-assisted work · In progress]**
@@ -254,7 +255,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Firefighter: from DOS binary to Rust](cases/en/firefighter-rust.md) — Recover Pascal logic from an old binary and rewrite it in Rust. **[Other AI-assisted work]**
 - [Modern Warfare 2: multi-agent decompilation](cases/en/mw2-decompilation.md) — Reconstruct game functions and compare compiled bytes to the original binary. **[Other AI-assisted work]**
 - [Urban Terror in the browser](cases/en/urban-terror-web.md) — Resolve engine/bytecode layout differences blocking a WebAssembly port. **[Other AI-assisted work]**
-- [DX-Ball: positional audio function](cases/en/dx-ball-sound-pan.md) — Recover and compare one sound-panning function; October 19 commentary stresses that a 63-byte match does not establish a completed playable game. **[REA]**
+- [DX-Ball: from a panning function to 270 matching game functions and a native Windows build record](cases/en/dx-ball-sound-pan.md) — Codex uses REA/Ghidra to reconstruct DX-Ball 1.07. The public project reports 270 authored game functions, 84,968 matching bytes and a 141-unit Windows build; the original 50-board campaign still needs testing. **[REA]**
 - [Touhou TH04: ring-bullet angles](cases/en/th04-bullet-ring.md) — Explain how Lotus Land Story calculates a ring of bullets. **[REA]**
 - [Touhou reconstruction projects](cases/en/touhou-reconstruction.md) — Recover and port old games; historical TH08 issue/PR records also expose and fix an oracle that matched instruction bytes while missing incorrect floating-literal data. Project tests, not independently replayed here. **[REA]**
 - [Dinosaur: the acceleration rule](cases/en/dinosaur-speed.md) — Inspect and check speed-update logic; a later author reports a local REA/Codex rebuild with a three-version comparison video, not independently verified parity. **[REA]**
@@ -341,6 +342,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [AMD Z3 μ-tag way predictor: Ayush Sharma reports agent-assisted performance research](cases/en/amd-z3-mu-tag-way-predictor-agent-report.md) — Ayush Sharma says an agent reverse-engineered the AMD Z3 μ-tag way predictor for a performance-engineering problem. Model, experiments, mapping and performance changes are not published. **[Other AI-assisted work · Needs verification]**
 - [A DJ firmware mod: Raft Tone uses an iPhone camera to let Claude observe testing and debugging](cases/en/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone reports using iPhone Continuity Camera with a MacBook for Claude to test an ongoing DJ-hardware firmware mod, claiming roughly five-times-faster testing. Device and logs are unspecified. **[Other AI-assisted work · In progress]**
 - [An older iQOO: a user tentatively reports GPT finding no sign of the discussed phone issue](cases/en/old-iqoo-gpt-phone-privacy-inspection-report.md) — A user says GPT examined an older iQOO and apparently did not find the same issue. No model, inspected component or analysis record is provided; this is not a security assurance. **[Other AI-assisted work · Needs verification]**
 - [Stopwatch Micro: unofficial Codex Micro-compatible firmware and a quota bridge for M5Stack StopWatch](cases/en/stopwatch-micro-codex-hid-compatible-controller.md) — The author reports C++/LVGL firmware using Bluetooth HID for Codex Micro compatibility, with a separate Windows App Server quota bridge. The 17/17, 13/13 and 151/151 figures are project self-tests. **[REA use unconfirmed · Needs verification]**
@@ -721,6 +723,10 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Exoframe/Nova: a local-first design orchestrating REA and replaceable semantic helpers](cases/en/exoframe-nova-local-rea-orchestration-design.md) — The Nova account describes Exoframe coordinating context, tool execution, ongoing work and recovery, with REA handling app analysis. The complete local loop still needs integration and testing. **[REA · In progress]**
+- [Gaze and voice to change software: UltimApe's REA-assisted interaction idea](cases/en/rea-gaze-voice-software-improvement-idea.md) — UltimApe imagines enabling gaze detection so AI can identify the software being viewed and add spoken improvements. No implementation or test is shown. **[REA · Needs verification]**
+- [PiliPala: Estelle Lee reports fixing multiple old bugs with Dafeiyu and REA](cases/en/pilipala-rea-dafeiyu-bugfix-report.md) — Replying to a BBLL repair post, Estelle Lee says Dafeiyu and REA also fixed a batch of PiliPala bugs. No revision or change record is supplied. **[REA · Needs verification]**
+- [Douyin UIScene adaptation: Ethan Wang reports AI converting the binary to a dylib loaded by a wrapper](cases/en/douyin-ai-dylib-wrapper-uiscene-adaptation.md) — Ethan Wang describes an unpacked IPA, wrapper loading and hooks, with AI converting Douyin's binary to a dylib and its Window attached to the wrapper's UIScene for basic adaptation. **[Other AI-assisted work · Needs verification]**
 - [KRAKEN: a reported agent workbench for native decompilation and per-function Rust rewrite validation](cases/en/kraken-agent-native-decompiler-rust-validation-workbench.md) — An open-source roundup describes native decompilation with CLI/GUI/MCP collaboration in one project and aims at per-function Rust rewrite checks. Source and executed validation results were not obtained. **[Other AI-assisted work · Related project]**
 - [BeOS in Infinite Mac: a report of Codex-assisted screen-settings file-format research](cases/en/infinite-mac-beos-codex-screen-settings-format.md) — A post says Infinite Mac runs BeOS through DingusPPC in a browser and credits the author with Codex-assisted screen-settings research. The original development article, format specification and reproduction logs were not obtained. **[Other AI-assisted work · Needs verification]**
 - [BBLL on Android TV: Tz reports a 6.1 sol bytecode-injection repair for opening videos](cases/en/bbll-android-tv-gpt61-bytecode-playback-repair.md) — Tz reports giving 6.1 sol access to a TV to investigate discontinued BBLL and repair video opening. No app revision, patch or test log is public in the inspected material. **[Other AI-assisted work · Needs verification]**
@@ -1304,6 +1310,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [REA-growth: an agent skill for company-growth timelines and a reported Lovable analysis cost](cases/en/rea-growth-lovable-company-timeline-skill-report.md) — A post presents REA-growth for analyzing company growth across SEO, AI search, ads and social timelines, claiming a $0.58 Lovable teardown. This is not validation of morluto/rea binary reversing. **[Other AI-assisted work · Related project]**
 - [RETROGRADE: generated programs and behavioral execution for evaluating reverse-engineering agents, with Round 0 pending](cases/en/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste describes a benchmark generating targets and ground truth from IR, spanning 15 workloads, four languages and six ISAs while penalizing overconfidence. The available evidence is methodology and example scores, not model rankings. **[Other AI-assisted work · In progress]**
 - [Grok theft-logic analysis: an author claims fourteen minutes on two event types, without samples or logs](cases/en/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — The author claims Grok analysis of Binance authorization and Polymarket script hijacking and proposes three AI defense layers. No transactions, code or analysis records are supplied; losses and mechanisms are not treated as established facts. **[Other AI-assisted work · Needs verification]**
 - [rea-brand: Aditya uses Treg to analyze Dan Koe's cross-platform personal-brand patterns](cases/en/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale introduces a personal-brand reverse-engineering skill, reporting a $0.081 Dan Koe analysis. The thread distinguishes SEEN/INFERRED, without verified output or growth effects. **[Other AI-assisted work · Related project]**
