@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1397 cases & projects
+# 1402 cases & projects
 
-**Latest case update:** November 1, 2026, 04:10 · **Last maintained:** November 1, 2026, 04:10 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 1, 2026, 08:09 · **Last maintained:** November 1, 2026, 08:09 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Claude writes proofs; Rocq checks the binaries](cases/en/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic/Theorem report machine-code no-crash proofs for **239 entry points across 123 libraries**. Single-threaded static RISC-V/Linux, inputs below 64MB; **not bug-free whole libraries**, and the checker was not independently rerun here. `Analysis test`
 8. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
 9. **[X-Men 2: from Genesis to four-player PC co-op](cases/en/xmen2-pc-claude-genesis-native-port.md)** · `2026-10-31` report; `2026-10-28` project documentation — crabsmack credits Claude Code with a native Windows/Linux port, reporting **3,047 byte-matching C functions** plus instruction-level checks for 117 assembly functions. Adds rollback and widescreen; four-player modes are less tested. Bring your own ROM; not rerun here. `Public implementation`
-10. **[Harvest Moon: readable C that also plays](cases/en/rodoly-harvest-moon-snes-ai-native-report.md)** · `2026-10-31` report; `2026-10-30` project documentation — RodoLy credits **human-supervised AI** and reports **778 routines / 45,176 instructions verified**, comparing memory and registers. Native-C beta adds optional widescreen and endless farming; picture/sound chips still run in software. Bring your own USA ROM and build locally; checks not rerun here. `Analysis test`
+10. **[An old Toyota navigator: why it wakes so quickly](cases/en/magicaltux-toyota-navi-ai-carplay-research.md)** · `2026-10-31` research; `2026-11-01` AI attribution — Mark Karpelès reports **Linux/U-Boot starting from RAM kept powered between drives**, after removing flash to study the system. His goal is CarPlay, not a finished replacement: a valid signed SD image remains unresolved, and the AI model and contribution are unspecified. `In progress`
 
 ## Classic cases
 
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **300** |
-| [Hardware & interoperability](categories/en/hardware.md) | **372** |
-| [Applications & clients](categories/en/apps.md) | **576** |
+| [Games & preservation](categories/en/games.md) | **301** |
+| [Hardware & interoperability](categories/en/hardware.md) | **374** |
+| [Applications & clients](categories/en/apps.md) | **578** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **149** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

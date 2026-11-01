@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](../cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](../cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
 - [Agent-PAL：让模型从DOS仙剑引擎研究走到全流程通关的基准报告](../cases/agent-pal-dos-pal-ai-engine-benchmark-report.md) — Jianming Liu报告模型自行研究1995 DOS仙剑并手写脚本，pure模式海外三模型通关、国内组未通关；无独立复核日志。 **[其他 AI 逆向 · 分析测试]**
 - [SM64桌面沙盘：Claude接Unity／PICO CLI的移植转述](../cases/sm64-pico-unity-claude-cli-port-report.md) — Xiao Tan转述Opus将已有SM64反编译接Unity、转换几何与MR控制，称一周末稳定90帧；原作者和代码未定位。 **[其他 AI 逆向 · 待验证]**

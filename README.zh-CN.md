@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1397 个案例与项目
+# 1402 个案例与项目
 
-**最近案例更新：**2026 年 11 月 1 日 04:10 · **最近维护：**2026 年 11 月 1 日 04:10 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 1 日 08:09 · **最近维护：**2026 年 11 月 1 日 08:09 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -33,7 +33,7 @@
 7. **[Claude 写证明，Rocq 检查二进制](cases/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic／Theorem 报告为 **123 库的 239 个入口**建立机器码无崩溃证明。限单线程静态 RISC-V/Linux、小于64MB输入；**不等于整库无 bug**，本合集未独立重跑检查器。`分析测试`
 8. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
 9. **[X战警2：从Genesis到四人PC合作](cases/xmen2-pc-claude-genesis-native-port.md)** · `2026-10-31`报道；`2026-10-28`项目文档 — crabsmack称Claude Code辅助Windows／Linux原生移植，报告**3047个C函数字节匹配**，另117个汇编函数做指令级对照。新增回滚联机与宽屏；四人模式测试较少。须自备ROM，本合集未重跑。`公开实现`
-10. **[牧场物语：可读的C，也能直接玩](cases/rodoly-harvest-moon-snes-ai-native-report.md)** · `2026-10-31`报道；`2026-10-30`项目文档 — RodoLy披露**人工监督AI**，报告比较内存与寄存器、验证**778例程／45176指令**。原生C beta可选宽屏与无限经营，画面／声音芯片仍软件实现。须自备USA ROM并本机构建；本合集未重跑校验。`分析测试`
+10. **[旧Toyota导航：为什么再次开车能秒启动](cases/magicaltux-toyota-navi-ai-carplay-research.md)** · `2026-10-31`研究；`2026-11-01`AI归因 — Mark Karpelès报告拆取闪存，研究**Linux／U-Boot从关车后仍供电的RAM启动**。目标是CarPlay，不是已经完成替换：有效签名SD映像仍待解决，AI模型与具体贡献未详述。`进行中`
 
 ## 经典案例
 
@@ -49,9 +49,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **300** |
-| [硬件与设备互通](categories/hardware.md) | **372** |
-| [应用与客户端](categories/apps.md) | **576** |
+| [游戏与游戏保存](categories/games.md) | **301** |
+| [硬件与设备互通](categories/hardware.md) | **374** |
+| [应用与客户端](categories/apps.md) | **578** |
 | [算法与功能重建](categories/algorithms.md) | **149** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
