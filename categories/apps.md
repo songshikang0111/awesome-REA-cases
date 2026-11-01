@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Instagram Reels：sujal称Claude研究APK后，用Java把入口弹回信息流](../cases/sujal-instagram-claude-reels-bounce-blocker.md) — 为减少刷Reels，sujal称USB调试提取Instagram APK并让Claude研究，约30行Java实现点Reels返回feed；无root、无修改App是作者说法。 **[其他 AI 逆向 · 待验证]**
+- [mika：黄小木提出Codex研究包名与service改名的未验证建议](../cases/mika-codex-package-service-rename-idea.md) — 黄小木担心mika自动控制微信／小红书会触发风控，建议用Codex研究并换标识；无实施或降低风险的证据。 **[其他 AI 逆向 · 待验证]**
+- [Kensho Momentum仪表盘：Payal建议用REA／Claude Code研究替代](../cases/kensho-momentum-dashboard-rea-claude-idea.md) — Payal Mantry回应付费股票研究仪表盘推广，建议用REA与Claude Code逆向；父帖可识别目标，但没有重建或数据接入结果。 **[REA · 待验证]**
+- [Elementor Pro：Aakash希望用REA做轻量快速的主题构建器](../cases/elementor-pro-rea-lightweight-theme-builder-idea.md) — Aakash Kavaiya请求REA辅助的Elementor Pro替代品，保留广泛定制又更轻更快；没有实现、性能或兼容性结果。 **[REA · 待验证]**
 - [mcp-reverse：把静态分析、外部调试器与多AI协作接到同一MCP入口](../cases/mcp-reverse-multi-client-binary-analysis-orchestration.md) — MalwareBibleJP介绍mcp-reverse 5.0.1编排Claude／Codex／Cursor与二进制工具；公开README可查，但后端、权限与简单模拟器边界不等于完成任意逆向。 **[其他 AI 逆向 · 相关项目]**
 - [SolidCraft：AI时代CAD替代品的转述，项目称依据公开文档独立设计](../cases/solidcraft-ai-era-cad-alternative-report.md) — genZ_Tigers将SolidCraft与AI逆向联系；公开Rust参数化CAD提供MCP，但README说按公开文档、CAD惯例和用户反馈设计，不证明反编译Fusion或SolidWorks。 **[其他 AI 逆向 · 相关项目]**
 - [Exoframe／Nova：编排REA与可替换语义助手的本地优先设计](../cases/exoframe-nova-local-rea-orchestration-design.md) — Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。 **[REA · 进行中]**
@@ -22,7 +26,7 @@
 - [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](../cases/hyperos3-security-component-gpt-screen-audit.md) — MeT称GPT读出应用列表、语音反诈与三秒屏幕片段云检测实现；没有触发条件或动态证据，不等于全时录屏或已证明泄露。 **[其他 AI 逆向 · 待验证]**
 - [iPhone Superwhisper：Joe Dubs想用REA减少听写切换](../cases/superwhisper-iphone-rea-keyboard-integration-idea.md) — Joe Dubs觉得iPhone听写体验笨重，询问REA能否研究键盘整合，减少切换与橙色提示；没有实现，也未证明系统隐私限制可绕过。 **[REA · 待验证]**
 - [Worldling5.2：Codex按手册重建Linux版WordPerfect5.1体验](../cases/worldling52-codex-wordperfect51-linux-rebuild.md) — Lynn Cole用Go与Bubbletea重做童年DOS文字处理器，让Codex读规格教程；文档流程已入，UI与打印驱动仍在做，100%格式兼容只是目标。 **[其他 AI 逆向 · 进行中]**
-- [DuoDesk：Opus改造开源共享引擎，而非已证实逆向TeamViewer](../cases/duodesk-opus-open-engine-desktop-sharing-report.md) — Movez称11个Opus Agent改约370文件，让Windows与Mac共享输入和剪贴板；正文从开源引擎读码换品牌开始，尚未核验源码与跨平台功能。 **[其他 AI 逆向 · 待验证]**
+- [DuoDesk：Opus改造TwinDesk开源共享引擎，而非已证实逆向TeamViewer](../cases/duodesk-opus-open-engine-desktop-sharing-report.md) — Movez称11个Opus Agent改约370文件；Ahmed Reza质疑逆向说法，固定README确认DuoDesk为Inuka Asith的TwinDesk分支、沿用GPL。功能和安全仍未运行核验。 **[其他 AI 逆向 · 待验证]**
 - [伪激活器Olympic：Qiita作者报告AI／REA追踪RAT与清理残留](../cases/qiita-rea-olympic-activator-malware-audit.md) — TOMOSIA-LinhND误执行CxxCxx pro activator.exe后，用AI／REA检查假源码、DLL与四片持久化；声称已清除且未泄露，但日志不能作为完备无泄露证明。 **[REA · 待验证]**
 - [Setup_Installer.exe：同一Qiita作者用AI／REA分析另一投放器](../cases/qiita-rea-electron-installer-dropper-analysis.md) — 另一个CxxCxx Pro包被作者归为Electron dropper，报告21个诱饵文件、三重保护、Defender排除与投放链；自称静态分析却又提仿真解密，边界需保留。 **[REA · 待验证]**
 - [OKOK Libre：REA与GLM研究体脂秤APK，重建离线Android客户端](../cases/okok-libre-rea-glm-scale-android.md) — JYunth报告分析OKOK International并重建无广告客户端；公开Kotlin实现支持部分OKOK蓝牙协议，固定主Manifest无联网权限，但未独立测试秤互通或公式等价。 **[REA · 进行中]**

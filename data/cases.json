@@ -1,5 +1,228 @@
 [
   {
+    "id": "car-infotainment-rea-trim-feature-switch-idea",
+    "title": "车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。",
+    "description": "2026年11月1日20:05:42（北京时间），Eshwar Pavagada（@eshwarWithE）请求有人逆向汽车信息娱乐系统，并用#rea、#reverseengineering、#rooting标记。他认为低配／中配的许多豪华功能只是布尔开关，希望通过研究软件找到启用方式。按明确设备系统和目的的REA相关idea收录，不写成已进行的改装。\n\n原帖没有品牌、车型、年份、控制器、固件、具体功能、工具调用或补丁，也未证明相应硬件已安装、功能受单一开关控制或可安全启用。#rea是作者标签，不是实际使用记录；没有连接车辆、解锁或实机验证。涉及驾驶与车辆功能的改变不能由这个帖子推断为安全或获得授权。",
+    "sources": [{"label": "Eshwar的车机功能开关请求，2026-11-01", "url": "https://x.com/i/status/2116864255484141817"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、3浏览、0转发；尚无具体车辆或实施结果。"],
+    "en": {
+      "title": "Car infotainment: Eshwar proposes using REA to find lower-trim feature switches",
+      "summary": "Eshwar Pavagada wants infotainment reversing to enable restricted lower/mid-trim features. No car, firmware or test is supplied; the Boolean-switch explanation is speculation.",
+      "description": "At 20:05:42 Beijing time on November 1, 2026, Eshwar Pavagada (@eshwarWithE) asks someone to reverse-engineer car infotainment, tagging #rea, #reverseengineering and #rooting. He believes many luxury features in lower/mid variants are Boolean switches and wants software research to find how to enable them. Included as a REA-related idea with a defined system and purpose, not an implemented modification.\n\nThe post supplies no manufacturer, model, year, controller, firmware, specific feature, tool invocation or patch. It does not establish that the necessary hardware is installed, a single switch controls the features, or activation is safe. #rea is the author's tag, not an execution record. No vehicle was connected, unlocked or tested here. Changes affecting driving or vehicle functions cannot be inferred to be safe or authorized from this post.",
+      "metadata": ["Candidate snapshot: 0 likes, 3 views, 0 reposts. No specific vehicle or implementation result is supplied."],
+      "source_labels": ["Eshwar's request to investigate car infotainment feature switches, November 1, 2026"]
+    }
+  },
+  {
+    "id": "sujal-instagram-claude-reels-bounce-blocker",
+    "title": "Instagram Reels：sujal称Claude研究APK后，用Java把入口弹回信息流",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "为减少刷Reels，sujal称USB调试提取Instagram APK并让Claude研究，约30行Java实现点Reels返回feed；无root、无修改App是作者说法。",
+    "description": "2026年11月1日21:45:02（北京时间），sujal（@sujshr）称自己整天刷Instagram Reels，于是用Claude逆向Instagram：手机通过USB调试连接、提取APK，然后用约30行Java，让点击Reels立即回到信息流。作者称不需root、不使用修改版App，并附视频与开源链接。保留为针对现有App行为的个人干预自述，不是重建Instagram或服务端推荐算法。\n\n补读原帖与作者串。23:10:08，Gagan（@gagu_sh）提醒：如果以无障碍服务运行，就可能看到屏幕内容，应将服务限定到Instagram包，并检查没有记录或发送事件；23:11:56作者答复会研究和阅读。该条件式安全建议不能证明实现确实使用无障碍服务，更不能证明范围已收紧。\n\n本合集未取得可明确归属的源码仓库，未读取该Java实现、检查权限、观看视频或在手机上测试。30行、立即弹回、无需root和开源均为作者报告；APK版本、具体识别机制、误拦截与跨版本兼容未知。未提REA，也不把这种干预写成平台认可、隐私审计通过或能彻底阻止短视频。",
+    "sources": [
+      {"label": "sujal的Instagram／Claude与Reels拦截自述，2026-11-01", "url": "https://x.com/i/status/2116889254995570870"},
+      {"label": "补充：Gagan对可能的无障碍权限风险提醒，2026-11-01", "url": "https://x.com/i/status/2116910669853606170"},
+      {"label": "补充：作者答复将研究安全建议，2026-11-01", "url": "https://x.com/i/status/2116911120628019653"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照2赞、62浏览、0转发；约30行是作者代码量说法，不是本合集计数。"],
+    "en": {
+      "title": "Instagram Reels: sujal reports Claude-assisted APK research and a Java bounce back to the feed",
+      "summary": "To reduce Reels use, sujal reports extracting Instagram's APK over USB debugging and using Claude, then about 30 Java lines to return Reels taps to the feed. No-root and unmodified-app claims are the author's.",
+      "description": "At 21:45:02 Beijing time on November 1, 2026, sujal (@sujshr) says he was spending all day on Instagram Reels and reverse-engineered Instagram with Claude. He connected his phone through USB debugging, extracted the APK and reportedly used about 30 lines of Java to bounce a Reels tap straight back to the feed. He claims no root and no modified app, linking a video and describing the work as open source. This is a personal intervention in an existing app's behavior, not reconstruction of Instagram or its server-side recommendation algorithm.\n\nThe original post and conversation were additionally read. At 23:10:08, Gagan (@gagu_sh) warns that if this runs as an accessibility service, it may see screen content, and recommends limiting it to Instagram's package and checking it never logs or sends events. At 23:11:56, the author says he will research and read about the advice. This conditional warning does not establish that the implementation uses accessibility, or that its scope has been restricted.\n\nNo clearly attributable source repository was obtained here. The Java implementation and permissions were not inspected, the video was not watched and no phone test was run. Thirty lines, immediate bounce-back, no root and open source are author reports. APK version, detection mechanism, false positives and cross-version compatibility are unknown. REA is not mentioned. The intervention is not presented as platform-approved, privacy-audited or a complete prevention of short-video access.",
+      "metadata": ["Candidate snapshot: 2 likes, 62 views, 0 reposts. About 30 lines is the author's code-size claim, not a count made here."],
+      "source_labels": ["sujal's Instagram/Claude and Reels-intervention report, November 1, 2026", "Supplementary: Gagan's conditional accessibility-permission warning, November 1, 2026", "Supplementary: the author says he will research the safety advice, November 1, 2026"]
+    }
+  },
+  {
+    "id": "gm365-kindle-deepseek-weread-jailbreak",
+    "title": "gm365的闲置Kindle：称CodeBuddy／DeepSeek辅助越狱后装微信读书",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "gm365把闲置Kindle越狱、安装微信读书列入DeepSeek V4.1 Flash硬件折腾成果；未给型号、固件或安装路线。",
+    "description": "2026年11月1日22:39:57（北京时间），gm365介绍自己的FixMyMac工作目录从修Mac小问题扩展到硬件改造，列举给闲置的“Kinde”越狱后安装微信读书，并明确说以上工作由CodeBuddy里调用DeepSeek V4.1 Flash完成。这里按上下文理解为Kindle电子阅读器，保留原文拼写说明，不推断是特定机型。\n\n同帖还涉及电视桌面、小米温度计3和罗技鼠标；其中有独立目的的设备修改分开记录，安装电视极简桌面不另作逆向案例。补读同串22:45:53作者对Kindle教程请求给出的链接回复，只确认其分享了补充材料；未读取图片或链接目的页，不把它当详细安装验证。\n\n没有型号、固件版本、越狱漏洞、安装包、AI会话、代码或完整测试。未确认是否复用现有越狱／KOReader工具、微信读书具体运行形态、稳定性或保留原厂功能；不与其他作者的Kindle项目合并。未提REA，未连接设备或执行越狱。",
+    "sources": [
+      {"label": "gm365的CodeBuddy／DeepSeek设备改造自述，2026-11-01", "url": "https://x.com/i/status/2116903072723251229"},
+      {"label": "补充：作者回复Kindle教程请求的链接，2026-11-01", "url": "https://x.com/i/status/2116904564763087337"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["主候选快照1赞、1004浏览、0转发，为多设备同帖，不是此子项目独立热度。"],
+    "en": {
+      "title": "gm365's idle Kindle: reported CodeBuddy/DeepSeek-assisted jailbreak and WeRead installation",
+      "summary": "gm365 lists jailbreaking an unused Kindle and installing WeRead among DeepSeek V4.1 Flash-assisted hardware tasks. Model, firmware and installation route are not supplied.",
+      "description": "At 22:39:57 Beijing time on November 1, 2026, gm365 says the FixMyMac folder has grown from small Mac repairs into hardware modifications. One example is jailbreaking an idle 'Kinde' and installing WeRead, explicitly crediting DeepSeek V4.1 Flash invoked inside CodeBuddy for the listed work. Context identifies a Kindle e-reader; the source spelling is noted rather than used to infer a particular model.\n\nThe same post covers a TV launcher, Xiaomi Thermometer 3 and a Logitech mouse. Device modifications with independent purposes are recorded separately; installing a minimal TV launcher is not made into a separate reversing case. At 22:45:53 in the conversation, the author replies with a link to a request for a Kindle tutorial. This only confirms supplementary material was shared: its image and destination were not read and it is not detailed installation validation.\n\nNo model, firmware revision, jailbreak vulnerability, package, AI session, code or full test is supplied. Reuse of existing jailbreak/KOReader tools, WeRead's exact runtime form, stability and retention of stock features are unconfirmed. This is not merged with other authors' Kindle projects. REA is not mentioned. No device was connected or jailbroken here.",
+      "metadata": ["Main candidate snapshot: 1 like, 1,004 views, 0 reposts. This is engagement for a multi-device post, not this subproject alone."],
+      "source_labels": ["gm365's CodeBuddy/DeepSeek device-modification report, November 1, 2026", "Supplementary: the author's link reply to a Kindle tutorial request, November 1, 2026"]
+    }
+  },
+  {
+    "id": "gm365-xiaomi-thermometer3-claude-quota-firmware",
+    "title": "小米温度计3：gm365称DeepSeek辅助刷固件，改作Claude额度显示器",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "gm365称用CodeBuddy中的DeepSeek V4.1 Flash折腾小米温度计3，刷固件显示Claude剩余订阅额度；没有固件或额度数据链路。",
+    "description": "2026年11月1日22:39:57（北京时间），gm365在多设备改造自述中单独指出小米温度计3可以刷固件，用来实时显示Claude剩余订阅额度，并把这些工作归因于CodeBuddy中的DeepSeek V4.1 Flash。目标是把闲置／现有低功耗显示设备用于AI用量提示，而不是修改Claude订阅服务。\n\n补读作者串，23:46的macfee回复关注这一用途，只能作为读者反馈，不能证明实际刷新、精度或持续运行。候选没有提供精确硬件版本、固件镜像或仓库、原协议研究、刷写过程、主机桥接程序、额度接口、刷新周期或功耗测量。不能推断它独立联网获取额度、所有计算在温度计上运行，或已验证额度数值。\n\n未提REA，不声称独立恢复了专有固件、保留温度测量或兼容所有小米温度计。未下载或执行固件、连接设备、访问账户或读取订阅凭据；按具体设备改造的作者自述保留。",
+    "sources": [
+      {"label": "gm365的小米温度计3与Claude额度显示自述，2026-11-01", "url": "https://x.com/i/status/2116903072723251229"},
+      {"label": "补充：macfee针对温度计用途的读者反馈，非验证，2026-11-01", "url": "https://x.com/i/status/2116919693999329498"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["主候选快照1赞、1004浏览、0转发，为多设备同帖；实时显示是作者说法。"],
+    "en": {
+      "title": "Xiaomi Thermometer 3: gm365 reports DeepSeek-assisted firmware work for a Claude quota display",
+      "summary": "gm365 credits DeepSeek V4.1 Flash in CodeBuddy with modifying Xiaomi Thermometer 3 firmware to display remaining Claude subscription quota. Firmware and the quota-data path are not supplied.",
+      "description": "At 22:39:57 Beijing time on November 1, 2026, gm365 singles out Xiaomi Thermometer 3 in a multi-device modification report, saying its firmware can be flashed to display remaining Claude subscription quota in real time. The listed work is credited to DeepSeek V4.1 Flash inside CodeBuddy. The purpose is repurposing an existing low-power display for AI-usage awareness, not altering Claude's subscription service.\n\nIn the additionally read conversation, macfee's 23:46 reply focuses on this use. That is reader feedback, not validation of refreshing, accuracy or sustained operation. The candidate supplies no precise hardware revision, firmware image or repository, original-protocol investigation, flashing procedure, host bridge, quota interface, refresh interval or power measurements. It does not establish that the thermometer independently retrieves quota online, runs all computation itself or shows validated values.\n\nREA is not mentioned. Independent recovery of proprietary firmware, retained temperature measurement and compatibility with all Xiaomi thermometers are not claimed. No firmware was downloaded or executed, device connected, account accessed or subscription credentials read here. Retained as an author-reported modification of a specific device.",
+      "metadata": ["Main candidate snapshot: 1 like, 1,004 views, 0 reposts for a multi-device post. Real-time display is the author's claim."],
+      "source_labels": ["gm365's Xiaomi Thermometer 3/Claude quota-display account, November 1, 2026", "Supplementary: macfee's reader reaction to the thermometer use, not validation, November 1, 2026"]
+    }
+  },
+  {
+    "id": "gm365-logitech-master3s-first-shortcut-fix",
+    "title": "罗技Master 3S：gm365称DeepSeek修复首次按快捷键失效",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "gm365称在CodeBuddy调用DeepSeek V4.1 Flash修好Master 3S首次快捷键无效；未说明改驱动、配置还是固件。",
+    "description": "2026年11月1日22:39:57（北京时间），gm365在FixMyMac从软件维修扩展到硬件折腾的帖子中，称刚修复罗技Master 3S首次按下快捷键失效的问题。作者把同帖各项工作归因于CodeBuddy内调用的DeepSeek V4.1 Flash，提供一个明确设备、故障与自报结果的AI辅助排错案例。\n\n帖子没有给操作系统、鼠标／驱动版本、快捷键定义、复现条件、根因、修改文件或复测次数。不能将“修复”推断成反编译固件、恢复蓝牙协议、硬件修理或罗技官方修复，也未证明长期稳定。按广义AI辅助设备行为诊断的未核验自述保留；不把同帖Kindle和温度计的刷写过程套用到鼠标。未提REA，未连接鼠标或运行补丁。",
+    "sources": [{"label": "gm365报告Master 3S快捷键修复与DeepSeek分工，2026-11-01", "url": "https://x.com/i/status/2116903072723251229"}],
+    "snapshot_date": "2026-11-01", "metadata": ["主候选快照1赞、1004浏览、0转发，为多设备同帖，不代表鼠标修复的独立传播。"],
+    "en": {
+      "title": "Logitech Master 3S: gm365 reports DeepSeek fixing a missed first shortcut press",
+      "summary": "gm365 credits DeepSeek V4.1 Flash in CodeBuddy with fixing the Master 3S's ineffective first shortcut press. Driver, configuration or firmware changes are not specified.",
+      "description": "At 22:39:57 Beijing time on November 1, 2026, gm365 says the Logitech Master 3S's first shortcut press had been ineffective and was just fixed. The FixMyMac post describes moving from software repairs into hardware tinkering and credits DeepSeek V4.1 Flash inside CodeBuddy for its listed tasks. This is a specific device, fault and reported AI-assisted troubleshooting result.\n\nThe post supplies no operating system, mouse/driver revision, shortcut definition, reproduction conditions, root cause, modified file or retest count. 'Fixed' does not establish firmware decompilation, Bluetooth-protocol recovery, physical repair or an official Logitech fix, nor long-term reliability. Retained as an unverified report of broader AI-assisted device-behavior diagnosis. The Kindle and thermometer flashing work in the same post is not projected onto the mouse. REA is not mentioned. No mouse was connected or patch run here.",
+      "metadata": ["Main candidate snapshot: 1 like, 1,004 views, 0 reposts for a multi-device post, not independent engagement for the mouse repair."],
+      "source_labels": ["gm365's Master 3S shortcut-repair and DeepSeek account, November 1, 2026"]
+    }
+  },
+  {
+    "id": "mika-codex-package-service-rename-idea",
+    "title": "mika：黄小木提出Codex研究包名与service改名的未验证建议",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "黄小木担心mika自动控制微信／小红书会触发风控，建议用Codex研究并换标识；无实施或降低风险的证据。",
+    "description": "2026年11月1日23:02（北京时间），黄小木（@ai_xiaomu）提醒用mika控制微信与小红书的用户，提出让Codex“反编译一下源码”、更换包名与service名。其动机是担心平台风控按这些标识识别自动化工具并封号；这里仅记录针对特定工具的AI辅助修改idea，不把预测当已发生事件，也不提供规避操作指南。\n\n原文将反编译与源码混用，未给仓库、APK、版本、实际模型会话、修改补丁或平台检测规则。不能断言源码需要反编译、平台只看这两个标识、改名有效或账户安全；串内赞同回复不是测试。未确认与其他名为Mika的项目有关，不同于已有Mika原生插件审计条目。未提REA，未运行mika、登录平台或执行改名。",
+    "sources": [{"label": "黄小木的mika／Codex标识修改建议，2026-11-01", "url": "https://x.com/i/status/2116908621980369044"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照5赞、1217浏览、0转发；风险和改名效果均未验证。"],
+    "en": {
+      "title": "mika: Huang Xiaomu proposes unverified Codex-assisted package/service renaming",
+      "summary": "Concerned that mika automation of WeChat/Xiaohongshu may trigger platform enforcement, Huang Xiaomu suggests Codex-assisted identifier changes. Implementation and risk reduction are unproven.",
+      "description": "At 23:02 Beijing time on November 1, 2026, Huang Xiaomu (@ai_xiaomu) addresses people using mika to control WeChat and Xiaohongshu, suggesting Codex 'decompile the source' and change the package and service names. The motivation is a concern that platform enforcement could identify automation through those identifiers and ban accounts. This is recorded only as an AI-assisted modification idea for a specific tool, not an observed enforcement event or a guide to evasion.\n\nThe wording conflates source code and decompilation. No repository, APK, version, model session, patch or platform detection rules are supplied. It does not establish that source needs decompilation, platforms inspect only these identifiers, renaming works or accounts would be safe. Agreement in replies is not testing. No relationship to other projects named Mika is confirmed; this is distinct from the existing Mika native-plugin audit entry. REA is not mentioned. No mika execution, platform login or renaming was performed here.",
+      "metadata": ["Candidate snapshot: 5 likes, 1,217 views, 0 reposts. The enforcement risk and renaming's effectiveness are unverified."],
+      "source_labels": ["Huang Xiaomu's mika/Codex identifier-change suggestion, November 1, 2026"]
+    }
+  },
+  {
+    "id": "kensho-momentum-dashboard-rea-claude-idea",
+    "title": "Kensho Momentum仪表盘：Payal建议用REA／Claude Code研究替代",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Payal Mantry回应付费股票研究仪表盘推广，建议用REA与Claude Code逆向；父帖可识别目标，但没有重建或数据接入结果。",
+    "description": "2026年11月1日23:04:54（北京时间），Payal Mantry（@MantryPayal）回复Sneha S（@SnehaSSR），建议用GitHub上的REA仓库及Claude Code逆向“这个仪表盘”。补读23:03:58的父帖，目标是Kensho Momentum Dashboard，宣传把基本面、技术面与市场信息放在一起，为日内、波段和长期股票研究提供突破、板块强弱及财报等视图；父帖在推广年度计划折扣。\n\n候选只给工具和目标，没有说明已获取应用、分析UI或协议、建立数据源、写实现或测试。父帖功能是卖方宣传背景，不是Payal已经复刻的功能清单。也不因名称Kensho就推断与其他同名金融机构产品有关；未核验市场数据许可、数据准确性、订阅权限或可替代性。按降低现有工具依赖的具体idea保留，不作投资建议，未访问付费系统或运行REA。",
+    "sources": [
+      {"label": "Payal的REA／Claude Code仪表盘研究建议，2026-11-01", "url": "https://x.com/i/status/2116909353278300347"},
+      {"label": "补充父帖：Sneha的Kensho Momentum产品介绍，2026-11-01", "url": "https://x.com/i/status/2116909118774812735"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、25浏览、0转发；没有已实现或收益报告。"],
+    "en": {
+      "title": "Kensho Momentum Dashboard: Payal proposes REA/Claude Code research for an alternative",
+      "summary": "Payal Mantry responds to a paid stock-research dashboard promotion by suggesting REA and Claude Code. The parent identifies the target, but no reconstruction or data integration is reported.",
+      "description": "At 23:04:54 Beijing time on November 1, 2026, Payal Mantry (@MantryPayal) replies to Sneha S (@SnehaSSR), suggesting the GitHub REA repository and Claude Code to reverse-engineer 'this dashboard.' The additionally read parent at 23:03:58 identifies Kensho Momentum Dashboard, advertised as combining fundamentals, technicals and market intelligence for intraday, swing and long-term stock research, including breakouts, sector strength and earnings views. The parent promotes a yearly-plan discount.\n\nThe candidate names only tools and target. It does not report acquiring the app, analyzing UI or protocols, sourcing data, implementing a replacement or testing it. The parent's features are seller-provided background, not a list already reproduced by Payal. Kensho in the name is not used to infer a relationship with other similarly named financial products or institutions. Market-data licensing, accuracy, subscription permissions and substitutability are unverified. Retained as a specific idea for reducing reliance on an existing tool, not investment advice. No paid system was accessed or REA run here.",
+      "metadata": ["Candidate snapshot: 0 likes, 25 views, 0 reposts. No implementation or investment-return result is reported."],
+      "source_labels": ["Payal's REA/Claude Code dashboard-research suggestion, November 1, 2026", "Supplementary parent: Sneha's Kensho Momentum product introduction, November 1, 2026"]
+    }
+  },
+  {
+    "id": "george-pygall-danny-bones-ai-persona-reconstruction",
+    "title": "Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。",
+    "description": "2026年11月1日23:05:58（北京时间），George Pygall（@GeorgePygall）称逆向了一个被TikTok禁的AI说唱人物，包括persona、声音、视频与工具，并用相同playbook制作自己的AI influencer。补读同作者23:07至23:11的串，末段点名Danny Bones。这里是参考输出反推制作设计，再用生成工具造新角色的广义案例，不是软件二进制或模型权重逆向。平台禁令也仅为作者说法。\n\n作者称让Claude花约三小时研究有关暂停AI前沿发展的X、YouTube评论和Reddit讨论，得到“quiet pacer”“China hawk”等受众画像；选择后者，再细化姓名、年龄、地点、声音、家庭、宗教和AI使用。约2200万美国人符合画像是模型估计，不是调查人口统计。随后用OpenAI生成三个人物选项，选一张偏美国军人风格的图并制作正、侧、背角色表；用ElevenLabs V4控制停顿、强调、呼气，再把语音分段交给Kling V2 Avatar Pro制作简单口播视频。工具版本和偏好为作者口径，未核对厂商版本。\n\n帖子没有Danny Bones原团队的会话、授权或制作日志，也未证明使用相同提示词、模型或声音。Claude约三小时是研究阶段自述，不是整个角色的总工时。未核验生成质量、受众规模、传播效果或商业用途许可，未观看视频或运行生成服务；不推断可冒充真人或恢复原人物身份。REA未提及。",
+    "sources": [
+      {"label": "George的AI说唱人物逆向与自有角色报告，2026-11-01", "url": "https://x.com/i/status/2116909619423653989"},
+      {"label": "补充作者串：Claude受众研究约三小时，2026-11-01", "url": "https://x.com/i/status/2116909932343951710"},
+      {"label": "补充：画像与约2200万人模型估计，2026-11-01", "url": "https://x.com/i/status/2116910084425121923"},
+      {"label": "补充：OpenAI人物图与角色表，2026-11-01", "url": "https://x.com/i/status/2116910283973145032"},
+      {"label": "补充：ElevenLabs声音控制，2026-11-01", "url": "https://x.com/i/status/2116910478614024542"},
+      {"label": "补充：Kling口播视频步骤，2026-11-01", "url": "https://x.com/i/status/2116910727508247021"},
+      {"label": "补充：作者点名Danny Bones，2026-11-01", "url": "https://x.com/i/status/2116910894529556858"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、30浏览、0转发；约三小时、三个图像选项及约2200万估计均归因作者串。"],
+    "en": {
+      "title": "Danny Bones production teardown: George Pygall researches an audience with Claude and builds a new AI persona",
+      "summary": "George infers a persona, voice and video-production workflow from an AI rapper. His thread names research, character-image, speech and talking-head tools, but does not recover the original team's internal process.",
+      "description": "At 23:05:58 Beijing time on November 1, 2026, George Pygall (@GeorgePygall) says he reverse-engineered an AI rapper reportedly banned by TikTok, covering persona, voice, video and tools, then used the same playbook for his own AI influencer. His additionally read 23:07–23:11 thread names Danny Bones near the end. This is a broader output-to-production-design inference followed by generation of a new character, not binary or model-weight reversing. The platform ban is also only the author's claim.\n\nHe says Claude spent about three hours researching X and YouTube comments and Reddit discussions about pausing the AI frontier, producing audience personas such as 'the quiet pacer' and 'the China hawk.' He selects the latter and expands name, age, location, voice, family, religion and AI use. Roughly 22 million matching US people is a model estimate, not population-survey data. He then uses OpenAI for three character options, selects an American military-looking image and creates front/side/back character sheets. ElevenLabs V4 supplies pauses, emphasis and exhale control; segmented audio and an image go into Kling V2 Avatar Pro for a simple talking-head video. Tool versions and preferences are the author's wording, not checked against vendor releases.\n\nThere are no original Danny Bones team sessions, permission records or production logs, nor proof of identical prompts, models or voice. The roughly three hours refer to audience research, not total production time. Output quality, audience size, reach and commercial-use permissions were not verified. No video was watched or generation service run here. Impersonation of a real person or recovery of the original character's identity is not inferred. REA is unspecified.",
+      "metadata": ["Candidate snapshot: 0 likes, 30 views, 0 reposts. About three hours, three image options and the roughly 22-million estimate are attributed to the author's thread."],
+      "source_labels": ["George's AI-rapper teardown and new-character report, November 1, 2026", "Supplementary author thread: about three hours of Claude audience research, November 1, 2026", "Supplementary: detailed persona and roughly 22-million model estimate, November 1, 2026", "Supplementary: OpenAI character options and sheets, November 1, 2026", "Supplementary: ElevenLabs voice controls, November 1, 2026", "Supplementary: Kling talking-head video workflow, November 1, 2026", "Supplementary: the author identifies Danny Bones, November 1, 2026"]
+    }
+  },
+  {
+    "id": "wokann-pokemon-bank-mover-codex-offline-patch",
+    "title": "Pokémon Bank／Mover：Wokann公开Codex辅助离线补丁，不支持HOME传输",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "评论者提到Codex辅助；固定项目README明确AI参与反编译分析、补丁设计、编码和审阅，以3DS本地假服务器保留Bank／Mover流程，非官方服务器完整复刻。",
+    "description": "2026年11月1日23:09:04（北京时间），Trey Gwn（@treygwinn）在讨论Wokann的Pokémon Bank离线补丁时称Codex缩短制作时间：据其观察从八月做起、三个月发布，并声称Bank四个月后关闭。这些是评论者的工时推断和停服说法，不是本合集核实的官方时间表或AI效率对照。补读父串中Professor Rex于10月31日22:00的发布转述，称可下载现有线上宝可梦备份、保留3DS存取及离线Poké Transporter，并恢复旧神秘礼物；父帖早于本候选窗口，只作背景。\n\n进一步阅读Wokann/bank_and_mover_offline_patch固定提交c709ec4d28cda0d7935b9ac11bc256e5b841e468的README；提交时间11月1日19:05:24北京时间，早于窗口。项目明确披露使用包括OpenAI Codex在内的AI工具辅助分析反编译输出、设计补丁、写代码和审阅。目标是让Nintendo 3DS上的Pokemon Bank及Poke Mover（Transporter）继续本地工作；离线模式由本地假服务器回答原本的服务请求，文档特别说明这是社区自定义架构，不代表官方服务器设计。\n\n项目文档描述本地存取、箱子管理、多用户和按配置重现礼物；Mover把受支持的第五世代与VC第一／二世代存档转入本地Bank。可在官方服务仍可用时下载线上Bank，但本地数据不能直接上传回服务端；不支持Pokémon HOME传输，不能伪造官方认可的tracker ID。服务器筛查仅模拟社区已知规则，并非完整复刻。部分旧版VC转换与中文编码选项默认关闭，范围受限；不概括成所有世代数据完全兼容。\n\nREADME要求备份Bank和游戏存档，使用受支持的v1.5基础应用与Luma3DS；构建所需原始解密／解压代码、ExHeader与RomFS须由用户合法取得，不随仓库分发。文档还警告强制解锁不匹配存档可能丢失上次未完成传输的宝可梦。公开文档和AI披露提供可检查的实现背景，不是存档无损、官方规则等价或安全审计证明；未下载原作、构建补丁、运行3DS或独立复测。REA未提及。",
+    "sources": [
+      {"label": "候选：Trey Gwn的Codex与工时转述，2026-11-01", "url": "https://x.com/i/status/2116910402646769836"},
+      {"label": "补充父串：Professor Rex的发布介绍，2026-10-31，早于窗口", "url": "https://x.com/i/status/2116530772488184281"},
+      {"label": "补充：固定项目README及AI披露，2026-11-01 19:05提交，早于窗口", "url": "https://github.com/Wokann/bank_and_mover_offline_patch/blob/c709ec4d28cda0d7935b9ac11bc256e5b841e468/README.md"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、30浏览、0转发；不借用父帖热度作为本候选快照。", "三个月与停服四个月为评论者说法；AI参与有项目明确披露，功能仍未在本合集运行。"],
+    "en": {
+      "title": "Pokémon Bank/Mover: Wokann's public Codex-assisted offline patch does not support HOME transfer",
+      "summary": "A commenter credits Codex; the pinned README explicitly discloses AI-assisted decompilation analysis, patch design, coding and review. A local 3DS fake server preserves Bank/Mover workflows, not the complete official server.",
+      "description": "At 23:09:04 Beijing time on November 1, 2026, Trey Gwn (@treygwinn), discussing Wokann's Pokémon Bank offline patch, credits Codex with reducing production time. He says it appears work began in August and shipped in three months, and claims Bank closes in four months. These are a commenter's timing inference and shutdown claim, not an official schedule or controlled AI-efficiency comparison verified here. The additionally read parent conversation includes Professor Rex's October 31, 22:00 release account: downloading existing online Pokémon as a backup, 3DS deposits/withdrawals, offline Poké Transporter and old Mystery Gifts. That parent predates the candidate window and is background only.\n\nThe README of Wokann/bank_and_mover_offline_patch was additionally read at pinned commit c709ec4d28cda0d7935b9ac11bc256e5b841e468, dated November 1 at 19:05:24 Beijing time, before this window. The project explicitly discloses AI tools including OpenAI Codex for analyzing decompiled output, designing patches, coding and review. Its purpose is continued local use of Pokemon Bank and Poke Mover/Transporter on Nintendo 3DS. In Offline Mode a local fake server answers requests originally sent to official services; the documentation explicitly calls this a custom community architecture, not the official server's design.\n\nThe documentation describes local storage, box organization, multiple users and configured gift replays. Mover transfers supported Gen5 and VC Gen1/2 saves into the local Bank. The official Bank can be downloaded while its service is available, but local data cannot be uploaded directly back. Pokémon HOME transfer is unsupported, and officially accepted tracker IDs cannot be forged. Server screening only simulates community-documented rules rather than reproducing all official checks. Selected old VC conversion and Chinese-encoding options are disabled by default and limited in scope, not complete compatibility across every generation.\n\nThe README requires Bank/game-save backups, supported v1.5 base applications and Luma3DS. Original decrypted/decompressed code, ExHeader and RomFS inputs must be legally obtained by users and are not distributed. It also warns forced unlocking of a mismatched save may lose Pokémon from the last unfinished transfer. Public documentation and AI disclosure provide inspectable implementation context, not proof of lossless saves, official-rule equivalence or security auditing. No original title was downloaded, patch built, 3DS run or independent retest performed here. REA is not mentioned.",
+      "metadata": ["Candidate snapshot: 0 likes, 30 views, 0 reposts. The parent's engagement is not borrowed as this candidate's snapshot.", "Three months and shutdown in four months are commenter claims. AI participation is explicitly disclosed by the project, but functionality was not run here."],
+      "source_labels": ["Candidate: Trey Gwn's Codex and timing account, November 1, 2026", "Supplementary parent conversation: Professor Rex's release introduction, October 31, 2026, before the window", "Supplementary pinned project README and AI disclosure, committed November 1, 2026 at 19:05, before the window"]
+    }
+  },
+  {
+    "id": "elementor-pro-rea-lightweight-theme-builder-idea",
+    "title": "Elementor Pro：Aakash希望用REA做轻量快速的主题构建器",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Aakash Kavaiya请求REA辅助的Elementor Pro替代品，保留广泛定制又更轻更快；没有实现、性能或兼容性结果。",
+    "description": "2026年11月1日23:35:46（北京时间），Aakash Kavaiya（@aakashkavaiya）请求有人用REA做Elementor Pro的clone，想要轻量、快速且支持各种定制的主题构建器。Elementor Pro是WordPress生态的可视化网站／主题构建工具；此处是一个有具体软件目标和性能诉求的替代品idea。\n\n作者类比此前Adobe软件的传播，但没有给参考项目或证明那是逆向成功；不沿用该类比作事实。没有目标版本、插件文件、模板兼容需求、研究方法、仓库、基准或开发进展，未证明WordPress集成和复杂页面兼容，也不推断可免费复用原版资产或绕过许可。未运行REA或安装WordPress／Elementor，按未实施愿望保留。",
+    "sources": [{"label": "Aakash请求REA辅助Elementor Pro替代品，2026-11-01", "url": "https://x.com/i/status/2116917120227524923"}],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、10浏览、0转发；更轻更快是需求，不是测量结果。"],
+    "en": {
+      "title": "Elementor Pro: Aakash asks for a lightweight, fast REA-assisted theme builder",
+      "summary": "Aakash Kavaiya wants an Elementor Pro alternative with broad customization and lower weight/higher speed. No implementation, performance or compatibility results are supplied.",
+      "description": "At 23:35:46 Beijing time on November 1, 2026, Aakash Kavaiya (@aakashkavaiya) asks someone to use REA to make an Elementor Pro clone: a lightweight, very fast theme builder with broad customization. Elementor Pro is a visual website/theme-building tool in the WordPress ecosystem. This is an alternative-product idea with a specific software target and performance goals.\n\nThe author compares it with circulating Adobe-software stories but supplies no reference project or proof of successful reversing there; the analogy is not adopted as fact. No target version, plugin files, template-compatibility requirements, research method, repository, benchmark or development progress is supplied. WordPress integration and complex-page compatibility are unproven; permission to reuse original assets or bypass licensing is not inferred. No REA execution or WordPress/Elementor installation occurred here. Retained as an unimplemented request.",
+      "metadata": ["Candidate snapshot: 0 likes, 10 views, 0 reposts. Lighter and faster are requirements, not measured results."],
+      "source_labels": ["Aakash requests a REA-assisted Elementor Pro alternative, November 1, 2026"]
+    }
+  },
+  {
+    "id": "claude-widget-design-rules-community-inference",
+    "title": "Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露",
+    "category": "algorithms", "rea": "unknown", "status": "unverified",
+    "summary": "Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。",
+    "description": "2026年11月1日23:43:03（北京时间），Gabe（@fishjar）回复Unicorn（@ohayou792），称所谓Claude内部组件设计系统提示词并非官方泄露，而是社区从生成产物逆向总结的提示词合集，提醒不要当官方文档使用。保留为从AI输出推断生成规范的具体报告及来源纠正，而不是认证提示词真实内容。\n\n补读同日21:25:58父帖，其把材料称作“泄露”，给出七组细则：流式输出的style／内容／script顺序、扁平透明宿主适配、Tabler线性图标、字体字号和400／500字重、CSS语义变量与暗色模式、卡片／iframe布局及diagram、mockup等视觉模块限制。具体例子包括最小字号11px、卡片圆角12px、禁止fixed定位和要求sendPrompt交互；这些只是帖中规范内容，不是本合集测得的Claude行为或官方契约。\n\n没有可追溯的原始系统提示、获取记录、社区仓库、重建实验、版本范围或逐条输出测试，父帖与回复的来源解释冲突未由官方材料解决。未确认社区用AI辅助推断还是人工整理，REA和研究模型均未知。不能把可用设计建议升级成机密泄露、完整复原或复制审美能力；未执行其中任何提示或生成测试。",
+    "sources": [
+      {"label": "候选：Gabe纠正为社区产物反推而非官方泄露，2026-11-01", "url": "https://x.com/i/status/2116918952693825772"},
+      {"label": "补充父帖：Unicorn整理Claude组件规范并称泄露，2026-11-01", "url": "https://x.com/i/status/2116884456006897800"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、188浏览、0转发；不以父帖传播量认证规范来源。"],
+    "en": {
+      "title": "Claude widget design rules: Gabe calls them community inference from outputs, not an official prompt leak",
+      "summary": "Gabe corrects the claimed provenance of a Claude widget-design rule collection. The parent lists streaming HTML, icons, typography and dark-mode constraints but does not establish an internal official prompt.",
+      "description": "At 23:43:03 Beijing time on November 1, 2026, Gabe (@fishjar) replies to Unicorn (@ohayou792) that the purported internal Claude component-design system prompt is not an official leak but a community prompt collection inferred from generated outputs, warning against treating it as official documentation. Retained as a specific AI-output-to-rule inference report and provenance correction, not authentication of the prompt's contents.\n\nThe additionally read parent at 21:25:58 calls the material a leak and presents seven groups of rules: style/content/script order during streaming; flat, transparent integration into the host; Tabler outline icons; typography and 400/500 weights; semantic CSS variables and dark mode; card/iframe layout; and diagram, mockup and other visual-module constraints. Examples include an 11px minimum font, 12px card radius, no fixed positioning and sendPrompt interactions. These are rules printed in a post, not Claude behavior measured here or an official contract.\n\nThere is no traceable original system prompt, acquisition record, community repository, reconstruction experiment, version scope or per-rule output test. The conflicting provenance accounts in parent and reply were not resolved with official material. Whether the community used AI assistance or manual inference is unconfirmed; REA and the research model are unknown. Useful design advice is not elevated into a secret leak, complete recovery or duplication of aesthetic judgment. No listed prompt was executed or generation test performed here.",
+      "metadata": ["Candidate snapshot: 0 likes, 188 views, 0 reposts. The parent's reach is not authentication of the rules' provenance."],
+      "source_labels": ["Candidate: Gabe describes community output inference rather than an official leak, November 1, 2026", "Supplementary parent: Unicorn's Claude widget-rule collection and leak claim, November 1, 2026"]
+    }
+  },
+  {
+    "id": "mr-matt-windows-pinball-claude-rg35xx-port",
+    "title": "Windows弹球到RG35XX：Mr. Matt称Claude基于既有反编译做掌机移植",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Mr. Matt为随身玩童年Windows弹球，让Claude利用开源反编译做Anbernic RG35XX版本；未提供可确认的仓库、构建或性能数据。",
+    "description": "2026年11月1日23:54:21（北京时间），Mr. Matt（@TheOneMrMatt）回复Dave W Plummer，回忆Windows98电脑上的弹球游戏，称为了随身玩，让Claude利用其开源反编译做Anbernic RG35XX掌机移植，并附视频链接。按从现有反编译代码做AI辅助移植的自述收录，不写成Claude自行恢复原始机器码。\n\n补读同日09:38:54、早于窗口的父帖，Dave讨论把Pinball放进Windows的历史与权利问题，明确自己不代表微软，并认为在Windows外分发或开源原代码的权利复杂。父帖只用来确定游戏语境，不是对该移植的认可或授权；原作权利不因有社区反编译而消失。\n\n候选没有给反编译仓库、具体提交、RG35XX硬件／系统版本、控制映射、资源来源、构建日志、帧率或完整游玩记录。视频未在本合集观看，未下载原游戏或运行掌机版本；“能随身玩”是作者报告，兼容性与游戏资产许可仍未核验。REA未提及。",
+    "sources": [
+      {"label": "Mr. Matt的Claude／RG35XX弹球移植自述，2026-11-01", "url": "https://x.com/i/status/2116921795043377214"},
+      {"label": "补充父帖：Dave谈Windows Pinball历史与权利，早于窗口，2026-11-01", "url": "https://x.com/i/status/2116706513683460548"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["候选快照0赞、11浏览、0转发；开源反编译的具体身份未确认。"],
+    "en": {
+      "title": "Windows Pinball on RG35XX: Mr. Matt reports a Claude-assisted port from an existing decompilation",
+      "summary": "To play a childhood Windows pinball game on the go, Mr. Matt says Claude used an open-source decompilation to make an Anbernic RG35XX port. A confirmed repository, build and performance data are absent.",
+      "description": "At 23:54:21 Beijing time on November 1, 2026, Mr. Matt (@TheOneMrMatt) replies to Dave W Plummer, recalling the pinball game on his Windows 98 computer and saying he had Claude use its open-source decompilation to build an Anbernic RG35XX handheld port for play on the go. He links a video. Included as a report of AI-assisted porting from existing decompiled code, not Claude independently recovering the original machine code.\n\nThe additionally read parent, from 09:38:54 that day before the window, discusses putting Pinball into Windows and the rights involved. Dave explicitly says he does not represent Microsoft and considers rights for distribution outside Windows or open-sourcing the original code complicated. The parent identifies the game context only; it is not approval or authorization of this port. Community decompilation does not erase rights in the original work.\n\nThe candidate supplies no decompilation repository, commit, RG35XX hardware/system revision, control mapping, asset source, build log, frame rate or full playthrough. The video was not watched here, and no original game was downloaded or handheld version run. Play on the go is the author's report; compatibility and asset permissions remain unverified. REA is not mentioned.",
+      "metadata": ["Candidate snapshot: 0 likes, 11 views, 0 reposts. The specific open-source decompilation is unconfirmed."],
+      "source_labels": ["Mr. Matt's Claude/RG35XX Pinball-port account, November 1, 2026", "Supplementary parent: Dave on Windows Pinball history and rights, before the window, November 1, 2026"]
+    }
+  },
+  {
     "id": "pacarmerah-claude-cnc-firmware-tinkering",
     "title": "CNC机床固件：Pacarmerah称把Claude用于固件修改与关键编码",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
@@ -171,18 +394,22 @@
   },
   {
     "id": "rea-growth-lovable-company-timeline-skill-report",
-    "title": "REA-growth：按时间线拆解企业增长的Agent Skill与Lovable成本自述",
+    "title": "REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制",
     "category": "algorithms", "rea": "other-ai", "status": "related-project",
-    "summary": "帖子介绍REA-growth按SEO、AI搜索、广告与社交时间线分析企业增长，称Lovable拆解花费0.58美元；不是morluto/rea二进制逆向的验证。",
-    "description": "2026年11月1日15:32:10（北京时间），一篇帖子介绍开源Agent Skill“/REA-growth”：输入公司名称，工具据称整理该公司的增长行动时间线，覆盖SEO、AI搜索、广告和社交，并称完整Lovable分析成本为0.58美元。目标是从可见商业动作反推增长策略，按广义AI辅助模式分析相关项目保留，而不是软件二进制重建案例。\n\n候选没有提供完整Lovable报告、证据账本、执行日志、所用模型、计费组成或可确认的仓库路径。“每一步行动”是宣传用语，不证明完整覆盖、因果归因或公司内部策略已还原；0.58美元只是一轮作者报告，不是普遍运行成本。名称含REA不代表使用morluto/rea，未确认二者技术关系。本合集未安装Skill或运行分析。",
-    "sources": [{"label": "REA-growth企业时间线Skill与Lovable成本介绍，2026-11-01", "url": "https://x.com/i/status/2116795419896487981"}],
-    "snapshot_date": "2026-11-01", "metadata": ["候选快照2赞、87浏览、0转发；0.58美元为帖子自报，未取得完整分析。"],
+    "summary": "REA-growth据称用Treg汇总公开增长轨迹；Supersocks补Tesla部分分析0.31美元和窗口遗漏，Salman给Treg渠道拆解，均非内部策略或因果关系的独立验证。",
+    "description": "2026年11月1日15:32:10（北京时间），较早帖子介绍开源Agent Skill“/REA-growth”：输入公司名称，整理SEO、AI搜索、广告和社交的增长行动时间线，并称完整Lovable分析花费0.58美元。保留为从公开商业轨迹反推策略的AI辅助相关项目，不是软件二进制重建，也未确认与morluto/rea有技术关系。\n\n同日21:41:39，Supersocks（@iamsupersocks）补充：Skill可放进Claude Code、Cursor或Codex，输入域名，经Treg按调用获取SEO、广告库、社交与企业数据。帖子称超过4000 API、121供应商，这是介绍者口径而非本合集盘点。分析先看网站、价格、注册、追踪像素和融资，再看两年月度搜索流量、关键词、AI买家问答、广告、社交、外链和招聘，把行动与流量对齐，输出十项可借鉴动作与提示，并将结论标为观察到或推断。\n\nSupersocks自报Tesla部分分析数据费0.31美元：ChatGPT在三道买家问题中都先提Tesla，美国Google约6000条广告、Meta两条活跃广告指向股东投票，Musk受众约2.41亿。这些是其查询快照与解释，未独立重查；广告条数不等于独立投放活动或支出。作者同时指出两年流量、六个月新闻的窗口遗漏2006年创始计划，明确当前获客轨迹不等于长期战略。0.58与0.31美元不是一般总成本保证，未提供完整账单或模型费用。\n\n21:49:58，Salman Bareesh（@salbareesh）称把Treg自己的REA-growth用于Treg：近月23条原创X帖共148万展示，其中四条占140万，其余19条中位约3000；GitHub6920星、608 forks，母品牌已有7570星；Product Hunt 8月17日154票、当日第七，未找到HN发布。其观察还包括25条创始人帖约5.77万展示、10个YouTube视频约2.4万浏览，读过的六个描述未标赞助；这不证明无人获赞助。\n\nSalman列Google46条广告、所读40条中30条视频；未找到Meta页面，TikTok零广告，LinkedIn未见近六个月公司帖。SEO称593个站点地图页、41个排名关键词、每月约7.5次Google访问；向ChatGPT、Gemini、Copilot问五个买家问题，Treg为0／5，另见15个域名链接llms.txt。上述零发现均受检索和样本限制，不证明渠道不存在；关联观察不能证明四条帖子造成全部增长。\n\n未取得完整Lovable／Tesla证据账本、原始API响应、确定仓库或执行日志，没有安装Skill、调用数据服务或复跑分析。名称、数据范围、工时和数字按帖子归因，不把公开轨迹重建升级为公司内部策略恢复或因果证明。",
+    "sources": [
+      {"label": "较早REA-growth与Lovable成本介绍，2026-11-01", "url": "https://x.com/i/status/2116795419896487981"},
+      {"label": "Supersocks的流程、Tesla部分分析与窗口限制，2026-11-01", "url": "https://x.com/i/status/2116888403270644185"},
+      {"label": "Salman Bareesh用REA-growth分析Treg渠道的自述，2026-11-01", "url": "https://x.com/i/status/2116890496350212361"}
+    ],
+    "snapshot_date": "2026-11-01", "metadata": ["较早候选2赞、87浏览、0转发；Supersocks候选11赞、834浏览、0转发；Salman候选3赞、137浏览、0转发。", "费用、API数量、广告／流量／受众和渠道统计均为来源自报快照，未独立重查或证明增长因果。"],
     "en": {
-      "title": "REA-growth: an agent skill for company-growth timelines and a reported Lovable analysis cost",
-      "summary": "A post presents REA-growth for analyzing company growth across SEO, AI search, ads and social timelines, claiming a $0.58 Lovable teardown. This is not validation of morluto/rea binary reversing.",
-      "description": "At 15:32:10 Beijing time on November 1, 2026, a post introduces the open-source agent skill /REA-growth. Given a company name, it reportedly maps growth moves over time across SEO, AI search, advertising and social channels, claiming a complete Lovable teardown cost $0.58. Its target is inferring growth strategy from visible business activity. Retained as a related project in broader AI-assisted pattern analysis, not a binary-software reconstruction case.\n\nThe candidate supplies no complete Lovable report, evidence ledger, execution logs, model, billing breakdown or confirmed repository path. Every move is promotional wording, not evidence of exhaustive coverage, causal attribution or recovery of internal company strategy. The $0.58 figure is one reported run, not a general operating cost. REA in the name does not establish use of morluto/rea, and no technical relationship between them is confirmed. This collection did not install the skill or run an analysis.",
-      "metadata": ["Candidate snapshot: 2 likes, 87 views, 0 reposts. The post reports $0.58; the complete analysis was not obtained."],
-      "source_labels": ["REA-growth company-timeline skill and reported Lovable analysis cost, November 1, 2026"]
+      "title": "REA-growth: Lovable, Tesla and Treg growth teardowns with time-window and causality limits",
+      "summary": "REA-growth reportedly gathers public growth traces through Treg. Supersocks adds a $0.31 partial Tesla analysis and missing history; Salman adds a Treg channel teardown. Neither independently validates internal strategy or causation.",
+      "description": "At 15:32:10 Beijing time on November 1, 2026, an earlier post introduces the open-source agent skill /REA-growth: supply a company name to map SEO, AI search, advertising and social growth moves over time, with a reported $0.58 full Lovable analysis. Retained as related AI-assisted inference from public business traces, not binary reconstruction. A technical relationship with morluto/rea is unconfirmed.\n\nAt 21:41:39 that day, Supersocks (@iamsupersocks) says the skill runs in Claude Code, Cursor or Codex, takes a domain and obtains SEO, ad-library, social and business data through per-call Treg access. Over 4,000 APIs and 121 providers are the introducer's figures, not a catalog count here. The workflow examines sites, prices, registration, tracking pixels and funding, then two years of monthly search traffic, keywords, AI buyer questions, ads, social posts, backlinks and hiring. It aligns actions with traffic and outputs ten suggested moves with prompts, labeling findings observed or inferred.\n\nSupersocks reports $0.31 in data charges for a partial Tesla analysis: ChatGPT named Tesla first in all three buyer questions, about 6,000 US Google ads, two active Meta ads seeking shareholder votes, and Musk's roughly 241-million audience. These are his query snapshots and interpretation, not independently rechecked. Ad counts are not distinct campaigns or spending. He also notes the two-year traffic/six-month news window misses the founding 2006 plan, explicitly distinguishing current acquisition traces from long-term strategy. Neither $0.58 nor $0.31 guarantees general total cost; complete billing and model costs are absent.\n\nAt 21:49:58, Salman Bareesh (@salbareesh) says he ran Treg's own REA-growth on Treg: 23 original X posts in the past month had 1.48 million impressions, four accounting for 1.40 million, with about 3,000 median for the other 19; GitHub had 6,920 stars and 608 forks, while the parent brand already had 7,570 stars. Product Hunt reportedly gave it 154 votes and seventh place on August 17; he found no HN launch. He also reports 25 founder posts with about 57,700 impressions and ten YouTube videos with about 24,000 views. None of six descriptions he read disclosed sponsorship, which does not prove no sponsorship existed.\n\nSalman lists 46 Google ads, with 30 videos among the 40 read; no Meta page found, zero TikTok ads and no company LinkedIn posts seen in six months. SEO figures are 593 sitemap pages, 41 ranking keywords and about 7.5 Google visits per month. Five buyer questions to ChatGPT, Gemini and Copilot yielded 0/5 for Treg; he also found llms.txt links from 15 domains. All zero findings are bounded by searches and samples, not proof channels do not exist. Correlation does not establish that four posts caused all growth.\n\nNo complete Lovable/Tesla evidence ledger, original API responses, confirmed repository or execution logs were obtained here. The skill was not installed, data services called or analysis rerun. Names, data scope, timing and figures are attributed to posts. Reconstruction of public traces is not elevated into recovery of internal company strategy or causal proof.",
+      "metadata": ["Earlier candidate: 2 likes, 87 views, 0 reposts. Supersocks candidate: 11 likes, 834 views, 0 reposts. Salman candidate: 3 likes, 137 views, 0 reposts.", "Costs, API counts, ads/traffic/audiences and channel figures are source-reported snapshots, not independently rechecked or proof of growth causation."],
+      "source_labels": ["Earlier REA-growth introduction and reported Lovable cost, November 1, 2026", "Supersocks on workflow, partial Tesla analysis and window limits, November 1, 2026", "Salman Bareesh's REA-growth analysis of Treg channels, November 1, 2026"]
     }
   },
   {
@@ -633,13 +860,24 @@
   },
   {
     "id":"duodesk-opus-open-engine-desktop-sharing-report",
-    "title":"DuoDesk：Opus改造开源共享引擎，而非已证实逆向TeamViewer",
+    "title":"DuoDesk：Opus改造TwinDesk开源共享引擎，而非已证实逆向TeamViewer",
     "category":"apps", "rea":"other-ai", "status":"unverified",
-    "summary":"Movez称11个Opus Agent改约370文件，让Windows与Mac共享输入和剪贴板；正文从开源引擎读码换品牌开始，尚未核验源码与跨平台功能。",
-    "description":"2026年10月31日22:29:42（北京时间），Movez（@0xMovez）称用Claude Code／Opus5.5做出DuoDesk，让Windows PC和MacBook共享鼠标、键盘、剪贴板与跨屏文件，亦宣传旧笔电或平板副屏、免账户、无云与加密。标题声称逆向TeamViewer／AnyDesk，但步骤实际是交给AI一个未具名开源屏幕共享引擎，读Windows、Mac、Linux、Android及原生输入辅助代码，再由11个并行Agent给约370文件换品牌，其中一个专管不要重命名的兼容字段。不能把现有开源代码改造说成从专有二进制恢复全部协议。\n\n作者说搭GitHub Actions按tag产出.dmg、.exe、AppImage、.deb、.apk，Mac在云端Apple硬件编译；首次跨屏鼠标卡边，Opus读日志定位并补拒绝原因日志。另一次测试部署使在线站点下线，称20秒回滚并收走Agent部署权。两天、本人零行代码和恢复时间均为作者口径，没有工作流运行或日志证明。\n\n23:49:46同名DuoDesk流程再次出现，增加远端应用窗口、手机电话／短信／通知／摄像头桥接，以及Wi-Fi、USB、Bluetooth宣传。本轮将其并入同案补证，不另计项目；这些额外功能也没有逐项验证。已补查首帖作者，但未观看视频、取得明确上游及固定源码、查看安装包或测试双机。加密与无云不是安全审计结论，站点回滚也不证明应用完整兼容；按未核验AI辅助开源引擎适配报告保留，REA未提及。",
-    "sources":[{"label":"Movez的DuoDesk／Opus步骤及失败修复报告，2026-10-31 22:29","url":"https://x.com/i/status/2116538107017212194"},{"label":"同项目后续手机桥接与连接方式宣传，2026-10-31 23:49","url":"https://x.com/i/status/2116558255040180315"}],
-    "snapshot_date":"2026-10-31", "metadata":["首候选60赞、2553浏览、1转发；后续8赞、365浏览、0转发。","11 Agent、约370文件、两天、20秒均为作者报告，不是本合集计时或验证。"],
-    "en":{"title":"DuoDesk: Opus adapts an open sharing engine, not verified TeamViewer reverse engineering","summary":"Movez reports 11 Opus agents changing roughly 370 files for Windows/Mac shared input and clipboard. The actual workflow begins with an open-source engine and rebranding; source and cross-platform features remain unverified.","description":"At 22:29:42 Beijing time on October 31, 2026, Movez (@0xMovez) reports building DuoDesk with Claude Code/Opus 5.5 for shared Windows PC/MacBook mouse, keyboard, clipboard and cross-screen files, also advertising old-laptop/tablet second displays, no account, no cloud and encryption. The headline claims TeamViewer/AnyDesk reverse engineering, but the steps begin by supplying an unnamed open-source screen-sharing engine, reading its Windows, Mac, Linux, Android and native input-helper code, then rebranding roughly 370 files with 11 parallel agents. One agent decides what must not be renamed to retain pairing compatibility. Adapting existing open code is not recovery of every protocol from proprietary binaries.\n\nThe author describes tag-triggered GitHub Actions for .dmg, .exe, AppImage, .deb and .apk installers, with Mac builds on cloud Apple hardware. An initial cursor crossing stalled at the Windows edge; Opus reportedly read logs, found the cause and added explicit crossing-refusal logs. A test deployment also took down the live website, reportedly rolled back in 20 seconds before agents lost deployment permission. Two days, zero personally written lines and recovery time are author figures, without workflow runs or logs as evidence.\n\nAt 23:49:46, the same named DuoDesk workflow appears again, adding remote-app windows, phone calls/texts/notifications/camera bridging and Wi-Fi, USB and Bluetooth claims. It supplements this entry rather than creating another project; those additions were not individually tested either. The first author's identity was checked, but no video was watched, upstream identified, pinned code obtained, installer inspected or two-computer test run. Encryption/no-cloud claims are not security audits, and website rollback does not validate complete app compatibility. Retained as unverified AI-assisted open-engine adaptation. REA is unspecified.","metadata":["First candidate: 60 likes, 2,553 views, 1 repost; later candidate: 8 likes, 365 views, 0 reposts.","11 agents, roughly 370 files, two days and 20 seconds are author reports, not measurements or validation here."],"source_labels":["Movez's DuoDesk/Opus workflow and failure-repair report, October 31, 2026 at 22:29","Later same-project phone bridging and connection claims, October 31, 2026 at 23:49"]}
+    "summary":"Movez称11个Opus Agent改约370文件；Ahmed Reza质疑逆向说法，固定README确认DuoDesk为Inuka Asith的TwinDesk分支、沿用GPL。功能和安全仍未运行核验。",
+    "description":"2026年10月31日22:29:42（北京时间），Movez（@0xMovez）称用Claude Code／Opus5.5做出DuoDesk，让Windows PC和MacBook共享鼠标、键盘、剪贴板与跨屏文件，亦宣传旧笔电或平板副屏、免账户、无云与加密。标题声称逆向TeamViewer／AnyDesk，但步骤实际是交给AI一个当时未具名的开源屏幕共享引擎，读Windows、Mac、Linux、Android及原生输入辅助代码，再由11个并行Agent给约370文件换品牌，其中一个专管不要重命名的兼容字段。不能把现有开源代码改造说成从专有二进制恢复全部协议。\n\n作者说搭GitHub Actions按tag产出.dmg、.exe、AppImage、.deb、.apk，Mac在云端Apple硬件编译；首次跨屏鼠标卡边，Opus读日志定位并补拒绝原因日志。另一次测试部署使在线站点下线，称20秒回滚并收走Agent部署权。两天、本人零行代码和恢复时间均为作者口径，没有工作流运行或日志证明。23:49:46同项目追加远端应用窗口、手机电话／短信／通知／摄像头桥接，以及Wi-Fi、USB、Bluetooth宣传，未逐项测试。\n\n11月1日23:57:01，Ahmed Reza（@AhmedReza）回复Movez后续宣传，指出其仓库描述为TwinDesk的Aurora改版，第一步就是提供开源引擎，认为应注明原作者而非称逆向。补读0xCodez/DuoDesk固定提交50125ca0c4f73ab3253e739dd8a6ec9cf1a8444b的README，提交时间10月31日23:09:36北京时间，早于本候选窗口。Credits明确写是Inuka Asith的TwinDesk分支，采用GNU GPL v3.0并称保留原版权说明；也注明部分代码来自MIT许可DeskPad。仓库元数据的Aurora描述与评论对应，上游归属不再未知。\n\n固定README是补充来源，不是新候选，也不证明所有重命名、许可履行或跨平台功能已被审计。保留已有来源与ID，纠正此前尚未取得明确上游的证据限制。未观看视频、检查安装包、审计代码或测试双机；加密／无云不是安全结论，站点回滚也不证明完整兼容。按AI辅助开源引擎适配的未核验报告保留，REA未提及。",
+    "sources":[
+      {"label":"Movez的DuoDesk／Opus步骤及失败修复报告，2026-10-31 22:29","url":"https://x.com/i/status/2116538107017212194"},
+      {"label":"同项目后续手机桥接与连接方式宣传，2026-10-31 23:49","url":"https://x.com/i/status/2116558255040180315"},
+      {"label":"Ahmed Reza指出TwinDesk改版与原作者归属，2026-11-01","url":"https://x.com/i/status/2116922467797139641"},
+      {"label":"补充：DuoDesk固定README的Credits，2026-10-31提交，早于窗口","url":"https://github.com/0xCodez/DuoDesk/blob/50125ca0c4f73ab3253e739dd8a6ec9cf1a8444b/README.md"}
+    ],
+    "snapshot_date":"2026-11-01", "metadata":["较早首候选60赞、2553浏览、1转发；后续8赞、365浏览、0转发；新增质疑候选1赞、7浏览、0转发。","11 Agent、约370文件、两天、20秒均为作者报告，不是本合集计时或验证。","固定README确认自述分支归属，不等于许可证履行、加密或兼容性审计。"],
+    "en":{
+      "title":"DuoDesk: Opus adapts the open TwinDesk sharing engine, not verified TeamViewer reverse engineering",
+      "summary":"Movez reports 11 Opus agents changing roughly 370 files. Ahmed Reza challenges the reversing claim; a pinned README identifies DuoDesk as a GPL fork of Inuka Asith's TwinDesk. Features and security remain untested here.",
+      "description":"At 22:29:42 Beijing time on October 31, 2026, Movez (@0xMovez) reports building DuoDesk with Claude Code/Opus 5.5 for shared Windows PC/MacBook mouse, keyboard, clipboard and cross-screen files, also advertising old-laptop/tablet second displays, no account, no cloud and encryption. The headline claims TeamViewer/AnyDesk reverse engineering, but the steps begin by supplying an open-source screen-sharing engine unnamed at the time, reading its Windows, Mac, Linux, Android and native input-helper code, then rebranding roughly 370 files with 11 parallel agents. One agent decides what must not be renamed to retain pairing compatibility. Adapting existing open code is not recovery of every protocol from proprietary binaries.\n\nThe author describes tag-triggered GitHub Actions for .dmg, .exe, AppImage, .deb and .apk installers, with Mac builds on cloud Apple hardware. An initial cursor crossing stalled at the Windows edge; Opus reportedly read logs, found the cause and added explicit crossing-refusal logs. A test deployment also took down the live website, reportedly rolled back in 20 seconds before agents lost deployment permission. Two days, zero personally written lines and recovery time are author figures, without workflow runs or logs as evidence. At 23:49:46, the same project adds remote-app windows, phone calls/texts/notifications/camera bridging and Wi-Fi, USB and Bluetooth claims, without individual tests here.\n\nAt 23:57:01 on November 1, Ahmed Reza (@AhmedReza) replies to later Movez promotion, pointing out the repository describes an Aurora redesign of TwinDesk and the first step supplied an open engine. He asks for original-author credit rather than a reversing claim. The README of 0xCodez/DuoDesk was additionally read at pinned commit 50125ca0c4f73ab3253e739dd8a6ec9cf1a8444b, dated October 31 at 23:09:36 Beijing time, before this candidate window. Credits explicitly identify a fork of TwinDesk by Inuka Asith, GNU GPL v3.0 and a claim of retaining original copyright notices. Parts are also credited to MIT-licensed DeskPad. The repository metadata's Aurora description matches the comment; upstream attribution is no longer unknown.\n\nThe pinned README is supplementary evidence, not a new candidate or an audit of all renaming, license compliance or cross-platform features. Existing sources and ID are retained while correcting the earlier absence of an identified upstream. No video was watched, installer inspected, code audited or two-computer test run. Encryption/no-cloud claims are not security conclusions, and website rollback does not validate complete compatibility. Retained as an unverified AI-assisted open-engine adaptation report. REA is unspecified.",
+      "metadata":["Earlier first candidate: 60 likes, 2,553 views, 1 repost; later: 8 likes, 365 views, 0 reposts. New critical candidate: 1 like, 7 views, 0 reposts.","11 agents, roughly 370 files, two days and 20 seconds are author reports, not measurements or validation here.","The pinned README confirms the stated fork attribution, not license-compliance, encryption or compatibility auditing."],
+      "source_labels":["Movez's DuoDesk/Opus workflow and failure-repair report, October 31, 2026 at 22:29","Later same-project phone bridging and connection claims, October 31, 2026 at 23:49","Ahmed Reza identifies the TwinDesk redesign and original-author attribution, November 1, 2026","Supplementary pinned DuoDesk README Credits, committed October 31, 2026, before the window"]
+    }
   },
   {
     "id":"mass-effect-pinnacle-station-ai-rebuild-idea",

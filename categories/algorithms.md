@@ -2,8 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](../cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
+- [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](../cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](../cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**
-- [REA-growth：按时间线拆解企业增长的Agent Skill与Lovable成本自述](../cases/rea-growth-lovable-company-timeline-skill-report.md) — 帖子介绍REA-growth按SEO、AI搜索、广告与社交时间线分析企业增长，称Lovable拆解花费0.58美元；不是morluto/rea二进制逆向的验证。 **[其他 AI 逆向 · 相关项目]**
+- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](../cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth据称用Treg汇总公开增长轨迹；Supersocks补Tesla部分分析0.31美元和窗口遗漏，Salman给Treg渠道拆解，均非内部策略或因果关系的独立验证。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](../cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](../cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](../cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**

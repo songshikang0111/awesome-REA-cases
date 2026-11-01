@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Pokémon Bank／Mover：Wokann公开Codex辅助离线补丁，不支持HOME传输](../cases/wokann-pokemon-bank-mover-codex-offline-patch.md) — 评论者提到Codex辅助；固定项目README明确AI参与反编译分析、补丁设计、编码和审阅，以3DS本地假服务器保留Bank／Mover流程，非官方服务器完整复刻。 **[其他 AI 逆向 · 进行中]**
+- [Windows弹球到RG35XX：Mr. Matt称Claude基于既有反编译做掌机移植](../cases/mr-matt-windows-pinball-claude-rg35xx-port.md) — Mr. Matt为随身玩童年Windows弹球，让Claude利用开源反编译做Anbernic RG35XX版本；未提供可确认的仓库、构建或性能数据。 **[其他 AI 逆向 · 待验证]**
 - [Persona 1：读者设想借REA重做Persona 5式漫画叙事](../cases/persona1-persona5-manga-rea-remake-idea.md) — 读者想用REA、时间与人工投入，把Persona 1做成Persona 5风格、漫画式叙事的版本；没有启动项目或完成证据。 **[REA · 待验证]**
 - [Getting Up：玩家盼AI逆向修复Steam版宽屏与运行问题](../cases/getting-up-ai-widescreen-repair-idea.md) — 玩家提出为Getting Up制作正常运行的宽屏版本，称Steam版即使用Mod仍有问题；没有实施或完成证据。 **[未确认使用 REA · 待验证]**
 - [DX RUST：Deus Ex的Rust／Bevy重实现，公开文档仍待完整通关测试](../cases/dx-rust-deus-ex-bevy-ai-reimplementation-report.md) — 报道将DX RUST归于Claude辅助；公开Rust／Bevy项目读取自备Deus Ex文件，声明全游戏已实现，但1.0前仍需完整通关、逐图存档往返与性能测试。 **[其他 AI 逆向 · 进行中]**

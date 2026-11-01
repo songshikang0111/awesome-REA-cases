@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1429 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1441 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（311）
-- [硬件与设备互通](categories/hardware.md)（379）
-- [应用与客户端](categories/apps.md)（586）
-- [算法与功能重建](categories/algorithms.md)（153）
+- [游戏与游戏保存](categories/games.md)（313）
+- [硬件与设备互通](categories/hardware.md)（383）
+- [应用与客户端](categories/apps.md)（590）
+- [算法与功能重建](categories/algorithms.md)（155）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Pokémon Bank／Mover：Wokann公开Codex辅助离线补丁，不支持HOME传输](cases/wokann-pokemon-bank-mover-codex-offline-patch.md) — 评论者提到Codex辅助；固定项目README明确AI参与反编译分析、补丁设计、编码和审阅，以3DS本地假服务器保留Bank／Mover流程，非官方服务器完整复刻。 **[其他 AI 逆向 · 进行中]**
+- [Windows弹球到RG35XX：Mr. Matt称Claude基于既有反编译做掌机移植](cases/mr-matt-windows-pinball-claude-rg35xx-port.md) — Mr. Matt为随身玩童年Windows弹球，让Claude利用开源反编译做Anbernic RG35XX版本；未提供可确认的仓库、构建或性能数据。 **[其他 AI 逆向 · 待验证]**
 - [Persona 1：读者设想借REA重做Persona 5式漫画叙事](cases/persona1-persona5-manga-rea-remake-idea.md) — 读者想用REA、时间与人工投入，把Persona 1做成Persona 5风格、漫画式叙事的版本；没有启动项目或完成证据。 **[REA · 待验证]**
 - [Getting Up：玩家盼AI逆向修复Steam版宽屏与运行问题](cases/getting-up-ai-widescreen-repair-idea.md) — 玩家提出为Getting Up制作正常运行的宽屏版本，称Steam版即使用Mod仍有问题；没有实施或完成证据。 **[未确认使用 REA · 待验证]**
 - [DX RUST：Deus Ex的Rust／Bevy重实现，公开文档仍待完整通关测试](cases/dx-rust-deus-ex-bevy-ai-reimplementation-report.md) — 报道将DX RUST归于Claude辅助；公开Rust／Bevy项目读取自备Deus Ex文件，声明全游戏已实现，但1.0前仍需完整通关、逐图存档往返与性能测试。 **[其他 AI 逆向 · 进行中]**
@@ -340,6 +342,10 @@
 
 ### 硬件与设备互通
 
+- [车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关](cases/car-infotainment-rea-trim-feature-switch-idea.md) — Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。 **[REA · 待验证]**
+- [gm365的闲置Kindle：称CodeBuddy／DeepSeek辅助越狱后装微信读书](cases/gm365-kindle-deepseek-weread-jailbreak.md) — gm365把闲置Kindle越狱、安装微信读书列入DeepSeek V4.1 Flash硬件折腾成果；未给型号、固件或安装路线。 **[其他 AI 逆向 · 待验证]**
+- [小米温度计3：gm365称DeepSeek辅助刷固件，改作Claude额度显示器](cases/gm365-xiaomi-thermometer3-claude-quota-firmware.md) — gm365称用CodeBuddy中的DeepSeek V4.1 Flash折腾小米温度计3，刷固件显示Claude剩余订阅额度；没有固件或额度数据链路。 **[其他 AI 逆向 · 待验证]**
+- [罗技Master 3S：gm365称DeepSeek修复首次按快捷键失效](cases/gm365-logitech-master3s-first-shortcut-fix.md) — gm365称在CodeBuddy调用DeepSeek V4.1 Flash修好Master 3S首次快捷键无效；未说明改驱动、配置还是固件。 **[其他 AI 逆向 · 待验证]**
 - [CNC机床固件：Pacarmerah称把Claude用于固件修改与关键编码](cases/pacarmerah-claude-cnc-firmware-tinkering.md) — Pacarmerah区分工具用途：Codex做婚礼网站与邀请，Claude用于CNC固件折腾；未给机型、修改内容或实机结果。 **[其他 AI 逆向 · 待验证]**
 - [AMD Z3的μ-tag way predictor：Ayush Sharma称Agent辅助性能问题研究](cases/amd-z3-mu-tag-way-predictor-agent-report.md) — Ayush Sharma称自己的Agent为性能工程问题逆向AMD Z3的μ-tag way predictor；未公开模型、实验、映射或性能变化。 **[其他 AI 逆向 · 待验证]**
 - [DJ设备固件Mod：Raft Tone用iPhone相机让Claude观察测试与排错](cases/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone称用iPhone连续互通相机接MacBook，让Claude测试正在开发的DJ硬件固件Mod，测试约快五倍；未提供设备型号与日志。 **[其他 AI 逆向 · 进行中]**
@@ -722,6 +728,10 @@
 
 ### 应用与客户端
 
+- [Instagram Reels：sujal称Claude研究APK后，用Java把入口弹回信息流](cases/sujal-instagram-claude-reels-bounce-blocker.md) — 为减少刷Reels，sujal称USB调试提取Instagram APK并让Claude研究，约30行Java实现点Reels返回feed；无root、无修改App是作者说法。 **[其他 AI 逆向 · 待验证]**
+- [mika：黄小木提出Codex研究包名与service改名的未验证建议](cases/mika-codex-package-service-rename-idea.md) — 黄小木担心mika自动控制微信／小红书会触发风控，建议用Codex研究并换标识；无实施或降低风险的证据。 **[其他 AI 逆向 · 待验证]**
+- [Kensho Momentum仪表盘：Payal建议用REA／Claude Code研究替代](cases/kensho-momentum-dashboard-rea-claude-idea.md) — Payal Mantry回应付费股票研究仪表盘推广，建议用REA与Claude Code逆向；父帖可识别目标，但没有重建或数据接入结果。 **[REA · 待验证]**
+- [Elementor Pro：Aakash希望用REA做轻量快速的主题构建器](cases/elementor-pro-rea-lightweight-theme-builder-idea.md) — Aakash Kavaiya请求REA辅助的Elementor Pro替代品，保留广泛定制又更轻更快；没有实现、性能或兼容性结果。 **[REA · 待验证]**
 - [mcp-reverse：把静态分析、外部调试器与多AI协作接到同一MCP入口](cases/mcp-reverse-multi-client-binary-analysis-orchestration.md) — MalwareBibleJP介绍mcp-reverse 5.0.1编排Claude／Codex／Cursor与二进制工具；公开README可查，但后端、权限与简单模拟器边界不等于完成任意逆向。 **[其他 AI 逆向 · 相关项目]**
 - [SolidCraft：AI时代CAD替代品的转述，项目称依据公开文档独立设计](cases/solidcraft-ai-era-cad-alternative-report.md) — genZ_Tigers将SolidCraft与AI逆向联系；公开Rust参数化CAD提供MCP，但README说按公开文档、CAD惯例和用户反馈设计，不证明反编译Fusion或SolidWorks。 **[其他 AI 逆向 · 相关项目]**
 - [Exoframe／Nova：编排REA与可替换语义助手的本地优先设计](cases/exoframe-nova-local-rea-orchestration-design.md) — Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。 **[REA · 进行中]**
@@ -742,7 +752,7 @@
 - [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](cases/hyperos3-security-component-gpt-screen-audit.md) — MeT称GPT读出应用列表、语音反诈与三秒屏幕片段云检测实现；没有触发条件或动态证据，不等于全时录屏或已证明泄露。 **[其他 AI 逆向 · 待验证]**
 - [iPhone Superwhisper：Joe Dubs想用REA减少听写切换](cases/superwhisper-iphone-rea-keyboard-integration-idea.md) — Joe Dubs觉得iPhone听写体验笨重，询问REA能否研究键盘整合，减少切换与橙色提示；没有实现，也未证明系统隐私限制可绕过。 **[REA · 待验证]**
 - [Worldling5.2：Codex按手册重建Linux版WordPerfect5.1体验](cases/worldling52-codex-wordperfect51-linux-rebuild.md) — Lynn Cole用Go与Bubbletea重做童年DOS文字处理器，让Codex读规格教程；文档流程已入，UI与打印驱动仍在做，100%格式兼容只是目标。 **[其他 AI 逆向 · 进行中]**
-- [DuoDesk：Opus改造开源共享引擎，而非已证实逆向TeamViewer](cases/duodesk-opus-open-engine-desktop-sharing-report.md) — Movez称11个Opus Agent改约370文件，让Windows与Mac共享输入和剪贴板；正文从开源引擎读码换品牌开始，尚未核验源码与跨平台功能。 **[其他 AI 逆向 · 待验证]**
+- [DuoDesk：Opus改造TwinDesk开源共享引擎，而非已证实逆向TeamViewer](cases/duodesk-opus-open-engine-desktop-sharing-report.md) — Movez称11个Opus Agent改约370文件；Ahmed Reza质疑逆向说法，固定README确认DuoDesk为Inuka Asith的TwinDesk分支、沿用GPL。功能和安全仍未运行核验。 **[其他 AI 逆向 · 待验证]**
 - [伪激活器Olympic：Qiita作者报告AI／REA追踪RAT与清理残留](cases/qiita-rea-olympic-activator-malware-audit.md) — TOMOSIA-LinhND误执行CxxCxx pro activator.exe后，用AI／REA检查假源码、DLL与四片持久化；声称已清除且未泄露，但日志不能作为完备无泄露证明。 **[REA · 待验证]**
 - [Setup_Installer.exe：同一Qiita作者用AI／REA分析另一投放器](cases/qiita-rea-electron-installer-dropper-analysis.md) — 另一个CxxCxx Pro包被作者归为Electron dropper，报告21个诱饵文件、三重保护、Defender排除与投放链；自称静态分析却又提仿真解密，边界需保留。 **[REA · 待验证]**
 - [OKOK Libre：REA与GLM研究体脂秤APK，重建离线Android客户端](cases/okok-libre-rea-glm-scale-android.md) — JYunth报告分析OKOK International并重建无广告客户端；公开Kotlin实现支持部分OKOK蓝牙协议，固定主Manifest无联网权限，但未独立测试秤互通或公式等价。 **[REA · 进行中]**
@@ -1311,8 +1321,10 @@
 
 ### 算法与功能重建
 
+- [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
+- [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**
-- [REA-growth：按时间线拆解企业增长的Agent Skill与Lovable成本自述](cases/rea-growth-lovable-company-timeline-skill-report.md) — 帖子介绍REA-growth按SEO、AI搜索、广告与社交时间线分析企业增长，称Lovable拆解花费0.58美元；不是morluto/rea二进制逆向的验证。 **[其他 AI 逆向 · 相关项目]**
+- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth据称用Treg汇总公开增长轨迹；Supersocks补Tesla部分分析0.31美元和窗口遗漏，Salman给Treg渠道拆解，均非内部策略或因果关系的独立验证。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**

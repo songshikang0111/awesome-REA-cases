@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关](../cases/car-infotainment-rea-trim-feature-switch-idea.md) — Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。 **[REA · 待验证]**
+- [gm365的闲置Kindle：称CodeBuddy／DeepSeek辅助越狱后装微信读书](../cases/gm365-kindle-deepseek-weread-jailbreak.md) — gm365把闲置Kindle越狱、安装微信读书列入DeepSeek V4.1 Flash硬件折腾成果；未给型号、固件或安装路线。 **[其他 AI 逆向 · 待验证]**
+- [小米温度计3：gm365称DeepSeek辅助刷固件，改作Claude额度显示器](../cases/gm365-xiaomi-thermometer3-claude-quota-firmware.md) — gm365称用CodeBuddy中的DeepSeek V4.1 Flash折腾小米温度计3，刷固件显示Claude剩余订阅额度；没有固件或额度数据链路。 **[其他 AI 逆向 · 待验证]**
+- [罗技Master 3S：gm365称DeepSeek修复首次按快捷键失效](../cases/gm365-logitech-master3s-first-shortcut-fix.md) — gm365称在CodeBuddy调用DeepSeek V4.1 Flash修好Master 3S首次快捷键无效；未说明改驱动、配置还是固件。 **[其他 AI 逆向 · 待验证]**
 - [CNC机床固件：Pacarmerah称把Claude用于固件修改与关键编码](../cases/pacarmerah-claude-cnc-firmware-tinkering.md) — Pacarmerah区分工具用途：Codex做婚礼网站与邀请，Claude用于CNC固件折腾；未给机型、修改内容或实机结果。 **[其他 AI 逆向 · 待验证]**
 - [AMD Z3的μ-tag way predictor：Ayush Sharma称Agent辅助性能问题研究](../cases/amd-z3-mu-tag-way-predictor-agent-report.md) — Ayush Sharma称自己的Agent为性能工程问题逆向AMD Z3的μ-tag way predictor；未公开模型、实验、映射或性能变化。 **[其他 AI 逆向 · 待验证]**
 - [DJ设备固件Mod：Raft Tone用iPhone相机让Claude观察测试与排错](../cases/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone称用iPhone连续互通相机接MacBook，让Claude测试正在开发的DJ硬件固件Mod，测试约快五倍；未提供设备型号与日志。 **[其他 AI 逆向 · 进行中]**
