@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1425 entries**, organized by use case, without a Top-N or popularity threshold.
+**1429 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
 - [Games and preservation](categories/en/games.md) (311)
-- [Hardware and interoperability](categories/en/hardware.md) (378)
-- [Applications and clients](categories/en/apps.md) (584)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (152)
+- [Hardware and interoperability](categories/en/hardware.md) (379)
+- [Applications and clients](categories/en/apps.md) (586)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (153)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -342,6 +342,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [CNC firmware: Pacarmerah reports using Claude for firmware tinkering and critical coding](cases/en/pacarmerah-claude-cnc-firmware-tinkering.md) — Pacarmerah distinguishes Codex wedding-site/invitation work from Claude-assisted CNC firmware tinkering. Machine model, changes and hardware results are not supplied. **[Other AI-assisted work · Needs verification]**
 - [AMD Z3 μ-tag way predictor: Ayush Sharma reports agent-assisted performance research](cases/en/amd-z3-mu-tag-way-predictor-agent-report.md) — Ayush Sharma says an agent reverse-engineered the AMD Z3 μ-tag way predictor for a performance-engineering problem. Model, experiments, mapping and performance changes are not published. **[Other AI-assisted work · Needs verification]**
 - [A DJ firmware mod: Raft Tone uses an iPhone camera to let Claude observe testing and debugging](cases/en/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone reports using iPhone Continuity Camera with a MacBook for Claude to test an ongoing DJ-hardware firmware mod, claiming roughly five-times-faster testing. Device and logs are unspecified. **[Other AI-assisted work · In progress]**
 - [An older iQOO: a user tentatively reports GPT finding no sign of the discussed phone issue](cases/en/old-iqoo-gpt-phone-privacy-inspection-report.md) — A user says GPT examined an older iQOO and apparently did not find the same issue. No model, inspected component or analysis record is provided; this is not a security assurance. **[Other AI-assisted work · Needs verification]**
@@ -723,6 +724,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [mcp-reverse: one MCP entry for static analysis, external debuggers and multiple AI clients](cases/en/mcp-reverse-multi-client-binary-analysis-orchestration.md) — MalwareBibleJP describes mcp-reverse 5.0.1 orchestrating Claude/Codex/Cursor and binary tools. A public README is inspectable, but backend, permission and small-emulator limits do not establish arbitrary successful reversing. **[Other AI-assisted work · Related project]**
+- [SolidCraft: an AI-era CAD alternative report, with public-documentation-based independent design](cases/en/solidcraft-ai-era-cad-alternative-report.md) — genZ_Tigers associates SolidCraft with AI reversing. The public Rust parametric CAD offers MCP, but its README describes public-documentation, CAD-convention and user-feedback-based design, not proven decompilation of Fusion or SolidWorks. **[Other AI-assisted work · Related project]**
 - [Exoframe/Nova: a local-first design orchestrating REA and replaceable semantic helpers](cases/en/exoframe-nova-local-rea-orchestration-design.md) — The Nova account describes Exoframe coordinating context, tool execution, ongoing work and recovery, with REA handling app analysis. The complete local loop still needs integration and testing. **[REA · In progress]**
 - [Gaze and voice to change software: UltimApe's REA-assisted interaction idea](cases/en/rea-gaze-voice-software-improvement-idea.md) — UltimApe imagines enabling gaze detection so AI can identify the software being viewed and add spoken improvements. No implementation or test is shown. **[REA · Needs verification]**
 - [PiliPala: Estelle Lee reports fixing multiple old bugs with Dafeiyu and REA](cases/en/pilipala-rea-dafeiyu-bugfix-report.md) — Replying to a BBLL repair post, Estelle Lee says Dafeiyu and REA also fixed a batch of PiliPala bugs. No revision or change record is supplied. **[REA · Needs verification]**
@@ -962,7 +965,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Marshall's Web CTF: a bounty challenges the claim that humans can solve it but agents cannot](cases/en/web-ctf-human-agent-reverse-challenge.md) — Marshall announces a Web CTF he says agents cannot reverse-engineer and solve, offering $100 for solving it and $200 for privilege escalation. No comparative tests or defensive mechanism are supplied. **[Other AI-assisted work · Needs verification]**
 - [Log-tool adapters: observing internal APIs with REA and Playwright for Codex and Claude](cases/en/rea-playwright-log-tool-platform-adapters.md) — The author reports rebuilding a log tool as a Codex plugin and Claude connector using REA/Playwright observations of internal APIs. Testing and a push to main are planned for the following week; avoiding account bans is not established. **[REA · In progress]**
 - [Winny: a speculative idea for REA decompilation and AI reimplementation](cases/en/winny-rea-ai-reimplementation-idea.md) — A Japanese-language post predicts someone will decompile Winny with REA and reimplement it using AI. It names a target and broad method but reports no implementation or validation. **[REA · Needs verification]**
-- [ARTEX investigations: Android vulnerability research and Profero's reported AI reversing-console workflow](cases/en/artex-ai-android-vulnerability-campaign-report.md) — Seongsu Park reports ARTEX-related Android vulnerability research. Profero separately reports a late-October workflow combining a vulnerability workbench, ARTEX, a general agent and a binary reversing console. Neither was reproduced here. **[Other AI-assisted work · Needs verification]**
+- [ARTEX investigations: Android vulnerability research and Profero's reported AI reversing-console workflow](cases/en/artex-ai-android-vulnerability-campaign-report.md) — Seongsu Park reports ARTEX-related Android research; Profero describes a multi-tool workflow, and a later Hebrew post names Ultra and Hermes Agent linking a reversing console. None was reproduced here. **[Other AI-assisted work · Needs verification]**
 - [An Amp Android client: Ben Kraus uses REA for his Trifold](cases/en/ben-kraus-amp-android-trifold-rea.md) — Ben Kraus says he is using REA to build an Amp Android app for his Trifold. No implementation, feature comparison or test results are supplied. **[REA · In progress]**
 - [Slack's macOS Do Not Disturb state: a secondary REA report on native components and remote-web limits](cases/en/slack-macos-dnd-rea-secondary-report.md) — An REA introduction recounts Connor Turland's October 20 Slack notification investigation: a native DND-state component, caching and timeouts, with some behavior in remotely served web code rather than the local package. It is not a full Slack rebuild. **[REA · Needs verification]**
 - [World Monitor and REA: an idea for a six-agent paper-trading terminal](cases/en/world-monitor-rea-paper-trading-terminal-idea.md) — A post proposes studying terminal features with REA, adding World Monitor events and six agents, and sending orders only to an Alpaca paper account. No implementation, prediction evaluation or returns are demonstrated. **[REA · Needs verification]**
@@ -1310,6 +1313,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Ice-dragon short: sandmrk reverse-designs a 26.4-second Muse storyboard while acknowledging a mismatch](cases/en/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk turns an icy heroine, white dragon and lightning scene into Muse generation specifications for shots, scale and character continuity. This is visual reconstruction prompting, not recovery of a model or original prompt. **[Other AI-assisted work · Needs verification]**
 - [REA-growth: an agent skill for company-growth timelines and a reported Lovable analysis cost](cases/en/rea-growth-lovable-company-timeline-skill-report.md) — A post presents REA-growth for analyzing company growth across SEO, AI search, ads and social timelines, claiming a $0.58 Lovable teardown. This is not validation of morluto/rea binary reversing. **[Other AI-assisted work · Related project]**
 - [RETROGRADE: generated programs and behavioral execution for evaluating reverse-engineering agents, with Round 0 pending](cases/en/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste describes a benchmark generating targets and ground truth from IR, spanning 15 workloads, four languages and six ISAs while penalizing overconfidence. The available evidence is methodology and example scores, not model rankings. **[Other AI-assisted work · In progress]**
 - [Grok theft-logic analysis: an author claims fourteen minutes on two event types, without samples or logs](cases/en/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — The author claims Grok analysis of Binance authorization and Polymarket script hijacking and proposes three AI defense layers. No transactions, code or analysis records are supplied; losses and mechanisms are not treated as established facts. **[Other AI-assisted work · Needs verification]**

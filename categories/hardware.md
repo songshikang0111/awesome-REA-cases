@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [CNC机床固件：Pacarmerah称把Claude用于固件修改与关键编码](../cases/pacarmerah-claude-cnc-firmware-tinkering.md) — Pacarmerah区分工具用途：Codex做婚礼网站与邀请，Claude用于CNC固件折腾；未给机型、修改内容或实机结果。 **[其他 AI 逆向 · 待验证]**
 - [AMD Z3的μ-tag way predictor：Ayush Sharma称Agent辅助性能问题研究](../cases/amd-z3-mu-tag-way-predictor-agent-report.md) — Ayush Sharma称自己的Agent为性能工程问题逆向AMD Z3的μ-tag way predictor；未公开模型、实验、映射或性能变化。 **[其他 AI 逆向 · 待验证]**
 - [DJ设备固件Mod：Raft Tone用iPhone相机让Claude观察测试与排错](../cases/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone称用iPhone连续互通相机接MacBook，让Claude测试正在开发的DJ硬件固件Mod，测试约快五倍；未提供设备型号与日志。 **[其他 AI 逆向 · 进行中]**
 - [旧iQOO：用户称让GPT逆向检查手机，似乎没发现所讨论问题](../cases/old-iqoo-gpt-phone-privacy-inspection-report.md) — 用户在手机行为讨论中称让GPT看了旧iQOO，似乎未发现同样情况；没有型号、被检查组件或分析记录，不能当作安全证明。 **[其他 AI 逆向 · 待验证]**

@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1425 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1429 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（311）
-- [硬件与设备互通](categories/hardware.md)（378）
-- [应用与客户端](categories/apps.md)（584）
-- [算法与功能重建](categories/algorithms.md)（152）
+- [硬件与设备互通](categories/hardware.md)（379）
+- [应用与客户端](categories/apps.md)（586）
+- [算法与功能重建](categories/algorithms.md)（153）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -340,6 +340,7 @@
 
 ### 硬件与设备互通
 
+- [CNC机床固件：Pacarmerah称把Claude用于固件修改与关键编码](cases/pacarmerah-claude-cnc-firmware-tinkering.md) — Pacarmerah区分工具用途：Codex做婚礼网站与邀请，Claude用于CNC固件折腾；未给机型、修改内容或实机结果。 **[其他 AI 逆向 · 待验证]**
 - [AMD Z3的μ-tag way predictor：Ayush Sharma称Agent辅助性能问题研究](cases/amd-z3-mu-tag-way-predictor-agent-report.md) — Ayush Sharma称自己的Agent为性能工程问题逆向AMD Z3的μ-tag way predictor；未公开模型、实验、映射或性能变化。 **[其他 AI 逆向 · 待验证]**
 - [DJ设备固件Mod：Raft Tone用iPhone相机让Claude观察测试与排错](cases/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone称用iPhone连续互通相机接MacBook，让Claude测试正在开发的DJ硬件固件Mod，测试约快五倍；未提供设备型号与日志。 **[其他 AI 逆向 · 进行中]**
 - [旧iQOO：用户称让GPT逆向检查手机，似乎没发现所讨论问题](cases/old-iqoo-gpt-phone-privacy-inspection-report.md) — 用户在手机行为讨论中称让GPT看了旧iQOO，似乎未发现同样情况；没有型号、被检查组件或分析记录，不能当作安全证明。 **[其他 AI 逆向 · 待验证]**
@@ -721,6 +722,8 @@
 
 ### 应用与客户端
 
+- [mcp-reverse：把静态分析、外部调试器与多AI协作接到同一MCP入口](cases/mcp-reverse-multi-client-binary-analysis-orchestration.md) — MalwareBibleJP介绍mcp-reverse 5.0.1编排Claude／Codex／Cursor与二进制工具；公开README可查，但后端、权限与简单模拟器边界不等于完成任意逆向。 **[其他 AI 逆向 · 相关项目]**
+- [SolidCraft：AI时代CAD替代品的转述，项目称依据公开文档独立设计](cases/solidcraft-ai-era-cad-alternative-report.md) — genZ_Tigers将SolidCraft与AI逆向联系；公开Rust参数化CAD提供MCP，但README说按公开文档、CAD惯例和用户反馈设计，不证明反编译Fusion或SolidWorks。 **[其他 AI 逆向 · 相关项目]**
 - [Exoframe／Nova：编排REA与可替换语义助手的本地优先设计](cases/exoframe-nova-local-rea-orchestration-design.md) — Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。 **[REA · 进行中]**
 - [注视加语音改软件：UltimApe提出REA辅助交互idea](cases/rea-gaze-voice-software-improvement-idea.md) — UltimApe设想接通视线检测后，由AI定位自己正在看的软件，再按口述添加改进；尚无实现或测试。 **[REA · 待验证]**
 - [PiliPala：Estelle Lee称大肥鱼加REA修复多个旧bug](cases/pilipala-rea-dafeiyu-bugfix-report.md) — Estelle Lee回复BBLL修复帖，报告自己也用“大肥鱼”与REA修好PiliPala的一批bug；无具体版本或修改记录。 **[REA · 待验证]**
@@ -960,7 +963,7 @@
 - [Marshall的Web CTF：以奖励挑战“人能解、Agent不能解”的逆向防护说法](cases/web-ctf-human-agent-reverse-challenge.md) — Marshall称自制Web CTF不能由Agent逆向求解，并设解题100美元、提权200美元奖励；目前只有挑战宣告，没有对照测试或防护机制证据。 **[其他 AI 逆向 · 待验证]**
 - [log工具适配：用REA与Playwright观察内部API，准备接入Codex和Claude](cases/rea-playwright-log-tool-platform-adapters.md) — 作者称重做log工具为Codex插件和Claude connector，并用REA与Playwright观察内部API；计划下周测试后推main，不确认能避免封号。 **[REA · 进行中]**
 - [Winny：用REA反编译、再用AI重实现的预测性idea](cases/winny-rea-ai-reimplementation-idea.md) — 日语发帖者预测会有人用REA反编译Winny并以AI重实现；只有具名目标和方法方向，没有实施或验证结果。 **[REA · 待验证]**
-- [ARTEX调查：Android漏洞研究与Profero报告的AI逆向控制台分工](cases/artex-ai-android-vulnerability-campaign-report.md) — Seongsu Park报告ARTEX用于Android漏洞研究；Profero另称10月下旬观察到漏洞工作台、ARTEX、通用Agent与二进制逆向控制台协作，均未经本合集复现。 **[其他 AI 逆向 · 待验证]**
+- [ARTEX调查：Android漏洞研究与Profero报告的AI逆向控制台分工](cases/artex-ai-android-vulnerability-campaign-report.md) — Seongsu Park报告ARTEX用于Android研究；Profero报告多工具分工，后续希伯来语帖再称Ultra由Hermes Agent衔接逆向控制台；均非本合集复现。 **[其他 AI 逆向 · 待验证]**
 - [Amp Android客户端：Ben Kraus用REA为Trifold准备应用](cases/ben-kraus-amp-android-trifold-rea.md) — Ben Kraus称正在用REA制作Amp的Android应用，以支持自己的Trifold；尚无实现、功能对照或测试结果。 **[REA · 进行中]**
 - [Slack的macOS勿扰状态：REA研究本地原生组件与远程Web边界的转述](cases/slack-macos-dnd-rea-secondary-report.md) — REA入门长文转述Connor Turland于10月20日研究Slack通知：追踪原生勿扰状态组件、缓存与超时，但部分行为在远程Web代码，非重建完整Slack。 **[REA · 待验证]**
 - [World Monitor与REA：六Agent纸上交易终端的构建idea](cases/world-monitor-rea-paper-trading-terminal-idea.md) — 帖子建议用REA研究专业终端的图表等功能，接World Monitor事件数据与六个Agent，最终只向Alpaca模拟账户下单；无实现、预测评估或收益证据。 **[REA · 待验证]**
@@ -1308,6 +1311,7 @@
 
 ### 算法与功能重建
 
+- [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**
 - [REA-growth：按时间线拆解企业增长的Agent Skill与Lovable成本自述](cases/rea-growth-lovable-company-timeline-skill-report.md) — 帖子介绍REA-growth按SEO、AI搜索、广告与社交时间线分析企业增长，称Lovable拆解花费0.58美元；不是morluto/rea二进制逆向的验证。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**

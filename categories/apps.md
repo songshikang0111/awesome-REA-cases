@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [mcp-reverse：把静态分析、外部调试器与多AI协作接到同一MCP入口](../cases/mcp-reverse-multi-client-binary-analysis-orchestration.md) — MalwareBibleJP介绍mcp-reverse 5.0.1编排Claude／Codex／Cursor与二进制工具；公开README可查，但后端、权限与简单模拟器边界不等于完成任意逆向。 **[其他 AI 逆向 · 相关项目]**
+- [SolidCraft：AI时代CAD替代品的转述，项目称依据公开文档独立设计](../cases/solidcraft-ai-era-cad-alternative-report.md) — genZ_Tigers将SolidCraft与AI逆向联系；公开Rust参数化CAD提供MCP，但README说按公开文档、CAD惯例和用户反馈设计，不证明反编译Fusion或SolidWorks。 **[其他 AI 逆向 · 相关项目]**
 - [Exoframe／Nova：编排REA与可替换语义助手的本地优先设计](../cases/exoframe-nova-local-rea-orchestration-design.md) — Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。 **[REA · 进行中]**
 - [注视加语音改软件：UltimApe提出REA辅助交互idea](../cases/rea-gaze-voice-software-improvement-idea.md) — UltimApe设想接通视线检测后，由AI定位自己正在看的软件，再按口述添加改进；尚无实现或测试。 **[REA · 待验证]**
 - [PiliPala：Estelle Lee称大肥鱼加REA修复多个旧bug](../cases/pilipala-rea-dafeiyu-bugfix-report.md) — Estelle Lee回复BBLL修复帖，报告自己也用“大肥鱼”与REA修好PiliPala的一批bug；无具体版本或修改记录。 **[REA · 待验证]**
@@ -241,7 +243,7 @@
 - [Marshall的Web CTF：以奖励挑战“人能解、Agent不能解”的逆向防护说法](../cases/web-ctf-human-agent-reverse-challenge.md) — Marshall称自制Web CTF不能由Agent逆向求解，并设解题100美元、提权200美元奖励；目前只有挑战宣告，没有对照测试或防护机制证据。 **[其他 AI 逆向 · 待验证]**
 - [log工具适配：用REA与Playwright观察内部API，准备接入Codex和Claude](../cases/rea-playwright-log-tool-platform-adapters.md) — 作者称重做log工具为Codex插件和Claude connector，并用REA与Playwright观察内部API；计划下周测试后推main，不确认能避免封号。 **[REA · 进行中]**
 - [Winny：用REA反编译、再用AI重实现的预测性idea](../cases/winny-rea-ai-reimplementation-idea.md) — 日语发帖者预测会有人用REA反编译Winny并以AI重实现；只有具名目标和方法方向，没有实施或验证结果。 **[REA · 待验证]**
-- [ARTEX调查：Android漏洞研究与Profero报告的AI逆向控制台分工](../cases/artex-ai-android-vulnerability-campaign-report.md) — Seongsu Park报告ARTEX用于Android漏洞研究；Profero另称10月下旬观察到漏洞工作台、ARTEX、通用Agent与二进制逆向控制台协作，均未经本合集复现。 **[其他 AI 逆向 · 待验证]**
+- [ARTEX调查：Android漏洞研究与Profero报告的AI逆向控制台分工](../cases/artex-ai-android-vulnerability-campaign-report.md) — Seongsu Park报告ARTEX用于Android研究；Profero报告多工具分工，后续希伯来语帖再称Ultra由Hermes Agent衔接逆向控制台；均非本合集复现。 **[其他 AI 逆向 · 待验证]**
 - [Amp Android客户端：Ben Kraus用REA为Trifold准备应用](../cases/ben-kraus-amp-android-trifold-rea.md) — Ben Kraus称正在用REA制作Amp的Android应用，以支持自己的Trifold；尚无实现、功能对照或测试结果。 **[REA · 进行中]**
 - [Slack的macOS勿扰状态：REA研究本地原生组件与远程Web边界的转述](../cases/slack-macos-dnd-rea-secondary-report.md) — REA入门长文转述Connor Turland于10月20日研究Slack通知：追踪原生勿扰状态组件、缓存与超时，但部分行为在远程Web代码，非重建完整Slack。 **[REA · 待验证]**
 - [World Monitor与REA：六Agent纸上交易终端的构建idea](../cases/world-monitor-rea-paper-trading-terminal-idea.md) — 帖子建议用REA研究专业终端的图表等功能，接World Monitor事件数据与六个Agent，最终只向Alpaca模拟账户下单；无实现、预测评估或收益证据。 **[REA · 待验证]**
