@@ -2,6 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Getting Up：玩家盼AI逆向修复Steam版宽屏与运行问题](../cases/getting-up-ai-widescreen-repair-idea.md) — 玩家提出为Getting Up制作正常运行的宽屏版本，称Steam版即使用Mod仍有问题；没有实施或完成证据。 **[未确认使用 REA · 待验证]**
+- [DX RUST：Deus Ex的Rust／Bevy重实现，公开文档仍待完整通关测试](../cases/dx-rust-deus-ex-bevy-ai-reimplementation-report.md) — 报道将DX RUST归于Claude辅助；公开Rust／Bevy项目读取自备Deus Ex文件，声明全游戏已实现，但1.0前仍需完整通关、逐图存档往返与性能测试。 **[其他 AI 逆向 · 进行中]**
+- [D2-Web：人类指导AI重建Diablo II 1.13c浏览器引擎，仍是Act1早期Alpha](../cases/d2-web-diablo2-ai-wasm-reimplementation.md) — Virtastic公开C++／Wasm引擎，文档明确大量AI编码、人工指导审查及零售程序研究，非净室；只报告Act1初始内容可运行，须自备游戏文件。 **[其他 AI 逆向 · 进行中]**
+- [MD水浒传：作者称AI辅助逆向ROM并完成童年游戏重制](../cases/megadrive-shuihu-ai-rom-remake-report.md) — 作者称刚完成Mega Drive水浒传重制，用AI以新形式重玩童年游戏；未给版本、代码、模型或功能验收。 **[其他 AI 逆向 · 待验证]**
+- [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](../cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
+- [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](../cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
+- [GameFrame：面向人和Agent的旧游戏逆向与重建技能项目介绍](../cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 双语帖子介绍GameFrame服务旧游戏理解、逆向与重建，但未说明支持的游戏、具体技能、工具实现或运行结果。 **[其他 AI 逆向 · 相关项目]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — 读者把AnyPS5描述为AI加速系统调用逆向的兼容层，并与Proton作类比；未提供源码、游戏测试或AI分工，不能确认无仿真或已可玩。 **[其他 AI 逆向 · 待验证]**
+- [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](../cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](../cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](../cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
 - [Agent-PAL：让模型从DOS仙剑引擎研究走到全流程通关的基准报告](../cases/agent-pal-dos-pal-ai-engine-benchmark-report.md) — Jianming Liu报告模型自行研究1995 DOS仙剑并手写脚本，pure模式海外三模型通关、国内组未通关；无独立复核日志。 **[其他 AI 逆向 · 分析测试]**

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [DJ设备固件Mod：Raft Tone用iPhone相机让Claude观察测试与排错](../cases/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone称用iPhone连续互通相机接MacBook，让Claude测试正在开发的DJ硬件固件Mod，测试约快五倍；未提供设备型号与日志。 **[其他 AI 逆向 · 进行中]**
+- [旧iQOO：用户称让GPT逆向检查手机，似乎没发现所讨论问题](../cases/old-iqoo-gpt-phone-privacy-inspection-report.md) — 用户在手机行为讨论中称让GPT看了旧iQOO，似乎未发现同样情况；没有型号、被检查组件或分析记录，不能当作安全证明。 **[其他 AI 逆向 · 待验证]**
+- [Stopwatch Micro：M5Stack StopWatch的非官方Codex Micro兼容固件与额度桥](../cases/stopwatch-micro-codex-hid-compatible-controller.md) — 作者报告C++／LVGL固件通过蓝牙HID兼容Codex Micro，另用Windows桥读取App Server额度；17／17、13／13与151／151均为自测数字。 **[未确认使用 REA · 待验证]**
 - [Waveshare吊坠：转述Sean Hollister用Claude制作Charm式电子宠物](../cases/hollister-waveshare-muse-charm-claude-clone-report.md) — 第三方称Hollister用50美元ESP32-S3吊坠制作会说话的Charm式宠物；Claude添加多项功能，十五分钟等说法未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [十余年Toyota导航：Mark Karpelès称AI辅助研究暖启动，目标替换为CarPlay](../cases/magicaltux-toyota-navi-ai-carplay-research.md) — 作者拆取导航闪存并研究Linux／U-Boot的保留RAM启动，候选回复确认AI有帮助；有效签名SD映像与CarPlay替换仍未完成。 **[其他 AI 逆向 · 进行中]**
 - [旧Hisense电视：Hasibul简述Claude辅助探索隐藏系统](../cases/hasibul-hisense-tv-claude-exploration-report.md) — Hasibul Hasan称用Claude逆向旧Hisense电视；只给探索自述和视频媒体，没有型号、步骤或可检查的完成结果。 **[其他 AI 逆向 · 待验证]**

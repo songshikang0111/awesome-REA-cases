@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1402 个案例与项目
+# 1418 个案例与项目
 
-**最近案例更新：**2026 年 11 月 1 日 08:09 · **最近维护：**2026 年 11 月 1 日 08:09 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 1 日 12:10 · **最近维护：**2026 年 11 月 1 日 12:10 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -29,11 +29,11 @@
 3. **[scapectl：不用网页也能控制Fractal Scape耳机](cases/scapectl-fractal-scape-claude-usb-hid.md)** · `2026-10-29` — **Claude Code辅助USB HID研究，公开Go托盘应用与CLI**，查看状态、切EQ预设、响应设备事件。文档保留实机纠正源码标注的过程；项目只测macOS/Windows，Linux未测。未经签名／公证，本合集未运行。`进行中`
 4. **[Sonic Adventure：先匹配Dreamcast，再移植GCC](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer称Claude Code／Codex辅助、人工打磨数百小时；公开项目报告**247个二进制匹配，97.7% C／2.3%汇编**，部分C须修补编译器汇编。GCC另走构建路径，不是PC移植；须自备日版光盘，本合集未重建。`分析测试`
 5. **[LG UltraFine：修更新器，而不是破解固件](cases/lg-ultrafine-codex-updater-patch.md)** · `2026-10-19` — Codex 辅助诊断，公开**精确构建限定的内存补丁**；作者报告 scaler 更新达 **100%、CRC 通过**。注明前人错误报告；仅一套 Apple Silicon 配置，本合集未独立刷机。`作者实测补丁`
-6. **[Brother：扫描直接进 NAS](cases/brother-scan-button-claude-rea-server.md)** · `2026-10-18` — 以 **Claude/REA 辅助的公开 Go 服务替代电脑按键应用，支持 SMB、FTP、S3 与本地保存**，复用前人协议研究。仍需服务器；项目只报告测试 MFC-L2800DW 固件1.32。`公开实现`
+6. **[RETROGRADE：测Agent究竟理解了什么](cases/retrograde-generated-reverse-engineering-agent-benchmark.md)** · `2026-11-01` — celeste提出**即时生成程序、按执行行为评分**，主张附带置信度和证据地址。报告15工作负载、四语言、六ISA；示例分数解释方法，不是模型排行榜。Round0结果待发布，本合集未运行。`进行中`
 7. **[Claude 写证明，Rocq 检查二进制](cases/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic／Theorem 报告为 **123 库的 239 个入口**建立机器码无崩溃证明。限单线程静态 RISC-V/Linux、小于64MB输入；**不等于整库无 bug**，本合集未独立重跑检查器。`分析测试`
 8. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
 9. **[X战警2：从Genesis到四人PC合作](cases/xmen2-pc-claude-genesis-native-port.md)** · `2026-10-31`报道；`2026-10-28`项目文档 — crabsmack称Claude Code辅助Windows／Linux原生移植，报告**3047个C函数字节匹配**，另117个汇编函数做指令级对照。新增回滚联机与宽屏；四人模式测试较少。须自备ROM，本合集未重跑。`公开实现`
-10. **[旧Toyota导航：为什么再次开车能秒启动](cases/magicaltux-toyota-navi-ai-carplay-research.md)** · `2026-10-31`研究；`2026-11-01`AI归因 — Mark Karpelès报告拆取闪存，研究**Linux／U-Boot从关车后仍供电的RAM启动**。目标是CarPlay，不是已经完成替换：有效签名SD映像仍待解决，AI模型与具体贡献未详述。`进行中`
+10. **[D2-Web：在浏览器玩Diablo II，也看清边界](cases/d2-web-diablo2-ai-wasm-reimplementation.md)** · `2026-11-01` — Virtastic明确**人工指导AI编码，公开C++／Wasm引擎**，复用D2MOO并研究零售程序，非净室。仅早期Act1 Alpha，须自备1.13c文件；浏览器本地BYO与服务端托管资产是不同模式。本合集未试玩。`进行中`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **301** |
-| [硬件与设备互通](categories/hardware.md) | **374** |
-| [应用与客户端](categories/apps.md) | **578** |
-| [算法与功能重建](categories/algorithms.md) | **149** |
+| [游戏与游戏保存](categories/games.md) | **310** |
+| [硬件与设备互通](categories/hardware.md) | **377** |
+| [应用与客户端](categories/apps.md) | **580** |
+| [算法与功能重建](categories/algorithms.md) | **151** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

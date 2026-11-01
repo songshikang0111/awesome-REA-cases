@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1402 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1418 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（301）
-- [硬件与设备互通](categories/hardware.md)（374）
-- [应用与客户端](categories/apps.md)（578）
-- [算法与功能重建](categories/algorithms.md)（149）
+- [游戏与游戏保存](categories/games.md)（310）
+- [硬件与设备互通](categories/hardware.md)（377）
+- [应用与客户端](categories/apps.md)（580）
+- [算法与功能重建](categories/algorithms.md)（151）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,15 @@
 
 ### 游戏与游戏保存
 
+- [Getting Up：玩家盼AI逆向修复Steam版宽屏与运行问题](cases/getting-up-ai-widescreen-repair-idea.md) — 玩家提出为Getting Up制作正常运行的宽屏版本，称Steam版即使用Mod仍有问题；没有实施或完成证据。 **[未确认使用 REA · 待验证]**
+- [DX RUST：Deus Ex的Rust／Bevy重实现，公开文档仍待完整通关测试](cases/dx-rust-deus-ex-bevy-ai-reimplementation-report.md) — 报道将DX RUST归于Claude辅助；公开Rust／Bevy项目读取自备Deus Ex文件，声明全游戏已实现，但1.0前仍需完整通关、逐图存档往返与性能测试。 **[其他 AI 逆向 · 进行中]**
+- [D2-Web：人类指导AI重建Diablo II 1.13c浏览器引擎，仍是Act1早期Alpha](cases/d2-web-diablo2-ai-wasm-reimplementation.md) — Virtastic公开C++／Wasm引擎，文档明确大量AI编码、人工指导审查及零售程序研究，非净室；只报告Act1初始内容可运行，须自备游戏文件。 **[其他 AI 逆向 · 进行中]**
+- [MD水浒传：作者称AI辅助逆向ROM并完成童年游戏重制](cases/megadrive-shuihu-ai-rom-remake-report.md) — 作者称刚完成Mega Drive水浒传重制，用AI以新形式重玩童年游戏；未给版本、代码、模型或功能验收。 **[其他 AI 逆向 · 待验证]**
+- [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
+- [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
+- [GameFrame：面向人和Agent的旧游戏逆向与重建技能项目介绍](cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 双语帖子介绍GameFrame服务旧游戏理解、逆向与重建，但未说明支持的游戏、具体技能、工具实现或运行结果。 **[其他 AI 逆向 · 相关项目]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — 读者把AnyPS5描述为AI加速系统调用逆向的兼容层，并与Proton作类比；未提供源码、游戏测试或AI分工，不能确认无仿真或已可玩。 **[其他 AI 逆向 · 待验证]**
+- [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
 - [Agent-PAL：让模型从DOS仙剑引擎研究走到全流程通关的基准报告](cases/agent-pal-dos-pal-ai-engine-benchmark-report.md) — Jianming Liu报告模型自行研究1995 DOS仙剑并手写脚本，pure模式海外三模型通关、国内组未通关；无独立复核日志。 **[其他 AI 逆向 · 分析测试]**
@@ -330,6 +339,9 @@
 
 ### 硬件与设备互通
 
+- [DJ设备固件Mod：Raft Tone用iPhone相机让Claude观察测试与排错](cases/dj-hardware-claude-continuity-camera-firmware-testing.md) — Raft Tone称用iPhone连续互通相机接MacBook，让Claude测试正在开发的DJ硬件固件Mod，测试约快五倍；未提供设备型号与日志。 **[其他 AI 逆向 · 进行中]**
+- [旧iQOO：用户称让GPT逆向检查手机，似乎没发现所讨论问题](cases/old-iqoo-gpt-phone-privacy-inspection-report.md) — 用户在手机行为讨论中称让GPT看了旧iQOO，似乎未发现同样情况；没有型号、被检查组件或分析记录，不能当作安全证明。 **[其他 AI 逆向 · 待验证]**
+- [Stopwatch Micro：M5Stack StopWatch的非官方Codex Micro兼容固件与额度桥](cases/stopwatch-micro-codex-hid-compatible-controller.md) — 作者报告C++／LVGL固件通过蓝牙HID兼容Codex Micro，另用Windows桥读取App Server额度；17／17、13／13与151／151均为自测数字。 **[未确认使用 REA · 待验证]**
 - [Waveshare吊坠：转述Sean Hollister用Claude制作Charm式电子宠物](cases/hollister-waveshare-muse-charm-claude-clone-report.md) — 第三方称Hollister用50美元ESP32-S3吊坠制作会说话的Charm式宠物；Claude添加多项功能，十五分钟等说法未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [十余年Toyota导航：Mark Karpelès称AI辅助研究暖启动，目标替换为CarPlay](cases/magicaltux-toyota-navi-ai-carplay-research.md) — 作者拆取导航闪存并研究Linux／U-Boot的保留RAM启动，候选回复确认AI有帮助；有效签名SD映像与CarPlay替换仍未完成。 **[其他 AI 逆向 · 进行中]**
 - [旧Hisense电视：Hasibul简述Claude辅助探索隐藏系统](cases/hasibul-hisense-tv-claude-exploration-report.md) — Hasibul Hasan称用Claude逆向旧Hisense电视；只给探索自述和视频媒体，没有型号、步骤或可检查的完成结果。 **[其他 AI 逆向 · 待验证]**
@@ -707,6 +719,8 @@
 
 ### 应用与客户端
 
+- [KRAKEN：转述面向Agent的原生反编译与逐函数Rust重写校验工作台](cases/kraken-agent-native-decompiler-rust-validation-workbench.md) — 开源盘点称KRAKEN把原生反编译、CLI／GUI／MCP协作放进同项目，目标是逐函数Rust重写校验；未取得源码或实际校验结果。 **[其他 AI 逆向 · 相关项目]**
+- [Infinite Mac上的BeOS：转述Codex辅助研究屏幕设置文件格式](cases/infinite-mac-beos-codex-screen-settings-format.md) — 帖子称Infinite Mac经DingusPPC在浏览器运行BeOS，作者用Codex研究屏幕设置格式；未取得原开发文章、格式定义或复现日志。 **[其他 AI 逆向 · 待验证]**
 - [BBLL Android TV：Tz称6.1 sol用字节码注入修复视频打开错误](cases/bbll-android-tv-gpt61-bytecode-playback-repair.md) — Tz报告让6.1 sol访问电视、研究停更BBLL并修复视频播放入口；未公开App版本、补丁或测试记录。 **[其他 AI 逆向 · 待验证]**
 - [付费记账App：玄投君简述Deepseek Harness加插件的逆向体验](cases/puexip-deepseek-paid-accounting-app-report.md) — 玄投君称用AI研究自己付费多年的记账App，推荐Deepseek Harness与逆向插件；没有App名、恢复功能或产物。 **[其他 AI 逆向 · 待验证]**
 - [BogusMips：Jan把Android包、smali与网络流量交给内置AI分析](cases/bogusmips-jan-ai-app-reverse-engineering-tool.md) — Jan介绍Rust桌面逆向工具；公开README将APK／XAPK解析与多模型Agent、模拟器流量联用，明确TLS与Frida限制。 **[其他 AI 逆向 · 相关项目]**
@@ -1288,6 +1302,8 @@
 
 ### 算法与功能重建
 
+- [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
+- [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**
 - [LLVM优化器idea：让AI比较GCC与LLVM汇编差异后改IL优化](cases/llvm-gcc-assembly-ai-optimizer-idea.md) — 一本正经的瞎扯提出在GCC二进制更快时，让AI对比两套汇编并修改LLVM IL优化器；没有实现或性能测量。 **[其他 AI 逆向 · 待验证]**
 - [车内自拍视频重建：Leaf Yeah用agy反推提示再交Muse生成](cases/leaf-agy-muse-car-selfie-video-prompt.md) — Leaf Yeah公开从抖音参考片反推的两阶段提示：先做普通自拍底图，再做9:16、10秒车内vlog；未核验原片和生成相似度。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [KRAKEN：转述面向Agent的原生反编译与逐函数Rust重写校验工作台](../cases/kraken-agent-native-decompiler-rust-validation-workbench.md) — 开源盘点称KRAKEN把原生反编译、CLI／GUI／MCP协作放进同项目，目标是逐函数Rust重写校验；未取得源码或实际校验结果。 **[其他 AI 逆向 · 相关项目]**
+- [Infinite Mac上的BeOS：转述Codex辅助研究屏幕设置文件格式](../cases/infinite-mac-beos-codex-screen-settings-format.md) — 帖子称Infinite Mac经DingusPPC在浏览器运行BeOS，作者用Codex研究屏幕设置格式；未取得原开发文章、格式定义或复现日志。 **[其他 AI 逆向 · 待验证]**
 - [BBLL Android TV：Tz称6.1 sol用字节码注入修复视频打开错误](../cases/bbll-android-tv-gpt61-bytecode-playback-repair.md) — Tz报告让6.1 sol访问电视、研究停更BBLL并修复视频播放入口；未公开App版本、补丁或测试记录。 **[其他 AI 逆向 · 待验证]**
 - [付费记账App：玄投君简述Deepseek Harness加插件的逆向体验](../cases/puexip-deepseek-paid-accounting-app-report.md) — 玄投君称用AI研究自己付费多年的记账App，推荐Deepseek Harness与逆向插件；没有App名、恢复功能或产物。 **[其他 AI 逆向 · 待验证]**
 - [BogusMips：Jan把Android包、smali与网络流量交给内置AI分析](../cases/bogusmips-jan-ai-app-reverse-engineering-tool.md) — Jan介绍Rust桌面逆向工具；公开README将APK／XAPK解析与多模型Agent、模拟器流量联用，明确TLS与Frida限制。 **[其他 AI 逆向 · 相关项目]**
