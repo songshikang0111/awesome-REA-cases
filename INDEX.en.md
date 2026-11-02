@@ -10,15 +10,15 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1475 entries**, organized by use case, without a Top-N or popularity threshold.
+**1484 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (319)
-- [Hardware and interoperability](categories/en/hardware.md) (389)
-- [Applications and clients](categories/en/apps.md) (608)
+- [Games and preservation](categories/en/games.md) (320)
+- [Hardware and interoperability](categories/en/hardware.md) (392)
+- [Applications and clients](categories/en/apps.md) (613)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (159)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Brawlhalla stutter: Codex/REA traces AIR's interpreter branch under Rosetta](cases/en/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md) — fexx_off reports sampling and binary inspection on an M4 Pro, an AIR interpreter-mode override, disappearance of the sampled interpreter path and largely resolved freezes in hands-on play. Raw stacks and frame times are absent; not independently retested. **[REA · Analysis test]**
 - [Digital board-wargame modules: a secondary report says Claude refused Conflict Simulations commissions](cases/en/conflict-simulations-claude-board-wargame-module-refusal.md) — A policy report describes refused wargame-module commissions. Customers owning originals does not establish publisher authorization; exact games, prompts and refusal logs were not obtained. **[Other AI-assisted work · Needs verification]**
 - [Sonic Heroes: Sewer56 says an AI recompile reuses thousands of hours of human reversing](cases/en/sonic-heroes-sewer56-ai-recompile-attribution.md) — Sewer56 says AI repackages code assembled through his long-term manual reverse engineering. The specific repository, build and playable scope were not checked. **[Other AI-assisted work · Needs verification]**
 - [Wordle duplicate letters: Creator Stacks reports tracing colors with REA and building a local version](cases/en/wordle-rea-duplicate-letter-local-rebuild-report.md) — The author says REA traced Wordle's duplicate-letter coloring and built a local version. No exact rule, code or comparison tests establish behavioral equivalence. **[REA · Needs verification]**
@@ -350,6 +351,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Ninebot telemetry in Grafana: Kevin Cui reports AI-assisted reverse engineering](cases/en/kevin-cui-ninebot-ai-grafana-telemetry.md) — The author confirms AI reversing in a reply; its root post reports Ninebot electric-vehicle data in Grafana. Model, acquisition channel, fields and code are undisclosed, with no basis to infer vehicle control. **[Other AI-assisted work · Needs verification]**
+- [121GW multimeter: Dave Jones reports an ongoing Claude Code firmware-to-C effort](cases/en/eevblog-121gw-claude-c-firmware-reconstruction.md) — Dave Jones endorses a forum user's 121GW firmware reversing and separately reports Claude Code working on his own C reconstruction. The former's success does not validate the AI version. **[Other AI-assisted work · In progress]**
+- [PS5 offline Blu-ray boot: a secondary report says the loader developer credits Claude](cases/en/ps5-bluray-offline-loader-claude-secondary-report.md) — wakeupbrk reports burned-Blu-ray PS5 jailbreak boot without Wi-Fi or a browser and a developer credit to Claude. Original documentation, firmware support and AI's actual role were not obtained; this does not show AI discovering a full exploit chain. **[Other AI-assisted work · Needs verification]**
 - [3D-printer firmware: log4j reports five halted Daybreak Blue attempts versus a continuing GPT run](cases/en/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — The author says Daybreak Blue xhigh repeatedly halted on a subscriber's own printer firmware while gpt-6-sol continued with the same prompt. No sample, full prompts or findings establish a controlled benchmark. **[Other AI-assisted work · Analysis test]**
 - [Audi screens: Rifzan asks whether Claude/REA can investigate them](cases/en/rifzan-audi-screen-claude-rea-research-idea.md) — A reader names Audi screens as a concrete Claude/REA research target. No model, intended feature, analysis or successful result is given; this is an idea, not an unlock. **[REA · Needs verification]**
 - [Ryan Blass's air purifier: an AI-agent swarm investigation of device behavior](cases/en/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan says he is reversing his air purifier to learn what it does. No brand, model, protocol or finding is given; this is an in-progress device project. **[Other AI-assisted work · In progress]**
@@ -742,11 +746,16 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Cross-platform native integration: BowTiedStack reports Grok Bot reversing and Cursor orchestration for a SaaS](cases/en/bowtiedstack-grokbot-native-os-saas-integration.md) — The author reports months of Grok Bot coordination of Cursor cloud agents, research into Windows/Mac/Linux native integration and end-to-end QA. The product and interfaces are unnamed; team/time replacement multipliers are unverified. **[Other AI-assisted work · Needs verification]**
+- [Instacart on the command line: Peyton Casper reports AI-assisted API reversing](cases/en/peyton-casper-instacart-ai-cli-report.md) — Framing AI as making the world declarative, the author reports reversing Instacart's grocery-delivery API into a CLI. Commands, interfaces, code and independently checkable operation results are absent. **[Other AI-assisted work · Needs verification]**
+- [Baidu Netdisk shake ads: AI-reversing claims about No Shake and magnetometers remain unproven](cases/en/baidu-netdisk-ai-noshake-sensor-analysis-report.md) — Three secondary posts connect ads still opening after motion-data restrictions to AI analysis. No Shake/magnetometer explanations are developer inferences; a journalist's observation does not verify a sensor path or intentional evasion. **[Other AI-assisted work · Needs verification]**
+- [IDM download manager: ApriliaBelka proposes research with REA](cases/en/apriliabelka-idm-rea-research-idea.md) — The author asks why nobody has tried Reverse Engineer Anything on IDM. A concrete software-research idea, not an implementation, reconstructed feature or replacement result. **[REA · Needs verification]**
+- [A reverse-engineered Claude v1: Jackson li reports a morning with DeepSeek, then warns it may not work](cases/en/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li reports an initial DeepSeek-assisted Claude reconstruction, later calling p1 potentially unusable. Context concerns a client/third-party-model workflow, not copied Claude weights or model capability. **[Other AI-assisted work · In progress]**
 - [Lark meeting notes: WquGuru studies chunks and parallel tasks with REA, then builds a Mac version](cases/en/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — The author reports a Mac rebuild using one-second 16kHz audio chunks, independent generation tasks and source-linked fishbone diagrams. Full testing and open-source release are pending; lossless recording is not established. **[REA · In progress]**
 - [Craft Anything: a Rust study-and-rebuild workbench with explicit limits on project-reported checks](cases/en/craft-anything-agent-study-rebuild-compare-report.md) — Two candidates promote studying originals, agent building and comparison loops. Public documentation distinguishes Clean room from Deep and limits Codex, dynamic tools and game checks; this is not proven complete cloning of arbitrary software in minutes. **[Other AI-assisted work · In progress]**
 - [REA file decryption: Captain Awesome reports switching models in Hermes after Claude refusals](cases/en/emmagine79-rea-file-decryption-hermes-model-switch.md) — The author says Claude refused REA file decryption, then work resumed using Chinese models through OpenCode Go while retaining Hermes. Files, algorithms and successful decryption are unverified. **[REA · Needs verification]**
 - [REA inside Muse's VM: bcc808 reports installation and larger-file adaptation](cases/en/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808 says Muse installed REA on its VM and modified it to accept larger files. No patch, size limit, specific binary or analysis result is supplied. **[REA · Related project]**
-- [Claude Code as a DSH plugin: Misaka reports a DeepSeek Flash/REA rewrite](cases/en/misaka-claude-code-dsh-plugin-deepseek-rea.md) — The author's reply chain describes a private Claude Code rewrite and model-check switching, explicitly naming DeepSeek Flash plus REA. No code, version, compatibility or account-safety validation is provided. **[REA · Needs verification]**
+- [Claude Code as a DSH plugin: Misaka reports a DeepSeek Flash/REA rewrite](cases/en/misaka-claude-code-dsh-plugin-deepseek-rea.md) — The author reports a DeepSeek Flash/REA Claude Code rewrite as a DSH plugin, then distinguishes a version with partly rewritten prompts from an unreleased purported byte-identical internal build. Claims of GPT benefits and similar behavior lack logs. **[REA · Needs verification]**
 - [knife: Dopax describes a Rust multi-format static-analysis toolkit for agents](cases/en/knife-rust-static-analysis-mcp-secondary-report.md) — A roundup describes CLI/TUI/MCP binary research. A public README documents static analysis and agent interfaces, but no Wasm lifter and no indirect dispatch in the direct graph. Nothing was run here. **[REA use unconfirmed · Related project]**
 - [RDX: Dopax describes a native Rust APK/DEX decompiler with desktop and MCP access](cases/en/rdx-rust-apk-dex-mcp-secondary-report.md) — A roundup describes Rust Java reconstruction and MCP access. The public README labels RDX alpha, retains unsupported methods as labelled DEX disassembly and credits adapted JADX algorithms; complete source recovery is not established. **[REA use unconfirmed · Related project]**
 - [Meridian Family: Android local models, Termux and APK decompilation in one toolkit](cases/en/meridian-family-termux-offline-ai-apk-tools.md) — Alen Požun describes five apps combined, default-offline models, Termux/ADB, app building/signing and APK decompilation. Completeness and no-exfiltration claims remain unaudited author reports. **[REA use unconfirmed · Related project]**

@@ -2,11 +2,16 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [跨平台原生集成：BowTiedStack称Grok Bot逆向并协调Cursor做SaaS](../cases/bowtiedstack-grokbot-native-os-saas-integration.md) — 作者报告数月内以Grok Bot协调Cursor云Agent，研究Windows／Mac／Linux复杂原生集成并做端到端QA；产品与接口未具名，不能核实团队或工时替代倍数。 **[其他 AI 逆向 · 待验证]**
+- [Instacart命令行：Peyton Casper称借AI逆向API](../cases/peyton-casper-instacart-ai-cli-report.md) — 作者以AI让世界变得可声明为背景，报告把Instacart配送购物API逆向成CLI；未提供命令、接口、代码或可独立核验的操作结果。 **[其他 AI 逆向 · 待验证]**
+- [百度网盘摇一摇广告：AI逆向的No Shake与磁力计解释尚未证实](../cases/baidu-netdisk-ai-noshake-sensor-analysis-report.md) — 三个转述把限制运动数据后仍跳广告与AI分析联系起来；No Shake／磁力计是开发者推断，记者观察不验证传感器路径，也不足证明百度主动规避。 **[其他 AI 逆向 · 待验证]**
+- [IDM下载管理器：ApriliaBelka提出用REA研究的想法](../cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
+- [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](../cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — 作者报告拆解Lark桌面纪要，以16kHz每秒切片、独立生成任务和原句绑定鱼骨图重建Mac工具；仍待完整测试与开源，不保证录音绝不丢失。 **[REA · 进行中]**
 - [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — 两条候选介绍研究原版、Agent建造与对照迭代；公开项目区分Clean room／Deep，承认Codex、部分动态工具和游戏行为检查尚有限，不是任意软件几分钟完整复刻。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](../cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](../cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
-- [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](../cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 同作者回复链报告私有Claude Code逆向重写版与模型检测切换，明确DeepSeek Flash＋REA；无代码、版本、兼容性或无封号验证。 **[REA · 待验证]**
+- [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](../cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
 - [knife：Dopax转述面向Agent的Rust多格式静态分析工具箱](../cases/knife-rust-static-analysis-mcp-secondary-report.md) — 盘点介绍CLI／TUI／MCP二进制研究；补读公开README确认静态分析与Agent接口的项目说明，但Wasm无lifter、间接调用不在直接图内，未运行验证。 **[未确认使用 REA · 相关项目]**
 - [RDX：Dopax转述Rust原生APK／DEX反编译桌面工具与MCP](../cases/rdx-rust-apk-dex-mcp-secondary-report.md) — 盘点称RDX以Rust重建Java并提供MCP；公开README标alpha，不支持方法保留标注DEX反汇编，并披露JADX算法改编，不等于完整源码恢复。 **[未确认使用 REA · 相关项目]**
 - [Meridian Family：把Android本地模型与Termux、APK反编译放进一套工具](../cases/meridian-family-termux-offline-ai-apk-tools.md) — Alen Požun称五应用合一，默认离线本地模型、Termux／ADB、应用构建签名和APK反编译；所有功能可用与无外传仅为自述，未审代码。 **[未确认使用 REA · 相关项目]**

@@ -1,5 +1,149 @@
 [
   {
+    "id": "brawlhalla-m4pro-codex-rea-air-jit-stutter-report",
+    "title": "Brawlhalla卡顿：Codex／REA追到AIR在Rosetta下的解释器分支",
+    "category": "games", "rea": "REA", "status": "analysis-test",
+    "summary": "fexx_off报告在M4 Pro上用采样与二进制检查定位AIR解释器模式，配置覆盖后解释器路径消失、人工试玩卡顿基本消失；无原始堆栈或帧时间数据，未独立复测。",
+    "description": "2026年11月2日15:48:28（北京时间），fexx_off（@fexx_off）报告MacBook Pro M4 Pro运行格斗游戏Brawlhalla时短暂冻结，离线Training也发生，超过两名玩家的Free-for-all更明显。作者使用Codex、GPT 6.1 sol与REA调查；调整FPS目标、全屏和干净启动后仍有卡顿，全屏只部分改善。\n\n作者称REA帮助检查已安装应用并收集证据，原生堆栈采样与二进制检查将问题指向随游戏附带的Adobe AIR运行时：该构建检测到Rosetta后主动选择ActionScript解释器，而非JIT即时编译。研究找到既有配置覆盖AS3JIT=2，先备份共享配置、临时测试并在启动后自动恢复；新采样不再显示此前反复出现的解释器调用路径。随后作者亲自玩Training与Free-for-all，均称冻结“基本消失”，再让Sol为普通Steam启动持久化设置。\n\n这是作者报告的症状、运行时决策、配置试验、重新采样与人工试玩链，不是本合集复现。未公开游戏／AIR版本、定位地址、堆栈、完整配置位置、帧时间分布、测试时长或回退后的对照，不能保证所有Mac、AIR版本或模式均有效，也不能由一个调用路径消失量化性能收益。补取原帖确认作者与全文，未运行游戏、修改配置或取得独立测试。",
+    "sources": [{"label": "fexx_off的Codex／REA采样、AIR分支与试玩报告，2026-11-02", "url": "https://x.com/i/status/2117161909883408416"}],
+    "snapshot_date": "2026-11-02", "metadata": ["封存候选快照1赞、21浏览、0转发；不是热度优胜或独立验证。", "AS3JIT=2与两种模式的改善为作者报告，无量化帧时间或原始采样。"],
+    "en": {
+      "title": "Brawlhalla stutter: Codex/REA traces AIR's interpreter branch under Rosetta",
+      "summary": "fexx_off reports sampling and binary inspection on an M4 Pro, an AIR interpreter-mode override, disappearance of the sampled interpreter path and largely resolved freezes in hands-on play. Raw stacks and frame times are absent; not independently retested.",
+      "description": "At 15:48:28 Beijing time on November 2, 2026, fexx_off (@fexx_off) reports brief freezes in the fighting game Brawlhalla on a MacBook Pro M4 Pro. Offline Training was affected too, with more noticeable stutter in Free-for-all games with more than two players. The author used Codex, GPT 6.1 sol and REA. FPS targets, fullscreen and clean launches did not eliminate the freezes; fullscreen helped only somewhat.\n\nAccording to the author, REA helped inspect the installed application and collect evidence. Native stack sampling and binary inspection led to the bundled Adobe AIR runtime: this build deliberately selects ActionScript interpreter-only execution rather than JIT compilation when it detects Rosetta. The investigation found an existing AS3JIT=2 configuration override, tested it temporarily with a shared-configuration backup and automatic restoration after startup, and took a fresh sample that no longer showed the previously recurring interpreter call path. The author then personally played Training and Free-for-all and reports freezes 'basically gone' in both, before asking Sol to persist the setting for normal Steam launches.\n\nThis is an author-reported chain from symptoms to a runtime decision, configuration experiment, resampling and human play-testing, not a reproduction by this collection. Game/AIR versions, code addresses, stacks, the full configuration location, frame-time distributions, test duration and a reverted-setting control are not published. It does not guarantee effectiveness across Macs, AIR versions or modes, and the absence of one sampled call path does not quantify performance gains. Original-post lookup confirms attribution and full text. No game was run, configuration changed or independent test obtained here.",
+      "metadata": ["Sealed candidate snapshot: 1 like, 21 views, 0 reposts; neither a popularity winner nor independent validation.", "AS3JIT=2 and improvements in both modes are author reports without quantitative frame times or raw samples."],
+      "source_labels": ["fexx_off's Codex/REA sampling, AIR-branch and play-testing report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "kevin-cui-ninebot-ai-grafana-telemetry",
+    "title": "九号电动车数据看板：Kevin Cui称用AI逆向并上报Grafana",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "作者回复确认数据来自AI逆向，根帖展示九号电动车接入Grafana的报告；车型、获取通道、字段与代码未公开，不能推断已覆盖车辆控制。",
+    "description": "2026年11月2日12:11:31（北京时间），Kevin Cui（@Free_BlackHole）回复读者说“没，让AI逆向出来的”。补读回复链根帖，当日11:51:32作者称把九号电动车数据也上报到Grafana，认为没有AI时自己几乎无法完成这些报表。根帖早于本轮12:00起点，只用于识别当前回复的具体目标，不另计新候选。\n\n目标是从九号电动车取得数据并制作Grafana看板；候选明确AI参与逆向，结果是作者自报已经上报。材料未给车型、固件、模型、REA、蓝牙／云API等数据通道、协议字段、刷新频率、代码或对照测量。不能据此推断解锁车辆、绕过认证、远程控制或所有九号车型兼容。根帖有两张图片，本合集未检查其内容，也未连接车辆、访问账户或运行任何工具链。",
+    "sources": [{"label": "候选：Kevin Cui回复确认AI逆向，2026-11-02 12:11:31北京时间", "url": "https://x.com/i/status/2117107312427229198"}, {"label": "窗口前补充根帖：九号数据上报Grafana，2026-11-02 11:51:32北京时间", "url": "https://x.com/i/status/2117102281036587189"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选封存快照0赞、154浏览、0转发；根帖只是目标识别与作者报告，不是独立复现。"],
+    "en": {
+      "title": "Ninebot telemetry in Grafana: Kevin Cui reports AI-assisted reverse engineering",
+      "summary": "The author confirms AI reversing in a reply; its root post reports Ninebot electric-vehicle data in Grafana. Model, acquisition channel, fields and code are undisclosed, with no basis to infer vehicle control.",
+      "description": "At 12:11:31 Beijing time on November 2, 2026, Kevin Cui (@Free_BlackHole) replies to a reader, 'No, I had AI reverse-engineer it.' Supplementary reading of the conversation root finds the author reporting at 11:51:32 that Ninebot electric-vehicle data is now also being sent to Grafana, describing such dashboards as nearly impossible for them before AI. The root predates this window's 12:00 start and identifies the current reply's target; it is not an additional new candidate.\n\nThe goal is acquiring Ninebot vehicle data for a Grafana dashboard. The candidate explicitly attributes reversing to AI, and the outcome is the author's report of data submission. No vehicle model, firmware, AI model, REA use, Bluetooth/cloud-API or other acquisition channel, protocol fields, refresh rate, code or comparative measurements are given. This does not establish vehicle unlocking, authentication bypass, remote control or compatibility with all Ninebot models. The root has two images whose contents were not inspected here. No vehicle was connected, account accessed or toolchain executed.",
+      "metadata": ["Sealed candidate snapshot: 0 likes, 154 views, 0 reposts. The root identifies the target and supplies an author report, not independent reproduction."],
+      "source_labels": ["Candidate: Kevin Cui confirms AI reversing, November 2, 2026 at 12:11:31 Beijing time", "Earlier supporting root: Ninebot data in Grafana, November 2, 2026 at 11:51:32 Beijing time"]
+    }
+  },
+  {
+    "id": "eevblog-121gw-claude-c-firmware-reconstruction",
+    "title": "121GW万用表：Dave Jones称Claude Code正将固件逆向为C",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Dave Jones确认论坛用户的121GW固件逆向有效，并另称Claude Code正做自己的C重建；前者的成功不能移作AI版本已验证的结论。",
+    "description": "2026年11月2日12:50:30（北京时间），EEVblog的Dave Jones（@eevblog）称确认一名论坛用户对121GW万用表固件的逆向有效，并强调对方未实际拥有仪表。紧接着他说明Claude Code正参与自己将逆向成果转成C代码的工作。目标是理解与重建仪表固件，AI工作仍在进行。\n\n必须分开两项归因：论坛用户的成果得到Dave的口头确认，但帖子没有说该用户使用AI；Dave自己的Claude Code工作则没有完成声明或行为等价测试。14:18:49读者Cozy追问如何检验生成C，是已知输入输出对照还是121GW实机测试；所取作者串未见Dave答复。该问题提示证据缺口，不是实测证明。\n\n未取得固件版本、反编译源码、编译结果、仪表测试日志或论坛原文；短链未展开。补取原帖与串只确认署名和报告，不把论坛成果当本合集独立复现，也不声称已生成可刷写或校准正确的固件。REA未提及；未运行代码、连接仪表或刷写设备。",
+    "sources": [{"label": "Dave Jones的121GW论坛成果确认与Claude Code进度，2026-11-02", "url": "https://x.com/i/status/2117117123134967821"}, {"label": "补充同串读者追问：C行为如何验证，2026-11-02 14:18:49北京时间", "url": "https://x.com/i/status/2117139347879415851"}],
+    "snapshot_date": "2026-11-02", "metadata": ["主候选封存49赞、2795浏览、4转发；验证追问候选0赞、63浏览、0转发。", "论坛逆向被报告有效；Claude Code的C重建仍在进行，未获得行为对照。"],
+    "en": {
+      "title": "121GW multimeter: Dave Jones reports an ongoing Claude Code firmware-to-C effort",
+      "summary": "Dave Jones endorses a forum user's 121GW firmware reversing and separately reports Claude Code working on his own C reconstruction. The former's success does not validate the AI version.",
+      "description": "At 12:50:30 Beijing time on November 2, 2026, EEVblog's Dave Jones (@eevblog) says he can confirm that a forum user's reverse engineering of 121GW multimeter firmware works, emphasizing that the user did not actually own the meter. He then says Claude Code is currently working on his own effort to turn the reverse engineering into C code. The goal is understanding and reconstructing the meter firmware; the AI effort remains ongoing.\n\nThe two attributions must stay separate: Dave verbally endorses the forum user's result, but does not say that user used AI. His own Claude Code work has no completion claim or behavioral-equivalence test. At 14:18:49, reader Cozy asks how the generated C is checked, through known input/output comparisons or a real 121GW. The retrieved author thread contains no answer from Dave. The question identifies an evidence gap, not a successful test.\n\nNo firmware revision, decompiled source, compiled result, instrument logs or original forum text was obtained; the short link was not expanded. Original-post and thread lookups confirm attribution and the report, not independent reproduction of the forum result or production of flashable, correctly calibrated firmware. REA is unspecified. No code was executed, meter connected or device flashed.",
+      "metadata": ["Main sealed candidate: 49 likes, 2,795 views, 4 reposts. Validation-question candidate: 0 likes, 63 views, 0 reposts.", "The forum reversing is reported to work; Claude Code's C reconstruction remains ongoing without behavioral comparisons."],
+      "source_labels": ["Dave Jones endorses forum 121GW reversing and describes Claude Code progress, November 2, 2026", "Supporting reader question: how is C behavior checked? November 2, 2026 at 14:18:49 Beijing time"]
+    }
+  },
+  {
+    "id": "bowtiedstack-grokbot-native-os-saas-integration",
+    "title": "跨平台原生集成：BowTiedStack称Grok Bot逆向并协调Cursor做SaaS",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者报告数月内以Grok Bot协调Cursor云Agent，研究Windows／Mac／Linux复杂原生集成并做端到端QA；产品与接口未具名，不能核实团队或工时替代倍数。",
+    "description": "2026年11月2日13:17:58（北京时间），BowTiedStack（@BowTiedStack）称过去几个月基于Grok Bot构建一个新的AI SaaS创业产品。明确列出三项工作：协调Cursor cloud agents；为产品在Windows、Mac、Linux上的复杂原生OS集成做逆向；检查邮件、登录和上传等端到端流程。目标是跨平台产品集成，而不是已确认克隆某家商业软件。\n\n作者称已交付的工作过去需要5到10名优秀工程师一年，并以100倍影响力描述个人工作，表示没有招聘计划。这些是个人反事实效率估计，不是工时记录、受控对照或本合集测量。帖子没有产品名、原生API、被分析二进制、源码、架构、测试日志、集成清单或发行版本；无法把三个系统的列举当全部功能已通过兼容测试。补取原帖确认作者，REA未提及，未运行产品或访问其服务。",
+    "sources": [{"label": "BowTiedStack的Grok Bot／Cursor原生OS集成报告，2026-11-02", "url": "https://x.com/i/status/2117124034596937963"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选封存3赞、257浏览、0转发；一年、5到10人和100倍均为作者估计，无独立测量。"],
+    "en": {
+      "title": "Cross-platform native integration: BowTiedStack reports Grok Bot reversing and Cursor orchestration for a SaaS",
+      "summary": "The author reports months of Grok Bot coordination of Cursor cloud agents, research into Windows/Mac/Linux native integration and end-to-end QA. The product and interfaces are unnamed; team/time replacement multipliers are unverified.",
+      "description": "At 13:17:58 Beijing time on November 2, 2026, BowTiedStack (@BowTiedStack) says a new AI SaaS startup product was built over the past few months using Grok Bot. Three concrete roles are listed: orchestrating Cursor cloud agents; reverse engineering complex native OS integrations for the product on Windows, Mac and Linux; and QA of end-to-end email, login and upload workflows. The target is cross-platform product integration, not an established clone of a particular commercial application.\n\nThe author estimates that the delivered work previously required a year and five to ten good engineers, describes individual impact as approaching 100x, and has no hiring plans. These are personal counterfactual productivity estimates, not timesheets, controlled comparisons or measurements here. The post supplies no product name, native APIs, analyzed binary, source, architecture, test logs, integration checklist or release version. Listing three operating systems does not establish that all features passed compatibility tests. Original-post lookup confirms attribution. REA is unspecified; no product was run or service accessed.",
+      "metadata": ["Sealed candidate: 3 likes, 257 views, 0 reposts. One year, five to ten engineers and 100x are author estimates, not independent measurements."],
+      "source_labels": ["BowTiedStack's Grok Bot/Cursor native-OS integration report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "peyton-casper-instacart-ai-cli-report",
+    "title": "Instacart命令行：Peyton Casper称借AI逆向API",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者以AI让世界变得可声明为背景，报告把Instacart配送购物API逆向成CLI；未提供命令、接口、代码或可独立核验的操作结果。",
+    "description": "2026年11月2日13:24:24（北京时间），Peyton Casper（@peytoncasper）写道“ai makes the world declarative”，并称把Instacart API逆向成CLI。Instacart是杂货购物配送服务，本条具体目标是把其接口变成可命令行调用的形式；AI归因来自作者的同帖语境，未指明模型或REA。\n\n帖子附有视频，但本合集没有观看或验证其中操作。没有公开仓库、CLI命令、端点、认证方法、支持功能或测试输出，不能自行补成自动下单、支付、库存查询或完整替代官方客户端，也不能把作者的完成时表述当独立功能验证。补取原帖确认作者和文字；未连接Instacart、访问账号、调用API或执行CLI。",
+    "sources": [{"label": "Peyton Casper的Instacart API转CLI报告，2026-11-02", "url": "https://x.com/i/status/2117125651593666991"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选封存12赞、437浏览、0转发；只有作者报告，视频未检查。"],
+    "en": {
+      "title": "Instacart on the command line: Peyton Casper reports AI-assisted API reversing",
+      "summary": "Framing AI as making the world declarative, the author reports reversing Instacart's grocery-delivery API into a CLI. Commands, interfaces, code and independently checkable operation results are absent.",
+      "description": "At 13:24:24 Beijing time on November 2, 2026, Peyton Casper (@peytoncasper) writes 'ai makes the world declarative' and says the Instacart API was reverse-engineered into a CLI. Instacart is a grocery-shopping and delivery service; the concrete target is exposing its interface through command-line use. AI attribution comes from the same post's framing; neither a model nor REA is named.\n\nThe post includes a video that was not watched or operationally verified here. There is no public repository, CLI command, endpoint, authentication method, supported-feature list or test output. Automated ordering, payment, inventory queries or complete replacement of the official client must not be inferred, nor does the author's past-tense claim establish independently verified functionality. Original lookup confirms author and text. No Instacart connection, account access, API call or CLI execution was performed.",
+      "metadata": ["Sealed candidate: 12 likes, 437 views, 0 reposts. Author report only; video uninspected."],
+      "source_labels": ["Peyton Casper's Instacart API-to-CLI report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "baidu-netdisk-ai-noshake-sensor-analysis-report",
+    "title": "百度网盘摇一摇广告：AI逆向的No Shake与磁力计解释尚未证实",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "三个转述把限制运动数据后仍跳广告与AI分析联系起来；No Shake／磁力计是开发者推断，记者观察不验证传感器路径，也不足证明百度主动规避。",
+    "description": "2026年11月2日13:38:44（北京时间），Simbao（@lixinbao_X）转述澎湃新闻当日测试：在iOS 27.2将百度网盘加入限制动作数据名单后，开屏摇一摇广告仍可跳转。报道语境称该功能10月27日推出，限制陀螺仪和加速度计读取；本合集没有独立核实系统版本、权限实现或重跑记者操作。研究目标是解释为何限制运动数据后广告仍响应转动。\n\n同帖称开发者用AI逆向猜测广告框架存在“No Shake”实现，系统不提供运动数据时使用另一套传感器。14:11:15另一候选明确转述为磁力计替代陀螺仪；14:54:03第三条又称定位功能中的磁力计。后两帖未附代码、调用链或权限实验，不能据重复传播确定磁力计确实被读取，亦不能证明No Shake名称等于某一已触发路径。AI模型、REA、APK／iOS二进制版本、函数和原始分析输出均未提供。\n\n首帖同时保留知情人士的相反解释：并非特意绕开，而是新版适配仍在苹果审核中，预计近期更新。记者报告的广告跳转、开发者的逆向推断和这项解释是不同证据层级；不能把其中任一视为百度官方确认规避权限。应用内关闭摇一摇的客服建议也不是逆向路径验证。本合集补取首帖确认作者，未取得澎湃原文、开发者原始分析、设备或流量记录，未执行应用或更改权限；仅收录二手分析争议，不声称发现已证实的传感器漏洞。",
+    "sources": [{"label": "Simbao转述记者观察、AI No Shake猜测与适配解释，2026-11-02 13:38:44北京时间", "url": "https://x.com/i/status/2117129259949154579"}, {"label": "候选转述：磁力计解释，2026-11-02 14:11:15北京时间", "url": "https://x.com/i/status/2117137443510009878"}, {"label": "候选再转述：定位与磁力计说法，2026-11-02 14:54:03北京时间", "url": "https://x.com/i/status/2117148214931738775"}],
+    "snapshot_date": "2026-11-02", "metadata": ["三个候选封存分别1赞／464浏览／1转发、0赞／95浏览／0转发、1赞／99浏览／0转发；转述数量不构成独立复现。", "iOS 27.2、10月27日及权限范围为报道口径；磁力计与No Shake路径未核实。"],
+    "en": {
+      "title": "Baidu Netdisk shake ads: AI-reversing claims about No Shake and magnetometers remain unproven",
+      "summary": "Three secondary posts connect ads still opening after motion-data restrictions to AI analysis. No Shake/magnetometer explanations are developer inferences; a journalist's observation does not verify a sensor path or intentional evasion.",
+      "description": "At 13:38:44 Beijing time on November 2, 2026, Simbao (@lixinbao_X) recounts a same-day The Paper test: Baidu Netdisk's launch-screen shake ad could still redirect after the app was added to the motion-data restriction list in iOS 27.2. The account says the feature launched October 27 and restricts gyroscope and accelerometer access. This collection did not independently verify the OS version, permission implementation or journalist's procedure. The research question is why ads still react to phone rotation after motion data is restricted.\n\nThe same post says a developer used AI reversing to hypothesize a 'No Shake' implementation in the advertising framework that uses another sensor when motion data is unavailable. A 14:11:15 candidate explicitly describes a magnetometer replacing the gyroscope; a third at 14:54:03 calls it a magnetometer within location functionality. Neither supplies code, call chains or permission experiments. Repeated circulation does not establish actual magnetometer reads, nor does the No Shake name identify a demonstrated triggered path. AI model, REA, APK/iOS binary revision, functions and original analysis output are absent.\n\nThe first post also retains a conflicting explanation from an informed source: this was not intentional evasion, but an adaptation update still under Apple review and expected soon. The journalist's reported redirect, the developer's reversing inference and that explanation are different evidence levels; none is treated as Baidu officially confirming permission evasion. Customer-service advice to disable shake ads in the app is not path validation either. Original lookup confirms the first author's identity. The Paper's original article, the developer's original analysis, devices and traffic logs were not obtained. No app was run or permission changed; this is a secondary analysis dispute, not a confirmed sensor vulnerability.",
+      "metadata": ["Three sealed candidates respectively: 1 like/464 views/1 repost; 0 likes/95 views/0 reposts; 1 like/99 views/0 reposts. Repetition is not independent reproduction.", "iOS 27.2, October 27 and permission scope are secondary-report claims; the magnetometer and No Shake paths remain unverified."],
+      "source_labels": ["Simbao recounts a journalist's observation, AI No Shake hypothesis and adaptation explanation, November 2, 2026 at 13:38:44 Beijing time", "Candidate secondary magnetometer explanation, November 2, 2026 at 14:11:15 Beijing time", "Candidate further retelling about location and magnetometers, November 2, 2026 at 14:54:03 Beijing time"]
+    }
+  },
+  {
+    "id": "apriliabelka-idm-rea-research-idea",
+    "title": "IDM下载管理器：ApriliaBelka提出用REA研究的想法",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。",
+    "description": "2026年11月2日14:16:05（北京时间），ApriliaBelka（@ApriliaBelka）问为何还没人用Reverse Engineer Anything研究IDM。IDM通常指Internet Download Manager下载管理软件；帖子未展开缩写或给版本，因此此名称解释保留语境限制。目标软件与拟用工具具体，按研究想法收录，而不是已完成的逆向案例。\n\n没有说明想恢复哪项下载功能、分析哪些文件、遇到何种问题、是否已经尝试、是否有代码或测试。不能补成多线程下载协议已恢复、免费替代品已发布或许可已获授权；其“没人尝试”也是提问者看法，非全网查无案例。补取原帖确认作者，有附图但未检查，未取得或运行软件。",
+    "sources": [{"label": "ApriliaBelka询问用Reverse Engineer Anything研究IDM，2026-11-02", "url": "https://x.com/i/status/2117138658260328861"}],
+    "snapshot_date": "2026-11-02", "metadata": ["封存候选1赞、59浏览、0转发；idea阶段，未报告实施。"],
+    "en": {
+      "title": "IDM download manager: ApriliaBelka proposes research with REA",
+      "summary": "The author asks why nobody has tried Reverse Engineer Anything on IDM. A concrete software-research idea, not an implementation, reconstructed feature or replacement result.",
+      "description": "At 14:16:05 Beijing time on November 2, 2026, ApriliaBelka (@ApriliaBelka) asks why nobody has tried Reverse Engineer Anything on IDM. IDM commonly means Internet Download Manager, but the post does not expand the acronym or give a version, so that identification remains contextual. The software target and proposed tool are concrete enough to retain as a research idea, not a completed reversing case.\n\nNo desired download feature, target files, problem, attempted work, code or test is specified. Restored multithreaded-download protocols, a released free replacement and licensing authorization must not be invented. 'Nobody has tried' is the questioner's perception, not an exhaustive search finding. Original lookup confirms attribution. An attached image was not inspected and no software obtained or run.",
+      "metadata": ["Sealed candidate: 1 like, 59 views, 0 reposts. Idea stage; no implementation reported."],
+      "source_labels": ["ApriliaBelka asks about Reverse Engineer Anything research on IDM, November 2, 2026"]
+    }
+  },
+  {
+    "id": "jackson-li-deepseek-claude-client-v1-report",
+    "title": "逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。",
+    "description": "2026年11月2日14:45:20（北京时间），Jackson li（@Jackson77li）称DeepSeek一上午做出“逆向Claude的满血v1”。补读其另一讨论串，13:59:12 Misaka向他介绍将Claude记忆机制逆向再实现为DSH插件；14:07:11 Jackson表示当天按其思路在做，15:13:57说将试用Misaka版本。这说明两人有交流，但不能认定Jackson的初版就是Misaka同一产物，故分别记录。补充串帖用于说明当前候选语境，不另列候选。\n\n在本候选自己的回复串中，15:57:47 Jackson又称“p1版本，未必可用”，收窄早先满血措辞。Claude在这里是客户端／工作流研究语境，未给目标版本、仓库、功能清单、模型修订、实现或兼容测试，不能推断恢复Claude权重、实现同等推理能力或完整兼容Claude Code；候选本身也没有明确REA。\n\n“一上午”是作者工时自述，无计时日志。附图未检查，也未执行任何重建版本；同串其他人的沙盘耗时对比是不同任务，不用于本项目性能结论。保留进行中、可用性未证实的初版报告。",
+    "sources": [{"label": "Jackson li的DeepSeek逆向Claude v1报告，2026-11-02 14:45:20北京时间", "url": "https://x.com/i/status/2117146021906321746"}, {"label": "补充同作者收窄：p1版本未必可用，2026-11-02 15:57:47北京时间", "url": "https://x.com/i/status/2117164253983732056"}, {"label": "补充语境：作者称按Misaka思路尝试，2026-11-02 14:07:11北京时间", "url": "https://x.com/i/status/2117136419072381349"}, {"label": "补充语境：Misaka介绍DSH记忆再实现，2026-11-02 13:59:12北京时间", "url": "https://x.com/i/status/2117134408373416108"}],
+    "snapshot_date": "2026-11-02", "metadata": ["封存候选3赞、321浏览、0转发；一上午与满血v1为作者措辞，后来明确未必可用。"],
+    "en": {
+      "title": "A reverse-engineered Claude v1: Jackson li reports a morning with DeepSeek, then warns it may not work",
+      "summary": "Jackson li reports an initial DeepSeek-assisted Claude reconstruction, later calling p1 potentially unusable. Context concerns a client/third-party-model workflow, not copied Claude weights or model capability.",
+      "description": "At 14:45:20 Beijing time on November 2, 2026, Jackson li (@Jackson77li) says DeepSeek produced a 'full-strength v1' from reversing Claude in one morning. Supplementary reading of another discussion finds Misaka introducing a DSH plugin reimplementing Claude's memory at 13:59:12, Jackson saying at 14:07:11 that he was following that approach that day, and at 15:13:57 planning to try Misaka's version. This establishes interaction, not that Jackson's initial build is Misaka's artifact, so they remain separate entries. The additional thread posts contextualize the candidate rather than constitute extra candidates.\n\nIn the candidate's own reply thread, at 15:57:47 Jackson calls it 'p1, may not be usable', narrowing the earlier full-strength wording. Claude is discussed in a client/workflow context. No target revision, repository, feature list, model revision, implementation or compatibility tests are supplied. Recovered Claude weights, equivalent reasoning capability or full Claude Code compatibility must not be inferred; the candidate does not explicitly mention REA.\n\n'One morning' is the author's time claim without timing logs. The image was not inspected and no reconstruction was executed. Other readers' sandbox timing comparisons concern a different task and do not measure this project. Retained as an ongoing initial-build report with unproven usability.",
+      "metadata": ["Sealed candidate: 3 likes, 321 views, 0 reposts. One morning and full-strength v1 are author wording, later qualified as potentially unusable."],
+      "source_labels": ["Jackson li's DeepSeek/Claude v1 report, November 2, 2026 at 14:45:20 Beijing time", "Same-author qualification: p1 may not work, November 2, 2026 at 15:57:47 Beijing time", "Supporting context: author follows Misaka's approach, November 2, 2026 at 14:07:11 Beijing time", "Supporting context: Misaka introduces DSH memory reimplementation, November 2, 2026 at 13:59:12 Beijing time"]
+    }
+  },
+  {
+    "id": "ps5-bluray-offline-loader-claude-secondary-report",
+    "title": "PS5蓝光离线启动：转述开发者鸣谢Claude的越狱载入报告",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "wakeupbrk称PS5可从刻录蓝光启动越狱、不需Wi-Fi或浏览器，开发者鸣谢Claude；未取得项目原文、支持固件或AI实际分工，不证明AI发现完整利用链。",
+    "description": "2026年11月2日15:49:13（北京时间），wakeupbrk（@wakeupbrk）转述PS5越狱可直接从刻录蓝光启动、不需Wi-Fi或浏览器，并称开发者明确鸣谢Claude，以此比较光驱版与数字版主机。具体目标是光盘载入路径，不是同窗口另一帖的Bazzite Linux桌面移植；两者没有证据证明属于同一项目，不能拼接其功能、固件或开发者。\n\n帖子未写项目名、原开发者、固件范围、所需既有漏洞、Claude模型、所做代码或测试。附有短链和图片但未展开核验，不能把鸣谢等同AI发现漏洞、独立完成越狱或所有带光驱PS5可用，也不据“无Wi-Fi”推断全流程从未联网或绝无账号风险。补取原帖确认转述者和文字，保留二手未核验状态；未下载载荷、刻录光盘、运行目标或连接主机。",
+    "sources": [{"label": "wakeupbrk转述PS5蓝光离线启动与Claude鸣谢，2026-11-02", "url": "https://x.com/i/status/2117162097733939565"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选封存0赞、25浏览、0转发；项目原始来源及AI分工未核实。"],
+    "en": {
+      "title": "PS5 offline Blu-ray boot: a secondary report says the loader developer credits Claude",
+      "summary": "wakeupbrk reports burned-Blu-ray PS5 jailbreak boot without Wi-Fi or a browser and a developer credit to Claude. Original documentation, firmware support and AI's actual role were not obtained; this does not show AI discovering a full exploit chain.",
+      "description": "At 15:49:13 Beijing time on November 2, 2026, wakeupbrk (@wakeupbrk) reports a PS5 jailbreak booting directly from a burned Blu-ray without Wi-Fi or a browser, says the developer explicitly credits Claude, and compares disc and digital consoles. The specific target is an optical-disc loading path, not the other candidate's Bazzite Linux desktop port. There is no evidence they are the same project, so their features, firmware ranges and developers must not be combined.\n\nThe post gives no project name, original developer, firmware range, prerequisite vulnerabilities, Claude model, contributed code or tests. Short links and images were not expanded or verified. A credit does not establish AI discovery of vulnerabilities, independent completion of a jailbreak or support for all disc-equipped PS5s. 'No Wi-Fi' does not prove the whole workflow never requires a network or has no account risk. Original lookup confirms the secondary author's identity and wording. Retained as an unverified secondary report; no payload was downloaded, disc burned, target executed or console connected.",
+      "metadata": ["Sealed candidate: 0 likes, 25 views, 0 reposts. Original project evidence and AI contribution remain unverified."],
+      "source_labels": ["wakeupbrk's secondary PS5 offline Blu-ray boot/Claude-credit report, November 2, 2026"]
+    }
+  },
+  {
     "id": "wquguru-lark-rea-mac-meeting-notes-rebuild",
     "title": "飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版",
     "category": "apps", "rea": "REA", "status": "in-progress",
@@ -76,20 +220,22 @@
     "id": "misaka-claude-code-dsh-plugin-deepseek-rea",
     "title": "Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写",
     "category": "apps", "rea": "REA", "status": "unverified",
-    "summary": "同作者回复链报告私有Claude Code逆向重写版与模型检测切换，明确DeepSeek Flash＋REA；无代码、版本、兼容性或无封号验证。",
-    "description": "2026年11月2日09:20:39（北京时间），酸性氢氧化钠（@MisakaM55561189）回应逆向思路询问，称使用“deepseekflash+Rea”。补读同一回复链中11月1日23:03:13的原话，目标是将Claude Code逆向重写为DSH插件；作者称已有版本，但因其所说的法律要求不能开放。较早原话只是解释当前候选指向的目标，不另算本轮新抓取；DSH简称未在材料展开。\n\n当日10:20:37，作者进一步称逆向关闭检测是否自家模型的开关，以使用其他厂商模型，用Claude时再恢复正常。两个候选属于同一作者、同一讨论下的工作流证据，未证明插件与检测开关在相同版本或同一代码产物中。没有源码、修改位置、版本、模型具体修订、重写范围、兼容测试或检测成功率。\n\n只收录私有功能重建与可切换配置的高层作者自述，不提供绕过步骤、不保证账号安全或许可合规，也不把所谓法律要求当独立法律判断。未安装插件、访问账号或运行目标。",
+    "summary": "作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。",
+    "description": "2026年11月2日09:20:39（北京时间），酸性氢氧化钠（@MisakaM55561189）回应逆向思路询问，称使用“deepseekflash+Rea”。补读同一回复链中11月1日23:03:13的原话，目标是将Claude Code逆向重写为DSH插件；当时称已有版本，但因其所说的法律要求不能开放。较早原话用于解释目标，不另算本轮新抓取；DSH简称未在材料展开。\n\n当日10:20:37，作者进一步称逆向关闭检测是否自家模型的开关，以使用其他厂商模型，用Claude时再恢复正常。这些属于同一作者的工作流报告，未证明插件与检测开关在相同版本或同一代码产物中；没有修改位置、具体版本或检测成功率。\n\n本轮15:08:32候选补充了此前不能开放的口径：作者称自己提供的是专门重写部分提示词的版本，内部所谓“字节级一致”版本不公开；自称实测提示词重写对GPT模型有利，其他行为接近。补读同串13:59:12回复，作者以链接介绍DSH插件为对Claude记忆的逆向再实现；这是识别范围的补充来源，不是独立候选或完整代码验证。未展开该短链，不能确认已公开源码或可安装发行，也没有行为对照数据、提示词差异、测试集或GPT修订支持效果判断。“字节级一致”是未给产物的作者宣称，不是本合集字节比较。\n\n作者认为改提示词便可二次创作，这是其法律观点，不是本合集对授权或合规的结论。只收录功能重建、提示词变体与配置的高层自述，不提供绕过步骤或账号安全保证。未安装插件、访问账号或运行目标；Jackson li按该思路另做初版的报告独立记录，不混同两人的产物。",
     "sources": [
       {"label": "候选：作者披露DeepSeek Flash＋REA，2026-11-02", "url": "https://x.com/i/status/2117064310711296510"},
       {"label": "候选补证：作者报告模型检测切换，2026-11-02", "url": "https://x.com/i/status/2117079400814669940"},
-      {"label": "窗口前同作者原话：Claude Code重写为DSH插件，2026-11-01 23:03:13北京时间", "url": "https://x.com/i/status/2116908927938167020"}
+      {"label": "窗口前同作者原话：Claude Code重写为DSH插件，2026-11-01 23:03:13北京时间", "url": "https://x.com/i/status/2116908927938167020"},
+      {"label": "候选更新：部分提示词重写版与内部版本的区别，2026-11-02 15:08:32北京时间", "url": "https://x.com/i/status/2117151860201320529"},
+      {"label": "补充同作者语境：DSH插件为Claude记忆再实现，2026-11-02 13:59:12北京时间", "url": "https://x.com/i/status/2117134408373416108"}
     ],
-    "snapshot_date": "2026-11-02", "metadata": ["候选快照分别1赞／42浏览和1赞／25浏览，均0转发；没有公开代码或行为对照。"],
+    "snapshot_date": "2026-11-02", "metadata": ["原候选快照分别1赞／42浏览和1赞／25浏览，均0转发；本轮更新候选1赞、18浏览、0转发。", "未读取插件代码或行为日志；提示词重写、GPT改善与内部字节一致均为作者报告，法律观点不作合规保证。"],
     "en": {
       "title": "Claude Code as a DSH plugin: Misaka reports a DeepSeek Flash/REA rewrite",
-      "summary": "The author's reply chain describes a private Claude Code rewrite and model-check switching, explicitly naming DeepSeek Flash plus REA. No code, version, compatibility or account-safety validation is provided.",
-      "description": "At 09:20:39 Beijing time on November 2, 2026, Misaka (@MisakaM55561189, display name 酸性氢氧化钠) answers a question about the reversing approach with 'deepseekflash+Rea'. Supplementary reading of their November 1, 23:03:13 reply in the same chain identifies the target as reverse engineering Claude Code and rewriting it as a DSH plugin. They say a version exists but cannot be released because of claimed legal requirements. That earlier reply identifies the current candidate's target, not another new-window discovery. The material does not expand DSH.\n\nAt 10:20:37 the next day, the author additionally reports reversing a switch that checks for the vendor's own model, disabling it for other providers and restoring normal behavior for Claude. The two candidates are workflow evidence from one author and discussion, not proof that the plugin and detection switch belong to the same version or artifact. No source, patch location, version, exact model revision, rewrite scope, compatibility tests or detection-success rate is given.\n\nOnly high-level author claims of private reconstruction and switchable configuration are recorded. No bypass instructions, account-safety or licensing guarantees are provided, and the claimed legal restriction is not an independent legal conclusion. No plugin was installed, account accessed or target run.",
-      "metadata": ["Candidate snapshots: 1 like/42 views and 1 like/25 views respectively, both 0 reposts. No public code or behavioral comparison."],
-      "source_labels": ["Candidate: author names DeepSeek Flash plus REA, November 2, 2026", "Supporting candidate: author reports model-check switching, November 2, 2026", "Earlier same-author reply: Claude Code rewritten as a DSH plugin, November 1 at 23:03:13 Beijing time"]
+      "summary": "The author reports a DeepSeek Flash/REA Claude Code rewrite as a DSH plugin, then distinguishes a version with partly rewritten prompts from an unreleased purported byte-identical internal build. Claims of GPT benefits and similar behavior lack logs.",
+      "description": "At 09:20:39 Beijing time on November 2, 2026, Misaka (@MisakaM55561189, display name 酸性氢氧化钠) answers a question about the reversing approach with 'deepseekflash+Rea'. Supplementary reading of a November 1, 23:03:13 reply in the same chain identifies the target as reverse engineering Claude Code and rewriting it as a DSH plugin. At that point the author says a version exists but cannot be released because of claimed legal requirements. The earlier reply identifies the target rather than being a new candidate. DSH is not expanded in the material.\n\nAt 10:20:37 the next day, the author also reports reversing a vendor-model check switch, disabling it for other providers and restoring normal behavior for Claude. These are one author's workflow reports, not proof that the plugin and switch belong to one revision or artifact. Patch locations, exact versions and detection-success rates are absent.\n\nThis window's 15:08:32 candidate qualifies the earlier non-release account: the author says the version being provided deliberately rewrites some prompts, while a purported 'byte-identical' internal version remains private. They claim testing showed benefits for GPT models and otherwise similar behavior. Supplementary reading of the 13:59:12 reply finds a linked DSH plugin described as reverse engineering and reimplementing Claude's memory. This identifies scope, not an additional candidate or full code verification. The short link was not expanded, so public source or an installable release is unconfirmed. There are no behavioral comparisons, prompt diffs, test sets or GPT revisions supporting the effect claim. 'Byte-identical' is an author assertion without an artifact, not a byte comparison performed here.\n\nThe author's view that changing prompts makes this permissible derivative work is a legal opinion, not this collection's authorization or compliance finding. Only high-level reports of reconstruction, prompt variants and configuration are recorded, without bypass steps or account-safety guarantees. No plugin was installed, account accessed or target run. Jackson li's separate initial build following this approach is recorded independently rather than conflating their artifacts.",
+      "metadata": ["Earlier candidate snapshots: 1 like/42 views and 1 like/25 views, both 0 reposts. This window's update: 1 like, 18 views, 0 reposts.", "No plugin code or behavior logs were read. Prompt rewriting, GPT improvement and internal byte identity are author reports; legal opinions are not compliance guarantees."],
+      "source_labels": ["Candidate: author names DeepSeek Flash plus REA, November 2, 2026", "Supporting candidate: author reports model-check switching, November 2, 2026", "Earlier same-author reply: Claude Code rewritten as a DSH plugin, November 1 at 23:03:13 Beijing time", "Update candidate: partly rewritten prompts versus the internal version, November 2, 2026 at 15:08:32 Beijing time", "Supporting same-author context: DSH plugin reimplements Claude's memory, November 2, 2026 at 13:59:12 Beijing time"]
     }
   },
   {

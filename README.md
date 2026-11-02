@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1475 cases & projects
+# 1484 cases & projects
 
-**Latest case update:** November 2, 2026, 12:17 · **Last maintained:** November 2, 2026, 12:17 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 2, 2026, 16:10 · **Last maintained:** November 2, 2026, 16:10 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -30,7 +30,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 4. **[Pokémon Bank: keep transfers local on a 3DS](cases/en/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01` report and project record — Wokann explicitly credits Codex for decompilation analysis and patch work. A **public local-server patch preserves Bank/Mover workflows**, not the official backend; **no HOME transfer**. Requires your own supported titles and save backups; not run here. `In progress`
 5. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 6. **[Sonic Adventure: matching Dreamcast code, then a GCC port](cases/en/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer credits Claude Code/Codex and hundreds of hours of human polishing; the public project reports **247 matching binaries, 97.7% C / 2.3% assembly**. Some C needs compiler-assembly patches. The GCC build is separate, not a PC port; bring your own Japanese disc. Not rebuilt here. `Analysis test`
-7. **[Lark meeting notes: rebuild the engineering, not just the UI](cases/en/wquguru-lark-rea-mac-meeting-notes-rebuild.md)** · `2026-11-02` — WquGuru reports REA/DeepSeek-assisted research and a Mac tool with **one-second audio chunks, independent note tasks and source-linked fishbone diagrams**. Full testing and open-source release are pending; no proof of lossless recording or free-model privacy. `In progress`
+7. **[Brawlhalla: trace Mac stutter past the FPS settings](cases/en/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md)** · `2026-11-02` — fexx_off reports **Codex/REA tracing AIR's Rosetta interpreter branch**, then testing a JIT override with fresh sampling and human play. Training and Free-for-all freezes reportedly largely disappear on an M4 Pro; no raw stacks or frame-time measurements, not a universal Mac fix. `Author-tested analysis`
 8. **[Claude writes proofs; Rocq checks the binaries](cases/en/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic/Theorem report machine-code no-crash proofs for **239 entry points across 123 libraries**. Single-threaded static RISC-V/Linux, inputs below 64MB; **not bug-free whole libraries**, and the checker was not independently rerun here. `Analysis test`
 9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
 10. **[PE2PC: Parasite Eve II without a console emulator](cases/en/parasite-eve2-pe2pc-claude-native-port.md)** · `2026-11-02` report; `2026-11-01` project record — Snaity credits Claude Code and builds on **GabeRealB's existing decompilation**, with a C/Rust PC runtime and human play-testing. Project-reported two-disc support; **60-fps presentation still uses 30-fps game logic**. Experimental mods, your own USA discs, no independent rebuild here. `In progress`
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **319** |
-| [Hardware & interoperability](categories/en/hardware.md) | **389** |
-| [Applications & clients](categories/en/apps.md) | **608** |
+| [Games & preservation](categories/en/games.md) | **320** |
+| [Hardware & interoperability](categories/en/hardware.md) | **392** |
+| [Applications & clients](categories/en/apps.md) | **613** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **159** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
