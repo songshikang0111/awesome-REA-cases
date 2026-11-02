@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [光枪跟踪：xenesed称Claude优化固件并写轨迹叠加层](../cases/claude-unnamed-lightgun-tracking-firmware-report.md) — 作者不满新购光枪的软件，称Claude改善跟踪、消除抖动并制作激光轨迹overlay；60%改善缺测量定义，型号与研究方法未披露。 **[其他 AI 逆向 · 待验证]**
+- [BRP的CarPlay：作者称花几天用AI辅助解锁研究](../cases/brp-carplay-ai-jailbreak-research-report.md) — 作者称为启用CarPlay花数日研究BRP，认为AI显著降低难度；车型、组件、模型、固件和实际运行证据均未给。 **[其他 AI 逆向 · 待验证]**
+- [电视代码审计：读者建议让Claude调用REA检查](../cases/claude-rea-tv-code-check-idea.md) — 一条回复建议连接Claude、研究电视代码以检查疑问；目标品牌与具体行为未给，是代码审计idea，不是发现漏洞或隐私问题。 **[REA · 待验证]**
+- [Mali GPU驱动：读者建议把AI反编译用于驱动研究](../cases/mali-gpu-driver-ai-decompile-idea.md) — 读者由AI游戏移植想到反编译Mali GPU驱动；没有芯片型号、驱动版本或实际进度，不等于已有开源替代驱动。 **[其他 AI 逆向 · 待验证]**
 - [小米14应用上报与录屏：GPT逆向归因仍薄弱的二手指控](../cases/xiaomi14-gpt-app-reporting-screen-recording-allegation.md) — 转述者把小米14应用上报、三秒录屏与GPT逆向联系起来；另一评论也质疑GPT归因，未取得APK、调用链或流量证据，不能确认监控与警方来电因果。 **[其他 AI 逆向 · 待验证]**
 - [Kindle Oasis 3：Codex排查越狱卡点，作者实际打开微信读书书籍](../cases/sunyuhua-kindle-oasis3-codex-weread-jailbreak.md) — monkey-king.sun报告Codex承担Mac端识别、备份、校验和日志分析，人完成设备与扫码操作；既有社区工具最终跑通阅读链，首轮卡住原因与补丁异常保留。 **[其他 AI 逆向 · 待验证]**
 - [Linux显示驱动：RensouhouK称Claude与REA三小时重试成功](../cases/rensouhouk-claude-rea-linux-display-driver-report.md) — 作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。 **[REA · 待验证]**

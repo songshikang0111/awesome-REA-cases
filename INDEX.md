@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1498 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1514 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（322）
-- [硬件与设备互通](categories/hardware.md)（396）
-- [应用与客户端](categories/apps.md)（621）
-- [算法与功能重建](categories/algorithms.md)（159）
+- [游戏与游戏保存](categories/games.md)（325）
+- [硬件与设备互通](categories/hardware.md)（400）
+- [应用与客户端](categories/apps.md)（629）
+- [算法与功能重建](categories/algorithms.md)（160）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [benilla：Rust／Bevy重建WoW1.12.1客户端，Claude归因来自转述](cases/benilla-wow1121-claude-rust-bevy-client.md) — grokked称Claude辅助重写WoW客户端；公开实现与地址级研究文档可查。项目称可完整游玩，但不支持Warden，插件与性能仍在改进，未独立运行。 **[其他 AI 逆向 · 进行中]**
+- [Roblox模拟器循环：Opus／Astra／RigDirectors行为重建宣传报告](cases/opus-astra-rigdirectors-roblox-simulator-report.md) — 作者称研究流行Roblox机制后生成宠物、孵蛋、升级和重生循环，报告早版UI与经济失衡；两天交付和12450美元收入无成品或账本支持。 **[其他 AI 逆向 · 待验证]**
+- [Battlefield 1942浏览器版：dimash转述levels使用Claude反编译引擎](cases/levels-battlefield1942-claude-browser-report.md) — dimash称levels让Claude Code反编译2002年Battlefield1942引擎并在浏览器运行；尚无原作者串、仓库或试玩验证，不能认定完整游戏或原始C源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [Nimbus：三款GameCube龙珠游戏的AI辅助原生化项目，闭源Alpha仍待验证](cases/nimbus-dragon-ball-z-gamecube-ai-native-project.md) — thebabyhippo303的统一启动器自称混合重编译／反编译，不用硬件解释器；固定README已是Alpha 1.1，仅分发构建，跨平台与跨服功能未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [死亡之屋ReWrithe：Claude辅助合并街机与PC逻辑，项目测试不等于全平台实测](cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md) — Tawhid的公开C++重写披露Claude辅助逆向与人工指挥测试；README区分Surface通关、自动MAME对照与尚未实机测试的平台、光枪和联网。 **[其他 AI 逆向 · 进行中]**
 - [Brawlhalla卡顿：Codex／REA追到AIR在Rosetta下的解释器分支](cases/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md) — fexx_off报告在M4 Pro上用采样与二进制检查定位AIR解释器模式，配置覆盖后解释器路径消失、人工试玩卡顿基本消失；无原始堆栈或帧时间数据，未独立复测。 **[REA · 分析测试]**
@@ -351,6 +354,10 @@
 
 ### 硬件与设备互通
 
+- [光枪跟踪：xenesed称Claude优化固件并写轨迹叠加层](cases/claude-unnamed-lightgun-tracking-firmware-report.md) — 作者不满新购光枪的软件，称Claude改善跟踪、消除抖动并制作激光轨迹overlay；60%改善缺测量定义，型号与研究方法未披露。 **[其他 AI 逆向 · 待验证]**
+- [BRP的CarPlay：作者称花几天用AI辅助解锁研究](cases/brp-carplay-ai-jailbreak-research-report.md) — 作者称为启用CarPlay花数日研究BRP，认为AI显著降低难度；车型、组件、模型、固件和实际运行证据均未给。 **[其他 AI 逆向 · 待验证]**
+- [电视代码审计：读者建议让Claude调用REA检查](cases/claude-rea-tv-code-check-idea.md) — 一条回复建议连接Claude、研究电视代码以检查疑问；目标品牌与具体行为未给，是代码审计idea，不是发现漏洞或隐私问题。 **[REA · 待验证]**
+- [Mali GPU驱动：读者建议把AI反编译用于驱动研究](cases/mali-gpu-driver-ai-decompile-idea.md) — 读者由AI游戏移植想到反编译Mali GPU驱动；没有芯片型号、驱动版本或实际进度，不等于已有开源替代驱动。 **[其他 AI 逆向 · 待验证]**
 - [小米14应用上报与录屏：GPT逆向归因仍薄弱的二手指控](cases/xiaomi14-gpt-app-reporting-screen-recording-allegation.md) — 转述者把小米14应用上报、三秒录屏与GPT逆向联系起来；另一评论也质疑GPT归因，未取得APK、调用链或流量证据，不能确认监控与警方来电因果。 **[其他 AI 逆向 · 待验证]**
 - [Kindle Oasis 3：Codex排查越狱卡点，作者实际打开微信读书书籍](cases/sunyuhua-kindle-oasis3-codex-weread-jailbreak.md) — monkey-king.sun报告Codex承担Mac端识别、备份、校验和日志分析，人完成设备与扫码操作；既有社区工具最终跑通阅读链，首轮卡住原因与补丁异常保留。 **[其他 AI 逆向 · 待验证]**
 - [Linux显示驱动：RensouhouK称Claude与REA三小时重试成功](cases/rensouhouk-claude-rea-linux-display-driver-report.md) — 作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。 **[REA · 待验证]**
@@ -750,6 +757,14 @@
 
 ### 应用与客户端
 
+- [同花顺API：GPT把历史导出封装成接口，没解决作者盯盘目标](cases/gpt-tonghuashun-api-history-export-mismatch.md) — 作者要求GPT逆向同花顺调用服务，用于AI盯盘、委托与复盘；检查发现所谓接口只是历史数据导出封装，是需求错位的实际报告。 **[其他 AI 逆向 · 待验证]**
+- [uTools旧插件：李不凯用Codex与REA修功能并接MCP](cases/codex-rea-utools-legacy-plugin-customization.md) — 李不凯称研究几款长期未更新的常用uTools插件，修正功能并加MCP，让图形工具也可在Codex调用；插件名、实现与测试未给。 **[REA · 待验证]**
+- [Claude Code第三方接口：DeepSeek逆向的参数降级转述，非降智动机铁证](cases/deepseek-claude-code-third-party-parameter-fallback-report.md) — AI Fun称DeepSeek发现第三方网关拒绝参数后Claude Code静默降级；没有版本、代码或日志，不能确认顺序，更不能证明故意压低模型能力。 **[其他 AI 逆向 · 待验证]**
+- [11kB .NET自测：Hiroshi报告Claude／REA答对24项、一项部分正确](cases/hiroshi-claude-rea-dotnet-25-item-test.md) — Hiroshi先固定25项答案，再测Claude、REA与Claude自写反汇编器；称24正确、1部分，完整细节尚待发布，不能还原设计动机。 **[REA · 分析测试]**
+- [DGX ARM64的REA／Wakaru：JavaScript恢复工具接线与回归自测](cases/dgx-arm64-rea-wakaru-javascript-integration-test.md) — 作者称放开REA的Wakaru ARM64架构门，接入两个JS工具；React DOM单文件与Babel目录分析成功，Ghidra回归未受影响，但只提供文本结果。 **[REA · 分析测试]**
+- [QQ音乐加密：作者想在旧AI尝试失败后重试](cases/ai-qqmusic-encryption-retry-idea.md) — 作者回忆AI曾无法研究个人QQ音乐加密，因近期微信数据库研究似有进展而想重试；没有解密成功或新方法。 **[其他 AI 逆向 · 待验证]**
+- [个人微信数据库：作者简述前几周AI研究成功，方法未给](cases/ai-wechat-database-research-brief-report.md) — 同一QQ音乐重试帖子回忆，AI前几周已能逆向其微信数据库；缺模型、数据库版本与可读结果，不推断完整解密或聊天导出。 **[其他 AI 逆向 · 待验证]**
+- [TiviMate个人替代：读者称先用REA研究，再请Claude制作](cases/tivimate-rea-claude-personal-client-report.md) — 法语回复称已用REA逆向TiviMate并让Claude做自己的版本；无界面、仓库、播放测试或完整功能清单，不能认定兼容替代品完成。 **[REA · 进行中]**
 - [Super Harness：Aman Singh介绍接入AI API的逆向CLI](cases/super-harness-aman-singh-ai-re-cli.md) — 作者介绍面向目标软件的一体化逆向命令行harness，称接入AI API即可使用；未给可核验的目标实验或兼容测试。 **[其他 AI 逆向 · 相关项目]**
 - [短剧软件研究：0xMomo用本地Qwen、Pi与REA分析双平台安装包](cases/local-qwen-pi-rea-short-drama-app-study.md) — 作者称分析一款未具名短剧软件的DMG与Windows包，提取Electron架构和业务流程，准备交给Codex／DeepSeek继续重建；自述解锁不等于合法授权或完整替代品。 **[REA · 进行中]**
 - [Instagram的AI应用名单：Alex Choi称Claude反编译找到odin检测函数](cases/alex-choi-instagram-claude-odin-ai-apps-detector.md) — Alex Choi称把手机接到笔记本、让Claude Code反编译Instagram，找到含23款应用的odin_ai_apps_detector；未给APK版本、调用链或动态验证。 **[其他 AI 逆向 · 待验证]**
@@ -1253,7 +1268,7 @@
 - [GTM 工具：用 REA 构建线索与邮件营销工作流](cases/rea-gtm-tool.md) — 作者称用 REA 构建获客工具，涵盖线索管理与邮件活动；未提供实现或测试细节。 **[REA · 待验证]**
 - [茶叶出海网站：REA 辅助的本地重建报告](cases/tea-site-rea-rebuild-report.md) — 作者称用 Codex + REA 逆向参考网站，并在约 40 分钟内本地部署重建版。 **[REA · 待验证]**
 - [iTerm：借助 REA 规格实现阿拉伯语文本绘制](cases/arabic-terminal-rendering.md) — 作者自述用 REA 分析 iTerm，再按规格制作并在设备上测试阿拉伯语绘制支持；实现与测试尚无独立核验。 **[REA · 待验证]**
-- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](cases/bloomberg-style-research-terminal.md) — 多帖描述REA与Claude研究Bloomberg风格工作流、接独立数据；10月24日提案在Kronos预测层外增加TradingAgents研究与风险决策，仍无终端产物或回测结果。 **[REA · 待验证]**
+- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](cases/bloomberg-style-research-terminal.md) — 多帖描述REA／Claude研究终端与Kronos／TradingAgents提案；11月2日新评论提出一周数据失败率、延迟与人工差异测试，尚无终端产物或测量结果。 **[REA · 待验证]**
 - [闭源 Coding Agent：逆向多模型协同逻辑并制作 pi 插件](cases/closed-agent-pi-plugin.md) — 作者自述用 REA 研究闭源 Coding Agent 的多模型协同逻辑，并据此开发 pi 插件；目标与实现尚未公开核验。 **[REA · 待验证]**
 - [ChatGPT App：用 REA 分析并为聊天窗口添加渐变背景](cases/chatgpt-app-gradient-background.md) — 作者称用 ChatGPT 与 REA 分析 Electron 应用，并为右侧聊天窗口注入渐变背景。 **[REA · 待验证]**
 - [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](cases/ledger-reborn-accounting-app.md) — 第三方报告称REA／Ghidra研究QuickBooks后制作Python／SQLite记账应用；11月1日新增Mac2024版、逐账户到分对照三张报表的说法，仍无独立审计。 **[REA · 相关项目]**
@@ -1374,10 +1389,11 @@
 
 ### 算法与功能重建
 
+- [自家推荐流：REA做页面地图，Claude读压缩脚本重建排名](cases/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。 **[REA · 分析测试]**
 - [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
 - [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**
 - [Granola品牌动效：Kevin DePopas拆解Ragged Edge设计，建议用Claude重建](cases/granola-ragged-edge-claude-motion-rebuild-idea.md) — Kevin拆解照片颗粒、分列交错、UI叠加与S曲线，给出33ms和550／650ms参数并建议Claude实现；未展示重建或相似度测试。 **[其他 AI 逆向 · 待验证]**
-- [TSLA六工具交易台：RetroChainer称REA映射指标，多个Agent按信号投票](cases/rea-tsla-six-agent-indicator-desk-report.md) — RetroChainer描述REA映射指标、Yahoo日线及趋势／动量／成交量／回撤投票；每1万美元赚258美元是无日期区间与费用口径的宣传结果。 **[REA · 待验证]**
+- [TSLA六工具交易台：RetroChainer称REA映射指标，多个Agent按信号投票](cases/rea-tsla-six-agent-indicator-desk-report.md) — RetroChainer介绍REA指标映射交易台；Primee32另给251交易日纸面规则示例，称亏1.8%对基准亏14.2%，明确不是模型投票或实盘，未确认两帖同一实现。 **[REA · 待验证]**
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
 - [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**

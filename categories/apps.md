@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [同花顺API：GPT把历史导出封装成接口，没解决作者盯盘目标](../cases/gpt-tonghuashun-api-history-export-mismatch.md) — 作者要求GPT逆向同花顺调用服务，用于AI盯盘、委托与复盘；检查发现所谓接口只是历史数据导出封装，是需求错位的实际报告。 **[其他 AI 逆向 · 待验证]**
+- [uTools旧插件：李不凯用Codex与REA修功能并接MCP](../cases/codex-rea-utools-legacy-plugin-customization.md) — 李不凯称研究几款长期未更新的常用uTools插件，修正功能并加MCP，让图形工具也可在Codex调用；插件名、实现与测试未给。 **[REA · 待验证]**
+- [Claude Code第三方接口：DeepSeek逆向的参数降级转述，非降智动机铁证](../cases/deepseek-claude-code-third-party-parameter-fallback-report.md) — AI Fun称DeepSeek发现第三方网关拒绝参数后Claude Code静默降级；没有版本、代码或日志，不能确认顺序，更不能证明故意压低模型能力。 **[其他 AI 逆向 · 待验证]**
+- [11kB .NET自测：Hiroshi报告Claude／REA答对24项、一项部分正确](../cases/hiroshi-claude-rea-dotnet-25-item-test.md) — Hiroshi先固定25项答案，再测Claude、REA与Claude自写反汇编器；称24正确、1部分，完整细节尚待发布，不能还原设计动机。 **[REA · 分析测试]**
+- [DGX ARM64的REA／Wakaru：JavaScript恢复工具接线与回归自测](../cases/dgx-arm64-rea-wakaru-javascript-integration-test.md) — 作者称放开REA的Wakaru ARM64架构门，接入两个JS工具；React DOM单文件与Babel目录分析成功，Ghidra回归未受影响，但只提供文本结果。 **[REA · 分析测试]**
+- [QQ音乐加密：作者想在旧AI尝试失败后重试](../cases/ai-qqmusic-encryption-retry-idea.md) — 作者回忆AI曾无法研究个人QQ音乐加密，因近期微信数据库研究似有进展而想重试；没有解密成功或新方法。 **[其他 AI 逆向 · 待验证]**
+- [个人微信数据库：作者简述前几周AI研究成功，方法未给](../cases/ai-wechat-database-research-brief-report.md) — 同一QQ音乐重试帖子回忆，AI前几周已能逆向其微信数据库；缺模型、数据库版本与可读结果，不推断完整解密或聊天导出。 **[其他 AI 逆向 · 待验证]**
+- [TiviMate个人替代：读者称先用REA研究，再请Claude制作](../cases/tivimate-rea-claude-personal-client-report.md) — 法语回复称已用REA逆向TiviMate并让Claude做自己的版本；无界面、仓库、播放测试或完整功能清单，不能认定兼容替代品完成。 **[REA · 进行中]**
 - [Super Harness：Aman Singh介绍接入AI API的逆向CLI](../cases/super-harness-aman-singh-ai-re-cli.md) — 作者介绍面向目标软件的一体化逆向命令行harness，称接入AI API即可使用；未给可核验的目标实验或兼容测试。 **[其他 AI 逆向 · 相关项目]**
 - [短剧软件研究：0xMomo用本地Qwen、Pi与REA分析双平台安装包](../cases/local-qwen-pi-rea-short-drama-app-study.md) — 作者称分析一款未具名短剧软件的DMG与Windows包，提取Electron架构和业务流程，准备交给Codex／DeepSeek继续重建；自述解锁不等于合法授权或完整替代品。 **[REA · 进行中]**
 - [Instagram的AI应用名单：Alex Choi称Claude反编译找到odin检测函数](../cases/alex-choi-instagram-claude-odin-ai-apps-detector.md) — Alex Choi称把手机接到笔记本、让Claude Code反编译Instagram，找到含23款应用的odin_ai_apps_detector；未给APK版本、调用链或动态验证。 **[其他 AI 逆向 · 待验证]**
@@ -505,7 +513,7 @@
 - [GTM 工具：用 REA 构建线索与邮件营销工作流](../cases/rea-gtm-tool.md) — 作者称用 REA 构建获客工具，涵盖线索管理与邮件活动；未提供实现或测试细节。 **[REA · 待验证]**
 - [茶叶出海网站：REA 辅助的本地重建报告](../cases/tea-site-rea-rebuild-report.md) — 作者称用 Codex + REA 逆向参考网站，并在约 40 分钟内本地部署重建版。 **[REA · 待验证]**
 - [iTerm：借助 REA 规格实现阿拉伯语文本绘制](../cases/arabic-terminal-rendering.md) — 作者自述用 REA 分析 iTerm，再按规格制作并在设备上测试阿拉伯语绘制支持；实现与测试尚无独立核验。 **[REA · 待验证]**
-- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](../cases/bloomberg-style-research-terminal.md) — 多帖描述REA与Claude研究Bloomberg风格工作流、接独立数据；10月24日提案在Kronos预测层外增加TradingAgents研究与风险决策，仍无终端产物或回测结果。 **[REA · 待验证]**
+- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](../cases/bloomberg-style-research-terminal.md) — 多帖描述REA／Claude研究终端与Kronos／TradingAgents提案；11月2日新评论提出一周数据失败率、延迟与人工差异测试，尚无终端产物或测量结果。 **[REA · 待验证]**
 - [闭源 Coding Agent：逆向多模型协同逻辑并制作 pi 插件](../cases/closed-agent-pi-plugin.md) — 作者自述用 REA 研究闭源 Coding Agent 的多模型协同逻辑，并据此开发 pi 插件；目标与实现尚未公开核验。 **[REA · 待验证]**
 - [ChatGPT App：用 REA 分析并为聊天窗口添加渐变背景](../cases/chatgpt-app-gradient-background.md) — 作者称用 ChatGPT 与 REA 分析 Electron 应用，并为右侧聊天窗口注入渐变背景。 **[REA · 待验证]**
 - [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](../cases/ledger-reborn-accounting-app.md) — 第三方报告称REA／Ghidra研究QuickBooks后制作Python／SQLite记账应用；11月1日新增Mac2024版、逐账户到分对照三张报表的说法，仍无独立审计。 **[REA · 相关项目]**

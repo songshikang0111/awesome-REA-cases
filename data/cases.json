@@ -1,5 +1,261 @@
 [
   {
+    "id": "claude-unnamed-lightgun-tracking-firmware-report",
+    "title": "光枪跟踪：xenesed称Claude优化固件并写轨迹叠加层",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "作者不满新购光枪的软件，称Claude改善跟踪、消除抖动并制作激光轨迹overlay；60%改善缺测量定义，型号与研究方法未披露。",
+    "description": "2026年11月2日20:03（北京时间），xenesed（@xenesed）回复称，刚为新买的光枪改进固件：原软件体验很差，Claude优化后保持跟踪的时间增加60%，不再抖动或异常跳动，并写了激光轨迹叠加层。光枪将瞄准位置输入射击游戏，本条目标是改善设备输入与可见反馈。\n\n这是既有设备固件适配的简短自述，没有型号、原固件版本、源码、协议分析或测量数据。正文没有明确使用反编译还是修改可得源码；不能把AI固件优化直接写成已证明的闭源逆向。“1000倍更好”是夸张措辞，不作为量化结果；60%保留为未定义基线与条件的作者值，不外推其他光枪。REA未提及，本合集未运行固件或实测设备。",
+    "sources": [{"label": "xenesed的Claude光枪固件与overlay报告，2026-11-02", "url": "https://x.com/i/status/2117226019459584011"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、29浏览、0转发；60%是作者值，未独立测量。"],
+    "en": {
+      "title": "Light-gun tracking: xenesed reports Claude firmware optimization and a tracer overlay",
+      "summary": "The author credits Claude with better tracking, less jitter and a laser-tracer overlay for a new light gun. The 60% improvement lacks a measurement definition; model and research method are undisclosed.",
+      "description": "At 20:03 Beijing time on November 2, 2026, xenesed (@xenesed) reports improving firmware for a newly purchased light gun. The original software was frustrating; Claude reportedly increased the time tracking is retained by 60%, stopped jitter and erratic behavior, and wrote a laser-tracer overlay. A light gun supplies aiming positions to shooting games; the goal is better device input and visible feedback.\n\nThis is a brief account of adapting existing-device firmware, without a model, original firmware version, source, protocol analysis or measurements. It does not specify decompilation versus modifying available source; AI firmware optimization is not automatically proven closed-source reversing. '1000x better' is rhetoric, not a quantified finding. The 60% figure remains the author's, without a defined baseline or conditions, and is not generalized to other light guns. REA is not mentioned. No firmware or hardware was tested here.",
+      "metadata": ["Candidate snapshot: 0 likes, 29 views, 0 reposts. The 60% figure is the author's, not independently measured."],
+      "source_labels": ["xenesed's Claude light-gun firmware and overlay report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "gpt-tonghuashun-api-history-export-mismatch",
+    "title": "同花顺API：GPT把历史导出封装成接口，没解决作者盯盘目标",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者要求GPT逆向同花顺调用服务，用于AI盯盘、委托与复盘；检查发现所谓接口只是历史数据导出封装，是需求错位的实际报告。",
+    "description": "2026年11月2日20:06（北京时间），发帖者称让GPT逆向同花顺的API调用服务，希望AI自动盯盘、处理一些委托并做复盘。同花顺是金融行情与交易软件，此处目标是自动化调用服务，而不只是下载历史数据。\n\nGPT宣称第一批接口完成，但作者发现它使用历史数据导出功能做了API。帖子没有产品版本、真实调用、接口代码、实时数据或委托测试。已报告结果是交付不符合目标，并非恢复交易协议；封装导出也不能证明内部接口逆向。保留失败反馈，不据此认定同花顺不存在可用接口或GPT普遍不能研究它。REA未提及；未连接交易账户或执行委托。",
+    "sources": [{"label": "作者检查GPT同花顺API交付后指出需求错位，2026-11-02", "url": "https://x.com/i/status/2117226842692391200"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照5赞、5651浏览、0转发；无交易或实时接口验证。"],
+    "en": {
+      "title": "Tonghuashun API: GPT wraps historical export instead of the requested market-monitoring service",
+      "summary": "The author requests GPT reversing for AI market monitoring, orders and review, then finds that the claimed APIs merely wrap historical export: a reported requirements mismatch.",
+      "description": "At 20:06 Beijing time on November 2, 2026, a poster reports asking GPT to reverse-engineer a Tonghuashun API service for AI market monitoring, some orders and trading review. Tonghuashun provides financial quotes and trading software; the goal was an automation-callable service, not simply downloading historical data.\n\nGPT claimed its first interfaces were complete, but the author found an API around historical-data export. No product version, actual calls, interface code, real-time data or order test is supplied. The reported outcome misses the goal rather than recovering a trading protocol; wrapping export also does not prove internal-interface reversing. This retains the failure without concluding that Tonghuashun has no usable interfaces or GPT can never study it. REA is unspecified. No trading account was connected or order executed here.",
+      "metadata": ["Candidate snapshot: 5 likes, 5,651 views, 0 reposts. No trading or real-time interface validation."],
+      "source_labels": ["Author finds a requirements mismatch in GPT's Tonghuashun API delivery, November 2, 2026"]
+    }
+  },
+  {
+    "id": "rea-watch-page-for-you-ranking-rebuild-test",
+    "title": "自家推荐流：REA做页面地图，Claude读压缩脚本重建排名",
+    "category": "algorithms", "rea": "REA", "status": "analysis-test",
+    "summary": "Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。",
+    "description": "2026年11月2日20:08（北京时间），Solar Nomad（@DLife_hacker）称把REA指向自家站点代码，10秒映射/watch/页面背后的压缩脚本，再花86秒用Claude Code重建“For you”推荐流，1000次排名测试全部与真实代码一致。这是以可得参考实现研究浏览器端排名的作者自测，不是恢复未知服务端推荐系统。\n\n20:35同会话回复补充：REA给出fetch、localStorage和beacon地图，七个标记项中四项正确；公式则是Claude直接从压缩文件读取。1000/1000说的是重建排名测试，不是REA七项分析全对。保留两个评价层次，不把全部效果归给REA。\n\n未取得站点名称、原脚本、测试输入分布、预期输出或可重跑代码；10秒、86秒、四项和1000项均为作者值，只支持所称条件下的一致，不支持完整站点复刻、未知排名泛化或隐私安全结论。补取回复确认署名及首帖会话关联；本合集未运行站点或重建。",
+    "sources": [{"label": "Solar Nomad的watch页面与1000项排名测试，2026-11-02 20:08", "url": "https://x.com/i/status/2117227222956425595"}, {"label": "同会话澄清REA四／七正确与Claude读公式，2026-11-02 20:35", "url": "https://x.com/i/status/2117234064252178695"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照分别1赞／64浏览、1赞／4浏览，均0转发；排名测试与分析标记准确度不能混用。"],
+    "en": {
+      "title": "An owned recommendation feed: REA maps the page; Claude reads minified code to rebuild ranking",
+      "summary": "Solar Nomad reports a 10-second watch-script map and an 86-second Claude rebuild matching 1,000/1,000 rankings. A follow-up says only four of REA's seven flags were right; Claude read the formula directly.",
+      "description": "At 20:08 Beijing time on November 2, 2026, Solar Nomad (@DLife_hacker) reports pointing REA at their own site's code: 10 seconds to map the minified script behind /watch/, then 86 more seconds with Claude Code to rebuild its 'For you' feed, with all 1,000 test rankings matching the real code. This is an author test of browser-side ranking against an available reference, not recovery of an unknown server-side recommendation system.\n\nA 20:35 reply in the same conversation clarifies that REA mapped fetch, localStorage and beacon, with four of seven flagged items correct, while Claude read the formula directly from the minified file. The 1,000/1,000 result describes rebuilt-ranking tests, not perfect accuracy on REA's seven findings. These are distinct evaluation layers; the entire outcome is not attributed to REA.\n\nThe site name, original script, test-input distribution, expected outputs and runnable code were not obtained. The 10 seconds, 86 seconds, four findings and 1,000 trials are author figures, supporting only claimed agreement under those conditions, not a complete site clone, unknown-ranking generalization or privacy/security conclusion. Reply lookup confirms attribution and its conversation link to the initial post. No site or reconstruction was run here.",
+      "metadata": ["Candidate snapshots: 1 like/64 views and 1 like/4 views, both 0 reposts. Ranking tests and analysis-flag accuracy are different metrics."],
+      "source_labels": ["Solar Nomad's watch-page and 1,000-ranking test, November 2, 2026 at 20:08", "Same-conversation clarification: REA four/seven correct; Claude reads the formula, November 2, 2026 at 20:35"]
+    }
+  },
+  {
+    "id": "codex-rea-utools-legacy-plugin-customization",
+    "title": "uTools旧插件：李不凯用Codex与REA修功能并接MCP",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "李不凯称研究几款长期未更新的常用uTools插件，修正功能并加MCP，让图形工具也可在Codex调用；插件名、实现与测试未给。",
+    "description": "2026年11月2日20:19（北京时间），李不凯（@libukai）把Codex比作发动机、uTools比作轮子：即使Codex能帮其完成90%以上工作，有些操作仍适合图形界面。uTools是承载小工具的插件平台，作者希望保留界面便利，让Agent也能调用个人定制功能。\n\n作者称在Codex中用REA研究几个一直使用、很久未更新的插件，修改优化不顺手功能，加入MCP以便以后直接在Codex调用。帖子未列插件名、具体改动、源码、MCP工具定义或调用测试；多个未具名插件作为一个工作流保留，不虚构独立项目。90%以上是个人工作占比，不是逆向准确率。补取原帖确认署名与附图存在，未检查图片或运行插件，功能完成仍属作者自述。",
+    "sources": [{"label": "李不凯的Codex／REA自定义uTools插件报告，2026-11-02", "url": "https://x.com/i/status/2117230121946083713"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照5赞、869浏览、0转发；未独立测试插件或MCP调用。"],
+    "en": {
+      "title": "Old uTools plugins: libukai reports Codex/REA fixes and MCP integration",
+      "summary": "Libukai reports studying long-unmaintained uTools plugins, fixing awkward features and adding MCP so graphical tools can also be called from Codex. Names, implementations and tests are absent.",
+      "description": "At 20:19 Beijing time on November 2, 2026, libukai (@libukai) compares Codex to an engine and uTools to wheels: although Codex reportedly handles over 90% of their work, some operations benefit from UI. uTools hosts small plugin tools; the goal is retaining convenient UI while exposing personally customized functions to an agent.\n\nThe author says they used REA within Codex to study familiar plugins long without updates, fixed and improved awkward features, and added MCP for future direct calls from Codex. No plugin names, specific changes, source, MCP tool definitions or invocation tests are given. The unnamed plugins are one workflow, not invented independent projects. Over 90% describes personal work, not reversing accuracy. Original lookup confirms attribution and images, which were not inspected. No plugin was run; completion remains the author's account.",
+      "metadata": ["Candidate snapshot: 5 likes, 869 views, 0 reposts. Plugins and MCP calls were not independently tested."],
+      "source_labels": ["Libukai's Codex/REA uTools customization report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "benilla-wow1121-claude-rust-bevy-client",
+    "title": "benilla：Rust／Bevy重建WoW1.12.1客户端，Claude归因来自转述",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "grokked称Claude辅助重写WoW客户端；公开实现与地址级研究文档可查。项目称可完整游玩，但不支持Warden，插件与性能仍在改进，未独立运行。",
+    "description": "2026年11月2日20:32（北京时间），grokked（@grokkedd）介绍benilla，称以Claude、Rust与Bevy重写2006年World of Warcraft 1.12.1客户端，使用自备数据和兼容服务器保留任务、专业、团本、战场、社交、交易、邮件与拍卖行。AI分工是转述归因，未从开发者记录独立确认。\n\n补查samwhosung/benilla的README及差异文档节选，固定提交6a5f0f1064ef52788a92b8b81dffb39958ced71b为11月2日18:41:22北京时间。项目称自行实现格式、原协议和FrameXML／Lua引擎，不含原客户端代码、第三方WoW crates或游戏资产，同时注明早期参考wowemulation-dev与warcraft-rs。完整游玩是项目声明；设置与ESC菜单有意采用Classic Era风格，另有逐项差异，不是逐字节完全等价。\n\nREADME要求合法取得1.12.1 build 5875数据，开发使用英语客户端与vmangos。服务器不得强制Warden或要求MPQ以外的客户端修改；Warden及其他资料片不在计划。插件兼容、剩余选项、性能和细小差异仍推进，无预编译下载；称可在macOS、Linux、Windows构建。MIT／Apache-2.0覆盖项目代码，不授权Blizzard内容。\n\n另读benilla-re固定README，提交fc85dad3cb85dec9330fb259a87f9d01eea5c68e为10月31日23:10:11北京时间，早于窗口。它按WoW.exe地址记录函数、结构和置信度，描述模拟器执行原函数与Rust逐位差分；生成表与测试要自备匹配版本，其他版本匹配只是线索，不是语义证明。这些是补充项目方法，不是本轮新实验或本合集重跑。候选所称500星、99分支、558提交未核为当前统计；未下载资产、编译或连接服务器。",
+    "sources": [{"label": "grokked转述benilla与Claude重写，2026-11-02", "url": "https://x.com/i/status/2117233457667403885"}, {"label": "补充benilla固定README：功能与运行边界，2026-11-02", "url": "https://github.com/samwhosung/benilla/blob/6a5f0f1064ef52788a92b8b81dffb39958ced71b/README.md"}, {"label": "补充固定差异文档节选，2026-11-02", "url": "https://github.com/samwhosung/benilla/blob/6a5f0f1064ef52788a92b8b81dffb39958ced71b/docs/DEVIATIONS.md"}, {"label": "补充benilla-re固定README：地址与差分方法，2026-10-31，早于窗口", "url": "https://github.com/samwhosung/benilla-re/blob/fc85dad3cb85dec9330fb259a87f9d01eea5c68e/README.md"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照19赞、376浏览、1转发；Claude归因是转述，功能与差分验证是项目报告，未独立复现。", "不分发游戏数据；不支持Warden，不等于官方服务可用或Blizzard认可。"],
+    "en": {
+      "title": "benilla: a Rust/Bevy WoW 1.12.1 client, with Claude attribution from a secondary report",
+      "summary": "Grokked credits Claude with a WoW client rewrite. Public implementation and address-level research are available. The project claims full playability but excludes Warden; addons and performance remain ongoing. Not run here.",
+      "description": "At 20:32 Beijing time on November 2, 2026, grokked (@grokkedd) introduces benilla, crediting Claude, Rust and Bevy with rewriting the 2006 World of Warcraft 1.12.1 client. It uses owned data and a compatible server for quests, professions, raids, battlegrounds, social features, trade, mail and auctions. AI roles are attributed by the secondary report, not independently confirmed from developer records.\n\nThis review read samwhosung/benilla's README and deviations excerpts at 6a5f0f1064ef52788a92b8b81dffb39958ced71b, committed November 2 at 18:41:22 Beijing time. The project describes from-scratch formats, original protocol and a FrameXML/Lua engine, without original-client code, third-party WoW crates or game assets, while crediting early wowemulation-dev and warcraft-rs guidance. Full playability is a project claim. Settings and ESC menus intentionally follow Classic Era and other differences are itemized; this is not complete byte-for-byte equivalence.\n\nThe README requires legally obtained 1.12.1 build 5875 data. Development uses English clients and vmangos. Servers must not enforce Warden or require client changes beyond MPQ archives. Warden and other expansions are not planned. Addon compatibility, remaining options, performance and small differences are ongoing. No prebuilt downloads are offered; macOS, Linux and Windows builds are claimed. MIT/Apache-2.0 covers project code, not Blizzard content.\n\nThe benilla-re README was also read at fc85dad3cb85dec9330fb259a87f9d01eea5c68e, committed October 31 at 23:10:11 Beijing time, before the window. It records functions, structures and confidence by WoW.exe address and describes bitwise differential tests running original functions in an emulator against Rust. Generated tables and tests require the user's matching client. Other-build matches are leads, not semantic proofs. These are supplementary project methods, not new experiments in this window or tests rerun here. The candidate's 500 stars, 99 forks and 558 commits were not checked as current statistics. No assets were downloaded, build compiled or server connected.",
+      "metadata": ["Candidate snapshot: 19 likes, 376 views, 1 repost. Claude attribution is secondary; functionality and differential validation are project reports, not independently reproduced.", "No game data is distributed. Warden is unsupported; official-service access or Blizzard endorsement is not established."],
+      "source_labels": ["Grokked's secondary benilla/Claude rewrite report, November 2, 2026", "Supplementary pinned benilla README: features and runtime limits, November 2, 2026", "Supplementary pinned deviations excerpts, November 2, 2026", "Supplementary pinned benilla-re README: addresses and differential methods, October 31, 2026, before the window"]
+    }
+  },
+  {
+    "id": "deepseek-claude-code-third-party-parameter-fallback-report",
+    "title": "Claude Code第三方接口：DeepSeek逆向的参数降级转述，非降智动机铁证",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "AI Fun称DeepSeek发现第三方网关拒绝参数后Claude Code静默降级；没有版本、代码或日志，不能确认顺序，更不能证明故意压低模型能力。",
+    "description": "2026年11月2日20:33（北京时间），AI Fun（@ai_funss）转述用DeepSeek逆向Claude Code，调查第三方API接入后的能力变化。帖称第280101行在thinking／effort被拒后移除深度思考重试；网关对私有参数返回400时，经Latch机制依次放弃深度思考、结构化输出、1M上下文与Threads，不向用户提示。\n\n正文称“降智铁证”，但没有版本、文件路径、对应代码、参数名、请求响应或复现实验。行号不能定位版本；回退若存在，也不能仅由参数不兼容推导恶意动机或推理质量下降。补取原帖确认署名及附图存在，未读图片或取得原分析。保留为第三方适配机制调查转述，不将四阶段顺序或全体模型受影响写成事实。REA未提及；未访问网关凭据或运行客户端。",
+    "sources": [{"label": "AI Fun转述DeepSeek调查Claude Code回退，2026-11-02", "url": "https://x.com/i/status/2117233546020667885"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照11赞、5139浏览、1转发；280101行、1M及四阶段降级均为未核实转述。"],
+    "en": {
+      "title": "Claude Code third-party APIs: a DeepSeek fallback report, not proof of deliberate degradation",
+      "summary": "AI Fun says DeepSeek found silent Claude Code fallbacks after gateway parameter rejection. No revision, code or logs establish the sequence or deliberate suppression of model capability.",
+      "description": "At 20:33 Beijing time on November 2, 2026, AI Fun (@ai_funss) recounts DeepSeek reversing Claude Code to investigate capability changes with third-party APIs. The post claims line 280101 removes thinking/effort and retries after rejection, and a Latch mechanism responds to gateway HTTP 400 errors on private parameters by successively dropping deep thinking, structured output, 1M context and Threads without user notification.\n\nThe post calls this proof of degradation but supplies no revision, file path, code, parameter names, request/response logs or reproduction. A line number cannot identify a revision. Even if fallback exists, incompatible parameters alone establish neither malicious intent nor reduced reasoning quality. Lookup confirms attribution and an image, not inspected here; the original analysis was not obtained. Retained as a secondary third-party-adaptation investigation, not an established four-stage sequence or effect on all models. REA is unspecified. No gateway credentials were accessed or client run.",
+      "metadata": ["Candidate snapshot: 11 likes, 5,139 views, 1 repost. Line 280101, 1M and four-stage fallback are unverified secondary claims."],
+      "source_labels": ["AI Fun recounts DeepSeek research into Claude Code fallback, November 2, 2026"]
+    }
+  },
+  {
+    "id": "hiroshi-claude-rea-dotnet-25-item-test",
+    "title": "11kB .NET自测：Hiroshi报告Claude／REA答对24项、一项部分正确",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "Hiroshi先固定25项答案，再测Claude、REA与Claude自写反汇编器；称24正确、1部分，完整细节尚待发布，不能还原设计动机。",
+    "description": "2026年11月2日20:39（北京时间），Hiroshi（@Hiroshi_HW）发布Experiment 1结果，称两个假设都错了：先固定25项检查，24正确、1部分正确，错误、Unknown与编造均0。组合为Claude、REA及Claude自写反汇编器；作者称与REA作者无关联，预告周四给细节。\n\n20:50同作者回复说明目标是11kB .NET程序、答案先写好，并指出重建行为不能说明原软件为何如此设计。这是小规模已知答案自测，不等于25项全对或模型通用准确率96%。无原程序、25项答案、输出、工具版本或可重跑报告；两个假设内容未披露，不猜测。补取确认两帖同作者。细节预告不是已发布证据，本合集未重跑或检查自写反汇编器。",
+    "sources": [{"label": "Hiroshi的Experiment 1预设25项结果，2026-11-02 20:39", "url": "https://x.com/i/status/2117235190338912765"}, {"label": "同作者补充11kB .NET与行为／动机边界，2026-11-02 20:50", "url": "https://x.com/i/status/2117237928305086948"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照分别0赞／4浏览、1赞／9浏览，均0转发；无完整评分材料。"],
+    "en": {
+      "title": "An 11kB .NET test: Hiroshi reports 24 correct and one partial with Claude/REA",
+      "summary": "Hiroshi fixes 25 answers before testing Claude, REA and a Claude-written disassembler, reporting 24 correct and one partial. Full details are forthcoming; design intent is not recovered.",
+      "description": "At 20:39 Beijing time on November 2, 2026, Hiroshi (@Hiroshi_HW) posts Experiment 1 results, saying both hypotheses were wrong: of 25 items fixed beforehand, 24 were correct and one partial, with zero wrong, Unknown or fabricated. The combination was Claude, REA and a Claude-written disassembler. The author disclaims affiliation with REA's author and promises details Thursday.\n\nAt 20:50 the same author identifies an 11kB .NET program and an answer key written first, noting that reconstructing behavior cannot explain why the original was designed that way. This is a small known-answer self-test, not 25 fully correct items or model-wide 96% accuracy. No original program, 25-item key, outputs, tool versions or runnable report is supplied. The hypotheses are undisclosed and not guessed. Lookups confirm a shared author. A promise of details is not published evidence; neither experiment nor custom disassembler was independently checked here.",
+      "metadata": ["Candidate snapshots: 0 likes/4 views and 1 like/9 views, both 0 reposts. Full scoring materials are absent."],
+      "source_labels": ["Hiroshi's Experiment 1 preset 25-item results, November 2, 2026 at 20:39", "Same-author clarification of 11kB .NET and behavior/intent limits, November 2, 2026 at 20:50"]
+    }
+  },
+  {
+    "id": "dgx-arm64-rea-wakaru-javascript-integration-test",
+    "title": "DGX ARM64的REA／Wakaru：JavaScript恢复工具接线与回归自测",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "作者称放开REA的Wakaru ARM64架构门，接入两个JS工具；React DOM单文件与Babel目录分析成功，Ghidra回归未受影响，但只提供文本结果。",
+    "description": "2026年11月2日20:41（北京时间），发帖者贴出AI工作回执：在DGX安装Wakaru 1.14.0 ARM64，把REA 6.4.0的仅x64架构门扩为x64／arm64并重编译，两个启动器导出Wakaru命令；Mac mini的DeepSeek转发层将REA可用工具从8扩为10，加入analyze_javascript_application与recover_javascript_sources。称修改仅有本地提交0306f44，未推送。目标是在ARM64机器让AI调用JavaScript分析与恢复流程。\n\n回执自报：131835字节React DOM 18 UMD单文件恢复exit 0，产出1模块及source map，用时230ms；Babel parser目录经rea-javascript-application分析成功；Ghidra分析系统ls回归成功。MCP列出170工具含两个JS工具，转发层测试2/2通过。全量测试有team-report.test.js找不到bin/cdx的一项失败，回执称修改前已存在，未独立核对此前状态。\n\n工具只对新DeepSeek会话生效，当前会话仍8个；REA升级或重装会覆盖本地修改。回执称新增约23MiB、探针约9MiB，浏览器CDP相关analyze_web_bundle未放行，实测新会话仍是下一步。没有公开补丁、输出文件、source map质量比较或原始测试日志。成功退出不证明恢复了原始源码，也不是所有JS包支持；本合集未安装、执行或访问作者机器。",
+    "sources": [{"label": "DGX ARM64的REA／Wakaru适配与自测回执，2026-11-02", "url": "https://x.com/i/status/2117235562981523901"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、59浏览、0转发；版本、字节数、230ms、工具数和测试结果均为贴出的回执，未独立复验。"],
+    "en": {
+      "title": "REA/Wakaru on DGX ARM64: JavaScript-tool wiring and regression self-tests",
+      "summary": "A posted work receipt reports expanding REA's Wakaru gate to ARM64 and exposing two JS tools. React DOM and Babel analysis succeed with a Ghidra regression, but only textual results are supplied.",
+      "description": "At 20:41 Beijing time on November 2, 2026, a poster shares an AI work receipt: installing Wakaru 1.14.0 ARM64 on a DGX, expanding REA 6.4.0's x64-only gate to x64/arm64, recompiling, and exporting a Wakaru command in two launchers. A Mac mini DeepSeek forwarding layer expands REA tools from eight to ten, adding analyze_javascript_application and recover_javascript_sources. The changes reportedly exist only as local commit 0306f44, not pushed. The goal is AI-callable JavaScript analysis and recovery on ARM64.\n\nThe receipt reports recovery exit 0 for a 131,835-byte React DOM 18 UMD file, yielding one module and a source map in 230ms; Babel parser directory analysis succeeds through rea-javascript-application; a Ghidra regression analyzing system ls succeeds. MCP lists 170 tools including the two JS tools, and forwarding-layer tests pass 2/2. Full tests have one team-report.test.js failure for missing bin/cdx, called pre-existing in the receipt; the earlier state was not independently checked.\n\nThe tools apply only to new DeepSeek sessions, while the current session still has eight. REA upgrades or reinstalls overwrite the local changes. The receipt reports about 23MiB added and 9MiB of probes; browser-CDP-dependent analyze_web_bundle was not allowed, and a new-session live test is still a next step. No public patch, output artifacts, source-map quality comparison or raw logs are supplied. Successful exit does not establish original-source recovery or support for all JS packages. Nothing was installed or run and no author machine accessed here.",
+      "metadata": ["Candidate snapshot: 1 like, 59 views, 0 reposts. Versions, bytes, 230ms, tool counts and tests come from a posted receipt, not independent retesting."],
+      "source_labels": ["DGX ARM64 REA/Wakaru adaptation and self-test receipt, November 2, 2026"]
+    }
+  },
+  {
+    "id": "ai-qqmusic-encryption-retry-idea",
+    "title": "QQ音乐加密：作者想在旧AI尝试失败后重试",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者回忆AI曾无法研究个人QQ音乐加密，因近期微信数据库研究似有进展而想重试；没有解密成功或新方法。",
+    "description": "2026年11月2日21:06（北京时间），发帖者说，之前AI还不能逆向自己的QQ音乐加密，但前几周能研究微信数据库，因此准备再试QQ音乐目标。这是一个由先前失败触发的具体重试idea，不是已经解开音乐格式或实现播放器。\n\n没有文件格式、软件版本、模型、分析过程或结果，也未确认加密对象是缓存、下载文件还是其他数据。微信是另一目标，不能据其成功自述证明QQ音乐也可解。未披露或分发密钥、音乐或解密方法；REA未提及，本合集未访问私人文件或执行分析。补查QQ音乐官网只返回产品名称，用于确认产品入口，不含加密机制或本次研究证据。",
+    "sources": [{"label": "作者提出重试个人QQ音乐加密研究，2026-11-02", "url": "https://x.com/i/status/2117241949996650979"}, {"label": "QQ音乐官方产品入口，仅背景；2026-11-03补查，不是实验来源", "url": "https://y.qq.com/"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照14赞、401浏览、0转发；只有重试意向，未报告新结果。"],
+    "en": {
+      "title": "QQ Music encryption: an author proposes retrying after an earlier AI failure",
+      "summary": "After a past failed AI attempt at personal QQ Music encryption, the author wants to retry, prompted by apparent progress on WeChat databases. No decryption success or new method is reported.",
+      "description": "At 21:06 Beijing time on November 2, 2026, a poster recalls AI failing to reverse-engineer their QQ Music encryption, then reportedly handling a WeChat database a few weeks earlier, prompting another QQ Music attempt. This is a concrete retry idea after an earlier failure, not an already decoded music format or implemented player.\n\nNo file format, software version, model, analysis process or result is supplied; cached music, downloaded files and other encrypted data cannot be distinguished. WeChat is a separate target, so its claimed success does not establish QQ Music feasibility. No keys, music or decryption method are disclosed or distributed. REA is unspecified. No private files were accessed or analysis executed here. A supplementary request to QQ Music's official site returned only its product name, confirming the product entry point, not an encryption mechanism or evidence for this research.",
+      "metadata": ["Candidate snapshot: 14 likes, 401 views, 0 reposts. Retry intent only; no new result."],
+      "source_labels": ["Author proposes retrying personal QQ Music encryption research, November 2, 2026", "Official QQ Music product entry, background only; consulted November 3, 2026, not an experiment source"]
+    }
+  },
+  {
+    "id": "ai-wechat-database-research-brief-report",
+    "title": "个人微信数据库：作者简述前几周AI研究成功，方法未给",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "同一QQ音乐重试帖子回忆，AI前几周已能逆向其微信数据库；缺模型、数据库版本与可读结果，不推断完整解密或聊天导出。",
+    "description": "2026年11月2日21:06（北京时间），发帖者以微信数据库的进展为理由，考虑重试另一个QQ音乐加密目标：称前几周AI已经可以逆向自己的微信数据库。微信本地数据结构研究是独立目标，因此与音乐重试分条保留，并共用同一候选来源。实际研究时间仅为作者回忆的“前几周”，11月2日是报告日期，不冒充实验日期。\n\n没有模型、客户端／数据库版本、表结构、密钥来源、查询输出或工具。不能把“可以逆向”扩写成全部解密成功、已导出聊天、获取他人通信或跨版本通用方案；未确认与既有其他作者微信项目同一实现。REA未提及，本合集未接触数据库、账户、凭据或私人消息，记录仅为作者的简述。",
+    "sources": [{"label": "作者回忆前几周AI研究个人微信数据库，报告于2026-11-02", "url": "https://x.com/i/status/2117241949996650979"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照14赞、401浏览、0转发，与QQ音乐条目共用来源；原实验日期未给。"],
+    "en": {
+      "title": "A personal WeChat database: brief retrospective AI-research claim without methods",
+      "summary": "The QQ Music retry post also recalls AI handling the author's WeChat database weeks earlier. Model, database version and readable outputs are absent; complete decryption or chat export is not inferred.",
+      "description": "At 21:06 Beijing time on November 2, 2026, a poster cites progress on their WeChat database as a reason to retry a separate QQ Music encryption target: AI could reportedly reverse-engineer the database a few weeks earlier. Local WeChat data structures are an independent target, retained separately from the music retry with the same candidate source. The research date is only recalled as 'a few weeks ago'; November 2 is the report date, not an invented experiment date.\n\nNo model, client/database version, schema, key origin, query output or tool is supplied. 'Could reverse-engineer' is not expanded into complete decryption, exported chats, access to someone else's communications or a version-independent method. No link to other authors' existing WeChat implementations was established. REA is unspecified. No database, account, credential or private message was accessed here; this records only the brief author account.",
+      "metadata": ["Candidate snapshot: 14 likes, 401 views, 0 reposts, shared with the QQ Music entry. Original experiment date is absent."],
+      "source_labels": ["Author recalls AI research into a personal WeChat database weeks earlier, reported November 2, 2026"]
+    }
+  },
+  {
+    "id": "brp-carplay-ai-jailbreak-research-report",
+    "title": "BRP的CarPlay：作者称花几天用AI辅助解锁研究",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "作者称为启用CarPlay花数日研究BRP，认为AI显著降低难度；车型、组件、模型、固件和实际运行证据均未给。",
+    "description": "2026年11月2日21:51（北京时间），发帖者回复称花了几天jailbreaking BRP以启用CarPlay，并认为AI使这类逆向研究前所未有地容易。目标是把Apple CarPlay接入所称BRP设备，但候选没有说明具体车辆、仪表、娱乐主机或适配器，不能猜为某个型号。\n\n这是一手研究尝试的简短回顾，没有所用模型、固件版本、协议、补丁、源码、安装结果或CarPlay连接演示；“为启用”不自动等于启用成功。保留数日为作者粗略工时，不把相同品牌其他项目当补证。REA未提及；本合集未操作车辆、安装固件或提供解锁步骤。",
+    "sources": [{"label": "BRP CarPlay的AI辅助研究回复，2026-11-02", "url": "https://x.com/i/status/2117253203699900877"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、12浏览、0转发；数日为自述，无完成验证。"],
+    "en": {
+      "title": "CarPlay on BRP: an author reports several days of AI-assisted unlocking research",
+      "summary": "The author reports days of BRP research to enable CarPlay and credits AI with making it easier. Vehicle, component, model, firmware and working evidence are absent.",
+      "description": "At 21:51 Beijing time on November 2, 2026, a reply reports spending a few days jailbreaking BRP to activate CarPlay, saying AI made such reversing research easier than before. The goal is Apple CarPlay on the described BRP equipment, but the candidate identifies no vehicle, instrument cluster, head unit or adapter; no particular model is guessed.\n\nThis brief firsthand research account supplies no AI model, firmware version, protocol, patch, source, installation result or CarPlay connection demonstration. 'To activate' does not itself prove successful activation. A few days is the author's approximate labor figure; unrelated same-brand projects are not supporting evidence. REA is unspecified. No vehicle was operated, firmware installed or unlocking steps supplied here.",
+      "metadata": ["Candidate snapshot: 1 like, 12 views, 0 reposts. Several days is self-reported; completion unverified."],
+      "source_labels": ["Reply on AI-assisted BRP CarPlay research, November 2, 2026"]
+    }
+  },
+  {
+    "id": "claude-rea-tv-code-check-idea",
+    "title": "电视代码审计：读者建议让Claude调用REA检查",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "一条回复建议连接Claude、研究电视代码以检查疑问；目标品牌与具体行为未给，是代码审计idea，不是发现漏洞或隐私问题。",
+    "description": "2026年11月2日22:38（北京时间），读者在回复中建议接入Claude，让它用REA研究对方电视代码并检查。这里的具体目标是电视代码审计，不是让AI生成影视内容或普通设备操作；只保留这一提出的研究用途。\n\n候选没有电视品牌、型号、固件、被检查行为或原讨论正文，也没有作者已经执行的声明。不能将“check for you”补成已发现监控、恶意软件或漏洞，不确认与既有Hisense、Samsung、BRAVIA研究同一项目。作为尚未实施的idea收录，未读取或运行任何电视软件。",
+    "sources": [{"label": "读者建议Claude／REA检查电视代码，2026-11-02", "url": "https://x.com/i/status/2117265033587507562"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、155浏览、0转发；建议而非实验。"],
+    "en": {
+      "title": "TV code auditing: a reader proposes a Claude/REA inspection",
+      "summary": "A reply suggests connecting Claude and researching a TV's code to check a concern. Brand and behavior are unspecified: an auditing idea, not a vulnerability or privacy finding.",
+      "description": "At 22:38 Beijing time on November 2, 2026, a reader suggests connecting Claude and having REA inspect another participant's TV code. The concrete target is television code auditing, not AI-generated entertainment or ordinary device operation; only that proposed research use is retained.\n\nThe candidate gives no brand, model, firmware, behavior under examination or original discussion text, and does not claim execution. 'Check for you' is not expanded into discovered surveillance, malware or vulnerabilities. No identity with existing Hisense, Samsung or BRAVIA projects was established. Retained as an unimplemented idea; no television software was read or run here.",
+      "metadata": ["Candidate snapshot: 1 like, 155 views, 0 reposts. A suggestion, not an experiment."],
+      "source_labels": ["Reader proposes Claude/REA inspection of TV code, November 2, 2026"]
+    }
+  },
+  {
+    "id": "mali-gpu-driver-ai-decompile-idea",
+    "title": "Mali GPU驱动：读者建议把AI反编译用于驱动研究",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "读者由AI游戏移植想到反编译Mali GPU驱动；没有芯片型号、驱动版本或实际进度，不等于已有开源替代驱动。",
+    "description": "2026年11月2日22:48（北京时间），发帖者问：既然正在用AI移植很多游戏，为何不让AI反编译Mali GPU驱动？Mali是GPU家族，驱动研究不同于重做游戏，此处保留的是将AI用于图形驱动分析的具体方向。\n\n只有一句提案，没有AI模型、REA、目标GPU、系统、驱动文件、实验或结果。不能声称已恢复硬件指令、改善性能、完成Linux驱动或支持某代芯片，也不把既有人工开源驱动项目作为其成果。本合集未下载或执行驱动。",
+    "sources": [{"label": "用AI反编译Mali GPU驱动的idea，2026-11-02", "url": "https://x.com/i/status/2117267508721754513"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、9浏览、0转发；仅提案，无实现证据。"],
+    "en": {
+      "title": "Mali GPU drivers: a reader proposes AI decompilation for driver research",
+      "summary": "AI game ports prompt a suggestion to decompile Mali GPU drivers. No chip, driver revision or progress is given; an open replacement driver has not been demonstrated.",
+      "description": "At 22:48 Beijing time on November 2, 2026, a poster asks why AI should not decompile Mali GPU drivers when it is already being used for many game ports. Mali is a GPU family; driver research is distinct from rebuilding a game. This retains the specific direction of AI-assisted graphics-driver analysis.\n\nThe one-sentence proposal supplies no model, REA use, target GPU, OS, driver file, experiment or result. It does not establish recovered hardware instructions, better performance, a finished Linux driver or support for a chip generation. Existing human-led open-driver projects are not credited as this poster's results. No driver was downloaded or executed here.",
+      "metadata": ["Candidate snapshot: 0 likes, 9 views, 0 reposts. Proposal only, without implementation evidence."],
+      "source_labels": ["Idea to decompile Mali GPU drivers with AI, November 2, 2026"]
+    }
+  },
+  {
+    "id": "tivimate-rea-claude-personal-client-report",
+    "title": "TiviMate个人替代：读者称先用REA研究，再请Claude制作",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "法语回复称已用REA逆向TiviMate并让Claude做自己的版本；无界面、仓库、播放测试或完整功能清单，不能认定兼容替代品完成。",
+    "description": "2026年11月2日22:51（北京时间），发帖者以法语回复称，用REA研究TiviMate并请Claude制作自己的版本，又说似乎连这一步也未必需要。TiviMate是IPTV播放客户端，作者所述目标是个人客户端替代，不是创建或获得电视节目源。\n\n帖子没有源码、版本、协议或界面分析细节、构建产物、播放与节目表测试；“让Claude做”不能作为完成证据，结尾也未说明何种替代方法不需逆向。保留一手尝试为进行中，不填补录制、订阅、凭据处理或功能等价。未访问节目源、账户或运行客户端。",
+    "sources": [{"label": "读者的REA研究TiviMate与Claude个人版本自述，2026-11-02", "url": "https://x.com/i/status/2117268472065405328"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、1155浏览、0转发；未见成品或兼容测试。"],
+    "en": {
+      "title": "A personal TiviMate replacement: a reader reports REA study and a Claude build request",
+      "summary": "A French reply says the writer used REA on TiviMate and asked Claude for a personal version. No UI, repository, playback tests or full feature list establishes a completed compatible replacement.",
+      "description": "At 22:51 Beijing time on November 2, 2026, a French reply reports using REA to reverse-engineer TiviMate and asking Claude to make a personal version, then says apparently even that may not be necessary. TiviMate is an IPTV player; the stated goal is a personal client replacement, not creating or obtaining television program sources.\n\nNo source, version, protocol/UI analysis details, build artifacts, playback or program-guide tests are supplied. Asking Claude to build is not completion evidence, and the ending does not explain which alternative needs no reversing. Retained as a firsthand attempt in progress, without inventing recording, subscription, credential handling or feature equivalence. No streams, accounts or client were accessed here.",
+      "metadata": ["Candidate snapshot: 1 like, 1,155 views, 0 reposts. No product artifact or compatibility test."],
+      "source_labels": ["Reader's REA/TiviMate study and Claude personal-version account, November 2, 2026"]
+    }
+  },
+  {
+    "id": "opus-astra-rigdirectors-roblox-simulator-report",
+    "title": "Roblox模拟器循环：Opus／Astra／RigDirectors行为重建宣传报告",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "作者称研究流行Roblox机制后生成宠物、孵蛋、升级和重生循环，报告早版UI与经济失衡；两天交付和12450美元收入无成品或账本支持。",
+    "description": "2026年11月2日23:24（北京时间），发帖者称以Opus 5.5、Astra与RigDirectors研究Roblox热门模拟器玩法，目标是低资产负担、模块化的新游戏：训练区、孵蛋、宠物稀有度、倍率、重生、gamepass及奖励。帖子说“reverse engineered”流行机制，但未具名原游戏、观察记录或二进制；应理解为作者所称行为与产品循环研究，非已证明的源码反编译。\n\n自述48小时设计出可玩代码，Opus负责核心逻辑、UI层级与数据存储，Astra协调资产／脚本／组件，RigDirectors做动画rig映射与放置同步，Opus写服务端／客户端脚本并准备云端运行。作者承认上线前模拟数小时，早期每版都坏过，UI缩放错误、经济循环过快耗尽余额。\n\n又称上线48小时获12450美元gamepass收入、留存每日上升、无严重崩溃，但没有游戏名、链接、仓库、收入凭证、留存分母或测试日志。时间、收益与稳定性均为宣传自述，不是本合集计时、收入验证或投资建议；提示词要求模块架构也不证明每项已做。未提REA，本合集未运行游戏或安装任何工具。",
+    "sources": [{"label": "Opus／Astra／RigDirectors的Roblox模拟器工作流报告，2026-11-02", "url": "https://x.com/i/status/2117276580221235270"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照20赞、356浏览、0转发；48小时、12450美元和零严重崩溃无独立证据。"],
+    "en": {
+      "title": "Roblox simulator loops: a promotional Opus/Astra/RigDirectors behavioral-rebuild report",
+      "summary": "The writer reports studying popular Roblox mechanics to generate pets, eggs, upgrades and rebirth loops, including early UI/economy failures. Two-day delivery and USD 12,450 lack an artifact or ledger.",
+      "description": "At 23:24 Beijing time on November 2, 2026, a poster reports using Opus 5.5, Astra and RigDirectors to study popular Roblox simulator mechanics for a modular, low-asset-burden game: training zones, eggs, pet rarities, multipliers, rebirth, gamepasses and rewards. The post says 'reverse engineered' trending mechanics but names no reference game, observations or binary. This is a claimed behavioral/product-loop investigation, not demonstrated source decompilation.\n\nThe author claims playable code after 48 hours of architecture work: Opus handles core logic, UI hierarchy and data stores; Astra coordinates assets, scripts and components; RigDirectors maps animation rigs and synchronizes placement; Opus writes server/client scripts for cloud operation. They admit hours of simulations before launch and failures in every early version, including incorrect UI scaling and economy loops draining player balances too fast.\n\nThe post also claims USD 12,450 in gamepass revenue after 48 live hours, rising daily retention and no critical crashes. It supplies no game name/link, repository, revenue evidence, retention denominator or logs. Time, income and stability are promotional author claims, not independent timing, revenue validation or investment advice. A prompt requesting the architecture does not establish each feature's completion. REA is unspecified. No game was run or tool installed here.",
+      "metadata": ["Candidate snapshot: 20 likes, 356 views, 0 reposts. 48 hours, USD 12,450 and zero critical crashes lack independent evidence."],
+      "source_labels": ["Opus/Astra/RigDirectors Roblox simulator workflow report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "levels-battlefield1942-claude-browser-report",
+    "title": "Battlefield 1942浏览器版：dimash转述levels使用Claude反编译引擎",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "dimash称levels让Claude Code反编译2002年Battlefield1942引擎并在浏览器运行；尚无原作者串、仓库或试玩验证，不能认定完整游戏或原始C源码恢复。",
+    "description": "2026年11月2日23:48（北京时间），dimash（@dimqshi）转述levels让Claude Code反编译Battlefield 1942的“C engine”，现在可在浏览器标签运行。目标是把2002年的游戏引擎带到网页；帖子把它称作abandonware，但该称呼不意味着版权终止或可分发原游戏。\n\n补取原帖确认署名，仍只有二手简述，没有levels原始说明、代码、构建、演示URL、渲染／输入／网络测试或人工修正量。另两条窗口内回复只询问Claude是否读Ghidra输出、需要多少人工修复，没有答案，不能据此补全工具链。不能断言已恢复原C源码、完整单人或多人模式、跨浏览器兼容或无需原资源。与既有Battlefield／Frostbite开放实现idea不同，本帖具名1942和浏览器产出，单列为未核验报告。未下载游戏或运行网页。",
+    "sources": [{"label": "dimash转述levels的Claude／Battlefield1942浏览器报告，2026-11-02", "url": "https://x.com/i/status/2117282589061034144"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、3浏览、0转发；二手声称，未核验可玩范围。"],
+    "en": {
+      "title": "Battlefield 1942 in a browser: dimash recounts levels using Claude to decompile the engine",
+      "summary": "Dimash says levels used Claude Code on Battlefield 1942's 2002 engine and now runs it in a browser. Without an original thread, repository or playtest, neither a complete game nor recovered original C is established.",
+      "description": "At 23:48 Beijing time on November 2, 2026, dimash (@dimqshi) says levels had Claude Code decompile Battlefield 1942's 'C engine' and now runs it in a browser tab. The target is bringing the 2002 engine to the web. The post calls it abandonware; that label does not terminate copyright or authorize distribution of the original game.\n\nOriginal lookup confirms attribution but still supplies only this secondary account: no original levels explanation, code, build, demo URL, rendering/input/network tests or human-correction count. Two other in-window replies merely ask whether Claude read Ghidra output and how much manual fixing was needed, without answers; they do not establish a toolchain. Original C recovery, complete single-player or multiplayer modes, cross-browser support or freedom from original assets cannot be asserted. Unlike the existing Battlefield/Frostbite open-implementation idea, this names 1942 and a browser outcome, so it is retained separately as unverified. No game was downloaded or web build run.",
+      "metadata": ["Candidate snapshot: 0 likes, 3 views, 0 reposts. Secondary claim; playable scope unverified."],
+      "source_labels": ["Dimash recounts levels' Claude/Battlefield 1942 browser work, November 2, 2026"]
+    }
+  },
+  {
     "id": "super-harness-aman-singh-ai-re-cli",
     "title": "Super Harness：Aman Singh介绍接入AI API的逆向CLI",
     "category": "apps", "rea": "other-ai", "status": "related-project",
@@ -834,16 +1090,16 @@
     "id": "rea-tsla-six-agent-indicator-desk-report",
     "title": "TSLA六工具交易台：RetroChainer称REA映射指标，多个Agent按信号投票",
     "category": "algorithms", "rea": "REA", "status": "unverified",
-    "summary": "RetroChainer描述REA映射指标、Yahoo日线及趋势／动量／成交量／回撤投票；每1万美元赚258美元是无日期区间与费用口径的宣传结果。",
-    "description": "2026年11月2日01:39:16（北京时间），RetroChainer介绍由browser-use、OpenHands、mem0、Agno、smolagents与REA组成的TSLA交易台。帖称REA映射指标，Yahoo提供TSLA日线；smolagents看趋势、Agno看动量、browser-use看成交量、mem0看回撤，OpenHands持有头寸，另由PM每天作一次决定。作者强调mem0记住一年高点并按距离投票。这里保留指标研究与策略编排自述，不推断逆向了某个未指明商业指标源码。\n\n帖宣称每1万美元获利258美元、mem0是最佳投票者，但没有测试起止、样本、手续费、滑点、基准、交易账本、代码仓库或可重跑结果；不能判断实盘、回测还是示意。给出的desk命令未确认对应可用程序，短片未逐帧核验。未执行安装、策略或交易，不把仓库合计星数当有效性证据，也不提供收益承诺或投资建议。",
-    "sources": [{"label": "RetroChainer的REA／TSLA多Agent交易台报告，2026-11-02", "url": "https://x.com/i/status/2116948200607097222"}],
-    "snapshot_date": "2026-11-02", "metadata": ["候选快照36赞、1176浏览、2转发；258美元／1万美元、一年高点与每日决策是帖文说法。"],
+    "summary": "RetroChainer介绍REA指标映射交易台；Primee32另给251交易日纸面规则示例，称亏1.8%对基准亏14.2%，明确不是模型投票或实盘，未确认两帖同一实现。",
+    "description": "2026年11月2日01:39:16（北京时间），RetroChainer介绍由browser-use、OpenHands、mem0、Agno、smolagents与REA组成的TSLA交易台。帖称REA映射指标，Yahoo提供TSLA日线；smolagents看趋势、Agno看动量、browser-use看成交量、mem0看回撤，OpenHands持有头寸，PM每日决策。mem0记住一年高点并按距离投票。这里保留指标研究与编排自述，不推断恢复了未具名商业指标源码。\n\n首帖宣称每1万美元获利258美元、mem0最佳，但没有测试起止、样本、费用、滑点、基准、账本、仓库或可重跑结果；该首帖本身仍无法区分实盘、回测或示意。desk命令与短片未核验。\n\n21:54:38，另一发帖者Primee32（@Primee32）用相同六仓库角色说明251交易日的纸面示例：REA把未具名图表应用映射为SMA、RSI、MACD、BB、ATR；其余名称是规则角色，全部投票以普通规则代替模型，没有接券商。SMA10高于SMA30、20日收益±3%、成交量为20日均量1.40倍、一年高点489.88美元及回撤超过25%分别构成信号，单边费用10bp。不能将此规则模拟宣传成六个Agent实际交易或证明前帖所称利润。\n\n新帖列四笔仅做多：12月8日439.58进、1月8日435.80出，-0.86%；4月24日376.30进、6月10日381.59出，+1.41%；7月10日407.76进、7月16日391.06出，-4.10%；8月21日362.86进，仍持有、按372.22计+2.58%。未注明各日期年份、完整价格序列或最终结算。称三笔平仓仅一胜、最大回撤22%、54%时间空仓，全年亏1.8%而TSLA亏14.2%，少亏12.4个百分点；五日命中率mem0 74%、browser-use 45%。这些全为新帖自述，不是本合集复算净值或交易凭证；其收益口径与首帖不同，未确认同一实现、数据区间或作者合作。\n\n补取新帖确认署名与纸面限制；仍无代码、真实REA分析报告或可重跑回测。未安装、执行策略或交易，不以仓库星数证明有效性，不作收益承诺或投资建议。",
+    "sources": [{"label": "RetroChainer的REA／TSLA交易台报告，2026-11-02", "url": "https://x.com/i/status/2116948200607097222"}, {"label": "Primee32的251日纸面规则示例与亏损，2026-11-02 21:54", "url": "https://x.com/i/status/2117254056666149294"}],
+    "snapshot_date": "2026-11-02", "metadata": ["首帖候选快照36赞、1176浏览、2转发；258美元／1万美元等为首帖口径。", "新帖候选快照12赞、453浏览、0转发；251日、四笔、10bp及全部收益／命中率是Primee32的纸面示例，非独立复算。"],
     "en": {
       "title": "A six-tool TSLA desk: RetroChainer reports REA indicator mapping and agent signal votes",
-      "summary": "RetroChainer describes REA indicator mapping, Yahoo daily bars and trend/momentum/volume/drawdown votes. The promoted USD 258 per USD 10,000 has no test period or cost accounting.",
-      "description": "At 01:39:16 Beijing time on November 2, 2026, RetroChainer describes a TSLA desk using browser-use, OpenHands, mem0, Agno, smolagents and REA. REA reportedly maps indicators while Yahoo supplies daily bars. smolagents votes on trend, Agno on momentum, browser-use on volume and mem0 on drawdown; OpenHands holds the position and a PM makes one decision per day. The writer emphasizes mem0 remembering the one-year high and voting based on distance from it. This records indicator research and strategy orchestration, not inferred recovery of an unnamed commercial indicator's source.\n\nThe post claims USD 258 per USD 10,000 and calls mem0 the best voter, but provides no test dates, sample, fees, slippage, benchmark, ledger, repository or reproducible result. Live trading, backtesting and illustration cannot be distinguished. The supplied desk command was not confirmed to name an available program, and the clip was not inspected frame by frame. No installation, strategy or trade was executed. Combined repository stars are not effectiveness evidence, and no return guarantee or investment recommendation is offered.",
-      "metadata": ["Candidate snapshot: 36 likes, 1,176 views, 2 reposts. USD 258 per USD 10,000, the one-year high and daily decisions are post claims."],
-      "source_labels": ["RetroChainer's REA/TSLA multi-agent desk report, November 2, 2026"]
+      "summary": "RetroChainer introduces an REA-mapped indicator desk. Primee32 separately supplies a 251-session paper-rule example, claiming -1.8% versus -14.2%, explicitly not model votes or live trades. The implementations are not confirmed identical.",
+      "description": "At 01:39:16 Beijing time on November 2, 2026, RetroChainer describes a TSLA desk using browser-use, OpenHands, mem0, Agno, smolagents and REA. REA reportedly maps indicators and Yahoo provides daily bars. smolagents watches trend, Agno momentum, browser-use volume and mem0 drawdown; OpenHands holds positions and a PM decides daily. mem0 remembers the one-year high and votes by distance. This records indicator research and orchestration, not recovered source for an unnamed commercial indicator.\n\nThe first post claims USD 258 per USD 10,000 and mem0 as best voter, without test dates, sample, fees, slippage, benchmark, ledger, repository or runnable results. That post alone still cannot distinguish live trading, backtesting or illustration. Its desk command and clip were not verified.\n\nAt 21:54:38, another poster, Primee32 (@Primee32), uses the same six repository roles for a 251-session paper example. REA reportedly maps an unnamed chart app to SMA, RSI, MACD, BB and ATR. The other names are rule roles: every vote is a plain rule standing in for a model; no broker is connected. Signals use SMA10 above SMA30, a 20-day return band of ±3%, volume at 1.40 times its 20-day average, and a one-year high of USD 489.88 with drawdown beyond 25%. Fees are 10bp per side. This is not six agents actually trading or proof of the earlier profit claim.\n\nThe new post lists four long-only trades: December 8 at 439.58 to January 8 at 435.80, -0.86%; April 24 at 376.30 to June 10 at 381.59, +1.41%; July 10 at 407.76 to July 16 at 391.06, -4.10%; and August 21 at 362.86, still open at 372.22, +2.58%. Years, the complete price series and final settlement are absent. It claims one winner among three closed trades, 22% maximum drawdown, 54% of the year out of the market, a 1.8% annual loss versus TSLA's 14.2% loss, or 12.4 percentage points less lost; five-day hit rates are mem0 74% and browser-use 45%. All are the new post's figures, not independently recomputed equity or trade evidence. Its return accounting differs from the first post, and common implementation, data period or author collaboration was not established.\n\nLookup confirms the new author's identity and paper-only limitation. There is still no code, real REA analysis report or reproducible backtest. No installation, strategy or trade was executed here. Repository stars do not demonstrate effectiveness; no return guarantee or investment advice is offered.",
+      "metadata": ["First candidate snapshot: 36 likes, 1,176 views, 2 reposts. USD 258 per USD 10,000 and related figures belong to that first post.", "New candidate snapshot: 12 likes, 453 views, 0 reposts. The 251 sessions, four trades, 10bp and all returns/hit rates are Primee32's paper example, not independently recalculated."],
+      "source_labels": ["RetroChainer's REA/TSLA desk report, November 2, 2026", "Primee32's 251-session paper-rule example and losses, November 2, 2026 at 21:54"]
     }
   },
   {
@@ -18777,8 +19033,8 @@
     "category": "apps",
     "status": "unverified",
     "rea": "REA",
-    "summary": "多帖描述REA与Claude研究Bloomberg风格工作流、接独立数据；10月24日提案在Kronos预测层外增加TradingAgents研究与风险决策，仍无终端产物或回测结果。",
-    "description": "发帖者第一人称报告使用 REA MCP 与 Claude Opus 5.5 构建 Bloomberg 风格的金融研究工作站。帖子列出的流程包括观察公开可见的金融仪表板、图表与工作流，设计报价、观察列表、财务报表、新闻、图表和组合分析等功能，接入免费市场数据 API，并制作回测与分析功能。作者明确说没有解锁 Bloomberg 专有数据，而是使用独立数据来源。现有证据是作者的完成自述及其构建指南，没有提供工作站代码、可访问成品或测试记录；故保留为待验证报告，不据此断言已完成全部列举功能或与 Bloomberg 等价。REA 使用是帖子直接自述，本合集未独立复测。\n\n10月16日另一宣传帖声称18岁用户用REA与Opus在一晚重建年费32,000美元终端的告警子集：输入股票与币种、连接Telegram，每个工作日8:00查持仓异动与原因，附来源和时间发送，称一个问题约读23个来源。这一新用途证据按同目标补充，并非确认与原作者同一个实现。宣传帖虽说追踪真实App、写规格、零复制，却又从未具名市场App选模型开始，缺原作者、源码、网络证据与测试；无法确认逆向与普通AI市场助手的分界。年龄、年费、工时、来源数均仅为该帖主张，不证明取得专有数据或交易优势。\n\n10月17日06:26，@sopersone 称一个周末从外部研究功能代码串联、Launchpad面板通信、股票到基本面与期权链切换，再用REA与Opus规格接自有报价、新闻、经济日历、收益率曲线、财务与期权数据；还称加入跨资产筛选语言与含费用、滑点、回撤的回测并逐功能对照。约30,000美元年费、工时与测试均为该作者说法，未确认与前帖同一实现，未取得代码或对照记录，不确认Bloomberg等价。\n\n10月22日07:12（北京时间）的候选另提出REA、Claude Code与Kronos组合：先映射专业终端的报价、图表、筛选与新闻界面，再接公共市场API，加载其所称24.7M参数的Kronos-small，以512根历史K线预测后24根，采样100条价格路径显示分布，并要求在使用真金白银前计入真实费用回测。这是增加概率预测层的具体idea，不是确认与旧帖相同实现。帖子没有终端代码、模型评估或回测结果；模型大小和输入输出设置只归于该帖，未核查Kronos仓库或执行预测。免费、Bloomberg式界面与预测曲线均不意味着得到专有数据、收益保证或完整终端等价。\n\n2026年10月24日01:48:40（北京时间），另一提案在这一终端目标上加入TradingAgents：四个AI分析者分别看基本面、新闻、情绪与技术面，再经多空辩论、风险团队和组合经理评估BUY/SELL/HOLD。REA负责研究专业终端界面与流程，Kronos继续提供概率预测，TradingAgents增加研究与决策组织层。帖子重复24.7M参数、512根输入、24根预测和100条路径的设置，并要求计入实际交易成本回测后再使用资金。仍无终端实现、回测、预测质量或收益记录，也未核验模型、Agent数量与免费运行条件；不确认与前帖同一代码。",
+    "summary": "多帖描述REA／Claude研究终端与Kronos／TradingAgents提案；11月2日新评论提出一周数据失败率、延迟与人工差异测试，尚无终端产物或测量结果。",
+    "description": "发帖者第一人称报告使用 REA MCP 与 Claude Opus 5.5 构建 Bloomberg 风格的金融研究工作站。帖子列出的流程包括观察公开可见的金融仪表板、图表与工作流，设计报价、观察列表、财务报表、新闻、图表和组合分析等功能，接入免费市场数据 API，并制作回测与分析功能。作者明确说没有解锁 Bloomberg 专有数据，而是使用独立数据来源。现有证据是作者的完成自述及其构建指南，没有提供工作站代码、可访问成品或测试记录；故保留为待验证报告，不据此断言已完成全部列举功能或与 Bloomberg 等价。REA 使用是帖子直接自述，本合集未独立复测。\n\n10月16日另一宣传帖声称18岁用户用REA与Opus在一晚重建年费32,000美元终端的告警子集：输入股票与币种、连接Telegram，每个工作日8:00查持仓异动与原因，附来源和时间发送，称一个问题约读23个来源。这一新用途证据按同目标补充，并非确认与原作者同一个实现。宣传帖虽说追踪真实App、写规格、零复制，却又从未具名市场App选模型开始，缺原作者、源码、网络证据与测试；无法确认逆向与普通AI市场助手的分界。年龄、年费、工时、来源数均仅为该帖主张，不证明取得专有数据或交易优势。\n\n10月17日06:26，@sopersone 称一个周末从外部研究功能代码串联、Launchpad面板通信、股票到基本面与期权链切换，再用REA与Opus规格接自有报价、新闻、经济日历、收益率曲线、财务与期权数据；还称加入跨资产筛选语言与含费用、滑点、回撤的回测并逐功能对照。约30,000美元年费、工时与测试均为该作者说法，未确认与前帖同一实现，未取得代码或对照记录，不确认Bloomberg等价。\n\n10月22日07:12（北京时间）的候选另提出REA、Claude Code与Kronos组合：先映射专业终端的报价、图表、筛选与新闻界面，再接公共市场API，加载其所称24.7M参数的Kronos-small，以512根历史K线预测后24根，采样100条价格路径显示分布，并要求在使用真金白银前计入真实费用回测。这是增加概率预测层的具体idea，不是确认与旧帖相同实现。帖子没有终端代码、模型评估或回测结果；模型大小和输入输出设置只归于该帖，未核查Kronos仓库或执行预测。免费、Bloomberg式界面与预测曲线均不意味着得到专有数据、收益保证或完整终端等价。\n\n2026年10月24日01:48:40（北京时间），另一提案在这一终端目标上加入TradingAgents：四个AI分析者分别看基本面、新闻、情绪与技术面，再经多空辩论、风险团队和组合经理评估BUY/SELL/HOLD。REA负责研究专业终端界面与流程，Kronos继续提供概率预测，TradingAgents增加研究与决策组织层。帖子重复24.7M参数、512根输入、24根预测和100条路径的设置，并要求计入实际交易成本回测后再使用资金。仍无终端实现、回测、预测质量或收益记录，也未核验模型、Agent数量与免费运行条件；不确认与前帖同一代码。\n\n2026年11月2日23:46:45（北京时间），另一候选评论REA／Kronos／Claude Code研究台，强调数据源、限频、延迟和时区对齐比拼界面更难。它泛举免费股票数据可能延迟15分钟、Level-2数据月费数百至数千美元，以及所见某拼装方案模拟盘信号慢几十秒、滑点吞掉收益的故事；没有指明供应商、项目或账本，这些不是已核实价格或本终端实测。作者计划用同一栈跑一周，记录数据源失败率、端到端延迟、信号与人工判断差异，再对照公会游戏次日／7日留存与真实付费。该跨研究台与链游的计划尚无结果，不能把“能跑”的评论升级成已完成评测，亦未确认与旧作者同一实现。",
     "sources": [
       {
         "label": "作者关于 REA 辅助研究终端的原帖（第一手自述）",
@@ -18799,9 +19055,13 @@
       {
         "label": "10月24日REA、Kronos与TradingAgents三项目终端提案，未确认同一实现",
         "url": "https://x.com/i/status/2113689074196263406"
+      },
+      {
+        "label": "11月2日数据质量与一周延迟评估计划评论，尚无结果",
+        "url": "https://x.com/i/status/2117282272890237381"
       }
     ],
-    "snapshot_date": "2026-10-24",
+    "snapshot_date": "2026-11-02",
     "metadata": [
       "发帖时间：2026-10-14T02:58:43+08:00",
       "作者自述使用 REA MCP 与 Claude Opus 5.5；本合集未独立运行或核验功能。",
@@ -18809,12 +19069,13 @@
       "新增来源10月16日候选快照：8赞、32浏览；18岁、32,000美元年费、一晚与约23来源未核验。",
       "10月17日新增外部工作流研究与回测自述，无可复核代码或对照记录；既有热度快照保留原日期。",
       "10月22日来源更新07:12:52（北京时间）；Kronos提案候选快照5赞、245浏览、1转发，无预测或交易实测。",
-      "10月24日来源更新01:48:40（北京时间）；候选快照40赞、2055浏览、7转发。TradingAgents组合仍为提案，无终端代码或回测结果。"
+      "10月24日来源更新01:48:40（北京时间）；候选快照40赞、2055浏览、7转发。TradingAgents组合仍为提案，无终端代码或回测结果。",
+      "11月2日23:46:45新评论快照0赞、40浏览、0转发；一周评估尚属计划，数据费与延迟举例未经核实。"
     ],
     "en": {
       "title": "Bloomberg-style research terminal: a reported REA/Claude build",
-      "summary": "Posts describe REA/Claude study of Bloomberg-style workflows with independent data. An October 24 proposal adds TradingAgents research and risk decisions to Kronos forecasts, still without a terminal artifact or backtest results.",
-      "description": "The poster reports firsthand building a Bloomberg-style financial-research workstation with REA MCP and Claude Opus 5.5. The described workflow observes publicly visible financial dashboards, charts and workflows; designs quotes, watchlists, financial statements, news, charting and portfolio analysis; connects free market-data APIs; and builds backtesting and analysis features. The author explicitly says Bloomberg's proprietary data was not unlocked and independent data sources were used. The evidence is the author's completion claim and build guide, without workstation code, an accessible product or test records. It remains unverified, without assuming all listed features are complete or equivalent to Bloomberg. REA use is directly reported in the post; this collection did not independently retest.\n\nA separate October 16 promotional post says an 18-year-old used REA and Opus to rebuild the alerts subset of a $32,000-per-year terminal in one evening: enter stocks and coins, connect Telegram, and receive weekday 8:00 reports of portfolio movements and reasons with sources and timestamps, allegedly reading around 23 sources for one question. This adds a use on the same target, not confirmation that it is the original author's implementation. Although the promotion claims tracing the real app, writing a specification and copying no code, it also starts with choosing a model in an unnamed market app. No original author, code, network evidence or tests are supplied, so actual reverse engineering cannot be distinguished from a generic AI market assistant. Age, annual fee, labor and source count remain solely that post's claims, not evidence of proprietary-data access or a trading advantage.\n\nAt 06:26 on October 17, @sopersone reports a weekend spent externally studying function-code chaining, Launchpad panel communication and ticker-to-fundamentals/options navigation, then using REA/Opus specifications with owned feeds for quotes, news, economic calendars, yield curves, financials and options. They also claim cross-asset screening, backtesting with fees, slippage and drawdowns, and function-by-function comparisons. The roughly $30,000 annual fee, labor and testing are their claims. This is not confirmed as an earlier poster's implementation; no code or comparison records were obtained, and Bloomberg equivalence is unconfirmed.\n\nA candidate posted at 07:12 Beijing time on October 22 proposes combining REA, Claude Code and Kronos: first map a professional terminal's quotes, charts, screeners and news interface, then connect public market APIs and load what the post calls the 24.7M-parameter Kronos-small. It proposes predicting the next 24 candles from 512 historical candles, sampling 100 price paths to display a distribution, and backtesting with realistic fees before using real capital. This is a concrete idea for a probabilistic-forecast layer, not confirmation of the same implementation as earlier posts. No terminal code, model evaluation or backtest results are provided. The model size and input/output settings are attributed solely to this post; the Kronos repository was not checked and predictions were not run. Free access, a Bloomberg-style interface and forecast curves do not imply proprietary-data access, guaranteed returns or full terminal equivalence.\n\nAt 01:48:40 Beijing time on October 24, 2026, another proposal adds TradingAgents to this terminal target: four AI analysts cover fundamentals, news, sentiment and technicals, followed by bull/bear debate, a risk team and portfolio manager evaluating BUY/SELL/HOLD. REA investigates a professional terminal's interface and workflows, Kronos supplies probabilistic forecasts, and TradingAgents adds a research and decision-organization layer. The post repeats the 24.7M-parameter, 512-input-candle, 24-forecast-candle and 100-path settings, requiring backtesting with actual transaction costs before risking funds. It still provides no terminal implementation, backtest, forecast-quality or earnings record; model/agent counts and free-operation conditions were not verified. This is not confirmed as the same code as earlier posts.",
+      "summary": "Posts describe REA/Claude terminal research and Kronos/TradingAgents proposals. A November 2 comment plans a week of data-failure, latency and human-comparison tests, still without a terminal artifact or measurements.",
+      "description": "The poster reports firsthand building a Bloomberg-style financial-research workstation with REA MCP and Claude Opus 5.5. The described workflow observes publicly visible financial dashboards, charts and workflows; designs quotes, watchlists, financial statements, news, charting and portfolio analysis; connects free market-data APIs; and builds backtesting and analysis features. The author explicitly says Bloomberg's proprietary data was not unlocked and independent data sources were used. The evidence is the author's completion claim and build guide, without workstation code, an accessible product or test records. It remains unverified, without assuming all listed features are complete or equivalent to Bloomberg. REA use is directly reported in the post; this collection did not independently retest.\n\nA separate October 16 promotional post says an 18-year-old used REA and Opus to rebuild the alerts subset of a $32,000-per-year terminal in one evening: enter stocks and coins, connect Telegram, and receive weekday 8:00 reports of portfolio movements and reasons with sources and timestamps, allegedly reading around 23 sources for one question. This adds a use on the same target, not confirmation that it is the original author's implementation. Although the promotion claims tracing the real app, writing a specification and copying no code, it also starts with choosing a model in an unnamed market app. No original author, code, network evidence or tests are supplied, so actual reverse engineering cannot be distinguished from a generic AI market assistant. Age, annual fee, labor and source count remain solely that post's claims, not evidence of proprietary-data access or a trading advantage.\n\nAt 06:26 on October 17, @sopersone reports a weekend spent externally studying function-code chaining, Launchpad panel communication and ticker-to-fundamentals/options navigation, then using REA/Opus specifications with owned feeds for quotes, news, economic calendars, yield curves, financials and options. They also claim cross-asset screening, backtesting with fees, slippage and drawdowns, and function-by-function comparisons. The roughly $30,000 annual fee, labor and testing are their claims. This is not confirmed as an earlier poster's implementation; no code or comparison records were obtained, and Bloomberg equivalence is unconfirmed.\n\nA candidate posted at 07:12 Beijing time on October 22 proposes combining REA, Claude Code and Kronos: first map a professional terminal's quotes, charts, screeners and news interface, then connect public market APIs and load what the post calls the 24.7M-parameter Kronos-small. It proposes predicting the next 24 candles from 512 historical candles, sampling 100 price paths to display a distribution, and backtesting with realistic fees before using real capital. This is a concrete idea for a probabilistic-forecast layer, not confirmation of the same implementation as earlier posts. No terminal code, model evaluation or backtest results are provided. The model size and input/output settings are attributed solely to this post; the Kronos repository was not checked and predictions were not run. Free access, a Bloomberg-style interface and forecast curves do not imply proprietary-data access, guaranteed returns or full terminal equivalence.\n\nAt 01:48:40 Beijing time on October 24, 2026, another proposal adds TradingAgents to this terminal target: four AI analysts cover fundamentals, news, sentiment and technicals, followed by bull/bear debate, a risk team and portfolio manager evaluating BUY/SELL/HOLD. REA investigates a professional terminal's interface and workflows, Kronos supplies probabilistic forecasts, and TradingAgents adds a research and decision-organization layer. The post repeats the 24.7M-parameter, 512-input-candle, 24-forecast-candle and 100-path settings, requiring backtesting with actual transaction costs before risking funds. It still provides no terminal implementation, backtest, forecast-quality or earnings record; model/agent counts and free-operation conditions were not verified. This is not confirmed as the same code as earlier posts.\n\nAt 23:46:45 Beijing time on November 2, 2026, another candidate comments on an REA/Kronos/Claude Code research desk, emphasizing feeds, rate limits, delays and timezone alignment over assembling an interface. It gives generic examples of free stock data possibly delayed 15 minutes, Level-2 costing hundreds to thousands of dollars monthly, and an allegedly observed assembled system whose paper signals lagged by tens of seconds and lost returns to slippage. No vendor, project or ledger is named: these are not verified prices or measurements of this terminal. The writer plans to run the same stack for a week, recording feed failure rate, end-to-end latency and signal differences from human judgment, then comparing guild games' next-day/seven-day retention and actual payments. This research-desk/blockchain-game plan has no results yet. A comment that the stack can run is not a completed evaluation, nor confirmation of an earlier author's implementation.",
       "metadata": [
         "Posted: 2026-10-14T02:58:43+08:00",
         "Author reports using REA MCP and Claude Opus 5.5; this collection did not independently run or verify features.",
@@ -18822,14 +19083,16 @@
         "New-source October 16 candidate snapshot: 8 likes, 32 views; age 18, $32,000 annual fee, one evening and around 23 sources are unverified.",
         "October 17 adds claims of external workflow investigation and backtesting, without inspectable code or comparison records; existing engagement snapshots retain their original dates.",
         "October 22 source update: 07:12:52 Beijing time; Kronos proposal candidate snapshot: 5 likes, 245 views, 1 repost; no measured forecasting or trading results.",
-        "October 24 source update: 01:48:40 Beijing time; candidate snapshot: 40 likes, 2,055 views and 7 reposts. The TradingAgents combination remains a proposal, without terminal code or backtest results."
+        "October 24 source update: 01:48:40 Beijing time; candidate snapshot: 40 likes, 2,055 views and 7 reposts. The TradingAgents combination remains a proposal, without terminal code or backtest results.",
+        "November 2 at 23:46:45 comment snapshot: 0 likes, 40 views, 0 reposts. The week-long evaluation is only planned; feed-cost and delay examples are unverified."
       ],
       "source_labels": [
         "Author's original post on an REA-assisted research terminal (firsthand report)",
         "October 16 promotional alerts report, not confirmed as the same implementation",
         "October 17 build account of function codes, linked panels and owned data feeds",
         "October 22 REA/Kronos probabilistic research-terminal proposal, not confirmed as the same implementation",
-        "October 24 REA/Kronos/TradingAgents terminal proposal, not confirmed as the same implementation"
+        "October 24 REA/Kronos/TradingAgents terminal proposal, not confirmed as the same implementation",
+        "November 2 comment on data quality and a planned week-long latency evaluation, without results"
       ]
     }
   },

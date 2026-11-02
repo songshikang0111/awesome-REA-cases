@@ -2,10 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [自家推荐流：REA做页面地图，Claude读压缩脚本重建排名](../cases/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。 **[REA · 分析测试]**
 - [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](../cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
 - [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](../cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**
 - [Granola品牌动效：Kevin DePopas拆解Ragged Edge设计，建议用Claude重建](../cases/granola-ragged-edge-claude-motion-rebuild-idea.md) — Kevin拆解照片颗粒、分列交错、UI叠加与S曲线，给出33ms和550／650ms参数并建议Claude实现；未展示重建或相似度测试。 **[其他 AI 逆向 · 待验证]**
-- [TSLA六工具交易台：RetroChainer称REA映射指标，多个Agent按信号投票](../cases/rea-tsla-six-agent-indicator-desk-report.md) — RetroChainer描述REA映射指标、Yahoo日线及趋势／动量／成交量／回撤投票；每1万美元赚258美元是无日期区间与费用口径的宣传结果。 **[REA · 待验证]**
+- [TSLA六工具交易台：RetroChainer称REA映射指标，多个Agent按信号投票](../cases/rea-tsla-six-agent-indicator-desk-report.md) — RetroChainer介绍REA指标映射交易台；Primee32另给251交易日纸面规则示例，称亏1.8%对基准亏14.2%，明确不是模型投票或实盘，未确认两帖同一实现。 **[REA · 待验证]**
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](../cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
 - [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](../cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](../cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**

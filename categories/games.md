@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [benilla：Rust／Bevy重建WoW1.12.1客户端，Claude归因来自转述](../cases/benilla-wow1121-claude-rust-bevy-client.md) — grokked称Claude辅助重写WoW客户端；公开实现与地址级研究文档可查。项目称可完整游玩，但不支持Warden，插件与性能仍在改进，未独立运行。 **[其他 AI 逆向 · 进行中]**
+- [Roblox模拟器循环：Opus／Astra／RigDirectors行为重建宣传报告](../cases/opus-astra-rigdirectors-roblox-simulator-report.md) — 作者称研究流行Roblox机制后生成宠物、孵蛋、升级和重生循环，报告早版UI与经济失衡；两天交付和12450美元收入无成品或账本支持。 **[其他 AI 逆向 · 待验证]**
+- [Battlefield 1942浏览器版：dimash转述levels使用Claude反编译引擎](../cases/levels-battlefield1942-claude-browser-report.md) — dimash称levels让Claude Code反编译2002年Battlefield1942引擎并在浏览器运行；尚无原作者串、仓库或试玩验证，不能认定完整游戏或原始C源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [Nimbus：三款GameCube龙珠游戏的AI辅助原生化项目，闭源Alpha仍待验证](../cases/nimbus-dragon-ball-z-gamecube-ai-native-project.md) — thebabyhippo303的统一启动器自称混合重编译／反编译，不用硬件解释器；固定README已是Alpha 1.1，仅分发构建，跨平台与跨服功能未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [死亡之屋ReWrithe：Claude辅助合并街机与PC逻辑，项目测试不等于全平台实测](../cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md) — Tawhid的公开C++重写披露Claude辅助逆向与人工指挥测试；README区分Surface通关、自动MAME对照与尚未实机测试的平台、光枪和联网。 **[其他 AI 逆向 · 进行中]**
 - [Brawlhalla卡顿：Codex／REA追到AIR在Rosetta下的解释器分支](../cases/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md) — fexx_off报告在M4 Pro上用采样与二进制检查定位AIR解释器模式，配置覆盖后解释器路径消失、人工试玩卡顿基本消失；无原始堆栈或帧时间数据，未独立复测。 **[REA · 分析测试]**
