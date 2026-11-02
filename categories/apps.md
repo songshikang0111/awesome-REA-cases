@@ -2,6 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [HookLab：REA研究Creator Hooks，Claude重建YouTube标题与异常视频库](../cases/hooklab-rea-youtube-outlier-tool-rebuild.md) — Samin Yasar称用REA研究每年360美元的工具，再以Claude Code重建；公开Next.js／SQLite项目和研究方法，但本地部署仍依赖在线数据与AI服务，未独立验收。 **[REA · 进行中]**
+- [私信功能重建：CyronANNO称Gemini帮助逆向，基本实现仍待完善](../cases/cyronanno-gemini-direct-message-rebuild-report.md) — 作者称Gemini在Opus不肯参与的逆向工作中帮大忙，并基本实现私信；平台、协议与代码未具名，不推断是哪家社交服务。 **[其他 AI 逆向 · 进行中]**
+- [YouTube实时配音：deník AI agenta称REA辅助制作PC与移动版本](../cases/denikaiagenta-rea-youtube-live-dubbing-report.md) — 捷克语作者报告测试REA并制作有上下文的YouTube实时配音，可区分多说话人与性别；未给源码、延迟或识别评测。 **[REA · 待验证]**
+- [Android个人Plaud：deník AI agenta称REA辅助制作会议录音与行动项应用](../cases/denikaiagenta-rea-android-plaud-meeting-report.md) — 作者称试用REA后做出自己的Android“Plaud”，记录会议、转写并生成含任务的纪要；没有硬件互通或原算法等价证据。 **[REA · 待验证]**
+- [REI REA：12项逆向技能与可选Python工作台，区分目录和可执行能力](../cases/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan介绍面向多Agent的逆向技能包；公开README明确12项技能、可选14工具MCP，Ghidra／IDA／Frida实时会话及morluto/rea适配仍属计划。 **[其他 AI 逆向 · 相关项目]**
+- [Grok Bot／REA自测：Paone称五文件追踪8／8步骤，但未运行应用](../cases/paone-grokbot-rea-five-file-static-test.md) — Paone报告两条消息完成REA接线、加载234工具并静态追踪自有测试App；8／8为作者分析步骤标签，不是运行时行为等价。 **[REA · 分析测试]**
+- [Apple Watch的WHOOP式App：Codez称Opus两小时重建恢复、负荷与睡眠界面](../cases/codez-opus-whoop-style-apple-watch-app.md) — Codez称取消199美元年费后以Opus 5.5制作开源iPhone／Watch替代品；列出健康分数与端侧教练，但未核实仓库、隐私或与WHOOP算法等价。 **[其他 AI 逆向 · 待验证]**
+- [Anthropic系统提示学习：作者称让Agent逐行分析公开泄漏文本](../cases/agent-anthropic-system-prompt-line-analysis-report.md) — 作者描述新模型发布后搜寻泄漏system prompt并让Agent解释每行作用的个人工作流；无版本、文本或结果，不能认定官方提示已提取。 **[其他 AI 逆向 · 待验证]**
+- [EDA工具：读者提议用AI与REA研究电子设计自动化软件](../cases/ai-rea-eda-tool-research-idea.md) — 一句话提出用AI／REA逆向EDA工具；目标领域明确，但未点名产品、格式或实施任务，保留为早期idea。 **[REA · 待验证]**
 - [同花顺API：GPT把历史导出封装成接口，没解决作者盯盘目标](../cases/gpt-tonghuashun-api-history-export-mismatch.md) — 作者要求GPT逆向同花顺调用服务，用于AI盯盘、委托与复盘；检查发现所谓接口只是历史数据导出封装，是需求错位的实际报告。 **[其他 AI 逆向 · 待验证]**
 - [uTools旧插件：李不凯用Codex与REA修功能并接MCP](../cases/codex-rea-utools-legacy-plugin-customization.md) — 李不凯称研究几款长期未更新的常用uTools插件，修正功能并加MCP，让图形工具也可在Codex调用；插件名、实现与测试未给。 **[REA · 待验证]**
 - [Claude Code第三方接口：DeepSeek逆向的参数降级转述，非降智动机铁证](../cases/deepseek-claude-code-third-party-parameter-fallback-report.md) — AI Fun称DeepSeek发现第三方网关拒绝参数后Claude Code静默降级；没有版本、代码或日志，不能确认顺序，更不能证明故意压低模型能力。 **[其他 AI 逆向 · 待验证]**
@@ -77,7 +86,7 @@
 - [Homecloud云照片迁至Immich：Claude串联私有请求与外盘存储](../cases/codila-claude-cloud-photo-immich-migration.md) — codila再介绍Claude云照片迁移；ElioEx补充Homecloud外盘入口，固定公开README和提交确认路线、上游复用、空间与账号风险，但未运行导出或证明无损。 **[其他 AI 逆向 · 待验证]**
 - [Grokius Terminal：Ryan转述GrokBot辅助构建Pump App式手机交易终端](../cases/grokius-grokbot-pump-style-terminal-report.md) — Ryan称Explosive用GrokBot逆向重建Pump App式meme币终端，列出五Agent分工与512钱包跟踪；仅营销转述，没有源码、交易验收或收益证据。 **[其他 AI 逆向 · 待验证]**
 - [Reverse Lab：PixelRainbow以leanrea分诊与路由减少先全面反编译的工作流](../cases/reverse-lab-leanrea-triage-bot.md) — PixelRainbow的Grokbot模板先shell分诊、按目标路由，再升级lauriewired的GhidraMCP；注明leanrea上游，未给token节省测量。 **[其他 AI 逆向 · 相关项目]**
-- [Clean Room：PixelRainbow以REA输出行为规格与隔离会话重建提示的bot](../cases/clean-room-rea-behavior-spec-prompt-bot.md) — REA驱动的行为SPEC、怀疑式裁判、人工签准及新会话PROMPT交接bot；作者补称即使Ultra仍缺Grokbot token，不运行构建，也无等价或隔离验证。 **[REA · 相关项目]**
+- [Clean Room：PixelRainbow以REA输出行为规格与隔离会话重建提示的bot](../cases/clean-room-rea-behavior-spec-prompt-bot.md) — REA行为规格与新会话提示交接bot；作者新增函数级Swarm、混淆研究与50输入默认对照要求，明确模板裁判已更新而live bot仍旧，未给执行验收。 **[REA · 相关项目]**
 - [SAP：读者提出用REA逆向企业软件的愿望](../cases/sap-rea-reverse-engineering-wish.md) — 作者问还要多久才有人逆向SAP，并附REA标签；具体到企业软件产品家族，但没有模块、版本、方案或已启动证据。 **[REA · 待验证]**
 - [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](../cases/rea-electron-hidden-network-call-blind-test.md) — 既有自建Electron样本报告30秒命中结构与隐藏调用；11月2日新帖补充真实100MB应用有漏项，两类说法均未独立重跑。 **[REA · 分析测试]**
 - [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](../cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**

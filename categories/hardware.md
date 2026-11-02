@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](../cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**
+- [车辆订阅功能与追踪：读者希望AI逆向从智能电视扩展到汽车](../cases/ai-vehicle-subscription-telemetry-research-idea.md) — 读者点名BMW、GM、Honda，期待AI逆向研究订阅锁定功能和出厂追踪软件；无车型、操作或结果，合为车辆系统研究idea。 **[其他 AI 逆向 · 待验证]**
 - [光枪跟踪：xenesed称Claude优化固件并写轨迹叠加层](../cases/claude-unnamed-lightgun-tracking-firmware-report.md) — 作者不满新购光枪的软件，称Claude改善跟踪、消除抖动并制作激光轨迹overlay；60%改善缺测量定义，型号与研究方法未披露。 **[其他 AI 逆向 · 待验证]**
 - [BRP的CarPlay：作者称花几天用AI辅助解锁研究](../cases/brp-carplay-ai-jailbreak-research-report.md) — 作者称为启用CarPlay花数日研究BRP，认为AI显著降低难度；车型、组件、模型、固件和实际运行证据均未给。 **[其他 AI 逆向 · 待验证]**
 - [电视代码审计：读者建议让Claude调用REA检查](../cases/claude-rea-tv-code-check-idea.md) — 一条回复建议连接Claude、研究电视代码以检查疑问；目标品牌与具体行为未给，是代码审计idea，不是发现漏洞或隐私问题。 **[REA · 待验证]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Soldier of Fortune 2：模组作者建议用REA恢复伪源码，打通改造死路](../cases/soldier-of-fortune2-rea-modding-idea.md) — 2002年SoF2模组作者主张用REA研究未公开源码的游戏二进制，增加Mod自由度；仅具体用途idea，没有开始或完成分析的报告。 **[REA · 待验证]**
 - [benilla：Rust／Bevy重建WoW1.12.1客户端，Claude归因来自转述](../cases/benilla-wow1121-claude-rust-bevy-client.md) — grokked称Claude辅助重写WoW客户端；公开实现与地址级研究文档可查。项目称可完整游玩，但不支持Warden，插件与性能仍在改进，未独立运行。 **[其他 AI 逆向 · 进行中]**
 - [Roblox模拟器循环：Opus／Astra／RigDirectors行为重建宣传报告](../cases/opus-astra-rigdirectors-roblox-simulator-report.md) — 作者称研究流行Roblox机制后生成宠物、孵蛋、升级和重生循环，报告早版UI与经济失衡；两天交付和12450美元收入无成品或账本支持。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield 1942浏览器版：dimash转述levels使用Claude反编译引擎](../cases/levels-battlefield1942-claude-browser-report.md) — dimash称levels让Claude Code反编译2002年Battlefield1942引擎并在浏览器运行；尚无原作者串、仓库或试玩验证，不能认定完整游戏或原始C源码恢复。 **[其他 AI 逆向 · 待验证]**

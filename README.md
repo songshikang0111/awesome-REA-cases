@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1514 cases & projects
+# 1526 cases & projects
 
-**Latest case update:** November 3, 2026, 00:16 · **Last maintained:** November 3, 2026, 00:16 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 3, 2026, 04:12 · **Last maintained:** November 3, 2026, 04:12 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -31,7 +31,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 5. **[Pokémon Bank: keep transfers local on a 3DS](cases/en/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01` report and project record — Wokann explicitly credits Codex for decompilation analysis and patch work. A **public local-server patch preserves Bank/Mover workflows**, not the official backend; **no HOME transfer**. Requires your own supported titles and save backups; not run here. `In progress`
 6. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 7. **[Sonic Adventure: matching Dreamcast code, then a GCC port](cases/en/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer credits Claude Code/Codex and hundreds of hours of human polishing; the public project reports **247 matching binaries, 97.7% C / 2.3% assembly**. Some C needs compiler-assembly patches. The GCC build is separate, not a PC port; bring your own Japanese disc. Not rebuilt here. `Analysis test`
-8. **[Brawlhalla: trace Mac stutter past the FPS settings](cases/en/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md)** · `2026-11-02` — fexx_off reports **Codex/REA tracing AIR's Rosetta interpreter branch**, then testing a JIT override with fresh sampling and human play. Training and Free-for-all freezes reportedly largely disappear on an M4 Pro; no raw stacks or frame-time measurements, not a universal Mac fix. `Author-tested analysis`
+8. **[HookLab: a self-hosted YouTube research desk](cases/en/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03` report; `2026-10-19` project record — Samin Yasar credits **REA browser/bundle research and Claude Code rebuilding** of Creator Hooks. Public title chat, outlier library, CLI and API; the library starts empty, AI/data services remain online, and full equivalence is untested here. `In progress`
 9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
 10. **[ReWrithe: merge arcade and PC House of the Dead](cases/en/house-of-the-dead-rewrithe-claude-cpp-rewrite.md)** · `2026-11-02` report and pinned project record — Tawhid credits Claude with reversing and C++ reconstruction. **A human campaign playthrough and automated MAME replays are separate evidence**; real light guns, two-PC networking and several platforms remain untested. Bring your own arcade/PC files; not rebuilt here. `In progress`
 
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **325** |
-| [Hardware & interoperability](categories/en/hardware.md) | **400** |
-| [Applications & clients](categories/en/apps.md) | **629** |
+| [Games & preservation](categories/en/games.md) | **326** |
+| [Hardware & interoperability](categories/en/hardware.md) | **402** |
+| [Applications & clients](categories/en/apps.md) | **638** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **160** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

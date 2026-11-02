@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1514 个案例与项目
+# 1526 个案例与项目
 
-**最近案例更新：**2026 年 11 月 3 日 00:16 · **最近维护：**2026 年 11 月 3 日 00:16 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 3 日 04:12 · **最近维护：**2026 年 11 月 3 日 04:12 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -31,7 +31,7 @@
 5. **[Pokémon Bank：把传输留在3DS本地](cases/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01`报道与项目记录 — Wokann明确披露Codex辅助反编译分析和补丁工作，公开**本地服务器补丁保留Bank／Mover流程**，不是官方后端复刻；**不支持HOME传输**。须自备受支持原作并备份存档，本合集未运行。`进行中`
 6. **[DX-Ball：从声像函数走到Windows重建](cases/dx-ball-sound-pan.md)** · `2026-11-01`报道；`2026-10-31`项目记录 — Codex／REA／Ghidra重建报告**270个游戏函数、84968字节匹配**，另有原生VC4构建。仅时间戳不同的比较对象是较早重建版，不是原版EXE；原版50关通关与完整原生音频仍待测。须自备文件，本合集未重建。`项目自测重建`
 7. **[Sonic Adventure：先匹配Dreamcast，再移植GCC](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer称Claude Code／Codex辅助、人工打磨数百小时；公开项目报告**247个二进制匹配，97.7% C／2.3%汇编**，部分C须修补编译器汇编。GCC另走构建路径，不是PC移植；须自备日版光盘，本合集未重建。`分析测试`
-8. **[Brawlhalla：别只调FPS，追到Mac卡顿根源](cases/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md)** · `2026-11-02` — fexx_off报告**Codex／REA定位AIR的Rosetta解释器分支**，测试JIT覆盖后重新采样并人工试玩。称M4 Pro上Training与Free-for-all冻结基本消失；无原始堆栈或帧时间测量，不是所有Mac的通用修复。`作者自测分析`
+8. **[HookLab：自托管的YouTube研究台](cases/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03`报告；`2026-10-19`项目记录 — Samin Yasar披露**REA研究浏览器与脚本包，Claude Code重建Creator Hooks**。公开标题聊天、异常视频库、CLI与API；新装库为空，AI／数据服务仍联网，完整等价未在本合集验证。`进行中`
 9. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
 10. **[ReWrithe：合并街机与PC版死亡之屋](cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md)** · `2026-11-02`报道与固定项目记录 — Tawhid披露Claude辅助逆向与C++重建。**人工主线通关与自动MAME回放是不同证据**；真实光枪、两台PC联网及部分平台仍未实测。须自备街机与PC文件，本合集未重建。`进行中`
 
@@ -49,9 +49,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **325** |
-| [硬件与设备互通](categories/hardware.md) | **400** |
-| [应用与客户端](categories/apps.md) | **629** |
+| [游戏与游戏保存](categories/games.md) | **326** |
+| [硬件与设备互通](categories/hardware.md) | **402** |
+| [应用与客户端](categories/apps.md) | **638** |
 | [算法与功能重建](categories/algorithms.md) | **160** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
