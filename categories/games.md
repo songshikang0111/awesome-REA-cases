@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [桌面兵棋数字模块：转述Conflict Simulations委托工作被Claude拒绝](../cases/conflict-simulations-claude-board-wargame-module-refusal.md) — 政策报道引述兵棋模块委托被拒，客户拥有原作不等于获得出版方授权；未取得具体游戏、提示或拒绝日志。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Heroes：Sewer56说明AI重编译复用了数千小时人工逆向代码](../cases/sonic-heroes-sewer56-ai-recompile-attribution.md) — Sewer56称AI把他长期人工逆向所得代码包装进重编译项目，提醒区分已有知识与AI贡献；未核对具体仓库、构建或可玩范围。 **[其他 AI 逆向 · 待验证]**
 - [Wordle重复字母：Creator Stacks称REA追踪着色逻辑，再做本地版本](../cases/wordle-rea-duplicate-letter-local-rebuild-report.md) — 作者称让REA调查Wordle如何给重复字母着色，再制作自己的本地版本；未给具体规则、源码或对照测试，不确认行为等价。 **[REA · 待验证]**
 - [超级马里奥兄弟惊奇：WangNextDoor转述AI辅助PC移植与60帧说法](../cases/super-mario-bros-wonder-ai-pc-port-secondary-claim.md) — 二手评论具体称主机游戏惊奇快速移植PC并60帧运行，未给开发者、仓库或测试；只保留未核验主张，不等同原生移植成功。 **[其他 AI 逆向 · 待验证]**

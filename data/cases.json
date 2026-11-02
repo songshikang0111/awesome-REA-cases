@@ -1,5 +1,194 @@
 [
   {
+    "id": "wquguru-lark-rea-mac-meeting-notes-rebuild",
+    "title": "飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "作者报告拆解Lark桌面纪要，以16kHz每秒切片、独立生成任务和原句绑定鱼骨图重建Mac工具；仍待完整测试与开源，不保证录音绝不丢失。",
+    "description": "2026年11月2日09:46:06（北京时间），WquGuru（@wquguru）称用REA拆解飞书（Lark）桌面端会议纪要，参照工程设计写了Mac版，计划开源。目标是把会议录音变成可逐步呈现、可追溯原话的总结、待办、关键决策与章节，而不是只复制界面。\n\n作者报告三项设计：录音转16kHz后按一秒切片，先本地保存、排队上传，成功后才删除，崩溃重启补传剩余切片；多种纪要各自生成、各自计时超时，先完成者先显示；自动图表为鱼骨图，每分支绑定可跳回的原句并统计引用数。上述为作者对Lark实现的分析及重建报告，未提供版本、定位函数、源码或崩溃恢复测试，不能据队列设计保证“绝不丢录音”，引用数量也不证明摘要语义正确。\n\n补读同作者串：11:09:17称完整测一遍再放出；11:44:21回答所用模型为“ds v4.1 flash 1017”。这些是同日补充来源，不是新的独立候选。免费模型、无需自行部署与完全开源仍为承诺，模型服务商、限额、数据去向未说明，不能等同离线或会议隐私保证。其他平台仅是读者建议，未确认实现。未取得公开仓库、安装或运行工具，也未连接飞书或接触会议数据。",
+    "sources": [
+      {"label": "WquGuru的Lark会议纪要研究与Mac重建报告，2026-11-02", "url": "https://x.com/i/status/2117070715803640272"},
+      {"label": "同日作者补充：完整测试后再开放，11:09:17北京时间", "url": "https://x.com/i/status/2117091650644418813"},
+      {"label": "同日作者补充模型：ds v4.1 flash 1017，11:44:21北京时间", "url": "https://x.com/i/status/2117100475413877105"}
+    ],
+    "snapshot_date": "2026-11-02", "metadata": ["候选封存快照93赞、7425浏览、7转发；传播不证明实现已通过测试。", "16kHz与一秒切片为作者分析；开源、免费模型与完整测试结果尚待确认。"],
+    "en": {
+      "title": "Lark meeting notes: WquGuru studies chunks and parallel tasks with REA, then builds a Mac version",
+      "summary": "The author reports a Mac rebuild using one-second 16kHz audio chunks, independent generation tasks and source-linked fishbone diagrams. Full testing and open-source release are pending; lossless recording is not established.",
+      "description": "At 09:46:06 Beijing time on November 2, 2026, WquGuru (@wquguru) says REA helped investigate the meeting-notes implementation in the Lark desktop client, then informed a Mac rebuild planned for open-source release. The goal is progressively delivered summaries, to-dos, key decisions and chapters traceable to meeting speech, not just copying an interface.\n\nThe author reports three designs: resampling audio to 16kHz and splitting it every second, saving locally before queued uploads, deleting only after success and resuming outstanding chunks after a crash; separate generation and timeout handling for each type of note so finished results appear first; and fishbone diagrams whose branches link back to original sentences and count supporting citations. These are the author's analysis and reconstruction claims. No target version, located functions, source or crash-recovery tests are provided. A queue design does not guarantee that recordings can never be lost, and citation counts do not establish semantic accuracy.\n\nSupplementary reading of the same author's thread finds an 11:09:17 reply saying release will follow a complete test pass, and an 11:44:21 reply naming the model as 'ds v4.1 flash 1017'. These are same-day supporting sources, not new independent candidates. Free models, no self-hosting and fully open source remain promises. The model provider, limits and data destination are unspecified; this does not establish offline operation or meeting privacy. Other platforms are reader suggestions, not implemented support. No public repository was obtained, no tool installed or run, no Lark connection made and no meeting data accessed.",
+      "metadata": ["Sealed candidate snapshot: 93 likes, 7,425 views and 7 reposts. Engagement does not establish completed implementation tests.", "16kHz and one-second chunks are the author's analysis; open-source availability, free models and full test results remain unconfirmed."],
+      "source_labels": ["WquGuru's Lark meeting-notes investigation and Mac-rebuild report, November 2, 2026", "Same-day author follow-up: release after full testing, 11:09:17 Beijing time", "Same-day author model identification: ds v4.1 flash 1017, 11:44:21 Beijing time"]
+    }
+  },
+  {
+    "id": "craft-anything-agent-study-rebuild-compare-report",
+    "title": "Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "两条候选介绍研究原版、Agent建造与对照迭代；公开项目区分Clean room／Deep，承认Codex、部分动态工具和游戏行为检查尚有限，不是任意软件几分钟完整复刻。",
+    "description": "2026年11月2日09:51:48，Smartpig（@Smartpigai）介绍Craft Anything，让AI研究网站、应用或游戏后建新项目并对照修改；11:15:23，明子206（@mingzi206）进一步宣传全量自动Hook、符号执行架构图和几分钟完成。按项目名补查storytold/craft-anything公开仓库，读取固定提交32b80be89061896921d370e8f4f952ab707e2270的README与STATUS。提交时间为当日11:40:37北京时间，STATUS标11月2日；其中10月18日实跑和10月23日审计是较早项目记录，不是本窗口的新实验。\n\n项目称纯Rust引擎提供314个CLI／MCP工具，其中298个属引擎，桌面界面与Agent共用研究、构建、检查、迭代流程。默认Clean room只看访客可见界面、用户图片与描述，拒绝内部读取；Deep允许代码、文件、网站JavaScript与可选Ghidra。建造优先调用用户自己的Claude Code，分析可接API或本地兼容服务；Codex适配器存在但尚未在真实安装中验证。Clean room是项目模式名，不是本合集对净室合规或法律安全的认证。\n\nSTATUS自报10月18日Windows headless实跑：网页96%相似度、1.5分钟；小桌面应用9分钟，但仅以构建检查；Rust游戏到Build即停止、未到Check。网页相似度是项目检查指标，不等于功能等价。文档还说明游戏self-test由生成物自己报告，尚未独立观察游戏过程或测量其数值；运行研究只启动原应用一次采窗口和UI树，不持续操控，Frida会话工具部分模拟，Clean room完整构建尚无实跑。这些具体边界不支持候选“记录所有系统调用／内存迁移”“几分钟完成任意克隆”等泛化。\n\nREADME称early alpha并区分已做与部分完成，安装包说明不作为本合集实际下载或跨平台测试记录；本文只阅读公开文档与提交元数据，没有执行目标、构建仓库、安装依赖或重跑作者测试。与ArtCraft应用套件的Adobe归因争议分开记录，不因同组织而认定该套件此前逆向了Adobe。",
+    "sources": [
+      {"label": "候选：Smartpig介绍Craft Anything流程，2026-11-02", "url": "https://x.com/i/status/2117072151476080832"},
+      {"label": "候选补证：明子206的Rust／动态观察宣传，2026-11-02", "url": "https://x.com/i/status/2117093182441972165"},
+      {"label": "补充项目README：固定提交，2026-11-02", "url": "https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/README.md"},
+      {"label": "补充项目STATUS：含10月实跑与11月2日边界，固定提交", "url": "https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/docs/STATUS.md"}
+    ],
+    "snapshot_date": "2026-11-02", "metadata": ["候选封存快照：Smartpig 8赞、692浏览、2转发；明子206 2赞、59浏览、0转发。", "314工具、96%、1.5分钟、9分钟及审计测试为项目口径，未独立复现；Codex实装、Clean room实跑与部分动态分析待验证。"],
+    "en": {
+      "title": "Craft Anything: a Rust study-and-rebuild workbench with explicit limits on project-reported checks",
+      "summary": "Two candidates promote studying originals, agent building and comparison loops. Public documentation distinguishes Clean room from Deep and limits Codex, dynamic tools and game checks; this is not proven complete cloning of arbitrary software in minutes.",
+      "description": "At 09:51:48 Beijing time on November 2, 2026, Smartpig (@Smartpigai) introduces Craft Anything as studying a website, app or game, building a new project and comparing/refining it. At 11:15:23, mingzi206 promotes comprehensive automatic hooking, symbolic-execution architecture graphs and completion in minutes. A name lookup found the public storytold/craft-anything repository. This review read README and STATUS pinned to 32b80be89061896921d370e8f4f952ab707e2270, committed at 11:40:37 Beijing time that day. STATUS is dated November 2; its October 18 live runs and October 23 audit are earlier project records, not new experiments in this window.\n\nThe project describes a pure-Rust engine with 314 CLI/MCP tools, 298 in the engine itself, sharing a study/build/check/refine workflow between the desktop app and agents. Default Clean room mode uses visitor-visible UI, user pictures and descriptions and refuses internal reads; Deep permits code, files, website JavaScript and optional Ghidra. Building primarily invokes the user's own Claude Code; analysis can use APIs or local compatible services. A Codex adapter exists but is not verified on a real installation. Clean room is the project's mode name, not this collection's legal or clean-room-compliance certification.\n\nSTATUS reports October 18 Windows headless runs: a website at 96% likeness in 1.5 minutes; a small desktop app in 9 minutes, checked only by building; and a Rust game stopped at Build before Check. Website likeness is a project metric, not functional equivalence. Game self-tests are the generated build's own reports, not independently observed gameplay or measured values. Runtime study starts the original once to capture its window and UI tree rather than driving it over time; Frida sessions are partly simulated and no live full Clean room build has been run. These limits do not substantiate candidate generalizations about recording every syscall/memory transition or cloning arbitrary software in minutes.\n\nThe README labels the project early alpha and distinguishes working from partial components. Installer descriptions are not downloads or cross-platform tests by this collection. Only public documentation and commit metadata were read; no target or repository code, dependencies or author tests were executed. This entry is distinct from the ArtCraft app suite's Adobe-attribution dispute: common organizational ownership does not establish that those apps reverse-engineered Adobe.",
+      "metadata": ["Sealed candidate snapshots: Smartpig, 8 likes, 692 views, 2 reposts; mingzi206, 2 likes, 59 views, 0 reposts.", "314 tools, 96%, 1.5 minutes, 9 minutes and audit tests are project reports, not independently reproduced. Real Codex installation, live Clean room builds and some dynamic analysis remain unverified."],
+      "source_labels": ["Candidate: Smartpig introduces the Craft Anything workflow, November 2, 2026", "Supporting candidate: mingzi206's Rust/dynamic-observation promotion, November 2, 2026", "Supplementary project README at a pinned November 2, 2026 commit", "Supplementary pinned STATUS, including October live runs and November 2 limitations"]
+    }
+  },
+  {
+    "id": "emmagine79-rea-file-decryption-hermes-model-switch",
+    "title": "REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。",
+    "description": "2026年11月2日08:51:34（北京时间），Captain Awesome（@emmagine79）报告让Claude以REA解密文件时频繁拒绝并停止，甚至只轻微提及也中断会话。作者说自己使用Nous Research的Hermes作为harness，订阅OpenCode Go、改用中国模型后工作回到正轨。补查原帖与同作者串确认署名与文字，没有具体文件格式、来源、加密算法、模型名、提示、日志或最终解密输出。\n\n这是具体文件任务受阻及模型切换的作者报告，不是已确认解密或安全策略原因分析；不能把“back on track”解释为解密成功、所有中国模型均有效或Hermes自行解密。附图未检查，没有执行文件、处理密钥或修改工具配置。",
+    "sources": [{"label": "Captain Awesome的REA解密拒绝与模型切换报告，2026-11-02", "url": "https://x.com/i/status/2117056993282470115"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、223浏览、0转发；没有文件或解密验收。"],
+    "en": {
+      "title": "REA file decryption: Captain Awesome reports switching models in Hermes after Claude refusals",
+      "summary": "The author says Claude refused REA file decryption, then work resumed using Chinese models through OpenCode Go while retaining Hermes. Files, algorithms and successful decryption are unverified.",
+      "description": "At 08:51:34 Beijing time on November 2, 2026, Captain Awesome (@emmagine79) reports repeated Claude refusals and stopped sessions when asking REA to decrypt files, including sessions that barely mention it. They say they use Nous Research's Hermes as the harness and returned to work after subscribing to OpenCode Go and switching to Chinese models. Original-post and author-thread lookup confirmed attribution and wording but supplied no file format or provenance, encryption algorithm, model name, prompt, logs or final decrypted output.\n\nThis is an author report about an interrupted file task and model switching, not confirmed decryption or an established explanation of safety-policy behavior. 'Back on track' does not mean decryption succeeded, every Chinese model works or Hermes independently decrypted anything. Attached images were not inspected; no files executed, keys processed or tool configurations changed.",
+      "metadata": ["Candidate snapshot: 1 like, 223 views, 0 reposts. No file or decryption acceptance result."],
+      "source_labels": ["Captain Awesome's REA decryption-refusal and model-switching report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "bcc808-muse-rea-vm-larger-file-adaptation",
+    "title": "Muse虚拟机中的REA：bcc808称安装后改为接收更大文件",
+    "category": "apps", "rea": "REA", "status": "related-project",
+    "summary": "bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。",
+    "description": "2026年11月2日09:19:33（北京时间），bcc808（@youaremetoo）回复Melvin Vivas，称让Muse在它的VM安装Reverse Engineer Anything，且Muse修改了它以接收更大文件。具体用途是扩大Agent虚拟机中逆向工具的文件接收范围。补查父帖：Vivas前一天称让Muse安装Claude Code、Codex与Pi；父帖只解释环境语境，不证明bcc808安装了这些工具或修改成功。\n\n候选未给Muse实现、REA版本、修改文件、补丁、前后字节上限或实际分析目标。保留为工具适配的相关项目自述，不推断修复了具体上传限制、处理超大固件成功或提高准确率。未访问VM、安装依赖或运行任何目标。",
+    "sources": [{"label": "bcc808的Muse VM安装与大文件适配报告，2026-11-02", "url": "https://x.com/i/status/2117064033610477580"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、59浏览、0转发；文件大小与补丁未披露。"],
+    "en": {
+      "title": "REA inside Muse's VM: bcc808 reports installation and larger-file adaptation",
+      "summary": "bcc808 says Muse installed REA on its VM and modified it to accept larger files. No patch, size limit, specific binary or analysis result is supplied.",
+      "description": "At 09:19:33 Beijing time on November 2, 2026, bcc808 (@youaremetoo) replies to Melvin Vivas that Muse installed Reverse Engineer Anything on its own VM and modified it to accept larger files. The concrete purpose is expanding file intake for an agent-hosted reverse-engineering tool. Parent-post lookup finds Vivas saying the previous day that Muse installed Claude Code, Codex and Pi. That explains the environment discussion, not proof that bcc808 installed those tools or that the modification succeeded.\n\nThe candidate supplies no Muse implementation, REA revision, changed files, patch, before/after byte limits or actual analysis target. Retained as a related tooling-adaptation report, not a confirmed fix to a particular upload limit, successful large-firmware analysis or improved accuracy. No VM was accessed and no dependencies or targets were installed or executed.",
+      "metadata": ["Candidate snapshot: 0 likes, 59 views, 0 reposts. File sizes and patch are undisclosed."],
+      "source_labels": ["bcc808's Muse VM installation and larger-file adaptation report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "misaka-claude-code-dsh-plugin-deepseek-rea",
+    "title": "Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "同作者回复链报告私有Claude Code逆向重写版与模型检测切换，明确DeepSeek Flash＋REA；无代码、版本、兼容性或无封号验证。",
+    "description": "2026年11月2日09:20:39（北京时间），酸性氢氧化钠（@MisakaM55561189）回应逆向思路询问，称使用“deepseekflash+Rea”。补读同一回复链中11月1日23:03:13的原话，目标是将Claude Code逆向重写为DSH插件；作者称已有版本，但因其所说的法律要求不能开放。较早原话只是解释当前候选指向的目标，不另算本轮新抓取；DSH简称未在材料展开。\n\n当日10:20:37，作者进一步称逆向关闭检测是否自家模型的开关，以使用其他厂商模型，用Claude时再恢复正常。两个候选属于同一作者、同一讨论下的工作流证据，未证明插件与检测开关在相同版本或同一代码产物中。没有源码、修改位置、版本、模型具体修订、重写范围、兼容测试或检测成功率。\n\n只收录私有功能重建与可切换配置的高层作者自述，不提供绕过步骤、不保证账号安全或许可合规，也不把所谓法律要求当独立法律判断。未安装插件、访问账号或运行目标。",
+    "sources": [
+      {"label": "候选：作者披露DeepSeek Flash＋REA，2026-11-02", "url": "https://x.com/i/status/2117064310711296510"},
+      {"label": "候选补证：作者报告模型检测切换，2026-11-02", "url": "https://x.com/i/status/2117079400814669940"},
+      {"label": "窗口前同作者原话：Claude Code重写为DSH插件，2026-11-01 23:03:13北京时间", "url": "https://x.com/i/status/2116908927938167020"}
+    ],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照分别1赞／42浏览和1赞／25浏览，均0转发；没有公开代码或行为对照。"],
+    "en": {
+      "title": "Claude Code as a DSH plugin: Misaka reports a DeepSeek Flash/REA rewrite",
+      "summary": "The author's reply chain describes a private Claude Code rewrite and model-check switching, explicitly naming DeepSeek Flash plus REA. No code, version, compatibility or account-safety validation is provided.",
+      "description": "At 09:20:39 Beijing time on November 2, 2026, Misaka (@MisakaM55561189, display name 酸性氢氧化钠) answers a question about the reversing approach with 'deepseekflash+Rea'. Supplementary reading of their November 1, 23:03:13 reply in the same chain identifies the target as reverse engineering Claude Code and rewriting it as a DSH plugin. They say a version exists but cannot be released because of claimed legal requirements. That earlier reply identifies the current candidate's target, not another new-window discovery. The material does not expand DSH.\n\nAt 10:20:37 the next day, the author additionally reports reversing a switch that checks for the vendor's own model, disabling it for other providers and restoring normal behavior for Claude. The two candidates are workflow evidence from one author and discussion, not proof that the plugin and detection switch belong to the same version or artifact. No source, patch location, version, exact model revision, rewrite scope, compatibility tests or detection-success rate is given.\n\nOnly high-level author claims of private reconstruction and switchable configuration are recorded. No bypass instructions, account-safety or licensing guarantees are provided, and the claimed legal restriction is not an independent legal conclusion. No plugin was installed, account accessed or target run.",
+      "metadata": ["Candidate snapshots: 1 like/42 views and 1 like/25 views respectively, both 0 reposts. No public code or behavioral comparison."],
+      "source_labels": ["Candidate: author names DeepSeek Flash plus REA, November 2, 2026", "Supporting candidate: author reports model-check switching, November 2, 2026", "Earlier same-author reply: Claude Code rewritten as a DSH plugin, November 1 at 23:03:13 Beijing time"]
+    }
+  },
+  {
+    "id": "knife-rust-static-analysis-mcp-secondary-report",
+    "title": "knife：Dopax转述面向Agent的Rust多格式静态分析工具箱",
+    "category": "apps", "rea": "unknown", "status": "related-project",
+    "summary": "盘点介绍CLI／TUI／MCP二进制研究；补读公开README确认静态分析与Agent接口的项目说明，但Wasm无lifter、间接调用不在直接图内，未运行验证。",
+    "description": "2026年11月2日09:24:17（北京时间），Dopax（@tensorstaff）在五项开源盘点中介绍knife：Rust终端优先的逆向工具箱，以CLI、TUI和MCP连接Agent，覆盖PE／ELF／Mach-O／Wasm静态分析，并称可审计缓解措施、追踪危险API与输出伪代码。它解决的是将二进制研究能力交给终端用户与Agent的问题，不是某个应用已完成的重建。\n\n补查原帖确认归属，再按名称找到bl4ckr0ss3/knife，读取固定提交f260b87ffc54ae5c8c56cc31351334d209228745的README；提交为10月16日04:25:49北京时间，是窗口前文档，不是11月2日新实验。文档称静态读取目标不执行，MCP给Agent使用同一分析引擎，另有可接本地或兼容API的调查桌。它明确Wasm没有lifter、代码视图拒绝，直接调用图未覆盖间接分发，因此空结果不证明不可达；伪代码未建模部分原样显示。读取文档不等于审计实现、安全或恢复准确率。\n\n384星是报道者标为截至11月2日的GitHub API口径，未独立核对，不视为实时热度。未运行仓库或样本、不保证所有格式功能相同或漏洞发现有效。REA未说明，MCP适配也不证明全部研发由AI完成。与同帖RDX独立建条；SkillOpt、Ethproofs与solOS并非此条逆向项目。",
+    "sources": [{"label": "Dopax五项盘点中的knife介绍，2026-11-02", "url": "https://x.com/i/status/2117065226063667699"}, {"label": "窗口前补充：knife固定提交README，提交2026-10-16北京时间", "url": "https://github.com/bl4ckr0ss3/knife/blob/f260b87ffc54ae5c8c56cc31351334d209228745/README.md"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、21浏览、0转发；384星为报道者11月2日口径，未独立核实。"],
+    "en": {
+      "title": "knife: Dopax describes a Rust multi-format static-analysis toolkit for agents",
+      "summary": "A roundup describes CLI/TUI/MCP binary research. A public README documents static analysis and agent interfaces, but no Wasm lifter and no indirect dispatch in the direct graph. Nothing was run here.",
+      "description": "At 09:24:17 Beijing time on November 2, 2026, Dopax (@tensorstaff) introduces knife in a five-project open-source roundup: a terminal-first Rust reverse-engineering toolkit exposing CLI, TUI and MCP interfaces for agents. Claimed capabilities include PE/ELF/Mach-O/Wasm static analysis, mitigation audits, dangerous-API tracing and pseudocode. Its concrete purpose is making binary research available to terminal users and agents, not a completed reconstruction of a particular app.\n\nOriginal-post lookup confirmed attribution. A name search found bl4ckr0ss3/knife, and the README was read at f260b87ffc54ae5c8c56cc31351334d209228745, committed October 16 at 04:25:49 Beijing time: earlier documentation, not a November 2 experiment. It describes static target reading without execution, the same engine exposed through MCP, and an investigation desk for local or compatible-API models. It explicitly lacks a Wasm lifter and refuses code views there; indirect dispatch is outside its direct call graph, so empty results do not establish unreachability. Unmodeled pseudocode remains verbatim. Reading documentation is not an implementation, safety or recovery-accuracy audit.\n\nThe reported 384 stars are the writer's November 2 GitHub-API snapshot, not independently checked or live popularity. Neither repository nor sample was run; equal functionality across formats and effective vulnerability discovery are not guaranteed. REA is unspecified; MCP support does not establish AI authorship of all development. RDX is recorded separately; SkillOpt, Ethproofs and solOS are not this reverse-engineering project.",
+      "metadata": ["Candidate snapshot: 0 likes, 21 views, 0 reposts. The reported 384 stars are the writer's November 2 figure, not independently checked."],
+      "source_labels": ["knife in Dopax's five-project roundup, November 2, 2026", "Earlier supplementary knife README at a pinned commit, October 16, 2026 Beijing time"]
+    }
+  },
+  {
+    "id": "rdx-rust-apk-dex-mcp-secondary-report",
+    "title": "RDX：Dopax转述Rust原生APK／DEX反编译桌面工具与MCP",
+    "category": "apps", "rea": "unknown", "status": "related-project",
+    "summary": "盘点称RDX以Rust重建Java并提供MCP；公开README标alpha，不支持方法保留标注DEX反汇编，并披露JADX算法改编，不等于完整源码恢复。",
+    "description": "2026年11月2日09:24:17（北京时间），Dopax（@tensorstaff）介绍RDX为9月开始的Rust原生APK／DEX反编译桌面项目，自带MCP，可从清单进入重建Java并跟踪调用关系，不需JVM或外部反编译服务。用途是把Android安装包研究与导航集成到桌面及Agent流程。\n\n补查原帖后，按名称找到Ch0pin/rdx并读固定提交4e5a6576c8999acd4b9a88b7bd363267a07227d3的README；提交为10月31日19:50:21北京时间，是窗口前补充文档。项目说明可让AI通过本地MCP浏览类、Java或DEX、清单与资源，多实例区分项目；支持APK、XAPK、APKS与DEX。状态为alpha，Java重建仍扩展中，未支持的方法显示带标签的DEX反汇编。README标Apache-2.0并披露改编JADX算法，不能写成未复用任何既有反编译知识的从零实现。\n\n162星与9月开始是报道者口径，未独立核实。只读公开文档，未审算法实现、第三方许可细项、真实APK或原始Java对照，不证明完整源码恢复、所有APK可用或AI完成底层研发；REA未提及。与knife独立收录，未运行目标或安装依赖。",
+    "sources": [{"label": "Dopax五项盘点中的RDX介绍，2026-11-02", "url": "https://x.com/i/status/2117065226063667699"}, {"label": "窗口前补充：RDX固定提交README，提交2026-10-31北京时间", "url": "https://github.com/Ch0pin/rdx/blob/4e5a6576c8999acd4b9a88b7bd363267a07227d3/README.md"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、21浏览、0转发；162星与9月新项目均为报道口径，未独立核实。"],
+    "en": {
+      "title": "RDX: Dopax describes a native Rust APK/DEX decompiler with desktop and MCP access",
+      "summary": "A roundup describes Rust Java reconstruction and MCP access. The public README labels RDX alpha, retains unsupported methods as labelled DEX disassembly and credits adapted JADX algorithms; complete source recovery is not established.",
+      "description": "At 09:24:17 Beijing time on November 2, 2026, Dopax (@tensorstaff) describes RDX as a native Rust APK/DEX desktop decompiler started in September, with MCP support, manifest-to-reconstructed-Java navigation and call tracking without a JVM or external decompilation service. Its purpose is integrating Android package research and navigation into desktop and agent workflows.\n\nAfter original-post lookup, a name search found Ch0pin/rdx. Its README was read at 4e5a6576c8999acd4b9a88b7bd363267a07227d3, committed October 31 at 19:50:21 Beijing time: earlier supplementary documentation. It describes AI browsing of classes, Java or DEX, manifests and resources through local MCP, with projects separated across multiple instances, and APK/XAPK/APKS/DEX support. Status is alpha: Java reconstruction is still expanding and unsupported methods remain labelled DEX disassembly. The README states Apache-2.0 and credits adaptations of JADX algorithms; this is not a from-scratch implementation without prior decompilation knowledge.\n\nThe 162-star figure and September start are unverified secondary claims. Public documentation was read, not algorithm implementations, detailed third-party licensing, real APKs or original-Java comparisons. Complete source recovery, universal APK support and AI authorship of underlying development are unestablished; REA is not mentioned. Recorded separately from knife, without running targets or installing dependencies.",
+      "metadata": ["Candidate snapshot: 0 likes, 21 views, 0 reposts. The 162-star count and September start are unverified secondary figures."],
+      "source_labels": ["RDX in Dopax's five-project roundup, November 2, 2026", "Earlier supplementary RDX README at a pinned commit, October 31, 2026 Beijing time"]
+    }
+  },
+  {
+    "id": "meridian-family-termux-offline-ai-apk-tools",
+    "title": "Meridian Family：把Android本地模型与Termux、APK反编译放进一套工具",
+    "category": "apps", "rea": "unknown", "status": "related-project",
+    "summary": "Alen Požun称五应用合一，默认离线本地模型、Termux／ADB、应用构建签名和APK反编译；所有功能可用与无外传仅为自述，未审代码。",
+    "description": "2026年11月2日09:32:11（北京时间），Alen Požun（@termuxSolutions）介绍Meridian Family的Master版本，将五款应用合一。作者说Android后台与工具链限制促使其使用Termux Linux环境，并用ADB连接Android侧；可下载本地模型，按任务在大小模型间切换，构建并签名自己的应用及反编译APK，也能调用Termux其他能力。AI和APK研究工作台的结合是收录目标，未报告已逆向某个具名App。\n\n作者称默认100%离线、无账号无云，仅自行开启在线模式并用自己的API key才向供应商发请求；还称全部功能工作、项目部分开源，以C++、Kotlin、Java、Python和HTML构建，视频只是预告且未展示Meridian Core与NullCloud。补查原帖确认署名，未展开XDA／GitHub短链、审读实现或观看验证视频。这些离线、安全和完整性说法未经流量或代码审计，Termux开源不使整套系统“bulletproof”。REA及具体反编译引擎未说明，不推断无需权限或所有APK兼容。未安装应用、连接手机或访问API凭据。",
+    "sources": [{"label": "Alen Požun的Meridian Family Master版介绍，2026-11-02", "url": "https://x.com/i/status/2117067213660360840"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照2赞、131浏览、1转发；五合一、默认离线与全部功能可用均为作者报告。"],
+    "en": {
+      "title": "Meridian Family: Android local models, Termux and APK decompilation in one toolkit",
+      "summary": "Alen Požun describes five apps combined, default-offline models, Termux/ADB, app building/signing and APK decompilation. Completeness and no-exfiltration claims remain unaudited author reports.",
+      "description": "At 09:32:11 Beijing time on November 2, 2026, Alen Požun (@termuxSolutions) introduces the Master version of Meridian Family, combining five apps. The author says Android background and toolchain restrictions led to using the Termux Linux environment with ADB for Android access. Features include downloading local models, switching between small and large models by task, building and signing one's own apps, decompiling APKs and invoking other Termux capabilities. The inclusion concerns this combined AI/APK-research workbench, not reported reversing of a named app.\n\nThe author claims 100% offline defaults without accounts or cloud, with provider requests only after voluntarily enabling online mode and supplying one's own API key. They say every function works, describe partial open source and a C++/Kotlin/Java/Python/HTML implementation, and call the video a teaser that does not yet show Meridian Core or NullCloud. Original-post lookup confirmed attribution; XDA/GitHub short links, implementation and video verification were not inspected. Offline, security and completeness claims were not traffic- or code-audited; Termux being open source does not make the system 'bulletproof'. REA and the decompiler engine are unspecified, with no assumption of permission-free operation or universal APK support. No app was installed, phone connected or API credentials accessed.",
+      "metadata": ["Candidate snapshot: 2 likes, 131 views, 1 repost. Five-in-one, default-offline behavior and all-functions-working are author reports."],
+      "source_labels": ["Alen Požun introduces Meridian Family Master, November 2, 2026"]
+    }
+  },
+  {
+    "id": "conflict-simulations-claude-board-wargame-module-refusal",
+    "title": "桌面兵棋数字模块：转述Conflict Simulations委托工作被Claude拒绝",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "政策报道引述兵棋模块委托被拒，客户拥有原作不等于获得出版方授权；未取得具体游戏、提示或拒绝日志。",
+    "description": "2026年11月2日10:02:02（北京时间）的一条报道，在Claude Code现有游戏重制限制的背景下，具体引述Conflict Simulations LLC称受托为拥有桌游的客户制作兵棋数字模块时被拒。目标是把既有实体游戏转成可用模块，报告结果是工作受阻，而非已经完成的移植。候选本身说没有出版方许可、尚无明显的权利证明通道；不能从客户拥有原作推断改编、分发或数字复制已获授权。\n\n未追到公司原始请求、具体兵棋名、模块平台、提示、日志或报告链接的完整文章，保留为二手未核验案例。政策措辞、账号适用与厂商动机也未独立检查，不以本帖认定所有Mod、兼容层和逆向均被禁止，或此委托在法律上合规／侵权。REA未提及，未执行或绕过拒绝。",
+    "sources": [{"label": "候选报道中的Conflict Simulations LLC兵棋模块拒绝经历，2026-11-02", "url": "https://x.com/i/status/2117074725465620704"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、33浏览、0转发；二手归因，无具名游戏或可复放日志。"],
+    "en": {
+      "title": "Digital board-wargame modules: a secondary report says Claude refused Conflict Simulations commissions",
+      "summary": "A policy report describes refused wargame-module commissions. Customers owning originals does not establish publisher authorization; exact games, prompts and refusal logs were not obtained.",
+      "description": "A candidate report at 10:02:02 Beijing time on November 2, 2026 discusses Claude Code's existing-game recreation restriction and specifically quotes Conflict Simulations LLC saying commissioned board-wargame modules for customers who own the games are being refused. The target is turning existing physical games into usable digital modules; the reported outcome is blocked work, not a completed port. The candidate itself says there is no publisher license and no visible way to demonstrate rights. Owning a game does not establish authorization to adapt, distribute or digitally reproduce it.\n\nThe company's original request, exact wargame, module platform, prompts, logs and full linked article were not obtained. Retained as an unverified secondary case. Policy wording, account applicability and vendor motives were not independently checked. This post does not establish a blanket prohibition on mods, compatibility layers or reverse engineering, or the legal status of the commission. REA is not mentioned; no refusal was executed around or bypassed.",
+      "metadata": ["Candidate snapshot: 0 likes, 33 views, 0 reposts. Secondary attribution, with no named game or replayable logs."],
+      "source_labels": ["Candidate report describing Conflict Simulations LLC's wargame-module refusal, November 2, 2026"]
+    }
+  },
+  {
+    "id": "log4j-daybreak-blue-3d-printer-firmware-refusal-test",
+    "title": "3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续",
+    "category": "hardware", "rea": "other-ai", "status": "analysis-test",
+    "summary": "作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。",
+    "description": "2026年11月2日10:57:42（北京时间），log4j（@log4j）报告借一名有权限的订阅者测试Daybreak。具体目标是该订阅者3D打印机固件的防御性分析，作者说限本地网络、无远程黑箱目标。第一轮谨慎措辞后不到五分钟停止并扣留输出，改写更弱提示、去掉逆向字眼，甚至仅要求分析二进制并写重要发现仍停止；共调整五轮，保留回归测试请求，所用模型为Daybreak Blue xhigh。\n\n补查原帖取得完整文字。作者称同一提示在gpt-6-sol可正常继续，也说跨gpt-5.5至gpt 6 luna的降低拒绝开关仍可能触发；这是个人经验，不是同输入、环境与随机性受控的基准，更不代表其他模型发现了真实漏洞。未给品牌、固件版本、哈希、完整提示、输出、回归测试或验证结果，附图未核验。\n\n作者关于拒绝机制内置模型、准入需YubiKey及100美元成本的解释未独立核实；他本人也无法确认其他人封号是否只因逆向。不能据此认定厂商正式禁止所有合法固件分析或宣称整个安全项目无用。本文记录失败实验与对比自述，不执行样本、尝试越权或提供绕过步骤；REA未提及。",
+    "sources": [{"label": "log4j的完整Daybreak Blue打印机固件拒绝实验报告，2026-11-02", "url": "https://x.com/i/status/2117088734763945999"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选封存快照127赞、5782浏览、3转发；五轮及五分钟内停止为作者自述，没有可重放日志。"],
+    "en": {
+      "title": "3D-printer firmware: log4j reports five halted Daybreak Blue attempts versus a continuing GPT run",
+      "summary": "The author says Daybreak Blue xhigh repeatedly halted on a subscriber's own printer firmware while gpt-6-sol continued with the same prompt. No sample, full prompts or findings establish a controlled benchmark.",
+      "description": "At 10:57:42 Beijing time on November 2, 2026, log4j (@log4j) reports testing Daybreak through a subscriber with access. The concrete target is defensive analysis of that subscriber's own 3D-printer firmware, described as local-network-only without remote black-box testing. A cautiously worded first attempt allegedly halted and withheld output in under five minutes. Weaker prompts, removal of reverse-engineering terminology and even simply asking for important findings from the binary also halted. The author describes five rounds of revisions while retaining a regression-test request, using Daybreak Blue xhigh.\n\nOriginal-post lookup retrieved the full text. The author says the same prompt continued normally on gpt-6-sol and that a reduced-refusal toggle across gpt-5.5 through gpt 6 luna still appears to trip. This is personal experience, not a benchmark controlling inputs, environment and randomness, and not proof that another model found real vulnerabilities. No printer brand, firmware version, hash, full prompts, outputs, regression test or validation is supplied; the attached image was not verified.\n\nExplanations about refusal being baked into the model, YubiKey admission and a $100 cost were not independently checked. The author also cannot confirm whether others' bans were solely for reversing. This does not establish an official blanket ban on legitimate firmware analysis or the uselessness of the entire security program. It records a failed experiment and comparative author claims, without executing samples, attempting unauthorized access or giving bypass steps. REA is not mentioned.",
+      "metadata": ["Sealed candidate snapshot: 127 likes, 5,782 views, 3 reposts. Five rounds and halts within five minutes are author reports without replayable logs."],
+      "source_labels": ["log4j's full Daybreak Blue printer-firmware refusal experiment report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "rifzan-audi-screen-claude-rea-research-idea",
+    "title": "Audi车载屏幕：Rifzan询问能否用Claude／REA研究",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。",
+    "description": "2026年11月2日11:43:59（北京时间），Rifzan（@RifzanM）问“Can claude rea audi screens yet?”，附车内屏幕照片。补查原帖确认署名与完整文字；本合集未检查图片，不能识别车型、屏幕系统或固件。该问题把Audi车载显示系统作为具体AI逆向研究对象，但没有说明想改界面、增加功能、修复互通还是解锁限制。\n\n保留为早期idea／能力询问，不当作已开工项目；没有分析工具输出、连接方式、原理、代码或测试，不把问句升级为Claude或REA已经支持Audi全系、可安全刷机或可绕过付费功能。未连接车辆、运行代码或修改任何设备。",
+    "sources": [{"label": "Rifzan的Audi屏幕Claude／REA研究询问，2026-11-02", "url": "https://x.com/i/status/2117100382367449277"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、3浏览、0转发；只有问题，无研究结果。"],
+    "en": {
+      "title": "Audi screens: Rifzan asks whether Claude/REA can investigate them",
+      "summary": "A reader names Audi screens as a concrete Claude/REA research target. No model, intended feature, analysis or successful result is given; this is an idea, not an unlock.",
+      "description": "At 11:43:59 Beijing time on November 2, 2026, Rifzan (@RifzanM) asks 'Can claude rea audi screens yet?' with a photo of an in-car display. Original-post lookup confirmed attribution and full wording; the image was not inspected, so the vehicle model, screen platform and firmware are unidentified. The question identifies an Audi display system as a concrete AI reverse-engineering target without specifying interface changes, added features, interoperability fixes or restriction removal.\n\nRetained as an early idea/capability question, not a started project. No analysis output, connection method, mechanism, code or tests are supplied. A question does not establish Claude/REA support for all Audi vehicles, safe flashing or bypass of paid features. No vehicle was connected, code run or device modified.",
+      "metadata": ["Candidate snapshot: 0 likes, 3 views, 0 reposts. A question only, without research results."],
+      "source_labels": ["Rifzan's Audi-screen Claude/REA research question, November 2, 2026"]
+    }
+  },
+  {
     "id": "sonic-heroes-sewer56-ai-recompile-attribution",
     "title": "Sonic Heroes：Sewer56说明AI重编译复用了数千小时人工逆向代码",
     "category": "games", "rea": "other-ai", "status": "unverified",
@@ -5326,18 +5515,18 @@
   },
   {
     "id": "gengdaj-jianying-headless-ai-editing-secondary-report",
-    "title": "Jianying Headless：鲸鱼知识库转述逸尘逆向剪映供AI无界面剪辑",
+    "title": "Jianying Headless：逸尘剪映AI封装的转述与11.7.0兼容性报告",
     "category": "apps", "rea": "unknown", "status": "unverified",
-    "summary": "鲸鱼知识库将Jianying Headless归于逸尘（gengdaJ），称逆向剪映后让AI无需打开界面即可剪辑导出；未取得原仓库、实现或导出测试，不与余温封装及ReaCut合并。",
-    "description": "2026年10月25日18:51:58（北京时间），鲸鱼知识库（@btc5767）转述逸尘（@gengdaJ）逆向剪映、制作Jianying Headless，让AI直接调用剪辑和导出功能，并声称不需要登录或打开剪映界面。目标是将已有桌面编辑器能力作为Agent可调用的无界面流程，不等于从零实现独立视频编辑器。补查原帖确认报道账号、署名与完整正文。\n\n这是二手报告：原仓库、版本、调用接口、AI辅助分析的具体分工、是否仍依赖安装剪映、实际导出文件与测试记录均未取得。AI调用工具明确，不据此断言AI完成了全部逆向。免费开源、打包安装包与厂商反应也是报道者说法，未独立确认许可、分发权利、法律因果或稳定性；本合集不提供安装包或规避操作。\n\n以具体项目名与署名区分余温的REA调用封装和ReaCut独立编辑器，保留unverified。REA使用未说明。未运行目标代码、安装剪映或验证无需登录的主张。候选属10月25日16至20点的往期材料，不以补查时间替换原日期。",
-    "sources": [{"label": "鲸鱼知识库转述逸尘的Jianying Headless，2026-10-25", "url": "https://x.com/i/status/2114308984677265774"}],
-    "snapshot_date": "2026-10-25", "metadata": ["候选快照0赞、26浏览、0转发；二手介绍，没有原仓库或导出验收。"],
+    "summary": "二手介绍称逸尘逆向剪映供AI无界面剪辑；阿杭另报11.7.0失效、回退11.5.0并限制更新联网。未取得源码或导出对照，不认定厂商故意针对。",
+    "description": "2026年10月25日18:51:58（北京时间），鲸鱼知识库（@btc5767）转述逸尘（@gengdaJ）逆向剪映、制作Jianying Headless，让AI直接调用剪辑和导出功能，并声称不需要登录或打开剪映界面。目标是将已有桌面编辑器能力作为Agent可调用的无界面流程，不等于从零实现独立视频编辑器。原帖补查确认报道账号、署名与完整正文。\n\n原仓库、调用接口、AI辅助分析的具体分工、是否仍依赖安装剪映、实际导出文件与测试记录未取得。AI调用工具明确，不据此断言AI完成全部逆向。免费开源、打包安装包与厂商反应是报道者说法，未独立确认许可、分发权利或法律因果；不提供安装包或规避操作。以项目名及署名区分余温的REA调用封装和ReaCut独立编辑器，REA使用未说明。10月25日介绍是既有证据，不以本次补查改写原日期。\n\n2026年11月2日11:51:11，叫我阿杭（@Astronaut_1216）报告之前使用逸尘的剪映Skill，升级11.7.0后失效，于是回退11.5.0、关自动更新，并用Mac开源防火墙LuLu限制剪映及更新程序的出站连接。这是用户关于同署名封装的兼容性经历，不是已核对完全同一仓库或Skill修订；“厂商专门针对”的因果猜测没有证据。LuLu是网络防火墙，不因帖子叫它AI工具就成为AI逆向引擎。阻断联网可能影响其他功能与安全更新，也不保证彻底冻结版本。\n\n补查11月2日原帖确认署名与文字，未取得错误日志、导出结果或前后版本实测，仍为unverified；没有运行目标、安装剪映、修改网络规则或验证无需登录。",
+    "sources": [{"label": "鲸鱼知识库转述逸尘的Jianying Headless，2026-10-25", "url": "https://x.com/i/status/2114308984677265774"}, {"label": "阿杭的11.7.0失效、11.5.0回退与LuLu更新限制报告，2026-11-02", "url": "https://x.com/i/status/2117102192540938532"}],
+    "snapshot_date": "2026-11-02", "metadata": ["10月25日候选快照0赞、26浏览、0转发；二手介绍，没有原仓库或导出验收。", "11月2日候选封存快照3赞、134浏览、0转发；版本失效及回退是用户报告，不证明厂商动机或所有安装均受影响。"],
     "en": {
-      "title": "Jianying Headless: a secondary report attributes AI-driven headless editing to GengdaJ",
-      "summary": "Whale Knowledge Base attributes Jianying Headless to Yichen (gengdaJ), claiming it lets AI edit and export through a reverse-engineered Jianying without opening its UI. The original repository, implementation and export tests were not obtained; it is not merged with Yuwen's wrapper or ReaCut.",
-      "description": "At 18:51:58 Beijing time on October 25, 2026, Whale Knowledge Base (@btc5767) attributes Jianying Headless to Yichen (@gengdaJ), saying he reverse-engineered Jianying so AI can invoke editing and export functions without logging in or opening the interface. The target is an agent-callable headless workflow over an existing desktop editor, not necessarily a standalone editor rebuilt from scratch. Original-post lookup confirms the reporting account, attribution and complete text.\n\nThis is a secondary report. The original repository, version, invocation interface, specific AI-assisted analysis role, dependency on an installed Jianying, exported artifacts and test records were not obtained. AI invocation is explicit; AI performing all reversing is not established. Free/open-source availability, bundled installers and the vendor's reaction are also the reporter's statements, not independently confirmed licensing, redistribution rights, legal causality or stability. This collection supplies neither installers nor circumvention instructions.\n\nThe project name and attributed author distinguish it from Yuwen's REA invocation wrapper and ReaCut's standalone editor. Retained as unverified; REA use is unspecified. No target code was run, Jianying installed or no-login claim tested. This backlog candidate belongs to October 25, 16:00-20:00; lookup time does not replace its original date.",
-      "metadata": ["Candidate snapshot: 0 likes, 26 views, 0 reposts. Secondary introduction without the original repository or export acceptance tests."],
-      "source_labels": ["Whale Knowledge Base attributes Jianying Headless to GengdaJ, October 25, 2026"]
+      "title": "Jianying Headless: reports of Yichen's AI wrapper and version 11.7.0 compatibility trouble",
+      "summary": "A secondary report describes Yichen's headless AI editing wrapper; Ahang reports failure on 11.7.0, reverting to 11.5.0 and restricting update traffic. No code or export comparison establishes intentional vendor targeting.",
+      "description": "At 18:51:58 Beijing time on October 25, 2026, Whale Knowledge Base (@btc5767) attributes Jianying Headless to Yichen (@gengdaJ), saying he reverse-engineered Jianying so AI can invoke editing and export without logging in or opening its UI. The target is an agent-callable headless workflow over an existing desktop editor, not a standalone editor rebuilt from scratch. Original-post lookup confirmed the reporting account, attribution and complete text.\n\nThe original repository, interface, specific AI-assisted analysis role, dependency on installed Jianying, exports and test records were not obtained. AI invocation is explicit; AI performing all reversing is not established. Free/open-source availability, bundled installers and vendor reactions are reporter statements, not independently confirmed licensing, redistribution rights or legal causality. No installers or circumvention instructions are provided. Project name and attribution distinguish this from Yuwen's REA wrapper and ReaCut's standalone editor; REA use is unspecified. The October 25 introduction is existing evidence, not redated by this lookup.\n\nAt 11:51:11 Beijing time on November 2, 2026, Ahang (@Astronaut_1216) reports previously using Yichen's Jianying skill, finding it broken after upgrading to 11.7.0, then reverting to 11.5.0, disabling automatic updates and using the open-source Mac firewall LuLu to restrict outbound connections from Jianying and its updaters. This is a user compatibility report about a wrapper with the same attribution, not confirmation of an identical repository or skill revision. The claim of deliberate vendor targeting is unsupported. LuLu is a firewall, not an AI reversing engine merely because the post calls it an AI tool. Network blocking may affect other features and security updates and does not guarantee a frozen version.\n\nNovember 2 original-post lookup confirmed attribution and wording, not error logs, exports or before/after version tests. Status remains unverified. No target was run, Jianying installed, firewall rules changed or no-login claim tested.",
+      "metadata": ["October 25 candidate snapshot: 0 likes, 26 views, 0 reposts. Secondary introduction without an original repository or export acceptance tests.", "November 2 sealed candidate snapshot: 3 likes, 134 views, 0 reposts. Version failure and rollback are user reports, not proof of vendor motives or impact on all installations."],
+      "source_labels": ["Whale Knowledge Base attributes Jianying Headless to GengdaJ, October 25, 2026", "Ahang reports 11.7.0 failure, 11.5.0 rollback and LuLu update restrictions, November 2, 2026"]
     }
   },
   {
@@ -14208,8 +14397,8 @@
     "title": "TradingView：复刻流程与免费 Premium 下载风险的证据边界",
     "category": "apps",
     "rea": "REA",
-    "summary": "REA 流程未证明恢复付费指标；新增下载风险提醒也未证明流传仓库就是木马或获官方认可。",
-    "description": "TradingView 是金融图表平台。RohOnChain 的帖子介绍使用 REA 的复刻流程，传播较多；现有材料没有证明成功获取或重建付费指标，也没有足够的完成结果，因此按待验证的功能重建报告收录。10月15日16:00–20:00窗口另一帖声称重建个人量化终端，具体列出从公开界面观察切换品种、周期、指标、画线和布局，再用 Opus 5.5 写规格、重建蜡烛图、RSI、MACD、布林带、观察列表及计入费用、滑点和回撤的回测引擎。这些是更具体的目标与作者成功宣称，不是可重放的测试证据；候选未提供代码或对照结果，不能把标准技术指标列表当作恢复付费指标的证明，更不采纳获利保证。\n\n10月20日19:51（北京时间），另一候选提醒读者警惕宣称五万星、MIT、免费TradingView Premium，却要求先安装桌面程序才能进入私有仓库的传播帖，以及所附r/TradingView“官方认可”截图。提醒者援引Hexastrike今年4月关于同类免费Premium诱饵的报告，转述Windows的Vidar、macOS的AMOS投放方式，同时明确说旧报告没有直接分析当前GitHub仓库，自己无法证明它就是木马。四月报告是该作者引用的历史材料，本合集未独立读取原报告、确认下载包、星数、仓库身份或官方声明，也未认定它与前两条作者的重建项目是同一产物。补充该提醒是为了限定相似宣传的可信程度，不给任何链接背书，也不把未审计程序定性为已证实恶意软件。",
+    "summary": "REA流程未证明恢复付费指标；husosong新增第一人称安装异常、AI检查与重装经历，仍未证明特定仓库恶意、实际窃密或与原重建项目同源。",
+    "description": "TradingView 是金融图表平台。RohOnChain 的帖子介绍使用 REA 的复刻流程，传播较多；现有材料没有证明成功获取或重建付费指标，也没有足够的完成结果，因此按待验证的功能重建报告收录。10月15日16:00–20:00窗口另一帖声称重建个人量化终端，具体列出从公开界面观察切换品种、周期、指标、画线和布局，再用 Opus 5.5 写规格、重建蜡烛图、RSI、MACD、布林带、观察列表及计入费用、滑点和回撤的回测引擎。这些是更具体的目标与作者成功宣称，不是可重放的测试证据；候选未提供代码或对照结果，不能把标准技术指标列表当作恢复付费指标的证明，更不采纳获利保证。\n\n10月20日19:51（北京时间），另一候选提醒读者警惕宣称五万星、MIT、免费TradingView Premium，却要求先安装桌面程序才能进入私有仓库的传播帖，以及所附r/TradingView“官方认可”截图。提醒者援引Hexastrike今年4月关于同类免费Premium诱饵的报告，转述Windows的Vidar、macOS的AMOS投放方式，同时明确说旧报告没有直接分析当前GitHub仓库，自己无法证明它就是木马。四月报告是该作者引用的历史材料，本合集未独立读取原报告、确认下载包、星数、仓库身份或官方声明，也未认定它与前两条作者的重建项目是同一产物。补充该提醒是为了限定相似宣传的可信程度，不给任何链接背书，也不把未审计程序定性为已证实恶意软件。\n\n2026年11月2日11:34:21，husosong在八帖串中报告，为省一年订阅费，经前同事推荐安装所谓“AI逆向TradingView”；在工作Mac运行来源不明命令、给Keychain权限并输入密码，程序却呈俄语且会员未生效。补读同作者11:34:20至24的完整串：AI检查发现网络活动痕迹，但作者明确说不能证明密码被偷或资料外传，也没发现实际损失。因系统不再可信而重装，再借AI与已有Obsidian／iCloud配置笔记重建Xcode、VS Code、Node、CocoaPods及Agent环境，耗半天；不用不可信整机备份恢复，Skills目录与符号链接须逐项核对，Rime等仍有遗漏。iCloud同步不等于独立备份，恢复快是个人体验而非效率实验。\n\n新增的是第一人称风险经历，不是恶意软件鉴定或复刻成功记录；未识别安装源、包哈希、网络目的地、AI模型或样本，无法认定与前述仓库／项目为同一产物。本合集只读公开文字，未运行安装命令、访问Keychain或凭据，也不公布未知安装入口。",
     "sources": [
       {
         "label": "原始记录",
@@ -14222,19 +14411,34 @@
       {
         "label": "10月20日下载风险提醒：明确未证明当前仓库就是木马",
         "url": "https://x.com/i/status/2112512082902229368"
+      },
+      {
+        "label": "husosong的AI逆向宣传与安装经历候选，2026-11-02",
+        "url": "https://x.com/i/status/2117097957036347490"
+      },
+      {
+        "label": "同作者串补充：AI发现网络活动，不等于已证实窃密，2026-11-02",
+        "url": "https://x.com/i/status/2117097961356402819"
+      },
+      {
+        "label": "同串候选结尾：AI辅助重建仍花半天，2026-11-02",
+        "url": "https://x.com/i/status/2117097968985931893"
       }
     ],
-    "snapshot_date": "2026-10-20",
-    "metadata": [],
+    "snapshot_date": "2026-11-02",
+    "metadata": ["11月2日候选快照：第二帖0赞、10浏览，结尾0赞、3浏览，均0转发；半天为作者恢复自述。", "网络活动不证明密码被盗或资料外传；安装包未识别，不能关联既有项目或定性木马。"],
     "en": {
       "title": "TradingView: evidence limits of reconstruction workflows and free-Premium download warnings",
-      "summary": "REA workflows do not establish recovery of paid indicators; a new download warning also does not prove the circulating repository is malware or officially endorsed.",
-      "description": "TradingView is a financial-charting platform. RohOnChain's widely circulated post describes a reconstruction workflow using REA. The available material does not establish successful access to or recovery of paid indicators, nor provide sufficient completed results, so it is included as a feature-reconstruction report needing verification. A separate post in the October 15, 16:00–20:00 window claims a personal quantitative terminal was rebuilt. It specifically describes observing symbol, timeframe, indicator, drawing and layout changes through the public interface, then using Opus 5.5 to write specifications and rebuild candlesticks, RSI, MACD, Bollinger Bands, watchlists and a backtesting engine accounting for fees, slippage and drawdown. These are more concrete targets and author claims of success, not replayable test evidence. The candidate supplies no code or comparison results. A list of standard technical indicators does not prove recovery of paid indicators, and profit guarantees are not accepted.\n\nAt 19:51 Beijing time on October 20, another candidate warns about circulating posts claiming 50,000 stars, MIT licensing and free TradingView Premium while requiring a desktop installation before accessing a private repository, plus an attached r/TradingView screenshot of purported official approval. The warning cites an April Hexastrike report on similar free-Premium lures, relaying Windows Vidar and macOS AMOS delivery methods, while explicitly stating that the old report did not directly analyze the current GitHub repository and the writer cannot prove it is malware. The April report is historical material cited by that writer; this collection did not independently read it, inspect downloads, confirm star counts, repository identity or an official statement, or establish that this is the same artifact as either earlier author's rebuild. This warning limits the credibility of similar promotion. It endorses no download and does not label an unaudited program as proven malware.",
-      "metadata": [],
+      "summary": "REA workflows do not establish recovery of paid indicators. husosong adds a first-person account of an abnormal installation, AI checks and a reinstall, not proof of a malicious repository, actual theft or identity with earlier rebuilds.",
+      "description": "TradingView is a financial-charting platform. RohOnChain's widely circulated post describes a reconstruction workflow using REA. The available material does not establish successful access to or recovery of paid indicators, nor provide sufficient completed results, so it is included as a feature-reconstruction report needing verification. A separate post in the October 15, 16:00–20:00 window claims a personal quantitative terminal was rebuilt. It specifically describes observing symbol, timeframe, indicator, drawing and layout changes through the public interface, then using Opus 5.5 to write specifications and rebuild candlesticks, RSI, MACD, Bollinger Bands, watchlists and a backtesting engine accounting for fees, slippage and drawdown. These are more concrete targets and author claims of success, not replayable test evidence. The candidate supplies no code or comparison results. A list of standard technical indicators does not prove recovery of paid indicators, and profit guarantees are not accepted.\n\nAt 19:51 Beijing time on October 20, another candidate warns about circulating posts claiming 50,000 stars, MIT licensing and free TradingView Premium while requiring a desktop installation before accessing a private repository, plus an attached r/TradingView screenshot of purported official approval. The warning cites an April Hexastrike report on similar free-Premium lures, relaying Windows Vidar and macOS AMOS delivery methods, while explicitly stating that the old report did not directly analyze the current GitHub repository and the writer cannot prove it is malware. The April report is historical material cited by that writer; this collection did not independently read it, inspect downloads, confirm star counts, repository identity or an official statement, or establish that this is the same artifact as either earlier author's rebuild. This warning limits the credibility of similar promotion. It endorses no download and does not label an unaudited program as proven malware.\n\nAt 11:34:21 Beijing time on November 2, 2026, husosong reports in an eight-post thread that a former colleague recommended an 'AI reverse-engineered TradingView' as a way to avoid a year's subscription. They ran an unknown installation command on a work Mac, granted Keychain access and entered a password; the app appeared in Russian and premium access did not work. Supplementary reading of the full same-author thread, posted at 11:34:20–24, finds AI-assisted checks showing network-activity traces. The author explicitly says this does not prove stolen passwords or exfiltration and that no actual loss was found. They reinstalled because the system was no longer trusted, then used AI and existing Obsidian/iCloud configuration notes to rebuild Xcode, VS Code, Node, CocoaPods and the agent environment, taking half a day. They avoided restoring an untrusted whole-machine backup, checked scattered Skills directories and symlink targets, and still missed Rime and other local settings. iCloud sync is not an independent backup; faster recovery is personal experience, not a controlled efficiency experiment.\n\nThis adds a first-person risk experience, not malware attribution or a successful rebuild. No installation source, package hash, network destination, AI model or sample was identified, so identity with earlier repositories/projects is unestablished. This collection read public text only, ran no installation command, accessed no Keychain or credentials and publishes no unknown installer entry point.",
+      "metadata": ["November 2 candidate snapshots: second post, 0 likes/10 views; closing post, 0 likes/3 views; both 0 reposts. Half a day is the author's recovery report.", "Network activity does not prove password theft or exfiltration. The unidentified package cannot be linked to earlier projects or labeled confirmed malware."],
       "source_labels": [
         "Original record",
         "October 15: quantitative-terminal target and workflow claims",
-        "October 20 download warning: explicitly no proof that the current repository is malware"
+        "October 20 download warning: explicitly no proof that the current repository is malware",
+        "husosong's candidate account of AI-reversing promotion and installation, November 2, 2026",
+        "Supplementary same-author thread: AI finds network activity, not established credential theft, November 2, 2026",
+        "Same-thread closing candidate: AI-assisted recovery still took half a day, November 2, 2026"
       ]
     },
     "status": "unverified"

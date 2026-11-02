@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1464 个案例与项目
+# 1475 个案例与项目
 
-**最近案例更新：**2026 年 11 月 2 日 08:09 · **最近维护：**2026 年 11 月 2 日 08:09 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 2 日 12:17 · **最近维护：**2026 年 11 月 2 日 12:17 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**，从设备互通、实用替代品到游戏保存与二进制分析：优先看可检查的实现、清楚的人类／AI分工与明确测试边界，传播热度本身并不证明替代品已可用。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**，从设备互通、实用替代品到游戏保存与二进制分析：关注具体机制、可检查的实现与清楚的人类／AI分工，设计写得细或传播广都不等于替代品已验证。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[tolpo：Tapo住宅的实时3D视图](cases/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — 转述Claude辅助协议研究，公开**LAN/MCP控制与人工校正户型**。复用python-kasa；较早项目自测覆盖九房间、18设备，不代表所有写操作与型号。设备本地通信不等于AI本地运行。`进行中`
 2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
@@ -30,7 +30,7 @@
 4. **[Pokémon Bank：把传输留在3DS本地](cases/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01`报道与项目记录 — Wokann明确披露Codex辅助反编译分析和补丁工作，公开**本地服务器补丁保留Bank／Mover流程**，不是官方后端复刻；**不支持HOME传输**。须自备受支持原作并备份存档，本合集未运行。`进行中`
 5. **[DX-Ball：从声像函数走到Windows重建](cases/dx-ball-sound-pan.md)** · `2026-11-01`报道；`2026-10-31`项目记录 — Codex／REA／Ghidra重建报告**270个游戏函数、84968字节匹配**，另有原生VC4构建。仅时间戳不同的比较对象是较早重建版，不是原版EXE；原版50关通关与完整原生音频仍待测。须自备文件，本合集未重建。`项目自测重建`
 6. **[Sonic Adventure：先匹配Dreamcast，再移植GCC](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer称Claude Code／Codex辅助、人工打磨数百小时；公开项目报告**247个二进制匹配，97.7% C／2.3%汇编**，部分C须修补编译器汇编。GCC另走构建路径，不是PC移植；须自备日版光盘，本合集未重建。`分析测试`
-7. **[RETROGRADE：测Agent究竟理解了什么](cases/retrograde-generated-reverse-engineering-agent-benchmark.md)** · `2026-11-01` — celeste提出**即时生成程序、按执行行为评分**，主张附带置信度和证据地址。报告15工作负载、四语言、六ISA；示例分数解释方法，不是模型排行榜。Round0结果待发布，本合集未运行。`进行中`
+7. **[飞书会议纪要：重建工程设计，不只仿界面](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md)** · `2026-11-02` — WquGuru报告REA／DeepSeek辅助研究，制作Mac工具，包含**一秒录音切片、独立纪要任务与原句绑定鱼骨图**。完整测试与开源尚待发布；不保证录音绝不丢失，也未核实免费模型的隐私边界。`进行中`
 8. **[Claude 写证明，Rocq 检查二进制](cases/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic／Theorem 报告为 **123 库的 239 个入口**建立机器码无崩溃证明。限单线程静态 RISC-V/Linux、小于64MB输入；**不等于整库无 bug**，本合集未独立重跑检查器。`分析测试`
 9. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
 10. **[PE2PC：不用主机模拟器玩寄生前夜II](cases/parasite-eve2-pe2pc-claude-native-port.md)** · `2026-11-02`报道；`2026-11-01`项目记录 — Snaity明确Claude Code分工，建立在**GabeRealB既有反编译**上，以C／Rust实现PC运行时并人工游玩测试。双盘支持为项目自报；**60fps呈现仍是30fps游戏逻辑**。Mod实验性，须自备美版双盘，本合集未重建。`进行中`
@@ -49,9 +49,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **318** |
-| [硬件与设备互通](categories/hardware.md) | **387** |
-| [应用与客户端](categories/apps.md) | **600** |
+| [游戏与游戏保存](categories/games.md) | **319** |
+| [硬件与设备互通](categories/hardware.md) | **389** |
+| [应用与客户端](categories/apps.md) | **608** |
 | [算法与功能重建](categories/algorithms.md) | **159** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

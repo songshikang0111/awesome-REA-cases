@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1464 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1475 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（318）
-- [硬件与设备互通](categories/hardware.md)（387）
-- [应用与客户端](categories/apps.md)（600）
+- [游戏与游戏保存](categories/games.md)（319）
+- [硬件与设备互通](categories/hardware.md)（389）
+- [应用与客户端](categories/apps.md)（608）
 - [算法与功能重建](categories/algorithms.md)（159）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [桌面兵棋数字模块：转述Conflict Simulations委托工作被Claude拒绝](cases/conflict-simulations-claude-board-wargame-module-refusal.md) — 政策报道引述兵棋模块委托被拒，客户拥有原作不等于获得出版方授权；未取得具体游戏、提示或拒绝日志。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Heroes：Sewer56说明AI重编译复用了数千小时人工逆向代码](cases/sonic-heroes-sewer56-ai-recompile-attribution.md) — Sewer56称AI把他长期人工逆向所得代码包装进重编译项目，提醒区分已有知识与AI贡献；未核对具体仓库、构建或可玩范围。 **[其他 AI 逆向 · 待验证]**
 - [Wordle重复字母：Creator Stacks称REA追踪着色逻辑，再做本地版本](cases/wordle-rea-duplicate-letter-local-rebuild-report.md) — 作者称让REA调查Wordle如何给重复字母着色，再制作自己的本地版本；未给具体规则、源码或对照测试，不确认行为等价。 **[REA · 待验证]**
 - [超级马里奥兄弟惊奇：WangNextDoor转述AI辅助PC移植与60帧说法](cases/super-mario-bros-wonder-ai-pc-port-secondary-claim.md) — 二手评论具体称主机游戏惊奇快速移植PC并60帧运行，未给开发者、仓库或测试；只保留未核验主张，不等同原生移植成功。 **[其他 AI 逆向 · 待验证]**
@@ -347,6 +348,8 @@
 
 ### 硬件与设备互通
 
+- [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
+- [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
 - [Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为](cases/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。 **[其他 AI 逆向 · 进行中]**
 - [Suprik的Starlink路由器：称Claude发现netcache模块与夜间外传](cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik称Claude检查自有路由器并发现netcache、夜间3.4GB外传，随后隔离重置；未给固件、样本或流量证据，不能证明所述窃取机制。 **[其他 AI 逆向 · 待验证]**
 - [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
@@ -737,6 +740,14 @@
 
 ### 应用与客户端
 
+- [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — 作者报告拆解Lark桌面纪要，以16kHz每秒切片、独立生成任务和原句绑定鱼骨图重建Mac工具；仍待完整测试与开源，不保证录音绝不丢失。 **[REA · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — 两条候选介绍研究原版、Agent建造与对照迭代；公开项目区分Clean room／Deep，承认Codex、部分动态工具和游戏行为检查尚有限，不是任意软件几分钟完整复刻。 **[其他 AI 逆向 · 进行中]**
+- [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
+- [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
+- [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 同作者回复链报告私有Claude Code逆向重写版与模型检测切换，明确DeepSeek Flash＋REA；无代码、版本、兼容性或无封号验证。 **[REA · 待验证]**
+- [knife：Dopax转述面向Agent的Rust多格式静态分析工具箱](cases/knife-rust-static-analysis-mcp-secondary-report.md) — 盘点介绍CLI／TUI／MCP二进制研究；补读公开README确认静态分析与Agent接口的项目说明，但Wasm无lifter、间接调用不在直接图内，未运行验证。 **[未确认使用 REA · 相关项目]**
+- [RDX：Dopax转述Rust原生APK／DEX反编译桌面工具与MCP](cases/rdx-rust-apk-dex-mcp-secondary-report.md) — 盘点称RDX以Rust重建Java并提供MCP；公开README标alpha，不支持方法保留标注DEX反汇编，并披露JADX算法改编，不等于完整源码恢复。 **[未确认使用 REA · 相关项目]**
+- [Meridian Family：把Android本地模型与Termux、APK反编译放进一套工具](cases/meridian-family-termux-offline-ai-apk-tools.md) — Alen Požun称五应用合一，默认离线本地模型、Termux／ADB、应用构建签名和APK反编译；所有功能可用与无外传仅为自述，未审代码。 **[未确认使用 REA · 相关项目]**
 - [ClipShare：vartekx用Opus做Mac／Windows／iPhone局域网剪贴板替代品](cases/clipshare-vartekx-opus-cross-platform-lan-clipboard.md) — 作者称Opus制作跨平台剪贴板并修复发现与重复实例配对问题，报告40项端到端测试和40MB往返；作者串描述普通系统接口，不证明逆向Apple私有协议。 **[其他 AI 逆向 · 进行中]**
 - [Joying.eth的17仓库逆向工作室：REA路由反编译、调试与流量工具](cases/joying-rea-seventeen-repo-reverse-engineering-studio.md) — 作者称一份配置把REA等17仓库接到同会话与MCP，按原生、APK、.NET和流量分工；未给全配置或具名目标测试，不验证通用覆盖。 **[REA · 相关项目]**
 - [未具名ST软件：Novo Line称过去一周用Claude处理复制保护](cases/novo-line-claude-unspecified-st-copy-protection-report.md) — Novo Line称在过去一周处理某些ST软件复制保护时Claude未拒绝；无软件名、过程或产物，不能当作可复现移除保护或模型政策结论。 **[其他 AI 逆向 · 待验证]**
@@ -913,7 +924,7 @@
 - [SRE-Bench：从联盟公告到执行评测，四次有正确候选不等于会选对](cases/pasta-lab-sre-bench-cyber-index-alliance.md) — 既有Pasta Lab联盟公告新增论文解读：19个私有程序形成262变体、1572任务；无护栏无预算内部GPT-6-Astra报告88.0%／99.2%，未测无判分器选正确答案的能力。 **[其他 AI 逆向 · 相关项目]**
 - [Jupiter质押：ramezrko称与AI逆向合约指令后追回被盗钱包的锁仓JUP](cases/ramezrko-jupiter-contract-instruction-ai-investigation.md) — ramezrko称与AI研究Jupiter质押合约指令、ToggleMaxLock与原子批处理，重设解锁时间并将全部JUP移至新钱包；同串有程序地址，但无交易签名或代码，不独立确认资金追回。 **[其他 AI 逆向 · 待验证]**
 - [IDA 9.5：Hex-Rays发布含MCP／Assist与调用图递归反编译的版本](cases/hexrays-ida95-official-mcp-assist-release.md) — Hex-Rays官方发布帖介绍IDA 9.5的MCP／Assist AI逆向入口、调用图递归反编译及三种新反编译器；是工具发布，不是特定样本上的AI成功率验证。 **[其他 AI 逆向 · 相关项目]**
-- [Jianying Headless：鲸鱼知识库转述逸尘逆向剪映供AI无界面剪辑](cases/gengdaj-jianying-headless-ai-editing-secondary-report.md) — 鲸鱼知识库将Jianying Headless归于逸尘（gengdaJ），称逆向剪映后让AI无需打开界面即可剪辑导出；未取得原仓库、实现或导出测试，不与余温封装及ReaCut合并。 **[未确认使用 REA · 待验证]**
+- [Jianying Headless：逸尘剪映AI封装的转述与11.7.0兼容性报告](cases/gengdaj-jianying-headless-ai-editing-secondary-report.md) — 二手介绍称逸尘逆向剪映供AI无界面剪辑；阿杭另报11.7.0失效、回退11.5.0并限制更新联网。未取得源码或导出对照，不认定厂商故意针对。 **[未确认使用 REA · 待验证]**
 - [Hiren Sheth的REA资料站：按应用、APK与游戏整理案例及可复制提示词](cases/hiren-sheth-rea-cases-prompts-directory.md) — Hiren Sheth介绍自建REA／AI Agent案例与提示词资料站，覆盖macOS应用、APK和游戏，并邀请项目提交；仅确认作者介绍，站点入口与目录内容尚未核验。 **[REA · 相关项目]**
 - [Fieldwork：Aakash Gupta称Codex按Linear公开文档规格重建任务看板](cases/aakashgupta-fieldwork-linear-public-docs-codex.md) — Aakash Gupta以一页规格让Codex重建Linear式任务看板，报告3分28秒生成含五种状态、优先级、拖放与Cmd+K的Fieldwork；只覆盖所需局部，不是完整Linear或独立验收。 **[其他 AI 逆向 · 待验证]**
 - [NIA App：MATH FOURNITY称GLM在逆向元思维指导下完成分析](cases/math-fournity-nia-glm-analysis-claim.md) — MATH FOURNITY称GLM分析了国家网络身份认证NIA App，并归因于“壮哥”的AI逆向元思维；可读正文没有步骤、发现或验收，“拿下”不能当服务入侵证明。 **[其他 AI 逆向 · 待验证]**
@@ -1159,7 +1170,7 @@
 - [Notion：追清复制文字和图片的内部链路](cases/notion-clipboard.md) — 追踪桌面客户端复制文字和图片的实现路径。 **[REA]**
 - [Flutter App：从安装包识别运行时和编译结构](cases/flutter-aot.md) — 识别 Flutter APK 的运行时、构建与 AOT 结构。 **[REA]**
 - [网站重建订单：作者自述的交付报告](cases/website-rebuild-report.md) — 作者称以 REA 辅助网站重建，缺少具体项目与验证。 **[REA · 待验证]**
-- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](cases/tradingview-workflow.md) — REA 流程未证明恢复付费指标；新增下载风险提醒也未证明流传仓库就是木马或获官方认可。 **[REA · 待验证]**
+- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](cases/tradingview-workflow.md) — REA流程未证明恢复付费指标；husosong新增第一人称安装异常、AI检查与重装经历，仍未证明特定仓库恶意、实际窃密或与原重建项目同源。 **[REA · 待验证]**
 - [WHOOP：分析健康追踪设备的 Android App](cases/whoop-apk.md) — APK 分析线索新增 Zhoop / NOOP 替代客户端的二手报告，尚未独立验证。 **[未确认使用 REA · 待验证]**
 - [ArtCraft：不要把从零开发写成逆向 Adobe](cases/artcraft-boundary.md) — 创作软件与 Office 风格工具的从零重建，不等于已完整逆向 Adobe 或 Office。 **[其他 AI 逆向 · 相关项目]**
 - [Obsidian：真实桌面包的大规模分析测试](cases/obsidian-asar.md) — 用户确认原 ASAR 包可完成分析，但没有具体功能重建。 **[REA · 分析测试]**
