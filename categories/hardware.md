@@ -2,13 +2,17 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [小米14应用上报与录屏：GPT逆向归因仍薄弱的二手指控](../cases/xiaomi14-gpt-app-reporting-screen-recording-allegation.md) — 转述者把小米14应用上报、三秒录屏与GPT逆向联系起来；另一评论也质疑GPT归因，未取得APK、调用链或流量证据，不能确认监控与警方来电因果。 **[其他 AI 逆向 · 待验证]**
+- [Kindle Oasis 3：Codex排查越狱卡点，作者实际打开微信读书书籍](../cases/sunyuhua-kindle-oasis3-codex-weread-jailbreak.md) — monkey-king.sun报告Codex承担Mac端识别、备份、校验和日志分析，人完成设备与扫码操作；既有社区工具最终跑通阅读链，首轮卡住原因与补丁异常保留。 **[其他 AI 逆向 · 待验证]**
+- [Linux显示驱动：RensouhouK称Claude与REA三小时重试成功](../cases/rensouhouk-claude-rea-linux-display-driver-report.md) — 作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。 **[REA · 待验证]**
+- [智能料理锅：Hollis称开始用Claude逆向，想让AI做饭](../cases/hollis-claude-smart-cooker-research.md) — Hollis称已开始研究智能料理锅，希望AI承担烹饪，人工只准备食材与摆盘；没有控制演示或安全测试。 **[其他 AI 逆向 · 进行中]**
 - [九号电动车数据看板：Kevin Cui称用AI逆向并上报Grafana](../cases/kevin-cui-ninebot-ai-grafana-telemetry.md) — 作者回复确认数据来自AI逆向，根帖展示九号电动车接入Grafana的报告；车型、获取通道、字段与代码未公开，不能推断已覆盖车辆控制。 **[其他 AI 逆向 · 待验证]**
 - [121GW万用表：Dave Jones称Claude Code正将固件逆向为C](../cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — Dave Jones确认论坛用户的121GW固件逆向有效，并另称Claude Code正做自己的C重建；前者的成功不能移作AI版本已验证的结论。 **[其他 AI 逆向 · 进行中]**
 - [PS5蓝光离线启动：转述开发者鸣谢Claude的越狱载入报告](../cases/ps5-bluray-offline-loader-claude-secondary-report.md) — wakeupbrk称PS5可从刻录蓝光启动越狱、不需Wi-Fi或浏览器，开发者鸣谢Claude；未取得项目原文、支持固件或AI实际分工，不证明AI发现完整利用链。 **[其他 AI 逆向 · 待验证]**
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](../cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](../cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
 - [Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为](../cases/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。 **[其他 AI 逆向 · 进行中]**
-- [Suprik的Starlink路由器：称Claude发现netcache模块与夜间外传](../cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik称Claude检查自有路由器并发现netcache、夜间3.4GB外传，随后隔离重置；未给固件、样本或流量证据，不能证明所述窃取机制。 **[其他 AI 逆向 · 待验证]**
+- [Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑](../cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik自报Claude发现netcache与夜间3.4GB外传；两位直接回复者追问固件访问、样本、HTTPS与处置证据。未获技术记录，既不能确认入侵，也不把质疑当独立鉴伪。 **[其他 AI 逆向 · 待验证]**
 - [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](../cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
 - [M8 Orange的显卡：称Codex以REA研究其他型号，再移植到Windows自有卡](../cases/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — M8 Orange在显卡unlock讨论中报告Codex／REA跨型号与Windows移植成功；未说自己的型号、解锁内容或测试。 **[REA · 待验证]**
 - [车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关](../cases/car-infotainment-rea-trim-feature-switch-idea.md) — Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。 **[REA · 待验证]**
@@ -125,7 +129,7 @@
 - [原装电视遥控器：ArcyDev想用一个按键同时启动电视与mini PC](../cases/arcydev-tv-remote-mini-pc-power-idea.md) — ArcyDev提出用电视原装遥控器的可编程按键启动mini PC，最好一键启动两台设备；是REA辅助设备互通的具体idea，没有实现或测试。 **[REA · 待验证]**
 - [HP打印机：TEJAS称用AI重写固件以使用便宜墨盒并切断厂商访问](../cases/texasalantodd-hp-printer-ai-firmware-rewrite-report.md) — TEJAS（@TexasAlanTodd）称AI重写其HP打印机固件后可用便宜墨盒、不再有广告和厂商访问；未给型号、代码或打印记录，不是已验证固件替换。 **[未确认使用 REA · 待验证]**
 - [Ray-Ban Meta棋局助手：0xProbability称逆向眼镜后让AI读棋盘并显示着法](../cases/0xprobabillity-rayban-meta-ai-chess-report.md) — 0xProbability称逆向眼镜做棋局助手，Codez描述WhatsApp到Mac的AI读盘流程；m质疑这并未展示眼镜逆向。新增CISO Marketplace的开源转述，但实现归属、仓库与3000+Elo均未确认。 **[未确认使用 REA · 待验证]**
-- [BlackBerry Q10：0xProbability称逆向旧机后随身使用SSH与Claude Code](../cases/0xprobabillity-blackberry-q10-ssh-claude-code.md) — 0xProbability以60美元二手BlackBerry Q10对比600美元起的Minimal Phone 2，称逆向后获得实体键盘、SSH及随身Claude Code。未给实现或模型运行位置，不确认手机本地运行Claude或AI参与逆向。 **[未确认使用 REA · 待验证]**
+- [BlackBerry旧机接入Claude Code：0xProbability从Q10报告到Bold与语音提示](../cases/0xprobabillity-blackberry-q10-ssh-claude-code.md) — 同作者先称60美元Q10，后称20至40美元Bold并增加语音提示；均报告SSH与随身Claude Code，未说明是否同一设备、实现或AI逆向角色。 **[未确认使用 REA · 待验证]**
 - [Ruizu X02：Sem称Opus提取固件、重做iPod式菜单并加入小游戏](../cases/sem-ruizu-x02-opus-ipod-interface-firmware.md) — Sem报告Claude Opus从Ruizu X02的USB恢复模式读NAND、分析加密更新格式与UI资源，改成iPod式菜单和按键，并在Unicorn测试补丁后刷写。实机与376词双语游戏均为作者自述，未取得代码或日志。 **[其他 AI 逆向 · 待验证]**
 - [Samsung The Frame 65：Christian Ander报告root命令执行，Claude只做前后工作](../cases/nderchris-samsung-frame65-claude-root-boundary-report.md) — Christian Ander称Chris-ritsen方案在其2024年The Frame 65、固件T-PTMDEUC-1720.7上有效；Claude Opus与Sonnet拒绝下载和执行环节，仅辅助前后工作。作者明确root命令执行不等于任意文件与进程控制。 **[其他 AI 逆向 · 待验证]**
 - [大金空调遥控器：Tony Huang用Codex为LilyGO T-Display写替代固件](../cases/greatony-codex-lilygo-daikin-remote-firmware.md) — Tony Huang嫌大金遥控器又大又重，称让Codex写固件，把LilyGO T-Display变成替代遥控器并公开代码。尚未取得仓库正文或控制测试。 **[其他 AI 逆向 · 待验证]**

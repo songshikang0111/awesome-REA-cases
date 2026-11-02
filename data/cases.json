@@ -1,5 +1,229 @@
 [
   {
+    "id": "super-harness-aman-singh-ai-re-cli",
+    "title": "Super Harness：Aman Singh介绍接入AI API的逆向CLI",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "作者介绍面向目标软件的一体化逆向命令行harness，称接入AI API即可使用；未给可核验的目标实验或兼容测试。",
+    "description": "2026年11月2日16:01:50（北京时间），Aman Singh（@aman40399）发布Super Harness，称其为一体化逆向工程CLI harness，使用者接入自己的AI API并提供目标软件。用途是把模型接入软件分析流程；帖子带开源标签、链接和图片，补取原帖确认署名，但不能据标签确认具体许可证或源码质量。\n\n正文停在简短介绍，没有具名目标、平台支持、底层反编译器、命令示例、输出报告或测试。链接未展开，也未确认同名GitHub仓库与作者的归属，因此不添加猜测仓库，不把宣传的一体化解释成自动克隆任意软件。作为相关项目保留，REA未提及；未安装或运行工具。",
+    "sources": [{"label": "Aman Singh的Super Harness介绍，2026-11-02", "url": "https://x.com/i/status/2117165271777673508"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、28浏览、0转发；仅项目介绍，未核验实现。"],
+    "en": {
+      "title": "Super Harness: Aman Singh introduces an AI-API reverse-engineering CLI",
+      "summary": "The author introduces an all-in-one reversing CLI harness that takes an AI API and target software. No checkable target experiment or compatibility test is supplied.",
+      "description": "At 16:01:50 Beijing time on November 2, 2026, Aman Singh (@aman40399) introduces Super Harness as an all-in-one reverse-engineering CLI harness: users connect their own AI API and provide target software. Its stated purpose is connecting models to software analysis. The post includes an open-source tag, links and an image. Original-post lookup confirms attribution, but a tag does not establish a particular license or source quality.\n\nThe short introduction supplies no named target, supported platforms, underlying decompiler, example command, output report or test. Links were not expanded, and similarly named GitHub repositories were not tied to the author, so no guessed repository is added. All-in-one marketing does not establish automatic cloning of arbitrary software. Retained as a related project. REA is not mentioned; nothing was installed or run.",
+      "metadata": ["Candidate snapshot: 1 like, 28 views, 0 reposts. Project introduction only; implementation unverified."],
+      "source_labels": ["Aman Singh introduces Super Harness, November 2, 2026"]
+    }
+  },
+  {
+    "id": "xiaomi14-gpt-app-reporting-screen-recording-allegation",
+    "title": "小米14应用上报与录屏：GPT逆向归因仍薄弱的二手指控",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "转述者把小米14应用上报、三秒录屏与GPT逆向联系起来；另一评论也质疑GPT归因，未取得APK、调用链或流量证据，不能确认监控与警方来电因果。",
+    "description": "2026年11月2日16:26:41（北京时间），泰山（@S1lzF6u0WSo0BzD）转述一位中国X用户的说法：警方给其朋友打电话要求删除X和Telegram，一位朋友的小米14会向小米与中国联通上报应用，且可录制三秒屏幕片段供云端扫描；转述称GPT做了逆向。目标是调查设备系统组件的隐私行为，但本条是二手指控，不是分析者交付的技术记录。\n\n19:17:10，Chinese Pulse（@ChinesePulse_）在相关讨论中称应用名单上报符合HyperOS反诈组件，声称已有独立APK分析确认某些反诈流程的短录屏，同时认为“GPT做了逆向”是最薄弱的部分。该评论未给所称分析的链接、APK哈希、版本、调用路径或抓包，故不能据此升级为独立印证，更不能认定这台小米14实际触发了全部路径。\n\n两条候选均在本窗口，补取原帖确认署名；未取得原始GPT对话、系统包、权限实验、网络目的地或录屏样本。三秒是转述值，不能由能力推断默认行为，不能将警方电话与设备数据建立已证实因果。未提REA；未访问手机、账户或私人通信。",
+    "sources": [{"label": "泰山转述小米14与GPT逆向指控，2026-11-02 16:26:41北京时间", "url": "https://x.com/i/status/2117171526193574371"}, {"label": "Chinese Pulse对反诈路径和GPT归因的评论，2026-11-02 19:17:10北京时间", "url": "https://x.com/i/status/2117214428601131112"}],
+    "snapshot_date": "2026-11-02", "metadata": ["两条候选快照分别17赞／647浏览／14转发、0赞／11浏览／0转发；评论不是公开技术验证。", "三秒录屏、上报对象和警方联系均未由本合集核实；不传播用户私密数据。"],
+    "en": {
+      "title": "Xiaomi 14 app reporting and screen clips: a secondary allegation with weak GPT attribution",
+      "summary": "A secondary post connects Xiaomi 14 app reporting and three-second screen clips to GPT reversing. Another commenter questions that attribution. No APK, call chain or traffic evidence establishes surveillance or a causal link to police calls.",
+      "description": "At 16:26:41 Beijing time on November 2, 2026, Taishan (@S1lzF6u0WSo0BzD) recounts a Chinese X user's claims: police called the user's friends asking them to delete X and Telegram; one friend's Xiaomi 14 allegedly reports applications to Xiaomi and China Unicom and can record three-second screen clips for cloud scanning. The post says GPT performed the reversing. The target is privacy behavior in system components, but this is a secondary allegation rather than a technical record delivered by the analyst.\n\nAt 19:17:10, Chinese Pulse (@ChinesePulse_) comments in related discussion that app-list reporting fits HyperOS anti-fraud components, claims independent APK analysis has confirmed short clips in some anti-fraud flows, and calls 'GPT did the reverse engineering' the weakest link. The comment supplies no link to that analysis, APK hash, version, call path or capture. It is not independent corroboration here and does not establish that this particular Xiaomi 14 triggered all such paths.\n\nBoth candidates are within the window; original lookups confirm attribution. Original GPT transcripts, system packages, permission experiments, network destinations and screen samples were not obtained. Three seconds is a secondary figure; capability does not establish default behavior or a proven causal connection between device data and police calls. REA is not mentioned. No phone, account or private communication was accessed.",
+      "metadata": ["Candidate snapshots respectively: 17 likes/647 views/14 reposts and 0 likes/11 views/0 reposts. A comment is not public technical validation.", "Three-second capture, reporting destinations and police contact were not verified here; no private user data is distributed."],
+      "source_labels": ["Taishan recounts Xiaomi 14/GPT reversing allegations, November 2, 2026 at 16:26:41 Beijing time", "Chinese Pulse comments on anti-fraud paths and GPT attribution, November 2, 2026 at 19:17:10 Beijing time"]
+    }
+  },
+  {
+    "id": "local-qwen-pi-rea-short-drama-app-study",
+    "title": "短剧软件研究：0xMomo用本地Qwen、Pi与REA分析双平台安装包",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "作者称分析一款未具名短剧软件的DMG与Windows包，提取Electron架构和业务流程，准备交给Codex／DeepSeek继续重建；自述解锁不等于合法授权或完整替代品。",
+    "description": "2026年11月2日16:40:23（北京时间），0xMomo（@0xmomonifty）报告研究直播间销售的一款AI短剧制作软件。作者看中其角色／资产管理与视频批量生产，称软件调用云端ComfyUI及Minimax H3，但下载体验后发现需激活码。目标软件未具名，不能据此确认厂商或版本。\n\n作者称在本地GPU机器运行Strata、SC117（qwen3.8-flash-next iq3_s），让Pi与REA分析DMG和Windows包，识别Electron、Vite、React与TypeScript。因使用Mac ARM，又提供Linux SSH环境帮助反混淆，声称读到主进程、压缩页面、IPC通道、路由和业务代码，并通过模拟服务使授权相关流程可走通。本条仅记录这一声明，不提供绕过许可的端点、代码或操作，亦不把可打开等同于合法授权、云服务可用或全部功能复现。\n\n作者计划先让Pi整理导读、重建锚点和报告，再以Codex加DeepSeek harness继续重建、二次开发，未来加入RunningHub API和第三方模型接口。标题称轻松复刻，但正文的后续步骤仍是计划；无源码、完整渲染任务、输出视频质量对照或测试日志。补取原帖确认作者；“全程AI完成”是其自述，人提供机器与远程环境。未下载安装包、读取提取代码或运行目标。",
+    "sources": [{"label": "0xMomo的本地Qwen／Pi／REA短剧软件研究报告，2026-11-02", "url": "https://x.com/i/status/2117174971621597350"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、188浏览、0转发；架构识别与授权模拟均为作者报告。", "RunningHub和第三方模型接入仍属计划；不分发厂商代码或激活绕过。"],
+    "en": {
+      "title": "Short-drama app research: 0xMomo uses local Qwen, Pi and REA on two platform packages",
+      "summary": "The author reports extracting Electron architecture and workflows from an unnamed app's DMG and Windows package, then plans Codex/DeepSeek reconstruction. A claimed unlock is neither authorization nor a complete replacement.",
+      "description": "At 16:40:23 Beijing time on November 2, 2026, 0xMomo (@0xmomonifty) reports studying an AI short-drama production app sold in a livestream. The author liked its character/asset management and batch-video workflow, says it calls cloud ComfyUI and Minimax H3, and found an activation-code requirement after downloading it. The target is unnamed; vendor and version cannot be established.\n\nThe author reports running Strata and SC117 (qwen3.8-flash-next iq3_s) on a local GPU machine, using Pi and REA on DMG and Windows packages, and identifying Electron, Vite, React and TypeScript. Working on an ARM Mac, the author also provided a Linux SSH environment for deobfuscation, claiming access to main-process logic, compressed pages, IPC channels, routes and business code, and simulated services that let authorization-related workflows proceed. This records the claim without bypass endpoints, code or instructions. Opening an app does not establish authorization, usable cloud services or reproduction of all features.\n\nThe stated next step is having Pi prepare a guide, reconstruction anchors and a report, then continuing reconstruction and customization with Codex and a DeepSeek harness, with RunningHub API and other model interfaces planned later. Although the headline says easy cloning, the body describes future steps. No source, complete rendering job, video-quality comparison or test log is supplied. Original lookup confirms attribution. 'Entirely done by AI' is the author's account; the human supplied machines and remote access. No package was downloaded, extracted vendor code read or target executed here.",
+      "metadata": ["Candidate snapshot: 0 likes, 188 views, 0 reposts. Architecture identification and simulated authorization are author reports.", "RunningHub and other model integrations remain plans; no vendor code or activation bypass is distributed."],
+      "source_labels": ["0xMomo's local Qwen/Pi/REA short-drama app investigation, November 2, 2026"]
+    }
+  },
+  {
+    "id": "alex-choi-instagram-claude-odin-ai-apps-detector",
+    "title": "Instagram的AI应用名单：Alex Choi称Claude反编译找到odin检测函数",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Alex Choi称把手机接到笔记本、让Claude Code反编译Instagram，找到含23款应用的odin_ai_apps_detector；未给APK版本、调用链或动态验证。",
+    "description": "2026年11月2日17:19:45（北京时间），Alex Choi（@AlexChhk）称将手机接到笔记本，让Claude Code反编译Instagram，发现名为odin_ai_apps_detector的函数，内有23款应用的硬编码名单，包括ChatGPT、Claude、Gemini和Perplexity；作者称它每天检查并以“installed apps”记录。目标是理解Instagram是否识别已安装AI应用。\n\n补取原帖确认作者及图片存在，但未读取图片、取得APK版本／哈希、反编译代码、调用点、权限条件或日志。函数名与静态名单即使存在，也不足以证明每天实际执行、数据发送到Meta或用于广告。每日检查与记录均保持为作者报告，不扩展成已确认跨应用监控；REA未提及，未运行Instagram或接触私人设备数据。",
+    "sources": [{"label": "Alex Choi的Instagram／Claude Code检测名单报告，2026-11-02", "url": "https://x.com/i/status/2117184879003578567"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照6赞、305浏览、0转发；23款及每日频率为作者声明，非独立测量。"],
+    "en": {
+      "title": "Instagram's AI-app list: Alex Choi reports a Claude-decompiled odin detector",
+      "summary": "Alex Choi says Claude Code decompiled Instagram from a connected phone and found odin_ai_apps_detector with 23 apps. APK revision, call chain and dynamic validation are absent.",
+      "description": "At 17:19:45 Beijing time on November 2, 2026, Alex Choi (@AlexChhk) says a phone was connected to a laptop and Claude Code asked to decompile Instagram. The author reports finding a function named odin_ai_apps_detector with a hardcoded list of 23 apps, including ChatGPT, Claude, Gemini and Perplexity, claiming it checks daily and logs them as 'installed apps.' The research question is whether Instagram identifies installed AI applications.\n\nOriginal lookup confirms attribution and an image's presence, but that image was not inspected and no APK revision/hash, decompiled code, call sites, permission conditions or logs were obtained. Even an existing function name and static list would not establish daily execution, transmission to Meta or advertising use. Daily checks and logging remain author reports, not confirmed cross-app surveillance. REA is unspecified; Instagram was not run and no private device data was accessed.",
+      "metadata": ["Candidate snapshot: 6 likes, 305 views, 0 reposts. The 23-app count and daily frequency are author claims, not independent measurements."],
+      "source_labels": ["Alex Choi's Instagram/Claude Code app-detector report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "nimbus-dragon-ball-z-gamecube-ai-native-project",
+    "title": "Nimbus：三款GameCube龙珠游戏的AI辅助原生化项目，闭源Alpha仍待验证",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "thebabyhippo303的统一启动器自称混合重编译／反编译，不用硬件解释器；固定README已是Alpha 1.1，仅分发构建，跨平台与跨服功能未独立核验。",
+    "description": "2026年11月2日17:39:14（北京时间），候选介绍thebabyhippo303的Nimbus Project，目标是将GameCube美版Dragon Ball Z: Budokai（2002）、Budokai 2（2003）和Sagas（2005）放进一个Windows／Linux／Android原生启动器，提供联机、跨平台互玩与Original／Remastered模式。候选仍称11月1日Alpha 1.0，并明确闭源与完整兼容性未独立验证。\n\n补查公开项目固定提交e68a5e6cb04e956533189b6d7e43752ac1a43dbf，提交时间2026-11-02T09:11:14Z，即北京时间17:11:14，早于候选约28分钟；README已经列Alpha 1.1（11月2日），将1.0列为前版。文档列Linux x86_64／Ubuntu 26.04、Windows 11 x64需AVX2且仅Vulkan、Android 13+ arm64构建。此为原始项目说明补证，不是另一个新候选，也没有下载构建核验。\n\nREADME称每款游戏有独立原生core，共用host与renderer，混合重编译／反编译且无模拟器或硬件解释器；详细架构尚待公布，源码因联网与兼容工作暂不开放，只存发行包。AI参与仅披露“Made with AI assistance”，模型和分工未给。跨平台联机、三作完整流程、渲染等价和原生架构均是项目声明，不是本合集验证。须自备NTSC-U光盘；项目称不含原始光盘镜像，不能由此推导所有运行组件权利已审计。未执行发行包或安装依赖。",
+    "sources": [{"label": "候选：Nimbus三游戏与Alpha介绍，2026-11-02", "url": "https://x.com/i/status/2117189782203781589"}, {"label": "补充固定README：Alpha 1.1、架构声明与闭源边界，2026-11-02 17:11:14北京时间", "url": "https://github.com/thebabyhippo303/nimbus-project/blob/e68a5e6cb04e956533189b6d7e43752ac1a43dbf/README.md"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照22赞、657浏览、0转发；README版本比转述新，但不构成运行验证。", "三作同属一个Nimbus项目，不拆成三条；AI具体角色、闭源架构与crossplay均待验证。"],
+    "en": {
+      "title": "Nimbus: AI-assisted native Dragon Ball Z GameCube trilogy project, still a closed-source alpha",
+      "summary": "thebabyhippo303's unified launcher claims hybrid recompilation/decompilation without a hardware interpreter. The pinned README already lists Alpha 1.1, distributes builds only, and does not independently validate cross-platform play.",
+      "description": "At 17:39:14 Beijing time on November 2, 2026, the candidate introduces thebabyhippo303's Nimbus Project: bringing the NTSC-U GameCube games Dragon Ball Z: Budokai (2002), Budokai 2 (2003) and Sagas (2005) into one native Windows/Linux/Android launcher with online play, crossplay and Original/Remastered modes. The candidate still names Alpha 1.0 dated November 1 and explicitly notes closed source and unverified full-game compatibility.\n\nSupplementary public-project reading pins commit e68a5e6cb04e956533189b6d7e43752ac1a43dbf, dated 2026-11-02T09:11:14Z, or 17:11:14 Beijing time, about 28 minutes before the candidate. Its README already lists Alpha 1.1 (November 2) and 1.0 as the previous release. It lists Linux x86_64/Ubuntu 26.04, Windows 11 x64 with AVX2 and Vulkan only, and Android 13+ arm64 builds. This original project document is supporting evidence, not an additional new candidate; no build was downloaded or checked.\n\nThe README claims per-game native cores sharing a host and renderer, hybrid recompilation/decompilation without an emulator or hardware interpreter. Detailed architecture remains forthcoming; source is withheld during networking and compatibility work and the repository contains release distributions only. AI disclosure is just 'Made with AI assistance,' without model or roles. Cross-platform networking, complete playthroughs of all three games, rendering equivalence and native architecture remain project claims, not findings independently verified here. Users need their own NTSC-U discs. The project's statement that it includes no original disc images does not audit rights in every runtime component. No release or dependency was executed or installed.",
+      "metadata": ["Candidate snapshot: 22 likes, 657 views, 0 reposts. The README's newer version corrects the secondary post but does not validate execution.", "The three games form one Nimbus project, not three entries. Specific AI roles, closed-source architecture and crossplay remain unverified."],
+      "source_labels": ["Candidate: Nimbus trilogy and alpha report, November 2, 2026", "Supplementary pinned README: Alpha 1.1, architectural claims and closed-source limits, November 2, 2026 at 17:11:14 Beijing time"]
+    }
+  },
+  {
+    "id": "sunyuhua-kindle-oasis3-codex-weread-jailbreak",
+    "title": "Kindle Oasis 3：Codex排查越狱卡点，作者实际打开微信读书书籍",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "monkey-king.sun报告Codex承担Mac端识别、备份、校验和日志分析，人完成设备与扫码操作；既有社区工具最终跑通阅读链，首轮卡住原因与补丁异常保留。",
+    "description": "2026年11月2日17:55:05（北京时间），monkey-king.sun（@sunyuhua0205）报告把Kindle接到Mac，希望使用微信读书。补取原帖完整尾部：设备为第10代Kindle Oasis 3、32GB、固件5.17.1；最终采用Nosebleed配合本地预置越狱安装脚本v2.5.0，KOReader 2026.07.1的kindlehf包，以及finlater/weread.koplugin v1.6.0。是AI协助既有社区越狱与阅读互通，不是Codex发现新漏洞或原创阅读器。\n\n作者称原先防升级占位文件使空间仅约60MiB。Codex识别USB信息、核对向导并备份，初试SpiderCat电子书打不开，校验一致但有.bad_file缓存标记；清理重试后停在executing一小时。日志里uid=0 euid=0只表明曾提权，不证明后续安装完成。改用Nosebleed并预置约5MB主体脚本，保留原项目二进制与主体脚本，收集输出；随后设备自动重启、出现“You are jailbroken!”完成文件。作者明确首轮卡住原因未确定，不能说证实网络故障。\n\n安装日志仍有一条系统补丁组件异常，但作者继续报告KOReader能启动、微信读书扫码登录并实际打开一本书。阅读器与插件1125个文件完成复制与内容校验，清理旧占位文件后约26.6GiB可用。Codex负责电脑端检查、下载、备份、脚本准备和日志；人负责Kindle点击、重启、Wi-Fi与手机授权，密钥无需交给Codex。\n\n所有版本、空间、文件数和阅读结果来自作者，没有原始日志、持久稳定性或本合集独立复现；其他机型与固件需重新核对。REA未提及。未下载越狱载荷、执行脚本、访问账户或操作设备。",
+    "sources": [{"label": "monkey-king.sun的Kindle／Codex完整排障与开书报告，2026-11-02", "url": "https://x.com/i/status/2117193771062554902"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、48浏览、0转发；补取完整原帖，未检查附图。", "uid=0不等于安装完成；完成标记与实际开书是作者报告的不同验证阶段。", "复用社区工具，不能归为AI原创漏洞；首次卡顿原因与补丁异常未被抹去。"],
+    "en": {
+      "title": "Kindle Oasis 3: Codex helps debug a jailbreak; the author opens a WeRead book",
+      "summary": "monkey-king.sun assigns Mac-side identification, backups, checks and logs to Codex while handling device actions and QR login. Existing community tools ultimately enable reading; the initial stall and patch anomaly remain unresolved.",
+      "description": "At 17:55:05 Beijing time on November 2, 2026, monkey-king.sun (@sunyuhua0205) reports connecting a Kindle to a Mac to use WeRead. Supplementary lookup retrieves the full ending. The device is a tenth-generation 32GB Kindle Oasis 3 on firmware 5.17.1. The final setup uses Nosebleed with a locally staged v2.5.0 jailbreak installer, KOReader 2026.07.1's kindlehf package and finlater/weread.koplugin v1.6.0. This is AI assistance with existing community jailbreak and reading interoperability, not Codex discovering a new vulnerability or writing a reader.\n\nThe author reports only about 60MiB free because of update-blocking placeholder files. Codex identified USB details, checked community guidance and made backups. The first SpiderCat ebook would not open: its hash matched, but a .bad_file cache marker existed. After clearing and retrying, execution stalled for an hour. A log with uid=0 euid=0 established prior privilege elevation, not completed installation. They switched to Nosebleed, staged the roughly 5MB main installer locally without changing the original project's binaries or main script, and captured output. The device then rebooted automatically and produced a 'You are jailbroken!' completion file. The author explicitly leaves the original stall unexplained, rather than claiming a proven network failure.\n\nThe installation log still contains a system-patch component anomaly, but the author subsequently reports launching KOReader, completing WeRead QR login and opening a book. Reader and plugin copying/content checks covered 1,125 files; deleting old placeholders restored about 26.6GiB free space. Codex handled computer-side checks, downloads, backups, script preparation and logs. The human handled Kindle clicks, reboots, Wi-Fi and phone authorization; the key did not need to be shared with Codex.\n\nVersions, space, file counts and reading results are author reports without raw logs, long-term stability checks or independent reproduction here. Other devices and firmware require fresh compatibility checks. REA is unspecified. No jailbreak payload was downloaded, script executed, account accessed or device operated.",
+      "metadata": ["Candidate snapshot: 0 likes, 48 views, 0 reposts. Full original text retrieved; attached image uninspected.", "uid=0 does not establish completed installation. The completion marker and actual book opening are distinct author-reported validation stages.", "Reuses community tools, not an AI-original vulnerability. The first stall's cause and patch anomaly remain visible."],
+      "source_labels": ["monkey-king.sun's full Kindle/Codex debugging and book-opening account, November 2, 2026"]
+    }
+  },
+  {
+    "id": "house-of-the-dead-rewrithe-claude-cpp-rewrite",
+    "title": "死亡之屋ReWrithe：Claude辅助合并街机与PC逻辑，项目测试不等于全平台实测",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "Tawhid的公开C++重写披露Claude辅助逆向与人工指挥测试；README区分Surface通关、自动MAME对照与尚未实机测试的平台、光枪和联网。",
+    "description": "2026年11月2日18:14:38（北京时间），候选介绍TawhidI-602（Tawhid）的The House of the Dead: ReWrithe，将SEGA 1996街机与1998 PC版合成C++重写，宣传宽屏、四人合作、手柄与光枪，以及Windows／Linux／Steam Deck／macOS构建。目标是保存并在现代设备运行原作，须自备Revision A街机ROM和1998 PC文件。\n\n补读公开README，固定提交081fe6a651dbc4c43779f5ced65e705f853466ab，时间2026-11-01T16:23:10Z，即北京时间11月2日00:23:10，早于本候选。项目明确Claude协助逆向、重写和合并已有代码，由作者指挥和测试，译文也是机器生成；不声称AI生成游戏美术。v1.0.0仍是首发，许多无捕获对照的例程标UNVERIFIED，已列45项，PC序章和路线图walker仍部分实现。\n\nREADME自报街机四章、最终Boss与结局的一／二人MAME回放逐帧零差异，PC Mode第一章17289帧相同及321个THOTD.EXE例程无差异；这些是项目自动对照，不是本合集重跑。人类在2026-10-21用Surface Pro 7通关街机主线。测试矩阵明确联网只在一台PC跑多份实例，尚未实测两台真机或互联网；光枪和多种手柄只做模拟输入。Linux是WSL无头测试，Steam Deck真机未测；macOS虽列CI构建路径，矩阵又称从未构建或运行，路线图仍未勾选，不把候选的全平台说法当兼容证明。\n\n四人功能实验性；大部分AMD／Intel与旧显卡仍待实测，DualSense初始瞄准被评笨拙、改后手感待测，机器翻译待母语审读。保留公开实现和分层测试的阅读价值，但不据零差异数字宣布整作、全部模式或平台已等价。没有下载资产、编译或执行游戏。",
+    "sources": [{"label": "候选：ReWrithe与Claude辅助开发介绍，2026-11-02", "url": "https://x.com/i/status/2117198692591575352"}, {"label": "补充固定README：AI分工、回放与人工／自动／未测试矩阵，2026-11-02 00:23:10北京时间", "url": "https://github.com/TawhidI-602/The-House-of-the-Dead-ReWrithe/blob/081fe6a651dbc4c43779f5ced65e705f853466ab/README.md"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、225浏览、0转发；无独立重建，项目自报回放结果不能等同全游戏证明。", "补充README早于候选，含2026-10-21与10-27等历史测试记录，不计作新候选。", "平台支持、真实光枪、两台设备联网与macOS构建／运行均有明确证据缺口。"],
+    "en": {
+      "title": "The House of the Dead ReWrithe: Claude-assisted arcade/PC logic merger, with platform-testing limits",
+      "summary": "Tawhid's public C++ rewrite credits Claude for reversing under human direction. Its README separates a Surface playthrough, automated MAME comparisons and untested platforms, light guns and real networking.",
+      "description": "At 18:14:38 Beijing time on November 2, 2026, the candidate introduces TawhidI-602 (Tawhid)'s The House of the Dead: ReWrithe, a C++ rewrite combining SEGA's 1996 arcade game and 1998 PC release. It advertises widescreen, four-player co-op, controllers and light guns, with Windows/Linux/Steam Deck/macOS builds. The goal is preserving the original for modern hardware; users need their own Revision A arcade ROMs and 1998 PC files.\n\nSupplementary public README reading pins commit 081fe6a651dbc4c43779f5ced65e705f853466ab, dated 2026-11-01T16:23:10Z, or November 2 at 00:23:10 Beijing time, before the candidate. The project explicitly credits Claude with reverse engineering, rewriting and combining existing code under the author's direction and testing. Translations are machine-made; it does not claim AI-generated game artwork. Version 1.0.0 is still a first release. Many routines without capture proofs remain marked UNVERIFIED, with 45 listed, while the PC prologue and route-map walker remain partial.\n\nThe README reports zero differing frames in one/two-player MAME replays through all four arcade chapters, the final boss and ending; it also reports 17,289 equal frames for PC Mode Chapter 1 and no differences in 321 THOTD.EXE routines. These are project-run automated comparisons, not reruns here. A human completed the arcade campaign on a Surface Pro 7 on October 21, 2026. The matrix explicitly limits networking to multiple copies on one PC: two real PCs and internet play are untested. Light guns and many pads have simulated-input tests only. Linux has WSL headless testing, not a real Steam Deck. Although macOS has a listed CI build path, the matrix also says never built or run and the roadmap remains unchecked; the candidate's all-platform language is not compatibility proof.\n\nFour-player support is experimental. Most AMD/Intel and old GPUs need testing. Initial DualSense aiming was described as clunky, with revised feel untested, and machine translations await native readers. The public implementation and layered testing are worth retaining, but zero-difference figures do not establish whole-game, all-mode or all-platform equivalence. No assets were downloaded and no game was compiled or executed.",
+      "metadata": ["Candidate snapshot: 0 likes, 225 views, 0 reposts. No independent rebuild; project-reported replay results are not whole-game proofs.", "The supporting README predates the candidate and includes historical tests such as October 21 and 27, 2026, not additional new candidates.", "Platform support, real light guns, two-device networking and macOS builds/execution have explicit evidence gaps."],
+      "source_labels": ["Candidate: ReWrithe and Claude-assisted development report, November 2, 2026", "Supplementary pinned README: AI roles, replays and human/automated/untested matrix, November 2, 2026 at 00:23:10 Beijing time"]
+    }
+  },
+  {
+    "id": "rensouhouk-claude-rea-linux-display-driver-report",
+    "title": "Linux显示驱动：RensouhouK称Claude与REA三小时重试成功",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。",
+    "description": "2026年11月2日19:38:26（北京时间），RensouhouK（@RensouhouK）回复mick，称昨天再次尝试用Claude与REA制作驱动，约三小时成功，自己只运行AI给出的命令。目标是让Linux设备驱动工作；本次的成功、时间与AI自主程度均为作者自报。\n\n为识别背景，补读9月16日mick鼓励多测试的父回复，以及9月15日根帖：mick称让Astra修补Omarchy上的NVIDIA内核驱动，使RTX3060支持6K Pro Display XDR，耗时约45分钟。它们早于本轮窗口，只用于解释显示驱动语境；mick的硬件、45分钟和成功不能移作RensouhouK本人数据，也不另行收录旧帖。\n\n当前候选未给自己的GPU、显示器、驱动／内核版本、逆向步骤、补丁、分辨率或稳定性测试。不能断言修复整个NVIDIA驱动、同样达6K或三小时从零重写。补取原帖确认作者；未运行命令、修改内核或安装驱动。",
+    "sources": [{"label": "候选：RensouhouK的Claude／REA驱动重试报告，2026-11-02", "url": "https://x.com/i/status/2117219782411829489"}, {"label": "窗口前背景：mick建议多测试，2026-09-16 UTC", "url": "https://x.com/i/status/2100274724639060169"}, {"label": "窗口前根帖：mick的NVIDIA／Omarchy显示驱动报告，2026-09-15 UTC", "url": "https://x.com/i/status/2099933630906724656"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、7浏览、0转发；三小时与11月1日重试来自作者，未独立计时。", "旧根帖的RTX3060、6K和45分钟属于mick，不能用于描述当前作者设备或成绩。"],
+    "en": {
+      "title": "Linux display driver: RensouhouK reports a three-hour Claude/REA retry",
+      "summary": "In an earlier NVIDIA/Omarchy discussion, the author reports a successful November 1 driver retry, following AI commands. No patch, logs or personal hardware details are supplied; three hours is self-reported.",
+      "description": "At 19:38:26 Beijing time on November 2, 2026, RensouhouK (@RensouhouK) replies to mick, saying a fresh attempt yesterday to create the driver with Claude and REA worked in about three hours. The author says they only ran commands suggested by AI. The goal is getting a Linux device driver working; success, duration and AI autonomy are self-reported.\n\nTo identify context, supplementary reading retrieves mick's September 16 parent reply encouraging testing and the September 15 root: mick says Astra patched an NVIDIA kernel driver on Omarchy to support a 6K Pro Display XDR on an RTX3060 in about 45 minutes. These pre-window posts explain the display-driver context only. Mick's hardware, 45 minutes and success cannot be reassigned to RensouhouK, and the older posts are not separately collected as new candidates.\n\nThe current candidate gives no personal GPU, monitor, driver/kernel revision, reversing steps, patch, achieved resolution or stability tests. It does not establish fixing the entire NVIDIA driver, the same 6K result or a from-scratch rewrite in three hours. Original lookup confirms attribution. No commands were run, kernel modified or driver installed.",
+      "metadata": ["Candidate snapshot: 0 likes, 7 views, 0 reposts. Three hours and the November 1 retry are author reports without independent timing.", "The older root's RTX3060, 6K and 45 minutes belong to mick, not this author's hardware or result."],
+      "source_labels": ["Candidate: RensouhouK's Claude/REA driver retry, November 2, 2026", "Earlier context: mick recommends repeated testing, September 16, 2026 UTC", "Earlier root: mick's NVIDIA/Omarchy display-driver report, September 15, 2026 UTC"]
+    }
+  },
+  {
+    "id": "gakupo-v5-synthv-ai-research-idea",
+    "title": "Gakupo V5到SynthV：Wonderfulworld提出AI逆向的声音库互通设想",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Wonderfulworld猜测AI逆向可能让Gakupo V5进入SynthV；只是具体目标设想，没有转换程序、授权或音频测试。",
+    "description": "2026年11月2日16:03:34（北京时间），Wonderfulworld（@Dasvotch）回复Pipraki，猜测借助AI逆向，未来也许能在SynthV中得到Gakupo V5或类似东西。帖子将声音库／歌声合成产品之间的互通作为具体目标，而不是报告已完成移植。\n\n没有提供模型、文件格式、分析对象版本、训练或转换方法、程序、音频对照或授权情况。不能推断Gakupo V5的实际发布状态、音色等价、兼容性或使用许可。补取原帖确认作者与条件式措辞；REA未提及，本合集未取得或处理声音库。",
+    "sources": [{"label": "Wonderfulworld的Gakupo V5／SynthV设想，2026-11-02", "url": "https://x.com/i/status/2117165706576085401"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、9浏览、0转发；idea，不是移植成果。"],
+    "en": {
+      "title": "Gakupo V5 in SynthV: Wonderfulworld's AI-reversing interoperability idea",
+      "summary": "Wonderfulworld speculates that AI reverse engineering might bring Gakupo V5 to SynthV. A specific idea, not a converter, permission grant or audio test.",
+      "description": "At 16:03:34 Beijing time on November 2, 2026, Wonderfulworld (@Dasvotch), replying to Pipraki, speculates that AI reverse engineering could eventually yield Gakupo V5 in SynthV or something similar. The specific goal is interoperability between voice-bank/singing-synthesis products, not a report of a completed port.\n\nNo model, file format, analyzed revision, training or conversion method, program, audio comparison or authorization is supplied. Gakupo V5's actual release status, voice equivalence, compatibility and licensing cannot be inferred. Original-post lookup confirms the author and speculative wording. REA is unspecified; no voice bank was acquired or processed here.",
+      "metadata": ["Candidate snapshot: 0 likes, 9 views, 0 reposts. An idea, not a porting result."],
+      "source_labels": ["Wonderfulworld's Gakupo V5/SynthV idea, November 2, 2026"]
+    }
+  },
+  {
+    "id": "kylesean-gpt-mac-ai-research-idea",
+    "title": "GPT的Mac实现：Ky1eSean想用AI逆向以借鉴客户端",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者明确想让AI研究GPT的Mac实现以便借鉴，未报告分析或重建已经完成。",
+    "description": "2026年11月2日16:24:10（北京时间），Ky1eSean（@kylesean6）回复bangbuilds，说明要用AI逆向“GPT的mac实现”，以便借鉴。目标是学习Mac客户端的实现；原文没有进一步界定GPT指哪个发布版，也没有指定借鉴的界面、协议或系统集成功能。\n\n这是一项具体客户端研究意向，不是完成报告。未给模型、REA、二进制版本、代码、分析输出、工时或运行结果；不能自行扩展成重建完整ChatGPT客户端。补取原帖确认作者，未下载或执行目标。",
+    "sources": [{"label": "Ky1eSean的GPT Mac实现研究意向，2026-11-02", "url": "https://x.com/i/status/2117170893793509479"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、125浏览、0转发；目标与意向明确，实现细节未给。"],
+    "en": {
+      "title": "GPT's Mac implementation: Ky1eSean proposes AI-assisted client research",
+      "summary": "The author explicitly wants AI to reverse-engineer GPT's Mac implementation for reference, without reporting completed analysis or reconstruction.",
+      "description": "At 16:24:10 Beijing time on November 2, 2026, Ky1eSean (@kylesean6), replying to bangbuilds, says the reason is to use AI to reverse-engineer 'GPT's Mac implementation' for reference. The goal is learning from a Mac client. The text does not identify a specific GPT release or say which interface, protocol or system-integration feature is of interest.\n\nThis is a concrete client-research intention, not a completion report. No model, REA use, binary revision, code, analysis output, time spent or execution result is supplied. It must not be expanded into a complete ChatGPT-client reconstruction. Original lookup confirms attribution; no target was downloaded or executed.",
+      "metadata": ["Candidate snapshot: 1 like, 125 views, 0 reposts. Target and intention are explicit; implementation details are absent."],
+      "source_labels": ["Ky1eSean's GPT Mac research intention, November 2, 2026"]
+    }
+  },
+  {
+    "id": "runtimewire-cursor-rtp-grokbot-multimodel-gateway",
+    "title": "Grok Bot多模型网关：RuntimeWire称逆向Cursor RTP",
+    "category": "apps", "rea": "unknown", "status": "unverified",
+    "summary": "RuntimeWire称团队研究Cursor的RTP并制作网关，让Grok Bot不限于Grok 4.7；未公开本次可核验的协议或模型兼容记录。",
+    "description": "2026年11月2日16:40:01（北京时间），RuntimeWire（@runtimewire）提醒读者，其团队此前逆向了Cursor的“RTP”，并制作网关，声称Grok Bot背后可以使用任意AI，而不只Grok 4.7。目标是替换Bot的模型后端，AI是接入对象；帖子没有说明AI是否也参与协议逆向，故rea记unknown。\n\n原文未展开RTP缩写，本合集不将其认作某个标准网络协议。未取得端点、源码、网关实现、认证边界、支持模型列表或成功／失败测试。补取原帖确认作者；“任意AI”保持为作者兼容性主张，不代表所有模型均测过，也不保证平台授权或服务条款允许。未访问Bot账户、调用接口或执行网关。",
+    "sources": [{"label": "RuntimeWire的Cursor RTP与Grok Bot网关报告，2026-11-02", "url": "https://x.com/i/status/2117174881372762504"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照3赞、182浏览、0转发；RTP含义、AI逆向角色与模型兼容性未核实。"],
+    "en": {
+      "title": "A multi-model Grok Bot gateway: RuntimeWire reports reversing Cursor's RTP",
+      "summary": "RuntimeWire says its team reversed Cursor's RTP to put models other than Grok 4.7 behind Grok Bot. Checkable protocol and model-compatibility records were not obtained.",
+      "description": "At 16:40:01 Beijing time on November 2, 2026, RuntimeWire (@runtimewire) reminds readers that its team previously reverse-engineered Cursor's 'RTP' and made a gateway claimed to support any AI behind Grok Bot, rather than only Grok 4.7. The goal is replacing the Bot's model backend. AI is the integration target; the post does not say AI assisted the protocol research, so rea remains unknown.\n\nRTP is not expanded in the source and is not assumed to mean a standard networking protocol. No endpoints, source, gateway implementation, authentication boundaries, model list or success/failure tests were obtained. Original lookup confirms attribution. 'Any AI' remains the author's compatibility claim, not evidence that every model was tested or that platform permissions and terms allow the integration. No Bot account was accessed, interface called or gateway executed.",
+      "metadata": ["Candidate snapshot: 3 likes, 182 views, 0 reposts. RTP's meaning, AI's research role and model compatibility remain unverified."],
+      "source_labels": ["RuntimeWire's Cursor RTP/Grok Bot gateway report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "whatsapp-rea-remove-ai-desktop-idea",
+    "title": "WhatsApp桌面版：读者希望用REA去除AI并简化客户端",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "读者提出用REA研究WhatsApp、移除AI功能并改善桌面使用的具体愿望，没有补丁或可用客户端。",
+    "description": "2026年11月2日16:41:55（北京时间），一名回复WindowsLatest的读者希望有人使用REA，去掉WhatsApp里的AI功能，并让桌面应用更易用。目标指向具体通信客户端，动机是减少不需要的AI入口与界面负担。\n\n原帖是愿望，没有说作者开始分析，也没有平台版本、目标模块、代码、补丁、功能对照或测试。不能推断能够安全删改端到端加密通信组件、保持账户兼容或已有替代客户端。按idea保留，不提供绕过认证或修改操作，本合集未运行WhatsApp。",
+    "sources": [{"label": "读者对WhatsApp桌面版的REA愿望，2026-11-02", "url": "https://x.com/i/status/2117175361222139911"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、48浏览、0转发；仅idea。"],
+    "en": {
+      "title": "WhatsApp desktop: a reader's REA idea to remove AI and simplify the client",
+      "summary": "A reader proposes studying WhatsApp with REA to remove AI features and improve desktop use. No patch or working client is reported.",
+      "description": "At 16:41:55 Beijing time on November 2, 2026, a reader replying to WindowsLatest wishes someone would use REA to remove AI features from WhatsApp and make the desktop application easier to use. The specific target is a messaging client; the motivation is reducing unwanted AI entry points and interface burden.\n\nThe post is a wish, not a statement that analysis has begun. No platform revision, target module, code, patch, feature comparison or test is given. Safe modification of end-to-end encrypted components, account compatibility and an existing replacement client must not be inferred. Retained as an idea, without authentication-bypass or modification instructions. WhatsApp was not run here.",
+      "metadata": ["Candidate snapshot: 0 likes, 48 views, 0 reposts. Idea only."],
+      "source_labels": ["A reader's REA wish for WhatsApp desktop, November 2, 2026"]
+    }
+  },
+  {
+    "id": "mailchimp-rea-business-tool-idea",
+    "title": "Mailchimp：manutheblacker建议用REA研究邮件营销服务",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "作者问为何不用REA逆向Mailchimp，认为企业有需求；未提出具体架构或报告重建。",
+    "description": "2026年11月2日17:09:14（北京时间），manu the blvcker（@manutheblacker）提出为何不用REA研究Mailchimp，理由是很多企业需要这样的东西。Mailchimp是邮件营销服务；候选提供了具名商业工具研究idea，而非已实现服务。\n\n没有界定是客户端、公开API、邮件编辑器还是私有后端，也没有代码、分析记录、发送测试、投递率、合规或工时证据。不能把一句提议写成可替代Mailchimp的完整营销平台。补取原帖确认署名，未访问账户或发送邮件。",
+    "sources": [{"label": "manutheblacker的Mailchimp／REA提案，2026-11-02", "url": "https://x.com/i/status/2117182231622099055"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、8浏览、0转发；商业需求是作者判断。"],
+    "en": {
+      "title": "Mailchimp: manutheblacker proposes REA research into an email-marketing service",
+      "summary": "The author asks why REA is not used to reverse-engineer Mailchimp, arguing businesses need it. No architecture or reconstruction is reported.",
+      "description": "At 17:09:14 Beijing time on November 2, 2026, manu the blvcker (@manutheblacker) asks why REA has not been used to reverse-engineer Mailchimp, saying many businesses need something like it. Mailchimp is an email-marketing service. The candidate supplies a named commercial-tool research idea, not an implemented service.\n\nIt does not specify a client, public API, email editor or private backend. There is no code, analysis record, sending test, deliverability result, compliance assessment or time evidence. A one-line proposal is not a complete Mailchimp replacement. Original lookup confirms attribution; no account was accessed or email sent.",
+      "metadata": ["Candidate snapshot: 0 likes, 8 views, 0 reposts. Business demand is the author's judgment."],
+      "source_labels": ["manutheblacker's Mailchimp/REA proposal, November 2, 2026"]
+    }
+  },
+  {
+    "id": "hollis-claude-smart-cooker-research",
+    "title": "智能料理锅：Hollis称开始用Claude逆向，想让AI做饭",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Hollis称已开始研究智能料理锅，希望AI承担烹饪，人工只准备食材与摆盘；没有控制演示或安全测试。",
+    "description": "2026年11月2日18:24:24（北京时间），Hollis（@hollis_pew）回复wr0789，称已经开始研究用Claude逆向智能料理锅、靠AI做饭，并以玩笑口吻设想将来自己只需抄菜谱、准备食材和摆盘。目标是把智能烹饪设备接入AI工作流，属于作者自报进行中的研究。\n\n帖子未给品牌、型号、固件、协议、控制通道、代码或加热测试，没有证据表明已能自动控温、控制执行器或安全无人值守烹饪。不能把未来愿望写成可用功能；REA未提及。补取原帖确认作者，未连接、加热或操作设备。",
+    "sources": [{"label": "Hollis的Claude智能料理锅研究意向，2026-11-02", "url": "https://x.com/i/status/2117201149782798377"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、42浏览、0转发；开始研究不代表控制与安全已验证。"],
+    "en": {
+      "title": "Smart cooker: Hollis reports beginning Claude-assisted reversing for AI cooking",
+      "summary": "Hollis says smart-cooker research has begun, hoping AI will cook while the human prepares ingredients and plates food. No control demonstration or safety test is supplied.",
+      "description": "At 18:24:24 Beijing time on November 2, 2026, Hollis (@hollis_pew), replying to wr0789, says research has begun into using Claude to reverse-engineer a smart cooker and let AI cook. The author jokingly imagines only copying recipes, preparing ingredients and plating food in the future. The goal is integrating a cooking appliance into an AI workflow; this is author-reported ongoing research.\n\nNo brand, model, firmware, protocol, control channel, code or heating test is given. There is no evidence of automatic temperature or actuator control, or safe unattended cooking. Future hopes are not implemented features. REA is unspecified. Original lookup confirms attribution; no appliance was connected, heated or operated.",
+      "metadata": ["Candidate snapshot: 1 like, 42 views, 0 reposts. Beginning research does not validate control or safety."],
+      "source_labels": ["Hollis's Claude smart-cooker research intention, November 2, 2026"]
+    }
+  },
+  {
     "id": "brawlhalla-m4pro-codex-rea-air-jit-stutter-report",
     "title": "Brawlhalla卡顿：Codex／REA追到AIR在Rosetta下的解释器分支",
     "category": "games", "rea": "REA", "status": "analysis-test",
@@ -560,18 +784,18 @@
   },
   {
     "id": "suprik-starlink-netcache-claude-investigation-report",
-    "title": "Suprik的Starlink路由器：称Claude发现netcache模块与夜间外传",
+    "title": "Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
-    "summary": "Suprik称Claude检查自有路由器并发现netcache、夜间3.4GB外传，随后隔离重置；未给固件、样本或流量证据，不能证明所述窃取机制。",
-    "description": "2026年11月2日02:34:57（北京时间），Suprik（@Supriik_）称在隐藏摄像头文章之后检查自有Starlink路由器，Claude发现非官方netcache模块，开机启动且管理页不显示；声称每晚2至4点向未知服务器发送约3.4GB，复制家中八台设备中六台的流量，涉及2316张照片、412份文档和18903条浏览记录。作者明确不指控Starlink监视，而称自己路由器遭人入侵。\n\n作者称阻断目的服务器、停止模块并隔离、保存证据，再恢复出厂、更新固件、换Wi-Fi密码，并从干净设备更换所有密码。原帖与署名已补查，但无路由器型号、固件版本、模块文件／哈希、命令、捕获流量、对照镜像或事件报告；未确认数字来源与设备归属，更不能从转发流量推断能读取HTTPS加密照片或文档。\n\n按具体设备的AI辅助异常调查自述保留，不写成确认感染、品牌漏洞或完整取证。方法、观察结果和处置效果均未独立验证；未提REA，也未扫描网络、获取样本或操作设备。",
-    "sources": [{"label": "Suprik的Claude／Starlink netcache调查自述，2026-11-02", "url": "https://x.com/i/status/2116962213327987170"}],
-    "snapshot_date": "2026-11-02", "metadata": ["候选快照15赞、353浏览、0转发；3.4GB、六／八设备与文件数量均为作者未附日志的主张。"],
+    "summary": "Suprik自报Claude发现netcache与夜间3.4GB外传；两位直接回复者追问固件访问、样本、HTTPS与处置证据。未获技术记录，既不能确认入侵，也不把质疑当独立鉴伪。",
+    "description": "2026年11月2日02:34:57（北京时间），Suprik（@Supriik_）称在隐藏摄像头文章之后检查自有Starlink路由器，Claude发现非官方netcache模块，开机启动且管理页不显示；声称每晚2至4点向未知服务器发送约3.4GB，复制家中八台设备中六台的流量，涉及2316张照片、412份文档和18903条浏览记录。作者明确不指控Starlink监视，而称自己路由器遭人入侵。\n\n作者称阻断目的服务器、停止模块并隔离、保存证据，再恢复出厂、更新固件、换Wi-Fi密码，并从干净设备更换所有密码。原帖与署名已补查，但无路由器型号、固件版本、模块文件／哈希、命令、捕获流量、对照镜像或事件报告；未确认数字来源与设备归属，更不能从转发流量推断能读取HTTPS加密照片或文档。\n\n11月2日17:32:32，Osiris2025（@ta2025）直接回复，称视频是风格化模拟终端，认为所谓Claude路由器扫描与文件清单缺乏独立印证，并质疑路由器仅靠转发加密流量复制端点文件的机制。19:13:46，skeptic（@3kept1c）同样直接回复，要求解释如何取得路由器管理权限、拿到哪个二进制、怎样识别非官方模块及其持久化，并索要固件dump、netcache哈希、抓包和可复现访问说明；还指出恢复出厂不必然清除固件层持久化。补取两帖确认完整措辞与直接回复关系。\n\n两位评论者的质疑具体而有阅读价值，但没有交付样本检测或独立复现实验。本合集没有检查原视频，不能凭“模拟”指控宣布已证实造假；也未核对评论中的自动更新周期等产品细节。保持unverified，既不写成确认感染或品牌漏洞，也不保证作者处置有效。未提REA，未扫描网络、获取样本或操作设备。",
+    "sources": [{"label": "Suprik的Claude／Starlink netcache调查自述，2026-11-02", "url": "https://x.com/i/status/2116962213327987170"}, {"label": "Osiris2025质疑模拟视频、HTTPS与证据，2026-11-02 17:32:32北京时间", "url": "https://x.com/i/status/2117188095787377090"}, {"label": "skeptic追问固件访问、样本与处置保证，2026-11-02 19:13:46北京时间", "url": "https://x.com/i/status/2117213572379951470"}],
+    "snapshot_date": "2026-11-02", "metadata": ["原候选快照15赞、353浏览、0转发；3.4GB、六／八设备与文件数量均为作者未附日志的主张。", "本轮质疑帖快照分别17赞／388浏览／1转发、3赞／59浏览／0转发；不是独立技术验证或鉴伪结论。"],
     "en": {
-      "title": "Suprik's Starlink router: a claimed Claude finding of netcache and nightly exfiltration",
-      "summary": "Suprik says Claude found netcache and nightly 3.4GB transfers on a personal router, followed by isolation/reset. No firmware, sample or traffic evidence establishes the alleged theft mechanism.",
-      "description": "At 02:34:57 Beijing time on November 2, 2026, Suprik (@Supriik_) says they checked their Starlink router after an article about hidden cameras. Claude reportedly found a nonofficial netcache module starting at boot and absent from the admin panel. The post claims roughly 3.4GB sent nightly between 2 and 4am to an unknown server, copying traffic from six of eight household devices, with 2,316 photos, 412 documents and 18,903 browsing records. The author explicitly says this is not Starlink spying but an alleged intrusion into their own router.\n\nThey report blocking the destination, stopping the module, isolating the router and preserving evidence, then factory-resetting, updating firmware, changing the Wi-Fi password and changing all passwords from a clean device. Original-post lookup confirmed wording and attribution, but no router model, firmware version, module file/hash, commands, captured traffic, reference image or incident report was obtained. The numbers and device attribution are unconfirmed; forwarding traffic does not establish access to HTTPS-encrypted photos or documents.\n\nRetained as a specific AI-assisted device-anomaly investigation report, not confirmed infection, a brand vulnerability or complete forensics. Method, observations and remediation effectiveness were not independently verified. REA is not mentioned. No network was scanned, samples obtained or devices operated.",
-      "metadata": ["Candidate snapshot: 15 likes, 353 views, 0 reposts. The 3.4GB, six/eight devices and file counts are author claims without logs."],
-      "source_labels": ["Suprik's Claude/Starlink netcache investigation account, November 2, 2026"]
+      "title": "Suprik's Starlink router: specific evidence challenges to the claimed Claude netcache finding",
+      "summary": "Suprik claims Claude found netcache and nightly 3.4GB transfers. Two direct replies question firmware access, samples, HTTPS and remediation. Without technical records, neither intrusion nor an independently proven fabrication is established.",
+      "description": "At 02:34:57 Beijing time on November 2, 2026, Suprik (@Supriik_) says they checked their Starlink router after an article about hidden cameras. Claude reportedly found a nonofficial netcache module starting at boot and absent from the admin panel. The post claims roughly 3.4GB sent nightly between 2 and 4am to an unknown server, copying traffic from six of eight household devices, with 2,316 photos, 412 documents and 18,903 browsing records. The author explicitly says this is not Starlink spying but an alleged intrusion into their own router.\n\nThey report blocking the destination, stopping the module, isolating the router and preserving evidence, then factory-resetting, updating firmware, changing the Wi-Fi password and changing all passwords from a clean device. Original-post lookup confirmed wording and attribution, but no router model, firmware version, module file/hash, commands, captured traffic, reference image or incident report was obtained. The numbers and device attribution are unconfirmed; forwarding traffic does not establish access to HTTPS-encrypted photos or documents.\n\nAt 17:32:32 on November 2, Osiris2025 (@ta2025) replies directly, calling the video a stylized mock terminal, questioning independent corroboration of the alleged Claude router scan and file inventory, and challenging how a router could copy endpoint files merely by forwarding encrypted traffic. At 19:13:46, skeptic (@3kept1c) also replies directly, asking how administrative access was gained, which binary was found, how it was identified as unofficial and how it persisted. The commenter requests a firmware dump, netcache hash, packet capture and reproducible access explanation, and notes that factory reset does not necessarily remove firmware-level persistence. Lookups confirm both full texts and their direct reply relationship.\n\nThese are specific, useful challenges, not sample analyses or independent reproduction experiments. This collection did not inspect the original video and cannot turn the mockup allegation into proven fabrication. Product details in the comments, such as automatic-update cadence, were not checked either. Status remains unverified: neither confirmed infection or brand vulnerability nor guaranteed remediation effectiveness. REA is not mentioned. No network was scanned, samples obtained or devices operated.",
+      "metadata": ["Original candidate snapshot: 15 likes, 353 views, 0 reposts. The 3.4GB, six/eight devices and file counts are author claims without logs.", "Current challenge snapshots: 17 likes/388 views/1 repost and 3 likes/59 views/0 reposts. Neither is independent technical validation or a conclusive debunk."],
+      "source_labels": ["Suprik's Claude/Starlink netcache investigation account, November 2, 2026", "Osiris2025 questions a mock video, HTTPS and evidence, November 2, 2026 at 17:32:32 Beijing time", "skeptic requests firmware access, samples and remediation evidence, November 2, 2026 at 19:13:46 Beijing time"]
     }
   },
   {
@@ -6169,21 +6393,21 @@
   },
   {
     "id": "0xprobabillity-blackberry-q10-ssh-claude-code",
-    "title": "BlackBerry Q10：0xProbability称逆向旧机后随身使用SSH与Claude Code",
+    "title": "BlackBerry旧机接入Claude Code：0xProbability从Q10报告到Bold与语音提示",
     "category": "hardware",
     "rea": "unknown",
     "status": "unverified",
-    "summary": "0xProbability以60美元二手BlackBerry Q10对比600美元起的Minimal Phone 2，称逆向后获得实体键盘、SSH及随身Claude Code。未给实现或模型运行位置，不确认手机本地运行Claude或AI参与逆向。",
-    "description": "2026年10月26日19:59（北京时间），0xProbability（@0xProbabillity）称Minimal Phone 2起价600美元，而二手BlackBerry Q10只需60美元；自己逆向后获得实体键盘、SSH和口袋中的Claude Code，并附视频。补查原帖确认作者及视频存在，没有读取或验证视频内容。\n\n作为旧硬件接入AI编码工具的具体互通报告收录。价格均为作者对比，不是当前市场核价或完整改装成本；实体键盘原本就是设备硬件，不归因于AI创造。正文没有说明操作系统、固件、终端实现、SSH服务端、Claude Code运行位置、AI是否参与逆向或REA使用。不能把SSH终端接入说成在旧手机本地运行Claude模型。\n\n未取得源码、修改记录、演示验证或独立测试，状态为unverified。候选2026年10月26日快照为1016赞、48033浏览、47转发，热度不是实现证明。未连接或修改设备。",
-    "sources": [{"label": "0xProbability报告BlackBerry Q10的SSH与Claude Code互通，2026-10-26", "url": "https://x.com/i/status/2114688329681899681"}],
-    "snapshot_date": "2026-10-26",
-    "metadata": ["600美元与60美元为作者价格对比；运行位置与AI逆向角色未证。", "候选快照：1016赞、48033浏览、47转发，2026-10-26。"],
+    "summary": "同作者先称60美元Q10，后称20至40美元Bold并增加语音提示；均报告SSH与随身Claude Code，未说明是否同一设备、实现或AI逆向角色。",
+    "description": "2026年10月26日19:59（北京时间），0xProbability（@0xProbabillity）称Minimal Phone 2起价600美元，而二手BlackBerry Q10只需60美元；自己逆向后获得实体键盘、SSH和口袋中的Claude Code，并附视频。此前补查原帖确认作者及视频存在，没有读取或验证视频内容。\n\n2026年11月2日19:21:26，同作者再报类似用途，这次写二手BlackBerry Bold为20至40美元，增加语音识别用于输入提示词，仍对比600美元起的Minimal Phone 2。补取当前原帖确认署名与文字。Q10与Bold是不同机型表述，不能擅自认定同一设备、更正了旧型号或两款均已验证；保留既有ID与来源，把当前报告合并为作者的旧BlackBerry互通线索。\n\n价格均为作者对比，不是当前市场核价或完整改装成本；实体键盘本来就是硬件，不归因AI创造。两帖都未说明操作系统、固件、终端实现、SSH服务端、Claude Code运行位置、AI是否参与逆向或REA使用，也未给语音识别提供方与处理位置。不能把SSH接入说成手机本地运行Claude模型。未取得源码、修改记录、演示验证或独立测试，状态保持unverified；未连接或修改设备。",
+    "sources": [{"label": "0xProbability报告BlackBerry Q10的SSH与Claude Code互通，2026-10-26", "url": "https://x.com/i/status/2114688329681899681"}, {"label": "同作者改称Bold并增加语音提示与价格对比，2026-11-02", "url": "https://x.com/i/status/2117215504679186564"}],
+    "snapshot_date": "2026-11-02",
+    "metadata": ["600美元／60美元及600美元／20至40美元分别为两帖价格对比；机型差异与运行位置未澄清。", "旧候选快照1016赞、48033浏览、47转发，2026-10-26；当前候选7赞、445浏览、0转发，2026-11-02。"],
     "en": {
-      "title": "BlackBerry Q10: 0xProbability reports SSH and pocket Claude Code after reversing an old phone",
-      "summary": "0xProbability compares a $60 used BlackBerry Q10 with a Minimal Phone 2 starting at $600 and reports a physical keyboard, SSH and pocket Claude Code after reverse engineering. Implementation and execution location are unspecified; local Claude inference and AI-assisted reversing are not established.",
-      "description": "At 19:59 Beijing time on October 26, 2026, 0xProbability (@0xProbabillity) compared a Minimal Phone 2 starting at $600 with a $60 used BlackBerry Q10, saying reverse engineering delivered a physical keyboard, SSH and Claude Code in his pocket. The original includes a video. Supplementary reading confirmed the author and video's presence, not its contents or behavior.\n\nThis is included as a concrete interoperability report connecting old hardware to an AI coding tool. Prices are the author's comparison, not a current market check or full modification cost. The physical keyboard was existing hardware, not something AI created. The text does not identify the OS, firmware, terminal implementation, SSH server, Claude Code execution location, AI's role in reverse engineering or REA use. SSH terminal access must not be described as running Claude models locally on the old phone.\n\nSource, modification records, verified demonstrations and independent tests were not obtained; status is unverified. The October 26, 2026 candidate snapshot has 1,016 likes, 48,033 views and 47 reposts, which describe reach rather than implementation proof. No device was connected to or modified here.",
-      "metadata": ["$600 and $60 are the author's price comparison; execution location and AI reversing role remain unproven.", "Candidate snapshot: 1,016 likes, 48,033 views and 47 reposts, October 26, 2026."],
-      "source_labels": ["0xProbability reports BlackBerry Q10 SSH and Claude Code interoperability, October 26, 2026"]
+      "title": "Old BlackBerry access to Claude Code: 0xProbability's Q10 report followed by Bold and voice prompting",
+      "summary": "The same author first names a $60 Q10, then a $20–40 Bold with voice prompting. Both report SSH and pocket Claude Code without establishing the same device, implementation or AI's reversing role.",
+      "description": "At 19:59 Beijing time on October 26, 2026, 0xProbability (@0xProbabillity) compared a Minimal Phone 2 starting at $600 with a $60 used BlackBerry Q10, saying reverse engineering delivered a physical keyboard, SSH and Claude Code in his pocket. The original includes a video. Earlier lookup confirmed attribution and the video's presence, not its contents or behavior.\n\nAt 19:21:26 on November 2, 2026, the same author reports a similar use case, this time naming a $20–40 used BlackBerry Bold and adding voice recognition for prompts, again compared with a Minimal Phone 2 starting at $600. Original lookup confirms the current wording and attribution. Q10 and Bold are different model descriptions. They do not establish the same device, a correction of the earlier model or verified operation on both. The existing ID and source are retained, merging this into the author's old-BlackBerry interoperability report.\n\nPrices are the author's comparisons, not current market checks or complete modification costs. The physical keyboard was existing hardware, not created by AI. Neither post identifies the OS, firmware, terminal implementation, SSH server, Claude Code execution location, AI's role in reversing or REA use. The voice-recognition provider and processing location are also unspecified. SSH access must not be described as local Claude-model inference on the phone. Source, modification records, verified demonstrations and independent tests were not obtained. Status remains unverified; no device was connected or modified.",
+      "metadata": ["$600/$60 and $600/$20–40 are the respective posts' price comparisons. Model differences and execution location remain unexplained.", "Earlier snapshot: 1,016 likes, 48,033 views, 47 reposts, October 26, 2026. Current candidate: 7 likes, 445 views, 0 reposts, November 2, 2026."],
+      "source_labels": ["0xProbability reports BlackBerry Q10 SSH and Claude Code interoperability, October 26, 2026", "Same author names Bold, adding voice prompting and a price comparison, November 2, 2026"]
     }
   },
   {

@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1484 个案例与项目
+# 1498 个案例与项目
 
-**最近案例更新：**2026 年 11 月 2 日 16:10 · **最近维护：**2026 年 11 月 2 日 16:10 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 2 日 20:16 · **最近维护：**2026 年 11 月 2 日 20:16 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -33,7 +33,7 @@
 7. **[Brawlhalla：别只调FPS，追到Mac卡顿根源](cases/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md)** · `2026-11-02` — fexx_off报告**Codex／REA定位AIR的Rosetta解释器分支**，测试JIT覆盖后重新采样并人工试玩。称M4 Pro上Training与Free-for-all冻结基本消失；无原始堆栈或帧时间测量，不是所有Mac的通用修复。`作者自测分析`
 8. **[Claude 写证明，Rocq 检查二进制](cases/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic／Theorem 报告为 **123 库的 239 个入口**建立机器码无崩溃证明。限单线程静态 RISC-V/Linux、小于64MB输入；**不等于整库无 bug**，本合集未独立重跑检查器。`分析测试`
 9. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
-10. **[PE2PC：不用主机模拟器玩寄生前夜II](cases/parasite-eve2-pe2pc-claude-native-port.md)** · `2026-11-02`报道；`2026-11-01`项目记录 — Snaity明确Claude Code分工，建立在**GabeRealB既有反编译**上，以C／Rust实现PC运行时并人工游玩测试。双盘支持为项目自报；**60fps呈现仍是30fps游戏逻辑**。Mod实验性，须自备美版双盘，本合集未重建。`进行中`
+10. **[ReWrithe：合并街机与PC版死亡之屋](cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md)** · `2026-11-02`报道与固定项目记录 — Tawhid披露Claude辅助逆向与C++重建。**人工主线通关与自动MAME回放是不同证据**；真实光枪、两台PC联网及部分平台仍未实测。须自备街机与PC文件，本合集未重建。`进行中`
 
 ## 经典案例
 
@@ -49,9 +49,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **320** |
-| [硬件与设备互通](categories/hardware.md) | **392** |
-| [应用与客户端](categories/apps.md) | **613** |
+| [游戏与游戏保存](categories/games.md) | **322** |
+| [硬件与设备互通](categories/hardware.md) | **396** |
+| [应用与客户端](categories/apps.md) | **621** |
 | [算法与功能重建](categories/algorithms.md) | **159** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

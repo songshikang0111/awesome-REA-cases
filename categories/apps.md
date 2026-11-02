@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Super Harness：Aman Singh介绍接入AI API的逆向CLI](../cases/super-harness-aman-singh-ai-re-cli.md) — 作者介绍面向目标软件的一体化逆向命令行harness，称接入AI API即可使用；未给可核验的目标实验或兼容测试。 **[其他 AI 逆向 · 相关项目]**
+- [短剧软件研究：0xMomo用本地Qwen、Pi与REA分析双平台安装包](../cases/local-qwen-pi-rea-short-drama-app-study.md) — 作者称分析一款未具名短剧软件的DMG与Windows包，提取Electron架构和业务流程，准备交给Codex／DeepSeek继续重建；自述解锁不等于合法授权或完整替代品。 **[REA · 进行中]**
+- [Instagram的AI应用名单：Alex Choi称Claude反编译找到odin检测函数](../cases/alex-choi-instagram-claude-odin-ai-apps-detector.md) — Alex Choi称把手机接到笔记本、让Claude Code反编译Instagram，找到含23款应用的odin_ai_apps_detector；未给APK版本、调用链或动态验证。 **[其他 AI 逆向 · 待验证]**
+- [Gakupo V5到SynthV：Wonderfulworld提出AI逆向的声音库互通设想](../cases/gakupo-v5-synthv-ai-research-idea.md) — Wonderfulworld猜测AI逆向可能让Gakupo V5进入SynthV；只是具体目标设想，没有转换程序、授权或音频测试。 **[其他 AI 逆向 · 待验证]**
+- [GPT的Mac实现：Ky1eSean想用AI逆向以借鉴客户端](../cases/kylesean-gpt-mac-ai-research-idea.md) — 作者明确想让AI研究GPT的Mac实现以便借鉴，未报告分析或重建已经完成。 **[其他 AI 逆向 · 待验证]**
+- [Grok Bot多模型网关：RuntimeWire称逆向Cursor RTP](../cases/runtimewire-cursor-rtp-grokbot-multimodel-gateway.md) — RuntimeWire称团队研究Cursor的RTP并制作网关，让Grok Bot不限于Grok 4.7；未公开本次可核验的协议或模型兼容记录。 **[未确认使用 REA · 待验证]**
+- [WhatsApp桌面版：读者希望用REA去除AI并简化客户端](../cases/whatsapp-rea-remove-ai-desktop-idea.md) — 读者提出用REA研究WhatsApp、移除AI功能并改善桌面使用的具体愿望，没有补丁或可用客户端。 **[REA · 待验证]**
+- [Mailchimp：manutheblacker建议用REA研究邮件营销服务](../cases/mailchimp-rea-business-tool-idea.md) — 作者问为何不用REA逆向Mailchimp，认为企业有需求；未提出具体架构或报告重建。 **[REA · 待验证]**
 - [跨平台原生集成：BowTiedStack称Grok Bot逆向并协调Cursor做SaaS](../cases/bowtiedstack-grokbot-native-os-saas-integration.md) — 作者报告数月内以Grok Bot协调Cursor云Agent，研究Windows／Mac／Linux复杂原生集成并做端到端QA；产品与接口未具名，不能核实团队或工时替代倍数。 **[其他 AI 逆向 · 待验证]**
 - [Instacart命令行：Peyton Casper称借AI逆向API](../cases/peyton-casper-instacart-ai-cli-report.md) — 作者以AI让世界变得可声明为背景，报告把Instacart配送购物API逆向成CLI；未提供命令、接口、代码或可独立核验的操作结果。 **[其他 AI 逆向 · 待验证]**
 - [百度网盘摇一摇广告：AI逆向的No Shake与磁力计解释尚未证实](../cases/baidu-netdisk-ai-noshake-sensor-analysis-report.md) — 三个转述把限制运动数据后仍跳广告与AI分析联系起来；No Shake／磁力计是开发者推断，记者观察不验证传感器路径，也不足证明百度主动规避。 **[其他 AI 逆向 · 待验证]**

@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1484 cases & projects
+# 1498 cases & projects
 
-**Latest case update:** November 2, 2026, 16:10 · **Last maintained:** November 2, 2026, 16:10 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 2, 2026, 20:16 · **Last maintained:** November 2, 2026, 20:16 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Brawlhalla: trace Mac stutter past the FPS settings](cases/en/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md)** · `2026-11-02` — fexx_off reports **Codex/REA tracing AIR's Rosetta interpreter branch**, then testing a JIT override with fresh sampling and human play. Training and Free-for-all freezes reportedly largely disappear on an M4 Pro; no raw stacks or frame-time measurements, not a universal Mac fix. `Author-tested analysis`
 8. **[Claude writes proofs; Rocq checks the binaries](cases/en/anthropic-theorem-claude-binary-formal-verification.md)** · `2026-10-22` — Anthropic/Theorem report machine-code no-crash proofs for **239 entry points across 123 libraries**. Single-threaded static RISC-V/Linux, inputs below 64MB; **not bug-free whole libraries**, and the checker was not independently rerun here. `Analysis test`
 9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
-10. **[PE2PC: Parasite Eve II without a console emulator](cases/en/parasite-eve2-pe2pc-claude-native-port.md)** · `2026-11-02` report; `2026-11-01` project record — Snaity credits Claude Code and builds on **GabeRealB's existing decompilation**, with a C/Rust PC runtime and human play-testing. Project-reported two-disc support; **60-fps presentation still uses 30-fps game logic**. Experimental mods, your own USA discs, no independent rebuild here. `In progress`
+10. **[ReWrithe: merge arcade and PC House of the Dead](cases/en/house-of-the-dead-rewrithe-claude-cpp-rewrite.md)** · `2026-11-02` report and pinned project record — Tawhid credits Claude with reversing and C++ reconstruction. **A human campaign playthrough and automated MAME replays are separate evidence**; real light guns, two-PC networking and several platforms remain untested. Bring your own arcade/PC files; not rebuilt here. `In progress`
 
 ## Classic cases
 
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **320** |
-| [Hardware & interoperability](categories/en/hardware.md) | **392** |
-| [Applications & clients](categories/en/apps.md) | **613** |
+| [Games & preservation](categories/en/games.md) | **322** |
+| [Hardware & interoperability](categories/en/hardware.md) | **396** |
+| [Applications & clients](categories/en/apps.md) | **621** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **159** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1484 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1498 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（320）
-- [硬件与设备互通](categories/hardware.md)（392）
-- [应用与客户端](categories/apps.md)（613）
+- [游戏与游戏保存](categories/games.md)（322）
+- [硬件与设备互通](categories/hardware.md)（396）
+- [应用与客户端](categories/apps.md)（621）
 - [算法与功能重建](categories/algorithms.md)（159）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Nimbus：三款GameCube龙珠游戏的AI辅助原生化项目，闭源Alpha仍待验证](cases/nimbus-dragon-ball-z-gamecube-ai-native-project.md) — thebabyhippo303的统一启动器自称混合重编译／反编译，不用硬件解释器；固定README已是Alpha 1.1，仅分发构建，跨平台与跨服功能未独立核验。 **[其他 AI 逆向 · 进行中]**
+- [死亡之屋ReWrithe：Claude辅助合并街机与PC逻辑，项目测试不等于全平台实测](cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md) — Tawhid的公开C++重写披露Claude辅助逆向与人工指挥测试；README区分Surface通关、自动MAME对照与尚未实机测试的平台、光枪和联网。 **[其他 AI 逆向 · 进行中]**
 - [Brawlhalla卡顿：Codex／REA追到AIR在Rosetta下的解释器分支](cases/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md) — fexx_off报告在M4 Pro上用采样与二进制检查定位AIR解释器模式，配置覆盖后解释器路径消失、人工试玩卡顿基本消失；无原始堆栈或帧时间数据，未独立复测。 **[REA · 分析测试]**
 - [桌面兵棋数字模块：转述Conflict Simulations委托工作被Claude拒绝](cases/conflict-simulations-claude-board-wargame-module-refusal.md) — 政策报道引述兵棋模块委托被拒，客户拥有原作不等于获得出版方授权；未取得具体游戏、提示或拒绝日志。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Heroes：Sewer56说明AI重编译复用了数千小时人工逆向代码](cases/sonic-heroes-sewer56-ai-recompile-attribution.md) — Sewer56称AI把他长期人工逆向所得代码包装进重编译项目，提醒区分已有知识与AI贡献；未核对具体仓库、构建或可玩范围。 **[其他 AI 逆向 · 待验证]**
@@ -349,13 +351,17 @@
 
 ### 硬件与设备互通
 
+- [小米14应用上报与录屏：GPT逆向归因仍薄弱的二手指控](cases/xiaomi14-gpt-app-reporting-screen-recording-allegation.md) — 转述者把小米14应用上报、三秒录屏与GPT逆向联系起来；另一评论也质疑GPT归因，未取得APK、调用链或流量证据，不能确认监控与警方来电因果。 **[其他 AI 逆向 · 待验证]**
+- [Kindle Oasis 3：Codex排查越狱卡点，作者实际打开微信读书书籍](cases/sunyuhua-kindle-oasis3-codex-weread-jailbreak.md) — monkey-king.sun报告Codex承担Mac端识别、备份、校验和日志分析，人完成设备与扫码操作；既有社区工具最终跑通阅读链，首轮卡住原因与补丁异常保留。 **[其他 AI 逆向 · 待验证]**
+- [Linux显示驱动：RensouhouK称Claude与REA三小时重试成功](cases/rensouhouk-claude-rea-linux-display-driver-report.md) — 作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。 **[REA · 待验证]**
+- [智能料理锅：Hollis称开始用Claude逆向，想让AI做饭](cases/hollis-claude-smart-cooker-research.md) — Hollis称已开始研究智能料理锅，希望AI承担烹饪，人工只准备食材与摆盘；没有控制演示或安全测试。 **[其他 AI 逆向 · 进行中]**
 - [九号电动车数据看板：Kevin Cui称用AI逆向并上报Grafana](cases/kevin-cui-ninebot-ai-grafana-telemetry.md) — 作者回复确认数据来自AI逆向，根帖展示九号电动车接入Grafana的报告；车型、获取通道、字段与代码未公开，不能推断已覆盖车辆控制。 **[其他 AI 逆向 · 待验证]**
 - [121GW万用表：Dave Jones称Claude Code正将固件逆向为C](cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — Dave Jones确认论坛用户的121GW固件逆向有效，并另称Claude Code正做自己的C重建；前者的成功不能移作AI版本已验证的结论。 **[其他 AI 逆向 · 进行中]**
 - [PS5蓝光离线启动：转述开发者鸣谢Claude的越狱载入报告](cases/ps5-bluray-offline-loader-claude-secondary-report.md) — wakeupbrk称PS5可从刻录蓝光启动越狱、不需Wi-Fi或浏览器，开发者鸣谢Claude；未取得项目原文、支持固件或AI实际分工，不证明AI发现完整利用链。 **[其他 AI 逆向 · 待验证]**
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
 - [Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为](cases/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。 **[其他 AI 逆向 · 进行中]**
-- [Suprik的Starlink路由器：称Claude发现netcache模块与夜间外传](cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik称Claude检查自有路由器并发现netcache、夜间3.4GB外传，随后隔离重置；未给固件、样本或流量证据，不能证明所述窃取机制。 **[其他 AI 逆向 · 待验证]**
+- [Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑](cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik自报Claude发现netcache与夜间3.4GB外传；两位直接回复者追问固件访问、样本、HTTPS与处置证据。未获技术记录，既不能确认入侵，也不把质疑当独立鉴伪。 **[其他 AI 逆向 · 待验证]**
 - [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
 - [M8 Orange的显卡：称Codex以REA研究其他型号，再移植到Windows自有卡](cases/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — M8 Orange在显卡unlock讨论中报告Codex／REA跨型号与Windows移植成功；未说自己的型号、解锁内容或测试。 **[REA · 待验证]**
 - [车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关](cases/car-infotainment-rea-trim-feature-switch-idea.md) — Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。 **[REA · 待验证]**
@@ -472,7 +478,7 @@
 - [原装电视遥控器：ArcyDev想用一个按键同时启动电视与mini PC](cases/arcydev-tv-remote-mini-pc-power-idea.md) — ArcyDev提出用电视原装遥控器的可编程按键启动mini PC，最好一键启动两台设备；是REA辅助设备互通的具体idea，没有实现或测试。 **[REA · 待验证]**
 - [HP打印机：TEJAS称用AI重写固件以使用便宜墨盒并切断厂商访问](cases/texasalantodd-hp-printer-ai-firmware-rewrite-report.md) — TEJAS（@TexasAlanTodd）称AI重写其HP打印机固件后可用便宜墨盒、不再有广告和厂商访问；未给型号、代码或打印记录，不是已验证固件替换。 **[未确认使用 REA · 待验证]**
 - [Ray-Ban Meta棋局助手：0xProbability称逆向眼镜后让AI读棋盘并显示着法](cases/0xprobabillity-rayban-meta-ai-chess-report.md) — 0xProbability称逆向眼镜做棋局助手，Codez描述WhatsApp到Mac的AI读盘流程；m质疑这并未展示眼镜逆向。新增CISO Marketplace的开源转述，但实现归属、仓库与3000+Elo均未确认。 **[未确认使用 REA · 待验证]**
-- [BlackBerry Q10：0xProbability称逆向旧机后随身使用SSH与Claude Code](cases/0xprobabillity-blackberry-q10-ssh-claude-code.md) — 0xProbability以60美元二手BlackBerry Q10对比600美元起的Minimal Phone 2，称逆向后获得实体键盘、SSH及随身Claude Code。未给实现或模型运行位置，不确认手机本地运行Claude或AI参与逆向。 **[未确认使用 REA · 待验证]**
+- [BlackBerry旧机接入Claude Code：0xProbability从Q10报告到Bold与语音提示](cases/0xprobabillity-blackberry-q10-ssh-claude-code.md) — 同作者先称60美元Q10，后称20至40美元Bold并增加语音提示；均报告SSH与随身Claude Code，未说明是否同一设备、实现或AI逆向角色。 **[未确认使用 REA · 待验证]**
 - [Ruizu X02：Sem称Opus提取固件、重做iPod式菜单并加入小游戏](cases/sem-ruizu-x02-opus-ipod-interface-firmware.md) — Sem报告Claude Opus从Ruizu X02的USB恢复模式读NAND、分析加密更新格式与UI资源，改成iPod式菜单和按键，并在Unicorn测试补丁后刷写。实机与376词双语游戏均为作者自述，未取得代码或日志。 **[其他 AI 逆向 · 待验证]**
 - [Samsung The Frame 65：Christian Ander报告root命令执行，Claude只做前后工作](cases/nderchris-samsung-frame65-claude-root-boundary-report.md) — Christian Ander称Chris-ritsen方案在其2024年The Frame 65、固件T-PTMDEUC-1720.7上有效；Claude Opus与Sonnet拒绝下载和执行环节，仅辅助前后工作。作者明确root命令执行不等于任意文件与进程控制。 **[其他 AI 逆向 · 待验证]**
 - [大金空调遥控器：Tony Huang用Codex为LilyGO T-Display写替代固件](cases/greatony-codex-lilygo-daikin-remote-firmware.md) — Tony Huang嫌大金遥控器又大又重，称让Codex写固件，把LilyGO T-Display变成替代遥控器并公开代码。尚未取得仓库正文或控制测试。 **[其他 AI 逆向 · 待验证]**
@@ -744,6 +750,14 @@
 
 ### 应用与客户端
 
+- [Super Harness：Aman Singh介绍接入AI API的逆向CLI](cases/super-harness-aman-singh-ai-re-cli.md) — 作者介绍面向目标软件的一体化逆向命令行harness，称接入AI API即可使用；未给可核验的目标实验或兼容测试。 **[其他 AI 逆向 · 相关项目]**
+- [短剧软件研究：0xMomo用本地Qwen、Pi与REA分析双平台安装包](cases/local-qwen-pi-rea-short-drama-app-study.md) — 作者称分析一款未具名短剧软件的DMG与Windows包，提取Electron架构和业务流程，准备交给Codex／DeepSeek继续重建；自述解锁不等于合法授权或完整替代品。 **[REA · 进行中]**
+- [Instagram的AI应用名单：Alex Choi称Claude反编译找到odin检测函数](cases/alex-choi-instagram-claude-odin-ai-apps-detector.md) — Alex Choi称把手机接到笔记本、让Claude Code反编译Instagram，找到含23款应用的odin_ai_apps_detector；未给APK版本、调用链或动态验证。 **[其他 AI 逆向 · 待验证]**
+- [Gakupo V5到SynthV：Wonderfulworld提出AI逆向的声音库互通设想](cases/gakupo-v5-synthv-ai-research-idea.md) — Wonderfulworld猜测AI逆向可能让Gakupo V5进入SynthV；只是具体目标设想，没有转换程序、授权或音频测试。 **[其他 AI 逆向 · 待验证]**
+- [GPT的Mac实现：Ky1eSean想用AI逆向以借鉴客户端](cases/kylesean-gpt-mac-ai-research-idea.md) — 作者明确想让AI研究GPT的Mac实现以便借鉴，未报告分析或重建已经完成。 **[其他 AI 逆向 · 待验证]**
+- [Grok Bot多模型网关：RuntimeWire称逆向Cursor RTP](cases/runtimewire-cursor-rtp-grokbot-multimodel-gateway.md) — RuntimeWire称团队研究Cursor的RTP并制作网关，让Grok Bot不限于Grok 4.7；未公开本次可核验的协议或模型兼容记录。 **[未确认使用 REA · 待验证]**
+- [WhatsApp桌面版：读者希望用REA去除AI并简化客户端](cases/whatsapp-rea-remove-ai-desktop-idea.md) — 读者提出用REA研究WhatsApp、移除AI功能并改善桌面使用的具体愿望，没有补丁或可用客户端。 **[REA · 待验证]**
+- [Mailchimp：manutheblacker建议用REA研究邮件营销服务](cases/mailchimp-rea-business-tool-idea.md) — 作者问为何不用REA逆向Mailchimp，认为企业有需求；未提出具体架构或报告重建。 **[REA · 待验证]**
 - [跨平台原生集成：BowTiedStack称Grok Bot逆向并协调Cursor做SaaS](cases/bowtiedstack-grokbot-native-os-saas-integration.md) — 作者报告数月内以Grok Bot协调Cursor云Agent，研究Windows／Mac／Linux复杂原生集成并做端到端QA；产品与接口未具名，不能核实团队或工时替代倍数。 **[其他 AI 逆向 · 待验证]**
 - [Instacart命令行：Peyton Casper称借AI逆向API](cases/peyton-casper-instacart-ai-cli-report.md) — 作者以AI让世界变得可声明为背景，报告把Instacart配送购物API逆向成CLI；未提供命令、接口、代码或可独立核验的操作结果。 **[其他 AI 逆向 · 待验证]**
 - [百度网盘摇一摇广告：AI逆向的No Shake与磁力计解释尚未证实](cases/baidu-netdisk-ai-noshake-sensor-analysis-report.md) — 三个转述把限制运动数据后仍跳广告与AI分析联系起来；No Shake／磁力计是开发者推断，记者观察不验证传感器路径，也不足证明百度主动规避。 **[其他 AI 逆向 · 待验证]**
