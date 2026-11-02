@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1454 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1464 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（315）
-- [硬件与设备互通](categories/hardware.md)（386）
-- [应用与客户端](categories/apps.md)（596）
-- [算法与功能重建](categories/algorithms.md)（157）
+- [游戏与游戏保存](categories/games.md)（318）
+- [硬件与设备互通](categories/hardware.md)（387）
+- [应用与客户端](categories/apps.md)（600）
+- [算法与功能重建](categories/algorithms.md)（159）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [Sonic Heroes：Sewer56说明AI重编译复用了数千小时人工逆向代码](cases/sonic-heroes-sewer56-ai-recompile-attribution.md) — Sewer56称AI把他长期人工逆向所得代码包装进重编译项目，提醒区分已有知识与AI贡献；未核对具体仓库、构建或可玩范围。 **[其他 AI 逆向 · 待验证]**
+- [Wordle重复字母：Creator Stacks称REA追踪着色逻辑，再做本地版本](cases/wordle-rea-duplicate-letter-local-rebuild-report.md) — 作者称让REA调查Wordle如何给重复字母着色，再制作自己的本地版本；未给具体规则、源码或对照测试，不确认行为等价。 **[REA · 待验证]**
+- [超级马里奥兄弟惊奇：WangNextDoor转述AI辅助PC移植与60帧说法](cases/super-mario-bros-wonder-ai-pc-port-secondary-claim.md) — 二手评论具体称主机游戏惊奇快速移植PC并60帧运行，未给开发者、仓库或测试；只保留未核验主张，不等同原生移植成功。 **[其他 AI 逆向 · 待验证]**
 - [PE2PC：Snaity以Claude辅助把寄生前夜II既有反编译移植到Windows](cases/parasite-eve2-pe2pc-claude-native-port.md) — 公开项目在GabeRealB等人的反编译C代码上构建原生Windows移植，明确Claude Code与人类审阅测试分工；60fps是30fps逻辑间插帧，非逻辑翻倍。 **[其他 AI 逆向 · 进行中]**
 - [波斯王子时之砂：Zer0Z建议Claude反编译原作，再雇Mod作者更新模型](cases/prince-persia-sands-time-claude-decompile-remodel-idea.md) — 回应玩家资助已取消重制的报道，Zer0Z建议将资金用于Claude反编译原作与模型更新；无实施结果。 **[其他 AI 逆向 · 待验证]**
 - [Pokémon Bank／Mover：Wokann公开Codex辅助离线补丁，不支持HOME传输](cases/wokann-pokemon-bank-mover-codex-offline-patch.md) — 评论者提到Codex辅助；固定项目README明确AI参与反编译分析、补丁设计、编码和审阅，以3DS本地假服务器保留Bank／Mover流程，非官方服务器完整复刻。 **[其他 AI 逆向 · 进行中]**
@@ -344,6 +347,7 @@
 
 ### 硬件与设备互通
 
+- [Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为](cases/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。 **[其他 AI 逆向 · 进行中]**
 - [Suprik的Starlink路由器：称Claude发现netcache模块与夜间外传](cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik称Claude检查自有路由器并发现netcache、夜间3.4GB外传，随后隔离重置；未给固件、样本或流量证据，不能证明所述窃取机制。 **[其他 AI 逆向 · 待验证]**
 - [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
 - [M8 Orange的显卡：称Codex以REA研究其他型号，再移植到Windows自有卡](cases/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — M8 Orange在显卡unlock讨论中报告Codex／REA跨型号与Windows移植成功；未说自己的型号、解锁内容或测试。 **[REA · 待验证]**
@@ -733,6 +737,10 @@
 
 ### 应用与客户端
 
+- [ClipShare：vartekx用Opus做Mac／Windows／iPhone局域网剪贴板替代品](cases/clipshare-vartekx-opus-cross-platform-lan-clipboard.md) — 作者称Opus制作跨平台剪贴板并修复发现与重复实例配对问题，报告40项端到端测试和40MB往返；作者串描述普通系统接口，不证明逆向Apple私有协议。 **[其他 AI 逆向 · 进行中]**
+- [Joying.eth的17仓库逆向工作室：REA路由反编译、调试与流量工具](cases/joying-rea-seventeen-repo-reverse-engineering-studio.md) — 作者称一份配置把REA等17仓库接到同会话与MCP，按原生、APK、.NET和流量分工；未给全配置或具名目标测试，不验证通用覆盖。 **[REA · 相关项目]**
+- [未具名ST软件：Novo Line称过去一周用Claude处理复制保护](cases/novo-line-claude-unspecified-st-copy-protection-report.md) — Novo Line称在过去一周处理某些ST软件复制保护时Claude未拒绝；无软件名、过程或产物，不能当作可复现移除保护或模型政策结论。 **[其他 AI 逆向 · 待验证]**
+- [0xloworbit的四角色交接指南：分析、规格、重建与验证分开](cases/0xloworbit-four-role-reverse-engineering-handoff-guide.md) — 作者提出以环境边界、证据文件、行为规格和测试使四角色交接可审阅；未读所链指南全文或运行具体目标，不声称强制隔离或等价。 **[未确认使用 REA · 相关项目]**
 - [停服记账App数据救援：cabbit称REA／Claude导出11年交易，修正时区日期](cases/cabbit-dead-budget-app-rea-transaction-export.md) — cabbit称研究640MB本地文件与加载函数后导出18406笔交易、1212张收据图，先发现37笔日期错误；App未具名，代码与抽查未公开。 **[REA · 待验证]**
 - [Karpathy的HN精选视频站：Claude辅助重建阅读体验，不是恢复YouTube算法](cases/karpathy-hn-youtube-claude-curated-feed-report.md) — 第三方称Karpathy用Claude从HN评论筛出6454个视频与150主题，并解释推荐规则；未查原博客或站点，不认定已逆向YouTube后台。 **[其他 AI 逆向 · 相关项目]**
 - [Ju1y的anti-rea：JS局部改名与惰性诱饵，尚无对Agent有效性的基准](cases/ju1y-anti-rea-javascript-decoy-obfuscator.md) — Ju1y公开实验性JS混淆器，针对REA等Agent改局部标识符、插不可达字符串；文档明确source map可泄露原码、未benchmark阻断效果。 **[REA · 相关项目]**
@@ -1233,7 +1241,7 @@
 - [洛克输入法：研究 Typeless 后用苹果端侧能力做本地输入](cases/rokoinput-apple-local-voice.md) — 作者报告 REA 辅助研究后制作 Roko Input，公开源码并强制端侧语音识别。 **[REA · 进行中]**
 - [ReaCut：研究剪映本地行为，制作独立视频编辑器](cases/reacut-jianying-open-editor.md) — 公开研究、独立项目格式和导出验证，明确不承诺商业剪映完整对等。 **[REA · 进行中]**
 - [REA + archify：把分析材料整理成可交互架构图](cases/rea-archify-diagrams.md) — 作者报告将逆向结果交给架构图 Skill，生成独立 HTML 图示。 **[REA · 相关项目]**
-- [macOS 备忘录：REA 辅助重建三栏 SwiftUI 应用的转述](cases/apple-notes-rea-swiftui-rebuild.md) — 第三方描述调查原生备忘录后重建笔记、文件夹、搜索与删除恢复交互。 **[REA · 待验证]**
+- [macOS 备忘录：REA三栏重建转述与Little Moments的同目标演示介绍](cases/apple-notes-rea-swiftui-rebuild.md) — 较早转述称重建三栏SwiftUI笔记交互；Little Moments另介绍用REA制作类似Mac Notes应用的尝试，未给结果，不证明同一实现或同步兼容。 **[REA · 待验证]**
 - [Nuke / Houdini / Gurobi：让 AI 配合 Ghidra 研究替代品的 idea](cases/industrial-tools-ai-ghidra-rebuild-idea.md) — 建议研究高价创作、求解和工业软件，制作低价替代；无实际分析结果。 **[其他 AI 逆向 · 进行中]**
 - [reverse-skill：给编程 Agent 的多目标逆向路线](cases/reverse-skill-agent-workflows.md) — 公开仓库提供规则路由、授权范围、工具索引和离线样本流程；178条为路由基准规模，不是成功逆向178个目标。 **[未确认使用 REA · 相关项目]**
 - [自己的预约漏斗：调查前端后重建共享日历](cases/booking-funnel-rea-calendar.md) — 作者报告 Claude + REA 从公开前端识别预约规则与 API，做出个人日历。 **[REA · 待验证]**
@@ -1332,6 +1340,8 @@
 
 ### 算法与功能重建
 
+- [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
+- [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**
 - [Granola品牌动效：Kevin DePopas拆解Ragged Edge设计，建议用Claude重建](cases/granola-ragged-edge-claude-motion-rebuild-idea.md) — Kevin拆解照片颗粒、分列交错、UI叠加与S曲线，给出33ms和550／650ms参数并建议Claude实现；未展示重建或相似度测试。 **[其他 AI 逆向 · 待验证]**
 - [TSLA六工具交易台：RetroChainer称REA映射指标，多个Agent按信号投票](cases/rea-tsla-six-agent-indicator-desk-report.md) — RetroChainer描述REA映射指标、Yahoo日线及趋势／动量／成交量／回撤投票；每1万美元赚258美元是无日期区间与费用口径的宣传结果。 **[REA · 待验证]**
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**

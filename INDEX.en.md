@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1454 entries**, organized by use case, without a Top-N or popularity threshold.
+**1464 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (315)
-- [Hardware and interoperability](categories/en/hardware.md) (386)
-- [Applications and clients](categories/en/apps.md) (596)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (157)
+- [Games and preservation](categories/en/games.md) (318)
+- [Hardware and interoperability](categories/en/hardware.md) (387)
+- [Applications and clients](categories/en/apps.md) (600)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (159)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Sonic Heroes: Sewer56 says an AI recompile reuses thousands of hours of human reversing](cases/en/sonic-heroes-sewer56-ai-recompile-attribution.md) — Sewer56 says AI repackages code assembled through his long-term manual reverse engineering. The specific repository, build and playable scope were not checked. **[Other AI-assisted work · Needs verification]**
+- [Wordle duplicate letters: Creator Stacks reports tracing colors with REA and building a local version](cases/en/wordle-rea-duplicate-letter-local-rebuild-report.md) — The author says REA traced Wordle's duplicate-letter coloring and built a local version. No exact rule, code or comparison tests establish behavioral equivalence. **[REA · Needs verification]**
+- [Super Mario Bros. Wonder: WangNextDoor repeats an AI-assisted PC-port and 60-fps claim](cases/en/super-mario-bros-wonder-ai-pc-port-secondary-claim.md) — A secondary commentary claims Wonder was quickly ported to PC at 60 fps, without a developer, repository or test. This is an unverified claim, not established native-port success. **[Other AI-assisted work · Needs verification]**
 - [PE2PC: Snaity's Claude-assisted native Windows port builds on the existing Parasite Eve II decompilation](cases/en/parasite-eve2-pe2pc-claude-native-port.md) — A public native Windows port builds on GabeRealB and contributors' decompiled C, explicitly separating Claude Code assistance from human review/testing. Sixty-fps presentation interpolates 30-fps logic. **[Other AI-assisted work · In progress]**
 - [Prince of Persia: The Sands of Time — Zer0Z suggests Claude decompilation and modder-updated models](cases/en/prince-persia-sands-time-claude-decompile-remodel-idea.md) — Responding to a report about funding the canceled remake, Zer0Z proposes Claude decompilation of the original and hiring a modder to update models. No implementation is reported. **[Other AI-assisted work · Needs verification]**
 - [Pokémon Bank/Mover: Wokann's public Codex-assisted offline patch does not support HOME transfer](cases/en/wokann-pokemon-bank-mover-codex-offline-patch.md) — A commenter credits Codex; the pinned README explicitly discloses AI-assisted decompilation analysis, patch design, coding and review. A local 3DS fake server preserves Bank/Mover workflows, not the complete official server. **[Other AI-assisted work · In progress]**
@@ -346,6 +349,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Ryan Blass's air purifier: an AI-agent swarm investigation of device behavior](cases/en/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan says he is reversing his air purifier to learn what it does. No brand, model, protocol or finding is given; this is an in-progress device project. **[Other AI-assisted work · In progress]**
 - [Suprik's Starlink router: a claimed Claude finding of netcache and nightly exfiltration](cases/en/suprik-starlink-netcache-claude-investigation-report.md) — Suprik says Claude found netcache and nightly 3.4GB transfers on a personal router, followed by isolation/reset. No firmware, sample or traffic evidence establishes the alleged theft mechanism. **[Other AI-assisted work · Needs verification]**
 - [Butterfly ultrasound chips: a reader proposes AI patent analysis and alternative-architecture research](cases/en/butterfly-ultrasound-patent-ai-design-around-idea.md) — A reader lists six Butterfly Network patents and asks whether AI-assisted reading, functional reconstruction and alternative designs weaken its moat. No chip design or validation is supplied. **[Other AI-assisted work · Needs verification]**
 - [M8 Orange's GPU: a reported Codex/REA cross-model port to their card and Windows](cases/en/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — In a GPU-unlock discussion, M8 Orange reports successful Codex/REA research on other models and a Windows port. Their card, unlocked feature and tests are unspecified. **[REA · Needs verification]**
@@ -735,6 +739,10 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [ClipShare: vartekx's Opus-built LAN clipboard alternative for Mac, Windows and iPhone](cases/en/clipshare-vartekx-opus-cross-platform-lan-clipboard.md) — The author reports a cross-platform clipboard, discovery/duplicate-instance fixes, 40 end-to-end tests and a 40MB round trip. The thread describes ordinary OS interfaces, not proven recovery of Apple's private protocol. **[Other AI-assisted work · In progress]**
+- [Joying.eth's 17-repository reversing studio: REA routes decompilers, debuggers and traffic tools](cases/en/joying-rea-seventeen-repo-reverse-engineering-studio.md) — The author says one configuration connects REA and 16 other repositories in a session/MCP, dividing native, APK, .NET and traffic work. No complete configuration or named-target test verifies universal coverage. **[REA · Related project]**
+- [Unspecified ST software: Novo Line reports Claude-assisted copy-protection work over the past week](cases/en/novo-line-claude-unspecified-st-copy-protection-report.md) — Novo Line says Claude did not refuse copy-protection work on unspecified ST software. No names, process or artifacts establish reproducible removal or a general model-policy conclusion. **[Other AI-assisted work · Needs verification]**
+- [0xloworbit's four-role handoff guide: separate analysis, specification, rebuilding and verification](cases/en/0xloworbit-four-role-reverse-engineering-handoff-guide.md) — The author proposes environment boundaries, evidence files, behavior specs and tests for reviewable four-role handoffs. The linked full guide and any target runs were not checked; enforced isolation/equivalence is not established. **[REA use unconfirmed · Related project]**
 - [Rescuing a discontinued budgeting app: cabbit reports REA/Claude export of 11 years and a timezone-date fix](cases/en/cabbit-dead-budget-app-rea-transaction-export.md) — cabbit reports analyzing a 640MB local file and loader, exporting 18,406 transactions and 1,212 receipt photos after finding 37 wrong dates. The app, code and spot-check logs are undisclosed. **[REA · Needs verification]**
 - [Karpathy's HN-curated video site: a Claude-assisted viewing alternative, not recovery of YouTube's algorithm](cases/en/karpathy-hn-youtube-claude-curated-feed-report.md) — A third party says Karpathy used Claude to curate 6,454 videos across 150 topics from HN comments, and describes selection rules. The original blog/site was not checked; YouTube-backend reversing is not established. **[Other AI-assisted work · Related project]**
 - [Ju1y's anti-rea: local JavaScript renaming and inert decoys, without agent-effectiveness benchmarks](cases/en/ju1y-anti-rea-javascript-decoy-obfuscator.md) — Ju1y's experimental JS obfuscator renames locals and adds unreachable strings against REA-like agents. Documentation warns that source maps reveal originals and blocking effectiveness is unbenchmarked. **[REA · Related project]**
@@ -1235,7 +1243,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Roko Input: Apple on-device dictation after Typeless research](cases/en/rokoinput-apple-local-voice.md) — The author credits REA research; public source uses Apple speech APIs, stops without on-device support, and retains plaintext history by default. Personal non-commercial license; not independently tested. **[REA · In progress]**
 - [ReaCut: an independent editor informed by Jianying research](cases/en/reacut-jianying-open-editor.md) — Public research separates observed app behavior from original implementation; project validation reports real exports and plugin tests while retaining signing, CI, host and platform limitations. **[REA · In progress]**
 - [REA and archify: interactive architecture diagrams](cases/en/rea-archify-diagrams.md) — An author describes converting REA findings into typed diagram data and interactive HTML using archify; unnamed targets and diagram output do not establish a successful app rebuild. **[REA · Related project]**
-- [macOS Notes: a reported REA-assisted SwiftUI rebuild](cases/en/apple-notes-rea-swiftui-rebuild.md) — A secondary account describes a three-pane app with folders, search, pinning and delete/restore interactions; it supplies no reproducible test or Apple sync implementation. **[REA · Needs verification]**
+- [macOS Notes: a reported three-pane REA rebuild and Little Moments's same-target demo introduction](cases/en/apple-notes-rea-swiftui-rebuild.md) — An earlier account describes three-pane SwiftUI note interactions. Little Moments separately introduces an REA-assisted Mac Notes-like app attempt without results, not proof of the same implementation or sync compatibility. **[REA · Needs verification]**
 - [Nuke, Houdini and Gurobi: an AI/Ghidra replacement idea](cases/en/industrial-tools-ai-ghidra-rebuild-idea.md) — A poster proposes studying named creative and optimization tools to build low-cost alternatives; there is no executed analysis, implementation or performance evidence. **[Other AI-assisted work · In progress]**
 - [reverse-skill: investigation workflows for coding agents](cases/en/reverse-skill-agent-workflows.md) — A public repository provides rule-based routing, authorization scopes, a tool index and offline-sample workflows; 178 routing cases are not 178 successfully reversed targets. **[REA use unconfirmed · Related project]**
 - [A booking funnel investigated and rebuilt as a personal calendar](cases/en/booking-funnel-rea-calendar.md) — The author reports Claude/REA inspection of frontend booking rules and an API, followed by a shareable calendar app; no backend access or independent scheduling tests are supplied. **[REA · Needs verification]**
@@ -1334,6 +1342,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Turnstile payloads: Tamamo reports AI-assisted study of 746 variables and deterministic repeats](cases/en/tamamo-turnstile-ai-deterministic-payload-research.md) — The author reports identical payloads across obfuscated/deobfuscated code in a deterministic environment after about a week. No code, logs or online acceptance establish a Cloudflare bypass. **[Other AI-assisted work · Needs verification]**
+- [Junior's mythos-method reconstruction: five fable questions, then tools built with Cursor/Hermes](cases/en/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — The author infers a deterministic tool loop and says resulting tools found bugs in a 20-year-old repository. No named repository, issue or model revision establishes recovery of an internal method. **[Other AI-assisted work · Needs verification]**
 - [Granola's brand motion: Kevin DePopas analyzes Ragged Edge's design and proposes rebuilding it with Claude](cases/en/granola-ragged-edge-claude-motion-rebuild-idea.md) — Kevin breaks down grainy photos, staggered columns, UI overlays and S-curves, giving 33ms and 550/650ms parameters for a Claude-assisted rebuild. No rebuild or similarity test is shown. **[Other AI-assisted work · Needs verification]**
 - [A six-tool TSLA desk: RetroChainer reports REA indicator mapping and agent signal votes](cases/en/rea-tsla-six-agent-indicator-desk-report.md) — RetroChainer describes REA indicator mapping, Yahoo daily bars and trend/momentum/volume/drawdown votes. The promoted USD 258 per USD 10,000 has no test period or cost accounting. **[REA · Needs verification]**
 - [Danny Bones production teardown: George Pygall researches an audience with Claude and builds a new AI persona](cases/en/george-pygall-danny-bones-ai-persona-reconstruction.md) — George infers a persona, voice and video-production workflow from an AI rapper. His thread names research, character-image, speech and talking-head tools, but does not recover the original team's internal process. **[Other AI-assisted work · Needs verification]**

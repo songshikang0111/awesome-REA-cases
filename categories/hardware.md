@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为](../cases/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。 **[其他 AI 逆向 · 进行中]**
 - [Suprik的Starlink路由器：称Claude发现netcache模块与夜间外传](../cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik称Claude检查自有路由器并发现netcache、夜间3.4GB外传，随后隔离重置；未给固件、样本或流量证据，不能证明所述窃取机制。 **[其他 AI 逆向 · 待验证]**
 - [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](../cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
 - [M8 Orange的显卡：称Codex以REA研究其他型号，再移植到Windows自有卡](../cases/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — M8 Orange在显卡unlock讨论中报告Codex／REA跨型号与Windows移植成功；未说自己的型号、解锁内容或测试。 **[REA · 待验证]**

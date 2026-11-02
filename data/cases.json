@@ -1,5 +1,165 @@
 [
   {
+    "id": "sonic-heroes-sewer56-ai-recompile-attribution",
+    "title": "Sonic Heroes：Sewer56说明AI重编译复用了数千小时人工逆向代码",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Sewer56称AI把他长期人工逆向所得代码包装进重编译项目，提醒区分已有知识与AI贡献；未核对具体仓库、构建或可玩范围。",
+    "description": "2026年11月2日05:36:28（北京时间），Sewer56（@TheSewer56）在Sonic Heroes讨论中澄清，AI只是复制他历经数千小时逆向整理的代码，再包装到重编译中；他仍希望大家能更好地玩这款游戏。Sonic Heroes是具体游戏目标，回复的价值在贡献归因：AI参与封装／重编译不能抹掉此前人工恢复的代码与知识，也不能写成模型从零独立反编译。\n\n补查原帖确认署名与全文，但未识别所指重编译仓库、平台、AI模型或代码版本，也未比较复用代码、检查许可／署名、构建或游玩。“数千小时”是Sewer56对自己长期工作的自述，不是AI任务计时；未提供函数匹配率或完整通关结果。保留为作者归因报告，而非已独立证实的代码复制指控、移植成功或法律判断；未提REA。",
+    "sources": [{"label": "Sewer56关于Sonic Heroes人工逆向与AI重编译归因的回复，2026-11-02", "url": "https://x.com/i/status/2117007895078269285"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照3赞、51浏览、0转发；数千小时为作者既有人工工作口径，具体重编译实现未核对。"],
+    "en": {
+      "title": "Sonic Heroes: Sewer56 says an AI recompile reuses thousands of hours of human reversing",
+      "summary": "Sewer56 says AI repackages code assembled through his long-term manual reverse engineering. The specific repository, build and playable scope were not checked.",
+      "description": "At 05:36:28 Beijing time on November 2, 2026, Sewer56 (@TheSewer56) clarifies in a Sonic Heroes discussion that AI copied code he painstakingly assembled over thousands of hours of reverse engineering and repackaged it inside a recompile. He still wants people to enjoy the game a little better. Sonic Heroes is the specific target; the contribution boundary matters: AI packaging/recompilation must not erase earlier human recovery of code and knowledge or become a claim of independent, from-scratch AI decompilation.\n\nOriginal-post lookup confirmed attribution and wording. The referenced recompile repository, platform, AI model and revision were not identified; reused code, licensing/credit, builds and gameplay were not checked. Thousands of hours describes Sewer56's own earlier work, not AI task duration. No function-match rate or full-completion result is provided. Retained as an attribution report, not an independently established copying allegation, successful port or legal conclusion. REA is not mentioned.",
+      "metadata": ["Candidate snapshot: 3 likes, 51 views, 0 reposts. Thousands of hours refers to the author's prior human work; the specific recompile was not inspected."],
+      "source_labels": ["Sewer56's reply on human Sonic Heroes reversing and AI-recompile attribution, November 2, 2026"]
+    }
+  },
+  {
+    "id": "clipshare-vartekx-opus-cross-platform-lan-clipboard",
+    "title": "ClipShare：vartekx用Opus做Mac／Windows／iPhone局域网剪贴板替代品",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "作者称Opus制作跨平台剪贴板并修复发现与重复实例配对问题，报告40项端到端测试和40MB往返；作者串描述普通系统接口，不证明逆向Apple私有协议。",
+    "description": "2026年11月2日07:12:49（北京时间），vartekx（@vartekxx）把ClipShare称作以Opus 5.5逆向Apple剪贴板的作品：希望Mac复制后直接在Windows粘贴，iPhone从网页参与，而不是靠聊天软件中转。作者称从空目录和“AirDrop, but between PC and iPhone”提示开始，由Claude Code选用Python标准库本地服务；iOS后台剪贴板受限，因此改用两个签名的Back Tap快捷指令。\n\n作者报告40项端到端测试、40MB文件逐字节往返，称修复macOS全局广播发现失败、未配对前不能粘贴地址的引导死循环，以及两份进程各显示不同配对码的问题；改为自动发现、六位码配对并禁止重复启动。称一个晚上、自己零行代码、最终62KB两个文件，另做Vercel落地页与Remotion宣传片。这些是作者报告，不是本合集计时、源码计数或硬件测试。\n\n补读同作者串中07:12:50的完整构建提示作为补充材料，不把它另算候选。提示要求Windows用ctypes调用Win32、Mac用pbcopy／pbpaste，同文件connect模式双向同步，iPhone使用Safari；要求流式文件最多2GB、请求密钥、每次启动更换配对码、五次错码锁一分钟、过滤系统标记的私密剪贴板及只存内存历史。这些是需求，不是已审计的实现。提示明确LAN使用明文HTTP、限家庭Wi-Fi，不能把“无云”写成传输加密或安全保证。40MB自测也不能证明2GB上限可用。\n\n只查原帖与作者串，未解析仓库短链、阅读源码、观看演示或运行服务；未接触真实剪贴板、密钥或配对。所述普通系统接口支持功能替代的解释，没有证据证明恢复了Apple通用剪贴板／AirDrop私有协议，也不保证所有系统自动后台同步。",
+    "sources": [{"label": "候选：vartekx的ClipShare制作、测试与配对排错报告，2026-11-02", "url": "https://x.com/i/status/2117032140009594890"}, {"label": "补充同作者串：完整构建提示与明文HTTP边界，2026-11-02 07:12:50", "url": "https://x.com/i/status/2117032145139204569"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照12赞、324浏览、0转发；40测试、40MB、一个晚上、62KB与两个文件均为作者自述。", "2GB、密钥、私密标记过滤与锁定是构建提示要求，未经源码或安全验证；LAN明文HTTP。"],
+    "en": {
+      "title": "ClipShare: vartekx's Opus-built LAN clipboard alternative for Mac, Windows and iPhone",
+      "summary": "The author reports a cross-platform clipboard, discovery/duplicate-instance fixes, 40 end-to-end tests and a 40MB round trip. The thread describes ordinary OS interfaces, not proven recovery of Apple's private protocol.",
+      "description": "At 07:12:49 Beijing time on November 2, 2026, vartekx (@vartekxx) presents ClipShare as reverse engineering Apple's clipboard with Opus 5.5. The goal is copying on Mac and pasting on Windows, with iPhone joining through a web page instead of messaging oneself. Starting in an empty directory with 'AirDrop, but between PC and iPhone', Claude Code reportedly chose a Python-standard-library local service. Because iOS restricts background clipboard access, two signed Back Tap Shortcuts replace that path.\n\nThe author reports 40 end-to-end tests and a byte-for-byte 40MB file round trip. They describe fixing failed macOS global-broadcast discovery, an onboarding loop requiring an address to be pasted before clipboards were connected, and two running instances showing different pairing codes. Automatic discovery, a six-digit pairing code and duplicate-start prevention reportedly resolve these. One evening, zero personally written code, 62KB and two final files are author claims, alongside a Vercel landing page and Remotion promo, not this collection's timings, source counts or hardware tests.\n\nThe same author's full build prompt at 07:12:50 was read as supplementary thread material, not another candidate. It requests Windows Win32 calls through ctypes, Mac pbcopy/pbpaste, bidirectional connect mode in the same file and iPhone Safari access. Streaming files up to 2GB, a request secret, a fresh code on restart, a one-minute lockout after five wrong attempts, OS-marked private-clipboard filtering and memory-only history are requirements, not audited implementations. It explicitly warns that LAN traffic is plain HTTP for home Wi-Fi. No cloud does not mean encryption or established security; a 40MB self-test does not verify the 2GB limit.\n\nOnly the original post and author thread were read. Repository short links were not resolved, source/demo not inspected and the service not run. No real clipboard, key or pairing was accessed. The described ordinary OS interfaces support a functional alternative, not demonstrated recovery of Apple's Universal Clipboard/AirDrop private protocol or guaranteed automatic background synchronization on every system.",
+      "metadata": ["Candidate snapshot: 12 likes, 324 views, 0 reposts. Forty tests, 40MB, one evening, 62KB and two files are author reports.", "The 2GB limit, secrets, private-marker filtering and lockout are prompt requirements, not source/security verification. LAN traffic is plain HTTP."],
+      "source_labels": ["Candidate: vartekx's ClipShare build, test and pairing-debugging report, November 2, 2026", "Supplementary author thread: full build prompt and plain-HTTP limit, November 2 at 07:12:50"]
+    }
+  },
+  {
+    "id": "wordle-rea-duplicate-letter-local-rebuild-report",
+    "title": "Wordle重复字母：Creator Stacks称REA追踪着色逻辑，再做本地版本",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "作者称让REA调查Wordle如何给重复字母着色，再制作自己的本地版本；未给具体规则、源码或对照测试，不确认行为等价。",
+    "description": "2026年11月2日05:08:10（北京时间），Creator Stacks（@Creatorstacks）以Wordle的重复字母着色为具体问题，称让REA追踪真实逻辑，然后制作自己的本地版本。Wordle是按字母位置与出现情况给猜词反馈的游戏；重复字母使同一猜测中的多次出现如何分配反馈成为具体重建目标，而不是只仿制界面。\n\n补查原帖确认署名与全文。帖子称REA可配Claude Code和Codex，但未明确该次使用哪一个Agent／模型；末尾“Opus 5.5课程”宣传也不能证明这一轮用的就是Opus。未披露分析的是哪一版Wordle、定位到的函数、完整重复字母规则、源码或逐输入对照结果；视频存在但未观看。本地版本与证据式研究均为作者报告，不独立确认等价、完全离线或任意应用均可逆向，也不把课程宣传当作复现记录。",
+    "sources": [{"label": "Creator Stacks的Wordle重复字母调查与本地重建报告，2026-11-02", "url": "https://x.com/i/status/2117000769350049948"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照1赞、104浏览、0转发；没有测试输入、匹配率或明确的本次模型。"],
+    "en": {
+      "title": "Wordle duplicate letters: Creator Stacks reports tracing colors with REA and building a local version",
+      "summary": "The author says REA traced Wordle's duplicate-letter coloring and built a local version. No exact rule, code or comparison tests establish behavioral equivalence.",
+      "description": "At 05:08:10 Beijing time on November 2, 2026, Creator Stacks (@Creatorstacks) names Wordle's duplicate-letter coloring as a concrete research question, saying REA traced the real logic and then built a local version. Wordle gives letter-position and occurrence feedback on guesses. Allocating feedback to repeated occurrences is a specific behavioral-reconstruction target, not simply a UI imitation.\n\nOriginal-post lookup confirmed attribution and full wording. The post says REA works with Claude Code and Codex but does not identify which agent/model was used for this investigation. Advertising an Opus 5.5 course at the end is not proof of that model's use. The Wordle revision, located functions, complete duplicate-letter rules, source and input-by-input comparisons are undisclosed. A video is attached but was not watched. Both local rebuilding and evidence-based tracing remain author reports, not independent confirmation of equivalence, completely offline operation or universal app reversing. Course promotion is not a reproduction record.",
+      "metadata": ["Candidate snapshot: 1 like, 104 views, 0 reposts. No test inputs, match rate or explicit model for this run."],
+      "source_labels": ["Creator Stacks's Wordle duplicate-letter investigation and local-rebuild report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "ryan-blass-ai-agent-swarm-air-purifier-investigation",
+    "title": "Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。",
+    "description": "2026年11月2日06:26:06（北京时间），Ryan Blass（@karpuzmining）称正在用一群AI Agent逆向自己的空气净化器，目的是了解它在做什么，并请读者等待后续。具体背景是个人家用设备的行为调查，而不是已披露的漏洞或替代控制器。\n\n补查原帖确认署名与正文，附有图片但本轮未检查。尚无品牌型号、Agent／模型、REA使用说明、固件、流量、协议、源码或研究发现；不能据“它在做什么”推断外传、监控、恶意行为或取得控制权限。作为in-progress保留，不要求已成功但不虚构结果。本合集未连接设备、安装工具或执行目标。",
+    "sources": [{"label": "Ryan Blass宣布AI Agent群空气净化器调查，2026-11-02", "url": "https://x.com/i/status/2117020384847372372"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照11赞、340浏览、1转发；仅有项目启动自述，未报告技术发现。"],
+    "en": {
+      "title": "Ryan Blass's air purifier: an AI-agent swarm investigation of device behavior",
+      "summary": "Ryan says he is reversing his air purifier to learn what it does. No brand, model, protocol or finding is given; this is an in-progress device project.",
+      "description": "At 06:26:06 Beijing time on November 2, 2026, Ryan Blass (@karpuzmining) says he is reverse engineering his own air purifier with a swarm of AI agents to find out what it is up to, asking readers to stay tuned. The concrete context is investigation of a personal home device's behavior, not a disclosed vulnerability or replacement controller.\n\nOriginal-post lookup confirmed attribution and text. An image is attached but was not inspected here. No brand/model, agent/model, REA use, firmware, traffic, protocol, source or findings are supplied. The wording does not establish exfiltration, surveillance, malicious behavior or control access. Retained as in-progress without requiring prior success or inventing results. No device was connected, tools installed or targets executed by this collection.",
+      "metadata": ["Candidate snapshot: 11 likes, 340 views, 1 repost. A project-start report only, without technical findings."],
+      "source_labels": ["Ryan Blass announces an AI-agent-swarm air-purifier investigation, November 2, 2026"]
+    }
+  },
+  {
+    "id": "tamamo-turnstile-ai-deterministic-payload-research",
+    "title": "Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。",
+    "description": "2026年11月2日07:22:47（北京时间），Tamamo（@ru_tamamo）报告逆向Cloudflare的机器人检测组件Turnstile，并制作工具研究最终载荷中的746个变量。作者强调相较其他自称逆向的仓库，自己建立确定性环境，使混淆代码与去混淆代码跨次运行得到相同载荷；称AI帮助下约一周，而原先可能要数月。\n\n补查原帖确认署名和全文。746变量、确定性与相同载荷都是作者报告，没有公开在帖中的工具仓库、环境定义、版本、样本或逐字节日志；附图未检查。相同载荷不证明变量语义全部正确、覆盖所有环境、服务端接受或成功绕过反机器人保护；一周是自述，数月是反事实估计，不是受控效率比较。未明确AI模型或REA。只保留高层研究摘要，不运行代码、不向Cloudflare发测试请求，也不提供规避步骤。",
+    "sources": [{"label": "Tamamo的Turnstile变量、确定性载荷与AI工时报告，2026-11-02", "url": "https://x.com/i/status/2117034647645307072"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照2赞、19浏览、0转发；746变量与约一周为自述，未独立核对载荷或在线效果。"],
+    "en": {
+      "title": "Turnstile payloads: Tamamo reports AI-assisted study of 746 variables and deterministic repeats",
+      "summary": "The author reports identical payloads across obfuscated/deobfuscated code in a deterministic environment after about a week. No code, logs or online acceptance establish a Cloudflare bypass.",
+      "description": "At 07:22:47 Beijing time on November 2, 2026, Tamamo (@ru_tamamo) reports reverse engineering Cloudflare's bot-detection component Turnstile and building a tool to research 746 variables in its final payload. In contrast with other repositories claiming to reverse it, the author emphasizes a deterministic environment yielding the same payload across runs of obfuscated and deobfuscated code. They say AI reduced the work to about a week versus a task that might previously have taken months.\n\nOriginal-post lookup confirmed attribution and full text. The 746 variables, determinism and identical payloads are author claims without a tool repository, environment definition, revision, samples or byte-level logs in the post; the attached image was not inspected. Identical payloads do not establish correct semantics for every variable, all-environment coverage, server acceptance or evasion of bot protection. One week is self-reported and months is a counterfactual estimate, not a controlled efficiency comparison. No AI model or REA use is specified. This is a high-level research summary only: no code or Cloudflare test requests were run and no evasion instructions are supplied.",
+      "metadata": ["Candidate snapshot: 2 likes, 19 views, 0 reposts. The 746 variables and roughly one week are self-reported; payloads and online effects were not independently checked."],
+      "source_labels": ["Tamamo's Turnstile-variable, deterministic-payload and AI-duration report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "joying-rea-seventeen-repo-reverse-engineering-studio",
+    "title": "Joying.eth的17仓库逆向工作室：REA路由反编译、调试与流量工具",
+    "category": "apps", "rea": "REA", "status": "related-project",
+    "summary": "作者称一份配置把REA等17仓库接到同会话与MCP，按原生、APK、.NET和流量分工；未给全配置或具名目标测试，不验证通用覆盖。",
+    "description": "2026年11月2日05:47:53（北京时间），Joying.eth（@Joyingeth）把“REA + 16 repos”称为自己的逆向工作室，报告粘贴一份配置后17个仓库在同一会话、五组结构中接入一个MCP。目的是把不同分析路径接到Agent：REA组织流程，原生二进制交Ghidra，APK交jadx，.NET用ILSpy和dnSpy，Frida做运行时观察，另列radare2、x64dbg、ImHex、mitmproxy与angr。\n\n作者将范围限定自有应用和开放二进制，不做保护绕过或许可破解。补查原帖确认署名和全文，但没有完整17项名单、配置、连接日志、具名分析目标或验收结果；附视频未观看。412.4k／96.2k星数是作者给REA／Ghidra的推广快照，不是本合集核验，亦不作为功能证据。“每个二进制可读”“每个包可见”等绝对措辞不表示实际覆盖，工具被列出也不证明已通过MCP完整接通。保留具体编排方案与集成自述，不安装或执行任何仓库。",
+    "sources": [{"label": "Joying.eth的REA与17仓库逆向工作室配置自述，2026-11-02", "url": "https://x.com/i/status/2117010764972044602"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照20赞、943浏览、1转发；17仓库／五组为作者口径，缺完整配置与测试。"],
+    "en": {
+      "title": "Joying.eth's 17-repository reversing studio: REA routes decompilers, debuggers and traffic tools",
+      "summary": "The author says one configuration connects REA and 16 other repositories in a session/MCP, dividing native, APK, .NET and traffic work. No complete configuration or named-target test verifies universal coverage.",
+      "description": "At 05:47:53 Beijing time on November 2, 2026, Joying.eth (@Joyingeth) calls 'REA + 16 repos' a personal reverse-engineering studio. Pasting one configuration reportedly places 17 repositories in one session, five groups deep, behind one MCP. The goal is routing analysis paths to agents: REA runs the loop, native binaries go to Ghidra, APKs to jadx, .NET to ILSpy/dnSpy and runtime observation to Frida, with radare2, x64dbg, ImHex, mitmproxy and angr also listed.\n\nThe author limits this to owned apps and open binaries, excluding protection bypass and license cracking. Original-post lookup confirmed attribution and wording but supplies neither all 17 names nor a full configuration, connection logs, named target or acceptance results. The video was not watched. The 412.4k/96.2k REA/Ghidra star counts are promotional author snapshots, not checked by this collection or evidence of functionality. Absolute claims about reading every binary or packet do not establish coverage; listing a tool does not prove a complete MCP integration. Retained as a concrete orchestration design/integration report without installing or executing any repository.",
+      "metadata": ["Candidate snapshot: 20 likes, 943 views, 1 repost. Seventeen repositories/five groups are author claims without a complete configuration or tests."],
+      "source_labels": ["Joying.eth's REA/17-repository reversing-studio configuration report, November 2, 2026"]
+    }
+  },
+  {
+    "id": "novo-line-claude-unspecified-st-copy-protection-report",
+    "title": "未具名ST软件：Novo Line称过去一周用Claude处理复制保护",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Novo Line称在过去一周处理某些ST软件复制保护时Claude未拒绝；无软件名、过程或产物，不能当作可复现移除保护或模型政策结论。",
+    "description": "2026年11月2日05:42:10（北京时间），Novo Line（@jamthehut）在Claude逆向限制讨论中称，自己过去一周移除了某些“ST things”的复制保护，未遇Claude反对。它提供一个具体时间范围内的AI辅助软件处理自述，但没有软件名、版本或ST释义，故不把缩写擅自扩写成已确认的平台。\n\n补查原帖确认作者与完整句子。作者未给模型、提示、代码、日志、移除机制、权利背景或运行结果；“未拒绝”只适用于自述会话，不能证明当前所有Claude版本允许此类任务，也不能证明保护已正确移除。保留unverified，未提REA，不发布绕过步骤、不下载目标、不执行或验证保护移除。",
+    "sources": [{"label": "Novo Line关于Claude及未具名ST复制保护工作的回复，2026-11-02", "url": "https://x.com/i/status/2117009325944402125"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、8浏览、0转发；过去一周是作者回顾，未说明软件和成功验收。"],
+    "en": {
+      "title": "Unspecified ST software: Novo Line reports Claude-assisted copy-protection work over the past week",
+      "summary": "Novo Line says Claude did not refuse copy-protection work on unspecified ST software. No names, process or artifacts establish reproducible removal or a general model-policy conclusion.",
+      "description": "At 05:42:10 Beijing time on November 2, 2026, Novo Line (@jamthehut) says in a discussion of Claude reversing restrictions that they removed copy protection on certain 'ST things' in the past week without objections from Claude. This is a time-bounded author report of AI-assisted software work, but no software, revision or expansion of ST is given; the abbreviation is not silently turned into a confirmed platform.\n\nOriginal-post lookup confirmed attribution and the full sentence. No model, prompt, code, log, removal mechanism, rights context or runtime result is supplied. No refusal applies only to the reported sessions, not every current Claude version, and does not establish correct removal. Retained as unverified, with no REA mention, bypass instructions, target downloads, execution or removal verification.",
+      "metadata": ["Candidate snapshot: 0 likes, 8 views, 0 reposts. The past week is the author's retrospective; software and acceptance results are unspecified."],
+      "source_labels": ["Novo Line's reply on Claude and unspecified ST copy-protection work, November 2, 2026"]
+    }
+  },
+  {
+    "id": "0xloworbit-four-role-reverse-engineering-handoff-guide",
+    "title": "0xloworbit的四角色交接指南：分析、规格、重建与验证分开",
+    "category": "apps", "rea": "unknown", "status": "related-project",
+    "summary": "作者提出以环境边界、证据文件、行为规格和测试使四角色交接可审阅；未读所链指南全文或运行具体目标，不声称强制隔离或等价。",
+    "description": "2026年11月2日06:40:05（北京时间），0xloworbit（@0xloworbit）发布逆向Agent工作流指南介绍，主张将任务分为Analyst、Spec Writer、Rebuilder、Verifier四个独立职责，并明确列出环境边界、证据文件、行为规格和测试，让每次交接能被审阅。它针对把原目标观察与新实现、验收区分开的工程问题，而不是报告某个软件已经重建成功。\n\n补查原帖确认署名与正文，但指南只由短链给出，未读全文、配置、代码或测试；帖中未明确REA或具体模型，不据四角色名称推断工具栈。与已有francescofaenzi的Grok Bots改编提案作者和发布对象不同，不把两者声称为同一实现。角色分工是方法主张，不保证操作系统权限隔离、法律clean-room合规或行为等价；未安装或执行。",
+    "sources": [{"label": "0xloworbit介绍四角色逆向Agent交接指南，2026-11-02", "url": "https://x.com/i/status/2117023901058486380"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、10浏览、0转发；仅据指南介绍，未核验全文或案例验收。"],
+    "en": {
+      "title": "0xloworbit's four-role handoff guide: separate analysis, specification, rebuilding and verification",
+      "summary": "The author proposes environment boundaries, evidence files, behavior specs and tests for reviewable four-role handoffs. The linked full guide and any target runs were not checked; enforced isolation/equivalence is not established.",
+      "description": "At 06:40:05 Beijing time on November 2, 2026, 0xloworbit (@0xloworbit) introduces a reversing-agent guide separating Analyst, Spec Writer, Rebuilder and Verifier responsibilities. Environment boundaries, evidence files, behavioral specifications and tests are explicitly named to make each handoff reviewable. The engineering problem is separating original-target observation, a new implementation and acceptance, not claiming an already successful reconstruction of a named program.\n\nOriginal-post lookup confirmed attribution and wording, but the full guide is only short-linked and was not read, nor were configuration, code or tests inspected. No REA or specific model is named; role names do not establish a tool stack. This differs in author/publication from francescofaenzi's existing Grok Bots adaptation and is not asserted to be the same implementation. Role separation is a methodological proposal, not a guarantee of OS-enforced permissions, legally clean-room compliance or behavioral equivalence. Nothing was installed or executed.",
+      "metadata": ["Candidate snapshot: 0 likes, 10 views, 0 reposts. Based only on the guide introduction, without full-text or target-acceptance verification."],
+      "source_labels": ["0xloworbit introduces a four-role reversing-agent handoff guide, November 2, 2026"]
+    }
+  },
+  {
+    "id": "super-mario-bros-wonder-ai-pc-port-secondary-claim",
+    "title": "超级马里奥兄弟惊奇：WangNextDoor转述AI辅助PC移植与60帧说法",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "二手评论具体称主机游戏惊奇快速移植PC并60帧运行，未给开发者、仓库或测试；只保留未核验主张，不等同原生移植成功。",
+    "description": "2026年11月2日07:03:00（北京时间），WangNextDoor（@WangNextDoor2）评论AI改变游戏行业，其中具体称有人将《超级马里奥兄弟惊奇》等主机独占快速移植PC、60帧跑通。这为一个具名游戏的AI辅助移植提供二手线索，而不是作者自己的工程报告。\n\n补查原帖确认署名和正文，但未给开发者、平台细节、源码、提交、演示或性能测试，亦未明确AI模型或REA。无法区分原生重编译、模拟器、流式运行或其他形式，60帧与“快速”均未核验。帖子关于主机护城河、PS5攻击及智能NPC的延伸不作为本案例功能或结果，不能用它推导版权、资产授权或硬件独占已失效。以unverified保留具体主张，不下载游戏或运行移植。",
+    "sources": [{"label": "WangNextDoor关于惊奇AI移植PC与60帧的二手评论，2026-11-02", "url": "https://x.com/i/status/2117029669564272713"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照4赞、478浏览、0转发；无作者项目与60帧测量，非独立移植验证。"],
+    "en": {
+      "title": "Super Mario Bros. Wonder: WangNextDoor repeats an AI-assisted PC-port and 60-fps claim",
+      "summary": "A secondary commentary claims Wonder was quickly ported to PC at 60 fps, without a developer, repository or test. This is an unverified claim, not established native-port success.",
+      "description": "At 07:03:00 Beijing time on November 2, 2026, WangNextDoor (@WangNextDoor2) comments on AI changing games, specifically claiming that someone quickly ported console exclusives including Super Mario Bros. Wonder to PC and ran them at 60 fps. This is a secondhand lead for an identified game's AI-assisted port, not the poster's own engineering report.\n\nOriginal-post lookup confirmed attribution and text but supplies no developer, platform details, source, commit, demo or performance test, nor a named AI model or REA. Native recompilation, emulation, streaming and other forms cannot be distinguished; 60 fps and speed of work are unverified. Broader claims about console moats, PS5 attacks and intelligent NPCs are not features/results of this case and establish neither copyright/asset permission nor the end of hardware exclusivity. Retained as an unverified specific claim without downloading the game or running a port.",
+      "metadata": ["Candidate snapshot: 4 likes, 478 views, 0 reposts. No developer project or 60-fps measurement; not independent port verification."],
+      "source_labels": ["WangNextDoor's secondhand comment on an AI PC port of Wonder and 60 fps, November 2, 2026"]
+    }
+  },
+  {
+    "id": "junior-mythos-deterministic-tool-loop-reconstruction-report",
+    "title": "Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。",
+    "description": "2026年11月2日07:46:36（北京时间），Junior（@Bldinsilence）回顾Claude遭限制时的尝试：向“fable”提五个问题后，自己推断“mythos method”是确定性的工具循环，继而用Cursor与Hermes创建工具，称在一个已有20年的仓库找到bug，自己没有技术背景。其具体目标是从问答反推一种AI研究方法，再把工具循环用于代码调查。\n\n补查原帖确认署名和全文，但mythos／fable的具体系统、模型版本、问答、循环设计、仓库和bug均未给出；不把这些名称扩写为确认的厂商产品或内部架构。“五个问题”和“20年”都是作者口径，不说明漏洞影响、可利用性、确认／修复状态或性能提升。保留为未核验的方法复建与找bug自述，不宣称泄露隐藏提示词、成功复现安全系统或独立发现已确认漏洞；未提REA，未执行工具或目标代码。",
+    "sources": [{"label": "Junior关于mythos方法推断及Cursor／Hermes工具找bug的回复，2026-11-02", "url": "https://x.com/i/status/2117040642735906943"}],
+    "snapshot_date": "2026-11-02", "metadata": ["候选快照0赞、21浏览、0转发；五个问题、20年与找到bug均为未附记录的自述。"],
+    "en": {
+      "title": "Junior's mythos-method reconstruction: five fable questions, then tools built with Cursor/Hermes",
+      "summary": "The author infers a deterministic tool loop and says resulting tools found bugs in a 20-year-old repository. No named repository, issue or model revision establishes recovery of an internal method.",
+      "description": "At 07:46:36 Beijing time on November 2, 2026, Junior (@Bldinsilence) recalls asking 'fable' five questions when Claude was facing restrictions, inferring that the 'mythos method' was a deterministic tool loop. They then reportedly created tools with Cursor and Hermes and found bugs in a 20-year-old repository despite having no technical background. The concrete goal is inferring an AI research method through questions and applying a tool loop to code investigation.\n\nOriginal-post lookup confirmed attribution and wording, but the specific mythos/fable systems, model revisions, questions/answers, loop design, repository and bugs are undisclosed. Those names are not expanded into confirmed vendor products or internal architecture. Five questions and 20 years are author claims without vulnerability impact, exploitability, confirmation/fix status or measured performance gains. Retained as an unverified method-reconstruction/bug-finding report, not leaked hidden prompts, a reproduced security system or independently confirmed vulnerabilities. REA is not mentioned and no tools or target code were executed.",
+      "metadata": ["Candidate snapshot: 0 likes, 21 views, 0 reposts. Five questions, 20 years and bug discoveries are self-reports without attached records."],
+      "source_labels": ["Junior's reply on inferring the mythos method and finding bugs with Cursor/Hermes tools, November 2, 2026"]
+    }
+  },
+  {
     "id": "cabbit-dead-budget-app-rea-transaction-export",
     "title": "停服记账App数据救援：cabbit称REA／Claude导出11年交易，修正时区日期",
     "category": "apps", "rea": "REA", "status": "unverified",
@@ -19886,31 +20046,38 @@
   },
   {
     "id": "apple-notes-rea-swiftui-rebuild",
-    "title": "macOS 备忘录：REA 辅助重建三栏 SwiftUI 应用的转述",
+    "title": "macOS 备忘录：REA三栏重建转述与Little Moments的同目标演示介绍",
     "category": "apps",
     "rea": "REA",
     "status": "unverified",
-    "summary": "第三方描述调查原生备忘录后重建笔记、文件夹、搜索与删除恢复交互。",
-    "description": "本窗口长文用 macOS 原生备忘录说明 REA 的功能研究路线，称给 Agent 简短指令后，先读取应用元信息，再交付 SwiftUI 三栏 Mac 应用。文章列出文件夹、笔记列表和编辑区，以及多笔记切换留存、置顶、新建分类、移动计数、搜索、删除和恢复，另称不挂 REA 更快但细节较弱。候选没有原测试者身份、源码、统一测试集或可重复运行记录，因此这些仍为第三方测试叙述，不能视为已还原苹果同步后端。与已有 Notes CSV 导出教学的 Electron 调用链不是同一目标，单独记录其原生 UI 重建报告。",
+    "summary": "较早转述称重建三栏SwiftUI笔记交互；Little Moments另介绍用REA制作类似Mac Notes应用的尝试，未给结果，不证明同一实现或同步兼容。",
+    "description": "2026年10月15日的既有长文用macOS原生备忘录说明REA功能研究路线，称给Agent简短指令后先读取应用元信息，再交付SwiftUI三栏Mac应用。文章列文件夹、笔记列表、编辑区，多笔记切换留存、置顶、新建分类、移动计数、搜索、删除和恢复，另称不挂REA更快但细节较弱。没有原测试者身份、源码、统一测试集或可重复运行记录，仍是第三方测试叙述，不能视为还原苹果同步后端。与既有Notes CSV导出教学的Electron调用链不是同一目标。\n\n2026年11月2日07:40:26（北京时间），Little Moments（@LittleMomentsTH）用泰语介绍自己的视频：以REA帮助制作类似Mac Notes的记事应用，再看它与原版多像、是否实际可用。补查原帖确认署名与正文；帖中正确区分REA组织AI调用分析工具与直接拆解应用，但没有给出模型、框架、功能清单或测量结果。视频全文未观看，链接未解析，不能把旧帖的SwiftUI和通过交互清单移植到这位作者，也不确认两者是同一代码。按相同研究目标追加来源，保留原ID和URL，不新增同目标条目。\n\n新来源仅证明又一项具体重建尝试的公开介绍，不证明完成、功能等价、数据迁移或Apple同步兼容。本合集未安装工具、运行应用或访问笔记。",
     "sources": [
       {
-        "label": "本窗口具体测试叙述",
+        "label": "既有10月15日备忘录交互测试转述",
         "url": "https://x.com/i/status/2110670751087137197"
+      },
+      {
+        "label": "Little Moments的Mac Notes类应用REA演示介绍，2026-11-02",
+        "url": "https://x.com/i/status/2117039088788439047"
       }
     ],
-    "snapshot_date": "2026-10-15",
+    "snapshot_date": "2026-11-02",
     "metadata": [
-      "不将三栏界面或自述交互通过扩大为完整Apple Notes克隆。"
+      "不将三栏界面或自述交互通过扩大为完整Apple Notes克隆。",
+      "11月2日候选快照1赞、17浏览、1转发；只读视频介绍，未观看或核验结果。"
     ],
     "en": {
-      "title": "macOS Notes: a reported REA-assisted SwiftUI rebuild",
-      "summary": "A secondary account describes a three-pane app with folders, search, pinning and delete/restore interactions; it supplies no reproducible test or Apple sync implementation.",
-      "description": "A long article in this window uses native macOS Notes to explain REA-based feature research, saying a brief agent instruction led first to app-metadata reading and then delivery of a three-pane SwiftUI Mac app. It lists folders, a note list and editor, plus persistence across note switching, pinning, new categories, moving notes with counts, search, deletion and restoration. It also says work without REA was faster but weaker in detail. The candidate supplies no original tester identity, source, uniform test suite or repeatable execution records, so this remains a third-party test narrative rather than recovery of Apple's sync backend. It is distinct from the Electron call chain in the existing Notes CSV-export tutorial and is recorded separately as a native-UI reconstruction report.",
+      "title": "macOS Notes: a reported three-pane REA rebuild and Little Moments's same-target demo introduction",
+      "summary": "An earlier account describes three-pane SwiftUI note interactions. Little Moments separately introduces an REA-assisted Mac Notes-like app attempt without results, not proof of the same implementation or sync compatibility.",
+      "description": "An existing October 15, 2026 article uses native macOS Notes to explain REA feature research, claiming that a brief agent instruction led first to reading app metadata and then a three-pane SwiftUI Mac app. It lists folders, note list/editor, persistence across note switching, pinning, new categories, moving counts, search, deletion and restoration, and says omitting REA was faster but less detailed. No original tester identity, source, common test suite or repeatable run is supplied. This remains a secondary test account, not recovery of Apple's sync backend, and differs from the existing Electron Notes CSV-export call chain.\n\nAt 07:40:26 Beijing time on November 2, 2026, Little Moments (@LittleMomentsTH) introduces a video in Thai: use REA to help make a Mac Notes-like note app and see how similar and usable it is. Original-post lookup confirmed attribution and wording. The introduction distinguishes REA helping AI operate analysis tools from directly taking apps apart, but provides no model, framework, feature inventory or measured result. The full video was not watched and its link was not resolved. The earlier SwiftUI stack and reported interaction results must not be assigned to this author, nor are these confirmed to be the same code. The source is appended under the shared research target, preserving the original ID/URL rather than creating another same-target entry.\n\nThe new source establishes only a public introduction to another concrete rebuild attempt, not completion, equivalence, migration or Apple synchronization compatibility. No tools were installed, applications run or notes accessed here.",
       "metadata": [
-        "A three-pane interface or self-reported passing interactions are not expanded into a complete Apple Notes clone."
+        "A three-pane interface or self-reported passing interactions are not expanded into a complete Apple Notes clone.",
+        "November 2 candidate snapshot: 1 like, 17 views, 1 repost. Only the video introduction was read; results were not watched or verified."
       ],
       "source_labels": [
-        "Specific test narrative from this window"
+        "Existing October 15 account of specific interaction tests",
+        "Little Moments's REA-assisted Mac Notes-like app demo introduction, November 2, 2026"
       ]
     }
   },

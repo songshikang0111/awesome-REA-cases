@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Sonic Heroes：Sewer56说明AI重编译复用了数千小时人工逆向代码](../cases/sonic-heroes-sewer56-ai-recompile-attribution.md) — Sewer56称AI把他长期人工逆向所得代码包装进重编译项目，提醒区分已有知识与AI贡献；未核对具体仓库、构建或可玩范围。 **[其他 AI 逆向 · 待验证]**
+- [Wordle重复字母：Creator Stacks称REA追踪着色逻辑，再做本地版本](../cases/wordle-rea-duplicate-letter-local-rebuild-report.md) — 作者称让REA调查Wordle如何给重复字母着色，再制作自己的本地版本；未给具体规则、源码或对照测试，不确认行为等价。 **[REA · 待验证]**
+- [超级马里奥兄弟惊奇：WangNextDoor转述AI辅助PC移植与60帧说法](../cases/super-mario-bros-wonder-ai-pc-port-secondary-claim.md) — 二手评论具体称主机游戏惊奇快速移植PC并60帧运行，未给开发者、仓库或测试；只保留未核验主张，不等同原生移植成功。 **[其他 AI 逆向 · 待验证]**
 - [PE2PC：Snaity以Claude辅助把寄生前夜II既有反编译移植到Windows](../cases/parasite-eve2-pe2pc-claude-native-port.md) — 公开项目在GabeRealB等人的反编译C代码上构建原生Windows移植，明确Claude Code与人类审阅测试分工；60fps是30fps逻辑间插帧，非逻辑翻倍。 **[其他 AI 逆向 · 进行中]**
 - [波斯王子时之砂：Zer0Z建议Claude反编译原作，再雇Mod作者更新模型](../cases/prince-persia-sands-time-claude-decompile-remodel-idea.md) — 回应玩家资助已取消重制的报道，Zer0Z建议将资金用于Claude反编译原作与模型更新；无实施结果。 **[其他 AI 逆向 · 待验证]**
 - [Pokémon Bank／Mover：Wokann公开Codex辅助离线补丁，不支持HOME传输](../cases/wokann-pokemon-bank-mover-codex-offline-patch.md) — 评论者提到Codex辅助；固定项目README明确AI参与反编译分析、补丁设计、编码和审阅，以3DS本地假服务器保留Bank／Mover流程，非官方服务器完整复刻。 **[其他 AI 逆向 · 进行中]**

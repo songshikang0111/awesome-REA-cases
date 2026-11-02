@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [ClipShare：vartekx用Opus做Mac／Windows／iPhone局域网剪贴板替代品](../cases/clipshare-vartekx-opus-cross-platform-lan-clipboard.md) — 作者称Opus制作跨平台剪贴板并修复发现与重复实例配对问题，报告40项端到端测试和40MB往返；作者串描述普通系统接口，不证明逆向Apple私有协议。 **[其他 AI 逆向 · 进行中]**
+- [Joying.eth的17仓库逆向工作室：REA路由反编译、调试与流量工具](../cases/joying-rea-seventeen-repo-reverse-engineering-studio.md) — 作者称一份配置把REA等17仓库接到同会话与MCP，按原生、APK、.NET和流量分工；未给全配置或具名目标测试，不验证通用覆盖。 **[REA · 相关项目]**
+- [未具名ST软件：Novo Line称过去一周用Claude处理复制保护](../cases/novo-line-claude-unspecified-st-copy-protection-report.md) — Novo Line称在过去一周处理某些ST软件复制保护时Claude未拒绝；无软件名、过程或产物，不能当作可复现移除保护或模型政策结论。 **[其他 AI 逆向 · 待验证]**
+- [0xloworbit的四角色交接指南：分析、规格、重建与验证分开](../cases/0xloworbit-four-role-reverse-engineering-handoff-guide.md) — 作者提出以环境边界、证据文件、行为规格和测试使四角色交接可审阅；未读所链指南全文或运行具体目标，不声称强制隔离或等价。 **[未确认使用 REA · 相关项目]**
 - [停服记账App数据救援：cabbit称REA／Claude导出11年交易，修正时区日期](../cases/cabbit-dead-budget-app-rea-transaction-export.md) — cabbit称研究640MB本地文件与加载函数后导出18406笔交易、1212张收据图，先发现37笔日期错误；App未具名，代码与抽查未公开。 **[REA · 待验证]**
 - [Karpathy的HN精选视频站：Claude辅助重建阅读体验，不是恢复YouTube算法](../cases/karpathy-hn-youtube-claude-curated-feed-report.md) — 第三方称Karpathy用Claude从HN评论筛出6454个视频与150主题，并解释推荐规则；未查原博客或站点，不认定已逆向YouTube后台。 **[其他 AI 逆向 · 相关项目]**
 - [Ju1y的anti-rea：JS局部改名与惰性诱饵，尚无对Agent有效性的基准](../cases/ju1y-anti-rea-javascript-decoy-obfuscator.md) — Ju1y公开实验性JS混淆器，针对REA等Agent改局部标识符、插不可达字符串；文档明确source map可泄露原码、未benchmark阻断效果。 **[REA · 相关项目]**
@@ -502,7 +506,7 @@
 - [洛克输入法：研究 Typeless 后用苹果端侧能力做本地输入](../cases/rokoinput-apple-local-voice.md) — 作者报告 REA 辅助研究后制作 Roko Input，公开源码并强制端侧语音识别。 **[REA · 进行中]**
 - [ReaCut：研究剪映本地行为，制作独立视频编辑器](../cases/reacut-jianying-open-editor.md) — 公开研究、独立项目格式和导出验证，明确不承诺商业剪映完整对等。 **[REA · 进行中]**
 - [REA + archify：把分析材料整理成可交互架构图](../cases/rea-archify-diagrams.md) — 作者报告将逆向结果交给架构图 Skill，生成独立 HTML 图示。 **[REA · 相关项目]**
-- [macOS 备忘录：REA 辅助重建三栏 SwiftUI 应用的转述](../cases/apple-notes-rea-swiftui-rebuild.md) — 第三方描述调查原生备忘录后重建笔记、文件夹、搜索与删除恢复交互。 **[REA · 待验证]**
+- [macOS 备忘录：REA三栏重建转述与Little Moments的同目标演示介绍](../cases/apple-notes-rea-swiftui-rebuild.md) — 较早转述称重建三栏SwiftUI笔记交互；Little Moments另介绍用REA制作类似Mac Notes应用的尝试，未给结果，不证明同一实现或同步兼容。 **[REA · 待验证]**
 - [Nuke / Houdini / Gurobi：让 AI 配合 Ghidra 研究替代品的 idea](../cases/industrial-tools-ai-ghidra-rebuild-idea.md) — 建议研究高价创作、求解和工业软件，制作低价替代；无实际分析结果。 **[其他 AI 逆向 · 进行中]**
 - [reverse-skill：给编程 Agent 的多目标逆向路线](../cases/reverse-skill-agent-workflows.md) — 公开仓库提供规则路由、授权范围、工具索引和离线样本流程；178条为路由基准规模，不是成功逆向178个目标。 **[未确认使用 REA · 相关项目]**
 - [自己的预约漏斗：调查前端后重建共享日历](../cases/booking-funnel-rea-calendar.md) — 作者报告 Claude + REA 从公开前端识别预约规则与 API，做出个人日历。 **[REA · 待验证]**

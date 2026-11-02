@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](../cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
+- [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](../cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**
 - [Granola品牌动效：Kevin DePopas拆解Ragged Edge设计，建议用Claude重建](../cases/granola-ragged-edge-claude-motion-rebuild-idea.md) — Kevin拆解照片颗粒、分列交错、UI叠加与S曲线，给出33ms和550／650ms参数并建议Claude实现；未展示重建或相似度测试。 **[其他 AI 逆向 · 待验证]**
 - [TSLA六工具交易台：RetroChainer称REA映射指标，多个Agent按信号投票](../cases/rea-tsla-six-agent-indicator-desk-report.md) — RetroChainer描述REA映射指标、Yahoo日线及趋势／动量／成交量／回撤投票；每1万美元赚258美元是无日期区间与费用口径的宣传结果。 **[REA · 待验证]**
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](../cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
