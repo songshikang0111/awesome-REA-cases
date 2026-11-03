@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1526 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1538 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（326）
-- [硬件与设备互通](categories/hardware.md)（402）
-- [应用与客户端](categories/apps.md)（638）
-- [算法与功能重建](categories/algorithms.md)（160）
+- [游戏与游戏保存](categories/games.md)（327）
+- [硬件与设备互通](categories/hardware.md)（408）
+- [应用与客户端](categories/apps.md)（641）
+- [算法与功能重建](categories/algorithms.md)（162）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Klonoa: Empire of Dreams到Dreamcast：WangblowsME称Claude辅助移植，音频与VMU仍实验性](cases/wangblowsme-klonoa-dreamcast-claude-port-report.md) — 作者基于testyourmine的GBA反编译项目做Dreamcast移植，自称可完整游玩；Claude归因来自作者措辞，未核实移植仓库或运行效果，不把上游反编译归给AI。 **[其他 AI 逆向 · 进行中]**
 - [Soldier of Fortune 2：模组作者建议用REA恢复伪源码，打通改造死路](cases/soldier-of-fortune2-rea-modding-idea.md) — 2002年SoF2模组作者主张用REA研究未公开源码的游戏二进制，增加Mod自由度；仅具体用途idea，没有开始或完成分析的报告。 **[REA · 待验证]**
 - [benilla：Rust／Bevy重建WoW1.12.1客户端，Claude归因来自转述](cases/benilla-wow1121-claude-rust-bevy-client.md) — grokked称Claude辅助重写WoW客户端；公开实现与地址级研究文档可查。项目称可完整游玩，但不支持Warden，插件与性能仍在改进，未独立运行。 **[其他 AI 逆向 · 进行中]**
 - [Roblox模拟器循环：Opus／Astra／RigDirectors行为重建宣传报告](cases/opus-astra-rigdirectors-roblox-simulator-report.md) — 作者称研究流行Roblox机制后生成宠物、孵蛋、升级和重生循环，报告早版UI与经济失衡；两天交付和12450美元收入无成品或账本支持。 **[其他 AI 逆向 · 待验证]**
@@ -355,6 +356,12 @@
 
 ### 硬件与设备互通
 
+- [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
+- [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
+- [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**
+- [Danfoss冷柜控制器：播客转述Sonnet约6美元重建已知漏洞，读者提出维修idea](cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Hacked播客引述Claroty CTO：Sonnet读取Danfoss研究后重建已知漏洞；另有读者希望AI支持停更硬件维修。没有原始测试或修复证据，不把现实攻击归因给AI。 **[其他 AI 逆向 · 待验证]**
+- [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
+- [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**
 - [车辆订阅功能与追踪：读者希望AI逆向从智能电视扩展到汽车](cases/ai-vehicle-subscription-telemetry-research-idea.md) — 读者点名BMW、GM、Honda，期待AI逆向研究订阅锁定功能和出厂追踪软件；无车型、操作或结果，合为车辆系统研究idea。 **[其他 AI 逆向 · 待验证]**
 - [光枪跟踪：xenesed称Claude优化固件并写轨迹叠加层](cases/claude-unnamed-lightgun-tracking-firmware-report.md) — 作者不满新购光枪的软件，称Claude改善跟踪、消除抖动并制作激光轨迹overlay；60%改善缺测量定义，型号与研究方法未披露。 **[其他 AI 逆向 · 待验证]**
@@ -760,6 +767,9 @@
 
 ### 应用与客户端
 
+- [两款付费软件的REA体验：awinloss估计重建80%至90%，仍需人工改动](cases/awinloss-rea-two-paid-app-rebuild-test.md) — 作者报告在两款未具名付费软件上试用REA并自行修改，认为不能100%重建；百分比无测量标准，Claude限制也只是本次体验。 **[REA · 分析测试]**
+- [Apptonic增长拆解：Cedric Roberge用竞品数据研究广告，提出Claude MCP查询](cases/apptonic-claude-mcp-app-growth-research-workflow.md) — 作者描述从手工刷竞品内容转向Apptonic数据研究，列出Claude MCP查询健康App、长投广告与创作者的具体idea；不是软件反编译，营收不归因于AI。 **[其他 AI 逆向 · 进行中]**
+- [本地App登录研究失败：Jan称Claude警告、Codex两轮各15分钟仍未完成](cases/voidjan-local-app-login-claude-codex-failed-test.md) — 作者尝试逆向未具名本地App以跳过登录，报告模型警告及两次额度耗尽后失败；没有方法或输出，不把警告写成已封号，也不把额度窗口当工时。 **[其他 AI 逆向 · 分析测试]**
 - [HookLab：REA研究Creator Hooks，Claude重建YouTube标题与异常视频库](cases/hooklab-rea-youtube-outlier-tool-rebuild.md) — Samin Yasar称用REA研究每年360美元的工具，再以Claude Code重建；公开Next.js／SQLite项目和研究方法，但本地部署仍依赖在线数据与AI服务，未独立验收。 **[REA · 进行中]**
 - [私信功能重建：CyronANNO称Gemini帮助逆向，基本实现仍待完善](cases/cyronanno-gemini-direct-message-rebuild-report.md) — 作者称Gemini在Opus不肯参与的逆向工作中帮大忙，并基本实现私信；平台、协议与代码未具名，不推断是哪家社交服务。 **[其他 AI 逆向 · 进行中]**
 - [YouTube实时配音：deník AI agenta称REA辅助制作PC与移动版本](cases/denikaiagenta-rea-youtube-live-dubbing-report.md) — 捷克语作者报告测试REA并制作有上下文的YouTube实时配音，可区分多说话人与性别；未给源码、延迟或识别评测。 **[REA · 待验证]**
@@ -1401,6 +1411,8 @@
 
 ### 算法与功能重建
 
+- [奖励描述反推：Tianyi Lorena Yan用高低奖励轨迹揭示模型实际偏好](cases/lorena-yan-reward-description-inference-audit.md) — 作者解释从同题不同奖励的rollout反推奖励描述，比单看复杂RM多一组对照信息；补充研究串给出LM生成描述与冻结基座筛选方法，不把监控改善当成漏洞已修复。 **[其他 AI 逆向 · 分析测试]**
+- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](cases/kxians-astra-qwen-weight-inspection-report.md) — 转述称GPT-6 Astra在Qwen3.5-0.8B两层MLP修改131072参数，数学分数上升；同研究还识别去掉输入输出层的模型语言。未取得原论文，MIT归属、模型名与数字均未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [自家推荐流：REA做页面地图，Claude读压缩脚本重建排名](cases/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。 **[REA · 分析测试]**
 - [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
 - [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**

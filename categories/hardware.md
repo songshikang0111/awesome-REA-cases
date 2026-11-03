@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](../cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
+- [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](../cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
+- [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](../cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**
+- [Danfoss冷柜控制器：播客转述Sonnet约6美元重建已知漏洞，读者提出维修idea](../cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Hacked播客引述Claroty CTO：Sonnet读取Danfoss研究后重建已知漏洞；另有读者希望AI支持停更硬件维修。没有原始测试或修复证据，不把现实攻击归因给AI。 **[其他 AI 逆向 · 待验证]**
+- [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](../cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
+- [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](../cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](../cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**
 - [车辆订阅功能与追踪：读者希望AI逆向从智能电视扩展到汽车](../cases/ai-vehicle-subscription-telemetry-research-idea.md) — 读者点名BMW、GM、Honda，期待AI逆向研究订阅锁定功能和出厂追踪软件；无车型、操作或结果，合为车辆系统研究idea。 **[其他 AI 逆向 · 待验证]**
 - [光枪跟踪：xenesed称Claude优化固件并写轨迹叠加层](../cases/claude-unnamed-lightgun-tracking-firmware-report.md) — 作者不满新购光枪的软件，称Claude改善跟踪、消除抖动并制作激光轨迹overlay；60%改善缺测量定义，型号与研究方法未披露。 **[其他 AI 逆向 · 待验证]**

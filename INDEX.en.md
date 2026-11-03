@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1526 entries**, organized by use case, without a Top-N or popularity threshold.
+**1538 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (326)
-- [Hardware and interoperability](categories/en/hardware.md) (402)
-- [Applications and clients](categories/en/apps.md) (638)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (160)
+- [Games and preservation](categories/en/games.md) (327)
+- [Hardware and interoperability](categories/en/hardware.md) (408)
+- [Applications and clients](categories/en/apps.md) (641)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (162)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Klonoa: Empire of Dreams on Dreamcast: WangblowsME reports a Claude-assisted port with experimental audio and VMU](cases/en/wangblowsme-klonoa-dreamcast-claude-port-report.md) — The author ports testyourmine's GBA decompilation to Dreamcast and claims full playability. Claude attribution comes from the author's wording; the port repository and behavior are unverified, and upstream decompilation is not credited to AI. **[Other AI-assisted work · In progress]**
 - [Soldier of Fortune 2: a modder proposes REA pseudocode recovery to unblock modifications](cases/en/soldier-of-fortune2-rea-modding-idea.md) — A SoF2 modder proposes studying unreleased-source game binaries with REA for more modding freedom. This is a concrete use-case idea, not a reported analysis run. **[REA · Needs verification]**
 - [benilla: a Rust/Bevy WoW 1.12.1 client, with Claude attribution from a secondary report](cases/en/benilla-wow1121-claude-rust-bevy-client.md) — Grokked credits Claude with a WoW client rewrite. Public implementation and address-level research are available. The project claims full playability but excludes Warden; addons and performance remain ongoing. Not run here. **[Other AI-assisted work · In progress]**
 - [Roblox simulator loops: a promotional Opus/Astra/RigDirectors behavioral-rebuild report](cases/en/opus-astra-rigdirectors-roblox-simulator-report.md) — The writer reports studying popular Roblox mechanics to generate pets, eggs, upgrades and rebirth loops, including early UI/economy failures. Two-day delivery and USD 12,450 lack an artifact or ledger. **[Other AI-assisted work · Needs verification]**
@@ -357,6 +358,12 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Android/Google TV launchers: Eikichi shares a Claude decompilation and ad-removal prompt](cases/en/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi relays a TV-launcher rebuild and supplies an ADB, backup and per-user-disable prompt. Model, code and tracking-traffic verification are absent. **[Other AI-assisted work · Needs verification]**
+- [M-VAVE Tank-G: Rômulo Ramos credits AI with USB research and a Linux editor](cases/en/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — A longtime Linux user says the pedal's official editor supports only Windows/macOS, prompting an AI-assisted USB study and custom editor. Protocol details, matching source and hardware acceptance tests were not obtained. **[Other AI-assisted work · Needs verification]**
+- [JVG TV automation: Askoltx credits Grok Bot and Claude with phone/watch integration and a morning screen](cases/en/askoltx-jvg-tv-grok-claude-automation-report.md) — The author claims overnight phone-content sync, watch controls, call pausing and a scheduled dashboard. No protocol or code is supplied; an alleged interrupted wrong-firmware flash is unverified. **[Other AI-assisted work · Needs verification]**
+- [Danfoss refrigeration controllers: a podcast reports a roughly $6 Sonnet recreation of a known bug; a reader proposes repair research](cases/en/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Hacked quotes Claroty's CTO on Sonnet recreating a known Danfoss flaw from research. A separate reader proposes AI repairs for unsupported hardware. No original test or repair evidence was obtained; real attacks are not attributed to AI. **[Other AI-assisted work · Needs verification]**
+- [Expensive equipment firmware: a proposal to study programmers, instruments and 3D printers with REA](cases/en/rea-expensive-equipment-firmware-research-idea.md) — A reader proposes exploring firmware in costly equipment, naming programmers, measurement instruments and 3D printers. No models, execution or replacement-firmware results are supplied. **[REA · Needs verification]**
+- [A BLE-to-MCP bridge: QloveDudu reuses Toy-Relay and sosexy protocols in an agent-assisted setup framework](cases/en/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — The author introduces a multi-brand MCP framework for adult BLE devices, crediting earlier reversing for its relay design and protocol. Claude Code/Codex assist setup; no new AI protocol recovery is claimed here. **[Other AI-assisted work · Related project]**
 - [A personal WHOOP app: Heryad credits Claude with sensor access and shake/tap gestures](cases/en/heryad-claude-whoop-sensor-gesture-app.md) — Heryad claims subscription-free WHOOP sensor access and gestures, with AI trend analysis being integrated. Code is not public; identity with NOOP/Zhoop or official health algorithms is unproven. **[Other AI-assisted work · Needs verification]**
 - [Vehicle subscriptions and telemetry: a reader wants AI reversing to move beyond smart TVs](cases/en/ai-vehicle-subscription-telemetry-research-idea.md) — A reader names BMW, GM and Honda while proposing AI study of subscription-locked features and factory telemetry. No vehicle, operation or result is reported. **[Other AI-assisted work · Needs verification]**
 - [Light-gun tracking: xenesed reports Claude firmware optimization and a tracer overlay](cases/en/claude-unnamed-lightgun-tracking-firmware-report.md) — The author credits Claude with better tracking, less jitter and a laser-tracer overlay for a new light gun. The 60% improvement lacks a measurement definition; model and research method are undisclosed. **[Other AI-assisted work · Needs verification]**
@@ -762,6 +769,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [An REA trial on two paid apps: awinloss estimates 80–90% reconstruction, followed by manual edits](cases/en/awinloss-rea-two-paid-app-rebuild-test.md) — The author reports trying REA on two unnamed paid apps and making personal changes. The percentage has no measurement definition; Claude restrictions reflect this experience only. **[REA · Analysis test]**
+- [Apptonic growth research: Cedric Roberge studies competitor ads and proposes Claude MCP queries](cases/en/apptonic-claude-mcp-app-growth-research-workflow.md) — The author describes moving from manual competitor research to Apptonic data, with concrete Claude MCP query ideas for health apps, long-running ads and creators. This is not decompilation, and revenue is not attributed to AI. **[Other AI-assisted work · In progress]**
+- [A failed local-app login study: Jan reports a Claude warning and two unsuccessful 15-minute Codex attempts](cases/en/voidjan-local-app-login-claude-codex-failed-test.md) — The author tried reversing an unnamed local app to skip login, reporting warnings and two exhausted quota allocations without success. No method or output is supplied; a warning is not an actual ban, and quota windows are not work hours. **[Other AI-assisted work · Analysis test]**
 - [HookLab: REA studies Creator Hooks; Claude rebuilds YouTube titles and an outlier library](cases/en/hooklab-rea-youtube-outlier-tool-rebuild.md) — Samin Yasar credits REA and Claude Code with replacing a $360/year tool. Public Next.js/SQLite code and research notes are available, but self-hosting still uses online data and AI services. Not independently tested. **[REA · In progress]**
 - [Direct-message reconstruction: CyronANNO credits Gemini with reversing and an initial implementation](cases/en/cyronanno-gemini-direct-message-rebuild-report.md) — The author says Gemini helped where Opus would not participate, with direct messaging largely implemented but unfinished. Platform, protocol and code are unnamed. **[Other AI-assisted work · In progress]**
 - [Live YouTube dubbing: deník AI agenta reports REA-assisted PC and mobile versions](cases/en/denikaiagenta-rea-youtube-live-dubbing-report.md) — A Czech-language author credits REA with contextual YouTube dubbing and multiple-speaker/gender distinction. No source, latency or recognition evaluation is supplied. **[REA · Needs verification]**
@@ -1403,6 +1413,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Reward-description inference: Tianyi Lorena Yan uses contrasting rewarded rollouts to expose actual preferences](cases/en/lorena-yan-reward-description-inference-audit.md) — The author explains how different rewards for the same prompt provide contrast beyond directly auditing a complex RM. An earlier thread describes LM-generated reward descriptions and frozen-base-model selection; better monitoring is not a repaired reward function. **[Other AI-assisted work · Analysis test]**
+- [Qwen weight inspection: Kxians relays Astra MLP edits to reduce repetition and language identification from internal weights](cases/en/kxians-astra-qwen-weight-inspection-report.md) — A secondary report claims GPT-6 Astra edited 131,072 parameters in two Qwen3.5-0.8B MLP layers, improving math scores, and identified languages from models without input/output layers. The paper, MIT attribution, model names and figures remain unverified. **[Other AI-assisted work · Needs verification]**
 - [An owned recommendation feed: REA maps the page; Claude reads minified code to rebuild ranking](cases/en/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad reports a 10-second watch-script map and an 86-second Claude rebuild matching 1,000/1,000 rankings. A follow-up says only four of REA's seven flags were right; Claude read the formula directly. **[REA · Analysis test]**
 - [Turnstile payloads: Tamamo reports AI-assisted study of 746 variables and deterministic repeats](cases/en/tamamo-turnstile-ai-deterministic-payload-research.md) — The author reports identical payloads across obfuscated/deobfuscated code in a deterministic environment after about a week. No code, logs or online acceptance establish a Cloudflare bypass. **[Other AI-assisted work · Needs verification]**
 - [Junior's mythos-method reconstruction: five fable questions, then tools built with Cursor/Hermes](cases/en/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — The author infers a deterministic tool loop and says resulting tools found bugs in a 20-year-old repository. No named repository, issue or model revision establishes recovery of an internal method. **[Other AI-assisted work · Needs verification]**

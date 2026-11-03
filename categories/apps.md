@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [两款付费软件的REA体验：awinloss估计重建80%至90%，仍需人工改动](../cases/awinloss-rea-two-paid-app-rebuild-test.md) — 作者报告在两款未具名付费软件上试用REA并自行修改，认为不能100%重建；百分比无测量标准，Claude限制也只是本次体验。 **[REA · 分析测试]**
+- [Apptonic增长拆解：Cedric Roberge用竞品数据研究广告，提出Claude MCP查询](../cases/apptonic-claude-mcp-app-growth-research-workflow.md) — 作者描述从手工刷竞品内容转向Apptonic数据研究，列出Claude MCP查询健康App、长投广告与创作者的具体idea；不是软件反编译，营收不归因于AI。 **[其他 AI 逆向 · 进行中]**
+- [本地App登录研究失败：Jan称Claude警告、Codex两轮各15分钟仍未完成](../cases/voidjan-local-app-login-claude-codex-failed-test.md) — 作者尝试逆向未具名本地App以跳过登录，报告模型警告及两次额度耗尽后失败；没有方法或输出，不把警告写成已封号，也不把额度窗口当工时。 **[其他 AI 逆向 · 分析测试]**
 - [HookLab：REA研究Creator Hooks，Claude重建YouTube标题与异常视频库](../cases/hooklab-rea-youtube-outlier-tool-rebuild.md) — Samin Yasar称用REA研究每年360美元的工具，再以Claude Code重建；公开Next.js／SQLite项目和研究方法，但本地部署仍依赖在线数据与AI服务，未独立验收。 **[REA · 进行中]**
 - [私信功能重建：CyronANNO称Gemini帮助逆向，基本实现仍待完善](../cases/cyronanno-gemini-direct-message-rebuild-report.md) — 作者称Gemini在Opus不肯参与的逆向工作中帮大忙，并基本实现私信；平台、协议与代码未具名，不推断是哪家社交服务。 **[其他 AI 逆向 · 进行中]**
 - [YouTube实时配音：deník AI agenta称REA辅助制作PC与移动版本](../cases/denikaiagenta-rea-youtube-live-dubbing-report.md) — 捷克语作者报告测试REA并制作有上下文的YouTube实时配音，可区分多说话人与性别；未给源码、延迟或识别评测。 **[REA · 待验证]**
