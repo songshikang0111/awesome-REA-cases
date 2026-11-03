@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [pomace与Mac虚拟机逃逸：AI团队研究视频编解码组件的二手报告](../cases/pomace-ai-mac-vm-escape-secondary-report.md) — 拓跋鼠转述AI智能体借pomace逆向与实验环境串联苹果视频组件漏洞，在宿主Mac打开计算器；幻灯片、漏洞链与H9/iOS关联未在本合集核验。 **[其他 AI 逆向 · 待验证]**
+- [OLUSO：Samolubunmi.eth预告面向终端的安全与逆向编程Agent](../cases/oluso-terminal-security-reverse-engineering-agent-preview.md) — OLUSO预告把代码编写、审查、调试与漏洞研究放进终端Agent，明确列逆向用途；没有公开实现或分析实例供验证。 **[未确认使用 REA · 进行中]**
+- [四款社交App的隐私对照：RazeDen称Claude查七天记录与流量，推荐因果未证](../cases/razeden-claude-four-social-apps-privacy-traffic-report.md) — RazeDen用Claude Code研究TikTok、Instagram、Facebook和Snapchat的统一审计自述，称无后台麦克风访问；域名数与共同IP解释没有原始证据，不能证实追踪负载或推荐原因。 **[其他 AI 逆向 · 待验证]**
 - [KachraClean：REA黑盒研究CleanMyMac，补上开发依赖与模型缓存清理](../cases/kachraclean-rea-blackbox-mac-cleaner.md) — Nikhil Deshpande用REA／Claude Code与人工文件系统追踪研究CleanMyMac 5.7.2，再写Swift清理器；公开日志保留工具失败、预测检验与0.1.5安全修正，不是独立安全认证。 **[REA · 进行中]**
 - [awesome-ai-reverse-engineering：KitPloit转述122仓库的双语Agent工具目录](../cases/awesome-ai-reverse-engineering-kitploit-directory.md) — KitPloit介绍整理Ghidra／IDA MCP、jadx、Frida、skills与REA的双语工具目录，称逐库阅读并评级；没有取得评级方法，不把目录当通过安全审计的工具集。 **[未确认使用 REA · 相关项目]**
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
@@ -48,7 +51,7 @@
 - [百度网盘摇一摇广告：AI逆向的No Shake与磁力计解释尚未证实](../cases/baidu-netdisk-ai-noshake-sensor-analysis-report.md) — 三个转述把限制运动数据后仍跳广告与AI分析联系起来；No Shake／磁力计是开发者推断，记者观察不验证传感器路径，也不足证明百度主动规避。 **[其他 AI 逆向 · 待验证]**
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](../cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](../cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
-- [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — 作者报告拆解Lark桌面纪要，以16kHz每秒切片、独立生成任务和原句绑定鱼骨图重建Mac工具；仍待完整测试与开源，不保证录音绝不丢失。 **[REA · 进行中]**
+- [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
 - [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — 两条候选介绍研究原版、Agent建造与对照迭代；公开项目区分Clean room／Deep，承认Codex、部分动态工具和游戏行为检查尚有限，不是任意软件几分钟完整复刻。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](../cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](../cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**

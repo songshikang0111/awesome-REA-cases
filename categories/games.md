@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Lode Runner第八代AI：REA读ROM预测掉金差两帧，第七关仍超时](../cases/nextcode-lode-runner-rea-gold-drop-prediction.md) — AI駆動開発NextCode称AI按ROM计数预测敌人198帧后掉金，预计F24241、实际F24243；动作仍同第七代，未解决第七关超时。 **[REA · 分析测试]**
+- [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](../cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助研究《街霸2》后制作网页版《奶霸》，给奶龙三种新招并加月球关；没有代码、版本或机制对照，不能认定ROM反编译或原版精确重建。 **[其他 AI 逆向 · 待验证]**
 - [Castlevania: Symphony of the Night Ultimate：REA／Ghidra／Agent构建的标题报告](../cases/castlevania-sotn-ultimate-rea-ghidra-report.md) — AdyLovelace发布名为Symphony of the Night Ultimate的项目，并明确写Built with REA + Ghidra + AI Agents；没有代码、支持版本或实际功能证据，不推断完整移植。 **[REA · 待验证]**
 - [Moonlight Syndrome本地化：Wesley称AI用于实现与逆向，翻译来自Paradise Hotel](../cases/moonlight-syndrome-ai-implementation-localization-report.md) — 回复纠正把游戏补丁叫AI翻译的说法，称文本沿用Paradise Hotel脚本、AI仅做实现与逆向；没有补丁、代码或测试，不补称已经完整汉化或英化。 **[其他 AI 逆向 · 待验证]**
 - [球拍游戏提示实验：ConversationsWithAra称把具体游戏改为原创描述](../cases/ara-claude-paddle-game-description-test.md) — 作者说Claude拒绝重建现有游戏后，自己改为描述一款原创球拍游戏；没有生成结果、代码或原游戏名，不能认定成功绕过或完成重建。 **[其他 AI 逆向 · 分析测试]**

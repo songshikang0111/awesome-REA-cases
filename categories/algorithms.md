@@ -2,10 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [品牌化短片重建：Meet称Claude测量切点、动画曲线与颜色](../cases/meet-claude-viral-edit-brand-reconstruction.md) — Meet自述Claude反推一条热门剪辑的切镜、曲线和颜色，再以自有品牌按词对齐重建；未提供参考片身份、工程或量化对照。 **[其他 AI 逆向 · 待验证]**
+- [森林双Q版女孩拳脚片：sandmrk反推15.1秒Muse提示，承认仍不匹配](../cases/sandmrk-muse-chibi-forest-fight-prompt.md) — sandmrk从参考片反推双角色、连续POV、129 BPM动作与两段衔接；完整回复明确生成不能完全匹配，不是找回原始提示证明。 **[其他 AI 逆向 · 分析测试]**
+- [爱情故事频道的脚本DNA：gold.提取叙事节拍，编码JSON交Claude改写](../cases/gold-romance-channel-script-dna-claude-json-workflow.md) — gold.称研究爱情频道前三热视频，把开场、张弛与高潮位置写进Claude JSON模板；月入3.8万美元和四分钟是营销自述，未给频道、数据或成片对照。 **[其他 AI 逆向 · 待验证]**
+- [不露脸频道内容公式：Isagii转述Claude研究脚本结构再生成新视频](../cases/isagii-faceless-channel-claude-formula-workflow.md) — Isagii列出选参考频道、Claude归纳标题与叙事节奏、生成脚本再配音合成的六步；月入10万美元与五分钟成片没有样本或账单佐证。 **[其他 AI 逆向 · 待验证]**
+- [MotionLab示例视频替代idea：Supersocks建议Claude／REA分析、Hyperframes自建](../cases/supersocks-motionlab-rea-hyperframes-video-idea.md) — Supersocks建议研究MotionLab展示或TikTok参考视频，再以Hyperframes和自制资产生成；同串给三步流程，但没有实施产物或质量比较。 **[REA · 待验证]**
 - [巨钟机甲战斗片：sandmrk反推Muse分镜，承认生成不能完全匹配](../cases/sandmrk-muse-clock-mech-battle-prompt.md) — sandmrk给出白发异瞳战士对钟面机甲的Muse重建规格；候选含57.0至59.3秒末镜与一致性限制，明确结果仍不匹配，不是原提示词恢复证明。 **[其他 AI 逆向 · 分析测试]**
 - [视觉逆向的瞄准系统idea：读者询问Claude能否研究向量式界面](../cases/claude-vision-vector-targeting-study-idea.md) — 回复者由Claude视觉理解联想到军用向量式瞄准系统，只有研究方向问题，没有对象、执行或恢复结果；不提供武器设计方法。 **[其他 AI 逆向 · 待验证]**
 - [奖励描述反推：Tianyi Lorena Yan用高低奖励轨迹揭示模型实际偏好](../cases/lorena-yan-reward-description-inference-audit.md) — 作者解释从同题不同奖励的rollout反推奖励描述，比单看复杂RM多一组对照信息；补充研究串给出LM生成描述与冻结基座筛选方法，不把监控改善当成漏洞已修复。 **[其他 AI 逆向 · 分析测试]**
-- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](../cases/kxians-astra-qwen-weight-inspection-report.md) — 转述称GPT-6 Astra在Qwen3.5-0.8B两层MLP修改131072参数，数学分数上升；同研究还识别去掉输入输出层的模型语言。未取得原论文，MIT归属、模型名与数字均未独立核实。 **[其他 AI 逆向 · 待验证]**
+- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](../cases/kxians-astra-qwen-weight-inspection-report.md) — 两条转述称Astra读改Qwen3.5-0.8B权重、缓解重复并提升数学与指令分数；新增Gemma弱改善对照。单层／两层说法不一致，原研究与全部数字未核实。 **[其他 AI 逆向 · 待验证]**
 - [自家推荐流：REA做页面地图，Claude读压缩脚本重建排名](../cases/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。 **[REA · 分析测试]**
 - [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](../cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
 - [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](../cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**

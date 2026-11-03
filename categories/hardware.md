@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Sony A7C II：Frank转述AI固件研究开放FL2／FL3与LUT，并提醒刷砖风险](../cases/sony-a7cii-ai-fl2-fl3-lut-secondary-report.md) — Frank称A7C II原芯片保留FL2/FL3色彩路径，经AI研究和刷固件可用并支持LUT；同帖称有人刷砖，没有原研究、版本或实机验收。 **[其他 AI 逆向 · 待验证]**
+- [GLM长任务驱动研究：Jose称让模型持续逆向至完成，目标未具名](../cases/jose-glm-unnamed-driver-long-running-reverse-report.md) — Jose称GLM完成过一个驱动的完整逆向，并谈72小时任务与Devin SWE 2.0虚拟机经验；没有驱动身份、产物或验收，不能把72小时写成该驱动工时。 **[其他 AI 逆向 · 待验证]**
+- [HomePod mini接自己的Agent：Hauke询问是否已有逆向成果](../cases/hauke-homepod-mini-own-agent-research-idea.md) — Hauke想把HomePod mini用于自己的Agent，询问有无既有研究；是设备与用途明确的互通idea，不是已解锁协议或固件。 **[未确认使用 REA · 待验证]**
+- [手机预装程序审计idea：大朱想用Codex研究并删除所称监控软件](../cases/dazhu-codex-phone-preinstalled-monitoring-audit-idea.md) — 大朱在国产手机讨论中提出Codex逆向检查和移除预装监控程序；型号、包名与行为证据均缺失，不证明手机确有监控或已成功删除。 **[其他 AI 逆向 · 待验证]**
 - [Canon EOS M：sakanajin因Claude token成本请求他人研究固件](../cases/canon-eos-m-claude-firmware-request.md) — 用户明确点名Canon EOS M固件，称自己负担不起大量Claude token，求他人逆向；仅为具名研究请求，没有固件分析、功能愿望或测试结果。 **[其他 AI 逆向 · 待验证]**
 - [小米音箱Pro接Grok Bot：转述Claude／Codex辅助补丁与双唤醒桥接](../cases/zongzhu-bot-xiaomi-oh2p-ai-firmware-bridge.md) — AI少年转述Drunk在OH2P 1.62.2与M系列Mac上保留小爱、另接宗主Bot的工作流，列出播放打断、长回复与待机重连修复；没有在本合集测试。 **[其他 AI 逆向 · 进行中]**
 - [睡眠蓝牙耳机：用AI研究定时音量与降噪控制的个人idea](../cases/sleep-bluetooth-earphones-ai-schedule-idea.md) — 作者想在家人出门时让自有睡眠耳机提高音量并开启降噪，作为AI便宜后愿意尝试的新需求；没有型号、协议或执行结果。 **[其他 AI 逆向 · 待验证]**

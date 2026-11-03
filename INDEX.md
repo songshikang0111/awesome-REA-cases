@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1561 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1575 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（331）
-- [硬件与设备互通](categories/hardware.md)（412）
-- [应用与客户端](categories/apps.md)（654）
-- [算法与功能重建](categories/algorithms.md)（164）
+- [游戏与游戏保存](categories/games.md)（333）
+- [硬件与设备互通](categories/hardware.md)（416）
+- [应用与客户端](categories/apps.md)（657）
+- [算法与功能重建](categories/algorithms.md)（169）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Lode Runner第八代AI：REA读ROM预测掉金差两帧，第七关仍超时](cases/nextcode-lode-runner-rea-gold-drop-prediction.md) — AI駆動開発NextCode称AI按ROM计数预测敌人198帧后掉金，预计F24241、实际F24243；动作仍同第七代，未解决第七关超时。 **[REA · 分析测试]**
+- [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助研究《街霸2》后制作网页版《奶霸》，给奶龙三种新招并加月球关；没有代码、版本或机制对照，不能认定ROM反编译或原版精确重建。 **[其他 AI 逆向 · 待验证]**
 - [Castlevania: Symphony of the Night Ultimate：REA／Ghidra／Agent构建的标题报告](cases/castlevania-sotn-ultimate-rea-ghidra-report.md) — AdyLovelace发布名为Symphony of the Night Ultimate的项目，并明确写Built with REA + Ghidra + AI Agents；没有代码、支持版本或实际功能证据，不推断完整移植。 **[REA · 待验证]**
 - [Moonlight Syndrome本地化：Wesley称AI用于实现与逆向，翻译来自Paradise Hotel](cases/moonlight-syndrome-ai-implementation-localization-report.md) — 回复纠正把游戏补丁叫AI翻译的说法，称文本沿用Paradise Hotel脚本、AI仅做实现与逆向；没有补丁、代码或测试，不补称已经完整汉化或英化。 **[其他 AI 逆向 · 待验证]**
 - [球拍游戏提示实验：ConversationsWithAra称把具体游戏改为原创描述](cases/ara-claude-paddle-game-description-test.md) — 作者说Claude拒绝重建现有游戏后，自己改为描述一款原创球拍游戏；没有生成结果、代码或原游戏名，不能认定成功绕过或完成重建。 **[其他 AI 逆向 · 分析测试]**
@@ -360,6 +362,10 @@
 
 ### 硬件与设备互通
 
+- [Sony A7C II：Frank转述AI固件研究开放FL2／FL3与LUT，并提醒刷砖风险](cases/sony-a7cii-ai-fl2-fl3-lut-secondary-report.md) — Frank称A7C II原芯片保留FL2/FL3色彩路径，经AI研究和刷固件可用并支持LUT；同帖称有人刷砖，没有原研究、版本或实机验收。 **[其他 AI 逆向 · 待验证]**
+- [GLM长任务驱动研究：Jose称让模型持续逆向至完成，目标未具名](cases/jose-glm-unnamed-driver-long-running-reverse-report.md) — Jose称GLM完成过一个驱动的完整逆向，并谈72小时任务与Devin SWE 2.0虚拟机经验；没有驱动身份、产物或验收，不能把72小时写成该驱动工时。 **[其他 AI 逆向 · 待验证]**
+- [HomePod mini接自己的Agent：Hauke询问是否已有逆向成果](cases/hauke-homepod-mini-own-agent-research-idea.md) — Hauke想把HomePod mini用于自己的Agent，询问有无既有研究；是设备与用途明确的互通idea，不是已解锁协议或固件。 **[未确认使用 REA · 待验证]**
+- [手机预装程序审计idea：大朱想用Codex研究并删除所称监控软件](cases/dazhu-codex-phone-preinstalled-monitoring-audit-idea.md) — 大朱在国产手机讨论中提出Codex逆向检查和移除预装监控程序；型号、包名与行为证据均缺失，不证明手机确有监控或已成功删除。 **[其他 AI 逆向 · 待验证]**
 - [Canon EOS M：sakanajin因Claude token成本请求他人研究固件](cases/canon-eos-m-claude-firmware-request.md) — 用户明确点名Canon EOS M固件，称自己负担不起大量Claude token，求他人逆向；仅为具名研究请求，没有固件分析、功能愿望或测试结果。 **[其他 AI 逆向 · 待验证]**
 - [小米音箱Pro接Grok Bot：转述Claude／Codex辅助补丁与双唤醒桥接](cases/zongzhu-bot-xiaomi-oh2p-ai-firmware-bridge.md) — AI少年转述Drunk在OH2P 1.62.2与M系列Mac上保留小爱、另接宗主Bot的工作流，列出播放打断、长回复与待机重连修复；没有在本合集测试。 **[其他 AI 逆向 · 进行中]**
 - [睡眠蓝牙耳机：用AI研究定时音量与降噪控制的个人idea](cases/sleep-bluetooth-earphones-ai-schedule-idea.md) — 作者想在家人出门时让自有睡眠耳机提高音量并开启降噪，作为AI便宜后愿意尝试的新需求；没有型号、协议或执行结果。 **[其他 AI 逆向 · 待验证]**
@@ -775,6 +781,9 @@
 
 ### 应用与客户端
 
+- [pomace与Mac虚拟机逃逸：AI团队研究视频编解码组件的二手报告](cases/pomace-ai-mac-vm-escape-secondary-report.md) — 拓跋鼠转述AI智能体借pomace逆向与实验环境串联苹果视频组件漏洞，在宿主Mac打开计算器；幻灯片、漏洞链与H9/iOS关联未在本合集核验。 **[其他 AI 逆向 · 待验证]**
+- [OLUSO：Samolubunmi.eth预告面向终端的安全与逆向编程Agent](cases/oluso-terminal-security-reverse-engineering-agent-preview.md) — OLUSO预告把代码编写、审查、调试与漏洞研究放进终端Agent，明确列逆向用途；没有公开实现或分析实例供验证。 **[未确认使用 REA · 进行中]**
+- [四款社交App的隐私对照：RazeDen称Claude查七天记录与流量，推荐因果未证](cases/razeden-claude-four-social-apps-privacy-traffic-report.md) — RazeDen用Claude Code研究TikTok、Instagram、Facebook和Snapchat的统一审计自述，称无后台麦克风访问；域名数与共同IP解释没有原始证据，不能证实追踪负载或推荐原因。 **[其他 AI 逆向 · 待验证]**
 - [KachraClean：REA黑盒研究CleanMyMac，补上开发依赖与模型缓存清理](cases/kachraclean-rea-blackbox-mac-cleaner.md) — Nikhil Deshpande用REA／Claude Code与人工文件系统追踪研究CleanMyMac 5.7.2，再写Swift清理器；公开日志保留工具失败、预测检验与0.1.5安全修正，不是独立安全认证。 **[REA · 进行中]**
 - [awesome-ai-reverse-engineering：KitPloit转述122仓库的双语Agent工具目录](cases/awesome-ai-reverse-engineering-kitploit-directory.md) — KitPloit介绍整理Ghidra／IDA MCP、jadx、Frida、skills与REA的双语工具目录，称逐库阅读并评级；没有取得评级方法，不把目录当通过安全审计的工具集。 **[未确认使用 REA · 相关项目]**
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
@@ -821,7 +830,7 @@
 - [百度网盘摇一摇广告：AI逆向的No Shake与磁力计解释尚未证实](cases/baidu-netdisk-ai-noshake-sensor-analysis-report.md) — 三个转述把限制运动数据后仍跳广告与AI分析联系起来；No Shake／磁力计是开发者推断，记者观察不验证传感器路径，也不足证明百度主动规避。 **[其他 AI 逆向 · 待验证]**
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
-- [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — 作者报告拆解Lark桌面纪要，以16kHz每秒切片、独立生成任务和原句绑定鱼骨图重建Mac工具；仍待完整测试与开源，不保证录音绝不丢失。 **[REA · 进行中]**
+- [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
 - [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — 两条候选介绍研究原版、Agent建造与对照迭代；公开项目区分Clean room／Deep，承认Codex、部分动态工具和游戏行为检查尚有限，不是任意软件几分钟完整复刻。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
@@ -1432,10 +1441,15 @@
 
 ### 算法与功能重建
 
+- [品牌化短片重建：Meet称Claude测量切点、动画曲线与颜色](cases/meet-claude-viral-edit-brand-reconstruction.md) — Meet自述Claude反推一条热门剪辑的切镜、曲线和颜色，再以自有品牌按词对齐重建；未提供参考片身份、工程或量化对照。 **[其他 AI 逆向 · 待验证]**
+- [森林双Q版女孩拳脚片：sandmrk反推15.1秒Muse提示，承认仍不匹配](cases/sandmrk-muse-chibi-forest-fight-prompt.md) — sandmrk从参考片反推双角色、连续POV、129 BPM动作与两段衔接；完整回复明确生成不能完全匹配，不是找回原始提示证明。 **[其他 AI 逆向 · 分析测试]**
+- [爱情故事频道的脚本DNA：gold.提取叙事节拍，编码JSON交Claude改写](cases/gold-romance-channel-script-dna-claude-json-workflow.md) — gold.称研究爱情频道前三热视频，把开场、张弛与高潮位置写进Claude JSON模板；月入3.8万美元和四分钟是营销自述，未给频道、数据或成片对照。 **[其他 AI 逆向 · 待验证]**
+- [不露脸频道内容公式：Isagii转述Claude研究脚本结构再生成新视频](cases/isagii-faceless-channel-claude-formula-workflow.md) — Isagii列出选参考频道、Claude归纳标题与叙事节奏、生成脚本再配音合成的六步；月入10万美元与五分钟成片没有样本或账单佐证。 **[其他 AI 逆向 · 待验证]**
+- [MotionLab示例视频替代idea：Supersocks建议Claude／REA分析、Hyperframes自建](cases/supersocks-motionlab-rea-hyperframes-video-idea.md) — Supersocks建议研究MotionLab展示或TikTok参考视频，再以Hyperframes和自制资产生成；同串给三步流程，但没有实施产物或质量比较。 **[REA · 待验证]**
 - [巨钟机甲战斗片：sandmrk反推Muse分镜，承认生成不能完全匹配](cases/sandmrk-muse-clock-mech-battle-prompt.md) — sandmrk给出白发异瞳战士对钟面机甲的Muse重建规格；候选含57.0至59.3秒末镜与一致性限制，明确结果仍不匹配，不是原提示词恢复证明。 **[其他 AI 逆向 · 分析测试]**
 - [视觉逆向的瞄准系统idea：读者询问Claude能否研究向量式界面](cases/claude-vision-vector-targeting-study-idea.md) — 回复者由Claude视觉理解联想到军用向量式瞄准系统，只有研究方向问题，没有对象、执行或恢复结果；不提供武器设计方法。 **[其他 AI 逆向 · 待验证]**
 - [奖励描述反推：Tianyi Lorena Yan用高低奖励轨迹揭示模型实际偏好](cases/lorena-yan-reward-description-inference-audit.md) — 作者解释从同题不同奖励的rollout反推奖励描述，比单看复杂RM多一组对照信息；补充研究串给出LM生成描述与冻结基座筛选方法，不把监控改善当成漏洞已修复。 **[其他 AI 逆向 · 分析测试]**
-- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](cases/kxians-astra-qwen-weight-inspection-report.md) — 转述称GPT-6 Astra在Qwen3.5-0.8B两层MLP修改131072参数，数学分数上升；同研究还识别去掉输入输出层的模型语言。未取得原论文，MIT归属、模型名与数字均未独立核实。 **[其他 AI 逆向 · 待验证]**
+- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](cases/kxians-astra-qwen-weight-inspection-report.md) — 两条转述称Astra读改Qwen3.5-0.8B权重、缓解重复并提升数学与指令分数；新增Gemma弱改善对照。单层／两层说法不一致，原研究与全部数字未核实。 **[其他 AI 逆向 · 待验证]**
 - [自家推荐流：REA做页面地图，Claude读压缩脚本重建排名](cases/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。 **[REA · 分析测试]**
 - [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
 - [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**
