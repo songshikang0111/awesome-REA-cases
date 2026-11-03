@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1589 cases & projects
+# 1609 cases & projects
 
-**Latest case update:** November 4, 2026, 00:17 · **Last maintained:** November 4, 2026, 00:17 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 4, 2026, 04:18 · **Last maintained:** November 4, 2026, 04:18 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -30,10 +30,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 4. **[REA Launcher SDK: help your own old games run again](cases/en/makita-rea-launcher-sdk-retro-games.md)** · `2026-11-03` author report and project record — Fabio Makita shares **Rust, Wine and packaging mechanisms from retro-racing launchers**, with agent research and human checkpoints. Original game folders stay read-only by project policy; fixes need per-game verification. Bring your own games; the claimed 90% is an estimate, not compatibility coverage. Not built here. `In progress`
 5. **[Pokémon Bank: keep transfers local on a 3DS](cases/en/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01` report and project record — Wokann explicitly credits Codex for decompilation analysis and patch work. A **public local-server patch preserves Bank/Mover workflows**, not the official backend; **no HOME transfer**. Requires your own supported titles and save backups; not run here. `In progress`
 6. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
-7. **[Sonic Adventure: matching Dreamcast code, then a GCC port](cases/en/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer credits Claude Code/Codex and hundreds of hours of human polishing; the public project reports **247 matching binaries, 97.7% C / 2.3% assembly**. Some C needs compiler-assembly patches. The GCC build is separate, not a PC port; bring your own Japanese disc. Not rebuilt here. `Analysis test`
+7. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
 8. **[HookLab: a self-hosted YouTube research desk](cases/en/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03` report; `2026-10-19` project record — Samin Yasar credits **REA browser/bundle research and Claude Code rebuilding** of Creator Hooks. Public title chat, outlier library, CLI and API; the library starts empty, AI/data services remain online, and full equivalence is untested here. `In progress`
 9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
-10. **[ro-mono-303: a TB-303 inside your music host](cases/en/ro-mono-303-claude-circuit-firmware-emulator.md)** · `2026-11-03` report and pinned project record — A post credits Claude Code; public Lemus docs combine **original-firmware sequencing with a component-modeled voice**, reporting 16 service checks and a 400-note comparison. Bring your own ROM for sequencing; brightness errors remain. Not built or heard here. `In progress`
+10. **[MacBook9,1: get the built-in speakers working under Ubuntu](cases/en/jyz002-macbook91-cs4208-claude-ubuntu-speakers.md)** · `2026-11-04` author report; `2026-11-02` upstream record — jyz002 credits Claude Code and **adapts an existing digital-path driver**, rather than inventing one. Cold boot and software volume limiting matter; unsigned modules can damage speakers. Upstream distinguishes hardware-tested history from unrun releases. Not installed here. `In progress`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **334** |
-| [Hardware & interoperability](categories/en/hardware.md) | **420** |
-| [Applications & clients](categories/en/apps.md) | **663** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **172** |
+| [Games & preservation](categories/en/games.md) | **337** |
+| [Hardware & interoperability](categories/en/hardware.md) | **429** |
+| [Applications & clients](categories/en/apps.md) | **668** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **175** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

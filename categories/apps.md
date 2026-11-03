@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](../cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
+- [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](../cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**
+- [Aeon soldecomp：公开Solana反编译与回放工作台，已停止维护](../cases/aeon-soldecomp-solana-program-transaction-replay.md) — Aeon月报推荐的公开Solana字节码研究台提供Ghidra伪C、LiteSVM回放与候选Rust比较；项目已停止维护，检测器基准不代表实战准确率。 **[未确认使用 REA · 相关项目]**
+- [papertrade未公开合约映射：Aeon月报声称识别25合约与284选择器](../cases/aeon-papertrade-unpublished-contract-map.md) — Aeon月报称映射papertrade的25合约、22586用户存款代理与284函数选择器，用于bot／SDK和偿付观察；未取得地址、方法或验证。 **[未确认使用 REA · 待验证]**
+- [工作中的固定资产软件：SlimFlexington尝试REA研究旧系统](../cases/slimflexington-rea-fixed-assets-software-research.md) — 作者在希望REA适用于旧软件的原串中说明目标为工作里的固定资产软件；产品名、功能、授权范围与研究结果均未给出。 **[REA · 进行中]**
 - [Granola工作流重建：Evin称用Claude Opus研究动效与会议笔记流程](../cases/evin-granola-claude-opus-workflow-rebuild.md) — Evin自述研究Granola动效与工作流，做出Mac／Windows转写、AI笔记、可搜索记忆和实时帮助；免费与自带密钥均属作者描述，未验证等价。 **[其他 AI 逆向 · 待验证]**
 - [Regain Android应用：Ambar用REA与编程Agent做重建实验，承认效率待改](../cases/ambar-regain-android-rea-rebuild-experiment.md) — Ambar Chatterjee报告用REA和AI编程Agent重建Regain；没有功能清单、版本或等价测试，作者反思效率仍有很大改进空间。 **[REA · 待验证]**
 - [Claude Dashboards机制拆解：Rabi称模型写HTML／JS，读者侧runtime渲染](../cases/claude-dashboards-html-js-runtime-analysis-report.md) — Rabi Shanker Guha称拆解Claude Dashboards后看到生成代码与运行时分离；未取得文章内容、追踪或AI辅助分析方法，不扩成无模型调用保证。 **[未确认使用 REA · 分析测试]**
@@ -32,7 +37,7 @@
 - [YouTube实时配音：deník AI agenta称REA辅助制作PC与移动版本](../cases/denikaiagenta-rea-youtube-live-dubbing-report.md) — 捷克语作者报告测试REA并制作有上下文的YouTube实时配音，可区分多说话人与性别；未给源码、延迟或识别评测。 **[REA · 待验证]**
 - [Android个人Plaud：deník AI agenta称REA辅助制作会议录音与行动项应用](../cases/denikaiagenta-rea-android-plaud-meeting-report.md) — 作者称试用REA后做出自己的Android“Plaud”，记录会议、转写并生成含任务的纪要；没有硬件互通或原算法等价证据。 **[REA · 待验证]**
 - [REI REA：12项逆向技能与可选Python工作台，区分目录和可执行能力](../cases/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan介绍面向多Agent的逆向技能包；公开README明确12项技能、可选14工具MCP，Ghidra／IDA／Frida实时会话及morluto/rea适配仍属计划。 **[其他 AI 逆向 · 相关项目]**
-- [Grok Bot／REA自测：Paone称五文件追踪8／8步骤，但未运行应用](../cases/paone-grokbot-rea-five-file-static-test.md) — Paone报告两条消息完成REA接线、加载234工具并静态追踪自有测试App；8／8为作者分析步骤标签，不是运行时行为等价。 **[REA · 分析测试]**
+- [Grok Bot／REA自测：Paone称五文件追踪8／8步骤，但未运行应用](../cases/paone-grokbot-rea-five-file-static-test.md) — Paone补充REA6.8.0与Export notes的八步静态调用链、Downloads路径和main.js定位；8／8仍是作者证据标签，应用一次未运行。 **[REA · 分析测试]**
 - [Apple Watch的WHOOP式App：Codez称Opus两小时重建恢复、负荷与睡眠界面](../cases/codez-opus-whoop-style-apple-watch-app.md) — Codez称取消199美元年费后以Opus 5.5制作开源iPhone／Watch替代品；列出健康分数与端侧教练，但未核实仓库、隐私或与WHOOP算法等价。 **[其他 AI 逆向 · 待验证]**
 - [Anthropic系统提示学习：作者称让Agent逐行分析公开泄漏文本](../cases/agent-anthropic-system-prompt-line-analysis-report.md) — 作者描述新模型发布后搜寻泄漏system prompt并让Agent解释每行作用的个人工作流；无版本、文本或结果，不能认定官方提示已提取。 **[其他 AI 逆向 · 待验证]**
 - [EDA工具：读者提议用AI与REA研究电子设计自动化软件](../cases/ai-rea-eda-tool-research-idea.md) — 一句话提出用AI／REA逆向EDA工具；目标领域明确，但未点名产品、格式或实施任务，保留为早期idea。 **[REA · 待验证]**
@@ -604,7 +609,7 @@
 - [Ledger Opus：声称研究 Claude for Finance 的金融 Agent 推广线索](../cases/ledger-opus-finance-agent-report.md) — 推广者称用 REA 制作加密资产、股票和记账助手，尚无可核对的逆向过程。 **[REA · 待验证]**
 - [OpenCodex / Antigravity：用 REA 调查多轮工具调用签名丢失](../cases/opencodex-antigravity-signature-fallback.md) — 作者称研究 Rust 工具与 Go language_server 后，为 Gemini 请求补上签名缺失兜底。 **[REA · 待验证]**
 - [扫雷与 B 站：REA 视频演示标题的二手汇总](../cases/rea-bilibili-minesweeper-demo-roundup.md) — 读者列出扫雷、B站及手机 App 的 REA 演示视频，实现和测试尚待核对。 **[REA · 待验证]**
-- [网易 UU 远程：Claude / Codex 辅助制作非官方 Linux 被控端](../cases/uu-remote-linux-ai-client.md) — 作者为官方缺少 Linux 端的问题做 Rust 兼容实现，本轮讨论多模型逆向协作。 **[其他 AI 逆向 · 进行中]**
+- [网易 UU 远程：Claude / Codex 辅助制作非官方 Linux 被控端](../cases/uu-remote-linux-ai-client.md) — Claude／Codex辅助的非官方Rust被控端补上Linux互通；新读者称在Omarchy旧i5 MacBook Pro上进一步优化到流畅，无性能基准。 **[其他 AI 逆向 · 进行中]**
 - [DexSQL：让 Agent 用 SQL 查询 APK 与 DEX 的调用关系](../cases/dexsql-agent-apk-query.md) — LSPosed 提供直接读取 DEX 的 CLI / MCP；公开 QQ 样本对照，但核心工具并非开源。 **[其他 AI 逆向 · 相关项目]**
 - [沉浸式翻译类扩展：用 Codex 研究自带 Token 的替代版本](../cases/codex-immersive-translation-extension.md) — 作者正在逆向 Chrome 翻译扩展，希望直接使用自己购买的模型 Token。 **[其他 AI 逆向 · 进行中]**
 - [ChatGPT Intelligent UI：交给 Codex 研究实现的尝试](../cases/chatgpt-intelligent-ui-codex-study.md) — 作者已让 Codex 调查 ChatGPT Intelligent UI 的实现，尚无技术结果。 **[其他 AI 逆向 · 进行中]**

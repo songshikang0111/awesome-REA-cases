@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [MechWarrior 3：REA／Ghidra研究后逐函数重写C++，公开现代平台重建](../cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md) — Owen Morgan公开1999年机甲游戏的现代C++重建，项目称以Unicorn对照原版；支持三平台、宽屏与八人联机的说法未在本合集实测。 **[REA · 进行中]**
+- [3DO ODE菜单争议：AI反编译重建说法与原作者代码复制指控并存](../cases/fixel-3do-ode-menu-ai-rebuild-dispute.md) — rodrigotadeusp在3DO光驱模拟器菜单争议中提到AI反编译Fixel boot；Todd Gill指控界面及内部代码被复制，未做字节比较或授权判断。 **[其他 AI 逆向 · 待验证]**
+- [游戏反编译请求对照：Major Matters报告Gemini CLI拒绝差异，不是移植成功率](../cases/major-matters-game-decompile-agent-refusal-test.md) — 自有卡带反编译／Mario64个人PC移植请求在多个Agent与裸模型上获不同响应；作者给出8/8、10/10与14/20，未实际构建游戏。 **[其他 AI 逆向 · 分析测试]**
 - [AI辅助反作弊idea：Liexy Liu建议Infinity Ward研究作弊插件](../cases/infinityward-ai-cheat-plugin-reversing-detection-idea.md) — 读者建议以AI研究作弊插件来帮助检测作弊玩家；只是面向Infinity Ward的建议，没有样本、检测器或误报数据。 **[其他 AI 逆向 · 待验证]**
 - [Lode Runner第八代AI：REA读ROM预测掉金差两帧，第七关仍超时](../cases/nextcode-lode-runner-rea-gold-drop-prediction.md) — AI駆動開発NextCode称AI按ROM计数预测敌人198帧后掉金，预计F24241、实际F24243；动作仍同第七代，未解决第七关超时。 **[REA · 分析测试]**
 - [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](../cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助研究《街霸2》后制作网页版《奶霸》，给奶龙三种新招并加月球关；没有代码、版本或机制对照，不能认定ROM反编译或原版精确重建。 **[其他 AI 逆向 · 待验证]**

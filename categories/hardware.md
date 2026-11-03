@@ -2,6 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [MacBook9,1扬声器：Claude辅助识别CS4208数字路径与Ubuntu驱动适配](../cases/jyz002-macbook91-cs4208-claude-ubuntu-speakers.md) — @jyz002报告2016年12英寸MacBook在Ubuntu26.04恢复内置声音，复用Weegee驱动并强调冷启动、无硬件音量与扬声器损坏风险。 **[其他 AI 逆向 · 进行中]**
+- [自制无人机：Karmi宣称Claude研究遥测与飞行逻辑，未给可核验实现](../cases/karmi-claude-custom-drone-telemetry-report.md) — @0xKarmi称一次提示三分钟让自制无人机支持自定义飞行脚本；无硬件型号、代码、固件或飞行记录，近乎通用与零延迟等宣传未证。 **[其他 AI 逆向 · 待验证]**
+- [2018年Android TV续命：作者称Claude查固件并恢复流媒体应用](../cases/unnamed-2018-android-tv-claude-firmware-revival.md) — 作者称为祖母的旧电视用Claude查型号、系统与兼容固件，重启后恢复应用；没有说明具体型号、固件或逆向机制。 **[其他 AI 逆向 · 待验证]**
+- [iPad Mini 2 GPU：SmithStation将逆向列为dot助手的实际用途](../cases/smithstation-dot-ipad-mini2-gpu-research.md) — @SmithStation1在设备助手使用报告中明确提及iPad Mini2 GPU逆向；未披露驱动、工具链或研究成果，不混同3D打印等其他用途。 **[其他 AI 逆向 · 进行中]**
+- [旧IoT证书信任修补idea：Matthew Green建议让Claude研究固件](../cases/matthew-green-claude-legacy-iot-ca-firmware-idea.md) — 针对eMuhdra事件下旧IoT设备无法更新信任的问题，Green建议Claude修补固件；没有设备、补丁或成功报告。 **[其他 AI 逆向 · 待验证]**
+- [家庭Wi-Fi只读扫描：Claude找出三设备，却没查睡眠设备、固件与外连](../cases/claude-home-wifi-three-device-scan-limitations.md) — 作者复问Claude Code才发现扫描仅依Bonjour／UPnP发现设备；三设备与电视五响应不等于家庭网络安全审计。 **[其他 AI 逆向 · 分析测试]**
+- [自家相机固件：Tomas向Codex提出逆向idea，尚无功能与结果](../cases/tomas-codex-own-camera-firmware-idea.md) — @TomasVSantos以make no mistakes式提示请求Codex研究相机固件；具体相机、补丁和执行均未披露。 **[其他 AI 逆向 · 待验证]**
+- [Piranha Plant头盔：Codex据参考图与头部3D扫描重建可穿戴造型](../cases/slimflexington-codex-piranha-plant-scan-helmet.md) — SlimFlexington称AI结合参考图和女儿头扫设计头盔，在本地Blender／OpenSCAD做CAD；无模型文件、贴合或制造测试。 **[其他 AI 逆向 · 待验证]**
+- [Chip Ganassi赛车零件：转述OpenAI把3D扫描转成可编辑CAD，补缺失图纸](../cases/openai-chip-ganassi-3d-scan-editable-cad-report.md) — 西语长文称OpenAI与Chip Ganassi Racing合作将零件扫描重建CAD；目标具体，但没有零件、模型文件、误差与验证记录。 **[其他 AI 逆向 · 进行中]**
 - [ro-mono-303：Claude辅助TB-303电路与固件研究，ROM音序器接模拟声部](../cases/ro-mono-303-claude-circuit-firmware-emulator.md) — 帖子归因Claude Code；公开Lemus文档描述运行原固件的CPU模拟与逐元件声部，报告16项服务检查及400音符对照。须自备ROM才能用音序器，仍有亮度误差。 **[其他 AI 逆向 · 进行中]**
 - [板卡照片到固件导出：Brandon Rossi称Claude帮助首次读出flash](../cases/brandon-rossi-claude-board-photo-flash-firmware-dump.md) — Brandon Rossi先看Matt Brown教学，再把板卡照片交Claude，称首次从flash芯片得到固件dump；芯片、设备和完整性检查未给出。 **[其他 AI 逆向 · 待验证]**
 - [锐捷路由器SSH研究：奶昔称ARTEX分析固件与SN派生，未公开原理](../cases/nyarime-ruijie-artex-firmware-ssh-research-report.md) — 奶昔想给自家锐捷加去广告功能，称ARTEX识别固件后研究SSH密码并成功登录；22分钟、root派生及同型号通用性未独立验证。 **[其他 AI 逆向 · 待验证]**
@@ -203,7 +212,7 @@
 - [Yeelight Station：REA研究Windows安装器，Swift重做Mac灯光客户端](../cases/yeelight-station-rea-swift-mac.md) — Anuhas D.称因Yeelight Station只有Windows应用，用REA研究安装器后制作原生Swift Mac版，提供菜单栏、屏幕同步与音乐同步；未独立验证设备响应或签名。 **[REA · 待验证]**
 - [电水壶互通：REA与Opus的只读优先、现场确认控制提示词](../cases/kettle-rea-evidence-first-control-idea.md) — vartekx给出研究自有电水壶接口并制作最小连接器的完整提示词，要求保留防干烧、人在现场逐次确认和状态回读；没有型号或实测，不把卧床烧水宣传当安全验证。 **[REA · 待验证]**
 - [廉价示波器固件：Claude辅助逆向并重写Rust的作者自述](../cases/oscilloscope-claude-rust-firmware-report.md) — @asdhuqiwuhdais称前一天让Claude研究一台廉价示波器的固件并用Rust重写，认为更好用；没有型号、具体改善功能或测试，不当作已验证固件替代。 **[其他 AI 逆向 · 待验证]**
-- [NVIDIA显卡驱动：让AI尝试反编译的读者提案](../cases/nvidia-video-driver-ai-decompilation-idea.md) — @_fluk3_提出让AI尝试反编译NVIDIA显卡驱动；目标具体，但没有指定驱动版本、操作系统、恢复功能或实现。 **[其他 AI 逆向 · 待验证]**
+- [NVIDIA显卡驱动：让AI尝试反编译的读者提案](../cases/nvidia-video-driver-ai-decompilation-idea.md) — 早期读者提案是让AI反编译NVIDIA驱动；新读者进一步要求Linux版用Rust重写以改善稳定性，仍无实现或测试。 **[其他 AI 逆向 · 待验证]**
 - [LG C1 OLED：Damos用Claude Code重做原生QML主页与系统行为](../cases/lg-oled-damos-claude-qml-home.md) — Damos称在已root的webOS上用Claude Code制作QML主页，重映射HOME、关闭预加载并屏蔽广告域名；约80MB回收与350ms打开均为作者自报。 **[其他 AI 逆向 · 待验证]**
 - [芯片逆向工具自动化：长期手工研究者让AI Agent辅助构建](../cases/ai-agents-chip-reverse-engineering-tools-project.md) — @RCAVictorCo称手工做芯片逆向多年，因时间不足转而用AI Agent构建自动化工具；这是进行中的工具项目，不是已恢复某款芯片。 **[其他 AI 逆向 · 进行中]**
 - [iPhone Duo代码模型：Opus逐部件重建与约束检查的作者报告](../cases/iphone-duo-opus-parametric-model-report.md) — @andreysuperior称用Opus构建141部件的可折叠手机代码模型，逐项检查间隙与线缆弯曲；未提供真实尺寸来源或产物，不是已验证的iPhone硬件数字孪生。 **[其他 AI 逆向 · 待验证]**

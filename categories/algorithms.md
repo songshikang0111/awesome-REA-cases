@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [混淆二进制自测：REA／Ghidra重建C，作者称输出相近](../cases/rea-ghidra-obfuscated-binary-c-output-test.md) — 作者报告实际测试混淆二进制，认为改变量名与宏隐藏逻辑不足以保护；无样本或测试集，输出相近不是等价证明。 **[REA · 分析测试]**
+- [NICOLA拇指换挡输入：Claude辅助追查kanata宏交错，作者称608错误归零](../cases/jyz002-kanata-nicola-claude-overlap-debug.md) — 作者用kanata模拟输入追查误切层与并发宏导致的罗马字交错；报告所有双键对错误608→0，NICOLA三键规则仍无法表达。 **[其他 AI 逆向 · 分析测试]**
+- [十品牌30秒广告：转述Gemini反推简报与镜头表，Sora2重做](../cases/ipsos-syracuse-gemini-ad-brief-sora2-rebuild.md) — Pete Sena转述Ipsos／Syracuse以2021年前广告为输入，让Gemini推简报、Sora2生成版本；无原始样片与评价数据，不宣称更有效。 **[其他 AI 逆向 · 待验证]**
 - [两个账号的爆款风格：读者设想Grok拆解钩子与结构再综合生成](../cases/grok-two-account-viral-style-synthesis-idea.md) — 读者想让AI比较同领域两个账号的爆款帖子，提取结构、语气与心理钩子后生成新帖；尚在询问提示设计，未证明会走红。 **[其他 AI 逆向 · 待验证]**
 - [电商TikTok内容流水线：反推品牌钩子后接AI人物、Arcads与CapCut的营销报告](../cases/tiktok-ecommerce-ai-hook-production-pipeline-report.md) — 作者称研究头部品牌内容，串联AI人物、Arcads配音、CapCut剪辑和Cruva钩子研究；550广告与月500视频等规模没有公开验证。 **[其他 AI 逆向 · 待验证]**
 - [另一AI的音频研究：作者称模型发现错误文件与40ms帧对齐要求](../cases/unnamed-ai-audio-normalization-40ms-reversing-report.md) — 一位读者在AI能力讨论中报告，模型发现转写文件选错，并在研究另一AI时建议音频归一化及40ms帧对齐；目标与模型未具名。 **[其他 AI 逆向 · 待验证]**
