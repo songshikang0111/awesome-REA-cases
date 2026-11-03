@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1575 个案例与项目
+# 1589 个案例与项目
 
-**最近案例更新：**2026 年 11 月 3 日 20:15 · **最近维护：**2026 年 11 月 3 日 20:15 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 4 日 00:17 · **最近维护：**2026 年 11 月 4 日 00:17 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -33,7 +33,7 @@
 7. **[Sonic Adventure：先匹配Dreamcast，再移植GCC](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer称Claude Code／Codex辅助、人工打磨数百小时；公开项目报告**247个二进制匹配，97.7% C／2.3%汇编**，部分C须修补编译器汇编。GCC另走构建路径，不是PC移植；须自备日版光盘，本合集未重建。`分析测试`
 8. **[HookLab：自托管的YouTube研究台](cases/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03`报告；`2026-10-19`项目记录 — Samin Yasar披露**REA研究浏览器与脚本包，Claude Code重建Creator Hooks**。公开标题聊天、异常视频库、CLI与API；新装库为空，AI／数据服务仍联网，完整等价未在本合集验证。`进行中`
 9. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
-10. **[KachraClean：找出Mac清理器漏掉的开发文件](cases/kachraclean-rea-blackbox-mac-cleaner.md)** · `2026-11-03`作者报告；`2026-11-01`项目日志 — **REA／Claude Code黑盒研究后公开Swift清理器**，补上项目依赖与模型缓存。追踪由人工记录，不是REA自动捕获；0.1.5报告安全修正与46项测试。Undo只在内存，未公证，本合集未测。`进行中`
+10. **[ro-mono-303：把TB-303放进音乐宿主](cases/ro-mono-303-claude-circuit-firmware-emulator.md)** · `2026-11-03`报道与固定项目记录 — 帖子归因Claude Code；公开Lemus文档结合**原固件音序器与逐元件声部模型**，报告16项服务检查及400音符对照。音序器须自备ROM，亮度仍有误差；本合集未构建或试听。`进行中`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **333** |
-| [硬件与设备互通](categories/hardware.md) | **416** |
-| [应用与客户端](categories/apps.md) | **657** |
-| [算法与功能重建](categories/algorithms.md) | **169** |
+| [游戏与游戏保存](categories/games.md) | **334** |
+| [硬件与设备互通](categories/hardware.md) | **420** |
+| [应用与客户端](categories/apps.md) | **663** |
+| [算法与功能重建](categories/algorithms.md) | **172** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

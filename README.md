@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1575 cases & projects
+# 1589 cases & projects
 
-**Latest case update:** November 3, 2026, 20:15 · **Last maintained:** November 3, 2026, 20:15 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 4, 2026, 00:17 · **Last maintained:** November 4, 2026, 00:17 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Sonic Adventure: matching Dreamcast code, then a GCC port](cases/en/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer credits Claude Code/Codex and hundreds of hours of human polishing; the public project reports **247 matching binaries, 97.7% C / 2.3% assembly**. Some C needs compiler-assembly patches. The GCC build is separate, not a PC port; bring your own Japanese disc. Not rebuilt here. `Analysis test`
 8. **[HookLab: a self-hosted YouTube research desk](cases/en/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03` report; `2026-10-19` project record — Samin Yasar credits **REA browser/bundle research and Claude Code rebuilding** of Creator Hooks. Public title chat, outlier library, CLI and API; the library starts empty, AI/data services remain online, and full equivalence is untested here. `In progress`
 9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
-10. **[KachraClean: find the developer files a Mac cleaner misses](cases/en/kachraclean-rea-blackbox-mac-cleaner.md)** · `2026-11-03` author report; `2026-11-01` project log — **REA/Claude Code black-box research informs a public Swift cleaner** for project dependencies and model caches. Human-recorded traces, not automatic REA capture; 0.1.5 reports security fixes and 46 tests. Undo is memory-only; not notarized or tested here. `In progress`
+10. **[ro-mono-303: a TB-303 inside your music host](cases/en/ro-mono-303-claude-circuit-firmware-emulator.md)** · `2026-11-03` report and pinned project record — A post credits Claude Code; public Lemus docs combine **original-firmware sequencing with a component-modeled voice**, reporting 16 service checks and a 400-note comparison. Bring your own ROM for sequencing; brightness errors remain. Not built or heard here. `In progress`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **333** |
-| [Hardware & interoperability](categories/en/hardware.md) | **416** |
-| [Applications & clients](categories/en/apps.md) | **657** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **169** |
+| [Games & preservation](categories/en/games.md) | **334** |
+| [Hardware & interoperability](categories/en/hardware.md) | **420** |
+| [Applications & clients](categories/en/apps.md) | **663** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **172** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

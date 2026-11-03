@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Granola工作流重建：Evin称用Claude Opus研究动效与会议笔记流程](../cases/evin-granola-claude-opus-workflow-rebuild.md) — Evin自述研究Granola动效与工作流，做出Mac／Windows转写、AI笔记、可搜索记忆和实时帮助；免费与自带密钥均属作者描述，未验证等价。 **[其他 AI 逆向 · 待验证]**
+- [Regain Android应用：Ambar用REA与编程Agent做重建实验，承认效率待改](../cases/ambar-regain-android-rea-rebuild-experiment.md) — Ambar Chatterjee报告用REA和AI编程Agent重建Regain；没有功能清单、版本或等价测试，作者反思效率仍有很大改进空间。 **[REA · 待验证]**
+- [Claude Dashboards机制拆解：Rabi称模型写HTML／JS，读者侧runtime渲染](../cases/claude-dashboards-html-js-runtime-analysis-report.md) — Rabi Shanker Guha称拆解Claude Dashboards后看到生成代码与运行时分离；未取得文章内容、追踪或AI辅助分析方法，不扩成无模型调用保证。 **[未确认使用 REA · 分析测试]**
+- [WorkBuddy模块接DeepSeek：Jimala称研究专家、连接器与skill，再串个人Agent](../cases/workbuddy-modules-deepseek-personal-agent-rebuild.md) — Jimala称已逆向WorkBuddy三个模块并放入DeepSeek，计划再接其他产品能力；未给实现、互通测试或许可，不能说Manus与Claude功能已实现。 **[其他 AI 逆向 · 进行中]**
+- [Openbot开发工作流：lucas araujo称研究后封装为Claude Code skill](../cases/openbot-dev-workflow-claude-code-skill-rebuild.md) — 作者报告把Openbot的变更CI、Claude PR审查、Git hooks与加密环境封装成可选模块skill；未取得实现，不保证不覆盖原文件。 **[其他 AI 逆向 · 待验证]**
+- [teste.apk的3D资产：Lacerda分享DeepSeek Harness研究提示与PC移植自述](../cases/lacerda-deepseek-harness-apk-3d-assets-pc-port.md) — Lacerda公开先盘点工作区、再研究APK保护与素材的提示；同串称DeepSeek Harness约30分钟解出3D资产并做PC版，Claude曾拒绝，费用未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [pomace与Mac虚拟机逃逸：AI团队研究视频编解码组件的二手报告](../cases/pomace-ai-mac-vm-escape-secondary-report.md) — 拓跋鼠转述AI智能体借pomace逆向与实验环境串联苹果视频组件漏洞，在宿主Mac打开计算器；幻灯片、漏洞链与H9/iOS关联未在本合集核验。 **[其他 AI 逆向 · 待验证]**
 - [OLUSO：Samolubunmi.eth预告面向终端的安全与逆向编程Agent](../cases/oluso-terminal-security-reverse-engineering-agent-preview.md) — OLUSO预告把代码编写、审查、调试与漏洞研究放进终端Agent，明确列逆向用途；没有公开实现或分析实例供验证。 **[未确认使用 REA · 进行中]**
 - [四款社交App的隐私对照：RazeDen称Claude查七天记录与流量，推荐因果未证](../cases/razeden-claude-four-social-apps-privacy-traffic-report.md) — RazeDen用Claude Code研究TikTok、Instagram、Facebook和Snapchat的统一审计自述，称无后台麦克风访问；域名数与共同IP解释没有原始证据，不能证实追踪负载或推荐原因。 **[其他 AI 逆向 · 待验证]**
@@ -10,7 +16,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜拆解参考片画面、花字、剪辑与声音的方案转述](../cases/rea-video-shot-breakdown-rebuild-report.md) — 新闻清单把REA-VIDEO描述为逐镜研究视频并给出重建方案的工具；未取得对应仓库，不因名字含REA就确认使用morluto/rea。 **[未确认使用 REA · 相关项目]**
+- [REA-VIDEO：逐镜拆解参考片画面、花字、剪辑与声音的方案转述](../cases/rea-video-shot-breakdown-rebuild-report.md) — 新转述将逐镜拆解细化为AI生成、实拍与代码动效的制作方案，并列自测集和压缩误差；未取得可确认的仓库，不确认与morluto/rea同源。 **[未确认使用 REA · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -281,7 +287,7 @@
 - [Addy的递归自学习REA skill：持续构建工具的作者自述](../cases/addy-recursive-self-learning-rea-skill.md) — Addy再介绍REA衍生skill，链接确认Speedrunlab公开项目；文档定义书面功能清单、连续两次验收与预算/停滞停止规则，自学习是待人工批准的经验记录，不是权重训练。未运行。 **[REA · 相关项目]**
 - [Chess.com可视化复盘：Tjay报告Claude重建分析并接本地Qwen](../cases/tjay-chesscom-local-qwen-visual-review.md) — Tjay称研究Chess.com复盘引擎，用Claude与本地量化Qwen实现棋盘上的走法解释和历史对局同步；宣称Mac、Windows及浏览器可用，开源仍为承诺。 **[其他 AI 逆向 · 待验证]**
 - [STICH FAIXI SiX：AdyLovelace用REA与Ghidra制作Tiny Client的自述](../cases/ady-stich-faixi-six-tiny-client.md) — AdyLovelace称用REA、AI Assist与Ghidra为其称为STICH FAIXI SiX的目标制作实验性Tiny Client；未公开代码或可核查功能。 **[REA · 待验证]**
-- [Ablation：由LLM工具循环连接二进制上下文与分析模块的框架](../cases/ablation-tool-ai-reverse-engineering-framework.md) — Ablation以LLM循环组织二进制分析，已有语义搜索／假设追踪文档；11月2日Nicholas介绍GUIAI可视调查与共享记忆，未证明节省token或提高分析效果。 **[其他 AI 逆向 · 相关项目]**
+- [Ablation：由LLM工具循环连接二进制上下文与分析模块的框架](../cases/ablation-tool-ai-reverse-engineering-framework.md) — Ablation以LLM循环组织二进制分析；Nicholas新解释GEM共享Lab UI及AI提案、确定性执行记录验证、人工判断的分工。仍无本合集效率或分析效果测试。 **[其他 AI 逆向 · 相关项目]**
 - [Hermes研究REA自身：Charles的本地模型简短报告](../cases/hermes-local-llm-rea-self-analysis.md) — Charles Bonetti称Hermes正在本地LLM上逆向REA仓库；没有模型、分析范围或改动结果。 **[其他 AI 逆向 · 待验证]**
 - [Crawlbot：REA负责竞品研究的多Agent产品流程转述](../cases/west-crawlbot-rea-competitor-workflow.md) — Trog转述west的Crawlbot：Grok找需求，REA研究竞品价格，Opus写产品，其他工具测试、写文案与记忆；未取得实现或验收。 **[REA · 相关项目]**
 - [Grok Bots四角色REA流程：观察、规格、隔离重建与验证的提案](../cases/grok-bots-rea-four-role-cleanroom-proposal.md) — francescofaenzi把四Agent clean-room方法移到Grok Bots共享电脑，加入Team Lead与最多约三轮反馈；未展示具体目标或权限隔离测试。 **[REA · 相关项目]**
@@ -483,7 +489,7 @@
 - [网站重建订单：作者自述的交付报告](../cases/website-rebuild-report.md) — 作者称以 REA 辅助网站重建，缺少具体项目与验证。 **[REA · 待验证]**
 - [TradingView：复刻流程与免费 Premium 下载风险的证据边界](../cases/tradingview-workflow.md) — REA流程未证明恢复付费指标；husosong新增第一人称安装异常、AI检查与重装经历，仍未证明特定仓库恶意、实际窃密或与原重建项目同源。 **[REA · 待验证]**
 - [WHOOP：分析健康追踪设备的 Android App](../cases/whoop-apk.md) — APK 分析线索新增 Zhoop / NOOP 替代客户端的二手报告，尚未独立验证。 **[未确认使用 REA · 待验证]**
-- [ArtCraft：不要把从零开发写成逆向 Adobe](../cases/artcraft-boundary.md) — 创作软件与 Office 风格工具的从零重建，不等于已完整逆向 Adobe 或 Office。 **[其他 AI 逆向 · 相关项目]**
+- [ArtCraft：不要把从零开发写成逆向 Adobe](../cases/artcraft-boundary.md) — ArtCraft是从零重建的早期创作与Office风格套件；新增Filmcraft像Premiere的用户体验说法，不证明已完整逆向或等价。 **[其他 AI 逆向 · 相关项目]**
 - [Obsidian：真实桌面包的大规模分析测试](../cases/obsidian-asar.md) — 用户确认原 ASAR 包可完成分析，但没有具体功能重建。 **[REA · 分析测试]**
 - [大型 Android APK：真实生产包的分析需求](../cases/large-android-apk.md) — 133MB、11 DEX 的安装包；原目标未见修复后复测。 **[REA · 进行中]**
 - [.NET NativeAOT：从原生二进制恢复 C# 信息的诉求](../cases/nativeaot.md) — 已有部分元数据恢复，不是原 C# 工程恢复。 **[REA · 进行中]**

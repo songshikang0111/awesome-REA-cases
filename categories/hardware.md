@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [ro-mono-303：Claude辅助TB-303电路与固件研究，ROM音序器接模拟声部](../cases/ro-mono-303-claude-circuit-firmware-emulator.md) — 帖子归因Claude Code；公开Lemus文档描述运行原固件的CPU模拟与逐元件声部，报告16项服务检查及400音符对照。须自备ROM才能用音序器，仍有亮度误差。 **[其他 AI 逆向 · 进行中]**
+- [板卡照片到固件导出：Brandon Rossi称Claude帮助首次读出flash](../cases/brandon-rossi-claude-board-photo-flash-firmware-dump.md) — Brandon Rossi先看Matt Brown教学，再把板卡照片交Claude，称首次从flash芯片得到固件dump；芯片、设备和完整性检查未给出。 **[其他 AI 逆向 · 待验证]**
+- [锐捷路由器SSH研究：奶昔称ARTEX分析固件与SN派生，未公开原理](../cases/nyarime-ruijie-artex-firmware-ssh-research-report.md) — 奶昔想给自家锐捷加去广告功能，称ARTEX识别固件后研究SSH密码并成功登录；22分钟、root派生及同型号通用性未独立验证。 **[其他 AI 逆向 · 待验证]**
+- [给女儿的10美元MP3播放器：用Claude重写难用固件的玩笑式idea](../cases/daughter-mp3-player-claude-custom-firmware-idea.md) — 作者以段子描述为5岁女儿买便宜播放器、想用Claude定制固件；197美元与90分钟不能当已核实花费或完成成果。 **[其他 AI 逆向 · 待验证]**
 - [Sony A7C II：Frank转述AI固件研究开放FL2／FL3与LUT，并提醒刷砖风险](../cases/sony-a7cii-ai-fl2-fl3-lut-secondary-report.md) — Frank称A7C II原芯片保留FL2/FL3色彩路径，经AI研究和刷固件可用并支持LUT；同帖称有人刷砖，没有原研究、版本或实机验收。 **[其他 AI 逆向 · 待验证]**
 - [GLM长任务驱动研究：Jose称让模型持续逆向至完成，目标未具名](../cases/jose-glm-unnamed-driver-long-running-reverse-report.md) — Jose称GLM完成过一个驱动的完整逆向，并谈72小时任务与Devin SWE 2.0虚拟机经验；没有驱动身份、产物或验收，不能把72小时写成该驱动工时。 **[其他 AI 逆向 · 待验证]**
 - [HomePod mini接自己的Agent：Hauke询问是否已有逆向成果](../cases/hauke-homepod-mini-own-agent-research-idea.md) — Hauke想把HomePod mini用于自己的Agent，询问有无既有研究；是设备与用途明确的互通idea，不是已解锁协议或固件。 **[未确认使用 REA · 待验证]**
