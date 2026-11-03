@@ -2,11 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Moonlight Syndrome本地化：Wesley称AI用于实现与逆向，翻译来自Paradise Hotel](../cases/moonlight-syndrome-ai-implementation-localization-report.md) — 回复纠正把游戏补丁叫AI翻译的说法，称文本沿用Paradise Hotel脚本、AI仅做实现与逆向；没有补丁、代码或测试，不补称已经完整汉化或英化。 **[其他 AI 逆向 · 待验证]**
+- [球拍游戏提示实验：ConversationsWithAra称把具体游戏改为原创描述](../cases/ara-claude-paddle-game-description-test.md) — 作者说Claude拒绝重建现有游戏后，自己改为描述一款原创球拍游戏；没有生成结果、代码或原游戏名，不能认定成功绕过或完成重建。 **[其他 AI 逆向 · 分析测试]**
+- [REA Launcher SDK：Fabio Makita把旧赛车互通经验提炼为Agent启动器框架](../cases/makita-rea-launcher-sdk-retro-games.md) — 作者从Colin McRae、OutRun等启动器抽出共享Rust、Wine与打包能力，让Agent研究并配置玩家自己的旧游戏；90%是预期，不是兼容率。 **[REA · 进行中]**
 - [Klonoa: Empire of Dreams到Dreamcast：WangblowsME称Claude辅助移植，音频与VMU仍实验性](../cases/wangblowsme-klonoa-dreamcast-claude-port-report.md) — 作者基于testyourmine的GBA反编译项目做Dreamcast移植，自称可完整游玩；Claude归因来自作者措辞，未核实移植仓库或运行效果，不把上游反编译归给AI。 **[其他 AI 逆向 · 进行中]**
 - [Soldier of Fortune 2：模组作者建议用REA恢复伪源码，打通改造死路](../cases/soldier-of-fortune2-rea-modding-idea.md) — 2002年SoF2模组作者主张用REA研究未公开源码的游戏二进制，增加Mod自由度；仅具体用途idea，没有开始或完成分析的报告。 **[REA · 待验证]**
 - [benilla：Rust／Bevy重建WoW1.12.1客户端，Claude归因来自转述](../cases/benilla-wow1121-claude-rust-bevy-client.md) — grokked称Claude辅助重写WoW客户端；公开实现与地址级研究文档可查。项目称可完整游玩，但不支持Warden，插件与性能仍在改进，未独立运行。 **[其他 AI 逆向 · 进行中]**
 - [Roblox模拟器循环：Opus／Astra／RigDirectors行为重建宣传报告](../cases/opus-astra-rigdirectors-roblox-simulator-report.md) — 作者称研究流行Roblox机制后生成宠物、孵蛋、升级和重生循环，报告早版UI与经济失衡；两天交付和12450美元收入无成品或账本支持。 **[其他 AI 逆向 · 待验证]**
-- [Battlefield 1942浏览器版：dimash转述levels使用Claude反编译引擎](../cases/levels-battlefield1942-claude-browser-report.md) — dimash称levels让Claude Code反编译2002年Battlefield1942引擎并在浏览器运行；尚无原作者串、仓库或试玩验证，不能认定完整游戏或原始C源码恢复。 **[其他 AI 逆向 · 待验证]**
+- [Battlefield 1942浏览器版：新增57000函数与WebGL2的二手重建宣称](../cases/levels-battlefield1942-claude-browser-report.md) — dimash与澜知AI转述levels的Claude浏览器重建；新增说法为57000个x86函数转Wasm、DirectX8转WebGL2及多人联机，均未取得原作者验证或试玩。 **[其他 AI 逆向 · 待验证]**
 - [Nimbus：三款GameCube龙珠游戏的AI辅助原生化项目，闭源Alpha仍待验证](../cases/nimbus-dragon-ball-z-gamecube-ai-native-project.md) — thebabyhippo303的统一启动器自称混合重编译／反编译，不用硬件解释器；固定README已是Alpha 1.1，仅分发构建，跨平台与跨服功能未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [死亡之屋ReWrithe：Claude辅助合并街机与PC逻辑，项目测试不等于全平台实测](../cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md) — Tawhid的公开C++重写披露Claude辅助逆向与人工指挥测试；README区分Surface通关、自动MAME对照与尚未实机测试的平台、光枪和联网。 **[其他 AI 逆向 · 进行中]**
 - [Brawlhalla卡顿：Codex／REA追到AIR在Rosetta下的解释器分支](../cases/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md) — fexx_off报告在M4 Pro上用采样与二进制检查定位AIR解释器模式，配置覆盖后解释器路径消失、人工试玩卡顿基本消失；无原始堆栈或帧时间数据，未独立复测。 **[REA · 分析测试]**

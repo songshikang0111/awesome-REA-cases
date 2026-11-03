@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [睡眠蓝牙耳机：用AI研究定时音量与降噪控制的个人idea](../cases/sleep-bluetooth-earphones-ai-schedule-idea.md) — 作者想在家人出门时让自有睡眠耳机提高音量并开启降噪，作为AI便宜后愿意尝试的新需求；没有型号、协议或执行结果。 **[其他 AI 逆向 · 待验证]**
+- [Paseo Micro：Mattt用Claude复用USB HID逆向成果，控制编程Agent](../cases/mattt-paseo-micro-claude-hid-protocol-reuse.md) — 作者把Creator Micro 2键盘接到Paseo，用灯光提示等待中的Agent、按键切会话和按住说话；协议来自chacon的micro-manager，不是Claude新恢复。 **[其他 AI 逆向 · 进行中]**
 - [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](../cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
 - [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](../cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
 - [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](../cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**

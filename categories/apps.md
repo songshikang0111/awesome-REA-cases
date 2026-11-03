@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [REA-VIDEO：逐镜拆解参考片画面、花字、剪辑与声音的方案转述](../cases/rea-video-shot-breakdown-rebuild-report.md) — 新闻清单把REA-VIDEO描述为逐镜研究视频并给出重建方案的工具；未取得对应仓库，不因名字含REA就确认使用morluto/rea。 **[未确认使用 REA · 相关项目]**
+- [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
+- [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
+- [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
+- [zeroauthy：OccupySaaS的Auth0兼容身份服务，完整替代仍是目标](../cases/occupysaas-auth0-ai-cleanroom-report.md) — 转述称失业工程师用AI重建Auth0；公开zeroauthy按文档与开放标准做身份服务，列出SDK自测与尚待MFA、企业协议等路线，不是全量兼容认证。 **[其他 AI 逆向 · 进行中]**
+- [SalesCompel：OccupySaaS的Salesforce替代候选，文档明确未生产就绪](../cases/occupysaas-salesforce-ai-cleanroom-report.md) — AI重建Salesforce的转述对应公开Go/PostgreSQL和Vue早期实现；项目明确只接受局部walking slice与十一场景参考基线，未通过完整里程碑或兼容认证。 **[其他 AI 逆向 · 进行中]**
+- [Jackson li的Claude Code逆向：进行中声明与同串AI归因](../cases/jacksonli-claude-code-ai-research.md) — 作者说继续研究Claude Code，并在同串明确都是AI干活；没有描述所恢复机制、版本或代码，不与其他作者的Claude Code项目合并。 **[其他 AI 逆向 · 进行中]**
+- [SpeakMore：REA研究Typeless后重写语音输入，离线与翻译能力须区分](../cases/speakmore-rea-typeless-voice-input-report.md) — 转述称18篇Typeless逆向笔记带来SpeakMore；公开项目区分本机听写、联网整理与翻译，不能把月约1美元或整套功能离线当成验证。 **[REA · 进行中]**
 - [两款付费软件的REA体验：awinloss估计重建80%至90%，仍需人工改动](../cases/awinloss-rea-two-paid-app-rebuild-test.md) — 作者报告在两款未具名付费软件上试用REA并自行修改，认为不能100%重建；百分比无测量标准，Claude限制也只是本次体验。 **[REA · 分析测试]**
 - [Apptonic增长拆解：Cedric Roberge用竞品数据研究广告，提出Claude MCP查询](../cases/apptonic-claude-mcp-app-growth-research-workflow.md) — 作者描述从手工刷竞品内容转向Apptonic数据研究，列出Claude MCP查询健康App、长投广告与创作者的具体idea；不是软件反编译，营收不归因于AI。 **[其他 AI 逆向 · 进行中]**
 - [本地App登录研究失败：Jan称Claude警告、Codex两轮各15分钟仍未完成](../cases/voidjan-local-app-login-claude-codex-failed-test.md) — 作者尝试逆向未具名本地App以跳过登录，报告模型警告及两次额度耗尽后失败；没有方法或输出，不把警告写成已封号，也不把额度窗口当工时。 **[其他 AI 逆向 · 分析测试]**

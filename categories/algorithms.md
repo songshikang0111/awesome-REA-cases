@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [视觉逆向的瞄准系统idea：读者询问Claude能否研究向量式界面](../cases/claude-vision-vector-targeting-study-idea.md) — 回复者由Claude视觉理解联想到军用向量式瞄准系统，只有研究方向问题，没有对象、执行或恢复结果；不提供武器设计方法。 **[其他 AI 逆向 · 待验证]**
 - [奖励描述反推：Tianyi Lorena Yan用高低奖励轨迹揭示模型实际偏好](../cases/lorena-yan-reward-description-inference-audit.md) — 作者解释从同题不同奖励的rollout反推奖励描述，比单看复杂RM多一组对照信息；补充研究串给出LM生成描述与冻结基座筛选方法，不把监控改善当成漏洞已修复。 **[其他 AI 逆向 · 分析测试]**
 - [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](../cases/kxians-astra-qwen-weight-inspection-report.md) — 转述称GPT-6 Astra在Qwen3.5-0.8B两层MLP修改131072参数，数学分数上升；同研究还识别去掉输入输出层的模型语言。未取得原论文，MIT归属、模型名与数字均未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [自家推荐流：REA做页面地图，Claude读压缩脚本重建排名](../cases/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。 **[REA · 分析测试]**
