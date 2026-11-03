@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1552 个案例与项目
+# 1561 个案例与项目
 
-**最近案例更新：**2026 年 11 月 3 日 12:11 · **最近维护：**2026 年 11 月 3 日 12:11 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 3 日 16:15 · **最近维护：**2026 年 11 月 3 日 16:15 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**，从设备互通、实用替代品到游戏保存与二进制分析：这次加入可复用的启动器框架，比笼统重建宣称更值得看的是具体机制、可检查的工作与清楚的人类／AI分工。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**，从设备互通、实用替代品到游戏保存与二进制分析：面向开发者的Mac清理器带来一份公开黑盒研究，保留人工检查点与安全修正。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[tolpo：Tapo住宅的实时3D视图](cases/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — 转述Claude辅助协议研究，公开**LAN/MCP控制与人工校正户型**。复用python-kasa；较早项目自测覆盖九房间、18设备，不代表所有写操作与型号。设备本地通信不等于AI本地运行。`进行中`
 2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
@@ -33,7 +33,7 @@
 7. **[Sonic Adventure：先匹配Dreamcast，再移植GCC](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer称Claude Code／Codex辅助、人工打磨数百小时；公开项目报告**247个二进制匹配，97.7% C／2.3%汇编**，部分C须修补编译器汇编。GCC另走构建路径，不是PC移植；须自备日版光盘，本合集未重建。`分析测试`
 8. **[HookLab：自托管的YouTube研究台](cases/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03`报告；`2026-10-19`项目记录 — Samin Yasar披露**REA研究浏览器与脚本包，Claude Code重建Creator Hooks**。公开标题聊天、异常视频库、CLI与API；新装库为空，AI／数据服务仍联网，完整等价未在本合集验证。`进行中`
 9. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
-10. **[ReWrithe：合并街机与PC版死亡之屋](cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md)** · `2026-11-02`报道与固定项目记录 — Tawhid披露Claude辅助逆向与C++重建。**人工主线通关与自动MAME回放是不同证据**；真实光枪、两台PC联网及部分平台仍未实测。须自备街机与PC文件，本合集未重建。`进行中`
+10. **[KachraClean：找出Mac清理器漏掉的开发文件](cases/kachraclean-rea-blackbox-mac-cleaner.md)** · `2026-11-03`作者报告；`2026-11-01`项目日志 — **REA／Claude Code黑盒研究后公开Swift清理器**，补上项目依赖与模型缓存。追踪由人工记录，不是REA自动捕获；0.1.5报告安全修正与46项测试。Undo只在内存，未公证，本合集未测。`进行中`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **330** |
-| [硬件与设备互通](categories/hardware.md) | **410** |
-| [应用与客户端](categories/apps.md) | **649** |
-| [算法与功能重建](categories/algorithms.md) | **163** |
+| [游戏与游戏保存](categories/games.md) | **331** |
+| [硬件与设备互通](categories/hardware.md) | **412** |
+| [应用与客户端](categories/apps.md) | **654** |
+| [算法与功能重建](categories/algorithms.md) | **164** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

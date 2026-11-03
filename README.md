@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1552 cases & projects
+# 1561 cases & projects
 
-**Latest case update:** November 3, 2026, 12:11 · **Last maintained:** November 3, 2026, 12:11 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 3, 2026, 16:15 · **Last maintained:** November 3, 2026, 16:15 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading** for device interoperability, useful replacements, game preservation and binary analysis. A reusable launcher framework joins the selection: inspectable mechanisms and clear human/AI attribution matter more than sweeping reconstruction claims. Dates below are source or author-update dates, not collection dates.
+**10 worth reading** for device interoperability, useful replacements, game preservation and binary analysis. A developer-focused Mac cleaner adds a documented black-box study with human checkpoints and explicit safety fixes. Dates below are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Sonic Adventure: matching Dreamcast code, then a GCC port](cases/en/sonic-adventure-dreamcast-claude-codex-decompilation.md)** · `2026-11-01` — Kyle Mayer credits Claude Code/Codex and hundreds of hours of human polishing; the public project reports **247 matching binaries, 97.7% C / 2.3% assembly**. Some C needs compiler-assembly patches. The GCC build is separate, not a PC port; bring your own Japanese disc. Not rebuilt here. `Analysis test`
 8. **[HookLab: a self-hosted YouTube research desk](cases/en/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03` report; `2026-10-19` project record — Samin Yasar credits **REA browser/bundle research and Claude Code rebuilding** of Creator Hooks. Public title chat, outlier library, CLI and API; the library starts empty, AI/data services remain online, and full equivalence is untested here. `In progress`
 9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
-10. **[ReWrithe: merge arcade and PC House of the Dead](cases/en/house-of-the-dead-rewrithe-claude-cpp-rewrite.md)** · `2026-11-02` report and pinned project record — Tawhid credits Claude with reversing and C++ reconstruction. **A human campaign playthrough and automated MAME replays are separate evidence**; real light guns, two-PC networking and several platforms remain untested. Bring your own arcade/PC files; not rebuilt here. `In progress`
+10. **[KachraClean: find the developer files a Mac cleaner misses](cases/en/kachraclean-rea-blackbox-mac-cleaner.md)** · `2026-11-03` author report; `2026-11-01` project log — **REA/Claude Code black-box research informs a public Swift cleaner** for project dependencies and model caches. Human-recorded traces, not automatic REA capture; 0.1.5 reports security fixes and 46 tests. Undo is memory-only; not notarized or tested here. `In progress`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **330** |
-| [Hardware & interoperability](categories/en/hardware.md) | **410** |
-| [Applications & clients](categories/en/apps.md) | **649** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **163** |
+| [Games & preservation](categories/en/games.md) | **331** |
+| [Hardware & interoperability](categories/en/hardware.md) | **412** |
+| [Applications & clients](categories/en/apps.md) | **654** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **164** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

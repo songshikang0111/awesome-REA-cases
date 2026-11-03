@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Castlevania: Symphony of the Night Ultimate：REA／Ghidra／Agent构建的标题报告](../cases/castlevania-sotn-ultimate-rea-ghidra-report.md) — AdyLovelace发布名为Symphony of the Night Ultimate的项目，并明确写Built with REA + Ghidra + AI Agents；没有代码、支持版本或实际功能证据，不推断完整移植。 **[REA · 待验证]**
 - [Moonlight Syndrome本地化：Wesley称AI用于实现与逆向，翻译来自Paradise Hotel](../cases/moonlight-syndrome-ai-implementation-localization-report.md) — 回复纠正把游戏补丁叫AI翻译的说法，称文本沿用Paradise Hotel脚本、AI仅做实现与逆向；没有补丁、代码或测试，不补称已经完整汉化或英化。 **[其他 AI 逆向 · 待验证]**
 - [球拍游戏提示实验：ConversationsWithAra称把具体游戏改为原创描述](../cases/ara-claude-paddle-game-description-test.md) — 作者说Claude拒绝重建现有游戏后，自己改为描述一款原创球拍游戏；没有生成结果、代码或原游戏名，不能认定成功绕过或完成重建。 **[其他 AI 逆向 · 分析测试]**
 - [REA Launcher SDK：Fabio Makita把旧赛车互通经验提炼为Agent启动器框架](../cases/makita-rea-launcher-sdk-retro-games.md) — 作者从Colin McRae、OutRun等启动器抽出共享Rust、Wine与打包能力，让Agent研究并配置玩家自己的旧游戏；90%是预期，不是兼容率。 **[REA · 进行中]**

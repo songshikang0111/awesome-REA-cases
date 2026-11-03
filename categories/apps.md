@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [KachraClean：REA黑盒研究CleanMyMac，补上开发依赖与模型缓存清理](../cases/kachraclean-rea-blackbox-mac-cleaner.md) — Nikhil Deshpande用REA／Claude Code与人工文件系统追踪研究CleanMyMac 5.7.2，再写Swift清理器；公开日志保留工具失败、预测检验与0.1.5安全修正，不是独立安全认证。 **[REA · 进行中]**
+- [awesome-ai-reverse-engineering：KitPloit转述122仓库的双语Agent工具目录](../cases/awesome-ai-reverse-engineering-kitploit-directory.md) — KitPloit介绍整理Ghidra／IDA MCP、jadx、Frida、skills与REA的双语工具目录，称逐库阅读并评级；没有取得评级方法，不把目录当通过安全审计的工具集。 **[未确认使用 REA · 相关项目]**
+- [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
+- [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
+- [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
 - [REA-VIDEO：逐镜拆解参考片画面、花字、剪辑与声音的方案转述](../cases/rea-video-shot-breakdown-rebuild-report.md) — 新闻清单把REA-VIDEO描述为逐镜研究视频并给出重建方案的工具；未取得对应仓库，不因名字含REA就确认使用morluto/rea。 **[未确认使用 REA · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
@@ -22,7 +27,7 @@
 - [Apple Watch的WHOOP式App：Codez称Opus两小时重建恢复、负荷与睡眠界面](../cases/codez-opus-whoop-style-apple-watch-app.md) — Codez称取消199美元年费后以Opus 5.5制作开源iPhone／Watch替代品；列出健康分数与端侧教练，但未核实仓库、隐私或与WHOOP算法等价。 **[其他 AI 逆向 · 待验证]**
 - [Anthropic系统提示学习：作者称让Agent逐行分析公开泄漏文本](../cases/agent-anthropic-system-prompt-line-analysis-report.md) — 作者描述新模型发布后搜寻泄漏system prompt并让Agent解释每行作用的个人工作流；无版本、文本或结果，不能认定官方提示已提取。 **[其他 AI 逆向 · 待验证]**
 - [EDA工具：读者提议用AI与REA研究电子设计自动化软件](../cases/ai-rea-eda-tool-research-idea.md) — 一句话提出用AI／REA逆向EDA工具；目标领域明确，但未点名产品、格式或实施任务，保留为早期idea。 **[REA · 待验证]**
-- [同花顺API：GPT把历史导出封装成接口，没解决作者盯盘目标](../cases/gpt-tonghuashun-api-history-export-mismatch.md) — 作者要求GPT逆向同花顺调用服务，用于AI盯盘、委托与复盘；检查发现所谓接口只是历史数据导出封装，是需求错位的实际报告。 **[其他 AI 逆向 · 待验证]**
+- [同花顺API：GPT导出封装错位，读者补充Codex协议研究经历](../cases/gpt-tonghuashun-api-history-export-mismatch.md) — 原作者发现GPT只封装历史导出，未解决AI盯盘目标；同串4Real补充数月前用Codex研究特殊协议和包的经历，两者均未证明实时交易接口恢复。 **[其他 AI 逆向 · 待验证]**
 - [uTools旧插件：李不凯用Codex与REA修功能并接MCP](../cases/codex-rea-utools-legacy-plugin-customization.md) — 李不凯称研究几款长期未更新的常用uTools插件，修正功能并加MCP，让图形工具也可在Codex调用；插件名、实现与测试未给。 **[REA · 待验证]**
 - [Claude Code第三方接口：DeepSeek逆向的参数降级转述，非降智动机铁证](../cases/deepseek-claude-code-third-party-parameter-fallback-report.md) — AI Fun称DeepSeek发现第三方网关拒绝参数后Claude Code静默降级；没有版本、代码或日志，不能确认顺序，更不能证明故意压低模型能力。 **[其他 AI 逆向 · 待验证]**
 - [11kB .NET自测：Hiroshi报告Claude／REA答对24项、一项部分正确](../cases/hiroshi-claude-rea-dotnet-25-item-test.md) — Hiroshi先固定25项答案，再测Claude、REA与Claude自写反汇编器；称24正确、1部分，完整细节尚待发布，不能还原设计动机。 **[REA · 分析测试]**

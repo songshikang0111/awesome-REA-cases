@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Canon EOS M：sakanajin因Claude token成本请求他人研究固件](../cases/canon-eos-m-claude-firmware-request.md) — 用户明确点名Canon EOS M固件，称自己负担不起大量Claude token，求他人逆向；仅为具名研究请求，没有固件分析、功能愿望或测试结果。 **[其他 AI 逆向 · 待验证]**
+- [小米音箱Pro接Grok Bot：转述Claude／Codex辅助补丁与双唤醒桥接](../cases/zongzhu-bot-xiaomi-oh2p-ai-firmware-bridge.md) — AI少年转述Drunk在OH2P 1.62.2与M系列Mac上保留小爱、另接宗主Bot的工作流，列出播放打断、长回复与待机重连修复；没有在本合集测试。 **[其他 AI 逆向 · 进行中]**
 - [睡眠蓝牙耳机：用AI研究定时音量与降噪控制的个人idea](../cases/sleep-bluetooth-earphones-ai-schedule-idea.md) — 作者想在家人出门时让自有睡眠耳机提高音量并开启降噪，作为AI便宜后愿意尝试的新需求；没有型号、协议或执行结果。 **[其他 AI 逆向 · 待验证]**
 - [Paseo Micro：Mattt用Claude复用USB HID逆向成果，控制编程Agent](../cases/mattt-paseo-micro-claude-hid-protocol-reuse.md) — 作者把Creator Micro 2键盘接到Paseo，用灯光提示等待中的Agent、按键切会话和按住说话；协议来自chacon的micro-manager，不是Claude新恢复。 **[其他 AI 逆向 · 进行中]**
 - [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](../cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
