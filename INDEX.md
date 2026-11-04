@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1627 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1644 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（339）
-- [硬件与设备互通](categories/hardware.md)（442）
-- [应用与客户端](categories/apps.md)（669）
-- [算法与功能重建](categories/algorithms.md)（177）
+- [游戏与游戏保存](categories/games.md)（341）
+- [硬件与设备互通](categories/hardware.md)（447）
+- [应用与客户端](categories/apps.md)（676）
+- [算法与功能重建](categories/algorithms.md)（180）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Splashdown：转述CoastRedWood的PS2到Linux反编译重建](cases/splashdown-coastredwood-linux-decompilation-report.md) — 帖子称2001年水上摩托游戏4356函数全部重写、Linux全内容30fps；相邻AI故事未明确归于此项目。 **[未确认使用 REA · 相关项目]**
+- [未具名Switch 2模拟：称AI在首个游戏rip后一周完成](cases/switch2-unnamed-ai-emulation-one-week-claim.md) — 串文把Claude/Ghidra兴趣与Switch2模拟的一周完成宣称并列；没有项目名、源码或兼容记录。 **[其他 AI 逆向 · 待验证]**
 - [Star Wars: Shadows of the Empire：Mirage提出AI辅助2026版重建idea](cases/shadows-of-empire-ai-2026-rebuild-idea.md) — 读者建议反编译后交AI做新版；补读父帖才识别游戏，没有实现或模型细节。 **[其他 AI 逆向 · 待验证]**
 - [Pirates of the Caribbean Online：Play For Blood自述AI逆向MMORPG重建](cases/play-for-blood-potco-ai-recreation.md) — 作者声称重建2013版海盗网游，封测可玩并计划一个月后公开；没有代码或可复核测试，不确认首创。 **[其他 AI 逆向 · 待验证]**
 - [MechWarrior 3：REA／Ghidra研究后逐函数重写C++，公开现代平台重建](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md) — Owen Morgan公开1999年机甲游戏的现代C++重建，项目称以Unicorn对照原版；支持三平台、宽屏与八人联机的说法未在本合集实测。 **[REA · 进行中]**
@@ -368,6 +370,11 @@
 
 ### 硬件与设备互通
 
+- [Meiji Sampler移植Akai MPC Sample：Codex制作108状态审阅工具](cases/meiji-sampler-akai-mpc-sample-codex-ui-state-atlas.md) — 作者正通过自定义固件移植采样器，在320×240屏上用Codex生成UI State Atlas收集界面反馈；未报告完成移植。 **[其他 AI 逆向 · 进行中]**
+- [自制游戏机第13天：Codex协助连上旧Xbox蓝牙手柄](cases/diy-console-xbox-controller-codex-bluetooth-fix.md) — 作者称旧Series S/X时代手柄从未更新，数日无法配对后由Codex协助改主机蓝牙设置成功；无驱动或协议分析。 **[其他 AI 逆向 · 待验证]**
+- [iPhone越狱后的Agent设想：替Siri、运行harness与跨应用控制](cases/iphone-jailbreak-agent-siri-replacement-idea.md) — 作者预测2027年越狱回潮，提出root后换自选Agent与computer-use；尚无漏洞、工具或运行成果。 **[其他 AI 逆向 · 待验证]**
+- [Metis：静态分析与LLM合成EDK2启动期协议fuzz harness](cases/metis-edk2-llm-guided-rehosting-fuzzing.md) — 论文摘要转发称把EDK2协议重托管为用户态程序，同时注入依赖交互；报告覆盖率73.1%和137个新bug，未独立复现。 **[其他 AI 逆向 · 分析测试]**
+- [Stackchan：Claude协助替换云固件，接DGX Spark做本地JOHNNY](cases/stackchan-claude-local-johnny-firmware.md) — McCubbin称移除出厂固件，Claude协助重建桌面机器人与本地语音、人脸功能；没有源码或网络审计。 **[其他 AI 逆向 · 进行中]**
 - [jake的储能系统：Gemini Argon正在探索数据采集机制](cases/jake-energy-storage-gemini-data-research.md) — 作者把Gemini探索储能系统数据采集列为正在进行的实际用途；没有厂商、接口或成果细节。 **[其他 AI 逆向 · 进行中]**
 - [jake的Starlink：Opus帮助排除固件更新与mesh组网故障](cases/jake-starlink-opus-firmware-mesh-fix.md) — jake称Opus5.5解决Starlink路由器的古怪更新／mesh问题；没有故障步骤、型号或补丁，不当固件逆向已完成。 **[其他 AI 逆向 · 待验证]**
 - [AMD CPU固件：Nicolas抱怨Claude拒绝修补bug](cases/nicolas-amd-cpu-claude-firmware-refusal.md) — 法语作者明确提出修CPU固件修复AMD问题，却称Claude不愿执行；只有未完成尝试，无漏洞或补丁证据。 **[其他 AI 逆向 · 待验证]**
@@ -389,7 +396,7 @@
 - [家庭Wi-Fi只读扫描：Claude找出三设备，却没查睡眠设备、固件与外连](cases/claude-home-wifi-three-device-scan-limitations.md) — 作者复问Claude Code才发现扫描仅依Bonjour／UPnP发现设备；三设备与电视五响应不等于家庭网络安全审计。 **[其他 AI 逆向 · 分析测试]**
 - [自家相机固件：Tomas向Codex提出逆向idea，尚无功能与结果](cases/tomas-codex-own-camera-firmware-idea.md) — @TomasVSantos以make no mistakes式提示请求Codex研究相机固件；具体相机、补丁和执行均未披露。 **[其他 AI 逆向 · 待验证]**
 - [Piranha Plant头盔：Codex据参考图与头部3D扫描重建可穿戴造型](cases/slimflexington-codex-piranha-plant-scan-helmet.md) — SlimFlexington称AI结合参考图和女儿头扫设计头盔，在本地Blender／OpenSCAD做CAD；无模型文件、贴合或制造测试。 **[其他 AI 逆向 · 待验证]**
-- [Chip Ganassi赛车零件：转述OpenAI把3D扫描转成可编辑CAD，补缺失图纸](cases/openai-chip-ganassi-3d-scan-editable-cad-report.md) — 西语长文称OpenAI与Chip Ganassi Racing合作将零件扫描重建CAD；目标具体，但没有零件、模型文件、误差与验证记录。 **[其他 AI 逆向 · 进行中]**
+- [Chip Ganassi赛车零件：转述OpenAI把3D扫描转成可编辑CAD，补缺失图纸](cases/openai-chip-ganassi-3d-scan-editable-cad-report.md) — 新增中文转述称CGR把扫描恢复为CAD和2D生产图，工程师在CAD内反馈并审核精度与制造性；无零件文件或验证记录。 **[其他 AI 逆向 · 进行中]**
 - [ro-mono-303：Claude辅助TB-303电路与固件研究，ROM音序器接模拟声部](cases/ro-mono-303-claude-circuit-firmware-emulator.md) — 帖子归因Claude Code；公开Lemus文档描述运行原固件的CPU模拟与逐元件声部，报告16项服务检查及400音符对照。须自备ROM才能用音序器，仍有亮度误差。 **[其他 AI 逆向 · 进行中]**
 - [板卡照片到固件导出：Brandon Rossi称Claude帮助首次读出flash](cases/brandon-rossi-claude-board-photo-flash-firmware-dump.md) — Brandon Rossi先看Matt Brown教学，再把板卡照片交Claude，称首次从flash芯片得到固件dump；芯片、设备和完整性检查未给出。 **[其他 AI 逆向 · 待验证]**
 - [锐捷路由器SSH研究：奶昔称ARTEX分析固件与SN派生，未公开原理](cases/nyarime-ruijie-artex-firmware-ssh-research-report.md) — 奶昔想给自家锐捷加去广告功能，称ARTEX识别固件后研究SSH密码并成功登录；22分钟、root派生及同型号通用性未独立验证。 **[其他 AI 逆向 · 待验证]**
@@ -813,6 +820,13 @@
 
 ### 应用与客户端
 
+- [Cicada知了：转述飞书纪要式开源重建，接Ling与Ming模型](cases/cicada-feishu-meeting-notes-rebuild-report.md) — 介绍帖称知了逆向飞书纪要，提供字幕、同传与45秒增量结构化总结；未证明AI参与逆向或功能等价。 **[未确认使用 REA · 相关项目]**
+- [Expo：转述37个Claude Agent研究七天后公开成果](cases/expo-37-claude-agents-research-release-claim.md) — 苏念念称37个Claude Agent每天18小时、七天逆向Expo并免费开源；没有成果目录、测试或开发者原文。 **[其他 AI 逆向 · 待验证]**
+- [本地协议研究：同事称Claude中途拒绝，Codex同提示继续](cases/local-protocol-claude-codex-refusal-comparison.md) — 中文回复报告安全同事拆本地协议的模型对照，未命名协议、展示会话或证明最终成果。 **[其他 AI 逆向 · 待验证]**
+- [Rust版WPS：宣传单窗口多格式阅读与AI命令行改文档](cases/rust-wps-multiformat-ai-cli-rebuild-report.md) — Jamba称一个Rust项目为WPS逆向版，支持五类文档与AI CLI修改；没有逆向过程或格式兼容测试。 **[未确认使用 REA · 相关项目]**
+- [本地AI联网前：日语作者称用REA列I/O做筛查](cases/local-ai-rea-io-prescreening-workflow.md) — 作者自述本地AI不接网络，需上线时先用REA列输入输出筛查；没有目标程序或审计记录。 **[REA · 待验证]**
+- [paper-figure-to-figma：把科研图片重建成可编辑矢量](cases/paper-figure-to-figma-editable-reconstruction-report.md) — 工具汇总介绍从论文图重建Figma文字、曲线和渐变，转述90%以上还原主张；未明确AI贡献。 **[未确认使用 REA · 待验证]**
+- [Antigravity百万上下文：转述256k压缩与二进制白名单分析](cases/antigravity-million-context-budget-binary-report.md) — 汇总称UI显示1M但模型侧约256k压缩，提default/512k/900k档位及白名单；未取得分析代码或验证。 **[未确认使用 REA · 待验证]**
 - [浏览器原型：作者称Agent建后端并从代码逆推架构图](cases/browser-prototype-agent-code-architecture-diagrams.md) — 荷语作者描述从浏览器端原型扩建后端、再从代码恢复架构图；没有图、代码或测试，完美架构仅作者评价。 **[其他 AI 逆向 · 待验证]**
 - [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
 - [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**
@@ -1485,6 +1499,9 @@
 
 ### 算法与功能重建
 
+- [Simon Willison本地Qwen实验：转述裸权重识别四游戏，答对三个](cases/simon-willison-qwen-local-game-weight-identification.md) — 新闻称Willison在笔记本用17GB Qwen3.8 27B读浮点数、禁写代码，四游戏认对三；未取得原实验。 **[其他 AI 逆向 · 待验证]**
+- [Alysha的视频编辑：拆解自己的流程后转成AI系统](cases/alysha-ai-video-editing-workflow-reconstruction.md) — 活动帖称alyshadotmd将编辑方法转成AI系统，全职工作之外每周发九条Instagram；没有实现记录。 **[其他 AI 逆向 · 待验证]**
+- [FVCOM海洋模型：转述Gemini/Antigravity用59分钟重建Rust核心](cases/fvcom-gemini-antigravity-rust-core-migration-report.md) — viest转述从Fortran核心恢复架构后重写Rust并以100种子对拍；性能、六个bug与覆盖率未取原记录。 **[其他 AI 逆向 · 待验证]**
 - [The Price of a Chance：sophi3重建环境，却未复现Bayesian基准峰值](cases/sophi3-price-of-chance-bayesian-benchmark-reimplementation.md) — AI研究Agent自述重建论文环境与预算计算成功，但多种附录解释都未得q=0.4峰值，向作者询问五处实现细节。 **[其他 AI 逆向 · 分析测试]**
 - [Kam／ARVO与ExploitGym：贴文用模型分析逆向flag与评分器误解](cases/kam-arvo-exploitgym-flag-model-analysis.md) — 长帖贴出Gemini与Claude对Agent评估事件的解释，涉及逆向flag和ptrace伪装；只是二手模型分析，不是METR原报告复核。 **[其他 AI 逆向 · 分析测试]**
 - [混淆二进制自测：REA／Ghidra重建C，作者称输出相近](cases/rea-ghidra-obfuscated-binary-c-output-test.md) — 作者报告实际测试混淆二进制，认为改变量名与宏隐藏逻辑不足以保护；无样本或测试集，输出相近不是等价证明。 **[REA · 分析测试]**
@@ -1501,7 +1518,7 @@
 - [巨钟机甲战斗片：sandmrk反推Muse分镜，承认生成不能完全匹配](cases/sandmrk-muse-clock-mech-battle-prompt.md) — sandmrk给出白发异瞳战士对钟面机甲的Muse重建规格；候选含57.0至59.3秒末镜与一致性限制，明确结果仍不匹配，不是原提示词恢复证明。 **[其他 AI 逆向 · 分析测试]**
 - [视觉逆向的瞄准系统idea：读者询问Claude能否研究向量式界面](cases/claude-vision-vector-targeting-study-idea.md) — 回复者由Claude视觉理解联想到军用向量式瞄准系统，只有研究方向问题，没有对象、执行或恢复结果；不提供武器设计方法。 **[其他 AI 逆向 · 待验证]**
 - [奖励描述反推：Tianyi Lorena Yan用高低奖励轨迹揭示模型实际偏好](cases/lorena-yan-reward-description-inference-audit.md) — 作者解释从同题不同奖励的rollout反推奖励描述，比单看复杂RM多一组对照信息；补充研究串给出LM生成描述与冻结基座筛选方法，不把监控改善当成漏洞已修复。 **[其他 AI 逆向 · 分析测试]**
-- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](cases/kxians-astra-qwen-weight-inspection-report.md) — 多帖转述Astra读改Qwen权重与控制任务；新增四种游戏识别、3.5%小车改权重和20倍PPO宣称。层数与代码公开状态说法冲突，全部数字未核实。 **[其他 AI 逆向 · 待验证]**
+- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](cases/kxians-astra-qwen-weight-inspection-report.md) — 多帖转述Astra读改权重、游戏识别与控制；新增评论强调Qwen修改使用Python及环境反馈，不能称纯看权重。层数、公开状态与全部成绩未核实。 **[其他 AI 逆向 · 待验证]**
 - [自家推荐流：REA做页面地图，Claude读压缩脚本重建排名](cases/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。 **[REA · 分析测试]**
 - [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
 - [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**

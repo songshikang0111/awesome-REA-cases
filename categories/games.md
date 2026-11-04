@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Splashdown：转述CoastRedWood的PS2到Linux反编译重建](../cases/splashdown-coastredwood-linux-decompilation-report.md) — 帖子称2001年水上摩托游戏4356函数全部重写、Linux全内容30fps；相邻AI故事未明确归于此项目。 **[未确认使用 REA · 相关项目]**
+- [未具名Switch 2模拟：称AI在首个游戏rip后一周完成](../cases/switch2-unnamed-ai-emulation-one-week-claim.md) — 串文把Claude/Ghidra兴趣与Switch2模拟的一周完成宣称并列；没有项目名、源码或兼容记录。 **[其他 AI 逆向 · 待验证]**
 - [Star Wars: Shadows of the Empire：Mirage提出AI辅助2026版重建idea](../cases/shadows-of-empire-ai-2026-rebuild-idea.md) — 读者建议反编译后交AI做新版；补读父帖才识别游戏，没有实现或模型细节。 **[其他 AI 逆向 · 待验证]**
 - [Pirates of the Caribbean Online：Play For Blood自述AI逆向MMORPG重建](../cases/play-for-blood-potco-ai-recreation.md) — 作者声称重建2013版海盗网游，封测可玩并计划一个月后公开；没有代码或可复核测试，不确认首创。 **[其他 AI 逆向 · 待验证]**
 - [MechWarrior 3：REA／Ghidra研究后逐函数重写C++，公开现代平台重建](../cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md) — Owen Morgan公开1999年机甲游戏的现代C++重建，项目称以Unicorn对照原版；支持三平台、宽屏与八人联机的说法未在本合集实测。 **[REA · 进行中]**

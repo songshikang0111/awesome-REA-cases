@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Meiji Sampler移植Akai MPC Sample：Codex制作108状态审阅工具](../cases/meiji-sampler-akai-mpc-sample-codex-ui-state-atlas.md) — 作者正通过自定义固件移植采样器，在320×240屏上用Codex生成UI State Atlas收集界面反馈；未报告完成移植。 **[其他 AI 逆向 · 进行中]**
+- [自制游戏机第13天：Codex协助连上旧Xbox蓝牙手柄](../cases/diy-console-xbox-controller-codex-bluetooth-fix.md) — 作者称旧Series S/X时代手柄从未更新，数日无法配对后由Codex协助改主机蓝牙设置成功；无驱动或协议分析。 **[其他 AI 逆向 · 待验证]**
+- [iPhone越狱后的Agent设想：替Siri、运行harness与跨应用控制](../cases/iphone-jailbreak-agent-siri-replacement-idea.md) — 作者预测2027年越狱回潮，提出root后换自选Agent与computer-use；尚无漏洞、工具或运行成果。 **[其他 AI 逆向 · 待验证]**
+- [Metis：静态分析与LLM合成EDK2启动期协议fuzz harness](../cases/metis-edk2-llm-guided-rehosting-fuzzing.md) — 论文摘要转发称把EDK2协议重托管为用户态程序，同时注入依赖交互；报告覆盖率73.1%和137个新bug，未独立复现。 **[其他 AI 逆向 · 分析测试]**
+- [Stackchan：Claude协助替换云固件，接DGX Spark做本地JOHNNY](../cases/stackchan-claude-local-johnny-firmware.md) — McCubbin称移除出厂固件，Claude协助重建桌面机器人与本地语音、人脸功能；没有源码或网络审计。 **[其他 AI 逆向 · 进行中]**
 - [jake的储能系统：Gemini Argon正在探索数据采集机制](../cases/jake-energy-storage-gemini-data-research.md) — 作者把Gemini探索储能系统数据采集列为正在进行的实际用途；没有厂商、接口或成果细节。 **[其他 AI 逆向 · 进行中]**
 - [jake的Starlink：Opus帮助排除固件更新与mesh组网故障](../cases/jake-starlink-opus-firmware-mesh-fix.md) — jake称Opus5.5解决Starlink路由器的古怪更新／mesh问题；没有故障步骤、型号或补丁，不当固件逆向已完成。 **[其他 AI 逆向 · 待验证]**
 - [AMD CPU固件：Nicolas抱怨Claude拒绝修补bug](../cases/nicolas-amd-cpu-claude-firmware-refusal.md) — 法语作者明确提出修CPU固件修复AMD问题，却称Claude不愿执行；只有未完成尝试，无漏洞或补丁证据。 **[其他 AI 逆向 · 待验证]**
@@ -23,7 +28,7 @@
 - [家庭Wi-Fi只读扫描：Claude找出三设备，却没查睡眠设备、固件与外连](../cases/claude-home-wifi-three-device-scan-limitations.md) — 作者复问Claude Code才发现扫描仅依Bonjour／UPnP发现设备；三设备与电视五响应不等于家庭网络安全审计。 **[其他 AI 逆向 · 分析测试]**
 - [自家相机固件：Tomas向Codex提出逆向idea，尚无功能与结果](../cases/tomas-codex-own-camera-firmware-idea.md) — @TomasVSantos以make no mistakes式提示请求Codex研究相机固件；具体相机、补丁和执行均未披露。 **[其他 AI 逆向 · 待验证]**
 - [Piranha Plant头盔：Codex据参考图与头部3D扫描重建可穿戴造型](../cases/slimflexington-codex-piranha-plant-scan-helmet.md) — SlimFlexington称AI结合参考图和女儿头扫设计头盔，在本地Blender／OpenSCAD做CAD；无模型文件、贴合或制造测试。 **[其他 AI 逆向 · 待验证]**
-- [Chip Ganassi赛车零件：转述OpenAI把3D扫描转成可编辑CAD，补缺失图纸](../cases/openai-chip-ganassi-3d-scan-editable-cad-report.md) — 西语长文称OpenAI与Chip Ganassi Racing合作将零件扫描重建CAD；目标具体，但没有零件、模型文件、误差与验证记录。 **[其他 AI 逆向 · 进行中]**
+- [Chip Ganassi赛车零件：转述OpenAI把3D扫描转成可编辑CAD，补缺失图纸](../cases/openai-chip-ganassi-3d-scan-editable-cad-report.md) — 新增中文转述称CGR把扫描恢复为CAD和2D生产图，工程师在CAD内反馈并审核精度与制造性；无零件文件或验证记录。 **[其他 AI 逆向 · 进行中]**
 - [ro-mono-303：Claude辅助TB-303电路与固件研究，ROM音序器接模拟声部](../cases/ro-mono-303-claude-circuit-firmware-emulator.md) — 帖子归因Claude Code；公开Lemus文档描述运行原固件的CPU模拟与逐元件声部，报告16项服务检查及400音符对照。须自备ROM才能用音序器，仍有亮度误差。 **[其他 AI 逆向 · 进行中]**
 - [板卡照片到固件导出：Brandon Rossi称Claude帮助首次读出flash](../cases/brandon-rossi-claude-board-photo-flash-firmware-dump.md) — Brandon Rossi先看Matt Brown教学，再把板卡照片交Claude，称首次从flash芯片得到固件dump；芯片、设备和完整性检查未给出。 **[其他 AI 逆向 · 待验证]**
 - [锐捷路由器SSH研究：奶昔称ARTEX分析固件与SN派生，未公开原理](../cases/nyarime-ruijie-artex-firmware-ssh-research-report.md) — 奶昔想给自家锐捷加去广告功能，称ARTEX识别固件后研究SSH密码并成功登录；22分钟、root派生及同型号通用性未独立验证。 **[其他 AI 逆向 · 待验证]**

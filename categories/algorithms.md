@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Simon Willison本地Qwen实验：转述裸权重识别四游戏，答对三个](../cases/simon-willison-qwen-local-game-weight-identification.md) — 新闻称Willison在笔记本用17GB Qwen3.8 27B读浮点数、禁写代码，四游戏认对三；未取得原实验。 **[其他 AI 逆向 · 待验证]**
+- [Alysha的视频编辑：拆解自己的流程后转成AI系统](../cases/alysha-ai-video-editing-workflow-reconstruction.md) — 活动帖称alyshadotmd将编辑方法转成AI系统，全职工作之外每周发九条Instagram；没有实现记录。 **[其他 AI 逆向 · 待验证]**
+- [FVCOM海洋模型：转述Gemini/Antigravity用59分钟重建Rust核心](../cases/fvcom-gemini-antigravity-rust-core-migration-report.md) — viest转述从Fortran核心恢复架构后重写Rust并以100种子对拍；性能、六个bug与覆盖率未取原记录。 **[其他 AI 逆向 · 待验证]**
 - [The Price of a Chance：sophi3重建环境，却未复现Bayesian基准峰值](../cases/sophi3-price-of-chance-bayesian-benchmark-reimplementation.md) — AI研究Agent自述重建论文环境与预算计算成功，但多种附录解释都未得q=0.4峰值，向作者询问五处实现细节。 **[其他 AI 逆向 · 分析测试]**
 - [Kam／ARVO与ExploitGym：贴文用模型分析逆向flag与评分器误解](../cases/kam-arvo-exploitgym-flag-model-analysis.md) — 长帖贴出Gemini与Claude对Agent评估事件的解释，涉及逆向flag和ptrace伪装；只是二手模型分析，不是METR原报告复核。 **[其他 AI 逆向 · 分析测试]**
 - [混淆二进制自测：REA／Ghidra重建C，作者称输出相近](../cases/rea-ghidra-obfuscated-binary-c-output-test.md) — 作者报告实际测试混淆二进制，认为改变量名与宏隐藏逻辑不足以保护；无样本或测试集，输出相近不是等价证明。 **[REA · 分析测试]**
@@ -18,7 +21,7 @@
 - [巨钟机甲战斗片：sandmrk反推Muse分镜，承认生成不能完全匹配](../cases/sandmrk-muse-clock-mech-battle-prompt.md) — sandmrk给出白发异瞳战士对钟面机甲的Muse重建规格；候选含57.0至59.3秒末镜与一致性限制，明确结果仍不匹配，不是原提示词恢复证明。 **[其他 AI 逆向 · 分析测试]**
 - [视觉逆向的瞄准系统idea：读者询问Claude能否研究向量式界面](../cases/claude-vision-vector-targeting-study-idea.md) — 回复者由Claude视觉理解联想到军用向量式瞄准系统，只有研究方向问题，没有对象、执行或恢复结果；不提供武器设计方法。 **[其他 AI 逆向 · 待验证]**
 - [奖励描述反推：Tianyi Lorena Yan用高低奖励轨迹揭示模型实际偏好](../cases/lorena-yan-reward-description-inference-audit.md) — 作者解释从同题不同奖励的rollout反推奖励描述，比单看复杂RM多一组对照信息；补充研究串给出LM生成描述与冻结基座筛选方法，不把监控改善当成漏洞已修复。 **[其他 AI 逆向 · 分析测试]**
-- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](../cases/kxians-astra-qwen-weight-inspection-report.md) — 多帖转述Astra读改Qwen权重与控制任务；新增四种游戏识别、3.5%小车改权重和20倍PPO宣称。层数与代码公开状态说法冲突，全部数字未核实。 **[其他 AI 逆向 · 待验证]**
+- [Qwen权重检查：Kxians转述Astra修改MLP缓解重复，并识别模型语言](../cases/kxians-astra-qwen-weight-inspection-report.md) — 多帖转述Astra读改权重、游戏识别与控制；新增评论强调Qwen修改使用Python及环境反馈，不能称纯看权重。层数、公开状态与全部成绩未核实。 **[其他 AI 逆向 · 待验证]**
 - [自家推荐流：REA做页面地图，Claude读压缩脚本重建排名](../cases/rea-watch-page-for-you-ranking-rebuild-test.md) — Solar Nomad报告10秒映射watch脚本、再86秒用Claude重建For you排名并1000/1000匹配；后续明确REA七项标记仅四项正确，公式由Claude直接读取。 **[REA · 分析测试]**
 - [Turnstile载荷：Tamamo称AI辅助研究746变量与确定性重复结果](../cases/tamamo-turnstile-ai-deterministic-payload-research.md) — 作者称在确定性环境比较混淆与去混淆代码，重复运行得到相同载荷，耗时约一周；没有代码、日志或线上验收，不证明绕过Cloudflare检测。 **[其他 AI 逆向 · 待验证]**
 - [Junior的mythos方法复建：问fable五个问题后，用Cursor／Hermes做工具](../cases/junior-mythos-deterministic-tool-loop-reconstruction-report.md) — 作者推断mythos是确定性工具循环，称据此创建工具并在20年仓库发现bug；未具名仓库、漏洞或模型版本，不证明还原内部方法。 **[其他 AI 逆向 · 待验证]**

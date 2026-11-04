@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Cicada知了：转述飞书纪要式开源重建，接Ling与Ming模型](../cases/cicada-feishu-meeting-notes-rebuild-report.md) — 介绍帖称知了逆向飞书纪要，提供字幕、同传与45秒增量结构化总结；未证明AI参与逆向或功能等价。 **[未确认使用 REA · 相关项目]**
+- [Expo：转述37个Claude Agent研究七天后公开成果](../cases/expo-37-claude-agents-research-release-claim.md) — 苏念念称37个Claude Agent每天18小时、七天逆向Expo并免费开源；没有成果目录、测试或开发者原文。 **[其他 AI 逆向 · 待验证]**
+- [本地协议研究：同事称Claude中途拒绝，Codex同提示继续](../cases/local-protocol-claude-codex-refusal-comparison.md) — 中文回复报告安全同事拆本地协议的模型对照，未命名协议、展示会话或证明最终成果。 **[其他 AI 逆向 · 待验证]**
+- [Rust版WPS：宣传单窗口多格式阅读与AI命令行改文档](../cases/rust-wps-multiformat-ai-cli-rebuild-report.md) — Jamba称一个Rust项目为WPS逆向版，支持五类文档与AI CLI修改；没有逆向过程或格式兼容测试。 **[未确认使用 REA · 相关项目]**
+- [本地AI联网前：日语作者称用REA列I/O做筛查](../cases/local-ai-rea-io-prescreening-workflow.md) — 作者自述本地AI不接网络，需上线时先用REA列输入输出筛查；没有目标程序或审计记录。 **[REA · 待验证]**
+- [paper-figure-to-figma：把科研图片重建成可编辑矢量](../cases/paper-figure-to-figma-editable-reconstruction-report.md) — 工具汇总介绍从论文图重建Figma文字、曲线和渐变，转述90%以上还原主张；未明确AI贡献。 **[未确认使用 REA · 待验证]**
+- [Antigravity百万上下文：转述256k压缩与二进制白名单分析](../cases/antigravity-million-context-budget-binary-report.md) — 汇总称UI显示1M但模型侧约256k压缩，提default/512k/900k档位及白名单；未取得分析代码或验证。 **[未确认使用 REA · 待验证]**
 - [浏览器原型：作者称Agent建后端并从代码逆推架构图](../cases/browser-prototype-agent-code-architecture-diagrams.md) — 荷语作者描述从浏览器端原型扩建后端、再从代码恢复架构图；没有图、代码或测试，完美架构仅作者评价。 **[其他 AI 逆向 · 待验证]**
 - [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](../cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
 - [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](../cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**
