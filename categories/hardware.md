@@ -2,13 +2,18 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [WiFi住宅雷达：Cooler称Claude重写路由固件，三块ESP32画移动图](../cases/cooler-claude-router-esp32-wifi-radar-claim.md) — 作者称Claude十分钟改路由固件，把WiFi扰动转为住宅地图；补称主要由三块ESP32采集。夜间人影是未经证实的故事，不是可靠人体定位结果。 **[其他 AI 逆向 · 待验证]**
+- [K.O.II虚拟采样器：Francisco Kemeny用照片、手册与AI做Mac原型](../cases/kemeny-ko2-macos-virtual-sampler-report.md) — 作者称用Teenage Engineering K.O.II产品照片和用户手册，一小时内玩到自建macOS版本，目的是购前学习；没有音频或功能等价测试。 **[其他 AI 逆向 · 待验证]**
+- [Elektron混合虚拟乐器：Kemeny用AI合并多台设备的文档功能](../cases/kemeny-elektron-hybrid-macos-instrument-report.md) — 作者称搜集Elektron设备文档，把多机功能汇入一个macOS虚拟乐器，供购前学习；未指明型号或验证合成功能。 **[其他 AI 逆向 · 待验证]**
+- [Torso T1虚拟版本：Kemeny称周末用AI制作购前学习工具](../cases/kemeny-torso-t1-macos-virtual-instrument-report.md) — 作者把Torso T1列为音乐设备macOS虚拟化的独立目标，称周日做完；没有具体功能、时序或硬件对照。 **[其他 AI 逆向 · 待验证]**
+- [AcidBox III虚拟版本：Kemeny称AI帮助制作Mac音乐设备替身](../cases/kemeny-acidbox3-macos-virtual-instrument-report.md) — 作者将Erica Synth AcidBox III列为周末四项macOS重建之一，供先学再买；未给处理算法、音色或设备等价证明。 **[其他 AI 逆向 · 待验证]**
 - [豆记BeanScribe：REA辅助把D3200录音豆接入自建飞书转写应用](../cases/gengdaj-feishu-recorder-custom-transcription-app.md) — 逸尘称REA辅助改造录音豆软件链路；公开H5／Python实现复用tacshi协议研究，接自有转写服务与私人文档，未改官方额度或固件，开头音频仍可能缺失。 **[REA · 进行中]**
 - [车辆ECU诊断idea：用REA研究练习模块，让Claude／Codex直接读扫描仪数据](../cases/rea-ecu-scanner-feed-diagnostic-suite-idea.md) — 回复建议从诊断数据采集开始，以REA了解ECU，再让编程Agent接扫描仪而不是反复喂照片；没有已经实现的软件或车辆测试。 **[REA · 待验证]**
 - [二手AirPods Max安全指控：Suprik称Claude发现异常蓝牙身份与录音程序](../cases/suprik-airpods-max-claude-bluetooth-tampering-allegation.md) — 作者称Claude审查六个蓝牙设备后发现耳机固件、键盘身份与BTAudioSync异常，并清理录音上传；无日志、样本或攻击链证明，不确认耳机被植入。 **[其他 AI 逆向 · 待验证]**
 - [Light L16相机：Dennison改用FreePi继续逆向研究](../cases/light-l16-freepi-reverse-engineering-report.md) — 本窗回复提到Light L16研究；补读较早原帖确认Dennison称Claude拒绝后改用FreePi，未公布目标模块或技术结果。 **[未确认使用 REA · 进行中]**
 - [RTX3090：0xSero播客提出用模型研究GPU性能限制](../cases/0xsero-rtx3090-llm-unlock-podcast-idea.md) — 播客宣传称3090约一半prefill性能受限，目录列模型研究GPU及DeepSeek／GLM逆向；没有解锁补丁或前后基准。 **[其他 AI 逆向 · 待验证]**
 - [Meiji Sampler移植Akai MPC Sample：Codex制作108状态审阅工具](../cases/meiji-sampler-akai-mpc-sample-codex-ui-state-atlas.md) — 作者正通过自定义固件移植采样器，在320×240屏上用Codex生成UI State Atlas收集界面反馈；未报告完成移植。 **[其他 AI 逆向 · 进行中]**
-- [自制游戏机第13天：Codex协助连上旧Xbox蓝牙手柄](../cases/diy-console-xbox-controller-codex-bluetooth-fix.md) — 作者称旧Series S/X时代手柄从未更新，数日无法配对后由Codex协助改主机蓝牙设置成功；无驱动或协议分析。 **[其他 AI 逆向 · 待验证]**
+- [自制游戏机第13天：Codex协助连上旧Xbox蓝牙手柄](../cases/diy-console-xbox-controller-codex-bluetooth-fix.md) — 作者称Codex改蓝牙设置连上旧Xbox手柄；同串补充自己只有Mac，没有Xbox／Windows可更新固件，因此选择兼容旧固件而非重写它。 **[其他 AI 逆向 · 待验证]**
 - [iPhone越狱后的Agent设想：替Siri、运行harness与跨应用控制](../cases/iphone-jailbreak-agent-siri-replacement-idea.md) — 作者预测2027年越狱回潮，提出root后换自选Agent与computer-use；尚无漏洞、工具或运行成果。 **[其他 AI 逆向 · 待验证]**
 - [Metis：静态分析与LLM合成EDK2启动期协议fuzz harness](../cases/metis-edk2-llm-guided-rehosting-fuzzing.md) — 论文摘要转发称把EDK2协议重托管为用户态程序，同时注入依赖交互；报告覆盖率73.1%和137个新bug，未独立复现。 **[其他 AI 逆向 · 分析测试]**
 - [Stackchan：Claude协助替换云固件，接DGX Spark做本地JOHNNY](../cases/stackchan-claude-local-johnny-firmware.md) — McCubbin称移除出厂固件，Claude协助重建桌面机器人与本地语音、人脸功能；没有源码或网络审计。 **[其他 AI 逆向 · 进行中]**

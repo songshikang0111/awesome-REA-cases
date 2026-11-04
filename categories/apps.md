@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [VerifiedIDA：给模型主导的IDA分析保存证据、修改回执与可恢复调查](../cases/verifiedida-evidence-led-llm-reversing-harness.md) — SentinelLabs公开IDA研究harness，要求模型引用当前证据后在候选数据库修改并检查持久化；ComRAT静态示例展示类型应用，但机械验证不保证语义正确。 **[其他 AI 逆向 · 相关项目]**
+- [Diyar波斯语键盘：M.A.H称反编译后用AI审视输入服务风险](../cases/diyar-persian-keyboard-ai-decompilation-security-review.md) — 作者报告拆WiX／MSI与.NET9，称AI将Diyar识别为拼写和翻译助手而非木马，同时质疑键盘hook、TSF与密码处理；未核验代码或真实外传。 **[其他 AI 逆向 · 待验证]**
+- [Ivo的英语练习软件：称用REA研究收费产品后做自用版本](../cases/ivo-rea-english-practice-app-rebuild-report.md) — Ivo以学英语不想付多份软件费为动机，称REA帮助制作功能相近的自用版本；未命名产品、提供源码或验证练习功能。 **[REA · 待验证]**
+- [巴西银行费用idea：Jason问能否用REA做免手续费App](../cases/jason-brazil-bank-fee-free-rea-app-idea.md) — Jason因巴西银行收费高提出REA重建应用的疑问；没有银行、接口或实现，客户端替代不证明可免除服务端费用。 **[REA · 待验证]**
+- [三台手机的SystemHelper调查：西野bird称Codex辅助发现录屏路径](../cases/xiyebird-systemhelper-codex-three-phone-screen-capture-allegation.md) — 作者称Codex／adb／逆向工具检查三个Ultra机型并发现录屏和平台转发，未给调用链、流量或触发条件；不确认未经授权外传或品牌责任。 **[其他 AI 逆向 · 待验证]**
+- [Spotify Jam：Denis称用REA与The Streaming Service展示替代版本](../cases/denis-spotify-jam-rea-streaming-service-report.md) — 作者针对Spotify Jam闭源性质发布REA相关演示，提到The Streaming Service；未取得源码或同步测试，不称已开源Spotify后端。 **[REA · 待验证]**
+- [YC浏览器Agent：Jay称逆向后用OpenCode SDK替换编排层](../cases/jay-yc-browser-agent-opencode-deepseek-rebuild.md) — Jay称研究未命名的YC浏览器Agent，换编排层以使用DeepSeek；没有目标名、代码或运行记录，不核实不限量说法。 **[其他 AI 逆向 · 待验证]**
 - [Granola替代实验：REA与Claude Code花22.30美元做出原型，一天后仍保留订阅](../cases/darragh-granola-rea-claude-rebuild-maintenance-test.md) — Darragh Lucey称61分钟交互做出约八成的会议笔记原型，但试用一天持续故障与转写出错，维护成本令他没有取消Granola。 **[REA · 分析测试]**
 - [marrow：Dokrypt把REA、反编译器、函数图和Claude放进桌面会话](../cases/marrow-dokrypt-rea-desktop-gui.md) — 作者报告制作REA桌面GUI，将listing、反编译与函数图和Claude并置；尚无可确认源码、分析样本或实际运行核验。 **[REA · 进行中]**
 - [Linear重写idea：把MCP当数据源，以Agent和issue链接代替常看界面](../cases/linear-mcp-agent-first-rewrite-idea.md) — Mohammed问Linear重写／逆向是否将至，并描述已很少看UI、让Agent处理任务的背景；没有重建实现或API研究。 **[其他 AI 逆向 · 待验证]**
@@ -37,7 +44,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜拆解参考片画面、花字、剪辑与声音的方案转述](../cases/rea-video-shot-breakdown-rebuild-report.md) — 新转述将逐镜拆解细化为AI生成、实拍与代码动效的制作方案，并列自测集和压缩误差；未取得可确认的仓库，不确认与morluto/rea同源。 **[未确认使用 REA · 相关项目]**
+- [REA-VIDEO：逐镜拆解参考片画面、花字、剪辑与声音的方案转述](../cases/rea-video-shot-breakdown-rebuild-report.md) — 转述逐镜分析与制作方案；11月4日补充带截图HTML报告，明确不是一键成片、提示词只是推测。仓库、许可与作者自测仍未直接核验。 **[未确认使用 REA · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -592,7 +599,7 @@
 - [REA + archify：把分析材料整理成可交互架构图](../cases/rea-archify-diagrams.md) — 作者报告将逆向结果交给架构图 Skill，生成独立 HTML 图示。 **[REA · 相关项目]**
 - [macOS 备忘录：REA三栏重建转述与Little Moments的同目标演示介绍](../cases/apple-notes-rea-swiftui-rebuild.md) — 较早转述称重建三栏SwiftUI笔记交互；Little Moments另介绍用REA制作类似Mac Notes应用的尝试，未给结果，不证明同一实现或同步兼容。 **[REA · 待验证]**
 - [Nuke / Houdini / Gurobi：让 AI 配合 Ghidra 研究替代品的 idea](../cases/industrial-tools-ai-ghidra-rebuild-idea.md) — 建议研究高价创作、求解和工业软件，制作低价替代；无实际分析结果。 **[其他 AI 逆向 · 进行中]**
-- [reverse-skill：给编程 Agent 的多目标逆向路线](../cases/reverse-skill-agent-workflows.md) — 公开仓库提供规则路由、授权范围、工具索引和离线样本流程；178条为路由基准规模，不是成功逆向178个目标。 **[未确认使用 REA · 相关项目]**
+- [reverse-skill：给编程 Agent 的多目标逆向路线](../cases/reverse-skill-agent-workflows.md) — 公开仓库提供规则路由、授权范围、工具索引与离线流程；11月新帖另称44条规则、175条回归用例，不把新旧基准数量当成功目标数。 **[未确认使用 REA · 相关项目]**
 - [自己的预约漏斗：调查前端后重建共享日历](../cases/booking-funnel-rea-calendar.md) — 作者报告 Claude + REA 从公开前端识别预约规则与 API，做出个人日历。 **[REA · 待验证]**
 - [Lotus SmartSuite：用 AI 重建现代 Linux 版本的 idea](../cases/lotus-smartsuite-linux-revival-idea.md) — 希望将停更办公套件而非热门在售软件作为 AI 逆向保存目标。 **[其他 AI 逆向 · 进行中]**
 - [REA + 本地 Qwen / pi：商业软件与接口的多目标分析测试](../cases/rea-local-qwen-commercial-analysis-tests.md) — 作者自述测试 Aspose、CData、Hopper demo 和接口算法，未提供样本或验证记录。 **[REA · 分析测试]**

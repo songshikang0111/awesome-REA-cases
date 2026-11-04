@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [PS1到PC重制idea：让AI拆游戏、改模型纹理并移植脚本](../cases/werewolf-freak-ai-ps1-pc-remaster-idea.md) — Werewolf Freak提出AI辅助反编译若干PS1游戏、重制3D素材并用转换层在PC跑新光照；尚无具名游戏或实现。 **[其他 AI 逆向 · 待验证]**
 - [FIGHTINGENGINE：3D MUGEN作者称AI帮助逆向，核心逻辑仍由团队手写](../cases/fightingengine-min2hound-ai-assisted-reversing.md) — Min解释持续约一年的3D格斗项目并非全由AI生成，AI尤其帮助逆向；角色导入、联机和自训练AI都是作者功能描述，未验证通用兼容。 **[其他 AI 逆向 · 进行中]**
 - [古棋规则研究：Patrick称Fable做fuzzing，前文列三种历史棋类](../cases/patrick-fable-ancient-boardgame-rule-experiments.md) — 作者在古代游戏规则重建话题中称Fable对游戏做fuzzing；同作者前文列Ludus Coriovalli、Brandubh、Mehen，但未给逐项方法或验证。 **[其他 AI 逆向 · 待验证]**
 - [CS2声音延迟：Claude找到23ms参数，Thour更换音频硬件后撤回结论](../cases/cs2-claude-sound-delay-hardware-correction.md) — Thour称Claude研究游戏文件找到声音偏移参数，但耳机复测不支持步枪普遍多20ms延迟；参数值不等于实际端到端延迟。 **[其他 AI 逆向 · 分析测试]**
