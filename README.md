@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1652 cases & projects
+# 1661 cases & projects
 
-**Latest case update:** November 4, 2026, 16:15 · **Last maintained:** November 4, 2026, 16:15 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 4, 2026, 20:13 · **Last maintained:** November 4, 2026, 20:13 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading** for device interoperability, useful replacements, game preservation and binary analysis—including a correction that separates a discovered setting from measured behavior. Dates below are source or author-update dates, not collection dates.
+**10 worth reading** for device interoperability, useful replacements, game preservation and binary analysis—including a recorder with explicit limits and a replacement that did not justify cancelling a subscription. Dates below are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -32,8 +32,8 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 6. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 7. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
 8. **[CS2 audio: a parameter is not a latency measurement](cases/en/cs2-claude-sound-delay-hardware-correction.md)** · `2026-11-04` author correction — Thour credits Claude with finding a **23ms sound-shift setting**, but retracts a general extra-20ms rifle-delay claim after a headset retest. AK-47 and M4A4 results differ; no raw measurements or independent rerun here. `Analysis test`
-9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
-10. **[121GW: rebuild a multimeter's firmware in C](cases/en/eevblog-121gw-claude-c-firmware-reconstruction.md)** · `2026-11-04` author update — Dave Jones reports **working Claude Code reconstruction in under 24 hours**; EEVblog 1784 lists Ghidra, bootloader work and human hardware testing. The video/source were not checked here; Bluetooth, calibration and full equivalence remain unconfirmed. `Author-reported result`
+9. **[BeanScribe: choose your recorder's transcription service](cases/en/gengdaj-feishu-recorder-custom-transcription-app.md)** · `2026-11-04` author updates and project record — Yichen credits REA; **public H5/Python code connects a D3200 to Feishu**, reusing tacshi's protocol research. Single-user deployment; the first 2–4 seconds may be lost, and official quotas/firmware are unchanged. Source-available, not OSI open source; not run here. `In progress`
+10. **[Granola: cheap to build, harder to keep working](cases/en/darragh-granola-rea-claude-rebuild-maintenance-test.md)** · `2026-11-04` — Darragh Lucey reports **61 minutes and $22.30** with REA/Claude Code, then a day of faults and transcription errors. He **kept the subscription**; the claimed 80% completion is subjective, not measured equivalence. No code or independent rerun here. `Analysis test`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **342** |
-| [Hardware & interoperability](categories/en/hardware.md) | **449** |
-| [Applications & clients](categories/en/apps.md) | **681** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **180** |
+| [Games & preservation](categories/en/games.md) | **344** |
+| [Hardware & interoperability](categories/en/hardware.md) | **452** |
+| [Applications & clients](categories/en/apps.md) | **684** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **181** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

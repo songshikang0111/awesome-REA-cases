@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Granola替代实验：REA与Claude Code花22.30美元做出原型，一天后仍保留订阅](../cases/darragh-granola-rea-claude-rebuild-maintenance-test.md) — Darragh Lucey称61分钟交互做出约八成的会议笔记原型，但试用一天持续故障与转写出错，维护成本令他没有取消Granola。 **[REA · 分析测试]**
+- [marrow：Dokrypt把REA、反编译器、函数图和Claude放进桌面会话](../cases/marrow-dokrypt-rea-desktop-gui.md) — 作者报告制作REA桌面GUI，将listing、反编译与函数图和Claude并置；尚无可确认源码、分析样本或实际运行核验。 **[REA · 进行中]**
+- [Linear重写idea：把MCP当数据源，以Agent和issue链接代替常看界面](../cases/linear-mcp-agent-first-rewrite-idea.md) — Mohammed问Linear重写／逆向是否将至，并描述已很少看UI、让Agent处理任务的背景；没有重建实现或API研究。 **[其他 AI 逆向 · 待验证]**
 - [Yuyu与Yinyue猫眼动画：10.1秒参考片的提示词重建实验](../cases/yuyu-yinyue-peephole-video-prompt-reconstruction.md) — 作者逐时段恢复动作、视线、中文对白与声音，结尾明确生成结果还不能完全匹配原片；没有自动反推或客观一致性证据。 **[其他 AI 逆向 · 进行中]**
 - [awesome-gpt-image-2：把参考图拆成可复用提示词与Agent Skill](../cases/awesome-gpt-image-2-prompt-reconstruction-collection.md) — 候选称530余图像案例与20余模板；补读项目README确认Prompt-as-Code资源，未验证原始提示词、模型ID或复刻精度。 **[其他 AI 逆向 · 相关项目]**
 - [Andreas的混淆器：Codex与Claude触发限制，暂以Haiku继续](../cases/unnamed-obfuscator-codex-claude-haiku-refusal-report.md) — 作者为防LLM逆向正在写混淆器，自述模型接受度差异；没有语言、产物或抗分析测试，拒绝比例不是效果基准。 **[其他 AI 逆向 · 进行中]**

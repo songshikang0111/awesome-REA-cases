@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1652 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1661 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（342）
-- [硬件与设备互通](categories/hardware.md)（449）
-- [应用与客户端](categories/apps.md)（681）
-- [算法与功能重建](categories/algorithms.md)（180）
+- [游戏与游戏保存](categories/games.md)（344）
+- [硬件与设备互通](categories/hardware.md)（452）
+- [应用与客户端](categories/apps.md)（684）
+- [算法与功能重建](categories/algorithms.md)（181）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [FIGHTINGENGINE：3D MUGEN作者称AI帮助逆向，核心逻辑仍由团队手写](cases/fightingengine-min2hound-ai-assisted-reversing.md) — Min解释持续约一年的3D格斗项目并非全由AI生成，AI尤其帮助逆向；角色导入、联机和自训练AI都是作者功能描述，未验证通用兼容。 **[其他 AI 逆向 · 进行中]**
+- [古棋规则研究：Patrick称Fable做fuzzing，前文列三种历史棋类](cases/patrick-fable-ancient-boardgame-rule-experiments.md) — 作者在古代游戏规则重建话题中称Fable对游戏做fuzzing；同作者前文列Ludus Coriovalli、Brandubh、Mehen，但未给逐项方法或验证。 **[其他 AI 逆向 · 待验证]**
 - [CS2声音延迟：Claude找到23ms参数，Thour更换音频硬件后撤回结论](cases/cs2-claude-sound-delay-hardware-correction.md) — Thour称Claude研究游戏文件找到声音偏移参数，但耳机复测不支持步枪普遍多20ms延迟；参数值不等于实际端到端延迟。 **[其他 AI 逆向 · 分析测试]**
 - [Splashdown：转述CoastRedWood的PS2到Linux反编译重建](cases/splashdown-coastredwood-linux-decompilation-report.md) — 帖子称2001年水上摩托游戏4356函数全部重写、Linux全内容30fps；相邻AI故事未明确归于此项目。 **[未确认使用 REA · 相关项目]**
 - [未具名Switch 2模拟：称AI在首个游戏rip后一周完成](cases/switch2-unnamed-ai-emulation-one-week-claim.md) — 串文把Claude/Ghidra兴趣与Switch2模拟的一周完成宣称并列；没有项目名、源码或兼容记录。 **[其他 AI 逆向 · 待验证]**
@@ -36,7 +38,7 @@
 - [游戏反编译请求对照：Major Matters报告Gemini CLI拒绝差异，不是移植成功率](cases/major-matters-game-decompile-agent-refusal-test.md) — 自有卡带反编译／Mario64个人PC移植请求在多个Agent与裸模型上获不同响应；作者给出8/8、10/10与14/20，未实际构建游戏。 **[其他 AI 逆向 · 分析测试]**
 - [AI辅助反作弊idea：Liexy Liu建议Infinity Ward研究作弊插件](cases/infinityward-ai-cheat-plugin-reversing-detection-idea.md) — 读者建议以AI研究作弊插件来帮助检测作弊玩家；只是面向Infinity Ward的建议，没有样本、检测器或误报数据。 **[其他 AI 逆向 · 待验证]**
 - [Lode Runner第八代AI：REA读ROM预测掉金差两帧，第七关仍超时](cases/nextcode-lode-runner-rea-gold-drop-prediction.md) — AI駆動開発NextCode称AI按ROM计数预测敌人198帧后掉金，预计F24241、实际F24243；动作仍同第七代，未解决第七关超时。 **[REA · 分析测试]**
-- [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助研究《街霸2》后制作网页版《奶霸》，给奶龙三种新招并加月球关；没有代码、版本或机制对照，不能认定ROM反编译或原版精确重建。 **[其他 AI 逆向 · 待验证]**
+- [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助街霸2网页版奶霸，新增完整流程讲解入口；三招与月球关仍只属作者报告，没有ROM反编译或机制等价证明。 **[其他 AI 逆向 · 待验证]**
 - [Castlevania: Symphony of the Night Ultimate：REA／Ghidra／Agent构建的标题报告](cases/castlevania-sotn-ultimate-rea-ghidra-report.md) — AdyLovelace发布名为Symphony of the Night Ultimate的项目，并明确写Built with REA + Ghidra + AI Agents；没有代码、支持版本或实际功能证据，不推断完整移植。 **[REA · 待验证]**
 - [Moonlight Syndrome本地化：Wesley称AI用于实现与逆向，翻译来自Paradise Hotel](cases/moonlight-syndrome-ai-implementation-localization-report.md) — 回复纠正把游戏补丁叫AI翻译的说法，称文本沿用Paradise Hotel脚本、AI仅做实现与逆向；没有补丁、代码或测试，不补称已经完整汉化或英化。 **[其他 AI 逆向 · 待验证]**
 - [球拍游戏提示实验：ConversationsWithAra称把具体游戏改为原创描述](cases/ara-claude-paddle-game-description-test.md) — 作者说Claude拒绝重建现有游戏后，自己改为描述一款原创球拍游戏；没有生成结果、代码或原游戏名，不能认定成功绕过或完成重建。 **[其他 AI 逆向 · 分析测试]**
@@ -371,6 +373,9 @@
 
 ### 硬件与设备互通
 
+- [豆记BeanScribe：REA辅助把D3200录音豆接入自建飞书转写应用](cases/gengdaj-feishu-recorder-custom-transcription-app.md) — 逸尘称REA辅助改造录音豆软件链路；公开H5／Python实现复用tacshi协议研究，接自有转写服务与私人文档，未改官方额度或固件，开头音频仍可能缺失。 **[REA · 进行中]**
+- [车辆ECU诊断idea：用REA研究练习模块，让Claude／Codex直接读扫描仪数据](cases/rea-ecu-scanner-feed-diagnostic-suite-idea.md) — 回复建议从诊断数据采集开始，以REA了解ECU，再让编程Agent接扫描仪而不是反复喂照片；没有已经实现的软件或车辆测试。 **[REA · 待验证]**
+- [二手AirPods Max安全指控：Suprik称Claude发现异常蓝牙身份与录音程序](cases/suprik-airpods-max-claude-bluetooth-tampering-allegation.md) — 作者称Claude审查六个蓝牙设备后发现耳机固件、键盘身份与BTAudioSync异常，并清理录音上传；无日志、样本或攻击链证明，不确认耳机被植入。 **[其他 AI 逆向 · 待验证]**
 - [Light L16相机：Dennison改用FreePi继续逆向研究](cases/light-l16-freepi-reverse-engineering-report.md) — 本窗回复提到Light L16研究；补读较早原帖确认Dennison称Claude拒绝后改用FreePi，未公布目标模块或技术结果。 **[未确认使用 REA · 进行中]**
 - [RTX3090：0xSero播客提出用模型研究GPU性能限制](cases/0xsero-rtx3090-llm-unlock-podcast-idea.md) — 播客宣传称3090约一半prefill性能受限，目录列模型研究GPU及DeepSeek／GLM逆向；没有解锁补丁或前后基准。 **[其他 AI 逆向 · 待验证]**
 - [Meiji Sampler移植Akai MPC Sample：Codex制作108状态审阅工具](cases/meiji-sampler-akai-mpc-sample-codex-ui-state-atlas.md) — 作者正通过自定义固件移植采样器，在320×240屏上用Codex生成UI State Atlas收集界面反馈；未报告完成移植。 **[其他 AI 逆向 · 进行中]**
@@ -823,6 +828,9 @@
 
 ### 应用与客户端
 
+- [Granola替代实验：REA与Claude Code花22.30美元做出原型，一天后仍保留订阅](cases/darragh-granola-rea-claude-rebuild-maintenance-test.md) — Darragh Lucey称61分钟交互做出约八成的会议笔记原型，但试用一天持续故障与转写出错，维护成本令他没有取消Granola。 **[REA · 分析测试]**
+- [marrow：Dokrypt把REA、反编译器、函数图和Claude放进桌面会话](cases/marrow-dokrypt-rea-desktop-gui.md) — 作者报告制作REA桌面GUI，将listing、反编译与函数图和Claude并置；尚无可确认源码、分析样本或实际运行核验。 **[REA · 进行中]**
+- [Linear重写idea：把MCP当数据源，以Agent和issue链接代替常看界面](cases/linear-mcp-agent-first-rewrite-idea.md) — Mohammed问Linear重写／逆向是否将至，并描述已很少看UI、让Agent处理任务的背景；没有重建实现或API研究。 **[其他 AI 逆向 · 待验证]**
 - [Yuyu与Yinyue猫眼动画：10.1秒参考片的提示词重建实验](cases/yuyu-yinyue-peephole-video-prompt-reconstruction.md) — 作者逐时段恢复动作、视线、中文对白与声音，结尾明确生成结果还不能完全匹配原片；没有自动反推或客观一致性证据。 **[其他 AI 逆向 · 进行中]**
 - [awesome-gpt-image-2：把参考图拆成可复用提示词与Agent Skill](cases/awesome-gpt-image-2-prompt-reconstruction-collection.md) — 候选称530余图像案例与20余模板；补读项目README确认Prompt-as-Code资源，未验证原始提示词、模型ID或复刻精度。 **[其他 AI 逆向 · 相关项目]**
 - [Andreas的混淆器：Codex与Claude触发限制，暂以Haiku继续](cases/unnamed-obfuscator-codex-claude-haiku-refusal-report.md) — 作者为防LLM逆向正在写混淆器，自述模型接受度差异；没有语言、产物或抗分析测试，拒绝比例不是效果基准。 **[其他 AI 逆向 · 进行中]**
@@ -1507,6 +1515,7 @@
 
 ### 算法与功能重建
 
+- [BenchCAD2.0转述：评估3D零件、装配与PCB连接重建](cases/benchcad2-openai-3d-pcb-reconstruction-benchmark-report.md) — 二手硬件报道给出内部模型0.875、Astra最高推理0.594，并描述几何与连接重建任务；缺原始题集、评分定义和运行记录。 **[其他 AI 逆向 · 待验证]**
 - [Simon Willison本地Qwen实验：转述裸权重识别四游戏，答对三个](cases/simon-willison-qwen-local-game-weight-identification.md) — 新闻称Willison在笔记本用17GB Qwen3.8 27B读浮点数、禁写代码，四游戏认对三；未取得原实验。 **[其他 AI 逆向 · 待验证]**
 - [Alysha的视频编辑：拆解自己的流程后转成AI系统](cases/alysha-ai-video-editing-workflow-reconstruction.md) — 活动帖称alyshadotmd将编辑方法转成AI系统，全职工作之外每周发九条Instagram；没有实现记录。 **[其他 AI 逆向 · 待验证]**
 - [FVCOM海洋模型：转述Gemini/Antigravity用59分钟重建Rust核心](cases/fvcom-gemini-antigravity-rust-core-migration-report.md) — viest转述从Fortran核心恢复架构后重写Rust并以100种子对拍；性能、六个bug与覆盖率未取原记录。 **[其他 AI 逆向 · 待验证]**

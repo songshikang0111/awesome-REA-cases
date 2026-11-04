@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [豆记BeanScribe：REA辅助把D3200录音豆接入自建飞书转写应用](../cases/gengdaj-feishu-recorder-custom-transcription-app.md) — 逸尘称REA辅助改造录音豆软件链路；公开H5／Python实现复用tacshi协议研究，接自有转写服务与私人文档，未改官方额度或固件，开头音频仍可能缺失。 **[REA · 进行中]**
+- [车辆ECU诊断idea：用REA研究练习模块，让Claude／Codex直接读扫描仪数据](../cases/rea-ecu-scanner-feed-diagnostic-suite-idea.md) — 回复建议从诊断数据采集开始，以REA了解ECU，再让编程Agent接扫描仪而不是反复喂照片；没有已经实现的软件或车辆测试。 **[REA · 待验证]**
+- [二手AirPods Max安全指控：Suprik称Claude发现异常蓝牙身份与录音程序](../cases/suprik-airpods-max-claude-bluetooth-tampering-allegation.md) — 作者称Claude审查六个蓝牙设备后发现耳机固件、键盘身份与BTAudioSync异常，并清理录音上传；无日志、样本或攻击链证明，不确认耳机被植入。 **[其他 AI 逆向 · 待验证]**
 - [Light L16相机：Dennison改用FreePi继续逆向研究](../cases/light-l16-freepi-reverse-engineering-report.md) — 本窗回复提到Light L16研究；补读较早原帖确认Dennison称Claude拒绝后改用FreePi，未公布目标模块或技术结果。 **[未确认使用 REA · 进行中]**
 - [RTX3090：0xSero播客提出用模型研究GPU性能限制](../cases/0xsero-rtx3090-llm-unlock-podcast-idea.md) — 播客宣传称3090约一半prefill性能受限，目录列模型研究GPU及DeepSeek／GLM逆向；没有解锁补丁或前后基准。 **[其他 AI 逆向 · 待验证]**
 - [Meiji Sampler移植Akai MPC Sample：Codex制作108状态审阅工具](../cases/meiji-sampler-akai-mpc-sample-codex-ui-state-atlas.md) — 作者正通过自定义固件移植采样器，在320×240屏上用Codex生成UI State Atlas收集界面反馈；未报告完成移植。 **[其他 AI 逆向 · 进行中]**

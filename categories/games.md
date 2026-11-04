@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [FIGHTINGENGINE：3D MUGEN作者称AI帮助逆向，核心逻辑仍由团队手写](../cases/fightingengine-min2hound-ai-assisted-reversing.md) — Min解释持续约一年的3D格斗项目并非全由AI生成，AI尤其帮助逆向；角色导入、联机和自训练AI都是作者功能描述，未验证通用兼容。 **[其他 AI 逆向 · 进行中]**
+- [古棋规则研究：Patrick称Fable做fuzzing，前文列三种历史棋类](../cases/patrick-fable-ancient-boardgame-rule-experiments.md) — 作者在古代游戏规则重建话题中称Fable对游戏做fuzzing；同作者前文列Ludus Coriovalli、Brandubh、Mehen，但未给逐项方法或验证。 **[其他 AI 逆向 · 待验证]**
 - [CS2声音延迟：Claude找到23ms参数，Thour更换音频硬件后撤回结论](../cases/cs2-claude-sound-delay-hardware-correction.md) — Thour称Claude研究游戏文件找到声音偏移参数，但耳机复测不支持步枪普遍多20ms延迟；参数值不等于实际端到端延迟。 **[其他 AI 逆向 · 分析测试]**
 - [Splashdown：转述CoastRedWood的PS2到Linux反编译重建](../cases/splashdown-coastredwood-linux-decompilation-report.md) — 帖子称2001年水上摩托游戏4356函数全部重写、Linux全内容30fps；相邻AI故事未明确归于此项目。 **[未确认使用 REA · 相关项目]**
 - [未具名Switch 2模拟：称AI在首个游戏rip后一周完成](../cases/switch2-unnamed-ai-emulation-one-week-claim.md) — 串文把Claude/Ghidra兴趣与Switch2模拟的一周完成宣称并列；没有项目名、源码或兼容记录。 **[其他 AI 逆向 · 待验证]**
@@ -12,7 +14,7 @@
 - [游戏反编译请求对照：Major Matters报告Gemini CLI拒绝差异，不是移植成功率](../cases/major-matters-game-decompile-agent-refusal-test.md) — 自有卡带反编译／Mario64个人PC移植请求在多个Agent与裸模型上获不同响应；作者给出8/8、10/10与14/20，未实际构建游戏。 **[其他 AI 逆向 · 分析测试]**
 - [AI辅助反作弊idea：Liexy Liu建议Infinity Ward研究作弊插件](../cases/infinityward-ai-cheat-plugin-reversing-detection-idea.md) — 读者建议以AI研究作弊插件来帮助检测作弊玩家；只是面向Infinity Ward的建议，没有样本、检测器或误报数据。 **[其他 AI 逆向 · 待验证]**
 - [Lode Runner第八代AI：REA读ROM预测掉金差两帧，第七关仍超时](../cases/nextcode-lode-runner-rea-gold-drop-prediction.md) — AI駆動開発NextCode称AI按ROM计数预测敌人198帧后掉金，预计F24241、实际F24243；动作仍同第七代，未解决第七关超时。 **[REA · 分析测试]**
-- [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](../cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助研究《街霸2》后制作网页版《奶霸》，给奶龙三种新招并加月球关；没有代码、版本或机制对照，不能认定ROM反编译或原版精确重建。 **[其他 AI 逆向 · 待验证]**
+- [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](../cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助街霸2网页版奶霸，新增完整流程讲解入口；三招与月球关仍只属作者报告，没有ROM反编译或机制等价证明。 **[其他 AI 逆向 · 待验证]**
 - [Castlevania: Symphony of the Night Ultimate：REA／Ghidra／Agent构建的标题报告](../cases/castlevania-sotn-ultimate-rea-ghidra-report.md) — AdyLovelace发布名为Symphony of the Night Ultimate的项目，并明确写Built with REA + Ghidra + AI Agents；没有代码、支持版本或实际功能证据，不推断完整移植。 **[REA · 待验证]**
 - [Moonlight Syndrome本地化：Wesley称AI用于实现与逆向，翻译来自Paradise Hotel](../cases/moonlight-syndrome-ai-implementation-localization-report.md) — 回复纠正把游戏补丁叫AI翻译的说法，称文本沿用Paradise Hotel脚本、AI仅做实现与逆向；没有补丁、代码或测试，不补称已经完整汉化或英化。 **[其他 AI 逆向 · 待验证]**
 - [球拍游戏提示实验：ConversationsWithAra称把具体游戏改为原创描述](../cases/ara-claude-paddle-game-description-test.md) — 作者说Claude拒绝重建现有游戏后，自己改为描述一款原创球拍游戏；没有生成结果、代码或原游戏名，不能认定成功绕过或完成重建。 **[其他 AI 逆向 · 分析测试]**

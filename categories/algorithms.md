@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [BenchCAD2.0转述：评估3D零件、装配与PCB连接重建](../cases/benchcad2-openai-3d-pcb-reconstruction-benchmark-report.md) — 二手硬件报道给出内部模型0.875、Astra最高推理0.594，并描述几何与连接重建任务；缺原始题集、评分定义和运行记录。 **[其他 AI 逆向 · 待验证]**
 - [Simon Willison本地Qwen实验：转述裸权重识别四游戏，答对三个](../cases/simon-willison-qwen-local-game-weight-identification.md) — 新闻称Willison在笔记本用17GB Qwen3.8 27B读浮点数、禁写代码，四游戏认对三；未取得原实验。 **[其他 AI 逆向 · 待验证]**
 - [Alysha的视频编辑：拆解自己的流程后转成AI系统](../cases/alysha-ai-video-editing-workflow-reconstruction.md) — 活动帖称alyshadotmd将编辑方法转成AI系统，全职工作之外每周发九条Instagram；没有实现记录。 **[其他 AI 逆向 · 待验证]**
 - [FVCOM海洋模型：转述Gemini/Antigravity用59分钟重建Rust核心](../cases/fvcom-gemini-antigravity-rust-core-migration-report.md) — viest转述从Fortran核心恢复架构后重写Rust并以100种子对拍；性能、六个bug与覆盖率未取原记录。 **[其他 AI 逆向 · 待验证]**

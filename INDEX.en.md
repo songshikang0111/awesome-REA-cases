@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1652 entries**, organized by use case, without a Top-N or popularity threshold.
+**1661 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (342)
-- [Hardware and interoperability](categories/en/hardware.md) (449)
-- [Applications and clients](categories/en/apps.md) (681)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (180)
+- [Games and preservation](categories/en/games.md) (344)
+- [Hardware and interoperability](categories/en/hardware.md) (452)
+- [Applications and clients](categories/en/apps.md) (684)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (181)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [FIGHTINGENGINE: its 3D MUGEN developer credits AI-assisted reversing, with core logic written by hand](cases/en/fightingengine-min2hound-ai-assisted-reversing.md) — Min says AI especially helped reversing in a roughly year-long fighting-game project, not that AI generated its core. Character imports, online play and trainable AI remain author-described features. **[Other AI-assisted work · In progress]**
+- [Ancient-boardgame rules: Patrick reports Fable fuzzing after naming three historical games](cases/en/patrick-fable-ancient-boardgame-rule-experiments.md) — In a rule-reconstruction discussion the author says Fable fuzzed games. His earlier post names Ludus Coriovalli, Brandubh and Mehen, but supplies no per-game method or validation. **[Other AI-assisted work · Needs verification]**
 - [CS2 audio delay: Claude finds a 23ms parameter, but Thour retracts the hardware-confounded conclusion](cases/en/cs2-claude-sound-delay-hardware-correction.md) — Thour's headset retest does not support a general extra 20ms rifle delay, despite a Claude-reported sound-shift parameter. A parameter is not measured end-to-end latency. **[Other AI-assisted work · Analysis test]**
 - [Splashdown: a report of CoastRedWood's PS2-to-Linux decompilation reconstruction](cases/en/splashdown-coastredwood-linux-decompilation-report.md) — A post claims 4,356 rewritten functions and all content at 30fps on Linux. Adjacent AI stories are not explicitly attributed to this project. **[REA use unconfirmed · Related project]**
 - [An unnamed Switch 2 emulator: a one-week AI completion claim](cases/en/switch2-unnamed-ai-emulation-one-week-claim.md) — A thread pairs Claude/Ghidra interests with a one-week Switch 2 emulation claim, without a project, source or compatibility record. **[Other AI-assisted work · Needs verification]**
@@ -38,7 +40,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Game-decompilation request comparisons: Major Matters reports Gemini CLI refusal differences, not port success rates](cases/en/major-matters-game-decompile-agent-refusal-test.md) — Owned-cartridge decompilation/personal Mario 64 port requests receive different responses across agents and bare models. Reported 8/8, 10/10 and 14/20 values are not actual game builds. **[Other AI-assisted work · Analysis test]**
 - [An AI anti-cheat idea: Liexy Liu asks Infinity Ward to study cheat plugins](cases/en/infinityward-ai-cheat-plugin-reversing-detection-idea.md) — A reader suggests AI-assisted reversing of cheat plugins to help detect cheaters. It is a suggestion to Infinity Ward, without samples, a detector or false-positive data. **[Other AI-assisted work · Needs verification]**
 - [Eighth-generation Lode Runner AI: REA-based gold-drop prediction misses by two frames, level seven still times out](cases/en/nextcode-lode-runner-rea-gold-drop-prediction.md) — NextCode says ROM counters predict an enemy dropping gold after 198 frames: F24241 predicted, F24243 observed. Movement remains like generation seven and level seven still times out. **[REA · Analysis test]**
-- [Naiba in the browser: Linyi LYi reports an AI-assisted Street Fighter II remix with Nailong moves and a low-gravity moon stage](cases/en/linyilyi-naiba-street-fighter2-ai-web-remix.md) — Linyi LYi reports a web-based Naiba after AI-assisted Street Fighter II research, adding three Nailong moves and a moon stage. Without source, revision or behavior comparisons, ROM decompilation or faithful reconstruction is not established. **[Other AI-assisted work · Needs verification]**
+- [Naiba in the browser: Linyi LYi's Street Fighter II remix and a new AI-reconstruction walkthrough link](cases/en/linyilyi-naiba-street-fighter2-ai-web-remix.md) — Linyi LYi adds a full-process teaching entry for his AI-assisted Street Fighter II work. Three Nailong moves and a moon stage remain author reports, without proof of ROM decompilation or behavioral equivalence. **[Other AI-assisted work · Needs verification]**
 - [Castlevania: Symphony of the Night Ultimate: a title-level REA/Ghidra/agent build report](cases/en/castlevania-sotn-ultimate-rea-ghidra-report.md) — AdyLovelace posts a project named Symphony of the Night Ultimate with an explicit Built with REA + Ghidra + AI Agents attribution. No code, supported version or feature evidence establishes a complete port. **[REA · Needs verification]**
 - [Moonlight Syndrome localization: Wesley attributes implementation and reversing to AI, translation to Paradise Hotel](cases/en/moonlight-syndrome-ai-implementation-localization-report.md) — Wesley separates human translation from AI-assisted implementation/reversing. A November 4 reply explicitly calls it his Moonlight patch, correcting the earlier reader-only attribution, without establishing complete localization. **[Other AI-assisted work · Needs verification]**
 - [A paddle-game prompt test: ConversationsWithAra substitutes an original description for a named game](cases/en/ara-claude-paddle-game-description-test.md) — The author says Claude refuses existing-game rebuilding, then describes an original paddle game instead. No output, code or original title establishes successful acceptance or reconstruction. **[Other AI-assisted work · Analysis test]**
@@ -373,6 +375,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [BeanScribe: REA-assisted D3200 recording in a self-hosted Feishu transcription app](cases/en/gengdaj-feishu-recorder-custom-transcription-app.md) — Yichen credits REA for adapting the recorder workflow. Public H5/Python code reuses tacshi's protocol research for configurable speech services and private documents, without changing official quotas or firmware; initial audio can still be lost. **[REA · In progress]**
+- [An ECU diagnostics idea: study practice modules with REA and feed scanner data directly to Claude/Codex](cases/en/rea-ecu-scanner-feed-diagnostic-suite-idea.md) — A reply proposes starting with diagnostic-data collection, using REA to understand ECUs and a coding agent to consume scanner feeds instead of photos. No implemented suite or vehicle test is reported. **[REA · Needs verification]**
+- [A second-hand AirPods Max allegation: Suprik says Claude found abnormal Bluetooth identity and a recording app](cases/en/suprik-airpods-max-claude-bluetooth-tampering-allegation.md) — The author reports firmware, keyboard-identity and BTAudioSync anomalies during a six-device Claude check, then cleanup. Logs, samples and an attack chain are absent; tampering is not established. **[Other AI-assisted work · Needs verification]**
 - [Light L16 camera: Dennison switches to FreePi for ongoing reversing](cases/en/light-l16-freepi-reverse-engineering-report.md) — A window reply mentions the camera project; an earlier author post confirms a switch after Claude refused, without a target module or technical result. **[REA use unconfirmed · In progress]**
 - [RTX 3090: an 0xSero podcast proposes model-assisted research into GPU performance limits](cases/en/0xsero-rtx3090-llm-unlock-podcast-idea.md) — The episode promotion claims roughly half the 3090's prefill speed is locked and lists GPU research with models and DeepSeek/GLM reversing, without an unlock patch or before/after benchmark. **[Other AI-assisted work · Needs verification]**
 - [Meiji Sampler on Akai MPC Sample: a Codex-built 108-state review tool](cases/en/meiji-sampler-akai-mpc-sample-codex-ui-state-atlas.md) — The author is porting a sampler through custom firmware and uses a Codex-built UI State Atlas for a 320×240 display, not reporting a completed port. **[Other AI-assisted work · In progress]**
@@ -825,6 +830,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [A Granola replacement test: $22.30 with REA and Claude Code, then keeping the subscription](cases/en/darragh-granola-rea-claude-rebuild-maintenance-test.md) — Darragh Lucey reports a roughly 80% meeting-note prototype after 61 minutes of interaction, but a day of failures and bad transcription led him to keep paying for Granola. **[REA · Analysis test]**
+- [marrow: Dokrypt puts REA, decompilation, function graphs and Claude in one desktop session](cases/en/marrow-dokrypt-rea-desktop-gui.md) — The author reports a desktop REA GUI combining listings, a decompiler, function graphs and Claude. A confirmed repository, analysis sample and execution checks remain unavailable. **[REA · In progress]**
+- [A Linear rewrite idea: MCP as the data source, agents and issue links instead of frequent UI visits](cases/en/linear-mcp-agent-first-rewrite-idea.md) — Mohammed asks whether a Linear rewrite/reversing effort is coming, citing his existing agent-first workflow. No rebuilt product or API investigation is supplied. **[Other AI-assisted work · Needs verification]**
 - [Yuyu and Yinyue's peephole animation: reconstructing a prompt for a 10.1-second reference clip](cases/en/yuyu-yinyue-peephole-video-prompt-reconstruction.md) — A timed reconstruction specifies actions, gaze, Mandarin dialogue and sound; the author explicitly says the generated result still fails to fully match the original. **[Other AI-assisted work · In progress]**
 - [awesome-gpt-image-2: reference-image breakdowns as reusable prompts and an agent skill](cases/en/awesome-gpt-image-2-prompt-reconstruction-collection.md) — A candidate advertises 530-plus image cases and 20-plus templates; project documentation confirms a Prompt-as-Code resource, not verified original prompts, model IDs or reproduction accuracy. **[Other AI-assisted work · Related project]**
 - [Andreas's obfuscator: Codex and Claude trigger restrictions while Haiku still works](cases/en/unnamed-obfuscator-codex-claude-haiku-refusal-report.md) — An ongoing anti-LLM-reversing project reports differing model acceptance, without a language, artifact or resistance test. Refusal rates are not effectiveness benchmarks. **[Other AI-assisted work · In progress]**
@@ -1509,6 +1517,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [A BenchCAD 2.0 report: evaluating 3D parts, assemblies and PCB-connection reconstruction](cases/en/benchcad2-openai-3d-pcb-reconstruction-benchmark-report.md) — A secondary hardware account gives 0.875 for an internal model and 0.594 for Astra at its highest reasoning level, without original tasks, scoring definitions or run records. **[Other AI-assisted work · Needs verification]**
 - [Simon Willison's local Qwen: reportedly identifying three of four games from raw weights](cases/en/simon-willison-qwen-local-game-weight-identification.md) — News describes laptop-based 17GB Qwen3.8 27B recognizing three of four games without code. The original experiment was not obtained. **[Other AI-assisted work · Needs verification]**
 - [Alysha's video editing: reconstructing a personal workflow as an AI system](cases/en/alysha-ai-video-editing-workflow-reconstruction.md) — An event post says alyshadotmd turned her editing method into an AI system and published nine Instagram posts alongside full-time work, without implementation records. **[Other AI-assisted work · Needs verification]**
 - [FVCOM: a reported 59-minute Gemini/Antigravity Rust-core reconstruction](cases/en/fvcom-gemini-antigravity-rust-core-migration-report.md) — viest reports recovering a Fortran core's architecture and rewriting Rust with 100-seed comparisons. Performance, six bugs and coverage lack original records here. **[Other AI-assisted work · Needs verification]**
