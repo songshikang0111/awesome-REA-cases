@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [AIUP的PetClinic示例：从旧代码恢复用例规格，再渐进维护](../cases/aiup-spring-petclinic-brownfield-spec-recovery.md) — Simon Martinelli为AI Unified Process加入brownfield流程，称Spring PetClinic有逆向后start分支与实现测试后的main；微型示例不证明遗留系统语义完整恢复。 **[其他 AI 逆向 · 相关项目]**
+- [HyperFrames RAV：从Stripe发布视频反推重建的单次生成自述](../cases/hyperframes-rav-stripe-video-reconstruction.md) — Miguel Ángel称发布reverse-any-video技能并单次重建Stripe发布片；公开源码、许可、原片对照和生成记录未核验，不等同REA-VIDEO分析器。 **[其他 AI 逆向 · 待验证]**
+- [Harvey法律AI替代：Theo转述免费重建新闻稿，完整能力尚未证实](../cases/harvey-legal-ai-free-reimplementation-press-release-report.md) — Theo称有开发者逆向Harvey并免费公开替代品，但未命名实现、给源码或法律任务测试；估值／融资混用，不采纳110亿美元为已核验事实。 **[未确认使用 REA · 待验证]**
+- [AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent](../cases/dax-system-app-agent-ai-native-os-idea.md) — Dax设想把系统应用逆向并接入Agent，以形成AI-native操作层；没有指定平台、接口或实现，不是新内核或可用OS。 **[未确认使用 REA · 待验证]**
+- [Voyager扩展本地重建：Grok Bot五角色静态审计后仍遇滚动故障](../cases/voyager-grokbot-rea-local-extension-rebuild.md) — Francesco Faenzi报告Grok Bot指挥REA角色家族分析Voyager2.2.1并移除云端依赖；首轮97.5%为作者口径，第二轮滚动仍失败，未独立审计安全性。 **[未确认使用 REA · 进行中]**
+- [Ayo的TikTok分析：读者归因REA／Claude，25+与31模型说法尚待核验](../cases/ayo-tiktok-rea-claude-on-device-model-analysis-report.md) — 围绕Ayo的TikTok逆向视频，多帖转述端侧模型、传感器和未发私信指控；读者提到REA与Claude并追问证据。未读视频或JSON，不认定监控行为已证实。 **[未确认使用 REA · 待验证]**
+- [Premiere Pro工程格式：Kyle逆向规格，让AI不打开剪辑器也能编辑](../cases/techsquidtv-premiere-project-file-ai-editing.md) — Kyle TechSquidTV称正在逆向Premiere Pro项目文件规格，目标让AI Agent直接编辑视频；尚无格式文档、代码或导入导出测试。 **[其他 AI 逆向 · 进行中]**
+- [anti-REA SDK想法：Levi X.想为独立开发者阻挡Agent复制应用](../cases/levixhere-anti-rea-sdk-indie-founder-idea.md) — Levi X.从手机Agent与REA结合的复制风险提出防护SDK，尚未说明机制、平台或实验；不是Ju1y已有JS混淆器的更新。 **[REA · 待验证]**
 - [VerifiedIDA：给模型主导的IDA分析保存证据、修改回执与可恢复调查](../cases/verifiedida-evidence-led-llm-reversing-harness.md) — SentinelLabs公开IDA研究harness，要求模型引用当前证据后在候选数据库修改并检查持久化；ComRAT静态示例展示类型应用，但机械验证不保证语义正确。 **[其他 AI 逆向 · 相关项目]**
 - [Diyar波斯语键盘：M.A.H称反编译后用AI审视输入服务风险](../cases/diyar-persian-keyboard-ai-decompilation-security-review.md) — 作者报告拆WiX／MSI与.NET9，称AI将Diyar识别为拼写和翻译助手而非木马，同时质疑键盘hook、TSF与密码处理；未核验代码或真实外传。 **[其他 AI 逆向 · 待验证]**
 - [Ivo的英语练习软件：称用REA研究收费产品后做自用版本](../cases/ivo-rea-english-practice-app-rebuild-report.md) — Ivo以学英语不想付多份软件费为动机，称REA帮助制作功能相近的自用版本；未命名产品、提供源码或验证练习功能。 **[REA · 待验证]**
@@ -359,7 +367,7 @@
 - [Granola数据迁出：读者建议AI研究本地存储与加密的导出idea](../cases/granola-ai-local-data-export-idea.md) — Michael希望迁出Granola旧聊天；父串有人建议Codex检查Mac本地存储，Serg再建议AI逆向。未报告完成解密或导出，也未证实服务的收费与存储机制。 **[未确认使用 REA · 待验证]**
 - [REAP：JoasASantos的REA单功能调查提示词集](../cases/reap-joasasantos-rea-investigation-prompts.md) — 公开REA-Prompts仓库按二进制、固件、Android、游戏与内核等任务整理提示词，要求引用地址、区分事实与未知；这是工作流资料，不是所有示例均已验证的逆向成果。 **[REA · 相关项目]**
 - [搜索框重建：mai报告四个Claude Code Agent的观察、规格、隔离实现与对照测试](../cases/mai-rea-four-agent-search-bar-rebuild.md) — mai称四个Agent以REA工作流在4分52秒重建一个搜索框，18项对照从64%到100%；目标应用、测试和代码未公开核实，24项观察仍有3项未知。 **[REA · 待验证]**
-- [Arc浏览器保存愿望：停服公告后，读者建议REA与Codex辅助社区重建](../cases/arc-browser-ai-community-preservation-idea.md) — Arc宣布2026年12月22日结束服务后，读者建议REA与Codex辅助保存；Debdeep Sen随后称用REA与Claude一小时重建，计划打磨后开源，但无功能对照、仓库或测试。10月28日另有读者建议用Hetzner虚拟机编译Chromium并移植补丁维护fork。 **[REA · 待验证]**
+- [Arc保存与Arc Reborn：从社区重建愿望到Codex／Claude的Mac浏览器自述](../cases/arc-browser-ai-community-preservation-idea.md) — Arc宣布12月22日结束服务后出现REA／Codex保存提议与一小时重建说法；新增Tiffany称用Codex＋Claude做Arc Reborn，想保留Spaces颜色，仍无源码与等价测试核验。 **[REA · 待验证]**
 - [链上聚类图：Capslock报告REA与Claude用公开数据重建单HTML可视化](../cases/capslock-rea-public-chain-cluster-map.md) — Capslock称跳过付费接口，以公开链上数据重做月费499美元工具的聚类图，约14秒；同作者提示词限定为持有人及转账数据和单HTML，不证明整个收费产品已被替代。 **[REA · 待验证]**
 - [Telegram交易机器人：cypher pepe报告Claude Code静态检查发现剪贴板外发](../cases/cypher-pepe-claude-sniper-bot-static-report.md) — 作者称未运行匿名sniper bot，而用Claude Code反编译检查网络、文件与沙箱分支，70秒报告提示钱包路径上报及每30分钟剪贴板外发；未提供样本或报告，不能确认恶意行为与源码差异。 **[其他 AI 逆向 · 待验证]**
 - [春秋的Android MCP框架：用Grok Bot研究微信，准备让Agent操作手机应用](../cases/chunqiu-android-mcp-grok-wechat-research.md) — 春秋自称搭建Android MCP框架，让Grok Bot分析手机应用，当前展示微信，计划将订餐、酒店、机票及比价交给AI；未公开框架或可核测试，不把所有App内存透明视为已实现。 **[其他 AI 逆向 · 进行中]**
@@ -609,7 +617,7 @@
 - [idx-core：让 Claude 解释印尼股票数据采集路径的 idea](../cases/idx-core-ai-data-inspection-idea.md) — 回复建议检查idx-core中逆向与抓取的数据入口，提到KSEI数据。 **[其他 AI 逆向 · 待验证]**
 - [Hermes + REA：WinSCP GUI 的 Ghidra 导入测试与版本边界](../cases/hermes-rea-winscp-import-test.md) — 插件介绍报告WinSCP导入663秒，较晚说明纠正稳定版timeout键兼容问题。 **[REA · 分析测试]**
 - [永久授权压缩软件：用 AI 做个人逆向学习的 idea](../cases/compression-app-ai-learning-idea.md) — 用户提出学习已购买的压缩软件，尚在讨论个人研究与公开分享的边界。 **[其他 AI 逆向 · 待验证]**
-- [Arkham：Grok Bot + REA 研究链上分析工作台](../cases/arkham-grok-rea-research-workbench.md) — 作者描述观察钱包分析界面并草拟定制重建，真实数据交互仍待测试。 **[REA · 进行中]**
+- [Arkham到ChainScope：Grok Bot／REA研究工作台与实数据验收边界](../cases/arkham-grok-rea-research-workbench.md) — monokern早期明确真实数据待测；fleyta新增ChainScope功能与五角色提示词，要求live／fixture分离，但仍无provider验收记录，不是免费取得Arkham专有数据。 **[REA · 进行中]**
 - [Grok Build：用 REA + Claude Code 阅读开源实现](../cases/grok-build-rea-code-study.md) — 作者称用REA浏览开源项目，当前出于好奇研究Grok Build。 **[REA · 进行中]**
 - [Grok Bot 到 Hermes：让 Alan + REA 研究交互的 idea](../cases/grok-bot-hermes-rea-idea.md) — 用户想用Hermes内的Agent研究Grok Bot，尚未报告实施。 **[REA · 待验证]**
 - [Codex CLI：检查模型身份提示词与路由字段](../cases/codex-cli-model-identity-inspection.md) — 帖子检查0.162.1本地二进制，讨论具体模型名为何未进入Agent提示词。 **[未确认使用 REA · 分析测试]**

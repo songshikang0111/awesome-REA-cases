@@ -2,7 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
-- [WiFi住宅雷达：Cooler称Claude重写路由固件，三块ESP32画移动图](../cases/cooler-claude-router-esp32-wifi-radar-claim.md) — 作者称Claude十分钟改路由固件，把WiFi扰动转为住宅地图；补称主要由三块ESP32采集。夜间人影是未经证实的故事，不是可靠人体定位结果。 **[其他 AI 逆向 · 待验证]**
+- [Mika手机研究实验台：Android11结合Agent视觉、Root与抓包直读](../cases/mingzi206-mika-android11-reversing-testbed.md) — 明子206报告把定制Mika接入Android11真机的Root、Frida与HTTPS研究环境，双模操作并查只读SQLite；51单测与10HTTPS断言为作者自测。 **[其他 AI 逆向 · 进行中]**
+- [三星电视Home键：Matthias三问Claude后，称无root改键只适用旧固件](../cases/matthias-samsung-tv-home-remap-claude-research.md) — Matthias Förster报告Claude对同一无root改键问题先说不可能、再说容易，研究后才加旧固件限制；没有实际改键或版本验证材料。 **[其他 AI 逆向 · 分析测试]**
+- [WiFi住宅雷达：Cooler与Vector的Claude固件故事，未证实人体定位](../cases/cooler-claude-router-esp32-wifi-radar-claim.md) — Cooler称Claude十分钟改固件并配三块ESP32画住宅移动图；Vector又以相似故事宣传64路CSI与心率。没有原始测量，不当独立复现或可靠人体定位。 **[其他 AI 逆向 · 待验证]**
 - [K.O.II虚拟采样器：Francisco Kemeny用照片、手册与AI做Mac原型](../cases/kemeny-ko2-macos-virtual-sampler-report.md) — 作者称用Teenage Engineering K.O.II产品照片和用户手册，一小时内玩到自建macOS版本，目的是购前学习；没有音频或功能等价测试。 **[其他 AI 逆向 · 待验证]**
 - [Elektron混合虚拟乐器：Kemeny用AI合并多台设备的文档功能](../cases/kemeny-elektron-hybrid-macos-instrument-report.md) — 作者称搜集Elektron设备文档，把多机功能汇入一个macOS虚拟乐器，供购前学习；未指明型号或验证合成功能。 **[其他 AI 逆向 · 待验证]**
 - [Torso T1虚拟版本：Kemeny称周末用AI制作购前学习工具](../cases/kemeny-torso-t1-macos-virtual-instrument-report.md) — 作者把Torso T1列为音乐设备macOS虚拟化的独立目标，称周日做完；没有具体功能、时序或硬件对照。 **[其他 AI 逆向 · 待验证]**
@@ -240,7 +242,7 @@
 - [Yeelight Station：REA研究Windows安装器，Swift重做Mac灯光客户端](../cases/yeelight-station-rea-swift-mac.md) — Anuhas D.称因Yeelight Station只有Windows应用，用REA研究安装器后制作原生Swift Mac版，提供菜单栏、屏幕同步与音乐同步；未独立验证设备响应或签名。 **[REA · 待验证]**
 - [电水壶互通：REA与Opus的只读优先、现场确认控制提示词](../cases/kettle-rea-evidence-first-control-idea.md) — vartekx给出研究自有电水壶接口并制作最小连接器的完整提示词，要求保留防干烧、人在现场逐次确认和状态回读；没有型号或实测，不把卧床烧水宣传当安全验证。 **[REA · 待验证]**
 - [廉价示波器固件：Claude辅助逆向并重写Rust的作者自述](../cases/oscilloscope-claude-rust-firmware-report.md) — @asdhuqiwuhdais称前一天让Claude研究一台廉价示波器的固件并用Rust重写，认为更好用；没有型号、具体改善功能或测试，不当作已验证固件替代。 **[其他 AI 逆向 · 待验证]**
-- [NVIDIA显卡驱动：让AI尝试反编译的读者提案](../cases/nvidia-video-driver-ai-decompilation-idea.md) — 早期读者提案是让AI反编译NVIDIA驱动；新读者进一步要求Linux版用Rust重写以改善稳定性，仍无实现或测试。 **[其他 AI 逆向 · 待验证]**
+- [Linux显卡驱动idea：从NVIDIA反编译到NVIDIA／AMD电源管理与144Hz](../cases/nvidia-video-driver-ai-decompilation-idea.md) — 早期NVIDIA反编译与Linux／Rust稳定性提案，新增joachim以REA研究NVIDIA／AMD驱动、电源管理、144Hz及重启的愿望，均无实现。 **[其他 AI 逆向 · 待验证]**
 - [LG C1 OLED：Damos用Claude Code重做原生QML主页与系统行为](../cases/lg-oled-damos-claude-qml-home.md) — Damos称在已root的webOS上用Claude Code制作QML主页，重映射HOME、关闭预加载并屏蔽广告域名；约80MB回收与350ms打开均为作者自报。 **[其他 AI 逆向 · 待验证]**
 - [芯片逆向工具自动化：长期手工研究者让AI Agent辅助构建](../cases/ai-agents-chip-reverse-engineering-tools-project.md) — @RCAVictorCo称手工做芯片逆向多年，因时间不足转而用AI Agent构建自动化工具；这是进行中的工具项目，不是已恢复某款芯片。 **[其他 AI 逆向 · 进行中]**
 - [iPhone Duo代码模型：Opus逐部件重建与约束检查的作者报告](../cases/iphone-duo-opus-parametric-model-report.md) — @andreysuperior称用Opus构建141部件的可折叠手机代码模型，逐项检查间隙与线缆弯曲；未提供真实尺寸来源或产物，不是已验证的iPhone硬件数字孪生。 **[其他 AI 逆向 · 待验证]**

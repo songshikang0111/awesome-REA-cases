@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [NSO playtest私服：社区称有人用AI逆向，尚无可核验实现](../cases/nso-playtest-ai-private-server-community-report.md) — gigi在NSO playtest社区串称有人未玩过游戏却用AI研究并准备私服；父串确认目标背景，未给团队、协议、代码或运行结果。 **[其他 AI 逆向 · 待验证]**
+- [Mappy第九代AI：REA读ROM发现波方向，32局得分仍未改善](../cases/nextcode-mappy-rea-rom-wave-direction-test.md) — NextCode称无人操作的Mappy AI对攻略存疑，以REA读ROM纠正数量并发现未写出的波方向；32局波得分与第八代相同。 **[REA · 分析测试]**
 - [PS1到PC重制idea：让AI拆游戏、改模型纹理并移植脚本](../cases/werewolf-freak-ai-ps1-pc-remaster-idea.md) — Werewolf Freak提出AI辅助反编译若干PS1游戏、重制3D素材并用转换层在PC跑新光照；尚无具名游戏或实现。 **[其他 AI 逆向 · 待验证]**
 - [FIGHTINGENGINE：3D MUGEN作者称AI帮助逆向，核心逻辑仍由团队手写](../cases/fightingengine-min2hound-ai-assisted-reversing.md) — Min解释持续约一年的3D格斗项目并非全由AI生成，AI尤其帮助逆向；角色导入、联机和自训练AI都是作者功能描述，未验证通用兼容。 **[其他 AI 逆向 · 进行中]**
 - [古棋规则研究：Patrick称Fable做fuzzing，前文列三种历史棋类](../cases/patrick-fable-ancient-boardgame-rule-experiments.md) — 作者在古代游戏规则重建话题中称Fable对游戏做fuzzing；同作者前文列Ludus Coriovalli、Brandubh、Mehen，但未给逐项方法或验证。 **[其他 AI 逆向 · 待验证]**
@@ -14,7 +16,7 @@
 - [3DO ODE菜单争议：AI反编译重建说法与原作者代码复制指控并存](../cases/fixel-3do-ode-menu-ai-rebuild-dispute.md) — rodrigotadeusp在3DO光驱模拟器菜单争议中提到AI反编译Fixel boot；Todd Gill指控界面及内部代码被复制，未做字节比较或授权判断。 **[其他 AI 逆向 · 待验证]**
 - [游戏反编译请求对照：Major Matters报告Gemini CLI拒绝差异，不是移植成功率](../cases/major-matters-game-decompile-agent-refusal-test.md) — 自有卡带反编译／Mario64个人PC移植请求在多个Agent与裸模型上获不同响应；作者给出8/8、10/10与14/20，未实际构建游戏。 **[其他 AI 逆向 · 分析测试]**
 - [AI辅助反作弊idea：Liexy Liu建议Infinity Ward研究作弊插件](../cases/infinityward-ai-cheat-plugin-reversing-detection-idea.md) — 读者建议以AI研究作弊插件来帮助检测作弊玩家；只是面向Infinity Ward的建议，没有样本、检测器或误报数据。 **[其他 AI 逆向 · 待验证]**
-- [Lode Runner第八代AI：REA读ROM预测掉金差两帧，第七关仍超时](../cases/nextcode-lode-runner-rea-gold-drop-prediction.md) — AI駆動開発NextCode称AI按ROM计数预测敌人198帧后掉金，预计F24241、实际F24243；动作仍同第七代，未解决第七关超时。 **[REA · 分析测试]**
+- [Lode Runner第十一代AI：REA掉金预测接近，得分出错且均分下降](../cases/nextcode-lode-runner-rea-gold-drop-prediction.md) — NextCode第八代用REA读ROM预测掉金差两帧；第十一代第三关预测差十帧但得分错，第五关三次未触发，均分低于第十代。 **[REA · 分析测试]**
 - [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](../cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助街霸2网页版奶霸，新增完整流程讲解入口；三招与月球关仍只属作者报告，没有ROM反编译或机制等价证明。 **[其他 AI 逆向 · 待验证]**
 - [Castlevania: Symphony of the Night Ultimate：REA／Ghidra／Agent构建的标题报告](../cases/castlevania-sotn-ultimate-rea-ghidra-report.md) — AdyLovelace发布名为Symphony of the Night Ultimate的项目，并明确写Built with REA + Ghidra + AI Agents；没有代码、支持版本或实际功能证据，不推断完整移植。 **[REA · 待验证]**
 - [Moonlight Syndrome本地化：Wesley称AI用于实现与逆向，翻译来自Paradise Hotel](../cases/moonlight-syndrome-ai-implementation-localization-report.md) — 回复纠正把游戏补丁叫AI翻译的说法，称文本沿用Paradise Hotel脚本、AI仅做实现与逆向；没有补丁、代码或测试，不补称已经完整汉化或英化。 **[其他 AI 逆向 · 待验证]**
@@ -253,7 +255,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](../cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](../cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](../cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6：逆向进度预测与Linux／Vulkan小体积移植的读者idea](../cases/gta6-ai-decompile-prediction.md) — 读者预测三个月逆向GTA6一半；另有Silver Spoon调侃用AI反编译重编译成Linux/Vulkan版、装进DVD。均无实施或容量测试。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植idea：Linux／Vulkan、DVD容量与Qwen／REA的PC版愿望](../cases/gta6-ai-decompile-prediction.md) — 从三个月逆向一半的预测，到Linux／Vulkan与DVD玩笑，再到读者提出用Qwen＋REA做PC版，均无样本、实现或测试。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](../cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](../cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](../cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**

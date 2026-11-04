@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Juicebox的AEO：反推AI搜索偏好的页面格式与品牌叙事](../cases/juicebox-ai-search-citation-behavior-aeo-report.md) — jam转述Juicebox观察ChatGPT／Perplexity引用后改内容，声称两月4500+注册；没有查询集或流量证据，不称恢复算法或证明因果。 **[未确认使用 REA · 待验证]**
 - [图像水印idea：Zhi Wei从LSB噪点推测GPT／Gemini水印可逆](../cases/synthid-gpt-gemini-lsb-noise-watermark-reversal-idea.md) — 作者称LSB查看器看到规律噪点并转述他人取得疑似噪点图，设想逆向去水印；未证明噪点为SynthID，或已恢复算法。 **[其他 AI 逆向 · 待验证]**
 - [部分加密文件恢复：macintosh转述Claude分析首16KB并逐格式抢救](../cases/macintosh-claude-partial-ransomware-file-recovery-report.md) — 候选评论引向700个勒索文件的二手故事：Claude识别仅头部加密，另写JPEG至MP4恢复模块和SketchUp解析器；26%完整恢复等比例未核验，不是破解AES／RSA。 **[其他 AI 逆向 · 待验证]**
 - [BenchCAD2.0转述：评估3D零件、装配与PCB连接重建](../cases/benchcad2-openai-3d-pcb-reconstruction-benchmark-report.md) — 二手硬件报道给出内部模型0.875、Astra最高推理0.594，并描述几何与连接重建任务；缺原始题集、评分定义和运行记录。 **[其他 AI 逆向 · 待验证]**
