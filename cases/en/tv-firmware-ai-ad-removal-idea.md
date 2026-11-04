@@ -1,7 +1,7 @@
 # TV ads and privacy: firmware ideas and the limits of CleanYourTV ADB cleanup
 
 Category: Hardware and interoperability · Other AI-assisted work
-Record date: 2026-10-20
+Record date: 2026-11-04
 Stage: Needs verification
 
 On October 16, @j_larrieux replies to @DCinvestor's question about TV firmware that does not spy on users, proposing decompilation, ad removal, recompilation and reflashing with thorough AI-requested tests. This is an idea without a brand, model, firmware, build, signing method or ad/telemetry tests. Safe flashing or overcoming signing restrictions cannot be assumed.
@@ -11,6 +11,10 @@ At 22:16 Beijing time that day, another respondent says Claude investigated thei
 At 13:21 on October 18, another author says simply describing requirements to Claude Code cleaned ads, installation inducements and what they call malware from their parents' TV. The background includes set-top boxes, third-party firmware installing promoted apps and PCDN. This is not in the earlier conversation and supplies no device model, package names, diagnostics, patches or traffic comparisons. Malware identification, complete tracking removal and actual firmware changes cannot be confirmed; reversing techniques are not explicit either. It adds a separate implementation account under the same ad-removal target, not one shared project. None of these results was run or privacy-tested by this collection, and REA use is unconfirmed.
 
 Two October 18 candidates at 17:03 and 18:20 add Gathin23/tv-vibehack. A third party says Claude Code cleaned a parents' Xiaomi TV in an afternoon, disabling 25 packages and replacing the launcher. The public README confirms an ADB client, disabling and restore scripts, a native tvOS-style launcher and Xiaomi examples. Packages are disabled, not uninstalled. This uses existing Android permissions, not firmware decompilation or rewriting, and does not establish rooting or reflashing. The README warns to install the new launcher before disabling the old one. Public documentation does not prove zero bricking risk or compatibility across every brand; enabling ADB also requires attention to network exposure. No code was run or TV connected. Twenty-five packages, one afternoon and the circulating engagement figures remain third-party claims, not independently verified.
+
+A new introduction at 13:58:53 Beijing time on November 4, 2026 says CleanYourTV uses Claude Code, Codex or Gemini CLI for model-specific backups, package disabling, launcher builds and screenshot checks. It claims 51,527 stars and 6,517 forks on November 4, and October 30 README figures of 114 brands, 433 models, a 572KB launcher, 31 languages and 202 community derivatives. All are third-party snapshots, not individually audited compatibility or success rates. The post emphasizes pm disable-user rather than uninstalling, excluding Samsung, LG, Roku and Vizio. It warns that plaintext network ADB on port 5555 should be closed afterward, disabling Google TV's setupwraith can affect Wi-Fi and casting, firmware updates can restore packages, and YouTube's internal ads are not removed. Restoration promises do not override the earlier pinned README's list-only recovery limit; the claim that statistics stop leaving the device has no traffic audit.
+
+At 14:32:30 that day, Hopper (@hopper_research) separately says Claude refused to help someone with their own TV, so an abliterated DeepSeek was used to produce a reversing plan. This establishes a reported plan only, without a TV model, plan text, implementation or test. It is not identified with any earlier TV or CleanYourTV; request acceptance is not successful ad removal.
 
 October 16 original idea's candidate snapshot: 4 likes, 143 views; two later personal accounts have separate sources, neither with flashing or privacy acceptance tests.
 October 18 cleanup candidate snapshot: 22 likes, 4,015 views; no diagnostics or patches, not independent confirmation of malware removal.
@@ -42,5 +46,7 @@ The October 20 candidate at 00:49 claims about 15 minutes per TV, 30 tested list
 - [October 20, 00:49: third-party CleanYourTV introduction](https://x.com/i/status/2112224530529763587)
 - [October 20, 02:17 pinned README: rename, compatibility and restoration limits](https://github.com/Gathin23/cleanyourtv/blob/6bcd649bfd6fb4ed0e448c369a258b672a0a1a0b/README.md)
 - [October 20, 13:56: third-party list snapshot and operational risks](https://x.com/i/status/2112422739583861000)
+- [CleanYourTV lists, launcher and ADB-risk retelling, November 4, 2026 at 13:58:53 Beijing time](https://x.com/i/status/2117859106073772473)
+- [Hopper's separate DeepSeek TV-reversing plan, November 4, 2026 at 14:32:30 Beijing time](https://x.com/i/status/2117867566156935190)
 
 [中文](../tv-firmware-ai-ad-removal-idea.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/hardware.md)

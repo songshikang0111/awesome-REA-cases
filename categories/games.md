@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [CS2声音延迟：Claude找到23ms参数，Thour更换音频硬件后撤回结论](../cases/cs2-claude-sound-delay-hardware-correction.md) — Thour称Claude研究游戏文件找到声音偏移参数，但耳机复测不支持步枪普遍多20ms延迟；参数值不等于实际端到端延迟。 **[其他 AI 逆向 · 分析测试]**
 - [Splashdown：转述CoastRedWood的PS2到Linux反编译重建](../cases/splashdown-coastredwood-linux-decompilation-report.md) — 帖子称2001年水上摩托游戏4356函数全部重写、Linux全内容30fps；相邻AI故事未明确归于此项目。 **[未确认使用 REA · 相关项目]**
 - [未具名Switch 2模拟：称AI在首个游戏rip后一周完成](../cases/switch2-unnamed-ai-emulation-one-week-claim.md) — 串文把Claude/Ghidra兴趣与Switch2模拟的一周完成宣称并列；没有项目名、源码或兼容记录。 **[其他 AI 逆向 · 待验证]**
 - [Star Wars: Shadows of the Empire：Mirage提出AI辅助2026版重建idea](../cases/shadows-of-empire-ai-2026-rebuild-idea.md) — 读者建议反编译后交AI做新版；补读父帖才识别游戏，没有实现或模型细节。 **[其他 AI 逆向 · 待验证]**

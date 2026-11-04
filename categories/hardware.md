@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Light L16相机：Dennison改用FreePi继续逆向研究](../cases/light-l16-freepi-reverse-engineering-report.md) — 本窗回复提到Light L16研究；补读较早原帖确认Dennison称Claude拒绝后改用FreePi，未公布目标模块或技术结果。 **[未确认使用 REA · 进行中]**
+- [RTX3090：0xSero播客提出用模型研究GPU性能限制](../cases/0xsero-rtx3090-llm-unlock-podcast-idea.md) — 播客宣传称3090约一半prefill性能受限，目录列模型研究GPU及DeepSeek／GLM逆向；没有解锁补丁或前后基准。 **[其他 AI 逆向 · 待验证]**
 - [Meiji Sampler移植Akai MPC Sample：Codex制作108状态审阅工具](../cases/meiji-sampler-akai-mpc-sample-codex-ui-state-atlas.md) — 作者正通过自定义固件移植采样器，在320×240屏上用Codex生成UI State Atlas收集界面反馈；未报告完成移植。 **[其他 AI 逆向 · 进行中]**
 - [自制游戏机第13天：Codex协助连上旧Xbox蓝牙手柄](../cases/diy-console-xbox-controller-codex-bluetooth-fix.md) — 作者称旧Series S/X时代手柄从未更新，数日无法配对后由Codex协助改主机蓝牙设置成功；无驱动或协议分析。 **[其他 AI 逆向 · 待验证]**
 - [iPhone越狱后的Agent设想：替Siri、运行harness与跨应用控制](../cases/iphone-jailbreak-agent-siri-replacement-idea.md) — 作者预测2027年越狱回潮，提出root后换自选Agent与computer-use；尚无漏洞、工具或运行成果。 **[其他 AI 逆向 · 待验证]**
@@ -58,7 +60,7 @@
 - [Linux显示驱动：RensouhouK称Claude与REA三小时重试成功](../cases/rensouhouk-claude-rea-linux-display-driver-report.md) — 作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。 **[REA · 待验证]**
 - [智能料理锅：Hollis称开始用Claude逆向，想让AI做饭](../cases/hollis-claude-smart-cooker-research.md) — Hollis称已开始研究智能料理锅，希望AI承担烹饪，人工只准备食材与摆盘；没有控制演示或安全测试。 **[其他 AI 逆向 · 进行中]**
 - [九号电动车数据看板：Kevin Cui称用AI逆向并上报Grafana](../cases/kevin-cui-ninebot-ai-grafana-telemetry.md) — 作者回复确认数据来自AI逆向，根帖展示九号电动车接入Grafana的报告；车型、获取通道、字段与代码未公开，不能推断已覆盖车辆控制。 **[其他 AI 逆向 · 待验证]**
-- [121GW万用表：Dave Jones报告Claude Code完成C重建，并发布实机测试视频](../cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — 11月4日EEVblog1784宣称单提示、不到24小时把固件重建为C且能工作，目录含实机与蓝牙测试；未观看视频、核对源码或校准，仍非独立验证。 **[其他 AI 逆向 · 进行中]**
+- [121GW万用表：Dave Jones报告Claude Code完成C重建，并发布实机测试视频](../cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — EEVblog1784报告不到24小时完成C重建与实机测试；新转述增加691函数及蓝牙可用主张，但本合集仍未观看视频、核对源码或校准。 **[其他 AI 逆向 · 进行中]**
 - [PS5蓝光离线启动：转述开发者鸣谢Claude的越狱载入报告](../cases/ps5-bluray-offline-loader-claude-secondary-report.md) — wakeupbrk称PS5可从刻录蓝光启动越狱、不需Wi-Fi或浏览器，开发者鸣谢Claude；未取得项目原文、支持固件或AI实际分工，不证明AI发现完整利用链。 **[其他 AI 逆向 · 待验证]**
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](../cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](../cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
@@ -419,7 +421,7 @@
 - [Whirlpool 洗烘机：用 REA 调查随机 F13 的计划](../cases/whirlpool-f13-rea-investigation-idea.md) — 用户因随机错误与售后答复不足，计划研究设备；并未证明计划报废。 **[REA · 待验证]**
 - [Apple Watch Ultra 2：AI 逆向后连接 Android 的待验证转述](../cases/apple-watch-ultra2-android-ai-report.md) — Edenwoodfilm 称开源工具能让 Ultra 2 配对 Android，当前 Android 路线需要 root。 **[其他 AI 逆向 · 待验证]**
 - [Plustek 8200i / ThinkPad MIPI：用 Windows 参考行为改善 Linux 驱动](../cases/schaller-opticfilm-thinkpad-linux.md) — Schaller 用 Claude 与已知良好的设备参考，研究底片扫描仪 USB 及笔记本相机配置；公开测量与剩余缺陷。 **[其他 AI 逆向 · 进行中]**
-- [电视广告与隐私：固件 idea 与 CleanYourTV 的 ADB 清理边界](../cases/tv-firmware-ai-ad-removal-idea.md) — CleanYourTV已确认由tv-vibehack改名；固定提交说明Fire TV仅支持清理、恢复只覆盖清单，不是固件重写或完整隐私验证。 **[其他 AI 逆向 · 待验证]**
+- [电视广告与隐私：固件 idea 与 CleanYourTV 的 ADB 清理边界](../cases/tv-firmware-ai-ad-removal-idea.md) — CleanYourTV新增清单与ADB风险转述，另有Hopper以DeepSeek制作电视逆向计划；清包、计划与真正固件重写须分开，恢复与隐私仍未实测。 **[其他 AI 逆向 · 待验证]**
 - [电路板功能重建：把 REA 思路用于硬件的 idea](../cases/rea-circuit-board-functional-rebuild-idea.md) — 作者提议做类似 REA 的程序，分析电路板功能后重新实现；尚无指定板卡或原型。 **[未确认使用 REA · 待验证]**
 - [Samsung 空调：Claude 部分协助的局域网控制研究](../cases/samsung-ac-local-claude-report.md) — 作者称逆向自己的 Samsung 空调实现本地控制；2022年后全型号支持未核验。 **[其他 AI 逆向 · 待验证]**
 - [Creality SpacePiX4：用 Gemini Argon 改善固件的计划](../cases/creality-spacepix4-gemini-firmware-idea.md) — 作者想用 Gemini Argon 为自己的具名设备做更好的固件，尚未说明研究或实现。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,7 @@
 
 [Editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [中文](../games.md)
 
+- [CS2 audio delay: Claude finds a 23ms parameter, but Thour retracts the hardware-confounded conclusion](../../cases/en/cs2-claude-sound-delay-hardware-correction.md) — Thour's headset retest does not support a general extra 20ms rifle delay, despite a Claude-reported sound-shift parameter. A parameter is not measured end-to-end latency. **[Other AI-assisted work · Analysis test]**
 - [Splashdown: a report of CoastRedWood's PS2-to-Linux decompilation reconstruction](../../cases/en/splashdown-coastredwood-linux-decompilation-report.md) — A post claims 4,356 rewritten functions and all content at 30fps on Linux. Adjacent AI stories are not explicitly attributed to this project. **[REA use unconfirmed · Related project]**
 - [An unnamed Switch 2 emulator: a one-week AI completion claim](../../cases/en/switch2-unnamed-ai-emulation-one-week-claim.md) — A thread pairs Claude/Ghidra interests with a one-week Switch 2 emulation claim, without a project, source or compatibility record. **[Other AI-assisted work · Needs verification]**
 - [Star Wars: Shadows of the Empire: Mirage proposes an AI-assisted 2026 rebuild](../../cases/en/shadows-of-empire-ai-2026-rebuild-idea.md) — A reader proposes decompiling the game and using AI for a modern version. The parent identifies the game; no implementation or model details are given. **[Other AI-assisted work · Needs verification]**

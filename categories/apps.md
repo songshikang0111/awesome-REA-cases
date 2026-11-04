@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Yuyu与Yinyue猫眼动画：10.1秒参考片的提示词重建实验](../cases/yuyu-yinyue-peephole-video-prompt-reconstruction.md) — 作者逐时段恢复动作、视线、中文对白与声音，结尾明确生成结果还不能完全匹配原片；没有自动反推或客观一致性证据。 **[其他 AI 逆向 · 进行中]**
+- [awesome-gpt-image-2：把参考图拆成可复用提示词与Agent Skill](../cases/awesome-gpt-image-2-prompt-reconstruction-collection.md) — 候选称530余图像案例与20余模板；补读项目README确认Prompt-as-Code资源，未验证原始提示词、模型ID或复刻精度。 **[其他 AI 逆向 · 相关项目]**
+- [Andreas的混淆器：Codex与Claude触发限制，暂以Haiku继续](../cases/unnamed-obfuscator-codex-claude-haiku-refusal-report.md) — 作者为防LLM逆向正在写混淆器，自述模型接受度差异；没有语言、产物或抗分析测试，拒绝比例不是效果基准。 **[其他 AI 逆向 · 进行中]**
+- [REA与Codex围绕GrapesJS做建站器，再用它建站](../cases/rea-codex-grapesjs-website-builder-experiment.md) — Rama Ken报告围绕GrapesJS构建网站构建器，记录五个版本及最终网站；没有说明被逆向的商业目标或公开验证指标。 **[REA · 待验证]**
+- [PyGhidra-MCP：让Agent从CLI或共享GUI调用Ghidra](../cases/pyghidra-mcp-cli-agent-analysis-server.md) — 公开Python桥以PyGhidra／JPype连接Ghidra与MCP，文档提供反编译、交叉引用、项目搜索及修改接口；beta工具，不是完整自动逆向成果。 **[其他 AI 逆向 · 相关项目]**
 - [Cicada知了：转述飞书纪要式开源重建，接Ling与Ming模型](../cases/cicada-feishu-meeting-notes-rebuild-report.md) — 介绍帖称知了逆向飞书纪要，提供字幕、同传与45秒增量结构化总结；未证明AI参与逆向或功能等价。 **[未确认使用 REA · 相关项目]**
 - [Expo：转述37个Claude Agent研究七天后公开成果](../cases/expo-37-claude-agents-research-release-claim.md) — 苏念念称37个Claude Agent每天18小时、七天逆向Expo并免费开源；没有成果目录、测试或开发者原文。 **[其他 AI 逆向 · 待验证]**
 - [本地协议研究：同事称Claude中途拒绝，Codex同提示继续](../cases/local-protocol-claude-codex-refusal-comparison.md) — 中文回复报告安全同事拆本地协议的模型对照，未命名协议、展示会话或证明最终成果。 **[其他 AI 逆向 · 待验证]**
