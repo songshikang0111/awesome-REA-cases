@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1609 cases & projects
+# 1627 cases & projects
 
-**Latest case update:** November 4, 2026, 04:18 · **Last maintained:** November 4, 2026, 04:18 · Beijing time (UTC+8). Counts as of this maintenance.
+**Latest case update:** November 4, 2026, 08:20 · **Last maintained:** November 4, 2026, 12:01 · Beijing time (UTC+8). Counts as of this maintenance.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
 8. **[HookLab: a self-hosted YouTube research desk](cases/en/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03` report; `2026-10-19` project record — Samin Yasar credits **REA browser/bundle research and Claude Code rebuilding** of Creator Hooks. Public title chat, outlier library, CLI and API; the library starts empty, AI/data services remain online, and full equivalence is untested here. `In progress`
 9. **[OKOK Libre: keep your scale, replace the ad-heavy app](cases/en/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth credits REA/GLM with APK research and Opus with UI work; **public Android code covers three OKOK Bluetooth protocols**. The pinned main manifest has no internet permission, not a final-APK audit. Some scale families remain unsupported; formula equivalence and health estimates are unverified. `In progress`
-10. **[MacBook9,1: get the built-in speakers working under Ubuntu](cases/en/jyz002-macbook91-cs4208-claude-ubuntu-speakers.md)** · `2026-11-04` author report; `2026-11-02` upstream record — jyz002 credits Claude Code and **adapts an existing digital-path driver**, rather than inventing one. Cold boot and software volume limiting matter; unsigned modules can damage speakers. Upstream distinguishes hardware-tested history from unrun releases. Not installed here. `In progress`
+10. **[121GW: rebuild a multimeter's firmware in C](cases/en/eevblog-121gw-claude-c-firmware-reconstruction.md)** · `2026-11-04` author update — Dave Jones reports **working Claude Code reconstruction in under 24 hours**; EEVblog 1784 lists Ghidra, bootloader work and human hardware testing. The video/source were not checked here; Bluetooth, calibration and full equivalence remain unconfirmed. `Author-reported result`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **337** |
-| [Hardware & interoperability](categories/en/hardware.md) | **429** |
-| [Applications & clients](categories/en/apps.md) | **668** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **175** |
+| [Games & preservation](categories/en/games.md) | **339** |
+| [Hardware & interoperability](categories/en/hardware.md) | **442** |
+| [Applications & clients](categories/en/apps.md) | **669** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **177** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

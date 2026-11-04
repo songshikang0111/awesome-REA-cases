@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1609 个案例与项目
+# 1627 个案例与项目
 
-**最近案例更新：**2026 年 11 月 4 日 04:18 · **最近维护：**2026 年 11 月 4 日 04:18 · 北京时间（UTC+8）；数量统计截至此次维护。
+**最近案例更新：**2026 年 11 月 4 日 08:20 · **最近维护：**2026 年 11 月 4 日 12:01 · 北京时间（UTC+8）；数量统计截至此次维护。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -33,7 +33,7 @@
 7. **[MechWarrior 3：让1999年的机甲游戏跑上现代电脑](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04`报道与固定项目记录 — Owen Morgan披露**REA／Ghidra研究、逐函数C++重建**，报告以Unicorn对照原版。公开原生后端、宽屏与八人UDP联机；报道明确Linux未试玩，Pirate's Moon未支持。须自备原游戏，本合集未构建。`进行中`
 8. **[HookLab：自托管的YouTube研究台](cases/hooklab-rea-youtube-outlier-tool-rebuild.md)** · `2026-11-03`报告；`2026-10-19`项目记录 — Samin Yasar披露**REA研究浏览器与脚本包，Claude Code重建Creator Hooks**。公开标题聊天、异常视频库、CLI与API；新装库为空，AI／数据服务仍联网，完整等价未在本合集验证。`进行中`
 9. **[OKOK Libre：留下体脂秤，换掉广告App](cases/okok-libre-rea-glm-scale-android.md)** · `2026-10-31` — JYunth称REA／GLM研究APK、Opus制作UI，**公开Android代码覆盖三种OKOK蓝牙协议**。固定主Manifest无联网权限，不等于最终APK审计；部分秤家族未支持，公式等价与健康估计未核验。`进行中`
-10. **[MacBook9,1：在Ubuntu下找回内置扬声器](cases/jyz002-macbook91-cs4208-claude-ubuntu-speakers.md)** · `2026-11-04`作者报告；`2026-11-02`上游记录 — jyz002称Claude Code辅助，**适配已有数字路径驱动**，不是从零发明。必须注意冷启动与软件限音；未签名模块可能损坏扬声器。上游把历史硬件实测与未运行版本分开记录，本合集未安装。`进行中`
+10. **[121GW：把万用表固件重建为C](cases/eevblog-121gw-claude-c-firmware-reconstruction.md)** · `2026-11-04`作者更新 — Dave Jones报告**Claude Code不到24小时重建且能工作**；EEVblog1784目录列Ghidra、bootloader研究与人类实机测试。本合集未观看视频或核对源码，蓝牙、校准与全功能等价仍未确认。`作者报告结果`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **337** |
-| [硬件与设备互通](categories/hardware.md) | **429** |
-| [应用与客户端](categories/apps.md) | **668** |
-| [算法与功能重建](categories/algorithms.md) | **175** |
+| [游戏与游戏保存](categories/games.md) | **339** |
+| [硬件与设备互通](categories/hardware.md) | **442** |
+| [应用与客户端](categories/apps.md) | **669** |
+| [算法与功能重建](categories/algorithms.md) | **177** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

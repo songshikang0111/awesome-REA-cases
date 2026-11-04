@@ -2,6 +2,19 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [jake的储能系统：Gemini Argon正在探索数据采集机制](../cases/jake-energy-storage-gemini-data-research.md) — 作者把Gemini探索储能系统数据采集列为正在进行的实际用途；没有厂商、接口或成果细节。 **[其他 AI 逆向 · 进行中]**
+- [jake的Starlink：Opus帮助排除固件更新与mesh组网故障](../cases/jake-starlink-opus-firmware-mesh-fix.md) — jake称Opus5.5解决Starlink路由器的古怪更新／mesh问题；没有故障步骤、型号或补丁，不当固件逆向已完成。 **[其他 AI 逆向 · 待验证]**
+- [AMD CPU固件：Nicolas抱怨Claude拒绝修补bug](../cases/nicolas-amd-cpu-claude-firmware-refusal.md) — 法语作者明确提出修CPU固件修复AMD问题，却称Claude不愿执行；只有未完成尝试，无漏洞或补丁证据。 **[其他 AI 逆向 · 待验证]**
+- [PSP Dock：David复用FUSA，在存储／手柄间切换并同步PPSSPP存档](../cases/david-psp-dock-usb-save-hid-ppsspp.md) — 作者借AI逆向浪潮介绍Switch式桌面工作流；同串称Windows已做、Linux／Android TV待做，复用既有PSP工程而非重建模拟器。 **[未确认使用 REA · 相关项目]**
+- [MateBook E Go 2023：转述本地Qwen辅助移植iOS16，驱动仍缺失](../cases/matebook-ego-ios16-qwen-secondary-report.md) — 二手帖称开发者让华为Windows平板启动iOS16，逆向流程用本地Qwen；无开发者链接、源码或启动记录。 **[其他 AI 逆向 · 待验证]**
+- [自家智能插座：计划逆向后从电脑控制并经MCP接Claude](../cases/smart-plug-desktop-claude-mcp-idea.md) — 土耳其语作者提出电脑控制智能插座与MCP连接Claude的具体idea，未报告实施结果。 **[其他 AI 逆向 · 待验证]**
+- [复古模拟主机固件：读者询问Claude能否通过USB分析硬件](../cases/retro-emulation-console-usb-claude-firmware-idea.md) — 葡语读者设想USB连接硬件后让Claude协助做复古模拟主机固件；尚无型号、方案或实验。 **[其他 AI 逆向 · 待验证]**
+- [Grand Duchess圣诞树：希望Claude改固件，让彩色灯也闪烁](../cases/grand-duchess-tree-claude-color-twinkle-idea.md) — 读者希望把只限白灯的twinkle模式开放给全彩LED，自己没有能力尝试；是具体固件修改idea。 **[其他 AI 逆向 · 待验证]**
+- [Conrad的三星电视：Claude拒绝后用Kimi清理广告与自动播放](../cases/conrad-samsung-tv-claude-kimi-debloat.md) — Conrad Bastable称Kimi帮助获得无广告极简主页；没有型号、补丁或测试，不能推断AirPlay已恢复。 **[其他 AI 逆向 · 待验证]**
+- [AirSense CPAP：与Claude规划固件重编译和Rust开源移植](../cases/airsense-cpap-claude-rust-firmware-plan.md) — 作者计划研究ResMed AirSense呼吸治疗设备固件，称已和Claude规划修改；没有实现或医疗安全测试。 **[其他 AI 逆向 · 待验证]**
+- [SMK-37固件：Sofia用Claude缩小Lean运行时并接杰理编译器](../cases/smk37-claude-lean-runtime-firmware-port.md) — Sofia称Claude编写固定内存池精简Lean运行时与构建脚本，复用Genkigenki的felucca-bsp移植；未证明新的芯片逆向成果。 **[其他 AI 逆向 · 相关项目]**
+- [温室控制器：6AW0RON0k声称Claude找出固件遥测外连](../cases/6aworon0k-greenhouse-claude-telemetry-claim.md) — 作者称控制器每两小时外传传感日志，有硬编码API；没有型号、日志或代码，入侵与修复未经确认。 **[其他 AI 逆向 · 待验证]**
+- [作物成熟度相机：作者声称Claude发现图像与产量数据外传](../cases/6aworon0k-crop-camera-claude-upload-claim.md) — 同帖独立边缘相机目标：据称每30秒上传原始帧、累计48000余文件；无日志，六个月暴露与修复未核验。 **[其他 AI 逆向 · 待验证]**
 - [MacBook9,1扬声器：Claude辅助识别CS4208数字路径与Ubuntu驱动适配](../cases/jyz002-macbook91-cs4208-claude-ubuntu-speakers.md) — @jyz002报告2016年12英寸MacBook在Ubuntu26.04恢复内置声音，复用Weegee驱动并强调冷启动、无硬件音量与扬声器损坏风险。 **[其他 AI 逆向 · 进行中]**
 - [自制无人机：Karmi宣称Claude研究遥测与飞行逻辑，未给可核验实现](../cases/karmi-claude-custom-drone-telemetry-report.md) — @0xKarmi称一次提示三分钟让自制无人机支持自定义飞行脚本；无硬件型号、代码、固件或飞行记录，近乎通用与零延迟等宣传未证。 **[其他 AI 逆向 · 待验证]**
 - [2018年Android TV续命：作者称Claude查固件并恢复流媒体应用](../cases/unnamed-2018-android-tv-claude-firmware-revival.md) — 作者称为祖母的旧电视用Claude查型号、系统与兼容固件，重启后恢复应用；没有说明具体型号、固件或逆向机制。 **[其他 AI 逆向 · 待验证]**
@@ -40,7 +53,7 @@
 - [Linux显示驱动：RensouhouK称Claude与REA三小时重试成功](../cases/rensouhouk-claude-rea-linux-display-driver-report.md) — 作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。 **[REA · 待验证]**
 - [智能料理锅：Hollis称开始用Claude逆向，想让AI做饭](../cases/hollis-claude-smart-cooker-research.md) — Hollis称已开始研究智能料理锅，希望AI承担烹饪，人工只准备食材与摆盘；没有控制演示或安全测试。 **[其他 AI 逆向 · 进行中]**
 - [九号电动车数据看板：Kevin Cui称用AI逆向并上报Grafana](../cases/kevin-cui-ninebot-ai-grafana-telemetry.md) — 作者回复确认数据来自AI逆向，根帖展示九号电动车接入Grafana的报告；车型、获取通道、字段与代码未公开，不能推断已覆盖车辆控制。 **[其他 AI 逆向 · 待验证]**
-- [121GW万用表：Dave Jones称Claude Code正将固件逆向为C](../cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — Dave Jones确认论坛用户的121GW固件逆向有效，并另称Claude Code正做自己的C重建；前者的成功不能移作AI版本已验证的结论。 **[其他 AI 逆向 · 进行中]**
+- [121GW万用表：Dave Jones报告Claude Code完成C重建，并发布实机测试视频](../cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — 11月4日EEVblog1784宣称单提示、不到24小时把固件重建为C且能工作，目录含实机与蓝牙测试；未观看视频、核对源码或校准，仍非独立验证。 **[其他 AI 逆向 · 进行中]**
 - [PS5蓝光离线启动：转述开发者鸣谢Claude的越狱载入报告](../cases/ps5-bluray-offline-loader-claude-secondary-report.md) — wakeupbrk称PS5可从刻录蓝光启动越狱、不需Wi-Fi或浏览器，开发者鸣谢Claude；未取得项目原文、支持固件或AI实际分工，不证明AI发现完整利用链。 **[其他 AI 逆向 · 待验证]**
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](../cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](../cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
@@ -200,7 +213,7 @@
 - [蒸汽桑拿接Home Assistant：Steve报告AI辅助研究915MHz LoRa遥控附件](../cases/stevegodlewski-steam-sauna-ai-home-assistant.md) — Steve Godlewski报告逆向自己的蒸汽桑拿并接入Home Assistant；原串明确使用蒸汽发生器的915MHz LoRa遥控附件，而非Modbus或云API。 **[其他 AI 逆向 · 待验证]**
 - [楼梯下的石头扫地机：Claude辅助研究遥控指令，让机器人自己钻出窄口](../cases/roborock-claude-narrow-exit-staircase-report.md) — Xiao Tan转述一晚Claude Code辅助脱困项目：人观察碰撞，AI写代码读日志；定位漂移使固定路线失败，改成倒退和左右试探，报告10次出入回充均成功。 **[其他 AI 逆向 · 待验证]**
 - [M-VAVE Cube Baby AC：Walbert用Claude与REA重建Linux踏板编辑器](../cases/mvave-cube-baby-ac-claude-rea-linux-editor.md) — Walbert Freitas不满吉他踏板编辑器仅支持Windows，报告让Claude用REA逆向后制作Linux原生应用；未取得源码或设备端读写验证。 **[REA · 待验证]**
-- [log4j的2025三星电视调查：AI辅助本地逆向、遥测线索与尚未公开的完整报告](../cases/log4j-samsung-tizen-ai-privacy-investigation.md) — log4j的三星电视本地逆向仍待完整报告；10月27日作者澄清漏洞并非Codex发现，也无理由认定封禁专门针对三星调查。遥测与麦克风路由仍是作者主张，未证明持续原始音频上传。 **[未确认使用 REA · 进行中]**
+- [log4j的2025三星电视调查：AI辅助本地逆向、遥测线索与尚未公开的完整报告](../cases/log4j-samsung-tizen-ai-privacy-investigation.md) — log4j的三星电视本地逆向仍待完整报告；10月27日作者澄清漏洞并非Codex发现，也无理由认定封禁专门针对三星调查。遥测与麦克风路由仍是作者主张，未证明持续原始音频上传；11月4日另有解封致歉的未核验转述。 **[未确认使用 REA · 进行中]**
 - [旧Kindle仪表盘：furkan称Claude辅助越狱，Raspberry服务器供数且保留阅读](../cases/furkan-kindle-claude-raspberry-dashboard.md) — furkan报告Claude帮助旧Kindle越狱并制作仪表盘，服务运行在家中常开Raspberry上，可回默认阅读模式；服务器安全检查仍未完成。 **[其他 AI 逆向 · 待验证]**
 - [Nokia DCT3：bitplane报告AI辅助逆向旧手机，制作MAME驱动](../cases/bitplane-ai-nokia-dct3-mame.md) — bitplane报告AI辅助Nokia DCT3/MAME项目仍需数月；公开文档以3210为参考机，区分交互桌面、原生DSP与HLE边界，不承诺全系列兼容。 **[其他 AI 逆向 · 进行中]**
 - [智能灯泡变红报bug：Ashish把逆向协议接到Claude/Codex的MCP服务器](../cases/ashish-smart-bulb-mcp-bug-light.md) — AshishKingdom报告逆向自有智能灯泡协议并接入MCP，Claude或Codex发现代码bug时把灯变红；AI参与控制，但未说明AI是否辅助恢复协议。 **[未确认使用 REA · 相关项目]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Star Wars: Shadows of the Empire：Mirage提出AI辅助2026版重建idea](../cases/shadows-of-empire-ai-2026-rebuild-idea.md) — 读者建议反编译后交AI做新版；补读父帖才识别游戏，没有实现或模型细节。 **[其他 AI 逆向 · 待验证]**
+- [Pirates of the Caribbean Online：Play For Blood自述AI逆向MMORPG重建](../cases/play-for-blood-potco-ai-recreation.md) — 作者声称重建2013版海盗网游，封测可玩并计划一个月后公开；没有代码或可复核测试，不确认首创。 **[其他 AI 逆向 · 待验证]**
 - [MechWarrior 3：REA／Ghidra研究后逐函数重写C++，公开现代平台重建](../cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md) — Owen Morgan公开1999年机甲游戏的现代C++重建，项目称以Unicorn对照原版；支持三平台、宽屏与八人联机的说法未在本合集实测。 **[REA · 进行中]**
 - [3DO ODE菜单争议：AI反编译重建说法与原作者代码复制指控并存](../cases/fixel-3do-ode-menu-ai-rebuild-dispute.md) — rodrigotadeusp在3DO光驱模拟器菜单争议中提到AI反编译Fixel boot；Todd Gill指控界面及内部代码被复制，未做字节比较或授权判断。 **[其他 AI 逆向 · 待验证]**
 - [游戏反编译请求对照：Major Matters报告Gemini CLI拒绝差异，不是移植成功率](../cases/major-matters-game-decompile-agent-refusal-test.md) — 自有卡带反编译／Mario64个人PC移植请求在多个Agent与裸模型上获不同响应；作者给出8/8、10/10与14/20，未实际构建游戏。 **[其他 AI 逆向 · 分析测试]**

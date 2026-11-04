@@ -1,7 +1,7 @@
 # Bloomberg-style research terminal: a reported REA/Claude build
 
 Category: Applications and clients · REA
-Record date: 2026-11-02
+Record date: 2026-11-04
 Stage: Needs verification
 
 The poster reports firsthand building a Bloomberg-style financial-research workstation with REA MCP and Claude Opus 5.5. The described workflow observes publicly visible financial dashboards, charts and workflows; designs quotes, watchlists, financial statements, news, charting and portfolio analysis; connects free market-data APIs; and builds backtesting and analysis features. The author explicitly says Bloomberg's proprietary data was not unlocked and independent data sources were used. The evidence is the author's completion claim and build guide, without workstation code, an accessible product or test records. It remains unverified, without assuming all listed features are complete or equivalent to Bloomberg. REA use is directly reported in the post; this collection did not independently retest.
@@ -16,6 +16,8 @@ At 01:48:40 Beijing time on October 24, 2026, another proposal adds TradingAgent
 
 At 23:46:45 Beijing time on November 2, 2026, another candidate comments on an REA/Kronos/Claude Code research desk, emphasizing feeds, rate limits, delays and timezone alignment over assembling an interface. It gives generic examples of free stock data possibly delayed 15 minutes, Level-2 costing hundreds to thousands of dollars monthly, and an allegedly observed assembled system whose paper signals lagged by tens of seconds and lost returns to slippage. No vendor, project or ledger is named: these are not verified prices or measurements of this terminal. The writer plans to run the same stack for a week, recording feed failure rate, end-to-end latency and signal differences from human judgment, then comparing guild games' next-day/seven-day retention and actual payments. This research-desk/blockchain-game plan has no results yet. A comment that the stack can run is not a completed evaluation, nor confirmation of an earlier author's implementation.
 
+At 05:55:42 Beijing time on November 4, 2026, a new post proposes Day Trader Skill plus REA: study the layout and behavior of a financial interface one may access, build Bloomberg-style charts, scanners, volume profiles and research panels with Claude Code, then connect scanning, news, entry/exit, budget, risk and explicitly approved paper trading. It claims 11 skills, including timemachine simulating 10,000 outcomes from historical candles, and proposes 3D market visualizations. This differs from Kronos/TradingAgents and is not confirmed as an earlier author's implementation. No terminal code, identified analyzed target, backtest, paper ledger or returns are supplied; skill counts and simulation quality were not checked. Simulation is not forecast accuracy or real returns, and free repositories do not make feeds and operation free. No skill was installed, broker accessed or trade made.
+
 Posted: 2026-10-14T02:58:43+08:00
 Author reports using REA MCP and Claude Opus 5.5; this collection did not independently run or verify features.
 Author says free, independent market data was used, without unlocking Bloomberg's proprietary data.
@@ -24,6 +26,7 @@ October 17 adds claims of external workflow investigation and backtesting, witho
 October 22 source update: 07:12:52 Beijing time; Kronos proposal candidate snapshot: 5 likes, 245 views, 1 repost; no measured forecasting or trading results.
 October 24 source update: 01:48:40 Beijing time; candidate snapshot: 40 likes, 2,055 views and 7 reposts. The TradingAgents combination remains a proposal, without terminal code or backtest results.
 November 2 at 23:46:45 comment snapshot: 0 likes, 40 views, 0 reposts. The week-long evaluation is only planned; feed-cost and delay examples are unverified.
+November 4, 05:55:42 proposal snapshot: 15 likes, 816 views, 2 reposts. Eleven skills and 10,000 outcomes are post settings, not validated performance or returns.
 
 ## Sources
 
@@ -33,5 +36,6 @@ November 2 at 23:46:45 comment snapshot: 0 likes, 40 views, 0 reposts. The week-
 - [October 22 REA/Kronos probabilistic research-terminal proposal, not confirmed as the same implementation](https://x.com/i/status/2113045887119184222)
 - [October 24 REA/Kronos/TradingAgents terminal proposal, not confirmed as the same implementation](https://x.com/i/status/2113689074196263406)
 - [November 2 comment on data quality and a planned week-long latency evaluation, without results](https://x.com/i/status/2117282272890237381)
+- [November 4 Day Trader Skill/REA 11-skill terminal proposal, unverified](https://x.com/i/status/2117737509476024752)
 
 [中文](../bloomberg-style-research-terminal.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

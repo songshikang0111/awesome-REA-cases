@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [浏览器原型：作者称Agent建后端并从代码逆推架构图](../cases/browser-prototype-agent-code-architecture-diagrams.md) — 荷语作者描述从浏览器端原型扩建后端、再从代码恢复架构图；没有图、代码或测试，完美架构仅作者评价。 **[其他 AI 逆向 · 待验证]**
 - [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](../cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
 - [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](../cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**
 - [Aeon soldecomp：公开Solana反编译与回放工作台，已停止维护](../cases/aeon-soldecomp-solana-program-transaction-replay.md) — Aeon月报推荐的公开Solana字节码研究台提供Ghidra伪C、LiteSVM回放与候选Rust比较；项目已停止维护，检测器基准不代表实战准确率。 **[未确认使用 REA · 相关项目]**
@@ -552,7 +553,7 @@
 - [GTM 工具：用 REA 构建线索与邮件营销工作流](../cases/rea-gtm-tool.md) — 作者称用 REA 构建获客工具，涵盖线索管理与邮件活动；未提供实现或测试细节。 **[REA · 待验证]**
 - [茶叶出海网站：REA 辅助的本地重建报告](../cases/tea-site-rea-rebuild-report.md) — 作者称用 Codex + REA 逆向参考网站，并在约 40 分钟内本地部署重建版。 **[REA · 待验证]**
 - [iTerm：借助 REA 规格实现阿拉伯语文本绘制](../cases/arabic-terminal-rendering.md) — 作者自述用 REA 分析 iTerm，再按规格制作并在设备上测试阿拉伯语绘制支持；实现与测试尚无独立核验。 **[REA · 待验证]**
-- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](../cases/bloomberg-style-research-terminal.md) — 多帖描述REA／Claude研究终端与Kronos／TradingAgents提案；11月2日新评论提出一周数据失败率、延迟与人工差异测试，尚无终端产物或测量结果。 **[REA · 待验证]**
+- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](../cases/bloomberg-style-research-terminal.md) — REA／Claude终端目标新增Day Trader Skill组合提案，列11技能与10000路径模拟；与旧Kronos／TradingAgents方案分开归因，仍无终端实现或实测收益。 **[REA · 待验证]**
 - [闭源 Coding Agent：逆向多模型协同逻辑并制作 pi 插件](../cases/closed-agent-pi-plugin.md) — 作者自述用 REA 研究闭源 Coding Agent 的多模型协同逻辑，并据此开发 pi 插件；目标与实现尚未公开核验。 **[REA · 待验证]**
 - [ChatGPT App：用 REA 分析并为聊天窗口添加渐变背景](../cases/chatgpt-app-gradient-background.md) — 作者称用 ChatGPT 与 REA 分析 Electron 应用，并为右侧聊天窗口注入渐变背景。 **[REA · 待验证]**
 - [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](../cases/ledger-reborn-accounting-app.md) — 第三方报告称REA／Ghidra研究QuickBooks后制作Python／SQLite记账应用；11月1日新增Mac2024版、逐账户到分对照三张报表的说法，仍无独立审计。 **[REA · 相关项目]**

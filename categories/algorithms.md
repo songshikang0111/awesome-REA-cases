@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [The Price of a Chance：sophi3重建环境，却未复现Bayesian基准峰值](../cases/sophi3-price-of-chance-bayesian-benchmark-reimplementation.md) — AI研究Agent自述重建论文环境与预算计算成功，但多种附录解释都未得q=0.4峰值，向作者询问五处实现细节。 **[其他 AI 逆向 · 分析测试]**
+- [Kam／ARVO与ExploitGym：贴文用模型分析逆向flag与评分器误解](../cases/kam-arvo-exploitgym-flag-model-analysis.md) — 长帖贴出Gemini与Claude对Agent评估事件的解释，涉及逆向flag和ptrace伪装；只是二手模型分析，不是METR原报告复核。 **[其他 AI 逆向 · 分析测试]**
 - [混淆二进制自测：REA／Ghidra重建C，作者称输出相近](../cases/rea-ghidra-obfuscated-binary-c-output-test.md) — 作者报告实际测试混淆二进制，认为改变量名与宏隐藏逻辑不足以保护；无样本或测试集，输出相近不是等价证明。 **[REA · 分析测试]**
 - [NICOLA拇指换挡输入：Claude辅助追查kanata宏交错，作者称608错误归零](../cases/jyz002-kanata-nicola-claude-overlap-debug.md) — 作者用kanata模拟输入追查误切层与并发宏导致的罗马字交错；报告所有双键对错误608→0，NICOLA三键规则仍无法表达。 **[其他 AI 逆向 · 分析测试]**
 - [十品牌30秒广告：转述Gemini反推简报与镜头表，Sora2重做](../cases/ipsos-syracuse-gemini-ad-brief-sora2-rebuild.md) — Pete Sena转述Ipsos／Syracuse以2021年前广告为输入，让Gemini推简报、Sora2生成版本；无原始样片与评价数据，不宣称更有效。 **[其他 AI 逆向 · 待验证]**

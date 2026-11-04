@@ -1,20 +1,21 @@
 # Moonlight Syndrome localization: Wesley attributes implementation and reversing to AI, translation to Paradise Hotel
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-03
+Record date: 2026-11-04
 Stage: Needs verification
 
-At 10:11 Beijing time on November 3, 2026, Wesley Quessada (@quessada365) says Moonlight Syndrome is not AI-translated: it uses a Paradise Hotel script, with AI only for implementation and reverse engineering. The target is putting an existing translation into a game, not model-generated translation or complete engine recovery.
+At 10:11 Beijing time on November 3, 2026, Wesley Quessada (@quessada365) says Moonlight Syndrome uses a Paradise Hotel translation script, with AI only for implementation and reversing. The target is integrating existing text, not generating a translation or recovering the whole engine. The November 3, 01:38 parent was read for context only: it labels this game and Flower, Sun and Rain AI-translated versions. Wesley's clarification covers only Moonlight Syndrome, not the other game.
 
-The parent, dated November 3 at 01:38 Beijing time before the window, was read only for discussion context. It labels Moonlight Syndrome and Flower, Sun and Rain AI-translated versions. The candidate corrects only Moonlight Syndrome; that correction is not extended to Flower, Sun and Rain or used to create another project. Wesley does not explicitly claim to be the patch author, so this is a reader's clarification, not a first-person development log.
+In the November 4, 04:48:31 candidate, the same author explicitly says 'my Moonlight patch' and alleges receiving death threats because AI was used for reversing. Original retrieval confirms account and wording. This corrects the earlier record's reader-only attribution and lack of explicit authorship: there is now a participant's first-person account, not independent identity authentication. The threat allegation is unverified and does not establish patch quality.
 
-No patch repository, script permission, model/tools, insertion method, supported version or campaign test was obtained, and no game was run. Translation quality, complete localization, permission to reuse the script and AI ownership of all engineering are not established. Translation and implementation attribution remain separate.
+No patch repository, script permission, model/tools, text-insertion method, supported version or campaign tests were obtained, and no game was run. Complete localization, translation quality, script authorization and AI ownership of all engineering remain unconfirmed. Human translation and AI-assisted implementation stay separately attributed.
 
-Candidate snapshot: 2 likes, 54 views, 0 reposts. Not proof of patch authorship or quality.
+November 3 snapshot: 2 likes, 54 views, 0 reposts; November 4 candidate: 5 likes, 636 views, 0 reposts. Self-identification is not independent identity or quality proof.
 
 ## Sources
 
 - [Wesley Quessada clarifies AI's role in Moonlight Syndrome, November 3, 2026](https://x.com/i/status/2117439578470838389)
 - [Supplementary parent discussion, November 3, 2026, 01:38 Beijing time, before the window](https://x.com/i/status/2117310390187294726)
+- [Wesley says 'my Moonlight patch' and again discloses AI reversing, November 4, 2026](https://x.com/i/status/2117720602777632873)
 
 [中文](../moonlight-syndrome-ai-implementation-localization-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)
