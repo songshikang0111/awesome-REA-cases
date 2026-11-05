@@ -2,10 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Hopper的DeepSeek二进制分析服务：去拒绝不等于逆向正确](../cases/hopper-abliterated-deepseek-binary-analysis-service-report.md) — Hopper称提供abliterated DeepSeek用于二进制工作，自报HarmBench拒绝率62.8%降到0%；没有实际反编译任务或正确率证据。 **[其他 AI 逆向 · 相关项目]**
+- [营销版REA：Kev称用竞品链接让Claude拆解营销](../cases/kevbuildsapps-claude-competitor-marketing-teardown.md) — Kev Builds Apps称做了营销方向的reverse engineer anything，让Claude分析竞品链接；没有具体竞品、输出或准确率，不是已确认的软件反编译器。 **[其他 AI 逆向 · 相关项目]**
+- [Discord新客户端mod想法：社区预期用AI研究Rust版再做插件](../cases/discord-rust-client-ai-reversing-mods-idea.md) — 围绕Discord改用Rust的社区消息，两条评论预期AI能加快新客户端逆向并带来Rust mod；不是已发布插件或验证过的迁移工期。 **[其他 AI 逆向 · 待验证]**
 - [AIUP的PetClinic示例：从旧代码恢复用例规格，再渐进维护](../cases/aiup-spring-petclinic-brownfield-spec-recovery.md) — Simon Martinelli为AI Unified Process加入brownfield流程，称Spring PetClinic有逆向后start分支与实现测试后的main；微型示例不证明遗留系统语义完整恢复。 **[其他 AI 逆向 · 相关项目]**
 - [HyperFrames RAV：从Stripe发布视频反推重建的单次生成自述](../cases/hyperframes-rav-stripe-video-reconstruction.md) — Miguel Ángel称发布reverse-any-video技能并单次重建Stripe发布片；公开源码、许可、原片对照和生成记录未核验，不等同REA-VIDEO分析器。 **[其他 AI 逆向 · 待验证]**
 - [Harvey法律AI替代：Theo转述免费重建新闻稿，完整能力尚未证实](../cases/harvey-legal-ai-free-reimplementation-press-release-report.md) — Theo称有开发者逆向Harvey并免费公开替代品，但未命名实现、给源码或法律任务测试；估值／融资混用，不采纳110亿美元为已核验事实。 **[未确认使用 REA · 待验证]**
-- [AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent](../cases/dax-system-app-agent-ai-native-os-idea.md) — Dax设想把系统应用逆向并接入Agent，以形成AI-native操作层；没有指定平台、接口或实现，不是新内核或可用OS。 **[未确认使用 REA · 待验证]**
+- [AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent](../cases/dax-system-app-agent-ai-native-os-idea.md) — Dax设想把系统应用逆向并接入Agent；后续帖子举高德交通API动态安排起床时间的场景。尚无平台、接口或实现，不是可用OS。 **[未确认使用 REA · 待验证]**
 - [Voyager扩展本地重建：Grok Bot五角色静态审计后仍遇滚动故障](../cases/voyager-grokbot-rea-local-extension-rebuild.md) — Francesco Faenzi报告Grok Bot指挥REA角色家族分析Voyager2.2.1并移除云端依赖；首轮97.5%为作者口径，第二轮滚动仍失败，未独立审计安全性。 **[未确认使用 REA · 进行中]**
 - [Ayo的TikTok分析：读者归因REA／Claude，25+与31模型说法尚待核验](../cases/ayo-tiktok-rea-claude-on-device-model-analysis-report.md) — 围绕Ayo的TikTok逆向视频，多帖转述端侧模型、传感器和未发私信指控；读者提到REA与Claude并追问证据。未读视频或JSON，不认定监控行为已证实。 **[未确认使用 REA · 待验证]**
 - [Premiere Pro工程格式：Kyle逆向规格，让AI不打开剪辑器也能编辑](../cases/techsquidtv-premiere-project-file-ai-editing.md) — Kyle TechSquidTV称正在逆向Premiere Pro项目文件规格，目标让AI Agent直接编辑视频；尚无格式文档、代码或导入导出测试。 **[其他 AI 逆向 · 进行中]**

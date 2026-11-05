@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1689 cases & projects
+# 1696 cases & projects
 
-**Latest case update:** November 5, 2026, 04:20 · **Last maintained:** November 5, 2026, 04:20 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 5, 2026, 08:14 · **Last maintained:** November 5, 2026, 08:14 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading** for device interoperability, useful replacements, game preservation and evidence-led binary analysis. Public implementations sit alongside an honest subscription-replacement experiment: a working prototype is not the same as a dependable replacement. Dates below are source or author-update dates, not collection dates.
+**10 worth reading**: control your own devices, preserve games, and compare reconstructions with evidence. Public implementations share the list with a failed subscription-replacement experiment—useful results include knowing when to keep the original. Dates are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **347** |
-| [Hardware & interoperability](categories/en/hardware.md) | **459** |
-| [Applications & clients](categories/en/apps.md) | **699** |
+| [Games & preservation](categories/en/games.md) | **348** |
+| [Hardware & interoperability](categories/en/hardware.md) | **462** |
+| [Applications & clients](categories/en/apps.md) | **702** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **184** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

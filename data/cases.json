@@ -1,5 +1,136 @@
 [
   {
+    "id": "onryo-videocore2-sleigh-ghidra-mcp-ai-pipeline-idea",
+    "title": "VideoCore II固件idea：先补SLEIGH解码，再让AI经MCP研究",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Onryo针对Ghidra缺少VideoCore II支持的讨论提出定制解码与AI迭代管线；独立验证是计划步骤，不是已经完成的验证。",
+    "description": "2026年11月5日05:01:45（北京时间），Onryo（@3r1k4dl3r）提出：固件blob先经过定制VideoCore II SLEIGH解码器，进入Ghidra，再经MCP交给前沿AI自动逆向，最后独立验证并迭代。SLEIGH在这里是给Ghidra描述处理器指令的规格，MCP是Agent调用分析工具的连接层；连接模型不能自行补齐缺失的指令解码。\n\n补查父串发现，11月3日23:14:11的根帖讨论树莓派签比特币交易是否安全，ynniv随后关注其中的二进制blob。11月5日04:44:15，ynniv说Ghidra甚至不支持VideoCore2，多数工具也不支持，Onryo才提出这条管线。05:14:43，ynniv回复已经在做，但不是REA。以上补充帖只用于背景与工具归属，不作为额外候选；没有据此声称ynniv执行了Onryo的完整方案。\n\n没有固件版本、SLEIGH源码、指令覆盖表、反编译样例、模型名称或验证日志。独立验证只是方案中的要求，不能写成已验证的固件分析，更不能由讨论确认树莓派签名环境安全或发现后门。保留具体idea、unverified；未下载固件、执行目标或处理钱包与密钥。",
+    "sources": [
+      {"label": "候选：Onryo的VideoCore II／AI管线，2026-11-05 05:01:45", "url": "https://x.com/i/status/2118086322003030235"},
+      {"label": "补充根帖：树莓派交易签名背景，2026-11-03 23:14:11", "url": "https://x.com/i/status/2117636465811468353"},
+      {"label": "补充父帖：ynniv称缺少VideoCore2解码支持，2026-11-05 04:44:15", "url": "https://x.com/i/status/2118081917320872084"},
+      {"label": "补充回复：ynniv称正在做，但不是REA，2026-11-05 05:14:43", "url": "https://x.com/i/status/2118089581258064097"}
+    ],
+    "snapshot_date": "2026-11-05",
+    "metadata": ["候选封存0赞、21浏览、0转发；未用根帖传播量替代候选快照。"],
+    "en": {
+      "title": "A VideoCore II firmware idea: add SLEIGH decoding before AI analysis through MCP",
+      "summary": "Onryo proposes a custom decoder and iterative AI pipeline after a discussion of missing VideoCore II support in Ghidra. Independent validation is a proposed step, not a completed result.",
+      "description": "At 05:01:45 Beijing time on November 5, 2026, Onryo (@3r1k4dl3r) proposes passing a firmware blob through a custom VideoCore II SLEIGH decoder, then Ghidra, MCP and a frontier AI for automated reverse engineering, followed by independent validation and iterative refinement. SLEIGH supplies Ghidra with a processor-instruction specification; MCP connects the agent to analysis tools. Connecting a model does not itself supply missing instruction decoding.\n\nA supplementary thread read finds a root posted at 23:14:11 on November 3 discussing whether a Raspberry Pi is secure for signing Bitcoin transactions, with ynniv questioning its binary blobs. At 04:44:15 on November 5, ynniv says Ghidra does not even handle VideoCore2 and most tools do not, prompting Onryo's pipeline suggestion. At 05:14:43, ynniv says work is already underway but is not REA. These supplementary posts establish context and tool attribution, not additional candidates or proof that ynniv implemented Onryo's entire proposal.\n\nFirmware revision, SLEIGH source, instruction coverage, decompilation samples, model and validation logs are absent. Independent validation is a requirement in the idea, not verified firmware analysis, evidence of a backdoor or assurance about a Raspberry Pi signing environment. Kept as an unverified concrete idea. No firmware was downloaded or executed, and no wallets or keys were handled.",
+      "metadata": ["Sealed candidate: 0 likes, 21 views, 0 reposts. Root-post engagement does not replace the candidate snapshot."],
+      "source_labels": ["Candidate: Onryo's VideoCore II/AI pipeline, November 5, 2026 at 05:01:45", "Supplementary root: Raspberry Pi transaction-signing context, November 3, 2026 at 23:14:11", "Supplementary parent: ynniv on missing VideoCore2 decoding support, November 5, 2026 at 04:44:15", "Supplementary reply: ynniv says work is underway but is not REA, November 5, 2026 at 05:14:43"]
+    }
+  },
+  {
+    "id": "sean-oliver-tidbyt-tronbyt-claude-local-migration",
+    "title": "Tidbyt脱离原厂云：Sean Oliver用Claude迁移Tronbyt并处理固件备份",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Sean称Claude帮助Tidbyt改用Home Assistant上的Tronbyt，显示日历倒计时与Things任务；原厂固件备份以256KB分块解决长读取失败，均未独立复核。",
+    "description": "2026年11月5日05:15:03（北京时间），Sean Oliver（@SeanOliver）称Claude帮他把Tidbyt显示设备从原厂服务器迁到自己的服务，运行社区固件Tronbyt，服务部署在Home Assistant主机。Claude还为它制作首个个人应用：显示下一项日历事件的倒计时和Things待办的首项任务。这里是利用现有社区固件进行设备迁移与互通，不是Claude从零逆向或创造了Tronbyt。\n\n05:15:13的候选回复补充，备份原厂固件时各波特率都失败，直到Claude按256KB分块读取才成功；作者把长读取丢字节归因于Mac上该设备USB串口芯片的驱动。这是作者排障结论，没有芯片型号、驱动版本、备份哈希或恢复测试。补取同串05:15:10帖子称Claude先用Tidbyt自己的Pixlet渲染器做了三个动画布局供选择，作者选大倒计时，在15分钟变琥珀色、5分钟变红色；该帖仅作补充来源，非另一个候选。\n\n未取得设备代次、配置、应用源码、固件镜像或迁移日志，未看照片／视频或连接设备。作者说离开Tidbyt服务器，不证明日历、Things和模型服务完全离线，也不证明原厂固件可无损恢复。迁移、显示与备份成功均为作者自述，保留in-progress；未提REA。",
+    "sources": [
+      {"label": "候选：Sean的Tidbyt／Tronbyt迁移与应用，2026-11-05 05:15:03", "url": "https://x.com/i/status/2118089667132485741"},
+      {"label": "候选补证：原厂固件256KB分块备份，2026-11-05 05:15:13", "url": "https://x.com/i/status/2118089707729084608"},
+      {"label": "补充同串：Pixlet三布局与倒计时颜色，2026-11-05 05:15:10", "url": "https://x.com/i/status/2118089695930597876"}
+    ],
+    "snapshot_date": "2026-11-05",
+    "metadata": ["候选封存主帖0赞／43浏览／0转发，备份回复0赞／9浏览／0转发；256KB、15分钟和5分钟均按作者口径。"],
+    "en": {
+      "title": "Tidbyt off the vendor cloud: Sean Oliver uses Claude for a Tronbyt migration and firmware backup",
+      "summary": "Sean reports moving Tidbyt to Tronbyt on Home Assistant with Claude, displaying a calendar countdown and a Things task. Reading stock firmware in 256 KB chunks reportedly resolves failed long backups; none of this was independently checked.",
+      "description": "At 05:15:03 Beijing time on November 5, 2026, Sean Oliver (@SeanOliver) says Claude helped move his Tidbyt display from Tidbyt's servers to his own, running the community firmware Tronbyt from a Home Assistant box. Claude also built its first personal app: a countdown to the next calendar event and the top Things task. This is device migration and interoperability using existing community firmware, not a claim that Claude reverse-engineered or created Tronbyt from scratch.\n\nA candidate reply at 05:15:13 says stock-firmware backups failed at every baud rate until Claude read in 256 KB chunks. The author attributes dropped bytes on long reads to the Mac driver for the display's USB serial chip, without a chip model, driver revision, backup hash or restore test. A supplementary post at 05:15:10 says Claude first rendered three animated layouts in Tidbyt's own Pixlet renderer. Sean selected a large countdown that turns amber at 15 minutes and red at five. That post is supplementary context, not another candidate.\n\nDevice generation, configuration, app source, firmware image and migration logs were not obtained. Photos and video were not examined and no device was connected. Leaving Tidbyt's servers does not establish that calendar, Things and model services are fully offline or that stock firmware can be restored losslessly. Migration, display and backup success remain author reports. Kept in progress; REA is not mentioned.",
+      "metadata": ["Sealed candidates: main post, 0 likes/43 views/0 reposts; backup reply, 0 likes/9 views/0 reposts. The 256 KB, 15-minute and five-minute figures are the author's."],
+      "source_labels": ["Candidate: Sean's Tidbyt/Tronbyt migration and app, November 5, 2026 at 05:15:03", "Supporting candidate: stock-firmware backup in 256 KB chunks, November 5, 2026 at 05:15:13", "Supplementary thread post: three Pixlet layouts and countdown colors, November 5, 2026 at 05:15:10"]
+    }
+  },
+  {
+    "id": "gpt-tears-of-kingdom-phone-install-reversing-claim",
+    "title": "《王国之泪》手机安装自述：GPT协助，不足以确认逆向移植",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "发帖者称看教程后用GPT把Switch《王国之泪》装到手机，但没有设备、代码或运行证据；无法区分模拟器安装与真正的游戏逆向。",
+    "description": "2026年11月5日05:35:45（北京时间），一篇以AI攻击门槛和投资机会为主的推销帖，插入作者自己的具体经历：上周看过教程后，用GPT逆向工程，把Switch独占《塞尔达传说：王国之泪》安装到手机上，并说此前没有学习过REA相关技术。这里只记录具名游戏和手机目标的自述，不采纳文中关于政权、金融攻击和投资收益的延伸论断。\n\n帖子没有手机型号、系统、游戏版本、模拟器或移植工程名称、GPT型号、分析过程、源码、截图、帧率或存档验证。安装不等于实际可玩，也无法判断是否只是GPT指导使用现成模拟器；不能写成游戏已反编译、生成原生手机版或取得性能优化。上周只是相对时间，吃饭前未学过也不是可信工时测量。\n\n保留unverified，而不以缺少成功证明拒绝具体报告。REA只是作者提到的此前知识背景，未确认实际调用，归因other-ai。未取得教程、游戏文件、手机访问权或执行目标，亦不分发游戏与版权资产。",
+    "sources": [{"label": "候选：GPT协助《王国之泪》手机安装的作者自述，2026-11-05", "url": "https://x.com/i/status/2118094875128484119"}],
+    "snapshot_date": "2026-11-05", "metadata": ["候选封存0赞、21浏览、0转发；推销语境与技术证据分开，未把安装宣称升级为可玩移植。"],
+    "en": {
+      "title": "A Tears of the Kingdom phone-installation claim: GPT assistance does not establish a reverse-engineered port",
+      "summary": "A poster says a tutorial and GPT helped install the Switch game on a phone, without device details, source or runtime evidence. Emulator setup cannot be distinguished from actual game reverse engineering.",
+      "description": "At 05:35:45 Beijing time on November 5, 2026, a promotional post about AI lowering attack barriers and creating investment opportunities includes a specific personal claim: after viewing a tutorial the previous week, the author used GPT reverse engineering to install the Switch-exclusive The Legend of Zelda: Tears of the Kingdom on a phone, having previously studied no REA-related techniques. Only the named game/phone report is recorded here; the post's claims about regimes, financial attacks and investments are not adopted.\n\nPhone model, operating system, game revision, emulator or port-project name, GPT model, analysis process, source, screenshots, frame rate and save-game checks are absent. Installation does not establish playability, and this could simply be GPT-guided setup of an existing emulator. It is not evidence of game decompilation, a native phone port or performance optimization. Last week is only relative timing, and not knowing REA before a meal is not a credible effort measurement.\n\nKept unverified rather than rejecting a specific report solely for lacking success evidence. REA describes the author's prior knowledge, not confirmed tool use, so attribution is other-ai. No tutorial, game files, phone access or target execution was obtained; no game or copyrighted assets are distributed.",
+      "metadata": ["Sealed candidate: 0 likes, 21 views, 0 reposts. Promotional context is separated from technical evidence; installation is not upgraded to a playable port."],
+      "source_labels": ["Candidate: author's account of GPT-assisted Tears of the Kingdom phone installation, November 5, 2026"]
+    }
+  },
+
+  {
+    "id": "hopper-abliterated-deepseek-binary-analysis-service-report",
+    "title": "Hopper的DeepSeek二进制分析服务：去拒绝不等于逆向正确",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Hopper称提供abliterated DeepSeek用于二进制工作，自报HarmBench拒绝率62.8%降到0%；没有实际反编译任务或正确率证据。",
+    "description": "2026年11月5日06:51:15（北京时间），Hopper（@hopper_research）在Claude拒绝逆向的讨论下，称自己提供用于binary work的abliterated DeepSeek，即削弱模型拒答行为的改造版本，并给出HarmBench拒绝率从62.8%到0%的宣传数字。具体用途是为会中途拒答的二进制研究提供另一模型服务，不是已经完成某个目标的逆向。\n\n拒绝率衡量的是是否回答，不能推出反编译正确、结构恢复完整或模型安全可靠。帖子没有DeepSeek版本、模型权重、修改方法、HarmBench样本与配置、评分规则、原始输出、代码或可核验服务文档，也未给任何二进制案例与对照。关于Claude普遍不再逆向的说法仅是该服务推广者的概括，不在这里当作厂商政策事实。\n\n按相关AI逆向工具服务收录，status为related-project并不代表服务已验证。未调用服务、发送二进制或安装模型，REA未提；不把相邻引述中的可审计harness功能归给Hopper，也不把去拒绝宣传当作独立测试。",
+    "sources": [{"label": "候选及署名补查：Hopper的DeepSeek二进制服务与拒绝率，2026-11-05", "url": "https://x.com/i/status/2118113876516770042"}],
+    "snapshot_date": "2026-11-05", "metadata": ["候选封存0赞、19浏览、0转发；补取热度未覆盖封存值，62.8%到0%未复核。"],
+    "en": {
+      "title": "Hopper's DeepSeek binary-analysis service: fewer refusals do not establish correct reversing",
+      "summary": "Hopper offers an abliterated DeepSeek for binary work and claims HarmBench refusals fall from 62.8% to zero. No actual decompilation task or correctness evidence is supplied.",
+      "description": "At 06:51:15 Beijing time on November 5, 2026, Hopper (@hopper_research) responds to discussion of Claude refusing reverse engineering by offering an abliterated DeepSeek for binary work: a modified model with weakened refusal behavior. The promotional claim is that HarmBench refusals fell from 62.8% to zero. The specific use is an alternative model service for binary investigations interrupted by refusals, not a completed reverse-engineering target.\n\nRefusal rate measures whether a model answers, not decompilation accuracy, complete structure recovery or model safety and reliability. DeepSeek revision, weights, modification method, HarmBench samples and configuration, scoring rules, raw outputs, code and checkable service documentation are absent. No binary case or comparison is supplied. The claim that Claude broadly no longer handles reversing is the provider's generalization, not adopted here as a vendor-policy fact.\n\nIncluded as a related AI reversing service; related-project status does not mean the service was verified. No service was called, binary submitted or model installed. REA is not mentioned. Auditable-harness features in neighboring quoted material are not attributed to Hopper, and de-refusal marketing is not treated as an independent test.",
+      "metadata": ["Sealed candidate: 0 likes, 19 views, 0 reposts. Later engagement does not replace sealed values; the 62.8%-to-zero result was not checked."],
+      "source_labels": ["Candidate and attribution lookup: Hopper's DeepSeek binary service and refusal-rate claim, November 5, 2026"]
+    }
+  },
+  {
+    "id": "kevbuildsapps-claude-competitor-marketing-teardown",
+    "title": "营销版REA：Kev称用竞品链接让Claude拆解营销",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Kev Builds Apps称做了营销方向的reverse engineer anything，让Claude分析竞品链接；没有具体竞品、输出或准确率，不是已确认的软件反编译器。",
+    "description": "2026年11月5日07:03:25（北京时间），Kev Builds Apps（@kevbuildsapps）说自己重建了营销版reverse engineer anything：给一个竞争对手链接，Claude就做teardown。帖子附视频，称资源在回复里；补查同串07:03:26回复确有资源短链，但没有取得可确认的资源正文或源码。该补充回复只定位资源存在，不作为另一个候选。\n\n这是面向参考对象的AI营销拆解项目，以输入链接和Claude分析为具体工作流，区别于恢复应用二进制、私有API或源代码。作者未给竞品名、页面范围、营销策略字段、分析样例、证据定位、评分、模型版本、耗时或费用，不能补写能恢复竞品真实转化率、完整漏斗、投放数据或重建整个商业模式。\n\n保留related-project，功能仍是作者自述；未观看视频、安装资源或运行分析，也未确认调用morluto/rea。名称借鉴不等于实际REA集成，工具归因other-ai。",
+    "sources": [
+      {"label": "候选：Kev的Claude营销拆解项目，2026-11-05 07:03:25", "url": "https://x.com/i/status/2118116940233281895"},
+      {"label": "补充作者回复：资源短链，2026-11-05 07:03:26", "url": "https://x.com/i/status/2118116941881639242"}
+    ],
+    "snapshot_date": "2026-11-05", "metadata": ["候选封存0赞、30浏览、0转发；补取确认署名，不代表视频或资源已验证。"],
+    "en": {
+      "title": "REA for marketing: Kev says Claude tears down a competitor link",
+      "summary": "Kev Builds Apps describes a marketing-oriented reverse engineer anything that gives Claude a competitor URL. No named competitor, output or accuracy evidence establishes a software decompiler.",
+      "description": "At 07:03:25 Beijing time on November 5, 2026, Kev Builds Apps (@kevbuildsapps) says he rebuilt reverse engineer anything for marketing: give it a competitor link and Claude performs a teardown. A video is attached and the resource is said to be in a reply. A supplementary read finds the author's 07:03:26 reply with a resource short link, but the resource body and source code were not obtained. That reply locates a resource claim, not another candidate.\n\nThis is an AI reference-analysis project for marketing, with a specific URL-to-Claude workflow, distinct from recovering application binaries, private APIs or source code. Competitor identity, page scope, marketing-strategy fields, sample analysis, evidence locations, scoring, model revision, effort and cost are absent. Recovery of real conversion rates, complete funnels, advertising data or an entire business model cannot be inferred.\n\nKept as a related project whose functionality remains author-reported. The video was not watched, the resource was not installed and no analysis was run. Actual use of morluto/rea is unconfirmed: borrowing a name does not establish REA integration, so attribution is other-ai.",
+      "metadata": ["Sealed candidate: 0 likes, 30 views, 0 reposts. Retrieval confirms authorship, not verification of the video or resource."],
+      "source_labels": ["Candidate: Kev's Claude marketing-teardown project, November 5, 2026 at 07:03:25", "Supplementary author reply: resource short link, November 5, 2026 at 07:03:26"]
+    }
+  },
+  {
+    "id": "puyokura-charepa2-rea-ai-modification-report",
+    "title": "チャレパ2改造：puyokura称用REA等AI逆向，已有初步结果",
+    "category": "hardware", "rea": "REA", "status": "in-progress",
+    "summary": "puyokura自述用REA等AI做逆向，当前チャレパ2改造已有结果；未解释缩写、改造功能或测试，不推定解锁和系统移植成功。",
+    "description": "2026年11月5日07:09:10（北京时间），puyokura（@puyokura_1）在自我介绍中称做破解相关研究，使用REA或AI逆向；当前着手且开始有结果的是チャレパ2改造，并邀请读者回复提问。这里保留作者给出的目标原称，作为设备改造方向的进行中项目，不把未说明的缩写展开为已确认的厂牌、具体硬件代次或型号。\n\n补取原帖与线程仅得到同一自述，没有功能列表、研究输入、固件版本、协议、反编译定位、代码、演示或测试。已有结果是作者的概括，不知道实际改了什么，也不能推出root、解锁、替换启动器、移植Android或去除服务限制已经成功。\n\n作者明确提到REA，因此按自述归因REA，但没有执行记录可验证调用，也未说明模型。保留in-progress；不因结果简略补造功能，不下载固件或连接设备。",
+    "sources": [{"label": "候选及署名补查：puyokura的チャレパ2改造自述，2026-11-05", "url": "https://x.com/i/status/2118118384328147283"}],
+    "snapshot_date": "2026-11-05", "metadata": ["候选封存0赞、19浏览、0转发；补取时21浏览不替换封存快照，结果范围未说明。"],
+    "en": {
+      "title": "A チャレパ2 modification: puyokura reports early results using REA and AI reversing",
+      "summary": "puyokura says REA and AI are part of their reversing work and that a チャレパ2 modification is yielding results. The abbreviation, changed functions and tests are unspecified; unlocking or OS-port success is not inferred.",
+      "description": "At 07:09:10 Beijing time on November 5, 2026, puyokura (@puyokura_1) introduces their cracking-related research and use of REA or AI for reverse engineering. The current project reportedly beginning to yield results is a チャレパ2 modification, with readers invited to ask questions. The original target name is preserved as an in-progress device-modification direction, without expanding the unexplained abbreviation into a confirmed vendor, hardware generation or model.\n\nRetrieving the original and thread yields only the same statement, not a feature list, research input, firmware revision, protocol, decompilation location, code, demonstration or test. Results is the author's generalization. What changed is unknown; root access, unlocking, launcher replacement, Android porting or removal of service restrictions cannot be inferred.\n\nThe author explicitly mentions REA, so REA is recorded as self-reported attribution, without execution records confirming invocation or a named model. Kept in progress. Sparse results are not filled with invented functionality; no firmware was downloaded and no device connected.",
+      "metadata": ["Sealed candidate: 0 likes, 19 views, 0 reposts. The 21 views at retrieval do not replace the snapshot; result scope is unspecified."],
+      "source_labels": ["Candidate and attribution lookup: puyokura's チャレパ2 modification account, November 5, 2026"]
+    }
+  },
+  {
+    "id": "discord-rust-client-ai-reversing-mods-idea",
+    "title": "Discord新客户端mod想法：社区预期用AI研究Rust版再做插件",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "围绕Discord改用Rust的社区消息，两条评论预期AI能加快新客户端逆向并带来Rust mod；不是已发布插件或验证过的迁移工期。",
+    "description": "2026年11月5日07:15:01（北京时间），kingsoul（@voidheartly）回复说，考虑AI能力，新客户端发布后逆向应该不会耗时太久，随后mod也不会等很久。补取父串确认对象是Wumpus Central当日06:22:56关于Discord将应用改用Rust／GPUI的消息，以及其他人担心旧mod依赖Chromium注入会失效的讨论。该消息只是社区背景，未取得Discord官方声明，不把全面替换Electron／React Native、内存约290MB或此前2GB当作已核实事实。\n\n07:45:40的另一候选进一步提出，用AI协助Rust重写也意味着可以制作更好的Rust mod，并预期运行更快。具体方向是面对潜在客户端架构变化，利用AI辅助逆向恢复扩展能力，而非目前已经存在的插件实现；两位评论者不因此被写成同一开发团队。\n\n没有客户端版本、二进制、扩展接口、具体mod功能、仓库、实现计划或性能测试。不会等很久和更快都是预期，不能变成工时与基准；也没有证明AI分析已经开始或原有mod一定失效。保留具体目标的idea、unverified，未提REA，未运行Discord或注入客户端。",
+    "sources": [
+      {"label": "候选：kingsoul预期AI加快Discord新客户端逆向，2026-11-05 07:15:01", "url": "https://x.com/i/status/2118119859653619727"},
+      {"label": "候选补证：Rust mod与性能预期，2026-11-05 07:45:40", "url": "https://x.com/i/status/2118127573117059226"},
+      {"label": "补充会话根：Wumpus Central的Rust／GPUI客户端消息，2026-11-05 06:22:56", "url": "https://x.com/i/status/2118106749446103371"}
+    ],
+    "snapshot_date": "2026-11-05", "metadata": ["两条候选封存依次1赞／99浏览／0转发、0赞／12浏览／0转发；未把父串传播量当作该idea热度。"],
+    "en": {
+      "title": "A Discord-client mod idea: community expects AI-assisted reversing and Rust extensions",
+      "summary": "Two comments on a community report of a Rust Discord client expect AI to speed reversing and enable Rust mods. No released extension or measured migration effort is established.",
+      "description": "At 07:15:01 Beijing time on November 5, 2026, kingsoul (@voidheartly) predicts that AI will make reversing a new client relatively quick after release, so mods should follow soon. A supplementary parent-thread read identifies Wumpus Central's 06:22:56 report about Discord moving its apps to Rust/GPUI and concerns that existing mods relying on Chromium injection could stop working. This is community context, not an obtained official Discord statement; complete Electron/React Native replacement, roughly 290 MB of memory and a previous 2 GB baseline are not adopted as verified facts.\n\nA second candidate at 07:45:40 suggests AI-assisted Rust rewriting also presents an opportunity for better, faster Rust mods. The concrete direction is using AI-assisted reverse engineering to recover extension capabilities after a potential client-architecture change, not an existing plugin implementation. The two commenters are not assumed to form a development team.\n\nClient revision, binary, extension interface, specific mod functionality, repository, implementation plan and performance tests are absent. Soon and faster are expectations, not effort or benchmark results. AI analysis is not shown to have begun, nor is failure of existing mods established. Kept as an unverified idea for a specific target. REA is not mentioned; Discord was not run and no client injection was performed.",
+      "metadata": ["Sealed candidates, respectively: 1 like/99 views/0 reposts and 0 likes/12 views/0 reposts. Parent-thread engagement is not treated as engagement with this idea."],
+      "source_labels": ["Candidate: kingsoul expects AI to accelerate new Discord-client reversing, November 5, 2026 at 07:15:01", "Supporting candidate: Rust mods and expected performance, November 5, 2026 at 07:45:40", "Supplementary root: Wumpus Central's Rust/GPUI client report, November 5, 2026 at 06:22:56"]
+    }
+  },
+  {
     "id":"aiup-spring-petclinic-brownfield-spec-recovery", "title":"AIUP的PetClinic示例：从旧代码恢复用例规格，再渐进维护",
     "category":"apps", "rea":"other-ai", "status":"related-project",
     "summary":"Simon Martinelli为AI Unified Process加入brownfield流程，称Spring PetClinic有逆向后start分支与实现测试后的main；微型示例不证明遗留系统语义完整恢复。",
@@ -50,10 +181,10 @@
   {
     "id":"dax-system-app-agent-ai-native-os-idea", "title":"AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent",
     "category":"apps", "rea":"unknown", "status":"unverified",
-    "summary":"Dax设想把系统应用逆向并接入Agent，以形成AI-native操作层；没有指定平台、接口或实现，不是新内核或可用OS。",
-    "description":"2026年11月5日03:59:08（北京时间），Dax（@paradax）提出：如果把所有系统应用逆向，再接入Agent，就能拥有真正意义的AI-native OS。具体方向是为既有系统应用建立Agent可调用能力，减少AI只能模拟人手操作的限制；帖子本身未给更细的使用场景。\n\n没有操作系统、应用清单、调用协议、权限模型、状态同步、模型、代码或演示验收；附件图未检查，不从图猜平台。也未说明逆向本身是否由AI或REA完成，故归因unknown。\n\n保留为架构idea，不称已恢复所有系统接口、实现自主操作系统、替换内核或获得系统权限。未操作应用、账户或设备。",
-    "sources":[{"label":"Dax的系统应用逆向与Agent OS设想，2026-11-05","url":"https://x.com/i/status/2118070561096306729"}], "snapshot_date":"2026-11-05", "metadata":["封存1赞、4浏览、0转发；所有系统应用是愿景范围，非覆盖测量。"],
-    "en":{"title":"An AI-native OS idea: Dax proposes reversing system apps and connecting them to an agent","summary":"Dax envisions an agent-facing layer over reverse-engineered system apps. Platform, interfaces and implementation are unspecified; this is not a new kernel or usable OS.","description":"At 03:59:08 Beijing time on November 5, 2026, Dax (@paradax) proposes reverse-engineering all system apps and connecting them to an agent to obtain a genuinely AI-native OS. The direction is agent-callable capabilities for existing system apps rather than only simulated human interaction; the post gives no more detailed usage scenario.\n\nOperating system, app inventory, invocation protocol, permissions, state synchronization, model, code and accepted demonstration are absent. The attached image was not inspected and its platform is not guessed. Whether AI or REA performs the reversing is also unspecified, so attribution is unknown.\n\nKept as an architectural idea, not recovered interfaces for all system apps, an autonomous operating system, a replaced kernel or acquired system privileges. No apps, accounts or devices were operated here.","metadata":["Sealed snapshot: 1 like, 4 views, 0 reposts. All system apps is an intended scope, not measured coverage."],"source_labels":["Dax's system-app reversing and agent-OS idea, November 5, 2026"]}
+    "summary":"Dax设想把系统应用逆向并接入Agent；后续帖子举高德交通API动态安排起床时间的场景。尚无平台、接口或实现，不是可用OS。",
+    "description":"2026年11月5日03:59:08（北京时间），Dax（@paradax）提出：如果把所有系统应用逆向，再接入Agent，就能拥有真正意义的AI-native OS。具体方向是为既有系统应用建立Agent可调用能力，减少AI只能模拟人手操作的限制。该原始来源保留，不将它算作后续窗口的新候选。\n\n04:04:17的新候选重复架构设想，并补充具体场景：接入高德地图API，每个工作日根据到指定大厦的交通和路程时长，决定10点上班者何时起床，另预留20分钟洗漱出门。补取原帖确认后帖也署名Dax（@paradax）。调用地图API本身不等于逆向地图应用，起床安排也仍是希望实现的例子，并非已部署自动化。\n\n没有操作系统、应用清单、调用协议、权限模型、状态同步、模型、代码或演示验收；附件图未检查，不从图猜平台。也未说明逆向本身是否由AI或REA完成，故归因unknown。保留架构idea，不称已恢复所有系统接口、实现自主操作系统、替换内核或获得系统权限。未操作应用、账户或设备。",
+    "sources":[{"label":"Dax的系统应用逆向与Agent OS设想，2026-11-05 03:59:08","url":"https://x.com/i/status/2118070561096306729"},{"label":"候选及署名补查：Dax的高德交通API与动态起床场景，2026-11-05 04:04:17","url":"https://x.com/i/status/2118071859459891428"}], "snapshot_date":"2026-11-05", "metadata":["原帖封存1赞、4浏览、0转发；所有系统应用是愿景范围，非覆盖测量。","后帖封存1赞、52浏览、0转发；10点和20分钟是场景参数，未验证调度或地图接口实现。"],
+    "en":{"title":"An AI-native OS idea: Dax proposes reversing system apps and connecting them to an agent","summary":"Dax envisions an agent-facing layer over reversed system apps. A later post adds an Amap-traffic-based wake-up scenario, without a platform, interfaces or implementation; this is not a usable OS.","description":"At 03:59:08 Beijing time on November 5, 2026, Dax (@paradax) proposes reverse-engineering all system apps and connecting them to an agent to obtain a genuinely AI-native OS. The direction is agent-callable capabilities for existing system apps rather than only simulated human interaction. This original source is retained, not counted as a new candidate in the later window.\n\nA new candidate at 04:04:17 repeats the architectural idea and adds a scenario: connect Amap's API and use weekday traffic and travel time to a specified building to decide when someone starting work at 10 a.m. should wake up, allowing another 20 minutes to wash and leave. Retrieving the original confirms that the later post is also by Dax (@paradax). Calling a map API does not itself reverse-engineer a map app, and the wake-up schedule remains a desired use, not deployed automation.\n\nOperating system, app inventory, invocation protocol, permissions, state synchronization, model, code and accepted demonstration are absent. The attached image was not inspected and its platform is not guessed. Whether AI or REA performs the reversing is unspecified, so attribution is unknown. Kept as an architectural idea, not recovered interfaces for all system apps, an autonomous operating system, a replaced kernel or acquired privileges. No apps, accounts or devices were operated here.","metadata":["Original sealed snapshot: 1 like, 4 views, 0 reposts. All system apps is an intended scope, not measured coverage.","Later sealed post: 1 like, 52 views, 0 reposts. 10 a.m. and 20 minutes are scenario parameters, not verified scheduling or map integration."],"source_labels":["Dax's system-app reversing and agent-OS idea, November 5, 2026 at 03:59:08","Candidate and attribution lookup: Dax's Amap traffic API and dynamic wake-up scenario, November 5, 2026 at 04:04:17"]}
   },
   {
     "id":"voyager-grokbot-rea-local-extension-rebuild", "title":"Voyager扩展本地重建：Grok Bot五角色静态审计后仍遇滚动故障",
@@ -11446,16 +11577,16 @@
     "id": "scanruler-gopro-clamp-ai-mcp",
     "title": "ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何",
     "category": "hardware", "rea": "other-ai", "status": "in-progress",
-    "summary": "Stefan说明ScanRuler在本地浏览器运行，逆向由用户选择的AI Agent经MCP编排；同串根帖展示从3D扫描重建GoPro夹具，尺寸精度未核。",
-    "description": "2026年10月22日18:52:59（北京时间），Stefan（@CNC_Kitchen）回复说ScanRuler在本地浏览器运行，但逆向工作由用户选定的AI Agent连接ScanRuler的MCP进行编排，理由是任务需要理解几何。补查同一会话根帖，原发同日02:48:09，声称从3D扫描自动逆向GoPro夹具，并附视频和查看链接。根帖早于本轮16:00至20:00窗口，只用于确定实体目标。\n\n项目用途是从现有零件的扫描信息恢复可研究的几何，而非软件反编译；本条作为更广泛的AI辅助实体逆向项目收录。作者没有在文字中说明具体模型、CAD格式、拟合算法、尺寸误差、机械载荷测试或是否已打印并安装复刻件。只确认浏览器端本地运行，不推定外部AI的推理和数据也完全离线。\n\n本次仅读取作者两帖与附件信息，没有取得项目实现、测量或独立观看验证视频，不将演示自述称为尺寸精确复刻。REA未被提及。另一候选所说Fusion与Claude的个人研究没有具体零件和结果，不当作GoPro夹具的独立复现。",
-    "sources": [{"label": "候选：Stefan说明ScanRuler本地浏览器与AI/MCP分工", "url": "https://x.com/i/status/2113222076064522592"}, {"label": "补充会话根：从3D扫描重建GoPro夹具的演示自述", "url": "https://x.com/i/status/2112979267759792234"}],
-    "snapshot_date": "2026-10-22", "metadata": ["候选原发2026-10-22T18:52:59+08:00；补充根帖原发同日02:48:09，非本轮新候选。"],
+    "summary": "Stefan以AI／MCP从GoPro夹具扫描恢复几何；11月5日第三方补述STL测量、CAD偏差、壁厚与STEP实体重建，尚无尺寸精度或实现核验。",
+    "description": "2026年10月22日18:52:59（北京时间），Stefan（@CNC_Kitchen）回复说ScanRuler在本地浏览器运行，但逆向工作由用户选定的AI Agent连接ScanRuler的MCP进行编排，理由是任务需要理解几何。同串根帖原发同日02:48:09，声称从3D扫描自动逆向GoPro夹具，并附视频和查看链接。两条旧来源保留为原始项目背景，不算11月5日窗口的新候选。\n\n2026年11月5日07:26:29，新候选由@UPADLINA_PL介绍ScanRuler，列出浏览器内测量STL、扫描与CAD比较及偏差检查、壁厚检查、重建为STEP实体，并称无需安装、开源和可经MCP接入AI Agent。STL是扫描／网格输入，STEP在该转述中是实体重建输出；这补充了此前未明的格式与功能范围，但没有确认所有输入都能自动拟合、无损输出或达到制造公差。未取得项目源码和许可证，开源仍归因于转述者。\n\n项目用途是恢复现有零件的几何，而非软件反编译；未说明具体模型、拟合算法、尺寸误差、机械载荷测试或是否已打印并安装复刻件。浏览器本地运行不等于外部AI推理和数据处理完全离线。仅读取帖子与附件信息，未取得测量或独立观看验证视频，不将GoPro演示或功能介绍当尺寸精确复刻。REA未提，保持in-progress，未运行项目或处理扫描文件；此前另一人的Fusion／Claude泛谈不是GoPro夹具的独立复现。",
+    "sources": [{"label": "Stefan说明ScanRuler本地浏览器与AI/MCP分工，2026-10-22", "url": "https://x.com/i/status/2113222076064522592"}, {"label": "原始会话根：从3D扫描重建GoPro夹具的演示自述，2026-10-22", "url": "https://x.com/i/status/2112979267759792234"}, {"label": "新候选：第三方介绍STL／CAD／壁厚／STEP功能，2026-11-05 07:26:29", "url": "https://x.com/i/status/2118122742402908658"}],
+    "snapshot_date": "2026-11-05", "metadata": ["旧来源原发2026-10-22T18:52:59+08:00与02:48:09，均不是11月5日新候选。", "11月5日候选封存0赞、3浏览、0转发；补取确认署名，不代表源码、许可或尺寸准确率已核验。"],
     "en": {
       "title": "ScanRuler: CNC Kitchen's AI/MCP reconstruction of a GoPro clamp from a 3D scan",
-      "summary": "Stefan explains that ScanRuler runs in a local browser while a user-selected AI agent orchestrates reverse engineering through MCP; the thread root presents a scanned GoPro clamp, with dimensional accuracy unverified.",
-      "description": "At 18:52:59 Beijing time on October 22, 2026, Stefan (@CNC_Kitchen) explains that ScanRuler runs locally in the browser, while reverse engineering is orchestrated by connecting a user-selected AI agent to ScanRuler's MCP, because the task requires geometric understanding. A supplementary read of the conversation root, originally posted at 02:48:09 that day, finds a claimed automatic reconstruction of a GoPro clamp from a 3D scan, with a video and inspection links. The root predates this 16:00-20:00 window and is used only to identify the physical target.\n\nThe project aims to recover investigable geometry from scans of existing parts, not to decompile software, and is included as broader AI-assisted physical reverse engineering. The text does not specify a model, CAD format, fitting algorithm, dimensional error, mechanical-load test or whether a reconstructed part has been printed and fitted. Browser-local operation alone does not establish that external AI inference and data processing stay offline.\n\nThis review read the author's two posts and attachment information without obtaining the implementation, measurements or independent video verification. The reported demonstration is not presented as a dimensionally exact replica. REA is not mentioned. Another candidate's personal Fusion/Claude work identifies no particular part or result and is not treated as independent reproduction of this clamp.",
-      "metadata": ["Candidate originally posted 2026-10-22T18:52:59+08:00; supplementary root at 02:48:09 that day, not a new candidate in this window."],
-      "source_labels": ["Candidate: Stefan on browser-local ScanRuler and AI/MCP responsibilities", "Supplementary thread root: reported GoPro-clamp reconstruction from a 3D scan"]
+      "summary": "Stefan presents AI/MCP geometry recovery from a GoPro-clamp scan. A November 5 third-party account adds STL measurement, CAD deviation, wall thickness and STEP-solid reconstruction, without dimensional or implementation verification.",
+      "description": "At 18:52:59 Beijing time on October 22, 2026, Stefan (@CNC_Kitchen) explains that ScanRuler runs locally in a browser, with a user-selected AI agent orchestrating reverse engineering through MCP because geometric understanding is needed. The thread root at 02:48:09 that day claims automatic reconstruction of a GoPro clamp from a 3D scan and supplies a video and inspection links. Both earlier sources remain original project context, not new candidates in the November 5 window.\n\nAt 07:26:29 on November 5, a new candidate from @UPADLINA_PL lists browser-based STL measurement, scan-to-CAD comparison and deviation inspection, wall-thickness checks and reconstruction as STEP solids, calling ScanRuler open source, installation-free and available to AI agents through MCP. STL is the scan/mesh input and STEP the claimed reconstructed-solid output. This adds previously unspecified formats and scope, not proof that every input can be fitted automatically, exported losslessly or meet manufacturing tolerances. Source and license were not obtained; open source remains the relayer's claim.\n\nThe aim is recovering existing-part geometry, not software decompilation. A model, fitting algorithm, dimensional error, mechanical-load tests and printed/fitted replicas are unspecified. Browser-local operation does not mean external AI inference and data processing are offline. Only posts and attachment information were read, without measurements or independent video verification. Neither the GoPro demonstration nor the feature list establishes a dimensionally exact replica. REA is not mentioned; status remains in progress. No project was run or scan files processed. Earlier generic Fusion/Claude remarks by another person are not independent reproduction of this clamp.",
+      "metadata": ["Earlier sources were posted at 2026-10-22T18:52:59+08:00 and 02:48:09; neither is a new November 5 candidate.", "November 5 sealed candidate: 0 likes, 3 views, 0 reposts. Retrieval confirms authorship, not source, license or dimensional accuracy."],
+      "source_labels": ["Stefan on browser-local ScanRuler and AI/MCP responsibilities, October 22, 2026", "Original thread root: reported GoPro-clamp reconstruction from a 3D scan, October 22, 2026", "New candidate: third-party STL/CAD/wall-thickness/STEP feature account, November 5, 2026 at 07:26:29"]
     }
   },
   {

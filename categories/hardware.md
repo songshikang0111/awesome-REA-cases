@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [VideoCore II固件idea：先补SLEIGH解码，再让AI经MCP研究](../cases/onryo-videocore2-sleigh-ghidra-mcp-ai-pipeline-idea.md) — Onryo针对Ghidra缺少VideoCore II支持的讨论提出定制解码与AI迭代管线；独立验证是计划步骤，不是已经完成的验证。 **[其他 AI 逆向 · 待验证]**
+- [Tidbyt脱离原厂云：Sean Oliver用Claude迁移Tronbyt并处理固件备份](../cases/sean-oliver-tidbyt-tronbyt-claude-local-migration.md) — Sean称Claude帮助Tidbyt改用Home Assistant上的Tronbyt，显示日历倒计时与Things任务；原厂固件备份以256KB分块解决长读取失败，均未独立复核。 **[其他 AI 逆向 · 进行中]**
+- [チャレパ2改造：puyokura称用REA等AI逆向，已有初步结果](../cases/puyokura-charepa2-rea-ai-modification-report.md) — puyokura自述用REA等AI做逆向，当前チャレパ2改造已有结果；未解释缩写、改造功能或测试，不推定解锁和系统移植成功。 **[REA · 进行中]**
 - [Mika手机研究实验台：Android11结合Agent视觉、Root与抓包直读](../cases/mingzi206-mika-android11-reversing-testbed.md) — 明子206报告把定制Mika接入Android11真机的Root、Frida与HTTPS研究环境，双模操作并查只读SQLite；51单测与10HTTPS断言为作者自测。 **[其他 AI 逆向 · 进行中]**
 - [三星电视Home键：Matthias三问Claude后，称无root改键只适用旧固件](../cases/matthias-samsung-tv-home-remap-claude-research.md) — Matthias Förster报告Claude对同一无root改键问题先说不可能、再说容易，研究后才加旧固件限制；没有实际改键或版本验证材料。 **[其他 AI 逆向 · 分析测试]**
 - [WiFi住宅雷达：Cooler与Vector的Claude固件故事，未证实人体定位](../cases/cooler-claude-router-esp32-wifi-radar-claim.md) — Cooler称Claude十分钟改固件并配三块ESP32画住宅移动图；Vector又以相似故事宣传64路CSI与心率。没有原始测量，不当独立复现或可靠人体定位。 **[其他 AI 逆向 · 待验证]**
@@ -266,7 +269,7 @@
 - [Samsung电视语音遥控：Codez称Opus研究局域网API后接入Grok Bot](../cases/codez-samsung-opus-grokbot-netflix-remote.md) — Codez称Opus 5.5研究Samsung电视控制接口，制作打开Netflix、移动和选择三工具插件，由Grok Bot处理语音；未给型号或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [楼宇门铃实时画面：Mattia用REA与Ghidra研究固件，以树莓派替代室内屏](../cases/mattia-doorbell-rea-ghidra-rust-live-view.md) — Mattia Righetti报告从门口机ARM固件恢复UDP/XML通话机制，以树莓派接收视频，再由Rust服务与FFmpeg向浏览器提供实时画面；品牌、源码和测试日志未取得。 **[REA · 待验证]**
 - [Ride Relay：OpenCode与DeepSeek把Google Maps转向提示送到Pulsar NS200仪表](../cases/ride-relay-pulsar-ns200-google-maps.md) — Manovikram K称研究Bajaj应用后做出Android桥接，从Google Maps通知提取方向与距离并转为蓝牙包，报告实车可用，不需root或改官方APK。 **[其他 AI 逆向 · 待验证]**
-- [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](../cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan说明ScanRuler在本地浏览器运行，逆向由用户选择的AI Agent经MCP编排；同串根帖展示从3D扫描重建GoPro夹具，尺寸精度未核。 **[其他 AI 逆向 · 进行中]**
+- [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](../cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；11月5日第三方补述STL测量、CAD偏差、壁厚与STEP实体重建，尚无尺寸精度或实现核验。 **[其他 AI 逆向 · 进行中]**
 - [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](../cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid公开报告Switch 2固件23.0.1的软件越狱与Codex辅助分析；明确研究花约两周大量人工投入，自动WebKit目标失败，马车Mod才是一天完成。 **[其他 AI 逆向 · 进行中]**
 - [工程机麦克风链路：Carlos Gong称Codex调固件驱动后一小时内可录音](../cases/codex-engineering-unit-microphone-path-repair.md) — Carlos Gong称Codex在工程机上修复麦克风收音链路，自己提供多次录音反馈；低底噪为主观报告，新增优化算法只是猜测。 **[其他 AI 逆向 · 待验证]**
 - [Noir M1：REA与Opus研究Windows应用，在Mac增加手势的自述](../cases/noir-m1-rea-opus-mac-gestures.md) — ARES称用REA与Opus 5.5研究Noir M1仅有Windows版的配套应用，在Mac增加手势并报告可用；硬件类型、协议与兼容范围未核。 **[REA · 待验证]**

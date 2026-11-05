@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1689 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1696 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（347）
-- [硬件与设备互通](categories/hardware.md)（459）
-- [应用与客户端](categories/apps.md)（699）
+- [游戏与游戏保存](categories/games.md)（348）
+- [硬件与设备互通](categories/hardware.md)（462）
+- [应用与客户端](categories/apps.md)（702）
 - [算法与功能重建](categories/algorithms.md)（184）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [《王国之泪》手机安装自述：GPT协助，不足以确认逆向移植](cases/gpt-tears-of-kingdom-phone-install-reversing-claim.md) — 发帖者称看教程后用GPT把Switch《王国之泪》装到手机，但没有设备、代码或运行证据；无法区分模拟器安装与真正的游戏逆向。 **[其他 AI 逆向 · 待验证]**
 - [NSO playtest私服：社区称有人用AI逆向，尚无可核验实现](cases/nso-playtest-ai-private-server-community-report.md) — gigi在NSO playtest社区串称有人未玩过游戏却用AI研究并准备私服；父串确认目标背景，未给团队、协议、代码或运行结果。 **[其他 AI 逆向 · 待验证]**
 - [Mappy第九代AI：REA读ROM发现波方向，32局得分仍未改善](cases/nextcode-mappy-rea-rom-wave-direction-test.md) — NextCode称无人操作的Mappy AI对攻略存疑，以REA读ROM纠正数量并发现未写出的波方向；32局波得分与第八代相同。 **[REA · 分析测试]**
 - [PS1到PC重制idea：让AI拆游戏、改模型纹理并移植脚本](cases/werewolf-freak-ai-ps1-pc-remaster-idea.md) — Werewolf Freak提出AI辅助反编译若干PS1游戏、重制3D素材并用转换层在PC跑新光照；尚无具名游戏或实现。 **[其他 AI 逆向 · 待验证]**
@@ -376,6 +377,9 @@
 
 ### 硬件与设备互通
 
+- [VideoCore II固件idea：先补SLEIGH解码，再让AI经MCP研究](cases/onryo-videocore2-sleigh-ghidra-mcp-ai-pipeline-idea.md) — Onryo针对Ghidra缺少VideoCore II支持的讨论提出定制解码与AI迭代管线；独立验证是计划步骤，不是已经完成的验证。 **[其他 AI 逆向 · 待验证]**
+- [Tidbyt脱离原厂云：Sean Oliver用Claude迁移Tronbyt并处理固件备份](cases/sean-oliver-tidbyt-tronbyt-claude-local-migration.md) — Sean称Claude帮助Tidbyt改用Home Assistant上的Tronbyt，显示日历倒计时与Things任务；原厂固件备份以256KB分块解决长读取失败，均未独立复核。 **[其他 AI 逆向 · 进行中]**
+- [チャレパ2改造：puyokura称用REA等AI逆向，已有初步结果](cases/puyokura-charepa2-rea-ai-modification-report.md) — puyokura自述用REA等AI做逆向，当前チャレパ2改造已有结果；未解释缩写、改造功能或测试，不推定解锁和系统移植成功。 **[REA · 进行中]**
 - [Mika手机研究实验台：Android11结合Agent视觉、Root与抓包直读](cases/mingzi206-mika-android11-reversing-testbed.md) — 明子206报告把定制Mika接入Android11真机的Root、Frida与HTTPS研究环境，双模操作并查只读SQLite；51单测与10HTTPS断言为作者自测。 **[其他 AI 逆向 · 进行中]**
 - [三星电视Home键：Matthias三问Claude后，称无root改键只适用旧固件](cases/matthias-samsung-tv-home-remap-claude-research.md) — Matthias Förster报告Claude对同一无root改键问题先说不可能、再说容易，研究后才加旧固件限制；没有实际改键或版本验证材料。 **[其他 AI 逆向 · 分析测试]**
 - [WiFi住宅雷达：Cooler与Vector的Claude固件故事，未证实人体定位](cases/cooler-claude-router-esp32-wifi-radar-claim.md) — Cooler称Claude十分钟改固件并配三块ESP32画住宅移动图；Vector又以相似故事宣传64路CSI与心率。没有原始测量，不当独立复现或可靠人体定位。 **[其他 AI 逆向 · 待验证]**
@@ -640,7 +644,7 @@
 - [Samsung电视语音遥控：Codez称Opus研究局域网API后接入Grok Bot](cases/codez-samsung-opus-grokbot-netflix-remote.md) — Codez称Opus 5.5研究Samsung电视控制接口，制作打开Netflix、移动和选择三工具插件，由Grok Bot处理语音；未给型号或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [楼宇门铃实时画面：Mattia用REA与Ghidra研究固件，以树莓派替代室内屏](cases/mattia-doorbell-rea-ghidra-rust-live-view.md) — Mattia Righetti报告从门口机ARM固件恢复UDP/XML通话机制，以树莓派接收视频，再由Rust服务与FFmpeg向浏览器提供实时画面；品牌、源码和测试日志未取得。 **[REA · 待验证]**
 - [Ride Relay：OpenCode与DeepSeek把Google Maps转向提示送到Pulsar NS200仪表](cases/ride-relay-pulsar-ns200-google-maps.md) — Manovikram K称研究Bajaj应用后做出Android桥接，从Google Maps通知提取方向与距离并转为蓝牙包，报告实车可用，不需root或改官方APK。 **[其他 AI 逆向 · 待验证]**
-- [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan说明ScanRuler在本地浏览器运行，逆向由用户选择的AI Agent经MCP编排；同串根帖展示从3D扫描重建GoPro夹具，尺寸精度未核。 **[其他 AI 逆向 · 进行中]**
+- [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；11月5日第三方补述STL测量、CAD偏差、壁厚与STEP实体重建，尚无尺寸精度或实现核验。 **[其他 AI 逆向 · 进行中]**
 - [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid公开报告Switch 2固件23.0.1的软件越狱与Codex辅助分析；明确研究花约两周大量人工投入，自动WebKit目标失败，马车Mod才是一天完成。 **[其他 AI 逆向 · 进行中]**
 - [工程机麦克风链路：Carlos Gong称Codex调固件驱动后一小时内可录音](cases/codex-engineering-unit-microphone-path-repair.md) — Carlos Gong称Codex在工程机上修复麦克风收音链路，自己提供多次录音反馈；低底噪为主观报告，新增优化算法只是猜测。 **[其他 AI 逆向 · 待验证]**
 - [Noir M1：REA与Opus研究Windows应用，在Mac增加手势的自述](cases/noir-m1-rea-opus-mac-gestures.md) — ARES称用REA与Opus 5.5研究Noir M1仅有Windows版的配套应用，在Mac增加手势并报告可用；硬件类型、协议与兼容范围未核。 **[REA · 待验证]**
@@ -838,10 +842,13 @@
 
 ### 应用与客户端
 
+- [Hopper的DeepSeek二进制分析服务：去拒绝不等于逆向正确](cases/hopper-abliterated-deepseek-binary-analysis-service-report.md) — Hopper称提供abliterated DeepSeek用于二进制工作，自报HarmBench拒绝率62.8%降到0%；没有实际反编译任务或正确率证据。 **[其他 AI 逆向 · 相关项目]**
+- [营销版REA：Kev称用竞品链接让Claude拆解营销](cases/kevbuildsapps-claude-competitor-marketing-teardown.md) — Kev Builds Apps称做了营销方向的reverse engineer anything，让Claude分析竞品链接；没有具体竞品、输出或准确率，不是已确认的软件反编译器。 **[其他 AI 逆向 · 相关项目]**
+- [Discord新客户端mod想法：社区预期用AI研究Rust版再做插件](cases/discord-rust-client-ai-reversing-mods-idea.md) — 围绕Discord改用Rust的社区消息，两条评论预期AI能加快新客户端逆向并带来Rust mod；不是已发布插件或验证过的迁移工期。 **[其他 AI 逆向 · 待验证]**
 - [AIUP的PetClinic示例：从旧代码恢复用例规格，再渐进维护](cases/aiup-spring-petclinic-brownfield-spec-recovery.md) — Simon Martinelli为AI Unified Process加入brownfield流程，称Spring PetClinic有逆向后start分支与实现测试后的main；微型示例不证明遗留系统语义完整恢复。 **[其他 AI 逆向 · 相关项目]**
 - [HyperFrames RAV：从Stripe发布视频反推重建的单次生成自述](cases/hyperframes-rav-stripe-video-reconstruction.md) — Miguel Ángel称发布reverse-any-video技能并单次重建Stripe发布片；公开源码、许可、原片对照和生成记录未核验，不等同REA-VIDEO分析器。 **[其他 AI 逆向 · 待验证]**
 - [Harvey法律AI替代：Theo转述免费重建新闻稿，完整能力尚未证实](cases/harvey-legal-ai-free-reimplementation-press-release-report.md) — Theo称有开发者逆向Harvey并免费公开替代品，但未命名实现、给源码或法律任务测试；估值／融资混用，不采纳110亿美元为已核验事实。 **[未确认使用 REA · 待验证]**
-- [AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent](cases/dax-system-app-agent-ai-native-os-idea.md) — Dax设想把系统应用逆向并接入Agent，以形成AI-native操作层；没有指定平台、接口或实现，不是新内核或可用OS。 **[未确认使用 REA · 待验证]**
+- [AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent](cases/dax-system-app-agent-ai-native-os-idea.md) — Dax设想把系统应用逆向并接入Agent；后续帖子举高德交通API动态安排起床时间的场景。尚无平台、接口或实现，不是可用OS。 **[未确认使用 REA · 待验证]**
 - [Voyager扩展本地重建：Grok Bot五角色静态审计后仍遇滚动故障](cases/voyager-grokbot-rea-local-extension-rebuild.md) — Francesco Faenzi报告Grok Bot指挥REA角色家族分析Voyager2.2.1并移除云端依赖；首轮97.5%为作者口径，第二轮滚动仍失败，未独立审计安全性。 **[未确认使用 REA · 进行中]**
 - [Ayo的TikTok分析：读者归因REA／Claude，25+与31模型说法尚待核验](cases/ayo-tiktok-rea-claude-on-device-model-analysis-report.md) — 围绕Ayo的TikTok逆向视频，多帖转述端侧模型、传感器和未发私信指控；读者提到REA与Claude并追问证据。未读视频或JSON，不认定监控行为已证实。 **[未确认使用 REA · 待验证]**
 - [Premiere Pro工程格式：Kyle逆向规格，让AI不打开剪辑器也能编辑](cases/techsquidtv-premiere-project-file-ai-editing.md) — Kyle TechSquidTV称正在逆向Premiere Pro项目文件规格，目标让AI Agent直接编辑视频；尚无格式文档、代码或导入导出测试。 **[其他 AI 逆向 · 进行中]**

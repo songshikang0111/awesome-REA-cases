@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [《王国之泪》手机安装自述：GPT协助，不足以确认逆向移植](../cases/gpt-tears-of-kingdom-phone-install-reversing-claim.md) — 发帖者称看教程后用GPT把Switch《王国之泪》装到手机，但没有设备、代码或运行证据；无法区分模拟器安装与真正的游戏逆向。 **[其他 AI 逆向 · 待验证]**
 - [NSO playtest私服：社区称有人用AI逆向，尚无可核验实现](../cases/nso-playtest-ai-private-server-community-report.md) — gigi在NSO playtest社区串称有人未玩过游戏却用AI研究并准备私服；父串确认目标背景，未给团队、协议、代码或运行结果。 **[其他 AI 逆向 · 待验证]**
 - [Mappy第九代AI：REA读ROM发现波方向，32局得分仍未改善](../cases/nextcode-mappy-rea-rom-wave-direction-test.md) — NextCode称无人操作的Mappy AI对攻略存疑，以REA读ROM纠正数量并发现未写出的波方向；32局波得分与第八代相同。 **[REA · 分析测试]**
 - [PS1到PC重制idea：让AI拆游戏、改模型纹理并移植脚本](../cases/werewolf-freak-ai-ps1-pc-remaster-idea.md) — Werewolf Freak提出AI辅助反编译若干PS1游戏、重制3D素材并用转换层在PC跑新光照；尚无具名游戏或实现。 **[其他 AI 逆向 · 待验证]**
