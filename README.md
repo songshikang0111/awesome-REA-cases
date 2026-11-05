@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1696 cases & projects
+# 1707 cases & projects
 
-**Latest case update:** November 5, 2026, 08:14 · **Last maintained:** November 5, 2026, 08:14 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 5, 2026, 12:19 · **Last maintained:** November 5, 2026, 12:19 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: control your own devices, preserve games, and compare reconstructions with evidence. Public implementations share the list with a failed subscription-replacement experiment—useful results include knowing when to keep the original. Dates are source or author-update dates, not collection dates.
+**10 worth reading**: control your own devices, preserve games, and check what a reconstruction actually demonstrates. The latest experiment clarification matters: an agent's successful workaround can change what the test measures. Dates are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
 8. **[VerifiedIDA: keep the evidence with the IDA database](cases/en/verifiedida-evidence-led-llm-reversing-harness.md)** · `2026-11-04` project reports; pinned code predates them — SentinelLabs' public harness records **evidence-linked edits, receipts and resumable investigations**. A static ComRAT example checks a recovered type after reopening the database. Persistence is not semantic correctness; needs licensed IDA/Hex-Rays and sends context to a model provider. Not run here. `Related project`
 9. **[BeanScribe: choose your recorder's transcription service](cases/en/gengdaj-feishu-recorder-custom-transcription-app.md)** · `2026-11-04` author updates and project record — Yichen credits REA; **public H5/Python code connects a D3200 to Feishu**, reusing tacshi's protocol research. Single-user deployment; the first 2–4 seconds may be lost, and official quotas/firmware are unchanged. Source-available, not OSI open source; not run here. `In progress`
-10. **[Granola: cheap to build, harder to keep working](cases/en/darragh-granola-rea-claude-rebuild-maintenance-test.md)** · `2026-11-04` — Darragh Lucey reports **61 minutes and $22.30** with REA/Claude Code, then a day of faults and transcription errors. He **kept the subscription**; the claimed 80% completion is subjective, not measured equivalence. No code or independent rerun here. `Analysis test`
+10. **[An 11kB .NET test: read the asterisk on 24/25](cases/en/hiroshi-claude-rea-dotnet-25-item-test.md)** · `2026-11-05` author clarification — Hiroshi reports **24 correct and one partial** against a preset answer key. Missing REA output led Claude to write a Python disassembler and read the EXE directly: **a combined-system test, not REA alone**. Full scoring artifacts and an independent rerun remain absent. `Analysis test`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **348** |
-| [Hardware & interoperability](categories/en/hardware.md) | **462** |
-| [Applications & clients](categories/en/apps.md) | **702** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **184** |
+| [Games & preservation](categories/en/games.md) | **351** |
+| [Hardware & interoperability](categories/en/hardware.md) | **463** |
+| [Applications & clients](categories/en/apps.md) | **708** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **185** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

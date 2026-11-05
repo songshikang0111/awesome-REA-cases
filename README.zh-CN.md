@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1696 个案例与项目
+# 1707 个案例与项目
 
-**最近案例更新：**2026 年 11 月 5 日 08:14 · **最近维护：**2026 年 11 月 5 日 08:14 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
+**最近案例更新：**2026 年 11 月 5 日 12:19 · **最近维护：**2026 年 11 月 5 日 12:19 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：自己控制设备、保存游戏，并用证据对照重建结果。公开实现之外，也保留一次未能替代订阅的实验——知道何时保留原版，同样是有用结果。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：自己控制设备、保存游戏，也看清重建究竟证明了什么。最新实验补充提醒我们：Agent成功绕过工具缺口，也可能改变测试实际测量的对象。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[tolpo：Tapo住宅的实时3D视图](cases/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — 转述Claude辅助协议研究，公开**LAN/MCP控制与人工校正户型**。复用python-kasa；较早项目自测覆盖九房间、18设备，不代表所有写操作与型号。设备本地通信不等于AI本地运行。`进行中`
 2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
@@ -33,7 +33,7 @@
 7. **[MechWarrior 3：让1999年的机甲游戏跑上现代电脑](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04`报道与固定项目记录 — Owen Morgan披露**REA／Ghidra研究、逐函数C++重建**，报告以Unicorn对照原版。公开原生后端、宽屏与八人UDP联机；报道明确Linux未试玩，Pirate's Moon未支持。须自备原游戏，本合集未构建。`进行中`
 8. **[VerifiedIDA：让证据跟着IDA数据库走](cases/verifiedida-evidence-led-llm-reversing-harness.md)** · `2026-11-04`项目介绍；固定源码更早 — SentinelLabs公开harness，保存**关联证据的修改、回执与可恢复调查**。ComRAT静态示例重开数据库检查恢复类型；持久化不等于语义正确，须自备IDA／Hex-Rays许可，分析上下文会发给模型商。本合集未运行。`相关项目`
 9. **[豆记BeanScribe：自己选录音豆的转写服务](cases/gengdaj-feishu-recorder-custom-transcription-app.md)** · `2026-11-04`作者更新与项目记录 — 逸尘归因REA，**公开H5／Python实现把D3200接入飞书**，复用tacshi协议研究。单人部署，开头2–4秒可能丢失，未改官方额度或固件。源码可用，非OSI开源；本合集未运行。`进行中`
-10. **[Granola：做出来便宜，维护不一定](cases/darragh-granola-rea-claude-rebuild-maintenance-test.md)** · `2026-11-04` — Darragh Lucey称REA／Claude Code用**61分钟、22.30美元**做出原型，一天试用仍故障、转写出错，最终**保留订阅**。所谓80%是主观进度，非功能等价；无代码或独立重跑。`分析测试`
+10. **[11kB .NET自测：24/25背后的星号](cases/hiroshi-claude-rea-dotnet-25-item-test.md)** · `2026-11-05`作者补充 — Hiroshi预设答案后报告**24项正确、一项部分正确**。REA输出缺信息，Claude便自写Python反汇编器直读EXE：**测的是组合，不是REA单工具**。完整评分产物与独立重跑仍缺。`分析测试`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **348** |
-| [硬件与设备互通](categories/hardware.md) | **462** |
-| [应用与客户端](categories/apps.md) | **702** |
-| [算法与功能重建](categories/algorithms.md) | **184** |
+| [游戏与游戏保存](categories/games.md) | **351** |
+| [硬件与设备互通](categories/hardware.md) | **463** |
+| [应用与客户端](categories/apps.md) | **708** |
+| [算法与功能重建](categories/algorithms.md) | **185** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

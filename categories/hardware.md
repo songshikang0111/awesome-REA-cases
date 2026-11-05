@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [汽车OBD设置idea：想让AI研究原厂调试软件能改的选项](../cases/ai-obd-vendor-settings-research-idea.md) — 发帖者想用AI逆向OBD，因为部分设置能通过厂商调试软件修改；没有车型、选项、协议或实际实现。 **[其他 AI 逆向 · 待验证]**
 - [VideoCore II固件idea：先补SLEIGH解码，再让AI经MCP研究](../cases/onryo-videocore2-sleigh-ghidra-mcp-ai-pipeline-idea.md) — Onryo针对Ghidra缺少VideoCore II支持的讨论提出定制解码与AI迭代管线；独立验证是计划步骤，不是已经完成的验证。 **[其他 AI 逆向 · 待验证]**
 - [Tidbyt脱离原厂云：Sean Oliver用Claude迁移Tronbyt并处理固件备份](../cases/sean-oliver-tidbyt-tronbyt-claude-local-migration.md) — Sean称Claude帮助Tidbyt改用Home Assistant上的Tronbyt，显示日历倒计时与Things任务；原厂固件备份以256KB分块解决长读取失败，均未独立复核。 **[其他 AI 逆向 · 进行中]**
 - [チャレパ2改造：puyokura称用REA等AI逆向，已有初步结果](../cases/puyokura-charepa2-rea-ai-modification-report.md) — puyokura自述用REA等AI做逆向，当前チャレパ2改造已有结果；未解释缩写、改造功能或测试，不推定解锁和系统移植成功。 **[REA · 进行中]**

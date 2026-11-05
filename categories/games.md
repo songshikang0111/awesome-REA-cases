@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [GBA《蜡笔小新》汉化：日报转述Opus5.5约一小时并重做图片](../cases/gba-crayon-shinchan-opus-localization-secondary-report.md) — 开发者日报转述大帅老猿用Opus5.5汉化GBA《蜡笔小新》，称约一小时、周额度4%，还重做游戏图片；未取得原帖、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
+- [gtag Paintbrawl旧版：cupri称Claude辅助反编译后在Quest与PCVR运行](../cases/cupri-claude-gtag-paintbrawl-quest-pcvr.md) — cupri报告旧gtag的PC构建在Quest和PCVR运行，称精度很好；没有版本哈希、代码或实测，不把主观评价写成兼容率。 **[其他 AI 逆向 · 待验证]**
+- [Hover Junkers到Quest：cupri称Claude辅助反编译后仅部分运行](../cases/cupri-claude-hover-junkers-quest-port.md) — cupri称尝试用Claude反编译Hover Junkers，并只让它部分在Quest运行；没有完成清单、公开实现或性能证据。 **[其他 AI 逆向 · 进行中]**
 - [《王国之泪》手机安装自述：GPT协助，不足以确认逆向移植](../cases/gpt-tears-of-kingdom-phone-install-reversing-claim.md) — 发帖者称看教程后用GPT把Switch《王国之泪》装到手机，但没有设备、代码或运行证据；无法区分模拟器安装与真正的游戏逆向。 **[其他 AI 逆向 · 待验证]**
 - [NSO playtest私服：社区称有人用AI逆向，尚无可核验实现](../cases/nso-playtest-ai-private-server-community-report.md) — gigi在NSO playtest社区串称有人未玩过游戏却用AI研究并准备私服；父串确认目标背景，未给团队、协议、代码或运行结果。 **[其他 AI 逆向 · 待验证]**
 - [Mappy第九代AI：REA读ROM发现波方向，32局得分仍未改善](../cases/nextcode-mappy-rea-rom-wave-direction-test.md) — NextCode称无人操作的Mappy AI对攻略存疑，以REA读ROM纠正数量并发现未写出的波方向；32局波得分与第八代相同。 **[REA · 分析测试]**
