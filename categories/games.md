@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [网游改单机：kwok分享多个flash模型与零token费用的视频自述](../cases/flash-models-online-game-offline-video-report.md) — kwok分享的B站视频标题称，用几个flash模型把网游改成单机且token费用0元；未取得游戏名、实现或测试，不把flash解释成Flash游戏格式。 **[其他 AI 逆向 · 待验证]**
+- [3DS《我的世界》：转述Claude Code从机器码恢复裸眼3D](../cases/minecraft-3ds-claude-stereo-restoration-report.md) — 拓跋鼠转述开发者用Claude Code在无源码的3DS《我的世界》中找到被关闭的立体渲染逻辑并重建3D画面；仍为开发中改版，未取得补丁或验证。 **[其他 AI 逆向 · 进行中]**
+- [3DS《泰拉瑞亚》：转述Claude Code辅助增加分层景深](../cases/terraria-3ds-claude-layered-depth-report.md) — 与Minecraft恢复旧逻辑不同，拓跋鼠称原本无立体效果的3DS Terraria也被加上分层景深；开发中展示不等于完整立体渲染已验证。 **[其他 AI 逆向 · 进行中]**
+- [SDT Android版争议：社区称AI逆向做的是翻译层而非完整移植](../cases/sdt-android-ai-translation-layer-community-report.md) — BENIS在SDT移植争论中区分AI辅助Android翻译层与PC移植；同串对AI代码传递有争议，没有原作者技术记录，不扩大SDT缩写。 **[其他 AI 逆向 · 待验证]**
 - [GBA《蜡笔小新》汉化：日报转述Opus5.5约一小时并重做图片](../cases/gba-crayon-shinchan-opus-localization-secondary-report.md) — 开发者日报转述大帅老猿用Opus5.5汉化GBA《蜡笔小新》，称约一小时、周额度4%，还重做游戏图片；未取得原帖、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
 - [gtag Paintbrawl旧版：cupri称Claude辅助反编译后在Quest与PCVR运行](../cases/cupri-claude-gtag-paintbrawl-quest-pcvr.md) — cupri报告旧gtag的PC构建在Quest和PCVR运行，称精度很好；没有版本哈希、代码或实测，不把主观评价写成兼容率。 **[其他 AI 逆向 · 待验证]**
 - [Hover Junkers到Quest：cupri称Claude辅助反编译后仅部分运行](../cases/cupri-claude-hover-junkers-quest-port.md) — cupri称尝试用Claude反编译Hover Junkers，并只让它部分在Quest运行；没有完成清单、公开实现或性能证据。 **[其他 AI 逆向 · 进行中]**
@@ -30,7 +34,7 @@
 - [Soldier of Fortune 2：模组作者建议用REA恢复伪源码，打通改造死路](../cases/soldier-of-fortune2-rea-modding-idea.md) — 2002年SoF2模组作者主张用REA研究未公开源码的游戏二进制，增加Mod自由度；仅具体用途idea，没有开始或完成分析的报告。 **[REA · 待验证]**
 - [benilla：Rust／Bevy重建WoW1.12.1客户端，Claude归因来自转述](../cases/benilla-wow1121-claude-rust-bevy-client.md) — grokked称Claude辅助重写WoW客户端；公开实现与地址级研究文档可查。项目称可完整游玩，但不支持Warden，插件与性能仍在改进，未独立运行。 **[其他 AI 逆向 · 进行中]**
 - [Roblox模拟器循环：Opus／Astra／RigDirectors行为重建宣传报告](../cases/opus-astra-rigdirectors-roblox-simulator-report.md) — 作者称研究流行Roblox机制后生成宠物、孵蛋、升级和重生循环，报告早版UI与经济失衡；两天交付和12450美元收入无成品或账本支持。 **[其他 AI 逆向 · 待验证]**
-- [Battlefield 1942浏览器版：新增57000函数与WebGL2的二手重建宣称](../cases/levels-battlefield1942-claude-browser-report.md) — dimash与澜知AI转述levels的Claude浏览器重建；新增说法为57000个x86函数转Wasm、DirectX8转WebGL2及多人联机，均未取得原作者验证或试玩。 **[其他 AI 逆向 · 待验证]**
+- [Battlefield 1942浏览器版：从57000函数翻译到1.61同服的二手报告](../cases/levels-battlefield1942-claude-browser-report.md) — 转述levelsio用Claude／Opus5.5把BF1942机器码译为C／Wasm，再补WebGL和WebSocket；11月5日新增1.61与旧客户端同服宣称及手机裁切限制，仍未独立验证。 **[其他 AI 逆向 · 待验证]**
 - [Nimbus：三款GameCube龙珠游戏的AI辅助原生化项目，闭源Alpha仍待验证](../cases/nimbus-dragon-ball-z-gamecube-ai-native-project.md) — thebabyhippo303的统一启动器自称混合重编译／反编译，不用硬件解释器；固定README已是Alpha 1.1，仅分发构建，跨平台与跨服功能未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [死亡之屋ReWrithe：Claude辅助合并街机与PC逻辑，项目测试不等于全平台实测](../cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md) — Tawhid的公开C++重写披露Claude辅助逆向与人工指挥测试；README区分Surface通关、自动MAME对照与尚未实机测试的平台、光枪和联网。 **[其他 AI 逆向 · 进行中]**
 - [Brawlhalla卡顿：Codex／REA追到AIR在Rosetta下的解释器分支](../cases/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md) — fexx_off报告在M4 Pro上用采样与二进制检查定位AIR解释器模式，配置覆盖后解释器路径消失、人工试玩卡顿基本消失；无原始堆栈或帧时间数据，未独立复测。 **[REA · 分析测试]**

@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Anthropic风格图表Skill：耳朵观察Claude绘图时的JS加载来重建规范](../cases/anthropic-style-diagram-claude-web-js-skill.md) — 耳朵称通过Claude画SVG时的额外JS加载及向Claude询问文件，整理为公开图表Skill；固定文档支持SVG／PNG和版式审计，但不证明逐字恢复官方提示词。 **[其他 AI 逆向 · 进行中]**
+- [Packet直播中的订阅服务拆解：Jesse称Josh用Claude／REA，两天约200美元](../cases/packet-jesse-josh-rea-subscription-service-rebuild-report.md) — Packet直播转录里，Jesse称正在拆解已订阅三年的每月200美元服务，Josh把它交给Claude和REA；两天、约200美元是口述估计，服务名及实现未公开。 **[REA · 进行中]**
+- [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](../cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 中文帖子转述CERT-In预警，将CRAFTY FALCON使用AI渗透工具与支付App逆向、改包及非法出款关联；未取得原预警或AI操作记录，不将归因和损失当已核实事实。 **[其他 AI 逆向 · 待验证]**
+- [Zygisk故障：Gemini看日志源码后尝试逆向，被拦截的自述](../cases/zygisk-gemini-debug-reversing-blocked-report.md) — 发帖者称Zygisk出问题，把日志和源码交Gemini仍未定位，模型转向逆向时请求被拦；没有实际分析产物或修复，不泛化为Gemini永久政策。 **[其他 AI 逆向 · 待验证]**
+- [Mac合格电子签名应用：Patryk称Claude约30分钟重建运行环境解决故障](../cases/navalismae-claude-mac-qualified-signing-runtime-repair.md) — Lyon本窗回复引出Patryk的10月22日报告：Mac签名应用数月故障，Claude循环约30分钟重建运行环境后消失；未说明厂商、依赖或具体逆向步骤。 **[其他 AI 逆向 · 待验证]**
+- [学习通APK：核桃称交给GPT逆向，课程进度仍有回退问题](../cases/hetao-chaoxing-apk-gpt-progress-analysis-report.md) — 核桃在学习通课程自动化讨论中明确称把APK交GPT逆向；补读同串确认进度接口背景，但部分账号次日回退未解决，没有可复核实现。 **[其他 AI 逆向 · 待验证]**
 - [停业厂商音频插件：mrnextmusic想用开源模型复活自有工具](../cases/abandoned-audio-plugins-open-model-revival-idea.md) — mrnextmusic询问能做逆向的开源Claude替代品，希望恢复停业厂商的音频插件供个人使用；尚无具名插件或恢复结果。 **[其他 AI 逆向 · 待验证]**
 - [Claude Design Skill：宝玉建议先做作品，再按输入输出重建](../cases/dotey-claude-design-skill-behavioral-reconstruction-idea.md) — 宝玉提出先调用Design Skill完成简单作品，再要求同类Skill并追问完善；没有公开重建产物或等价测试，不是系统提示词已泄露。 **[其他 AI 逆向 · 待验证]**
 - [ghidra-rpc：Cellebrite Labs让Agent用JSON CLI持续研究Ghidra项目](../cases/cellebrite-ghidra-rpc-agent-daemon.md) — 常驻Ghidra通过CLI向Agent提供反编译、类型、补丁与版本对照；v0.3.0补Windows及事务修复，项目说明GUI无CI覆盖，未在本合集运行。 **[其他 AI 逆向 · 相关项目]**
@@ -61,7 +67,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜拆解参考片画面、花字、剪辑与声音的方案转述](../cases/rea-video-shot-breakdown-rebuild-report.md) — 逐镜制作分析新增换主体的生产管线idea、证据优先判定说明与明子206使用报告；效果仅主观评价，不证明还原原提示词或原Remotion源码。 **[未确认使用 REA · 相关项目]**
+- [REA-VIDEO：逐镜制作研究，公开文档与Apache许可澄清旧疑问](../cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo/rea-video公开逐镜证据、制作计划与Agent工作流；本次核对固定README与Apache-2.0许可，区分研究报告和另接生成器，准确率仍为项目自测。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [XCPE Guard：Nerdingen称Claude帮助检查和冻结Android TV固件后门](../cases/nerdingen-xcpe-guard-claude-android-tv.md) — Nerdingen为自用Mecool等电视盒制作XCPE Guard，称Claude协助、无线ADB且无需root，发现并冻结后门后每日检查；未证实能清除感染或覆盖全部固件。 **[其他 AI 逆向 · 进行中]**
+- [备用红米手机：明子206开始用Codex核查监控担忧](../cases/redmi-codex-monitoring-investigation-report.md) — 明子206看到红米监控指控后，称正用Codex逆向分析自用备用机；尚无型号、目标组件或调查结论，担忧不是监控证据。 **[其他 AI 逆向 · 进行中]**
 - [汽车OBD设置idea：想让AI研究原厂调试软件能改的选项](../cases/ai-obd-vendor-settings-research-idea.md) — 发帖者想用AI逆向OBD，因为部分设置能通过厂商调试软件修改；没有车型、选项、协议或实际实现。 **[其他 AI 逆向 · 待验证]**
 - [VideoCore II固件idea：先补SLEIGH解码，再让AI经MCP研究](../cases/onryo-videocore2-sleigh-ghidra-mcp-ai-pipeline-idea.md) — Onryo针对Ghidra缺少VideoCore II支持的讨论提出定制解码与AI迭代管线；独立验证是计划步骤，不是已经完成的验证。 **[其他 AI 逆向 · 待验证]**
 - [Tidbyt脱离原厂云：Sean Oliver用Claude迁移Tronbyt并处理固件备份](../cases/sean-oliver-tidbyt-tronbyt-claude-local-migration.md) — Sean称Claude帮助Tidbyt改用Home Assistant上的Tronbyt，显示日历倒计时与Things任务；原厂固件备份以256KB分块解决长读取失败，均未独立复核。 **[其他 AI 逆向 · 进行中]**

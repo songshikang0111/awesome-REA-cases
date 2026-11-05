@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1707 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1721 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（351）
-- [硬件与设备互通](categories/hardware.md)（463）
-- [应用与客户端](categories/apps.md)（708）
-- [算法与功能重建](categories/algorithms.md)（185）
+- [游戏与游戏保存](categories/games.md)（355）
+- [硬件与设备互通](categories/hardware.md)（465）
+- [应用与客户端](categories/apps.md)（714）
+- [算法与功能重建](categories/algorithms.md)（187）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,10 @@
 
 ### 游戏与游戏保存
 
+- [网游改单机：kwok分享多个flash模型与零token费用的视频自述](cases/flash-models-online-game-offline-video-report.md) — kwok分享的B站视频标题称，用几个flash模型把网游改成单机且token费用0元；未取得游戏名、实现或测试，不把flash解释成Flash游戏格式。 **[其他 AI 逆向 · 待验证]**
+- [3DS《我的世界》：转述Claude Code从机器码恢复裸眼3D](cases/minecraft-3ds-claude-stereo-restoration-report.md) — 拓跋鼠转述开发者用Claude Code在无源码的3DS《我的世界》中找到被关闭的立体渲染逻辑并重建3D画面；仍为开发中改版，未取得补丁或验证。 **[其他 AI 逆向 · 进行中]**
+- [3DS《泰拉瑞亚》：转述Claude Code辅助增加分层景深](cases/terraria-3ds-claude-layered-depth-report.md) — 与Minecraft恢复旧逻辑不同，拓跋鼠称原本无立体效果的3DS Terraria也被加上分层景深；开发中展示不等于完整立体渲染已验证。 **[其他 AI 逆向 · 进行中]**
+- [SDT Android版争议：社区称AI逆向做的是翻译层而非完整移植](cases/sdt-android-ai-translation-layer-community-report.md) — BENIS在SDT移植争论中区分AI辅助Android翻译层与PC移植；同串对AI代码传递有争议，没有原作者技术记录，不扩大SDT缩写。 **[其他 AI 逆向 · 待验证]**
 - [GBA《蜡笔小新》汉化：日报转述Opus5.5约一小时并重做图片](cases/gba-crayon-shinchan-opus-localization-secondary-report.md) — 开发者日报转述大帅老猿用Opus5.5汉化GBA《蜡笔小新》，称约一小时、周额度4%，还重做游戏图片；未取得原帖、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
 - [gtag Paintbrawl旧版：cupri称Claude辅助反编译后在Quest与PCVR运行](cases/cupri-claude-gtag-paintbrawl-quest-pcvr.md) — cupri报告旧gtag的PC构建在Quest和PCVR运行，称精度很好；没有版本哈希、代码或实测，不把主观评价写成兼容率。 **[其他 AI 逆向 · 待验证]**
 - [Hover Junkers到Quest：cupri称Claude辅助反编译后仅部分运行](cases/cupri-claude-hover-junkers-quest-port.md) — cupri称尝试用Claude反编译Hover Junkers，并只让它部分在Quest运行；没有完成清单、公开实现或性能证据。 **[其他 AI 逆向 · 进行中]**
@@ -54,7 +58,7 @@
 - [Soldier of Fortune 2：模组作者建议用REA恢复伪源码，打通改造死路](cases/soldier-of-fortune2-rea-modding-idea.md) — 2002年SoF2模组作者主张用REA研究未公开源码的游戏二进制，增加Mod自由度；仅具体用途idea，没有开始或完成分析的报告。 **[REA · 待验证]**
 - [benilla：Rust／Bevy重建WoW1.12.1客户端，Claude归因来自转述](cases/benilla-wow1121-claude-rust-bevy-client.md) — grokked称Claude辅助重写WoW客户端；公开实现与地址级研究文档可查。项目称可完整游玩，但不支持Warden，插件与性能仍在改进，未独立运行。 **[其他 AI 逆向 · 进行中]**
 - [Roblox模拟器循环：Opus／Astra／RigDirectors行为重建宣传报告](cases/opus-astra-rigdirectors-roblox-simulator-report.md) — 作者称研究流行Roblox机制后生成宠物、孵蛋、升级和重生循环，报告早版UI与经济失衡；两天交付和12450美元收入无成品或账本支持。 **[其他 AI 逆向 · 待验证]**
-- [Battlefield 1942浏览器版：新增57000函数与WebGL2的二手重建宣称](cases/levels-battlefield1942-claude-browser-report.md) — dimash与澜知AI转述levels的Claude浏览器重建；新增说法为57000个x86函数转Wasm、DirectX8转WebGL2及多人联机，均未取得原作者验证或试玩。 **[其他 AI 逆向 · 待验证]**
+- [Battlefield 1942浏览器版：从57000函数翻译到1.61同服的二手报告](cases/levels-battlefield1942-claude-browser-report.md) — 转述levelsio用Claude／Opus5.5把BF1942机器码译为C／Wasm，再补WebGL和WebSocket；11月5日新增1.61与旧客户端同服宣称及手机裁切限制，仍未独立验证。 **[其他 AI 逆向 · 待验证]**
 - [Nimbus：三款GameCube龙珠游戏的AI辅助原生化项目，闭源Alpha仍待验证](cases/nimbus-dragon-ball-z-gamecube-ai-native-project.md) — thebabyhippo303的统一启动器自称混合重编译／反编译，不用硬件解释器；固定README已是Alpha 1.1，仅分发构建，跨平台与跨服功能未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [死亡之屋ReWrithe：Claude辅助合并街机与PC逻辑，项目测试不等于全平台实测](cases/house-of-the-dead-rewrithe-claude-cpp-rewrite.md) — Tawhid的公开C++重写披露Claude辅助逆向与人工指挥测试；README区分Surface通关、自动MAME对照与尚未实机测试的平台、光枪和联网。 **[其他 AI 逆向 · 进行中]**
 - [Brawlhalla卡顿：Codex／REA追到AIR在Rosetta下的解释器分支](cases/brawlhalla-m4pro-codex-rea-air-jit-stutter-report.md) — fexx_off报告在M4 Pro上用采样与二进制检查定位AIR解释器模式，配置覆盖后解释器路径消失、人工试玩卡顿基本消失；无原始堆栈或帧时间数据，未独立复测。 **[REA · 分析测试]**
@@ -380,6 +384,8 @@
 
 ### 硬件与设备互通
 
+- [XCPE Guard：Nerdingen称Claude帮助检查和冻结Android TV固件后门](cases/nerdingen-xcpe-guard-claude-android-tv.md) — Nerdingen为自用Mecool等电视盒制作XCPE Guard，称Claude协助、无线ADB且无需root，发现并冻结后门后每日检查；未证实能清除感染或覆盖全部固件。 **[其他 AI 逆向 · 进行中]**
+- [备用红米手机：明子206开始用Codex核查监控担忧](cases/redmi-codex-monitoring-investigation-report.md) — 明子206看到红米监控指控后，称正用Codex逆向分析自用备用机；尚无型号、目标组件或调查结论，担忧不是监控证据。 **[其他 AI 逆向 · 进行中]**
 - [汽车OBD设置idea：想让AI研究原厂调试软件能改的选项](cases/ai-obd-vendor-settings-research-idea.md) — 发帖者想用AI逆向OBD，因为部分设置能通过厂商调试软件修改；没有车型、选项、协议或实际实现。 **[其他 AI 逆向 · 待验证]**
 - [VideoCore II固件idea：先补SLEIGH解码，再让AI经MCP研究](cases/onryo-videocore2-sleigh-ghidra-mcp-ai-pipeline-idea.md) — Onryo针对Ghidra缺少VideoCore II支持的讨论提出定制解码与AI迭代管线；独立验证是计划步骤，不是已经完成的验证。 **[其他 AI 逆向 · 待验证]**
 - [Tidbyt脱离原厂云：Sean Oliver用Claude迁移Tronbyt并处理固件备份](cases/sean-oliver-tidbyt-tronbyt-claude-local-migration.md) — Sean称Claude帮助Tidbyt改用Home Assistant上的Tronbyt，显示日历倒计时与Things任务；原厂固件备份以256KB分块解决长读取失败，均未独立复核。 **[其他 AI 逆向 · 进行中]**
@@ -846,6 +852,12 @@
 
 ### 应用与客户端
 
+- [Anthropic风格图表Skill：耳朵观察Claude绘图时的JS加载来重建规范](cases/anthropic-style-diagram-claude-web-js-skill.md) — 耳朵称通过Claude画SVG时的额外JS加载及向Claude询问文件，整理为公开图表Skill；固定文档支持SVG／PNG和版式审计，但不证明逐字恢复官方提示词。 **[其他 AI 逆向 · 进行中]**
+- [Packet直播中的订阅服务拆解：Jesse称Josh用Claude／REA，两天约200美元](cases/packet-jesse-josh-rea-subscription-service-rebuild-report.md) — Packet直播转录里，Jesse称正在拆解已订阅三年的每月200美元服务，Josh把它交给Claude和REA；两天、约200美元是口述估计，服务名及实现未公开。 **[REA · 进行中]**
+- [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 中文帖子转述CERT-In预警，将CRAFTY FALCON使用AI渗透工具与支付App逆向、改包及非法出款关联；未取得原预警或AI操作记录，不将归因和损失当已核实事实。 **[其他 AI 逆向 · 待验证]**
+- [Zygisk故障：Gemini看日志源码后尝试逆向，被拦截的自述](cases/zygisk-gemini-debug-reversing-blocked-report.md) — 发帖者称Zygisk出问题，把日志和源码交Gemini仍未定位，模型转向逆向时请求被拦；没有实际分析产物或修复，不泛化为Gemini永久政策。 **[其他 AI 逆向 · 待验证]**
+- [Mac合格电子签名应用：Patryk称Claude约30分钟重建运行环境解决故障](cases/navalismae-claude-mac-qualified-signing-runtime-repair.md) — Lyon本窗回复引出Patryk的10月22日报告：Mac签名应用数月故障，Claude循环约30分钟重建运行环境后消失；未说明厂商、依赖或具体逆向步骤。 **[其他 AI 逆向 · 待验证]**
+- [学习通APK：核桃称交给GPT逆向，课程进度仍有回退问题](cases/hetao-chaoxing-apk-gpt-progress-analysis-report.md) — 核桃在学习通课程自动化讨论中明确称把APK交GPT逆向；补读同串确认进度接口背景，但部分账号次日回退未解决，没有可复核实现。 **[其他 AI 逆向 · 待验证]**
 - [停业厂商音频插件：mrnextmusic想用开源模型复活自有工具](cases/abandoned-audio-plugins-open-model-revival-idea.md) — mrnextmusic询问能做逆向的开源Claude替代品，希望恢复停业厂商的音频插件供个人使用；尚无具名插件或恢复结果。 **[其他 AI 逆向 · 待验证]**
 - [Claude Design Skill：宝玉建议先做作品，再按输入输出重建](cases/dotey-claude-design-skill-behavioral-reconstruction-idea.md) — 宝玉提出先调用Design Skill完成简单作品，再要求同类Skill并追问完善；没有公开重建产物或等价测试，不是系统提示词已泄露。 **[其他 AI 逆向 · 待验证]**
 - [ghidra-rpc：Cellebrite Labs让Agent用JSON CLI持续研究Ghidra项目](cases/cellebrite-ghidra-rpc-agent-daemon.md) — 常驻Ghidra通过CLI向Agent提供反编译、类型、补丁与版本对照；v0.3.0补Windows及事务修复，项目说明GUI无CI覆盖，未在本合集运行。 **[其他 AI 逆向 · 相关项目]**
@@ -905,7 +917,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜拆解参考片画面、花字、剪辑与声音的方案转述](cases/rea-video-shot-breakdown-rebuild-report.md) — 逐镜制作分析新增换主体的生产管线idea、证据优先判定说明与明子206使用报告；效果仅主观评价，不证明还原原提示词或原Remotion源码。 **[未确认使用 REA · 相关项目]**
+- [REA-VIDEO：逐镜制作研究，公开文档与Apache许可澄清旧疑问](cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo/rea-video公开逐镜证据、制作计划与Agent工作流；本次核对固定README与Apache-2.0许可，区分研究报告和另接生成器，准确率仍为项目自测。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -1557,6 +1569,8 @@
 
 ### 算法与功能重建
 
+- [Lingzhao孔雀扇：sandmrk为Muse反推21.6秒仙侠片13镜规格](cases/sandmrk-muse-lingzhao-peacock-216s-prompt.md) — sandmrk把手扇到满屏孔雀扇的特效递进拆成两段13镜，约束角色、场景与尺度连续；明确生成仍不完全匹配参考片。 **[其他 AI 逆向 · 分析测试]**
+- [眼旁V手势舞：sandmrk反推Muse的15.07秒动作规格](cases/muse-eye-v-low-point-1507s-prompt.md) — sandmrk拆解银发CG舞者的敬礼、转身、眼旁V与低位指点，给Muse两段连续生成规格；作者明确仍不能完全匹配原片。 **[其他 AI 逆向 · 分析测试]**
 - [沙漠双剑士：sandmrk反推Muse的30.4秒分镜，承认不能完全匹配](cases/sandmrk-muse-desert-swordsmen-304s-prompt.md) — sandmrk把双剑士沙漠战斗拆成三段、21镜的Muse生成规格，锁定角色、能量色与音效；作者明确生成尚不能完全还原原片。 **[其他 AI 逆向 · 分析测试]**
 - [Juicebox的AEO：反推AI搜索偏好的页面格式与品牌叙事](cases/juicebox-ai-search-citation-behavior-aeo-report.md) — jam转述Juicebox观察ChatGPT／Perplexity引用后改内容，声称两月4500+注册；没有查询集或流量证据，不称恢复算法或证明因果。 **[未确认使用 REA · 待验证]**
 - [图像水印idea：Zhi Wei从LSB噪点推测GPT／Gemini水印可逆](cases/synthid-gpt-gemini-lsb-noise-watermark-reversal-idea.md) — 作者称LSB查看器看到规律噪点并转述他人取得疑似噪点图，设想逆向去水印；未证明噪点为SynthID，或已恢复算法。 **[其他 AI 逆向 · 待验证]**

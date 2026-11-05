@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Lingzhao孔雀扇：sandmrk为Muse反推21.6秒仙侠片13镜规格](../cases/sandmrk-muse-lingzhao-peacock-216s-prompt.md) — sandmrk把手扇到满屏孔雀扇的特效递进拆成两段13镜，约束角色、场景与尺度连续；明确生成仍不完全匹配参考片。 **[其他 AI 逆向 · 分析测试]**
+- [眼旁V手势舞：sandmrk反推Muse的15.07秒动作规格](../cases/muse-eye-v-low-point-1507s-prompt.md) — sandmrk拆解银发CG舞者的敬礼、转身、眼旁V与低位指点，给Muse两段连续生成规格；作者明确仍不能完全匹配原片。 **[其他 AI 逆向 · 分析测试]**
 - [沙漠双剑士：sandmrk反推Muse的30.4秒分镜，承认不能完全匹配](../cases/sandmrk-muse-desert-swordsmen-304s-prompt.md) — sandmrk把双剑士沙漠战斗拆成三段、21镜的Muse生成规格，锁定角色、能量色与音效；作者明确生成尚不能完全还原原片。 **[其他 AI 逆向 · 分析测试]**
 - [Juicebox的AEO：反推AI搜索偏好的页面格式与品牌叙事](../cases/juicebox-ai-search-citation-behavior-aeo-report.md) — jam转述Juicebox观察ChatGPT／Perplexity引用后改内容，声称两月4500+注册；没有查询集或流量证据，不称恢复算法或证明因果。 **[未确认使用 REA · 待验证]**
 - [图像水印idea：Zhi Wei从LSB噪点推测GPT／Gemini水印可逆](../cases/synthid-gpt-gemini-lsb-noise-watermark-reversal-idea.md) — 作者称LSB查看器看到规律噪点并转述他人取得疑似噪点图，设想逆向去水印；未证明噪点为SynthID，或已恢复算法。 **[其他 AI 逆向 · 待验证]**
