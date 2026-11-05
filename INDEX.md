@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1729 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1742 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（356）
-- [硬件与设备互通](categories/hardware.md)（467）
-- [应用与客户端](categories/apps.md)（719）
-- [算法与功能重建](categories/algorithms.md)（187）
+- [游戏与游戏保存](categories/games.md)（358）
+- [硬件与设备互通](categories/hardware.md)（469）
+- [应用与客户端](categories/apps.md)（726）
+- [算法与功能重建](categories/algorithms.md)（189）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Creatures 2：Torben称Hermes中的REA半天研究游戏并自主养育Norn](cases/creatures2-hermes-rea-autonomous-norn-report.md) — Torben Michaelsen称REA在Hermes中用半天研究《Creatures 2》并自行养育一只Norn；没有操作轨迹或成功标准。 **[REA · 待验证]**
+- [个人SOCOM重建：Joshua Hale称多次耗尽每周Claude额度满足怀旧需求](cases/josh-hale-claude-socom-personal-clone-report.md) — Joshua Hale称用Claude做自己的SOCOM克隆，希望让十岁孩子体验；未披露版本、引擎、源码或可玩程度，不与SOCOM II Legacy合并。 **[其他 AI 逆向 · 待验证]**
 - [Pokémon Diamond提示词对照：转述XDA测试Claude拒绝重做但愿规划反编译与移植](cases/xda-pokemon-diamond-claude-game-policy-prompt-comparison.md) — BT beartai转述XDA：Opus最初拒绝重做《宝可梦钻石》，5.5却愿协助反编译并规划Windows静态重编译；只是对话测试，未完成移植。 **[其他 AI 逆向 · 分析测试]**
 - [网游改单机：kwok分享多个flash模型与零token费用的视频自述](cases/flash-models-online-game-offline-video-report.md) — kwok分享的B站视频标题称，用几个flash模型把网游改成单机且token费用0元；未取得游戏名、实现或测试，不把flash解释成Flash游戏格式。 **[其他 AI 逆向 · 待验证]**
 - [3DS《我的世界》：转述Claude Code从机器码恢复裸眼3D](cases/minecraft-3ds-claude-stereo-restoration-report.md) — 拓跋鼠转述开发者用Claude Code在无源码的3DS《我的世界》中找到被关闭的立体渲染逻辑并重建3D画面；仍为开发中改版，未取得补丁或验证。 **[其他 AI 逆向 · 进行中]**
@@ -385,6 +387,8 @@
 
 ### 硬件与设备互通
 
+- [旧CCTV录像机改FPV录像：Claude、UART与Ghidra MCP研究报告](cases/vaizaragorn-cctv-dvr-claude-fpv-recorder.md) — whyamas转述旧DVR改FPV地面站；补读vaizaragorn七月原帖确认Claude与Ghidra MCP参与，作者保留内存、码率及高速画面限制。 **[其他 AI 逆向 · 进行中]**
+- [AirPods 3头控鼠标：转述Claude Code研究RemoteHID与Linux MTU](cases/airpods3-claude-remotehid-linux-head-mouse-report.md) — 中文复盘称Claude Code从跨项目线索找到RemoteHID与MTU差异，让AirPods 3向Linux传头部运动；200Hz、37测试与首份文档均未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [iPad mini 7救砖：Zhuoli Li称Codex研究WiFi恢复协议，抹掉而不线刷升级](cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md) — Zhuoli Li报告Nugget扩展屏幕后iPad陷入白苹果，Codex研究无线恢复传输并发送抹掉指令后救回；是清除数据的单机自述，不是无损修复或通用降级。 **[其他 AI 逆向 · 待验证]**
 - [MacBook自动充电：CryptoGem称DeepSeek研究公牛插座BLE协议，摆脱原App](cases/cryptogem-bull-ble-plug-deepseek-macbook-autocharge.md) — CryptoGem为长时间跑Agent的MacBook制作电量联动插座，称ds4.1flash逆向公牛蓝牙协议；低于20%开、绿灯显示100%关，未核验可靠性与安全。 **[其他 AI 逆向 · 进行中]**
 - [XCPE Guard：Nerdingen称Claude帮助检查和冻结Android TV固件后门](cases/nerdingen-xcpe-guard-claude-android-tv.md) — Nerdingen为自用Mecool等电视盒制作XCPE Guard，称Claude协助、无线ADB且无需root，发现并冻结后门后每日检查；未证实能清除感染或覆盖全部固件。 **[其他 AI 逆向 · 进行中]**
@@ -754,7 +758,7 @@
 - [养猫家庭的扫地机器人：用 REA 接入呕吐物识别的 idea](cases/robot-vacuum-rea-vomit-detection-idea.md) — 试用石头与科沃斯后，作者想研究机器人并补上呕吐物和污渍识别，尚未进行逆向。 **[REA · 待验证]**
 - [腌肉室控制器：Claude 项目清单中的实时仪表盘](cases/meat-curing-controller-claude-dashboard-report.md) — ChainlinkP在Claude项目串中列出逆向腌肉室控制器后制作的实时仪表盘，没有设备或协议细节。 **[其他 AI 逆向 · 待验证]**
 - [Brother 扫描按键：Claude + REA 把 Scan to PC 接到 NAS 与对象存储](cases/brother-scan-button-claude-rea-server.md) — Aurimas Niekis 发布 Go 服务替代 Brother 电脑端，扫描按键可保存到 SMB、FTP、S3 或本地；项目只报告测试 MFC-L2800DW。 **[REA]**
-- [Apple Neural Engine：Claude 辅助私有 API 研究与600M模型训练的转述](cases/apple-neural-engine-claude-training-report.md) — Vaishnavi 转述有人用 Claude 研究苹果神经引擎、绕开 CoreML 训练600M参数模型；未取得训练记录。 **[其他 AI 逆向 · 待验证]**
+- [Apple Neural Engine：Claude 辅助私有 API 研究与600M模型训练的转述](cases/apple-neural-engine-claude-training-report.md) — Vaishnavi转述600M模型训练；11月5日新帖将Claude辅助ANE私有API研究归于originalmaderix，补上作者线索，但训练仍未验证。 **[其他 AI 逆向 · 待验证]**
 - [闲置旧音箱：用 AI 逆向补 AirPlay、Chromecast 与 Spotify Connect 的 idea](cases/old-speaker-ai-casting-protocols-idea.md) — wangcheng678 想让家中旧音箱恢复价值，询问能否找回旧代码或用AI增加三个投放协议；尚未实施。 **[其他 AI 逆向 · 待验证]**
 - [旧 Android 手机：询问用 REA 研究自定义固件以延寿](cases/old-android-rea-firmware-revival-idea.md) — 读者向morluto询问能否研究旧安卓手机固件，让旧机获得第二次生命；尚无指定机型。 **[REA · 待验证]**
 - [旧款小屏 iPhone：用 AI 研究 iOS 延长使用寿命的 idea](cases/old-iphone-ios-ai-revival-idea.md) — 读者希望反编译并重写 iOS，让十年前的小屏 iPhone 继续工作；不是 iOS 到 Android 的移植成果。 **[其他 AI 逆向 · 待验证]**
@@ -855,6 +859,13 @@
 
 ### 应用与客户端
 
+- [Cindy输出设置排查：源码与Claude Code二进制中的上限不是一回事](cases/cindy-claude-code-output-limit-binary-investigation.md) — Cindy账号报告对照数据库、启动代码与CC 2.1.312二进制，区分面板384000与运行时128000上限；未独立验证常量和生效范围。 **[未确认使用 REA · 分析测试]**
+- [明子的个人博客：Codex拆解参考站布局与排版，再用Astro落地](cases/mingzi-codex-reference-layout-astro-blog.md) — 明子206称选参考站让Codex分析布局与排版，换入自有内容，以Astro＋Markdown部署Cloudflare Pages；未验证视觉一致性。 **[其他 AI 逆向 · 进行中]**
+- [Delphi VCL二进制：ZainulAbideen称本机GLM-5.3-flash配REA研究](cases/bodshah-glm-rea-delphi-vcl-binary-report.md) — 作者称前一天研究仅有二进制的Delphi VCL程序，GLM-5.3-flash在装有REA的电脑上参与；目标名与恢复结果未披露。 **[REA · 待验证]**
+- [个人笔记工具：Gabyran参考memos与flomo，定制主题并接简易Agent](cases/gabyran-memos-flomo-personal-agent-notes.md) — Gabyran在AI开发工作流回顾中称结合开源memos与闭源flomo自建笔记工具，已用其写文章；未说明具体逆向方法。 **[未确认使用 REA · 待验证]**
+- [Codex电脑操作接入Antigravity：转述Gemini研究二进制并制作Windows桥接](cases/gemini-codex-computer-use-antigravity-windows-bridge-report.md) — DKing转述Gemini 3.8不到十分钟把Codex computer-use适配成CLI／MCP桥接，包含截图兜底；没有公开基准或失败率。 **[其他 AI 逆向 · 待验证]**
+- [GitReverse：从仓库README、元数据与顶层目录生成AI重建提示](cases/gitreverse-repository-metadata-rebuild-prompts.md) — 介绍帖称GitReverse将GitHub项目参考变为Claude Code／Cursor／Codex提示；明确不读完整源码，也不恢复原作者提示词。 **[其他 AI 逆向 · 相关项目]**
+- [T3 Code底座的个人工具：Anton研究Claude／Codex布局与缓存压缩行为](cases/anton-abyzov-t3-desktop-chat-cache-rebuild.md) — Anton Abyzov称基于T3 Code，参考Claude与Codex桌面聊天布局以及Claude Code一小时缓存、空闲压缩；未核验实现或AI研究角色。 **[未确认使用 REA · 进行中]**
 - [豆包语音输入法：Frad称提取离线模型、接入在线调用并部署服务](cases/frad-doubao-voice-input-offline-online-service-report.md) — Frad报告提取豆包输入法离线模型、接入在线调用并重建业务；未说明AI研究工具、模型版本或授权，也没有一比一行为验证。 **[未确认使用 REA · 待验证]**
 - [GCSA／Aethereal研究课题：AI生成拟真蜜罐以捕获并研究攻击链](cases/gcsa-aethereal-ai-honeypot-attack-chain-research-idea.md) — 帖子介绍联合研究中心的AI欺骗蜜罐课题，计划动态生成系统诱饵、捕获并逆向攻击链；没有原型、攻击样本或检测效果。 **[其他 AI 逆向 · 待验证]**
 - [NewMax指纹浏览器集成：Yangyi称逆向后替换旧自动化工具](cases/yangyi-newmax-fingerprint-browser-integration-report.md) — Yangyi称网站拒绝NewMax内置浏览器，改为逆向集成指纹浏览器并隔离环境，未来还想接云手机；未公开浏览器名、实现或验证。 **[未确认使用 REA · 进行中]**
@@ -1577,6 +1588,8 @@
 
 ### 算法与功能重建
 
+- [Linux内核安全研究：OpenAI报告AI流水线验证948项提权漏洞并生成补丁](cases/openai-linux-kernel-948-vulnerability-pipeline-report.md) — 本窗转述称30小时跑通948个root漏洞；补查OpenAI原帖只支持项目自报验证948项、生成补丁及API费用120万美元，不等于已上游接纳。 **[其他 AI 逆向 · 分析测试]**
+- [Times Left风格短片：用Claude Opus 5.5把视觉与叙事拆成Canvas制作规格](cases/times-left-claude-canvas-motion-comic-rebuild.md) — @fuckscales分享完整风格重建提示词：HTML Canvas角色、头顶数字、逐词字幕与编码流程；零成本和播放量仅为自述，未运行渲染。 **[其他 AI 逆向 · 待验证]**
 - [Lingzhao孔雀扇：sandmrk为Muse反推21.6秒仙侠片13镜规格](cases/sandmrk-muse-lingzhao-peacock-216s-prompt.md) — sandmrk把手扇到满屏孔雀扇的特效递进拆成两段13镜，约束角色、场景与尺度连续；明确生成仍不完全匹配参考片。 **[其他 AI 逆向 · 分析测试]**
 - [眼旁V手势舞：sandmrk反推Muse的15.07秒动作规格](cases/muse-eye-v-low-point-1507s-prompt.md) — sandmrk拆解银发CG舞者的敬礼、转身、眼旁V与低位指点，给Muse两段连续生成规格；作者明确仍不能完全匹配原片。 **[其他 AI 逆向 · 分析测试]**
 - [沙漠双剑士：sandmrk反推Muse的30.4秒分镜，承认不能完全匹配](cases/sandmrk-muse-desert-swordsmen-304s-prompt.md) — sandmrk把双剑士沙漠战斗拆成三段、21镜的Muse生成规格，锁定角色、能量色与音效；作者明确生成尚不能完全还原原片。 **[其他 AI 逆向 · 分析测试]**

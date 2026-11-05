@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1729 cases & projects
+# 1742 cases & projects
 
-**Latest case update:** November 5, 2026, 20:11 · **Last maintained:** November 5, 2026, 20:11 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 6, 2026, 00:15 · **Last maintained:** November 6, 2026, 00:15 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: control your devices, preserve games, and turn observed behavior into reusable tools. Recovery can mean erasing data, not saving it; reported success still needs its limits. Dates are source or author-update dates, not collection dates.
+**10 worth reading**: control your devices, preserve games, and turn observed behavior into reusable tools. An old recorder can gain new uses without losing its hardware limits; device recovery can mean erasing data. Dates are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -31,7 +31,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 5. **[Pokémon Bank: keep transfers local on a 3DS](cases/en/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01` report and project record — Wokann explicitly credits Codex for decompilation analysis and patch work. A **public local-server patch preserves Bank/Mover workflows**, not the official backend; **no HOME transfer**. Requires your own supported titles and save backups; not run here. `In progress`
 6. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 7. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
-8. **[Anthropic-style diagrams: study the web app, keep a local Skill](cases/en/anthropic-style-diagram-claude-web-js-skill.md)** · `2026-11-05` author report; `2026-07-26` pinned project update — Erduo studies Claude's drawing-time JavaScript and publishes **an SVG/PNG workflow with layout checks and explicit semantic review**. Public docs do not prove verbatim recovery of official prompts; rendering was not run here. `In progress`
+8. **[An old CCTV DVR: record FPV without a new module](cases/en/vaizaragorn-cctv-dvr-claude-fpv-recorder.md)** · `2026-11-05` report; `2026-07-25` author update (UTC) — vaizaragorn credits **Claude, UART and Ghidra MCP research** leading to custom firmware, live viewing and AV recording. Only about 50MB of 128MB RAM is usable; limited bitrate hurts fast-motion footage. Firmware modification, not verified total replacement; not flashed here. `In progress`
 9. **[BeanScribe: choose your recorder's transcription service](cases/en/gengdaj-feishu-recorder-custom-transcription-app.md)** · `2026-11-04` author updates and project record — Yichen credits REA; **public H5/Python code connects a D3200 to Feishu**, reusing tacshi's protocol research. Single-user deployment; the first 2–4 seconds may be lost, and official quotas/firmware are unchanged. Source-available, not OSI open source; not run here. `In progress`
 10. **[iPad mini 7: recover without a forced wired upgrade](cases/en/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md)** · `2026-11-05` author report and clarifications — Zhuoli Li credits Codex with studying **WiFi recovery transport and sending an erase command** to recover a boot-looping iOS 18 iPad. **Erasing clears data**; one-device report, not lossless repair, downgrading or a compatibility guarantee. Code and protocol traces were not reviewed here. `Unverified`
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **356** |
-| [Hardware & interoperability](categories/en/hardware.md) | **467** |
-| [Applications & clients](categories/en/apps.md) | **719** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **187** |
+| [Games & preservation](categories/en/games.md) | **358** |
+| [Hardware & interoperability](categories/en/hardware.md) | **469** |
+| [Applications & clients](categories/en/apps.md) | **726** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **189** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

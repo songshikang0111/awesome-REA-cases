@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [旧CCTV录像机改FPV录像：Claude、UART与Ghidra MCP研究报告](../cases/vaizaragorn-cctv-dvr-claude-fpv-recorder.md) — whyamas转述旧DVR改FPV地面站；补读vaizaragorn七月原帖确认Claude与Ghidra MCP参与，作者保留内存、码率及高速画面限制。 **[其他 AI 逆向 · 进行中]**
+- [AirPods 3头控鼠标：转述Claude Code研究RemoteHID与Linux MTU](../cases/airpods3-claude-remotehid-linux-head-mouse-report.md) — 中文复盘称Claude Code从跨项目线索找到RemoteHID与MTU差异，让AirPods 3向Linux传头部运动；200Hz、37测试与首份文档均未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [iPad mini 7救砖：Zhuoli Li称Codex研究WiFi恢复协议，抹掉而不线刷升级](../cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md) — Zhuoli Li报告Nugget扩展屏幕后iPad陷入白苹果，Codex研究无线恢复传输并发送抹掉指令后救回；是清除数据的单机自述，不是无损修复或通用降级。 **[其他 AI 逆向 · 待验证]**
 - [MacBook自动充电：CryptoGem称DeepSeek研究公牛插座BLE协议，摆脱原App](../cases/cryptogem-bull-ble-plug-deepseek-macbook-autocharge.md) — CryptoGem为长时间跑Agent的MacBook制作电量联动插座，称ds4.1flash逆向公牛蓝牙协议；低于20%开、绿灯显示100%关，未核验可靠性与安全。 **[其他 AI 逆向 · 进行中]**
 - [XCPE Guard：Nerdingen称Claude帮助检查和冻结Android TV固件后门](../cases/nerdingen-xcpe-guard-claude-android-tv.md) — Nerdingen为自用Mecool等电视盒制作XCPE Guard，称Claude协助、无线ADB且无需root，发现并冻结后门后每日检查；未证实能清除感染或覆盖全部固件。 **[其他 AI 逆向 · 进行中]**
@@ -371,7 +373,7 @@
 - [养猫家庭的扫地机器人：用 REA 接入呕吐物识别的 idea](../cases/robot-vacuum-rea-vomit-detection-idea.md) — 试用石头与科沃斯后，作者想研究机器人并补上呕吐物和污渍识别，尚未进行逆向。 **[REA · 待验证]**
 - [腌肉室控制器：Claude 项目清单中的实时仪表盘](../cases/meat-curing-controller-claude-dashboard-report.md) — ChainlinkP在Claude项目串中列出逆向腌肉室控制器后制作的实时仪表盘，没有设备或协议细节。 **[其他 AI 逆向 · 待验证]**
 - [Brother 扫描按键：Claude + REA 把 Scan to PC 接到 NAS 与对象存储](../cases/brother-scan-button-claude-rea-server.md) — Aurimas Niekis 发布 Go 服务替代 Brother 电脑端，扫描按键可保存到 SMB、FTP、S3 或本地；项目只报告测试 MFC-L2800DW。 **[REA]**
-- [Apple Neural Engine：Claude 辅助私有 API 研究与600M模型训练的转述](../cases/apple-neural-engine-claude-training-report.md) — Vaishnavi 转述有人用 Claude 研究苹果神经引擎、绕开 CoreML 训练600M参数模型；未取得训练记录。 **[其他 AI 逆向 · 待验证]**
+- [Apple Neural Engine：Claude 辅助私有 API 研究与600M模型训练的转述](../cases/apple-neural-engine-claude-training-report.md) — Vaishnavi转述600M模型训练；11月5日新帖将Claude辅助ANE私有API研究归于originalmaderix，补上作者线索，但训练仍未验证。 **[其他 AI 逆向 · 待验证]**
 - [闲置旧音箱：用 AI 逆向补 AirPlay、Chromecast 与 Spotify Connect 的 idea](../cases/old-speaker-ai-casting-protocols-idea.md) — wangcheng678 想让家中旧音箱恢复价值，询问能否找回旧代码或用AI增加三个投放协议；尚未实施。 **[其他 AI 逆向 · 待验证]**
 - [旧 Android 手机：询问用 REA 研究自定义固件以延寿](../cases/old-android-rea-firmware-revival-idea.md) — 读者向morluto询问能否研究旧安卓手机固件，让旧机获得第二次生命；尚无指定机型。 **[REA · 待验证]**
 - [旧款小屏 iPhone：用 AI 研究 iOS 延长使用寿命的 idea](../cases/old-iphone-ios-ai-revival-idea.md) — 读者希望反编译并重写 iOS，让十年前的小屏 iPhone 继续工作；不是 iOS 到 Android 的移植成果。 **[其他 AI 逆向 · 待验证]**

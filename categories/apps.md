@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Cindy输出设置排查：源码与Claude Code二进制中的上限不是一回事](../cases/cindy-claude-code-output-limit-binary-investigation.md) — Cindy账号报告对照数据库、启动代码与CC 2.1.312二进制，区分面板384000与运行时128000上限；未独立验证常量和生效范围。 **[未确认使用 REA · 分析测试]**
+- [明子的个人博客：Codex拆解参考站布局与排版，再用Astro落地](../cases/mingzi-codex-reference-layout-astro-blog.md) — 明子206称选参考站让Codex分析布局与排版，换入自有内容，以Astro＋Markdown部署Cloudflare Pages；未验证视觉一致性。 **[其他 AI 逆向 · 进行中]**
+- [Delphi VCL二进制：ZainulAbideen称本机GLM-5.3-flash配REA研究](../cases/bodshah-glm-rea-delphi-vcl-binary-report.md) — 作者称前一天研究仅有二进制的Delphi VCL程序，GLM-5.3-flash在装有REA的电脑上参与；目标名与恢复结果未披露。 **[REA · 待验证]**
+- [个人笔记工具：Gabyran参考memos与flomo，定制主题并接简易Agent](../cases/gabyran-memos-flomo-personal-agent-notes.md) — Gabyran在AI开发工作流回顾中称结合开源memos与闭源flomo自建笔记工具，已用其写文章；未说明具体逆向方法。 **[未确认使用 REA · 待验证]**
+- [Codex电脑操作接入Antigravity：转述Gemini研究二进制并制作Windows桥接](../cases/gemini-codex-computer-use-antigravity-windows-bridge-report.md) — DKing转述Gemini 3.8不到十分钟把Codex computer-use适配成CLI／MCP桥接，包含截图兜底；没有公开基准或失败率。 **[其他 AI 逆向 · 待验证]**
+- [GitReverse：从仓库README、元数据与顶层目录生成AI重建提示](../cases/gitreverse-repository-metadata-rebuild-prompts.md) — 介绍帖称GitReverse将GitHub项目参考变为Claude Code／Cursor／Codex提示；明确不读完整源码，也不恢复原作者提示词。 **[其他 AI 逆向 · 相关项目]**
+- [T3 Code底座的个人工具：Anton研究Claude／Codex布局与缓存压缩行为](../cases/anton-abyzov-t3-desktop-chat-cache-rebuild.md) — Anton Abyzov称基于T3 Code，参考Claude与Codex桌面聊天布局以及Claude Code一小时缓存、空闲压缩；未核验实现或AI研究角色。 **[未确认使用 REA · 进行中]**
 - [豆包语音输入法：Frad称提取离线模型、接入在线调用并部署服务](../cases/frad-doubao-voice-input-offline-online-service-report.md) — Frad报告提取豆包输入法离线模型、接入在线调用并重建业务；未说明AI研究工具、模型版本或授权，也没有一比一行为验证。 **[未确认使用 REA · 待验证]**
 - [GCSA／Aethereal研究课题：AI生成拟真蜜罐以捕获并研究攻击链](../cases/gcsa-aethereal-ai-honeypot-attack-chain-research-idea.md) — 帖子介绍联合研究中心的AI欺骗蜜罐课题，计划动态生成系统诱饵、捕获并逆向攻击链；没有原型、攻击样本或检测效果。 **[其他 AI 逆向 · 待验证]**
 - [NewMax指纹浏览器集成：Yangyi称逆向后替换旧自动化工具](../cases/yangyi-newmax-fingerprint-browser-integration-report.md) — Yangyi称网站拒绝NewMax内置浏览器，改为逆向集成指纹浏览器并隔离环境，未来还想接云手机；未公开浏览器名、实现或验证。 **[未确认使用 REA · 进行中]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Creatures 2：Torben称Hermes中的REA半天研究游戏并自主养育Norn](../cases/creatures2-hermes-rea-autonomous-norn-report.md) — Torben Michaelsen称REA在Hermes中用半天研究《Creatures 2》并自行养育一只Norn；没有操作轨迹或成功标准。 **[REA · 待验证]**
+- [个人SOCOM重建：Joshua Hale称多次耗尽每周Claude额度满足怀旧需求](../cases/josh-hale-claude-socom-personal-clone-report.md) — Joshua Hale称用Claude做自己的SOCOM克隆，希望让十岁孩子体验；未披露版本、引擎、源码或可玩程度，不与SOCOM II Legacy合并。 **[其他 AI 逆向 · 待验证]**
 - [Pokémon Diamond提示词对照：转述XDA测试Claude拒绝重做但愿规划反编译与移植](../cases/xda-pokemon-diamond-claude-game-policy-prompt-comparison.md) — BT beartai转述XDA：Opus最初拒绝重做《宝可梦钻石》，5.5却愿协助反编译并规划Windows静态重编译；只是对话测试，未完成移植。 **[其他 AI 逆向 · 分析测试]**
 - [网游改单机：kwok分享多个flash模型与零token费用的视频自述](../cases/flash-models-online-game-offline-video-report.md) — kwok分享的B站视频标题称，用几个flash模型把网游改成单机且token费用0元；未取得游戏名、实现或测试，不把flash解释成Flash游戏格式。 **[其他 AI 逆向 · 待验证]**
 - [3DS《我的世界》：转述Claude Code从机器码恢复裸眼3D](../cases/minecraft-3ds-claude-stereo-restoration-report.md) — 拓跋鼠转述开发者用Claude Code在无源码的3DS《我的世界》中找到被关闭的立体渲染逻辑并重建3D画面；仍为开发中改版，未取得补丁或验证。 **[其他 AI 逆向 · 进行中]**
