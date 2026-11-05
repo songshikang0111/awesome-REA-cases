@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [旧MMO伙伴背包：Stefan Rows用REA与Ghidra研究game.dll](../cases/old-mmo-rea-ghidra-companion-backpack.md) — Stefan Rows称REA与Ghidra读取旧网游game.dll，Claude据此给离线伙伴加入拖拽背包；游戏未具名，未核对前后演示。 **[REA · 待验证]**
+- [RodelRepulle重建旧爱游戏：REA研究、Grok实现与Gemini特效分工](../cases/rodelrepulle-multimodel-rea-game-revival.md) — 作者称把Opus 5.5与GPT-6.1 Terra配REA做研究，再由Grok重建、Gemini Argon做VFX；未具名游戏，无代码或可玩性证明。 **[REA · 待验证]**
 - [Creatures 2：Torben称Hermes中的REA半天研究游戏并自主养育Norn](../cases/creatures2-hermes-rea-autonomous-norn-report.md) — Torben Michaelsen称REA在Hermes中用半天研究《Creatures 2》并自行养育一只Norn；没有操作轨迹或成功标准。 **[REA · 待验证]**
 - [个人SOCOM重建：Joshua Hale称多次耗尽每周Claude额度满足怀旧需求](../cases/josh-hale-claude-socom-personal-clone-report.md) — Joshua Hale称用Claude做自己的SOCOM克隆，希望让十岁孩子体验；未披露版本、引擎、源码或可玩程度，不与SOCOM II Legacy合并。 **[其他 AI 逆向 · 待验证]**
 - [Pokémon Diamond提示词对照：转述XDA测试Claude拒绝重做但愿规划反编译与移植](../cases/xda-pokemon-diamond-claude-game-policy-prompt-comparison.md) — BT beartai转述XDA：Opus最初拒绝重做《宝可梦钻石》，5.5却愿协助反编译并规划Windows静态重编译；只是对话测试，未完成移植。 **[其他 AI 逆向 · 分析测试]**

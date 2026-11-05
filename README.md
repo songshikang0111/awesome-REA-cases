@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive old devices, rebuild apps, preserve games, and understand hidden behavior.
 
-# 1742 cases & projects
+# 1755 cases & projects
 
-**Latest case update:** November 6, 2026, 00:15 · **Last maintained:** November 6, 2026, 00:15 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 6, 2026, 04:13 · **Last maintained:** November 6, 2026, 04:13 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: control your devices, preserve games, and turn observed behavior into reusable tools. An old recorder can gain new uses without losing its hardware limits; device recovery can mean erasing data. Dates are source or author-update dates, not collection dates.
+**10 worth reading**: control your devices, preserve games, and rebuild everyday workflows. Local dictation joins the selection with public implementation details; performance claims still need context. Dates are source or author-update dates, not collection dates.
 
 1. **[tolpo: a live 3D view of your Tapo home](cases/en/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — A Claude-assisted protocol-research report leads to **public LAN/MCP control and a human-corrected floor plan**. Reuses python-kasa; earlier project tests cover nine rooms and 18 devices, not every write or model. Local device traffic does not mean local AI. `In progress`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
 8. **[An old CCTV DVR: record FPV without a new module](cases/en/vaizaragorn-cctv-dvr-claude-fpv-recorder.md)** · `2026-11-05` report; `2026-07-25` author update (UTC) — vaizaragorn credits **Claude, UART and Ghidra MCP research** leading to custom firmware, live viewing and AV recording. Only about 50MB of 128MB RAM is usable; limited bitrate hurts fast-motion footage. Firmware modification, not verified total replacement; not flashed here. `In progress`
 9. **[BeanScribe: choose your recorder's transcription service](cases/en/gengdaj-feishu-recorder-custom-transcription-app.md)** · `2026-11-04` author updates and project record — Yichen credits REA; **public H5/Python code connects a D3200 to Feishu**, reusing tacshi's protocol research. Single-user deployment; the first 2–4 seconds may be lost, and official quotas/firmware are unchanged. Source-available, not OSI open source; not run here. `In progress`
-10. **[iPad mini 7: recover without a forced wired upgrade](cases/en/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md)** · `2026-11-05` author report and clarifications — Zhuoli Li credits Codex with studying **WiFi recovery transport and sending an erase command** to recover a boot-looping iOS 18 iPad. **Erasing clears data**; one-device report, not lossless repair, downgrading or a compatibility guarantee. Code and protocol traces were not reviewed here. `Unverified`
+10. **[Phonon: keep voice typing on your Mac](cases/en/phonon-wispr-flow-elliot-local-dictation.md)** · `2026-11-06` author report and project update (Beijing time) — Elliot Arledge credits **Wispr Flow research, DeepSeek fine-tuning and Opus-assisted development**, with public Rust/Metal code. **65ms versus about 520ms** is an M4 Max author comparison, not an independent benchmark. Initial downloads and optional update checks still need a network; Windows is a different beta path, and model licenses restrict commercial use. Not run here. `In progress`
 
 ## Classic cases
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **358** |
-| [Hardware & interoperability](categories/en/hardware.md) | **469** |
-| [Applications & clients](categories/en/apps.md) | **726** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **189** |
+| [Games & preservation](categories/en/games.md) | **360** |
+| [Hardware & interoperability](categories/en/hardware.md) | **471** |
+| [Applications & clients](categories/en/apps.md) | **734** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **190** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

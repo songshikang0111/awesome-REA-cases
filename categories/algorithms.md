@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [交通视频测速：morsen转述学生用Claude重建并出售管线](../cases/claude-traffic-radar-student-sale-report.md) — 转述称19岁学生用Claude重建实时测速、证据录像与车牌流程；20美元、一个月和55万美元出售均无合同或测试证据。 **[其他 AI 逆向 · 待验证]**
 - [Linux内核安全研究：OpenAI报告AI流水线验证948项提权漏洞并生成补丁](../cases/openai-linux-kernel-948-vulnerability-pipeline-report.md) — 本窗转述称30小时跑通948个root漏洞；补查OpenAI原帖只支持项目自报验证948项、生成补丁及API费用120万美元，不等于已上游接纳。 **[其他 AI 逆向 · 分析测试]**
 - [Times Left风格短片：用Claude Opus 5.5把视觉与叙事拆成Canvas制作规格](../cases/times-left-claude-canvas-motion-comic-rebuild.md) — @fuckscales分享完整风格重建提示词：HTML Canvas角色、头顶数字、逐词字幕与编码流程；零成本和播放量仅为自述，未运行渲染。 **[其他 AI 逆向 · 待验证]**
 - [Lingzhao孔雀扇：sandmrk为Muse反推21.6秒仙侠片13镜规格](../cases/sandmrk-muse-lingzhao-peacock-216s-prompt.md) — sandmrk把手扇到满屏孔雀扇的特效递进拆成两段13镜，约束角色、场景与尺度连续；明确生成仍不完全匹配参考片。 **[其他 AI 逆向 · 分析测试]**

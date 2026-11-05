@@ -8,9 +8,9 @@
 
 精选 **AI 逆向的项目、实验与具体想法**：让旧设备继续工作，重建应用功能，保存游戏，理解隐藏的实现。
 
-# 1742 个案例与项目
+# 1755 个案例与项目
 
-**最近案例更新：**2026 年 11 月 6 日 00:15 · **最近维护：**2026 年 11 月 6 日 00:15 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
+**最近案例更新：**2026 年 11 月 6 日 04:13 · **最近维护：**2026 年 11 月 6 日 04:13 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：自己控制设备、保存游戏，把观察到的行为做成可复用工具。旧录像机可以有新用途，但硬件限制不会消失；恢复设备也可能意味着清除数据。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：自己控制设备、保存游戏，重建日常工作流。这次加入有公开实现细节的本地听写，性能数字仍须结合测试口径阅读。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[tolpo：Tapo住宅的实时3D视图](cases/tolpo-tapo-claude-lan-3d-home-report.md)** · `2026-10-29` — 转述Claude辅助协议研究，公开**LAN/MCP控制与人工校正户型**。复用python-kasa；较早项目自测覆盖九房间、18设备，不代表所有写操作与型号。设备本地通信不等于AI本地运行。`进行中`
 2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
@@ -33,7 +33,7 @@
 7. **[MechWarrior 3：让1999年的机甲游戏跑上现代电脑](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04`报道与固定项目记录 — Owen Morgan披露**REA／Ghidra研究、逐函数C++重建**，报告以Unicorn对照原版。公开原生后端、宽屏与八人UDP联机；报道明确Linux未试玩，Pirate's Moon未支持。须自备原游戏，本合集未构建。`进行中`
 8. **[旧CCTV录像机：不买新模块也能录FPV](cases/vaizaragorn-cctv-dvr-claude-fpv-recorder.md)** · `2026-11-05`转述；`2026-07-25`作者更新（UTC） — vaizaragorn归因**Claude、UART与Ghidra MCP研究**，报告定制固件、实时查看和AV录像。128MB内存仅约50MB可用，有限码率不利高速画面；是固件修改，不是已证实全部重写，本合集未刷机。`进行中`
 9. **[豆记BeanScribe：自己选录音豆的转写服务](cases/gengdaj-feishu-recorder-custom-transcription-app.md)** · `2026-11-04`作者更新与项目记录 — 逸尘归因REA，**公开H5／Python实现把D3200接入飞书**，复用tacshi协议研究。单人部署，开头2–4秒可能丢失，未改官方额度或固件。源码可用，非OSI开源；本合集未运行。`进行中`
-10. **[iPad mini 7：不被迫线刷升级的救砖报告](cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md)** · `2026-11-05`作者报告与补充 — Zhuoli Li归因Codex研究**WiFi恢复传输协议、发送抹掉指令**，救回白苹果的iOS 18设备。**抹掉会清除数据**；单机自述，不是无损修复、降级或兼容保证，代码与协议轨迹未在这里核验。`待验证`
+10. **[Phonon：把语音输入留在Mac本地](cases/phonon-wispr-flow-elliot-local-dictation.md)** · `2026-11-06`作者报告与项目更新（北京时间） — Elliot Arledge归因**Wispr Flow研究、DeepSeek微调与Opus辅助开发**，公开Rust／Metal实现。**65ms对约520ms**是M4 Max上的作者对照，不是独立基准。首次下载及可选更新检查仍需联网；Windows是不同的beta路径，模型许可限制商业使用。本合集未运行。`进行中`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **358** |
-| [硬件与设备互通](categories/hardware.md) | **469** |
-| [应用与客户端](categories/apps.md) | **726** |
-| [算法与功能重建](categories/algorithms.md) | **189** |
+| [游戏与游戏保存](categories/games.md) | **360** |
+| [硬件与设备互通](categories/hardware.md) | **471** |
+| [应用与客户端](categories/apps.md) | **734** |
+| [算法与功能重建](categories/algorithms.md) | **190** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

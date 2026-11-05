@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [DVD机改游戏机：读者向Claude开发者询问REA可行性](../cases/dvd-player-claude-rea-game-console-idea.md) — 读者想把只能播放视频的DVD机改成可交互游戏机，提到Claude与REA；仍在问需要什么，没有改机成果。 **[REA · 待验证]**
+- [Nikon D2X色彩固件：转述Claude辅助找参数并做蓝色试验](../cases/nikon-d2x-claude-jpeg-color-firmware-report.md) — Kirill转述RAW/JPEG对照、294组28个数值与滑块预览编辑器，称刷入v2.0后输出蓝图；不等于富士风格已准确复现。 **[其他 AI 逆向 · 待验证]**
 - [旧CCTV录像机改FPV录像：Claude、UART与Ghidra MCP研究报告](../cases/vaizaragorn-cctv-dvr-claude-fpv-recorder.md) — whyamas转述旧DVR改FPV地面站；补读vaizaragorn七月原帖确认Claude与Ghidra MCP参与，作者保留内存、码率及高速画面限制。 **[其他 AI 逆向 · 进行中]**
 - [AirPods 3头控鼠标：转述Claude Code研究RemoteHID与Linux MTU](../cases/airpods3-claude-remotehid-linux-head-mouse-report.md) — 中文复盘称Claude Code从跨项目线索找到RemoteHID与MTU差异，让AirPods 3向Linux传头部运动；200Hz、37测试与首份文档均未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [iPad mini 7救砖：Zhuoli Li称Codex研究WiFi恢复协议，抹掉而不线刷升级](../cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md) — Zhuoli Li报告Nugget扩展屏幕后iPad陷入白苹果，Codex研究无线恢复传输并发送抹掉指令后救回；是清除数据的单机自述，不是无损修复或通用降级。 **[其他 AI 逆向 · 待验证]**

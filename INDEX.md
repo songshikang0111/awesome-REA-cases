@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1742 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1755 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（358）
-- [硬件与设备互通](categories/hardware.md)（469）
-- [应用与客户端](categories/apps.md)（726）
-- [算法与功能重建](categories/algorithms.md)（189）
+- [游戏与游戏保存](categories/games.md)（360）
+- [硬件与设备互通](categories/hardware.md)（471）
+- [应用与客户端](categories/apps.md)（734）
+- [算法与功能重建](categories/algorithms.md)（190）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [旧MMO伙伴背包：Stefan Rows用REA与Ghidra研究game.dll](cases/old-mmo-rea-ghidra-companion-backpack.md) — Stefan Rows称REA与Ghidra读取旧网游game.dll，Claude据此给离线伙伴加入拖拽背包；游戏未具名，未核对前后演示。 **[REA · 待验证]**
+- [RodelRepulle重建旧爱游戏：REA研究、Grok实现与Gemini特效分工](cases/rodelrepulle-multimodel-rea-game-revival.md) — 作者称把Opus 5.5与GPT-6.1 Terra配REA做研究，再由Grok重建、Gemini Argon做VFX；未具名游戏，无代码或可玩性证明。 **[REA · 待验证]**
 - [Creatures 2：Torben称Hermes中的REA半天研究游戏并自主养育Norn](cases/creatures2-hermes-rea-autonomous-norn-report.md) — Torben Michaelsen称REA在Hermes中用半天研究《Creatures 2》并自行养育一只Norn；没有操作轨迹或成功标准。 **[REA · 待验证]**
 - [个人SOCOM重建：Joshua Hale称多次耗尽每周Claude额度满足怀旧需求](cases/josh-hale-claude-socom-personal-clone-report.md) — Joshua Hale称用Claude做自己的SOCOM克隆，希望让十岁孩子体验；未披露版本、引擎、源码或可玩程度，不与SOCOM II Legacy合并。 **[其他 AI 逆向 · 待验证]**
 - [Pokémon Diamond提示词对照：转述XDA测试Claude拒绝重做但愿规划反编译与移植](cases/xda-pokemon-diamond-claude-game-policy-prompt-comparison.md) — BT beartai转述XDA：Opus最初拒绝重做《宝可梦钻石》，5.5却愿协助反编译并规划Windows静态重编译；只是对话测试，未完成移植。 **[其他 AI 逆向 · 分析测试]**
@@ -387,6 +389,8 @@
 
 ### 硬件与设备互通
 
+- [DVD机改游戏机：读者向Claude开发者询问REA可行性](cases/dvd-player-claude-rea-game-console-idea.md) — 读者想把只能播放视频的DVD机改成可交互游戏机，提到Claude与REA；仍在问需要什么，没有改机成果。 **[REA · 待验证]**
+- [Nikon D2X色彩固件：转述Claude辅助找参数并做蓝色试验](cases/nikon-d2x-claude-jpeg-color-firmware-report.md) — Kirill转述RAW/JPEG对照、294组28个数值与滑块预览编辑器，称刷入v2.0后输出蓝图；不等于富士风格已准确复现。 **[其他 AI 逆向 · 待验证]**
 - [旧CCTV录像机改FPV录像：Claude、UART与Ghidra MCP研究报告](cases/vaizaragorn-cctv-dvr-claude-fpv-recorder.md) — whyamas转述旧DVR改FPV地面站；补读vaizaragorn七月原帖确认Claude与Ghidra MCP参与，作者保留内存、码率及高速画面限制。 **[其他 AI 逆向 · 进行中]**
 - [AirPods 3头控鼠标：转述Claude Code研究RemoteHID与Linux MTU](cases/airpods3-claude-remotehid-linux-head-mouse-report.md) — 中文复盘称Claude Code从跨项目线索找到RemoteHID与MTU差异，让AirPods 3向Linux传头部运动；200Hz、37测试与首份文档均未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [iPad mini 7救砖：Zhuoli Li称Codex研究WiFi恢复协议，抹掉而不线刷升级](cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md) — Zhuoli Li报告Nugget扩展屏幕后iPad陷入白苹果，Codex研究无线恢复传输并发送抹掉指令后救回；是清除数据的单机自述，不是无损修复或通用降级。 **[其他 AI 逆向 · 待验证]**
@@ -859,6 +863,14 @@
 
 ### 应用与客户端
 
+- [Phonon：Elliot用DeepSeek与Opus重建Wispr Flow式本地听写](cases/phonon-wispr-flow-elliot-local-dictation.md) — Elliot Arledge报告研究Wispr Flow后做Phonon，公开Rust/Metal与微调流程；65ms和模型盲评是作者数据，macOS与Windows beta走不同模型路径。 **[其他 AI 逆向 · 进行中]**
+- [Facebook照片模型：Alex Choi让Claude Code研究Android应用](cases/facebook-android-claude-photo-model-investigation.md) — 作者因凌晨照片访问提示反编译Facebook v585.0.0.47.54，称发现美感、分享价值与宠物场景模型；静态能力不能证明实际扫描或上传范围。 **[其他 AI 逆向 · 待验证]**
+- [Codex computer-use：强壮的砍刀提出研究工具拒绝边界的计划](cases/codex-computer-use-reader-research-idea.md) — @KandaoMaster想研究Codex computer-use，同串谈到多个网站操作被拦并考虑用国内模型API分析；没有已完成桥接或控制实现。 **[其他 AI 逆向 · 待验证]**
+- [iOS钥匙串访问测试：读者把DarkForge研究归因Claude mythos](cases/darkforge-ios-keychain-claude-secondary-report.md) — 同串定位iOS 27.0.1 Keychain／SecItem行为测试，读者称Claude mythos参与并预测越狱；原作者短帖未确认AI或完整利用链。 **[其他 AI 逆向 · 待验证]**
+- [VM里的自改REA：读者称研究后改成个人版本以减少拒绝](cases/rea-vm-personal-modification-refusal-report.md) — 用户称在虚拟机中研究并修改REA，目标是减少其遇到的限制；无补丁、版本或测试，不能认定模型安全机制已被去除。 **[未确认使用 REA · 待验证]**
+- [BMO编码平台：gabe称用REA研究Codex、Claude Code与Xcode](cases/gabe-bmo-rea-coding-platform-report.md) — gabe自述结合三款开发工具的研究结果构建带3D桌面角色的BMO；尚无源码或功能对照，未来开源不能写成已发布。 **[REA · 待验证]**
+- [Claude Duet安装卡片：宝玉触发Skill安装后询问skill_propose机制](cases/dotey-claude-duet-skill-propose-behavior-study.md) — 宝玉报告提交Skill观察安装更新卡片，再让Duet解释如何在自有项目重建；skill_propose来自Agent解释，不等于取到内部源码。 **[其他 AI 逆向 · 分析测试]**
+- [Instagram Edits：Erik Martin计划研究Mac版以做AI编辑](cases/erikmartin-instagram-edits-ai-editing-idea.md) — Erik Martin在Edits for Mac讨论中说下一步逆向它做AI编辑；仅计划，未披露协议、模型或实现。 **[未确认使用 REA · 待验证]**
 - [Cindy输出设置排查：源码与Claude Code二进制中的上限不是一回事](cases/cindy-claude-code-output-limit-binary-investigation.md) — Cindy账号报告对照数据库、启动代码与CC 2.1.312二进制，区分面板384000与运行时128000上限；未独立验证常量和生效范围。 **[未确认使用 REA · 分析测试]**
 - [明子的个人博客：Codex拆解参考站布局与排版，再用Astro落地](cases/mingzi-codex-reference-layout-astro-blog.md) — 明子206称选参考站让Codex分析布局与排版，换入自有内容，以Astro＋Markdown部署Cloudflare Pages；未验证视觉一致性。 **[其他 AI 逆向 · 进行中]**
 - [Delphi VCL二进制：ZainulAbideen称本机GLM-5.3-flash配REA研究](cases/bodshah-glm-rea-delphi-vcl-binary-report.md) — 作者称前一天研究仅有二进制的Delphi VCL程序，GLM-5.3-flash在装有REA的电脑上参与；目标名与恢复结果未披露。 **[REA · 待验证]**
@@ -940,8 +952,8 @@
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
-- [zeroauthy：OccupySaaS的Auth0兼容身份服务，完整替代仍是目标](cases/occupysaas-auth0-ai-cleanroom-report.md) — 转述称失业工程师用AI重建Auth0；公开zeroauthy按文档与开放标准做身份服务，列出SDK自测与尚待MFA、企业协议等路线，不是全量兼容认证。 **[其他 AI 逆向 · 进行中]**
-- [SalesCompel：OccupySaaS的Salesforce替代候选，文档明确未生产就绪](cases/occupysaas-salesforce-ai-cleanroom-report.md) — AI重建Salesforce的转述对应公开Go/PostgreSQL和Vue早期实现；项目明确只接受局部walking slice与十一场景参考基线，未通过完整里程碑或兼容认证。 **[其他 AI 逆向 · 进行中]**
+- [zeroauthy：OccupySaaS的Auth0兼容身份服务，完整替代仍是目标](cases/occupysaas-auth0-ai-cleanroom-report.md) — 公开zeroauthy按文档与开放标准重建Auth0身份服务；11月6日转述称已出rc.1并给Claude提交统计，仍早期预览，未证明全量兼容或生产可用。 **[其他 AI 逆向 · 进行中]**
+- [SalesCompel：OccupySaaS的Salesforce替代候选，文档明确未生产就绪](cases/occupysaas-salesforce-ai-cleanroom-report.md) — AI重建Salesforce对应早期Go/PostgreSQL与Vue项目；11月6日新转述仍只谈账号和联系人，旧文档局部验收不等于完整兼容或生产可用。 **[其他 AI 逆向 · 进行中]**
 - [Jackson li的Claude Code逆向：明确使用REA做个人Agent，自称可用但能力不足](cases/jacksonli-claude-code-ai-research.md) — Jackson li从继续研究进展到称终于可用，并明确用REA做专属Agent；同窗又评价能力不太行，没有代码或功能对照，不能认定完整复刻。 **[REA · 进行中]**
 - [SpeakMore：REA研究Typeless后重写语音输入，离线与翻译能力须区分](cases/speakmore-rea-typeless-voice-input-report.md) — 转述称18篇Typeless逆向笔记带来SpeakMore；公开项目区分本机听写、联网整理与翻译，不能把月约1美元或整套功能离线当成验证。 **[REA · 进行中]**
 - [两款付费软件的REA体验：awinloss估计重建80%至90%，仍需人工改动](cases/awinloss-rea-two-paid-app-rebuild-test.md) — 作者报告在两款未具名付费软件上试用REA并自行修改，认为不能100%重建；百分比无测量标准，Claude限制也只是本次体验。 **[REA · 分析测试]**
@@ -1588,6 +1600,7 @@
 
 ### 算法与功能重建
 
+- [交通视频测速：morsen转述学生用Claude重建并出售管线](cases/claude-traffic-radar-student-sale-report.md) — 转述称19岁学生用Claude重建实时测速、证据录像与车牌流程；20美元、一个月和55万美元出售均无合同或测试证据。 **[其他 AI 逆向 · 待验证]**
 - [Linux内核安全研究：OpenAI报告AI流水线验证948项提权漏洞并生成补丁](cases/openai-linux-kernel-948-vulnerability-pipeline-report.md) — 本窗转述称30小时跑通948个root漏洞；补查OpenAI原帖只支持项目自报验证948项、生成补丁及API费用120万美元，不等于已上游接纳。 **[其他 AI 逆向 · 分析测试]**
 - [Times Left风格短片：用Claude Opus 5.5把视觉与叙事拆成Canvas制作规格](cases/times-left-claude-canvas-motion-comic-rebuild.md) — @fuckscales分享完整风格重建提示词：HTML Canvas角色、头顶数字、逐词字幕与编码流程；零成本和播放量仅为自述，未运行渲染。 **[其他 AI 逆向 · 待验证]**
 - [Lingzhao孔雀扇：sandmrk为Muse反推21.6秒仙侠片13镜规格](cases/sandmrk-muse-lingzhao-peacock-216s-prompt.md) — sandmrk把手扇到满屏孔雀扇的特效递进拆成两段13镜，约束角色、场景与尺度连续；明确生成仍不完全匹配参考片。 **[其他 AI 逆向 · 分析测试]**
