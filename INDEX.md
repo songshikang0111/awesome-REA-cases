@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1721 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1729 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（355）
-- [硬件与设备互通](categories/hardware.md)（465）
-- [应用与客户端](categories/apps.md)（714）
+- [游戏与游戏保存](categories/games.md)（356）
+- [硬件与设备互通](categories/hardware.md)（467）
+- [应用与客户端](categories/apps.md)（719）
 - [算法与功能重建](categories/algorithms.md)（187）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Pokémon Diamond提示词对照：转述XDA测试Claude拒绝重做但愿规划反编译与移植](cases/xda-pokemon-diamond-claude-game-policy-prompt-comparison.md) — BT beartai转述XDA：Opus最初拒绝重做《宝可梦钻石》，5.5却愿协助反编译并规划Windows静态重编译；只是对话测试，未完成移植。 **[其他 AI 逆向 · 分析测试]**
 - [网游改单机：kwok分享多个flash模型与零token费用的视频自述](cases/flash-models-online-game-offline-video-report.md) — kwok分享的B站视频标题称，用几个flash模型把网游改成单机且token费用0元；未取得游戏名、实现或测试，不把flash解释成Flash游戏格式。 **[其他 AI 逆向 · 待验证]**
 - [3DS《我的世界》：转述Claude Code从机器码恢复裸眼3D](cases/minecraft-3ds-claude-stereo-restoration-report.md) — 拓跋鼠转述开发者用Claude Code在无源码的3DS《我的世界》中找到被关闭的立体渲染逻辑并重建3D画面；仍为开发中改版，未取得补丁或验证。 **[其他 AI 逆向 · 进行中]**
 - [3DS《泰拉瑞亚》：转述Claude Code辅助增加分层景深](cases/terraria-3ds-claude-layered-depth-report.md) — 与Minecraft恢复旧逻辑不同，拓跋鼠称原本无立体效果的3DS Terraria也被加上分层景深；开发中展示不等于完整立体渲染已验证。 **[其他 AI 逆向 · 进行中]**
@@ -384,6 +385,8 @@
 
 ### 硬件与设备互通
 
+- [iPad mini 7救砖：Zhuoli Li称Codex研究WiFi恢复协议，抹掉而不线刷升级](cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md) — Zhuoli Li报告Nugget扩展屏幕后iPad陷入白苹果，Codex研究无线恢复传输并发送抹掉指令后救回；是清除数据的单机自述，不是无损修复或通用降级。 **[其他 AI 逆向 · 待验证]**
+- [MacBook自动充电：CryptoGem称DeepSeek研究公牛插座BLE协议，摆脱原App](cases/cryptogem-bull-ble-plug-deepseek-macbook-autocharge.md) — CryptoGem为长时间跑Agent的MacBook制作电量联动插座，称ds4.1flash逆向公牛蓝牙协议；低于20%开、绿灯显示100%关，未核验可靠性与安全。 **[其他 AI 逆向 · 进行中]**
 - [XCPE Guard：Nerdingen称Claude帮助检查和冻结Android TV固件后门](cases/nerdingen-xcpe-guard-claude-android-tv.md) — Nerdingen为自用Mecool等电视盒制作XCPE Guard，称Claude协助、无线ADB且无需root，发现并冻结后门后每日检查；未证实能清除感染或覆盖全部固件。 **[其他 AI 逆向 · 进行中]**
 - [备用红米手机：明子206开始用Codex核查监控担忧](cases/redmi-codex-monitoring-investigation-report.md) — 明子206看到红米监控指控后，称正用Codex逆向分析自用备用机；尚无型号、目标组件或调查结论，担忧不是监控证据。 **[其他 AI 逆向 · 进行中]**
 - [汽车OBD设置idea：想让AI研究原厂调试软件能改的选项](cases/ai-obd-vendor-settings-research-idea.md) — 发帖者想用AI逆向OBD，因为部分设置能通过厂商调试软件修改；没有车型、选项、协议或实际实现。 **[其他 AI 逆向 · 待验证]**
@@ -852,6 +855,11 @@
 
 ### 应用与客户端
 
+- [豆包语音输入法：Frad称提取离线模型、接入在线调用并部署服务](cases/frad-doubao-voice-input-offline-online-service-report.md) — Frad报告提取豆包输入法离线模型、接入在线调用并重建业务；未说明AI研究工具、模型版本或授权，也没有一比一行为验证。 **[未确认使用 REA · 待验证]**
+- [GCSA／Aethereal研究课题：AI生成拟真蜜罐以捕获并研究攻击链](cases/gcsa-aethereal-ai-honeypot-attack-chain-research-idea.md) — 帖子介绍联合研究中心的AI欺骗蜜罐课题，计划动态生成系统诱饵、捕获并逆向攻击链；没有原型、攻击样本或检测效果。 **[其他 AI 逆向 · 待验证]**
+- [NewMax指纹浏览器集成：Yangyi称逆向后替换旧自动化工具](cases/yangyi-newmax-fingerprint-browser-integration-report.md) — Yangyi称网站拒绝NewMax内置浏览器，改为逆向集成指纹浏览器并隔离环境，未来还想接云手机；未公开浏览器名、实现或验证。 **[未确认使用 REA · 进行中]**
+- [Supabase重建转述：老林称12个Claude Agent并行六小时，成果公开](cases/laolin-supabase-twelve-claude-agents-reconstruction-report.md) — 老林在路上称12个Claude Agent六小时逆向Supabase并公开可复用项目；未取得仓库地址、范围和测试，不与欧盟版idea混作同一实现。 **[其他 AI 逆向 · 待验证]**
+- [Instinct记忆黑盒拆解：Awake转述Git、Markdown、grep及隔夜抽取](cases/instinct-memory-git-markdown-grep-blackbox-secondary-report.md) — Awake据Dhravya Shah黑盒研究介绍Instinct分层Markdown、Git历史、grep检索及约24小时异步抽取，明确未见源码且部分为推断。 **[未确认使用 REA · 待验证]**
 - [Anthropic风格图表Skill：耳朵观察Claude绘图时的JS加载来重建规范](cases/anthropic-style-diagram-claude-web-js-skill.md) — 耳朵称通过Claude画SVG时的额外JS加载及向Claude询问文件，整理为公开图表Skill；固定文档支持SVG／PNG和版式审计，但不证明逐字恢复官方提示词。 **[其他 AI 逆向 · 进行中]**
 - [Packet直播中的订阅服务拆解：Jesse称Josh用Claude／REA，两天约200美元](cases/packet-jesse-josh-rea-subscription-service-rebuild-report.md) — Packet直播转录里，Jesse称正在拆解已订阅三年的每月200美元服务，Josh把它交给Claude和REA；两天、约200美元是口述估计，服务名及实现未公开。 **[REA · 进行中]**
 - [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 中文帖子转述CERT-In预警，将CRAFTY FALCON使用AI渗透工具与支付App逆向、改包及非法出款关联；未取得原预警或AI操作记录，不将归因和损失当已核实事实。 **[其他 AI 逆向 · 待验证]**
@@ -923,7 +931,7 @@
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
 - [zeroauthy：OccupySaaS的Auth0兼容身份服务，完整替代仍是目标](cases/occupysaas-auth0-ai-cleanroom-report.md) — 转述称失业工程师用AI重建Auth0；公开zeroauthy按文档与开放标准做身份服务，列出SDK自测与尚待MFA、企业协议等路线，不是全量兼容认证。 **[其他 AI 逆向 · 进行中]**
 - [SalesCompel：OccupySaaS的Salesforce替代候选，文档明确未生产就绪](cases/occupysaas-salesforce-ai-cleanroom-report.md) — AI重建Salesforce的转述对应公开Go/PostgreSQL和Vue早期实现；项目明确只接受局部walking slice与十一场景参考基线，未通过完整里程碑或兼容认证。 **[其他 AI 逆向 · 进行中]**
-- [Jackson li的Claude Code逆向：进行中声明与同串AI归因](cases/jacksonli-claude-code-ai-research.md) — 作者说继续研究Claude Code，并在同串明确都是AI干活；没有描述所恢复机制、版本或代码，不与其他作者的Claude Code项目合并。 **[其他 AI 逆向 · 进行中]**
+- [Jackson li的Claude Code逆向：明确使用REA做个人Agent，自称可用但能力不足](cases/jacksonli-claude-code-ai-research.md) — Jackson li从继续研究进展到称终于可用，并明确用REA做专属Agent；同窗又评价能力不太行，没有代码或功能对照，不能认定完整复刻。 **[REA · 进行中]**
 - [SpeakMore：REA研究Typeless后重写语音输入，离线与翻译能力须区分](cases/speakmore-rea-typeless-voice-input-report.md) — 转述称18篇Typeless逆向笔记带来SpeakMore；公开项目区分本机听写、联网整理与翻译，不能把月约1美元或整套功能离线当成验证。 **[REA · 进行中]**
 - [两款付费软件的REA体验：awinloss估计重建80%至90%，仍需人工改动](cases/awinloss-rea-two-paid-app-rebuild-test.md) — 作者报告在两款未具名付费软件上试用REA并自行修改，认为不能100%重建；百分比无测量标准，Claude限制也只是本次体验。 **[REA · 分析测试]**
 - [Apptonic增长拆解：Cedric Roberge用竞品数据研究广告，提出Claude MCP查询](cases/apptonic-claude-mcp-app-growth-research-workflow.md) — 作者描述从手工刷竞品内容转向Apptonic数据研究，列出Claude MCP查询健康App、长投广告与创作者的具体idea；不是软件反编译，营收不归因于AI。 **[其他 AI 逆向 · 进行中]**
@@ -1575,7 +1583,7 @@
 - [Juicebox的AEO：反推AI搜索偏好的页面格式与品牌叙事](cases/juicebox-ai-search-citation-behavior-aeo-report.md) — jam转述Juicebox观察ChatGPT／Perplexity引用后改内容，声称两月4500+注册；没有查询集或流量证据，不称恢复算法或证明因果。 **[未确认使用 REA · 待验证]**
 - [图像水印idea：Zhi Wei从LSB噪点推测GPT／Gemini水印可逆](cases/synthid-gpt-gemini-lsb-noise-watermark-reversal-idea.md) — 作者称LSB查看器看到规律噪点并转述他人取得疑似噪点图，设想逆向去水印；未证明噪点为SynthID，或已恢复算法。 **[其他 AI 逆向 · 待验证]**
 - [部分加密文件恢复：macintosh转述Claude分析首16KB并逐格式抢救](cases/macintosh-claude-partial-ransomware-file-recovery-report.md) — 700文件的二手恢复故事新增SketchUp三个未文档化结构的说法；65%是不同质量的可用／抢救合计，仍非完整恢复或破解AES／RSA。 **[其他 AI 逆向 · 待验证]**
-- [BenchCAD2.0转述：评估3D零件、装配与PCB连接重建](cases/benchcad2-openai-3d-pcb-reconstruction-benchmark-report.md) — 二手硬件报道给出内部模型0.875、Astra最高推理0.594，并描述几何与连接重建任务；缺原始题集、评分定义和运行记录。 **[其他 AI 逆向 · 待验证]**
+- [BenchCAD2.0转述：评估3D零件、装配与PCB连接重建](cases/benchcad2-openai-3d-pcb-reconstruction-benchmark-report.md) — 二手报道给出内部模型0.875、Astra最高推理0.594；新来源补充Core为六任务100个留出样本，输入含图纸、渲染和PCB图像，仍缺原始评分与运行记录。 **[其他 AI 逆向 · 待验证]**
 - [Simon Willison本地Qwen实验：转述裸权重识别四游戏，答对三个](cases/simon-willison-qwen-local-game-weight-identification.md) — 新闻称Willison在笔记本用17GB Qwen3.8 27B读浮点数、禁写代码，四游戏认对三；未取得原实验。 **[其他 AI 逆向 · 待验证]**
 - [Alysha的视频编辑：拆解自己的流程后转成AI系统](cases/alysha-ai-video-editing-workflow-reconstruction.md) — 活动帖称alyshadotmd将编辑方法转成AI系统，全职工作之外每周发九条Instagram；没有实现记录。 **[其他 AI 逆向 · 待验证]**
 - [FVCOM海洋模型：转述Gemini/Antigravity用59分钟重建Rust核心](cases/fvcom-gemini-antigravity-rust-core-migration-report.md) — viest转述从Fortran核心恢复架构后重写Rust并以100种子对拍；性能、六个bug与覆盖率未取原记录。 **[其他 AI 逆向 · 待验证]**

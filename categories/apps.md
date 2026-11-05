@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [豆包语音输入法：Frad称提取离线模型、接入在线调用并部署服务](../cases/frad-doubao-voice-input-offline-online-service-report.md) — Frad报告提取豆包输入法离线模型、接入在线调用并重建业务；未说明AI研究工具、模型版本或授权，也没有一比一行为验证。 **[未确认使用 REA · 待验证]**
+- [GCSA／Aethereal研究课题：AI生成拟真蜜罐以捕获并研究攻击链](../cases/gcsa-aethereal-ai-honeypot-attack-chain-research-idea.md) — 帖子介绍联合研究中心的AI欺骗蜜罐课题，计划动态生成系统诱饵、捕获并逆向攻击链；没有原型、攻击样本或检测效果。 **[其他 AI 逆向 · 待验证]**
+- [NewMax指纹浏览器集成：Yangyi称逆向后替换旧自动化工具](../cases/yangyi-newmax-fingerprint-browser-integration-report.md) — Yangyi称网站拒绝NewMax内置浏览器，改为逆向集成指纹浏览器并隔离环境，未来还想接云手机；未公开浏览器名、实现或验证。 **[未确认使用 REA · 进行中]**
+- [Supabase重建转述：老林称12个Claude Agent并行六小时，成果公开](../cases/laolin-supabase-twelve-claude-agents-reconstruction-report.md) — 老林在路上称12个Claude Agent六小时逆向Supabase并公开可复用项目；未取得仓库地址、范围和测试，不与欧盟版idea混作同一实现。 **[其他 AI 逆向 · 待验证]**
+- [Instinct记忆黑盒拆解：Awake转述Git、Markdown、grep及隔夜抽取](../cases/instinct-memory-git-markdown-grep-blackbox-secondary-report.md) — Awake据Dhravya Shah黑盒研究介绍Instinct分层Markdown、Git历史、grep检索及约24小时异步抽取，明确未见源码且部分为推断。 **[未确认使用 REA · 待验证]**
 - [Anthropic风格图表Skill：耳朵观察Claude绘图时的JS加载来重建规范](../cases/anthropic-style-diagram-claude-web-js-skill.md) — 耳朵称通过Claude画SVG时的额外JS加载及向Claude询问文件，整理为公开图表Skill；固定文档支持SVG／PNG和版式审计，但不证明逐字恢复官方提示词。 **[其他 AI 逆向 · 进行中]**
 - [Packet直播中的订阅服务拆解：Jesse称Josh用Claude／REA，两天约200美元](../cases/packet-jesse-josh-rea-subscription-service-rebuild-report.md) — Packet直播转录里，Jesse称正在拆解已订阅三年的每月200美元服务，Josh把它交给Claude和REA；两天、约200美元是口述估计，服务名及实现未公开。 **[REA · 进行中]**
 - [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](../cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 中文帖子转述CERT-In预警，将CRAFTY FALCON使用AI渗透工具与支付App逆向、改包及非法出款关联；未取得原预警或AI操作记录，不将归因和损失当已核实事实。 **[其他 AI 逆向 · 待验证]**
@@ -73,7 +78,7 @@
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
 - [zeroauthy：OccupySaaS的Auth0兼容身份服务，完整替代仍是目标](../cases/occupysaas-auth0-ai-cleanroom-report.md) — 转述称失业工程师用AI重建Auth0；公开zeroauthy按文档与开放标准做身份服务，列出SDK自测与尚待MFA、企业协议等路线，不是全量兼容认证。 **[其他 AI 逆向 · 进行中]**
 - [SalesCompel：OccupySaaS的Salesforce替代候选，文档明确未生产就绪](../cases/occupysaas-salesforce-ai-cleanroom-report.md) — AI重建Salesforce的转述对应公开Go/PostgreSQL和Vue早期实现；项目明确只接受局部walking slice与十一场景参考基线，未通过完整里程碑或兼容认证。 **[其他 AI 逆向 · 进行中]**
-- [Jackson li的Claude Code逆向：进行中声明与同串AI归因](../cases/jacksonli-claude-code-ai-research.md) — 作者说继续研究Claude Code，并在同串明确都是AI干活；没有描述所恢复机制、版本或代码，不与其他作者的Claude Code项目合并。 **[其他 AI 逆向 · 进行中]**
+- [Jackson li的Claude Code逆向：明确使用REA做个人Agent，自称可用但能力不足](../cases/jacksonli-claude-code-ai-research.md) — Jackson li从继续研究进展到称终于可用，并明确用REA做专属Agent；同窗又评价能力不太行，没有代码或功能对照，不能认定完整复刻。 **[REA · 进行中]**
 - [SpeakMore：REA研究Typeless后重写语音输入，离线与翻译能力须区分](../cases/speakmore-rea-typeless-voice-input-report.md) — 转述称18篇Typeless逆向笔记带来SpeakMore；公开项目区分本机听写、联网整理与翻译，不能把月约1美元或整套功能离线当成验证。 **[REA · 进行中]**
 - [两款付费软件的REA体验：awinloss估计重建80%至90%，仍需人工改动](../cases/awinloss-rea-two-paid-app-rebuild-test.md) — 作者报告在两款未具名付费软件上试用REA并自行修改，认为不能100%重建；百分比无测量标准，Claude限制也只是本次体验。 **[REA · 分析测试]**
 - [Apptonic增长拆解：Cedric Roberge用竞品数据研究广告，提出Claude MCP查询](../cases/apptonic-claude-mcp-app-growth-research-workflow.md) — 作者描述从手工刷竞品内容转向Apptonic数据研究，列出Claude MCP查询健康App、长投广告与创作者的具体idea；不是软件反编译，营收不归因于AI。 **[其他 AI 逆向 · 进行中]**

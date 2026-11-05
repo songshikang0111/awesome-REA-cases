@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [iPad mini 7救砖：Zhuoli Li称Codex研究WiFi恢复协议，抹掉而不线刷升级](../cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md) — Zhuoli Li报告Nugget扩展屏幕后iPad陷入白苹果，Codex研究无线恢复传输并发送抹掉指令后救回；是清除数据的单机自述，不是无损修复或通用降级。 **[其他 AI 逆向 · 待验证]**
+- [MacBook自动充电：CryptoGem称DeepSeek研究公牛插座BLE协议，摆脱原App](../cases/cryptogem-bull-ble-plug-deepseek-macbook-autocharge.md) — CryptoGem为长时间跑Agent的MacBook制作电量联动插座，称ds4.1flash逆向公牛蓝牙协议；低于20%开、绿灯显示100%关，未核验可靠性与安全。 **[其他 AI 逆向 · 进行中]**
 - [XCPE Guard：Nerdingen称Claude帮助检查和冻结Android TV固件后门](../cases/nerdingen-xcpe-guard-claude-android-tv.md) — Nerdingen为自用Mecool等电视盒制作XCPE Guard，称Claude协助、无线ADB且无需root，发现并冻结后门后每日检查；未证实能清除感染或覆盖全部固件。 **[其他 AI 逆向 · 进行中]**
 - [备用红米手机：明子206开始用Codex核查监控担忧](../cases/redmi-codex-monitoring-investigation-report.md) — 明子206看到红米监控指控后，称正用Codex逆向分析自用备用机；尚无型号、目标组件或调查结论，担忧不是监控证据。 **[其他 AI 逆向 · 进行中]**
 - [汽车OBD设置idea：想让AI研究原厂调试软件能改的选项](../cases/ai-obd-vendor-settings-research-idea.md) — 发帖者想用AI逆向OBD，因为部分设置能通过厂商调试软件修改；没有车型、选项、协议或实际实现。 **[其他 AI 逆向 · 待验证]**
