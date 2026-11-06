@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](../cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**
+- [Kindle Scribe：Luis称Claude指导既有越狱和USB远程控制](../cases/luis-kindle-scribe-claude-vera-usb-root-report.md) — Luis报告Claude指导其称为vera的PDF越狱，并建立USB root控制；替换操作系统或固件仍是想法，无代码和设备日志。 **[其他 AI 逆向 · 进行中]**
 - [行李箱App消失后：Diego用Codex、REA和JADX恢复称重与蓝牙锁](../cases/codex-rea-jadx-suitcase-iphone-app.md) — Diego报告研究旧Android APK、实机测试蓝牙命令，再做SwiftUI iPhone替代App；约一小时与称重、开锁等功能均为作者自述，箱型与源码未披露。 **[REA · 进行中]**
 - [Owlet旧婴儿袜：Wes Bos让Agent研究无基站血氧读取](../cases/wesbos-owlet-sock-agent-pulse-oximeter-report.md) — 读者转述Wes Bos用Agent研究自有Owlet袜式传感器，以免购买约200美元持续血氧仪；作者只称读数似接近Apple Watch，未仔细校验。 **[其他 AI 逆向 · 待验证]**
 - [便携电源站串口调查：读者转述leopardracer的Claude遥测指控](../cases/leopardracer-claude-power-station-serial-telemetry-allegation.md) — 回复者称赞Claude研究USB串口；母帖指控600W电源站含蜂窝模块并外传生活规律，但无原始日志、型号或独立验证，品牌归属也未确认。 **[其他 AI 逆向 · 待验证]**

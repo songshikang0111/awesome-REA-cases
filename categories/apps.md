@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [rust_ASC：供Agent按需查询APK与DEX的无状态反编译器](../cases/rust-asc-agent-android-stateless-decompiler.md) — Dopax推荐MG1937的Rust安卓分析工具；公开文档提供CLI与MCP按类反编译和交叉引用，性能数字是项目自测，非完整语义正确性证明。 **[其他 AI 逆向 · 相关项目]**
+- [ChatGPT客户端接本地模型：samantha称Gemini argon与REA重建界面](../cases/samantha-gemini-rea-chatgpt-local-sandbox-client.md) — samantha称Gemini argon以REA研究ChatGPT App后接向本地ML sandbox，界面近似且更快；平台、代码与性能记录未给。 **[REA · 待验证]**
 - [Phonon：Elliot用DeepSeek与Opus重建Wispr Flow式本地听写](../cases/phonon-wispr-flow-elliot-local-dictation.md) — Elliot Arledge报告研究Wispr Flow后做Phonon，公开Rust/Metal与微调流程；65ms和模型盲评是作者数据，macOS与Windows beta走不同模型路径。 **[其他 AI 逆向 · 进行中]**
 - [Facebook照片模型：Alex Choi让Claude Code研究Android应用](../cases/facebook-android-claude-photo-model-investigation.md) — 作者因凌晨照片访问提示反编译Facebook v585.0.0.47.54，称发现美感、分享价值与宠物场景模型；静态能力不能证明实际扫描或上传范围。 **[其他 AI 逆向 · 待验证]**
 - [Codex computer-use：强壮的砍刀提出研究工具拒绝边界的计划](../cases/codex-computer-use-reader-research-idea.md) — @KandaoMaster想研究Codex computer-use，同串谈到多个网站操作被拦并考虑用国内模型API分析；没有已完成桥接或控制实现。 **[其他 AI 逆向 · 待验证]**
@@ -49,7 +51,7 @@
 - [Diyar波斯语键盘：M.A.H称反编译后用AI审视输入服务风险](../cases/diyar-persian-keyboard-ai-decompilation-security-review.md) — 作者报告拆WiX／MSI与.NET9，称AI将Diyar识别为拼写和翻译助手而非木马，同时质疑键盘hook、TSF与密码处理；未核验代码或真实外传。 **[其他 AI 逆向 · 待验证]**
 - [Ivo的英语练习软件：称用REA研究收费产品后做自用版本](../cases/ivo-rea-english-practice-app-rebuild-report.md) — Ivo以学英语不想付多份软件费为动机，称REA帮助制作功能相近的自用版本；未命名产品、提供源码或验证练习功能。 **[REA · 待验证]**
 - [巴西银行费用idea：Jason问能否用REA做免手续费App](../cases/jason-brazil-bank-fee-free-rea-app-idea.md) — Jason因巴西银行收费高提出REA重建应用的疑问；没有银行、接口或实现，客户端替代不证明可免除服务端费用。 **[REA · 待验证]**
-- [三台手机的SystemHelper调查：西野bird称Codex辅助发现录屏路径](../cases/xiyebird-systemhelper-codex-three-phone-screen-capture-allegation.md) — 作者称Codex／adb／逆向工具检查三个Ultra机型并发现录屏和平台转发，未给调用链、流量或触发条件；不确认未经授权外传或品牌责任。 **[其他 AI 逆向 · 待验证]**
+- [三台手机的SystemHelper调查：西野bird称Codex辅助发现录屏路径](../cases/xiyebird-systemhelper-codex-three-phone-screen-capture-allegation.md) — 录屏与平台转发仍为作者指控，缺调用链、流量和触发证据；新增读者对能耗、编码与消融的质疑，未确认其具体引用报告。 **[其他 AI 逆向 · 待验证]**
 - [Spotify Jam：Denis称用REA与The Streaming Service展示替代版本](../cases/denis-spotify-jam-rea-streaming-service-report.md) — 作者针对Spotify Jam闭源性质发布REA相关演示，提到The Streaming Service；未取得源码或同步测试，不称已开源Spotify后端。 **[REA · 待验证]**
 - [YC浏览器Agent：Jay称逆向后用OpenCode SDK替换编排层](../cases/jay-yc-browser-agent-opencode-deepseek-rebuild.md) — Jay称研究未命名的YC浏览器Agent，换编排层以使用DeepSeek；没有目标名、代码或运行记录，不核实不限量说法。 **[其他 AI 逆向 · 待验证]**
 - [Granola替代实验：REA与Claude Code花22.30美元做出原型，一天后仍保留订阅](../cases/darragh-granola-rea-claude-rebuild-maintenance-test.md) — Darragh Lucey称61分钟交互做出约八成的会议笔记原型，但试用一天持续故障与转写出错，维护成本令他没有取消Granola。 **[REA · 分析测试]**
@@ -370,7 +372,7 @@
 - [苹果备忘录到口播工具：麦当用REA研究本地笔记，补上模板、时长估算与提词器](../cases/maidang-apple-notes-rea-teleprompter-tool.md) — 麦当mdldm报告让AI调研Apple Notes本地笔记后制作自用工具，加入选题模板、口播时长估算和全屏提词器，并称当期视频即用该工具拍摄。 **[REA · 待验证]**
 - [one-exit：据REA客户端研究整理Claude多端统一出口模板，不等于还原完整风控](../cases/one-exit-claude-rea-routing-telemetry-report.md) — 候选将wquguru的one-exit归因为REA研究；公开文档确有三种代理客户端模板，把Claude及认证、支付和遥测流量归于同一出口，但不证明完整服务端封号规则或防封效果。 **[REA · 相关项目]**
 - [Vibe Vision Video：让Agent从参考视频重建Remotion模板](../cases/vibe-vision-video-reference-remotion-templates.md) — Bing Bryan介绍vvv以Remotion组件供Agent选模板、填素材和渲染自检，并提出把参考视频重建为代码模板；无具体参考片或输出对照。 **[其他 AI 逆向 · 待验证]**
-- [REA中的Rust Ghidra移植：Nicolas Krassas分享Java对照早期基准标题](../cases/rea-ghidra-rust-port-early-benchmarks.md) — Nicolas Krassas分享REA中进行中的Ghidra Rust移植与Java对照基准标题；未取得基准配置、数值或完整文章，不推断提速比例或功能对等。 **[REA · 相关项目]**
+- [REA Rust与原生Ghidra worker：公开移植文档补足早期基准线索](../cases/rea-ghidra-rust-port-early-benchmarks.md) — EveryDev.ai介绍Rust REA；补读nanashili/rea-rust固定文档，确认无Node运行时与无JVM worker的项目设计，同时保留重复请求更慢、大Go样本失败等自测边界。 **[REA · 相关项目]**
 - [OpenRea想法：用REA研究Claude Code，再以reaCode重做](../cases/openrea-claude-code-reacode-idea.md) — 一条回复提出用REA逆向Claude Code、发布名为OpenRea且使用reaCode的替代品；尚无具体功能规格、实现或测试。 **[REA · 待验证]**
 - [Amiga narrator：TypeScript重写并把自由软件语音回移AROS的自述](../cases/bitplane-ai-amiga-narrator-aros.md) — bitplane称在AI辅助AMOS工作中重写Amiga narrator，再把自由软件语音回移到AROS，报告可在真实Amiga运行；未取得设备或语音测试记录。 **[其他 AI 逆向 · 待验证]**
 - [旧磁盘镜像：bitplane用客体VM读取历史系统，并保存重建工具链](../cases/bitplane-ai-obscure-disk-vm-mount.md) — bitplane报告AI辅助制作在客体VM挂载旧镜像的工具，为历史研究读取失传系统数据；称可在Linux构建多种系统、保存源码和输出，未独立重建。 **[其他 AI 逆向 · 待验证]**

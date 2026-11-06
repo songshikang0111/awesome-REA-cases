@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [CFB自定义重建：读者期待AI反编译后也能在越狱主机运行](../cases/cfb-ai-custom-game-jailbroken-console-idea.md) — system error提出研究EA的CFB、重建带自定义内容的新游戏，并让目标不只限PC；是预测与愿望，无版本、代码或运行结果。 **[其他 AI 逆向 · 相关项目]**
+- [OptiScaler：读者称既有游戏Mod项目开始使用AI](../cases/optiscaler-ai-adoption-reader-report.md) — Orçun Altundağ在游戏逆向讨论中点名OptiScaler采用AI；公开仓库描述跨GPU超分与补帧用途，但没有AI具体贡献或测试证据。 **[其他 AI 逆向 · 待验证]**
 - [小游戏逻辑定位：BNK试用REA，得到尚未验证的两个文件](../cases/bnk-rea-minigame-logic-extraction-report.md) — BNK报告给REA一个终端提示定位小游戏逻辑，一小时多返回两个看似正确文件；安装加研究两次提示共耗10万token，未给游戏名与正确性测试。 **[REA · 待验证]**
 - [旧MMO伙伴背包：Stefan Rows用REA与Ghidra研究game.dll](../cases/old-mmo-rea-ghidra-companion-backpack.md) — Stefan Rows称REA与Ghidra读取旧网游game.dll，Claude据此给离线伙伴加入拖拽背包；游戏未具名，未核对前后演示。 **[REA · 待验证]**
 - [RodelRepulle重建旧爱游戏：REA研究、Grok实现与Gemini特效分工](../cases/rodelrepulle-multimodel-rea-game-revival.md) — 作者称把Opus 5.5与GPT-6.1 Terra配REA做研究，再由Grok重建、Gemini Argon做VFX；未具名游戏，无代码或可玩性证明。 **[REA · 待验证]**

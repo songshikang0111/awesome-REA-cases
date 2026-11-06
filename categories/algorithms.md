@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [置乱MNIST：Claude与Codex从像素相关性恢复空间排列](../cases/robert-lange-permuted-mnist-agent-spatial-prior.md) — Robert Lange报告两种Agent恢复784像素的隐藏排列后直接编程权重，Claude准确率88.8%、Codex87.0%；是作者实验，不是独立复现。 **[其他 AI 逆向 · 分析测试]**
+- [群晖Btrfs scrub：Delete提出借AI时代的逆向重建校验功能](../cases/synology-btrfs-scrub-ai-reconstruction-idea.md) — Delete希望研究群晖的Btrfs数据校验机制并借鉴到另一实现；没有Agent操作、代码或校验实验。 **[未确认使用 REA · 相关项目]**
+- [MIDI音乐拆解：armistice让Opus用DAW、Gemini听音，复杂内容仍困难](../cases/armistice-opus-gemini-midi-daw-investigation.md) — armistice在作曲工具讨论中报告用Opus和Gemini研究MIDI；没有指定曲目、DAW或质量对照，不升级为自动作曲成功。 **[其他 AI 逆向 · 进行中]**
 - [Polymarket体育双边套利：Crypto老鹰称用Opus重建交易逻辑](../cases/polymarket-sports-dual-side-opus-strategy-report.md) — Crypto老鹰称研究7877笔体育市场交易、用Claude Opus4.6重建双边套利与五步Bot架构；61.9万美元收益及每小时83美元均为未核实推广数字。 **[其他 AI 逆向 · 待验证]**
 - [交通视频测速：morsen转述学生用Claude重建并出售管线](../cases/claude-traffic-radar-student-sale-report.md) — 转述称19岁学生用Claude重建实时测速、证据录像与车牌流程；20美元、一个月和55万美元出售均无合同或测试证据。 **[其他 AI 逆向 · 待验证]**
 - [Linux内核安全研究：OpenAI报告AI流水线验证948项提权漏洞并生成补丁](../cases/openai-linux-kernel-948-vulnerability-pipeline-report.md) — 本窗转述称30小时跑通948个root漏洞；补查OpenAI原帖只支持项目自报验证948项、生成补丁及API费用120万美元，不等于已上游接纳。 **[其他 AI 逆向 · 分析测试]**
