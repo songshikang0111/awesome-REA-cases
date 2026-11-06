@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1755 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1760 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（360）
-- [硬件与设备互通](categories/hardware.md)（471）
+- [游戏与游戏保存](categories/games.md)（361）
+- [硬件与设备互通](categories/hardware.md)（474）
 - [应用与客户端](categories/apps.md)（734）
-- [算法与功能重建](categories/algorithms.md)（190）
+- [算法与功能重建](categories/algorithms.md)（191）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [小游戏逻辑定位：BNK试用REA，得到尚未验证的两个文件](cases/bnk-rea-minigame-logic-extraction-report.md) — BNK报告给REA一个终端提示定位小游戏逻辑，一小时多返回两个看似正确文件；安装加研究两次提示共耗10万token，未给游戏名与正确性测试。 **[REA · 待验证]**
 - [旧MMO伙伴背包：Stefan Rows用REA与Ghidra研究game.dll](cases/old-mmo-rea-ghidra-companion-backpack.md) — Stefan Rows称REA与Ghidra读取旧网游game.dll，Claude据此给离线伙伴加入拖拽背包；游戏未具名，未核对前后演示。 **[REA · 待验证]**
 - [RodelRepulle重建旧爱游戏：REA研究、Grok实现与Gemini特效分工](cases/rodelrepulle-multimodel-rea-game-revival.md) — 作者称把Opus 5.5与GPT-6.1 Terra配REA做研究，再由Grok重建、Gemini Argon做VFX；未具名游戏，无代码或可玩性证明。 **[REA · 待验证]**
 - [Creatures 2：Torben称Hermes中的REA半天研究游戏并自主养育Norn](cases/creatures2-hermes-rea-autonomous-norn-report.md) — Torben Michaelsen称REA在Hermes中用半天研究《Creatures 2》并自行养育一只Norn；没有操作轨迹或成功标准。 **[REA · 待验证]**
@@ -389,6 +390,9 @@
 
 ### 硬件与设备互通
 
+- [行李箱App消失后：Diego用Codex、REA和JADX恢复称重与蓝牙锁](cases/codex-rea-jadx-suitcase-iphone-app.md) — Diego报告研究旧Android APK、实机测试蓝牙命令，再做SwiftUI iPhone替代App；约一小时与称重、开锁等功能均为作者自述，箱型与源码未披露。 **[REA · 进行中]**
+- [Owlet旧婴儿袜：Wes Bos让Agent研究无基站血氧读取](cases/wesbos-owlet-sock-agent-pulse-oximeter-report.md) — 读者转述Wes Bos用Agent研究自有Owlet袜式传感器，以免购买约200美元持续血氧仪；作者只称读数似接近Apple Watch，未仔细校验。 **[其他 AI 逆向 · 待验证]**
+- [便携电源站串口调查：读者转述leopardracer的Claude遥测指控](cases/leopardracer-claude-power-station-serial-telemetry-allegation.md) — 回复者称赞Claude研究USB串口；母帖指控600W电源站含蜂窝模块并外传生活规律，但无原始日志、型号或独立验证，品牌归属也未确认。 **[其他 AI 逆向 · 待验证]**
 - [DVD机改游戏机：读者向Claude开发者询问REA可行性](cases/dvd-player-claude-rea-game-console-idea.md) — 读者想把只能播放视频的DVD机改成可交互游戏机，提到Claude与REA；仍在问需要什么，没有改机成果。 **[REA · 待验证]**
 - [Nikon D2X色彩固件：转述Claude辅助找参数并做蓝色试验](cases/nikon-d2x-claude-jpeg-color-firmware-report.md) — Kirill转述RAW/JPEG对照、294组28个数值与滑块预览编辑器，称刷入v2.0后输出蓝图；不等于富士风格已准确复现。 **[其他 AI 逆向 · 待验证]**
 - [旧CCTV录像机改FPV录像：Claude、UART与Ghidra MCP研究报告](cases/vaizaragorn-cctv-dvr-claude-fpv-recorder.md) — whyamas转述旧DVR改FPV地面站；补读vaizaragorn七月原帖确认Claude与Ghidra MCP参与，作者保留内存、码率及高速画面限制。 **[其他 AI 逆向 · 进行中]**
@@ -1600,6 +1604,7 @@
 
 ### 算法与功能重建
 
+- [Polymarket体育双边套利：Crypto老鹰称用Opus重建交易逻辑](cases/polymarket-sports-dual-side-opus-strategy-report.md) — Crypto老鹰称研究7877笔体育市场交易、用Claude Opus4.6重建双边套利与五步Bot架构；61.9万美元收益及每小时83美元均为未核实推广数字。 **[其他 AI 逆向 · 待验证]**
 - [交通视频测速：morsen转述学生用Claude重建并出售管线](cases/claude-traffic-radar-student-sale-report.md) — 转述称19岁学生用Claude重建实时测速、证据录像与车牌流程；20美元、一个月和55万美元出售均无合同或测试证据。 **[其他 AI 逆向 · 待验证]**
 - [Linux内核安全研究：OpenAI报告AI流水线验证948项提权漏洞并生成补丁](cases/openai-linux-kernel-948-vulnerability-pipeline-report.md) — 本窗转述称30小时跑通948个root漏洞；补查OpenAI原帖只支持项目自报验证948项、生成补丁及API费用120万美元，不等于已上游接纳。 **[其他 AI 逆向 · 分析测试]**
 - [Times Left风格短片：用Claude Opus 5.5把视觉与叙事拆成Canvas制作规格](cases/times-left-claude-canvas-motion-comic-rebuild.md) — @fuckscales分享完整风格重建提示词：HTML Canvas角色、头顶数字、逐词字幕与编码流程；零成本和播放量仅为自述，未运行渲染。 **[其他 AI 逆向 · 待验证]**

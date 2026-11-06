@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1755 entries**, organized by use case, without a Top-N or popularity threshold.
+**1760 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (360)
-- [Hardware and interoperability](categories/en/hardware.md) (471)
+- [Games and preservation](categories/en/games.md) (361)
+- [Hardware and interoperability](categories/en/hardware.md) (474)
 - [Applications and clients](categories/en/apps.md) (734)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (190)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (191)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Locating minigame logic: BNK tries REA and gets two unvalidated files](cases/en/bnk-rea-minigame-logic-extraction-report.md) — BNK reports one terminal prompt locating minigame logic with REA and two plausible-looking files after just over an hour. Two prompts including installation reportedly used 100,000 tokens; game and correctness tests are absent. **[REA · Needs verification]**
 - [An old MMO companion backpack: Stefan Rows studies game.dll with REA and Ghidra](cases/en/old-mmo-rea-ghidra-companion-backpack.md) — Stefan Rows reports REA/Ghidra research into an old MMO's game.dll and Claude adding a drag-and-drop backpack for offline companions. The game is unnamed and the comparison was not verified. **[REA · Needs verification]**
 - [RodelRepulle's favorite-game revival: REA research, Grok implementation and Gemini effects](cases/en/rodelrepulle-multimodel-rea-game-revival.md) — The author pairs Opus 5.5 and GPT-6.1 Terra with REA for research, Grok for reconstruction and Gemini Argon for VFX. The game is unnamed, without source or playability evidence. **[REA · Needs verification]**
 - [Creatures 2: Torben reports REA in Hermes studying the game and raising a Norn in half a day](cases/en/creatures2-hermes-rea-autonomous-norn-report.md) — Torben Michaelsen reports REA in Hermes reverse-engineering Creatures 2 and independently raising a Norn in half a day. No action trace or success criteria are supplied. **[REA · Needs verification]**
@@ -391,6 +392,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [After the suitcase app disappears: Diego uses Codex, REA and JADX to recover weighing and Bluetooth locks](cases/en/codex-rea-jadx-suitcase-iphone-app.md) — Diego reports studying an old Android APK, testing Bluetooth commands on the suitcase and building a SwiftUI iPhone replacement. About an hour and the weighing/lock features are author claims; model and source are undisclosed. **[REA · In progress]**
+- [An old Owlet baby sock: Wes Bos asks an agent to study readings without a base station](cases/en/wesbos-owlet-sock-agent-pulse-oximeter-report.md) — A reader relays Wes Bos's agent-assisted study of an owned Owlet sock to avoid a roughly $200 continuous pulse oximeter. Wes only says readings seem close to an Apple Watch and have not been checked carefully. **[Other AI-assisted work · Needs verification]**
+- [Portable power-station serial investigation: a reader relays leopardracer's Claude telemetry allegations](cases/en/leopardracer-claude-power-station-serial-telemetry-allegation.md) — A reply praises Claude's USB serial research. The parent alleges cellular telemetry in a 600W power station, but raw logs, model and independent checks are absent; even brand attribution is unconfirmed. **[Other AI-assisted work · Needs verification]**
 - [A DVD player as a game console: a reader asks Claude developers about REA feasibility](cases/en/dvd-player-claude-rea-game-console-idea.md) — A reader wants a video-only DVD player to become an interactive console and mentions Claude and REA. This is a question about requirements, not a completed modification. **[REA · Needs verification]**
 - [Nikon D2X color firmware: a report of Claude-assisted parameter research and a blue-image test](cases/en/nikon-d2x-claude-jpeg-color-firmware-report.md) — Kirill relays RAW/JPEG comparisons, 294 sets of 28 values and a live-preview slider editor, with blue images after flashing v2.0. This does not establish an accurate Fujifilm look. **[Other AI-assisted work · Needs verification]**
 - [An old CCTV DVR as an FPV recorder: Claude, UART and Ghidra MCP research reports](cases/en/vaizaragorn-cctv-dvr-claude-fpv-recorder.md) — whyamas relays a DVR-to-FPV ground-station conversion. The developer's July posts establish Claude/Ghidra MCP involvement and retain memory, bitrate and fast-motion limitations. **[Other AI-assisted work · In progress]**
@@ -1602,6 +1606,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Polymarket sports arbitrage on both sides: Crypto Laoying reports rebuilding trade logic with Opus](cases/en/polymarket-sports-dual-side-opus-strategy-report.md) — Crypto Laoying claims to study 7,877 sports-market trades and reconstruct dual-side arbitrage and a five-step bot architecture with Claude Opus 4.6. The $619,000 return and $83/hour are unverified promotional figures. **[Other AI-assisted work · Needs verification]**
 - [Traffic-video speed detection: morsen relays a student's Claude-assisted rebuild and sale](cases/en/claude-traffic-radar-student-sale-report.md) — A retelling claims a 19-year-old used Claude for real-time speeding, evidence clips and plate reading. The $20, one-month and $550,000-sale claims lack contracts or test evidence. **[Other AI-assisted work · Needs verification]**
 - [Linux kernel security research: OpenAI reports an AI pipeline validating 948 privilege-escalation flaws and generating patches](cases/en/openai-linux-kernel-948-vulnerability-pipeline-report.md) — A retelling claims 948 working root exploits in 30 hours. OpenAI's earlier post supports its report of 948 validated findings and generated patches at $1.2 million API cost, not upstream acceptance. **[Other AI-assisted work · Analysis test]**
 - [Times Left-style shorts: Claude Opus 5.5 turns visuals and story beats into a Canvas production specification](cases/en/times-left-claude-canvas-motion-comic-rebuild.md) — @fuckscales shares a full reconstruction prompt for HTML Canvas characters, floating numbers, word-timed captions and encoding. Zero cost and view counts remain attributed claims; rendering was not run. **[Other AI-assisted work · Needs verification]**
