@@ -560,7 +560,7 @@
 - [Notion：追清复制文字和图片的内部链路](../cases/notion-clipboard.md) — 追踪桌面客户端复制文字和图片的实现路径。 **[REA]**
 - [Flutter App：从安装包识别运行时和编译结构](../cases/flutter-aot.md) — 识别 Flutter APK 的运行时、构建与 AOT 结构。 **[REA]**
 - [网站重建订单：作者自述的交付报告](../cases/website-rebuild-report.md) — 作者称以 REA 辅助网站重建，缺少具体项目与验证。 **[REA · 待验证]**
-- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](../cases/tradingview-workflow.md) — REA流程未证明恢复付费指标；husosong新增第一人称安装异常、AI检查与重装经历，仍未证明特定仓库恶意、实际窃密或与原重建项目同源。 **[REA · 待验证]**
+- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](../cases/tradingview-workflow.md) — FideEtFortitudine新增Codex／REA约8小时研究TradingView的自述，无功能范围或验证；既有重建流程与下载风险经历分别保留，不证明付费指标恢复或特定项目恶意。 **[REA · 待验证]**
 - [WHOOP：分析健康追踪设备的 Android App](../cases/whoop-apk.md) — APK 分析线索新增 Zhoop / NOOP 替代客户端的二手报告，尚未独立验证。 **[未确认使用 REA · 待验证]**
 - [ArtCraft：不要把从零开发写成逆向 Adobe](../cases/artcraft-boundary.md) — ArtCraft是从零重建的早期创作与Office风格套件；新增Filmcraft像Premiere的用户体验说法，不证明已完整逆向或等价。 **[其他 AI 逆向 · 相关项目]**
 - [Obsidian：真实桌面包的大规模分析测试](../cases/obsidian-asar.md) — 用户确认原 ASAR 包可完成分析，但没有具体功能重建。 **[REA · 分析测试]**

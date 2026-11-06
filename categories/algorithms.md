@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [雾林汉服回眸肖像：sandmrk反推构图、色板与服饰提示词](../cases/sandmrk-hanfu-misty-forest-portrait-prompt.md) — sandmrk公开从参考图反推的竖幅人像提示词，拆解回眸姿态、发式、刺绣和冷月光；明确生成结果不能完全匹配原图，仍需优化。 **[未确认使用 REA · 分析测试]**
+- [从问答反推知识库提示词：Ben让Codex自评分、迭代到近似效果](../cases/ben-codex-knowledgebase-qa-prompt-reconstruction.md) — Ben称用Codex部署开源知识库，再用几个问答样例与自评分迭代重建提示词，效果几乎一致；产品、原提示词与对照评测未公开。 **[其他 AI 逆向 · 待验证]**
 - [置乱MNIST：Claude与Codex从像素相关性恢复空间排列](../cases/robert-lange-permuted-mnist-agent-spatial-prior.md) — Robert Lange报告两种Agent恢复784像素的隐藏排列后直接编程权重，Claude准确率88.8%、Codex87.0%；是作者实验，不是独立复现。 **[其他 AI 逆向 · 分析测试]**
 - [群晖Btrfs scrub：Delete提出借AI时代的逆向重建校验功能](../cases/synology-btrfs-scrub-ai-reconstruction-idea.md) — Delete希望研究群晖的Btrfs数据校验机制并借鉴到另一实现；没有Agent操作、代码或校验实验。 **[未确认使用 REA · 相关项目]**
 - [MIDI音乐拆解：armistice让Opus用DAW、Gemini听音，复杂内容仍困难](../cases/armistice-opus-gemini-midi-daw-investigation.md) — armistice在作曲工具讨论中报告用Opus和Gemini研究MIDI；没有指定曲目、DAW或质量对照，不升级为自动作曲成功。 **[其他 AI 逆向 · 进行中]**

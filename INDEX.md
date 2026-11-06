@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1769 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1774 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（363）
-- [硬件与设备互通](categories/hardware.md)（476）
+- [游戏与游戏保存](categories/games.md)（364）
+- [硬件与设备互通](categories/hardware.md)（478）
 - [应用与客户端](categories/apps.md)（736）
-- [算法与功能重建](categories/algorithms.md)（194）
+- [算法与功能重建](categories/algorithms.md)（196）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [游戏引擎重实现遇到剧情阻断：George Gorzhiyev称Claude正在修复](cases/george-gorzhiyev-claude-engine-story-blocker.md) — George Gorzhiyev报告自己的游戏引擎重实现出现阻断剧情的严重缺陷，Claude正在处理；未具名游戏、引擎、代码和修复结果。 **[其他 AI 逆向 · 进行中]**
 - [CFB自定义重建：读者期待AI反编译后也能在越狱主机运行](cases/cfb-ai-custom-game-jailbroken-console-idea.md) — system error提出研究EA的CFB、重建带自定义内容的新游戏，并让目标不只限PC；是预测与愿望，无版本、代码或运行结果。 **[其他 AI 逆向 · 相关项目]**
 - [OptiScaler：读者称既有游戏Mod项目开始使用AI](cases/optiscaler-ai-adoption-reader-report.md) — Orçun Altundağ在游戏逆向讨论中点名OptiScaler采用AI；公开仓库描述跨GPU超分与补帧用途，但没有AI具体贡献或测试证据。 **[其他 AI 逆向 · 待验证]**
 - [小游戏逻辑定位：BNK试用REA，得到尚未验证的两个文件](cases/bnk-rea-minigame-logic-extraction-report.md) — BNK报告给REA一个终端提示定位小游戏逻辑，一小时多返回两个看似正确文件；安装加研究两次提示共耗10万token，未给游戏名与正确性测试。 **[REA · 待验证]**
@@ -392,6 +393,8 @@
 
 ### 硬件与设备互通
 
+- [破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本](cases/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty报告GPT用ScanRuler工具从破损铸件的3D扫描生成首版副本，承认底部法兰更厚、细节仍粗；尚无打印、装配或尺寸验证。 **[其他 AI 逆向 · 进行中]**
+- [Mac显卡驱动互通设想：Shivam Jain建议Claude与REA，移植说法待核实](cases/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain建议Claude搭配REA做GPU互通，援引未具名NVIDIA驱动到Mac的说法，并提Huawei开放替代与AMD固件合作；没有项目或硬件验证。 **[REA · 待验证]**
 - [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**
 - [Kindle Scribe：Luis称Claude指导既有越狱和USB远程控制](cases/luis-kindle-scribe-claude-vera-usb-root-report.md) — Luis报告Claude指导其称为vera的PDF越狱，并建立USB root控制；替换操作系统或固件仍是想法，无代码和设备日志。 **[其他 AI 逆向 · 进行中]**
 - [行李箱App消失后：Diego用Codex、REA和JADX恢复称重与蓝牙锁](cases/codex-rea-jadx-suitcase-iphone-app.md) — Diego报告研究旧Android APK、实机测试蓝牙命令，再做SwiftUI iPhone替代App；约一小时与称重、开锁等功能均为作者自述，箱型与源码未披露。 **[REA · 进行中]**
@@ -1429,7 +1432,7 @@
 - [Notion：追清复制文字和图片的内部链路](cases/notion-clipboard.md) — 追踪桌面客户端复制文字和图片的实现路径。 **[REA]**
 - [Flutter App：从安装包识别运行时和编译结构](cases/flutter-aot.md) — 识别 Flutter APK 的运行时、构建与 AOT 结构。 **[REA]**
 - [网站重建订单：作者自述的交付报告](cases/website-rebuild-report.md) — 作者称以 REA 辅助网站重建，缺少具体项目与验证。 **[REA · 待验证]**
-- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](cases/tradingview-workflow.md) — REA流程未证明恢复付费指标；husosong新增第一人称安装异常、AI检查与重装经历，仍未证明特定仓库恶意、实际窃密或与原重建项目同源。 **[REA · 待验证]**
+- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](cases/tradingview-workflow.md) — FideEtFortitudine新增Codex／REA约8小时研究TradingView的自述，无功能范围或验证；既有重建流程与下载风险经历分别保留，不证明付费指标恢复或特定项目恶意。 **[REA · 待验证]**
 - [WHOOP：分析健康追踪设备的 Android App](cases/whoop-apk.md) — APK 分析线索新增 Zhoop / NOOP 替代客户端的二手报告，尚未独立验证。 **[未确认使用 REA · 待验证]**
 - [ArtCraft：不要把从零开发写成逆向 Adobe](cases/artcraft-boundary.md) — ArtCraft是从零重建的早期创作与Office风格套件；新增Filmcraft像Premiere的用户体验说法，不证明已完整逆向或等价。 **[其他 AI 逆向 · 相关项目]**
 - [Obsidian：真实桌面包的大规模分析测试](cases/obsidian-asar.md) — 用户确认原 ASAR 包可完成分析，但没有具体功能重建。 **[REA · 分析测试]**
@@ -1610,6 +1613,8 @@
 
 ### 算法与功能重建
 
+- [雾林汉服回眸肖像：sandmrk反推构图、色板与服饰提示词](cases/sandmrk-hanfu-misty-forest-portrait-prompt.md) — sandmrk公开从参考图反推的竖幅人像提示词，拆解回眸姿态、发式、刺绣和冷月光；明确生成结果不能完全匹配原图，仍需优化。 **[未确认使用 REA · 分析测试]**
+- [从问答反推知识库提示词：Ben让Codex自评分、迭代到近似效果](cases/ben-codex-knowledgebase-qa-prompt-reconstruction.md) — Ben称用Codex部署开源知识库，再用几个问答样例与自评分迭代重建提示词，效果几乎一致；产品、原提示词与对照评测未公开。 **[其他 AI 逆向 · 待验证]**
 - [置乱MNIST：Claude与Codex从像素相关性恢复空间排列](cases/robert-lange-permuted-mnist-agent-spatial-prior.md) — Robert Lange报告两种Agent恢复784像素的隐藏排列后直接编程权重，Claude准确率88.8%、Codex87.0%；是作者实验，不是独立复现。 **[其他 AI 逆向 · 分析测试]**
 - [群晖Btrfs scrub：Delete提出借AI时代的逆向重建校验功能](cases/synology-btrfs-scrub-ai-reconstruction-idea.md) — Delete希望研究群晖的Btrfs数据校验机制并借鉴到另一实现；没有Agent操作、代码或校验实验。 **[未确认使用 REA · 相关项目]**
 - [MIDI音乐拆解：armistice让Opus用DAW、Gemini听音，复杂内容仍困难](cases/armistice-opus-gemini-midi-daw-investigation.md) — armistice在作曲工具讨论中报告用Opus和Gemini研究MIDI；没有指定曲目、DAW或质量对照，不升级为自动作曲成功。 **[其他 AI 逆向 · 进行中]**

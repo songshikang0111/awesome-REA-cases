@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1769 entries**, organized by use case, without a Top-N or popularity threshold.
+**1774 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (363)
-- [Hardware and interoperability](categories/en/hardware.md) (476)
+- [Games and preservation](categories/en/games.md) (364)
+- [Hardware and interoperability](categories/en/hardware.md) (478)
 - [Applications and clients](categories/en/apps.md) (736)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (194)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (196)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Story progression blocked in an engine reimplementation: George Gorzhiyev says Claude is working on it](cases/en/george-gorzhiyev-claude-engine-story-blocker.md) — George Gorzhiyev reports a severe story-progression bug in a personal game-engine reimplementation, with Claude working on it. Game, engine, code and a successful fix are not identified. **[Other AI-assisted work · In progress]**
 - [A custom CFB rebuild: a reader hopes AI decompilation will reach jailbroken consoles](cases/en/cfb-ai-custom-game-jailbroken-console-idea.md) — system error proposes studying EA's CFB, rebuilding a game with custom content and targeting more than PCs. This is a prediction and wish, without a version, code or execution result. **[Other AI-assisted work · Related project]**
 - [OptiScaler: a reader reports AI adoption in an established game-mod project](cases/en/optiscaler-ai-adoption-reader-report.md) — Orçun Altundağ names OptiScaler as an older mod adopting AI. Its public repository describes cross-GPU upscaling and frame generation, but specific AI contributions and tests are absent. **[Other AI-assisted work · Needs verification]**
 - [Locating minigame logic: BNK tries REA and gets two unvalidated files](cases/en/bnk-rea-minigame-logic-extraction-report.md) — BNK reports one terminal prompt locating minigame logic with REA and two plausible-looking files after just over an hour. Two prompts including installation reportedly used 100,000 tokens; game and correctness tests are absent. **[REA · Needs verification]**
@@ -394,6 +395,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [A broken ZAMAK casting: Rusty reports GPT rebuilding a printable copy with ScanRuler](cases/en/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty says GPT used ScanRuler on a broken casting's 3D scan to make a first copy, with a thicker base flange and rough details. Printing, fit and dimensional accuracy remain unverified. **[Other AI-assisted work · In progress]**
+- [A Mac GPU-driver interoperability idea: Shivam Jain proposes Claude and REA, without verified port evidence](cases/en/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain suggests Claude with REA for GPU interoperability, citing an unnamed NVIDIA-to-Mac port and Huawei open alternatives or AMD firmware cooperation. No project or hardware validation is supplied. **[REA · Needs verification]**
 - [Xiaomi 17 Pro Max root adaptation: an agent reportedly works from public vulnerability research](cases/en/xiaomi17-pro-max-agent-root-adaptation-report.md) — 0xjackkk credits an agent for a Xiaomi 17 Pro Max adaptation, but device names and CVE identifiers differ within the post. Vulnerability mapping, compatibility and successful rooting remain unverified. **[Other AI-assisted work · Needs verification]**
 - [Kindle Scribe: Luis reports Claude guidance through an existing jailbreak and USB remote control](cases/en/luis-kindle-scribe-claude-vera-usb-root-report.md) — Luis says Claude guided a PDF-based jailbreak named vera and established USB root control. Replacing the OS or firmware remains an idea, without code or device logs. **[Other AI-assisted work · In progress]**
 - [After the suitcase app disappears: Diego uses Codex, REA and JADX to recover weighing and Bluetooth locks](cases/en/codex-rea-jadx-suitcase-iphone-app.md) — Diego reports studying an old Android APK, testing Bluetooth commands on the suitcase and building a SwiftUI iPhone replacement. About an hour and the weighing/lock features are author claims; model and source are undisclosed. **[REA · In progress]**
@@ -1431,7 +1434,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Notion: clipboard paths](cases/en/notion-clipboard.md) — Trace static copy-text and copy-image paths across Electron processes. **[REA]**
 - [Flutter: build identity and AOT structure](cases/en/flutter-aot.md) — Identify runtime/build clues in real APKs, not complete Dart source. **[REA]**
 - [Website rebuild: delivery report](cases/en/website-rebuild-report.md) — A reported REA-assisted job without detailed target or acceptance evidence. **[REA · Needs verification]**
-- [TradingView: evidence limits of reconstruction workflows and free-Premium download warnings](cases/en/tradingview-workflow.md) — REA workflows do not establish recovery of paid indicators. husosong adds a first-person account of an abnormal installation, AI checks and a reinstall, not proof of a malicious repository, actual theft or identity with earlier rebuilds. **[REA · Needs verification]**
+- [TradingView: evidence limits of reconstruction workflows and free-Premium download warnings](cases/en/tradingview-workflow.md) — FideEtFortitudine adds an author report of about eight hours studying TradingView with Codex/REA, without feature scope or validation. Earlier workflows and download-risk experiences remain distinct, proving neither paid-indicator recovery nor a particular project's maliciousness. **[REA · Needs verification]**
 - [WHOOP Android app investigation](cases/en/whoop-apk.md) — An APK lead now accompanied by a secondary Zhoop/NOOP client report; local iPhone use and Claude Code protocol work are attributed, not independently verified. **[REA use unconfirmed · Needs verification]**
 - [ArtCraft: not proven Adobe or Office reverse engineering](cases/en/artcraft-boundary.md) — ArtCraft is an early creative/Office-style suite built from scratch. A new user's Filmcraft/Premiere comparison does not establish complete reverse engineering or parity. **[Other AI-assisted work · Related project]**
 - [Obsidian ASAR: large-package analysis](cases/en/obsidian-asar.md) — The user confirms analysis completed, without a demonstrated feature rebuild. **[REA · Analysis test]**
@@ -1612,6 +1615,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [A misty-forest hanfu portrait: sandmrk reconstructs composition, palette and costume prompts](cases/en/sandmrk-hanfu-misty-forest-portrait-prompt.md) — sandmrk publishes a reference-derived vertical portrait prompt covering a backward glance, hair, embroidery and cool moonlight, explicitly saying generated results do not fully match the original and need refinement. **[REA use unconfirmed · Analysis test]**
+- [Inferring a knowledge-base prompt from Q&A: Ben reports Codex self-scoring and iteration](cases/en/ben-codex-knowledgebase-qa-prompt-reconstruction.md) — Ben says Codex deployed an open-source knowledge base, then used a few Q&A examples and self-scored iterations to infer a prompt with nearly matching behavior. Product, original prompt and comparative evaluation are undisclosed. **[Other AI-assisted work · Needs verification]**
 - [Permuted MNIST: Claude and Codex infer spatial layout from pixel correlations](cases/en/robert-lange-permuted-mnist-agent-spatial-prior.md) — Robert Lange reports agents recovering a hidden 784-pixel permutation before programming classifier weights: 88.8% for Claude and 87.0% for Codex. This is an author experiment, not independent reproduction. **[Other AI-assisted work · Analysis test]**
 - [Synology Btrfs scrub: Delete proposes studying its integrity-checking behavior in the AI era](cases/en/synology-btrfs-scrub-ai-reconstruction-idea.md) — Delete wants Synology's Btrfs scrub implementation studied and borrowed for another implementation. No agent execution, code or integrity experiment is reported. **[REA use unconfirmed · Related project]**
 - [MIDI investigation: armistice gives Opus a DAW and Gemini listening access, with complex material still difficult](cases/en/armistice-opus-gemini-midi-daw-investigation.md) — armistice reports using Opus and Gemini to investigate MIDI in a composition-tool discussion. No track, named DAW or quality comparison is supplied; successful autonomous composition is not established. **[Other AI-assisted work · In progress]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本](../cases/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty报告GPT用ScanRuler工具从破损铸件的3D扫描生成首版副本，承认底部法兰更厚、细节仍粗；尚无打印、装配或尺寸验证。 **[其他 AI 逆向 · 进行中]**
+- [Mac显卡驱动互通设想：Shivam Jain建议Claude与REA，移植说法待核实](../cases/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain建议Claude搭配REA做GPU互通，援引未具名NVIDIA驱动到Mac的说法，并提Huawei开放替代与AMD固件合作；没有项目或硬件验证。 **[REA · 待验证]**
 - [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](../cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**
 - [Kindle Scribe：Luis称Claude指导既有越狱和USB远程控制](../cases/luis-kindle-scribe-claude-vera-usb-root-report.md) — Luis报告Claude指导其称为vera的PDF越狱，并建立USB root控制；替换操作系统或固件仍是想法，无代码和设备日志。 **[其他 AI 逆向 · 进行中]**
 - [行李箱App消失后：Diego用Codex、REA和JADX恢复称重与蓝牙锁](../cases/codex-rea-jadx-suitcase-iphone-app.md) — Diego报告研究旧Android APK、实机测试蓝牙命令，再做SwiftUI iPhone替代App；约一小时与称重、开锁等功能均为作者自述，箱型与源码未披露。 **[REA · 进行中]**
