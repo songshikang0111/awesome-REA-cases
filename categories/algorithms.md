@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [RoboSimStudio：从手机视频反推物理仿真孪生的未核验转述](../cases/robosimstudio-video-physical-twin-agent-report.md) — 谁是藏镜人转述RoboSimStudio让Agent对比真实形变与仿真误差，调整接触和摩擦参数；一小时及伯克利／英伟达归属均未由原始项目确认。 **[其他 AI 逆向 · 待验证]**
+- [Claude读哪些段落：转述Tomek Rudzki研究Brave检索与关键词选择](../cases/tomek-rudzki-claude-brave-passage-selection-report.md) — 帖子转述Tomek Rudzki反推Claude选读网页的行为，称使用Brave及旧关键词公式；无查询样本、公式正文或复测，不能当官方架构。 **[未确认使用 REA · 待验证]**
+- [南晚的个人文风反推：从自有语料提取规则，再做n8n工作流实验](../cases/personal-writing-style-reconstruction-n8n-experiment.md) — 南晚提出从大量自有文字恢复用词与写作规则，动态注入允许项和禁止项，称n8n首轮较符合但仍需调优；没有盲测或公开工作流。 **[其他 AI 逆向 · 进行中]**
+- [Ghidra寄存器分析：Özcan Çelik称Gemini Argon解释了Opus未解内容](../cases/gemini-argon-ghidra-register-analysis-report.md) — Özcan Çelik称数周Ghidra静态分析实验中，Gemini Argon详解了Opus5.5没找到或没理解的寄存器；没有目标、地址或正确性对照。 **[其他 AI 逆向 · 待验证]**
 - [雾林汉服回眸肖像：sandmrk反推构图、色板与服饰提示词](../cases/sandmrk-hanfu-misty-forest-portrait-prompt.md) — sandmrk公开从参考图反推的竖幅人像提示词，拆解回眸姿态、发式、刺绣和冷月光；明确生成结果不能完全匹配原图，仍需优化。 **[未确认使用 REA · 分析测试]**
 - [从问答反推知识库提示词：Ben让Codex自评分、迭代到近似效果](../cases/ben-codex-knowledgebase-qa-prompt-reconstruction.md) — Ben称用Codex部署开源知识库，再用几个问答样例与自评分迭代重建提示词，效果几乎一致；产品、原提示词与对照评测未公开。 **[其他 AI 逆向 · 待验证]**
 - [置乱MNIST：Claude与Codex从像素相关性恢复空间排列](../cases/robert-lange-permuted-mnist-agent-spatial-prior.md) — Robert Lange报告两种Agent恢复784像素的隐藏排列后直接编程权重，Claude准确率88.8%、Codex87.0%；是作者实验，不是独立复现。 **[其他 AI 逆向 · 分析测试]**

@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1774 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1787 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（364）
-- [硬件与设备互通](categories/hardware.md)（478）
-- [应用与客户端](categories/apps.md)（736）
-- [算法与功能重建](categories/algorithms.md)（196）
+- [游戏与游戏保存](categories/games.md)（367）
+- [硬件与设备互通](categories/hardware.md)（481）
+- [应用与客户端](categories/apps.md)（739）
+- [算法与功能重建](categories/algorithms.md)（200）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [Rec Room着色器：faiu简报用AI反编译，结果尚未公开](cases/rec-room-ai-shader-decompilation-report.md) — faiu发帖称用AI反编译Rec Room着色器；没有模型、目标平台、恢复代码或渲染对照，不把短报当成功还原。 **[其他 AI 逆向 · 待验证]**
+- [Tetris与Flappy Bird重建：noko对照两版Claude的提示与拒绝行为](cases/claude-tetris-flappy-rebuild-prompt-policy-comparison.md) — noko报告Opus4.8与5.5在游戏复刻、改名及原创类型提示下表现不同；多次结果为作者观察，不是原游戏代码恢复或功能等价验证。 **[其他 AI 逆向 · 分析测试]**
+- [《时之笛》重制版原生PC愿望：Voidwalker建议REA研究后重写C++](cases/voidwalker-ocarina-remake-rea-native-pc-idea.md) — Voidwalker在模拟器讨论里提出REA反汇编、C++重写为4K60原生PC的愿望；补查串只用于识别目标，不证明重制版或模拟器性能。 **[REA · 待验证]**
 - [游戏引擎重实现遇到剧情阻断：George Gorzhiyev称Claude正在修复](cases/george-gorzhiyev-claude-engine-story-blocker.md) — George Gorzhiyev报告自己的游戏引擎重实现出现阻断剧情的严重缺陷，Claude正在处理；未具名游戏、引擎、代码和修复结果。 **[其他 AI 逆向 · 进行中]**
 - [CFB自定义重建：读者期待AI反编译后也能在越狱主机运行](cases/cfb-ai-custom-game-jailbroken-console-idea.md) — system error提出研究EA的CFB、重建带自定义内容的新游戏，并让目标不只限PC；是预测与愿望，无版本、代码或运行结果。 **[其他 AI 逆向 · 相关项目]**
 - [OptiScaler：读者称既有游戏Mod项目开始使用AI](cases/optiscaler-ai-adoption-reader-report.md) — Orçun Altundağ在游戏逆向讨论中点名OptiScaler采用AI；公开仓库描述跨GPU超分与补帧用途，但没有AI具体贡献或测试证据。 **[其他 AI 逆向 · 待验证]**
@@ -393,6 +396,9 @@
 
 ### 硬件与设备互通
 
+- [REDMI K20 Pro刷iOS16.5：测试固件发布的未核验转述](cases/redmi-k20-pro-ios165-ai-port-secondary-report.md) — 资讯帖称开发者“你说喜欢是装的”放出REDMI K20 Pro的iOS16.5测试固件，以大模型辅助折腾旧机为背景；启动、驱动和AI具体参与均未核实。 **[其他 AI 逆向 · 待验证]**
+- [Hackintosh实验转述：AI与逆向辅助，演示仍未核验](cases/hackintosh-ai-reverse-engineering-experiment-report.md) — 印尼语帖子介绍AI与逆向辅助的Hackintosh实验，主动说明设备演示未核验、macOS许可限苹果硬件；没有型号、方法或启动日志。 **[其他 AI 逆向 · 待验证]**
+- [iFIT跑步机屏幕：转述Claude固件研究后安装流媒体，未核验安全与可用性](cases/ifit-treadmill-claude-screen-unlock-secondary-report.md) — 中文帖子称海外开发者用Claude Code研究iFIT跑步机固件，一天半后解除屏幕限制安装流媒体；没有型号、原始报告或测试，不能确认解锁成功。 **[其他 AI 逆向 · 待验证]**
 - [破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本](cases/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty报告GPT用ScanRuler工具从破损铸件的3D扫描生成首版副本，承认底部法兰更厚、细节仍粗；尚无打印、装配或尺寸验证。 **[其他 AI 逆向 · 进行中]**
 - [Mac显卡驱动互通设想：Shivam Jain建议Claude与REA，移植说法待核实](cases/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain建议Claude搭配REA做GPU互通，援引未具名NVIDIA驱动到Mac的说法，并提Huawei开放替代与AMD固件合作；没有项目或硬件验证。 **[REA · 待验证]**
 - [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**
@@ -874,6 +880,9 @@
 
 ### 应用与客户端
 
+- [REA前端按钮设想：本地模型分析，再把报告交回Codex或Claude](cases/rea-frontend-local-model-report-handoff-idea.md) — 读者提出由Codex／Claude做前端按钮调用REA，接本地模型或DeepSeek分析后回传报告；尚无界面、仓库或目标测试。 **[REA · 待验证]**
+- [Spark上的Agent逆向工具包：读者计划组合radare2与其他工具](cases/spark-radare2-agentic-rea-toolkit-idea.md) — 读者计划为自己的Spark构建含radare2的Agent逆向工具包，希望不只是发一句提示；没有代码、模型或已分析目标。 **[未确认使用 REA · 待验证]**
+- [便宜开源模型的重建管线idea：先汇总手册与行为，再恢复伪代码](cases/cheap-open-model-manual-pseudocode-rebuild-pipeline-idea.md) — 读者建议小模型综合用户手册、论坛与电脑操作，先写行为规格，再把软件部分反编译为伪代码；没有目标软件或实现。 **[其他 AI 逆向 · 待验证]**
 - [rust_ASC：供Agent按需查询APK与DEX的无状态反编译器](cases/rust-asc-agent-android-stateless-decompiler.md) — Dopax推荐MG1937的Rust安卓分析工具；公开文档提供CLI与MCP按类反编译和交叉引用，性能数字是项目自测，非完整语义正确性证明。 **[其他 AI 逆向 · 相关项目]**
 - [ChatGPT客户端接本地模型：samantha称Gemini argon与REA重建界面](cases/samantha-gemini-rea-chatgpt-local-sandbox-client.md) — samantha称Gemini argon以REA研究ChatGPT App后接向本地ML sandbox，界面近似且更快；平台、代码与性能记录未给。 **[REA · 待验证]**
 - [Phonon：Elliot用DeepSeek与Opus重建Wispr Flow式本地听写](cases/phonon-wispr-flow-elliot-local-dictation.md) — Elliot Arledge报告研究Wispr Flow后做Phonon，公开Rust/Metal与微调流程；65ms和模型盲评是作者数据，macOS与Windows beta走不同模型路径。 **[其他 AI 逆向 · 进行中]**
@@ -1003,7 +1012,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — 两条候选介绍研究原版、Agent建造与对照迭代；公开项目区分Clean room／Deep，承认Codex、部分动态工具和游戏行为检查尚有限，不是任意软件几分钟完整复刻。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究原版、交给Agent建造并对照迭代；11月6日新转述称320工具、三种屏宽比较，区别于较早固定文档的314工具，不等于任意软件已完整复刻。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
@@ -1613,6 +1622,10 @@
 
 ### 算法与功能重建
 
+- [RoboSimStudio：从手机视频反推物理仿真孪生的未核验转述](cases/robosimstudio-video-physical-twin-agent-report.md) — 谁是藏镜人转述RoboSimStudio让Agent对比真实形变与仿真误差，调整接触和摩擦参数；一小时及伯克利／英伟达归属均未由原始项目确认。 **[其他 AI 逆向 · 待验证]**
+- [Claude读哪些段落：转述Tomek Rudzki研究Brave检索与关键词选择](cases/tomek-rudzki-claude-brave-passage-selection-report.md) — 帖子转述Tomek Rudzki反推Claude选读网页的行为，称使用Brave及旧关键词公式；无查询样本、公式正文或复测，不能当官方架构。 **[未确认使用 REA · 待验证]**
+- [南晚的个人文风反推：从自有语料提取规则，再做n8n工作流实验](cases/personal-writing-style-reconstruction-n8n-experiment.md) — 南晚提出从大量自有文字恢复用词与写作规则，动态注入允许项和禁止项，称n8n首轮较符合但仍需调优；没有盲测或公开工作流。 **[其他 AI 逆向 · 进行中]**
+- [Ghidra寄存器分析：Özcan Çelik称Gemini Argon解释了Opus未解内容](cases/gemini-argon-ghidra-register-analysis-report.md) — Özcan Çelik称数周Ghidra静态分析实验中，Gemini Argon详解了Opus5.5没找到或没理解的寄存器；没有目标、地址或正确性对照。 **[其他 AI 逆向 · 待验证]**
 - [雾林汉服回眸肖像：sandmrk反推构图、色板与服饰提示词](cases/sandmrk-hanfu-misty-forest-portrait-prompt.md) — sandmrk公开从参考图反推的竖幅人像提示词，拆解回眸姿态、发式、刺绣和冷月光；明确生成结果不能完全匹配原图，仍需优化。 **[未确认使用 REA · 分析测试]**
 - [从问答反推知识库提示词：Ben让Codex自评分、迭代到近似效果](cases/ben-codex-knowledgebase-qa-prompt-reconstruction.md) — Ben称用Codex部署开源知识库，再用几个问答样例与自评分迭代重建提示词，效果几乎一致；产品、原提示词与对照评测未公开。 **[其他 AI 逆向 · 待验证]**
 - [置乱MNIST：Claude与Codex从像素相关性恢复空间排列](cases/robert-lange-permuted-mnist-agent-spatial-prior.md) — Robert Lange报告两种Agent恢复784像素的隐藏排列后直接编程权重，Claude准确率88.8%、Codex87.0%；是作者实验，不是独立复现。 **[其他 AI 逆向 · 分析测试]**

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Rec Room着色器：faiu简报用AI反编译，结果尚未公开](../cases/rec-room-ai-shader-decompilation-report.md) — faiu发帖称用AI反编译Rec Room着色器；没有模型、目标平台、恢复代码或渲染对照，不把短报当成功还原。 **[其他 AI 逆向 · 待验证]**
+- [Tetris与Flappy Bird重建：noko对照两版Claude的提示与拒绝行为](../cases/claude-tetris-flappy-rebuild-prompt-policy-comparison.md) — noko报告Opus4.8与5.5在游戏复刻、改名及原创类型提示下表现不同；多次结果为作者观察，不是原游戏代码恢复或功能等价验证。 **[其他 AI 逆向 · 分析测试]**
+- [《时之笛》重制版原生PC愿望：Voidwalker建议REA研究后重写C++](../cases/voidwalker-ocarina-remake-rea-native-pc-idea.md) — Voidwalker在模拟器讨论里提出REA反汇编、C++重写为4K60原生PC的愿望；补查串只用于识别目标，不证明重制版或模拟器性能。 **[REA · 待验证]**
 - [游戏引擎重实现遇到剧情阻断：George Gorzhiyev称Claude正在修复](../cases/george-gorzhiyev-claude-engine-story-blocker.md) — George Gorzhiyev报告自己的游戏引擎重实现出现阻断剧情的严重缺陷，Claude正在处理；未具名游戏、引擎、代码和修复结果。 **[其他 AI 逆向 · 进行中]**
 - [CFB自定义重建：读者期待AI反编译后也能在越狱主机运行](../cases/cfb-ai-custom-game-jailbroken-console-idea.md) — system error提出研究EA的CFB、重建带自定义内容的新游戏，并让目标不只限PC；是预测与愿望，无版本、代码或运行结果。 **[其他 AI 逆向 · 相关项目]**
 - [OptiScaler：读者称既有游戏Mod项目开始使用AI](../cases/optiscaler-ai-adoption-reader-report.md) — Orçun Altundağ在游戏逆向讨论中点名OptiScaler采用AI；公开仓库描述跨GPU超分与补帧用途，但没有AI具体贡献或测试证据。 **[其他 AI 逆向 · 待验证]**

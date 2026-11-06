@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [REA前端按钮设想：本地模型分析，再把报告交回Codex或Claude](../cases/rea-frontend-local-model-report-handoff-idea.md) — 读者提出由Codex／Claude做前端按钮调用REA，接本地模型或DeepSeek分析后回传报告；尚无界面、仓库或目标测试。 **[REA · 待验证]**
+- [Spark上的Agent逆向工具包：读者计划组合radare2与其他工具](../cases/spark-radare2-agentic-rea-toolkit-idea.md) — 读者计划为自己的Spark构建含radare2的Agent逆向工具包，希望不只是发一句提示；没有代码、模型或已分析目标。 **[未确认使用 REA · 待验证]**
+- [便宜开源模型的重建管线idea：先汇总手册与行为，再恢复伪代码](../cases/cheap-open-model-manual-pseudocode-rebuild-pipeline-idea.md) — 读者建议小模型综合用户手册、论坛与电脑操作，先写行为规格，再把软件部分反编译为伪代码；没有目标软件或实现。 **[其他 AI 逆向 · 待验证]**
 - [rust_ASC：供Agent按需查询APK与DEX的无状态反编译器](../cases/rust-asc-agent-android-stateless-decompiler.md) — Dopax推荐MG1937的Rust安卓分析工具；公开文档提供CLI与MCP按类反编译和交叉引用，性能数字是项目自测，非完整语义正确性证明。 **[其他 AI 逆向 · 相关项目]**
 - [ChatGPT客户端接本地模型：samantha称Gemini argon与REA重建界面](../cases/samantha-gemini-rea-chatgpt-local-sandbox-client.md) — samantha称Gemini argon以REA研究ChatGPT App后接向本地ML sandbox，界面近似且更快；平台、代码与性能记录未给。 **[REA · 待验证]**
 - [Phonon：Elliot用DeepSeek与Opus重建Wispr Flow式本地听写](../cases/phonon-wispr-flow-elliot-local-dictation.md) — Elliot Arledge报告研究Wispr Flow后做Phonon，公开Rust/Metal与微调流程；65ms和模型盲评是作者数据，macOS与Windows beta走不同模型路径。 **[其他 AI 逆向 · 进行中]**
@@ -131,7 +134,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](../cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](../cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — 两条候选介绍研究原版、Agent建造与对照迭代；公开项目区分Clean room／Deep，承认Codex、部分动态工具和游戏行为检查尚有限，不是任意软件几分钟完整复刻。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究原版、交给Agent建造并对照迭代；11月6日新转述称320工具、三种屏宽比较，区别于较早固定文档的314工具，不等于任意软件已完整复刻。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](../cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](../cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](../cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**

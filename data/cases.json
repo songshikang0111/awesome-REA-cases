@@ -1,5 +1,213 @@
 [
   {
+    "id": "rec-room-ai-shader-decompilation-report",
+    "title": "Rec Room着色器：faiu简报用AI反编译，结果尚未公开",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "faiu发帖称用AI反编译Rec Room着色器；没有模型、目标平台、恢复代码或渲染对照，不把短报当成功还原。",
+    "description": "2026年11月6日17:07:49（北京时间），faiu（@rpcnrpcn191977）发帖写Rec room decompile shaders using ai。Rec Room是社交游戏创作平台；这里明确的研究对象是其着色器，即控制图形渲染的程序，而非整款游戏引擎。\n\n帖子只有这一句操作描述及图片附件。补取原帖确认署名和附图，但未解读图片中的代码或据此确认产物；没有模型名、工具链、平台、版本、着色器输入格式、反编译文本或编译与渲染对照。不推断使用Unity、特定着色语言或完成可用移植，也没有作者动机与工时可填。\n\n按明确目标的AI反编译短报收录，结果尚未核验；REA未提及，本合集未下载游戏、执行着色器或独立复现。",
+    "sources": [{"label": "faiu的Rec Room着色器AI反编译短报，2026-11-06 17:07:49北京时间", "url": "https://x.com/i/status/2118631428371972548"}],
+    "snapshot_date": "2026-11-06", "metadata": ["11月6日候选封存0赞、6浏览、0转发；附图不等于已经验证渲染一致。"],
+    "en": {
+      "title": "Rec Room shaders: faiu briefly reports AI decompilation without published results",
+      "summary": "faiu posts about using AI to decompile Rec Room shaders. No model, platform, recovered code or rendering comparison is supplied; the brief report is not proof of successful recovery.",
+      "description": "At 17:07:49 Beijing time on November 6, 2026, faiu (@rpcnrpcn191977) posts: Rec room decompile shaders using ai. Rec Room is a social game-creation platform. The identified research target is its shaders, programs controlling graphics rendering, not reconstruction of the entire engine.\n\nThe post contains only that operation description and an image attachment. Retrieval confirms attribution and the image, but its code was not interpreted or treated as validated output. Model, toolchain, platform, revision, input shader format, decompiled text, compilation and rendering comparisons are absent. Unity, a particular shading language and a usable port are not inferred; motivation and effort are also unspecified.\n\nRetained as a brief AI-decompilation report with a definite target and unverified results. REA is not mentioned. No game was downloaded, shader executed or independent reproduction performed here.",
+      "metadata": ["November 6 sealed candidate: 0 likes, 6 views, 0 reposts. An attached image is not validated rendering equivalence."],
+      "source_labels": ["faiu's brief Rec Room AI shader-decompilation report, November 6, 2026 at 17:07:49 Beijing time"]
+    }
+  },
+  {
+    "id": "robosimstudio-video-physical-twin-agent-report",
+    "title": "RoboSimStudio：从手机视频反推物理仿真孪生的未核验转述",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "谁是藏镜人转述RoboSimStudio让Agent对比真实形变与仿真误差，调整接触和摩擦参数；一小时及伯克利／英伟达归属均未由原始项目确认。",
+    "description": "2026年11月6日16:25:24（北京时间），谁是藏镜人（@VedaAI00）介绍名为RoboSimStudio的Real2Sim项目，称UC伯克利与英伟达开源，AI Agent仅凭手机实拍视频，在一小时内构建包含刚体、织物与软体的物理仿真孪生。目标是从可见运动和形变反推可用于仿真、合成数据或机器人训练的物理表示，不是软件反编译。\n\n16:25:54的续帖给出具体闭环：把求解器配置与物理常量暴露给模型，让Agent对比真实形变轨迹与仿真误差，循环调整接触模型和摩擦参数。两帖提供的是项目方法转述，不是作者公开的逐次优化日志；没有说明使用哪种模型、视频数量、几何获取方式、误差指标或最终参数。\n\n补取首帖确认署名与视频附件存在；未取得项目源码、论文、机构公告或独立测量，没有观看并验证附件。机构归属、开源性质、一小时、各材料支持范围及告别手工建模均未核验，不能理解为任意场景无需人工建模或已经完成机器人迁移。本合集未运行Agent、仿真或目标代码，REA未提及，按具体但未核验的研究项目转述收录。",
+    "sources": [{"label": "谁是藏镜人介绍RoboSimStudio，2026-11-06 16:25:24北京时间", "url": "https://x.com/i/status/2118620753298153618"}, {"label": "同串续帖：形变误差、接触模型与摩擦参数闭环，16:25:54", "url": "https://x.com/i/status/2118620879756423318"}],
+    "snapshot_date": "2026-11-06", "metadata": ["11月6日候选快照依次5赞／328浏览／0转发、1赞／44浏览／0转发；一小时为转述，不是本合集计时。"],
+    "en": {
+      "title": "RoboSimStudio: an unverified account of inferring physical simulation twins from phone video",
+      "summary": "VedaAI00 describes an agent comparing deformation with simulation error and adjusting contact and friction parameters. The one-hour claim and Berkeley/NVIDIA attribution lack primary-project confirmation here.",
+      "description": "At 16:25:24 Beijing time on November 6, 2026, VedaAI00 (@VedaAI00) introduces a Real2Sim project called RoboSimStudio, attributing its open-source release to UC Berkeley and NVIDIA. The post claims an AI agent builds a physical simulation twin containing rigid bodies, cloth and soft bodies from phone footage within one hour. The target is inferring physical representations from observed motion and deformation for simulation, synthetic data or robot training, not software decompilation.\n\nA follow-up at 16:25:54 describes a concrete loop: expose solver settings and physical constants to a model, compare real deformation trajectories with simulation error, and iterate on contact models and friction parameters. These are accounts of a method, not published per-iteration optimization logs. Model identity, video count, geometry acquisition, error metrics and final parameter values are unspecified.\n\nRetrieval confirms the first post's attribution and video attachment, not source code, a paper, institutional announcement or independent measurements; the attachment was not watched and validated. Institutional attribution, open-source status, one hour, material coverage and eliminating manual modeling remain unverified. This does not establish arbitrary scenes without human modeling or completed robot transfer. No agent, simulator or target code was run here. REA is not mentioned; retained as a concrete but unverified research-project account.",
+      "metadata": ["November 6 candidate snapshots respectively: 5 likes/328 views/0 reposts and 1/44/0. One hour is a relayed claim, not timing by this collection."],
+      "source_labels": ["VedaAI00 introduces RoboSimStudio, November 6, 2026 at 16:25:24 Beijing time", "Same-thread follow-up: deformation error, contact models and friction-parameter loop, 16:25:54"]
+    }
+  },
+  {
+    "id": "claude-tetris-flappy-rebuild-prompt-policy-comparison",
+    "title": "Tetris与Flappy Bird重建：noko对照两版Claude的提示与拒绝行为",
+    "category": "games", "rea": "other-ai", "status": "analysis-test",
+    "summary": "noko报告Opus4.8与5.5在游戏复刻、改名及原创类型提示下表现不同；多次结果为作者观察，不是原游戏代码恢复或功能等价验证。",
+    "description": "2026年11月6日17:46:56（北京时间），noko（@nokoxyz）比较同一个单HTML文件Tetris克隆提示：称Opus4.8做出标题也叫Tetris的游戏，Opus5.5三次均做出名为Stackfall、同七种方块但改色的游戏。目标是观察既有游戏重建请求的模型行为与限制，不是从原版二进制恢复引擎。\n\n作者还报告周三的对照：要求同外观与机制重建Flappy Bird，三次均换成其他游戏；要求Tetris改名Blockfall，三次均拒绝且零文件；原创下落方块游戏四次生成四款；自有白色幽灵角色的一键横版游戏三次完成；Opus4.8上的Tetris与Flappy请求四次直接复制。作者把变化归因于10月30日后仅为Opus5.5加载的系统提示规则，这是作者的机制解释，未取得固定客户端提示文件验证。\n\n补取原帖确认作者与视频附件；未观看验证游戏、读取生成HTML、固定模型／客户端版本或重跑请求。帖中模型切换和改写提示的经验不等于合法授权证明或所有账户的稳定规律，所谓复制也未测玩法和视觉等价。结果只按作者报告保留；REA未提及，本合集未运行模型或游戏。",
+    "sources": [{"label": "noko的游戏重建提示对照与作者报告结果，2026-11-06 17:46:56北京时间", "url": "https://x.com/i/status/2118641273464594834"}],
+    "snapshot_date": "2026-11-06", "metadata": ["11月6日候选7赞、174浏览、0转发；3/3、4/4与零文件均为作者口径，没有独立重跑。"],
+    "en": {
+      "title": "Rebuilding Tetris and Flappy Bird: noko compares prompts and refusals across two Claude versions",
+      "summary": "noko reports different Opus 4.8/5.5 behavior for clones, renaming and original genre prompts. Repeated outcomes are author observations, not original-code recovery or validated functional equivalence.",
+      "description": "At 17:46:56 Beijing time on November 6, 2026, noko (@nokoxyz) compares the same prompt for a Tetris clone in a single HTML file: Opus 4.8 reportedly builds a game titled Tetris, while Opus 5.5 produces Stackfall with the same seven pieces and different colors in all three runs. The target is model behavior and restrictions on rebuilding existing games, not engine recovery from original binaries.\n\nThe author also reports Wednesday comparisons: asking to recreate Flappy Bird's look and mechanics produces other games in three of three runs; renaming Tetris to Blockfall is refused in three of three, with zero files; an original falling-block puzzle produces four different games in four runs; a one-button side-scroller with the author's white ghost character succeeds in three of three; Tetris/Flappy requests on Opus 4.8 yield direct copies in four of four. The author attributes this to system-prompt rules loaded only for Opus 5.5 since October 30. That is the author's mechanism explanation; pinned client prompt files were not obtained to verify it.\n\nRetrieval confirms authorship and a video attachment. Games were not watched and validated, generated HTML read, model/client versions pinned or prompts rerun. Switching models and rewording prompts are not proof of authorization or stable behavior across accounts. Copying was not tested for gameplay or visual equivalence. Results remain author reports; REA is not mentioned and no model or game was run here.",
+      "metadata": ["November 6 candidate: 7 likes, 174 views, 0 reposts. Three of three, four of four and zero files are author reports, not independently rerun."],
+      "source_labels": ["noko's game-rebuild prompt comparisons and reported outcomes, November 6, 2026 at 17:46:56 Beijing time"]
+    }
+  },
+  {
+    "id": "voidwalker-ocarina-remake-rea-native-pc-idea",
+    "title": "《时之笛》重制版原生PC愿望：Voidwalker建议REA研究后重写C++",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "Voidwalker在模拟器讨论里提出REA反汇编、C++重写为4K60原生PC的愿望；补查串只用于识别目标，不证明重制版或模拟器性能。",
+    "description": "2026年11月6日17:48:18（北京时间），Voidwalker（@JustWantToQ1）回复游戏模拟讨论，建议让REA MCP反汇编游戏、重写C++，再编译为PC原生4K、60fps版本。语气急切，但没有表示自己已经开始研究或拥有产物；4K60是要求，不是测量结果。\n\n补查完整回复链，10:03:44的串根由Chris Mizo（@MizoChris）称《塞尔达传说：时之笛》重制版刚在Switch2推出，并宣传实验性Lichii模拟器开场60fps、RTX4080／5080／5090级硬件。这里只用较早同日串根识别候选所指目标，不核实这些发行、模拟器或硬件性能说法，不把它们当REA完成原生移植的证据。\n\n帖子没有仓库、合法目标版本、C++代码、反编译日志或原生构建。与经典原版移植不混为同一成果，本合集未下载ROM、运行模拟器或执行REA；按读者提出的具体重建设想收录，须使用合法取得且有权限研究的目标。",
+    "sources": [{"label": "Voidwalker的REA原生PC重建建议，2026-11-06 17:48:18北京时间", "url": "https://x.com/i/status/2118641616072134780"}, {"label": "补充同日较早串根：只用于识别所指游戏，10:03:44", "url": "https://x.com/i/status/2118524705984426244"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、33浏览、0转发；4K60为愿望，不是原生移植或模拟器实测。"],
+    "en": {
+      "title": "An Ocarina remake native-PC wish: Voidwalker proposes REA research and a C++ rewrite",
+      "summary": "Voidwalker proposes REA disassembly and a native 4K60 C++ PC rewrite in an emulator discussion. Thread lookup identifies the intended game, not verified remake or emulator performance.",
+      "description": "At 17:48:18 Beijing time on November 6, 2026, Voidwalker (@JustWantToQ1) replies to an emulation discussion proposing REA MCP disassembly, a C++ rewrite and compilation for native PC at 4K and 60fps. The urgent wording does not report starting research or having an artifact. 4K60 is a request, not a measurement.\n\nThe retrieved reply chain leads to a 10:03:44 root by Chris Mizo (@MizoChris), claiming a Zelda: Ocarina of Time remake has just launched on Switch 2 and promoting an experimental Lichii emulator at 60fps in opening sequences on RTX 4080/5080/5090-class hardware. That earlier same-day root is used only to identify the candidate's intended target. Release, emulator and hardware-performance claims are not verified or treated as evidence of a completed native REA port.\n\nRepository, authorized target revision, C++ code, decompilation logs and native builds are absent. This is not merged with classic original-game ports as the same achievement. No ROM was downloaded, emulator run or REA executed here. Retained as a reader's concrete reconstruction idea; research requires a legally obtained target and appropriate permission.",
+      "metadata": ["Candidate: 0 likes, 33 views, 0 reposts. 4K60 is a wish, not a native-port or emulator measurement."],
+      "source_labels": ["Voidwalker's REA native-PC reconstruction suggestion, November 6, 2026 at 17:48:18 Beijing time", "Supplementary earlier same-day thread root, used only to identify the game, 10:03:44"]
+    }
+  },
+  {
+    "id": "redmi-k20-pro-ios165-ai-port-secondary-report",
+    "title": "REDMI K20 Pro刷iOS16.5：测试固件发布的未核验转述",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "资讯帖称开发者“你说喜欢是装的”放出REDMI K20 Pro的iOS16.5测试固件，以大模型辅助折腾旧机为背景；启动、驱动和AI具体参与均未核实。",
+    "description": "2026年11月6日17:57:36（北京时间），一条资讯帖称开发者“你说喜欢是装的”放出了REDMI K20 Pro刷苹果iOS16.5的测试固件包。标题笼统写iOS16，正文具体写16.5；按原文保留，不自行修订为其他版本。目标是让既有非苹果手机运行不同系统，与本集中小米15或MateBook E Go的目标设备不同。\n\n正文以大模型辅助开发者折腾旧机作为背景，未明确哪个模型参与了此固件的哪个驱动或逆向步骤。因此只是带AI背景的移植转述，不是已确认AI完成固件或原生iOS启动。没有原开发者全文、源码、固件校验、启动日志、驱动支持清单或可核验演示；不把测试包发布写成完整可用。\n\n未下载或运行固件，没有刷机；实际许可、设备恢复和数据风险仍需使用者另行确认。本合集未验证系统身份、应用兼容或硬件功能，REA未提及，保留未核验状态。",
+    "sources": [{"label": "REDMI K20 Pro／iOS16.5测试固件资讯转述，2026-11-06 17:57:36北京时间", "url": "https://x.com/i/status/2118643958993891669"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、8浏览、0转发；AI归因为报道背景，不是具体模型与步骤的证明。"],
+    "en": {
+      "title": "iOS 16.5 on a REDMI K20 Pro: an unverified test-firmware release account",
+      "summary": "A news post says developer “你说喜欢是装的” released iOS 16.5 test firmware for the REDMI K20 Pro, amid large-model-assisted old-device experimentation. Booting, drivers and the specific AI contribution remain unchecked.",
+      "description": "At 17:57:36 Beijing time on November 6, 2026, a news post says developer “你说喜欢是装的” released test firmware for installing Apple iOS 16.5 on a REDMI K20 Pro. The headline says iOS 16 and the body specifies 16.5; both are retained rather than silently normalized. The goal is running a different OS on an existing non-Apple phone, a different device from the collected Xiaomi 15 and MateBook E Go accounts.\n\nThe body frames old-device experimentation as large-model-assisted but does not identify which model contributed to which driver or reversing step in this firmware. This is a port report with AI context, not confirmed AI firmware development or native iOS booting. The original developer's full account, source, firmware checksums, boot logs, driver-support list and a verifiable demonstration were not obtained. A test-package release is not full usability.\n\nNo firmware was downloaded or executed and no device flashed. Licensing, recovery and data risks need separate confirmation. OS identity, app compatibility and hardware functionality were not tested here. REA is not mentioned; status remains unverified.",
+      "metadata": ["Candidate: 0 likes, 8 views, 0 reposts. AI attribution is reporting context, not proof of a particular model or step."],
+      "source_labels": ["Secondary news account of REDMI K20 Pro/iOS 16.5 test firmware, November 6, 2026 at 17:57:36 Beijing time"]
+    }
+  },
+  {
+    "id": "tomek-rudzki-claude-brave-passage-selection-report",
+    "title": "Claude读哪些段落：转述Tomek Rudzki研究Brave检索与关键词选择",
+    "category": "algorithms", "rea": "unknown", "status": "unverified",
+    "summary": "帖子转述Tomek Rudzki反推Claude选读网页的行为，称使用Brave及旧关键词公式；无查询样本、公式正文或复测，不能当官方架构。",
+    "description": "2026年11月6日17:59:41（北京时间），一帖将Claude选读内容的逆向研究归于Tomek Rudzki（@TomekRudzki），称Claude用Brave而非Google搜索，以及一个1990年代的关键词公式可预测被选中的段落，并链接优化指南。目标是从搜索与选读行为推断内容选择机制，用于网页优化，不是恢复Claude权重或源码。\n\n材料没有给出公式名称、查询集、页面语料、实验控制、预测准确率、Claude产品版本或执行时间。不能自行把公式命名为BM25，也不能把某条检索路径推广为所有Claude版本的唯一搜索后端。AI是被研究的对象，未明确用于执行这项逆向，工具归因保持unknown。\n\n未取得指南全文或独立验证记录，结论仅为二手转述；本合集未发查询、修改网页或运行模型，不保证据此提高引用或搜索排名。",
+    "sources": [{"label": "Tomek Rudzki的Claude搜索与选读研究转述，2026-11-06 17:59:41北京时间", "url": "https://x.com/i/status/2118644479531864528"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选1赞、59浏览、0转发；Brave和关键词公式均为转述，未核验产品架构。"],
+    "en": {
+      "title": "Which passages Claude reads: an account of Tomek Rudzki's Brave and keyword-selection research",
+      "summary": "A post attributes reverse analysis of Claude's reading choices to Tomek Rudzki, claiming Brave search and an old keyword formula. Queries, the formula and reruns are absent; this is not official architecture documentation.",
+      "description": "At 17:59:41 Beijing time on November 6, 2026, a post attributes reverse engineering of Claude's reading choices to Tomek Rudzki (@TomekRudzki). It claims Claude searches with Brave rather than Google and a 1990s keyword formula predicts selected passages, linking an optimization guide. The goal is inferring content-selection mechanisms from search and reading behavior for website optimization, not recovering Claude weights or source.\n\nFormula name, query set, page corpus, controls, prediction accuracy, Claude product version and execution dates are absent. The formula is not guessed to be BM25, and a reported search path is not generalized to the sole backend of every Claude version. AI is the research subject, not explicitly a tool used to perform this reverse analysis; tool attribution remains unknown.\n\nThe full guide and independent validation records were not obtained. Conclusions remain secondary reporting. No queries were sent, pages changed or models run here, and improved citations or ranking are not guaranteed.",
+      "metadata": ["Candidate: 1 like, 59 views, 0 reposts. Brave and the keyword formula are relayed claims, not verified product architecture."],
+      "source_labels": ["Account of Tomek Rudzki's Claude search and reading-selection research, November 6, 2026 at 17:59:41 Beijing time"]
+    }
+  },
+  {
+    "id": "personal-writing-style-reconstruction-n8n-experiment",
+    "title": "南晚的个人文风反推：从自有语料提取规则，再做n8n工作流实验",
+    "category": "algorithms", "rea": "other-ai", "status": "in-progress",
+    "summary": "南晚提出从大量自有文字恢复用词与写作规则，动态注入允许项和禁止项，称n8n首轮较符合但仍需调优；没有盲测或公开工作流。",
+    "description": "2026年11月6日18:28:00（北京时间），南晚Nanwan（@snwiki238337）分享当天研究的个人写作风格重建方案：让AI扫描自有大量语料，提取句长、用词规律、概率分布及写作取舍，再把可写和禁止的规则动态注入生成流程。作者用反编译比喻从可见作品恢复风格，不是从二进制恢复代码或读取人的真实心智。\n\n作者称已把方案做成n8n工作流实验，主观觉得比较符合自己，但仍需调优，并强调必须人工审读修改而非全自动发文。补取原帖确认署名和两张附图存在；未解读公式与图中测试，没有语料量、模型版本、流程导出、输出样本或独立盲测，不能认定风格复现成功。\n\n帖子引述DetectGPT、Fast-DetectGPT及Constitutional AI等论文，并声称禁止项有效性高出300%以上；本合集未核对这些论文是否支持该解释，不将此数字当工作流提升或检测准确率。REA未提及，没有访问私人语料或运行n8n与模型；按作者进行中的个人风格行为重建实验收录。",
+    "sources": [{"label": "南晚的自有语料风格提取与n8n实验自述，2026-11-06 18:28:00北京时间", "url": "https://x.com/i/status/2118651606556348898"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选7赞、271浏览、0转发；当天研究与效果较符合为作者自述，300%以上不是已测工作流增益。"],
+    "en": {
+      "title": "Nanwan's personal writing-style reconstruction: infer rules from owned text and try an n8n workflow",
+      "summary": "Nanwan proposes inferring vocabulary and writing rules from personal text, then dynamically injecting allowed and prohibited patterns. An initial n8n experiment reportedly feels close but needs tuning; no blind test or public workflow is supplied.",
+      "description": "At 18:28:00 Beijing time on November 6, 2026, Nanwan (@snwiki238337) shares a personal writing-style reconstruction approach studied that day: have AI scan a large personal corpus for sentence length, vocabulary patterns, probability distributions and writing choices, then dynamically inject allowed and prohibited rules into generation. Decompilation is a metaphor for recovering style from visible work, not recovering binary code or reading a person's actual mind.\n\nThe author reports an n8n workflow experiment, subjectively finding it fairly close to their style but still needing tuning, and insists on human review and revision rather than automatic publication. Retrieval confirms attribution and two images. Their formula and illustrated tests were not interpreted; corpus size, model revision, workflow export, output samples and independent blind testing are absent. Successful style reproduction is not established.\n\nThe post cites DetectGPT, Fast-DetectGPT, Constitutional AI and other papers and claims prohibitions are over 300% more effective. Those papers were not checked for support of this interpretation, and that figure is not a measured workflow gain or detector accuracy. REA is not mentioned. No private corpus was accessed, n8n executed or model run here; retained as an in-progress personal-style behavioral reconstruction experiment.",
+      "metadata": ["Candidate: 7 likes, 271 views, 0 reposts. A day's research and a fairly close result are author reports; over 300% is not a measured workflow gain."],
+      "source_labels": ["Nanwan's owned-corpus style extraction and n8n experiment, November 6, 2026 at 18:28:00 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-frontend-local-model-report-handoff-idea",
+    "title": "REA前端按钮设想：本地模型分析，再把报告交回Codex或Claude",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "读者提出由Codex／Claude做前端按钮调用REA，接本地模型或DeepSeek分析后回传报告；尚无界面、仓库或目标测试。",
+    "description": "2026年11月6日18:47:19（北京时间），一位读者询问他人如何使用REA，并提出具体集成路线：让Codex或Claude在前端做一个调用REA的按钮，接入本地模型或DeepSeek，输出分析报告后再交回Codex／Claude。\n\n目标是给逆向分析建立可点选的入口与报告交接，而不是重建某个具名应用。前端、分析模型与编码Agent是同一工具集成idea的组成部分，不拆为多个项目。作者明确称这是设想，没有说界面已实现或报告已产出。\n\n模型名称中的DeepSeek不等于本地推理保证，材料也未说明API、MCP、报告格式、权限隔离或实际目标。本合集未取得代码或演示，未执行REA或连接模型，按未核验工具项目idea收录，不承诺现有REA支持所设想的一切接法。",
+    "sources": [{"label": "读者的REA前端、本地模型与报告回传设想，2026-11-06 18:47:19北京时间", "url": "https://x.com/i/status/2118656469927334343"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、180浏览、0转发；前端和回传流程均未报告实现。"],
+    "en": {
+      "title": "An REA front-end button idea: analyze with a local model and hand the report back to Codex or Claude",
+      "summary": "A reader proposes a Codex/Claude-built button invoking REA, connecting local models or DeepSeek and returning analysis reports. No interface, repository or target test is supplied.",
+      "description": "At 18:47:19 Beijing time on November 6, 2026, a reader asks how others use REA and proposes an integration: have Codex or Claude build a front-end button invoking REA, connect a local model or DeepSeek, produce an analysis report and return it to Codex/Claude.\n\nThe target is a clickable entry point and report handoff for reversing, not reconstruction of a named app. Front end, analysis model and coding agent are parts of one tool-integration idea, not separate projects. The author explicitly calls it a proposal rather than an implemented interface or completed report.\n\nDeepSeek does not by itself guarantee local inference. API/MCP choices, report format, permission isolation and an actual target are unspecified. No code or demo was obtained, REA executed or model connected here. Retained as an unverified tool-project idea, without promising existing REA supports every proposed connection.",
+      "metadata": ["Candidate: 0 likes, 180 views, 0 reposts. Neither front end nor handoff is reported implemented."],
+      "source_labels": ["Reader's REA front-end, local-model and report-handoff proposal, November 6, 2026 at 18:47:19 Beijing time"]
+    }
+  },
+  {
+    "id": "spark-radare2-agentic-rea-toolkit-idea",
+    "title": "Spark上的Agent逆向工具包：读者计划组合radare2与其他工具",
+    "category": "apps", "rea": "unknown", "status": "unverified",
+    "summary": "读者计划为自己的Spark构建含radare2的Agent逆向工具包，希望不只是发一句提示；没有代码、模型或已分析目标。",
+    "description": "2026年11月6日18:57:12（北京时间），一位读者说当晚想做一个包含radare2及其他工具的REA toolkit，以Agentic AI形式用于自己的Spark，并强调不想让它成为另一个只发提示就结束的项目。radare2是二进制分析工具；这里的具体目标是组装Agent能使用的逆向工具链。\n\n原文没有展开Spark设备型号或REA是否指morluto项目，不能自行写成特定DGX硬件配置或确认调用REA，因此工具归因保持unknown。除radare2外没有列出工具、模型、接口、权限设计或分析对象。\n\n这是将要做的工具项目idea，不是已构建的系统，也没有吞吐、运行成功率或自主分析结果。本合集未下载或执行工具代码、运行模型或测试设备。",
+    "sources": [{"label": "读者的Spark／radare2 Agent逆向工具包计划，2026-11-06 18:57:12北京时间", "url": "https://x.com/i/status/2118658953903276299"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、30浏览、0转发；设备规格及REA项目归属未明确。"],
+    "en": {
+      "title": "An agentic reversing toolkit for Spark: a reader plans to combine radare2 with other tools",
+      "summary": "A reader plans a radare2-based agentic reversing toolkit for their Spark, beyond a prompt-only exercise. Code, model and an analyzed target are absent.",
+      "description": "At 18:57:12 Beijing time on November 6, 2026, a reader says they want to build an REA toolkit that evening, combining radare2 and other tools in an agentic AI format for their Spark, rather than another prompt-away affair. radare2 is a binary-analysis toolkit; the concrete project is assembling reversing tools an agent can use.\n\nThe post does not expand Spark's hardware identity or establish whether REA means the morluto project. A specific DGX configuration or confirmed REA integration is not inferred, and tool attribution remains unknown. Beyond radare2, tools, model, interface, permission design and target are unspecified.\n\nThis is a proposed tool project, not a built system. Throughput, success rate and autonomous-analysis results are not supplied. No tool code was downloaded or executed, model run or device tested here.",
+      "metadata": ["Candidate: 0 likes, 30 views, 0 reposts. Device specifications and attribution to the REA project are unspecified."],
+      "source_labels": ["Reader's Spark/radare2 agentic reversing-toolkit plan, November 6, 2026 at 18:57:12 Beijing time"]
+    }
+  },
+  {
+    "id": "hackintosh-ai-reverse-engineering-experiment-report",
+    "title": "Hackintosh实验转述：AI与逆向辅助，演示仍未核验",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "印尼语帖子介绍AI与逆向辅助的Hackintosh实验，主动说明设备演示未核验、macOS许可限苹果硬件；没有型号、方法或启动日志。",
+    "description": "2026年11月6日19:30:00（北京时间），一条印尼语帖子称所链接文章报道AI与逆向辅助Hackintosh实验，明确说设备演示尚未验证、仍处实验阶段，并提醒macOS许可限于苹果设备。Hackintosh指让非苹果硬件运行macOS的尝试，不能与iOS手机移植混淆。\n\n材料没有具名硬件、研究者、模型、驱动修改、引导链、代码或测试结果；未取得所链接文章全文，也不能由短链猜测所指设备。只按报道存在这样一个实验保留，不写成系统已启动、全部硬件可用、开源发布或绕过机制已经确认。\n\n作者同时推广AI营销课程，这不是实验有效性的证据。本合集未下载系统、安装依赖、改引导或运行目标，REA未提及；没有对macOS授权作额外保证。",
+    "sources": [{"label": "Hackintosh的AI与逆向实验转述及未核验声明，2026-11-06 19:30:00北京时间", "url": "https://x.com/i/status/2118667211392929864"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、17浏览、0转发；未披露硬件，不能推定与其他iOS／macOS项目同一。"],
+    "en": {
+      "title": "A Hackintosh experiment account: AI-assisted reversing with an unverified demonstration",
+      "summary": "An Indonesian post describes an AI/reversing-assisted Hackintosh experiment, explicitly noting an unverified device demo and Apple's hardware licensing restriction. Model, methods and boot logs are absent.",
+      "description": "At 19:30:00 Beijing time on November 6, 2026, an Indonesian post says a linked article reports an AI-assisted reverse-engineering Hackintosh experiment. It explicitly calls the device demonstration unverified, describes the work as experimental and notes macOS licensing is restricted to Apple hardware. Hackintosh denotes an attempt to run macOS on non-Apple hardware, not an iOS phone port.\n\nHardware, researcher, model, driver changes, boot chain, code and test results are unspecified. The linked article's full text was not obtained and the device is not guessed from a short link. Only the report of an experiment is retained, not successful booting, full hardware support, open-source release or a verified bypass mechanism.\n\nThe author's AI-marketing course promotion is not evidence of effectiveness. No OS was downloaded, dependencies installed, boot configuration changed or target run here. REA is not mentioned and no additional licensing assurance is offered.",
+      "metadata": ["Candidate: 0 likes, 17 views, 0 reposts. Hardware is undisclosed; identity with other iOS/macOS projects cannot be assumed."],
+      "source_labels": ["Account of an AI/reversing-assisted Hackintosh experiment and explicit unverified-demo caveat, November 6, 2026 at 19:30:00 Beijing time"]
+    }
+  },
+  {
+    "id": "cheap-open-model-manual-pseudocode-rebuild-pipeline-idea",
+    "title": "便宜开源模型的重建管线idea：先汇总手册与行为，再恢复伪代码",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "读者建议小模型综合用户手册、论坛与电脑操作，先写行为规格，再把软件部分反编译为伪代码；没有目标软件或实现。",
+    "description": "2026年11月6日19:33:57（北京时间），一位读者提出可以用低端、便宜的开源模型建立重建管线：输入用户手册、论坛帖子和computer-use观察，整理软件应如何工作的文档，然后把软件半反编译为伪代码。\n\n具体设想是先整合外部说明与可见行为，再补代码结构，把昂贵单模型调查拆成可供小模型处理的阶段。原帖没有说明computer use是否已经执行，半反编译也不是有明确覆盖率定义的指标；没有具名软件、模型、工具、规格格式、代码或成本测量。\n\n作者关于AI一年没更聪明的评价不当成事实或实验结论，便宜也不是成本已经降低的证明。本合集未运行管线、下载目标或使用模型；REA未提及，按未实施的具体研究工具idea收录。",
+    "sources": [{"label": "读者的手册／行为规格／伪代码小模型管线建议，2026-11-06 19:33:57北京时间", "url": "https://x.com/i/status/2118668202268127659"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选1赞、13浏览、0转发；便宜为设想，不存在已测成本和成功率。"],
+    "en": {
+      "title": "A cheap open-model reconstruction pipeline idea: synthesize manuals and behavior before recovering pseudocode",
+      "summary": "A reader proposes small models combining manuals, forum posts and computer-use observations into behavioral specifications before partially decompiling software to pseudocode. No target or implementation is supplied.",
+      "description": "At 19:33:57 Beijing time on November 6, 2026, a reader proposes a pipeline using low-end, cheap open-source models: ingest user manuals, forum posts and computer-use observations, compile a document describing intended behavior, then half-decompile the software into pseudocode.\n\nThe concrete proposal combines external descriptions and visible behavior before adding code structure, splitting expensive single-model investigation into stages intended for smaller models. The post does not establish that computer use has occurred, and half-decompilation has no defined coverage metric. Software, model, tools, specification format, code and cost measurements are unspecified.\n\nThe author's claim that AI has not become smarter in a year is not adopted as fact or an experimental result. Cheap is not proof of measured cost reduction. No pipeline, target or model was run here. REA is not mentioned; retained as an unimplemented research-tool idea.",
+      "metadata": ["Candidate: 1 like, 13 views, 0 reposts. Cheap is an aspiration; measured cost and success rates are absent."],
+      "source_labels": ["Reader's manual/behavior-specification/pseudocode pipeline proposal for small models, November 6, 2026 at 19:33:57 Beijing time"]
+    }
+  },
+  {
+    "id": "gemini-argon-ghidra-register-analysis-report",
+    "title": "Ghidra寄存器分析：Özcan Çelik称Gemini Argon解释了Opus未解内容",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Özcan Çelik称数周Ghidra静态分析实验中，Gemini Argon详解了Opus5.5没找到或没理解的寄存器；没有目标、地址或正确性对照。",
+    "description": "2026年11月6日19:38:02（北京时间），Özcan Çelik（@ozcancelik）用土耳其语报告，在自己已用Ghidra静态分析、实验数周的项目里，Gemini Argon像百科全书般列出了Opus5.5没找到或没理解的寄存器，因此收回此前仅说它还不错的评价。Ghidra是二进制分析工具；具体工作是解释静态分析遇到的寄存器信息。\n\n作者没有说明目标软件或设备、处理器架构、寄存器名、地址、输入提示、模型版本或对照答案。数周是项目已持续的背景，不是Gemini本次处理耗时，也不能据语气认定解释全部正确或普遍优于Opus。\n\n补取原帖确认署名与完整正文，没有附图或代码。工具归因是作者自述，未提REA；本合集未打开目标、运行Ghidra或模型，按未核验分析经验保留，不猜为已有STM32寄存器工作流。",
+    "sources": [{"label": "Özcan Çelik的Gemini／Opus与Ghidra寄存器分析自述，2026-11-06 19:38:02北京时间", "url": "https://x.com/i/status/2118669229901893796"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选1赞、14浏览、0转发；数周为项目背景，详尽程度不等于分析正确性。"],
+    "en": {
+      "title": "Ghidra register analysis: Özcan Çelik says Gemini Argon explained what Opus had not",
+      "summary": "Özcan Çelik says Gemini Argon detailed registers Opus 5.5 had missed or not understood in a weeks-long Ghidra experiment. Target, addresses and correctness comparisons are absent.",
+      "description": "At 19:38:02 Beijing time on November 6, 2026, Özcan Çelik (@ozcancelik) reports in Turkish that, in a project experimentally analyzed with Ghidra for several weeks, Gemini Argon listed registers like an encyclopedia where Opus 5.5 had failed to find or understand them. The author therefore retracts an earlier merely not-bad assessment. Ghidra is a binary-analysis tool; the concrete work is explaining register information encountered during static analysis.\n\nTarget software/device, processor architecture, register names, addresses, prompts, model revisions and reference answers are unspecified. Several weeks describes the ongoing project, not Gemini's processing time. Enthusiasm does not establish correct explanations or general superiority over Opus.\n\nRetrieval confirms authorship and complete text, with no image or code. Tool attribution is the author's report; REA is not mentioned. No target was opened, Ghidra executed or model run here. Retained as unverified analysis experience, without guessing identity with the collected STM32 register-workflow idea.",
+      "metadata": ["Candidate: 1 like, 14 views, 0 reposts. Several weeks is project background; detail does not establish correctness."],
+      "source_labels": ["Özcan Çelik's Gemini/Opus and Ghidra register-analysis account, November 6, 2026 at 19:38:02 Beijing time"]
+    }
+  },
+  {
+    "id": "ifit-treadmill-claude-screen-unlock-secondary-report",
+    "title": "iFIT跑步机屏幕：转述Claude固件研究后安装流媒体，未核验安全与可用性",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "中文帖子称海外开发者用Claude Code研究iFIT跑步机固件，一天半后解除屏幕限制安装流媒体；没有型号、原始报告或测试，不能确认解锁成功。",
+    "description": "2026年11月6日19:41:39（北京时间），一条中文帖子转述海外开发者给女友买智能跑步机后，因屏幕功能受iFIT订阅限制，使用Claude Code逆向固件、一天半解除原厂校验并安装流媒体。目标是恢复自有设备屏幕的应用安装自由，不是修改电机控制或训练课程服务。\n\n原文未具名开发者、品牌型号、固件版本、原始文章或仓库；具体校验、安装方法与运行证据均缺失。一天半和成功为转述，不是本合集观察；不能扩写为绕过付费内容、恢复全部功能或对所有iFIT设备适用。19:44:30的回复只赞叹Claude固件研究，不提供独立验证。\n\n本合集未操作跑步机、下载固件或执行Claude；不能据此保证运动设备安全、保修、恢复路径或授权合规。与已有Nautilus坏按键／ESP32控制案例目标不同，按未核验的具体设备屏幕研究报告收录。",
+    "sources": [{"label": "iFIT跑步机屏幕与Claude固件研究的二手报告，2026-11-06 19:41:39北京时间", "url": "https://x.com/i/status/2118670143530336628"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、21浏览、0转发；一天半、解除校验及流媒体安装均未核验。"],
+    "en": {
+      "title": "An iFIT treadmill screen: an account of Claude firmware research and streaming-app installation, without safety or usability verification",
+      "summary": "A Chinese post claims a developer used Claude Code on iFIT treadmill firmware and removed screen restrictions in a day and a half to install streaming apps. Model, primary account and tests are absent; successful unlocking is not confirmed.",
+      "description": "At 19:41:39 Beijing time on November 6, 2026, a Chinese post relays a story about a developer buying a smart treadmill for their girlfriend, finding the screen restricted by an iFIT subscription, and using Claude Code to reverse its firmware, remove manufacturer checks in a day and a half and install streaming apps. The goal is restoring app-installation freedom on an owned device's screen, not modifying motor controls or training-course services.\n\nDeveloper, brand/model, firmware revision, primary article and repository are unidentified. The specific checks, installation method and execution evidence are absent. A day and a half and success are secondary claims, not observations by this collection. Paid-content bypass, full functionality and support for all iFIT devices are not inferred. A 19:44:30 reply merely praises the Claude firmware work and adds no independent verification.\n\nNo treadmill was operated, firmware downloaded or Claude executed here. Exercise-equipment safety, warranty, recovery and authorization are not guaranteed. This differs in target from the collected Nautilus broken-button/ESP32-control case; retained as an unverified report about a specific device-screen investigation.",
+      "metadata": ["Candidate: 0 likes, 21 views, 0 reposts. A day and a half, removed checks and streaming-app installation remain unverified."],
+      "source_labels": ["Secondary iFIT treadmill-screen and Claude firmware-research report, November 6, 2026 at 19:41:39 Beijing time"]
+    }
+  },
+  {
     "id": "rusty-scanruler-gpt-zamak-casting-reconstruction",
     "title": "破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本",
     "category": "hardware", "rea": "other-ai", "status": "in-progress",
@@ -3370,21 +3578,22 @@
     "id": "craft-anything-agent-study-rebuild-compare-report",
     "title": "Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界",
     "category": "apps", "rea": "other-ai", "status": "in-progress",
-    "summary": "两条候选介绍研究原版、Agent建造与对照迭代；公开项目区分Clean room／Deep，承认Codex、部分动态工具和游戏行为检查尚有限，不是任意软件几分钟完整复刻。",
-    "description": "2026年11月2日09:51:48，Smartpig（@Smartpigai）介绍Craft Anything，让AI研究网站、应用或游戏后建新项目并对照修改；11:15:23，明子206（@mingzi206）进一步宣传全量自动Hook、符号执行架构图和几分钟完成。按项目名补查storytold/craft-anything公开仓库，读取固定提交32b80be89061896921d370e8f4f952ab707e2270的README与STATUS。提交时间为当日11:40:37北京时间，STATUS标11月2日；其中10月18日实跑和10月23日审计是较早项目记录，不是本窗口的新实验。\n\n项目称纯Rust引擎提供314个CLI／MCP工具，其中298个属引擎，桌面界面与Agent共用研究、构建、检查、迭代流程。默认Clean room只看访客可见界面、用户图片与描述，拒绝内部读取；Deep允许代码、文件、网站JavaScript与可选Ghidra。建造优先调用用户自己的Claude Code，分析可接API或本地兼容服务；Codex适配器存在但尚未在真实安装中验证。Clean room是项目模式名，不是本合集对净室合规或法律安全的认证。\n\nSTATUS自报10月18日Windows headless实跑：网页96%相似度、1.5分钟；小桌面应用9分钟，但仅以构建检查；Rust游戏到Build即停止、未到Check。网页相似度是项目检查指标，不等于功能等价。文档还说明游戏self-test由生成物自己报告，尚未独立观察游戏过程或测量其数值；运行研究只启动原应用一次采窗口和UI树，不持续操控，Frida会话工具部分模拟，Clean room完整构建尚无实跑。这些具体边界不支持候选“记录所有系统调用／内存迁移”“几分钟完成任意克隆”等泛化。\n\nREADME称early alpha并区分已做与部分完成，安装包说明不作为本合集实际下载或跨平台测试记录；本文只阅读公开文档与提交元数据，没有执行目标、构建仓库、安装依赖或重跑作者测试。与ArtCraft应用套件的Adobe归因争议分开记录，不因同组织而认定该套件此前逆向了Adobe。",
+    "summary": "Craft Anything研究原版、交给Agent建造并对照迭代；11月6日新转述称320工具、三种屏宽比较，区别于较早固定文档的314工具，不等于任意软件已完整复刻。",
+    "description": "2026年11月2日09:51:48，Smartpig（@Smartpigai）介绍Craft Anything，让AI研究网站、应用或游戏后建新项目并对照修改；11:15:23，明子206（@mingzi206）进一步宣传全量自动Hook、符号执行架构图和几分钟完成。按项目名补查storytold/craft-anything公开仓库，读取固定提交32b80be89061896921d370e8f4f952ab707e2270的README与STATUS。提交时间为当日11:40:37北京时间，STATUS标11月2日；其中10月18日实跑和10月23日审计是较早项目记录，不是本窗口的新实验。\n\n项目称纯Rust引擎提供314个CLI／MCP工具，其中298个属引擎，桌面界面与Agent共用研究、构建、检查、迭代流程。默认Clean room只看访客可见界面、用户图片与描述，拒绝内部读取；Deep允许代码、文件、网站JavaScript与可选Ghidra。建造优先调用用户自己的Claude Code，分析可接API或本地兼容服务；Codex适配器存在但尚未在真实安装中验证。Clean room是项目模式名，不是本合集对净室合规或法律安全的认证。\n\nSTATUS自报10月18日Windows headless实跑：网页96%相似度、1.5分钟；小桌面应用9分钟，但仅以构建检查；Rust游戏到Build即停止、未到Check。网页相似度是项目检查指标，不等于功能等价。文档还说明游戏self-test由生成物自己报告，尚未独立观察游戏过程或测量其数值；运行研究只启动原应用一次采窗口和UI树，不持续操控，Frida会话工具部分模拟，Clean room完整构建尚无实跑。这些具体边界不支持候选“记录所有系统调用／内存迁移”“几分钟完成任意克隆”等泛化。\n\n11月6日17:23:57（北京时间）的新转述称早期alpha提供320个CLI／MCP工具，网页重建会在三种屏幕宽度与原版比较，不像则继续迭代。这增加了较晚的工具数量说法和响应式对照用途，但没有固定版本、三种宽度具体值、目标网站或结果记录。320不覆盖11月2日固定文档的314，两者不能据此推算已实现六项新功能；三宽比较也不证明后端与原版等价。\n\nREADME称early alpha并区分已做与部分完成，安装包说明不作为本合集实际下载或跨平台测试记录；本文只阅读公开文档与提交元数据，没有执行目标、构建仓库、安装依赖或重跑作者测试。与ArtCraft应用套件的Adobe归因争议分开记录，不因同组织而认定该套件此前逆向了Adobe。",
     "sources": [
       {"label": "候选：Smartpig介绍Craft Anything流程，2026-11-02", "url": "https://x.com/i/status/2117072151476080832"},
       {"label": "候选补证：明子206的Rust／动态观察宣传，2026-11-02", "url": "https://x.com/i/status/2117093182441972165"},
       {"label": "补充项目README：固定提交，2026-11-02", "url": "https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/README.md"},
-      {"label": "补充项目STATUS：含10月实跑与11月2日边界，固定提交", "url": "https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/docs/STATUS.md"}
+      {"label": "补充项目STATUS：含10月实跑与11月2日边界，固定提交", "url": "https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/docs/STATUS.md"},
+      {"label": "新增转述：320工具及三种屏宽比较，2026-11-06 17:23:57北京时间", "url": "https://x.com/i/status/2118635487527145650"}
     ],
-    "snapshot_date": "2026-11-02", "metadata": ["候选封存快照：Smartpig 8赞、692浏览、2转发；明子206 2赞、59浏览、0转发。", "314工具、96%、1.5分钟、9分钟及审计测试为项目口径，未独立复现；Codex实装、Clean room实跑与部分动态分析待验证。"],
+    "snapshot_date": "2026-11-06", "metadata": ["候选封存快照：Smartpig 8赞、692浏览、2转发；明子206 2赞、59浏览、0转发。", "314工具、96%、1.5分钟、9分钟及审计测试为项目口径，未独立复现；Codex实装、Clean room实跑与部分动态分析待验证。", "11月6日新增候选6赞、2038浏览、0转发；320工具与三宽比较是较晚二手口径，未取得该版本实测。"],
     "en": {
       "title": "Craft Anything: a Rust study-and-rebuild workbench with explicit limits on project-reported checks",
-      "summary": "Two candidates promote studying originals, agent building and comparison loops. Public documentation distinguishes Clean room from Deep and limits Codex, dynamic tools and game checks; this is not proven complete cloning of arbitrary software in minutes.",
-      "description": "At 09:51:48 Beijing time on November 2, 2026, Smartpig (@Smartpigai) introduces Craft Anything as studying a website, app or game, building a new project and comparing/refining it. At 11:15:23, mingzi206 promotes comprehensive automatic hooking, symbolic-execution architecture graphs and completion in minutes. A name lookup found the public storytold/craft-anything repository. This review read README and STATUS pinned to 32b80be89061896921d370e8f4f952ab707e2270, committed at 11:40:37 Beijing time that day. STATUS is dated November 2; its October 18 live runs and October 23 audit are earlier project records, not new experiments in this window.\n\nThe project describes a pure-Rust engine with 314 CLI/MCP tools, 298 in the engine itself, sharing a study/build/check/refine workflow between the desktop app and agents. Default Clean room mode uses visitor-visible UI, user pictures and descriptions and refuses internal reads; Deep permits code, files, website JavaScript and optional Ghidra. Building primarily invokes the user's own Claude Code; analysis can use APIs or local compatible services. A Codex adapter exists but is not verified on a real installation. Clean room is the project's mode name, not this collection's legal or clean-room-compliance certification.\n\nSTATUS reports October 18 Windows headless runs: a website at 96% likeness in 1.5 minutes; a small desktop app in 9 minutes, checked only by building; and a Rust game stopped at Build before Check. Website likeness is a project metric, not functional equivalence. Game self-tests are the generated build's own reports, not independently observed gameplay or measured values. Runtime study starts the original once to capture its window and UI tree rather than driving it over time; Frida sessions are partly simulated and no live full Clean room build has been run. These limits do not substantiate candidate generalizations about recording every syscall/memory transition or cloning arbitrary software in minutes.\n\nThe README labels the project early alpha and distinguishes working from partial components. Installer descriptions are not downloads or cross-platform tests by this collection. Only public documentation and commit metadata were read; no target or repository code, dependencies or author tests were executed. This entry is distinct from the ArtCraft app suite's Adobe-attribution dispute: common organizational ownership does not establish that those apps reverse-engineered Adobe.",
-      "metadata": ["Sealed candidate snapshots: Smartpig, 8 likes, 692 views, 2 reposts; mingzi206, 2 likes, 59 views, 0 reposts.", "314 tools, 96%, 1.5 minutes, 9 minutes and audit tests are project reports, not independently reproduced. Real Codex installation, live Clean room builds and some dynamic analysis remain unverified."],
-      "source_labels": ["Candidate: Smartpig introduces the Craft Anything workflow, November 2, 2026", "Supporting candidate: mingzi206's Rust/dynamic-observation promotion, November 2, 2026", "Supplementary project README at a pinned November 2, 2026 commit", "Supplementary pinned STATUS, including October live runs and November 2 limitations"]
+      "summary": "Craft Anything studies originals, delegates building to agents and compares iterations. A November 6 account claims 320 tools and three-width comparisons, distinct from the older pinned 314-tool documentation, not proof of complete cloning of arbitrary software.",
+      "description": "At 09:51:48 Beijing time on November 2, 2026, Smartpig (@Smartpigai) introduces Craft Anything as studying a website, app or game, building a new project and comparing/refining it. At 11:15:23, mingzi206 promotes comprehensive automatic hooking, symbolic-execution architecture graphs and completion in minutes. A name lookup found the public storytold/craft-anything repository. This review read README and STATUS pinned to 32b80be89061896921d370e8f4f952ab707e2270, committed at 11:40:37 Beijing time that day. STATUS is dated November 2; its October 18 live runs and October 23 audit are earlier project records, not new experiments in this window.\n\nThe project describes a pure-Rust engine with 314 CLI/MCP tools, 298 in the engine itself, sharing a study/build/check/refine workflow between the desktop app and agents. Default Clean room mode uses visitor-visible UI, user pictures and descriptions and refuses internal reads; Deep permits code, files, website JavaScript and optional Ghidra. Building primarily invokes the user's own Claude Code; analysis can use APIs or local compatible services. A Codex adapter exists but is not verified on a real installation. Clean room is the project's mode name, not this collection's legal or clean-room-compliance certification.\n\nSTATUS reports October 18 Windows headless runs: a website at 96% likeness in 1.5 minutes; a small desktop app in 9 minutes, checked only by building; and a Rust game stopped at Build before Check. Website likeness is a project metric, not functional equivalence. Game self-tests are the generated build's own reports, not independently observed gameplay or measured values. Runtime study starts the original once to capture its window and UI tree rather than driving it over time; Frida sessions are partly simulated and no live full Clean room build has been run. These limits do not substantiate candidate generalizations about recording every syscall/memory transition or cloning arbitrary software in minutes.\n\nA new account at 17:23:57 Beijing time on November 6 claims the early alpha provides 320 CLI/MCP tools and compares rebuilt websites with originals at three screen widths, iterating on differences. This adds a later tool-count claim and a responsive-comparison use case, not a pinned version, actual widths, target website or result records. The 320 claim does not overwrite the 314 in the November 2 pinned docs or establish six newly implemented features. Three-width comparison does not prove backend equivalence.\n\nThe README labels the project early alpha and distinguishes working from partial components. Installer descriptions are not downloads or cross-platform tests by this collection. Only public documentation and commit metadata were read; no target or repository code, dependencies or author tests were executed. This entry is distinct from the ArtCraft app suite's Adobe-attribution dispute: common organizational ownership does not establish that those apps reverse-engineered Adobe.",
+      "metadata": ["Sealed candidate snapshots: Smartpig, 8 likes, 692 views, 2 reposts; mingzi206, 2 likes, 59 views, 0 reposts.", "314 tools, 96%, 1.5 minutes, 9 minutes and audit tests are project reports, not independently reproduced. Real Codex installation, live Clean room builds and some dynamic analysis remain unverified.", "New November 6 candidate: 6 likes, 2,038 views, 0 reposts. The 320 tools and three-width comparison are later secondary claims, without tests for that revision obtained here."],
+      "source_labels": ["Candidate: Smartpig introduces the Craft Anything workflow, November 2, 2026", "Supporting candidate: mingzi206's Rust/dynamic-observation promotion, November 2, 2026", "Supplementary project README at a pinned November 2, 2026 commit", "Supplementary pinned STATUS, including October live runs and November 2 limitations", "New account: 320 tools and three-screen-width comparison, November 6, 2026 at 17:23:57 Beijing time"]
     }
   },
   {

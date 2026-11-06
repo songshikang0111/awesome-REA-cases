@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [REDMI K20 Pro刷iOS16.5：测试固件发布的未核验转述](../cases/redmi-k20-pro-ios165-ai-port-secondary-report.md) — 资讯帖称开发者“你说喜欢是装的”放出REDMI K20 Pro的iOS16.5测试固件，以大模型辅助折腾旧机为背景；启动、驱动和AI具体参与均未核实。 **[其他 AI 逆向 · 待验证]**
+- [Hackintosh实验转述：AI与逆向辅助，演示仍未核验](../cases/hackintosh-ai-reverse-engineering-experiment-report.md) — 印尼语帖子介绍AI与逆向辅助的Hackintosh实验，主动说明设备演示未核验、macOS许可限苹果硬件；没有型号、方法或启动日志。 **[其他 AI 逆向 · 待验证]**
+- [iFIT跑步机屏幕：转述Claude固件研究后安装流媒体，未核验安全与可用性](../cases/ifit-treadmill-claude-screen-unlock-secondary-report.md) — 中文帖子称海外开发者用Claude Code研究iFIT跑步机固件，一天半后解除屏幕限制安装流媒体；没有型号、原始报告或测试，不能确认解锁成功。 **[其他 AI 逆向 · 待验证]**
 - [破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本](../cases/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty报告GPT用ScanRuler工具从破损铸件的3D扫描生成首版副本，承认底部法兰更厚、细节仍粗；尚无打印、装配或尺寸验证。 **[其他 AI 逆向 · 进行中]**
 - [Mac显卡驱动互通设想：Shivam Jain建议Claude与REA，移植说法待核实](../cases/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain建议Claude搭配REA做GPU互通，援引未具名NVIDIA驱动到Mac的说法，并提Huawei开放替代与AMD固件合作；没有项目或硬件验证。 **[REA · 待验证]**
 - [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](../cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**
