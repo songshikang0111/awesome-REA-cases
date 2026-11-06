@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [naresh的视频拆解实验：正用Claude与Codex尝试，暂无结果](../cases/naresh-claude-codex-video-reconstruction-experiment.md) — naresh在交流实验近况时说正在用Claude和Codex逆向一个视频；未给参考片、拆解方法或产物，不能推定使用REA-VIDEO或已经重做成功。 **[其他 AI 逆向 · 进行中]**
+- [Jungle Outpost：Pizza Yap反推Peekcell像素风，承认尚不及原作](../cases/pizza-yap-peekcell-jungle-outpost-style-prompt.md) — Pizza Yap公开重建Peekcell风格的完整HTML生成提示词，细化230×230画布、三面投影、配色与10角色交互；自评仍不够像，未验证生成文件。 **[其他 AI 逆向 · 分析测试]**
 - [RoboSimStudio：从手机视频反推物理仿真孪生的未核验转述](../cases/robosimstudio-video-physical-twin-agent-report.md) — 谁是藏镜人转述RoboSimStudio让Agent对比真实形变与仿真误差，调整接触和摩擦参数；一小时及伯克利／英伟达归属均未由原始项目确认。 **[其他 AI 逆向 · 待验证]**
 - [Claude读哪些段落：转述Tomek Rudzki研究Brave检索与关键词选择](../cases/tomek-rudzki-claude-brave-passage-selection-report.md) — 帖子转述Tomek Rudzki反推Claude选读网页的行为，称使用Brave及旧关键词公式；无查询样本、公式正文或复测，不能当官方架构。 **[未确认使用 REA · 待验证]**
 - [南晚的个人文风反推：从自有语料提取规则，再做n8n工作流实验](../cases/personal-writing-style-reconstruction-n8n-experiment.md) — 南晚提出从大量自有文字恢复用词与写作规则，动态注入允许项和禁止项，称n8n首轮较符合但仍需调优；没有盲测或公开工作流。 **[其他 AI 逆向 · 进行中]**

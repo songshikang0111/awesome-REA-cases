@@ -2,6 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Shopify Editions到个人站：Luca把HTML-in-Canvas研究整理成Claude Skill](../cases/luca-shopify-editions-html-canvas-claude-skill.md) — Luca Vizzielli称研究Shopify Editions的HTML-in-Canvas与WebGL，并重建个人站、整理200行starter与QA为Claude Code技能；未核查实现或兼容。 **[其他 AI 逆向 · 待验证]**
+- [Cap美颜改造：向阳乔木用REA研究剪映，报告不如Claude直接写](../cases/vista8-cap-jianying-beauty-rea-comparison.md) — 向阳乔木为Cap增加美颜美白，让REA参考剪映，再用人眼与AI对比，认为不及Claude直接调研实现；无算法、代码或客观画质测试。 **[REA · 分析测试]**
+- [OpenCode Android客户端隐私审计idea：Potato建议反编译APK交Agent查看](../cases/potato-opencode-android-apk-agent-privacy-audit-idea.md) — Potato回应自己OpenCode Android客户端的数据安全疑问，建议看源码或提取Play商店APK反编译后交Agent检查；未报告实际审计或安全结论。 **[其他 AI 逆向 · 待验证]**
+- [solana-decompile：Clawd宣布Agent技能目录加入Solana反编译资料](../cases/clawddevs-solana-decompile-agent-skill-catalog.md) — Clawd称277项Agent技能包加入solana-decompile，目录开放、包下载限持有者；只有发布说明，没有技能正文、目标合约或测试。 **[未确认使用 REA · 相关项目]**
+- [ClaudeWilson：2WalterW研究Claude收集字段，防封效果未证实](../cases/claudewilson-telemetry-field-research-report.md) — 2WalterW称花一周逆向Claude收集字段并发布ClaudeWilson；地区、运营商和时区说法是作者解释，没有证据保证防封或确认AI参与研究。 **[未确认使用 REA · 待验证]**
+- [重建更好的Unity：读者给Claude与REA的引擎构想](../cases/claude-rea-unity-engine-rebuild-reader-idea.md) — 西语回复设想让Claude安装REA技能，逆向后做更好的Unity；只有夸张提示，没有开工、引擎功能或测试证据。 **[REA · 待验证]**
+- [相机SD卡视频修复：Claude恢复碎片的转述，机制仍是解释](../cases/claude-camera-sd-video-repair-secondary-account.md) — 帖子转述摄影师让Claude修复SD卡损坏视频，并用FAT、MP4头与帧偏移解释；没有原始文件或日志，不能确认只改几百字节。 **[其他 AI 逆向 · 待验证]**
+- [Swipt开屏广告Swiplet：转述Opus研究iOS应用与广告SDK](../cases/swipt-swiplet-ios-launch-ad-claude-research.md) — 贝吉塔Again转述开发者用ipatool、unfairplay与Opus5.5研究iOS广告SDK，为Swipt做自动跳过开屏广告的扩展；兼容、学习与延迟未核验。 **[其他 AI 逆向 · 待验证]**
+- [Livsun的Lightroom式编辑器：REA行为研究流程与60ms自述](../cases/livsun-rea-opus-lightroom-style-editor-report.md) — Livsun称Opus5.5从零做出Lightroom式编辑器，列REA研究滑杆、撤销、预设和导出流程；1.7MP约60ms未提供代码或基准。 **[REA · 待验证]**
 - [REA前端按钮设想：本地模型分析，再把报告交回Codex或Claude](../cases/rea-frontend-local-model-report-handoff-idea.md) — 读者提出由Codex／Claude做前端按钮调用REA，接本地模型或DeepSeek分析后回传报告；尚无界面、仓库或目标测试。 **[REA · 待验证]**
 - [Spark上的Agent逆向工具包：读者计划组合radare2与其他工具](../cases/spark-radare2-agentic-rea-toolkit-idea.md) — 读者计划为自己的Spark构建含radare2的Agent逆向工具包，希望不只是发一句提示；没有代码、模型或已分析目标。 **[未确认使用 REA · 待验证]**
 - [便宜开源模型的重建管线idea：先汇总手册与行为，再恢复伪代码](../cases/cheap-open-model-manual-pseudocode-rebuild-pipeline-idea.md) — 读者建议小模型综合用户手册、论坛与电脑操作，先写行为规格，再把软件部分反编译为伪代码；没有目标软件或实现。 **[其他 AI 逆向 · 待验证]**
@@ -733,7 +742,7 @@
 - [Cursor：接入自定义中转与个人 Codex / Claude Code 额度的逆向自述](../cases/cursor-custom-relay-foxsnowing-report.md) — SnowingFox 称逆向 Cursor 后可用自定义中转和个人 Agent 额度；AI 是接入对象，未确认参与逆向。 **[未确认使用 REA · 相关项目]**
 - [Open Scrantic：用 REA 与 Claude Code 重建 Johnny Castaway 屏保引擎](../cases/johnny-castaway-rust-rea.md) — 从 Windows 3.1 屏保反汇编恢复格式、脚本与引擎，Rust 实现支持三平台；需自备原资产，存在刻意偏差。 **[REA · 进行中]**
 - [REA Workspace Template：把原件、分析副本与证据分开的工作区](../cases/rea-workspace-template-gundy.md) — Gundy 的公开模板为 Claude Code / Codex 配置项目级 REA、证据笔记与样本校验；12 项测试和 JS / HAR 验收仅为项目记录。 **[REA · 相关项目]**
-- [Ableton Live 12：96 小时研究与另一位使用者的复杂度评估](../cases/ableton-live12-agent-96h.md) — patrick__eff的96小时尝试仍无成果验收；taelo_kim另称REA/Claude评估89MB程序后认为个人难以复制，继续付费。 **[REA · 进行中]**
+- [Ableton研究：96小时尝试、复杂度评估与Flo的下一步计划](../cases/ableton-live12-agent-96h.md) — patrick__eff的96小时尝试无验收，taelo_kim的REA／Claude评估认为难以复制；11月6日Flo另计划用Opus5.5与REA研究Ableton，尚未报告实施。 **[REA · 进行中]**
 - [Decepticon Reverser：把 REA/Ghidra 静态证据接进授权安全调查](../cases/decepticon-reverser-rea-project.md) — 公开项目按需启动逆向工作负载并保留 Evidence；XBOW 102/104 是项目渗透基准，不是逆向正确率。 **[REA · 相关项目]**
 - [疫情救济网站：让 AI 调查旧系统后门的 idea](../cases/pandemic-relief-sites-ai-audit-idea.md) — mentaldischarge 提出用 AI 反编译州级救济网站；外包、后门与损失归因没有证据。 **[其他 AI 逆向 · 待验证]**
 - [fork pi 与双 Spark：用 GLM-5.3-flash 试 REA 的启动报告](../cases/pi-glm-two-sparks-rea-trial.md) — alexrudloff 在自己的 pi 分支中试用 REA，尚无具名目标与分析结果。 **[REA · 进行中]**

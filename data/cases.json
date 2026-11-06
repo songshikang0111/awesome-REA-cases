@@ -1,5 +1,213 @@
 [
   {
+    "id": "naresh-claude-codex-video-reconstruction-experiment",
+    "title": "naresh的视频拆解实验：正用Claude与Codex尝试，暂无结果",
+    "category": "algorithms", "rea": "other-ai", "status": "in-progress",
+    "summary": "naresh在交流实验近况时说正在用Claude和Codex逆向一个视频；未给参考片、拆解方法或产物，不能推定使用REA-VIDEO或已经重做成功。",
+    "description": "2026年11月6日23:19:23（北京时间），naresh（@nksages）回复Gilles AC，说目前正在用Claude与Codex对一个视频做reverse engineering，想看看会发展到哪里。补取同串确认作者是在技术、AI与3D实验交流中报告自己的当前尝试；Gilles把照片转3D的工作是另一人的项目，不合并为本例成果。\n\n可确认的是作者声明正在研究一个视频，明确使用两个AI工具；没有视频名称、长度、授权来源、目标风格、软件、分镜报告、提示词或重做结果。拆解究竟指视觉制作、代码动画还是其他结构尚不清楚，不自行补出算法或准确率，也不推断在使用rea-video或morluto/rea。\n\n按进行中的个人视频研究短报收录，不将社交交流升级为完成展示。本合集未取得或运行目标、观看对照、调用模型或验证产物。",
+    "sources": [{"label": "naresh的Claude／Codex视频研究近况，2026-11-06 23:19:23北京时间", "url": "https://x.com/i/status/2118724937091567727"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、11浏览、0转发；没有可核验结果，进行中仅指作者所报状态。"],
+    "en": {
+      "title": "naresh's video investigation: trying Claude and Codex, with no results yet",
+      "summary": "naresh says they are reverse-engineering a video with Claude and Codex. Reference footage, analysis method and artifacts are absent; REA-VIDEO use and a successful remake are not inferred.",
+      "description": "At 23:19:23 Beijing time on November 6, 2026, naresh (@nksages) tells Gilles AC they are currently trying to reverse-engineer a video using Claude and Codex and want to see where it leads. Thread retrieval confirms this is a personal progress report in a tech, AI and 3D experiment conversation. Gilles's photo-to-3D work is another person's project, not a result of this experiment.\n\nThe supported claim is that the author is investigating a video with two named AI tools. Video title, duration, authorized source, target style, software, shot report, prompt and remake results are absent. Whether the analysis concerns visual production, code animation or another structure is unclear. No algorithm or accuracy is invented, and use of rea-video or morluto/rea is not inferred.\n\nRetained as an ongoing personal video-research brief, not a completed demonstration. No target was obtained or run, comparison watched, model called or artifact validated here.",
+      "metadata": ["Candidate: 0 likes, 11 views, 0 reposts. No verifiable result; in progress refers only to the author's stated stage."],
+      "source_labels": ["naresh's Claude/Codex video-investigation progress report, November 6, 2026 at 23:19:23 Beijing time"]
+    }
+  },
+  {
+    "id": "kobez-tidbyt-gen1-codex-custom-firmware-api",
+    "title": "第一代Tidbyt重新用起来：kobez称Codex协助自定义固件和API",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "kobez称闲置的gen1 Tidbyt已运行自定义固件，并做API连接OpenClaw与本地服务；固件来源和修改方法未公开，不能认定从零逆向或完全离线。",
+    "description": "2026年11月6日23:24:56（北京时间），kobez（@kobez_01）称自有第一代Tidbyt显示设备因公司放弃项目而闲置，交给Codex后已运行自定义固件。作者还为设备做了API，让OpenClaw及包括Codex在内的其他本地服务接入；目的是重新利用既有设备并个性化显示与服务连接。\n\n补取原帖确认署名；公司放弃项目是作者对背景的说法，未核查厂商公告。帖子没有固件名称、原固件版本、协议、代码、接口定义、刷写日志或恢复测试。不能说Codex从零逆向并重写全部固件，也不能假定使用Tronbyt；基线Sean Oliver的Claude／Tronbyt迁移是另一位作者的不同项目，不共享其备份或测试结果。\n\n自定义固件已运行和API可接入均为作者自述，没有独立设备验证。本地服务可连接不代表模型与整个链路完全离线。未提REA；本合集未下载固件、刷写设备或调用API，保留进行中。",
+    "sources": [{"label": "kobez的gen1 Tidbyt、Codex固件与API报告，2026-11-06 23:24:56北京时间", "url": "https://x.com/i/status/2118726331651268877"}],
+    "snapshot_date": "2026-11-06", "metadata": ["封存候选0赞、38浏览、0转发；固件运行和接口连通没有公开日志，非独立复现。"],
+    "en": {
+      "title": "Reviving a first-generation Tidbyt: kobez reports Codex-assisted custom firmware and an API",
+      "summary": "kobez says an idle gen1 Tidbyt now runs custom firmware with an API for OpenClaw and local services. Firmware provenance and modification methods are unpublished; from-scratch reversing and fully offline operation are not established.",
+      "description": "At 23:24:56 Beijing time on November 6, 2026, kobez (@kobez_01) says a first-generation Tidbyt display had sat unused after the company abandoned the project. After being pointed at it, Codex reportedly helped get custom firmware running. The author also built an API so OpenClaw and other local services, including Codex, can connect. The goal is to reuse existing hardware and personalize its display and service connections.\n\nRetrieval confirms attribution. Company abandonment is the author's background account, not a checked vendor announcement. Firmware name, stock revision, protocol, code, interface definitions, flashing logs and restore tests are absent. This does not establish Codex reversing and rewriting all firmware from scratch, nor is Tronbyt assumed. Sean Oliver's baseline Claude/Tronbyt migration is a different author's project; its backup and test outcomes are not transferred here.\n\nRunning firmware and API connectivity are author claims, without independent device verification. Connecting local services does not make the models or complete path fully offline. REA is not mentioned. No firmware was downloaded, device flashed or API called here; the entry remains in progress.",
+      "metadata": ["Sealed candidate: 0 likes, 38 views, 0 reposts. Firmware operation and API connectivity lack public logs and are not independently reproduced."],
+      "source_labels": ["kobez's gen1 Tidbyt, Codex firmware and API account, November 6, 2026 at 23:24:56 Beijing time"]
+    }
+  },
+  {
+    "id": "luca-shopify-editions-html-canvas-claude-skill",
+    "title": "Shopify Editions到个人站：Luca把HTML-in-Canvas研究整理成Claude Skill",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Luca Vizzielli称研究Shopify Editions的HTML-in-Canvas与WebGL，并重建个人站、整理200行starter与QA为Claude Code技能；未核查实现或兼容。",
+    "description": "2026年11月6日23:30:01（北京时间），Luca Vizzielli（@Viluca94）称逆向研究了Shopify新Editions站，把真实HTML逐帧绘入WebGL场景，使页面可弯曲、发光并三维移动，同时保留文字与可点击链接，随后用该结构重建自己的站点。帖子称视频前四秒为Shopify、其后是自己的站，补取确认视频附件存在，但未观看比较。\n\n作者把难点定位为保留文本、链接、SEO、无障碍与不支持API的浏览器／手机回退，并称HTML-in-Canvas当时仍处Chrome origin trial，多数访客不支持。研究结果被整理为Claude Code Skill，含200行、零依赖starter、Chrome陷阱及上线QA，强调是结构而非固定外观模板。AI明确进入后续技能交付，但作者未说明用模型完成前期调查的具体步骤。\n\nSkill通过评论索取，未取得公开文件、网站源码、API文档、兼容矩阵或QA结果；200行、零依赖和浏览器状态均按作者说法，不写成独立核验。未发送评论、运行页面或调用Agent，REA未提及。收录为可识别的网页行为重建与Agent资料报告，不保证SEO或无障碍已通过。",
+    "sources": [{"label": "Luca的Shopify Editions研究、个人站与Claude Skill介绍，2026-11-06 23:30:01北京时间", "url": "https://x.com/i/status/2118727611476066751"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、13浏览、0转发；200行starter为作者口径，未取得文件或执行QA。"],
+    "en": {
+      "title": "From Shopify Editions to a personal site: Luca packages HTML-in-Canvas research as a Claude Skill",
+      "summary": "Luca Vizzielli reports studying Shopify Editions' HTML-in-Canvas/WebGL structure, rebuilding a personal site and packaging a 200-line starter and QA as a Claude Code skill. Implementation and compatibility are unchecked.",
+      "description": "At 23:30:01 Beijing time on November 6, 2026, Luca Vizzielli (@Viluca94) says they reverse-engineered Shopify's new Editions site, drawing real HTML into a WebGL scene frame by frame to bend, glow and move in 3D while retaining text and clickable links, then rebuilt a personal site using the structure. The post labels the first four video seconds as Shopify and the rest as the author's site. Retrieval confirms a video attachment, which was not watched and compared.\n\nThe author identifies preserving text, links, SEO, accessibility and fallbacks for unsupported browsers/phones as the hard part, and says HTML-in-Canvas is still a Chrome origin trial unsupported by most visitors. The findings reportedly became a Claude Code Skill containing a 200-line, zero-dependency starter, Chrome pitfalls and prelaunch QA, intended as a structure rather than a fixed visual template. AI explicitly enters the skill-delivery stage; model use in the preceding investigation is not described.\n\nThe Skill is offered by requesting it in comments. Public files, site source, API documentation, a compatibility matrix and QA results were not obtained. The 200 lines, zero dependencies and browser status remain author claims, not independent checks. No comment was sent, page executed or agent called here. REA is not mentioned. Retained as an identifiable web-behavior reconstruction and agent-resource account, not proof of successful SEO or accessibility validation.",
+      "metadata": ["Candidate: 0 likes, 13 views, 0 reposts. The 200-line starter is author-described; files were not obtained and QA was not executed."],
+      "source_labels": ["Luca's Shopify Editions research, personal site and Claude Skill account, November 6, 2026 at 23:30:01 Beijing time"]
+    }
+  },
+  {
+    "id": "pizza-yap-peekcell-jungle-outpost-style-prompt",
+    "title": "Jungle Outpost：Pizza Yap反推Peekcell像素风，承认尚不及原作",
+    "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Pizza Yap公开重建Peekcell风格的完整HTML生成提示词，细化230×230画布、三面投影、配色与10角色交互；自评仍不够像，未验证生成文件。",
+    "description": "2026年11月6日23:32:29（北京时间），Pizza Yap（@pzayap）称反推了Peekcell的美术风格，明确说原作者是设计而非用ChatGPT Image 2.6提示生成，并承认自己的结果不如原作接近或好。帖子附视频并公开完整提示词，目标是生成一个名为Jungle Outpost的单文件HTML交互像素场景，不是恢复Peekcell的源文件或原始提示词。\n\n完整阅读提示后，可见具体约束：230×230离屏艺术像素，以最近邻放大到最大920px可见画布；字符串像素图、共享色板、无抗锯齿／渐变／模糊；斜俯视建筑以正面、顶面和右侧三种明暗呈现，侧面深度为正面宽25–35%。场景包含集装箱前哨、卫星碟、帐篷、神庙塔与树，列出10个角色、待机和点击动作。\n\n交互要求包括alpha像素命中与1px容差、顶层角色优先、单个requestAnimationFrame循环、MET 0/10计数、约1.7秒逐个触发、方向键切换与Space／Enter触发、手机点击及减少动画偏好；无外部图片不等于完全离线，提示另要求Google字体Press Start 2P。上述为生成规格，不是已验证实现清单。\n\n补取确认作者和视频附件，没有观看对比、读取HTML或运行交互，也未确认执行该提示的模型；不把Image 2.6归为实际执行模型。作者自评不足保留为结果边界，风格相似度没有量化。本合集未重跑生成，REA未提及，素材与原作权利不因提示公开而转移。",
+    "sources": [{"label": "Pizza Yap的Jungle Outpost完整风格重建提示与自评，2026-11-06 23:32:29北京时间", "url": "https://x.com/i/status/2118728231608275313"}],
+    "snapshot_date": "2026-11-06", "metadata": ["封存候选1赞、97浏览、0转发；所有尺寸和角色数来自提示要求，不是运行验收。"],
+    "en": {
+      "title": "Jungle Outpost: Pizza Yap reconstructs Peekcell's pixel style and acknowledges falling short",
+      "summary": "Pizza Yap publishes a full HTML-generation prompt specifying a 230×230 canvas, three-face projection, palette and ten interactive characters. The author says it falls short of Peekcell's original; generated files were not validated.",
+      "description": "At 23:32:29 Beijing time on November 6, 2026, Pizza Yap (@pzayap) says they reverse-engineered Peekcell's art style, explicitly crediting the original as designed rather than prompted with ChatGPT Image 2.6, and admits their result is not as close or as good. The post attaches a video and publishes a complete prompt for Jungle Outpost, an interactive pixel diorama in one HTML file. It does not recover Peekcell's original project files or prompt.\n\nReading the full prompt shows concrete constraints: a 230×230 offscreen art-pixel canvas, nearest-neighbor scaling to a visible canvas at most 920px wide; string pixel maps, a shared palette and no antialiasing, gradients or blur; and oblique buildings with front, top and right faces in different shades, with side depth 25–35% of front width. The scene includes a container outpost, satellite dish, tent, temple tower and trees, with ten characters and specified idle/click actions.\n\nInteraction requirements include alpha-based pixel hit testing with 1px tolerance, topmost-character priority, one requestAnimationFrame loop, a MET 0/10 counter, sequential triggers about every 1.7 seconds, arrow-key selection and Space/Enter activation, phone taps and reduced-motion preferences. No external images does not mean fully offline: the prompt separately requests Google's Press Start 2P font. These are generation requirements, not a validated implementation checklist.\n\nRetrieval confirms authorship and a video attachment, but the comparison was not watched, HTML read or interactions executed. The model that ran the prompt is unspecified; Image 2.6 is not assigned as the execution model. The author's admission of falling short is retained, without a quantitative similarity score. No generation was rerun here and REA is not mentioned. Publishing the prompt does not transfer rights to the original art or assets.",
+      "metadata": ["Sealed candidate: 1 like, 97 views, 0 reposts. All dimensions and character counts are prompt requirements, not runtime acceptance results."],
+      "source_labels": ["Pizza Yap's full Jungle Outpost style-reconstruction prompt and self-assessment, November 6, 2026 at 23:32:29 Beijing time"]
+    }
+  },
+  {
+    "id": "vista8-cap-jianying-beauty-rea-comparison",
+    "title": "Cap美颜改造：向阳乔木用REA研究剪映，报告不如Claude直接写",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "向阳乔木为Cap增加美颜美白，让REA参考剪映，再用人眼与AI对比，认为不及Claude直接调研实现；无算法、代码或客观画质测试。",
+    "description": "2026年11月6日23:38:41（北京时间），向阳乔木（@vista8）报告对Cap录屏软件进行改造，目标是增加美颜与美白，称已让REA学习剪映的做法。研究的参考对象是剪映的美颜处理，目标应用则是Cap，不与一般剪映自动剪辑或草稿格式项目混为同一案例。\n\n作者说最后结合人眼分析和AI对比，花了半天却认为剪映美颜还没有Claude直接调研写出的效果好。这是一次报告研究未带来预期收益的比较，不能反过来写为已成功复制剪映。半天是作者的投入自述，效果好坏是主观评价，没有样片、输入条件、算法、源码、模型版本、帧率或肤色／细节指标。\n\n补取原帖确认署名及图片存在，未读取图片中的实现内容。没有公开Cap改动版本或可复查对照，本合集未运行软件、查看私人录屏或复测。按分析测试保留负面结果和作者偏好，不推广为Claude在所有美颜任务都优于剪映。",
+    "sources": [{"label": "向阳乔木的Cap美颜改造、REA剪映研究与比较，2026-11-06 23:38:41北京时间", "url": "https://x.com/i/status/2118729792371802173"}],
+    "snapshot_date": "2026-11-06", "metadata": ["封存候选3赞、911浏览、0转发；半天与效果判断均为作者口径，不采用补取后的更高计数。"],
+    "en": {
+      "title": "Cap beautification: vista8 studies Jianying with REA but prefers Claude's direct implementation",
+      "summary": "vista8 studies Jianying with REA to add beauty and whitening to Cap, then reports that human/AI comparisons favor Claude's direct research and implementation. Algorithms, code and objective image tests are absent.",
+      "description": "At 23:38:41 Beijing time on November 6, 2026, vista8 (@vista8) reports modifying the Cap screen recorder to add beauty and whitening features, having REA study Jianying's approach. Jianying's beauty processing is the reference; Cap is the destination app. This is not merged with general Jianying editing automation or draft-format projects.\n\nThe author says human inspection and AI comparison ultimately made half a day's work seem wasted: Jianying's beauty effect appeared worse than what Claude directly researched and implemented. This reports an investigation that did not deliver the expected benefit, not a successful Jianying clone. Half a day is claimed effort, and quality is a subjective judgment without sample clips, input conditions, algorithm, source, model version, frame rate or skin-tone/detail metrics.\n\nRetrieval confirms attribution and an image, whose implementation contents were not read. A public modified Cap revision and reproducible comparison are absent. No software or private recordings were accessed and no test rerun here. Kept as an analysis test with a negative result and author preference, not a general claim that Claude beats Jianying on all beauty tasks.",
+      "metadata": ["Sealed candidate: 3 likes, 911 views, 0 reposts. Half a day and the quality judgment are author accounts; higher retrieved counts do not replace the snapshot."],
+      "source_labels": ["vista8's Cap beauty work, REA/Jianying investigation and comparison, November 6, 2026 at 23:38:41 Beijing time"]
+    }
+  },
+  {
+    "id": "potato-opencode-android-apk-agent-privacy-audit-idea",
+    "title": "OpenCode Android客户端隐私审计idea：Potato建议反编译APK交Agent查看",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Potato回应自己OpenCode Android客户端的数据安全疑问，建议看源码或提取Play商店APK反编译后交Agent检查；未报告实际审计或安全结论。",
+    "description": "2026年11月6日23:46:39（北京时间），Potato（@ivanfenenko）回复用户对数据被偷的担忧，建议既可检查源码，也可从Google Play提取APK、反编译，再让Agent检查应用在做什么。目标是审计已分发Android客户端的行为，而非仅相信开源标签。\n\n补取回复串识别背景：11月4日06:15:09（北京时间）用户询问OpenCode Android App进度；Potato在11月4日18:51:03推荐自己的客户端并随后称开源；11月6日20:42:00用户问如何确认不会窃取数据。较早串只用于确认所指应用和动机，不冒充本窗新候选，也未核验产品名称、商店包或仓库。\n\n候选是作者提出的可操作审计idea，没有模型、反编译器、APK版本、权限／联网分析、审计输出或漏洞结果。检查源码不证明发布APK相同，Agent静态阅读也不能保证没有隐私问题。本合集未下载APK、访问私人数据或执行审计，REA未提及，不把建议写成已经完成安全认证。",
+    "sources": [{"label": "候选：Potato建议反编译APK交Agent检查，2026-11-06 23:46:39北京时间", "url": "https://x.com/i/status/2118731799199154527"}, {"label": "补充较早回复：Potato推荐自己的OpenCode Android客户端，2026-11-04 18:51:03北京时间", "url": "https://x.com/i/status/2117932630771679389"}, {"label": "补充同串问题：用户担心数据安全，2026-11-06 20:42:00北京时间", "url": "https://x.com/i/status/2118685328219296048"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、0转发，浏览数未提供；审计流程是建议，不是已检测结果。"],
+    "en": {
+      "title": "An OpenCode Android privacy-audit idea: Potato suggests decompiling the APK for an agent to inspect",
+      "summary": "Responding to data-safety concerns about a personal OpenCode Android client, Potato suggests reading source or decompiling its Play Store APK for an agent. No completed audit or security conclusion is reported.",
+      "description": "At 23:46:39 Beijing time on November 6, 2026, Potato (@ivanfenenko) responds to concerns about data theft by suggesting source inspection or extracting the Google Play APK, decompiling it and asking an agent what the app does. The goal is to audit the behavior of the distributed Android client rather than simply trust an open-source label.\n\nThread retrieval identifies the context: a user asks about an OpenCode Android app at 06:15:09 Beijing time on November 4; Potato recommends a personal client at 18:51:03 that day and then calls it open source; the user asks how to rule out data theft at 20:42:00 on November 6. Earlier posts identify the app and motivation, not additional current-window candidates. Product name, store package and repository were not verified.\n\nThis is the author's actionable audit idea, without a model, decompiler, APK revision, permission/network analysis, audit output or vulnerability result. Reading source does not prove a distributed APK matches it, and agent static inspection cannot guarantee privacy. No APK was downloaded, private data accessed or audit executed here. REA is not mentioned; the suggestion is not completed security certification.",
+      "metadata": ["Candidate: 0 likes, 0 reposts; views were not provided. The audit workflow is a suggestion, not an observed finding."],
+      "source_labels": ["Candidate: Potato suggests decompiling an APK for agent inspection, November 6, 2026 at 23:46:39 Beijing time", "Supplementary earlier reply: Potato recommends a personal OpenCode Android client, November 4, 2026 at 18:51:03 Beijing time", "Supplementary same-thread question about data safety, November 6, 2026 at 20:42:00 Beijing time"]
+    }
+  },
+  {
+    "id": "clawddevs-solana-decompile-agent-skill-catalog",
+    "title": "solana-decompile：Clawd宣布Agent技能目录加入Solana反编译资料",
+    "category": "apps", "rea": "unknown", "status": "related-project",
+    "summary": "Clawd称277项Agent技能包加入solana-decompile，目录开放、包下载限持有者；只有发布说明，没有技能正文、目标合约或测试。",
+    "description": "2026年11月6日23:52:16（北京时间），Clawd（@clawddevs）宣布一个277项Agent技能包中加入名为solana-decompile的新技能，称/skills目录开放、整个包下载是持有者权益。Solana反编译是名称指向的用途，材料并未列出具体程序或合约；不能据此宣称可恢复任意链原始源码。\n\n补取确认作者、文本和图片附件存在，没有取得目录全文、技能文件、实现、许可证或运行记录。帖子还带$CLAWD、pumpfun、Muse及币价宣传，这不证明技能有效、开源、免费或安全，也没有证据把此技能与8Bit的REA @bot当同一项目。277是作者声称的整个包数量，不是277个逆向工具或已测试合约。\n\n作为Agent逆向相关资料的窄范围发布报告收录，状态related-project，不作使用推荐。未确认REA或具体AI模型；本合集未购买、连接钱包、下载包或执行技能。",
+    "sources": [{"label": "Clawd的277项技能包及solana-decompile发布说明，2026-11-06 23:52:16北京时间", "url": "https://x.com/i/status/2118733212255932464"}],
+    "snapshot_date": "2026-11-06", "metadata": ["封存候选1赞、32浏览、1转发；277为包内技能总量自述，未核对目录。"],
+    "en": {
+      "title": "solana-decompile: Clawd announces Solana decompilation material in an agent-skill catalog",
+      "summary": "Clawd says a 277-skill bundle now includes solana-decompile, with an open catalog and holder-only bundle downloads. Only the announcement was obtained, not the skill, a target contract or tests.",
+      "description": "At 23:52:16 Beijing time on November 6, 2026, Clawd (@clawddevs) announces a new skill called solana-decompile within a bundle of 277 agent skills, saying the /skills catalog is open while the full download is a holder perk. Solana decompilation is the purpose indicated by the name; no specific program or contract is identified. Recovery of arbitrary chains' original source is not established.\n\nRetrieval confirms authorship, text and an image attachment, but the complete catalog, skill files, implementation, license and execution records were not obtained. The post also promotes $CLAWD, pumpfun, Muse and a token price. This does not establish effectiveness, open-source status, free access or safety, nor identify this skill with 8Bit's REA @bot. The 277 figure is the claimed bundle size, not 277 reversing tools or tested contracts.\n\nRetained narrowly as an announcement of agent reversing material, with related-project status, not a usage endorsement. REA and the particular AI model are unconfirmed. No purchase, wallet connection, bundle download or skill execution was performed here.",
+      "metadata": ["Sealed candidate: 1 like, 32 views, 1 repost. The 277 figure is the author's bundle-size claim; the catalog was not checked."],
+      "source_labels": ["Clawd's 277-skill bundle and solana-decompile announcement, November 6, 2026 at 23:52:16 Beijing time"]
+    }
+  },
+  {
+    "id": "claudewilson-telemetry-field-research-report",
+    "title": "ClaudeWilson：2WalterW研究Claude收集字段，防封效果未证实",
+    "category": "apps", "rea": "unknown", "status": "unverified",
+    "summary": "2WalterW称花一周逆向Claude收集字段并发布ClaudeWilson；地区、运营商和时区说法是作者解释，没有证据保证防封或确认AI参与研究。",
+    "description": "2026年11月6日20:35:01（北京时间），2WalterW（@2WalterW）为解释Claude使用稳定性，称花一周逆向研究它收集的字段，并宣布名为ClaudeWilson的项目已开源、欢迎提交bug。帖中举新加坡、Singtel、国际版手机、美国应用商店归属、UTC+8与未用VPN等信息，作为作者理解的环境一致性线索。\n\n补取原帖确认署名与两张图片附件，但未读取图片中的字段表，未取得项目源码、采集流量、产品版本或可复查实验。不能由列举信息推定Claude确实采集全部字段、每个字段都会影响风控，或说出这些信息就能改变服务端判断。所谓防封神器是作者称呼，一周为作者自报研究时间，没有对照或长期账号结果支持效果。\n\n这里AI产品是被研究对象，未说明用AI执行逆向，也未确认REA；工具归因保持unknown。本合集未登录账号、改变设备身份、安装项目或验证封禁规避，只记录具体的遥测字段研究自述。",
+    "sources": [{"label": "2WalterW的字段研究与ClaudeWilson发布自述，2026-11-06 20:35:01北京时间", "url": "https://x.com/i/status/2118683573666406833"}],
+    "snapshot_date": "2026-11-06", "metadata": ["封存候选0赞、64浏览、0转发；一周和防封用途均为作者口径，没有成功率。"],
+    "en": {
+      "title": "ClaudeWilson: 2WalterW investigates Claude's collected fields; anti-ban effectiveness is unproven",
+      "summary": "2WalterW reports a week investigating Claude's collected fields and releasing ClaudeWilson. Region, carrier and timezone claims are the author's explanation, not a demonstrated anti-ban mechanism or confirmed AI-assisted research.",
+      "description": "At 20:35:01 Beijing time on November 6, 2026, 2WalterW (@2WalterW) says they spent a week reverse-engineering fields collected by Claude to explain reliability of access, and announces ClaudeWilson as an open-source project accepting bug reports. Singapore, Singtel, an international phone, US app-store region, UTC+8 and no VPN are examples in the author's account of environment consistency.\n\nRetrieval confirms attribution and two image attachments, but the field tables in the images were not read. Project source, captured traffic, product revision and reproducible experiments were not obtained. The examples do not establish that Claude collects every field, that each affects risk controls, or that telling it this information changes server-side decisions. Anti-ban tool is the author's label; one week is self-reported effort, without controls or longitudinal account outcomes establishing effectiveness.\n\nThe AI product is the research subject. AI use in performing the investigation and REA use are not stated, so tool attribution remains unknown. This collection did not sign in, change device identity, install the project or validate ban evasion; it records a concrete telemetry-field research account.",
+      "metadata": ["Sealed candidate: 0 likes, 64 views, 0 reposts. One week and anti-ban use are author claims, without a success rate."],
+      "source_labels": ["2WalterW's field investigation and ClaudeWilson release account, November 6, 2026 at 20:35:01 Beijing time"]
+    }
+  },
+  {
+    "id": "lords-of-the-realm2-claude-demo-web-test",
+    "title": "Lords of the Realm 2网页测试：İlker称Claude从demo逆向",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "İlker在网页展示的回复里说明Claude从Lords of the Realm 2试玩版逆向作测试；无源码、方法或完整战役验收，不称完整移植。",
+    "description": "2026年11月6日20:42:21（北京时间），İlker（@ilkeryoldas）回复Simon，称Claude为他从demo版本逆向，作为一次测试。补取回复串将it识别为Lords of the Realm 2，即包含经营与战斗的中世纪策略游戏，而非猜测另一款游戏。\n\n串根发表于10月31日02:49:39（北京时间），标题为Lords of the Realm 2 on web，带视频附件；这是窗口外较早材料，只用来确定目标和作者所展示的网页方向，不作为本窗新候选。没有观看并验证视频、取得网页实现、试玩版版本、Claude型号、工具日志或战役测试。\n\n作者明确报告AI逆向测试，但没有说明二进制反编译、素材处理、模拟器或独立重实现的具体路径。不能写成完整游戏已移植、原源码已恢复或规则等价。本合集未下载游戏、运行网页或使用REA，保留未核验的个人测试报告。",
+    "sources": [{"label": "候选：İlker说明Claude从demo逆向作测试，2026-11-06 20:42:21北京时间", "url": "https://x.com/i/status/2118685416253518134"}, {"label": "补充较早串根：Lords of the Realm 2 on web，2026-10-31 02:49:39北京时间", "url": "https://x.com/i/status/2116241136045937077"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、4浏览、0转发；网页视频存在不代表整款游戏或完整战役已验证。"],
+    "en": {
+      "title": "A Lords of the Realm 2 web test: İlker says Claude reversed the demo",
+      "summary": "In a reply to a web showcase, İlker says Claude reverse-engineered the Lords of the Realm 2 demo as a test. Source, method and campaign acceptance results are absent; this is not a confirmed complete port.",
+      "description": "At 20:42:21 Beijing time on November 6, 2026, İlker (@ilkeryoldas) replies to Simon that Claude reverse-engineered it from the demo version as a test. Retrieving the reply chain identifies it as Lords of the Realm 2, a medieval strategy game combining management and combat, rather than guessing another game.\n\nThe root was posted at 02:49:39 Beijing time on October 31, titled Lords of the Realm 2 on web, with a video attachment. This earlier out-of-window material identifies the target and the author's web presentation, not another current-window candidate. The video was not watched and validated, and the web implementation, demo revision, Claude model, tool logs and campaign tests were not obtained.\n\nThe author explicitly reports an AI reversing test, but does not specify binary decompilation, asset handling, emulation or independent reimplementation. A complete port, recovered original source and rule equivalence are not established. No game was downloaded, webpage run or REA used here; this remains an unverified personal test account.",
+      "metadata": ["Candidate: 0 likes, 4 views, 0 reposts. A web video attachment does not validate the entire game or a full campaign."],
+      "source_labels": ["Candidate: İlker says Claude reversed the demo as a test, November 6, 2026 at 20:42:21 Beijing time", "Supplementary earlier root: Lords of the Realm 2 on web, October 31, 2026 at 02:49:39 Beijing time"]
+    }
+  },
+  {
+    "id": "claude-rea-unity-engine-rebuild-reader-idea",
+    "title": "重建更好的Unity：读者给Claude与REA的引擎构想",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "西语回复设想让Claude安装REA技能，逆向后做更好的Unity；只有夸张提示，没有开工、引擎功能或测试证据。",
+    "description": "2026年11月6日20:46:41（北京时间），一条回复@SrGarrus的西语帖子拟写给Claude的提示：装上REA逆向技能，给我做一个更好的Unity，不要犯错。Unity在这里是游戏开发引擎目标，不是某个基于Unity的游戏。\n\n这是带玩笑语气的具体引擎重建设想，没有声称作者已经执行。帖子未列需要保留的编辑器、渲染、脚本或构建能力，也未提供版本、授权目标、仓库、逆向输出或兼容测试。不从不要犯错推断有可靠性保证，也不把更好视为可测结果。\n\n按读者提出的Claude／REA idea保留，不写成Unity正在被完整重建。没有运行Agent、下载引擎或复制源码；合法目标与许可仍需另行确认。",
+    "sources": [{"label": "读者的Claude／REA重建Unity设想，2026-11-06 20:46:41北京时间", "url": "https://x.com/i/status/2118686507917623534"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、71浏览、0转发；更好的引擎是愿望，不是功能或性能对照。"],
+    "en": {
+      "title": "A better Unity: a reader's engine-rebuild idea for Claude and REA",
+      "summary": "A Spanish reply imagines giving Claude the REA skill to reverse-engineer and build a better Unity. The exaggerated prompt supplies no implementation, engine feature or test evidence.",
+      "description": "At 20:46:41 Beijing time on November 6, 2026, a Spanish reply to @SrGarrus sketches a prompt for Claude: install the REA reversing skill, make a better Unity, and make no mistakes. Unity is the game-development engine target here, not an individual Unity game.\n\nThis is a concrete, joking engine-reconstruction idea, not a claim that the author has executed it. Editor, rendering, scripting and build capabilities to preserve are unspecified, as are revision, authorized target, repository, reversing output and compatibility tests. Make no mistakes is not a reliability guarantee, and better is not a measured result.\n\nRetained as a reader's Claude/REA idea, not a complete Unity reconstruction in progress. No agent was run, engine downloaded or source copied here. Target legality and licensing still need separate confirmation.",
+      "metadata": ["Candidate: 0 likes, 71 views, 0 reposts. A better engine is a wish, not a feature or performance comparison."],
+      "source_labels": ["Reader's Claude/REA Unity reconstruction idea, November 6, 2026 at 20:46:41 Beijing time"]
+    }
+  },
+  {
+    "id": "claude-camera-sd-video-repair-secondary-account",
+    "title": "相机SD卡视频修复：Claude恢复碎片的转述，机制仍是解释",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "帖子转述摄影师让Claude修复SD卡损坏视频，并用FAT、MP4头与帧偏移解释；没有原始文件或日志，不能确认只改几百字节。",
+    "description": "2026年11月6日20:56:19（北京时间），一条中文帖子称摄影师把相机SD卡崩溃损坏的碎片文件交给Claude，最终修好了拍摄视频。目标是从受损文件恢复已有影像，而非生成不存在的拍摄内容；原摄影师、相机型号和素材均未给出。\n\n发帖者将其解释为FAT32／exFAT分配表指针或MP4的ftyp、moov等元数据受损，认为原视频流仍在物理存储中，Claude据残存大小与交叉特征重建header、校准帧偏移并重新封装，声称只修几百字节。这些是发帖者对事件的底层解释，没有磁盘镜像、容器结构差异、恢复脚本、损坏前后文件或逐帧播放验证来确认。不能将所有坏卡都归为索引问题，也不保证物理存储中的数据完整。\n\n保留具体但未经核验的AI辅助数据恢复转述，不把机制推测升级为实测。未提REA；本合集未访问私人影像、读取SD卡或执行恢复。",
+    "sources": [{"label": "Claude修复摄影师SD卡视频及元数据机制解释，2026-11-06 20:56:19北京时间", "url": "https://x.com/i/status/2118688932720467992"}],
+    "snapshot_date": "2026-11-06", "metadata": ["候选5赞、1139浏览、0转发；几百字节是转述者说法，不是已核对的文件差异。"],
+    "en": {
+      "title": "Camera SD-card video repair: an account of Claude recovering fragments, with an unverified mechanism",
+      "summary": "A post describes a photographer having Claude repair damaged SD-card video and explains it using FAT, MP4 headers and frame offsets. Original files and logs are absent; a repair of only hundreds of bytes is not established.",
+      "description": "At 20:56:19 Beijing time on November 6, 2026, a Chinese post says a photographer gave Claude fragments from a crashed camera SD card and recovered recorded video. The target is restoring existing footage from damaged files, not generating missing recordings. The photographer, camera and footage are unidentified.\n\nThe poster explains this as broken FAT32/exFAT allocation pointers or MP4 metadata such as ftyp and moov, arguing that the original stream remains physically stored. Claude allegedly used surviving sizes and cross-features to reconstruct headers, correct frame offsets and repackage the container, changing only hundreds of bytes. These are the poster's mechanism explanations, unsupported by a disk image, container diff, recovery script, before/after files or frame-by-frame playback checks. Not every bad card is an index problem, and physical data integrity is not guaranteed.\n\nRetained as a concrete but unverified AI-assisted data-recovery account, without upgrading the inferred mechanism into measured evidence. REA is not mentioned. No private footage or SD card was accessed and no recovery performed here.",
+      "metadata": ["Candidate: 5 likes, 1,139 views, 0 reposts. Hundreds of bytes is the relaying poster's claim, not a checked file diff."],
+      "source_labels": ["Account of Claude repairing a photographer's SD-card video and a metadata-based explanation, November 6, 2026 at 20:56:19 Beijing time"]
+    }
+  },
+  {
+    "id": "swipt-swiplet-ios-launch-ad-claude-research",
+    "title": "Swipt开屏广告Swiplet：转述Opus研究iOS应用与广告SDK",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "贝吉塔Again转述开发者用ipatool、unfairplay与Opus5.5研究iOS广告SDK，为Swipt做自动跳过开屏广告的扩展；兼容、学习与延迟未核验。",
+    "description": "2026年11月6日21:48:28（北京时间），贝吉塔Again（@0xjackkk）介绍Swipt的第一个Swiplet，目的是自动跳过国产iOS应用的开屏广告。帖子称开发者用ipatool、unfairplay与Claude Opus 5.5下载和逆向研究大量国区热门App，提前适配常见广告SDK，而不是只点击固定坐标。\n\n转述的方法是通过iOS无障碍树识别广告与跳过按钮，以事件驱动响应，并学习识别结果，让同类广告下次更快被跳过。Bilibili被列为即使识别到按钮也须等待接近半秒才能关闭的例子。这些是发帖者报告的设计和观察，没有应用／SDK版本表、原开发者记录、扩展源码、设备日志或延迟测量，不能保证所有广告或系统版本有效。\n\n补取原帖确认署名，未取得链接项目正文或独立兼容测试。本合集未下载、解密或运行应用，未安装扩展，也不确认授权或平台许可；REA未提及。按具体AI辅助研究与适配报告收录，跳过成功和学习能力仍未核验。",
+    "sources": [{"label": "贝吉塔Again转述Swipt／Swiplet与Opus逆向适配，2026-11-06 21:48:28北京时间", "url": "https://x.com/i/status/2118702057666531519"}],
+    "snapshot_date": "2026-11-06", "metadata": ["封存候选0赞、576浏览、0转发；近半秒为转述，未独立计时。"],
+    "en": {
+      "title": "Swipt's launch-ad Swiplet: an account of Opus research into iOS apps and advertising SDKs",
+      "summary": "0xjackkk describes a developer using ipatool, unfairplay and Opus 5.5 to inspect iOS ad SDKs for a Swipt launch-ad skipper. Compatibility, learning and delay claims remain unchecked.",
+      "description": "At 21:48:28 Beijing time on November 6, 2026, 0xjackkk introduces Swipt's first Swiplet, intended to skip launch advertisements in Chinese iOS apps. The post says its developer used ipatool, unfairplay and Claude Opus 5.5 to download and reverse-engineer many popular Chinese-region apps and pre-adapt common advertising SDKs, rather than simply tap fixed coordinates.\n\nThe described method identifies ads and skip buttons through the iOS accessibility tree, reacts to events and learns recognition results for faster subsequent handling. Bilibili is an example where closing allegedly still requires nearly half a second after button recognition. These are the poster's design and observation claims, without an app/SDK revision matrix, original developer account, extension source, device logs or latency measurements. Coverage across advertisements and OS versions is not established.\n\nOriginal-post retrieval confirms attribution; the linked project's full text and independent compatibility tests were not obtained. No app was downloaded, decrypted or run and no extension installed here. Authorization and platform licensing are not confirmed. REA is not mentioned. Retained as a concrete AI-assisted research/adaptation account, with skipping and learning capabilities still unverified.",
+      "metadata": ["Sealed candidate: 0 likes, 576 views, 0 reposts. Nearly half a second is a relayed observation, not independently timed."],
+      "source_labels": ["0xjackkk's account of Swipt/Swiplet and Opus-assisted reversing, November 6, 2026 at 21:48:28 Beijing time"]
+    }
+  },
+  {
+    "id": "livsun-rea-opus-lightroom-style-editor-report",
+    "title": "Livsun的Lightroom式编辑器：REA行为研究流程与60ms自述",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Livsun称Opus5.5从零做出Lightroom式编辑器，列REA研究滑杆、撤销、预设和导出流程；1.7MP约60ms未提供代码或基准。",
+    "description": "2026年11月6日21:56:36（北京时间），Livsun（@L1vsun）称让Claude Opus 5.5从零做了自己的Lightroom式照片编辑器，以避免订阅并可继续定制。帖中给出REA工作流：先映射Lightroom公开界面的显影滑杆、预设、图库与导出，观察堆叠编辑、撤销、跨照片同步和批量导出，再把有权限检查的软件行为交给模型形成规格和构建计划。\n\n列出的独立图像引擎方向包括高光、阴影、清晰度、去雾、自然饱和度、实时直方图与非破坏编辑栈；又要求预设、1000张照片设置同步和批量导出。作者称自己的1.7百万像素编辑重渲染约60ms，但没有硬件、输入样本、测量方法或实现源码；1000张是功能流程中的要求，不能当验收规模。\n\n原帖补取后仍有破损词与未完成句，不自行补全；可读部分足以保守记录作者自述，不推断余下功能已实现。没有逐组件对照结果、RAW格式覆盖或与Lightroom的质量等价证据。帖中GitHub排名、全套订阅69.99美元与零成本是宣传背景，未核验，也不当同功能价格比较。本合集未运行REA、编辑器或基准，附图未解读。",
+    "sources": [{"label": "Livsun的Lightroom式编辑器自述与REA流程，2026-11-06 21:56:36北京时间", "url": "https://x.com/i/status/2118704103756837033"}],
+    "snapshot_date": "2026-11-06", "metadata": ["封存候选26赞、608浏览、0转发；1.7MP／约60ms为作者自报，无独立计时或图像质量对照。"],
+    "en": {
+      "title": "Livsun's Lightroom-style editor: an REA behavior-study workflow and a claimed 60 ms render",
+      "summary": "Livsun says Opus 5.5 built a Lightroom-style editor, outlining REA research into sliders, undo, presets and export. The roughly 60 ms result for 1.7 MP has no published code or benchmark here.",
+      "description": "At 21:56:36 Beijing time on November 6, 2026, Livsun (@L1vsun) says Claude Opus 5.5 built a personal Lightroom-style photo editor from scratch to avoid a subscription and allow customization. The proposed REA workflow maps Lightroom's public develop sliders, presets, library and export, observes edit stacking, undo, synchronization and batch export, then turns behavior from software one is authorized to inspect into a specification and build plan.\n\nThe listed independent image-engine goals include highlights, shadows, clarity, dehaze, vibrance, a live histogram and a nondestructive edit stack, followed by presets, settings synchronized across 1,000 photos and batch export. The author claims a roughly 60 ms full rerender of a 1.7-megapixel edit, without hardware, input samples, timing method or implementation source. The 1,000-photo figure is a workflow requirement, not a tested acceptance scale.\n\nRetrieving the original still yields damaged words and unfinished sentences, which are not completed by inference. Readable passages support a conservative account, not an assumption that every remaining feature exists. Component comparisons, RAW-format coverage and Lightroom-quality equivalence are absent. GitHub rank, a USD 69.99 suite subscription and zero cost are unverified promotional context, not a like-for-like price comparison. No REA, editor or benchmark was run here, and the attached image was not interpreted.",
+      "metadata": ["Sealed candidate: 26 likes, 608 views, 0 reposts. The 1.7 MP/roughly 60 ms result is author-reported, without independent timing or image-quality comparisons."],
+      "source_labels": ["Livsun's Lightroom-style editor account and REA workflow, November 6, 2026 at 21:56:36 Beijing time"]
+    }
+  },
+  {
     "id": "rec-room-ai-shader-decompilation-report",
     "title": "Rec Room着色器：faiu简报用AI反编译，结果尚未公开",
     "category": "games", "rea": "other-ai", "status": "unverified",
@@ -145,18 +353,18 @@
   },
   {
     "id": "hackintosh-ai-reverse-engineering-experiment-report",
-    "title": "Hackintosh实验转述：AI与逆向辅助，演示仍未核验",
+    "title": "Hackintosh实验转述：新增ACPI／SSDT方法说法，启动仍未核验",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
-    "summary": "印尼语帖子介绍AI与逆向辅助的Hackintosh实验，主动说明设备演示未核验、macOS许可限苹果硬件；没有型号、方法或启动日志。",
-    "description": "2026年11月6日19:30:00（北京时间），一条印尼语帖子称所链接文章报道AI与逆向辅助Hackintosh实验，明确说设备演示尚未验证、仍处实验阶段，并提醒macOS许可限于苹果设备。Hackintosh指让非苹果硬件运行macOS的尝试，不能与iOS手机移植混淆。\n\n材料没有具名硬件、研究者、模型、驱动修改、引导链、代码或测试结果；未取得所链接文章全文，也不能由短链猜测所指设备。只按报道存在这样一个实验保留，不写成系统已启动、全部硬件可用、开源发布或绕过机制已经确认。\n\n作者同时推广AI营销课程，这不是实验有效性的证据。本合集未下载系统、安装依赖、改引导或运行目标，REA未提及；没有对macOS授权作额外保证。",
-    "sources": [{"label": "Hackintosh的AI与逆向实验转述及未核验声明，2026-11-06 19:30:00北京时间", "url": "https://x.com/i/status/2118667211392929864"}],
-    "snapshot_date": "2026-11-06", "metadata": ["候选0赞、17浏览、0转发；未披露硬件，不能推定与其他iOS／macOS项目同一。"],
+    "summary": "较早转述保留演示未核验与许可提醒；新帖描述让模型对照XNU从ACPI转储生成SSDT补丁，只称几分钟静态验证，未证实两帖同一设备或启动。",
+    "description": "2026年11月6日19:30:00（北京时间），一条印尼语帖子称所链接文章报道AI与逆向辅助Hackintosh实验，明确说设备演示尚未验证、仍处实验阶段，并提醒macOS许可限于苹果设备。Hackintosh指让非苹果硬件运行macOS的尝试，不能与iOS手机移植混淆。该帖没有具名硬件、研究者、模型、驱动修改、引导链、代码或测试结果，所链文章全文未取得；作者推广AI营销课程也不是实验有效性证据。\n\n同日20:57:42，另一条中文转述称HN热帖作者用大模型自动化ACPI研究：从主板提取ACPI二进制转储，对照苹果XNU内核IOPlatformPlugin源码推导驱动电源状态并生成SSDT补丁。背景是OpenCore适配时对DSDT／SSDT固件表的研究，以处理电源管理、嵌入式控制器和雷电控制器。新帖称从两周手工适配缩短为几分钟静态验证；这是转述，不是本合集计时，更不是已完成启动和全部驱动验收。\n\n新帖未给硬件、模型、原作者、补丁文件、静态检查输出或启动日志；链接正文未取得，无法确认与19:30报道是同一实验。两条归于同一Hackintosh研究主题，方法说法仅归新帖，不将旧帖的演示当新补丁验证。保留未核验，不写成开源发布、绕过机制已确认或系统可用。本合集未下载系统、安装依赖、改引导或运行目标，REA未提及；没有对macOS授权作额外保证。",
+    "sources": [{"label": "Hackintosh的AI与逆向实验转述及未核验声明，2026-11-06 19:30:00北京时间", "url": "https://x.com/i/status/2118667211392929864"}, {"label": "新候选：ACPI转储、XNU对照和SSDT静态验证转述，2026-11-06 20:57:42北京时间", "url": "https://x.com/i/status/2118689278712816026"}],
+    "snapshot_date": "2026-11-06", "metadata": ["较早候选0赞、17浏览、0转发；未披露硬件，不能推定与其他iOS／macOS项目同一。", "20:57候选64赞、9366浏览、5转发；两周与几分钟为转述，静态验证不等于实机启动。"],
     "en": {
-      "title": "A Hackintosh experiment account: AI-assisted reversing with an unverified demonstration",
-      "summary": "An Indonesian post describes an AI/reversing-assisted Hackintosh experiment, explicitly noting an unverified device demo and Apple's hardware licensing restriction. Model, methods and boot logs are absent.",
-      "description": "At 19:30:00 Beijing time on November 6, 2026, an Indonesian post says a linked article reports an AI-assisted reverse-engineering Hackintosh experiment. It explicitly calls the device demonstration unverified, describes the work as experimental and notes macOS licensing is restricted to Apple hardware. Hackintosh denotes an attempt to run macOS on non-Apple hardware, not an iOS phone port.\n\nHardware, researcher, model, driver changes, boot chain, code and test results are unspecified. The linked article's full text was not obtained and the device is not guessed from a short link. Only the report of an experiment is retained, not successful booting, full hardware support, open-source release or a verified bypass mechanism.\n\nThe author's AI-marketing course promotion is not evidence of effectiveness. No OS was downloaded, dependencies installed, boot configuration changed or target run here. REA is not mentioned and no additional licensing assurance is offered.",
-      "metadata": ["Candidate: 0 likes, 17 views, 0 reposts. Hardware is undisclosed; identity with other iOS/macOS projects cannot be assumed."],
-      "source_labels": ["Account of an AI/reversing-assisted Hackintosh experiment and explicit unverified-demo caveat, November 6, 2026 at 19:30:00 Beijing time"]
+      "title": "Hackintosh experiment accounts: new ACPI/SSDT method claims, still without verified booting",
+      "summary": "The earlier account retains its unverified-demo and licensing caveats. A new post describes models comparing ACPI dumps with XNU to generate SSDT patches, claiming minutes for static checks, not verified booting or identity between the experiments.",
+      "description": "At 19:30:00 Beijing time on November 6, 2026, an Indonesian post says a linked article describes an AI/reversing-assisted Hackintosh experiment. It explicitly calls the demonstration unverified and experimental and notes macOS licensing is restricted to Apple hardware. Hackintosh means running macOS on non-Apple hardware, not an iOS phone port. That post supplies no hardware, researcher, model, driver changes, boot chain, code or test results; the linked article's full text was not obtained. The author's AI-marketing course promotion is not evidence of effectiveness.\n\nAt 20:57:42 that day, a separate Chinese account attributes automated ACPI research to the author of an HN discussion: extract motherboard ACPI binary dumps, compare them with Apple's XNU IOPlatformPlugin source, infer driver power states and generate SSDT patches. The background is studying DSDT/SSDT firmware tables for OpenCore adaptation of power management, embedded controllers and Thunderbolt controllers. The new post claims a change from two weeks of manual adaptation to minutes for static verification. This is a relayed claim, not timing here, and not acceptance of booting or all drivers.\n\nThe new account provides no hardware, model, original author, patch files, static-check output or boot logs. The linked text was not obtained, so identity with the 19:30 experiment cannot be confirmed. Both are grouped under the Hackintosh research topic; the method claims belong only to the new post, and the old demonstration is not validation of the new patches. Status remains unverified, without claims of an open-source release, confirmed bypass or usable OS. No OS was downloaded, dependencies installed, boot configuration changed or target run here. REA is not mentioned and no additional macOS licensing assurance is offered.",
+      "metadata": ["Earlier candidate: 0 likes, 17 views, 0 reposts. Hardware is undisclosed; identity with other iOS/macOS projects cannot be assumed.", "20:57 candidate: 64 likes, 9,366 views, 5 reposts. Two weeks and minutes are relayed claims; static checks are not hardware booting."],
+      "source_labels": ["Account of an AI/reversing-assisted Hackintosh experiment and explicit unverified-demo caveat, November 6, 2026 at 19:30:00 Beijing time", "New candidate: account of ACPI dumps, XNU comparisons and SSDT static checks, November 6, 2026 at 20:57:42 Beijing time"]
     }
   },
   {
@@ -28185,16 +28393,22 @@
   },
   {
     "id": "ableton-live12-agent-96h",
-    "title": "Ableton Live 12：96 小时研究与另一位使用者的复杂度评估",
+    "title": "Ableton研究：96小时尝试、复杂度评估与Flo的下一步计划",
     "category": "apps",
     "rea": "REA",
     "status": "in-progress",
-    "summary": "patrick__eff的96小时尝试仍无成果验收；taelo_kim另称REA/Claude评估89MB程序后认为个人难以复制，继续付费。",
-    "description": "2026年10月18日01:17（北京时间），@patrick__eff称已让一个Agent逆向Ableton Live 12达96小时，希望投入有所回报。没有说明恢复了哪种音频处理、工程格式或界面功能，也没给Agent/model、REA使用、平台、代码或测试。96小时是运行时长自述，不是成功交付工时。\n\n同日22:44，另一位使用者@taelo_kim说把Ableton 12交给REA，描述约89MB编译代码及从另一家公司授权的warping技术，转述Claude判断为二十年工作量、个人无法复制。同串随后表示继续为Ableton与Premiere付费。此处warping指音频时间伸缩相关能力；具体授权商与分析细节未给，不扩展猜测。新报告是另一人的REA/Claude尝试，不证明前一位96小时研究用了REA或已经终止。\n\n补读同串可见每月省逾2000美元、合并Slack等五服务为Hub的故事，作者明确说Hub在REA之前凭需求开发，不作为Ableton逆向成果或REA节省案例。89MB和二十年均是作者/模型评估，不是测量记录或复制难度证明。没有公开分析、规则对照、重建代码或音频测试；保留进行中及受阻评估，不宣称完整反编译、插件兼容或可用替代品，未经独立复现。",
-    "sources": [{"label": "作者的 Ableton Live 12 进行中报告", "url": "https://x.com/i/status/2111506869395337318"},{"label":"taelo_kim的REA/Claude复杂度评估","url":"https://x.com/i/status/2111830810273980764"},{"label":"同串后续：继续付费Ableton与Premiere","url":"https://x.com/i/status/2111830811947454829"},{"label":"同串澄清：Hub在REA之前凭需求开发","url":"https://x.com/i/status/2111830808659186099"}],
-    "snapshot_date": "2026-10-18",
-    "metadata": ["来源：2026-10-18 01:17，北京时间；96小时为原作者口径，无成果验收。","10月18日22:44补充候选快照0赞、5浏览；两位使用者的尝试分开归因，89MB与二十年未核验。"],
-    "en": {"title":"Ableton Live 12: a 96-hour investigation and another user's complexity assessment","summary":"patrick__eff's 96-hour attempt lacks acceptance results; taelo_kim separately reports an REA/Claude assessment of an 89MB program and keeps paying.","description":"At 01:17 Beijing time on October 18, 2026, @patrick__eff says an agent has been reverse-engineering Ableton Live 12 for 96 hours and hopes it pays off. No recovered audio-processing, project-format or interface feature, agent/model, REA use, platform, code or test is specified. The 96 hours are claimed runtime, not time to successful delivery.\n\nAt 22:44 that day, another user, @taelo_kim, says they pointed REA at Ableton 12, describing about 89MB of compiled code and warping technology licensed from another company. They relay Claude's assessment that this represents twenty years of work and is not something one person can copy. A subsequent post says they will keep paying for Ableton and Premiere. Warping here refers to audio time-stretching capabilities; no licensor or analysis details are given, and none are guessed. This is a separate REA/Claude attempt, not evidence that the first user's 96-hour effort used REA or has stopped.\n\nThe same conversation describes saving over USD 2,000 per month by merging five services including Slack into Hub, but explicitly says Hub was developed from requirements before REA. That is not an Ableton result or evidence of REA savings. The 89MB and twenty-year figures are author/model assessments, not measurement records or proof of replication difficulty. No public analysis, rule comparisons, rebuilt code or audio tests are supplied. This remains ongoing work and a reported obstacle assessment, not complete decompilation, plugin compatibility or a usable replacement. No independent reproduction was performed.","metadata":["Source: October 18, 2026, 01:17 Beijing time; 96 hours is the original author's account, without acceptance results.","October 18, 22:44 supplementary candidate snapshot: 0 likes, 5 views. The two users' attempts are attributed separately; 89MB and twenty years are unverified."],"source_labels":["Author's ongoing Ableton Live 12 account","taelo_kim's REA/Claude complexity assessment","Same thread follow-up: continuing to pay for Ableton and Premiere","Same-thread clarification: Hub was built from requirements before REA"]}
+    "summary": "patrick__eff的96小时尝试无验收，taelo_kim的REA／Claude评估认为难以复制；11月6日Flo另计划用Opus5.5与REA研究Ableton，尚未报告实施。",
+    "description": "2026年10月18日01:17（北京时间），@patrick__eff称已让一个Agent逆向Ableton Live 12达96小时，希望投入有所回报。没有说明恢复了哪种音频处理、工程格式或界面功能，也没给Agent/model、REA使用、平台、代码或测试。96小时是运行时长自述，不是成功交付工时。\n\n同日22:44，另一位使用者@taelo_kim说把Ableton 12交给REA，描述约89MB编译代码及从另一家公司授权的warping技术，转述Claude判断为二十年工作量、个人无法复制。同串随后表示继续为Ableton与Premiere付费。此处warping指音频时间伸缩相关能力；具体授权商与分析细节未给，不扩展猜测。这是另一人的REA/Claude尝试，不证明前一位96小时研究用了REA或已经终止。\n\n补读同串可见每月省逾2000美元、合并Slack等五服务为Hub的故事，作者明确说Hub在REA之前凭需求开发，不作为Ableton逆向成果或REA节省案例。89MB和二十年均是作者/模型评估，不是测量记录或复制难度证明。\n\n11月6日23:55:03（北京时间），Flo（@Flo_oskar）介绍自己在Ultracode运行Opus5.5、配合REA研究SaaS的做法，并说接下来想研究Ableton，可能贵得多。半天是泛SaaS流程的估计，不是Ableton工时或交付；没有指明Ableton版本、预算、研究步骤或已开始执行。补取原帖确认署名，不把第三位作者的计划当作前两人进度更新。\n\n没有公开分析、规则对照、重建代码或音频测试；保留进行中及受阻评估，Flo部分仅为计划。不宣称完整反编译、插件兼容或可用替代品，未经独立复现。",
+    "sources": [{"label": "作者的 Ableton Live 12 进行中报告", "url": "https://x.com/i/status/2111506869395337318"},{"label":"taelo_kim的REA/Claude复杂度评估","url":"https://x.com/i/status/2111830810273980764"},{"label":"同串后续：继续付费Ableton与Premiere","url":"https://x.com/i/status/2111830811947454829"},{"label":"同串澄清：Hub在REA之前凭需求开发","url":"https://x.com/i/status/2111830808659186099"}, {"label": "新候选：Flo提出Ultracode／Opus5.5与REA的Ableton计划，2026-11-06 23:55:03北京时间", "url": "https://x.com/i/status/2118733910435610967"}],
+    "snapshot_date": "2026-11-06",
+    "metadata": ["来源：2026-10-18 01:17，北京时间；96小时为原作者口径，无成果验收。","10月18日22:44补充候选快照0赞、5浏览；两位使用者的尝试分开归因，89MB与二十年未核验。", "11月6日Flo候选5赞、22浏览、0转发；半天不归于Ableton，版本未指明，计划不等于开工。"],
+    "en": {
+      "title": "Ableton research: a 96-hour attempt, a complexity assessment and Flo's next-step plan",
+      "summary": "patrick__eff's 96-hour attempt lacks acceptance results; taelo_kim's REA/Claude assessment finds replication difficult. On November 6, Flo separately proposes studying Ableton with Opus 5.5 and REA, without reporting execution.",
+      "description": "At 01:17 Beijing time on October 18, 2026, @patrick__eff says an agent has been reverse-engineering Ableton Live 12 for 96 hours and hopes it pays off. No recovered audio-processing, project-format or interface feature, agent/model, REA use, platform, code or test is specified. The 96 hours are claimed runtime, not time to successful delivery.\n\nAt 22:44 that day, another user, @taelo_kim, says they pointed REA at Ableton 12, describing about 89MB of compiled code and warping technology licensed from another company. They relay Claude's assessment that this represents twenty years of work and is not something one person can copy. A subsequent post says they will keep paying for Ableton and Premiere. Warping here refers to audio time-stretching capabilities; no licensor or analysis details are given, and none are guessed. This is a separate REA/Claude attempt, not evidence that the first user's 96-hour effort used REA or has stopped.\n\nThe same conversation describes saving over USD 2,000 per month by merging five services including Slack into Hub, but explicitly says Hub was developed from requirements before REA. That is not an Ableton result or evidence of REA savings. The 89MB and twenty-year figures are author/model assessments, not measurement records or proof of replication difficulty.\n\nAt 23:55:03 Beijing time on November 6, Flo (@Flo_oskar) describes running Opus 5.5 on Ultracode with REA for SaaS research, then says Ableton is a desired next target and might cost much more. Half a day estimates a generic SaaS workflow, not Ableton effort or delivery. Ableton version, budget, research steps and actual initiation are unspecified. Original-post retrieval confirms attribution; this third author's plan is not progress on either earlier person's attempt.\n\nNo public analysis, rule comparisons, rebuilt code or audio tests are supplied. The entry retains ongoing work and obstacle assessments, with Flo's part only a plan. Complete decompilation, plugin compatibility and a usable replacement are not claimed. No independent reproduction was performed.",
+      "metadata": ["Source: October 18, 2026, 01:17 Beijing time; 96 hours is the original author's account, without acceptance results.", "October 18, 22:44 supplementary candidate snapshot: 0 likes, 5 views. The two users' attempts are attributed separately; 89MB and twenty years are unverified.", "November 6 Flo candidate: 5 likes, 22 views, 0 reposts. Half a day is not attributed to Ableton; version is unspecified and a plan is not execution."],
+      "source_labels": ["Author's ongoing Ableton Live 12 account", "taelo_kim's REA/Claude complexity assessment", "Same thread follow-up: continuing to pay for Ableton and Premiere", "Same-thread clarification: Hub was built from requirements before REA", "New candidate: Flo's Ableton plan with Ultracode/Opus 5.5 and REA, November 6, 2026 at 23:55:03 Beijing time"]
+    }
   },
   {
     "id": "makara-scoped-game-creation-idea",

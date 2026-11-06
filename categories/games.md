@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Lords of the Realm 2网页测试：İlker称Claude从demo逆向](../cases/lords-of-the-realm2-claude-demo-web-test.md) — İlker在网页展示的回复里说明Claude从Lords of the Realm 2试玩版逆向作测试；无源码、方法或完整战役验收，不称完整移植。 **[其他 AI 逆向 · 待验证]**
 - [Rec Room着色器：faiu简报用AI反编译，结果尚未公开](../cases/rec-room-ai-shader-decompilation-report.md) — faiu发帖称用AI反编译Rec Room着色器；没有模型、目标平台、恢复代码或渲染对照，不把短报当成功还原。 **[其他 AI 逆向 · 待验证]**
 - [Tetris与Flappy Bird重建：noko对照两版Claude的提示与拒绝行为](../cases/claude-tetris-flappy-rebuild-prompt-policy-comparison.md) — noko报告Opus4.8与5.5在游戏复刻、改名及原创类型提示下表现不同；多次结果为作者观察，不是原游戏代码恢复或功能等价验证。 **[其他 AI 逆向 · 分析测试]**
 - [《时之笛》重制版原生PC愿望：Voidwalker建议REA研究后重写C++](../cases/voidwalker-ocarina-remake-rea-native-pc-idea.md) — Voidwalker在模拟器讨论里提出REA反汇编、C++重写为4K60原生PC的愿望；补查串只用于识别目标，不证明重制版或模拟器性能。 **[REA · 待验证]**
