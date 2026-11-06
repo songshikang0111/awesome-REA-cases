@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [二进制证据账本：AJ要求Agent每项断言先指向可观察事实](../cases/abdiisan-binary-observable-agent-evidence-ledger.md) — AJ正在试验Agent断言入账前必须指向二进制observable的工作流，自述减少幻觉，但不确定能否扩展到完整函数重建；没有量化测试。 **[其他 AI 逆向 · 进行中]**
+- [唐宫浴后肖像：sandmrk反推构图、材质与烛光提示词](../cases/sandmrk-tang-palace-bath-sleeping-portrait-prompt.md) — sandmrk以Gemini相关帖公开唐宫浴后人物图的逆向提示词，指定坐标、色板与材质；明确生成不能完全匹配原图，未提供量化对照。 **[其他 AI 逆向 · 分析测试]**
+- [Google Maps式街景扫描：Clodex的Claude Code与iPhone研究说法仍矛盾](../cases/clodex-claude-google-maps-lidar-iphone-scan-report.md) — Clodex声称以Claude Code研究Google Maps，用车顶普通iPhone替代高价LiDAR；后续却描述32线激光点云，未给真实采集和匿名化验证。 **[其他 AI 逆向 · 待验证]**
 - [naresh的视频拆解实验：正用Claude与Codex尝试，暂无结果](../cases/naresh-claude-codex-video-reconstruction-experiment.md) — naresh在交流实验近况时说正在用Claude和Codex逆向一个视频；未给参考片、拆解方法或产物，不能推定使用REA-VIDEO或已经重做成功。 **[其他 AI 逆向 · 进行中]**
 - [Jungle Outpost：Pizza Yap反推Peekcell像素风，承认尚不及原作](../cases/pizza-yap-peekcell-jungle-outpost-style-prompt.md) — Pizza Yap公开重建Peekcell风格的完整HTML生成提示词，细化230×230画布、三面投影、配色与10角色交互；自评仍不够像，未验证生成文件。 **[其他 AI 逆向 · 分析测试]**
 - [RoboSimStudio：从手机视频反推物理仿真孪生的未核验转述](../cases/robosimstudio-video-physical-twin-agent-report.md) — 谁是藏镜人转述RoboSimStudio让Agent对比真实形变与仿真误差，调整接触和摩擦参数；一小时及伯克利／英伟达归属均未由原始项目确认。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [oh my hermes：HOPE称研究记忆系统以增强Hermes长期保留](../cases/oh-my-hermes-memory-system-research-harness.md) — HOPE介绍Hermes原生harness，称研究既有记忆系统、内置协作规范及150余技能；源码短链与保留率未核验，token数字不能当性能证据。 **[其他 AI 逆向 · 进行中]**
+- [android-ad-cleaner：让Agent关闭国产Android广告开关的可回滚流程](../cases/android-ad-cleaner-agent-reversible-settings-workflow.md) — 候选介绍不用root、不刷固件的广告开关清理，提供桌面端和Agent执行路径；公开同名仓库匹配用途，但测试机型与回滚效果未独立验证。 **[未确认使用 REA · 相关项目]**
+- [XRP异常铸币漏洞：AI研究旧代码并写验证的未核验转述](../cases/xrp-ai-agent-minting-bug-secondary-report.md) — VK_ROXy转述Agent研究XRP相关旧代码，称发现单笔可生成18万亿XRP的问题并写验证；未给团队、编号或测试环境，后接REA推广不证明用REA发现。 **[其他 AI 逆向 · 待验证]**
+- [GCSA Agent：CyberGym Level1达91.3%的安全研究转述](../cases/gcsa-agent-cybergym-security-research-report.md) — 候选转述GCSA Agent在CyberGym Level1真实软件代码库达91.3%；未给提交、样本、模型或成功定义，不当任意逆向与零日研究的独立成功率。 **[其他 AI 逆向 · 待验证]**
+- [SecVibe Code：把攻防Agent与DLP放进开发工作台](../cases/secvibe-code-pi-harness-development-audit-report.md) — 候选介绍GCSA与港大的开发审计工具；窗口前官方帖明确Pi Harness、攻防Agent和企业DLP集成，低token、零遥测与零信任仍是产品说法。 **[其他 AI 逆向 · 相关项目]**
+- [Unusual Whales式期权终端：0xDipper称REA与Opus一夜重建六视图](../cases/unusual-whales-rea-opus-public-data-options-terminal.md) — 0xDipper声称REA研究Unusual Whales后用Opus在本地做出六视图、41文件终端，列出期权流、市场潮汐、GEX和提醒；免费数据源与实时性未验证。 **[REA · 待验证]**
 - [Shopify Editions到个人站：Luca把HTML-in-Canvas研究整理成Claude Skill](../cases/luca-shopify-editions-html-canvas-claude-skill.md) — Luca Vizzielli称研究Shopify Editions的HTML-in-Canvas与WebGL，并重建个人站、整理200行starter与QA为Claude Code技能；未核查实现或兼容。 **[其他 AI 逆向 · 待验证]**
 - [Cap美颜改造：向阳乔木用REA研究剪映，报告不如Claude直接写](../cases/vista8-cap-jianying-beauty-rea-comparison.md) — 向阳乔木为Cap增加美颜美白，让REA参考剪映，再用人眼与AI对比，认为不及Claude直接调研实现；无算法、代码或客观画质测试。 **[REA · 分析测试]**
 - [OpenCode Android客户端隐私审计idea：Potato建议反编译APK交Agent查看](../cases/potato-opencode-android-apk-agent-privacy-audit-idea.md) — Potato回应自己OpenCode Android客户端的数据安全疑问，建议看源码或提取Play商店APK反编译后交Agent检查；未报告实际审计或安全结论。 **[其他 AI 逆向 · 待验证]**
@@ -15,7 +21,7 @@
 - [Spark上的Agent逆向工具包：读者计划组合radare2与其他工具](../cases/spark-radare2-agentic-rea-toolkit-idea.md) — 读者计划为自己的Spark构建含radare2的Agent逆向工具包，希望不只是发一句提示；没有代码、模型或已分析目标。 **[未确认使用 REA · 待验证]**
 - [便宜开源模型的重建管线idea：先汇总手册与行为，再恢复伪代码](../cases/cheap-open-model-manual-pseudocode-rebuild-pipeline-idea.md) — 读者建议小模型综合用户手册、论坛与电脑操作，先写行为规格，再把软件部分反编译为伪代码；没有目标软件或实现。 **[其他 AI 逆向 · 待验证]**
 - [rust_ASC：供Agent按需查询APK与DEX的无状态反编译器](../cases/rust-asc-agent-android-stateless-decompiler.md) — Dopax推荐MG1937的Rust安卓分析工具；公开文档提供CLI与MCP按类反编译和交叉引用，性能数字是项目自测，非完整语义正确性证明。 **[其他 AI 逆向 · 相关项目]**
-- [ChatGPT客户端接本地模型：samantha称Gemini argon与REA重建界面](../cases/samantha-gemini-rea-chatgpt-local-sandbox-client.md) — samantha称Gemini argon以REA研究ChatGPT App后接向本地ML sandbox，界面近似且更快；平台、代码与性能记录未给。 **[REA · 待验证]**
+- [ChatGPT iOS接其他模型：samantha补充REA／Gemini与模拟Codex服务](../cases/samantha-gemini-rea-chatgpt-local-sandbox-client.md) — samantha先报告ChatGPT式本地sandbox客户端，后明确iOS、模拟Codex服务和OrcaRouter的Qwen3.8-uncensored；免越狱与性能均为自述，协议未公开。 **[REA · 待验证]**
 - [Phonon：Elliot用DeepSeek与Opus重建Wispr Flow式本地听写](../cases/phonon-wispr-flow-elliot-local-dictation.md) — Elliot Arledge报告研究Wispr Flow后做Phonon，公开Rust/Metal与微调流程；65ms和模型盲评是作者数据，macOS与Windows beta走不同模型路径。 **[其他 AI 逆向 · 进行中]**
 - [Facebook照片模型：Alex Choi让Claude Code研究Android应用](../cases/facebook-android-claude-photo-model-investigation.md) — 作者因凌晨照片访问提示反编译Facebook v585.0.0.47.54，称发现美感、分享价值与宠物场景模型；静态能力不能证明实际扫描或上传范围。 **[其他 AI 逆向 · 待验证]**
 - [Codex computer-use：强壮的砍刀提出研究工具拒绝边界的计划](../cases/codex-computer-use-reader-research-idea.md) — @KandaoMaster想研究Codex computer-use，同串谈到多个网站操作被拦并考虑用国内模型API分析；没有已完成桥接或控制实现。 **[其他 AI 逆向 · 待验证]**
@@ -52,7 +58,7 @@
 - [营销版REA：Kev称用竞品链接让Claude拆解营销](../cases/kevbuildsapps-claude-competitor-marketing-teardown.md) — Kev Builds Apps称做了营销方向的reverse engineer anything，让Claude分析竞品链接；没有具体竞品、输出或准确率，不是已确认的软件反编译器。 **[其他 AI 逆向 · 相关项目]**
 - [Discord新客户端mod想法：社区预期用AI研究Rust版再做插件](../cases/discord-rust-client-ai-reversing-mods-idea.md) — 围绕Discord改用Rust的社区消息，两条评论预期AI能加快新客户端逆向并带来Rust mod；不是已发布插件或验证过的迁移工期。 **[其他 AI 逆向 · 待验证]**
 - [AIUP的PetClinic示例：从旧代码恢复用例规格，再渐进维护](../cases/aiup-spring-petclinic-brownfield-spec-recovery.md) — Simon Martinelli为AI Unified Process加入brownfield流程，称Spring PetClinic有逆向后start分支与实现测试后的main；微型示例不证明遗留系统语义完整恢复。 **[其他 AI 逆向 · 相关项目]**
-- [HyperFrames RAV：从Stripe发布视频反推重建的单次生成自述](../cases/hyperframes-rav-stripe-video-reconstruction.md) — Miguel Ángel称发布reverse-any-video技能并单次重建Stripe发布片；公开源码、许可、原片对照和生成记录未核验，不等同REA-VIDEO分析器。 **[其他 AI 逆向 · 待验证]**
+- [HyperFrames RAV：Stripe重建自述与20片竞争工具比较](../cases/hyperframes-rav-stripe-video-reconstruction.md) — Miguel Ángel称reverse-any-video单次重建Stripe视频；Miao Yang后报20片对REA-VIDEO切点与SSIM比较，属于竞争方自测，源码、版本及原始记录仍未核验。 **[其他 AI 逆向 · 待验证]**
 - [Harvey法律AI替代：Theo转述免费重建新闻稿，完整能力尚未证实](../cases/harvey-legal-ai-free-reimplementation-press-release-report.md) — Theo称有开发者逆向Harvey并免费公开替代品，但未命名实现、给源码或法律任务测试；估值／融资混用，不采纳110亿美元为已核验事实。 **[未确认使用 REA · 待验证]**
 - [AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent](../cases/dax-system-app-agent-ai-native-os-idea.md) — Dax设想把系统应用逆向并接入Agent；后续帖子举高德交通API动态安排起床时间的场景。尚无平台、接口或实现，不是可用OS。 **[未确认使用 REA · 待验证]**
 - [Voyager扩展本地重建：Grok Bot五角色静态审计后仍遇滚动故障](../cases/voyager-grokbot-rea-local-extension-rebuild.md) — Francesco Faenzi报告Grok Bot指挥REA角色家族分析Voyager2.2.1并移除云端依赖；首轮97.5%为作者口径，第二轮滚动仍失败，未独立审计安全性。 **[未确认使用 REA · 进行中]**
@@ -101,7 +107,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究，公开文档与Apache许可澄清旧疑问](../cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo/rea-video公开逐镜证据、制作计划与Agent工作流；本次核对固定README与Apache-2.0许可，区分研究报告和另接生成器，准确率仍为项目自测。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo/rea-video提供逐镜证据与制作计划，Apache许可已在旧固定文档核对；新使用者反馈与RAV比较分别保留，不把切点、SSIM和制作来源准确率混为一谈。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -143,7 +149,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](../cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](../cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究原版、交给Agent建造并对照迭代；11月6日新转述称320工具、三种屏宽比较，区别于较早固定文档的314工具，不等于任意软件已完整复刻。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；固定文档承认游戏与动态检查边界，boring_data另报REA配合游戏测试效果差，但没有指定游戏或可重跑日志。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](../cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](../cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](../cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
@@ -241,7 +247,7 @@
 - [反爬脚本的危险关键词：Mxr猫仙人转述GPT-6拒绝分析现象](../cases/mxr-antiscraping-ai-safety-keyword-report.md) — Mxr猫仙人转述某反爬公司在脚本函数名中埋危险词，使GPT-6拒绝协助分析；公司、原研究者、站点样本和模型响应均未给出。 **[其他 AI 逆向 · 待验证]**
 - [iPhone12 mini照片归档：林野让Gemini推荐既有icloudpd工具](../cases/linye-gemini-icloudpd-photo-archive-report.md) — 林野称借Gemini建议用icloudpd从iCloud归档一千张照片并释放约8G；这是AI辅助使用既有私有接口工具，不是作者新逆向CloudKit的报告。 **[其他 AI 逆向 · 相关项目]**
 - [React生态迁到Solid：Savvas提出借AI重建缺失组件的idea](../cases/savvas-ai-react-ecosystem-solid-rebuild-idea.md) — Savvas认为既然AI可用于软件反编译，也应能在Solid重建React生态的大块功能，以降低框架迁移阻力；未点名库、实现或测试。 **[其他 AI 逆向 · 待验证]**
-- [darkzodchi的REA学习站：十二类目标、十八提示与七站路线](../cases/darkzodchi-rea-twelve-target-prompt-roadmap.md) — darkzodchi介绍自建REA提示与路线站，按桌面、移动端、固件、协议和游戏选目标；数量来自作者，站点内容和提示效果未核验，不与其他作者资料站混并。 **[REA · 相关项目]**
+- [darkzodchi的逆向学习站：REA路线与假App十二课](../cases/darkzodchi-rea-twelve-target-prompt-roadmap.md) — darkzodchi先介绍REA目标与提示路线，后称用Opus5.5做假App交互课程，练界面、网络、存储及规格重建；课程数量、免费与教学效果均未验收。 **[REA · 相关项目]**
 - [预测市场终端：Stingy询问Claude/REA能否研究跨平台交易界面](../cases/stingy-prediction-market-terminal-rea-idea.md) — Stingy对一款跨Polymarket/Kalshi的预测市场终端询问能否用Claude配REA研究；父帖提供界面用途，但未给软件身份、源码或验证结果。 **[REA · 待验证]**
 - [Claude Android与Sift：钱多多转述APK采集字段研究，非封号算法还原](../cases/claude-android-sift-secondary-analysis-report.md) — 钱多多称有人逆向Claude安卓包发现Sift及SIM、运营商、网络与应用字段；没有构建、样本或流量记录，AI辅助未知，不能证明静默上报或封号因果。 **[未确认使用 REA · 相关项目]**
 - [capcut-cli：剪映草稿结构与本地Whisper字幕流水线的转述](../cases/capcut-cli-draft-whisper-secondary-report.md) — 一则项目推荐称capcut-cli直接组装剪映原生草稿与字幕轨，再交官方界面精修；存在多个同名仓库，尚未可靠归属，性能与功能覆盖未核验。 **[未确认使用 REA · 待验证]**

@@ -1,22 +1,25 @@
 # Craft Anything: a Rust study-and-rebuild workbench with explicit limits on project-reported checks
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-06
+Record date: 2026-11-07
 Stage: In progress
 
-At 09:51:48 Beijing time on November 2, 2026, Smartpig (@Smartpigai) introduces Craft Anything as studying a website, app or game, building a new project and comparing/refining it. At 11:15:23, mingzi206 promotes comprehensive automatic hooking, symbolic-execution architecture graphs and completion in minutes. A name lookup found the public storytold/craft-anything repository. This review read README and STATUS pinned to 32b80be89061896921d370e8f4f952ab707e2270, committed at 11:40:37 Beijing time that day. STATUS is dated November 2; its October 18 live runs and October 23 audit are earlier project records, not new experiments in this window.
+At 09:51:48 Beijing time on November 2, 2026, Smartpig (@Smartpigai) introduces Craft Anything studying websites, apps or games and delegating building and comparison to AI. At 11:15:23 mingzi206 (@mingzi206) promotes full automatic hooking, symbolic-execution architecture graphs and completion in minutes. Supplementary review read storytold/craft-anything README and STATUS at 32b80be89061896921d370e8f4f952ab707e2270, committed that day at 11:40:37. STATUS is dated November 2; its October 18 runs and October 23 audit are earlier project records.
 
-The project describes a pure-Rust engine with 314 CLI/MCP tools, 298 in the engine itself, sharing a study/build/check/refine workflow between the desktop app and agents. Default Clean room mode uses visitor-visible UI, user pictures and descriptions and refuses internal reads; Deep permits code, files, website JavaScript and optional Ghidra. Building primarily invokes the user's own Claude Code; analysis can use APIs or local compatible services. A Codex adapter exists but is not verified on a real installation. Clean room is the project's mode name, not this collection's legal or clean-room-compliance certification.
+The pure-Rust workbench claims 314 CLI/MCP tools, 298 in the engine. Desktop and agents share study/build/check/refine. Default Clean room reads visitor-visible UI, user images and descriptions, not internals; Deep permits code, files, website JavaScript and optional Ghidra. Building favors the user's Claude Code; analysis can use APIs or local compatible services. A Codex adapter exists but is unverified on a real installation. Clean room is a mode name, not legal or clean-room certification.
 
-STATUS reports October 18 Windows headless runs: a website at 96% likeness in 1.5 minutes; a small desktop app in 9 minutes, checked only by building; and a Rust game stopped at Build before Check. Website likeness is a project metric, not functional equivalence. Game self-tests are the generated build's own reports, not independently observed gameplay or measured values. Runtime study starts the original once to capture its window and UI tree rather than driving it over time; Frida sessions are partly simulated and no live full Clean room build has been run. These limits do not substantiate candidate generalizations about recording every syscall/memory transition or cloning arbitrary software in minutes.
+STATUS reports October 18 Windows headless results: a website at 96% likeness in 1.5 minutes; a small desktop app in 9 minutes checked only by building; and a Rust game stopped at Build before Check. Likeness is not functional equivalence, and game self-tests come from generated artifacts without independently observed play or measured values. Runtime study launches the original once to capture a window/UI tree rather than driving it continuously. Frida sessions are partly simulated; no complete live Clean room build is recorded. This does not support every-syscall/memory-transition or arbitrary-cloning-in-minutes claims.
 
-A new account at 17:23:57 Beijing time on November 6 claims the early alpha provides 320 CLI/MCP tools and compares rebuilt websites with originals at three screen widths, iterating on differences. This adds a later tool-count claim and a responsive-comparison use case, not a pinned version, actual widths, target website or result records. The 320 claim does not overwrite the 314 in the November 2 pinned docs or establish six newly implemented features. Three-width comparison does not prove backend equivalence.
+A November 6, 17:23:57 secondary account claims 320 tools and website comparisons at three screen widths before refinement, without a pinned revision, width values, target or results. This does not overwrite the pinned 314, establish six new features or prove backend equivalence.
 
-The README labels the project early alpha and distinguishes working from partial components. Installer descriptions are not downloads or cross-platform tests by this collection. Only public documentation and commit metadata were read; no target or repository code, dependencies or author tests were executed. This entry is distinct from the ArtCraft app suite's Adobe-attribution dispute: common organizational ownership does not establish that those apps reverse-engineered Adobe.
+At 03:19:39 on November 7, boring_data (@boring_data_) says they tried REA with Craft Anything and found AI captured only a little of a game's feel, failed to understand its complexity and performed poorly; copying expensive work would still take too much time for ordinary users. Retrieval confirms first-person attribution, not a game, revision, prompt, model, effort, artifact or logs. This negative experience is retained without generalizing one unknown configuration to all game reconstruction. It sits alongside the documentation's independent-game-checking limits, not as their reproduction.
+
+The project remains early alpha. Install instructions are not downloads or cross-platform tests here. Only text/docs were read; no target, build, dependencies or tests were run. ArtCraft's Adobe-attribution dispute is separate; shared ownership does not establish Adobe reversing.
 
 Sealed candidate snapshots: Smartpig, 8 likes, 692 views, 2 reposts; mingzi206, 2 likes, 59 views, 0 reposts.
 314 tools, 96%, 1.5 minutes, 9 minutes and audit tests are project reports, not independently reproduced. Real Codex installation, live Clean room builds and some dynamic analysis remain unverified.
-New November 6 candidate: 6 likes, 2,038 views, 0 reposts. The 320 tools and three-width comparison are later secondary claims, without tests for that revision obtained here.
+November 6 candidate: 6 likes, 2,038 views, 0 reposts. The 320 tools and three-width comparison are later secondary claims, without tests for that revision obtained here.
+November 7 candidate: 0 likes, 10 views, 0 reposts. The negative game experience has no named target or quantitative comparison.
 
 ## Sources
 
@@ -24,6 +27,7 @@ New November 6 candidate: 6 likes, 2,038 views, 0 reposts. The 320 tools and thr
 - [Supporting candidate: mingzi206's Rust/dynamic-observation promotion, November 2, 2026](https://x.com/i/status/2117093182441972165)
 - [Supplementary project README at a pinned November 2, 2026 commit](https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/README.md)
 - [Supplementary pinned STATUS, including October live runs and November 2 limitations](https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/docs/STATUS.md)
-- [New account: 320 tools and three-screen-width comparison, November 6, 2026 at 17:23:57 Beijing time](https://x.com/i/status/2118635487527145650)
+- [Account: 320 tools and three-screen-width comparison, November 6, 2026 at 17:23:57 Beijing time](https://x.com/i/status/2118635487527145650)
+- [boring_data's negative REA/Craft Anything game-testing experience, November 7, 2026 at 03:19:39 Beijing time](https://x.com/i/status/2118785400084840938)
 
 [中文](../craft-anything-agent-study-rebuild-compare-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Wing Commander浏览器联机：多年人工内存研究后由AI补构建与语音](../cases/wing-commander-browser-multiplayer-ai-build-voice-report.md) — RwatitFahsa转述1990年Wing Commander以WebRTC、Emscripten和房间码实现浏览器联机；AI只被归于构建脚本及部分语音，不是十年逆向全由AI完成。 **[其他 AI 逆向 · 待验证]**
+- [Wing Commander进VR：Bozoid转述REA参与，具体版本尚未核验](../cases/wing-commander-vr-rea-bozoid-secondary-report.md) — Bozoid说Wing Commander系列因REA／AI努力获得VR，并希望官方商店提供；未给具体作品、头显、实现或测试，不能当已验证VR移植。 **[REA · 待验证]**
 - [Lords of the Realm 2网页测试：İlker称Claude从demo逆向](../cases/lords-of-the-realm2-claude-demo-web-test.md) — İlker在网页展示的回复里说明Claude从Lords of the Realm 2试玩版逆向作测试；无源码、方法或完整战役验收，不称完整移植。 **[其他 AI 逆向 · 待验证]**
 - [Rec Room着色器：faiu简报用AI反编译，结果尚未公开](../cases/rec-room-ai-shader-decompilation-report.md) — faiu发帖称用AI反编译Rec Room着色器；没有模型、目标平台、恢复代码或渲染对照，不把短报当成功还原。 **[其他 AI 逆向 · 待验证]**
 - [Tetris与Flappy Bird重建：noko对照两版Claude的提示与拒绝行为](../cases/claude-tetris-flappy-rebuild-prompt-policy-comparison.md) — noko报告Opus4.8与5.5在游戏复刻、改名及原创类型提示下表现不同；多次结果为作者观察，不是原游戏代码恢复或功能等价验证。 **[其他 AI 逆向 · 分析测试]**

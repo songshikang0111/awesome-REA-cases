@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [SenseCAP M1继续服役：风扇与按钮GPIO研究交给Agent使用](../cases/sensecap-m1-gpio-fan-button-agent-repurpose.md) — brainstormity称62美元买到SenseCAP M1，改作树莓派服务器并定位风扇GPIO13、按钮GPIO27，提供Agent辅助Markdown；不证明AI完成研究或所有批次兼容。 **[未确认使用 REA · 相关项目]**
 - [第一代Tidbyt重新用起来：kobez称Codex协助自定义固件和API](../cases/kobez-tidbyt-gen1-codex-custom-firmware-api.md) — kobez称闲置的gen1 Tidbyt已运行自定义固件，并做API连接OpenClaw与本地服务；固件来源和修改方法未公开，不能认定从零逆向或完全离线。 **[其他 AI 逆向 · 进行中]**
 - [REDMI K20 Pro刷iOS16.5：测试固件发布的未核验转述](../cases/redmi-k20-pro-ios165-ai-port-secondary-report.md) — 资讯帖称开发者“你说喜欢是装的”放出REDMI K20 Pro的iOS16.5测试固件，以大模型辅助折腾旧机为背景；启动、驱动和AI具体参与均未核实。 **[其他 AI 逆向 · 待验证]**
 - [Hackintosh实验转述：新增ACPI／SSDT方法说法，启动仍未核验](../cases/hackintosh-ai-reverse-engineering-experiment-report.md) — 较早转述保留演示未核验与许可提醒；新帖描述让模型对照XNU从ACPI转储生成SSDT补丁，只称几分钟静态验证，未证实两帖同一设备或启动。 **[其他 AI 逆向 · 待验证]**

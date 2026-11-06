@@ -1,19 +1,23 @@
-# HyperFrames RAV：从Stripe发布视频反推重建的单次生成自述
+# HyperFrames RAV：Stripe重建自述与20片竞争工具比较
 
 分类：应用与客户端 · 其他 AI 逆向
-记录日期：2026-11-05
+记录日期：2026-11-07
 阶段：待验证
 
-2026年11月5日02:41:49（北京时间），Miguel Ángel（@Miguel07Code）说受morluto的REA启发，与HyperFrames发布RAV，即/reverse-any-video，并给出技能更新命令。他称示例包括一个Stripe发布视频的完整1-shot重建，帖子附视频；这里收录从参考片恢复表现与结构后重建的具体项目，而不是软件二进制分析。
+2026年11月5日02:41:49（北京时间），Miguel Ángel（@Miguel07Code）说受morluto的REA启发，与HyperFrames发布RAV，即/reverse-any-video，并给出技能更新命令，称完整1-shot重建Stripe发布视频。它是参考视频结构与表现的重建，不是软件二进制分析。开源为作者说法；未取得可确认源码位置、许可、技能正文、原始输入、提示、生成记录或逐镜对照，视频未观看。1-shot不等于无准备、编辑或重试，也不证明找回原提示词、配乐与资产。
 
-帖子称open-sourced，但未取得可确认源码位置、许可证、技能正文、模型、原始输入、提示、生成记录或逐镜对照。视频未观看；1-shot仅按作者口径，不等于无人工准备、编辑或多次尝试。没有时间、费用或视觉相似度数据，不能补写完整复制配乐、资产或原始提示词。
+11月7日03:41:51，Miao Yang（@WaterrrMiao）以our reverse-any-video对REA-VIDEO报告20片比较，涵盖UGC、口播及动态图形。实验一以人工标切点为参照，按其先后顺序，RAV／REA-VIDEO发现108/108对59/108切点，precision96%对89%，耗时81秒对1595秒，称约20倍；还说后者在八例中三例把实拍当AI。实验二称同模型、同keys、隔离容器做1:1重做，SSIM0.96对0.78，同时承认REA-VIDEO重做略快且便宜。作者认为复杂口播、B-roll、重编辑与发布动效更显己方优势，简单UGC两者都好。
 
-REA是灵感来源，未确认其参与执行；与已有HyperFrames editor的小Lin说／Vox模板实验及另一REA-VIDEO拆解工具不混为同一实现。未安装技能、下载原片或执行重建，状态unverified。
+补取确认比较者署名，但没有20片清单、每片标签、软件版本、配置、模型名称、绝对重做费用／时间、SSIM对齐及聚合方法或可重跑记录，也未独立确认与先前HyperFrames版本的连续性；按同名技能的后续报告追加，不当独立基准。分析速度与成片速度是两个实验，不能混成全面更快。切点precision、SSIM与REA-VIDEO自身按时长加权的制作来源判定准确率不是同一指标。
 
-封存11赞、627浏览、2转发；开源与1-shot是作者说法，不是本合集源码或成片核验。
+REA仅为灵感来源，未确认执行；与HyperFrames editor小Lin说／Vox模板及REA-VIDEO保持区分。未安装技能、下载原片、观看比较或运行重建，保持unverified。
+
+11月5日封存11赞、627浏览、2转发；开源与1-shot是作者说法，不是源码或成片核验。
+11月7日候选2赞、42浏览、0转发；20片、108切点、precision、时间与SSIM均为竞争方报告，不是本合集复测。
 
 ## 来源
 
 - [Miguel Ángel的HyperFrames RAV发布与Stripe示例，2026-11-05](https://x.com/i/status/2118051103057101245)
+- [Miao Yang的reverse-any-video对REA-VIDEO自测，2026-11-07 03:41:51北京时间](https://x.com/i/status/2118790987875221905)
 
 [English](en/hyperframes-rav-stripe-video-reconstruction.md) | [返回目录](../README.zh-CN.md)
