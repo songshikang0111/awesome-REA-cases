@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1812 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1827 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（370）
-- [硬件与设备互通](categories/hardware.md)（483）
-- [应用与客户端](categories/apps.md)（754）
-- [算法与功能重建](categories/algorithms.md)（205）
+- [游戏与游戏保存](categories/games.md)（371）
+- [硬件与设备互通](categories/hardware.md)（491）
+- [应用与客户端](categories/apps.md)（757）
+- [算法与功能重建](categories/algorithms.md)（208）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Spyro ANB动画研究：Yallax澄清自己引导Claude，并非完成反编译](cases/dreamwoven-spyro-anb-claude-animation-research.md) — TLoS: ANB串中Yallax说利用DRG mod经验引导Claude；旧帖提五段Pickup动画疑似删减内容，未确认用途，也不把作者当反编译者。 **[其他 AI 逆向 · 进行中]**
 - [Wing Commander浏览器联机：多年人工内存研究后由AI补构建与语音](cases/wing-commander-browser-multiplayer-ai-build-voice-report.md) — RwatitFahsa转述1990年Wing Commander以WebRTC、Emscripten和房间码实现浏览器联机；AI只被归于构建脚本及部分语音，不是十年逆向全由AI完成。 **[其他 AI 逆向 · 待验证]**
 - [Wing Commander进VR：Bozoid转述REA参与，具体版本尚未核验](cases/wing-commander-vr-rea-bozoid-secondary-report.md) — Bozoid说Wing Commander系列因REA／AI努力获得VR，并希望官方商店提供；未给具体作品、头显、实现或测试，不能当已验证VR移植。 **[REA · 待验证]**
 - [Lords of the Realm 2网页测试：İlker称Claude从demo逆向](cases/lords-of-the-realm2-claude-demo-web-test.md) — İlker在网页展示的回复里说明Claude从Lords of the Realm 2试玩版逆向作测试；无源码、方法或完整战役验收，不称完整移植。 **[其他 AI 逆向 · 待验证]**
@@ -35,7 +36,7 @@
 - [游戏引擎重实现遇到剧情阻断：George Gorzhiyev称Claude正在修复](cases/george-gorzhiyev-claude-engine-story-blocker.md) — George Gorzhiyev报告自己的游戏引擎重实现出现阻断剧情的严重缺陷，Claude正在处理；未具名游戏、引擎、代码和修复结果。 **[其他 AI 逆向 · 进行中]**
 - [CFB自定义重建：读者期待AI反编译后也能在越狱主机运行](cases/cfb-ai-custom-game-jailbroken-console-idea.md) — system error提出研究EA的CFB、重建带自定义内容的新游戏，并让目标不只限PC；是预测与愿望，无版本、代码或运行结果。 **[其他 AI 逆向 · 相关项目]**
 - [OptiScaler：读者称既有游戏Mod项目开始使用AI](cases/optiscaler-ai-adoption-reader-report.md) — Orçun Altundağ在游戏逆向讨论中点名OptiScaler采用AI；公开仓库描述跨GPU超分与补帧用途，但没有AI具体贡献或测试证据。 **[其他 AI 逆向 · 待验证]**
-- [小游戏逻辑定位：BNK试用REA，得到尚未验证的两个文件](cases/bnk-rea-minigame-logic-extraction-report.md) — BNK报告给REA一个终端提示定位小游戏逻辑，一小时多返回两个看似正确文件；安装加研究两次提示共耗10万token，未给游戏名与正确性测试。 **[REA · 待验证]**
+- [小游戏逻辑定位：BNK试用REA，得到尚未验证的两个文件](cases/bnk-rea-minigame-logic-extraction-report.md) — BNK试用REA定位小游戏逻辑，报告一小时多、两个看似正确文件与两次提示10万token；后续仍认可试用，但为控制权与资源顾虑拒绝接入自有项目，没有新增正确性测试。 **[REA · 待验证]**
 - [旧MMO伙伴背包：Stefan Rows用REA与Ghidra研究game.dll](cases/old-mmo-rea-ghidra-companion-backpack.md) — Stefan Rows称REA与Ghidra读取旧网游game.dll，Claude据此给离线伙伴加入拖拽背包；游戏未具名，未核对前后演示。 **[REA · 待验证]**
 - [RodelRepulle重建旧爱游戏：REA研究、Grok实现与Gemini特效分工](cases/rodelrepulle-multimodel-rea-game-revival.md) — 作者称把Opus 5.5与GPT-6.1 Terra配REA做研究，再由Grok重建、Gemini Argon做VFX；未具名游戏，无代码或可玩性证明。 **[REA · 待验证]**
 - [Creatures 2：Torben称Hermes中的REA半天研究游戏并自主养育Norn](cases/creatures2-hermes-rea-autonomous-norn-report.md) — Torben Michaelsen称REA在Hermes中用半天研究《Creatures 2》并自行养育一只Norn；没有操作轨迹或成功标准。 **[REA · 待验证]**
@@ -399,6 +400,14 @@
 
 ### 硬件与设备互通
 
+- [Baofeng 5RM：Shade用Claude将定制固件移植到自己的版本](cases/shade-baofeng-5rm-claude-firmware-port.md) — Shade看到的5RM固件不适合自己的版本，称用Claude移植、已fork并等PR接受；未披露版本差异、功能与实机测试。 **[其他 AI 逆向 · 进行中]**
+- [十年蓝牙耳机：Insomnia称Claude检查协议并改codec与EQ](cases/claude-2016-bluetooth-headphone-codec-eq-report.md) — Insomnia自述Claude检查2016年廉价耳机的配置与通信，写脚本改codec、权限和EQ，称通话改善、续航1小时到近3小时；未公开型号或测量。 **[其他 AI 逆向 · 待验证]**
+- [M-vave FM1：读者建议与Claude把定制固件做成groovebox](cases/m-vave-fm1-claude-groovebox-firmware-idea.md) — @HamasCOO点名M-vave FM1，建议Claude辅助定制固件改成groovebox；是具体设备改造idea，未给实际移植或逆向记录。 **[其他 AI 逆向 · 待验证]**
+- [ryumi的家庭路由器只读审计提示：把检查与修复分开](cases/claude-home-router-readonly-audit-prompt.md) — ryumi发布Claude路由器检查提示词，要求核对固件、管理面暴露、登录与路由器自身连接；父帖的凭据填充与刷固件故事未附原始记录。 **[其他 AI 逆向 · 待验证]**
+- [ESP32插入iPhone：Vaibhav转述Henry Yuan的MCP硬件控制器](cases/henry-yuan-esp32-iphone-mcp-deepseek-report.md) — 转述Henry Yuan以ESP32与固件让Claude Code经MCP操作iPhone，新版接入DeepSeek Harness；没有原项目与屏幕读取机制，不能当iOS漏洞或免硬件方案。 **[其他 AI 逆向 · 待验证]**
+- [嵌入式固件研究：Arda报告Sol medium过早完成，改用xhigh](cases/arda-sol-embedded-firmware-reasoning-effort-report.md) — Arda在未具名嵌入式固件逆向中用gpt-6.1-sol xhigh，称medium易提前宣告完成、绕开目标；属于工作流观察，没有定量模型比较。 **[其他 AI 逆向 · 进行中]**
+- [Famicom卡带时序：Kenta IDA让Claude研究QSPI随机读取是否来得及](cases/ciniml-claude-famicom-qspi-memory-timing-study.md) — Kenta IDA借Claude调查红白机内存访问时序，担心QSPI命令、地址、dummy周期使随机读取错过卡带响应；尚无延迟预算或实机验证。 **[其他 AI 逆向 · 进行中]**
+- [Uniden扫描接收机：读者建议闭源固件研究后问Claude能否改写](cases/uniden-scanner-claude-custom-firmware-reader-idea.md) — Crypiehef回应USDS100／UBCD4365T可否运行自定义算法，建议研究闭源固件、再问Claude写定制固件；没有提取、移植或解密实测。 **[其他 AI 逆向 · 待验证]**
 - [SenseCAP M1继续服役：风扇与按钮GPIO研究交给Agent使用](cases/sensecap-m1-gpio-fan-button-agent-repurpose.md) — brainstormity称62美元买到SenseCAP M1，改作树莓派服务器并定位风扇GPIO13、按钮GPIO27，提供Agent辅助Markdown；不证明AI完成研究或所有批次兼容。 **[未确认使用 REA · 相关项目]**
 - [第一代Tidbyt重新用起来：kobez称Codex协助自定义固件和API](cases/kobez-tidbyt-gen1-codex-custom-firmware-api.md) — kobez称闲置的gen1 Tidbyt已运行自定义固件，并做API连接OpenClaw与本地服务；固件来源和修改方法未公开，不能认定从零逆向或完全离线。 **[其他 AI 逆向 · 进行中]**
 - [REDMI K20 Pro刷iOS16.5：测试固件发布的未核验转述](cases/redmi-k20-pro-ios165-ai-port-secondary-report.md) — 资讯帖称开发者“你说喜欢是装的”放出REDMI K20 Pro的iOS16.5测试固件，以大模型辅助折腾旧机为背景；启动、驱动和AI具体参与均未核实。 **[其他 AI 逆向 · 待验证]**
@@ -477,7 +486,7 @@
 - [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
 - [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
 - [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**
-- [Danfoss冷柜控制器：播客转述Sonnet约6美元重建已知漏洞，读者提出维修idea](cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Hacked播客引述Claroty CTO：Sonnet读取Danfoss研究后重建已知漏洞；另有读者希望AI支持停更硬件维修。没有原始测试或修复证据，不把现实攻击归因给AI。 **[其他 AI 逆向 · 待验证]**
+- [Danfoss冷柜控制器：Sonnet已知漏洞重建转述、人工纠正与维修idea](cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — 旧播客转述Sonnet重建Danfoss已知漏洞；Frelzu新补充实验室Sonnet4.6约6美元、28分钟及人工纠正认证绕过，称漏洞有固件修复。原始日志未获，不把现实攻击归因给AI。 **[其他 AI 逆向 · 待验证]**
 - [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
 - [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**
@@ -885,6 +894,9 @@
 
 ### 应用与客户端
 
+- [Claude Desktop每日任务关不掉：Murat用Antigravity检查应用代码定位文件](cases/antigravity-claude-desktop-recurring-task-removal.md) — Murat Umutlu称Claude与Codex没能关掉每日任务，Antigravity通过研究Claude Desktop代码找到任务文件并删除；没有路径、代码或停跑日志。 **[其他 AI 逆向 · 待验证]**
+- [Merlin 1D手势演示：转述Perplexity从视频重建Web 3D交互](cases/perplexity-merlin1d-video-webcam-3d-reconstruction.md) — 谁是藏镜人称Perplexity研究2013年发动机演示，做出7677线段与WebCam旋转缩放；没有源码或几何对照，不是恢复真实发动机CAD。 **[其他 AI 逆向 · 待验证]**
+- [pumpfunbots-reverse：研究666个钱包后让Claude先读策略再配机器人](cases/pumpfunbots-reverse-wallet-study-agent-workflow.md) — zostaff公开七机器人与链上行为研究，帖子建议Claude先读strategy-research；固定README能核对文档与dry-run示例，不能证明收益或AI完成全部逆向。 **[其他 AI 逆向 · 进行中]**
 - [oh my hermes：HOPE称研究记忆系统以增强Hermes长期保留](cases/oh-my-hermes-memory-system-research-harness.md) — HOPE介绍Hermes原生harness，称研究既有记忆系统、内置协作规范及150余技能；源码短链与保留率未核验，token数字不能当性能证据。 **[其他 AI 逆向 · 进行中]**
 - [android-ad-cleaner：让Agent关闭国产Android广告开关的可回滚流程](cases/android-ad-cleaner-agent-reversible-settings-workflow.md) — 候选介绍不用root、不刷固件的广告开关清理，提供桌面端和Agent执行路径；公开同名仓库匹配用途，但测试机型与回滚效果未独立验证。 **[未确认使用 REA · 相关项目]**
 - [XRP异常铸币漏洞：AI研究旧代码并写验证的未核验转述](cases/xrp-ai-agent-minting-bug-secondary-report.md) — VK_ROXy转述Agent研究XRP相关旧代码，称发现单笔可生成18万亿XRP的问题并写验证；未给团队、编号或测试环境，后接REA推广不证明用REA发现。 **[其他 AI 逆向 · 待验证]**
@@ -1642,6 +1654,9 @@
 
 ### 算法与功能重建
 
+- [XRef：从status字段追到候选写入函数，而不是看名字猜作者](cases/alex09x-xref-serialized-status-writer-walkthrough.md) — Alexander Panasenko用XRef说明序列化键、字段偏移、writer候选与指令证据的调查路线；公开Rust工具提供JSON/MCP，排名仍是启发式，本合集未执行。 **[其他 AI 逆向 · 相关项目]**
+- [Apollo投沙包：转述Gemini Argon从视频反推力学目标与仿真](cases/gemini-argon-monocular-parabolic-skill-transfer-report.md) — 谁是藏镜人称Gemini Argon看单目投沙包视频，反推抛物线目标、写仿真并训练Apollo策略；无原始研究或命中统计，不确认零样本成功。 **[其他 AI 逆向 · 待验证]**
+- [Stacktrace叫停实验：GLM据称用后30轮中的27轮研究阻止机制](cases/stacktrace-glm-steering-blocker-reverse-engineering-report.md) — Micheal Benedict报告实时steering控制实验：多数模型改道，GLM继续研究阻止它的机制；27/30是单例轮数，不是成功绕过率。 **[其他 AI 逆向 · 分析测试]**
 - [二进制证据账本：AJ要求Agent每项断言先指向可观察事实](cases/abdiisan-binary-observable-agent-evidence-ledger.md) — AJ正在试验Agent断言入账前必须指向二进制observable的工作流，自述减少幻觉，但不确定能否扩展到完整函数重建；没有量化测试。 **[其他 AI 逆向 · 进行中]**
 - [唐宫浴后肖像：sandmrk反推构图、材质与烛光提示词](cases/sandmrk-tang-palace-bath-sleeping-portrait-prompt.md) — sandmrk以Gemini相关帖公开唐宫浴后人物图的逆向提示词，指定坐标、色板与材质；明确生成不能完全匹配原图，未提供量化对照。 **[其他 AI 逆向 · 分析测试]**
 - [Google Maps式街景扫描：Clodex的Claude Code与iPhone研究说法仍矛盾](cases/clodex-claude-google-maps-lidar-iphone-scan-report.md) — Clodex声称以Claude Code研究Google Maps，用车顶普通iPhone替代高价LiDAR；后续却描述32线激光点云，未给真实采集和匿名化验证。 **[其他 AI 逆向 · 待验证]**

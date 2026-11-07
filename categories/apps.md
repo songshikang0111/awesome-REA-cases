@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Claude Desktop每日任务关不掉：Murat用Antigravity检查应用代码定位文件](../cases/antigravity-claude-desktop-recurring-task-removal.md) — Murat Umutlu称Claude与Codex没能关掉每日任务，Antigravity通过研究Claude Desktop代码找到任务文件并删除；没有路径、代码或停跑日志。 **[其他 AI 逆向 · 待验证]**
+- [Merlin 1D手势演示：转述Perplexity从视频重建Web 3D交互](../cases/perplexity-merlin1d-video-webcam-3d-reconstruction.md) — 谁是藏镜人称Perplexity研究2013年发动机演示，做出7677线段与WebCam旋转缩放；没有源码或几何对照，不是恢复真实发动机CAD。 **[其他 AI 逆向 · 待验证]**
+- [pumpfunbots-reverse：研究666个钱包后让Claude先读策略再配机器人](../cases/pumpfunbots-reverse-wallet-study-agent-workflow.md) — zostaff公开七机器人与链上行为研究，帖子建议Claude先读strategy-research；固定README能核对文档与dry-run示例，不能证明收益或AI完成全部逆向。 **[其他 AI 逆向 · 进行中]**
 - [oh my hermes：HOPE称研究记忆系统以增强Hermes长期保留](../cases/oh-my-hermes-memory-system-research-harness.md) — HOPE介绍Hermes原生harness，称研究既有记忆系统、内置协作规范及150余技能；源码短链与保留率未核验，token数字不能当性能证据。 **[其他 AI 逆向 · 进行中]**
 - [android-ad-cleaner：让Agent关闭国产Android广告开关的可回滚流程](../cases/android-ad-cleaner-agent-reversible-settings-workflow.md) — 候选介绍不用root、不刷固件的广告开关清理，提供桌面端和Agent执行路径；公开同名仓库匹配用途，但测试机型与回滚效果未独立验证。 **[未确认使用 REA · 相关项目]**
 - [XRP异常铸币漏洞：AI研究旧代码并写验证的未核验转述](../cases/xrp-ai-agent-minting-bug-secondary-report.md) — VK_ROXy转述Agent研究XRP相关旧代码，称发现单笔可生成18万亿XRP的问题并写验证；未给团队、编号或测试环境，后接REA推广不证明用REA发现。 **[其他 AI 逆向 · 待验证]**

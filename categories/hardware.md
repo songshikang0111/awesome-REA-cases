@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Baofeng 5RM：Shade用Claude将定制固件移植到自己的版本](../cases/shade-baofeng-5rm-claude-firmware-port.md) — Shade看到的5RM固件不适合自己的版本，称用Claude移植、已fork并等PR接受；未披露版本差异、功能与实机测试。 **[其他 AI 逆向 · 进行中]**
+- [十年蓝牙耳机：Insomnia称Claude检查协议并改codec与EQ](../cases/claude-2016-bluetooth-headphone-codec-eq-report.md) — Insomnia自述Claude检查2016年廉价耳机的配置与通信，写脚本改codec、权限和EQ，称通话改善、续航1小时到近3小时；未公开型号或测量。 **[其他 AI 逆向 · 待验证]**
+- [M-vave FM1：读者建议与Claude把定制固件做成groovebox](../cases/m-vave-fm1-claude-groovebox-firmware-idea.md) — @HamasCOO点名M-vave FM1，建议Claude辅助定制固件改成groovebox；是具体设备改造idea，未给实际移植或逆向记录。 **[其他 AI 逆向 · 待验证]**
+- [ryumi的家庭路由器只读审计提示：把检查与修复分开](../cases/claude-home-router-readonly-audit-prompt.md) — ryumi发布Claude路由器检查提示词，要求核对固件、管理面暴露、登录与路由器自身连接；父帖的凭据填充与刷固件故事未附原始记录。 **[其他 AI 逆向 · 待验证]**
+- [ESP32插入iPhone：Vaibhav转述Henry Yuan的MCP硬件控制器](../cases/henry-yuan-esp32-iphone-mcp-deepseek-report.md) — 转述Henry Yuan以ESP32与固件让Claude Code经MCP操作iPhone，新版接入DeepSeek Harness；没有原项目与屏幕读取机制，不能当iOS漏洞或免硬件方案。 **[其他 AI 逆向 · 待验证]**
+- [嵌入式固件研究：Arda报告Sol medium过早完成，改用xhigh](../cases/arda-sol-embedded-firmware-reasoning-effort-report.md) — Arda在未具名嵌入式固件逆向中用gpt-6.1-sol xhigh，称medium易提前宣告完成、绕开目标；属于工作流观察，没有定量模型比较。 **[其他 AI 逆向 · 进行中]**
+- [Famicom卡带时序：Kenta IDA让Claude研究QSPI随机读取是否来得及](../cases/ciniml-claude-famicom-qspi-memory-timing-study.md) — Kenta IDA借Claude调查红白机内存访问时序，担心QSPI命令、地址、dummy周期使随机读取错过卡带响应；尚无延迟预算或实机验证。 **[其他 AI 逆向 · 进行中]**
+- [Uniden扫描接收机：读者建议闭源固件研究后问Claude能否改写](../cases/uniden-scanner-claude-custom-firmware-reader-idea.md) — Crypiehef回应USDS100／UBCD4365T可否运行自定义算法，建议研究闭源固件、再问Claude写定制固件；没有提取、移植或解密实测。 **[其他 AI 逆向 · 待验证]**
 - [SenseCAP M1继续服役：风扇与按钮GPIO研究交给Agent使用](../cases/sensecap-m1-gpio-fan-button-agent-repurpose.md) — brainstormity称62美元买到SenseCAP M1，改作树莓派服务器并定位风扇GPIO13、按钮GPIO27，提供Agent辅助Markdown；不证明AI完成研究或所有批次兼容。 **[未确认使用 REA · 相关项目]**
 - [第一代Tidbyt重新用起来：kobez称Codex协助自定义固件和API](../cases/kobez-tidbyt-gen1-codex-custom-firmware-api.md) — kobez称闲置的gen1 Tidbyt已运行自定义固件，并做API连接OpenClaw与本地服务；固件来源和修改方法未公开，不能认定从零逆向或完全离线。 **[其他 AI 逆向 · 进行中]**
 - [REDMI K20 Pro刷iOS16.5：测试固件发布的未核验转述](../cases/redmi-k20-pro-ios165-ai-port-secondary-report.md) — 资讯帖称开发者“你说喜欢是装的”放出REDMI K20 Pro的iOS16.5测试固件，以大模型辅助折腾旧机为背景；启动、驱动和AI具体参与均未核实。 **[其他 AI 逆向 · 待验证]**
@@ -80,7 +88,7 @@
 - [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](../cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
 - [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](../cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
 - [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](../cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**
-- [Danfoss冷柜控制器：播客转述Sonnet约6美元重建已知漏洞，读者提出维修idea](../cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Hacked播客引述Claroty CTO：Sonnet读取Danfoss研究后重建已知漏洞；另有读者希望AI支持停更硬件维修。没有原始测试或修复证据，不把现实攻击归因给AI。 **[其他 AI 逆向 · 待验证]**
+- [Danfoss冷柜控制器：Sonnet已知漏洞重建转述、人工纠正与维修idea](../cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — 旧播客转述Sonnet重建Danfoss已知漏洞；Frelzu新补充实验室Sonnet4.6约6美元、28分钟及人工纠正认证绕过，称漏洞有固件修复。原始日志未获，不把现实攻击归因给AI。 **[其他 AI 逆向 · 待验证]**
 - [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](../cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
 - [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](../cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](../cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**

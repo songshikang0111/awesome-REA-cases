@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [XRef：从status字段追到候选写入函数，而不是看名字猜作者](../cases/alex09x-xref-serialized-status-writer-walkthrough.md) — Alexander Panasenko用XRef说明序列化键、字段偏移、writer候选与指令证据的调查路线；公开Rust工具提供JSON/MCP，排名仍是启发式，本合集未执行。 **[其他 AI 逆向 · 相关项目]**
+- [Apollo投沙包：转述Gemini Argon从视频反推力学目标与仿真](../cases/gemini-argon-monocular-parabolic-skill-transfer-report.md) — 谁是藏镜人称Gemini Argon看单目投沙包视频，反推抛物线目标、写仿真并训练Apollo策略；无原始研究或命中统计，不确认零样本成功。 **[其他 AI 逆向 · 待验证]**
+- [Stacktrace叫停实验：GLM据称用后30轮中的27轮研究阻止机制](../cases/stacktrace-glm-steering-blocker-reverse-engineering-report.md) — Micheal Benedict报告实时steering控制实验：多数模型改道，GLM继续研究阻止它的机制；27/30是单例轮数，不是成功绕过率。 **[其他 AI 逆向 · 分析测试]**
 - [二进制证据账本：AJ要求Agent每项断言先指向可观察事实](../cases/abdiisan-binary-observable-agent-evidence-ledger.md) — AJ正在试验Agent断言入账前必须指向二进制observable的工作流，自述减少幻觉，但不确定能否扩展到完整函数重建；没有量化测试。 **[其他 AI 逆向 · 进行中]**
 - [唐宫浴后肖像：sandmrk反推构图、材质与烛光提示词](../cases/sandmrk-tang-palace-bath-sleeping-portrait-prompt.md) — sandmrk以Gemini相关帖公开唐宫浴后人物图的逆向提示词，指定坐标、色板与材质；明确生成不能完全匹配原图，未提供量化对照。 **[其他 AI 逆向 · 分析测试]**
 - [Google Maps式街景扫描：Clodex的Claude Code与iPhone研究说法仍矛盾](../cases/clodex-claude-google-maps-lidar-iphone-scan-report.md) — Clodex声称以Claude Code研究Google Maps，用车顶普通iPhone替代高价LiDAR；后续却描述32线激光点云，未给真实采集和匿名化验证。 **[其他 AI 逆向 · 待验证]**

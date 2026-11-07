@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Spyro ANB动画研究：Yallax澄清自己引导Claude，并非完成反编译](../cases/dreamwoven-spyro-anb-claude-animation-research.md) — TLoS: ANB串中Yallax说利用DRG mod经验引导Claude；旧帖提五段Pickup动画疑似删减内容，未确认用途，也不把作者当反编译者。 **[其他 AI 逆向 · 进行中]**
 - [Wing Commander浏览器联机：多年人工内存研究后由AI补构建与语音](../cases/wing-commander-browser-multiplayer-ai-build-voice-report.md) — RwatitFahsa转述1990年Wing Commander以WebRTC、Emscripten和房间码实现浏览器联机；AI只被归于构建脚本及部分语音，不是十年逆向全由AI完成。 **[其他 AI 逆向 · 待验证]**
 - [Wing Commander进VR：Bozoid转述REA参与，具体版本尚未核验](../cases/wing-commander-vr-rea-bozoid-secondary-report.md) — Bozoid说Wing Commander系列因REA／AI努力获得VR，并希望官方商店提供；未给具体作品、头显、实现或测试，不能当已验证VR移植。 **[REA · 待验证]**
 - [Lords of the Realm 2网页测试：İlker称Claude从demo逆向](../cases/lords-of-the-realm2-claude-demo-web-test.md) — İlker在网页展示的回复里说明Claude从Lords of the Realm 2试玩版逆向作测试；无源码、方法或完整战役验收，不称完整移植。 **[其他 AI 逆向 · 待验证]**
@@ -11,7 +12,7 @@
 - [游戏引擎重实现遇到剧情阻断：George Gorzhiyev称Claude正在修复](../cases/george-gorzhiyev-claude-engine-story-blocker.md) — George Gorzhiyev报告自己的游戏引擎重实现出现阻断剧情的严重缺陷，Claude正在处理；未具名游戏、引擎、代码和修复结果。 **[其他 AI 逆向 · 进行中]**
 - [CFB自定义重建：读者期待AI反编译后也能在越狱主机运行](../cases/cfb-ai-custom-game-jailbroken-console-idea.md) — system error提出研究EA的CFB、重建带自定义内容的新游戏，并让目标不只限PC；是预测与愿望，无版本、代码或运行结果。 **[其他 AI 逆向 · 相关项目]**
 - [OptiScaler：读者称既有游戏Mod项目开始使用AI](../cases/optiscaler-ai-adoption-reader-report.md) — Orçun Altundağ在游戏逆向讨论中点名OptiScaler采用AI；公开仓库描述跨GPU超分与补帧用途，但没有AI具体贡献或测试证据。 **[其他 AI 逆向 · 待验证]**
-- [小游戏逻辑定位：BNK试用REA，得到尚未验证的两个文件](../cases/bnk-rea-minigame-logic-extraction-report.md) — BNK报告给REA一个终端提示定位小游戏逻辑，一小时多返回两个看似正确文件；安装加研究两次提示共耗10万token，未给游戏名与正确性测试。 **[REA · 待验证]**
+- [小游戏逻辑定位：BNK试用REA，得到尚未验证的两个文件](../cases/bnk-rea-minigame-logic-extraction-report.md) — BNK试用REA定位小游戏逻辑，报告一小时多、两个看似正确文件与两次提示10万token；后续仍认可试用，但为控制权与资源顾虑拒绝接入自有项目，没有新增正确性测试。 **[REA · 待验证]**
 - [旧MMO伙伴背包：Stefan Rows用REA与Ghidra研究game.dll](../cases/old-mmo-rea-ghidra-companion-backpack.md) — Stefan Rows称REA与Ghidra读取旧网游game.dll，Claude据此给离线伙伴加入拖拽背包；游戏未具名，未核对前后演示。 **[REA · 待验证]**
 - [RodelRepulle重建旧爱游戏：REA研究、Grok实现与Gemini特效分工](../cases/rodelrepulle-multimodel-rea-game-revival.md) — 作者称把Opus 5.5与GPT-6.1 Terra配REA做研究，再由Grok重建、Gemini Argon做VFX；未具名游戏，无代码或可玩性证明。 **[REA · 待验证]**
 - [Creatures 2：Torben称Hermes中的REA半天研究游戏并自主养育Norn](../cases/creatures2-hermes-rea-autonomous-norn-report.md) — Torben Michaelsen称REA在Hermes中用半天研究《Creatures 2》并自行养育一只Norn；没有操作轨迹或成功标准。 **[REA · 待验证]**
