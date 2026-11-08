@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 1914 个案例与项目
+# 1921 个案例与项目
 
-**最近案例更新：**2026 年 11 月 9 日 02:23 · **最近维护：**2026 年 11 月 9 日 02:23 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
+**最近案例更新：**2026 年 11 月 9 日 02:42 · **最近维护：**2026 年 11 月 9 日 02:42 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -33,7 +33,7 @@
 7. **[DX-Ball：从声像函数走到Windows重建](cases/dx-ball-sound-pan.md)** · `2026-11-01`报道；`2026-10-31`项目记录 — Codex／REA／Ghidra重建报告**270个游戏函数、84968字节匹配**，另有原生VC4构建。仅时间戳不同的比较对象是较早重建版，不是原版EXE；原版50关通关与完整原生音频仍待测。须自备文件，本合集未重建。`项目自测重建`
 8. **[MechWarrior 3：让1999年的机甲游戏跑上现代电脑](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04`报道与固定项目记录 — Owen Morgan披露**REA／Ghidra研究、逐函数C++重建**，报告以Unicorn对照原版。公开原生后端、宽屏与八人UDP联机；报道明确Linux未试玩，Pirate's Moon未支持。须自备原游戏，本合集未构建。`进行中`
 9. **[行李箱原App没了，自己接着用](cases/codex-rea-jadx-suitcase-iphone-app.md)** · `2026-11-06`作者报告（北京时间） — Diego归因**Codex、REA与JADX研究旧Android APK**，再用实物测试蓝牙命令，做SwiftUI iPhone替代App恢复称重与锁控。约一小时为自报；箱型、源码与标定日志未披露，本合集未运行。`进行中`
-10. **[豆记BeanScribe：自己选录音豆的转写服务](cases/gengdaj-feishu-recorder-custom-transcription-app.md)** · `2026-11-04`作者更新与项目记录 — 逸尘归因REA，**公开H5／Python实现把D3200接入飞书**，复用tacshi协议研究。单人部署，开头2–4秒可能丢失，未改官方额度或固件。源码可用，非OSI开源；本合集未运行。`进行中`
+10. **[Redivivus：用审阅过的数据库提案恢复暗黑II](cases/redivivus-diablo2-ghidra-agent-proposals.md)** · `2026-11-08`报道与固定项目文档 — **Claude／MCP Agent只读调查Ghidra数据库，再按证据提修正。**项目自报单人通关、地址归一比较下**7772／14626函数匹配**，不是整EXE相同。仍有崩溃，x64编译通过不等于可玩，须自备原游戏。本合集未重建。`进行中`
 
 
 ## 经典案例
@@ -50,10 +50,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **387** |
-| [硬件与设备互通](categories/hardware.md) | **510** |
-| [应用与客户端](categories/apps.md) | **787** |
-| [算法与功能重建](categories/algorithms.md) | **230** |
+| [游戏与游戏保存](categories/games.md) | **388** |
+| [硬件与设备互通](categories/hardware.md) | **514** |
+| [应用与客户端](categories/apps.md) | **788** |
+| [算法与功能重建](categories/algorithms.md) | **231** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

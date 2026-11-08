@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [GPU固件适配：Michael Wegener称编码Agent持续循环数天研究与打补丁](../cases/mwsatware-agent-loop-gpu-firmware-patching.md) — Michael Wegener以GPU固件逆向与硬件环境补丁为编码Agent长循环例子；未披露GPU型号、补丁、工具链或实机验收。 **[其他 AI 逆向 · 进行中]**
+- [Mac上的Omarchy：Sachin转述Asahi基础上的AI辅助硬件适配](../cases/sachin-omarchy-asahi-mac-ai-driver-report.md) — Sachin称Omarchy借Asahi逆向与AI agents推进Touch ID、M3 GPU和深睡眠；没有对应补丁、机型或硬件测试，不能作为Mac支持矩阵。 **[其他 AI 逆向 · 待验证]**
+- [照片到键帽CAD：VedaAI00转述大模型重建凹槽、拔模角与十字轴槽](../cases/veda-keycap-photo-parametric-cad-report.md) — 单张实物图反推参数键帽几何的转述，包含顶部球冠凹槽、四周拔模斜角与底部十字槽；没有尺寸、CAD文件、模型名或制造验证。 **[其他 AI 逆向 · 待验证]**
+- [建筑模型图到ForgeCAD：VedaAI00重提Ruben用Codex逐图迭代的旧实验](../cases/ruben-forgecad-codex-architecture-image-reconstruction.md) — 本窗评论链接追到Ruben在5月2日UTC／5月3日北京时间用GPT-5.5／Codex于ForgeCAD重做architecture model series 20首个模型；无源文件、几何精度或STEP分析验收。 **[其他 AI 逆向 · 待验证]**
 - [第12代Paperwhite：InvestingVault转述Adrian用Claude Code配合公开文档越狱](../cases/adrian-paperwhite12-claude-docs-jailbreak-report.md) — 为回应KOReader使用问题，InvestingVault转述Adrian的Paperwhite越狱经历；没有步骤、固件版本或原始验证，不是Kindle Scribe指南。 **[其他 AI 逆向 · 待验证]**
 - [停产热敏打印机复活：VedaAI00转述AI经串口研究协议并写驱动](../cases/veda-ai-defunct-thermal-printer-serial-revival.md) — 谁是藏镜人转述一台失去厂商支持的热敏打印机，通过串口和AI协议研究恢复使用；型号、原作者、驱动和打印测试未披露。 **[其他 AI 逆向 · 待验证]**
 - [零跑轻量车控App想法：a bei报告AI因云服务逆向而拒绝](../cases/abei-leapmotor-native-car-control-ai-refusal.md) — a bei受极氪原生车控App启发想做零跑版本，但AI拒绝云服务逆向；仅有需求与受阻经历，没有车控实现。 **[其他 AI 逆向 · 待验证]**

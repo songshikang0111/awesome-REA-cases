@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1914 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1921 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（387）
-- [硬件与设备互通](categories/hardware.md)（510）
-- [应用与客户端](categories/apps.md)（787）
-- [算法与功能重建](categories/algorithms.md)（230）
+- [游戏与游戏保存](categories/games.md)（388）
+- [硬件与设备互通](categories/hardware.md)（514）
+- [应用与客户端](categories/apps.md)（788）
+- [算法与功能重建](categories/algorithms.md)（231）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Redivivus：Agent只读研究暗黑II数据库，以提案修正C++重建](cases/redivivus-diablo2-ghidra-agent-proposals.md) — Diablo II 1.14d保存项目开放Claude／MCP数据库研究与人工审查提案；固定文档自报7772／14626函数匹配和单人通关，仍有崩溃与界面缺陷，未独立重建。 **[其他 AI 逆向 · 进行中]**
 - [Resident Evil 4：bosh澄清可重编译C并非完整可读源码，称移至Mac ARM与Wasm](cases/bosh-re4-c-recompile-mac-wasm-report.md) — bosh在新回复中限定RE4反编译说法，报告可改动再编译的C与Mac ARM／WebAssembly视频，使用Claude、Codex及30至50并发Agent；无源码与完整游玩验证。 **[其他 AI 逆向 · 待验证]**
 - [Mashbox：bosh称RE4研究衍生项目一周内建成，现已转向AI推理](cases/bosh-mashbox-re4-decompilation-project.md) — bosh称RE4研究催生Mashbox；补读项目页描述把自有游戏世界与玩法放入同一引擎，浏览器只用自创世界。Windows早期版、兼容与文件只读均是项目自述，未运行。 **[其他 AI 逆向 · 相关项目]**
 - [1.5GB的PS4游戏：ItsYaboii称多模型投入数百工时，仍未重建完一个场地](cases/yaboibmh-ps4-codex-arena-reconstruction-limits.md) — ItsYaboii用Codex及其他模型、多子代理重建未具名PS4游戏，称数百模型工时仍未完成十二个场地中的一个，用实际受阻进度质疑十二小时反编译的泛化。 **[其他 AI 逆向 · 进行中]**
@@ -416,6 +417,10 @@
 
 ### 硬件与设备互通
 
+- [GPU固件适配：Michael Wegener称编码Agent持续循环数天研究与打补丁](cases/mwsatware-agent-loop-gpu-firmware-patching.md) — Michael Wegener以GPU固件逆向与硬件环境补丁为编码Agent长循环例子；未披露GPU型号、补丁、工具链或实机验收。 **[其他 AI 逆向 · 进行中]**
+- [Mac上的Omarchy：Sachin转述Asahi基础上的AI辅助硬件适配](cases/sachin-omarchy-asahi-mac-ai-driver-report.md) — Sachin称Omarchy借Asahi逆向与AI agents推进Touch ID、M3 GPU和深睡眠；没有对应补丁、机型或硬件测试，不能作为Mac支持矩阵。 **[其他 AI 逆向 · 待验证]**
+- [照片到键帽CAD：VedaAI00转述大模型重建凹槽、拔模角与十字轴槽](cases/veda-keycap-photo-parametric-cad-report.md) — 单张实物图反推参数键帽几何的转述，包含顶部球冠凹槽、四周拔模斜角与底部十字槽；没有尺寸、CAD文件、模型名或制造验证。 **[其他 AI 逆向 · 待验证]**
+- [建筑模型图到ForgeCAD：VedaAI00重提Ruben用Codex逐图迭代的旧实验](cases/ruben-forgecad-codex-architecture-image-reconstruction.md) — 本窗评论链接追到Ruben在5月2日UTC／5月3日北京时间用GPT-5.5／Codex于ForgeCAD重做architecture model series 20首个模型；无源文件、几何精度或STEP分析验收。 **[其他 AI 逆向 · 待验证]**
 - [第12代Paperwhite：InvestingVault转述Adrian用Claude Code配合公开文档越狱](cases/adrian-paperwhite12-claude-docs-jailbreak-report.md) — 为回应KOReader使用问题，InvestingVault转述Adrian的Paperwhite越狱经历；没有步骤、固件版本或原始验证，不是Kindle Scribe指南。 **[其他 AI 逆向 · 待验证]**
 - [停产热敏打印机复活：VedaAI00转述AI经串口研究协议并写驱动](cases/veda-ai-defunct-thermal-printer-serial-revival.md) — 谁是藏镜人转述一台失去厂商支持的热敏打印机，通过串口和AI协议研究恢复使用；型号、原作者、驱动和打印测试未披露。 **[其他 AI 逆向 · 待验证]**
 - [零跑轻量车控App想法：a bei报告AI因云服务逆向而拒绝](cases/abei-leapmotor-native-car-control-ai-refusal.md) — a bei受极氪原生车控App启发想做零跑版本，但AI拒绝云服务逆向；仅有需求与受阻经历，没有车控实现。 **[其他 AI 逆向 · 待验证]**
@@ -929,6 +934,7 @@
 
 ### 应用与客户端
 
+- [r_AKanaly：Codex经MCP调查VM内恶意软件，再生成证据报告](cases/r-akanaly-codex-vm-malware-analysis-review.md) — connect24h介绍森田的v0.1.10分析工具；固定README说明Windows／VMware中的动态日志、Ghidra问答和HTML报告，写明报告成功不等于观察全部行为，非商用许可。 **[其他 AI 逆向 · 相关项目]**
 - [VirtualBox逃逸：bebu转述Xusheng以Daybreak找漏洞、开放模型写链](cases/bebu-xusheng-virtualbox-daybreak-escape-report.md) — bebu称Xusheng对VirtualBox 7.2.20演示guest-to-host链，由GPT-6 Sol／Daybreak Blue找漏洞，再交开放模型写利用；没有原始研究、补丁或可重放验证。 **[其他 AI 逆向 · 待验证]**
 - [UTM逃逸：bebu转述Xusheng的AI发现与开放模型利用链分工](cases/bebu-xusheng-utm-daybreak-escape-report.md) — bebu另称Xusheng演示UTM客体到宿主逃逸，归因GPT-6 Sol／Daybreak Blue和开放模型；UTM版本、后端、漏洞和厂商记录均未披露。 **[其他 AI 逆向 · 待验证]**
 - [WebKit Weekly：MinJeong Kim用AI审提交与草拟安全分析，再由研究者逐项核代码](cases/vxcon-minjeong-webkit-weekly-ai-variant-hunting.md) — VXCON预告MinJeong Kim以WebKit补丁根因寻找邻近变体，并介绍AI审提交的WebKit Weekly；当前简介强调错误与人工核验，非已验证新漏洞清单。 **[其他 AI 逆向 · 相关项目]**
@@ -1109,7 +1115,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；新增v0.5.0受限MCP与旧应用回归用途的转述，不覆盖旧游戏测试缺陷或等于端到端安全验证。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；新增Bitburner→Roblox用户记录显示v0.5.0在Windows／Codex下会卡住，90秒Godot检查超时，doctor健康不等于重建完成。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
@@ -1719,6 +1725,7 @@
 
 ### 算法与功能重建
 
+- [参考视频到定制skill：eback_4u预告Claude Code视频风格反推服务](cases/eback4u-claude-reference-video-custom-skill-preview.md) — 视频编辑者eback_4u称在用Claude Code反推参考片风格，拟开放10个按用户视频定制skill的名额；仍是发布预告，未提供代码或复刻验收。 **[其他 AI 逆向 · 进行中]**
 - [CODEGATE 2026自主Agent：KAIST团队简介自报六类26题中解决22题](cases/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON预告Donghyeon Kim与Insu Yun的全自动CTF Agent；官网自述Codex／Claude管理环境并解决22/26题，未提供逐题逆向成果或独立赛绩核验。 **[其他 AI 逆向 · 相关项目]**
 - [Neon Dreamscapes赛博打斗：sandmrk反推Muse镜头提示，保留串脸修复与不匹配声明](cases/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk把双人剑盾打斗、翻栏和无人机镜头写成Muse提示，通过单脸锚和特征排除修复角色混淆；明确生成结果仍不能完全匹配原视频。 **[其他 AI 逆向 · 待验证]**
 - [药瓶与金钱报刊插画：Naman Katyal分享AI反推的构图和版画风格提示](cases/naman-medicine-bottle-editorial-image-prompt.md) — Naman将AI反推提示称为同伴评议，并给出药瓶、金钱、红带与渔网的复古报刊插图规格；没有原图、模型或重生成对照。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [参考视频到定制skill：eback_4u预告Claude Code视频风格反推服务](../cases/eback4u-claude-reference-video-custom-skill-preview.md) — 视频编辑者eback_4u称在用Claude Code反推参考片风格，拟开放10个按用户视频定制skill的名额；仍是发布预告，未提供代码或复刻验收。 **[其他 AI 逆向 · 进行中]**
 - [CODEGATE 2026自主Agent：KAIST团队简介自报六类26题中解决22题](../cases/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON预告Donghyeon Kim与Insu Yun的全自动CTF Agent；官网自述Codex／Claude管理环境并解决22/26题，未提供逐题逆向成果或独立赛绩核验。 **[其他 AI 逆向 · 相关项目]**
 - [Neon Dreamscapes赛博打斗：sandmrk反推Muse镜头提示，保留串脸修复与不匹配声明](../cases/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk把双人剑盾打斗、翻栏和无人机镜头写成Muse提示，通过单脸锚和特征排除修复角色混淆；明确生成结果仍不能完全匹配原视频。 **[其他 AI 逆向 · 待验证]**
 - [药瓶与金钱报刊插画：Naman Katyal分享AI反推的构图和版画风格提示](../cases/naman-medicine-bottle-editorial-image-prompt.md) — Naman将AI反推提示称为同伴评议，并给出药瓶、金钱、红带与渔网的复古报刊插图规格；没有原图、模型或重生成对照。 **[其他 AI 逆向 · 待验证]**

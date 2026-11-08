@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Redivivus：Agent只读研究暗黑II数据库，以提案修正C++重建](../cases/redivivus-diablo2-ghidra-agent-proposals.md) — Diablo II 1.14d保存项目开放Claude／MCP数据库研究与人工审查提案；固定文档自报7772／14626函数匹配和单人通关，仍有崩溃与界面缺陷，未独立重建。 **[其他 AI 逆向 · 进行中]**
 - [Resident Evil 4：bosh澄清可重编译C并非完整可读源码，称移至Mac ARM与Wasm](../cases/bosh-re4-c-recompile-mac-wasm-report.md) — bosh在新回复中限定RE4反编译说法，报告可改动再编译的C与Mac ARM／WebAssembly视频，使用Claude、Codex及30至50并发Agent；无源码与完整游玩验证。 **[其他 AI 逆向 · 待验证]**
 - [Mashbox：bosh称RE4研究衍生项目一周内建成，现已转向AI推理](../cases/bosh-mashbox-re4-decompilation-project.md) — bosh称RE4研究催生Mashbox；补读项目页描述把自有游戏世界与玩法放入同一引擎，浏览器只用自创世界。Windows早期版、兼容与文件只读均是项目自述，未运行。 **[其他 AI 逆向 · 相关项目]**
 - [1.5GB的PS4游戏：ItsYaboii称多模型投入数百工时，仍未重建完一个场地](../cases/yaboibmh-ps4-codex-arena-reconstruction-limits.md) — ItsYaboii用Codex及其他模型、多子代理重建未具名PS4游戏，称数百模型工时仍未完成十二个场地中的一个，用实际受阻进度质疑十二小时反编译的泛化。 **[其他 AI 逆向 · 进行中]**

@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 1914 cases & projects
+# 1921 cases & projects
 
-**Latest case update:** November 9, 2026, 02:23 · **Last maintained:** November 9, 2026, 02:23 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 9, 2026, 02:42 · **Last maintained:** November 9, 2026, 02:42 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 8. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
 9. **[A suitcase without its original app](cases/en/codex-rea-jadx-suitcase-iphone-app.md)** · `2026-11-06` author report (Beijing time) — Diego credits **Codex, REA and JADX research into an old Android APK**, followed by Bluetooth tests on the actual case and a SwiftUI iPhone replacement for weighing and lock control. About an hour is author-reported; model, source and calibration logs are undisclosed. Not run here. `In progress`
-10. **[BeanScribe: choose your recorder's transcription service](cases/en/gengdaj-feishu-recorder-custom-transcription-app.md)** · `2026-11-04` author updates and project record — Yichen credits REA; **public H5/Python code connects a D3200 to Feishu**, reusing tacshi's protocol research. Single-user deployment; the first 2–4 seconds may be lost, and official quotas/firmware are unchanged. Source-available, not OSI open source; not run here. `In progress`
+10. **[Redivivus: recover Diablo II through reviewed database proposals](cases/en/redivivus-diablo2-ghidra-agent-proposals.md)** · `2026-11-08` report and pinned project docs — **Claude/MCP agents inspect read-only Ghidra databases and propose evidence-backed corrections.** The project reports a single-player playthrough and **7,772/14,626 matching functions** under its address-normalized comparison; not a whole-EXE match. Crashes remain, x64 compilation is not playable x64 support, and users need their own game. Not rebuilt here. `In progress`
 
 
 ## Classic cases
@@ -50,10 +50,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **387** |
-| [Hardware & interoperability](categories/en/hardware.md) | **510** |
-| [Applications & clients](categories/en/apps.md) | **787** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **230** |
+| [Games & preservation](categories/en/games.md) | **388** |
+| [Hardware & interoperability](categories/en/hardware.md) | **514** |
+| [Applications & clients](categories/en/apps.md) | **788** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **231** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

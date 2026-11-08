@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [r_AKanaly：Codex经MCP调查VM内恶意软件，再生成证据报告](../cases/r-akanaly-codex-vm-malware-analysis-review.md) — connect24h介绍森田的v0.1.10分析工具；固定README说明Windows／VMware中的动态日志、Ghidra问答和HTML报告，写明报告成功不等于观察全部行为，非商用许可。 **[其他 AI 逆向 · 相关项目]**
 - [VirtualBox逃逸：bebu转述Xusheng以Daybreak找漏洞、开放模型写链](../cases/bebu-xusheng-virtualbox-daybreak-escape-report.md) — bebu称Xusheng对VirtualBox 7.2.20演示guest-to-host链，由GPT-6 Sol／Daybreak Blue找漏洞，再交开放模型写利用；没有原始研究、补丁或可重放验证。 **[其他 AI 逆向 · 待验证]**
 - [UTM逃逸：bebu转述Xusheng的AI发现与开放模型利用链分工](../cases/bebu-xusheng-utm-daybreak-escape-report.md) — bebu另称Xusheng演示UTM客体到宿主逃逸，归因GPT-6 Sol／Daybreak Blue和开放模型；UTM版本、后端、漏洞和厂商记录均未披露。 **[其他 AI 逆向 · 待验证]**
 - [WebKit Weekly：MinJeong Kim用AI审提交与草拟安全分析，再由研究者逐项核代码](../cases/vxcon-minjeong-webkit-weekly-ai-variant-hunting.md) — VXCON预告MinJeong Kim以WebKit补丁根因寻找邻近变体，并介绍AI审提交的WebKit Weekly；当前简介强调错误与人工核验，非已验证新漏洞清单。 **[其他 AI 逆向 · 相关项目]**
@@ -182,7 +183,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](../cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](../cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；新增v0.5.0受限MCP与旧应用回归用途的转述，不覆盖旧游戏测试缺陷或等于端到端安全验证。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；新增Bitburner→Roblox用户记录显示v0.5.0在Windows／Codex下会卡住，90秒Godot检查超时，doctor健康不等于重建完成。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](../cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](../cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](../cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
