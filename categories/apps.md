@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [DemoFork：参考demo的剪辑节奏，加三张产品截图生成新视频](../cases/demofork-magichour-demo-pacing-three-screenshots.md) — 候选回复指向Rayan Ali的DemoFork：输入参考demo和三张产品截图，以MagicHour AI借用节奏制作新片；未验证视频质量或不复制素材的实现。 **[其他 AI 逆向 · 进行中]**
+- [Hadesi的学习通签到系统：REA辅助研究后的功能自述](../cases/hadesi-rea-chaoxing-checkin-system-report.md) — Hadesi因学校签到名额难抢、代办太贵，称用REA研究学习通并集成自动化功能；没有源码、版本或成功率记录，与核桃的课程进度实验分开。 **[REA · 待验证]**
+- [二旬老汉的抢券流量研究：手机操作留给人，包与脚本交给AI](../cases/leeking420-ai-mcp-mobile-coupon-traffic-analysis.md) — 二旬老汉称将手机抓包软件经MCP接AI、无线ADB连接，自己操作手机而让AI分析包与脚本；未具名平台、模型或实际抢券成果。 **[其他 AI 逆向 · 进行中]**
+- [阿杭的剪映Codex版：先澄清需求，再研究并组装剪辑能力](../cases/ahang-codex-jianying-intent-clarification-rebuild.md) — 阿杭称以Codex研究剪映，先在指令文件强制澄清意图、用Monid补材料，耗用两个GPT20x周额度；后帖称已用重建版本剪视频，没有源码或完整功能对照。 **[其他 AI 逆向 · 进行中]**
+- [OpenMontage：参考片节奏到Transformer科普前10秒的具体设想](../cases/openmontage-reference-edit-transformer-ten-second-idea.md) — 介绍称OpenMontage把参考片开头、切镜和旁白关系交给Codex／Claude Code，先看样片和费用；发帖者想借此做Transformer科普，还没有该实验结果。 **[其他 AI 逆向 · 相关项目]**
 - [astro-conversion-kit：把线上WordPress等网站重建为静态Astro站点](../cases/astro-conversion-kit-live-site-agent-migration.md) — AI探路者Tim介绍一组Agent技能，从线上网站转成Astro、产出PR并部署预发布环境；没有核对原站、源码或迁移保真度，属于网站重建相关项目。 **[其他 AI 逆向 · 相关项目]**
 - [跨两台PC协作：Simon称DeepSeek运行REA并与Claude Code商量计划](../cases/simon-deepseek-rea-claude-cross-pc-planning.md) — Simon自述DeepSeek creator mode运行REA，与另一台PC上的Claude Code Agent共同计划；没有目标文件、通信实现、分析输出或完成结果。 **[REA · 进行中]**
 - [Claude Desktop每日任务关不掉：Murat用Antigravity检查应用代码定位文件](../cases/antigravity-claude-desktop-recurring-task-removal.md) — Murat Umutlu称Claude与Codex没能关掉每日任务，Antigravity通过研究Claude Desktop代码找到任务文件并删除；没有路径、代码或停跑日志。 **[其他 AI 逆向 · 待验证]**
@@ -10,7 +15,7 @@
 - [oh my hermes：HOPE称研究记忆系统以增强Hermes长期保留](../cases/oh-my-hermes-memory-system-research-harness.md) — HOPE介绍Hermes原生harness，称研究既有记忆系统、内置协作规范及150余技能；源码短链与保留率未核验，token数字不能当性能证据。 **[其他 AI 逆向 · 进行中]**
 - [android-ad-cleaner：让Agent关闭国产Android广告开关的可回滚流程](../cases/android-ad-cleaner-agent-reversible-settings-workflow.md) — 候选介绍不用root、不刷固件的广告开关清理，提供桌面端和Agent执行路径；公开同名仓库匹配用途，但测试机型与回滚效果未独立验证。 **[未确认使用 REA · 相关项目]**
 - [XRP异常铸币漏洞：AI研究旧代码并写验证的未核验转述](../cases/xrp-ai-agent-minting-bug-secondary-report.md) — VK_ROXy转述Agent研究XRP相关旧代码，称发现单笔可生成18万亿XRP的问题并写验证；未给团队、编号或测试环境，后接REA推广不证明用REA发现。 **[其他 AI 逆向 · 待验证]**
-- [GCSA Agent：CyberGym Level1达91.3%的安全研究转述](../cases/gcsa-agent-cybergym-security-research-report.md) — 候选转述GCSA Agent在CyberGym Level1真实软件代码库达91.3%；未给提交、样本、模型或成功定义，不当任意逆向与零日研究的独立成功率。 **[其他 AI 逆向 · 待验证]**
+- [GCSA Agent：CyberGym Level1达91.3%的安全研究转述](../cases/gcsa-agent-cybergym-security-research-report.md) — GCSA Agent的91.3% CyberGym Level1成绩仍是转述；后帖补充漏洞版触发、修复版不触发的成功定义，以及调查与交易回放背景，未取得评测提交或日志。 **[其他 AI 逆向 · 待验证]**
 - [SecVibe Code：把攻防Agent与DLP放进开发工作台](../cases/secvibe-code-pi-harness-development-audit-report.md) — 候选介绍GCSA与港大的开发审计工具；窗口前官方帖明确Pi Harness、攻防Agent和企业DLP集成，低token、零遥测与零信任仍是产品说法。 **[其他 AI 逆向 · 相关项目]**
 - [Unusual Whales式期权终端：0xDipper称REA与Opus一夜重建六视图](../cases/unusual-whales-rea-opus-public-data-options-terminal.md) — 0xDipper声称REA研究Unusual Whales后用Opus在本地做出六视图、41文件终端，列出期权流、市场潮汐、GEX和提醒；免费数据源与实时性未验证。 **[REA · 待验证]**
 - [Shopify Editions到个人站：Luca把HTML-in-Canvas研究整理成Claude Skill](../cases/luca-shopify-editions-html-canvas-claude-skill.md) — Luca Vizzielli称研究Shopify Editions的HTML-in-Canvas与WebGL，并重建个人站、整理200行starter与QA为Claude Code技能；未核查实现或兼容。 **[其他 AI 逆向 · 待验证]**
@@ -61,7 +66,7 @@
 - [Duolingo替代idea：Ty建议用REA／Ghidra自建语言学习工具](../cases/ty-duolingo-rea-ghidra-personal-alternative-idea.md) — Duolingo讨论下，Ty提出Librelingo或用REA与Ghidra自己做；没有研究开始、课程覆盖或可运行替代品。 **[REA · 待验证]**
 - [Hopper的DeepSeek二进制分析服务：去拒绝不等于逆向正确](../cases/hopper-abliterated-deepseek-binary-analysis-service-report.md) — Hopper称提供abliterated DeepSeek用于二进制工作，自报HarmBench拒绝率62.8%降到0%；没有实际反编译任务或正确率证据。 **[其他 AI 逆向 · 相关项目]**
 - [营销版REA：Kev称用竞品链接让Claude拆解营销](../cases/kevbuildsapps-claude-competitor-marketing-teardown.md) — Kev Builds Apps称做了营销方向的reverse engineer anything，让Claude分析竞品链接；没有具体竞品、输出或准确率，不是已确认的软件反编译器。 **[其他 AI 逆向 · 相关项目]**
-- [Discord新客户端mod想法：社区预期用AI研究Rust版再做插件](../cases/discord-rust-client-ai-reversing-mods-idea.md) — 围绕Discord改用Rust的社区消息，两条评论预期AI能加快新客户端逆向并带来Rust mod；不是已发布插件或验证过的迁移工期。 **[其他 AI 逆向 · 待验证]**
+- [Discord新客户端mod想法：社区预期用AI研究Rust版再做插件](../cases/discord-rust-client-ai-reversing-mods-idea.md) — 围绕Discord新客户端的社区消息，读者预期AI恢复mod能力；新增具体idea以Claude监听版本发布、反编译重映射、打补丁并跑测试，尚非已运行维护系统。 **[其他 AI 逆向 · 待验证]**
 - [AIUP的PetClinic示例：从旧代码恢复用例规格，再渐进维护](../cases/aiup-spring-petclinic-brownfield-spec-recovery.md) — Simon Martinelli为AI Unified Process加入brownfield流程，称Spring PetClinic有逆向后start分支与实现测试后的main；微型示例不证明遗留系统语义完整恢复。 **[其他 AI 逆向 · 相关项目]**
 - [HyperFrames RAV：Stripe重建自述与20片竞争工具比较](../cases/hyperframes-rav-stripe-video-reconstruction.md) — Miguel Ángel称单次重建Stripe视频，Miao Yang报20片比较；James Russo再称全面胜出，但详细自测承认REA-VIDEO重做更快更省。均非独立基准。 **[其他 AI 逆向 · 待验证]**
 - [Harvey法律AI替代：Theo转述免费重建新闻稿，完整能力尚未证实](../cases/harvey-legal-ai-free-reimplementation-press-release-report.md) — Theo称有开发者逆向Harvey并免费公开替代品，但未命名实现、给源码或法律任务测试；估值／融资混用，不采纳110亿美元为已核验事实。 **[未确认使用 REA · 待验证]**

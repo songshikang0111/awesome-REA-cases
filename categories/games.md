@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [本地AI修改DOS纵向射击游戏：Popular AI的Windows教程介绍](../cases/popularai-local-agent-rea-ghidra-dos-shooter-tutorial.md) — Popular AI介绍在Windows上用本地Agent、REA和Ghidra修改90年代DOS纵向射击游戏；未取得教程正文、游戏名或修改结果。 **[REA · 待验证]**
 - [Sonic the Fighters：AI反编译作品的下载者报告低帧率与很快下架](../cases/sonic-fighters-ai-decompile-negative-user-report.md) — KingDisappointed在AI标识讨论中称下载Sonic the Fighters反编译作品后见其撤下，后补报内存、贴图、闪烁和低于20FPS问题；没有版本、设备或日志。 **[未确认使用 REA · 待验证]**
 - [Spyro ANB动画研究：Yallax澄清自己引导Claude，并非完成反编译](../cases/dreamwoven-spyro-anb-claude-animation-research.md) — TLoS: ANB串中Yallax说利用DRG mod经验引导Claude；旧帖提五段Pickup动画疑似删减内容，未确认用途，也不把作者当反编译者。 **[其他 AI 逆向 · 进行中]**
 - [Wing Commander浏览器联机：多年人工内存研究后由AI补构建与语音](../cases/wing-commander-browser-multiplayer-ai-build-voice-report.md) — RwatitFahsa转述1990年Wing Commander以WebRTC、Emscripten和房间码实现浏览器联机；AI只被归于构建脚本及部分语音，不是十年逆向全由AI完成。 **[其他 AI 逆向 · 待验证]**
@@ -10,7 +11,7 @@
 - [Rec Room着色器：faiu简报用AI反编译，结果尚未公开](../cases/rec-room-ai-shader-decompilation-report.md) — faiu发帖称用AI反编译Rec Room着色器；没有模型、目标平台、恢复代码或渲染对照，不把短报当成功还原。 **[其他 AI 逆向 · 待验证]**
 - [Tetris与Flappy Bird重建：noko对照两版Claude的提示与拒绝行为](../cases/claude-tetris-flappy-rebuild-prompt-policy-comparison.md) — noko报告Opus4.8与5.5在游戏复刻、改名及原创类型提示下表现不同；多次结果为作者观察，不是原游戏代码恢复或功能等价验证。 **[其他 AI 逆向 · 分析测试]**
 - [《时之笛》重制版原生PC愿望：Voidwalker建议REA研究后重写C++](../cases/voidwalker-ocarina-remake-rea-native-pc-idea.md) — Voidwalker在模拟器讨论里提出REA反汇编、C++重写为4K60原生PC的愿望；补查串只用于识别目标，不证明重制版或模拟器性能。 **[REA · 待验证]**
-- [游戏引擎重实现遇到剧情阻断：George Gorzhiyev称Claude正在修复](../cases/george-gorzhiyev-claude-engine-story-blocker.md) — George Gorzhiyev报告自己的游戏引擎重实现出现阻断剧情的严重缺陷，Claude正在处理；未具名游戏、引擎、代码和修复结果。 **[其他 AI 逆向 · 进行中]**
+- [Orcs & Elves重实现：George称Claude修好严重bug后已通关](../cases/george-gorzhiyev-claude-engine-story-blocker.md) — George Gorzhiyev后帖具名Orcs & Elves，称以Claude修补一个严重bug后完成重实现通关；二代测试与增强仍待做，未公开源码或独立验收。 **[其他 AI 逆向 · 进行中]**
 - [CFB自定义重建：读者期待AI反编译后也能在越狱主机运行](../cases/cfb-ai-custom-game-jailbroken-console-idea.md) — system error提出研究EA的CFB、重建带自定义内容的新游戏，并让目标不只限PC；是预测与愿望，无版本、代码或运行结果。 **[其他 AI 逆向 · 相关项目]**
 - [OptiScaler：读者称既有游戏Mod项目开始使用AI](../cases/optiscaler-ai-adoption-reader-report.md) — Orçun Altundağ在游戏逆向讨论中点名OptiScaler采用AI；公开仓库描述跨GPU超分与补帧用途，但没有AI具体贡献或测试证据。 **[其他 AI 逆向 · 待验证]**
 - [小游戏逻辑定位：BNK试用REA，得到尚未验证的两个文件](../cases/bnk-rea-minigame-logic-extraction-report.md) — BNK试用REA定位小游戏逻辑，报告一小时多、两个看似正确文件与两次提示10万token；后续仍认可试用，但为控制权与资源顾虑拒绝接入自有项目，没有新增正确性测试。 **[REA · 待验证]**

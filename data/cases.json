@@ -1,5 +1,214 @@
 [
   {
+    "id": "popularai-local-agent-rea-ghidra-dos-shooter-tutorial",
+    "title": "本地AI修改DOS纵向射击游戏：Popular AI的Windows教程介绍",
+    "category": "games",
+    "rea": "REA",
+    "status": "unverified",
+    "summary": "Popular AI介绍在Windows上用本地Agent、REA和Ghidra修改90年代DOS纵向射击游戏；未取得教程正文、游戏名或修改结果。",
+    "description": "2026年11月7日12:01:47（北京时间），Popular AI（@popularaiorg）介绍一个在Windows上完全使用本地AI逆向首个游戏的教程，目标是修改一款90年代DOS纵向射击游戏，明确列出本地Agent、REA和Ghidra。具体用途是把本地模型接到传统二进制研究工具，用旧游戏练习mod，而不是宣称已移植到现代平台。\n\n补取原帖确认账号与文字，但教程只以短链出现，未取得正文；游戏名称、版本、模型、硬件、修改的功能、步骤和验证记录都未披露。不能猜成某款已收录射击游戏，也不能把local only当作已审计的数据流、离线依赖或实际成本。按具体现有教程的未核验介绍保存，不把教程宣传写成作者已经完成且可复现的mod。本合集没有运行游戏、模型或逆向工具。",
+    "sources": [{"label": "Popular AI的本地Agent／REA／Ghidra DOS游戏教程介绍，2026-11-07 12:01:47北京时间", "url": "https://x.com/i/status/2118916801434165262"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存0赞、10浏览、0转发；未读取教程正文或验证local only。"],
+    "en": {
+      "title": "Modding a DOS vertical shooter with local AI: Popular AI's Windows tutorial introduction",
+      "summary": "Popular AI introduces a Windows tutorial using a local agent, REA and Ghidra to mod a 1990s DOS vertical shooter. Tutorial text, game identity and modification results were not obtained.",
+      "description": "At 12:01:47 Beijing time on November 7, 2026, Popular AI (@popularaiorg) introduces a tutorial for reverse-engineering a first game on Windows using local AI only. The stated target is modding a 1990s DOS vertical shooter with a local agent, REA and Ghidra. The concrete use is connecting a local model to traditional binary-analysis tools for old-game modding practice, not an established modern-platform port.\n\nOriginal-post retrieval confirms the account and wording, but the tutorial appears only as a short link and its body was not obtained. Game name, revision, model, hardware, modified feature, steps and validation records are undisclosed. No identity with an already collected shooter is guessed. Local only is not an audited data flow, offline dependency set or measured cost. Kept as an unverified introduction to a concrete tutorial, not a completed, reproducible mod. No game, model or reversing tool was run here.",
+      "metadata": ["Sealed candidate: 0 likes, 10 views, 0 reposts. Tutorial text and local-only operation were not checked."],
+      "source_labels": ["Popular AI introduces a local-agent/REA/Ghidra DOS-game tutorial, November 7, 2026 at 12:01:47 Beijing time"]
+    }
+  },
+  {
+    "id": "demofork-magichour-demo-pacing-three-screenshots",
+    "title": "DemoFork：参考demo的剪辑节奏，加三张产品截图生成新视频",
+    "category": "apps",
+    "rea": "other-ai",
+    "status": "in-progress",
+    "summary": "候选回复指向Rayan Ali的DemoFork：输入参考demo和三张产品截图，以MagicHour AI借用节奏制作新片；未验证视频质量或不复制素材的实现。",
+    "description": "2026年11月7日12:19:12（北京时间），Chen（@chenzhangreal）回复@rayanthedev，称用三张截图和AI逆向爆款demo剪辑很聪明。补取父串找到Rayan Ali当日11:01:45发布的DemoFork介绍；父帖早于本轮12:00窗口，只作为候选指向项目的补充来源，不冒充本轮新候选。\n\nRayan说自己反复看到产品demo走红，想知道其中多少来自剪辑格式，于是做了DemoFork。其自述流程是输入一条demo和三张自家产品截图，借用参考片的节奏，以MagicHour AI制作新视频，并称保留格式但不复制原片素材。该目标是从可见剪辑结构迁移产品演示形式，不是恢复原视频工程或原始提示词。\n\n父帖附项目短链和视频附件，未取得可审代码、实际输入输出对照、节奏提取方法、服务费用或素材不复制的验证。候选的every viral demo是赞誉，不当作所有片型兼容证明。没有观看或生成视频，本合集未独立复现；REA未提及。",
+    "sources": [{"label": "Chen对三截图AI demo重建的候选回复，2026-11-07 12:19:12北京时间", "url": "https://x.com/i/status/2118921182837981405"}, {"label": "补充父帖：Rayan Ali介绍DemoFork，2026-11-07 11:01:45北京时间，早于本轮窗口", "url": "https://x.com/i/status/2118901690812322152"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存0赞、8浏览、0转发；补查父帖10赞、372浏览、2转发，与候选快照分开。"],
+    "en": {
+      "title": "DemoFork: borrow demo pacing and generate a new video from three product screenshots",
+      "summary": "A reply points to Rayan Ali's DemoFork: a reference demo plus three product screenshots, with MagicHour AI producing a new video using its pacing. Quality and the claimed avoidance of copied footage are unverified.",
+      "description": "At 12:19:12 Beijing time on November 7, 2026, Chen (@chenzhangreal) replies to @rayanthedev, praising reverse-engineering viral-demo edits with three screenshots and AI. Parent-thread retrieval finds Rayan Ali's DemoFork introduction at 11:01:45 that day. This predates the window's 12:00 start and is supplementary project context, not a new candidate.\n\nRayan says repeated viral product demos prompted a question about how much success comes from the editing format, leading to DemoFork. The reported workflow takes one demo and three screenshots of the user's product, borrows its pacing and uses MagicHour AI to make a new video. The author claims the same format without copied footage. This transfers visible editing structure into a product demo, rather than recovering an original video project or prompts.\n\nThe parent has a project short link and video attachment, but inspectable code, actual input/output comparisons, pacing-extraction method, service costs and verification of the no-copied-footage claim were not obtained. Every viral demo in the candidate is praise, not universal compatibility. No videos were watched or generated and no independent reproduction was performed here. REA is unmentioned.",
+      "metadata": ["Sealed candidate: 0 likes, 8 views, 0 reposts. Supplementary parent lookup: 10 likes, 372 views, 2 reposts, distinct from the candidate snapshot."],
+      "source_labels": ["Chen's candidate reply about three-screenshot AI demo reconstruction, November 7, 2026 at 12:19:12 Beijing time", "Supplementary parent: Rayan Ali introduces DemoFork, November 7, 2026 at 11:01:45 Beijing time, before this window"]
+    }
+  },
+  {
+    "id": "vuldec-qwen-plbart-decompilation-vulnerability-study-report",
+    "title": "VulDec：反编译后查漏洞，转述结果显示泛化与功能正确性仍受限",
+    "category": "algorithms",
+    "rea": "other-ai",
+    "status": "analysis-test",
+    "summary": "吉川孝志转述Qwen2.5-Coder加PLBART的VulDec研究：跨项目漏洞precision14%、recall28%；HumanEval全测通过34.34%，低于一个Ghidra+LLM基线，不是可自主分诊的证明。",
+    "description": "2026年11月7日14:02:01（北京时间），吉川孝志（@MalwareBibleJP）概述VulDec论文：在无源码的可执行文件上，以Qwen2.5-Coder将函数汇编转为近似C／C++代码，再用PLBART判定漏洞。用途是帮助人工缩小初审范围，而非自主安全分诊。原帖补查确认署名和完整文字；没有读到论文正文或仓库，以下数字与作者解释均按该转述保存。\n\n数据集据称通过函数名对齐DiverseVul的C函数和Debian包二进制，涵盖x86与ARM、超过59000对带CWE注释的数据；抽查100对有95%匹配正确。反编译限制输入512 token、输出256 token，并排除长函数。编辑相似度为x86 55.83%、ARM 56.60%，这测量token序列接近程度，不等于可执行语义正确。\n\nHumanEval的-O2条件下，VulDec编辑相似度32.82%；但恢复代码通过全部指定测试的比例34.34%，低于Ghidra配LLM4Decompile-Ref-22B的59.76%。检测器单独在同项目源码测试中，漏洞函数占3%，PLBART宏F1为0.606、漏洞召回44.4%。\n\n跨未训练项目PHP、openjpeg与poppler的端到端测试有1077个x86函数，其中29个漏洞函数；漏洞precision14%、recall28%、宏F1 0.57，召回95%置信区间12–44%。Ghidra加Flawfinder在该比较precision和recall均0%；只把反编译器换为Ghidra则召回4%。直接判定这三个项目原始源码时precision／recall与重建代码相差不到2个百分点，转述将主要退化归因检测器泛化，而非仅反编译噪声。\n\n候选也指出论文3.2节称无优化与混淆的统制条件，4.1节又称GCC12.2.0以-O2构建；未读原文，不能替作者消解此差异。没有独立重跑、模型修订或样本级记录，不将小样本、低召回和宽区间包装成通用漏洞发现能力。REA未提及，本合集未执行二进制或安装模型。",
+    "sources": [{"label": "吉川孝志的VulDec研究与指标限制转述，2026-11-07 14:02:01北京时间", "url": "https://x.com/i/status/2118947060003352684"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存1赞、501浏览、0转发；论文数字为二手研究报告，未独立复现。"],
+    "en": {
+      "title": "VulDec: a decompile-then-detect study with reported generalization and functional-correctness limits",
+      "summary": "Takashi Yoshikawa relays a Qwen2.5-Coder/PLBART study: cross-project vulnerable-function precision 14% and recall 28%; HumanEval all-test success 34.34%, below one Ghidra/LLM baseline. This does not establish autonomous triage.",
+      "description": "At 14:02:01 Beijing time on November 7, 2026, Takashi Yoshikawa (@MalwareBibleJP) summarizes the VulDec paper: Qwen2.5-Coder converts function assembly from executables without source into approximate C/C++, then PLBART detects vulnerabilities. The intended use is narrowing human initial review, not autonomous security triage. Original-post retrieval confirms attribution and complete wording. Neither paper text nor repository was obtained, so all figures and author interpretations below remain secondary reporting.\n\nThe dataset reportedly aligns DiverseVul C functions with Debian-package binaries by function names, producing over 59,000 CWE-annotated pairs across x86 and ARM; a 100-pair random check reportedly found 95% correct matches. Decompilation is limited to 512 input and 256 output tokens, excluding long functions. Edit similarity is 55.83% on x86 and 56.60% on ARM, measuring token-sequence proximity rather than executable semantic correctness.\n\nUnder HumanEval's -O2 condition, VulDec reportedly achieves 32.82% edit similarity, but only 34.34% of recovered programs pass all specified tests, below Ghidra with LLM4Decompile-Ref-22B at 59.76%. In detector-only testing on source from the same projects, with vulnerable functions at 3%, PLBART has macro F1 0.606 and vulnerable-function recall 44.4%.\n\nEnd-to-end testing on unseen PHP, openjpeg and poppler includes 1,077 x86 functions, 29 vulnerable. Reported vulnerable-function precision is 14%, recall 28%, macro F1 0.57 and the recall 95% confidence interval 12–44%. Ghidra plus Flawfinder has 0% precision and recall in that comparison; replacing only the decompiler with Ghidra gives 4% recall. Direct classification of the three projects' original source yields precision/recall within two percentage points of reconstructed code. The account attributes the main drop to detector generalization rather than decompilation noise alone.\n\nThe candidate also notes that section 3.2 describes controlled conditions without optimization or obfuscation, while section 4.1 states GCC 12.2.0 builds with -O2. Without the paper, this discrepancy is not resolved on the authors' behalf. No independent rerun, model revision or sample-level records were obtained; small samples, low recall and wide intervals do not establish general vulnerability discovery. REA is unmentioned. No binaries or models were executed or installed here.",
+      "metadata": ["Sealed candidate: 1 like, 501 views, 0 reposts. Paper figures are secondary reporting, not independently reproduced."],
+      "source_labels": ["Takashi Yoshikawa's secondary account of VulDec and metric limitations, November 7, 2026 at 14:02:01 Beijing time"]
+    }
+  },
+  {
+    "id": "hadesi-rea-chaoxing-checkin-system-report",
+    "title": "Hadesi的学习通签到系统：REA辅助研究后的功能自述",
+    "category": "apps",
+    "rea": "REA",
+    "status": "unverified",
+    "summary": "Hadesi因学校签到名额难抢、代办太贵，称用REA研究学习通并集成自动化功能；没有源码、版本或成功率记录，与核桃的课程进度实验分开。",
+    "description": "2026年11月7日13:26:07（北京时间），Hadesi（@Hadesikydk）称传统方式难以抢到学校签到名额，又觉得他人代办太贵，于是用REA研究学习通并做出一套自用系统。作者声称集成所有功能，包含滑块、短信人脸相关流程及抓取id自动化。这里仅记录功能主张，不提供绕过校方验证的做法或认定其获授权。\n\n原帖补查确认署名与一张图片附件，未核验图片内容。没有学习通版本、接口、源码、学校流程、授权、误识别／失败率或真实签到验收。全部功能与全自动没有覆盖定义，不能升级为已验证通用能力，也不认定破解了生物识别。与核桃研究APK后课程进度仍回退的既有案例作者和目的不同，单独保留未核验报告；本合集未登录系统、访问学生资料或运行目标。",
+    "sources": [{"label": "Hadesi自报REA研究学习通与签到系统，2026-11-07 13:26:07北京时间", "url": "https://x.com/i/status/2118938022016331953"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存3赞、33浏览、0转发；自动化功能与成功率未经核验。"],
+    "en": {
+      "title": "Hadesi's Chaoxing check-in system: claimed features following REA-assisted research",
+      "summary": "Hadesi cites scarce school check-in slots and expensive proxy services, claiming REA-assisted Chaoxing research and integrated automation. No source, version or success-rate records; distinct from Hetao's course-progress experiment.",
+      "description": "At 13:26:07 Beijing time on November 7, 2026, Hadesi (@Hadesikydk) says conventional methods failed to secure school check-in slots and third-party proxy services cost too much, prompting REA research into Chaoxing and a personal system. The author claims all features, including automation around sliders, SMS/face-related flows and ID capture. This records claims only, without instructions for bypassing school verification or assuming authorization.\n\nOriginal-post retrieval confirms attribution and one image attachment; its technical content was not verified. Chaoxing revision, interfaces, source, school workflow, authorization, recognition/failure rates and actual check-in acceptance records are absent. All features and fully automatic have no coverage definition; neither general capability nor defeated biometrics is established. Author and purpose differ from Hetao's APK/course-progress rollback experiment, so this remains a separate unverified report. No system login, student-data access or target execution was performed here.",
+      "metadata": ["Sealed candidate: 3 likes, 33 views, 0 reposts. Automation features and success rates are unverified."],
+      "source_labels": ["Hadesi reports REA-assisted Chaoxing research and a check-in system, November 7, 2026 at 13:26:07 Beijing time"]
+    }
+  },
+  {
+    "id": "teej-kindle-zig-cursor-grok-secondary-report",
+    "title": "teej的Kindle提速：Ozark转贴Grok对Cursor／Zig重写的解释",
+    "category": "hardware",
+    "rea": "other-ai",
+    "status": "unverified",
+    "summary": "Ozark转贴Grok称teej用Cursor与Zig重写Kindle界面并优化刷新；父帖只确认作者发了演示，未独立确认AI归因、固件范围或速度。",
+    "description": "2026年11月7日14:12:10（北京时间），Ozark（@ozarktrent）在teej的Kindle演示下转贴自己问Grok如何复刻得到的回答。回答把teej的结果解释为Cursor辅助的Zig重写，移除Amazon冗余软件、积极优化墨水屏刷新，并称摄像头供Agent观察屏幕迭代。候选全文已补取，末尾不完整没有被用作跳过理由。\n\nGrok还建议以既有越狱和KOReader no-framework模式接近这种效果，说明部分刷新可能增加残影，电池和长期表现会变，兼容性取决于型号与固件。该建议不证明teej使用KOReader，也不把界面或阅读器重写扩张成完整操作系统重建。所谓Cursor原话在Grok回答中被引用，但未取到对应作者回复，不能当作者直接确认。\n\n补取父帖确认teej dv（@teej_dv）在11月7日01:25:52写I fixed kindle并附视频；它早于本轮窗口，是补充背景而非新候选，父帖本身没有Zig或AI细节。未观看性能比较、取得源码、设备型号、固件、刷新时序或功耗测试。不认定已完整替换固件、普遍提速或保修／可逆性保证；与其他Kindle案例不因设备同类而合并。REA未提及，本合集未连接设备或执行任何修改。",
+    "sources": [{"label": "Ozark转贴Grok的Kindle／Cursor／Zig解释，2026-11-07 14:12:10北京时间", "url": "https://x.com/i/status/2118949612773908654"}, {"label": "补充父帖：teej的Kindle演示，2026-11-07 01:25:52北京时间，早于本轮窗口", "url": "https://x.com/i/status/2118756766754218224"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存0赞、72浏览、0转发；Grok生成解释不是已核对的作者技术说明。"],
+    "en": {
+      "title": "teej's faster Kindle: Ozark relays Grok's Cursor/Zig rewrite explanation",
+      "summary": "Ozark relays Grok attributing teej's Kindle interface and refresh changes to Cursor and Zig. The parent confirms a demonstration post, not the AI attribution, firmware scope or speed.",
+      "description": "At 14:12:10 Beijing time on November 7, 2026, Ozark (@ozarktrent) replies to teej's Kindle demo by pasting Grok's answer to a request for replication advice. Grok attributes the result to a Cursor-assisted Zig rewrite, removing Amazon software and aggressively optimizing e-ink refreshes, with a camera letting agents observe the screen during iteration. The full candidate was retrieved; the initially incomplete ending was not grounds for skipping it.\n\nGrok also suggests an existing jailbreak and KOReader no-framework mode as an approximation, warning that partial refreshes can increase ghosting, battery and long-term behavior may change, and compatibility depends on model/firmware. This advice does not establish that teej uses KOReader, nor turn an interface or reader rewrite into a complete operating-system rebuild. Claimed Cursor quotations occur inside Grok's answer; the corresponding author replies were not obtained and are not direct author confirmation.\n\nThe supplementary parent confirms teej dv (@teej_dv) posted I fixed kindle with a video at 01:25:52 on November 7, before this window. It supplies context, not a new candidate, and contains no Zig or AI detail itself. No performance comparison was viewed, and source, model, firmware, refresh timings and power tests were not obtained. Complete firmware replacement, general speedups, warranty effects and reversibility are not established. This is not merged with other Kindle projects solely because the devices are similar. REA is unmentioned. No device was connected or modified here.",
+      "metadata": ["Sealed candidate: 0 likes, 72 views, 0 reposts. Grok's generated explanation is not a checked technical account from the author."],
+      "source_labels": ["Ozark relays Grok's Kindle/Cursor/Zig explanation, November 7, 2026 at 14:12:10 Beijing time", "Supplementary parent: teej's Kindle demo, November 7, 2026 at 01:25:52 Beijing time, before this window"]
+    }
+  },
+  {
+    "id": "leeking420-ai-mcp-mobile-coupon-traffic-analysis",
+    "title": "二旬老汉的抢券流量研究：手机操作留给人，包与脚本交给AI",
+    "category": "apps",
+    "rea": "other-ai",
+    "status": "in-progress",
+    "summary": "二旬老汉称将手机抓包软件经MCP接AI、无线ADB连接，自己操作手机而让AI分析包与脚本；未具名平台、模型或实际抢券成果。",
+    "description": "2026年11月7日14:34:02（北京时间），二旬老汉（@leeking420）说自己现在的token主要花在抢券相关逆向。过去抓包、解密和调试遇到不懂的内容就难继续，现在改由已root手机、系统证书配置、抓包软件MCP及无线ADB组成分析环境，自己负责操作手机，AI分析数据包与脚本。这里只记录作者的分工和环境报告，不提供配置、接口或利用步骤。\n\n该用途是降低移动端流量与脚本研究卡点，不是已验证的自动获券服务。补取原帖确认署名与图片附件；没有目标平台、应用版本、MCP工具名、模型、样本包、脚本、工时、成功率或优惠收益。未提REA，也没有证明AI自主完成全部研究。保留进行中的具体工作流，不据此推断授权或可规模化套利；本合集未读取流量、接手机、修改证书或运行目标。",
+    "sources": [{"label": "二旬老汉自述AI／MCP／无线ADB的移动端流量研究，2026-11-07 14:34:02北京时间", "url": "https://x.com/i/status/2118955114283274341"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存3赞、174浏览、0转发；无获券数量、收益或成功率证据。"],
+    "en": {
+      "title": "Leeking420's coupon-traffic workflow: a human drives the phone, AI studies packets and scripts",
+      "summary": "Leeking420 reports connecting mobile traffic tools to AI through MCP and wireless ADB, operating the phone manually while AI analyzes packets/scripts. Platform, model and actual coupon outcomes are unspecified.",
+      "description": "At 14:34:02 Beijing time on November 7, 2026, 二旬老汉 (@leeking420) says most token use now goes toward coupon-related reverse engineering. Previously, unfamiliar packet capture, decryption and debugging problems blocked progress. The reported environment now combines a rooted phone, system-certificate configuration, capture software exposed through MCP and wireless ADB, with the author operating the phone and AI analyzing packets and scripts. This records the environment and division of work, not configuration, interfaces or exploitation instructions.\n\nThe purpose is reducing bottlenecks in mobile traffic/script research, not a validated automated coupon service. Original-post retrieval confirms attribution and an image attachment. Target platform, app revision, MCP tool, model, packet samples, scripts, effort, success rate and financial benefits are absent. REA is unmentioned and fully autonomous research is not established. Kept as a concrete in-progress workflow without assuming authorization or scalable arbitrage. No traffic was read, phone connected, certificates changed or target executed here.",
+      "metadata": ["Sealed candidate: 3 likes, 174 views, 0 reposts. No coupon totals, earnings or success-rate evidence."],
+      "source_labels": ["Leeking420's AI/MCP/wireless-ADB mobile-traffic research account, November 7, 2026 at 14:34:02 Beijing time"]
+    }
+  },
+  {
+    "id": "ahang-codex-jianying-intent-clarification-rebuild",
+    "title": "阿杭的剪映Codex版：先澄清需求，再研究并组装剪辑能力",
+    "category": "apps",
+    "rea": "other-ai",
+    "status": "in-progress",
+    "summary": "阿杭称以Codex研究剪映，先在指令文件强制澄清意图、用Monid补材料，耗用两个GPT20x周额度；后帖称已用重建版本剪视频，没有源码或完整功能对照。",
+    "description": "2026年11月7日14:37:14（北京时间）的候选把逆向剪映作为实例：在Agent.md和Claude.md中要求先澄清目标、用途与验收标准，区分假设，不改写用户意图；不足的材料通过Monid MCP查找并review，再继续执行检查。作者称Codex给出具体指令，消耗两个GPT20x的周额度。早帖补取返回not found，不据此判定删除；封存正文仍保留。\n\n14:48:59的后帖重复该流程，新增称这段视频就是用逆向后的剪映-Codex版完成剪辑。补取确认作者为叫我阿杭（@Astronaut_1216），附两张图片，没有在返回中提供可核验视频导出。作者承认没有原后端数据库或云端服务，主张可调研再组装，不表示恢复了厂商后端。两份周额度不是实际token数、金额或连续工时；一句话逆向所有产品是宣传，不能作泛化。\n\n没有源码、运行版本、原版功能清单、项目文件或导出对照，无法判断独立编辑器、脚本封装和复用剪映的边界。与阿杭此前使用逸尘Jianying Headless遇版本失效的用户报告分开：这里是其自述Codex研究与重建工作，未确认同一个实现，不归并成逸尘成果。未明确调用REA，按other-ai、进行中保存。本合集未安装、运行或对比剪辑器。",
+    "sources": [{"label": "剪映Codex研究的需求澄清与额度报告，2026-11-07 14:37:14北京时间", "url": "https://x.com/i/status/2118955920730603614"}, {"label": "阿杭补称用剪映Codex版剪片，2026-11-07 14:48:59北京时间", "url": "https://x.com/i/status/2118958878629245109"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["两条候选封存依次1赞／341浏览／0转发、3赞／353浏览／0转发；早帖not found不证明删除。"],
+    "en": {
+      "title": "Ahang's Codex-based Jianying: clarify intent, then study and assemble editing capabilities",
+      "summary": "Ahang reports Codex research into Jianying, intent clarification in instruction files, Monid-assisted material gathering and two GPT20x weekly allowances. A follow-up claims editing a video with the result; source and full feature comparisons are absent.",
+      "description": "A candidate at 14:37:14 Beijing time on November 7, 2026 uses Jianying as a reconstruction example. Instructions in Agent.md and Claude.md require clarifying goal, use and acceptance criteria, labeling assumptions without changing intent, filling material gaps through Monid MCP research/review, then executing and checking the work. The author says Codex produced actionable instructions and consumed two GPT20x weekly allowances. Retrieval of the earlier post returned not found, which does not establish deletion; its sealed text remains available.\n\nA follow-up at 14:48:59 repeats the workflow and adds that its video was edited with the resulting Jianying-Codex version. Retrieval confirms 叫我阿杭 (@Astronaut_1216) and two images, not an inspectable video export in the returned material. The author admits not having the original backend database or cloud services and proposes researching and assembling replacements, not recovering the vendor backend. Two weekly allowances are not actual token counts, spending or continuous work hours. One sentence can reverse every product is promotion, not a general result.\n\nNo source, running revision, original-feature checklist, project file or export comparison establishes the boundary between an independent editor, a script wrapper and reuse of installed Jianying. This is distinct from Ahang's earlier compatibility report as a user of Yichen's Jianying Headless: the new claim concerns personal Codex research/reconstruction, without an established shared implementation or attribution to Yichen. REA use is unspecified; retained as other-ai and in progress. No editor was installed, executed or compared here.",
+      "metadata": ["Sealed candidates respectively: 1 like/341 views/0 reposts and 3 likes/353 views/0 reposts. Not found for the earlier post does not establish deletion."],
+      "source_labels": ["Jianying/Codex intent-clarification and allowance-use report, November 7, 2026 at 14:37:14 Beijing time", "Ahang adds an editing claim for the Jianying-Codex version, November 7, 2026 at 14:48:59 Beijing time"]
+    }
+  },
+  {
+    "id": "openmontage-reference-edit-transformer-ten-second-idea",
+    "title": "OpenMontage：参考片节奏到Transformer科普前10秒的具体设想",
+    "category": "apps",
+    "rea": "other-ai",
+    "status": "related-project",
+    "summary": "介绍称OpenMontage把参考片开头、切镜和旁白关系交给Codex／Claude Code，先看样片和费用；发帖者想借此做Transformer科普，还没有该实验结果。",
+    "description": "2026年11月7日14:57:38（北京时间）的候选介绍OpenMontage：给Codex或Claude Code一条喜欢的短视频，研究其开场、切镜与旁白画面配合，再按新选题给两三种拍法，正式制作前先看样片和预估费用。这是参考视频制作结构的研究与生成工作流，不是软件反编译。\n\n发帖者提出具体未执行实验：保留参考片剪辑节奏，换成Transformer如何猜下一个字，先让观众猜句尾，再用动画解释模型，先看前10秒。其意图是用短预览具体纠正提问时机和旁白可听清度，而不是只说节奏更快。没有提供这一实验的输出。\n\n候选转述仓库例子为60秒香蕉与猕猴桃动画，六段Kling镜头、作者标价1.33美元；另有五种硬表面产品的60秒拆解再组装短片，以首尾帧保持产品身份并配音效、旁白与音乐。后者是视觉生成例子，不当作实物工程结构已逆向。77K+星是转述快照。仓库地址称在评论中，但未取得原仓库、生成配置、成本明细或样片对照；费用和质量不是本合集验证。REA只是类比，未证明调用REA。未运行项目或生成视频。",
+    "sources": [{"label": "OpenMontage用途、项目例子与Transformer前10秒idea，2026-11-07 14:57:38北京时间", "url": "https://x.com/i/status/2118961053614883281"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存4赞、214浏览、0转发；77K+星与1.33美元均为文字转述，未核验。"],
+    "en": {
+      "title": "OpenMontage: a reference-edit workflow and a ten-second Transformer explainer idea",
+      "summary": "An account describes OpenMontage studying hooks, cuts and narration with Codex/Claude Code, then showing previews and costs. The poster proposes a Transformer explainer; that experiment has no reported output.",
+      "description": "A candidate at 14:57:38 Beijing time on November 7, 2026 introduces OpenMontage: supply a favorite short video to Codex or Claude Code, study its opening, cuts and narration/visual relationship, then obtain two or three approaches for a new topic, with previews and estimated costs before production. This studies and generates visible video-production structure rather than decompiling software.\n\nThe poster proposes an unexecuted experiment: preserve reference pacing but explain how a Transformer predicts the next word, first asking viewers to guess a sentence ending and then animating the model's equivalent task, previewing only the first ten seconds. The purpose is concrete feedback on question timing and intelligible narration rather than merely asking for faster pacing. No output from this experiment is supplied.\n\nThe candidate relays a repository example of a 60-second banana/kiwi animation using six Kling shots at an author-recorded $1.33. Another 60-second example disassembles and reassembles five hard-surface products visually, anchoring first/last frames to preserve identity and adding effects, narration and music. That is a generation example, not established recovery of real engineering structures. The 77K+ stars figure is a relayed snapshot. The repository is said to be in comments, but no original repository, generation configuration, cost breakdown or footage comparison was obtained; costs and quality were not verified here. REA is an analogy, not established engine use. No project or generation was run.",
+      "metadata": ["Sealed candidate: 4 likes, 214 views, 0 reposts. 77K+ stars and $1.33 are unverified textual accounts."],
+      "source_labels": ["OpenMontage uses, project examples and a ten-second Transformer idea, November 7, 2026 at 14:57:38 Beijing time"]
+    }
+  },
+  {
+    "id": "leaf-ayi-vip-stand-dance-gemini-prompt-reconstruction",
+    "title": "VIP看台舞蹈视频：Leaf用Gemini反推动作，承认导演与运镜规则不足",
+    "category": "algorithms",
+    "rea": "other-ai",
+    "status": "analysis-test",
+    "summary": "Leaf称以Gemini4／Antigravity研究AYi视频，给出30秒六段动作与115BPM规格；自评不如后来公开的原提示词，未做客观成片对照。",
+    "description": "2026年11月7日15:08:00（北京时间），Leaf Yeah!（@leaf_sanren）称把@AYi_AInotes此前的视频交给Antigravity里的Gemini4反推提示词，并称附件是生成效果。原帖补查确认署名、完整文字与视频附件，未观看或比较原片及生成片。目标是复原体育场／赛车场VIP看台中的女性舞蹈片的动作时序与视觉制作规格，而非恢复软件或证明找回原Prompt。\n\n给出的规格为30秒六段：0–5秒坐姿墨镜互动、5–7秒欢呼推镜、7–15秒站立手指舞、15–18秒背身回眸、18–24秒舒展与22–24秒甩发、24–30秒身体波浪与最后2秒近景回眸。还指定黑色挂脖露背真丝阔腿衣、白色座椅、50mm浅景深、暖轮廓光、角色一致与自然重心／衣料运动，配115BPM电子流行／hip-hop和第6、29秒欢呼。它们是生成提示中的期望，不是测得的相机、音频或动作参数。\n\n作者自评动作顺序能推出来，但缺导演层和运镜规则，不及AYi后来公开的原生提示词；Fable5.5参与原Prompt只是听说。未取得原生Prompt、模型固定版本、生成次数、成本或定量相似度，不验证参数冲突是否解决，也不把附件当完整匹配证明。REA未提及，本合集未生成或执行任何视频工具。",
+    "sources": [{"label": "Leaf反推AYi舞蹈视频的分镜提示与不足自评，2026-11-07 15:08:00北京时间", "url": "https://x.com/i/status/2118963662853403090"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存3赞、331浏览、0转发；30秒与115BPM为提示规格，不是独立测量。"],
+    "en": {
+      "title": "A VIP-stand dance clip: Leaf infers actions with Gemini but reports missing direction and camera rules",
+      "summary": "Leaf credits Gemini 4/Antigravity with studying an AYi clip and supplies a six-part, 30-second, 115 BPM specification. The author judges it worse than the later original prompt; no objective output comparison was performed.",
+      "description": "At 15:08:00 Beijing time on November 7, 2026, Leaf Yeah! (@leaf_sanren) says Gemini 4 in Antigravity inferred a prompt from @AYi_AInotes' earlier video, describing the attachment as generated output. Original-post retrieval confirms attribution, full wording and a video attachment, not a viewed comparison. The target is recovering action timing and visible production specifications for a woman's dance in stadium/racetrack VIP seating, not software recovery or established retrieval of the original prompt.\n\nThe proposed 30-second sequence has six parts: 0–5 seconds seated sunglasses interaction; 5–7 a cheering close push; 7–15 standing finger dance; 15–18 a back turn and glance; 18–24 expansive movement with a hair flip at 22–24; and 24–30 a body wave with a final two-second close glance. Other specifications include a black halter/open-back silk wide-leg outfit, white seats, a 50mm shallow-depth-of-field look, warm rim light, character consistency, natural weight/fabric movement, 115 BPM electro-pop/hip-hop and cheers at seconds 6 and 29. These are desired generation parameters, not measured camera, audio or motion properties.\n\nThe author says action order can be inferred but direction and camera rules are missing, producing a worse result than AYi's subsequently disclosed original prompt. Fable 5.5's alleged role in that original is hearsay. The original prompt, pinned model revisions, generation attempts, costs and quantified similarity were not obtained. Resolution of conflicting prompt constraints is not established, and an attachment does not prove a full match. REA is unmentioned. No video was generated or video tool executed here.",
+      "metadata": ["Sealed candidate: 3 likes, 331 views, 0 reposts. Thirty seconds and 115 BPM are prompt specifications, not independent measurements."],
+      "source_labels": ["Leaf's inferred storyboard prompt for AYi's dance clip and self-reported shortcomings, November 7, 2026 at 15:08:00 Beijing time"]
+    }
+  },
+  {
+    "id": "deepmind-rsa1024-ai-weaknesses-secondary-report",
+    "title": "RSA1024研究转述：人类监督AI寻找旧密码体系弱点",
+    "category": "algorithms",
+    "rea": "other-ai",
+    "status": "unverified",
+    "summary": "候选称DeepMind人类监督AI数周研究RSA1024，理论签名伪造快1600倍、批量密钥平均成本低30倍；未取得原论文、前提或验证，不能推成现代加密已破或普遍安全保证。",
+    "description": "2026年11月7日14:15:21（北京时间）的候选转述Google DeepMind在11月6日宣布：人类监督的AI Agent在数周内找到老式1024位RSA的两处弱点，理论数字签名伪造加速1600倍，批量处理多把密钥的平均成本降低30倍。具体目标是已有密码体系的算法研究，而非某款软件反编译；签名、密钥与协议前提不能混同。\n\n候选未给原公告、论文、算法名称、攻击者条件、实际资源、样本或验证记录。无法确认这些倍数是渐近复杂度、估算成本、特定弱密钥还是可实践攻击；数周为转述工期，不是本合集计时。未据此称任意RSA1024已实际破解。\n\n帖子另说2048位及以上不受影响、网银和聊天软件都安全；未取得支持适用范围的原研究，不能给出这种系统级安全保证，也不预测下一个密钥长度会被攻破。按未核验算法研究线索收录，REA未提及，没有运行密码分析或获取密钥。",
+    "sources": [{"label": "人类监督AI研究RSA1024与倍数的二手介绍，2026-11-07 14:15:21北京时间", "url": "https://x.com/i/status/2118950414871634092"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存0赞、67浏览、0转发；1600倍、30倍、数周与11月6日公告日期均为未核对原研究的转述。"],
+    "en": {
+      "title": "An RSA-1024 research account: human-supervised AI investigates an older cryptosystem",
+      "summary": "A candidate attributes weeks of RSA-1024 research to human-supervised DeepMind agents, claiming 1,600× theoretical signature-forgery speed and 30× lower average multi-key cost. Primary work, assumptions and validation were not obtained.",
+      "description": "A candidate at 14:15:21 Beijing time on November 7, 2026 relays an alleged Google DeepMind announcement on November 6: human-supervised AI agents reportedly found two weaknesses in older 1,024-bit RSA over several weeks, with a theoretical 1,600-fold signature-forgery speedup and 30-fold lower average cost for multiple keys. The concrete target is algorithmic analysis of an existing cryptosystem, not software decompilation. Signature, key and protocol assumptions cannot be conflated.\n\nThe candidate supplies no original announcement, paper, algorithm names, attacker conditions, actual resources, samples or validation records. It is unclear whether the multipliers describe asymptotic complexity, estimated cost, particular weak keys or practical attacks. Weeks is relayed effort, not a measurement here; arbitrary RSA-1024 is not established as practically broken.\n\nThe post also claims 2,048-bit and larger keys are unaffected and online banking/chat are safe. Without the underlying work and its scope, no such system-wide security guarantee is adopted, nor is a prediction made about the next key size. Kept as an unverified algorithm-research lead, with REA unmentioned. No cryptanalysis was executed or keys obtained.",
+      "metadata": ["Sealed candidate: 0 likes, 67 views, 0 reposts. 1,600×, 30×, weeks and the November 6 announcement date are secondary claims not checked against original research."],
+      "source_labels": ["Secondary account of human-supervised AI RSA-1024 research and multipliers, November 7, 2026 at 14:15:21 Beijing time"]
+    }
+  },
+  {
+    "id": "kayden-tegra-x1-claude-apple-firmware-port-question",
+    "title": "Tegra X1与Apple固件：Kayden问Claude能否把移植扩展到其他设备",
+    "category": "hardware",
+    "rea": "other-ai",
+    "status": "unverified",
+    "summary": "读者看到bruno的Tegra X1原生Metal驱动进展，询问是否有MacBook架构关联、能否让Claude移植Apple固件；只是具体设备背景下的疑问，非AI驱动实现。",
+    "description": "2026年11月7日15:44:21（北京时间），Kayden（@kaydenpmd）回复@brunostjohn，问Tegra X1是否有类似MacBook的特性才使工作可行，还是自己可以让Claude把Apple固件放到任意设备。这里保留具体芯片与固件兼容的AI研究idea，不把随口的任意设备扩张成实现计划或承诺。\n\n补取父帖确认bruno st john在当日07:57:48报告原生Tegra X1 Metal驱动某些场景达到60fps且支持旋转，仍有部分NVK回退，目标是在UIKit和系统中去掉回退；作者明确不是拼接QEMU。该父帖早于本轮窗口，是问题背景，不是新候选，且未提Claude。不能把人类驱动项目进展写成AI完成，60fps不是本合集测量，也不证明所有应用或任意硬件兼容。\n\n没有Kayden自己的代码、固件样本、可行性分析或测试，未确认双方合作、合法分发条件或AI已参与原项目。REA未提及，本合集未取得或执行Apple固件及驱动。",
+    "sources": [{"label": "Kayden的Claude／Apple固件移植疑问，2026-11-07 15:44:21北京时间", "url": "https://x.com/i/status/2118972813176385811"}, {"label": "补充父帖：bruno的Tegra X1 Metal驱动进展，2026-11-07 07:57:48北京时间，早于本轮窗口", "url": "https://x.com/i/status/2118855402242633746"}],
+    "snapshot_date": "2026-11-07",
+    "metadata": ["候选封存0赞、5浏览、0转发；60fps属于父帖作者在部分场景的报告，不是AI成果。"],
+    "en": {
+      "title": "Tegra X1 and Apple firmware: Kayden asks whether Claude could extend a port to other devices",
+      "summary": "After bruno's native Tegra X1 Metal-driver update, a reader asks about MacBook-like architecture and Claude-assisted Apple-firmware ports. This is a device-specific question, not an AI-built driver.",
+      "description": "At 15:44:21 Beijing time on November 7, 2026, Kayden (@kaydenpmd) replies to @brunostjohn, asking whether Tegra X1 has MacBook-like characteristics that make the work possible, or whether Claude could put Apple firmware on any device. This retains a chip/firmware-interoperability AI research idea without turning a casual any-device question into an implementation plan or promise.\n\nThe supplementary parent confirms bruno st john reported a native Tegra X1 Metal driver reaching 60fps in certain places and supporting rotation at 07:57:48 that day, with some NVK fallbacks remaining and a goal of removing them from UIKit and the OS. The author explicitly distinguishes it from a QEMU assembly. This predates the window and supplies context, not a new candidate, and does not mention Claude. Human driver progress is not attributed to AI. Sixty fps is not a measurement here or evidence of universal application/hardware compatibility.\n\nNo code, firmware sample, feasibility analysis or test from Kayden is supplied. Collaboration, lawful redistribution and AI participation in the original project are not established. REA is unmentioned. No Apple firmware or driver was acquired or executed here.",
+      "metadata": ["Sealed candidate: 0 likes, 5 views, 0 reposts. The parent's 60fps report covers certain scenes and is not an AI result."],
+      "source_labels": ["Kayden's Claude/Apple-firmware port question, November 7, 2026 at 15:44:21 Beijing time", "Supplementary parent: bruno's Tegra X1 Metal-driver update, November 7, 2026 at 07:57:48 Beijing time, before this window"]
+    }
+  },
+  {
     "id": "astro-conversion-kit-live-site-agent-migration",
     "title": "astro-conversion-kit：把线上WordPress等网站重建为静态Astro站点",
     "category": "apps", "rea": "other-ai", "status": "related-project",
@@ -222,11 +431,11 @@
     "id":"henry-yuan-esp32-iphone-mcp-deepseek-report",
     "title":"ESP32插入iPhone：Vaibhav转述Henry Yuan的MCP硬件控制器",
     "category":"hardware", "rea":"other-ai", "status":"unverified",
-    "summary":"转述Henry Yuan以ESP32与固件让Claude Code经MCP操作iPhone，新版接入DeepSeek Harness；没有原项目与屏幕读取机制，不能当iOS漏洞或免硬件方案。",
-    "description":"2026年11月7日04:45:04（北京时间），Vaibhav Sisinty（@VaibhavSisinty）介绍Henry Yuan做的ESP32硬件Agent：芯片插入iPhone，刷固件后让Claude Code通过MCP读屏、点击、滑动与输入，并称新固件增加DeepSeek Harness且速度快。用途是在没有常规软件集成入口时，以外接硬件让AI操作手机。\n\n无需App、越狱、Mac、Xcode或开发者账号，以及读屏和快的表述均为转述；未取得原作者项目、ESP32具体型号、连接方式、固件、MCP schema、屏幕获取路径、兼容设备或端到端延迟。硬件输入控制不自动解释图像如何回传，不据此认定突破iOS权限或发现安全漏洞。补取确认转述者与视频附件，未观看验证；仍需实体芯片与自行刷写，不能说无硬件、全离线或DeepSeek在芯片上运行。本合集未运行固件、接手机或访问屏幕数据，REA未说明。",
-    "sources":[{"label":"Vaibhav转述Henry Yuan的ESP32手机控制与DeepSeek固件，2026-11-07 04:45:04北京时间","url":"https://x.com/i/status/2118806898917188086"}],
-    "snapshot_date":"2026-11-07", "metadata":["封存6赞、1180浏览、1转发；fast无测量，未核验读屏机制。"],
-    "en":{"title":"An ESP32 plugged into an iPhone: Vaibhav relays Henry Yuan's MCP hardware controller","summary":"An account credits Henry Yuan with ESP32 firmware letting Claude Code control an iPhone over MCP and adding DeepSeek Harness. No original project or screen-capture mechanism was obtained; this is not an iOS exploit or hardware-free solution.","description":"At 04:45:04 Beijing time on November 7, 2026, Vaibhav Sisinty (@VaibhavSisinty) describes an ESP32 hardware agent built by Henry Yuan. After plugging a chip into an iPhone and flashing firmware, Claude Code allegedly reads the screen, taps, swipes and types through MCP. New firmware reportedly adds DeepSeek Harness and runs fast. The purpose is AI phone operation through external hardware where ordinary software integration is unavailable.\n\nClaims of no app, jailbreak, Mac, Xcode or developer account, screen reading and speed remain relayed claims. No original developer project, ESP32 model, connection method, firmware, MCP schema, screen-acquisition path, device compatibility or end-to-end latency was obtained. Hardware input control does not explain image return; neither iOS permission bypass nor a vulnerability is established. Retrieval confirms the poster and a video attachment, not a viewed validation. A physical chip and flashing remain necessary: this is not hardware-free, established fully offline operation or DeepSeek running on the chip. No firmware was run, phone connected or screen data accessed here; REA is unspecified.","metadata":["Sealed snapshot: 6 likes, 1,180 views, 1 repost. 'Fast' has no measurement; the screen-reading mechanism remains unverified."],"source_labels":["Vaibhav's account of Henry Yuan's ESP32 phone control and DeepSeek firmware, November 7, 2026 at 04:45:04 Beijing time"]}
+    "summary":"Henry Yuan的ESP32手机控制器转述新增ESP32-S3／PSRAM、AssistiveTouch与固件0.2.2的安装边界；仍未取得原项目或读屏机制，非iOS漏洞或免硬件方案。",
+    "description":"2026年11月7日04:45:04（北京时间），Vaibhav Sisinty（@VaibhavSisinty）介绍Henry Yuan的ESP32硬件Agent：插入iPhone、刷固件后，Claude Code经MCP读屏、点击、滑动与输入，新固件据称接DeepSeek Harness且快。用途是以外接硬件提供手机AI操作入口。\n\n12:37:22本轮介绍重复网页刷写与MCP／CLI能力；14:10:33的回复新增限制：需要原生USB及PSRAM的ESP32-S3，iPhone开启AssistiveTouch，电脑MCP／CLI要求固件至少v0.2.2，可经蓝牙或Wi-Fi连接，该路径不必安装手机App。回复提醒云视觉费用与屏幕数据流向。均为社区文字转述，没有读取所附项目文档或核对固定固件。\n\n无需越狱、Mac、Xcode或开发者账号、读屏和快仍未验证。物理输入不解释图像回传；原项目、MCP schema、屏幕获取路径、兼容设备和延迟未知，不认定突破iOS权限或无风控保证。旧补取确认视频附件但未观看；仍需芯片与刷写，不能称无硬件、全离线或DeepSeek在芯片上运行。本合集未运行固件、接手机或访问屏幕数据，REA未说明。",
+    "sources":[{"label":"Vaibhav转述Henry Yuan的ESP32手机控制与DeepSeek固件，2026-11-07 04:45:04北京时间","url":"https://x.com/i/status/2118806898917188086"},{"label":"本轮硬件控制器MCP／CLI介绍，2026-11-07 12:37:22北京时间","url":"https://x.com/i/status/2118925756911018087"},{"label":"社区补充硬件、AssistiveTouch与固件版本限制，2026-11-07 14:10:33北京时间","url":"https://x.com/i/status/2118949204391567679"}],
+    "snapshot_date":"2026-11-07", "metadata":["旧封存6赞、1180浏览、1转发；fast无测量。","本轮两候选依次8赞／357浏览／0转发、0赞／19浏览／0转发；安装边界未对照原项目。"],
+    "en":{"title":"An ESP32 plugged into an iPhone: Vaibhav relays Henry Yuan's MCP hardware controller","summary":"Accounts of Henry Yuan's phone controller add ESP32-S3/PSRAM, AssistiveTouch and firmware 0.2.2 requirements. Original project and screen acquisition remain unchecked; this is not an iOS exploit or hardware-free solution.","description":"At 04:45:04 Beijing time on November 7, 2026, Vaibhav Sisinty (@VaibhavSisinty) describes Henry Yuan's ESP32 hardware agent: plug into an iPhone, flash firmware, then use Claude Code over MCP to read the screen, tap, swipe and type. New firmware reportedly adds DeepSeek Harness and is fast. The purpose is an external-hardware entry point for AI phone operation.\n\nThe 12:37:22 candidate repeats web flashing and MCP/CLI functionality. A 14:10:33 reply adds requirements: an ESP32-S3 with native USB and PSRAM, AssistiveTouch enabled on iPhone, firmware v0.2.2 or later for desktop MCP/CLI, and Bluetooth or Wi-Fi connectivity without a phone app on that path. It warns about cloud-vision costs and screen-data flows. These are community accounts; linked project docs and pinned firmware were not checked.\n\nClaims of no jailbreak, Mac, Xcode or developer account, screen reading and speed remain unverified. Physical input does not explain image return. Original project, MCP schema, screen-acquisition path, compatible devices and latency are unknown; neither iOS permission bypass nor freedom from account risk is established. Earlier retrieval confirmed a video attachment without viewed validation. A chip and flashing remain necessary: this is not hardware-free, established fully offline operation or DeepSeek on the chip. No firmware was run, phone connected or screen data accessed here. REA is unspecified.","metadata":["Older sealed snapshot: 6 likes, 1,180 views, 1 repost. Fast has no measurement.","This window's two candidates respectively: 8 likes/357 views/0 reposts and 0 likes/19 views/0 reposts. Installation limits were not checked against the original project."],"source_labels":["Vaibhav's account of Henry Yuan's ESP32 phone control and DeepSeek firmware, November 7, 2026 at 04:45:04 Beijing time","This window's MCP/CLI hardware-controller introduction, November 7, 2026 at 12:37:22 Beijing time","Community hardware, AssistiveTouch and firmware-version requirements, November 7, 2026 at 14:10:33 Beijing time"]}
   },
   {
     "id":"gemini-argon-monocular-parabolic-skill-transfer-report",
@@ -436,16 +645,16 @@
     "id":"gcsa-agent-cybergym-security-research-report",
     "title":"GCSA Agent：CyberGym Level1达91.3%的安全研究转述",
     "category":"apps", "rea":"other-ai", "status":"unverified",
-    "summary":"候选转述GCSA Agent在CyberGym Level1真实软件代码库达91.3%；未给提交、样本、模型或成功定义，不当任意逆向与零日研究的独立成功率。",
-    "description":"2026年11月7日03:44:31（北京时间）的中文候选以AI读代码、找隐患及编写验证程序为背景，转述全球网络安全联盟@GCSAHK的GCSA Agent在CyberGym Level1真实软件代码库评测达到91.3%。这是具名AI安全研究Agent的评测说法，不是本合集对软件反编译或重建的验收。\n\n没有CyberGym提交、样本分母、模型、成本、成功定义、漏洞披露或运行报告，未证明91.3%适用于任意软件逆向、零日发现或生产环境。帖子还讲MCP包被第三方重新注册与联盟数十产品、3.8亿用户，但没有包名或样本，不说明当前密钥已泄露，用户规模也不能验证Agent能力。同帖SecVibe Code作为独立开发工具另条保存，不认定采用相同模型或配置。\n\n未读所附短链、独立评测或大学文件；仅按未核验的具体安全研究报告收录，REA未提及。未运行目标、测试漏洞或访问凭据。",
-    "sources":[{"label":"候选：GCSA Agent CyberGym成绩与SecVibe Code开发审计转述，2026-11-07 03:44:31北京时间","url":"https://x.com/i/status/2118791660146438330"}],
-    "snapshot_date":"2026-11-07", "metadata":["封存3赞、189浏览、0转发；91.3%与3.8亿用户为转述数字，未核实评测或用户统计。"],
+    "summary":"GCSA Agent的91.3% CyberGym Level1成绩仍是转述；后帖补充漏洞版触发、修复版不触发的成功定义，以及调查与交易回放背景，未取得评测提交或日志。",
+    "description":"2026年11月7日03:44:31（北京时间）的候选转述@GCSAHK的GCSA Agent在CyberGym Level1真实代码库达91.3%，用途是AI读代码、找隐患并写验证。没有提交、分母、模型、成本或运行报告，不能推广到任意逆向、零日或生产检出率。帖子另称MCP包被重新注册、联盟数十产品和3.8亿用户，但没有包名或样本；不说明当前密钥泄露，规模也不能验证Agent。同帖SecVibe Code作为独立工具另记，不认定相同模型或配置。\n\n14:18:06的本轮候选新增成功定义：验证程序须在漏洞版触发、修复版不能复现，才计成功。这是发帖者对官方口径的转述，不是取得评测脚本或独立重跑。其介绍GCSA的靶标搭建、动态验证与交易回放，用来减少安全团队解释证据、复现及交接成本；91.3%仍不是生产检出率。\n\n同帖举KuCoin邮件认证域与显示域分离、假安全中心远控样本及通报后配置整改，另举TranchePool同笔提款在跨日前回滚、跨日后成功，原因被报告为结算先重置已提金额再查额度。这里仅作为该工作流的调查背景：未读原报告，也未明确这些调查各由AI完成，不拆成AI独立成果或认定已核验漏洞。作者自己的手机桌面崩溃未具名目标，不合并成GCSA测试。\n\n未读短链、独立评测或大学文件；REA未提及，保留unverified。未运行目标、交易回放、漏洞或访问凭据。",
+    "sources":[{"label":"候选：GCSA Agent CyberGym成绩与SecVibe Code开发审计转述，2026-11-07 03:44:31北京时间","url":"https://x.com/i/status/2118791660146438330"},{"label":"新增转述：成功定义、调查交接与交易回放背景，2026-11-07 14:18:06北京时间","url":"https://x.com/i/status/2118951104280924200"}],
+    "snapshot_date":"2026-11-07", "metadata":["旧候选封存3赞、189浏览、0转发；91.3%与3.8亿用户为转述。","14:18候选封存2赞、974浏览、1转发；成功定义与调查细节未对照原评测或报告。"],
     "en":{
       "title":"GCSA Agent: a reported 91.3% CyberGym Level 1 security-research result",
-      "summary":"The candidate relays a 91.3% result for GCSA Agent on CyberGym Level 1 real-software codebases. Submission, samples, model and success definition are absent; this is not an independent general reversing or zero-day success rate.",
-      "description":"At 03:44:31 Beijing time on November 7, 2026, a Chinese candidate discusses AI reading code, finding flaws and writing verification programs, then relays a 91.3% result for @GCSAHK's GCSA Agent on CyberGym Level 1 real-software codebases. This is an evaluation claim for an identified AI security-research agent, not this collection's acceptance of decompilation or reconstruction.\n\nNo CyberGym submission, sample denominator, model, cost, success definition, vulnerability disclosure or execution report is supplied. Applicability to arbitrary reversing, zero-day discovery or production is not established. The post also mentions a re-registered MCP package, dozens of alliance products and 380 million users, without a package or sample: current key theft is not established, and user scale does not validate agent capability. SecVibe Code from the same post is retained separately as a distinct development tool; shared models or configurations are not inferred.\n\nThe short link, independent evaluation and university documents were not read. Kept as an unverified concrete security-research report, with REA unmentioned. No target or vulnerability was run or credentials accessed.",
-      "metadata":["Sealed snapshot: 3 likes, 189 views, 0 reposts. 91.3% and 380 million users are relayed figures, without checked evaluation or user statistics."],
-      "source_labels":["Candidate account of GCSA Agent's CyberGym result and SecVibe Code auditing, November 7, 2026 at 03:44:31 Beijing time"]
+      "summary":"GCSA Agent's 91.3% CyberGym Level 1 result remains secondary reporting. A later post adds a vulnerable-versus-fixed success definition and investigation/replay context, without an evaluation submission or logs.",
+      "description":"A candidate at 03:44:31 Beijing time on November 7, 2026 relays @GCSAHK's GCSA Agent achieving 91.3% on CyberGym Level 1 real codebases, using AI to read code, find flaws and write validation. Submission, denominator, model, cost and execution report are absent; the figure does not generalize to arbitrary reversing, zero-days or production detection. The post also mentions a re-registered MCP package, dozens of products and 380 million users without naming a package or sample. Current credential theft is not established and scale does not validate the agent. SecVibe Code is retained separately, without assuming a shared model or configuration.\n\nThe 14:18:06 candidate adds a success definition: validation must trigger on the vulnerable version and fail to reproduce on the fixed version. This is the poster's account of an official definition, not an obtained evaluation script or independent rerun. The post describes target-environment setup, dynamic validation and transaction replay to reduce the cost of explaining evidence, reproducing issues and handing work between security teams. The 91.3% still is not a production detection rate.\n\nExamples include separating authenticated and displayed email domains in a KuCoin investigation, tracing a fake security center's remote-control sample and reported configuration remediation after notification. A TranchePool example replays the same withdrawal failing before a day boundary and succeeding afterward, reportedly because settlement resets the withdrawn amount before checking the limit. These are investigation context only: original reports were not read and AI completion of each investigation is not explicit, so they are not independent AI achievements or verified vulnerabilities. The poster's own phone-launcher crash names no target and is not a GCSA test.\n\nShort links, independent evaluation and university documents were not read. REA is unmentioned and status remains unverified. No target, transaction replay or vulnerability was run or credentials accessed.",
+      "metadata":["Older sealed candidate: 3 likes, 189 views, 0 reposts. 91.3% and 380 million users are secondary claims.","14:18 sealed candidate: 2 likes, 974 views, 1 repost. Success definition and investigation details were not checked against original evaluation/reports."],
+      "source_labels":["Candidate account of GCSA Agent's CyberGym result and SecVibe Code auditing, November 7, 2026 at 03:44:31 Beijing time","New account: success definition, investigation handoff and transaction-replay context, November 7, 2026 at 14:18:06 Beijing time"]
     }
   },
   {
@@ -930,18 +1139,18 @@
   },
   {
     "id": "george-gorzhiyev-claude-engine-story-blocker",
-    "title": "游戏引擎重实现遇到剧情阻断：George Gorzhiyev称Claude正在修复",
+    "title": "Orcs & Elves重实现：George称Claude修好严重bug后已通关",
     "category": "games", "rea": "other-ai", "status": "in-progress",
-    "summary": "George Gorzhiyev报告自己的游戏引擎重实现出现阻断剧情的严重缺陷，Claude正在处理；未具名游戏、引擎、代码和修复结果。",
-    "description": "2026年11月6日14:21:18（北京时间），George Gorzhiyev（@ygorz01）回复@pashov，说在自己的game engine reimplementation里找到一个critical，导致剧情无法继续，Claude正在处理。这里的critical结合上下文只表示严重功能缺陷，不当作已发现可利用的安全漏洞。\n\n具体工作是重实现既有游戏引擎时修复剧情推进问题。作者明确归因Claude参与当前排障，但没有说明原始游戏／引擎名称、版本、逆向方法、是否从二进制恢复代码，或Claude是否参与此前全部重建。因此只保留这一未具名但目标具体的进行中工程报告，不猜成已有其他游戏案例，也不把剧情阻断写成已经修复。\n\n补取原帖确认署名和一张附图存在；图中内容未作技术核验。没有源码地址、复现存档、出错步骤、修改提交或修复后通关测试，无法判断缺陷根因与覆盖范围。REA未提及，本合集未运行引擎、游戏或Agent，未独立复现。",
-    "sources": [{"label": "George Gorzhiyev的引擎重实现剧情阻断与Claude修复中报告，2026-11-06 14:21:18北京时间", "url": "https://x.com/i/status/2118589522548232307"}],
-    "snapshot_date": "2026-11-06", "metadata": ["候选封存0赞、22浏览、0转发；critical不是已确认安全漏洞，未报告修复完成。"],
+    "summary": "George Gorzhiyev后帖具名Orcs & Elves，称以Claude修补一个严重bug后完成重实现通关；二代测试与增强仍待做，未公开源码或独立验收。",
+    "description": "2026年11月6日14:21:18（北京时间），George Gorzhiyev（@ygorz01）回复@pashov，说自己的game engine reimplementation有严重缺陷，阻断剧情，Claude正在处理。critical在此是功能缺陷，不是已确认可利用的安全漏洞；当时未具名游戏。\n\n11月7日12:38:48，同一作者明确说目标是John Carmack的Orcs & Elves，称除一个用Claude补好的随机严重bug外，已经能玩完自己的重实现。接下来要测试二代，再增强它们，工作名称为Ellon Speaks。补取确认同一账号与视频附件，因此在原有ID追加项目身份和通关自述，不另建重复案例。后帖没有明确说明该bug正是前帖剧情阻断的根因，不能将两者的技术因果当成已核对。\n\n具体用途是重建旧游戏并排障，使流程可玩到结尾。Claude参与修bug是作者明说，但原版平台／修订、恢复方法、是否从二进制恢复代码、此前全部重建的AI分工均未披露。没有源码、复现存档、修改提交、完整通关录像或二代测试结果，视频附件未观看验证。作者报告通关不等于本合集独立复现、全部功能匹配或二代完成。保留进行中，REA未提及；未运行引擎、游戏或Agent。",
+    "sources": [{"label": "George Gorzhiyev的引擎重实现剧情阻断与Claude修复中报告，2026-11-06 14:21:18北京时间", "url": "https://x.com/i/status/2118589522548232307"}, {"label": "同作者具名Orcs & Elves、Claude补bug与通关自述，2026-11-07 12:38:48北京时间", "url": "https://x.com/i/status/2118926116182462810"}],
+    "snapshot_date": "2026-11-07", "metadata": ["旧候选封存0赞、22浏览、0转发；当时仍在排障，critical不是安全漏洞。", "11月7日候选封存0赞、47浏览、0转发；通关与bug修复为作者报告，二代测试与增强尚待做。"],
     "en": {
-      "title": "Story progression blocked in an engine reimplementation: George Gorzhiyev says Claude is working on it",
-      "summary": "George Gorzhiyev reports a severe story-progression bug in a personal game-engine reimplementation, with Claude working on it. Game, engine, code and a successful fix are not identified.",
-      "description": "At 14:21:18 Beijing time on November 6, 2026, George Gorzhiyev (@ygorz01) replies to @pashov that a critical in a personal game engine reimplementation blocks story progression and Claude is working on it. In context, critical denotes a severe functional defect, not an established exploitable security vulnerability.\n\nThe concrete work is repairing story progression while reimplementing an existing game engine. Claude is explicitly credited with the current debugging, but the original game/engine name, revision, reverse-engineering method, binary-to-source recovery and Claude's role in all earlier reconstruction are unspecified. This remains an unnamed but concrete in-progress engineering report, not a guessed identity with another collected game, and the blocker is not described as fixed.\n\nOriginal-post retrieval confirms attribution and one image; its technical content was not verified. Source, a reproducing save, failing steps, a fix commit and post-fix playthrough tests are absent, leaving root cause and scope unknown. REA is not mentioned. No engine, game or agent was run and no independent reproduction was performed here.",
-      "metadata": ["Sealed candidate: 0 likes, 22 views, 0 reposts. Critical is not an established security vulnerability; no completed fix is reported."],
-      "source_labels": ["George Gorzhiyev's engine-reimplementation story blocker and ongoing Claude fix report, November 6, 2026 at 14:21:18 Beijing time"]
+      "title": "Orcs & Elves reimplementation: George reports finishing a playthrough after a Claude-assisted bug fix",
+      "summary": "George Gorzhiyev names Orcs & Elves and reports completing the reimplementation after patching a severe bug with Claude. Sequel testing and enhancements remain planned; no source or independent acceptance tests are supplied.",
+      "description": "At 14:21:18 Beijing time on November 6, 2026, George Gorzhiyev (@ygorz01) replies to @pashov that a severe defect in a game-engine reimplementation blocks story progression and Claude is working on it. Critical denotes a functional bug, not an established exploitable security vulnerability. The game was unnamed then.\n\nAt 12:38:48 on November 7, the same author identifies John Carmack's Orcs & Elves and says that, apart from one random severe bug patched with Claude, the reimplementation could be played through to completion. Testing the sequel and enhancing both are next, with working title Ellon Speaks. Retrieval confirms the same account and a video attachment, so identity and playthrough claims are added under the existing ID rather than a duplicate case. The later post does not explicitly establish that this bug caused the earlier story blocker; that technical causal connection remains unverified.\n\nThe concrete purpose is rebuilding and debugging an older game so it can be played to the end. Claude's bug-fixing role is explicit, but original platform/revision, recovery method, binary-to-source work and AI's role in all earlier reconstruction are undisclosed. Source, reproducing saves, fix commits, a full playthrough recording and sequel-test results are absent; the attached video was not viewed for validation. Author-reported completion is not independent reproduction, full feature parity or a completed sequel. Status remains in progress and REA is unmentioned. No engine, game or agent was run here.",
+      "metadata": ["Older sealed candidate: 0 likes, 22 views, 0 reposts. Debugging was ongoing then; critical is not a security vulnerability.", "November 7 sealed candidate: 0 likes, 47 views, 0 reposts. Playthrough and fix are author reports; sequel testing and enhancements remain planned."],
+      "source_labels": ["George Gorzhiyev's engine-reimplementation story blocker and ongoing Claude fix report, November 6, 2026 at 14:21:18 Beijing time", "The same author names Orcs & Elves and reports a Claude bug fix and completed playthrough, November 7, 2026 at 12:38:48 Beijing time"]
     }
   },
   {
@@ -1994,20 +2203,21 @@
     "id": "discord-rust-client-ai-reversing-mods-idea",
     "title": "Discord新客户端mod想法：社区预期用AI研究Rust版再做插件",
     "category": "apps", "rea": "other-ai", "status": "unverified",
-    "summary": "围绕Discord改用Rust的社区消息，两条评论预期AI能加快新客户端逆向并带来Rust mod；不是已发布插件或验证过的迁移工期。",
-    "description": "2026年11月5日07:15:01（北京时间），kingsoul（@voidheartly）回复说，考虑AI能力，新客户端发布后逆向应该不会耗时太久，随后mod也不会等很久。补取父串确认对象是Wumpus Central当日06:22:56关于Discord将应用改用Rust／GPUI的消息，以及其他人担心旧mod依赖Chromium注入会失效的讨论。该消息只是社区背景，未取得Discord官方声明，不把全面替换Electron／React Native、内存约290MB或此前2GB当作已核实事实。\n\n07:45:40的另一候选进一步提出，用AI协助Rust重写也意味着可以制作更好的Rust mod，并预期运行更快。具体方向是面对潜在客户端架构变化，利用AI辅助逆向恢复扩展能力，而非目前已经存在的插件实现；两位评论者不因此被写成同一开发团队。\n\n没有客户端版本、二进制、扩展接口、具体mod功能、仓库、实现计划或性能测试。不会等很久和更快都是预期，不能变成工时与基准；也没有证明AI分析已经开始或原有mod一定失效。保留具体目标的idea、unverified，未提REA，未运行Discord或注入客户端。",
+    "summary": "围绕Discord新客户端的社区消息，读者预期AI恢复mod能力；新增具体idea以Claude监听版本发布、反编译重映射、打补丁并跑测试，尚非已运行维护系统。",
+    "description": "2026年11月5日07:15:01（北京时间），kingsoul（@voidheartly）预期AI会加快Discord新客户端逆向，mod很快跟进。旧补查父串指向Wumpus Central当日06:22:56关于Rust／GPUI的社区消息，以及旧mod依赖Chromium注入可能失效的讨论。未取得官方声明，不把全面替换Electron／React Native、约290MB对此前2GB的内存说法当事实。07:45:40的另一评论预期更好、更快的Rust mod；两人不因同一目标成为开发团队。\n\n11月7日12:40:06的候选在回复中写出更具体的拟议Claude指令：监听Discord API的新版本发布，启动子Agent反编译二进制、重映射函数、修补mod，运行单元与集成测试，再推送修复。其用途是客户端更新后自动维护自己的mod，不只是首次重建。这里只记录idea，没有启动监听或Agent，也没有把引号中的命令当作实际发生。\n\n没有客户端修订、二进制、扩展接口、mod功能、仓库、已运行监听器或测试日志。旧帖的很快和更快不是工时或基准；新管线也未证明能可靠映射函数、自动通过测试或获授权分发。仍为unverified，未提REA，未运行Discord或注入客户端。",
     "sources": [
       {"label": "候选：kingsoul预期AI加快Discord新客户端逆向，2026-11-05 07:15:01", "url": "https://x.com/i/status/2118119859653619727"},
       {"label": "候选补证：Rust mod与性能预期，2026-11-05 07:45:40", "url": "https://x.com/i/status/2118127573117059226"},
-      {"label": "补充会话根：Wumpus Central的Rust／GPUI客户端消息，2026-11-05 06:22:56", "url": "https://x.com/i/status/2118106749446103371"}
+      {"label": "补充会话根：Wumpus Central的Rust／GPUI客户端消息，2026-11-05 06:22:56", "url": "https://x.com/i/status/2118106749446103371"},
+      {"label": "新增idea：Claude监听Discord版本并反编译、重映射与测试mod，2026-11-07 12:40:06北京时间", "url": "https://x.com/i/status/2118926444986540171"}
     ],
-    "snapshot_date": "2026-11-05", "metadata": ["两条候选封存依次1赞／99浏览／0转发、0赞／12浏览／0转发；未把父串传播量当作该idea热度。"],
+    "snapshot_date": "2026-11-07", "metadata": ["两条旧候选封存依次1赞／99浏览／0转发、0赞／12浏览／0转发；未把父串传播量当idea热度。", "11月7日候选封存2赞、61浏览、0转发；监听与测试管线是拟议指令，不是执行日志。"],
     "en": {
       "title": "A Discord-client mod idea: community expects AI-assisted reversing and Rust extensions",
-      "summary": "Two comments on a community report of a Rust Discord client expect AI to speed reversing and enable Rust mods. No released extension or measured migration effort is established.",
-      "description": "At 07:15:01 Beijing time on November 5, 2026, kingsoul (@voidheartly) predicts that AI will make reversing a new client relatively quick after release, so mods should follow soon. A supplementary parent-thread read identifies Wumpus Central's 06:22:56 report about Discord moving its apps to Rust/GPUI and concerns that existing mods relying on Chromium injection could stop working. This is community context, not an obtained official Discord statement; complete Electron/React Native replacement, roughly 290 MB of memory and a previous 2 GB baseline are not adopted as verified facts.\n\nA second candidate at 07:45:40 suggests AI-assisted Rust rewriting also presents an opportunity for better, faster Rust mods. The concrete direction is using AI-assisted reverse engineering to recover extension capabilities after a potential client-architecture change, not an existing plugin implementation. The two commenters are not assumed to form a development team.\n\nClient revision, binary, extension interface, specific mod functionality, repository, implementation plan and performance tests are absent. Soon and faster are expectations, not effort or benchmark results. AI analysis is not shown to have begun, nor is failure of existing mods established. Kept as an unverified idea for a specific target. REA is not mentioned; Discord was not run and no client injection was performed.",
-      "metadata": ["Sealed candidates, respectively: 1 like/99 views/0 reposts and 0 likes/12 views/0 reposts. Parent-thread engagement is not treated as engagement with this idea."],
-      "source_labels": ["Candidate: kingsoul expects AI to accelerate new Discord-client reversing, November 5, 2026 at 07:15:01", "Supporting candidate: Rust mods and expected performance, November 5, 2026 at 07:45:40", "Supplementary root: Wumpus Central's Rust/GPUI client report, November 5, 2026 at 06:22:56"]
+      "summary": "Readers expect AI to restore mods after a reported Discord-client change. A new idea has Claude watch releases, decompile/remap binaries, patch and test mods; no running maintenance system is established.",
+      "description": "At 07:15:01 Beijing time on November 5, 2026, kingsoul (@voidheartly) predicts AI will accelerate Discord-client reversing and mods will follow soon. Earlier parent-thread retrieval identifies Wumpus Central's 06:22:56 community report of Rust/GPUI and concerns about Chromium-injection mods failing. No official statement was obtained; complete Electron/React Native replacement and roughly 290 MB versus a previous 2 GB are not verified facts. A second 07:45:40 comment expects better, faster Rust mods. The commenters are not assumed to be a team.\n\nA candidate at 12:40:06 on November 7 quotes a more concrete proposed Claude instruction: listen to Discord's API for new releases, spawn subagents to decompile binaries, remap functions, patch mods, run unit/integration tests and push fixes. The purpose is maintaining personal mods after updates, beyond an initial rebuild. This records an idea, not an activated listener or agents, and quoted instructions are not execution evidence.\n\nClient revision, binary, extension interface, mod functionality, repository, running listener and test logs are absent. Soon and faster are not measured effort or benchmarks. The new pipeline does not establish reliable function mapping, automatic test success or authorized redistribution. Status remains unverified; REA is unmentioned. Discord was not run or injected here.",
+      "metadata": ["Older sealed candidates respectively: 1 like/99 views/0 reposts and 0 likes/12 views/0 reposts. Parent engagement is not engagement with this idea.", "November 7 sealed candidate: 2 likes, 61 views, 0 reposts. The listener/testing pipeline is a proposed instruction, not an execution log."],
+      "source_labels": ["Candidate: kingsoul expects AI to accelerate new Discord-client reversing, November 5, 2026 at 07:15:01", "Supporting candidate: Rust mods and expected performance, November 5, 2026 at 07:45:40", "Supplementary root: Wumpus Central's Rust/GPUI client report, November 5, 2026 at 06:22:56", "New idea: Claude monitors Discord releases and decompiles, remaps and tests mods, November 7, 2026 at 12:40:06 Beijing time"]
     }
   },
   {

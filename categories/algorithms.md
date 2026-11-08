@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [VulDec：反编译后查漏洞，转述结果显示泛化与功能正确性仍受限](../cases/vuldec-qwen-plbart-decompilation-vulnerability-study-report.md) — 吉川孝志转述Qwen2.5-Coder加PLBART的VulDec研究：跨项目漏洞precision14%、recall28%；HumanEval全测通过34.34%，低于一个Ghidra+LLM基线，不是可自主分诊的证明。 **[其他 AI 逆向 · 分析测试]**
+- [VIP看台舞蹈视频：Leaf用Gemini反推动作，承认导演与运镜规则不足](../cases/leaf-ayi-vip-stand-dance-gemini-prompt-reconstruction.md) — Leaf称以Gemini4／Antigravity研究AYi视频，给出30秒六段动作与115BPM规格；自评不如后来公开的原提示词，未做客观成片对照。 **[其他 AI 逆向 · 分析测试]**
+- [RSA1024研究转述：人类监督AI寻找旧密码体系弱点](../cases/deepmind-rsa1024-ai-weaknesses-secondary-report.md) — 候选称DeepMind人类监督AI数周研究RSA1024，理论签名伪造快1600倍、批量密钥平均成本低30倍；未取得原论文、前提或验证，不能推成现代加密已破或普遍安全保证。 **[其他 AI 逆向 · 待验证]**
 - [400多个跟单系统：用户称Claude在其睡眠期间反推交易策略](../cases/yetanother2024-claude-copy-trading-strategy-audit.md) — @yetanother2024称Claude分析400多个跟单系统并否定其策略；没有平台可确认名称、输入、分析报告或收益检验，不能据此认定诈骗。 **[其他 AI 逆向 · 待验证]**
 - [Qwen3.8-27B-QSA：转述ryu15反推稀疏注意力以改善长上下文推理](../cases/ryu15-qwen-qsa-sparse-attention-reconstruction-report.md) — FHILY称ryu15重建QSA思路、适配Qwen3.8-27B，在双V100上报告128K预填1598到3114 tokens/s；模型、实现、评测与AI辅助角色未核对。 **[未确认使用 REA · 待验证]**
 - [XRef：从status字段追到候选写入函数，而不是看名字猜作者](../cases/alex09x-xref-serialized-status-writer-walkthrough.md) — Alexander Panasenko用XRef说明序列化键、字段偏移、writer候选与指令证据的调查路线；公开Rust工具提供JSON/MCP，排名仍是启发式，本合集未执行。 **[其他 AI 逆向 · 相关项目]**

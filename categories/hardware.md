@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [teej的Kindle提速：Ozark转贴Grok对Cursor／Zig重写的解释](../cases/teej-kindle-zig-cursor-grok-secondary-report.md) — Ozark转贴Grok称teej用Cursor与Zig重写Kindle界面并优化刷新；父帖只确认作者发了演示，未独立确认AI归因、固件范围或速度。 **[其他 AI 逆向 · 待验证]**
+- [Tegra X1与Apple固件：Kayden问Claude能否把移植扩展到其他设备](../cases/kayden-tegra-x1-claude-apple-firmware-port-question.md) — 读者看到bruno的Tegra X1原生Metal驱动进展，询问是否有MacBook架构关联、能否让Claude移植Apple固件；只是具体设备背景下的疑问，非AI驱动实现。 **[其他 AI 逆向 · 待验证]**
 - [蓝光扫描到参数模型：MattyK166转述AI辅助3D打印重建流程](../cases/mattyk166-blue-light-scan-ai-parametric-model-report.md) — MattyK166称见到消费进阶级蓝光激光扫描先生成网格、AI再建参数模型供3D打印；物体、软件、尺寸精度与输出未披露。 **[其他 AI 逆向 · 待验证]**
 - [Tesla车辆研究idea：读者建议REA配OBD-II转USB适配器](../cases/rizzler-tesla-rea-obd-usb-research-idea.md) — _Rizzler建议向Tesla接入REA和OBD-II/USB适配器以研究系统并尝试越狱；只是设备方向的想法，没有车型、协议、可达性或成功记录。 **[REA · 待验证]**
 - [Fujifilm X-T5：Pat Simmons用Claude Code拍照、研究RAW重渲染并尝试固件](../cases/pat-simmons-fuji-xt5-claude-raw-firmware-attempt.md) — Pat Simmons的视频章节列出X-T5连接、Portra 800配方、不用X RAW Studio重渲染RAW，以及固件受阻后转Mac做光晕；未观看视频或核验协议。 **[其他 AI 逆向 · 进行中]**
@@ -9,7 +11,7 @@
 - [十年蓝牙耳机：Insomnia称Claude检查协议并改codec与EQ](../cases/claude-2016-bluetooth-headphone-codec-eq-report.md) — Insomnia自述Claude检查2016年廉价耳机的配置与通信，写脚本改codec、权限和EQ，称通话改善、续航1小时到近3小时；未公开型号或测量。 **[其他 AI 逆向 · 待验证]**
 - [M-vave FM1：读者建议与Claude把定制固件做成groovebox](../cases/m-vave-fm1-claude-groovebox-firmware-idea.md) — @HamasCOO点名M-vave FM1，建议Claude辅助定制固件改成groovebox；是具体设备改造idea，未给实际移植或逆向记录。 **[其他 AI 逆向 · 待验证]**
 - [ryumi的家庭路由器只读审计提示：把检查与修复分开](../cases/claude-home-router-readonly-audit-prompt.md) — ryumi发布Claude路由器检查提示词，要求核对固件、管理面暴露、登录与路由器自身连接；父帖的凭据填充与刷固件故事未附原始记录。 **[其他 AI 逆向 · 待验证]**
-- [ESP32插入iPhone：Vaibhav转述Henry Yuan的MCP硬件控制器](../cases/henry-yuan-esp32-iphone-mcp-deepseek-report.md) — 转述Henry Yuan以ESP32与固件让Claude Code经MCP操作iPhone，新版接入DeepSeek Harness；没有原项目与屏幕读取机制，不能当iOS漏洞或免硬件方案。 **[其他 AI 逆向 · 待验证]**
+- [ESP32插入iPhone：Vaibhav转述Henry Yuan的MCP硬件控制器](../cases/henry-yuan-esp32-iphone-mcp-deepseek-report.md) — Henry Yuan的ESP32手机控制器转述新增ESP32-S3／PSRAM、AssistiveTouch与固件0.2.2的安装边界；仍未取得原项目或读屏机制，非iOS漏洞或免硬件方案。 **[其他 AI 逆向 · 待验证]**
 - [嵌入式固件研究：Arda报告Sol medium过早完成，改用xhigh](../cases/arda-sol-embedded-firmware-reasoning-effort-report.md) — Arda在未具名嵌入式固件逆向中用gpt-6.1-sol xhigh，称medium易提前宣告完成、绕开目标；属于工作流观察，没有定量模型比较。 **[其他 AI 逆向 · 进行中]**
 - [Famicom卡带时序：Kenta IDA让Claude研究QSPI随机读取是否来得及](../cases/ciniml-claude-famicom-qspi-memory-timing-study.md) — Kenta IDA借Claude调查红白机内存访问时序，担心QSPI命令、地址、dummy周期使随机读取错过卡带响应；尚无延迟预算或实机验证。 **[其他 AI 逆向 · 进行中]**
 - [Uniden扫描接收机：读者建议闭源固件研究后问Claude能否改写](../cases/uniden-scanner-claude-custom-firmware-reader-idea.md) — Crypiehef回应USDS100／UBCD4365T可否运行自定义算法，建议研究闭源固件、再问Claude写定制固件；没有提取、移植或解密实测。 **[其他 AI 逆向 · 待验证]**
