@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [SimCity研究进行中：David Lietjauw称还让Claude玩了游戏](../cases/davidfromkansas-simcity-claude-play-reversing.md) — 作者称正在逆向SimCity，并让Claude玩游戏；版本、研究方法与重建成果未披露，不等于完成移植。 **[其他 AI 逆向 · 进行中]**
+- [Titanfall 2 VR：Thrill报告在Arch Linux与无线Valve头显上游玩](../cases/thrill-titanfall2-vr-ai-reversing-linux-report.md) — 使用者将Titanfall 2的VR mod归因AI辅助逆向，并描述Arch Linux主机与无线头显体验；没有开发日志或兼容性测试。 **[其他 AI 逆向 · 待验证]**
+- [MSFS2020飞机插件修bug：Spectro称改用Codex处理逆向工作](../cases/spectro-msfs2020-codex-airplane-addon-bugfix.md) — Spectro称Claude拒绝后，用Codex研究并修复自己拥有的MSFS2020飞机附加组件；没有插件名、补丁或修复结果。 **[其他 AI 逆向 · 进行中]**
+- [Soviet Republic机制mod：smali作者称GPT研究构建、内存与C++／ASM](../cases/smali-soviet-republic-gpt-cpp-asm-mods.md) — 作者称GPT承担大部分逆向、代码与日志分析，人类监督协助；目标是新增机制和移除限制，不只是建筑素材。90%与额度消耗均未核验。 **[其他 AI 逆向 · 进行中]**
+- [Diablo IV离线玩法愿望：因服务器体验不佳而提出AI／REA研究](../cases/diablo4-ai-rea-offline-access-idea.md) — 读者期待有人用AI与REA让Diablo IV离线可玩；是具体游戏保存／可用性idea，没有实现或协议研究。 **[REA · 待验证]**
 - [OpenVersus争议：FGCALERT转述Claude反编译与未署名复制功能的指控](../cases/openversus-claude-decompilation-attribution-allegation.md) — 转述指控OVS用Claude分析MVSI、Beta+和FDAVersus构建并复制功能；未核验原始证据、代码对比或项目方回应。 **[其他 AI 逆向 · 待验证]**
 - [硬盘损坏后重建自发游戏：Aditya称逆向找回2020年项目](../cases/aditya-2020-game-corrupt-hdd-ai-recovery.md) — 作者说2020年发布的自有游戏源码因HDD损坏丢失，已逆向并正重建待重发；没有游戏名、工具或发布验证。 **[其他 AI 逆向 · 进行中]**
 - [Age of Empires II HD进浏览器：shellbear称Claude／REA重建，联机仍是期待](../cases/shellbear-aoe2hd-claude-rea-browser-rebuild.md) — 作者称AoE2 HD已在浏览器跑起来、由Claude与REA完整反编译；视频附件不证明覆盖率，浏览器多人模式尚未报告实现。 **[REA · 进行中]**

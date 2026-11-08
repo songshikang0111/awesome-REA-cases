@@ -1,7 +1,7 @@
 # REA-VIDEO: shot-by-shot production research, user feedback and competitor-comparison limits
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-07
+Record date: 2026-11-08
 Stage: Related project
 
 A November 3, 2026 roundup at 09:19 Beijing time introduces REA-VIDEO breaking down visuals, styled text, editing and sound to recover visible production structure, not decompile software. A 20:32:06 account cites a product-swapped TikTok's eight shots batched into three generations; filmed camera positions, framing, motion, twelve lighting setups and grading; a 70-second promo at 83% code suitable for Remotion; and SRT/ASS, BPM and effect timing. None is footage analyzed here.
@@ -24,6 +24,9 @@ This collection checked text, older pinned documentation and licensing only, wit
 
 A new comparison post at 17:25:17 Beijing time on November 7 positions REA-VIDEO as production-method analysis: shot origins, camera motion, inferred prompts, subtitles, sound, editing and a keyframe-based plan. It contrasts HyperFrames' claimed editable projects and frame-by-frame comparison, calling reverse-any-video Pro-only at $25 per month. The projects remain separate records. This post supplies no new input/output pair, test or official plan information. Free/open-source code does not make agents, vision or separately connected generators free, nor establish recovery of original prompts from footage.
 
+At 05:33:26 Beijing time on November 8, 2026, 바스 (@flowoodzx) reports trying REA-VIDEO on three personal clips: Grok generation, Three.js 3D and web recording. They say all three visual origins were identified within seven seconds without an AI key, but Grok-generated background music was labeled library music. Retrieval confirms attribution, wording and a video attachment, not a viewing of it or the three original inputs, HTML reports, commands, revision or hardware. Three reported examples are not overall detector accuracy. The seven-second scope is unclear between individual clips and the batch. No AI key describes this user's route, not universally free agents/vision services. The concrete error makes this a useful addition; visual and musical origins must be evaluated separately. It is still not a test performed by this collection.
+
+November 8 at 05:33:26 sealed candidate: 0 likes, 20 views, 0 reposts. Three clips and seven seconds are user-reported; the music misclassification is retained.
 November 7 at 17:25 sealed candidate: 3 likes, 262 views, 0 reposts. A use-case comparison, not a new test; the paid plan was not checked against official information.
 Earlier whole-roundup snapshot: 2 likes, 257 views, 0 reposts. Later November 3 post: 29 likes, 1,356 views, 6 reposts. Tests and licensing were unchecked then; earlier review confirmed license text without rerunning tests.
 November 4 candidate: 0 likes, 11 views, 0 reposts. The poster explicitly has not tested it; older snapshots are retained.
@@ -48,5 +51,6 @@ November 7 at 10:12:50: James Russo candidate, 6 likes, 390 views, 0 reposts. At
 - [James Russo's blanket superiority claim and its limits, November 7, 2026 at 10:12:50 Beijing time](https://x.com/i/status/2118889384162525495)
 - [AI少年的 personal usage account and production-work division, November 7, 2026 at 11:08:35 Beijing time](https://x.com/i/status/2118903412687581194)
 - [Retelling comparing REA-VIDEO/HyperFrames uses and pricing, November 7, 2026 at 17:25:17 Beijing time](https://x.com/i/status/2118998213474529750)
+- [바스 reports three-video testing and a Grok background-music error, November 8, 2026 at 05:33:26 Beijing time](https://x.com/i/status/2119181456685793578)
 
 [中文](../rea-video-shot-breakdown-rebuild-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [自建Foundry替代：员工称AI帮助拼接开源数据平台](../cases/fused-stardust-foundry-open-source-ai-rebuild.md) — The Mad Y0da称所在公司取消Palantir合同后，自建数据连接、管线、ontology与Workshop式界面；未披露代码、组件或迁移验证。 **[其他 AI 逆向 · 待验证]**
+- [Yapfast：Hemish称Rust版Discord替代客户端已有通话](../cases/yapfast-rust-discord-ai-reversing-report.md) — Hemish在AI与mod讨论中以Yapfast为例称已逆向Rust客户端且能打电话；没有说明AI具体研究步骤或提供通话验证。 **[其他 AI 逆向 · 待验证]**
+- [旧副项目源码丢失：Erik Fiala称REA恢复约70%逻辑](../cases/erik-fiala-rea-lost-source-side-project-recovery.md) — 作者称把丢源码的旧side project交给REA，从行为恢复约70%逻辑；没有程序名、代码、计量定义或回归测试。 **[REA · 待验证]**
 - [创作者流媒体站：Packing Protons称AI设计并接入REA／Ghidra需求研究](../cases/packing-protons-rea-ghidra-creator-streaming-service.md) — 作者报告流媒体站已上线、建议可快速修改，并称支持REA／Ghidra功能需求；没有给具体被研究软件或实现日志。 **[REA · 进行中]**
 - [Murmur：Adam Harari称逆向做自用语音输入，使用Claude API](../cases/adam-harari-murmur-voice-typing-rebuild.md) — 作者在Wispr Flow／Rhino讨论中称做了Murmur，免费使用但Claude API有少量费用；目标产品与重建方法不明，不能称完全离线。 **[其他 AI 逆向 · 待验证]**
 - [数控车削仿真：Asher建议REA研究后开发AI操作接口](../cases/asher-cnc-simulation-rea-ai-control-interface-idea.md) — 面对computer-use四小时仍未完成的仿真任务，读者建议先逆向再做操作接口；未提供软件名、接口或实现。 **[REA · 待验证]**
@@ -131,7 +134,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo/rea-video输出逐镜证据与制作计划，亲试反馈仍无原片或HTML；新帖比较与HyperFrames的用途和付费边界，不当新实测，切点、SSIM与来源判定仍分开。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO输出逐镜制作证据与计划；바스新增三片测试自述，称7秒内识别画面来源但误判Grok音乐，仍无可重放样本，不当总体准确率。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -602,7 +605,7 @@
 - [Notion：追清复制文字和图片的内部链路](../cases/notion-clipboard.md) — 追踪桌面客户端复制文字和图片的实现路径。 **[REA]**
 - [Flutter App：从安装包识别运行时和编译结构](../cases/flutter-aot.md) — 识别 Flutter APK 的运行时、构建与 AOT 结构。 **[REA]**
 - [网站重建订单：作者自述的交付报告](../cases/website-rebuild-report.md) — 作者称以 REA 辅助网站重建，缺少具体项目与验证。 **[REA · 待验证]**
-- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](../cases/tradingview-workflow.md) — FideEtFortitudine新增Codex／REA约8小时研究TradingView的自述，无功能范围或验证；既有重建流程与下载风险经历分别保留，不证明付费指标恢复或特定项目恶意。 **[REA · 待验证]**
+- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](../cases/tradingview-workflow.md) — 新增REA／Opus把TradingView图表与Bloomberg命令、提醒和布局拼成单一终端的指南；免费行情与年省32400美元未核验，既有风险经历独立保留。 **[REA · 待验证]**
 - [WHOOP：分析健康追踪设备的 Android App](../cases/whoop-apk.md) — APK 分析线索新增 Zhoop / NOOP 替代客户端的二手报告，尚未独立验证。 **[未确认使用 REA · 待验证]**
 - [ArtCraft：不要把从零开发写成逆向 Adobe](../cases/artcraft-boundary.md) — ArtCraft是从零重建的早期创作与Office风格套件；新增Filmcraft像Premiere的用户体验说法，不证明已完整逆向或等价。 **[其他 AI 逆向 · 相关项目]**
 - [Obsidian：真实桌面包的大规模分析测试](../cases/obsidian-asar.md) — 用户确认原 ASAR 包可完成分析，但没有具体功能重建。 **[REA · 分析测试]**
@@ -662,7 +665,7 @@
 - [GTM 工具：用 REA 构建线索与邮件营销工作流](../cases/rea-gtm-tool.md) — 作者称用 REA 构建获客工具，涵盖线索管理与邮件活动；未提供实现或测试细节。 **[REA · 待验证]**
 - [茶叶出海网站：REA 辅助的本地重建报告](../cases/tea-site-rea-rebuild-report.md) — 作者称用 Codex + REA 逆向参考网站，并在约 40 分钟内本地部署重建版。 **[REA · 待验证]**
 - [iTerm：借助 REA 规格实现阿拉伯语文本绘制](../cases/arabic-terminal-rendering.md) — 作者自述用 REA 分析 iTerm，再按规格制作并在设备上测试阿拉伯语绘制支持；实现与测试尚无独立核验。 **[REA · 待验证]**
-- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](../cases/bloomberg-style-research-terminal.md) — REA／Claude终端目标新增Day Trader Skill组合提案，列11技能与10000路径模拟；与旧Kronos／TradingAgents方案分开归因，仍无终端实现或实测收益。 **[REA · 待验证]**
+- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](../cases/bloomberg-style-research-terminal.md) — 新增REA／Opus把Bloomberg命令与TradingView图表、提醒及布局合成终端的指南；不等于专有数据或完整服务，年省32400美元与免费运行仍未核验。 **[REA · 待验证]**
 - [闭源 Coding Agent：逆向多模型协同逻辑并制作 pi 插件](../cases/closed-agent-pi-plugin.md) — 作者自述用 REA 研究闭源 Coding Agent 的多模型协同逻辑，并据此开发 pi 插件；目标与实现尚未公开核验。 **[REA · 待验证]**
 - [ChatGPT App：用 REA 分析并为聊天窗口添加渐变背景](../cases/chatgpt-app-gradient-background.md) — 作者称用 ChatGPT 与 REA 分析 Electron 应用，并为右侧聊天窗口注入渐变背景。 **[REA · 待验证]**
 - [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](../cases/ledger-reborn-accounting-app.md) — 第三方报告称REA／Ghidra研究QuickBooks后制作Python／SQLite记账应用；11月1日新增Mac2024版、逐账户到分对照三张报表的说法，仍无独立审计。 **[REA · 相关项目]**

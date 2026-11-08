@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [把房间改成游戏世界：Opus扫描布局、换主题与放NPC的未核验提案](../cases/opus-room-witcher-minecraft-cyberpunk-spatial-idea.md) — 帖子声称用Claude Opus 5.5研究房间布局，再切换Witcher 3、Minecraft与Cyberpunk主题；没有空间设备、代码或结果证据。 **[其他 AI 逆向 · 待验证]**
+- [照片到磨豆机爆炸视图：AI Workflow Lab的Claude／Blender结构重建](../cases/aiworkflowx-claude-photo-grinder-blender-exploded-view.md) — 作者把实物照片转成部件尺寸规格，再由Claude脚本建模、拆解动画与剪辑；11件磨豆机是解释用简化模型，不是制造级复刻。 **[其他 AI 逆向 · 待验证]**
+- [LDraw Mecha：从乐高零件文本推机构，再映射到Blender动画](../cases/ldraw-mecha-semantic-parts-blender-motion.md) — anteloc让Agent读取带注释LDraw零件结构，推子模块与运动，再以同名glTF节点生成Blender rig；公开v0.5.0文档明确运动检查不证明物理可行。 **[其他 AI 逆向 · 相关项目]**
 - [1997年亚马逊股东信：Mr. Systems称提炼七条Claude四阶段策略提示](../cases/mr-systems-bezos-1997-letter-claude-strategy-prompts.md) — 以公开股东信为参考，把管理思路转写成七条Claude提示；没有完整提示或效果对照，不是软件反编译。 **[其他 AI 逆向 · 待验证]**
 - [自己90天X数据：用Grok与Claude反推有效钩子，再换题对照的idea](../cases/grok-claude-own-x-winners-hook-reconstruction-idea.md) — 建议按每曝光点赞率找前10%帖子，提炼钩子、长度与时机，换新话题发两周再比较；没有报告实际增长。 **[其他 AI 逆向 · 待验证]**
 - [blender-skills的Image Match：从图像推相机与几何，再截图校准](../cases/blender-skills-image-match-camera-geometry-agent-workflow.md) — LiLens介绍94技能套件中的参考图重建：Agent经Blender MCP建模、推透视并比图；数量、MIT与自动化能力未做源码或实跑核验。 **[其他 AI 逆向 · 相关项目]**

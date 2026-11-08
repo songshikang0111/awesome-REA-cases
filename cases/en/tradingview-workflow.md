@@ -1,7 +1,7 @@
 # TradingView: evidence limits of reconstruction workflows and free-Premium download warnings
 
 Category: Applications and clients · REA
-Record date: 2026-11-06
+Record date: 2026-11-08
 Stage: Needs verification
 
 TradingView is a financial-charting platform. RohOnChain's widely circulated post describes a reconstruction workflow using REA. The available material does not establish successful access to or recovery of paid indicators, nor provide sufficient completed results, so it is included as a feature-reconstruction report needing verification. A separate post in the October 15, 16:00–20:00 window claims a personal quantitative terminal was rebuilt. It specifically describes observing symbol, timeframe, indicator, drawing and layout changes through the public interface, then using Opus 5.5 to write specifications and rebuild candlesticks, RSI, MACD, Bollinger Bands, watchlists and a backtesting engine accounting for fees, slippage and drawdown. These are more concrete targets and author claims of success, not replayable test evidence. The candidate supplies no code or comparison results. A list of standard technical indicators does not prove recovery of paid indicators, and profit guarantees are not accepted.
@@ -14,9 +14,12 @@ That adds a first-person risk experience, not malware attribution or a successfu
 
 At 14:15:24 Beijing time on November 6, 2026, FideEtFortitudine (@FideFortitudine) replies to a charting-platform discussion, claiming to have completely reverse-engineered TradingView in about eight hours using Codex and REA. Retrieval confirms first-person attribution and the tools, not source, analyzed revision, specific recovered features, screenshot comparisons or test logs. Completely and eight hours are author claims, not measured full-platform coverage or auditable effort. They particularly do not establish recovery of backend services, live-data authorization or paid indicators. This is appended as another author's report on the same target, not identified with the earlier rebuilds or unknown installer; status remains unverified. This collection read public text only, built no client, ran no installation command, accessed no Keychain or credentials and publishes no unknown installer entry point.
 
+At 04:45:58 Beijing time on November 8, 2026, a new candidate claims to have combined TradingView charting and Bloomberg commands with REA and Opus 5.5 in a personal terminal. It lists candlesticks, timeframes, drawings, indicators, alerts and GP/FA/WEI/TOP/<GO>, proposes free public feeds, Telegram alerts and saved layouts, and suggests testing NVDA US Equity GP <GO>. The writer claims $32,400 annual savings and zero monthly cost but supplies no repository, invoice, data authorization, latency notes or comparison output; a closing request for a repo link is not existing code. Automatically finding data in the guide is not verified feed coverage. Proprietary Bloomberg data, paid TradingView functionality and complete services are not established. This post supports both existing targets without identifying an earlier author's implementation. No terminal was run here.
+
 November 2 candidate snapshots: second post, 0 likes/10 views; closing post, 0 likes/3 views; both 0 reposts. Half a day is the author's recovery report.
 Network activity does not prove password theft or exfiltration. The unidentified package cannot be linked to earlier projects or labeled confirmed malware.
 November 6 sealed candidate: 0 likes, 17 views, 0 reposts. About eight hours and completely reverse-engineered are author wording, without feature coverage or replayable validation.
+November 8, 04:45:58 combined guide: 20 likes, 645 views, 1 repost. $32,400 savings lack invoices; free feeds do not establish authorized coverage.
 
 ## Sources
 
@@ -27,5 +30,6 @@ November 6 sealed candidate: 0 likes, 17 views, 0 reposts. About eight hours and
 - [Supplementary same-author thread: AI finds network activity, not established credential theft, November 2, 2026](https://x.com/i/status/2117097961356402819)
 - [Same-thread closing candidate: AI-assisted recovery still took half a day, November 2, 2026](https://x.com/i/status/2117097968985931893)
 - [FideEtFortitudine's report of about eight hours with Codex/REA, November 6, 2026 at 14:15:24 Beijing time](https://x.com/i/status/2118588039224246402)
+- [Unverified TradingView/Bloomberg combined-terminal guide, November 8, 2026 at 04:45:58 Beijing time](https://x.com/i/status/2119169510221533489)
 
 [中文](../tradingview-workflow.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

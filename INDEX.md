@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1885 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1897 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（378）
-- [硬件与设备互通](categories/hardware.md)（507）
-- [应用与客户端](categories/apps.md)（778）
-- [算法与功能重建](categories/algorithms.md)（222）
+- [游戏与游戏保存](categories/games.md)（383）
+- [硬件与设备互通](categories/hardware.md)（508）
+- [应用与客户端](categories/apps.md)（781）
+- [算法与功能重建](categories/algorithms.md)（225）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,11 @@
 
 ### 游戏与游戏保存
 
+- [SimCity研究进行中：David Lietjauw称还让Claude玩了游戏](cases/davidfromkansas-simcity-claude-play-reversing.md) — 作者称正在逆向SimCity，并让Claude玩游戏；版本、研究方法与重建成果未披露，不等于完成移植。 **[其他 AI 逆向 · 进行中]**
+- [Titanfall 2 VR：Thrill报告在Arch Linux与无线Valve头显上游玩](cases/thrill-titanfall2-vr-ai-reversing-linux-report.md) — 使用者将Titanfall 2的VR mod归因AI辅助逆向，并描述Arch Linux主机与无线头显体验；没有开发日志或兼容性测试。 **[其他 AI 逆向 · 待验证]**
+- [MSFS2020飞机插件修bug：Spectro称改用Codex处理逆向工作](cases/spectro-msfs2020-codex-airplane-addon-bugfix.md) — Spectro称Claude拒绝后，用Codex研究并修复自己拥有的MSFS2020飞机附加组件；没有插件名、补丁或修复结果。 **[其他 AI 逆向 · 进行中]**
+- [Soviet Republic机制mod：smali作者称GPT研究构建、内存与C++／ASM](cases/smali-soviet-republic-gpt-cpp-asm-mods.md) — 作者称GPT承担大部分逆向、代码与日志分析，人类监督协助；目标是新增机制和移除限制，不只是建筑素材。90%与额度消耗均未核验。 **[其他 AI 逆向 · 进行中]**
+- [Diablo IV离线玩法愿望：因服务器体验不佳而提出AI／REA研究](cases/diablo4-ai-rea-offline-access-idea.md) — 读者期待有人用AI与REA让Diablo IV离线可玩；是具体游戏保存／可用性idea，没有实现或协议研究。 **[REA · 待验证]**
 - [OpenVersus争议：FGCALERT转述Claude反编译与未署名复制功能的指控](cases/openversus-claude-decompilation-attribution-allegation.md) — 转述指控OVS用Claude分析MVSI、Beta+和FDAVersus构建并复制功能；未核验原始证据、代码对比或项目方回应。 **[其他 AI 逆向 · 待验证]**
 - [硬盘损坏后重建自发游戏：Aditya称逆向找回2020年项目](cases/aditya-2020-game-corrupt-hdd-ai-recovery.md) — 作者说2020年发布的自有游戏源码因HDD损坏丢失，已逆向并正重建待重发；没有游戏名、工具或发布验证。 **[其他 AI 逆向 · 进行中]**
 - [Age of Empires II HD进浏览器：shellbear称Claude／REA重建，联机仍是期待](cases/shellbear-aoe2hd-claude-rea-browser-rebuild.md) — 作者称AoE2 HD已在浏览器跑起来、由Claude与REA完整反编译；视频附件不证明覆盖率，浏览器多人模式尚未报告实现。 **[REA · 进行中]**
@@ -407,6 +412,7 @@
 
 ### 硬件与设备互通
 
+- [零跑轻量车控App想法：a bei报告AI因云服务逆向而拒绝](cases/abei-leapmotor-native-car-control-ai-refusal.md) — a bei受极氪原生车控App启发想做零跑版本，但AI拒绝云服务逆向；仅有需求与受阻经历，没有车控实现。 **[其他 AI 逆向 · 待验证]**
 - [Educator 64 KERNAL：Scientific Brad称REA识别8KB ROM并重组哈希一致](cases/scientificbrad-educator64-kernal-rea-rom-reassembly.md) — 作者报告REA／Ghidra识别901246-01 ROM，反汇编后重组SHA256一致，并做PowerShell内运行的原生概念版；不是完整机器兼容性证明。 **[REA · 分析测试]**
 - [Marshall Stanmore II维修：Javier问Claude后仍无法提取固件](cases/javier-marshall-stanmore2-claude-firmware-extraction-attempt.md) — 坏音箱的固件读取受阻；Claude关于锁芯片、访问会擦除的答复未做硬件验证，不等于已确认无法修复。 **[其他 AI 逆向 · 进行中]**
 - [键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁](cases/mantikafasi-claude-keyboard-firmware-live-music-display.md) — 作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。 **[其他 AI 逆向 · 进行中]**
@@ -917,6 +923,9 @@
 
 ### 应用与客户端
 
+- [自建Foundry替代：员工称AI帮助拼接开源数据平台](cases/fused-stardust-foundry-open-source-ai-rebuild.md) — The Mad Y0da称所在公司取消Palantir合同后，自建数据连接、管线、ontology与Workshop式界面；未披露代码、组件或迁移验证。 **[其他 AI 逆向 · 待验证]**
+- [Yapfast：Hemish称Rust版Discord替代客户端已有通话](cases/yapfast-rust-discord-ai-reversing-report.md) — Hemish在AI与mod讨论中以Yapfast为例称已逆向Rust客户端且能打电话；没有说明AI具体研究步骤或提供通话验证。 **[其他 AI 逆向 · 待验证]**
+- [旧副项目源码丢失：Erik Fiala称REA恢复约70%逻辑](cases/erik-fiala-rea-lost-source-side-project-recovery.md) — 作者称把丢源码的旧side project交给REA，从行为恢复约70%逻辑；没有程序名、代码、计量定义或回归测试。 **[REA · 待验证]**
 - [创作者流媒体站：Packing Protons称AI设计并接入REA／Ghidra需求研究](cases/packing-protons-rea-ghidra-creator-streaming-service.md) — 作者报告流媒体站已上线、建议可快速修改，并称支持REA／Ghidra功能需求；没有给具体被研究软件或实现日志。 **[REA · 进行中]**
 - [Murmur：Adam Harari称逆向做自用语音输入，使用Claude API](cases/adam-harari-murmur-voice-typing-rebuild.md) — 作者在Wispr Flow／Rhino讨论中称做了Murmur，免费使用但Claude API有少量费用；目标产品与重建方法不明，不能称完全离线。 **[其他 AI 逆向 · 待验证]**
 - [数控车削仿真：Asher建议REA研究后开发AI操作接口](cases/asher-cnc-simulation-rea-ai-control-interface-idea.md) — 面对computer-use四小时仍未完成的仿真任务，读者建议先逆向再做操作接口；未提供软件名、接口或实现。 **[REA · 待验证]**
@@ -1046,7 +1055,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo/rea-video输出逐镜证据与制作计划，亲试反馈仍无原片或HTML；新帖比较与HyperFrames的用途和付费边界，不当新实测，切点、SSIM与来源判定仍分开。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO输出逐镜制作证据与计划；바스新增三片测试自述，称7秒内识别画面来源但误判Grok音乐，仍无可重放样本，不当总体准确率。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -1517,7 +1526,7 @@
 - [Notion：追清复制文字和图片的内部链路](cases/notion-clipboard.md) — 追踪桌面客户端复制文字和图片的实现路径。 **[REA]**
 - [Flutter App：从安装包识别运行时和编译结构](cases/flutter-aot.md) — 识别 Flutter APK 的运行时、构建与 AOT 结构。 **[REA]**
 - [网站重建订单：作者自述的交付报告](cases/website-rebuild-report.md) — 作者称以 REA 辅助网站重建，缺少具体项目与验证。 **[REA · 待验证]**
-- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](cases/tradingview-workflow.md) — FideEtFortitudine新增Codex／REA约8小时研究TradingView的自述，无功能范围或验证；既有重建流程与下载风险经历分别保留，不证明付费指标恢复或特定项目恶意。 **[REA · 待验证]**
+- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](cases/tradingview-workflow.md) — 新增REA／Opus把TradingView图表与Bloomberg命令、提醒和布局拼成单一终端的指南；免费行情与年省32400美元未核验，既有风险经历独立保留。 **[REA · 待验证]**
 - [WHOOP：分析健康追踪设备的 Android App](cases/whoop-apk.md) — APK 分析线索新增 Zhoop / NOOP 替代客户端的二手报告，尚未独立验证。 **[未确认使用 REA · 待验证]**
 - [ArtCraft：不要把从零开发写成逆向 Adobe](cases/artcraft-boundary.md) — ArtCraft是从零重建的早期创作与Office风格套件；新增Filmcraft像Premiere的用户体验说法，不证明已完整逆向或等价。 **[其他 AI 逆向 · 相关项目]**
 - [Obsidian：真实桌面包的大规模分析测试](cases/obsidian-asar.md) — 用户确认原 ASAR 包可完成分析，但没有具体功能重建。 **[REA · 分析测试]**
@@ -1577,7 +1586,7 @@
 - [GTM 工具：用 REA 构建线索与邮件营销工作流](cases/rea-gtm-tool.md) — 作者称用 REA 构建获客工具，涵盖线索管理与邮件活动；未提供实现或测试细节。 **[REA · 待验证]**
 - [茶叶出海网站：REA 辅助的本地重建报告](cases/tea-site-rea-rebuild-report.md) — 作者称用 Codex + REA 逆向参考网站，并在约 40 分钟内本地部署重建版。 **[REA · 待验证]**
 - [iTerm：借助 REA 规格实现阿拉伯语文本绘制](cases/arabic-terminal-rendering.md) — 作者自述用 REA 分析 iTerm，再按规格制作并在设备上测试阿拉伯语绘制支持；实现与测试尚无独立核验。 **[REA · 待验证]**
-- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](cases/bloomberg-style-research-terminal.md) — REA／Claude终端目标新增Day Trader Skill组合提案，列11技能与10000路径模拟；与旧Kronos／TradingAgents方案分开归因，仍无终端实现或实测收益。 **[REA · 待验证]**
+- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](cases/bloomberg-style-research-terminal.md) — 新增REA／Opus把Bloomberg命令与TradingView图表、提醒及布局合成终端的指南；不等于专有数据或完整服务，年省32400美元与免费运行仍未核验。 **[REA · 待验证]**
 - [闭源 Coding Agent：逆向多模型协同逻辑并制作 pi 插件](cases/closed-agent-pi-plugin.md) — 作者自述用 REA 研究闭源 Coding Agent 的多模型协同逻辑，并据此开发 pi 插件；目标与实现尚未公开核验。 **[REA · 待验证]**
 - [ChatGPT App：用 REA 分析并为聊天窗口添加渐变背景](cases/chatgpt-app-gradient-background.md) — 作者称用 ChatGPT 与 REA 分析 Electron 应用，并为右侧聊天窗口注入渐变背景。 **[REA · 待验证]**
 - [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](cases/ledger-reborn-accounting-app.md) — 第三方报告称REA／Ghidra研究QuickBooks后制作Python／SQLite记账应用；11月1日新增Mac2024版、逐账户到分对照三张报表的说法，仍无独立审计。 **[REA · 相关项目]**
@@ -1698,6 +1707,9 @@
 
 ### 算法与功能重建
 
+- [把房间改成游戏世界：Opus扫描布局、换主题与放NPC的未核验提案](cases/opus-room-witcher-minecraft-cyberpunk-spatial-idea.md) — 帖子声称用Claude Opus 5.5研究房间布局，再切换Witcher 3、Minecraft与Cyberpunk主题；没有空间设备、代码或结果证据。 **[其他 AI 逆向 · 待验证]**
+- [照片到磨豆机爆炸视图：AI Workflow Lab的Claude／Blender结构重建](cases/aiworkflowx-claude-photo-grinder-blender-exploded-view.md) — 作者把实物照片转成部件尺寸规格，再由Claude脚本建模、拆解动画与剪辑；11件磨豆机是解释用简化模型，不是制造级复刻。 **[其他 AI 逆向 · 待验证]**
+- [LDraw Mecha：从乐高零件文本推机构，再映射到Blender动画](cases/ldraw-mecha-semantic-parts-blender-motion.md) — anteloc让Agent读取带注释LDraw零件结构，推子模块与运动，再以同名glTF节点生成Blender rig；公开v0.5.0文档明确运动检查不证明物理可行。 **[其他 AI 逆向 · 相关项目]**
 - [1997年亚马逊股东信：Mr. Systems称提炼七条Claude四阶段策略提示](cases/mr-systems-bezos-1997-letter-claude-strategy-prompts.md) — 以公开股东信为参考，把管理思路转写成七条Claude提示；没有完整提示或效果对照，不是软件反编译。 **[其他 AI 逆向 · 待验证]**
 - [自己90天X数据：用Grok与Claude反推有效钩子，再换题对照的idea](cases/grok-claude-own-x-winners-hook-reconstruction-idea.md) — 建议按每曝光点赞率找前10%帖子，提炼钩子、长度与时机，换新话题发两周再比较；没有报告实际增长。 **[其他 AI 逆向 · 待验证]**
 - [blender-skills的Image Match：从图像推相机与几何，再截图校准](cases/blender-skills-image-match-camera-geometry-agent-workflow.md) — LiLens介绍94技能套件中的参考图重建：Agent经Blender MCP建模、推透视并比图；数量、MIT与自动化能力未做源码或实跑核验。 **[其他 AI 逆向 · 相关项目]**
