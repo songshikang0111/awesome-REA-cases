@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1902 entries**, organized by use case, without a Top-N or popularity threshold.
+**1914 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (384)
-- [Hardware and interoperability](categories/en/hardware.md) (509)
-- [Applications and clients](categories/en/apps.md) (782)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (227)
+- [Games and preservation](categories/en/games.md) (387)
+- [Hardware and interoperability](categories/en/hardware.md) (510)
+- [Applications and clients](categories/en/apps.md) (787)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (230)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Resident Evil 4: bosh distinguishes recompilable C from readable source, reporting Mac ARM and Wasm ports](cases/en/bosh-re4-c-recompile-mac-wasm-report.md) — bosh narrows the RE4 decompilation claim to modifiable, recompilable C and reports Mac ARM/WebAssembly videos, using Claude, Codex and 30–50 concurrent agents. Source and full gameplay validation are unavailable. **[Other AI-assisted work · Needs verification]**
+- [Mashbox: bosh reports a sub-week RE4-derived project before pivoting to AI inference](cases/en/bosh-mashbox-re4-decompilation-project.md) — bosh says RE4 research led to Mashbox. Its public page describes combining owned-game worlds and play styles in one engine, with original worlds in-browser. Windows early access, compatibility and read-only files are project claims, not tested here. **[Other AI-assisted work · Related project]**
+- [A 1.5 GB PS4 game: ItsYaboii reports hundreds of model-hours without completing one arena](cases/en/yaboibmh-ps4-codex-arena-reconstruction-limits.md) — ItsYaboii reports using Codex, other models and subagents on an unnamed PS4 game. Hundreds of model-hours have not completed one of twelve arenas, challenging generalizations from twelve-hour decompilation claims. **[Other AI-assisted work · In progress]**
 - [Zelda research from a Switch: Rodrigo reports hours of progress, with camera and mouse still unfinished](cases/en/rodrigo-zelda-switch-claude-rea-camera-wip.md) — Rodrigo tags Claude, AI, Zelda and REA in an experiment after Switch extraction. Camera movement and mouse input still need work; the exact title, reconstruction method and a full port are unestablished. **[REA · In progress]**
 - [SimCity research in progress: David Lietjauw also reports getting Claude to play](cases/en/davidfromkansas-simcity-claude-play-reversing.md) — The author is reversing SimCity and says Claude played it. The edition, research method and reconstruction output are undisclosed; a finished port is not established. **[Other AI-assisted work · In progress]**
 - [Titanfall 2 VR: Thrill reports playing on Arch Linux with a wireless Valve headset](cases/en/thrill-titanfall2-vr-ai-reversing-linux-report.md) — A user attributes the VR mod to AI-assisted reversing and describes an Arch Linux host and wireless-headset experience, without development logs or compatibility tests. **[Other AI-assisted work · Needs verification]**
@@ -415,6 +418,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [12th-generation Paperwhite: InvestingVault relays Adrian's Claude Code and public-docs jailbreak](cases/en/adrian-paperwhite12-claude-docs-jailbreak-report.md) — Responding to a KOReader question, InvestingVault relays Adrian's Paperwhite jailbreak. Steps, firmware and original validation are unavailable; this is not a Kindle Scribe guide. **[Other AI-assisted work · Needs verification]**
 - [Reviving an unsupported thermal printer: VedaAI00 relays AI-assisted serial-protocol and driver work](cases/en/veda-ai-defunct-thermal-printer-serial-revival.md) — VedaAI00 relays a thermal printer revival through serial access and AI protocol research after its vendor disappeared. Model, original developer, driver and print tests are undisclosed. **[Other AI-assisted work · Needs verification]**
 - [A lightweight Leapmotor car-control app idea: a bei reports an AI cloud-reversing refusal](cases/en/abei-leapmotor-native-car-control-ai-refusal.md) — Inspired by a native Zeekr controller, a bei wants a Leapmotor version but says AI refused cloud-service reversing. This is a request and blocked attempt, not implemented car control. **[Other AI-assisted work · Needs verification]**
 - [Educator 64 KERNAL: Scientific Brad reports REA identification of an 8KB ROM and hash-matching reassembly](cases/en/scientificbrad-educator64-kernal-rea-rom-reassembly.md) — The author reports REA/Ghidra identification of ROM 901246-01, SHA-256-matching reassembly and a native proof of concept running in PowerShell, not full machine compatibility. **[REA · Analysis test]**
@@ -927,6 +931,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [VirtualBox escape: bebu relays Xusheng's Daybreak discovery and open-model exploit-chain claim](cases/en/bebu-xusheng-virtualbox-daybreak-escape-report.md) — bebu says Xusheng demonstrated a guest-to-host chain on VirtualBox 7.2.20, using GPT-6 Sol/Daybreak Blue for discovery and open models for exploitation. Original research, patches and replayable validation are unavailable. **[Other AI-assisted work · Needs verification]**
+- [UTM escape: bebu relays Xusheng's AI-discovery and open-model exploit-chain workflow](cases/en/bebu-xusheng-utm-daybreak-escape-report.md) — bebu separately claims Xusheng demonstrated a UTM guest-to-host escape using GPT-6 Sol/Daybreak Blue and open models. UTM revision, backend, vulnerability details and vendor records are undisclosed. **[Other AI-assisted work · Needs verification]**
+- [WebKit Weekly: MinJeong Kim uses AI commit review and draft analyses with researcher code checks](cases/en/vxcon-minjeong-webkit-weekly-ai-variant-hunting.md) — VXCON previews MinJeong Kim's WebKit patch-root-cause and variant-hunting workflow and AI-assisted WebKit Weekly. The current abstract stresses errors and human checking, not a verified list of new vulnerabilities. **[Other AI-assisted work · Related project]**
+- [PatchHawk / Patch-to-PoC: Wonyoung Jung combines LLMs and program analysis for patch-trigger research](cases/en/vxcon-wonyoung-llm-patch-diffing-nday.md) — VXCON previews Wonyoung Jung's hybrid LLM patch-diffing framework. The official abstract combines retrieval, classification, input synthesis and fuzzing, without replayable validation; the live demonstration is still prospective. **[Other AI-assisted work · In progress]**
+- [Bob licensing research: Kxians relays a fifteen-minute DSH/Purge AI-assisted verification claim](cases/en/kxians-bob-dsh-purge-license-analysis-report.md) — Kxians says an operator without reversing experience used DSH and Purge to have AI tackle Bob's license verification in fifteen minutes. Versions, the original operator and test records are absent. **[Other AI-assisted work · Needs verification]**
 - [Switching to OpenGym: yegle reports AI-assisted research and video migration from an unnamed bod app](cases/en/opengym-bod-app-video-migration-ai-report.md) — yegle says AI set up OpenGym and helped reverse an unnamed bod fitness app to import videos for personal training. Full branding, code, permissions and import validation are absent. **[Other AI-assisted work · Needs verification]**
 - [A self-built Foundry alternative: an employee reports AI help assembling open-source projects](cases/en/fused-stardust-foundry-open-source-ai-rebuild.md) — The Mad Y0da says their company canceled a Palantir contract and rebuilt data connections, pipelines, an ontology and a Workshop-like UI. Code, components and migration validation are undisclosed. **[Other AI-assisted work · Needs verification]**
 - [Yapfast: Hemish reports a Rust Discord alternative with working calls](cases/en/yapfast-rust-discord-ai-reversing-report.md) — In an AI/modding discussion, Hemish cites Yapfast as an already reverse-engineered Rust client with calls, without specific AI research steps or call validation. **[Other AI-assisted work · Needs verification]**
@@ -1712,6 +1721,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [CODEGATE 2026 autonomous agent: KAIST abstract reports 22 of 26 challenges across six categories](cases/en/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON previews Donghyeon Kim and Insu Yun's Full-Automatic CTF Agent. The official abstract credits Codex/Claude and 22/26 solutions, without per-reversing-task results or independent scoreboard checks. **[Other AI-assisted work · Related project]**
+- [Neon Dreamscapes fight: sandmrk reconstructs Muse shot prompts, retaining face fixes and mismatch caveats](cases/en/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk specifies a two-person sword-and-shield fight, railing vault and drone shots as Muse prompts, using single-face anchors and excluded features to reduce character mixing. The generated result explicitly still fails to fully match the reference. **[Other AI-assisted work · Needs verification]**
+- [Medicine bottle and money: Naman Katyal shares an AI-reconstructed editorial illustration prompt](cases/en/naman-medicine-bottle-editorial-image-prompt.md) — Naman calls AI prompt reconstruction peer review and specifies a vintage newspaper illustration with a medicine bottle, money, ribbons and nets. Reference image, model and regeneration comparisons are absent. **[Other AI-assisted work · Needs verification]**
 - [Aria and Gru: sandmrk reconstructs a Muse film prompt while acknowledging mismatches](cases/en/sandmrk-muse-aria-gru-forest-film-prompt.md) — sandmrk specifies dialogue, sound, shots and continuity for an elf-and-goblin film. The author explicitly says the generated result cannot fully match the reference and needs refinement. **[Other AI-assisted work · Needs verification]**
 - [Backflip Drawing to CAD: a report on reconstructing editable parametric models from old 2D drawings](cases/en/backflip-drawing-to-parametric-cad-fusion-report.md) — XU FANGLEI introduces Backflip's 2D engineering-drawing to 3D CAD workflow, emphasizing editable feature trees and Fusion. Reference drawings, output models and engineering-accuracy checks are absent. **[Other AI-assisted work · Related project]**
 - [Turn a room into game worlds: an unverified Opus layout, theme and NPC proposal](cases/en/opus-room-witcher-minecraft-cyberpunk-spatial-idea.md) — A post claims Claude Opus 5.5 studied a room and switched between Witcher 3, Minecraft and Cyberpunk themes, without spatial-device details, code or result evidence. **[Other AI-assisted work · Needs verification]**

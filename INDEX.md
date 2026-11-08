@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1902 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1914 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（384）
-- [硬件与设备互通](categories/hardware.md)（509）
-- [应用与客户端](categories/apps.md)（782）
-- [算法与功能重建](categories/algorithms.md)（227）
+- [游戏与游戏保存](categories/games.md)（387）
+- [硬件与设备互通](categories/hardware.md)（510）
+- [应用与客户端](categories/apps.md)（787）
+- [算法与功能重建](categories/algorithms.md)（230）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [Resident Evil 4：bosh澄清可重编译C并非完整可读源码，称移至Mac ARM与Wasm](cases/bosh-re4-c-recompile-mac-wasm-report.md) — bosh在新回复中限定RE4反编译说法，报告可改动再编译的C与Mac ARM／WebAssembly视频，使用Claude、Codex及30至50并发Agent；无源码与完整游玩验证。 **[其他 AI 逆向 · 待验证]**
+- [Mashbox：bosh称RE4研究衍生项目一周内建成，现已转向AI推理](cases/bosh-mashbox-re4-decompilation-project.md) — bosh称RE4研究催生Mashbox；补读项目页描述把自有游戏世界与玩法放入同一引擎，浏览器只用自创世界。Windows早期版、兼容与文件只读均是项目自述，未运行。 **[其他 AI 逆向 · 相关项目]**
+- [1.5GB的PS4游戏：ItsYaboii称多模型投入数百工时，仍未重建完一个场地](cases/yaboibmh-ps4-codex-arena-reconstruction-limits.md) — ItsYaboii用Codex及其他模型、多子代理重建未具名PS4游戏，称数百模型工时仍未完成十二个场地中的一个，用实际受阻进度质疑十二小时反编译的泛化。 **[其他 AI 逆向 · 进行中]**
 - [Switch上的Zelda研究：Rodrigo称提取后数小时推进，镜头与鼠标仍待做](cases/rodrigo-zelda-switch-claude-rea-camera-wip.md) — Rodrigo以Claude、AI、Zelda和REA标签报告从Switch提取后的实验，仍需解决镜头移动与鼠标；未确认具体作品、重建方法或完整移植。 **[REA · 进行中]**
 - [SimCity研究进行中：David Lietjauw称还让Claude玩了游戏](cases/davidfromkansas-simcity-claude-play-reversing.md) — 作者称正在逆向SimCity，并让Claude玩游戏；版本、研究方法与重建成果未披露，不等于完成移植。 **[其他 AI 逆向 · 进行中]**
 - [Titanfall 2 VR：Thrill报告在Arch Linux与无线Valve头显上游玩](cases/thrill-titanfall2-vr-ai-reversing-linux-report.md) — 使用者将Titanfall 2的VR mod归因AI辅助逆向，并描述Arch Linux主机与无线头显体验；没有开发日志或兼容性测试。 **[其他 AI 逆向 · 待验证]**
@@ -413,6 +416,7 @@
 
 ### 硬件与设备互通
 
+- [第12代Paperwhite：InvestingVault转述Adrian用Claude Code配合公开文档越狱](cases/adrian-paperwhite12-claude-docs-jailbreak-report.md) — 为回应KOReader使用问题，InvestingVault转述Adrian的Paperwhite越狱经历；没有步骤、固件版本或原始验证，不是Kindle Scribe指南。 **[其他 AI 逆向 · 待验证]**
 - [停产热敏打印机复活：VedaAI00转述AI经串口研究协议并写驱动](cases/veda-ai-defunct-thermal-printer-serial-revival.md) — 谁是藏镜人转述一台失去厂商支持的热敏打印机，通过串口和AI协议研究恢复使用；型号、原作者、驱动和打印测试未披露。 **[其他 AI 逆向 · 待验证]**
 - [零跑轻量车控App想法：a bei报告AI因云服务逆向而拒绝](cases/abei-leapmotor-native-car-control-ai-refusal.md) — a bei受极氪原生车控App启发想做零跑版本，但AI拒绝云服务逆向；仅有需求与受阻经历，没有车控实现。 **[其他 AI 逆向 · 待验证]**
 - [Educator 64 KERNAL：Scientific Brad称REA识别8KB ROM并重组哈希一致](cases/scientificbrad-educator64-kernal-rea-rom-reassembly.md) — 作者报告REA／Ghidra识别901246-01 ROM，反汇编后重组SHA256一致，并做PowerShell内运行的原生概念版；不是完整机器兼容性证明。 **[REA · 分析测试]**
@@ -925,6 +929,11 @@
 
 ### 应用与客户端
 
+- [VirtualBox逃逸：bebu转述Xusheng以Daybreak找漏洞、开放模型写链](cases/bebu-xusheng-virtualbox-daybreak-escape-report.md) — bebu称Xusheng对VirtualBox 7.2.20演示guest-to-host链，由GPT-6 Sol／Daybreak Blue找漏洞，再交开放模型写利用；没有原始研究、补丁或可重放验证。 **[其他 AI 逆向 · 待验证]**
+- [UTM逃逸：bebu转述Xusheng的AI发现与开放模型利用链分工](cases/bebu-xusheng-utm-daybreak-escape-report.md) — bebu另称Xusheng演示UTM客体到宿主逃逸，归因GPT-6 Sol／Daybreak Blue和开放模型；UTM版本、后端、漏洞和厂商记录均未披露。 **[其他 AI 逆向 · 待验证]**
+- [WebKit Weekly：MinJeong Kim用AI审提交与草拟安全分析，再由研究者逐项核代码](cases/vxcon-minjeong-webkit-weekly-ai-variant-hunting.md) — VXCON预告MinJeong Kim以WebKit补丁根因寻找邻近变体，并介绍AI审提交的WebKit Weekly；当前简介强调错误与人工核验，非已验证新漏洞清单。 **[其他 AI 逆向 · 相关项目]**
+- [PatchHawk／Patch-to-PoC：Wonyoung Jung结合LLM与程序分析研究补丁到触发样例](cases/vxcon-wonyoung-llm-patch-diffing-nday.md) — VXCON预告Wonyoung Jung的混合LLM补丁差异框架；官网称结合检索、分类、输入合成与fuzzing，尚无可重放验证，现场演示仍在未来。 **[其他 AI 逆向 · 进行中]**
+- [Bob授权研究：Kxians转述DSH加Purge让AI十五分钟处理本地验证](cases/kxians-bob-dsh-purge-license-analysis-report.md) — Kxians转述不懂逆向的操作者以DSH和Purge让AI处理Bob翻译软件授权验证，称十五分钟完成；没有版本、原操作者或测试记录。 **[其他 AI 逆向 · 待验证]**
 - [切换到OpenGym：一阁称AI研究某bod健身App并迁入视频](cases/opengym-bod-app-video-migration-ai-report.md) — 一阁称让AI部署OpenGym，再逆向某bod App并导入其中视频，以迁移个人训练使用；没有完整品牌、代码、权限或导入验证。 **[其他 AI 逆向 · 待验证]**
 - [自建Foundry替代：员工称AI帮助拼接开源数据平台](cases/fused-stardust-foundry-open-source-ai-rebuild.md) — The Mad Y0da称所在公司取消Palantir合同后，自建数据连接、管线、ontology与Workshop式界面；未披露代码、组件或迁移验证。 **[其他 AI 逆向 · 待验证]**
 - [Yapfast：Hemish称Rust版Discord替代客户端已有通话](cases/yapfast-rust-discord-ai-reversing-report.md) — Hemish在AI与mod讨论中以Yapfast为例称已逆向Rust客户端且能打电话；没有说明AI具体研究步骤或提供通话验证。 **[其他 AI 逆向 · 待验证]**
@@ -1710,6 +1719,9 @@
 
 ### 算法与功能重建
 
+- [CODEGATE 2026自主Agent：KAIST团队简介自报六类26题中解决22题](cases/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON预告Donghyeon Kim与Insu Yun的全自动CTF Agent；官网自述Codex／Claude管理环境并解决22/26题，未提供逐题逆向成果或独立赛绩核验。 **[其他 AI 逆向 · 相关项目]**
+- [Neon Dreamscapes赛博打斗：sandmrk反推Muse镜头提示，保留串脸修复与不匹配声明](cases/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk把双人剑盾打斗、翻栏和无人机镜头写成Muse提示，通过单脸锚和特征排除修复角色混淆；明确生成结果仍不能完全匹配原视频。 **[其他 AI 逆向 · 待验证]**
+- [药瓶与金钱报刊插画：Naman Katyal分享AI反推的构图和版画风格提示](cases/naman-medicine-bottle-editorial-image-prompt.md) — Naman将AI反推提示称为同伴评议，并给出药瓶、金钱、红带与渔网的复古报刊插图规格；没有原图、模型或重生成对照。 **[其他 AI 逆向 · 待验证]**
 - [艾莉亚与格鲁：sandmrk反推Muse短片分镜，明确仍不匹配原片](cases/sandmrk-muse-aria-gru-forest-film-prompt.md) — sandmrk把精灵与哥布林短片拆成Muse提示，约束对白、声音、镜头和连续性；作者明确生成结果不能完全匹配，需继续优化。 **[其他 AI 逆向 · 待验证]**
 - [Backflip Drawing to CAD：把旧二维工程图重建成可编辑参数模型的转述](cases/backflip-drawing-to-parametric-cad-fusion-report.md) — 3D打印雷哥介绍Backflip以二维工程图生成带可编辑特征树的三维CAD并结合Fusion；没有原图、模型或工程精度验证。 **[其他 AI 逆向 · 相关项目]**
 - [把房间改成游戏世界：Opus扫描布局、换主题与放NPC的未核验提案](cases/opus-room-witcher-minecraft-cyberpunk-spatial-idea.md) — 帖子声称用Claude Opus 5.5研究房间布局，再切换Witcher 3、Minecraft与Cyberpunk主题；没有空间设备、代码或结果证据。 **[其他 AI 逆向 · 待验证]**

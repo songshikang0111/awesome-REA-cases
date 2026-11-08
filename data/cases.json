@@ -1,5 +1,223 @@
 [
   {
+    "id": "adrian-paperwhite12-claude-docs-jailbreak-report",
+    "title": "第12代Paperwhite：InvestingVault转述Adrian用Claude Code配合公开文档越狱",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "为回应KOReader使用问题，InvestingVault转述Adrian的Paperwhite越狱经历；没有步骤、固件版本或原始验证，不是Kindle Scribe指南。",
+    "description": "2026年11月8日12:36:03（北京时间），InvestingVault（@InvestingVault）在回复中说，KOReader需要先越狱，其所追踪的Claude与Kindle相关经历是Adrian使用Claude Code、配合公开文档越狱一台第12代Paperwhite。背景是让电子书阅读器使用替代阅读软件；这里的AI辅助是理解和执行既有文档，而非发现新漏洞或重写固件。\n\n帖子明确说Adrian没有发布操作步骤，这也不是Scribe指南；固件可能阻断某些方法，应先核对版本。它没有声称该Paperwhite已经安装或测试KOReader，不能把讨论背景补成完成结果。\n\n原帖补取确认转述者署名和文字，另经公开转呈接口识别链接通向第三方项目介绍，但未取得介绍正文、Adrian原报告、固件号、文档版本、设备日志或安装验证。仅按具名设备的二手经历保存，不与其他代际的Kindle越狱项目合并。REA未提及，本合集未连接或修改设备。",
+    "sources": [{"label": "InvestingVault转述Adrian的Paperwhite经历与Scribe／固件限制，2026-11-08 12:36:03北京时间", "url": "https://x.com/i/status/2119287812096946217"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存1赞、38浏览、0转发；越狱为二手报告，不是本合集实测。"],
+    "en": {
+      "title": "12th-generation Paperwhite: InvestingVault relays Adrian's Claude Code and public-docs jailbreak",
+      "summary": "Responding to a KOReader question, InvestingVault relays Adrian's Paperwhite jailbreak. Steps, firmware and original validation are unavailable; this is not a Kindle Scribe guide.",
+      "description": "At 12:36:03 Beijing time on November 8, 2026, InvestingVault (@InvestingVault) says in a reply that KOReader requires a jailbreak first. The closest Claude/Kindle experience they track is Adrian jailbreaking a 12th-generation Paperwhite with Claude Code and public documentation. The context is using alternative reading software on an e-reader. The reported AI role is following existing documentation, not discovering a new vulnerability or rewriting firmware.\n\nThe post explicitly says Adrian published no steps and that this is not a Scribe guide. Firmware can block particular methods and needs checking first. It does not say KOReader was installed or tested on this Paperwhite; that discussion context is not turned into a completed result.\n\nOriginal-post retrieval confirms the relayer's attribution and wording. A public rendering API additionally identifies a third-party project-description destination, but its body, Adrian's original report, firmware number, documentation revision, device logs and installation validation were not obtained. This is retained only as a second-hand account involving a specific device, not merged with other Kindle generations. REA is not named. No device was connected or modified here.",
+      "metadata": ["Sealed candidate: 1 like, 38 views, 0 reposts. The jailbreak is a second-hand report, not a hardware test by this collection."],
+      "source_labels": ["InvestingVault relays Adrian's Paperwhite experience and Scribe/firmware limits, November 8, 2026 at 12:36:03 Beijing time"]
+    }
+  },
+  {
+    "id": "bebu-xusheng-virtualbox-daybreak-escape-report",
+    "title": "VirtualBox逃逸：bebu转述Xusheng以Daybreak找漏洞、开放模型写链",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "bebu称Xusheng对VirtualBox 7.2.20演示guest-to-host链，由GPT-6 Sol／Daybreak Blue找漏洞，再交开放模型写利用；没有原始研究、补丁或可重放验证。",
+    "description": "2026年11月8日14:00:21（北京时间），bebu（@bebuu_ai）转述逆向研究者Xusheng在所谓最新VirtualBox 7.2.20上演示完整guest-to-host虚拟机逃逸链。其描述的分工是GPT-6 Sol配合Daybreak Blue寻找零日，再由开放模型编写完整利用链。这是具名虚拟化软件的AI辅助安全研究说法，不是同帖UTM项目的同一目标。\n\n补取确认转述者署名、文字与两张图片附件存在，未查看图片，也未取得Xusheng原帖、受影响组件、宿主／客体配置、CVE、厂商确认、修复记录或演示日志。模型名、7.2.20、最新与完整链均保留为作者说法，不认证该版本发布状态或漏洞适用范围。帖子并列的Vals AI CyberOffense成绩、NOVA／LIGHTHOUSE指标及费用是另一基准，不能作为VirtualBox链的验证。\n\n补读VirtualBox官方First Steps文档只用于说明宿主、客体与虚拟化产品背景；这是本轮之后取阅、页面未标明发布日期的补充资料，不证明上述零日或模型归因。本合集未下载或执行利用、连接目标或复现逃逸；REA未提及，按未核验转述保存，不提供攻击步骤。",
+    "sources": [
+      {"label": "候选：bebu转述VirtualBox与UTM的AI辅助逃逸，2026-11-08 14:00:21北京时间", "url": "https://x.com/i/status/2119309027058590185"},
+      {"label": "补充产品背景：VirtualBox官方First Steps文档，2026-11-09取阅，非漏洞验证", "url": "https://www.virtualbox.org/manual/ch01.html"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["共同候选封存3赞、389浏览、0转发；与UTM条目共用传播快照，不把两条的热度相加。"],
+    "en": {
+      "title": "VirtualBox escape: bebu relays Xusheng's Daybreak discovery and open-model exploit-chain claim",
+      "summary": "bebu says Xusheng demonstrated a guest-to-host chain on VirtualBox 7.2.20, using GPT-6 Sol/Daybreak Blue for discovery and open models for exploitation. Original research, patches and replayable validation are unavailable.",
+      "description": "At 14:00:21 Beijing time on November 8, 2026, bebu (@bebuu_ai) relays that reverse-engineering researcher Xusheng demonstrated a complete guest-to-host escape chain on what the post calls the latest VirtualBox 7.2.20. The reported division of work uses GPT-6 Sol with Daybreak Blue to find zero-days, then open models to write complete exploit chains. This is an AI-assisted security-research claim about a named virtualization product, distinct from the UTM target in the same post.\n\nRetrieval confirms the relayer's attribution, wording and two image attachments, which were not inspected. Xusheng's original post, affected component, host/guest configuration, CVEs, vendor acknowledgment, fixes and demonstration logs were not obtained. Model names, 7.2.20, latest and complete chain remain the poster's claims, not certification of a release or affected scope. The accompanying Vals AI CyberOffense scores, NOVA/LIGHTHOUSE objectives and costs concern a separate benchmark and do not validate the VirtualBox chain.\n\nSupplementary reading of VirtualBox's official First Steps documentation supplies product and host/guest terminology only. Retrieved after the window, with no publication date established, it does not verify the alleged zero-day or model attribution. No exploit was downloaded or executed, target contacted or escape reproduced here. REA is unmentioned. Retained as an unverified account without attack instructions.",
+      "metadata": ["Shared sealed candidate: 3 likes, 389 views, 0 reposts. The UTM record uses the same snapshot; engagement is not added across the two."],
+      "source_labels": ["Candidate: bebu relays AI-assisted VirtualBox and UTM escapes, November 8, 2026 at 14:00:21 Beijing time", "Supplementary product background: official VirtualBox First Steps, retrieved November 9, 2026; not vulnerability validation"]
+    }
+  },
+  {
+    "id": "bebu-xusheng-utm-daybreak-escape-report",
+    "title": "UTM逃逸：bebu转述Xusheng的AI发现与开放模型利用链分工",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "bebu另称Xusheng演示UTM客体到宿主逃逸，归因GPT-6 Sol／Daybreak Blue和开放模型；UTM版本、后端、漏洞和厂商记录均未披露。",
+    "description": "2026年11月8日14:00:21（北京时间），bebu（@bebuu_ai）的候选同时转述Xusheng对UTM的完整guest-to-host逃逸链，称GPT-6 Sol与Daybreak Blue发现零日，再由开放模型写链。UTM是面向macOS和iOS的系统模拟器与虚拟机宿主；官方文档说明其基于QEMU，并区分QEMU与Apple设置。报道没有说明这次研究使用哪个后端、平台或UTM版本，不能据此指控所有后端都受影响。\n\n原帖补取确认文字及图片附件存在，但未查看图片、取得原研究、利用日志、受影响组件、设备配置、CVE或厂商修复记录。所谓最新、完整链和模型分工都是bebu的转述，不是本合集复现；同帖另一目标VirtualBox的版本号不适用于UTM。Vals AI基准与费用数据也不是这条逃逸的证据。\n\n补读UTM官方文档只确认产品和后端背景。该页面在11月9日取阅、未核原始发布日期，不能当作11月8日窗口内的漏洞验证。本合集未执行目标或利用、连接客体／宿主或安装依赖；REA未提及，不提供逃逸步骤。",
+    "sources": [
+      {"label": "候选：bebu转述UTM与VirtualBox两条链，2026-11-08 14:00:21北京时间", "url": "https://x.com/i/status/2119309027058590185"},
+      {"label": "补充背景：UTM官方文档的产品与后端说明，2026-11-09取阅，非漏洞验证", "url": "https://docs.getutm.app/"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["共同候选封存3赞、389浏览、0转发；UTM与VirtualBox是两个目标，共用一个候选判断，不重复计帖子。"],
+    "en": {
+      "title": "UTM escape: bebu relays Xusheng's AI-discovery and open-model exploit-chain workflow",
+      "summary": "bebu separately claims Xusheng demonstrated a UTM guest-to-host escape using GPT-6 Sol/Daybreak Blue and open models. UTM revision, backend, vulnerability details and vendor records are undisclosed.",
+      "description": "At 14:00:21 Beijing time on November 8, 2026, bebu (@bebuu_ai) also relays a complete UTM guest-to-host escape chain attributed to Xusheng, claiming GPT-6 Sol and Daybreak Blue discovered zero-days before open models wrote the chains. UTM is a system emulator and virtual machine host for macOS and iOS; its official documentation describes its QEMU basis and distinguishes QEMU and Apple settings. The report does not identify the backend, platform or UTM revision used, so all backends cannot be declared affected.\n\nRetrieval confirms wording and image attachments, not an inspection of those images or access to original research, exploit logs, affected components, configurations, CVEs or vendor fixes. Latest, complete chain and model roles remain bebu's relayed claims, not reproduction by this collection. The other target's VirtualBox revision does not apply to UTM. Vals AI benchmark scores and costs in the same post do not validate this escape either.\n\nSupplementary official UTM documentation confirms product/backend context only. Retrieved on November 9 without an established original publication date, it is not vulnerability validation from the November 8 candidate window. No target or exploit was run, guest/host contacted or dependencies installed here. REA is unmentioned; no escape instructions are supplied.",
+      "metadata": ["Shared sealed candidate: 3 likes, 389 views, 0 reposts. UTM and VirtualBox are two targets under one candidate judgment, not two counted posts."],
+      "source_labels": ["Candidate: bebu relays separate UTM and VirtualBox chains, November 8, 2026 at 14:00:21 Beijing time", "Supplementary background: official UTM product/backend documentation, retrieved November 9, 2026; not vulnerability validation"]
+    }
+  },
+  {
+    "id": "bosh-re4-c-recompile-mac-wasm-report",
+    "title": "Resident Evil 4：bosh澄清可重编译C并非完整可读源码，称移至Mac ARM与Wasm",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "bosh在新回复中限定RE4反编译说法，报告可改动再编译的C与Mac ARM／WebAssembly视频，使用Claude、Codex及30至50并发Agent；无源码与完整游玩验证。",
+    "description": "2026年11月8日14:37:37（北京时间），bosh（@boshjerns）回应十二小时反编译的质疑：如果指完整重建为人类可读代码，答案是否；如果指能重新编译运行、包含其修改的C代码，则称可以。他还称发布过移至Mac ARM与WebAssembly的视频。作者说首段视频拍于反编译约一小时，约十二小时后发布后续视频和帖子；这些是作者对发布时间线的解释，不是本合集计时。\n\n为识别目标，补读2026年10月2日的串首：作者称十二小时反编译并修改PC版Resident Evil 4，动机是改善困扰自己约十五年的镜头移动，另提社区已做Mod十多年。旧帖有视频附件，未观看；不把旧发布日期冒充本窗新增证据。新候选明确披露约二十五个Claude／Codex账号，偶尔三十至五十个Agent并发；这提供规模背景，不等于一个订阅或普通单Agent能在同样时间完成。\n\n未取得源码、游戏版本、构建命令、反编译覆盖、兼容层、原生与模拟路径区分、游戏通关或Mac／Wasm运行验证。Anywhere是作者措辞，不作为跨平台保证；完整可读源码未完成的边界必须保留。REA未明确提及，本合集未下载、重建或运行游戏；复现须合法取得原作。衍生Mashbox另立项目，不把平台自述当游戏重建验收。",
+    "sources": [
+      {"label": "本窗候选：bosh澄清C代码、Mac ARM／Wasm及Agent规模，2026-11-08 14:37:37北京时间", "url": "https://x.com/i/status/2119318404419158270"},
+      {"label": "补充旧串首：PC版RE4、镜头动机与十二小时说法，原始日期2026-10-02", "url": "https://x.com/i/status/2105953206488735973"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["本窗候选封存1赞、52浏览、0转发；没有用补取旧帖的较晚热度替换快照。", "约25账号、30至50并发Agent、一小时与十二小时时间线均是作者自报，未核成本或总模型工时。"],
+    "en": {
+      "title": "Resident Evil 4: bosh distinguishes recompilable C from readable source, reporting Mac ARM and Wasm ports",
+      "summary": "bosh narrows the RE4 decompilation claim to modifiable, recompilable C and reports Mac ARM/WebAssembly videos, using Claude, Codex and 30–50 concurrent agents. Source and full gameplay validation are unavailable.",
+      "description": "At 14:37:37 Beijing time on November 8, 2026, bosh (@boshjerns) answers skepticism about a twelve-hour decompilation: no, if that means fully rebuilt human-readable code; yes, he says, if it means C that recompiles and runs with his changes. He also reports videos of ports to Mac ARM and WebAssembly. The first video was reportedly recorded about one hour into decompilation, with a follow-up video and post roughly twelve hours later. This is his explanation of the posting timeline, not timing measured here.\n\nTo identify the target, supplementary reading returns to the October 2, 2026 thread opening. It claims twelve-hour decompilation/modification of PC Resident Evil 4, motivated by camera movement that had bothered him for about fifteen years, and mentions a community modding it for over ten years. That older post has video attachments, which were not watched; its date is not presented as new-window evidence. The new candidate explicitly discloses about twenty-five Claude/Codex accounts and sometimes thirty to fifty concurrent agents. This supplies scale context, not evidence that one subscription or an ordinary single agent achieves the same time.\n\nSource, game revision, build commands, decompilation coverage, compatibility layers, native-versus-emulated paths, full playthrough and Mac/Wasm runtime validation were not obtained. Anywhere is the author's wording, not a cross-platform guarantee. The admitted lack of fully rebuilt readable source is retained. REA is not explicitly named. No game was downloaded, rebuilt or run here; reproduction requires legally obtained originals. The derivative Mashbox project is separate, and its platform claims do not validate the game reconstruction.",
+      "metadata": ["Sealed current-window candidate: 1 like, 52 views, 0 reposts. Later retrieval engagement for the old post does not replace the snapshot.", "Approximately 25 accounts, 30–50 concurrent agents and the one-hour/twelve-hour timeline are author reports without audited costs or total model-hours."],
+      "source_labels": ["Current-window candidate: bosh clarifies C code, Mac ARM/Wasm and agent scale, November 8, 2026 at 14:37:37 Beijing time", "Supplementary older thread opening: PC RE4, camera motivation and twelve-hour claim, originally October 2, 2026"]
+    }
+  },
+  {
+    "id": "bosh-mashbox-re4-decompilation-project",
+    "title": "Mashbox：bosh称RE4研究衍生项目一周内建成，现已转向AI推理",
+    "category": "games", "rea": "other-ai", "status": "related-project",
+    "summary": "bosh称RE4研究催生Mashbox；补读项目页描述把自有游戏世界与玩法放入同一引擎，浏览器只用自创世界。Windows早期版、兼容与文件只读均是项目自述，未运行。",
+    "description": "2026年11月8日14:52:05（北京时间），bosh（@boshjerns）接在自己的RE4反编译澄清后说，这项研究促成Mashbox，进而让其转向AI推理。他称整项Mashbox不到一周建成，约两周没再看，但仍可使用、包含RE4内容；由于方向转变，该页面已不在主站入口。一周与两周为相对自报，不推算精确创建或停更日。\n\n11月9日经公开转呈接口展开候选链接，读取项目/game公开页面，明确其用途是把自有游戏的世界、角色与玩法组合到同一个引擎，以方向键轮盘切换。页面列Windows 10／11 64位早期版、自本机游戏文件构建世界，并称不写原游戏目录、不上传游戏内容、不接原游戏官方联机服务；浏览器路径仅用自创世界和角色。RE4页面称村庄／城堡为世界、Leon为角色、越肩瞄准可用于其他世界。以上是当前项目页面的宣称，不是本合集实测；页面未标原始更新日期，不能倒填为窗口内全部已交付功能。\n\n这是AI辅助研究的独立衍生项目，不是为每种所列玩法各建一条逆向案例。前帖披露Claude／Codex与多Agent，但未细分各功能的AI工作。未取得仓库、源码许可、导入日志或跨游戏验证；宣传的十款游戏、十二种玩法、十九种模式及60fps录像不作为本合集计数或性能结论。拥有游戏也不自动解决改编与素材权利。REA未提及，本合集仅读公开HTML，未登录、播放演示、下载发行包／游戏、运行项目或验证文件只读与兼容性。",
+    "sources": [
+      {"label": "bosh的Mashbox来由、工时与方向变化自述，2026-11-08 14:52:05北京时间", "url": "https://x.com/i/status/2119322044794056810"},
+      {"label": "补充项目公开页：游戏混合引擎、RE4与自备文件边界，2026-11-09取阅，更新日期未标", "url": "https://mashbox.gg/game"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、24浏览、0转发；不到一周建成与约两周未看是自报，未核平台能力。"],
+    "en": {
+      "title": "Mashbox: bosh reports a sub-week RE4-derived project before pivoting to AI inference",
+      "summary": "bosh says RE4 research led to Mashbox. Its public page describes combining owned-game worlds and play styles in one engine, with original worlds in-browser. Windows early access, compatibility and read-only files are project claims, not tested here.",
+      "description": "At 14:52:05 Beijing time on November 8, 2026, bosh (@boshjerns) follows his RE4 clarification by saying the work led to Mashbox, which in turn led him into AI inference. He reports building the entire project in under a week, not revisiting it for about two weeks, and its remaining usable with RE4 content. He says the page left the main site's entry point after the pivot. These relative self-reported durations do not establish exact creation or inactivity dates.\n\nOn November 9, a public rendering API expands the candidate link and the public /game page is read. It describes combining worlds, characters and play styles from owned games in one engine, switched through a D-pad wheel. It advertises Windows 10/11 64-bit early access, worlds built locally from users' game files, no writes to game directories, no uploaded game content and no connections to the original games' official servers. The browser route uses original worlds/characters only. Its RE4 section describes village/castle worlds, Leon as a character and over-the-shoulder aiming usable in other worlds. These are current project-page claims, not tests here. The page has no established original update date and does not prove all features were delivered within the candidate window.\n\nThis is one independent derivative project from AI-assisted research, not a separate reversing case for every advertised play style. The preceding post discloses Claude/Codex and multiple agents without assigning AI work to individual features. Repository, source license, import logs and cross-game validation were not obtained. Advertised ten games, twelve play styles, nineteen modes and 60 fps captures are not counts or performance conclusions verified here. Owning games does not automatically settle adaptation or asset rights. REA is unmentioned. Only public HTML was read: no sign-in, demo playback, release/game download, execution or validation of read-only behavior and compatibility.",
+      "metadata": ["Sealed candidate: 0 likes, 24 views, 0 reposts. A sub-week build and roughly two weeks without revisiting are self-reported, not platform-capability checks."],
+      "source_labels": ["bosh on Mashbox's origins, effort and change of direction, November 8, 2026 at 14:52:05 Beijing time", "Supplementary public project page: game-mixing engine, RE4 and own-file boundaries, retrieved November 9, 2026; update date unstated"]
+    }
+  },
+  {
+    "id": "vxcon-minjeong-webkit-weekly-ai-variant-hunting",
+    "title": "WebKit Weekly：MinJeong Kim用AI审提交与草拟安全分析，再由研究者逐项核代码",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "VXCON预告MinJeong Kim以WebKit补丁根因寻找邻近变体，并介绍AI审提交的WebKit Weekly；当前简介强调错误与人工核验，非已验证新漏洞清单。",
+    "description": "2026年11月8日15:18:59（北京时间），VXCON官方账号（@vxresearch）预告MinJeong Kim的Reading Between the Fixes: Variant Hunting in WebKit，并点名AI驱动的WebKit Weekly。目标是阅读WebKit浏览器引擎补丁，理解修复所依赖的假设，再检查邻近代码是否有同类弱点；不是仅凭模型输出宣称发现漏洞。\n\n11月9日补读会议官网的MinJeongKim简介：WebKit Weekly用AI审查提交并起草安全分析，研究者逐个对照代码检查发现，演讲也拟展示AI错误与没有变体的死路。简介把根因分析与变体核查作为工作流，未提供仓库、模型、提交样本、漏洞编号或检测准确率，不能声称已自动验证一批新漏洞。\n\n候选预告会议在11月28至29日于香港举行；取阅时官方议程仍标Tentative，不能把未来演讲或现场演示写成已发生。官网未标简介原始发布日期，是窗口后的补充项目说明，不是本窗候选或独立复现。REA未提及，本合集未运行分析工具或测试WebKit。",
+    "sources": [
+      {"label": "本窗候选：VXCON官方对WebKit Weekly等项目的会议预告，2026-11-08 15:18:59北京时间", "url": "https://x.com/i/status/2119328813767409993"},
+      {"label": "补充官方简介：MinJeong Kim，2026-11-09取阅，原始发布日期未标", "url": "https://vxcon.hk/#MinJeongKim"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["共同候选封存10赞、726浏览、7转发，是整条活动预告热度，不是单个研究项目的独立热度。"],
+    "en": {
+      "title": "WebKit Weekly: MinJeong Kim uses AI commit review and draft analyses with researcher code checks",
+      "summary": "VXCON previews MinJeong Kim's WebKit patch-root-cause and variant-hunting workflow and AI-assisted WebKit Weekly. The current abstract stresses errors and human checking, not a verified list of new vulnerabilities.",
+      "description": "At 15:18:59 Beijing time on November 8, 2026, VXCON's official account (@vxresearch) previews MinJeong Kim's Reading Between the Fixes: Variant Hunting in WebKit and names AI-driven WebKit Weekly. The target is understanding assumptions behind fixes in the WebKit browser engine and checking nearby code for related weaknesses, not declaring vulnerabilities solely from model output.\n\nSupplementary reading of the conference site's MinJeongKim abstract on November 9 says WebKit Weekly uses AI to review commits and draft security analyses, with the researcher checking every finding against code. The planned talk includes AI errors and dead ends where no variant is found. This describes root-cause and variant-checking work, without a repository, model, sample commits, vulnerability IDs or detector accuracy; it does not establish an automatically validated set of new bugs.\n\nThe candidate schedules the Hong Kong conference for November 28–29. The official agenda remained tentative when read, so future talks/live demonstrations are not presented as completed. The abstract's original publication date is unstated: this is post-window supplementary project documentation, not a candidate or independent reproduction. REA is unmentioned. No analysis tool was run or WebKit tested here.",
+      "metadata": ["Shared sealed candidate: 10 likes, 726 views, 7 reposts for the whole event announcement, not independent engagement for an individual project."],
+      "source_labels": ["Current-window candidate: official VXCON preview including WebKit Weekly, November 8, 2026 at 15:18:59 Beijing time", "Supplementary official MinJeong Kim abstract, retrieved November 9, 2026; original publication date unstated"]
+    }
+  },
+  {
+    "id": "vxcon-wonyoung-llm-patch-diffing-nday",
+    "title": "PatchHawk／Patch-to-PoC：Wonyoung Jung结合LLM与程序分析研究补丁到触发样例",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "VXCON预告Wonyoung Jung的混合LLM补丁差异框架；官网称结合检索、分类、输入合成与fuzzing，尚无可重放验证，现场演示仍在未来。",
+    "description": "2026年11月8日15:18:59（北京时间），VXCON（@vxresearch）预告Wonyoung Jung的混合LLM与程序分析框架，目标是自动化补丁差异研究和N-day概念验证生成。背景是分析者需追上游发布、从噪声中找安全变更，再手写输入重现已修复漏洞。\n\n11月9日补读官方WonyoungJung简介，题为Automating N-Day PoC Generation: A Hybrid LLM + Program Analysis Framework for Patch-to-PoC。简介称以检索与代码差异摘要解释修改、LLM分类安全补丁，再由LLM引导输入合成、以fuzzing支撑触发样例；作者拟现场展示从厂商不透明补丁到验证PoC的流程。履历称其为78ResearchLab的AI研究负责人，正在建PatchHawk以自动化补丁分析、PoC和变体发现；未据此断言PatchHawk已完整交付。\n\n会议安排11月28至29日，议程仍标Tentative。Working framework和validated PoC是简介自述与未来展示计划，不是本合集目击的运行结果；无目标版本、仓库、样例、覆盖率、失败表或漏洞披露记录。官网原始日期未标，是窗口后补读文档。REA未提及，本合集未生成或执行利用、运行fuzzing或接触目标。",
+    "sources": [
+      {"label": "本窗候选：VXCON预告LLM与程序分析补丁差异框架，2026-11-08 15:18:59北京时间", "url": "https://x.com/i/status/2119328813767409993"},
+      {"label": "补充官方简介：Wonyoung Jung与PatchHawk，2026-11-09取阅，原始日期未标", "url": "https://vxcon.hk/#WonyoungJung"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["共同候选封存10赞、726浏览、7转发；整条活动预告的快照，不等于PatchHawk用户量或验证结果。"],
+    "en": {
+      "title": "PatchHawk / Patch-to-PoC: Wonyoung Jung combines LLMs and program analysis for patch-trigger research",
+      "summary": "VXCON previews Wonyoung Jung's hybrid LLM patch-diffing framework. The official abstract combines retrieval, classification, input synthesis and fuzzing, without replayable validation; the live demonstration is still prospective.",
+      "description": "At 15:18:59 Beijing time on November 8, 2026, VXCON (@vxresearch) previews Wonyoung Jung's hybrid LLM/program-analysis framework for automated patch diffing and N-day proof-of-concept generation. The problem is tracking upstream releases, separating security changes from noise and manually crafting inputs that reproduce fixed bugs.\n\nSupplementary reading on November 9 finds the official WonyoungJung abstract, Automating N-Day PoC Generation: A Hybrid LLM + Program Analysis Framework for Patch-to-PoC. It describes retrieval and code-diff summaries to interpret changes, LLM classification of security patches, then LLM-guided input synthesis backed by fuzzing. The planned live demonstration follows opaque vendor patches to validated PoCs. The bio identifies him as 78ResearchLab's AI Research Team Lead and says he is building PatchHawk for patch analysis, PoCs and variant discovery; this does not establish a fully delivered PatchHawk product.\n\nThe conference is scheduled for November 28–29 and its agenda remains tentative. Working framework and validated PoC are abstract claims and planned demonstrations, not runs witnessed here. Target revisions, repository, samples, coverage, failure tables and disclosure records are absent. The webpage's original date is unstated; it is post-window supplementary documentation. REA is unmentioned. No exploit was generated or executed, fuzzing run or target contacted here.",
+      "metadata": ["Shared sealed candidate: 10 likes, 726 views, 7 reposts for the event announcement, not PatchHawk users or validation results."],
+      "source_labels": ["Current-window candidate: VXCON previews hybrid LLM/program-analysis patch diffing, November 8, 2026 at 15:18:59 Beijing time", "Supplementary official Wonyoung Jung/PatchHawk abstract, retrieved November 9, 2026; original date unstated"]
+    }
+  },
+  {
+    "id": "vxcon-kaist-codegate2026-autonomous-agent",
+    "title": "CODEGATE 2026自主Agent：KAIST团队简介自报六类26题中解决22题",
+    "category": "algorithms", "rea": "other-ai", "status": "related-project",
+    "summary": "VXCON预告Donghyeon Kim与Insu Yun的全自动CTF Agent；官网自述Codex／Claude管理环境并解决22/26题，未提供逐题逆向成果或独立赛绩核验。",
+    "description": "2026年11月8日15:18:59（北京时间），VXCON（@vxresearch）预告KAIST Hacking Lab的Donghyeon Kim与Insu Yun教授讲解参与CODEGATE 2026挑战的自主Agent。目标是把安全挑战环境准备、赛事管理与解题串成无人介入的流程，属于AI辅助安全分析项目，不是一个具名商业程序的完整反编译。\n\n11月9日补读官方DonghyeonKim简介，题为Full-Automatic CTF Agent: Lessons from CODEGATE 2026，称系统部署在决赛，使用Codex、Claude等前沿模型，跨六类26个独立挑战解决22题，并在General和Junior组取得First Blood。简介还拟讨论跨题依赖、动态环境、非预期解及自动化的困难，强调资深研究者缩小搜索空间、识别死路和转向的作用。数字是团队演讲简介自述，不是本合集查验榜单。\n\n未取得题目分类表、逆向／pwn各题细分成绩、Agent轨迹、仓库、模型版本、调用成本或官方记分板，因此22/26不能称为逆向任务成功率，也不能据此断言全场完全无人干预。会议11月28至29日尚未举行，议程标Tentative；官网简介原始日期未标，作为窗口后补充而非本窗新增帖子。REA未提及，本合集未运行Agent或挑战环境。",
+    "sources": [
+      {"label": "本窗候选：VXCON预告KAIST的CODEGATE自主Agent，2026-11-08 15:18:59北京时间", "url": "https://x.com/i/status/2119328813767409993"},
+      {"label": "补充官方简介：Donghyeon Kim与Insu Yun，2026-11-09取阅，原始日期未标", "url": "https://vxcon.hk/#DonghyeonKim"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["共同候选封存10赞、726浏览、7转发；22/26、六类与First Blood均出自补读官方简介，不是本合集复赛或逐题验证。"],
+    "en": {
+      "title": "CODEGATE 2026 autonomous agent: KAIST abstract reports 22 of 26 challenges across six categories",
+      "summary": "VXCON previews Donghyeon Kim and Insu Yun's Full-Automatic CTF Agent. The official abstract credits Codex/Claude and 22/26 solutions, without per-reversing-task results or independent scoreboard checks.",
+      "description": "At 15:18:59 Beijing time on November 8, 2026, VXCON (@vxresearch) previews KAIST Hacking Lab's Donghyeon Kim and Professor Insu Yun presenting an autonomous agent for CODEGATE 2026 challenges. The goal combines environment preparation, competition management and solving without human intervention. It is an AI-assisted security-analysis project, not complete decompilation of a named commercial program.\n\nSupplementary reading on November 9 finds the official DonghyeonKim abstract, Full-Automatic CTF Agent: Lessons from CODEGATE 2026. It says the system was deployed at the finals, using frontier models including Codex and Claude to solve 22 of 26 unique challenges across six categories, with First Bloods in the General and Junior divisions. Planned discussion includes cross-challenge dependencies, dynamic environments, unintended solutions and automation difficulties, emphasizing experienced researchers' roles in narrowing search, recognizing dead ends and changing direction. These numbers are team claims in a talk abstract, not scoreboard verification by this collection.\n\nChallenge-category lists, reversing/pwn breakdowns, agent traces, repository, model revisions, call costs and official scoreboards were not obtained. Thus 22/26 is not a reversing-task success rate or proof of no intervention throughout the competition. The November 28–29 conference has not yet occurred and its agenda is tentative. The abstract's original date is unstated; it is post-window supplementary material, not a new candidate post. REA is unmentioned. Neither agent nor challenge environment was run here.",
+      "metadata": ["Shared sealed candidate: 10 likes, 726 views, 7 reposts. The 22/26 result, six categories and First Bloods come from supplementary official abstracts, not a rerun or per-challenge validation here."],
+      "source_labels": ["Current-window candidate: VXCON previews KAIST's CODEGATE autonomous agent, November 8, 2026 at 15:18:59 Beijing time", "Supplementary official Donghyeon Kim/Insu Yun abstract, retrieved November 9, 2026; original date unstated"]
+    }
+  },
+  {
+    "id": "yaboibmh-ps4-codex-arena-reconstruction-limits",
+    "title": "1.5GB的PS4游戏：ItsYaboii称多模型投入数百工时，仍未重建完一个场地",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "ItsYaboii用Codex及其他模型、多子代理重建未具名PS4游戏，称数百模型工时仍未完成十二个场地中的一个，用实际受阻进度质疑十二小时反编译的泛化。",
+    "description": "2026年11月8日12:50:46（北京时间），ItsYaboii（@YaboiBMH）回复bosh的反编译报告，质疑大型游戏十二小时完成的说法，并描述自己的不同项目：对一款约1.5GB的PS4游戏使用Codex、其他模型和许多子代理，累计投入数百小时，仍没有重建完十二个场地中的一个。它记录具体重建工作的受阻进度，而不是成功移植。\n\n原帖补取确认署名和全文；补读回复链中的bosh旧帖，确定争论对象是其PC版Resident Evil 4报告，不据此把ItsYaboii的PS4目标命名为RE4。游戏名、模型版本、重建平台、资产／代码工作分界、仓库和可运行场景均未给出。数百小时是作者对模型与子代理投入的描述，不是可核算的人力工时、墙钟时长或费用；十二分之一也不是全游戏代码完成率。\n\n本条保留为进行中的负面进度报告，不能推出所有模型都无法完成PS4逆向，亦不能用回复中的怀疑否定另一项目的具体成果。REA未提及，本合集未下载、反编译或运行游戏。",
+    "sources": [{"label": "ItsYaboii的PS4多模型重建受阻自述，2026-11-08 12:50:46北京时间", "url": "https://x.com/i/status/2119291516774478011"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存1赞、50浏览、0转发；1.5GB、数百小时与场地进度均为作者报告，未经独立核验。"],
+    "en": {
+      "title": "A 1.5 GB PS4 game: ItsYaboii reports hundreds of model-hours without completing one arena",
+      "summary": "ItsYaboii reports using Codex, other models and subagents on an unnamed PS4 game. Hundreds of model-hours have not completed one of twelve arenas, challenging generalizations from twelve-hour decompilation claims.",
+      "description": "At 12:50:46 Beijing time on November 8, 2026, ItsYaboii (@YaboiBMH) replies to bosh's decompilation account, doubting a twelve-hour result for a large game and describing a different personal project. Codex, other models and many subagents have reportedly put hundreds of hours into an approximately 1.5 GB PS4 game without rebuilding even one of its twelve arenas. This records stalled reconstruction rather than a successful port.\n\nRetrieval confirms attribution and the full wording. Supplementary reading of bosh's older post in the reply chain identifies the disputed report as PC Resident Evil 4, not the title of ItsYaboii's PS4 target. The game name, model revisions, destination platform, division between asset and code work, repository and runnable scenes are undisclosed. Hundreds of hours describes the author's model/subagent effort, not auditable human labor, elapsed time or expenditure. One-twelfth is not a whole-game code-completion metric.\n\nRetained as an in-progress negative progress report. It neither establishes that all models cannot reverse PS4 games nor invalidates the other project's specific results merely through skepticism. REA is unmentioned. No game was downloaded, decompiled or run here.",
+      "metadata": ["Sealed candidate: 1 like, 50 views, 0 reposts. The 1.5 GB size, hundreds of hours and arena progress are author reports, not independently checked."],
+      "source_labels": ["ItsYaboii reports stalled multi-model PS4 reconstruction, November 8, 2026 at 12:50:46 Beijing time"]
+    }
+  },
+  {
+    "id": "sandmrk-neon-dreamscapes-muse-fight-prompt",
+    "title": "Neon Dreamscapes赛博打斗：sandmrk反推Muse镜头提示，保留串脸修复与不匹配声明",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "sandmrk把双人剑盾打斗、翻栏和无人机镜头写成Muse提示，通过单脸锚和特征排除修复角色混淆；明确生成结果仍不能完全匹配原视频。",
+    "description": "2026年11月8日13:28:02至13:28:06（北京时间），AI art gallery（@sandmrk）发布Neon Dreamscapes赛博打斗的反推提示串，署原作者为涅槃在进化。目标是从既有片段的可见角色、动作和声音推导再制作规格，不是找回原始生成提示或软件源码；与其精灵／哥布林森林对白片是不同目标。\n\n串首写为Muse Video Prompt，锁定横屏16:9、霓虹雨夜、两名女性、一盾一剑，按滑铲、开盾、剑盾相击安排连续镜头与音效。后续将双方特写拆成单脸参考，反派保留裂纹纹身并排除耳环／雀斑，女主保留雀斑／小痣并禁止纹身，避免角色特征互串；明确旁白不驱动口型。再补两次挡击、护肩火花、翻栏、骑四翼无人机，以及结尾三架相同无人机、一个骑手和一次硬切等约束。它提供动作顺序、角色一致性和声音分层的具体重建方案。\n\n串中反复明确这是reverse-engineered prompt，生成结果不能完全匹配原片，需继续优化；修复版与按现状定版不是完成还原的保证。原帖补取确认署名及更完整串首，续帖的可见内容足以判断，不因跨帖句子未完就放弃整项。没有原片与生成片对照、生成器调用、锚图文件或量化相似度，未观看或运行生成。Muse是提示规格的名称，不能推断实际分析模型；REA未提及。原作署名不等于取得素材或角色再利用授权。",
+    "sources": [
+      {"label": "候选串首：赛博打斗、角色锁定与不匹配声明，2026-11-08 13:28:02北京时间", "url": "https://x.com/i/status/2119300895204933841"},
+      {"label": "候选续帖：单脸修复与无口型旁白，13:28:04北京时间", "url": "https://x.com/i/status/2119300903278899388"},
+      {"label": "候选续帖：挡击、护肩与翻栏连续动作，13:28:05北京时间", "url": "https://x.com/i/status/2119300907578069007"},
+      {"label": "候选续帖：四翼无人机与结尾列队约束，13:28:06北京时间", "url": "https://x.com/i/status/2119300910975426943"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["四条候选封存依次5赞／1840浏览、1赞／954浏览、0赞／161浏览、0赞／91浏览；均0转发，不将热度作还原证据。"],
+    "en": {
+      "title": "Neon Dreamscapes fight: sandmrk reconstructs Muse shot prompts, retaining face fixes and mismatch caveats",
+      "summary": "sandmrk specifies a two-person sword-and-shield fight, railing vault and drone shots as Muse prompts, using single-face anchors and excluded features to reduce character mixing. The generated result explicitly still fails to fully match the reference.",
+      "description": "Between 13:28:02 and 13:28:06 Beijing time on November 8, 2026, AI art gallery (@sandmrk) posts a reconstructed-prompt thread for a Neon Dreamscapes cyberpunk fight, crediting 涅槃在进化 as the original creator. It infers production specifications from visible characters, action and sound, not original generation prompts or software source. This is a different target from the author's elf/goblin forest-dialogue film.\n\nThe opening Muse Video Prompt locks horizontal 16:9, a neon rainy night, two women, one shield and one sword, arranging a slide, shield opening and blade impact in a continuous shot with effects. Continuations split close-ups into single-face references: the opponent retains crack-line tattoos while excluding earrings/freckles; the heroine retains freckles/a beauty mark while forbidding tattoos, reducing feature crossover. Voiceover explicitly does not move lips. Further segments specify two blocked strikes, shoulder-armor sparks, a railing vault, riding a four-wing drone, and an ending with three identical drones, one rider and one hard cut. The concrete reconstruction concerns action order, character continuity and layered sound.\n\nThe thread repeatedly calls this a reverse-engineered prompt whose generated result cannot fully match the original and needs optimization. A repaired version or a segment finalized as-is is not proof of a successful remake. Retrieval confirms attribution and a fuller opening. Visible continuations suffice for assessment; unfinished sentences across posts do not invalidate the project. No reference/output comparison, generator invocation, anchor-image files or quantitative likeness is available. No video was watched or generation run. Muse names the prompt specification, not an established analysis model; REA is unmentioned. Credit does not establish authorization to reuse footage or characters.",
+      "metadata": ["The four sealed candidates respectively have 5 likes/1,840 views, 1/954, 0/161 and 0/91, all with 0 reposts. Circulation is not reconstruction evidence."],
+      "source_labels": ["Candidate opening: cyberpunk fight, character locks and mismatch caveat, November 8, 2026 at 13:28:02 Beijing time", "Candidate continuation: single-face repairs and voiceover without lip motion, 13:28:04 Beijing time", "Candidate continuation: blocks, shoulder armor and railing-vault action, 13:28:05 Beijing time", "Candidate continuation: four-wing drones and ending formation constraints, 13:28:06 Beijing time"]
+    }
+  },
+  {
+    "id": "kxians-bob-dsh-purge-license-analysis-report",
+    "title": "Bob授权研究：Kxians转述DSH加Purge让AI十五分钟处理本地验证",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Kxians转述不懂逆向的操作者以DSH和Purge让AI处理Bob翻译软件授权验证，称十五分钟完成；没有版本、原操作者或测试记录。",
+    "description": "2026年11月8日13:35:27（北京时间），Kxians（@xulijian1994）转述有人使用DSH加Purge插件，让AI在十五分钟内破解Bob的授权验证，并称操作者本身不懂逆向。Bob是macOS翻译工具，提供划词、截图翻译、OCR及多引擎接入，部分功能需付费。这里记录的是对特定应用本地授权机制的AI辅助分析说法，不是整套Bob服务重建。\n\n补取确认发帖者和文字，但没有点名操作者、Bob或插件版本、模型、仓库、分析日志、修改范围、付费功能验收或授权情况。十五分钟为转述而非独立计时；破解成功未独立核验，也不能推出所有授权码收费软件已失效。文中关于核心逻辑上云和维护成本的讨论是作者判断，不是对云端方案的测试。\n\nDSH仅保留作者所用缩写，不擅自补成工具全名；未提REA。本合集不提供授权绕过步骤、补丁或密钥，也未下载目标、运行插件、访问账号或验证收费功能。记录分析报告不认可未授权使用或传播。",
+    "sources": [{"label": "Kxians转述Bob、DSH与Purge的授权分析，2026-11-08 13:35:27北京时间", "url": "https://x.com/i/status/2119302761833722200"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、168浏览、0转发；十五分钟及无逆向经验均是转述，未取得原操作者记录。"],
+    "en": {
+      "title": "Bob licensing research: Kxians relays a fifteen-minute DSH/Purge AI-assisted verification claim",
+      "summary": "Kxians says an operator without reversing experience used DSH and Purge to have AI tackle Bob's license verification in fifteen minutes. Versions, the original operator and test records are absent.",
+      "description": "At 13:35:27 Beijing time on November 8, 2026, Kxians (@xulijian1994) relays that someone used DSH and the Purge plugin to have AI crack Bob's license verification in fifteen minutes, despite having no reverse-engineering experience. Bob is a macOS translation tool supporting selection/screenshot translation, OCR and multiple engines, with some paid features. This records a claim of AI-assisted analysis of a particular app's local licensing mechanism, not reconstruction of the whole Bob service.\n\nRetrieval confirms the poster and wording, not the operator, Bob/plugin revisions, model, repository, analysis logs, modification scope, paid-feature acceptance tests or authorization. Fifteen minutes is a relayed claim, not independent timing. Successful circumvention is unverified and does not establish that all license-code software has become ineffective. Discussion of moving core logic to servers and maintenance costs is the author's opinion, not a cloud-solution test.\n\nDSH remains the author's abbreviation rather than an invented full tool name. REA is unmentioned. This collection supplies no bypass steps, patches or keys and did not download the target, run a plugin, access an account or validate paid features. Recording the report does not endorse unauthorized use or distribution.",
+      "metadata": ["Sealed candidate: 0 likes, 168 views, 0 reposts. Fifteen minutes and no reversing experience are second-hand claims without the operator's records."],
+      "source_labels": ["Kxians relays Bob licensing analysis with DSH and Purge, November 8, 2026 at 13:35:27 Beijing time"]
+    }
+  },
+  {
+    "id": "naman-medicine-bottle-editorial-image-prompt",
+    "title": "药瓶与金钱报刊插画：Naman Katyal分享AI反推的构图和版画风格提示",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Naman将AI反推提示称为同伴评议，并给出药瓶、金钱、红带与渔网的复古报刊插图规格；没有原图、模型或重生成对照。",
+    "description": "2026年11月8日13:59:13（北京时间），Naman Katyal（@namankatyal14）说AI反推同一提示很有趣，称之为AI peer review，随后发布一段具体图像提示。目标是一幅医药行业腐败主题的复古报刊社论插画：大玻璃药瓶装满金币和纸币，以红丝带及渔网缠绕，瓶身倾斜、底部带类似注射器的嘴。\n\n提示把可见构图与风格分开描述：交叉排线、钢笔雕刻／木刻质感、棕褐旧报纸、局部暗红、高对比，并排除文字、排版和水印。它是从图像内容或提示比较推导再生成规格的具体实验，不涉及软件反编译，也不能称找回原始提示。\n\n补取确认署名、正文及回复关系，未取得原图、前一版提示、分析模型、生成输出或相似度对照。AI peer review是作者比喻，不是独立同行验证；无法判断实际由哪个模型分析或生成。REA未提及，本合集未运行图像生成。",
+    "sources": [{"label": "Naman Katyal的AI反推药瓶报刊插图提示，2026-11-08 13:59:13北京时间", "url": "https://x.com/i/status/2119308741598441546"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、15浏览、0转发；只有提示文本，不是图像还原验证。"],
+    "en": {
+      "title": "Medicine bottle and money: Naman Katyal shares an AI-reconstructed editorial illustration prompt",
+      "summary": "Naman calls AI prompt reconstruction peer review and specifies a vintage newspaper illustration with a medicine bottle, money, ribbons and nets. Reference image, model and regeneration comparisons are absent.",
+      "description": "At 13:59:13 Beijing time on November 8, 2026, Naman Katyal (@namankatyal14) says AI reverse-engineering the same prompt is enjoyable, calling it AI peer review, then posts a concrete image prompt. The target is a vintage newspaper editorial illustration about pharmaceutical-industry corruption: a large glass medicine bottle filled with coins and currency, wrapped in red ribbons and fishing nets, tilted diagonally with a syringe-like nozzle at its base.\n\nThe prompt separately specifies composition and style: crosshatching, pen-and-ink engraving/woodcut texture, sepia aged newsprint, selective dark red accents and high contrast, excluding text, typography and watermarks. This is a concrete experiment inferring regeneration specifications from image content or prompt comparison, not software decompilation or established recovery of an original prompt.\n\nRetrieval confirms attribution, wording and reply relationships. The reference image, preceding prompt, analysis model, generated output and likeness comparisons were not obtained. AI peer review is the author's metaphor, not independent peer validation. Which model analyzed or generated material is unknown. REA is unmentioned. No image generation was run here.",
+      "metadata": ["Sealed candidate: 0 likes, 15 views, 0 reposts. Prompt text alone is not validation of image reconstruction."],
+      "source_labels": ["Naman Katyal's AI-reconstructed medicine-bottle newspaper illustration prompt, November 8, 2026 at 13:59:13 Beijing time"]
+    }
+  },
+  {
     "id": "sandmrk-muse-aria-gru-forest-film-prompt",
     "title": "艾莉亚与格鲁：sandmrk反推Muse短片分镜，明确仍不匹配原片",
     "category": "algorithms", "rea": "other-ai", "status": "unverified",

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [第12代Paperwhite：InvestingVault转述Adrian用Claude Code配合公开文档越狱](../cases/adrian-paperwhite12-claude-docs-jailbreak-report.md) — 为回应KOReader使用问题，InvestingVault转述Adrian的Paperwhite越狱经历；没有步骤、固件版本或原始验证，不是Kindle Scribe指南。 **[其他 AI 逆向 · 待验证]**
 - [停产热敏打印机复活：VedaAI00转述AI经串口研究协议并写驱动](../cases/veda-ai-defunct-thermal-printer-serial-revival.md) — 谁是藏镜人转述一台失去厂商支持的热敏打印机，通过串口和AI协议研究恢复使用；型号、原作者、驱动和打印测试未披露。 **[其他 AI 逆向 · 待验证]**
 - [零跑轻量车控App想法：a bei报告AI因云服务逆向而拒绝](../cases/abei-leapmotor-native-car-control-ai-refusal.md) — a bei受极氪原生车控App启发想做零跑版本，但AI拒绝云服务逆向；仅有需求与受阻经历，没有车控实现。 **[其他 AI 逆向 · 待验证]**
 - [Educator 64 KERNAL：Scientific Brad称REA识别8KB ROM并重组哈希一致](../cases/scientificbrad-educator64-kernal-rea-rom-reassembly.md) — 作者报告REA／Ghidra识别901246-01 ROM，反汇编后重组SHA256一致，并做PowerShell内运行的原生概念版；不是完整机器兼容性证明。 **[REA · 分析测试]**

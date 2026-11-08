@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Resident Evil 4：bosh澄清可重编译C并非完整可读源码，称移至Mac ARM与Wasm](../cases/bosh-re4-c-recompile-mac-wasm-report.md) — bosh在新回复中限定RE4反编译说法，报告可改动再编译的C与Mac ARM／WebAssembly视频，使用Claude、Codex及30至50并发Agent；无源码与完整游玩验证。 **[其他 AI 逆向 · 待验证]**
+- [Mashbox：bosh称RE4研究衍生项目一周内建成，现已转向AI推理](../cases/bosh-mashbox-re4-decompilation-project.md) — bosh称RE4研究催生Mashbox；补读项目页描述把自有游戏世界与玩法放入同一引擎，浏览器只用自创世界。Windows早期版、兼容与文件只读均是项目自述，未运行。 **[其他 AI 逆向 · 相关项目]**
+- [1.5GB的PS4游戏：ItsYaboii称多模型投入数百工时，仍未重建完一个场地](../cases/yaboibmh-ps4-codex-arena-reconstruction-limits.md) — ItsYaboii用Codex及其他模型、多子代理重建未具名PS4游戏，称数百模型工时仍未完成十二个场地中的一个，用实际受阻进度质疑十二小时反编译的泛化。 **[其他 AI 逆向 · 进行中]**
 - [Switch上的Zelda研究：Rodrigo称提取后数小时推进，镜头与鼠标仍待做](../cases/rodrigo-zelda-switch-claude-rea-camera-wip.md) — Rodrigo以Claude、AI、Zelda和REA标签报告从Switch提取后的实验，仍需解决镜头移动与鼠标；未确认具体作品、重建方法或完整移植。 **[REA · 进行中]**
 - [SimCity研究进行中：David Lietjauw称还让Claude玩了游戏](../cases/davidfromkansas-simcity-claude-play-reversing.md) — 作者称正在逆向SimCity，并让Claude玩游戏；版本、研究方法与重建成果未披露，不等于完成移植。 **[其他 AI 逆向 · 进行中]**
 - [Titanfall 2 VR：Thrill报告在Arch Linux与无线Valve头显上游玩](../cases/thrill-titanfall2-vr-ai-reversing-linux-report.md) — 使用者将Titanfall 2的VR mod归因AI辅助逆向，并描述Arch Linux主机与无线头显体验；没有开发日志或兼容性测试。 **[其他 AI 逆向 · 待验证]**

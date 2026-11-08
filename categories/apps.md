@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [VirtualBox逃逸：bebu转述Xusheng以Daybreak找漏洞、开放模型写链](../cases/bebu-xusheng-virtualbox-daybreak-escape-report.md) — bebu称Xusheng对VirtualBox 7.2.20演示guest-to-host链，由GPT-6 Sol／Daybreak Blue找漏洞，再交开放模型写利用；没有原始研究、补丁或可重放验证。 **[其他 AI 逆向 · 待验证]**
+- [UTM逃逸：bebu转述Xusheng的AI发现与开放模型利用链分工](../cases/bebu-xusheng-utm-daybreak-escape-report.md) — bebu另称Xusheng演示UTM客体到宿主逃逸，归因GPT-6 Sol／Daybreak Blue和开放模型；UTM版本、后端、漏洞和厂商记录均未披露。 **[其他 AI 逆向 · 待验证]**
+- [WebKit Weekly：MinJeong Kim用AI审提交与草拟安全分析，再由研究者逐项核代码](../cases/vxcon-minjeong-webkit-weekly-ai-variant-hunting.md) — VXCON预告MinJeong Kim以WebKit补丁根因寻找邻近变体，并介绍AI审提交的WebKit Weekly；当前简介强调错误与人工核验，非已验证新漏洞清单。 **[其他 AI 逆向 · 相关项目]**
+- [PatchHawk／Patch-to-PoC：Wonyoung Jung结合LLM与程序分析研究补丁到触发样例](../cases/vxcon-wonyoung-llm-patch-diffing-nday.md) — VXCON预告Wonyoung Jung的混合LLM补丁差异框架；官网称结合检索、分类、输入合成与fuzzing，尚无可重放验证，现场演示仍在未来。 **[其他 AI 逆向 · 进行中]**
+- [Bob授权研究：Kxians转述DSH加Purge让AI十五分钟处理本地验证](../cases/kxians-bob-dsh-purge-license-analysis-report.md) — Kxians转述不懂逆向的操作者以DSH和Purge让AI处理Bob翻译软件授权验证，称十五分钟完成；没有版本、原操作者或测试记录。 **[其他 AI 逆向 · 待验证]**
 - [切换到OpenGym：一阁称AI研究某bod健身App并迁入视频](../cases/opengym-bod-app-video-migration-ai-report.md) — 一阁称让AI部署OpenGym，再逆向某bod App并导入其中视频，以迁移个人训练使用；没有完整品牌、代码、权限或导入验证。 **[其他 AI 逆向 · 待验证]**
 - [自建Foundry替代：员工称AI帮助拼接开源数据平台](../cases/fused-stardust-foundry-open-source-ai-rebuild.md) — The Mad Y0da称所在公司取消Palantir合同后，自建数据连接、管线、ontology与Workshop式界面；未披露代码、组件或迁移验证。 **[其他 AI 逆向 · 待验证]**
 - [Yapfast：Hemish称Rust版Discord替代客户端已有通话](../cases/yapfast-rust-discord-ai-reversing-report.md) — Hemish在AI与mod讨论中以Yapfast为例称已逆向Rust客户端且能打电话；没有说明AI具体研究步骤或提供通话验证。 **[其他 AI 逆向 · 待验证]**
