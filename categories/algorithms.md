@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [1118帧重建参考视频：naresh用Claude、GPT Sol与ffmpeg的三天实验](../cases/naresh-antrofrog-video-1118-frame-ai-reconstruction.md) — naresh称Claude写脚本拆解antrofrog视频，GPT Sol逐帧重生再用ffmpeg拼接；准确度是自评，没有连续性指标或独立对照。 **[其他 AI 逆向 · 分析测试]**
+- [同领域五条Reels：先提切点，再让Claude匹配节奏的idea](../cases/rea-video-five-reels-niche-cut-rhythm-idea.md) — Ai Creator Library建议用rea-video分析五条热门短视频的切点和平均镜头长度，让Claude参考领域节奏；没有实施或效果报告。 **[其他 AI 逆向 · 待验证]**
 - [zlib的Adler-32：Ahmet Göker用REA对照常量、汇编与六组输入](../cases/ahmet-goker-rea-ghidra-zlib-adler32-crosscheck.md) — 作者报告区分同名转发与计算函数，以65521／5552核对源码，再测六组输入，并发现Ghidra的void返回类型误判。 **[REA · 分析测试]**
 - [1986年Fortran流体库到Python：H YJ转述Gemini Argon重构](../cases/hyj-gemini-argon-1986-fortran-cfd-python-report.md) — 转述称旧科学算法被重建为向量Python，数千边界测试保持浮点精度并提速40%；库名、基准和官方记录未取得。 **[其他 AI 逆向 · 待验证]**
 - [VulDec：反编译后查漏洞，转述结果显示泛化与功能正确性仍受限](../cases/vuldec-qwen-plbart-decompilation-vulnerability-study-report.md) — 吉川孝志转述Qwen2.5-Coder加PLBART的VulDec研究：跨项目漏洞precision14%、recall28%；HumanEval全测通过34.34%，低于一个Ghidra+LLM基线，不是可自主分诊的证明。 **[其他 AI 逆向 · 分析测试]**

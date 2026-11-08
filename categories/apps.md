@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [抖音端侧推荐：WangNextDoor转述AI逆向的模型与行为预测线索](../cases/douyin-ondevice-models-ai-reverse-secondary-report.md) — 转述称AI分析发现25个以上模型、50多个变量和预缓存；未提供原始分析，不能视作已证实的数据收集行为。 **[其他 AI 逆向 · 待验证]**
+- [macOS上的iPod重建：Alexis称Fable纠正旧Claude版本的行为失真](../cases/alexis-ipod-macos-fable-behavior-fidelity-review.md) — 作者把一年前Claude写的iPod应用交Fable复查，报告修正屏幕、背光和音量交互并减少代码；未取得原固件对照或仓库。 **[其他 AI 逆向 · 进行中]**
+- [未具名杀毒软件：0xedgerunner称DeepSeek辅助逆向发现两项系统级写删问题](../cases/0xedgerunner-deepseek-antivirus-system-write-delete-report.md) — 作者称人工在环研究12小时发现两项系统级任意写／删，约400M token花约2美元；没有软件版本、日志或厂商确认，费用也未核验。 **[其他 AI 逆向 · 待验证]**
 - [Deva：把逆向与特殊提示配置放到独立桌面Agent工作台](../cases/deva-desktop-agent-reverse-research-workbench.md) — Kxians介绍面向AI逆向与安全研究的Deva，主张与日常开发环境分开；未取得可读仓库或具体目标实验。 **[其他 AI 逆向 · 待验证]**
 - [techie007用Claude Code研究Claude Desktop：未发布功能与VM线索](../cases/techie007-claude-desktop-code-unreleased-feature-study.md) — 作者报告Claude Code分析客户端，称发现10GB Linux VM、42工具、72代号与教学录制入口；代码线索不证明功能上线。 **[其他 AI 逆向 · 分析测试]**
 - [飞牛OS漏洞研究：李天才称Muse跑三天三夜仍无发现](../cases/lniosytest-muse-fnos-three-day-no-finding.md) — 李天才自述Muse研究飞牛OS三天三夜没出漏洞，并询问时间主要花在读代码还是搭环境复现；不等于系统安全证明。 **[其他 AI 逆向 · 分析测试]**
@@ -138,7 +141,7 @@
 - [私信功能重建：CyronANNO称Gemini帮助逆向，基本实现仍待完善](../cases/cyronanno-gemini-direct-message-rebuild-report.md) — 作者称Gemini在Opus不肯参与的逆向工作中帮大忙，并基本实现私信；平台、协议与代码未具名，不推断是哪家社交服务。 **[其他 AI 逆向 · 进行中]**
 - [YouTube实时配音：deník AI agenta称REA辅助制作PC与移动版本](../cases/denikaiagenta-rea-youtube-live-dubbing-report.md) — 捷克语作者报告测试REA并制作有上下文的YouTube实时配音，可区分多说话人与性别；未给源码、延迟或识别评测。 **[REA · 待验证]**
 - [Android个人Plaud：deník AI agenta称REA辅助制作会议录音与行动项应用](../cases/denikaiagenta-rea-android-plaud-meeting-report.md) — 作者称试用REA后做出自己的Android“Plaud”，记录会议、转写并生成含任务的纪要；没有硬件互通或原算法等价证据。 **[REA · 待验证]**
-- [REI REA：12项逆向技能与可选Python工作台，区分目录和可执行能力](../cases/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan介绍面向多Agent的逆向技能包；公开README明确12项技能、可选14工具MCP，Ghidra／IDA／Frida实时会话及morluto/rea适配仍属计划。 **[其他 AI 逆向 · 相关项目]**
+- [REI Reverse Engineer：从12项技能到Rust桌面与双MCP证据桥](../cases/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan的REI工作台新增Craft Anything授权分叉桌面与上游REA桥；项目报告同一八字节WASM经Python识别和REA熵分析，248路由不等于逐项验证。 **[REA · 进行中]**
 - [Grok Bot／REA自测：Paone称五文件追踪8／8步骤，但未运行应用](../cases/paone-grokbot-rea-five-file-static-test.md) — Paone补充REA6.8.0与Export notes的八步静态调用链、Downloads路径和main.js定位；8／8仍是作者证据标签，应用一次未运行。 **[REA · 分析测试]**
 - [Apple Watch的WHOOP式App：Codez称Opus两小时重建恢复、负荷与睡眠界面](../cases/codez-opus-whoop-style-apple-watch-app.md) — Codez称取消199美元年费后以Opus 5.5制作开源iPhone／Watch替代品；列出健康分数与端侧教练，但未核实仓库、隐私或与WHOOP算法等价。 **[其他 AI 逆向 · 待验证]**
 - [Anthropic系统提示学习：作者称让Agent逐行分析公开泄漏文本](../cases/agent-anthropic-system-prompt-line-analysis-report.md) — 作者描述新模型发布后搜寻泄漏system prompt并让Agent解释每行作用的个人工作流；无版本、文本或结果，不能认定官方提示已提取。 **[其他 AI 逆向 · 待验证]**

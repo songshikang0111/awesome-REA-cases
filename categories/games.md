@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [泡泡龙式消除到塔防：墨无归的REA本地重构试作](../cases/moblacksoil-rea-bubble-shooter-tower-defense-prototype.md) — 墨无归称约半小时研究并重构一款泡泡龙式游戏，保留动作反馈改试塔防；换素材、数值与设计仍待做，未报告盈利。 **[REA · 进行中]**
 - [Subway Surfers金币逻辑：morsen转述Claude Code单会话研究](../cases/morsen-claude-subway-surfers-coin-logic-report.md) — morsen称Claude Code在root Android上研究金币并修改余额；反作弊绕过与完全自主为未核验说法，不提供操作步骤。 **[其他 AI 逆向 · 待验证]**
 - [本地AI修改DOS纵向射击游戏：Popular AI的Windows教程介绍](../cases/popularai-local-agent-rea-ghidra-dos-shooter-tutorial.md) — Popular AI介绍在Windows上用本地Agent、REA和Ghidra修改90年代DOS纵向射击游戏；未取得教程正文、游戏名或修改结果。 **[REA · 待验证]**
 - [Sonic the Fighters：AI反编译作品的下载者报告低帧率与很快下架](../cases/sonic-fighters-ai-decompile-negative-user-report.md) — KingDisappointed在AI标识讨论中称下载Sonic the Fighters反编译作品后见其撤下，后补报内存、贴图、闪烁和低于20FPS问题；没有版本、设备或日志。 **[未确认使用 REA · 待验证]**

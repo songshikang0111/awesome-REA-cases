@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1859 entries**, organized by use case, without a Top-N or popularity threshold.
+**1867 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (374)
-- [Hardware and interoperability](categories/en/hardware.md) (500)
-- [Applications and clients](categories/en/apps.md) (770)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (215)
+- [Games and preservation](categories/en/games.md) (375)
+- [Hardware and interoperability](categories/en/hardware.md) (502)
+- [Applications and clients](categories/en/apps.md) (773)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (217)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [From bubble-shooter matching to tower defense: Moblacksoil's local REA reconstruction prototype](cases/en/moblacksoil-rea-bubble-shooter-tower-defense-prototype.md) — Moblacksoil reports studying and rebuilding a bubble-shooter-style game in roughly half an hour, reusing its feedback as a basis for tower defense. Assets, balancing and design remain unfinished; no earnings are reported. **[REA · In progress]**
 - [Subway Surfers coin logic: morsen relays a one-session Claude Code study](cases/en/morsen-claude-subway-surfers-coin-logic-report.md) — morsen says Claude Code studied and changed coins on rooted Android. Anti-cheat bypass and full autonomy are unverified claims; no operational instructions are provided. **[Other AI-assisted work · Needs verification]**
 - [Modding a DOS vertical shooter with local AI: Popular AI's Windows tutorial introduction](cases/en/popularai-local-agent-rea-ghidra-dos-shooter-tutorial.md) — Popular AI introduces a Windows tutorial using a local agent, REA and Ghidra to mod a 1990s DOS vertical shooter. Tutorial text, game identity and modification results were not obtained. **[REA · Needs verification]**
 - [Sonic the Fighters: a downloader reports low frame rates and rapid removal of an AI decompile](cases/en/sonic-fighters-ai-decompile-negative-user-report.md) — In an AI-labeling discussion, KingDisappointed reports downloading a Sonic the Fighters decompile and seeing it removed, later describing memory, texture, flicker and sub-20-FPS problems. Revision, hardware and logs are absent. **[REA use unconfirmed · Needs verification]**
@@ -405,6 +406,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Vino display driver: okey_amy relays AI-assisted Rust clean-room reversing and a cease-and-desist claim](cases/en/vino-displaylink-rust-ai-driver-cease-desist-report.md) — A post describes Vino as an AI-assisted Rust clean-room display driver and claims a Synaptics cease-and-desist. The notice, code and compatibility tests were not obtained. **[Other AI-assisted work · Needs verification]**
+- [A phone bootloader stays locked: Pablo reports a failed layered investigation with Hermes Agent](cases/en/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo says Hermes Agent-assisted research did not overcome a locked bootloader and the brand's unlock-code route did not support the phone. No brute-force attempt or bricking is established. **[Other AI-assisted work · Analysis test]**
 - [A smart Bluetooth gateway: Zhang Haiyang reports a colleague's REA study for BCG research](cases/en/zhcfox-rea-bluetooth-gateway-bcg-study.md) — Zhang relays a colleague studying a Bluetooth gateway and says roughly ninety percent emerged. BCG is unexplained; the proportion is not functional equivalence or measured efficiency. **[REA · Needs verification]**
 - [A phone launcher crash: TianCai's failed AI-reversing experience](cases/en/ai-phone-reverse-study-launcher-crash-report.md) — Two posts by the same author report a system-launcher crash during AI phone research. Device, tools and recovery are undisclosed; permanent damage or REA causation is not inferred. **[Other AI-assisted work · Analysis test]**
 - [RAW/DNG output for a Ricoh R10: isidaur says Claude discouraged the firmware idea](cases/en/isidaur-ricoh-r10-claude-raw-dng-firmware-attempt.md) — The author wanted an R10 firmware investigation for RAW or DNG output but reports Claude advising abandonment. No analysis artifact or flashing result is supplied. **[Other AI-assisted work · Needs verification]**
@@ -908,6 +911,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Douyin on-device recommendations: WangNextDoor relays AI-reversing claims about models and behavior prediction](cases/en/douyin-ondevice-models-ai-reverse-secondary-report.md) — A retelling claims more than 25 models, over 50 variables and pre-caching. No original analysis is supplied; data-collection claims remain unverified. **[Other AI-assisted work · Needs verification]**
+- [An iPod rebuilt for macOS: Alexis says Fable corrected behavioral inaccuracies in an older Claude version](cases/en/alexis-ipod-macos-fable-behavior-fidelity-review.md) — The author gives a year-old Claude-built iPod app to Fable and reports fixes to the screen, backlight and volume interaction with less code. Firmware comparisons and the repository were not obtained. **[Other AI-assisted work · In progress]**
+- [An unnamed antivirus: 0xedgerunner reports two system-level write/delete issues from DeepSeek-assisted reversing](cases/en/0xedgerunner-deepseek-antivirus-system-write-delete-report.md) — The author claims two system-level arbitrary write/delete findings in 12 hours, with about 400M tokens costing about $2. Product revisions, logs, vendor confirmation and billing evidence are absent. **[Other AI-assisted work · Needs verification]**
 - [Deva: a separate desktop agent workbench for reversing and specialized prompt configurations](cases/en/deva-desktop-agent-reverse-research-workbench.md) — Kxians introduces Deva for AI reversing and security research, separate from everyday development. A readable repository and target-specific experiments were not obtained. **[Other AI-assisted work · Needs verification]**
 - [techie007 studies Claude Desktop with Claude Code: unreleased-feature and VM clues](cases/en/techie007-claude-desktop-code-unreleased-feature-study.md) — The author reports a 10 GB Linux VM, 42 tools, 72 codenames and teaching/recording entries. Client-code clues do not establish released functionality. **[Other AI-assisted work · Analysis test]**
 - [fnOS vulnerability research: TianCai reports no finding after three days and nights with Muse](cases/en/lniosytest-muse-fnos-three-day-no-finding.md) — TianCai reports Muse finding no fnOS vulnerability in three days and nights, asking whether code reading or setup/reproduction dominates effort. This is not proof of system security. **[Other AI-assisted work · Analysis test]**
@@ -1044,7 +1050,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Direct-message reconstruction: CyronANNO credits Gemini with reversing and an initial implementation](cases/en/cyronanno-gemini-direct-message-rebuild-report.md) — The author says Gemini helped where Opus would not participate, with direct messaging largely implemented but unfinished. Platform, protocol and code are unnamed. **[Other AI-assisted work · In progress]**
 - [Live YouTube dubbing: deník AI agenta reports REA-assisted PC and mobile versions](cases/en/denikaiagenta-rea-youtube-live-dubbing-report.md) — A Czech-language author credits REA with contextual YouTube dubbing and multiple-speaker/gender distinction. No source, latency or recognition evaluation is supplied. **[REA · Needs verification]**
 - [A personal Android Plaud: deník AI agenta reports REA-assisted meeting recording and action items](cases/en/denikaiagenta-rea-android-plaud-meeting-report.md) — The author reports an Android Plaud-like recorder, transcripts and meeting notes with tasks after trying REA. Hardware interoperability and original-algorithm equivalence are not established. **[REA · Needs verification]**
-- [REI REA: 12 reversing skills and an optional Python workbench distinguish catalogs from executable capabilities](cases/en/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan promotes a multi-agent skill pack. Public documentation separates 12 skills and an optional 14-tool MCP server from planned Ghidra/IDA/Frida sessions and morluto/rea integration. **[Other AI-assisted work · Related project]**
+- [REI Reverse Engineer: from 12 skills to a Rust desktop and dual MCP evidence bridges](cases/en/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan's REI workbench adds a licensed Craft Anything desktop fork and upstream REA bridge. The project reports Python identification and REA entropy on one eight-byte WASM fixture; 248 routes do not mean individually validated operations. **[REA · In progress]**
 - [A Grok Bot/REA self-test: Paone reports eight confirmed steps across five files without running the app](cases/en/paone-grokbot-rea-five-file-static-test.md) — Paone adds REA 6.8.0, an eight-step static Export notes chain, Downloads and main.js line references. Eight of eight remains author evidence labels; the app was never run. **[REA · Analysis test]**
 - [A WHOOP-style Apple Watch app: Codez reports an Opus rebuild of recovery, strain and sleep features in two hours](cases/en/codez-opus-whoop-style-apple-watch-app.md) — Codez claims an open-source iPhone/Watch replacement after canceling $199/year, using Opus 5.5. Health scores and on-device coaching are listed; repository identity, privacy and WHOOP-algorithm equivalence remain unverified. **[Other AI-assisted work · Needs verification]**
 - [Learning from Anthropic system prompts: an author reports agent-assisted line-by-line analysis](cases/en/agent-anthropic-system-prompt-line-analysis-report.md) — The author describes finding purported leaked system prompts after new releases and asking an agent to explain each line. No version, text or output establishes extraction of an official prompt. **[Other AI-assisted work · Needs verification]**
@@ -1681,6 +1687,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Rebuilding a reference video in 1,118 frames: naresh's three-day Claude, GPT Sol and ffmpeg experiment](cases/en/naresh-antrofrog-video-1118-frame-ai-reconstruction.md) — naresh reports splitting an antrofrog video with a Claude-written script, regenerating frames with GPT Sol and stitching them with ffmpeg. Accuracy is self-assessed, without continuity metrics or independent comparison. **[Other AI-assisted work · Analysis test]**
+- [Five Reels in one niche: extract cut timestamps before asking Claude to match the rhythm](cases/en/rea-video-five-reels-niche-cut-rhythm-idea.md) — Ai Creator Library proposes using rea-video on five popular clips to extract cuts and average shot length, then have Claude follow the niche's rhythm. No implementation or outcome is reported. **[Other AI-assisted work · Needs verification]**
 - [zlib Adler-32: Ahmet Göker cross-checks constants, assembly and six inputs with REA](cases/en/ahmet-goker-rea-ghidra-zlib-adler32-crosscheck.md) — The author separates same-named forwarding and calculation functions, compares 65521/5552 with source, checks six inputs and reports a Ghidra void-return-type error. **[REA · Analysis test]**
 - [A 1986 Fortran CFD library to Python: H YJ relays a Gemini Argon reconstruction claim](cases/en/hyj-gemini-argon-1986-fortran-cfd-python-report.md) — A retelling claims vectorized Python, thousands of boundary tests preserving floating-point precision and a 40% speedup. Library identity, benchmarks and official records were not obtained. **[Other AI-assisted work · Needs verification]**
 - [VulDec: a decompile-then-detect study with reported generalization and functional-correctness limits](cases/en/vuldec-qwen-plbart-decompilation-vulnerability-study-report.md) — Takashi Yoshikawa relays a Qwen2.5-Coder/PLBART study: cross-project vulnerable-function precision 14% and recall 28%; HumanEval all-test success 34.34%, below one Ghidra/LLM baseline. This does not establish autonomous triage. **[Other AI-assisted work · Analysis test]**

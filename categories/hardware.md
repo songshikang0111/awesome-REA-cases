@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Vino显示驱动：okey_amy转述AI辅助Rust净室逆向与停止要求](../cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — 帖子称Vino以AI辅助Rust净室逆向实现显示驱动，并遭Synaptics停止要求；未取得通知原文、源码或兼容性测试。 **[其他 AI 逆向 · 待验证]**
+- [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](../cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](../cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
 - [手机系统桌面崩溃：李天才的AI逆向失败经历](../cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
 - [Ricoh R10输出RAW／DNG：isidaur向Claude求助后被劝放弃](../cases/isidaur-ricoh-r10-claude-raw-dng-firmware-attempt.md) — 作者想研究自己的R10相机固件开启RAW或DNG，但称Claude劝其放弃；没有分析产物或刷写结果。 **[其他 AI 逆向 · 待验证]**

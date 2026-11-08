@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1859 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1867 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（374）
-- [硬件与设备互通](categories/hardware.md)（500）
-- [应用与客户端](categories/apps.md)（770）
-- [算法与功能重建](categories/algorithms.md)（215）
+- [游戏与游戏保存](categories/games.md)（375）
+- [硬件与设备互通](categories/hardware.md)（502）
+- [应用与客户端](categories/apps.md)（773）
+- [算法与功能重建](categories/algorithms.md)（217）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [泡泡龙式消除到塔防：墨无归的REA本地重构试作](cases/moblacksoil-rea-bubble-shooter-tower-defense-prototype.md) — 墨无归称约半小时研究并重构一款泡泡龙式游戏，保留动作反馈改试塔防；换素材、数值与设计仍待做，未报告盈利。 **[REA · 进行中]**
 - [Subway Surfers金币逻辑：morsen转述Claude Code单会话研究](cases/morsen-claude-subway-surfers-coin-logic-report.md) — morsen称Claude Code在root Android上研究金币并修改余额；反作弊绕过与完全自主为未核验说法，不提供操作步骤。 **[其他 AI 逆向 · 待验证]**
 - [本地AI修改DOS纵向射击游戏：Popular AI的Windows教程介绍](cases/popularai-local-agent-rea-ghidra-dos-shooter-tutorial.md) — Popular AI介绍在Windows上用本地Agent、REA和Ghidra修改90年代DOS纵向射击游戏；未取得教程正文、游戏名或修改结果。 **[REA · 待验证]**
 - [Sonic the Fighters：AI反编译作品的下载者报告低帧率与很快下架](cases/sonic-fighters-ai-decompile-negative-user-report.md) — KingDisappointed在AI标识讨论中称下载Sonic the Fighters反编译作品后见其撤下，后补报内存、贴图、闪烁和低于20FPS问题；没有版本、设备或日志。 **[未确认使用 REA · 待验证]**
@@ -403,6 +404,8 @@
 
 ### 硬件与设备互通
 
+- [Vino显示驱动：okey_amy转述AI辅助Rust净室逆向与停止要求](cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — 帖子称Vino以AI辅助Rust净室逆向实现显示驱动，并遭Synaptics停止要求；未取得通知原文、源码或兼容性测试。 **[其他 AI 逆向 · 待验证]**
+- [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
 - [手机系统桌面崩溃：李天才的AI逆向失败经历](cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
 - [Ricoh R10输出RAW／DNG：isidaur向Claude求助后被劝放弃](cases/isidaur-ricoh-r10-claude-raw-dng-firmware-attempt.md) — 作者想研究自己的R10相机固件开启RAW或DNG，但称Claude劝其放弃；没有分析产物或刷写结果。 **[其他 AI 逆向 · 待验证]**
@@ -906,6 +909,9 @@
 
 ### 应用与客户端
 
+- [抖音端侧推荐：WangNextDoor转述AI逆向的模型与行为预测线索](cases/douyin-ondevice-models-ai-reverse-secondary-report.md) — 转述称AI分析发现25个以上模型、50多个变量和预缓存；未提供原始分析，不能视作已证实的数据收集行为。 **[其他 AI 逆向 · 待验证]**
+- [macOS上的iPod重建：Alexis称Fable纠正旧Claude版本的行为失真](cases/alexis-ipod-macos-fable-behavior-fidelity-review.md) — 作者把一年前Claude写的iPod应用交Fable复查，报告修正屏幕、背光和音量交互并减少代码；未取得原固件对照或仓库。 **[其他 AI 逆向 · 进行中]**
+- [未具名杀毒软件：0xedgerunner称DeepSeek辅助逆向发现两项系统级写删问题](cases/0xedgerunner-deepseek-antivirus-system-write-delete-report.md) — 作者称人工在环研究12小时发现两项系统级任意写／删，约400M token花约2美元；没有软件版本、日志或厂商确认，费用也未核验。 **[其他 AI 逆向 · 待验证]**
 - [Deva：把逆向与特殊提示配置放到独立桌面Agent工作台](cases/deva-desktop-agent-reverse-research-workbench.md) — Kxians介绍面向AI逆向与安全研究的Deva，主张与日常开发环境分开；未取得可读仓库或具体目标实验。 **[其他 AI 逆向 · 待验证]**
 - [techie007用Claude Code研究Claude Desktop：未发布功能与VM线索](cases/techie007-claude-desktop-code-unreleased-feature-study.md) — 作者报告Claude Code分析客户端，称发现10GB Linux VM、42工具、72代号与教学录制入口；代码线索不证明功能上线。 **[其他 AI 逆向 · 分析测试]**
 - [飞牛OS漏洞研究：李天才称Muse跑三天三夜仍无发现](cases/lniosytest-muse-fnos-three-day-no-finding.md) — 李天才自述Muse研究飞牛OS三天三夜没出漏洞，并询问时间主要花在读代码还是搭环境复现；不等于系统安全证明。 **[其他 AI 逆向 · 分析测试]**
@@ -1042,7 +1048,7 @@
 - [私信功能重建：CyronANNO称Gemini帮助逆向，基本实现仍待完善](cases/cyronanno-gemini-direct-message-rebuild-report.md) — 作者称Gemini在Opus不肯参与的逆向工作中帮大忙，并基本实现私信；平台、协议与代码未具名，不推断是哪家社交服务。 **[其他 AI 逆向 · 进行中]**
 - [YouTube实时配音：deník AI agenta称REA辅助制作PC与移动版本](cases/denikaiagenta-rea-youtube-live-dubbing-report.md) — 捷克语作者报告测试REA并制作有上下文的YouTube实时配音，可区分多说话人与性别；未给源码、延迟或识别评测。 **[REA · 待验证]**
 - [Android个人Plaud：deník AI agenta称REA辅助制作会议录音与行动项应用](cases/denikaiagenta-rea-android-plaud-meeting-report.md) — 作者称试用REA后做出自己的Android“Plaud”，记录会议、转写并生成含任务的纪要；没有硬件互通或原算法等价证据。 **[REA · 待验证]**
-- [REI REA：12项逆向技能与可选Python工作台，区分目录和可执行能力](cases/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan介绍面向多Agent的逆向技能包；公开README明确12项技能、可选14工具MCP，Ghidra／IDA／Frida实时会话及morluto/rea适配仍属计划。 **[其他 AI 逆向 · 相关项目]**
+- [REI Reverse Engineer：从12项技能到Rust桌面与双MCP证据桥](cases/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan的REI工作台新增Craft Anything授权分叉桌面与上游REA桥；项目报告同一八字节WASM经Python识别和REA熵分析，248路由不等于逐项验证。 **[REA · 进行中]**
 - [Grok Bot／REA自测：Paone称五文件追踪8／8步骤，但未运行应用](cases/paone-grokbot-rea-five-file-static-test.md) — Paone补充REA6.8.0与Export notes的八步静态调用链、Downloads路径和main.js定位；8／8仍是作者证据标签，应用一次未运行。 **[REA · 分析测试]**
 - [Apple Watch的WHOOP式App：Codez称Opus两小时重建恢复、负荷与睡眠界面](cases/codez-opus-whoop-style-apple-watch-app.md) — Codez称取消199美元年费后以Opus 5.5制作开源iPhone／Watch替代品；列出健康分数与端侧教练，但未核实仓库、隐私或与WHOOP算法等价。 **[其他 AI 逆向 · 待验证]**
 - [Anthropic系统提示学习：作者称让Agent逐行分析公开泄漏文本](cases/agent-anthropic-system-prompt-line-analysis-report.md) — 作者描述新模型发布后搜寻泄漏system prompt并让Agent解释每行作用的个人工作流；无版本、文本或结果，不能认定官方提示已提取。 **[其他 AI 逆向 · 待验证]**
@@ -1679,6 +1685,8 @@
 
 ### 算法与功能重建
 
+- [1118帧重建参考视频：naresh用Claude、GPT Sol与ffmpeg的三天实验](cases/naresh-antrofrog-video-1118-frame-ai-reconstruction.md) — naresh称Claude写脚本拆解antrofrog视频，GPT Sol逐帧重生再用ffmpeg拼接；准确度是自评，没有连续性指标或独立对照。 **[其他 AI 逆向 · 分析测试]**
+- [同领域五条Reels：先提切点，再让Claude匹配节奏的idea](cases/rea-video-five-reels-niche-cut-rhythm-idea.md) — Ai Creator Library建议用rea-video分析五条热门短视频的切点和平均镜头长度，让Claude参考领域节奏；没有实施或效果报告。 **[其他 AI 逆向 · 待验证]**
 - [zlib的Adler-32：Ahmet Göker用REA对照常量、汇编与六组输入](cases/ahmet-goker-rea-ghidra-zlib-adler32-crosscheck.md) — 作者报告区分同名转发与计算函数，以65521／5552核对源码，再测六组输入，并发现Ghidra的void返回类型误判。 **[REA · 分析测试]**
 - [1986年Fortran流体库到Python：H YJ转述Gemini Argon重构](cases/hyj-gemini-argon-1986-fortran-cfd-python-report.md) — 转述称旧科学算法被重建为向量Python，数千边界测试保持浮点精度并提速40%；库名、基准和官方记录未取得。 **[其他 AI 逆向 · 待验证]**
 - [VulDec：反编译后查漏洞，转述结果显示泛化与功能正确性仍受限](cases/vuldec-qwen-plbart-decompilation-vulnerability-study-report.md) — 吉川孝志转述Qwen2.5-Coder加PLBART的VulDec研究：跨项目漏洞precision14%、recall28%；HumanEval全测通过34.34%，低于一个Ghidra+LLM基线，不是可自主分诊的证明。 **[其他 AI 逆向 · 分析测试]**
