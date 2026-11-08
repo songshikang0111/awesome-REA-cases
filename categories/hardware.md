@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](../cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
+- [手机系统桌面崩溃：李天才的AI逆向失败经历](../cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
+- [Ricoh R10输出RAW／DNG：isidaur向Claude求助后被劝放弃](../cases/isidaur-ricoh-r10-claude-raw-dng-firmware-attempt.md) — 作者想研究自己的R10相机固件开启RAW或DNG，但称Claude劝其放弃；没有分析产物或刷写结果。 **[其他 AI 逆向 · 待验证]**
+- [Mi 11 Lite NE 5G上的iOS：Jottagaah将争议演示归因REA](../cases/jottagaah-mi11lite-ios-rea-disputed-port-report.md) — 候选称不是launcher、Claude Code／REA能做；父串标题iOS27与回复iOS16不一致，未确认真实系统启动或移植。 **[REA · 待验证]**
 - [teej的Kindle提速：Ozark转贴Grok对Cursor／Zig重写的解释](../cases/teej-kindle-zig-cursor-grok-secondary-report.md) — Ozark转贴Grok称teej用Cursor与Zig重写Kindle界面并优化刷新；父帖只确认作者发了演示，未独立确认AI归因、固件范围或速度。 **[其他 AI 逆向 · 待验证]**
 - [Tegra X1与Apple固件：Kayden问Claude能否把移植扩展到其他设备](../cases/kayden-tegra-x1-claude-apple-firmware-port-question.md) — 读者看到bruno的Tegra X1原生Metal驱动进展，询问是否有MacBook架构关联、能否让Claude移植Apple固件；只是具体设备背景下的疑问，非AI驱动实现。 **[其他 AI 逆向 · 待验证]**
 - [蓝光扫描到参数模型：MattyK166转述AI辅助3D打印重建流程](../cases/mattyk166-blue-light-scan-ai-parametric-model-report.md) — MattyK166称见到消费进阶级蓝光激光扫描先生成网格、AI再建参数模型供3D打印；物体、软件、尺寸精度与输出未披露。 **[其他 AI 逆向 · 待验证]**
@@ -107,7 +111,7 @@
 - [Linux显示驱动：RensouhouK称Claude与REA三小时重试成功](../cases/rensouhouk-claude-rea-linux-display-driver-report.md) — 作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。 **[REA · 待验证]**
 - [智能料理锅：Hollis称开始用Claude逆向，想让AI做饭](../cases/hollis-claude-smart-cooker-research.md) — Hollis称已开始研究智能料理锅，希望AI承担烹饪，人工只准备食材与摆盘；没有控制演示或安全测试。 **[其他 AI 逆向 · 进行中]**
 - [九号电动车数据看板：Kevin Cui称用AI逆向并上报Grafana](../cases/kevin-cui-ninebot-ai-grafana-telemetry.md) — 作者回复确认数据来自AI逆向，根帖展示九号电动车接入Grafana的报告；车型、获取通道、字段与代码未公开，不能推断已覆盖车辆控制。 **[其他 AI 逆向 · 待验证]**
-- [121GW万用表：Dave Jones报告Claude Code完成C重建，并发布实机测试视频](../cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — EEVblog1784报告不到24小时完成C重建与实机测试；新转述增加691函数及蓝牙可用主张，但本合集仍未观看视频、核对源码或校准。 **[其他 AI 逆向 · 进行中]**
+- [121GW万用表：Dave Jones报告Claude Code完成C重建，并发布实机测试视频](../cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — EEVblog报告121GW的C重建与实机测试；新转述补v2.05、SD bootloader、691函数外库与Unicorn／原dump要求，仍未独立核对源码、等价性或校准。 **[其他 AI 逆向 · 进行中]**
 - [PS5蓝光离线启动：转述开发者鸣谢Claude的越狱载入报告](../cases/ps5-bluray-offline-loader-claude-secondary-report.md) — wakeupbrk称PS5可从刻录蓝光启动越狱、不需Wi-Fi或浏览器，开发者鸣谢Claude；未取得项目原文、支持固件或AI实际分工，不证明AI发现完整利用链。 **[其他 AI 逆向 · 待验证]**
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](../cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](../cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**

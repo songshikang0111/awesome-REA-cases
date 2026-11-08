@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [zlib的Adler-32：Ahmet Göker用REA对照常量、汇编与六组输入](../cases/ahmet-goker-rea-ghidra-zlib-adler32-crosscheck.md) — 作者报告区分同名转发与计算函数，以65521／5552核对源码，再测六组输入，并发现Ghidra的void返回类型误判。 **[REA · 分析测试]**
+- [1986年Fortran流体库到Python：H YJ转述Gemini Argon重构](../cases/hyj-gemini-argon-1986-fortran-cfd-python-report.md) — 转述称旧科学算法被重建为向量Python，数千边界测试保持浮点精度并提速40%；库名、基准和官方记录未取得。 **[其他 AI 逆向 · 待验证]**
 - [VulDec：反编译后查漏洞，转述结果显示泛化与功能正确性仍受限](../cases/vuldec-qwen-plbart-decompilation-vulnerability-study-report.md) — 吉川孝志转述Qwen2.5-Coder加PLBART的VulDec研究：跨项目漏洞precision14%、recall28%；HumanEval全测通过34.34%，低于一个Ghidra+LLM基线，不是可自主分诊的证明。 **[其他 AI 逆向 · 分析测试]**
 - [VIP看台舞蹈视频：Leaf用Gemini反推动作，承认导演与运镜规则不足](../cases/leaf-ayi-vip-stand-dance-gemini-prompt-reconstruction.md) — Leaf称以Gemini4／Antigravity研究AYi视频，给出30秒六段动作与115BPM规格；自评不如后来公开的原提示词，未做客观成片对照。 **[其他 AI 逆向 · 分析测试]**
 - [RSA1024研究转述：人类监督AI寻找旧密码体系弱点](../cases/deepmind-rsa1024-ai-weaknesses-secondary-report.md) — 候选称DeepMind人类监督AI数周研究RSA1024，理论签名伪造快1600倍、批量密钥平均成本低30倍；未取得原论文、前提或验证，不能推成现代加密已破或普遍安全保证。 **[其他 AI 逆向 · 待验证]**
@@ -63,7 +65,7 @@
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](../cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
 - [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](../cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](../cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**
-- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](../cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth据称用Treg汇总公开增长轨迹；Supersocks补Tesla部分分析0.31美元和窗口遗漏，Salman给Treg渠道拆解，均非内部策略或因果关系的独立验证。 **[其他 AI 逆向 · 相关项目]**
+- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](../cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth经Treg反推公开增长轨迹；新Lovable转述称徽章反链20132站、affiliate918站和葡语广告，保留Tesla／Treg窗口限制，数字不是内部策略或因果证明。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](../cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](../cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](../cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**

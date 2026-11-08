@@ -22,6 +22,9 @@ At 10:12:50, James Russo (@Rames_Jusso) again claims HyperFrames outperforms REA
 
 This collection checked text, older pinned documentation and licensing only, without installing, downloading reference clips, analyzing or comparing remakes. Original prompts or Remotion source are not established as recovered.
 
+A new comparison post at 17:25:17 Beijing time on November 7 positions REA-VIDEO as production-method analysis: shot origins, camera motion, inferred prompts, subtitles, sound, editing and a keyframe-based plan. It contrasts HyperFrames' claimed editable projects and frame-by-frame comparison, calling reverse-any-video Pro-only at $25 per month. The projects remain separate records. This post supplies no new input/output pair, test or official plan information. Free/open-source code does not make agents, vision or separately connected generators free, nor establish recovery of original prompts from footage.
+
+November 7 at 17:25 sealed candidate: 3 likes, 262 views, 0 reposts. A use-case comparison, not a new test; the paid plan was not checked against official information.
 Earlier whole-roundup snapshot: 2 likes, 257 views, 0 reposts. Later November 3 post: 29 likes, 1,356 views, 6 reposts. Tests and licensing were unchecked then; earlier review confirmed license text without rerunning tests.
 November 4 candidate: 0 likes, 11 views, 0 reposts. The poster explicitly has not tested it; older snapshots are retained.
 Earlier November 5 sealed candidates respectively: 2 likes/107 views/0 reposts; 0/71/0; 0/72/0. Subjective impressions, promotional timings and about 950 stars remain distinct from accuracy evidence.
@@ -44,5 +47,6 @@ November 7 at 10:12:50: James Russo candidate, 6 likes, 390 views, 0 reposts. At
 - [Competitor Miao Yang's 20-film comparison claims, November 7, 2026 at 03:41:51 Beijing time](https://x.com/i/status/2118790987875221905)
 - [James Russo's blanket superiority claim and its limits, November 7, 2026 at 10:12:50 Beijing time](https://x.com/i/status/2118889384162525495)
 - [AI少年的 personal usage account and production-work division, November 7, 2026 at 11:08:35 Beijing time](https://x.com/i/status/2118903412687581194)
+- [Retelling comparing REA-VIDEO/HyperFrames uses and pricing, November 7, 2026 at 17:25:17 Beijing time](https://x.com/i/status/2118998213474529750)
 
 [中文](../rea-video-shot-breakdown-rebuild-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

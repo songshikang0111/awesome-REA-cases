@@ -12,6 +12,9 @@
 
 REA仅为灵感来源，未确认执行；与HyperFrames editor小Lin说／Vox模板及REA-VIDEO保持区分。未安装技能、下载原片、观看比较或运行重建，保持unverified。
 
+11月7日17:25:17的新比较帖建议要直接重建时选HyperFrames，称可生成可编辑工程、重建镜头／字幕／动效并逐帧对比，适合产品片、复杂动效和口播混剪；要拆制作方法则选REA-VIDEO。又称reverse-any-video为Pro专属、每月25美元。没有工程样本、版本、官方套餐页或账单，均按介绍者转述，不验证编辑性、还原精度或当前价格。REA-VIDEO开源免费指代码，不抵消模型和生成费用。
+
+11月7日17:25候选封存3赞、262浏览、0转发；25美元为未核官方的月费转述。
 11月5日封存11赞、627浏览、2转发；开源与1-shot是作者说法，不是源码或成片核验。
 11月7日较早候选2赞、42浏览、0转发；20片、108切点、precision、时间与SSIM均为竞争方报告，不是本合集复测。
 11月7日10:12:50，James Russo（@Rames_Jusso）建议用HyperFrames逆向并混剪视频，称己方评测对REA-VIDEO每个维度都胜出。补取确认署名，但未获得该帖对应的版本、样本、指标表或原始结果；不能把它当成新独立实验。较早详细比较明确承认REA-VIDEO成片略快且便宜，因此全面胜出的宣传不应覆盖该边界。候选封存6赞、390浏览、0转发。
@@ -21,5 +24,6 @@ REA仅为灵感来源，未确认执行；与HyperFrames editor小Lin说／Vox�
 - [Miguel Ángel的HyperFrames RAV发布与Stripe示例，2026-11-05](https://x.com/i/status/2118051103057101245)
 - [Miao Yang的reverse-any-video对REA-VIDEO自测，2026-11-07 03:41:51北京时间](https://x.com/i/status/2118790987875221905)
 - [James Russo的全面胜出宣称，2026-11-07 10:12:50北京时间](https://x.com/i/status/2118889384162525495)
+- [两视频工具用途与Pro价格比较转述，2026-11-07 17:25:17北京时间](https://x.com/i/status/2118998213474529750)
 
 [English](en/hyperframes-rav-stripe-video-reconstruction.md) | [返回目录](../README.zh-CN.md)

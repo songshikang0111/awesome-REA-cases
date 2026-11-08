@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1846 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1859 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（373）
-- [硬件与设备互通](categories/hardware.md)（496）
-- [应用与客户端](categories/apps.md)（764）
-- [算法与功能重建](categories/algorithms.md)（213）
+- [游戏与游戏保存](categories/games.md)（374）
+- [硬件与设备互通](categories/hardware.md)（500）
+- [应用与客户端](categories/apps.md)（770）
+- [算法与功能重建](categories/algorithms.md)（215）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Subway Surfers金币逻辑：morsen转述Claude Code单会话研究](cases/morsen-claude-subway-surfers-coin-logic-report.md) — morsen称Claude Code在root Android上研究金币并修改余额；反作弊绕过与完全自主为未核验说法，不提供操作步骤。 **[其他 AI 逆向 · 待验证]**
 - [本地AI修改DOS纵向射击游戏：Popular AI的Windows教程介绍](cases/popularai-local-agent-rea-ghidra-dos-shooter-tutorial.md) — Popular AI介绍在Windows上用本地Agent、REA和Ghidra修改90年代DOS纵向射击游戏；未取得教程正文、游戏名或修改结果。 **[REA · 待验证]**
 - [Sonic the Fighters：AI反编译作品的下载者报告低帧率与很快下架](cases/sonic-fighters-ai-decompile-negative-user-report.md) — KingDisappointed在AI标识讨论中称下载Sonic the Fighters反编译作品后见其撤下，后补报内存、贴图、闪烁和低于20FPS问题；没有版本、设备或日志。 **[未确认使用 REA · 待验证]**
 - [Spyro ANB动画研究：Yallax澄清自己引导Claude，并非完成反编译](cases/dreamwoven-spyro-anb-claude-animation-research.md) — TLoS: ANB串中Yallax说利用DRG mod经验引导Claude；旧帖提五段Pickup动画疑似删减内容，未确认用途，也不把作者当反编译者。 **[其他 AI 逆向 · 进行中]**
@@ -305,7 +306,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植idea：Linux／Vulkan、DVD容量与Qwen／REA的PC版愿望](cases/gta6-ai-decompile-prediction.md) — 从三个月逆向一半的预测，到Linux／Vulkan与DVD玩笑，再到读者提出用Qwen＋REA做PC版，均无样本、实现或测试。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植idea：Linux／Vulkan、DVD容量与Qwen／REA的PC版愿望](cases/gta6-ai-decompile-prediction.md) — GTA6的Linux／Vulkan与Qwen／REA愿望新增前Rockstar主管谈PS5到PC可能性的媒体转述；数万美元token仅预测，仍无样本、移植或已确认官方日期。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**
@@ -402,6 +403,10 @@
 
 ### 硬件与设备互通
 
+- [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
+- [手机系统桌面崩溃：李天才的AI逆向失败经历](cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
+- [Ricoh R10输出RAW／DNG：isidaur向Claude求助后被劝放弃](cases/isidaur-ricoh-r10-claude-raw-dng-firmware-attempt.md) — 作者想研究自己的R10相机固件开启RAW或DNG，但称Claude劝其放弃；没有分析产物或刷写结果。 **[其他 AI 逆向 · 待验证]**
+- [Mi 11 Lite NE 5G上的iOS：Jottagaah将争议演示归因REA](cases/jottagaah-mi11lite-ios-rea-disputed-port-report.md) — 候选称不是launcher、Claude Code／REA能做；父串标题iOS27与回复iOS16不一致，未确认真实系统启动或移植。 **[REA · 待验证]**
 - [teej的Kindle提速：Ozark转贴Grok对Cursor／Zig重写的解释](cases/teej-kindle-zig-cursor-grok-secondary-report.md) — Ozark转贴Grok称teej用Cursor与Zig重写Kindle界面并优化刷新；父帖只确认作者发了演示，未独立确认AI归因、固件范围或速度。 **[其他 AI 逆向 · 待验证]**
 - [Tegra X1与Apple固件：Kayden问Claude能否把移植扩展到其他设备](cases/kayden-tegra-x1-claude-apple-firmware-port-question.md) — 读者看到bruno的Tegra X1原生Metal驱动进展，询问是否有MacBook架构关联、能否让Claude移植Apple固件；只是具体设备背景下的疑问，非AI驱动实现。 **[其他 AI 逆向 · 待验证]**
 - [蓝光扫描到参数模型：MattyK166转述AI辅助3D打印重建流程](cases/mattyk166-blue-light-scan-ai-parametric-model-report.md) — MattyK166称见到消费进阶级蓝光激光扫描先生成网格、AI再建参数模型供3D打印；物体、软件、尺寸精度与输出未披露。 **[其他 AI 逆向 · 待验证]**
@@ -507,7 +512,7 @@
 - [Linux显示驱动：RensouhouK称Claude与REA三小时重试成功](cases/rensouhouk-claude-rea-linux-display-driver-report.md) — 作者在NVIDIA／Omarchy旧讨论中报告11月1日重试驱动成功，自己照AI命令操作；未给补丁、日志或本人硬件，三小时仅为自报。 **[REA · 待验证]**
 - [智能料理锅：Hollis称开始用Claude逆向，想让AI做饭](cases/hollis-claude-smart-cooker-research.md) — Hollis称已开始研究智能料理锅，希望AI承担烹饪，人工只准备食材与摆盘；没有控制演示或安全测试。 **[其他 AI 逆向 · 进行中]**
 - [九号电动车数据看板：Kevin Cui称用AI逆向并上报Grafana](cases/kevin-cui-ninebot-ai-grafana-telemetry.md) — 作者回复确认数据来自AI逆向，根帖展示九号电动车接入Grafana的报告；车型、获取通道、字段与代码未公开，不能推断已覆盖车辆控制。 **[其他 AI 逆向 · 待验证]**
-- [121GW万用表：Dave Jones报告Claude Code完成C重建，并发布实机测试视频](cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — EEVblog1784报告不到24小时完成C重建与实机测试；新转述增加691函数及蓝牙可用主张，但本合集仍未观看视频、核对源码或校准。 **[其他 AI 逆向 · 进行中]**
+- [121GW万用表：Dave Jones报告Claude Code完成C重建，并发布实机测试视频](cases/eevblog-121gw-claude-c-firmware-reconstruction.md) — EEVblog报告121GW的C重建与实机测试；新转述补v2.05、SD bootloader、691函数外库与Unicorn／原dump要求，仍未独立核对源码、等价性或校准。 **[其他 AI 逆向 · 进行中]**
 - [PS5蓝光离线启动：转述开发者鸣谢Claude的越狱载入报告](cases/ps5-bluray-offline-loader-claude-secondary-report.md) — wakeupbrk称PS5可从刻录蓝光启动越狱、不需Wi-Fi或浏览器，开发者鸣谢Claude；未取得项目原文、支持固件或AI实际分工，不证明AI发现完整利用链。 **[其他 AI 逆向 · 待验证]**
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
@@ -901,6 +906,12 @@
 
 ### 应用与客户端
 
+- [Deva：把逆向与特殊提示配置放到独立桌面Agent工作台](cases/deva-desktop-agent-reverse-research-workbench.md) — Kxians介绍面向AI逆向与安全研究的Deva，主张与日常开发环境分开；未取得可读仓库或具体目标实验。 **[其他 AI 逆向 · 待验证]**
+- [techie007用Claude Code研究Claude Desktop：未发布功能与VM线索](cases/techie007-claude-desktop-code-unreleased-feature-study.md) — 作者报告Claude Code分析客户端，称发现10GB Linux VM、42工具、72代号与教学录制入口；代码线索不证明功能上线。 **[其他 AI 逆向 · 分析测试]**
+- [飞牛OS漏洞研究：李天才称Muse跑三天三夜仍无发现](cases/lniosytest-muse-fnos-three-day-no-finding.md) — 李天才自述Muse研究飞牛OS三天三夜没出漏洞，并询问时间主要花在读代码还是搭环境复现；不等于系统安全证明。 **[其他 AI 逆向 · 分析测试]**
+- [Kakao T广告规则：XODUD称网页GPT分析XAPK里的AdFit主机](cases/xodud-kakao-t-adfit-xapk-gpt-adaway-study.md) — 作者为韩国出行App要AdAway列表，称GPT解包XAPK、从整数数组识别主机并写九条启用规则；未报最终阻断测试。 **[其他 AI 逆向 · 进行中]**
+- [ERP从桌面到Web：Mahmut描述REA分析旧流程辅助回归验收](cases/mahmut-erp-desktop-web-rea-regression-testing.md) — 作者介绍工程师将人工测试、REA旧流程分析、新版缺失功能检查和自主测试循环结合；没有产品名或缺陷清单。 **[REA · 进行中]**
+- [Elastic Security检测规则：苏糖称两模型五天研究并公开产物](cases/sutang-elastic-security-ai-detection-rule-extraction-report.md) — 苏糖称Opus5.5与GPT-6 Astra最大设置跑五天，研究Elastic Security并提取全部规则；未取得规则集、许可或覆盖定义。 **[其他 AI 逆向 · 待验证]**
 - [DemoFork：参考demo的剪辑节奏，加三张产品截图生成新视频](cases/demofork-magichour-demo-pacing-three-screenshots.md) — 候选回复指向Rayan Ali的DemoFork：输入参考demo和三张产品截图，以MagicHour AI借用节奏制作新片；未验证视频质量或不复制素材的实现。 **[其他 AI 逆向 · 进行中]**
 - [Hadesi的学习通签到系统：REA辅助研究后的功能自述](cases/hadesi-rea-chaoxing-checkin-system-report.md) — Hadesi因学校签到名额难抢、代办太贵，称用REA研究学习通并集成自动化功能；没有源码、版本或成功率记录，与核桃的课程进度实验分开。 **[REA · 待验证]**
 - [二旬老汉的抢券流量研究：手机操作留给人，包与脚本交给AI](cases/leeking420-ai-mcp-mobile-coupon-traffic-analysis.md) — 二旬老汉称将手机抓包软件经MCP接AI、无线ADB连接，自己操作手机而让AI分析包与脚本；未具名平台、模型或实际抢券成果。 **[其他 AI 逆向 · 进行中]**
@@ -967,14 +978,14 @@
 - [营销版REA：Kev称用竞品链接让Claude拆解营销](cases/kevbuildsapps-claude-competitor-marketing-teardown.md) — Kev Builds Apps称做了营销方向的reverse engineer anything，让Claude分析竞品链接；没有具体竞品、输出或准确率，不是已确认的软件反编译器。 **[其他 AI 逆向 · 相关项目]**
 - [Discord新客户端mod想法：社区预期用AI研究Rust版再做插件](cases/discord-rust-client-ai-reversing-mods-idea.md) — 围绕Discord新客户端的社区消息，读者预期AI恢复mod能力；新增具体idea以Claude监听版本发布、反编译重映射、打补丁并跑测试，尚非已运行维护系统。 **[其他 AI 逆向 · 待验证]**
 - [AIUP的PetClinic示例：从旧代码恢复用例规格，再渐进维护](cases/aiup-spring-petclinic-brownfield-spec-recovery.md) — Simon Martinelli为AI Unified Process加入brownfield流程，称Spring PetClinic有逆向后start分支与实现测试后的main；微型示例不证明遗留系统语义完整恢复。 **[其他 AI 逆向 · 相关项目]**
-- [HyperFrames RAV：Stripe重建自述与20片竞争工具比较](cases/hyperframes-rav-stripe-video-reconstruction.md) — Miguel Ángel称单次重建Stripe视频，Miao Yang报20片比较；James Russo再称全面胜出，但详细自测承认REA-VIDEO重做更快更省。均非独立基准。 **[其他 AI 逆向 · 待验证]**
+- [HyperFrames RAV：Stripe重建自述与20片竞争工具比较](cases/hyperframes-rav-stripe-video-reconstruction.md) — HyperFrames的Stripe与20片比较均为来源自述，REA-VIDEO重做速度／费用让步仍保留；新比较称可编辑工程与Pro月费25美元，未核官方套餐或成片。 **[其他 AI 逆向 · 待验证]**
 - [Harvey法律AI替代：Theo转述免费重建新闻稿，完整能力尚未证实](cases/harvey-legal-ai-free-reimplementation-press-release-report.md) — Theo称有开发者逆向Harvey并免费公开替代品，但未命名实现、给源码或法律任务测试；估值／融资混用，不采纳110亿美元为已核验事实。 **[未确认使用 REA · 待验证]**
 - [AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent](cases/dax-system-app-agent-ai-native-os-idea.md) — Dax设想把系统应用逆向并接入Agent；后续帖子举高德交通API动态安排起床时间的场景。尚无平台、接口或实现，不是可用OS。 **[未确认使用 REA · 待验证]**
 - [Voyager扩展本地重建：Grok Bot五角色静态审计后仍遇滚动故障](cases/voyager-grokbot-rea-local-extension-rebuild.md) — Francesco Faenzi报告Grok Bot指挥REA角色家族分析Voyager2.2.1并移除云端依赖；首轮97.5%为作者口径，第二轮滚动仍失败，未独立审计安全性。 **[未确认使用 REA · 进行中]**
 - [Ayo的TikTok分析：读者归因REA／Claude，25+与31模型说法尚待核验](cases/ayo-tiktok-rea-claude-on-device-model-analysis-report.md) — 围绕Ayo的TikTok逆向视频，多帖转述端侧模型、传感器和未发私信指控；读者提到REA与Claude并追问证据。未读视频或JSON，不认定监控行为已证实。 **[未确认使用 REA · 待验证]**
 - [Premiere Pro工程格式：Kyle逆向规格，让AI不打开剪辑器也能编辑](cases/techsquidtv-premiere-project-file-ai-editing.md) — Kyle TechSquidTV称正在逆向Premiere Pro项目文件规格，目标让AI Agent直接编辑视频；尚无格式文档、代码或导入导出测试。 **[其他 AI 逆向 · 进行中]**
 - [anti-REA SDK想法：Levi X.想为独立开发者阻挡Agent复制应用](cases/levixhere-anti-rea-sdk-indie-founder-idea.md) — Levi X.从手机Agent与REA结合的复制风险提出防护SDK，尚未说明机制、平台或实验；不是Ju1y已有JS混淆器的更新。 **[REA · 待验证]**
-- [VerifiedIDA：给模型主导的IDA分析保存证据、修改回执与可恢复调查](cases/verifiedida-evidence-led-llm-reversing-harness.md) — SentinelLabs公开IDA研究harness，要求模型引用当前证据后在候选数据库修改并检查持久化；ComRAT静态示例展示类型应用，但机械验证不保证语义正确。 **[其他 AI 逆向 · 相关项目]**
+- [VerifiedIDA：给模型主导的IDA分析保存证据、修改回执与可恢复调查](cases/verifiedida-evidence-led-llm-reversing-harness.md) — SentinelLabs的IDA证据与持久化harness；新转述称强制检查20个ComRAT被调用函数找到旧遗漏，但8编辑扩张265节点暴露成本，机械验证仍不保证语义正确。 **[其他 AI 逆向 · 相关项目]**
 - [Diyar波斯语键盘：M.A.H称反编译后用AI审视输入服务风险](cases/diyar-persian-keyboard-ai-decompilation-security-review.md) — 作者报告拆WiX／MSI与.NET9，称AI将Diyar识别为拼写和翻译助手而非木马，同时质疑键盘hook、TSF与密码处理；未核验代码或真实外传。 **[其他 AI 逆向 · 待验证]**
 - [Ivo的英语练习软件：称用REA研究收费产品后做自用版本](cases/ivo-rea-english-practice-app-rebuild-report.md) — Ivo以学英语不想付多份软件费为动机，称REA帮助制作功能相近的自用版本；未命名产品、提供源码或验证练习功能。 **[REA · 待验证]**
 - [巴西银行费用idea：Jason问能否用REA做免手续费App](cases/jason-brazil-bank-fee-free-rea-app-idea.md) — Jason因巴西银行收费高提出REA重建应用的疑问；没有银行、接口或实现，客户端替代不证明可免除服务端费用。 **[REA · 待验证]**
@@ -1016,7 +1027,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo/rea-video输出逐镜证据与制作计划；AI少年新增亲试报告，仍无原片或HTML。RAV全面胜出宣传与详细比较的速度／费用让步分开，不能混同切点、SSIM与来源判定。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo/rea-video输出逐镜证据与制作计划，亲试反馈仍无原片或HTML；新帖比较与HyperFrames的用途和付费边界，不当新实测，切点、SSIM与来源判定仍分开。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -1668,6 +1679,8 @@
 
 ### 算法与功能重建
 
+- [zlib的Adler-32：Ahmet Göker用REA对照常量、汇编与六组输入](cases/ahmet-goker-rea-ghidra-zlib-adler32-crosscheck.md) — 作者报告区分同名转发与计算函数，以65521／5552核对源码，再测六组输入，并发现Ghidra的void返回类型误判。 **[REA · 分析测试]**
+- [1986年Fortran流体库到Python：H YJ转述Gemini Argon重构](cases/hyj-gemini-argon-1986-fortran-cfd-python-report.md) — 转述称旧科学算法被重建为向量Python，数千边界测试保持浮点精度并提速40%；库名、基准和官方记录未取得。 **[其他 AI 逆向 · 待验证]**
 - [VulDec：反编译后查漏洞，转述结果显示泛化与功能正确性仍受限](cases/vuldec-qwen-plbart-decompilation-vulnerability-study-report.md) — 吉川孝志转述Qwen2.5-Coder加PLBART的VulDec研究：跨项目漏洞precision14%、recall28%；HumanEval全测通过34.34%，低于一个Ghidra+LLM基线，不是可自主分诊的证明。 **[其他 AI 逆向 · 分析测试]**
 - [VIP看台舞蹈视频：Leaf用Gemini反推动作，承认导演与运镜规则不足](cases/leaf-ayi-vip-stand-dance-gemini-prompt-reconstruction.md) — Leaf称以Gemini4／Antigravity研究AYi视频，给出30秒六段动作与115BPM规格；自评不如后来公开的原提示词，未做客观成片对照。 **[其他 AI 逆向 · 分析测试]**
 - [RSA1024研究转述：人类监督AI寻找旧密码体系弱点](cases/deepmind-rsa1024-ai-weaknesses-secondary-report.md) — 候选称DeepMind人类监督AI数周研究RSA1024，理论签名伪造快1600倍、批量密钥平均成本低30倍；未取得原论文、前提或验证，不能推成现代加密已破或普遍安全保证。 **[其他 AI 逆向 · 待验证]**
@@ -1729,7 +1742,7 @@
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
 - [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**
-- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth据称用Treg汇总公开增长轨迹；Supersocks补Tesla部分分析0.31美元和窗口遗漏，Salman给Treg渠道拆解，均非内部策略或因果关系的独立验证。 **[其他 AI 逆向 · 相关项目]**
+- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth经Treg反推公开增长轨迹；新Lovable转述称徽章反链20132站、affiliate918站和葡语广告，保留Tesla／Treg窗口限制，数字不是内部策略或因果证明。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**
