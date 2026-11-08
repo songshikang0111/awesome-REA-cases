@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [479个DLL到1700余界面项：DeepSeek／REA架构研究漏掉GUI映射](../cases/large-app-479-dll-1700-gui-rea-model-handoff.md) — _ToiM22称DeepSeek读取477个DLL后，Claude构建仍漏功能；最终回到Claude枚举菜单和截图，暴露静态映射与界面覆盖差距。 **[REA · 进行中]**
+- [加密avatar仍被提取：ZaiBitez指称AI逆向绕过防护](../cases/encrypted-avatar-ai-ripping-allegation.md) — ZaiBitez称自己的avatar原有防提取加密，被AI逆向后盗取；没有方案、工具或日志，保留指控而不确认密码被破解。 **[未确认使用 REA · 待验证]**
+- [agenC演示转述：一小时从DOS二进制到Web应用，缓存率不是正确率](../cases/agenc-dos-binary-webapp-autonomous-report.md) — kakashikute宣传agenC自主研究DOS二进制并重建Web应用，称缓存效率99.7%；没有目标名、产物或兼容性测试。 **[其他 AI 逆向 · 待验证]**
+- [Windows上的iPhone Mirror：Opus投屏重建说法与WDA控制边界](../cases/windows-iphone-mirror-opus-airplay-wda-report.md) — 0xCodez称用Opus 5.5做Windows iPhone镜像，描述系统投屏和WDA操作；不能等同苹果原生iPhone Mirroring协议已还原。 **[其他 AI 逆向 · 待验证]**
+- [0安全harness：多模型二进制研究、并行复现与补丁验证的发布转述](../cases/zero-security-labs-multimodel-reversing-harness.md) — Peak__Twilight介绍0securitylabs的开源AI安全工作台，称发现30余Linux内核零日；未取得漏洞编号、披露或复现，数量不作核验成果。 **[其他 AI 逆向 · 相关项目]**
+- [Claude／ChatGPT客户端指纹：2WalterW的REA自述不是封号规则还原](../cases/claude-chatgpt-sim-device-fingerprint-rea-claim.md) — 2WalterW称研究Claude/ChatGPT后看到SIM、时区和设备字段；没有客户端版本、调用路径或服务端证据，不能确认封禁算法。 **[REA · 待验证]**
 - [Airtable克隆：Mokoena自述用Claude Code密集逆向开发](../cases/claude-code-airtable-clone-ban-self-report.md) — Mokoena称用Claude Code构建Airtable克隆，包含大量逆向；没有功能清单或验收，封号关联只是个人猜测。 **[其他 AI 逆向 · 进行中]**
 - [注册机研究：Goge自述ds拒绝后由Gemini完成](../cases/goge-gemini-keygen-ds-refusal-self-report.md) — Goge称付费软件逆向注册机任务被ds拒绝、Gemini做了；未命名目标、模型版本或提供可验证产物，仅记录拒绝差异。 **[其他 AI 逆向 · 待验证]**
 - [r_AKanaly：Codex经MCP调查VM内恶意软件，再生成证据报告](../cases/r-akanaly-codex-vm-malware-analysis-review.md) — connect24h介绍森田的v0.1.10分析工具；固定README说明Windows／VMware中的动态日志、Ghidra问答和HTML报告，写明报告成功不等于观察全部行为，非商用许可。 **[其他 AI 逆向 · 相关项目]**

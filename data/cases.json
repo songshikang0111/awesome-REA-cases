@@ -1,5 +1,213 @@
 [
   {
+    "id": "kindle2-codex-4bpp-refresh-home-hooks",
+    "title": "2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Radacted称Codex修改旧Kindle显示转换与Home钩子，软件翻页响应中位数约430降至330–340毫秒；为单机自测，非独立复现或整机刷新保证。",
+    "description": "2026年11月9日03:28:37（北京时间），Radacted（@onehit42）报告让Codex维护2009年的Kindle 2：越狱、限制访问、备份分区、更新固件并修正因老电池造成的时钟问题，随后研究原有驱动与Home程序，以延续旧阅读器用途。补取完整原帖确认下列细节，不把候选末尾不完整当作整条不可用。\n\n作者称为该驱动开发并安装成对4bpp转换循环，保留像素转换结果、控制器命令、硬件等待、原厂波形与温度处理；以ARM代码对照、控制器image-RAM读回、诊断图和重启检查。自报软件页面响应中位数从约430毫秒降至330–340毫秒（约24%），图像装载工作从约130降至23毫秒（82%）；这些不是本合集测得，也不等同整块电子墨水屏刷新时间。\n\n另以窄范围请求拦截器处理竖屏原生阅读器的普通翻页，检查翻页键、阅读区域、时序和请求缓冲后改用局部刷新。试过每6页、10页清理后改为手动，Shift再按F触发全刷；菜单、开书和不匹配操作保留原行为。Home在两个原生类加入受保护钩子，配旧JVM兼容Java辅助程序，索引35本书、每屏4个大封面、Recent/All与10个按阅读顺序的系列文件夹，并清理标题、为不合适封面制作标题卡。\n\n据作者，原书路径保留，35本文件与修改前逐字节一致，MOBI、PDF及受保护Kindle书经原生阅读器在保存位置打开，原Menu/Settings与stock Home仍可用。作者说电池极弱，因版权画面尚未提供视频对照。未取得补丁、源码、原始时延日志或电池/长期残影测试；不能推广到其他Kindle、所有页面或证明DRM被移除。本合集未刷机或复测；REA未提及。",
+    "sources": [{"label": "Radacted的Kindle 2完整修改与自测报告，2026-11-09", "url": "https://x.com/i/status/2119512432859341049"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照3赞、108浏览、0转发；百分比、时延和35本文件校验均为作者报告。"],
+    "en": {
+      "title": "2009 Kindle 2: Codex-assisted 4bpp driver, partial-refresh and cover-Home changes",
+      "summary": "Radacted reports Codex-assisted driver conversion and Home hooks, with median software page response falling from about 430 to 330–340 ms. These are single-device author tests, not independent reproduction or whole-display refresh guarantees.",
+      "description": "At 03:28:37 Beijing time on November 9, 2026, Radacted (@onehit42) reports letting Codex maintain a 2009 Kindle 2: jailbreak, access restriction, partition backups, firmware updating and clock repair after an aging battery, followed by work on the existing display driver and Home program to keep the reader useful. Retrieval of the full original confirms the details below; an incomplete candidate ending does not make the entire report unusable.\n\nThe author says a paired 4bpp conversion loop was developed and installed for this exact driver, preserving pixel conversion results, controller commands, hardware waits, factory waveform data and temperature handling. Checks reportedly included ARM-code comparisons, controller image-RAM readbacks, diagnostic patterns and restarts. Reported median software page response fell from about 430 ms to 330–340 ms (about 24%), and image-loading work from about 130 ms to 23 ms (82%). These are not measurements by this collection or necessarily whole e-ink display refresh times.\n\nA narrow request interceptor handles ordinary portrait stock-reader page turns, checking page-key input, reading rectangle, timing and request buffer before substituting partial updates. After trying six- and ten-page cleanup intervals, manual cleanup was selected; Shift then F requests a full refresh. Menus, opening books and unmatched operations keep native behavior. Home uses guarded hooks in two native classes plus a Java helper compatible with the old JVM, indexing 35 books with four large covers per screen, Recent/All views and ten series folders in reading order. Titles were cleaned and title cards made for unsuitable covers.\n\nAccording to the author, original book paths were preserved, all 35 files matched their pre-change copies byte for byte, and MOBI, PDF and protected Kindle books opened in the native reader at saved positions. Original Menu/Settings and stock Home remain available. The author reports a very weak battery and has not supplied a video comparison because it would show copyrighted material. No patch, source, raw timing logs or battery/long-term ghosting tests were obtained. This does not generalize to other Kindles or all pages, or establish DRM removal. No device was flashed or retested here; REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 3 likes, 108 views, 0 reposts. Percentages, timings and the 35-file check are author-reported."],
+      "source_labels": ["Radacted's full Kindle 2 modification and self-test report, November 9, 2026"]
+    }
+  },
+  {
+    "id": "ernest-8bitdo-claude-firmware-brick-report",
+    "title": "8bitdo手柄维修失败：Ernest称Claude分析固件三小时后变砖",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "作者为解决蓝牙连接异常让Claude分析手柄固件，报告最终完全变砖；没有型号、修改记录或恢复诊断，不能据此证明模型退化。",
+    "description": "2026年11月9日03:18:59（北京时间），Ernest Zamelczyk（@ErnestZamelczyk）称自己的8bitdo手柄近期蓝牙难以连接，于是让Claude分析固件并修复，三小时后却完全变砖。这是为恢复既有硬件功能而尝试AI固件研究的失败自述，不是修复成功。\n\n帖子未列手柄型号、固件版本、模型、刷写方式、修改内容、断电保护、错误日志或恢复尝试。无法区分固件缺陷、刷写失败、硬件问题或其他原因，也不能确认永久不可恢复。所谓两周前只需五分钟便能成功是作者比较性主张，没有同设备同任务对照，不能据此推定Claude能力退化。补取原帖确认署名与措辞；本合集未执行固件、连接设备或复现，REA未提及。",
+    "sources": [{"label": "Ernest的8bitdo固件维修失败自述，2026-11-09", "url": "https://x.com/i/status/2119510009864397279"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照0赞、9浏览、0转发；三小时及变砖均为作者自述，无故障日志。"],
+    "en": {
+      "title": "Failed 8bitdo repair: Ernest says three hours of Claude firmware work ended in a brick",
+      "summary": "The author asked Claude to analyze controller firmware for Bluetooth connection trouble and reports a complete brick. Model, changes and recovery diagnostics are absent; this does not establish model regression.",
+      "description": "At 03:18:59 Beijing time on November 9, 2026, Ernest Zamelczyk (@ErnestZamelczyk) says his 8bitdo controller had trouble connecting over Bluetooth. He asked Claude to analyze and fix its firmware, but reports it was completely bricked after three hours. This is a failed self-reported attempt at AI-assisted firmware research to restore existing hardware, not a successful repair.\n\nThe post gives no controller model, firmware revision, model used, flashing method, changes, power-loss protection, error logs or recovery attempts. Firmware defects, flashing failure, hardware trouble and other causes cannot be distinguished; permanent irrecoverability is not established. The claim that the task would have taken five minutes successfully two weeks earlier is the author's comparison, without a controlled same-device/same-task test, and does not establish Claude regression. Retrieval confirms attribution and wording. No firmware was executed, device connected or result reproduced here; REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 0 likes, 9 views, 0 reposts. Three hours and bricking are self-reported, without failure logs."],
+      "source_labels": ["Ernest's failed 8bitdo firmware-repair account, November 9, 2026"]
+    }
+  },
+  {
+    "id": "large-app-479-dll-1700-gui-rea-model-handoff",
+    "title": "479个DLL到1700余界面项：DeepSeek／REA架构研究漏掉GUI映射",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "_ToiM22称DeepSeek读取477个DLL后，Claude构建仍漏功能；最终回到Claude枚举菜单和截图，暴露静态映射与界面覆盖差距。",
+    "description": "2026年11月9日03:13:22（北京时间），@_ToiM22用葡语介绍一个未具名大型程序的逆向重建：先让DeepSeek调用REA生成架构，再让Claude构建。作者说479个DLL中477个被完整读取，其余两个属第三方且与自己目标无关。这只是作者对读取程度的描述，不是477个DLL已正确反编译、逐字节重建或实现覆盖率。\n\n回到Claude后仍遗漏很多功能，作者将原因归于DeepSeek擅长映射代码却不能关联图形界面。为避免与Anthropic产生问题，他先让DeepSeek完整枚举菜单、子菜单、后代层级、新窗口及其变化，约1700余项，但认为截图组织不连贯，最终改给Claude具体提示，让它逐项截图、记录层级和多选字段，工作仍在进行。作者提到Opus 5.5与Claude Max，但没有逐步骤精确模型、应用名称、功能清单、产物或完整验收。\n\n补取原帖确认署名和全文。没有截图集、调用日志、477个DLL的分析质量或1700余项覆盖证据；不能写成完整替代应用或证明某模型普遍优于另一模型。本合集未执行程序或重建。",
+    "sources": [{"label": "_ToiM22的DLL与GUI映射交接报告，2026-11-09", "url": "https://x.com/i/status/2119508597746884780"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照0赞、54浏览、0转发；479／477及1700余项均为自报规模，不是验收比例。"],
+    "en": {
+      "title": "479 DLLs and 1,700-plus UI items: DeepSeek/REA architecture work misses GUI mapping",
+      "summary": "_ToiM22 says Claude's build missed features after DeepSeek read 477 DLLs. Returning to Claude for menu enumeration and screenshots exposes the gap between static mapping and UI coverage.",
+      "description": "At 03:13:22 Beijing time on November 9, 2026, @_ToiM22 describes in Portuguese the reconstruction of an unnamed large program: DeepSeek uses REA to produce its architecture, then Claude builds it. The author says 477 of 479 DLLs were fully read, with two third-party DLLs irrelevant to the intended project. This describes the author's perceived reading coverage, not correct decompilation, byte-identical rebuilding or implemented functionality across 477 DLLs.\n\nClaude's subsequent build still omitted many features. The author attributes this to DeepSeek mapping code well but failing to associate it with the GUI. To avoid problems with Anthropic, the author first asked DeepSeek to map menus, submenus, descendants, new windows and their variations, totaling roughly 1,700-plus items, but found its screenshots incoherent. A specific prompt then sent Claude through screenshots, menu hierarchies and multiple-choice fields; that work was still ongoing. Opus 5.5 and Claude Max are mentioned, without exact per-stage models, application name, feature list, artifact or complete acceptance.\n\nRetrieval confirms attribution and full text. No screenshot set, call logs, analysis-quality evidence for the 477 DLLs or coverage evidence for the 1,700-plus items was obtained. This is not a complete replacement application or proof that one model is universally better. No program or reconstruction was run here.",
+      "metadata": ["Sealed snapshot: 0 likes, 54 views, 0 reposts. 479/477 and 1,700-plus are reported scale, not acceptance ratios."],
+      "source_labels": ["_ToiM22's DLL-to-GUI mapping handoff report, November 9, 2026"]
+    }
+  },
+  {
+    "id": "rea-offline-search-behavior-spec-edgecase-test",
+    "title": "离线搜索重建idea：用双空格、排序与分页查出视觉演示漏项",
+    "category": "algorithms", "rea": "REA", "status": "unverified",
+    "summary": "satoshiwhynot建议先观察原版写行为规格，再隔离实现Agent并输入对照；离线搜索只是讲解样例，没有运行结果。",
+    "description": "2026年11月9日02:37:26（北京时间），@satoshiwhynot介绍Opus 5.5加REA的行为重建文章，指出视频看似完美的应用可能在搜索框输入两个空格时失败。具体方案是只选一个能与原版比较的功能，记录行为并分开证据和假设，编码前写规格，另一个实现Agent只得到规格与允许测试数据，最后以相同输入运行两版并保留失败样例。\n\n作者特别要求检查结果排序、分页与错误，而非只看搜索框能否返回东西，并称文章含离线搜索worked example。原帖未给具体应用、文章全文、规格、测试向量或两版实跑记录；这里保存明确的搜索重建测试idea，不宣称发现了某产品双空格bug、已恢复完整算法或取得法律上的洁净室认证。补取确认署名与措辞；本合集未运行对照测试。",
+    "sources": [{"label": "satoshiwhynot的REA离线搜索行为规格与边界测试方案，2026-11-09", "url": "https://x.com/i/status/2119499552449564998"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照3赞、64浏览、0转发；双空格为建议测试输入，不是已复现缺陷。"],
+    "en": {
+      "title": "Offline search reconstruction idea: expose demo blind spots with two spaces, ordering and pagination",
+      "summary": "satoshiwhynot proposes observing the original, writing a behavioral spec and isolating an implementation agent before identical-input comparisons. Offline search is an illustrative example, without execution results.",
+      "description": "At 02:37:26 Beijing time on November 9, 2026, @satoshiwhynot introduces an Opus 5.5 plus REA behavioral-reconstruction article, noting that an app looking perfect on video may fail when two spaces are entered in search. The concrete proposal is to select one feature comparable to the original, record its behavior while separating evidence from assumptions, write the spec before coding, give a separate implementation agent only that spec and permitted test data, then run identical inputs through both versions and keep failing cases.\n\nThe author specifically asks for result ordering, pagination and error checks rather than merely returning something, and says the article contains a worked offline-search example. The post supplies no named app, full article, spec, test vectors or two-version execution record. Retained as a concrete search-reconstruction testing idea, not discovery of a particular product's two-space bug, full algorithm recovery or legally certified clean-room development. Retrieval confirms attribution and wording. No comparison tests were run here.",
+      "metadata": ["Sealed snapshot: 3 likes, 64 views, 0 reposts. Two spaces is a proposed test input, not a reproduced defect."],
+      "source_labels": ["satoshiwhynot's REA offline-search behavior-spec and edge-case proposal, November 9, 2026"]
+    }
+  },
+  {
+    "id": "singleplayer-health-pointer-rea-cheatengine-model-handoff",
+    "title": "单机血量地址：REA与CheatEngine接DeepSeek探索、Opus解阻",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "作者描述寻找血量地址、指针链与持久化Mod的双模型交接，以学习和单机为限；未给游戏、地址、可重放结果或费用日志。",
+    "description": "2026年11月9日02:35:10（北京时间），Pablo（@devpabs）报告一种单机游戏Mod工作流，目标是找到血量地址、追指针链并保留修改，而非只做界面创作。作者称搭配CheatEngine MCP与REA MCP，以DeepSeek 4.1 Flash加DSH探索与梳理研究面，受阻后导出上下文交给Claude Code中的Opus 5.5，理解特性、数据与交互并做初步修改，再写学习与下一步文档交回DeepSeek。模型名称保持原帖口径，不另作可用性验证。\n\n作者报告能省去整周末并控制成本，称数小时探索几乎不到一美元；没有游戏名、版本、地址、指针链、Mod、工时对照、账单或执行日志，不能将其当成功定位、持久性或普遍成本保证。原帖明确single-player only、专注学习，不推及在线游戏或反作弊。重试补取原帖确认署名与全文，本合集未运行工具或游戏。",
+    "sources": [{"label": "单机血量／指针链的REA与CheatEngine双模型流程自述，2026-11-09", "url": "https://x.com/i/status/2119498983739376014"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照0赞、22浏览、0转发；省时与不到一美元为无日志的作者主张。"],
+    "en": {
+      "title": "Single-player health pointers: DeepSeek exploration and Opus handoffs through REA and CheatEngine",
+      "summary": "The poster describes finding health addresses, pointer chains and persistent mods through two-model handoffs, limited to learning in single-player. Game, addresses, replayable results and billing logs are absent.",
+      "description": "At 02:35:10 Beijing time on November 9, 2026, Pablo (@devpabs) describes a single-player modding workflow targeting a health address, pointer chain and persistent modification rather than UI creation. The poster combines CheatEngine MCP and REA MCP, uses DeepSeek 4.1 Flash plus DSH for exploration and mapping the investigation surface, exports context to Opus 5.5 in Claude Code when stuck, then asks it to understand features, data and interactions and implement an initial modification. A learnings-and-next-steps document hands work back to DeepSeek. Model names retain the post's wording; their availability was not separately verified.\n\nThe poster reports avoiding whole weekends and controlling costs, claiming hours of exploration for barely a dollar. No game, version, address, pointer chain, mod, time comparison, bill or execution logs are supplied. Successful address discovery, persistence and generally reproducible costs are not established. The post explicitly limits this to single-player learning, not online games or anti-cheat. Retried retrieval confirms attribution and full text. No tools or games were run here.",
+      "metadata": ["Sealed snapshot: 0 likes, 22 views, 0 reposts. Time savings and barely a dollar are unsupported-by-logs author claims."],
+      "source_labels": ["Self-reported REA/CheatEngine two-model workflow for single-player health and pointers, November 9, 2026"]
+    }
+  },
+  {
+    "id": "encrypted-avatar-ai-ripping-allegation",
+    "title": "加密avatar仍被提取：ZaiBitez指称AI逆向绕过防护",
+    "category": "apps", "rea": "unknown", "status": "unverified",
+    "summary": "ZaiBitez称自己的avatar原有防提取加密，被AI逆向后盗取；没有方案、工具或日志，保留指控而不确认密码被破解。",
+    "description": "2026年11月9日02:25:16（北京时间），@ZaiBitez回复他人时称自己的avatar已加密防提取，但AI逆向该加密后仍被拿走。02:43:08的同窗口回复重述这一指控，没有新增技术细节。目标是作者自有数字avatar的防提取保护；这是防护失败的当事人说法，不是本合集证实的破解。\n\n未给平台、资产格式、加密或混淆机制、模型、攻击工具、密钥恢复、提取日志或前后样本；无法区分密码分析、客户端解密后的提取或其他泄露，也不能确认AI的必要性。补取首帖确认署名和措辞；不补写具体隐私内容，不获取或链接被盗avatar，不给提取操作。本合集只保存原公开说明，未验证资产，REA未提及。",
+    "sources": [{"label": "ZaiBitez关于加密avatar被AI提取的指控，2026-11-09", "url": "https://x.com/i/status/2119496489236099139"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照0赞、96浏览、0转发；没有破解或AI归因的独立证据。"],
+    "en": {
+      "title": "An encrypted avatar still extracted: ZaiBitez alleges AI-assisted protection bypass",
+      "summary": "ZaiBitez says an avatar had anti-ripping encryption but was taken after AI reverse engineering. Scheme, tool and logs are absent; the allegation does not establish cryptographic compromise.",
+      "description": "At 02:25:16 Beijing time on November 9, 2026, @ZaiBitez replies that their avatar had encryption against ripping but was taken after AI reverse-engineered it. A same-window reply at 02:43:08 repeats the allegation without technical additions. The target is protection against extracting the author's digital avatar. This is an affected person's protection-failure account, not a confirmed crack by this collection.\n\nNo platform, asset format, encryption or obfuscation scheme, model, attack tool, key recovery, extraction logs or before/after samples are given. Cryptanalysis, extraction after client-side decryption and other leaks cannot be distinguished; AI necessity is not established. Retrieval of the first post confirms attribution and wording. Private details are not added, the stolen avatar is neither obtained nor linked, and no extraction procedure is supplied. Only the public account is retained; no asset was verified here and REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 0 likes, 96 views, 0 reposts. No independent evidence establishes cracking or AI attribution."],
+      "source_labels": ["ZaiBitez's allegation of AI-assisted extraction of an encrypted avatar, November 9, 2026"]
+    }
+  },
+  {
+    "id": "agenc-dos-binary-webapp-autonomous-report",
+    "title": "agenC演示转述：一小时从DOS二进制到Web应用，缓存率不是正确率",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "kakashikute宣传agenC自主研究DOS二进制并重建Web应用，称缓存效率99.7%；没有目标名、产物或兼容性测试。",
+    "description": "2026年11月9日01:57:58（北京时间），@kakashikute称agenC进行了约一小时全自主开发，把DOS二进制逆向成现代Web应用，并给出99.7% cache efficiency。帖子带DeepSeek标签但未解释具体模型或分工；用途是将旧程序行为迁到浏览器，不据此断言成功恢复源代码。\n\n补取确认转述者和措辞，未取得原始演示串、DOS目标名、二进制、重建源码、输入输出对照、费用或执行记录。99.7%明确是缓存效率说法，不是功能准确率、字节匹配率或任务成功率；一小时为作者传播的时长，不是独立测得。币种宣传与软件经济预测不作为成果。本合集未运行目标或Web应用，REA未提及。",
+    "sources": [{"label": "kakashikute的agenC DOS到Web自主开发转述，2026-11-09", "url": "https://x.com/i/status/2119489620304122039"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照0赞、22浏览、0转发；一小时与99.7%均为转述，未验账或测量。"],
+    "en": {
+      "title": "agenC demo account: one hour from a DOS binary to a web app, with cache rate not correctness",
+      "summary": "kakashikute promotes agenC's autonomous DOS-binary research and web rebuilding, claiming 99.7% cache efficiency. Target name, artifact and compatibility tests are absent.",
+      "description": "At 01:57:58 Beijing time on November 9, 2026, @kakashikute claims agenC performed about one hour of fully autonomous development, reverse-engineering a DOS binary into a modern web app with 99.7% cache efficiency. A DeepSeek hashtag does not identify the precise model or division of work. The purpose is moving old program behavior into a browser, not demonstrated source recovery.\n\nRetrieval confirms the reporter and wording, but no original demonstration thread, DOS target name, binary, reconstructed source, input/output comparison, bill or execution record was obtained. The 99.7% explicitly describes claimed cache efficiency, not functional accuracy, byte matching or task success. One hour is a promoted duration, not independently measured. Token promotion and software-economics predictions are not results. No target or web app was run here; REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 0 likes, 22 views, 0 reposts. One hour and 99.7% are relayed claims, without billing or measurement verification."],
+      "source_labels": ["kakashikute's agenC autonomous DOS-to-web development account, November 9, 2026"]
+    }
+  },
+  {
+    "id": "tlou-remastered-pc-claude-native-runtime",
+    "title": "tlou-remastered-pc：转述Claude辅助PS4系统库与Windows原生运行时",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "Hasibul Hasan称项目以原生PS4库、直接x86-64执行和shadPS4 Vulkan核心运行最后生还者重制版；可玩程度与兼容性尚未核验。",
+    "description": "2026年11月9日01:35:32（北京时间），Hasibul Hasan（@hasibdreamer35）介绍tlou-remastered-pc，目标是让PS4版The Last of Us Remastered在Windows上运行，而不是单纯转述官方PC版本。帖子称重新实现PS4系统库，让x86-64客体代码直接在主机CPU执行，GPU管线接入shadPS4的Vulkan video core，并归因Claude辅助搭建初始架构。\n\n这描述的是特定游戏的自定义运行时／互通路线，不等于从源代码重新编译整部游戏、完整PS4模拟或全功能移植。补取原帖确认转述者与内容，未读取固定项目源码、许可证、提交、游戏版本、启动日志、画面或关卡验收，也没有帧率、完成度或平台矩阵。帖子说runs不能升级为已通关或独立确认可玩；Claude的准确工作范围也没有原作者日志。本合集未下载、构建或运行游戏，不分发原版文件；REA未提及。",
+    "sources": [{"label": "Hasibul Hasan的tlou-remastered-pc架构与Claude归因转述，2026-11-09", "url": "https://x.com/i/status/2119483975853076805"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照1赞、132浏览、0转发；架构和可运行说法为二手报告，非本合集验收。"],
+    "en": {
+      "title": "tlou-remastered-pc: reported Claude-assisted PS4 libraries and a native Windows runtime",
+      "summary": "Hasibul Hasan describes native PS4 libraries, direct x86-64 execution and shadPS4's Vulkan core for The Last of Us Remastered. Playability and compatibility remain unverified.",
+      "description": "At 01:35:32 Beijing time on November 9, 2026, Hasibul Hasan (@hasibdreamer35) introduces tlou-remastered-pc, targeting the PS4 version of The Last of Us Remastered on Windows rather than merely discussing an official PC release. The post describes reimplemented PS4 system libraries, direct x86-64 guest execution on the host CPU and a GPU pipeline bridged through shadPS4's Vulkan video core, crediting Claude with bootstrapping the architecture.\n\nThis describes a game-specific custom-runtime/interoperability route, not source recompilation of the whole game, full PS4 emulation or a complete port. Retrieval confirms the reporter and text. No pinned project code, license, commits, game revision, boot logs, visuals or level acceptance was reviewed, and no frame rate, completion percentage or platform matrix is supplied. The statement that it runs is not proof of a completed playthrough or independently confirmed playability. Claude's exact contribution also lacks original-author logs. No game was downloaded, built or run here, and original files are not distributed; REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 1 like, 132 views, 0 reposts. Architecture and execution are secondary claims, not acceptance by this collection."],
+      "source_labels": ["Hasibul Hasan's tlou-remastered-pc architecture and Claude-attribution account, November 9, 2026"]
+    }
+  },
+  {
+    "id": "windows-iphone-mirror-opus-airplay-wda-report",
+    "title": "Windows上的iPhone Mirror：Opus投屏重建说法与WDA控制边界",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "0xCodez称用Opus 5.5做Windows iPhone镜像，描述系统投屏和WDA操作；不能等同苹果原生iPhone Mirroring协议已还原。",
+    "description": "2026年11月9日01:22:13（北京时间），@0xCodez称用Opus 5.5把MacBook的iPhone Mirroring逆向到Windows。正文的具体路径是Windows应用显示浮动手机窗口、iPhone从控制中心选择Screen Mirroring，声称可带声音最高60fps；可选通过USB、iTunes与WebDriverAgent（WDA）实现点击、滑动、滚动和输入。\n\n帖子提到以Sideloadly和Apple ID侧载WDA、信任应用与开启开发者模式，再以Ctrl+U切换控制。这些是转述的安装要求，不是本合集执行指令；系统投屏加WDA控制并不能单独证明恢复了苹果Mac原生iPhone Mirroring的专有协议、锁屏行为或全部功能。\n\n补取原帖确认作者和措辞，但未取得固定源码、协议调查、编译记录、兼容机型或延迟/帧率测量；60fps是自报上限，不是性能测试。未运行install.bat、侧载、连接手机或提交凭据，REA未提及；按未核验替代实现报告保留。",
+    "sources": [{"label": "0xCodez的Opus／Windows iPhone Mirror自述，2026-11-09", "url": "https://x.com/i/status/2119480623077212413"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照48赞、2238浏览、2转发；模型与最高60fps为作者口径，未实测。"],
+    "en": {
+      "title": "iPhone Mirror on Windows: an Opus reconstruction claim and WDA control limits",
+      "summary": "0xCodez credits Opus 5.5 with Windows iPhone mirroring, describing system screen mirroring and WDA interaction. This does not establish recovery of Apple's native iPhone Mirroring protocol.",
+      "description": "At 01:22:13 Beijing time on November 9, 2026, @0xCodez claims to have reverse-engineered MacBook iPhone Mirroring for Windows with Opus 5.5. The concrete path described is a floating phone window on Windows selected through the iPhone Control Center's Screen Mirroring feature, reportedly with audio and up to 60 fps. Optional USB, iTunes and WebDriverAgent (WDA) provide taps, swipes, scrolling and typing.\n\nThe post mentions sideloading WDA with Sideloadly and an Apple ID, trusting the app, enabling Developer Mode and using Ctrl+U for control. These are reported setup requirements, not instructions executed by this collection. System screen mirroring plus WDA does not alone establish recovery of the proprietary protocol, locked-phone behavior or complete feature set of Apple's native Mac iPhone Mirroring.\n\nRetrieval confirms attribution and wording, but no pinned source, protocol investigation, build record, supported-device list or latency/frame-rate measurement was obtained. Sixty fps is a claimed upper bound, not a benchmark. No install.bat was run, app sideloaded, phone connected or credentials submitted here. REA is unmentioned; retained as an unverified alternative-implementation report.",
+      "metadata": ["Sealed snapshot: 48 likes, 2,238 views, 2 reposts. Model and up-to-60-fps claims are the author's wording, not measurements here."],
+      "source_labels": ["0xCodez's Opus/Windows iPhone Mirror account, November 9, 2026"]
+    }
+  },
+  {
+    "id": "zero-security-labs-multimodel-reversing-harness",
+    "title": "0安全harness：多模型二进制研究、并行复现与补丁验证的发布转述",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Peak__Twilight介绍0securitylabs的开源AI安全工作台，称发现30余Linux内核零日；未取得漏洞编号、披露或复现，数量不作核验成果。",
+    "description": "2026年11月9日01:02:19（北京时间），@Peak__Twilight介绍@0securitylabs的0项目，称是开源AI安全harness，支持多模型、逆向、Web界面、CLI与MCP，由并行Agent调查、复现漏洞并测试修复，覆盖Web/API到二进制与内核。目标是把AI安全调查与证据、复现及补丁环节接成工具工作流，作为与逆向有关的具体项目保留。\n\n帖子自称发现30余Linux内核零日，影响运行于30多亿设备的软件，并提及瑞士、意大利、欧盟政府代码、Wireshark、node-forge与jsonata，以及YC F26支持。补取只确认发布转述者与措辞，未取得项目固定源码、CVE/披露清单、上游修复、漏洞测试或融资记录；设备规模、漏洞数和机构关联均不是本合集确认。不能将扫描、候选漏洞或补丁生成自动等同有效零日。没有运行harness或进行扫描，REA未提及。",
+    "sources": [{"label": "Peak__Twilight对0securitylabs多模型安全harness的发布介绍，2026-11-09", "url": "https://x.com/i/status/2119475616030630059"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照9赞、713浏览、2转发；30余零日及30多亿设备为无清单的发布主张。"],
+    "en": {
+      "title": "0 security harness: a release account of multi-model binary research, parallel reproduction and fix testing",
+      "summary": "Peak__Twilight introduces 0securitylabs' open-source AI security workbench and claims 30-plus Linux-kernel zero-days. No identifiers, disclosures or reproductions were obtained; these are not verified findings.",
+      "description": "At 01:02:19 Beijing time on November 9, 2026, @Peak__Twilight introduces @0securitylabs' project 0 as an open-source AI security harness with multiple models, reverse engineering, a web interface, CLI and MCP. Parallel agents reportedly investigate, reproduce vulnerabilities and test fixes, covering web/API targets through binaries and kernels. Its concrete purpose is connecting AI security investigation, evidence, reproduction and patch work into a workflow; retained as a reverse-engineering-related project.\n\nThe post claims over 30 Linux-kernel zero-days affecting software on more than three billion devices, mentions Swiss, Italian and EU government code, Wireshark, node-forge and jsonata, and says it is backed by YC F26. Retrieval confirms the release reporter and wording only. No pinned project code, CVE/disclosure list, upstream fixes, vulnerability tests or funding records were obtained. Device scale, vulnerability counts and institutional associations are not confirmed by this collection. Scans, candidate vulnerabilities and generated patches do not automatically establish valid zero-days. No harness was run or scanning performed here; REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 9 likes, 713 views, 2 reposts. Thirty-plus zero-days and over three billion devices are release claims without a supporting list."],
+      "source_labels": ["Peak__Twilight's introduction of 0securitylabs' multi-model security harness, November 9, 2026"]
+    }
+  },
+  {
+    "id": "ted-ed-riddle-claude-canvas-style-rebuild",
+    "title": "TED-Ed夜间谜题风格：Bajan让Claude按逐帧规格用Canvas重建",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Bajan公开1920×1080谜题短片视觉、运动与声音规格，以Canvas时间函数、无头Chrome和ffmpeg重制；相似度与零成本没有独立验证。",
+    "description": "2026年11月9日01:01:00（北京时间），Bajan（@Bajanpunkw）称逐帧拆解一条有2400万浏览的TED-Ed视频，让Claude以代码重建风格，并附原版在上、重制在下的图像和视频说明。2400万是作者称参考片的浏览数，不是本帖或重制版热度；未给原片标题或链接，不能认定恢复了其工程或实际制作流程。\n\n公开规格为1920×1080夜间谜题：深蓝天空与云、颗粒、白色棱角山崖和柔灰阴影，楔形头、白圆眼、火柴腿和无描边平涂人物；Amatic SC Bold手写小型大写标签、1 MINUTE字样与右上倒计时。灯笼作柔白光圈、暗场椭圆暗角，角色每秒12姿态、镜头漂移且每2秒有变化；声音要求旁白、小调脉冲、时钟和标签拨弦。构建规格是Canvas 2D的每帧时间纯函数，经无头Chrome渲染再交ffmpeg，不用AI视频或图像生成。\n\n补取确认作者与完整规格，原帖附视频但本合集未观看对照或执行渲染；没有源码、逐帧误差、音画对齐或费用日志。作者的复制一切与0美元不能当完整匹配或总开发成本证明，简介中的SKILL.md也未取得。按有具体代码重制路径的未核验实验保留；REA未提及。",
+    "sources": [{"label": "Bajan的TED-Ed风格Canvas重建规格与报告，2026-11-09", "url": "https://x.com/i/status/2119475284412170272"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照9赞、336浏览、1转发；2400万属于参考片自报热度，0美元没有费用日志。"],
+    "en": {
+      "title": "TED-Ed night-riddle style: Bajan has Claude rebuild a frame-by-frame spec in Canvas",
+      "summary": "Bajan publishes visual, motion and sound specifications for a 1920×1080 riddle video, using Canvas time functions, headless Chrome and ffmpeg. Similarity and zero cost lack independent verification.",
+      "description": "At 01:01:00 Beijing time on November 9, 2026, Bajan (@Bajanpunkw) says a TED-Ed video with 24 million views was dissected frame by frame and Claude rebuilt its style in code, with an image described as original above and reconstruction below plus a video. Twenty-four million is the reported reference-video audience, not engagement on this post or reconstruction. No original title or link is supplied, so neither recovery of its project nor its actual production process is established.\n\nThe public spec calls for a 1920×1080 night riddle: deep navy sky and clouds, grain, white angular cliffs with soft grey shading, wedge-headed characters with round white eyes, stick legs, flat colors and no outlines. Amatic SC Bold handwritten small-cap labels include 1 MINUTE and an upper-right countdown. A lantern provides a soft white circle and dark scenes have oval vignetting. Characters use 12 poses per second, a drifting camera and something new every two seconds. Audio calls for narration, a minor-key pulse, ticking and a pluck on labels. The build spec makes every Canvas 2D frame a pure function of time, rendered in headless Chrome and ffmpeg, without AI-video or image generation.\n\nRetrieval confirms the author and full spec. The attached video was not watched comparatively and rendering was not executed here; source, frame-error metrics, audiovisual alignment and billing logs are absent. Claims of copying everything and zero dollars do not prove complete matching or total development cost. The profile-linked SKILL.md was not obtained. Retained as an unverified experiment with a concrete code-driven reconstruction path; REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 9 likes, 336 views, 1 repost. Twenty-four million is the reference video's reported audience; zero dollars lacks billing logs."],
+      "source_labels": ["Bajan's TED-Ed-style Canvas reconstruction spec and report, November 9, 2026"]
+    }
+  },
+  {
+    "id": "claude-chatgpt-sim-device-fingerprint-rea-claim",
+    "title": "Claude／ChatGPT客户端指纹：2WalterW的REA自述不是封号规则还原",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "2WalterW称研究Claude/ChatGPT后看到SIM、时区和设备字段；没有客户端版本、调用路径或服务端证据，不能确认封禁算法。",
+    "description": "2026年11月9日00:35:50（北京时间），@2WalterW称不小心REA了Claude/ChatGPT，认为封号不是玄学，提到SIM所在地、时区、时间、上次启动、国家与机型指纹，提醒先检测而不是只看家宽节点纯净度。具体对象是AI服务客户端的环境/设备识别；帖中使用REA表述，但未给调用记录，是否实际运行同名工具未独立确认。\n\n补取原帖确认署名和文字，但没有操作系统、客户端版本、二进制、字段提取方法、采集调用或网络对照。即使客户端存在这些字段，也不能据此确定服务端实际收到、如何加权或是否导致注册、付款、KYC或封号。Claude与ChatGPT两者也没有逐产品区分。保留为未核验的客户端指纹研究主张，不将规避建议视为有效解法，也不重复归因既有单一Claude遥测条目为同一实现。本合集未访问账号或运行客户端。",
+    "sources": [{"label": "2WalterW的Claude／ChatGPT客户端字段REA主张，2026-11-09", "url": "https://x.com/i/status/2119468952481062958"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照0赞、55浏览、0转发；客户端字段与服务端风控的因果未经核验。"],
+    "en": {
+      "title": "Claude/ChatGPT client fingerprints: 2WalterW's REA account does not recover ban rules",
+      "summary": "2WalterW claims to have found SIM, timezone and device fields while studying Claude/ChatGPT. Client versions, call paths and server evidence are absent; ban algorithms are not established.",
+      "description": "At 00:35:50 Beijing time on November 9, 2026, @2WalterW says they accidentally used REA on Claude/ChatGPT and concluded bans were not mysterious, mentioning SIM location, timezone, time, last boot, country and device-model fingerprints. The post recommends checking these rather than relying only on residential-proxy cleanliness. The concrete target is environment/device identification in AI-service clients. REA is named, but no call record independently confirms use of the tool of that name.\n\nRetrieval confirms attribution and text, but no operating system, client version, binary, field-extraction method, collection calls or network comparison is supplied. Even the presence of client fields would not establish server receipt, weighting or causation for registration, payment, KYC or bans. Claude and ChatGPT are not separated product by product. Retained as an unverified client-fingerprint research claim, not a validated evasion method or an assumption that existing Claude-only telemetry entries describe this same implementation. No account was accessed or client run here.",
+      "metadata": ["Sealed snapshot: 0 likes, 55 views, 0 reposts. Causation between client fields and server risk decisions is unverified."],
+      "source_labels": ["2WalterW's REA claim about Claude/ChatGPT client fields, November 9, 2026"]
+    }
+  },
+  {
+    "id": "two-phone-multi-model-firmware-reader-report",
+    "title": "两部手机作前端：0xwhippa的多模型固件读取器实验",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "0xwhippa称电脑调度Sonnet写固件读取程序、四个Haiku并行搜索、Opus终审；固件、代码与验收未公开，两部手机只是输入和监看。",
+    "description": "2026年11月9日00:02:57（北京时间），@0xwhippa报告电脑接两部手机作AI实验室：左边输入提示，右边查看各Agent进度，实际计算在电脑。具体任务是研究一份未具名固件的原始数据、结构与错误，编写读取程序并检查，而不是手机自身反编译。\n\n作者称由Sonnet 5.5主导编码，四个Haiku 5.5同时搜索，Opus 5.5仅在结尾检查，小模型只回报发现以减轻主模型上下文；强调辅助Agent应分不同的明确任务，否则重复工作。模型名称为作者口径，未另外验证版本或调度实现。\n\n补取确认署名和全文，但无固件格式、设备、输入样本、解析字段、错误类型、读取器源码、测试向量或最终输出。任务描述中的确保可用不是公开验收，不能添加效率倍数、token节省或成本。帖子说提示在评论，未取得该提示；本合集未执行固件或代码，也未确认REA使用。按有明确读取器目标的未核验实验保留。",
+    "sources": [{"label": "0xwhippa的两手机前端与多模型固件读取器报告，2026-11-09", "url": "https://x.com/i/status/2119460675957268808"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照7赞、594浏览、0转发；没有公开解析正确性或预算测量。"],
+    "en": {
+      "title": "Two phones as frontends: 0xwhippa's multi-model firmware-reader experiment",
+      "summary": "0xwhippa says a computer coordinates Sonnet coding a firmware reader, four Haiku searchers and a final Opus review. Firmware, code and acceptance are undisclosed; the phones provide input and monitoring only.",
+      "description": "At 00:02:57 Beijing time on November 9, 2026, @0xwhippa describes two phones connected to a computer as an AI lab: prompts on the left and agent progress on the right, with actual computation on the computer. The concrete task is studying raw data, structure and errors in unnamed firmware, writing a reader and checking it, not decompiling on the phones themselves.\n\nThe author assigns lead coding to Sonnet 5.5, parallel searching to four Haiku 5.5 agents and final checking to Opus 5.5. Small models report findings to reduce the lead's context load. Helpers should receive distinct, clear tasks to avoid redundant work. Model names are the author's wording; versions and the orchestration implementation were not separately verified.\n\nRetrieval confirms attribution and full text, but no firmware format, device, sample input, parsed fields, error types, reader source, test vectors or final output is supplied. Ensuring it works is part of the task description, not public acceptance. Efficiency multipliers, token savings and costs cannot be added. The post says a prompt is in comments; it was not obtained. No firmware or code was executed here and REA use is unconfirmed. Retained as an unverified experiment with an explicit reader target.",
+      "metadata": ["Sealed snapshot: 7 likes, 594 views, 0 reposts. No public parser-correctness or budget measurements."],
+      "source_labels": ["0xwhippa's two-phone frontend and multi-model firmware-reader report, November 9, 2026"]
+    }
+  },
+  {
     "id": "claude-code-airtable-clone-ban-self-report",
     "title": "Airtable克隆：Mokoena自述用Claude Code密集逆向开发",
     "category": "apps", "rea": "other-ai", "status": "in-progress",
@@ -290,15 +498,15 @@
     "title": "Mac上的Omarchy：Sachin转述Asahi基础上的AI辅助硬件适配",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
     "summary": "Sachin称Omarchy借Asahi逆向与AI agents推进Touch ID、M3 GPU和深睡眠；没有对应补丁、机型或硬件测试，不能作为Mac支持矩阵。",
-    "description": "2026年11月8日18:06:46（北京时间），Sachin（@sachintwtss）称Omarchy已能在Mac上使用Touch ID、M3 GPU和deep sleep，建立在Asahi的逆向工作之上，由AI agents加速。这是让Apple硬件运行Linux发行版的具体互通说法；帖子未提供驱动实现或明确AI工作分配。\n\n作者同时称Asahi禁止AI代码，因此相关修改不上游，并承认其clean-room法律顾虑。这里不把AI贡献政策等同于代码许可证，也不据此断言Omarchy全部驱动的来源或法律状态；这些政策与不上游关系仍归因该帖。\n\n补取原帖确认署名和文字，但未取得对应Omarchy／Asahi提交、设备型号、内核版本、Touch ID认证记录、M3渲染测试或休眠唤醒日志。尤其M3与Touch ID可用是未核验的二手主张，不能当作官方支持、性能或整机兼容保证，也不把Asahi既有人工研究重新归功AI。保留为有明确功能目标的未核验适配报告；REA未提及，本合集未安装发行版、执行补丁或连接Mac。",
-    "sources": [{"label": "Sachin的Omarchy／Asahi与AI agents转述，2026-11-08 18:06:46北京时间", "url": "https://x.com/i/status/2119371038069060078"}],
-    "snapshot_date": "2026-11-08", "metadata": ["候选封存2赞、257浏览、0转发；硬件功能和不上游说法均未获得补丁或官方确认。"],
+    "description": "2026年11月8日18:06:46（北京时间），Sachin（@sachintwtss）称Omarchy已能在Mac上使用Touch ID、M3 GPU和deep sleep，建立在Asahi的逆向工作之上，由AI agents加速。这是让Apple硬件运行Linux发行版的具体互通说法；帖子未提供驱动实现或明确AI工作分配。\n\n作者同时称Asahi禁止AI代码，因此相关修改不上游，并承认其clean-room法律顾虑。这里不把AI贡献政策等同于代码许可证，也不据此断言Omarchy全部驱动的来源或法律状态；这些政策与不上游关系仍归因该帖。\n\n11月9日03:06:37的新候选中，@me_deepu转述DHH团队使用Agent推进上述功能，并增加DisplayPort over USB-C与MacBook Neo。该帖解释Asahi关注洁净室知识来源：禁止泄露Apple材料，模型可能见过贡献者未接触的材料，Agent还可能使人不知道答案来自哪里。补取只确认评论者和措辞，没有直接读取DHH原声明或政策全文；硬件支持与拒收关系仍是转述，不作官方声明或法律结论。\n\n未取得对应Omarchy／Asahi提交、设备型号、内核版本、Touch ID认证记录、M3渲染、USB-C显示或休眠唤醒日志。尤其M3与Touch ID可用是未核验的二手主张，不能当作官方支持、性能或整机兼容保证，也不把Asahi既有人工研究重新归功AI。保留为有明确功能目标的未核验适配报告；REA未提及，本合集未安装发行版、执行补丁或连接Mac。",
+    "sources": [{"label": "Sachin的Omarchy／Asahi与AI agents转述，2026-11-08 18:06:46北京时间", "url": "https://x.com/i/status/2119371038069060078"}, {"label": "me_deepu转述DHH团队的USB-C显示、MacBook Neo与洁净室政策，2026-11-09", "url": "https://x.com/i/status/2119506897766359542"}],
+    "snapshot_date": "2026-11-09", "metadata": ["候选封存2赞、257浏览、0转发；硬件功能和不上游说法均未获得补丁或官方确认。", "11月9日候选封存0赞、17浏览、0转发；新增功能和政策关系仍为二手说明。"],
     "en": {
       "title": "Omarchy on Macs: Sachin relays AI-assisted hardware adaptation built on Asahi research",
       "summary": "Sachin claims Omarchy combines Asahi reversing and AI agents for Touch ID, M3 GPU and deep sleep. No corresponding patches, models or hardware tests were obtained; this is not a Mac support matrix.",
-      "description": "At 18:06:46 Beijing time on November 8, 2026, Sachin (@sachintwtss) claims Omarchy runs on Macs with Touch ID, M3 GPU and deep sleep, built on Asahi reverse engineering and accelerated by AI agents. This is a concrete interoperability claim about running a Linux distribution on Apple hardware, without driver implementation or a precise assignment of AI work.\n\nThe poster also says Asahi bans AI code, so the changes do not go upstream, and acknowledges clean-room legal concerns. Contribution policy is not equated with the code license; neither provenance nor legal status of all Omarchy drivers follows from it. The policy/upstream relationship remains attributed to this post.\n\nRetrieval confirms attribution and wording, not corresponding Omarchy/Asahi commits, device models, kernel revision, Touch ID authentication records, M3 rendering tests or suspend/resume logs. M3 and Touch ID availability in particular are unverified secondary claims, not official support, performance or whole-machine compatibility guarantees. Prior human Asahi research is not reassigned to AI. Retained as an unverified adaptation report with explicit feature targets. REA is unmentioned; no distribution, patch or Mac was installed, executed or connected here.",
-      "metadata": ["Sealed candidate: 2 likes, 257 views, 0 reposts. Hardware-function and non-upstreaming claims lack patches or official confirmation."],
-      "source_labels": ["Sachin's Omarchy/Asahi and AI-agent account, November 8, 2026 at 18:06:46 Beijing time"]
+      "description": "At 18:06:46 Beijing time on November 8, 2026, Sachin (@sachintwtss) claims Omarchy runs on Macs with Touch ID, M3 GPU and deep sleep, built on Asahi reverse engineering and accelerated by AI agents. This is a concrete interoperability claim about running a Linux distribution on Apple hardware, without driver implementation or a precise assignment of AI work.\n\nThe poster also says Asahi bans AI code, so the changes do not go upstream, and acknowledges clean-room legal concerns. Contribution policy is not equated with the code license; neither provenance nor legal status of all Omarchy drivers follows from it. The policy/upstream relationship remains attributed to this post.\n\nA new candidate at 03:06:37 on November 9 from @me_deepu relays DHH's team using agents for these features, adding DisplayPort over USB-C and MacBook Neo. It explains Asahi's concern with clean-room knowledge provenance: leaked Apple material is forbidden, models may have encountered material contributors never saw, and agents can obscure how an answer was obtained. Retrieval confirms the commenter's attribution and wording only; DHH's original statement and full policy were not read directly. Hardware support and rejection remain secondary accounts, not official statements or legal conclusions.\n\nNo corresponding Omarchy/Asahi commits, device models, kernel revision, Touch ID authentication records, M3 rendering, USB-C display or suspend/resume logs were obtained. M3 and Touch ID availability in particular are unverified secondary claims, not official support, performance or whole-machine compatibility guarantees. Prior human Asahi research is not reassigned to AI. Retained as an unverified adaptation report with explicit feature targets. REA is unmentioned; no distribution, patch or Mac was installed, executed or connected here.",
+      "metadata": ["Sealed candidate: 2 likes, 257 views, 0 reposts. Hardware-function and non-upstreaming claims lack patches or official confirmation.", "November 9 sealed candidate: 0 likes, 17 views, 0 reposts. Added features and the policy relationship remain secondary accounts."],
+      "source_labels": ["Sachin's Omarchy/Asahi and AI-agent account, November 8, 2026 at 18:06:46 Beijing time", "me_deepu on DHH's team's USB-C display, MacBook Neo and clean-room policy, November 9, 2026"]
     }
   },
   {

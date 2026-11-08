@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1935 entries**, organized by use case, without a Top-N or popularity threshold.
+**1948 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (393)
-- [Hardware and interoperability](categories/en/hardware.md) (518)
-- [Applications and clients](categories/en/apps.md) (790)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (234)
+- [Games and preservation](categories/en/games.md) (395)
+- [Hardware and interoperability](categories/en/hardware.md) (520)
+- [Applications and clients](categories/en/apps.md) (796)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (237)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Single-player health pointers: DeepSeek exploration and Opus handoffs through REA and CheatEngine](cases/en/singleplayer-health-pointer-rea-cheatengine-model-handoff.md) — The poster describes finding health addresses, pointer chains and persistent mods through two-model handoffs, limited to learning in single-player. Game, addresses, replayable results and billing logs are absent. **[REA · Needs verification]**
+- [tlou-remastered-pc: reported Claude-assisted PS4 libraries and a native Windows runtime](cases/en/tlou-remastered-pc-claude-native-runtime.md) — Hasibul Hasan describes native PS4 libraries, direct x86-64 execution and shadPS4's Vulkan core for The Last of Us Remastered. Playability and compatibility remain unverified. **[Other AI-assisted work · In progress]**
 - [Commodore 128: Scientific Brad reports exact ROM reassembly hashes and a dual-CPU demonstration](cases/en/scientificbrad-commodore128-rea-rom-reassembly.md) — The author reports REA/Ghidra research into 61KB of Commodore 128 ROMs with matching SHA-256, plus an 8502+Z80 emulator booting BASIC 7.0. Logs and independent retests were not obtained. **[REA · Needs verification]**
 - [TAPSONIC World Champion: buru reports Claude Code/REA patches for local name, nationality and song state](cases/en/buru-tapsonic-world-champion-claude-rea-patches.md) — The author feeds owned package/game files to Claude Code with REA and reports patchable online-only name changes, one-time nationality selection and local song state. Public patch acceptance tests are absent. **[REA · Needs verification]**
 - [Super Mario 64 in mixed reality: Nathan AI Lab relays an Opus/PICO CLI-assisted port](cases/en/super-mario64-mixed-reality-opus-pico-cli-report.md) — A secondary post credits Opus 5.5/PICO CLI for bringing SM64 characters and levels into room space, claiming 90 FPS on Quest 3/3S. Repository identity, frame rate and completeness remain unverified. **[Other AI-assisted work · Needs verification]**
@@ -424,6 +426,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [2009 Kindle 2: Codex-assisted 4bpp driver, partial-refresh and cover-Home changes](cases/en/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted reports Codex-assisted driver conversion and Home hooks, with median software page response falling from about 430 to 330–340 ms. These are single-device author tests, not independent reproduction or whole-display refresh guarantees. **[Other AI-assisted work · In progress]**
+- [Failed 8bitdo repair: Ernest says three hours of Claude firmware work ended in a brick](cases/en/ernest-8bitdo-claude-firmware-brick-report.md) — The author asked Claude to analyze controller firmware for Bluetooth connection trouble and reports a complete brick. Model, changes and recovery diagnostics are absent; this does not establish model regression. **[Other AI-assisted work · Needs verification]**
 - [Single-image mechanical dragonfly: f0rgent relays Claude-inferred hinges, gears and frequencies](cases/en/elvar-claude-dragonfly-image-mechanism-report.md) — A reply to elvar_official claims Claude inferred a dragonfly mechanism from one image. Tolerances, frequencies and manufacturability lack measurements or physical tests. **[Other AI-assisted work · Needs verification]**
 - [Wyze RC car: whyamas relays wesbos's Claude Code work on USB and ESP32 control](cases/en/wesbos-wyze-rc-car-claude-usb-esp32.md) — whyamas says wesbos used Claude Code to study RC-car control, replacing custom Wyze-camera firmware with USB or ESP32 operation. Protocol and hardware acceptance tests are unverified. **[Other AI-assisted work · Needs verification]**
 - [Managing old G-RAIDs: Carlos says Claude read controller firmware and rebuilt an Apple Silicon app](cases/en/carlos-graid-claude-native-apple-silicon-app.md) — Carlos reports Claude-assisted firmware dumping, protocol mapping and a native Mac management app for old G-RAIDs. Model, source and storage-safety tests are undisclosed. **[Other AI-assisted work · Needs verification]**
@@ -945,6 +949,12 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [479 DLLs and 1,700-plus UI items: DeepSeek/REA architecture work misses GUI mapping](cases/en/large-app-479-dll-1700-gui-rea-model-handoff.md) — _ToiM22 says Claude's build missed features after DeepSeek read 477 DLLs. Returning to Claude for menu enumeration and screenshots exposes the gap between static mapping and UI coverage. **[REA · In progress]**
+- [An encrypted avatar still extracted: ZaiBitez alleges AI-assisted protection bypass](cases/en/encrypted-avatar-ai-ripping-allegation.md) — ZaiBitez says an avatar had anti-ripping encryption but was taken after AI reverse engineering. Scheme, tool and logs are absent; the allegation does not establish cryptographic compromise. **[REA use unconfirmed · Needs verification]**
+- [agenC demo account: one hour from a DOS binary to a web app, with cache rate not correctness](cases/en/agenc-dos-binary-webapp-autonomous-report.md) — kakashikute promotes agenC's autonomous DOS-binary research and web rebuilding, claiming 99.7% cache efficiency. Target name, artifact and compatibility tests are absent. **[Other AI-assisted work · Needs verification]**
+- [iPhone Mirror on Windows: an Opus reconstruction claim and WDA control limits](cases/en/windows-iphone-mirror-opus-airplay-wda-report.md) — 0xCodez credits Opus 5.5 with Windows iPhone mirroring, describing system screen mirroring and WDA interaction. This does not establish recovery of Apple's native iPhone Mirroring protocol. **[Other AI-assisted work · Needs verification]**
+- [0 security harness: a release account of multi-model binary research, parallel reproduction and fix testing](cases/en/zero-security-labs-multimodel-reversing-harness.md) — Peak__Twilight introduces 0securitylabs' open-source AI security workbench and claims 30-plus Linux-kernel zero-days. No identifiers, disclosures or reproductions were obtained; these are not verified findings. **[Other AI-assisted work · Related project]**
+- [Claude/ChatGPT client fingerprints: 2WalterW's REA account does not recover ban rules](cases/en/claude-chatgpt-sim-device-fingerprint-rea-claim.md) — 2WalterW claims to have found SIM, timezone and device fields while studying Claude/ChatGPT. Client versions, call paths and server evidence are absent; ban algorithms are not established. **[REA · Needs verification]**
 - [Airtable clone: Mokoena reports intensive reverse-engineering development with Claude Code](cases/en/claude-code-airtable-clone-ban-self-report.md) — Mokoena describes building an Airtable clone with extensive Claude Code-assisted reversing. Features and acceptance tests are undisclosed; the connection to an account ban is speculation. **[Other AI-assisted work · In progress]**
 - [Keygen research: Goge says ds refused and Gemini carried out the task](cases/en/goge-gemini-keygen-ds-refusal-self-report.md) — Goge reports a paid-software keygen request refused by ds but handled by Gemini. Target, model versions and verifiable artifacts are absent; only the response difference is recorded. **[Other AI-assisted work · Needs verification]**
 - [r_AKanaly: Codex investigates malware inside a VM through MCP, then writes an evidence report](cases/en/r-akanaly-codex-vm-malware-analysis-review.md) — connect24h reviews Morita's v0.1.10 analysis tool. Pinned docs describe Windows/VMware runtime logs, Ghidra queries and HTML reports, caution that report success is not full behavioral coverage, and specify noncommercial licensing. **[Other AI-assisted work · Related project]**
@@ -1738,6 +1748,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Offline search reconstruction idea: expose demo blind spots with two spaces, ordering and pagination](cases/en/rea-offline-search-behavior-spec-edgecase-test.md) — satoshiwhynot proposes observing the original, writing a behavioral spec and isolating an implementation agent before identical-input comparisons. Offline search is an illustrative example, without execution results. **[REA · Needs verification]**
+- [TED-Ed night-riddle style: Bajan has Claude rebuild a frame-by-frame spec in Canvas](cases/en/ted-ed-riddle-claude-canvas-style-rebuild.md) — Bajan publishes visual, motion and sound specifications for a 1920×1080 riddle video, using Canvas time functions, headless Chrome and ffmpeg. Similarity and zero cost lack independent verification. **[Other AI-assisted work · Needs verification]**
+- [Two phones as frontends: 0xwhippa's multi-model firmware-reader experiment](cases/en/two-phone-multi-model-firmware-reader-report.md) — 0xwhippa says a computer coordinates Sonnet coding a firmware reader, four Haiku searchers and a final Opus review. Firmware, code and acceptance are undisclosed; the phones provide input and monitoring only. **[Other AI-assisted work · Needs verification]**
 - [Ella and the Demon: sandmrk reverse-engineers a seven-clip Muse prompt with prop and transformation continuity](cases/en/sandmrk-muse-ella-demon-continuity-prompt.md) — sandmrk publishes a porcelain-noblewoman-and-demon storyboard for Muse, explicitly saying generation still does not match the reference. Shot counts and timings are internally inconsistent. **[Other AI-assisted work · Needs verification]**
 - [Decision Transformer training data: Roasted Phoenix reports runaway test usage after agent-led scaffold reconstruction](cases/en/roasted-phoenix-decision-transformer-scaffold-token-budget.md) — The author studies a scaffold for synthetic training data and says subsequent bot tests consumed 3–5% of weekly allowance before intervention. Neither training nor reversing correctness is accepted. **[Other AI-assisted work · In progress]**
 - [RDNA shader research idea: Sebastian Aaltonen suggests SPIR-V conversion followed by AI variable naming](cases/en/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — A proposal reuses PS5-emulator RDNA ISA-to-SPIR-V conversion, then HLSL/GLSL/Metal output and AI naming. No implementation identity, input sample or semantic-correctness test is supplied. **[Other AI-assisted work · In progress]**

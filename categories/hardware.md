@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home](../cases/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted称Codex修改旧Kindle显示转换与Home钩子，软件翻页响应中位数约430降至330–340毫秒；为单机自测，非独立复现或整机刷新保证。 **[其他 AI 逆向 · 进行中]**
+- [8bitdo手柄维修失败：Ernest称Claude分析固件三小时后变砖](../cases/ernest-8bitdo-claude-firmware-brick-report.md) — 作者为解决蓝牙连接异常让Claude分析手柄固件，报告最终完全变砖；没有型号、修改记录或恢复诊断，不能据此证明模型退化。 **[其他 AI 逆向 · 待验证]**
 - [单图机械蜻蜓：f0rgent转述Claude推断铰链、齿轮与频率](../cases/elvar-claude-dragonfly-image-mechanism-report.md) — 回复elvar_official的帖子称Claude从一张蜻蜓图反推机械结构；公差、频率与可制造性均未有测量或实体测试。 **[其他 AI 逆向 · 待验证]**
 - [Wyze小车：whyamas转述wesbos用Claude Code研究USB与ESP32控制](../cases/wesbos-wyze-rc-car-claude-usb-esp32.md) — whyamas称wesbos让Claude Code研究遥控车控制，从定制Wyze相机固件改为USB或ESP32；协议与实机验收未核。 **[其他 AI 逆向 · 待验证]**
 - [旧G-RAID管理：Carlos称Claude读控制器固件并重建Apple Silicon应用](../cases/carlos-graid-claude-native-apple-silicon-app.md) — Carlos自报Claude转储旧G-RAID控制器固件、映射协议并做原生Mac管理应用；未披露型号、源码或存储安全测试。 **[其他 AI 逆向 · 待验证]**

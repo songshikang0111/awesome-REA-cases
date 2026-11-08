@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 1935 cases & projects
+# 1948 cases & projects
 
-**Latest case update:** November 9, 2026, 03:06 · **Last maintained:** November 9, 2026, 03:06 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 9, 2026, 04:15 · **Last maintained:** November 9, 2026, 04:15 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -32,7 +32,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 6. **[Pokémon Bank: keep transfers local on a 3DS](cases/en/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01` report and project record — Wokann explicitly credits Codex for decompilation analysis and patch work. A **public local-server patch preserves Bank/Mover workflows**, not the official backend; **no HOME transfer**. Requires your own supported titles and save backups; not run here. `In progress`
 7. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 8. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
-9. **[A suitcase without its original app](cases/en/codex-rea-jadx-suitcase-iphone-app.md)** · `2026-11-06` author report (Beijing time) — Diego credits **Codex, REA and JADX research into an old Android APK**, followed by Bluetooth tests on the actual case and a SwiftUI iPhone replacement for weighing and lock control. About an hour is author-reported; model, source and calibration logs are undisclosed. Not run here. `In progress`
+9. **[A 2009 Kindle 2, with a faster reading path](cases/en/kindle2-codex-4bpp-refresh-home-hooks.md)** · `2026-11-09` author report (Beijing time) — Radacted credits Codex with **4bpp driver optimization, selective partial refresh and a cover-based Home**. Reported median software page response falls from **430 to 330–340 ms**, not a whole-screen refresh measurement. Single-device checks only; no public patch or raw logs, and the battery remains weak. Not run here. `In progress`
 10. **[Redivivus: recover Diablo II through reviewed database proposals](cases/en/redivivus-diablo2-ghidra-agent-proposals.md)** · `2026-11-08` report and pinned project docs — **Claude/MCP agents inspect read-only Ghidra databases and propose evidence-backed corrections.** The project reports a single-player playthrough and **7,772/14,626 matching functions** under its address-normalized comparison; not a whole-EXE match. Crashes remain, x64 compilation is not playable x64 support, and users need their own game. Not rebuilt here. `In progress`
 
 
@@ -50,10 +50,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **393** |
-| [Hardware & interoperability](categories/en/hardware.md) | **518** |
-| [Applications & clients](categories/en/apps.md) | **790** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **234** |
+| [Games & preservation](categories/en/games.md) | **395** |
+| [Hardware & interoperability](categories/en/hardware.md) | **520** |
+| [Applications & clients](categories/en/apps.md) | **796** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **237** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

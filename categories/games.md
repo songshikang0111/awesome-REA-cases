@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [单机血量地址：REA与CheatEngine接DeepSeek探索、Opus解阻](../cases/singleplayer-health-pointer-rea-cheatengine-model-handoff.md) — 作者描述寻找血量地址、指针链与持久化Mod的双模型交接，以学习和单机为限；未给游戏、地址、可重放结果或费用日志。 **[REA · 待验证]**
+- [tlou-remastered-pc：转述Claude辅助PS4系统库与Windows原生运行时](../cases/tlou-remastered-pc-claude-native-runtime.md) — Hasibul Hasan称项目以原生PS4库、直接x86-64执行和shadPS4 Vulkan核心运行最后生还者重制版；可玩程度与兼容性尚未核验。 **[其他 AI 逆向 · 进行中]**
 - [Commodore 128：Scientific Brad自报61KB ROM重汇编哈希一致与双CPU演示](../cases/scientificbrad-commodore128-rea-rom-reassembly.md) — 作者报告REA／Ghidra研究Commodore 128 ROM，重汇编SHA-256一致，并重建8502＋Z80模拟器启动BASIC 7.0；未取得日志或独立复测。 **[REA · 待验证]**
 - [TAPSONIC World Champion：다부루称Claude Code接REA修改本地姓名、国籍与曲目状态](../cases/buru-tapsonic-world-champion-claude-rea-patches.md) — 作者将自有安装包与游戏文件交给Claude Code／REA，报告原在线姓名修改、一次性国籍选择和本地曲目状态可打补丁；无公开补丁验收。 **[REA · 待验证]**
 - [Super Mario 64混合现实：Nathan AI Lab转述Opus与PICO CLI辅助移植](../cases/super-mario64-mixed-reality-opus-pico-cli-report.md) — 二手帖子称Opus 5.5／PICO CLI辅助把SM64角色与关卡接入房间空间，在Quest 3／3S达90FPS；仓库身份、帧率和完整性均未核验。 **[其他 AI 逆向 · 待验证]**

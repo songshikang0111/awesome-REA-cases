@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [离线搜索重建idea：用双空格、排序与分页查出视觉演示漏项](../cases/rea-offline-search-behavior-spec-edgecase-test.md) — satoshiwhynot建议先观察原版写行为规格，再隔离实现Agent并输入对照；离线搜索只是讲解样例，没有运行结果。 **[REA · 待验证]**
+- [TED-Ed夜间谜题风格：Bajan让Claude按逐帧规格用Canvas重建](../cases/ted-ed-riddle-claude-canvas-style-rebuild.md) — Bajan公开1920×1080谜题短片视觉、运动与声音规格，以Canvas时间函数、无头Chrome和ffmpeg重制；相似度与零成本没有独立验证。 **[其他 AI 逆向 · 待验证]**
+- [两部手机作前端：0xwhippa的多模型固件读取器实验](../cases/two-phone-multi-model-firmware-reader-report.md) — 0xwhippa称电脑调度Sonnet写固件读取程序、四个Haiku并行搜索、Opus终审；固件、代码与验收未公开，两部手机只是输入和监看。 **[其他 AI 逆向 · 待验证]**
 - [Ella与恶魔：sandmrk为Muse反推七段短片，约束道具与变身连续性](../cases/sandmrk-muse-ella-demon-continuity-prompt.md) — sandmrk发布瓷偶贵族与恶魔短片的Muse分镜提示，明确生成仍不匹配原片；同串镜头数与时长存在内部不一致。 **[其他 AI 逆向 · 待验证]**
 - [Decision Transformer训练数据：Roasted Phoenix称Agent反推scaffolding后测试耗额失控](../cases/roasted-phoenix-decision-transformer-scaffold-token-budget.md) — 作者研究用于合成训练数据的目标scaffolding，称bot随后测试消耗周额度3–5%才被叫停；模型训练和逆向正确性未验收。 **[其他 AI 逆向 · 进行中]**
 - [RDNA着色器研究idea：Sebastian Aaltonen建议经SPIR-V转源码再让AI命名变量](../cases/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — 提出复用PS5模拟器的RDNA ISA→SPIR-V转换，再到HLSL／GLSL／Metal并让AI命名变量；没有具名实现、输入样本或语义正确性测试。 **[其他 AI 逆向 · 进行中]**

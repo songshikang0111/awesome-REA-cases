@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 1935 个案例与项目
+# 1948 个案例与项目
 
-**最近案例更新：**2026 年 11 月 9 日 03:06 · **最近维护：**2026 年 11 月 9 日 03:06 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
+**最近案例更新：**2026 年 11 月 9 日 04:15 · **最近维护：**2026 年 11 月 9 日 04:15 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -32,7 +32,7 @@
 6. **[Pokémon Bank：把传输留在3DS本地](cases/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01`报道与项目记录 — Wokann明确披露Codex辅助反编译分析和补丁工作，公开**本地服务器补丁保留Bank／Mover流程**，不是官方后端复刻；**不支持HOME传输**。须自备受支持原作并备份存档，本合集未运行。`进行中`
 7. **[DX-Ball：从声像函数走到Windows重建](cases/dx-ball-sound-pan.md)** · `2026-11-01`报道；`2026-10-31`项目记录 — Codex／REA／Ghidra重建报告**270个游戏函数、84968字节匹配**，另有原生VC4构建。仅时间戳不同的比较对象是较早重建版，不是原版EXE；原版50关通关与完整原生音频仍待测。须自备文件，本合集未重建。`项目自测重建`
 8. **[MechWarrior 3：让1999年的机甲游戏跑上现代电脑](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04`报道与固定项目记录 — Owen Morgan披露**REA／Ghidra研究、逐函数C++重建**，报告以Unicorn对照原版。公开原生后端、宽屏与八人UDP联机；报道明确Linux未试玩，Pirate's Moon未支持。须自备原游戏，本合集未构建。`进行中`
-9. **[行李箱原App没了，自己接着用](cases/codex-rea-jadx-suitcase-iphone-app.md)** · `2026-11-06`作者报告（北京时间） — Diego归因**Codex、REA与JADX研究旧Android APK**，再用实物测试蓝牙命令，做SwiftUI iPhone替代App恢复称重与锁控。约一小时为自报；箱型、源码与标定日志未披露，本合集未运行。`进行中`
+9. **[2009年的Kindle 2，阅读路径再快一点](cases/kindle2-codex-4bpp-refresh-home-hooks.md)** · `2026-11-09`作者报告（北京时间） — Radacted归因Codex的**4bpp驱动优化、选择性局部刷新与封面Home**，自报软件页面响应中位数从**430降至330–340毫秒**，不是整屏刷新测量。仅单机自测，无公开补丁和原始日志，电池仍弱。本合集未运行。`进行中`
 10. **[Redivivus：用审阅过的数据库提案恢复暗黑II](cases/redivivus-diablo2-ghidra-agent-proposals.md)** · `2026-11-08`报道与固定项目文档 — **Claude／MCP Agent只读调查Ghidra数据库，再按证据提修正。**项目自报单人通关、地址归一比较下**7772／14626函数匹配**，不是整EXE相同。仍有崩溃，x64编译通过不等于可玩，须自备原游戏。本合集未重建。`进行中`
 
 
@@ -50,10 +50,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **393** |
-| [硬件与设备互通](categories/hardware.md) | **518** |
-| [应用与客户端](categories/apps.md) | **790** |
-| [算法与功能重建](categories/algorithms.md) | **234** |
+| [游戏与游戏保存](categories/games.md) | **395** |
+| [硬件与设备互通](categories/hardware.md) | **520** |
+| [应用与客户端](categories/apps.md) | **796** |
+| [算法与功能重建](categories/algorithms.md) | **237** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
