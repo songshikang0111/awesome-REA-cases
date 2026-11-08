@@ -8,9 +8,9 @@
 
 A curated collection of **reverse-engineering projects, experiments, and ideas**: revive devices, rebuild apps, preserve games, and learn from both useful results and unsuccessful comparisons.
 
-# 1827 cases & projects
+# 1835 cases & projects
 
-**Latest case update:** November 7, 2026, 08:14 · **Last maintained:** November 7, 2026, 08:14 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 8, 2026, 14:24 · **Last maintained:** November 8, 2026, 14:24 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: trace binary evidence, keep devices useful, preserve games, and rebuild everyday workflows. Public implementations and explicit test limits matter more here than broad cloning claims; the full index also keeps early ideas and reported dead ends. Dates below are source or author-update dates, not collection dates.
+**10 worth reading**: trace binary evidence, keep devices useful, preserve games, and rebuild everyday workflows. These picks favor inspectable implementations and specific test limits; the full index also includes camera/RAW experiments, scan-to-CAD ideas and failed game-reconstruction reports. Dates below are source or author-update dates, not collection dates.
 
 1. **[XRef: who writes this binary field?](cases/en/alex09x-xref-serialized-status-writer-walkthrough.md)** · `2026-11-07` author post; `2026-11-06` pinned docs — **Trace serialized keys to candidate writers and instruction evidence**, with public Rust/JSON/MCP tools for analysts and agents. Rankings are heuristic, x86-64 input support is bounded, and live probes can disturb the target. Not run here. `Related project`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **371** |
-| [Hardware & interoperability](categories/en/hardware.md) | **491** |
-| [Applications & clients](categories/en/apps.md) | **757** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **208** |
+| [Games & preservation](categories/en/games.md) | **372** |
+| [Hardware & interoperability](categories/en/hardware.md) | **494** |
+| [Applications & clients](categories/en/apps.md) | **759** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **210** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

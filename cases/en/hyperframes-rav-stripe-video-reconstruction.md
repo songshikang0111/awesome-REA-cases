@@ -13,11 +13,13 @@ Retrieval confirms the comparison poster, not the 20-film list, per-film labels,
 REA is inspiration, not confirmed execution tooling. HyperFrames editor's Xiaolin/Vox templates and REA-VIDEO remain distinct. No skill, reference footage, comparison or rebuild was installed, downloaded, watched or run; status remains unverified.
 
 November 5 sealed snapshot: 11 likes, 627 views, 2 reposts. Open source and one shot are author claims, not source/output checks.
-November 7 candidate: 2 likes, 42 views, 0 reposts. Twenty films, 108 cuts, precision, timings and SSIM are competitor reports, not tests rerun here.
+Earlier November 7 candidate: 2 likes, 42 views, 0 reposts. Twenty films, 108 cuts, precision, timings and SSIM are competitor reports, not tests rerun here.
+At 10:12:50 Beijing time on November 7, James Russo (@Rames_Jusso) recommends HyperFrames for video reversal/remixing and claims their evaluation beat REA-VIDEO in every dimension. Retrieval confirms attribution, not revisions, samples, metric tables or raw results for that post; it is not treated as a new independent experiment. The earlier detailed comparison explicitly concedes slightly faster, cheaper REA-VIDEO remakes, so the blanket promotional claim does not supersede that limit. Sealed candidate: 6 likes, 390 views, 0 reposts.
 
 ## Sources
 
 - [Miguel Ángel announces HyperFrames RAV and a Stripe example, November 5, 2026](https://x.com/i/status/2118051103057101245)
 - [Miao Yang's reverse-any-video versus REA-VIDEO tests, November 7, 2026 at 03:41:51 Beijing time](https://x.com/i/status/2118790987875221905)
+- [James Russo's across-the-board superiority claim, November 7, 2026 at 10:12:50 Beijing time](https://x.com/i/status/2118889384162525495)
 
 [中文](../hyperframes-rav-stripe-video-reconstruction.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Sonic the Fighters：AI反编译作品的下载者报告低帧率与很快下架](../cases/sonic-fighters-ai-decompile-negative-user-report.md) — KingDisappointed在AI标识讨论中称下载Sonic the Fighters反编译作品后见其撤下，后补报内存、贴图、闪烁和低于20FPS问题；没有版本、设备或日志。 **[未确认使用 REA · 待验证]**
 - [Spyro ANB动画研究：Yallax澄清自己引导Claude，并非完成反编译](../cases/dreamwoven-spyro-anb-claude-animation-research.md) — TLoS: ANB串中Yallax说利用DRG mod经验引导Claude；旧帖提五段Pickup动画疑似删减内容，未确认用途，也不把作者当反编译者。 **[其他 AI 逆向 · 进行中]**
 - [Wing Commander浏览器联机：多年人工内存研究后由AI补构建与语音](../cases/wing-commander-browser-multiplayer-ai-build-voice-report.md) — RwatitFahsa转述1990年Wing Commander以WebRTC、Emscripten和房间码实现浏览器联机；AI只被归于构建脚本及部分语音，不是十年逆向全由AI完成。 **[其他 AI 逆向 · 待验证]**
 - [Wing Commander进VR：Bozoid转述REA参与，具体版本尚未核验](../cases/wing-commander-vr-rea-bozoid-secondary-report.md) — Bozoid说Wing Commander系列因REA／AI努力获得VR，并希望官方商店提供；未给具体作品、头显、实现或测试，不能当已验证VR移植。 **[REA · 待验证]**

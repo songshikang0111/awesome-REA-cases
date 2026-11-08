@@ -18,6 +18,8 @@ At 00:43:10 on November 7, Vaibhav Sisinty (@VaibhavSisinty) says personal trial
 
 At 03:41:51 Miao Yang (@WaterrrMiao) reports a 20-film competitor test of their reverse-any-video against REA-VIDEO. In RAV/REA-VIDEO order: 108/108 versus 59/108 cuts, 96% versus 89% precision, and 81 versus 1,595 seconds of analysis, described as about 20 times faster; the latter allegedly calls live footage AI in three of eight examples. Same-model, same-key, isolated-container remakes reportedly score SSIM 0.96 versus 0.78, but the poster concedes REA-VIDEO remakes are slightly faster/cheaper and both suit simple UGC. Sample lists, revisions, configurations, model names, itemized records, SSIM alignment/aggregation and absolute remake costs/times are absent. This is a competitor report, not an independent benchmark. Cuts and remake SSIM are not the earlier production-origin metric; analysis and remake speed are also distinct.
 
+At 10:12:50, James Russo (@Rames_Jusso) again claims HyperFrames outperforms REA-VIDEO in every dimension, without new samples or a result table. This is not an independent experiment and does not override the earlier remake-speed/cost concession. At 11:08:35, AI少年 (@aehyok) reports personally trying the tool and describes per-shot production routes, subtitles/stickers/audio, SRT/ASS and report.html, stressing that filmed, AI, code, 3D and screen-recorded parts must be filmed, generated or implemented separately. Compression can cause origin-classification errors, and prompts are inferred rather than recovered originals. Roughly 3K stars is the poster's dissemination snapshot. No actual input video, HTML or per-shot comparison is supplied, so accuracy and a completed remake are not established.
+
 This collection checked text, older pinned documentation and licensing only, without installing, downloading reference clips, analyzing or comparing remakes. Original prompts or Remotion source are not established as recovered.
 
 Earlier whole-roundup snapshot: 2 likes, 257 views, 0 reposts. Later November 3 post: 29 likes, 1,356 views, 6 reposts. Tests and licensing were unchecked then; earlier review confirmed license text without rerunning tests.
@@ -25,6 +27,7 @@ November 4 candidate: 0 likes, 11 views, 0 reposts. The poster explicitly has no
 Earlier November 5 sealed candidates respectively: 2 likes/107 views/0 reposts; 0/71/0; 0/72/0. Subjective impressions, promotional timings and about 950 stars remain distinct from accuracy evidence.
 November 5, 14:04:55 candidate: 3 likes, 328 views, 0 reposts. Six days/1,300+ stars is a relayed snapshot, not proof of functionality.
 November 7 usage candidate: 19 likes, 2,915 views, 0 reposts; competitor-comparison candidate: 2 likes, 42 views, 0 reposts. Neither is an independent test by this collection.
+November 7 at 10:12:50: James Russo candidate, 6 likes, 390 views, 0 reposts. At 11:08:35: AI少年 candidate, 15 likes, 538 views, 2 reposts. Roughly 3K stars is the latter's text claim, not a measurement here.
 
 ## Sources
 
@@ -39,5 +42,7 @@ November 7 usage candidate: 19 likes, 2,915 views, 0 reposts; competitor-compari
 - [Supplementary Apache-2.0 license text at the same commit](https://github.com/JuneYaooo/rea-video/blob/b3b95d58cef9fd1d1a0e47b73e87a94543638bc8/LICENSE)
 - [Vaibhav Sisinty's usage account and no-finished-video boundary, November 7, 2026 at 00:43:10 Beijing time](https://x.com/i/status/2118746019206922308)
 - [Competitor Miao Yang's 20-film comparison claims, November 7, 2026 at 03:41:51 Beijing time](https://x.com/i/status/2118790987875221905)
+- [James Russo's blanket superiority claim and its limits, November 7, 2026 at 10:12:50 Beijing time](https://x.com/i/status/2118889384162525495)
+- [AI少年的 personal usage account and production-work division, November 7, 2026 at 11:08:35 Beijing time](https://x.com/i/status/2118903412687581194)
 
 [中文](../rea-video-shot-breakdown-rebuild-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

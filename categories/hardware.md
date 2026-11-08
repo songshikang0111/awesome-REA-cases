@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [蓝光扫描到参数模型：MattyK166转述AI辅助3D打印重建流程](../cases/mattyk166-blue-light-scan-ai-parametric-model-report.md) — MattyK166称见到消费进阶级蓝光激光扫描先生成网格、AI再建参数模型供3D打印；物体、软件、尺寸精度与输出未披露。 **[其他 AI 逆向 · 待验证]**
+- [Tesla车辆研究idea：读者建议REA配OBD-II转USB适配器](../cases/rizzler-tesla-rea-obd-usb-research-idea.md) — _Rizzler建议向Tesla接入REA和OBD-II/USB适配器以研究系统并尝试越狱；只是设备方向的想法，没有车型、协议、可达性或成功记录。 **[REA · 待验证]**
+- [Fujifilm X-T5：Pat Simmons用Claude Code拍照、研究RAW重渲染并尝试固件](../cases/pat-simmons-fuji-xt5-claude-raw-firmware-attempt.md) — Pat Simmons的视频章节列出X-T5连接、Portra 800配方、不用X RAW Studio重渲染RAW，以及固件受阻后转Mac做光晕；未观看视频或核验协议。 **[其他 AI 逆向 · 进行中]**
 - [Baofeng 5RM：Shade用Claude将定制固件移植到自己的版本](../cases/shade-baofeng-5rm-claude-firmware-port.md) — Shade看到的5RM固件不适合自己的版本，称用Claude移植、已fork并等PR接受；未披露版本差异、功能与实机测试。 **[其他 AI 逆向 · 进行中]**
 - [十年蓝牙耳机：Insomnia称Claude检查协议并改codec与EQ](../cases/claude-2016-bluetooth-headphone-codec-eq-report.md) — Insomnia自述Claude检查2016年廉价耳机的配置与通信，写脚本改codec、权限和EQ，称通话改善、续航1小时到近3小时；未公开型号或测量。 **[其他 AI 逆向 · 待验证]**
 - [M-vave FM1：读者建议与Claude把定制固件做成groovebox](../cases/m-vave-fm1-claude-groovebox-firmware-idea.md) — @HamasCOO点名M-vave FM1，建议Claude辅助定制固件改成groovebox；是具体设备改造idea，未给实际移植或逆向记录。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [400多个跟单系统：用户称Claude在其睡眠期间反推交易策略](../cases/yetanother2024-claude-copy-trading-strategy-audit.md) — @yetanother2024称Claude分析400多个跟单系统并否定其策略；没有平台可确认名称、输入、分析报告或收益检验，不能据此认定诈骗。 **[其他 AI 逆向 · 待验证]**
+- [Qwen3.8-27B-QSA：转述ryu15反推稀疏注意力以改善长上下文推理](../cases/ryu15-qwen-qsa-sparse-attention-reconstruction-report.md) — FHILY称ryu15重建QSA思路、适配Qwen3.8-27B，在双V100上报告128K预填1598到3114 tokens/s；模型、实现、评测与AI辅助角色未核对。 **[未确认使用 REA · 待验证]**
 - [XRef：从status字段追到候选写入函数，而不是看名字猜作者](../cases/alex09x-xref-serialized-status-writer-walkthrough.md) — Alexander Panasenko用XRef说明序列化键、字段偏移、writer候选与指令证据的调查路线；公开Rust工具提供JSON/MCP，排名仍是启发式，本合集未执行。 **[其他 AI 逆向 · 相关项目]**
 - [Apollo投沙包：转述Gemini Argon从视频反推力学目标与仿真](../cases/gemini-argon-monocular-parabolic-skill-transfer-report.md) — 谁是藏镜人称Gemini Argon看单目投沙包视频，反推抛物线目标、写仿真并训练Apollo策略；无原始研究或命中统计，不确认零样本成功。 **[其他 AI 逆向 · 待验证]**
 - [Stacktrace叫停实验：GLM据称用后30轮中的27轮研究阻止机制](../cases/stacktrace-glm-steering-blocker-reverse-engineering-report.md) — Micheal Benedict报告实时steering控制实验：多数模型改道，GLM继续研究阻止它的机制；27/30是单例轮数，不是成功绕过率。 **[其他 AI 逆向 · 分析测试]**

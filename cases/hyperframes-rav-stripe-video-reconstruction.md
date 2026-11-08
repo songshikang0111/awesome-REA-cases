@@ -13,11 +13,13 @@
 REA仅为灵感来源，未确认执行；与HyperFrames editor小Lin说／Vox模板及REA-VIDEO保持区分。未安装技能、下载原片、观看比较或运行重建，保持unverified。
 
 11月5日封存11赞、627浏览、2转发；开源与1-shot是作者说法，不是源码或成片核验。
-11月7日候选2赞、42浏览、0转发；20片、108切点、precision、时间与SSIM均为竞争方报告，不是本合集复测。
+11月7日较早候选2赞、42浏览、0转发；20片、108切点、precision、时间与SSIM均为竞争方报告，不是本合集复测。
+11月7日10:12:50，James Russo（@Rames_Jusso）建议用HyperFrames逆向并混剪视频，称己方评测对REA-VIDEO每个维度都胜出。补取确认署名，但未获得该帖对应的版本、样本、指标表或原始结果；不能把它当成新独立实验。较早详细比较明确承认REA-VIDEO成片略快且便宜，因此全面胜出的宣传不应覆盖该边界。候选封存6赞、390浏览、0转发。
 
 ## 来源
 
 - [Miguel Ángel的HyperFrames RAV发布与Stripe示例，2026-11-05](https://x.com/i/status/2118051103057101245)
 - [Miao Yang的reverse-any-video对REA-VIDEO自测，2026-11-07 03:41:51北京时间](https://x.com/i/status/2118790987875221905)
+- [James Russo的全面胜出宣称，2026-11-07 10:12:50北京时间](https://x.com/i/status/2118889384162525495)
 
 [English](en/hyperframes-rav-stripe-video-reconstruction.md) | [返回目录](../README.zh-CN.md)
