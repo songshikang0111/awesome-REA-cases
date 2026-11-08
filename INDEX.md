@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1897 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1902 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（383）
-- [硬件与设备互通](categories/hardware.md)（508）
-- [应用与客户端](categories/apps.md)（781）
-- [算法与功能重建](categories/algorithms.md)（225）
+- [游戏与游戏保存](categories/games.md)（384）
+- [硬件与设备互通](categories/hardware.md)（509）
+- [应用与客户端](categories/apps.md)（782）
+- [算法与功能重建](categories/algorithms.md)（227）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Switch上的Zelda研究：Rodrigo称提取后数小时推进，镜头与鼠标仍待做](cases/rodrigo-zelda-switch-claude-rea-camera-wip.md) — Rodrigo以Claude、AI、Zelda和REA标签报告从Switch提取后的实验，仍需解决镜头移动与鼠标；未确认具体作品、重建方法或完整移植。 **[REA · 进行中]**
 - [SimCity研究进行中：David Lietjauw称还让Claude玩了游戏](cases/davidfromkansas-simcity-claude-play-reversing.md) — 作者称正在逆向SimCity，并让Claude玩游戏；版本、研究方法与重建成果未披露，不等于完成移植。 **[其他 AI 逆向 · 进行中]**
 - [Titanfall 2 VR：Thrill报告在Arch Linux与无线Valve头显上游玩](cases/thrill-titanfall2-vr-ai-reversing-linux-report.md) — 使用者将Titanfall 2的VR mod归因AI辅助逆向，并描述Arch Linux主机与无线头显体验；没有开发日志或兼容性测试。 **[其他 AI 逆向 · 待验证]**
 - [MSFS2020飞机插件修bug：Spectro称改用Codex处理逆向工作](cases/spectro-msfs2020-codex-airplane-addon-bugfix.md) — Spectro称Claude拒绝后，用Codex研究并修复自己拥有的MSFS2020飞机附加组件；没有插件名、补丁或修复结果。 **[其他 AI 逆向 · 进行中]**
@@ -412,6 +413,7 @@
 
 ### 硬件与设备互通
 
+- [停产热敏打印机复活：VedaAI00转述AI经串口研究协议并写驱动](cases/veda-ai-defunct-thermal-printer-serial-revival.md) — 谁是藏镜人转述一台失去厂商支持的热敏打印机，通过串口和AI协议研究恢复使用；型号、原作者、驱动和打印测试未披露。 **[其他 AI 逆向 · 待验证]**
 - [零跑轻量车控App想法：a bei报告AI因云服务逆向而拒绝](cases/abei-leapmotor-native-car-control-ai-refusal.md) — a bei受极氪原生车控App启发想做零跑版本，但AI拒绝云服务逆向；仅有需求与受阻经历，没有车控实现。 **[其他 AI 逆向 · 待验证]**
 - [Educator 64 KERNAL：Scientific Brad称REA识别8KB ROM并重组哈希一致](cases/scientificbrad-educator64-kernal-rea-rom-reassembly.md) — 作者报告REA／Ghidra识别901246-01 ROM，反汇编后重组SHA256一致，并做PowerShell内运行的原生概念版；不是完整机器兼容性证明。 **[REA · 分析测试]**
 - [Marshall Stanmore II维修：Javier问Claude后仍无法提取固件](cases/javier-marshall-stanmore2-claude-firmware-extraction-attempt.md) — 坏音箱的固件读取受阻；Claude关于锁芯片、访问会擦除的答复未做硬件验证，不等于已确认无法修复。 **[其他 AI 逆向 · 进行中]**
@@ -923,6 +925,7 @@
 
 ### 应用与客户端
 
+- [切换到OpenGym：一阁称AI研究某bod健身App并迁入视频](cases/opengym-bod-app-video-migration-ai-report.md) — 一阁称让AI部署OpenGym，再逆向某bod App并导入其中视频，以迁移个人训练使用；没有完整品牌、代码、权限或导入验证。 **[其他 AI 逆向 · 待验证]**
 - [自建Foundry替代：员工称AI帮助拼接开源数据平台](cases/fused-stardust-foundry-open-source-ai-rebuild.md) — The Mad Y0da称所在公司取消Palantir合同后，自建数据连接、管线、ontology与Workshop式界面；未披露代码、组件或迁移验证。 **[其他 AI 逆向 · 待验证]**
 - [Yapfast：Hemish称Rust版Discord替代客户端已有通话](cases/yapfast-rust-discord-ai-reversing-report.md) — Hemish在AI与mod讨论中以Yapfast为例称已逆向Rust客户端且能打电话；没有说明AI具体研究步骤或提供通话验证。 **[其他 AI 逆向 · 待验证]**
 - [旧副项目源码丢失：Erik Fiala称REA恢复约70%逻辑](cases/erik-fiala-rea-lost-source-side-project-recovery.md) — 作者称把丢源码的旧side project交给REA，从行为恢复约70%逻辑；没有程序名、代码、计量定义或回归测试。 **[REA · 待验证]**
@@ -943,7 +946,7 @@
 - [DemoFork：参考demo的剪辑节奏，加三张产品截图生成新视频](cases/demofork-magichour-demo-pacing-three-screenshots.md) — 候选回复指向Rayan Ali的DemoFork：输入参考demo和三张产品截图，以MagicHour AI借用节奏制作新片；未验证视频质量或不复制素材的实现。 **[其他 AI 逆向 · 进行中]**
 - [Hadesi的学习通签到系统：REA辅助研究后的功能自述](cases/hadesi-rea-chaoxing-checkin-system-report.md) — Hadesi因学校签到名额难抢、代办太贵，称用REA研究学习通并集成自动化功能；没有源码、版本或成功率记录，与核桃的课程进度实验分开。 **[REA · 待验证]**
 - [二旬老汉的抢券流量研究：手机操作留给人，包与脚本交给AI](cases/leeking420-ai-mcp-mobile-coupon-traffic-analysis.md) — 二旬老汉称将手机抓包软件经MCP接AI、无线ADB连接，自己操作手机而让AI分析包与脚本；未具名平台、模型或实际抢券成果。 **[其他 AI 逆向 · 进行中]**
-- [阿杭的剪映Codex版：先澄清需求，再研究并组装剪辑能力](cases/ahang-codex-jianying-intent-clarification-rebuild.md) — 阿杭称以Codex研究剪映，先在指令文件强制澄清意图、用Monid补材料，耗用两个GPT20x周额度；后帖称已用重建版本剪视频，没有源码或完整功能对照。 **[其他 AI 逆向 · 进行中]**
+- [阿杭的剪映Codex版：先澄清需求，再研究并组装剪辑能力](cases/ahang-codex-jianying-intent-clarification-rebuild.md) — 阿杭报告Codex研究与自用剪辑，后公开完整Plan提示：独立编辑器、AI确认后执行及可编辑工程兼容；这些是验收目标，尚无源码或完整功能对照。 **[其他 AI 逆向 · 进行中]**
 - [OpenMontage：参考片节奏到Transformer科普前10秒的具体设想](cases/openmontage-reference-edit-transformer-ten-second-idea.md) — 介绍称OpenMontage把参考片开头、切镜和旁白关系交给Codex／Claude Code，先看样片和费用；发帖者想借此做Transformer科普，还没有该实验结果。 **[其他 AI 逆向 · 相关项目]**
 - [astro-conversion-kit：把线上WordPress等网站重建为静态Astro站点](cases/astro-conversion-kit-live-site-agent-migration.md) — AI探路者Tim介绍一组Agent技能，从线上网站转成Astro、产出PR并部署预发布环境；没有核对原站、源码或迁移保真度，属于网站重建相关项目。 **[其他 AI 逆向 · 相关项目]**
 - [跨两台PC协作：Simon称DeepSeek运行REA并与Claude Code商量计划](cases/simon-deepseek-rea-claude-cross-pc-planning.md) — Simon自述DeepSeek creator mode运行REA，与另一台PC上的Claude Code Agent共同计划；没有目标文件、通信实现、分析输出或完成结果。 **[REA · 进行中]**
@@ -1179,7 +1182,7 @@
 - [winutil与Windows调整：gIoomy的Opus审查自述保留互相矛盾的计数](cases/gloomy-winutil-opus-readonly-tweak-audit.md) — 作者称Opus5.5先读winutil39项调整、避开BitLocker停用并备份真实设置，选七项改善电脑；启动项与服务数字不一致，未验证性能或回滚。 **[其他 AI 逆向 · 待验证]**
 - [Jump Desktop Fluid：Zack Jackson的AI反编译尝试遇到官方beta](cases/zack-jump-desktop-fluid-linux-decompile-attempt.md) — Zack Jackson称AI正尝试反编译以实现Linux的Fluid支持，随后发现Jump Desktop beta；没有自制兼容客户端或完成反编译的证据。 **[其他 AI 逆向 · 进行中]**
 - [Jiffshot：Marc-André Moreau澄清Claude只读Snagit文档与截图](cases/jiffshot-snagit-claude-docs-screenshots-rebuild.md) — Snagit替代品Jiffshot以Rust和Avalonia UI实现；作者明确说没用REA、没反编译，只让Claude读文档和截图。功能与稳定性仍是作者报告。 **[其他 AI 逆向 · 进行中]**
-- [Yosei：An Van称授权控制Mac前让Claude反编译并在虚拟机审计](cases/anvan-yosei-claude-macos-vm-audit-report.md) — An Van报告Claude Code在临时macOS虚拟机检查Yosei端口、流量、配对与更新，并称未发现后门或回传；版本与审计记录未公开核验。 **[其他 AI 逆向 · 待验证]**
+- [Yosei：An Van称授权控制Mac前让Claude反编译并在虚拟机审计](cases/anvan-yosei-claude-macos-vm-audit-report.md) — An Van公开Claude Code的版本差分、反编译与临时macOS虚拟机审计提示；补串明确Yosei0.9.15及两项本地风险，未独立验证无后门结论。 **[其他 AI 逆向 · 待验证]**
 - [Cleanly：Opus从CleanMyMac截图重建清理器与安全检查的报告](cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — Opus5.5截图重建Electron/React双平台清理器，后续拓跋鼠以Cleanly之名介绍并称代码/安装包已公开；14.6GB与删除安全均未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenCursor：fsconfig为Cursor式开源工作区补充第一人称报告](cases/fsconfig-cursor-open-ai-workspace-report.md) — fsconfig本人称逆向Cursor并重建OpenCursor，提供18个免费模型及Claude Code/Codex接入；早先转述称23个AI，未核对清单或功能等价。 **[未确认使用 REA · 待验证]**
 - [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**
@@ -1707,6 +1710,8 @@
 
 ### 算法与功能重建
 
+- [艾莉亚与格鲁：sandmrk反推Muse短片分镜，明确仍不匹配原片](cases/sandmrk-muse-aria-gru-forest-film-prompt.md) — sandmrk把精灵与哥布林短片拆成Muse提示，约束对白、声音、镜头和连续性；作者明确生成结果不能完全匹配，需继续优化。 **[其他 AI 逆向 · 待验证]**
+- [Backflip Drawing to CAD：把旧二维工程图重建成可编辑参数模型的转述](cases/backflip-drawing-to-parametric-cad-fusion-report.md) — 3D打印雷哥介绍Backflip以二维工程图生成带可编辑特征树的三维CAD并结合Fusion；没有原图、模型或工程精度验证。 **[其他 AI 逆向 · 相关项目]**
 - [把房间改成游戏世界：Opus扫描布局、换主题与放NPC的未核验提案](cases/opus-room-witcher-minecraft-cyberpunk-spatial-idea.md) — 帖子声称用Claude Opus 5.5研究房间布局，再切换Witcher 3、Minecraft与Cyberpunk主题；没有空间设备、代码或结果证据。 **[其他 AI 逆向 · 待验证]**
 - [照片到磨豆机爆炸视图：AI Workflow Lab的Claude／Blender结构重建](cases/aiworkflowx-claude-photo-grinder-blender-exploded-view.md) — 作者把实物照片转成部件尺寸规格，再由Claude脚本建模、拆解动画与剪辑；11件磨豆机是解释用简化模型，不是制造级复刻。 **[其他 AI 逆向 · 待验证]**
 - [LDraw Mecha：从乐高零件文本推机构，再映射到Blender动画](cases/ldraw-mecha-semantic-parts-blender-motion.md) — anteloc让Agent读取带注释LDraw零件结构，推子模块与运动，再以同名glTF节点生成Blender rig；公开v0.5.0文档明确运动检查不证明物理可行。 **[其他 AI 逆向 · 相关项目]**

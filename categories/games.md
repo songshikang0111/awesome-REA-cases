@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Switch上的Zelda研究：Rodrigo称提取后数小时推进，镜头与鼠标仍待做](../cases/rodrigo-zelda-switch-claude-rea-camera-wip.md) — Rodrigo以Claude、AI、Zelda和REA标签报告从Switch提取后的实验，仍需解决镜头移动与鼠标；未确认具体作品、重建方法或完整移植。 **[REA · 进行中]**
 - [SimCity研究进行中：David Lietjauw称还让Claude玩了游戏](../cases/davidfromkansas-simcity-claude-play-reversing.md) — 作者称正在逆向SimCity，并让Claude玩游戏；版本、研究方法与重建成果未披露，不等于完成移植。 **[其他 AI 逆向 · 进行中]**
 - [Titanfall 2 VR：Thrill报告在Arch Linux与无线Valve头显上游玩](../cases/thrill-titanfall2-vr-ai-reversing-linux-report.md) — 使用者将Titanfall 2的VR mod归因AI辅助逆向，并描述Arch Linux主机与无线头显体验；没有开发日志或兼容性测试。 **[其他 AI 逆向 · 待验证]**
 - [MSFS2020飞机插件修bug：Spectro称改用Codex处理逆向工作](../cases/spectro-msfs2020-codex-airplane-addon-bugfix.md) — Spectro称Claude拒绝后，用Codex研究并修复自己拥有的MSFS2020飞机附加组件；没有插件名、补丁或修复结果。 **[其他 AI 逆向 · 进行中]**

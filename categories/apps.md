@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [切换到OpenGym：一阁称AI研究某bod健身App并迁入视频](../cases/opengym-bod-app-video-migration-ai-report.md) — 一阁称让AI部署OpenGym，再逆向某bod App并导入其中视频，以迁移个人训练使用；没有完整品牌、代码、权限或导入验证。 **[其他 AI 逆向 · 待验证]**
 - [自建Foundry替代：员工称AI帮助拼接开源数据平台](../cases/fused-stardust-foundry-open-source-ai-rebuild.md) — The Mad Y0da称所在公司取消Palantir合同后，自建数据连接、管线、ontology与Workshop式界面；未披露代码、组件或迁移验证。 **[其他 AI 逆向 · 待验证]**
 - [Yapfast：Hemish称Rust版Discord替代客户端已有通话](../cases/yapfast-rust-discord-ai-reversing-report.md) — Hemish在AI与mod讨论中以Yapfast为例称已逆向Rust客户端且能打电话；没有说明AI具体研究步骤或提供通话验证。 **[其他 AI 逆向 · 待验证]**
 - [旧副项目源码丢失：Erik Fiala称REA恢复约70%逻辑](../cases/erik-fiala-rea-lost-source-side-project-recovery.md) — 作者称把丢源码的旧side project交给REA，从行为恢复约70%逻辑；没有程序名、代码、计量定义或回归测试。 **[REA · 待验证]**
@@ -22,7 +23,7 @@
 - [DemoFork：参考demo的剪辑节奏，加三张产品截图生成新视频](../cases/demofork-magichour-demo-pacing-three-screenshots.md) — 候选回复指向Rayan Ali的DemoFork：输入参考demo和三张产品截图，以MagicHour AI借用节奏制作新片；未验证视频质量或不复制素材的实现。 **[其他 AI 逆向 · 进行中]**
 - [Hadesi的学习通签到系统：REA辅助研究后的功能自述](../cases/hadesi-rea-chaoxing-checkin-system-report.md) — Hadesi因学校签到名额难抢、代办太贵，称用REA研究学习通并集成自动化功能；没有源码、版本或成功率记录，与核桃的课程进度实验分开。 **[REA · 待验证]**
 - [二旬老汉的抢券流量研究：手机操作留给人，包与脚本交给AI](../cases/leeking420-ai-mcp-mobile-coupon-traffic-analysis.md) — 二旬老汉称将手机抓包软件经MCP接AI、无线ADB连接，自己操作手机而让AI分析包与脚本；未具名平台、模型或实际抢券成果。 **[其他 AI 逆向 · 进行中]**
-- [阿杭的剪映Codex版：先澄清需求，再研究并组装剪辑能力](../cases/ahang-codex-jianying-intent-clarification-rebuild.md) — 阿杭称以Codex研究剪映，先在指令文件强制澄清意图、用Monid补材料，耗用两个GPT20x周额度；后帖称已用重建版本剪视频，没有源码或完整功能对照。 **[其他 AI 逆向 · 进行中]**
+- [阿杭的剪映Codex版：先澄清需求，再研究并组装剪辑能力](../cases/ahang-codex-jianying-intent-clarification-rebuild.md) — 阿杭报告Codex研究与自用剪辑，后公开完整Plan提示：独立编辑器、AI确认后执行及可编辑工程兼容；这些是验收目标，尚无源码或完整功能对照。 **[其他 AI 逆向 · 进行中]**
 - [OpenMontage：参考片节奏到Transformer科普前10秒的具体设想](../cases/openmontage-reference-edit-transformer-ten-second-idea.md) — 介绍称OpenMontage把参考片开头、切镜和旁白关系交给Codex／Claude Code，先看样片和费用；发帖者想借此做Transformer科普，还没有该实验结果。 **[其他 AI 逆向 · 相关项目]**
 - [astro-conversion-kit：把线上WordPress等网站重建为静态Astro站点](../cases/astro-conversion-kit-live-site-agent-migration.md) — AI探路者Tim介绍一组Agent技能，从线上网站转成Astro、产出PR并部署预发布环境；没有核对原站、源码或迁移保真度，属于网站重建相关项目。 **[其他 AI 逆向 · 相关项目]**
 - [跨两台PC协作：Simon称DeepSeek运行REA并与Claude Code商量计划](../cases/simon-deepseek-rea-claude-cross-pc-planning.md) — Simon自述DeepSeek creator mode运行REA，与另一台PC上的Claude Code Agent共同计划；没有目标文件、通信实现、分析输出或完成结果。 **[REA · 进行中]**
@@ -258,7 +259,7 @@
 - [winutil与Windows调整：gIoomy的Opus审查自述保留互相矛盾的计数](../cases/gloomy-winutil-opus-readonly-tweak-audit.md) — 作者称Opus5.5先读winutil39项调整、避开BitLocker停用并备份真实设置，选七项改善电脑；启动项与服务数字不一致，未验证性能或回滚。 **[其他 AI 逆向 · 待验证]**
 - [Jump Desktop Fluid：Zack Jackson的AI反编译尝试遇到官方beta](../cases/zack-jump-desktop-fluid-linux-decompile-attempt.md) — Zack Jackson称AI正尝试反编译以实现Linux的Fluid支持，随后发现Jump Desktop beta；没有自制兼容客户端或完成反编译的证据。 **[其他 AI 逆向 · 进行中]**
 - [Jiffshot：Marc-André Moreau澄清Claude只读Snagit文档与截图](../cases/jiffshot-snagit-claude-docs-screenshots-rebuild.md) — Snagit替代品Jiffshot以Rust和Avalonia UI实现；作者明确说没用REA、没反编译，只让Claude读文档和截图。功能与稳定性仍是作者报告。 **[其他 AI 逆向 · 进行中]**
-- [Yosei：An Van称授权控制Mac前让Claude反编译并在虚拟机审计](../cases/anvan-yosei-claude-macos-vm-audit-report.md) — An Van报告Claude Code在临时macOS虚拟机检查Yosei端口、流量、配对与更新，并称未发现后门或回传；版本与审计记录未公开核验。 **[其他 AI 逆向 · 待验证]**
+- [Yosei：An Van称授权控制Mac前让Claude反编译并在虚拟机审计](../cases/anvan-yosei-claude-macos-vm-audit-report.md) — An Van公开Claude Code的版本差分、反编译与临时macOS虚拟机审计提示；补串明确Yosei0.9.15及两项本地风险，未独立验证无后门结论。 **[其他 AI 逆向 · 待验证]**
 - [Cleanly：Opus从CleanMyMac截图重建清理器与安全检查的报告](../cases/opus-cleanmymac-ccleaner-electron-rebuild-report.md) — Opus5.5截图重建Electron/React双平台清理器，后续拓跋鼠以Cleanly之名介绍并称代码/安装包已公开；14.6GB与删除安全均未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenCursor：fsconfig为Cursor式开源工作区补充第一人称报告](../cases/fsconfig-cursor-open-ai-workspace-report.md) — fsconfig本人称逆向Cursor并重建OpenCursor，提供18个免费模型及Claude Code/Codex接入；早先转述称23个AI，未核对清单或功能等价。 **[未确认使用 REA · 待验证]**
 - [微信客户端：Nicholai Yu称90亿token研究后支持聊天管理与Agent连接](../cases/wechat-client-nine-billion-token-agent-report.md) — Nicholai Yu报告逆向微信客户端，称可管理历史与文件、连接AI Agent并研究防护；90亿token及具体兼容范围没有验证记录。 **[其他 AI 逆向 · 待验证]**

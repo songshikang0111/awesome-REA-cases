@@ -2,6 +2,7 @@
 
 [Editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [中文](../games.md)
 
+- [Zelda research from a Switch: Rodrigo reports hours of progress, with camera and mouse still unfinished](../../cases/en/rodrigo-zelda-switch-claude-rea-camera-wip.md) — Rodrigo tags Claude, AI, Zelda and REA in an experiment after Switch extraction. Camera movement and mouse input still need work; the exact title, reconstruction method and a full port are unestablished. **[REA · In progress]**
 - [SimCity research in progress: David Lietjauw also reports getting Claude to play](../../cases/en/davidfromkansas-simcity-claude-play-reversing.md) — The author is reversing SimCity and says Claude played it. The edition, research method and reconstruction output are undisclosed; a finished port is not established. **[Other AI-assisted work · In progress]**
 - [Titanfall 2 VR: Thrill reports playing on Arch Linux with a wireless Valve headset](../../cases/en/thrill-titanfall2-vr-ai-reversing-linux-report.md) — A user attributes the VR mod to AI-assisted reversing and describes an Arch Linux host and wireless-headset experience, without development logs or compatibility tests. **[Other AI-assisted work · Needs verification]**
 - [Fixing MSFS2020 aircraft add-ons: Spectro reports switching reversing work to Codex](../../cases/en/spectro-msfs2020-codex-airplane-addon-bugfix.md) — Spectro says Codex is helping fix owned MSFS2020 aircraft add-ons after Claude refused. Add-on names, patches and repair results are absent. **[Other AI-assisted work · In progress]**
