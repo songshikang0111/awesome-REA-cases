@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1921 entries**, organized by use case, without a Top-N or popularity threshold.
+**1935 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (388)
-- [Hardware and interoperability](categories/en/hardware.md) (514)
-- [Applications and clients](categories/en/apps.md) (788)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (231)
+- [Games and preservation](categories/en/games.md) (393)
+- [Hardware and interoperability](categories/en/hardware.md) (518)
+- [Applications and clients](categories/en/apps.md) (790)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (234)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Commodore 128: Scientific Brad reports exact ROM reassembly hashes and a dual-CPU demonstration](cases/en/scientificbrad-commodore128-rea-rom-reassembly.md) — The author reports REA/Ghidra research into 61KB of Commodore 128 ROMs with matching SHA-256, plus an 8502+Z80 emulator booting BASIC 7.0. Logs and independent retests were not obtained. **[REA · Needs verification]**
+- [TAPSONIC World Champion: buru reports Claude Code/REA patches for local name, nationality and song state](cases/en/buru-tapsonic-world-champion-claude-rea-patches.md) — The author feeds owned package/game files to Claude Code with REA and reports patchable online-only name changes, one-time nationality selection and local song state. Public patch acceptance tests are absent. **[REA · Needs verification]**
+- [Super Mario 64 in mixed reality: Nathan AI Lab relays an Opus/PICO CLI-assisted port](cases/en/super-mario64-mixed-reality-opus-pico-cli-report.md) — A secondary post credits Opus 5.5/PICO CLI for bringing SM64 characters and levels into room space, claiming 90 FPS on Quest 3/3S. Repository identity, frame rate and completeness remain unverified. **[Other AI-assisted work · Needs verification]**
+- [GROWBLOX and Growtopia: Zlatan relays Claude-assisted livestream development and questions similarities](cases/en/growblox-growtopia-claude-livestream-secondary-report.md) — Zlatan says ExecutiveStudio's Roblox game GROWBLOX demonstrated Claude and reversing during livestreams. Interface similarities, players and visits are secondary claims, not an infringement finding. **[Other AI-assisted work · Needs verification]**
+- [NES to NDS: ditangongyuan reports Claude-assisted 6502-to-C AOT conversion and a lower-screen HUD](cases/en/ditangongyuan-nes-nds-claude-aot-hud.md) — The author reports preserving memory layout while rewriting disassembled 6502 logic in C, implementing graphics/audio in software and adding map/status displays. Whole-game correctness is untested. **[Other AI-assisted work · In progress]**
 - [Redivivus: agents read Diablo II databases and propose corrections to a C++ reconstruction](cases/en/redivivus-diablo2-ghidra-agent-proposals.md) — The Diablo II 1.14d preservation project exposes Claude/MCP database research and reviewed proposals. Pinned docs report 7,772/14,626 matching functions and a single-player playthrough, with crashes and UI defects remaining; not rebuilt here. **[Other AI-assisted work · In progress]**
 - [Resident Evil 4: bosh distinguishes recompilable C from readable source, reporting Mac ARM and Wasm ports](cases/en/bosh-re4-c-recompile-mac-wasm-report.md) — bosh narrows the RE4 decompilation claim to modifiable, recompilable C and reports Mac ARM/WebAssembly videos, using Claude, Codex and 30–50 concurrent agents. Source and full gameplay validation are unavailable. **[Other AI-assisted work · Needs verification]**
 - [Mashbox: bosh reports a sub-week RE4-derived project before pivoting to AI inference](cases/en/bosh-mashbox-re4-decompilation-project.md) — bosh says RE4 research led to Mashbox. Its public page describes combining owned-game worlds and play styles in one engine, with original worlds in-browser. Windows early access, compatibility and read-only files are project claims, not tested here. **[Other AI-assisted work · Related project]**
@@ -419,6 +424,10 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Single-image mechanical dragonfly: f0rgent relays Claude-inferred hinges, gears and frequencies](cases/en/elvar-claude-dragonfly-image-mechanism-report.md) — A reply to elvar_official claims Claude inferred a dragonfly mechanism from one image. Tolerances, frequencies and manufacturability lack measurements or physical tests. **[Other AI-assisted work · Needs verification]**
+- [Wyze RC car: whyamas relays wesbos's Claude Code work on USB and ESP32 control](cases/en/wesbos-wyze-rc-car-claude-usb-esp32.md) — whyamas says wesbos used Claude Code to study RC-car control, replacing custom Wyze-camera firmware with USB or ESP32 operation. Protocol and hardware acceptance tests are unverified. **[Other AI-assisted work · Needs verification]**
+- [Managing old G-RAIDs: Carlos says Claude read controller firmware and rebuilt an Apple Silicon app](cases/en/carlos-graid-claude-native-apple-silicon-app.md) — Carlos reports Claude-assisted firmware dumping, protocol mapping and a native Mac management app for old G-RAIDs. Model, source and storage-safety tests are undisclosed. **[Other AI-assisted work · Needs verification]**
+- [Home automation server: deafsquad says Claude firmware research enabled configuration CI and Git](cases/en/deafsquad-home-automation-firmware-claude-ci.md) — The author reports months of Claude-assisted firmware reversing for a home automation server, followed by configuration CI and Git-controlled tooling. Brand, changes and hardware acceptance are undisclosed. **[Other AI-assisted work · Needs verification]**
 - [GPU firmware adaptation: Michael Wegener reports days-long coding-agent loops for research and patches](cases/en/mwsatware-agent-loop-gpu-firmware-patching.md) — Michael Wegener cites GPU firmware reversing and hardware-specific patches as a long-running agent task, without a GPU model, patch, toolchain or hardware acceptance test. **[Other AI-assisted work · In progress]**
 - [Omarchy on Macs: Sachin relays AI-assisted hardware adaptation built on Asahi research](cases/en/sachin-omarchy-asahi-mac-ai-driver-report.md) — Sachin claims Omarchy combines Asahi reversing and AI agents for Touch ID, M3 GPU and deep sleep. No corresponding patches, models or hardware tests were obtained; this is not a Mac support matrix. **[Other AI-assisted work · Needs verification]**
 - [Photo to keycap CAD: VedaAI00 relays LLM reconstruction of a dish, draft angles and cross stem socket](cases/en/veda-keycap-photo-parametric-cad-report.md) — A secondary account describes parametric keycap geometry from one photo, including a spherical top dish, side draft angles and bottom cross socket, without dimensions, CAD files, model identity or manufacturing validation. **[Other AI-assisted work · Needs verification]**
@@ -936,6 +945,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Airtable clone: Mokoena reports intensive reverse-engineering development with Claude Code](cases/en/claude-code-airtable-clone-ban-self-report.md) — Mokoena describes building an Airtable clone with extensive Claude Code-assisted reversing. Features and acceptance tests are undisclosed; the connection to an account ban is speculation. **[Other AI-assisted work · In progress]**
+- [Keygen research: Goge says ds refused and Gemini carried out the task](cases/en/goge-gemini-keygen-ds-refusal-self-report.md) — Goge reports a paid-software keygen request refused by ds but handled by Gemini. Target, model versions and verifiable artifacts are absent; only the response difference is recorded. **[Other AI-assisted work · Needs verification]**
 - [r_AKanaly: Codex investigates malware inside a VM through MCP, then writes an evidence report](cases/en/r-akanaly-codex-vm-malware-analysis-review.md) — connect24h reviews Morita's v0.1.10 analysis tool. Pinned docs describe Windows/VMware runtime logs, Ghidra queries and HTML reports, caution that report success is not full behavioral coverage, and specify noncommercial licensing. **[Other AI-assisted work · Related project]**
 - [VirtualBox escape: bebu relays Xusheng's Daybreak discovery and open-model exploit-chain claim](cases/en/bebu-xusheng-virtualbox-daybreak-escape-report.md) — bebu says Xusheng demonstrated a guest-to-host chain on VirtualBox 7.2.20, using GPT-6 Sol/Daybreak Blue for discovery and open models for exploitation. Original research, patches and replayable validation are unavailable. **[Other AI-assisted work · Needs verification]**
 - [UTM escape: bebu relays Xusheng's AI-discovery and open-model exploit-chain workflow](cases/en/bebu-xusheng-utm-daybreak-escape-report.md) — bebu separately claims Xusheng demonstrated a UTM guest-to-host escape using GPT-6 Sol/Daybreak Blue and open models. UTM revision, backend, vulnerability details and vendor records are undisclosed. **[Other AI-assisted work · Needs verification]**
@@ -1727,6 +1738,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Ella and the Demon: sandmrk reverse-engineers a seven-clip Muse prompt with prop and transformation continuity](cases/en/sandmrk-muse-ella-demon-continuity-prompt.md) — sandmrk publishes a porcelain-noblewoman-and-demon storyboard for Muse, explicitly saying generation still does not match the reference. Shot counts and timings are internally inconsistent. **[Other AI-assisted work · Needs verification]**
+- [Decision Transformer training data: Roasted Phoenix reports runaway test usage after agent-led scaffold reconstruction](cases/en/roasted-phoenix-decision-transformer-scaffold-token-budget.md) — The author studies a scaffold for synthetic training data and says subsequent bot tests consumed 3–5% of weekly allowance before intervention. Neither training nor reversing correctness is accepted. **[Other AI-assisted work · In progress]**
+- [RDNA shader research idea: Sebastian Aaltonen suggests SPIR-V conversion followed by AI variable naming](cases/en/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — A proposal reuses PS5-emulator RDNA ISA-to-SPIR-V conversion, then HLSL/GLSL/Metal output and AI naming. No implementation identity, input sample or semantic-correctness test is supplied. **[Other AI-assisted work · In progress]**
 - [Reference video to custom skill: eback_4u previews Claude Code style-reconstruction service](cases/en/eback4u-claude-reference-video-custom-skill-preview.md) — Video editor eback_4u reports reverse-engineering video style with Claude Code and plans 10 early-access custom-skill slots. This is a release preview without code or accepted reproduction results. **[Other AI-assisted work · In progress]**
 - [CODEGATE 2026 autonomous agent: KAIST abstract reports 22 of 26 challenges across six categories](cases/en/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON previews Donghyeon Kim and Insu Yun's Full-Automatic CTF Agent. The official abstract credits Codex/Claude and 22/26 solutions, without per-reversing-task results or independent scoreboard checks. **[Other AI-assisted work · Related project]**
 - [Neon Dreamscapes fight: sandmrk reconstructs Muse shot prompts, retaining face fixes and mismatch caveats](cases/en/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk specifies a two-person sword-and-shield fight, railing vault and drone shots as Muse prompts, using single-face anchors and excluded features to reduce character mixing. The generated result explicitly still fails to fully match the reference. **[Other AI-assisted work · Needs verification]**

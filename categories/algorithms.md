@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Ella与恶魔：sandmrk为Muse反推七段短片，约束道具与变身连续性](../cases/sandmrk-muse-ella-demon-continuity-prompt.md) — sandmrk发布瓷偶贵族与恶魔短片的Muse分镜提示，明确生成仍不匹配原片；同串镜头数与时长存在内部不一致。 **[其他 AI 逆向 · 待验证]**
+- [Decision Transformer训练数据：Roasted Phoenix称Agent反推scaffolding后测试耗额失控](../cases/roasted-phoenix-decision-transformer-scaffold-token-budget.md) — 作者研究用于合成训练数据的目标scaffolding，称bot随后测试消耗周额度3–5%才被叫停；模型训练和逆向正确性未验收。 **[其他 AI 逆向 · 进行中]**
+- [RDNA着色器研究idea：Sebastian Aaltonen建议经SPIR-V转源码再让AI命名变量](../cases/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — 提出复用PS5模拟器的RDNA ISA→SPIR-V转换，再到HLSL／GLSL／Metal并让AI命名变量；没有具名实现、输入样本或语义正确性测试。 **[其他 AI 逆向 · 进行中]**
 - [参考视频到定制skill：eback_4u预告Claude Code视频风格反推服务](../cases/eback4u-claude-reference-video-custom-skill-preview.md) — 视频编辑者eback_4u称在用Claude Code反推参考片风格，拟开放10个按用户视频定制skill的名额；仍是发布预告，未提供代码或复刻验收。 **[其他 AI 逆向 · 进行中]**
 - [CODEGATE 2026自主Agent：KAIST团队简介自报六类26题中解决22题](../cases/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON预告Donghyeon Kim与Insu Yun的全自动CTF Agent；官网自述Codex／Claude管理环境并解决22/26题，未提供逐题逆向成果或独立赛绩核验。 **[其他 AI 逆向 · 相关项目]**
 - [Neon Dreamscapes赛博打斗：sandmrk反推Muse镜头提示，保留串脸修复与不匹配声明](../cases/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk把双人剑盾打斗、翻栏和无人机镜头写成Muse提示，通过单脸锚和特征排除修复角色混淆；明确生成结果仍不能完全匹配原视频。 **[其他 AI 逆向 · 待验证]**

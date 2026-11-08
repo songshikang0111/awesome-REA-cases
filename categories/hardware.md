@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [单图机械蜻蜓：f0rgent转述Claude推断铰链、齿轮与频率](../cases/elvar-claude-dragonfly-image-mechanism-report.md) — 回复elvar_official的帖子称Claude从一张蜻蜓图反推机械结构；公差、频率与可制造性均未有测量或实体测试。 **[其他 AI 逆向 · 待验证]**
+- [Wyze小车：whyamas转述wesbos用Claude Code研究USB与ESP32控制](../cases/wesbos-wyze-rc-car-claude-usb-esp32.md) — whyamas称wesbos让Claude Code研究遥控车控制，从定制Wyze相机固件改为USB或ESP32；协议与实机验收未核。 **[其他 AI 逆向 · 待验证]**
+- [旧G-RAID管理：Carlos称Claude读控制器固件并重建Apple Silicon应用](../cases/carlos-graid-claude-native-apple-silicon-app.md) — Carlos自报Claude转储旧G-RAID控制器固件、映射协议并做原生Mac管理应用；未披露型号、源码或存储安全测试。 **[其他 AI 逆向 · 待验证]**
+- [家居自动化服务器：deafsquad称Claude研究固件后接入配置CI与Git](../cases/deafsquad-home-automation-firmware-claude-ci.md) — 作者自述花数月让Claude逆向自家自动化服务器固件，为配置与工具建立CI和Git版本管理；品牌、改动及实机验收未披露。 **[其他 AI 逆向 · 待验证]**
 - [GPU固件适配：Michael Wegener称编码Agent持续循环数天研究与打补丁](../cases/mwsatware-agent-loop-gpu-firmware-patching.md) — Michael Wegener以GPU固件逆向与硬件环境补丁为编码Agent长循环例子；未披露GPU型号、补丁、工具链或实机验收。 **[其他 AI 逆向 · 进行中]**
 - [Mac上的Omarchy：Sachin转述Asahi基础上的AI辅助硬件适配](../cases/sachin-omarchy-asahi-mac-ai-driver-report.md) — Sachin称Omarchy借Asahi逆向与AI agents推进Touch ID、M3 GPU和深睡眠；没有对应补丁、机型或硬件测试，不能作为Mac支持矩阵。 **[其他 AI 逆向 · 待验证]**
 - [照片到键帽CAD：VedaAI00转述大模型重建凹槽、拔模角与十字轴槽](../cases/veda-keycap-photo-parametric-cad-report.md) — 单张实物图反推参数键帽几何的转述，包含顶部球冠凹槽、四周拔模斜角与底部十字槽；没有尺寸、CAD文件、模型名或制造验证。 **[其他 AI 逆向 · 待验证]**

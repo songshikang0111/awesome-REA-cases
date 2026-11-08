@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Airtable克隆：Mokoena自述用Claude Code密集逆向开发](../cases/claude-code-airtable-clone-ban-self-report.md) — Mokoena称用Claude Code构建Airtable克隆，包含大量逆向；没有功能清单或验收，封号关联只是个人猜测。 **[其他 AI 逆向 · 进行中]**
+- [注册机研究：Goge自述ds拒绝后由Gemini完成](../cases/goge-gemini-keygen-ds-refusal-self-report.md) — Goge称付费软件逆向注册机任务被ds拒绝、Gemini做了；未命名目标、模型版本或提供可验证产物，仅记录拒绝差异。 **[其他 AI 逆向 · 待验证]**
 - [r_AKanaly：Codex经MCP调查VM内恶意软件，再生成证据报告](../cases/r-akanaly-codex-vm-malware-analysis-review.md) — connect24h介绍森田的v0.1.10分析工具；固定README说明Windows／VMware中的动态日志、Ghidra问答和HTML报告，写明报告成功不等于观察全部行为，非商用许可。 **[其他 AI 逆向 · 相关项目]**
 - [VirtualBox逃逸：bebu转述Xusheng以Daybreak找漏洞、开放模型写链](../cases/bebu-xusheng-virtualbox-daybreak-escape-report.md) — bebu称Xusheng对VirtualBox 7.2.20演示guest-to-host链，由GPT-6 Sol／Daybreak Blue找漏洞，再交开放模型写利用；没有原始研究、补丁或可重放验证。 **[其他 AI 逆向 · 待验证]**
 - [UTM逃逸：bebu转述Xusheng的AI发现与开放模型利用链分工](../cases/bebu-xusheng-utm-daybreak-escape-report.md) — bebu另称Xusheng演示UTM客体到宿主逃逸，归因GPT-6 Sol／Daybreak Blue和开放模型；UTM版本、后端、漏洞和厂商记录均未披露。 **[其他 AI 逆向 · 待验证]**

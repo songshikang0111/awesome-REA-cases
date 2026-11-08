@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1921 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1935 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（388）
-- [硬件与设备互通](categories/hardware.md)（514）
-- [应用与客户端](categories/apps.md)（788）
-- [算法与功能重建](categories/algorithms.md)（231）
+- [游戏与游戏保存](categories/games.md)（393）
+- [硬件与设备互通](categories/hardware.md)（518）
+- [应用与客户端](categories/apps.md)（790）
+- [算法与功能重建](categories/algorithms.md)（234）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,11 @@
 
 ### 游戏与游戏保存
 
+- [Commodore 128：Scientific Brad自报61KB ROM重汇编哈希一致与双CPU演示](cases/scientificbrad-commodore128-rea-rom-reassembly.md) — 作者报告REA／Ghidra研究Commodore 128 ROM，重汇编SHA-256一致，并重建8502＋Z80模拟器启动BASIC 7.0；未取得日志或独立复测。 **[REA · 待验证]**
+- [TAPSONIC World Champion：다부루称Claude Code接REA修改本地姓名、国籍与曲目状态](cases/buru-tapsonic-world-champion-claude-rea-patches.md) — 作者将自有安装包与游戏文件交给Claude Code／REA，报告原在线姓名修改、一次性国籍选择和本地曲目状态可打补丁；无公开补丁验收。 **[REA · 待验证]**
+- [Super Mario 64混合现实：Nathan AI Lab转述Opus与PICO CLI辅助移植](cases/super-mario64-mixed-reality-opus-pico-cli-report.md) — 二手帖子称Opus 5.5／PICO CLI辅助把SM64角色与关卡接入房间空间，在Quest 3／3S达90FPS；仓库身份、帧率和完整性均未核验。 **[其他 AI 逆向 · 待验证]**
+- [GROWBLOX与Growtopia：Zlatan转述Claude辅助直播开发并质疑相似度](cases/growblox-growtopia-claude-livestream-secondary-report.md) — Zlatan称ExecutiveStudio的Roblox游戏GROWBLOX在直播中展示Claude与逆向开发；相似界面、玩家和访问数均为二手说法，不作侵权定论。 **[其他 AI 逆向 · 待验证]**
+- [红白机到NDS：地坛公园称Claude以6502转C、软件PPU／APU并扩展下屏HUD](cases/ditangongyuan-nes-nds-claude-aot-hud.md) — 作者报告保留原内存结构，将6502反汇编改写为C并编译，软件处理图像与音频，额外下屏地图／状态；没有整游戏正确性验收。 **[其他 AI 逆向 · 进行中]**
 - [Redivivus：Agent只读研究暗黑II数据库，以提案修正C++重建](cases/redivivus-diablo2-ghidra-agent-proposals.md) — Diablo II 1.14d保存项目开放Claude／MCP数据库研究与人工审查提案；固定文档自报7772／14626函数匹配和单人通关，仍有崩溃与界面缺陷，未独立重建。 **[其他 AI 逆向 · 进行中]**
 - [Resident Evil 4：bosh澄清可重编译C并非完整可读源码，称移至Mac ARM与Wasm](cases/bosh-re4-c-recompile-mac-wasm-report.md) — bosh在新回复中限定RE4反编译说法，报告可改动再编译的C与Mac ARM／WebAssembly视频，使用Claude、Codex及30至50并发Agent；无源码与完整游玩验证。 **[其他 AI 逆向 · 待验证]**
 - [Mashbox：bosh称RE4研究衍生项目一周内建成，现已转向AI推理](cases/bosh-mashbox-re4-decompilation-project.md) — bosh称RE4研究催生Mashbox；补读项目页描述把自有游戏世界与玩法放入同一引擎，浏览器只用自创世界。Windows早期版、兼容与文件只读均是项目自述，未运行。 **[其他 AI 逆向 · 相关项目]**
@@ -417,6 +422,10 @@
 
 ### 硬件与设备互通
 
+- [单图机械蜻蜓：f0rgent转述Claude推断铰链、齿轮与频率](cases/elvar-claude-dragonfly-image-mechanism-report.md) — 回复elvar_official的帖子称Claude从一张蜻蜓图反推机械结构；公差、频率与可制造性均未有测量或实体测试。 **[其他 AI 逆向 · 待验证]**
+- [Wyze小车：whyamas转述wesbos用Claude Code研究USB与ESP32控制](cases/wesbos-wyze-rc-car-claude-usb-esp32.md) — whyamas称wesbos让Claude Code研究遥控车控制，从定制Wyze相机固件改为USB或ESP32；协议与实机验收未核。 **[其他 AI 逆向 · 待验证]**
+- [旧G-RAID管理：Carlos称Claude读控制器固件并重建Apple Silicon应用](cases/carlos-graid-claude-native-apple-silicon-app.md) — Carlos自报Claude转储旧G-RAID控制器固件、映射协议并做原生Mac管理应用；未披露型号、源码或存储安全测试。 **[其他 AI 逆向 · 待验证]**
+- [家居自动化服务器：deafsquad称Claude研究固件后接入配置CI与Git](cases/deafsquad-home-automation-firmware-claude-ci.md) — 作者自述花数月让Claude逆向自家自动化服务器固件，为配置与工具建立CI和Git版本管理；品牌、改动及实机验收未披露。 **[其他 AI 逆向 · 待验证]**
 - [GPU固件适配：Michael Wegener称编码Agent持续循环数天研究与打补丁](cases/mwsatware-agent-loop-gpu-firmware-patching.md) — Michael Wegener以GPU固件逆向与硬件环境补丁为编码Agent长循环例子；未披露GPU型号、补丁、工具链或实机验收。 **[其他 AI 逆向 · 进行中]**
 - [Mac上的Omarchy：Sachin转述Asahi基础上的AI辅助硬件适配](cases/sachin-omarchy-asahi-mac-ai-driver-report.md) — Sachin称Omarchy借Asahi逆向与AI agents推进Touch ID、M3 GPU和深睡眠；没有对应补丁、机型或硬件测试，不能作为Mac支持矩阵。 **[其他 AI 逆向 · 待验证]**
 - [照片到键帽CAD：VedaAI00转述大模型重建凹槽、拔模角与十字轴槽](cases/veda-keycap-photo-parametric-cad-report.md) — 单张实物图反推参数键帽几何的转述，包含顶部球冠凹槽、四周拔模斜角与底部十字槽；没有尺寸、CAD文件、模型名或制造验证。 **[其他 AI 逆向 · 待验证]**
@@ -934,6 +943,8 @@
 
 ### 应用与客户端
 
+- [Airtable克隆：Mokoena自述用Claude Code密集逆向开发](cases/claude-code-airtable-clone-ban-self-report.md) — Mokoena称用Claude Code构建Airtable克隆，包含大量逆向；没有功能清单或验收，封号关联只是个人猜测。 **[其他 AI 逆向 · 进行中]**
+- [注册机研究：Goge自述ds拒绝后由Gemini完成](cases/goge-gemini-keygen-ds-refusal-self-report.md) — Goge称付费软件逆向注册机任务被ds拒绝、Gemini做了；未命名目标、模型版本或提供可验证产物，仅记录拒绝差异。 **[其他 AI 逆向 · 待验证]**
 - [r_AKanaly：Codex经MCP调查VM内恶意软件，再生成证据报告](cases/r-akanaly-codex-vm-malware-analysis-review.md) — connect24h介绍森田的v0.1.10分析工具；固定README说明Windows／VMware中的动态日志、Ghidra问答和HTML报告，写明报告成功不等于观察全部行为，非商用许可。 **[其他 AI 逆向 · 相关项目]**
 - [VirtualBox逃逸：bebu转述Xusheng以Daybreak找漏洞、开放模型写链](cases/bebu-xusheng-virtualbox-daybreak-escape-report.md) — bebu称Xusheng对VirtualBox 7.2.20演示guest-to-host链，由GPT-6 Sol／Daybreak Blue找漏洞，再交开放模型写利用；没有原始研究、补丁或可重放验证。 **[其他 AI 逆向 · 待验证]**
 - [UTM逃逸：bebu转述Xusheng的AI发现与开放模型利用链分工](cases/bebu-xusheng-utm-daybreak-escape-report.md) — bebu另称Xusheng演示UTM客体到宿主逃逸，归因GPT-6 Sol／Daybreak Blue和开放模型；UTM版本、后端、漏洞和厂商记录均未披露。 **[其他 AI 逆向 · 待验证]**
@@ -1725,6 +1736,9 @@
 
 ### 算法与功能重建
 
+- [Ella与恶魔：sandmrk为Muse反推七段短片，约束道具与变身连续性](cases/sandmrk-muse-ella-demon-continuity-prompt.md) — sandmrk发布瓷偶贵族与恶魔短片的Muse分镜提示，明确生成仍不匹配原片；同串镜头数与时长存在内部不一致。 **[其他 AI 逆向 · 待验证]**
+- [Decision Transformer训练数据：Roasted Phoenix称Agent反推scaffolding后测试耗额失控](cases/roasted-phoenix-decision-transformer-scaffold-token-budget.md) — 作者研究用于合成训练数据的目标scaffolding，称bot随后测试消耗周额度3–5%才被叫停；模型训练和逆向正确性未验收。 **[其他 AI 逆向 · 进行中]**
+- [RDNA着色器研究idea：Sebastian Aaltonen建议经SPIR-V转源码再让AI命名变量](cases/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — 提出复用PS5模拟器的RDNA ISA→SPIR-V转换，再到HLSL／GLSL／Metal并让AI命名变量；没有具名实现、输入样本或语义正确性测试。 **[其他 AI 逆向 · 进行中]**
 - [参考视频到定制skill：eback_4u预告Claude Code视频风格反推服务](cases/eback4u-claude-reference-video-custom-skill-preview.md) — 视频编辑者eback_4u称在用Claude Code反推参考片风格，拟开放10个按用户视频定制skill的名额；仍是发布预告，未提供代码或复刻验收。 **[其他 AI 逆向 · 进行中]**
 - [CODEGATE 2026自主Agent：KAIST团队简介自报六类26题中解决22题](cases/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON预告Donghyeon Kim与Insu Yun的全自动CTF Agent；官网自述Codex／Claude管理环境并解决22/26题，未提供逐题逆向成果或独立赛绩核验。 **[其他 AI 逆向 · 相关项目]**
 - [Neon Dreamscapes赛博打斗：sandmrk反推Muse镜头提示，保留串脸修复与不匹配声明](cases/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk把双人剑盾打斗、翻栏和无人机镜头写成Muse提示，通过单脸锚和特征排除修复角色混淆；明确生成结果仍不能完全匹配原视频。 **[其他 AI 逆向 · 待验证]**

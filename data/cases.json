@@ -1,5 +1,235 @@
 [
   {
+    "id": "claude-code-airtable-clone-ban-self-report",
+    "title": "Airtable克隆：Mokoena自述用Claude Code密集逆向开发",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "Mokoena称用Claude Code构建Airtable克隆，包含大量逆向；没有功能清单或验收，封号关联只是个人猜测。",
+    "description": "2026年11月8日20:07:59（北京时间），Mokoena（@wickusluckystar）回复他人时说，在账号被封约五天前，自己正大量使用Claude Code构建Airtable克隆，开发涉及密集的逆向工作。Airtable是表格式数据库与协作产品；这里的具体目标是研究既有产品并做替代实现，不是取得其服务端源码。\n\n帖子没有说明分析了哪些页面、客户端或接口，也没有代码、演示、支持功能、数据迁移或兼容性测试。按进行中的应用重建自述保存，不断言已完成Airtable替代品。作者认为自己找到了封号原因，但没有平台通知或可验证因果证据，不能写成Claude禁止该项目或逆向直接导致封禁。11月9日补取原帖确认署名和措辞；未执行目标，REA未提及。",
+    "sources": [{"label": "Mokoena的Claude Code／Airtable重建与封号猜测，2026-11-08", "url": "https://x.com/i/status/2119401546559693149"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照0赞、162浏览、0转发；约五天为作者回忆的时间间隔，不是开发工时。"],
+    "en": {
+      "title": "Airtable clone: Mokoena reports intensive reverse-engineering development with Claude Code",
+      "summary": "Mokoena describes building an Airtable clone with extensive Claude Code-assisted reversing. Features and acceptance tests are undisclosed; the connection to an account ban is speculation.",
+      "description": "At 20:07:59 Beijing time on November 8, 2026, Mokoena (@wickusluckystar) replies that about five days before an account ban they were heavily using Claude Code to build an Airtable clone, involving intensive reverse engineering. Airtable is a spreadsheet-like database and collaboration product. The concrete target is studying an existing product to build an alternative, not obtaining its server source.\n\nThe post does not identify pages, clients or interfaces analyzed, or supply code, a demonstration, supported features, migration or compatibility tests. Retained as an in-progress application-reconstruction self-report, not a completed Airtable replacement. The author believes they identified the reason for the ban, but supplies no platform notice or verifiable causal evidence. It does not establish that Claude prohibits this project or that reversing caused the ban. Retrieval on November 9 confirms attribution and wording. No target was run here; REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 0 likes, 162 views, 0 reposts. About five days is a recalled interval, not development time."],
+      "source_labels": ["Mokoena on Claude Code/Airtable reconstruction and a speculative ban connection, November 8, 2026"]
+    }
+  },
+  {
+    "id": "elvar-claude-dragonfly-image-mechanism-report",
+    "title": "单图机械蜻蜓：f0rgent转述Claude推断铰链、齿轮与频率",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "回复elvar_official的帖子称Claude从一张蜻蜓图反推机械结构；公差、频率与可制造性均未有测量或实体测试。",
+    "description": "2026年11月8日20:44:42（北京时间），f0rgent（@f0rgent）回复@elvar_official，称Claude不只是渲染蜻蜓，而是从单张图反推机械设计，包括公差、频率、铰链与齿轮箱。具体目标是把视觉参考变成机械结构解释或重建，而非普通文字到图像创作。\n\n这是评论者的二手主张；可读文字没有给原图、CAD文件、尺寸、运动学计算、材料、驱动机构、测量或实物验收。不能凭图像或这条赞扬确认真实公差、工作频率、完整机械恢复或可制造性，也不采纳其关于工作室淘汰的预测作为结果。11月9日补取只确认评论署名和文字，本合集未观看或验证目标演示；REA未提及。",
+    "sources": [{"label": "f0rgent回复elvar_official的机械蜻蜓转述，2026-11-08", "url": "https://x.com/i/status/2119410785067638798"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照0赞、7浏览、0转发；机械参数为二手声称，不是测量结果。"],
+    "en": {
+      "title": "Single-image mechanical dragonfly: f0rgent relays Claude-inferred hinges, gears and frequencies",
+      "summary": "A reply to elvar_official claims Claude inferred a dragonfly mechanism from one image. Tolerances, frequencies and manufacturability lack measurements or physical tests.",
+      "description": "At 20:44:42 Beijing time on November 8, 2026, f0rgent (@f0rgent) replies to @elvar_official that Claude did more than render a dragonfly: it inferred mechanical engineering from a single image, including tolerances, frequencies, hinges and gearboxes. The concrete target is turning a visual reference into a mechanical explanation or reconstruction, rather than ordinary text-to-image creation.\n\nThis is a commenter's secondary claim. The readable text provides no reference image, CAD file, dimensions, kinematic calculations, materials, drive mechanism, measurements or physical acceptance test. Neither an image nor this praise establishes actual tolerances, operating frequencies, complete mechanical recovery or manufacturability. Predictions about studios becoming obsolete are not results. Retrieval on November 9 confirms the comment's attribution and text only. The target demonstration was not watched or validated here; REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 0 likes, 7 views, 0 reposts. Mechanical parameters are secondary claims, not measured results."],
+      "source_labels": ["f0rgent's mechanical-dragonfly reply to elvar_official, November 8, 2026"]
+    }
+  },
+  {
+    "id": "sandmrk-muse-ella-demon-continuity-prompt",
+    "title": "Ella与恶魔：sandmrk为Muse反推七段短片，约束道具与变身连续性",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "sandmrk发布瓷偶贵族与恶魔短片的Muse分镜提示，明确生成仍不匹配原片；同串镜头数与时长存在内部不一致。",
+    "description": "2026年11月8日20:52:27（北京时间），sandmrk（@sandmrk）发布反推提示词的收尾，明确生成结果不能完全匹配原视频、还需优化。11月9日补读同串20:52:17起的窗口内帖子，目标是为Muse重建Ella与恶魔的瓷偶风格叙事短片：从召唤、服侍与契约到恶魔显形和结尾反转，不是恢复原始工程、模型或原作者真实提示。\n\n同串给4:3比例、原参考2880×2160／30fps、拟生成1440×1080／30fps，按七段安排镜头、旁白、口型、烛光与拟音，并要求全片无配乐。候选特别重申折扇只在第1至3段出现，恶魔在第5段后保持长发、光环与黑翼形态，Ella只在一个幻象镜头有翅膀，佩剑自第4段起携带但不用；这些是控制跨片段身份、道具与声音连续性的具体规格。\n\n规格并非完全自洽：总述写35镜／66秒，后文编号到41镜，最后一段标1:00–1:06却含6.3秒的末拍。保留为作者提示内的限制，不替其修成已验证时间线。未取得生成对照片、相似度或模型分析过程；只确认公开提示与作者不匹配声明，未运行生成，也没有REA使用证据。",
+    "sources": [
+      {"label": "候选：sandmrk的连续性重申及不匹配声明，2026-11-08 20:52:27北京时间", "url": "https://x.com/i/status/2119412735008207358"},
+      {"label": "补充同串窗口内开头：Muse格式、人物与镜头规格，2026-11-08 20:52:17", "url": "https://x.com/i/status/2119412692905779226"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照0赞、82浏览、0转发；镜头数、时长为提示规格而非实际生成验收。"],
+    "en": {
+      "title": "Ella and the Demon: sandmrk reverse-engineers a seven-clip Muse prompt with prop and transformation continuity",
+      "summary": "sandmrk publishes a porcelain-noblewoman-and-demon storyboard for Muse, explicitly saying generation still does not match the reference. Shot counts and timings are internally inconsistent.",
+      "description": "At 20:52:27 Beijing time on November 8, 2026, sandmrk (@sandmrk) posts the ending of a reverse-engineered prompt, explicitly saying the generated result cannot fully match the original video and needs optimization. Retrieval on November 9 includes same-thread posts starting at 20:52:17 within the window. The target is reconstructing a porcelain-doll-style Ella-and-Demon narrative for Muse, from summoning, service and a contract to the demon's reveal and final reversal—not recovering original project files, a model or the original creator's actual prompt.\n\nThe thread specifies 4:3 framing, a 2880×2160/30 fps reference and intended 1440×1080/30 fps generation. Seven clips define shots, narration, lip sync, candlelight and Foley, with no music throughout. The candidate restates that the fan appears only in Clips 1–3, the demon retains long hair, halo and black wings after the Clip 5 reveal, Ella has wings only in one vision shot, and her sword is carried from Clip 4 but never used. These are concrete cross-clip identity, prop and sound-continuity constraints.\n\nThe specification is not fully consistent: its overview says 35 shots over 66 seconds, but subsequent numbering reaches Shot 41, and the final clip labeled 1:00–1:06 contains a 6.3-second ending beat. These remain limitations of the author's prompt rather than being silently repaired into a validated timeline. No generated comparison, similarity measurement or model-analysis process was obtained. Only the public prompt and mismatch disclaimer were confirmed; generation was not run here and REA use is unsupported.",
+      "metadata": ["Candidate snapshot: 0 likes, 82 views, 0 reposts. Shot counts and duration are prompt specifications, not accepted generation results."],
+      "source_labels": ["Candidate: sandmrk's continuity restatement and mismatch disclaimer, November 8, 2026 at 20:52:27 Beijing time", "Supplementary in-window thread opening: Muse format, characters and shot specifications, November 8, 2026 at 20:52:17"]
+    }
+  },
+  {
+    "id": "wesbos-wyze-rc-car-claude-usb-esp32",
+    "title": "Wyze小车：whyamas转述wesbos用Claude Code研究USB与ESP32控制",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "whyamas称wesbos让Claude Code研究遥控车控制，从定制Wyze相机固件改为USB或ESP32；协议与实机验收未核。",
+    "description": "2026年11月8日20:56:02（北京时间），whyamas（@whyamas）转述@wesbos让Claude Code研究一辆遥控车如何受控：原来需要定制Wyze相机固件，现在可以通过USB或廉价ESP32驱动。具体用途是让车摆脱原相机固件依赖，保留可控制的硬件路径。\n\n该帖没有列小车型号、USB协议、接线、电源、固件或源码，也未说明USB与ESP32是否覆盖所有原功能。二手报告中的可驾驶说法不是本合集实机结果；不能添加速度、延迟、工时或安全性。11月9日补取原帖确认转述者与措辞，但未获得wesbos原串或独立控制日志，REA未提及；本合集没有接车或刷写设备。",
+    "sources": [{"label": "whyamas转述wesbos的Claude Code遥控车研究，2026-11-08", "url": "https://x.com/i/status/2119413636301262930"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照1赞、31浏览、0转发；USB／ESP32驾驶为转述，不是实机兼容矩阵。"],
+    "en": {
+      "title": "Wyze RC car: whyamas relays wesbos's Claude Code work on USB and ESP32 control",
+      "summary": "whyamas says wesbos used Claude Code to study RC-car control, replacing custom Wyze-camera firmware with USB or ESP32 operation. Protocol and hardware acceptance tests are unverified.",
+      "description": "At 20:56:02 Beijing time on November 8, 2026, whyamas (@whyamas) reports that @wesbos had Claude Code determine how an RC car was controlled: it previously needed custom Wyze-camera firmware and can now drive over USB or a cheap ESP32. The concrete purpose is removing the dependency on the camera firmware while retaining a usable hardware-control path.\n\nThe post gives no car model, USB protocol, wiring, power requirements, firmware or source, and does not establish that USB and ESP32 cover every original feature. Driving is a secondary report, not a hardware result from this collection; speed, latency, development time and safety are not supplied. Retrieval on November 9 confirms the reporter and wording, but the original wesbos thread and independent control logs were not obtained. REA is unmentioned; no car was connected or device flashed here.",
+      "metadata": ["Candidate snapshot: 1 like, 31 views, 0 reposts. USB/ESP32 driving is a secondary report, not a hardware compatibility matrix."],
+      "source_labels": ["whyamas relays wesbos's Claude Code RC-car research, November 8, 2026"]
+    }
+  },
+  {
+    "id": "carlos-graid-claude-native-apple-silicon-app",
+    "title": "旧G-RAID管理：Carlos称Claude读控制器固件并重建Apple Silicon应用",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Carlos自报Claude转储旧G-RAID控制器固件、映射协议并做原生Mac管理应用；未披露型号、源码或存储安全测试。",
+    "description": "2026年11月8日21:06:32（北京时间），Carlos（@carlosispogi）称Western Digital放弃旧G-RAID设备，官方Mac管理应用停留在2017年、仅Intel版本且不太可用。他让Claude研究，报告转储控制器固件、映射协议，再做原生Apple Silicon应用，还加入旧应用没有的功能。目标是延续旧存储设备的管理能力，不是证明硬盘数据布局或RAID恢复已被完整重建。\n\n2017年、停止维护与应用可用性均为作者叙述，没有厂商支持记录或版本对照。帖子未说明新增功能、设备型号、固件版本、命令集、源代码、读写／阵列管理测试或数据完整性验收；不推定可安全管理所有G-RAID或执行恢复。11月9日补取确认署名及文字，附视频但未观看验证；本合集未连接存储设备、运行应用或读写数据，REA未提及。",
+    "sources": [{"label": "Carlos的G-RAID固件、协议与原生Mac应用自述，2026-11-08", "url": "https://x.com/i/status/2119416281405464807"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照0赞、37浏览、0转发；管理功能及存储安全未经独立测试。"],
+    "en": {
+      "title": "Managing old G-RAIDs: Carlos says Claude read controller firmware and rebuilt an Apple Silicon app",
+      "summary": "Carlos reports Claude-assisted firmware dumping, protocol mapping and a native Mac management app for old G-RAIDs. Model, source and storage-safety tests are undisclosed.",
+      "description": "At 21:06:32 Beijing time on November 8, 2026, Carlos (@carlosispogi) says Western Digital abandoned old G-RAIDs and that the official Mac management app dates to 2017, is Intel-only and barely works. He reports having Claude dump controller firmware, map the protocol and build a native Apple Silicon app with additional features. The aim is continued management of old storage hardware, not demonstrated full recovery of disk data layouts or RAID reconstruction.\n\nThe 2017 date, maintenance status and app usability are the author's account, without vendor support records or version comparisons. The post does not specify new features, device model, firmware revision, commands, source, read/write or array-management tests, or data-integrity acceptance. Safe management of every G-RAID or data recovery is not established. Retrieval on November 9 confirms attribution and wording; an attached video was not watched or validated. No storage device was connected, app run or data read/written here. REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 0 likes, 37 views, 0 reposts. Management features and storage safety were not independently tested."],
+      "source_labels": ["Carlos's G-RAID firmware, protocol and native Mac app account, November 8, 2026"]
+    }
+  },
+  {
+    "id": "roasted-phoenix-decision-transformer-scaffold-token-budget",
+    "title": "Decision Transformer训练数据：Roasted Phoenix称Agent反推scaffolding后测试耗额失控",
+    "category": "algorithms", "rea": "other-ai", "status": "in-progress",
+    "summary": "作者研究用于合成训练数据的目标scaffolding，称bot随后测试消耗周额度3–5%才被叫停；模型训练和逆向正确性未验收。",
+    "description": "2026年11月8日21:32:41（北京时间），Roasted Phoenix（@Roasted_Phoenix）介绍自己的decision transformer开发：以结构化数据训练决策模型，为此让bot反推一个目标scaffolding来生成合成训练数据。scaffolding在这里是配套执行／组织框架，原帖未给名称；具体逆向目的与训练数据管线相连，而非宣称已恢复完整模型。\n\n作者肯定反推工作，但说随后bot测试时没有只生成少量记录，被他叫停前已消耗周额度约3–5%；最近一周测试耗tokens超过实际编码，缺陷仍会漏过。他希望harness允许控制测试数据量、预算和模型参数。这是具体预算与验收反例，不是测试越多质量越好的证明。\n\n未披露目标身份、bot／模型、记录数量、账单、训练指标、数据质量或可重放日志，3–5%不换算美元或计算量。11月9日补取确认作者和文字；不把主观肯定升级为逆向正确性或训练完成。本合集未运行框架或生成数据，REA未提及。",
+    "sources": [{"label": "Roasted Phoenix的训练数据scaffolding与测试预算自述，2026-11-08", "url": "https://x.com/i/status/2119422858699100542"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照0赞、12浏览、0转发；3–5%为自报周额度比例，无原始用量日志。"],
+    "en": {
+      "title": "Decision Transformer training data: Roasted Phoenix reports runaway test usage after agent-led scaffold reconstruction",
+      "summary": "The author studies a scaffold for synthetic training data and says subsequent bot tests consumed 3–5% of weekly allowance before intervention. Neither training nor reversing correctness is accepted.",
+      "description": "At 21:32:41 Beijing time on November 8, 2026, Roasted Phoenix (@Roasted_Phoenix) describes developing a decision transformer, a decision model trained from structured data. A bot reverse-engineered a target scaffold to generate synthetic training data. Scaffolding here is the supporting execution/organization framework, unnamed in the post. The concrete reverse-engineering purpose is a training-data pipeline, not claimed recovery of an entire model.\n\nThe author praises the reconstruction but says the bot did not limit subsequent tests to a small number of records and consumed about 3–5% of weekly allowance before being stopped. Over the preceding week, testing used more tokens than actual coding, while defects still escaped. The author requests harness controls for test-data volume, budget and model parameters. This is a concrete budget and acceptance counterexample, not evidence that more testing guarantees quality.\n\nTarget identity, bot/model, record count, billing, training metrics, data quality and replayable logs are undisclosed. The 3–5% is not converted into dollars or compute. Retrieval on November 9 confirms attribution and wording; subjective praise is not established reversing correctness or completed training. No framework was run or data generated here; REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 0 likes, 12 views, 0 reposts. The 3–5% weekly allowance figure is self-reported without raw usage logs."],
+      "source_labels": ["Roasted Phoenix on training-data scaffolding and test budgets, November 8, 2026"]
+    }
+  },
+  {
+    "id": "scientificbrad-commodore128-rea-rom-reassembly",
+    "title": "Commodore 128：Scientific Brad自报61KB ROM重汇编哈希一致与双CPU演示",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "作者报告REA／Ghidra研究Commodore 128 ROM，重汇编SHA-256一致，并重建8502＋Z80模拟器启动BASIC 7.0；未取得日志或独立复测。",
+    "description": "2026年11月8日21:42:43（北京时间），Scientific Brad（@ScientificBrad）继此前Commodore 4064项目后报告新目标Commodore 128：61KB ROM经过逆向与重汇编，SHA-256精确匹配。他还称重建双CPU（8502与Z80）模拟器，启动BASIC 7.0并运行Matrix字符雨演示，累计模拟CPU周期超过25亿。帖子标注REA、Ghidra和antigravity。具体用途是研究、重建并演示这台复古计算机的固件与执行环境。\n\n这些数字与运行现象均为作者自报。没有公开ROM清单、原始／重汇编哈希、构建版本、CPU测试集、周期精度对照或兼容性结果；哈希一致即使属实，也只覆盖被比较的ROM字节，不证明模拟器全行为或所有软件兼容。25亿是累计模拟周期，不是性能基准或实机工时。\n\n11月9日补取确认作者和全文，未观看附视频、取得代码或重跑验收。将128与其4064前作区分，不把旧工作计为本轮新目标；本合集没有下载ROM、执行模拟器或计算作者未提供的哈希。",
+    "sources": [{"label": "Scientific Brad的Commodore 128 ROM与双CPU模拟器报告，2026-11-08", "url": "https://x.com/i/status/2119425385486254108"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照0赞、33浏览、0转发；61KB、精确SHA-256、25亿周期均为项目自述，未独立验证。"],
+    "en": {
+      "title": "Commodore 128: Scientific Brad reports exact ROM reassembly hashes and a dual-CPU demonstration",
+      "summary": "The author reports REA/Ghidra research into 61KB of Commodore 128 ROMs with matching SHA-256, plus an 8502+Z80 emulator booting BASIC 7.0. Logs and independent retests were not obtained.",
+      "description": "At 21:42:43 Beijing time on November 8, 2026, Scientific Brad (@ScientificBrad) follows a previous Commodore 4064 project with a new Commodore 128 target: 61KB of ROMs reportedly reverse-engineered and reassembled with exact SHA-256 matches. He also reports rebuilding the dual-CPU emulator (8502 and Z80), booting BASIC 7.0 and running a Matrix-rain demonstration, with more than 2.5 billion emulated CPU cycles accumulated. The post tags REA, Ghidra and antigravity. The concrete purpose is studying, reconstructing and demonstrating this retro computer's firmware and execution environment.\n\nAll figures and runtime observations are author-reported. ROM inventory, original/reassembled hashes, build revision, CPU test suite, cycle-accuracy comparisons and compatibility results are unavailable. Even if confirmed, matching hashes would cover the compared ROM bytes, not every emulator behavior or all software compatibility. The 2.5 billion is accumulated emulated cycles, not a performance benchmark or physical-machine work time.\n\nRetrieval on November 9 confirms attribution and full text. The attached video was not watched, code not obtained and acceptance tests not rerun. The 128 is distinguished from the earlier 4064 work rather than counting that predecessor as a new target. No ROM was downloaded, emulator run or undisclosed author hash calculated here.",
+      "metadata": ["Candidate snapshot: 0 likes, 33 views, 0 reposts. The 61KB, exact SHA-256 matches and 2.5 billion cycles are project reports, not independently verified."],
+      "source_labels": ["Scientific Brad's Commodore 128 ROM and dual-CPU emulator report, November 8, 2026"]
+    }
+  },
+  {
+    "id": "buru-tapsonic-world-champion-claude-rea-patches",
+    "title": "TAPSONIC World Champion：다부루称Claude Code接REA修改本地姓名、国籍与曲目状态",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "作者将自有安装包与游戏文件交给Claude Code／REA，报告原在线姓名修改、一次性国籍选择和本地曲目状态可打补丁；无公开补丁验收。",
+    "description": "2026年11月8日21:43:50（北京时间），다부루（@buru_army_mil）以复活节奏游戏TAPSONIC World Champion为背景，称把原先持有的包和游戏文件交给连接REA的Claude Code研究。作者列出可打补丁的三项：原来只能在线改的姓名、最初只能改一次的国籍，以及未解锁曲目状态。\n\n对于曲目，他称安装包下载后已含全曲，解锁由变量控制。这是关于该包本地状态的作者发现，不证明所有版本都含相同内容，也不是服务器、在线排名、购买权益或整个游戏服务已恢复。此处只记录功能类别，不发布绕过或补丁操作。\n\n11月9日补取确认作者、韩文原文与Claude Code／REA归因。未取得包版本、补丁文件、源码、完整曲库测试或离线启动验收，不能把可修改几项状态写成完整保存成功；本合集未下载游戏或运行补丁。",
+    "sources": [{"label": "다부루的TAPSONIC World Champion／Claude Code／REA补丁自述，2026-11-08", "url": "https://x.com/i/status/2119425667481874770"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照23赞、1708浏览、4转发；具体本地功能自报，无独立验收或授权结论。"],
+    "en": {
+      "title": "TAPSONIC World Champion: buru reports Claude Code/REA patches for local name, nationality and song state",
+      "summary": "The author feeds owned package/game files to Claude Code with REA and reports patchable online-only name changes, one-time nationality selection and local song state. Public patch acceptance tests are absent.",
+      "description": "At 21:43:50 Beijing time on November 8, 2026, 다부루 (@buru_army_mil) describes reviving rhythm game TAPSONIC World Champion by giving previously owned package and game files to Claude Code connected to REA. Three patchable areas are reported: name changes previously requiring an online connection, nationality changes previously allowed only once, and locked-song state.\n\nFor songs, the author says a downloaded package already includes every track and variables control unlock state. This is an author finding about that package's local state, not proof that every version contains identical content or that servers, rankings, purchase entitlements or the whole game service have been restored. Only feature categories are recorded here, without bypass or patch instructions.\n\nRetrieval on November 9 confirms attribution, the Korean text and the Claude Code/REA connection. Package revision, patch files, source, full-library tests and offline-boot acceptance were not obtained. A few modifiable states are not established complete preservation. No game was downloaded or patch run here.",
+      "metadata": ["Candidate snapshot: 23 likes, 1,708 views, 4 reposts. Specific local features are self-reported, without independent acceptance or a conclusion about authorization."],
+      "source_labels": ["buru's TAPSONIC World Champion/Claude Code/REA patch account, November 8, 2026"]
+    }
+  },
+  {
+    "id": "ps5-rdna-spirv-ai-shader-variable-recovery-idea",
+    "title": "RDNA着色器研究idea：Sebastian Aaltonen建议经SPIR-V转源码再让AI命名变量",
+    "category": "algorithms", "rea": "other-ai", "status": "in-progress",
+    "summary": "提出复用PS5模拟器的RDNA ISA→SPIR-V转换，再到HLSL／GLSL／Metal并让AI命名变量；没有具名实现、输入样本或语义正确性测试。",
+    "description": "2026年11月8日22:06:45（北京时间），Sebastian Aaltonen（@SebAaltonen）讨论GPU着色器逆向：他说最新AI编写的PS5模拟器可把AMD RDNA指令集转换为SPIR-V，分析者可复用开放工具，再转为HLSL、GLSL或Metal，最后请AI给变量命名。目标是把较低层GPU指令转成更便于人读的着色器表达，以辅助理解既有渲染逻辑。\n\n这是有明确转换链的研究idea，不是作者报告已对某款游戏或着色器完成恢复。原帖没有模拟器仓库、版本、反编译器、shader样本、输出、变量命名评估或语义等价验证；其关于AI编写模拟器的说法也仅归因作者。转换与可读命名不等于恢复原始源码、变量名或完整图形管线。\n\n11月9日补取确认署名和措辞；按早期想法保留，不用进行中标签冒充已有实现。未下载或运行工具，REA未提及。",
+    "sources": [{"label": "Sebastian Aaltonen的RDNA／SPIR-V／AI命名研究建议，2026-11-08", "url": "https://x.com/i/status/2119431434179858519"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照1赞、82浏览、0转发；idea，无具名shader验收。"],
+    "en": {
+      "title": "RDNA shader research idea: Sebastian Aaltonen suggests SPIR-V conversion followed by AI variable naming",
+      "summary": "A proposal reuses PS5-emulator RDNA ISA-to-SPIR-V conversion, then HLSL/GLSL/Metal output and AI naming. No implementation identity, input sample or semantic-correctness test is supplied.",
+      "description": "At 22:06:45 Beijing time on November 8, 2026, Sebastian Aaltonen (@SebAaltonen) discusses GPU-shader reverse engineering. He says recent AI-written PS5 emulators translate AMD RDNA instructions into SPIR-V, and suggests analysts reuse the open tools, translate further into HLSL, GLSL or Metal, then ask AI to name variables. The purpose is turning lower-level GPU instructions into more readable shader expressions to understand existing rendering logic.\n\nThis is a research idea with a concrete conversion chain, not a report of completed recovery of a particular game or shader. The post names no emulator repository, revision, decompiler, shader sample, output, naming evaluation or semantic-equivalence test. AI authorship of the emulators also remains attributed to the poster. Translation and readable naming do not recover original source, original variable names or an entire graphics pipeline.\n\nRetrieval on November 9 confirms attribution and wording. Retained as an early idea; the in-progress label does not imply an existing implementation. No tool was downloaded or run here; REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 1 like, 82 views, 0 reposts. An idea without acceptance tests for a named shader."],
+      "source_labels": ["Sebastian Aaltonen's RDNA/SPIR-V/AI-naming research suggestion, November 8, 2026"]
+    }
+  },
+  {
+    "id": "super-mario64-mixed-reality-opus-pico-cli-report",
+    "title": "Super Mario 64混合现实：Nathan AI Lab转述Opus与PICO CLI辅助移植",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "二手帖子称Opus 5.5／PICO CLI辅助把SM64角色与关卡接入房间空间，在Quest 3／3S达90FPS；仓库身份、帧率和完整性均未核验。",
+    "description": "2026年11月8日22:12:50（北京时间），Nathan AI Lab（@KOF97AI）介绍Super Mario 64的混合现实移植：不是虚拟大屏，而是把角色与关卡元素放入房间坐标，让茶几、地板等现实表面参与平台与碰撞。帖子归因Opus 5.5和PICO CLI辅助底层适配、构建与打包。\n\n它声称Meta Quest 3及3S可稳定90FPS，Quest 2只是计划；另称仓库不带商业ROM或资产，用户提供美版ROM后本地提取、构建并安装。以上均为该转述，未解析到具名仓库或原作者、未阅读构建脚本，也没有帧时间、空间映射或通关记录。不能将“完整移植”“开箱即用”或开发周期压缩当已验证事实；本地重编译与自备ROM也不自动证明clean-room过程或法律合规。\n\n11月9日补取确认帖子署名与内容，未观看演示或执行代码。按具体游戏适配的未核验报告保存，不推定所有关卡、头显或空间环境受支持；REA未提及。",
+    "sources": [{"label": "Nathan AI Lab的SM64混合现实／Opus／PICO CLI转述，2026-11-08", "url": "https://x.com/i/status/2119432965684072596"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照4赞、312浏览、0转发；90FPS、完整移植与仓库资产政策均未独立核验。"],
+    "en": {
+      "title": "Super Mario 64 in mixed reality: Nathan AI Lab relays an Opus/PICO CLI-assisted port",
+      "summary": "A secondary post credits Opus 5.5/PICO CLI for bringing SM64 characters and levels into room space, claiming 90 FPS on Quest 3/3S. Repository identity, frame rate and completeness remain unverified.",
+      "description": "At 22:12:50 Beijing time on November 8, 2026, Nathan AI Lab (@KOF97AI) describes a Super Mario 64 mixed-reality port: rather than a virtual screen, characters and level elements occupy room coordinates, using tables and floors as platforms and collision surfaces. The post credits Opus 5.5 and PICO CLI with assisting low-level adaptation, building and packaging.\n\nIt claims stable 90 FPS on Meta Quest 3 and 3S, with Quest 2 only planned. It also says the repository contains no commercial ROM or assets and users supply a US ROM for local extraction, building and installation. These remain secondary claims: a named repository or original author was not resolved, build scripts not read, and frame-time, spatial-mapping or playthrough records not obtained. Complete port, out-of-box support and reduced development time are not verified facts. Local recompilation and a user-supplied ROM do not themselves establish clean-room provenance or legal compliance.\n\nRetrieval on November 9 confirms the poster and text. No demonstration was watched or code run. Retained as an unverified report about a specific game adaptation, not support for every level, headset or room environment. REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 4 likes, 312 views, 0 reposts. The 90 FPS, complete-port and repository-asset-policy claims were not independently verified."],
+      "source_labels": ["Nathan AI Lab's SM64 mixed-reality/Opus/PICO CLI report, November 8, 2026"]
+    }
+  },
+  {
+    "id": "growblox-growtopia-claude-livestream-secondary-report",
+    "title": "GROWBLOX与Growtopia：Zlatan转述Claude辅助直播开发并质疑相似度",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Zlatan称ExecutiveStudio的Roblox游戏GROWBLOX在直播中展示Claude与逆向开发；相似界面、玩家和访问数均为二手说法，不作侵权定论。",
+    "description": "2026年11月8日22:38:54（北京时间），Zlatan（@ZlatanRoblox）讨论ExecutiveStudio在Roblox上的GROWBLOX，称它与Ubisoft的Growtopia在世界选择界面、方块与建造系统、背包／快捷栏及多人玩法上相似，并说开发者据报在直播中展示Claude AI与逆向技术参与开发。具体目标是已有方块建造游戏式功能在Roblox上的重建，不是已证明取得Growtopia源码。\n\n帖子还称有4000余活跃玩家、650万访问，并要求相关方调查。这些是作者当时的数字和质疑，没有独立平台快照、直播链接、代码、分析步骤或开发者说明；本合集未观看直播，不能确认哪些部分由AI研究或实现，更不据相似与热度认定侵权、授权或成功复刻。\n\n11月9日补取确认署名和全文。按具名项目的未核验二手报告保存，保留争议归属，不把转述当独立复现；REA未提及，未启动Roblox游戏。",
+    "sources": [{"label": "Zlatan对GROWBLOX／Growtopia与Claude直播开发的转述，2026-11-08", "url": "https://x.com/i/status/2119439524078260373"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照7赞、700浏览、3转发；4000余玩家／650万访问为帖中转述，未核平台数据。"],
+    "en": {
+      "title": "GROWBLOX and Growtopia: Zlatan relays Claude-assisted livestream development and questions similarities",
+      "summary": "Zlatan says ExecutiveStudio's Roblox game GROWBLOX demonstrated Claude and reversing during livestreams. Interface similarities, players and visits are secondary claims, not an infringement finding.",
+      "description": "At 22:38:54 Beijing time on November 8, 2026, Zlatan (@ZlatanRoblox) discusses ExecutiveStudio's Roblox game GROWBLOX, claiming similarities to Ubisoft's Growtopia in world selection, blocks and building, inventory/hotbar and multiplayer gameplay. He says the developer reportedly demonstrated Claude AI and reverse-engineering techniques during livestream development. The concrete target is reconstruction of existing block-building-game-style features in Roblox, not established access to Growtopia source.\n\nThe post also claims over 4,000 active players and 6.5 million visits and asks relevant parties to investigate. These are the poster's figures and concerns, without independent platform snapshots, stream links, code, analysis steps or developer explanations. No livestream was watched here. Which parts AI studied or implemented is unconfirmed; similarity and engagement do not establish infringement, authorization or successful reproduction.\n\nRetrieval on November 9 confirms attribution and full text. Retained as an unverified secondary report about a named project, with the controversy attributed, not treated as independent reproduction. REA is unmentioned; the Roblox game was not launched.",
+      "metadata": ["Candidate snapshot: 7 likes, 700 views, 3 reposts. Over 4,000 players/6.5 million visits are claims in the post, not checked platform data."],
+      "source_labels": ["Zlatan's GROWBLOX/Growtopia and Claude livestream-development report, November 8, 2026"]
+    }
+  },
+  {
+    "id": "deafsquad-home-automation-firmware-claude-ci",
+    "title": "家居自动化服务器：deafsquad称Claude研究固件后接入配置CI与Git",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "作者自述花数月让Claude逆向自家自动化服务器固件，为配置与工具建立CI和Git版本管理；品牌、改动及实机验收未披露。",
+    "description": "2026年11月8日22:39:16（北京时间），ShitGPT Klopilot（@deafsquad）回复他人时称，Claude逆向了其家居自动化服务器的整个固件，现在配置有完整CI管线，工具之上也有Git版本控制，过程花了几个月。具体目的在于让自有设备配置进入可追踪、可持续集成的维护流程，而不是仅靠厂商界面管理。\n\n“整个固件”和“远超厂商”是作者评价；未给品牌、型号、固件版本、分析方法、CI检查项、仓库、刷写步骤或自动化设备运行测试。配置CI／Git存在的自述不证明全部固件恢复、可靠回滚或所有家居设备互通。数月为粗略历时，不是模型工时或无人值守运行时长。\n\n11月9日补取确认署名和文字。本合集未接入设备、执行代码或测试配置部署，REA未提及；按具体硬件维护用途的未核验报告保存。",
+    "sources": [{"label": "deafsquad的Claude家居服务器固件与CI／Git自述，2026-11-08", "url": "https://x.com/i/status/2119439614884675839"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照1赞、17浏览、0转发；数月为作者自报历时，没有公开CI或实机日志。"],
+    "en": {
+      "title": "Home automation server: deafsquad says Claude firmware research enabled configuration CI and Git",
+      "summary": "The author reports months of Claude-assisted firmware reversing for a home automation server, followed by configuration CI and Git-controlled tooling. Brand, changes and hardware acceptance are undisclosed.",
+      "description": "At 22:39:16 Beijing time on November 8, 2026, ShitGPT Klopilot (@deafsquad) replies that Claude reversed the entire firmware of their home automation server, that configurations now have a full CI pipeline and tooling has Git version control, and that the effort took a few months. The concrete purpose is a traceable, continuously integrated maintenance workflow for owned hardware configurations, rather than relying solely on the manufacturer's interface.\n\nEntire firmware and superiority to the manufacturer are the author's assessments. Brand, model, firmware revision, analytical method, CI checks, repository, flashing process and automation-device runtime tests are not supplied. Reported configuration CI/Git does not establish full firmware recovery, reliable rollback or interoperability with every home device. Months is approximate elapsed time, not model-hours or unattended runtime.\n\nRetrieval on November 9 confirms attribution and wording. No hardware was connected, code run or configuration deployment tested here. REA is unmentioned; retained as an unverified report with a concrete hardware-maintenance purpose.",
+      "metadata": ["Candidate snapshot: 1 like, 17 views, 0 reposts. Months is self-reported elapsed time, without public CI or hardware logs."],
+      "source_labels": ["deafsquad on Claude-assisted home-server firmware work and CI/Git, November 8, 2026"]
+    }
+  },
+  {
+    "id": "goge-gemini-keygen-ds-refusal-self-report",
+    "title": "注册机研究：Goge自述ds拒绝后由Gemini完成",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Goge称付费软件逆向注册机任务被ds拒绝、Gemini做了；未命名目标、模型版本或提供可验证产物，仅记录拒绝差异。",
+    "description": "2026年11月8日23:06:16（北京时间），Goge（@niandwo）回复@xutongtong，明确自己说的是逆向付费软件的注册机任务，称“ds拒绝做，Gemini干了”。这是关于一个实际请求及不同模型响应的个人报告，具体用途涉及软件许可机制研究；这里不提供破解步骤或产物。\n\n原帖只写ds，不擅自补成某个DeepSeek版本。目标软件、授权范围、输入请求、拒绝全文、Gemini版本、生成代码、有效性测试与使用结果均未披露；“干了”不能升级为已验证注册成功，也不意味着许可绕过获授权、合法或安全。11月9日补取确认署名和原文。本合集未生成或运行注册机，REA未提及，按未核验的模型拒绝／接受差异保存。",
+    "sources": [{"label": "Goge关于ds拒绝与Gemini注册机任务的自述，2026-11-08", "url": "https://x.com/i/status/2119446409284136972"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照0赞、17浏览、0转发；无目标身份、拒绝记录或有效性验收。"],
+    "en": {
+      "title": "Keygen research: Goge says ds refused and Gemini carried out the task",
+      "summary": "Goge reports a paid-software keygen request refused by ds but handled by Gemini. Target, model versions and verifiable artifacts are absent; only the response difference is recorded.",
+      "description": "At 23:06:16 Beijing time on November 8, 2026, Goge (@niandwo) replies to @xutongtong, clarifying that the task was a keygen involving reverse engineering paid software and saying ds refused while Gemini did it. This is a personal report about an actual request and different model responses, involving software-license mechanisms. No cracking procedure or artifact is provided here.\n\nThe post says only ds; no particular DeepSeek version is assigned. Target software, authorization scope, input request, full refusal, Gemini revision, generated code, validity tests and usage results are undisclosed. Did it is not validated successful registration and does not establish that bypassing licensing was authorized, lawful or safe. Retrieval on November 9 confirms attribution and wording. No keygen was generated or run here; REA is unmentioned. Retained as an unverified refusal/acceptance difference.",
+      "metadata": ["Candidate snapshot: 0 likes, 17 views, 0 reposts. Target identity, refusal record and validity acceptance are absent."],
+      "source_labels": ["Goge's account of a ds refusal and Gemini keygen task, November 8, 2026"]
+    }
+  },
+  {
+    "id": "ditangongyuan-nes-nds-claude-aot-hud",
+    "title": "红白机到NDS：地坛公园称Claude以6502转C、软件PPU／APU并扩展下屏HUD",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "作者报告保留原内存结构，将6502反汇编改写为C并编译，软件处理图像与音频，额外下屏地图／状态；没有整游戏正确性验收。",
+    "description": "2026年11月8日23:58:34（北京时间），地坛公园（@ditangongyuan）称Claude最后选用6502反汇编转C，在保留原内存结构的条件下编译为原生程序，再软件实现PPU图像和APU音频。他将其称为AOT版模拟器，即预先转换CPU逻辑、仍以软件承担相关硬件行为，并让Claude给下屏HUD增加地图和更多状态信息。\n\n候选正文设备名原样写“DNS”，不将它当正确型号。11月9日补读同串11月8日18:53:58的窗前帖，作者明确目标为把红白机游戏移到NDS：横向分辨率一致、纵向较少，可将状态挪到另一块屏幕。这是识别平台与动机的背景来源，不是本窗新候选，也不静默修正原文。\n\n作者说“搞定了”“保证正确性”，但未提供游戏版本、完整源码、构建记录、CPU／PPU／APU等价测试、帧率或通关验收，不能由内存结构保留推导全行为正确。未使用补取串中晚于本窗的后续回复作窗口内结果。本合集未运行目标、下载ROM或测试双屏掌机；REA未提及，按进行中移植自述保存。",
+    "sources": [
+      {"label": "候选：地坛公园的Claude／6502转C与下屏HUD方案，2026-11-08 23:58:34北京时间，原文DNS", "url": "https://x.com/i/status/2119459574440956403"},
+      {"label": "补充窗前同串：明确红白机到NDS与双屏动机，2026-11-08 18:53:58北京时间", "url": "https://x.com/i/status/2119382916904128863"}
+    ],
+    "snapshot_date": "2026-11-08", "metadata": ["候选快照0赞、20浏览、0转发；完成与正确性为作者措辞，无整游戏或实机验收。"],
+    "en": {
+      "title": "NES to NDS: ditangongyuan reports Claude-assisted 6502-to-C AOT conversion and a lower-screen HUD",
+      "summary": "The author reports preserving memory layout while rewriting disassembled 6502 logic in C, implementing graphics/audio in software and adding map/status displays. Whole-game correctness is untested.",
+      "description": "At 23:58:34 Beijing time on November 8, 2026, ditangongyuan (@ditangongyuan) says Claude settled on rewriting disassembled 6502 logic in C while retaining the original memory layout, compiling a native program and implementing PPU graphics and APU audio in software. The author calls it an AOT emulator: CPU logic is converted ahead of time while related hardware behavior remains software-implemented. Claude also added a map and further status information to the lower-screen HUD.\n\nThe candidate literally writes DNS as the device name; that is not treated as a valid model identifier. A supplementary same-thread post dated November 8 at 18:53:58, before the window, explicitly names porting NES games to NDS: equal horizontal resolution, fewer vertical pixels, and the second screen available for status. It supplies platform identity and motivation, not a new-window candidate or a silent correction of the source token.\n\nThe author's done and correctness language is not backed by a game revision, complete source, build record, CPU/PPU/APU equivalence tests, frame rate or playthrough acceptance. Retaining memory layout does not establish full behavioral correctness. Later replies beyond the window, returned during retrieval, were not used as in-window results. No target was run, ROM downloaded or dual-screen handheld tested here. REA is unmentioned; retained as an in-progress porting self-report.",
+      "metadata": ["Candidate snapshot: 0 likes, 20 views, 0 reposts. Completion and correctness are the author's wording without whole-game or hardware acceptance."],
+      "source_labels": ["Candidate: ditangongyuan's Claude/6502-to-C and lower-screen HUD approach, November 8, 2026 at 23:58:34 Beijing time; original token DNS", "Supplementary pre-window thread post: NES-to-NDS goal and dual-screen motivation, November 8, 2026 at 18:53:58 Beijing time"]
+    }
+  },
+  {
     "id": "redivivus-diablo2-ghidra-agent-proposals",
     "title": "Redivivus：Agent只读研究暗黑II数据库，以提案修正C++重建",
     "category": "games", "rea": "other-ai", "status": "in-progress",
@@ -19189,16 +19419,16 @@
     "rea": "REA",
     "status": "analysis-test",
     "summary": "Fedele Mantuano 报告用 REA、Ghidra、Codex 静态识别硬编码服务器及内存载荷加载，未作动态确认。",
-    "description": "10月18日07:21（北京时间），Fedele Mantuano（@fedelemantuano）介绍一次 Windows loader 分析，提出不运行恶意软件也能得到什么信息的问题。他称使用 REA、Ghidra 和 Codex，发现硬编码服务器以及内存中加载载荷的行为。loader 是负责装入后续载荷的程序；这里的目标是理解样本结构和潜在通信/加载路径，而不是让其实际联网执行。\n\n可用原帖未给样本哈希、恶意软件家族、函数地址、服务器值、完整证据链或反编译结果，文章只有短链且未取得正文。因此这只是作者报告的静态分析，不将硬编码地址等同当前活跃服务，也不将可能的载荷路径升级为已经观测到的执行。未下载或运行样本，未做独立复现。",
-    "sources": [{"label": "Fedele Mantuano：REA/Ghidra/Codex 静态 loader 分析", "url": "https://x.com/i/status/2111598581421670782"}],
-    "snapshot_date": "2026-10-18",
-    "metadata": ["候选快照0赞、36浏览；结论为作者报告的静态发现，无动态验收。"],
+    "description": "10月18日07:21（北京时间），Fedele Mantuano（@fedelemantuano）介绍一次 Windows loader 分析，提出不运行恶意软件也能得到什么信息的问题。他称使用 REA、Ghidra 和 Codex，发现硬编码服务器以及内存中加载载荷的行为。loader 是负责装入后续载荷的程序；这里的目标是理解样本结构和潜在通信/加载路径，而不是让其实际联网执行。\n\n2026年11月8日20:57:33（北京时间）的本轮候选再次转述该实验，补充分析环境为无网络Docker实验室，并明确没有运行loader。这只是二手环境描述，不是容器隔离审计、恶意软件逃逸测试或动态行为确认，也不把Docker等同完整安全沙箱。\n\n可用原帖未给样本哈希、恶意软件家族、函数地址、服务器值、完整证据链或反编译结果，文章只有短链且未取得正文。因此这只是作者报告的静态分析，不将硬编码地址等同当前活跃服务，也不将可能的载荷路径升级为已经观测到的执行。未下载或运行样本，未做独立复现。",
+    "sources": [{"label": "Fedele Mantuano：REA/Ghidra/Codex 静态 loader 分析", "url": "https://x.com/i/status/2111598581421670782"}, {"label": "本轮转述：无网络Docker实验室与不运行loader，2026-11-08", "url": "https://x.com/i/status/2119414020293943424"}],
+    "snapshot_date": "2026-11-08",
+    "metadata": ["10月18日候选快照0赞、36浏览；结论为作者报告的静态发现，无动态验收。", "11月8日补充候选快照0赞、19浏览、0转发；Docker与无网络为二手描述，未审计隔离。"],
     "en": {
       "title": "Windows loader: REA and Codex analysis without running the sample",
       "summary": "Fedele Mantuano reports identifying hardcoded servers and in-memory payload loading with REA, Ghidra and Codex; no dynamic confirmation is provided.",
-      "description": "At 07:21 Beijing time on October 18, Fedele Mantuano (@fedelemantuano) introduces a Windows loader analysis by asking what can be learned about malware without running it. He reports using REA, Ghidra and Codex to uncover hardcoded servers and in-memory payload loading. A loader is a program responsible for loading a subsequent payload; the purpose here is to understand sample structure and potential communication/loading paths, not actually connect and execute it.\n\nThe available original post provides no sample hash, malware family, function addresses, server values, full evidence chain or decompilation results. The article is only a short link and its text was not obtained. This is therefore the author's reported static analysis. Hardcoded addresses are not established as currently active services, and a possible payload path must not become observed execution. No sample was downloaded or run and no independent reproduction was performed.",
-      "metadata": ["Candidate snapshot: 0 likes, 36 views; conclusions are author-reported static findings, not dynamic acceptance results."],
-      "source_labels": ["Fedele Mantuano: static loader analysis with REA/Ghidra/Codex"]
+      "description": "At 07:21 Beijing time on October 18, Fedele Mantuano (@fedelemantuano) introduces a Windows loader analysis by asking what can be learned about malware without running it. He reports using REA, Ghidra and Codex to uncover hardcoded servers and in-memory payload loading. A loader is a program responsible for loading a subsequent payload; the purpose here is to understand sample structure and potential communication/loading paths, not actually connect and execute it.\n\nA candidate from this window at 20:57:33 Beijing time on November 8, 2026 relays the experiment again, adding that analysis took place in a Docker lab without network access and explicitly saying the loader was never run. This is a secondary environment description, not a container-isolation audit, malware-escape test or dynamic confirmation. Docker is not equated with a fully secure sandbox.\n\nThe available original post provides no sample hash, malware family, function addresses, server values, full evidence chain or decompilation results. The article is only a short link and its text was not obtained. This is therefore the author's reported static analysis. Hardcoded addresses are not established as currently active services, and a possible payload path must not become observed execution. No sample was downloaded or run and no independent reproduction was performed.",
+      "metadata": ["October 18 candidate snapshot: 0 likes, 36 views; conclusions are author-reported static findings, not dynamic acceptance results.", "November 8 supplementary candidate snapshot: 0 likes, 19 views, 0 reposts. Docker and no-network operation are secondary descriptions; isolation was not audited."],
+      "source_labels": ["Fedele Mantuano: static loader analysis with REA/Ghidra/Codex", "This window's secondary report: Docker lab without network access and no loader execution, November 8, 2026"]
     }
   },
   {

@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Commodore 128：Scientific Brad自报61KB ROM重汇编哈希一致与双CPU演示](../cases/scientificbrad-commodore128-rea-rom-reassembly.md) — 作者报告REA／Ghidra研究Commodore 128 ROM，重汇编SHA-256一致，并重建8502＋Z80模拟器启动BASIC 7.0；未取得日志或独立复测。 **[REA · 待验证]**
+- [TAPSONIC World Champion：다부루称Claude Code接REA修改本地姓名、国籍与曲目状态](../cases/buru-tapsonic-world-champion-claude-rea-patches.md) — 作者将自有安装包与游戏文件交给Claude Code／REA，报告原在线姓名修改、一次性国籍选择和本地曲目状态可打补丁；无公开补丁验收。 **[REA · 待验证]**
+- [Super Mario 64混合现实：Nathan AI Lab转述Opus与PICO CLI辅助移植](../cases/super-mario64-mixed-reality-opus-pico-cli-report.md) — 二手帖子称Opus 5.5／PICO CLI辅助把SM64角色与关卡接入房间空间，在Quest 3／3S达90FPS；仓库身份、帧率和完整性均未核验。 **[其他 AI 逆向 · 待验证]**
+- [GROWBLOX与Growtopia：Zlatan转述Claude辅助直播开发并质疑相似度](../cases/growblox-growtopia-claude-livestream-secondary-report.md) — Zlatan称ExecutiveStudio的Roblox游戏GROWBLOX在直播中展示Claude与逆向开发；相似界面、玩家和访问数均为二手说法，不作侵权定论。 **[其他 AI 逆向 · 待验证]**
+- [红白机到NDS：地坛公园称Claude以6502转C、软件PPU／APU并扩展下屏HUD](../cases/ditangongyuan-nes-nds-claude-aot-hud.md) — 作者报告保留原内存结构，将6502反汇编改写为C并编译，软件处理图像与音频，额外下屏地图／状态；没有整游戏正确性验收。 **[其他 AI 逆向 · 进行中]**
 - [Redivivus：Agent只读研究暗黑II数据库，以提案修正C++重建](../cases/redivivus-diablo2-ghidra-agent-proposals.md) — Diablo II 1.14d保存项目开放Claude／MCP数据库研究与人工审查提案；固定文档自报7772／14626函数匹配和单人通关，仍有崩溃与界面缺陷，未独立重建。 **[其他 AI 逆向 · 进行中]**
 - [Resident Evil 4：bosh澄清可重编译C并非完整可读源码，称移至Mac ARM与Wasm](../cases/bosh-re4-c-recompile-mac-wasm-report.md) — bosh在新回复中限定RE4反编译说法，报告可改动再编译的C与Mac ARM／WebAssembly视频，使用Claude、Codex及30至50并发Agent；无源码与完整游玩验证。 **[其他 AI 逆向 · 待验证]**
 - [Mashbox：bosh称RE4研究衍生项目一周内建成，现已转向AI推理](../cases/bosh-mashbox-re4-decompilation-project.md) — bosh称RE4研究催生Mashbox；补读项目页描述把自有游戏世界与玩法放入同一引擎，浏览器只用自创世界。Windows早期版、兼容与文件只读均是项目自述，未运行。 **[其他 AI 逆向 · 相关项目]**
