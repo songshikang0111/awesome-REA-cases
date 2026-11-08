@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1867 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1885 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（375）
-- [硬件与设备互通](categories/hardware.md)（502）
-- [应用与客户端](categories/apps.md)（773）
-- [算法与功能重建](categories/algorithms.md)（217）
+- [游戏与游戏保存](categories/games.md)（378）
+- [硬件与设备互通](categories/hardware.md)（507）
+- [应用与客户端](categories/apps.md)（778）
+- [算法与功能重建](categories/algorithms.md)（222）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [OpenVersus争议：FGCALERT转述Claude反编译与未署名复制功能的指控](cases/openversus-claude-decompilation-attribution-allegation.md) — 转述指控OVS用Claude分析MVSI、Beta+和FDAVersus构建并复制功能；未核验原始证据、代码对比或项目方回应。 **[其他 AI 逆向 · 待验证]**
+- [硬盘损坏后重建自发游戏：Aditya称逆向找回2020年项目](cases/aditya-2020-game-corrupt-hdd-ai-recovery.md) — 作者说2020年发布的自有游戏源码因HDD损坏丢失，已逆向并正重建待重发；没有游戏名、工具或发布验证。 **[其他 AI 逆向 · 进行中]**
+- [Age of Empires II HD进浏览器：shellbear称Claude／REA重建，联机仍是期待](cases/shellbear-aoe2hd-claude-rea-browser-rebuild.md) — 作者称AoE2 HD已在浏览器跑起来、由Claude与REA完整反编译；视频附件不证明覆盖率，浏览器多人模式尚未报告实现。 **[REA · 进行中]**
 - [泡泡龙式消除到塔防：墨无归的REA本地重构试作](cases/moblacksoil-rea-bubble-shooter-tower-defense-prototype.md) — 墨无归称约半小时研究并重构一款泡泡龙式游戏，保留动作反馈改试塔防；换素材、数值与设计仍待做，未报告盈利。 **[REA · 进行中]**
 - [Subway Surfers金币逻辑：morsen转述Claude Code单会话研究](cases/morsen-claude-subway-surfers-coin-logic-report.md) — morsen称Claude Code在root Android上研究金币并修改余额；反作弊绕过与完全自主为未核验说法，不提供操作步骤。 **[其他 AI 逆向 · 待验证]**
 - [本地AI修改DOS纵向射击游戏：Popular AI的Windows教程介绍](cases/popularai-local-agent-rea-ghidra-dos-shooter-tutorial.md) — Popular AI介绍在Windows上用本地Agent、REA和Ghidra修改90年代DOS纵向射击游戏；未取得教程正文、游戏名或修改结果。 **[REA · 待验证]**
@@ -303,7 +306,7 @@
 - [Bloodborne_pc：Opus 参与重编译与图形优化的读者转述](cases/bloodborne-pc-opus-recompile-reader-report.md) — 父帖展示Jgamrot/Supermedo的Bloodborne_pc画面，回复者称Opus做了大量逆向优化；未核验架构与运行记录。 **[其他 AI 逆向 · 待验证]**
 - [T6 rollback：AI 辅助恢复旧游戏在线功能的社区讨论](cases/t6-ai-rollback-online-restoration-report.md) — 补审确认讨论目标为T6 rollback；回复者描述AI辅助社区逆向，但未提供代码、测试或发布。 **[其他 AI 逆向 · 待验证]**
 - [PD Saga：反编译后用自有资产重做的 Claude idea](cases/pd-saga-claude-remake-idea.md) — 读者建议将 PD Saga 交给 Claude 反编译，再用自选引擎和自有资产重做；没有实施报告。 **[其他 AI 逆向 · 待验证]**
-- [Skyrim：Codex 调整瑟拉娜召唤外观并排查 Mod 故障](cases/skyrim-codex-serana-mod-report.md) — 作者报告 Codex 修正召唤人物外观、吸血鬼形态、黑脸及随从噪声；引擎现代化逆向只是后续设想。 **[其他 AI 逆向 · 待验证]**
+- [Skyrim：Codex 调整瑟拉娜召唤外观并排查 Mod 故障](cases/skyrim-codex-serana-mod-report.md) — 旧作者报告Codex修复瑟拉娜与随从Mod；另一读者新提AI反编译后加入Morrowind式自定法术与悬浮，两人的引擎设想均未实现验证。 **[其他 AI 逆向 · 待验证]**
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
@@ -404,6 +407,11 @@
 
 ### 硬件与设备互通
 
+- [Educator 64 KERNAL：Scientific Brad称REA识别8KB ROM并重组哈希一致](cases/scientificbrad-educator64-kernal-rea-rom-reassembly.md) — 作者报告REA／Ghidra识别901246-01 ROM，反汇编后重组SHA256一致，并做PowerShell内运行的原生概念版；不是完整机器兼容性证明。 **[REA · 分析测试]**
+- [Marshall Stanmore II维修：Javier问Claude后仍无法提取固件](cases/javier-marshall-stanmore2-claude-firmware-extraction-attempt.md) — 坏音箱的固件读取受阻；Claude关于锁芯片、访问会擦除的答复未做硬件验证，不等于已确认无法修复。 **[其他 AI 逆向 · 进行中]**
+- [键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁](cases/mantikafasi-claude-keyboard-firmware-live-music-display.md) — 作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。 **[其他 AI 逆向 · 进行中]**
+- [家中两台电视盒：susu计划用REA重构，成功后再考虑出售](cases/susu-two-tv-boxes-rea-refactoring-idea.md) — 具体设备研究idea，作者表达想用REA与Claude改造两台自有盒子；尚无型号、系统、实现或商业结果。 **[REA · 待验证]**
+- [Apple Watch当Mac鼠标：Eikichi转述Claude辅助传感器与蓝牙研究](cases/eikichi-apple-watch-mac-mouse-claude-report.md) — 转述称手腕移动光标、点按点击、长按拖动和表冠滚动；源码、直接蓝牙与离线实现未验证，未确认具体开发者。 **[其他 AI 逆向 · 待验证]**
 - [Vino显示驱动：okey_amy转述AI辅助Rust净室逆向与停止要求](cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — 帖子称Vino以AI辅助Rust净室逆向实现显示驱动，并遭Synaptics停止要求；未取得通知原文、源码或兼容性测试。 **[其他 AI 逆向 · 待验证]**
 - [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
@@ -909,6 +917,11 @@
 
 ### 应用与客户端
 
+- [创作者流媒体站：Packing Protons称AI设计并接入REA／Ghidra需求研究](cases/packing-protons-rea-ghidra-creator-streaming-service.md) — 作者报告流媒体站已上线、建议可快速修改，并称支持REA／Ghidra功能需求；没有给具体被研究软件或实现日志。 **[REA · 进行中]**
+- [Murmur：Adam Harari称逆向做自用语音输入，使用Claude API](cases/adam-harari-murmur-voice-typing-rebuild.md) — 作者在Wispr Flow／Rhino讨论中称做了Murmur，免费使用但Claude API有少量费用；目标产品与重建方法不明，不能称完全离线。 **[其他 AI 逆向 · 待验证]**
+- [数控车削仿真：Asher建议REA研究后开发AI操作接口](cases/asher-cnc-simulation-rea-ai-control-interface-idea.md) — 面对computer-use四小时仍未完成的仿真任务，读者建议先逆向再做操作接口；未提供软件名、接口或实现。 **[REA · 待验证]**
+- [ARTEX-like工具隐私调查：Chrome Jesus称正用逆向Skill核查外传担忧](cases/chrome-jesus-artex-like-tool-rea-privacy-audit.md) — 作者宣布检查一款被描述为ARTEX-like的AI安全工具是否外传用户信息；没有发现、版本或日志，不把怀疑当证实。 **[未确认使用 REA · 进行中]**
+- [搜狗输入法禁网实验：ccy称ADB交给Agent，强调逆向调用复现而非盲目fuzz](cases/ccy-adb-agent-sogou-network-restriction-report.md) — 作者描述手机ADB交Agent及对搜狗输入法禁网，称AI对调用复现有帮助；没有日志证明数据读取指控或权限控制效果。 **[其他 AI 逆向 · 待验证]**
 - [抖音端侧推荐：WangNextDoor转述AI逆向的模型与行为预测线索](cases/douyin-ondevice-models-ai-reverse-secondary-report.md) — 转述称AI分析发现25个以上模型、50多个变量和预缓存；未提供原始分析，不能视作已证实的数据收集行为。 **[其他 AI 逆向 · 待验证]**
 - [macOS上的iPod重建：Alexis称Fable纠正旧Claude版本的行为失真](cases/alexis-ipod-macos-fable-behavior-fidelity-review.md) — 作者把一年前Claude写的iPod应用交Fable复查，报告修正屏幕、背光和音量交互并减少代码；未取得原固件对照或仓库。 **[其他 AI 逆向 · 进行中]**
 - [未具名杀毒软件：0xedgerunner称DeepSeek辅助逆向发现两项系统级写删问题](cases/0xedgerunner-deepseek-antivirus-system-write-delete-report.md) — 作者称人工在环研究12小时发现两项系统级任意写／删，约400M token花约2美元；没有软件版本、日志或厂商确认，费用也未核验。 **[其他 AI 逆向 · 待验证]**
@@ -1075,7 +1088,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；固定文档承认游戏与动态检查边界，boring_data另报REA配合游戏测试效果差，但没有指定游戏或可重跑日志。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；新增v0.5.0受限MCP与旧应用回归用途的转述，不覆盖旧游戏测试缺陷或等于端到端安全验证。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
@@ -1112,8 +1125,8 @@
 - [无广告社交网络：读者提出REA／AI重建常用平台的idea](cases/rea-ai-ad-free-social-network-rebuild-idea.md) — 一则西语帖建议用REA／AI重建常用社交网络，去掉推荐算法、广告、机器人和AI垃圾；没有选定平台或实现。 **[REA · 待验证]**
 - [Android手机安全审计：Forem提出Claude经ADB与jadx追查可疑App](cases/forem-android-adb-jadx-claude-audit-idea.md) — Forem给出先只读查包、权限、活动，再反编译可疑APK的提示；这是调查方案，不是已发现间谍软件或保证能取七天流量。 **[其他 AI 逆向 · 待验证]**
 - [GeForce Now：Angel请Codex定制他人逆向的客户端](cases/geforce-now-codex-client-tailoring-report.md) — Angel称闭源GeForce Now无法像Moonlight那样直接优化，因此找到第三方逆向版本再交Codex个性化；没有仓库或性能对照。 **[其他 AI 逆向 · 待验证]**
-- [HyperOS3 SystemHelper：MeT称GPT发现应用清单与SIM标识载荷](cases/hyperos3-systemhelper-gpt-app-telemetry-report.md) — MeT研究朋友的小米14，称GPT分析SystemHelper枚举应用及24小时使用情况，序列化含设备／SIM标识；未给APK、调用路径或流量证据。 **[其他 AI 逆向 · 待验证]**
-- [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](cases/hyperos3-security-component-gpt-screen-audit.md) — MeT称GPT读出应用列表、语音反诈与三秒屏幕片段云检测实现；没有触发条件或动态证据，不等于全时录屏或已证明泄露。 **[其他 AI 逆向 · 待验证]**
+- [HyperOS3 SystemHelper：MeT称GPT发现应用清单与SIM标识载荷](cases/hyperos3-systemhelper-gpt-app-telemetry-report.md) — MeT承认旧GPT分析未细查启用逻辑，区分SystemHelper与录屏组件；新增两版HTTP加密正文解读，仍无动态上报验证。 **[其他 AI 逆向 · 待验证]**
+- [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](cases/hyperos3-security-component-gpt-screen-audit.md) — MeT承认GPT旧分析未查启用逻辑；后续二手材料称反诈默认关闭、须授权。录屏能力、实际触发与SystemHelper仍须分开，未做动态验证。 **[其他 AI 逆向 · 待验证]**
 - [iPhone Superwhisper：Joe Dubs想用REA减少听写切换](cases/superwhisper-iphone-rea-keyboard-integration-idea.md) — Joe Dubs觉得iPhone听写体验笨重，询问REA能否研究键盘整合，减少切换与橙色提示；没有实现，也未证明系统隐私限制可绕过。 **[REA · 待验证]**
 - [Worldling5.2：Codex按手册重建Linux版WordPerfect5.1体验](cases/worldling52-codex-wordperfect51-linux-rebuild.md) — Lynn Cole用Go与Bubbletea重做童年DOS文字处理器，让Codex读规格教程；文档流程已入，UI与打印驱动仍在做，100%格式兼容只是目标。 **[其他 AI 逆向 · 进行中]**
 - [DuoDesk：Opus改造TwinDesk开源共享引擎，而非已证实逆向TeamViewer](cases/duodesk-opus-open-engine-desktop-sharing-report.md) — Movez称11个Opus Agent改约370文件；Ahmed Reza质疑逆向说法，固定README确认DuoDesk为Inuka Asith的TwinDesk分支、沿用GPL。功能和安全仍未运行核验。 **[其他 AI 逆向 · 待验证]**
@@ -1521,7 +1534,7 @@
 - [GarageBand：研究文件格式，用现有乐器自动作曲](cases/garageband-file-format.md) — Claude 分析音乐工程格式，作为本地音乐视频流程的一环。 **[其他 AI 逆向]**
 - [Apple Notes：迁移笔记、文件夹和图片到 Grape](cases/apple-notes-migration.md) — 研究笔记数据以实现跨产品导入。 **[其他 AI 逆向]**
 - [扑克桌面整理：重建牌桌管理工具](cases/poker-table-organizer.md) — 用 REA、Ghidra 和 Codex 重建整理扑克桌面的功能。 **[REA · 待验证]**
-- [Codex 电脑操作：研究浏览器能力并接入其他 Agent](cases/codex-cua-harness-research.md) — 研究 Codex 电脑操作和浏览器功能，以便其他模型在独立框架中使用。 **[REA · 进行中]**
+- [Codex 电脑操作：研究浏览器能力并接入其他 Agent](cases/codex-cua-harness-research.md) — 研究Codex电脑操作供其他模型使用；Magdiel新增安装CUA、让deep研究Codex方法后有效的自述，没有可复现接口或兼容日志。 **[REA · 进行中]**
 - [Pump.fun：并行 Agent 研究发币平台机制](cases/pumpfun-reconstruction-report.md) — Shaw在10月28日报97.6%合约集进度；晚间固定README改按函数窗口列98.0%，原字节与归一化匹配分开，3/5 meaningful ELF相同。不是整套合约源码恢复或安全部署，前后端功能仍未完成；保留早期REA与Musebook的分别归因。 **[REA · 待验证]**
 - [远程桌面客户端：用 AI 逆向做数据采集监测的 idea](cases/remote-client-privacy-monitor-idea.md) — 在 ToDesk 等远程桌面客户端场景，提出逆向分析并监测数据采集。 **[未确认使用 REA · 待验证]**
 - [稿定设计：为固定封面制作自己的工作台](cases/gaoding-cover-workbench.md) — 已用 Codex + Fabric.js 做封面工具，计划再用 REA 研究稿定的界面与逻辑。 **[REA · 进行中]**
@@ -1685,6 +1698,11 @@
 
 ### 算法与功能重建
 
+- [1997年亚马逊股东信：Mr. Systems称提炼七条Claude四阶段策略提示](cases/mr-systems-bezos-1997-letter-claude-strategy-prompts.md) — 以公开股东信为参考，把管理思路转写成七条Claude提示；没有完整提示或效果对照，不是软件反编译。 **[其他 AI 逆向 · 待验证]**
+- [自己90天X数据：用Grok与Claude反推有效钩子，再换题对照的idea](cases/grok-claude-own-x-winners-hook-reconstruction-idea.md) — 建议按每曝光点赞率找前10%帖子，提炼钩子、长度与时机，换新话题发两周再比较；没有报告实际增长。 **[其他 AI 逆向 · 待验证]**
+- [blender-skills的Image Match：从图像推相机与几何，再截图校准](cases/blender-skills-image-match-camera-geometry-agent-workflow.md) — LiLens介绍94技能套件中的参考图重建：Agent经Blender MCP建模、推透视并比图；数量、MIT与自动化能力未做源码或实跑核验。 **[其他 AI 逆向 · 相关项目]**
+- [finnardley动画风格提示：使用者报告完成新剧本渲染，也有切表情与遮挡缺陷](cases/finnardley-animation-style-prompt-user-render-feedback.md) — 使用者认为风格蓝图比逐帧照抄更可复用，报告表情过渡生硬和家具后角色图裁切；约一小时是条件假设，不是实耗。 **[其他 AI 逆向 · 分析测试]**
+- [单张街拍到Blender房屋：LiLens转述Claude推几何，不能据此认定可建造](cases/lilens-single-photo-house-claude-blender-reconstruction-report.md) — 转述以2.04米门作尺度、110毫米窗框与23个屋顶构件的房屋重建；隐藏立面属推断，没有结构设计或工程认证。 **[其他 AI 逆向 · 待验证]**
 - [1118帧重建参考视频：naresh用Claude、GPT Sol与ffmpeg的三天实验](cases/naresh-antrofrog-video-1118-frame-ai-reconstruction.md) — naresh称Claude写脚本拆解antrofrog视频，GPT Sol逐帧重生再用ffmpeg拼接；准确度是自评，没有连续性指标或独立对照。 **[其他 AI 逆向 · 分析测试]**
 - [同领域五条Reels：先提切点，再让Claude匹配节奏的idea](cases/rea-video-five-reels-niche-cut-rhythm-idea.md) — Ai Creator Library建议用rea-video分析五条热门短视频的切点和平均镜头长度，让Claude参考领域节奏；没有实施或效果报告。 **[其他 AI 逆向 · 待验证]**
 - [zlib的Adler-32：Ahmet Göker用REA对照常量、汇编与六组输入](cases/ahmet-goker-rea-ghidra-zlib-adler32-crosscheck.md) — 作者报告区分同名转发与计算函数，以65521／5552核对源码，再测六组输入，并发现Ghidra的void返回类型误判。 **[REA · 分析测试]**

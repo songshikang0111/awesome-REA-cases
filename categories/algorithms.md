@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [1997年亚马逊股东信：Mr. Systems称提炼七条Claude四阶段策略提示](../cases/mr-systems-bezos-1997-letter-claude-strategy-prompts.md) — 以公开股东信为参考，把管理思路转写成七条Claude提示；没有完整提示或效果对照，不是软件反编译。 **[其他 AI 逆向 · 待验证]**
+- [自己90天X数据：用Grok与Claude反推有效钩子，再换题对照的idea](../cases/grok-claude-own-x-winners-hook-reconstruction-idea.md) — 建议按每曝光点赞率找前10%帖子，提炼钩子、长度与时机，换新话题发两周再比较；没有报告实际增长。 **[其他 AI 逆向 · 待验证]**
+- [blender-skills的Image Match：从图像推相机与几何，再截图校准](../cases/blender-skills-image-match-camera-geometry-agent-workflow.md) — LiLens介绍94技能套件中的参考图重建：Agent经Blender MCP建模、推透视并比图；数量、MIT与自动化能力未做源码或实跑核验。 **[其他 AI 逆向 · 相关项目]**
+- [finnardley动画风格提示：使用者报告完成新剧本渲染，也有切表情与遮挡缺陷](../cases/finnardley-animation-style-prompt-user-render-feedback.md) — 使用者认为风格蓝图比逐帧照抄更可复用，报告表情过渡生硬和家具后角色图裁切；约一小时是条件假设，不是实耗。 **[其他 AI 逆向 · 分析测试]**
+- [单张街拍到Blender房屋：LiLens转述Claude推几何，不能据此认定可建造](../cases/lilens-single-photo-house-claude-blender-reconstruction-report.md) — 转述以2.04米门作尺度、110毫米窗框与23个屋顶构件的房屋重建；隐藏立面属推断，没有结构设计或工程认证。 **[其他 AI 逆向 · 待验证]**
 - [1118帧重建参考视频：naresh用Claude、GPT Sol与ffmpeg的三天实验](../cases/naresh-antrofrog-video-1118-frame-ai-reconstruction.md) — naresh称Claude写脚本拆解antrofrog视频，GPT Sol逐帧重生再用ffmpeg拼接；准确度是自评，没有连续性指标或独立对照。 **[其他 AI 逆向 · 分析测试]**
 - [同领域五条Reels：先提切点，再让Claude匹配节奏的idea](../cases/rea-video-five-reels-niche-cut-rhythm-idea.md) — Ai Creator Library建议用rea-video分析五条热门短视频的切点和平均镜头长度，让Claude参考领域节奏；没有实施或效果报告。 **[其他 AI 逆向 · 待验证]**
 - [zlib的Adler-32：Ahmet Göker用REA对照常量、汇编与六组输入](../cases/ahmet-goker-rea-ghidra-zlib-adler32-crosscheck.md) — 作者报告区分同名转发与计算函数，以65521／5552核对源码，再测六组输入，并发现Ghidra的void返回类型误判。 **[REA · 分析测试]**

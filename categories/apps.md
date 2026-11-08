@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [创作者流媒体站：Packing Protons称AI设计并接入REA／Ghidra需求研究](../cases/packing-protons-rea-ghidra-creator-streaming-service.md) — 作者报告流媒体站已上线、建议可快速修改，并称支持REA／Ghidra功能需求；没有给具体被研究软件或实现日志。 **[REA · 进行中]**
+- [Murmur：Adam Harari称逆向做自用语音输入，使用Claude API](../cases/adam-harari-murmur-voice-typing-rebuild.md) — 作者在Wispr Flow／Rhino讨论中称做了Murmur，免费使用但Claude API有少量费用；目标产品与重建方法不明，不能称完全离线。 **[其他 AI 逆向 · 待验证]**
+- [数控车削仿真：Asher建议REA研究后开发AI操作接口](../cases/asher-cnc-simulation-rea-ai-control-interface-idea.md) — 面对computer-use四小时仍未完成的仿真任务，读者建议先逆向再做操作接口；未提供软件名、接口或实现。 **[REA · 待验证]**
+- [ARTEX-like工具隐私调查：Chrome Jesus称正用逆向Skill核查外传担忧](../cases/chrome-jesus-artex-like-tool-rea-privacy-audit.md) — 作者宣布检查一款被描述为ARTEX-like的AI安全工具是否外传用户信息；没有发现、版本或日志，不把怀疑当证实。 **[未确认使用 REA · 进行中]**
+- [搜狗输入法禁网实验：ccy称ADB交给Agent，强调逆向调用复现而非盲目fuzz](../cases/ccy-adb-agent-sogou-network-restriction-report.md) — 作者描述手机ADB交Agent及对搜狗输入法禁网，称AI对调用复现有帮助；没有日志证明数据读取指控或权限控制效果。 **[其他 AI 逆向 · 待验证]**
 - [抖音端侧推荐：WangNextDoor转述AI逆向的模型与行为预测线索](../cases/douyin-ondevice-models-ai-reverse-secondary-report.md) — 转述称AI分析发现25个以上模型、50多个变量和预缓存；未提供原始分析，不能视作已证实的数据收集行为。 **[其他 AI 逆向 · 待验证]**
 - [macOS上的iPod重建：Alexis称Fable纠正旧Claude版本的行为失真](../cases/alexis-ipod-macos-fable-behavior-fidelity-review.md) — 作者把一年前Claude写的iPod应用交Fable复查，报告修正屏幕、背光和音量交互并减少代码；未取得原固件对照或仓库。 **[其他 AI 逆向 · 进行中]**
 - [未具名杀毒软件：0xedgerunner称DeepSeek辅助逆向发现两项系统级写删问题](../cases/0xedgerunner-deepseek-antivirus-system-write-delete-report.md) — 作者称人工在环研究12小时发现两项系统级任意写／删，约400M token花约2美元；没有软件版本、日志或厂商确认，费用也未核验。 **[其他 AI 逆向 · 待验证]**
@@ -168,7 +173,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](../cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](../cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；固定文档承认游戏与动态检查边界，boring_data另报REA配合游戏测试效果差，但没有指定游戏或可重跑日志。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；新增v0.5.0受限MCP与旧应用回归用途的转述，不覆盖旧游戏测试缺陷或等于端到端安全验证。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](../cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](../cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](../cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
@@ -205,8 +210,8 @@
 - [无广告社交网络：读者提出REA／AI重建常用平台的idea](../cases/rea-ai-ad-free-social-network-rebuild-idea.md) — 一则西语帖建议用REA／AI重建常用社交网络，去掉推荐算法、广告、机器人和AI垃圾；没有选定平台或实现。 **[REA · 待验证]**
 - [Android手机安全审计：Forem提出Claude经ADB与jadx追查可疑App](../cases/forem-android-adb-jadx-claude-audit-idea.md) — Forem给出先只读查包、权限、活动，再反编译可疑APK的提示；这是调查方案，不是已发现间谍软件或保证能取七天流量。 **[其他 AI 逆向 · 待验证]**
 - [GeForce Now：Angel请Codex定制他人逆向的客户端](../cases/geforce-now-codex-client-tailoring-report.md) — Angel称闭源GeForce Now无法像Moonlight那样直接优化，因此找到第三方逆向版本再交Codex个性化；没有仓库或性能对照。 **[其他 AI 逆向 · 待验证]**
-- [HyperOS3 SystemHelper：MeT称GPT发现应用清单与SIM标识载荷](../cases/hyperos3-systemhelper-gpt-app-telemetry-report.md) — MeT研究朋友的小米14，称GPT分析SystemHelper枚举应用及24小时使用情况，序列化含设备／SIM标识；未给APK、调用路径或流量证据。 **[其他 AI 逆向 · 待验证]**
-- [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](../cases/hyperos3-security-component-gpt-screen-audit.md) — MeT称GPT读出应用列表、语音反诈与三秒屏幕片段云检测实现；没有触发条件或动态证据，不等于全时录屏或已证明泄露。 **[其他 AI 逆向 · 待验证]**
+- [HyperOS3 SystemHelper：MeT称GPT发现应用清单与SIM标识载荷](../cases/hyperos3-systemhelper-gpt-app-telemetry-report.md) — MeT承认旧GPT分析未细查启用逻辑，区分SystemHelper与录屏组件；新增两版HTTP加密正文解读，仍无动态上报验证。 **[其他 AI 逆向 · 待验证]**
+- [HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告](../cases/hyperos3-security-component-gpt-screen-audit.md) — MeT承认GPT旧分析未查启用逻辑；后续二手材料称反诈默认关闭、须授权。录屏能力、实际触发与SystemHelper仍须分开，未做动态验证。 **[其他 AI 逆向 · 待验证]**
 - [iPhone Superwhisper：Joe Dubs想用REA减少听写切换](../cases/superwhisper-iphone-rea-keyboard-integration-idea.md) — Joe Dubs觉得iPhone听写体验笨重，询问REA能否研究键盘整合，减少切换与橙色提示；没有实现，也未证明系统隐私限制可绕过。 **[REA · 待验证]**
 - [Worldling5.2：Codex按手册重建Linux版WordPerfect5.1体验](../cases/worldling52-codex-wordperfect51-linux-rebuild.md) — Lynn Cole用Go与Bubbletea重做童年DOS文字处理器，让Codex读规格教程；文档流程已入，UI与打印驱动仍在做，100%格式兼容只是目标。 **[其他 AI 逆向 · 进行中]**
 - [DuoDesk：Opus改造TwinDesk开源共享引擎，而非已证实逆向TeamViewer](../cases/duodesk-opus-open-engine-desktop-sharing-report.md) — Movez称11个Opus Agent改约370文件；Ahmed Reza质疑逆向说法，固定README确认DuoDesk为Inuka Asith的TwinDesk分支、沿用GPL。功能和安全仍未运行核验。 **[其他 AI 逆向 · 待验证]**
@@ -614,7 +619,7 @@
 - [GarageBand：研究文件格式，用现有乐器自动作曲](../cases/garageband-file-format.md) — Claude 分析音乐工程格式，作为本地音乐视频流程的一环。 **[其他 AI 逆向]**
 - [Apple Notes：迁移笔记、文件夹和图片到 Grape](../cases/apple-notes-migration.md) — 研究笔记数据以实现跨产品导入。 **[其他 AI 逆向]**
 - [扑克桌面整理：重建牌桌管理工具](../cases/poker-table-organizer.md) — 用 REA、Ghidra 和 Codex 重建整理扑克桌面的功能。 **[REA · 待验证]**
-- [Codex 电脑操作：研究浏览器能力并接入其他 Agent](../cases/codex-cua-harness-research.md) — 研究 Codex 电脑操作和浏览器功能，以便其他模型在独立框架中使用。 **[REA · 进行中]**
+- [Codex 电脑操作：研究浏览器能力并接入其他 Agent](../cases/codex-cua-harness-research.md) — 研究Codex电脑操作供其他模型使用；Magdiel新增安装CUA、让deep研究Codex方法后有效的自述，没有可复现接口或兼容日志。 **[REA · 进行中]**
 - [Pump.fun：并行 Agent 研究发币平台机制](../cases/pumpfun-reconstruction-report.md) — Shaw在10月28日报97.6%合约集进度；晚间固定README改按函数窗口列98.0%，原字节与归一化匹配分开，3/5 meaningful ELF相同。不是整套合约源码恢复或安全部署，前后端功能仍未完成；保留早期REA与Musebook的分别归因。 **[REA · 待验证]**
 - [远程桌面客户端：用 AI 逆向做数据采集监测的 idea](../cases/remote-client-privacy-monitor-idea.md) — 在 ToDesk 等远程桌面客户端场景，提出逆向分析并监测数据采集。 **[未确认使用 REA · 待验证]**
 - [稿定设计：为固定封面制作自己的工作台](../cases/gaoding-cover-workbench.md) — 已用 Codex + Fabric.js 做封面工具，计划再用 REA 研究稿定的界面与逻辑。 **[REA · 进行中]**

@@ -1,5 +1,293 @@
 [
   {
+    "id": "packing-protons-rea-ghidra-creator-streaming-service",
+    "title": "创作者流媒体站：Packing Protons称AI设计并接入REA／Ghidra需求研究",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "作者报告流媒体站已上线、建议可快速修改，并称支持REA／Ghidra功能需求；没有给具体被研究软件或实现日志。",
+    "description": "2026年11月8日00:10:45（北京时间），Packing Protons（@PackingProtons）向几位内容创作者介绍自己的流媒体站，称站点由创作者拥有、AI设计且已上线，希望承接不适合YouTube的节目和新想法。作者说建议可以立即落实，并称已为新功能需求启用REA／Ghidra。\n\n这是围绕具体站点的开发与逆向工具接入自述，不是已证明重建某个流媒体后端。没有公开被研究的应用、功能、模型、代码、工具输出或播放测试；立即修改不是实测响应时间。原帖短链未取得可确认目的地址，不能据此确认所有权、上线可用性或支付／版权安排。补取只确认作者与正文，未访问服务、安装工具或运行目标；REA归因为作者说法。",
+    "sources": [{"label": "Packing Protons的流媒体站上线与REA／Ghidra自述，2026-11-08 00:10:45北京时间", "url": "https://x.com/i/status/2119100250518442148"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、9浏览、0转发；上线与工具接入未独立测试。"],
+    "en": {
+      "title": "A creator streaming site: Packing Protons reports AI design and REA/Ghidra support for feature requests",
+      "summary": "The author reports a live streaming site with rapid changes and REA/Ghidra-enabled feature requests, without identifying investigated software or implementation logs.",
+      "description": "At 00:10:45 Beijing time on November 8, 2026, Packing Protons (@PackingProtons) introduces a personal streaming site to several creators, calling it creator-owned, AI-designed and live. The author invites shows and ideas that may not suit YouTube, says suggested changes can be implemented immediately, and describes REA/Ghidra as enabled for new feature requests.\n\nThis is a specific site's development and reverse-engineering-tool integration report, not demonstrated reconstruction of a streaming backend. No investigated app, feature, model, code, tool output or playback test is supplied; immediate changes are not a measured response time. A confirmed destination for the post's short link was not obtained, so ownership, availability, payment and rights arrangements are not established. Retrieval confirms author and text only. No service was accessed, tool installed or target run here. REA attribution is the author's claim.",
+      "metadata": ["Sealed candidate: 0 likes, 9 views, 0 reposts. Availability and tool integration were not independently tested."],
+      "source_labels": ["Packing Protons reports a live streaming site and REA/Ghidra support, November 8, 2026 at 00:10:45 Beijing time"]
+    }
+  },
+  {
+    "id": "openversus-claude-decompilation-attribution-allegation",
+    "title": "OpenVersus争议：FGCALERT转述Claude反编译与未署名复制功能的指控",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "转述指控OVS用Claude分析MVSI、Beta+和FDAVersus构建并复制功能；未核验原始证据、代码对比或项目方回应。",
+    "description": "2026年11月8日00:18:00（北京时间），FGCALERT（@fgcalert）发布针对OpenVersus（OVS）的争议消息，称一名其认为可信的内部人士指控OVS用Claude AI反编译MVSI、Beta+与FDAVersus的构建，未署名复制功能，并要求团队透明回应。三个名称是同一指控涉及的输入项目，不据此拆成三个已完成重建成果。\n\n本合集补取确认署名及一张图片附件，未读取截图细节、取得内部人士身份、各项目版本、反编译输出、代码差异、授权条款或OVS回应。所谓verified insider是传播者的评价，不是本合集认证。无法确认是否真的使用Claude、哪些功能被复制、是否缺署名或构成侵权；这是具名AI逆向争议的二手未核验记录，不是对任何一方的事实裁定。未提REA，未下载或运行游戏。",
+    "sources": [{"label": "FGCALERT关于OVS使用Claude的指控转述，2026-11-08 00:18北京时间", "url": "https://x.com/i/status/2119102074667290819"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存58赞、4531浏览、4转发；传播不验证指控。"],
+    "en": {
+      "title": "OpenVersus dispute: FGCALERT relays allegations of Claude decompilation and uncredited feature copying",
+      "summary": "A retelling alleges OVS used Claude on MVSI, Beta+ and FDAVersus builds and copied features. Original evidence, code comparisons and a project response were not verified.",
+      "description": "At 00:18:00 Beijing time on November 8, 2026, FGCALERT (@fgcalert) posts allegations concerning OpenVersus (OVS). A person the poster calls a verified insider allegedly says OVS used Claude AI to decompile MVSI, Beta+ and FDAVersus builds and copied features without credit. The post calls for transparency and a response. The three names are inputs in one allegation, not three demonstrated reconstruction outcomes.\n\nRetrieval confirms attribution and an image attachment, not the screenshot's details, the insider's identity, project revisions, decompiler output, code differences, license terms or an OVS response. Verified insider is the poster's characterization, not authentication by this collection. Claude use, copied features, missing credit and infringement are not established. This is an unverified second-hand record of a named AI-reversing dispute, not a factual ruling against either side. REA is unmentioned. No game was downloaded or run here.",
+      "metadata": ["Sealed candidate: 58 likes, 4,531 views, 4 reposts. Circulation does not validate allegations."],
+      "source_labels": ["FGCALERT relays allegations about OVS and Claude, November 8, 2026 at 00:18 Beijing time"]
+    }
+  },
+  {
+    "id": "scientificbrad-educator64-kernal-rea-rom-reassembly",
+    "title": "Educator 64 KERNAL：Scientific Brad称REA识别8KB ROM并重组哈希一致",
+    "category": "hardware", "rea": "REA", "status": "analysis-test",
+    "summary": "作者报告REA／Ghidra识别901246-01 ROM，反汇编后重组SHA256一致，并做PowerShell内运行的原生概念版；不是完整机器兼容性证明。",
+    "description": "2026年11月8日00:20:38（北京时间），Scientific Brad（@ScientificBrad）报告把标为901246-01的8KB ROM dump交给REA与Ghidra，识别为1983年Commodore 4064（Educator 64）的KERNAL，继而反汇编、重组，并称SHA-256完全一致。作者还称重建了可在PowerShell中运行的原生可执行文件，帖带antigravity标签，未据此确定具体模型。\n\n目标是理解并重现老机器ROM行为。重组哈希相同即使属实，也仅针对输入ROM与重组字节，不证明原生程序同样字节匹配、完整操作系统移植或Educator 64硬件兼容。补取有两张图片，alt文字分别描述代码和PowerShell中的C64概念验证；未观看图片、取得ROM、哈希值、源码、可执行文件、测试向量或外设验证。\n\n8KB、1983年和匹配结论均为作者口径，没有独立查验ROM身份或复现。只保留文字与附件描述，不分发ROM，未执行目标代码。",
+    "sources": [{"label": "Scientific Brad的8KB Educator64 ROM识别、重组与原生概念版报告，2026-11-08 00:20:38北京时间", "url": "https://x.com/i/status/2119102738021928969"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、25浏览、0转发；SHA256匹配为自述，未取得哈希或文件。"],
+    "en": {
+      "title": "Educator 64 KERNAL: Scientific Brad reports REA identification of an 8KB ROM and hash-matching reassembly",
+      "summary": "The author reports REA/Ghidra identification of ROM 901246-01, SHA-256-matching reassembly and a native proof of concept running in PowerShell, not full machine compatibility.",
+      "description": "At 00:20:38 Beijing time on November 8, 2026, Scientific Brad (@ScientificBrad) reports giving an 8KB ROM dump marked 901246-01 to REA and Ghidra, identifying it as the 1983 Commodore 4064 (Educator 64) KERNAL, disassembling and reassembling it with an exact SHA-256 match. The author also claims a rebuilt native executable running in PowerShell. An antigravity hashtag does not establish the specific model used.\n\nThe goal is understanding and reproducing an old machine's ROM behavior. Even a genuine reassembly hash match concerns the input ROM and reassembled bytes, not byte equality of the native program, a full OS port or Educator 64 hardware compatibility. Retrieval shows two images whose alt text describes code and a C64 proof of concept in PowerShell. The images were not viewed, and ROM data, hash values, source, executable, test vectors and peripheral checks were not obtained.\n\nThe 8KB size, 1983 identity and match are author-reported, without independent ROM identification or reproduction. Only text and attachment descriptions were reviewed. No ROM is distributed and no target code was run here.",
+      "metadata": ["Sealed candidate: 0 likes, 25 views, 0 reposts. SHA-256 equality is author-reported; hashes and files were not obtained."],
+      "source_labels": ["Scientific Brad reports identifying and reassembling an 8KB Educator 64 ROM and a native proof of concept, November 8, 2026 at 00:20:38 Beijing time"]
+    }
+  },
+  {
+    "id": "adam-harari-murmur-voice-typing-rebuild",
+    "title": "Murmur：Adam Harari称逆向做自用语音输入，使用Claude API",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者在Wispr Flow／Rhino讨论中称做了Murmur，免费使用但Claude API有少量费用；目标产品与重建方法不明，不能称完全离线。",
+    "description": "2026年11月8日00:43:59（北京时间），Adam Harari（@AdamHarari）回复Noah Kagan的语音输入介绍，称自己逆向并创建了名为Murmur的版本，可以免费使用，但使用Claude API有少量成本。补取父帖为11月5日23:17:17的Wispr Flow每年144美元、Rhino一次12美元与Mac本地输入宣传；这是较早的用途背景，不能确认作者逆向的就是其中某一个产品。\n\n记录目标为自用语音输入替代品。Claude API是作者披露的产品组成，不等于已确认Claude执行了反编译；未说明AI参与研究的具体环节，未提REA。没有仓库、平台版本、录音处理链、隐私策略、费用账单、精度或延迟测试。不能继承父帖100%本地的宣传，也不能把少量费用写成零成本或给出单价。本合集未运行Murmur或向API发送音频，保留未核验自述。",
+    "sources": [{"label": "Adam Harari的Murmur自述，2026-11-08 00:43:59北京时间", "url": "https://x.com/i/status/2119108616401674747"}, {"label": "补充父帖：Wispr Flow／Rhino语音输入介绍，2026-11-05 23:17:17北京时间", "url": "https://x.com/i/status/2118362020085211271"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、10浏览、0转发；父帖价格不是Murmur价格实测。"],
+    "en": {
+      "title": "Murmur: Adam Harari reports a reverse-engineered personal voice-typing tool using Claude's API",
+      "summary": "In a Wispr Flow/Rhino discussion, the author reports Murmur as free to use with small Claude API costs. The reference product and reconstruction method are unclear; fully offline use is not established.",
+      "description": "At 00:43:59 Beijing time on November 8, 2026, Adam Harari (@AdamHarari) replies to Noah Kagan's voice-typing introduction, saying he reverse-engineered and created his own version called Murmur, usable for free with a small cost for Claude's API. The retrieved parent is a November 5, 23:17:17 promotion contrasting Wispr Flow at $144 per year with Rhino at $12 once and advertising local Mac input. That earlier context explains the use case but does not establish which product, if either, was reverse-engineered.\n\nThe target is a personal voice-typing alternative. Claude's API is a disclosed component, not confirmation that Claude performed decompilation. The specific AI-assisted research stage is unspecified, and REA is unmentioned. No repository, platform revision, recording pipeline, privacy policy, invoice, accuracy or latency test is supplied. The parent's 100%-local claim cannot be inherited, nor can small costs become zero costs or an invented unit price. Murmur was not run and no audio was sent to an API here. Kept as an unverified account.",
+      "metadata": ["Sealed candidate: 0 likes, 10 views, 0 reposts. The parent's prices are not measurements of Murmur's costs."],
+      "source_labels": ["Adam Harari reports Murmur, November 8, 2026 at 00:43:59 Beijing time", "Supplementary parent: Wispr Flow/Rhino voice-typing promotion, November 5, 2026 at 23:17:17 Beijing time"]
+    }
+  },
+  {
+    "id": "asher-cnc-simulation-rea-ai-control-interface-idea",
+    "title": "数控车削仿真：Asher建议REA研究后开发AI操作接口",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "面对computer-use四小时仍未完成的仿真任务，读者建议先逆向再做操作接口；未提供软件名、接口或实现。",
+    "description": "2026年11月8日01:04:33（北京时间），Asher LIn（@kubayaxi89）回复龙克星，问能否先用REA逆向，再自行开发AI操作接口。补取11月7日23:26:42父帖：龙克星接到数控车削机床仿真单，没找到Skill／MCP，只能用computer use，自称已跑四小时、消耗Pro周额度50%仍未完成。父帖是任务背景，不是Asher的耗时或已执行逆向。\n\n这个idea要解决图形界面操作慢的问题，通过研究仿真软件构建可调用接口。两帖都没有软件、机床型号、具体操作、工程文件、API设计、代码或结果。四小时和50%是父帖作者自报，不支持推算REA可节省多少。未实施接口或运行机床，本合集不把仿真建议作为实际机械操作或安全验证。",
+    "sources": [{"label": "Asher的REA／数控仿真接口idea，2026-11-08 01:04:33北京时间", "url": "https://x.com/i/status/2119113788465320004"}, {"label": "补充父帖：龙克星的数控车削仿真computer-use受阻报告，2026-11-07 23:26:42北京时间", "url": "https://x.com/i/status/2119089163610017959"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存4赞、1397浏览、0转发；四小时及50%额度属于父帖背景。"],
+    "en": {
+      "title": "CNC turning simulation: Asher proposes REA research followed by an AI control interface",
+      "summary": "After a computer-use task reportedly remained unfinished for four hours, a reader proposes reverse engineering an interface. No simulator name, API or implementation is supplied.",
+      "description": "At 01:04:33 Beijing time on November 8, 2026, Asher LIn (@kubayaxi89) replies to 龙克星, asking whether REA could first investigate the software and then support a custom AI control interface. The retrieved November 7, 23:26:42 parent says 龙克星 accepted a CNC turning-machine simulation job, found no skill/MCP, used computer use and spent four hours and 50% of a Pro weekly quota without finishing. This is background, not Asher's effort or evidence of executed reversing.\n\nThe idea addresses slow graphical operation by researching the simulator and building a callable interface. Neither post names the software, machine, actions, project file, API design, code or outcome. Four hours and 50% are the parent's author-reported figures and do not establish savings from REA. No interface was implemented or machine operated here; a simulation suggestion is not physical-machine control or safety validation.",
+      "metadata": ["Sealed candidate: 4 likes, 1,397 views, 0 reposts. Four hours and 50% quota are parent-post context."],
+      "source_labels": ["Asher's REA/CNC-simulator interface idea, November 8, 2026 at 01:04:33 Beijing time", "Supplementary parent: 龙克星 reports a stalled CNC simulation computer-use task, November 7, 2026 at 23:26:42 Beijing time"]
+    }
+  },
+  {
+    "id": "chrome-jesus-artex-like-tool-rea-privacy-audit",
+    "title": "ARTEX-like工具隐私调查：Chrome Jesus称正用逆向Skill核查外传担忧",
+    "category": "apps", "rea": "unknown", "status": "in-progress",
+    "summary": "作者宣布检查一款被描述为ARTEX-like的AI安全工具是否外传用户信息；没有发现、版本或日志，不把怀疑当证实。",
+    "description": "2026年11月8日01:05:42（北京时间），Chrome Jesus（@manipulate）回复一条AI安全工具消息，称正在运行自己的reverse engineer anything Skill，以查清是否还从用户处窃取其他东西并外传。补取父帖为11月7日09:21:25的@IceSolst消息，只把目标描述为ARTEX-like、预置数千exploit，并未提供可确认的项目名称或版本。\n\n用途是审计AI安全工具的数据处理，作者的正在运行说法支持进行中而非发现完成。Skill名称不足确认就是morluto/rea，归unknown。父帖的攻击能力和候选的窃取措辞都未得到样本、源码、流量、端点或分析记录支持，不构成数据外传或国别归因结论，也不与另有来源的ARTEX项目强行合并。未下载、执行工具或接触用户数据。",
+    "sources": [{"label": "Chrome Jesus宣布逆向Skill隐私检查，2026-11-08 01:05:42北京时间", "url": "https://x.com/i/status/2119114079876907394"}, {"label": "补充父帖：ARTEX-like工具宣传，2026-11-07 09:21:25北京时间", "url": "https://x.com/i/status/2118876442435940683"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存1赞、100浏览、0转发；尚未报告外传发现。"],
+    "en": {
+      "title": "An ARTEX-like tool privacy investigation: Chrome Jesus reports a reversing-skill check of suspected uploads",
+      "summary": "The author announces research into possible user-data uploads by an AI security tool described as ARTEX-like. Findings, revisions and logs are absent; suspicion is not proof.",
+      "description": "At 01:05:42 Beijing time on November 8, 2026, Chrome Jesus (@manipulate) replies to an AI-security-tool post, saying a personal reverse engineer anything skill is running to determine what else it might steal from users and send away. The retrieved parent is @IceSolst's November 7, 09:21:25 message, describing the tool only as ARTEX-like with thousands of prebuilt exploits, without a confirmed project name or revision.\n\nThe purpose is auditing data handling in an AI security tool. Running is the author's account of work in progress, not a completed finding. The skill name does not identify morluto/rea, so REA use is unknown. Neither the parent's attack-capability claims nor the candidate's theft wording is supported by a sample, source, traffic, endpoints or analysis logs. No data-exfiltration or national-attribution conclusion follows, and this is not forcibly merged with separately sourced ARTEX work. No tool was downloaded or executed and no user data accessed here.",
+      "metadata": ["Sealed candidate: 1 like, 100 views, 0 reposts. No upload finding is reported."],
+      "source_labels": ["Chrome Jesus announces a reversing-skill privacy check, November 8, 2026 at 01:05:42 Beijing time", "Supplementary parent: ARTEX-like tool promotion, November 7, 2026 at 09:21:25 Beijing time"]
+    }
+  },
+  {
+    "id": "mr-systems-bezos-1997-letter-claude-strategy-prompts",
+    "title": "1997年亚马逊股东信：Mr. Systems称提炼七条Claude四阶段策略提示",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "以公开股东信为参考，把管理思路转写成七条Claude提示；没有完整提示或效果对照，不是软件反编译。",
+    "description": "2026年11月8日01:11:01（北京时间），Mr. Systems（@AISystems_hq）称逆向Jeff Bezos的1997年Amazon股东信，做成七条AI提示，每条包含四个阶段，让Claude充当单人策略团队。这里的目标是从公开文本抽取并转写决策方法，而非恢复二进制、私有模型或亚马逊内部算法。\n\n补取确认署名及图片附件，未读取完整七条提示、四阶段内容或取得策略输出、对照实验。七与四是作者报告的结构数量，不代表验证覆盖率；未说明用哪个AI分析原信，Claude是提示的使用对象。作为面向AI的具体规则重建方案保留，未提REA，未验证经营收益、正确性或真的替代团队。",
+    "sources": [{"label": "Mr. Systems的1997股东信到Claude提示自述，2026-11-08 01:11:01北京时间", "url": "https://x.com/i/status/2119115418375970946"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存1赞、430浏览、0转发；七提示、四阶段为作者口径。"],
+    "en": {
+      "title": "Amazon's 1997 shareholder letter: Mr. Systems reports seven four-phase Claude strategy prompts",
+      "summary": "A public shareholder letter is the reference for seven Claude prompts translating management ideas into rules. Complete prompts and outcome comparisons are absent; this is not software decompilation.",
+      "description": "At 01:11:01 Beijing time on November 8, 2026, Mr. Systems (@AISystems_hq) says Jeff Bezos's 1997 Amazon shareholder letter was reverse-engineered into seven AI prompts, each with four phases, to make Claude a one-person strategy team. The target is extracting and translating decision methods from public text, not recovering a binary, private model or Amazon's internal algorithm.\n\nRetrieval confirms attribution and an image attachment. The complete seven prompts, four-phase contents, strategy outputs and controlled comparisons were not obtained. Seven and four are reported structural counts, not verification coverage. No AI used to analyze the letter is named; Claude is the intended prompt user. Retained as a concrete AI-oriented rule-reconstruction proposal. REA is unmentioned. Business returns, correctness and team replacement were not verified.",
+      "metadata": ["Sealed candidate: 1 like, 430 views, 0 reposts. Seven prompts and four phases are author-reported."],
+      "source_labels": ["Mr. Systems reports turning the 1997 shareholder letter into Claude prompts, November 8, 2026 at 01:11:01 Beijing time"]
+    }
+  },
+  {
+    "id": "javier-marshall-stanmore2-claude-firmware-extraction-attempt",
+    "title": "Marshall Stanmore II维修：Javier问Claude后仍无法提取固件",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "坏音箱的固件读取受阻；Claude关于锁芯片、访问会擦除的答复未做硬件验证，不等于已确认无法修复。",
+    "description": "2026年11月8日01:41:51（北京时间），Javier Castaño Pérez（@JavierCP95）说自己有一台坏掉的Marshall Stanmore II，无法取出固件，询问其他研究者是否能帮忙。他转述Claude称芯片被写入并锁定，尝试访问会擦除，所以不可能读取。目标是为修理自有音箱研究固件，当前结果是受阻求助，不是成功dump或移植。\n\n没有芯片型号、板卡版本、故障症状、Claude会话、调试口、读取日志或硬件测试。锁定与擦除是模型答复经用户转述，不是本合集确认的芯片保护机制；也不证明所有Stanmore II均不可读或无法修复。未提REA，未连接设备、执行提取或提供绕过保护步骤。",
+    "sources": [{"label": "Javier关于Stanmore II固件提取受阻与Claude答复，2026-11-08 01:41:51北京时间", "url": "https://x.com/i/status/2119123177854910686"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、24浏览、0转发；芯片锁定和擦除未独立核验。"],
+    "en": {
+      "title": "Marshall Stanmore II repair: Javier still cannot extract firmware after consulting Claude",
+      "summary": "Firmware retrieval from a broken speaker is stalled. Claude's claims of a locked chip and erasure on access lack hardware validation and do not establish that repair is impossible.",
+      "description": "At 01:41:51 Beijing time on November 8, 2026, Javier Castaño Pérez (@JavierCP95) says a broken Marshall Stanmore II cannot yield its firmware and asks other researchers for help. He relays Claude's answer that the chip is programmed and locked, will erase if accessed, and therefore cannot be read. The goal is firmware research for repairing his own speaker. The reported outcome is a stalled request for help, not a successful dump or port.\n\nChip identity, board revision, fault symptoms, Claude conversation, debug interface, read logs and hardware tests are absent. Locking and erasure are a user's retelling of a model answer, not protection mechanisms confirmed here. This does not establish that every Stanmore II is unreadable or unrepairable. REA is unmentioned. No device was connected, extraction performed or protection-bypass steps supplied here.",
+      "metadata": ["Sealed candidate: 0 likes, 24 views, 0 reposts. Chip locking and erasure were not independently checked."],
+      "source_labels": ["Javier reports stalled Stanmore II firmware extraction and Claude's answer, November 8, 2026 at 01:41:51 Beijing time"]
+    }
+  },
+  {
+    "id": "aditya-2020-game-corrupt-hdd-ai-recovery",
+    "title": "硬盘损坏后重建自发游戏：Aditya称逆向找回2020年项目",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "作者说2020年发布的自有游戏源码因HDD损坏丢失，已逆向并正重建待重发；没有游戏名、工具或发布验证。",
+    "description": "2026年11月8日01:44:52（北京时间），Aditya（@ItsAditya_xyz）说自己逆向了一款2020年发布的游戏，原源码因硬盘损坏丢失，目前正在重建，计划很快重新发布，末尾表达对AI的赞赏。这里的背景是恢复自己丢失的项目，不是宣称复制别人收费游戏。\n\nAI参与由作者上下文归因，但没有模型、REA、原游戏名、平台、二进制、恢复代码、行为对照或重发链接。已逆向不代表恢复原始源码或完整功能；很快不等于确定日期，重发仍是计划。补取确认作者和完整文字，未下载游戏、访问硬盘或执行重建，不能核验其作者权属或恢复程度。",
+    "sources": [{"label": "Aditya的2020游戏源码丢失与AI重建自述，2026-11-08 01:44:52北京时间", "url": "https://x.com/i/status/2119123934436336082"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存7赞、287浏览、0转发；2020年为原发布年，不是本轮重发日期。"],
+    "en": {
+      "title": "Rebuilding a personal game after HDD corruption: Aditya reports reversing a 2020 release",
+      "summary": "The author says HDD corruption lost the source of a personal 2020 game, which is now being rebuilt for rerelease. Game identity, tools and release validation are absent.",
+      "description": "At 01:44:52 Beijing time on November 8, 2026, Aditya (@ItsAditya_xyz) says a game personally launched in 2020 was reverse-engineered after HDD corruption lost its source. Rebuilding is underway and a relaunch is planned soon; the post ends with appreciation for AI. The context is recovering the author's own lost project, not a claim of copying someone else's paid game.\n\nAI involvement follows the author's context, without a named model, REA, game, platform, binary, recovered code, behavior comparison or rerelease link. Having reverse-engineered it does not establish original-source recovery or complete functionality. Soon is not a definite date, and rerelease remains planned. Retrieval confirms author and full text only. No game was downloaded, disk accessed or reconstruction run; authorship rights and recovery completeness were not verified here.",
+      "metadata": ["Sealed candidate: 7 likes, 287 views, 0 reposts. 2020 is the original release year, not a rerelease date in this review."],
+      "source_labels": ["Aditya reports lost 2020 game source and AI-assisted rebuilding, November 8, 2026 at 01:44:52 Beijing time"]
+    }
+  },
+  {
+    "id": "grok-claude-own-x-winners-hook-reconstruction-idea",
+    "title": "自己90天X数据：用Grok与Claude反推有效钩子，再换题对照的idea",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "建议按每曝光点赞率找前10%帖子，提炼钩子、长度与时机，换新话题发两周再比较；没有报告实际增长。",
+    "description": "2026年11月8日01:45:38（北京时间）的帖子给低于1000关注者的账号提出具体流程：让Grok Bot提取自己的最近90天X analytics，交Claude按每曝光点赞率排名，以避免少曝光帖子被低估；问前10%的钩子、长度、格式、话题和发布时间有什么共性。再保留赢家的钩子与结构、换全新主题，每天发一条连续两周，重新拉数据看是否超过自己平均值。\n\n这是以自有内容为样本反推写作／分发规律的实验idea，不是实际下载数据或已验证增长。90天、10%和两周是建议参数，1000是面向人群，并非结果；没有样本量、基线、曝光分布、提示词或后测数据，不能排除话题与时机混杂。未提REA，本合集未读取analytics、操作账号或发布帖子。",
+    "sources": [{"label": "Grok Bot／Claude分析自有X赢家与两周换题实验建议，2026-11-08 01:45:38北京时间", "url": "https://x.com/i/status/2119124130469482857"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存8赞、1651浏览、0转发；没有实验后关注量或互动提升数据。"],
+    "en": {
+      "title": "Ninety days of personal X data: a Grok/Claude idea for reconstructing effective hooks and testing new topics",
+      "summary": "A proposal ranks posts by likes per impression, studies the top 10% and tests reused hooks on new topics for two weeks. No actual growth is reported.",
+      "description": "A November 8, 2026 post at 01:45:38 Beijing time proposes a concrete workflow for accounts below 1,000 followers: have Grok Bot retrieve their own last 90 days of X analytics, let Claude rank posts by likes per impression so low-exposure posts are not disadvantaged, and identify common hooks, lengths, formats, topics and posting times in the top 10%. Reuse winning hooks and structure on entirely new topics, publish one daily for two weeks, then retrieve data again to compare with the account's average.\n\nThis is an experimental idea for inferring writing/distribution patterns from personal content, not actual data retrieval or verified growth. Ninety days, 10% and two weeks are proposed parameters; 1,000 defines the audience, not a result. Sample size, baseline, exposure distribution, prompts and follow-up data are absent; topic and timing confounds remain. REA is unmentioned. No analytics were accessed, account operated or posts published here.",
+      "metadata": ["Sealed candidate: 8 likes, 1,651 views, 0 reposts. No post-experiment follower or engagement improvement is supplied."],
+      "source_labels": ["A Grok Bot/Claude proposal for studying personal X winners and testing new topics for two weeks, November 8, 2026 at 01:45:38 Beijing time"]
+    }
+  },
+  {
+    "id": "blender-skills-image-match-camera-geometry-agent-workflow",
+    "title": "blender-skills的Image Match：从图像推相机与几何，再截图校准",
+    "category": "algorithms", "rea": "other-ai", "status": "related-project",
+    "summary": "LiLens介绍94技能套件中的参考图重建：Agent经Blender MCP建模、推透视并比图；数量、MIT与自动化能力未做源码或实跑核验。",
+    "description": "2026年11月8日02:13:31（北京时间），LiLens（@LiLensss）介绍blender-skills，称94个技能以MIT公开，可供Cursor、Claude Code、Kiro与Codex通过Blender MCP直接操作Blender。与逆向相关的具体部分为Image Match：给概念原画或实物照片，推导相机透视、分层搭建几何体，通过截图比较反复校准。其余Director、建模、UV、PBR、LOD与多引擎导出是工具套件背景，不等于每一项已被测试。\n\n这是参考图到可编辑3D资产的工具工作流，不是恢复照片背后的原始网格。没有示例输入、输出.blend、相机误差、迭代日志或固定源码；短链未取得可确认仓库，因此94、许可和各端兼容性只作为转述。补取确认署名，未安装uv、插件或依赖，未运行Blender。使用参考图片仍需相应授权。",
+    "sources": [{"label": "LiLens介绍blender-skills与Image Match，2026-11-08 02:13:31北京时间", "url": "https://x.com/i/status/2119131147947155923"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存2赞、238浏览、0转发；94技能与MIT为转述，未核验固定仓库。"],
+    "en": {
+      "title": "Image Match in blender-skills: infer camera and geometry from an image, then calibrate with screenshots",
+      "summary": "LiLens describes reference-image reconstruction in a claimed 94-skill suite: agents model through Blender MCP, infer perspective and compare screenshots. Counts, MIT licensing and automation were not checked in source or runtime.",
+      "description": "At 02:13:31 Beijing time on November 8, 2026, LiLens (@LiLensss) introduces blender-skills as 94 MIT-released skills for Cursor, Claude Code, Kiro and Codex to operate Blender through Blender MCP. The concrete reversing-related component is Image Match: take concept art or a real-object photograph, infer camera perspective, build layered geometry and repeatedly calibrate with screenshot comparisons. Director orchestration, modeling, UV, PBR, LOD and multi-engine export are suite context, not individually tested features.\n\nThis is a tool workflow from reference images to editable 3D assets, not recovery of a photograph's original mesh. No sample input, output .blend, camera error, iteration logs or pinned source is supplied. A confirmed repository destination for short links was not obtained, so 94, licensing and client compatibility remain relayed claims. Retrieval confirms attribution. No uv, plugin or dependencies were installed and Blender was not run. Reference images still require appropriate rights.",
+      "metadata": ["Sealed candidate: 2 likes, 238 views, 0 reposts. The 94 skills and MIT license are relayed claims without a checked pinned repository."],
+      "source_labels": ["LiLens introduces blender-skills and Image Match, November 8, 2026 at 02:13:31 Beijing time"]
+    }
+  },
+  {
+    "id": "mantikafasi-claude-keyboard-firmware-live-music-display",
+    "title": "键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。",
+    "description": "2026年11月8日02:18:11（北京时间），mantikafasi（@mantikafasi1）说让Claude查看自己的键盘固件后，Claude打补丁使其显示当前播放音乐。具体目标是把键盘现有显示能力扩展为音乐状态显示，不据短帖推断频谱、歌词、控制播放或支持哪些播放器。\n\n补取确认作者与图片附件，但未观看图片、取得键盘型号、固件版本、Claude模型、二进制或源码、补丁、主机通信和刷写日志。没有证据确定是闭源反编译还是修改已有源码，实时也没有刷新延迟或断连测试。未提REA，本合集未运行工具、连接键盘或验证固件安全；结果保持作者自述的进行中改造。",
+    "sources": [{"label": "mantikafasi的Claude键盘固件音乐显示报告，2026-11-08 02:18:11北京时间", "url": "https://x.com/i/status/2119132321727324258"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、10浏览、0转发；实时与补丁能力未独立验证。"],
+    "en": {
+      "title": "Current music on a keyboard: mantikafasi reports a Claude firmware investigation and patch",
+      "summary": "The author says Claude inspected keyboard firmware and added live music display. Device identity, code, flashing logs and update-latency tests are absent.",
+      "description": "At 02:18:11 Beijing time on November 8, 2026, mantikafasi (@mantikafasi1) says Claude inspected personal keyboard firmware and patched it to display currently playing music. The concrete target is extending the keyboard's display with music status, not an inferred spectrum, lyrics, playback controls or supported-player list.\n\nRetrieval confirms attribution and an image attachment, which was not viewed. Keyboard identity, firmware revision, Claude model, binary or source, patch, host communication and flashing logs were not obtained. Closed-source decompilation versus editing existing source is unclear; live display has no measured refresh latency or disconnection tests. REA is unmentioned. No tools were run, keyboard connected or firmware safety validated here. Retained as an author-reported modification in progress.",
+      "metadata": ["Sealed candidate: 0 likes, 10 views, 0 reposts. Live updating and patch behavior were not independently verified."],
+      "source_labels": ["mantikafasi reports Claude-assisted keyboard firmware music display, November 8, 2026 at 02:18:11 Beijing time"]
+    }
+  },
+  {
+    "id": "finnardley-animation-style-prompt-user-render-feedback",
+    "title": "finnardley动画风格提示：使用者报告完成新剧本渲染，也有切表情与遮挡缺陷",
+    "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
+    "summary": "使用者认为风格蓝图比逐帧照抄更可复用，报告表情过渡生硬和家具后角色图裁切；约一小时是条件假设，不是实耗。",
+    "description": "2026年11月8日02:30:32（北京时间）的回复报告使用@finnardley动画提示制作新想法、新剧本、相同风格的成片。作者认为这比以1:1复制视频为唯一目的更好，因为以后可让Claude换主题、保留风格，形成制作蓝图。其评价是效果扎实、没遇到明显阻塞，但表情和姿态切换生硬，部分角色图放到家具或桌子后时被裁切，作者承认可能部分是自己的问题。\n\n作者说如果工具事先装好、让Claude驱动图像生成、不在等待时闲置、且不手选部分声音，可能约一小时从提示到最终渲染。这明确是条件假设，不能写成实际一小时或全自动。补取原帖返回not found，因此署名与上下文未进一步确认；封存正文仍足以保守记录体验，不据此认定原帖永久删除。未取得参考片、完整提示、工具链、成片或计时日志，不能证明恢复原动画工程或量化风格相似度。未提REA，未生成图像或运行渲染。",
+    "sources": [{"label": "封存的finnardley动画提示使用反馈，2026-11-08 02:30:32北京时间", "url": "https://x.com/i/status/2119135430457303410"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、6浏览、0转发；补取not found，约一小时为假设。"],
+    "en": {
+      "title": "A finnardley animation-style prompt: a user reports a new-script render with expression and occlusion defects",
+      "summary": "A user favors a reusable style blueprint over frame-for-frame copying, reporting choppy expression transitions and character-sheet cropping behind furniture. About one hour is conditional, not elapsed time.",
+      "description": "A November 8, 2026 reply at 02:30:32 Beijing time reports using @finnardley's animation prompt for a new idea and script in the same style. The user favors this over making 1:1 video copying the sole goal, because Claude can later change the topic while keeping the style as a production blueprint. Results are described as solid without major blockers, but facial expressions and poses transition choppily, and some character sheets are cut off behind furniture or desks. The poster accepts partial responsibility as possible.\n\nThe user says the journey from prompt to final render might take about an hour if tools were already installed, Claude drove image generation, waiting time was not spent idle and some sounds were not selected manually. This is explicitly conditional, not an actual one-hour or fully automatic result. Original retrieval returned not found, so identity and further context were not confirmed. The sealed text still supports a conservative experience report, not a claim of permanent deletion. Reference footage, the complete prompt, toolchain, render and timing logs were not obtained; original animation-project recovery and quantified style similarity are not established. REA is unmentioned. No images were generated or rendering run here.",
+      "metadata": ["Sealed candidate: 0 likes, 6 views, 0 reposts. Retrieval returned not found; about one hour is hypothetical."],
+      "source_labels": ["Sealed feedback on a finnardley animation prompt, November 8, 2026 at 02:30:32 Beijing time"]
+    }
+  },
+  {
+    "id": "susu-two-tv-boxes-rea-refactoring-idea",
+    "title": "家中两台电视盒：susu计划用REA重构，成功后再考虑出售",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "具体设备研究idea，作者表达想用REA与Claude改造两台自有盒子；尚无型号、系统、实现或商业结果。",
+    "description": "2026年11月8日02:42:10（北京时间），susu（@suami_gomes）说准备在家里两台电视盒上使用REA并重构全部内容，如果成功再考虑卖出，并表达对Claude的喜爱。目标范围具体到自有两台盒子，但没有说明是固件、应用、界面还是协议，也没有说要去除后门或更换操作系统。\n\n两台是计划对象数，不是成功数量；销售是条件愿望，不是收入或可销售产品。补取确认作者及正文，没有型号、平台、备份、代码、工具日志或验证。REA与Claude来自作者表述，具体模型及分工未知。保留未验证idea，不把强烈措辞当全量重写已完成；未连接设备、修改固件或部署商品。",
+    "sources": [{"label": "susu的两台电视盒REA重构计划，2026-11-08 02:42:10北京时间", "url": "https://x.com/i/status/2119138358199017942"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、28浏览、0转发；两台为计划范围，无销售证明。"],
+    "en": {
+      "title": "Two TV boxes at home: susu proposes REA refactoring and possible sales if it works",
+      "summary": "A concrete device-research idea involves REA and Claude on two personal TV boxes, without device identities, OS details, implementation or business results.",
+      "description": "At 02:42:10 Beijing time on November 8, 2026, susu (@suami_gomes) plans to use REA on two TV boxes at home and refactor everything, considering sales if successful, and expresses affection for Claude. The scope reaches two personal devices, but firmware, apps, UI and protocols are not distinguished. Backdoor removal or an OS replacement is not stated.\n\nTwo is the planned target count, not successes; sales are conditional aspirations, not revenue or a marketable product. Retrieval confirms author and text, without models, platform, backups, code, tool logs or validation. REA and Claude follow the author's wording; model and division of labor are unknown. Retained as an unverified idea, not a completed full rewrite. No devices were connected, firmware modified or products deployed here.",
+      "metadata": ["Sealed candidate: 0 likes, 28 views, 0 reposts. Two defines planned scope; no sales are demonstrated."],
+      "source_labels": ["susu proposes REA refactoring of two TV boxes, November 8, 2026 at 02:42:10 Beijing time"]
+    }
+  },
+  {
+    "id": "eikichi-apple-watch-mac-mouse-claude-report",
+    "title": "Apple Watch当Mac鼠标：Eikichi转述Claude辅助传感器与蓝牙研究",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "转述称手腕移动光标、点按点击、长按拖动和表冠滚动；源码、直接蓝牙与离线实现未验证，未确认具体开发者。",
+    "description": "2026年11月8日02:48:23（北京时间），Eikichi（@0xEikichi）称一位开发者用Claude Opus 5.5逆向Apple Watch，提取动作传感器数据，把手腕倾斜映射为Mac鼠标像素移动；点按手表点击、长按拖拽、旋转Digital Crown滚动。帖子宣称手表直接蓝牙连Mac、不用互联网或服务器，免费开源。\n\n补取确认传播者与视频附件，未观看视频、识别原开发者、取得仓库、许可、watchOS／macOS版本、输入接口或连接测试。不能确认其研究的是私有协议还是公开传感器API，也不能验证免服务器、离线、精度或长期连接稳定性。模型版本按传播帖保留，不证明Apple认可或提供此功能。未提REA，本合集未安装App、连接手表或测试蓝牙。",
+    "sources": [{"label": "Eikichi转述Claude／Apple Watch鼠标项目，2026-11-08 02:48:23北京时间", "url": "https://x.com/i/status/2119139919092134039"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存1赞、54浏览、0转发；开源、直连蓝牙与离线为二手说法。"],
+    "en": {
+      "title": "Apple Watch as a Mac mouse: Eikichi relays Claude-assisted sensor and Bluetooth research",
+      "summary": "A retelling claims wrist-controlled cursor motion, tap-to-click, hold-to-drag and Crown scrolling. Source, direct Bluetooth and offline operation are unverified; the developer is unidentified.",
+      "description": "At 02:48:23 Beijing time on November 8, 2026, Eikichi (@0xEikichi) says a developer used Claude Opus 5.5 to reverse-engineer Apple Watch, extract motion-sensor data and map wrist tilts to Mac cursor pixels. Tapping the watch clicks, holding drags and rotating the Digital Crown scrolls. The post claims direct Bluetooth communication to the Mac without internet or servers, free and open source.\n\nRetrieval confirms the relayer and a video attachment, which was not watched. The original developer, repository, license, watchOS/macOS revisions, input interface and connection tests were not obtained. Private-protocol research versus public sensor APIs is unclear, and serverless/offline operation, accuracy and long-term connectivity are not validated. The model revision follows the circulating post, not Apple endorsement or provision of this feature. REA is unmentioned. No app was installed, watch connected or Bluetooth tested here.",
+      "metadata": ["Sealed candidate: 1 like, 54 views, 0 reposts. Open source, direct Bluetooth and offline operation are secondary claims."],
+      "source_labels": ["Eikichi relays a Claude/Apple Watch mouse project, November 8, 2026 at 02:48:23 Beijing time"]
+    }
+  },
+  {
+    "id": "shellbear-aoe2hd-claude-rea-browser-rebuild",
+    "title": "Age of Empires II HD进浏览器：shellbear称Claude／REA重建，联机仍是期待",
+    "category": "games", "rea": "REA", "status": "in-progress",
+    "summary": "作者称AoE2 HD已在浏览器跑起来、由Claude与REA完整反编译；视频附件不证明覆盖率，浏览器多人模式尚未报告实现。",
+    "description": "2026年11月8日02:49:58（北京时间），shellbear（@_shellbear）说开始有进展，Age of Empires 2 HD在浏览器中运行，称由Claude和REA完整反编译，并期待也许可以直接在浏览器多人联机。目标是把旧PC即时战略游戏带到浏览器；这与Age of Empires Castle Siege并非同一游戏，不沿用其停服与Android移植背景。\n\n补取确认作者与1920×1080视频附件，未观看、试玩或取得代码、构建版本、函数清单、字节匹配、浏览器运行时和测试日志。完整反编译是作者说法，不能确认源码还原率、战役可玩性、AI对手或音频等功能。联机明确是maybe，不是已支持多人。没有耗时、费用或授权资料，未提具体Claude模型。本合集不分发游戏与素材，未下载、运行或访问游戏服务器；复现应自备合法原作。",
+    "sources": [{"label": "shellbear的AoE2 HD浏览器重建进展，2026-11-08 02:49:58北京时间", "url": "https://x.com/i/status/2119140321061712232"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存1赞、9浏览、0转发；完整反编译与浏览器运行为作者自述，尚未报告联机实现。"],
+    "en": {
+      "title": "Age of Empires II HD in a browser: shellbear reports a Claude/REA rebuild, with multiplayer still a hope",
+      "summary": "The author claims AoE2 HD runs in a browser after complete Claude/REA decompilation. An attached video does not establish coverage; browser multiplayer is not reported as implemented.",
+      "description": "At 02:49:58 Beijing time on November 8, 2026, shellbear (@_shellbear) reports progress: Age of Empires 2 HD running in a browser, described as fully decompiled by Claude and REA, with perhaps working browser multiplayer later. The target is bringing an older PC real-time strategy game to the browser. This is not Age of Empires Castle Siege and does not inherit that game's shutdown or Android-port context.\n\nRetrieval confirms attribution and a 1920×1080 video attachment, not viewed or played here. Code, build revision, function inventory, byte matches, browser runtime and test logs were not obtained. Complete decompilation is the author's wording, not established source recovery, campaign playability, opponent AI or audio support. Multiplayer is explicitly maybe, not implemented support. Effort, costs, rights information and the specific Claude model are absent. This collection distributes no game or assets and did not download, run or access game servers. Reproduction requires a legally obtained original.",
+      "metadata": ["Sealed candidate: 1 like, 9 views, 0 reposts. Complete decompilation and browser operation are author-reported; multiplayer implementation is not reported."],
+      "source_labels": ["shellbear reports progress on an AoE2 HD browser reconstruction, November 8, 2026 at 02:49:58 Beijing time"]
+    }
+  },
+  {
+    "id": "lilens-single-photo-house-claude-blender-reconstruction-report",
+    "title": "单张街拍到Blender房屋：LiLens转述Claude推几何，不能据此认定可建造",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "转述以2.04米门作尺度、110毫米窗框与23个屋顶构件的房屋重建；隐藏立面属推断，没有结构设计或工程认证。",
+    "description": "2026年11月8日03:00:26（北京时间），LiLens（@LiLensss）转述一名未确认原作者用免费Claude Skill，根据单张街拍照片让Claude Opus 5.5在Blender写墙、门窗与屋顶几何。帖子称窗框进深110mm，以2.04米入户门对齐尺度，屋顶拆为23个构件，并通过屋顶坡度、阴影与窗户节奏推断看不见的侧后立面。具体用途是从参考照片制作可编辑实体几何。\n\n这些尺寸、组件数和纯几何／无建筑预设说法均是转述，未取得输入照片、.blend、脚本、尺寸参照或误差对照。单图不能唯一确定被遮挡结构，推测的立面不等于恢复真实建筑。帖称可建造、造价核算或3D打印，均未提供结构、材料、地基、规范、施工图或专业审查；不能据可编辑网格替代建筑师或保证可建造。\n\n补取确认传播者与视频附件，未观看视频，短链未取得确定仓库与原文章。与同作者较早blender-skills套件介绍分开记录这一具体房屋报告，不假定一定使用同仓库。未提REA，本合集未运行Blender、打印或进行建筑验证。",
+    "sources": [{"label": "LiLens的单张照片Claude／Blender房屋重建转述，2026-11-08 03:00:26北京时间", "url": "https://x.com/i/status/2119142952165580847"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存1赞、114浏览、0转发；110mm、2.04m、23构件为转述值，非测量。"],
+    "en": {
+      "title": "One street photo to a Blender house: LiLens relays Claude geometry inference, not demonstrated buildability",
+      "summary": "A retelling describes house reconstruction using a 2.04m door for scale, 110mm window depth and 23 roof parts. Hidden elevations are inferred, without structural design or engineering certification.",
+      "description": "At 03:00:26 Beijing time on November 8, 2026, LiLens (@LiLensss) relays an unidentified original author's use of a free Claude skill to have Claude Opus 5.5 write walls, openings and roof geometry in Blender from one street photograph. The post claims 110mm window-frame depth, scaling against a 2.04m entrance door, 23 roof components and inference of unseen side/rear elevations from roof slope, shadows and window rhythm. The concrete use is editable solid geometry from a reference photograph.\n\nDimensions, component counts and claims of pure geometry without architectural presets are secondary accounts. The input photo, .blend, scripts, dimensional reference and error comparisons were not obtained. One image does not uniquely determine occluded structure; inferred elevations are not recovery of the actual building. Buildability, costing and 3D printing are claimed without structural calculations, materials, foundation design, code compliance, construction drawings or professional review. Editable meshes do not replace an architect or establish buildability.\n\nRetrieval confirms the relayer and a video attachment, not viewed. Confirmed repository and original-article destinations for short links were not obtained. This specific house report is recorded separately from the same poster's earlier blender-skills introduction, without assuming a shared repository. REA is unmentioned. Blender, printing and architectural validation were not performed here.",
+      "metadata": ["Sealed candidate: 1 like, 114 views, 0 reposts. The 110mm, 2.04m and 23 parts are relayed values, not measurements."],
+      "source_labels": ["LiLens relays a one-photo Claude/Blender house reconstruction, November 8, 2026 at 03:00:26 Beijing time"]
+    }
+  },
+  {
+    "id": "ccy-adb-agent-sogou-network-restriction-report",
+    "title": "搜狗输入法禁网实验：ccy称ADB交给Agent，强调逆向调用复现而非盲目fuzz",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者描述手机ADB交Agent及对搜狗输入法禁网，称AI对调用复现有帮助；没有日志证明数据读取指控或权限控制效果。",
+    "description": "2026年11月8日03:07:24（北京时间），ccy（@ccy_sec）评论普通用户单挂Skill、CLI或MCP做二进制fuzz不一定值得，强调业务理解，认为AI对逆向调用与复现仍有提效。补取02:52:24同作者父帖提供具体手机背景：获得权限后把ADB调试交给AI Agent，因担心搜狗输入法读取手机数据而禁网，主张底层权限、严格授权、联网与行为管理。父帖只是补充上下文，不替换候选。\n\n这是用户对自有手机的研究与限制联网报告，不是已证明输入法每天读取数据或外传隐私。没有手机型号、Android／输入法版本、模型、AI分析输出、调用路径、禁网规则、流量或前后测试；不能确认AI发现了问题、完成逆向、或禁网保留全部功能。补取仅确认署名及文字，图片未查看。未提REA，本合集未连接手机、调用ADB或实施提权，不提供突破权限步骤。",
+    "sources": [{"label": "ccy的AI逆向调用复现评价，2026-11-08 03:07:24北京时间", "url": "https://x.com/i/status/2119144707704177143"}, {"label": "补充父帖：ADB Agent与搜狗输入法禁网自述，2026-11-08 02:52:24北京时间", "url": "https://x.com/i/status/2119140932012630384"}],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存0赞、9浏览、0转发；隐私指控和禁网效果未验证。"],
+    "en": {
+      "title": "A Sogou keyboard network-blocking experiment: ccy reports an ADB agent and favors call reproduction over blind fuzzing",
+      "summary": "The author describes handing phone ADB access to an agent and blocking Sogou keyboard networking, finding AI useful for call reproduction. Data-reading allegations and control effectiveness lack logs.",
+      "description": "At 03:07:24 Beijing time on November 8, 2026, ccy (@ccy_sec) argues that simply attaching skills, CLI or MCP to AI binary fuzzing may not pay off for ordinary users, emphasizes business understanding, and finds AI useful for reverse-engineered call reproduction. A retrieved 02:52:24 parent by the same author supplies a phone context: giving an AI agent ADB debugging after obtaining privileges, blocking Sogou keyboard networking over concerns about phone-data access, and favoring low-level permissions, strict authorization, network and behavior controls. The parent is supplementary context, not a replacement candidate.\n\nThis is a user's report of personal-phone research and network restriction, not proof that the keyboard reads data daily or exfiltrates private information. Phone identity, Android/keyboard revisions, model, AI analysis, call paths, blocking rules, traffic and before/after tests are absent. It is unclear whether AI found an issue, completed reverse engineering or whether blocking preserves all functions. Retrieval confirms attribution and text; images were not viewed. REA is unmentioned. No phone was connected, ADB called or privileges escalated here, and no privilege-bypass steps are provided.",
+      "metadata": ["Sealed candidate: 0 likes, 9 views, 0 reposts. Privacy allegations and blocking effectiveness are unverified."],
+      "source_labels": ["ccy discusses AI-assisted reverse-engineered call reproduction, November 8, 2026 at 03:07:24 Beijing time", "Supplementary parent: ADB agent and Sogou keyboard network-blocking report, November 8, 2026 at 02:52:24 Beijing time"]
+    }
+  },
+  {
     "id":"douyin-ondevice-models-ai-reverse-secondary-report",
     "title":"抖音端侧推荐：WangNextDoor转述AI逆向的模型与行为预测线索",
     "category":"apps", "rea":"other-ai", "status":"unverified",
@@ -4790,7 +5078,7 @@
     "id": "craft-anything-agent-study-rebuild-compare-report",
     "title": "Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界",
     "category": "apps", "rea": "other-ai", "status": "in-progress",
-    "summary": "Craft Anything研究、建造并对照迭代；固定文档承认游戏与动态检查边界，boring_data另报REA配合游戏测试效果差，但没有指定游戏或可重跑日志。",
+    "summary": "Craft Anything研究、建造并对照迭代；新增v0.5.0受限MCP与旧应用回归用途的转述，不覆盖旧游戏测试缺陷或等于端到端安全验证。",
     "description": "2026年11月2日09:51:48（北京时间），Smartpig（@Smartpigai）介绍Craft Anything研究网站、应用或游戏，交给AI建新项目并对照迭代；11:15:23明子206（@mingzi206）宣传全量自动Hook、符号执行架构图和几分钟完成。补查storytold/craft-anything固定提交32b80be89061896921d370e8f4f952ab707e2270的README及STATUS，提交当日11:40:37，STATUS标11月2日，其中10月18日实跑和10月23日审计是更早项目记录。\n\n纯Rust工具台称314个CLI／MCP工具，其中298个属引擎。桌面与Agent共用研究、构建、检查、迭代；默认Clean room只读访客可见界面、用户图和描述，不读内部，Deep允许代码、文件、网站JavaScript和可选Ghidra。建造优先用用户Claude Code，分析可接API或本地兼容服务；Codex适配器存在但未在真实安装验证。Clean room是模式名，不是净室合规或法律认证。\n\nSTATUS自报10月18日Windows headless网页96%相似度、1.5分钟；桌面小App9分钟且只检查构建；Rust游戏停在Build、未到Check。相似度不等于功能等价，游戏self-test是生成物自报，未独立观察或测其数值。运行研究仅启动原版一次采窗口与UI树，不持续操控，Frida会话部分模拟，Clean room完整构建尚无实跑。因此不接受记录全部系统调用／内存迁移和几分钟克隆任意软件的泛化。\n\n11月6日17:23:57二手说法改称320工具，并在三种屏宽比较网页再迭代；无固定版本、宽度值、目标或结果。320不覆盖旧固定文档314，也不能推算实现了六项新功能，更不证明后端等价。\n\n11月7日03:19:39，boring_data（@boring_data_）说试过REA与Craft Anything，认为AI只抓到游戏一点味道，尚不理解复杂性、效果很差，复制昂贵作品对普通使用者仍太费时。补取确认第一人称，但未给游戏、版本、提示、模型、耗时、产物或日志。保留负面体验，不把个别未知配置推广为所有游戏都不可能重建；与项目文档未独立验游戏的边界并列，也不互作复现。\n\n项目仍称early alpha，安装说明不是本合集下载或跨平台测试；只读文字与文档，未执行目标、构建、装依赖或重跑测试。ArtCraft套件Adobe归因争议另记，同组织不证明其曾逆向Adobe。",
     "sources": [
       {"label": "候选：Smartpig介绍Craft Anything流程，2026-11-02", "url": "https://x.com/i/status/2117072151476080832"},
@@ -4798,15 +5086,16 @@
       {"label": "补充项目README：固定提交，2026-11-02", "url": "https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/README.md"},
       {"label": "补充项目STATUS：含10月实跑与11月2日边界，固定提交", "url": "https://github.com/storytold/craft-anything/blob/32b80be89061896921d370e8f4f952ab707e2270/docs/STATUS.md"},
       {"label": "新增转述：320工具及三种屏宽比较，2026-11-06 17:23:57北京时间", "url": "https://x.com/i/status/2118635487527145650"},
-      {"label":"boring_data的REA配合Craft Anything游戏测试负面体验，2026-11-07 03:19:39北京时间","url":"https://x.com/i/status/2118785400084840938"}
+      {"label":"boring_data的REA配合Craft Anything游戏测试负面体验，2026-11-07 03:19:39北京时间","url":"https://x.com/i/status/2118785400084840938"},
+      {"label":"新增转述：v0.5.0受限MCP引擎与旧应用回归用途，2026-11-08 00:21:06北京时间","url":"https://x.com/i/status/2119102856150044806"}
     ],
-    "snapshot_date": "2026-11-07", "metadata": ["候选封存快照：Smartpig 8赞、692浏览、2转发；明子206 2赞、59浏览、0转发。", "314工具、96%、1.5分钟、9分钟及审计测试为项目口径，未独立复现；Codex实装、Clean room实跑与部分动态分析待验证。", "11月6日候选6赞、2038浏览、0转发；320工具与三宽比较是较晚二手口径，未取得该版本实测。", "11月7日候选0赞、10浏览、0转发；负面游戏体验无具名目标或量化对照。"],
+    "snapshot_date": "2026-11-08", "metadata": ["候选封存快照：Smartpig 8赞、692浏览、2转发；明子206 2赞、59浏览、0转发。", "314工具、96%、1.5分钟、9分钟及审计测试为项目口径，未独立复现；Codex实装、Clean room实跑与部分动态分析待验证。", "11月6日候选6赞、2038浏览、0转发；320工具与三宽比较是较晚二手口径，未取得该版本实测。", "11月7日候选0赞、10浏览、0转发；负面游戏体验无具名目标或量化对照。", "11月8日00:21:06候选补充称11月6日v0.5.0增加受限MCP engine，可禁用在机器上操作或访问网络的工具；认为研究、重建、比较、纠正循环适合legacy重写的行为回归。未读该版本实现或测试，受限模式不是安全隔离保证，也不修补旧固定版本游戏验证缺口。帖子称一周17000+星、3122 fork、356已合并PR与Trendshift周榜首均未独立核验，不能作为效果；封存2赞、60浏览、0转发。"],
     "en": {
       "title": "Craft Anything: a Rust study-and-rebuild workbench with explicit limits on project-reported checks",
-      "summary": "Craft Anything studies, builds and compares iterations. Pinned docs acknowledge game/dynamic-checking gaps, and boring_data reports poor game results with REA, without a named game or replayable logs.",
+      "summary": "Craft Anything studies, builds and compares iterations. A new retelling describes v0.5.0 restricted MCP and legacy-app regression uses, not resolution of older game-testing gaps or end-to-end safety validation.",
       "description": "At 09:51:48 Beijing time on November 2, 2026, Smartpig (@Smartpigai) introduces Craft Anything studying websites, apps or games and delegating building and comparison to AI. At 11:15:23 mingzi206 (@mingzi206) promotes full automatic hooking, symbolic-execution architecture graphs and completion in minutes. Supplementary review read storytold/craft-anything README and STATUS at 32b80be89061896921d370e8f4f952ab707e2270, committed that day at 11:40:37. STATUS is dated November 2; its October 18 runs and October 23 audit are earlier project records.\n\nThe pure-Rust workbench claims 314 CLI/MCP tools, 298 in the engine. Desktop and agents share study/build/check/refine. Default Clean room reads visitor-visible UI, user images and descriptions, not internals; Deep permits code, files, website JavaScript and optional Ghidra. Building favors the user's Claude Code; analysis can use APIs or local compatible services. A Codex adapter exists but is unverified on a real installation. Clean room is a mode name, not legal or clean-room certification.\n\nSTATUS reports October 18 Windows headless results: a website at 96% likeness in 1.5 minutes; a small desktop app in 9 minutes checked only by building; and a Rust game stopped at Build before Check. Likeness is not functional equivalence, and game self-tests come from generated artifacts without independently observed play or measured values. Runtime study launches the original once to capture a window/UI tree rather than driving it continuously. Frida sessions are partly simulated; no complete live Clean room build is recorded. This does not support every-syscall/memory-transition or arbitrary-cloning-in-minutes claims.\n\nA November 6, 17:23:57 secondary account claims 320 tools and website comparisons at three screen widths before refinement, without a pinned revision, width values, target or results. This does not overwrite the pinned 314, establish six new features or prove backend equivalence.\n\nAt 03:19:39 on November 7, boring_data (@boring_data_) says they tried REA with Craft Anything and found AI captured only a little of a game's feel, failed to understand its complexity and performed poorly; copying expensive work would still take too much time for ordinary users. Retrieval confirms first-person attribution, not a game, revision, prompt, model, effort, artifact or logs. This negative experience is retained without generalizing one unknown configuration to all game reconstruction. It sits alongside the documentation's independent-game-checking limits, not as their reproduction.\n\nThe project remains early alpha. Install instructions are not downloads or cross-platform tests here. Only text/docs were read; no target, build, dependencies or tests were run. ArtCraft's Adobe-attribution dispute is separate; shared ownership does not establish Adobe reversing.",
-      "metadata": ["Sealed candidate snapshots: Smartpig, 8 likes, 692 views, 2 reposts; mingzi206, 2 likes, 59 views, 0 reposts.", "314 tools, 96%, 1.5 minutes, 9 minutes and audit tests are project reports, not independently reproduced. Real Codex installation, live Clean room builds and some dynamic analysis remain unverified.", "November 6 candidate: 6 likes, 2,038 views, 0 reposts. The 320 tools and three-width comparison are later secondary claims, without tests for that revision obtained here.", "November 7 candidate: 0 likes, 10 views, 0 reposts. The negative game experience has no named target or quantitative comparison."],
-      "source_labels": ["Candidate: Smartpig introduces the Craft Anything workflow, November 2, 2026", "Supporting candidate: mingzi206's Rust/dynamic-observation promotion, November 2, 2026", "Supplementary project README at a pinned November 2, 2026 commit", "Supplementary pinned STATUS, including October live runs and November 2 limitations", "Account: 320 tools and three-screen-width comparison, November 6, 2026 at 17:23:57 Beijing time", "boring_data's negative REA/Craft Anything game-testing experience, November 7, 2026 at 03:19:39 Beijing time"]
+      "metadata": ["Sealed candidate snapshots: Smartpig, 8 likes, 692 views, 2 reposts; mingzi206, 2 likes, 59 views, 0 reposts.", "314 tools, 96%, 1.5 minutes, 9 minutes and audit tests are project reports, not independently reproduced. Real Codex installation, live Clean room builds and some dynamic analysis remain unverified.", "November 6 candidate: 6 likes, 2,038 views, 0 reposts. The 320 tools and three-width comparison are later secondary claims, without tests for that revision obtained here.", "November 7 candidate: 0 likes, 10 views, 0 reposts. The negative game experience has no named target or quantitative comparison.", "The November 8, 00:21:06 candidate says November 6's v0.5.0 added a restricted MCP engine that can disable tools operating on the machine or accessing the network, and proposes study/build/compare/refine as behavioral regression for legacy rewrites. That revision's implementation and tests were not reviewed; restricted mode is not a security-isolation guarantee or resolution of older pinned-version game-validation gaps. Claims of 17,000+ stars in a week, 3,122 forks, 356 merged PRs and first place on Trendshift's weekly list were not independently checked and do not establish effectiveness. Sealed candidate: 2 likes, 60 views, 0 reposts."],
+      "source_labels": ["Candidate: Smartpig introduces the Craft Anything workflow, November 2, 2026", "Supporting candidate: mingzi206's Rust/dynamic-observation promotion, November 2, 2026", "Supplementary project README at a pinned November 2, 2026 commit", "Supplementary pinned STATUS, including October live runs and November 2 limitations", "Account: 320 tools and three-screen-width comparison, November 6, 2026 at 17:23:57 Beijing time", "boring_data's negative REA/Craft Anything game-testing experience, November 7, 2026 at 03:19:39 Beijing time", "New account: v0.5.0 restricted MCP engine and legacy-app regression use, November 8, 2026 at 00:21:06 Beijing time"]
     }
   },
   {
@@ -6131,21 +6420,21 @@
     "id":"hyperos3-systemhelper-gpt-app-telemetry-report",
     "title":"HyperOS3 SystemHelper：MeT称GPT发现应用清单与SIM标识载荷",
     "category":"apps", "rea":"other-ai", "status":"unverified",
-    "summary":"MeT研究朋友的小米14，称GPT分析SystemHelper枚举应用及24小时使用情况，序列化含设备／SIM标识；未给APK、调用路径或流量证据。",
-    "description":"2026年10月31日20:16:14（北京时间），MeT（@MeTerminator666）说朋友被电话要求卸载X和Telegram，于是排查已root小米14、HyperOS3中会上报应用列表的组件，明确称逆向由GPT完成。SystemHelper是其中一个独立分析目标：作者认为可能与SIM激活相关，报告它枚举安装应用，统计过去24小时使用记录并关联使用统计和流量，跳过com[.]android前缀条目；载荷序列化含IMEI、IMSI、ICCID字段。作者把上报位置指向联通域名的注册端点。\n\n这些是作者对实现能力的报告，没有提供APK版本、哈希、代码片段、GPT版本、调用条件、权限检查、抓包或服务器响应。字段存在不等于每次实际传输，不能据此断言所有小米设备默认持续监控，或证实电话与组件的因果关系。作者也没检查卸载后是否重装；其无root不能提取或卸载的说法未在此验证。系统安全组件另列案例，不把两者功能混同。本合集补取原帖确认作者与全文，未取得APK、接触设备、调用任何端点或独立复现。",
-    "sources":[{"label":"MeT的GPT／HyperOS3两个组件分析报告，2026-10-31","url":"https://x.com/i/status/2116504516317376942"}],
-    "snapshot_date":"2026-10-31", "metadata":["同帖候选快照397赞、69231浏览、27转发；传播不证明结论。","设备为作者所述已root小米14／HyperOS3；载荷能力与实际触发未分项验证。"],
-    "en":{"title":"HyperOS 3 SystemHelper: MeT reports GPT findings on app lists and SIM-identifier payloads","summary":"MeT reports GPT analysis of a friend's Xiaomi 14 SystemHelper: app enumeration, 24-hour usage and serialization of device/SIM identifiers. No APK, call path or traffic evidence is supplied.","description":"At 20:16:14 Beijing time on October 31, 2026, MeT (@MeTerminator666) says friends received calls demanding removal of X and Telegram and therefore investigated app-list reporting components on a rooted Xiaomi 14 running HyperOS 3. The author explicitly credits GPT with the reverse engineering. SystemHelper is one distinct target. Believing it may relate to SIM activation, the author reports installed-app enumeration, usage within the past 24 hours, associated usage/traffic statistics and exclusion of com[.]android-prefixed entries. Payload serialization reportedly includes IMEI, IMSI and ICCID fields. The post identifies a registration endpoint on a China Unicom domain as the reporting destination.\n\nThese are author reports about implementation capabilities. No APK revision, hash, code excerpt, GPT revision, invocation conditions, permission checks, packet capture or server response is provided. A field's presence does not establish actual transmission on every invocation, continuous default surveillance on all Xiaomi devices or a causal link to the phone calls. The author did not check reinstallation after removal; claims about extraction/removal without root were not verified here. The separate System Security Component has its own entry rather than conflated functions. Lookup confirms author and full text; no APK was obtained, device accessed, endpoint called or independent reproduction performed.","metadata":["Shared candidate snapshot: 397 likes, 69,231 views, 27 reposts. Circulation does not validate the findings.","Device is the author's rooted Xiaomi 14/HyperOS 3. Payload capability and actual triggering were not individually verified."],"source_labels":["MeT's GPT/HyperOS 3 two-component analysis report, October 31, 2026"]}
+    "summary":"MeT承认旧GPT分析未细查启用逻辑，区分SystemHelper与录屏组件；新增两版HTTP加密正文解读，仍无动态上报验证。",
+    "description":"2026年10月31日20:16:14（北京时间），MeT（@MeTerminator666）说朋友被电话要求卸载X和Telegram，于是用GPT排查朋友已root小米14／HyperOS3的应用列表上报组件。作者认为SystemHelper可能与SIM激活相关，报告枚举安装应用、过去24小时使用记录与流量，跳过com[.]android前缀，序列化含IMEI、IMSI、ICCID，目的为联通注册端点。这是实现解读，不证明每次传输、所有手机持续监控或电话的因果关系；卸载后是否重装未查，无root提取／卸载限制也未验证。\n\n11月8日00:40:27候选强调GPT逆向仅供参考、自行验证。补取00:03:39父帖：作者承认分析匆忙，看到实现就发布，未仔细研究启用逻辑并道歉，称网传SystemHelper录屏、监听、窃取隐私是混淆组件；录屏实现属于另列的系统安全组件。旧推测不能作为实际监控证据。\n\n父帖新增两版SystemHelper（3.0.1-20250311、3.0.1-20260313）代码解读：联通注册默认HTTP，没有先HTTPS失败再回退；路径与协议版本、机型、厂商、sign参数可见。POST正文是AES密文，AES密钥经内置RSA公钥加密放在sign；没有TLS不等于可直接抓到上报JSON。这仍无APK哈希、代码片段、GPT版本、触发条件、权限检查、抓包或服务器响应作独立验证。父帖为补证，不替换候选。\n\n只确认作者与文字，未查看图片、取得APK、接触设备、调用端点或复现，也不采纳临时root或卸载为已验证修复。",
+    "sources":[{"label":"MeT的GPT／HyperOS3两个组件分析报告，2026-10-31","url":"https://x.com/i/status/2116504516317376942"},{"label":"MeT明确GPT结果须自验，2026-11-08 00:40:27北京时间","url":"https://x.com/i/status/2119107723933663535"},{"label":"补充父帖：启用逻辑更正、组件区分与两版HTTP加密解读，2026-11-08 00:03:39北京时间","url":"https://x.com/i/status/2119098463682166820"}],
+    "snapshot_date":"2026-11-08", "metadata":["旧候选397赞、69231浏览、27转发；传播不证明结论。","设备为作者所述已root小米14／HyperOS3；能力与实际触发未分项验证。","11月8日候选封存6赞、1333浏览、0转发；HTTP与AES/RSA是作者静态解读，未抓包验证。"],
+    "en":{"title":"HyperOS 3 SystemHelper: MeT qualifies earlier GPT findings and reports HTTP encryption details","summary":"MeT acknowledges missing activation logic in the earlier GPT analysis and separates SystemHelper from screen capture. Two revisions reportedly use HTTP with encrypted bodies; runtime reporting remains unverified.","description":"At 20:16:14 Beijing time on October 31, 2026, MeT (@MeTerminator666) says friends received calls demanding removal of X and Telegram, prompting GPT research into app-list reporting on a friend's rooted Xiaomi 14/HyperOS 3. The author thinks SystemHelper may relate to SIM activation and reports app enumeration, 24-hour usage and traffic, exclusion of com[.]android-prefixed packages, and serialization of IMEI, IMSI and ICCID for a China Unicom registration endpoint. Implementation interpretation does not establish transmission every time, continuous surveillance on all phones or causation of the calls. Reinstallation after removal was unexamined; extraction/removal restrictions without root were not checked.\n\nThe November 8, 00:40:27 candidate explicitly calls GPT reversing reference-only and requests verification. Retrieval of its 00:03:39 parent finds the author apologizing for hastily publishing implementations without carefully studying activation logic. Claims that SystemHelper records screens, listens or steals private information are described as conflating components; screen-capture implementation belongs to the separately recorded System Security Component. Earlier speculation is not actual surveillance evidence.\n\nThe parent adds code interpretation for SystemHelper 3.0.1-20250311 and 3.0.1-20260313: registration defaults to HTTP, with no HTTPS-first fallback. Paths and protocol version, model, manufacturer and sign parameters are visible. POST bodies are AES ciphertext, with the AES key encrypted using an embedded RSA public key and put in sign. No TLS does not mean a capture directly reveals the reported JSON. APK hashes, code excerpts, GPT revision, activation conditions, permission checks, traffic and server responses remain absent for independent validation. The parent supplements rather than replaces the candidate.\n\nOnly author and text were confirmed. Images were not viewed, and no APK was obtained, device accessed, endpoint called or reproduction performed. Temporary-root/removal suggestions are not validated fixes.","metadata":["Older candidate: 397 likes, 69,231 views, 27 reposts. Circulation does not validate conclusions.","Device is the author's rooted Xiaomi 14/HyperOS 3. Capabilities and actual activation were not individually verified.","November 8 sealed candidate: 6 likes, 1,333 views, 0 reposts. HTTP and AES/RSA are the author's static interpretation, not packet-capture validation."],"source_labels":["MeT's GPT/HyperOS 3 two-component analysis report, October 31, 2026","MeT asks readers to verify GPT findings, November 8, 2026 at 00:40:27 Beijing time","Supplementary parent: activation-logic correction, component separation and HTTP/encryption interpretation for two revisions, November 8, 2026 at 00:03:39 Beijing time"]}
   },
   {
     "id":"hyperos3-security-component-gpt-screen-audit",
     "title":"HyperOS3系统安全组件：GPT反诈录屏与云检测分析的作者报告",
     "category":"apps", "rea":"other-ai", "status":"unverified",
-    "summary":"MeT称GPT读出应用列表、语音反诈与三秒屏幕片段云检测实现；没有触发条件或动态证据，不等于全时录屏或已证明泄露。",
-    "description":"2026年10月31日20:16:14（北京时间），MeT（@MeTerminator666）报告用GPT研究朋友已root的小米14／HyperOS3，目标是排查应用列表上报。独立于SystemHelper，系统安全组件被报告具有向小米反诈端点提交第三方应用清单、包名、版本、签名摘要、名称、扫描及仿冒结果的实现；另有电话／QQ／微信语音反诈、转写文本、屏幕视频云检测与用户反馈原始音频上传能力。作者认为与反诈相关。\n\n作者描述录屏路径：取得系统录屏对象，以固定竖屏720×1280、24fps录约3秒，读MP4并Base64编码、加密上传云检测；未命中则删临时片段、延迟2秒继续，命中则保留反馈片段并警告停止。这些数字和分支是作者报告的代码行为，不是本合集测量，也没有说明哪些授权、会话或风控条件能启动流程。不能推断所有手机始终无提示录屏，亦不能把代码能力当已发生外传。\n\n补查原帖确认作者与完整文字，没有APK、版本、哈希、调用链、权限界面、GPT分析输出、抓包或独立测试。原帖由朋友接到卸载应用电话引出，但没有证明该组件造成电话；卸载后是否重装也未研究。本合集未下载应用、连接设备、访问上报端点或验证清理建议，保留未核验分析状态。",
-    "sources":[{"label":"MeT的GPT系统安全组件与录屏分支报告，2026-10-31","url":"https://x.com/i/status/2116504516317376942"},{"label":"补充背景：Android MediaProjectionManager标准授权流程，不验证系统组件实际调用","url":"https://developer.android.com/reference/android/media/projection/MediaProjectionManager"}],
-    "snapshot_date":"2026-10-31", "metadata":["同帖候选397赞、69231浏览、27转发；非独立重复研究。","720×1280／24fps、约3秒与2秒延迟为作者口径，不是动态测试。","补读Android标准MediaProjectionManager文档，描述请求用户同意的Intent；不是HyperOS特权组件的实测，也不能据此确认其走相同流程。文档为检索时背景，不冒充窗口内更新。"],
-    "en":{"title":"HyperOS 3 System Security Component: an author reports GPT analysis of anti-fraud screen capture","summary":"MeT reports app-list, voice anti-fraud and three-second screen-clip cloud-checking implementations found with GPT. Trigger conditions and runtime evidence are absent, not proof of continuous recording or data leakage.","description":"At 20:16:14 Beijing time on October 31, 2026, MeT (@MeTerminator666) reports GPT research on a friend's rooted Xiaomi 14/HyperOS 3 to investigate app-list reporting. Distinct from SystemHelper, the System Security Component reportedly implements submission of third-party app lists, package names, versions, signature digests, names, scan results and impersonation findings to Xiaomi anti-fraud endpoints. The author also reports telephone/QQ/WeChat voice anti-fraud, transcribed text, screen-video cloud checks and user-feedback uploads of original audio, believing the component relates to fraud prevention.\n\nThe described capture path obtains a system screen-recording object, records about three seconds at fixed portrait 720×1280 and 24fps, reads the MP4, Base64-encodes and encrypts it for cloud checking. A negative result deletes the temporary clip and repeats after two seconds; a positive result retains a feedback clip, shows a warning and stops. These numbers and branches are reported code behavior, not measurements here. The post does not identify authorization, session or risk conditions that start the path. This is not evidence that every phone silently records continuously, nor that implemented capability actually caused transmission.\n\nOriginal lookup confirms identity and complete text, but no APK, revision, hash, call chain, permission UI, GPT output, traffic capture or independent tests are supplied. Friends' calls demanding app removal motivate the post, without proving causation by this component. Reinstallation after removal is unexamined. No app was downloaded, device connected, reporting endpoint accessed or cleanup advice validated here. Retained as unverified analysis.","metadata":["Shared candidate: 397 likes, 69,231 views, 27 reposts; not an independent repeat investigation.","720×1280/24fps, about three seconds and a two-second delay are author-reported, not runtime tests.","Supplementary standard Android MediaProjectionManager documentation describes an Intent requesting user consent. This is not testing of a privileged HyperOS component or proof it uses that path. Documentation is lookup-time context, not an in-window update."],"source_labels":["MeT's GPT System Security Component and capture-branch report, October 31, 2026","Supplementary Android MediaProjectionManager consent flow, not validation of the system component's actual calls"]}
+    "summary":"MeT承认GPT旧分析未查启用逻辑；后续二手材料称反诈默认关闭、须授权。录屏能力、实际触发与SystemHelper仍须分开，未做动态验证。",
+    "description":"2026年10月31日20:16:14（北京时间），MeT（@MeTerminator666）用GPT研究朋友已root小米14／HyperOS3，排查应用列表上报。作者报告独立于SystemHelper的系统安全组件有向小米反诈端点提交第三方应用清单、包名、版本、签名摘要、名称、扫描与仿冒结果的实现，另有电话／QQ／微信语音反诈、转写文本、屏幕视频云检测与用户反馈原始音频上传能力，认为与反诈有关。\n\n作者报告录屏分支以720×1280竖屏、24fps录约3秒，读MP4、Base64编码并加密上云检测；未命中删片、延迟2秒继续，命中则保留反馈片段、警告停止。这是代码解读，不是本合集测量，也没有完整调用条件。不能推断所有手机全时静默录屏或已发生外传，更没有证明朋友接到卸载应用电话由该组件导致；卸载后是否重装未研究。\n\n11月8日00:40:27的MeT候选强调GPT结果仅供参考，须自验；补取其00:03:39父帖，作者承认先前未仔细研究启用逻辑并道歉，明确网传SystemHelper录屏／监听／窃取隐私混淆了两组件。系统安全组件具有相关实现，不等于已证实无授权启动。该父帖两版HTTP／AES／RSA解读属于SystemHelper，不能挪到本组件。\n\n02:09:21另一候选转述博主视频，称小米AI反诈开启后可检测微信／QQ音视频，录3秒停2秒、加密上传；并强调默认关闭、需要用户授权。保留这一新增条件，但没有独立查看视频、权限界面或调用日志，不能把转述升为全版本授权保证，也不能把未验证条件写成已偷偷运行。\n\n保留旧Android MediaProjectionManager文档作为标准请求同意Intent的背景，不证明HyperOS特权组件使用同样流程。仍无APK版本、哈希、完整调用链、GPT输出、抓包或独立测试；未下载应用、连接设备、访问端点或验证清理建议，状态保持未核验。",
+    "sources":[{"label":"MeT的GPT系统安全组件与录屏分支报告，2026-10-31","url":"https://x.com/i/status/2116504516317376942"},{"label":"补充背景：Android MediaProjectionManager标准授权流程，不验证系统组件实际调用","url":"https://developer.android.com/reference/android/media/projection/MediaProjectionManager"},{"label":"MeT强调GPT结果须自验，2026-11-08 00:40:27北京时间","url":"https://x.com/i/status/2119107723933663535"},{"label":"补充父帖：MeT承认未细查启用逻辑并区分组件，2026-11-08 00:03:39北京时间","url":"https://x.com/i/status/2119098463682166820"},{"label":"博主视频的二手转述：反诈默认关闭且须授权，2026-11-08 02:09:21北京时间","url":"https://x.com/i/status/2119130097856700624"}],
+    "snapshot_date":"2026-11-08", "metadata":["旧候选397赞、69231浏览、27转发；非独立重复研究。","720×1280／24fps、约3秒与2秒延迟为作者口径，不是动态测试。","Android标准文档描述请求同意Intent；不验证HyperOS特权组件，文档为补充背景。","11月8日MeT候选6赞、1333浏览、0转发；02:09转述12赞、1241浏览、0转发，均为封存快照。"],
+    "en":{"title":"HyperOS 3 System Security Component: GPT screen-capture analysis qualified by activation and consent limits","summary":"MeT acknowledges missing activation logic in earlier GPT analysis. A later retelling says anti-fraud is off by default and requires consent. Capability, actual activation and SystemHelper remain distinct, without runtime validation.","description":"At 20:16:14 Beijing time on October 31, 2026, MeT (@MeTerminator666) uses GPT to investigate app-list reporting on a friend's rooted Xiaomi 14/HyperOS 3. Distinct from SystemHelper, the System Security Component reportedly implements submission of third-party app lists, package names, versions, signature digests, names, scan and impersonation results to Xiaomi anti-fraud endpoints, alongside telephone/QQ/WeChat voice anti-fraud, transcripts, screen-video cloud checking and feedback uploads of original audio. The author associates these with fraud prevention.\n\nThe reported screen-capture branch records about three seconds in portrait 720×1280 at 24fps, reads the MP4, Base64-encodes and encrypts it for cloud checks. A negative result deletes the clip and repeats after two seconds; a positive result retains feedback footage, warns and stops. This is code interpretation, not measurement here, without complete invocation conditions. It does not establish continuous silent recording on all phones or actual uploads, nor causation of friends' app-removal calls. Reinstallation after removal was unexamined.\n\nMeT's November 8, 00:40:27 candidate calls GPT results reference-only and requests verification. Its retrieved 00:03:39 parent apologizes for not carefully researching activation logic and says circulated SystemHelper recording/listening/privacy-theft claims conflate components. Relevant implementations in the System Security Component do not establish unauthorized activation. The parent's HTTP/AES/RSA interpretation for two revisions concerns SystemHelper and is not transferred to this component.\n\nAnother candidate at 02:09:21 relays a blogger's video: enabled Xiaomi AI anti-fraud reportedly checks WeChat/QQ audio/video, records three seconds then pauses two, and uploads encrypted clips. It emphasizes off-by-default behavior and required user consent. This added condition is retained without independent review of the video, consent UI or invocation logs. A retelling is neither a consent guarantee across all revisions nor proof of covert activation.\n\nThe older Android MediaProjectionManager documentation remains context for the standard user-consent Intent, not proof that a privileged HyperOS component follows it. APK revision, hash, full call chain, GPT output, traffic and independent tests remain absent. No app was downloaded, device connected, endpoint accessed or cleanup advice validated. Status stays unverified.","metadata":["Older candidate: 397 likes, 69,231 views, 27 reposts; not an independent repeat investigation.","720×1280/24fps, about three seconds and a two-second delay are author-reported, not runtime tests.","Standard Android docs describe a consent-request Intent, not validation of a privileged HyperOS component; documentation is supplementary context.","November 8 sealed snapshots: MeT candidate, 6 likes, 1,333 views, 0 reposts; 02:09 retelling, 12 likes, 1,241 views, 0 reposts."],"source_labels":["MeT's GPT System Security Component and capture-branch report, October 31, 2026","Supplementary Android MediaProjectionManager consent flow, not validation of the system component's actual calls","MeT asks readers to verify GPT results, November 8, 2026 at 00:40:27 Beijing time","Supplementary parent: MeT acknowledges missing activation logic and separates components, November 8, 2026 at 00:03:39 Beijing time","Second-hand video account: anti-fraud off by default and requiring consent, November 8, 2026 at 02:09:21 Beijing time"]}
   },
   {
     "id":"honda-mapit-rea-deepseek-open-tracker-idea",
@@ -17700,16 +17989,16 @@
     "id": "skyrim-codex-serana-mod-report",
     "title": "Skyrim：Codex 调整瑟拉娜召唤外观并排查 Mod 故障",
     "category": "games", "rea": "other-ai", "status": "unverified",
-    "summary": "作者报告 Codex 修正召唤人物外观、吸血鬼形态、黑脸及随从噪声；引擎现代化逆向只是后续设想。",
-    "description": "10月18日13:16（北京时间），作者说重新安装《上古卷轴5》后，让 Codex 修改已有 Mod：某召唤法术使用原版瑟拉娜外观，他希望改为已装美化后的样子，并美化其吸血鬼大君形态。作者还报告解决黑脸，以及某随从因身形或动画异常持续发出滋滋声的问题，称 Codex 会发现并调用自己已装的工具。\n\n这是对既有游戏内容的AI辅助修改自述，没有Mod名称、工具日志、补丁或前后测试，不能确认具体是否涉及二进制逆向，也不能验证全部故障确已修好。作者最后提出若有精力，或可让 Codex 逆向优化整款老游戏为高性能现代版本；该部分只是 idea，不是已完成引擎重写或性能提升。REA参与未确认，未独立复现。",
-    "sources": [{"label": "Skyrim Mod 调整与后续逆向设想", "url": "https://x.com/i/status/2111687750714032138"}],
-    "snapshot_date": "2026-10-18", "metadata": ["10月18日候选快照2赞、1022浏览；Mod修复为自述，未提供补丁，性能优化未实施。"],
+    "summary": "旧作者报告Codex修复瑟拉娜与随从Mod；另一读者新提AI反编译后加入Morrowind式自定法术与悬浮，两人的引擎设想均未实现验证。",
+    "description": "10月18日13:16（北京时间），作者说重新安装《上古卷轴5》后，让Codex修改已有Mod：某召唤法术使用原版瑟拉娜外观，他希望改为已装美化后的样子，并美化吸血鬼大君形态。作者还报告解决黑脸，以及某随从因身形或动画异常持续发出滋滋声，称Codex会发现并调用已装工具。\n\n这是既有内容的AI辅助修改自述，没有Mod名称、日志、补丁或前后测试，不能确认二进制逆向或全部修复。原作者还设想若有精力可逆向优化整个引擎为高性能现代版本，不是已实现重写或测量到的提升。\n\n2026年11月8日03:59:26（北京时间），另一读者SaarlandGigaSequel（@saargiga2）提出用AI反编译Skyrim，再加回Morrowind的自定法术与悬浮。Morrowind是同系列更早作品；候选是希望恢复其玩法的具体idea，不是已兼容的法术系统。没有模型、引擎版本、代码、规则映射、测试或产物；不把读者愿望当旧作者进展，也不推断需要完整反编译才能做Mod。两者REA均未确认，本合集未运行游戏或独立复现。",
+    "sources": [{"label": "Skyrim Mod 调整与后续逆向设想", "url": "https://x.com/i/status/2111687750714032138"}, {"label": "SaarlandGigaSequel的Morrowind式法术与悬浮idea，2026-11-08 03:59:26北京时间", "url": "https://x.com/i/status/2119157802849780014"}],
+    "snapshot_date": "2026-11-08", "metadata": ["10月18日候选快照2赞、1022浏览；Mod修复为自述，未提供补丁，性能优化未实施。", "11月8日候选封存0赞、浏览数缺失、0转发；新玩法只是独立读者idea。"],
     "en": {
       "title": "Skyrim: Codex adjusts summoned Serana's appearance and investigates mod defects",
-      "summary": "The author reports appearance, vampire-form, black-face and follower-noise fixes; reverse-engineering the engine for modernization is only a later idea.",
-      "description": "At 13:16 Beijing time on October 18, the author says that after reinstalling Skyrim, Codex modified existing mods. A summoning spell used vanilla Serana, and they wanted her installed appearance overhaul instead, also altering her Vampire Lord form. They report fixing black-face problems and a follower's persistent buzzing attributed to body or animation issues, saying Codex discovered and invoked already-installed tools.\n\nThis is an account of AI-assisted modification of existing game content. No mod names, tool logs, patches or before/after tests are provided, so binary reverse engineering specifically and successful resolution of all defects cannot be confirmed. The closing proposal to reverse-engineer and optimize the old game into a high-performance modern version, if time and energy permit, is only an idea, not an engine rewrite or measured performance gain. REA involvement is unconfirmed; no independent reproduction was performed.",
-      "metadata": ["October 18 candidate snapshot: 2 likes, 1,022 views; reported mod fixes lack patches, and performance optimization is not implemented."],
-      "source_labels": ["Skyrim mod changes and subsequent reverse-engineering idea"]
+      "summary": "The earlier author reports Codex fixes to Serana and follower mods. Another reader proposes AI decompilation to add Morrowind-style custom spells and levitation; both engine proposals remain unvalidated ideas.",
+      "description": "At 13:16 Beijing time on October 18, the author says Codex modified existing Skyrim mods after reinstallation. A summoning spell used vanilla Serana, and they wanted her installed appearance overhaul and a changed Vampire Lord form. They report fixing black-face defects and persistent follower buzzing attributed to body or animation issues, saying Codex found and invoked installed tools.\n\nThis is an AI-assisted content-modification account without mod names, logs, patches or before/after tests, not confirmed binary reversing or resolution of every defect. The original author also proposes reverse engineering and optimizing the entire engine into a high-performance modern version if time permits, not an implemented rewrite or measured gain.\n\nAt 03:59:26 Beijing time on November 8, 2026, another reader, SaarlandGigaSequel (@saargiga2), suggests AI decompilation of Skyrim followed by restoring Morrowind's custom spells and levitation. Morrowind is an earlier entry in the same series. This is a concrete wish to restore gameplay, not a compatible spell system already built. Model, engine revision, code, rule mapping, tests and artifacts are absent. The reader's wish is not the earlier author's progress, nor proof full decompilation is required for mods. REA is unconfirmed in both accounts; no game was run or independently reproduced here.",
+      "metadata": ["October 18 candidate snapshot: 2 likes, 1,022 views; reported mod fixes lack patches, and performance optimization is not implemented.", "November 8 sealed candidate: 0 likes, views unavailable, 0 reposts. The gameplay proposal is an independent reader's idea."],
+      "source_labels": ["Skyrim mod changes and subsequent reverse-engineering idea", "SaarlandGigaSequel proposes Morrowind-style spells and levitation, November 8, 2026 at 03:59:26 Beijing time"]
     }
   },
   {
@@ -20134,8 +20423,8 @@
     "category": "apps",
     "status": "in-progress",
     "rea": "REA",
-    "summary": "研究 Codex 电脑操作和浏览器功能，以便其他模型在独立框架中使用。",
-    "description": "Hars 正让帖子中称为 Astra、配置为 xHigh 的模型，配合 REA 研究 Codex 的 CuA（电脑操作）、应用内浏览器、Chrome 快照导入及浏览器扩展。目标是让另一模型（原帖称 5.6 Luna Low）在 Hermes 一类 Agent 框架中获得相近的电脑操作能力。这是明确的互通研究任务；这些模型代号沿用作者用语，帖子仍在询问方案是否可行，未报告完成。10月15日本窗口，另一位用户 @sigaoed 报告将 Codex computer-use MCP 给 Claude 使用时遇到进程签名限制，计划用 REA 研究并 fork。补查父串确认具体互通目标；另一用户回复称自己仍能使用，说明不是已证实的普遍限制。后者是独立用户的待尝试方案，不将其说成 Hars 的进度，也不确认已有可用 fork 或签名绕过实现。父串10月15日01:01的建议是追溯背景，不是本窗口新增候选。",
+    "summary": "研究Codex电脑操作供其他模型使用；Magdiel新增安装CUA、让deep研究Codex方法后有效的自述，没有可复现接口或兼容日志。",
+    "description": "Hars正让帖子中称为Astra、配置为xHigh的模型，配合REA研究Codex的CuA（电脑操作）、应用内浏览器、Chrome快照导入及浏览器扩展，目标让5.6 Luna Low在Hermes一类Agent框架获得相近能力。代号沿用作者写法，当时仍在问可行性而非宣布完成。10月15日另一用户@sigaoed称把Codex computer-use MCP给Claude时遇到进程签名限制，计划REA研究并fork；父串另有人称仍可使用，不是普遍限制。两用户不当Hars团队，亦未确认可用fork或签名绕过；10月15日01:01父帖只作背景。\n\n2026年11月8日01:16:51（北京时间），Magdiel Silva（@magdiel_rb）说自己安装CUA，让deep做Codex方法的REA研究，对自己效果很好。补取01:05:36父帖：Carlos Ribeiro说被OpenAI harness的computer use绑定，想试Vercel agent desktop作为替代，解释互通动机。deep按原文保留，不能确认DeepSeek具体版本；也不证明Carlos实际尝试了替代方案。\n\n这是独立用户的后续体验，不是Hars原任务完成。没有CUA实现或版本、方法列表、桥接源码、签名状态、系统、测试日志或操作准确率；好用不能证明所有限制解除。REA为用户用语，未运行CUA、安装依赖、接触账户或修改harness。",
     "sources": [
       {
         "label": "本周期公开来源",
@@ -20148,25 +20437,37 @@
       {
         "label": "此前父串：Codex电脑操作MCP供Opus使用（背景）",
         "url": "https://x.com/i/status/2110415588438733222"
+      },
+      {
+        "label": "Magdiel的CUA安装与deep研究Codex方法体验，2026-11-08 01:16:51北京时间",
+        "url": "https://x.com/i/status/2119116885279244373"
+      },
+      {
+        "label": "补充父帖：Carlos谈computer-use绑定与替代harness，2026-11-08 01:05:36北京时间",
+        "url": "https://x.com/i/status/2119114053792534936"
       }
     ],
-    "snapshot_date": "2026-10-12",
+    "snapshot_date": "2026-11-08",
     "metadata": [
       "发帖：2026-10-12T09:50:40+08:00（北京时间）",
-      "热度快照（2026-10-12）：0 赞｜59 浏览｜0 转发"
+      "热度快照（2026-10-12）：0 赞｜59 浏览｜0 转发",
+      "11月8日候选封存2赞、363浏览、0转发；用户主观体验，不是接口验证。"
     ],
     "en": {
       "title": "Codex computer-use interoperability research",
-      "summary": "An ongoing REA-assisted investigation of browser and computer-use features for another model in an independent agent harness.",
-      "description": "Hars is using a model the post calls Astra, configured at xHigh, with REA to study Codex's CuA (computer use), in-app browser, Chrome snapshot import and browser extension. The goal is to give another model—called 5.6 Luna Low in the post—similar computer-control capabilities within agent frameworks such as Hermes. This is a concrete interoperability research task. Model names follow the author's wording; the post still asks whether the approach is feasible and reports no completion. In the October 15 window, another user, @sigaoed, reports a process-signature restriction when using Codex's computer-use MCP with Claude and plans to investigate and fork it using REA. Reading the parent thread confirmed the specific interoperability goal; another user replies that it still works for them, so a universal restriction is not established. The latter is a separate user's proposed attempt, not Hars's progress, and establishes neither a working fork nor a signature-bypass implementation. The parent thread's October 15, 01:01 suggestion is historical context, not a new candidate in this window.",
+      "summary": "Research aims to expose Codex computer use to other models. Magdiel adds a positive account of installing CUA and having deep study Codex methods, without reproducible interfaces or compatibility logs.",
+      "description": "Hars uses a model called Astra at xHigh with REA to study Codex CuA (computer use), its in-app browser, Chrome snapshot import and browser extension, aiming to give 5.6 Luna Low similar capabilities in a harness such as Hermes. Codenames follow the author's wording; the original post asks about feasibility rather than announcing completion. On October 15, @sigaoed reports process-signature restrictions using Codex's computer-use MCP with Claude and proposes an REA investigation and fork. Another parent-thread user says it still works, so a universal restriction is not established. These users are not Hars's team, and no working fork or signature bypass is confirmed. The October 15, 01:01 parent is background only.\n\nAt 01:16:51 Beijing time on November 8, 2026, Magdiel Silva (@magdiel_rb) says CUA was installed and deep was asked to perform REA research into Codex's methods, with very good results personally. The retrieved 01:05:36 parent has Carlos Ribeiro describing dependence on OpenAI's computer-use harness and considering Vercel agent desktop as an alternative, explaining the interoperability motivation. Deep is preserved as written, without identifying a specific DeepSeek revision or claiming Carlos actually tried the alternative.\n\nThis is an independent user's later experience, not completion of Hars's original task. CUA implementation/revision, method inventory, bridge code, signature state, OS, test logs and action accuracy are absent. Works well does not establish removal of all restrictions. REA follows the user's terminology. No CUA was run, dependencies installed, accounts accessed or harnesses modified here.",
       "metadata": [
         "Posted: 2026-10-12T09:50:40+08:00 (Beijing time)",
-        "Engagement snapshot (2026-10-12): 0 likes | 59 views | 0 reposts"
+        "Engagement snapshot (2026-10-12): 0 likes | 59 views | 0 reposts",
+        "November 8 sealed candidate: 2 likes, 363 views, 0 reposts. Subjective user experience, not interface validation."
       ],
       "source_labels": [
         "Public source from this review",
         "This window: another user's MCP signature restriction and REA plan",
-        "Earlier parent thread: Codex computer-use MCP for Opus (background)"
+        "Earlier parent thread: Codex computer-use MCP for Opus (background)",
+        "Magdiel reports CUA installation and deep investigating Codex methods, November 8, 2026 at 01:16:51 Beijing time",
+        "Supplementary parent: Carlos discusses computer-use dependence and an alternative harness, November 8, 2026 at 01:05:36 Beijing time"
       ]
     }
   },

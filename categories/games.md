@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [OpenVersus争议：FGCALERT转述Claude反编译与未署名复制功能的指控](../cases/openversus-claude-decompilation-attribution-allegation.md) — 转述指控OVS用Claude分析MVSI、Beta+和FDAVersus构建并复制功能；未核验原始证据、代码对比或项目方回应。 **[其他 AI 逆向 · 待验证]**
+- [硬盘损坏后重建自发游戏：Aditya称逆向找回2020年项目](../cases/aditya-2020-game-corrupt-hdd-ai-recovery.md) — 作者说2020年发布的自有游戏源码因HDD损坏丢失，已逆向并正重建待重发；没有游戏名、工具或发布验证。 **[其他 AI 逆向 · 进行中]**
+- [Age of Empires II HD进浏览器：shellbear称Claude／REA重建，联机仍是期待](../cases/shellbear-aoe2hd-claude-rea-browser-rebuild.md) — 作者称AoE2 HD已在浏览器跑起来、由Claude与REA完整反编译；视频附件不证明覆盖率，浏览器多人模式尚未报告实现。 **[REA · 进行中]**
 - [泡泡龙式消除到塔防：墨无归的REA本地重构试作](../cases/moblacksoil-rea-bubble-shooter-tower-defense-prototype.md) — 墨无归称约半小时研究并重构一款泡泡龙式游戏，保留动作反馈改试塔防；换素材、数值与设计仍待做，未报告盈利。 **[REA · 进行中]**
 - [Subway Surfers金币逻辑：morsen转述Claude Code单会话研究](../cases/morsen-claude-subway-surfers-coin-logic-report.md) — morsen称Claude Code在root Android上研究金币并修改余额；反作弊绕过与完全自主为未核验说法，不提供操作步骤。 **[其他 AI 逆向 · 待验证]**
 - [本地AI修改DOS纵向射击游戏：Popular AI的Windows教程介绍](../cases/popularai-local-agent-rea-ghidra-dos-shooter-tutorial.md) — Popular AI介绍在Windows上用本地Agent、REA和Ghidra修改90年代DOS纵向射击游戏；未取得教程正文、游戏名或修改结果。 **[REA · 待验证]**
@@ -279,7 +282,7 @@
 - [Bloodborne_pc：Opus 参与重编译与图形优化的读者转述](../cases/bloodborne-pc-opus-recompile-reader-report.md) — 父帖展示Jgamrot/Supermedo的Bloodborne_pc画面，回复者称Opus做了大量逆向优化；未核验架构与运行记录。 **[其他 AI 逆向 · 待验证]**
 - [T6 rollback：AI 辅助恢复旧游戏在线功能的社区讨论](../cases/t6-ai-rollback-online-restoration-report.md) — 补审确认讨论目标为T6 rollback；回复者描述AI辅助社区逆向，但未提供代码、测试或发布。 **[其他 AI 逆向 · 待验证]**
 - [PD Saga：反编译后用自有资产重做的 Claude idea](../cases/pd-saga-claude-remake-idea.md) — 读者建议将 PD Saga 交给 Claude 反编译，再用自选引擎和自有资产重做；没有实施报告。 **[其他 AI 逆向 · 待验证]**
-- [Skyrim：Codex 调整瑟拉娜召唤外观并排查 Mod 故障](../cases/skyrim-codex-serana-mod-report.md) — 作者报告 Codex 修正召唤人物外观、吸血鬼形态、黑脸及随从噪声；引擎现代化逆向只是后续设想。 **[其他 AI 逆向 · 待验证]**
+- [Skyrim：Codex 调整瑟拉娜召唤外观并排查 Mod 故障](../cases/skyrim-codex-serana-mod-report.md) — 旧作者报告Codex修复瑟拉娜与随从Mod；另一读者新提AI反编译后加入Morrowind式自定法术与悬浮，两人的引擎设想均未实现验证。 **[其他 AI 逆向 · 待验证]**
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](../cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](../cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](../cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**

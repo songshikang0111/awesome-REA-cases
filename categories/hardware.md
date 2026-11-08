@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Educator 64 KERNAL：Scientific Brad称REA识别8KB ROM并重组哈希一致](../cases/scientificbrad-educator64-kernal-rea-rom-reassembly.md) — 作者报告REA／Ghidra识别901246-01 ROM，反汇编后重组SHA256一致，并做PowerShell内运行的原生概念版；不是完整机器兼容性证明。 **[REA · 分析测试]**
+- [Marshall Stanmore II维修：Javier问Claude后仍无法提取固件](../cases/javier-marshall-stanmore2-claude-firmware-extraction-attempt.md) — 坏音箱的固件读取受阻；Claude关于锁芯片、访问会擦除的答复未做硬件验证，不等于已确认无法修复。 **[其他 AI 逆向 · 进行中]**
+- [键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁](../cases/mantikafasi-claude-keyboard-firmware-live-music-display.md) — 作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。 **[其他 AI 逆向 · 进行中]**
+- [家中两台电视盒：susu计划用REA重构，成功后再考虑出售](../cases/susu-two-tv-boxes-rea-refactoring-idea.md) — 具体设备研究idea，作者表达想用REA与Claude改造两台自有盒子；尚无型号、系统、实现或商业结果。 **[REA · 待验证]**
+- [Apple Watch当Mac鼠标：Eikichi转述Claude辅助传感器与蓝牙研究](../cases/eikichi-apple-watch-mac-mouse-claude-report.md) — 转述称手腕移动光标、点按点击、长按拖动和表冠滚动；源码、直接蓝牙与离线实现未验证，未确认具体开发者。 **[其他 AI 逆向 · 待验证]**
 - [Vino显示驱动：okey_amy转述AI辅助Rust净室逆向与停止要求](../cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — 帖子称Vino以AI辅助Rust净室逆向实现显示驱动，并遭Synaptics停止要求；未取得通知原文、源码或兼容性测试。 **[其他 AI 逆向 · 待验证]**
 - [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](../cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](../cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
