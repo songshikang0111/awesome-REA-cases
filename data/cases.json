@@ -1,5 +1,57 @@
 [
   {
+    "id": "futurebit-appollo-claude-daisychain-firmware-idea",
+    "title": "FutureBit矿机固件idea：Takuri计划用Claude Code让从机菊花链连接主机",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Takuri打算为现有FutureBit矿机写自定义固件，让从机与主机菊花链协作；只是具体互通目标，未报告固件分析、实现或刷写结果。",
+    "description": "2026年11月9日06:48:31（北京时间），Takuri（@egoalter）说准备使用Claude Code为自己的FutureBit比特币矿机开发固件，让从机以菊花链方式与主机协作。帖子将设备写作appollo，此处保留原文目标称呼，不据此确定准确型号或硬件版本。补取原帖确认作者、时间和全文。\n\n这是面向现有设备通信与功能扩展的具体AI辅助固件idea，尚不是已完成逆向案例。作者未提供原厂固件、总线协议、连接拓扑、分析过程、自定义代码、刷写、运行日志或算力测量；也没有说已绕过保护、提升挖矿性能或证明多机稳定。不能假设设备采用某接口或某种协议。REA未提及，本合集未连接矿机、下载固件或执行测试。",
+    "sources": [{"label": "Takuri的FutureBit appollo自定义固件与菊花链计划，2026-11-09", "url": "https://x.com/i/status/2119562740633317551"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照0赞、28浏览、0转发；about to表示计划开始，不是实现完成。"],
+    "en": {
+      "title": "FutureBit miner firmware idea: Takuri plans Claude Code-assisted daisy chaining to a master",
+      "summary": "Takuri intends to write custom firmware for existing FutureBit miners so slave units work in a daisy chain with a master. This is an interoperability goal, without reported firmware analysis, implementation or flashing results.",
+      "description": "At 06:48:31 Beijing time on November 9, 2026, Takuri (@egoalter) says they are about to use Claude Code to develop firmware for their FutureBit Bitcoin miners, enabling slave units to work in a daisy chain with the master. The post spells the device appollo; that wording is preserved rather than used to establish an exact model or hardware revision. Retrieval confirms author, timestamp and full text.\n\nThis is a concrete AI-assisted firmware idea for communication and feature extension on existing devices, not a completed reverse-engineering result. The author supplies no factory firmware, bus protocol, topology, analysis process, custom code, flashing or runtime logs, or hashrate measurement. They do not report bypassing protection, improved mining performance or stable multi-device operation. No interface or protocol is assumed. REA is not mentioned. This collection did not connect miners, download firmware or run tests.",
+      "metadata": ["Sealed snapshot: 0 likes, 28 views, 0 reposts. About to indicates an intended start, not completed implementation."],
+      "source_labels": ["Takuri's FutureBit appollo custom-firmware and daisy-chain plan, November 9, 2026"]
+    }
+  },
+  {
+    "id": "project-avalanche-ssx2012-claude-bevy-reimplementation",
+    "title": "Project Avalanche：Claude辅助研究SSX 2012光盘与行为，以Rust／Bevy重建PC版",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "MnkyArts公开SSX 2012的原生Windows／Linux重实现，明确归因Claude辅助格式和行为研究；项目称滑雪、存档与服务器已接入，但无人完整通关，未解码行为仍有近似。",
+    "description": "2026年11月9日06:34:13（北京时间），The Gaming Emporium（@McGroin83）介绍MnkyArts的Project Avalanche：将EA的Xbox 360滑雪游戏SSX（2012）带到现代PC，研究原盘数据与游戏行为，再以Rust和Bevy独立重实现，不是运行Xbox 360模拟器或静态重编译。补查公开项目README，固定到208af62913ea8b8f3f32a9530123783516aa83cc（11月9日00:14:15北京时间）后确认文本与读取版本一致。此项目记录早于候选、在本窗口之外，只作补充证据，不冒充新的候选帖子。\n\n项目明确写明Claude辅助开发，原始格式来自维护者自有零售光盘、行为来自游戏代码。致谢列出Ghidra经GhidraMCP供工具研究，以及ImHex、Kaitai Struct等结构分析工具；未见REA使用声明。文档称已在单窗口接入开场影片、菜单、新建档案、World Tour／Explore、滑雪物理、HUD、音乐语音音效、比赛结果与保存进度。启动器从用户自有Xbox 360 ISO提取约4.7 GB数据，另有Windows／Linux构建、专用服务器、公网列表及LAN发现，支持Luau脚本、地图和模式Mod；这些是项目描述，不是本合集实跑结果。自动更新说明保留存档与数据，不据此保证升级无风险。\n\n项目称尽可能对零售盘核验，包括解析器的全盘验证、与游戏代码和参考解码器对照，但没有人完整通关；尚未解码的行为以TODO(guess)标注近似和待解决的地址或问题。构建及CI命令只是文档，不是本合集执行日志；不宣称全流程可玩、原版物理等价、联机稳定或所有机器兼容。Linux文档要求Vulkan、ALSA及Wayland／X11，构建基于Ubuntu 24.04 x86-64及相应或更新glibc，不等于任意Linux均支持。\n\n自有代码标MIT，原SSX及光盘内容仍属EA；项目说仓库与构建不含游戏数据，用户须自备合法取得的兼容零售盘镜像。本合集只读取原帖、公开元数据和固定README，未下载发行包、游戏资产、执行目标代码、构建或试玩；项目自述核验不等于独立复现。",
+    "sources": [
+      {"label": "The Gaming Emporium的Project Avalanche介绍，2026-11-09 06:34:13北京时间", "url": "https://x.com/i/status/2119559143551799341"},
+      {"label": "补充项目README：固定2026-11-09 00:14:15北京时间提交，含AI归因与未通关边界", "url": "https://github.com/MnkyArts/ProjectAvalanche/blob/208af62913ea8b8f3f32a9530123783516aa83cc/README.md"}
+    ],
+    "snapshot_date": "2026-11-09",
+    "metadata": ["候选封存快照4赞、327浏览、1转发；补取原帖浏览数已变化，保留封存值。约4.7 GB为项目提取数据规模，非重建源码规模或正确率。"],
+    "en": {
+      "title": "Project Avalanche: Claude-assisted SSX 2012 disc and behavior research rebuilt in Rust/Bevy",
+      "summary": "MnkyArts publishes a native Windows/Linux reimplementation of SSX 2012, explicitly crediting Claude-assisted format and behavior research. Snowboarding, saves and servers are documented, but nobody has completed a playthrough and undecoded behavior remains approximate.",
+      "description": "At 06:34:13 Beijing time on November 9, 2026, The Gaming Emporium (@McGroin83) introduces MnkyArts' Project Avalanche: bringing EA's Xbox 360 snowboarding game SSX (2012) to modern PCs by researching disc data and game behavior and independently reimplementing them in Rust and Bevy, rather than Xbox 360 emulation or static recompilation. Supplementary review pinned the public README to 208af62913ea8b8f3f32a9530123783516aa83cc, committed November 9 at 00:14:15 Beijing time, and confirmed that its text matches the version read. This record predates the candidate and falls outside the current window; it is supplementary evidence, not another candidate post.\n\nThe project explicitly credits Claude-assisted development, formats studied from the maintainer's own retail disc and behavior read from game code. Credits list Ghidra exposed to tools through GhidraMCP, plus ImHex and Kaitai Struct for structural analysis; REA use is not claimed. Documentation describes boot movies, menus, new profiles, World Tour/Explore, rider physics, HUD, music, speech, effects, results and saved progress in one window. The launcher extracts approximately 4.7 GB from the user's own Xbox 360 ISO. Windows/Linux builds, dedicated servers, public listing and LAN discovery, Luau scripts, maps and gamemode mods are documented. These are project descriptions, not runs by this collection. The updater reportedly preserves saves and data; that is not a guarantee of risk-free upgrades.\n\nThe project reports retail-disc checks wherever possible, including whole-disc parser validation and comparisons against game code and reference decoders. Nevertheless, nobody has completed a full playthrough. Undecoded behavior is marked TODO(guess), with the address or open question that could resolve each approximation. Build and CI commands are documentation, not execution logs obtained here. End-to-end playability, equivalent original physics, stable networking and universal compatibility are not established. Linux documentation requires Vulkan, ALSA and Wayland/X11; builds target Ubuntu 24.04 x86-64 and its glibc or newer, not every Linux system.\n\nOriginal project code is marked MIT, while SSX and its disc contents remain EA's property. The project says its repository and builds contain no game data; users need a legally obtained compatible retail-disc image. This collection read the post, public metadata and pinned README only. No release, game asset or target code was downloaded or executed, and no build or playtest was performed. Project-reported checks are not independent reproduction.",
+      "metadata": ["Sealed candidate: 4 likes, 327 views, 1 repost. Views changed on retrieval; sealed values are retained. Approximately 4.7 GB describes extracted game data, not reconstructed source size or correctness."],
+      "source_labels": ["The Gaming Emporium introduces Project Avalanche, November 9, 2026 at 06:34:13 Beijing time", "Supplementary project README pinned to the November 9, 2026 00:14:15 Beijing-time commit, with AI attribution and no-full-playthrough limit"]
+    }
+  },
+  {
+    "id": "squadrons-ai-decompile-coop-campaign-idea",
+    "title": "Star Wars: Squadrons反编译idea：Javier希望用AI Mod做现代战役合作体验",
+    "category": "games", "rea": "unknown", "status": "unverified",
+    "summary": "Javier Pacheco受AI游戏Mod启发，希望反编译Squadrons，制作X-wing对TIE fighter的现代合作战役；帖子是愿望，没有开发或成果声明。",
+    "description": "2026年11月9日05:30:37（北京时间），Javier Pacheco（@Yogi915）提到近期AI游戏Mod，希望有人反编译Star Wars: Squadrons，做一款现代的X-wing对TIE fighter战役合作游戏，认为Squadrons值得更好的延续。这里的X-wing与TIE fighter是作者描述的星战战机对抗体验，不据此声称恢复了其他同名游戏代码。补取原帖确认署名和措辞。\n\n收录的是有明确原作与用途的AI辅助逆向idea，而不是作者宣布立项。没有模型、REA、反编译方法、源码、合作模式设计或可玩构建，也没有表明任何工作已开始；AI是动机背景，实际使用工具尚未知。本合集未获取游戏或执行分析，不声称突破保护、恢复原作服务或具备版权授权。",
+    "sources": [{"label": "Javier Pacheco的Squadrons反编译与合作战役愿望，2026-11-09", "url": "https://x.com/i/status/2119543137907421620"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照2赞、56浏览、0转发；I hope是愿望，不能写成正在开发。"],
+    "en": {
+      "title": "Star Wars: Squadrons decompilation idea: Javier hopes AI mods can enable a modern co-op campaign",
+      "summary": "Inspired by AI game mods, Javier Pacheco hopes someone will decompile Squadrons for a modern X-wing-versus-TIE-fighter co-op campaign. This is a wish, not a development or results announcement.",
+      "description": "At 05:30:37 Beijing time on November 9, 2026, Javier Pacheco (@Yogi915) refers to recent AI game mods and hopes someone will decompile Star Wars: Squadrons to make a modern X-wing-versus-TIE-fighter campaign co-op game, saying Squadrons deserved better. X-wing and TIE fighter describe the desired Star Wars combat experience here; this does not establish recovery of code from other similarly named games. Retrieval confirms attribution and wording.\n\nRetained as an AI-assisted reverse-engineering idea with a named original and concrete use, not an announcement that the poster has started a project. No model, REA usage, decompilation method, source, co-op design or playable build is supplied, nor any claim that work has begun. AI is the motivating context; actual tooling remains unknown. This collection obtained no game and performed no analysis, and does not claim protection bypass, restored original services or copyright permission.",
+      "metadata": ["Sealed snapshot: 2 likes, 56 views, 0 reposts. I hope expresses a wish, not ongoing development."],
+      "source_labels": ["Javier Pacheco's Squadrons decompilation and co-op-campaign wish, November 9, 2026"]
+    }
+  },
+  {
     "id": "kindle2-codex-4bpp-refresh-home-hooks",
     "title": "2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home",
     "category": "hardware", "rea": "other-ai", "status": "in-progress",

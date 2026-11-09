@@ -10,12 +10,12 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1948 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1951 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（395）
-- [硬件与设备互通](categories/hardware.md)（520）
+- [游戏与游戏保存](categories/games.md)（397）
+- [硬件与设备互通](categories/hardware.md)（521）
 - [应用与客户端](categories/apps.md)（796）
 - [算法与功能重建](categories/algorithms.md)（237）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Project Avalanche：Claude辅助研究SSX 2012光盘与行为，以Rust／Bevy重建PC版](cases/project-avalanche-ssx2012-claude-bevy-reimplementation.md) — MnkyArts公开SSX 2012的原生Windows／Linux重实现，明确归因Claude辅助格式和行为研究；项目称滑雪、存档与服务器已接入，但无人完整通关，未解码行为仍有近似。 **[其他 AI 逆向 · 进行中]**
+- [Star Wars: Squadrons反编译idea：Javier希望用AI Mod做现代战役合作体验](cases/squadrons-ai-decompile-coop-campaign-idea.md) — Javier Pacheco受AI游戏Mod启发，希望反编译Squadrons，制作X-wing对TIE fighter的现代合作战役；帖子是愿望，没有开发或成果声明。 **[未确认使用 REA · 待验证]**
 - [单机血量地址：REA与CheatEngine接DeepSeek探索、Opus解阻](cases/singleplayer-health-pointer-rea-cheatengine-model-handoff.md) — 作者描述寻找血量地址、指针链与持久化Mod的双模型交接，以学习和单机为限；未给游戏、地址、可重放结果或费用日志。 **[REA · 待验证]**
 - [tlou-remastered-pc：转述Claude辅助PS4系统库与Windows原生运行时](cases/tlou-remastered-pc-claude-native-runtime.md) — Hasibul Hasan称项目以原生PS4库、直接x86-64执行和shadPS4 Vulkan核心运行最后生还者重制版；可玩程度与兼容性尚未核验。 **[其他 AI 逆向 · 进行中]**
 - [Commodore 128：Scientific Brad自报61KB ROM重汇编哈希一致与双CPU演示](cases/scientificbrad-commodore128-rea-rom-reassembly.md) — 作者报告REA／Ghidra研究Commodore 128 ROM，重汇编SHA-256一致，并重建8502＋Z80模拟器启动BASIC 7.0；未取得日志或独立复测。 **[REA · 待验证]**
@@ -424,6 +426,7 @@
 
 ### 硬件与设备互通
 
+- [FutureBit矿机固件idea：Takuri计划用Claude Code让从机菊花链连接主机](cases/futurebit-appollo-claude-daisychain-firmware-idea.md) — Takuri打算为现有FutureBit矿机写自定义固件，让从机与主机菊花链协作；只是具体互通目标，未报告固件分析、实现或刷写结果。 **[其他 AI 逆向 · 待验证]**
 - [2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home](cases/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted称Codex修改旧Kindle显示转换与Home钩子，软件翻页响应中位数约430降至330–340毫秒；为单机自测，非独立复现或整机刷新保证。 **[其他 AI 逆向 · 进行中]**
 - [8bitdo手柄维修失败：Ernest称Claude分析固件三小时后变砖](cases/ernest-8bitdo-claude-firmware-brick-report.md) — 作者为解决蓝牙连接异常让Claude分析手柄固件，报告最终完全变砖；没有型号、修改记录或恢复诊断，不能据此证明模型退化。 **[其他 AI 逆向 · 待验证]**
 - [单图机械蜻蜓：f0rgent转述Claude推断铰链、齿轮与频率](cases/elvar-claude-dragonfly-image-mechanism-report.md) — 回复elvar_official的帖子称Claude从一张蜻蜓图反推机械结构；公差、频率与可制造性均未有测量或实体测试。 **[其他 AI 逆向 · 待验证]**

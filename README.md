@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 1948 cases & projects
+# 1951 cases & projects
 
-**Latest case update:** November 9, 2026, 04:15 · **Last maintained:** November 9, 2026, 04:15 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 9, 2026, 08:05 · **Last maintained:** November 9, 2026, 08:05 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -29,7 +29,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 3. **[LDraw Mecha: make a static LEGO mechanism move](cases/en/ldraw-mecha-semantic-parts-blender-motion.md)** · `2026-11-08` report and pinned v0.5.0 docs (Beijing time) — **Infer mechanisms from annotated parts text, then map matching nodes into Blender rigs.** Public motion and clearance checks retain their limits: plausible animation is not physical feasibility, the 42043 demo covers only the crane, and Linux/WSL2 paths are untested. Not run here. `Related project`
 4. **[scapectl: control a Fractal Scape headset without the web app](cases/en/scapectl-fractal-scape-claude-usb-hid.md)** · `2026-10-29` — **Claude Code-assisted USB HID research and a public Go tray app/CLI** for status, EQ presets and device events. Documents hardware corrections to source labels; macOS/Windows project-tested, Linux untested. Unsigned/unnotarized; not run here. `In progress`
 5. **[REA Launcher SDK: help your own old games run again](cases/en/makita-rea-launcher-sdk-retro-games.md)** · `2026-11-03` author report and project record — Fabio Makita shares **Rust, Wine and packaging mechanisms from retro-racing launchers**, with agent research and human checkpoints. Original game folders stay read-only by project policy; fixes need per-game verification. Bring your own games; the claimed 90% is an estimate, not compatibility coverage. Not built here. `In progress`
-6. **[Pokémon Bank: keep transfers local on a 3DS](cases/en/wokann-pokemon-bank-mover-codex-offline-patch.md)** · `2026-11-01` report and project record — Wokann explicitly credits Codex for decompilation analysis and patch work. A **public local-server patch preserves Bank/Mover workflows**, not the official backend; **no HOME transfer**. Requires your own supported titles and save backups; not run here. `In progress`
+6. **[Project Avalanche: rebuild SSX for modern PCs](cases/en/project-avalanche-ssx2012-claude-bevy-reimplementation.md)** · `2026-11-09` report and pinned project docs (Beijing time) — **Claude-assisted disc-format and behavior research becomes a Rust/Bevy reimplementation**, with documented Windows/Linux builds, snowboarding, saves and dedicated servers. Nobody has completed a full playthrough; undecoded behavior remains approximate. Bring your own Xbox 360 disc image; not built or played here. `In progress`
 7. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 8. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
 9. **[A 2009 Kindle 2, with a faster reading path](cases/en/kindle2-codex-4bpp-refresh-home-hooks.md)** · `2026-11-09` author report (Beijing time) — Radacted credits Codex with **4bpp driver optimization, selective partial refresh and a cover-based Home**. Reported median software page response falls from **430 to 330–340 ms**, not a whole-screen refresh measurement. Single-device checks only; no public patch or raw logs, and the battery remains weak. Not run here. `In progress`
@@ -50,8 +50,8 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **395** |
-| [Hardware & interoperability](categories/en/hardware.md) | **520** |
+| [Games & preservation](categories/en/games.md) | **397** |
+| [Hardware & interoperability](categories/en/hardware.md) | **521** |
 | [Applications & clients](categories/en/apps.md) | **796** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **237** |
 

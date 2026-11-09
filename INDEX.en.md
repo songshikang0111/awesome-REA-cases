@@ -10,14 +10,14 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**1948 entries**, organized by use case, without a Top-N or popularity threshold.
+**1951 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (395)
-- [Hardware and interoperability](categories/en/hardware.md) (520)
+- [Games and preservation](categories/en/games.md) (397)
+- [Hardware and interoperability](categories/en/hardware.md) (521)
 - [Applications and clients](categories/en/apps.md) (796)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (237)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
@@ -28,6 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Project Avalanche: Claude-assisted SSX 2012 disc and behavior research rebuilt in Rust/Bevy](cases/en/project-avalanche-ssx2012-claude-bevy-reimplementation.md) — MnkyArts publishes a native Windows/Linux reimplementation of SSX 2012, explicitly crediting Claude-assisted format and behavior research. Snowboarding, saves and servers are documented, but nobody has completed a playthrough and undecoded behavior remains approximate. **[Other AI-assisted work · In progress]**
+- [Star Wars: Squadrons decompilation idea: Javier hopes AI mods can enable a modern co-op campaign](cases/en/squadrons-ai-decompile-coop-campaign-idea.md) — Inspired by AI game mods, Javier Pacheco hopes someone will decompile Squadrons for a modern X-wing-versus-TIE-fighter co-op campaign. This is a wish, not a development or results announcement. **[REA use unconfirmed · Needs verification]**
 - [Single-player health pointers: DeepSeek exploration and Opus handoffs through REA and CheatEngine](cases/en/singleplayer-health-pointer-rea-cheatengine-model-handoff.md) — The poster describes finding health addresses, pointer chains and persistent mods through two-model handoffs, limited to learning in single-player. Game, addresses, replayable results and billing logs are absent. **[REA · Needs verification]**
 - [tlou-remastered-pc: reported Claude-assisted PS4 libraries and a native Windows runtime](cases/en/tlou-remastered-pc-claude-native-runtime.md) — Hasibul Hasan describes native PS4 libraries, direct x86-64 execution and shadPS4's Vulkan core for The Last of Us Remastered. Playability and compatibility remain unverified. **[Other AI-assisted work · In progress]**
 - [Commodore 128: Scientific Brad reports exact ROM reassembly hashes and a dual-CPU demonstration](cases/en/scientificbrad-commodore128-rea-rom-reassembly.md) — The author reports REA/Ghidra research into 61KB of Commodore 128 ROMs with matching SHA-256, plus an 8502+Z80 emulator booting BASIC 7.0. Logs and independent retests were not obtained. **[REA · Needs verification]**
@@ -426,6 +428,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [FutureBit miner firmware idea: Takuri plans Claude Code-assisted daisy chaining to a master](cases/en/futurebit-appollo-claude-daisychain-firmware-idea.md) — Takuri intends to write custom firmware for existing FutureBit miners so slave units work in a daisy chain with a master. This is an interoperability goal, without reported firmware analysis, implementation or flashing results. **[Other AI-assisted work · Needs verification]**
 - [2009 Kindle 2: Codex-assisted 4bpp driver, partial-refresh and cover-Home changes](cases/en/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted reports Codex-assisted driver conversion and Home hooks, with median software page response falling from about 430 to 330–340 ms. These are single-device author tests, not independent reproduction or whole-display refresh guarantees. **[Other AI-assisted work · In progress]**
 - [Failed 8bitdo repair: Ernest says three hours of Claude firmware work ended in a brick](cases/en/ernest-8bitdo-claude-firmware-brick-report.md) — The author asked Claude to analyze controller firmware for Bluetooth connection trouble and reports a complete brick. Model, changes and recovery diagnostics are absent; this does not establish model regression. **[Other AI-assisted work · Needs verification]**
 - [Single-image mechanical dragonfly: f0rgent relays Claude-inferred hinges, gears and frequencies](cases/en/elvar-claude-dragonfly-image-mechanism-report.md) — A reply to elvar_official claims Claude inferred a dragonfly mechanism from one image. Tolerances, frequencies and manufacturability lack measurements or physical tests. **[Other AI-assisted work · Needs verification]**
