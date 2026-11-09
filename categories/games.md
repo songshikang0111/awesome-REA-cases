@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Dark Souls on PS2：yibie转述AI参与的重制版到PS2 homebrew重建](../cases/dark-souls-ps2-homebrew-ai-secondary-report.md) — yibie介绍将Dark Souls Remastered重建为PS2 homebrew、为VU1改写引擎的项目；AI披露与83星为转述，没有可玩性或性能验证。 **[其他 AI 逆向 · 待验证]**
+- [Football Manager付费Mod争议：kadeito指称AI逆向制作人脸、球场与球衣插件](../cases/football-manager-ai-paywall-mods-community-allegation.md) — kadeito批评Football Manager的AI付费插件，列出£2.50人脸、£10球场、£3球衣，并在同串归因Claude；没有具体插件代码或作者确认，不把相似外观当AI证据。 **[其他 AI 逆向 · 待验证]**
+- [时之笛重制版到iPhone Duo：转述Ammaar Reshi的Gemini演示及删片争议](../cases/reshi-ocarina-iphone-duo-gemini-secondary-report.md) — 帖子称Ammaar Reshi用Gemini4反编译时之笛重制版并在iPhone Duo演示，后因批评删片；未取得演示、源码或原声明，不作移植或侵权判定。 **[其他 AI 逆向 · 待验证]**
 - [The Matrix Online：Marina Rosa询问是否有人用AI研究这款网络游戏](../cases/matrix-online-ai-reversing-preservation-idea.md) — Marina Rosa提出用AI逆向The Matrix Online的具体方向，但只是寻找项目的提问，没有报告自己已开始或任何可运行成果。 **[其他 AI 逆向 · 待验证]**
 - [BO7 Custom map V2：JacksonVey用AI测试自定义资产，Niko称反编译搜索受益](../cases/jacksonvey-bo7-custom-map-ai-viability-prototype.md) — Niko称AI加快BO7反编译和搜索；同串作者JacksonVey271说明自定义地图仅是私有资产可行性测试，不计划发布，不能推成游戏破解已完成。 **[其他 AI 逆向 · 进行中]**
 - [自有游戏应用：Rohit称REA复刻95%，仍缺部分声音与音乐](../cases/rohit-rea-own-game-95-percent-audio-gap.md) — Rohit Saluja报告在自己的一个游戏应用上测试REA，主观称95%被重建；声音缺口与后端来源只是作者观察及猜测，没有可运行产物或覆盖率依据。 **[REA · 待验证]**
@@ -67,7 +70,7 @@
 - [Pirates of the Caribbean Online：Play For Blood自述AI逆向MMORPG重建](../cases/play-for-blood-potco-ai-recreation.md) — 作者声称重建2013版海盗网游，封测可玩并计划一个月后公开；没有代码或可复核测试，不确认首创。 **[其他 AI 逆向 · 待验证]**
 - [MechWarrior 3：REA／Ghidra研究后逐函数重写C++，公开现代平台重建](../cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md) — Owen Morgan公开1999年机甲游戏的现代C++重建，项目称以Unicorn对照原版；支持三平台、宽屏与八人联机的说法未在本合集实测。 **[REA · 进行中]**
 - [3DO ODE菜单争议：AI反编译重建说法与原作者代码复制指控并存](../cases/fixel-3do-ode-menu-ai-rebuild-dispute.md) — rodrigotadeusp在3DO光驱模拟器菜单争议中提到AI反编译Fixel boot；Todd Gill指控界面及内部代码被复制，未做字节比较或授权判断。 **[其他 AI 逆向 · 待验证]**
-- [游戏反编译请求对照：Major Matters报告Gemini CLI拒绝差异，不是移植成功率](../cases/major-matters-game-decompile-agent-refusal-test.md) — 自有卡带反编译／Mario64个人PC移植请求在多个Agent与裸模型上获不同响应；作者给出8/8、10/10与14/20，未实际构建游戏。 **[其他 AI 逆向 · 分析测试]**
+- [游戏反编译请求对照：Major Matters报告Gemini CLI拒绝差异，不是移植成功率](../cases/major-matters-game-decompile-agent-refusal-test.md) — Major Matters的69会话游戏请求实验新增转述：Gemini CLI反编译拒2/10、个人移植拒4/10；均为响应而非游戏构建或法律判断。 **[其他 AI 逆向 · 分析测试]**
 - [AI辅助反作弊idea：Liexy Liu建议Infinity Ward研究作弊插件](../cases/infinityward-ai-cheat-plugin-reversing-detection-idea.md) — 读者建议以AI研究作弊插件来帮助检测作弊玩家；只是面向Infinity Ward的建议，没有样本、检测器或误报数据。 **[其他 AI 逆向 · 待验证]**
 - [Lode Runner第十一代AI：REA掉金预测接近，得分出错且均分下降](../cases/nextcode-lode-runner-rea-gold-drop-prediction.md) — NextCode第八代用REA读ROM预测掉金差两帧；第十一代第三关预测差十帧但得分错，第五关三次未触发，均分低于第十代。 **[REA · 分析测试]**
 - [《奶霸》网页版：林亦LYi称AI研究《街霸2》，加奶龙招式与低重力月球关](../cases/linyilyi-naiba-street-fighter2-ai-web-remix.md) — 林亦LYi报告AI辅助街霸2网页版奶霸，新增完整流程讲解入口；三招与月球关仍只属作者报告，没有ROM反编译或机制等价证明。 **[其他 AI 逆向 · 待验证]**

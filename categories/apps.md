@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [波特兰州立恶意软件课程：Claude接REMnux MCP，未观察到不等于行为不存在](../cases/portland-malware-course-claude-remnux-observation-limits.md) — 日语转述CS492/592的AI分析教学与环境比较：Claude Code可接REMnux MCP，无害测试程序在Speakeasy静默漏掉持久化和名称解析；这些不是AI检测准确率。 **[其他 AI 逆向 · 相关项目]**
+- [Hangar参考图重建：unfazed与NotRajo争论Claude研究是否算逆向](../cases/hangar-reference-claude-clone-method-dispute.md) — unfazed说给Claude参考Hangar与图片已构成研究，NotRajo承认克隆但否认下载或逆向；讨论也指出UX过简，不证明恢复原实现。 **[其他 AI 逆向 · 待验证]**
+- [HoldToType：Marcus称Claude Code与REA重建Wispr Flow的按键本地听写部分](../cases/marcus-holdtotype-wispr-flow-rea-whisper.md) — Marcus报告按住键说话、松开后在光标处输入的Mac工具，采用本地Whisper，称不上传、无订阅；只重建其日常使用部分，不是全部Wispr Flow等价。 **[REA · 待验证]**
+- [Reverse Engineer Grok Bot：SixteeN称自建带证据的应用与API研究重建机器人](../cases/sixteen-grok-reverse-engineer-bot-project.md) — SixteeN介绍六Bot配置中的Reverse Engineer，宣称研究App、网站、API与二进制，再做可运行版本并附证据；未给目标或输出，整套省四小时不作该Bot工时。 **[未确认使用 REA · 相关项目]**
+- [私人助手重建idea：Tricky Buddha用AI设计profile，再拟以技能动作组合减少额度](../cases/tricky-buddha-private-assistant-profile-reconstruction.md) — Tricky Buddha称正做iOS与Chrome私人助手，反推AI profile与程序后模拟技能/动作组合以省额度，并把敏感数据分仓；尚无实现或安全证明。 **[其他 AI 逆向 · 进行中]**
 - [macOS无障碍树：木言提出用AXUIElement和Swift替代截图猜点击坐标](../cases/daily-aidev-macos-accessibility-swift-computer-use.md) — 木言将macOS无障碍树研究用于Computer Use，宣传原生Swift调度引擎；0ms、100%坐标及零费用未经测试，读取系统API不等于恢复私有实现。 **[其他 AI 逆向 · 相关项目]**
 - [Linux逆向工具冒烟测试：丰收称REA 6.8.0跑通JS，18个仓库仅5个在本机可用](../cases/fengshou-linux-rea-680-reversing-tool-smoke-tests.md) — 丰收报告本机REA的JS分析、Frida回传、mitmproxy响应、angr函数扫描和Rizin构建；这些不同层次的冒烟检查不是五款工具完成同一逆向目标的成功率。 **[REA · 分析测试]**
 - [OGhidra：用本地或云模型驱动Ghidra的计划、执行与复核](../cases/oghidra-llnl-plan-execute-review-binary-analysis.md) — LLNL公开OGhidra，让模型调查函数、字符串与导入、批量命名和生成报告；文档有GhidraMCP与PyGhidra两条路径，未独立验证检测能力或分析正确率。 **[其他 AI 逆向 · 相关项目]**
@@ -10,7 +15,7 @@
 - [加密avatar仍被提取：ZaiBitez指称AI逆向绕过防护](../cases/encrypted-avatar-ai-ripping-allegation.md) — ZaiBitez称自己的avatar原有防提取加密，被AI逆向后盗取；没有方案、工具或日志，保留指控而不确认密码被破解。 **[未确认使用 REA · 待验证]**
 - [agenC演示转述：一小时从DOS二进制到Web应用，缓存率不是正确率](../cases/agenc-dos-binary-webapp-autonomous-report.md) — kakashikute宣传agenC自主研究DOS二进制并重建Web应用，称缓存效率99.7%；没有目标名、产物或兼容性测试。 **[其他 AI 逆向 · 待验证]**
 - [Windows上的iPhone Mirror：Opus投屏重建说法与WDA控制边界](../cases/windows-iphone-mirror-opus-airplay-wda-report.md) — 0xCodez称用Opus 5.5做Windows iPhone镜像，描述系统投屏和WDA操作；不能等同苹果原生iPhone Mirroring协议已还原。 **[其他 AI 逆向 · 待验证]**
-- [0安全harness：多模型二进制研究、并行复现与补丁验证的发布转述](../cases/zero-security-labs-multimodel-reversing-harness.md) — Peak__Twilight介绍0securitylabs的开源AI安全工作台，称发现30余Linux内核零日；未取得漏洞编号、披露或复现，数量不作核验成果。 **[其他 AI 逆向 · 相关项目]**
+- [0安全harness：多模型二进制研究、并行复现与补丁验证的发布转述](../cases/zero-security-labs-multimodel-reversing-harness.md) — 0项目转述补充二进制0verse路径、独立会话复现与不同设置的93/95、81/104、45/104基准；未读固定代码或漏洞清单，计数不作独立验证。 **[其他 AI 逆向 · 相关项目]**
 - [Claude／ChatGPT客户端指纹：2WalterW的REA自述不是封号规则还原](../cases/claude-chatgpt-sim-device-fingerprint-rea-claim.md) — 2WalterW称研究Claude/ChatGPT后看到SIM、时区和设备字段；没有客户端版本、调用路径或服务端证据，不能确认封禁算法。 **[REA · 待验证]**
 - [Airtable克隆：Mokoena自述用Claude Code密集逆向开发](../cases/claude-code-airtable-clone-ban-self-report.md) — Mokoena称用Claude Code构建Airtable克隆，包含大量逆向；没有功能清单或验收，封号关联只是个人猜测。 **[其他 AI 逆向 · 进行中]**
 - [注册机研究：Goge自述ds拒绝后由Gemini完成](../cases/goge-gemini-keygen-ds-refusal-self-report.md) — Goge称付费软件逆向注册机任务被ds拒绝、Gemini做了；未命名目标、模型版本或提供可验证产物，仅记录拒绝差异。 **[其他 AI 逆向 · 待验证]**

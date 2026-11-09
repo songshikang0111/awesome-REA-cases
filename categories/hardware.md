@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Divoom Pixoo：Joel称研究原App的Wi-Fi通信后用ChatGPT与MCP控制像素屏](../cases/joel-carpenter-divoom-pixoo-chatgpt-mcp.md) — Joel Carpenter原想让Claude root并刷固件，实际报告只研究原App通信就做了连接器，让ChatGPT显示日历、照片和表格指标；三分钟与纯本地能力未测。 **[其他 AI 逆向 · 待验证]**
+- [出租屋LG电视：Kevin Theo用Claude做欢迎页与Pi重置，发现PlayReady残留登录](../cases/kevin-theo-lg-webos-rental-reset-playready.md) — Kevin Theo报告三台已停更LG电视显示六语欢迎页，Pi在两三分钟内清除上一位住客登录；Netflix还需处理隐藏PlayReady存储。代码与实机测试由AI和人分工，未独立重跑。 **[其他 AI 逆向 · 进行中]**
+- [ZX Spectrum重建：Scientific Brad称REA恢复Z80与硬件，50FPS仍要等磁带](../cases/scientificbrad-zx-spectrum-z80-rea-reconstruction.md) — Scientific Brad称用百万量级AI token和现代处理器重建Z80与ZX Spectrum硬件、达到50FPS，仍保留磁带加载等待；没有指令、时序或兼容测试。 **[REA · 待验证]**
 - [FutureBit矿机固件idea：Takuri计划用Claude Code让从机菊花链连接主机](../cases/futurebit-appollo-claude-daisychain-firmware-idea.md) — Takuri打算为现有FutureBit矿机写自定义固件，让从机与主机菊花链协作；只是具体互通目标，未报告固件分析、实现或刷写结果。 **[其他 AI 逆向 · 待验证]**
 - [Razer Basilisk X：Agent研究更新器后在Mac刷固件，蓝牙仍不能配对](../cases/razer-basilisk-x-mac-agent-updater-reflash.md) — Kiryl Y报告Agent逆向仅Windows提供的Razer更新器，在Mac重刷Basilisk X HyperSpeed，但没有修好蓝牙重连；配对状态存储位置仍是作者推断。 **[未确认使用 REA · 进行中]**
 - [2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home](../cases/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted称Codex修改旧Kindle显示转换与Home钩子，软件翻页响应中位数约430降至330–340毫秒；为单机自测，非独立复现或整机刷新保证。 **[其他 AI 逆向 · 进行中]**
@@ -11,7 +14,7 @@
 - [旧G-RAID管理：Carlos称Claude读控制器固件并重建Apple Silicon应用](../cases/carlos-graid-claude-native-apple-silicon-app.md) — Carlos自报Claude转储旧G-RAID控制器固件、映射协议并做原生Mac管理应用；未披露型号、源码或存储安全测试。 **[其他 AI 逆向 · 待验证]**
 - [家居自动化服务器：deafsquad称Claude研究固件后接入配置CI与Git](../cases/deafsquad-home-automation-firmware-claude-ci.md) — 作者自述花数月让Claude逆向自家自动化服务器固件，为配置与工具建立CI和Git版本管理；品牌、改动及实机验收未披露。 **[其他 AI 逆向 · 待验证]**
 - [GPU固件适配：Michael Wegener称编码Agent持续循环数天研究与打补丁](../cases/mwsatware-agent-loop-gpu-firmware-patching.md) — Michael Wegener以GPU固件逆向与硬件环境补丁为编码Agent长循环例子；未披露GPU型号、补丁、工具链或实机验收。 **[其他 AI 逆向 · 进行中]**
-- [Mac上的Omarchy：Sachin转述Asahi基础上的AI辅助硬件适配](../cases/sachin-omarchy-asahi-mac-ai-driver-report.md) — Sachin称Omarchy借Asahi逆向与AI agents推进Touch ID、M3 GPU和深睡眠；没有对应补丁、机型或硬件测试，不能作为Mac支持矩阵。 **[其他 AI 逆向 · 待验证]**
+- [Mac上的Omarchy：AI硬件适配与Asahi依赖的相互冲突转述](../cases/sachin-omarchy-asahi-mac-ai-driver-report.md) — Sachin和me_deepu转述AI推进Touch ID、M3 GPU等适配；Miklos反驳Omarchy依赖Asahi及洁净室前提。无补丁或硬件测试，争议不能作Mac支持矩阵。 **[其他 AI 逆向 · 待验证]**
 - [照片到键帽CAD：VedaAI00转述大模型重建凹槽、拔模角与十字轴槽](../cases/veda-keycap-photo-parametric-cad-report.md) — 单张实物图反推参数键帽几何的转述，包含顶部球冠凹槽、四周拔模斜角与底部十字槽；没有尺寸、CAD文件、模型名或制造验证。 **[其他 AI 逆向 · 待验证]**
 - [建筑模型图到ForgeCAD：VedaAI00重提Ruben用Codex逐图迭代的旧实验](../cases/ruben-forgecad-codex-architecture-image-reconstruction.md) — 本窗评论链接追到Ruben在5月2日UTC／5月3日北京时间用GPT-5.5／Codex于ForgeCAD重做architecture model series 20首个模型；无源文件、几何精度或STEP分析验收。 **[其他 AI 逆向 · 待验证]**
 - [第12代Paperwhite：InvestingVault转述Adrian用Claude Code配合公开文档越狱](../cases/adrian-paperwhite12-claude-docs-jailbreak-report.md) — 为回应KOReader使用问题，InvestingVault转述Adrian的Paperwhite越狱经历；没有步骤、固件版本或原始验证，不是Kindle Scribe指南。 **[其他 AI 逆向 · 待验证]**
@@ -22,7 +25,7 @@
 - [键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁](../cases/mantikafasi-claude-keyboard-firmware-live-music-display.md) — 作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。 **[其他 AI 逆向 · 进行中]**
 - [家中两台电视盒：susu计划用REA重构，成功后再考虑出售](../cases/susu-two-tv-boxes-rea-refactoring-idea.md) — 具体设备研究idea，作者表达想用REA与Claude改造两台自有盒子；尚无型号、系统、实现或商业结果。 **[REA · 待验证]**
 - [Apple Watch当Mac鼠标：Eikichi转述Claude辅助传感器与蓝牙研究](../cases/eikichi-apple-watch-mac-mouse-claude-report.md) — 转述称手腕移动光标、点按点击、长按拖动和表冠滚动；源码、直接蓝牙与离线实现未验证，未确认具体开发者。 **[其他 AI 逆向 · 待验证]**
-- [Vino显示驱动：okey_amy转述AI辅助Rust净室逆向与停止要求](../cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — 帖子称Vino以AI辅助Rust净室逆向实现显示驱动，并遭Synaptics停止要求；未取得通知原文、源码或兼容性测试。 **[其他 AI 逆向 · 待验证]**
+- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](../cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的Rust显示驱动转述新增Claude协议研究与Synaptics拟追收法律文件费用说法；未取得原通知或测试，停止要求不等于侵权裁决。 **[其他 AI 逆向 · 待验证]**
 - [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](../cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](../cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
 - [手机系统桌面崩溃：李天才的AI逆向失败经历](../cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
