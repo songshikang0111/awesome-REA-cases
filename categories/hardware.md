@@ -45,7 +45,7 @@
 - [第一代Tidbyt重新用起来：kobez称Codex协助自定义固件和API](../cases/kobez-tidbyt-gen1-codex-custom-firmware-api.md) — kobez称闲置的gen1 Tidbyt已运行自定义固件，并做API连接OpenClaw与本地服务；固件来源和修改方法未公开，不能认定从零逆向或完全离线。 **[其他 AI 逆向 · 进行中]**
 - [REDMI K20 Pro刷iOS16.5：测试固件发布的未核验转述](../cases/redmi-k20-pro-ios165-ai-port-secondary-report.md) — 资讯帖称开发者“你说喜欢是装的”放出REDMI K20 Pro的iOS16.5测试固件，以大模型辅助折腾旧机为背景；启动、驱动和AI具体参与均未核实。 **[其他 AI 逆向 · 待验证]**
 - [Hackintosh实验转述：新增ACPI／SSDT方法说法，启动仍未核验](../cases/hackintosh-ai-reverse-engineering-experiment-report.md) — 较早转述保留演示未核验与许可提醒；新帖描述让模型对照XNU从ACPI转储生成SSDT补丁，只称几分钟静态验证，未证实两帖同一设备或启动。 **[其他 AI 逆向 · 待验证]**
-- [iFIT跑步机屏幕：转述Claude固件研究后安装流媒体，未核验安全与可用性](../cases/ifit-treadmill-claude-screen-unlock-secondary-report.md) — 中文帖子称海外开发者用Claude Code研究iFIT跑步机固件，一天半后解除屏幕限制安装流媒体；没有型号、原始报告或测试，不能确认解锁成功。 **[其他 AI 逆向 · 待验证]**
+- [iFIT跑步机屏幕：转述Claude固件研究后安装流媒体，未核验安全与可用性](../cases/ifit-treadmill-claude-screen-unlock-secondary-report.md) — iFIT屏幕解锁的较晚转述增加Android 9、本地HTTP电机服务及Updater处理，声称CPU从80%降至15%；无型号、原始报告或测量，时间与旧转述不同。 **[其他 AI 逆向 · 待验证]**
 - [破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本](../cases/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty报告GPT用ScanRuler工具从破损铸件的3D扫描生成首版副本，承认底部法兰更厚、细节仍粗；尚无打印、装配或尺寸验证。 **[其他 AI 逆向 · 进行中]**
 - [Mac显卡驱动互通设想：Shivam Jain建议Claude与REA，移植说法待核实](../cases/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain建议Claude搭配REA做GPU互通，援引未具名NVIDIA驱动到Mac的说法，并提Huawei开放替代与AMD固件合作；没有项目或硬件验证。 **[REA · 待验证]**
 - [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](../cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**

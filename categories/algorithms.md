@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [冰后与岩兽：sandmrk为Muse反推23.6秒风暴战斗片，明确仍不能匹配](../cases/sandmrk-muse-ice-empress-rock-beast-236s-prompt.md) — sandmrk把冰后、霜龙与岩兽战斗拆成三段Muse生成规格，锁定角色比例、特效生命周期与紫色结尾；公开提示不是原始Prompt恢复或成功复刻。 **[其他 AI 逆向 · 待验证]**
 - [离线搜索重建idea：用双空格、排序与分页查出视觉演示漏项](../cases/rea-offline-search-behavior-spec-edgecase-test.md) — satoshiwhynot建议先观察原版写行为规格，再隔离实现Agent并输入对照；离线搜索只是讲解样例，没有运行结果。 **[REA · 待验证]**
 - [TED-Ed夜间谜题风格：Bajan让Claude按逐帧规格用Canvas重建](../cases/ted-ed-riddle-claude-canvas-style-rebuild.md) — Bajan公开1920×1080谜题短片视觉、运动与声音规格，以Canvas时间函数、无头Chrome和ffmpeg重制；相似度与零成本没有独立验证。 **[其他 AI 逆向 · 待验证]**
 - [两部手机作前端：0xwhippa的多模型固件读取器实验](../cases/two-phone-multi-model-firmware-reader-report.md) — 0xwhippa称电脑调度Sonnet写固件读取程序、四个Haiku并行搜索、Opus终审；固件、代码与验收未公开，两部手机只是输入和监看。 **[其他 AI 逆向 · 待验证]**
@@ -198,7 +199,7 @@
 - [Alvosec：逆向智能合约复盘攻击，再用 Agent 找漏洞](../cases/alvosec-contract-attack-agent-reconstruction.md) — Alvosec称已重建攻击者流程并用AI Agent识别漏洞，外部测试与协助修补仍是下一步。 **[其他 AI 逆向 · 进行中]**
 - [神经反编译研究：从专用模型到变量与类型恢复](../cases/neural-decompilation-research-survey.md) — 日语综述串起 LLM4Decompile、DIRTY 与黑盒合成；补查2024年论文确认模型目标，不采纳闭源保护已经失效的结论。 **[其他 AI 逆向 · 相关项目]**
 - [Claude Bun 单文件：REA 提取证据后让 Gemini 重写 gzip 判定](../cases/claude-bun-gzip-gemini-rea-test.md) — jiangkoumo_ 报告拆包后重写一个 gzip 判定函数，69,121组自测通过；这不是直接反编译整个 Native 客户端。 **[REA · 分析测试]**
-- [SoftProtect：100 行对抗样本使 REA 停止分析的自测](../cases/softprotect-ai-adversarial-rea-test.md) — TokenRebate 称新增 AI 样本对抗后，REA 分析半小时放弃；未公开样本或完整记录，不证明通用防逆向。 **[REA · 分析测试]**
+- [SoftProtect：从REA放弃自测，到本地源码泄漏与未开VM的重测纠错](../cases/softprotect-ai-adversarial-rea-test.md) — TokenRebate新增两轮用户演示：REA先循Debug路径读到本地源码，删源码后仍部分还原，但未启用VM；不能据此宣称保护通破或已证明VM有效。 **[REA · 分析测试]**
 - [二进制库：先分析原实现，再写替代代码](../cases/binary-library-rewrite.md) — 分析二进制库并重写；库名和评测细节未公开。 **[REA]**
 - [DownUnderCTF：从校验程序中找出正确输入](../cases/masked-squares-ctf.md) — 恢复校验约束，用 Z3 求出被原程序接受的输入。 **[REA]**
 - [Aegis：还原验证器 App 的一次性验证码计算](../cases/aegis-totp.md) — 从验证器 APK 提取验证码逻辑并做多实现对照。 **[REA]**

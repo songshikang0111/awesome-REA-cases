@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 1954 cases & projects
+# 1960 cases & projects
 
-**Latest case update:** November 9, 2026, 12:14 · **Last maintained:** November 9, 2026, 12:14 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 9, 2026, 16:16 · **Last maintained:** November 9, 2026, 16:16 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: follow binary evidence, infer LEGO mechanisms, keep devices useful and preserve games. These picks favor inspectable implementations and explicit test limits over broad cloning claims. The full index also keeps stalled reconstructions, early ideas and research previews; inclusion is not proof of success. Dates below are source or author-update dates, not collection dates.
+**10 worth reading**: follow binary evidence, infer LEGO mechanisms, keep devices useful and preserve games. Inspectable implementations and honest test corrections matter more than broad cloning claims. The full index also keeps early ideas and stalled attempts; inclusion is not proof of success. Dates below are source or author-update dates, not collection dates.
 
 1. **[XRef: who writes this binary field?](cases/en/alex09x-xref-serialized-status-writer-walkthrough.md)** · `2026-11-07` author post; `2026-11-06` pinned docs — **Trace serialized keys to candidate writers and instruction evidence**, with public Rust/JSON/MCP tools for analysts and agents. Rankings are heuristic, x86-64 input support is bounded, and live probes can disturb the target. Not run here. `Related project`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -32,7 +32,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 6. **[Project Avalanche: rebuild SSX for modern PCs](cases/en/project-avalanche-ssx2012-claude-bevy-reimplementation.md)** · `2026-11-09` report and pinned project docs (Beijing time) — **Claude-assisted disc-format and behavior research becomes a Rust/Bevy reimplementation**, with documented Windows/Linux builds, snowboarding, saves and dedicated servers. Nobody has completed a full playthrough; undecoded behavior remains approximate. Bring your own Xbox 360 disc image; not built or played here. `In progress`
 7. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 8. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
-9. **[A 2009 Kindle 2, with a faster reading path](cases/en/kindle2-codex-4bpp-refresh-home-hooks.md)** · `2026-11-09` author report (Beijing time) — Radacted credits Codex with **4bpp driver optimization, selective partial refresh and a cover-based Home**. Reported median software page response falls from **430 to 330–340 ms**, not a whole-screen refresh measurement. Single-device checks only; no public patch or raw logs, and the battery remains weak. Not run here. `In progress`
+9. **[SoftProtect: did REA reverse it—or find the source?](cases/en/softprotect-ai-adversarial-rea-test.md)** · `2026-11-09` author correction — **The first apparent recovery followed Debug paths to local source.** Deleting it still allowed partial recovery, but VM protection was off; no VM-enabled result is supplied. A useful test-design correction, not proof of universal defeat or protection. Not rerun here. `Analysis test`
 10. **[Redivivus: recover Diablo II through reviewed database proposals](cases/en/redivivus-diablo2-ghidra-agent-proposals.md)** · `2026-11-08` report and pinned project docs — **Claude/MCP agents inspect read-only Ghidra databases and propose evidence-backed corrections.** The project reports a single-player playthrough and **7,772/14,626 matching functions** under its address-normalized comparison; not a whole-EXE match. Crashes remain, x64 compilation is not playable x64 support, and users need their own game. Not rebuilt here. `In progress`
 
 
@@ -50,10 +50,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **397** |
+| [Games & preservation](categories/en/games.md) | **400** |
 | [Hardware & interoperability](categories/en/hardware.md) | **522** |
-| [Applications & clients](categories/en/apps.md) | **798** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **237** |
+| [Applications & clients](categories/en/apps.md) | **800** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **238** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

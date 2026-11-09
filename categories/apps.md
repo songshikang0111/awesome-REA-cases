@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [macOS无障碍树：木言提出用AXUIElement和Swift替代截图猜点击坐标](../cases/daily-aidev-macos-accessibility-swift-computer-use.md) — 木言将macOS无障碍树研究用于Computer Use，宣传原生Swift调度引擎；0ms、100%坐标及零费用未经测试，读取系统API不等于恢复私有实现。 **[其他 AI 逆向 · 相关项目]**
+- [Linux逆向工具冒烟测试：丰收称REA 6.8.0跑通JS，18个仓库仅5个在本机可用](../cases/fengshou-linux-rea-680-reversing-tool-smoke-tests.md) — 丰收报告本机REA的JS分析、Frida回传、mitmproxy响应、angr函数扫描和Rizin构建；这些不同层次的冒烟检查不是五款工具完成同一逆向目标的成功率。 **[REA · 分析测试]**
 - [OGhidra：用本地或云模型驱动Ghidra的计划、执行与复核](../cases/oghidra-llnl-plan-execute-review-binary-analysis.md) — LLNL公开OGhidra，让模型调查函数、字符串与导入、批量命名和生成报告；文档有GhidraMCP与PyGhidra两条路径，未独立验证检测能力或分析正确率。 **[其他 AI 逆向 · 相关项目]**
 - [Word的Rust重建转述：课程宣传称只观察行为与公开规格，项目仍未识别](../cases/word-rust-observed-behavior-course-claim.md) — gvk77在AI逆向课程推广中称某团队不读Word源码、用Rust重建；未给团队、仓库、文档兼容测试或具体AI操作，不能称完整Office替代。 **[未确认使用 REA · 待验证]**
 - [479个DLL到1700余界面项：DeepSeek／REA架构研究漏掉GUI映射](../cases/large-app-479-dll-1700-gui-rea-model-handoff.md) — _ToiM22称DeepSeek读取477个DLL后，Claude构建仍漏功能；最终回到Claude枚举菜单和截图，暴露静态映射与界面覆盖差距。 **[REA · 进行中]**
@@ -193,7 +195,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](../cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](../cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；新增Bitburner→Roblox用户记录显示v0.5.0在Windows／Codex下会卡住，90秒Godot检查超时，doctor健康不等于重建完成。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything的macOS v0.5.0用户测试补充Deep静态提取、默认模式拒读内部与三宽SSIM方法；仍有动态工具未验证，不能用工具数量或相似度证明完整克隆。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](../cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](../cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](../cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**

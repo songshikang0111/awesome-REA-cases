@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1954 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1960 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（397）
+- [游戏与游戏保存](categories/games.md)（400）
 - [硬件与设备互通](categories/hardware.md)（522）
-- [应用与客户端](categories/apps.md)（798）
-- [算法与功能重建](categories/algorithms.md)（237）
+- [应用与客户端](categories/apps.md)（800）
+- [算法与功能重建](categories/algorithms.md)（238）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [The Matrix Online：Marina Rosa询问是否有人用AI研究这款网络游戏](cases/matrix-online-ai-reversing-preservation-idea.md) — Marina Rosa提出用AI逆向The Matrix Online的具体方向，但只是寻找项目的提问，没有报告自己已开始或任何可运行成果。 **[其他 AI 逆向 · 待验证]**
+- [BO7 Custom map V2：JacksonVey用AI测试自定义资产，Niko称反编译搜索受益](cases/jacksonvey-bo7-custom-map-ai-viability-prototype.md) — Niko称AI加快BO7反编译和搜索；同串作者JacksonVey271说明自定义地图仅是私有资产可行性测试，不计划发布，不能推成游戏破解已完成。 **[其他 AI 逆向 · 进行中]**
+- [自有游戏应用：Rohit称REA复刻95%，仍缺部分声音与音乐](cases/rohit-rea-own-game-95-percent-audio-gap.md) — Rohit Saluja报告在自己的一个游戏应用上测试REA，主观称95%被重建；声音缺口与后端来源只是作者观察及猜测，没有可运行产物或覆盖率依据。 **[REA · 待验证]**
 - [Project Avalanche：Claude辅助研究SSX 2012光盘与行为，以Rust／Bevy重建PC版](cases/project-avalanche-ssx2012-claude-bevy-reimplementation.md) — MnkyArts公开SSX 2012的原生Windows／Linux重实现，明确归因Claude辅助格式和行为研究；项目称滑雪、存档与服务器已接入，但无人完整通关，未解码行为仍有近似。 **[其他 AI 逆向 · 进行中]**
 - [Star Wars: Squadrons反编译idea：Javier希望用AI Mod做现代战役合作体验](cases/squadrons-ai-decompile-coop-campaign-idea.md) — Javier Pacheco受AI游戏Mod启发，希望反编译Squadrons，制作X-wing对TIE fighter的现代合作战役；帖子是愿望，没有开发或成果声明。 **[未确认使用 REA · 待验证]**
 - [单机血量地址：REA与CheatEngine接DeepSeek探索、Opus解阻](cases/singleplayer-health-pointer-rea-cheatengine-model-handoff.md) — 作者描述寻找血量地址、指针链与持久化Mod的双模型交接，以学习和单机为限；未给游戏、地址、可重放结果或费用日志。 **[REA · 待验证]**
@@ -469,7 +472,7 @@
 - [第一代Tidbyt重新用起来：kobez称Codex协助自定义固件和API](cases/kobez-tidbyt-gen1-codex-custom-firmware-api.md) — kobez称闲置的gen1 Tidbyt已运行自定义固件，并做API连接OpenClaw与本地服务；固件来源和修改方法未公开，不能认定从零逆向或完全离线。 **[其他 AI 逆向 · 进行中]**
 - [REDMI K20 Pro刷iOS16.5：测试固件发布的未核验转述](cases/redmi-k20-pro-ios165-ai-port-secondary-report.md) — 资讯帖称开发者“你说喜欢是装的”放出REDMI K20 Pro的iOS16.5测试固件，以大模型辅助折腾旧机为背景；启动、驱动和AI具体参与均未核实。 **[其他 AI 逆向 · 待验证]**
 - [Hackintosh实验转述：新增ACPI／SSDT方法说法，启动仍未核验](cases/hackintosh-ai-reverse-engineering-experiment-report.md) — 较早转述保留演示未核验与许可提醒；新帖描述让模型对照XNU从ACPI转储生成SSDT补丁，只称几分钟静态验证，未证实两帖同一设备或启动。 **[其他 AI 逆向 · 待验证]**
-- [iFIT跑步机屏幕：转述Claude固件研究后安装流媒体，未核验安全与可用性](cases/ifit-treadmill-claude-screen-unlock-secondary-report.md) — 中文帖子称海外开发者用Claude Code研究iFIT跑步机固件，一天半后解除屏幕限制安装流媒体；没有型号、原始报告或测试，不能确认解锁成功。 **[其他 AI 逆向 · 待验证]**
+- [iFIT跑步机屏幕：转述Claude固件研究后安装流媒体，未核验安全与可用性](cases/ifit-treadmill-claude-screen-unlock-secondary-report.md) — iFIT屏幕解锁的较晚转述增加Android 9、本地HTTP电机服务及Updater处理，声称CPU从80%降至15%；无型号、原始报告或测量，时间与旧转述不同。 **[其他 AI 逆向 · 待验证]**
 - [破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本](cases/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty报告GPT用ScanRuler工具从破损铸件的3D扫描生成首版副本，承认底部法兰更厚、细节仍粗；尚无打印、装配或尺寸验证。 **[其他 AI 逆向 · 进行中]**
 - [Mac显卡驱动互通设想：Shivam Jain建议Claude与REA，移植说法待核实](cases/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain建议Claude搭配REA做GPU互通，援引未具名NVIDIA驱动到Mac的说法，并提Huawei开放替代与AMD固件合作；没有项目或硬件验证。 **[REA · 待验证]**
 - [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**
@@ -951,6 +954,8 @@
 
 ### 应用与客户端
 
+- [macOS无障碍树：木言提出用AXUIElement和Swift替代截图猜点击坐标](cases/daily-aidev-macos-accessibility-swift-computer-use.md) — 木言将macOS无障碍树研究用于Computer Use，宣传原生Swift调度引擎；0ms、100%坐标及零费用未经测试，读取系统API不等于恢复私有实现。 **[其他 AI 逆向 · 相关项目]**
+- [Linux逆向工具冒烟测试：丰收称REA 6.8.0跑通JS，18个仓库仅5个在本机可用](cases/fengshou-linux-rea-680-reversing-tool-smoke-tests.md) — 丰收报告本机REA的JS分析、Frida回传、mitmproxy响应、angr函数扫描和Rizin构建；这些不同层次的冒烟检查不是五款工具完成同一逆向目标的成功率。 **[REA · 分析测试]**
 - [OGhidra：用本地或云模型驱动Ghidra的计划、执行与复核](cases/oghidra-llnl-plan-execute-review-binary-analysis.md) — LLNL公开OGhidra，让模型调查函数、字符串与导入、批量命名和生成报告；文档有GhidraMCP与PyGhidra两条路径，未独立验证检测能力或分析正确率。 **[其他 AI 逆向 · 相关项目]**
 - [Word的Rust重建转述：课程宣传称只观察行为与公开规格，项目仍未识别](cases/word-rust-observed-behavior-course-claim.md) — gvk77在AI逆向课程推广中称某团队不读Word源码、用Rust重建；未给团队、仓库、文档兼容测试或具体AI操作，不能称完整Office替代。 **[未确认使用 REA · 待验证]**
 - [479个DLL到1700余界面项：DeepSeek／REA架构研究漏掉GUI映射](cases/large-app-479-dll-1700-gui-rea-model-handoff.md) — _ToiM22称DeepSeek读取477个DLL后，Claude构建仍漏功能；最终回到Claude枚举菜单和截图，暴露静态映射与界面覆盖差距。 **[REA · 进行中]**
@@ -1142,7 +1147,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究、建造并对照迭代；新增Bitburner→Roblox用户记录显示v0.5.0在Windows／Codex下会卡住，90秒Godot检查超时，doctor健康不等于重建完成。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything的macOS v0.5.0用户测试补充Deep静态提取、默认模式拒读内部与三宽SSIM方法；仍有动态工具未验证，不能用工具数量或相似度证明完整克隆。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
@@ -1752,6 +1757,7 @@
 
 ### 算法与功能重建
 
+- [冰后与岩兽：sandmrk为Muse反推23.6秒风暴战斗片，明确仍不能匹配](cases/sandmrk-muse-ice-empress-rock-beast-236s-prompt.md) — sandmrk把冰后、霜龙与岩兽战斗拆成三段Muse生成规格，锁定角色比例、特效生命周期与紫色结尾；公开提示不是原始Prompt恢复或成功复刻。 **[其他 AI 逆向 · 待验证]**
 - [离线搜索重建idea：用双空格、排序与分页查出视觉演示漏项](cases/rea-offline-search-behavior-spec-edgecase-test.md) — satoshiwhynot建议先观察原版写行为规格，再隔离实现Agent并输入对照；离线搜索只是讲解样例，没有运行结果。 **[REA · 待验证]**
 - [TED-Ed夜间谜题风格：Bajan让Claude按逐帧规格用Canvas重建](cases/ted-ed-riddle-claude-canvas-style-rebuild.md) — Bajan公开1920×1080谜题短片视觉、运动与声音规格，以Canvas时间函数、无头Chrome和ffmpeg重制；相似度与零成本没有独立验证。 **[其他 AI 逆向 · 待验证]**
 - [两部手机作前端：0xwhippa的多模型固件读取器实验](cases/two-phone-multi-model-firmware-reader-report.md) — 0xwhippa称电脑调度Sonnet写固件读取程序、四个Haiku并行搜索、Opus终审；固件、代码与验收未公开，两部手机只是输入和监看。 **[其他 AI 逆向 · 待验证]**
@@ -1948,7 +1954,7 @@
 - [Alvosec：逆向智能合约复盘攻击，再用 Agent 找漏洞](cases/alvosec-contract-attack-agent-reconstruction.md) — Alvosec称已重建攻击者流程并用AI Agent识别漏洞，外部测试与协助修补仍是下一步。 **[其他 AI 逆向 · 进行中]**
 - [神经反编译研究：从专用模型到变量与类型恢复](cases/neural-decompilation-research-survey.md) — 日语综述串起 LLM4Decompile、DIRTY 与黑盒合成；补查2024年论文确认模型目标，不采纳闭源保护已经失效的结论。 **[其他 AI 逆向 · 相关项目]**
 - [Claude Bun 单文件：REA 提取证据后让 Gemini 重写 gzip 判定](cases/claude-bun-gzip-gemini-rea-test.md) — jiangkoumo_ 报告拆包后重写一个 gzip 判定函数，69,121组自测通过；这不是直接反编译整个 Native 客户端。 **[REA · 分析测试]**
-- [SoftProtect：100 行对抗样本使 REA 停止分析的自测](cases/softprotect-ai-adversarial-rea-test.md) — TokenRebate 称新增 AI 样本对抗后，REA 分析半小时放弃；未公开样本或完整记录，不证明通用防逆向。 **[REA · 分析测试]**
+- [SoftProtect：从REA放弃自测，到本地源码泄漏与未开VM的重测纠错](cases/softprotect-ai-adversarial-rea-test.md) — TokenRebate新增两轮用户演示：REA先循Debug路径读到本地源码，删源码后仍部分还原，但未启用VM；不能据此宣称保护通破或已证明VM有效。 **[REA · 分析测试]**
 - [二进制库：先分析原实现，再写替代代码](cases/binary-library-rewrite.md) — 分析二进制库并重写；库名和评测细节未公开。 **[REA]**
 - [DownUnderCTF：从校验程序中找出正确输入](cases/masked-squares-ctf.md) — 恢复校验约束，用 Z3 求出被原程序接受的输入。 **[REA]**
 - [Aegis：还原验证器 App 的一次性验证码计算](cases/aegis-totp.md) — 从验证器 APK 提取验证码逻辑并做多实现对照。 **[REA]**

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [The Matrix Online：Marina Rosa询问是否有人用AI研究这款网络游戏](../cases/matrix-online-ai-reversing-preservation-idea.md) — Marina Rosa提出用AI逆向The Matrix Online的具体方向，但只是寻找项目的提问，没有报告自己已开始或任何可运行成果。 **[其他 AI 逆向 · 待验证]**
+- [BO7 Custom map V2：JacksonVey用AI测试自定义资产，Niko称反编译搜索受益](../cases/jacksonvey-bo7-custom-map-ai-viability-prototype.md) — Niko称AI加快BO7反编译和搜索；同串作者JacksonVey271说明自定义地图仅是私有资产可行性测试，不计划发布，不能推成游戏破解已完成。 **[其他 AI 逆向 · 进行中]**
+- [自有游戏应用：Rohit称REA复刻95%，仍缺部分声音与音乐](../cases/rohit-rea-own-game-95-percent-audio-gap.md) — Rohit Saluja报告在自己的一个游戏应用上测试REA，主观称95%被重建；声音缺口与后端来源只是作者观察及猜测，没有可运行产物或覆盖率依据。 **[REA · 待验证]**
 - [Project Avalanche：Claude辅助研究SSX 2012光盘与行为，以Rust／Bevy重建PC版](../cases/project-avalanche-ssx2012-claude-bevy-reimplementation.md) — MnkyArts公开SSX 2012的原生Windows／Linux重实现，明确归因Claude辅助格式和行为研究；项目称滑雪、存档与服务器已接入，但无人完整通关，未解码行为仍有近似。 **[其他 AI 逆向 · 进行中]**
 - [Star Wars: Squadrons反编译idea：Javier希望用AI Mod做现代战役合作体验](../cases/squadrons-ai-decompile-coop-campaign-idea.md) — Javier Pacheco受AI游戏Mod启发，希望反编译Squadrons，制作X-wing对TIE fighter的现代合作战役；帖子是愿望，没有开发或成果声明。 **[未确认使用 REA · 待验证]**
 - [单机血量地址：REA与CheatEngine接DeepSeek探索、Opus解阻](../cases/singleplayer-health-pointer-rea-cheatengine-model-handoff.md) — 作者描述寻找血量地址、指针链与持久化Mod的双模型交接，以学习和单机为限；未给游戏、地址、可重放结果或费用日志。 **[REA · 待验证]**
