@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1981 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1990 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（404）
-- [硬件与设备互通](categories/hardware.md)（529）
+- [游戏与游戏保存](categories/games.md)（408）
+- [硬件与设备互通](categories/hardware.md)（533）
 - [应用与客户端](categories/apps.md)（810）
-- [算法与功能重建](categories/algorithms.md)（238）
+- [算法与功能重建](categories/algorithms.md)（239）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,10 @@
 
 ### 游戏与游戏保存
 
+- [TimeSplitters 2：Destinity与Claude重编译PS2版，按PCSX2追查差异](cases/destinity-timesplitters2-claude-native-pc-recompile.md) — Destinity公开PS2到C++的原生PC重编译工具，报告Linux／Steam Deck首关通关与逐帧参照；Windows和在线仍待发布，后续关卡与部分VU1差异未解决。 **[其他 AI 逆向 · 进行中]**
+- [Mortal Kombat 4 Dreamcast SET 4：AI生成wrapper与原型忠实度边界](cases/mk4-dreamcast-set4-ai-wrapper-fidelity.md) — Sega Dreamcast Info提供SET 4原型的AI生成wrapper与逆向版，认为继续修改会损伤忠实度；未读下载材料，不确认原型曾在Eurocom运行。 **[其他 AI 逆向 · 待验证]**
+- [Amor Doce重做：Slice停在第一章，设想REA降低代码研究工作](cases/slice-amor-doce-pa-remake-rea-idea.md) — Slice在Amor Doce的PA讨论中称曾重做游戏并完成第一章很大部分，现已停下；REA只是事后提出的简化办法，没有实际使用证据。 **[REA · 待验证]**
+- [Pole Position for Atari STE：手工逆向旧版到2026年AI辅助重制](cases/jonathan-thomas-pole-position-atari-ste-ai-remaster.md) — Jonathan Thomas展示2026 AI辅助Remastered与2017 C／68k旧版对照；街机原版的逆向属于旧版人工工作，没有披露新模型或匹配测试。 **[其他 AI 逆向 · 进行中]**
 - [GTA Multiverse Portal Mod：UpInThaSky以Dryxio主页说明AI工具关联](cases/dryxio-gta-multiverse-portal-ai-attribution-discussion.md) — UpInThaSky把Dryxio的GTA Portal Mod与作者AI逆向工具简介联系起来；没有Mod工作日志，主页关联不能证明每项Mod功能由AI实现。 **[其他 AI 逆向 · 待验证]**
 - [Dark Souls on PS2：yibie转述AI参与的重制版到PS2 homebrew重建](cases/dark-souls-ps2-homebrew-ai-secondary-report.md) — yibie介绍将Dark Souls Remastered重建为PS2 homebrew、为VU1改写引擎的项目；AI披露与83星为转述，没有可玩性或性能验证。 **[其他 AI 逆向 · 待验证]**
 - [Football Manager付费Mod争议：kadeito指称AI逆向制作人脸、球场与球衣插件](cases/football-manager-ai-paywall-mods-community-allegation.md) — kadeito批评Football Manager的AI付费插件，列出£2.50人脸、£10球场、£3球衣，并在同串归因Claude；没有具体插件代码或作者确认，不把相似外观当AI证据。 **[其他 AI 逆向 · 待验证]**
@@ -433,6 +437,10 @@
 
 ### 硬件与设备互通
 
+- [旧Launchpad：Peer Richelsen称Claude Code研究了不理想的驱动](cases/peer-richelsen-launchpad-claude-driver-research.md) — Peer Richelsen自述旧Launchpad一直缺好驱动，于是Claude Code逆向；型号、平台、代码与实机功能未给出。 **[其他 AI 逆向 · 待验证]**
+- [Allwinner车载多媒体：Luiz用Claude研究RTOS，接管启动后复用厂商函数](cases/luiz-allwinner-car-multimedia-rtos-claude-firmware.md) — Luiz称反编译非Android车机固件，以ESP32读闪存和调试，Claude辅助研究Allwinner RTOS；未取得固件与测试，不保证相似车机通用。 **[其他 AI 逆向 · 进行中]**
+- [普通Chromatic改固件：Ravonus想保留Codex收藏版未拆封](cases/ravonus-chromatic-firmware-codex-edition-alternative.md) — Ravonus称为普通Chromatic加固件实现Codex版能做的事，并希望OpenAI公开模型制固件的方法；没有说明实际AI调用、具体功能或代码。 **[未确认使用 REA · 待验证]**
+- [Kapsys SmartVision3：AI审查反编译系统文件后重建读屏桌面的转述](cases/kapsys-smartvision3-ai-system-review-lineageos-report.md) — Yewen Jiu转述开发者为视障母亲的旧键盘手机刷Android 16，并据AI审查补回按键读屏；原博客、设备日志与可访问性测试未取得。 **[其他 AI 逆向 · 待验证]**
 - [摆线机构视频到CAD：Wei佳转述Astra与ForgeCAD MCP的参数化重建](cases/forgecad-astra-nonplanar-cycloidal-video-report.md) — Wei佳称开发者从无背隙非平面摆线机构视频推运动并生成特征树；没有取得原实验或误差记录，不把可编辑模型当可制造验证。 **[其他 AI 逆向 · 待验证]**
 - [Deep-TEMPEST：TechVerser介绍用深度学习从HDMI电磁泄漏恢复屏幕](cases/deep-tempest-hdmi-emissions-ai-reconstruction-report.md) — TechVerser把经典HackRF屏幕恢复演示与Deep-TEMPEST去噪研究联系起来；未读原论文或测距记录，不认定所附演示使用AI或能恢复任意密码。 **[其他 AI 逆向 · 待验证]**
 - [廉价手表重获新生：两帖转述Codex研究蓝牙、SDK与固件后接iOS通知](cases/codex-cheap-watch-ios-notifications-secondary-report.md) — 两位转述者描述同一类Codex手表改造链路，后帖点名Grok Bot／Muse／dots；型号、作者和固件未确认，不与既有30美元ESP32项目强行合并。 **[其他 AI 逆向 · 待验证]**
@@ -557,7 +565,7 @@
 - [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
 - [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
 - [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**
-- [Danfoss冷柜控制器：Sonnet已知漏洞重建转述、人工纠正与维修idea](cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — 旧播客转述Sonnet重建Danfoss已知漏洞；Frelzu新补充实验室Sonnet4.6约6美元、28分钟及人工纠正认证绕过，称漏洞有固件修复。原始日志未获，不把现实攻击归因给AI。 **[其他 AI 逆向 · 待验证]**
+- [Danfoss冷柜控制器：Sonnet漏洞重建、Sekoia固件调查与维修idea](cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Claroty的Sonnet已知漏洞实验之外，Sekoia新增捕获请求与公开固件交LLM确认未认证改管理员名；原始日志未获，两个实验及现实攻击不能混算。 **[其他 AI 逆向 · 待验证]**
 - [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
 - [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**
@@ -1272,7 +1280,7 @@
 - [capcut-cli：剪映草稿结构与本地Whisper字幕流水线的转述](cases/capcut-cli-draft-whisper-secondary-report.md) — 一则项目推荐称capcut-cli直接组装剪映原生草稿与字幕轨，再交官方界面精修；存在多个同名仓库，尚未可靠归属，性能与功能覆盖未核验。 **[未确认使用 REA · 待验证]**
 - [未具名公司SaaS：Jason fengg报告线下委托逆向重建并小额获利](cases/jasonfeng-unnamed-company-saas-reconstruction-report.md) — Jason fengg在AI业务复盘中称给一家公司逆向做了SaaS并赚一点；没有原产品、功能、模型或验收细节，属于简短项目自述。 **[其他 AI 逆向 · 待验证]**
 - [Claude本地身份与遥测：stormzhang的客户端逆向线索，不是服务端封号还原](cases/stormzhang-claude-local-identity-telemetry-analysis.md) — stormzhang称研究Claude本地代码，列账号/设备标识、失败遥测重试、配置备份与凭据存储；承认服务端黑盒，未证明标识与封号因果，也未说明AI辅助。 **[未确认使用 REA · 相关项目]**
-- [BLA对抗REA：公开诱饵与预算边界测试，不是不可逆向保证](cases/bla-counter-rea-budget-decoy-validation.md) — BLA的旧固定报告展示部分REA分析器预算错误；KitPloit再介绍3.0.0，npm确认已发布，但旧测试不能证明新版端到端抗逆向或普遍运行时等价。 **[REA · 分析测试]**
+- [BLA对抗REA：公开诱饵与预算边界测试，不是不可逆向保证](cases/bla-counter-rea-budget-decoy-validation.md) — BLA公开部分REA分析器预算错误；新转述补充607 B变16.9 MiB、假凭据审查风险与截图Agent不受该路径限制，仍非端到端保护证明。 **[REA · 分析测试]**
 - [Rustify：用REA证据、产品规格与分片验证组织二进制到Rust重建](cases/rustify-rea-binary-to-rust-agent-skills.md) — Runchao Han介绍Rustify跨Agent重建工作流，又提出用REA执行轨迹验证保真度；规格、Rust实现与缺口台账公开，但完整产品等价与轨迹验证仍需目标实测。 **[REA · 进行中]**
 - [REA/IDA双Agent隔离：规划者只接规格，专员保留原始分析的提案](cases/annabel-rea-ida-dual-agent-isolation-proposal.md) — Annabel等提出分离规划者与REA/IDA专员；Cloud Whisperer另报告IDA片段受限和本地模型复杂推理不足。均未给受控对照，不能保证隔离或账号安全。 **[REA · 待验证]**
 - [Claude Code状态摘要：遥测成本研究与Bun定时器拦截的转述](cases/claude-code-agent-summary-telemetry-timer-research.md) — 爆裂队长NEXT转述Flamerix的agent_summary成本与非官方Bun钩子；公开issue支持一次四小时会话及bundle分析，不证明所有用户成本相同，也未说明研究是否由AI辅助。 **[未确认使用 REA · 相关项目]**
@@ -1778,6 +1786,7 @@
 
 ### 算法与功能重建
 
+- [闭源软件保护评估转述：codila的22页研究、估算成本与结果矛盾](cases/codila-closed-software-ai-protection-study-report.md) — codila转述AI逆向与代码加密评估，称56.6万美元为公开价格估算；原论文未读，主帖与回复对通过保护的模型数量不一致，不能当普遍破解率。 **[其他 AI 逆向 · 待验证]**
 - [冰后与岩兽：sandmrk为Muse反推23.6秒风暴战斗片，明确仍不能匹配](cases/sandmrk-muse-ice-empress-rock-beast-236s-prompt.md) — sandmrk把冰后、霜龙与岩兽战斗拆成三段Muse生成规格，锁定角色比例、特效生命周期与紫色结尾；公开提示不是原始Prompt恢复或成功复刻。 **[其他 AI 逆向 · 待验证]**
 - [离线搜索重建idea：用双空格、排序与分页查出视觉演示漏项](cases/rea-offline-search-behavior-spec-edgecase-test.md) — satoshiwhynot建议先观察原版写行为规格，再隔离实现Agent并输入对照；离线搜索只是讲解样例，没有运行结果。 **[REA · 待验证]**
 - [TED-Ed夜间谜题风格：Bajan让Claude按逐帧规格用Canvas重建](cases/ted-ed-riddle-claude-canvas-style-rebuild.md) — Bajan公开1920×1080谜题短片视觉、运动与声音规格，以Canvas时间函数、无头Chrome和ffmpeg重制；相似度与零成本没有独立验证。 **[其他 AI 逆向 · 待验证]**
@@ -1888,7 +1897,7 @@
 - [女帝的一日：sandmrk把Muse宫廷视频反推为六段约55秒规格](cases/sandmrk-muse-empress-palace-six-clip-prompt.md) — sandmrk拆解女帝幻想视频的灯会、烟花、斟酒与结尾表情，保留台词时序和镜头约束；六段工作流不等于已验证复现。 **[其他 AI 逆向 · 待验证]**
 - [Codex与Renoise：从科普参考片反推镜头节奏再用云端脚本生成](cases/codex-renoise-reference-science-video-workflow.md) — Nathan AI Lab介绍先拉片恢复视觉hook、运镜与节奏，再调Seedance/Kling/Wan3和云端剪辑；未提供具体参考片、输出或成本/工时对照。 **[其他 AI 逆向 · 待验证]**
 - [动画反推试验：Fayeque拟用arena的gemini-3.8-flash-low对照参考视频](cases/fayeque-gemini-arena-animation-reconstruction-trial.md) — Fayeque Peerzade称正在反推Anika所贴AI编码动画，计划测试arena模型slug能否产生相似输出；没有代码或试验结果，不替其修正模型名。 **[其他 AI 逆向 · 进行中]**
-- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](cases/hypit-reference-video-semantic-workflow-rebuild.md) — Nathan AI Lab介绍Hypit从视频恢复镜头、字幕与效果工作流；公开README有SVML、可选生成模型及三个示例，但爆款、100变体与成本都是项目口径，未独立渲染。 **[其他 AI 逆向 · 进行中]**
+- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](cases/hypit-reference-video-semantic-workflow-rebuild.md) — Hypit把参考视频拆成按词锚定工作流；阿杭新增26秒猫片与Clone Viral Ads的使用／计划，曝光、费用与新Skill均未独立验证。 **[其他 AI 逆向 · 进行中]**
 - [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
 - [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**
 - [1987年6502音乐例程：自称原作者者报告AI已研究其旧代码](cases/bbcpropaganda-1987-6502-music-ai-reversing.md) — @BBCPropaganda称AI逆向了自己1987年的6502音乐例程，并追述转写电影配乐曾引发诉讼；没有代码、分析报告或法律记录。 **[其他 AI 逆向 · 待验证]**

@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 1981 个案例与项目
+# 1990 个案例与项目
 
-**最近案例更新：**2026 年 11 月 10 日 00:12 · **最近维护：**2026 年 11 月 10 日 00:12 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
+**最近案例更新：**2026 年 11 月 10 日 04:17 · **最近维护：**2026 年 11 月 10 日 04:17 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,13 +22,13 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：追查二进制证据，让乐高机构动起来，让设备继续可用，保存游戏。这里优先可追查的实现和坦诚的测试纠错；较新的CAD、设备与参考重建报告连同证据边界保留在完整目录。收录不等于成功。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：追查二进制证据，让乐高机构动起来，让设备继续可用，保存游戏。TimeSplitters 2带来具体的PS2到PC路径，也坦列测试缺口；这里优先可追查的工作与坦诚纠错，而非宣传热度。收录不等于成功。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[XRef：究竟谁写了这个二进制字段？](cases/alex09x-xref-serialized-status-writer-walkthrough.md)** · `2026-11-07`作者帖；`2026-11-06`固定文档 — **从序列化键追到候选writer与指令证据**，公开Rust／JSON／MCP工具供分析者和Agent使用。排名是启发式，x86-64输入支持有边界，live探针可能扰动目标。本合集未运行。`相关项目`
 2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
 3. **[LDraw Mecha：让静态乐高机构动起来](cases/ldraw-mecha-semantic-parts-blender-motion.md)** · `2026-11-08`报道与固定v0.5.0文档（北京时间） — **从带注释零件文本推机构，再映射同名节点生成Blender rig。**公开运动与间隙检查也保留边界：看起来能动不等于物理可行，42043只做起重机，Linux／WSL2路径未测。本合集未运行。`相关项目`
 4. **[scapectl：不用网页也能控制Fractal Scape耳机](cases/scapectl-fractal-scape-claude-usb-hid.md)** · `2026-10-29` — **Claude Code辅助USB HID研究，公开Go托盘应用与CLI**，查看状态、切EQ预设、响应设备事件。文档保留实机纠正源码标注的过程；项目只测macOS/Windows，Linux未测。未经签名／公证，本合集未运行。`进行中`
-5. **[REA Launcher SDK：让自有旧游戏重新跑起来](cases/makita-rea-launcher-sdk-retro-games.md)** · `2026-11-03`作者报告与项目记录 — Fabio Makita公开**从旧赛车启动器提炼的Rust、Wine与打包机制**，让Agent研究、人在检查点决策。项目要求原游戏目录只读、修复逐游戏验证；须自备游戏，所谓90%是估计，不是兼容覆盖率。本合集未构建。`进行中`
+5. **[TimeSplitters 2：把PS2行为追进原生PC版](cases/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10`作者报告；`2026-11-09`固定文档 — **Claude辅助MIPS到C++，以PCSX2画面与状态追查差异。**项目自报Linux／Steam Deck首关通关，仍用PCSX2图形／音频。内部测试工具未公开，后续关卡、部分VU1状态与互联网联机待测，Windows／在线版待发布。须自备光盘，本合集未构建。`进行中`
 6. **[Project Avalanche：让SSX滑上现代PC](cases/project-avalanche-ssx2012-claude-bevy-reimplementation.md)** · `2026-11-09`报道与固定项目文档（北京时间） — **Claude辅助光盘格式与行为研究，再以Rust／Bevy重实现**，文档提供Windows／Linux构建、滑雪、存档与专用服务器。无人完整通关，未解码行为仍有近似；须自备Xbox 360光盘镜像，本合集未构建或试玩。`进行中`
 7. **[DX-Ball：从声像函数走到Windows重建](cases/dx-ball-sound-pan.md)** · `2026-11-01`报道；`2026-10-31`项目记录 — Codex／REA／Ghidra重建报告**270个游戏函数、84968字节匹配**，另有原生VC4构建。仅时间戳不同的比较对象是较早重建版，不是原版EXE；原版50关通关与完整原生音频仍待测。须自备文件，本合集未重建。`项目自测重建`
 8. **[MechWarrior 3：让1999年的机甲游戏跑上现代电脑](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04`报道与固定项目记录 — Owen Morgan披露**REA／Ghidra研究、逐函数C++重建**，报告以Unicorn对照原版。公开原生后端、宽屏与八人UDP联机；报道明确Linux未试玩，Pirate's Moon未支持。须自备原游戏，本合集未构建。`进行中`
@@ -50,10 +50,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **404** |
-| [硬件与设备互通](categories/hardware.md) | **529** |
+| [游戏与游戏保存](categories/games.md) | **408** |
+| [硬件与设备互通](categories/hardware.md) | **533** |
 | [应用与客户端](categories/apps.md) | **810** |
-| [算法与功能重建](categories/algorithms.md) | **238** |
+| [算法与功能重建](categories/algorithms.md) | **239** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

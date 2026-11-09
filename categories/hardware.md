@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [旧Launchpad：Peer Richelsen称Claude Code研究了不理想的驱动](../cases/peer-richelsen-launchpad-claude-driver-research.md) — Peer Richelsen自述旧Launchpad一直缺好驱动，于是Claude Code逆向；型号、平台、代码与实机功能未给出。 **[其他 AI 逆向 · 待验证]**
+- [Allwinner车载多媒体：Luiz用Claude研究RTOS，接管启动后复用厂商函数](../cases/luiz-allwinner-car-multimedia-rtos-claude-firmware.md) — Luiz称反编译非Android车机固件，以ESP32读闪存和调试，Claude辅助研究Allwinner RTOS；未取得固件与测试，不保证相似车机通用。 **[其他 AI 逆向 · 进行中]**
+- [普通Chromatic改固件：Ravonus想保留Codex收藏版未拆封](../cases/ravonus-chromatic-firmware-codex-edition-alternative.md) — Ravonus称为普通Chromatic加固件实现Codex版能做的事，并希望OpenAI公开模型制固件的方法；没有说明实际AI调用、具体功能或代码。 **[未确认使用 REA · 待验证]**
+- [Kapsys SmartVision3：AI审查反编译系统文件后重建读屏桌面的转述](../cases/kapsys-smartvision3-ai-system-review-lineageos-report.md) — Yewen Jiu转述开发者为视障母亲的旧键盘手机刷Android 16，并据AI审查补回按键读屏；原博客、设备日志与可访问性测试未取得。 **[其他 AI 逆向 · 待验证]**
 - [摆线机构视频到CAD：Wei佳转述Astra与ForgeCAD MCP的参数化重建](../cases/forgecad-astra-nonplanar-cycloidal-video-report.md) — Wei佳称开发者从无背隙非平面摆线机构视频推运动并生成特征树；没有取得原实验或误差记录，不把可编辑模型当可制造验证。 **[其他 AI 逆向 · 待验证]**
 - [Deep-TEMPEST：TechVerser介绍用深度学习从HDMI电磁泄漏恢复屏幕](../cases/deep-tempest-hdmi-emissions-ai-reconstruction-report.md) — TechVerser把经典HackRF屏幕恢复演示与Deep-TEMPEST去噪研究联系起来；未读原论文或测距记录，不认定所附演示使用AI或能恢复任意密码。 **[其他 AI 逆向 · 待验证]**
 - [廉价手表重获新生：两帖转述Codex研究蓝牙、SDK与固件后接iOS通知](../cases/codex-cheap-watch-ios-notifications-secondary-report.md) — 两位转述者描述同一类Codex手表改造链路，后帖点名Grok Bot／Muse／dots；型号、作者和固件未确认，不与既有30美元ESP32项目强行合并。 **[其他 AI 逆向 · 待验证]**
@@ -126,7 +130,7 @@
 - [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](../cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
 - [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](../cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
 - [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](../cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**
-- [Danfoss冷柜控制器：Sonnet已知漏洞重建转述、人工纠正与维修idea](../cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — 旧播客转述Sonnet重建Danfoss已知漏洞；Frelzu新补充实验室Sonnet4.6约6美元、28分钟及人工纠正认证绕过，称漏洞有固件修复。原始日志未获，不把现实攻击归因给AI。 **[其他 AI 逆向 · 待验证]**
+- [Danfoss冷柜控制器：Sonnet漏洞重建、Sekoia固件调查与维修idea](../cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Claroty的Sonnet已知漏洞实验之外，Sekoia新增捕获请求与公开固件交LLM确认未认证改管理员名；原始日志未获，两个实验及现实攻击不能混算。 **[其他 AI 逆向 · 待验证]**
 - [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](../cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
 - [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](../cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](../cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**

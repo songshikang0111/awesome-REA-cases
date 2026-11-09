@@ -309,7 +309,7 @@
 - [capcut-cli：剪映草稿结构与本地Whisper字幕流水线的转述](../cases/capcut-cli-draft-whisper-secondary-report.md) — 一则项目推荐称capcut-cli直接组装剪映原生草稿与字幕轨，再交官方界面精修；存在多个同名仓库，尚未可靠归属，性能与功能覆盖未核验。 **[未确认使用 REA · 待验证]**
 - [未具名公司SaaS：Jason fengg报告线下委托逆向重建并小额获利](../cases/jasonfeng-unnamed-company-saas-reconstruction-report.md) — Jason fengg在AI业务复盘中称给一家公司逆向做了SaaS并赚一点；没有原产品、功能、模型或验收细节，属于简短项目自述。 **[其他 AI 逆向 · 待验证]**
 - [Claude本地身份与遥测：stormzhang的客户端逆向线索，不是服务端封号还原](../cases/stormzhang-claude-local-identity-telemetry-analysis.md) — stormzhang称研究Claude本地代码，列账号/设备标识、失败遥测重试、配置备份与凭据存储；承认服务端黑盒，未证明标识与封号因果，也未说明AI辅助。 **[未确认使用 REA · 相关项目]**
-- [BLA对抗REA：公开诱饵与预算边界测试，不是不可逆向保证](../cases/bla-counter-rea-budget-decoy-validation.md) — BLA的旧固定报告展示部分REA分析器预算错误；KitPloit再介绍3.0.0，npm确认已发布，但旧测试不能证明新版端到端抗逆向或普遍运行时等价。 **[REA · 分析测试]**
+- [BLA对抗REA：公开诱饵与预算边界测试，不是不可逆向保证](../cases/bla-counter-rea-budget-decoy-validation.md) — BLA公开部分REA分析器预算错误；新转述补充607 B变16.9 MiB、假凭据审查风险与截图Agent不受该路径限制，仍非端到端保护证明。 **[REA · 分析测试]**
 - [Rustify：用REA证据、产品规格与分片验证组织二进制到Rust重建](../cases/rustify-rea-binary-to-rust-agent-skills.md) — Runchao Han介绍Rustify跨Agent重建工作流，又提出用REA执行轨迹验证保真度；规格、Rust实现与缺口台账公开，但完整产品等价与轨迹验证仍需目标实测。 **[REA · 进行中]**
 - [REA/IDA双Agent隔离：规划者只接规格，专员保留原始分析的提案](../cases/annabel-rea-ida-dual-agent-isolation-proposal.md) — Annabel等提出分离规划者与REA/IDA专员；Cloud Whisperer另报告IDA片段受限和本地模型复杂推理不足。均未给受控对照，不能保证隔离或账号安全。 **[REA · 待验证]**
 - [Claude Code状态摘要：遥测成本研究与Bun定时器拦截的转述](../cases/claude-code-agent-summary-telemetry-timer-research.md) — 爆裂队长NEXT转述Flamerix的agent_summary成本与非官方Bun钩子；公开issue支持一次四小时会话及bundle分析，不证明所有用户成本相同，也未说明研究是否由AI辅助。 **[未确认使用 REA · 相关项目]**

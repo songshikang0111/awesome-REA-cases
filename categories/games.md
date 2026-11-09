@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [TimeSplitters 2：Destinity与Claude重编译PS2版，按PCSX2追查差异](../cases/destinity-timesplitters2-claude-native-pc-recompile.md) — Destinity公开PS2到C++的原生PC重编译工具，报告Linux／Steam Deck首关通关与逐帧参照；Windows和在线仍待发布，后续关卡与部分VU1差异未解决。 **[其他 AI 逆向 · 进行中]**
+- [Mortal Kombat 4 Dreamcast SET 4：AI生成wrapper与原型忠实度边界](../cases/mk4-dreamcast-set4-ai-wrapper-fidelity.md) — Sega Dreamcast Info提供SET 4原型的AI生成wrapper与逆向版，认为继续修改会损伤忠实度；未读下载材料，不确认原型曾在Eurocom运行。 **[其他 AI 逆向 · 待验证]**
+- [Amor Doce重做：Slice停在第一章，设想REA降低代码研究工作](../cases/slice-amor-doce-pa-remake-rea-idea.md) — Slice在Amor Doce的PA讨论中称曾重做游戏并完成第一章很大部分，现已停下；REA只是事后提出的简化办法，没有实际使用证据。 **[REA · 待验证]**
+- [Pole Position for Atari STE：手工逆向旧版到2026年AI辅助重制](../cases/jonathan-thomas-pole-position-atari-ste-ai-remaster.md) — Jonathan Thomas展示2026 AI辅助Remastered与2017 C／68k旧版对照；街机原版的逆向属于旧版人工工作，没有披露新模型或匹配测试。 **[其他 AI 逆向 · 进行中]**
 - [GTA Multiverse Portal Mod：UpInThaSky以Dryxio主页说明AI工具关联](../cases/dryxio-gta-multiverse-portal-ai-attribution-discussion.md) — UpInThaSky把Dryxio的GTA Portal Mod与作者AI逆向工具简介联系起来；没有Mod工作日志，主页关联不能证明每项Mod功能由AI实现。 **[其他 AI 逆向 · 待验证]**
 - [Dark Souls on PS2：yibie转述AI参与的重制版到PS2 homebrew重建](../cases/dark-souls-ps2-homebrew-ai-secondary-report.md) — yibie介绍将Dark Souls Remastered重建为PS2 homebrew、为VU1改写引擎的项目；AI披露与83星为转述，没有可玩性或性能验证。 **[其他 AI 逆向 · 待验证]**
 - [Football Manager付费Mod争议：kadeito指称AI逆向制作人脸、球场与球衣插件](../cases/football-manager-ai-paywall-mods-community-allegation.md) — kadeito批评Football Manager的AI付费插件，列出£2.50人脸、£10球场、£3球衣，并在同串归因Claude；没有具体插件代码或作者确认，不把相似外观当AI证据。 **[其他 AI 逆向 · 待验证]**

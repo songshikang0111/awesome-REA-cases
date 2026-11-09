@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [闭源软件保护评估转述：codila的22页研究、估算成本与结果矛盾](../cases/codila-closed-software-ai-protection-study-report.md) — codila转述AI逆向与代码加密评估，称56.6万美元为公开价格估算；原论文未读，主帖与回复对通过保护的模型数量不一致，不能当普遍破解率。 **[其他 AI 逆向 · 待验证]**
 - [冰后与岩兽：sandmrk为Muse反推23.6秒风暴战斗片，明确仍不能匹配](../cases/sandmrk-muse-ice-empress-rock-beast-236s-prompt.md) — sandmrk把冰后、霜龙与岩兽战斗拆成三段Muse生成规格，锁定角色比例、特效生命周期与紫色结尾；公开提示不是原始Prompt恢复或成功复刻。 **[其他 AI 逆向 · 待验证]**
 - [离线搜索重建idea：用双空格、排序与分页查出视觉演示漏项](../cases/rea-offline-search-behavior-spec-edgecase-test.md) — satoshiwhynot建议先观察原版写行为规格，再隔离实现Agent并输入对照；离线搜索只是讲解样例，没有运行结果。 **[REA · 待验证]**
 - [TED-Ed夜间谜题风格：Bajan让Claude按逐帧规格用Canvas重建](../cases/ted-ed-riddle-claude-canvas-style-rebuild.md) — Bajan公开1920×1080谜题短片视觉、运动与声音规格，以Canvas时间函数、无头Chrome和ffmpeg重制；相似度与零成本没有独立验证。 **[其他 AI 逆向 · 待验证]**
@@ -112,7 +113,7 @@
 - [女帝的一日：sandmrk把Muse宫廷视频反推为六段约55秒规格](../cases/sandmrk-muse-empress-palace-six-clip-prompt.md) — sandmrk拆解女帝幻想视频的灯会、烟花、斟酒与结尾表情，保留台词时序和镜头约束；六段工作流不等于已验证复现。 **[其他 AI 逆向 · 待验证]**
 - [Codex与Renoise：从科普参考片反推镜头节奏再用云端脚本生成](../cases/codex-renoise-reference-science-video-workflow.md) — Nathan AI Lab介绍先拉片恢复视觉hook、运镜与节奏，再调Seedance/Kling/Wan3和云端剪辑；未提供具体参考片、输出或成本/工时对照。 **[其他 AI 逆向 · 待验证]**
 - [动画反推试验：Fayeque拟用arena的gemini-3.8-flash-low对照参考视频](../cases/fayeque-gemini-arena-animation-reconstruction-trial.md) — Fayeque Peerzade称正在反推Anika所贴AI编码动画，计划测试arena模型slug能否产生相似输出；没有代码或试验结果，不替其修正模型名。 **[其他 AI 逆向 · 进行中]**
-- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](../cases/hypit-reference-video-semantic-workflow-rebuild.md) — Nathan AI Lab介绍Hypit从视频恢复镜头、字幕与效果工作流；公开README有SVML、可选生成模型及三个示例，但爆款、100变体与成本都是项目口径，未独立渲染。 **[其他 AI 逆向 · 进行中]**
+- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](../cases/hypit-reference-video-semantic-workflow-rebuild.md) — Hypit把参考视频拆成按词锚定工作流；阿杭新增26秒猫片与Clone Viral Ads的使用／计划，曝光、费用与新Skill均未独立验证。 **[其他 AI 逆向 · 进行中]**
 - [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](../cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
 - [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](../cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**
 - [1987年6502音乐例程：自称原作者者报告AI已研究其旧代码](../cases/bbcpropaganda-1987-6502-music-ai-reversing.md) — @BBCPropaganda称AI逆向了自己1987年的6502音乐例程，并追述转写电影配乐曾引发诉讼；没有代码、分析报告或法律记录。 **[其他 AI 逆向 · 待验证]**

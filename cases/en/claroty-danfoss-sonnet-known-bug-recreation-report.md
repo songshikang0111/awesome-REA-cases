@@ -1,26 +1,30 @@
-# Danfoss refrigeration controllers: a reported Sonnet known-bug recreation, human correction and a repair idea
+# Danfoss refrigeration controllers: Sonnet bug recreation, a Sekoia firmware investigation and a repair idea
 
 Category: Hardware and interoperability · Other AI-assisted work
-Record date: 2026-11-07
+Record date: 2026-11-10
 Stage: Needs verification
 
-At 05:30 Beijing time on November 3, 2026, Hacked (@hackedpodcast) quotes Claroty CTO and Team82's Amir Preminger: Sonnet was given Danfoss refrigeration-controller research and recreated a known vulnerability for about $6. This assesses cheaper reproduction from existing research, not first discovery of a zero-day. The post also discusses cheaper models bypassing guardrails and European refrigeration attacks, without establishing AI involvement in those attacks.
+At 05:30 Beijing time on November 3, 2026, Hacked (@hackedpodcast) relays Claroty CTO and Team82's Amir Preminger: Sonnet recreated a known Danfoss refrigeration-controller bug from research for about $6. This evaluates cheaper reproduction from prior research, not first discovery. Discussion of cheaper models bypassing safeguards and European refrigeration attacks establishes no AI involvement in real attacks. At 07:11, ChrisR (@le_kryzz) asks about reversing repairs for unsupported devices and suggests AI rewriting. A November 3, 03:06 parent identifies Danfoss before that round's 04:00 window, as background only. Support status, affected stores and scale are unchecked; the suggestion is not an implemented repair.
 
-At 07:11 that day, ChrisR (@le_kryzz) asks in reply to a separate incident post whether reverse-engineering repairs exist for unsupported hardware, suggesting AI rewriting. A supplementary November 3, 03:06 parent establishes the Danfoss reference before that round's 04:00 window. End-of-support, affected stores and attack scale are the parent's reporting, not independently checked facts. The reply is not an implemented repair.
+At 04:14:04 and 04:14:50 on November 7, Frelzu (@Frelzu) relays Claroty's use of public firmware, known bugs and researcher supervision: Sonnet 4.6 reportedly reaches lab-device root in 28 minutes for about $6. Authentication bypass initially failed and needed researcher redirection. A reply says firmware fixes exist without a checked advisory or version, and says the French attack path and AI involvement were unconfirmed, while the Pentagon had not confirmed freezer failures as an attack. These remain the sources' statements at the time, not a causal link between lab runs and incidents.
 
-On November 7 at 04:14:04 and 04:14:50, Frelzu (@Frelzu) relays the same Claroty experiment: public firmware, known bugs and researcher supervision, with Claude Sonnet 4.6 reportedly reaching root on a lab device in 28 minutes for about $6. The agent initially got authentication bypass wrong until a researcher redirected it. The reply says firmware fixes exist, updating the older record's missing version/patch information, but still as a secondary account without a checked vendor advisory. It also says the real French attack path is unconfirmed, there is no evidence AI was used, and the Pentagon has not confirmed freezer failures were a hack. The lab run is not causally linked to those incidents.
+At 02:22:49 on November 10, Sekoia (@sekoia_io) reports its own investigation: an unnamed LLM given a captured request and public Danfoss firmware confirmed within minutes that an admin account could be renamed without authentication, the first step in a password reset. Supplementary thread retrieval confirms a claim that honeypots caught attempted exploitation of a non-public bug on November 1, and that French authorities attributed attacks to IRGC's Shahid Kaveh/CyberAv3ngers. Roughly 2,700 exposed controllers on October 11, about 1,700 in France, is also Sekoia's historical observation. The original article and French advisory were not checked; the newer attribution is not independently confirmed, nor does it show attackers used AI. This request-driven LLM analysis is attributed separately from Claroty's known-bug experiment. One rename step is not a complete password reset, root access or proof of the same CVE.
 
-Controller model, CVE, inputs/outputs, itemized billing and original reproduction or repair logs remain absent, and the full podcast was not watched. Sonnet 4.6, 28 minutes, root and fix availability are newly relayed claims, not proof of first discovery, unattended execution, universal cost or reliable attacks on arbitrary devices. This retains known-bug recreation, human correction and a repair idea for the same target. No code, device or patch was exercised here; REA is unspecified.
+Controller model, CVE, raw inputs/outputs, billing and reproduction/repair logs remain absent; the full podcast was not watched. Sonnet 4.6, 28 minutes, root, minutes and fix availability are respective source claims, not autonomous discovery, universal costs or reliable exploitation of arbitrary devices. No code, device or patch was exercised here. REA is unspecified.
 
-Older candidate snapshots: podcast post 1 like/73 views; repair-idea post 0 likes/33 views; both 0 reposts. Roughly $6 is a relayed figure.
-November 7 sealed posts respectively: 11 likes/129 views/0 reposts and 0 likes/20 views/0 reposts. Lab conditions and fix claims were not independently reproduced.
+Older candidates: podcast 1 like/73 views; repair idea 0 likes/33 views; both 0 reposts. About $6 is relayed.
+November 7 posts: 11 likes/129 views/0 reposts and 0 likes/20 views/0 reposts; not independently reproduced.
+November 10 sealed candidate: 1 like, 45 views, 0 reposts. Minutes is Sekoia's report, without billing or model name.
 
 ## Sources
 
 - [Hacked relays Amir Preminger's Sonnet experiment, November 3, 2026](https://x.com/i/status/2117368895518507120)
-- [ChrisR proposes AI reverse-engineering repair of unsupported hardware, November 3, 2026](https://x.com/i/status/2117394194646081838)
-- [Supplementary parent: Danfoss context, November 3, 2026 at 03:06, before that round's window](https://x.com/i/status/2117332531959754878)
-- [Frelzu adds lab conditions, $6 and 28 minutes, November 7, 2026 at 04:14:04 Beijing time](https://x.com/i/status/2118799095670403137)
-- [Same thread: Sonnet 4.6, researcher correction, firmware fix and attribution limits, 04:14:50](https://x.com/i/status/2118799287606030680)
+- [ChrisR proposes AI repair of unsupported hardware, November 3, 2026](https://x.com/i/status/2117394194646081838)
+- [Supplementary parent: Danfoss context, November 3 at 03:06, before that round's window](https://x.com/i/status/2117332531959754878)
+- [Frelzu adds lab conditions, $6 and 28 minutes, November 7 at 04:14:04 Beijing time](https://x.com/i/status/2118799095670403137)
+- [Same thread: Sonnet 4.6, human correction, firmware fix and attribution limits, 04:14:50](https://x.com/i/status/2118799287606030680)
+- [Sekoia reports LLM analysis of a request and public firmware, November 10, 2026](https://x.com/i/status/2119858264485642574)
+- [Supplementary thread: Sekoia's attack-attribution account, not evidence of AI involvement](https://x.com/i/status/2119858261042036806)
+- [Supplementary thread: honeypot captures and historical exposure counts](https://x.com/i/status/2119858262908514520)
 
 [中文](../claroty-danfoss-sonnet-known-bug-recreation-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/hardware.md)
