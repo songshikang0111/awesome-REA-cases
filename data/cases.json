@@ -1,5 +1,165 @@
 [
   {
+    "id": "forgecad-astra-nonplanar-cycloidal-video-report",
+    "title": "摆线机构视频到CAD：Wei佳转述Astra与ForgeCAD MCP的参数化重建",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Wei佳称开发者从无背隙非平面摆线机构视频推运动并生成特征树；没有取得原实验或误差记录，不把可编辑模型当可制造验证。",
+    "description": "2026年11月9日20:06:38（北京时间），Wei佳（@LiuweijiaVip）转述开发者用GPT-6 Astra xhigh配ForgeCAD MCP研究无背隙非平面摆线机构的运转视频。目标是把可见机械运动转为可编辑参数化CAD，而非只输出网格。帖称模型解析各级传动轨迹，逐层生成参数几何代码，对复杂啮合曲面连续跑验证脚本、回传几何并校准尺寸，最终装配体保留特征草图树，可导入工业CAD继续加工。\n\n原帖与讨论补取确认转述者和措辞；没有定位原开发者、输入视频、提示、源码、CAD文件、验证脚本或几何误差。实机测试是帖中说法，不能据此确认物理制作、无背隙性能或加工公差。作者指出反光与遮挡仍需人工微调；回复询问摆线齿面精度，没有取得答案。附件未观看，本合集未运行模型或CAD。与既有建筑图片ForgeCAD重建目标不同；REA未提及。",
+    "sources": [{"label": "Wei佳的Astra／ForgeCAD摆线机构视频重建转述，2026-11-09", "url": "https://x.com/i/status/2119763592514081208"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存4赞、248浏览、0转发；xhigh、特征树与校准均据转述，无误差测量。"],
+    "en": {
+      "title": "Cycloidal mechanism video to CAD: Wei佳 relays an Astra/ForgeCAD MCP parametric reconstruction",
+      "summary": "Wei佳 describes inferring motion and generating a feature tree from a zero-backlash nonplanar cycloidal mechanism video. No original experiment or error record was obtained; editable CAD is not manufacturing validation.",
+      "description": "At 20:06:38 Beijing time on November 9, 2026, Wei佳 (@LiuweijiaVip) relays a developer's use of GPT-6 Astra xhigh with ForgeCAD MCP to study video of a zero-backlash nonplanar cycloidal mechanism. The goal is editable parametric CAD from visible mechanical motion rather than a mesh alone. The post says the model traces transmission-stage motion, generates parametric geometry code layer by layer, repeatedly runs validation scripts for complex meshing surfaces, feeds geometry back for dimensional calibration and produces an assembly retaining a feature/sketch tree for further industrial CAD work.\n\nRetrieval of the post and discussion confirms the reporter and wording, not the original developer, input video, prompts, code, CAD files, scripts or geometric error. The post's real-machine-test wording does not establish physical fabrication, backlash performance or machining tolerances. The reporter notes that reflective or occluded structures still need manual contour adjustment. A reply asks about cycloidal-tooth error, but no answer was obtained. Attachments were not viewed and neither models nor CAD were run here. This target differs from the existing ForgeCAD architecture-image case. REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 4 likes, 248 views, 0 reposts. xhigh, feature-tree retention and calibration are relayed claims, without error measurements."],
+      "source_labels": ["Wei佳's Astra/ForgeCAD cycloidal-mechanism video reconstruction report, November 9, 2026"]
+    }
+  },
+  {
+    "id": "pepijn-gowin-ide-claude-rea-investigation",
+    "title": "Gowin IDE：Pepijn安装REA，让Claude开始研究FPGA开发工具",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "Pepijn报告安装REA并让Claude查看Gowin IDE逆向；没有具体组件、格式或结果，VACASK协同仿真和Spectre审阅仍是另一工作状态。",
+    "description": "2026年11月9日21:44:08（北京时间），Pepijn（@pepijndevos）回复自己的工作进展：VACASK讨论已更新，REA已安装，协同仿真要等正确方案达成共识，Spectre支持等待审阅；与此同时让Claude看看如何逆向Gowin IDE。Gowin IDE是面向高云FPGA的开发工具，此处有明确研究对象和正在启动的AI辅助调查。\n\n原帖补取确认署名与措辞，但没有给IDE版本、要研究的组件、协议或文件格式、Claude提示、工具调用、仓库或分析结果。安装REA与让Claude调查在同一句工作报告中，不证明已经成功执行某条REA分析链路。不能把VACASK、协同仿真或Spectre支持写成Gowin逆向已实现的功能，也不能推断已恢复FPGA位流。保留进行中而非成功重建，本合集未安装IDE、运行Agent或测试硬件。",
+    "sources": [{"label": "Pepijn的REA安装与Claude研究Gowin IDE进展，2026-11-09", "url": "https://x.com/i/status/2119788131427967108"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存0赞、33浏览、0转发；未报告逆向成果或耗时。"],
+    "en": {
+      "title": "Gowin IDE: Pepijn installs REA and starts a Claude-assisted FPGA-tool investigation",
+      "summary": "Pepijn reports installing REA and asking Claude to look into reversing Gowin IDE. No component, format or result is specified; VACASK cosimulation and Spectre review are separate work statuses.",
+      "description": "At 21:44:08 Beijing time on November 9, 2026, Pepijn (@pepijndevos) replies with a work update: VACASK discussions are updated, REA is installed, cosimulation awaits agreement on the correct approach and Spectre support awaits review. Meanwhile, Claude is looking at reverse engineering Gowin IDE, the development tool for Gowin FPGAs. This identifies a concrete target and a starting AI-assisted investigation.\n\nOriginal-post retrieval confirms attribution and wording, but supplies no IDE version, component, protocol or format under investigation, prompts, tool calls, repository or analysis result. Installing REA and asking Claude to investigate in the same report does not establish a successfully executed REA analysis path. VACASK, cosimulation and Spectre support are not established results of reversing Gowin, nor is FPGA bitstream recovery implied. Retained as in progress rather than a successful rebuild. No IDE, agent or hardware was run here.",
+      "metadata": ["Sealed snapshot: 0 likes, 33 views, 0 reposts. No reversing result or elapsed time is reported."],
+      "source_labels": ["Pepijn on installing REA and investigating Gowin IDE with Claude, November 9, 2026"]
+    }
+  },
+  {
+    "id": "deep-tempest-hdmi-emissions-ai-reconstruction-report",
+    "title": "Deep-TEMPEST：TechVerser介绍用深度学习从HDMI电磁泄漏恢复屏幕",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "TechVerser把经典HackRF屏幕恢复演示与Deep-TEMPEST去噪研究联系起来；未读原论文或测距记录，不认定所附演示使用AI或能恢复任意密码。",
+    "description": "2026年11月9日21:25:30（北京时间），TechVerser（@realfxw）介绍从HDMI电磁泄漏重建屏幕的TEMPEST SDR路径，称演示中以天线与HackRF还原邻近显示器画面。帖子另以Deep-TEMPEST解释AI的角色：用深度学习超分辨率、去噪和模式匹配，让原本雪花、重影的接收图像更容易读出聊天或文档文字。目标是从泄漏信号恢复信息，不是反编译软件。\n\n补取确认署名与完整文字，未观看视频、读取原论文、代码、模型或信号采集记录。经典TEMPEST演示与深度学习增强是帖中的两个层次，不能确认附件本身运行Deep-TEMPEST，也不能把提到密码当作实际恢复凭据的证据。帖子给出无屏蔽线约1米、多层屏蔽线几十厘米的距离口径，并建议屏蔽、磁环与光纤HDMI；没有环境、接收参数、屏幕分辨率或对照测试，不把这些数值和建议当普遍安全界限，光路说法也不是整套设备无电磁泄漏的保证。发帖者同时强调分辨率、刷新率和像素时钟同步的门槛。REA未提及，本合集没有采集信号或运行恢复。",
+    "sources": [{"label": "TechVerser的TEMPEST与Deep-TEMPEST介绍，2026-11-09", "url": "https://x.com/i/status/2119783438521696664"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存1赞、241浏览、0转发；距离与增强效果均为介绍者口径，非本合集测量。"],
+    "en": {
+      "title": "Deep-TEMPEST: TechVerser describes deep-learning reconstruction from HDMI emissions",
+      "summary": "TechVerser links a classic HackRF screen-recovery demonstration to Deep-TEMPEST denoising research. No paper or distance log was read; the attached demo is not established to use AI or recover arbitrary passwords.",
+      "description": "At 21:25:30 Beijing time on November 9, 2026, TechVerser (@realfxw) describes TEMPEST SDR reconstruction of screens from HDMI electromagnetic leakage, saying a demonstration uses an antenna and HackRF to recover a nearby display. The post separately explains the AI role through Deep-TEMPEST: deep-learning super-resolution, denoising and pattern matching can make noisy, ghosted reception easier to read as chat or document text. The target is information recovery from leaked signals, not software decompilation.\n\nRetrieval confirms attribution and complete wording, not inspection of the video, original paper, code, model or signal captures. The classic TEMPEST demo and deep-learning enhancement are distinct layers of the account: the attachment is not established to run Deep-TEMPEST, and mentioning passwords does not establish actual credential recovery. The poster quotes about one meter for unshielded cables and tens of centimeters for multilayer shielding, recommending shielding, ferrites and optical HDMI. Without environment, receiver settings, screen resolution or comparative tests, these are not universal safety distances or validated mitigations here; the optical-path claim is not a guarantee of no emissions from an entire device setup. The post also emphasizes resolution, refresh-rate and pixel-clock synchronization requirements. REA is unmentioned. No signals were captured or reconstruction run here.",
+      "metadata": ["Sealed snapshot: 1 like, 241 views, 0 reposts. Distances and enhancement effects are the reporter's claims, not measurements here."],
+      "source_labels": ["TechVerser on TEMPEST and Deep-TEMPEST, November 9, 2026"]
+    }
+  },
+  {
+    "id": "codex-cheap-watch-ios-notifications-secondary-report",
+    "title": "廉价手表重获新生：两帖转述Codex研究蓝牙、SDK与固件后接iOS通知",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "两位转述者描述同一类Codex手表改造链路，后帖点名Grok Bot／Muse／dots；型号、作者和固件未确认，不与既有30美元ESP32项目强行合并。",
+    "description": "2026年11月9日21:57:14（北京时间），A1terE&o（@abc123953468547）介绍开发者借Codex研究廉价智能手表：解析蓝牙协议、逆向SDK与固件、调整屏幕驱动、刷自写固件，再接iOS通知、动效角色与机器人服务。22:55:16，JotaroKujoX称@OpenAIDevs刚转发这条实践，重复同一链路并点名Grok Bot、Muse和dots。两帖按高度一致的目标与过程合为一个转述案例，后帖补服务名称，不视为两次独立验证。\n\n补取原帖与前帖讨论确认转述者，但未定位原开发者、手表型号、芯片、源码、SDK版本、蓝牙记录或刷写日志。OpenAIDevs转发是JotaroKujoX说法，不当官方硬件兼容背书；没有观看演示。不能断言全功能固件、安全性、续航或所有iPhone可用，也不替未具名设备填价格。既有Synthetic Beef的30美元ESP32蓝牙遥控报告没有iOS与这些服务的明确连接，身份不足，不据相似主题合并。REA未提及，本合集未下载固件、刷机或连接手机。",
+    "sources": [{"label": "A1terE&o转述Codex手表蓝牙／SDK／固件改造，2026-11-09 21:57:14北京时间", "url": "https://x.com/i/status/2119791424476725451"}, {"label": "JotaroKujoX补充iOS通知及Grok Bot／Muse／dots，2026-11-09 22:55:16北京时间", "url": "https://x.com/i/status/2119806029454029248"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存快照依次2赞／98浏览／0转发、0赞／48浏览／0转发；均为转述，无独立实测。"],
+    "en": {
+      "title": "Reviving a cheap watch: two reports describe Codex-assisted Bluetooth, SDK and firmware work for iOS notifications",
+      "summary": "Two reporters describe a matching Codex watch-modification workflow; the later names Grok Bot, Muse and dots. Model, developer and firmware remain unidentified, so it is not forcibly merged with the existing $30 ESP32 project.",
+      "description": "At 21:57:14 Beijing time on November 9, 2026, A1terE&o (@abc123953468547) describes a developer using Codex to investigate a cheap smartwatch: analyzing Bluetooth, reversing its SDK and firmware, adjusting the display driver, flashing custom firmware and adding iOS notifications, animated characters and bot services. At 22:55:16, JotaroKujoX says @OpenAIDevs has just reposted the work, repeating the same workflow and naming Grok Bot, Muse and dots. Their closely matching target and process are retained as one secondary-report case, with service names added by the second, not two independent validations.\n\nRetrieval of the posts and the first discussion confirms the reporters, not the original developer, watch model, chip, code, SDK revision, Bluetooth records or flash logs. The OpenAIDevs repost is JotaroKujoX's claim, not an official hardware-compatibility endorsement; no demo was watched. Complete firmware functionality, security, battery life and support for every iPhone are not established, and no price is assigned to the unnamed device. The existing Synthetic Beef $30 ESP32 Bluetooth-control report has no explicit identity link to iOS or these services; topical similarity is insufficient to merge them. REA is unmentioned. No firmware was downloaded or flashed, and no phone connected here.",
+      "metadata": ["Sealed snapshots, respectively: 2 likes/98 views/0 reposts and 0 likes/48 views/0 reposts. Both are secondary reports, without independent testing."],
+      "source_labels": ["A1terE&o on Codex-assisted watch Bluetooth/SDK/firmware work, November 9, 2026 at 21:57:14 Beijing time", "JotaroKujoX adds iOS notifications and Grok Bot/Muse/dots, November 9, 2026 at 22:55:16 Beijing time"]
+    }
+  },
+  {
+    "id": "solidworks-leo-step-iges-parametric-tree-report",
+    "title": "SOLIDWORKS LEO：官方称从STEP／IGES恢复可编辑参数特征树",
+    "category": "hardware", "rea": "other-ai", "status": "related-project",
+    "summary": "SOLIDWORKS称AI Virtual Companion LEO把静态BREP变成原生特征树，用于供应商旧零件；没有版本、零件样本或几何误差，不证明恢复原设计意图。",
+    "description": "2026年11月9日22:21:00（北京时间），SOLIDWORKS（@SOLIDWORKS）官方账号介绍AI Virtual Companion LEO：将导入的STEP或IGES文件转为原生可编辑SOLIDWORKS特征树，把静态BREP边界表示几何变成参数化模型。目标是研究供应商旧零件时不用从空白草图开始，继续调整特征、尺寸和设计意图。\n\n补取原帖确认发布主体与措辞；这是产品方能力介绍，不是本合集操作演示或第三方验证。没有读取技术文档、版本／可用范围、支持的特征集合、输入零件、输出工程、失败情况或几何误差；未观看附件。生成可编辑树不证明恢复原作者真实建模历史或设计意图，也不保证复杂装配、任意STEP／IGES或制造公差。与SolidCraft替代CAD项目不同；REA未提及，本合集未运行SOLIDWORKS或LEO。",
+    "sources": [{"label": "SOLIDWORKS官方LEO参数特征树介绍，2026-11-09", "url": "https://x.com/i/status/2119797406204063768"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存10赞、669浏览、2转发；官方宣传归因不等于独立验证。"],
+    "en": {
+      "title": "SOLIDWORKS LEO: the vendor describes editable parametric feature trees from STEP/IGES",
+      "summary": "SOLIDWORKS says AI Virtual Companion LEO turns static BREP into a native feature tree for legacy supplier parts. No version, part sample or geometry error is provided; original design intent is not established as recovered.",
+      "description": "At 22:21:00 Beijing time on November 9, 2026, the official SOLIDWORKS account (@SOLIDWORKS) describes AI Virtual Companion LEO converting imported STEP or IGES files into native, editable SOLIDWORKS feature trees, turning static boundary-representation geometry into parametric models. The intended use is investigating legacy supplier parts without starting from a blank sketch, then adjusting features, dimensions and design intent.\n\nOriginal-post retrieval confirms the publisher and wording. This is a vendor capability description, not a demonstration performed here or third-party validation. No technical documentation, version/availability scope, supported-feature set, input part, output project, failure record or geometric error was read, and the attachment was not viewed. An editable generated tree does not establish recovery of the original author's actual modeling history or intent, or support for complex assemblies, arbitrary STEP/IGES inputs or manufacturing tolerances. This differs from the SolidCraft alternative-CAD project. REA is unmentioned; neither SOLIDWORKS nor LEO was run here.",
+      "metadata": ["Sealed snapshot: 10 likes, 669 views, 2 reposts. Official vendor attribution is not independent validation."],
+      "source_labels": ["Official SOLIDWORKS introduction to LEO parametric feature trees, November 9, 2026"]
+    }
+  },
+  {
+    "id": "lunarxuan-imag-reference-image-bilingual-prompts",
+    "title": "LunarXuan/imag：秋北先生介绍从参考图拆构图、光影并生成双语提示词",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "imag被介绍为分析摄影、插画等参考图并生成中英文及负面提示词的Skill；未读技能源码或比较输出，不当找回原Prompt。",
+    "description": "2026年11月9日23:00:01（北京时间），秋北先生（@Doge9880）推荐LunarXuan/imag：上传参考图后分析构图、光影、色彩、镜头与材质，输出中英文Prompt及负面提示词。帖子列出摄影、插画、3D、海报和Logo等输入风格。用途是把喜欢但不知如何描述的视觉效果拆为生成参考，而非软件逆向。\n\n原帖补取确认署名与项目标识；没有读取仓库、许可证或技能正文，也没有原图、完整提示、生成参数与对照结果。开源为推荐者说法，不验证许可或全部风格支持；推断提示词不等于找回原始Prompt、模型、种子或素材。没有为相同图像提示库重复建条目，保留这一具名Skill；REA未提及，本合集未安装技能或生成图片。",
+    "sources": [{"label": "秋北先生的LunarXuan/imag参考图拆解推荐，2026-11-09", "url": "https://x.com/i/status/2119807226701316363"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存1赞、34浏览、0转发；未提供实际复刻输出。"],
+    "en": {
+      "title": "LunarXuan/imag: a reported skill for reference-image analysis and bilingual prompts",
+      "summary": "秋北先生 describes imag as a skill analyzing photographic, illustrated and other references into English, Chinese and negative prompts. No skill source or output comparison was read; original-prompt recovery is not established.",
+      "description": "At 23:00:01 Beijing time on November 9, 2026, 秋北先生 (@Doge9880) recommends LunarXuan/imag: upload a reference image to analyze composition, lighting, color, camera and materials, then generate English, Chinese and negative prompts. Listed input styles include photography, illustration, 3D, posters and logos. The use is decomposing a visual effect that is hard to describe into a generation reference, not software reversing.\n\nRetrieval confirms the reporter and project identifier, not the repository, license or skill text. No original image, full prompt, generation parameters or comparative output was obtained. Open source is the recommender's description, not a license audit or validation of every listed style. Inferred prompts are not recovered original prompts, models, seeds or assets. This retains the named skill rather than duplicating a generic image-prompt collection. REA is unmentioned; no skill was installed or image generated here.",
+      "metadata": ["Sealed snapshot: 1 like, 34 views, 0 reposts. No actual reconstruction output is provided."],
+      "source_labels": ["秋北先生 recommends LunarXuan/imag reference-image analysis, November 9, 2026"]
+    }
+  },
+  {
+    "id": "cryptax-grehack-ai-reversing-workshop",
+    "title": "GreHack AI逆向工作坊：Axelle给出Ghidra、radare2与OpenCode准备环境",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Axelle Ap.公告reverse with AI工作坊，要求Docker、Compose、JDK25+与Python3+；是具名教学项目，不是样本分析成功或安全隔离验证。",
+    "description": "2026年11月9日23:13:29（北京时间），Axelle Ap.（@cryptax）为自己在@GrehackConf的reverse with AI工作坊发布准备公告，要求参与者预装Docker、Docker Compose、JDK 25+与Python 3+。标签明确Ghidra、radare2、MCP、LLM、OpenCode、binary和Grenoble，说明教学方向是把AI接入二进制逆向工具。\n\n补取确认讲者与公告，但未取得课程日程、实验目标、讲义、容器配置、模型或实际运行结果；准备公告日期不是开课或测试完成日期。依赖列表不证明每个工具已在某个样本上连通，更不是Docker隔离安全承诺。按具名AI逆向教学相关项目收录，不添加漏洞发现、还原成功率或REA使用。本合集未安装工具或执行实验。",
+    "sources": [{"label": "Axelle Ap.的GreHack AI逆向工作坊准备公告，2026-11-09", "url": "https://x.com/i/status/2119810614948425948"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存0赞、59浏览、0转发；依赖版本来自公告，无教学成果测量。"],
+    "en": {
+      "title": "GreHack AI-reversing workshop: Axelle's Ghidra, radare2 and OpenCode environment preparation",
+      "summary": "Axelle Ap. announces a reverse-with-AI workshop requiring Docker, Compose, JDK 25+ and Python 3+. This is an identified teaching project, not successful sample analysis or verified isolation.",
+      "description": "At 23:13:29 Beijing time on November 9, 2026, Axelle Ap. (@cryptax) posts preparation requirements for her reverse-with-AI workshop at @GrehackConf: Docker, Docker Compose, JDK 25+ and Python 3+. Tags explicitly identify Ghidra, radare2, MCP, LLM, OpenCode, binary and Grenoble, indicating teaching about connecting AI to binary-reversing tools.\n\nRetrieval confirms the speaker and announcement, not a schedule, lab target, course notes, container configuration, model or execution result. The preparation announcement date is not the workshop date or a completed-test date. Dependencies do not demonstrate that every tool works on a sample, or guarantee safe Docker isolation. Retained as an identified AI-reversing teaching project without adding vulnerability discoveries, reconstruction success rates or REA use. No tools were installed or labs run here.",
+      "metadata": ["Sealed snapshot: 0 likes, 59 views, 0 reposts. Dependency versions come from the announcement, without teaching-outcome measurements."],
+      "source_labels": ["Axelle Ap.'s GreHack AI-reversing workshop preparation announcement, November 9, 2026"]
+    }
+  },
+  {
+    "id": "mspd4100-reference-reconstruction-model-comparison-library",
+    "title": "鸡骑猫的AI复刻对比库：同一参考交给不同模型，11例20版本",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "鸡骑猫报告整理原创、逆向与收集案例，含机械章鱼、发动机、擎天柱参考重建；11／20为库规模自述，没有排名或工程可行性验证。",
+    "description": "2026年11月9日23:17:19（北京时间），鸡骑猫（@mspd4100）称建了一个持续扩充的AI复刻测试库，混合原创、逆向和收集整理内容，现有11个案例、20个版本。其方法是把同一参考交给不同模型独立制作，再并排比较，例子包括机械章鱼、发动机和变形金刚；给Agent一句复刻变形金刚—擎天柱即可按一致参考开工。这里收录的是统一参考对比库这一个项目，例子不是已确认的三个独立研究成果。\n\n补读作者讨论：23:20:41称第一个案例环境准备较多，23:22:45称复杂结构、制作工作流与harness都考验综合能力。这些是补充语境，不另计候选，没有具体token或费用计量。没有取得库的准确仓库、参考文件、模型／版本清单、输出或评分方法，也没有观看图片。不把11例20版本当作全部已逆向、成功数或基准排名；形似不证明机构物理可行。REA未提及，本合集未运行任何模型或制作流程。",
+    "sources": [{"label": "鸡骑猫的11例20版本参考重建对比库公告及同串，2026-11-09", "url": "https://x.com/i/status/2119811579101462904"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存8赞、304浏览、0转发；11例20版本为作者统计，无独立核验。"],
+    "en": {
+      "title": "鸡骑猫's AI-reconstruction comparison library: shared references, 11 cases and 20 versions",
+      "summary": "鸡骑猫 reports a library mixing original, reverse-engineered and collected tasks, including mechanical octopus, engine and Optimus Prime references. The 11/20 figures describe self-reported library size, not rankings or engineering validation.",
+      "description": "At 23:17:19 Beijing time on November 9, 2026, 鸡骑猫 (@mspd4100) reports creating an expanding AI-reconstruction test library mixing original, reverse-engineered and collected material, currently 11 cases and 20 versions. The method gives the same reference to different models for independent creation and side-by-side comparison. Examples include a mechanical octopus, an engine and Transformers; an agent can supposedly start from a consistent reference when asked to recreate Optimus Prime. This entry covers one shared-reference comparison library, not three established independent research results.\n\nSupplementary author discussion at 23:20:41 says the first case required more environment preparation; at 23:22:45 the author says complex structures, production workflows and harnesses all test overall capability. These are contextual messages, not extra candidates, and provide no token or cost measurements. No exact repository, reference files, model/version list, outputs or scoring method was obtained, and images were not viewed. Eleven cases and twenty versions are not numbers of successful reversals or a benchmark ranking; visual similarity is not physical feasibility. REA is unmentioned. No models or production workflows were run here.",
+      "metadata": ["Sealed snapshot: 8 likes, 304 views, 0 reposts. Eleven cases and twenty versions are author counts, not independently audited."],
+      "source_labels": ["鸡骑猫 announces an 11-case, 20-version reference-reconstruction library, with author discussion, November 9, 2026"]
+    }
+  },
+  {
+    "id": "dryxio-gta-multiverse-portal-ai-attribution-discussion",
+    "title": "GTA Multiverse Portal Mod：UpInThaSky以Dryxio主页说明AI工具关联",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "UpInThaSky把Dryxio的GTA Portal Mod与作者AI逆向工具简介联系起来；没有Mod工作日志，主页关联不能证明每项Mod功能由AI实现。",
+    "description": "2026年11月9日22:10:49（北京时间），UpInThaSky（@UpInThaSky）在讨论中举出Dryxio的GTA Multiverse Portal Mod，并称作者GitHub主页明确写着制作AI逆向与经典GTA Mod工具。目标是经典GTA的Portal Mod，但此帖主要提供AI工具关联线索，没有描述传送机制、跨游戏范围或具体实现步骤。\n\n补取确认评论者及原文，未读取Mod仓库、作者主页、模型日志、构建或演示。既有Dryxio/ReAgent案例证明的是另一个Ghidra重建工具的公开方法，不能自动归因该Mod使用ReAgent或REA。此处按社区归因的具名Mod报告保留unverified，不据主页简介认定所有功能AI生成、已完成跨游戏互通或原作等价。本合集未下载游戏、运行Mod或测试联机。",
+    "sources": [{"label": "UpInThaSky关于Dryxio GTA Multiverse Portal与AI工具的回复，2026-11-09", "url": "https://x.com/i/status/2119794845032358083"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存1赞、16浏览、0转发；AI角色仅为评论者关联，非开发者工作记录。"],
+    "en": {
+      "title": "GTA Multiverse Portal Mod: UpInThaSky links Dryxio's project to an AI-tool profile description",
+      "summary": "UpInThaSky connects Dryxio's GTA Portal Mod with the creator's AI-reversing-tool profile. No mod work log is supplied; a profile association does not establish AI implementation of every feature.",
+      "description": "At 22:10:49 Beijing time on November 9, 2026, UpInThaSky (@UpInThaSky) cites Dryxio's GTA Multiverse Portal Mod in a discussion, saying the creator's GitHub profile explicitly mentions building AI tools for reverse engineering and classic GTA modding. The target is a Portal Mod for classic GTA, but the post chiefly supplies an AI-tool association, without a portal mechanism, cross-game scope or implementation steps.\n\nRetrieval confirms the commenter and wording, not the mod repository, creator profile, model logs, build or demonstration. The existing Dryxio/ReAgent case documents a separate Ghidra reconstruction tool's public method; it does not establish this mod's use of ReAgent or REA. Retained as an unverified, community-attributed named-mod report, not a conclusion from a profile that every feature was AI-generated, cross-game interoperability is complete or the original is reproduced. No game was downloaded, mod run or networking tested here.",
+      "metadata": ["Sealed snapshot: 1 like, 16 views, 0 reposts. The AI role is a commenter's association, not a developer work log."],
+      "source_labels": ["UpInThaSky's reply linking Dryxio's GTA Multiverse Portal and AI tools, November 9, 2026"]
+    }
+  },
+  {
+    "id": "ffts-gemini-two-launchers-shared-resource-comparison",
+    "title": "两个启动器资源比较：ffts称Gemini找到已删另一侧的对照材料",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "ffts请Gemini比较两启动器可共用资源与相同文件数，称删掉另一侧后仍找到比较位置；逆向只是作者玩笑猜测，未给文件数或读取路径。",
+    "description": "2026年11月9日23:50:41（北京时间），ffts（@ffts13）报告原想询问两个启动器的资源能否共用、多少文件一样，随后想起另一侧早已删除，但Gemini仍找到地方作比较。作者用玩笑口吻问是不是又去逆向别人。这提供了AI辅助应用资源结构比较的具体目标与动机，但没有启动器名称、共享资源结论或文件计数。\n\n补取确认署名与正文，未阅读图片、提示全文、Gemini输出、目录、哈希或搜索轨迹。不能认定模型恢复了删除文件、读到另一程序二进制或真正执行逆向；也可能利用公开材料，但没有证据选定解释。保留未核验研究报告，不将玩笑升级为访问事实或复用许可，REA未提及。本合集未读取启动器资源、运行目标或访问私人文件。",
+    "sources": [{"label": "ffts的Gemini启动器资源比较自述，2026-11-09", "url": "https://x.com/i/status/2119819975838069005"}],
+    "snapshot_date": "2026-11-09", "metadata": ["封存0赞、7浏览、0转发；没有资源一致性或共享可用性结果。"],
+    "en": {
+      "title": "Comparing two launchers' resources: ffts says Gemini found comparison material after one side was deleted",
+      "summary": "ffts asks Gemini about shared resources and identical files in two launchers, then says it found a comparison location despite the other side being deleted. Reversing is a joking guess; no counts or access paths are given.",
+      "description": "At 23:50:41 Beijing time on November 9, 2026, ffts (@ffts13) reports asking whether two launchers could share resources and how many files were identical, then remembering that the other side had already been deleted. Gemini nevertheless reportedly found somewhere to make a comparison. The author jokingly asks whether it reverse engineered someone again. This identifies a concrete AI-assisted application-resource comparison task and motivation, but no launcher names, resource-sharing conclusion or file count.\n\nRetrieval confirms attribution and text, not the image, full prompt, Gemini output, directories, hashes or search trail. Recovery of deleted files, access to another program's binary or actual reversing is not established. Public material is another possible explanation, but no evidence selects one. Retained as an unverified investigation report without upgrading a joke to an access claim or permission to reuse assets. REA is unmentioned. No launcher resources, targets or private files were accessed here.",
+      "metadata": ["Sealed snapshot: 0 likes, 7 views, 0 reposts. No resource-equivalence or sharing-compatibility result is supplied."],
+      "source_labels": ["ffts on Gemini-assisted launcher-resource comparison, November 9, 2026"]
+    }
+  },
+  {
     "id": "dark-souls-ps2-homebrew-ai-secondary-report",
     "title": "Dark Souls on PS2：yibie转述AI参与的重制版到PS2 homebrew重建",
     "category": "games", "rea": "other-ai", "status": "unverified",
@@ -2168,17 +2328,17 @@
     "category": "apps",
     "rea": "other-ai",
     "status": "related-project",
-    "summary": "介绍称OpenMontage把参考片开头、切镜和旁白关系交给Codex／Claude Code，先看样片和费用；发帖者想借此做Transformer科普，还没有该实验结果。",
-    "description": "2026年11月7日14:57:38（北京时间）的候选介绍OpenMontage：给Codex或Claude Code一条喜欢的短视频，研究其开场、切镜与旁白画面配合，再按新选题给两三种拍法，正式制作前先看样片和预估费用。这是参考视频制作结构的研究与生成工作流，不是软件反编译。\n\n发帖者提出具体未执行实验：保留参考片剪辑节奏，换成Transformer如何猜下一个字，先让观众猜句尾，再用动画解释模型，先看前10秒。其意图是用短预览具体纠正提问时机和旁白可听清度，而不是只说节奏更快。没有提供这一实验的输出。\n\n候选转述仓库例子为60秒香蕉与猕猴桃动画，六段Kling镜头、作者标价1.33美元；另有五种硬表面产品的60秒拆解再组装短片，以首尾帧保持产品身份并配音效、旁白与音乐。后者是视觉生成例子，不当作实物工程结构已逆向。77K+星是转述快照。仓库地址称在评论中，但未取得原仓库、生成配置、成本明细或样片对照；费用和质量不是本合集验证。REA只是类比，未证明调用REA。未运行项目或生成视频。",
-    "sources": [{"label": "OpenMontage用途、项目例子与Transformer前10秒idea，2026-11-07 14:57:38北京时间", "url": "https://x.com/i/status/2118961053614883281"}],
-    "snapshot_date": "2026-11-07",
-    "metadata": ["候选封存4赞、214浏览、0转发；77K+星与1.33美元均为文字转述，未核验。"],
+    "summary": "参考视频结构研究与Transformer前10秒idea新增生产管线说明：人工创意检查点、Piper离线配音和本地合成；介绍者只看演示，未运行，不能当零成本或变现验证。",
+    "description": "2026年11月7日14:57:38（北京时间）的候选介绍OpenMontage：给Codex或Claude Code一条喜欢的短视频，研究其开场、切镜与旁白画面配合，再按新选题给两三种拍法，正式制作前先看样片和预估费用。这是参考视频制作结构的研究与生成工作流，不是软件反编译。\n\n发帖者提出具体未执行实验：保留参考片剪辑节奏，换成Transformer如何猜下一个字，先让观众猜句尾，再用动画解释模型，先看前10秒。其意图是用短预览具体纠正提问时机和旁白可听清度，而不是只说节奏更快。没有提供这一实验的输出。\n\n候选转述仓库例子为60秒香蕉与猕猴桃动画，六段Kling镜头、作者标价1.33美元；另有五种硬表面产品的60秒拆解再组装短片，以首尾帧保持产品身份并配音效、旁白与音乐。后者是视觉生成例子，不当作实物工程结构已逆向。77K+星是转述快照。仓库地址称在评论中，但未取得原仓库、生成配置、成本明细或样片对照；费用和质量不是本合集验证。REA只是类比，未证明调用REA。\n\n11月9日20:34:31的新介绍补充12条生产管线、100多个工具、700多个Agent Skills与知识文件，称研究、脚本、分镜、素材、合成和质检在创意检查点等待人决策。参考片可来自YouTube、TikTok或本地文件，输出两三种重构方案和费用估计；还列Piper本地配音、NASA／Wikimedia素材、Remotion／HyperFrames／FFmpeg合成。作者明确只看15秒官方预告Signal From Tomorrow，没有本地跑通；7.9万星是转述快照。Python3.10+、FFmpeg、Node.js和Agent熟练度为其准备要求，不是本合集安装验证。所谓零付费API不等于零计算、素材授权或全部生成成本；SaaS演示、播客切片和多语言频道均为提出的商业方向，不是已实现收入。未运行项目或生成视频。",
+    "sources": [{"label": "OpenMontage用途、项目例子与Transformer前10秒idea，2026-11-07 14:57:38北京时间", "url": "https://x.com/i/status/2118961053614883281"}, {"label": "新增生产管线、人工检查点及未运行边界介绍，2026-11-09 20:34:31北京时间", "url": "https://x.com/i/status/2119770611950215261"}],
+    "snapshot_date": "2026-11-09",
+    "metadata": ["候选封存4赞、214浏览、0转发；77K+星与1.33美元均为文字转述，未核验。", "11月9日候选封存3赞、309浏览、0转发；12／100+／700+与7.9万星均为介绍者口径，没有运行验证。"],
     "en": {
       "title": "OpenMontage: a reference-edit workflow and a ten-second Transformer explainer idea",
-      "summary": "An account describes OpenMontage studying hooks, cuts and narration with Codex/Claude Code, then showing previews and costs. The poster proposes a Transformer explainer; that experiment has no reported output.",
-      "description": "A candidate at 14:57:38 Beijing time on November 7, 2026 introduces OpenMontage: supply a favorite short video to Codex or Claude Code, study its opening, cuts and narration/visual relationship, then obtain two or three approaches for a new topic, with previews and estimated costs before production. This studies and generates visible video-production structure rather than decompiling software.\n\nThe poster proposes an unexecuted experiment: preserve reference pacing but explain how a Transformer predicts the next word, first asking viewers to guess a sentence ending and then animating the model's equivalent task, previewing only the first ten seconds. The purpose is concrete feedback on question timing and intelligible narration rather than merely asking for faster pacing. No output from this experiment is supplied.\n\nThe candidate relays a repository example of a 60-second banana/kiwi animation using six Kling shots at an author-recorded $1.33. Another 60-second example disassembles and reassembles five hard-surface products visually, anchoring first/last frames to preserve identity and adding effects, narration and music. That is a generation example, not established recovery of real engineering structures. The 77K+ stars figure is a relayed snapshot. The repository is said to be in comments, but no original repository, generation configuration, cost breakdown or footage comparison was obtained; costs and quality were not verified here. REA is an analogy, not established engine use. No project or generation was run.",
-      "metadata": ["Sealed candidate: 4 likes, 214 views, 0 reposts. 77K+ stars and $1.33 are unverified textual accounts."],
-      "source_labels": ["OpenMontage uses, project examples and a ten-second Transformer idea, November 7, 2026 at 14:57:38 Beijing time"]
+      "summary": "The reference-video workflow and ten-second Transformer idea gain a production-pipeline account: human creative checkpoints, Piper offline speech and local compositing. The reporter only watched a demo; neither zero cost nor monetization is verified.",
+      "description": "A candidate at 14:57:38 Beijing time on November 7, 2026 introduces OpenMontage: supply a favorite short video to Codex or Claude Code, study its opening, cuts and narration/visual relationship, then obtain two or three approaches for a new topic, with previews and estimated costs before production. This studies and generates visible video-production structure rather than decompiling software.\n\nThe poster proposes an unexecuted experiment: preserve reference pacing but explain how a Transformer predicts the next word, first asking viewers to guess a sentence ending and then animating the model's equivalent task, previewing only the first ten seconds. The purpose is concrete feedback on question timing and intelligible narration rather than merely asking for faster pacing. No output from this experiment is supplied.\n\nThe candidate relays a repository example of a 60-second banana/kiwi animation using six Kling shots at an author-recorded $1.33. Another 60-second example disassembles and reassembles five hard-surface products visually, anchoring first/last frames to preserve identity and adding effects, narration and music. That is a generation example, not established recovery of real engineering structures. The 77K+ stars figure is a relayed snapshot. The repository is said to be in comments, but no original repository, generation configuration, cost breakdown or footage comparison was obtained; costs and quality were not verified here. REA is an analogy, not established engine use.\n\nA new account at 20:34:31 on November 9 describes 12 production pipelines, over 100 tools and over 700 Agent Skills/knowledge files, with research, scripting, storyboards, assets, compositing and QA pausing for human creative decisions. References can be YouTube, TikTok or local videos, yielding two or three reconstruction approaches and cost estimates. It also lists local Piper speech, NASA/Wikimedia assets and Remotion/HyperFrames/FFmpeg compositing. The reporter explicitly only watched the 15-second official Signal From Tomorrow trailer and has not completed a local run. The 79,000 stars figure is a relayed snapshot. Python 3.10+, FFmpeg, Node.js and agent proficiency are the reporter's preparation requirements, not installation checks here. No paid API does not mean no compute, asset-licensing or generation costs. SaaS demos, podcast clips and multilingual channels are proposed business directions, not demonstrated revenue. No project or generation was run here.",
+      "metadata": ["Sealed candidate: 4 likes, 214 views, 0 reposts. 77K+ stars and $1.33 are unverified textual accounts.", "November 9 sealed candidate: 3 likes, 309 views, 0 reposts. The 12/100+/700+ counts and 79,000 stars are the reporter's figures, without execution verification."],
+      "source_labels": ["OpenMontage uses, project examples and a ten-second Transformer idea, November 7, 2026 at 14:57:38 Beijing time", "Additional production pipelines, human checkpoints and explicit lack of execution, November 9, 2026 at 20:34:31 Beijing time"]
     }
   },
   {

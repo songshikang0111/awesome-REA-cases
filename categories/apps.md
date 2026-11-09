@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Gowin IDE：Pepijn安装REA，让Claude开始研究FPGA开发工具](../cases/pepijn-gowin-ide-claude-rea-investigation.md) — Pepijn报告安装REA并让Claude查看Gowin IDE逆向；没有具体组件、格式或结果，VACASK协同仿真和Spectre审阅仍是另一工作状态。 **[REA · 进行中]**
+- [LunarXuan/imag：秋北先生介绍从参考图拆构图、光影并生成双语提示词](../cases/lunarxuan-imag-reference-image-bilingual-prompts.md) — imag被介绍为分析摄影、插画等参考图并生成中英文及负面提示词的Skill；未读技能源码或比较输出，不当找回原Prompt。 **[其他 AI 逆向 · 相关项目]**
+- [GreHack AI逆向工作坊：Axelle给出Ghidra、radare2与OpenCode准备环境](../cases/cryptax-grehack-ai-reversing-workshop.md) — Axelle Ap.公告reverse with AI工作坊，要求Docker、Compose、JDK25+与Python3+；是具名教学项目，不是样本分析成功或安全隔离验证。 **[其他 AI 逆向 · 相关项目]**
+- [鸡骑猫的AI复刻对比库：同一参考交给不同模型，11例20版本](../cases/mspd4100-reference-reconstruction-model-comparison-library.md) — 鸡骑猫报告整理原创、逆向与收集案例，含机械章鱼、发动机、擎天柱参考重建；11／20为库规模自述，没有排名或工程可行性验证。 **[其他 AI 逆向 · 进行中]**
+- [两个启动器资源比较：ffts称Gemini找到已删另一侧的对照材料](../cases/ffts-gemini-two-launchers-shared-resource-comparison.md) — ffts请Gemini比较两启动器可共用资源与相同文件数，称删掉另一侧后仍找到比较位置；逆向只是作者玩笑猜测，未给文件数或读取路径。 **[其他 AI 逆向 · 待验证]**
 - [波特兰州立恶意软件课程：Claude接REMnux MCP，未观察到不等于行为不存在](../cases/portland-malware-course-claude-remnux-observation-limits.md) — 日语转述CS492/592的AI分析教学与环境比较：Claude Code可接REMnux MCP，无害测试程序在Speakeasy静默漏掉持久化和名称解析；这些不是AI检测准确率。 **[其他 AI 逆向 · 相关项目]**
 - [Hangar参考图重建：unfazed与NotRajo争论Claude研究是否算逆向](../cases/hangar-reference-claude-clone-method-dispute.md) — unfazed说给Claude参考Hangar与图片已构成研究，NotRajo承认克隆但否认下载或逆向；讨论也指出UX过简，不证明恢复原实现。 **[其他 AI 逆向 · 待验证]**
 - [HoldToType：Marcus称Claude Code与REA重建Wispr Flow的按键本地听写部分](../cases/marcus-holdtotype-wispr-flow-rea-whisper.md) — Marcus报告按住键说话、松开后在光标处输入的Mac工具，采用本地Whisper，称不上传、无订阅；只重建其日常使用部分，不是全部Wispr Flow等价。 **[REA · 待验证]**
@@ -47,7 +52,7 @@
 - [Hadesi的学习通签到系统：REA辅助研究后的功能自述](../cases/hadesi-rea-chaoxing-checkin-system-report.md) — Hadesi因学校签到名额难抢、代办太贵，称用REA研究学习通并集成自动化功能；没有源码、版本或成功率记录，与核桃的课程进度实验分开。 **[REA · 待验证]**
 - [二旬老汉的抢券流量研究：手机操作留给人，包与脚本交给AI](../cases/leeking420-ai-mcp-mobile-coupon-traffic-analysis.md) — 二旬老汉称将手机抓包软件经MCP接AI、无线ADB连接，自己操作手机而让AI分析包与脚本；未具名平台、模型或实际抢券成果。 **[其他 AI 逆向 · 进行中]**
 - [阿杭的剪映Codex版：先澄清需求，再研究并组装剪辑能力](../cases/ahang-codex-jianying-intent-clarification-rebuild.md) — 阿杭报告Codex研究与自用剪辑，后公开完整Plan提示：独立编辑器、AI确认后执行及可编辑工程兼容；这些是验收目标，尚无源码或完整功能对照。 **[其他 AI 逆向 · 进行中]**
-- [OpenMontage：参考片节奏到Transformer科普前10秒的具体设想](../cases/openmontage-reference-edit-transformer-ten-second-idea.md) — 介绍称OpenMontage把参考片开头、切镜和旁白关系交给Codex／Claude Code，先看样片和费用；发帖者想借此做Transformer科普，还没有该实验结果。 **[其他 AI 逆向 · 相关项目]**
+- [OpenMontage：参考片节奏到Transformer科普前10秒的具体设想](../cases/openmontage-reference-edit-transformer-ten-second-idea.md) — 参考视频结构研究与Transformer前10秒idea新增生产管线说明：人工创意检查点、Piper离线配音和本地合成；介绍者只看演示，未运行，不能当零成本或变现验证。 **[其他 AI 逆向 · 相关项目]**
 - [astro-conversion-kit：把线上WordPress等网站重建为静态Astro站点](../cases/astro-conversion-kit-live-site-agent-migration.md) — AI探路者Tim介绍一组Agent技能，从线上网站转成Astro、产出PR并部署预发布环境；没有核对原站、源码或迁移保真度，属于网站重建相关项目。 **[其他 AI 逆向 · 相关项目]**
 - [跨两台PC协作：Simon称DeepSeek运行REA并与Claude Code商量计划](../cases/simon-deepseek-rea-claude-cross-pc-planning.md) — Simon自述DeepSeek creator mode运行REA，与另一台PC上的Claude Code Agent共同计划；没有目标文件、通信实现、分析输出或完成结果。 **[REA · 进行中]**
 - [Claude Desktop每日任务关不掉：Murat用Antigravity检查应用代码定位文件](../cases/antigravity-claude-desktop-recurring-task-removal.md) — Murat Umutlu称Claude与Codex没能关掉每日任务，Antigravity通过研究Claude Desktop代码找到任务文件并删除；没有路径、代码或停跑日志。 **[其他 AI 逆向 · 待验证]**

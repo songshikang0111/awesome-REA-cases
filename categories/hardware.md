@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [摆线机构视频到CAD：Wei佳转述Astra与ForgeCAD MCP的参数化重建](../cases/forgecad-astra-nonplanar-cycloidal-video-report.md) — Wei佳称开发者从无背隙非平面摆线机构视频推运动并生成特征树；没有取得原实验或误差记录，不把可编辑模型当可制造验证。 **[其他 AI 逆向 · 待验证]**
+- [Deep-TEMPEST：TechVerser介绍用深度学习从HDMI电磁泄漏恢复屏幕](../cases/deep-tempest-hdmi-emissions-ai-reconstruction-report.md) — TechVerser把经典HackRF屏幕恢复演示与Deep-TEMPEST去噪研究联系起来；未读原论文或测距记录，不认定所附演示使用AI或能恢复任意密码。 **[其他 AI 逆向 · 待验证]**
+- [廉价手表重获新生：两帖转述Codex研究蓝牙、SDK与固件后接iOS通知](../cases/codex-cheap-watch-ios-notifications-secondary-report.md) — 两位转述者描述同一类Codex手表改造链路，后帖点名Grok Bot／Muse／dots；型号、作者和固件未确认，不与既有30美元ESP32项目强行合并。 **[其他 AI 逆向 · 待验证]**
+- [SOLIDWORKS LEO：官方称从STEP／IGES恢复可编辑参数特征树](../cases/solidworks-leo-step-iges-parametric-tree-report.md) — SOLIDWORKS称AI Virtual Companion LEO把静态BREP变成原生特征树，用于供应商旧零件；没有版本、零件样本或几何误差，不证明恢复原设计意图。 **[其他 AI 逆向 · 相关项目]**
 - [Divoom Pixoo：Joel称研究原App的Wi-Fi通信后用ChatGPT与MCP控制像素屏](../cases/joel-carpenter-divoom-pixoo-chatgpt-mcp.md) — Joel Carpenter原想让Claude root并刷固件，实际报告只研究原App通信就做了连接器，让ChatGPT显示日历、照片和表格指标；三分钟与纯本地能力未测。 **[其他 AI 逆向 · 待验证]**
 - [出租屋LG电视：Kevin Theo用Claude做欢迎页与Pi重置，发现PlayReady残留登录](../cases/kevin-theo-lg-webos-rental-reset-playready.md) — Kevin Theo报告三台已停更LG电视显示六语欢迎页，Pi在两三分钟内清除上一位住客登录；Netflix还需处理隐藏PlayReady存储。代码与实机测试由AI和人分工，未独立重跑。 **[其他 AI 逆向 · 进行中]**
 - [ZX Spectrum重建：Scientific Brad称REA恢复Z80与硬件，50FPS仍要等磁带](../cases/scientificbrad-zx-spectrum-z80-rea-reconstruction.md) — Scientific Brad称用百万量级AI token和现代处理器重建Z80与ZX Spectrum硬件、达到50FPS，仍保留磁带加载等待；没有指令、时序或兼容测试。 **[REA · 待验证]**

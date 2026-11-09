@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [GTA Multiverse Portal Mod：UpInThaSky以Dryxio主页说明AI工具关联](../cases/dryxio-gta-multiverse-portal-ai-attribution-discussion.md) — UpInThaSky把Dryxio的GTA Portal Mod与作者AI逆向工具简介联系起来；没有Mod工作日志，主页关联不能证明每项Mod功能由AI实现。 **[其他 AI 逆向 · 待验证]**
 - [Dark Souls on PS2：yibie转述AI参与的重制版到PS2 homebrew重建](../cases/dark-souls-ps2-homebrew-ai-secondary-report.md) — yibie介绍将Dark Souls Remastered重建为PS2 homebrew、为VU1改写引擎的项目；AI披露与83星为转述，没有可玩性或性能验证。 **[其他 AI 逆向 · 待验证]**
 - [Football Manager付费Mod争议：kadeito指称AI逆向制作人脸、球场与球衣插件](../cases/football-manager-ai-paywall-mods-community-allegation.md) — kadeito批评Football Manager的AI付费插件，列出£2.50人脸、£10球场、£3球衣，并在同串归因Claude；没有具体插件代码或作者确认，不把相似外观当AI证据。 **[其他 AI 逆向 · 待验证]**
 - [时之笛重制版到iPhone Duo：转述Ammaar Reshi的Gemini演示及删片争议](../cases/reshi-ocarina-iphone-duo-gemini-secondary-report.md) — 帖子称Ammaar Reshi用Gemini4反编译时之笛重制版并在iPhone Duo演示，后因批评删片；未取得演示、源码或原声明，不作移植或侵权判定。 **[其他 AI 逆向 · 待验证]**
