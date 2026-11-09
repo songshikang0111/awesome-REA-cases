@@ -3,6 +3,7 @@
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
 - [FutureBit矿机固件idea：Takuri计划用Claude Code让从机菊花链连接主机](../cases/futurebit-appollo-claude-daisychain-firmware-idea.md) — Takuri打算为现有FutureBit矿机写自定义固件，让从机与主机菊花链协作；只是具体互通目标，未报告固件分析、实现或刷写结果。 **[其他 AI 逆向 · 待验证]**
+- [Razer Basilisk X：Agent研究更新器后在Mac刷固件，蓝牙仍不能配对](../cases/razer-basilisk-x-mac-agent-updater-reflash.md) — Kiryl Y报告Agent逆向仅Windows提供的Razer更新器，在Mac重刷Basilisk X HyperSpeed，但没有修好蓝牙重连；配对状态存储位置仍是作者推断。 **[未确认使用 REA · 进行中]**
 - [2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home](../cases/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted称Codex修改旧Kindle显示转换与Home钩子，软件翻页响应中位数约430降至330–340毫秒；为单机自测，非独立复现或整机刷新保证。 **[其他 AI 逆向 · 进行中]**
 - [8bitdo手柄维修失败：Ernest称Claude分析固件三小时后变砖](../cases/ernest-8bitdo-claude-firmware-brick-report.md) — 作者为解决蓝牙连接异常让Claude分析手柄固件，报告最终完全变砖；没有型号、修改记录或恢复诊断，不能据此证明模型退化。 **[其他 AI 逆向 · 待验证]**
 - [单图机械蜻蜓：f0rgent转述Claude推断铰链、齿轮与频率](../cases/elvar-claude-dragonfly-image-mechanism-report.md) — 回复elvar_official的帖子称Claude从一张蜻蜓图反推机械结构；公差、频率与可制造性均未有测量或实体测试。 **[其他 AI 逆向 · 待验证]**
@@ -48,7 +49,7 @@
 - [破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本](../cases/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty报告GPT用ScanRuler工具从破损铸件的3D扫描生成首版副本，承认底部法兰更厚、细节仍粗；尚无打印、装配或尺寸验证。 **[其他 AI 逆向 · 进行中]**
 - [Mac显卡驱动互通设想：Shivam Jain建议Claude与REA，移植说法待核实](../cases/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain建议Claude搭配REA做GPU互通，援引未具名NVIDIA驱动到Mac的说法，并提Huawei开放替代与AMD固件合作；没有项目或硬件验证。 **[REA · 待验证]**
 - [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](../cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**
-- [Kindle Scribe：Luis称Claude指导既有越狱和USB远程控制](../cases/luis-kindle-scribe-claude-vera-usb-root-report.md) — Luis报告Claude指导其称为vera的PDF越狱，并建立USB root控制；替换操作系统或固件仍是想法，无代码和设备日志。 **[其他 AI 逆向 · 进行中]**
+- [Kindle Scribe：Luis从Claude越狱指导推进到Codex驱动研究与X11反馈](../cases/luis-kindle-scribe-claude-vera-usb-root-report.md) — Luis称iPhone上的Codex正研究Scribe显示与笔输入驱动，已可发送输入和抓取X11屏幕；替换Amazon launcher与改善响应仍是计划，无公开代码或性能对照。 **[其他 AI 逆向 · 进行中]**
 - [行李箱App消失后：Diego用Codex、REA和JADX恢复称重与蓝牙锁](../cases/codex-rea-jadx-suitcase-iphone-app.md) — Diego报告研究旧Android APK、实机测试蓝牙命令，再做SwiftUI iPhone替代App；约一小时与称重、开锁等功能均为作者自述，箱型与源码未披露。 **[REA · 进行中]**
 - [Owlet旧婴儿袜：Wes Bos让Agent研究无基站血氧读取](../cases/wesbos-owlet-sock-agent-pulse-oximeter-report.md) — 读者转述Wes Bos用Agent研究自有Owlet袜式传感器，以免购买约200美元持续血氧仪；作者只称读数似接近Apple Watch，未仔细校验。 **[其他 AI 逆向 · 待验证]**
 - [便携电源站串口调查：读者转述leopardracer的Claude遥测指控](../cases/leopardracer-claude-power-station-serial-telemetry-allegation.md) — 回复者称赞Claude研究USB串口；母帖指控600W电源站含蜂窝模块并外传生活规律，但无原始日志、型号或独立验证，品牌归属也未确认。 **[其他 AI 逆向 · 待验证]**

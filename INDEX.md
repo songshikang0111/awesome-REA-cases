@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1951 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1954 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（397）
-- [硬件与设备互通](categories/hardware.md)（521）
-- [应用与客户端](categories/apps.md)（796）
+- [硬件与设备互通](categories/hardware.md)（522）
+- [应用与客户端](categories/apps.md)（798）
 - [算法与功能重建](categories/algorithms.md)（237）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -427,6 +427,7 @@
 ### 硬件与设备互通
 
 - [FutureBit矿机固件idea：Takuri计划用Claude Code让从机菊花链连接主机](cases/futurebit-appollo-claude-daisychain-firmware-idea.md) — Takuri打算为现有FutureBit矿机写自定义固件，让从机与主机菊花链协作；只是具体互通目标，未报告固件分析、实现或刷写结果。 **[其他 AI 逆向 · 待验证]**
+- [Razer Basilisk X：Agent研究更新器后在Mac刷固件，蓝牙仍不能配对](cases/razer-basilisk-x-mac-agent-updater-reflash.md) — Kiryl Y报告Agent逆向仅Windows提供的Razer更新器，在Mac重刷Basilisk X HyperSpeed，但没有修好蓝牙重连；配对状态存储位置仍是作者推断。 **[未确认使用 REA · 进行中]**
 - [2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home](cases/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted称Codex修改旧Kindle显示转换与Home钩子，软件翻页响应中位数约430降至330–340毫秒；为单机自测，非独立复现或整机刷新保证。 **[其他 AI 逆向 · 进行中]**
 - [8bitdo手柄维修失败：Ernest称Claude分析固件三小时后变砖](cases/ernest-8bitdo-claude-firmware-brick-report.md) — 作者为解决蓝牙连接异常让Claude分析手柄固件，报告最终完全变砖；没有型号、修改记录或恢复诊断，不能据此证明模型退化。 **[其他 AI 逆向 · 待验证]**
 - [单图机械蜻蜓：f0rgent转述Claude推断铰链、齿轮与频率](cases/elvar-claude-dragonfly-image-mechanism-report.md) — 回复elvar_official的帖子称Claude从一张蜻蜓图反推机械结构；公差、频率与可制造性均未有测量或实体测试。 **[其他 AI 逆向 · 待验证]**
@@ -472,7 +473,7 @@
 - [破损ZAMAK铸件：Rusty称GPT借ScanRuler从扫描重建可打印副本](cases/rusty-scanruler-gpt-zamak-casting-reconstruction.md) — Rusty报告GPT用ScanRuler工具从破损铸件的3D扫描生成首版副本，承认底部法兰更厚、细节仍粗；尚无打印、装配或尺寸验证。 **[其他 AI 逆向 · 进行中]**
 - [Mac显卡驱动互通设想：Shivam Jain建议Claude与REA，移植说法待核实](cases/shivam-claude-rea-mac-gpu-driver-interoperability-idea.md) — Shivam Jain建议Claude搭配REA做GPU互通，援引未具名NVIDIA驱动到Mac的说法，并提Huawei开放替代与AMD固件合作；没有项目或硬件验证。 **[REA · 待验证]**
 - [小米17 Pro Max Root适配：贝吉塔Again称Agent参考公开漏洞资料](cases/xiaomi17-pro-max-agent-root-adaptation-report.md) — 作者称Agent做出小米17 Pro Max适配，正文与标题机型及CVE编号不一致；仅保留报告，不确认漏洞映射、兼容性或成功Root。 **[其他 AI 逆向 · 待验证]**
-- [Kindle Scribe：Luis称Claude指导既有越狱和USB远程控制](cases/luis-kindle-scribe-claude-vera-usb-root-report.md) — Luis报告Claude指导其称为vera的PDF越狱，并建立USB root控制；替换操作系统或固件仍是想法，无代码和设备日志。 **[其他 AI 逆向 · 进行中]**
+- [Kindle Scribe：Luis从Claude越狱指导推进到Codex驱动研究与X11反馈](cases/luis-kindle-scribe-claude-vera-usb-root-report.md) — Luis称iPhone上的Codex正研究Scribe显示与笔输入驱动，已可发送输入和抓取X11屏幕；替换Amazon launcher与改善响应仍是计划，无公开代码或性能对照。 **[其他 AI 逆向 · 进行中]**
 - [行李箱App消失后：Diego用Codex、REA和JADX恢复称重与蓝牙锁](cases/codex-rea-jadx-suitcase-iphone-app.md) — Diego报告研究旧Android APK、实机测试蓝牙命令，再做SwiftUI iPhone替代App；约一小时与称重、开锁等功能均为作者自述，箱型与源码未披露。 **[REA · 进行中]**
 - [Owlet旧婴儿袜：Wes Bos让Agent研究无基站血氧读取](cases/wesbos-owlet-sock-agent-pulse-oximeter-report.md) — 读者转述Wes Bos用Agent研究自有Owlet袜式传感器，以免购买约200美元持续血氧仪；作者只称读数似接近Apple Watch，未仔细校验。 **[其他 AI 逆向 · 待验证]**
 - [便携电源站串口调查：读者转述leopardracer的Claude遥测指控](cases/leopardracer-claude-power-station-serial-telemetry-allegation.md) — 回复者称赞Claude研究USB串口；母帖指控600W电源站含蜂窝模块并外传生活规律，但无原始日志、型号或独立验证，品牌归属也未确认。 **[其他 AI 逆向 · 待验证]**
@@ -950,6 +951,8 @@
 
 ### 应用与客户端
 
+- [OGhidra：用本地或云模型驱动Ghidra的计划、执行与复核](cases/oghidra-llnl-plan-execute-review-binary-analysis.md) — LLNL公开OGhidra，让模型调查函数、字符串与导入、批量命名和生成报告；文档有GhidraMCP与PyGhidra两条路径，未独立验证检测能力或分析正确率。 **[其他 AI 逆向 · 相关项目]**
+- [Word的Rust重建转述：课程宣传称只观察行为与公开规格，项目仍未识别](cases/word-rust-observed-behavior-course-claim.md) — gvk77在AI逆向课程推广中称某团队不读Word源码、用Rust重建；未给团队、仓库、文档兼容测试或具体AI操作，不能称完整Office替代。 **[未确认使用 REA · 待验证]**
 - [479个DLL到1700余界面项：DeepSeek／REA架构研究漏掉GUI映射](cases/large-app-479-dll-1700-gui-rea-model-handoff.md) — _ToiM22称DeepSeek读取477个DLL后，Claude构建仍漏功能；最终回到Claude枚举菜单和截图，暴露静态映射与界面覆盖差距。 **[REA · 进行中]**
 - [加密avatar仍被提取：ZaiBitez指称AI逆向绕过防护](cases/encrypted-avatar-ai-ripping-allegation.md) — ZaiBitez称自己的avatar原有防提取加密，被AI逆向后盗取；没有方案、工具或日志，保留指控而不确认密码被破解。 **[未确认使用 REA · 待验证]**
 - [agenC演示转述：一小时从DOS二进制到Web应用，缓存率不是正确率](cases/agenc-dos-binary-webapp-autonomous-report.md) — kakashikute宣传agenC自主研究DOS二进制并重建Web应用，称缓存效率99.7%；没有目标名、产物或兼容性测试。 **[其他 AI 逆向 · 待验证]**
@@ -1374,7 +1377,7 @@
 - [Grok Bots四角色REA流程：观察、规格、隔离重建与验证的提案](cases/grok-bots-rea-four-role-cleanroom-proposal.md) — francescofaenzi把四Agent clean-room方法移到Grok Bots共享电脑，加入Team Lead与最多约三轮反馈；未展示具体目标或权限隔离测试。 **[REA · 相关项目]**
 - [NetacFileLock：Codex七分钟静态复查文件加密的研究者报告](cases/netacfilelock-codex-static-crypto-review.md) — Xusheng Li称Codex经Binary Ninja MCP复查已研究的NetacFileLock，发现AES固定密钥、密码日志和fast模式部分加密；七分钟不是通用基准。 **[其他 AI 逆向 · 分析测试]**
 - [KakaSoft USB Copy Protection：AI追踪自定义哈希与受保护测试文件](cases/kakasoft-usb-copy-protection-ai-review.md) — Xusheng Li报告AI分析KakaSoft 5.6.0.299并恢复自有测试文件；最高档使用逐文件盐和IV，但内部口令可从客户端恢复。问题在密钥派生，不是破解Blowfish。 **[其他 AI 逆向 · 分析测试]**
-- [Courier Symphony：在A/B阶段之后加入REA辅助诊断、测试与人工批准的规划](cases/courier-symphony-rea-diagnostics-idea.md) — 德语帖子为Courier Symphony提出后续错误诊断流程：先稳定现有自动化，再让Agent分析故障，必要时用REA研究无源码程序，修复须测试与明确批准。 **[REA · 待验证]**
+- [Courier Symphony：REA诊断与独立集成Reason Network的规划](cases/courier-symphony-rea-diagnostics-idea.md) — Courier原REA诊断规划之外，新增研究Reason公开Network与现有代码缺口、独立实现所需Pro功能的计划；作者明确不提取闭源代码，集成仍待验证。 **[REA · 待验证]**
 - [只想问应用怎么用，Codex却启动REA：Mark Kretschmann中止的工具选择失败](cases/mark-k-codex-rea-usage-question-tool-misrouting.md) — Mark报告询问应用用法时Codex误用已安装REA试图重建；补读原串确认网页搜索已启用、作者中止任务，没有逆向成果或修复验证。 **[REA · 待验证]**
 - [img2threejs：从参考图生成带动画Three.js代码资产的项目介绍](cases/img2threejs-reference-image-code-assets-report.md) — 候选设计工具清单将img2threejs描述为给Agent输入参考图、重建纯代码动画Three.js资产的工具；未取得仓库、样例、模型或视觉对照。 **[其他 AI 逆向 · 待验证]**
 - [苹果备忘录到口播工具：麦当用REA研究本地笔记，补上模板、时长估算与提词器](cases/maidang-apple-notes-rea-teleprompter-tool.md) — 麦当mdldm报告让AI调研Apple Notes本地笔记后制作自用工具，加入选题模板、口播时长估算和全屏提词器，并称当期视频即用该工具拍摄。 **[REA · 待验证]**
@@ -1685,7 +1688,7 @@
 - [Ledger Opus：声称研究 Claude for Finance 的金融 Agent 推广线索](cases/ledger-opus-finance-agent-report.md) — 推广者称用 REA 制作加密资产、股票和记账助手，尚无可核对的逆向过程。 **[REA · 待验证]**
 - [OpenCodex / Antigravity：用 REA 调查多轮工具调用签名丢失](cases/opencodex-antigravity-signature-fallback.md) — 作者称研究 Rust 工具与 Go language_server 后，为 Gemini 请求补上签名缺失兜底。 **[REA · 待验证]**
 - [扫雷与 B 站：REA 视频演示标题的二手汇总](cases/rea-bilibili-minesweeper-demo-roundup.md) — 读者列出扫雷、B站及手机 App 的 REA 演示视频，实现和测试尚待核对。 **[REA · 待验证]**
-- [网易 UU 远程：Claude / Codex 辅助制作非官方 Linux 被控端](cases/uu-remote-linux-ai-client.md) — Claude／Codex辅助的非官方Rust被控端补上Linux互通；新读者称在Omarchy旧i5 MacBook Pro上进一步优化到流畅，无性能基准。 **[其他 AI 逆向 · 进行中]**
+- [网易UU远程：从Claude／Codex的Linux被控端到GPT的银河麒麟互通报告](cases/uu-remote-linux-ai-client.md) — UU非官方Linux互通报告新增银河麒麟路径：大小聪明称GPT根据REA研究后不到一小时可登录并连接自有设备；未证实与旧Rust被控端同一实现或完整兼容。 **[其他 AI 逆向 · 进行中]**
 - [DexSQL：让 Agent 用 SQL 查询 APK 与 DEX 的调用关系](cases/dexsql-agent-apk-query.md) — LSPosed 提供直接读取 DEX 的 CLI / MCP；公开 QQ 样本对照，但核心工具并非开源。 **[其他 AI 逆向 · 相关项目]**
 - [沉浸式翻译类扩展：用 Codex 研究自带 Token 的替代版本](cases/codex-immersive-translation-extension.md) — 作者正在逆向 Chrome 翻译扩展，希望直接使用自己购买的模型 Token。 **[其他 AI 逆向 · 进行中]**
 - [ChatGPT Intelligent UI：交给 Codex 研究实现的尝试](cases/chatgpt-intelligent-ui-codex-study.md) — 作者已让 Codex 调查 ChatGPT Intelligent UI 的实现，尚无技术结果。 **[其他 AI 逆向 · 进行中]**
