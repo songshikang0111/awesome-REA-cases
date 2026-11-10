@@ -114,7 +114,7 @@
 - [女帝的一日：sandmrk把Muse宫廷视频反推为六段约55秒规格](../cases/sandmrk-muse-empress-palace-six-clip-prompt.md) — sandmrk拆解女帝幻想视频的灯会、烟花、斟酒与结尾表情，保留台词时序和镜头约束；六段工作流不等于已验证复现。 **[其他 AI 逆向 · 待验证]**
 - [Codex与Renoise：从科普参考片反推镜头节奏再用云端脚本生成](../cases/codex-renoise-reference-science-video-workflow.md) — Nathan AI Lab介绍先拉片恢复视觉hook、运镜与节奏，再调Seedance/Kling/Wan3和云端剪辑；未提供具体参考片、输出或成本/工时对照。 **[其他 AI 逆向 · 待验证]**
 - [动画反推试验：Fayeque拟用arena的gemini-3.8-flash-low对照参考视频](../cases/fayeque-gemini-arena-animation-reconstruction-trial.md) — Fayeque Peerzade称正在反推Anika所贴AI编码动画，计划测试arena模型slug能否产生相似输出；没有代码或试验结果，不替其修正模型名。 **[其他 AI 逆向 · 进行中]**
-- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](../cases/hypit-reference-video-semantic-workflow-rebuild.md) — Hypit把参考视频拆成按词锚定工作流；阿杭新增26秒猫片与Clone Viral Ads的使用／计划，曝光、费用与新Skill均未独立验证。 **[其他 AI 逆向 · 进行中]**
+- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](../cases/hypit-reference-video-semantic-workflow-rebuild.md) — Hypit按词锚定参考片工作流；阿杭从转Skill计划推进到逐份读规则，归纳13项B-roll语法与盲评，尚无转出Skill或成片，旧费用与曝光自述仍未验证。 **[其他 AI 逆向 · 进行中]**
 - [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](../cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
 - [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](../cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**
 - [1987年6502音乐例程：自称原作者者报告AI已研究其旧代码](../cases/bbcpropaganda-1987-6502-music-ai-reversing.md) — @BBCPropaganda称AI逆向了自己1987年的6502音乐例程，并追述转写电影配乐曾引发诉讼；没有代码、分析报告或法律记录。 **[其他 AI 逆向 · 待验证]**

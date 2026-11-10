@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [十四年旧Kindle：Agent经KOReader SSH做天气、股票与时钟插件](../cases/rdklinc-old-kindle-koreader-agent-dashboard.md) — InvestingVault转述RDKLInc把旧Kindle做成KOReader仪表盘，称Agent主要工作耗时2至3小时且保留阅读；代码计划公开，数周续航未验证。 **[其他 AI 逆向 · 待验证]**
+- [猫喂食器与seL4：Remy称Claude可写替代固件的一天设想](../cases/claude-cat-feeder-sel4-firmware-claim.md) — Remy举例向Claude要求用seL4为猫喂食器写固件，称一天后可完成；无型号、代码或实机结果，按具体设想而非成功移植收录。 **[其他 AI 逆向 · 待验证]**
+- [车载信息娱乐固件：Dan询问能否用Claude做自定义替代](../cases/claude-vehicle-infotainment-custom-firmware-question.md) — Dan询问是否有人用Claude为车载信息娱乐系统放入自定义固件；是具体设备类别的idea，没有车型、实施或结果。 **[其他 AI 逆向 · 待验证]**
 - [OTDR蓝牙研究准备：Charlie Huang拆机读日志，装好AI工具等待硬件](../cases/charlie-huang-otdr-bluetooth-ai-tools-preparation.md) — Charlie Huang称拆OTDR追蓝牙、读boosting log，并装AI工具等待shell读取硬件；当前还把外壳用于ESP32-S3原型，没有已完成AI分析或协议恢复证据。 **[未确认使用 REA · 进行中]**
 - [旧Launchpad：Peer Richelsen称Claude Code研究了不理想的驱动](../cases/peer-richelsen-launchpad-claude-driver-research.md) — Peer Richelsen自述旧Launchpad一直缺好驱动，于是Claude Code逆向；型号、平台、代码与实机功能未给出。 **[其他 AI 逆向 · 待验证]**
 - [Allwinner车载多媒体：Luiz用Claude研究RTOS，接管启动后复用厂商函数](../cases/luiz-allwinner-car-multimedia-rtos-claude-firmware.md) — Luiz称反编译非Android车机固件，以ESP32读闪存和调试，Claude辅助研究Allwinner RTOS；未取得固件与测试，不保证相似车机通用。 **[其他 AI 逆向 · 进行中]**
@@ -131,7 +134,7 @@
 - [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](../cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
 - [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](../cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
 - [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](../cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**
-- [Danfoss冷柜控制器：Sonnet漏洞重建、Sekoia固件调查与维修idea](../cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Claroty的Sonnet已知漏洞实验之外，Sekoia新增捕获请求与公开固件交LLM确认未认证改管理员名；原始日志未获，两个实验及现实攻击不能混算。 **[其他 AI 逆向 · 待验证]**
+- [Danfoss冷柜控制器：Sonnet漏洞重建、Sekoia固件调查与维修idea](../cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Danfoss既有Sonnet实验与Sekoia调查之外，新报道把后者LLM指为GLM 5.3并点名800A蜜罐；是二手补充，未取得原始输入输出，不证明真实攻击使用AI。 **[其他 AI 逆向 · 待验证]**
 - [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](../cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
 - [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](../cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](../cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**

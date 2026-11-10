@@ -28,6 +28,9 @@ At 05:33:26 Beijing time on November 8, 2026, 바스 (@flowoodzx) reports trying
 
 At 07:31:11 Beijing time on November 10, 2026, Riley Brown (@rileybrown) says he tried REA-Video with Fable on stream, naming the target as a Kurzagets video and praising its frame and inter-frame analysis for extracting editing style. No video title, URL, input segment, output report or replay link is supplied; he says he does not plan to post it for fear of backlash from the editing community. The target spelling is not silently corrected. Personal praise does not establish a completed remake, original-prompt recovery or accuracy. He further speculates that labs might reverse videos into code for model training, citing a similar speculation about software pipelines. These are not established training events. Retrieval confirms attribution and text only; no stream was watched or tool run. Earlier music errors and competitor-test evidence limits remain.
 
+At 10:50:49 Beijing time on November 10, 2026, @harrisonzhuanf reports using rea-video to analyze director Wang Zuo's ordinary-plastic-bag advertising parody. The author's interpretation contrasts minimalist fashion imagery implying luxury with narration and captions repeatedly returning to grocery shopping and supermarkets. The post includes links, but the linked report, original footage and visual attachments were not read here. This establishes a named use and the user's semantic analysis, not verified per-shot classification, original-prompt recovery or a completed reshoot. Retrieval confirms the handle and wording. No tool was run, and earlier three-clip music errors and competitor-comparison limits are retained.
+
+November 10 at 10:50:49 sealed candidate: 3 likes, 58 views, 0 reposts. Original footage and the analysis report were not read.
 November 10 at 07:31:11 sealed candidate: 38 likes, 2,936 views, 1 repost. The Fable trial has no replayable materials; training uses are speculation only.
 November 8 at 05:33:26 sealed candidate: 0 likes, 20 views, 0 reposts. Three clips and seven seconds are user-reported; the music misclassification is retained.
 November 7 at 17:25 sealed candidate: 3 likes, 262 views, 0 reposts. A use-case comparison, not a new test; the paid plan was not checked against official information.
@@ -56,5 +59,6 @@ November 7 at 10:12:50: James Russo candidate, 6 likes, 390 views, 0 reposts. At
 - [Retelling comparing REA-VIDEO/HyperFrames uses and pricing, November 7, 2026 at 17:25:17 Beijing time](https://x.com/i/status/2118998213474529750)
 - [바스 reports three-video testing and a Grok background-music error, November 8, 2026 at 05:33:26 Beijing time](https://x.com/i/status/2119181456685793578)
 - [Riley Brown on a Fable/Kurzagets video trial and training speculation, November 10, 2026 at 07:31:11 Beijing time](https://x.com/i/status/2119935865933725888)
+- [harrisonzhuanf's reported breakdown of Wang Zuo's plastic-bag advertising parody, November 10, 2026 at 10:50:49 Beijing time](https://x.com/i/status/2119986106183885098)
 
 [中文](../rea-video-shot-breakdown-rebuild-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

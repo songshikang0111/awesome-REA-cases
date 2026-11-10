@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Excel克隆：更夫转述Matthew Berman的Fable 5.2早期测试](../cases/fable52-berman-excel-clone-secondary-report.md) — 更夫转述的Excel克隆获Berman原帖归因：Fable 5.2的完整等价仍是作者声称；旧GPT-5.6六天Computer Use循环另作背景，不混入本次结果，兼容性未验证。 **[其他 AI 逆向 · 待验证]**
+- [Unreal东京复刻：更夫转述Matthew Berman的Fable场景重建](../cases/fable52-berman-unreal-tokyo-reconstruction-report.md) — 更夫称Matthew Berman用Fable在Unreal复刻东京；没有地点范围、参考素材、工程或空间误差，不写成整座城市数字孪生。 **[其他 AI 逆向 · 待验证]**
+- [活塞杯终局体素重建：更夫转述AI/ML API的Fable演示](../cases/fable52-cars-piston-cup-voxel-recreation-report.md) — 更夫转述活塞杯终局体素重建；AI/ML API原帖自报Fable 5.2为108.87美元、GPT-6.1 Sol为13.02美元；未核成片、账单或同条件，不作普遍模型排名。 **[其他 AI 逆向 · 待验证]**
+- [生成参考图到Paris, 1940：Higgsfield MCP与Fable／Three.js场景重建](../cases/fable52-higgsfield-1940s-paris-threejs-references.md) — 更夫转述巴黎场景重建；Higgsfield原帖明确参考图由MCP生成，再交Fable 5.2做Three.js视频，不是历史实拍恢复；代码与一致性未核验。 **[其他 AI 逆向 · 待验证]**
+- [MobileRE-Skill：Dopax介绍Agent移动逆向技能集](../cases/mobilere-skill-agent-mobile-reversing-toolkit.md) — Dopax点名MobileRE-Skill，称整合Frida hook、脱壳、反检测与Ghidra MCP符号恢复；仓库及测试未审，不保证任意应用自动恢复。 **[其他 AI 逆向 · 相关项目]**
+- [Claude Artifacts自托管设想：Bala研究跨Agent开放格式与统一文档](../cases/claude-artifacts-self-hosted-agent-docs-idea.md) — Bala使用Artifacts后研究重建功能清单，希望自托管、Agent间开放标准及文档单一事实源；发现他人仓库，没有实现或等价测试。 **[未确认使用 REA · 待验证]**
+- [每日报名与邮件汇总：Elisa称Claude指导逆向式学习Apps Script](../cases/claude-apps-script-daily-registration-mail-learning.md) — Elisa称Claude指导其以reverse engineering方式学Apps Script，做每日报名与邮件汇总人数姓名；没有原参考程序、代码或送达验证。 **[其他 AI 逆向 · 待验证]**
 - [FounderOS工作流重建：Thoumar用Claude整理公开材料，再从散步录音生成草稿](../cases/thoumar-founderos-claude-public-content-workflow.md) — Thoumar称Claude扫描FounderOS公开内容并重建个人内容流水线，以40分钟录音生成故事库与草稿；不是反编译付费软件，效果与价格比较未独立核对。 **[其他 AI 逆向 · 待验证]**
 - [Zoth Studio的GhidraMCP Bridge：让Agent反编译、重命名与标注](../cases/zoth-studio-ghidramcp-agent-bridge.md) — Zoth称Studio内桥接LaurieWired的GhidraMCP，让AI Agent经MCP操作Ghidra；有具名功能与视频附件，未检查代码或运行，不能推成任意二进制自动恢复。 **[其他 AI 逆向 · 相关项目]**
 - [Sierra Chart与Denali：Dero提出用REA研究CPU利用率的idea](../cases/dero-sierra-chart-rea-denali-idea.md) — Dero询问是否可用REA研究Sierra Chart并使用Denali数据，希望更充分利用CPU；仅有具名方向，没有实施、接入或性能结果。 **[REA · 待验证]**
@@ -166,7 +173,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO拆解逐镜制作方法；保留三片测试的音乐误判，新增Riley对Kurzagets视频的Fable试用自述，未给原片或回放，仍不证明还原原Prompt或精度。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO新增王左塑料袋广告戏仿的用户拆解，解释时装画面与买菜字幕反差；未核原片与报告，保留音乐误判、Riley试用和原Prompt恢复边界。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**

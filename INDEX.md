@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1995 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2006 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（408）
-- [硬件与设备互通](categories/hardware.md)（534）
-- [应用与客户端](categories/apps.md)（813）
+- [游戏与游戏保存](categories/games.md)（409）
+- [硬件与设备互通](categories/hardware.md)（537）
+- [应用与客户端](categories/apps.md)（820）
 - [算法与功能重建](categories/algorithms.md)（240）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Gears of War克隆：Berman的Fable 5.2游戏重建自述](cases/fable52-berman-gears-of-war-clone-report.md) — 更夫汇总点名Gears风格游戏；补查Berman原帖确称Fable 5.2做Gears of War clone并附视频，但未核游戏范围、玩法、代码与原作一致性。 **[其他 AI 逆向 · 待验证]**
 - [TimeSplitters 2：Destinity与Claude重编译PS2版，按PCSX2追查差异](cases/destinity-timesplitters2-claude-native-pc-recompile.md) — Destinity公开PS2到C++的原生PC重编译工具，报告Linux／Steam Deck首关通关与逐帧参照；Windows和在线仍待发布，后续关卡与部分VU1差异未解决。 **[其他 AI 逆向 · 进行中]**
 - [Mortal Kombat 4 Dreamcast SET 4：AI生成wrapper与原型忠实度边界](cases/mk4-dreamcast-set4-ai-wrapper-fidelity.md) — Sega Dreamcast Info提供SET 4原型的AI生成wrapper与逆向版，认为继续修改会损伤忠实度；未读下载材料，不确认原型曾在Eurocom运行。 **[其他 AI 逆向 · 待验证]**
 - [Amor Doce重做：Slice停在第一章，设想REA降低代码研究工作](cases/slice-amor-doce-pa-remake-rea-idea.md) — Slice在Amor Doce的PA讨论中称曾重做游戏并完成第一章很大部分，现已停下；REA只是事后提出的简化办法，没有实际使用证据。 **[REA · 待验证]**
@@ -437,6 +438,9 @@
 
 ### 硬件与设备互通
 
+- [十四年旧Kindle：Agent经KOReader SSH做天气、股票与时钟插件](cases/rdklinc-old-kindle-koreader-agent-dashboard.md) — InvestingVault转述RDKLInc把旧Kindle做成KOReader仪表盘，称Agent主要工作耗时2至3小时且保留阅读；代码计划公开，数周续航未验证。 **[其他 AI 逆向 · 待验证]**
+- [猫喂食器与seL4：Remy称Claude可写替代固件的一天设想](cases/claude-cat-feeder-sel4-firmware-claim.md) — Remy举例向Claude要求用seL4为猫喂食器写固件，称一天后可完成；无型号、代码或实机结果，按具体设想而非成功移植收录。 **[其他 AI 逆向 · 待验证]**
+- [车载信息娱乐固件：Dan询问能否用Claude做自定义替代](cases/claude-vehicle-infotainment-custom-firmware-question.md) — Dan询问是否有人用Claude为车载信息娱乐系统放入自定义固件；是具体设备类别的idea，没有车型、实施或结果。 **[其他 AI 逆向 · 待验证]**
 - [OTDR蓝牙研究准备：Charlie Huang拆机读日志，装好AI工具等待硬件](cases/charlie-huang-otdr-bluetooth-ai-tools-preparation.md) — Charlie Huang称拆OTDR追蓝牙、读boosting log，并装AI工具等待shell读取硬件；当前还把外壳用于ESP32-S3原型，没有已完成AI分析或协议恢复证据。 **[未确认使用 REA · 进行中]**
 - [旧Launchpad：Peer Richelsen称Claude Code研究了不理想的驱动](cases/peer-richelsen-launchpad-claude-driver-research.md) — Peer Richelsen自述旧Launchpad一直缺好驱动，于是Claude Code逆向；型号、平台、代码与实机功能未给出。 **[其他 AI 逆向 · 待验证]**
 - [Allwinner车载多媒体：Luiz用Claude研究RTOS，接管启动后复用厂商函数](cases/luiz-allwinner-car-multimedia-rtos-claude-firmware.md) — Luiz称反编译非Android车机固件，以ESP32读闪存和调试，Claude辅助研究Allwinner RTOS；未取得固件与测试，不保证相似车机通用。 **[其他 AI 逆向 · 进行中]**
@@ -566,7 +570,7 @@
 - [Android／Google TV桌面：Eikichi分享Claude反编译与去广告提示](cases/eikichi-claude-android-tv-launcher-study-prompt.md) — Eikichi转述Claude研究电视launcher并重做主页，给出ADB、备份和按用户禁用的提示；没有型号、代码或跟踪流量验证。 **[其他 AI 逆向 · 待验证]**
 - [M-VAVE Tank-G：Rômulo Ramos称AI帮助恢复USB协议，制作Linux编辑器](cases/rmsramos-mvave-tankg-ai-linux-usb-editor.md) — 因吉他效果器官方编辑器只支持Windows／macOS，长期Linux用户报告逆向USB并自制编辑器；未给协议细节、对应源码或实机验收。 **[其他 AI 逆向 · 待验证]**
 - [JVG电视自动化：Askoltx称Grok Bot与Claude接通手机、手表和晨间屏](cases/askoltx-jvg-tv-grok-claude-automation-report.md) — 作者称一夜改造电视，实现手机内容同步、手表遥控、来电暂停及定时晨间屏；没有协议或代码，错误刷写被拦截的戏剧性叙述未验证。 **[其他 AI 逆向 · 待验证]**
-- [Danfoss冷柜控制器：Sonnet漏洞重建、Sekoia固件调查与维修idea](cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Claroty的Sonnet已知漏洞实验之外，Sekoia新增捕获请求与公开固件交LLM确认未认证改管理员名；原始日志未获，两个实验及现实攻击不能混算。 **[其他 AI 逆向 · 待验证]**
+- [Danfoss冷柜控制器：Sonnet漏洞重建、Sekoia固件调查与维修idea](cases/claroty-danfoss-sonnet-known-bug-recreation-report.md) — Danfoss既有Sonnet实验与Sekoia调查之外，新报道把后者LLM指为GLM 5.3并点名800A蜜罐；是二手补充，未取得原始输入输出，不证明真实攻击使用AI。 **[其他 AI 逆向 · 待验证]**
 - [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
 - [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**
@@ -974,6 +978,13 @@
 
 ### 应用与客户端
 
+- [Excel克隆：更夫转述Matthew Berman的Fable 5.2早期测试](cases/fable52-berman-excel-clone-secondary-report.md) — 更夫转述的Excel克隆获Berman原帖归因：Fable 5.2的完整等价仍是作者声称；旧GPT-5.6六天Computer Use循环另作背景，不混入本次结果，兼容性未验证。 **[其他 AI 逆向 · 待验证]**
+- [Unreal东京复刻：更夫转述Matthew Berman的Fable场景重建](cases/fable52-berman-unreal-tokyo-reconstruction-report.md) — 更夫称Matthew Berman用Fable在Unreal复刻东京；没有地点范围、参考素材、工程或空间误差，不写成整座城市数字孪生。 **[其他 AI 逆向 · 待验证]**
+- [活塞杯终局体素重建：更夫转述AI/ML API的Fable演示](cases/fable52-cars-piston-cup-voxel-recreation-report.md) — 更夫转述活塞杯终局体素重建；AI/ML API原帖自报Fable 5.2为108.87美元、GPT-6.1 Sol为13.02美元；未核成片、账单或同条件，不作普遍模型排名。 **[其他 AI 逆向 · 待验证]**
+- [生成参考图到Paris, 1940：Higgsfield MCP与Fable／Three.js场景重建](cases/fable52-higgsfield-1940s-paris-threejs-references.md) — 更夫转述巴黎场景重建；Higgsfield原帖明确参考图由MCP生成，再交Fable 5.2做Three.js视频，不是历史实拍恢复；代码与一致性未核验。 **[其他 AI 逆向 · 待验证]**
+- [MobileRE-Skill：Dopax介绍Agent移动逆向技能集](cases/mobilere-skill-agent-mobile-reversing-toolkit.md) — Dopax点名MobileRE-Skill，称整合Frida hook、脱壳、反检测与Ghidra MCP符号恢复；仓库及测试未审，不保证任意应用自动恢复。 **[其他 AI 逆向 · 相关项目]**
+- [Claude Artifacts自托管设想：Bala研究跨Agent开放格式与统一文档](cases/claude-artifacts-self-hosted-agent-docs-idea.md) — Bala使用Artifacts后研究重建功能清单，希望自托管、Agent间开放标准及文档单一事实源；发现他人仓库，没有实现或等价测试。 **[未确认使用 REA · 待验证]**
+- [每日报名与邮件汇总：Elisa称Claude指导逆向式学习Apps Script](cases/claude-apps-script-daily-registration-mail-learning.md) — Elisa称Claude指导其以reverse engineering方式学Apps Script，做每日报名与邮件汇总人数姓名；没有原参考程序、代码或送达验证。 **[其他 AI 逆向 · 待验证]**
 - [FounderOS工作流重建：Thoumar用Claude整理公开材料，再从散步录音生成草稿](cases/thoumar-founderos-claude-public-content-workflow.md) — Thoumar称Claude扫描FounderOS公开内容并重建个人内容流水线，以40分钟录音生成故事库与草稿；不是反编译付费软件，效果与价格比较未独立核对。 **[其他 AI 逆向 · 待验证]**
 - [Zoth Studio的GhidraMCP Bridge：让Agent反编译、重命名与标注](cases/zoth-studio-ghidramcp-agent-bridge.md) — Zoth称Studio内桥接LaurieWired的GhidraMCP，让AI Agent经MCP操作Ghidra；有具名功能与视频附件，未检查代码或运行，不能推成任意二进制自动恢复。 **[其他 AI 逆向 · 相关项目]**
 - [Sierra Chart与Denali：Dero提出用REA研究CPU利用率的idea](cases/dero-sierra-chart-rea-denali-idea.md) — Dero询问是否可用REA研究Sierra Chart并使用Denali数据，希望更充分利用CPU；仅有具名方向，没有实施、接入或性能结果。 **[REA · 待验证]**
@@ -1138,7 +1149,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO拆解逐镜制作方法；保留三片测试的音乐误判，新增Riley对Kurzagets视频的Fable试用自述，未给原片或回放，仍不证明还原原Prompt或精度。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO新增王左塑料袋广告戏仿的用户拆解，解释时装画面与买菜字幕反差；未核原片与报告，保留音乐误判、Riley试用和原Prompt恢复边界。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -1902,7 +1913,7 @@
 - [女帝的一日：sandmrk把Muse宫廷视频反推为六段约55秒规格](cases/sandmrk-muse-empress-palace-six-clip-prompt.md) — sandmrk拆解女帝幻想视频的灯会、烟花、斟酒与结尾表情，保留台词时序和镜头约束；六段工作流不等于已验证复现。 **[其他 AI 逆向 · 待验证]**
 - [Codex与Renoise：从科普参考片反推镜头节奏再用云端脚本生成](cases/codex-renoise-reference-science-video-workflow.md) — Nathan AI Lab介绍先拉片恢复视觉hook、运镜与节奏，再调Seedance/Kling/Wan3和云端剪辑；未提供具体参考片、输出或成本/工时对照。 **[其他 AI 逆向 · 待验证]**
 - [动画反推试验：Fayeque拟用arena的gemini-3.8-flash-low对照参考视频](cases/fayeque-gemini-arena-animation-reconstruction-trial.md) — Fayeque Peerzade称正在反推Anika所贴AI编码动画，计划测试arena模型slug能否产生相似输出；没有代码或试验结果，不替其修正模型名。 **[其他 AI 逆向 · 进行中]**
-- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](cases/hypit-reference-video-semantic-workflow-rebuild.md) — Hypit把参考视频拆成按词锚定工作流；阿杭新增26秒猫片与Clone Viral Ads的使用／计划，曝光、费用与新Skill均未独立验证。 **[其他 AI 逆向 · 进行中]**
+- [Hypit：让Agent把参考视频拆成按词锚定的可编辑工作流](cases/hypit-reference-video-semantic-workflow-rebuild.md) — Hypit按词锚定参考片工作流；阿杭从转Skill计划推进到逐份读规则，归纳13项B-roll语法与盲评，尚无转出Skill或成片，旧费用与曝光自述仍未验证。 **[其他 AI 逆向 · 进行中]**
 - [粉色缎裙慢舞：sandmrk反推Muse的8.8秒动作与固定镜头](cases/sandmrk-muse-pink-satin-88s-gesture-prompt.md) — sandmrk把Muse舞蹈拆成逐秒手势、节拍、发丝滞后与固定机位；承认生成结果不能完全匹配，没有恢复模型内部算法。 **[其他 AI 逆向 · 待验证]**
 - [Fincept与REA：Grimmer转述META止损规则恢复与64行Python回放](cases/grimmer-fincept-rea-meta-stop-reconstruction.md) — Grimmer称Claude/REA恢复止损、核对六次历史翻转并以64行Python跑11项测试；未取得策略代码、数据或独立回测，不代表盈利。 **[REA · 待验证]**
 - [1987年6502音乐例程：自称原作者者报告AI已研究其旧代码](cases/bbcpropaganda-1987-6502-music-ai-reversing.md) — @BBCPropaganda称AI逆向了自己1987年的6502音乐例程，并追述转写电影配乐曾引发诉讼；没有代码、分析报告或法律记录。 **[其他 AI 逆向 · 待验证]**

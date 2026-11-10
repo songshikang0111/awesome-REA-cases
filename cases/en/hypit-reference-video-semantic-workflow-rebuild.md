@@ -12,14 +12,18 @@ At 01:10:35 on November 10, 2026, 叫我阿杭 (@Astronaut_1216) says a 26-secon
 
 No skill was installed, credentials imported, reference footage downloaded, generation API called or rendering performed here. The older implementation is public but target-specific validation remains; status stays in progress. REA is unmentioned.
 
+At 10:33:36 Beijing time on November 10, 2026, Astronaut (@Astronaut_1216) reports reading Hypit's open skill rules individually to study asset control, advancing the earlier conversion plan. He summarizes anchoring B-roll, captions and effects to spoken words rather than seconds; giving each B-roll insert one task and adjacent shots different information; allocating visual space before moving faces and gestures out of its way; creating persistent lists, chapter labels and presenter windows once and updating their state across sentences; and comparing one element at a time with a reviewer uninvolved in production, quantifying differences. He lists thirteen grammar fields: spoken anchor, surrounding context, narrative function, asset type, content relationship, entry point, duration, screen position, motion, caption relationship, sound-effect relationship, exit reason and relationship to adjacent shots. He proposes combining Opus 5.5, these ideas and an asset library, without a converted skill, finished video or blind-test record. These are his reading notes, not a completed automated editing pipeline or evidence AI performed the reading. Retrieval confirms attribution and wording only; Hypit's source was not re-audited and no rendering was run.
+
 Older candidate: 1 like, 62 views, 0 reposts. 100M views is not a verified engagement result.
 Pinned commit: 2026-10-29T09:37:19Z. The $1.15/$1.07/$1.09 example costs lack independent rendering or billing checks.
 November 10 sealed candidate: 16 likes, 2,020 views, 4 reposts. Almost one million views, two clients, six minutes and $1.39 are user-reported.
+New 10:33:36 candidate: 4 likes, 431 views, 0 reposts. Thirteen fields are the author's rule summary; a converted skill was not obtained.
 
 ## Sources
 
 - [Nathan AI Lab introduces Hypit's structured video reconstruction, October 30, 2026](https://x.com/i/status/2116010142407995601)
 - [Pre-window pinned README: SVML, three examples, optional generation models and cost limits](https://github.com/hypit-ai/hypit/blob/0762c6be56c0af43fff3cdbdb285e21414dd249b/README.md)
 - [Astronaut's 26-second cat-video account, ad harness and Claude-to-skill plan, November 10, 2026](https://x.com/i/status/2119840082354114579)
+- [Astronaut reads Hypit rules, thirteen B-roll fields and an Opus combination idea, November 10, 2026 at 10:33:36 Beijing time](https://x.com/i/status/2119981772226392254)
 
 [中文](../hypit-reference-video-semantic-workflow-rebuild.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/algorithms.md)
