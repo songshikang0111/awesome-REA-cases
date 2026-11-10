@@ -32164,13 +32164,21 @@
   },
   {
     "id": "design-os-studio-fig-format",
-    "title": "DESIGN:OS Studio：独立读写 Figma .fig 并重实现编辑器的桌面工作室",
+    "title": "DESIGN:OS Studio：用 REA 逆向 Figma .fig 并重实现编辑器的桌面工作室",
     "category": "apps",
-    "rea": "unknown",
+    "rea": "REA",
     "status": "case",
-    "summary": "Jang Trịnh 发布 DESIGN:OS Studio，README 写明可读写 Figma 的 .fig 容器（fig-kiwi，写出版本 106）并在本地重实现编辑器行为，附带 39 个 MCP 工具。本合集未安装或运行该软件；是否使用 REA 未知。",
-    "description": "DESIGN:OS Studio 是 Jang Trịnh（jangtrinh）发布的本地桌面设计工作室，公开仓库为 https://github.com/jangtrinh/design-os-studio。审阅提交 df14c593e86edcc039adc2c67067bf8db64e9e84 的 README（发布版本 v0.7.11）写明：可读取 Figma 的 .fig 容器（fig-kiwi，DEFLATE 或 Zstd），写出容器版本 106，并在本地重实现编辑器行为。附带通过 stdio 提供的 designos-mcp 服务器，README 生成的工具表列出 39 个工具，可从选定图层生成 CSS、Tailwind、React、SwiftUI、UIKit、Compose、Android XML 或 HTML。仓库同时说明 macOS CI 上有 6000 余项测试。\n\n许可为 PolyForm Shield 1.0.0，属于源码可用，不是开源协议。README 记载的已知问题 #834 仍未关闭：保存 .fig 时编号列表格式会丢失，实例上继承或变量绑定的填色会被写成固定值。仓库没有写明使用 morluto/rea，也没有说明这次格式与编辑器工作是手工完成还是由人工智能辅助，因此 REA 使用保持 unknown。\n\n本合集查阅了公开 README、LICENSE 与 v0.7.11 Release 页面，未安装或运行 DESIGN:OS Studio，也未对 .fig 兼容性或编辑器行为做独立复现。星标数量仅作快照，不作为功能证据。",
+    "summary": "Jang Trịnh 发布 DESIGN:OS Studio。公开规格写明用 morluto/rea 6.7.0 分析 Figma 编辑器 JavaScript 与 .fig v106 kiwi schema（wasm 路径当时不可用，改用本地读取器）。产品可读写 .fig 并在本地重实现编辑器。本合集未安装或重跑 rea。",
+    "description": "DESIGN:OS Studio 是 Jang Trịnh（jangtrinh）发布的本地桌面设计工作室，公开仓库为 https://github.com/jangtrinh/design-os-studio。审阅提交 df14c593e86edcc039adc2c67067bf8db64e9e84 的 README（发布版本 v0.7.11）写明：可读取 Figma 的 .fig 容器（fig-kiwi，DEFLATE 或 Zstd），写出容器版本 106，并在本地重实现编辑器行为。附带通过 stdio 提供的 designos-mcp 服务器，README 生成的工具表列出 39 个工具，可从选定图层生成 CSS、Tailwind、React、SwiftUI、UIKit、Compose、Android XML 或 HTML。仓库同时说明 macOS CI 上有 6000 余项测试。\n\n同一提交中的公开规格将逆向 Figma 字段的规则写为使用 `rea`（morluto/rea）。E1-4（2026-10-18）记载：`rea`（morluto/rea 6.7.0，`npx -y rea-agents`）对提取出的编辑器 JavaScript 运行了 analyze-javascript-application（证据 `ev_2624766…`）；wasm 路径当时不可用（未安装 WABT 与 Ghidra），因此用约 40 行的本地 kiwi decodeBinarySchema 读取器解码 schema。plans/261017-figma-parity-wave-ab/rea-findings.md 写明方法包含静态 `rg` 与 REA。plans/reports 中还存有已完成的 rea inspect-macho 与 analyze-javascript-application 输出，以及部分失败调用。产品 README 没有提及 REA。维护者 Jang Trịnh 于 2026-11-10 确认此项 Figma 工作使用了 REA。\n\n许可为 PolyForm Shield 1.0.0，属于源码可用，不是开源协议。README 记载的已知问题 #834 仍未关闭：保存 .fig 时编号列表格式会丢失，实例上继承或变量绑定的填色会被写成固定值。\n\n本合集查阅了公开 README、LICENSE、v0.7.11 Release 以及上述规格与 rea 输出，未安装或运行 DESIGN:OS Studio，未重跑 rea，也未对 .fig 兼容性或编辑器行为做独立复现。星标数量仅作快照，不作为功能证据。",
     "sources": [
+      {
+        "label": "规格 E1-4：morluto/rea 6.7.0 方法说明（提交 df14c593e86edcc039adc2c67067bf8db64e9e84）",
+        "url": "https://github.com/jangtrinh/design-os-studio/blob/df14c593e86edcc039adc2c67067bf8db64e9e84/docs/specs/v0.6/E1-4-styles-hold-variable-aliases.md"
+      },
+      {
+        "label": "入库的 rea CLI 证据：inspect-macho 与 analyze-javascript-application",
+        "url": "https://github.com/jangtrinh/design-os-studio/blob/df14c593e86edcc039adc2c67067bf8db64e9e84/plans/reports/agy-1277-shadow-knockout-evidence/step1-figma-re.log"
+      },
       {
         "label": "项目 README（提交 df14c593e86edcc039adc2c67067bf8db64e9e84）",
         "url": "https://github.com/jangtrinh/design-os-studio/blob/df14c593e86edcc039adc2c67067bf8db64e9e84/README.md"
@@ -32187,17 +32195,21 @@
     "snapshot_date": "2026-11-10",
     "metadata": [
       "快照 2026-11-10：GitHub 显示 87 star；发布版本 v0.7.11。",
-      "许可：PolyForm Shield 1.0.0（源码可用，非开源）。README 记载已知问题 #834 仍开放。"
+      "许可：PolyForm Shield 1.0.0（源码可用，非开源）。README 记载已知问题 #834 仍开放。",
+      "REA 证据在公开规格与入库 CLI 输出中；产品 README 未署明 REA。部分 rea 调用失败已如实记录。"
     ],
     "en": {
-      "title": "DESIGN:OS Studio: an independent desktop studio that reads and writes Figma .fig files and reimplements the editor",
-      "summary": "Jang Trịnh published DESIGN:OS Studio. The README states it reads and writes Figma .fig containers (fig-kiwi, writes version 106) and reimplements editor behaviour locally, with a 39-tool MCP server. This collection did not install or run the studio; REA use is unknown.",
-      "description": "DESIGN:OS Studio is a local desktop design studio published by Jang Trịnh (jangtrinh). The public repository is https://github.com/jangtrinh/design-os-studio. The README at reviewed commit df14c593e86edcc039adc2c67067bf8db64e9e84 (release v0.7.11) states that it reads Figma .fig containers (fig-kiwi, DEFLATE or Zstd), writes container version 106, and reimplements editor behaviour locally. A bundled designos-mcp server serves tools over stdio. The README's generated tool table lists 39 tools, and selected layers can be turned into CSS, Tailwind, React, SwiftUI, UIKit, Compose, Android XML or HTML. The repository also describes more than 6,000 tests on macOS CI.\n\nThe license is PolyForm Shield 1.0.0: source-available, not an open-source license. A known issue documented in the README, #834, remains open: saving a .fig file drops numbered-list formatting and writes inherited or variable-bound paints on instances as fixed values. The repository does not state use of morluto/rea, and it does not say whether the format and editor work was done by hand or with AI assistance, so REA use remains unknown.\n\nThis collection reviewed the public README, LICENSE and v0.7.11 Release page. It did not install or run DESIGN:OS Studio, and it did not independently reproduce .fig compatibility or editor behaviour. The star count is a snapshot only, not evidence of those capabilities.",
+      "title": "DESIGN:OS Studio: an independent desktop studio that used REA to reverse-engineer Figma .fig files and reimplement the editor",
+      "summary": "Jang Trịnh published DESIGN:OS Studio. Public specs state that morluto/rea 6.7.0 analysed Figma editor JavaScript and the .fig v106 kiwi schema (wasm lanes were unavailable, so a local reader was used). The product reads and writes .fig and reimplements the editor locally. This collection did not install the studio or rerun rea.",
+      "description": "DESIGN:OS Studio is a local desktop design studio published by Jang Trịnh (jangtrinh). The public repository is https://github.com/jangtrinh/design-os-studio. The README at reviewed commit df14c593e86edcc039adc2c67067bf8db64e9e84 (release v0.7.11) states that it reads Figma .fig containers (fig-kiwi, DEFLATE or Zstd), writes container version 106, and reimplements editor behaviour locally. A bundled designos-mcp server serves tools over stdio. The README's generated tool table lists 39 tools, and selected layers can be turned into CSS, Tailwind, React, SwiftUI, UIKit, Compose, Android XML or HTML. The repository also describes more than 6,000 tests on macOS CI.\n\nPublic specs in the same commit set the rule that reverse-engineering of Figma fields uses `rea` (morluto/rea). E1-4 (2026-10-18) records that `rea` (morluto/rea 6.7.0, `npx -y rea-agents`) ran analyze-javascript-application over extracted editor JavaScript (evidence `ev_2624766…`). Wasm lanes were unavailable (WABT and Ghidra were not installed), so the schema was decoded with a roughly 40-line local kiwi decodeBinarySchema reader. plans/261017-figma-parity-wave-ab/rea-findings.md states that the method included static `rg` and REA. plans/reports also contain completed rea inspect-macho and analyze-javascript-application output, and some failed invocations. The product README does not mention REA. Maintainer Jang Trịnh confirmed on 2026-11-10 that REA was used for this Figma work.\n\nThe license is PolyForm Shield 1.0.0: source-available, not an open-source license. A known issue documented in the README, #834, remains open: saving a .fig file drops numbered-list formatting and writes inherited or variable-bound paints on instances as fixed values.\n\nThis collection reviewed the public README, LICENSE, v0.7.11 Release, and the specs and rea output above. It did not install or run DESIGN:OS Studio, did not rerun rea, and did not independently reproduce .fig compatibility or editor behaviour. The star count is a snapshot only, not evidence of those capabilities.",
       "metadata": [
         "Snapshot 2026-11-10: GitHub shows 87 stars; release v0.7.11.",
-        "License: PolyForm Shield 1.0.0 (source-available, not open source). README-documented issue #834 remains open."
+        "License: PolyForm Shield 1.0.0 (source-available, not open source). README-documented issue #834 remains open.",
+        "REA evidence is in public specs and checked-in CLI output; the product README does not credit REA. Some failed rea invocations are recorded as-is."
       ],
       "source_labels": [
+        "Spec E1-4: morluto/rea 6.7.0 method note (commit df14c593e86edcc039adc2c67067bf8db64e9e84)",
+        "Checked-in rea CLI evidence: inspect-macho and analyze-javascript-application",
         "Project README (commit df14c593e86edcc039adc2c67067bf8db64e9e84)",
         "LICENSE: PolyForm Shield 1.0.0",
         "v0.7.11 Release"
