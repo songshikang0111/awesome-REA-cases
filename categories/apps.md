@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Intezer的Slack重建：从编译客户端到兼容服务器与AI补全](../cases/intezer-slack-client-compatible-server-ai-autocomplete.md) — 转述Intezer用AI研究Slack编译应用；Nicole同日称重建客户端、写兼容服务器并加AI自动补全，未提供本合集可重跑的兼容性测试。 **[其他 AI 逆向 · 待验证]**
+- [Intezer重建Finder：日常流程自报可用，iCloud与私有服务仍有缺口](../cases/intezer-finder-compiled-app-workflow-reconstruction.md) — Intezer的AI辅助编译应用研究涉及macOS Finder；Nicole称日常流程可用，但依赖iCloud和私有macOS服务之处仍不完整。 **[其他 AI 逆向 · 待验证]**
+- [TinyTurla-NG静态重建：可编译C++与92.8%结构相似，不是运行验证](../cases/intezer-tinyturla-ng-static-cpp-reconstruction.md) — Intezer团队串称GPT-5.6执行静态研究、Kimi K3复核，以Binary Ninja为对照生成可编译C++；92.8%是结构相似度，明确从未执行。 **[其他 AI 逆向 · 分析测试]**
+- [视频URL到内部风格库：shreyvijayvargiya称用Opus反推提示并收集近万skill](../cases/opus-video-url-prompts-inhouse-skill-library.md) — 作者描述先汇总视频生成技能，再用Opus将多平台URL转提示词，经随机化与上下文层生成skill；近一万条是内部收集自述，未核API或素材。 **[其他 AI 逆向 · 进行中]**
+- [58秒AI短剧拆解预告：JimmyAI按帧反推两机位、一硬切、六片段](../cases/ai-short-drama-58second-frame-prompt-breakdown.md) — JimmyAI称从帧样本反推一条58秒AI短剧，预告次日公开全部提示词；517K浏览属于参考片自述，未取得正式拆解或重做结果。 **[其他 AI 逆向 · 进行中]**
+- [三条地堡短视频到Three.js：Bajan用Claude Code重建剖地与升级风格](../cases/claude-threejs-youtube-bunker-shorts-style-rebuild.md) — Bajan称skill研究三条YouTube短片后，用Three.js代码重建泥土、松树、地堡和字幕，仅用免费样例角色；零成本和参考频道月入2000美元未验。 **[其他 AI 逆向 · 待验证]**
 - [Anti-BLA：为REA量出诱饵边界，四种自有样本不等于通破保护](../cases/anti-bla-rea-static-decoy-recovery-tests.md) — ShambaC发布REA只读辅助层，报告JS折叠、ASAR索引恢复、WASM函数定位与SQLite模式识别；固定记录坦承两个REA provider缺失，早期配对试验没有准确率或token收益。 **[REA · 分析测试]**
 - [iPhone-agent资源：黄赟建议搭配Claude Code研究iOS应用](../cases/iphone-agent-claude-xcode-app-study-resource.md) — 黄赟将具名iPhone-agent资源推荐给想研究iOS应用的人，并提Claude Code的Xcode插件；仓库目标与能力未核，没有具体App复刻或运行结果。 **[其他 AI 逆向 · 相关项目]**
 - [Granola的14美元选择：付订阅还是用REA研究替代方案的idea](../cases/granola-14usd-rea-alternative-idea.md) — 作者在明日给Granola付14美元与使用REA之间犹豫；是具名会议笔记应用替代愿望，没有开始分析或原型，不与其他作者的Granola实验混同。 **[REA · 待验证]**

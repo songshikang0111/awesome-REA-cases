@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [把Animal Crossing放进Minecraft：TelepathicPug想让Agent反编译的idea](../cases/animal-crossing-minecraft-agent-decompilation-idea.md) — TelepathicPug称想让Agent反编译Animal Crossing以移入Minecraft，并试图改变对话上下文；没有版本、代码、移植产物或完成证据。 **[未确认使用 REA · 进行中]**
 - [Colin McRae Rally 2005：Xbox版静态重编译到现代Windows](../cases/colin-mcrae-rally2005-xbe-ai-recomp.md) — yibie介绍projectedan的Xbox拉力赛车移植，称21处提交trailer记AI参与；项目文档说明以Xbox XBE Recomp提供64位与现代手柄支持，仅美版Xbox数据，未由本合集构建。 **[其他 AI 逆向 · 进行中]**
 - [Peggle Enhanced：Ghidra研究iOS版，再移植C#／MonoGame](../cases/peggle-enhanced-ios-ghidra-monogame.md) — aidrum与TheAwesomeBlue为解决旧Android兼容问题，把iOS Peggle反编译并转成MonoGame；文档明确AI仅参与代码，报告手机全冒险通关及原硬件对照，未独立复跑。 **[其他 AI 逆向 · 进行中]**
 - [Predator: Concrete Jungle：Xbox静态重编译与反编译C++混合PC移植](../cases/predator-concrete-jungle-ai-native-pc.md) — yibie介绍2005年Xbox游戏PC重建；项目文档说从用户自有美版光盘生成C，并用反编译C++替换部分函数，提供现代控制与存档，AI提交归因为列表转述。 **[其他 AI 逆向 · 进行中]**

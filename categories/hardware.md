@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](../cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
+- [自行车上的M5Stack Tab5 CarPlay：Codex协助做适配板与固件，偶发断连未解](../cases/m5stack-tab5-bike-carplay-codex-adapter.md) — ThinkerZhang称将CarPlay装到自行车的M5Stack Tab5，适配板与固件用Codex制作；仍有无故掉线，未披露协议研究或完整源码。 **[其他 AI 逆向 · 进行中]**
+- [Vision Pro＋指虎迁Linux：No-self借AI规划，必要时逆向移植驱动的idea](../cases/vision-pro-index-controllers-linux-ai-vr-driver-idea.md) — No-self想让7800X3D／RTX3090主机兼顾VR与本地AI，贴出Linux、ALVR与校准规划并提逆向驱动；完整Vision Pro＋指虎组合未实机验证。 **[其他 AI 逆向 · 进行中]**
+- [Xteink X3／X4自定义固件：Alexey感谢Claude与CrossInk，具体改动未披露](../cases/xteink-x3-x4-claude-crossink-custom-firmware.md) — Alexey Vishnevsky展示面向Xteink X3/X4阅读器的自定义xTeink固件并感谢Claude及CrossInk；未给具体功能、源码或刷机验证。 **[其他 AI 逆向 · 待验证]**
+- [GPT整理GestaltX v1.0.4指南：国行iPhone配置修改，入口出现不等于服务激活](../cases/gestaltx104-gpt-mainland-iphone-modification-guide.md) — 作者用GPT整理MobileGestalt设备修改指南，涉及Apple Intelligence与境外eSIM，明确系统、硬件、签名权限和恢复风险；非作者实机成功或AI开发漏洞的证据。 **[其他 AI 逆向 · 相关项目]**
 - [旧锅炉手机控制：Nathan Skene称Codex指导重写恒温器固件](../cases/codex-thermostat-debugger-smart-boiler-report.md) — Nathan Skene称原锅炉没有智能控制，Codex让他给恒温器接调试器并重写固件，现能手机控制；型号、协议、代码与安全联锁未核，不是安装建议。 **[其他 AI 逆向 · 待验证]**
 - [USB发光键盘变游戏机：转述Mollick用Fable 5.2研究硬件并做六款游戏](../cases/mollick-fable-usb-light-keyboard-six-games-report.md) — 二手测试汇总称Mollick用一次提示让Fable研究USB发光键盘，首次就做出六款游戏；设备型号、协议、代码与运行结果未取得，不能说替换固件或离线独立运行。 **[其他 AI 逆向 · 待验证]**
 - [本地AI家居idea：Vik计划研究云依赖设备，接入Home Assistant](../cases/vik-local-ai-home-assistant-cloud-appliance-idea.md) — Vik已备硬件，计划把净化器等家电接本地AI与Home Assistant，部分设备需逆向；风扇Wi-Fi集成与门磁已装，抽油烟机控制、语音和脱云研究仍是计划。 **[其他 AI 逆向 · 进行中]**

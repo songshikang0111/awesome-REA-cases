@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2024 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2038 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（415）
-- [硬件与设备互通](categories/hardware.md)（540）
-- [应用与客户端](categories/apps.md)（827）
-- [算法与功能重建](categories/algorithms.md)（242）
+- [游戏与游戏保存](categories/games.md)（416）
+- [硬件与设备互通](categories/hardware.md)（545）
+- [应用与客户端](categories/apps.md)（833）
+- [算法与功能重建](categories/algorithms.md)（244）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [把Animal Crossing放进Minecraft：TelepathicPug想让Agent反编译的idea](cases/animal-crossing-minecraft-agent-decompilation-idea.md) — TelepathicPug称想让Agent反编译Animal Crossing以移入Minecraft，并试图改变对话上下文；没有版本、代码、移植产物或完成证据。 **[未确认使用 REA · 进行中]**
 - [Colin McRae Rally 2005：Xbox版静态重编译到现代Windows](cases/colin-mcrae-rally2005-xbe-ai-recomp.md) — yibie介绍projectedan的Xbox拉力赛车移植，称21处提交trailer记AI参与；项目文档说明以Xbox XBE Recomp提供64位与现代手柄支持，仅美版Xbox数据，未由本合集构建。 **[其他 AI 逆向 · 进行中]**
 - [Peggle Enhanced：Ghidra研究iOS版，再移植C#／MonoGame](cases/peggle-enhanced-ios-ghidra-monogame.md) — aidrum与TheAwesomeBlue为解决旧Android兼容问题，把iOS Peggle反编译并转成MonoGame；文档明确AI仅参与代码，报告手机全冒险通关及原硬件对照，未独立复跑。 **[其他 AI 逆向 · 进行中]**
 - [Predator: Concrete Jungle：Xbox静态重编译与反编译C++混合PC移植](cases/predator-concrete-jungle-ai-native-pc.md) — yibie介绍2005年Xbox游戏PC重建；项目文档说从用户自有美版光盘生成C，并用反编译C++替换部分函数，提供现代控制与存档，AI提交归因为列表转述。 **[其他 AI 逆向 · 进行中]**
@@ -444,6 +445,11 @@
 
 ### 硬件与设备互通
 
+- [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
+- [自行车上的M5Stack Tab5 CarPlay：Codex协助做适配板与固件，偶发断连未解](cases/m5stack-tab5-bike-carplay-codex-adapter.md) — ThinkerZhang称将CarPlay装到自行车的M5Stack Tab5，适配板与固件用Codex制作；仍有无故掉线，未披露协议研究或完整源码。 **[其他 AI 逆向 · 进行中]**
+- [Vision Pro＋指虎迁Linux：No-self借AI规划，必要时逆向移植驱动的idea](cases/vision-pro-index-controllers-linux-ai-vr-driver-idea.md) — No-self想让7800X3D／RTX3090主机兼顾VR与本地AI，贴出Linux、ALVR与校准规划并提逆向驱动；完整Vision Pro＋指虎组合未实机验证。 **[其他 AI 逆向 · 进行中]**
+- [Xteink X3／X4自定义固件：Alexey感谢Claude与CrossInk，具体改动未披露](cases/xteink-x3-x4-claude-crossink-custom-firmware.md) — Alexey Vishnevsky展示面向Xteink X3/X4阅读器的自定义xTeink固件并感谢Claude及CrossInk；未给具体功能、源码或刷机验证。 **[其他 AI 逆向 · 待验证]**
+- [GPT整理GestaltX v1.0.4指南：国行iPhone配置修改，入口出现不等于服务激活](cases/gestaltx104-gpt-mainland-iphone-modification-guide.md) — 作者用GPT整理MobileGestalt设备修改指南，涉及Apple Intelligence与境外eSIM，明确系统、硬件、签名权限和恢复风险；非作者实机成功或AI开发漏洞的证据。 **[其他 AI 逆向 · 相关项目]**
 - [旧锅炉手机控制：Nathan Skene称Codex指导重写恒温器固件](cases/codex-thermostat-debugger-smart-boiler-report.md) — Nathan Skene称原锅炉没有智能控制，Codex让他给恒温器接调试器并重写固件，现能手机控制；型号、协议、代码与安全联锁未核，不是安装建议。 **[其他 AI 逆向 · 待验证]**
 - [USB发光键盘变游戏机：转述Mollick用Fable 5.2研究硬件并做六款游戏](cases/mollick-fable-usb-light-keyboard-six-games-report.md) — 二手测试汇总称Mollick用一次提示让Fable研究USB发光键盘，首次就做出六款游戏；设备型号、协议、代码与运行结果未取得，不能说替换固件或离线独立运行。 **[其他 AI 逆向 · 待验证]**
 - [本地AI家居idea：Vik计划研究云依赖设备，接入Home Assistant](cases/vik-local-ai-home-assistant-cloud-appliance-idea.md) — Vik已备硬件，计划把净化器等家电接本地AI与Home Assistant，部分设备需逆向；风扇Wi-Fi集成与门磁已装，抽油烟机控制、语音和脱云研究仍是计划。 **[其他 AI 逆向 · 进行中]**
@@ -987,6 +993,12 @@
 
 ### 应用与客户端
 
+- [Intezer的Slack重建：从编译客户端到兼容服务器与AI补全](cases/intezer-slack-client-compatible-server-ai-autocomplete.md) — 转述Intezer用AI研究Slack编译应用；Nicole同日称重建客户端、写兼容服务器并加AI自动补全，未提供本合集可重跑的兼容性测试。 **[其他 AI 逆向 · 待验证]**
+- [Intezer重建Finder：日常流程自报可用，iCloud与私有服务仍有缺口](cases/intezer-finder-compiled-app-workflow-reconstruction.md) — Intezer的AI辅助编译应用研究涉及macOS Finder；Nicole称日常流程可用，但依赖iCloud和私有macOS服务之处仍不完整。 **[其他 AI 逆向 · 待验证]**
+- [TinyTurla-NG静态重建：可编译C++与92.8%结构相似，不是运行验证](cases/intezer-tinyturla-ng-static-cpp-reconstruction.md) — Intezer团队串称GPT-5.6执行静态研究、Kimi K3复核，以Binary Ninja为对照生成可编译C++；92.8%是结构相似度，明确从未执行。 **[其他 AI 逆向 · 分析测试]**
+- [视频URL到内部风格库：shreyvijayvargiya称用Opus反推提示并收集近万skill](cases/opus-video-url-prompts-inhouse-skill-library.md) — 作者描述先汇总视频生成技能，再用Opus将多平台URL转提示词，经随机化与上下文层生成skill；近一万条是内部收集自述，未核API或素材。 **[其他 AI 逆向 · 进行中]**
+- [58秒AI短剧拆解预告：JimmyAI按帧反推两机位、一硬切、六片段](cases/ai-short-drama-58second-frame-prompt-breakdown.md) — JimmyAI称从帧样本反推一条58秒AI短剧，预告次日公开全部提示词；517K浏览属于参考片自述，未取得正式拆解或重做结果。 **[其他 AI 逆向 · 进行中]**
+- [三条地堡短视频到Three.js：Bajan用Claude Code重建剖地与升级风格](cases/claude-threejs-youtube-bunker-shorts-style-rebuild.md) — Bajan称skill研究三条YouTube短片后，用Three.js代码重建泥土、松树、地堡和字幕，仅用免费样例角色；零成本和参考频道月入2000美元未验。 **[其他 AI 逆向 · 待验证]**
 - [Anti-BLA：为REA量出诱饵边界，四种自有样本不等于通破保护](cases/anti-bla-rea-static-decoy-recovery-tests.md) — ShambaC发布REA只读辅助层，报告JS折叠、ASAR索引恢复、WASM函数定位与SQLite模式识别；固定记录坦承两个REA provider缺失，早期配对试验没有准确率或token收益。 **[REA · 分析测试]**
 - [iPhone-agent资源：黄赟建议搭配Claude Code研究iOS应用](cases/iphone-agent-claude-xcode-app-study-resource.md) — 黄赟将具名iPhone-agent资源推荐给想研究iOS应用的人，并提Claude Code的Xcode插件；仓库目标与能力未核，没有具体App复刻或运行结果。 **[其他 AI 逆向 · 相关项目]**
 - [Granola的14美元选择：付订阅还是用REA研究替代方案的idea](cases/granola-14usd-rea-alternative-idea.md) — 作者在明日给Granola付14美元与使用REA之间犹豫；是具名会议笔记应用替代愿望，没有开始分析或原型，不与其他作者的Granola实验混同。 **[REA · 待验证]**
@@ -1817,6 +1829,8 @@
 
 ### 算法与功能重建
 
+- [AlphaProof Code与Signal：团队报告一个月证明生产机器码的关键安全属性](cases/alphaproof-code-signal-machine-code-security-verification.md) — Google DeepMind团队宣布以含Gemini Carbon的LLM框架验证Signal协议生产机器码，称一个月完成；是AI辅助二进制安全分析相关项目，不是完整源码恢复或全产品安全保证。 **[其他 AI 逆向 · 相关项目]**
+- [重访Inception v1：Nick Cammarata借Agent研究猫与车神经元的V形解释](cases/cammarata-inception-v1-agents-neuron-vshape-study.md) — 完整转引报道称Goodfire研究者使用Agent团队读神经网络，把Inception v1的猫／车响应解释为V形；是可质疑的局部机制报告，不代表前沿LLM已被理解。 **[其他 AI 逆向 · 分析测试]**
 - [Meta Hyperscape：Stefano Rivera用Claude研究渲染器，卡在60万splat](cases/easyldur-meta-hyperscape-claude-splat-limit.md) — Stefano Rivera自述研究Meta Hyperscape高斯splat渲染器，但无论如何都未超过总量600k；没有版本、硬件、代码或帧率，保留具体瓶颈而非性能排名。 **[其他 AI 逆向 · 待验证]**
 - [Vulkan BDA着色编译器：Sebastian Aaltonen称Codex擅长逆向，指向GPU指针问题](cases/sebaaltonen-codex-vulkan-bda-shader-compiler-report.md) — Sebastian Aaltonen称Codex Astra Ultra擅长逆向，并将Intel／AMD着色编译器问题关联到Vulkan BDA指针；缺复现、驱动版本或厂商记录，不宣称修复或安全漏洞。 **[其他 AI 逆向 · 待验证]**
 - [缺失函数到关节臂：Helios比较Grok Bot、Opus与Astra的单次恢复](cases/helios-grok-opus-astra-articulated-arm-function-test.md) — Helios称同一提示从400行binary恢复缺失函数，Grok Bot用4分12秒给关节臂，另两模型给不完整或不同机构；输入、判分与日志未公开，不能当普遍排名。 **[其他 AI 逆向 · 待验证]**
