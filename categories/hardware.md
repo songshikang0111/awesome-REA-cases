@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [旧锅炉手机控制：Nathan Skene称Codex指导重写恒温器固件](../cases/codex-thermostat-debugger-smart-boiler-report.md) — Nathan Skene称原锅炉没有智能控制，Codex让他给恒温器接调试器并重写固件，现能手机控制；型号、协议、代码与安全联锁未核，不是安装建议。 **[其他 AI 逆向 · 待验证]**
 - [USB发光键盘变游戏机：转述Mollick用Fable 5.2研究硬件并做六款游戏](../cases/mollick-fable-usb-light-keyboard-six-games-report.md) — 二手测试汇总称Mollick用一次提示让Fable研究USB发光键盘，首次就做出六款游戏；设备型号、协议、代码与运行结果未取得，不能说替换固件或离线独立运行。 **[其他 AI 逆向 · 待验证]**
 - [本地AI家居idea：Vik计划研究云依赖设备，接入Home Assistant](../cases/vik-local-ai-home-assistant-cloud-appliance-idea.md) — Vik已备硬件，计划把净化器等家电接本地AI与Home Assistant，部分设备需逆向；风扇Wi-Fi集成与门磁已装，抽油烟机控制、语音和脱云研究仍是计划。 **[其他 AI 逆向 · 进行中]**
 - [十四年旧Kindle：Agent经KOReader SSH做天气、股票与时钟插件](../cases/rdklinc-old-kindle-koreader-agent-dashboard.md) — InvestingVault转述RDKLInc把旧Kindle做成KOReader仪表盘，称Agent主要工作耗时2至3小时且保留阅读；代码计划公开，数周续航未验证。 **[其他 AI 逆向 · 待验证]**
@@ -489,7 +490,7 @@
 - [家居 App 协议：把无 API 设备接给本地 LLM](../cases/bitfish-local-llm-home-control.md) — DiscusFish 自述用 REA 提取家居 App 协议，与现有 API 一起交给本地 LLM 调度。 **[REA · 待验证]**
 - [GAMEKB-K17 宏键盘：用 Claude Code 逆向配置协议](../cases/claude-code-rgb-macropad.md) — 研究厂商 WebHID 配置端，做离线按键、固件宏和 RGB 配置工具。 **[其他 AI 逆向]**
 - [KEF LSX II：让 Mac 音量键控制音箱的细粒度音量](../cases/kef-lsx-ii-volume-fixer.md) — Claude 辅助制作 USB 音频透传与局域网音量桥，避开音箱 USB 输入的粗步进。 **[其他 AI 逆向]**
-- [Hailo：启动 Agent 辅助逆向研究的计划](../cases/hailo-agent-reverse-plan.md) — 作者准备开展 Hailo 逆向，并并列提到 Raspberry Pi Agent 环境开发。 **[未确认使用 REA · 进行中]**
+- [Hailo与Nvidia：Anthony Janus用Astra／Sol研究驱动，尝试持久激活拓扑](../cases/hailo-agent-reverse-plan.md) — Anthony Janus从Hailo研究计划推进为Astra／Sol分析Nvidia与Hailo驱动和固件访问，自报进展后机器故障；持续适应输入的拓扑是目标，没有可复现性能或实机兼容结果。 **[其他 AI 逆向 · 进行中]**
 - [Wyze 体重秤：让自制 iOS App 接收称重数据](../cases/wyze-scale-custom-ios.md) — 作者称 Claude 研究秤后做出个人客户端，带提醒与图表。 **[其他 AI 逆向 · 待验证]**
 - [涂鸦空调：从 Mac 菜单栏和 Claude 本地调温](../cases/tuya-ac-mac-claude-mcp.md) — 研究空调本地控制，做 Wi-Fi 菜单栏客户端，再以 MCP 接给 Claude。 **[未确认使用 REA · 待验证]**
 - [澎湃 OS 显示器：探索暴露服务的控制路线](../cases/hyperos-monitor-ai-research.md) — Binaryify 的显示器服务研究新增 Opus 辅助控制软件转述，仍缺实机验收。 **[其他 AI 逆向 · 进行中]**

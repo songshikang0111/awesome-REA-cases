@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Colin McRae Rally 2005：Xbox版静态重编译到现代Windows](../cases/colin-mcrae-rally2005-xbe-ai-recomp.md) — yibie介绍projectedan的Xbox拉力赛车移植，称21处提交trailer记AI参与；项目文档说明以Xbox XBE Recomp提供64位与现代手柄支持，仅美版Xbox数据，未由本合集构建。 **[其他 AI 逆向 · 进行中]**
+- [Peggle Enhanced：Ghidra研究iOS版，再移植C#／MonoGame](../cases/peggle-enhanced-ios-ghidra-monogame.md) — aidrum与TheAwesomeBlue为解决旧Android兼容问题，把iOS Peggle反编译并转成MonoGame；文档明确AI仅参与代码，报告手机全冒险通关及原硬件对照，未独立复跑。 **[其他 AI 逆向 · 进行中]**
+- [Predator: Concrete Jungle：Xbox静态重编译与反编译C++混合PC移植](../cases/predator-concrete-jungle-ai-native-pc.md) — yibie介绍2005年Xbox游戏PC重建；项目文档说从用户自有美版光盘生成C，并用反编译C++替换部分函数，提供现代控制与存档，AI提交归因为列表转述。 **[其他 AI 逆向 · 进行中]**
+- [从合法游戏副本到原创Roblox机制：REA／Ghidra分阶段提示方案](../cases/rea-ghidra-roblox-mechanic-transfer-prompt.md) — 公开提示词把观察、二进制证据、平台中立规范和原创Luau实现分开，要求Studio实测且BLA只用于适用产物；源游戏与机制仍是占位符，无运行成果。 **[REA · 相关项目]**
+- [Lichii与时之笛重制版：AI辅助数日迭代模拟器的转述](../cases/lichii-ocarina-remake-ai-emulator-report.md) — 作者称Lichii主线在游戏发售四天后已有数十构建、三桌面平台接近可玩仍有bug；没有仓库、版本或原始测试，保留项目拼写而不推定平台或与iPhone移植同源。 **[其他 AI 逆向 · 待验证]**
 - [SkyBuild：转述sokco816借AI研究Skyrim引擎，实时改地形与导航网格](../cases/skybuild-skyrim-ai-engine-terrain-navmesh-report.md) — 候选回复的父帖明确SkyBuild与sokco816，称AI辅助引擎逆向、地址定位和底层调试，展示改地形、盖房与更新导航网格；代码、版本和实机结果未核验。 **[其他 AI 逆向 · 待验证]**
 - [Gears of War克隆：Berman的Fable 5.2游戏重建自述](../cases/fable52-berman-gears-of-war-clone-report.md) — 更夫汇总点名Gears风格游戏；补查Berman原帖确称Fable 5.2做Gears of War clone并附视频，但未核游戏范围、玩法、代码与原作一致性。 **[其他 AI 逆向 · 待验证]**
 - [TimeSplitters 2：Destinity与Claude重编译PS2版，按PCSX2追查差异](../cases/destinity-timesplitters2-claude-native-pc-recompile.md) — Destinity公开PS2到C++的原生PC重编译工具，报告Linux／Steam Deck首关通关与逐帧参照；Windows和在线仍待发布，后续关卡与部分VU1差异未解决。 **[其他 AI 逆向 · 进行中]**

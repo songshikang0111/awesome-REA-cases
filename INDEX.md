@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2012 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2024 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（410）
-- [硬件与设备互通](categories/hardware.md)（539）
-- [应用与客户端](categories/apps.md)（822）
-- [算法与功能重建](categories/algorithms.md)（241）
+- [游戏与游戏保存](categories/games.md)（415）
+- [硬件与设备互通](categories/hardware.md)（540）
+- [应用与客户端](categories/apps.md)（827）
+- [算法与功能重建](categories/algorithms.md)（242）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,11 @@
 
 ### 游戏与游戏保存
 
+- [Colin McRae Rally 2005：Xbox版静态重编译到现代Windows](cases/colin-mcrae-rally2005-xbe-ai-recomp.md) — yibie介绍projectedan的Xbox拉力赛车移植，称21处提交trailer记AI参与；项目文档说明以Xbox XBE Recomp提供64位与现代手柄支持，仅美版Xbox数据，未由本合集构建。 **[其他 AI 逆向 · 进行中]**
+- [Peggle Enhanced：Ghidra研究iOS版，再移植C#／MonoGame](cases/peggle-enhanced-ios-ghidra-monogame.md) — aidrum与TheAwesomeBlue为解决旧Android兼容问题，把iOS Peggle反编译并转成MonoGame；文档明确AI仅参与代码，报告手机全冒险通关及原硬件对照，未独立复跑。 **[其他 AI 逆向 · 进行中]**
+- [Predator: Concrete Jungle：Xbox静态重编译与反编译C++混合PC移植](cases/predator-concrete-jungle-ai-native-pc.md) — yibie介绍2005年Xbox游戏PC重建；项目文档说从用户自有美版光盘生成C，并用反编译C++替换部分函数，提供现代控制与存档，AI提交归因为列表转述。 **[其他 AI 逆向 · 进行中]**
+- [从合法游戏副本到原创Roblox机制：REA／Ghidra分阶段提示方案](cases/rea-ghidra-roblox-mechanic-transfer-prompt.md) — 公开提示词把观察、二进制证据、平台中立规范和原创Luau实现分开，要求Studio实测且BLA只用于适用产物；源游戏与机制仍是占位符，无运行成果。 **[REA · 相关项目]**
+- [Lichii与时之笛重制版：AI辅助数日迭代模拟器的转述](cases/lichii-ocarina-remake-ai-emulator-report.md) — 作者称Lichii主线在游戏发售四天后已有数十构建、三桌面平台接近可玩仍有bug；没有仓库、版本或原始测试，保留项目拼写而不推定平台或与iPhone移植同源。 **[其他 AI 逆向 · 待验证]**
 - [SkyBuild：转述sokco816借AI研究Skyrim引擎，实时改地形与导航网格](cases/skybuild-skyrim-ai-engine-terrain-navmesh-report.md) — 候选回复的父帖明确SkyBuild与sokco816，称AI辅助引擎逆向、地址定位和底层调试，展示改地形、盖房与更新导航网格；代码、版本和实机结果未核验。 **[其他 AI 逆向 · 待验证]**
 - [Gears of War克隆：Berman的Fable 5.2游戏重建自述](cases/fable52-berman-gears-of-war-clone-report.md) — 更夫汇总点名Gears风格游戏；补查Berman原帖确称Fable 5.2做Gears of War clone并附视频，但未核游戏范围、玩法、代码与原作一致性。 **[其他 AI 逆向 · 待验证]**
 - [TimeSplitters 2：Destinity与Claude重编译PS2版，按PCSX2追查差异](cases/destinity-timesplitters2-claude-native-pc-recompile.md) — Destinity公开PS2到C++的原生PC重编译工具，报告Linux／Steam Deck首关通关与逐帧参照；Windows和在线仍待发布，后续关卡与部分VU1差异未解决。 **[其他 AI 逆向 · 进行中]**
@@ -439,6 +444,7 @@
 
 ### 硬件与设备互通
 
+- [旧锅炉手机控制：Nathan Skene称Codex指导重写恒温器固件](cases/codex-thermostat-debugger-smart-boiler-report.md) — Nathan Skene称原锅炉没有智能控制，Codex让他给恒温器接调试器并重写固件，现能手机控制；型号、协议、代码与安全联锁未核，不是安装建议。 **[其他 AI 逆向 · 待验证]**
 - [USB发光键盘变游戏机：转述Mollick用Fable 5.2研究硬件并做六款游戏](cases/mollick-fable-usb-light-keyboard-six-games-report.md) — 二手测试汇总称Mollick用一次提示让Fable研究USB发光键盘，首次就做出六款游戏；设备型号、协议、代码与运行结果未取得，不能说替换固件或离线独立运行。 **[其他 AI 逆向 · 待验证]**
 - [本地AI家居idea：Vik计划研究云依赖设备，接入Home Assistant](cases/vik-local-ai-home-assistant-cloud-appliance-idea.md) — Vik已备硬件，计划把净化器等家电接本地AI与Home Assistant，部分设备需逆向；风扇Wi-Fi集成与门磁已装，抽油烟机控制、语音和脱云研究仍是计划。 **[其他 AI 逆向 · 进行中]**
 - [十四年旧Kindle：Agent经KOReader SSH做天气、股票与时钟插件](cases/rdklinc-old-kindle-koreader-agent-dashboard.md) — InvestingVault转述RDKLInc把旧Kindle做成KOReader仪表盘，称Agent主要工作耗时2至3小时且保留阅读；代码计划公开，数周续航未验证。 **[其他 AI 逆向 · 待验证]**
@@ -926,7 +932,7 @@
 - [家居 App 协议：把无 API 设备接给本地 LLM](cases/bitfish-local-llm-home-control.md) — DiscusFish 自述用 REA 提取家居 App 协议，与现有 API 一起交给本地 LLM 调度。 **[REA · 待验证]**
 - [GAMEKB-K17 宏键盘：用 Claude Code 逆向配置协议](cases/claude-code-rgb-macropad.md) — 研究厂商 WebHID 配置端，做离线按键、固件宏和 RGB 配置工具。 **[其他 AI 逆向]**
 - [KEF LSX II：让 Mac 音量键控制音箱的细粒度音量](cases/kef-lsx-ii-volume-fixer.md) — Claude 辅助制作 USB 音频透传与局域网音量桥，避开音箱 USB 输入的粗步进。 **[其他 AI 逆向]**
-- [Hailo：启动 Agent 辅助逆向研究的计划](cases/hailo-agent-reverse-plan.md) — 作者准备开展 Hailo 逆向，并并列提到 Raspberry Pi Agent 环境开发。 **[未确认使用 REA · 进行中]**
+- [Hailo与Nvidia：Anthony Janus用Astra／Sol研究驱动，尝试持久激活拓扑](cases/hailo-agent-reverse-plan.md) — Anthony Janus从Hailo研究计划推进为Astra／Sol分析Nvidia与Hailo驱动和固件访问，自报进展后机器故障；持续适应输入的拓扑是目标，没有可复现性能或实机兼容结果。 **[其他 AI 逆向 · 进行中]**
 - [Wyze 体重秤：让自制 iOS App 接收称重数据](cases/wyze-scale-custom-ios.md) — 作者称 Claude 研究秤后做出个人客户端，带提醒与图表。 **[其他 AI 逆向 · 待验证]**
 - [涂鸦空调：从 Mac 菜单栏和 Claude 本地调温](cases/tuya-ac-mac-claude-mcp.md) — 研究空调本地控制，做 Wi-Fi 菜单栏客户端，再以 MCP 接给 Claude。 **[未确认使用 REA · 待验证]**
 - [澎湃 OS 显示器：探索暴露服务的控制路线](cases/hyperos-monitor-ai-research.md) — Binaryify 的显示器服务研究新增 Opus 辅助控制软件转述，仍缺实机验收。 **[其他 AI 逆向 · 进行中]**
@@ -981,6 +987,11 @@
 
 ### 应用与客户端
 
+- [Anti-BLA：为REA量出诱饵边界，四种自有样本不等于通破保护](cases/anti-bla-rea-static-decoy-recovery-tests.md) — ShambaC发布REA只读辅助层，报告JS折叠、ASAR索引恢复、WASM函数定位与SQLite模式识别；固定记录坦承两个REA provider缺失，早期配对试验没有准确率或token收益。 **[REA · 分析测试]**
+- [iPhone-agent资源：黄赟建议搭配Claude Code研究iOS应用](cases/iphone-agent-claude-xcode-app-study-resource.md) — 黄赟将具名iPhone-agent资源推荐给想研究iOS应用的人，并提Claude Code的Xcode插件；仓库目标与能力未核，没有具体App复刻或运行结果。 **[其他 AI 逆向 · 相关项目]**
+- [Granola的14美元选择：付订阅还是用REA研究替代方案的idea](cases/granola-14usd-rea-alternative-idea.md) — 作者在明日给Granola付14美元与使用REA之间犹豫；是具名会议笔记应用替代愿望，没有开始分析或原型，不与其他作者的Granola实验混同。 **[REA · 待验证]**
+- [Stickocalypse火柴人生存故事：Henry称反推风格为Claude Code视频提示词](cases/stickocalypse-style-claude-code-video-prompt.md) — Henry以YouTube频道Stickocalypse为具体风格参考，称转成单条Claude Code提示词生成整片，约15分钟、零成本；提示词与成片对照未取得，不核实商业收益。 **[其他 AI 逆向 · 待验证]**
+- [Roadster空中翻滚：LiLens转述Fable／Opus按视频写Blender过程动画](cases/tesla-roadster-kickflip-blender-fable-opus-report.md) — LiLens归因Stefan_3D_AI，称按特斯拉Roadster参考视频重建Blender翻滚，给出82／51分钟与41.1／15.7美元；未取代码或对照，不认定物理、工业质量或模型优劣。 **[其他 AI 逆向 · 待验证]**
 - [Reverse engineering technique：把十三领域技术文档交给Agent作上下文](cases/reverse-engineering-technique-13-domain-agent-context.md) — NeaByteLab介绍跨十三领域的逆向技术资料，建议把分类文档附给AI Agent；未审仓库或实际解析结果，不是自动逆向成功报告。 **[其他 AI 逆向 · 相关项目]**
 - [单张无人机图片到爆炸动画：转述Claude重建3D零件并用脚本驱动](cases/claude-single-image-drone-exploded-animation-report.md) — 谁是藏镜人称Claude从单图构建无人机3D资产，再脚本驱动零件拆解；没有工程、原始参考或精度对照，不证明内部结构恢复或瞬时完成。 **[其他 AI 逆向 · 待验证]**
 - [Excel克隆：更夫转述Matthew Berman的Fable 5.2早期测试](cases/fable52-berman-excel-clone-secondary-report.md) — 更夫转述的Excel克隆获Berman原帖归因：Fable 5.2的完整等价仍是作者声称；旧GPT-5.6六天Computer Use循环另作背景，不混入本次结果，兼容性未验证。 **[其他 AI 逆向 · 待验证]**
@@ -1196,7 +1207,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything的macOS v0.5.0用户测试补充Deep静态提取、默认模式拒读内部与三宽SSIM方法；仍有动态工具未验证，不能用工具数量或相似度证明完整克隆。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究与重建工作台新增2048二手使用反馈：称能玩能计分、对照评分78分，但评分定义与产物缺失；此前静态提取、默认模式边界与未验证动态路径仍保留。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
@@ -1680,7 +1691,7 @@
 - [Screen Studio重建：REA使用报告与Dolly截图驱动方案](cases/screen-studio-rebuild.md) — 早期作者称REA分析后由Claude Code复刻；新增Dolly方案从截图重建自动缩放录屏器，但测试占位符与付费规格不能当完成证明。 **[REA · 待验证]**
 - [Claude Desktop：用 REA 观察界面细节](cases/claude-desktop-ui-details.md) — REA 界面研究从作者观察延伸到公开 Open Claude UI 文档；组件与动效的保真度、新版适用性未独立测试。 **[REA · 分析测试]**
 - [Typeless：用 REA 做本地语音输入替代品](cases/rea-typeless-local.md) — 作者报告用 REA 分析 Typeless，并完成离线运行的 Swift 语音输入应用。 **[REA · 待验证]**
-- [Eleven：让 Agent 协助分析应用与二进制](cases/eleven-agent-reverse-engineering.md) — 作者介绍一款开源逆向工具，可查看多平台二进制并让 Agent 协助理解代码。 **[未确认使用 REA · 待验证]**
+- [Eleven：让 Agent 协助分析应用与二进制](cases/eleven-agent-reverse-engineering.md) — Eleven提供Agent辅助二进制研究；Chizi新报告把原GUI逐帧送入Ghostty，Claude在终端经Ghidra追启动行为，仍粗糙、无代码或独立实测，非TUI重写。 **[未确认使用 REA · 待验证]**
 - [48,000,000 行数据库：REA 辅助查询优化的转述](cases/rea-database-query-optimization-report.md) — 第三方称 Claude Code 与 REA 协助优化仪表板查询；性能与等价结果未独立核验。 **[未确认使用 REA · 待验证]**
 - [GTM 工具：用 REA 构建线索与邮件营销工作流](cases/rea-gtm-tool.md) — 作者称用 REA 构建获客工具，涵盖线索管理与邮件活动；未提供实现或测试细节。 **[REA · 待验证]**
 - [茶叶出海网站：REA 辅助的本地重建报告](cases/tea-site-rea-rebuild-report.md) — 作者称用 Codex + REA 逆向参考网站，并在约 40 分钟内本地部署重建版。 **[REA · 待验证]**
@@ -1806,6 +1817,7 @@
 
 ### 算法与功能重建
 
+- [Meta Hyperscape：Stefano Rivera用Claude研究渲染器，卡在60万splat](cases/easyldur-meta-hyperscape-claude-splat-limit.md) — Stefano Rivera自述研究Meta Hyperscape高斯splat渲染器，但无论如何都未超过总量600k；没有版本、硬件、代码或帧率，保留具体瓶颈而非性能排名。 **[其他 AI 逆向 · 待验证]**
 - [Vulkan BDA着色编译器：Sebastian Aaltonen称Codex擅长逆向，指向GPU指针问题](cases/sebaaltonen-codex-vulkan-bda-shader-compiler-report.md) — Sebastian Aaltonen称Codex Astra Ultra擅长逆向，并将Intel／AMD着色编译器问题关联到Vulkan BDA指针；缺复现、驱动版本或厂商记录，不宣称修复或安全漏洞。 **[其他 AI 逆向 · 待验证]**
 - [缺失函数到关节臂：Helios比较Grok Bot、Opus与Astra的单次恢复](cases/helios-grok-opus-astra-articulated-arm-function-test.md) — Helios称同一提示从400行binary恢复缺失函数，Grok Bot用4分12秒给关节臂，另两模型给不完整或不同机构；输入、判分与日志未公开，不能当普遍排名。 **[其他 AI 逆向 · 待验证]**
 - [闭源软件保护评估转述：codila的22页研究、估算成本与结果矛盾](cases/codila-closed-software-ai-protection-study-report.md) — codila转述AI逆向与代码加密评估，称56.6万美元为公开价格估算；原论文未读，主帖与回复对通过保护的模型数量不一致，不能当普遍破解率。 **[其他 AI 逆向 · 待验证]**

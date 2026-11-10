@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Anti-BLA：为REA量出诱饵边界，四种自有样本不等于通破保护](../cases/anti-bla-rea-static-decoy-recovery-tests.md) — ShambaC发布REA只读辅助层，报告JS折叠、ASAR索引恢复、WASM函数定位与SQLite模式识别；固定记录坦承两个REA provider缺失，早期配对试验没有准确率或token收益。 **[REA · 分析测试]**
+- [iPhone-agent资源：黄赟建议搭配Claude Code研究iOS应用](../cases/iphone-agent-claude-xcode-app-study-resource.md) — 黄赟将具名iPhone-agent资源推荐给想研究iOS应用的人，并提Claude Code的Xcode插件；仓库目标与能力未核，没有具体App复刻或运行结果。 **[其他 AI 逆向 · 相关项目]**
+- [Granola的14美元选择：付订阅还是用REA研究替代方案的idea](../cases/granola-14usd-rea-alternative-idea.md) — 作者在明日给Granola付14美元与使用REA之间犹豫；是具名会议笔记应用替代愿望，没有开始分析或原型，不与其他作者的Granola实验混同。 **[REA · 待验证]**
+- [Stickocalypse火柴人生存故事：Henry称反推风格为Claude Code视频提示词](../cases/stickocalypse-style-claude-code-video-prompt.md) — Henry以YouTube频道Stickocalypse为具体风格参考，称转成单条Claude Code提示词生成整片，约15分钟、零成本；提示词与成片对照未取得，不核实商业收益。 **[其他 AI 逆向 · 待验证]**
+- [Roadster空中翻滚：LiLens转述Fable／Opus按视频写Blender过程动画](../cases/tesla-roadster-kickflip-blender-fable-opus-report.md) — LiLens归因Stefan_3D_AI，称按特斯拉Roadster参考视频重建Blender翻滚，给出82／51分钟与41.1／15.7美元；未取代码或对照，不认定物理、工业质量或模型优劣。 **[其他 AI 逆向 · 待验证]**
 - [Reverse engineering technique：把十三领域技术文档交给Agent作上下文](../cases/reverse-engineering-technique-13-domain-agent-context.md) — NeaByteLab介绍跨十三领域的逆向技术资料，建议把分类文档附给AI Agent；未审仓库或实际解析结果，不是自动逆向成功报告。 **[其他 AI 逆向 · 相关项目]**
 - [单张无人机图片到爆炸动画：转述Claude重建3D零件并用脚本驱动](../cases/claude-single-image-drone-exploded-animation-report.md) — 谁是藏镜人称Claude从单图构建无人机3D资产，再脚本驱动零件拆解；没有工程、原始参考或精度对照，不证明内部结构恢复或瞬时完成。 **[其他 AI 逆向 · 待验证]**
 - [Excel克隆：更夫转述Matthew Berman的Fable 5.2早期测试](../cases/fable52-berman-excel-clone-secondary-report.md) — 更夫转述的Excel克隆获Berman原帖归因：Fable 5.2的完整等价仍是作者声称；旧GPT-5.6六天Computer Use循环另作背景，不混入本次结果，兼容性未验证。 **[其他 AI 逆向 · 待验证]**
@@ -217,7 +222,7 @@
 - [IDM下载管理器：ApriliaBelka提出用REA研究的想法](../cases/apriliabelka-idm-rea-research-idea.md) — 作者询问为何还没人用Reverse Engineer Anything研究IDM；这是具体软件研究idea，没有实施、功能重建或替代品结果。 **[REA · 待验证]**
 - [逆向Claude的v1：Jackson li称DeepSeek一上午完成，又说明未必可用](../cases/jackson-li-deepseek-claude-client-v1-report.md) — Jackson li报告DeepSeek辅助的Claude重建初版，同串称p1未必可用；语境指客户端与第三方模型工作流，不是复制Claude模型权重或能力。 **[其他 AI 逆向 · 进行中]**
 - [飞书会议纪要：WquGuru用REA研究切片与并行任务，再写Mac版](../cases/wquguru-lark-rea-mac-meeting-notes-rebuild.md) — WquGuru报告REA研究Lark切片、并行纪要与原句绑定鱼骨图后重建Mac工具；11月3日称客户端已开源、模型免费并列多平台输入，但仓库、许可与兼容性未核验。 **[REA · 进行中]**
-- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything的macOS v0.5.0用户测试补充Deep静态提取、默认模式拒读内部与三宽SSIM方法；仍有动态工具未验证，不能用工具数量或相似度证明完整克隆。 **[其他 AI 逆向 · 进行中]**
+- [Craft Anything：Rust研究与重建工作台，项目自报检查仍有边界](../cases/craft-anything-agent-study-rebuild-compare-report.md) — Craft Anything研究与重建工作台新增2048二手使用反馈：称能玩能计分、对照评分78分，但评分定义与产物缺失；此前静态提取、默认模式边界与未验证动态路径仍保留。 **[其他 AI 逆向 · 进行中]**
 - [REA文件解密：Captain Awesome称Claude拒绝后换Hermes模型继续](../cases/emmagine79-rea-file-decryption-hermes-model-switch.md) — 作者称Claude拒绝用REA解密文件，保留Hermes外壳并通过OpenCode Go换用中国模型后回到任务；文件、算法和解密成功均未验证。 **[REA · 待验证]**
 - [Muse虚拟机中的REA：bcc808称安装后改为接收更大文件](../cases/bcc808-muse-rea-vm-larger-file-adaptation.md) — bcc808称让Muse在自身VM安装REA，并修改以接收更大文件；没有补丁、上限、具体二进制或分析结果。 **[REA · 相关项目]**
 - [Claude Code到DSH插件：酸性氢氧化钠称用DeepSeek Flash与REA重写](../cases/misaka-claude-code-dsh-plugin-deepseek-rea.md) — 作者以DeepSeek Flash＋REA重写Claude Code为DSH插件，后说明提供部分提示词重写版、内部所谓字节一致版不公开；对GPT有利的行为接近说法无日志验证。 **[REA · 待验证]**
@@ -701,7 +706,7 @@
 - [Screen Studio重建：REA使用报告与Dolly截图驱动方案](../cases/screen-studio-rebuild.md) — 早期作者称REA分析后由Claude Code复刻；新增Dolly方案从截图重建自动缩放录屏器，但测试占位符与付费规格不能当完成证明。 **[REA · 待验证]**
 - [Claude Desktop：用 REA 观察界面细节](../cases/claude-desktop-ui-details.md) — REA 界面研究从作者观察延伸到公开 Open Claude UI 文档；组件与动效的保真度、新版适用性未独立测试。 **[REA · 分析测试]**
 - [Typeless：用 REA 做本地语音输入替代品](../cases/rea-typeless-local.md) — 作者报告用 REA 分析 Typeless，并完成离线运行的 Swift 语音输入应用。 **[REA · 待验证]**
-- [Eleven：让 Agent 协助分析应用与二进制](../cases/eleven-agent-reverse-engineering.md) — 作者介绍一款开源逆向工具，可查看多平台二进制并让 Agent 协助理解代码。 **[未确认使用 REA · 待验证]**
+- [Eleven：让 Agent 协助分析应用与二进制](../cases/eleven-agent-reverse-engineering.md) — Eleven提供Agent辅助二进制研究；Chizi新报告把原GUI逐帧送入Ghostty，Claude在终端经Ghidra追启动行为，仍粗糙、无代码或独立实测，非TUI重写。 **[未确认使用 REA · 待验证]**
 - [48,000,000 行数据库：REA 辅助查询优化的转述](../cases/rea-database-query-optimization-report.md) — 第三方称 Claude Code 与 REA 协助优化仪表板查询；性能与等价结果未独立核验。 **[未确认使用 REA · 待验证]**
 - [GTM 工具：用 REA 构建线索与邮件营销工作流](../cases/rea-gtm-tool.md) — 作者称用 REA 构建获客工具，涵盖线索管理与邮件活动；未提供实现或测试细节。 **[REA · 待验证]**
 - [茶叶出海网站：REA 辅助的本地重建报告](../cases/tea-site-rea-rebuild-report.md) — 作者称用 Codex + REA 逆向参考网站，并在约 40 分钟内本地部署重建版。 **[REA · 待验证]**

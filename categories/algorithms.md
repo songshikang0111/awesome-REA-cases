@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Meta Hyperscape：Stefano Rivera用Claude研究渲染器，卡在60万splat](../cases/easyldur-meta-hyperscape-claude-splat-limit.md) — Stefano Rivera自述研究Meta Hyperscape高斯splat渲染器，但无论如何都未超过总量600k；没有版本、硬件、代码或帧率，保留具体瓶颈而非性能排名。 **[其他 AI 逆向 · 待验证]**
 - [Vulkan BDA着色编译器：Sebastian Aaltonen称Codex擅长逆向，指向GPU指针问题](../cases/sebaaltonen-codex-vulkan-bda-shader-compiler-report.md) — Sebastian Aaltonen称Codex Astra Ultra擅长逆向，并将Intel／AMD着色编译器问题关联到Vulkan BDA指针；缺复现、驱动版本或厂商记录，不宣称修复或安全漏洞。 **[其他 AI 逆向 · 待验证]**
 - [缺失函数到关节臂：Helios比较Grok Bot、Opus与Astra的单次恢复](../cases/helios-grok-opus-astra-articulated-arm-function-test.md) — Helios称同一提示从400行binary恢复缺失函数，Grok Bot用4分12秒给关节臂，另两模型给不完整或不同机构；输入、判分与日志未公开，不能当普遍排名。 **[其他 AI 逆向 · 待验证]**
 - [闭源软件保护评估转述：codila的22页研究、估算成本与结果矛盾](../cases/codila-closed-software-ai-protection-study-report.md) — codila转述AI逆向与代码加密评估，称56.6万美元为公开价格估算；原论文未读，主帖与回复对通过保护的模型数量不一致，不能当普遍破解率。 **[其他 AI 逆向 · 待验证]**

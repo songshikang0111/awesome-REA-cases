@@ -16,9 +16,11 @@ STATUS自报10月18日Windows headless网页96%相似度、1.5分钟；桌面小
 
 11月9日12:18:00，marovole（@marovole）称拉源码并实测macOS v0.5.0 CLI：列321工具、默认白名单107个外部观察工具，未加--deep的内部二进制分析报拒绝。作者称Deep无需Ghidra可从65.3MB二进制提31364符号及116个Cargo依赖，另从macOS应用提89条Load Commands、4376导入；未具名样本或给原始输出，毫秒级与零unwrap未审计。作者还介绍1440／768／390px三宽、每宽三次拍摄屏蔽动画差异后算均值SSIM及横向溢出；未取得目标网页、分数或功能测试。
 
-补读固定e101fa5ba0a832412780010c23711c7fb7c488ac的tool-status，提交11月9日15:31:49北京时间，在本窗内但只是补充文档；其中审计标10月16日、实二进制记录标10月21日，不冒充新测试。文档确认adb23、Runtime5、Frida9项Unverified和部分Frida会话模拟；Apple另6项、Android静态4项、其他组也有未验证项，不能把帖子52项作为完整审计总量。文档把Unverified解释为有实现／审源但缺相应设备、引擎或OS，不等于已证实坏掉。文档仍有多项已知partial，并列Linux Vineflower对Commons IO 2.16.1的单JAR检查，不证明macOS或全部Java输入。候选对Codex未验证的表述不取消既有Windows运行但卡住报告。
+补读固定e101fa5ba0a832412780010c23711c7fb7c488ac的tool-status，提交11月9日15:31:49北京时间，在当时来源窗口内但只是补充文档；其中审计标10月16日、实二进制记录标10月21日，不冒充新测试。文档确认adb23、Runtime5、Frida9项Unverified和部分Frida会话模拟；Apple另6项、Android静态4项、其他组也有未验证项，不能把帖子52项作为完整审计总量。文档把Unverified解释为有实现／审源但缺相应设备、引擎或OS，不等于已证实坏掉。文档仍有多项已知partial，并列Linux Vineflower对Commons IO 2.16.1的单JAR检查，不证明macOS或全部Java输入。候选对Codex未验证的表述不取消既有Windows运行但卡住报告。
 
-本合集未执行目标、构建、安装依赖、复跑测试或审完实现。early alpha、净室边界、未测动态路径与静态提取结果须分开；209个REA工具、20,641星和模型厂商拦截原因均为该帖口径，不当效果或因果验证。ArtCraft／Adobe归因争议另记，共同组织不证明逆向Adobe。
+11月10日17:09:15，新的介绍帖转述一名未具名博主用Craft Anything复刻2048，称能玩、能计分，但对照评分只有78分。2048是合并数字方块的益智游戏；这里是具名小型游戏重建的使用反馈，不是恢复原始源码。未提供原博主、任务日期、工具版本、模型、评分量表或满分、产物与日志，78分不能解释为78%功能正确或SSIM，也不与旧96%相似度直接比较。本合集没有重跑或核实玩法。该帖并列的DX-Ball声像算法3205组输入属于既有REA示例，不是Craft Anything的新验证。
+
+本合集未执行目标、构建、安装依赖、复跑测试或审完实现。early alpha、净室边界、未测动态路径与静态提取结果须分开；209个REA工具、20,641星和模型厂商拦截原因均为此前帖子口径，不当效果或因果验证。ArtCraft／Adobe归因争议另记，共同组织不证明逆向Adobe。
 
 候选封存快照：Smartpig 8赞、692浏览、2转发；明子206 2赞、59浏览、0转发。
 314工具、96%、1.5分钟、9分钟及审计测试为项目口径，未独立复现；旧固定文档的Codex实装缺口保留为历史状态，11月8日用户已有运行但卡住的报告；Clean room完整实跑与部分动态分析仍待验证。
@@ -41,5 +43,6 @@ STATUS自报10月18日Windows headless网页96%相似度、1.5分钟；桌面小
 - [补充原始用户记录：issue1156，2026-11-08 06:15:08北京时间创建，11月9日取阅仍open](https://github.com/storytold/craft-anything/issues/1156)
 - [marovole的macOS v0.5.0 CLI实测自述与三宽SSIM方法，2026-11-09 12:18:00北京时间](https://x.com/i/status/2119645656595804470)
 - [补充固定tool-status：提交2026-11-09 15:31:49北京时间，内容含更早审计](https://github.com/storytold/craft-anything/blob/e101fa5ba0a832412780010c23711c7fb7c488ac/docs/tool-status.md)
+- [候选补证：2048重建及78分的二手报告，2026-11-10 17:09:15北京时间](https://x.com/i/status/2120081341551350260)
 
 [English](en/craft-anything-agent-study-rebuild-compare-report.md) | [返回目录](../README.zh-CN.md)
