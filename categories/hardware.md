@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [OTDR蓝牙研究准备：Charlie Huang拆机读日志，装好AI工具等待硬件](../cases/charlie-huang-otdr-bluetooth-ai-tools-preparation.md) — Charlie Huang称拆OTDR追蓝牙、读boosting log，并装AI工具等待shell读取硬件；当前还把外壳用于ESP32-S3原型，没有已完成AI分析或协议恢复证据。 **[未确认使用 REA · 进行中]**
 - [旧Launchpad：Peer Richelsen称Claude Code研究了不理想的驱动](../cases/peer-richelsen-launchpad-claude-driver-research.md) — Peer Richelsen自述旧Launchpad一直缺好驱动，于是Claude Code逆向；型号、平台、代码与实机功能未给出。 **[其他 AI 逆向 · 待验证]**
 - [Allwinner车载多媒体：Luiz用Claude研究RTOS，接管启动后复用厂商函数](../cases/luiz-allwinner-car-multimedia-rtos-claude-firmware.md) — Luiz称反编译非Android车机固件，以ESP32读闪存和调试，Claude辅助研究Allwinner RTOS；未取得固件与测试，不保证相似车机通用。 **[其他 AI 逆向 · 进行中]**
 - [普通Chromatic改固件：Ravonus想保留Codex收藏版未拆封](../cases/ravonus-chromatic-firmware-codex-edition-alternative.md) — Ravonus称为普通Chromatic加固件实现Codex版能做的事，并希望OpenAI公开模型制固件的方法；没有说明实际AI调用、具体功能或代码。 **[未确认使用 REA · 待验证]**

@@ -1,7 +1,7 @@
 # REA-VIDEO: shot-by-shot production research, user feedback and competitor-comparison limits
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-08
+Record date: 2026-11-10
 Stage: Related project
 
 A November 3, 2026 roundup at 09:19 Beijing time introduces REA-VIDEO breaking down visuals, styled text, editing and sound to recover visible production structure, not decompile software. A 20:32:06 account cites a product-swapped TikTok's eight shots batched into three generations; filmed camera positions, framing, motion, twelve lighting setups and grading; a 70-second promo at 83% code suitable for Remotion; and SRT/ASS, BPM and effect timing. None is footage analyzed here.
@@ -26,6 +26,9 @@ A new comparison post at 17:25:17 Beijing time on November 7 positions REA-VIDEO
 
 At 05:33:26 Beijing time on November 8, 2026, 바스 (@flowoodzx) reports trying REA-VIDEO on three personal clips: Grok generation, Three.js 3D and web recording. They say all three visual origins were identified within seven seconds without an AI key, but Grok-generated background music was labeled library music. Retrieval confirms attribution, wording and a video attachment, not a viewing of it or the three original inputs, HTML reports, commands, revision or hardware. Three reported examples are not overall detector accuracy. The seven-second scope is unclear between individual clips and the batch. No AI key describes this user's route, not universally free agents/vision services. The concrete error makes this a useful addition; visual and musical origins must be evaluated separately. It is still not a test performed by this collection.
 
+At 07:31:11 Beijing time on November 10, 2026, Riley Brown (@rileybrown) says he tried REA-Video with Fable on stream, naming the target as a Kurzagets video and praising its frame and inter-frame analysis for extracting editing style. No video title, URL, input segment, output report or replay link is supplied; he says he does not plan to post it for fear of backlash from the editing community. The target spelling is not silently corrected. Personal praise does not establish a completed remake, original-prompt recovery or accuracy. He further speculates that labs might reverse videos into code for model training, citing a similar speculation about software pipelines. These are not established training events. Retrieval confirms attribution and text only; no stream was watched or tool run. Earlier music errors and competitor-test evidence limits remain.
+
+November 10 at 07:31:11 sealed candidate: 38 likes, 2,936 views, 1 repost. The Fable trial has no replayable materials; training uses are speculation only.
 November 8 at 05:33:26 sealed candidate: 0 likes, 20 views, 0 reposts. Three clips and seven seconds are user-reported; the music misclassification is retained.
 November 7 at 17:25 sealed candidate: 3 likes, 262 views, 0 reposts. A use-case comparison, not a new test; the paid plan was not checked against official information.
 Earlier whole-roundup snapshot: 2 likes, 257 views, 0 reposts. Later November 3 post: 29 likes, 1,356 views, 6 reposts. Tests and licensing were unchecked then; earlier review confirmed license text without rerunning tests.
@@ -52,5 +55,6 @@ November 7 at 10:12:50: James Russo candidate, 6 likes, 390 views, 0 reposts. At
 - [AI少年的 personal usage account and production-work division, November 7, 2026 at 11:08:35 Beijing time](https://x.com/i/status/2118903412687581194)
 - [Retelling comparing REA-VIDEO/HyperFrames uses and pricing, November 7, 2026 at 17:25:17 Beijing time](https://x.com/i/status/2118998213474529750)
 - [바스 reports three-video testing and a Grok background-music error, November 8, 2026 at 05:33:26 Beijing time](https://x.com/i/status/2119181456685793578)
+- [Riley Brown on a Fable/Kurzagets video trial and training speculation, November 10, 2026 at 07:31:11 Beijing time](https://x.com/i/status/2119935865933725888)
 
 [中文](../rea-video-shot-breakdown-rebuild-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

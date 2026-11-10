@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [缺失函数到关节臂：Helios比较Grok Bot、Opus与Astra的单次恢复](../cases/helios-grok-opus-astra-articulated-arm-function-test.md) — Helios称同一提示从400行binary恢复缺失函数，Grok Bot用4分12秒给关节臂，另两模型给不完整或不同机构；输入、判分与日志未公开，不能当普遍排名。 **[其他 AI 逆向 · 待验证]**
 - [闭源软件保护评估转述：codila的22页研究、估算成本与结果矛盾](../cases/codila-closed-software-ai-protection-study-report.md) — codila转述AI逆向与代码加密评估，称56.6万美元为公开价格估算；原论文未读，主帖与回复对通过保护的模型数量不一致，不能当普遍破解率。 **[其他 AI 逆向 · 待验证]**
 - [冰后与岩兽：sandmrk为Muse反推23.6秒风暴战斗片，明确仍不能匹配](../cases/sandmrk-muse-ice-empress-rock-beast-236s-prompt.md) — sandmrk把冰后、霜龙与岩兽战斗拆成三段Muse生成规格，锁定角色比例、特效生命周期与紫色结尾；公开提示不是原始Prompt恢复或成功复刻。 **[其他 AI 逆向 · 待验证]**
 - [离线搜索重建idea：用双空格、排序与分页查出视觉演示漏项](../cases/rea-offline-search-behavior-spec-edgecase-test.md) — satoshiwhynot建议先观察原版写行为规格，再隔离实现Agent并输入对照；离线搜索只是讲解样例，没有运行结果。 **[REA · 待验证]**

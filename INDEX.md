@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **1990 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **1995 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（408）
-- [硬件与设备互通](categories/hardware.md)（533）
-- [应用与客户端](categories/apps.md)（810）
-- [算法与功能重建](categories/algorithms.md)（239）
+- [硬件与设备互通](categories/hardware.md)（534）
+- [应用与客户端](categories/apps.md)（813）
+- [算法与功能重建](categories/algorithms.md)（240）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -437,6 +437,7 @@
 
 ### 硬件与设备互通
 
+- [OTDR蓝牙研究准备：Charlie Huang拆机读日志，装好AI工具等待硬件](cases/charlie-huang-otdr-bluetooth-ai-tools-preparation.md) — Charlie Huang称拆OTDR追蓝牙、读boosting log，并装AI工具等待shell读取硬件；当前还把外壳用于ESP32-S3原型，没有已完成AI分析或协议恢复证据。 **[未确认使用 REA · 进行中]**
 - [旧Launchpad：Peer Richelsen称Claude Code研究了不理想的驱动](cases/peer-richelsen-launchpad-claude-driver-research.md) — Peer Richelsen自述旧Launchpad一直缺好驱动，于是Claude Code逆向；型号、平台、代码与实机功能未给出。 **[其他 AI 逆向 · 待验证]**
 - [Allwinner车载多媒体：Luiz用Claude研究RTOS，接管启动后复用厂商函数](cases/luiz-allwinner-car-multimedia-rtos-claude-firmware.md) — Luiz称反编译非Android车机固件，以ESP32读闪存和调试，Claude辅助研究Allwinner RTOS；未取得固件与测试，不保证相似车机通用。 **[其他 AI 逆向 · 进行中]**
 - [普通Chromatic改固件：Ravonus想保留Codex收藏版未拆封](cases/ravonus-chromatic-firmware-codex-edition-alternative.md) — Ravonus称为普通Chromatic加固件实现Codex版能做的事，并希望OpenAI公开模型制固件的方法；没有说明实际AI调用、具体功能或代码。 **[未确认使用 REA · 待验证]**
@@ -973,6 +974,9 @@
 
 ### 应用与客户端
 
+- [FounderOS工作流重建：Thoumar用Claude整理公开材料，再从散步录音生成草稿](cases/thoumar-founderos-claude-public-content-workflow.md) — Thoumar称Claude扫描FounderOS公开内容并重建个人内容流水线，以40分钟录音生成故事库与草稿；不是反编译付费软件，效果与价格比较未独立核对。 **[其他 AI 逆向 · 待验证]**
+- [Zoth Studio的GhidraMCP Bridge：让Agent反编译、重命名与标注](cases/zoth-studio-ghidramcp-agent-bridge.md) — Zoth称Studio内桥接LaurieWired的GhidraMCP，让AI Agent经MCP操作Ghidra；有具名功能与视频附件，未检查代码或运行，不能推成任意二进制自动恢复。 **[其他 AI 逆向 · 相关项目]**
+- [Sierra Chart与Denali：Dero提出用REA研究CPU利用率的idea](cases/dero-sierra-chart-rea-denali-idea.md) — Dero询问是否可用REA研究Sierra Chart并使用Denali数据，希望更充分利用CPU；仅有具名方向，没有实施、接入或性能结果。 **[REA · 待验证]**
 - [Gowin IDE：Pepijn安装REA，让Claude开始研究FPGA开发工具](cases/pepijn-gowin-ide-claude-rea-investigation.md) — Pepijn报告安装REA并让Claude查看Gowin IDE逆向；没有具体组件、格式或结果，VACASK协同仿真和Spectre审阅仍是另一工作状态。 **[REA · 进行中]**
 - [LunarXuan/imag：秋北先生介绍从参考图拆构图、光影并生成双语提示词](cases/lunarxuan-imag-reference-image-bilingual-prompts.md) — imag被介绍为分析摄影、插画等参考图并生成中英文及负面提示词的Skill；未读技能源码或比较输出，不当找回原Prompt。 **[其他 AI 逆向 · 相关项目]**
 - [GreHack AI逆向工作坊：Axelle给出Ghidra、radare2与OpenCode准备环境](cases/cryptax-grehack-ai-reversing-workshop.md) — Axelle Ap.公告reverse with AI工作坊，要求Docker、Compose、JDK25+与Python3+；是具名教学项目，不是样本分析成功或安全隔离验证。 **[其他 AI 逆向 · 相关项目]**
@@ -1134,7 +1138,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO输出逐镜制作证据与计划；바스新增三片测试自述，称7秒内识别画面来源但误判Grok音乐，仍无可重放样本，不当总体准确率。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO拆解逐镜制作方法；保留三片测试的音乐误判，新增Riley对Kurzagets视频的Fable试用自述，未给原片或回放，仍不证明还原原Prompt或精度。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -1436,7 +1440,7 @@
 - [OshoosiClaw：把自动二进制分析与YARA-X合成接入EDR的项目](cases/oshoosiclaw-ai-edr-project.md) — 候选介绍Rust/Linux/Windows端点防御项目，包含Magika及YARA-X辅助的自动逆向模块并招募测试者；内核隔离与性能宣传未独立验证，其REA模块不能直接等同morluto/rea。 **[未确认使用 REA · 相关项目]**
 - [MyGate：Aditya用应用截图指导Agent重建配送放行流程](cases/mygate-agent-screenshot-workflow-rebuild.md) — Aditya Anand称研究MyGate应用、给Agent截图解释工作流，再构建不用拿手机即可接受Amazon、Blinkit与Zomato配送的版本；仍在修细节，未独立验证。 **[其他 AI 逆向 · 进行中]**
 - [Marshall的Web CTF：以奖励挑战“人能解、Agent不能解”的逆向防护说法](cases/web-ctf-human-agent-reverse-challenge.md) — Marshall称自制Web CTF不能由Agent逆向求解，并设解题100美元、提权200美元奖励；目前只有挑战宣告，没有对照测试或防护机制证据。 **[其他 AI 逆向 · 待验证]**
-- [log工具适配：用REA与Playwright观察内部API，准备接入Codex和Claude](cases/rea-playwright-log-tool-platform-adapters.md) — 作者称重做log工具为Codex插件和Claude connector，并用REA与Playwright观察内部API；计划下周测试后推main，不确认能避免封号。 **[REA · 进行中]**
+- [log客户端适配：matt用REA与Playwright观察Instagram，再查公开客户端](cases/rea-playwright-log-tool-platform-adapters.md) — matt新增Instagram操作观察到JS内部API名、GitHub客户端选择与log schema接入的自述；有本地消息库架构，未取得代码或测试，不保证全接口发现、授权或账号安全。 **[REA · 进行中]**
 - [Winny：用REA反编译、再用AI重实现的预测性idea](cases/winny-rea-ai-reimplementation-idea.md) — 日语发帖者预测会有人用REA反编译Winny并以AI重实现；只有具名目标和方法方向，没有实施或验证结果。 **[REA · 待验证]**
 - [ARTEX调查：Android漏洞研究与Profero报告的AI逆向控制台分工](cases/artex-ai-android-vulnerability-campaign-report.md) — Seongsu Park报告ARTEX用于Android研究；Profero报告多工具分工，后续希伯来语帖再称Ultra由Hermes Agent衔接逆向控制台；均非本合集复现。 **[其他 AI 逆向 · 待验证]**
 - [Amp Android客户端：Ben Kraus用REA为Trifold准备应用](cases/ben-kraus-amp-android-trifold-rea.md) — Ben Kraus称正在用REA制作Amp的Android应用，以支持自己的Trifold；尚无实现、功能对照或测试结果。 **[REA · 进行中]**
@@ -1786,6 +1790,7 @@
 
 ### 算法与功能重建
 
+- [缺失函数到关节臂：Helios比较Grok Bot、Opus与Astra的单次恢复](cases/helios-grok-opus-astra-articulated-arm-function-test.md) — Helios称同一提示从400行binary恢复缺失函数，Grok Bot用4分12秒给关节臂，另两模型给不完整或不同机构；输入、判分与日志未公开，不能当普遍排名。 **[其他 AI 逆向 · 待验证]**
 - [闭源软件保护评估转述：codila的22页研究、估算成本与结果矛盾](cases/codila-closed-software-ai-protection-study-report.md) — codila转述AI逆向与代码加密评估，称56.6万美元为公开价格估算；原论文未读，主帖与回复对通过保护的模型数量不一致，不能当普遍破解率。 **[其他 AI 逆向 · 待验证]**
 - [冰后与岩兽：sandmrk为Muse反推23.6秒风暴战斗片，明确仍不能匹配](cases/sandmrk-muse-ice-empress-rock-beast-236s-prompt.md) — sandmrk把冰后、霜龙与岩兽战斗拆成三段Muse生成规格，锁定角色比例、特效生命周期与紫色结尾；公开提示不是原始Prompt恢复或成功复刻。 **[其他 AI 逆向 · 待验证]**
 - [离线搜索重建idea：用双空格、排序与分页查出视觉演示漏项](cases/rea-offline-search-behavior-spec-edgecase-test.md) — satoshiwhynot建议先观察原版写行为规格，再隔离实现Agent并输入对照；离线搜索只是讲解样例，没有运行结果。 **[REA · 待验证]**
