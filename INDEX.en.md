@@ -10,7 +10,7 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2012 entries**, organized by use case, without a Top-N or popularity threshold.
+**2013 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
@@ -18,7 +18,7 @@ English case details and category pages are available throughout this reading pa
 
 - [Games and preservation](categories/en/games.md) (410)
 - [Hardware and interoperability](categories/en/hardware.md) (539)
-- [Applications and clients](categories/en/apps.md) (822)
+- [Applications and clients](categories/en/apps.md) (823)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (241)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -1805,6 +1805,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Codex/Claude clients: asking whether tokens are hidden in the app package](cases/en/codex-claude-client-token-location-idea.md) — NickSvaik asks Grok what client decompilation reveals, without reporting extraction or a quota bypass. **[Other AI-assisted work · Needs verification]**
 - [Illustrative legacy/billing demo: 212 files to a spec and twelve Sonnet agents](cases/en/rea-legacy-billing-illustrative-demo.md) — Primee32 explicitly calls the 7m05s/$0.88/148-behavior comparison illustrative, not evidence of a commercial migration. **[REA · Needs verification]**
 - [Windows XP/7: an AI compatibility idea instead of rewriting the whole OS](cases/en/windows-xp7-ai-compatibility-idea.md) — LaSpookyEXE suggests directing AI reversing toward unsupported software and hardware on older Windows versions. **[Other AI-assisted work · Needs verification]**
+- [DESIGN:OS Studio: an independent desktop studio that reads and writes Figma .fig files and reimplements the editor](cases/en/design-os-studio-fig-format.md) — Jang Trịnh published DESIGN:OS Studio. The README states it reads and writes Figma .fig containers (fig-kiwi, writes version 106) and reimplements editor behaviour locally, with a 39-tool MCP server. This collection did not install or run the studio; REA use is unknown. **[REA use unconfirmed]**
 
 ### Algorithms and feature recovery
 

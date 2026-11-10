@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2012 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2013 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（410）
 - [硬件与设备互通](categories/hardware.md)（539）
-- [应用与客户端](categories/apps.md)（822）
+- [应用与客户端](categories/apps.md)（823）
 - [算法与功能重建](categories/algorithms.md)（241）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -1803,6 +1803,7 @@
 - [Codex / Claude 客户端：检查 tokens 是否藏在安装包里的提问](cases/codex-claude-client-token-location-idea.md) — NickSvaik 向 Grok 提问客户端反编译能看到什么，没有实际提取或配额绕过结果。 **[其他 AI 逆向 · 待验证]**
 - [legacy/billing 示意演示：212 文件到规格，再交给 12 个 Sonnet](cases/rea-legacy-billing-illustrative-demo.md) — Primee32 明确把 7 分 05 秒、0.88 美元与 148 行为的比较称作 illustrative，不当真实商业迁移成绩。 **[REA · 待验证]**
 - [Windows XP / 7：不重写系统，先研究不支持软硬件的兼容 idea](cases/windows-xp7-ai-compatibility-idea.md) — LaSpookyEXE 建议把 AI 逆向投入旧 Windows 兼容工作，而不是重建整个 Windows。 **[其他 AI 逆向 · 待验证]**
+- [DESIGN:OS Studio：独立读写 Figma .fig 并重实现编辑器的桌面工作室](cases/design-os-studio-fig-format.md) — Jang Trịnh 发布 DESIGN:OS Studio，README 写明可读写 Figma 的 .fig 容器（fig-kiwi，写出版本 106）并在本地重实现编辑器行为，附带 39 个 MCP 工具。本合集未安装或运行该软件；是否使用 REA 未知。 **[未确认使用 REA]**
 
 ### 算法与功能重建
 
