@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2006 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2012 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（409）
-- [硬件与设备互通](categories/hardware.md)（537）
-- [应用与客户端](categories/apps.md)（820）
-- [算法与功能重建](categories/algorithms.md)（240）
+- [游戏与游戏保存](categories/games.md)（410）
+- [硬件与设备互通](categories/hardware.md)（539）
+- [应用与客户端](categories/apps.md)（822）
+- [算法与功能重建](categories/algorithms.md)（241）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [SkyBuild：转述sokco816借AI研究Skyrim引擎，实时改地形与导航网格](cases/skybuild-skyrim-ai-engine-terrain-navmesh-report.md) — 候选回复的父帖明确SkyBuild与sokco816，称AI辅助引擎逆向、地址定位和底层调试，展示改地形、盖房与更新导航网格；代码、版本和实机结果未核验。 **[其他 AI 逆向 · 待验证]**
 - [Gears of War克隆：Berman的Fable 5.2游戏重建自述](cases/fable52-berman-gears-of-war-clone-report.md) — 更夫汇总点名Gears风格游戏；补查Berman原帖确称Fable 5.2做Gears of War clone并附视频，但未核游戏范围、玩法、代码与原作一致性。 **[其他 AI 逆向 · 待验证]**
 - [TimeSplitters 2：Destinity与Claude重编译PS2版，按PCSX2追查差异](cases/destinity-timesplitters2-claude-native-pc-recompile.md) — Destinity公开PS2到C++的原生PC重编译工具，报告Linux／Steam Deck首关通关与逐帧参照；Windows和在线仍待发布，后续关卡与部分VU1差异未解决。 **[其他 AI 逆向 · 进行中]**
 - [Mortal Kombat 4 Dreamcast SET 4：AI生成wrapper与原型忠实度边界](cases/mk4-dreamcast-set4-ai-wrapper-fidelity.md) — Sega Dreamcast Info提供SET 4原型的AI生成wrapper与逆向版，认为继续修改会损伤忠实度；未读下载材料，不确认原型曾在Eurocom运行。 **[其他 AI 逆向 · 待验证]**
@@ -438,6 +439,8 @@
 
 ### 硬件与设备互通
 
+- [USB发光键盘变游戏机：转述Mollick用Fable 5.2研究硬件并做六款游戏](cases/mollick-fable-usb-light-keyboard-six-games-report.md) — 二手测试汇总称Mollick用一次提示让Fable研究USB发光键盘，首次就做出六款游戏；设备型号、协议、代码与运行结果未取得，不能说替换固件或离线独立运行。 **[其他 AI 逆向 · 待验证]**
+- [本地AI家居idea：Vik计划研究云依赖设备，接入Home Assistant](cases/vik-local-ai-home-assistant-cloud-appliance-idea.md) — Vik已备硬件，计划把净化器等家电接本地AI与Home Assistant，部分设备需逆向；风扇Wi-Fi集成与门磁已装，抽油烟机控制、语音和脱云研究仍是计划。 **[其他 AI 逆向 · 进行中]**
 - [十四年旧Kindle：Agent经KOReader SSH做天气、股票与时钟插件](cases/rdklinc-old-kindle-koreader-agent-dashboard.md) — InvestingVault转述RDKLInc把旧Kindle做成KOReader仪表盘，称Agent主要工作耗时2至3小时且保留阅读；代码计划公开，数周续航未验证。 **[其他 AI 逆向 · 待验证]**
 - [猫喂食器与seL4：Remy称Claude可写替代固件的一天设想](cases/claude-cat-feeder-sel4-firmware-claim.md) — Remy举例向Claude要求用seL4为猫喂食器写固件，称一天后可完成；无型号、代码或实机结果，按具体设想而非成功移植收录。 **[其他 AI 逆向 · 待验证]**
 - [车载信息娱乐固件：Dan询问能否用Claude做自定义替代](cases/claude-vehicle-infotainment-custom-firmware-question.md) — Dan询问是否有人用Claude为车载信息娱乐系统放入自定义固件；是具体设备类别的idea，没有车型、实施或结果。 **[其他 AI 逆向 · 待验证]**
@@ -978,6 +981,8 @@
 
 ### 应用与客户端
 
+- [Reverse engineering technique：把十三领域技术文档交给Agent作上下文](cases/reverse-engineering-technique-13-domain-agent-context.md) — NeaByteLab介绍跨十三领域的逆向技术资料，建议把分类文档附给AI Agent；未审仓库或实际解析结果，不是自动逆向成功报告。 **[其他 AI 逆向 · 相关项目]**
+- [单张无人机图片到爆炸动画：转述Claude重建3D零件并用脚本驱动](cases/claude-single-image-drone-exploded-animation-report.md) — 谁是藏镜人称Claude从单图构建无人机3D资产，再脚本驱动零件拆解；没有工程、原始参考或精度对照，不证明内部结构恢复或瞬时完成。 **[其他 AI 逆向 · 待验证]**
 - [Excel克隆：更夫转述Matthew Berman的Fable 5.2早期测试](cases/fable52-berman-excel-clone-secondary-report.md) — 更夫转述的Excel克隆获Berman原帖归因：Fable 5.2的完整等价仍是作者声称；旧GPT-5.6六天Computer Use循环另作背景，不混入本次结果，兼容性未验证。 **[其他 AI 逆向 · 待验证]**
 - [Unreal东京复刻：更夫转述Matthew Berman的Fable场景重建](cases/fable52-berman-unreal-tokyo-reconstruction-report.md) — 更夫称Matthew Berman用Fable在Unreal复刻东京；没有地点范围、参考素材、工程或空间误差，不写成整座城市数字孪生。 **[其他 AI 逆向 · 待验证]**
 - [活塞杯终局体素重建：更夫转述AI/ML API的Fable演示](cases/fable52-cars-piston-cup-voxel-recreation-report.md) — 更夫转述活塞杯终局体素重建；AI/ML API原帖自报Fable 5.2为108.87美元、GPT-6.1 Sol为13.02美元；未核成片、账单或同条件，不作普遍模型排名。 **[其他 AI 逆向 · 待验证]**
@@ -1801,6 +1806,7 @@
 
 ### 算法与功能重建
 
+- [Vulkan BDA着色编译器：Sebastian Aaltonen称Codex擅长逆向，指向GPU指针问题](cases/sebaaltonen-codex-vulkan-bda-shader-compiler-report.md) — Sebastian Aaltonen称Codex Astra Ultra擅长逆向，并将Intel／AMD着色编译器问题关联到Vulkan BDA指针；缺复现、驱动版本或厂商记录，不宣称修复或安全漏洞。 **[其他 AI 逆向 · 待验证]**
 - [缺失函数到关节臂：Helios比较Grok Bot、Opus与Astra的单次恢复](cases/helios-grok-opus-astra-articulated-arm-function-test.md) — Helios称同一提示从400行binary恢复缺失函数，Grok Bot用4分12秒给关节臂，另两模型给不完整或不同机构；输入、判分与日志未公开，不能当普遍排名。 **[其他 AI 逆向 · 待验证]**
 - [闭源软件保护评估转述：codila的22页研究、估算成本与结果矛盾](cases/codila-closed-software-ai-protection-study-report.md) — codila转述AI逆向与代码加密评估，称56.6万美元为公开价格估算；原论文未读，主帖与回复对通过保护的模型数量不一致，不能当普遍破解率。 **[其他 AI 逆向 · 待验证]**
 - [冰后与岩兽：sandmrk为Muse反推23.6秒风暴战斗片，明确仍不能匹配](cases/sandmrk-muse-ice-empress-rock-beast-236s-prompt.md) — sandmrk把冰后、霜龙与岩兽战斗拆成三段Muse生成规格，锁定角色比例、特效生命周期与紫色结尾；公开提示不是原始Prompt恢复或成功复刻。 **[其他 AI 逆向 · 待验证]**

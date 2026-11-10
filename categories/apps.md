@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Reverse engineering technique：把十三领域技术文档交给Agent作上下文](../cases/reverse-engineering-technique-13-domain-agent-context.md) — NeaByteLab介绍跨十三领域的逆向技术资料，建议把分类文档附给AI Agent；未审仓库或实际解析结果，不是自动逆向成功报告。 **[其他 AI 逆向 · 相关项目]**
+- [单张无人机图片到爆炸动画：转述Claude重建3D零件并用脚本驱动](../cases/claude-single-image-drone-exploded-animation-report.md) — 谁是藏镜人称Claude从单图构建无人机3D资产，再脚本驱动零件拆解；没有工程、原始参考或精度对照，不证明内部结构恢复或瞬时完成。 **[其他 AI 逆向 · 待验证]**
 - [Excel克隆：更夫转述Matthew Berman的Fable 5.2早期测试](../cases/fable52-berman-excel-clone-secondary-report.md) — 更夫转述的Excel克隆获Berman原帖归因：Fable 5.2的完整等价仍是作者声称；旧GPT-5.6六天Computer Use循环另作背景，不混入本次结果，兼容性未验证。 **[其他 AI 逆向 · 待验证]**
 - [Unreal东京复刻：更夫转述Matthew Berman的Fable场景重建](../cases/fable52-berman-unreal-tokyo-reconstruction-report.md) — 更夫称Matthew Berman用Fable在Unreal复刻东京；没有地点范围、参考素材、工程或空间误差，不写成整座城市数字孪生。 **[其他 AI 逆向 · 待验证]**
 - [活塞杯终局体素重建：更夫转述AI/ML API的Fable演示](../cases/fable52-cars-piston-cup-voxel-recreation-report.md) — 更夫转述活塞杯终局体素重建；AI/ML API原帖自报Fable 5.2为108.87美元、GPT-6.1 Sol为13.02美元；未核成片、账单或同条件，不作普遍模型排名。 **[其他 AI 逆向 · 待验证]**

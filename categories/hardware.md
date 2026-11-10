@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [USB发光键盘变游戏机：转述Mollick用Fable 5.2研究硬件并做六款游戏](../cases/mollick-fable-usb-light-keyboard-six-games-report.md) — 二手测试汇总称Mollick用一次提示让Fable研究USB发光键盘，首次就做出六款游戏；设备型号、协议、代码与运行结果未取得，不能说替换固件或离线独立运行。 **[其他 AI 逆向 · 待验证]**
+- [本地AI家居idea：Vik计划研究云依赖设备，接入Home Assistant](../cases/vik-local-ai-home-assistant-cloud-appliance-idea.md) — Vik已备硬件，计划把净化器等家电接本地AI与Home Assistant，部分设备需逆向；风扇Wi-Fi集成与门磁已装，抽油烟机控制、语音和脱云研究仍是计划。 **[其他 AI 逆向 · 进行中]**
 - [十四年旧Kindle：Agent经KOReader SSH做天气、股票与时钟插件](../cases/rdklinc-old-kindle-koreader-agent-dashboard.md) — InvestingVault转述RDKLInc把旧Kindle做成KOReader仪表盘，称Agent主要工作耗时2至3小时且保留阅读；代码计划公开，数周续航未验证。 **[其他 AI 逆向 · 待验证]**
 - [猫喂食器与seL4：Remy称Claude可写替代固件的一天设想](../cases/claude-cat-feeder-sel4-firmware-claim.md) — Remy举例向Claude要求用seL4为猫喂食器写固件，称一天后可完成；无型号、代码或实机结果，按具体设想而非成功移植收录。 **[其他 AI 逆向 · 待验证]**
 - [车载信息娱乐固件：Dan询问能否用Claude做自定义替代](../cases/claude-vehicle-infotainment-custom-firmware-question.md) — Dan询问是否有人用Claude为车载信息娱乐系统放入自定义固件；是具体设备类别的idea，没有车型、实施或结果。 **[其他 AI 逆向 · 待验证]**

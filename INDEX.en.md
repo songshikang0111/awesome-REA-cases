@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2006 entries**, organized by use case, without a Top-N or popularity threshold.
+**2012 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (409)
-- [Hardware and interoperability](categories/en/hardware.md) (537)
-- [Applications and clients](categories/en/apps.md) (820)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (240)
+- [Games and preservation](categories/en/games.md) (410)
+- [Hardware and interoperability](categories/en/hardware.md) (539)
+- [Applications and clients](categories/en/apps.md) (822)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (241)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [SkyBuild: a report of sokco816 using AI to investigate Skyrim terrain and navigation internals](cases/en/skybuild-skyrim-ai-engine-terrain-navmesh-report.md) — The candidate's parent identifies SkyBuild and sokco816, crediting AI-assisted engine reversing, address discovery and low-level debugging for terrain editing, building and navmesh updates. Code, versions and hardware results remain unchecked. **[Other AI-assisted work · Needs verification]**
 - [A Gears of War clone: Berman's Fable 5.2 game-rebuilding account](cases/en/fable52-berman-gears-of-war-clone-report.md) — CopperForgeAI lists a Gears-style game; Berman's original explicitly calls it a Fable 5.2 Gears of War clone and includes a video. Scope, gameplay, code and fidelity remain unchecked. **[Other AI-assisted work · Needs verification]**
 - [TimeSplitters 2: Destinity and Claude recompile the PS2 game, tracing differences against PCSX2](cases/en/destinity-timesplitters2-claude-native-pc-recompile.md) — Public PS2-to-C++ native-PC tools report a Linux/Steam Deck first-level playthrough and frame-by-frame reference work. Windows and online remain pending; later levels and some VU1 differences are unresolved. **[Other AI-assisted work · In progress]**
 - [Mortal Kombat 4 Dreamcast SET 4: an AI-generated wrapper and prototype-fidelity limits](cases/en/mk4-dreamcast-set4-ai-wrapper-fidelity.md) — Sega Dreamcast Info offers an AI-generated SET 4 wrapper and a reversed version, warning further changes could harm fidelity. Downloads were not read, and historic execution at Eurocom is unconfirmed. **[Other AI-assisted work · Needs verification]**
@@ -440,6 +441,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [A light-up USB keyboard as a game console: a report of Mollick's six-game Fable 5.2 experiment](cases/en/mollick-fable-usb-light-keyboard-six-games-report.md) — A secondary roundup says one prompt led Fable to investigate a light-up USB keyboard and make six games on its first try. Device, protocol, code and runs are absent; replacement firmware or independent offline operation is not established. **[Other AI-assisted work · Needs verification]**
+- [A local-AI home idea: Vik plans to investigate cloud-dependent appliances for Home Assistant](cases/en/vik-local-ai-home-assistant-cloud-appliance-idea.md) — Vik has the hardware and plans local AI/Home Assistant control of appliances including an air purifier, with some requiring reversing. A Wi-Fi fan and door sensors exist; hood control, voice and cloud independence remain plans. **[Other AI-assisted work · In progress]**
 - [A fourteen-year-old Kindle: an agent builds a KOReader clock, weather and stock plugin over SSH](cases/en/rdklinc-old-kindle-koreader-agent-dashboard.md) — InvestingVault relays RDKLInc's old-Kindle KOReader dashboard, reportedly taking an agent 2–3 hours while retaining reading. Code is planned; weeks of battery life remain untested. **[Other AI-assisted work · Needs verification]**
 - [A cat feeder and seL4: Remy's one-day Claude replacement-firmware proposition](cases/en/claude-cat-feeder-sel4-firmware-claim.md) — Remy suggests asking Claude for seL4 cat-feeder firmware and returning a day later to success. No model, code or device results are supplied; this is a concrete idea, not an established port. **[Other AI-assisted work · Needs verification]**
 - [Vehicle infotainment firmware: Dan asks about a custom Claude-assisted replacement](cases/en/claude-vehicle-infotainment-custom-firmware-question.md) — Dan asks about using Claude for custom vehicle-infotainment firmware. This device-category idea has no vehicle model, implementation or results. **[Other AI-assisted work · Needs verification]**
@@ -980,6 +983,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Reverse engineering technique: thirteen-domain reference documents as agent context](cases/en/reverse-engineering-technique-13-domain-agent-context.md) — NeaByteLab recommends attaching domain documents from a thirteen-domain reversing resource to an AI agent. Repository and actual analysis were not inspected; this is not an automated-reversing success report. **[Other AI-assisted work · Related project]**
+- [One drone image to an exploded animation: a report of Claude rebuilding scripted 3D parts](cases/en/claude-single-image-drone-exploded-animation-report.md) — VedaAI00 says Claude built drone assets from one image and scripted the parts' exploded animation. No project, original reference or accuracy comparison establishes internal recovery or instant completion. **[Other AI-assisted work · Needs verification]**
 - [An Excel clone: CopperForgeAI relays Matthew Berman's early Fable 5.2 test](cases/en/fable52-berman-excel-clone-secondary-report.md) — Berman's original supports the roundup's attribution of an Excel clone to Fable 5.2, but full parity remains his claim. An earlier six-day GPT-5.6 Computer Use loop is separate background; compatibility is unverified. **[Other AI-assisted work · Needs verification]**
 - [Tokyo in Unreal: CopperForgeAI relays Matthew Berman's Fable scene reconstruction](cases/en/fable52-berman-unreal-tokyo-reconstruction-report.md) — CopperForgeAI says Matthew Berman recreated Tokyo in Unreal with Fable. Location scope, references, project files and spatial error are absent; a whole-city digital twin is not established. **[Other AI-assisted work · Needs verification]**
 - [A voxel Piston Cup finale: CopperForgeAI relays AI/ML API's Fable demonstration](cases/en/fable52-cars-piston-cup-voxel-recreation-report.md) — The roundup relays a voxel Piston Cup finale; AI/ML API's original reports $108.87 for Fable 5.2 and $13.02 for GPT-6.1 Sol. Footage, bills and matched conditions are unchecked; no general model ranking follows. **[Other AI-assisted work · Needs verification]**
@@ -1803,6 +1808,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Vulkan BDA shader compilers: Sebastian Aaltonen links Codex-assisted reversing to GPU-pointer problems](cases/en/sebaaltonen-codex-vulkan-bda-shader-compiler-report.md) — Sebastian Aaltonen praises Codex Astra Ultra for reversing and associates Intel/AMD shader-compiler bugs with Vulkan BDA pointers. Reproducers, driver versions and vendor records are absent; no fix or security vulnerability is established. **[Other AI-assisted work · Needs verification]**
 - [From a missing function to an articulated arm: Helios compares one Grok Bot, Opus and Astra recovery](cases/en/helios-grok-opus-astra-articulated-arm-function-test.md) — Helios reports a same-prompt recovery from a 400-line binary: Grok Bot produces an articulated arm in 4m12s, while two other models produce incomplete or different mechanisms. Inputs, scoring and logs are absent; no general ranking is established. **[Other AI-assisted work · Needs verification]**
 - [A closed-software protection study retold: codila's 22-page research, estimated costs and conflicting results](cases/en/codila-closed-software-ai-protection-study-report.md) — codila relays AI reversing and encrypted-code tests, with $566,000 described as public-price estimation. The paper was not read, and the post/reply disagree on how many models withstand protection; no universal cracking rate is established. **[Other AI-assisted work · Needs verification]**
 - [Ice Empress versus Rock Beast: sandmrk reverse-designs a 23.6-second Muse storm battle while acknowledging a mismatch](cases/en/sandmrk-muse-ice-empress-rock-beast-236s-prompt.md) — sandmrk writes three Muse generation segments for an empress, frost dragon and rock beast, locking scale, effect lifecycles and a violet ending. A public prompt is not recovery of the original or a successful replica. **[Other AI-assisted work · Needs verification]**

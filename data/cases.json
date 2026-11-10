@@ -1,5 +1,101 @@
 [
   {
+    "id": "reverse-engineering-technique-13-domain-agent-context",
+    "title": "Reverse engineering technique：把十三领域技术文档交给Agent作上下文",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "NeaByteLab介绍跨十三领域的逆向技术资料，建议把分类文档附给AI Agent；未审仓库或实际解析结果，不是自动逆向成功报告。",
+    "description": "2026年11月10日13:02:38（北京时间），NΞ∆（@NeaByteLab）介绍名为Reverse engineering technique的资源项目，称其梳理软件、电子、航空航天、核领域等十三个领域的现实逆向技术，并建议把某一分类文档附给AI Agent作为上下文。目标是为Agent提供领域研究参考，不是声称一个Agent已独立解析这些领域的全部目标。\n\n补取原帖确认署名与上述文字。没有直接确认仓库最终地址、维护者、许可、分类全文或具体使用实例，因此不猜GitHub路径，也不把资料覆盖范围写成工具执行能力。十三领域为发帖者口径，未核分类计数；没有具名样本、提示、分析日志或验证结果。\n\n按AI辅助逆向的相关资料项目保留，未确认使用morluto/rea。本合集没有安装资源、运行Agent或操作任何目标；涉及的高风险行业名称只说明帖中的资料分类，不表示提供或验证了该领域操作方法。",
+    "sources": [{"label":"NeaByteLab介绍十三领域技术资料与Agent上下文用途，2026-11-10 13:02:38北京时间","url":"https://x.com/i/status/2120019278976217228"}],
+    "snapshot_date":"2026-11-10", "metadata":["候选封存快照：0赞、21浏览、0转发；十三领域未独立计数。"],
+    "en": {
+      "title":"Reverse engineering technique: thirteen-domain reference documents as agent context",
+      "summary":"NeaByteLab recommends attaching domain documents from a thirteen-domain reversing resource to an AI agent. Repository and actual analysis were not inspected; this is not an automated-reversing success report.",
+      "description":"At 13:02:38 Beijing time on November 10, 2026, NΞ∆ (@NeaByteLab) introduces a resource project named Reverse engineering technique. The post says it maps real-world reversing techniques across thirteen domains, including software, electronics, aerospace and nuclear, and recommends attaching a category document to an AI agent as context. The purpose is domain research reference, not a claim that an agent independently analyzed every target in those fields.\n\nSupplementary retrieval confirms attribution and wording. The repository's final address, maintainers, license, complete category documents and concrete usage examples were not confirmed, so no GitHub path is guessed and document coverage is not recast as executable tool capability. Thirteen domains is the poster's count, not independently checked. No named sample, prompt, analysis log or validation result is supplied.\n\nRetained as a related reference project for AI-assisted reversing, without confirmed morluto/rea use. No resource was installed, agent run or target operated here. High-risk industry names describe only the post's document categories, not operational methods supplied or validated by this collection.",
+      "metadata":["Sealed candidate snapshot: 0 likes, 21 views, 0 reposts. The thirteen-domain count was not independently checked."],
+      "source_labels":["NeaByteLab on thirteen-domain references and agent context, November 10, 2026 at 13:02:38 Beijing time"]
+    }
+  },
+  {
+    "id":"claude-single-image-drone-exploded-animation-report",
+    "title":"单张无人机图片到爆炸动画：转述Claude重建3D零件并用脚本驱动",
+    "category":"apps", "rea":"other-ai", "status":"unverified",
+    "summary":"谁是藏镜人称Claude从单图构建无人机3D资产，再脚本驱动零件拆解；没有工程、原始参考或精度对照，不证明内部结构恢复或瞬时完成。",
+    "description":"2026年11月10日14:56:50（北京时间），谁是藏镜人（@VedaAI00）展示带视频附件的帖子，称Claude仅凭单张图片重建无人机的完整3D资产，再用一段脚本驱动各零件的爆炸拆解动画。具体用途是工业产品的可编程展示：从可见产品图得到分件模型及动画，而不是研究无人机飞控、通信协议或实际飞行。\n\n补取原帖确认署名、文字与视频附件存在；本合集未观看视频、取得图片、模型、脚本、输入提示或运行记录。无人机型号、Claude版本、建模与渲染软件都未给出。完整资产是发帖者的范围声称，单图不能据此证明遮挡零件、内部连接、尺寸或材料被准确恢复，也不能认定模型可制造。\n\n原帖用传统动效工作需几天与瞬时渲染作对比，但没有任务定义、计时或同条件人工对照，不记录为已证实节时。保留为二手视觉重建报告，REA未说明，未下载资产或执行目标代码；与既有无人机遥测、跟踪方案不是同一项目。",
+    "sources":[{"label":"谁是藏镜人的单图无人机重建与脚本拆解展示，2026-11-10 14:56:50北京时间","url":"https://x.com/i/status/2120048017177010662"}],
+    "snapshot_date":"2026-11-10", "metadata":["候选封存1赞、129浏览、0转发；补取只确认作者与附件，不以浏览变化作为效果。"],
+    "en":{
+      "title":"One drone image to an exploded animation: a report of Claude rebuilding scripted 3D parts",
+      "summary":"VedaAI00 says Claude built drone assets from one image and scripted the parts' exploded animation. No project, original reference or accuracy comparison establishes internal recovery or instant completion.",
+      "description":"At 14:56:50 Beijing time on November 10, 2026, VedaAI00 (@VedaAI00) posts a video attachment and says Claude reconstructed a drone's complete 3D assets from a single image, then drove each part's exploded animation with one script. The concrete use is programmable industrial-product presentation: turning a visible product image into separated models and animation, not investigating drone flight control, communication protocols or real flight.\n\nSupplementary retrieval confirms attribution, text and the presence of a video attachment. The video was not watched here, and the image, model, script, prompts and run records were not obtained. Drone model, Claude version, modeling software and renderer are unspecified. Complete assets is the poster's scope claim; the single-image account does not establish accurate recovery of occluded parts, internal connections, dimensions or materials, or a manufacturable model.\n\nThe post contrasts days of conventional motion-design work with instant rendering, but gives no task definition, timing or matched manual comparison. No verified time saving is recorded. Retained as an unverified secondary visual-reconstruction report. REA is unspecified; no assets were downloaded or target code executed. This is distinct from existing drone-telemetry and tracking proposals.",
+      "metadata":["Sealed candidate: 1 like, 129 views, 0 reposts. Supplementary retrieval only confirms attribution and an attachment; changing views are not effectiveness evidence."],
+      "source_labels":["VedaAI00's single-image drone reconstruction and scripted exploded-animation presentation, November 10, 2026 at 14:56:50 Beijing time"]
+    }
+  },
+  {
+    "id":"skybuild-skyrim-ai-engine-terrain-navmesh-report",
+    "title":"SkyBuild：转述sokco816借AI研究Skyrim引擎，实时改地形与导航网格",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"候选回复的父帖明确SkyBuild与sokco816，称AI辅助引擎逆向、地址定位和底层调试，展示改地形、盖房与更新导航网格；代码、版本和实机结果未核验。",
+    "description":"2026年11月10日15:37:19（北京时间），太阳（@taiyanghere）回复@yueke，称十五年老游戏借AI逆向引擎获得新玩法。单看回复没有游戏名；补查同串15:32:02父帖，Yueke（@yueke）明确是《上古卷轴5》（Skyrim）Mod作者sokco816的SkyBuild。父帖不是额外候选，而是用于确认目标与解释该候选的同窗补充材料。\n\nYueke称SkyBuild允许玩家在游戏内实时堆山、挖洞和平整地面，搭积木般盖房，并一键更新导航网格，让NPC能走进新建房屋。导航网格用于角色寻路；这里的目标是让修改的地形和建筑能融入游戏行为，不是重新制作整款Skyrim。父帖转述作者坦言，逆向引擎、找内存地址和调试底层代码都借助了AI；没有模型名或REA证据。\n\n补取确认父帖文字及动画附件存在，未观看动画、读取作者原始发布、Mod代码、支持版本、安装说明或测试记录。实时编辑、一键更新和NPC可通行为转述，不当作本合集实机验证；没有性能、存档兼容或稳定性数据。与既有Codex修改瑟拉娜外观的Skyrim案例目标不同，按待验证报告独立保留，未下载游戏资产或执行代码。",
+    "sources":[{"label":"候选：太阳对AI辅助老游戏引擎研究的回复，2026-11-10 15:37:19北京时间","url":"https://x.com/i/status/2120058206571663649"},{"label":"补充父帖：Yueke明确SkyBuild、sokco816与功能，2026-11-10 15:32:02北京时间","url":"https://x.com/i/status/2120056873625833671"}],
+    "snapshot_date":"2026-11-10", "metadata":["候选封存0赞、3浏览、0转发；补查父帖0赞、14浏览，均非功能验证。"],
+    "en":{
+      "title":"SkyBuild: a report of sokco816 using AI to investigate Skyrim terrain and navigation internals",
+      "summary":"The candidate's parent identifies SkyBuild and sokco816, crediting AI-assisted engine reversing, address discovery and low-level debugging for terrain editing, building and navmesh updates. Code, versions and hardware results remain unchecked.",
+      "description":"At 15:37:19 Beijing time on November 10, 2026, taiyanghere (@taiyanghere) replies to @yueke about AI-assisted engine reversing bringing new gameplay to a fifteen-year-old game. The reply alone omits its name. Supplementary retrieval of the same thread's 15:32:02 parent identifies Yueke (@yueke) discussing Skyrim modder sokco816's SkyBuild. The parent is same-window supporting material used to identify and explain the candidate, not an additional candidate.\n\nYueke says SkyBuild lets players raise hills, dig holes and level terrain in real time, build houses like blocks, and update the navigation mesh with one action so NPCs can enter the new houses. A navigation mesh supports character pathfinding; the goal is integrating edited terrain and buildings into game behavior, not rebuilding all of Skyrim. The parent attributes to the modder an admission that AI helped reverse the engine, find memory addresses and debug low-level code. No model or REA use is identified.\n\nRetrieval confirms parent text and an animation attachment, not a viewing of it or an inspection of the author's original release, mod code, supported versions, installation instructions or tests. Real-time editing, one-action updates and NPC traversal are relayed claims, not hardware verification here. Performance, save compatibility and stability data are absent. This is a different target from the existing Skyrim account of Codex changing Serana's appearance. Retained separately as unverified; no game assets were downloaded or code run.",
+      "metadata":["Sealed candidate: 0 likes, 3 views, 0 reposts. Supplementary parent: 0 likes, 14 views. Neither is functional validation."],
+      "source_labels":["Candidate: taiyanghere replies about AI-assisted investigation of an old game's engine, November 10, 2026 at 15:37:19 Beijing time","Supplementary parent: Yueke identifies SkyBuild, sokco816 and features, November 10, 2026 at 15:32:02 Beijing time"]
+    }
+  },
+  {
+    "id":"sebaaltonen-codex-vulkan-bda-shader-compiler-report",
+    "title":"Vulkan BDA着色编译器：Sebastian Aaltonen称Codex擅长逆向，指向GPU指针问题",
+    "category":"algorithms", "rea":"other-ai", "status":"unverified",
+    "summary":"Sebastian Aaltonen称Codex Astra Ultra擅长逆向，并将Intel／AMD着色编译器问题关联到Vulkan BDA指针；缺复现、驱动版本或厂商记录，不宣称修复或安全漏洞。",
+    "description":"2026年11月10日15:49:47（北京时间），Sebastian Aaltonen（@SebAaltonen）称Codex（Astra Ultra）擅长逆向，并说Intel与AMD的着色编译器bug和GPU指针、Vulkan BDA有关。BDA即Buffer Device Address，允许着色器通过设备地址访问缓冲区。这里收录的是作者将AI逆向能力与具体图形编译器问题相联系的短分析报告，不是通用模型排名。\n\n作者进一步把DX／OpenGL的buffer抽象与Metal、CUDA、OpenCL的指针方式相对比，称Vulkan 1.3+两者都支持。这些API概括按作者表述保留，并未在此逐版本核对，不能据此断言某一API永无指针或所有驱动共有缺陷。原帖没有具体shader、输入输出、反汇编、提示、编译器版本、驱动、硬件或复现脚本，未展示Codex到底分析了哪段产物。\n\n补取确认署名、正文和图片附件存在，未读取图片内容或被引用原帖，也未拿到issue、修复提交或厂商确认。bug一词不足以证明可利用安全漏洞、根因已定或修复交付；没有性能与跨厂商一致性测量。按作者分析待验证保留，REA未说明，未运行GPU工作负载或目标代码。",
+    "sources":[{"label":"Sebastian Aaltonen谈Codex与Intel／AMD Vulkan BDA问题，2026-11-10 15:49:47北京时间","url":"https://x.com/i/status/2120061340899541291"}],
+    "snapshot_date":"2026-11-10", "metadata":["候选封存8赞、327浏览、0转发；无驱动版本、最小复现或独立验证。"],
+    "en":{
+      "title":"Vulkan BDA shader compilers: Sebastian Aaltonen links Codex-assisted reversing to GPU-pointer problems",
+      "summary":"Sebastian Aaltonen praises Codex Astra Ultra for reversing and associates Intel/AMD shader-compiler bugs with Vulkan BDA pointers. Reproducers, driver versions and vendor records are absent; no fix or security vulnerability is established.",
+      "description":"At 15:49:47 Beijing time on November 10, 2026, Sebastian Aaltonen (@SebAaltonen) says Codex (Astra Ultra) is excellent at reversing and associates Intel and AMD shader-compiler bugs with GPU pointers and Vulkan BDA. BDA means Buffer Device Address, allowing shaders to access buffers through device addresses. This records the author's short analysis connecting AI reversing capability to a concrete graphics-compiler problem, not a general model ranking.\n\nHe contrasts DX/OpenGL buffer abstractions with pointers in Metal, CUDA and OpenCL, saying Vulkan 1.3+ supports both. These API generalizations remain attributed to him and were not checked version by version here; they do not establish that an API never offers pointers or that all drivers share a defect. The post supplies no particular shader, input/output, disassembly, prompt, compiler version, driver, hardware or reproducer, and does not show exactly what Codex analyzed.\n\nSupplementary retrieval confirms attribution, text and an image attachment, not its content or the quoted original. No issue, fix commit or vendor confirmation was obtained. The word bug does not establish an exploitable security vulnerability, settled root cause or delivered fix. Performance and cross-vendor consistency were not measured. Retained as unverified author analysis. REA is unspecified; no GPU workload or target code was run.",
+      "metadata":["Sealed candidate: 8 likes, 327 views, 0 reposts. No driver version, minimal reproducer or independent validation."],
+      "source_labels":["Sebastian Aaltonen on Codex and Intel/AMD Vulkan BDA problems, November 10, 2026 at 15:49:47 Beijing time"]
+    }
+  },
+  {
+    "id":"mollick-fable-usb-light-keyboard-six-games-report",
+    "title":"USB发光键盘变游戏机：转述Mollick用Fable 5.2研究硬件并做六款游戏",
+    "category":"hardware", "rea":"other-ai", "status":"unverified",
+    "summary":"二手测试汇总称Mollick用一次提示让Fable研究USB发光键盘，首次就做出六款游戏；设备型号、协议、代码与运行结果未取得，不能说替换固件或离线独立运行。",
+    "description":"2026年11月10日15:55:54（北京时间），一则Ethan Mollick的Claude Fable 5.2测试汇总称，他用一次提示让模型把USB发光键盘逆向成游戏机，六款游戏首次就能工作。Mollick是沃顿商学院教授；本条目标是把现有键盘的灯光和输入变成游戏交互，不是该汇总开头的九十秒代码电影、商业计划、文学课程或3D世界实验。13:39:17的Coincamps（@coincamps）候选也泛称他的试用涉及硬件逆向，但未给设备；后一个候选提供了可区分的目标。\n\n没有键盘型号、USB描述符、灯光协议、主机环境、游戏名称、代码或测试日志，不能断言换写了设备固件、全部游戏在键盘芯片内运行或拔掉电脑仍能玩。六款、一次提示、首次成功均为汇总转述，未看Mollick原文或演示，不当作独立复现。补取较具体候选返回不可用，因此保留封存全文的二手归因，不补造作者署名或链接目标。\n\n同汇总的87500字规则、204节、450+世界、约25000次Agent运行和日均约12世界属于另一多Agent创作实验，不是键盘成本、工时或可靠性数据。REA未提及；按待验证硬件改用报告保留，未连接USB或执行代码。",
+    "sources":[{"label":"候选：Mollick试用汇总中的USB发光键盘、六款游戏与一次提示，2026-11-10 15:55:54北京时间","url":"https://x.com/i/status/2120062881261560138"},{"label":"同窗较早转述：Coincamps称Mollick测试含硬件逆向，2026-11-10 13:39:17北京时间","url":"https://x.com/i/status/2120028500040290547"}],
+    "snapshot_date":"2026-11-10", "metadata":["具体候选封存2赞、27浏览、0转发；较早汇总1赞、70浏览、0转发。六款游戏为二手说法，未核功能。"],
+    "en":{
+      "title":"A light-up USB keyboard as a game console: a report of Mollick's six-game Fable 5.2 experiment",
+      "summary":"A secondary roundup says one prompt led Fable to investigate a light-up USB keyboard and make six games on its first try. Device, protocol, code and runs are absent; replacement firmware or independent offline operation is not established.",
+      "description":"At 15:55:54 Beijing time on November 10, 2026, a roundup of Ethan Mollick's Claude Fable 5.2 testing says one prompt made the model reverse-engineer a light-up USB keyboard into a game console, with six games working on the first try. Mollick is a Wharton professor. This record isolates repurposing an existing keyboard's lights and input for game interaction, not the roundup's ninety-second code film, business plans, literature course or 3D-world experiments. An earlier same-window candidate by Coincamps (@coincamps) at 13:39:17 broadly mentions hardware reversing in his trial but omits the device; the later candidate supplies a distinguishable target.\n\nKeyboard model, USB descriptors, lighting protocol, host environment, game names, code and test logs are absent. Replacement device firmware, every game running on the keyboard chip or play after unplugging the computer are not established. Six games, one prompt and first-try success are secondary claims, not independent reproduction. Mollick's original article and demonstration were not examined. Supplementary retrieval of the more specific candidate returned unavailable, so the sealed full text is retained with secondary attribution rather than inventing its author's identity or link destination.\n\nThe roundup's 87,500-word rulebook, 204 sections, 450+ worlds, roughly 25,000 agent runs and roughly twelve worlds per day concern a separate multi-agent creation experiment, not keyboard costs, effort or reliability. REA is unmentioned. Retained as an unverified hardware-repurposing report; no USB connection or code execution was performed.",
+      "metadata":["Specific candidate snapshot: 2 likes, 27 views, 0 reposts. Earlier roundup: 1 like, 70 views, 0 reposts. Six games is a secondary claim, without feature checks."],
+      "source_labels":["Candidate: Mollick roundup on a light-up USB keyboard, six games and one prompt, November 10, 2026 at 15:55:54 Beijing time","Earlier same-window account: Coincamps says Mollick's trial included hardware reversing, November 10, 2026 at 13:39:17 Beijing time"]
+    }
+  },
+  {
+    "id":"vik-local-ai-home-assistant-cloud-appliance-idea",
+    "title":"本地AI家居idea：Vik计划研究云依赖设备，接入Home Assistant",
+    "category":"hardware", "rea":"other-ai", "status":"in-progress",
+    "summary":"Vik已备硬件，计划把净化器等家电接本地AI与Home Assistant，部分设备需逆向；风扇Wi-Fi集成与门磁已装，抽油烟机控制、语音和脱云研究仍是计划。",
+    "description":"2026年11月10日15:58:28（北京时间），Vik | Practical AI & Tech（@uctive）说下一阶段硬件已经备齐，等有时间把本地AI、Home Assistant和家电连起来，包括空气净化器。由于廉价智能家电常依赖厂商云，他预计部分设备需要逆向。这里收录具体的本地控制与互通计划，不声称AI已经研究或恢复设备协议。\n\n作者说一台通风风扇已经经Wi-Fi接入Home Assistant，门磁也已装好；燃气灶上方的老抽油烟机没有智能控制，未来或接入以自动识别烹饪并启动。他以最近空气污染事件提出场景：污染升高先提醒通风，开门后按区域关闭热泵供暖，空气恢复后提示关门，再提升供暖并回到常态。整套语音本地控制、脱离外云及抽油烟机自动化是未来方向，不能把这段场景全部写成现有部署。\n\n补取确认作者与完整文字。没有家电品牌型号、固件、协议、AI模型、工具调用、配置或代码；本地AI在计划中首先是控制入口，未证明它将执行逆向分析。REA未说明，按进行中的家居互通idea保留；未连接家居网络、操作燃气设备或验证安全联锁，不作实际安装建议。",
+    "sources":[{"label":"Vik的本地AI／Home Assistant家居互通与部分逆向计划，2026-11-10 15:58:28北京时间","url":"https://x.com/i/status/2120063528144978407"}],
+    "snapshot_date":"2026-11-10", "metadata":["候选封存0赞、2浏览、0转发；已接风扇与已装门磁是作者自述，其他自动化需区分计划与现状。"],
+    "en":{
+      "title":"A local-AI home idea: Vik plans to investigate cloud-dependent appliances for Home Assistant",
+      "summary":"Vik has the hardware and plans local AI/Home Assistant control of appliances including an air purifier, with some requiring reversing. A Wi-Fi fan and door sensors exist; hood control, voice and cloud independence remain plans.",
+      "description":"At 15:58:28 Beijing time on November 10, 2026, Vik | Practical AI & Tech (@uctive) says the next stage's hardware is ready and, when time permits, they will connect local AI, Home Assistant and household appliances, including an air purifier. Cheap smart appliances often depend on manufacturers' clouds, so some will need partial reversing. This records a concrete local-control and interoperability plan, not a claim that AI has already investigated or recovered device protocols.\n\nThe author says one ventilation fan is already integrated with Home Assistant over Wi-Fi and door sensors are installed. The old extractor hood over the gas stove has no smart controls; future integration might detect cooking and start it automatically. A scenario based on a recent air-pollution incident would alert occupants to ventilate, switch off heat-pump heating by zone when doors open, prompt them to close doors once air improves, then boost heating before returning to normal. Local voice control, independence from external clouds and hood automation are future directions, not an already deployed complete scenario.\n\nSupplementary retrieval confirms attribution and complete text. Appliance brands/models, firmware, protocols, AI model, tool calls, configurations and code are absent. Local AI is initially a planned control interface, not demonstrated to perform the reversing itself. REA is unspecified. Retained as an in-progress home-interoperability idea. No home network was connected, gas appliance operated or safety interlock verified here; this is not installation advice.",
+      "metadata":["Sealed candidate: 0 likes, 2 views, 0 reposts. Existing fan integration and door sensors are author reports; other automation must remain distinguished as planned."],
+      "source_labels":["Vik's local-AI/Home Assistant interoperability and partial-reversing plan, November 10, 2026 at 15:58:28 Beijing time"]
+    }
+  },
+  {
     "id": "fable52-berman-gears-of-war-clone-report",
     "title": "Gears of War克隆：Berman的Fable 5.2游戏重建自述",
     "category": "games", "rea": "other-ai", "status": "unverified",
