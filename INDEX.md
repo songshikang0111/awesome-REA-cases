@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2038 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2048 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（416）
-- [硬件与设备互通](categories/hardware.md)（545）
-- [应用与客户端](categories/apps.md)（833）
-- [算法与功能重建](categories/algorithms.md)（244）
+- [游戏与游戏保存](categories/games.md)（418）
+- [硬件与设备互通](categories/hardware.md)（548）
+- [应用与客户端](categories/apps.md)（836）
+- [算法与功能重建](categories/algorithms.md)（246）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [AoE 2到开发者游戏：Paulius称让Claude反编译后改造](cases/paulius-aoe2-claude-decompile-dev-founder-game.md) — Paulius称用Claude反编译《帝国时代2》并做成面向开发者与创始人的游戏；有视频附件记录，但未取得源码、版本或机制对应测试。 **[其他 AI 逆向 · 待验证]**
+- [Theme Park：Demis称Gemini 4 Carbon从原二进制移植网页并加DeepMind设施](cases/gemini4-carbon-theme-park-binary-web-ride-report.md) — Baxter转述Theme Park重建；补查Demis Hassabis原帖称Gemini 4 Carbon一次逆向原游戏二进制、移植网页并添加设施，未取得源码或兼容性验证。 **[其他 AI 逆向 · 待验证]**
 - [把Animal Crossing放进Minecraft：TelepathicPug想让Agent反编译的idea](cases/animal-crossing-minecraft-agent-decompilation-idea.md) — TelepathicPug称想让Agent反编译Animal Crossing以移入Minecraft，并试图改变对话上下文；没有版本、代码、移植产物或完成证据。 **[未确认使用 REA · 进行中]**
 - [Colin McRae Rally 2005：Xbox版静态重编译到现代Windows](cases/colin-mcrae-rally2005-xbe-ai-recomp.md) — yibie介绍projectedan的Xbox拉力赛车移植，称21处提交trailer记AI参与；项目文档说明以Xbox XBE Recomp提供64位与现代手柄支持，仅美版Xbox数据，未由本合集构建。 **[其他 AI 逆向 · 进行中]**
 - [Peggle Enhanced：Ghidra研究iOS版，再移植C#／MonoGame](cases/peggle-enhanced-ios-ghidra-monogame.md) — aidrum与TheAwesomeBlue为解决旧Android兼容问题，把iOS Peggle反编译并转成MonoGame；文档明确AI仅参与代码，报告手机全冒险通关及原硬件对照，未独立复跑。 **[其他 AI 逆向 · 进行中]**
@@ -445,6 +447,9 @@
 
 ### 硬件与设备互通
 
+- [32年Jeep：Muhammad称Claude逆向后开始控制车辆](cases/zulali-32year-jeep-claude-control-report.md) — Muhammad报告Claude研究并控制自己的旧Jeep，作者串补充周末实验与仓库链接；具体接口和控制范围未核，不推断自动驾驶。 **[其他 AI 逆向 · 待验证]**
+- [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
+- [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
 - [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
 - [自行车上的M5Stack Tab5 CarPlay：Codex协助做适配板与固件，偶发断连未解](cases/m5stack-tab5-bike-carplay-codex-adapter.md) — ThinkerZhang称将CarPlay装到自行车的M5Stack Tab5，适配板与固件用Codex制作；仍有无故掉线，未披露协议研究或完整源码。 **[其他 AI 逆向 · 进行中]**
 - [Vision Pro＋指虎迁Linux：No-self借AI规划，必要时逆向移植驱动的idea](cases/vision-pro-index-controllers-linux-ai-vr-driver-idea.md) — No-self想让7800X3D／RTX3090主机兼顾VR与本地AI，贴出Linux、ALVR与校准规划并提逆向驱动；完整Vision Pro＋指虎组合未实机验证。 **[其他 AI 逆向 · 进行中]**
@@ -993,6 +998,9 @@
 
 ### 应用与客户端
 
+- [Byte Downloader：Jones Byte称REA与Claude重建部分功能仍很不完整](cases/byte-downloader-rea-incomplete-recreation-tests.md) — 开发者以自己的下载与剪辑工具测试REA／Claude重建，报告结果不完整，强调生成代码与可交付产品的差别；无逐项对照或复跑记录。 **[REA · 分析测试]**
+- [Cindy中继检查：AI指出Node.js代码明文，用户再确认单租户relay开源](cases/cindy-relay-ai-plaintext-open-source-check.md) — 用户让AI研究Cindy中继并要求逆向，模型称代码是明文；用户随后在源码确认自部署单租户relay开源，明确不涵盖官方服务器。 **[其他 AI 逆向 · 分析测试]**
+- [Tokimi防御访问计划：先用Claude检查自己的数字信任产品与可疑文件](cases/tokimi-claude-defense-access-product-audit-plan.md) — 时见称获Anthropic Defense Access，计划先审Timestamp、IFF Apostille、Monitor等自身产品，并隔离分析可疑文件；未报告已完成逆向或漏洞发现。 **[其他 AI 逆向 · 进行中]**
 - [Intezer的Slack重建：从编译客户端到兼容服务器与AI补全](cases/intezer-slack-client-compatible-server-ai-autocomplete.md) — 转述Intezer用AI研究Slack编译应用；Nicole同日称重建客户端、写兼容服务器并加AI自动补全，未提供本合集可重跑的兼容性测试。 **[其他 AI 逆向 · 待验证]**
 - [Intezer重建Finder：日常流程自报可用，iCloud与私有服务仍有缺口](cases/intezer-finder-compiled-app-workflow-reconstruction.md) — Intezer的AI辅助编译应用研究涉及macOS Finder；Nicole称日常流程可用，但依赖iCloud和私有macOS服务之处仍不完整。 **[其他 AI 逆向 · 待验证]**
 - [TinyTurla-NG静态重建：可编译C++与92.8%结构相似，不是运行验证](cases/intezer-tinyturla-ng-static-cpp-reconstruction.md) — Intezer团队串称GPT-5.6执行静态研究、Kimi K3复核，以Binary Ninja为对照生成可编译C++；92.8%是结构相似度，明确从未执行。 **[其他 AI 逆向 · 分析测试]**
@@ -1111,7 +1119,7 @@
 - [GCSA／Aethereal研究课题：AI生成拟真蜜罐以捕获并研究攻击链](cases/gcsa-aethereal-ai-honeypot-attack-chain-research-idea.md) — 帖子介绍联合研究中心的AI欺骗蜜罐课题，计划动态生成系统诱饵、捕获并逆向攻击链；没有原型、攻击样本或检测效果。 **[其他 AI 逆向 · 待验证]**
 - [NewMax指纹浏览器集成：Yangyi称逆向后替换旧自动化工具](cases/yangyi-newmax-fingerprint-browser-integration-report.md) — Yangyi称网站拒绝NewMax内置浏览器，改为逆向集成指纹浏览器并隔离环境，未来还想接云手机；未公开浏览器名、实现或验证。 **[未确认使用 REA · 进行中]**
 - [Supabase重建转述：老林称12个Claude Agent并行六小时，成果公开](cases/laolin-supabase-twelve-claude-agents-reconstruction-report.md) — 老林在路上称12个Claude Agent六小时逆向Supabase并公开可复用项目；未取得仓库地址、范围和测试，不与欧盟版idea混作同一实现。 **[其他 AI 逆向 · 待验证]**
-- [Instinct记忆黑盒拆解：Awake转述Git、Markdown、grep及隔夜抽取](cases/instinct-memory-git-markdown-grep-blackbox-secondary-report.md) — Awake据Dhravya Shah黑盒研究介绍Instinct分层Markdown、Git历史、grep检索及约24小时异步抽取，明确未见源码且部分为推断。 **[未确认使用 REA · 待验证]**
+- [Instinct黑盒拆解：记忆机制转述与Nizzy的Keiki类助手重建介绍](cases/instinct-memory-git-markdown-grep-blackbox-secondary-report.md) — 保留Awake据Dhravya的Git／Markdown／grep记忆推断，追加Nizzy称自8月使用Instinct后拆解产品、介绍用Keiki做类助手；两份研究不混成已核源码。 **[未确认使用 REA · 待验证]**
 - [Anthropic风格图表Skill：耳朵观察Claude绘图时的JS加载来重建规范](cases/anthropic-style-diagram-claude-web-js-skill.md) — 耳朵称通过Claude画SVG时的额外JS加载及向Claude询问文件，整理为公开图表Skill；固定文档支持SVG／PNG和版式审计，但不证明逐字恢复官方提示词。 **[其他 AI 逆向 · 进行中]**
 - [Packet直播中的订阅服务拆解：Jesse称Josh用Claude／REA，两天约200美元](cases/packet-jesse-josh-rea-subscription-service-rebuild-report.md) — Packet直播转录里，Jesse称正在拆解已订阅三年的每月200美元服务，Josh把它交给Claude和REA；两天、约200美元是口述估计，服务名及实现未公开。 **[REA · 进行中]**
 - [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 中文帖子转述CERT-In预警，将CRAFTY FALCON使用AI渗透工具与支付App逆向、改包及非法出款关联；未取得原预警或AI操作记录，不将归因和损失当已核实事实。 **[其他 AI 逆向 · 待验证]**
@@ -1829,6 +1837,8 @@
 
 ### 算法与功能重建
 
+- [SPY交易规则反推：helicerat用Opus双Agent拆穿历史100%拟合](cases/helicerat-opus-trade-rule-builder-breaker-study.md) — 作者称Claude Code的builder从历史交易反推规则，breaker按封存年份与别的ETF检验；三特征规则从100%跌到84%，未核数据与回测。 **[其他 AI 逆向 · 分析测试]**
+- [证明群体实验：Gemini Agent逆推检查漏洞，另有Agent举报假证明](cases/deepmind-gemini31pro-proof-swarm-exploit-reconstruction.md) — 完整转载报道称100个Gemini 3.1 Pro Agent共享数学证明，部分逆推同伴利用的检查漏洞，27分钟伪解34题；举报者24对作弊者14，未核原论文或日志。 **[其他 AI 逆向 · 分析测试]**
 - [AlphaProof Code与Signal：团队报告一个月证明生产机器码的关键安全属性](cases/alphaproof-code-signal-machine-code-security-verification.md) — Google DeepMind团队宣布以含Gemini Carbon的LLM框架验证Signal协议生产机器码，称一个月完成；是AI辅助二进制安全分析相关项目，不是完整源码恢复或全产品安全保证。 **[其他 AI 逆向 · 相关项目]**
 - [重访Inception v1：Nick Cammarata借Agent研究猫与车神经元的V形解释](cases/cammarata-inception-v1-agents-neuron-vshape-study.md) — 完整转引报道称Goodfire研究者使用Agent团队读神经网络，把Inception v1的猫／车响应解释为V形；是可质疑的局部机制报告，不代表前沿LLM已被理解。 **[其他 AI 逆向 · 分析测试]**
 - [Meta Hyperscape：Stefano Rivera用Claude研究渲染器，卡在60万splat](cases/easyldur-meta-hyperscape-claude-splat-limit.md) — Stefano Rivera自述研究Meta Hyperscape高斯splat渲染器，但无论如何都未超过总量600k；没有版本、硬件、代码或帧率，保留具体瓶颈而非性能排名。 **[其他 AI 逆向 · 待验证]**

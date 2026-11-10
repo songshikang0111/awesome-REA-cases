@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Byte Downloader：Jones Byte称REA与Claude重建部分功能仍很不完整](../cases/byte-downloader-rea-incomplete-recreation-tests.md) — 开发者以自己的下载与剪辑工具测试REA／Claude重建，报告结果不完整，强调生成代码与可交付产品的差别；无逐项对照或复跑记录。 **[REA · 分析测试]**
+- [Cindy中继检查：AI指出Node.js代码明文，用户再确认单租户relay开源](../cases/cindy-relay-ai-plaintext-open-source-check.md) — 用户让AI研究Cindy中继并要求逆向，模型称代码是明文；用户随后在源码确认自部署单租户relay开源，明确不涵盖官方服务器。 **[其他 AI 逆向 · 分析测试]**
+- [Tokimi防御访问计划：先用Claude检查自己的数字信任产品与可疑文件](../cases/tokimi-claude-defense-access-product-audit-plan.md) — 时见称获Anthropic Defense Access，计划先审Timestamp、IFF Apostille、Monitor等自身产品，并隔离分析可疑文件；未报告已完成逆向或漏洞发现。 **[其他 AI 逆向 · 进行中]**
 - [Intezer的Slack重建：从编译客户端到兼容服务器与AI补全](../cases/intezer-slack-client-compatible-server-ai-autocomplete.md) — 转述Intezer用AI研究Slack编译应用；Nicole同日称重建客户端、写兼容服务器并加AI自动补全，未提供本合集可重跑的兼容性测试。 **[其他 AI 逆向 · 待验证]**
 - [Intezer重建Finder：日常流程自报可用，iCloud与私有服务仍有缺口](../cases/intezer-finder-compiled-app-workflow-reconstruction.md) — Intezer的AI辅助编译应用研究涉及macOS Finder；Nicole称日常流程可用，但依赖iCloud和私有macOS服务之处仍不完整。 **[其他 AI 逆向 · 待验证]**
 - [TinyTurla-NG静态重建：可编译C++与92.8%结构相似，不是运行验证](../cases/intezer-tinyturla-ng-static-cpp-reconstruction.md) — Intezer团队串称GPT-5.6执行静态研究、Kimi K3复核，以Binary Ninja为对照生成可编译C++；92.8%是结构相似度，明确从未执行。 **[其他 AI 逆向 · 分析测试]**
@@ -120,7 +123,7 @@
 - [GCSA／Aethereal研究课题：AI生成拟真蜜罐以捕获并研究攻击链](../cases/gcsa-aethereal-ai-honeypot-attack-chain-research-idea.md) — 帖子介绍联合研究中心的AI欺骗蜜罐课题，计划动态生成系统诱饵、捕获并逆向攻击链；没有原型、攻击样本或检测效果。 **[其他 AI 逆向 · 待验证]**
 - [NewMax指纹浏览器集成：Yangyi称逆向后替换旧自动化工具](../cases/yangyi-newmax-fingerprint-browser-integration-report.md) — Yangyi称网站拒绝NewMax内置浏览器，改为逆向集成指纹浏览器并隔离环境，未来还想接云手机；未公开浏览器名、实现或验证。 **[未确认使用 REA · 进行中]**
 - [Supabase重建转述：老林称12个Claude Agent并行六小时，成果公开](../cases/laolin-supabase-twelve-claude-agents-reconstruction-report.md) — 老林在路上称12个Claude Agent六小时逆向Supabase并公开可复用项目；未取得仓库地址、范围和测试，不与欧盟版idea混作同一实现。 **[其他 AI 逆向 · 待验证]**
-- [Instinct记忆黑盒拆解：Awake转述Git、Markdown、grep及隔夜抽取](../cases/instinct-memory-git-markdown-grep-blackbox-secondary-report.md) — Awake据Dhravya Shah黑盒研究介绍Instinct分层Markdown、Git历史、grep检索及约24小时异步抽取，明确未见源码且部分为推断。 **[未确认使用 REA · 待验证]**
+- [Instinct黑盒拆解：记忆机制转述与Nizzy的Keiki类助手重建介绍](../cases/instinct-memory-git-markdown-grep-blackbox-secondary-report.md) — 保留Awake据Dhravya的Git／Markdown／grep记忆推断，追加Nizzy称自8月使用Instinct后拆解产品、介绍用Keiki做类助手；两份研究不混成已核源码。 **[未确认使用 REA · 待验证]**
 - [Anthropic风格图表Skill：耳朵观察Claude绘图时的JS加载来重建规范](../cases/anthropic-style-diagram-claude-web-js-skill.md) — 耳朵称通过Claude画SVG时的额外JS加载及向Claude询问文件，整理为公开图表Skill；固定文档支持SVG／PNG和版式审计，但不证明逐字恢复官方提示词。 **[其他 AI 逆向 · 进行中]**
 - [Packet直播中的订阅服务拆解：Jesse称Josh用Claude／REA，两天约200美元](../cases/packet-jesse-josh-rea-subscription-service-rebuild-report.md) — Packet直播转录里，Jesse称正在拆解已订阅三年的每月200美元服务，Josh把它交给Claude和REA；两天、约200美元是口述估计，服务名及实现未公开。 **[REA · 进行中]**
 - [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](../cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 中文帖子转述CERT-In预警，将CRAFTY FALCON使用AI渗透工具与支付App逆向、改包及非法出款关联；未取得原预警或AI操作记录，不将归因和损失当已核实事实。 **[其他 AI 逆向 · 待验证]**

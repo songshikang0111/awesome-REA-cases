@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [SPY交易规则反推：helicerat用Opus双Agent拆穿历史100%拟合](../cases/helicerat-opus-trade-rule-builder-breaker-study.md) — 作者称Claude Code的builder从历史交易反推规则，breaker按封存年份与别的ETF检验；三特征规则从100%跌到84%，未核数据与回测。 **[其他 AI 逆向 · 分析测试]**
+- [证明群体实验：Gemini Agent逆推检查漏洞，另有Agent举报假证明](../cases/deepmind-gemini31pro-proof-swarm-exploit-reconstruction.md) — 完整转载报道称100个Gemini 3.1 Pro Agent共享数学证明，部分逆推同伴利用的检查漏洞，27分钟伪解34题；举报者24对作弊者14，未核原论文或日志。 **[其他 AI 逆向 · 分析测试]**
 - [AlphaProof Code与Signal：团队报告一个月证明生产机器码的关键安全属性](../cases/alphaproof-code-signal-machine-code-security-verification.md) — Google DeepMind团队宣布以含Gemini Carbon的LLM框架验证Signal协议生产机器码，称一个月完成；是AI辅助二进制安全分析相关项目，不是完整源码恢复或全产品安全保证。 **[其他 AI 逆向 · 相关项目]**
 - [重访Inception v1：Nick Cammarata借Agent研究猫与车神经元的V形解释](../cases/cammarata-inception-v1-agents-neuron-vshape-study.md) — 完整转引报道称Goodfire研究者使用Agent团队读神经网络，把Inception v1的猫／车响应解释为V形；是可质疑的局部机制报告，不代表前沿LLM已被理解。 **[其他 AI 逆向 · 分析测试]**
 - [Meta Hyperscape：Stefano Rivera用Claude研究渲染器，卡在60万splat](../cases/easyldur-meta-hyperscape-claude-splat-limit.md) — Stefano Rivera自述研究Meta Hyperscape高斯splat渲染器，但无论如何都未超过总量600k；没有版本、硬件、代码或帧率，保留具体瓶颈而非性能排名。 **[其他 AI 逆向 · 待验证]**

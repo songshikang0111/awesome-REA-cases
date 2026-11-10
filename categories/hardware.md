@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [32年Jeep：Muhammad称Claude逆向后开始控制车辆](../cases/zulali-32year-jeep-claude-control-report.md) — Muhammad报告Claude研究并控制自己的旧Jeep，作者串补充周末实验与仓库链接；具体接口和控制范围未核，不推断自动驾驶。 **[其他 AI 逆向 · 待验证]**
+- [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](../cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
+- [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](../cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
 - [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](../cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
 - [自行车上的M5Stack Tab5 CarPlay：Codex协助做适配板与固件，偶发断连未解](../cases/m5stack-tab5-bike-carplay-codex-adapter.md) — ThinkerZhang称将CarPlay装到自行车的M5Stack Tab5，适配板与固件用Codex制作；仍有无故掉线，未披露协议研究或完整源码。 **[其他 AI 逆向 · 进行中]**
 - [Vision Pro＋指虎迁Linux：No-self借AI规划，必要时逆向移植驱动的idea](../cases/vision-pro-index-controllers-linux-ai-vr-driver-idea.md) — No-self想让7800X3D／RTX3090主机兼顾VR与本地AI，贴出Linux、ALVR与校准规划并提逆向驱动；完整Vision Pro＋指虎组合未实机验证。 **[其他 AI 逆向 · 进行中]**
