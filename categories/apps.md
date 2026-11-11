@@ -146,7 +146,7 @@
 - [Instinct黑盒拆解：记忆机制转述与Nizzy的Keiki类助手重建介绍](../cases/instinct-memory-git-markdown-grep-blackbox-secondary-report.md) — 保留Awake据Dhravya的Git／Markdown／grep记忆推断，追加Nizzy称自8月使用Instinct后拆解产品、介绍用Keiki做类助手；两份研究不混成已核源码。 **[未确认使用 REA · 待验证]**
 - [Anthropic风格图表Skill：耳朵观察Claude绘图时的JS加载来重建规范](../cases/anthropic-style-diagram-claude-web-js-skill.md) — 耳朵称通过Claude画SVG时的额外JS加载及向Claude询问文件，整理为公开图表Skill；固定文档支持SVG／PNG和版式审计，但不证明逐字恢复官方提示词。 **[其他 AI 逆向 · 进行中]**
 - [Packet直播中的订阅服务拆解：Jesse称Josh用Claude／REA，两天约200美元](../cases/packet-jesse-josh-rea-subscription-service-rebuild-report.md) — Packet直播转录里，Jesse称正在拆解已订阅三年的每月200美元服务，Josh把它交给Claude和REA；两天、约200美元是口述估计，服务名及实现未公开。 **[REA · 进行中]**
-- [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](../cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 中文帖子转述CERT-In预警，将CRAFTY FALCON使用AI渗透工具与支付App逆向、改包及非法出款关联；未取得原预警或AI操作记录，不将归因和损失当已核实事实。 **[其他 AI 逆向 · 待验证]**
+- [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](../cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 两条安全帖将CRAFTY FALCON的AI渗透与支付App逆向改包关联；11月11日转述给出CIAD-2026-0058编号、重复受害与防御排查背景，原通告与AI日志仍未审阅。 **[其他 AI 逆向 · 待验证]**
 - [Zygisk故障：Gemini看日志源码后尝试逆向，被拦截的自述](../cases/zygisk-gemini-debug-reversing-blocked-report.md) — 发帖者称Zygisk出问题，把日志和源码交Gemini仍未定位，模型转向逆向时请求被拦；没有实际分析产物或修复，不泛化为Gemini永久政策。 **[其他 AI 逆向 · 待验证]**
 - [Mac合格电子签名应用：Patryk称Claude约30分钟重建运行环境解决故障](../cases/navalismae-claude-mac-qualified-signing-runtime-repair.md) — Lyon本窗回复引出Patryk的10月22日报告：Mac签名应用数月故障，Claude循环约30分钟重建运行环境后消失；未说明厂商、依赖或具体逆向步骤。 **[其他 AI 逆向 · 待验证]**
 - [学习通APK：核桃称交给GPT逆向，课程进度仍有回退问题](../cases/hetao-chaoxing-apk-gpt-progress-analysis-report.md) — 核桃在学习通课程自动化讨论中明确称把APK交GPT逆向；补读同串确认进度接口背景，但部分账号次日回退未解决，没有可复核实现。 **[其他 AI 逆向 · 待验证]**
@@ -455,7 +455,7 @@
 - [Postiz：Onur Genes称用Claude逆向三天后公开实现](../cases/onurgenes-claude-postiz-reverse-engineering-report.md) — Onur Genes称花三天及400美元Claude额度逆向Postiz，并提供代码链接。未取得仓库正文、功能对照或测试，不能确认独立重建与实现范围。 **[其他 AI 逆向 · 待验证]**
 - [未具名DLL应用：读者称DeepSeek Harness配REA与Ghidra重建项目](../cases/deepseek-v41-harness-rea-ghidra-dll-app-reconstruction-report.md) — 读者称明确要求DeepSeek-V4.1-Flash（1017）使用REA和Ghidra后，基本搭出了应用项目；DLL细节占据注意力，前端仍需Claude大量返工。 **[REA · 待验证]**
 - [停运APK：读者希望用本地模型反编译并恢复离线功能](../cases/defunct-apk-local-model-offline-functionality-request.md) — 读者询问工具能否反编译一个已停运APK、加入离线能力，称Claude护栏妨碍尝试，愿考虑本地模型；未具名App，也无运行产物。 **[其他 AI 逆向 · 待验证]**
-- [Spider-Verse风格作品集：Praveen用REA研究网页设计、动效与交互](../cases/praveen-spiderverse-portfolio-rea-rebuild.md) — Praveen S称选取Spider-Verse风格作品集，以REA研究整站体验，随后明确使用Antigravity；仍在逆向中途，没有成品、还原对照或测试。 **[REA · 进行中]**
+- [Praveen的作品集研究：REA／Antigravity中途探索到后续重建自述](../cases/praveen-spiderverse-portfolio-rea-rebuild.md) — Praveen S从10月Spider-Verse风格作品集的Antigravity／REA探索，推进到11月称展示参考与重建，并点名Reddit上的TanishqParkar；两次参考站是否同一未获URL确认，对照与功能仍未核。 **[REA · 进行中]**
 - [研屿：DTS称以Codex重建、REA逆向制作机构研究服务工具](../cases/yanyu-codex-rea-research-service-rebuild-report.md) — DTS以机构与分析师自行服务客户为动机介绍研屿，称Codex重建、REA逆向，自有代码MIT开源；原仓库、逆向对象、功能与测试未辨认，不确认法律叙事或替代完成。 **[REA · 待验证]**
 - [REA架构教学扩展：GasMan建议以调用路径证据辅助理解旧代码](../cases/gasman-rea-hitl-architecture-audit-extension-idea.md) — GasMan提出GitHub／AI IDE扩展idea：让REA追踪有权访问的陌生仓库与旧代码调用路径、重建核心架构，由人解释证据；没有发布可用扩展或测试结果。 **[REA · 待验证]**
 - [Claude Code的map文件恢复：Steve报告Claude愿做、Codex拒绝的对照](../cases/steve-claude-code-sourcemap-recovery-model-refusal-report.md) — Steve回顾让Claude Code和Codex从Claude Code的map文件恢复源码，称前者执行、后者不做且拒读恢复仓库；无版本、恢复文件或日志，不确认源码完整性或普遍拒答规则。 **[其他 AI 逆向 · 分析测试]**

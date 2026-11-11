@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [穿越火线运输船：riba2534仓库记录Claude检索地图资料后重建网页FPS](../cases/riba2534-crossfire-transport-ship-ai-web-rebuild.md) — 候选把合集称为老游戏逆向；补读README实际是Claude Opus5.5按公开布局与攻略重建运输船，用程序化素材做Three.js网页FPS，不是原二进制反编译。 **[其他 AI 逆向 · 待验证]**
+- [QQ飞车网页致敬：Claude参照键位与地图风格重建漂移玩法](../cases/riba2534-qq-speed-ai-web-rebuild.md) — riba2534合集README称Claude先检索QQ飞车键位与攻略，脚本画赛道俯视图后实现四赛道Three.js网页竞速；没有游戏二进制分析或等价验证。 **[其他 AI 逆向 · 待验证]**
+- [游戏开发第三天：214尝试逆向其他游戏动作，纯AI角色美术仍卡关](../cases/ai-game-day3-2d-animation-reconstruction-attempt.md) — 214（0xTimovo）记录AI游戏试作中从关键帧、视频抠帧、骨骼拆件到研究他游动作的多路尝试，整体效果仍差；没有具名参考游戏或成功恢复动作的证据。 **[其他 AI 逆向 · 进行中]**
+- [bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用](../cases/bo2-mac-claude-arm64-static-translation-report.md) — 候选惊叹原生ARM BO2；补查同串vibelancer转述Ghidra／Remill／LLVM到ARM64与Metal，单M1报告51–60fps等，但保留小型x86虚拟机、无在线和高温限制。 **[其他 AI 逆向 · 待验证]**
 - [Mario Kart 64原生PS3移植：既有反编译、Claude协作与作者实机调试](../cases/mario-kart64-ps3-psl1ght-ai-port-report.md) — yibie介绍MK64 PS3；固定README确认基于n64decomp/mk64与PSL1GHT、Claude多会话协作，作者称亲自实机测试；从自备USA ROM读数据，代码型Mod不支持。 **[其他 AI 逆向 · 进行中]**
 - [Rusted Warfare：AHpxEx称Claude Code拒绝、Codex完成反编译](../cases/rusted-warfare-codex-decompilation-report.md) — AHpxEx报告对Rusted Warfare的反编译请求在Claude Code被拒、Codex则直接做完；没有版本、反编译产物或可构建与行为验证，不认定移植成功。 **[其他 AI 逆向 · 待验证]**
 - [无符号游戏二进制：Locotir称nexo与Codex同得8/10，输入token不同](../cases/locotir-nexo-stripped-game-binary-token-comparison.md) — Locotir报告同模型十项检查、每组一次：Codex CLI与nexo均8/10，输入分别7.72M与3.96M token；未给游戏、检查项、模型或轨迹，不把一次自测推广成普遍节省。 **[其他 AI 逆向 · 分析测试]**

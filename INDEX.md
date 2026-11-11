@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2086 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2094 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（421）
-- [硬件与设备互通](categories/hardware.md)（560）
+- [游戏与游戏保存](categories/games.md)（425）
+- [硬件与设备互通](categories/hardware.md)（562）
 - [应用与客户端](categories/apps.md)（856）
-- [算法与功能重建](categories/algorithms.md)（249）
+- [算法与功能重建](categories/algorithms.md)（251）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,10 @@
 
 ### 游戏与游戏保存
 
+- [穿越火线运输船：riba2534仓库记录Claude检索地图资料后重建网页FPS](cases/riba2534-crossfire-transport-ship-ai-web-rebuild.md) — 候选把合集称为老游戏逆向；补读README实际是Claude Opus5.5按公开布局与攻略重建运输船，用程序化素材做Three.js网页FPS，不是原二进制反编译。 **[其他 AI 逆向 · 待验证]**
+- [QQ飞车网页致敬：Claude参照键位与地图风格重建漂移玩法](cases/riba2534-qq-speed-ai-web-rebuild.md) — riba2534合集README称Claude先检索QQ飞车键位与攻略，脚本画赛道俯视图后实现四赛道Three.js网页竞速；没有游戏二进制分析或等价验证。 **[其他 AI 逆向 · 待验证]**
+- [游戏开发第三天：214尝试逆向其他游戏动作，纯AI角色美术仍卡关](cases/ai-game-day3-2d-animation-reconstruction-attempt.md) — 214（0xTimovo）记录AI游戏试作中从关键帧、视频抠帧、骨骼拆件到研究他游动作的多路尝试，整体效果仍差；没有具名参考游戏或成功恢复动作的证据。 **[其他 AI 逆向 · 进行中]**
+- [bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用](cases/bo2-mac-claude-arm64-static-translation-report.md) — 候选惊叹原生ARM BO2；补查同串vibelancer转述Ghidra／Remill／LLVM到ARM64与Metal，单M1报告51–60fps等，但保留小型x86虚拟机、无在线和高温限制。 **[其他 AI 逆向 · 待验证]**
 - [Mario Kart 64原生PS3移植：既有反编译、Claude协作与作者实机调试](cases/mario-kart64-ps3-psl1ght-ai-port-report.md) — yibie介绍MK64 PS3；固定README确认基于n64decomp/mk64与PSL1GHT、Claude多会话协作，作者称亲自实机测试；从自备USA ROM读数据，代码型Mod不支持。 **[其他 AI 逆向 · 进行中]**
 - [Rusted Warfare：AHpxEx称Claude Code拒绝、Codex完成反编译](cases/rusted-warfare-codex-decompilation-report.md) — AHpxEx报告对Rusted Warfare的反编译请求在Claude Code被拒、Codex则直接做完；没有版本、反编译产物或可构建与行为验证，不认定移植成功。 **[其他 AI 逆向 · 待验证]**
 - [无符号游戏二进制：Locotir称nexo与Codex同得8/10，输入token不同](cases/locotir-nexo-stripped-game-binary-token-comparison.md) — Locotir报告同模型十项检查、每组一次：Codex CLI与nexo均8/10，输入分别7.72M与3.96M token；未给游戏、检查项、模型或轨迹，不把一次自测推广成普遍节省。 **[其他 AI 逆向 · 分析测试]**
@@ -450,6 +454,8 @@
 
 ### 硬件与设备互通
 
+- [Zebronics手柄控制Claude：Lovekesh Anand的进行中逆向](cases/zebronics-gamepad-claude-control-reversing.md) — Lovekesh Anand称正在逆向Zebronics游戏手柄以控制Claude；未说明型号、协议或映射，不把Claude作为控制对象误写为已参与逆向的模型。 **[未确认使用 REA · 进行中]**
+- [Anycubic固件故障：Ismail Hozain建议让Claude调试的idea](cases/ismail-anycubic-claude-firmware-debug-idea.md) — Ismail Hozain回忆Anycubic设备曾只能反复尝试旧固件，建议Claude或能帮助调试；未开始AI研究，缺型号与具体故障。 **[其他 AI 逆向 · 待验证]**
 - [RK3588开发板：AI协助从预装安卓转Ubuntu24实验室路由器](cases/rk3588-android-ubuntu24-ai-lab-router-report.md) — ce3319749964称找不到Linux固件时借AI折腾RK3588开发板，刷入Ubuntu24后用作实验室核心路由器；没有板型、镜像、协议逆向步骤或路由测试。 **[其他 AI 逆向 · 待验证]**
 - [日聪蓄电池ECHONET Lite：Gemini对照HEX与遥控器，协议应答不等于执行](cases/gemini-echonet-lite-code-copy-analysis-report.md) — matsukawa回顾用Gemini生成Python，分析AiSEG3与日聪蓄电池HEX、对照遥控器恢复12字节电力与21字节排程字段；还报告应答成功却不执行、低电量待机死锁及多脚本丢失保护逻辑。 **[其他 AI 逆向 · 进行中]**
 - [Opus／OpenCV摄像头：隐藏视频流到带运动门控的目标跟踪转述](cases/opus-opencv-camera-hidden-stream-tracking-report.md) — cabbitar转述Opus5.5研究相机官方App视频流，再由OpenCV逐帧跟踪、运动触发模型识别；30fps、每两秒复核、重连和CSV均未核源码或演示。 **[其他 AI 逆向 · 待验证]**
@@ -508,7 +514,7 @@
 - [键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁](cases/mantikafasi-claude-keyboard-firmware-live-music-display.md) — 作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。 **[其他 AI 逆向 · 进行中]**
 - [家中两台电视盒：susu计划用REA重构，成功后再考虑出售](cases/susu-two-tv-boxes-rea-refactoring-idea.md) — 具体设备研究idea，作者表达想用REA与Claude改造两台自有盒子；尚无型号、系统、实现或商业结果。 **[REA · 待验证]**
 - [Apple Watch当Mac鼠标：Eikichi转述Claude辅助传感器与蓝牙研究](cases/eikichi-apple-watch-mac-mouse-claude-report.md) — 转述称手腕移动光标、点按点击、长按拖动和表冠滚动；源码、直接蓝牙与离线实现未验证，未确认具体开发者。 **[其他 AI 逆向 · 待验证]**
-- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的AI辅助Rust驱动新增转述：Synaptics拟追收25000美元文书费用，上游受DRM Rust基础设施限制；未取得通知、裁决或驱动测试。 **[其他 AI 逆向 · 待验证]**
+- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的Rust／Claude协议研究与Synaptics争议继续传播；新转述列两英国专利及每周25000美元说法，但没有通知或裁决，不把指控、索费与仓库转私密升级为法律事实。 **[其他 AI 逆向 · 待验证]**
 - [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
 - [手机系统桌面崩溃：李天才的AI逆向失败经历](cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
@@ -781,7 +787,7 @@
 - [M-VAVE Cube Baby AC：Walbert用Claude与REA重建Linux踏板编辑器](cases/mvave-cube-baby-ac-claude-rea-linux-editor.md) — Walbert Freitas不满吉他踏板编辑器仅支持Windows，报告让Claude用REA逆向后制作Linux原生应用；未取得源码或设备端读写验证。 **[REA · 待验证]**
 - [log4j的2025三星电视调查：AI辅助本地逆向、遥测线索与尚未公开的完整报告](cases/log4j-samsung-tizen-ai-privacy-investigation.md) — log4j的三星电视本地逆向仍待完整报告；10月27日作者澄清漏洞并非Codex发现，也无理由认定封禁专门针对三星调查。遥测与麦克风路由仍是作者主张，未证明持续原始音频上传；11月4日另有解封致歉的未核验转述。 **[未确认使用 REA · 进行中]**
 - [旧Kindle仪表盘：furkan称Claude辅助越狱，Raspberry服务器供数且保留阅读](cases/furkan-kindle-claude-raspberry-dashboard.md) — furkan报告Claude帮助旧Kindle越狱并制作仪表盘，服务运行在家中常开Raspberry上，可回默认阅读模式；服务器安全检查仍未完成。 **[其他 AI 逆向 · 待验证]**
-- [Nokia DCT3：bitplane报告AI辅助逆向旧手机，制作MAME驱动](cases/bitplane-ai-nokia-dct3-mame.md) — bitplane报告AI辅助Nokia DCT3/MAME项目仍需数月；公开文档以3210为参考机，区分交互桌面、原生DSP与HLE边界，不承诺全系列兼容。 **[其他 AI 逆向 · 进行中]**
+- [Nokia DCT3：bitplane报告AI辅助逆向旧手机，制作MAME驱动](cases/bitplane-ai-nokia-dct3-mame.md) — bitplane补充DCT3/MAME用于终端游戏的Nokia3210彩蛋，还待实机固件dump，预计一两月；旧文档的3210参考、DSP与HLE边界未被全系列修辞推翻。 **[其他 AI 逆向 · 进行中]**
 - [智能灯泡变红报bug：Ashish把逆向协议接到Claude/Codex的MCP服务器](cases/ashish-smart-bulb-mcp-bug-light.md) — AshishKingdom报告逆向自有智能灯泡协议并接入MCP，Claude或Codex发现代码bug时把灯变红；AI参与控制，但未说明AI是否辅助恢复协议。 **[未确认使用 REA · 相关项目]**
 - [初代Sony α7：参考Sony-PMCA-RE，提出AI辅助定制固件的想法](cases/sony-alpha7-pmca-ai-firmware-idea.md) — twitHitoshi看到既有Sony-PMCA-RE研究后，提出用AI制作有趣固件；尚未报告实际AI分析或刷写，不把既有相机工具归功于AI。 **[其他 AI 逆向 · 待验证]**
 - [小米电视launcher：Leo称用Workbuddy逆向后不再看开机前广告](cases/xiaomi-tv-workbuddy-launcher-report.md) — Leo · Building w/ AI报告用Workbuddy逆向小米电视原文称launch的组件，声称不再在看电视前看到小米广告；没有型号、代码或测试，不推断root或固件替换。 **[其他 AI 逆向 · 待验证]**
@@ -1157,7 +1163,7 @@
 - [Instinct黑盒拆解：记忆机制转述与Nizzy的Keiki类助手重建介绍](cases/instinct-memory-git-markdown-grep-blackbox-secondary-report.md) — 保留Awake据Dhravya的Git／Markdown／grep记忆推断，追加Nizzy称自8月使用Instinct后拆解产品、介绍用Keiki做类助手；两份研究不混成已核源码。 **[未确认使用 REA · 待验证]**
 - [Anthropic风格图表Skill：耳朵观察Claude绘图时的JS加载来重建规范](cases/anthropic-style-diagram-claude-web-js-skill.md) — 耳朵称通过Claude画SVG时的额外JS加载及向Claude询问文件，整理为公开图表Skill；固定文档支持SVG／PNG和版式审计，但不证明逐字恢复官方提示词。 **[其他 AI 逆向 · 进行中]**
 - [Packet直播中的订阅服务拆解：Jesse称Josh用Claude／REA，两天约200美元](cases/packet-jesse-josh-rea-subscription-service-rebuild-report.md) — Packet直播转录里，Jesse称正在拆解已订阅三年的每月200美元服务，Josh把它交给Claude和REA；两天、约200美元是口述估计，服务名及实现未公开。 **[REA · 进行中]**
-- [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 中文帖子转述CERT-In预警，将CRAFTY FALCON使用AI渗透工具与支付App逆向、改包及非法出款关联；未取得原预警或AI操作记录，不将归因和损失当已核实事实。 **[其他 AI 逆向 · 待验证]**
+- [CRAFTY FALCON支付App攻击：AI渗透与逆向改包的未核验转述](cases/crafty-falcon-ai-payment-app-reversing-secondary-report.md) — 两条安全帖将CRAFTY FALCON的AI渗透与支付App逆向改包关联；11月11日转述给出CIAD-2026-0058编号、重复受害与防御排查背景，原通告与AI日志仍未审阅。 **[其他 AI 逆向 · 待验证]**
 - [Zygisk故障：Gemini看日志源码后尝试逆向，被拦截的自述](cases/zygisk-gemini-debug-reversing-blocked-report.md) — 发帖者称Zygisk出问题，把日志和源码交Gemini仍未定位，模型转向逆向时请求被拦；没有实际分析产物或修复，不泛化为Gemini永久政策。 **[其他 AI 逆向 · 待验证]**
 - [Mac合格电子签名应用：Patryk称Claude约30分钟重建运行环境解决故障](cases/navalismae-claude-mac-qualified-signing-runtime-repair.md) — Lyon本窗回复引出Patryk的10月22日报告：Mac签名应用数月故障，Claude循环约30分钟重建运行环境后消失；未说明厂商、依赖或具体逆向步骤。 **[其他 AI 逆向 · 待验证]**
 - [学习通APK：核桃称交给GPT逆向，课程进度仍有回退问题](cases/hetao-chaoxing-apk-gpt-progress-analysis-report.md) — 核桃在学习通课程自动化讨论中明确称把APK交GPT逆向；补读同串确认进度接口背景，但部分账号次日回退未解决，没有可复核实现。 **[其他 AI 逆向 · 待验证]**
@@ -1466,7 +1472,7 @@
 - [Postiz：Onur Genes称用Claude逆向三天后公开实现](cases/onurgenes-claude-postiz-reverse-engineering-report.md) — Onur Genes称花三天及400美元Claude额度逆向Postiz，并提供代码链接。未取得仓库正文、功能对照或测试，不能确认独立重建与实现范围。 **[其他 AI 逆向 · 待验证]**
 - [未具名DLL应用：读者称DeepSeek Harness配REA与Ghidra重建项目](cases/deepseek-v41-harness-rea-ghidra-dll-app-reconstruction-report.md) — 读者称明确要求DeepSeek-V4.1-Flash（1017）使用REA和Ghidra后，基本搭出了应用项目；DLL细节占据注意力，前端仍需Claude大量返工。 **[REA · 待验证]**
 - [停运APK：读者希望用本地模型反编译并恢复离线功能](cases/defunct-apk-local-model-offline-functionality-request.md) — 读者询问工具能否反编译一个已停运APK、加入离线能力，称Claude护栏妨碍尝试，愿考虑本地模型；未具名App，也无运行产物。 **[其他 AI 逆向 · 待验证]**
-- [Spider-Verse风格作品集：Praveen用REA研究网页设计、动效与交互](cases/praveen-spiderverse-portfolio-rea-rebuild.md) — Praveen S称选取Spider-Verse风格作品集，以REA研究整站体验，随后明确使用Antigravity；仍在逆向中途，没有成品、还原对照或测试。 **[REA · 进行中]**
+- [Praveen的作品集研究：REA／Antigravity中途探索到后续重建自述](cases/praveen-spiderverse-portfolio-rea-rebuild.md) — Praveen S从10月Spider-Verse风格作品集的Antigravity／REA探索，推进到11月称展示参考与重建，并点名Reddit上的TanishqParkar；两次参考站是否同一未获URL确认，对照与功能仍未核。 **[REA · 进行中]**
 - [研屿：DTS称以Codex重建、REA逆向制作机构研究服务工具](cases/yanyu-codex-rea-research-service-rebuild-report.md) — DTS以机构与分析师自行服务客户为动机介绍研屿，称Codex重建、REA逆向，自有代码MIT开源；原仓库、逆向对象、功能与测试未辨认，不确认法律叙事或替代完成。 **[REA · 待验证]**
 - [REA架构教学扩展：GasMan建议以调用路径证据辅助理解旧代码](cases/gasman-rea-hitl-architecture-audit-extension-idea.md) — GasMan提出GitHub／AI IDE扩展idea：让REA追踪有权访问的陌生仓库与旧代码调用路径、重建核心架构，由人解释证据；没有发布可用扩展或测试结果。 **[REA · 待验证]**
 - [Claude Code的map文件恢复：Steve报告Claude愿做、Codex拒绝的对照](cases/steve-claude-code-sourcemap-recovery-model-refusal-report.md) — Steve回顾让Claude Code和Codex从Claude Code的map文件恢复源码，称前者执行、后者不做且拒读恢复仓库；无版本、恢复文件或日志，不确认源码完整性或普遍拒答规则。 **[其他 AI 逆向 · 分析测试]**
@@ -1872,6 +1878,8 @@
 
 ### 算法与功能重建
 
+- [AGENTS.md与记忆冲突：Sparshith用小样本黑盒实验反推Claude Code／Codex优先级](cases/sparsamp-agent-memory-agents-md-conflict-probes.md) — Sparshith Sampath每设置五次，比较CSV／JSON、相差15天的偏好与3美元付费许可；称Codex始终依AGENTS.md，Claude会考虑新旧和更安全选择，未区分模型与harness原因。 **[其他 AI 逆向 · 分析测试]**
+- [BLADE：Noah Zixin Zhang宣布对抗BLA，让REA继续分析](cases/noah-blade-anti-bla-rea-project.md) — Noah Zixin Zhang在同晚两帖宣布BLADE，后给出Bypass LLM Agent Defense Engine全名；目标是对抗BLA阻碍Agent分析的防御，尚无已审源码或测试。 **[REA · 待验证]**
 - [CyberBinGym：补丁二进制帮助Agent恢复漏洞，但88%恢复不等于20%利用](cases/cyberbingym-stripped-binary-patch-agent-benchmark.md) — 100个真实漏洞任务只给去符号的新旧二进制，论文报告最强Agent恢复88%、利用20%；补丁与加固对照只在限定子集，未独立复跑。 **[其他 AI 逆向 · 分析测试]**
 - [YouTube推荐反推idea：用AI估计预期首页，再对照缩略图标异常](cases/youtube-expected-feed-ai-anomaly-comparison-idea.md) — 候选提出从用户元数据反推YouTube预期推荐，再比较实际首页与刷新后反复出现的缩略图，辅助异常检测；没有数据、实现或验证，不证明存在操纵。 **[其他 AI 逆向 · 待验证]**
 - [汇编块即时反编译idea：用来源感知C风格伪代码帮助人与AI调试](cases/assembly-block-source-aware-pseudocode-debugging-idea.md) — 候选作者设想把汇编片段即时转成更大抽象块，并根据来源背景呈现C风格伪代码，供人和AI理解与调试；只是提问，没有实现或效果测试。 **[未确认使用 REA · 待验证]**

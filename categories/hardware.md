@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Zebronics手柄控制Claude：Lovekesh Anand的进行中逆向](../cases/zebronics-gamepad-claude-control-reversing.md) — Lovekesh Anand称正在逆向Zebronics游戏手柄以控制Claude；未说明型号、协议或映射，不把Claude作为控制对象误写为已参与逆向的模型。 **[未确认使用 REA · 进行中]**
+- [Anycubic固件故障：Ismail Hozain建议让Claude调试的idea](../cases/ismail-anycubic-claude-firmware-debug-idea.md) — Ismail Hozain回忆Anycubic设备曾只能反复尝试旧固件，建议Claude或能帮助调试；未开始AI研究，缺型号与具体故障。 **[其他 AI 逆向 · 待验证]**
 - [RK3588开发板：AI协助从预装安卓转Ubuntu24实验室路由器](../cases/rk3588-android-ubuntu24-ai-lab-router-report.md) — ce3319749964称找不到Linux固件时借AI折腾RK3588开发板，刷入Ubuntu24后用作实验室核心路由器；没有板型、镜像、协议逆向步骤或路由测试。 **[其他 AI 逆向 · 待验证]**
 - [日聪蓄电池ECHONET Lite：Gemini对照HEX与遥控器，协议应答不等于执行](../cases/gemini-echonet-lite-code-copy-analysis-report.md) — matsukawa回顾用Gemini生成Python，分析AiSEG3与日聪蓄电池HEX、对照遥控器恢复12字节电力与21字节排程字段；还报告应答成功却不执行、低电量待机死锁及多脚本丢失保护逻辑。 **[其他 AI 逆向 · 进行中]**
 - [Opus／OpenCV摄像头：隐藏视频流到带运动门控的目标跟踪转述](../cases/opus-opencv-camera-hidden-stream-tracking-report.md) — cabbitar转述Opus5.5研究相机官方App视频流，再由OpenCV逐帧跟踪、运动触发模型识别；30fps、每两秒复核、重连和CSV均未核源码或演示。 **[其他 AI 逆向 · 待验证]**
@@ -60,7 +62,7 @@
 - [键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁](../cases/mantikafasi-claude-keyboard-firmware-live-music-display.md) — 作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。 **[其他 AI 逆向 · 进行中]**
 - [家中两台电视盒：susu计划用REA重构，成功后再考虑出售](../cases/susu-two-tv-boxes-rea-refactoring-idea.md) — 具体设备研究idea，作者表达想用REA与Claude改造两台自有盒子；尚无型号、系统、实现或商业结果。 **[REA · 待验证]**
 - [Apple Watch当Mac鼠标：Eikichi转述Claude辅助传感器与蓝牙研究](../cases/eikichi-apple-watch-mac-mouse-claude-report.md) — 转述称手腕移动光标、点按点击、长按拖动和表冠滚动；源码、直接蓝牙与离线实现未验证，未确认具体开发者。 **[其他 AI 逆向 · 待验证]**
-- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](../cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的AI辅助Rust驱动新增转述：Synaptics拟追收25000美元文书费用，上游受DRM Rust基础设施限制；未取得通知、裁决或驱动测试。 **[其他 AI 逆向 · 待验证]**
+- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](../cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的Rust／Claude协议研究与Synaptics争议继续传播；新转述列两英国专利及每周25000美元说法，但没有通知或裁决，不把指控、索费与仓库转私密升级为法律事实。 **[其他 AI 逆向 · 待验证]**
 - [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](../cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](../cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
 - [手机系统桌面崩溃：李天才的AI逆向失败经历](../cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
@@ -333,7 +335,7 @@
 - [M-VAVE Cube Baby AC：Walbert用Claude与REA重建Linux踏板编辑器](../cases/mvave-cube-baby-ac-claude-rea-linux-editor.md) — Walbert Freitas不满吉他踏板编辑器仅支持Windows，报告让Claude用REA逆向后制作Linux原生应用；未取得源码或设备端读写验证。 **[REA · 待验证]**
 - [log4j的2025三星电视调查：AI辅助本地逆向、遥测线索与尚未公开的完整报告](../cases/log4j-samsung-tizen-ai-privacy-investigation.md) — log4j的三星电视本地逆向仍待完整报告；10月27日作者澄清漏洞并非Codex发现，也无理由认定封禁专门针对三星调查。遥测与麦克风路由仍是作者主张，未证明持续原始音频上传；11月4日另有解封致歉的未核验转述。 **[未确认使用 REA · 进行中]**
 - [旧Kindle仪表盘：furkan称Claude辅助越狱，Raspberry服务器供数且保留阅读](../cases/furkan-kindle-claude-raspberry-dashboard.md) — furkan报告Claude帮助旧Kindle越狱并制作仪表盘，服务运行在家中常开Raspberry上，可回默认阅读模式；服务器安全检查仍未完成。 **[其他 AI 逆向 · 待验证]**
-- [Nokia DCT3：bitplane报告AI辅助逆向旧手机，制作MAME驱动](../cases/bitplane-ai-nokia-dct3-mame.md) — bitplane报告AI辅助Nokia DCT3/MAME项目仍需数月；公开文档以3210为参考机，区分交互桌面、原生DSP与HLE边界，不承诺全系列兼容。 **[其他 AI 逆向 · 进行中]**
+- [Nokia DCT3：bitplane报告AI辅助逆向旧手机，制作MAME驱动](../cases/bitplane-ai-nokia-dct3-mame.md) — bitplane补充DCT3/MAME用于终端游戏的Nokia3210彩蛋，还待实机固件dump，预计一两月；旧文档的3210参考、DSP与HLE边界未被全系列修辞推翻。 **[其他 AI 逆向 · 进行中]**
 - [智能灯泡变红报bug：Ashish把逆向协议接到Claude/Codex的MCP服务器](../cases/ashish-smart-bulb-mcp-bug-light.md) — AshishKingdom报告逆向自有智能灯泡协议并接入MCP，Claude或Codex发现代码bug时把灯变红；AI参与控制，但未说明AI是否辅助恢复协议。 **[未确认使用 REA · 相关项目]**
 - [初代Sony α7：参考Sony-PMCA-RE，提出AI辅助定制固件的想法](../cases/sony-alpha7-pmca-ai-firmware-idea.md) — twitHitoshi看到既有Sony-PMCA-RE研究后，提出用AI制作有趣固件；尚未报告实际AI分析或刷写，不把既有相机工具归功于AI。 **[其他 AI 逆向 · 待验证]**
 - [小米电视launcher：Leo称用Workbuddy逆向后不再看开机前广告](../cases/xiaomi-tv-workbuddy-launcher-report.md) — Leo · Building w/ AI报告用Workbuddy逆向小米电视原文称launch的组件，声称不再在看电视前看到小米广告；没有型号、代码或测试，不推断root或固件替换。 **[其他 AI 逆向 · 待验证]**

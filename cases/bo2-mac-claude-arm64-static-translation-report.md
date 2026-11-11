@@ -1,0 +1,22 @@
+# bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用
+
+分类：游戏与游戏保存 · 其他 AI 逆向
+记录日期：2026-11-11
+阶段：待验证
+
+2026年11月11日22:50:17（北京时间），cryptopsihoz（@rimtoln）回复vibelancer，称原生ARM的BO2令人惊讶，并归于AI辅助逆向。补读同串22:41:10的vibelancer原文，明确项目为bo2-mac，目标是在2020年M1 MacBook上玩《Call of Duty: Black Ops II》。原文转述开发者用Claude Opus5.5制作工具；它是候选所指背景与二手说明，不是另一个候选或本合集复现。
+
+报道描述从用户自有Steam版本的三个x86 Windows EXE出发，经Ghidra列函数、Remill v6.0.1提升到LLVM IR、定制优化后由clang -O2生成ARM64；称约150000函数与五处Remill补丁。运行时以Win32兼容实现、4GiB guest映射、D3D11到Metal、2664 shader经HLSLcc、XAudio2到CoreAudio衔接。报道虽以无模拟器、无Wine/JIT宣传，也明确少量保护序列与遗漏函数在Unicorn小型x86 VM中执行，不能写成完全没有仿真。它称执行而不绕过拷贝保护，要求确切Steam build哈希与Mac上的所有权确认，未核机制。
+
+转述给出同一M1上约1小时45分钟转换、约4GB磁盘占用、720p窗口战役51–60fps、六图Zombies 57–60fps、bot多人53–60fps；联网未支持，beta且温度111–116°C。还称静态Metal缓冲优化将每帧23–63MB几何上传降到3.5–5MB、多人51.8到60fps，有13项量化发现、约1100项事先预测和撤回约200项结论。全部是报道口径，无硬件传感器位置、仓库、测试日志或逐项记录供本合集确认；不能泛化其他Mac、全流程通关或热安全，预测数量不是准确率。
+
+未观看视频、下载游戏、构建移植或运行保护代码，未确认授权可再分发。须合法自备游戏，不把报道的产物不可分享说法当法律结论；REA未提及，状态为unverified。
+
+候选0赞、26浏览、0转发；同串补查49赞、477浏览、1转发是另帖读取快照，不是原候选热度。性能均为二手报告。
+
+## 来源
+
+- [候选：rimtoln回复原生ARM BO2与AI逆向，2026-11-11 22:50:17北京时间](https://x.com/i/status/2120529553135448437)
+- [补充同串vibelancer的bo2-mac详细转述，2026-11-11 22:41:10北京时间](https://x.com/i/status/2120527258410488004)
+
+[English](en/bo2-mac-claude-arm64-static-translation-report.md) | [返回目录](../README.zh-CN.md)
