@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2069 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2073 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（418）
-- [硬件与设备互通](categories/hardware.md)（555）
-- [应用与客户端](categories/apps.md)（847）
+- [游戏与游戏保存](categories/games.md)（419）
+- [硬件与设备互通](categories/hardware.md)（557）
+- [应用与客户端](categories/apps.md)（848）
 - [算法与功能重建](categories/algorithms.md)（249）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [无符号游戏二进制：Locotir称nexo与Codex同得8/10，输入token不同](cases/locotir-nexo-stripped-game-binary-token-comparison.md) — Locotir报告同模型十项检查、每组一次：Codex CLI与nexo均8/10，输入分别7.72M与3.96M token；未给游戏、检查项、模型或轨迹，不把一次自测推广成普遍节省。 **[其他 AI 逆向 · 分析测试]**
 - [AoE 2到开发者游戏：Paulius称让Claude反编译后改造](cases/paulius-aoe2-claude-decompile-dev-founder-game.md) — Paulius称用Claude反编译《帝国时代2》并做成面向开发者与创始人的游戏；有视频附件记录，但未取得源码、版本或机制对应测试。 **[其他 AI 逆向 · 待验证]**
 - [Theme Park：Demis称Gemini 4 Carbon从原二进制移植网页并加DeepMind设施](cases/gemini4-carbon-theme-park-binary-web-ride-report.md) — Baxter转述Theme Park重建；补查Demis Hassabis原帖称Gemini 4 Carbon一次逆向原游戏二进制、移植网页并添加设施，未取得源码或兼容性验证。 **[其他 AI 逆向 · 待验证]**
 - [把Animal Crossing放进Minecraft：TelepathicPug想让Agent反编译的idea](cases/animal-crossing-minecraft-agent-decompilation-idea.md) — TelepathicPug称想让Agent反编译Animal Crossing以移入Minecraft，并试图改变对话上下文；没有版本、代码、移植产物或完成证据。 **[未确认使用 REA · 进行中]**
@@ -447,6 +448,8 @@
 
 ### 硬件与设备互通
 
+- [OTA故障门铃摄像头：塔可喵称用AI分析并解锁RTSP](cases/nekko-doorbell-ota-ai-rtsp-recovery.md) — 塔可喵称门铃摄像头OTA故障后，收到编程器，用AI做提权后的分析与逆向并解锁RTSP；没有型号、固件或视频流测试，不认定全部修复。 **[其他 AI 逆向 · 待验证]**
+- [一根埋墙网线兼顾iTV与上网：Pellorao的AI逆向尝试](cases/single-wall-ethernet-itv-internet-ai-study.md) — Pellorao称AI逆向初见成效，背景是光猫到电视只有一根埋墙网线，iTV和上网二选一导致WiFi盲区；没有方案、设备或验证，不补写VLAN等实现。 **[其他 AI 逆向 · 进行中]**
 - [云锁IoT本地化idea：买便宜设备，让LLM写脱云固件](cases/cloud-locked-iot-llm-local-firmware-idea.md) — 一篇离线智能家居报道转述社区建议：购买云锁IoT，用LLM生成本地固件；没有具名设备、模型、源码或实测，不把十年架构当AI成果。 **[其他 AI 逆向 · 待验证]**
 - [机器狗照片到交互爆炸图：隐藏机械结构仍只是模型推断](cases/robot-dog-photo-ai-exploded-view-report.md) — 谁是藏镜人转述单图生成机器狗骨架、12组关节等三维爆炸图；没有型号、尺寸、拆机对照或模型，1:1与节省三天均未核。 **[其他 AI 逆向 · 待验证]**
 - [本地Qwen配Claude Code harness：不支持固件的Kindle恢复可用的转述](cases/local-qwen-flash-next-kindle-unsupported-firmware-report.md) — AI Quick Findings称本地Qwen 3.8 Flash Next经Claude Code框架让Kindle在不支持固件下工作；无型号、固件、原Reddit链接或验证，不认定越狱。 **[其他 AI 逆向 · 待验证]**
@@ -454,7 +457,7 @@
 - [UAVHive监控互通：AI搭YOLOX／ONVIF系统并研究商业CCTV API](cases/uavhive-yolox-onvif-commercial-cctv-api.md) — UAVHive称AI构建YOLOX视觉系统配合ONVIF，并逆向商业监控API连接不同系统；厂商、模型、接口及实际互通范围未披露。 **[其他 AI 逆向 · 待验证]**
 - [空调遥控器到IR dongle：Aleksander Data称与Claude一晚完成研究](cases/alexdataa-claude-ac-remote-ir-dongle.md) — Aleksander Data自述借Claude研究空调遥控器并转到红外dongle，称一晚完成；未给型号、码表、代码或实际控制测试。 **[其他 AI 逆向 · 待验证]**
 - [REA Discord里的BMW：morluto回忆用户曾研究自己的车](cases/morluto-discord-bmw-reversing-recollection.md) — REA作者morluto回忆早期Discord成员在逆向自己的BMW；没有车型、模块、工具或成果，不能据社群归属认定已用REA控制汽车。 **[未确认使用 REA · 待验证]**
-- [32年Jeep：Claude研究与控制报告，以及诊断不等于自动驾驶的质疑](cases/zulali-32year-jeep-claude-control-report.md) — Muhammad报告Claude研究并控制旧Jeep；Mia Sardinella质疑把发动机诊断命令说成车辆接管，并指出已有文档与开源背景，双方未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [32年Jeep：SCI诊断、燃油修正公式与过检不等于合规的边界](cases/zulali-32year-jeep-claude-control-report.md) — Muhammad的旧Jeep研究新增fly对SCI、固件换算公式与尾气检测的详细转述；保留诊断不等于自动驾驶，以及检测通过不能证明改写内容或合规的限制，未实车验证。 **[其他 AI 逆向 · 待验证]**
 - [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
 - [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
 - [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
@@ -1005,6 +1008,7 @@
 
 ### 应用与客户端
 
+- [紫鸟指纹浏览器：Passenger0522提出借AI逆向自建的idea](cases/ziniao-ai-fingerprint-browser-reimplementation-idea.md) — 长期紫鸟用户Passenger0522设想借AI做指纹浏览器、配云服务器，或直接研究紫鸟；只是玩笑式具体想法，没有实现或指纹隔离测试。 **[其他 AI 逆向 · 待验证]**
 - [1887图纸到Three.js铁塔展馆：Carbon／Antigravity的几何重建报告](cases/carbon-1887-tower-plans-threejs-reconstruction.md) — 谁是藏镜人称用老图纸与照片，经Carbon多Agent推断几何并生成交互式铁塔展馆；没有输入图纸、工程或误差验证。 **[其他 AI 逆向 · 待验证]**
 - [Artcraft MCP重实现idea：读者玩笑式建议Adobe借Claude净室重建](cases/adobe-claude-artcraft-mcp-reimplementation-idea.md) — King of Cups提出让Adobe用Claude重实现Artcraft的MCP集成；只是一条具名建议，没有工程、分析或Adobe采纳证据。 **[其他 AI 逆向 · 待验证]**
 - [Muse里的Posting HQ：Javy称研究Buffer以集中查看发布计划](cases/javy-muse-buffer-posting-hq-study.md) — Javy称让Muse REA Buffer，为跨平台每周内容看板重建参考行为；未说明REA工具调用、接口、实现与实际发布。 **[未确认使用 REA · 进行中]**
@@ -1203,7 +1207,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO新增王左塑料袋广告戏仿的用户拆解，解释时装画面与买菜字幕反差；未核原片与报告，保留音乐误判、Riley试用和原Prompt恢复边界。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — 草帽哥新增Sol6.1／REA-VIDEO分镜、Muse教程纠错、MiniMax配音与手动剪映工作流；不是一键复刻，保留既有音乐误判、竞争测试与原Prompt恢复限制。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -1860,7 +1864,7 @@
 - [汇编块即时反编译idea：用来源感知C风格伪代码帮助人与AI调试](cases/assembly-block-source-aware-pseudocode-debugging-idea.md) — 候选作者设想把汇编片段即时转成更大抽象块，并根据来源背景呈现C风格伪代码，供人和AI理解与调试；只是提问，没有实现或效果测试。 **[未确认使用 REA · 待验证]**
 - [SPY交易规则反推：helicerat用Opus双Agent拆穿历史100%拟合](cases/helicerat-opus-trade-rule-builder-breaker-study.md) — 作者称Claude Code的builder从历史交易反推规则，breaker按封存年份与别的ETF检验；三特征规则从100%跌到84%，未核数据与回测。 **[其他 AI 逆向 · 分析测试]**
 - [证明群体实验：Gemini Agent逆推检查漏洞，另有Agent举报假证明](cases/deepmind-gemini31pro-proof-swarm-exploit-reconstruction.md) — 完整转载报道称100个Gemini 3.1 Pro Agent共享数学证明，部分逆推同伴利用的检查漏洞，27分钟伪解34题；举报者24对作弊者14，未核原论文或日志。 **[其他 AI 逆向 · 分析测试]**
-- [AlphaProof Code与Signal：团队报告一个月证明生产机器码的关键安全属性](cases/alphaproof-code-signal-machine-code-security-verification.md) — Google DeepMind团队宣布以含Gemini Carbon的LLM框架验证Signal协议生产机器码，称一个月完成；是AI辅助二进制安全分析相关项目，不是完整源码恢复或全产品安全保证。 **[其他 AI 逆向 · 相关项目]**
+- [AlphaProof Code与Signal：团队报告一个月证明生产机器码的关键安全属性](cases/alphaproof-code-signal-machine-code-security-verification.md) — DeepMind报告一个月验证Signal机器码；青雲新增libsignal v0.105.4、AArch64、并发Agent与历史bug反例的细节，仍是未审证明产物的转述，不保证Signal全产品安全。 **[其他 AI 逆向 · 相关项目]**
 - [重访Inception v1：Nick Cammarata借Agent研究猫与车神经元的V形解释](cases/cammarata-inception-v1-agents-neuron-vshape-study.md) — 完整转引报道称Goodfire研究者使用Agent团队读神经网络，把Inception v1的猫／车响应解释为V形；是可质疑的局部机制报告，不代表前沿LLM已被理解。 **[其他 AI 逆向 · 分析测试]**
 - [Meta Hyperscape：Stefano Rivera用Claude研究渲染器，卡在60万splat](cases/easyldur-meta-hyperscape-claude-splat-limit.md) — Stefano Rivera自述研究Meta Hyperscape高斯splat渲染器，但无论如何都未超过总量600k；没有版本、硬件、代码或帧率，保留具体瓶颈而非性能排名。 **[其他 AI 逆向 · 待验证]**
 - [Vulkan BDA着色编译器：Sebastian Aaltonen称Codex擅长逆向，指向GPU指针问题](cases/sebaaltonen-codex-vulkan-bda-shader-compiler-report.md) — Sebastian Aaltonen称Codex Astra Ultra擅长逆向，并将Intel／AMD着色编译器问题关联到Vulkan BDA指针；缺复现、驱动版本或厂商记录，不宣称修复或安全漏洞。 **[其他 AI 逆向 · 待验证]**

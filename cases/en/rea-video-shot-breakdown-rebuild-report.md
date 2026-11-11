@@ -1,7 +1,7 @@
 # REA-VIDEO: shot-by-shot production research, user feedback and competitor-comparison limits
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-10
+Record date: 2026-11-11
 Stage: Related project
 
 A November 3, 2026 roundup at 09:19 Beijing time introduces REA-VIDEO breaking down visuals, styled text, editing and sound to recover visible production structure, not decompile software. A 20:32:06 account cites a product-swapped TikTok's eight shots batched into three generations; filmed camera positions, framing, motion, twelve lighting setups and grading; a 70-second promo at 83% code suitable for Remotion; and SRT/ASS, BPM and effect timing. None is footage analyzed here.
@@ -30,6 +30,9 @@ At 07:31:11 Beijing time on November 10, 2026, Riley Brown (@rileybrown) says he
 
 At 10:50:49 Beijing time on November 10, 2026, @harrisonzhuanf reports using rea-video to analyze director Wang Zuo's ordinary-plastic-bag advertising parody. The author's interpretation contrasts minimalist fashion imagery implying luxury with narration and captions repeatedly returning to grocery shopping and supermarkets. The post includes links, but the linked report, original footage and visual attachments were not read here. This establishes a named use and the user's semantic analysis, not verified per-shot classification, original-prompt recovery or a completed reshoot. Retrieval confirms the handle and wording. No tool was run, and earlier three-clip music errors and competitor-comparison limits are retained.
 
+At 13:46:05 on November 11, 草帽哥 (@harrisonzhuanf) adds that he finally made a video he likes: Sol6.1 with REA-VIDEO for storyboarding, a Higgs tutorial for the AI film 'hell' fed into Muse to correct its high error rate, MiniMax cloning his own voice, and manual editing in Jianying. His $500,000 figure for the tutorial film's production and 3–5 yuan for initial voice cloning were not checked against the original tutorial or bills and are not the cost of his video. Retrieval confirms attribution, text and a video attachment; the final video, storyboard, prompts, tool logs and comparison inputs were not viewed. It is unclear whether this is the earlier plastic-bag target. This is the same user's concrete follow-on workflow, not a separate tool or proof of an end-to-end automatic remake, original-prompt recovery or a measured improvement in Muse accuracy.
+
+November 11 at 13:46:05 sealed candidate: 2 likes, 89 views, 0 reposts. Satisfaction and costs are author-reported; the video and bills were not checked.
 November 10 at 10:50:49 sealed candidate: 3 likes, 58 views, 0 reposts. Original footage and the analysis report were not read.
 November 10 at 07:31:11 sealed candidate: 38 likes, 2,936 views, 1 repost. The Fable trial has no replayable materials; training uses are speculation only.
 November 8 at 05:33:26 sealed candidate: 0 likes, 20 views, 0 reposts. Three clips and seven seconds are user-reported; the music misclassification is retained.
@@ -60,5 +63,6 @@ November 7 at 10:12:50: James Russo candidate, 6 likes, 390 views, 0 reposts. At
 - [바스 reports three-video testing and a Grok background-music error, November 8, 2026 at 05:33:26 Beijing time](https://x.com/i/status/2119181456685793578)
 - [Riley Brown on a Fable/Kurzagets video trial and training speculation, November 10, 2026 at 07:31:11 Beijing time](https://x.com/i/status/2119935865933725888)
 - [harrisonzhuanf's reported breakdown of Wang Zuo's plastic-bag advertising parody, November 10, 2026 at 10:50:49 Beijing time](https://x.com/i/status/2119986106183885098)
+- [harrisonzhuanf's Sol6.1/REA-VIDEO storyboard, Muse correction and manual Jianying workflow, November 11, 2026 at 13:46:05 Beijing time](https://x.com/i/status/2120392599395762470)
 
 [中文](../rea-video-shot-breakdown-rebuild-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

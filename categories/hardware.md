@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [OTA故障门铃摄像头：塔可喵称用AI分析并解锁RTSP](../cases/nekko-doorbell-ota-ai-rtsp-recovery.md) — 塔可喵称门铃摄像头OTA故障后，收到编程器，用AI做提权后的分析与逆向并解锁RTSP；没有型号、固件或视频流测试，不认定全部修复。 **[其他 AI 逆向 · 待验证]**
+- [一根埋墙网线兼顾iTV与上网：Pellorao的AI逆向尝试](../cases/single-wall-ethernet-itv-internet-ai-study.md) — Pellorao称AI逆向初见成效，背景是光猫到电视只有一根埋墙网线，iTV和上网二选一导致WiFi盲区；没有方案、设备或验证，不补写VLAN等实现。 **[其他 AI 逆向 · 进行中]**
 - [云锁IoT本地化idea：买便宜设备，让LLM写脱云固件](../cases/cloud-locked-iot-llm-local-firmware-idea.md) — 一篇离线智能家居报道转述社区建议：购买云锁IoT，用LLM生成本地固件；没有具名设备、模型、源码或实测，不把十年架构当AI成果。 **[其他 AI 逆向 · 待验证]**
 - [机器狗照片到交互爆炸图：隐藏机械结构仍只是模型推断](../cases/robot-dog-photo-ai-exploded-view-report.md) — 谁是藏镜人转述单图生成机器狗骨架、12组关节等三维爆炸图；没有型号、尺寸、拆机对照或模型，1:1与节省三天均未核。 **[其他 AI 逆向 · 待验证]**
 - [本地Qwen配Claude Code harness：不支持固件的Kindle恢复可用的转述](../cases/local-qwen-flash-next-kindle-unsupported-firmware-report.md) — AI Quick Findings称本地Qwen 3.8 Flash Next经Claude Code框架让Kindle在不支持固件下工作；无型号、固件、原Reddit链接或验证，不认定越狱。 **[其他 AI 逆向 · 待验证]**
@@ -9,7 +11,7 @@
 - [UAVHive监控互通：AI搭YOLOX／ONVIF系统并研究商业CCTV API](../cases/uavhive-yolox-onvif-commercial-cctv-api.md) — UAVHive称AI构建YOLOX视觉系统配合ONVIF，并逆向商业监控API连接不同系统；厂商、模型、接口及实际互通范围未披露。 **[其他 AI 逆向 · 待验证]**
 - [空调遥控器到IR dongle：Aleksander Data称与Claude一晚完成研究](../cases/alexdataa-claude-ac-remote-ir-dongle.md) — Aleksander Data自述借Claude研究空调遥控器并转到红外dongle，称一晚完成；未给型号、码表、代码或实际控制测试。 **[其他 AI 逆向 · 待验证]**
 - [REA Discord里的BMW：morluto回忆用户曾研究自己的车](../cases/morluto-discord-bmw-reversing-recollection.md) — REA作者morluto回忆早期Discord成员在逆向自己的BMW；没有车型、模块、工具或成果，不能据社群归属认定已用REA控制汽车。 **[未确认使用 REA · 待验证]**
-- [32年Jeep：Claude研究与控制报告，以及诊断不等于自动驾驶的质疑](../cases/zulali-32year-jeep-claude-control-report.md) — Muhammad报告Claude研究并控制旧Jeep；Mia Sardinella质疑把发动机诊断命令说成车辆接管，并指出已有文档与开源背景，双方未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [32年Jeep：SCI诊断、燃油修正公式与过检不等于合规的边界](../cases/zulali-32year-jeep-claude-control-report.md) — Muhammad的旧Jeep研究新增fly对SCI、固件换算公式与尾气检测的详细转述；保留诊断不等于自动驾驶，以及检测通过不能证明改写内容或合规的限制，未实车验证。 **[其他 AI 逆向 · 待验证]**
 - [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](../cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
 - [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](../cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
 - [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](../cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
