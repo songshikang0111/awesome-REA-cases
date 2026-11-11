@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Mario Kart 64原生PS3移植：既有反编译、Claude协作与作者实机调试](../cases/mario-kart64-ps3-psl1ght-ai-port-report.md) — yibie介绍MK64 PS3；固定README确认基于n64decomp/mk64与PSL1GHT、Claude多会话协作，作者称亲自实机测试；从自备USA ROM读数据，代码型Mod不支持。 **[其他 AI 逆向 · 进行中]**
+- [Rusted Warfare：AHpxEx称Claude Code拒绝、Codex完成反编译](../cases/rusted-warfare-codex-decompilation-report.md) — AHpxEx报告对Rusted Warfare的反编译请求在Claude Code被拒、Codex则直接做完；没有版本、反编译产物或可构建与行为验证，不认定移植成功。 **[其他 AI 逆向 · 待验证]**
 - [无符号游戏二进制：Locotir称nexo与Codex同得8/10，输入token不同](../cases/locotir-nexo-stripped-game-binary-token-comparison.md) — Locotir报告同模型十项检查、每组一次：Codex CLI与nexo均8/10，输入分别7.72M与3.96M token；未给游戏、检查项、模型或轨迹，不把一次自测推广成普遍节省。 **[其他 AI 逆向 · 分析测试]**
 - [AoE 2到开发者游戏：Paulius称让Claude反编译后改造](../cases/paulius-aoe2-claude-decompile-dev-founder-game.md) — Paulius称用Claude反编译《帝国时代2》并做成面向开发者与创始人的游戏；有视频附件记录，但未取得源码、版本或机制对应测试。 **[其他 AI 逆向 · 待验证]**
 - [Theme Park：Demis称Gemini 4 Carbon从原二进制移植网页并加DeepMind设施](../cases/gemini4-carbon-theme-park-binary-web-ride-report.md) — Baxter转述Theme Park重建；补查Demis Hassabis原帖称Gemini 4 Carbon一次逆向原游戏二进制、移植网页并添加设施，未取得源码或兼容性验证。 **[其他 AI 逆向 · 待验证]**

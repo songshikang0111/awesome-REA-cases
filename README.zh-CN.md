@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2073 个案例与项目
+# 2086 个案例与项目
 
-**最近案例更新：**2026 年 11 月 11 日 16:17 · **最近维护：**2026 年 11 月 11 日 16:17 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 11 日 20:20 · **最近维护：**2026 年 11 月 11 日 20:20 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,9 +22,9 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：追查二进制证据，审视安全结论，让设备继续可用，保存游戏。旧Jeep带来一个实用问题：先核固件换算公式，别把诊断、排放结果和安全控车混为一谈。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：核对Agent究竟发现了什么，让设备继续可用，保存游戏。微型Electron自测暴露输出膨胀；蓄电池研究提醒我们，协议回成功不代表设备按预期执行。下列日期为来源或作者更新日期，不是收录日期。
 
-1. **[XRef：究竟谁写了这个二进制字段？](cases/alex09x-xref-serialized-status-writer-walkthrough.md)** · `2026-11-07`作者帖；`2026-11-06`固定文档 — **从序列化键追到候选writer与指令证据**，公开Rust／JSON／MCP工具供分析者和Agent使用。排名是启发式，x86-64输入支持有边界，live探针可能扰动目标。本合集未运行。`相关项目`
+1. **[微型Electron：接线正确，证据却太大](cases/rea-tiny-electron-ipc-evidence-output-test.md)** · `2026-11-11`作者自测 — **五文件、846字节样本中，REA据报正确配对渲染端到主进程IPC**，却输出316kb JSON并略过inline脚本。约10秒含冷启，本合集未核源码或完整输出。`分析测试`
 2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
 3. **[AlphaProof Code：检查Signal实际运行的机器码](cases/alphaproof-code-signal-machine-code-security-verification.md)** · `2026-11-10`团队宣布；`2026-11-11`读者转述 — **AI写证明，人批准规格**，并报告回植历史bug检查反例。DeepMind称一个月证明关键属性，不是Signal全部无漏洞；版本与证明规模为转述，本合集未审产物。`相关项目`
 4. **[MousePods：AirPods在Linux当鼠标与游戏头追](cases/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11`报道；`2026-11-10`固定项目文档 — **Claude辅助RemoteHID研究、公开实现与项目自报AirPods 3／Pro 2实机检查。**不刷耳机固件，但Proton游戏接入会改前缀。MTU与设备身份变化未隔离，部分模式仍实验。本合集未运行。`未独立核验`
@@ -32,8 +32,8 @@
 6. **[TimeSplitters 2：把PS2行为追进原生PC版](cases/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10`作者报告；`2026-11-09`固定文档 — **Claude辅助MIPS到C++，以PCSX2画面与状态追查差异。**项目自报Linux／Steam Deck首关通关，仍用PCSX2图形／音频。内部测试工具未公开，后续关卡、部分VU1状态与互联网联机待测，Windows／在线版待发布。须自备光盘，本合集未构建。`进行中`
 7. **[DX-Ball：从声像函数走到Windows重建](cases/dx-ball-sound-pan.md)** · `2026-11-01`报道；`2026-10-31`项目记录 — Codex／REA／Ghidra重建报告**270个游戏函数、84968字节匹配**，另有原生VC4构建。仅时间戳不同的比较对象是较早重建版，不是原版EXE；原版50关通关与完整原生音频仍待测。须自备文件，本合集未重建。`项目自测重建`
 8. **[MechWarrior 3：让1999年的机甲游戏跑上现代电脑](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04`报道与固定项目记录 — Owen Morgan披露**REA／Ghidra研究、逐函数C++重建**，报告以Unicorn对照原版。公开原生后端、宽屏与八人UDP联机；报道明确Linux未试玩，Pirate's Moon未支持。须自备原游戏，本合集未构建。`进行中`
-9. **[LASIK：让BLA保护的发布物重新可读](cases/lasik-bla-static-deblinding-cli-mcp.md)** · `2026-11-11`报道；`2026-11-10`固定项目文档 — **静态CLI／MCP清理，公开CrackMe测量与误删回归测试。**所报2100万→1.7万token是读入量估算，不是实测REA消耗或成功解题；覆盖仍有部分支持边界。本合集未运行。`分析测试`
-10. **[CyberBinGym：二进制补丁透露了什么？](cases/cyberbingym-stripped-binary-patch-agent-benchmark.md)** · `2026-11-11`报道；`2026-11-07`论文v1 — **100个真实漏洞任务，最强Agent自报恢复88%、利用20%。**修补版帮助匹配的20题子集；加固后，原先成功的20题中仍能利用两题。已读摘要，未审全论文与轨迹，未复跑。`分析测试`
+9. **[日聪蓄电池：回成功不等于执行](cases/gemini-echonet-lite-code-copy-analysis-report.md)** · `2026-11-11`作者文章，回顾8至9月工作 — **Gemini辅助HEX对照，据报定位电力与排程字段。**作者也记录成功应答却设置不变、待机死锁、粘贴修复丢保护逻辑；硬件安全与长期运行未经本合集核验。`进行中`
+10. **[DESIGN:OS Studio：本地Figma文件，明确兼容边界](cases/design-os-studio-figma-js-kiwi-rebuild.md)** · `2026-11-11`报道与文档；`2026-10-18–19`研究记录 — **REA分析缓存JS，wasm路线不可用时由另写kiwi读器接手。**公开Rust设计器、.fig读写与Agent接口，仍有保存损失和Windows测试问题；source-available非OSI开源，本合集未运行。`进行中`
 
 
 ## 经典案例
@@ -50,9 +50,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **419** |
-| [硬件与设备互通](categories/hardware.md) | **557** |
-| [应用与客户端](categories/apps.md) | **848** |
+| [游戏与游戏保存](categories/games.md) | **421** |
+| [硬件与设备互通](categories/hardware.md) | **560** |
+| [应用与客户端](categories/apps.md) | **856** |
 | [算法与功能重建](categories/algorithms.md) | **249** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [RK3588开发板：AI协助从预装安卓转Ubuntu24实验室路由器](../cases/rk3588-android-ubuntu24-ai-lab-router-report.md) — ce3319749964称找不到Linux固件时借AI折腾RK3588开发板，刷入Ubuntu24后用作实验室核心路由器；没有板型、镜像、协议逆向步骤或路由测试。 **[其他 AI 逆向 · 待验证]**
+- [日聪蓄电池ECHONET Lite：Gemini对照HEX与遥控器，协议应答不等于执行](../cases/gemini-echonet-lite-code-copy-analysis-report.md) — matsukawa回顾用Gemini生成Python，分析AiSEG3与日聪蓄电池HEX、对照遥控器恢复12字节电力与21字节排程字段；还报告应答成功却不执行、低电量待机死锁及多脚本丢失保护逻辑。 **[其他 AI 逆向 · 进行中]**
+- [Opus／OpenCV摄像头：隐藏视频流到带运动门控的目标跟踪转述](../cases/opus-opencv-camera-hidden-stream-tracking-report.md) — cabbitar转述Opus5.5研究相机官方App视频流，再由OpenCV逐帧跟踪、运动触发模型识别；30fps、每两秒复核、重连和CSV均未核源码或演示。 **[其他 AI 逆向 · 待验证]**
 - [OTA故障门铃摄像头：塔可喵称用AI分析并解锁RTSP](../cases/nekko-doorbell-ota-ai-rtsp-recovery.md) — 塔可喵称门铃摄像头OTA故障后，收到编程器，用AI做提权后的分析与逆向并解锁RTSP；没有型号、固件或视频流测试，不认定全部修复。 **[其他 AI 逆向 · 待验证]**
 - [一根埋墙网线兼顾iTV与上网：Pellorao的AI逆向尝试](../cases/single-wall-ethernet-itv-internet-ai-study.md) — Pellorao称AI逆向初见成效，背景是光猫到电视只有一根埋墙网线，iTV和上网二选一导致WiFi盲区；没有方案、设备或验证，不补写VLAN等实现。 **[其他 AI 逆向 · 进行中]**
 - [云锁IoT本地化idea：买便宜设备，让LLM写脱云固件](../cases/cloud-locked-iot-llm-local-firmware-idea.md) — 一篇离线智能家居报道转述社区建议：购买云锁IoT，用LLM生成本地固件；没有具名设备、模型、源码或实测，不把十年架构当AI成果。 **[其他 AI 逆向 · 待验证]**

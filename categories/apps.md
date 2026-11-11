@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [846字节Electron自测：REA配对IPC，但输出316kb并漏掉inline脚本](../cases/rea-tiny-electron-ipc-evidence-output-test.md) — jatingargiitk报告五文件小应用的REA终端自测：窗口、preload、contextBridge与IPC配对正确，零sender检查；冷启约10秒，846字节输入产生316kb JSON且略过HTML内联脚本。 **[REA · 分析测试]**
+- [DESIGN:OS Studio：REA研究Figma JS与.fig格式，公开Rust本地设计工具](../cases/design-os-studio-figma-js-kiwi-rebuild.md) — 固定规格记录REA6.7.0研究Figma JS；缺WABT／Ghidra时改用本地kiwi读器，并对照.fig样本变量绑定。Rust／wgpu工具提供本地.fig与Agent接口，仍有保存损失、Windows测试与source-available许可边界。 **[REA · 进行中]**
+- [WorkBuddy海外版Hy4研究APK：二旬老汉报告执行，缺少目标与结果定义](../cases/workbuddy-hy4-unnamed-apk-reversing-report.md) — 二旬老汉称GPT与DeepSeek拒绝APK逆向，Gemini回英文，WorkBuddy的Hy4则开始并做出来；没有APK身份、任务、代码或测试，不据此作模型能力榜。 **[其他 AI 逆向 · 待验证]**
+- [C#应用Native AOT研究：REA识别配置与设计，不等于还原C#源码](../cases/rea-csharp-nativeaot-zip-json-project-study.md) — ヤーマン为简化常用应用繁琐项目设置研究ZIP内JSON，又分析PE32+ x64，借.NET10与Native AOT配置推断环境；称规格设计收获较多，但不能用ILSpy轻松转回C#。 **[REA · 分析测试]**
+- [FutureTax接入idea：itsnotasad_认为Claude需逆向加拿大报税工具](../cases/claude-futuretax-integration-reversing-idea.md) — itsnotasad_称Claude擅长财务报表、发票附件和税务计算，但不能直接访问加拿大FutureTax，需要逆向；只是具名集成想法，没有实现或税务正确性证据。 **[其他 AI 逆向 · 待验证]**
+- [ProConnect Tax Tools接入idea：Claude能力与美国报税工具间的缺口](../cases/claude-proconnect-tax-integration-reversing-idea.md) — itsnotasad_在同帖将美国ProConnect Tax Tools列为Claude不能直接访问、需逆向的另一目标；没有连接器、观察记录或税务流程测试。 **[其他 AI 逆向 · 待验证]**
+- [Open ReverseLab：AI逆向知识库与MCP工作台，宣传数量和平台能力有边界](../cases/open-reverselab-ai-mcp-workbench-report.md) — fayzonnn介绍Ghidra／Frida／x64dbg／Rizin Agent工作台；固定README确认公开工具映射、首跑检查与证据目录，称100+工具；候选四板194文章与文档五板180+并不完全一致。 **[其他 AI 逆向 · 相关项目]**
+- [iOS相册到Immich客户端：转述REA列226操作、147实现与8.5万媒体自测](../cases/ios26-photos-rea-immich-client-rebuild-report.md) — uudonX转述为自建Immich重做熟悉的苹果相册体验，Claude／REA从iOS26.3框架写行为规格；226项中147实现、8.5万照片视频与真机调优均未核原仓库。 **[REA · 进行中]**
 - [紫鸟指纹浏览器：Passenger0522提出借AI逆向自建的idea](../cases/ziniao-ai-fingerprint-browser-reimplementation-idea.md) — 长期紫鸟用户Passenger0522设想借AI做指纹浏览器、配云服务器，或直接研究紫鸟；只是玩笑式具体想法，没有实现或指纹隔离测试。 **[其他 AI 逆向 · 待验证]**
 - [1887图纸到Three.js铁塔展馆：Carbon／Antigravity的几何重建报告](../cases/carbon-1887-tower-plans-threejs-reconstruction.md) — 谁是藏镜人称用老图纸与照片，经Carbon多Agent推断几何并生成交互式铁塔展馆；没有输入图纸、工程或误差验证。 **[其他 AI 逆向 · 待验证]**
 - [Artcraft MCP重实现idea：读者玩笑式建议Adobe借Claude净室重建](../cases/adobe-claude-artcraft-mcp-reimplementation-idea.md) — King of Cups提出让Adobe用Claude重实现Artcraft的MCP集成；只是一条具名建议，没有工程、分析或Adobe采纳证据。 **[其他 AI 逆向 · 待验证]**

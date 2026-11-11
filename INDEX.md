@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2073 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2086 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（419）
-- [硬件与设备互通](categories/hardware.md)（557）
-- [应用与客户端](categories/apps.md)（848）
+- [游戏与游戏保存](categories/games.md)（421）
+- [硬件与设备互通](categories/hardware.md)（560）
+- [应用与客户端](categories/apps.md)（856）
 - [算法与功能重建](categories/algorithms.md)（249）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Mario Kart 64原生PS3移植：既有反编译、Claude协作与作者实机调试](cases/mario-kart64-ps3-psl1ght-ai-port-report.md) — yibie介绍MK64 PS3；固定README确认基于n64decomp/mk64与PSL1GHT、Claude多会话协作，作者称亲自实机测试；从自备USA ROM读数据，代码型Mod不支持。 **[其他 AI 逆向 · 进行中]**
+- [Rusted Warfare：AHpxEx称Claude Code拒绝、Codex完成反编译](cases/rusted-warfare-codex-decompilation-report.md) — AHpxEx报告对Rusted Warfare的反编译请求在Claude Code被拒、Codex则直接做完；没有版本、反编译产物或可构建与行为验证，不认定移植成功。 **[其他 AI 逆向 · 待验证]**
 - [无符号游戏二进制：Locotir称nexo与Codex同得8/10，输入token不同](cases/locotir-nexo-stripped-game-binary-token-comparison.md) — Locotir报告同模型十项检查、每组一次：Codex CLI与nexo均8/10，输入分别7.72M与3.96M token；未给游戏、检查项、模型或轨迹，不把一次自测推广成普遍节省。 **[其他 AI 逆向 · 分析测试]**
 - [AoE 2到开发者游戏：Paulius称让Claude反编译后改造](cases/paulius-aoe2-claude-decompile-dev-founder-game.md) — Paulius称用Claude反编译《帝国时代2》并做成面向开发者与创始人的游戏；有视频附件记录，但未取得源码、版本或机制对应测试。 **[其他 AI 逆向 · 待验证]**
 - [Theme Park：Demis称Gemini 4 Carbon从原二进制移植网页并加DeepMind设施](cases/gemini4-carbon-theme-park-binary-web-ride-report.md) — Baxter转述Theme Park重建；补查Demis Hassabis原帖称Gemini 4 Carbon一次逆向原游戏二进制、移植网页并添加设施，未取得源码或兼容性验证。 **[其他 AI 逆向 · 待验证]**
@@ -448,6 +450,9 @@
 
 ### 硬件与设备互通
 
+- [RK3588开发板：AI协助从预装安卓转Ubuntu24实验室路由器](cases/rk3588-android-ubuntu24-ai-lab-router-report.md) — ce3319749964称找不到Linux固件时借AI折腾RK3588开发板，刷入Ubuntu24后用作实验室核心路由器；没有板型、镜像、协议逆向步骤或路由测试。 **[其他 AI 逆向 · 待验证]**
+- [日聪蓄电池ECHONET Lite：Gemini对照HEX与遥控器，协议应答不等于执行](cases/gemini-echonet-lite-code-copy-analysis-report.md) — matsukawa回顾用Gemini生成Python，分析AiSEG3与日聪蓄电池HEX、对照遥控器恢复12字节电力与21字节排程字段；还报告应答成功却不执行、低电量待机死锁及多脚本丢失保护逻辑。 **[其他 AI 逆向 · 进行中]**
+- [Opus／OpenCV摄像头：隐藏视频流到带运动门控的目标跟踪转述](cases/opus-opencv-camera-hidden-stream-tracking-report.md) — cabbitar转述Opus5.5研究相机官方App视频流，再由OpenCV逐帧跟踪、运动触发模型识别；30fps、每两秒复核、重连和CSV均未核源码或演示。 **[其他 AI 逆向 · 待验证]**
 - [OTA故障门铃摄像头：塔可喵称用AI分析并解锁RTSP](cases/nekko-doorbell-ota-ai-rtsp-recovery.md) — 塔可喵称门铃摄像头OTA故障后，收到编程器，用AI做提权后的分析与逆向并解锁RTSP；没有型号、固件或视频流测试，不认定全部修复。 **[其他 AI 逆向 · 待验证]**
 - [一根埋墙网线兼顾iTV与上网：Pellorao的AI逆向尝试](cases/single-wall-ethernet-itv-internet-ai-study.md) — Pellorao称AI逆向初见成效，背景是光猫到电视只有一根埋墙网线，iTV和上网二选一导致WiFi盲区；没有方案、设备或验证，不补写VLAN等实现。 **[其他 AI 逆向 · 进行中]**
 - [云锁IoT本地化idea：买便宜设备，让LLM写脱云固件](cases/cloud-locked-iot-llm-local-firmware-idea.md) — 一篇离线智能家居报道转述社区建议：购买云锁IoT，用LLM生成本地固件；没有具名设备、模型、源码或实测，不把十年架构当AI成果。 **[其他 AI 逆向 · 待验证]**
@@ -1008,6 +1013,14 @@
 
 ### 应用与客户端
 
+- [846字节Electron自测：REA配对IPC，但输出316kb并漏掉inline脚本](cases/rea-tiny-electron-ipc-evidence-output-test.md) — jatingargiitk报告五文件小应用的REA终端自测：窗口、preload、contextBridge与IPC配对正确，零sender检查；冷启约10秒，846字节输入产生316kb JSON且略过HTML内联脚本。 **[REA · 分析测试]**
+- [DESIGN:OS Studio：REA研究Figma JS与.fig格式，公开Rust本地设计工具](cases/design-os-studio-figma-js-kiwi-rebuild.md) — 固定规格记录REA6.7.0研究Figma JS；缺WABT／Ghidra时改用本地kiwi读器，并对照.fig样本变量绑定。Rust／wgpu工具提供本地.fig与Agent接口，仍有保存损失、Windows测试与source-available许可边界。 **[REA · 进行中]**
+- [WorkBuddy海外版Hy4研究APK：二旬老汉报告执行，缺少目标与结果定义](cases/workbuddy-hy4-unnamed-apk-reversing-report.md) — 二旬老汉称GPT与DeepSeek拒绝APK逆向，Gemini回英文，WorkBuddy的Hy4则开始并做出来；没有APK身份、任务、代码或测试，不据此作模型能力榜。 **[其他 AI 逆向 · 待验证]**
+- [C#应用Native AOT研究：REA识别配置与设计，不等于还原C#源码](cases/rea-csharp-nativeaot-zip-json-project-study.md) — ヤーマン为简化常用应用繁琐项目设置研究ZIP内JSON，又分析PE32+ x64，借.NET10与Native AOT配置推断环境；称规格设计收获较多，但不能用ILSpy轻松转回C#。 **[REA · 分析测试]**
+- [FutureTax接入idea：itsnotasad_认为Claude需逆向加拿大报税工具](cases/claude-futuretax-integration-reversing-idea.md) — itsnotasad_称Claude擅长财务报表、发票附件和税务计算，但不能直接访问加拿大FutureTax，需要逆向；只是具名集成想法，没有实现或税务正确性证据。 **[其他 AI 逆向 · 待验证]**
+- [ProConnect Tax Tools接入idea：Claude能力与美国报税工具间的缺口](cases/claude-proconnect-tax-integration-reversing-idea.md) — itsnotasad_在同帖将美国ProConnect Tax Tools列为Claude不能直接访问、需逆向的另一目标；没有连接器、观察记录或税务流程测试。 **[其他 AI 逆向 · 待验证]**
+- [Open ReverseLab：AI逆向知识库与MCP工作台，宣传数量和平台能力有边界](cases/open-reverselab-ai-mcp-workbench-report.md) — fayzonnn介绍Ghidra／Frida／x64dbg／Rizin Agent工作台；固定README确认公开工具映射、首跑检查与证据目录，称100+工具；候选四板194文章与文档五板180+并不完全一致。 **[其他 AI 逆向 · 相关项目]**
+- [iOS相册到Immich客户端：转述REA列226操作、147实现与8.5万媒体自测](cases/ios26-photos-rea-immich-client-rebuild-report.md) — uudonX转述为自建Immich重做熟悉的苹果相册体验，Claude／REA从iOS26.3框架写行为规格；226项中147实现、8.5万照片视频与真机调优均未核原仓库。 **[REA · 进行中]**
 - [紫鸟指纹浏览器：Passenger0522提出借AI逆向自建的idea](cases/ziniao-ai-fingerprint-browser-reimplementation-idea.md) — 长期紫鸟用户Passenger0522设想借AI做指纹浏览器、配云服务器，或直接研究紫鸟；只是玩笑式具体想法，没有实现或指纹隔离测试。 **[其他 AI 逆向 · 待验证]**
 - [1887图纸到Three.js铁塔展馆：Carbon／Antigravity的几何重建报告](cases/carbon-1887-tower-plans-threejs-reconstruction.md) — 谁是藏镜人称用老图纸与照片，经Carbon多Agent推断几何并生成交互式铁塔展馆；没有输入图纸、工程或误差验证。 **[其他 AI 逆向 · 待验证]**
 - [Artcraft MCP重实现idea：读者玩笑式建议Adobe借Claude净室重建](cases/adobe-claude-artcraft-mcp-reimplementation-idea.md) — King of Cups提出让Adobe用Claude重实现Artcraft的MCP集成；只是一条具名建议，没有工程、分析或Adobe采纳证据。 **[其他 AI 逆向 · 待验证]**
