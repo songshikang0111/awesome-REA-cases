@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2048 cases & projects
+# 2057 cases & projects
 
-**Latest case update:** November 11, 2026, 04:10 · **Last maintained:** November 11, 2026, 04:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 11, 2026, 08:19 · **Last maintained:** November 11, 2026, 08:19 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: trace binary evidence, examine machine-code security claims, inspect decoys, keep devices useful and preserve games—including a new binary-to-web launch report. Inspectable methods and candid test limits matter more than one-shot claims. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: trace binary evidence, examine machine-code security claims, remove analysis decoys, keep devices useful and preserve games. LASIK's public measurements join the selection, with estimated input size kept separate from actual agent performance. Dates identify sources or author updates, not collection dates.
 
 1. **[XRef: who writes this binary field?](cases/en/alex09x-xref-serialized-status-writer-walkthrough.md)** · `2026-11-07` author post; `2026-11-06` pinned docs — **Trace serialized keys to candidate writers and instruction evidence**, with public Rust/JSON/MCP tools for analysts and agents. Rankings are heuristic, x86-64 input support is bounded, and live probes can disturb the target. Not run here. `Related project`
 2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
@@ -32,8 +32,8 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 6. **[Project Avalanche: rebuild SSX for modern PCs](cases/en/project-avalanche-ssx2012-claude-bevy-reimplementation.md)** · `2026-11-09` report and pinned project docs (Beijing time) — **Claude-assisted disc-format and behavior research becomes a Rust/Bevy reimplementation**, with documented Windows/Linux builds, snowboarding, saves and dedicated servers. Nobody has completed a full playthrough; undecoded behavior remains approximate. Bring your own Xbox 360 disc image; not built or played here. `In progress`
 7. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
 8. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
-9. **[Anti-BLA: measure the decoy before retrying REA](cases/en/anti-bla-rea-static-decoy-recovery-tests.md)** · `2026-11-10` author thread and pinned docs — **Static JS evidence and a measured ASAR header restore useful analysis on owned fixtures.** Two REA providers were unavailable; an earlier seven-question paired run showed no accuracy or token benefit. A bounded recovery experiment, not universal defeat of protection. Not rerun here. `Analysis test`
-10. **[Theme Park: original binaries to a web game with a new ride](cases/en/gemini4-carbon-theme-park-binary-web-ride-report.md)** · `2026-11-11` Demis Hassabis post (Beijing time) — Demis reports **Gemini 4 Carbon reversing his original binaries, adding a DeepMind ride and porting to the web in one shot**. Source, prompts and full-game compatibility tests were not obtained; the video was not watched here. `Unverified report`
+9. **[LASIK: make BLA-hardened builds readable again](cases/en/lasik-bla-static-deblinding-cli-mcp.md)** · `2026-11-11` report; `2026-11-10` pinned project docs — **Static CLI/MCP cleaning with public CrackMe measurements and destructive-edit regressions.** The reported 21 million → 17 thousand tokens are input estimates, not measured REA usage or successful solves; coverage remains partial. Not run here. `Analysis test`
+10. **[Anti-BLA: measure the decoy before retrying REA](cases/en/anti-bla-rea-static-decoy-recovery-tests.md)** · `2026-11-10` author thread and pinned docs — **Static JS evidence and a measured ASAR header restore useful analysis on owned fixtures.** Two REA providers were unavailable; an earlier seven-question paired run showed no accuracy or token benefit. A bounded recovery experiment, not universal defeat of protection. Not rerun here. `Analysis test`
 
 
 ## Classic cases
@@ -51,9 +51,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **418** |
-| [Hardware & interoperability](categories/en/hardware.md) | **548** |
-| [Applications & clients](categories/en/apps.md) | **836** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **246** |
+| [Hardware & interoperability](categories/en/hardware.md) | **551** |
+| [Applications & clients](categories/en/apps.md) | **840** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **248** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

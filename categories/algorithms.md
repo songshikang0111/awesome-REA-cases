@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [YouTube推荐反推idea：用AI估计预期首页，再对照缩略图标异常](../cases/youtube-expected-feed-ai-anomaly-comparison-idea.md) — 候选提出从用户元数据反推YouTube预期推荐，再比较实际首页与刷新后反复出现的缩略图，辅助异常检测；没有数据、实现或验证，不证明存在操纵。 **[其他 AI 逆向 · 待验证]**
+- [汇编块即时反编译idea：用来源感知C风格伪代码帮助人与AI调试](../cases/assembly-block-source-aware-pseudocode-debugging-idea.md) — 候选作者设想把汇编片段即时转成更大抽象块，并根据来源背景呈现C风格伪代码，供人和AI理解与调试；只是提问，没有实现或效果测试。 **[未确认使用 REA · 待验证]**
 - [SPY交易规则反推：helicerat用Opus双Agent拆穿历史100%拟合](../cases/helicerat-opus-trade-rule-builder-breaker-study.md) — 作者称Claude Code的builder从历史交易反推规则，breaker按封存年份与别的ETF检验；三特征规则从100%跌到84%，未核数据与回测。 **[其他 AI 逆向 · 分析测试]**
 - [证明群体实验：Gemini Agent逆推检查漏洞，另有Agent举报假证明](../cases/deepmind-gemini31pro-proof-swarm-exploit-reconstruction.md) — 完整转载报道称100个Gemini 3.1 Pro Agent共享数学证明，部分逆推同伴利用的检查漏洞，27分钟伪解34题；举报者24对作弊者14，未核原论文或日志。 **[其他 AI 逆向 · 分析测试]**
 - [AlphaProof Code与Signal：团队报告一个月证明生产机器码的关键安全属性](../cases/alphaproof-code-signal-machine-code-security-verification.md) — Google DeepMind团队宣布以含Gemini Carbon的LLM框架验证Signal协议生产机器码，称一个月完成；是AI辅助二进制安全分析相关项目，不是完整源码恢复或全产品安全保证。 **[其他 AI 逆向 · 相关项目]**

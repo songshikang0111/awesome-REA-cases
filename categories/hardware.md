@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [UAVHive监控互通：AI搭YOLOX／ONVIF系统并研究商业CCTV API](../cases/uavhive-yolox-onvif-commercial-cctv-api.md) — UAVHive称AI构建YOLOX视觉系统配合ONVIF，并逆向商业监控API连接不同系统；厂商、模型、接口及实际互通范围未披露。 **[其他 AI 逆向 · 待验证]**
+- [空调遥控器到IR dongle：Aleksander Data称与Claude一晚完成研究](../cases/alexdataa-claude-ac-remote-ir-dongle.md) — Aleksander Data自述借Claude研究空调遥控器并转到红外dongle，称一晚完成；未给型号、码表、代码或实际控制测试。 **[其他 AI 逆向 · 待验证]**
+- [REA Discord里的BMW：morluto回忆用户曾研究自己的车](../cases/morluto-discord-bmw-reversing-recollection.md) — REA作者morluto回忆早期Discord成员在逆向自己的BMW；没有车型、模块、工具或成果，不能据社群归属认定已用REA控制汽车。 **[未确认使用 REA · 待验证]**
 - [32年Jeep：Muhammad称Claude逆向后开始控制车辆](../cases/zulali-32year-jeep-claude-control-report.md) — Muhammad报告Claude研究并控制自己的旧Jeep，作者串补充周末实验与仓库链接；具体接口和控制范围未核，不推断自动驾驶。 **[其他 AI 逆向 · 待验证]**
 - [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](../cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
 - [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](../cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
@@ -356,7 +359,7 @@
 - [楼宇门铃实时画面：Mattia用REA与Ghidra研究固件，以树莓派替代室内屏](../cases/mattia-doorbell-rea-ghidra-rust-live-view.md) — Mattia Righetti报告从门口机ARM固件恢复UDP/XML通话机制，以树莓派接收视频，再由Rust服务与FFmpeg向浏览器提供实时画面；品牌、源码和测试日志未取得。 **[REA · 待验证]**
 - [Ride Relay：OpenCode与DeepSeek把Google Maps转向提示送到Pulsar NS200仪表](../cases/ride-relay-pulsar-ns200-google-maps.md) — Manovikram K称研究Bajaj应用后做出Android桥接，从Google Maps通知提取方向与距离并转为蓝牙包，报告实车可用，不需root或改官方APK。 **[其他 AI 逆向 · 待验证]**
 - [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](../cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；11月5日第三方补述STL测量、CAD偏差、壁厚与STEP实体重建，尚无尺寸精度或实现核验。 **[其他 AI 逆向 · 进行中]**
-- [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](../cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid公开报告Switch 2固件23.0.1的软件越狱与Codex辅助分析；明确研究花约两周大量人工投入，自动WebKit目标失败，马车Mod才是一天完成。 **[其他 AI 逆向 · 进行中]**
+- [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](../cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid报告Codex协助Switch 2研究，明确两周大量人工投入与自动目标失败；11月11日二手报道又称23.5.0封堵逃逸，未实机核验。 **[其他 AI 逆向 · 进行中]**
 - [工程机麦克风链路：Carlos Gong称Codex调固件驱动后一小时内可录音](../cases/codex-engineering-unit-microphone-path-repair.md) — Carlos Gong称Codex在工程机上修复麦克风收音链路，自己提供多次录音反馈；低底噪为主观报告，新增优化算法只是猜测。 **[其他 AI 逆向 · 待验证]**
 - [Noir M1：REA与Opus研究Windows应用，在Mac增加手势的自述](../cases/noir-m1-rea-opus-mac-gestures.md) — ARES称用REA与Opus 5.5研究Noir M1仅有Windows版的配套应用，在Mac增加手势并报告可用；硬件类型、协议与兼容范围未核。 **[REA · 待验证]**
 - [热敏标签打印机：kiter称Claude研究BLE后可不用原App与品牌标签](../cases/kiter-claude-ble-label-printer.md) — kiter称Claude逆向BLE协议后可直接打印并使用第三方标签；父帖只确认低价热敏打印机背景，未提供型号或可复核驱动。 **[其他 AI 逆向 · 待验证]**

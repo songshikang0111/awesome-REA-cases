@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [LASIK：静态清除BLA诱饵，2100万到1.7万是读入量估算而非Agent实测](../cases/lasik-bla-static-deblinding-cli-mcp.md) — LASIK提供CLI／MCP静态去保护；公开CrackMe与21格式自有样本报告大幅缩小读入体积，保留误删回归测试。没有实测REA解题、token账单或通用语义等价证明。 **[其他 AI 逆向 · 分析测试]**
+- [Humanizer DLL：Dennis Rongo称Claude Code／REA重建C#并通过170项测试](../cases/codingmenace-humanizer-rea-csharp-rebuild-test.md) — Dennis Rongo报告只给.NET DLL、不提供源码，让Claude Code与REA重建Humanizer，得到C#与170测试通过；未提供测试来源或覆盖，不等于全部行为一致。 **[REA · 分析测试]**
+- [WinMerge重建：51项通过，但Dennis Rongo提醒测试也是Claude写的](../cases/codingmenace-winmerge-rea-self-written-tests.md) — Dennis Rongo用Claude Code与REA研究无源码Windows应用WinMerge，报告51项测试通过并强调测试由Claude自编；没有原版差分或功能覆盖证据。 **[REA · 分析测试]**
+- [CTBC银行主机逆向：报道采用Bedrock AgentCore多Agent管线](../cases/ctbc-bedrock-agentcore-mainframe-reverse-engineering.md) — 日文来源标题介绍CTBC银行在Amazon Bedrock AgentCore上用多Agent管线更新主机逆向流程；目标具名，但没有取得文章正文或实施结果。 **[其他 AI 逆向 · 待验证]**
 - [Byte Downloader：Jones Byte称REA与Claude重建部分功能仍很不完整](../cases/byte-downloader-rea-incomplete-recreation-tests.md) — 开发者以自己的下载与剪辑工具测试REA／Claude重建，报告结果不完整，强调生成代码与可交付产品的差别；无逐项对照或复跑记录。 **[REA · 分析测试]**
 - [Cindy中继检查：AI指出Node.js代码明文，用户再确认单租户relay开源](../cases/cindy-relay-ai-plaintext-open-source-check.md) — 用户让AI研究Cindy中继并要求逆向，模型称代码是明文；用户随后在源码确认自部署单租户relay开源，明确不涵盖官方服务器。 **[其他 AI 逆向 · 分析测试]**
 - [Tokimi防御访问计划：先用Claude检查自己的数字信任产品与可疑文件](../cases/tokimi-claude-defense-access-product-audit-plan.md) — 时见称获Anthropic Defense Access，计划先审Timestamp、IFF Apostille、Monitor等自身产品，并隔离分析可疑文件；未报告已完成逆向或漏洞发现。 **[其他 AI 逆向 · 进行中]**

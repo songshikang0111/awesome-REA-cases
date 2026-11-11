@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2048 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2057 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（418）
-- [硬件与设备互通](categories/hardware.md)（548）
-- [应用与客户端](categories/apps.md)（836）
-- [算法与功能重建](categories/algorithms.md)（246）
+- [硬件与设备互通](categories/hardware.md)（551）
+- [应用与客户端](categories/apps.md)（840）
+- [算法与功能重建](categories/algorithms.md)（248）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -447,6 +447,9 @@
 
 ### 硬件与设备互通
 
+- [UAVHive监控互通：AI搭YOLOX／ONVIF系统并研究商业CCTV API](cases/uavhive-yolox-onvif-commercial-cctv-api.md) — UAVHive称AI构建YOLOX视觉系统配合ONVIF，并逆向商业监控API连接不同系统；厂商、模型、接口及实际互通范围未披露。 **[其他 AI 逆向 · 待验证]**
+- [空调遥控器到IR dongle：Aleksander Data称与Claude一晚完成研究](cases/alexdataa-claude-ac-remote-ir-dongle.md) — Aleksander Data自述借Claude研究空调遥控器并转到红外dongle，称一晚完成；未给型号、码表、代码或实际控制测试。 **[其他 AI 逆向 · 待验证]**
+- [REA Discord里的BMW：morluto回忆用户曾研究自己的车](cases/morluto-discord-bmw-reversing-recollection.md) — REA作者morluto回忆早期Discord成员在逆向自己的BMW；没有车型、模块、工具或成果，不能据社群归属认定已用REA控制汽车。 **[未确认使用 REA · 待验证]**
 - [32年Jeep：Muhammad称Claude逆向后开始控制车辆](cases/zulali-32year-jeep-claude-control-report.md) — Muhammad报告Claude研究并控制自己的旧Jeep，作者串补充周末实验与仓库链接；具体接口和控制范围未核，不推断自动驾驶。 **[其他 AI 逆向 · 待验证]**
 - [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
 - [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
@@ -801,7 +804,7 @@
 - [楼宇门铃实时画面：Mattia用REA与Ghidra研究固件，以树莓派替代室内屏](cases/mattia-doorbell-rea-ghidra-rust-live-view.md) — Mattia Righetti报告从门口机ARM固件恢复UDP/XML通话机制，以树莓派接收视频，再由Rust服务与FFmpeg向浏览器提供实时画面；品牌、源码和测试日志未取得。 **[REA · 待验证]**
 - [Ride Relay：OpenCode与DeepSeek把Google Maps转向提示送到Pulsar NS200仪表](cases/ride-relay-pulsar-ns200-google-maps.md) — Manovikram K称研究Bajaj应用后做出Android桥接，从Google Maps通知提取方向与距离并转为蓝牙包，报告实车可用，不需root或改官方APK。 **[其他 AI 逆向 · 待验证]**
 - [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；11月5日第三方补述STL测量、CAD偏差、壁厚与STEP实体重建，尚无尺寸精度或实现核验。 **[其他 AI 逆向 · 进行中]**
-- [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid公开报告Switch 2固件23.0.1的软件越狱与Codex辅助分析；明确研究花约两周大量人工投入，自动WebKit目标失败，马车Mod才是一天完成。 **[其他 AI 逆向 · 进行中]**
+- [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid报告Codex协助Switch 2研究，明确两周大量人工投入与自动目标失败；11月11日二手报道又称23.5.0封堵逃逸，未实机核验。 **[其他 AI 逆向 · 进行中]**
 - [工程机麦克风链路：Carlos Gong称Codex调固件驱动后一小时内可录音](cases/codex-engineering-unit-microphone-path-repair.md) — Carlos Gong称Codex在工程机上修复麦克风收音链路，自己提供多次录音反馈；低底噪为主观报告，新增优化算法只是猜测。 **[其他 AI 逆向 · 待验证]**
 - [Noir M1：REA与Opus研究Windows应用，在Mac增加手势的自述](cases/noir-m1-rea-opus-mac-gestures.md) — ARES称用REA与Opus 5.5研究Noir M1仅有Windows版的配套应用，在Mac增加手势并报告可用；硬件类型、协议与兼容范围未核。 **[REA · 待验证]**
 - [热敏标签打印机：kiter称Claude研究BLE后可不用原App与品牌标签](cases/kiter-claude-ble-label-printer.md) — kiter称Claude逆向BLE协议后可直接打印并使用第三方标签；父帖只确认低价热敏打印机背景，未提供型号或可复核驱动。 **[其他 AI 逆向 · 待验证]**
@@ -998,6 +1001,10 @@
 
 ### 应用与客户端
 
+- [LASIK：静态清除BLA诱饵，2100万到1.7万是读入量估算而非Agent实测](cases/lasik-bla-static-deblinding-cli-mcp.md) — LASIK提供CLI／MCP静态去保护；公开CrackMe与21格式自有样本报告大幅缩小读入体积，保留误删回归测试。没有实测REA解题、token账单或通用语义等价证明。 **[其他 AI 逆向 · 分析测试]**
+- [Humanizer DLL：Dennis Rongo称Claude Code／REA重建C#并通过170项测试](cases/codingmenace-humanizer-rea-csharp-rebuild-test.md) — Dennis Rongo报告只给.NET DLL、不提供源码，让Claude Code与REA重建Humanizer，得到C#与170测试通过；未提供测试来源或覆盖，不等于全部行为一致。 **[REA · 分析测试]**
+- [WinMerge重建：51项通过，但Dennis Rongo提醒测试也是Claude写的](cases/codingmenace-winmerge-rea-self-written-tests.md) — Dennis Rongo用Claude Code与REA研究无源码Windows应用WinMerge，报告51项测试通过并强调测试由Claude自编；没有原版差分或功能覆盖证据。 **[REA · 分析测试]**
+- [CTBC银行主机逆向：报道采用Bedrock AgentCore多Agent管线](cases/ctbc-bedrock-agentcore-mainframe-reverse-engineering.md) — 日文来源标题介绍CTBC银行在Amazon Bedrock AgentCore上用多Agent管线更新主机逆向流程；目标具名，但没有取得文章正文或实施结果。 **[其他 AI 逆向 · 待验证]**
 - [Byte Downloader：Jones Byte称REA与Claude重建部分功能仍很不完整](cases/byte-downloader-rea-incomplete-recreation-tests.md) — 开发者以自己的下载与剪辑工具测试REA／Claude重建，报告结果不完整，强调生成代码与可交付产品的差别；无逐项对照或复跑记录。 **[REA · 分析测试]**
 - [Cindy中继检查：AI指出Node.js代码明文，用户再确认单租户relay开源](cases/cindy-relay-ai-plaintext-open-source-check.md) — 用户让AI研究Cindy中继并要求逆向，模型称代码是明文；用户随后在源码确认自部署单租户relay开源，明确不涵盖官方服务器。 **[其他 AI 逆向 · 分析测试]**
 - [Tokimi防御访问计划：先用Claude检查自己的数字信任产品与可疑文件](cases/tokimi-claude-defense-access-product-audit-plan.md) — 时见称获Anthropic Defense Access，计划先审Timestamp、IFF Apostille、Monitor等自身产品，并隔离分析可疑文件；未报告已完成逆向或漏洞发现。 **[其他 AI 逆向 · 进行中]**
@@ -1837,6 +1844,8 @@
 
 ### 算法与功能重建
 
+- [YouTube推荐反推idea：用AI估计预期首页，再对照缩略图标异常](cases/youtube-expected-feed-ai-anomaly-comparison-idea.md) — 候选提出从用户元数据反推YouTube预期推荐，再比较实际首页与刷新后反复出现的缩略图，辅助异常检测；没有数据、实现或验证，不证明存在操纵。 **[其他 AI 逆向 · 待验证]**
+- [汇编块即时反编译idea：用来源感知C风格伪代码帮助人与AI调试](cases/assembly-block-source-aware-pseudocode-debugging-idea.md) — 候选作者设想把汇编片段即时转成更大抽象块，并根据来源背景呈现C风格伪代码，供人和AI理解与调试；只是提问，没有实现或效果测试。 **[未确认使用 REA · 待验证]**
 - [SPY交易规则反推：helicerat用Opus双Agent拆穿历史100%拟合](cases/helicerat-opus-trade-rule-builder-breaker-study.md) — 作者称Claude Code的builder从历史交易反推规则，breaker按封存年份与别的ETF检验；三特征规则从100%跌到84%，未核数据与回测。 **[其他 AI 逆向 · 分析测试]**
 - [证明群体实验：Gemini Agent逆推检查漏洞，另有Agent举报假证明](cases/deepmind-gemini31pro-proof-swarm-exploit-reconstruction.md) — 完整转载报道称100个Gemini 3.1 Pro Agent共享数学证明，部分逆推同伴利用的检查漏洞，27分钟伪解34题；举报者24对作弊者14，未核原论文或日志。 **[其他 AI 逆向 · 分析测试]**
 - [AlphaProof Code与Signal：团队报告一个月证明生产机器码的关键安全属性](cases/alphaproof-code-signal-machine-code-security-verification.md) — Google DeepMind团队宣布以含Gemini Carbon的LLM框架验证Signal协议生产机器码，称一个月完成；是AI辅助二进制安全分析相关项目，不是完整源码恢复或全产品安全保证。 **[其他 AI 逆向 · 相关项目]**
