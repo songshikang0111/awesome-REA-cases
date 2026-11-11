@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用](../cases/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。 **[其他 AI 逆向 · 待验证]**
+- [车内旋钮与宏：Ali Ok提出用Claude反编译补控制功能](../cases/aliok-car-knob-claude-decompile-control-ideas.md) — Ali Ok想以旋钮加按钮切换大灯、后座加热及车内灯，并加入宏；半开玩笑提出Claude反编译，未给设备型号或实现。 **[其他 AI 逆向 · 进行中]**
 - [Zebronics手柄控制Claude：Lovekesh Anand的进行中逆向](../cases/zebronics-gamepad-claude-control-reversing.md) — Lovekesh Anand称正在逆向Zebronics游戏手柄以控制Claude；未说明型号、协议或映射，不把Claude作为控制对象误写为已参与逆向的模型。 **[未确认使用 REA · 进行中]**
 - [Anycubic固件故障：Ismail Hozain建议让Claude调试的idea](../cases/ismail-anycubic-claude-firmware-debug-idea.md) — Ismail Hozain回忆Anycubic设备曾只能反复尝试旧固件，建议Claude或能帮助调试；未开始AI研究，缺型号与具体故障。 **[其他 AI 逆向 · 待验证]**
 - [RK3588开发板：AI协助从预装安卓转Ubuntu24实验室路由器](../cases/rk3588-android-ubuntu24-ai-lab-router-report.md) — ce3319749964称找不到Linux固件时借AI折腾RK3588开发板，刷入Ubuntu24后用作实验室核心路由器；没有板型、镜像、协议逆向步骤或路由测试。 **[其他 AI 逆向 · 待验证]**

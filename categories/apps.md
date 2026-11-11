@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [七天专注应用：作者称用REA和多模型思考与构建](../cases/rea-multimodel-seven-day-concentration-app-report.md) — 作者回复称用reverse engineer anything仓库及Opus、Gemini Flash、GLM、Claude聊天和DeepSeek，七天做了专注应用；没有原参考应用或具体逆向结果。 **[REA · 待验证]**
+- [iTunes原生跑Linux：REA热潮下的兼容愿望](../cases/itunes-native-linux-rea-idea.md) — 候选询问是否有人借REA让iTunes在Linux原生工作；这是指定应用与平台的idea，未说明已有实现。 **[REA · 进行中]**
+- [WebPrompt到Claude：把网页反推成AI设计蓝图的流程](../cases/webprompt-claude-ai-studio-website-blueprint-workflow.md) — 候选给出Google→WebPrompt→Claude→Google AI Studio流程，称可零成本逆向任意网站并生成设计蓝图；未给站点、输出或成本记录。 **[其他 AI 逆向 · 待验证]**
+- [ChatGPT测试REA：视频标题报告制作缩略图工具](../cases/chatgpt-rea-thumbnail-maker-video-test.md) — 候选分享视频I Tested Reverse Engineer Anything with ChatGPT，标题称做出Thumbnail Maker；没有可审视频内容、原参考软件或功能验证。 **[REA · 待验证]**
+- [闪卡应用涨价：sultan提出用AI逆向替代的idea](../cases/sultan-flashcard-app-ai-reversing-price-idea.md) — sultan抱怨某闪卡应用价格，建议用AI逆向；应用名称、技术路径和功能范围未明确，不是已实现替代品。 **[其他 AI 逆向 · 进行中]**
+- [Codex WechatAgent：Интерн自报逆向后把小号接入群聊](../cases/intern-codex-wechatagent-reversing-report.md) — Интерн称逆向制作基于Codex的WechatAgent，微信小号可聊天但担心当Agent用会封号；没有协议或代码，不把另一高权限Agent的能力转给此项目。 **[其他 AI 逆向 · 待验证]**
+- [L0rdIDE预告：Rust编辑器、AI连接与专用二进制分析环境](../cases/l0rdide-rust-ai-binary-analysis-environment-preview.md) — 作者预告仍在开发的L0rdIDE，列Rust原生架构、Tree-sitter、rope编辑、AI连接及专门逆向环境；未发布代码或验证AI分析能力。 **[其他 AI 逆向 · 相关项目]**
 - [846字节Electron自测：REA配对IPC，但输出316kb并漏掉inline脚本](../cases/rea-tiny-electron-ipc-evidence-output-test.md) — jatingargiitk报告五文件小应用的REA终端自测：窗口、preload、contextBridge与IPC配对正确，零sender检查；冷启约10秒，846字节输入产生316kb JSON且略过HTML内联脚本。 **[REA · 分析测试]**
 - [DESIGN:OS Studio：REA研究Figma JS与.fig格式，公开Rust本地设计工具](../cases/design-os-studio-figma-js-kiwi-rebuild.md) — 固定规格记录REA6.7.0研究Figma JS；缺WABT／Ghidra时改用本地kiwi读器，并对照.fig样本变量绑定。Rust／wgpu工具提供本地.fig与Agent接口，仍有保存损失、Windows测试与source-available许可边界。 **[REA · 进行中]**
 - [WorkBuddy海外版Hy4研究APK：二旬老汉报告执行，缺少目标与结果定义](../cases/workbuddy-hy4-unnamed-apk-reversing-report.md) — 二旬老汉称GPT与DeepSeek拒绝APK逆向，Gemini回英文，WorkBuddy的Hy4则开始并做出来；没有APK身份、任务、代码或测试，不据此作模型能力榜。 **[其他 AI 逆向 · 待验证]**

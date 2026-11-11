@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2094 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2106 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（425）
-- [硬件与设备互通](categories/hardware.md)（562）
-- [应用与客户端](categories/apps.md)（856）
+- [游戏与游戏保存](categories/games.md)（428）
+- [硬件与设备互通](categories/hardware.md)（564）
+- [应用与客户端](categories/apps.md)（863）
 - [算法与功能重建](categories/algorithms.md)（251）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [摆脱关都与GBA改版：用Claude反编译并重编译后续宝可梦的idea](cases/pokemon-gen4-plus-claude-decompile-recompile-idea.md) — 候选希望有人用Claude等模型反编译并重编译第4／5代、甚至第6代以后游戏，让改版不再局限于关都与GBA；没有启动项目或结果。 **[其他 AI 逆向 · 进行中]**
+- [Maken X Director's Cut：读者称AI用于旧格式逆向，翻译仍为人工](cases/maken-x-directors-cut-ai-old-file-format-report.md) — 读者在Maken X Director's Cut发布串称AI只辅助旧文件格式逆向、不参与翻译；串首作者宣布全人工重译和删减内容恢复，未独立核实AI具体贡献。 **[其他 AI 逆向 · 待验证]**
+- [RestedXP：作者称Claude已逆向到第六小时](cases/restedxp-claude-six-hour-reversing-attempt.md) — 回复者反对阵营攻略收费，称Claude正处于研究RestedXP的第六小时；没有提取出的内容、源码或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [穿越火线运输船：riba2534仓库记录Claude检索地图资料后重建网页FPS](cases/riba2534-crossfire-transport-ship-ai-web-rebuild.md) — 候选把合集称为老游戏逆向；补读README实际是Claude Opus5.5按公开布局与攻略重建运输船，用程序化素材做Three.js网页FPS，不是原二进制反编译。 **[其他 AI 逆向 · 待验证]**
 - [QQ飞车网页致敬：Claude参照键位与地图风格重建漂移玩法](cases/riba2534-qq-speed-ai-web-rebuild.md) — riba2534合集README称Claude先检索QQ飞车键位与攻略，脚本画赛道俯视图后实现四赛道Three.js网页竞速；没有游戏二进制分析或等价验证。 **[其他 AI 逆向 · 待验证]**
 - [游戏开发第三天：214尝试逆向其他游戏动作，纯AI角色美术仍卡关](cases/ai-game-day3-2d-animation-reconstruction-attempt.md) — 214（0xTimovo）记录AI游戏试作中从关键帧、视频抠帧、骨骼拆件到研究他游动作的多路尝试，整体效果仍差；没有具名参考游戏或成功恢复动作的证据。 **[其他 AI 逆向 · 进行中]**
@@ -454,6 +457,8 @@
 
 ### 硬件与设备互通
 
+- [富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用](cases/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。 **[其他 AI 逆向 · 待验证]**
+- [车内旋钮与宏：Ali Ok提出用Claude反编译补控制功能](cases/aliok-car-knob-claude-decompile-control-ideas.md) — Ali Ok想以旋钮加按钮切换大灯、后座加热及车内灯，并加入宏；半开玩笑提出Claude反编译，未给设备型号或实现。 **[其他 AI 逆向 · 进行中]**
 - [Zebronics手柄控制Claude：Lovekesh Anand的进行中逆向](cases/zebronics-gamepad-claude-control-reversing.md) — Lovekesh Anand称正在逆向Zebronics游戏手柄以控制Claude；未说明型号、协议或映射，不把Claude作为控制对象误写为已参与逆向的模型。 **[未确认使用 REA · 进行中]**
 - [Anycubic固件故障：Ismail Hozain建议让Claude调试的idea](cases/ismail-anycubic-claude-firmware-debug-idea.md) — Ismail Hozain回忆Anycubic设备曾只能反复尝试旧固件，建议Claude或能帮助调试；未开始AI研究，缺型号与具体故障。 **[其他 AI 逆向 · 待验证]**
 - [RK3588开发板：AI协助从预装安卓转Ubuntu24实验室路由器](cases/rk3588-android-ubuntu24-ai-lab-router-report.md) — ce3319749964称找不到Linux固件时借AI折腾RK3588开发板，刷入Ubuntu24后用作实验室核心路由器；没有板型、镜像、协议逆向步骤或路由测试。 **[其他 AI 逆向 · 待验证]**
@@ -1019,6 +1024,13 @@
 
 ### 应用与客户端
 
+- [七天专注应用：作者称用REA和多模型思考与构建](cases/rea-multimodel-seven-day-concentration-app-report.md) — 作者回复称用reverse engineer anything仓库及Opus、Gemini Flash、GLM、Claude聊天和DeepSeek，七天做了专注应用；没有原参考应用或具体逆向结果。 **[REA · 待验证]**
+- [iTunes原生跑Linux：REA热潮下的兼容愿望](cases/itunes-native-linux-rea-idea.md) — 候选询问是否有人借REA让iTunes在Linux原生工作；这是指定应用与平台的idea，未说明已有实现。 **[REA · 进行中]**
+- [WebPrompt到Claude：把网页反推成AI设计蓝图的流程](cases/webprompt-claude-ai-studio-website-blueprint-workflow.md) — 候选给出Google→WebPrompt→Claude→Google AI Studio流程，称可零成本逆向任意网站并生成设计蓝图；未给站点、输出或成本记录。 **[其他 AI 逆向 · 待验证]**
+- [ChatGPT测试REA：视频标题报告制作缩略图工具](cases/chatgpt-rea-thumbnail-maker-video-test.md) — 候选分享视频I Tested Reverse Engineer Anything with ChatGPT，标题称做出Thumbnail Maker；没有可审视频内容、原参考软件或功能验证。 **[REA · 待验证]**
+- [闪卡应用涨价：sultan提出用AI逆向替代的idea](cases/sultan-flashcard-app-ai-reversing-price-idea.md) — sultan抱怨某闪卡应用价格，建议用AI逆向；应用名称、技术路径和功能范围未明确，不是已实现替代品。 **[其他 AI 逆向 · 进行中]**
+- [Codex WechatAgent：Интерн自报逆向后把小号接入群聊](cases/intern-codex-wechatagent-reversing-report.md) — Интерн称逆向制作基于Codex的WechatAgent，微信小号可聊天但担心当Agent用会封号；没有协议或代码，不把另一高权限Agent的能力转给此项目。 **[其他 AI 逆向 · 待验证]**
+- [L0rdIDE预告：Rust编辑器、AI连接与专用二进制分析环境](cases/l0rdide-rust-ai-binary-analysis-environment-preview.md) — 作者预告仍在开发的L0rdIDE，列Rust原生架构、Tree-sitter、rope编辑、AI连接及专门逆向环境；未发布代码或验证AI分析能力。 **[其他 AI 逆向 · 相关项目]**
 - [846字节Electron自测：REA配对IPC，但输出316kb并漏掉inline脚本](cases/rea-tiny-electron-ipc-evidence-output-test.md) — jatingargiitk报告五文件小应用的REA终端自测：窗口、preload、contextBridge与IPC配对正确，零sender检查；冷启约10秒，846字节输入产生316kb JSON且略过HTML内联脚本。 **[REA · 分析测试]**
 - [DESIGN:OS Studio：REA研究Figma JS与.fig格式，公开Rust本地设计工具](cases/design-os-studio-figma-js-kiwi-rebuild.md) — 固定规格记录REA6.7.0研究Figma JS；缺WABT／Ghidra时改用本地kiwi读器，并对照.fig样本变量绑定。Rust／wgpu工具提供本地.fig与Agent接口，仍有保存损失、Windows测试与source-available许可边界。 **[REA · 进行中]**
 - [WorkBuddy海外版Hy4研究APK：二旬老汉报告执行，缺少目标与结果定义](cases/workbuddy-hy4-unnamed-apk-reversing-report.md) — 二旬老汉称GPT与DeepSeek拒绝APK逆向，Gemini回英文，WorkBuddy的Hy4则开始并做出来；没有APK身份、任务、代码或测试，不据此作模型能力榜。 **[其他 AI 逆向 · 待验证]**

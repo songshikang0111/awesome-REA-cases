@@ -10,15 +10,15 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2094 entries**, organized by use case, without a Top-N or popularity threshold.
+**2106 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (425)
-- [Hardware and interoperability](categories/en/hardware.md) (562)
-- [Applications and clients](categories/en/apps.md) (856)
+- [Games and preservation](categories/en/games.md) (428)
+- [Hardware and interoperability](categories/en/hardware.md) (564)
+- [Applications and clients](categories/en/apps.md) (863)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (251)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -28,6 +28,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Beyond Kanto and GBA hacks: an idea to decompile and recompile later Pokémon games with Claude](cases/en/pokemon-gen4-plus-claude-decompile-recompile-idea.md) — A poster asks for Claude or other models to decompile and recompile generations four, five and even six onward so hacks need not remain GBA/Kanto-based. No started project or result is supplied. **[Other AI-assisted work · In progress]**
+- [Maken X Director's Cut: a reader credits AI with old-format reversing, not translation](cases/en/maken-x-directors-cut-ai-old-file-format-report.md) — A release-thread reply says AI only helped reverse old file formats, not translate Maken X Director's Cut. The release author announces human retranslation and restored content; AI's specific contribution remains unchecked. **[Other AI-assisted work · Needs verification]**
+- [RestedXP: a poster says Claude is on hour six of reversing](cases/en/restedxp-claude-six-hour-reversing-attempt.md) — A reply objects to faction-guide pricing and says Claude is six hours into reversing RestedXP. No extracted content, source or completion evidence is supplied. **[Other AI-assisted work · In progress]**
 - [CrossFire Transport Ship: riba2534's repository reports Claude rebuilding a web FPS from map references](cases/en/riba2534-crossfire-transport-ship-ai-web-rebuild.md) — The candidate calls a collection old-game reversing. Its README instead describes Claude Opus 5.5 researching public layouts/guides and rebuilding Transport Ship with procedural Three.js assets, not decompiling an original binary. **[Other AI-assisted work · Needs verification]**
 - [A QQ Speed web homage: Claude rebuilds drifting from documented controls and track styles](cases/en/riba2534-qq-speed-ai-web-rebuild.md) — riba2534's README says Claude researched QQ Speed controls/guides, drew overhead tracks with scripts and made a four-track Three.js racer. No game-binary analysis or equivalence verification is established. **[Other AI-assisted work · Needs verification]**
 - [Game-development day three: 214 tries studying other games' motion while AI character art remains a bottleneck](cases/en/ai-game-day3-2d-animation-reconstruction-attempt.md) — 214 (0xTimovo) records attempts spanning AI keyframes, video extraction, skeletal parts and studying other games' animation. Overall results remain poor; no named reference game or successful motion recovery is evidenced. **[Other AI-assisted work · In progress]**
@@ -456,6 +459,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Fujifilm X half wireless imports: sneha reports Opus studying older protocols and building a Mac app](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha says Opus 5.5 studied open-source reversing of older Fujifilm cameras, tested an X half step by step, found Bluetooth time-slot and Wi-Fi startup-code differences, and built full-resolution JPEG imports with Google Photos uploads on Mac. **[Other AI-assisted work · Needs verification]**
+- [Car-knob controls and macros: Ali Ok suggests Claude decompilation for missing functions](cases/en/aliok-car-knob-claude-decompile-control-ideas.md) — Ali Ok wants knob-plus-button control of headlights, rear-seat heating and cabin lights, plus macros. A joking Claude-decompilation suggestion supplies no device model or implementation. **[Other AI-assisted work · In progress]**
 - [A Zebronics gamepad for controlling Claude: Lovekesh Anand's ongoing reversing project](cases/en/zebronics-gamepad-claude-control-reversing.md) — Lovekesh Anand says he is reversing a Zebronics gamepad to control Claude. Model, protocol and mappings are unspecified; Claude as the control target is not evidence it performed the reversing. **[REA use unconfirmed · In progress]**
 - [An Anycubic firmware problem: Ismail Hozain's idea to try Claude debugging](cases/en/ismail-anycubic-claude-firmware-debug-idea.md) — Ismail Hozain recalls cycling through old firmware on an Anycubic device and suggests Claude might debug the problem. No AI investigation has begun; model and failure details are unspecified. **[Other AI-assisted work · Needs verification]**
 - [RK3588 board: reported AI-assisted move from Android to an Ubuntu24 lab router](cases/en/rk3588-android-ubuntu24-ai-lab-router-report.md) — ce3319749964 reports using AI to put Ubuntu24 on an Android-preinstalled RK3588 board when Linux firmware was hard to find, then using it as a lab router. Board, image, reversing steps and routing tests are absent. **[Other AI-assisted work · Needs verification]**
@@ -1021,6 +1026,13 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [A concentration app in seven days: a poster reports REA and multiple models for planning and building](cases/en/rea-multimodel-seven-day-concentration-app-report.md) — A reply credits the reverse engineer anything repository, Opus, Gemini Flash, GLM, Claude chat and DeepSeek with a seven-day concentration-app build. No reference app or specific reversing result is supplied. **[REA · Needs verification]**
+- [Native iTunes on Linux: an interoperability wish amid REA interest](cases/en/itunes-native-linux-rea-idea.md) — A poster asks whether REA has enabled iTunes to work natively on Linux. This identifies an app and platform, not an existing implementation. **[REA · In progress]**
+- [WebPrompt to Claude: a workflow for turning websites into AI design blueprints](cases/en/webprompt-claude-ai-studio-website-blueprint-workflow.md) — A candidate lists Google → WebPrompt → Claude → Google AI Studio, claiming zero-cost reversing of any website into a design blueprint. No sample site, output or cost record is supplied. **[Other AI-assisted work · Needs verification]**
+- [Testing REA with ChatGPT: a video title reports building a thumbnail maker](cases/en/chatgpt-rea-thumbnail-maker-video-test.md) — A shared video titled I Tested Reverse Engineer Anything with ChatGPT says it built a Thumbnail Maker. Video content, reference software and functional verification were not reviewed. **[REA · Needs verification]**
+- [Flashcard-app pricing: sultan suggests an AI-reversing alternative](cases/en/sultan-flashcard-app-ai-reversing-price-idea.md) — sultan objects to an unnamed flashcard app's price and suggests AI reverse engineering. The app, technical path and functional scope remain unspecified; no replacement exists in the supplied evidence. **[Other AI-assisted work · In progress]**
+- [A Codex WechatAgent: Интерн reports reversing a group-chat bridge for a secondary account](cases/en/intern-codex-wechatagent-reversing-report.md) — Интерн reports a Codex-based WechatAgent for chatting through a secondary WeChat account, with account-ban concerns. No protocol or code is supplied; another high-privilege agent's features are not transferred to this one. **[Other AI-assisted work · Needs verification]**
+- [L0rdIDE preview: a Rust editor with AI connections and a dedicated binary-analysis environment](cases/en/l0rdide-rust-ai-binary-analysis-environment-preview.md) — A poster previews the still-in-development L0rdIDE, listing native Rust, Tree-sitter, rope editing, AI connections and a reversing environment. No released code or AI-analysis capability was verified. **[Other AI-assisted work · Related project]**
 - [An 846-byte Electron test: REA pairs IPC, but emits 316kb and misses inline script](cases/en/rea-tiny-electron-ipc-evidence-output-test.md) — jatingargiitk reports a five-file REA terminal test: correct window, preload, contextBridge and IPC mapping, with zero sender checks. Roughly ten seconds cold; 846 bytes produce 316kb JSON, while an HTML inline script is skipped. **[REA · Analysis test]**
 - [DESIGN:OS Studio: reported REA research on Figma JS and .fig, with a public native Rust designer](cases/en/design-os-studio-figma-js-kiwi-rebuild.md) — Pinned specs record REA 6.7.0 studying Figma JS, a local kiwi reader used without WABT/Ghidra, and .fig style-binding comparisons. The Rust/wgpu designer offers local .fig and agent interfaces, with save losses, Windows-test and source-available-license limits. **[REA · In progress]**
 - [WorkBuddy overseas Hy4 APK study: leeking420 reports execution without a defined target or result](cases/en/workbuddy-hy4-unnamed-apk-reversing-report.md) — leeking420 says GPT and DeepSeek refused APK reversing, Gemini replied in English, and WorkBuddy's Hy4 proceeded and delivered. APK identity, task, code and tests are absent; this is not a model ranking. **[Other AI-assisted work · Needs verification]**

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [摆脱关都与GBA改版：用Claude反编译并重编译后续宝可梦的idea](../cases/pokemon-gen4-plus-claude-decompile-recompile-idea.md) — 候选希望有人用Claude等模型反编译并重编译第4／5代、甚至第6代以后游戏，让改版不再局限于关都与GBA；没有启动项目或结果。 **[其他 AI 逆向 · 进行中]**
+- [Maken X Director's Cut：读者称AI用于旧格式逆向，翻译仍为人工](../cases/maken-x-directors-cut-ai-old-file-format-report.md) — 读者在Maken X Director's Cut发布串称AI只辅助旧文件格式逆向、不参与翻译；串首作者宣布全人工重译和删减内容恢复，未独立核实AI具体贡献。 **[其他 AI 逆向 · 待验证]**
+- [RestedXP：作者称Claude已逆向到第六小时](../cases/restedxp-claude-six-hour-reversing-attempt.md) — 回复者反对阵营攻略收费，称Claude正处于研究RestedXP的第六小时；没有提取出的内容、源码或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [穿越火线运输船：riba2534仓库记录Claude检索地图资料后重建网页FPS](../cases/riba2534-crossfire-transport-ship-ai-web-rebuild.md) — 候选把合集称为老游戏逆向；补读README实际是Claude Opus5.5按公开布局与攻略重建运输船，用程序化素材做Three.js网页FPS，不是原二进制反编译。 **[其他 AI 逆向 · 待验证]**
 - [QQ飞车网页致敬：Claude参照键位与地图风格重建漂移玩法](../cases/riba2534-qq-speed-ai-web-rebuild.md) — riba2534合集README称Claude先检索QQ飞车键位与攻略，脚本画赛道俯视图后实现四赛道Three.js网页竞速；没有游戏二进制分析或等价验证。 **[其他 AI 逆向 · 待验证]**
 - [游戏开发第三天：214尝试逆向其他游戏动作，纯AI角色美术仍卡关](../cases/ai-game-day3-2d-animation-reconstruction-attempt.md) — 214（0xTimovo）记录AI游戏试作中从关键帧、视频抠帧、骨骼拆件到研究他游动作的多路尝试，整体效果仍差；没有具名参考游戏或成功恢复动作的证据。 **[其他 AI 逆向 · 进行中]**

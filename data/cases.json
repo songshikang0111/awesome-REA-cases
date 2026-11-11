@@ -1,5 +1,197 @@
 [
   {
+    "id": "fujifilm-x-half-opus-wireless-mac-import-report",
+    "title": "富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。",
+    "description": "2026年11月12日01:09:43（北京时间），sneha（@itspsneha）报告用Opus5.5研究富士X half相机的无线通信。动机是希望绕开手机，在笔记本直接浏览、选择照片并上传Google Photos；没有桌面应用是作者当时的判断，不是本合集对官方产品的调查结论。\n\n作者说模型参考了研究老款富士相机的开源项目，再逐步对自己的实机试验；据报发现X half在不同蓝牙槽位接收时间、需要较旧Wi-Fi启动码，并以finepix xp170标识旧协议。作者称最终Mac应用能蓝牙配对、唤醒相机Wi-Fi并自动加入、显示全部照片、按拍摄日导入全分辨率JPEG，结束后切回原Wi-Fi，并内置Google Photos上传。这些是作者报告的行为，不是已审查的报文规范或跨型号兼容表。\n\n补取原帖确认署名与正文，存在四张图片但本合集未分析图片。没有已审仓库、协议抓包、实现版本、逐项测试日志或上传授权机制；不能推断RAW、视频、后台同步或其他富士机型支持。one prompt为作者概括，同时正文明确包含多步实机试验，不写成无需迭代。REA未提及，本合集未连接相机、运行应用或访问照片与账号。",
+    "sources": [{"label": "sneha的X half协议研究与Mac应用自述，2026-11-12 01:09:43北京时间", "url": "https://x.com/i/status/2120564643701915884"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存候选19赞、822浏览、0转发；补取只核署名和正文，不覆盖原快照。"],
+    "en": {
+      "title": "Fujifilm X half wireless imports: sneha reports Opus studying older protocols and building a Mac app",
+      "summary": "sneha says Opus 5.5 studied open-source reversing of older Fujifilm cameras, tested an X half step by step, found Bluetooth time-slot and Wi-Fi startup-code differences, and built full-resolution JPEG imports with Google Photos uploads on Mac.",
+      "description": "At 01:09:43 Beijing time on November 12, 2026, sneha (@itspsneha) reports using Opus 5.5 to study wireless communication with a Fujifilm X half camera. The goal was browsing and selecting photos directly on a laptop and uploading to Google Photos without a phone. The absence of a desktop app is the author's assessment at the time, not a survey of official products by this collection.\n\nThe author says the model consulted open-source projects reversing older Fujifilm cameras, then tested the author's own camera incrementally. Reported findings are a different Bluetooth slot for the time, an older Wi-Fi startup code, and an old protocol identifying itself as finepix xp170. The resulting Mac app reportedly pairs over Bluetooth, wakes and automatically joins camera Wi-Fi, shows all photos, imports full-resolution JPEGs organized by shooting date, returns to the original Wi-Fi afterward, and includes Google Photos uploads. These are author-reported behaviors, not reviewed packet specifications or a cross-model compatibility table.\n\nRetrieval confirms attribution and text. Four images are present but were not analyzed here. No repository, packet capture, implementation revision, itemized test logs or upload-authorization mechanism was reviewed. RAW, video, background synchronization and support for other Fujifilm models are not inferred. One prompt is the author's shorthand; the text explicitly includes multiple hardware-testing steps and is not described as iteration-free. REA is unmentioned. This collection connected no camera, ran no app and accessed no photos or accounts.",
+      "metadata": ["Sealed candidate: 19 likes, 822 views, 0 reposts. Retrieval checked attribution and text without replacing the original snapshot."],
+      "source_labels": ["sneha's X half protocol research and Mac-app report, November 12, 2026 at 01:09:43 Beijing time"]
+    }
+  },
+  {
+    "id": "pokemon-gen4-plus-claude-decompile-recompile-idea",
+    "title": "摆脱关都与GBA改版：用Claude反编译并重编译后续宝可梦的idea",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "候选希望有人用Claude等模型反编译并重编译第4／5代、甚至第6代以后游戏，让改版不再局限于关都与GBA；没有启动项目或结果。",
+    "description": "2026年11月12日00:13:59（北京时间），一则候选请求有人用Claude或其他模型反编译并重编译gen 4、5乃至6+游戏，希望摆脱关都与GBA基础的重复内容。宝可梦系列的识别来自关都、GBA和世代语境；正文没有给具体版本名，不擅自选定某部作品。\n\n这是面向后续世代游戏重建与改版的具体愿望，不是作者宣称已得到源码或原生移植。它不同于已有心金／魂银多Agent费用转述或Diamond提示词对照实验，不把这些既有工作当作此帖的完成证据。\n\n没有ROM、工具链、平台、仓库、工时或匹配测试。in-progress只表示未交付idea，不表示已开工；REA未提及，作者身份在封存材料中缺失。本合集未下载游戏、执行模型或核验可行性。",
+    "sources": [{"label": "后续世代反编译／重编译愿望，2026-11-12 00:13:59北京时间", "url": "https://x.com/i/status/2120550617894543554"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选9赞、841浏览、0转发；世代范围是愿望，不是已覆盖游戏数量。"],
+    "en": {
+      "title": "Beyond Kanto and GBA hacks: an idea to decompile and recompile later Pokémon games with Claude",
+      "summary": "A poster asks for Claude or other models to decompile and recompile generations four, five and even six onward so hacks need not remain GBA/Kanto-based. No started project or result is supplied.",
+      "description": "At 00:13:59 Beijing time on November 12, 2026, a candidate asks someone to use Claude or another model to decompile and recompile gen 4, 5 or even 6+ games, moving beyond repeated Kanto and GBA-based content. Identification as Pokémon follows the Kanto, GBA and generation context. No particular edition is named, and none is assigned here.\n\nThis is a concrete wish for later-generation game reconstruction and modification, not a claim of recovered source or a native port. It differs from existing HeartGold/SoulSilver multi-agent cost reports and Diamond prompt-comparison tests; those earlier projects are not evidence that this request has been fulfilled.\n\nNo ROM, toolchain, platform, repository, duration or matching tests are supplied. In-progress denotes an undelivered idea, not work known to have started. REA is unmentioned and author identity is absent from the sealed material. This collection downloaded no game, executed no model and did not verify feasibility.",
+      "metadata": ["Candidate: 9 likes, 841 views, 0 reposts. Generation scope describes a wish, not a count of supported games."],
+      "source_labels": ["Request for later-generation decompilation/recompilation, November 12, 2026 at 00:13:59 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-multimodel-seven-day-concentration-app-report",
+    "title": "七天专注应用：作者称用REA和多模型思考与构建",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "作者回复称用reverse engineer anything仓库及Opus、Gemini Flash、GLM、Claude聊天和DeepSeek，七天做了专注应用；没有原参考应用或具体逆向结果。",
+    "description": "2026年11月12日00:51:53（北京时间），一则回复自述七天制作concentration app，称只用了reverse engineer anything仓库，并用Opus、Gemini Flash、GLM、Claude聊天和原文拼为deepseak的模型来思考与构建。按明确REA使用与应用目标宽松收录，不据多模型名单推断任务分工。\n\n目标是专注应用，但没有参考产品、平台、被分析二进制、恢复功能、仓库或演示。不能补写计时器、屏蔽网站、番茄钟或与某付费产品等价；seven days是作者自述周期，不是测得工时或全程自主运行。\n\n封存候选没有作者署名，未独立核实应用可用性、模型版本、REA调用或代码。本合集未安装应用、访问私有会话或执行目标。",
+    "sources": [{"label": "七天专注应用与REA／多模型使用自述，2026-11-12 00:51:53北京时间", "url": "https://x.com/i/status/2120560154970407020"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选0赞、42浏览、0转发；七天是作者描述，不代表连续计算时长。"],
+    "en": {
+      "title": "A concentration app in seven days: a poster reports REA and multiple models for planning and building",
+      "summary": "A reply credits the reverse engineer anything repository, Opus, Gemini Flash, GLM, Claude chat and DeepSeek with a seven-day concentration-app build. No reference app or specific reversing result is supplied.",
+      "description": "At 00:51:53 Beijing time on November 12, 2026, a reply reports making a concentration app in seven days using the reverse engineer anything repository, with Opus, Gemini Flash, GLM, Claude chat and a model spelled deepseak in the original for thinking and building. It is broadly included for explicit REA use and a concrete app goal, without inventing a division of labor among models.\n\nThe target is a concentration app, but no reference product, platform, analyzed binary, recovered feature, repository or demonstration is identified. A timer, website blocking, Pomodoro features or equivalence to a paid product are not invented. Seven days is the author's elapsed-time claim, not measured labor or continuous autonomous execution.\n\nThe sealed candidate lacks author attribution. App usability, model versions, REA calls and code have not been independently checked. This collection installed no app, accessed no private sessions and executed no target.",
+      "metadata": ["Candidate: 0 likes, 42 views, 0 reposts. Seven days is author wording, not continuous compute time."],
+      "source_labels": ["Report of a seven-day concentration app using REA and multiple models, November 12, 2026 at 00:51:53 Beijing time"]
+    }
+  },
+  {
+    "id": "itunes-native-linux-rea-idea",
+    "title": "iTunes原生跑Linux：REA热潮下的兼容愿望",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "候选询问是否有人借REA让iTunes在Linux原生工作；这是指定应用与平台的idea，未说明已有实现。",
+    "description": "2026年11月12日00:52:08（北京时间），候选在reverse engineer anything热潮背景下询问：是否有人已让iTunes在Linux原生工作。目标是苹果音乐管理应用的Linux互通，不是笼统复制界面。\n\n这是疑问和愿望，不是已宣布的移植项目。它不同于已有用AI现代化旧iPod音乐工作流的idea；原帖没有限定iTunes版本、CPU、设备同步、商店或DRM范围，不能擅自补齐这些功能。\n\n无仓库、分析步骤、演示或测试，in-progress表示未交付意向，不证明作者开工。REA仅在问题背景中出现，不表示实际运行；封存材料无署名，本合集未下载或运行iTunes。",
+    "sources": [{"label": "REA背景下iTunes原生Linux问题，2026-11-12 00:52:08北京时间", "url": "https://x.com/i/status/2120560215565516877"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选0赞、8浏览、0转发；未报告成功移植。"],
+    "en": {
+      "title": "Native iTunes on Linux: an interoperability wish amid REA interest",
+      "summary": "A poster asks whether REA has enabled iTunes to work natively on Linux. This identifies an app and platform, not an existing implementation.",
+      "description": "At 00:52:08 Beijing time on November 12, 2026, a candidate asks whether anyone has made iTunes work natively on Linux amid reverse engineer anything interest. The goal is Linux interoperability for Apple's music-management application, not merely copying its interface.\n\nThis is a question and wish, not an announced port. It differs from the existing idea of using AI to modernize an old iPod music workflow. The post does not specify an iTunes version, CPU, device synchronization, store or DRM scope; those features are not supplied here.\n\nNo repository, analysis steps, demonstration or tests are available. In-progress means an undelivered intention, not known development. REA appears in the question's context, not as evidence of execution. The sealed material lacks attribution and this collection did not download or run iTunes.",
+      "metadata": ["Candidate: 0 likes, 8 views, 0 reposts. No successful port is reported."],
+      "source_labels": ["Question about native Linux iTunes in the REA context, November 12, 2026 at 00:52:08 Beijing time"]
+    }
+  },
+  {
+    "id": "aliok-car-knob-claude-decompile-control-ideas",
+    "title": "车内旋钮与宏：Ali Ok提出用Claude反编译补控制功能",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Ali Ok想以旋钮加按钮切换大灯、后座加热及车内灯，并加入宏；半开玩笑提出Claude反编译，未给设备型号或实现。",
+    "description": "2026年11月12日01:03:37（北京时间），Ali Ok（@aliok_tr）列出希望加入的车内旋钮控制：旋钮加按钮关全部大灯并回到自动、类似动作控制全部后座加热、开关顶灯和乘客阅读灯，以及Knob的宏支持。作者说灯控制并非总能工作，但没有测试条件或故障原因。\n\n作者以别逼我用Claude反编译的玩笑结尾。按具体现有控制装置扩展idea收录，不写成已分析固件或已修复灯光。没有证据确认汽车品牌、旋钮型号、应用或协议，不能从Knob一词自行指定厂商。\n\n补取原帖确认署名与正文。没有代码、反编译产物、模型版本、实车演示或安全验证；这些涉及照明与加热的愿望不构成车辆操作建议。本合集未执行控制指令或接入车辆，REA未提及。",
+    "sources": [{"label": "Ali Ok的车内旋钮功能与Claude反编译idea，2026-11-12 01:03:37北京时间", "url": "https://x.com/i/status/2120563107525267616"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选0赞、14浏览、0转发；不是成功率或功能验证。"],
+    "en": {
+      "title": "Car-knob controls and macros: Ali Ok suggests Claude decompilation for missing functions",
+      "summary": "Ali Ok wants knob-plus-button control of headlights, rear-seat heating and cabin lights, plus macros. A joking Claude-decompilation suggestion supplies no device model or implementation.",
+      "description": "At 01:03:37 Beijing time on November 12, 2026, Ali Ok (@aliok_tr) lists desired car-knob actions: turn all headlights off and revert to automatic with knob plus button, similar control of all rear-seat heaters, toggle dome and passenger map lights, and add macro support in the Knob. The author says lighting control does not always work, without test conditions or a cause.\n\nThe post ends with a joking warning about decompiling with Claude. It is included as a concrete extension idea for an existing controller, not analyzed firmware or repaired lighting. Car brand, knob model, app and protocol are unconfirmed; a vendor is not assigned from the word Knob.\n\nRetrieval confirms attribution and text. No code, decompilation artifact, model revision, vehicle demonstration or safety validation is supplied. Wishes involving lighting and heating are not vehicle-operation advice. This collection issued no control commands and connected to no car. REA is unmentioned.",
+      "metadata": ["Candidate: 0 likes, 14 views, 0 reposts, not a success rate or functional validation."],
+      "source_labels": ["Ali Ok's car-knob functions and Claude-decompilation idea, November 12, 2026 at 01:03:37 Beijing time"]
+    }
+  },
+  {
+    "id": "webprompt-claude-ai-studio-website-blueprint-workflow",
+    "title": "WebPrompt到Claude：把网页反推成AI设计蓝图的流程",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "候选给出Google→WebPrompt→Claude→Google AI Studio流程，称可零成本逆向任意网站并生成设计蓝图；未给站点、输出或成本记录。",
+    "description": "2026年11月12日01:32:01（北京时间），候选声称找到零美元逆向任意网站的方法，把网页变成给AI使用的设计蓝图。明确列出的链路是Google→WebPrompt→Claude→Google AI Studio。按网页设计行为／外观反推的具体工作流收录，而非已证明任意网站都可复制。\n\n正文没有解释各阶段输入、提示词、浏览器状态、提取资源或蓝图格式，也没有具名样本站点和生成结果。不能推断恢复服务端、登录后功能、源码或完整功能等价；零美元是宣传主张，没有账单或免费额度条件。\n\n封存材料未提供作者署名，未审所附短链视频或代码，REA没有提及。本合集未运行工具链或重建网站，状态为unverified。",
+    "sources": [{"label": "WebPrompt／Claude网页设计蓝图工作流宣称，2026-11-12 01:32:01北京时间", "url": "https://x.com/i/status/2120570253679759661"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选1赞、12浏览、0转发；任意网站和零美元均未验证。"],
+    "en": {
+      "title": "WebPrompt to Claude: a workflow for turning websites into AI design blueprints",
+      "summary": "A candidate lists Google → WebPrompt → Claude → Google AI Studio, claiming zero-cost reversing of any website into a design blueprint. No sample site, output or cost record is supplied.",
+      "description": "At 01:32:01 Beijing time on November 12, 2026, a candidate claims a $0 method to reverse-engineer any website into a design blueprint for AI. The explicit chain is Google → WebPrompt → Claude → Google AI Studio. It is included as a concrete workflow for inferring web design or appearance, not proof that any website can be copied.\n\nThe text explains no stage inputs, prompts, browser state, resource extraction or blueprint format, and names no sample site or generated result. Backend recovery, authenticated features, source recovery and full functional equivalence are not inferred. Zero dollars is a promotional claim without invoices or free-tier conditions.\n\nThe sealed material lacks author attribution. Linked short-form media and code were not reviewed. REA is unmentioned. This collection did not run the chain or rebuild a website; status is unverified.",
+      "metadata": ["Candidate: 1 like, 12 views, 0 reposts. Any website and $0 are unverified claims."],
+      "source_labels": ["WebPrompt/Claude website-design blueprint workflow claim, November 12, 2026 at 01:32:01 Beijing time"]
+    }
+  },
+  {
+    "id": "chatgpt-rea-thumbnail-maker-video-test",
+    "title": "ChatGPT测试REA：视频标题报告制作缩略图工具",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "候选分享视频I Tested Reverse Engineer Anything with ChatGPT，标题称做出Thumbnail Maker；没有可审视频内容、原参考软件或功能验证。",
+    "description": "2026年11月12日01:35:38（北京时间），候选分享YouTube视频，标题为I Tested Reverse Engineer Anything with ChatGPT | Built a Thumbnail Maker。明确结果目标是缩略图制作工具，模型为标题所称ChatGPT；按标题级REA实验报告宽松收录。\n\n未观看视频、阅读字幕或取得项目代码，不知道被分析的原软件、输入素材、平台、模型版本或具体恢复功能。标题的Built是作者声明，不能据此推断应用完成度、图像生成能力、成功运行或独立测试。\n\n封存材料无作者署名；分享时间不是视频原始发布或开发日期。本合集未执行目标或安装依赖，保留unverified。",
+    "sources": [{"label": "分享ChatGPT／REA缩略图工具实验的视频标题，2026-11-12 01:35:38北京时间", "url": "https://x.com/i/status/2120571163600617552"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选0赞、5浏览、0转发；只有标题级结果，非视频内容核验。"],
+    "en": {
+      "title": "Testing REA with ChatGPT: a video title reports building a thumbnail maker",
+      "summary": "A shared video titled I Tested Reverse Engineer Anything with ChatGPT says it built a Thumbnail Maker. Video content, reference software and functional verification were not reviewed.",
+      "description": "At 01:35:38 Beijing time on November 12, 2026, a candidate shares a YouTube video titled I Tested Reverse Engineer Anything with ChatGPT | Built a Thumbnail Maker. A thumbnail-making tool is the explicit output target, and ChatGPT is the model named in the title. It is broadly retained as a title-level REA experiment report.\n\nThe video and transcripts were not inspected and no code was obtained. The analyzed reference software, input assets, platform, model revision and recovered features are unknown. Built is an author claim in the title, not evidence of completeness, image generation, successful operation or independent testing.\n\nThe sealed material lacks attribution. Sharing time is not the video's original publication or development date. This collection executed no target and installed no dependencies. Status remains unverified.",
+      "metadata": ["Candidate: 0 likes, 5 views, 0 reposts. Title-level result only, not verification of video content."],
+      "source_labels": ["Shared video title about a ChatGPT/REA thumbnail-maker test, November 12, 2026 at 01:35:38 Beijing time"]
+    }
+  },
+  {
+    "id": "maken-x-directors-cut-ai-old-file-format-report",
+    "title": "Maken X Director's Cut：读者称AI用于旧格式逆向，翻译仍为人工",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "读者在Maken X Director's Cut发布串称AI只辅助旧文件格式逆向、不参与翻译；串首作者宣布全人工重译和删减内容恢复，未独立核实AI具体贡献。",
+    "description": "2026年11月12日02:05:11（北京时间），Tetsugoro Kusabi（@sayanoputa）回复有关AI的争论，称所涉项目没有AI翻译，AI仅用于逆向过时文件格式。补读直接父帖2120557150435266741及串首2120545522482303277，确认目标是Aspen（@AspenVesper）发布的Maken X: Director's Cut；不将无具名目标的回复孤立理解。\n\n串首发表于11月11日23:53:45北京时间，早于本轮窗口，是辨认目标的补充来源，不是本轮新候选。Aspen宣布项目可用，列全人工重译、恢复原名、日语配音、恢复含compendium的删减内容，以及未删改纹理、模型与过场。以上是发布作者的功能声明；AI研究旧格式的归因来自回复者，串首正文未说明AI工具。\n\n没有已审格式规格、模型、仓库、补丁、授权或对照测试，无法确认AI恢复了哪些结构或它是否直接促成每项内容恢复。不能把人工翻译写成AI翻译，也不能把第三方争论当作者完整开发记录。REA未提及，本合集未下载或运行游戏／补丁，状态unverified。",
+    "sources": [{"label": "候选回复：AI仅用于旧格式研究而非翻译，2026-11-12 02:05:11北京时间", "url": "https://x.com/i/status/2120578598910173213"}, {"label": "补充串首：Aspen宣布Maken X Director's Cut，2026-11-11 23:53:45北京时间，早于窗口", "url": "https://x.com/i/status/2120545522482303277"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选封存0赞、28浏览、0转发；补充发布帖热度不当作候选快照。"],
+    "en": {
+      "title": "Maken X Director's Cut: a reader credits AI with old-format reversing, not translation",
+      "summary": "A release-thread reply says AI only helped reverse old file formats, not translate Maken X Director's Cut. The release author announces human retranslation and restored content; AI's specific contribution remains unchecked.",
+      "description": "At 02:05:11 Beijing time on November 12, 2026, Tetsugoro Kusabi (@sayanoputa) replies to an AI dispute, saying the project uses no AI for translation and only uses it for reversing outdated file formats. Reading direct parent 2120557150435266741 and thread root 2120545522482303277 identifies Aspen (@AspenVesper)'s Maken X: Director's Cut, rather than interpreting a targetless reply in isolation.\n\nThe root was published at 23:53:45 Beijing time on November 11, before this window. It is supplementary target-identification evidence, not a new candidate. Aspen announces availability, full human retranslation, restored original names, Japanese voice acting, restored cut content including a compendium, and uncensored textures, models and cutscenes. These are the release author's feature claims. AI attribution for old-format research comes from the replying reader, not the root's text.\n\nNo format specification, model, repository, patch, permission or comparison tests were reviewed. Which structures AI recovered and whether it enabled each restored feature are unknown. Human translation is not recast as AI translation, nor a third-party dispute as the author's complete development record. REA is unmentioned. This collection downloaded or ran neither game nor patch. Status is unverified.",
+      "metadata": ["Sealed candidate: 0 likes, 28 views, 0 reposts. Supplementary release-post engagement is not substituted for the candidate snapshot."],
+      "source_labels": ["Candidate reply: AI for old-format research, not translation, November 12, 2026 at 02:05:11 Beijing time", "Supplementary thread root: Aspen announces Maken X Director's Cut, November 11, 2026 at 23:53:45 Beijing time, before the window"]
+    }
+  },
+  {
+    "id": "restedxp-claude-six-hour-reversing-attempt",
+    "title": "RestedXP：作者称Claude已逆向到第六小时",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "回复者反对阵营攻略收费，称Claude正处于研究RestedXP的第六小时；没有提取出的内容、源码或完成证据。",
+    "description": "2026年11月12日03:14:56（北京时间），一名回复者在攻略工具讨论中称，每阵营攻略收费30美元不合理，并报告Claude正在逆向restedxp，已到第六小时。目标是具名游戏攻略／插件RestedXP；收费是作者抱怨，不是本合集核对的官方价目。\n\n作者还声称收费插件可能违反服务条款，但没有提供条文；本合集不作合法性结论。第六小时表明作者报告的进行中尝试，不意味着六小时已经成功恢复攻略、绕过访问控制或完成可用替代品。\n\n没有版本、代码、工具链、模型细分、分析样本或测试结果，封存候选没有署名。REA未提及，本合集未获取付费内容、执行目标或验证费用，保留in-progress。",
+    "sources": [{"label": "RestedXP第六小时Claude研究自述，2026-11-12 03:14:56北京时间", "url": "https://x.com/i/status/2120596152773153150"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选0赞、2浏览、0转发；30美元和第六小时均为作者说法，非核验价格或工时。"],
+    "en": {
+      "title": "RestedXP: a poster says Claude is on hour six of reversing",
+      "summary": "A reply objects to faction-guide pricing and says Claude is six hours into reversing RestedXP. No extracted content, source or completion evidence is supplied.",
+      "description": "At 03:14:56 Beijing time on November 12, 2026, a reply in a guide-tool discussion calls $30 per faction guide unreasonable and says Claude is on hour six of reverse-engineering restedxp. The target is the named game-guide/addon product RestedXP. Pricing is the poster's complaint, not an official price list checked here.\n\nThe poster also suggests paid addons may violate terms of service without citing a clause; this collection draws no legal conclusion. Hour six describes an ongoing attempt, not successful guide recovery, bypassed access control or a usable replacement completed in six hours.\n\nNo version, code, toolchain, specific model, analysis sample or tests are supplied; the sealed candidate lacks attribution. REA is unmentioned. This collection obtained no paid content, ran no target and verified no pricing. Status remains in-progress.",
+      "metadata": ["Candidate: 0 likes, 2 views, 0 reposts. $30 and hour six are author claims, not checked pricing or measured labor."],
+      "source_labels": ["Report of Claude on hour six of RestedXP reversing, November 12, 2026 at 03:14:56 Beijing time"]
+    }
+  },
+  {
+    "id": "sultan-flashcard-app-ai-reversing-price-idea",
+    "title": "闪卡应用涨价：sultan提出用AI逆向替代的idea",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "sultan抱怨某闪卡应用价格，建议用AI逆向；应用名称、技术路径和功能范围未明确，不是已实现替代品。",
+    "description": "2026年11月12日03:34:12（北京时间），sultan（@stileighteen）用阿拉伯语说某个闪卡应用开始在价格上利用用户，建议简单用AI对它做Reverse engineering。目标类别与价格动机具体，但正文没有应用名称；不能自行当成Anki、Quizlet或其他品牌。\n\n这是面向特定但未具名闪卡产品的替代idea，不是收费核实、文件格式恢复或已写出开源复刻。补取原帖确认署名与正文并存在一张图片，但图片未分析，功能和名称仍不确定。\n\n无模型、代码、协议、分析步骤、花费或成果；in-progress只表示未交付意向，不表示开工。REA未提及，本合集未安装应用或访问用户学习数据。",
+    "sources": [{"label": "sultan的闪卡应用AI逆向idea，2026-11-12 03:34:12北京时间", "url": "https://x.com/i/status/2120601001535443046"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选0赞、14浏览、0转发；价格评价是作者观点，没有核实价目。"],
+    "en": {
+      "title": "Flashcard-app pricing: sultan suggests an AI-reversing alternative",
+      "summary": "sultan objects to an unnamed flashcard app's price and suggests AI reverse engineering. The app, technical path and functional scope remain unspecified; no replacement exists in the supplied evidence.",
+      "description": "At 03:34:12 Beijing time on November 12, 2026, sultan (@stileighteen) says in Arabic that a flashcard app is exploiting users through pricing and suggests reverse-engineering it with AI. The app category and pricing motivation are concrete, but the text names no app. It is not assigned to Anki, Quizlet or another brand.\n\nThis is an alternative-product idea aimed at a particular but unnamed flashcard product, not verified pricing, recovered file formats or an existing open-source clone. Retrieval confirms attribution and text and the presence of an image. The image was not analyzed, leaving the name and features unresolved.\n\nNo model, code, protocol, analysis steps, spending or result is given. In-progress denotes an undelivered intention, not work known to have started. REA is unmentioned. This collection installed no app and accessed no learning data.",
+      "metadata": ["Candidate: 0 likes, 14 views, 0 reposts. Pricing criticism is author opinion, not a checked price list."],
+      "source_labels": ["sultan's flashcard-app AI-reversing idea, November 12, 2026 at 03:34:12 Beijing time"]
+    }
+  },
+  {
+    "id": "intern-codex-wechatagent-reversing-report",
+    "title": "Codex WechatAgent：Интерн自报逆向后把小号接入群聊",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Интерн称逆向制作基于Codex的WechatAgent，微信小号可聊天但担心当Agent用会封号；没有协议或代码，不把另一高权限Agent的能力转给此项目。",
+    "description": "2026年11月12日03:43:19（北京时间），Интерн..（@In_TerNationale）称逆向做了一个基于codex的WechatAgent，现在微信里有两条AI入口。作者给出的动机是看不惯浅色中文UI，以及以后有钱时方便订阅GPT；具体逆向了哪个客户端或接口没有交代。\n\n作者区分两者：既有龙虾权限较高，适合监工、操作手机电脑并保存个人长期记忆；新Codex小号可用于群聊，但作为Agent使唤担心封号。不能把前者的设备控制、权限和记忆归给WechatAgent，也不能推断规避平台限制的方法或官方授权。\n\n补取原帖确认署名与正文，存在两张图片但未分析。没有仓库、协议、模型版本、登录方式或测试日志，不知道逆向研究由Codex执行还是只把Codex接成后端。REA未提及，本合集未登录微信、读取聊天或执行程序，状态unverified。",
+    "sources": [{"label": "Интерн的Codex WechatAgent自述，2026-11-12 03:43:19北京时间", "url": "https://x.com/i/status/2120603298420142215"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选1赞、12浏览、0转发；封号顾虑是作者判断，不是已发生封禁。"],
+    "en": {
+      "title": "A Codex WechatAgent: Интерн reports reversing a group-chat bridge for a secondary account",
+      "summary": "Интерн reports a Codex-based WechatAgent for chatting through a secondary WeChat account, with account-ban concerns. No protocol or code is supplied; another high-privilege agent's features are not transferred to this one.",
+      "description": "At 03:43:19 Beijing time on November 12, 2026, Интерн.. (@In_TerNationale) says they reverse-engineered a Codex-based WechatAgent, leaving two AI entry points in WeChat. Stated motivations are disliking a light Chinese-language UI and making a future GPT subscription convenient when affordable. The client or interface actually reversed is unspecified.\n\nThe author distinguishes the two: the existing lobster agent has higher privileges for supervision, phone/computer operation and personal long-term memory; the new Codex secondary account can chat in groups, but using it as an agent raises account-ban concerns. The former's control, permissions and memory are not attributed to WechatAgent. Methods for evading platform restrictions and official authorization are not inferred.\n\nRetrieval confirms attribution and text. Two images are present but were not analyzed. No repository, protocol, model revision, login method or test logs are supplied. Whether Codex performed the reversing or merely serves as its backend is unknown. REA is unmentioned. This collection did not log into WeChat, read chats or execute a program. Status is unverified.",
+      "metadata": ["Candidate: 1 like, 12 views, 0 reposts. Ban concerns are the author's assessment, not a reported ban."],
+      "source_labels": ["Интерн's Codex WechatAgent report, November 12, 2026 at 03:43:19 Beijing time"]
+    }
+  },
+  {
+    "id": "l0rdide-rust-ai-binary-analysis-environment-preview",
+    "title": "L0rdIDE预告：Rust编辑器、AI连接与专用二进制分析环境",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "作者预告仍在开发的L0rdIDE，列Rust原生架构、Tree-sitter、rope编辑、AI连接及专门逆向环境；未发布代码或验证AI分析能力。",
+    "description": "2026年11月12日03:57:45（北京时间），候选作者预告可能很快上传L0rdIDE，并明确软件仍在构建。它是同时面向编程和二进制研究的具名IDE，不是已经对某款应用完成逆向的案例，按相关进行中项目收录。\n\n作者列多语言支持、Tree-sitter语法智能、高性能rope编辑、AI连接、项目管理、持久工作区、自定义布局、原生Rust架构及专用逆向／二进制分析环境。这些均为预告中的功能列表；AI连接与分析环境同时存在不证明已实现Agent自动调用分析工具。文中另一名字VANTYX没有独立功能描述，不伪造第二个案例。\n\n封存材料无署名，没有代码、版本、支持架构、反编译器、模型、样本或测试；即将完成是作者预期，不是发布事实。REA未提及，本合集未下载、构建或执行IDE，related-project不表示能力已验证。",
+    "sources": [{"label": "L0rdIDE开发中功能预告，2026-11-12 03:57:45北京时间", "url": "https://x.com/i/status/2120606929546543239"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选0赞、1浏览、0转发；无已核实发布时间或能力测量。"],
+    "en": {
+      "title": "L0rdIDE preview: a Rust editor with AI connections and a dedicated binary-analysis environment",
+      "summary": "A poster previews the still-in-development L0rdIDE, listing native Rust, Tree-sitter, rope editing, AI connections and a reversing environment. No released code or AI-analysis capability was verified.",
+      "description": "At 03:57:45 Beijing time on November 12, 2026, a candidate previews a possible upcoming L0rdIDE upload and explicitly says the software is still under construction. This is a named IDE for coding and binary research, not a completed reversing case against a particular app. It is retained as a related ongoing project.\n\nThe author lists multiple languages, Tree-sitter syntax intelligence, high-performance rope editing, AI connections, project management, persistent workspaces, customizable layouts, native Rust architecture and a dedicated reverse-engineering/binary-analysis environment. These are preview claims. Coexisting AI connections and analysis facilities do not establish automated agent use of analysis tools. The other name VANTYX has no separate feature description and is not invented as a second case.\n\nThe sealed material lacks attribution. No code, revision, supported architecture, decompiler, model, sample or tests are supplied. Soon complete is the author's expectation, not a release fact. REA is unmentioned. This collection downloaded, built or ran no IDE. Related-project does not mean verified capabilities.",
+      "metadata": ["Candidate: 0 likes, 1 view, 0 reposts. No release date or capability measurement was verified."],
+      "source_labels": ["L0rdIDE in-development feature preview, November 12, 2026 at 03:57:45 Beijing time"]
+    }
+  },
+  {
     "id": "sparsamp-agent-memory-agents-md-conflict-probes",
     "title": "AGENTS.md与记忆冲突：Sparshith用小样本黑盒实验反推Claude Code／Codex优先级",
     "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
