@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2057 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2069 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（418）
-- [硬件与设备互通](categories/hardware.md)（551）
-- [应用与客户端](categories/apps.md)（840）
-- [算法与功能重建](categories/algorithms.md)（248）
+- [硬件与设备互通](categories/hardware.md)（555）
+- [应用与客户端](categories/apps.md)（847）
+- [算法与功能重建](categories/algorithms.md)（249）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -447,10 +447,14 @@
 
 ### 硬件与设备互通
 
+- [云锁IoT本地化idea：买便宜设备，让LLM写脱云固件](cases/cloud-locked-iot-llm-local-firmware-idea.md) — 一篇离线智能家居报道转述社区建议：购买云锁IoT，用LLM生成本地固件；没有具名设备、模型、源码或实测，不把十年架构当AI成果。 **[其他 AI 逆向 · 待验证]**
+- [机器狗照片到交互爆炸图：隐藏机械结构仍只是模型推断](cases/robot-dog-photo-ai-exploded-view-report.md) — 谁是藏镜人转述单图生成机器狗骨架、12组关节等三维爆炸图；没有型号、尺寸、拆机对照或模型，1:1与节省三天均未核。 **[其他 AI 逆向 · 待验证]**
+- [本地Qwen配Claude Code harness：不支持固件的Kindle恢复可用的转述](cases/local-qwen-flash-next-kindle-unsupported-firmware-report.md) — AI Quick Findings称本地Qwen 3.8 Flash Next经Claude Code框架让Kindle在不支持固件下工作；无型号、固件、原Reddit链接或验证，不认定越狱。 **[其他 AI 逆向 · 待验证]**
+- [Jaguar XJ220的Zytek ECU：JL转述Claude研究与跨平台启动器](cases/jaguar-xj220-zytek-claude-ecu-launcher-report.md) — JL称非工程师车主借Claude研究1994年XJ220发动机电脑，并免费提供跨平台启动器；没有车主、仓库、接口或实车验证，不与Jeep混同。 **[其他 AI 逆向 · 待验证]**
 - [UAVHive监控互通：AI搭YOLOX／ONVIF系统并研究商业CCTV API](cases/uavhive-yolox-onvif-commercial-cctv-api.md) — UAVHive称AI构建YOLOX视觉系统配合ONVIF，并逆向商业监控API连接不同系统；厂商、模型、接口及实际互通范围未披露。 **[其他 AI 逆向 · 待验证]**
 - [空调遥控器到IR dongle：Aleksander Data称与Claude一晚完成研究](cases/alexdataa-claude-ac-remote-ir-dongle.md) — Aleksander Data自述借Claude研究空调遥控器并转到红外dongle，称一晚完成；未给型号、码表、代码或实际控制测试。 **[其他 AI 逆向 · 待验证]**
 - [REA Discord里的BMW：morluto回忆用户曾研究自己的车](cases/morluto-discord-bmw-reversing-recollection.md) — REA作者morluto回忆早期Discord成员在逆向自己的BMW；没有车型、模块、工具或成果，不能据社群归属认定已用REA控制汽车。 **[未确认使用 REA · 待验证]**
-- [32年Jeep：Muhammad称Claude逆向后开始控制车辆](cases/zulali-32year-jeep-claude-control-report.md) — Muhammad报告Claude研究并控制自己的旧Jeep，作者串补充周末实验与仓库链接；具体接口和控制范围未核，不推断自动驾驶。 **[其他 AI 逆向 · 待验证]**
+- [32年Jeep：Claude研究与控制报告，以及诊断不等于自动驾驶的质疑](cases/zulali-32year-jeep-claude-control-report.md) — Muhammad报告Claude研究并控制旧Jeep；Mia Sardinella质疑把发动机诊断命令说成车辆接管，并指出已有文档与开源背景，双方未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
 - [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
 - [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
@@ -471,7 +475,7 @@
 - [Kapsys SmartVision3：AI审查反编译系统文件后重建读屏桌面的转述](cases/kapsys-smartvision3-ai-system-review-lineageos-report.md) — Yewen Jiu转述开发者为视障母亲的旧键盘手机刷Android 16，并据AI审查补回按键读屏；原博客、设备日志与可访问性测试未取得。 **[其他 AI 逆向 · 待验证]**
 - [摆线机构视频到CAD：Wei佳转述Astra与ForgeCAD MCP的参数化重建](cases/forgecad-astra-nonplanar-cycloidal-video-report.md) — Wei佳称开发者从无背隙非平面摆线机构视频推运动并生成特征树；没有取得原实验或误差记录，不把可编辑模型当可制造验证。 **[其他 AI 逆向 · 待验证]**
 - [Deep-TEMPEST：TechVerser介绍用深度学习从HDMI电磁泄漏恢复屏幕](cases/deep-tempest-hdmi-emissions-ai-reconstruction-report.md) — TechVerser把经典HackRF屏幕恢复演示与Deep-TEMPEST去噪研究联系起来；未读原论文或测距记录，不认定所附演示使用AI或能恢复任意密码。 **[其他 AI 逆向 · 待验证]**
-- [廉价手表重获新生：两帖转述Codex研究蓝牙、SDK与固件后接iOS通知](cases/codex-cheap-watch-ios-notifications-secondary-report.md) — 两位转述者描述同一类Codex手表改造链路，后帖点名Grok Bot／Muse／dots；型号、作者和固件未确认，不与既有30美元ESP32项目强行合并。 **[其他 AI 逆向 · 待验证]**
+- [廉价手表重获新生：AI研究蓝牙、SDK与固件，转述也保留刷砖风险](cases/codex-cheap-watch-ios-notifications-secondary-report.md) — 三帖转述同类手表蓝牙与固件改造，接iOS通知与Grok Bot／Muse／dots；新帖称前次刷砖，云端桥接只是合理推断，型号与实现仍未核。 **[其他 AI 逆向 · 待验证]**
 - [SOLIDWORKS LEO：官方称从STEP／IGES恢复可编辑参数特征树](cases/solidworks-leo-step-iges-parametric-tree-report.md) — SOLIDWORKS称AI Virtual Companion LEO把静态BREP变成原生特征树，用于供应商旧零件；没有版本、零件样本或几何误差，不证明恢复原设计意图。 **[其他 AI 逆向 · 相关项目]**
 - [Divoom Pixoo：Joel称研究原App的Wi-Fi通信后用ChatGPT与MCP控制像素屏](cases/joel-carpenter-divoom-pixoo-chatgpt-mcp.md) — Joel Carpenter原想让Claude root并刷固件，实际报告只研究原App通信就做了连接器，让ChatGPT显示日历、照片和表格指标；三分钟与纯本地能力未测。 **[其他 AI 逆向 · 待验证]**
 - [出租屋LG电视：Kevin Theo用Claude做欢迎页与Pi重置，发现PlayReady残留登录](cases/kevin-theo-lg-webos-rental-reset-playready.md) — Kevin Theo报告三台已停更LG电视显示六语欢迎页，Pi在两三分钟内清除上一位住客登录；Netflix还需处理隐藏PlayReady存储。代码与实机测试由AI和人分工，未独立重跑。 **[其他 AI 逆向 · 进行中]**
@@ -496,7 +500,7 @@
 - [键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁](cases/mantikafasi-claude-keyboard-firmware-live-music-display.md) — 作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。 **[其他 AI 逆向 · 进行中]**
 - [家中两台电视盒：susu计划用REA重构，成功后再考虑出售](cases/susu-two-tv-boxes-rea-refactoring-idea.md) — 具体设备研究idea，作者表达想用REA与Claude改造两台自有盒子；尚无型号、系统、实现或商业结果。 **[REA · 待验证]**
 - [Apple Watch当Mac鼠标：Eikichi转述Claude辅助传感器与蓝牙研究](cases/eikichi-apple-watch-mac-mouse-claude-report.md) — 转述称手腕移动光标、点按点击、长按拖动和表冠滚动；源码、直接蓝牙与离线实现未验证，未确认具体开发者。 **[其他 AI 逆向 · 待验证]**
-- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的Rust显示驱动转述新增Claude协议研究与Synaptics拟追收法律文件费用说法；未取得原通知或测试，停止要求不等于侵权裁决。 **[其他 AI 逆向 · 待验证]**
+- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的AI辅助Rust驱动新增转述：Synaptics拟追收25000美元文书费用，上游受DRM Rust基础设施限制；未取得通知、裁决或驱动测试。 **[其他 AI 逆向 · 待验证]**
 - [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
 - [手机系统桌面崩溃：李天才的AI逆向失败经历](cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
@@ -530,7 +534,7 @@
 - [DVD机改游戏机：读者向Claude开发者询问REA可行性](cases/dvd-player-claude-rea-game-console-idea.md) — 读者想把只能播放视频的DVD机改成可交互游戏机，提到Claude与REA；仍在问需要什么，没有改机成果。 **[REA · 待验证]**
 - [Nikon D2X色彩固件：转述Claude辅助找参数并做蓝色试验](cases/nikon-d2x-claude-jpeg-color-firmware-report.md) — Kirill转述RAW/JPEG对照、294组28个数值与滑块预览编辑器，称刷入v2.0后输出蓝图；不等于富士风格已准确复现。 **[其他 AI 逆向 · 待验证]**
 - [旧CCTV录像机改FPV录像：Claude、UART与Ghidra MCP研究报告](cases/vaizaragorn-cctv-dvr-claude-fpv-recorder.md) — whyamas转述旧DVR改FPV地面站；补读vaizaragorn七月原帖确认Claude与Ghidra MCP参与，作者保留内存、码率及高速画面限制。 **[其他 AI 逆向 · 进行中]**
-- [AirPods 3头控鼠标：转述Claude Code研究RemoteHID与Linux MTU](cases/airpods3-claude-remotehid-linux-head-mouse-report.md) — 中文复盘称Claude Code从跨项目线索找到RemoteHID与MTU差异，让AirPods 3向Linux传头部运动；200Hz、37测试与首份文档均未独立核实。 **[其他 AI 逆向 · 待验证]**
+- [MousePods：Claude辅助RemoteHID研究，AirPods在Linux当鼠标与游戏头追](cases/airpods3-claude-remotehid-linux-head-mouse-report.md) — 公开MousePods文档确认Matteo Gaudioso借Claude研究RemoteHID与MTU，提供Linux鼠标和Proton头追；实机、400余测试为项目报告，MTU因果尚未隔离。 **[其他 AI 逆向 · 待验证]**
 - [iPad mini 7救砖：Zhuoli Li称Codex研究WiFi恢复协议，抹掉而不线刷升级](cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md) — Zhuoli Li报告Nugget扩展屏幕后iPad陷入白苹果，Codex研究无线恢复传输并发送抹掉指令后救回；是清除数据的单机自述，不是无损修复或通用降级。 **[其他 AI 逆向 · 待验证]**
 - [MacBook自动充电：CryptoGem称DeepSeek研究公牛插座BLE协议，摆脱原App](cases/cryptogem-bull-ble-plug-deepseek-macbook-autocharge.md) — CryptoGem为长时间跑Agent的MacBook制作电量联动插座，称ds4.1flash逆向公牛蓝牙协议；低于20%开、绿灯显示100%关，未核验可靠性与安全。 **[其他 AI 逆向 · 进行中]**
 - [XCPE Guard：Nerdingen称Claude帮助检查和冻结Android TV固件后门](cases/nerdingen-xcpe-guard-claude-android-tv.md) — Nerdingen为自用Mecool等电视盒制作XCPE Guard，称Claude协助、无线ADB且无需root，发现并冻结后门后每日检查；未证实能清除感染或覆盖全部固件。 **[其他 AI 逆向 · 进行中]**
@@ -1001,6 +1005,13 @@
 
 ### 应用与客户端
 
+- [1887图纸到Three.js铁塔展馆：Carbon／Antigravity的几何重建报告](cases/carbon-1887-tower-plans-threejs-reconstruction.md) — 谁是藏镜人称用老图纸与照片，经Carbon多Agent推断几何并生成交互式铁塔展馆；没有输入图纸、工程或误差验证。 **[其他 AI 逆向 · 待验证]**
+- [Artcraft MCP重实现idea：读者玩笑式建议Adobe借Claude净室重建](cases/adobe-claude-artcraft-mcp-reimplementation-idea.md) — King of Cups提出让Adobe用Claude重实现Artcraft的MCP集成；只是一条具名建议，没有工程、分析或Adobe采纳证据。 **[其他 AI 逆向 · 待验证]**
+- [Muse里的Posting HQ：Javy称研究Buffer以集中查看发布计划](cases/javy-muse-buffer-posting-hq-study.md) — Javy称让Muse REA Buffer，为跨平台每周内容看板重建参考行为；未说明REA工具调用、接口、实现与实际发布。 **[未确认使用 REA · 进行中]**
+- [Muse研究Repurpose：Javy为跨平台内容工作台寻找参考](cases/javy-muse-repurpose-posting-hq-study.md) — Javy把Repurpose与Buffer列为Muse研究对象，用于自己的Posting HQ；没有提供重建实现、内容转换或跨平台同步测试。 **[未确认使用 REA · 进行中]**
+- [自写天气应用静态检查：岩崎哲也用Claude Code／REA解释通信与存储](cases/iwasaki-weather-app-rea-static-network-storage-test.md) — 岩崎哲也称REA分析自写小天气应用，解释一个通信目的地、气温风时刻与浏览器本地存储；作者明确只是读代码，未验证运行行为。 **[REA · 分析测试]**
+- [0sec Labs的0／0verse：连接Ghidra、angr与AFL++的AI安全研究框架](cases/0sec-zero-0verse-ai-binary-security-harness.md) — Bobo介绍0安全harness的Web、CLI与MCP，以及0verse二进制分析链路；明确未亲测、默认主机shell和模型计费，不把团队零日成果归给工具。 **[其他 AI 逆向 · 相关项目]**
+- [视频demo到前端原型：Nathan称Carbon结构还原好，动效审美仍有差距](cases/carbon-video-demo-frontend-reconstruction-report.md) — Nathan AI Lab第一人称报告Gemini 4 Carbon从视频重建网页，适合打样但依赖清晰参考与详尽提示；无原站、代码和对照测试，不当源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [LASIK：静态清除BLA诱饵，2100万到1.7万是读入量估算而非Agent实测](cases/lasik-bla-static-deblinding-cli-mcp.md) — LASIK提供CLI／MCP静态去保护；公开CrackMe与21格式自有样本报告大幅缩小读入体积，保留误删回归测试。没有实测REA解题、token账单或通用语义等价证明。 **[其他 AI 逆向 · 分析测试]**
 - [Humanizer DLL：Dennis Rongo称Claude Code／REA重建C#并通过170项测试](cases/codingmenace-humanizer-rea-csharp-rebuild-test.md) — Dennis Rongo报告只给.NET DLL、不提供源码，让Claude Code与REA重建Humanizer，得到C#与170测试通过；未提供测试来源或覆盖，不等于全部行为一致。 **[REA · 分析测试]**
 - [WinMerge重建：51项通过，但Dennis Rongo提醒测试也是Claude写的](cases/codingmenace-winmerge-rea-self-written-tests.md) — Dennis Rongo用Claude Code与REA研究无源码Windows应用WinMerge，报告51项测试通过并强调测试由Claude自编；没有原版差分或功能覆盖证据。 **[REA · 分析测试]**
@@ -1844,6 +1855,7 @@
 
 ### 算法与功能重建
 
+- [CyberBinGym：补丁二进制帮助Agent恢复漏洞，但88%恢复不等于20%利用](cases/cyberbingym-stripped-binary-patch-agent-benchmark.md) — 100个真实漏洞任务只给去符号的新旧二进制，论文报告最强Agent恢复88%、利用20%；补丁与加固对照只在限定子集，未独立复跑。 **[其他 AI 逆向 · 分析测试]**
 - [YouTube推荐反推idea：用AI估计预期首页，再对照缩略图标异常](cases/youtube-expected-feed-ai-anomaly-comparison-idea.md) — 候选提出从用户元数据反推YouTube预期推荐，再比较实际首页与刷新后反复出现的缩略图，辅助异常检测；没有数据、实现或验证，不证明存在操纵。 **[其他 AI 逆向 · 待验证]**
 - [汇编块即时反编译idea：用来源感知C风格伪代码帮助人与AI调试](cases/assembly-block-source-aware-pseudocode-debugging-idea.md) — 候选作者设想把汇编片段即时转成更大抽象块，并根据来源背景呈现C风格伪代码，供人和AI理解与调试；只是提问，没有实现或效果测试。 **[未确认使用 REA · 待验证]**
 - [SPY交易规则反推：helicerat用Opus双Agent拆穿历史100%拟合](cases/helicerat-opus-trade-rule-builder-breaker-study.md) — 作者称Claude Code的builder从历史交易反推规则，breaker按封存年份与别的ETF检验；三特征规则从100%跌到84%，未核数据与回测。 **[其他 AI 逆向 · 分析测试]**

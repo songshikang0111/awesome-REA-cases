@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [1887图纸到Three.js铁塔展馆：Carbon／Antigravity的几何重建报告](../cases/carbon-1887-tower-plans-threejs-reconstruction.md) — 谁是藏镜人称用老图纸与照片，经Carbon多Agent推断几何并生成交互式铁塔展馆；没有输入图纸、工程或误差验证。 **[其他 AI 逆向 · 待验证]**
+- [Artcraft MCP重实现idea：读者玩笑式建议Adobe借Claude净室重建](../cases/adobe-claude-artcraft-mcp-reimplementation-idea.md) — King of Cups提出让Adobe用Claude重实现Artcraft的MCP集成；只是一条具名建议，没有工程、分析或Adobe采纳证据。 **[其他 AI 逆向 · 待验证]**
+- [Muse里的Posting HQ：Javy称研究Buffer以集中查看发布计划](../cases/javy-muse-buffer-posting-hq-study.md) — Javy称让Muse REA Buffer，为跨平台每周内容看板重建参考行为；未说明REA工具调用、接口、实现与实际发布。 **[未确认使用 REA · 进行中]**
+- [Muse研究Repurpose：Javy为跨平台内容工作台寻找参考](../cases/javy-muse-repurpose-posting-hq-study.md) — Javy把Repurpose与Buffer列为Muse研究对象，用于自己的Posting HQ；没有提供重建实现、内容转换或跨平台同步测试。 **[未确认使用 REA · 进行中]**
+- [自写天气应用静态检查：岩崎哲也用Claude Code／REA解释通信与存储](../cases/iwasaki-weather-app-rea-static-network-storage-test.md) — 岩崎哲也称REA分析自写小天气应用，解释一个通信目的地、气温风时刻与浏览器本地存储；作者明确只是读代码，未验证运行行为。 **[REA · 分析测试]**
+- [0sec Labs的0／0verse：连接Ghidra、angr与AFL++的AI安全研究框架](../cases/0sec-zero-0verse-ai-binary-security-harness.md) — Bobo介绍0安全harness的Web、CLI与MCP，以及0verse二进制分析链路；明确未亲测、默认主机shell和模型计费，不把团队零日成果归给工具。 **[其他 AI 逆向 · 相关项目]**
+- [视频demo到前端原型：Nathan称Carbon结构还原好，动效审美仍有差距](../cases/carbon-video-demo-frontend-reconstruction-report.md) — Nathan AI Lab第一人称报告Gemini 4 Carbon从视频重建网页，适合打样但依赖清晰参考与详尽提示；无原站、代码和对照测试，不当源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [LASIK：静态清除BLA诱饵，2100万到1.7万是读入量估算而非Agent实测](../cases/lasik-bla-static-deblinding-cli-mcp.md) — LASIK提供CLI／MCP静态去保护；公开CrackMe与21格式自有样本报告大幅缩小读入体积，保留误删回归测试。没有实测REA解题、token账单或通用语义等价证明。 **[其他 AI 逆向 · 分析测试]**
 - [Humanizer DLL：Dennis Rongo称Claude Code／REA重建C#并通过170项测试](../cases/codingmenace-humanizer-rea-csharp-rebuild-test.md) — Dennis Rongo报告只给.NET DLL、不提供源码，让Claude Code与REA重建Humanizer，得到C#与170测试通过；未提供测试来源或覆盖，不等于全部行为一致。 **[REA · 分析测试]**
 - [WinMerge重建：51项通过，但Dennis Rongo提醒测试也是Claude写的](../cases/codingmenace-winmerge-rea-self-written-tests.md) — Dennis Rongo用Claude Code与REA研究无源码Windows应用WinMerge，报告51项测试通过并强调测试由Claude自编；没有原版差分或功能覆盖证据。 **[REA · 分析测试]**

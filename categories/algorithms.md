@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [CyberBinGym：补丁二进制帮助Agent恢复漏洞，但88%恢复不等于20%利用](../cases/cyberbingym-stripped-binary-patch-agent-benchmark.md) — 100个真实漏洞任务只给去符号的新旧二进制，论文报告最强Agent恢复88%、利用20%；补丁与加固对照只在限定子集，未独立复跑。 **[其他 AI 逆向 · 分析测试]**
 - [YouTube推荐反推idea：用AI估计预期首页，再对照缩略图标异常](../cases/youtube-expected-feed-ai-anomaly-comparison-idea.md) — 候选提出从用户元数据反推YouTube预期推荐，再比较实际首页与刷新后反复出现的缩略图，辅助异常检测；没有数据、实现或验证，不证明存在操纵。 **[其他 AI 逆向 · 待验证]**
 - [汇编块即时反编译idea：用来源感知C风格伪代码帮助人与AI调试](../cases/assembly-block-source-aware-pseudocode-debugging-idea.md) — 候选作者设想把汇编片段即时转成更大抽象块，并根据来源背景呈现C风格伪代码，供人和AI理解与调试；只是提问，没有实现或效果测试。 **[未确认使用 REA · 待验证]**
 - [SPY交易规则反推：helicerat用Opus双Agent拆穿历史100%拟合](../cases/helicerat-opus-trade-rule-builder-breaker-study.md) — 作者称Claude Code的builder从历史交易反推规则，breaker按封存年份与别的ETF检验；三特征规则从100%跌到84%，未核数据与回测。 **[其他 AI 逆向 · 分析测试]**
