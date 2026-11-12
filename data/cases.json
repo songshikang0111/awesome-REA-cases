@@ -1,5 +1,261 @@
 [
   {
+    "id": "andrath-tv-vendor-binaries-drivers-rea-attempt",
+    "title": "电视厂商二进制与驱动：Andrath正用REA获取更多内部信息",
+    "category": "hardware", "rea": "REA", "status": "in-progress",
+    "summary": "Andrath说正做TV hacking，使用REA从厂商二进制和驱动获取信息；没有电视品牌、版本或具体发现，保留早期研究，不写成已改造设备。",
+    "description": "2026年11月12日22:39:16（北京时间），Andrath（@Andrath1975）说正在做TV hacking，尝试用REA（原文解释为reverse engineer anything）从厂商二进制与驱动中获取更多信息。这是一条明确工具与研究输入的实际进行中自述，目标是理解电视厂商软件而非一般工具推荐。\n\n帖子未提供品牌、型号、固件版本、操作系统、二进制名称、研究模型、调用日志或具体发现，也没有声明已经root、去广告、修改驱动或控制电视。不能把它合并进其他作者的Samsung或LG项目，也不借那些案例填入成果。\n\n补取核对署名与文字，没有代码或设备验证，未下载固件、连接电视或执行驱动。保持in-progress；REA使用为作者自述，不代表本合集独立确认调用链。",
+    "sources": [{"label": "Andrath的电视二进制／驱动REA研究自述，2026-11-12 22:39:16北京时间", "url": "https://x.com/i/status/2120889167143993353"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存0赞、12浏览、0转发、0回复；无品牌、版本、代码或结果。"],
+    "en": {
+      "title": "TV vendor binaries and drivers: Andrath is using REA to investigate their internals",
+      "summary": "Andrath reports TV hacking with REA to obtain information from vendor binaries and drivers. No brand, version or specific finding is supplied; this is early research, not a completed device modification.",
+      "description": "At 22:39:16 Beijing time on November 12, 2026, Andrath (@Andrath1975) describes TV hacking and experimenting with REA, expanded in the source as reverse engineer anything, to get more information from vendor binaries and drivers. The tool and research inputs make this an actual in-progress account of investigating TV software rather than a generic tool recommendation.\n\nThe post identifies no brand, model, firmware version, operating system, binary name, AI model, invocation logs or concrete findings. It claims neither root access, ad removal, driver modification nor TV control. It is not merged into another author's Samsung or LG project or filled out with those results.\n\nRetrieval confirmed attribution and wording, without code or device validation. No firmware was downloaded, TV connected or driver executed. Status remains in-progress; REA use is author-reported, not independent confirmation of the invocation chain.",
+      "metadata": ["Sealed snapshot: 0 likes, 12 views, 0 reposts, 0 replies. No brand, version, code or results."],
+      "source_labels": ["Andrath's REA investigation of TV binaries/drivers, November 12, 2026 at 22:39:16 Beijing time"]
+    }
+  },
+  {
+    "id": "moke-grok-rea-game-release-time-check-idea",
+    "title": "预下载游戏开玩时间检查：Moke建议Grok加REA研究，并做提示备份",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "Moke在游戏向服务器确认开玩时间的讨论下，建议Grok与REA禁用该部分，并做可分享的游戏提示作为备份；没有具名游戏、实现或可用绕过。",
+    "description": "2026年11月12日22:33:01（北京时间），Moke（@Moke1966758）回复@wholemars，建议用Grok、REA让AI禁用that part，并让REA制作可分享的游戏提示作为备份。补取父帖确认背景：Whole Mars Catalog于同日10:09:31询问游戏已下载却向服务器检查开玩时间的机制，猜想假服务器能否告知主机可以游玩。父帖早于本窗口，只用于定位指代，不作为新候选。\n\nMoke未提供游戏名、平台版本、协议、代码、授权、实际分析或测试。父帖涉及的证书和中间人猜测也不构成可用方法；本合集不补写步骤。可分享提示是提议的输出，不是已有游戏备份，也不证明能恢复游戏源码或资产。\n\n这里只记录具备具体机制背景的未实施idea，不声称已经提前解锁、可绕过服务器签名或可合法分发。补查核对署名与父帖，没有连接主机、服务或账号，状态unverified。",
+    "sources": [{"label": "Moke的Grok／REA禁用检查与提示备份idea，2026-11-12 22:33:01北京时间", "url": "https://x.com/i/status/2120887593277530567"}, {"label": "补充父帖：Whole Mars Catalog讨论预下载游戏开玩时间检查，2026-11-12 10:09:31北京时间，早于窗口", "url": "https://x.com/i/status/2120700489226764493"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选封存0赞、129浏览、0转发、0回复；父帖为背景，不把其热度或假设计作本idea成果。"],
+    "en": {
+      "title": "Release-time checks on preloaded games: Moke proposes Grok and REA research plus a prompt backup",
+      "summary": "In a discussion of games checking a server for permission to start, Moke suggests Grok/REA disabling that part and making a shareable game prompt as backup. No game, implementation or working bypass is supplied.",
+      "description": "At 22:33:01 Beijing time on November 12, 2026, Moke (@Moke1966758) replies to @wholemars, suggesting Grok and REA tell AI to disable that part and create a shareable prompt for the game as a backup. Supplementary retrieval identifies the context: at 10:09:31 that day, Whole Mars Catalog asks how a downloaded game checks a server for its release time and wonders whether a fake server could tell the console it is allowed to play. The parent predates this window and supplies context, not another candidate.\n\nMoke supplies no game name, platform version, protocol, code, authorization, actual analysis or test. The parent's certificate/man-in-the-middle speculation is not a working method, and no procedure is added here. A shareable prompt is a proposed output, not an existing game backup or proof of recovered source or assets.\n\nThis records an unimplemented idea with a specific mechanism as context, not early unlocking, a server-signature bypass or lawful redistribution. Retrieval confirmed attribution and the parent; no console, service or account was accessed. Status remains unverified.",
+      "metadata": ["Sealed candidate: 0 likes, 129 views, 0 reposts, 0 replies. Parent context and its engagement or speculation are not this idea's results."],
+      "source_labels": ["Moke's Grok/REA check-disabling and prompt-backup idea, November 12, 2026 at 22:33:01 Beijing time", "Supplementary parent: Whole Mars Catalog on preloaded-game release-time checks, November 12, 2026 at 10:09:31 Beijing time, before the window"]
+    }
+  },
+  {
+    "id": "garmin-forerunner955-claude-profile2-workaround",
+    "title": "Garmin Forerunner955共用：Claude研究双用户限制，改做Profile2运动应用",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Max Reid想与妻子共用Forerunner955，让Claude研究双档案限制后改走官方应用平台；自报Profile2的心率、计时、GPS可用，但不能改系统档案，全天健康数据仍混合。",
+    "description": "2026年11月12日23:14:58（北京时间），Max Reid（@bangkokbuild）说妻子的Garmin在日本温泉被盗后，两人想共用他的Forerunner955。他让Claude研究能否突破单用户设计；模型解释VO2max等健康计算假设每天为同一佩戴者，最初拟保持主账号、事后用脚本转移妻子的跑步记录，但又发现手表端训练状态仍会混合。以上是作者与模型的研究解释，不是本合集核验的固件结论。\n\n作者仍想要真正双档案，但实际选择Garmin官方应用平台，做Profile2替代正常跑步界面：有独立心率区间、GPS、距离和配速，不创建Garmin workout，意在避免妻子此次运动记录进入自己的训练统计。他称心率、计时器与GPS首次即工作，目前继续打磨。\n\n作者明确不能控制手表系统、修改设置、用户档案或固件；步数、睡眠、全天心率仍算给当前佩戴者并混合，离开手机不能上网。因此不是系统级双用户隔离或固件破解。网站收入、家居按钮、股票、温泉计时与热量上报只是未来想法，不拆成已实施项目。\n\n补取核对署名与全文，没有代码、设备日志、数据隔离或健康准确性测试；本合集未连接Garmin。作为AI研究设备限制后转向官方扩展平台的进行中替代方案收录，归other-ai，不推定REA。",
+    "sources": [{"label": "Max Reid的Forerunner955限制研究、Profile2与未解决边界，2026-11-12 23:14:58北京时间", "url": "https://x.com/i/status/2120898150777143357"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存0赞、26浏览、0转发、0回复；首次可用为作者自述，不证明完整运动或全天数据隔离。"],
+    "en": {
+      "title": "Sharing a Garmin Forerunner 955: Claude investigates single-user limits, then helps build Profile 2",
+      "summary": "Max Reid investigates sharing a Forerunner 955 with his wife, then uses Garmin's official app platform for Profile 2. Heart rate, timer and GPS reportedly work, but system profiles cannot be changed and all-day health data still mix.",
+      "description": "At 23:14:58 Beijing time on November 12, 2026, Max Reid (@bangkokbuild) says his wife's Garmin was stolen at a Japanese hot spring, prompting them to share his Forerunner 955. He asks Claude about overcoming its single-user design. The model explains that health calculations such as VO2 max assume the same daily wearer. An initial plan would keep the watch on his account and transfer her runs afterward through a script, but research indicates watch-calculated training status would still mix. These are author/model explanations, not firmware findings verified here.\n\nHe still wants true dual profiles, but actually chooses Garmin's official app platform to build Profile 2 instead of the normal running screen. It has separate heart-rate zones, GPS, distance and pace, and creates no Garmin workout, aiming to keep her session out of his training statistics. Heart rate, timer and GPS reportedly worked on the first try; refinement continues.\n\nHe explicitly cannot control the watch system or change settings, user profiles or firmware. Steps, sleep and all-day heart rate still follow whoever wears it and mix, and internet access requires the nearby phone. This is not system-level user isolation or a firmware crack. Site revenue, home buttons, stocks, hot-spring timing and calorie reporting are future ideas, not separate implemented projects.\n\nRetrieval confirmed attribution and the full text, without code, device logs, data-isolation or health-accuracy tests. This collection connected no Garmin. The case is an in-progress official-platform workaround following AI research into device limits, attributed to other-ai without assuming REA.",
+      "metadata": ["Sealed snapshot: 0 likes, 26 views, 0 reposts, 0 replies. First-try operation is author-reported, not proof of complete workout or all-day data isolation."],
+      "source_labels": ["Max Reid's Forerunner 955 limitations, Profile 2 and unresolved boundaries, November 12, 2026 at 23:14:58 Beijing time"]
+    }
+  },
+  {
+    "id": "unixnu-android-watch-watchos-ai-port-retelling",
+    "title": "UniXNU到Android手表：Yukwun转述AI逆向移植watchOS，缺陷与设备未核",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Yukwun称有人借UniXNU与AI逆向把watchOS刷到华强北Android手表，并承认仍有bug；型号、版本、启动范围及仓库未核，不写成Apple Watch完整替代。",
+    "description": "2026年11月12日23:35:29（北京时间），宥文_Yukwun（@Yukwun_Lam）转述有人利用UniXNU，通过AI逆向给华强北Android手表刷上原文所谓Watch OS，并说仍有一些bug。目标是非Apple手表上的系统移植，与已有UniXNU手机和平板目标不同，但不是本帖作者亲自完成或本合集复现。\n\n帖子没有原开发者姓名、设备型号、芯片、系统版本、AI模型、适配步骤、代码或日志；附件有图片但本合集未审。无法确认是完整系统、启动演示、界面仿制或哪些硬件可用，不将刷上直接解释为可日常佩戴。所谓全民Apple Watch时代和囤货建议是宣传，不作技术成果或购买依据。\n\n补取确认署名与文字，未取得项目验证记录、许可或可恢复性证据，也未刷机、运行移植或下载系统。按有具体目标的二手AI移植主张保留other-ai、unverified，不借既有UniXNU手机成果证明手表可行。",
+    "sources": [{"label": "Yukwun的UniXNU／AI到Android手表watchOS移植转述，2026-11-12 23:35:29北京时间", "url": "https://x.com/i/status/2120903314493870414"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存2赞、55浏览、0转发、0回复；作者承认有bug，型号、系统版本与实际能力未明。"],
+    "en": {
+      "title": "UniXNU on an Android watch: Yukwun relays an AI-assisted watchOS port with unchecked hardware and defects",
+      "summary": "Yukwun says someone used UniXNU and AI reversing to put watchOS on a Huaqiangbei Android watch, while acknowledging bugs. The device, version, boot scope and repository are unchecked; this is not a full Apple Watch replacement.",
+      "description": "At 23:35:29 Beijing time on November 12, 2026, 宥文_Yukwun (@Yukwun_Lam) relays a claim that someone used UniXNU and AI reverse engineering to flash what the source calls Watch OS onto a Huaqiangbei Android watch, with some bugs remaining. A non-Apple watch is a different porting target from the existing UniXNU phone and tablet cases, but this is neither first-hand work by the poster nor a reproduction here.\n\nNo original developer, device model, chipset, OS version, AI model, adaptation steps, code or logs are supplied. Images exist but were not reviewed. It is unclear whether this is a full system, boot demonstration, interface imitation or which hardware works; flashed does not establish daily usability. Predictions of universal Apple Watch access and stockpiling advice are promotion, not technical results or purchasing grounds.\n\nRetrieval confirmed attribution and wording. No project validation records, license or recovery evidence were obtained; this collection flashed no device, ran no port and downloaded no OS. This concrete secondary porting claim remains other-ai/unverified, without using the existing UniXNU phone's results to prove watch feasibility.",
+      "metadata": ["Sealed snapshot: 2 likes, 55 views, 0 reposts, 0 replies. Bugs are acknowledged; model, OS version and actual capabilities are unspecified."],
+      "source_labels": ["Yukwun's UniXNU/AI watchOS-on-Android-watch retelling, November 12, 2026 at 23:35:29 Beijing time"]
+    }
+  },
+  {
+    "id": "xbow-eac-frontend-js-unauthenticated-rce-report",
+    "title": "EAC公开应用：Jhaddix转述XBOW Agent研究前端JS并报告未认证容器RCE",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Jhaddix在赞助帖中称XBOW Agent研究美国EAC某公开应用前端JavaScript，验证后端容器root代码执行并在11月3日前修补；未独立验证，不扩大为投票系统被攻破。",
+    "description": "2026年11月12日23:41:29（北京时间），JS0N Haddix（@Jhaddix）明确感谢当周赞助商XBOW，转述其自主AI Agent在美国Election Assistance Commission（EAC，选举援助委员会）所属公开应用发现Critical级未认证远程代码执行。帖子称Agent逆向前端JavaScript、沿攻击路径验证后端容器中的root代码执行，并称已负责任披露、在11月3日选举前修补。\n\n具体研究对象是一个公开应用，不等于选举计票、投票机或全机构网络；容器root也不自动等于宿主机权限。Critical等级、可利用性、修补与披露时间都是赞助转述，没有应用URL、漏洞编号、补丁或复测材料供本合集确认。帖子有详细报告链接，但本合集未取得该报告，不补造攻击链或确认受影响范围。\n\n补取只核对署名、正文与赞助关系，没有访问目标、运行利用、查看凭据或取得任何数据。REA未提及，归other-ai；保留unverified，不把厂商报告或推广背书升级为独立复现，也不将来源发布日期当作漏洞发现日。",
+    "sources": [{"label": "Jhaddix披露XBOW赞助关系的EAC应用漏洞转述，2026-11-12 23:41:29北京时间", "url": "https://x.com/i/status/2120904824757850134"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存13赞、1556浏览、3转发、1回复；修补早于11月3日是原帖主张，非本合集核验。"],
+    "en": {
+      "title": "An EAC public application: Jhaddix relays XBOW agents' frontend-JS research and unauthenticated container RCE report",
+      "summary": "In a sponsored post, Jhaddix says XBOW agents investigated frontend JavaScript in a U.S. EAC public application, proved root execution in its backend container and had it fixed before November 3. Not independently verified or evidence of compromised voting systems.",
+      "description": "At 23:41:29 Beijing time on November 12, 2026, JS0N Haddix (@Jhaddix) explicitly thanks that week's sponsor XBOW and relays a claim that its autonomous AI agents discovered a Critical unauthenticated remote-code-execution vulnerability in a public-facing application belonging to the U.S. Election Assistance Commission (EAC). The agents reportedly reverse-engineered frontend JavaScript, followed an attack path and proved code execution as root inside a backend container. Responsible disclosure and a fix before the November 3 election are also claimed.\n\nThe identified target is a public application, not necessarily vote counting, voting machines or the entire agency network. Container root does not automatically mean host privileges. Severity, exploitability and disclosure/fix timing are sponsored secondary claims, without an application URL, vulnerability identifier, patch or retest checked here. The post links a detailed write-up, but this collection did not obtain it and invents neither an attack chain nor confirmed exposure scope.\n\nRetrieval checked attribution, wording and sponsorship only. No target was accessed, exploit run, credentials examined or data obtained. REA is unmentioned, so attribution is other-ai. Status remains unverified; vendor reports and promotional endorsement are not independent reproduction, and the source's publication date is not the discovery date.",
+      "metadata": ["Sealed snapshot: 13 likes, 1,556 views, 3 reposts, 1 reply. A fix before November 3 is the source's claim, not verification by this collection."],
+      "source_labels": ["Jhaddix's EAC application vulnerability retelling with disclosed XBOW sponsorship, November 12, 2026 at 23:41:29 Beijing time"]
+    }
+  },
+  {
+    "id": "glitchedsomi-opus55-rea-ableton13-idea",
+    "title": "Ableton13研究idea：So Me向Grimes建议Opus5.5加REA",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "So Me回复Grimes，提出用Opus5.5与REA研究Ableton13；只有目标与工具组合，没有已开始任务、具体功能、代码或结果。",
+    "description": "2026年11月12日23:44:17（北京时间），So Me（@glitchedsomi）回复@Grimezsz，建议用Opus5.5、REA研究Ableton13。Ableton是音乐制作软件语境中的具名目标，13沿用作者版本表述，不代表本合集确认其正式版本或功能。\n\n帖子没有说明要恢复哪个功能、格式、插件或协议，也没有研究步骤、源码、调用记录、测试或已经实施的声明。不能将一句建议写成Grimes接受、模型已反编译全部应用或作者已经发布替代品。它与其他作者长期研究Ableton的既有案例不是同一项目，不追加那些作者的工时或成果。\n\n补取核对署名与文字，未取得进一步实现证据。本合集未打开应用或运行REA；以具名目标和工具组合的未实施idea保留unverified。",
+    "sources": [{"label": "So Me向Grimes提出Opus5.5／REA研究Ableton13，2026-11-12 23:44:17北京时间", "url": "https://x.com/i/status/2120905529170207174"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存0赞、17浏览、0转发、0回复；未实施建议，不是既有Ableton研究的新进展。"],
+    "en": {
+      "title": "An Ableton 13 research idea: So Me suggests Opus 5.5 and REA to Grimes",
+      "summary": "So Me replies to Grimes with an Opus 5.5/REA suggestion for investigating Ableton 13. Only the target and tools are supplied, without started work, specific features, code or results.",
+      "description": "At 23:44:17 Beijing time on November 12, 2026, So Me (@glitchedsomi) replies to @Grimezsz, suggesting Opus 5.5 and REA for reverse-engineering Ableton 13. Ableton is a named music-software target in this context. The number 13 preserves the author's version wording, not independent confirmation of a released version or its features.\n\nThe post identifies no feature, format, plugin or protocol to recover, research steps, source, invocation records, tests or work already begun. One suggestion establishes neither Grimes's acceptance, a fully decompiled app nor a published replacement. This is not the same project as existing long-running Ableton investigations by other authors, whose hours and results are not borrowed.\n\nRetrieval confirmed attribution and text, without further implementation evidence. This collection opened no app and ran no REA. The named-target/tool-combination idea remains unimplemented and unverified.",
+      "metadata": ["Sealed snapshot: 0 likes, 17 views, 0 reposts, 0 replies. An unimplemented suggestion, not progress on the existing Ableton research."],
+      "source_labels": ["So Me's Opus 5.5/REA Ableton 13 suggestion to Grimes, November 12, 2026 at 23:44:17 Beijing time"]
+    }
+  },
+  {
+    "id": "yi-rea-gpt6-astra-refusal-account-warning-report",
+    "title": "REA任务遇停号警告：Yi称gpt-6-astra反复拒绝后收到邮件",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Yi报告用REA加gpt-6-astra执行未具名逆向任务，数次继续后收到账号将被停用的警告；不是已停号记录，也未证明DeepSeek普遍不拒绝。",
+    "description": "2026年11月12日21:53:25（北京时间），Yi（@imhaoyi）称用REA和原文标作gpt-6-astra的模型运行一个逆向任务，模型持续拒绝；多次要求continue后收到账号将被停用的警告邮件。具体任务虽未具名，工具、模型标签与负面结果明确，按实际工作流失败报告保留，不修正其模型名称。\n\n帖子还说作者印象里DeepSeek官方API从未拒绝自己。这只是个人使用经验，没有共同目标、提示、版本、调用量或控制实验，不构成平台间拒绝率对比。原帖带Original短链，无法确认其指向是否为同一事件的更早版本，不借来其他人的任务。\n\n补取核对署名、正文与有图片附件的事实，未审邮件图片、完整提示或服务商处罚记录。警告不等于账号已经停用，也无法证明警告由某个术语或REA本身触发；目标权限和授权背景未明。本合集未复现任务或尝试绕过限制，保持unverified。",
+    "sources": [{"label": "Yi的REA／gpt-6-astra拒绝与邮件警告自述，2026-11-12 21:53:25北京时间", "url": "https://x.com/i/status/2120877628567564779"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存0赞、23浏览、0转发、0回复；警告邮件与目标未核，不与其他作者的封号事件合并。"],
+    "en": {
+      "title": "An account warning during a REA task: Yi reports repeated gpt-6-astra refusals and an email",
+      "summary": "Yi reports an unnamed REA/gpt-6-astra reversing task repeatedly refusing, followed by an account-deactivation warning after several continue requests. This is not a confirmed deactivation or proof DeepSeek never refuses.",
+      "description": "At 21:53:25 Beijing time on November 12, 2026, Yi (@imhaoyi) reports running a reverse-engineering task with REA and a model labeled gpt-6-astra in the source. It repeatedly refused, and several continue requests were followed by an email warning that the account would be deactivated. Although the target is unnamed, the tool, model label and negative outcome identify a real workflow report; the model name is preserved rather than corrected.\n\nYi also recalls the official DeepSeek API never refusing them. This is personal experience without matched targets, prompts, versions, call counts or a controlled experiment, not a cross-platform refusal-rate comparison. An Original short link is present, but whether it points to an earlier account of the same event is unconfirmed; no other person's task is borrowed.\n\nRetrieval confirmed attribution, text and an image attachment, but the email image, full prompts and provider enforcement records were not reviewed. A warning is not an already-deactivated account, nor proof that a particular term or REA itself triggered it. Target permissions and authorization are unspecified. This collection reproduced no task and attempted no bypass; status stays unverified.",
+      "metadata": ["Sealed snapshot: 0 likes, 23 views, 0 reposts, 0 replies. Email and target unchecked; not merged with other authors' ban incidents."],
+      "source_labels": ["Yi's REA/gpt-6-astra refusal and email-warning report, November 12, 2026 at 21:53:25 Beijing time"]
+    }
+  },
+  {
+    "id": "xerj-reader-android-reversing-report-line-grounding-test",
+    "title": "37行Android逆向报告：cabbit用XERJ Reader按原文行回答问题",
+    "category": "apps", "rea": "other-ai", "status": "analysis-test",
+    "summary": "cabbit报告研究Android应用后得到37行报告，再用XERJ Reader限制AI引用原行、缺失则答not in doc；1050倍便宜是无成本表的宣传，未独立测试。",
+    "description": "2026年11月12日21:58:46（北京时间），cabbit（@cabbitar）称当天研究了一个Android应用，得到37行报告，再向AI问一个问题。他借此介绍XERJ Reader：回答只逐字引用文件中的确切行，没有对应行就返回not in doc，目标是避免模型给出文档里没有的自信回答。\n\n这是逆向结果阅读与依据约束的具体AI辅助分析测试，不证明初始反编译由AI完成。应用名称、报告全文、问题、实际回答、模型和实现均未给；可用于合同或研究笔记是作者泛化，不是本帖验证。作者称比Opus5.5便宜1050倍，但没有账单、token数、计费单位、准确率或共同任务成本。\n\n补取只确认署名与文字，视频内容未核，本合集未运行Reader或解析APK。逐字引用不能自动证明引用相关、报告正确或总能拒绝无依据问题；保留analysis-test与作者归因，不把成本说法写成实测优势。",
+    "sources": [{"label": "cabbit的Android报告与XERJ Reader依据约束测试，2026-11-12 21:58:46北京时间", "url": "https://x.com/i/status/2120878973760557402"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存12赞、327浏览、0转发、1回复；37行为作者报告长度，1050倍为未核成本主张。"],
+    "en": {
+      "title": "A 37-line Android reversing report: cabbit uses XERJ Reader for source-line answers",
+      "summary": "cabbit describes a 37-line Android investigation report and XERJ Reader restricting AI answers to exact source lines or not in doc. A 1,050-fold cost advantage is promotional and lacks a cost table; no independent test was run.",
+      "description": "At 21:58:46 Beijing time on November 12, 2026, cabbit (@cabbitar) says they investigated an Android app that day, obtained a 37-line report and asked AI one question about it. They introduce XERJ Reader as answering only with an exact line quoted verbatim from the file, or not in doc when none exists, to avoid confident answers unsupported by the document.\n\nThis is a concrete AI-assisted reading and grounding test on reversing output, not evidence AI performed the initial decompilation. The app, full report, question, actual answer, model and implementation are unspecified. Application to contracts or research notes is an author generalization, not tested here. The claimed 1,050-fold saving over Opus 5.5 has no bills, token counts, billing units, accuracy figures or matched-task costs.\n\nRetrieval confirmed attribution and text only; the video was not checked. This collection ran no Reader and parsed no APK. Verbatim quotation does not automatically establish relevance, correctness of the underlying report or reliable rejection of every unsupported question. Status remains analysis-test with author attribution, not a measured cost advantage.",
+      "metadata": ["Sealed snapshot: 12 likes, 327 views, 0 reposts, 1 reply. The 37 lines are the author's report length; 1,050-fold is an unchecked cost claim."],
+      "source_labels": ["cabbit's Android-report and XERJ Reader grounding test, November 12, 2026 at 21:58:46 Beijing time"]
+    }
+  },
+  {
+    "id": "roveros-technogym-pocket-linux-agent-device-idea",
+    "title": "RoverOS口袋Linux：Jerry想让Agent接近Technogym单车和身边设备",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Jerry以Technogym单车骑行数据难导出为起点开发RoverOS，拟在Linux手机上给Agent接蓝牙、USB、Wi-Fi与Tailscale；Redmi Note10 Pro尚待到货实测。",
+    "description": "2026年11月12日22:05:00（北京时间），Jerry the Martian（@jerry543）说健身房Technogym单车把自己的骑行数据困在设备里，很难导出，因此想让Agent直接接触身边设备。他提到Opus与Fable的逆向能力，正在构建RoverOS，一款面向口袋手机的Linux系统；原文REA around us是措辞，不足以确认安装了morluto/rea，归other-ai。\n\n作者列出目标：发现附近设备，通过蓝牙、USB或Wi-Fi通信，并以Tailscale从远端访问，且称免费开源。这些是项目规划与作者声明，不是已核验发现范围、通信兼容清单、安全边界或许可。Technogym型号、骑行数据格式、协议研究步骤、代码及成功导出记录未提供。\n\n作者刚订购Redmi Note10 Pro，等到货才做真实设备测试，故不写成已在手机运行或已经取回骑行数据。补取核对署名与文字，未审演示、仓库或实际硬件，未连接健身器械；保留in-progress，不采用可以逆向一切的泛化判断。",
+    "sources": [{"label": "Jerry的RoverOS、Technogym数据与待实机测试说明，2026-11-12 22:05:00北京时间", "url": "https://x.com/i/status/2120880543906583001"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存2赞、242浏览、0转发、1回复；订购手机不是已完成硬件兼容测试。"],
+    "en": {
+      "title": "RoverOS pocket Linux: Jerry wants agents to reach a Technogym bike and nearby devices",
+      "summary": "Jerry starts from difficult-to-export Technogym ride data and is building RoverOS to expose Bluetooth, USB, Wi-Fi and Tailscale access to agents on a Linux phone. A Redmi Note 10 Pro is still awaiting delivery and hardware testing.",
+      "description": "At 22:05:00 Beijing time on November 12, 2026, Jerry the Martian (@jerry543) says his gym's Technogym bike traps his ride data and makes export difficult, prompting a wish for agents to reach nearby devices directly. Citing Opus and Fable's reversing capabilities, he is building RoverOS, a Linux OS for a pocket phone. The phrase REA around us does not establish installation of morluto/rea, so attribution is other-ai.\n\nHis objectives are discovering nearby devices, communicating over Bluetooth, USB or Wi-Fi and remote access through Tailscale; he describes the project as free and open source. These are plans and author statements, not checked discovery coverage, a compatibility list, security boundaries or licensing. No Technogym model, ride-data format, protocol research steps, code or successful export is supplied.\n\nHe has just ordered a Redmi Note 10 Pro and is waiting for delivery before real-device tests, so neither execution on the phone nor recovered ride data is claimed here. Retrieval confirmed attribution and text, not the demo, repository or hardware. This collection connected to no gym equipment. Status remains in-progress, without endorsing the claim that models can reverse-engineer anything.",
+      "metadata": ["Sealed snapshot: 2 likes, 242 views, 0 reposts, 1 reply. Ordering the phone is not a completed hardware compatibility test."],
+      "source_labels": ["Jerry's RoverOS, Technogym-data and pending hardware-test report, November 12, 2026 at 22:05:00 Beijing time"]
+    }
+  },
+  {
+    "id": "xbox-app-fable52-rea-windows-vm-download-report",
+    "title": "Mac上的Win11虚拟机：作者称Fable5.2加REA让Xbox应用下载独占游戏",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "@SKL_Piefke_Paul称Fable5.2与REA改变Xbox应用／Windows行为，能在MacBook Pro的修改版Win11虚拟机下载独占游戏；没有游戏运行或GTA6可玩证据。",
+    "description": "2026年11月12日22:15:27（北京时间），@SKL_Piefke_Paul称用Fable5.2与REA让Xbox应用和Windows接受下载Xbox独占游戏，环境是MacBook Pro上的修改版Windows11虚拟机。他还想继续探索能做什么；这是具体应用和运行环境上的逆向自述，但下载行为未被本合集复现。\n\n帖子没有游戏正式名称、Windows与Xbox应用版本、研究步骤、协议、代码、授权背景或成功运行记录。GTA6、RockstarGames等只是标签，不能证明GTA6已经在PC或Mac上启动，也不能把下载文件等同可运行移植。\n\n补取核对署名与正文，确认有两张图片附件但未核画面。未下载游戏、接触账号或测试访问限制；不提供绕过步骤，也不确认许可、兼容性或发布前可玩。保留REA归因与unverified，成果边界止于作者所称下载。",
+    "sources": [{"label": "Xbox应用与Win11虚拟机下载的Fable5.2／REA自述，2026-11-12 22:15:27北京时间", "url": "https://x.com/i/status/2120883173659906231"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存0赞、84浏览、0转发、1回复；下载不等于安装成功、原生移植或可玩。"],
+    "en": {
+      "title": "Win11 in a Mac VM: an author reports Fable 5.2 and REA making the Xbox app download exclusive games",
+      "summary": "@SKL_Piefke_Paul reports changing Xbox-app/Windows behavior with Fable 5.2 and REA to download exclusives in a modified Win11 VM on a MacBook Pro. Game execution and playable GTA6 are not established.",
+      "description": "At 22:15:27 Beijing time on November 12, 2026, @SKL_Piefke_Paul says Fable 5.2 and REA made the Xbox app and Windows accept downloads of Xbox-exclusive games, inside a modified Windows 11 VM on a MacBook Pro. The author wants to explore further. This is a reversing report involving a concrete application and environment, but the download behavior was not reproduced here.\n\nNo formal game title, Windows or Xbox-app version, research steps, protocol, code, authorization context or successful execution record is supplied. GTA6 and RockstarGames are hashtags, not evidence GTA6 has launched on PC or Mac. Downloaded files do not establish a playable port.\n\nRetrieval confirmed attribution, text and two image attachments, not their contents. This collection downloaded no game, accessed no account and tested no access restriction. No bypass procedure is supplied or licensing, compatibility or pre-release play confirmed. REA attribution and unverified status are retained; the result stops at the author's claimed download.",
+      "metadata": ["Sealed snapshot: 0 likes, 84 views, 0 reposts, 1 reply. Downloading is not successful installation, native porting or playability."],
+      "source_labels": ["Fable 5.2/REA Xbox-app download report in a Win11 VM, November 12, 2026 at 22:15:27 Beijing time"]
+    }
+  },
+  {
+    "id": "razer-blackwidow-v4-claude-interactive-reconstruction",
+    "title": "Razer BlackWidow V4可视拆解：Claude据一张图与规格表重建110键网页",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "f0rgent转述Claude机械键盘页面；父帖Kern说明以图片与Razer规格表重建110键、开关和分层动画。不是实物拆解、固件恢复或力曲线测量。",
+    "description": "2026年11月12日22:26:47（北京时间），f⭕️rgent（@f0rgent）回复@0x_kern，称Claude能在一个交互页面展示完整机械键盘、触发点、力曲线与拆解。补取父帖Kern于同日22:13:53的说明，目标为Razer BlackWidow V4，以一张图片及Razer规格表为参考，110个键和各部件写成代码，在浏览器中可视化。父帖是补充背景，不是另一个候选。\n\nKern列出自动以86词／分钟键入built with claude、键帽飞起、绿轴外壳／轴心／弹簧／触点展开和整机层堆叠动画。作者给总行程4.0毫米、点击1.9毫米、复位1.5毫米、50克力与一亿次寿命；这些是规格／演示说明，不是本合集测量。透明外壳明确是创作者自加，不是Razer出厂设计。\n\n这是图片及规格驱动的结构／行为可视重建，不是打开实物、研究固件或恢复制造CAD。父帖没有独立力曲线验证；本合集未审网页源码、运行交互或观看比较视频。REA未提及，归other-ai、unverified，不将回复的精确评价当精度证明。",
+    "sources": [{"label": "f0rgent对Claude机械键盘重建的评论，2026-11-12 22:26:47北京时间", "url": "https://x.com/i/status/2120886027136999649"}, {"label": "补充父帖Kern：BlackWidow V4参考输入、110键动画与自加透明壳，2026-11-12 22:13:53北京时间", "url": "https://x.com/i/status/2120882781597184041"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选封存1赞、18浏览、0转发、0回复；父帖补取快照18赞、391浏览，不是候选热度。"],
+    "en": {
+      "title": "Razer BlackWidow V4 visual teardown: Claude reconstructs a 110-key web page from a picture and specifications",
+      "summary": "f0rgent discusses Claude's keyboard visualization; parent author Kern identifies a picture/specification-based 110-key BlackWidow V4 reconstruction with switches and exploded layers. It is not physical disassembly, firmware recovery or force-curve measurement.",
+      "description": "At 22:26:47 Beijing time on November 12, 2026, f⭕️rgent (@f0rgent) replies to @0x_kern about Claude showing a complete mechanical keyboard, actuation points, force curves and disassembly on an interactive page. Supplementary retrieval of Kern's parent post, published that day at 22:13:53, identifies the Razer BlackWidow V4, reconstructed from one picture and Razer's specification sheet, with 110 keys and parts written as code for browser visualization. The parent supplies context, not another candidate.\n\nKern describes typing built with claude at 86 words per minute, flying keycaps, an exploded green switch's housing/stem/spring/contacts and whole-device layer animations. Claimed specifications are 4.0 mm total travel, a 1.9 mm click, 1.5 mm reset, 50 grams of force and a 100-million-press rating; these are source specifications/demo descriptions, not measurements here. The clear case is explicitly the creators' addition, not Razer's factory design.\n\nThis is visual structural/behavior reconstruction from an image and specifications, not physical teardown, firmware investigation or recovered manufacturing CAD. The parent provides no independent force-curve validation. This collection audited no page source, ran no interaction and watched no comparison video. REA is unmentioned; attribution is other-ai and status unverified. The reply's praise of precision is not proof of accuracy.",
+      "metadata": ["Sealed candidate: 1 like, 18 views, 0 reposts, 0 replies. Parent retrieval: 18 likes, 391 views, not the candidate's engagement."],
+      "source_labels": ["f0rgent's comment on Claude's mechanical-keyboard reconstruction, November 12, 2026 at 22:26:47 Beijing time", "Supplementary parent by Kern: BlackWidow V4 references, 110-key animation and custom clear case, November 12, 2026 at 22:13:53 Beijing time"]
+    }
+  },
+  {
+    "id": "ai-lab-instrumentation-api-integration-idea",
+    "title": "实验仪器API互通：David States建议用AI研究接口、协调采集流程",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "David States提出用AI逆向实验仪器API，让实验室整合不同设备、控制工作流与采集数据，并定制中等通量实验协议；尚无具名仪器或实施结果。",
+    "description": "2026年11月12日20:23:31（北京时间），David States MD PhD（@statesdj）回复@MelindaBChu1，提出AI的一个具体用途：研究实验仪器API，让实验室整合不同厂商的仪器，更高效地控制工作流和收集数据，并支持中等通量的定制实验协议。目标是实验设备间的软件互通，不是让AI自行设计或执行湿实验。\n\n帖子没有型号、厂商、协议、接口样本、模型、代码或已完成的集成，也没有报告通量和耗时改善。它提供了应用场景与拟研究对象，按未实施idea收录，不将预期用途写成已连接设备；REA未提及，归other-ai。\n\n补取原帖核对署名与文字，没有运行设备、访问实验数据或验证API授权与安全隔离。状态为unverified，不从其他仪器项目借用实现或结果。",
+    "sources": [{"label": "David States的实验仪器API与AI互通idea，2026-11-12 20:23:31北京时间", "url": "https://x.com/i/status/2120855005422899580"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存快照1赞、25浏览、0转发、0回复；无具名仪器或通量测量。"],
+    "en": {
+      "title": "Lab instrumentation APIs: David States proposes AI-assisted interface research and coordinated acquisition",
+      "summary": "David States proposes using AI to reverse-engineer instrumentation APIs, integrate diverse devices, control workflows and collect data, including customized moderate-throughput protocols. No instrument or implemented result is identified.",
+      "description": "At 20:23:31 Beijing time on November 12, 2026, David States MD PhD (@statesdj) replies to @MelindaBChu1 with a concrete AI use: investigate instrumentation APIs so laboratories can integrate diverse instruments, control workflows and gather data more efficiently, and customize moderate-throughput protocols. The target is software interoperability between laboratory devices, not autonomous design or execution of wet-lab experiments.\n\nThe post supplies no model numbers, vendors, protocols, interface samples, AI model, code or completed integration, and reports no measured throughput or time improvement. It identifies an application and intended research target, so it is retained as an unimplemented idea rather than connected equipment. REA is unmentioned; attribution is other-ai.\n\nRetrieval confirmed attribution and wording. This collection operated no instruments, accessed no experimental data and checked neither API authorization nor safety isolation. Status remains unverified, without borrowing implementations or results from other instrumentation projects.",
+      "metadata": ["Sealed snapshot: 1 like, 25 views, 0 reposts, 0 replies; no named instrument or throughput measurement."],
+      "source_labels": ["David States's laboratory instrumentation API/AI interoperability idea, November 12, 2026 at 20:23:31 Beijing time"]
+    }
+  },
+  {
+    "id": "fable52-proprietary-file-format-community-knowledge-report",
+    "title": "未具名专属文件格式：WeZZard称Fable5.2借社区逆向知识提取信息",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "WeZZard报告Fable5.2使用社区已有逆向知识，从某公司专属格式提取信息；格式、样本与结果未公开，模型对合法性的回答不是法律结论。",
+    "description": "2026年11月12日20:24:34（北京时间），WeZZard（@realWeZZard）回顾当天操作，称使用Fable5.2时，模型直接通过社区逆向知识提取了某公司专属文件格式中的信息。它是作者报告的实际文件分析，不是模型独立发现全新格式的证据；原文未说明公司、扩展名、文件用途或提取了哪些字段。\n\n作者还说询问是否合法时模型回答不合法。这只记录对话自述，不代表专业法律意见，也不证明访问未经授权、违反某一司法辖区法律或文件带有可用密钥。同帖时区登录与KYC担忧是作者账户背景，不用它解释技术结果或推定已经被封。\n\n补取仅确认作者与正文，未取得样本、社区规格、代码、解析准确率或完整对话，未接触文件或凭据。REA未提及，按other-ai、unverified保留低细节经验，不宣称通用格式兼容。",
+    "sources": [{"label": "WeZZard的Fable5.2专属格式提取自述，2026-11-12 20:24:34北京时间", "url": "https://x.com/i/status/2120855271623045324"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存20赞、4469浏览、0转发、8回复；后续补取仅核署名，不替换热度快照。"],
+    "en": {
+      "title": "An unnamed proprietary file format: WeZZard reports Fable 5.2 extracting information using community reversing knowledge",
+      "summary": "WeZZard reports Fable 5.2 using existing community reversing knowledge to extract information from a company's proprietary format. The format, sample and output are unpublished; the model's answer about legality is not a legal finding.",
+      "description": "At 20:24:34 Beijing time on November 12, 2026, WeZZard (@realWeZZard) recounts using Fable 5.2 to extract information from a company's proprietary file format using community reverse-engineering knowledge. This is an author-reported file-analysis attempt, not evidence the model independently discovered a new format. The company, extension, file purpose and extracted fields are unspecified.\n\nThe author says the model answered that this was illegal when asked. That is a reported conversation, not professional legal advice or proof of unauthorized access, illegality in a particular jurisdiction or usable keys in the file. Time-zone login and KYC concerns elsewhere in the post are account context, not an explanation of the technical result or evidence of an actual ban.\n\nRetrieval confirmed attribution and wording only. No sample, community specification, code, parsing-accuracy results or full conversation was obtained; no file or credentials were accessed. REA is unmentioned. The low-detail experience remains other-ai and unverified, without claiming general format compatibility.",
+      "metadata": ["Sealed snapshot: 20 likes, 4,469 views, 0 reposts, 8 replies. Later retrieval confirms attribution without replacing engagement."],
+      "source_labels": ["WeZZard's Fable 5.2 proprietary-format extraction report, November 12, 2026 at 20:24:34 Beijing time"]
+    }
+  },
+  {
+    "id": "sandmrk-moonlit-peony-portrait-prompt-reconstruction",
+    "title": "月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。",
+    "description": "2026年11月12日20:58:54（北京时间），AI art gallery（@sandmrk）发布一份反推图像提示词：16:9横图，一位成年女子在月夜牡丹园倚栏，躯干朝镜头、头向左侧转，前景花朵遮腰，暖金主光对比深蓝夜色。帖子用画面百分比限定脸、躯干、月亮、手臂和披帛的位置，试图把可见构图转成可执行的生成规格。\n\n细节包括脸宽约画面12%、月亮直径约4%、发饰牡丹约脸宽1.4倍，以及蓝灰织锦袍、珊瑚色花纹、两段褶皱披帛、色板与负面约束。提示要求署名水印，但这不证明原图权属。它是图像制作规格重建，不是二进制逆向，也没有恢复原始Prompt或训练数据。\n\n作者结尾明确承认生成结果不能完全匹配原图，仍需优化。补取核对署名与完整结尾；模型、原图对照、生成参数和相似度未核，本合集未生成图像或测量效果。归other-ai、unverified，不把详细坐标当作精度验证。",
+    "sources": [{"label": "sandmrk的月夜牡丹园反推提示与不匹配声明，2026-11-12 20:58:54北京时间", "url": "https://x.com/i/status/2120863910609944779"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存1赞、195浏览、0转发、0回复；构图百分比是提示要求，不是生成图测量。"],
+    "en": {
+      "title": "A moonlit peony-garden portrait: sandmrk reconstructs composition, robes and two-tone lighting while acknowledging mismatch",
+      "summary": "sandmrk reverse-engineers a 16:9 portrait prompt with frame coordinates, clothing and a palette for a woman at a moonlit peony-garden railing. The author explicitly says generated results still cannot fully match the original.",
+      "description": "At 20:58:54 Beijing time on November 12, 2026, AI art gallery (@sandmrk) publishes a reverse-engineered image prompt: a 16:9 landscape portrait of an adult woman leaning on a moonlit peony-garden railing, torso facing the camera and head turned left, with foreground flowers hiding the waist and warm gold light against a deep blue night. Frame percentages constrain the face, torso, moon, arms and flowing scarf, translating visible composition into generation specifications.\n\nDetails include a face about 12% of frame width, a moon about 4% in diameter, a peony hair ornament about 1.4 times face width, a blue-grey brocade robe, coral floral decoration, two crinkled scarf bands, a palette and negative constraints. A requested signature watermark does not establish ownership of the original image. This reconstructs visual production specifications, not binaries, and recovers neither the original prompt nor training data.\n\nThe author explicitly says the generated result cannot fully match the original and needs further optimization. Retrieval confirmed attribution and the complete ending. The model, reference comparison, generation parameters and similarity remain unchecked; this collection generated no image and measured no result. Status is other-ai/unverified; detailed coordinates are not accuracy validation.",
+      "metadata": ["Sealed snapshot: 1 like, 195 views, 0 reposts, 0 replies. Frame percentages are prompt requirements, not measurements of generated output."],
+      "source_labels": ["sandmrk's moonlit peony-garden prompt reconstruction and mismatch caveat, November 12, 2026 at 20:58:54 Beijing time"]
+    }
+  },
+  {
+    "id": "kalina-claude-cowork-code-two-prompt-app-rebuild-report",
+    "title": "两步重做未具名应用：Kalina称Cowork研究MVP、Claude Code已在Mac跑起",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Kalina报告先让Claude Cowork研究应用并写MVP，再交Claude Code构建；她下棋时应用已在Mac运行。目标未具名，未证明与原应用等价或实际调用REA。",
+    "description": "2026年11月12日21:11:03（北京时间），Kalina Georgieva（@kalina_gg）说看到可帮助Claude逆向的skill，但认为即使不用它，一些应用也能两步重做：先让Claude Cowork深入研究目标并写出详细MVP，再把结果交给Claude Code。她称自己下棋时工具开始索要权限，新应用已在Mac运行。\n\n这是作者实际重建体验与简化流程，不只是对模型的泛泛预测。不过她未给应用名称、功能清单、研究输入、源码、构建日志或成品链接，也未明确使用了那项skill，不能归为REA实测。两条提示和免费均为她的说法，不等于零订阅成本、两次模型调用或固定工时。\n\n补取核对署名与正文，没有安装应用或核对原软件行为。运行自述不证明功能等价、安全、授权复制或替代市场效果；保留other-ai、unverified，不补出她下棋期间的耗时。",
+    "sources": [{"label": "Kalina的Cowork到Claude Code应用重建自述，2026-11-12 21:11:03北京时间", "url": "https://x.com/i/status/2120866965656932431"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存1赞、68浏览、0转发、2回复；未给目标名称、工时或功能验收。"],
+    "en": {
+      "title": "Two steps toward an unnamed app: Kalina reports Cowork MVP research and a Claude Code build running on her Mac",
+      "summary": "Kalina describes researching an app and drafting its MVP in Claude Cowork, then building it with Claude Code while playing chess. The target is unnamed; equivalence and actual REA use are not established.",
+      "description": "At 21:11:03 Beijing time on November 12, 2026, Kalina Georgieva (@kalina_gg) mentions a skill that helps Claude reverse-engineer software, but says some apps can be rebuilt in two steps even without it: ask Claude Cowork to research the target deeply and produce a detailed MVP, then pass that to Claude Code. While she was playing chess, it began requesting permissions and the new app was already running on her Mac, she reports.\n\nThis is an author-reported reconstruction experience and simplified workflow, not merely a general model forecast. However, no app name, feature list, research input, source, build logs or deliverable link is supplied. She does not confirm using the skill, so this is not a REA test. Two prompts and free are her descriptions, not proof of zero subscription cost, exactly two model calls or fixed working time.\n\nRetrieval confirmed attribution and wording. No app was installed or compared with the original. Reported execution establishes neither functional equivalence, security, permission to copy nor market effects. Attribution stays other-ai and status unverified; time spent playing chess is not converted into an invented duration.",
+      "metadata": ["Sealed snapshot: 1 like, 68 views, 0 reposts, 2 replies. No target name, duration or feature acceptance test."],
+      "source_labels": ["Kalina's Cowork-to-Claude-Code app reconstruction report, November 12, 2026 at 21:11:03 Beijing time"]
+    }
+  },
+  {
+    "id": "promptmetheus-gatcha-cpp-minecraft-animation-ai-attempt",
+    "title": "gatcha C++ Minecraft：Promptmetheus称正上传材料让AI研究动画",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "Promptmetheus说自己在做gatcha C++ Minecraft，并正上传材料供AI反编译动画；具体输入、模型与动画恢复结果未提供，保留进行中自述。",
+    "description": "2026年11月12日21:27:04（北京时间），Promptmetheus（@Promptmethus）回复@CharTerLQ和@NicoleDailyZZZ，称正在制作原文所谓gatcha c++ Minecraft，并在上传main ones让自己的AI从中反编译动画。它至少明确一个游戏制作目标和已开始的材料上传／动画研究，不把口语表达修成未经证实的产品名称。\n\n原文没有解释gatcha与main ones具体指什么，也没指明动画来自Minecraft、其他游戏还是自有素材；没有平台、格式、模型、工具、代码或输出。不能写成Minecraft原版源码已经恢复、C++版本已完成或动画资产可合法再分发。REA未提及，归other-ai。\n\n补取只核对作者和文字，未下载材料、观看动画或运行游戏。保留in-progress，不将正在上传升级成成功提取。",
+    "sources": [{"label": "Promptmetheus的游戏动画AI研究进行中回复，2026-11-12 21:27:04北京时间", "url": "https://x.com/i/status/2120870996915999065"}],
+    "snapshot_date": "2026-11-12", "metadata": ["封存1赞、28浏览、0转发、0回复；gatcha与main ones沿用原话，输入来源未明。"],
+    "en": {
+      "title": "gatcha C++ Minecraft: Promptmetheus reports uploading material for AI animation research",
+      "summary": "Promptmetheus says they are making gatcha C++ Minecraft and uploading material for AI to decompile animations. Inputs, model and recovered animation results are unspecified; this remains in progress.",
+      "description": "At 21:27:04 Beijing time on November 12, 2026, Promptmetheus (@Promptmethus) replies to @CharTerLQ and @NicoleDailyZZZ that they are making what the source calls gatcha c++ Minecraft and uploading the main ones for their AI to decompile animations from. This identifies a game-making objective and started material-upload/animation research, without normalizing the colloquial wording into an unverified product name.\n\nThe source does not explain gatcha or main ones, or whether the animations come from Minecraft, other games or the author's own material. No platform, format, model, tool, code or output is supplied. This is not recovered original Minecraft source, a completed C++ version or permission to redistribute animation assets. REA is unmentioned; attribution is other-ai.\n\nRetrieval checked the author and text only. This collection downloaded no material, watched no animations and ran no game. Status remains in-progress; uploading is not promoted to successful extraction.",
+      "metadata": ["Sealed snapshot: 1 like, 28 views, 0 reposts, 0 replies. gatcha and main ones preserve the source wording; input provenance is unknown."],
+      "source_labels": ["Promptmetheus's in-progress AI game-animation research reply, November 12, 2026 at 21:27:04 Beijing time"]
+    }
+  },
+  {
     "id": "kayode-claude-app-reversing-pushback-report",
     "title": "应用研究遭推拒：Kayode称Claude在自己的逆向尝试中反复挡回",
     "category": "apps", "rea": "other-ai", "status": "unverified",
@@ -835,16 +1091,16 @@
     "id": "bo2-mac-claude-arm64-static-translation-report",
     "title": "bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用",
     "category": "games", "rea": "other-ai", "status": "unverified",
-    "summary": "候选惊叹原生ARM BO2；补查同串vibelancer转述Ghidra／Remill／LLVM到ARM64与Metal，单M1报告51–60fps等，但保留小型x86虚拟机、无在线和高温限制。",
-    "description": "2026年11月11日22:50:17（北京时间），cryptopsihoz（@rimtoln）回复vibelancer，称原生ARM的BO2令人惊讶，并归于AI辅助逆向。补读同串22:41:10的vibelancer原文，明确项目为bo2-mac，目标是在2020年M1 MacBook上玩《Call of Duty: Black Ops II》。原文转述开发者用Claude Opus5.5制作工具；它是候选所指背景与二手说明，不是另一个候选或本合集复现。\n\n报道描述从用户自有Steam版本的三个x86 Windows EXE出发，经Ghidra列函数、Remill v6.0.1提升到LLVM IR、定制优化后由clang -O2生成ARM64；称约150000函数与五处Remill补丁。运行时以Win32兼容实现、4GiB guest映射、D3D11到Metal、2664 shader经HLSLcc、XAudio2到CoreAudio衔接。报道虽以无模拟器、无Wine/JIT宣传，也明确少量保护序列与遗漏函数在Unicorn小型x86 VM中执行，不能写成完全没有仿真。它称执行而不绕过拷贝保护，要求确切Steam build哈希与Mac上的所有权确认，未核机制。\n\n转述给出同一M1上约1小时45分钟转换、约4GB磁盘占用、720p窗口战役51–60fps、六图Zombies 57–60fps、bot多人53–60fps；联网未支持，beta且温度111–116°C。还称静态Metal缓冲优化将每帧23–63MB几何上传降到3.5–5MB、多人51.8到60fps，有13项量化发现、约1100项事先预测和撤回约200项结论。全部是报道口径，无硬件传感器位置、仓库、测试日志或逐项记录供本合集确认；不能泛化其他Mac、全流程通关或热安全，预测数量不是准确率。\n\n未观看视频、下载游戏、构建移植或运行保护代码，未确认授权可再分发。须合法自备游戏，不把报道的产物不可分享说法当法律结论；REA未提及，状态为unverified。",
-    "sources": [{"label": "候选：rimtoln回复原生ARM BO2与AI逆向，2026-11-11 22:50:17北京时间", "url": "https://x.com/i/status/2120529553135448437"}, {"label": "补充同串vibelancer的bo2-mac详细转述，2026-11-11 22:41:10北京时间", "url": "https://x.com/i/status/2120527258410488004"}],
-    "snapshot_date": "2026-11-11", "metadata": ["候选0赞、26浏览、0转发；同串补查49赞、477浏览、1转发是另帖读取快照，不是原候选热度。性能均为二手报告。"],
+    "summary": "bo2-mac的Claude辅助ARM64重建仍为二手报告，保留小型x86 VM、离线与高温限制；11月12日转述补充本地分屏开发、确定性回放和撤回结论的探针／工具问题比例。",
+    "description": "2026年11月11日22:50:17（北京时间），cryptopsihoz（@rimtoln）回复vibelancer，称原生ARM的BO2令人惊讶，并归于AI辅助逆向。补读同串22:41:10的vibelancer原文，明确项目为bo2-mac，目标是在2020年M1 MacBook上玩《Call of Duty: Black Ops II》。原文转述开发者用Claude Opus5.5制作工具；它是候选所指背景与二手说明，不是另一个候选或本合集复现。\n\n报道描述从用户自有Steam版本的三个x86 Windows EXE出发，经Ghidra列函数、Remill v6.0.1提升到LLVM IR、定制优化后由clang -O2生成ARM64；称约150000函数与五处Remill补丁。运行时以Win32兼容实现、4GiB guest映射、D3D11到Metal、2664 shader经HLSLcc、XAudio2到CoreAudio衔接。报道虽以无模拟器、无Wine/JIT宣传，也明确少量保护序列与遗漏函数在Unicorn小型x86 VM中执行，不能写成完全没有仿真。它称执行而不绕过拷贝保护，要求确切Steam build哈希与Mac上的所有权确认，未核机制。\n\n转述给出同一M1上约1小时45分钟转换、约4GB磁盘占用、720p窗口战役51–60fps、六图Zombies 57–60fps、bot多人53–60fps；联网未支持，beta且温度111–116°C。还称静态Metal缓冲优化将每帧23–63MB几何上传降到3.5–5MB、多人51.8到60fps，有13项量化发现、约1100项事先预测和撤回约200项结论。全部是报道口径，无硬件传感器位置、仓库、测试日志或逐项记录供本合集确认；不能泛化其他Mac、全流程通关或热安全，预测数量不是准确率。\n\n2026年11月12日22:21:00的新转述补充，作者正在加入原PC版没有的本地分屏，尚不是已交付功能。它还称项目用确定性回放记录外部输入、控制单变量，每次看结果前先写编号预测；近200项撤回结论中31%因探针问错问题、17%因工具测不出真实结果。分母是撤回结论而非所有预测，原始分类表未取得，不能换算成模型整体错误率。转述强调画面与日志冲突时应质疑探针，由人定目标和纠偏，AI做胶水代码、调用二分排查与大段代码阅读；这些是报道的工作方法，不是本合集检查过的验证环境。\n\n未观看视频、下载游戏、构建移植或运行保护代码，未确认授权可再分发。须合法自备游戏，不把报道的产物不可分享说法当法律结论；REA未提及，状态为unverified。",
+    "sources": [{"label": "候选：rimtoln回复原生ARM BO2与AI逆向，2026-11-11 22:50:17北京时间", "url": "https://x.com/i/status/2120529553135448437"}, {"label": "补充同串vibelancer的bo2-mac详细转述，2026-11-11 22:41:10北京时间", "url": "https://x.com/i/status/2120527258410488004"}, {"label": "新转述：本地分屏开发、确定性回放与撤回结论分类，2026-11-12 22:21:00北京时间", "url": "https://x.com/i/status/2120884570073755946"}],
+    "snapshot_date": "2026-11-12", "metadata": ["候选0赞、26浏览、0转发；同串补查49赞、477浏览、1转发是另帖读取快照，不是原候选热度。性能均为二手报告。", "11月12日新转述封存1赞、642浏览、0转发、1回复；31%与17%指撤回结论归因，没有原始分类表，不算模型错误率。"],
     "en": {
       "title": "bo2-mac: a report of Claude-assisted static translation of Black Ops II to an ARM64 Mac app",
-      "summary": "The candidate reacts to native ARM BO2. Its thread supplies vibelancer's account of Ghidra/Remill/LLVM, ARM64 and Metal, with single-M1 frame rates and explicit tiny-x86-VM, offline-only and high-temperature limits.",
-      "description": "At 22:50:17 Beijing time on November 11, 2026, cryptopsihoz (@rimtoln) replies to vibelancer about native ARM BO2 and credits AI-assisted reversing. Supplementary reading of vibelancer's 22:41:10 thread root identifies bo2-mac, intended to play Call of Duty: Black Ops II on a 2020 M1 MacBook. It relays a developer's claim of building the tool with Claude Opus 5.5. This is context and secondary evidence for the candidate, not another candidate or a reproduction by this collection.\n\nThe account starts with three x86 Windows EXEs from the user's Steam copy: Ghidra lists functions, Remill v6.0.1 lifts to LLVM IR, custom passes optimize it, and clang -O2 produces ARM64. It claims roughly 150,000 functions and five Remill patches. A Win32 implementation, a 4GiB guest mapping, D3D11-to-Metal, 2,664 shaders through HLSLcc and XAudio2-to-CoreAudio provide runtime support. Despite promotional no-emulator/no-Wine-or-JIT wording, the account explicitly places some protection sequences and missed functions in a tiny Unicorn x86 VM. Entirely emulation-free execution is therefore not claimed here. Executing rather than bypassing protection, exact-Steam-build hashing and Mac ownership checks remain reported, not audited mechanisms.\n\nOn one M1, the report gives about 1 hour 45 minutes for conversion, roughly 4GB on disk, 720p-window campaign rates of 51–60fps, Zombies at 57–60fps across six maps and bot multiplayer at 53–60fps. Online play is absent, the project is beta and temperatures reportedly reach 111–116°C. Static Metal buffers allegedly reduce per-frame geometry uploads from 23–63MB to 3.5–5MB and raise multiplayer from 51.8 to 60fps. Thirteen quantified findings, roughly 1,100 advance predictions and about 200 retracted conclusions are also reported. All are secondary claims without sensor placement, repository, test logs or itemized records checked here. Other Macs, complete playthroughs and thermal safety are not established; prediction count is not accuracy.\n\nThe video was not watched; no game was downloaded, port built or protection code run. Redistribution authorization is unconfirmed. A legally obtained game is required, and the report's no-sharing statement is not treated as a legal determination. REA is unmentioned. Status remains unverified.",
-      "metadata": ["Sealed candidate: 0 likes, 26 views, 0 reposts. The supplementary root's 49 likes/477 views/1 repost is a separate retrieval snapshot, not the candidate's engagement. All performance figures are secondary reports."],
-      "source_labels": ["Candidate: rimtoln's native-ARM BO2/AI-reversing reply, November 11, 2026 at 22:50:17 Beijing time", "Supplementary same-thread detailed bo2-mac account by vibelancer, November 11, 2026 at 22:41:10 Beijing time"]
+      "summary": "bo2-mac's Claude-assisted ARM64 reconstruction remains a secondary report, with tiny-x86-VM, offline and high-temperature limits. A November 12 retelling adds in-development local split screen, deterministic replay and probe/tool shares of retracted conclusions.",
+      "description": "At 22:50:17 Beijing time on November 11, 2026, cryptopsihoz (@rimtoln) replies to vibelancer about native ARM BO2 and credits AI-assisted reversing. Supplementary reading of vibelancer's 22:41:10 thread root identifies bo2-mac, intended to play Call of Duty: Black Ops II on a 2020 M1 MacBook. It relays a developer's claim of building the tool with Claude Opus 5.5. This is context and secondary evidence for the candidate, not another candidate or a reproduction by this collection.\n\nThe account starts with three x86 Windows EXEs from the user's Steam copy: Ghidra lists functions, Remill v6.0.1 lifts to LLVM IR, custom passes optimize it, and clang -O2 produces ARM64. It claims roughly 150,000 functions and five Remill patches. A Win32 implementation, a 4GiB guest mapping, D3D11-to-Metal, 2,664 shaders through HLSLcc and XAudio2-to-CoreAudio provide runtime support. Despite promotional no-emulator/no-Wine-or-JIT wording, the account explicitly places some protection sequences and missed functions in a tiny Unicorn x86 VM. Entirely emulation-free execution is therefore not claimed here. Executing rather than bypassing protection, exact-Steam-build hashing and Mac ownership checks remain reported, not audited mechanisms.\n\nOn one M1, the report gives about 1 hour 45 minutes for conversion, roughly 4GB on disk, 720p-window campaign rates of 51–60fps, Zombies at 57–60fps across six maps and bot multiplayer at 53–60fps. Online play is absent, the project is beta and temperatures reportedly reach 111–116°C. Static Metal buffers allegedly reduce per-frame geometry uploads from 23–63MB to 3.5–5MB and raise multiplayer from 51.8 to 60fps. Thirteen quantified findings, roughly 1,100 advance predictions and about 200 retracted conclusions are also reported. All are secondary claims without sensor placement, repository, test logs or itemized records checked here. Other Macs, complete playthroughs and thermal safety are not established; prediction count is not accuracy.\n\nA new retelling at 22:21:00 Beijing time on November 12, 2026 adds that local split screen, absent from the original PC version, is being developed rather than already delivered. It describes deterministic replay recording external inputs, controlling one variable and writing numbered predictions before inspecting results. Of nearly 200 retracted conclusions, 31% reportedly involved probes asking the wrong question and 17% tools unable to measure the actual result. The denominator is retracted conclusions, not all predictions. No original classification table was obtained, so these are not an overall model error rate. The account stresses questioning probes when pictures and logs conflict: humans set objectives and correct course, while AI supplies glue code, bisection across calls and large-code reading. These are reported methods, not a validation environment audited here.\n\nThe video was not watched; no game was downloaded, port built or protection code run. Redistribution authorization is unconfirmed. A legally obtained game is required, and the report's no-sharing statement is not treated as a legal determination. REA is unmentioned. Status remains unverified.",
+      "metadata": ["Sealed candidate: 0 likes, 26 views, 0 reposts. The supplementary root's 49 likes/477 views/1 repost is a separate retrieval snapshot, not the candidate's engagement. All performance figures are secondary reports.", "November 12 retelling, sealed: 1 like, 642 views, 0 reposts, 1 reply. The 31% and 17% attribute retracted conclusions; no original table, and not a model error rate."],
+      "source_labels": ["Candidate: rimtoln's native-ARM BO2/AI-reversing reply, November 11, 2026 at 22:50:17 Beijing time", "Supplementary same-thread detailed bo2-mac account by vibelancer, November 11, 2026 at 22:41:10 Beijing time", "New retelling: local split-screen development, deterministic replay and retraction categories, November 12, 2026 at 22:21:00 Beijing time"]
     }
   },
   {

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [预下载游戏开玩时间检查：Moke建议Grok加REA研究，并做提示备份](../cases/moke-grok-rea-game-release-time-check-idea.md) — Moke在游戏向服务器确认开玩时间的讨论下，建议Grok与REA禁用该部分，并做可分享的游戏提示作为备份；没有具名游戏、实现或可用绕过。 **[REA · 待验证]**
+- [Mac上的Win11虚拟机：作者称Fable5.2加REA让Xbox应用下载独占游戏](../cases/xbox-app-fable52-rea-windows-vm-download-report.md) — @SKL_Piefke_Paul称Fable5.2与REA改变Xbox应用／Windows行为，能在MacBook Pro的修改版Win11虚拟机下载独占游戏；没有游戏运行或GTA6可玩证据。 **[REA · 待验证]**
+- [gatcha C++ Minecraft：Promptmetheus称正上传材料让AI研究动画](../cases/promptmetheus-gatcha-cpp-minecraft-animation-ai-attempt.md) — Promptmetheus说自己在做gatcha C++ Minecraft，并正上传材料供AI反编译动画；具体输入、模型与动画恢复结果未提供，保留进行中自述。 **[其他 AI 逆向 · 进行中]**
 - [Lemmings for Windows 95：人类定架构，REA与多Agent辅助的696函数重建](../cases/lemmings-win95-human-led-ai-reconstruction-report.md) — yibie介绍NitrosGits的旅鼠Windows95重建；固定README自报八模块696函数匹配，明确整文件仍不相同，并区分原编译器匹配与现代可移植构建。 **[REA · 进行中]**
 - [Tony Hawk's Underground：AI可逐函数贡献，合并靠确定性门禁而非AI](../cases/tony-hawks-underground-agent-contribution-report.md) — yibie介绍THUG的Agent贡献机制；固定README与入门指南确认PS2逐函数C++重建、五道合并门禁及C++加汇编的ELF匹配，不代表全C++反编译完成。 **[其他 AI 逆向 · 进行中]**
 - [Empire Earth征服的艺术：Claude署名重建、原版混合联机与未覆盖范围](../cases/empire-earth-ai-trailers-compatible-engine-report.md) — yibie报告Empire Earth重建引擎与原版互通；固定README自报逐tick及混合联机测试，提交历史确有Claude署名，但整文件不匹配、WON服务、音频与物理输入未测。 **[其他 AI 逆向 · 进行中]**
@@ -12,7 +15,7 @@
 - [穿越火线运输船：riba2534仓库记录Claude检索地图资料后重建网页FPS](../cases/riba2534-crossfire-transport-ship-ai-web-rebuild.md) — 候选把合集称为老游戏逆向；补读README实际是Claude Opus5.5按公开布局与攻略重建运输船，用程序化素材做Three.js网页FPS，不是原二进制反编译。 **[其他 AI 逆向 · 待验证]**
 - [QQ飞车网页致敬：Claude参照键位与地图风格重建漂移玩法](../cases/riba2534-qq-speed-ai-web-rebuild.md) — riba2534合集README称Claude先检索QQ飞车键位与攻略，脚本画赛道俯视图后实现四赛道Three.js网页竞速；没有游戏二进制分析或等价验证。 **[其他 AI 逆向 · 待验证]**
 - [游戏开发第三天：214尝试逆向其他游戏动作，纯AI角色美术仍卡关](../cases/ai-game-day3-2d-animation-reconstruction-attempt.md) — 214（0xTimovo）记录AI游戏试作中从关键帧、视频抠帧、骨骼拆件到研究他游动作的多路尝试，整体效果仍差；没有具名参考游戏或成功恢复动作的证据。 **[其他 AI 逆向 · 进行中]**
-- [bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用](../cases/bo2-mac-claude-arm64-static-translation-report.md) — 候选惊叹原生ARM BO2；补查同串vibelancer转述Ghidra／Remill／LLVM到ARM64与Metal，单M1报告51–60fps等，但保留小型x86虚拟机、无在线和高温限制。 **[其他 AI 逆向 · 待验证]**
+- [bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用](../cases/bo2-mac-claude-arm64-static-translation-report.md) — bo2-mac的Claude辅助ARM64重建仍为二手报告，保留小型x86 VM、离线与高温限制；11月12日转述补充本地分屏开发、确定性回放和撤回结论的探针／工具问题比例。 **[其他 AI 逆向 · 待验证]**
 - [Mario Kart 64原生PS3移植：既有反编译、Claude协作与作者实机调试](../cases/mario-kart64-ps3-psl1ght-ai-port-report.md) — yibie介绍MK64 PS3；固定README确认基于n64decomp/mk64与PSL1GHT、Claude多会话协作，作者称亲自实机测试；从自备USA ROM读数据，代码型Mod不支持。 **[其他 AI 逆向 · 进行中]**
 - [Rusted Warfare：AHpxEx称Claude Code拒绝、Codex完成反编译](../cases/rusted-warfare-codex-decompilation-report.md) — AHpxEx报告对Rusted Warfare的反编译请求在Claude Code被拒、Codex则直接做完；没有版本、反编译产物或可构建与行为验证，不认定移植成功。 **[其他 AI 逆向 · 待验证]**
 - [无符号游戏二进制：Locotir称nexo与Codex同得8/10，输入token不同](../cases/locotir-nexo-stripped-game-binary-token-comparison.md) — Locotir报告同模型十项检查、每组一次：Codex CLI与nexo均8/10，输入分别7.72M与3.96M token；未给游戏、检查项、模型或轨迹，不把一次自测推广成普遍节省。 **[其他 AI 逆向 · 分析测试]**

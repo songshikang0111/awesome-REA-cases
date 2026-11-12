@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2140 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2156 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（432）
-- [硬件与设备互通](categories/hardware.md)（573）
-- [应用与客户端](categories/apps.md)（880）
-- [算法与功能重建](categories/algorithms.md)（255）
+- [游戏与游戏保存](categories/games.md)（435）
+- [硬件与设备互通](categories/hardware.md)（579）
+- [应用与客户端](categories/apps.md)（886）
+- [算法与功能重建](categories/algorithms.md)（256）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [预下载游戏开玩时间检查：Moke建议Grok加REA研究，并做提示备份](cases/moke-grok-rea-game-release-time-check-idea.md) — Moke在游戏向服务器确认开玩时间的讨论下，建议Grok与REA禁用该部分，并做可分享的游戏提示作为备份；没有具名游戏、实现或可用绕过。 **[REA · 待验证]**
+- [Mac上的Win11虚拟机：作者称Fable5.2加REA让Xbox应用下载独占游戏](cases/xbox-app-fable52-rea-windows-vm-download-report.md) — @SKL_Piefke_Paul称Fable5.2与REA改变Xbox应用／Windows行为，能在MacBook Pro的修改版Win11虚拟机下载独占游戏；没有游戏运行或GTA6可玩证据。 **[REA · 待验证]**
+- [gatcha C++ Minecraft：Promptmetheus称正上传材料让AI研究动画](cases/promptmetheus-gatcha-cpp-minecraft-animation-ai-attempt.md) — Promptmetheus说自己在做gatcha C++ Minecraft，并正上传材料供AI反编译动画；具体输入、模型与动画恢复结果未提供，保留进行中自述。 **[其他 AI 逆向 · 进行中]**
 - [Lemmings for Windows 95：人类定架构，REA与多Agent辅助的696函数重建](cases/lemmings-win95-human-led-ai-reconstruction-report.md) — yibie介绍NitrosGits的旅鼠Windows95重建；固定README自报八模块696函数匹配，明确整文件仍不相同，并区分原编译器匹配与现代可移植构建。 **[REA · 进行中]**
 - [Tony Hawk's Underground：AI可逐函数贡献，合并靠确定性门禁而非AI](cases/tony-hawks-underground-agent-contribution-report.md) — yibie介绍THUG的Agent贡献机制；固定README与入门指南确认PS2逐函数C++重建、五道合并门禁及C++加汇编的ELF匹配，不代表全C++反编译完成。 **[其他 AI 逆向 · 进行中]**
 - [Empire Earth征服的艺术：Claude署名重建、原版混合联机与未覆盖范围](cases/empire-earth-ai-trailers-compatible-engine-report.md) — yibie报告Empire Earth重建引擎与原版互通；固定README自报逐tick及混合联机测试，提交历史确有Claude署名，但整文件不匹配、WON服务、音频与物理输入未测。 **[其他 AI 逆向 · 进行中]**
@@ -36,7 +39,7 @@
 - [穿越火线运输船：riba2534仓库记录Claude检索地图资料后重建网页FPS](cases/riba2534-crossfire-transport-ship-ai-web-rebuild.md) — 候选把合集称为老游戏逆向；补读README实际是Claude Opus5.5按公开布局与攻略重建运输船，用程序化素材做Three.js网页FPS，不是原二进制反编译。 **[其他 AI 逆向 · 待验证]**
 - [QQ飞车网页致敬：Claude参照键位与地图风格重建漂移玩法](cases/riba2534-qq-speed-ai-web-rebuild.md) — riba2534合集README称Claude先检索QQ飞车键位与攻略，脚本画赛道俯视图后实现四赛道Three.js网页竞速；没有游戏二进制分析或等价验证。 **[其他 AI 逆向 · 待验证]**
 - [游戏开发第三天：214尝试逆向其他游戏动作，纯AI角色美术仍卡关](cases/ai-game-day3-2d-animation-reconstruction-attempt.md) — 214（0xTimovo）记录AI游戏试作中从关键帧、视频抠帧、骨骼拆件到研究他游动作的多路尝试，整体效果仍差；没有具名参考游戏或成功恢复动作的证据。 **[其他 AI 逆向 · 进行中]**
-- [bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用](cases/bo2-mac-claude-arm64-static-translation-report.md) — 候选惊叹原生ARM BO2；补查同串vibelancer转述Ghidra／Remill／LLVM到ARM64与Metal，单M1报告51–60fps等，但保留小型x86虚拟机、无在线和高温限制。 **[其他 AI 逆向 · 待验证]**
+- [bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用](cases/bo2-mac-claude-arm64-static-translation-report.md) — bo2-mac的Claude辅助ARM64重建仍为二手报告，保留小型x86 VM、离线与高温限制；11月12日转述补充本地分屏开发、确定性回放和撤回结论的探针／工具问题比例。 **[其他 AI 逆向 · 待验证]**
 - [Mario Kart 64原生PS3移植：既有反编译、Claude协作与作者实机调试](cases/mario-kart64-ps3-psl1ght-ai-port-report.md) — yibie介绍MK64 PS3；固定README确认基于n64decomp/mk64与PSL1GHT、Claude多会话协作，作者称亲自实机测试；从自备USA ROM读数据，代码型Mod不支持。 **[其他 AI 逆向 · 进行中]**
 - [Rusted Warfare：AHpxEx称Claude Code拒绝、Codex完成反编译](cases/rusted-warfare-codex-decompilation-report.md) — AHpxEx报告对Rusted Warfare的反编译请求在Claude Code被拒、Codex则直接做完；没有版本、反编译产物或可构建与行为验证，不认定移植成功。 **[其他 AI 逆向 · 待验证]**
 - [无符号游戏二进制：Locotir称nexo与Codex同得8/10，输入token不同](cases/locotir-nexo-stripped-game-binary-token-comparison.md) — Locotir报告同模型十项检查、每组一次：Codex CLI与nexo均8/10，输入分别7.72M与3.96M token；未给游戏、检查项、模型或轨迹，不把一次自测推广成普遍节省。 **[其他 AI 逆向 · 分析测试]**
@@ -461,6 +464,12 @@
 
 ### 硬件与设备互通
 
+- [电视厂商二进制与驱动：Andrath正用REA获取更多内部信息](cases/andrath-tv-vendor-binaries-drivers-rea-attempt.md) — Andrath说正做TV hacking，使用REA从厂商二进制和驱动获取信息；没有电视品牌、版本或具体发现，保留早期研究，不写成已改造设备。 **[REA · 进行中]**
+- [Garmin Forerunner955共用：Claude研究双用户限制，改做Profile2运动应用](cases/garmin-forerunner955-claude-profile2-workaround.md) — Max Reid想与妻子共用Forerunner955，让Claude研究双档案限制后改走官方应用平台；自报Profile2的心率、计时、GPS可用，但不能改系统档案，全天健康数据仍混合。 **[其他 AI 逆向 · 进行中]**
+- [UniXNU到Android手表：Yukwun转述AI逆向移植watchOS，缺陷与设备未核](cases/unixnu-android-watch-watchos-ai-port-retelling.md) — Yukwun称有人借UniXNU与AI逆向把watchOS刷到华强北Android手表，并承认仍有bug；型号、版本、启动范围及仓库未核，不写成Apple Watch完整替代。 **[其他 AI 逆向 · 待验证]**
+- [RoverOS口袋Linux：Jerry想让Agent接近Technogym单车和身边设备](cases/roveros-technogym-pocket-linux-agent-device-idea.md) — Jerry以Technogym单车骑行数据难导出为起点开发RoverOS，拟在Linux手机上给Agent接蓝牙、USB、Wi-Fi与Tailscale；Redmi Note10 Pro尚待到货实测。 **[其他 AI 逆向 · 进行中]**
+- [Razer BlackWidow V4可视拆解：Claude据一张图与规格表重建110键网页](cases/razer-blackwidow-v4-claude-interactive-reconstruction.md) — f0rgent转述Claude机械键盘页面；父帖Kern说明以图片与Razer规格表重建110键、开关和分层动画。不是实物拆解、固件恢复或力曲线测量。 **[其他 AI 逆向 · 待验证]**
+- [实验仪器API互通：David States建议用AI研究接口、协调采集流程](cases/ai-lab-instrumentation-api-integration-idea.md) — David States提出用AI逆向实验仪器API，让实验室整合不同设备、控制工作流与采集数据，并定制中等通量实验协议；尚无具名仪器或实施结果。 **[其他 AI 逆向 · 待验证]**
 - [损坏的pydrone板再利用：netox让Codex写电子墨水屏新固件](cases/pydrone-damaged-board-codex-eink-firmware-attempt.md) — netox称pydrone板一颗芯片损坏后买电子墨水屏，让Codex协助写新固件；是旧板再利用尝试，未报告驱动完成、点亮或整机可用。 **[其他 AI 逆向 · 进行中]**
 - [Anker录音豆到知识库：Berryxia称REA研究蓝牙协议，再接MCP检索](cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md) — Berryxia.AI自述用REA逆向Anker录音豆蓝牙通信，制作带录音、知识库、场景分类、转写与MCP检索的软件；待调整测试后开源，未核设备链路。 **[REA · 进行中]**
 - [NEAR Signer：AI协作开发的iPhone Ledger协议兼容端，实机仍待核](cases/near-signer-ios-ledger-ble-ai-report.md) — 莫信转述Ivan Frolov与agents开发NEAR Signer；固定文档确认Ledger BLE／APDU兼容、二维码签名与模拟器测试，但未验证真实iPhone蓝牙、相机或Xcode构建，不等同Ledger安全芯片。 **[其他 AI 逆向 · 进行中]**
@@ -1037,6 +1046,12 @@
 
 ### 应用与客户端
 
+- [EAC公开应用：Jhaddix转述XBOW Agent研究前端JS并报告未认证容器RCE](cases/xbow-eac-frontend-js-unauthenticated-rce-report.md) — Jhaddix在赞助帖中称XBOW Agent研究美国EAC某公开应用前端JavaScript，验证后端容器root代码执行并在11月3日前修补；未独立验证，不扩大为投票系统被攻破。 **[其他 AI 逆向 · 待验证]**
+- [Ableton13研究idea：So Me向Grimes建议Opus5.5加REA](cases/glitchedsomi-opus55-rea-ableton13-idea.md) — So Me回复Grimes，提出用Opus5.5与REA研究Ableton13；只有目标与工具组合，没有已开始任务、具体功能、代码或结果。 **[REA · 待验证]**
+- [REA任务遇停号警告：Yi称gpt-6-astra反复拒绝后收到邮件](cases/yi-rea-gpt6-astra-refusal-account-warning-report.md) — Yi报告用REA加gpt-6-astra执行未具名逆向任务，数次继续后收到账号将被停用的警告；不是已停号记录，也未证明DeepSeek普遍不拒绝。 **[REA · 待验证]**
+- [37行Android逆向报告：cabbit用XERJ Reader按原文行回答问题](cases/xerj-reader-android-reversing-report-line-grounding-test.md) — cabbit报告研究Android应用后得到37行报告，再用XERJ Reader限制AI引用原行、缺失则答not in doc；1050倍便宜是无成本表的宣传，未独立测试。 **[其他 AI 逆向 · 分析测试]**
+- [未具名专属文件格式：WeZZard称Fable5.2借社区逆向知识提取信息](cases/fable52-proprietary-file-format-community-knowledge-report.md) — WeZZard报告Fable5.2使用社区已有逆向知识，从某公司专属格式提取信息；格式、样本与结果未公开，模型对合法性的回答不是法律结论。 **[其他 AI 逆向 · 待验证]**
+- [两步重做未具名应用：Kalina称Cowork研究MVP、Claude Code已在Mac跑起](cases/kalina-claude-cowork-code-two-prompt-app-rebuild-report.md) — Kalina报告先让Claude Cowork研究应用并写MVP，再交Claude Code构建；她下棋时应用已在Mac运行。目标未具名，未证明与原应用等价或实际调用REA。 **[其他 AI 逆向 · 待验证]**
 - [应用研究遭推拒：Kayode称Claude在自己的逆向尝试中反复挡回](cases/kayode-claude-app-reversing-pushback-report.md) — Kayode向ayoships询问逆向模型，称自己研究应用时Claude总推拒；保留低细节失败经验，不据此推断全部Claude政策或REA被调用。 **[其他 AI 逆向 · 待验证]**
 - [企业SaaS接口化：Yangyi提出用OpenCLI研究核心操作，再交给Agent](cases/yangyi-opencli-enterprise-saas-agent-interface-idea.md) — Yangyi提出研究企业内部SaaS，把核心操作包装成Agent工具，再以元Agent编排流程；是企业AI落地方案，不是已交付接口或覆盖率测试。 **[其他 AI 逆向 · 待验证]**
 - [微信到企业上下文：Yangyi提出客户端研究与需求、任务自动汇报](cases/yangyi-wechat-enterprise-context-reversing-idea.md) — Yangyi把微信客户端研究列为企业AI方案的一步，拟打通企业聊天数据、自动报告需求任务、补客户画像与决策上下文；没有实现、接口或数据授权验证。 **[其他 AI 逆向 · 待验证]**
@@ -1920,6 +1935,7 @@
 
 ### 算法与功能重建
 
+- [月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配](cases/sandmrk-moonlit-peony-portrait-prompt-reconstruction.md) — sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。 **[其他 AI 逆向 · 待验证]**
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
 - [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**
 - [一段素材做30条试投短片：REA反推视频格式与剪辑风格的idea](cases/rea-video-trial-reel-format-tournament-idea.md) — ericosiu建议用面向视频的Reverse engineer anything复制格式和剪辑风格，再将素材剪成30种开头、结构与时长试投；未给工具实现或真实投放结果。 **[REA · 待验证]**

@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [电视厂商二进制与驱动：Andrath正用REA获取更多内部信息](../cases/andrath-tv-vendor-binaries-drivers-rea-attempt.md) — Andrath说正做TV hacking，使用REA从厂商二进制和驱动获取信息；没有电视品牌、版本或具体发现，保留早期研究，不写成已改造设备。 **[REA · 进行中]**
+- [Garmin Forerunner955共用：Claude研究双用户限制，改做Profile2运动应用](../cases/garmin-forerunner955-claude-profile2-workaround.md) — Max Reid想与妻子共用Forerunner955，让Claude研究双档案限制后改走官方应用平台；自报Profile2的心率、计时、GPS可用，但不能改系统档案，全天健康数据仍混合。 **[其他 AI 逆向 · 进行中]**
+- [UniXNU到Android手表：Yukwun转述AI逆向移植watchOS，缺陷与设备未核](../cases/unixnu-android-watch-watchos-ai-port-retelling.md) — Yukwun称有人借UniXNU与AI逆向把watchOS刷到华强北Android手表，并承认仍有bug；型号、版本、启动范围及仓库未核，不写成Apple Watch完整替代。 **[其他 AI 逆向 · 待验证]**
+- [RoverOS口袋Linux：Jerry想让Agent接近Technogym单车和身边设备](../cases/roveros-technogym-pocket-linux-agent-device-idea.md) — Jerry以Technogym单车骑行数据难导出为起点开发RoverOS，拟在Linux手机上给Agent接蓝牙、USB、Wi-Fi与Tailscale；Redmi Note10 Pro尚待到货实测。 **[其他 AI 逆向 · 进行中]**
+- [Razer BlackWidow V4可视拆解：Claude据一张图与规格表重建110键网页](../cases/razer-blackwidow-v4-claude-interactive-reconstruction.md) — f0rgent转述Claude机械键盘页面；父帖Kern说明以图片与Razer规格表重建110键、开关和分层动画。不是实物拆解、固件恢复或力曲线测量。 **[其他 AI 逆向 · 待验证]**
+- [实验仪器API互通：David States建议用AI研究接口、协调采集流程](../cases/ai-lab-instrumentation-api-integration-idea.md) — David States提出用AI逆向实验仪器API，让实验室整合不同设备、控制工作流与采集数据，并定制中等通量实验协议；尚无具名仪器或实施结果。 **[其他 AI 逆向 · 待验证]**
 - [损坏的pydrone板再利用：netox让Codex写电子墨水屏新固件](../cases/pydrone-damaged-board-codex-eink-firmware-attempt.md) — netox称pydrone板一颗芯片损坏后买电子墨水屏，让Codex协助写新固件；是旧板再利用尝试，未报告驱动完成、点亮或整机可用。 **[其他 AI 逆向 · 进行中]**
 - [Anker录音豆到知识库：Berryxia称REA研究蓝牙协议，再接MCP检索](../cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md) — Berryxia.AI自述用REA逆向Anker录音豆蓝牙通信，制作带录音、知识库、场景分类、转写与MCP检索的软件；待调整测试后开源，未核设备链路。 **[REA · 进行中]**
 - [NEAR Signer：AI协作开发的iPhone Ledger协议兼容端，实机仍待核](../cases/near-signer-ios-ledger-ble-ai-report.md) — 莫信转述Ivan Frolov与agents开发NEAR Signer；固定文档确认Ledger BLE／APDU兼容、二维码签名与模拟器测试，但未验证真实iPhone蓝牙、相机或Xcode构建，不等同Ledger安全芯片。 **[其他 AI 逆向 · 进行中]**

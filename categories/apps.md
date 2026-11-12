@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [EAC公开应用：Jhaddix转述XBOW Agent研究前端JS并报告未认证容器RCE](../cases/xbow-eac-frontend-js-unauthenticated-rce-report.md) — Jhaddix在赞助帖中称XBOW Agent研究美国EAC某公开应用前端JavaScript，验证后端容器root代码执行并在11月3日前修补；未独立验证，不扩大为投票系统被攻破。 **[其他 AI 逆向 · 待验证]**
+- [Ableton13研究idea：So Me向Grimes建议Opus5.5加REA](../cases/glitchedsomi-opus55-rea-ableton13-idea.md) — So Me回复Grimes，提出用Opus5.5与REA研究Ableton13；只有目标与工具组合，没有已开始任务、具体功能、代码或结果。 **[REA · 待验证]**
+- [REA任务遇停号警告：Yi称gpt-6-astra反复拒绝后收到邮件](../cases/yi-rea-gpt6-astra-refusal-account-warning-report.md) — Yi报告用REA加gpt-6-astra执行未具名逆向任务，数次继续后收到账号将被停用的警告；不是已停号记录，也未证明DeepSeek普遍不拒绝。 **[REA · 待验证]**
+- [37行Android逆向报告：cabbit用XERJ Reader按原文行回答问题](../cases/xerj-reader-android-reversing-report-line-grounding-test.md) — cabbit报告研究Android应用后得到37行报告，再用XERJ Reader限制AI引用原行、缺失则答not in doc；1050倍便宜是无成本表的宣传，未独立测试。 **[其他 AI 逆向 · 分析测试]**
+- [未具名专属文件格式：WeZZard称Fable5.2借社区逆向知识提取信息](../cases/fable52-proprietary-file-format-community-knowledge-report.md) — WeZZard报告Fable5.2使用社区已有逆向知识，从某公司专属格式提取信息；格式、样本与结果未公开，模型对合法性的回答不是法律结论。 **[其他 AI 逆向 · 待验证]**
+- [两步重做未具名应用：Kalina称Cowork研究MVP、Claude Code已在Mac跑起](../cases/kalina-claude-cowork-code-two-prompt-app-rebuild-report.md) — Kalina报告先让Claude Cowork研究应用并写MVP，再交Claude Code构建；她下棋时应用已在Mac运行。目标未具名，未证明与原应用等价或实际调用REA。 **[其他 AI 逆向 · 待验证]**
 - [应用研究遭推拒：Kayode称Claude在自己的逆向尝试中反复挡回](../cases/kayode-claude-app-reversing-pushback-report.md) — Kayode向ayoships询问逆向模型，称自己研究应用时Claude总推拒；保留低细节失败经验，不据此推断全部Claude政策或REA被调用。 **[其他 AI 逆向 · 待验证]**
 - [企业SaaS接口化：Yangyi提出用OpenCLI研究核心操作，再交给Agent](../cases/yangyi-opencli-enterprise-saas-agent-interface-idea.md) — Yangyi提出研究企业内部SaaS，把核心操作包装成Agent工具，再以元Agent编排流程；是企业AI落地方案，不是已交付接口或覆盖率测试。 **[其他 AI 逆向 · 待验证]**
 - [微信到企业上下文：Yangyi提出客户端研究与需求、任务自动汇报](../cases/yangyi-wechat-enterprise-context-reversing-idea.md) — Yangyi把微信客户端研究列为企业AI方案的一步，拟打通企业聊天数据、自动报告需求任务、补客户画像与决策上下文；没有实现、接口或数据授权验证。 **[其他 AI 逆向 · 待验证]**
