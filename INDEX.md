@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2106 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2114 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（428）
-- [硬件与设备互通](categories/hardware.md)（564）
-- [应用与客户端](categories/apps.md)（863）
-- [算法与功能重建](categories/algorithms.md)（251）
+- [硬件与设备互通](categories/hardware.md)（568）
+- [应用与客户端](categories/apps.md)（866）
+- [算法与功能重建](categories/algorithms.md)（252）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -457,6 +457,10 @@
 
 ### 硬件与设备互通
 
+- [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**
+- [一台未具名平板：Devsec AI称Agent辅助逆向已用36小时](cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI称在一台平板的rea工作上已花36小时，强调Agent虽加速，高质量结果仍需时间；设备、工具与成果未说明。 **[未确认使用 REA · 进行中]**
+- [自家可视对讲：Claude研究Android协议，作者称CLI开门与视频只加密前64字节](cases/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT称Claude研究可视对讲Android应用与通信协议，用自制CLI开自家前门，并发现蜂窝网络视频每帧仅前64字节加密；无型号或抓包核验。 **[其他 AI 逆向 · 进行中]**
+- [云端停服后的Surfboard W161：作者称Codex识别USB接入引脚以进入路由器](cases/surfboard-w161-codex-usb-pin-access-report.md) — hello称Codex帮助研究失去厂商云端支持的Surfboard W161 WiFi路由器，用便宜USB适配器识别应接引脚以进入设备；未报告恢复联网或新固件。 **[其他 AI 逆向 · 进行中]**
 - [富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用](cases/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。 **[其他 AI 逆向 · 待验证]**
 - [车内旋钮与宏：Ali Ok提出用Claude反编译补控制功能](cases/aliok-car-knob-claude-decompile-control-ideas.md) — Ali Ok想以旋钮加按钮切换大灯、后座加热及车内灯，并加入宏；半开玩笑提出Claude反编译，未给设备型号或实现。 **[其他 AI 逆向 · 进行中]**
 - [Zebronics手柄控制Claude：Lovekesh Anand的进行中逆向](cases/zebronics-gamepad-claude-control-reversing.md) — Lovekesh Anand称正在逆向Zebronics游戏手柄以控制Claude；未说明型号、协议或映射，不把Claude作为控制对象误写为已参与逆向的模型。 **[未确认使用 REA · 进行中]**
@@ -1024,6 +1028,9 @@
 
 ### 应用与客户端
 
+- [Razer软件非Windows互通：kitkat称三周前逆向后持续开发](cases/kitkat-razer-nonwindows-reversing-report.md) — kitkat在AI编程讨论中称三周前逆向Razer软件并持续开发，动机是厂商只做Windows支持；具体产品、工具与可用功能未知。 **[未确认使用 REA · 进行中]**
+- [REA6.9自有应用自测：Phosphen报告source map、Stripe键暴露与发布门禁](cases/phosphen-rea69-own-app-exposure-gate-test.md) — Phosphen称从REA6.9发布分支构建后，在自建应用检出source map完整源码及.env.production中的Stripe键，并报告高风险门禁退出码3、修复后0。 **[REA · 分析测试]**
+- [Qwen3.8-27B与REA：Funy称网站／服务器逆向测试现状不理想](cases/funy-qwen38-rea-web-server-test-attempt.md) — Funy询问Qwen3.8-27B的逆向能力，称希望配REA测试网站和服务器但现状不满意；没有具体目标、失败阶段或测量。 **[REA · 进行中]**
 - [七天专注应用：作者称用REA和多模型思考与构建](cases/rea-multimodel-seven-day-concentration-app-report.md) — 作者回复称用reverse engineer anything仓库及Opus、Gemini Flash、GLM、Claude聊天和DeepSeek，七天做了专注应用；没有原参考应用或具体逆向结果。 **[REA · 待验证]**
 - [iTunes原生跑Linux：REA热潮下的兼容愿望](cases/itunes-native-linux-rea-idea.md) — 候选询问是否有人借REA让iTunes在Linux原生工作；这是指定应用与平台的idea，未说明已有实现。 **[REA · 进行中]**
 - [WebPrompt到Claude：把网页反推成AI设计蓝图的流程](cases/webprompt-claude-ai-studio-website-blueprint-workflow.md) — 候选给出Google→WebPrompt→Claude→Google AI Studio流程，称可零成本逆向任意网站并生成设计蓝图；未给站点、输出或成本记录。 **[其他 AI 逆向 · 待验证]**
@@ -1672,7 +1679,7 @@
 - [Could AI Decompile Windows：DesignerDave 的视频讨论入口](cases/windows-ai-decompile-designerdave-idea.md) — DesignerDave发布能否用AI反编译Windows的视频标题；仅收作讨论idea，没有系统重建证据。 **[未确认使用 REA · 待验证]**
 - [常驻 REA bot：把认证与广告问题整理成可点击证据站点](cases/rea-swarm-evidence-site-workflow.md) — 作者描述让REA bot接收自己与其他bot的问题，用隔离机器调查并为每次调查建证据站点；未给具体App和产物。 **[REA · 待验证]**
 - [dot Agent harness：读者期待出现逆向替代品的 idea](cases/dot-agent-harness-rea-idea.md) — 在Agent harness可靠性讨论中，读者预期有人用REA研究dot；没有实际研究或替代实现。 **[REA · 待验证]**
-- [FL Studio：读者请求用 Claude 研究音乐制作软件](cases/fl-studio-claude-reverse-idea.md) — 看到Claude逆向软件的讨论后，读者询问能否研究FL Studio；没有启动项目或指定功能。 **[其他 AI 逆向 · 待验证]**
+- [FL Studio：从Claude研究请求到zek的Agent接口与VST反编译设想](cases/fl-studio-claude-reverse-idea.md) — 此前读者请求研究FL Studio；zek现称花一天尝试Agent操作，觉得现有MCP暴露能力不足，提出反编译以写VST并扩展接口，未报告完成。 **[其他 AI 逆向 · 进行中]**
 - [Toolport：含 REA 的371工具配置减少初始上下文的报告](cases/toolport-rea-schema-loading-report.md) — 371工具配置的初始tokens报告后，btsouth补充两款crackme自测；6.1倍token差异仅归于预载工具的OpenCode 1.19。 **[REA · 分析测试]**
 - [Ventris：用于源码与二进制安全研究的 Agent 平台转述](cases/ventris-agent-binary-security-platform-report.md) — 收购报道描述Ventris以Agent分析源码和二进制、配置安全研究流程；没有给出漏洞样本或验证。 **[其他 AI 逆向 · 相关项目]**
 - [Hermes + REA：日视图、筛选与新增预约的日历重建自述](cases/hermes-rea-calendar-scheduler-report.md) — Julian Goldie 称把日历链接交给Hermes与REA，得到可用调度器；零成本与功能正确性未核验。 **[REA · 待验证]**
@@ -1890,6 +1897,7 @@
 
 ### 算法与功能重建
 
+- [仅作者持源码的剥符号程序：Kimmmmmm称REA约28秒恢复逻辑](cases/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm称REA正确重建一个仅自己持源码的剥符号程序逻辑，耗时约28秒，并提醒深入分析依赖较重的Ghidra安装；没有样本或对照结果。 **[REA · 分析测试]**
 - [AGENTS.md与记忆冲突：Sparshith用小样本黑盒实验反推Claude Code／Codex优先级](cases/sparsamp-agent-memory-agents-md-conflict-probes.md) — Sparshith Sampath每设置五次，比较CSV／JSON、相差15天的偏好与3美元付费许可；称Codex始终依AGENTS.md，Claude会考虑新旧和更安全选择，未区分模型与harness原因。 **[其他 AI 逆向 · 分析测试]**
 - [BLADE：Noah Zixin Zhang宣布对抗BLA，让REA继续分析](cases/noah-blade-anti-bla-rea-project.md) — Noah Zixin Zhang在同晚两帖宣布BLADE，后给出Bypass LLM Agent Defense Engine全名；目标是对抗BLA阻碍Agent分析的防御，尚无已审源码或测试。 **[REA · 待验证]**
 - [CyberBinGym：补丁二进制帮助Agent恢复漏洞，但88%恢复不等于20%利用](cases/cyberbingym-stripped-binary-patch-agent-benchmark.md) — 100个真实漏洞任务只给去符号的新旧二进制，论文报告最强Agent恢复88%、利用20%；补丁与加固对照只在限定子集，未独立复跑。 **[其他 AI 逆向 · 分析测试]**

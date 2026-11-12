@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2106 entries**, organized by use case, without a Top-N or popularity threshold.
+**2114 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
 - [Games and preservation](categories/en/games.md) (428)
-- [Hardware and interoperability](categories/en/hardware.md) (564)
-- [Applications and clients](categories/en/apps.md) (863)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (251)
+- [Hardware and interoperability](categories/en/hardware.md) (568)
+- [Applications and clients](categories/en/apps.md) (866)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (252)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -459,6 +459,10 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [An ESP32 firmware test: Phosphen says REA 6.9 split five segments and verified checksum and SHA-256](cases/en/phosphen-rea69-esp32-five-segment-test.md) — Phosphen reports five segments plus checksum and SHA-256 verification for an ESP32 image supplied to their REA 6.9 build. No image, partition semantics or logs were reviewed; firmware logic recovery is not established. **[REA · Analysis test]**
+- [An unnamed tablet: Devsec AI reports 36 hours of agent-assisted reversing](cases/en/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI says rea work on a tablet has taken 36 hours and that agents accelerate work but do not remove the time needed for quality. The device, tools and deliverables are unspecified. **[REA use unconfirmed · In progress]**
+- [A home video intercom: Claude studies Android protocols, with reported CLI door opening and only 64 encrypted bytes per image](cases/en/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT says Claude studied an intercom's Android app and protocol, opened their own front door through a custom CLI and found only the first 64 bytes of each mobile-data video image encrypted. No model or capture was checked. **[Other AI-assisted work · In progress]**
+- [Surfboard W161 after cloud support ends: an author says Codex identified pins for USB device access](cases/en/surfboard-w161-codex-usb-pin-access-report.md) — hello says Codex helped investigate a Surfboard W161 WiFi router after vendor cloud support ended, identifying pins for access through a cheap USB adapter. Restored networking or new firmware is not reported. **[Other AI-assisted work · In progress]**
 - [Fujifilm X half wireless imports: sneha reports Opus studying older protocols and building a Mac app](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha says Opus 5.5 studied open-source reversing of older Fujifilm cameras, tested an X half step by step, found Bluetooth time-slot and Wi-Fi startup-code differences, and built full-resolution JPEG imports with Google Photos uploads on Mac. **[Other AI-assisted work · Needs verification]**
 - [Car-knob controls and macros: Ali Ok suggests Claude decompilation for missing functions](cases/en/aliok-car-knob-claude-decompile-control-ideas.md) — Ali Ok wants knob-plus-button control of headlights, rear-seat heating and cabin lights, plus macros. A joking Claude-decompilation suggestion supplies no device model or implementation. **[Other AI-assisted work · In progress]**
 - [A Zebronics gamepad for controlling Claude: Lovekesh Anand's ongoing reversing project](cases/en/zebronics-gamepad-claude-control-reversing.md) — Lovekesh Anand says he is reversing a Zebronics gamepad to control Claude. Model, protocol and mappings are unspecified; Claude as the control target is not evidence it performed the reversing. **[REA use unconfirmed · In progress]**
@@ -1026,6 +1030,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Razer software beyond Windows: kitkat reports three weeks of ongoing reversing work](cases/en/kitkat-razer-nonwindows-reversing-report.md) — In an AI-coding discussion, kitkat says they reversed Razer software three weeks earlier and kept developing it, motivated by Windows-only vendor support. The product, tools and usable features are unspecified. **[REA use unconfirmed · In progress]**
+- [REA 6.9 on an author's own app: Phosphen reports source-map and Stripe-key exposure plus a release gate](cases/en/phosphen-rea69-own-app-exposure-gate-test.md) — Phosphen says a build from REA's 6.9 release branch found full source in a source map and a Stripe key in their test app's .env.production, with gate exit codes of 3 for high exposure and 0 after fixes. **[REA · Analysis test]**
+- [Qwen3.8-27B with REA: Funy reports unsatisfactory website/server reversing tests](cases/en/funy-qwen38-rea-web-server-test-attempt.md) — Funy asks about Qwen3.8-27B's reversing abilities and wants to test websites and servers with REA, describing the current situation as unsatisfactory. No target, failure stage or measurement is given. **[REA · In progress]**
 - [A concentration app in seven days: a poster reports REA and multiple models for planning and building](cases/en/rea-multimodel-seven-day-concentration-app-report.md) — A reply credits the reverse engineer anything repository, Opus, Gemini Flash, GLM, Claude chat and DeepSeek with a seven-day concentration-app build. No reference app or specific reversing result is supplied. **[REA · Needs verification]**
 - [Native iTunes on Linux: an interoperability wish amid REA interest](cases/en/itunes-native-linux-rea-idea.md) — A poster asks whether REA has enabled iTunes to work natively on Linux. This identifies an app and platform, not an existing implementation. **[REA · In progress]**
 - [WebPrompt to Claude: a workflow for turning websites into AI design blueprints](cases/en/webprompt-claude-ai-studio-website-blueprint-workflow.md) — A candidate lists Google → WebPrompt → Claude → Google AI Studio, claiming zero-cost reversing of any website into a design blueprint. No sample site, output or cost record is supplied. **[Other AI-assisted work · Needs verification]**
@@ -1674,7 +1681,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [Could AI Decompile Windows? DesignerDave's video-discussion pointer](cases/en/windows-ai-decompile-designerdave-idea.md) — DesignerDave shares a video asking whether AI could decompile Windows; this is a discussion idea, not evidence of a rebuilt operating system. **[REA use unconfirmed · Needs verification]**
 - [A resident REA bot: turning authentication and ad questions into clickable evidence sites](cases/en/rea-swarm-evidence-site-workflow.md) — A user describes a swarm bot investigating questions on isolated machines and producing evidence sites, without named target apps or public artifacts. **[REA · Needs verification]**
 - [dot agent harness: a reader's expectation of a reverse-engineered alternative](cases/en/dot-agent-harness-rea-idea.md) — In a harness-reliability discussion, a reader anticipates REA investigation of dot, without actual research or an alternative implementation. **[REA · Needs verification]**
-- [FL Studio: a reader requests Claude-assisted investigation of the music app](cases/en/fl-studio-claude-reverse-idea.md) — After seeing software-reversing discussions, a reader asks about FL Studio, without starting a project or specifying a feature. **[Other AI-assisted work · Needs verification]**
+- [FL Studio: from a Claude investigation request to zek's agent-interface and VST decompilation idea](cases/en/fl-studio-claude-reverse-idea.md) — An earlier reader requested FL Studio research. zek now reports a day trying agent control, finds existing MCP exposure limited and proposes decompilation to write VSTs and extend interfaces, without a completed result. **[Other AI-assisted work · In progress]**
 - [Toolport: initial-context claims and two-crackme tests with REA](cases/en/toolport-rea-schema-loading-report.md) — After a 371-tool context claim, btsouth reports two crackme tests; the claimed 6.1x token reduction applies to tool-preloading OpenCode 1.19. **[REA · Analysis test]**
 - [Ventris: a reported agent platform for source and binary security research](cases/en/ventris-agent-binary-security-platform-report.md) — An acquisition report describes Ventris agents analyzing source and binaries with configurable security workflows, without vulnerability fixtures or validation. **[Other AI-assisted work · Related project]**
 - [Hermes and REA: a reported calendar rebuild with day views, filters and appointments](cases/en/hermes-rea-calendar-scheduler-report.md) — Julian Goldie says a calendar link given to Hermes and REA produced a working scheduler; zero cost and functional correctness remain unverified. **[REA · Needs verification]**
@@ -1892,6 +1899,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [A private stripped program: Kimmmmmm reports REA recovering its logic in about 28 seconds](cases/en/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm says REA correctly rebuilt logic from a stripped program whose source only they held in roughly 28 seconds, while noting Ghidra's substantial installation requirement for deeper analysis. No sample or comparison was reviewed. **[REA · Analysis test]**
 - [AGENTS.md versus memory: Sparshith's small black-box probes of Claude Code and Codex priorities](cases/en/sparsamp-agent-memory-agents-md-conflict-probes.md) — Sparshith Sampath reports five runs per setup on CSV/JSON preferences, 15-day staleness and a $3 approval question. Codex reportedly follows AGENTS.md while Claude considers freshness and safer choices; harness and model effects remain unresolved. **[Other AI-assisted work · Analysis test]**
 - [BLADE: Noah Zixin Zhang announces a counter to BLA for continued REA analysis](cases/en/noah-blade-anti-bla-rea-project.md) — Two same-evening posts announce BLADE, expanded as Bypass LLM Agent Defense Engine, to counter BLA's defenses against agent analysis. Source and tests have not been reviewed. **[REA · Needs verification]**
 - [CyberBinGym: patched binaries help agents recover bugs, but 88% recovery is not 20% exploitation](cases/en/cyberbingym-stripped-binary-patch-agent-benchmark.md) — Across 100 real-vulnerability tasks with stripped vulnerable/patched binaries, the paper reports 88% recovery and 20% exploitation for its strongest agent. Patch and hardening comparisons use bounded subsets; not independently rerun. **[Other AI-assisted work · Analysis test]**

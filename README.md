@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2106 cases & projects
+# 2114 cases & projects
 
-**Latest case update:** November 12, 2026, 04:11 · **Last maintained:** November 12, 2026, 04:11 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 12, 2026, 08:10 · **Last maintained:** November 12, 2026, 08:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,12 +22,12 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: bring camera photos straight to a Mac, inspect what agents actually found, and preserve games. Practical interoperability reports sit alongside small tests and documented limitations. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: bring camera photos straight to a Mac, check your own app before release, and preserve games. Concrete uses sit alongside small tests and documented limitations. Dates identify sources or author updates, not collection dates.
 
 1. **[Fujifilm X half: camera to Mac without the phone](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12` author report — **Opus reportedly finds Bluetooth time-slot and Wi-Fi startup-code differences**, then builds JPEG imports and Google Photos uploads. sneha describes incremental tests on their camera, not an iteration-free build. Code and protocol traces unchecked here. `Unverified here`
 2. **[Tiny Electron app: correct wiring, oversized evidence](cases/en/rea-tiny-electron-ipc-evidence-output-test.md)** · `2026-11-11` author test — **REA reportedly pairs renderer-to-main IPC in a five-file, 846-byte sample**, but emits 316kb of JSON and skips an inline script. Roughly ten seconds includes cold startup; no source or full output checked here. `Analysis test`
 3. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
-4. **[When memory contradicts AGENTS.md](cases/en/sparsamp-agent-memory-agents-md-conflict-probes.md)** · `2026-11-11` author experiment — **Five runs per setup probe format, freshness and paid-run approval.** Sparshith reports Codex following the file, while Claude considers newer or safer instructions. Small behavioral test, not a universal priority rule; harness/model effects unresolved. `Analysis test`
+4. **[REA on your own app: exposure checks before release](cases/en/phosphen-rea69-own-app-exposure-gate-test.md)** · `2026-11-12` author test — **Phosphen reports finding full source in a source map and a Stripe key in a test app**, plus a high-exposure release gate returning 3 before fixes and 0 afterward. Reported 6.9-branch build; sample, video and logs unchecked here. Not evidence that every key is usable or every finding is a leak. `Analysis test`
 5. **[MousePods: AirPods become a Linux mouse and head tracker](cases/en/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11` reports; `2026-11-10` pinned project docs — **Claude-assisted RemoteHID research, a public implementation and project-reported AirPods 3/Pro 2 hardware checks.** No earbud flashing; Proton game integration does modify prefixes. MTU and device-identity changes were not isolated; some modes remain experimental. Not run here. `Unverified here`
 6. **[A 1994 Jeep: check the firmware before trusting the number](cases/en/zulali-32year-jeep-claude-control-report.md)** · `2026-11-11` author and reader reports — **Claude/Codex-assisted SCI diagnostics and a reported fuel-trim sign correction.** fly relays NOx falling from 702 to 13, but the final modification is unclear. Passing inspection is not proof of compliance; actuator commands are not autonomous driving. Repository and vehicle tests unchecked here. `Unverified here`
 7. **[TimeSplitters 2: trace PS2 behavior into a native PC port](cases/en/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10` author report; `2026-11-09` pinned docs — **Claude-assisted MIPS-to-C++ work, with PCSX2 frame and state comparisons.** The project reports a Linux/Steam Deck first-level playthrough, still using PCSX2 graphics/audio. Internal test tooling is unpublished; later levels, some VU1 state and internet play need checks. Windows/online await release. Bring your own disc; not built here. `In progress`
@@ -52,9 +52,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **428** |
-| [Hardware & interoperability](categories/en/hardware.md) | **564** |
-| [Applications & clients](categories/en/apps.md) | **863** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **251** |
+| [Hardware & interoperability](categories/en/hardware.md) | **568** |
+| [Applications & clients](categories/en/apps.md) | **866** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **252** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

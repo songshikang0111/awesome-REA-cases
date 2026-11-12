@@ -1,5 +1,133 @@
 [
   {
+    "id": "kitkat-razer-nonwindows-reversing-report",
+    "title": "Razer软件非Windows互通：kitkat称三周前逆向后持续开发",
+    "category": "apps", "rea": "unknown", "status": "in-progress",
+    "summary": "kitkat在AI编程讨论中称三周前逆向Razer软件并持续开发，动机是厂商只做Windows支持；具体产品、工具与可用功能未知。",
+    "description": "2026年11月12日04:03:37（北京时间），kitkat（@meowmeowmrao）在AI生成代码与逆向版权讨论中，自述三周前对Razer的软件做过逆向，之后一直在开发。其背景是对厂商只支持Windows的不满，目标可保守理解为非Windows互通，但正文没有给出目的系统、设备或软件名。\n\n补取原帖取得完整正文与署名。帖子将自己的Razer工作放在支持AI辅助逆向的论述中，却没有明确说该项目用了哪个模型、REA或哪种反编译器，故工具归属为unknown。也不把其关于版权与游戏的立场写成法律事实。\n\n这是进行中自述，不是已交付替代品。没有仓库、分析输出、测试或功能清单；不能推断Synapse、RGB、鼠标配置、Linux或Mac支持，更不与既有Basilisk X固件刷写项目合并。三周是作者回顾的起始间隔，不是测得工时。本合集未运行软件或操作设备。",
+    "sources": [{"label": "kitkat的Razer逆向与持续开发自述，2026-11-12 04:03:37北京时间", "url": "https://x.com/i/status/2120608406759219641"}],
+    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12封存候选0赞、47浏览、0转发；补取核正文与署名。"],
+    "en": {
+      "title": "Razer software beyond Windows: kitkat reports three weeks of ongoing reversing work",
+      "summary": "In an AI-coding discussion, kitkat says they reversed Razer software three weeks earlier and kept developing it, motivated by Windows-only vendor support. The product, tools and usable features are unspecified.",
+      "description": "At 04:03:37 Beijing time on November 12, 2026, kitkat (@meowmeowmrao) discusses AI-generated code and reversing-related copyright concerns, saying they reversed Razer software three weeks earlier and have worked on it since. Frustration with Windows-only vendor support provides an interoperability motivation, but no destination operating system, device or software title is given.\n\nRetrieving the original confirms the full text and attribution. The Razer work appears within an argument supporting AI-assisted reversing, but the author does not explicitly identify a model, REA or a decompiler used on this project. Tool attribution therefore remains unknown. Their copyright and gaming opinions are not presented as legal facts.\n\nThis is an ongoing author report, not a delivered replacement. No repository, analysis output, tests or feature list were reviewed. Synapse, RGB, mouse configuration, Linux and Mac support are not inferred, nor is the project merged with the existing Basilisk X firmware-flashing case. Three weeks is the author's retrospective starting interval, not measured labor. This collection ran no software and operated no device.",
+      "metadata": ["Sealed November 12, 2026 candidate: 0 likes, 47 views, 0 reposts. Retrieval checked the text and attribution."],
+      "source_labels": ["kitkat's Razer reversing and ongoing-development report, November 12, 2026 at 04:03:37 Beijing time"]
+    }
+  },
+  {
+    "id": "phosphen-rea69-own-app-exposure-gate-test",
+    "title": "REA6.9自有应用自测：Phosphen报告source map、Stripe键暴露与发布门禁",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "Phosphen称从REA6.9发布分支构建后，在自建应用检出source map完整源码及.env.production中的Stripe键，并报告高风险门禁退出码3、修复后0。",
+    "description": "2026年11月12日04:48:26（北京时间），Phosphen（@phosphenq）称自行构建REA6.9发布分支，测试新功能。具体应用样本是自己的test app，作者说工具发现source map中包含完整源码，以及自己留在.env.production中的Stripe键。这里记录的是作者对自有应用客户端暴露面的自测，不是本合集访问了配置文件或凭据。\n\n作者另称加一个参数可作发布门禁：仍有high暴露时退出码3，修复后为0。没有给出参数名、具体扫描路径、键的有效性、遮蔽输出或修复日志，因此不补写可运行命令，也不推断工具已经阻止一次真实生产发布。source map中可见源码不自动等于商业机密泄漏，键是否可用也未核验。\n\n补取原帖确认署名与正文，帖子带视频但本合集未审视频。其6.9版本、PR规模、星数与其他格式支持是宣传背景，未独立核实，不当作此测试的性能或准确率证据。同帖ESP32固件另立案例，通用格式列表不拆成已完成项目。没有已审构建提交、样本或完整结果；未安装REA、运行扫描或读取任何键。",
+    "sources": [{"label": "Phosphen的REA6.9自建应用与发布门禁自测，2026-11-12 04:48:26北京时间", "url": "https://x.com/i/status/2120619685582401814"}],
+    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12封存候选29赞、755浏览、0转发；是整帖快照，不是本子测试单独热度。"],
+    "en": {
+      "title": "REA 6.9 on an author's own app: Phosphen reports source-map and Stripe-key exposure plus a release gate",
+      "summary": "Phosphen says a build from REA's 6.9 release branch found full source in a source map and a Stripe key in their test app's .env.production, with gate exit codes of 3 for high exposure and 0 after fixes.",
+      "description": "At 04:48:26 Beijing time on November 12, 2026, Phosphen (@phosphenq) says they built REA's 6.9 release branch to test new features. The concrete sample is their own test app: the tool reportedly found full source in a source map and a Stripe key the author had left in .env.production. This records the author's client-exposure test, not access to configuration files or credentials by this collection.\n\nThe author also describes a one-flag release gate: exit code 3 while high exposure remains, and 0 after fixes. No flag name, exact scan path, key-validity check, redacted output or repair log is supplied. No runnable command is invented, nor is a real production release said to have been blocked. Visible source in a source map does not itself establish disclosure of trade secrets; whether the key worked was not checked.\n\nRetrieval confirms attribution and text. A video is attached but was not reviewed here. The 6.9 version, PR scale, star counts and other format support are promotional context, not independently checked performance or accuracy evidence for this test. The ESP32 test in the same post has a separate case; generic format lists are not split into completed projects. No build revision, sample or full results were reviewed. This collection installed no REA, ran no scan and read no keys.",
+      "metadata": ["Sealed November 12, 2026 candidate: 29 likes, 755 views, 0 reposts. This is the whole post's snapshot, not engagement specific to this subtest."],
+      "source_labels": ["Phosphen's REA 6.9 own-app and release-gate test, November 12, 2026 at 04:48:26 Beijing time"]
+    }
+  },
+  {
+    "id": "phosphen-rea69-esp32-five-segment-test",
+    "title": "ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256",
+    "category": "hardware", "rea": "REA", "status": "analysis-test",
+    "summary": "Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。",
+    "description": "2026年11月12日04:48:26（北京时间），Phosphen（@phosphenq）在REA6.9发布分支自测帖中，报告输入一个ESP32固件镜像，工具将其拆为五个segment，并验证checksum和SHA-256。这是具体固件容器解析与完整性检查报告，不是反编译出五个模块或重建出可刷写固件。\n\n作者没有给设备型号、镜像来源、哈希值、段地址、参考解析器或验证输出；五段不等于五个分区，也不推断发现了漏洞或应用逻辑。帖子还列UF2、Intel HEX、Motorola S-record与U-Boot支持，但未报告这些格式的具体输入与结果，不将格式名单算作实测。\n\n补取原帖确认正文与署名；视频、仓库提交和样本未审，6.9名称与构建来源仅为作者说法。与同帖自建应用暴露面自测是两个独立目标，来源共用但不重复计算整帖热度。本合集未下载镜像、执行REA、重算目标校验或刷机。",
+    "sources": [{"label": "Phosphen的ESP32五段与完整性验证自述，2026-11-12 04:48:26北京时间", "url": "https://x.com/i/status/2120619685582401814"}, {"label": "补充Espressif镜像格式文档，2026-10-01 22:21:27北京时间提交；11月12日静态查阅，仅解释segment与完整性检查", "url": "https://github.com/espressif/esptool/blob/8aefcacb19cd100e23754d7a166d29015c4ba22c/docs/en/advanced-topics/firmware-image-format.rst"}],
+    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12整帖快照29赞、755浏览、0转发；五段与校验通过为作者报告，未独立复算。", "补读Espressif固定文档（10月1日提交，早于候选）：镜像含可变数量数据段，尾部checksum与可选SHA-256只检测损坏；simple hash不同于secure boot签名，不证明发布者身份、代码安全或REA本次测试通过。"],
+    "en": {
+      "title": "An ESP32 firmware test: Phosphen says REA 6.9 split five segments and verified checksum and SHA-256",
+      "summary": "Phosphen reports five segments plus checksum and SHA-256 verification for an ESP32 image supplied to their REA 6.9 build. No image, partition semantics or logs were reviewed; firmware logic recovery is not established.",
+      "description": "At 04:48:26 Beijing time on November 12, 2026, Phosphen (@phosphenq) reports an ESP32 firmware-image test in a post about a build from REA's 6.9 release branch. The tool reportedly split the image into five segments and verified its checksum and SHA-256. This is a specific firmware-container parsing and integrity-check report, not decompilation of five modules or reconstruction of flashable firmware.\n\nNo device model, image origin, hash values, segment addresses, reference parser or verification output is supplied. Five segments do not mean five partitions, and no vulnerability or application logic is inferred. UF2, Intel HEX, Motorola S-record and U-Boot support are also listed, but without concrete inputs and results for them; a format list is not counted as testing.\n\nRetrieval confirms text and attribution. The video, repository revision and sample were not reviewed, and the 6.9 designation and build origin remain author statements. This is a separate target from the same post's own-app exposure test, sharing the source without treating whole-post engagement as separate popularity. This collection downloaded no image, executed no REA, recomputed no target checksum and flashed no device.",
+      "metadata": ["Whole-post November 12, 2026 snapshot: 29 likes, 755 views, 0 reposts. Five segments and successful verification are author reports, not independently recomputed.", "Supplementary pinned Espressif docs (October 1 commit, before the candidate) describe variable data segments, a footer checksum and an optional SHA-256 for corruption detection. The simple hash is distinct from a secure-boot signature; it does not establish publisher identity, code safety or success of this REA test."],
+      "source_labels": ["Phosphen's ESP32 five-segment and integrity-verification report, November 12, 2026 at 04:48:26 Beijing time", "Supplementary Espressif image-format docs, committed October 1, 2026 at 22:21:27 Beijing time; statically read November 12 only to explain segments and integrity checks"]
+    }
+  },
+  {
+    "id": "devsec-ai-tablet-36hour-rea-attempt",
+    "title": "一台未具名平板：Devsec AI称Agent辅助逆向已用36小时",
+    "category": "hardware", "rea": "unknown", "status": "in-progress",
+    "summary": "Devsec AI称在一台平板的rea工作上已花36小时，强调Agent虽加速，高质量结果仍需时间；设备、工具与成果未说明。",
+    "description": "2026年11月12日05:59:21（北京时间），Devsec AI（@devsec_ai）回复软件成本讨论，称自己在this tablet的rea上已花36小时，Agent可以加速，但高质量工作仍很费时间。补取原帖确认署名，父帖只是研究、构建与维护成本的通用论述，没有补出平板名称。\n\n按具体进行中平板逆向自述保留。小写rea可能指逆向活动，也可能指REA工具，正文不足以确定，分类为unknown而非确认REA。36小时是作者自报累计投入，不是模型运行时、节省工时或性能基准；未报告已恢复功能、驱动、固件或可用系统。\n\n同作者背景中另有2017 NVIDIA Shield项目，但没有证据表明this tablet是同一设备，故不把36小时归给旧项目。未审仓库、日志或设备型号，本合集未运行代码、访问设备或独立核验成果。",
+    "sources": [{"label": "Devsec AI的平板与36小时投入自述，2026-11-12 05:59:21北京时间", "url": "https://x.com/i/status/2120637530228023734"}],
+    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12封存候选1赞、51浏览、1转发；补取不替换封存快照。"],
+    "en": {
+      "title": "An unnamed tablet: Devsec AI reports 36 hours of agent-assisted reversing",
+      "summary": "Devsec AI says rea work on a tablet has taken 36 hours and that agents accelerate work but do not remove the time needed for quality. The device, tools and deliverables are unspecified.",
+      "description": "At 05:59:21 Beijing time on November 12, 2026, Devsec AI (@devsec_ai) replies to a software-cost discussion, saying rea on this tablet has already taken 36 hours. Agents speed up the work, but high quality still takes considerable time. Retrieval confirms attribution; the parent only discusses research, build and maintenance costs generally and does not identify the tablet.\n\nThis is retained as a concrete ongoing tablet-reversing report. Lowercase rea might mean reversing activity or the REA tool; the text is insufficient to decide, so attribution is unknown rather than confirmed REA use. Thirty-six hours is the author's reported investment, not model runtime, time saved or a performance benchmark. No recovered feature, driver, firmware or usable operating system is reported.\n\nA separate 2017 NVIDIA Shield project exists in the author's background, but nothing establishes that this tablet is that device. The 36 hours are not assigned to that older project. No repository, logs or model identification were reviewed. This collection ran no code, accessed no device and independently verified no result.",
+      "metadata": ["Sealed November 12, 2026 candidate: 1 like, 51 views, 1 repost. Retrieval does not replace the sealed snapshot."],
+      "source_labels": ["Devsec AI's tablet and 36-hour investment report, November 12, 2026 at 05:59:21 Beijing time"]
+    }
+  },
+  {
+    "id": "iaimforgoat-claude-video-intercom-protocol-report",
+    "title": "自家可视对讲：Claude研究Android协议，作者称CLI开门与视频只加密前64字节",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "@IaimforGOAT称Claude研究可视对讲Android应用与通信协议，用自制CLI开自家前门，并发现蜂窝网络视频每帧仅前64字节加密；无型号或抓包核验。",
+    "description": "2026年11月12日06:07:37（北京时间），@IaimforGOAT称Claude逆向了自己的可视对讲，发现手机用移动数据时，厂商服务器到手机的视频流只有每张图前64字节被加密，其余为明文。这是作者关于具体传输路径的安全主张，不是本合集确认的协议规范或漏洞公告。\n\n06:07:38同串补充：Claude正在研究厂商Android应用及对讲通信协议，进展很好，已通过自制CLI打开作者自家前门。两帖补取确认同一作者、同一讨论串，因此合并为一个目标，既记录协议调查也记录自述控制结果。没有证明在互联网上无需授权即可开他人门，也没有说明命令如何认证。\n\n未给品牌、型号、应用版本、代码、抓包、加密层定义或复现步骤，不能从64字节说法推断所有流量无TLS、所有帧格式相同或厂商全部产品受影响。研究仍进行中，开门是作者实机自述而非本合集测试；REA未提及。本合集未连接对讲、读取视频、调用门锁或执行目标代码。",
+    "sources": [{"label": "作者报告视频流每图仅前64字节加密，2026-11-12 06:07:37北京时间", "url": "https://x.com/i/status/2120639611474980965"}, {"label": "同作者补充Android协议研究与自制CLI开自家门，2026-11-12 06:07:38北京时间", "url": "https://x.com/i/status/2120639617284321663"}],
+    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12封存快照：首帖0赞、23浏览、0转发；补充帖0赞、5浏览、0转发。"],
+    "en": {
+      "title": "A home video intercom: Claude studies Android protocols, with reported CLI door opening and only 64 encrypted bytes per image",
+      "summary": "@IaimforGOAT says Claude studied an intercom's Android app and protocol, opened their own front door through a custom CLI and found only the first 64 bytes of each mobile-data video image encrypted. No model or capture was checked.",
+      "description": "At 06:07:37 Beijing time on November 12, 2026, @IaimforGOAT says Claude reversed their video intercom and found that video between the vendor's servers and a phone on mobile data encrypts only the first 64 bytes of each image, leaving the rest clear. This is the author's security claim about a specific transport path, not a protocol specification or vulnerability advisory confirmed by this collection.\n\nAt 06:07:38, a reply in the same thread adds that Claude is studying the vendor's Android app and intercom protocol, is making good progress and has already opened the author's front door through a custom CLI. Retrieval confirms the same author and conversation, so these are combined as one target, covering both protocol investigation and a claimed control result. Nothing establishes unauthenticated internet access to other people's doors, and command authentication is unspecified.\n\nNo brand, model, app version, code, packet capture, encryption-layer definition or reproduction steps are supplied. The 64-byte claim does not establish that all traffic lacks TLS, all frame formats are identical or all vendor products are affected. Work remains in progress; door opening is the author's hardware report, not a test performed here. REA is unmentioned. This collection connected no intercom, read no video, invoked no lock and ran no target code.",
+      "metadata": ["Sealed November 12, 2026 snapshots: first post 0 likes, 23 views, 0 reposts; follow-up 0 likes, 5 views, 0 reposts."],
+      "source_labels": ["Author reports only 64 encrypted bytes per video image, November 12, 2026 at 06:07:37 Beijing time", "Same author's Android-protocol and custom-CLI home-door report, November 12, 2026 at 06:07:38 Beijing time"]
+    }
+  },
+  {
+    "id": "kimwong-rea-private-stripped-program-28s-test",
+    "title": "仅作者持源码的剥符号程序：Kimmmmmm称REA约28秒恢复逻辑",
+    "category": "algorithms", "rea": "REA", "status": "analysis-test",
+    "summary": "Kimmmmmm称REA正确重建一个仅自己持源码的剥符号程序逻辑，耗时约28秒，并提醒深入分析依赖较重的Ghidra安装；没有样本或对照结果。",
+    "description": "2026年11月12日06:46:25（北京时间），Kimmmmmm（@kimwong_wwk）在推荐REA时报告，把一个只有自己持有源码的stripped program交给工具，约28秒正确重建逻辑。剥离符号意味着缺少部分名称信息，不代表程序已加密、混淆或从未泄漏任何提示。\n\n作者还说深入分析需要Ghidra，额外安装较重；没有说明本次28秒是否实际调用Ghidra、哪个模型、计时起止、程序规模、功能、编译器或正确性标准。正确重建是作者对照自身源码的判断，没有公开样本、答案、运行测试或字节匹配证据，不当作独立盲测成绩。\n\n补取原帖确认署名。基线另有13函数测试且作者发现作弊的记录，但本帖无身份或目标对应证据，不合并、不借用其分数或失败原因。REA使用明确，模型未知。本合集未运行样本、安装Ghidra或复测28秒。",
+    "sources": [{"label": "Kimmmmmm的剥符号程序与约28秒自测，2026-11-12 06:46:25北京时间", "url": "https://x.com/i/status/2120649374237962588"}],
+    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12候选0赞、8浏览、0转发；约28秒仅为作者说法。"],
+    "en": {
+      "title": "A private stripped program: Kimmmmmm reports REA recovering its logic in about 28 seconds",
+      "summary": "Kimmmmmm says REA correctly rebuilt logic from a stripped program whose source only they held in roughly 28 seconds, while noting Ghidra's substantial installation requirement for deeper analysis. No sample or comparison was reviewed.",
+      "description": "At 06:46:25 Beijing time on November 12, 2026, Kimmmmmm (@kimwong_wwk) recommends REA and reports supplying a stripped program whose source only they held. It reportedly rebuilt the logic correctly in about 28 seconds. Stripping removes some symbolic information; it does not establish encryption, obfuscation or absence of all leaked hints.\n\nThe author says deeper analysis requires Ghidra as a heavy extra installation. They do not specify whether this 28-second run called Ghidra, the model, timing boundaries, program size, functionality, compiler or correctness criteria. Correct reconstruction is the author's judgment against their own source, without a public sample, answers, runtime tests or byte-match evidence. It is not treated as an independently graded blind-test score.\n\nRetrieval confirms attribution. An existing case describes a 13-function test whose author caught cheating, but this post provides no evidence of matching identity or target. The reports are not merged, and neither that score nor its failure mechanism is borrowed. REA use is explicit; the model is unknown. This collection ran no sample, installed no Ghidra and did not retest the 28 seconds.",
+      "metadata": ["November 12, 2026 candidate: 0 likes, 8 views, 0 reposts. Roughly 28 seconds is only an author statement."],
+      "source_labels": ["Kimmmmmm's stripped-program and approximately 28-second test report, November 12, 2026 at 06:46:25 Beijing time"]
+    }
+  },
+  {
+    "id": "funy-qwen38-rea-web-server-test-attempt",
+    "title": "Qwen3.8-27B与REA：Funy称网站／服务器逆向测试现状不理想",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "Funy询问Qwen3.8-27B的逆向能力，称希望配REA测试网站和服务器但现状不满意；没有具体目标、失败阶段或测量。",
+    "description": "2026年11月12日06:49:57（北京时间），Funy（@Radikal_S）询问另一位用户是否测过qwen3.8-27B的逆向能力，并说自己希望用REA测试网站与服务器能力，但情况不理想。按明确工具组合和方向，保留为低细节进行中实验，而非模型能力排名。\n\n原文同时含未来意愿与对现状的负面评价，不能断言已完成完整测试，也不推断是网页重建、服务器源码恢复、部署、模型安装还是工具接线失败。Qwen名称照作者写法保留，未用当前模型列表替作者修正版本。\n\n补取确认署名，没有指定网站、服务器、授权范围、提示词、输出、模型权重或指标，不把不满意量化为成功率零。不同于反推Qwen稀疏注意力的旧项目，本帖是拿模型做工具实验，不是研究模型内部。本合集未发送私信、测试服务器、运行模型或安装依赖。",
+    "sources": [{"label": "Funy的Qwen3.8-27B／REA逆向测试意向与负面反馈，2026-11-12 06:49:57北京时间", "url": "https://x.com/i/status/2120650265108140363"}],
+    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12候选0赞、9浏览、0转发；负面评价无量化测试支撑。"],
+    "en": {
+      "title": "Qwen3.8-27B with REA: Funy reports unsatisfactory website/server reversing tests",
+      "summary": "Funy asks about Qwen3.8-27B's reversing abilities and wants to test websites and servers with REA, describing the current situation as unsatisfactory. No target, failure stage or measurement is given.",
+      "description": "At 06:49:57 Beijing time on November 12, 2026, Funy (@Radikal_S) asks another user whether they have tested qwen3.8-27B for reversing. They want to test website and server capabilities with REA but say the situation is not satisfactory. The explicit tool combination and direction are retained as a low-detail ongoing experiment, not a model-capability ranking.\n\nThe text combines future intent with a negative assessment of the current situation. It does not establish a completed full test or whether the difficulty concerns website rebuilding, server-source recovery, deployment, model installation or tool integration. The author's Qwen designation is preserved rather than corrected using a current model list.\n\nRetrieval confirms attribution. No website, server, authorization scope, prompt, output, model weights or metrics are specified; dissatisfaction is not converted to a zero-percent success rate. Unlike the existing Qwen sparse-attention reconstruction case, this uses the model for a tool experiment rather than investigating its internals. This collection sent no direct message, tested no server, ran no model and installed no dependencies.",
+      "metadata": ["November 12, 2026 candidate: 0 likes, 9 views, 0 reposts. The negative assessment has no quantitative testing support."],
+      "source_labels": ["Funy's Qwen3.8-27B/REA reversing-test intent and negative feedback, November 12, 2026 at 06:49:57 Beijing time"]
+    }
+  },
+  {
+    "id": "surfboard-w161-codex-usb-pin-access-report",
+    "title": "云端停服后的Surfboard W161：作者称Codex识别USB接入引脚以进入路由器",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "hello称Codex帮助研究失去厂商云端支持的Surfboard W161 WiFi路由器，用便宜USB适配器识别应接引脚以进入设备；未报告恢复联网或新固件。",
+    "description": "2026年11月12日07:59:49（北京时间），hello（@busyallthetim3）回复Jeep逆向讨论，回顾Codex研究自己的Surfboard W161 WiFi路由器。作者称厂商停止支持后，依赖云端的设备成了paper weight，因此尝试进入设备研究。停服状态与不可用程度是作者说法，未独立核对厂商公告。\n\n具体报告是使用廉价USB适配器，Codex知道应该连接哪些引脚来进入设备。正文没有给适配器、接口电压、引脚图、会话日志或协议；不能猜成特定UART接法，更不提供未经核验的接线指导。\n\n补取原帖确认署名。作者对Codex表现满意，但没有说已恢复路由、解除云依赖、写入固件或完成替代系统，故保留进行中状态。REA未提及，没有已审仓库或可复现输出。本合集未连接路由器、操作引脚、下载固件或运行目标代码。",
+    "sources": [{"label": "hello的Surfboard W161、Codex与USB引脚接入回顾，2026-11-12 07:59:49北京时间", "url": "https://x.com/i/status/2120667845885583473"}],
+    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12封存候选0赞、浏览未知、0转发；补取只核正文和署名，不用后来的2浏览填补封存值。"],
+    "en": {
+      "title": "Surfboard W161 after cloud support ends: an author says Codex identified pins for USB device access",
+      "summary": "hello says Codex helped investigate a Surfboard W161 WiFi router after vendor cloud support ended, identifying pins for access through a cheap USB adapter. Restored networking or new firmware is not reported.",
+      "description": "At 07:59:49 Beijing time on November 12, 2026, hello (@busyallthetim3) replies to a Jeep-reversing discussion, recalling Codex's work on their Surfboard W161 WiFi router. They say discontinued support made the cloud-connected device a paper weight, motivating investigation through device access. Support termination and the degree of unusability are author statements, not independently checked against vendor announcements.\n\nThe concrete report is use of a cheap USB adapter, with Codex knowing which pins to connect to enter the device. No adapter identification, interface voltage, pin diagram, session log or protocol is provided. A particular UART wiring arrangement is not inferred, and unverified connection instructions are not supplied.\n\nRetrieval confirms attribution. The author is pleased with Codex but does not report restored routing, removed cloud dependence, flashed firmware or a completed alternative system, so the case remains in progress. REA is unmentioned, and no repository or reproducible output was reviewed. This collection connected no router, manipulated no pins, downloaded no firmware and ran no target code.",
+      "metadata": ["Sealed November 12, 2026 candidate: 0 likes, unknown views, 0 reposts. Retrieval checked text and attribution; its later 2 views do not fill the missing sealed value."],
+      "source_labels": ["hello recalls Surfboard W161, Codex and USB pin access, November 12, 2026 at 07:59:49 Beijing time"]
+    }
+  },
+  {
     "id": "fujifilm-x-half-opus-wireless-mac-import-report",
     "title": "富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
@@ -21047,13 +21175,19 @@
   },
   {
     "id":"fl-studio-claude-reverse-idea",
-    "title":"FL Studio：读者请求用 Claude 研究音乐制作软件",
-    "category":"apps", "rea":"other-ai", "status":"unverified",
-    "summary":"看到Claude逆向软件的讨论后，读者询问能否研究FL Studio；没有启动项目或指定功能。",
-    "description":"10月18日22:00（北京时间），中文帖子问，既然有人用Claude逆向了许多软件，能否也研究一个FL Studio。目标明确到音乐制作软件，但没有说明希望恢复哪种编曲、音频处理、工程文件或界面能力。\n\n仅收录读者请求idea，不与Ableton Live 12进行中研究混同。没有版本、工具调用、REA使用、分析发现、代码或测试，不认为已有替代品或插件兼容成果。",
-    "sources":[{"label":"用Claude研究FL Studio的读者请求","url":"https://x.com/i/status/2111819757834096906"}],
-    "snapshot_date":"2026-10-18", "metadata":["10月18日候选快照2赞、55浏览；尚未实施。"],
-    "en":{"title":"FL Studio: a reader requests Claude-assisted investigation of the music app","summary":"After seeing software-reversing discussions, a reader asks about FL Studio, without starting a project or specifying a feature.","description":"At 22:00 Beijing time on October 18, a Chinese post asks whether someone could investigate FL Studio, given reports of Claude reversing many applications. The music-production software is identified, but no intended composition, audio-processing, project-file or interface capability is specified.\n\nThis is only a reader's request and idea, separate from the ongoing Ableton Live 12 investigation. There is no version, tool invocation, REA usage, finding, code or test; no alternative app or plugin-compatibility result is established.","metadata":["October 18 candidate snapshot: 2 likes, 55 views; not implemented."],"source_labels":["Reader's request to investigate FL Studio with Claude"]}
+    "title":"FL Studio：从Claude研究请求到zek的Agent接口与VST反编译设想",
+    "category":"apps", "rea":"other-ai", "status":"in-progress",
+    "summary":"此前读者请求研究FL Studio；zek现称花一天尝试Agent操作，觉得现有MCP暴露能力不足，提出反编译以写VST并扩展接口，未报告完成。",
+    "description":"2026年10月18日22:00（北京时间），中文帖子请求用Claude研究FL Studio音乐制作软件，没有指定功能或已启动项目。保留此前来源与ID，不与Ableton Live 12研究混同。\n\n11月12日07:51:15，zek（@zekramu）报告当天尝试让Agent操作FL Studio，认为比手动摆弄VST更合适，但现有MCP接口暴露能力有限。VST是音乐制作中的插件接口生态；作者希望通过反编译来辅助写插件、增加交互方式，以减少有限业余时间里的制作操作，不是请求AI直接生成整首音乐。其10x nicer是主观体验，不是测得十倍效率。\n\n作者将反编译写成现在可以做的下一步，没有给出已分析函数、已生成VST、可用扩展接口或交付替代品。该帖未指明模型，不能把旧读者请求里的Claude归给zek，也未确认REA。两位作者的目标同为FL Studio，但不是同一团队或连续实施项目。\n\n补取新帖确认署名和完整正文；没有FL Studio版本、插件名称、MCP实现链接的已审内容、代码或测试。状态in-progress涵盖作者已进行的Agent接入尝试及未完成的逆向设想，不证明插件兼容、工程文件重建或完整软件反编译。本合集未运行FL Studio、安装插件或执行目标代码。",
+    "sources":[{"label":"用Claude研究FL Studio的读者请求，2026-10-18","url":"https://x.com/i/status/2111819757834096906"},{"label":"zek的Agent接入尝试与反编译写VST设想，2026-11-12 07:51:15北京时间","url":"https://x.com/i/status/2120665689962971502"}],
+    "snapshot_date":"2026-11-12", "metadata":["10月18日候选快照2赞、55浏览；当时仅请求。","2026-11-12新候选5赞、142浏览、0转发；补取不覆盖封存快照，10x为主观比较。"],
+    "en": {
+      "title":"FL Studio: from a Claude investigation request to zek's agent-interface and VST decompilation idea",
+      "summary":"An earlier reader requested FL Studio research. zek now reports a day trying agent control, finds existing MCP exposure limited and proposes decompilation to write VSTs and extend interfaces, without a completed result.",
+      "description":"At 22:00 Beijing time on October 18, 2026, a Chinese post requests Claude-assisted investigation of the FL Studio music-production app, without specifying a feature or a started project. That source and the existing ID are retained, separate from Ableton Live 12 research.\n\nAt 07:51:15 on November 12, zek (@zekramu) reports spending the day trying to interface with FL Studio through an agent. They prefer it to manually manipulating VSTs but find that existing MCP exposes limited capabilities. VST refers to the music-production plugin ecosystem. The author proposes decompilation to help write plugins and add interaction paths, reducing production overhead in limited spare time rather than asking AI to generate entire songs. Their 10x nicer is a subjective preference, not a measured tenfold efficiency gain.\n\nDecompilation is described as a newly available next step, without analyzed functions, a generated VST, a working extended interface or a replacement app. The new post names no model: the earlier reader's Claude request must not be attributed to zek. REA use is also unconfirmed. Both authors target FL Studio, but they are not established as one team or one continuous implementation project.\n\nRetrieval confirms the new post's attribution and full text. No FL Studio version, plugin name, reviewed content of the mentioned MCP link, code or tests are supplied. In-progress covers the reported agent-integration attempts and unfinished reversing idea, not proven plugin compatibility, project-file reconstruction or full application decompilation. This collection ran no FL Studio, installed no plugins and executed no target code.",
+      "metadata":["October 18 candidate snapshot: 2 likes, 55 views; only a request at that point.","New November 12, 2026 candidate: 5 likes, 142 views, 0 reposts. Retrieval does not replace the sealed snapshot; 10x is subjective."],
+      "source_labels":["Reader's request to investigate FL Studio with Claude, October 18, 2026","zek's agent-integration attempt and VST-decompilation idea, November 12, 2026 at 07:51:15 Beijing time"]
+    }
   },
   {
     "id":"alvosec-contract-attack-agent-reconstruction",
