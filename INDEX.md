@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2123 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2130 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（428）
-- [硬件与设备互通](categories/hardware.md)（570）
-- [应用与客户端](categories/apps.md)（871）
-- [算法与功能重建](categories/algorithms.md)（254）
+- [游戏与游戏保存](categories/games.md)（429）
+- [硬件与设备互通](categories/hardware.md)（572）
+- [应用与客户端](categories/apps.md)（874）
+- [算法与功能重建](categories/algorithms.md)（255）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [goley多版本重建idea：Vxenl在Revival停服讨论中建议REA](cases/goley-rea-multiple-rebuilds-reader-idea.md) — Vxenl认为借助AI和REA可能出现10至15个不同goley项目；是在Revival／Rebound争论中的重建设想，没有已做实现、服务器兼容或源代码证据。 **[REA · 待验证]**
 - [摆脱关都与GBA改版：用Claude反编译并重编译后续宝可梦的idea](cases/pokemon-gen4-plus-claude-decompile-recompile-idea.md) — 候选希望有人用Claude等模型反编译并重编译第4／5代、甚至第6代以后游戏，让改版不再局限于关都与GBA；没有启动项目或结果。 **[其他 AI 逆向 · 进行中]**
 - [Maken X Director's Cut：读者称AI用于旧格式逆向，翻译仍为人工](cases/maken-x-directors-cut-ai-old-file-format-report.md) — 读者在Maken X Director's Cut发布串称AI只辅助旧文件格式逆向、不参与翻译；串首作者宣布全人工重译和删减内容恢复，未独立核实AI具体贡献。 **[其他 AI 逆向 · 待验证]**
 - [RestedXP：作者称Claude已逆向到第六小时](cases/restedxp-claude-six-hour-reversing-attempt.md) — 回复者反对阵营攻略收费，称Claude正处于研究RestedXP的第六小时；没有提取出的内容、源码或完成证据。 **[其他 AI 逆向 · 进行中]**
@@ -457,6 +458,8 @@
 
 ### 硬件与设备互通
 
+- [Anker录音豆到知识库：Berryxia称REA研究蓝牙协议，再接MCP检索](cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md) — Berryxia.AI自述用REA逆向Anker录音豆蓝牙通信，制作带录音、知识库、场景分类、转写与MCP检索的软件；待调整测试后开源，未核设备链路。 **[REA · 进行中]**
+- [NEAR Signer：AI协作开发的iPhone Ledger协议兼容端，实机仍待核](cases/near-signer-ios-ledger-ble-ai-report.md) — 莫信转述Ivan Frolov与agents开发NEAR Signer；固定文档确认Ledger BLE／APDU兼容、二维码签名与模拟器测试，但未验证真实iPhone蓝牙、相机或Xcode构建，不等同Ledger安全芯片。 **[其他 AI 逆向 · 进行中]**
 - [Soundcore D3200到Mac输入法：让Agent改造实时取流客户端的idea](cases/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔提出让Agent改造tacshi/Soundcore，把录音豆用于Mac微信语音输入；项目文档支持蓝牙取流与可选转写，但光标粘贴仍是待补步骤，零延时未测。 **[其他 AI 逆向 · 进行中]**
 - [旧Ford的SYNC升3.4：Trevin Chow在REA语境下尝试车机升级](cases/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow以Reverse engineer anything开场，称尝试将旧Ford的SYNC升至3.4；未报告成功、车型、现有版本或具体工具调用。 **[未确认使用 REA · 进行中]**
 - [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**
@@ -1030,6 +1033,9 @@
 
 ### 应用与客户端
 
+- [Rust版IDM平替：溯源科技转述界面与插件功能，AI逆向方法未明](cases/rust-idm-like-downloader-ai-rebuild-report.md) — 溯源科技推荐未具名的Rust开源下载器，称操作与界面近似IDM、插件可解析YouTube，并以AI时代全民逆向归因；未取得项目名、源码或功能对照。 **[未确认使用 REA · 待验证]**
+- [未具名产品逆向尝试：Nikshay称Claude直接拒绝](cases/nikshay-claude-unnamed-product-reversing-refusal.md) — Nikshay在推荐REA的讨论串称自己用Claude逆向一个产品遭拒；没有目标、提示词、模型或拒绝全文，作为低细节失败尝试而非通用政策结论。 **[其他 AI 逆向 · 待验证]**
+- [Linux与macOS窗口交接：读者建议用REA研究spacedesk](cases/spacedesk-rea-cross-system-window-handoff-idea.md) — 糊塌子建议用REA参考spacedesk，并以USB对拷线减少网络影响；讨论上文实际卡在跨系统拖窗交接，尚无spacedesk研究或性能测试。 **[REA · 待验证]**
 - [GoGra Linux分析：Ghidra／OpenCode链路中四项反编译错误与两项AI错误](cases/gogra-linux-ghidra-opencode-six-errors-report.md) — 吉川孝志转述Fortinet研究者分析GoGra Linux后门：LLM生成Ghidra脚本恢复Go函数名，研究者另核出四项反编译错误与两项AI误判，未独立审样本。 **[其他 AI 逆向 · 待验证]**
 - [行业软件太慢太贵：北火称运维用Claude改写Go版，单二进制可跑树莓派](cases/claude-go-industry-software-raspberry-pi-rewrite-report.md) — 北火称团队为替代慢且高资源消耗的付费行业软件，让运维用Claude写Go版，报告更快、功能更强和树莓派运行；没有具名目标、源码或对照基准。 **[其他 AI 逆向 · 待验证]**
 - [售前先重建潜客漏斗：ericosiu建议用REA做可工作的演示稿](cases/rea-prospect-funnel-presales-rebuild-idea.md) — ericosiu提出在首次销售通话前用Reverse engineer anything重建潜客的转化漏斗，以工作原型开场；无指定客户、运行记录或营收结果。 **[REA · 待验证]**
@@ -1904,6 +1910,7 @@
 
 ### 算法与功能重建
 
+- [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
 - [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**
 - [一段素材做30条试投短片：REA反推视频格式与剪辑风格的idea](cases/rea-video-trial-reel-format-tournament-idea.md) — ericosiu建议用面向视频的Reverse engineer anything复制格式和剪辑风格，再将素材剪成30种开头、结构与时长试投；未给工具实现或真实投放结果。 **[REA · 待验证]**
 - [仅作者持源码的剥符号程序：Kimmmmmm称REA约28秒恢复逻辑](cases/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm称REA正确重建一个仅自己持源码的剥符号程序逻辑，耗时约28秒，并提醒深入分析依赖较重的Ghidra安装；没有样本或对照结果。 **[REA · 分析测试]**

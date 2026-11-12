@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2123 entries**, organized by use case, without a Top-N or popularity threshold.
+**2130 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (428)
-- [Hardware and interoperability](categories/en/hardware.md) (570)
-- [Applications and clients](categories/en/apps.md) (871)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (254)
+- [Games and preservation](categories/en/games.md) (429)
+- [Hardware and interoperability](categories/en/hardware.md) (572)
+- [Applications and clients](categories/en/apps.md) (874)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (255)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Multiple goley rebuilds: Vxenl's REA idea in a Revival shutdown discussion](cases/en/goley-rea-multiple-rebuilds-reader-idea.md) — Vxenl suggests AI and REA could lead to 10–15 different goley projects. This is a reconstruction idea in a Revival/Rebound discussion, without implementation, server compatibility or source-code evidence. **[REA · Needs verification]**
 - [Beyond Kanto and GBA hacks: an idea to decompile and recompile later Pokémon games with Claude](cases/en/pokemon-gen4-plus-claude-decompile-recompile-idea.md) — A poster asks for Claude or other models to decompile and recompile generations four, five and even six onward so hacks need not remain GBA/Kanto-based. No started project or result is supplied. **[Other AI-assisted work · In progress]**
 - [Maken X Director's Cut: a reader credits AI with old-format reversing, not translation](cases/en/maken-x-directors-cut-ai-old-file-format-report.md) — A release-thread reply says AI only helped reverse old file formats, not translate Maken X Director's Cut. The release author announces human retranslation and restored content; AI's specific contribution remains unchecked. **[Other AI-assisted work · Needs verification]**
 - [RestedXP: a poster says Claude is on hour six of reversing](cases/en/restedxp-claude-six-hour-reversing-attempt.md) — A reply objects to faction-guide pricing and says Claude is six hours into reversing RestedXP. No extracted content, source or completion evidence is supplied. **[Other AI-assisted work · In progress]**
@@ -459,6 +460,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Anker recorder to a knowledge base: Berryxia reports REA Bluetooth research and MCP retrieval](cases/en/berryxia-anker-recorder-rea-mcp-knowledge-app.md) — Berryxia.AI reports reversing an Anker recorder's Bluetooth protocol with REA and building recording, knowledge-base, scene classification, transcription and MCP retrieval features. Open source awaits refinement and testing; the device path was not checked here. **[REA · In progress]**
+- [NEAR Signer: an AI-collaborative iPhone Ledger-protocol implementation, with hardware checks outstanding](cases/en/near-signer-ios-ledger-ble-ai-report.md) — Musin relays Ivan Frolov and agents developing NEAR Signer. Pinned docs describe Ledger BLE/APDU compatibility, QR signing and simulator tests, but real iPhone Bluetooth, cameras and Xcode builds remain unverified; its key security is not equivalent to a Ledger. **[Other AI-assisted work · In progress]**
 - [Soundcore D3200 to Mac dictation: an agent-assisted live-audio client adaptation idea](cases/en/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔 proposes adapting tacshi/Soundcore with an agent for Mac WeChat dictation. Project docs support Bluetooth audio and optional transcription, but cursor insertion remains missing and zero latency is unmeasured. **[Other AI-assisted work · In progress]**
 - [An old Ford's SYNC to 3.4: Trevin Chow's upgrade attempt in a REA discussion](cases/en/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow opens with Reverse engineer anything and reports trying to upgrade an old Ford's SYNC to 3.4. Success, vehicle details, the current version and actual tool calls are unspecified. **[REA use unconfirmed · In progress]**
 - [An ESP32 firmware test: Phosphen says REA 6.9 split five segments and verified checksum and SHA-256](cases/en/phosphen-rea69-esp32-five-segment-test.md) — Phosphen reports five segments plus checksum and SHA-256 verification for an ESP32 image supplied to their REA 6.9 build. No image, partition semantics or logs were reviewed; firmware logic recovery is not established. **[REA · Analysis test]**
@@ -1032,6 +1035,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [A Rust IDM alternative: reported interface and plugin features, with AI reversing methods unspecified](cases/en/rust-idm-like-downloader-ai-rebuild-report.md) — 溯源科技 recommends an unnamed open-source Rust downloader with IDM-like operations and UI and YouTube parsing through plugins, framing it as AI-era reverse engineering. No project identity, source or feature comparison was obtained. **[REA use unconfirmed · Needs verification]**
+- [An unnamed product-reversing attempt: Nikshay reports Claude refusing outright](cases/en/nikshay-claude-unnamed-product-reversing-refusal.md) — In a REA recommendation thread, Nikshay reports Claude refusing an attempt to reverse-engineer a product. No target, prompt, model or full refusal is provided; this is a low-detail failed attempt, not a general policy finding. **[Other AI-assisted work · Needs verification]**
+- [Linux/macOS window handoff: a reader proposes studying spacedesk with REA](cases/en/spacedesk-rea-cross-system-window-handoff-idea.md) — 糊塌子 suggests REA research on spacedesk and a USB transfer cable to reduce network effects. The preceding discussion identifies cross-system drag handoff as the current issue; no spacedesk analysis or performance test is reported. **[REA · Needs verification]**
 - [GoGra on Linux: four decompiler errors and two AI errors in a Ghidra/OpenCode workflow](cases/en/gogra-linux-ghidra-opencode-six-errors-report.md) — Takashi Yoshikawa relays Fortinet research on GoGra's Linux backdoor: an LLM generated Ghidra scripts to recover Go function names, while researchers identified four decompiler errors and two AI mistakes. No sample was independently reviewed. **[Other AI-assisted work · Needs verification]**
 - [Slow, costly industry software: beihuo reports a Claude-assisted Go rewrite running on a Raspberry Pi](cases/en/claude-go-industry-software-raspberry-pi-rewrite-report.md) — beihuo says operations staff replaced slow, resource-heavy licensed industry software using Claude and Go, reporting faster, richer functionality in one Raspberry Pi-capable binary. No named target, source or benchmark was reviewed. **[Other AI-assisted work · Needs verification]**
 - [Rebuild a prospect's funnel before the sales call: ericosiu's REA mockup idea](cases/en/rea-prospect-funnel-presales-rebuild-idea.md) — ericosiu proposes using Reverse engineer anything to rebuild a prospect's conversion funnel before the first sales call, opening with a working mockup. No named customer, execution record or revenue result is given. **[REA · Needs verification]**
@@ -1906,6 +1912,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Shape's JavaScript VM: BottingRocks releases an AI-assisted Rust reverse-engineering toolkit](cases/en/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks reports turning years of Shape VM research into a Rust toolkit with recent AI coding-agent assistance. A pinned README documents deobfuscation, tracing and signal codecs, with build/session matching and refused unsupported edits. **[Other AI-assisted work · Needs verification]**
 - [Dance Motion Chain Library: a promotional report of dance-pose prompts and Nadja motion reconstruction](cases/en/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab describes reusable pose-prompt chains extracted from popular dances, including an Ashita no Nadja character example. The library, source videos, models and output comparisons were not reviewed; guaranteed fixes for limb distortion are not established. **[Other AI-assisted work · Needs verification]**
 - [Thirty trial reels from one recording: a REA video-format and editing-style reconstruction idea](cases/en/rea-video-trial-reel-format-tournament-idea.md) — ericosiu suggests Reverse engineer anything for videos to copy formats and editing styles, making 30 hook, structure and length variants for trial distribution. No implemented tool or real campaign result is supplied. **[REA · Needs verification]**
 - [A private stripped program: Kimmmmmm reports REA recovering its logic in about 28 seconds](cases/en/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm says REA correctly rebuilt logic from a stripped program whose source only they held in roughly 28 seconds, while noting Ghidra's substantial installation requirement for deeper analysis. No sample or comparison was reviewed. **[REA · Analysis test]**

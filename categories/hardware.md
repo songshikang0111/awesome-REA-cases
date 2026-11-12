@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Anker录音豆到知识库：Berryxia称REA研究蓝牙协议，再接MCP检索](../cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md) — Berryxia.AI自述用REA逆向Anker录音豆蓝牙通信，制作带录音、知识库、场景分类、转写与MCP检索的软件；待调整测试后开源，未核设备链路。 **[REA · 进行中]**
+- [NEAR Signer：AI协作开发的iPhone Ledger协议兼容端，实机仍待核](../cases/near-signer-ios-ledger-ble-ai-report.md) — 莫信转述Ivan Frolov与agents开发NEAR Signer；固定文档确认Ledger BLE／APDU兼容、二维码签名与模拟器测试，但未验证真实iPhone蓝牙、相机或Xcode构建，不等同Ledger安全芯片。 **[其他 AI 逆向 · 进行中]**
 - [Soundcore D3200到Mac输入法：让Agent改造实时取流客户端的idea](../cases/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔提出让Agent改造tacshi/Soundcore，把录音豆用于Mac微信语音输入；项目文档支持蓝牙取流与可选转写，但光标粘贴仍是待补步骤，零延时未测。 **[其他 AI 逆向 · 进行中]**
 - [旧Ford的SYNC升3.4：Trevin Chow在REA语境下尝试车机升级](../cases/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow以Reverse engineer anything开场，称尝试将旧Ford的SYNC升至3.4；未报告成功、车型、现有版本或具体工具调用。 **[未确认使用 REA · 进行中]**
 - [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](../cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**

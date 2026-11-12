@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Rust版IDM平替：溯源科技转述界面与插件功能，AI逆向方法未明](../cases/rust-idm-like-downloader-ai-rebuild-report.md) — 溯源科技推荐未具名的Rust开源下载器，称操作与界面近似IDM、插件可解析YouTube，并以AI时代全民逆向归因；未取得项目名、源码或功能对照。 **[未确认使用 REA · 待验证]**
+- [未具名产品逆向尝试：Nikshay称Claude直接拒绝](../cases/nikshay-claude-unnamed-product-reversing-refusal.md) — Nikshay在推荐REA的讨论串称自己用Claude逆向一个产品遭拒；没有目标、提示词、模型或拒绝全文，作为低细节失败尝试而非通用政策结论。 **[其他 AI 逆向 · 待验证]**
+- [Linux与macOS窗口交接：读者建议用REA研究spacedesk](../cases/spacedesk-rea-cross-system-window-handoff-idea.md) — 糊塌子建议用REA参考spacedesk，并以USB对拷线减少网络影响；讨论上文实际卡在跨系统拖窗交接，尚无spacedesk研究或性能测试。 **[REA · 待验证]**
 - [GoGra Linux分析：Ghidra／OpenCode链路中四项反编译错误与两项AI错误](../cases/gogra-linux-ghidra-opencode-six-errors-report.md) — 吉川孝志转述Fortinet研究者分析GoGra Linux后门：LLM生成Ghidra脚本恢复Go函数名，研究者另核出四项反编译错误与两项AI误判，未独立审样本。 **[其他 AI 逆向 · 待验证]**
 - [行业软件太慢太贵：北火称运维用Claude改写Go版，单二进制可跑树莓派](../cases/claude-go-industry-software-raspberry-pi-rewrite-report.md) — 北火称团队为替代慢且高资源消耗的付费行业软件，让运维用Claude写Go版，报告更快、功能更强和树莓派运行；没有具名目标、源码或对照基准。 **[其他 AI 逆向 · 待验证]**
 - [售前先重建潜客漏斗：ericosiu建议用REA做可工作的演示稿](../cases/rea-prospect-funnel-presales-rebuild-idea.md) — ericosiu提出在首次销售通话前用Reverse engineer anything重建潜客的转化漏斗，以工作原型开场；无指定客户、运行记录或营收结果。 **[REA · 待验证]**
