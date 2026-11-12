@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2156 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2163 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（435）
-- [硬件与设备互通](categories/hardware.md)（579）
-- [应用与客户端](categories/apps.md)（886）
-- [算法与功能重建](categories/algorithms.md)（256）
+- [游戏与游戏保存](categories/games.md)（436）
+- [硬件与设备互通](categories/hardware.md)（581）
+- [应用与客户端](categories/apps.md)（889）
+- [算法与功能重建](categories/algorithms.md)（257）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [未具名作弊菜单：cazz为视频测试REA，并批评产物是AI slop](cases/rea-unnamed-cheat-video-test-self-critique.md) — cazz在被批视觉难看后称该作弊产物是AI slop，只是在为新视频测试REA；父帖称让Fable5.2重设计菜单，未证明作弊功能有效。 **[REA · 分析测试]**
 - [预下载游戏开玩时间检查：Moke建议Grok加REA研究，并做提示备份](cases/moke-grok-rea-game-release-time-check-idea.md) — Moke在游戏向服务器确认开玩时间的讨论下，建议Grok与REA禁用该部分，并做可分享的游戏提示作为备份；没有具名游戏、实现或可用绕过。 **[REA · 待验证]**
 - [Mac上的Win11虚拟机：作者称Fable5.2加REA让Xbox应用下载独占游戏](cases/xbox-app-fable52-rea-windows-vm-download-report.md) — @SKL_Piefke_Paul称Fable5.2与REA改变Xbox应用／Windows行为，能在MacBook Pro的修改版Win11虚拟机下载独占游戏；没有游戏运行或GTA6可玩证据。 **[REA · 待验证]**
 - [gatcha C++ Minecraft：Promptmetheus称正上传材料让AI研究动画](cases/promptmetheus-gatcha-cpp-minecraft-animation-ai-attempt.md) — Promptmetheus说自己在做gatcha C++ Minecraft，并正上传材料供AI反编译动画；具体输入、模型与动画恢复结果未提供，保留进行中自述。 **[其他 AI 逆向 · 进行中]**
@@ -464,6 +465,8 @@
 
 ### 硬件与设备互通
 
+- [Wyze v4摄像头：vogel让Agent研究自定义固件，摆脱专有联网软件](cases/wyze-v4-agent-custom-firmware-attempt.md) — vogel称正在让Agent逆向30美元的Wyze v4，目标是运行自定义固件、不依赖厂商联网软件；未报告已刷写或验证独立运行。 **[其他 AI 逆向 · 进行中]**
+- [Samsung UE46F6470应用失灵：Agnogad问Claude加REA能否修复](cases/samsung-ue46f6470-claude-rea-app-repair-idea.md) — 2013年Samsung UE46F6470在2127.0固件下多数应用与商店不工作，只有YouTube和Prime Video可开；Agnogad建议Claude加REA研究，尚无诊断或修复。 **[REA · 待验证]**
 - [电视厂商二进制与驱动：Andrath正用REA获取更多内部信息](cases/andrath-tv-vendor-binaries-drivers-rea-attempt.md) — Andrath说正做TV hacking，使用REA从厂商二进制和驱动获取信息；没有电视品牌、版本或具体发现，保留早期研究，不写成已改造设备。 **[REA · 进行中]**
 - [Garmin Forerunner955共用：Claude研究双用户限制，改做Profile2运动应用](cases/garmin-forerunner955-claude-profile2-workaround.md) — Max Reid想与妻子共用Forerunner955，让Claude研究双档案限制后改走官方应用平台；自报Profile2的心率、计时、GPS可用，但不能改系统档案，全天健康数据仍混合。 **[其他 AI 逆向 · 进行中]**
 - [UniXNU到Android手表：Yukwun转述AI逆向移植watchOS，缺陷与设备未核](cases/unixnu-android-watch-watchos-ai-port-retelling.md) — Yukwun称有人借UniXNU与AI逆向把watchOS刷到华强北Android手表，并承认仍有bug；型号、版本、启动范围及仓库未核，不写成Apple Watch完整替代。 **[其他 AI 逆向 · 待验证]**
@@ -1046,6 +1049,9 @@
 
 ### 应用与客户端
 
+- [Latrodectus样本：九个Malspark Agent的84分钟恶意软件分析转述](cases/malspark-latrodectus-nine-agent-analysis-report.md) — Düzgün转述九个Malspark／Claude Haiku5.5 Agent以84分钟、8.24美元分析Latrodectus；对照八份人工分析的89项事实恢复84项且零错误，仅为所述基准结果。 **[其他 AI 逆向 · 分析测试]**
+- [log接入Hermes：matt称用REA寻找社交内部API，把会话交给Agent](cases/log-hermes-rea-social-internal-api-plugin.md) — matt宣布log与Hermes的开源插件整合，称结合Treg、Subquadratic与REA寻找社交网站内部API，从会话中发现机会；未核仓库、权限或实际控制范围。 **[REA · 进行中]**
+- [三天AI订阅商店：作者称REA分析商业站，提炼design.md后重建](cases/rea-designmd-ai-subscription-store-rebuild-report.md) — 作者报告用REA研究成熟商业站的结构、设计和交互，生成design.md重建订阅充值网站，并对接供货、订单、支付与交付；三天为自述，非官方渠道与收益承诺。 **[REA · 待验证]**
 - [EAC公开应用：Jhaddix转述XBOW Agent研究前端JS并报告未认证容器RCE](cases/xbow-eac-frontend-js-unauthenticated-rce-report.md) — Jhaddix在赞助帖中称XBOW Agent研究美国EAC某公开应用前端JavaScript，验证后端容器root代码执行并在11月3日前修补；未独立验证，不扩大为投票系统被攻破。 **[其他 AI 逆向 · 待验证]**
 - [Ableton13研究idea：So Me向Grimes建议Opus5.5加REA](cases/glitchedsomi-opus55-rea-ableton13-idea.md) — So Me回复Grimes，提出用Opus5.5与REA研究Ableton13；只有目标与工具组合，没有已开始任务、具体功能、代码或结果。 **[REA · 待验证]**
 - [REA任务遇停号警告：Yi称gpt-6-astra反复拒绝后收到邮件](cases/yi-rea-gpt6-astra-refusal-account-warning-report.md) — Yi报告用REA加gpt-6-astra执行未具名逆向任务，数次继续后收到账号将被停用的警告；不是已停号记录，也未证明DeepSeek普遍不拒绝。 **[REA · 待验证]**
@@ -1095,7 +1101,7 @@
 - [LASIK：静态清除BLA诱饵，2100万到1.7万是读入量估算而非Agent实测](cases/lasik-bla-static-deblinding-cli-mcp.md) — LASIK提供CLI／MCP静态去保护；公开CrackMe与21格式自有样本报告大幅缩小读入体积，保留误删回归测试。没有实测REA解题、token账单或通用语义等价证明。 **[其他 AI 逆向 · 分析测试]**
 - [Humanizer DLL：Dennis Rongo称Claude Code／REA重建C#并通过170项测试](cases/codingmenace-humanizer-rea-csharp-rebuild-test.md) — Dennis Rongo报告只给.NET DLL、不提供源码，让Claude Code与REA重建Humanizer，得到C#与170测试通过；未提供测试来源或覆盖，不等于全部行为一致。 **[REA · 分析测试]**
 - [WinMerge重建：51项通过，但Dennis Rongo提醒测试也是Claude写的](cases/codingmenace-winmerge-rea-self-written-tests.md) — Dennis Rongo用Claude Code与REA研究无源码Windows应用WinMerge，报告51项测试通过并强调测试由Claude自编；没有原版差分或功能覆盖证据。 **[REA · 分析测试]**
-- [CTBC银行主机逆向：报道采用Bedrock AgentCore多Agent管线](cases/ctbc-bedrock-agentcore-mainframe-reverse-engineering.md) — 日文来源标题介绍CTBC银行在Amazon Bedrock AgentCore上用多Agent管线更新主机逆向流程；目标具名，但没有取得文章正文或实施结果。 **[其他 AI 逆向 · 待验证]**
+- [CTBC银行COBOL主机逆向：多Agent门禁与约8到2人日的PoC转述](cases/ctbc-bedrock-agentcore-mainframe-reverse-engineering.md) — 既有报道介绍CTBC用Bedrock AgentCore理解主机系统；Michael新增转述COBOL、一主管七子Agent、交接质量门禁及同输入PoC每份产物约8到2人日，未核一手材料。 **[其他 AI 逆向 · 待验证]**
 - [Byte Downloader：Jones Byte称REA与Claude重建部分功能仍很不完整](cases/byte-downloader-rea-incomplete-recreation-tests.md) — 开发者以自己的下载与剪辑工具测试REA／Claude重建，报告结果不完整，强调生成代码与可交付产品的差别；无逐项对照或复跑记录。 **[REA · 分析测试]**
 - [Cindy中继检查：AI指出Node.js代码明文，用户再确认单租户relay开源](cases/cindy-relay-ai-plaintext-open-source-check.md) — 用户让AI研究Cindy中继并要求逆向，模型称代码是明文；用户随后在源码确认自部署单租户relay开源，明确不涵盖官方服务器。 **[其他 AI 逆向 · 分析测试]**
 - [Tokimi防御访问计划：先用Claude检查自己的数字信任产品与可疑文件](cases/tokimi-claude-defense-access-product-audit-plan.md) — 时见称获Anthropic Defense Access，计划先审Timestamp、IFF Apostille、Monitor等自身产品，并隔离分析可疑文件；未报告已完成逆向或漏洞发现。 **[其他 AI 逆向 · 进行中]**
@@ -1935,6 +1941,7 @@
 
 ### 算法与功能重建
 
+- [REA for Growth：用竞品流量、广告与招聘反推增长的早期技能](cases/treg-rea-for-growth-competitor-teardown-skill.md) — 候选介绍Treg的免费REA for Growth技能，让Agent研究竞品多种增长信号；宣称样例数据成本0.58美元、提供1美元试用额度，未核完整报告与复现。 **[未确认使用 REA · 相关项目]**
 - [月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配](cases/sandmrk-moonlit-peony-portrait-prompt-reconstruction.md) — sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。 **[其他 AI 逆向 · 待验证]**
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
 - [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**

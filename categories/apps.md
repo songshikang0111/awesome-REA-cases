@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Latrodectus样本：九个Malspark Agent的84分钟恶意软件分析转述](../cases/malspark-latrodectus-nine-agent-analysis-report.md) — Düzgün转述九个Malspark／Claude Haiku5.5 Agent以84分钟、8.24美元分析Latrodectus；对照八份人工分析的89项事实恢复84项且零错误，仅为所述基准结果。 **[其他 AI 逆向 · 分析测试]**
+- [log接入Hermes：matt称用REA寻找社交内部API，把会话交给Agent](../cases/log-hermes-rea-social-internal-api-plugin.md) — matt宣布log与Hermes的开源插件整合，称结合Treg、Subquadratic与REA寻找社交网站内部API，从会话中发现机会；未核仓库、权限或实际控制范围。 **[REA · 进行中]**
+- [三天AI订阅商店：作者称REA分析商业站，提炼design.md后重建](../cases/rea-designmd-ai-subscription-store-rebuild-report.md) — 作者报告用REA研究成熟商业站的结构、设计和交互，生成design.md重建订阅充值网站，并对接供货、订单、支付与交付；三天为自述，非官方渠道与收益承诺。 **[REA · 待验证]**
 - [EAC公开应用：Jhaddix转述XBOW Agent研究前端JS并报告未认证容器RCE](../cases/xbow-eac-frontend-js-unauthenticated-rce-report.md) — Jhaddix在赞助帖中称XBOW Agent研究美国EAC某公开应用前端JavaScript，验证后端容器root代码执行并在11月3日前修补；未独立验证，不扩大为投票系统被攻破。 **[其他 AI 逆向 · 待验证]**
 - [Ableton13研究idea：So Me向Grimes建议Opus5.5加REA](../cases/glitchedsomi-opus55-rea-ableton13-idea.md) — So Me回复Grimes，提出用Opus5.5与REA研究Ableton13；只有目标与工具组合，没有已开始任务、具体功能、代码或结果。 **[REA · 待验证]**
 - [REA任务遇停号警告：Yi称gpt-6-astra反复拒绝后收到邮件](../cases/yi-rea-gpt6-astra-refusal-account-warning-report.md) — Yi报告用REA加gpt-6-astra执行未具名逆向任务，数次继续后收到账号将被停用的警告；不是已停号记录，也未证明DeepSeek普遍不拒绝。 **[REA · 待验证]**
@@ -51,7 +54,7 @@
 - [LASIK：静态清除BLA诱饵，2100万到1.7万是读入量估算而非Agent实测](../cases/lasik-bla-static-deblinding-cli-mcp.md) — LASIK提供CLI／MCP静态去保护；公开CrackMe与21格式自有样本报告大幅缩小读入体积，保留误删回归测试。没有实测REA解题、token账单或通用语义等价证明。 **[其他 AI 逆向 · 分析测试]**
 - [Humanizer DLL：Dennis Rongo称Claude Code／REA重建C#并通过170项测试](../cases/codingmenace-humanizer-rea-csharp-rebuild-test.md) — Dennis Rongo报告只给.NET DLL、不提供源码，让Claude Code与REA重建Humanizer，得到C#与170测试通过；未提供测试来源或覆盖，不等于全部行为一致。 **[REA · 分析测试]**
 - [WinMerge重建：51项通过，但Dennis Rongo提醒测试也是Claude写的](../cases/codingmenace-winmerge-rea-self-written-tests.md) — Dennis Rongo用Claude Code与REA研究无源码Windows应用WinMerge，报告51项测试通过并强调测试由Claude自编；没有原版差分或功能覆盖证据。 **[REA · 分析测试]**
-- [CTBC银行主机逆向：报道采用Bedrock AgentCore多Agent管线](../cases/ctbc-bedrock-agentcore-mainframe-reverse-engineering.md) — 日文来源标题介绍CTBC银行在Amazon Bedrock AgentCore上用多Agent管线更新主机逆向流程；目标具名，但没有取得文章正文或实施结果。 **[其他 AI 逆向 · 待验证]**
+- [CTBC银行COBOL主机逆向：多Agent门禁与约8到2人日的PoC转述](../cases/ctbc-bedrock-agentcore-mainframe-reverse-engineering.md) — 既有报道介绍CTBC用Bedrock AgentCore理解主机系统；Michael新增转述COBOL、一主管七子Agent、交接质量门禁及同输入PoC每份产物约8到2人日，未核一手材料。 **[其他 AI 逆向 · 待验证]**
 - [Byte Downloader：Jones Byte称REA与Claude重建部分功能仍很不完整](../cases/byte-downloader-rea-incomplete-recreation-tests.md) — 开发者以自己的下载与剪辑工具测试REA／Claude重建，报告结果不完整，强调生成代码与可交付产品的差别；无逐项对照或复跑记录。 **[REA · 分析测试]**
 - [Cindy中继检查：AI指出Node.js代码明文，用户再确认单租户relay开源](../cases/cindy-relay-ai-plaintext-open-source-check.md) — 用户让AI研究Cindy中继并要求逆向，模型称代码是明文；用户随后在源码确认自部署单租户relay开源，明确不涵盖官方服务器。 **[其他 AI 逆向 · 分析测试]**
 - [Tokimi防御访问计划：先用Claude检查自己的数字信任产品与可疑文件](../cases/tokimi-claude-defense-access-product-audit-plan.md) — 时见称获Anthropic Defense Access，计划先审Timestamp、IFF Apostille、Monitor等自身产品，并隔离分析可疑文件；未报告已完成逆向或漏洞发现。 **[其他 AI 逆向 · 进行中]**

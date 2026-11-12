@@ -1,5 +1,118 @@
 [
   {
+    "id": "wyze-v4-agent-custom-firmware-attempt",
+    "title": "Wyze v4摄像头：vogel让Agent研究自定义固件，摆脱专有联网软件",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "vogel称正在让Agent逆向30美元的Wyze v4，目标是运行自定义固件、不依赖厂商联网软件；未报告已刷写或验证独立运行。",
+    "description": "2026年11月13日00:34:30（北京时间），vogel（@ryanvogel）说正让自己的Agent逆向Wyze v4摄像头，希望运行自定义固件，免用其专有联网软件。作者称摄像头价格30美元，是其价格描述，不是本合集核价或购买建议。\n\n这是已在进行的具名设备研究，不是泛泛推荐AI；但正文没有模型、REA调用、固件版本、代码、协议、刷写记录或运行测试。‘to run’说明目标，不证明固件已经启动、离线可用或所有视频功能恢复。与既有Wyze小车和体重秤不是同一设备。\n\n补取确认署名与正文，附件为图片，本合集未核图片内代码或设备结果；未下载固件、连接摄像头或执行目标代码。保持other-ai／in-progress，后续能力不能由作者兴奋语气推定。",
+    "sources": [{"label": "vogel的Wyze v4 Agent固件研究自述，2026-11-13北京时间", "url": "https://x.com/i/status/2120918166440169550"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选封存59赞、2247浏览、1转发、8回复；价格30美元为作者所述，非报价核验。"],
+    "en": {
+      "title": "Wyze v4: vogel has an agent researching custom firmware to avoid proprietary networking software",
+      "summary": "vogel reports an agent reversing a $30 Wyze v4 to run custom firmware without the vendor's networking software. Flashing and independent operation are not established.",
+      "description": "At 00:34:30 Beijing time on November 13, 2026, vogel (@ryanvogel) says his agent is reverse-engineering a Wyze v4 camera to run custom firmware so he need not use its proprietary networking software. He describes the cameras as costing $30; that is his price statement, not a checked quotation or purchasing recommendation.\n\nThis names an ongoing device investigation rather than a generic AI recommendation, but supplies no model, REA invocation, firmware revision, code, protocol, flashing record or runtime test. 'To run' expresses a goal, not proof of booting firmware, offline operation or restored video features. This is not the existing Wyze car or scale target.\n\nRetrieval confirmed attribution and text. An attached image was not checked for code or device results. No firmware was downloaded, camera connected or target code executed. Kept other-ai/in-progress; the author's enthusiasm does not establish further capabilities.",
+      "metadata": ["Sealed candidate: 59 likes, 2,247 views, 1 repost, 8 replies. The $30 price is author-stated, not verified."],
+      "source_labels": ["vogel's Wyze v4 agent-firmware research account, November 13, 2026 Beijing time"]
+    }
+  },
+  {
+    "id": "malspark-latrodectus-nine-agent-analysis-report",
+    "title": "Latrodectus样本：九个Malspark Agent的84分钟恶意软件分析转述",
+    "category": "apps", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Düzgün转述九个Malspark／Claude Haiku5.5 Agent以84分钟、8.24美元分析Latrodectus；对照八份人工分析的89项事实恢复84项且零错误，仅为所述基准结果。",
+    "description": "2026年11月13日00:51:39（北京时间），Düzgün（@Root0ne）发布AI Agent与人工恶意软件分析师比较，称九个Malspark Agent使用Claude Haiku5.5分析一个Latrodectus样本，耗时84分钟、成本8.24美元。目标是恢复恶意软件行为事实，而非生成或运行恶意软件；模型名称沿用原帖，不另行认证版本。\n\n帖子称基准由八份人工分析中的89项事实构成，Agent报告恢复84项且没有错误。没有错误只限于这套被比较的事实，不意味着覆盖全部行为、分析所有变种或可替代分析师；未说明漏掉各项、事实判分方法、样本标识、环境或人工工时，不能将84分钟作相对人工的加速比。\n\n补取核对署名与文字，未取得链接文章、完整报告或原始评分记录，不下载样本、不执行恶意软件。以二手analysis-test保留，REA未提及；这些时间、费用与正确性均是来源报告，不是本合集实测或独立复现。",
+    "sources": [{"label": "Düzgün转述Malspark九Agent的Latrodectus分析比较，2026-11-13北京时间", "url": "https://x.com/i/status/2120922482634850814"}],
+    "snapshot_date": "2026-11-13", "metadata": ["封存15赞、677浏览、0转发、5回复；84／89与零错误只对应帖子描述的事实集。"],
+    "en": {
+      "title": "A Latrodectus sample: a report of nine Malspark agents' 84-minute malware analysis",
+      "summary": "Düzgün relays nine Malspark/Claude Haiku 5.5 agents analyzing Latrodectus in 84 minutes for $8.24, recovering 84 of 89 facts from eight human analyses without errors on that benchmark.",
+      "description": "At 00:51:39 Beijing time on November 13, 2026, Düzgün (@Root0ne) posts an AI-versus-human malware-analysis comparison. Nine Malspark agents reportedly used Claude Haiku 5.5 to analyze one Latrodectus sample in 84 minutes for $8.24. The target is recovering malware-behavior facts, not generating or running malware. The model name preserves the post's wording without separately authenticating its version.\n\nThe post says the reference comprises 89 facts from eight human analyses, of which the agent report recovered 84 and got none wrong. No errors is limited to the compared facts, not complete behavioral coverage, analysis of every variant or replacement of analysts. Missing facts, scoring method, sample identifier, environment and human labor time are unspecified. The 84 minutes cannot establish a speedup against human work.\n\nRetrieval checked attribution and text, not the linked article, full report or original scoring records. No sample was downloaded or malware executed. Retained as a secondary analysis-test with no REA claim. Time, cost and correctness remain reported figures, not measurements or independent reproduction by this collection.",
+      "metadata": ["Sealed snapshot: 15 likes, 677 views, 0 reposts, 5 replies. The 84/89 and zero-error claims apply only to the described fact set."],
+      "source_labels": ["Düzgün's account of the nine-agent Malspark Latrodectus comparison, November 13, 2026 Beijing time"]
+    }
+  },
+  {
+    "id": "treg-rea-for-growth-competitor-teardown-skill",
+    "title": "REA for Growth：用竞品流量、广告与招聘反推增长的早期技能",
+    "category": "algorithms", "rea": "unknown", "status": "related-project",
+    "summary": "候选介绍Treg的免费REA for Growth技能，让Agent研究竞品多种增长信号；宣称样例数据成本0.58美元、提供1美元试用额度，未核完整报告与复现。",
+    "description": "2026年11月13日01:20:07（北京时间），候选介绍@treg_ai的免费REA for Growth技能，让AI Agent研究竞品的流量、搜索、广告、帖子、链接与招聘，反推增长路径。它是具体的增长拆解工具项目，而非二进制反编译；与既有rea-brand分析Dan Koe个人品牌的目标范围不同。\n\n帖子将一次完整竞品拆解的数据费用0.58美元归于Treg样例运行，并称有1美元免费额度、处于early access。这个数字只说数据成本，不包含模型、人工或完整服务成本；4.0／5是发帖方评分，不是本合集评价。没有具名样例竞品、报告全文、准确性对照或可重跑配置。\n\n本合集仅依据候选文字保留相关项目，不推断morluto REA参与、已经恢复竞品内部算法或证明增长因果；rea标unknown。未取得源码、运行技能或验证额度与收费。",
+    "sources": [{"label": "Treg REA for Growth技能与样例数据成本介绍，2026-11-13北京时间", "url": "https://x.com/i/status/2120929648800661747"}],
+    "snapshot_date": "2026-11-13", "metadata": ["封存0赞、29浏览、0转发、0回复；0.58美元是所述样例数据费用，1美元额度与4.0／5评分未经本合集核验。"],
+    "en": {
+      "title": "REA for Growth: an early skill for inferring competitor growth from traffic, ads and hiring",
+      "summary": "A post introduces Treg's free REA for Growth skill for multi-signal competitor research, claiming $0.58 in sample-run data costs and $1 trial credit. The report and reproduction are unchecked.",
+      "description": "At 01:20:07 Beijing time on November 13, 2026, a candidate introduces @treg_ai's free REA for Growth skill, which has an AI agent study competitor traffic, search, ads, posts, links and hiring to infer growth patterns. This is a concrete growth-teardown tool, not binary decompilation, and differs in target scope from the existing rea-brand analysis of Dan Koe's personal brand.\n\nThe post attributes $0.58 in data costs for one full competitor teardown to Treg's sample run and advertises $1 free credit and early access. That figure is data cost only, not model, labor or total service cost. The 4.0/5 is the poster's rating, not this collection's assessment. No named sample competitor, complete report, accuracy comparison or repeatable configuration is supplied.\n\nRetained as a related project based on candidate wording only. Participation by morluto's REA, recovery of internal competitor algorithms and causal growth findings are not inferred; rea remains unknown. Source code, skill execution, credit availability and pricing were not verified.",
+      "metadata": ["Sealed snapshot: 0 likes, 29 views, 0 reposts, 0 replies. The $0.58 is reported sample data cost; $1 credit and the 4.0/5 rating are unchecked here."],
+      "source_labels": ["Treg REA for Growth skill and sample-data-cost introduction, November 13, 2026 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-unnamed-cheat-video-test-self-critique",
+    "title": "未具名作弊菜单：cazz为视频测试REA，并批评产物是AI slop",
+    "category": "games", "rea": "REA", "status": "analysis-test",
+    "summary": "cazz在被批视觉难看后称该作弊产物是AI slop，只是在为新视频测试REA；父帖称让Fable5.2重设计菜单，未证明作弊功能有效。",
+    "description": "2026年11月13日01:55:12（北京时间），@cazzwastaken回应@perfctstyleceo对视觉效果的批评，称这个cheat完全是AI slop，自己主要为新视频测试REA。补取父帖可见他在11月12日22:03:55称让Fable5.2重设计作弊菜单；父帖早于本窗口，仅用于确定菜单设计背景，模型名称沿用其自述。\n\n具体实际活动是作者用REA测试与AI菜单重设计，不是已经验证的作弊工具。帖子没给游戏名、模式、功能、逆向输入、代码、REA日志或成功测试；负面评价是作者对自己产物的判断，不等同于受控质量测量。不能凭cheat推断可绕过反作弊或可在线使用。\n\n本合集没有运行产物、访问游戏或核验附件视觉效果，保留analysis-test以记录带明确工具的负面尝试；不提供作弊流程，也不把未发布视频当已审证据。",
+    "sources": [{"label": "cazz称为视频测试REA并批评产物，2026-11-13北京时间", "url": "https://x.com/i/status/2120938478028406948"}, {"label": "补充父帖：Fable5.2重设计作弊菜单，2026-11-12北京时间，早于窗口", "url": "https://x.com/i/status/2120880271683698875"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选封存0赞、389浏览、0转发、0回复；父帖与批评回复仅定位上下文，不计作新增候选。"],
+    "en": {
+      "title": "An unnamed cheat menu: cazz tests REA for a video and calls the output AI slop",
+      "summary": "After criticism of the visuals, cazz calls the cheat AI slop and says it is really an REA test for a new video. A parent mentions Fable 5.2 menu redesign, not validated cheat functionality.",
+      "description": "At 01:55:12 Beijing time on November 13, 2026, @cazzwastaken responds to @perfctstyleceo's criticism of the visuals, calling the cheat complete AI slop and saying he is really testing REA for a new video. Supplementary retrieval shows a parent at 22:03:55 on November 12 saying he asked Fable 5.2 to redesign his cheat menu. That parent predates the window and supplies menu-design context only; the model name is author-stated.\n\nThe actual activity is an author-described REA test and AI menu redesign, not a validated cheat tool. No game, mode, functionality, reversing input, source, REA logs or successful tests are supplied. The negative verdict is his own judgment, not controlled quality measurement. The word cheat establishes neither anti-cheat bypass nor online usability.\n\nThis collection ran no output, accessed no game and did not verify attached visuals. Retained as an analysis-test documenting a negative attempt with an explicit tool. No cheating procedure is provided, and an unreleased video is not treated as reviewed evidence.",
+      "metadata": ["Sealed candidate: 0 likes, 389 views, 0 reposts, 0 replies. The parent and critical reply provide context, not new candidates."],
+      "source_labels": ["cazz's REA video-test account and self-critique, November 13, 2026 Beijing time", "Supplementary parent: Fable 5.2 cheat-menu redesign, November 12, 2026 Beijing time, before the window"]
+    }
+  },
+  {
+    "id": "log-hermes-rea-social-internal-api-plugin",
+    "title": "log接入Hermes：matt称用REA寻找社交内部API，把会话交给Agent",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "matt宣布log与Hermes的开源插件整合，称结合Treg、Subquadratic与REA寻找社交网站内部API，从会话中发现机会；未核仓库、权限或实际控制范围。",
+    "description": "2026年11月13日01:56:09（北京时间），matt.（@matthewsoldit）介绍log，希望Agent利用用户既有会话发现机会，让用户把时间留给其他事情。他称已经把log集成为Nous Research Hermes Agent插件，且全部开源。这里记录的是作者项目公告，不是Hermes官方功能保证。\n\n作者称log构建于@treg_ai、@subquadratic和@morluto的Reverse Engineer Anything之上，用来找到社交媒体或网站内部API，以便Agent控制操作。候选没有说明具体平台、端点、认证、授权范围、会话取得方式或支持动作，不能把‘任何网站’或‘每次会话’宣传理解为已经全面覆盖。\n\n补取确认署名、正文与视频附件存在，未审视频执行、未取得代码仓库、安装插件或读取用户会话。开源和已集成是作者自述，权限、安全边界与可用性未核；按REA／in-progress收录，不验证自动发消息或账号控制。",
+    "sources": [{"label": "matt介绍log／Hermes插件及REA内部API研究，2026-11-13北京时间", "url": "https://x.com/i/status/2120938715820474690"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选封存70赞、4218浏览、9转发、17回复；宣传与视频存在不等于插件经过独立验证。"],
+    "en": {
+      "title": "log for Hermes: matt reports REA-based social internal-API research and conversation access for agents",
+      "summary": "matt announces an open-source log integration as a Hermes plugin, combining Treg, Subquadratic and REA to find social-site internal APIs and opportunities in conversations. Repository, permissions and control scope are unchecked.",
+      "description": "At 01:56:09 Beijing time on November 13, 2026, matt. (@matthewsoldit) introduces log, aiming to let an agent find opportunities in users' existing conversations while freeing their time. He says log is already integrated into Nous Research's Hermes Agent as a plugin and is all open source. This records his project announcement, not an official Hermes feature guarantee.\n\nHe says log builds on @treg_ai, @subquadratic and @morluto's Reverse Engineer Anything to find internal APIs of social media or websites so an agent can take control. The candidate identifies no platform, endpoint, authentication, authorization scope, conversation-access method or supported action. Claims about any website and every conversation do not establish universal coverage.\n\nRetrieval confirmed attribution, wording and the presence of a video attachment, not execution in the video. No repository was obtained, plugin installed or user conversations read. Open-source availability and completed integration are author-stated; permissions, safety boundaries and usability remain unchecked. Retained REA/in-progress without validating automatic messaging or account control.",
+      "metadata": ["Sealed candidate: 70 likes, 4,218 views, 9 reposts, 17 replies. Promotion and a video attachment are not independent plugin validation."],
+      "source_labels": ["matt's log/Hermes plugin and REA internal-API announcement, November 13, 2026 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-designmd-ai-subscription-store-rebuild-report",
+    "title": "三天AI订阅商店：作者称REA分析商业站，提炼design.md后重建",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "作者报告用REA研究成熟商业站的结构、设计和交互，生成design.md重建订阅充值网站，并对接供货、订单、支付与交付；三天为自述，非官方渠道与收益承诺。",
+    "description": "2026年11月13日01:56:55（北京时间），候选作者称三天独立做出AI订阅充值网站。其具体流程是先让REA分析成熟商业站的页面结构、设计规范和业务交互，再让Agent提炼design.md，依此重新构建整站。原站未具名，不能写成恢复原站源码、数据库或私有支付接口。\n\n作者另称自己寻找上游卡网和供货渠道、研究接口和定价，完成商品、订单、支付及自动交付对接；这些是重建后的业务集成自述，不应全归为REA逆向结果。作者说网站上线后仍缺流量，正在招募市场合作方，故不是已验证盈利案例。三天未说明工时、试错或开发成本。\n\n完整候选结尾明确为独立第三方服务，并非OpenAI或Anthropic官方销售渠道，合作不保证收益。本合集未访问商店、测试支付、核验供货权限、账户安全或合规；只记录网站研究到设计文档再重建的具体自述，保留unverified，不推广订阅交易或背书商业机会。",
+    "sources": [{"label": "作者的REA／design.md订阅商店重建自述与第三方声明，2026-11-13北京时间", "url": "https://x.com/i/status/2120938908498481584"}],
+    "snapshot_date": "2026-11-13", "metadata": ["封存0赞、157浏览、0转发、0回复；三天、上线与交付均为自述，未核交易或收益。"],
+    "en": {
+      "title": "A three-day AI subscription store: an author reports REA analysis, design.md extraction and rebuilding",
+      "summary": "An author reports studying a commercial site's structure, design and interactions with REA, then rebuilding a subscription store from design.md and integrating supply, orders, payments and delivery. Three days is self-reported, not official-channel or profit validation.",
+      "description": "At 01:56:55 Beijing time on November 13, 2026, a candidate author says they independently built an AI subscription top-up website in three days. The concrete process was REA analysis of a mature commercial site's page structure, design conventions and business interactions, followed by an agent extracting design.md and rebuilding the site from that document. The reference site is unnamed; recovery of its source, database or private payment interfaces is not established.\n\nThe author separately reports finding upstream digital-goods suppliers, studying interfaces and pricing, and integrating products, orders, payments and automatic delivery. These are self-reported business integrations after rebuilding, not all REA reverse-engineering outputs. The site reportedly went live but still lacks traffic, prompting recruitment of marketing partners; this is not a validated profitable business. Three days does not specify work hours, iteration or development cost.\n\nThe full candidate explicitly calls the service independent and third-party, not an official OpenAI or Anthropic sales channel, with no guaranteed partnership returns. This collection did not visit the store, test payments or verify supply authorization, account safety or compliance. It records the concrete site-analysis-to-design-document rebuilding account as unverified, without promoting subscription trades or endorsing the business opportunity.",
+      "metadata": ["Sealed snapshot: 0 likes, 157 views, 0 reposts, 0 replies. Three days, launch and delivery are self-reported; transactions and returns are unchecked."],
+      "source_labels": ["Author's REA/design.md subscription-store rebuilding account and third-party disclaimer, November 13, 2026 Beijing time"]
+    }
+  },
+  {
+    "id": "samsung-ue46f6470-claude-rea-app-repair-idea",
+    "title": "Samsung UE46F6470应用失灵：Agnogad问Claude加REA能否修复",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "2013年Samsung UE46F6470在2127.0固件下多数应用与商店不工作，只有YouTube和Prime Video可开；Agnogad建议Claude加REA研究，尚无诊断或修复。",
+    "description": "2026年11月13日02:45:26（北京时间），Agnogad • Linux（@Agnogad）向@akifyanbak与@SamsungTurkiye问，能否用Claude加REA解决。补取父帖确定具体背景：Mehmet Akif Yanbak在11月12日03:41:41说2013年F系列Samsung UE46F6470电视包括Samsung Apps商店在内的应用不工作，只有YouTube和Amazon Prime Video能打开；固件2127.0且日期时间正确仍未改善。父帖早于本窗口，只提供目标与症状，不是本轮新候选。\n\n这是针对旧智能电视应用可用性的AI研究idea，而不是已经实施的固件破解。Agnogad没有给模型版本、分析入口、协议、代码或诊断；电视主人随后‘为什么不呢’的答复也不证明已经开始或成功。不推断故障来自证书、服务停运或区域设置，不将另一Samsung遥控项目成果移植到此设备。\n\n补取串核对署名和上下文，未连接电视、下载固件、修改设置或测试应用。保留REA／unverified，只记录问题和建议。",
+    "sources": [{"label": "Agnogad提出Claude加REA修复建议，2026-11-13北京时间", "url": "https://x.com/i/status/2120951119635689725"}, {"label": "补充父帖：Mehmet的UE46F6470型号、2127.0固件与应用症状，2026-11-12北京时间，早于窗口", "url": "https://x.com/i/status/2120602884639506849"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选封存0赞、136浏览、0转发、1回复；父帖的设备症状为主人自述，未经设备测试。"],
+    "en": {
+      "title": "Samsung UE46F6470 app failures: Agnogad asks whether Claude plus REA could help",
+      "summary": "Most apps and the store reportedly fail on a 2013 Samsung UE46F6470 with firmware 2127.0, while YouTube and Prime Video open. Agnogad proposes Claude/REA research, without diagnosis or repair.",
+      "description": "At 02:45:26 Beijing time on November 13, 2026, Agnogad • Linux (@Agnogad) asks @akifyanbak and @SamsungTurkiye whether Claude plus REA could solve the problem. Supplementary parent retrieval establishes the target: at 03:41:41 on November 12, Mehmet Akif Yanbak reports that apps including Samsung Apps fail on his 2013 F-series Samsung UE46F6470, while YouTube and Amazon Prime Video open. Firmware 2127.0 and correct date/time have not helped. The parent predates this window and supplies target and symptoms, not another current candidate.\n\nThis is an AI research idea for old smart-TV app availability, not an implemented firmware exploit. Agnogad supplies no model version, analysis entry point, protocol, code or diagnosis. The owner's subsequent 'why not' reply establishes neither started work nor success. Certificate failure, service shutdown and regional settings are not inferred as causes, and another Samsung remote-control project's results are not assigned to this device.\n\nThread retrieval checked attribution and context only. No TV was connected, firmware downloaded, settings changed or app tested. Retained REA/unverified as a problem and suggestion.",
+      "metadata": ["Sealed candidate: 0 likes, 136 views, 0 reposts, 1 reply. Parent symptoms are owner-reported, not device-tested here."],
+      "source_labels": ["Agnogad's Claude/REA repair suggestion, November 13, 2026 Beijing time", "Supplementary parent: Mehmet's UE46F6470 model, 2127.0 firmware and app symptoms, November 12, 2026 Beijing time, before the window"]
+    }
+  },
+
+  {
     "id": "andrath-tv-vendor-binaries-drivers-rea-attempt",
     "title": "电视厂商二进制与驱动：Andrath正用REA获取更多内部信息",
     "category": "hardware", "rea": "REA", "status": "in-progress",
@@ -1498,13 +1611,19 @@
   },
   {
     "id": "ctbc-bedrock-agentcore-mainframe-reverse-engineering",
-    "title": "CTBC银行主机逆向：报道采用Bedrock AgentCore多Agent管线",
+    "title": "CTBC银行COBOL主机逆向：多Agent门禁与约8到2人日的PoC转述",
     "category": "apps", "rea": "other-ai", "status": "unverified",
-    "summary": "日文来源标题介绍CTBC银行在Amazon Bedrock AgentCore上用多Agent管线更新主机逆向流程；目标具名，但没有取得文章正文或实施结果。",
-    "description": "2026年11月11日07:14:13（北京时间），候选帖子链接一篇介绍CTBC银行如何以Amazon Bedrock AgentCore上的多Agent管线推进mainframe逆向现代化的文章。这里的mainframe指企业主机系统，不是个人电脑主板；研究对象是该行既有主机系统的理解流程。\n\n可确认材料仅为日文标题所述的机构、平台与多Agent逆向用途，未取得文章正文或银行的一手实施材料。不补写程序语言、模型、Agent分工、解析方法、代码规模、业务迁移、节省工时或部署完成度；“现代化”是来源标题表述，不是本合集验证的成功结果。保守收录为具名企业项目的待核实报道，REA未提及，未访问银行系统或运行任何代码。",
-    "sources": [{"label": "候选：CTBC／Bedrock AgentCore主机逆向文章的日文标题，2026-11-11", "url": "https://x.com/i/status/2120293983905804647"}],
-    "snapshot_date": "2026-11-11", "metadata": ["候选封存0赞、20浏览、0转发；只有标题证据，不代表已读文章或独立验证。"],
-    "en": {"title": "CTBC Bank mainframe reversing: a report names a multi-agent pipeline on Bedrock AgentCore", "summary": "A Japanese source headline describes CTBC Bank modernizing mainframe reversing with a multi-agent pipeline on Amazon Bedrock AgentCore. The target is named, but article details and implementation results were not obtained.", "description": "At 07:14:13 Beijing time on November 11, 2026, a candidate links an article about CTBC Bank modernizing mainframe reverse engineering with a multi-agent pipeline on Amazon Bedrock AgentCore. Mainframe means an enterprise computing system, not a personal-computer motherboard; the reported target is understanding the bank's existing mainframe systems.\n\nThe available evidence is limited to the institution, platform and multi-agent reversing use stated in the Japanese headline. Neither the article body nor first-party bank implementation material was obtained. Programming languages, models, agent roles, parsing methods, codebase size, business migration, time savings and deployment completion are not supplied or inferred. Modernization is the source headline's framing, not a successful result verified here. This is conservatively retained as an unverified report of a named enterprise project. REA is unmentioned, and no bank systems were accessed or code run.", "metadata": ["Sealed candidate: 0 likes, 20 views, 0 reposts. Headline evidence only, not a read article or independent validation."], "source_labels": ["Candidate: Japanese headline on CTBC/Bedrock AgentCore mainframe reversing, November 11, 2026"]}
+    "summary": "既有报道介绍CTBC用Bedrock AgentCore理解主机系统；Michael新增转述COBOL、一主管七子Agent、交接质量门禁及同输入PoC每份产物约8到2人日，未核一手材料。",
+    "description": "2026年11月11日07:14:13（北京时间）的既有来源标题介绍CTBC银行在Amazon Bedrock AgentCore上以多Agent管线推进主机逆向。mainframe是企业主机系统，不是个人电脑主板，目标是理解既有银行软件。\n\n11月13日00:13:54，Michael shares.（@mikogen）在AI运营汇总中转述其称11月10日AWS报道的同一项目：研究COBOL，以一个主管Agent和七个子Agent分工，每次交接设质量门禁并保留完整审计轨迹。帖子称同输入概念验证中，每份产物从约8人日降至约2人日；未说明产物具体类型、样本量或模型。作者将收益主要归于分解与门禁，但也明确PoC没有隔离这些因素，不能据此证明因果或全部业务生产提效。\n\n本轮补取核对Michael署名与上述文字；AWS原文、银行一手实施材料和测试记录尚未取得。这是比原先标题更具体的二手证据，不是本合集复现；不推断迁移完成、模型型号、业务上线或安全合规。REA未提及，保持other-ai／unverified，未访问银行系统或执行代码。",
+    "sources": [{"label": "既有CTBC／Bedrock AgentCore主机逆向日文标题，2026-11-11", "url": "https://x.com/i/status/2120293983905804647"}, {"label": "Michael转述COBOL多Agent与同输入PoC，2026-11-13北京时间；所述AWS材料日期为11月10日", "url": "https://x.com/i/status/2120912983014404502"}],
+    "snapshot_date": "2026-11-13", "metadata": ["旧来源封存0赞、20浏览、0转发；本轮来源1赞、15浏览、1转发、1回复，均为对应日期快照。", "约8到2人日按每份产物计；二手PoC数字，不是整行迁移工期或隔离变量实验。"],
+    "en": {
+      "title": "CTBC COBOL mainframe reversing: multi-agent gates and a reported PoC from about eight person-days to two",
+      "summary": "Earlier coverage names CTBC and Bedrock AgentCore. Michael adds a COBOL pipeline with one supervisor, seven sub-agents, handoff quality gates and a same-input PoC of about eight to two person-days per artifact. First-party evidence remains unchecked.",
+      "description": "An earlier source at 07:14:13 Beijing time on November 11, 2026 headlines CTBC Bank modernizing mainframe reverse engineering through a multi-agent pipeline on Amazon Bedrock AgentCore. Mainframe means enterprise computing, not a PC motherboard; the target is understanding existing bank software.\n\nAt 00:13:54 on November 13, Michael shares. (@mikogen) relays the same project in an AI operating-model roundup, citing what he describes as AWS coverage dated November 10: COBOL research with one supervisor agent, seven sub-agents, a quality gate at every handoff and a full audit trail. He reports a same-input proof of concept reducing work per artifact from about eight person-days to about two. Artifact type, sample size and model are unspecified. He attributes much of the gain to decomposition and gates, but explicitly says the PoC did not isolate these factors; this establishes neither causation nor production-wide efficiency.\n\nSupplementary retrieval confirmed Michael's attribution and wording. The AWS article, first-party bank implementation material and test records have not been obtained. This is more specific secondary evidence than the earlier headline, not reproduction here. Migration completion, model identity, production deployment and security compliance are not inferred. REA is unmentioned; other-ai/unverified is retained. No bank systems were accessed or code executed.",
+      "metadata": ["Earlier sealed source: 0 likes, 20 views, 0 reposts. Current source: 1 like, 15 views, 1 repost, 1 reply; snapshots belong to their respective dates.", "About eight to two person-days is per artifact: a secondary PoC figure, not a bank-wide migration schedule or controlled-factor experiment."],
+      "source_labels": ["Earlier Japanese CTBC/Bedrock AgentCore mainframe-reversing headline, November 11, 2026", "Michael's COBOL multi-agent and same-input PoC account, November 13 Beijing time; cited AWS material dated November 10"]
+    }
   },
   {
     "id": "alexdataa-claude-ac-remote-ir-dongle",
