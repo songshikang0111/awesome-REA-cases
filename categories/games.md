@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Lemmings for Windows 95：人类定架构，REA与多Agent辅助的696函数重建](../cases/lemmings-win95-human-led-ai-reconstruction-report.md) — yibie介绍NitrosGits的旅鼠Windows95重建；固定README自报八模块696函数匹配，明确整文件仍不相同，并区分原编译器匹配与现代可移植构建。 **[REA · 进行中]**
+- [Tony Hawk's Underground：AI可逐函数贡献，合并靠确定性门禁而非AI](../cases/tony-hawks-underground-agent-contribution-report.md) — yibie介绍THUG的Agent贡献机制；固定README与入门指南确认PS2逐函数C++重建、五道合并门禁及C++加汇编的ELF匹配，不代表全C++反编译完成。 **[其他 AI 逆向 · 进行中]**
+- [Empire Earth征服的艺术：Claude署名重建、原版混合联机与未覆盖范围](../cases/empire-earth-ai-trailers-compatible-engine-report.md) — yibie报告Empire Earth重建引擎与原版互通；固定README自报逐tick及混合联机测试，提交历史确有Claude署名，但整文件不匹配、WON服务、音频与物理输入未测。 **[其他 AI 逆向 · 进行中]**
 - [goley多版本重建idea：Vxenl在Revival停服讨论中建议REA](../cases/goley-rea-multiple-rebuilds-reader-idea.md) — Vxenl认为借助AI和REA可能出现10至15个不同goley项目；是在Revival／Rebound争论中的重建设想，没有已做实现、服务器兼容或源代码证据。 **[REA · 待验证]**
 - [摆脱关都与GBA改版：用Claude反编译并重编译后续宝可梦的idea](../cases/pokemon-gen4-plus-claude-decompile-recompile-idea.md) — 候选希望有人用Claude等模型反编译并重编译第4／5代、甚至第6代以后游戏，让改版不再局限于关都与GBA；没有启动项目或结果。 **[其他 AI 逆向 · 进行中]**
 - [Maken X Director's Cut：读者称AI用于旧格式逆向，翻译仍为人工](../cases/maken-x-directors-cut-ai-old-file-format-report.md) — 读者在Maken X Director's Cut发布串称AI只辅助旧文件格式逆向、不参与翻译；串首作者宣布全人工重译和删减内容恢复，未独立核实AI具体贡献。 **[其他 AI 逆向 · 待验证]**

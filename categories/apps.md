@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [应用研究遭推拒：Kayode称Claude在自己的逆向尝试中反复挡回](../cases/kayode-claude-app-reversing-pushback-report.md) — Kayode向ayoships询问逆向模型，称自己研究应用时Claude总推拒；保留低细节失败经验，不据此推断全部Claude政策或REA被调用。 **[其他 AI 逆向 · 待验证]**
+- [企业SaaS接口化：Yangyi提出用OpenCLI研究核心操作，再交给Agent](../cases/yangyi-opencli-enterprise-saas-agent-interface-idea.md) — Yangyi提出研究企业内部SaaS，把核心操作包装成Agent工具，再以元Agent编排流程；是企业AI落地方案，不是已交付接口或覆盖率测试。 **[其他 AI 逆向 · 待验证]**
+- [微信到企业上下文：Yangyi提出客户端研究与需求、任务自动汇报](../cases/yangyi-wechat-enterprise-context-reversing-idea.md) — Yangyi把微信客户端研究列为企业AI方案的一步，拟打通企业聊天数据、自动报告需求任务、补客户画像与决策上下文；没有实现、接口或数据授权验证。 **[其他 AI 逆向 · 待验证]**
+- [Hars的多机助手：用REA研究Grokbot与ChatGPT编排，再组合记忆与线程机制](../cases/hars-grokbot-chatgpt-rea-multimachine-assistant.md) — Hars称让Fable5.2运行REA研究Grokbot，并研究ChatGPT的本地／云线程编排，用于构建自己的助手变体；其他框架是拟借设计，没有代码或多机验收。 **[REA · 进行中]**
+- [Kingmaker本地AI：预装REA与CLI Anything的旧系统接入主张](../cases/kingmaker-local-owner-gated-rea-integration-report.md) — Hoid Dismas称自己的本地Kingmaker以owner-gated访问并预装REA、CLI Anything和渗透工具，配合launcher接旧系统；任意系统互通与PQC密钥库未获验证。 **[REA · 待验证]**
+- [AI工具脚本研究：Cynthia转述REA反混淆后用Claude Code重写的流程](../cases/cynthia-unnamed-ai-tool-script-rea-rewrite-report.md) — Cynthia称所引作者跑通下载脚本、安装REA、反混淆与Claude Code重写；未取得目标名、原文或产物，只保留二手工作流，不补成某已知助手。 **[REA · 待验证]**
 - [Rust版IDM平替：溯源科技转述界面与插件功能，AI逆向方法未明](../cases/rust-idm-like-downloader-ai-rebuild-report.md) — 溯源科技推荐未具名的Rust开源下载器，称操作与界面近似IDM、插件可解析YouTube，并以AI时代全民逆向归因；未取得项目名、源码或功能对照。 **[未确认使用 REA · 待验证]**
 - [未具名产品逆向尝试：Nikshay称Claude直接拒绝](../cases/nikshay-claude-unnamed-product-reversing-refusal.md) — Nikshay在推荐REA的讨论串称自己用Claude逆向一个产品遭拒；没有目标、提示词、模型或拒绝全文，作为低细节失败尝试而非通用政策结论。 **[其他 AI 逆向 · 待验证]**
 - [Linux与macOS窗口交接：读者建议用REA研究spacedesk](../cases/spacedesk-rea-cross-system-window-handoff-idea.md) — 糊塌子建议用REA参考spacedesk，并以USB对拷线减少网络影响；讨论上文实际卡在跨系统拖窗交接，尚无spacedesk研究或性能测试。 **[REA · 待验证]**
@@ -227,7 +233,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — 草帽哥新增Sol6.1／REA-VIDEO分镜、Muse教程纠错、MiniMax配音与手动剪映工作流；不是一键复刻，保留既有音乐误判、竞争测试与原Prompt恢复限制。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — JuneYaooo报告把REA-VIDEO输出分成人类报告与Agent渐进读取的VIDEO.md，并可单听音效；节省Token未量化，保留既有音乐误判、竞争测试及非一键复刻限制。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**

@@ -1,7 +1,7 @@
 # AlphaProof Code and Signal: a team-reported month to prove key properties of production machine code
 
 Category: Algorithms and feature recovery · Other AI-assisted work
-Record date: 2026-11-11
+Record date: 2026-11-12
 Stage: Related project
 
 A team announcement at 20:13:07 Beijing time on November 10, 2026 says Google DeepMind used AlphaProof Code to prove key security properties of production machine code underlying Signal. The goal is checking security as the protocol reaches device-executed code rather than only a simplified design model. It is related AI-assisted binary analysis, not traditional decompilation or a Signal clone.
@@ -14,10 +14,14 @@ Earlier retellings also mention over three million lines; these and 6.5 million 
 
 Older team post: 2,919 likes, 155,181 views, 352 reposts. Engagement is not independent checking of specifications or proofs.
 echo_vic's sealed candidate: 0 likes, 18 views, 0 reposts. Version, scale and concurrency are relayed claims; the proof library was not audited.
+At 19:06:59 on November 12, khan09.AI (@KhanAIBuilds) adds that ordinary rustc compiles unchanged libsignal v0.105.4 to AArch64 Linux, about 560 KB/140,000 instructions, covering PQXDH and Triple Ratchet forward secrecy, authentication, post-compromise security and handshake secrecy. Over six million lines is attributed to the blog and about 6.5 million to the paper, without using them to erase earlier differently scoped counts. Five people/four weeks, 40–80 agents per round and 24–72 hours remain secondary claims.
+The same post says proof agents cannot change specifications themselves. Necessary changes go to a reviewer agent blind to the proof process and must not weaken security; trust-assumption changes also need human approval. The Lean kernel checks validity and a comparator checks that the theorem equals the human-approved retained copy. About 18,000 specification lines plus 8,000 machine-semantics lines, the Lean kernel, cryptographic assumptions and 37 contract-replaced hooked routines such as SHA-256 compression and X25519 remain the trusted basis; the entire system is not trust-free.
+The new account excludes group chats, SPQR post-quantum healing and quantum adversaries in the computational model. With frequent new epochs, the long-session bound may become meaningless at around 25,000 messages; this is not a measured chat limit or a demonstrated usable attack. Reintroducing two historical bugs is not breaking production Signal. Roughly 1% human review, about twenty person-years for seL4, six for CompCert and 670+ HN points are the poster's figures, without independently checked speedups, priority or engagement. This collection retrieved text and attribution only, without reading the original paper, blog, specifications or proof repository or running a checker. New sealed candidate: 1 like, 73 views, 0 reposts, 0 replies.
 
 ## Sources
 
 - [DeepMind team announcement of AlphaProof Code verification of Signal production machine code, November 10, 2026 at 20:13:07 Beijing time](https://x.com/i/status/2120127611137634376)
 - [echo_vic on the libsignal version, agent runs, Lean specifications and historical-bug counterexamples, November 11, 2026 at 15:14:13 Beijing time](https://x.com/i/status/2120414781471596548)
+- [khan09.AI's secondary account of verification scope, trusted basis and long-session bounds, November 12, 2026 at 19:06:59 Beijing time](https://x.com/i/status/2120835744713355693)
 
 [中文](../alphaproof-code-signal-machine-code-security-verification.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/algorithms.md)

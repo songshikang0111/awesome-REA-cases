@@ -1,7 +1,7 @@
 # REA-VIDEO: shot-by-shot production research, user feedback and competitor-comparison limits
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-11
+Record date: 2026-11-12
 Stage: Related project
 
 A November 3, 2026 roundup at 09:19 Beijing time introduces REA-VIDEO breaking down visuals, styled text, editing and sound to recover visible production structure, not decompile software. A 20:32:06 account cites a product-swapped TikTok's eight shots batched into three generations; filmed camera positions, framing, motion, twelve lighting setups and grading; a 70-second promo at 83% code suitable for Remotion; and SRT/ASS, BPM and effect timing. None is footage analyzed here.
@@ -43,6 +43,7 @@ Earlier November 5 sealed candidates respectively: 2 likes/107 views/0 reposts; 
 November 5, 14:04:55 candidate: 3 likes, 328 views, 0 reposts. Six days/1,300+ stars is a relayed snapshot, not proof of functionality.
 November 7 usage candidate: 19 likes, 2,915 views, 0 reposts; competitor-comparison candidate: 2 likes, 42 views, 0 reposts. Neither is an independent test by this collection.
 November 7 at 10:12:50: James Russo candidate, 6 likes, 390 views, 0 reposts. At 11:08:35: AI少年 candidate, 15 likes, 538 views, 2 reposts. Roughly 3K stars is the latter's text claim, not a measurement here.
+At 19:48:19 Beijing time on November 12, 2026, JuneYaooo (@yao_june12106) says one breakdown report is now two: a more readable human report with individually playable sound effects, and VIDEO.md for agents using skill-inspired progressive loading, a short card first and details when needed. Far fewer tokens than the full report is claimed without an input clip, baseline, model, token count or timing. This is not a quantitative efficiency test or improved classification/remake accuracy. Retrieval confirmed attribution and text only; the attached video, new code and workflow were not reviewed or run. The older pinned README does not verify this upgrade. Sealed Chinese candidate: 0 likes, 3 views, 0 reposts, 0 replies. The same author's 19:49:42 English version repeats the claim, with 0 likes and 1 view at sealing, not a second test.
 
 ## Sources
 
@@ -64,5 +65,6 @@ November 7 at 10:12:50: James Russo candidate, 6 likes, 390 views, 0 reposts. At
 - [Riley Brown on a Fable/Kurzagets video trial and training speculation, November 10, 2026 at 07:31:11 Beijing time](https://x.com/i/status/2119935865933725888)
 - [harrisonzhuanf's reported breakdown of Wang Zuo's plastic-bag advertising parody, November 10, 2026 at 10:50:49 Beijing time](https://x.com/i/status/2119986106183885098)
 - [harrisonzhuanf's Sol6.1/REA-VIDEO storyboard, Muse correction and manual Jianying workflow, November 11, 2026 at 13:46:05 Beijing time](https://x.com/i/status/2120392599395762470)
+- [JuneYaooo's two-report and progressively loaded VIDEO.md upgrade announcement, November 12, 2026 at 19:48:19 Beijing time](https://x.com/i/status/2120846148219109623)
 
 [中文](../rea-video-shot-breakdown-rebuild-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)
