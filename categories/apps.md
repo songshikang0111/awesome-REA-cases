@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [GoGra Linux分析：Ghidra／OpenCode链路中四项反编译错误与两项AI错误](../cases/gogra-linux-ghidra-opencode-six-errors-report.md) — 吉川孝志转述Fortinet研究者分析GoGra Linux后门：LLM生成Ghidra脚本恢复Go函数名，研究者另核出四项反编译错误与两项AI误判，未独立审样本。 **[其他 AI 逆向 · 待验证]**
+- [行业软件太慢太贵：北火称运维用Claude改写Go版，单二进制可跑树莓派](../cases/claude-go-industry-software-raspberry-pi-rewrite-report.md) — 北火称团队为替代慢且高资源消耗的付费行业软件，让运维用Claude写Go版，报告更快、功能更强和树莓派运行；没有具名目标、源码或对照基准。 **[其他 AI 逆向 · 待验证]**
+- [售前先重建潜客漏斗：ericosiu建议用REA做可工作的演示稿](../cases/rea-prospect-funnel-presales-rebuild-idea.md) — ericosiu提出在首次销售通话前用Reverse engineer anything重建潜客的转化漏斗，以工作原型开场；无指定客户、运行记录或营收结果。 **[REA · 待验证]**
+- [.ENV的静态逆向实验室：离线Python与AI发布说明CLI语境的低细节项目](../cases/dontmattershidd-static-reverse-lab-report.md) — @DontMatterShidd回应AI生成Git发布说明的建议，报告纯Python离线确定性CLI和静态逆向实验室；未证明AI分析功能、格式覆盖或实际样本结果。 **[未确认使用 REA · 相关项目]**
+- [重做Emacs运行时：AI辅助替换Elisp与抢占式LISP线程的引用idea](../cases/emacs-ai-guile-preemptive-lisp-reimplementation-idea.md) — anya引用文章，设想有兴趣的Emacs开发者用100美元计划和长周末，尝试Guile Scheme替代Elisp或抢占式线程初稿；不是已完成移植或成本基准。 **[其他 AI 逆向 · 待验证]**
 - [Razer软件非Windows互通：kitkat称三周前逆向后持续开发](../cases/kitkat-razer-nonwindows-reversing-report.md) — kitkat在AI编程讨论中称三周前逆向Razer软件并持续开发，动机是厂商只做Windows支持；具体产品、工具与可用功能未知。 **[未确认使用 REA · 进行中]**
 - [REA6.9自有应用自测：Phosphen报告source map、Stripe键暴露与发布门禁](../cases/phosphen-rea69-own-app-exposure-gate-test.md) — Phosphen称从REA6.9发布分支构建后，在自建应用检出source map完整源码及.env.production中的Stripe键，并报告高风险门禁退出码3、修复后0。 **[REA · 分析测试]**
 - [Qwen3.8-27B与REA：Funy称网站／服务器逆向测试现状不理想](../cases/funy-qwen38-rea-web-server-test-attempt.md) — Funy询问Qwen3.8-27B的逆向能力，称希望配REA测试网站和服务器但现状不满意；没有具体目标、失败阶段或测量。 **[REA · 进行中]**

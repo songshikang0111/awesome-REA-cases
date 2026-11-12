@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2114 个案例与项目
+# 2123 个案例与项目
 
-**最近案例更新：**2026 年 11 月 12 日 08:10 · **最近维护：**2026 年 11 月 12 日 08:10 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 12 日 12:17 · **最近维护：**2026 年 11 月 12 日 12:17 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：相机照片直达Mac，发布前检查自己的应用，保存游戏。具体用途与小实验并列，也保留项目已知的限制。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：相机照片直达Mac，发布前检查自己的应用，保存游戏，也看看AI辅助恶意代码分析怎样纠错。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙时间槽与Wi-Fi启动码差异**，做出JPEG导入和Google Photos上传。sneha描述的是逐步实机试验，不是无迭代生成；本合集未审代码与协议抓包。`未独立核验`
 2. **[微型Electron：接线正确，证据却太大](cases/rea-tiny-electron-ipc-evidence-output-test.md)** · `2026-11-11`作者自测 — **五文件、846字节样本中，REA据报正确配对渲染端到主进程IPC**，却输出316kb JSON并略过inline脚本。约10秒含冷启，本合集未核源码或完整输出。`分析测试`
@@ -33,7 +33,7 @@
 7. **[TimeSplitters 2：把PS2行为追进原生PC版](cases/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10`作者报告；`2026-11-09`固定文档 — **Claude辅助MIPS到C++，以PCSX2画面与状态追查差异。**项目自报Linux／Steam Deck首关通关，仍用PCSX2图形／音频。内部测试工具未公开，后续关卡、部分VU1状态与互联网联机待测，Windows／在线版待发布。须自备光盘，本合集未构建。`进行中`
 8. **[bo2-mac：Black Ops II移到ARM64](cases/bo2-mac-claude-arm64-static-translation-report.md)** · `2026-11-11`同串转述 — **Claude辅助Ghidra／Remill／LLVM翻译，单M1战役据报51–60fps。**部分代码仍进小型x86 VM；beta、无在线，报告111–116°C。本合集未核仓库与测试日志，须自备Steam游戏。`未核验转述`
 9. **[DX-Ball：从声像函数走到Windows重建](cases/dx-ball-sound-pan.md)** · `2026-11-01`报道；`2026-10-31`项目记录 — Codex／REA／Ghidra重建报告**270个游戏函数、84968字节匹配**，另有原生VC4构建。仅时间戳不同的比较对象是较早重建版，不是原版EXE；原版50关通关与完整原生音频仍待测。须自备文件，本合集未重建。`项目自测重建`
-10. **[日聪蓄电池：回成功不等于执行](cases/gemini-echonet-lite-code-copy-analysis-report.md)** · `2026-11-11`作者文章，回顾8至9月工作 — **Gemini辅助HEX对照，据报定位电力与排程字段。**作者也记录成功应答却设置不变、待机死锁、粘贴修复丢保护逻辑；硬件安全与长期运行未经本合集核验。`进行中`
+10. **[GoGra Linux：AI和反编译器都要核](cases/gogra-linux-ghidra-opencode-six-errors-report.md)** · `2026-11-12`研究整理 — Ghidra／MCP／OpenCode调查据报梳理**四项反编译错误、两项AI误判**：漏调用与把build ID当API令牌，分别暴露不同层的失败。原研究、样本和脚本未审，不是通用错误率。`未核验转述`
 
 
 
@@ -52,9 +52,9 @@
 | 分类 | 数量 |
 | :--- | ---: |
 | [游戏与游戏保存](categories/games.md) | **428** |
-| [硬件与设备互通](categories/hardware.md) | **568** |
-| [应用与客户端](categories/apps.md) | **866** |
-| [算法与功能重建](categories/algorithms.md) | **252** |
+| [硬件与设备互通](categories/hardware.md) | **570** |
+| [应用与客户端](categories/apps.md) | **871** |
+| [算法与功能重建](categories/algorithms.md) | **254** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

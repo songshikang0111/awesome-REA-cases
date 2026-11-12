@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2114 entries**, organized by use case, without a Top-N or popularity threshold.
+**2123 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
 - [Games and preservation](categories/en/games.md) (428)
-- [Hardware and interoperability](categories/en/hardware.md) (568)
-- [Applications and clients](categories/en/apps.md) (866)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (252)
+- [Hardware and interoperability](categories/en/hardware.md) (570)
+- [Applications and clients](categories/en/apps.md) (871)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (254)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -459,6 +459,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Soundcore D3200 to Mac dictation: an agent-assisted live-audio client adaptation idea](cases/en/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔 proposes adapting tacshi/Soundcore with an agent for Mac WeChat dictation. Project docs support Bluetooth audio and optional transcription, but cursor insertion remains missing and zero latency is unmeasured. **[Other AI-assisted work · In progress]**
+- [An old Ford's SYNC to 3.4: Trevin Chow's upgrade attempt in a REA discussion](cases/en/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow opens with Reverse engineer anything and reports trying to upgrade an old Ford's SYNC to 3.4. Success, vehicle details, the current version and actual tool calls are unspecified. **[REA use unconfirmed · In progress]**
 - [An ESP32 firmware test: Phosphen says REA 6.9 split five segments and verified checksum and SHA-256](cases/en/phosphen-rea69-esp32-five-segment-test.md) — Phosphen reports five segments plus checksum and SHA-256 verification for an ESP32 image supplied to their REA 6.9 build. No image, partition semantics or logs were reviewed; firmware logic recovery is not established. **[REA · Analysis test]**
 - [An unnamed tablet: Devsec AI reports 36 hours of agent-assisted reversing](cases/en/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI says rea work on a tablet has taken 36 hours and that agents accelerate work but do not remove the time needed for quality. The device, tools and deliverables are unspecified. **[REA use unconfirmed · In progress]**
 - [A home video intercom: Claude studies Android protocols, with reported CLI door opening and only 64 encrypted bytes per image](cases/en/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT says Claude studied an intercom's Android app and protocol, opened their own front door through a custom CLI and found only the first 64 bytes of each mobile-data video image encrypted. No model or capture was checked. **[Other AI-assisted work · In progress]**
@@ -1030,6 +1032,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [GoGra on Linux: four decompiler errors and two AI errors in a Ghidra/OpenCode workflow](cases/en/gogra-linux-ghidra-opencode-six-errors-report.md) — Takashi Yoshikawa relays Fortinet research on GoGra's Linux backdoor: an LLM generated Ghidra scripts to recover Go function names, while researchers identified four decompiler errors and two AI mistakes. No sample was independently reviewed. **[Other AI-assisted work · Needs verification]**
+- [Slow, costly industry software: beihuo reports a Claude-assisted Go rewrite running on a Raspberry Pi](cases/en/claude-go-industry-software-raspberry-pi-rewrite-report.md) — beihuo says operations staff replaced slow, resource-heavy licensed industry software using Claude and Go, reporting faster, richer functionality in one Raspberry Pi-capable binary. No named target, source or benchmark was reviewed. **[Other AI-assisted work · Needs verification]**
+- [Rebuild a prospect's funnel before the sales call: ericosiu's REA mockup idea](cases/en/rea-prospect-funnel-presales-rebuild-idea.md) — ericosiu proposes using Reverse engineer anything to rebuild a prospect's conversion funnel before the first sales call, opening with a working mockup. No named customer, execution record or revenue result is given. **[REA · Needs verification]**
+- [.ENV's static reversing lab: a low-detail offline Python project in an AI release-notes CLI discussion](cases/en/dontmattershidd-static-reverse-lab-report.md) — @DontMatterShidd responds to an AI Git-release-notes suggestion with a claimed pure-Python, offline, deterministic CLI and static reversing lab. AI analysis, format coverage and sample results are unproven. **[REA use unconfirmed · Related project]**
+- [Reimplementing Emacs's runtime: a quoted AI-assisted Guile and preemptive-Lisp-thread idea](cases/en/emacs-ai-guile-preemptive-lisp-reimplementation-idea.md) — anya quotes an article suggesting an interested Emacs developer could try a Guile-for-Elisp or preemptive-thread first cut with a $100 plan and a long weekend. This is neither a completed port nor a cost benchmark. **[Other AI-assisted work · Needs verification]**
 - [Razer software beyond Windows: kitkat reports three weeks of ongoing reversing work](cases/en/kitkat-razer-nonwindows-reversing-report.md) — In an AI-coding discussion, kitkat says they reversed Razer software three weeks earlier and kept developing it, motivated by Windows-only vendor support. The product, tools and usable features are unspecified. **[REA use unconfirmed · In progress]**
 - [REA 6.9 on an author's own app: Phosphen reports source-map and Stripe-key exposure plus a release gate](cases/en/phosphen-rea69-own-app-exposure-gate-test.md) — Phosphen says a build from REA's 6.9 release branch found full source in a source map and a Stripe key in their test app's .env.production, with gate exit codes of 3 for high exposure and 0 after fixes. **[REA · Analysis test]**
 - [Qwen3.8-27B with REA: Funy reports unsatisfactory website/server reversing tests](cases/en/funy-qwen38-rea-web-server-test-attempt.md) — Funy asks about Qwen3.8-27B's reversing abilities and wants to test websites and servers with REA, describing the current situation as unsatisfactory. No target, failure stage or measurement is given. **[REA · In progress]**
@@ -1899,6 +1906,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Dance Motion Chain Library: a promotional report of dance-pose prompts and Nadja motion reconstruction](cases/en/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab describes reusable pose-prompt chains extracted from popular dances, including an Ashita no Nadja character example. The library, source videos, models and output comparisons were not reviewed; guaranteed fixes for limb distortion are not established. **[Other AI-assisted work · Needs verification]**
+- [Thirty trial reels from one recording: a REA video-format and editing-style reconstruction idea](cases/en/rea-video-trial-reel-format-tournament-idea.md) — ericosiu suggests Reverse engineer anything for videos to copy formats and editing styles, making 30 hook, structure and length variants for trial distribution. No implemented tool or real campaign result is supplied. **[REA · Needs verification]**
 - [A private stripped program: Kimmmmmm reports REA recovering its logic in about 28 seconds](cases/en/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm says REA correctly rebuilt logic from a stripped program whose source only they held in roughly 28 seconds, while noting Ghidra's substantial installation requirement for deeper analysis. No sample or comparison was reviewed. **[REA · Analysis test]**
 - [AGENTS.md versus memory: Sparshith's small black-box probes of Claude Code and Codex priorities](cases/en/sparsamp-agent-memory-agents-md-conflict-probes.md) — Sparshith Sampath reports five runs per setup on CSV/JSON preferences, 15-day staleness and a $3 approval question. Codex reportedly follows AGENTS.md while Claude considers freshness and safer choices; harness and model effects remain unresolved. **[Other AI-assisted work · Analysis test]**
 - [BLADE: Noah Zixin Zhang announces a counter to BLA for continued REA analysis](cases/en/noah-blade-anti-bla-rea-project.md) — Two same-evening posts announce BLADE, expanded as Bypass LLM Agent Defense Engine, to counter BLA's defenses against agent analysis. Source and tests have not been reviewed. **[REA · Needs verification]**

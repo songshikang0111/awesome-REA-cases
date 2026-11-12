@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2114 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2123 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（428）
-- [硬件与设备互通](categories/hardware.md)（568）
-- [应用与客户端](categories/apps.md)（866）
-- [算法与功能重建](categories/algorithms.md)（252）
+- [硬件与设备互通](categories/hardware.md)（570）
+- [应用与客户端](categories/apps.md)（871）
+- [算法与功能重建](categories/algorithms.md)（254）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -457,6 +457,8 @@
 
 ### 硬件与设备互通
 
+- [Soundcore D3200到Mac输入法：让Agent改造实时取流客户端的idea](cases/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔提出让Agent改造tacshi/Soundcore，把录音豆用于Mac微信语音输入；项目文档支持蓝牙取流与可选转写，但光标粘贴仍是待补步骤，零延时未测。 **[其他 AI 逆向 · 进行中]**
+- [旧Ford的SYNC升3.4：Trevin Chow在REA语境下尝试车机升级](cases/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow以Reverse engineer anything开场，称尝试将旧Ford的SYNC升至3.4；未报告成功、车型、现有版本或具体工具调用。 **[未确认使用 REA · 进行中]**
 - [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**
 - [一台未具名平板：Devsec AI称Agent辅助逆向已用36小时](cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI称在一台平板的rea工作上已花36小时，强调Agent虽加速，高质量结果仍需时间；设备、工具与成果未说明。 **[未确认使用 REA · 进行中]**
 - [自家可视对讲：Claude研究Android协议，作者称CLI开门与视频只加密前64字节](cases/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT称Claude研究可视对讲Android应用与通信协议，用自制CLI开自家前门，并发现蜂窝网络视频每帧仅前64字节加密；无型号或抓包核验。 **[其他 AI 逆向 · 进行中]**
@@ -1028,6 +1030,11 @@
 
 ### 应用与客户端
 
+- [GoGra Linux分析：Ghidra／OpenCode链路中四项反编译错误与两项AI错误](cases/gogra-linux-ghidra-opencode-six-errors-report.md) — 吉川孝志转述Fortinet研究者分析GoGra Linux后门：LLM生成Ghidra脚本恢复Go函数名，研究者另核出四项反编译错误与两项AI误判，未独立审样本。 **[其他 AI 逆向 · 待验证]**
+- [行业软件太慢太贵：北火称运维用Claude改写Go版，单二进制可跑树莓派](cases/claude-go-industry-software-raspberry-pi-rewrite-report.md) — 北火称团队为替代慢且高资源消耗的付费行业软件，让运维用Claude写Go版，报告更快、功能更强和树莓派运行；没有具名目标、源码或对照基准。 **[其他 AI 逆向 · 待验证]**
+- [售前先重建潜客漏斗：ericosiu建议用REA做可工作的演示稿](cases/rea-prospect-funnel-presales-rebuild-idea.md) — ericosiu提出在首次销售通话前用Reverse engineer anything重建潜客的转化漏斗，以工作原型开场；无指定客户、运行记录或营收结果。 **[REA · 待验证]**
+- [.ENV的静态逆向实验室：离线Python与AI发布说明CLI语境的低细节项目](cases/dontmattershidd-static-reverse-lab-report.md) — @DontMatterShidd回应AI生成Git发布说明的建议，报告纯Python离线确定性CLI和静态逆向实验室；未证明AI分析功能、格式覆盖或实际样本结果。 **[未确认使用 REA · 相关项目]**
+- [重做Emacs运行时：AI辅助替换Elisp与抢占式LISP线程的引用idea](cases/emacs-ai-guile-preemptive-lisp-reimplementation-idea.md) — anya引用文章，设想有兴趣的Emacs开发者用100美元计划和长周末，尝试Guile Scheme替代Elisp或抢占式线程初稿；不是已完成移植或成本基准。 **[其他 AI 逆向 · 待验证]**
 - [Razer软件非Windows互通：kitkat称三周前逆向后持续开发](cases/kitkat-razer-nonwindows-reversing-report.md) — kitkat在AI编程讨论中称三周前逆向Razer软件并持续开发，动机是厂商只做Windows支持；具体产品、工具与可用功能未知。 **[未确认使用 REA · 进行中]**
 - [REA6.9自有应用自测：Phosphen报告source map、Stripe键暴露与发布门禁](cases/phosphen-rea69-own-app-exposure-gate-test.md) — Phosphen称从REA6.9发布分支构建后，在自建应用检出source map完整源码及.env.production中的Stripe键，并报告高风险门禁退出码3、修复后0。 **[REA · 分析测试]**
 - [Qwen3.8-27B与REA：Funy称网站／服务器逆向测试现状不理想](cases/funy-qwen38-rea-web-server-test-attempt.md) — Funy询问Qwen3.8-27B的逆向能力，称希望配REA测试网站和服务器但现状不满意；没有具体目标、失败阶段或测量。 **[REA · 进行中]**
@@ -1897,6 +1904,8 @@
 
 ### 算法与功能重建
 
+- [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**
+- [一段素材做30条试投短片：REA反推视频格式与剪辑风格的idea](cases/rea-video-trial-reel-format-tournament-idea.md) — ericosiu建议用面向视频的Reverse engineer anything复制格式和剪辑风格，再将素材剪成30种开头、结构与时长试投；未给工具实现或真实投放结果。 **[REA · 待验证]**
 - [仅作者持源码的剥符号程序：Kimmmmmm称REA约28秒恢复逻辑](cases/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm称REA正确重建一个仅自己持源码的剥符号程序逻辑，耗时约28秒，并提醒深入分析依赖较重的Ghidra安装；没有样本或对照结果。 **[REA · 分析测试]**
 - [AGENTS.md与记忆冲突：Sparshith用小样本黑盒实验反推Claude Code／Codex优先级](cases/sparsamp-agent-memory-agents-md-conflict-probes.md) — Sparshith Sampath每设置五次，比较CSV／JSON、相差15天的偏好与3美元付费许可；称Codex始终依AGENTS.md，Claude会考虑新旧和更安全选择，未区分模型与harness原因。 **[其他 AI 逆向 · 分析测试]**
 - [BLADE：Noah Zixin Zhang宣布对抗BLA，让REA继续分析](cases/noah-blade-anti-bla-rea-project.md) — Noah Zixin Zhang在同晚两帖宣布BLADE，后给出Bypass LLM Agent Defense Engine全名；目标是对抗BLA阻碍Agent分析的防御，尚无已审源码或测试。 **[REA · 待验证]**

@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2114 cases & projects
+# 2123 cases & projects
 
-**Latest case update:** November 12, 2026, 08:10 · **Last maintained:** November 12, 2026, 08:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 12, 2026, 12:17 · **Last maintained:** November 12, 2026, 12:17 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: bring camera photos straight to a Mac, check your own app before release, and preserve games. Concrete uses sit alongside small tests and documented limitations. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: bring camera photos straight to a Mac, check your own app before release, preserve games—and catch errors in AI-assisted malware analysis. Dates identify sources or author updates, not collection dates.
 
 1. **[Fujifilm X half: camera to Mac without the phone](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12` author report — **Opus reportedly finds Bluetooth time-slot and Wi-Fi startup-code differences**, then builds JPEG imports and Google Photos uploads. sneha describes incremental tests on their camera, not an iteration-free build. Code and protocol traces unchecked here. `Unverified here`
 2. **[Tiny Electron app: correct wiring, oversized evidence](cases/en/rea-tiny-electron-ipc-evidence-output-test.md)** · `2026-11-11` author test — **REA reportedly pairs renderer-to-main IPC in a five-file, 846-byte sample**, but emits 316kb of JSON and skips an inline script. Roughly ten seconds includes cold startup; no source or full output checked here. `Analysis test`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[TimeSplitters 2: trace PS2 behavior into a native PC port](cases/en/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10` author report; `2026-11-09` pinned docs — **Claude-assisted MIPS-to-C++ work, with PCSX2 frame and state comparisons.** The project reports a Linux/Steam Deck first-level playthrough, still using PCSX2 graphics/audio. Internal test tooling is unpublished; later levels, some VU1 state and internet play need checks. Windows/online await release. Bring your own disc; not built here. `In progress`
 8. **[bo2-mac: Black Ops II on ARM64](cases/en/bo2-mac-claude-arm64-static-translation-report.md)** · `2026-11-11` thread report — **Claude-assisted Ghidra/Remill/LLVM translation, reportedly 51–60fps in campaign on one M1.** Some code still uses a tiny x86 VM; beta, no online, reported 111–116°C. Repository and test logs unchecked; bring your own Steam copy. `Unverified report`
 9. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
-10. **[Nichicon battery: acknowledgment is not execution](cases/en/gemini-echonet-lite-code-copy-analysis-report.md)** · `2026-11-11` author article, recalling August–September work — **Gemini-assisted HEX comparisons identify reported power and schedule fields.** The author also records unchanged settings despite success replies, standby deadlock and copy-paste fixes losing safeguards. Hardware safety and long-term operation are not verified here. `In progress`
+10. **[GoGra Linux: check the decompiler as well as the AI](cases/en/gogra-linux-ghidra-opencode-six-errors-report.md)** · `2026-11-12` research summary — **Four decompiler errors and two AI mistakes** are reported in a Ghidra/MCP/OpenCode investigation: an omitted call and a build ID mistaken for an API token show different failure layers. Primary research, sample and scripts unchecked here; not a general error rate. `Unverified secondary report`
 
 
 
@@ -52,9 +52,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **428** |
-| [Hardware & interoperability](categories/en/hardware.md) | **568** |
-| [Applications & clients](categories/en/apps.md) | **866** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **252** |
+| [Hardware & interoperability](categories/en/hardware.md) | **570** |
+| [Applications & clients](categories/en/apps.md) | **871** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **254** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 
