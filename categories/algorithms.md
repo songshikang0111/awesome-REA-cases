@@ -198,7 +198,7 @@
 - [社交媒体爆款概率：Alin A提出REA研究推荐算法后放弃的想法](../cases/social-media-viral-probability-rea-abandoned-idea.md) — Alin A设想研究推荐算法、提取爆款概率模型并循环出稿涨粉，但明确作罢；没有指定平台、数据或预测结果。 **[REA · 待验证]**
 - [小米运动热量累加：DeepSeek逆向后发现刷新重复计入的转述](../cases/xiaomi-motion-deepseek-calorie-refresh-report.md) — 澜知AI转述DeepSeek研究小米运动算法，称同一分钟刷新会使40步热量从1.6变8.28卡；后续承认等待抓包与完整复现。 **[其他 AI 逆向 · 待验证]**
 - [CUDA：让 Agent 群尝试反编译的读者挑战](../cases/cuda-agent-swarm-decompile-idea.md) — loveofdoing提议让Agent群反编译CUDA，没有指定组件、版本或兼容目标，也没有实施报告。 **[其他 AI 逆向 · 待验证]**
-- [LLM4Decompile：从汇编或 Ghidra 伪代码恢复 C 函数的专用模型](../cases/llm4decompile-assembly-c-models.md) — 公开研究将 Linux x86_64 函数反汇编转为 C，或细化 Ghidra 伪代码；不同模型与路线的可执行率不能混成通用恢复率。 **[其他 AI 逆向 · 分析测试]**
+- [LLM4Decompile：恢复C函数，以及候选选择与难读化追加学习的研究转述](../cases/llm4decompile-assembly-c-models.md) — 专用模型从汇编或Ghidra伪代码恢复C；新增吉川孝志对100候选选择与ExeBench-Obfuscated训练的转述，区分oracle上限、可用选择器及不同输入条件，未复现实验。 **[其他 AI 逆向 · 分析测试]**
 - [合约买入前检查台：Claude／Ghidra 分析卖出路径并纠正代理误报的自述](../cases/claude-ghidra-contract-rug-check-desk.md) — 发布者报告用字节码红旗检查阻止买入，并称纠正一次 OpenZeppelin 代理误报；没有链地址、代码或日志可复核。 **[其他 AI 逆向 · 待验证]**
 - [Slice 金库调查：Sonnet 从反编译字节码定位外部返回值记账问题](../cases/slice-vault-sonnet-decompiled-bytecode.md) — coffiasse称免费Sonnet 5.5不到两分钟定位漏洞函数，并确认用Claude处理字节码；约4.1万美元损失与可利用性未在此独立链上核验。 **[其他 AI 逆向 · 分析测试]**
 - [专有格式 Rust CLI：Claude 八个子 Agent 对照200份文件导致资源饱和](../cases/claude-rust-proprietary-format-cli-concurrency.md) — Dwayne 开发专有格式提取器时将Claude并发从8降至3，部分文件含数十万行；200文件是工作负载，不是通过200例验证。 **[其他 AI 逆向 · 进行中]**

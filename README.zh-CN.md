@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2181 个案例与项目
+# 2188 个案例与项目
 
-**最近案例更新：**2026 年 11 月 13 日 12:13 · **最近维护：**2026 年 11 月 13 日 12:13 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 13 日 16:13 · **最近维护：**2026 年 11 月 13 日 16:13 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：让设备互通，追清协议复用，对照恶意软件分析发现，也保存游戏。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：让设备互通，追清协议复用，研究编辑器行为再重建，也保存游戏。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙／Wi-Fi协议差异**，做出JPEG导入和Google Photos上传。逐步实机试验，不是无迭代生成；代码与抓包未审。`未独立核验`
 2. **[Anker录音豆：让Agent找回上周的对话](cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12`作者报告 — **REA蓝牙研究与MCP录音检索**，可选千问本地ASR或在线转写。Berryxia计划调整测试后开源；代码与设备链路未核。`进行中`
@@ -31,7 +31,7 @@
 5. **[ZigZag：把SVG送进Brother刺绣机](cases/kath-korevec-brother-chatgpt-embroidery-report.md)** · `2026-11-13`介绍与固定文档 — **Skitch PP1蓝牙上传与MCP辅助设计**，项目报告实机测试。NOTICE把协议归于Respira；早先ChatGPT起源故事仍是二手转述，不是独立发现。未运行。`未独立核验`
 6. **[MousePods：AirPods在Linux当鼠标与头追](cases/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11`报道；`2026-11-10`固定文档 — **Claude辅助RemoteHID研究与自报AirPods 3／Pro 2实机检查。**不刷耳机，但Proton接入会改前缀。MTU／设备身份影响未隔离，本合集未运行。`未独立核验`
 7. **[Opengear：研究网络边缘的固件](cases/armadin-opengear-llm-firmware-heap-corruption-report.md)** · `2026-11-13`团队报告 — Armadin描述**固件→SBOM→LLM协助发现HTTP堆损坏**，据报导致RCE且厂商已有更新。模型、设备版本、复现与补丁公告未核。`未独立核验`
-8. **[Malspark：把恶意软件报告与人工发现对照](cases/malspark-latrodectus-nine-agent-analysis-report.md)** · `2026-11-13`二手报告 — 九个Agent分析Latrodectus样本，据报**84分钟、8.24美元**，恢复89项参考事实中的84项且该集合内零错误。完整报告与评分未核；不等于覆盖全部行为，也未测出对人工的加速比。`分析测试`
+8. **[SlothNotes：先研究Bear行为，再重做笔记应用](cases/slothnotes-bear-rea-swift-appkit-rebuild.md)** · `2026-11-13`作者报告；`2026-10-21`固定文档 — **REA研究后用Swift／AppKit逐步重建**，作者称约一周。公开MIT代码与Bear导入设计；双实体Mac的iCloud完整往返尚未验证，本合集未构建。`未独立核验`
 9. **[TimeSplitters 2：把PS2行为追进PC版](cases/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10`作者报告；`2026-11-09`固定文档 — **Claude辅助MIPS到C++，以PCSX2画面／状态对照**，自报Linux／Steam Deck首关通关。仍用PCSX2图形／音频，后续关卡与互联网联机待测；自备光盘，本合集未构建。`进行中`
 10. **[Empire Earth：重建引擎与原版一起联机](cases/empire-earth-ai-trailers-compatible-engine-report.md)** · `2026-11-12`介绍；`2026-11-08`固定文档 — 提交有Claude署名，项目报告**逐tick对照及原版／重建端TCP混合对局无失步**。整文件仍不同，WON服务、音频与物理输入未测；源码无通用许可授权，本合集未运行。`进行中`
 
@@ -50,8 +50,8 @@
 | 分类 | 数量 |
 | :--- | ---: |
 | [游戏与游戏保存](categories/games.md) | **438** |
-| [硬件与设备互通](categories/hardware.md) | **584** |
-| [应用与客户端](categories/apps.md) | **902** |
+| [硬件与设备互通](categories/hardware.md) | **585** |
+| [应用与客户端](categories/apps.md) | **908** |
 | [算法与功能重建](categories/algorithms.md) | **257** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

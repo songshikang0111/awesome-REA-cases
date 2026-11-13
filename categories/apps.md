@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [SlothNotes：Shakirul先用REA研究Bear行为，再用Swift／AppKit重建笔记应用](../cases/slothnotes-bear-rea-swift-appkit-rebuild.md) — 作者称约一周完成Bear风格原生笔记应用，强调研究行为而非复制截图；公开Swift／AppKit项目有MIT许可，iCloud双实机往返仍未验证，本合集未构建。 **[REA · 待验证]**
+- [2TI SovereignAI：Tarek介绍本地优先AI工作台与应用反编译／重建入口](../cases/2ti-sovereignai-rea-recreate-studio.md) — Tarek Tarabichi宣传SovereignAI与REA Recreate Studio；产品页描述本地分析插件连接Ghidra／Hopper／JADX／Frida和Agent聊天，但仍标Pilot且无已验证安装包。 **[未确认使用 REA · 进行中]**
+- [Hypersonic 2 VST：Loftwah想让Claude研究旧音源插件并做现代版本](../cases/loftwah-hypersonic2-claude-modern-rompler-idea.md) — 候选回复指向Loftwah提出的Hypersonic 2逆向重建idea，目标是现代ROMpler；没有代码、音频对比、采样资产授权或实际运行结果。 **[其他 AI 逆向 · 待验证]**
+- [Wayne County计票软件审计idea：RedVroom建议AI反编译后交程序员检查](../cases/redvroom-wayne-county-tabulator-ai-audit-idea.md) — 针对计票设备配置审计讨论，RedVroom建议取得软件、借AI反编译再人工检查；没有样本或测试，不能据此认定设备不合规、结果被改或存在舞弊。 **[其他 AI 逆向 · 待验证]**
+- [未具名逆向尝试：Tatenda Zhou称耗掉三次额度重置仍未完成](../cases/tatenda-unnamed-reversing-three-quota-resets-report.md) — 在AI额度讨论中，Tatenda Zhou建议试付费软件逆向或3D场景，称自己用了三次重置而逆向仍未结束；目标、模型和进度未披露，不能换算成工时。 **[未确认使用 REA · 进行中]**
+- [Inside Grok Bot：Kunal用自有机器人日志拆解持久机器、worker与审批](../cases/kunal-grokbot-log-based-architecture-teardown.md) — Kunal Malhotra以20个bot的290轮对话、1541后台记录和5074审计事件研究Grok Bot架构；区分日志观察、文档和推断，未公开完整数据或确认AI辅助分析。 **[未确认使用 REA · 相关项目]**
 - [Universal AI Reverse Engineering：IMRAN AHMED开发应用分析与重建平台](../cases/imran-universal-ai-reverse-engineering-platform.md) — IMRAN AHMED宣布开发端到端应用研究平台，计划覆盖UI、工作流、数据库/API架构、代码生成与测试；未给具体目标、源码或已运行结果。 **[其他 AI 逆向 · 进行中]**
 - [muse2api：AI少年介绍把Muse网页服务接成兼容API的非官方桥接](../cases/muse2api-unofficial-web-api-bridge.md) — 清单称muse2api逆向Muse网页端，提供OpenAI兼容的对话、图像与视频API，含账号池与48小时续期；非官方且有账号风险，未核源码或调用。 **[未确认使用 REA · 相关项目]**
 - [muse4ai：用Windows本地Muse会话向Agent开放REST／MCP的项目转述](../cases/muse4ai-local-session-rest-mcp-bridge.md) — 清单与公开README描述muse4ai用Windows本地会话，经REST/MCP/OAuth让Agent调用图像视频；文档说OAuth需屏幕确认码，未审实现、权限或生成结果。 **[未确认使用 REA · 相关项目]**

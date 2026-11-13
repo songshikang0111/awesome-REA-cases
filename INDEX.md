@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2181 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2188 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（438）
-- [硬件与设备互通](categories/hardware.md)（584）
-- [应用与客户端](categories/apps.md)（902）
+- [硬件与设备互通](categories/hardware.md)（585）
+- [应用与客户端](categories/apps.md)（908）
 - [算法与功能重建](categories/algorithms.md)（257）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -467,6 +467,7 @@
 
 ### 硬件与设备互通
 
+- [游戏主机固件idea：@42Kmi问能否让本机LLM修改更新以保留漏洞](cases/42kmi-console-llm-firmware-vulnerability-preservation-idea.md) — 作者提出把LLM装进游戏主机，修改待安装固件以保留现有漏洞；是可行性问题，没有主机型号、固件样本、实现或测试。 **[其他 AI 逆向 · 待验证]**
 - [Android临时root与应用检查：煎饼狗子转述DeepSeek4.1Flash协助](cases/deepseek41-android-root-integrity-secondary-report.md) — 煎饼狗子转述AI协助Android临时root、Google完整性及DBS/Revolut检查，并对比Codex拒绝；设备、原作者、项目与日志未具名，不视作已核验绕过。 **[其他 AI 逆向 · 待验证]**
 - [Opengear控制台服务器：Armadin称LLM协助固件研究发现HTTP堆损坏](cases/armadin-opengear-llm-firmware-heap-corruption-report.md) — Armadin报告下载Opengear固件、构建SBOM并用LLM协助发现HTTP请求堆损坏，称可导致RCE且厂商已有更新；型号、CVE和补丁未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [电视附加内容去除idea：Dex Dabbler问是否有人已经用REA处理](cases/dexdabb-tv-rea-unwanted-content-removal-idea.md) — Dex Dabbler用葡语询问有没有人用REA去除电视里不想要的附加内容；品牌、型号、广告类型和实际改造均未说明。 **[REA · 待验证]**
@@ -1054,6 +1055,12 @@
 
 ### 应用与客户端
 
+- [SlothNotes：Shakirul先用REA研究Bear行为，再用Swift／AppKit重建笔记应用](cases/slothnotes-bear-rea-swift-appkit-rebuild.md) — 作者称约一周完成Bear风格原生笔记应用，强调研究行为而非复制截图；公开Swift／AppKit项目有MIT许可，iCloud双实机往返仍未验证，本合集未构建。 **[REA · 待验证]**
+- [2TI SovereignAI：Tarek介绍本地优先AI工作台与应用反编译／重建入口](cases/2ti-sovereignai-rea-recreate-studio.md) — Tarek Tarabichi宣传SovereignAI与REA Recreate Studio；产品页描述本地分析插件连接Ghidra／Hopper／JADX／Frida和Agent聊天，但仍标Pilot且无已验证安装包。 **[未确认使用 REA · 进行中]**
+- [Hypersonic 2 VST：Loftwah想让Claude研究旧音源插件并做现代版本](cases/loftwah-hypersonic2-claude-modern-rompler-idea.md) — 候选回复指向Loftwah提出的Hypersonic 2逆向重建idea，目标是现代ROMpler；没有代码、音频对比、采样资产授权或实际运行结果。 **[其他 AI 逆向 · 待验证]**
+- [Wayne County计票软件审计idea：RedVroom建议AI反编译后交程序员检查](cases/redvroom-wayne-county-tabulator-ai-audit-idea.md) — 针对计票设备配置审计讨论，RedVroom建议取得软件、借AI反编译再人工检查；没有样本或测试，不能据此认定设备不合规、结果被改或存在舞弊。 **[其他 AI 逆向 · 待验证]**
+- [未具名逆向尝试：Tatenda Zhou称耗掉三次额度重置仍未完成](cases/tatenda-unnamed-reversing-three-quota-resets-report.md) — 在AI额度讨论中，Tatenda Zhou建议试付费软件逆向或3D场景，称自己用了三次重置而逆向仍未结束；目标、模型和进度未披露，不能换算成工时。 **[未确认使用 REA · 进行中]**
+- [Inside Grok Bot：Kunal用自有机器人日志拆解持久机器、worker与审批](cases/kunal-grokbot-log-based-architecture-teardown.md) — Kunal Malhotra以20个bot的290轮对话、1541后台记录和5074审计事件研究Grok Bot架构；区分日志观察、文档和推断，未公开完整数据或确认AI辅助分析。 **[未确认使用 REA · 相关项目]**
 - [Universal AI Reverse Engineering：IMRAN AHMED开发应用分析与重建平台](cases/imran-universal-ai-reverse-engineering-platform.md) — IMRAN AHMED宣布开发端到端应用研究平台，计划覆盖UI、工作流、数据库/API架构、代码生成与测试；未给具体目标、源码或已运行结果。 **[其他 AI 逆向 · 进行中]**
 - [muse2api：AI少年介绍把Muse网页服务接成兼容API的非官方桥接](cases/muse2api-unofficial-web-api-bridge.md) — 清单称muse2api逆向Muse网页端，提供OpenAI兼容的对话、图像与视频API，含账号池与48小时续期；非官方且有账号风险，未核源码或调用。 **[未确认使用 REA · 相关项目]**
 - [muse4ai：用Windows本地Muse会话向Agent开放REST／MCP的项目转述](cases/muse4ai-local-session-rest-mcp-bridge.md) — 清单与公开README描述muse4ai用Windows本地会话，经REST/MCP/OAuth让Agent调用图像视频；文档说OAuth需屏幕确认码，未审实现、权限或生成结果。 **[未确认使用 REA · 相关项目]**
@@ -2155,7 +2162,7 @@
 - [社交媒体爆款概率：Alin A提出REA研究推荐算法后放弃的想法](cases/social-media-viral-probability-rea-abandoned-idea.md) — Alin A设想研究推荐算法、提取爆款概率模型并循环出稿涨粉，但明确作罢；没有指定平台、数据或预测结果。 **[REA · 待验证]**
 - [小米运动热量累加：DeepSeek逆向后发现刷新重复计入的转述](cases/xiaomi-motion-deepseek-calorie-refresh-report.md) — 澜知AI转述DeepSeek研究小米运动算法，称同一分钟刷新会使40步热量从1.6变8.28卡；后续承认等待抓包与完整复现。 **[其他 AI 逆向 · 待验证]**
 - [CUDA：让 Agent 群尝试反编译的读者挑战](cases/cuda-agent-swarm-decompile-idea.md) — loveofdoing提议让Agent群反编译CUDA，没有指定组件、版本或兼容目标，也没有实施报告。 **[其他 AI 逆向 · 待验证]**
-- [LLM4Decompile：从汇编或 Ghidra 伪代码恢复 C 函数的专用模型](cases/llm4decompile-assembly-c-models.md) — 公开研究将 Linux x86_64 函数反汇编转为 C，或细化 Ghidra 伪代码；不同模型与路线的可执行率不能混成通用恢复率。 **[其他 AI 逆向 · 分析测试]**
+- [LLM4Decompile：恢复C函数，以及候选选择与难读化追加学习的研究转述](cases/llm4decompile-assembly-c-models.md) — 专用模型从汇编或Ghidra伪代码恢复C；新增吉川孝志对100候选选择与ExeBench-Obfuscated训练的转述，区分oracle上限、可用选择器及不同输入条件，未复现实验。 **[其他 AI 逆向 · 分析测试]**
 - [合约买入前检查台：Claude／Ghidra 分析卖出路径并纠正代理误报的自述](cases/claude-ghidra-contract-rug-check-desk.md) — 发布者报告用字节码红旗检查阻止买入，并称纠正一次 OpenZeppelin 代理误报；没有链地址、代码或日志可复核。 **[其他 AI 逆向 · 待验证]**
 - [Slice 金库调查：Sonnet 从反编译字节码定位外部返回值记账问题](cases/slice-vault-sonnet-decompiled-bytecode.md) — coffiasse称免费Sonnet 5.5不到两分钟定位漏洞函数，并确认用Claude处理字节码；约4.1万美元损失与可利用性未在此独立链上核验。 **[其他 AI 逆向 · 分析测试]**
 - [专有格式 Rust CLI：Claude 八个子 Agent 对照200份文件导致资源饱和](cases/claude-rust-proprietary-format-cli-concurrency.md) — Dwayne 开发专有格式提取器时将Claude并发从8降至3，部分文件含数十万行；200文件是工作负载，不是通过200例验证。 **[其他 AI 逆向 · 进行中]**
