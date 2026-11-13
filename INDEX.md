@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2188 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2202 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（438）
-- [硬件与设备互通](categories/hardware.md)（585）
-- [应用与客户端](categories/apps.md)（908）
-- [算法与功能重建](categories/algorithms.md)（257）
+- [游戏与游戏保存](categories/games.md)（439）
+- [硬件与设备互通](categories/hardware.md)（587）
+- [应用与客户端](categories/apps.md)（915）
+- [算法与功能重建](categories/algorithms.md)（261）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,7 +26,8 @@
 
 ### 游戏与游戏保存
 
-- [Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目](cases/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas称AI让复古计算逆向项目成为可能，后续解释给Claude ADF文件并不断提示继续；读者问及Bird of Prey，未核源码、运行结果或等价性。 **[其他 AI 逆向 · 进行中]**
+- [EVE本地离线AI研究：读者追问机器人扩展，父帖只给低细节自述](cases/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI询问EVE离线指令如何扩展；父帖rrfarmer自称用本地AI harness逆向EVE，没有客户端版本、恢复功能或可查产物。 **[其他 AI 逆向 · 待验证]**
+- [Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目](cases/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas称给Claude Amiga ADF镜像推进研究；新回复强调大量人工输入，读者识别F1 Grand Prix，但未独立确认题名、可运行移植或等价性。 **[其他 AI 逆向 · 进行中]**
 - [未具名游戏客户端：Billionaire Vampire在AI开发讨论中自述逆向经历](cases/billionairevamp-ai-game-client-reversing-report.md) — Billionaire Vampire称在此前不懂相关技术的情况下做过游戏服务器、管理面板、公开平台和客户端逆向；AI语境明确，但客户端、模型、方法与成果未披露。 **[其他 AI 逆向 · 待验证]**
 - [未具名作弊菜单：cazz为视频测试REA，并批评产物是AI slop](cases/rea-unnamed-cheat-video-test-self-critique.md) — cazz在被批视觉难看后称该作弊产物是AI slop，只是在为新视频测试REA；父帖称让Fable5.2重设计菜单，未证明作弊功能有效。 **[REA · 分析测试]**
 - [预下载游戏开玩时间检查：Moke建议Grok加REA研究，并做提示备份](cases/moke-grok-rea-game-release-time-check-idea.md) — Moke在游戏向服务器确认开玩时间的讨论下，建议Grok与REA禁用该部分，并做可分享的游戏提示作为备份；没有具名游戏、实现或可用绕过。 **[REA · 待验证]**
@@ -467,6 +468,8 @@
 
 ### 硬件与设备互通
 
+- [NVIDIA内核定制idea：读者号召AI Agent研究限制，不把未来监控猜测当事实](cases/nvidia-kernel-ai-customization-model-lock-idea.md) — 一位读者建议集中AI Agent研究并定制NVIDIA内核，以阻止其担心的限制；没有型号、版本或实现，区别于既有Linux驱动稳定性idea。 **[其他 AI 逆向 · 待验证]**
+- [2016年的Kindle重用：Harmon称借AI研究设备并装上微信读书](cases/harmon-2016-kindle-ai-weread-install-report.md) — Harmon自述让陪伴中学时期的旧Kindle重新用于阅读，称逆向后装上微信读书并感谢AI；模型、机型、越狱和适配方法未披露。 **[其他 AI 逆向 · 待验证]**
 - [游戏主机固件idea：@42Kmi问能否让本机LLM修改更新以保留漏洞](cases/42kmi-console-llm-firmware-vulnerability-preservation-idea.md) — 作者提出把LLM装进游戏主机，修改待安装固件以保留现有漏洞；是可行性问题，没有主机型号、固件样本、实现或测试。 **[其他 AI 逆向 · 待验证]**
 - [Android临时root与应用检查：煎饼狗子转述DeepSeek4.1Flash协助](cases/deepseek41-android-root-integrity-secondary-report.md) — 煎饼狗子转述AI协助Android临时root、Google完整性及DBS/Revolut检查，并对比Codex拒绝；设备、原作者、项目与日志未具名，不视作已核验绕过。 **[其他 AI 逆向 · 待验证]**
 - [Opengear控制台服务器：Armadin称LLM协助固件研究发现HTTP堆损坏](cases/armadin-opengear-llm-firmware-heap-corruption-report.md) — Armadin报告下载Opengear固件、构建SBOM并用LLM协助发现HTTP请求堆损坏，称可导致RCE且厂商已有更新；型号、CVE和补丁未独立核验。 **[其他 AI 逆向 · 待验证]**
@@ -912,7 +915,7 @@
 - [Cricut 刻字机：用 AI 研究导入尺寸失真的修复 idea](cases/cricut-ai-import-scaling-fix-idea.md) — Pipe42uk建议AI逆向解决刻字机UI问题；父帖明确Cricut导入会乱缩放、需每次添加尺寸基准，尚无修复。 **[其他 AI 逆向 · 待验证]**
 - [Roku OS 电视：REA 映射网络路由，再发送控制请求的自述](cases/roku-tv-rea-network-route-control.md) — greco_dev称Roku电视控制已可用，同时明确这不是真正反编译：定位局域网IP，用REA映射路由后发请求。 **[REA · 待验证]**
 - [自有扫地机器人：让 Claude Code 检查远程窥视证据的调查提示词](cases/robot-vacuum-claude-privacy-audit-prompt.md) — tezzarc给出从照片识别型号、核对摄像头权限与账户分享、查异常访问的具体流程；不是发现机器人被入侵的报告。 **[其他 AI 逆向 · 待验证]**
-- [M-VAVE FM-1：AI 固件玩法与价格变化的读者转述](cases/mvave-fm1-ai-firmware-reader-report.md) — riverleaf88称FM-1合成器因AI辅助固件玩法走热，价格由一百多到三百多；未给具体固件或效果测试。 **[其他 AI 逆向 · 待验证]**
+- [M-VAVE FM-1：AI 固件玩法与价格变化的读者转述](cases/mvave-fm1-ai-firmware-reader-report.md) — 早期FM-1价格观察新增社区固件两周45至154的转述；链接视频标题确认FM-1，但未核固件目录、AI分工、厂商开放范围或音频效果。 **[其他 AI 逆向 · 待验证]**
 - [webOS 电视侧载 APK：平台表述仍待核实的 REA 改造自述](cases/webos-rea-apk-sideload-claim.md) — Devcop101称用REA给webOS侧载APK并移除预装软件；APK与平台组合可疑，没有型号或日志佐证。 **[REA · 待验证]**
 - [MagicSwipe：Opus 研究 Magic Mouse，让 iPad 通用控制支持手势](cases/magic-mouse-ipad-opus-virtual-hid.md) — saikumar公开MagicSwipe，以私有触摸接口和Karabiner虚拟HID把双指手势转成iPad快捷键；仅项目报告实机测试。 **[其他 AI 逆向 · 进行中]**
 - [Fuji 相机：逆向 App 后让 Claude 上传胶片模拟设置](cases/fuji-claude-film-settings-upload.md) — max称研究Fuji应用后自动选择并上传胶片设置、筛选拍摄照片，另称已开源；仓库与实机结果尚未核实。 **[其他 AI 逆向 · 待验证]**
@@ -1055,6 +1058,13 @@
 
 ### 应用与客户端
 
+- [字流桌面版自测：孟健用WorkBuddy接REA，报告178个通道与零密钥检出](cases/ziliu-workbuddy-rea-client-exposure-self-test.md) — 作者研究自己开发一年的字流桌面版，称54KB报告识别178个通信通道、337次调用，42352项未知；未检出密钥或提示词不等于证明客户端或服务端完全安全。 **[REA · 分析测试]**
+- [Fable故事动画拆解：Ganesh用Claude与REA观察一轮生成，训练机制仍是推测](cases/ganesh-fable-animation-rea-traffic-teardown.md) — 为了给七岁女儿的故事做动画，Ganesh研究既有网页产品并公开product-teardown技能；Fable角色字段提示训练的说法经追问被作者明确降为best guess。 **[REA · 分析测试]**
+- [另一款故事动画网页应用：Ganesh用REA观察一条故事，未披露可核名称](cases/ganesh-second-story-animation-rea-traffic-study.md) — Ganesh同帖报告第二款故事动画应用的请求／响应字段研究；可读文字未给其名称或独立发现，不把Fable角色训练推断移植到该目标。 **[REA · 分析测试]**
+- [Shopify商店重建idea：客户听说REA后想自建，管理者劝先做销售](cases/shopify-store-rea-rebuild-client-dissuaded-idea.md) — 一位Shopify商店管理者称客户想用REA研究并自建替代，自己因时间精力成本劝阻；没有实施或迁移结果。 **[REA · 待验证]**
+- [PUP DMA软件停更：Pengchen转述AI反编译压力，因果与产物未核](cases/pup-dma-ai-decompilation-shutdown-secondary-report.md) — Pengchen称PUP停更且归因于AI反编译，另有附和回复；没有开发者声明、具体模型、反编译产物或停更因果证据。 **[其他 AI 逆向 · 待验证]**
+- [APK／Windows EXE到Python接口：codingrobot称让模型研究客户端以直接访问后端](cases/codingrobot-apk-exe-python-backend-api-report.md) — codingrobot自述把若干APK与EXE交给模型，生成直连后端API的Python脚本，不再依赖原应用；目标、代码与接口验证未公开。 **[其他 AI 逆向 · 待验证]**
+- [400函数菜单栏应用：starmex称Grok先标注、37个难点交Fable，成本未审计](cases/starmex-400-function-app-hybrid-rea-model-study.md) — 一篇REA配置文章自述对400函数应用做Grok／Fable分流，Grok单跑41分钟1.80美元，混合路线37个函数升级；没有目标名称、捕获日志或准确率对照。 **[REA · 分析测试]**
 - [SlothNotes：Shakirul先用REA研究Bear行为，再用Swift／AppKit重建笔记应用](cases/slothnotes-bear-rea-swift-appkit-rebuild.md) — 作者称约一周完成Bear风格原生笔记应用，强调研究行为而非复制截图；公开Swift／AppKit项目有MIT许可，iCloud双实机往返仍未验证，本合集未构建。 **[REA · 待验证]**
 - [2TI SovereignAI：Tarek介绍本地优先AI工作台与应用反编译／重建入口](cases/2ti-sovereignai-rea-recreate-studio.md) — Tarek Tarabichi宣传SovereignAI与REA Recreate Studio；产品页描述本地分析插件连接Ghidra／Hopper／JADX／Frida和Agent聊天，但仍标Pilot且无已验证安装包。 **[未确认使用 REA · 进行中]**
 - [Hypersonic 2 VST：Loftwah想让Claude研究旧音源插件并做现代版本](cases/loftwah-hypersonic2-claude-modern-rompler-idea.md) — 候选回复指向Loftwah提出的Hypersonic 2逆向重建idea，目标是现代ROMpler；没有代码、音频对比、采样资产授权或实际运行结果。 **[其他 AI 逆向 · 待验证]**
@@ -1966,6 +1976,10 @@
 
 ### 算法与功能重建
 
+- [先研究一个剪辑点：读者建议用REA-Video解释转镜，再回放质疑](cases/rea-video-single-cut-explanation-replay-idea.md) — 一位读者未试用REA-Video，提出先选一个切镜点、问剪辑作用、回放核对解释，再考虑整片重建；没有具体片名或测试结果。 **[其他 AI 逆向 · 待验证]**
+- [精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5](cases/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。 **[其他 AI 逆向 · 待验证]**
+- [十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站](cases/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。 **[其他 AI 逆向 · 分析测试]**
+- [LinkedIn爆款到原创X草稿：崔棉转述Claude拆主题与互动驱动的营销idea](cases/mastercui-claude-linkedin-post-pattern-study-idea.md) — 一篇零预算营销指南建议给Claude主题与社区列表，研究高互动LinkedIn帖子后重写原创X草稿，可扩到Reddit；未给实际样本与前后传播测试。 **[其他 AI 逆向 · 待验证]**
 - [REA for Growth：用竞品流量、广告与招聘反推增长的早期技能](cases/treg-rea-for-growth-competitor-teardown-skill.md) — 候选介绍Treg的免费REA for Growth技能，让Agent研究竞品多种增长信号；宣称样例数据成本0.58美元、提供1美元试用额度，未核完整报告与复现。 **[未确认使用 REA · 相关项目]**
 - [月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配](cases/sandmrk-moonlit-peony-portrait-prompt-reconstruction.md) — sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。 **[其他 AI 逆向 · 待验证]**
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**

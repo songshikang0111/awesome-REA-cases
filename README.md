@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2188 cases & projects
+# 2202 cases & projects
 
-**Latest case update:** November 13, 2026, 16:13 · **Last maintained:** November 13, 2026, 16:13 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 13, 2026, 20:20 · **Last maintained:** November 13, 2026, 20:20 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: connect devices, trace reused protocols, rebuild an editor's behavior and preserve games. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: connect devices, trace reused protocols, distinguish traffic clues from server-side guesses and preserve games. Dates identify sources or author updates, not collection dates.
 
 1. **[Fujifilm X half: camera to Mac without the phone](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12` author report — **Opus reportedly identifies Bluetooth/Wi-Fi protocol differences** for JPEG imports and Google Photos uploads. Incremental camera tests, not an iteration-free build; code and traces unchecked here. `Unverified here`
 2. **[Anker recorder: ask an agent for last week's conversation](cases/en/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12` author report — **REA Bluetooth research and MCP recording retrieval**, with local Qwen ASR or online transcription. Berryxia plans source release after refinement/testing; code and device path unchecked here. `In progress`
@@ -30,8 +30,8 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 4. **[hexgrab: study PowerToys, build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies binaries; an author/source comparison finds **8 of 9 claims correct, one partial**. Hotkey registration in another binary exposed a blind spot. Public .NET 10 implementation, one monitor tested; not rerun here. `Analysis test`
 5. **[ZigZag: from SVG to a Brother embroidery machine](cases/en/kath-korevec-brother-chatgpt-embroidery-report.md)** · `2026-11-13` report and pinned docs — **Skitch PP1 Bluetooth upload and MCP-assisted design**, with project-reported hardware tests. NOTICE credits the protocol to Respira; the earlier ChatGPT origin story remains secondary, not independent discovery. Not run here. `Unverified here`
 6. **[MousePods: AirPods as a Linux mouse and head tracker](cases/en/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11` reports; `2026-11-10` pinned docs — **Claude-assisted RemoteHID research and reported AirPods 3/Pro 2 hardware checks.** No earbud flash, but Proton integration changes prefixes. MTU/device-identity effects were not isolated; not run here. `Unverified here`
-7. **[Opengear: firmware research at the network edge](cases/en/armadin-opengear-llm-firmware-heap-corruption-report.md)** · `2026-11-13` team report — Armadin describes **firmware → SBOM → LLM-assisted HTTP heap-corruption discovery**, reportedly leading to RCE and a vendor update. Model, device version, reproduction and patch advisory unchecked here. `Unverified here`
-8. **[SlothNotes: study Bear's behavior before rebuilding](cases/en/slothnotes-bear-rea-swift-appkit-rebuild.md)** · `2026-11-13` author report; `2026-10-21` pinned docs — **REA study followed by a Swift/AppKit notes app**, reportedly built in about a week. Public MIT code and a documented Bear importer; no two-physical-Mac iCloud round trip verified, not built here. `Unverified here`
+7. **[Fable animation: what browser traffic can—and cannot—show](cases/en/ganesh-fable-animation-rea-traffic-teardown.md)** · `2026-11-13` report, author clarification and pinned skill — **Claude/REA studies a story-generation run, retaining field names.** Ganesh explicitly says character-model training was inferred, not observed. Public workflow; raw traffic unchecked here. `Analysis test`
+8. **[Ziliu: no detected keys is not a security proof](cases/en/ziliu-workbuddy-rea-client-exposure-self-test.md)** · `2026-11-13` author self-test — WorkBuddy/REA reportedly finds **178 channels and 337 calls**, leaving 42,352 unknown items and detecting no keys or core prompts. A bounded static-analysis account, not proof that client or server is safe; full report unchecked. `Analysis test`
 9. **[TimeSplitters 2: PS2 behavior to a PC port](cases/en/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10` author report; `2026-11-09` pinned docs — **Claude-assisted MIPS-to-C++ with PCSX2 frame/state comparisons** and a reported Linux/Steam Deck first-level playthrough. Still uses PCSX2 graphics/audio; later levels and internet play need checks. Self-supplied disc; not built here. `In progress`
 10. **[Empire Earth: a rebuilt engine playing the original](cases/en/empire-earth-ai-trailers-compatible-engine-report.md)** · `2026-11-12` report; `2026-11-08` pinned docs — Claude-credited history and project-reported **tick-by-tick comparisons plus mixed original/rebuilt TCP games without desync**. Whole images differ; WON services, audio and physical input are untested. No general source-license grant; not run here. `In progress`
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **438** |
-| [Hardware & interoperability](categories/en/hardware.md) | **585** |
-| [Applications & clients](categories/en/apps.md) | **908** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **257** |
+| [Games & preservation](categories/en/games.md) | **439** |
+| [Hardware & interoperability](categories/en/hardware.md) | **587** |
+| [Applications & clients](categories/en/apps.md) | **915** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **261** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

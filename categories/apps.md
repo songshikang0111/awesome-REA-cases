@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [字流桌面版自测：孟健用WorkBuddy接REA，报告178个通道与零密钥检出](../cases/ziliu-workbuddy-rea-client-exposure-self-test.md) — 作者研究自己开发一年的字流桌面版，称54KB报告识别178个通信通道、337次调用，42352项未知；未检出密钥或提示词不等于证明客户端或服务端完全安全。 **[REA · 分析测试]**
+- [Fable故事动画拆解：Ganesh用Claude与REA观察一轮生成，训练机制仍是推测](../cases/ganesh-fable-animation-rea-traffic-teardown.md) — 为了给七岁女儿的故事做动画，Ganesh研究既有网页产品并公开product-teardown技能；Fable角色字段提示训练的说法经追问被作者明确降为best guess。 **[REA · 分析测试]**
+- [另一款故事动画网页应用：Ganesh用REA观察一条故事，未披露可核名称](../cases/ganesh-second-story-animation-rea-traffic-study.md) — Ganesh同帖报告第二款故事动画应用的请求／响应字段研究；可读文字未给其名称或独立发现，不把Fable角色训练推断移植到该目标。 **[REA · 分析测试]**
+- [Shopify商店重建idea：客户听说REA后想自建，管理者劝先做销售](../cases/shopify-store-rea-rebuild-client-dissuaded-idea.md) — 一位Shopify商店管理者称客户想用REA研究并自建替代，自己因时间精力成本劝阻；没有实施或迁移结果。 **[REA · 待验证]**
+- [PUP DMA软件停更：Pengchen转述AI反编译压力，因果与产物未核](../cases/pup-dma-ai-decompilation-shutdown-secondary-report.md) — Pengchen称PUP停更且归因于AI反编译，另有附和回复；没有开发者声明、具体模型、反编译产物或停更因果证据。 **[其他 AI 逆向 · 待验证]**
+- [APK／Windows EXE到Python接口：codingrobot称让模型研究客户端以直接访问后端](../cases/codingrobot-apk-exe-python-backend-api-report.md) — codingrobot自述把若干APK与EXE交给模型，生成直连后端API的Python脚本，不再依赖原应用；目标、代码与接口验证未公开。 **[其他 AI 逆向 · 待验证]**
+- [400函数菜单栏应用：starmex称Grok先标注、37个难点交Fable，成本未审计](../cases/starmex-400-function-app-hybrid-rea-model-study.md) — 一篇REA配置文章自述对400函数应用做Grok／Fable分流，Grok单跑41分钟1.80美元，混合路线37个函数升级；没有目标名称、捕获日志或准确率对照。 **[REA · 分析测试]**
 - [SlothNotes：Shakirul先用REA研究Bear行为，再用Swift／AppKit重建笔记应用](../cases/slothnotes-bear-rea-swift-appkit-rebuild.md) — 作者称约一周完成Bear风格原生笔记应用，强调研究行为而非复制截图；公开Swift／AppKit项目有MIT许可，iCloud双实机往返仍未验证，本合集未构建。 **[REA · 待验证]**
 - [2TI SovereignAI：Tarek介绍本地优先AI工作台与应用反编译／重建入口](../cases/2ti-sovereignai-rea-recreate-studio.md) — Tarek Tarabichi宣传SovereignAI与REA Recreate Studio；产品页描述本地分析插件连接Ghidra／Hopper／JADX／Frida和Agent聊天，但仍标Pilot且无已验证安装包。 **[未确认使用 REA · 进行中]**
 - [Hypersonic 2 VST：Loftwah想让Claude研究旧音源插件并做现代版本](../cases/loftwah-hypersonic2-claude-modern-rompler-idea.md) — 候选回复指向Loftwah提出的Hypersonic 2逆向重建idea，目标是现代ROMpler；没有代码、音频对比、采样资产授权或实际运行结果。 **[其他 AI 逆向 · 待验证]**

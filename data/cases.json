@@ -1,5 +1,243 @@
 [
   {
+    "id": "nvidia-kernel-ai-customization-model-lock-idea",
+    "title": "NVIDIA内核定制idea：读者号召AI Agent研究限制，不把未来监控猜测当事实",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "一位读者建议集中AI Agent研究并定制NVIDIA内核，以阻止其担心的限制；没有型号、版本或实现，区别于既有Linux驱动稳定性idea。",
+    "description": "2026年11月13日18:31:29（北京时间），一位回复@Nick_Valentine2的读者号召集中AI Agent破解、逆向与定制NVIDIA kernels，目的在于阻止其担心的控制措施，并呼吁停购产品。此处保留的是针对内核限制的具体研究idea，与已有Linux显卡驱动稳定性、电源管理及144Hz愿望分开；候选没有明确操作系统，也不能把kernels自行改写为已恢复GPU固件。\n\n作者声称未来芯片必然内置间谍功能，但没有政策、固件、设备或网络证据，本合集不采纳为事实。没有芯片型号、内核版本、模型、样本、代码或运行结果；破解、定制都是号召，不是已启动或成功。未确认REA，未获取或执行内核代码、修改硬件或验证限制。",
+    "sources": [{"label": "候选：AI Agent研究NVIDIA kernels的号召，2026-11-13 18:31:29北京时间", "url": "https://x.com/i/status/2121189199659385112"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照2赞、121浏览、0转发、0回复；未来监控指控无证据，不作为项目背景事实。"],
+    "en": {
+      "title": "NVIDIA kernel-customization idea: a reader proposes AI-agent research against feared restrictions",
+      "summary": "A reader calls for AI agents to study and customize NVIDIA kernels to block feared controls. No model, revision or implementation; distinct from the existing Linux-driver stability idea.",
+      "description": "At 18:31:29 Beijing time on November 13, 2026, a reader replying to @Nick_Valentine2 calls for concentrating AI agents on cracking, reverse-engineering and customizing NVIDIA kernels to stop feared controls, alongside a product boycott. This is retained as a concrete idea targeting kernel restrictions, separate from existing wishes for Linux graphics-driver stability, power management and 144Hz. The candidate specifies no operating system, and kernels is not silently rewritten as recovered GPU firmware.\n\nThe poster asserts that future chips will necessarily contain spyware but provides no policy, firmware, device or network evidence; this collection does not adopt that allegation as fact. Chip models, kernel revisions, AI models, samples, code and runtime results are absent. Cracking and customization are calls to action, not started or successful work. REA is unconfirmed. No kernel code was obtained or executed, hardware modified or restriction tested here.",
+      "metadata": ["Candidate snapshot: 2 likes, 121 views, 0 reposts, 0 replies. The unsupported future-surveillance allegation is not treated as factual project background."],
+      "source_labels": ["Candidate: a call for AI-agent research on NVIDIA kernels, November 13, 2026 at 18:31:29 Beijing time"]
+    }
+  },
+  {
+    "id": "ziliu-workbuddy-rea-client-exposure-self-test",
+    "title": "字流桌面版自测：孟健用WorkBuddy接REA，报告178个通道与零密钥检出",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "作者研究自己开发一年的字流桌面版，称54KB报告识别178个通信通道、337次调用，42352项未知；未检出密钥或提示词不等于证明客户端或服务端完全安全。",
+    "description": "2026年11月13日16:26:15（北京时间），孟健AI编程（@xjtumj）称用WorkBuddy接入REA分析自己的字流桌面版，想检验AI能否把开发一年的客户端完整摸透。作者报告产出54KB分析报告，识别178个通信管道、定位337次调用；16:26:16后续称混淆留下42352个未知项，密钥和核心提示词泄漏检出为0。16:28:17另一候选重复报告大小、通道数和零暴露结论，合并为同一自测，不另算项目。\n\n作者把核心逻辑置于服务端视为边界，并用“核心完全安全”概括结果。本合集只保留本次静态分析未检出的自述：没有完整报告、扫描规则、客户端版本、阴性检出能力或服务端测试，不能证明不存在可提取秘密、鉴权缺陷或动态攻击路径。未知项也不是已还原的功能。补读同串第三帖，作者建议不要把提示词／密钥放进客户端，并给本地通信加校验；这些是防御建议，不是已经实施或验证的措施。第三帖同日16:26:16，只作补充材料。未运行应用或REA，未复核这些计数。",
+    "sources": [
+      {"label": "孟健的WorkBuddy／REA字流自测主帖，2026-11-13 16:26:15北京时间", "url": "https://x.com/i/status/2121157683328037250"},
+      {"label": "候选后续：42352项未知与零泄漏检出，16:26:16", "url": "https://x.com/i/status/2121157685714518128"},
+      {"label": "候选重述：开发一年与54KB报告，16:28:17", "url": "https://x.com/i/status/2121158193971855430"},
+      {"label": "补充同串防御建议，16:26:16，不另计候选", "url": "https://x.com/i/status/2121157687383896415"}
+    ],
+    "snapshot_date": "2026-11-13", "metadata": ["11月13日候选快照：主帖0赞、30浏览；后续0赞、4浏览；重述3赞、312浏览。数字均为作者报告，未审计。"],
+    "en": {
+      "title": "Ziliu desktop self-test: WorkBuddy and REA reportedly expose 178 channels but find no keys",
+      "summary": "The author studies a desktop app he spent a year developing and reports a 54KB analysis, 178 communication channels, 337 calls and 42,352 unknown items. No detected keys or prompts is not proof of client or server security.",
+      "description": "At 16:26:15 Beijing time on November 13, 2026, Meng Jian (@xjtumj) reports connecting WorkBuddy to REA to analyze his own Ziliu desktop app and test whether AI could fully uncover a client he spent a year developing. He reports a 54KB analysis identifying 178 communication channels and 337 calls. A 16:26:16 follow-up reports 42,352 unknown items left by obfuscation and zero detected leaks of keys or core prompts. Another candidate at 16:28:17 repeats the report size, channels and zero-exposure claim; all belong to one self-test, not separate projects.\n\nThe author attributes the boundary to keeping core logic on the server and calls the core completely safe. This collection retains only the reported absence of detections in this static analysis. The full report, scan rules, client version, negative-detection capability and server tests are unavailable; the account does not establish that extractable secrets, authorization defects or dynamic attack paths are absent. Unknown items are not recovered features. A supplementary third post in the same thread, at 16:26:16 that day, recommends keeping prompts/keys off clients and validating local communication. These are recommendations, not implemented or verified safeguards. Neither the app nor REA was run here, and the counts were not audited.",
+      "metadata": ["November 13 candidate snapshots: main post 0 likes, 30 views; follow-up 0 likes, 4 views; restatement 3 likes, 312 views. All technical counts are author-reported and unaudited."],
+      "source_labels": ["Meng Jian's WorkBuddy/REA Ziliu self-test, November 13, 2026 at 16:26:15 Beijing time", "Candidate follow-up: 42,352 unknowns and no detected leaks, 16:26:16", "Candidate restatement: a year of development and a 54KB report, 16:28:17", "Supplementary defensive advice in the same thread, 16:26:16; not another candidate"]
+    }
+  },
+  {
+    "id": "ganesh-fable-animation-rea-traffic-teardown",
+    "title": "Fable故事动画拆解：Ganesh用Claude与REA观察一轮生成，训练机制仍是推测",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "为了给七岁女儿的故事做动画，Ganesh研究既有网页产品并公开product-teardown技能；Fable角色字段提示训练的说法经追问被作者明确降为best guess。",
+    "description": "2026年11月13日16:36:03（北京时间），Ganesh Iyer（@ganeshiyer316）称当周用Claude Code与REA拆解两款故事动画应用，原因是想把七岁女儿写的故事做成短片，现有工具昂贵且不完全合用。他在每款应用各做一个故事，让REA观察请求与响应、只保留字段名，再由Claude按自写product-teardown技能整理报告。两款目标分别保留记录；此条对应回复明确提到的Fable动画产品，不是把同名模型Fable当成目标。没有报告完成自用替代品。\n\n16:55:14，Harrison追问每角色训练模型的依据；17:05:36 Ganesh承认没有看到训练，角色已建好，只是在每个故事的角色数据里看到trigger word与finished training标记，据此猜测定制图像模型。字段是作者声称观察到的线索，训练行为、模型供应商与服务端流水线都未直接观察，不能把“Seen”标签扩大成整套架构100%确认。这两条补查回复不是额外候选。\n\n补读公开技能README与SKILL，固定仓库版本81dd09b019a342a06906e44e8245aaf89e915f29提交于同日16:58:10，晚于主帖，作为实现说明而非原始抓取证据。文档要求用户操作合法账号、只观察、不重放请求、不保存正文／头／cookies／token或源码；输出Seen／Best guess与未知项。README只称macOS上Claude Code测过，Linux、Windows和Codex未测；页面跳转与提前建立的连接会造成缺口。本合集只读文档与作者回复，未审原始流量、运行技能、登录产品或复现推断。",
+    "sources": [
+      {"label": "候选：Ganesh的两款故事动画应用拆解，2026-11-13 16:36:03北京时间", "url": "https://x.com/i/status/2121160150278926639"},
+      {"label": "补充追问：Fable角色训练依据，16:55:14", "url": "https://x.com/i/status/2121164975842685060"},
+      {"label": "补充作者更正：未看到训练，17:05:36", "url": "https://x.com/i/status/2121167585735737473"},
+      {"label": "固定product-teardown README，版本提交于2026-11-13 16:58:10北京时间", "url": "https://github.com/ganeshiyer316/claude-skills/blob/81dd09b019a342a06906e44e8245aaf89e915f29/skills/product-teardown/README.md"},
+      {"label": "固定SKILL：观察边界、字段与推断标签", "url": "https://github.com/ganeshiyer316/claude-skills/blob/81dd09b019a342a06906e44e8245aaf89e915f29/skills/product-teardown/SKILL.md"}
+    ],
+    "snapshot_date": "2026-11-13", "metadata": ["主候选快照3赞、156浏览、0转发、4回复；这是两目标共用的帖子，不分别累加热度。"],
+    "en": {
+      "title": "Fable story-animation teardown: Ganesh observes one run with Claude and REA, but training remains inferred",
+      "summary": "Ganesh studies existing web products to animate his seven-year-old daughter's story and publishes a product-teardown skill. When challenged, he explicitly calls the Fable per-character training explanation a best guess.",
+      "description": "At 16:36:03 Beijing time on November 13, 2026, Ganesh Iyer (@ganeshiyer316) reports using Claude Code and REA that week to study two story-animation apps. He wanted a short animated video for a story by his seven-year-old daughter, finding existing tools expensive and not quite suitable. He made one story in each app while REA observed requests and responses, retaining field names only; Claude then wrote a report using his product-teardown skill. The targets have separate records. This one concerns the Fable animation product named in the replies, not the similarly named Fable model. No completed personal replacement is reported.\n\nAt 16:55:14 Harrison asks what established a model trained per character. At 17:05:36 Ganesh admits he did not see training: his characters were already created. He saw a trigger word and a finished training flag in character data sent with stories and inferred a custom image model. These are author-reported field clues, not direct observations of training, providers or the server pipeline. A Seen label must not become 100% confirmation of an entire architecture. These supplementary replies are not additional candidates.\n\nThe public README and SKILL were read at pinned revision 81dd09b019a342a06906e44e8245aaf89e915f29, committed that day at 16:58:10 Beijing time, after the main post. They provide implementation context, not original capture evidence. The documentation requires the user to operate a legitimate account, observation only, no request replay, and no saved bodies, headers, cookies, tokens or source code; conclusions are tagged Seen or Best guess with unknowns. The README reports testing only on macOS with Claude Code, not Linux, Windows or Codex. Navigation and connections opened before capture can leave gaps. This collection read documents and replies only: no raw traffic audit, skill execution, product login or independent reproduction of the inference.",
+      "metadata": ["Main candidate snapshot: 3 likes, 156 views, 0 reposts, 4 replies. Both targets share this post; engagement is not added twice."],
+      "source_labels": ["Candidate: Ganesh's two story-animation app teardowns, November 13, 2026 at 16:36:03 Beijing time", "Supplementary question about evidence for Fable character training, 16:55:14", "Supplementary author correction: training was not observed, 17:05:36", "Pinned product-teardown README; revision committed November 13, 2026 at 16:58:10 Beijing time", "Pinned SKILL: observation limits, fields and inference labels"]
+    }
+  },
+  {
+    "id": "ganesh-second-story-animation-rea-traffic-study",
+    "title": "另一款故事动画网页应用：Ganesh用REA观察一条故事，未披露可核名称",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "Ganesh同帖报告第二款故事动画应用的请求／响应字段研究；可读文字未给其名称或独立发现，不把Fable角色训练推断移植到该目标。",
+    "description": "2026年11月13日16:36:03（北京时间），Ganesh Iyer（@ganeshiyer316）报告用Claude Code与REA研究两款故事动画网页应用，想为七岁女儿的故事寻找较合适的自用制作方案。这条保留第二个独立目标：作者称每款各制作一条故事、捕捉发送与接收内容的字段名，再用product-teardown技能整理前端流程与架构报告。现有可读帖子及回复只明确Fable名称，第二款在已审文字中未具名；不猜它是什么，也不把两款合并成一个已完成的产品。\n\n作者明确网页流量不能揭示所有服务端行为或具体AI模型，报告区分Seen与Best guess。已读公开技能README，固定版本81dd09b019a342a06906e44e8245aaf89e915f29提交于同日16:58:10，晚于候选；只报告macOS／Claude Code测试，其他平台未测，规则要求观察而不重放、保留字段而非个人数据。它是方法来源，不证明第二目标上每条规则都被严格执行。未审图中细节、原始捕获或完整拆解报告，没有第二款独有的可复核发现、兼容实现或质量对比；Fable角色字段与训练推断不归给此目标。未运行技能或目标应用。",
+    "sources": [
+      {"label": "候选：Ganesh明确报告在两款应用各制作一条故事，2026-11-13", "url": "https://x.com/i/status/2121160150278926639"},
+      {"label": "补充固定技能README：方法、测试平台与观察限制，版本提交于2026-11-13", "url": "https://github.com/ganeshiyer316/claude-skills/blob/81dd09b019a342a06906e44e8245aaf89e915f29/skills/product-teardown/README.md"}
+    ],
+    "snapshot_date": "2026-11-13", "metadata": ["与Fable记录共用候选快照：3赞、156浏览、0转发、4回复；第二目标名称未从可读文字核实。"],
+    "en": {
+      "title": "A second story-animation web app: Ganesh reports a REA-observed story run without a verified name",
+      "summary": "The same post reports studying request/response field names in a second story-animation app. Its name and distinct findings are absent from the inspected text; Fable's training inference is not assigned to it.",
+      "description": "At 16:36:03 Beijing time on November 13, 2026, Ganesh Iyer (@ganeshiyer316) reports studying two story-animation web apps with Claude Code and REA to find a more suitable personal workflow for his seven-year-old daughter's story. This record preserves the second independent target. He says he made one story in each app, captured field names in what was sent and received, then used his product-teardown skill to write frontend-flow and architecture reports. The inspected readable post and replies name only Fable; the second app is unnamed in that text. Its identity is not guessed, and the pair is not turned into a completed product.\n\nThe author explicitly says browser traffic cannot reveal all server behavior or the exact AI model, and separates Seen from Best guess. The public skill README was read at revision 81dd09b019a342a06906e44e8245aaf89e915f29, committed that day at 16:58:10, after the candidate. It reports testing on macOS/Claude Code only, not other platforms, and calls for observation without replay and field names rather than personal data. This is a method source, not proof that every rule was enforced on the second target. Image details, raw captures and full teardown reports were not inspected. No independently checkable finding specific to this app, compatible implementation or quality comparison is available. Fable's character fields and training inference are not attributed to this target. Neither the skill nor the target app was run here.",
+      "metadata": ["Shared candidate snapshot with the Fable record: 3 likes, 156 views, 0 reposts, 4 replies. The second target's name is not verified from readable text."],
+      "source_labels": ["Candidate: Ganesh explicitly reports making one story in each of two apps, November 13, 2026", "Supplementary pinned skill README: method, tested platform and observation limits; revision committed November 13, 2026"]
+    }
+  },
+  {
+    "id": "rea-video-single-cut-explanation-replay-idea",
+    "title": "先研究一个剪辑点：读者建议用REA-Video解释转镜，再回放质疑",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "一位读者未试用REA-Video，提出先选一个切镜点、问剪辑作用、回放核对解释，再考虑整片重建；没有具体片名或测试结果。",
+    "description": "2026年11月13日17:00:52（北京时间），一位引用Riley Brown的读者说自己没试过REA-Video，但会先研究一个镜头切换点，而不是让工具重做整条视频。建议问切点是否揭示说话者视线，或跳过无需完整观看的动作，再回放画面；解释不合就挑战它，形成自己的判断。目标是分析具体剪辑的叙事作用，是使用idea而非已执行实验。\n\n帖子未给视频名称、时间码、工具输出或重建对比，两个剪辑作用只是可能解释，不能写成观察结果。也没有证据说明能反推出原始工程、拍摄素材或精确提示词。REA-Video是既有视频分析相关工具，此条单独记录小范围回看验证的用法，而不是重复宣布工具发布或确认使用morluto/rea。本合集未运行视频工具。",
+    "sources": [{"label": "候选：逐切点解释与回放核对idea，2026-11-13 17:00:52北京时间", "url": "https://x.com/i/status/2121166393433264130"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照0赞、35浏览、0转发、1回复；作者明确尚未试用。"],
+    "en": {
+      "title": "Study one cut first: a reader proposes REA-Video explanations checked against replay",
+      "summary": "A reader who has not tried REA-Video proposes selecting a cut, asking its purpose and replaying the footage to challenge the explanation before a full remake. No named video or test result.",
+      "description": "At 17:00:52 Beijing time on November 13, 2026, a reader quoting Riley Brown says they have not tried REA-Video but would study a single shot change before asking for an entire remake. They propose asking whether a cut reveals what the speaker is looking at or skips an action that need not be shown in full, then replaying the footage. If the explanation does not fit, challenge it and develop one's own answer. This targets the narrative function of a particular edit as a usage idea, not a completed experiment.\n\nNo video title, timecode, tool output or remake comparison is supplied. The two possible functions are hypotheses, not observed results. The post does not establish recovery of the original editing project, source footage or exact prompts. REA-Video is an existing related analysis tool; this record captures a bounded replay-checking use rather than announcing the tool again or asserting morluto/rea use. No video tool was run here.",
+      "metadata": ["Candidate snapshot: 0 likes, 35 views, 0 reposts, 1 reply. The author explicitly has not tried the tool."],
+      "source_labels": ["Candidate: single-cut explanation and replay-checking idea, November 13, 2026 at 17:00:52 Beijing time"]
+    }
+  },
+  {
+    "id": "oscarai-exact-sref-seedance-animation-challenge",
+    "title": "精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。",
+    "description": "2026年11月13日17:22:11（北京时间），OscarAI（@Artedeingenio）批评把逆向当魔法的说法，要求有人用Grok、Claude或任意AI从所指动画中恢复精确的Midjourney --sref与Seedance2.5提示词，再完美复现。sref是其要求恢复的风格引用参数；帖子附图片，但已读文字没有动画题名、原始参数、种子或目标文件。\n\n收录为明确的提示恢复／视觉重建挑战，不是声称已提取参数或证明所有模型失败。作者未报告实际提交、候选提示、生成结果、相似度标准或逐帧比较；一张图不能验证动画的时间行为。近似制作计划也不等于唯一恢复原提示。未推定使用REA，未调用生成模型或执行复现。",
+    "sources": [{"label": "OscarAI的精确sref与Seedance提示恢复挑战，2026-11-13 17:22:11北京时间", "url": "https://x.com/i/status/2121171759042859483"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照9赞、1033浏览、0转发、2回复；没有已完成挑战的证据。"],
+    "en": {
+      "title": "An exact animation-prompt challenge: OscarAI asks for Midjourney sref and Seedance 2.5 recovery",
+      "summary": "OscarAI challenges any AI to recover exact style references and prompts from an animation and reproduce it perfectly. The challenge is not completed; original parameters and frame-by-frame validation are absent.",
+      "description": "At 17:22:11 Beijing time on November 13, 2026, OscarAI (@Artedeingenio) criticizes claims treating reverse engineering as magic. He challenges someone to use Grok, Claude or any AI to extract the exact Midjourney --sref and Seedance 2.5 prompt for the referenced animation and recreate it perfectly. The sref is the style-reference parameter he wants recovered. The post has a photo attachment, but its inspected text supplies no animation title, original parameters, seed or target file.\n\nThis is a concrete prompt-recovery/visual-reconstruction challenge, not a claim that parameters were extracted or that all models have failed. No actual submission, candidate prompt, generated result, similarity criterion or frame-by-frame comparison is reported. A photo cannot validate temporal behavior. An approximate production plan is not unique recovery of the original prompt. REA use is not inferred, and no generation model or reproduction was run here.",
+      "metadata": ["Candidate snapshot: 9 likes, 1,033 views, 0 reposts, 2 replies. No completed challenge is evidenced."],
+      "source_labels": ["OscarAI's exact sref and Seedance prompt-recovery challenge, November 13, 2026 at 17:22:11 Beijing time"]
+    }
+  },
+  {
+    "id": "eve-local-offline-ai-harness-reversing-report",
+    "title": "EVE本地离线AI研究：读者追问机器人扩展，父帖只给低细节自述",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "VisiveAI询问EVE离线指令如何扩展；父帖rrfarmer自称用本地AI harness逆向EVE，没有客户端版本、恢复功能或可查产物。",
+    "description": "2026年11月13日18:30:56（北京时间），@VisiveAI向@rrfarmer追问用本地离线AI逆向Eve的机器人，最大扩展难点是什么。补读父串定位EVE游戏语境：rrfarmer同日08:14:51称已在EVE中用AI研究“everything”，机器人带AI harness和少量指令、本地离线运行。父帖早于16至20时严格窗口，只解释候选回复，不增加候选数。\n\n记录的是低细节自述与追问，不是已证实的离线服务器或完整游戏克隆。没有客户端／服务端版本、模型、代码、恢复协议、机器人能力、日志或扩展测量；everything不能翻成已研究全部系统，本地离线运行也不意味着在线游戏服务能离线替代。没有确认REA。本合集未连接游戏、运行机器人或复现实验。",
+    "sources": [{"label": "候选：VisiveAI追问EVE离线AI指令扩展，2026-11-13 18:30:56北京时间", "url": "https://x.com/i/status/2121189059494310297"}, {"label": "补充父帖：rrfarmer的本地harness自述，早于本轮窗口", "url": "https://x.com/i/status/2121034017327690077"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照0赞、3浏览、0转发、0回复；无扩展问题的回答或性能数据。"],
+    "en": {
+      "title": "EVE research with a local offline AI harness: a scaling question leads to a low-detail account",
+      "summary": "VisiveAI asks how offline EVE bot directives scale. Parent poster rrfarmer claims local AI-harness reversing but supplies no client version, recovered feature or inspectable artifact.",
+      "description": "At 18:30:56 Beijing time on November 13, 2026, @VisiveAI asks @rrfarmer about the biggest scaling difficulty for bots reverse-engineering Eve with local offline AI. Supplementary parent-thread reading establishes the EVE game context: at 08:14:51 that day rrfarmer claims AI is already used in EVE to reverse everything, with bots using an AI harness and a few directives locally and offline. That parent precedes the strict 16:00–20:00 window and explains the candidate reply only; it is not an additional candidate.\n\nThis records a low-detail account and question, not a verified offline server or complete game clone. Client/server revisions, models, code, recovered protocols, bot capabilities, logs and scaling measurements are absent. Everything is not translated into complete system coverage, and running locally/offline does not establish an offline replacement for the online service. REA is unconfirmed. This collection did not connect to the game, run bots or reproduce the experiment.",
+      "metadata": ["Candidate snapshot: 0 likes, 3 views, 0 reposts, 0 replies. No answer to the scaling question or performance data."],
+      "source_labels": ["Candidate: VisiveAI asks about scaling EVE offline AI directives, November 13, 2026 at 18:30:56 Beijing time", "Supplementary parent: rrfarmer's local-harness account, before this window"]
+    }
+  },
+  {
+    "id": "shopify-store-rea-rebuild-client-dissuaded-idea",
+    "title": "Shopify商店重建idea：客户听说REA后想自建，管理者劝先做销售",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "一位Shopify商店管理者称客户想用REA研究并自建替代，自己因时间精力成本劝阻；没有实施或迁移结果。",
+    "description": "2026年11月13日18:37:56（北京时间），一位回复@vinodchendhil的商店管理者称客户听说REA可做逆向，想研究并重建自己使用的Shopify商店；发帖者劝客户专注业务与销售，认为这会消耗不值得的时间精力。目标是现有电商软件／商店体验的自建替代idea，不是已接到重建订单或完成替代Shopify平台。\n\n没有给商店地址、具体要研究的平台还是主题、插件与后端、需求范围、模型或REA输出，也没有迁移、支付、订单与运营验收。劝阻理由是发帖者判断，不是测得的成本收益。本合集不推定已经研究或放弃项目，不访问商店或客户数据。",
+    "sources": [{"label": "候选：Shopify管理者转述客户的REA重建愿望与劝阻，2026-11-13", "url": "https://x.com/i/status/2121190820959432764"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照1赞、19浏览、0转发、0回复；提案未实施的证据边界保留。"],
+    "en": {
+      "title": "A Shopify-store rebuild idea: a client hears about REA, but the manager recommends sales first",
+      "summary": "A Shopify-store manager says a client wanted a REA-assisted self-built replacement and was discouraged over time and effort. No implementation or migration result is reported.",
+      "description": "At 18:37:56 Beijing time on November 13, 2026, a store manager replying to @vinodchendhil says a client heard REA could reverse-engineer software and wanted to study and rebuild the Shopify store they use. The poster advised focusing on the business and growing sales, judging the time and effort not worthwhile. This is an idea for a self-built alternative to an existing ecommerce system/store experience, not a commissioned rebuild or completed Shopify-platform replacement.\n\nThere is no store URL, distinction between platform, theme, plugins and backend, requirements scope, model or REA output, nor migration, payment, order or operational acceptance evidence. The discouragement is the poster's judgment, not measured cost-benefit data. This collection does not infer that research began or the project was abandoned and did not access the store or client data.",
+      "metadata": ["Candidate snapshot: 1 like, 19 views, 0 reposts, 0 replies. The proposal is not presented as implemented."],
+      "source_labels": ["Candidate: a Shopify manager recounts a client's REA rebuild wish and discouragement, November 13, 2026"]
+    }
+  },
+  {
+    "id": "harmon-2016-kindle-ai-weread-install-report",
+    "title": "2016年的Kindle重用：Harmon称借AI研究设备并装上微信读书",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Harmon自述让陪伴中学时期的旧Kindle重新用于阅读，称逆向后装上微信读书并感谢AI；模型、机型、越狱和适配方法未披露。",
+    "description": "2026年11月13日18:38:33（北京时间），Harmon（@BethHarmondk5f）称研究自己的2016年Kindle并装上微信读书，希望重新获得安静阅读的时间，结尾感谢AI。设备曾陪伴其中学阶段，是具体的旧设备再利用报告，不是所有2016年Kindle均兼容的结论。\n\n补取原帖确认署名和两张图片附件，未审图片细节、设备信息或操作日志。作者没有披露型号、固件、模型、REA、越狱工具、浏览器／KOReader路径或微信读书版本，不能把已有社区安装流程说成新发现的协议或从零重写固件，也没有长期稳定性与账号安全测试。本合集未连接设备、获取书籍或执行安装。",
+    "sources": [{"label": "Harmon的2016年Kindle与微信读书自述，2026-11-13 18:38:33北京时间", "url": "https://x.com/i/status/2121190978900099174"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照1赞、27浏览、0转发、1回复；AI参与为作者概述，具体步骤未公开。"],
+    "en": {
+      "title": "Reusing a 2016 Kindle: Harmon credits AI-assisted research for installing WeRead",
+      "summary": "Harmon reports repurposing a school-era Kindle for quiet reading, installing WeRead after reversing it and thanking AI. Model, device revision, jailbreak and adaptation method are undisclosed.",
+      "description": "At 18:38:33 Beijing time on November 13, 2026, Harmon (@BethHarmondk5f) says they reverse-engineered their 2016 Kindle and installed WeRead, hoping to regain quiet reading time, and thanks AI. The device accompanied them through middle and high school. This is a specific old-device reuse account, not evidence of compatibility across all 2016 Kindles.\n\nOriginal-post retrieval confirms attribution and two photo attachments, not their image details, device information or operation logs. The author supplies no model number, firmware, AI model, REA use, jailbreak tool, browser/KOReader route or WeRead version. Existing community installation procedures must not be described as a newly discovered protocol or a firmware rewrite from scratch. Long-term reliability and account-safety tests are absent. No device was connected, book acquired or installation performed here.",
+      "metadata": ["Candidate snapshot: 1 like, 27 views, 0 reposts, 1 reply. AI involvement is an author overview without published steps."],
+      "source_labels": ["Harmon's 2016 Kindle and WeRead account, November 13, 2026 at 18:38:33 Beijing time"]
+    }
+  },
+  {
+    "id": "pup-dma-ai-decompilation-shutdown-secondary-report",
+    "title": "PUP DMA软件停更：Pengchen转述AI反编译压力，因果与产物未核",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Pengchen称PUP停更且归因于AI反编译，另有附和回复；没有开发者声明、具体模型、反编译产物或停更因果证据。",
+    "description": "2026年11月13日18:46:01（北京时间），@Pengchenop称曾经垄断DMA软件的PUP宣布停更，并将其归因于AI反编译，提及@hackdeacon。语境是游戏作弊／反作弊讨论，DMA即直接内存访问；原帖没有清楚界定PUP的版本与完整产品身份。19:13:57另一候选回复附和“垄断软件倒了”，没有独立调查，作为重复判断而不新增来源或案例。\n\n补查原帖仅确认文字和图片附件，图片未审，没有取得PUP开发者公告、恢复源码、所用模型、对比记录或可复核时间线。停更、垄断地位和由AI导致都是发帖者转述／解释，不升级成已核实商业事实；学习AI反编译的感叹也不是已实施项目。没有REA证据，未下载、运行软件或协助作弊。",
+    "sources": [{"label": "Pengchen的PUP停更与AI反编译转述，2026-11-13 18:46:01北京时间", "url": "https://x.com/i/status/2121192855070974423"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照5赞、288浏览、0转发、4回复；停更与因果未经独立核实。"],
+    "en": {
+      "title": "PUP DMA software reportedly stops updates: Pengchen attributes pressure to AI decompilation",
+      "summary": "Pengchen attributes PUP's reported shutdown to AI decompilation; a reply agrees. Developer statements, model details, decompiled artifacts and causal evidence are absent.",
+      "description": "At 18:46:01 Beijing time on November 13, 2026, @Pengchenop says PUP, described as formerly dominating DMA software, announced an end to updates, attributing this to AI decompilation and mentioning @hackdeacon. The context is game cheating/anti-cheat discussion; DMA means direct memory access. The post does not clearly establish a revision or full product identity for PUP. Another candidate at 19:13:57 agrees that the monopoly software has fallen but adds no independent research; it is judged duplicate rather than a new source or case.\n\nRetrieving the post confirms only text and a photo attachment, whose details were not inspected. No PUP developer announcement, recovered source, model, comparison record or checkable timeline was obtained. The end of updates, market dominance and AI causality remain the poster's account/interpretation, not independently established business facts. Enthusiasm about learning decompilation is not an implemented project. REA is not evidenced. No software was downloaded or run and no cheating was assisted here.",
+      "metadata": ["Candidate snapshot: 5 likes, 288 views, 0 reposts, 4 replies. The shutdown and causal explanation are not independently verified."],
+      "source_labels": ["Pengchen's PUP shutdown and AI-decompilation account, November 13, 2026 at 18:46:01 Beijing time"]
+    }
+  },
+  {
+    "id": "codingrobot-apk-exe-python-backend-api-report",
+    "title": "APK／Windows EXE到Python接口：codingrobot称让模型研究客户端以直接访问后端",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "codingrobot自述把若干APK与EXE交给模型，生成直连后端API的Python脚本，不再依赖原应用；目标、代码与接口验证未公开。",
+    "description": "2026年11月13日19:10:38（北京时间），@codingrobot回复关于Claude重建旧Android应用的讨论，称自己把APK与Windows EXE交给模型，要求生成能直接与后端API交互的Python脚本，因此不再需要使用原应用。父串补查确认Claude语境，但候选同时提及Heabsy托管的消融模型用于Claude拒绝的其他任务，不能把每个脚本都归给同一模型或推定使用REA。\n\n具体用途是替代客户端交互，而不是声称恢复完整源码或可离线运行服务。作者没有列软件名称、版本、端点、身份验证方式、脚本仓库、运行输出或接口兼容性测试；无法判断是静态提取、动态抓包还是利用现有文档，也不补写绕过授权或限流的能力。父帖关于其他人的旧APK现代化只是讨论背景，不把它冒充此人的成果。未执行样本、访问后端或凭据。",
+    "sources": [{"label": "候选：codingrobot的APK／EXE到Python API脚本自述，2026-11-13 19:10:38北京时间", "url": "https://x.com/i/status/2121199052339450213"}, {"label": "补充父帖：DrJMedina的Claude旧Android应用重建语境，早于本轮窗口", "url": "https://x.com/i/status/2121039045258072238"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照0赞、46浏览、0转发、1回复；未披露各个独立应用名称或逐项结果，因此保留同一方法报告，不虚构目标。"],
+    "en": {
+      "title": "From APKs and Windows EXEs to Python APIs: codingrobot reports direct backend scripts",
+      "summary": "codingrobot says a model studied APKs/EXEs and generated Python scripts for direct backend API access, replacing use of the original apps. Targets, code and interface validation are not public.",
+      "description": "At 19:10:38 Beijing time on November 13, 2026, @codingrobot replies to a discussion of Claude rebuilding abandoned Android apps. They say they supplied APKs and Windows EXEs to a model and requested Python scripts that interact with backend APIs directly, so the original apps are no longer needed. Supplementary parent-thread reading establishes a Claude context, but the candidate also mentions Heabsy-hosted abliterated models for other tasks Claude refuses. Not every script can be attributed to one model, and REA use is not inferred.\n\nThe use is replacing client interaction, not a claim of full source recovery or offline service operation. Software names, revisions, endpoints, authentication, script repositories, runtime output and compatibility tests are absent. Static extraction, live traffic observation and existing documentation cannot be distinguished; authorization or rate-limit bypass capabilities are not invented. The parent's account of another person's APK modernization is context, not this poster's achievement. No sample was executed and no backend or credentials were accessed here.",
+      "metadata": ["Candidate snapshot: 0 likes, 46 views, 0 reposts, 1 reply. Individual apps and per-app outcomes are undisclosed, so this remains one method account without invented targets."],
+      "source_labels": ["Candidate: codingrobot's APK/EXE-to-Python API account, November 13, 2026 at 19:10:38 Beijing time", "Supplementary parent: DrJMedina's Claude/abandoned-Android-app context, before this window"]
+    }
+  },
+  {
+    "id": "paul-fable52-ten-seo-report-logic-rebuild",
+    "title": "十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站",
+    "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。",
+    "description": "2026年11月13日18:35:11（北京时间），Paul Vengeons（@VengeonsP）发布长文，称用Fable5.2在一个Agent会话里重建十类付费SEO报告的逻辑。Paul自称SEO顾问、ChatSEO联合创始人，以自有chatseo.app作实验站，避免展示客户数据；文章也推广自家产品。目标是把既有SEO报表的数据层与过滤、连接、排序的逻辑层分开重做，不是逆向Ahrefs或Semrush二进制或复制其专有数据库。\n\n作者称11月13日读取Search Console近28天导出、DataForSEO关键词／外链／美国实时搜索结果及PageSpeed Insights，十类包括站点审计、关键词差距、外链差距、竞品热门页面、流量估算、内容得分、单页检查、关键词互抢、内链机会与排名报告。单站与一组竞品的数据账单合计低于1美元，关键词差距5美分、外链差距3美分；这不包括模型／订阅或搭建成本，也不代表其他站的费用。作者报告2249个差距词中，先看按量排序的300个，有58个接近购买意图；413个多URL查询经锚点与语言版本归并后剩145个，人工阅读只发现一个值得考虑合并的同类文章对。\n\n文章特别比较估算与观测：本站美国月流量估算约150次，而Search Console同国近28天269次点击；法国为1850次，不能把美国数据库的估算当全站流量。一个97分页面的关键词家族245000次展示仅3次点击，精确查询为38600次展示、2次点击、平均第9，但当天美国实时前18名未见该页；平均值掩盖时间变化，不证明原因。\n\n作者明确没有把重建表与付费套件逐行对照、没有测试其他模型、没有全站爬取，也未执行加链接、改标题或合并文章建议，故没有前后流量提升证据。文章提及旧截图103K点击不能归因本次未实施的动作。所有数字是作者单站、单日实验报告，原始导出与Agent日志未审，未独立复现或调用付费数据。",
+    "sources": [{"label": "候选：Paul的十类SEO报告重建长文入口，2026-11-13 18:35:11北京时间", "url": "https://x.com/i/status/2121190132262871482"}, {"label": "同一候选链接的完整文章：数据来源、结果与未测试范围", "url": "https://x.com/i/article/2121188396940902400"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照5赞、693浏览、0转发、2回复；作者为推广产品的利益相关方。未把文章中的商业套件价格当本合集核价。"],
+    "en": {
+      "title": "Rebuilding ten paid SEO report types: Paul uses Fable 5.2 and real data on his ChatSEO site",
+      "summary": "Paul reports rebuilding audit, keyword/backlink-gap and other report logic in one agent session, with under $1 in data for one site. No line-by-line suite comparison, implemented recommendations or traffic-gain measurement.",
+      "description": "At 18:35:11 Beijing time on November 13, 2026, Paul Vengeons (@VengeonsP) publishes an article reporting reconstruction of ten paid SEO report types in one Fable 5.2 agent session. He identifies himself as an SEO consultant and ChatSEO co-founder, using his own chatseo.app as the test site rather than exposing client data; the article also promotes his product. The target is separating and rebuilding existing SEO reports' data layer and their filtering, joining and sorting logic, not reversing Ahrefs/Semrush binaries or copying proprietary databases.\n\nHe says the data were read on November 13: 28-day Search Console exports, DataForSEO keywords/backlinks/live US results and PageSpeed Insights. The ten types are site audit, keyword gap, backlink gap, competitor top pages, traffic estimate, content score, on-page check, keyword cannibalization, internal-link opportunities and rank report. The data bill for one site and competitor set was reportedly under $1, including five cents for the keyword gap and three cents for the backlink gap. This excludes model/subscription and setup costs and does not establish other sites' costs. Of 2,249 gap keywords, he reports reviewing the first 300 by volume and retaining 58 with business intent. Of 413 multi-URL queries, normalization of anchors and language versions leaves 145; his reading identifies one same-type article pair worth considering for a merge.\n\nThe article distinguishes estimates from observations: an estimated 150 monthly US visits versus 269 US Search Console clicks over 28 days, with 1,850 from France. A US database estimate is not total site traffic. A page scored 97 but received three clicks from 245,000 impressions in its keyword family. Its exact query had 38,600 impressions, two clicks and average position nine, yet the live US search that day did not show it in the first 18 results. Averages hide time variation, not its cause.\n\nThe author explicitly did not compare rebuilt tables line by line against paid suites, test other models, crawl an entire site or execute the suggested link, title and article-merge changes. There is no before/after traffic improvement. A referenced older 103K-click screenshot cannot be attributed to this run's unimplemented actions. All figures are a single-site, single-day author report; raw exports and agent logs were not audited, independently reproduced or obtained through paid API calls here.",
+      "metadata": ["Candidate snapshot: 5 likes, 693 views, 0 reposts, 2 replies. The author has a promotional interest. Suite prices in the article were not independently checked by this collection."],
+      "source_labels": ["Candidate: Paul's ten-report reconstruction article entry, November 13, 2026 at 18:35:11 Beijing time", "Full article linked by the same candidate: data, results and untested scope"]
+    }
+  },
+  {
+    "id": "starmex-400-function-app-hybrid-rea-model-study",
+    "title": "400函数菜单栏应用：starmex称Grok先标注、37个难点交Fable，成本未审计",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "一篇REA配置文章自述对400函数应用做Grok／Fable分流，Grok单跑41分钟1.80美元，混合路线37个函数升级；没有目标名称、捕获日志或准确率对照。",
+    "description": "2026年11月13日19:40:11（北京时间），@starmexxx发布Fable5.2、Grok4.6与REA的五种配置文章。可读正文称当周映射五款付费应用总账单14美元，但只有一款未具名的400函数菜单栏应用有具体过程数字，故保留为一个低细节分析实验，不捏造另外四个目标。作者称Grok单独跑41分钟、1.80美元，基础结构较准确、两个数学函数不稳；混合方案先让Grok标注，再将不确定部分交Fable，400个中37个升级、其余363个为基础结构。\n\n文章把混合路线称为约5美元且达到Fable级结果、约三分之一价格；这些是作者估计与评价，没有逐函数答案、匹配定义、准确率、模型调用账单或同条件基线。五款14美元也不等于本次混合实验费用。八worker方案与完整实验室只是配置建议，不冒充已在该应用完成。文中关于其他游戏、模型价格、REA能力与Craft Anything的概述不作为此实验已验证事实。没有公开应用身份、版本、报告或脚本，本合集未运行目标、配置模型或复算费用，保留analysis-test。",
+    "sources": [{"label": "候选：starmex五种配置长文入口，2026-11-13 19:40:11北京时间", "url": "https://x.com/i/status/2121206488886546806"}, {"label": "同候选完整文章：400函数菜单栏应用与混合模型自述", "url": "https://x.com/i/article/2121198769978888192"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照11赞、388浏览、3转发、4回复；工时、成本与准确性都是未审计作者口径。"],
+    "en": {
+      "title": "A 400-function menu-bar app: starmex reports routing 37 hard functions from Grok to Fable",
+      "summary": "A REA setup article reports Grok/Fable routing on a 400-function app: a Grok-only run took 41 minutes and $1.80, with 37 functions escalated in a hybrid. No target name, logs or accuracy comparison.",
+      "description": "At 19:40:11 Beijing time on November 13, 2026, @starmexxx publishes five configurations combining Fable 5.2, Grok 4.6 and REA. The readable article claims five paid apps mapped that week for $14 total, but gives concrete process counts only for one unnamed 400-function menu-bar app. This is retained as one low-detail analysis experiment, without inventing the other four targets. The author says Grok alone took 41 minutes and $1.80, handled plumbing accurately but struggled with two mathematical functions. In the hybrid, Grok labels functions first and uncertainty goes to Fable: 37 of 400 were escalated, with the other 363 described as plumbing.\n\nThe article labels the hybrid about $5 and claims Fable-level results at roughly one third of the price. These are author estimates and judgments without per-function answers, match definitions, accuracy, model bills or a controlled baseline. The five-app $14 total is not this hybrid experiment's cost. Eight-worker and full-lab routes are setup suggestions, not completed experiments on this app. Comments about other games, model prices, REA capabilities and Craft Anything are not treated as verified facts about this test. No app identity, revision, report or script is public. No target was run, models configured or costs independently recalculated here; status is analysis-test.",
+      "metadata": ["Candidate snapshot: 11 likes, 388 views, 3 reposts, 4 replies. Time, costs and accuracy are unaudited author claims."],
+      "source_labels": ["Candidate: starmex's five-setup article entry, November 13, 2026 at 19:40:11 Beijing time", "Full article linked by the candidate: 400-function menu-bar app and hybrid-model account"]
+    }
+  },
+  {
+    "id": "mastercui-claude-linkedin-post-pattern-study-idea",
+    "title": "LinkedIn爆款到原创X草稿：崔棉转述Claude拆主题与互动驱动的营销idea",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "一篇零预算营销指南建议给Claude主题与社区列表，研究高互动LinkedIn帖子后重写原创X草稿，可扩到Reddit；未给实际样本与前后传播测试。",
+    "description": "2026年11月13日16:49:57（北京时间），崔棉大师（@MasterCui）通过文章介绍用Claude做营销的八步流程。第5步明确建议反向拆解同赛道爆款：提供主题与特定社区／创作者名单，让Claude研究LinkedIn近期评论与互动最多的讨论及驱动因素，再改写原创X草稿，不照搬原文；也建议换成Reddit。作者称自己用Typefully安排发帖，AI只负责搜索与选题。\n\n此条目标是重建内容结构与选题机制的使用idea，不是软件二进制逆向，也不是证明爆款可重复生成。文中未列被研究的具体帖子、互动样本、Claude输出、选择依据或A／B传播结果；对Flowmapp合作浏览量及潜客成本的其他营销主张不归因给本次内容拆解。文章整体还包含线索、访谈和SEO建议，但没有另外独立的已执行逆向项目。本合集未收集用户数据、发送消息、调用商业数据或执行营销。",
+    "sources": [{"label": "候选：崔棉的八步Claude营销文章入口，2026-11-13 16:49:57北京时间", "url": "https://x.com/i/status/2121163648886624707"}, {"label": "同候选文章：第5步反向拆解高互动内容及原创边界", "url": "https://x.com/i/article/2121163379612037120"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照2赞、417浏览、0转发、3回复；文章未提供该用法的独立效果测试。"],
+    "en": {
+      "title": "From LinkedIn post patterns to original X drafts: MasterCui's Claude-assisted marketing idea",
+      "summary": "A zero-budget marketing guide proposes studying high-engagement LinkedIn topics and drivers with Claude, then writing original X drafts, optionally using Reddit. No actual sample set or before/after engagement test.",
+      "description": "At 16:49:57 Beijing time on November 13, 2026, MasterCui (@MasterCui) links an eight-step Claude marketing guide. Step five explicitly proposes reverse-engineering strong content in one's niche: supply a topic and community/creator list, have Claude study recent LinkedIn discussions with the most comments and engagement and their drivers, then rewrite them as original X drafts without copying. Reddit is suggested as another source. The writer says Typefully schedules posts while AI handles search and topic selection only.\n\nThe target is an idea for reconstructing content structure and topic-selection patterns, not binary reverse engineering or proof that viral success is reproducible. The article names no examined posts, interaction sample, Claude output, selection rationale or A/B engagement result. Other claims about Flowmapp partnership views and prospect costs are not attributed to this content study. The broader article includes lead generation, interviews and SEO suggestions, but no additional independently executed reversing project. No user data was collected, messages sent, commercial data called or marketing executed here.",
+      "metadata": ["Candidate snapshot: 2 likes, 417 views, 0 reposts, 3 replies. The article supplies no independent effectiveness test for this use."],
+      "source_labels": ["Candidate: MasterCui's eight-step Claude marketing article entry, November 13, 2026 at 16:49:57 Beijing time", "Article linked by the candidate: step five on high-engagement content and original-writing limits"]
+    }
+  },
+  {
     "id": "slothnotes-bear-rea-swift-appkit-rebuild",
     "title": "SlothNotes：Shakirul先用REA研究Bear行为，再用Swift／AppKit重建笔记应用",
     "category": "apps", "rea": "REA", "status": "unverified",
@@ -298,16 +536,16 @@
     "id": "retroracing-claude-amiga-adf-reverse-engineering-report",
     "title": "Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目",
     "category": "games", "rea": "other-ai", "status": "in-progress",
-    "summary": "Jonathan Thomas称AI让复古计算逆向项目成为可能，后续解释给Claude ADF文件并不断提示继续；读者问及Bird of Prey，未核源码、运行结果或等价性。",
-    "description": "2026年11月13日06:45:30（北京时间），Jonathan Thomas（@RetroRacing）称AI使此前只能梦想的复古计算逆向项目成为可能，也承认自己或许没有逐条研究指令与数据结构。原帖有视频附件，但正文没给恢复比例、运行平台或测试结果，不能把兴奋评价当成完整移植成功。\n\n07:47:08，Claire Rogers（@GuiltyDogVR）的本窗口候选回复问，Claude是否在逆向既有二进制，还是Bird of Prey等游戏本就有源码。补取同串中Jonathan在07:51:03的回答：他难以判断自己的技术知识帮了多少，但在他看来流程基本是把ADF文件交给Claude，每次模型展示进展时再说继续。ADF是Amiga磁盘镜像格式，提供的是输入背景，不代表取得或发布原始源码。Bird of Prey来自读者举例，不将它推成作者明确确认的唯一目标。\n\n同串07:41:24作者明确赞扬Claude，但没有工具调用、镜像版本、生成代码、函数对照、可运行移植或优化测量；原视频未观看。本合集没有运行镜像或生成代码，REA未提及。后续回答只是补充材料，不增加候选数；保留进行中自述，不认定全自动、一次生成或实现等价。",
-    "sources": [{"label": "Jonathan Thomas的AI复古逆向自述，2026-11-13 06:45:30北京时间", "url": "https://x.com/i/status/2121011531190009886"}, {"label": "Claire Rogers询问Bird of Prey二进制与源码背景，07:47:08", "url": "https://x.com/i/status/2121027042036568321"}, {"label": "补充作者回答：把ADF文件交给Claude并提示继续，07:51:03", "url": "https://x.com/i/status/2121028027224317998"}, {"label": "补充同串：Jonathan确认自己使用Claude，07:41:24", "url": "https://x.com/i/status/2121025600936989019"}],
+    "summary": "Jonathan Thomas称给Claude Amiga ADF镜像推进研究；新回复强调大量人工输入，读者识别F1 Grand Prix，但未独立确认题名、可运行移植或等价性。",
+    "description": "2026年11月13日06:45:30（北京时间），Jonathan Thomas（@RetroRacing）称AI使此前只能梦想的复古计算逆向项目成为可能，也承认自己或许没有逐条研究指令与数据结构。原帖有视频附件，但正文没给恢复比例、运行平台或测试结果，不能把兴奋评价当成完整移植成功。\n\n07:47:08，Claire Rogers（@GuiltyDogVR）的此前窗口候选回复问，Claude是否在逆向既有二进制，还是Bird of Prey等游戏本就有源码。补取同串中Jonathan在07:51:03的回答：他难以判断自己的技术知识帮了多少，但在他看来流程基本是把ADF文件交给Claude，每次模型展示进展时再说继续。ADF是Amiga磁盘镜像格式，提供的是输入背景，不代表取得或发布原始源码。Bird of Prey来自读者举例，不将它推成作者明确确认的唯一目标。\n\n同串07:41:24作者明确赞扬Claude，但没有工具调用、镜像版本、生成代码、函数对照、可运行移植或优化测量；原视频未观看。本合集没有运行镜像或生成代码，REA未提及。补充回答不增加候选数；保留进行中自述，不认定全自动、一次生成或实现等价。\n\n同日17:23:20新候选中，Jonathan回复@swapd0，强调Claude花了很多时间思考，自己给了大量输入，认为这反映手工逆向的工作量；同意它会是很棒的Jaguar游戏。补读17:19:46父回复，swapd0称画面是F1 Grand Prix，回忆自己数年前想反汇编移植到Atari Jaguar。题名是读者识别，不替作者独立确认；Jaguar移植仍是愿望，读者早年尝试不是AI成果。这补充人工参与与可能目标背景，没有工时或可玩版本；与先前只提示继续的简化表述并列，不能称无人干预。",
+    "sources": [{"label": "Jonathan Thomas的AI复古逆向自述，2026-11-13 06:45:30北京时间", "url": "https://x.com/i/status/2121011531190009886"}, {"label": "Claire Rogers询问Bird of Prey二进制与源码背景，07:47:08", "url": "https://x.com/i/status/2121027042036568321"}, {"label": "补充作者回答：把ADF文件交给Claude并提示继续，07:51:03", "url": "https://x.com/i/status/2121028027224317998"}, {"label": "补充同串：Jonathan确认自己使用Claude，07:41:24", "url": "https://x.com/i/status/2121025600936989019"}, {"label": "新候选：大量人工输入与Jaguar愿望，2026-11-13 17:23:20北京时间", "url": "https://x.com/i/status/2121172047678386547"}, {"label": "补充父回复：swapd0识别F1 Grand Prix并回忆旧移植，17:19:46", "url": "https://x.com/i/status/2121171152072790016"}],
     "snapshot_date": "2026-11-13", "metadata": ["主候选封存19赞、473浏览、3转发、2回复；提问候选2赞、11浏览、0转发、1回复。补取浏览增长不替换原快照。"],
     "en": {
       "title": "Amiga ADF reversing: Jonathan Thomas reports handing a disk image to Claude for retrocomputing projects",
-      "summary": "Jonathan Thomas says AI enables retrocomputing reverse engineering and later describes feeding Claude an ADF file and repeatedly asking it to continue. A reader asks about Bird of Prey; code, runtime results and equivalence are unchecked.",
-      "description": "At 06:45:30 Beijing time on November 13, 2026, Jonathan Thomas (@RetroRacing) says AI enables retrocomputing reverse-engineering projects he previously only dreamed of. He acknowledges he may not be inspecting individual instructions and data structures himself. The original has a video attachment, but the text gives no recovery percentage, runtime platform or test results. Enthusiasm is not proof of a complete successful port.\n\nAt 07:47:08, an in-window candidate reply from Claire Rogers (@GuiltyDogVR) asks whether Claude is reversing existing binaries or source was available for games such as Bird of Prey. Supplementary retrieval finds Jonathan's 07:51:03 answer: he cannot judge how much his technical knowledge helps, but describes the process as little more than giving Claude an ADF file and asking it to continue whenever it shows progress. ADF is an Amiga disk-image format. This establishes input context, not access to or release of original source. Bird of Prey is the reader's example, not the author's explicit confirmation of a sole target.\n\nIn the same thread at 07:41:24 the author explicitly praises Claude, but supplies no tool calls, image version, generated code, function comparisons, runnable port or optimization measurements. The video was not viewed. No image or generated code was run here, and REA is unmentioned. Later answers are supplemental evidence, not additional candidates. Retained as an in-progress author account without claims of full autonomy, one-shot generation or equivalence.",
+      "summary": "Jonathan Thomas reports studying Amiga ADF images with Claude. A new reply stresses substantial human input; a reader identifies F1 Grand Prix, without independent confirmation, a runnable port or equivalence evidence.",
+      "description": "At 06:45:30 Beijing time on November 13, 2026, Jonathan Thomas (@RetroRacing) says AI enables retrocomputing reverse-engineering projects he previously only dreamed of. He acknowledges he may not be inspecting individual instructions and data structures himself. The original has a video attachment, but the text gives no recovery percentage, runtime platform or test results. Enthusiasm is not proof of a complete successful port.\n\nAt 07:47:08, an earlier-window candidate reply from Claire Rogers (@GuiltyDogVR) asks whether Claude is reversing existing binaries or source was available for games such as Bird of Prey. Supplementary retrieval finds Jonathan's 07:51:03 answer: he cannot judge how much his technical knowledge helps, but describes the process as little more than giving Claude an ADF file and asking it to continue whenever it shows progress. ADF is an Amiga disk-image format. This establishes input context, not access to or release of original source. Bird of Prey is the reader's example, not the author's explicit confirmation of a sole target.\n\nIn the same thread at 07:41:24 the author explicitly praises Claude, but supplies no tool calls, image version, generated code, function comparisons, runnable port or optimization measurements. The video was not viewed. No image or generated code was run here, and REA is unmentioned. Supplementary answers are not additional candidates. Retained as an in-progress author account without claims of full autonomy, one-shot generation or equivalence.\n\nA new candidate at 17:23:20 that day has Jonathan replying to @swapd0: Claude spent considerable time thinking with plenty of human input, which he considers indicative of manual reversing effort. He agrees it would make a great Jaguar game. A supplementary parent reply at 17:19:46 identifies the footage as F1 Grand Prix and recalls swapd0's attempted disassembly for an Atari Jaguar port years earlier. The title is the reader's identification, not independently confirmed by the author; the Jaguar port remains a wish and the reader's older work is not an AI achievement. This adds human involvement and possible target context, not working hours or a playable release. It is retained alongside the earlier simplified just-continue account, not as an unattended process.",
       "metadata": ["Main candidate: 19 likes, 473 views, 3 reposts, 2 replies. Question candidate: 2 likes, 11 views, 0 reposts, 1 reply. Later view growth does not replace sealed snapshots."],
-      "source_labels": ["Jonathan Thomas's AI retrocomputing-reversing account, November 13, 2026 at 06:45:30 Beijing time", "Claire Rogers asks about Bird of Prey binaries and source, 07:47:08", "Supplementary author answer: giving Claude an ADF file and asking it to continue, 07:51:03", "Supplementary thread: Jonathan confirms using Claude, 07:41:24"]
+      "source_labels": ["Jonathan Thomas's AI retrocomputing-reversing account, November 13, 2026 at 06:45:30 Beijing time", "Claire Rogers asks about Bird of Prey binaries and source, 07:47:08", "Supplementary author answer: giving Claude an ADF file and asking it to continue, 07:51:03", "Supplementary thread: Jonathan confirms using Claude, 07:41:24", "New candidate: substantial human input and a Jaguar wish, November 13, 2026 at 17:23:20 Beijing time", "Supplementary parent: swapd0 identifies F1 Grand Prix and recalls an older port attempt, 17:19:46"]
     }
   },
   {
@@ -21008,15 +21246,15 @@
     "id": "mvave-fm1-ai-firmware-reader-report",
     "title": "M-VAVE FM-1：AI 固件玩法与价格变化的读者转述",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
-    "summary": "riverleaf88称FM-1合成器因AI辅助固件玩法走热，价格由一百多到三百多；未给具体固件或效果测试。",
-    "description": "10月20日11:40（北京时间），@riverleaf88 提到M-VAVE FM-1玩具合成器，称原先一百多即可买到，AI加持后出现多种固件玩法，价格已到三百多。该设备是具体的音乐硬件研究目标，可作为AI改造旧有产品玩法的读者线索。\n\n帖子没有列固件名称、仓库、模型、功能差异或音频对照，不能据此恢复具体合成算法、确认自定义固件可刷入或宣称音质提升。价格没有明确币种、交易渠道或时间序列，只保留作者的市场观察，不把它写成核实成交价、收益或固件兼容性证据。未确认使用REA，本合集未下载或刷写固件。",
-    "sources": [{"label": "riverleaf88：M-VAVE FM-1的AI固件潮流与价格观察", "url": "https://x.com/i/status/2112388430210728357"}],
-    "snapshot_date": "2026-10-20", "metadata": [],
+    "summary": "早期FM-1价格观察新增社区固件两周45至154的转述；链接视频标题确认FM-1，但未核固件目录、AI分工、厂商开放范围或音频效果。",
+    "description": "10月20日11:40（北京时间），@riverleaf88 提到M-VAVE FM-1玩具合成器，称原先一百多即可买到，AI加持后出现多种固件玩法，价格已到三百多。该设备是具体的音乐硬件研究目标，可作为AI改造旧有产品玩法的读者线索。\n\n帖子没有列固件名称、仓库、模型、功能差异或音频对照，不能据此恢复具体合成算法、确认自定义固件可刷入或宣称音质提升。价格没有明确币种、交易渠道或时间序列，只保留作者的市场观察，不把它写成核实成交价、收益或固件兼容性证据。未确认使用REA，本合集未下载或刷写固件。\n\n2026年11月13日18:45:52的新候选称MVAVE的99美元口袋合成器两周从45款增至154款社区固件，爱好者用AI研究后厂商开放。补取链接并读取YouTube公开oEmbed元数据，标题为“FM-1: Amazing things are happening with this little synth”，作者David Hilowitz Music，确认指向FM-1，不另建同设备案例。视频发布日期未核，未观看视频；数字、99美元报价及厂商开放的因果仍仅候选转述。没有计数清单、时间点、固件差异、模型会话或开放许可，不能把154当可兼容且独立验证的固件总数，也不能与无币种的旧价格作行情比较。",
+    "sources": [{"label": "riverleaf88：M-VAVE FM-1的AI固件潮流与价格观察", "url": "https://x.com/i/status/2112388430210728357"}, {"label": "新候选：两周45至154固件与AI研究转述，2026-11-13 18:45:52北京时间", "url": "https://x.com/i/status/2121192820098674721"}, {"label": "补充视频：oEmbed标题确认FM-1与David Hilowitz Music，原发布日期未核，未观看", "url": "https://www.youtube.com/watch?v=hmYPh5CYtWw"}],
+    "snapshot_date": "2026-11-13", "metadata": ["11月13日候选快照0赞、14浏览、0转发、0回复；45与154来自报道，未审计固件清单。"],
     "en": {
       "title": "M-VAVE FM-1: a reader account of AI firmware experimentation and prices",
-      "summary": "riverleaf88 attributes FM-1 interest and a rise from the low hundreds to over three hundred to AI-assisted firmware experimentation, without a firmware release or performance test.",
-      "description": "At 11:40 Beijing time on October 20, @riverleaf88 mentions the M-VAVE FM-1 toy synthesizer, saying it previously cost a little over one hundred and now exceeds three hundred as AI-assisted firmware experiments proliferate. The device is a specific music-hardware research target, providing a reader lead on AI modifications to an existing product.\n\nThe post names no firmware, repository, model, feature difference or audio comparison. Recovery of synthesis algorithms, flashable custom firmware and improved sound quality are not established. The price claim has no explicit currency, sales channel or time series and remains the author's market observation, not verified transaction prices, profit or firmware-compatibility evidence. REA use is unconfirmed; this collection did not download or flash firmware.",
-      "metadata": [], "source_labels": ["riverleaf88's observations on FM-1 AI firmware experimentation and prices"]
+      "summary": "An earlier FM-1 price account gains a report of community firmware growing from 45 to 154 in two weeks. A linked video's title confirms FM-1, not the inventory, AI roles, vendor openness or audio results.",
+      "description": "At 11:40 Beijing time on October 20, @riverleaf88 mentions the M-VAVE FM-1 toy synthesizer, saying it previously cost a little over one hundred and now exceeds three hundred as AI-assisted firmware experiments proliferate. The device is a specific music-hardware research target, providing a reader lead on AI modifications to an existing product.\n\nThe post names no firmware, repository, model, feature difference or audio comparison. Recovery of synthesis algorithms, flashable custom firmware and improved sound quality are not established. The price claim has no explicit currency, sales channel or time series and remains the author's market observation, not verified transaction prices, profit or firmware-compatibility evidence. REA use is unconfirmed; this collection did not download or flash firmware.\n\nA new candidate at 18:45:52 Beijing time on November 13, 2026 says MVAVE's $99 pocket synth grew from 45 to 154 community firmwares in two weeks and that hobbyists used AI to reverse it before the vendor opened up. Supplementary link metadata from YouTube oEmbed identifies the title as FM-1: Amazing things are happening with this little synth, by David Hilowitz Music. This establishes the FM-1 target without creating another record for the same device. The video's publication date was not checked and it was not watched. The counts, $99 quote and causal account of vendor openness remain the candidate's retelling. No inventory, count dates, firmware differences, model sessions or open-license scope were inspected. The figure 154 is not an independently verified total of compatible firmwares, and the price is not compared as market movement against the older currency-unspecified figures.",
+      "metadata": ["November 13 candidate snapshot: 0 likes, 14 views, 0 reposts, 0 replies. The reported 45 and 154 were not audited against a firmware inventory."], "source_labels": ["riverleaf88's observations on FM-1 AI firmware experimentation and prices", "New candidate: two-week growth from 45 to 154 firmwares and AI research, November 13, 2026 at 18:45:52 Beijing time", "Supplementary video: oEmbed title confirms FM-1 and David Hilowitz Music; original publication date unchecked, not watched"]
     }
   },
   {

@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [先研究一个剪辑点：读者建议用REA-Video解释转镜，再回放质疑](../cases/rea-video-single-cut-explanation-replay-idea.md) — 一位读者未试用REA-Video，提出先选一个切镜点、问剪辑作用、回放核对解释，再考虑整片重建；没有具体片名或测试结果。 **[其他 AI 逆向 · 待验证]**
+- [精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5](../cases/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。 **[其他 AI 逆向 · 待验证]**
+- [十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站](../cases/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。 **[其他 AI 逆向 · 分析测试]**
+- [LinkedIn爆款到原创X草稿：崔棉转述Claude拆主题与互动驱动的营销idea](../cases/mastercui-claude-linkedin-post-pattern-study-idea.md) — 一篇零预算营销指南建议给Claude主题与社区列表，研究高互动LinkedIn帖子后重写原创X草稿，可扩到Reddit；未给实际样本与前后传播测试。 **[其他 AI 逆向 · 待验证]**
 - [REA for Growth：用竞品流量、广告与招聘反推增长的早期技能](../cases/treg-rea-for-growth-competitor-teardown-skill.md) — 候选介绍Treg的免费REA for Growth技能，让Agent研究竞品多种增长信号；宣称样例数据成本0.58美元、提供1美元试用额度，未核完整报告与复现。 **[未确认使用 REA · 相关项目]**
 - [月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配](../cases/sandmrk-moonlit-peony-portrait-prompt-reconstruction.md) — sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。 **[其他 AI 逆向 · 待验证]**
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](../cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
