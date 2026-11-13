@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2202 entries**, organized by use case, without a Top-N or popularity threshold.
+**2213 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
 - [Games and preservation](categories/en/games.md) (439)
-- [Hardware and interoperability](categories/en/hardware.md) (587)
-- [Applications and clients](categories/en/apps.md) (915)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (261)
+- [Hardware and interoperability](categories/en/hardware.md) (590)
+- [Applications and clients](categories/en/apps.md) (920)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (264)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -470,6 +470,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Inaudible TV-to-phone communication: Stim-P proposes disabling it with REA](cases/en/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Replying to a claim about inaudible TV-to-phone communication, Stim-P suggests REA and an agent to disable it. No device, frequency or code is given, and the alleged mechanism is not established. **[REA · Needs verification]**
+- [Pixel 9 bigwave video decoder: an author says Claude continues after an ownership explanation](cases/en/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243 reports starting Claude-assisted research on Pixel 9's bigwave dedicated video decoder. Claude reportedly accepted the ownership explanation and Mali-community analogy; no driver or decoding result is reported. **[Other AI-assisted work · In progress]**
+- [Pixel 4 modem research refused: an author recalls Claude citing regional radio compliance](cases/en/llsswssw-pixel4-modem-claude-refusal-report.md) — The same author recalls Claude refusing Pixel 4 modem reverse-engineering over regional radio compliance. No task date, prompt or refusal log is supplied; device defects or unlawful conduct are not established. **[Other AI-assisted work · Needs verification]**
 - [NVIDIA kernel-customization idea: a reader proposes AI-agent research against feared restrictions](cases/en/nvidia-kernel-ai-customization-model-lock-idea.md) — A reader calls for AI agents to study and customize NVIDIA kernels to block feared controls. No model, revision or implementation; distinct from the existing Linux-driver stability idea. **[Other AI-assisted work · Needs verification]**
 - [Reusing a 2016 Kindle: Harmon credits AI-assisted research for installing WeRead](cases/en/harmon-2016-kindle-ai-weread-install-report.md) — Harmon reports repurposing a school-era Kindle for quiet reading, installing WeRead after reversing it and thanking AI. Model, device revision, jailbreak and adaptation method are undisclosed. **[Other AI-assisted work · Needs verification]**
 - [Console firmware idea: @42Kmi asks whether an onboard LLM could modify updates to preserve vulnerabilities](cases/en/42kmi-console-llm-firmware-vulnerability-preservation-idea.md) — The author proposes installing an LLM on a game console to modify pending firmware updates and retain vulnerabilities. A feasibility question, without a console model, firmware sample, implementation or tests. **[Other AI-assisted work · Needs verification]**
@@ -1060,6 +1063,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [A JAR with source already available: a reader reports an agent spending an hour decompiling it](cases/en/agent-jar-decompile-source-already-available-report.md) — A reader says an agent given a decompiler spent an hour on a JAR whose source the reader already had. This records redundant work, without inferring model, library or recovery quality. **[Other AI-assisted work · Needs verification]**
+- [Coral QQ enhancement package: Oyu relays AI-assisted file comparisons and NSIS bundling clues](cases/en/oyu-coral-qq-ai-file-installer-comparison-report.md) — Oyu relays an AI study claiming only two of 2,313 official files changed, while the installer enabled silent bundled installs. Neither sample nor video was inspected; the claim cannot cover every release. **[Other AI-assisted work · Needs verification]**
+- [Meta ad creative analysis: Steve P. Young reports voice-building an internal AI tool](cases/en/stevepyoung-meta-ad-creative-ai-analysis-tool.md) — The author says an app input leads to competitor Meta-ad analysis of hooks, pain points, visuals and stories, then new concepts for his own app. No model, code or campaign outcome is disclosed. **[Other AI-assisted work · Needs verification]**
+- [References after iOS module removal: LoopMakes suggests AI string and call-chain checks on Release binaries](cases/en/loopmakes-ios-release-removed-module-ai-audit-idea.md) — In an App Store 5.6 review discussion, the author suggests AI analysis of the final binary for references left after module removal. The root post's review experience is not an AI validation result. **[Other AI-assisted work · Needs verification]**
+- [Inspecting data sent by one's own apps: a mitmproxy HAR-to-Claude/REA audit idea](cases/en/rea-mitmproxy-har-personal-app-data-audit-idea.md) — A poster proposes capturing an app's HAR, then asking Claude Code and REA for personal-data requests and sending code. No app or report is supplied; precise code attribution needs additional program evidence. **[REA · Needs verification]**
 - [Ziliu desktop self-test: WorkBuddy and REA reportedly expose 178 channels but find no keys](cases/en/ziliu-workbuddy-rea-client-exposure-self-test.md) — The author studies a desktop app he spent a year developing and reports a 54KB analysis, 178 communication channels, 337 calls and 42,352 unknown items. No detected keys or prompts is not proof of client or server security. **[REA · Analysis test]**
 - [Fable story-animation teardown: Ganesh observes one run with Claude and REA, but training remains inferred](cases/en/ganesh-fable-animation-rea-traffic-teardown.md) — Ganesh studies existing web products to animate his seven-year-old daughter's story and publishes a product-teardown skill. When challenged, he explicitly calls the Fable per-character training explanation a best guess. **[REA · Analysis test]**
 - [A second story-animation web app: Ganesh reports a REA-observed story run without a verified name](cases/en/ganesh-second-story-animation-rea-traffic-study.md) — The same post reports studying request/response field names in a second story-animation app. Its name and distinct findings are absent from the inspected text; Fable's training inference is not assigned to it. **[REA · Analysis test]**
@@ -1978,6 +1986,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Recover a brand kit from existing logos: a Claude audit and vector-reconstruction prompt idea](cases/en/claude-existing-logo-vector-brand-kit-prompt-idea.md) — The prompt audits existing company logos, extracts colors, flags font guesses, then requests faithful SVG/PDF/PNG reconstruction and print assets. No actual company files or completed example are supplied. **[Other AI-assisted work · Needs verification]**
+- [A mattstasoff reference: bruno reports studying and rebuilding visual content with Lena](cases/en/bruno-lena-mattstasoff-visual-rebuild-report.md) — bruno_apps says he studied and rebuilt a mattstasoff work with Lena, attaching an image and asking which is AI. No original title, prompt, process or similarity check is supplied. **[Other AI-assisted work · Needs verification]**
+- [A forty-minute video rebuild: ZDJKN reports a Codex-assisted reconstruction demo](cases/en/zdjkn-codex-forty-minute-video-rebuild-report.md) — ZDJKN reports rebuilding a video after 40 minutes of Codex reverse-engineering and attaches a demo. The original, process and fidelity are undisclosed; a demo is not exact recovery of the source project. **[Other AI-assisted work · Needs verification]**
 - [Study one cut first: a reader proposes REA-Video explanations checked against replay](cases/en/rea-video-single-cut-explanation-replay-idea.md) — A reader who has not tried REA-Video proposes selecting a cut, asking its purpose and replaying the footage to challenge the explanation before a full remake. No named video or test result. **[Other AI-assisted work · Needs verification]**
 - [An exact animation-prompt challenge: OscarAI asks for Midjourney sref and Seedance 2.5 recovery](cases/en/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI challenges any AI to recover exact style references and prompts from an animation and reproduce it perfectly. The challenge is not completed; original parameters and frame-by-frame validation are absent. **[Other AI-assisted work · Needs verification]**
 - [Rebuilding ten paid SEO report types: Paul uses Fable 5.2 and real data on his ChatSEO site](cases/en/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul reports rebuilding audit, keyword/backlink-gap and other report logic in one agent session, with under $1 in data for one site. No line-by-line suite comparison, implemented recommendations or traffic-gain measurement. **[Other AI-assisted work · Analysis test]**

@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2202 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2213 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（439）
-- [硬件与设备互通](categories/hardware.md)（587）
-- [应用与客户端](categories/apps.md)（915）
-- [算法与功能重建](categories/algorithms.md)（261）
+- [硬件与设备互通](categories/hardware.md)（590）
+- [应用与客户端](categories/apps.md)（920）
+- [算法与功能重建](categories/algorithms.md)（264）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -468,6 +468,9 @@
 
 ### 硬件与设备互通
 
+- [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
+- [Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向](cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。 **[其他 AI 逆向 · 进行中]**
+- [Pixel4 modem研究遭拒：作者回忆Claude担心地区射频合规](cases/llsswssw-pixel4-modem-claude-refusal-report.md) — 同一作者回忆曾让Claude逆向Pixel4 modem，因不同地区无线射频合规被拒；没有任务发生日期、提示或拒绝日志，不证明设备有缺陷或行为违法。 **[其他 AI 逆向 · 待验证]**
 - [NVIDIA内核定制idea：读者号召AI Agent研究限制，不把未来监控猜测当事实](cases/nvidia-kernel-ai-customization-model-lock-idea.md) — 一位读者建议集中AI Agent研究并定制NVIDIA内核，以阻止其担心的限制；没有型号、版本或实现，区别于既有Linux驱动稳定性idea。 **[其他 AI 逆向 · 待验证]**
 - [2016年的Kindle重用：Harmon称借AI研究设备并装上微信读书](cases/harmon-2016-kindle-ai-weread-install-report.md) — Harmon自述让陪伴中学时期的旧Kindle重新用于阅读，称逆向后装上微信读书并感谢AI；模型、机型、越狱和适配方法未披露。 **[其他 AI 逆向 · 待验证]**
 - [游戏主机固件idea：@42Kmi问能否让本机LLM修改更新以保留漏洞](cases/42kmi-console-llm-firmware-vulnerability-preservation-idea.md) — 作者提出把LLM装进游戏主机，修改待安装固件以保留现有漏洞；是可行性问题，没有主机型号、固件样本、实现或测试。 **[其他 AI 逆向 · 待验证]**
@@ -1058,6 +1061,11 @@
 
 ### 应用与客户端
 
+- [已有源码的JAR：读者称Agent仍花一小时反编译](cases/agent-jar-decompile-source-already-available-report.md) — 一位回复者称给Agent反编译器后，它用一小时研究一个自己已有源码的JAR；记录冗余工作，不推定模型、库名或恢复质量。 **[其他 AI 逆向 · 待验证]**
+- [珊瑚虫QQ增强包：Oyu转述AI逐文件比较与NSIS捆绑线索](cases/oyu-coral-qq-ai-file-installer-comparison-report.md) — Oyu转述有人用AI分析旧QQ增强包，称2313个官方文件仅2个被改，另在安装脚本发现默认静默捆绑；未审样本或视频，不能推广到所有版本。 **[其他 AI 逆向 · 待验证]**
+- [Meta广告创意拆解：Steve P. Young称语音搭起内部AI分析工具](cases/stevepyoung-meta-ad-creative-ai-analysis-tool.md) — 作者称输入应用即可分析竞品Meta广告，拆出钩子、痛点、视觉和叙事，再为自己的应用生成新创意；没有披露模型、代码或投放成效。 **[其他 AI 逆向 · 待验证]**
+- [iOS模块移除后的残留：LoopMakes建议AI检查Release二进制字符串与调用链](cases/loopmakes-ios-release-removed-module-ai-audit-idea.md) — 在App Store 5.6审核讨论中，作者建议用AI检查最终二进制，确认删去模块后是否仍有引用；根帖的审核经历不是AI验证结果。 **[其他 AI 逆向 · 待验证]**
+- [自有应用的数据发送检查：mitmproxy HAR到Claude／REA的审计idea](cases/rea-mitmproxy-har-personal-app-data-audit-idea.md) — 作者建议抓取自己应用的HAR，让Claude Code与REA列含个人数据的请求并追发送代码；没有实际应用或报告，HAR到精确代码归因仍需额外程序证据。 **[REA · 待验证]**
 - [字流桌面版自测：孟健用WorkBuddy接REA，报告178个通道与零密钥检出](cases/ziliu-workbuddy-rea-client-exposure-self-test.md) — 作者研究自己开发一年的字流桌面版，称54KB报告识别178个通信通道、337次调用，42352项未知；未检出密钥或提示词不等于证明客户端或服务端完全安全。 **[REA · 分析测试]**
 - [Fable故事动画拆解：Ganesh用Claude与REA观察一轮生成，训练机制仍是推测](cases/ganesh-fable-animation-rea-traffic-teardown.md) — 为了给七岁女儿的故事做动画，Ganesh研究既有网页产品并公开product-teardown技能；Fable角色字段提示训练的说法经追问被作者明确降为best guess。 **[REA · 分析测试]**
 - [另一款故事动画网页应用：Ganesh用REA观察一条故事，未披露可核名称](cases/ganesh-second-story-animation-rea-traffic-study.md) — Ganesh同帖报告第二款故事动画应用的请求／响应字段研究；可读文字未给其名称或独立发现，不把Fable角色训练推断移植到该目标。 **[REA · 分析测试]**
@@ -1976,6 +1984,9 @@
 
 ### 算法与功能重建
 
+- [从已有Logo反推品牌包：Claude文件审计与向量重建提示方案](cases/claude-existing-logo-vector-brand-kit-prompt-idea.md) — 提示方案先审计公司已有Logo，提取颜色、判断字体并标猜测，再按原比例重建SVG／PDF／PNG及印刷资产；没有实际公司文件或完成样例。 **[其他 AI 逆向 · 待验证]**
+- [参照mattstasoff作品：bruno称用Lena逆向重建视觉内容](cases/bruno-lena-mattstasoff-visual-rebuild-report.md) — bruno_apps说看见mattstasoff的作品后，用Lena研究并重建，附图询问能否分辨AI；未披露原作名称、提示、过程或相似度验证。 **[其他 AI 逆向 · 待验证]**
+- [40分钟视频重建：ZDJKN称用Codex逆向后得到演示片](cases/zdjkn-codex-forty-minute-video-rebuild-report.md) — ZDJKN自报Codex逆向40分钟后重做一段视频并附演示；原片、制作步骤与相似度未披露，不能把演示当精确恢复原工程。 **[其他 AI 逆向 · 待验证]**
 - [先研究一个剪辑点：读者建议用REA-Video解释转镜，再回放质疑](cases/rea-video-single-cut-explanation-replay-idea.md) — 一位读者未试用REA-Video，提出先选一个切镜点、问剪辑作用、回放核对解释，再考虑整片重建；没有具体片名或测试结果。 **[其他 AI 逆向 · 待验证]**
 - [精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5](cases/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。 **[其他 AI 逆向 · 待验证]**
 - [十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站](cases/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。 **[其他 AI 逆向 · 分析测试]**

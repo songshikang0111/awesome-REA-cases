@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2202 cases & projects
+# 2213 cases & projects
 
-**Latest case update:** November 13, 2026, 20:20 · **Last maintained:** November 13, 2026, 20:20 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 14, 2026, 00:10 · **Last maintained:** November 14, 2026, 00:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: connect devices, trace reused protocols, distinguish traffic clues from server-side guesses and preserve games. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: connect devices, preserve games and test what reconstructed behavior actually matches. Protocol attribution and the limits of traffic-based inference matter as much as a working demo. Dates identify sources or author updates, not collection dates.
 
 1. **[Fujifilm X half: camera to Mac without the phone](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12` author report — **Opus reportedly identifies Bluetooth/Wi-Fi protocol differences** for JPEG imports and Google Photos uploads. Incremental camera tests, not an iteration-free build; code and traces unchecked here. `Unverified here`
 2. **[Anker recorder: ask an agent for last week's conversation](cases/en/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12` author report — **REA Bluetooth research and MCP recording retrieval**, with local Qwen ASR or online transcription. Berryxia plans source release after refinement/testing; code and device path unchecked here. `In progress`
@@ -50,9 +50,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **439** |
-| [Hardware & interoperability](categories/en/hardware.md) | **587** |
-| [Applications & clients](categories/en/apps.md) | **915** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **261** |
+| [Hardware & interoperability](categories/en/hardware.md) | **590** |
+| [Applications & clients](categories/en/apps.md) | **920** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **264** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

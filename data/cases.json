@@ -1,5 +1,201 @@
 [
   {
+    "id": "agent-jar-decompile-source-already-available-report",
+    "title": "已有源码的JAR：读者称Agent仍花一小时反编译",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "一位回复者称给Agent反编译器后，它用一小时研究一个自己已有源码的JAR；记录冗余工作，不推定模型、库名或恢复质量。",
+    "description": "2026年11月13日22:11:33（北京时间），一位回复@akshay_pachaar的读者回忆，曾给自己的Agent一个反编译器，结果它花一小时逆向一个作者本来就持有源码的JAR。JAR是Java程序归档；这条是具体的二进制研究经历，价值在于暴露输入准备与工具选择可能造成的冗余，而非宣布新的反编译能力。\n\n帖子没有JAR名称、版本、模型、反编译器、提示或操作记录，也没说明Agent是否知道源码可用、反编译恢复了什么或作者是否纠正路线。“一小时”为作者回忆，不能据此计算性能、费用或判定Agent普遍不会查源码；也不能说研究已成功或完全失败。本合集未取得归档、源码或复跑，未确认REA，按低细节未核验报告收录。",
+    "sources": [{"label": "候选：已有源码JAR的一小时Agent反编译回忆，2026-11-13 22:11:33北京时间", "url": "https://x.com/i/status/2121244579642933592"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照0赞、4浏览、0转发、0回复；时长仅作者自述。"],
+    "en": {
+      "title": "A JAR with source already available: a reader reports an agent spending an hour decompiling it",
+      "summary": "A reader says an agent given a decompiler spent an hour on a JAR whose source the reader already had. This records redundant work, without inferring model, library or recovery quality.",
+      "description": "At 22:11:33 Beijing time on November 13, 2026, a reader replying to @akshay_pachaar recalls giving an agent a decompiler, only for it to spend an hour reverse-engineering a JAR whose source the reader already possessed. A JAR is a Java program archive. This is a concrete binary-analysis anecdote about potentially redundant work caused by input preparation and tool choice, not an announcement of a new decompilation capability.\n\nThe post supplies no JAR name, revision, model, decompiler, prompt or operation log. It does not establish whether the agent knew source was available, what it recovered or whether the author corrected its approach. One hour is the author's recollection, not a basis for computing performance or cost or claiming agents generally fail to look for source. Neither success nor total failure is established. No archive or source was obtained or rerun here; REA use is unconfirmed. Retained as a low-detail unverified report.",
+      "metadata": ["Candidate snapshot: 0 likes, 4 views, 0 reposts, 0 replies. Duration is author-reported only."],
+      "source_labels": ["Candidate: one-hour agent decompilation of a JAR with source already available, November 13, 2026 at 22:11:33 Beijing time"]
+    }
+  },
+  {
+    "id": "oyu-coral-qq-ai-file-installer-comparison-report",
+    "title": "珊瑚虫QQ增强包：Oyu转述AI逐文件比较与NSIS捆绑线索",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Oyu转述有人用AI分析旧QQ增强包，称2313个官方文件仅2个被改，另在安装脚本发现默认静默捆绑；未审样本或视频，不能推广到所有版本。",
+    "description": "2026年11月13日21:15:41（北京时间），Oyu（@yzpq6668）转述一项针对珊瑚虫QQ增强包的AI分析。珊瑚虫是QQ的第三方增强版本，此处研究目的是区分客户端修改与安装器附带行为。帖子称逐个比较2313个官方文件后只发现2个被改，对应去广告和显示IP；又称NSIS安装脚本默认勾选静默安装，并由签名工具为捆绑件签名。这些都是转述的发现，不是本合集取得二进制后的结论。\n\n同窗口21:32:35回复提供B站线条君视频“逆向QQ的下场”，建议看01:36的文件对拍段落，并提醒不要下载已不干净的旧安装包；作为同一研究的定位线索合并。未取得视频直达页、完整报告、样本版本、哈希、官方对照包或AI模型与操作日志，未观看或验证视频，不能认定所有珊瑚虫版本都具有所述行为。主帖同时提到刑期、罚款并作道德评价，本条不据此认定司法事实、判决原因或恶意归属。未下载、运行安装包，未确认使用REA。",
+    "sources": [
+      {"label": "Oyu的AI文件比较与安装器分析转述，2026-11-13 21:15:41北京时间", "url": "https://x.com/i/status/2121230521367970004"},
+      {"label": "同窗口后续：B站视频名、01:36定位与勿下载警告，21:32:35", "url": "https://x.com/i/status/2121234775990272118"}
+    ],
+    "snapshot_date": "2026-11-13", "metadata": ["11月13日候选快照：主帖2赞、299浏览、0转发、4回复；后续0赞、44浏览。2313与2为未审计转述计数。"],
+    "en": {
+      "title": "Coral QQ enhancement package: Oyu relays AI-assisted file comparisons and NSIS bundling clues",
+      "summary": "Oyu relays an AI study claiming only two of 2,313 official files changed, while the installer enabled silent bundled installs. Neither sample nor video was inspected; the claim cannot cover every release.",
+      "description": "At 21:15:41 Beijing time on November 13, 2026, Oyu (@yzpq6668) relays an AI-assisted analysis of the Coral QQ enhancement package, a third-party enhanced version of the QQ client. The study distinguishes client changes from installer behavior. The post claims a comparison of 2,313 official files found only two modified, for ad removal and IP display. It also alleges that an NSIS installation script enabled silent bundled installations by default and a signing tool signed bundled components. These are secondhand findings, not conclusions from binaries obtained by this collection.\n\nA candidate follow-up at 21:32:35 points to the Bilibili creator Xiantiaojun and the video titled roughly The Consequences of Reverse-Engineering QQ, locating the file comparison at 01:36 and warning against downloading the unclean old installer. It is merged as a locator for the same study. No direct video page, full report, sample revision, hashes, official reference package, AI model or operation logs were obtained. The video was not watched or verified, and the account does not establish behavior across all Coral releases. The main post also mentions a prison term, fine and moral judgment; this record does not establish judicial facts, the basis of a ruling or malicious attribution from those claims. No installer was downloaded or run, and REA use is unconfirmed.",
+      "metadata": ["November 13 candidate snapshots: main post 2 likes, 299 views, 0 reposts, 4 replies; follow-up 0 likes, 44 views. The 2,313 and two counts are unaudited secondhand claims."],
+      "source_labels": ["Oyu's secondhand AI file-comparison and installer account, November 13, 2026 at 21:15:41 Beijing time", "Candidate follow-up: Bilibili video title, 01:36 locator and download warning, 21:32:35"]
+    }
+  },
+  {
+    "id": "stevepyoung-meta-ad-creative-ai-analysis-tool",
+    "title": "Meta广告创意拆解：Steve P. Young称语音搭起内部AI分析工具",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者称输入应用即可分析竞品Meta广告，拆出钩子、痛点、视觉和叙事，再为自己的应用生成新创意；没有披露模型、代码或投放成效。",
+    "description": "2026年11月13日22:01:14（北京时间），Steve P. Young（@stevepyoung）的候选串帖介绍让AI分析广告素材：分解吸引注意的钩子、信息与痛点、视觉风格、叙事结构和创意角度。补读同串主帖及步骤，作者称通过语音与AI对话搭了内部工具，几乎没亲手写代码；输入某个应用，查看其正在Meta投放的广告，提取上述创意结构，再生成适配自己应用的广告概念，以减少手工翻阅素材和从零构思。\n\n同串以语言学习广告的框架移到健身应用为假设示例，不是已经执行的两个独立项目。主帖发布于同日22:01:13，步骤1、3、4及语音开发说明为同日补充材料，不另计候选。没有指明实际分析的应用、广告、模型、数据权限、代码、原始输出或投放对照，也未证明知道原作者的提示词、内部策略或广告为何有效。作者报告的是内部工具与工作流，不是经独立复现的营销收益。本合集未运行工具、访问广告账号或查看教程视频；未确认REA。",
+    "sources": [
+      {"label": "候选步骤2：AI拆广告创意，2026-11-13 22:01:14北京时间", "url": "https://x.com/i/status/2121241983490367509"},
+      {"label": "补充同串主帖：内部工具与语音编程，22:01:13", "url": "https://x.com/i/status/2121241981426729210"},
+      {"label": "补充步骤1：按应用查看Meta广告，22:01:14", "url": "https://x.com/i/status/2121241982567678086"},
+      {"label": "补充步骤3：跨领域改编的假设示例，22:01:14", "url": "https://x.com/i/status/2121241984413139246"},
+      {"label": "补充步骤4：生成适配自有应用的创意，22:01:14", "url": "https://x.com/i/status/2121241985365180801"},
+      {"label": "补充：作者称通过语音开发，22:01:14", "url": "https://x.com/i/status/2121241986292163031"}
+    ],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照0赞、27浏览、0转发、1回复；工具可用性与效果均未独立核验。"],
+    "en": {
+      "title": "Meta ad creative analysis: Steve P. Young reports voice-building an internal AI tool",
+      "summary": "The author says an app input leads to competitor Meta-ad analysis of hooks, pain points, visuals and stories, then new concepts for his own app. No model, code or campaign outcome is disclosed.",
+      "description": "At 22:01:14 Beijing time on November 13, 2026, Steve P. Young (@stevepyoung) describes AI analysis of ad creatives: attention hooks, messaging and pain points, visual styles, storytelling structures and creative angles. Supplementary reading of the thread's main post and other steps shows his claim to have built an internal tool by talking to AI, with little manual coding. Users enter an app to inspect its current Meta ads, extract those creative structures and generate ad concepts for their own app, reducing manual browsing and blank-page ideation.\n\nTransferring a language-learning ad framework to a fitness app is a hypothetical example in the thread, not two completed independent projects. The main post is dated 22:01:13 that day; steps 1, 3, 4 and the voice-development account are same-day supplements, not additional candidates. Actual analyzed apps or ads, model, data permissions, code, raw outputs and controlled campaign comparisons are unspecified. This does not establish recovery of original prompts, internal strategy or why an ad works. It is an author report about an internal tool and workflow, not independently reproduced marketing gains. This collection did not run the tool, access ad accounts or watch the tutorial video; REA use is unconfirmed.",
+      "metadata": ["Candidate snapshot: 0 likes, 27 views, 0 reposts, 1 reply. Tool availability and effectiveness were not independently checked."],
+      "source_labels": ["Candidate step 2: AI creative analysis, November 13, 2026 at 22:01:14 Beijing time", "Supplementary thread opener: internal tool and voice coding, 22:01:13", "Supplementary step 1: Meta ads by app, 22:01:14", "Supplementary step 3: hypothetical cross-niche adaptation, 22:01:14", "Supplementary step 4: concepts for one's own app, 22:01:14", "Supplementary author account of voice development, 22:01:14"]
+    }
+  },
+  {
+    "id": "claude-existing-logo-vector-brand-kit-prompt-idea",
+    "title": "从已有Logo反推品牌包：Claude文件审计与向量重建提示方案",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "提示方案先审计公司已有Logo，提取颜色、判断字体并标猜测，再按原比例重建SVG／PDF／PNG及印刷资产；没有实际公司文件或完成样例。",
+    "description": "2026年11月13日22:11:40（北京时间），一位作者分享用Claude或其他AI把公司现有Logo与品牌文件整理成可交印刷商的品牌包的提示方案。先把全部原文件放入文件夹，要求模型逐项检查格式、分辨率与真向量／位图，选最佳来源、提取HEX／RGB／CMYK颜色，识别字体或标明免费近似字体与猜测；审计后停止，等用户批准再继续。目标是恢复既有视觉规范，不是重新设计Logo。\n\n后续要求保留形状、比例与间距，输出横排／堆叠、图标／字标、彩色／黑白、适合刺绣的简化版，以及SVG、PDF和透明PNG多尺寸文件；再做社交图、名片、信笺、发票页头、邮件签名与标牌，配一页品牌使用指南并打包ZIP。方案要求真实公司资料、不编口号，无法做好要说明，不伪造输出。帖子没有提供实际公司、输入文件、颜色测量、字体比对、矢量产物或打印测试；“精确”是要求，不是已达到的效果。未执行提示、核验色彩转换或生成文件，未确认REA；作为图像到结构化品牌资产的具体重建idea收录。",
+    "sources": [{"label": "候选：完整Logo审计、向量重建与品牌包提示，2026-11-13 22:11:40北京时间", "url": "https://x.com/i/status/2121244609049190606"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照8赞、540浏览、0转发、3回复；要求清单不等于已实现功能或印刷适用性验证。"],
+    "en": {
+      "title": "Recover a brand kit from existing logos: a Claude audit and vector-reconstruction prompt idea",
+      "summary": "The prompt audits existing company logos, extracts colors, flags font guesses, then requests faithful SVG/PDF/PNG reconstruction and print assets. No actual company files or completed example are supplied.",
+      "description": "At 22:11:40 Beijing time on November 13, 2026, a poster shares a prompt for Claude or another AI to turn a company's existing logo and brand files into a kit for a printer. All original files go in one folder. The model is asked to inspect formats, resolution and true vectors versus bitmaps, select the best source, extract HEX/RGB/CMYK colors and identify fonts or flag free approximations and guesses. It must stop after the audit for user approval. The goal is recovering existing visual specifications, not redesigning the logo.\n\nLater steps request unchanged shapes, proportions and spacing; horizontal/stacked, icon/wordmark, full-color/black/white and embroidery-friendly simplified variants; and SVG, PDF and transparent PNG files in several sizes. Further assets include social images, business cards, letterhead, invoice headers, email signatures and signs, with a one-page usage guide and a ZIP. The prompt requires real company details, no invented taglines, honest disclosure of limitations and no fake outputs. No actual company, input files, color measurements, font comparison, vector output or print test is provided. Exact matching is a requirement, not a demonstrated result. This collection did not execute the prompt, verify color conversion or generate files. REA use is unconfirmed. Included as a concrete image-to-structured-brand-assets reconstruction idea.",
+      "metadata": ["Candidate snapshot: 8 likes, 540 views, 0 reposts, 3 replies. A requirements list is not implemented functionality or verified print suitability."],
+      "source_labels": ["Candidate: complete logo-audit, vector-reconstruction and brand-kit prompt, November 13, 2026 at 22:11:40 Beijing time"]
+    }
+  },
+  {
+    "id": "stimm-rea-tv-phone-inaudible-tracking-disable-idea",
+    "title": "电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。",
+    "description": "2026年11月13日22:31:41（北京时间），Stim-P（@Stimm_P）回复@buildwithdk与@grok，建议用REA和AI Agent把“它”关掉。为识别目标补读同日15:00:02的父帖：I am DK声称电视可以通过人听不见的声音与手机秘密通信，并询问Grok真假。因此此条保留的是针对所担心的跨设备声音通信／追踪的关闭idea，不泛化成任意电视去广告。父帖早于本轮窗口，仅作语境，不另算新候选。\n\n没有设备型号、应用、音频频率、捕获记录、固件、研究步骤或修改结果；父帖的问题不构成通信机制已存在的证据，回复的“可以”也不证明能成功关闭。未判断某电视、手机或厂商在实施追踪，更未将声音机制改写为已发现的超声漏洞。本合集未录音、连接设备或运行REA，状态为未验证的具体隐私控制设想。",
+    "sources": [
+      {"label": "候选：Stim-P建议用REA关闭，2026-11-13 22:31:41北京时间", "url": "https://x.com/i/status/2121249647432020258"},
+      {"label": "窗口外补充父帖：电视／手机不可闻声音通信的真假提问，同日15:00:02", "url": "https://x.com/i/status/2121135983932436651"}
+    ],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照0赞、231浏览、0转发、0回复；无实机或音频证据。"],
+    "en": {
+      "title": "Inaudible TV-to-phone communication: Stim-P proposes disabling it with REA",
+      "summary": "Replying to a claim about inaudible TV-to-phone communication, Stim-P suggests REA and an agent to disable it. No device, frequency or code is given, and the alleged mechanism is not established.",
+      "description": "At 22:31:41 Beijing time on November 13, 2026, Stim-P (@Stimm_P) replies to @buildwithdk and @grok suggesting REA and an AI agent to turn it off. To identify the target, the parent at 15:00:02 that day was read: I am DK claims a TV can secretly talk to a phone through sounds people cannot hear and asks Grok whether it is true. This record therefore preserves a proposal to disable feared cross-device sound communication or tracking, rather than generic TV ad removal. The parent precedes this window and is supplementary context, not another new candidate.\n\nThere is no device model, app, audio frequency, capture, firmware, research procedure or modification result. The parent's question is not evidence that the mechanism exists, and the reply's can is not proof it can be disabled. No TV, phone or vendor is established to be tracking users, and the sound claim is not rewritten as a discovered ultrasonic vulnerability. This collection did not record audio, connect devices or run REA. Status is an unverified concrete privacy-control idea.",
+      "metadata": ["Candidate snapshot: 0 likes, 231 views, 0 reposts, 0 replies. No device or audio evidence."],
+      "source_labels": ["Candidate: Stim-P suggests disabling it with REA, November 13, 2026 at 22:31:41 Beijing time", "Out-of-window supplementary parent: asks about inaudible TV/phone communication, 15:00:02 that day"]
+    }
+  },
+  {
+    "id": "bruno-lena-mattstasoff-visual-rebuild-report",
+    "title": "参照mattstasoff作品：bruno称用Lena逆向重建视觉内容",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "bruno_apps说看见mattstasoff的作品后，用Lena研究并重建，附图询问能否分辨AI；未披露原作名称、提示、过程或相似度验证。",
+    "description": "2026年11月13日22:32:02（北京时间），bruno（@bruno_apps）称看到@mattstasoff的作品后一直惦记，于是用Lena进行逆向与重建，附图问读者哪一个是AI。补查原帖确认作者与图片附件；文字没有说明画面对象、原作题名、Lena版本、采用什么模型或研究步骤。本条记录针对这份参考作品的低细节视觉重建自述，不自行命名图中设计，也不把Lena当作morluto/rea。\n\n作者报告已重建，但未给原始文件、提示词、时间线、生成参数、可运行产物或控制对比。本合集未查看附件像素、找到原作、运行Lena或复现结果，因此不能确认视觉匹配、区分AI的难度或原始制作流程被准确恢复。没有工时或性能数据，状态保持未独立验证。",
+    "sources": [{"label": "bruno的Lena重建报告与附图，2026-11-13 22:32:02北京时间", "url": "https://x.com/i/status/2121249733700186161"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照0赞、23浏览、0转发、1回复；附图存在不等于已核画面或匹配效果。"],
+    "en": {
+      "title": "A mattstasoff reference: bruno reports studying and rebuilding visual content with Lena",
+      "summary": "bruno_apps says he studied and rebuilt a mattstasoff work with Lena, attaching an image and asking which is AI. No original title, prompt, process or similarity check is supplied.",
+      "description": "At 22:32:02 Beijing time on November 13, 2026, bruno (@bruno_apps) says he could not stop thinking about a work from @mattstasoff, so he reverse-engineered and rebuilt it with Lena. He attaches an image and asks readers which one is AI. A supplementary read of the same post confirms the author and image attachment. The text does not specify the depicted subject, original title, Lena version, underlying model or research steps. This records a low-detail visual-reconstruction claim about that reference, without inventing a design name or equating Lena with morluto/rea.\n\nThe author reports a completed rebuild but provides no original files, prompts, timeline, generation parameters, runnable artifact or controlled comparison. This collection did not inspect image pixels, locate the original, run Lena or reproduce the result. It cannot establish visual fidelity, difficulty distinguishing AI or accurate recovery of the original production process. No time or performance data is given. Status remains unverified here.",
+      "metadata": ["Candidate snapshot: 0 likes, 23 views, 0 reposts, 1 reply. An attachment's existence does not verify its content or match quality."],
+      "source_labels": ["bruno's Lena reconstruction account with an image, November 13, 2026 at 22:32:02 Beijing time"]
+    }
+  },
+  {
+    "id": "llsswssw-pixel9-bigwave-claude-decoder-attempt",
+    "title": "Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。",
+    "description": "2026年11月13日22:40:24（北京时间），@llsswssw3243称冒险让Claude开始逆向Pixel9的bigwave视频专用解码器。作者说这次强调设备为自己合法购买，并用Mali GPU驱动社区逆向作类比，Claude认可后继续研究。bigwave名称与专用解码器定位沿用作者文字，未自行核准芯片内部实现或扩大成完整GPU驱动。\n\n帖子还回忆此前Pixel4 modem研究被拒，目标独立另记，不能把那次拒绝当作本次Pixel9的技术发现。Mali只是论证类比，不是作者报告的第三个AI项目。Pixel9这项没有固件版本、二进制、寄存器、接口、代码、测试或解码输出；模型愿意继续不等于成功恢复协议、获得可用驱动或满足任何法律要求。未确认REA，本合集未取设备资料、执行目标代码或复现，按进行中作者报告收录。",
+    "sources": [
+      {"label": "候选：Claude开始Pixel9 bigwave研究，2026-11-13 22:40:24北京时间", "url": "https://x.com/i/status/2121251842911035860"},
+      {"label": "窗口外补充：同作者Pixel9 mainline Linux使用背景，2026-11-01 09:28:26北京时间；不是解码器验证", "url": "https://x.com/i/status/2116703883460592035"}
+    ],
+    "snapshot_date": "2026-11-13", "metadata": ["同一候选共用于两个Pixel目标：1赞、107浏览、0转发、0回复；不分别累加热度。", "补读11月1日09:28:26北京时间同作者报告：Pixel9运行mainline Linux，KDE下USB-C DisplayPort外接1080p 120Hz并可调亮度。仅说明作者设备使用背景，未验证显示表现，不证明bigwave研究基于同一构建或已解码视频。"],
+    "en": {
+      "title": "Pixel 9 bigwave video decoder: an author says Claude continues after an ownership explanation",
+      "summary": "llsswssw3243 reports starting Claude-assisted research on Pixel 9's bigwave dedicated video decoder. Claude reportedly accepted the ownership explanation and Mali-community analogy; no driver or decoding result is reported.",
+      "description": "At 22:40:24 Beijing time on November 13, 2026, @llsswssw3243 reports taking the risk of asking Claude to begin reverse-engineering Pixel 9's bigwave dedicated video decoder. The author says explaining that the device was legally purchased and citing community reverse-engineering of Mali GPU drivers led Claude to agree and continue. The bigwave name and decoder characterization follow the author's wording; chip internals are not independently established or expanded into a complete GPU driver.\n\nThe post also recalls a refused Pixel 4 modem task, which is a separate target with its own record, not a technical finding about Pixel 9. Mali is an analogy, not a third AI project reported by this author. No firmware revision, binary, registers, interfaces, code, tests or decoded output is provided for Pixel 9. A model's willingness to proceed is not successful protocol recovery, a usable driver or legal compliance. REA use is unconfirmed. No device material was obtained, target code executed or result reproduced here. Included as an in-progress author report.",
+      "metadata": ["One candidate shared by two Pixel targets: 1 like, 107 views, 0 reposts, 0 replies. Engagement is not added separately.", "Supplementary author post dated November 1 at 09:28:26 Beijing time reports Pixel 9 mainline Linux with KDE, USB-C DisplayPort at 1080p 120Hz and brightness control. This is device-usage context only, not verified display performance or proof that bigwave research uses that build or has decoded video."],
+      "source_labels": ["Candidate: Claude begins Pixel 9 bigwave research, November 13, 2026 at 22:40:24 Beijing time", "Out-of-window supplement: the author's Pixel 9 mainline Linux usage context, November 1, 2026 at 09:28:26 Beijing time; not decoder validation"]
+    }
+  },
+  {
+    "id": "llsswssw-pixel4-modem-claude-refusal-report",
+    "title": "Pixel4 modem研究遭拒：作者回忆Claude担心地区射频合规",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "同一作者回忆曾让Claude逆向Pixel4 modem，因不同地区无线射频合规被拒；没有任务发生日期、提示或拒绝日志，不证明设备有缺陷或行为违法。",
+    "description": "2026年11月13日22:40:24（北京时间），@llsswssw3243在报告Pixel9 bigwave研究时，回忆此前尝试让Claude逆向Pixel4的modem，模型因无线射频在不同地区的合规问题而拒绝。modem为移动通信调制解调器，此条保留不同于视频解码器的失败／受阻尝试；没有证据表明此前任务在本轮发生，11月13日只是回忆帖的来源日期。\n\n作者没有原始提示、拒绝文本、模型版本、固件、样本、具体功能目标或工作产物。不能据此判断无线固件是否被修改、存在漏洞、作者违反法律，或所有Claude版本都拒绝该研究。帖子随后对Pixel9设备归属的解释是另一个目标的进展，不补作Pixel4已恢复工作的证据。未确认REA，本合集未接触设备、分析基带或验证拒绝过程，按未核验的受阻经历记录。",
+    "sources": [{"label": "候选同帖：此前Pixel4 modem任务遭拒的回忆，2026-11-13 22:40:24北京时间", "url": "https://x.com/i/status/2121251842911035860"}],
+    "snapshot_date": "2026-11-13", "metadata": ["与Pixel9记录共用候选快照：1赞、107浏览、0转发、0回复；原尝试日期未披露。"],
+    "en": {
+      "title": "Pixel 4 modem research refused: an author recalls Claude citing regional radio compliance",
+      "summary": "The same author recalls Claude refusing Pixel 4 modem reverse-engineering over regional radio compliance. No task date, prompt or refusal log is supplied; device defects or unlawful conduct are not established.",
+      "description": "At 22:40:24 Beijing time on November 13, 2026, @llsswssw3243 reports Pixel 9 bigwave research and recalls an earlier attempt to have Claude reverse-engineer a Pixel 4 modem. The model reportedly refused over radio-frequency compliance across regions. A modem handles mobile communication; this record preserves a blocked attempt distinct from the video decoder. Nothing establishes that the earlier task occurred in this window: November 13 is the date of the recollection only.\n\nThere is no original prompt, refusal text, model revision, firmware, sample, specific functional objective or work product. The account does not establish modified radio firmware, vulnerabilities, unlawful conduct or refusal by every Claude version. The later ownership explanation and progress on Pixel 9 concern a separate target, not evidence that Pixel 4 work resumed. REA use is unconfirmed. This collection did not access a device, analyze a baseband or verify the refusal process. Retained as an unverified blocked-work report.",
+      "metadata": ["Shared candidate snapshot with the Pixel 9 record: 1 like, 107 views, 0 reposts, 0 replies. The original attempt date is undisclosed."],
+      "source_labels": ["Same candidate: recollection of a refused Pixel 4 modem task, November 13, 2026 at 22:40:24 Beijing time"]
+    }
+  },
+  {
+    "id": "loopmakes-ios-release-removed-module-ai-audit-idea",
+    "title": "iOS模块移除后的残留：LoopMakes建议AI检查Release二进制字符串与调用链",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "在App Store 5.6审核讨论中，作者建议用AI检查最终二进制，确认删去模块后是否仍有引用；根帖的审核经历不是AI验证结果。",
+    "description": "2026年11月13日22:44:56（北京时间），LoopMakes（@LoopMakes）回复模块剔除后会否有调用链残留的追问，说可能有，最好让AI对二进制包做字符串和调用链分析。为明确目标补读11月7日20:04:28的追问和10月27日08:27:39的根帖：背景为iOS应用遭App Store Guideline 5.6拒审，作者建议检查最终Release归档中的远程脚本、动态加载、热更新线索，结合代码与调用链确认，不需要的模块从构建产物移除，不能移除的组件向审核员解释用途与运行机制。旧帖只作本轮AI自检建议的背景，不另计候选或新结果。\n\n根帖回忆第三次提交等待一周多后加急获批、当天下午进入审核，但没有说明AI曾参与那次处理，也不证明应用最终获准上架。本次候选是检查残留的idea，不是AI已经发现引用或证明没有审核后远程执行通道。应用、模块、SDK、二进制版本与分析输出都未披露；未确认REA。本合集未取包、运行分析或测试App审核，按未验证方案收录。",
+    "sources": [
+      {"label": "候选：AI字符串／调用链检查建议，2026-11-13 22:44:56北京时间", "url": "https://x.com/i/status/2121252982260179384"},
+      {"label": "窗口外补充追问：剔除模块后的残留引用，2026-11-07 20:04:28", "url": "https://x.com/i/status/2119038270411841762"},
+      {"label": "窗口外补充根帖：5.6拒审、Release包自检与加急经历，2026-10-27 08:27:39", "url": "https://x.com/i/status/2114876643798024288"}
+    ],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照0赞、2浏览、0转发、0回复；没有AI分析日志或审核结果验证。"],
+    "en": {
+      "title": "References after iOS module removal: LoopMakes suggests AI string and call-chain checks on Release binaries",
+      "summary": "In an App Store 5.6 review discussion, the author suggests AI analysis of the final binary for references left after module removal. The root post's review experience is not an AI validation result.",
+      "description": "At 22:44:56 Beijing time on November 13, 2026, LoopMakes (@LoopMakes) replies to a question about call-chain references remaining after a module is removed: they may remain, and AI should analyze the binary's strings and call chains. Supplementary reading of the November 7 question at 20:04:28 and October 27 root post at 08:27:39 identifies the context: an iOS app rejected under App Store Guideline 5.6. The author recommends inspecting the final Release archive for remote-script, dynamic-loading and hot-update clues, confirming them against code and call chains, removing unnecessary modules from build artifacts and explaining unavoidable components' purpose and runtime mechanism to reviewers. These older posts are background for the current AI-audit idea, not extra candidates or new results.\n\nThe root recalls waiting over a week after a third submission, then receiving expedited review and entering review that afternoon. It does not say AI handled that episode or establish final App Store approval. The current candidate proposes a residual-reference check, not a completed AI finding or proof that no post-review remote-code channel exists. App, modules, SDKs, binary revision and analysis output are undisclosed; REA use is unconfirmed. This collection did not obtain a package, run analysis or test app review. Included as an unverified proposal.",
+      "metadata": ["Candidate snapshot: 0 likes, 2 views, 0 reposts, 0 replies. No AI-analysis logs or verified review outcome."],
+      "source_labels": ["Candidate: AI string/call-chain audit suggestion, November 13, 2026 at 22:44:56 Beijing time", "Out-of-window supplementary question about references after module removal, November 7, 2026 at 20:04:28", "Out-of-window supplementary root: 5.6 rejection, Release checks and expedited review, October 27, 2026 at 08:27:39"]
+    }
+  },
+  {
+    "id": "zdjkn-codex-forty-minute-video-rebuild-report",
+    "title": "40分钟视频重建：ZDJKN称用Codex逆向后得到演示片",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "ZDJKN自报Codex逆向40分钟后重做一段视频并附演示；原片、制作步骤与相似度未披露，不能把演示当精确恢复原工程。",
+    "description": "2026年11月13日22:46:15（北京时间），ZDJKN（@kyxwww214）称用Codex复刻一段视频，经过40分钟逆向最终形成所附视频，并标注Codex、AIart、hypit。补查原帖确认视频附件与作者身份；hypit只是标签，不由此推定具体工具链。帖子没写原片名称、参考网址、镜头内容、代码或采用的视频／图形框架。\n\n这是一项作者报告已产出演示的低细节视觉重建，40分钟为自述，不是本合集计时，也不知道是否含渲染、人工准备或此前迭代。未观看视频、逐帧比较、审查提示与源文件或复跑Codex，不能确认原提示、素材、剪辑工程或物理运动被准确恢复，也不声称作品可无差别替代原片。未确认REA，保持unverified。",
+    "sources": [{"label": "ZDJKN的Codex视频重建自述与视频附件，2026-11-13 22:46:15北京时间", "url": "https://x.com/i/status/2121253314159632738"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照1赞、6浏览、0转发、0回复；40分钟未经审计。"],
+    "en": {
+      "title": "A forty-minute video rebuild: ZDJKN reports a Codex-assisted reconstruction demo",
+      "summary": "ZDJKN reports rebuilding a video after 40 minutes of Codex reverse-engineering and attaches a demo. The original, process and fidelity are undisclosed; a demo is not exact recovery of the source project.",
+      "description": "At 22:46:15 Beijing time on November 13, 2026, ZDJKN (@kyxwww214) says Codex rebuilt a video after 40 minutes of reverse-engineering and attaches the resulting video with Codex, AIart and hypit tags. A supplementary read of the same post confirms author and video attachment. hypit is only a tag here, not grounds to infer a toolchain. The post supplies no original title, reference URL, shot content, code or video/graphics framework.\n\nThis is a low-detail author report of a produced visual-reconstruction demo. Forty minutes is self-reported, not timed by this collection; whether rendering, manual preparation or earlier iterations are included is unknown. The video was not watched, frames compared, prompts or source files reviewed, or Codex rerun. Accurate recovery of original prompts, footage, editing project or physical motion is not established, nor is indistinguishable substitution for the original. REA use is unconfirmed; status remains unverified.",
+      "metadata": ["Candidate snapshot: 1 like, 6 views, 0 reposts, 0 replies. Forty minutes is unaudited."],
+      "source_labels": ["ZDJKN's Codex video-rebuild report and video attachment, November 13, 2026 at 22:46:15 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-mitmproxy-har-personal-app-data-audit-idea",
+    "title": "自有应用的数据发送检查：mitmproxy HAR到Claude／REA的审计idea",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "作者建议抓取自己应用的HAR，让Claude Code与REA列含个人数据的请求并追发送代码；没有实际应用或报告，HAR到精确代码归因仍需额外程序证据。",
+    "description": "2026年11月13日23:45:48（北京时间），一位作者提出个人应用隐私检查流程：让自己机器上的一个应用走mitmproxy，保存会话为HAR文件，配置REA，再要求Claude Code读session.har，列出携带个人数据的请求和发出请求的代码。目的不只是知道应用联网，而是弄清发送了什么、到哪里，以及哪部分程序负责。属于有明确输入与期望输出的使用idea，不是报告已经审计某应用。\n\n帖子预测REA加mitmproxy的曝光影响会超过数据泄漏，但未提供应用名称、HAR、二进制、捕获范围、代码定位输出或实测数据。HAR能描述已捕获的HTTP交互，不自动含有精确源代码或二进制调用链；将请求归因到代码还需可对照程序、堆栈或其他证据，且捕获缺口、加密和个人数据保管都未在帖中解决。不能把所有通信说成隐私泄漏，也不能把“60秒”宣传当实测耗时。本合集未设置代理、安装证书、采集个人数据、执行REA或验证该链路，保留未验证方案。",
+    "sources": [{"label": "候选：mitmproxy HAR到Claude／REA的个人应用审计建议，2026-11-13 23:45:48北京时间", "url": "https://x.com/i/status/2121268300499874190"}],
+    "snapshot_date": "2026-11-13", "metadata": ["候选快照5赞、114浏览、0转发、0回复；无实际审计报告，精确代码归因与60秒均未验证。"],
+    "en": {
+      "title": "Inspecting data sent by one's own apps: a mitmproxy HAR-to-Claude/REA audit idea",
+      "summary": "A poster proposes capturing an app's HAR, then asking Claude Code and REA for personal-data requests and sending code. No app or report is supplied; precise code attribution needs additional program evidence.",
+      "description": "At 23:45:48 Beijing time on November 13, 2026, a poster proposes a personal-app privacy audit: route one app on one's own machine through mitmproxy, save the session as a HAR file, configure REA, then ask Claude Code to read session.har and list requests carrying personal data and the code sending them. The aim is to identify what left, where it went and which program component was responsible, rather than merely noticing network activity. This is a usage idea with explicit inputs and intended outputs, not a report of an audited app.\n\nThe post predicts exposure greater than data leaks but supplies no app name, HAR, binary, capture scope, code-locator output or measurements. HAR describes captured HTTP exchanges; it does not automatically contain exact source code or binary call chains. Attributing requests to code needs corresponding programs, stacks or other evidence, while capture gaps, encryption and handling personal data are not addressed in the post. Not all communication is a privacy leak, and the sixty-second promotion is not a measured duration. This collection did not configure a proxy, install certificates, collect personal data, execute REA or verify the pipeline. Retained as an unverified proposal.",
+      "metadata": ["Candidate snapshot: 5 likes, 114 views, 0 reposts, 0 replies. No audit report; precise code attribution and sixty seconds are unverified."],
+      "source_labels": ["Candidate: personal-app audit idea using mitmproxy HAR and Claude/REA, November 13, 2026 at 23:45:48 Beijing time"]
+    }
+  },
+  {
     "id": "nvidia-kernel-ai-customization-model-lock-idea",
     "title": "NVIDIA内核定制idea：读者号召AI Agent研究限制，不把未来监控猜测当事实",
     "category": "hardware", "rea": "other-ai", "status": "unverified",

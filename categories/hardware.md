@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](../cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
+- [Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向](../cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。 **[其他 AI 逆向 · 进行中]**
+- [Pixel4 modem研究遭拒：作者回忆Claude担心地区射频合规](../cases/llsswssw-pixel4-modem-claude-refusal-report.md) — 同一作者回忆曾让Claude逆向Pixel4 modem，因不同地区无线射频合规被拒；没有任务发生日期、提示或拒绝日志，不证明设备有缺陷或行为违法。 **[其他 AI 逆向 · 待验证]**
 - [NVIDIA内核定制idea：读者号召AI Agent研究限制，不把未来监控猜测当事实](../cases/nvidia-kernel-ai-customization-model-lock-idea.md) — 一位读者建议集中AI Agent研究并定制NVIDIA内核，以阻止其担心的限制；没有型号、版本或实现，区别于既有Linux驱动稳定性idea。 **[其他 AI 逆向 · 待验证]**
 - [2016年的Kindle重用：Harmon称借AI研究设备并装上微信读书](../cases/harmon-2016-kindle-ai-weread-install-report.md) — Harmon自述让陪伴中学时期的旧Kindle重新用于阅读，称逆向后装上微信读书并感谢AI；模型、机型、越狱和适配方法未披露。 **[其他 AI 逆向 · 待验证]**
 - [游戏主机固件idea：@42Kmi问能否让本机LLM修改更新以保留漏洞](../cases/42kmi-console-llm-firmware-vulnerability-preservation-idea.md) — 作者提出把LLM装进游戏主机，修改待安装固件以保留现有漏洞；是可行性问题，没有主机型号、固件样本、实现或测试。 **[其他 AI 逆向 · 待验证]**

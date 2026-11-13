@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [从已有Logo反推品牌包：Claude文件审计与向量重建提示方案](../cases/claude-existing-logo-vector-brand-kit-prompt-idea.md) — 提示方案先审计公司已有Logo，提取颜色、判断字体并标猜测，再按原比例重建SVG／PDF／PNG及印刷资产；没有实际公司文件或完成样例。 **[其他 AI 逆向 · 待验证]**
+- [参照mattstasoff作品：bruno称用Lena逆向重建视觉内容](../cases/bruno-lena-mattstasoff-visual-rebuild-report.md) — bruno_apps说看见mattstasoff的作品后，用Lena研究并重建，附图询问能否分辨AI；未披露原作名称、提示、过程或相似度验证。 **[其他 AI 逆向 · 待验证]**
+- [40分钟视频重建：ZDJKN称用Codex逆向后得到演示片](../cases/zdjkn-codex-forty-minute-video-rebuild-report.md) — ZDJKN自报Codex逆向40分钟后重做一段视频并附演示；原片、制作步骤与相似度未披露，不能把演示当精确恢复原工程。 **[其他 AI 逆向 · 待验证]**
 - [先研究一个剪辑点：读者建议用REA-Video解释转镜，再回放质疑](../cases/rea-video-single-cut-explanation-replay-idea.md) — 一位读者未试用REA-Video，提出先选一个切镜点、问剪辑作用、回放核对解释，再考虑整片重建；没有具体片名或测试结果。 **[其他 AI 逆向 · 待验证]**
 - [精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5](../cases/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。 **[其他 AI 逆向 · 待验证]**
 - [十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站](../cases/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。 **[其他 AI 逆向 · 分析测试]**
