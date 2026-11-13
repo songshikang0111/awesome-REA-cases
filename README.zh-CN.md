@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2163 个案例与项目
+# 2171 个案例与项目
 
-**最近案例更新：**2026 年 11 月 13 日 04:11 · **最近维护：**2026 年 11 月 13 日 04:11 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 13 日 08:10 · **最近维护：**2026 年 11 月 13 日 08:10 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -30,7 +30,7 @@
 4. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude／REA调查二进制，作者对照源码得出**九项八项正确、一项部分正确**。另一个二进制负责热键注册，暴露盲点。公开.NET10实现，只测单屏，本合集未重跑。`分析测试`
 5. **[REA检查自己的应用：发布前看暴露面](cases/phosphen-rea69-own-app-exposure-gate-test.md)** · `2026-11-12`作者自测 — Phosphen报告source map源码和Stripe键，以及发布门禁**修复前退出3、修复后0**。样本与日志未审；不证明键可用或每项发现都是泄漏。`分析测试`
 6. **[MousePods：AirPods在Linux当鼠标与头追](cases/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11`报道；`2026-11-10`固定文档 — **Claude辅助RemoteHID研究与自报AirPods 3／Pro 2实机检查。**不刷耳机，但Proton接入会改前缀。MTU／设备身份影响未隔离，本合集未运行。`未独立核验`
-7. **[Garmin Profile2：共用手表，不是双系统档案](cases/garmin-forerunner955-claude-profile2-workaround.md)** · `2026-11-12`作者报告 — Claude研究Forerunner955限制后，改走官方应用平台，**自报心率、计时、GPS可用**。没有修改固件，步数、睡眠与全天心率仍混合；代码与隔离效果未核。`进行中`
+7. **[Opengear：研究网络边缘的固件](cases/armadin-opengear-llm-firmware-heap-corruption-report.md)** · `2026-11-13`团队报告 — Armadin描述**固件→SBOM→LLM协助发现HTTP堆损坏**，据报导致RCE且厂商已有更新。模型、设备版本、复现与补丁公告未核。`未独立核验`
 8. **[Malspark：把恶意软件报告与人工发现对照](cases/malspark-latrodectus-nine-agent-analysis-report.md)** · `2026-11-13`二手报告 — 九个Agent分析Latrodectus样本，据报**84分钟、8.24美元**，恢复89项参考事实中的84项且该集合内零错误。完整报告与评分未核；不等于覆盖全部行为，也未测出对人工的加速比。`分析测试`
 9. **[TimeSplitters 2：把PS2行为追进PC版](cases/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10`作者报告；`2026-11-09`固定文档 — **Claude辅助MIPS到C++，以PCSX2画面／状态对照**，自报Linux／Steam Deck首关通关。仍用PCSX2图形／音频，后续关卡与互联网联机待测；自备光盘，本合集未构建。`进行中`
 10. **[Empire Earth：重建引擎与原版一起联机](cases/empire-earth-ai-trailers-compatible-engine-report.md)** · `2026-11-12`介绍；`2026-11-08`固定文档 — 提交有Claude署名，项目报告**逐tick对照及原版／重建端TCP混合对局无失步**。整文件仍不同，WON服务、音频与物理输入未测；源码无通用许可授权，本合集未运行。`进行中`
@@ -49,9 +49,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **436** |
-| [硬件与设备互通](categories/hardware.md) | **581** |
-| [应用与客户端](categories/apps.md) | **889** |
+| [游戏与游戏保存](categories/games.md) | **438** |
+| [硬件与设备互通](categories/hardware.md) | **583** |
+| [应用与客户端](categories/apps.md) | **893** |
 | [算法与功能重建](categories/algorithms.md) | **257** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

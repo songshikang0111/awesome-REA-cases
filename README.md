@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2163 cases & projects
+# 2171 cases & projects
 
-**Latest case update:** November 13, 2026, 04:11 · **Last maintained:** November 13, 2026, 04:11 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 13, 2026, 08:10 · **Last maintained:** November 13, 2026, 08:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -30,7 +30,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 4. **[hexgrab: study PowerToys, build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies binaries; an author/source comparison finds **8 of 9 claims correct, one partial**. Hotkey registration in another binary exposed a blind spot. Public .NET 10 implementation, one monitor tested; not rerun here. `Analysis test`
 5. **[REA on your own app: checks before release](cases/en/phosphen-rea69-own-app-exposure-gate-test.md)** · `2026-11-12` author test — Phosphen reports source-map source and a Stripe key, plus a release gate returning **3 before fixes, 0 afterward**. Sample/logs unchecked; neither key usability nor every finding being a leak is established. `Analysis test`
 6. **[MousePods: AirPods as a Linux mouse and head tracker](cases/en/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11` reports; `2026-11-10` pinned docs — **Claude-assisted RemoteHID research and reported AirPods 3/Pro 2 hardware checks.** No earbud flash, but Proton integration changes prefixes. MTU/device-identity effects were not isolated; not run here. `Unverified here`
-7. **[Garmin Profile 2: share a watch, not its system profile](cases/en/garmin-forerunner955-claude-profile2-workaround.md)** · `2026-11-12` author report — Claude investigates Forerunner 955 limits, then helps build an official-platform app with **reported heart-rate, timer and GPS operation**. No firmware modification; steps, sleep and all-day heart rate still mix. Code and isolation unchecked here. `In progress`
+7. **[Opengear: firmware research at the network edge](cases/en/armadin-opengear-llm-firmware-heap-corruption-report.md)** · `2026-11-13` team report — Armadin describes **firmware → SBOM → LLM-assisted HTTP heap-corruption discovery**, reportedly leading to RCE and a vendor update. Model, device version, reproduction and patch advisory unchecked here. `Unverified here`
 8. **[Malspark: compare a malware report against human findings](cases/en/malspark-latrodectus-nine-agent-analysis-report.md)** · `2026-11-13` secondary report — Nine agents reportedly analyze a Latrodectus sample in **84 minutes for $8.24**, recovering 84 of 89 reference facts without errors on that set. Full report and scoring unchecked; not complete behavioral coverage or a measured speedup over people. `Analysis test`
 9. **[TimeSplitters 2: PS2 behavior to a PC port](cases/en/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10` author report; `2026-11-09` pinned docs — **Claude-assisted MIPS-to-C++ with PCSX2 frame/state comparisons** and a reported Linux/Steam Deck first-level playthrough. Still uses PCSX2 graphics/audio; later levels and internet play need checks. Self-supplied disc; not built here. `In progress`
 10. **[Empire Earth: a rebuilt engine playing the original](cases/en/empire-earth-ai-trailers-compatible-engine-report.md)** · `2026-11-12` report; `2026-11-08` pinned docs — Claude-credited history and project-reported **tick-by-tick comparisons plus mixed original/rebuilt TCP games without desync**. Whole images differ; WON services, audio and physical input are untested. No general source-license grant; not run here. `In progress`
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **436** |
-| [Hardware & interoperability](categories/en/hardware.md) | **581** |
-| [Applications & clients](categories/en/apps.md) | **889** |
+| [Games & preservation](categories/en/games.md) | **438** |
+| [Hardware & interoperability](categories/en/hardware.md) | **583** |
+| [Applications & clients](categories/en/apps.md) | **893** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **257** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

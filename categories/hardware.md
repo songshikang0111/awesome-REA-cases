@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Opengear控制台服务器：Armadin称LLM协助固件研究发现HTTP堆损坏](../cases/armadin-opengear-llm-firmware-heap-corruption-report.md) — Armadin报告下载Opengear固件、构建SBOM并用LLM协助发现HTTP请求堆损坏，称可导致RCE且厂商已有更新；型号、CVE和补丁未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [电视附加内容去除idea：Dex Dabbler问是否有人已经用REA处理](../cases/dexdabb-tv-rea-unwanted-content-removal-idea.md) — Dex Dabbler用葡语询问有没有人用REA去除电视里不想要的附加内容；品牌、型号、广告类型和实际改造均未说明。 **[REA · 待验证]**
 - [Wyze v4摄像头：vogel让Agent研究自定义固件，摆脱专有联网软件](../cases/wyze-v4-agent-custom-firmware-attempt.md) — vogel称正在让Agent逆向30美元的Wyze v4，目标是运行自定义固件、不依赖厂商联网软件；未报告已刷写或验证独立运行。 **[其他 AI 逆向 · 进行中]**
 - [Samsung UE46F6470应用失灵：Agnogad问Claude加REA能否修复](../cases/samsung-ue46f6470-claude-rea-app-repair-idea.md) — 2013年Samsung UE46F6470在2127.0固件下多数应用与商店不工作，只有YouTube和Prime Video可开；Agnogad建议Claude加REA研究，尚无诊断或修复。 **[REA · 待验证]**
 - [电视厂商二进制与驱动：Andrath正用REA获取更多内部信息](../cases/andrath-tv-vendor-binaries-drivers-rea-attempt.md) — Andrath说正做TV hacking，使用REA从厂商二进制和驱动获取信息；没有电视品牌、版本或具体发现，保留早期研究，不写成已改造设备。 **[REA · 进行中]**
@@ -197,7 +199,7 @@
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](../cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](../cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
 - [Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为](../cases/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。 **[其他 AI 逆向 · 进行中]**
-- [Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑](../cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik自报Claude发现netcache与夜间3.4GB外传；两位直接回复者追问固件访问、样本、HTTPS与处置证据。未获技术记录，既不能确认入侵，也不把质疑当独立鉴伪。 **[其他 AI 逆向 · 待验证]**
+- [Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑](../cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik在原有netcache主张受质疑后，又称Fable5.2复查发现电视relay、DNS、克隆Wi-Fi与代理残留并清除；新旧说法均无样本或日志，不确认入侵或已安全。 **[其他 AI 逆向 · 待验证]**
 - [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](../cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
 - [M8 Orange的显卡：称Codex以REA研究其他型号，再移植到Windows自有卡](../cases/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — M8 Orange在显卡unlock讨论中报告Codex／REA跨型号与Windows移植成功；未说自己的型号、解锁内容或测试。 **[REA · 待验证]**
 - [车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关](../cases/car-infotainment-rea-trim-feature-switch-idea.md) — Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。 **[REA · 待验证]**

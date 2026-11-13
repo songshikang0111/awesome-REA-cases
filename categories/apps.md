@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [中型应用重构：Michael Tomlinson称AI辅助逆向，测试先行后一周完成](../cases/mikejt4-medium-app-ai-test-first-rearchitecture-report.md) — Michael Tomlinson在讨论xAI重写时自述逆向并重新架构一款中型应用，先写测试再分步重构，一周完成；手工三至四个月是其反事实估计，应用未具名。 **[其他 AI 逆向 · 待验证]**
+- [两室四Agent工作流：Dark Factor转述REA研究到隔离容器重建的设置](../cases/darkfactor-rea-two-room-four-agent-workflow-report.md) — Dark Factor描述四个Agent文件、两室及至多三轮脚本：REA研究生成去原名规格，无REA容器实现再并排比对；没有目标、代码或实测匹配率。 **[REA · 待验证]**
+- [Outlook研究idea：M建议Claude调用REA，没有报告具体功能或结果](../cases/mura-outlook-claude-rea-idea.md) — M（@_mura）向Outlook及服务状态账号喊话，让Claude用REA研究Outlook；是具名应用idea，没有任务细节、运行或修复证据。 **[REA · 待验证]**
+- [笔记离线同步idea：ReignSwords想用REA研究编辑合并行为](../cases/rea-personal-notes-offline-sync-investigation-idea.md) — ReignSwords介绍REA后称最想研究自己笔记应用的同步，不信任其离线编辑合并；应用未具名，没有分析或冲突测试。 **[REA · 待验证]**
 - [Latrodectus样本：九个Malspark Agent的84分钟恶意软件分析转述](../cases/malspark-latrodectus-nine-agent-analysis-report.md) — Düzgün转述九个Malspark／Claude Haiku5.5 Agent以84分钟、8.24美元分析Latrodectus；对照八份人工分析的89项事实恢复84项且零错误，仅为所述基准结果。 **[其他 AI 逆向 · 分析测试]**
 - [log接入Hermes：matt称用REA寻找社交内部API，把会话交给Agent](../cases/log-hermes-rea-social-internal-api-plugin.md) — matt宣布log与Hermes的开源插件整合，称结合Treg、Subquadratic与REA寻找社交网站内部API，从会话中发现机会；未核仓库、权限或实际控制范围。 **[REA · 进行中]**
 - [三天AI订阅商店：作者称REA分析商业站，提炼design.md后重建](../cases/rea-designmd-ai-subscription-store-rebuild-report.md) — 作者报告用REA研究成熟商业站的结构、设计和交互，生成design.md重建订阅充值网站，并对接供货、订单、支付与交付；三天为自述，非官方渠道与收益承诺。 **[REA · 待验证]**

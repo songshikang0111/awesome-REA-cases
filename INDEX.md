@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2163 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2171 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（436）
-- [硬件与设备互通](categories/hardware.md)（581）
-- [应用与客户端](categories/apps.md)（889）
+- [游戏与游戏保存](categories/games.md)（438）
+- [硬件与设备互通](categories/hardware.md)（583）
+- [应用与客户端](categories/apps.md)（893）
 - [算法与功能重建](categories/algorithms.md)（257）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目](cases/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas称AI让复古计算逆向项目成为可能，后续解释给Claude ADF文件并不断提示继续；读者问及Bird of Prey，未核源码、运行结果或等价性。 **[其他 AI 逆向 · 进行中]**
+- [未具名游戏客户端：Billionaire Vampire在AI开发讨论中自述逆向经历](cases/billionairevamp-ai-game-client-reversing-report.md) — Billionaire Vampire称在此前不懂相关技术的情况下做过游戏服务器、管理面板、公开平台和客户端逆向；AI语境明确，但客户端、模型、方法与成果未披露。 **[其他 AI 逆向 · 待验证]**
 - [未具名作弊菜单：cazz为视频测试REA，并批评产物是AI slop](cases/rea-unnamed-cheat-video-test-self-critique.md) — cazz在被批视觉难看后称该作弊产物是AI slop，只是在为新视频测试REA；父帖称让Fable5.2重设计菜单，未证明作弊功能有效。 **[REA · 分析测试]**
 - [预下载游戏开玩时间检查：Moke建议Grok加REA研究，并做提示备份](cases/moke-grok-rea-game-release-time-check-idea.md) — Moke在游戏向服务器确认开玩时间的讨论下，建议Grok与REA禁用该部分，并做可分享的游戏提示作为备份；没有具名游戏、实现或可用绕过。 **[REA · 待验证]**
 - [Mac上的Win11虚拟机：作者称Fable5.2加REA让Xbox应用下载独占游戏](cases/xbox-app-fable52-rea-windows-vm-download-report.md) — @SKL_Piefke_Paul称Fable5.2与REA改变Xbox应用／Windows行为，能在MacBook Pro的修改版Win11虚拟机下载独占游戏；没有游戏运行或GTA6可玩证据。 **[REA · 待验证]**
@@ -465,6 +467,8 @@
 
 ### 硬件与设备互通
 
+- [Opengear控制台服务器：Armadin称LLM协助固件研究发现HTTP堆损坏](cases/armadin-opengear-llm-firmware-heap-corruption-report.md) — Armadin报告下载Opengear固件、构建SBOM并用LLM协助发现HTTP请求堆损坏，称可导致RCE且厂商已有更新；型号、CVE和补丁未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [电视附加内容去除idea：Dex Dabbler问是否有人已经用REA处理](cases/dexdabb-tv-rea-unwanted-content-removal-idea.md) — Dex Dabbler用葡语询问有没有人用REA去除电视里不想要的附加内容；品牌、型号、广告类型和实际改造均未说明。 **[REA · 待验证]**
 - [Wyze v4摄像头：vogel让Agent研究自定义固件，摆脱专有联网软件](cases/wyze-v4-agent-custom-firmware-attempt.md) — vogel称正在让Agent逆向30美元的Wyze v4，目标是运行自定义固件、不依赖厂商联网软件；未报告已刷写或验证独立运行。 **[其他 AI 逆向 · 进行中]**
 - [Samsung UE46F6470应用失灵：Agnogad问Claude加REA能否修复](cases/samsung-ue46f6470-claude-rea-app-repair-idea.md) — 2013年Samsung UE46F6470在2127.0固件下多数应用与商店不工作，只有YouTube和Prime Video可开；Agnogad建议Claude加REA研究，尚无诊断或修复。 **[REA · 待验证]**
 - [电视厂商二进制与驱动：Andrath正用REA获取更多内部信息](cases/andrath-tv-vendor-binaries-drivers-rea-attempt.md) — Andrath说正做TV hacking，使用REA从厂商二进制和驱动获取信息；没有电视品牌、版本或具体发现，保留早期研究，不写成已改造设备。 **[REA · 进行中]**
@@ -660,7 +664,7 @@
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
 - [Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为](cases/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。 **[其他 AI 逆向 · 进行中]**
-- [Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑](cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik自报Claude发现netcache与夜间3.4GB外传；两位直接回复者追问固件访问、样本、HTTPS与处置证据。未获技术记录，既不能确认入侵，也不把质疑当独立鉴伪。 **[其他 AI 逆向 · 待验证]**
+- [Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑](cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik在原有netcache主张受质疑后，又称Fable5.2复查发现电视relay、DNS、克隆Wi-Fi与代理残留并清除；新旧说法均无样本或日志，不确认入侵或已安全。 **[其他 AI 逆向 · 待验证]**
 - [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
 - [M8 Orange的显卡：称Codex以REA研究其他型号，再移植到Windows自有卡](cases/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — M8 Orange在显卡unlock讨论中报告Codex／REA跨型号与Windows移植成功；未说自己的型号、解锁内容或测试。 **[REA · 待验证]**
 - [车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关](cases/car-infotainment-rea-trim-feature-switch-idea.md) — Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。 **[REA · 待验证]**
@@ -1049,6 +1053,10 @@
 
 ### 应用与客户端
 
+- [中型应用重构：Michael Tomlinson称AI辅助逆向，测试先行后一周完成](cases/mikejt4-medium-app-ai-test-first-rearchitecture-report.md) — Michael Tomlinson在讨论xAI重写时自述逆向并重新架构一款中型应用，先写测试再分步重构，一周完成；手工三至四个月是其反事实估计，应用未具名。 **[其他 AI 逆向 · 待验证]**
+- [两室四Agent工作流：Dark Factor转述REA研究到隔离容器重建的设置](cases/darkfactor-rea-two-room-four-agent-workflow-report.md) — Dark Factor描述四个Agent文件、两室及至多三轮脚本：REA研究生成去原名规格，无REA容器实现再并排比对；没有目标、代码或实测匹配率。 **[REA · 待验证]**
+- [Outlook研究idea：M建议Claude调用REA，没有报告具体功能或结果](cases/mura-outlook-claude-rea-idea.md) — M（@_mura）向Outlook及服务状态账号喊话，让Claude用REA研究Outlook；是具名应用idea，没有任务细节、运行或修复证据。 **[REA · 待验证]**
+- [笔记离线同步idea：ReignSwords想用REA研究编辑合并行为](cases/rea-personal-notes-offline-sync-investigation-idea.md) — ReignSwords介绍REA后称最想研究自己笔记应用的同步，不信任其离线编辑合并；应用未具名，没有分析或冲突测试。 **[REA · 待验证]**
 - [Latrodectus样本：九个Malspark Agent的84分钟恶意软件分析转述](cases/malspark-latrodectus-nine-agent-analysis-report.md) — Düzgün转述九个Malspark／Claude Haiku5.5 Agent以84分钟、8.24美元分析Latrodectus；对照八份人工分析的89项事实恢复84项且零错误，仅为所述基准结果。 **[其他 AI 逆向 · 分析测试]**
 - [log接入Hermes：matt称用REA寻找社交内部API，把会话交给Agent](cases/log-hermes-rea-social-internal-api-plugin.md) — matt宣布log与Hermes的开源插件整合，称结合Treg、Subquadratic与REA寻找社交网站内部API，从会话中发现机会；未核仓库、权限或实际控制范围。 **[REA · 进行中]**
 - [三天AI订阅商店：作者称REA分析商业站，提炼design.md后重建](cases/rea-designmd-ai-subscription-store-rebuild-report.md) — 作者报告用REA研究成熟商业站的结构、设计和交互，生成design.md重建订阅充值网站，并对接供货、订单、支付与交付；三天为自述，非官方渠道与收益承诺。 **[REA · 待验证]**
