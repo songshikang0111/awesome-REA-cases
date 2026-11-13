@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2171 cases & projects
+# 2181 cases & projects
 
-**Latest case update:** November 13, 2026, 08:10 · **Last maintained:** November 13, 2026, 08:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 13, 2026, 12:13 · **Last maintained:** November 13, 2026, 12:13 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,13 +22,13 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: connect devices, investigate opaque apps, compare malware findings and preserve games. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: connect devices, trace reused protocols, compare malware findings and preserve games. Dates identify sources or author updates, not collection dates.
 
 1. **[Fujifilm X half: camera to Mac without the phone](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12` author report — **Opus reportedly identifies Bluetooth/Wi-Fi protocol differences** for JPEG imports and Google Photos uploads. Incremental camera tests, not an iteration-free build; code and traces unchecked here. `Unverified here`
 2. **[Anker recorder: ask an agent for last week's conversation](cases/en/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12` author report — **REA Bluetooth research and MCP recording retrieval**, with local Qwen ASR or online transcription. Berryxia plans source release after refinement/testing; code and device path unchecked here. `In progress`
 3. **[Lemmings for Windows 95: match functions, not headlines](cases/en/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12` report; `2026-11-09` pinned docs — Human-led REA/Claude/Codex work reports **696/696 matched functions across eight modules**. Whole EXE/DLL files still differ; portable builds and original-compiler matching are separate. Bring your own game assets; not built here. `In progress`
 4. **[hexgrab: study PowerToys, build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies binaries; an author/source comparison finds **8 of 9 claims correct, one partial**. Hotkey registration in another binary exposed a blind spot. Public .NET 10 implementation, one monitor tested; not rerun here. `Analysis test`
-5. **[REA on your own app: checks before release](cases/en/phosphen-rea69-own-app-exposure-gate-test.md)** · `2026-11-12` author test — Phosphen reports source-map source and a Stripe key, plus a release gate returning **3 before fixes, 0 afterward**. Sample/logs unchecked; neither key usability nor every finding being a leak is established. `Analysis test`
+5. **[ZigZag: from SVG to a Brother embroidery machine](cases/en/kath-korevec-brother-chatgpt-embroidery-report.md)** · `2026-11-13` report and pinned docs — **Skitch PP1 Bluetooth upload and MCP-assisted design**, with project-reported hardware tests. NOTICE credits the protocol to Respira; the earlier ChatGPT origin story remains secondary, not independent discovery. Not run here. `Unverified here`
 6. **[MousePods: AirPods as a Linux mouse and head tracker](cases/en/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11` reports; `2026-11-10` pinned docs — **Claude-assisted RemoteHID research and reported AirPods 3/Pro 2 hardware checks.** No earbud flash, but Proton integration changes prefixes. MTU/device-identity effects were not isolated; not run here. `Unverified here`
 7. **[Opengear: firmware research at the network edge](cases/en/armadin-opengear-llm-firmware-heap-corruption-report.md)** · `2026-11-13` team report — Armadin describes **firmware → SBOM → LLM-assisted HTTP heap-corruption discovery**, reportedly leading to RCE and a vendor update. Model, device version, reproduction and patch advisory unchecked here. `Unverified here`
 8. **[Malspark: compare a malware report against human findings](cases/en/malspark-latrodectus-nine-agent-analysis-report.md)** · `2026-11-13` secondary report — Nine agents reportedly analyze a Latrodectus sample in **84 minutes for $8.24**, recovering 84 of 89 reference facts without errors on that set. Full report and scoring unchecked; not complete behavioral coverage or a measured speedup over people. `Analysis test`
@@ -50,8 +50,8 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **438** |
-| [Hardware & interoperability](categories/en/hardware.md) | **583** |
-| [Applications & clients](categories/en/apps.md) | **893** |
+| [Hardware & interoperability](categories/en/hardware.md) | **584** |
+| [Applications & clients](categories/en/apps.md) | **902** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **257** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

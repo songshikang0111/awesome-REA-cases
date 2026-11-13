@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Android临时root与应用检查：煎饼狗子转述DeepSeek4.1Flash协助](../cases/deepseek41-android-root-integrity-secondary-report.md) — 煎饼狗子转述AI协助Android临时root、Google完整性及DBS/Revolut检查，并对比Codex拒绝；设备、原作者、项目与日志未具名，不视作已核验绕过。 **[其他 AI 逆向 · 待验证]**
 - [Opengear控制台服务器：Armadin称LLM协助固件研究发现HTTP堆损坏](../cases/armadin-opengear-llm-firmware-heap-corruption-report.md) — Armadin报告下载Opengear固件、构建SBOM并用LLM协助发现HTTP请求堆损坏，称可导致RCE且厂商已有更新；型号、CVE和补丁未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [电视附加内容去除idea：Dex Dabbler问是否有人已经用REA处理](../cases/dexdabb-tv-rea-unwanted-content-removal-idea.md) — Dex Dabbler用葡语询问有没有人用REA去除电视里不想要的附加内容；品牌、型号、广告类型和实际改造均未说明。 **[REA · 待验证]**
 - [Wyze v4摄像头：vogel让Agent研究自定义固件，摆脱专有联网软件](../cases/wyze-v4-agent-custom-firmware-attempt.md) — vogel称正在让Agent逆向30美元的Wyze v4，目标是运行自定义固件、不依赖厂商联网软件；未报告已刷写或验证独立运行。 **[其他 AI 逆向 · 进行中]**
@@ -305,7 +306,7 @@
 - [Kinov Hacks的键盘固件：数天以DeepSeek／opencode重写，难点再交Codex或Claude](../cases/kinovhacks-deepseek-opencode-keyboard-firmware.md) — Kinov Hacks称数天内以DeepSeek／opencode重写键盘固件，难点再用Codex或Claude；较早回复称DeepSeek将一个固件bug误怪硬件，最终Codex找到问题。未给型号、补丁或设备验收。 **[其他 AI 逆向 · 待验证]**
 - [长虹电视换桌面失败：明子206转述AI生成激活包也未能打开ADB](../cases/mingzi206-changhong-tv-adb-launcher-failed-report.md) — 明子206转述一天改造长虹电视的负结果：工厂模式找不到ADB，开发者页为空，AI写安装包激活也失败，最后建议外接盒子；未取得原实验与机型，不确认厂商移除ADB。 **[其他 AI 逆向 · 分析测试]**
 - [卡兹克的四台会议室电视：二手简报称Codex经ADB清理广告并重做桌面屏保](../cases/kazike-codex-four-meeting-room-tv-adb-report.md) — AI HOT简报转述数字生命卡兹克以四台会议室电视为目标，用Codex连接ADB、清理开机广告、重做简洁桌面与粒子屏保，再部署到其余三台；未取得原教程与设备验证。 **[其他 AI 逆向 · 待验证]**
-- [Brother刺绣机：汉卿转述Kath Korevec用ChatGPT制作直连程序替代订阅流程](../cases/kath-korevec-brother-chatgpt-embroidery-report.md) — 汉卿回复中的12美元硬件订阅经父串识别为Kath Korevec的Brother刺绣机；Valar称她用ChatGPT写直连程序并制作AI图案布贴，未取得原作者记录、协议或代码。 **[其他 AI 逆向 · 待验证]**
+- [ZigZag与Brother Skitch：从ChatGPT直连转述补到公开实现，协议复用Respira](../cases/kath-korevec-brother-chatgpt-embroidery-report.md) — 新转述点名simpsoka/zigzag；固定文档报告Brother Skitch PP1蓝牙直连、MCP设计与实机测试，NOTICE明确协议移植自Respira。早先ChatGPT参与仍是二手归因，不当独立原创逆向。 **[其他 AI 逆向 · 待验证]**
 - [BEST HBN65366SS抽油烟机：Claude协作抓包纠正GATT缓存误判，接入Home Assistant](../cases/godlewski-best-hbn65366ss-claude-ble-homeassistant.md) — Steve Godlewski与Claude Code复用前人BLE唤醒/配对方案，发现ESP-IDF默认只缓存40个GATT特征而设备有54个，扩至100后恢复灯光档位与延时关闭；公开配置、纠错日志及已合并上游PR，限一台设备作者实测。 **[其他 AI 逆向 · 进行中]**
 - [FNIRSI DST-210：zeromem称Claude协作的串口测试器与原厂固件并存](../cases/zeromem-fnirsi-dst210-claude-rs232-tester.md) — zeromem报告RS232/TTL测试器移植到FNIRSI DST-210，启动按RUN进入，自动识别9600至115200波特率并经USB输出；明确部分代码由Claude协助，未给逆向步骤和独立测试。 **[其他 AI 逆向 · 待验证]**
 - [L3+旧矿机：StunGod称周末用GPT／Codex制作自有固件](../cases/stungod-l3-plus-gpt-codex-firmware-report.md) — StunGod在Mujina讨论下报告用GPT／Codex为自己的L3+旧矿机制作固件；没有提供代码、刷写结果或算力测量，不与父串Mujina合并。 **[其他 AI 逆向 · 待验证]**

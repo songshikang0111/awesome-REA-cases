@@ -2,6 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Universal AI Reverse Engineering：IMRAN AHMED开发应用分析与重建平台](../cases/imran-universal-ai-reverse-engineering-platform.md) — IMRAN AHMED宣布开发端到端应用研究平台，计划覆盖UI、工作流、数据库/API架构、代码生成与测试；未给具体目标、源码或已运行结果。 **[其他 AI 逆向 · 进行中]**
+- [muse2api：AI少年介绍把Muse网页服务接成兼容API的非官方桥接](../cases/muse2api-unofficial-web-api-bridge.md) — 清单称muse2api逆向Muse网页端，提供OpenAI兼容的对话、图像与视频API，含账号池与48小时续期；非官方且有账号风险，未核源码或调用。 **[未确认使用 REA · 相关项目]**
+- [muse4ai：用Windows本地Muse会话向Agent开放REST／MCP的项目转述](../cases/muse4ai-local-session-rest-mcp-bridge.md) — 清单与公开README描述muse4ai用Windows本地会话，经REST/MCP/OAuth让Agent调用图像视频；文档说OAuth需屏幕确认码，未审实现、权限或生成结果。 **[未确认使用 REA · 相关项目]**
+- [museAPI-video：基于muse2api网页桥接的自托管视频创作站转述](../cases/museapi-video-self-hosted-creation-workbench.md) — AI少年称museAPI-video在muse2api基础上提供账号额度、任务编排、预览和画布；继承非官方网页接口风险，本地创作站不等于离线模型推理。 **[未确认使用 REA · 相关项目]**
+- [Antigravity遥测开关：用户称研究内部proto后由magpie代设，未核流量变化](../cases/antigravity-magpie-telemetry-settings-proto-report.md) — daoche_wuzui称研究Antigravity内部设置proto，以magpie已有OAuth会话代关遥测并收到200；未读截图或复查设置，响应不证明遥测实际停止。 **[未确认使用 REA · 待验证]**
+- [不装完整Xcode做WidgetKit：Caitlyn让AI研究Apple小组件入口](../cases/y2karyl-ai-widgetkit-without-full-xcode.md) — Caitlyn Momochi称256GB双系统盘装不下Xcode，令AI研究Apple小组件行为，找到入口并强制编译器设置；自报做出小组件，未核构建命令或兼容性。 **[其他 AI 逆向 · 待验证]**
+- [Paranoia：Dopax介绍本地Rust逆向平台与可选AI／MCP入口](../cases/paranoia-rust-local-reverse-engineering-ai-platform.md) — Dopax介绍Paranoia的PE/ELF/Mach-O分析、反汇编、CFG、x86/x64伪代码与调试，另有可选AI及MCP；默认离线、许可证及安装包边界均为转述，未审源码。 **[其他 AI 逆向 · 相关项目]**
+- [Apps-in-Toss重建idea：录两至三轮应用流程，让AI整理奖励与广告时机](../cases/apps-in-toss-iphone-recording-ai-flow-rebuild-idea.md) — pixy7建议用Mac的iPhone镜像录Apps-in-Toss热门应用两至三轮，交AI整理画面与广告时机，可用REA深入；再用不同题材实现，未报告实际产物。 **[REA · 待验证]**
+- [Surge授权与VLESS：鱼乐转述AI逆向传闻，未取得实现或官方因果证据](../cases/surge-ai-license-vless-rumor-report.md) — 鱼乐转述有人用AI研究Surge授权并添加VLESS的传闻，进一步归因官方更新受其推动；没有研究者、代码、日志或官方说明，破解与因果均未核实。 **[其他 AI 逆向 · 待验证]**
 - [中型应用重构：Michael Tomlinson称AI辅助逆向，测试先行后一周完成](../cases/mikejt4-medium-app-ai-test-first-rearchitecture-report.md) — Michael Tomlinson在讨论xAI重写时自述逆向并重新架构一款中型应用，先写测试再分步重构，一周完成；手工三至四个月是其反事实估计，应用未具名。 **[其他 AI 逆向 · 待验证]**
 - [两室四Agent工作流：Dark Factor转述REA研究到隔离容器重建的设置](../cases/darkfactor-rea-two-room-four-agent-workflow-report.md) — Dark Factor描述四个Agent文件、两室及至多三轮脚本：REA研究生成去原名规格，无REA容器实现再并排比对；没有目标、代码或实测匹配率。 **[REA · 待验证]**
 - [Outlook研究idea：M建议Claude调用REA，没有报告具体功能或结果](../cases/mura-outlook-claude-rea-idea.md) — M（@_mura）向Outlook及服务状态账号喊话，让Claude用REA研究Outlook；是具名应用idea，没有任务细节、运行或修复证据。 **[REA · 待验证]**

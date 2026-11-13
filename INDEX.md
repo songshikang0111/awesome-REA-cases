@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2171 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2181 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（438）
-- [硬件与设备互通](categories/hardware.md)（583）
-- [应用与客户端](categories/apps.md)（893）
+- [硬件与设备互通](categories/hardware.md)（584）
+- [应用与客户端](categories/apps.md)（902）
 - [算法与功能重建](categories/algorithms.md)（257）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -467,6 +467,7 @@
 
 ### 硬件与设备互通
 
+- [Android临时root与应用检查：煎饼狗子转述DeepSeek4.1Flash协助](cases/deepseek41-android-root-integrity-secondary-report.md) — 煎饼狗子转述AI协助Android临时root、Google完整性及DBS/Revolut检查，并对比Codex拒绝；设备、原作者、项目与日志未具名，不视作已核验绕过。 **[其他 AI 逆向 · 待验证]**
 - [Opengear控制台服务器：Armadin称LLM协助固件研究发现HTTP堆损坏](cases/armadin-opengear-llm-firmware-heap-corruption-report.md) — Armadin报告下载Opengear固件、构建SBOM并用LLM协助发现HTTP请求堆损坏，称可导致RCE且厂商已有更新；型号、CVE和补丁未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [电视附加内容去除idea：Dex Dabbler问是否有人已经用REA处理](cases/dexdabb-tv-rea-unwanted-content-removal-idea.md) — Dex Dabbler用葡语询问有没有人用REA去除电视里不想要的附加内容；品牌、型号、广告类型和实际改造均未说明。 **[REA · 待验证]**
 - [Wyze v4摄像头：vogel让Agent研究自定义固件，摆脱专有联网软件](cases/wyze-v4-agent-custom-firmware-attempt.md) — vogel称正在让Agent逆向30美元的Wyze v4，目标是运行自定义固件、不依赖厂商联网软件；未报告已刷写或验证独立运行。 **[其他 AI 逆向 · 进行中]**
@@ -770,7 +771,7 @@
 - [Kinov Hacks的键盘固件：数天以DeepSeek／opencode重写，难点再交Codex或Claude](cases/kinovhacks-deepseek-opencode-keyboard-firmware.md) — Kinov Hacks称数天内以DeepSeek／opencode重写键盘固件，难点再用Codex或Claude；较早回复称DeepSeek将一个固件bug误怪硬件，最终Codex找到问题。未给型号、补丁或设备验收。 **[其他 AI 逆向 · 待验证]**
 - [长虹电视换桌面失败：明子206转述AI生成激活包也未能打开ADB](cases/mingzi206-changhong-tv-adb-launcher-failed-report.md) — 明子206转述一天改造长虹电视的负结果：工厂模式找不到ADB，开发者页为空，AI写安装包激活也失败，最后建议外接盒子；未取得原实验与机型，不确认厂商移除ADB。 **[其他 AI 逆向 · 分析测试]**
 - [卡兹克的四台会议室电视：二手简报称Codex经ADB清理广告并重做桌面屏保](cases/kazike-codex-four-meeting-room-tv-adb-report.md) — AI HOT简报转述数字生命卡兹克以四台会议室电视为目标，用Codex连接ADB、清理开机广告、重做简洁桌面与粒子屏保，再部署到其余三台；未取得原教程与设备验证。 **[其他 AI 逆向 · 待验证]**
-- [Brother刺绣机：汉卿转述Kath Korevec用ChatGPT制作直连程序替代订阅流程](cases/kath-korevec-brother-chatgpt-embroidery-report.md) — 汉卿回复中的12美元硬件订阅经父串识别为Kath Korevec的Brother刺绣机；Valar称她用ChatGPT写直连程序并制作AI图案布贴，未取得原作者记录、协议或代码。 **[其他 AI 逆向 · 待验证]**
+- [ZigZag与Brother Skitch：从ChatGPT直连转述补到公开实现，协议复用Respira](cases/kath-korevec-brother-chatgpt-embroidery-report.md) — 新转述点名simpsoka/zigzag；固定文档报告Brother Skitch PP1蓝牙直连、MCP设计与实机测试，NOTICE明确协议移植自Respira。早先ChatGPT参与仍是二手归因，不当独立原创逆向。 **[其他 AI 逆向 · 待验证]**
 - [BEST HBN65366SS抽油烟机：Claude协作抓包纠正GATT缓存误判，接入Home Assistant](cases/godlewski-best-hbn65366ss-claude-ble-homeassistant.md) — Steve Godlewski与Claude Code复用前人BLE唤醒/配对方案，发现ESP-IDF默认只缓存40个GATT特征而设备有54个，扩至100后恢复灯光档位与延时关闭；公开配置、纠错日志及已合并上游PR，限一台设备作者实测。 **[其他 AI 逆向 · 进行中]**
 - [FNIRSI DST-210：zeromem称Claude协作的串口测试器与原厂固件并存](cases/zeromem-fnirsi-dst210-claude-rs232-tester.md) — zeromem报告RS232/TTL测试器移植到FNIRSI DST-210，启动按RUN进入，自动识别9600至115200波特率并经USB输出；明确部分代码由Claude协助，未给逆向步骤和独立测试。 **[其他 AI 逆向 · 待验证]**
 - [L3+旧矿机：StunGod称周末用GPT／Codex制作自有固件](cases/stungod-l3-plus-gpt-codex-firmware-report.md) — StunGod在Mujina讨论下报告用GPT／Codex为自己的L3+旧矿机制作固件；没有提供代码、刷写结果或算力测量，不与父串Mujina合并。 **[其他 AI 逆向 · 待验证]**
@@ -1053,6 +1054,15 @@
 
 ### 应用与客户端
 
+- [Universal AI Reverse Engineering：IMRAN AHMED开发应用分析与重建平台](cases/imran-universal-ai-reverse-engineering-platform.md) — IMRAN AHMED宣布开发端到端应用研究平台，计划覆盖UI、工作流、数据库/API架构、代码生成与测试；未给具体目标、源码或已运行结果。 **[其他 AI 逆向 · 进行中]**
+- [muse2api：AI少年介绍把Muse网页服务接成兼容API的非官方桥接](cases/muse2api-unofficial-web-api-bridge.md) — 清单称muse2api逆向Muse网页端，提供OpenAI兼容的对话、图像与视频API，含账号池与48小时续期；非官方且有账号风险，未核源码或调用。 **[未确认使用 REA · 相关项目]**
+- [muse4ai：用Windows本地Muse会话向Agent开放REST／MCP的项目转述](cases/muse4ai-local-session-rest-mcp-bridge.md) — 清单与公开README描述muse4ai用Windows本地会话，经REST/MCP/OAuth让Agent调用图像视频；文档说OAuth需屏幕确认码，未审实现、权限或生成结果。 **[未确认使用 REA · 相关项目]**
+- [museAPI-video：基于muse2api网页桥接的自托管视频创作站转述](cases/museapi-video-self-hosted-creation-workbench.md) — AI少年称museAPI-video在muse2api基础上提供账号额度、任务编排、预览和画布；继承非官方网页接口风险，本地创作站不等于离线模型推理。 **[未确认使用 REA · 相关项目]**
+- [Antigravity遥测开关：用户称研究内部proto后由magpie代设，未核流量变化](cases/antigravity-magpie-telemetry-settings-proto-report.md) — daoche_wuzui称研究Antigravity内部设置proto，以magpie已有OAuth会话代关遥测并收到200；未读截图或复查设置，响应不证明遥测实际停止。 **[未确认使用 REA · 待验证]**
+- [不装完整Xcode做WidgetKit：Caitlyn让AI研究Apple小组件入口](cases/y2karyl-ai-widgetkit-without-full-xcode.md) — Caitlyn Momochi称256GB双系统盘装不下Xcode，令AI研究Apple小组件行为，找到入口并强制编译器设置；自报做出小组件，未核构建命令或兼容性。 **[其他 AI 逆向 · 待验证]**
+- [Paranoia：Dopax介绍本地Rust逆向平台与可选AI／MCP入口](cases/paranoia-rust-local-reverse-engineering-ai-platform.md) — Dopax介绍Paranoia的PE/ELF/Mach-O分析、反汇编、CFG、x86/x64伪代码与调试，另有可选AI及MCP；默认离线、许可证及安装包边界均为转述，未审源码。 **[其他 AI 逆向 · 相关项目]**
+- [Apps-in-Toss重建idea：录两至三轮应用流程，让AI整理奖励与广告时机](cases/apps-in-toss-iphone-recording-ai-flow-rebuild-idea.md) — pixy7建议用Mac的iPhone镜像录Apps-in-Toss热门应用两至三轮，交AI整理画面与广告时机，可用REA深入；再用不同题材实现，未报告实际产物。 **[REA · 待验证]**
+- [Surge授权与VLESS：鱼乐转述AI逆向传闻，未取得实现或官方因果证据](cases/surge-ai-license-vless-rumor-report.md) — 鱼乐转述有人用AI研究Surge授权并添加VLESS的传闻，进一步归因官方更新受其推动；没有研究者、代码、日志或官方说明，破解与因果均未核实。 **[其他 AI 逆向 · 待验证]**
 - [中型应用重构：Michael Tomlinson称AI辅助逆向，测试先行后一周完成](cases/mikejt4-medium-app-ai-test-first-rearchitecture-report.md) — Michael Tomlinson在讨论xAI重写时自述逆向并重新架构一款中型应用，先写测试再分步重构，一周完成；手工三至四个月是其反事实估计，应用未具名。 **[其他 AI 逆向 · 待验证]**
 - [两室四Agent工作流：Dark Factor转述REA研究到隔离容器重建的设置](cases/darkfactor-rea-two-room-four-agent-workflow-report.md) — Dark Factor描述四个Agent文件、两室及至多三轮脚本：REA研究生成去原名规格，无REA容器实现再并排比对；没有目标、代码或实测匹配率。 **[REA · 待验证]**
 - [Outlook研究idea：M建议Claude调用REA，没有报告具体功能或结果](cases/mura-outlook-claude-rea-idea.md) — M（@_mura）向Outlook及服务状态账号喊话，让Claude用REA研究Outlook；是具名应用idea，没有任务细节、运行或修复证据。 **[REA · 待验证]**
