@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [蜘蛛侠开场到15秒片段：作者称用rea-video拆镜头再交Cue复刻](../cases/rea-video-spiderman-opening-cue-15second-rebuild.md) — 作者称rea-video分析蜘蛛侠开场、Cue按其结果重建15秒视频；未核原片版本、镜头对拍、提示词或成片匹配程度。 **[未确认使用 REA · 待验证]**
+- [由AI回复反推提示与模型：请求Grok评分、盲猜后再揭晓的实验idea](../cases/grok-ai-replies-prompt-model-blind-guess-idea.md) — 作者向Grok提交一组AI回复，要求反推提示词、打分并猜模型，表示猜后提供答案；没有取得Grok输出或揭晓结果。 **[其他 AI 逆向 · 待验证]**
 - [从已有Logo反推品牌包：Claude文件审计与向量重建提示方案](../cases/claude-existing-logo-vector-brand-kit-prompt-idea.md) — 提示方案先审计公司已有Logo，提取颜色、判断字体并标猜测，再按原比例重建SVG／PDF／PNG及印刷资产；没有实际公司文件或完成样例。 **[其他 AI 逆向 · 待验证]**
 - [参照mattstasoff作品：bruno称用Lena逆向重建视觉内容](../cases/bruno-lena-mattstasoff-visual-rebuild-report.md) — bruno_apps说看见mattstasoff的作品后，用Lena研究并重建，附图询问能否分辨AI；未披露原作名称、提示、过程或相似度验证。 **[其他 AI 逆向 · 待验证]**
 - [40分钟视频重建：ZDJKN称用Codex逆向后得到演示片](../cases/zdjkn-codex-forty-minute-video-rebuild-report.md) — ZDJKN自报Codex逆向40分钟后重做一段视频并附演示；原片、制作步骤与相似度未披露，不能把演示当精确恢复原工程。 **[其他 AI 逆向 · 待验证]**

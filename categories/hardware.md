@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](../cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
+- [Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea](../cases/alienware17-r5-64gb-rea-bios-study-idea.md) — 读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。 **[REA · 待验证]**
+- [Ember恒温杯：Dmitriy称Codex探测蓝牙并在约一小时内做出控制端](../cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md) — 作者称Codex探测杯子的蓝牙特征、对照远控iOS应用，做出温度、灯和杯量显示；工时与功能为自述，未核代码或量测精度。 **[其他 AI 逆向 · 待验证]**
+- [Coway空气净化器脱云：HTTP根证书与AI辅助蓝牙配网的二手报告](../cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称用树莓派隔离、mitmproxy和替换根证书接入本地MQTT，再由AI拼合蓝牙protobuf配网协议，接Home Assistant；未核设备、代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
+- [让冰箱只制冷：读者提出用REA去除多余智能行为的idea](../cases/rea-smart-fridge-basic-cooling-only-idea.md) — 葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。 **[REA · 待验证]**
 - [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](../cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
 - [Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向](../cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。 **[其他 AI 逆向 · 进行中]**
 - [Pixel4 modem研究遭拒：作者回忆Claude担心地区射频合规](../cases/llsswssw-pixel4-modem-claude-refusal-report.md) — 同一作者回忆曾让Claude逆向Pixel4 modem，因不同地区无线射频合规被拒；没有任务发生日期、提示或拒绝日志，不证明设备有缺陷或行为违法。 **[其他 AI 逆向 · 待验证]**

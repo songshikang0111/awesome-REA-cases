@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2213 entries**, organized by use case, without a Top-N or popularity threshold.
+**2225 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (439)
-- [Hardware and interoperability](categories/en/hardware.md) (590)
-- [Applications and clients](categories/en/apps.md) (920)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (264)
+- [Games and preservation](categories/en/games.md) (441)
+- [Hardware and interoperability](categories/en/hardware.md) (595)
+- [Applications and clients](categories/en/apps.md) (923)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (266)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [A GTA6 dubbing-mod wish: using Claude and REA to integrate voice tracks once a PC version exists](cases/en/gta6-pc-claude-rea-dubbing-mod-idea.md) — A Turkish reply in a GTA6 discussion proposes Claude/REA voice-track integration for PC. No language, audio, format study or implementation is supplied; this is not a PC-port achievement. **[REA · Needs verification]**
+- [decompdecomp: an independent decomp.wtf continuation where byte matching does not mean a whole game is recovered](cases/en/decompdecomp-local-agent-byte-matching-workbench.md) — Agents write C/C++, original compilers rebuild it and functions are compared. Docs explicitly say no whole game is decompiled, exports retain assembly fallbacks, and chosen remote models may receive game material. **[Other AI-assisted work · In progress]**
 - [EVE research with a local offline AI harness: a scaling question leads to a low-detail account](cases/en/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI asks how offline EVE bot directives scale. Parent poster rrfarmer claims local AI-harness reversing but supplies no client version, recovered feature or inspectable artifact. **[Other AI-assisted work · Needs verification]**
 - [Amiga ADF reversing: Jonathan Thomas reports handing a disk image to Claude for retrocomputing projects](cases/en/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas reports studying Amiga ADF images with Claude. A new reply stresses substantial human input; a reader identifies F1 Grand Prix, without independent confirmation, a runnable port or equivalence evidence. **[Other AI-assisted work · In progress]**
 - [An unnamed game client: Billionaire Vampire recounts reversing experience in an AI-development discussion](cases/en/billionairevamp-ai-game-client-reversing-report.md) — Billionaire Vampire reports game-server, admin-panel, public-platform and client-reversing experience despite lacking prior technical knowledge. The AI context is explicit, but client, model, method and outcomes are undisclosed. **[Other AI-assisted work · Needs verification]**
@@ -470,6 +472,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Linux on an Apple laptop: Joshua reports an LLM adjusting brightness with human brighter-or-dimmer feedback](cases/en/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren says a remote agent adjusts firmware brightness settings on a wired Apple laptop and asks for visual feedback to support Linux. No model, code or completed driver is provided. **[Other AI-assisted work · In progress]**
+- [Alienware 17 R5 and 64GB RAM: a reader asks about researching the BIOS with REA](cases/en/alienware17-r5-64gb-rea-bios-study-idea.md) — After learning an Alienware 17 R5 may accept 64GB RAM, a reader asks whether REA could reverse-engineer its BIOS. No specific limitation, firmware revision or modification is established. **[REA · Needs verification]**
+- [Ember mug: Dmitriy reports Codex Bluetooth probing and a control app in about an hour](cases/en/dmitriy-ember-mug-codex-bluetooth-probing-report.md) — The author says Codex probed Bluetooth characteristics against a remotely controlled iOS app, producing temperature, light and coffee-level controls. Time and functionality are self-reported; code and measurement accuracy were not checked. **[Other AI-assisted work · Needs verification]**
+- [Coway purifier off-cloud: a secondary account of HTTP root certificates and AI-assisted Bluetooth setup](cases/en/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — An account describes Raspberry Pi isolation, mitmproxy and a substituted root certificate for local MQTT, then AI reconstruction of Bluetooth protobuf setup for Home Assistant. Device, code and the 20-minute timing are unchecked. **[Other AI-assisted work · Needs verification]**
+- [Let the fridge just cool: a reader proposes stripping unnecessary smart behavior with REA](cases/en/rea-smart-fridge-basic-cooling-only-idea.md) — A Portuguese reply proposes using REA to simplify smart hardware, using a refrigerator that only cools as the example. No model, firmware, procedure or result is given. **[REA · Needs verification]**
 - [Inaudible TV-to-phone communication: Stim-P proposes disabling it with REA](cases/en/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Replying to a claim about inaudible TV-to-phone communication, Stim-P suggests REA and an agent to disable it. No device, frequency or code is given, and the alleged mechanism is not established. **[REA · Needs verification]**
 - [Pixel 9 bigwave video decoder: an author says Claude continues after an ownership explanation](cases/en/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243 reports starting Claude-assisted research on Pixel 9's bigwave dedicated video decoder. Claude reportedly accepted the ownership explanation and Mali-community analogy; no driver or decoding result is reported. **[Other AI-assisted work · In progress]**
 - [Pixel 4 modem research refused: an author recalls Claude citing regional radio compliance](cases/en/llsswssw-pixel4-modem-claude-refusal-report.md) — The same author recalls Claude refusing Pixel 4 modem reverse-engineering over regional radio compliance. No task date, prompt or refusal log is supplied; device defects or unlawful conduct are not established. **[Other AI-assisted work · Needs verification]**
@@ -1063,6 +1070,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Polymarket leaderboard to Telegram: reported REA/Claude alerts for the monthly top ten wallets](cases/en/polymarket-rea-top-ten-wallet-telegram-alert-report.md) — The author says REA studied the leaderboard frontend and Claude built a bot checking the monthly top ten wallets every 30 seconds, alerting on buys above $500. No code, trade verification or profit evidence is supplied. **[REA · Needs verification]**
+- [Project URL to rebuild notes: a reader recalls Gemini inferring architecture through requests for a Claude handoff](cases/en/gemini-project-url-architecture-claude-handoff-report.md) — A Portuguese reply recalls giving Gemini a project URL before REA, inferring architecture through requests and documenting it for Claude to replicate. No project, raw requests or rebuild outcome is provided. **[Other AI-assisted work · Needs verification]**
+- [Studying Photoshop, not claiming a crack: an AI idea for generative fill, licensing and hidden features](cases/en/photoshop-ai-generative-fill-license-study-idea.md) — The author imagines asking AI to inspect Photoshop's generative fill, licensing checks and locked versus hidden features. No study was performed or mechanism recovered, and understanding is not cryptographic bypass. **[Other AI-assisted work · Needs verification]**
 - [A JAR with source already available: a reader reports an agent spending an hour decompiling it](cases/en/agent-jar-decompile-source-already-available-report.md) — A reader says an agent given a decompiler spent an hour on a JAR whose source the reader already had. This records redundant work, without inferring model, library or recovery quality. **[Other AI-assisted work · Needs verification]**
 - [Coral QQ enhancement package: Oyu relays AI-assisted file comparisons and NSIS bundling clues](cases/en/oyu-coral-qq-ai-file-installer-comparison-report.md) — Oyu relays an AI study claiming only two of 2,313 official files changed, while the installer enabled silent bundled installs. Neither sample nor video was inspected; the claim cannot cover every release. **[Other AI-assisted work · Needs verification]**
 - [Meta ad creative analysis: Steve P. Young reports voice-building an internal AI tool](cases/en/stevepyoung-meta-ad-creative-ai-analysis-tool.md) — The author says an app input leads to competitor Meta-ad analysis of hooks, pain points, visuals and stories, then new concepts for his own app. No model, code or campaign outcome is disclosed. **[Other AI-assisted work · Needs verification]**
@@ -1986,6 +1996,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Spider-Man opening to a 15-second clip: a reported rea-video analysis and Cue rebuild](cases/en/rea-video-spiderman-opening-cue-15second-rebuild.md) — The author says rea-video analyzed a Spider-Man opening and Cue rebuilt a 15-second video from it. Original-film revision, shot comparisons, prompts and fidelity were not checked. **[REA use unconfirmed · Needs verification]**
+- [Infer prompts and models from AI replies: a Grok scoring and blind-guess experiment idea](cases/en/grok-ai-replies-prompt-model-blind-guess-idea.md) — The author asks Grok to infer prompts from a set of AI replies, score them and guess their models before an answer reveal. Neither Grok's output nor the reveal was obtained. **[Other AI-assisted work · Needs verification]**
 - [Recover a brand kit from existing logos: a Claude audit and vector-reconstruction prompt idea](cases/en/claude-existing-logo-vector-brand-kit-prompt-idea.md) — The prompt audits existing company logos, extracts colors, flags font guesses, then requests faithful SVG/PDF/PNG reconstruction and print assets. No actual company files or completed example are supplied. **[Other AI-assisted work · Needs verification]**
 - [A mattstasoff reference: bruno reports studying and rebuilding visual content with Lena](cases/en/bruno-lena-mattstasoff-visual-rebuild-report.md) — bruno_apps says he studied and rebuilt a mattstasoff work with Lena, attaching an image and asking which is AI. No original title, prompt, process or similarity check is supplied. **[Other AI-assisted work · Needs verification]**
 - [A forty-minute video rebuild: ZDJKN reports a Codex-assisted reconstruction demo](cases/en/zdjkn-codex-forty-minute-video-rebuild-report.md) — ZDJKN reports rebuilding a video after 40 minutes of Codex reverse-engineering and attaches a demo. The original, process and fidelity are undisclosed; a demo is not exact recovery of the source project. **[Other AI-assisted work · Needs verification]**

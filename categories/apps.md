@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Polymarket榜单到Telegram：REA／Claude追踪月榜前十钱包买入的报告](../cases/polymarket-rea-top-ten-wallet-telegram-alert-report.md) — 作者称REA研究榜单前端、Claude建机器人，每30秒检查月榜前十钱包，对大于500美元买入发Telegram提醒；没有代码、交易核验或盈利证据。 **[REA · 待验证]**
+- [项目链接到重建文档：读者回忆Gemini发请求推断架构再交Claude](../cases/gemini-project-url-architecture-claude-handoff-report.md) — 葡语回复回忆在REA之前把项目链接交Gemini，由请求推断架构并整理文档供Claude复刻；没有项目名、原始请求或重建结果。 **[其他 AI 逆向 · 待验证]**
+- [研究Photoshop而非宣称破解：生成式填充、许可与隐藏功能的AI设想](../cases/photoshop-ai-generative-fill-license-study-idea.md) — 作者设想让AI拆解Photoshop以理解生成式填充、许可检查及锁定／隐藏功能；未实施，不证明这些机制已恢复或能绕过加密。 **[其他 AI 逆向 · 待验证]**
 - [已有源码的JAR：读者称Agent仍花一小时反编译](../cases/agent-jar-decompile-source-already-available-report.md) — 一位回复者称给Agent反编译器后，它用一小时研究一个自己已有源码的JAR；记录冗余工作，不推定模型、库名或恢复质量。 **[其他 AI 逆向 · 待验证]**
 - [珊瑚虫QQ增强包：Oyu转述AI逐文件比较与NSIS捆绑线索](../cases/oyu-coral-qq-ai-file-installer-comparison-report.md) — Oyu转述有人用AI分析旧QQ增强包，称2313个官方文件仅2个被改，另在安装脚本发现默认静默捆绑；未审样本或视频，不能推广到所有版本。 **[其他 AI 逆向 · 待验证]**
 - [Meta广告创意拆解：Steve P. Young称语音搭起内部AI分析工具](../cases/stevepyoung-meta-ad-creative-ai-analysis-tool.md) — 作者称输入应用即可分析竞品Meta广告，拆出钩子、痛点、视觉和叙事，再为自己的应用生成新创意；没有披露模型、代码或投放成效。 **[其他 AI 逆向 · 待验证]**

@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2213 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2225 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（439）
-- [硬件与设备互通](categories/hardware.md)（590）
-- [应用与客户端](categories/apps.md)（920）
-- [算法与功能重建](categories/algorithms.md)（264）
+- [游戏与游戏保存](categories/games.md)（441）
+- [硬件与设备互通](categories/hardware.md)（595）
+- [应用与客户端](categories/apps.md)（923）
+- [算法与功能重建](categories/algorithms.md)（266）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音](cases/gta6-pc-claude-rea-dubbing-mod-idea.md) — 土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。 **[REA · 待验证]**
+- [decompdecomp：续接decomp.wtf的独立工作台，字节匹配不等于全游戏已恢复](cases/decompdecomp-local-agent-byte-matching-workbench.md) — 公开工作台让Agent写C／C++、原编译器重建并逐函数对比；文档明确尚无整款游戏完成，导出保留汇编兜底，所选远端模型仍可收到游戏材料。 **[其他 AI 逆向 · 进行中]**
 - [EVE本地离线AI研究：读者追问机器人扩展，父帖只给低细节自述](cases/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI询问EVE离线指令如何扩展；父帖rrfarmer自称用本地AI harness逆向EVE，没有客户端版本、恢复功能或可查产物。 **[其他 AI 逆向 · 待验证]**
 - [Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目](cases/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas称给Claude Amiga ADF镜像推进研究；新回复强调大量人工输入，读者识别F1 Grand Prix，但未独立确认题名、可运行移植或等价性。 **[其他 AI 逆向 · 进行中]**
 - [未具名游戏客户端：Billionaire Vampire在AI开发讨论中自述逆向经历](cases/billionairevamp-ai-game-client-reversing-report.md) — Billionaire Vampire称在此前不懂相关技术的情况下做过游戏服务器、管理面板、公开平台和客户端逆向；AI语境明确，但客户端、模型、方法与成果未披露。 **[其他 AI 逆向 · 待验证]**
@@ -468,6 +470,11 @@
 
 ### 硬件与设备互通
 
+- [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
+- [Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea](cases/alienware17-r5-64gb-rea-bios-study-idea.md) — 读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。 **[REA · 待验证]**
+- [Ember恒温杯：Dmitriy称Codex探测蓝牙并在约一小时内做出控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md) — 作者称Codex探测杯子的蓝牙特征、对照远控iOS应用，做出温度、灯和杯量显示；工时与功能为自述，未核代码或量测精度。 **[其他 AI 逆向 · 待验证]**
+- [Coway空气净化器脱云：HTTP根证书与AI辅助蓝牙配网的二手报告](cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称用树莓派隔离、mitmproxy和替换根证书接入本地MQTT，再由AI拼合蓝牙protobuf配网协议，接Home Assistant；未核设备、代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
+- [让冰箱只制冷：读者提出用REA去除多余智能行为的idea](cases/rea-smart-fridge-basic-cooling-only-idea.md) — 葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。 **[REA · 待验证]**
 - [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
 - [Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向](cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。 **[其他 AI 逆向 · 进行中]**
 - [Pixel4 modem研究遭拒：作者回忆Claude担心地区射频合规](cases/llsswssw-pixel4-modem-claude-refusal-report.md) — 同一作者回忆曾让Claude逆向Pixel4 modem，因不同地区无线射频合规被拒；没有任务发生日期、提示或拒绝日志，不证明设备有缺陷或行为违法。 **[其他 AI 逆向 · 待验证]**
@@ -1061,6 +1068,9 @@
 
 ### 应用与客户端
 
+- [Polymarket榜单到Telegram：REA／Claude追踪月榜前十钱包买入的报告](cases/polymarket-rea-top-ten-wallet-telegram-alert-report.md) — 作者称REA研究榜单前端、Claude建机器人，每30秒检查月榜前十钱包，对大于500美元买入发Telegram提醒；没有代码、交易核验或盈利证据。 **[REA · 待验证]**
+- [项目链接到重建文档：读者回忆Gemini发请求推断架构再交Claude](cases/gemini-project-url-architecture-claude-handoff-report.md) — 葡语回复回忆在REA之前把项目链接交Gemini，由请求推断架构并整理文档供Claude复刻；没有项目名、原始请求或重建结果。 **[其他 AI 逆向 · 待验证]**
+- [研究Photoshop而非宣称破解：生成式填充、许可与隐藏功能的AI设想](cases/photoshop-ai-generative-fill-license-study-idea.md) — 作者设想让AI拆解Photoshop以理解生成式填充、许可检查及锁定／隐藏功能；未实施，不证明这些机制已恢复或能绕过加密。 **[其他 AI 逆向 · 待验证]**
 - [已有源码的JAR：读者称Agent仍花一小时反编译](cases/agent-jar-decompile-source-already-available-report.md) — 一位回复者称给Agent反编译器后，它用一小时研究一个自己已有源码的JAR；记录冗余工作，不推定模型、库名或恢复质量。 **[其他 AI 逆向 · 待验证]**
 - [珊瑚虫QQ增强包：Oyu转述AI逐文件比较与NSIS捆绑线索](cases/oyu-coral-qq-ai-file-installer-comparison-report.md) — Oyu转述有人用AI分析旧QQ增强包，称2313个官方文件仅2个被改，另在安装脚本发现默认静默捆绑；未审样本或视频，不能推广到所有版本。 **[其他 AI 逆向 · 待验证]**
 - [Meta广告创意拆解：Steve P. Young称语音搭起内部AI分析工具](cases/stevepyoung-meta-ad-creative-ai-analysis-tool.md) — 作者称输入应用即可分析竞品Meta广告，拆出钩子、痛点、视觉和叙事，再为自己的应用生成新创意；没有披露模型、代码或投放成效。 **[其他 AI 逆向 · 待验证]**
@@ -1984,6 +1994,8 @@
 
 ### 算法与功能重建
 
+- [蜘蛛侠开场到15秒片段：作者称用rea-video拆镜头再交Cue复刻](cases/rea-video-spiderman-opening-cue-15second-rebuild.md) — 作者称rea-video分析蜘蛛侠开场、Cue按其结果重建15秒视频；未核原片版本、镜头对拍、提示词或成片匹配程度。 **[未确认使用 REA · 待验证]**
+- [由AI回复反推提示与模型：请求Grok评分、盲猜后再揭晓的实验idea](cases/grok-ai-replies-prompt-model-blind-guess-idea.md) — 作者向Grok提交一组AI回复，要求反推提示词、打分并猜模型，表示猜后提供答案；没有取得Grok输出或揭晓结果。 **[其他 AI 逆向 · 待验证]**
 - [从已有Logo反推品牌包：Claude文件审计与向量重建提示方案](cases/claude-existing-logo-vector-brand-kit-prompt-idea.md) — 提示方案先审计公司已有Logo，提取颜色、判断字体并标猜测，再按原比例重建SVG／PDF／PNG及印刷资产；没有实际公司文件或完成样例。 **[其他 AI 逆向 · 待验证]**
 - [参照mattstasoff作品：bruno称用Lena逆向重建视觉内容](cases/bruno-lena-mattstasoff-visual-rebuild-report.md) — bruno_apps说看见mattstasoff的作品后，用Lena研究并重建，附图询问能否分辨AI；未披露原作名称、提示、过程或相似度验证。 **[其他 AI 逆向 · 待验证]**
 - [40分钟视频重建：ZDJKN称用Codex逆向后得到演示片](cases/zdjkn-codex-forty-minute-video-rebuild-report.md) — ZDJKN自报Codex逆向40分钟后重做一段视频并附演示；原片、制作步骤与相似度未披露，不能把演示当精确恢复原工程。 **[其他 AI 逆向 · 待验证]**

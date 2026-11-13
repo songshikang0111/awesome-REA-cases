@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音](../cases/gta6-pc-claude-rea-dubbing-mod-idea.md) — 土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。 **[REA · 待验证]**
+- [decompdecomp：续接decomp.wtf的独立工作台，字节匹配不等于全游戏已恢复](../cases/decompdecomp-local-agent-byte-matching-workbench.md) — 公开工作台让Agent写C／C++、原编译器重建并逐函数对比；文档明确尚无整款游戏完成，导出保留汇编兜底，所选远端模型仍可收到游戏材料。 **[其他 AI 逆向 · 进行中]**
 - [EVE本地离线AI研究：读者追问机器人扩展，父帖只给低细节自述](../cases/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI询问EVE离线指令如何扩展；父帖rrfarmer自称用本地AI harness逆向EVE，没有客户端版本、恢复功能或可查产物。 **[其他 AI 逆向 · 待验证]**
 - [Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目](../cases/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas称给Claude Amiga ADF镜像推进研究；新回复强调大量人工输入，读者识别F1 Grand Prix，但未独立确认题名、可运行移植或等价性。 **[其他 AI 逆向 · 进行中]**
 - [未具名游戏客户端：Billionaire Vampire在AI开发讨论中自述逆向经历](../cases/billionairevamp-ai-game-client-reversing-report.md) — Billionaire Vampire称在此前不懂相关技术的情况下做过游戏服务器、管理面板、公开平台和客户端逆向；AI语境明确，但客户端、模型、方法与成果未披露。 **[其他 AI 逆向 · 待验证]**

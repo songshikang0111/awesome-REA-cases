@@ -1,5 +1,204 @@
 [
   {
+    "id": "polymarket-rea-top-ten-wallet-telegram-alert-report",
+    "title": "Polymarket榜单到Telegram：REA／Claude追踪月榜前十钱包买入的报告",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "作者称REA研究榜单前端、Claude建机器人，每30秒检查月榜前十钱包，对大于500美元买入发Telegram提醒；没有代码、交易核验或盈利证据。",
+    "description": "2026年11月14日01:51:43（北京时间），一位作者称让REA研究Polymarket月度交易者榜单。Polymarket是预测市场，帖子把榜单条目识别为钱包，再利用公开交易的规模、价格和市场字段，由Claude整理规格并编写提醒机器人。作者给出的逻辑是每30秒检查月榜前十交易者，买入大于500美元就推送Telegram，以减少手工盯盘。\n\n作者称首次提醒来自榜单第二名，该钱包当月收益227万美元，向Giants投入26.46万美元、价格51美分。上述金额、排名、收益与首条提醒均为帖文自述；没有钱包地址、交易哈希、时间、端点、代码、日志或推送截图，不核认真实成交或排名。REA映射脚本和端点并不等于攻破私有后端；既有Polymarket Up/Down bot与双边策略条目研究对象不同，本条是榜单钱包通知，不合并成复制盈利策略。未运行安装命令、机器人或发送消息，也不把宣传中的赚钱说法当收益、投资建议或有效跟单证明。",
+    "sources": [{"label": "REA／Claude榜单钱包提醒机器人报告，2026-11-14 01:51:43北京时间", "url": "https://x.com/i/status/2121299986541396401"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照36赞、1040浏览、4转发、6回复；前十、30秒、500美元和提醒金额均为作者报告。"],
+    "en": {
+      "title": "Polymarket leaderboard to Telegram: reported REA/Claude alerts for the monthly top ten wallets",
+      "summary": "The author says REA studied the leaderboard frontend and Claude built a bot checking the monthly top ten wallets every 30 seconds, alerting on buys above $500. No code, trade verification or profit evidence is supplied.",
+      "description": "At 01:51:43 Beijing time on November 14, 2026, a poster says they used REA to study Polymarket's monthly trader leaderboard. Polymarket is a prediction market. The post identifies leaderboard entries as wallets, then uses public trade size, price and market fields, with Claude turning the findings into a specification and alert bot. The reported logic checks the monthly top ten traders every 30 seconds and sends Telegram alerts for buys above $500, reducing manual monitoring.\n\nThe first alert reportedly concerned the second-ranked wallet, up $2.27 million that month, placing $264,600 on the Giants at 51 cents. Amounts, rank, returns and the first alert are all claims in the post. No wallet address, transaction hash, timestamp, endpoint, code, logs or alert screenshot is provided, so the trade and ranking are not authenticated here. Mapping scripts and endpoints with REA is not proof of compromising a private backend. Existing Polymarket Up/Down bot and dual-side strategy records target different behavior; this record concerns leaderboard-wallet notifications, not replication of a profitable strategy. No setup commands or bots were run and no messages were sent here. Promotional money-making language is not treated as investment advice, demonstrated returns or effective copy trading.",
+      "metadata": ["Candidate snapshot: 36 likes, 1,040 views, 4 reposts, 6 replies. Top ten, 30 seconds, $500 and alert amounts are author-reported."],
+      "source_labels": ["Reported REA/Claude leaderboard-wallet alert bot, November 14, 2026 at 01:51:43 Beijing time"]
+    }
+  },
+  {
+    "id": "joshua-warren-apple-laptop-linux-brightness-agent-study",
+    "title": "Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。",
+    "description": "2026年11月14日03:57:24（北京时间），Joshua Warren（@JoshuaSWarren）描述自己与数据中心LLM协作，让它通过铜线接触桌上的Apple笔记本、调整固件设置，目的是运行Linux并服务开源社区。他具体报告Agent正在调屏幕亮度，要求自己观察是更亮还是更暗。该人类反馈回路使它成为具体的硬件兼容探索，而不是泛称AI设计新电脑。\n\n帖子称屏幕为OLED，但没有机型、芯片、面板型号、总线、寄存器、固件版本、模型、代码或调试日志；补查仅确认作者和附图存在，未检查图像内容，不独立确认OLED或任何Apple产品规格。没有证据表明Linux已完整启动、亮度驱动完成，或所用信息完全由AI从零恢复，也不能将它归入特定Asahi／Omarchy项目。未确认REA，未连接设备、改写固件或复测，保留进行中的作者报告。",
+    "sources": [{"label": "Joshua Warren的Apple／Linux亮度Agent探索，2026-11-14 03:57:24北京时间", "url": "https://x.com/i/status/2121331614953201826"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照7赞、84浏览、2转发、1回复；补查浏览增长不覆盖快照，OLED仅作者描述。"],
+    "en": {
+      "title": "Linux on an Apple laptop: Joshua reports an LLM adjusting brightness with human brighter-or-dimmer feedback",
+      "summary": "Joshua Warren says a remote agent adjusts firmware brightness settings on a wired Apple laptop and asks for visual feedback to support Linux. No model, code or completed driver is provided.",
+      "description": "At 03:57:24 Beijing time on November 14, 2026, Joshua Warren (@JoshuaSWarren) describes working with a datacenter LLM that reaches an Apple laptop on his desk over copper wires to adjust firmware settings, aiming to run Linux and benefit the open-source community. Specifically, the agent is tweaking screen brightness and asking him whether it becomes brighter or dimmer. This human-feedback loop makes it a concrete hardware-compatibility investigation, not a generic claim about AI designing a new computer.\n\nThe post calls the screen OLED but gives no laptop model, chip, panel identifier, bus, registers, firmware revision, AI model, code or debugging logs. Supplementary retrieval confirms author identity and an image attachment only; image contents were not inspected and neither OLED nor any Apple product specification is independently established. There is no evidence of a fully booting Linux system, completed brightness driver or information recovered entirely from scratch by AI. It cannot be assigned to a specific Asahi or Omarchy project. REA use is unconfirmed. No device connection, firmware modification or retest was performed here; retained as an in-progress author account.",
+      "metadata": ["Candidate snapshot: 7 likes, 84 views, 2 reposts, 1 reply. Later view growth does not replace it; OLED is the author's description only."],
+      "source_labels": ["Joshua Warren's Apple/Linux brightness-agent investigation, November 14, 2026 at 03:57:24 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-video-spiderman-opening-cue-15second-rebuild",
+    "title": "蜘蛛侠开场到15秒片段：作者称用rea-video拆镜头再交Cue复刻",
+    "category": "algorithms", "rea": "unknown", "status": "unverified",
+    "summary": "作者称rea-video分析蜘蛛侠开场、Cue按其结果重建15秒视频；未核原片版本、镜头对拍、提示词或成片匹配程度。",
+    "description": "2026年11月14日03:01:32（北京时间），一位作者称随手用rea-video拆解蜘蛛侠的开场，再让Cue照着重做，表示下方有15秒成品。这里记录针对既有影视片段的分析到生成交接，作者报告的是一段重建视频，不是游戏反编译，也不是已恢复好莱坞原始制作工程。\n\n帖子没有电影名称、年份、开场时间范围、rea-video版本、底层模型、分析稿、逐镜提示、原片与生成片的可核对照。未观看链接或成片，因此15秒只按作者说法保留，不能证明动作、运镜、剪辑或视觉精确匹配。rea-video名称不足以确认调用morluto/rea，rea字段保持unknown；Cue的具体产品与版本也不猜。本合集未运行任何视频工具或分发原片，按未独立核验报告收录。",
+    "sources": [{"label": "rea-video／Cue蜘蛛侠开场重建自述，2026-11-14 03:01:32北京时间", "url": "https://x.com/i/status/2121317558251053280"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照2赞、93浏览、0转发、1回复；15秒是作者声称的成片时长，非实测。"],
+    "en": {
+      "title": "Spider-Man opening to a 15-second clip: a reported rea-video analysis and Cue rebuild",
+      "summary": "The author says rea-video analyzed a Spider-Man opening and Cue rebuilt a 15-second video from it. Original-film revision, shot comparisons, prompts and fidelity were not checked.",
+      "description": "At 03:01:32 Beijing time on November 14, 2026, a poster says they casually used rea-video to break down a Spider-Man opening, then asked Cue to recreate it, with a 15-second result below. This records an analysis-to-generation handoff for an existing film clip. The reported result is a reconstructed video, not game decompilation or recovery of the original Hollywood production project.\n\nNo film title, year, opening time range, rea-video revision, underlying model, analysis document, shot-by-shot prompts or reviewable original/generated comparison is provided. The link and result were not watched here, so 15 seconds remains an author claim rather than evidence of accurate motion, camera, editing or visual matching. The name rea-video alone does not establish use of morluto/rea; the rea field stays unknown, and Cue's exact product and revision are not guessed. This collection ran no video tools and distributed no original footage. Included as an unverified author report.",
+      "metadata": ["Candidate snapshot: 2 likes, 93 views, 0 reposts, 1 reply. Fifteen seconds is the author's claimed result duration, not a measurement here."],
+      "source_labels": ["Reported rea-video/Cue reconstruction of a Spider-Man opening, November 14, 2026 at 03:01:32 Beijing time"]
+    }
+  },
+  {
+    "id": "grok-ai-replies-prompt-model-blind-guess-idea",
+    "title": "由AI回复反推提示与模型：请求Grok评分、盲猜后再揭晓的实验idea",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "作者向Grok提交一组AI回复，要求反推提示词、打分并猜模型，表示猜后提供答案；没有取得Grok输出或揭晓结果。",
+    "description": "2026年11月14日01:43:03（北京时间），一位作者直接@Grok，要求根据“这些AI的回复”反推提示词、为回复评分并猜各自模型，承诺猜完后给答案。这里的目标是从生成输出反推输入与来源，而不是逆向Grok程序或提取系统提示。评分、提示推断与模型猜测属于同一组材料的实验，不拆成多个独立项目。\n\n候选没有展开待比较回复、原始提示、模型列表、评分标准、Grok回答或答案揭晓；不能认定完成实验、识别正确或恢复原始提示。输出相似也不能唯一确定输入或模型。本合集未向Grok发送请求、解析所附短链接或复跑；未确认REA，以未验证的具体实验idea收录。",
+    "sources": [{"label": "请求Grok由AI回复反推提示、评分与猜模型，2026-11-14 01:43:03北京时间", "url": "https://x.com/i/status/2121297807676203160"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照0赞、19浏览、0转发、1回复；回复计数不证明Grok回答或实验成功。"],
+    "en": {
+      "title": "Infer prompts and models from AI replies: a Grok scoring and blind-guess experiment idea",
+      "summary": "The author asks Grok to infer prompts from a set of AI replies, score them and guess their models before an answer reveal. Neither Grok's output nor the reveal was obtained.",
+      "description": "At 01:43:03 Beijing time on November 14, 2026, a poster directly addresses @Grok, asking it to infer prompts from these AI replies, score the replies and guess which models produced them, promising answers afterward. The target is inferring inputs and provenance from generated outputs, not reversing Grok's program or extracting system instructions. Scoring, prompt inference and model guessing are one experiment on one material set, not independent projects.\n\nThe candidate does not expose the compared replies, original prompts, model list, scoring rubric, Grok response or answer reveal. It establishes neither a completed experiment, correct identification nor recovery of original prompts. Similar outputs cannot uniquely identify input or model. This collection sent no requests to Grok, did not resolve the attached short link and performed no rerun. REA use is unconfirmed; included as an unverified concrete experiment idea.",
+      "metadata": ["Candidate snapshot: 0 likes, 19 views, 0 reposts, 1 reply. A reply count does not prove a Grok response or successful experiment."],
+      "source_labels": ["Request for Grok to infer prompts, score AI replies and guess models, November 14, 2026 at 01:43:03 Beijing time"]
+    }
+  },
+  {
+    "id": "alienware17-r5-64gb-rea-bios-study-idea",
+    "title": "Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。",
+    "description": "2026年11月14日02:03:25（北京时间），一位Alienware 17 R5用户说，看来自己的笔记本可以装64GB内存，并询问是否有人能用Reverse Engineer Anything研究BIOS。上下文把目标定位为这款旧笔记本的内存兼容性，而非泛泛号召逆向全部固件。BIOS是启动及硬件初始化固件。\n\n帖子没有当前内存配置、BIOS版本、芯片组、兼容测试、错误、固件样本、补丁或成果，也未证明必须改BIOS才能使用64GB，不能补成已解除硬件限制。作者只是可行性提问，未说明自己已运行REA或模型。未读取短链所指内容、下载或刷写固件，本合集不据此确认兼容性，按未验证idea收录。",
+    "sources": [{"label": "Alienware 17 R5／64GB与REA BIOS研究提问，2026-11-14 02:03:25北京时间", "url": "https://x.com/i/status/2121302933727801468"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照4赞、217浏览、0转发、1回复；64GB为作者看到的兼容说法，不是测试结果。"],
+    "en": {
+      "title": "Alienware 17 R5 and 64GB RAM: a reader asks about researching the BIOS with REA",
+      "summary": "After learning an Alienware 17 R5 may accept 64GB RAM, a reader asks whether REA could reverse-engineer its BIOS. No specific limitation, firmware revision or modification is established.",
+      "description": "At 02:03:25 Beijing time on November 14, 2026, an Alienware 17 R5 owner says their laptop apparently can take 64GB RAM and asks whether anyone could research its BIOS with Reverse Engineer Anything. Context identifies memory compatibility on this older laptop as the target, rather than a generic request to reverse all firmware. BIOS is boot and hardware-initialization firmware.\n\nThere is no current memory configuration, BIOS revision, chipset, compatibility test, error, firmware sample, patch or result. The post does not establish that a BIOS modification is necessary for 64GB and must not become a claim of an unlocked hardware limit. It is a feasibility question, not a report of running REA or a model. The short-linked material was not read and no firmware was downloaded or flashed. Compatibility is not confirmed here; included as an unverified idea.",
+      "metadata": ["Candidate snapshot: 4 likes, 217 views, 0 reposts, 1 reply. The 64GB compatibility statement is relayed by the author, not a test result."],
+      "source_labels": ["Alienware 17 R5/64GB and REA BIOS research question, November 14, 2026 at 02:03:25 Beijing time"]
+    }
+  },
+  {
+    "id": "gta6-pc-claude-rea-dubbing-mod-idea",
+    "title": "GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。",
+    "description": "2026年11月14日02:25:53（北京时间），一位在GTA6讨论中的土耳其语回复者提出，等游戏推出、而且要PC版后，可以用Claude与REA把配音接入游戏。它针对既有游戏音频整合／本地化Mod，与基线GTA6的AI反编译、Linux／Vulkan移植愿望不同，因此单列这个具体用途。\n\n帖子同时鼓吹盗版，本合集不重复其号召或提供获取方式；保留的只是配音研究设想。没有目标配音语言、音源、文件格式、打包路径、模型版本、代码或实际运行结果，不能说配音已生成、可用或获授权，也不以这条帖子确认PC版发行时间。未下载游戏、音轨或运行工具，状态保持未验证idea。",
+    "sources": [{"label": "GTA6讨论中的Claude／REA接入配音愿望，2026-11-14 02:25:53北京时间", "url": "https://x.com/i/status/2121308586072834330"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照0赞、16浏览、0转发、0回复；没有实施或授权证据。"],
+    "en": {
+      "title": "A GTA6 dubbing-mod wish: using Claude and REA to integrate voice tracks once a PC version exists",
+      "summary": "A Turkish reply in a GTA6 discussion proposes Claude/REA voice-track integration for PC. No language, audio, format study or implementation is supplied; this is not a PC-port achievement.",
+      "description": "At 02:25:53 Beijing time on November 14, 2026, a Turkish-speaking reader in a GTA6 discussion proposes using Claude and REA to integrate dubbing after the game releases, specifically on PC. It targets audio integration/localization mods for an existing game, distinct from baseline GTA6 AI-decompilation and Linux/Vulkan port wishes, so this concrete use receives its own record.\n\nThe reply also advocates piracy; this collection does not repeat that call or provide acquisition instructions. Only the dubbing-study idea is retained. No dubbing language, audio source, file format, packaging path, model revision, code or execution result is given. It does not establish generated, usable or authorized dubbing, nor confirm a PC release date. No game or audio was downloaded and no tools were run; status remains an unverified idea.",
+      "metadata": ["Candidate snapshot: 0 likes, 16 views, 0 reposts, 0 replies. No implementation or authorization evidence."],
+      "source_labels": ["Claude/REA dubbing-integration wish in a GTA6 discussion, November 14, 2026 at 02:25:53 Beijing time"]
+    }
+  },
+  {
+    "id": "dmitriy-ember-mug-codex-bluetooth-probing-report",
+    "title": "Ember恒温杯：Dmitriy称Codex探测蓝牙并在约一小时内做出控制端",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "作者称Codex探测杯子的蓝牙特征、对照远控iOS应用，做出温度、灯和杯量显示；工时与功能为自述，未核代码或量测精度。",
+    "description": "2026年11月14日01:30:57（北京时间），Dmitriy Kovalenko（@0xfflock）报告用Codex研究Ember恒温杯的蓝牙协议并建立控制应用。他回忆六年前因不满意Android应用，亲自研究四至五天，做到命令行调温；这次称不到一小时就得到控制端，还发现灯控制和显示杯内咖啡量的方法。目的是用自建界面控制自己持有的杯子，而非仅重画官方界面。\n\n作者特意说禁止Codex上网查现成协议，并观察它探测不同蓝牙特征、与远程控制的iOS应用对照。这是作者对研究方式的说明，不是本合集确认的隔离实验，不能排除模型既有知识。补读同串02:16:38回复时长约一小时、02:21:26说明使用个人ChatGPT订阅和公开模型；两帖为同日补充材料，不另计候选。主帖有视频，但本合集未观看画面、取得代码、特征UUID、探测日志、杯子型号或固件版本，也未验证杯量是传感读数、估算还是界面占位。六年前与现在的任务条件并非受控对照，不能据此计算通用加速比或宣布无损、安全探测。未确认使用REA，未连接或操作设备，按未独立核验的作者报告收录。",
+    "sources": [
+      {"label": "Dmitriy的Ember／Codex原帖，2026-11-14 01:30:57北京时间", "url": "https://x.com/i/status/2121294761789444233"},
+      {"label": "补充作者回复：约一小时，同日02:16:38", "url": "https://x.com/i/status/2121306257084866996"},
+      {"label": "补充作者回复：个人订阅与公开模型，同日02:21:26", "url": "https://x.com/i/status/2121307464838807676"}
+    ],
+    "snapshot_date": "2026-11-14", "metadata": ["11月14日候选快照39赞、2161浏览、0转发、14回复；后续取阅增长不覆盖快照。"],
+    "en": {
+      "title": "Ember mug: Dmitriy reports Codex Bluetooth probing and a control app in about an hour",
+      "summary": "The author says Codex probed Bluetooth characteristics against a remotely controlled iOS app, producing temperature, light and coffee-level controls. Time and functionality are self-reported; code and measurement accuracy were not checked.",
+      "description": "At 01:30:57 Beijing time on November 14, 2026, Dmitriy Kovalenko (@0xfflock) reports asking Codex to study the Bluetooth protocol of an Ember temperature-controlled mug and build a control app. He recalls spending four or five days manually researching it six years earlier because he disliked the Android app, achieving command-line temperature control. This time he reports an app in under an hour, also finding light control and a way to display the amount of coffee. The goal is a personal interface to his own mug, not merely redrawing the official app.\n\nHe explicitly says he prohibited looking up the existing protocol online and watched Codex probe different Bluetooth characteristics and compare them against a remotely controlled iOS app. This is his description of the method, not an isolation experiment checked here; prior model knowledge cannot be excluded. Supplementary replies at 02:16:38 say about one hour, and at 02:21:26 specify a personal ChatGPT subscription and public models. These are same-day supporting sources, not additional candidates. The main post contains a video, but this collection did not watch it, obtain code, characteristic UUIDs, probing logs, mug model or firmware, or establish whether coffee level is a sensor reading, estimate or UI placeholder. The old and new tasks are not a controlled comparison, so they establish neither a general speedup nor safe, damage-free probing. REA use is unconfirmed; no device was connected or operated here. Retained as an author report unverified by this collection.",
+      "metadata": ["November 14 candidate snapshot: 39 likes, 2,161 views, 0 reposts, 14 replies. Later retrieval growth does not replace the snapshot."],
+      "source_labels": ["Dmitriy's original Ember/Codex report, November 14, 2026 at 01:30:57 Beijing time", "Supplementary author reply: about one hour, 02:16:38 that day", "Supplementary author reply: personal subscription and public models, 02:21:26 that day"]
+    }
+  },
+  {
+    "id": "decompdecomp-local-agent-byte-matching-workbench",
+    "title": "decompdecomp：续接decomp.wtf的独立工作台，字节匹配不等于全游戏已恢复",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "公开工作台让Agent写C／C++、原编译器重建并逐函数对比；文档明确尚无整款游戏完成，导出保留汇编兜底，所选远端模型仍可收到游戏材料。",
+    "description": "2026年11月14日00:50:08（北京时间），Pixel Cherry Ninja（@PixelCNinja）介绍decompdecomp，让Claude、Codex、Cursor为自有游戏恢复可字节匹配的C／C++，称N64就绪、GBA／PS1／GameCube／DS为beta且完全本地。补查公开仓库定位到n-delic/decompdecomp，读取README，固定到9e19b4d79f8798df626e6216385ac91b3642535d；提交于11月13日07:47:52北京时间，早于本候选窗口，是补充背景，不是本轮新测试。\n\n文档描述原游戏编译器编译Agent输出，仅字节相同才算函数匹配，多Agent可并行处理函数，自动流程先处理容易函数。关键限制是“尚无整款游戏已反编译”：导出混合已匹配C和其余汇编，因此能重建不等于全C恢复。N64标Recommended，多种其他主机／PC平台标Beta，部分只接公开社区反编译；Windows的PS1、PS2和多数N64需要WSL2，macOS另有编译器限制。平台表和导出能力均为项目文档口径，不是本合集实跑验收。\n\nREADME明确继续Sam Wolfs的decomp.wtf代码，原项目做到0.10.6后归档；同时说明独立维护、与原作者无关联且没有其背书。因此单列这个后续项目，保留旧Decompwtf条目，不把旧停更消息当成新项目也停更。新代码AGPLv3，原MIT通知另存；项目要求自备有权使用的游戏、不发布恢复的游戏代码。其隐私说明有重要例外：材料除发送给所选模型外留在电脑上，故不能把“完全本地”理解成云模型绝不收到游戏内容。未安装、导入ROM、构建、运行测试或独立检查字节匹配日志，未确认REA；按进行中项目收录。",
+    "sources": [
+      {"label": "Pixel Cherry Ninja介绍decompdecomp，2026-11-14 00:50:08北京时间", "url": "https://x.com/i/status/2121284490500981068"},
+      {"label": "窗口前补充：项目README固定于11月13日07:47:52北京时间提交，后续取阅", "url": "https://github.com/n-delic/decompdecomp/blob/9e19b4d79f8798df626e6216385ac91b3642535d/README.md"}
+    ],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照16赞、1129浏览、0转发、3回复；没有整款游戏完成、平台和隐私例外来自项目文档，未复跑。"],
+    "en": {
+      "title": "decompdecomp: an independent decomp.wtf continuation where byte matching does not mean a whole game is recovered",
+      "summary": "Agents write C/C++, original compilers rebuild it and functions are compared. Docs explicitly say no whole game is decompiled, exports retain assembly fallbacks, and chosen remote models may receive game material.",
+      "description": "At 00:50:08 Beijing time on November 14, 2026, Pixel Cherry Ninja (@PixelCNinja) introduces decompdecomp for Claude, Codex and Cursor to recover byte-matching C/C++ from owned games, calling N64 ready, GBA/PS1/GameCube/DS beta and the tool fully local. Supplementary public-repository research located n-delic/decompdecomp and read its README, pinned to 9e19b4d79f8798df626e6216385ac91b3642535d, committed November 13 at 07:47:52 Beijing time. It predates this candidate window and is supporting background, not a new test in this window.\n\nThe document describes compiling agent output with the game's original compiler, counting a function as matched only when bytes are identical, parallel agents working on functions and an autopilot handling easy functions first. Crucially, no whole game has been decompiled: exports combine matched C with assembly for the remainder, so rebuilding is not complete C recovery. N64 is Recommended, many other console/PC targets are Beta and some accept only public community decomps. PS1, PS2 and most N64 targets need WSL2 on Windows; macOS has further compiler limitations. Platform and export claims are project documentation, not execution accepted by this collection.\n\nThe README explicitly continues Sam Wolfs's decomp.wtf code, which reached 0.10.6 before archival, while stating independent maintenance, no relationship to its original author and no endorsement. This successor is therefore a separate record; the older Decompwtf record remains and its discontinuation report is not applied to the new project. New code is AGPLv3 with a separate original MIT notice. The project asks users to supply games they are entitled to use and not publish recovered game code. Its privacy language has an important exception: game material stays on the computer except for transmission to the chosen model, so fully local must not imply cloud models never receive game content. No installation, ROM import, build, tests or independent matching-log checks were performed here. REA use is unconfirmed; included as in-progress work.",
+      "metadata": ["Candidate snapshot: 16 likes, 1,129 views, 0 reposts, 3 replies. No completed whole game, platform claims and the privacy exception come from project docs, not reruns."],
+      "source_labels": ["Pixel Cherry Ninja introduces decompdecomp, November 14, 2026 at 00:50:08 Beijing time", "Pre-window supplement: project README pinned to a November 13, 2026 at 07:47:52 Beijing-time commit, read later"]
+    }
+  },
+  {
+    "id": "coway-iocare-ai-bluetooth-local-mqtt-secondary-report",
+    "title": "Coway空气净化器脱云：HTTP根证书与AI辅助蓝牙配网的二手报告",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "转述称用树莓派隔离、mitmproxy和替换根证书接入本地MQTT，再由AI拼合蓝牙protobuf配网协议，接Home Assistant；未核设备、代码与20分钟工时。",
+    "description": "2026年11月14日01:32:44（北京时间），一则帖子转述Coway IoCare空气净化器的脱云研究，背景是官方云故障、应用重写和账号封禁困扰。它称设备在设置时通过明文HTTP下载Amazon根CA，设备所有者用树莓派隔离网络、mitmproxy观察流量，再替换信任根让设备接受另一个MQTT端点，以便Home Assistant直接通信。MQTT是设备消息协议；这里是恢复用户自有设备的本地互通，不是本合集已发现的漏洞。\n\n帖子另称蓝牙配网使用加密protobuf传Wi-Fi凭据与云配置，结合Android日志与反编译应用，AI约20分钟拼合协议。模型、工具、设备型号、固件、日志、源码和原作者直达链接均未给出；20分钟是转述，不涵盖整个脱云工程。没有证据证明所有Coway型号或当前版本仍接受该根证书替换，也没独立验收Home Assistant稳定性或安全性。与已有Ryan Blass未具名净化器Agent群调查没有可核同一性，不强行合并。未访问凭据、下载目标、连接设备或执行配置，未确认REA，按低细节未核验的二手具体报告收录。",
+    "sources": [{"label": "Coway／IoCare脱云与AI蓝牙拼合转述，2026-11-14 01:32:44北京时间", "url": "https://x.com/i/status/2121295210550571018"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照2赞、83浏览、0转发、2回复；20分钟为二手说法，无可复核日志。"],
+    "en": {
+      "title": "Coway purifier off-cloud: a secondary account of HTTP root certificates and AI-assisted Bluetooth setup",
+      "summary": "An account describes Raspberry Pi isolation, mitmproxy and a substituted root certificate for local MQTT, then AI reconstruction of Bluetooth protobuf setup for Home Assistant. Device, code and the 20-minute timing are unchecked.",
+      "description": "At 01:32:44 Beijing time on November 14, 2026, a post relays off-cloud research on a Coway IoCare air purifier, motivated by official-cloud outages, app rewrites and account bans. It says setup downloads Amazon's root CA over plain HTTP. The owner reportedly isolates the device with a Raspberry Pi, observes traffic with mitmproxy and substitutes a trust root so the device accepts a different MQTT endpoint and Home Assistant can communicate directly. MQTT is a device-messaging protocol. This is an account of recovering local interoperability for an owned device, not a vulnerability discovered by this collection.\n\nThe post also says Bluetooth setup sends Wi-Fi credentials and cloud configuration in encrypted protobuf, and an AI combined Android logs and decompiled app code into a protocol in about 20 minutes. It supplies no model, tools, device model, firmware, logs, source or direct original-author link. Twenty minutes is a secondary claim, not the duration of the entire off-cloud project. No evidence establishes that every Coway model or current version accepts the substituted root, or independently validates Home Assistant stability or security. Identity with the existing Ryan Blass unnamed-purifier agent-swarm study cannot be established, so they are not forced into one record. No credentials were accessed, targets downloaded, devices connected or configurations executed here. REA use is unconfirmed; included as a low-detail, unverified secondary account of a concrete project.",
+      "metadata": ["Candidate snapshot: 2 likes, 83 views, 0 reposts, 2 replies. Twenty minutes is a secondary claim without reviewable logs."],
+      "source_labels": ["Secondary Coway/IoCare off-cloud and AI Bluetooth account, November 14, 2026 at 01:32:44 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-smart-fridge-basic-cooling-only-idea",
+    "title": "让冰箱只制冷：读者提出用REA去除多余智能行为的idea",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。",
+    "description": "2026年11月14日00:19:15（北京时间），一位回复@felipefialho_的读者说，有些设备没必要智能化，以前增加出故障的机会，现在增加攻击面，因此支持用REA让自作聪明的硬件变简单，并举冰箱只管制冷、别打扰用户的例子。这里保留的是针对冰箱基础功能与多余智能行为的具体设备自主控制愿望，不认定已有设备被攻击。\n\n没有厂商、型号、联网功能、广告、遥测、固件、协议或修改结果；不能补成移除某品牌云锁、RFID滤芯或成功离线运行，也不等同既有GE滤芯idea。作者未说明AI模型或实际启动REA，未验证去智能化是否影响温控、安全联锁或保修。本合集未连接设备或运行工具，状态为未验证idea。",
+    "sources": [{"label": "葡语读者的REA／冰箱只制冷idea，2026-11-14 00:19:15北京时间", "url": "https://x.com/i/status/2121276717327081738"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照12赞、674浏览、0转发、0回复；没有实施证据。"],
+    "en": {
+      "title": "Let the fridge just cool: a reader proposes stripping unnecessary smart behavior with REA",
+      "summary": "A Portuguese reply proposes using REA to simplify smart hardware, using a refrigerator that only cools as the example. No model, firmware, procedure or result is given.",
+      "description": "At 00:19:15 Beijing time on November 14, 2026, a reader replying to @felipefialho_ argues that some devices need not be smart: added complexity once increased failure opportunities and now increases attack surface. They support using REA to make overly smart hardware simple, illustrating it with a refrigerator that just cools without bothering its owner. This preserves a concrete wish for control over a fridge's basic function versus unnecessary smart behavior, not an established attack on a device.\n\nThere is no vendor, model, network feature, ad, telemetry, firmware, protocol or modification result. It cannot be expanded into removal of a particular vendor's cloud lock or RFID filter, or successful offline operation, and is distinct from the existing GE filter idea. No model or actual REA run is specified, and effects on temperature control, safety interlocks or warranty are untested. This collection connected no device and ran no tools; status is an unverified idea.",
+      "metadata": ["Candidate snapshot: 12 likes, 674 views, 0 reposts, 0 replies. No implementation evidence."],
+      "source_labels": ["Portuguese reader's REA/fridge-only-cooling idea, November 14, 2026 at 00:19:15 Beijing time"]
+    }
+  },
+  {
+    "id": "gemini-project-url-architecture-claude-handoff-report",
+    "title": "项目链接到重建文档：读者回忆Gemini发请求推断架构再交Claude",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "葡语回复回忆在REA之前把项目链接交Gemini，由请求推断架构并整理文档供Claude复刻；没有项目名、原始请求或重建结果。",
+    "description": "2026年11月14日00:24:44（北京时间），一位葡语回复者回忆Gemini最有用的场景：给一个项目链接，让它细查，通过一些请求推断架构，最终整理成文档供Claude复制。作者用引号称之为逆向，并说这是REA出现之前的经历。这里记录的是链接观察、架构推断与跨模型交接的实际使用自述，发表日期不是当时研究发生的日期。\n\n帖子没有目标名称、URL、请求、架构图、模型输出、文档或Claude完成重建的证据；不能说恢复了服务端内部结构。作者不确定地回忆大概是3.5时期，不擅自补成确定模型版本。同帖的HubSpot集成只是读API文档更顺利的另一体验，未称研究未公开接口，不另开逆向案例；订阅促销也与研究无关。未取得原材料或复跑，未确认REA，保留低细节未核验报告。",
+    "sources": [{"label": "Gemini请求推断架构、文档交Claude的回忆，2026-11-14 00:24:44北京时间", "url": "https://x.com/i/status/2121278096808476822"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照1赞、39浏览、0转发、1回复；原研究时间与模型版本不确定。"],
+    "en": {
+      "title": "Project URL to rebuild notes: a reader recalls Gemini inferring architecture through requests for a Claude handoff",
+      "summary": "A Portuguese reply recalls giving Gemini a project URL before REA, inferring architecture through requests and documenting it for Claude to replicate. No project, raw requests or rebuild outcome is provided.",
+      "description": "At 00:24:44 Beijing time on November 14, 2026, a Portuguese-speaking reader recalls a useful Gemini workflow: give it a project link, have it inspect details and infer architecture through some requests, then produce documentation to hand to Claude for replication. The author puts reverse engineering in quotation marks and says the experience predates REA. This records an actual-use account of URL observation, architecture inference and cross-model handoff; the posting date is not the original research date.\n\nNo target name, URL, requests, architecture diagram, model output, document or evidence of a completed Claude rebuild is supplied. Backend internals are not established as recovered. The author uncertainly recalls roughly the 3.5 era, which is not turned into a definite model revision. The same reply's HubSpot integration anecdote concerns easier API-documentation reading and does not claim investigation of undocumented interfaces, so it is not a separate reverse-engineering case; subscription promotions are also irrelevant. No original material or rerun was obtained. REA use is unconfirmed; retained as a low-detail unverified report.",
+      "metadata": ["Candidate snapshot: 1 like, 39 views, 0 reposts, 1 reply. Original study date and model revision are uncertain."],
+      "source_labels": ["Recollection of Gemini request-based architecture inference and Claude documentation handoff, November 14, 2026 at 00:24:44 Beijing time"]
+    }
+  },
+  {
+    "id": "photoshop-ai-generative-fill-license-study-idea",
+    "title": "研究Photoshop而非宣称破解：生成式填充、许可与隐藏功能的AI设想",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "作者设想让AI拆解Photoshop以理解生成式填充、许可检查及锁定／隐藏功能；未实施，不证明这些机制已恢复或能绕过加密。",
+    "description": "2026年11月14日01:00:00（北京时间），一位作者以“想象让AI拆开Photoshop”为起点，提出研究生成式填充如何工作、许可检查如何实现，以及哪些功能确实锁定、哪些只是隐藏。作者明确将理解与盗版区别开，再讨论AI降低阅读编译代码的成本。这是具名商业图像软件的研究设想，不是作者已经跑过的分析。\n\n没有Photoshop版本、二进制、模型、调用链、许可实验、代码或结果；不能据此认定发现本地生成式模型、隐藏付费功能或许可漏洞。帖子同时强调看懂实现不等于取得密码学密钥，不能把泛泛的安全观点当成某软件安全审计。本合集未下载或运行软件，也未修改许可；未确认使用REA，按未验证idea收录。",
+    "sources": [{"label": "Photoshop生成式填充与许可研究设想，2026-11-14 01:00:00北京时间", "url": "https://x.com/i/status/2121286973310599488"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照0赞、87浏览、0转发、0回复；没有实际分析结果。"],
+    "en": {
+      "title": "Studying Photoshop, not claiming a crack: an AI idea for generative fill, licensing and hidden features",
+      "summary": "The author imagines asking AI to inspect Photoshop's generative fill, licensing checks and locked versus hidden features. No study was performed or mechanism recovered, and understanding is not cryptographic bypass.",
+      "description": "At 01:00:00 Beijing time on November 14, 2026, a poster begins by imagining AI taking Photoshop apart to understand generative fill, licensing checks and which features are actually locked versus merely hidden. The author explicitly distinguishes understanding from piracy before discussing cheaper inspection of compiled code. This is a study idea targeting a named commercial image editor, not an analysis the author reports executing.\n\nNo Photoshop revision, binary, model, call chain, licensing experiment, code or result is supplied. It does not establish a local generative model, hidden paid features or a licensing vulnerability. The post also stresses that understanding an implementation is not obtaining cryptographic keys; generic security arguments are not a software audit. This collection did not download or run the software or modify licensing. REA use is unconfirmed; included as an unverified idea.",
+      "metadata": ["Candidate snapshot: 0 likes, 87 views, 0 reposts, 0 replies. No actual analysis results."],
+      "source_labels": ["Photoshop generative-fill and licensing study idea, November 14, 2026 at 01:00:00 Beijing time"]
+    }
+  },
+  {
     "id": "agent-jar-decompile-source-already-available-report",
     "title": "已有源码的JAR：读者称Agent仍花一小时反编译",
     "category": "apps", "rea": "other-ai", "status": "unverified",
