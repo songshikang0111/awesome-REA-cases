@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2249 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2257 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（449）
-- [硬件与设备互通](categories/hardware.md)（597）
-- [应用与客户端](categories/apps.md)（936）
-- [算法与功能重建](categories/algorithms.md)（267）
+- [硬件与设备互通](categories/hardware.md)（600）
+- [应用与客户端](categories/apps.md)（937）
+- [算法与功能重建](categories/algorithms.md)（271）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -478,6 +478,9 @@
 
 ### 硬件与设备互通
 
+- [Sony Android TV外接蓝牙音箱：作者称Claude与Gemini研究原厂APK后做出手机App](cases/sony-android-tv-a2dp-gemini-claude-apk-report.md) — bonfix_fixer称电视具备A2DP却限制外接音箱，经Claude基础集成、Gemini Argon推理与原厂APK研究后做出手机App；多次试验且遭遇拒答，型号与代码未披露。 **[其他 AI 逆向 · 待验证]**
+- [Switch运行iPadOS与AirPods弹窗：Yukwun_Lam的AI逆向移植二手说法](cases/switch-ipados-airpods-ai-port-secondary-claim.md) — Yukwun_Lam称国内开发者借AI逆向把iPadOS装到Switch并显示AirPods弹窗；有附件记录但未取得原作者、启动链或源码，不认定原生移植成功。 **[其他 AI 逆向 · 待验证]**
+- [Canon相机固件未能进入：Chirag改用Claude微调现有设置](cases/chirag-canon-camera-claude-firmware-blocked-settings-report.md) — Chirag Mittal先宣布用Claude研究Canon相机，随后说固件完全锁住、未能进入；照片变好是现有设置调优的主观结果，不是固件Mod成果。 **[其他 AI 逆向 · 待验证]**
 - [智能眼镜到YOLO识别：Opus逆向说法与WhatsApp／OBS转视频方案须分开](cases/smart-glasses-opus-yolo-whatsapp-vision-secondary-guide.md) — 二手帖把智能眼镜物体识别归于Opus5.5，但实际步骤经WhatsApp通话、OBS虚拟摄像头送Mac YOLO并语音回传；无具名眼镜、协议记录或实测。 **[其他 AI 逆向 · 待验证]**
 - [智能拼豆板脱离官方App：Labelray称Claude反编译APK并接入树莓派MCP](cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md) — Labelray不想用拼豆板官方App，称Claude从官方APK找协议，在树莓派上写MCP，让Agent按需点亮位置；未核型号、传输协议或代码。 **[其他 AI 逆向 · 待验证]**
 - [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
@@ -486,7 +489,7 @@
 - [Coway Airmega IconS脱云：HTTP根证书、AI蓝牙研究与Web Bluetooth安装器的二手报告](cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称替换HTTP下载的根证书接本地MQTT，AI研究蓝牙protobuf配网；新帖点名Airmega IconS及Chrome Web Bluetooth安装器，仍未核代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
 - [让冰箱只制冷：读者提出用REA去除多余智能行为的idea](cases/rea-smart-fridge-basic-cooling-only-idea.md) — 葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。 **[REA · 待验证]**
 - [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
-- [Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向](cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。 **[其他 AI 逆向 · 进行中]**
+- [Pixel9的bigwave硬解：作者称Claude用Waydroid采集原厂解码数据，初步能跑但仍有问题](cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243先报告Claude接受Pixel9研究，次日称bigwave硬解初步能跑；方法是Claude在Waydroid环境采集Android原厂解码器数据，仍有不少问题、需要大量测试。 **[其他 AI 逆向 · 进行中]**
 - [Pixel4 modem研究遭拒：作者回忆Claude担心地区射频合规](cases/llsswssw-pixel4-modem-claude-refusal-report.md) — 同一作者回忆曾让Claude逆向Pixel4 modem，因不同地区无线射频合规被拒；没有任务发生日期、提示或拒绝日志，不证明设备有缺陷或行为违法。 **[其他 AI 逆向 · 待验证]**
 - [NVIDIA内核定制idea：读者号召AI Agent研究限制，不把未来监控猜测当事实](cases/nvidia-kernel-ai-customization-model-lock-idea.md) — 一位读者建议集中AI Agent研究并定制NVIDIA内核，以阻止其担心的限制；没有型号、版本或实现，区别于既有Linux驱动稳定性idea。 **[其他 AI 逆向 · 待验证]**
 - [2016年的Kindle重用：Harmon称借AI研究设备并装上微信读书](cases/harmon-2016-kindle-ai-weread-install-report.md) — Harmon自述让陪伴中学时期的旧Kindle重新用于阅读，称逆向后装上微信读书并感谢AI；模型、机型、越狱和适配方法未披露。 **[其他 AI 逆向 · 待验证]**
@@ -1078,6 +1081,7 @@
 
 ### 应用与客户端
 
+- [Kwaro AI扫描harness：Ibrahim称研究旧扫描器架构后用DeepSeek报告SQLi等发现](cases/kwaro-ai-scanner-architecture-deepseek-harness-report.md) — Ibrahim Auwal称逆向一个未具名的传统漏洞扫描器学习架构，再向Kwaro Agent提供百余工具、书籍和公开报告；首轮DeepSeek低于30美元报1项SQLi与20余项发现，未见验证。 **[其他 AI 逆向 · 待验证]**
 - [borland-reborn：Exhume辅助重建Borland C++ 2.0，字节一致不是原始源码唯一恢复](cases/borland-reborn-bcc20-exhume-byte-matching.md) — 项目称1991年BCC.EXE与CPP.EXE重建后字节相同，保留C／手写汇编分工；Exhume提供Claude Code skills，改版另以1836次编译对照，未在本合集重跑。 **[其他 AI 逆向 · 待验证]**
 - [Electron目录静态侦察：丰收称REA给出20节点、26关系，未保证运行](cases/fengshou-rea-electron-20-node-static-inspection.md) — 丰收报告不用Ghidra或登录账号，以REA检查Electron应用目录，得到20节点26关系与零IPC／contextBridge；仅静态结构输出，非运行验证。 **[REA · 分析测试]**
 - [Antigravity原生ACP桥接：用户让Carbon通宵模拟工具调用，仍在调试](cases/carbon-antigravity-acp-tool-call-bridge-attempt.md) — 用户不满Antigravity各入口与反代体验，称让Carbon利用CLI原生ACP模拟工具调用做出一版，正在调试；没有接口逆向完成或稳定可用的证明。 **[其他 AI 逆向 · 进行中]**
@@ -1371,7 +1375,7 @@
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
 - [zeroauthy：OccupySaaS的Auth0兼容身份服务，完整替代仍是目标](cases/occupysaas-auth0-ai-cleanroom-report.md) — 公开zeroauthy按文档与开放标准重建Auth0身份服务；11月6日转述称已出rc.1并给Claude提交统计，仍早期预览，未证明全量兼容或生产可用。 **[其他 AI 逆向 · 进行中]**
 - [SalesCompel：OccupySaaS的Salesforce替代候选，文档明确未生产就绪](cases/occupysaas-salesforce-ai-cleanroom-report.md) — AI重建Salesforce对应早期Go/PostgreSQL与Vue项目；11月6日新转述仍只谈账号和联系人，旧文档局部验收不等于完整兼容或生产可用。 **[其他 AI 逆向 · 进行中]**
-- [Jackson li的Claude Code逆向：明确使用REA做个人Agent，自称可用但能力不足](cases/jacksonli-claude-code-ai-research.md) — Jackson li从继续研究进展到称终于可用，并明确用REA做专属Agent；同窗又评价能力不太行，没有代码或功能对照，不能认定完整复刻。 **[REA · 进行中]**
+- [Jackson li的Claude Code个人Agent：REA研究后自称可用，新回复说明DeepSeek API接入](cases/jacksonli-claude-code-ai-research.md) — Jackson li曾明确用REA重建个人Agent，并称可用但能力有限；11月14日回复在DeepSeek讨论中说明走API而非本地部署，未给代码与兼容性测试，不等于恢复Claude模型。 **[REA · 进行中]**
 - [SpeakMore：REA研究Typeless后重写语音输入，离线与翻译能力须区分](cases/speakmore-rea-typeless-voice-input-report.md) — 转述称18篇Typeless逆向笔记带来SpeakMore；公开项目区分本机听写、联网整理与翻译，不能把月约1美元或整套功能离线当成验证。 **[REA · 进行中]**
 - [两款付费软件的REA体验：awinloss估计重建80%至90%，仍需人工改动](cases/awinloss-rea-two-paid-app-rebuild-test.md) — 作者报告在两款未具名付费软件上试用REA并自行修改，认为不能100%重建；百分比无测量标准，Claude限制也只是本次体验。 **[REA · 分析测试]**
 - [Apptonic增长拆解：Cedric Roberge用竞品数据研究广告，提出Claude MCP查询](cases/apptonic-claude-mcp-app-growth-research-workflow.md) — 作者描述从手工刷竞品内容转向Apptonic数据研究，列出Claude MCP查询健康App、长投广告与创作者的具体idea；不是软件反编译，营收不归因于AI。 **[其他 AI 逆向 · 进行中]**
@@ -2017,6 +2021,10 @@
 
 ### 算法与功能重建
 
+- [rea-toon：从短剧逐镜研究人物、台词与结构，导出剧本和VIDEO.md的Agent项目](cases/rea-toon-short-drama-shot-script-analysis-project.md) — JuneYaooo在rea-video上增加短剧人物、说话人、情绪与跨集结构层，文档称可回放逐镜证据并输出研读／剧本／分镜与VIDEO.md；尚未运行，非商业许可。 **[其他 AI 逆向 · 相关项目]**
+- [回测漏掉102个退市币：Meller称Claude Code拆解后交易优势消失](cases/meller-trading-bot-claude-backtest-delisted-coins-report.md) — Meller称让Claude Code拆解自有交易机器人回测，发现币种列表漏102个退市币；补回后原有优势消失，未给策略、代码或回测指标。 **[其他 AI 逆向 · 待验证]**
+- [Speak的AI搜索曝光：Era AI称89%引用来自非自有网站的黑箱研究](cases/speak-ai-search-third-party-citation-audit-report.md) — Era AI称研究语言学习应用Speak的AI搜索表现，89%引用来自非自有站点且无外链领先优势；没有查询样本、模型或原始统计，90天复制是营销建议。 **[未确认使用 REA · 待验证]**
+- [粒子动效参考拆解：让AI提取视觉／运动描述，再迭代文字与粒子的具体工作流](cases/particle-motion-reference-ai-parameter-breakdown-workflow.md) — 作者以近期粒子动效测试说明，先让模型把参考片拆成视觉参数、运动与光影描述，再换主体、多轮调整文字互动；没有原片、代码或对照，非物理参数准确恢复。 **[其他 AI 逆向 · 待验证]**
 - [Ramp为何被ChatGPT推荐：11个购买问题与引用页面的黑箱审计自述](cases/ramp-chatgpt-recommendation-blackbox-citation-audit.md) — 作者用ChatGPT查询与引用路径反推Ramp的推荐曝光，称11个购买意向问题均出现Ramp、对比Brex为67%对33%；有AP自动化反例，但无完整样本或因果对照。 **[其他 AI 逆向 · 分析测试]**
 - [蜘蛛侠开场到15秒片段：作者称用rea-video拆镜头再交Cue复刻](cases/rea-video-spiderman-opening-cue-15second-rebuild.md) — 作者称rea-video分析蜘蛛侠开场、Cue按其结果重建15秒视频；未核原片版本、镜头对拍、提示词或成片匹配程度。 **[未确认使用 REA · 待验证]**
 - [由AI回复反推提示与模型：请求Grok评分、盲猜后再揭晓的实验idea](cases/grok-ai-replies-prompt-model-blind-guess-idea.md) — 作者向Grok提交一组AI回复，要求反推提示词、打分并猜模型，表示猜后提供答案；没有取得Grok输出或揭晓结果。 **[其他 AI 逆向 · 待验证]**

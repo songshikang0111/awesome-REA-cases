@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2249 个案例与项目
+# 2257 个案例与项目
 
-**最近案例更新：**2026 年 11 月 14 日 20:15 · **最近维护：**2026 年 11 月 14 日 20:15 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 15 日 00:15 · **最近维护：**2026 年 11 月 15 日 00:15 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：控制自己的设备，保存老工具与游戏，也看清测试究竟证明了什么。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：让设备重新好用，保存旧软件，也逐镜研究一部短剧。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[Ember恒温杯：探测蓝牙，做自己的控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14`作者报告 — Dmitriy称**Codex探测特征并与iOS应用对照**，约一小时做出温度／灯控制。禁止查网是作者要求；杯量精度与代码未核。`未独立核验`
@@ -32,8 +32,8 @@
 6. **[Windows95旅鼠：匹配函数，不夸大整包](cases/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12`介绍；`2026-11-09`固定文档 — 人类定架构，REA／Claude／Codex辅助，自报**八模块696／696函数匹配**。整EXE／DLL仍有差异，现代构建与原编译器匹配分开；自备资产，本合集未构建。`进行中`
 7. **[Mario Kart World：转译代码，也逐项测改动](cases/mkw-recomp-claude-aarch64-c-port.md)** · `2026-11-14`介绍与固定文档 — **Claude辅助AArch64转C、同次运行A/B与原机图对照**，项目报告PC比赛可跑。不是原始源码恢复；菜单、AMD挂起与无在线联机仍有限制。自备游戏，本合集未构建。`进行中`
 8. **[Donkey Kong Bananza：把Switch2游戏带到PC](cases/dkb-pc-recomp-claude-switch2-port.md)** · `2026-11-14`介绍；`2026-11-13`固定文档 — **Claude Code工作以游戏运行和Unicorn对照检查**，建立于TotK Recomp及社区着色器研究。GPU崩溃、后段缺陷仍在，Linux／macOS为预览。自备游戏，本合集未构建。`进行中`
-9. **[decompdecomp：字节匹配，也保留汇编兜底](cases/decompdecomp-local-agent-byte-matching-workbench.md)** · `2026-11-14`介绍；`2026-11-13`固定文档 — **Agent写C／C++，原编译器按字节判定。**尚无整款游戏完成的报告；导出保留汇编，云模型可能收到游戏材料。本合集未运行。`进行中`
-10. **[智能拼豆板：从APK到树莓派控制端](cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md)** · `2026-11-14`作者报告与澄清 — Labelray称**Claude反编译官方APK找协议**，再写MCP工具按需点亮位置，不用原App。型号、连接方式与代码未披露，本合集未实机测试。`未独立核验`
+9. **[Pixel9 bigwave：从原厂数据到初步能跑](cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md)** · `2026-11-14`作者更新 — llsswssw3243称**Claude经Waydroid采集Android解码器数据**，硬解已能跑。仍有不少问题、需要大量测试；代码、格式覆盖和输出测量未核。`进行中`
+10. **[rea-toon：读懂短剧的剧本与镜头](cases/rea-toon-short-drama-shot-script-analysis-project.md)** · `2026-11-14`介绍与固定文档 — **人物、台词、分镜分析，附原片回放与VIDEO.md输出。**建立于rea-video；模型标注的情绪不是真值。本合集未运行，非商业许可。`相关项目`
 
 ## 经典案例
 
@@ -50,9 +50,9 @@
 | 分类 | 数量 |
 | :--- | ---: |
 | [游戏与游戏保存](categories/games.md) | **449** |
-| [硬件与设备互通](categories/hardware.md) | **597** |
-| [应用与客户端](categories/apps.md) | **936** |
-| [算法与功能重建](categories/algorithms.md) | **267** |
+| [硬件与设备互通](categories/hardware.md) | **600** |
+| [应用与客户端](categories/apps.md) | **937** |
+| [算法与功能重建](categories/algorithms.md) | **271** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

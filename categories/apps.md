@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Kwaro AI扫描harness：Ibrahim称研究旧扫描器架构后用DeepSeek报告SQLi等发现](../cases/kwaro-ai-scanner-architecture-deepseek-harness-report.md) — Ibrahim Auwal称逆向一个未具名的传统漏洞扫描器学习架构，再向Kwaro Agent提供百余工具、书籍和公开报告；首轮DeepSeek低于30美元报1项SQLi与20余项发现，未见验证。 **[其他 AI 逆向 · 待验证]**
 - [borland-reborn：Exhume辅助重建Borland C++ 2.0，字节一致不是原始源码唯一恢复](../cases/borland-reborn-bcc20-exhume-byte-matching.md) — 项目称1991年BCC.EXE与CPP.EXE重建后字节相同，保留C／手写汇编分工；Exhume提供Claude Code skills，改版另以1836次编译对照，未在本合集重跑。 **[其他 AI 逆向 · 待验证]**
 - [Electron目录静态侦察：丰收称REA给出20节点、26关系，未保证运行](../cases/fengshou-rea-electron-20-node-static-inspection.md) — 丰收报告不用Ghidra或登录账号，以REA检查Electron应用目录，得到20节点26关系与零IPC／contextBridge；仅静态结构输出，非运行验证。 **[REA · 分析测试]**
 - [Antigravity原生ACP桥接：用户让Carbon通宵模拟工具调用，仍在调试](../cases/carbon-antigravity-acp-tool-call-bridge-attempt.md) — 用户不满Antigravity各入口与反代体验，称让Carbon利用CLI原生ACP模拟工具调用做出一版，正在调试；没有接口逆向完成或稳定可用的证明。 **[其他 AI 逆向 · 进行中]**
@@ -295,7 +296,7 @@
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
 - [zeroauthy：OccupySaaS的Auth0兼容身份服务，完整替代仍是目标](../cases/occupysaas-auth0-ai-cleanroom-report.md) — 公开zeroauthy按文档与开放标准重建Auth0身份服务；11月6日转述称已出rc.1并给Claude提交统计，仍早期预览，未证明全量兼容或生产可用。 **[其他 AI 逆向 · 进行中]**
 - [SalesCompel：OccupySaaS的Salesforce替代候选，文档明确未生产就绪](../cases/occupysaas-salesforce-ai-cleanroom-report.md) — AI重建Salesforce对应早期Go/PostgreSQL与Vue项目；11月6日新转述仍只谈账号和联系人，旧文档局部验收不等于完整兼容或生产可用。 **[其他 AI 逆向 · 进行中]**
-- [Jackson li的Claude Code逆向：明确使用REA做个人Agent，自称可用但能力不足](../cases/jacksonli-claude-code-ai-research.md) — Jackson li从继续研究进展到称终于可用，并明确用REA做专属Agent；同窗又评价能力不太行，没有代码或功能对照，不能认定完整复刻。 **[REA · 进行中]**
+- [Jackson li的Claude Code个人Agent：REA研究后自称可用，新回复说明DeepSeek API接入](../cases/jacksonli-claude-code-ai-research.md) — Jackson li曾明确用REA重建个人Agent，并称可用但能力有限；11月14日回复在DeepSeek讨论中说明走API而非本地部署，未给代码与兼容性测试，不等于恢复Claude模型。 **[REA · 进行中]**
 - [SpeakMore：REA研究Typeless后重写语音输入，离线与翻译能力须区分](../cases/speakmore-rea-typeless-voice-input-report.md) — 转述称18篇Typeless逆向笔记带来SpeakMore；公开项目区分本机听写、联网整理与翻译，不能把月约1美元或整套功能离线当成验证。 **[REA · 进行中]**
 - [两款付费软件的REA体验：awinloss估计重建80%至90%，仍需人工改动](../cases/awinloss-rea-two-paid-app-rebuild-test.md) — 作者报告在两款未具名付费软件上试用REA并自行修改，认为不能100%重建；百分比无测量标准，Claude限制也只是本次体验。 **[REA · 分析测试]**
 - [Apptonic增长拆解：Cedric Roberge用竞品数据研究广告，提出Claude MCP查询](../cases/apptonic-claude-mcp-app-growth-research-workflow.md) — 作者描述从手工刷竞品内容转向Apptonic数据研究，列出Claude MCP查询健康App、长投广告与创作者的具体idea；不是软件反编译，营收不归因于AI。 **[其他 AI 逆向 · 进行中]**

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Sony Android TV外接蓝牙音箱：作者称Claude与Gemini研究原厂APK后做出手机App](../cases/sony-android-tv-a2dp-gemini-claude-apk-report.md) — bonfix_fixer称电视具备A2DP却限制外接音箱，经Claude基础集成、Gemini Argon推理与原厂APK研究后做出手机App；多次试验且遭遇拒答，型号与代码未披露。 **[其他 AI 逆向 · 待验证]**
+- [Switch运行iPadOS与AirPods弹窗：Yukwun_Lam的AI逆向移植二手说法](../cases/switch-ipados-airpods-ai-port-secondary-claim.md) — Yukwun_Lam称国内开发者借AI逆向把iPadOS装到Switch并显示AirPods弹窗；有附件记录但未取得原作者、启动链或源码，不认定原生移植成功。 **[其他 AI 逆向 · 待验证]**
+- [Canon相机固件未能进入：Chirag改用Claude微调现有设置](../cases/chirag-canon-camera-claude-firmware-blocked-settings-report.md) — Chirag Mittal先宣布用Claude研究Canon相机，随后说固件完全锁住、未能进入；照片变好是现有设置调优的主观结果，不是固件Mod成果。 **[其他 AI 逆向 · 待验证]**
 - [智能眼镜到YOLO识别：Opus逆向说法与WhatsApp／OBS转视频方案须分开](../cases/smart-glasses-opus-yolo-whatsapp-vision-secondary-guide.md) — 二手帖把智能眼镜物体识别归于Opus5.5，但实际步骤经WhatsApp通话、OBS虚拟摄像头送Mac YOLO并语音回传；无具名眼镜、协议记录或实测。 **[其他 AI 逆向 · 待验证]**
 - [智能拼豆板脱离官方App：Labelray称Claude反编译APK并接入树莓派MCP](../cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md) — Labelray不想用拼豆板官方App，称Claude从官方APK找协议，在树莓派上写MCP，让Agent按需点亮位置；未核型号、传输协议或代码。 **[其他 AI 逆向 · 待验证]**
 - [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](../cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
@@ -10,7 +13,7 @@
 - [Coway Airmega IconS脱云：HTTP根证书、AI蓝牙研究与Web Bluetooth安装器的二手报告](../cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称替换HTTP下载的根证书接本地MQTT，AI研究蓝牙protobuf配网；新帖点名Airmega IconS及Chrome Web Bluetooth安装器，仍未核代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
 - [让冰箱只制冷：读者提出用REA去除多余智能行为的idea](../cases/rea-smart-fridge-basic-cooling-only-idea.md) — 葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。 **[REA · 待验证]**
 - [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](../cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
-- [Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向](../cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。 **[其他 AI 逆向 · 进行中]**
+- [Pixel9的bigwave硬解：作者称Claude用Waydroid采集原厂解码数据，初步能跑但仍有问题](../cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243先报告Claude接受Pixel9研究，次日称bigwave硬解初步能跑；方法是Claude在Waydroid环境采集Android原厂解码器数据，仍有不少问题、需要大量测试。 **[其他 AI 逆向 · 进行中]**
 - [Pixel4 modem研究遭拒：作者回忆Claude担心地区射频合规](../cases/llsswssw-pixel4-modem-claude-refusal-report.md) — 同一作者回忆曾让Claude逆向Pixel4 modem，因不同地区无线射频合规被拒；没有任务发生日期、提示或拒绝日志，不证明设备有缺陷或行为违法。 **[其他 AI 逆向 · 待验证]**
 - [NVIDIA内核定制idea：读者号召AI Agent研究限制，不把未来监控猜测当事实](../cases/nvidia-kernel-ai-customization-model-lock-idea.md) — 一位读者建议集中AI Agent研究并定制NVIDIA内核，以阻止其担心的限制；没有型号、版本或实现，区别于既有Linux驱动稳定性idea。 **[其他 AI 逆向 · 待验证]**
 - [2016年的Kindle重用：Harmon称借AI研究设备并装上微信读书](../cases/harmon-2016-kindle-ai-weread-install-report.md) — Harmon自述让陪伴中学时期的旧Kindle重新用于阅读，称逆向后装上微信读书并感谢AI；模型、机型、越狱和适配方法未披露。 **[其他 AI 逆向 · 待验证]**

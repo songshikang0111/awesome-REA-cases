@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [rea-toon：从短剧逐镜研究人物、台词与结构，导出剧本和VIDEO.md的Agent项目](../cases/rea-toon-short-drama-shot-script-analysis-project.md) — JuneYaooo在rea-video上增加短剧人物、说话人、情绪与跨集结构层，文档称可回放逐镜证据并输出研读／剧本／分镜与VIDEO.md；尚未运行，非商业许可。 **[其他 AI 逆向 · 相关项目]**
+- [回测漏掉102个退市币：Meller称Claude Code拆解后交易优势消失](../cases/meller-trading-bot-claude-backtest-delisted-coins-report.md) — Meller称让Claude Code拆解自有交易机器人回测，发现币种列表漏102个退市币；补回后原有优势消失，未给策略、代码或回测指标。 **[其他 AI 逆向 · 待验证]**
+- [Speak的AI搜索曝光：Era AI称89%引用来自非自有网站的黑箱研究](../cases/speak-ai-search-third-party-citation-audit-report.md) — Era AI称研究语言学习应用Speak的AI搜索表现，89%引用来自非自有站点且无外链领先优势；没有查询样本、模型或原始统计，90天复制是营销建议。 **[未确认使用 REA · 待验证]**
+- [粒子动效参考拆解：让AI提取视觉／运动描述，再迭代文字与粒子的具体工作流](../cases/particle-motion-reference-ai-parameter-breakdown-workflow.md) — 作者以近期粒子动效测试说明，先让模型把参考片拆成视觉参数、运动与光影描述，再换主体、多轮调整文字互动；没有原片、代码或对照，非物理参数准确恢复。 **[其他 AI 逆向 · 待验证]**
 - [Ramp为何被ChatGPT推荐：11个购买问题与引用页面的黑箱审计自述](../cases/ramp-chatgpt-recommendation-blackbox-citation-audit.md) — 作者用ChatGPT查询与引用路径反推Ramp的推荐曝光，称11个购买意向问题均出现Ramp、对比Brex为67%对33%；有AP自动化反例，但无完整样本或因果对照。 **[其他 AI 逆向 · 分析测试]**
 - [蜘蛛侠开场到15秒片段：作者称用rea-video拆镜头再交Cue复刻](../cases/rea-video-spiderman-opening-cue-15second-rebuild.md) — 作者称rea-video分析蜘蛛侠开场、Cue按其结果重建15秒视频；未核原片版本、镜头对拍、提示词或成片匹配程度。 **[未确认使用 REA · 待验证]**
 - [由AI回复反推提示与模型：请求Grok评分、盲猜后再揭晓的实验idea](../cases/grok-ai-replies-prompt-model-blind-guess-idea.md) — 作者向Grok提交一组AI回复，要求反推提示词、打分并猜模型，表示猜后提供答案；没有取得Grok输出或揭晓结果。 **[其他 AI 逆向 · 待验证]**
