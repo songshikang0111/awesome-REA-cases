@@ -2,6 +2,32 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Ramp为何被ChatGPT推荐：11个购买问题与引用页面的黑箱审计自述](../cases/ramp-chatgpt-recommendation-blackbox-citation-audit.md) — 作者用ChatGPT查询与引用路径反推Ramp的推荐曝光，称11个购买意向问题均出现Ramp、对比Brex为67%对33%；有AP自动化反例，但无完整样本或因果对照。 **[其他 AI 逆向 · 分析测试]**
+- [蜘蛛侠开场到15秒片段：作者称用rea-video拆镜头再交Cue复刻](../cases/rea-video-spiderman-opening-cue-15second-rebuild.md) — 作者称rea-video分析蜘蛛侠开场、Cue按其结果重建15秒视频；未核原片版本、镜头对拍、提示词或成片匹配程度。 **[未确认使用 REA · 待验证]**
+- [由AI回复反推提示与模型：请求Grok评分、盲猜后再揭晓的实验idea](../cases/grok-ai-replies-prompt-model-blind-guess-idea.md) — 作者向Grok提交一组AI回复，要求反推提示词、打分并猜模型，表示猜后提供答案；没有取得Grok输出或揭晓结果。 **[其他 AI 逆向 · 待验证]**
+- [从已有Logo反推品牌包：Claude文件审计与向量重建提示方案](../cases/claude-existing-logo-vector-brand-kit-prompt-idea.md) — 提示方案先审计公司已有Logo，提取颜色、判断字体并标猜测，再按原比例重建SVG／PDF／PNG及印刷资产；没有实际公司文件或完成样例。 **[其他 AI 逆向 · 待验证]**
+- [参照mattstasoff作品：bruno称用Lena逆向重建视觉内容](../cases/bruno-lena-mattstasoff-visual-rebuild-report.md) — bruno_apps说看见mattstasoff的作品后，用Lena研究并重建，附图询问能否分辨AI；未披露原作名称、提示、过程或相似度验证。 **[其他 AI 逆向 · 待验证]**
+- [40分钟视频重建：ZDJKN称用Codex逆向后得到演示片](../cases/zdjkn-codex-forty-minute-video-rebuild-report.md) — ZDJKN自报Codex逆向40分钟后重做一段视频并附演示；原片、制作步骤与相似度未披露，不能把演示当精确恢复原工程。 **[其他 AI 逆向 · 待验证]**
+- [先研究一个剪辑点：读者建议用REA-Video解释转镜，再回放质疑](../cases/rea-video-single-cut-explanation-replay-idea.md) — 一位读者未试用REA-Video，提出先选一个切镜点、问剪辑作用、回放核对解释，再考虑整片重建；没有具体片名或测试结果。 **[其他 AI 逆向 · 待验证]**
+- [精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5](../cases/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。 **[其他 AI 逆向 · 待验证]**
+- [十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站](../cases/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。 **[其他 AI 逆向 · 分析测试]**
+- [LinkedIn爆款到原创X草稿：崔棉转述Claude拆主题与互动驱动的营销idea](../cases/mastercui-claude-linkedin-post-pattern-study-idea.md) — 一篇零预算营销指南建议给Claude主题与社区列表，研究高互动LinkedIn帖子后重写原创X草稿，可扩到Reddit；未给实际样本与前后传播测试。 **[其他 AI 逆向 · 待验证]**
+- [REA for Growth：用竞品流量、广告与招聘反推增长的早期技能](../cases/treg-rea-for-growth-competitor-teardown-skill.md) — 候选介绍Treg的免费REA for Growth技能，让Agent研究竞品多种增长信号；宣称样例数据成本0.58美元、提供1美元试用额度，未核完整报告与复现。 **[未确认使用 REA · 相关项目]**
+- [月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配](../cases/sandmrk-moonlit-peony-portrait-prompt-reconstruction.md) — sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。 **[其他 AI 逆向 · 待验证]**
+- [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](../cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
+- [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](../cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**
+- [一段素材做30条试投短片：REA反推视频格式与剪辑风格的idea](../cases/rea-video-trial-reel-format-tournament-idea.md) — ericosiu建议用面向视频的Reverse engineer anything复制格式和剪辑风格，再将素材剪成30种开头、结构与时长试投；未给工具实现或真实投放结果。 **[REA · 待验证]**
+- [仅作者持源码的剥符号程序：Kimmmmmm称REA约28秒恢复逻辑](../cases/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm称REA正确重建一个仅自己持源码的剥符号程序逻辑，耗时约28秒，并提醒深入分析依赖较重的Ghidra安装；没有样本或对照结果。 **[REA · 分析测试]**
+- [AGENTS.md与记忆冲突：Sparshith用小样本黑盒实验反推Claude Code／Codex优先级](../cases/sparsamp-agent-memory-agents-md-conflict-probes.md) — Sparshith Sampath每设置五次，比较CSV／JSON、相差15天的偏好与3美元付费许可；称Codex始终依AGENTS.md，Claude会考虑新旧和更安全选择，未区分模型与harness原因。 **[其他 AI 逆向 · 分析测试]**
+- [BLADE：Noah Zixin Zhang宣布对抗BLA，让REA继续分析](../cases/noah-blade-anti-bla-rea-project.md) — Noah Zixin Zhang在同晚两帖宣布BLADE，后给出Bypass LLM Agent Defense Engine全名；目标是对抗BLA阻碍Agent分析的防御，尚无已审源码或测试。 **[REA · 待验证]**
+- [CyberBinGym：补丁二进制帮助Agent恢复漏洞，但88%恢复不等于20%利用](../cases/cyberbingym-stripped-binary-patch-agent-benchmark.md) — 100个真实漏洞任务只给去符号的新旧二进制，论文报告最强Agent恢复88%、利用20%；补丁与加固对照只在限定子集，未独立复跑。 **[其他 AI 逆向 · 分析测试]**
+- [YouTube推荐反推idea：用AI估计预期首页，再对照缩略图标异常](../cases/youtube-expected-feed-ai-anomaly-comparison-idea.md) — 候选提出从用户元数据反推YouTube预期推荐，再比较实际首页与刷新后反复出现的缩略图，辅助异常检测；没有数据、实现或验证，不证明存在操纵。 **[其他 AI 逆向 · 待验证]**
+- [汇编块即时反编译idea：用来源感知C风格伪代码帮助人与AI调试](../cases/assembly-block-source-aware-pseudocode-debugging-idea.md) — 候选作者设想把汇编片段即时转成更大抽象块，并根据来源背景呈现C风格伪代码，供人和AI理解与调试；只是提问，没有实现或效果测试。 **[未确认使用 REA · 待验证]**
+- [SPY交易规则反推：helicerat用Opus双Agent拆穿历史100%拟合](../cases/helicerat-opus-trade-rule-builder-breaker-study.md) — 作者称Claude Code的builder从历史交易反推规则，breaker按封存年份与别的ETF检验；三特征规则从100%跌到84%，未核数据与回测。 **[其他 AI 逆向 · 分析测试]**
+- [证明群体实验：Gemini Agent逆推检查漏洞，另有Agent举报假证明](../cases/deepmind-gemini31pro-proof-swarm-exploit-reconstruction.md) — 完整转载报道称100个Gemini 3.1 Pro Agent共享数学证明，部分逆推同伴利用的检查漏洞，27分钟伪解34题；举报者24对作弊者14，未核原论文或日志。 **[其他 AI 逆向 · 分析测试]**
+- [AlphaProof Code与Signal：团队报告一个月证明生产机器码的关键安全属性](../cases/alphaproof-code-signal-machine-code-security-verification.md) — DeepMind报告一个月验证Signal机器码；新整理补充PQXDH／Triple Ratchet、37个hook例程与群聊等排除范围，仍为未审证明产物的转述，不保证Signal全产品安全。 **[其他 AI 逆向 · 相关项目]**
+- [重访Inception v1：Nick Cammarata借Agent研究猫与车神经元的V形解释](../cases/cammarata-inception-v1-agents-neuron-vshape-study.md) — 完整转引报道称Goodfire研究者使用Agent团队读神经网络，把Inception v1的猫／车响应解释为V形；是可质疑的局部机制报告，不代表前沿LLM已被理解。 **[其他 AI 逆向 · 分析测试]**
+- [Meta Hyperscape：Stefano Rivera用Claude研究渲染器，卡在60万splat](../cases/easyldur-meta-hyperscape-claude-splat-limit.md) — Stefano Rivera自述研究Meta Hyperscape高斯splat渲染器，但无论如何都未超过总量600k；没有版本、硬件、代码或帧率，保留具体瓶颈而非性能排名。 **[其他 AI 逆向 · 待验证]**
 - [Vulkan BDA着色编译器：Sebastian Aaltonen称Codex擅长逆向，指向GPU指针问题](../cases/sebaaltonen-codex-vulkan-bda-shader-compiler-report.md) — Sebastian Aaltonen称Codex Astra Ultra擅长逆向，并将Intel／AMD着色编译器问题关联到Vulkan BDA指针；缺复现、驱动版本或厂商记录，不宣称修复或安全漏洞。 **[其他 AI 逆向 · 待验证]**
 - [缺失函数到关节臂：Helios比较Grok Bot、Opus与Astra的单次恢复](../cases/helios-grok-opus-astra-articulated-arm-function-test.md) — Helios称同一提示从400行binary恢复缺失函数，Grok Bot用4分12秒给关节臂，另两模型给不完整或不同机构；输入、判分与日志未公开，不能当普遍排名。 **[其他 AI 逆向 · 待验证]**
 - [闭源软件保护评估转述：codila的22页研究、估算成本与结果矛盾](../cases/codila-closed-software-ai-protection-study-report.md) — codila转述AI逆向与代码加密评估，称56.6万美元为公开价格估算；原论文未读，主帖与回复对通过保护的模型数量不一致，不能当普遍破解率。 **[其他 AI 逆向 · 待验证]**
@@ -182,7 +208,7 @@
 - [社交媒体爆款概率：Alin A提出REA研究推荐算法后放弃的想法](../cases/social-media-viral-probability-rea-abandoned-idea.md) — Alin A设想研究推荐算法、提取爆款概率模型并循环出稿涨粉，但明确作罢；没有指定平台、数据或预测结果。 **[REA · 待验证]**
 - [小米运动热量累加：DeepSeek逆向后发现刷新重复计入的转述](../cases/xiaomi-motion-deepseek-calorie-refresh-report.md) — 澜知AI转述DeepSeek研究小米运动算法，称同一分钟刷新会使40步热量从1.6变8.28卡；后续承认等待抓包与完整复现。 **[其他 AI 逆向 · 待验证]**
 - [CUDA：让 Agent 群尝试反编译的读者挑战](../cases/cuda-agent-swarm-decompile-idea.md) — loveofdoing提议让Agent群反编译CUDA，没有指定组件、版本或兼容目标，也没有实施报告。 **[其他 AI 逆向 · 待验证]**
-- [LLM4Decompile：从汇编或 Ghidra 伪代码恢复 C 函数的专用模型](../cases/llm4decompile-assembly-c-models.md) — 公开研究将 Linux x86_64 函数反汇编转为 C，或细化 Ghidra 伪代码；不同模型与路线的可执行率不能混成通用恢复率。 **[其他 AI 逆向 · 分析测试]**
+- [LLM4Decompile：恢复C函数，以及候选选择与难读化追加学习的研究转述](../cases/llm4decompile-assembly-c-models.md) — 专用模型从汇编或Ghidra伪代码恢复C；新增吉川孝志对100候选选择与ExeBench-Obfuscated训练的转述，区分oracle上限、可用选择器及不同输入条件，未复现实验。 **[其他 AI 逆向 · 分析测试]**
 - [合约买入前检查台：Claude／Ghidra 分析卖出路径并纠正代理误报的自述](../cases/claude-ghidra-contract-rug-check-desk.md) — 发布者报告用字节码红旗检查阻止买入，并称纠正一次 OpenZeppelin 代理误报；没有链地址、代码或日志可复核。 **[其他 AI 逆向 · 待验证]**
 - [Slice 金库调查：Sonnet 从反编译字节码定位外部返回值记账问题](../cases/slice-vault-sonnet-decompiled-bytecode.md) — coffiasse称免费Sonnet 5.5不到两分钟定位漏洞函数，并确认用Claude处理字节码；约4.1万美元损失与可利用性未在此独立链上核验。 **[其他 AI 逆向 · 分析测试]**
 - [专有格式 Rust CLI：Claude 八个子 Agent 对照200份文件导致资源饱和](../cases/claude-rust-proprietary-format-cli-concurrency.md) — Dwayne 开发专有格式提取器时将Claude并发从8降至3，部分文件含数十万行；200文件是工作负载，不是通过200例验证。 **[其他 AI 逆向 · 进行中]**

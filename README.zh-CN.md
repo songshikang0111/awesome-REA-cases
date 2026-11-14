@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2012 个案例与项目
+# 2240 个案例与项目
 
-**最近案例更新：**2026 年 11 月 10 日 16:08 · **最近维护：**2026 年 11 月 10 日 16:08 · 北京时间（UTC+8）；数量统计截至此次维护，连续证据截止见下方说明。
+**最近案例更新：**2026 年 11 月 14 日 16:07 · **最近维护：**2026 年 11 月 14 日 16:07 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,19 +22,18 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：追查二进制证据，让乐高机构动起来，让设备继续可用，保存游戏。可追查的方法与坦诚的测试边界，比发布宣传或单次模型排名更重要。收录不等于成功；下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：探测设备，恢复游戏行为，把主张与项目测试放在一起看。优先看具体用途与可见的证据边界，不靠泛泛的能力承诺。下列日期为来源或作者更新日期，不是收录日期。
 
-1. **[XRef：究竟谁写了这个二进制字段？](cases/alex09x-xref-serialized-status-writer-walkthrough.md)** · `2026-11-07`作者帖；`2026-11-06`固定文档 — **从序列化键追到候选writer与指令证据**，公开Rust／JSON／MCP工具供分析者和Agent使用。排名是启发式，x86-64输入支持有边界，live探针可能扰动目标。本合集未运行。`相关项目`
-2. **[hexgrab：研究PowerToys，再做小取色器](cases/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29`报道；`2026-10-12`研究 — Claude/REA调查发布二进制，作者对照源码得出**九项中八项完全正确、一项部分正确**。公开.NET10实现；未分析的runner负责注册热键，暴露跨二进制盲点。只测单屏，本合集未重跑。`分析测试`
-3. **[LDraw Mecha：让静态乐高机构动起来](cases/ldraw-mecha-semantic-parts-blender-motion.md)** · `2026-11-08`报道与固定v0.5.0文档（北京时间） — **从带注释零件文本推机构，再映射同名节点生成Blender rig。**公开运动与间隙检查也保留边界：看起来能动不等于物理可行，42043只做起重机，Linux／WSL2路径未测。本合集未运行。`相关项目`
-4. **[scapectl：不用网页也能控制Fractal Scape耳机](cases/scapectl-fractal-scape-claude-usb-hid.md)** · `2026-10-29` — **Claude Code辅助USB HID研究，公开Go托盘应用与CLI**，查看状态、切EQ预设、响应设备事件。文档保留实机纠正源码标注的过程；项目只测macOS/Windows，Linux未测。未经签名／公证，本合集未运行。`进行中`
-5. **[TimeSplitters 2：把PS2行为追进原生PC版](cases/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10`作者报告；`2026-11-09`固定文档 — **Claude辅助MIPS到C++，以PCSX2画面与状态追查差异。**项目自报Linux／Steam Deck首关通关，仍用PCSX2图形／音频。内部测试工具未公开，后续关卡、部分VU1状态与互联网联机待测，Windows／在线版待发布。须自备光盘，本合集未构建。`进行中`
-6. **[Project Avalanche：让SSX滑上现代PC](cases/project-avalanche-ssx2012-claude-bevy-reimplementation.md)** · `2026-11-09`报道与固定项目文档（北京时间） — **Claude辅助光盘格式与行为研究，再以Rust／Bevy重实现**，文档提供Windows／Linux构建、滑雪、存档与专用服务器。无人完整通关，未解码行为仍有近似；须自备Xbox 360光盘镜像，本合集未构建或试玩。`进行中`
-7. **[DX-Ball：从声像函数走到Windows重建](cases/dx-ball-sound-pan.md)** · `2026-11-01`报道；`2026-10-31`项目记录 — Codex／REA／Ghidra重建报告**270个游戏函数、84968字节匹配**，另有原生VC4构建。仅时间戳不同的比较对象是较早重建版，不是原版EXE；原版50关通关与完整原生音频仍待测。须自备文件，本合集未重建。`项目自测重建`
-8. **[MechWarrior 3：让1999年的机甲游戏跑上现代电脑](cases/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04`报道与固定项目记录 — Owen Morgan披露**REA／Ghidra研究、逐函数C++重建**，报告以Unicorn对照原版。公开原生后端、宽屏与八人UDP联机；报道明确Linux未试玩，Pirate's Moon未支持。须自备原游戏，本合集未构建。`进行中`
-9. **[SoftProtect：REA逆向了，还是找到源码了？](cases/softprotect-ai-adversarial-rea-test.md)** · `2026-11-09`作者纠错 — **首轮看似还原，实为循Debug路径读到本地源码。**删源码后仍部分恢复，但VM保护没开，也没有启用后的结果。值得读的实验设计纠错，不证明保护通破或普遍有效。本合集未复跑。`分析测试`
-10. **[Redivivus：用审阅过的数据库提案恢复暗黑II](cases/redivivus-diablo2-ghidra-agent-proposals.md)** · `2026-11-08`报道与固定项目文档 — **Claude／MCP Agent只读调查Ghidra数据库，再按证据提修正。**项目自报单人通关、地址归一比较下**7772／14626函数匹配**，不是整EXE相同。仍有崩溃，x64编译通过不等于可玩，须自备原游戏。本合集未重建。`进行中`
-
+1. **[Ember恒温杯：探测蓝牙，做自己的控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14`作者报告 — Dmitriy称**Codex探测特征并与iOS应用对照**，约一小时做出温度／灯控制。禁止查网是作者要求，不是独立隔离证明；杯量精度与代码未核。`未独立核验`
+2. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙／Wi-Fi协议差异**，做出JPEG导入和Google Photos上传。逐步实机试验，不是无迭代生成；代码与抓包未审。`未独立核验`
+3. **[Anker录音豆：让Agent找回上周的对话](cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12`作者报告 — **REA蓝牙研究与MCP录音检索**，可选千问本地ASR或在线转写。Berryxia计划调整测试后开源；代码与设备链路未核。`进行中`
+4. **[Fallout Van Buren：把六年研究交给REA](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14`作者串 — Kran明确归功于**人工研究、shenmarukai初始反编译与IDA数据库**，不是Agent从零发现。Adam报告DX9迁移，64位仍是目标；研究对象是技术演示，不是完整游戏。本合集未构建。`进行中`
+5. **[Windows95旅鼠：匹配函数，不夸大整包](cases/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12`介绍；`2026-11-09`固定文档 — 人类定架构，REA／Claude／Codex辅助，项目自报**八模块696／696函数匹配**。整EXE／DLL仍有差异，现代可移植构建与原编译器匹配分开；自备游戏资产，本合集未构建。`进行中`
+6. **[decompdecomp：字节匹配，也保留汇编兜底](cases/decompdecomp-local-agent-byte-matching-workbench.md)** · `2026-11-14`介绍；`2026-11-13`固定文档 — **Agent写C／C++，原编译器按字节判定。**独立续接decomp.wtf，文档明确尚无整款游戏完成；导出保留汇编，所选云模型可能收到游戏材料。本合集未运行。`进行中`
+7. **[ZigZag：把SVG送进Brother刺绣机](cases/kath-korevec-brother-chatgpt-embroidery-report.md)** · `2026-11-13`介绍与固定文档 — **Skitch PP1蓝牙上传与MCP辅助设计**，项目报告实机测试。NOTICE把协议归于Respira；早先ChatGPT起源故事仍是二手转述，不是独立发现。未运行。`未独立核验`
+8. **[MousePods：AirPods在Linux当鼠标与头追](cases/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11`报道；`2026-11-10`固定文档 — **Claude辅助RemoteHID研究与自报AirPods 3／Pro 2实机检查。**不刷耳机，但Proton接入会改前缀。MTU／设备身份影响未隔离，本合集未运行。`未独立核验`
+9. **[智能拼豆板：从APK到树莓派控制端](cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md)** · `2026-11-14`作者报告与澄清 — Labelray称**Claude反编译官方APK找协议**，再写MCP工具按需点亮位置，不用原App。板子型号、连接方式与代码未披露，本合集未实机测试。`未独立核验`
+10. **[TimeSplitters 2：把PS2行为追进PC版](cases/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10`作者报告；`2026-11-09`固定文档 — **Claude辅助MIPS到C++，以PCSX2画面／状态对照**，自报Linux／Steam Deck首关通关。仍用PCSX2图形／音频，后续关卡与互联网联机待测；自备光盘，本合集未构建。`进行中`
 
 ## 经典案例
 
@@ -50,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **410** |
-| [硬件与设备互通](categories/hardware.md) | **539** |
-| [应用与客户端](categories/apps.md) | **822** |
-| [算法与功能重建](categories/algorithms.md) | **241** |
+| [游戏与游戏保存](categories/games.md) | **445** |
+| [硬件与设备互通](categories/hardware.md) | **596** |
+| [应用与客户端](categories/apps.md) | **932** |
+| [算法与功能重建](categories/algorithms.md) | **267** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

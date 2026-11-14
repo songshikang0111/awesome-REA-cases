@@ -1,20 +1,23 @@
-# A Spider-Verse-inspired portfolio: Praveen uses REA to study a site's design, animations and interactions
+# Praveen's portfolio research: from REA/Antigravity exploration to a later reconstruction report
 
 Category: Applications and clients · REA
-Record date: 2026-10-26
+Record date: 2026-11-11
 Stage: In progress
 
-At 15:10 Beijing time on October 26, 2026, Praveen S (@Praveens649) reported choosing a Spider-Verse-inspired portfolio on the internet and attempting to rebuild its entire experience with REA MCP and AI. He explicitly said he was only halfway through the reverse-engineering phase. Another candidate at 15:20 specified Antigravity plus REA and a target encompassing design, animations and interactions, while expressing uncertainty about the debugging ahead.
+At 15:10 Beijing time on October 26, 2026, Praveen S (@Praveens649) reports studying a Spider-Verse-style portfolio with REA MCP, still midway through reversing. At 15:20 he specifies Antigravity plus REA, targeting design, animation and interaction while anticipating debugging difficulty. Those consecutive posts share an author and retain the existing ID. Halfway is not verified 50% completion. Their images were not analyzed; reference URL, framework, model and code were absent.
 
-Supplementary lookup of both originals confirmed the same author and continuous mid-research descriptions, so they are recorded as one experiment with additional evidence rather than separate projects ten minutes apart. Both posts attach images, but this collection did not analyze the screenshots. The reference portfolio's URL, creator, framework, AI model, reconstruction source and deployed result remain unidentified. The Spider-Verse style is not used to guess a specific site's identity, and halfway is not converted into a verified 50% completion figure.
+At 22:04:39 on November 11, the author again reports using REA MCP to recreate a portfolio, aiming beyond visual copying to understand layout, interactions, animation and design language, and says he is sharing the reference and reconstruction. A second post at 22:11:23 mentions @TanishqParkar, saying he found that portfolio on Reddit and tried building his own version. Retrieval confirms both evening posts are Praveen's. They supplement his portfolio-research record rather than create duplicate entries. No text explicitly equates November's reference with October's Spider-Verse target, so the new name is not retroactively assigned to the older site and the older project is not declared complete. If different targets are later confirmed, separate concrete records would be appropriate.
 
-This is retained as an in-progress visual/interactive reconstruction experiment. No usable result, itemized behavior comparison, performance measurement or user test was obtained, and successful copying or authorization is not established. No restricted material was accessed, webpage scripts executed or target project run.
+The two retrieved texts provide no checkable reference/result URL, attachment, source, behavioral tests, performance or authorization details. Saying a comparison is shared does not mean this collection saw it. There is now an author report of making a version, beyond the older mid-research account, but fidelity and full functionality remain independently unconfirmed. Status stays in progress. This collection executed no webpage scripts and ran no project.
 
-The author says reverse engineering is still underway; the reference site's identity, reconstruction code, finished result and behavioral comparison were not obtained.
+October's mid-research state and November's built-version statement are author reports. November names a reference creator, not a confirmed identity for the October target.
+November candidates respectively: 0 likes/20 views/0 reposts and 0 likes/23 views/0 reposts. No comparison was viewed, site URL obtained or test rerun.
 
 ## Sources
 
 - [Praveen introduces REA research on a Spider-Verse-inspired portfolio, October 26, 2026 at 15:10 Beijing time](https://x.com/i/status/2114615570373189946)
 - [Praveen adds Antigravity and the design/animation/interaction goals, October 26, 2026 at 15:20 Beijing time](https://x.com/i/status/2114618104907198774)
+- [Same author's later portfolio reconstruction/comparison account, November 11, 2026 at 22:04:39 Beijing time](https://x.com/i/status/2120518069105971546)
+- [Same evening naming TanishqParkar and the Reddit reference, November 11, 2026 at 22:11:23 Beijing time](https://x.com/i/status/2120519764141608961)
 
 [中文](../praveen-spiderverse-portfolio-rea-rebuild.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

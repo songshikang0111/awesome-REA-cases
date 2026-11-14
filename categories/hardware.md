@@ -2,6 +2,63 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [智能拼豆板脱离官方App：Labelray称Claude反编译APK并接入树莓派MCP](../cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md) — Labelray不想用拼豆板官方App，称Claude从官方APK找协议，在树莓派上写MCP，让Agent按需点亮位置；未核型号、传输协议或代码。 **[其他 AI 逆向 · 待验证]**
+- [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](../cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
+- [Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea](../cases/alienware17-r5-64gb-rea-bios-study-idea.md) — 读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。 **[REA · 待验证]**
+- [Ember恒温杯：Dmitriy称Codex探测蓝牙并在约一小时内做出控制端](../cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md) — 作者称Codex探测杯子的蓝牙特征、对照远控iOS应用，做出温度、灯和杯量显示；工时与功能为自述，未核代码或量测精度。 **[其他 AI 逆向 · 待验证]**
+- [Coway Airmega IconS脱云：HTTP根证书、AI蓝牙研究与Web Bluetooth安装器的二手报告](../cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称替换HTTP下载的根证书接本地MQTT，AI研究蓝牙protobuf配网；新帖点名Airmega IconS及Chrome Web Bluetooth安装器，仍未核代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
+- [让冰箱只制冷：读者提出用REA去除多余智能行为的idea](../cases/rea-smart-fridge-basic-cooling-only-idea.md) — 葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。 **[REA · 待验证]**
+- [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](../cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
+- [Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向](../cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。 **[其他 AI 逆向 · 进行中]**
+- [Pixel4 modem研究遭拒：作者回忆Claude担心地区射频合规](../cases/llsswssw-pixel4-modem-claude-refusal-report.md) — 同一作者回忆曾让Claude逆向Pixel4 modem，因不同地区无线射频合规被拒；没有任务发生日期、提示或拒绝日志，不证明设备有缺陷或行为违法。 **[其他 AI 逆向 · 待验证]**
+- [NVIDIA内核定制idea：读者号召AI Agent研究限制，不把未来监控猜测当事实](../cases/nvidia-kernel-ai-customization-model-lock-idea.md) — 一位读者建议集中AI Agent研究并定制NVIDIA内核，以阻止其担心的限制；没有型号、版本或实现，区别于既有Linux驱动稳定性idea。 **[其他 AI 逆向 · 待验证]**
+- [2016年的Kindle重用：Harmon称借AI研究设备并装上微信读书](../cases/harmon-2016-kindle-ai-weread-install-report.md) — Harmon自述让陪伴中学时期的旧Kindle重新用于阅读，称逆向后装上微信读书并感谢AI；模型、机型、越狱和适配方法未披露。 **[其他 AI 逆向 · 待验证]**
+- [游戏主机固件idea：@42Kmi问能否让本机LLM修改更新以保留漏洞](../cases/42kmi-console-llm-firmware-vulnerability-preservation-idea.md) — 作者提出把LLM装进游戏主机，修改待安装固件以保留现有漏洞；是可行性问题，没有主机型号、固件样本、实现或测试。 **[其他 AI 逆向 · 待验证]**
+- [Android临时root与应用检查：煎饼狗子转述DeepSeek4.1Flash协助](../cases/deepseek41-android-root-integrity-secondary-report.md) — 煎饼狗子转述AI协助Android临时root、Google完整性及DBS/Revolut检查，并对比Codex拒绝；设备、原作者、项目与日志未具名，不视作已核验绕过。 **[其他 AI 逆向 · 待验证]**
+- [Opengear控制台服务器：Armadin称LLM协助固件研究发现HTTP堆损坏](../cases/armadin-opengear-llm-firmware-heap-corruption-report.md) — Armadin报告下载Opengear固件、构建SBOM并用LLM协助发现HTTP请求堆损坏，称可导致RCE且厂商已有更新；型号、CVE和补丁未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [电视附加内容去除idea：Dex Dabbler问是否有人已经用REA处理](../cases/dexdabb-tv-rea-unwanted-content-removal-idea.md) — Dex Dabbler用葡语询问有没有人用REA去除电视里不想要的附加内容；品牌、型号、广告类型和实际改造均未说明。 **[REA · 待验证]**
+- [Wyze v4摄像头：vogel让Agent研究自定义固件，摆脱专有联网软件](../cases/wyze-v4-agent-custom-firmware-attempt.md) — vogel称正在让Agent逆向30美元的Wyze v4，目标是运行自定义固件、不依赖厂商联网软件；未报告已刷写或验证独立运行。 **[其他 AI 逆向 · 进行中]**
+- [Samsung UE46F6470应用失灵：Agnogad问Claude加REA能否修复](../cases/samsung-ue46f6470-claude-rea-app-repair-idea.md) — 2013年Samsung UE46F6470在2127.0固件下多数应用与商店不工作，只有YouTube和Prime Video可开；Agnogad建议Claude加REA研究，尚无诊断或修复。 **[REA · 待验证]**
+- [电视厂商二进制与驱动：Andrath正用REA获取更多内部信息](../cases/andrath-tv-vendor-binaries-drivers-rea-attempt.md) — Andrath说正做TV hacking，使用REA从厂商二进制和驱动获取信息；没有电视品牌、版本或具体发现，保留早期研究，不写成已改造设备。 **[REA · 进行中]**
+- [Garmin Forerunner955共用：Claude研究双用户限制，改做Profile2运动应用](../cases/garmin-forerunner955-claude-profile2-workaround.md) — Max Reid想与妻子共用Forerunner955，让Claude研究双档案限制后改走官方应用平台；自报Profile2的心率、计时、GPS可用，但不能改系统档案，全天健康数据仍混合。 **[其他 AI 逆向 · 进行中]**
+- [UniXNU到Android手表：Yukwun转述AI逆向移植watchOS，缺陷与设备未核](../cases/unixnu-android-watch-watchos-ai-port-retelling.md) — Yukwun称有人借UniXNU与AI逆向把watchOS刷到华强北Android手表，并承认仍有bug；型号、版本、启动范围及仓库未核，不写成Apple Watch完整替代。 **[其他 AI 逆向 · 待验证]**
+- [RoverOS口袋Linux：Jerry想让Agent接近Technogym单车和身边设备](../cases/roveros-technogym-pocket-linux-agent-device-idea.md) — Jerry以Technogym单车骑行数据难导出为起点开发RoverOS，拟在Linux手机上给Agent接蓝牙、USB、Wi-Fi与Tailscale；Redmi Note10 Pro尚待到货实测。 **[其他 AI 逆向 · 进行中]**
+- [Razer BlackWidow V4可视拆解：Claude据一张图与规格表重建110键网页](../cases/razer-blackwidow-v4-claude-interactive-reconstruction.md) — f0rgent转述Claude机械键盘页面；父帖Kern说明以图片与Razer规格表重建110键、开关和分层动画。不是实物拆解、固件恢复或力曲线测量。 **[其他 AI 逆向 · 待验证]**
+- [实验仪器API互通：David States建议用AI研究接口、协调采集流程](../cases/ai-lab-instrumentation-api-integration-idea.md) — David States提出用AI逆向实验仪器API，让实验室整合不同设备、控制工作流与采集数据，并定制中等通量实验协议；尚无具名仪器或实施结果。 **[其他 AI 逆向 · 待验证]**
+- [损坏的pydrone板再利用：netox让Codex写电子墨水屏新固件](../cases/pydrone-damaged-board-codex-eink-firmware-attempt.md) — netox称pydrone板一颗芯片损坏后买电子墨水屏，让Codex协助写新固件；是旧板再利用尝试，未报告驱动完成、点亮或整机可用。 **[其他 AI 逆向 · 进行中]**
+- [Anker录音豆到知识库：Berryxia称REA研究蓝牙协议，再接MCP检索](../cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md) — Berryxia.AI自述用REA逆向Anker录音豆蓝牙通信，制作带录音、知识库、场景分类、转写与MCP检索的软件；待调整测试后开源，未核设备链路。 **[REA · 进行中]**
+- [NEAR Signer：AI协作开发的iPhone Ledger协议兼容端，实机仍待核](../cases/near-signer-ios-ledger-ble-ai-report.md) — 莫信转述Ivan Frolov与agents开发NEAR Signer；固定文档确认Ledger BLE／APDU兼容、二维码签名与模拟器测试，但未验证真实iPhone蓝牙、相机或Xcode构建，不等同Ledger安全芯片。 **[其他 AI 逆向 · 进行中]**
+- [Soundcore D3200到Mac输入法：让Agent改造实时取流客户端的idea](../cases/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔提出让Agent改造tacshi/Soundcore，把录音豆用于Mac微信语音输入；项目文档支持蓝牙取流与可选转写，但光标粘贴仍是待补步骤，零延时未测。 **[其他 AI 逆向 · 进行中]**
+- [旧Ford的SYNC升3.4：Trevin Chow在REA语境下尝试车机升级](../cases/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow以Reverse engineer anything开场，称尝试将旧Ford的SYNC升至3.4；未报告成功、车型、现有版本或具体工具调用。 **[未确认使用 REA · 进行中]**
+- [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](../cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**
+- [一台未具名平板：Devsec AI称Agent辅助逆向已用36小时](../cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI称在一台平板的rea工作上已花36小时，强调Agent虽加速，高质量结果仍需时间；设备、工具与成果未说明。 **[未确认使用 REA · 进行中]**
+- [自家可视对讲：Claude研究Android协议，作者称CLI开门与视频只加密前64字节](../cases/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT称Claude研究可视对讲Android应用与通信协议，用自制CLI开自家前门，并发现蜂窝网络视频每帧仅前64字节加密；无型号或抓包核验。 **[其他 AI 逆向 · 进行中]**
+- [云端停服后的Surfboard W161：作者称Codex识别USB接入引脚以进入路由器](../cases/surfboard-w161-codex-usb-pin-access-report.md) — hello称Codex帮助研究失去厂商云端支持的Surfboard W161 WiFi路由器，用便宜USB适配器识别应接引脚以进入设备；未报告恢复联网或新固件。 **[其他 AI 逆向 · 进行中]**
+- [富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用](../cases/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。 **[其他 AI 逆向 · 待验证]**
+- [车内旋钮与宏：Ali Ok提出用Claude反编译补控制功能](../cases/aliok-car-knob-claude-decompile-control-ideas.md) — Ali Ok想以旋钮加按钮切换大灯、后座加热及车内灯，并加入宏；半开玩笑提出Claude反编译，未给设备型号或实现。 **[其他 AI 逆向 · 进行中]**
+- [Zebronics手柄控制Claude：Lovekesh Anand的进行中逆向](../cases/zebronics-gamepad-claude-control-reversing.md) — Lovekesh Anand称正在逆向Zebronics游戏手柄以控制Claude；未说明型号、协议或映射，不把Claude作为控制对象误写为已参与逆向的模型。 **[未确认使用 REA · 进行中]**
+- [Anycubic固件故障：Ismail Hozain建议让Claude调试的idea](../cases/ismail-anycubic-claude-firmware-debug-idea.md) — Ismail Hozain回忆Anycubic设备曾只能反复尝试旧固件，建议Claude或能帮助调试；未开始AI研究，缺型号与具体故障。 **[其他 AI 逆向 · 待验证]**
+- [RK3588开发板：AI协助从预装安卓转Ubuntu24实验室路由器](../cases/rk3588-android-ubuntu24-ai-lab-router-report.md) — ce3319749964称找不到Linux固件时借AI折腾RK3588开发板，刷入Ubuntu24后用作实验室核心路由器；没有板型、镜像、协议逆向步骤或路由测试。 **[其他 AI 逆向 · 待验证]**
+- [日聪蓄电池ECHONET Lite：Gemini对照HEX与遥控器，协议应答不等于执行](../cases/gemini-echonet-lite-code-copy-analysis-report.md) — matsukawa回顾用Gemini生成Python，分析AiSEG3与日聪蓄电池HEX、对照遥控器恢复12字节电力与21字节排程字段；还报告应答成功却不执行、低电量待机死锁及多脚本丢失保护逻辑。 **[其他 AI 逆向 · 进行中]**
+- [Opus／OpenCV摄像头：隐藏视频流到带运动门控的目标跟踪转述](../cases/opus-opencv-camera-hidden-stream-tracking-report.md) — cabbitar转述Opus5.5研究相机官方App视频流，再由OpenCV逐帧跟踪、运动触发模型识别；30fps、每两秒复核、重连和CSV均未核源码或演示。 **[其他 AI 逆向 · 待验证]**
+- [OTA故障门铃摄像头：塔可喵称用AI分析并解锁RTSP](../cases/nekko-doorbell-ota-ai-rtsp-recovery.md) — 塔可喵称门铃摄像头OTA故障后，收到编程器，用AI做提权后的分析与逆向并解锁RTSP；没有型号、固件或视频流测试，不认定全部修复。 **[其他 AI 逆向 · 待验证]**
+- [一根埋墙网线兼顾iTV与上网：Pellorao的AI逆向尝试](../cases/single-wall-ethernet-itv-internet-ai-study.md) — Pellorao称AI逆向初见成效，背景是光猫到电视只有一根埋墙网线，iTV和上网二选一导致WiFi盲区；没有方案、设备或验证，不补写VLAN等实现。 **[其他 AI 逆向 · 进行中]**
+- [云锁IoT本地化idea：买便宜设备，让LLM写脱云固件](../cases/cloud-locked-iot-llm-local-firmware-idea.md) — 一篇离线智能家居报道转述社区建议：购买云锁IoT，用LLM生成本地固件；没有具名设备、模型、源码或实测，不把十年架构当AI成果。 **[其他 AI 逆向 · 待验证]**
+- [机器狗照片到交互爆炸图：隐藏机械结构仍只是模型推断](../cases/robot-dog-photo-ai-exploded-view-report.md) — 谁是藏镜人转述单图生成机器狗骨架、12组关节等三维爆炸图；没有型号、尺寸、拆机对照或模型，1:1与节省三天均未核。 **[其他 AI 逆向 · 待验证]**
+- [本地Qwen配Claude Code harness：不支持固件的Kindle恢复可用的转述](../cases/local-qwen-flash-next-kindle-unsupported-firmware-report.md) — AI Quick Findings称本地Qwen 3.8 Flash Next经Claude Code框架让Kindle在不支持固件下工作；无型号、固件、原Reddit链接或验证，不认定越狱。 **[其他 AI 逆向 · 待验证]**
+- [Jaguar XJ220的Zytek ECU：JL转述Claude研究与跨平台启动器](../cases/jaguar-xj220-zytek-claude-ecu-launcher-report.md) — JL称非工程师车主借Claude研究1994年XJ220发动机电脑，并免费提供跨平台启动器；没有车主、仓库、接口或实车验证，不与Jeep混同。 **[其他 AI 逆向 · 待验证]**
+- [UAVHive监控互通：AI搭YOLOX／ONVIF系统并研究商业CCTV API](../cases/uavhive-yolox-onvif-commercial-cctv-api.md) — UAVHive称AI构建YOLOX视觉系统配合ONVIF，并逆向商业监控API连接不同系统；厂商、模型、接口及实际互通范围未披露。 **[其他 AI 逆向 · 待验证]**
+- [空调遥控器到IR dongle：Aleksander Data称与Claude一晚完成研究](../cases/alexdataa-claude-ac-remote-ir-dongle.md) — Aleksander Data自述借Claude研究空调遥控器并转到红外dongle，称一晚完成；未给型号、码表、代码或实际控制测试。 **[其他 AI 逆向 · 待验证]**
+- [REA Discord里的BMW：morluto回忆用户曾研究自己的车](../cases/morluto-discord-bmw-reversing-recollection.md) — REA作者morluto回忆早期Discord成员在逆向自己的BMW；没有车型、模块、工具或成果，不能据社群归属认定已用REA控制汽车。 **[未确认使用 REA · 待验证]**
+- [32年Jeep：SCI诊断、燃油修正公式与过检不等于合规的边界](../cases/zulali-32year-jeep-claude-control-report.md) — Muhammad的旧Jeep研究新增fly对SCI、固件换算公式与尾气检测的详细转述；保留诊断不等于自动驾驶，以及检测通过不能证明改写内容或合规的限制，未实车验证。 **[其他 AI 逆向 · 待验证]**
+- [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](../cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
+- [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](../cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
+- [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](../cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
+- [自行车上的M5Stack Tab5 CarPlay：Codex协助做适配板与固件，偶发断连未解](../cases/m5stack-tab5-bike-carplay-codex-adapter.md) — ThinkerZhang称将CarPlay装到自行车的M5Stack Tab5，适配板与固件用Codex制作；仍有无故掉线，未披露协议研究或完整源码。 **[其他 AI 逆向 · 进行中]**
+- [Vision Pro＋指虎迁Linux：No-self借AI规划，必要时逆向移植驱动的idea](../cases/vision-pro-index-controllers-linux-ai-vr-driver-idea.md) — No-self想让7800X3D／RTX3090主机兼顾VR与本地AI，贴出Linux、ALVR与校准规划并提逆向驱动；完整Vision Pro＋指虎组合未实机验证。 **[其他 AI 逆向 · 进行中]**
+- [Xteink X3／X4自定义固件：Alexey感谢Claude与CrossInk，具体改动未披露](../cases/xteink-x3-x4-claude-crossink-custom-firmware.md) — Alexey Vishnevsky展示面向Xteink X3/X4阅读器的自定义xTeink固件并感谢Claude及CrossInk；未给具体功能、源码或刷机验证。 **[其他 AI 逆向 · 待验证]**
+- [GPT整理GestaltX v1.0.4指南：国行iPhone配置修改，入口出现不等于服务激活](../cases/gestaltx104-gpt-mainland-iphone-modification-guide.md) — 作者用GPT整理MobileGestalt设备修改指南，涉及Apple Intelligence与境外eSIM，明确系统、硬件、签名权限和恢复风险；非作者实机成功或AI开发漏洞的证据。 **[其他 AI 逆向 · 相关项目]**
+- [旧锅炉手机控制：Nathan Skene称Codex指导重写恒温器固件](../cases/codex-thermostat-debugger-smart-boiler-report.md) — Nathan Skene称原锅炉没有智能控制，Codex让他给恒温器接调试器并重写固件，现能手机控制；型号、协议、代码与安全联锁未核，不是安装建议。 **[其他 AI 逆向 · 待验证]**
 - [USB发光键盘变游戏机：转述Mollick用Fable 5.2研究硬件并做六款游戏](../cases/mollick-fable-usb-light-keyboard-six-games-report.md) — 二手测试汇总称Mollick用一次提示让Fable研究USB发光键盘，首次就做出六款游戏；设备型号、协议、代码与运行结果未取得，不能说替换固件或离线独立运行。 **[其他 AI 逆向 · 待验证]**
 - [本地AI家居idea：Vik计划研究云依赖设备，接入Home Assistant](../cases/vik-local-ai-home-assistant-cloud-appliance-idea.md) — Vik已备硬件，计划把净化器等家电接本地AI与Home Assistant，部分设备需逆向；风扇Wi-Fi集成与门磁已装，抽油烟机控制、语音和脱云研究仍是计划。 **[其他 AI 逆向 · 进行中]**
 - [十四年旧Kindle：Agent经KOReader SSH做天气、股票与时钟插件](../cases/rdklinc-old-kindle-koreader-agent-dashboard.md) — InvestingVault转述RDKLInc把旧Kindle做成KOReader仪表盘，称Agent主要工作耗时2至3小时且保留阅读；代码计划公开，数周续航未验证。 **[其他 AI 逆向 · 待验证]**
@@ -14,7 +71,7 @@
 - [Kapsys SmartVision3：AI审查反编译系统文件后重建读屏桌面的转述](../cases/kapsys-smartvision3-ai-system-review-lineageos-report.md) — Yewen Jiu转述开发者为视障母亲的旧键盘手机刷Android 16，并据AI审查补回按键读屏；原博客、设备日志与可访问性测试未取得。 **[其他 AI 逆向 · 待验证]**
 - [摆线机构视频到CAD：Wei佳转述Astra与ForgeCAD MCP的参数化重建](../cases/forgecad-astra-nonplanar-cycloidal-video-report.md) — Wei佳称开发者从无背隙非平面摆线机构视频推运动并生成特征树；没有取得原实验或误差记录，不把可编辑模型当可制造验证。 **[其他 AI 逆向 · 待验证]**
 - [Deep-TEMPEST：TechVerser介绍用深度学习从HDMI电磁泄漏恢复屏幕](../cases/deep-tempest-hdmi-emissions-ai-reconstruction-report.md) — TechVerser把经典HackRF屏幕恢复演示与Deep-TEMPEST去噪研究联系起来；未读原论文或测距记录，不认定所附演示使用AI或能恢复任意密码。 **[其他 AI 逆向 · 待验证]**
-- [廉价手表重获新生：两帖转述Codex研究蓝牙、SDK与固件后接iOS通知](../cases/codex-cheap-watch-ios-notifications-secondary-report.md) — 两位转述者描述同一类Codex手表改造链路，后帖点名Grok Bot／Muse／dots；型号、作者和固件未确认，不与既有30美元ESP32项目强行合并。 **[其他 AI 逆向 · 待验证]**
+- [廉价手表重获新生：AI研究蓝牙、SDK与固件，转述也保留刷砖风险](../cases/codex-cheap-watch-ios-notifications-secondary-report.md) — 三帖转述同类手表蓝牙与固件改造，接iOS通知与Grok Bot／Muse／dots；新帖称前次刷砖，云端桥接只是合理推断，型号与实现仍未核。 **[其他 AI 逆向 · 待验证]**
 - [SOLIDWORKS LEO：官方称从STEP／IGES恢复可编辑参数特征树](../cases/solidworks-leo-step-iges-parametric-tree-report.md) — SOLIDWORKS称AI Virtual Companion LEO把静态BREP变成原生特征树，用于供应商旧零件；没有版本、零件样本或几何误差，不证明恢复原设计意图。 **[其他 AI 逆向 · 相关项目]**
 - [Divoom Pixoo：Joel称研究原App的Wi-Fi通信后用ChatGPT与MCP控制像素屏](../cases/joel-carpenter-divoom-pixoo-chatgpt-mcp.md) — Joel Carpenter原想让Claude root并刷固件，实际报告只研究原App通信就做了连接器，让ChatGPT显示日历、照片和表格指标；三分钟与纯本地能力未测。 **[其他 AI 逆向 · 待验证]**
 - [出租屋LG电视：Kevin Theo用Claude做欢迎页与Pi重置，发现PlayReady残留登录](../cases/kevin-theo-lg-webos-rental-reset-playready.md) — Kevin Theo报告三台已停更LG电视显示六语欢迎页，Pi在两三分钟内清除上一位住客登录；Netflix还需处理隐藏PlayReady存储。代码与实机测试由AI和人分工，未独立重跑。 **[其他 AI 逆向 · 进行中]**
@@ -39,7 +96,7 @@
 - [键盘显示当前音乐：mantikafasi称Claude研究固件后打补丁](../cases/mantikafasi-claude-keyboard-firmware-live-music-display.md) — 作者报告Claude查看键盘固件并加入实时音乐显示；没有型号、源码、刷写记录或更新延迟测试。 **[其他 AI 逆向 · 进行中]**
 - [家中两台电视盒：susu计划用REA重构，成功后再考虑出售](../cases/susu-two-tv-boxes-rea-refactoring-idea.md) — 具体设备研究idea，作者表达想用REA与Claude改造两台自有盒子；尚无型号、系统、实现或商业结果。 **[REA · 待验证]**
 - [Apple Watch当Mac鼠标：Eikichi转述Claude辅助传感器与蓝牙研究](../cases/eikichi-apple-watch-mac-mouse-claude-report.md) — 转述称手腕移动光标、点按点击、长按拖动和表冠滚动；源码、直接蓝牙与离线实现未验证，未确认具体开发者。 **[其他 AI 逆向 · 待验证]**
-- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](../cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的Rust显示驱动转述新增Claude协议研究与Synaptics拟追收法律文件费用说法；未取得原通知或测试，停止要求不等于侵权裁决。 **[其他 AI 逆向 · 待验证]**
+- [Vino显示驱动：Rust／Claude协议研究与Synaptics停止要求的转述](../cases/vino-displaylink-rust-ai-driver-cease-desist-report.md) — Vino的Rust／Claude协议研究与Synaptics争议继续传播；新转述列两英国专利及每周25000美元说法，但没有通知或裁决，不把指控、索费与仓库转私密升级为法律事实。 **[其他 AI 逆向 · 待验证]**
 - [手机bootloader仍锁定：Pablo用Hermes Agent逐层研究后的失败报告](../cases/pablo-hermes-phone-locked-bootloader-failed-study.md) — Pablo称尝试Hermes Agent逆向手机运作层次仍未成功，厂商解锁码不支持该机；没有实施暴破或变砖的证据。 **[其他 AI 逆向 · 分析测试]**
 - [智能蓝牙网关：张海洋称同事用REA为BCG研究寻找参考](../cases/zhcfox-rea-bluetooth-gateway-bcg-study.md) — 张海洋转述同事研究智能蓝牙网关，称九成内容出来了；BCG未解释，比例不是功能等价或效率测量。 **[REA · 待验证]**
 - [手机系统桌面崩溃：李天才的AI逆向失败经历](../cases/ai-phone-reverse-study-launcher-crash-report.md) — 同一作者两帖称AI逆向手机时搞崩系统桌面；未披露机型、工具或修复，不能推断永久损坏或REA导致。 **[其他 AI 逆向 · 分析测试]**
@@ -73,7 +130,7 @@
 - [DVD机改游戏机：读者向Claude开发者询问REA可行性](../cases/dvd-player-claude-rea-game-console-idea.md) — 读者想把只能播放视频的DVD机改成可交互游戏机，提到Claude与REA；仍在问需要什么，没有改机成果。 **[REA · 待验证]**
 - [Nikon D2X色彩固件：转述Claude辅助找参数并做蓝色试验](../cases/nikon-d2x-claude-jpeg-color-firmware-report.md) — Kirill转述RAW/JPEG对照、294组28个数值与滑块预览编辑器，称刷入v2.0后输出蓝图；不等于富士风格已准确复现。 **[其他 AI 逆向 · 待验证]**
 - [旧CCTV录像机改FPV录像：Claude、UART与Ghidra MCP研究报告](../cases/vaizaragorn-cctv-dvr-claude-fpv-recorder.md) — whyamas转述旧DVR改FPV地面站；补读vaizaragorn七月原帖确认Claude与Ghidra MCP参与，作者保留内存、码率及高速画面限制。 **[其他 AI 逆向 · 进行中]**
-- [AirPods 3头控鼠标：转述Claude Code研究RemoteHID与Linux MTU](../cases/airpods3-claude-remotehid-linux-head-mouse-report.md) — 中文复盘称Claude Code从跨项目线索找到RemoteHID与MTU差异，让AirPods 3向Linux传头部运动；200Hz、37测试与首份文档均未独立核实。 **[其他 AI 逆向 · 待验证]**
+- [MousePods：Claude辅助RemoteHID研究，AirPods在Linux当鼠标与游戏头追](../cases/airpods3-claude-remotehid-linux-head-mouse-report.md) — 公开MousePods文档确认Matteo Gaudioso借Claude研究RemoteHID与MTU，提供Linux鼠标和Proton头追；实机、400余测试为项目报告，MTU因果尚未隔离。 **[其他 AI 逆向 · 待验证]**
 - [iPad mini 7救砖：Zhuoli Li称Codex研究WiFi恢复协议，抹掉而不线刷升级](../cases/zhuoli-codex-ipad-mini7-wifi-recovery-erase-report.md) — Zhuoli Li报告Nugget扩展屏幕后iPad陷入白苹果，Codex研究无线恢复传输并发送抹掉指令后救回；是清除数据的单机自述，不是无损修复或通用降级。 **[其他 AI 逆向 · 待验证]**
 - [MacBook自动充电：CryptoGem称DeepSeek研究公牛插座BLE协议，摆脱原App](../cases/cryptogem-bull-ble-plug-deepseek-macbook-autocharge.md) — CryptoGem为长时间跑Agent的MacBook制作电量联动插座，称ds4.1flash逆向公牛蓝牙协议；低于20%开、绿灯显示100%关，未核验可靠性与安全。 **[其他 AI 逆向 · 进行中]**
 - [XCPE Guard：Nerdingen称Claude帮助检查和冻结Android TV固件后门](../cases/nerdingen-xcpe-guard-claude-android-tv.md) — Nerdingen为自用Mecool等电视盒制作XCPE Guard，称Claude协助、无线ADB且无需root，发现并冻结后门后每日检查；未证实能清除感染或覆盖全部固件。 **[其他 AI 逆向 · 进行中]**
@@ -155,7 +212,7 @@
 - [3D打印机固件：log4j报告Daybreak Blue五轮分析被停，对比GPT可继续](../cases/log4j-daybreak-blue-3d-printer-firmware-refusal-test.md) — 作者称订阅者自有打印机固件在Daybreak Blue xhigh反复停机，gpt-6-sol同提示可继续；未给样本、完整提示与漏洞发现，不是受控模型基准。 **[其他 AI 逆向 · 分析测试]**
 - [Audi车载屏幕：Rifzan询问能否用Claude／REA研究](../cases/rifzan-audi-screen-claude-rea-research-idea.md) — 读者把Audi屏幕作为Claude／REA的具体研究对象提出问题；无车型、目标功能、分析过程或成功结果，保留idea而不推断解锁。 **[REA · 待验证]**
 - [Ryan Blass的空气净化器：宣布用AI Agent群调查设备行为](../cases/ryan-blass-ai-agent-swarm-air-purifier-investigation.md) — Ryan称正在逆向自家空气净化器，想知道它在做什么；未给品牌、模型、协议或发现，保留为进行中的具体设备项目。 **[其他 AI 逆向 · 进行中]**
-- [Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑](../cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik自报Claude发现netcache与夜间3.4GB外传；两位直接回复者追问固件访问、样本、HTTPS与处置证据。未获技术记录，既不能确认入侵，也不把质疑当独立鉴伪。 **[其他 AI 逆向 · 待验证]**
+- [Suprik的Starlink路由器：Claude发现netcache的主张受到具体证据质疑](../cases/suprik-starlink-netcache-claude-investigation-report.md) — Suprik在原有netcache主张受质疑后，又称Fable5.2复查发现电视relay、DNS、克隆Wi-Fi与代理残留并清除；新旧说法均无样本或日志，不确认入侵或已安全。 **[其他 AI 逆向 · 待验证]**
 - [Butterfly超声芯片：读者提出AI分析专利、设计替代架构的研究问题](../cases/butterfly-ultrasound-patent-ai-design-around-idea.md) — 读者列出Butterfly Network六项超声芯片专利，询问AI辅助读专利、重建功能及设计替代实现会否削弱技术壁垒；没有芯片设计或验证。 **[其他 AI 逆向 · 待验证]**
 - [M8 Orange的显卡：称Codex以REA研究其他型号，再移植到Windows自有卡](../cases/orangeuuh-codex-rea-gpu-windows-unlock-report.md) — M8 Orange在显卡unlock讨论中报告Codex／REA跨型号与Windows移植成功；未说自己的型号、解锁内容或测试。 **[REA · 待验证]**
 - [车载信息娱乐系统：Eshwar提出用REA寻找低中配功能开关](../cases/car-infotainment-rea-trim-feature-switch-idea.md) — Eshwar Pavagada希望逆向车机以启用低中配被限制的功能；没有车型、固件或测试，布尔开关只是作者猜测。 **[REA · 待验证]**
@@ -261,7 +318,7 @@
 - [Kinov Hacks的键盘固件：数天以DeepSeek／opencode重写，难点再交Codex或Claude](../cases/kinovhacks-deepseek-opencode-keyboard-firmware.md) — Kinov Hacks称数天内以DeepSeek／opencode重写键盘固件，难点再用Codex或Claude；较早回复称DeepSeek将一个固件bug误怪硬件，最终Codex找到问题。未给型号、补丁或设备验收。 **[其他 AI 逆向 · 待验证]**
 - [长虹电视换桌面失败：明子206转述AI生成激活包也未能打开ADB](../cases/mingzi206-changhong-tv-adb-launcher-failed-report.md) — 明子206转述一天改造长虹电视的负结果：工厂模式找不到ADB，开发者页为空，AI写安装包激活也失败，最后建议外接盒子；未取得原实验与机型，不确认厂商移除ADB。 **[其他 AI 逆向 · 分析测试]**
 - [卡兹克的四台会议室电视：二手简报称Codex经ADB清理广告并重做桌面屏保](../cases/kazike-codex-four-meeting-room-tv-adb-report.md) — AI HOT简报转述数字生命卡兹克以四台会议室电视为目标，用Codex连接ADB、清理开机广告、重做简洁桌面与粒子屏保，再部署到其余三台；未取得原教程与设备验证。 **[其他 AI 逆向 · 待验证]**
-- [Brother刺绣机：汉卿转述Kath Korevec用ChatGPT制作直连程序替代订阅流程](../cases/kath-korevec-brother-chatgpt-embroidery-report.md) — 汉卿回复中的12美元硬件订阅经父串识别为Kath Korevec的Brother刺绣机；Valar称她用ChatGPT写直连程序并制作AI图案布贴，未取得原作者记录、协议或代码。 **[其他 AI 逆向 · 待验证]**
+- [ZigZag与Brother Skitch：从ChatGPT直连转述补到公开实现，协议复用Respira](../cases/kath-korevec-brother-chatgpt-embroidery-report.md) — 新转述点名simpsoka/zigzag；固定文档报告Brother Skitch PP1蓝牙直连、MCP设计与实机测试，NOTICE明确协议移植自Respira。早先ChatGPT参与仍是二手归因，不当独立原创逆向。 **[其他 AI 逆向 · 待验证]**
 - [BEST HBN65366SS抽油烟机：Claude协作抓包纠正GATT缓存误判，接入Home Assistant](../cases/godlewski-best-hbn65366ss-claude-ble-homeassistant.md) — Steve Godlewski与Claude Code复用前人BLE唤醒/配对方案，发现ESP-IDF默认只缓存40个GATT特征而设备有54个，扩至100后恢复灯光档位与延时关闭；公开配置、纠错日志及已合并上游PR，限一台设备作者实测。 **[其他 AI 逆向 · 进行中]**
 - [FNIRSI DST-210：zeromem称Claude协作的串口测试器与原厂固件并存](../cases/zeromem-fnirsi-dst210-claude-rs232-tester.md) — zeromem报告RS232/TTL测试器移植到FNIRSI DST-210，启动按RUN进入，自动识别9600至115200波特率并经USB输出；明确部分代码由Claude协助，未给逆向步骤和独立测试。 **[其他 AI 逆向 · 待验证]**
 - [L3+旧矿机：StunGod称周末用GPT／Codex制作自有固件](../cases/stungod-l3-plus-gpt-codex-firmware-report.md) — StunGod在Mujina讨论下报告用GPT／Codex为自己的L3+旧矿机制作固件；没有提供代码、刷写结果或算力测量，不与父串Mujina合并。 **[其他 AI 逆向 · 待验证]**
@@ -312,7 +369,7 @@
 - [M-VAVE Cube Baby AC：Walbert用Claude与REA重建Linux踏板编辑器](../cases/mvave-cube-baby-ac-claude-rea-linux-editor.md) — Walbert Freitas不满吉他踏板编辑器仅支持Windows，报告让Claude用REA逆向后制作Linux原生应用；未取得源码或设备端读写验证。 **[REA · 待验证]**
 - [log4j的2025三星电视调查：AI辅助本地逆向、遥测线索与尚未公开的完整报告](../cases/log4j-samsung-tizen-ai-privacy-investigation.md) — log4j的三星电视本地逆向仍待完整报告；10月27日作者澄清漏洞并非Codex发现，也无理由认定封禁专门针对三星调查。遥测与麦克风路由仍是作者主张，未证明持续原始音频上传；11月4日另有解封致歉的未核验转述。 **[未确认使用 REA · 进行中]**
 - [旧Kindle仪表盘：furkan称Claude辅助越狱，Raspberry服务器供数且保留阅读](../cases/furkan-kindle-claude-raspberry-dashboard.md) — furkan报告Claude帮助旧Kindle越狱并制作仪表盘，服务运行在家中常开Raspberry上，可回默认阅读模式；服务器安全检查仍未完成。 **[其他 AI 逆向 · 待验证]**
-- [Nokia DCT3：bitplane报告AI辅助逆向旧手机，制作MAME驱动](../cases/bitplane-ai-nokia-dct3-mame.md) — bitplane报告AI辅助Nokia DCT3/MAME项目仍需数月；公开文档以3210为参考机，区分交互桌面、原生DSP与HLE边界，不承诺全系列兼容。 **[其他 AI 逆向 · 进行中]**
+- [Nokia DCT3：bitplane报告AI辅助逆向旧手机，制作MAME驱动](../cases/bitplane-ai-nokia-dct3-mame.md) — bitplane补充DCT3/MAME用于终端游戏的Nokia3210彩蛋，还待实机固件dump，预计一两月；旧文档的3210参考、DSP与HLE边界未被全系列修辞推翻。 **[其他 AI 逆向 · 进行中]**
 - [智能灯泡变红报bug：Ashish把逆向协议接到Claude/Codex的MCP服务器](../cases/ashish-smart-bulb-mcp-bug-light.md) — AshishKingdom报告逆向自有智能灯泡协议并接入MCP，Claude或Codex发现代码bug时把灯变红；AI参与控制，但未说明AI是否辅助恢复协议。 **[未确认使用 REA · 相关项目]**
 - [初代Sony α7：参考Sony-PMCA-RE，提出AI辅助定制固件的想法](../cases/sony-alpha7-pmca-ai-firmware-idea.md) — twitHitoshi看到既有Sony-PMCA-RE研究后，提出用AI制作有趣固件；尚未报告实际AI分析或刷写，不把既有相机工具归功于AI。 **[其他 AI 逆向 · 待验证]**
 - [小米电视launcher：Leo称用Workbuddy逆向后不再看开机前广告](../cases/xiaomi-tv-workbuddy-launcher-report.md) — Leo · Building w/ AI报告用Workbuddy逆向小米电视原文称launch的组件，声称不再在看电视前看到小米广告；没有型号、代码或测试，不推断root或固件替换。 **[其他 AI 逆向 · 待验证]**
@@ -347,7 +404,7 @@
 - [楼宇门铃实时画面：Mattia用REA与Ghidra研究固件，以树莓派替代室内屏](../cases/mattia-doorbell-rea-ghidra-rust-live-view.md) — Mattia Righetti报告从门口机ARM固件恢复UDP/XML通话机制，以树莓派接收视频，再由Rust服务与FFmpeg向浏览器提供实时画面；品牌、源码和测试日志未取得。 **[REA · 待验证]**
 - [Ride Relay：OpenCode与DeepSeek把Google Maps转向提示送到Pulsar NS200仪表](../cases/ride-relay-pulsar-ns200-google-maps.md) — Manovikram K称研究Bajaj应用后做出Android桥接，从Google Maps通知提取方向与距离并转为蓝牙包，报告实车可用，不需root或改官方APK。 **[其他 AI 逆向 · 待验证]**
 - [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](../cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；11月5日第三方补述STL测量、CAD偏差、壁厚与STEP实体重建，尚无尺寸精度或实现核验。 **[其他 AI 逆向 · 进行中]**
-- [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](../cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid公开报告Switch 2固件23.0.1的软件越狱与Codex辅助分析；明确研究花约两周大量人工投入，自动WebKit目标失败，马车Mod才是一天完成。 **[其他 AI 逆向 · 进行中]**
+- [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](../cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid报告Codex协助Switch 2研究，明确两周大量人工投入与自动目标失败；11月11日二手报道又称23.5.0封堵逃逸，未实机核验。 **[其他 AI 逆向 · 进行中]**
 - [工程机麦克风链路：Carlos Gong称Codex调固件驱动后一小时内可录音](../cases/codex-engineering-unit-microphone-path-repair.md) — Carlos Gong称Codex在工程机上修复麦克风收音链路，自己提供多次录音反馈；低底噪为主观报告，新增优化算法只是猜测。 **[其他 AI 逆向 · 待验证]**
 - [Noir M1：REA与Opus研究Windows应用，在Mac增加手势的自述](../cases/noir-m1-rea-opus-mac-gestures.md) — ARES称用REA与Opus 5.5研究Noir M1仅有Windows版的配套应用，在Mac增加手势并报告可用；硬件类型、协议与兼容范围未核。 **[REA · 待验证]**
 - [热敏标签打印机：kiter称Claude研究BLE后可不用原App与品牌标签](../cases/kiter-claude-ble-label-printer.md) — kiter称Claude逆向BLE协议后可直接打印并使用第三方标签；父帖只确认低价热敏打印机背景，未提供型号或可复核驱动。 **[其他 AI 逆向 · 待验证]**
@@ -401,7 +458,7 @@
 - [Cricut 刻字机：用 AI 研究导入尺寸失真的修复 idea](../cases/cricut-ai-import-scaling-fix-idea.md) — Pipe42uk建议AI逆向解决刻字机UI问题；父帖明确Cricut导入会乱缩放、需每次添加尺寸基准，尚无修复。 **[其他 AI 逆向 · 待验证]**
 - [Roku OS 电视：REA 映射网络路由，再发送控制请求的自述](../cases/roku-tv-rea-network-route-control.md) — greco_dev称Roku电视控制已可用，同时明确这不是真正反编译：定位局域网IP，用REA映射路由后发请求。 **[REA · 待验证]**
 - [自有扫地机器人：让 Claude Code 检查远程窥视证据的调查提示词](../cases/robot-vacuum-claude-privacy-audit-prompt.md) — tezzarc给出从照片识别型号、核对摄像头权限与账户分享、查异常访问的具体流程；不是发现机器人被入侵的报告。 **[其他 AI 逆向 · 待验证]**
-- [M-VAVE FM-1：AI 固件玩法与价格变化的读者转述](../cases/mvave-fm1-ai-firmware-reader-report.md) — riverleaf88称FM-1合成器因AI辅助固件玩法走热，价格由一百多到三百多；未给具体固件或效果测试。 **[其他 AI 逆向 · 待验证]**
+- [M-VAVE FM-1：AI 固件玩法与价格变化的读者转述](../cases/mvave-fm1-ai-firmware-reader-report.md) — 早期FM-1价格观察新增社区固件两周45至154的转述；链接视频标题确认FM-1，但未核固件目录、AI分工、厂商开放范围或音频效果。 **[其他 AI 逆向 · 待验证]**
 - [webOS 电视侧载 APK：平台表述仍待核实的 REA 改造自述](../cases/webos-rea-apk-sideload-claim.md) — Devcop101称用REA给webOS侧载APK并移除预装软件；APK与平台组合可疑，没有型号或日志佐证。 **[REA · 待验证]**
 - [MagicSwipe：Opus 研究 Magic Mouse，让 iPad 通用控制支持手势](../cases/magic-mouse-ipad-opus-virtual-hid.md) — saikumar公开MagicSwipe，以私有触摸接口和Karabiner虚拟HID把双指手势转成iPad快捷键；仅项目报告实机测试。 **[其他 AI 逆向 · 进行中]**
 - [Fuji 相机：逆向 App 后让 Claude 上传胶片模拟设置](../cases/fuji-claude-film-settings-upload.md) — max称研究Fuji应用后自动选择并上传胶片设置、筛选拍摄照片，另称已开源；仓库与实机结果尚未核实。 **[其他 AI 逆向 · 待验证]**
@@ -489,7 +546,7 @@
 - [家居 App 协议：把无 API 设备接给本地 LLM](../cases/bitfish-local-llm-home-control.md) — DiscusFish 自述用 REA 提取家居 App 协议，与现有 API 一起交给本地 LLM 调度。 **[REA · 待验证]**
 - [GAMEKB-K17 宏键盘：用 Claude Code 逆向配置协议](../cases/claude-code-rgb-macropad.md) — 研究厂商 WebHID 配置端，做离线按键、固件宏和 RGB 配置工具。 **[其他 AI 逆向]**
 - [KEF LSX II：让 Mac 音量键控制音箱的细粒度音量](../cases/kef-lsx-ii-volume-fixer.md) — Claude 辅助制作 USB 音频透传与局域网音量桥，避开音箱 USB 输入的粗步进。 **[其他 AI 逆向]**
-- [Hailo：启动 Agent 辅助逆向研究的计划](../cases/hailo-agent-reverse-plan.md) — 作者准备开展 Hailo 逆向，并并列提到 Raspberry Pi Agent 环境开发。 **[未确认使用 REA · 进行中]**
+- [Hailo与Nvidia：Anthony Janus用Astra／Sol研究驱动，尝试持久激活拓扑](../cases/hailo-agent-reverse-plan.md) — Anthony Janus从Hailo研究计划推进为Astra／Sol分析Nvidia与Hailo驱动和固件访问，自报进展后机器故障；持续适应输入的拓扑是目标，没有可复现性能或实机兼容结果。 **[其他 AI 逆向 · 进行中]**
 - [Wyze 体重秤：让自制 iOS App 接收称重数据](../cases/wyze-scale-custom-ios.md) — 作者称 Claude 研究秤后做出个人客户端，带提醒与图表。 **[其他 AI 逆向 · 待验证]**
 - [涂鸦空调：从 Mac 菜单栏和 Claude 本地调温](../cases/tuya-ac-mac-claude-mcp.md) — 研究空调本地控制，做 Wi-Fi 菜单栏客户端，再以 MCP 接给 Claude。 **[未确认使用 REA · 待验证]**
 - [澎湃 OS 显示器：探索暴露服务的控制路线](../cases/hyperos-monitor-ai-research.md) — Binaryify 的显示器服务研究新增 Opus 辅助控制软件转述，仍缺实机验收。 **[其他 AI 逆向 · 进行中]**

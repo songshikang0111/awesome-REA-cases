@@ -2,6 +2,41 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Xbox版GTA所用FSR：Mike建议Claude加REA检查文件，版本仍未确认](../cases/gta-xbox-fsr-version-claude-rea-inspection-idea.md) — 围绕Xbox版GTA采用哪个FSR版本的争论，Mike提出把文件交给Claude／REA；上游称疑似4.1.2但无确认，且此前文件加密，尚无分析结果。 **[REA · 待验证]**
+- [Fallout Van Buren技术演示重建：Kran把六年人工研究交给REA，保留前人反编译贡献](../cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md) — Kran称REA加人工重建Van Buren技术演示，以六年研究、shenmarukai初始反编译与自有IDA数据库为基础；Adam报告DX9迁移，64位仍是目标。 **[REA · 进行中]**
+- [未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量](../cases/normyll-gamecube-ai-decompilation-attempt.md) — Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。 **[其他 AI 逆向 · 进行中]**
+- [Empire Earth 2现代引擎：John-Daniel Trask称Claude与Ghidra已研究数周](../cases/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask称用Claude／Ghidra反汇编Empire Earth 2，想保留机制、复用游戏资产并改善现代PC体验；数周是研究时长，不是已完成引擎。 **[其他 AI 逆向 · 进行中]**
+- [GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音](../cases/gta6-pc-claude-rea-dubbing-mod-idea.md) — 土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。 **[REA · 待验证]**
+- [decompdecomp：续接decomp.wtf的独立工作台，字节匹配不等于全游戏已恢复](../cases/decompdecomp-local-agent-byte-matching-workbench.md) — 公开工作台让Agent写C／C++、原编译器重建并逐函数对比；文档明确尚无整款游戏完成，导出保留汇编兜底，所选远端模型仍可收到游戏材料。 **[其他 AI 逆向 · 进行中]**
+- [EVE本地离线AI研究：读者追问机器人扩展，父帖只给低细节自述](../cases/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI询问EVE离线指令如何扩展；父帖rrfarmer自称用本地AI harness逆向EVE，没有客户端版本、恢复功能或可查产物。 **[其他 AI 逆向 · 待验证]**
+- [Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目](../cases/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas称给Claude Amiga ADF镜像推进研究；新回复强调大量人工输入，读者识别F1 Grand Prix，但未独立确认题名、可运行移植或等价性。 **[其他 AI 逆向 · 进行中]**
+- [未具名游戏客户端：Billionaire Vampire在AI开发讨论中自述逆向经历](../cases/billionairevamp-ai-game-client-reversing-report.md) — Billionaire Vampire称在此前不懂相关技术的情况下做过游戏服务器、管理面板、公开平台和客户端逆向；AI语境明确，但客户端、模型、方法与成果未披露。 **[其他 AI 逆向 · 待验证]**
+- [未具名作弊菜单：cazz为视频测试REA，并批评产物是AI slop](../cases/rea-unnamed-cheat-video-test-self-critique.md) — cazz在被批视觉难看后称该作弊产物是AI slop，只是在为新视频测试REA；父帖称让Fable5.2重设计菜单，未证明作弊功能有效。 **[REA · 分析测试]**
+- [预下载游戏开玩时间检查：Moke建议Grok加REA研究，并做提示备份](../cases/moke-grok-rea-game-release-time-check-idea.md) — Moke在游戏向服务器确认开玩时间的讨论下，建议Grok与REA禁用该部分，并做可分享的游戏提示作为备份；没有具名游戏、实现或可用绕过。 **[REA · 待验证]**
+- [Mac上的Win11虚拟机：作者称Fable5.2加REA让Xbox应用下载独占游戏](../cases/xbox-app-fable52-rea-windows-vm-download-report.md) — @SKL_Piefke_Paul称Fable5.2与REA改变Xbox应用／Windows行为，能在MacBook Pro的修改版Win11虚拟机下载独占游戏；没有游戏运行或GTA6可玩证据。 **[REA · 待验证]**
+- [gatcha C++ Minecraft：Promptmetheus称正上传材料让AI研究动画](../cases/promptmetheus-gatcha-cpp-minecraft-animation-ai-attempt.md) — Promptmetheus说自己在做gatcha C++ Minecraft，并正上传材料供AI反编译动画；具体输入、模型与动画恢复结果未提供，保留进行中自述。 **[其他 AI 逆向 · 进行中]**
+- [Lemmings for Windows 95：人类定架构，REA与多Agent辅助的696函数重建](../cases/lemmings-win95-human-led-ai-reconstruction-report.md) — yibie介绍NitrosGits的旅鼠Windows95重建；固定README自报八模块696函数匹配，明确整文件仍不相同，并区分原编译器匹配与现代可移植构建。 **[REA · 进行中]**
+- [Tony Hawk's Underground：AI可逐函数贡献，合并靠确定性门禁而非AI](../cases/tony-hawks-underground-agent-contribution-report.md) — yibie介绍THUG的Agent贡献机制；固定README与入门指南确认PS2逐函数C++重建、五道合并门禁及C++加汇编的ELF匹配，不代表全C++反编译完成。 **[其他 AI 逆向 · 进行中]**
+- [Empire Earth征服的艺术：Claude署名重建、原版混合联机与未覆盖范围](../cases/empire-earth-ai-trailers-compatible-engine-report.md) — yibie报告Empire Earth重建引擎与原版互通；固定README自报逐tick及混合联机测试，提交历史确有Claude署名，但整文件不匹配、WON服务、音频与物理输入未测。 **[其他 AI 逆向 · 进行中]**
+- [goley多版本重建idea：Vxenl在Revival停服讨论中建议REA](../cases/goley-rea-multiple-rebuilds-reader-idea.md) — Vxenl认为借助AI和REA可能出现10至15个不同goley项目；是在Revival／Rebound争论中的重建设想，没有已做实现、服务器兼容或源代码证据。 **[REA · 待验证]**
+- [摆脱关都与GBA改版：用Claude反编译并重编译后续宝可梦的idea](../cases/pokemon-gen4-plus-claude-decompile-recompile-idea.md) — 候选希望有人用Claude等模型反编译并重编译第4／5代、甚至第6代以后游戏，让改版不再局限于关都与GBA；没有启动项目或结果。 **[其他 AI 逆向 · 进行中]**
+- [Maken X Director's Cut：读者称AI用于旧格式逆向，翻译仍为人工](../cases/maken-x-directors-cut-ai-old-file-format-report.md) — 读者在Maken X Director's Cut发布串称AI只辅助旧文件格式逆向、不参与翻译；串首作者宣布全人工重译和删减内容恢复，未独立核实AI具体贡献。 **[其他 AI 逆向 · 待验证]**
+- [RestedXP：作者称Claude已逆向到第六小时](../cases/restedxp-claude-six-hour-reversing-attempt.md) — 回复者反对阵营攻略收费，称Claude正处于研究RestedXP的第六小时；没有提取出的内容、源码或完成证据。 **[其他 AI 逆向 · 进行中]**
+- [穿越火线运输船：riba2534仓库记录Claude检索地图资料后重建网页FPS](../cases/riba2534-crossfire-transport-ship-ai-web-rebuild.md) — 候选把合集称为老游戏逆向；补读README实际是Claude Opus5.5按公开布局与攻略重建运输船，用程序化素材做Three.js网页FPS，不是原二进制反编译。 **[其他 AI 逆向 · 待验证]**
+- [QQ飞车网页致敬：Claude参照键位与地图风格重建漂移玩法](../cases/riba2534-qq-speed-ai-web-rebuild.md) — riba2534合集README称Claude先检索QQ飞车键位与攻略，脚本画赛道俯视图后实现四赛道Three.js网页竞速；没有游戏二进制分析或等价验证。 **[其他 AI 逆向 · 待验证]**
+- [游戏开发第三天：214尝试逆向其他游戏动作，纯AI角色美术仍卡关](../cases/ai-game-day3-2d-animation-reconstruction-attempt.md) — 214（0xTimovo）记录AI游戏试作中从关键帧、视频抠帧、骨骼拆件到研究他游动作的多路尝试，整体效果仍差；没有具名参考游戏或成功恢复动作的证据。 **[其他 AI 逆向 · 进行中]**
+- [bo2-mac：转述Claude辅助将Black Ops II静态翻译为ARM64 Mac应用](../cases/bo2-mac-claude-arm64-static-translation-report.md) — bo2-mac的Claude辅助ARM64重建仍为二手报告，保留小型x86 VM、离线与高温限制；11月12日转述补充本地分屏开发、确定性回放和撤回结论的探针／工具问题比例。 **[其他 AI 逆向 · 待验证]**
+- [Mario Kart 64原生PS3移植：既有反编译、Claude协作与作者实机调试](../cases/mario-kart64-ps3-psl1ght-ai-port-report.md) — yibie介绍MK64 PS3；固定README确认基于n64decomp/mk64与PSL1GHT、Claude多会话协作，作者称亲自实机测试；从自备USA ROM读数据，代码型Mod不支持。 **[其他 AI 逆向 · 进行中]**
+- [Rusted Warfare：AHpxEx称Claude Code拒绝、Codex完成反编译](../cases/rusted-warfare-codex-decompilation-report.md) — AHpxEx报告对Rusted Warfare的反编译请求在Claude Code被拒、Codex则直接做完；没有版本、反编译产物或可构建与行为验证，不认定移植成功。 **[其他 AI 逆向 · 待验证]**
+- [无符号游戏二进制：Locotir称nexo与Codex同得8/10，输入token不同](../cases/locotir-nexo-stripped-game-binary-token-comparison.md) — Locotir报告同模型十项检查、每组一次：Codex CLI与nexo均8/10，输入分别7.72M与3.96M token；未给游戏、检查项、模型或轨迹，不把一次自测推广成普遍节省。 **[其他 AI 逆向 · 分析测试]**
+- [AoE 2到开发者游戏：Paulius称让Claude反编译后改造](../cases/paulius-aoe2-claude-decompile-dev-founder-game.md) — Paulius称用Claude反编译《帝国时代2》并做成面向开发者与创始人的游戏；有视频附件记录，但未取得源码、版本或机制对应测试。 **[其他 AI 逆向 · 待验证]**
+- [Theme Park：Demis称Gemini 4 Carbon从原二进制移植网页并加DeepMind设施](../cases/gemini4-carbon-theme-park-binary-web-ride-report.md) — Baxter转述Theme Park重建；补查Demis Hassabis原帖称Gemini 4 Carbon一次逆向原游戏二进制、移植网页并添加设施，未取得源码或兼容性验证。 **[其他 AI 逆向 · 待验证]**
+- [把Animal Crossing放进Minecraft：TelepathicPug想让Agent反编译的idea](../cases/animal-crossing-minecraft-agent-decompilation-idea.md) — TelepathicPug称想让Agent反编译Animal Crossing以移入Minecraft，并试图改变对话上下文；没有版本、代码、移植产物或完成证据。 **[未确认使用 REA · 进行中]**
+- [Colin McRae Rally 2005：Xbox版静态重编译到现代Windows](../cases/colin-mcrae-rally2005-xbe-ai-recomp.md) — yibie介绍projectedan的Xbox拉力赛车移植，称21处提交trailer记AI参与；项目文档说明以Xbox XBE Recomp提供64位与现代手柄支持，仅美版Xbox数据，未由本合集构建。 **[其他 AI 逆向 · 进行中]**
+- [Peggle Enhanced：Ghidra研究iOS版，再移植C#／MonoGame](../cases/peggle-enhanced-ios-ghidra-monogame.md) — aidrum与TheAwesomeBlue为解决旧Android兼容问题，把iOS Peggle反编译并转成MonoGame；文档明确AI仅参与代码，报告手机全冒险通关及原硬件对照，未独立复跑。 **[其他 AI 逆向 · 进行中]**
+- [Predator: Concrete Jungle：Xbox静态重编译与反编译C++混合PC移植](../cases/predator-concrete-jungle-ai-native-pc.md) — yibie介绍2005年Xbox游戏PC重建；项目文档说从用户自有美版光盘生成C，并用反编译C++替换部分函数，提供现代控制与存档，AI提交归因为列表转述。 **[其他 AI 逆向 · 进行中]**
+- [从合法游戏副本到原创Roblox机制：REA／Ghidra分阶段提示方案](../cases/rea-ghidra-roblox-mechanic-transfer-prompt.md) — 公开提示词把观察、二进制证据、平台中立规范和原创Luau实现分开，要求Studio实测且BLA只用于适用产物；源游戏与机制仍是占位符，无运行成果。 **[REA · 相关项目]**
+- [Lichii与时之笛重制版：AI辅助数日迭代模拟器的转述](../cases/lichii-ocarina-remake-ai-emulator-report.md) — 作者称Lichii主线在游戏发售四天后已有数十构建、三桌面平台接近可玩仍有bug；没有仓库、版本或原始测试，保留项目拼写而不推定平台或与iPhone移植同源。 **[其他 AI 逆向 · 待验证]**
 - [SkyBuild：转述sokco816借AI研究Skyrim引擎，实时改地形与导航网格](../cases/skybuild-skyrim-ai-engine-terrain-navmesh-report.md) — 候选回复的父帖明确SkyBuild与sokco816，称AI辅助引擎逆向、地址定位和底层调试，展示改地形、盖房与更新导航网格；代码、版本和实机结果未核验。 **[其他 AI 逆向 · 待验证]**
 - [Gears of War克隆：Berman的Fable 5.2游戏重建自述](../cases/fable52-berman-gears-of-war-clone-report.md) — 更夫汇总点名Gears风格游戏；补查Berman原帖确称Fable 5.2做Gears of War clone并附视频，但未核游戏范围、玩法、代码与原作一致性。 **[其他 AI 逆向 · 待验证]**
 - [TimeSplitters 2：Destinity与Claude重编译PS2版，按PCSX2追查差异](../cases/destinity-timesplitters2-claude-native-pc-recompile.md) — Destinity公开PS2到C++的原生PC重编译工具，报告Linux／Steam Deck首关通关与逐帧参照；Windows和在线仍待发布，后续关卡与部分VU1差异未解决。 **[其他 AI 逆向 · 进行中]**

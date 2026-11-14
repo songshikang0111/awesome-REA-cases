@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2012 cases & projects
+# 2240 cases & projects
 
-**Latest case update:** November 10, 2026, 16:08 · **Last maintained:** November 10, 2026, 16:08 · Beijing time (UTC+8). Counts as of this maintenance; the continuous evidence cutoff is recorded below.
+**Latest case update:** November 14, 2026, 16:07 · **Last maintained:** November 14, 2026, 16:07 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,19 +22,18 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: trace binary evidence, animate LEGO mechanisms, keep devices useful and preserve games. Inspectable methods and candid test limits matter more than launch claims or one-off model rankings. Inclusion is not proof of success; dates identify sources or author updates, not collection dates.
+**10 worth reading**: probe devices, recover game behavior and compare claims with documented tests. These picks favor concrete uses and visible evidence limits over broad capability promises. Dates identify sources or author updates, not collection dates.
 
-1. **[XRef: who writes this binary field?](cases/en/alex09x-xref-serialized-status-writer-walkthrough.md)** · `2026-11-07` author post; `2026-11-06` pinned docs — **Trace serialized keys to candidate writers and instruction evidence**, with public Rust/JSON/MCP tools for analysts and agents. Rankings are heuristic, x86-64 input support is bounded, and live probes can disturb the target. Not run here. `Related project`
-2. **[hexgrab: learn from PowerToys, then build a smaller picker](cases/en/hexgrab-powertoys-colorpicker-rea-study.md)** · `2026-10-29` report; `2026-10-12` investigation — Claude/REA studies shipped binaries; the author's source scorecard gives **8 of 9 claims fully correct, one partial**. Public .NET 10 implementation; hotkey registration in an unexamined runner exposed a blind spot. One monitor tested, not independently rerun. `Analysis test`
-3. **[LDraw Mecha: make a static LEGO mechanism move](cases/en/ldraw-mecha-semantic-parts-blender-motion.md)** · `2026-11-08` report and pinned v0.5.0 docs (Beijing time) — **Infer mechanisms from annotated parts text, then map matching nodes into Blender rigs.** Public motion and clearance checks retain their limits: plausible animation is not physical feasibility, the 42043 demo covers only the crane, and Linux/WSL2 paths are untested. Not run here. `Related project`
-4. **[scapectl: control a Fractal Scape headset without the web app](cases/en/scapectl-fractal-scape-claude-usb-hid.md)** · `2026-10-29` — **Claude Code-assisted USB HID research and a public Go tray app/CLI** for status, EQ presets and device events. Documents hardware corrections to source labels; macOS/Windows project-tested, Linux untested. Unsigned/unnotarized; not run here. `In progress`
-5. **[TimeSplitters 2: trace PS2 behavior into a native PC port](cases/en/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10` author report; `2026-11-09` pinned docs — **Claude-assisted MIPS-to-C++ work, with PCSX2 frame and state comparisons.** The project reports a Linux/Steam Deck first-level playthrough, still using PCSX2 graphics/audio. Internal test tooling is unpublished; later levels, some VU1 state and internet play need checks. Windows/online await release. Bring your own disc; not built here. `In progress`
-6. **[Project Avalanche: rebuild SSX for modern PCs](cases/en/project-avalanche-ssx2012-claude-bevy-reimplementation.md)** · `2026-11-09` report and pinned project docs (Beijing time) — **Claude-assisted disc-format and behavior research becomes a Rust/Bevy reimplementation**, with documented Windows/Linux builds, snowboarding, saves and dedicated servers. Nobody has completed a full playthrough; undecoded behavior remains approximate. Bring your own Xbox 360 disc image; not built or played here. `In progress`
-7. **[DX-Ball: from one audio function to a Windows rebuild](cases/en/dx-ball-sound-pan.md)** · `2026-11-01` report; `2026-10-31` project record — Codex/REA/Ghidra reconstruction reports **270 matching game functions and 84,968 bytes**, plus a native VC4 build. Timestamp-only image differences are against an earlier rebuild, not the retail EXE. Original 50-board campaign and full native audio remain unverified; bring your own files. Not rebuilt here. `Project-tested reconstruction`
-8. **[MechWarrior 3: bring the 1999 mech game to modern PCs](cases/en/mechwarrior3-rea-ghidra-modern-cpp-rebuild.md)** · `2026-11-04` report and pinned project record — Owen Morgan credits **REA/Ghidra research and function-by-function C++ reconstruction**, with reported Unicorn comparisons. Public native backends, widescreen and eight-player UDP networking; Linux was not play-tested in the report, Pirate's Moon is unsupported. Bring your own game; not built here. `In progress`
-9. **[SoftProtect: did REA reverse it—or find the source?](cases/en/softprotect-ai-adversarial-rea-test.md)** · `2026-11-09` author correction — **The first apparent recovery followed Debug paths to local source.** Deleting it still allowed partial recovery, but VM protection was off; no VM-enabled result is supplied. A useful test-design correction, not proof of universal defeat or protection. Not rerun here. `Analysis test`
-10. **[Redivivus: recover Diablo II through reviewed database proposals](cases/en/redivivus-diablo2-ghidra-agent-proposals.md)** · `2026-11-08` report and pinned project docs — **Claude/MCP agents inspect read-only Ghidra databases and propose evidence-backed corrections.** The project reports a single-player playthrough and **7,772/14,626 matching functions** under its address-normalized comparison; not a whole-EXE match. Crashes remain, x64 compilation is not playable x64 support, and users need their own game. Not rebuilt here. `In progress`
-
+1. **[Ember mug: probe Bluetooth, build a personal controller](cases/en/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14` author report — Dmitriy says **Codex probed characteristics against the iOS app** and built temperature/light controls in about an hour. The author prohibited web lookup, not independently enforced; coffee-level accuracy and code unchecked. `Unverified here`
+2. **[Fujifilm X half: camera to Mac without the phone](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12` author report — **Opus reportedly identifies Bluetooth/Wi-Fi protocol differences** for JPEG imports and Google Photos uploads. Incremental camera tests, not an iteration-free build; code and traces unchecked here. `Unverified here`
+3. **[Anker recorder: ask an agent for last week's conversation](cases/en/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12` author report — **REA Bluetooth research and MCP recording retrieval**, with local Qwen ASR or online transcription. Berryxia plans source release after refinement/testing; code and device path unchecked here. `In progress`
+4. **[Fallout Van Buren: six years of research meet REA](cases/en/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14` author thread — Kran credits **manual research, shenmarukai's initial decompilation and an IDA database**, not a from-zero agent. Adam reports a DX9 migration; 64-bit is a goal, and the target is a tech demo, not a complete game. Not built here. `In progress`
+5. **[Lemmings for Windows 95: match functions, not headlines](cases/en/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12` report; `2026-11-09` pinned docs — Human-led REA/Claude/Codex work reports **696/696 matched functions across eight modules**. Whole EXE/DLL files still differ; portable builds and original-compiler matching are separate. Bring your own game assets; not built here. `In progress`
+6. **[decompdecomp: byte matching with an assembly fallback](cases/en/decompdecomp-local-agent-byte-matching-workbench.md)** · `2026-11-14` report; `2026-11-13` pinned docs — **Agents write C/C++, original compilers judge the bytes.** This independent decomp.wtf continuation reports no whole game decompiled; exports retain assembly, and chosen cloud models may receive game material. Not run here. `In progress`
+7. **[ZigZag: from SVG to a Brother embroidery machine](cases/en/kath-korevec-brother-chatgpt-embroidery-report.md)** · `2026-11-13` report and pinned docs — **Skitch PP1 Bluetooth upload and MCP-assisted design**, with project-reported hardware tests. NOTICE credits the protocol to Respira; the earlier ChatGPT origin story remains secondary, not independent discovery. Not run here. `Unverified here`
+8. **[MousePods: AirPods as a Linux mouse and head tracker](cases/en/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11` reports; `2026-11-10` pinned docs — **Claude-assisted RemoteHID research and reported AirPods 3/Pro 2 hardware checks.** No earbud flash, but Proton integration changes prefixes. MTU/device-identity effects were not isolated; not run here. `Unverified here`
+9. **[Smart bead board: an APK to a Raspberry Pi controller](cases/en/smart-bead-board-claude-raspberry-pi-mcp-control-report.md)** · `2026-11-14` author report and clarification — Labelray says **Claude decompiled the official APK to find the protocol**, then wrote MCP tooling to light selected positions without the app. Board model, transport and code are undisclosed; no device test here. `Unverified here`
+10. **[TimeSplitters 2: PS2 behavior to a PC port](cases/en/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10` author report; `2026-11-09` pinned docs — **Claude-assisted MIPS-to-C++ with PCSX2 frame/state comparisons** and a reported Linux/Steam Deck first-level playthrough. Still uses PCSX2 graphics/audio; later levels and internet play need checks. Self-supplied disc; not built here. `In progress`
 
 ## Classic cases
 
@@ -50,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **410** |
-| [Hardware & interoperability](categories/en/hardware.md) | **539** |
-| [Applications & clients](categories/en/apps.md) | **822** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **241** |
+| [Games & preservation](categories/en/games.md) | **445** |
+| [Hardware & interoperability](categories/en/hardware.md) | **596** |
+| [Applications & clients](categories/en/apps.md) | **932** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **267** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

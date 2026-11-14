@@ -1,7 +1,7 @@
 # Suprik's Starlink router: specific evidence challenges to the claimed Claude netcache finding
 
 Category: Hardware and interoperability · Other AI-assisted work
-Record date: 2026-11-02
+Record date: 2026-11-13
 Stage: Needs verification
 
 At 02:34:57 Beijing time on November 2, 2026, Suprik (@Supriik_) says they checked their Starlink router after an article about hidden cameras. Claude reportedly found a nonofficial netcache module starting at boot and absent from the admin panel. The post claims roughly 3.4GB sent nightly between 2 and 4am to an unknown server, copying traffic from six of eight household devices, with 2,316 photos, 412 documents and 18,903 browsing records. The author explicitly says this is not Starlink spying but an alleged intrusion into their own router.
@@ -12,13 +12,17 @@ At 17:32:32 on November 2, Osiris2025 (@ta2025) replies directly, calling the vi
 
 These are specific, useful challenges, not sample analyses or independent reproduction experiments. This collection did not inspect the original video and cannot turn the mockup allegation into proven fabrication. Product details in the comments, such as automatic-update cadence, were not checked either. Status remains unverified: neither confirmed infection or brand vulnerability nor guaranteed remediation effectiveness. REA is not mentioned. No network was scanned, samples obtained or devices operated.
 
+In a new candidate at 06:27:58 Beijing time on November 13, 2026, the same author says Claude Fable 5.2 rechecked the earlier report and found a netcache relay still on the TV, laptop/iPhone DNS still pointing at the alleged intruder's server, a saved cloned Starlink-5G network, and a laptop proxy file. The post claims nine more TV transmissions after the reset and 1,264 requests since November 1. It says resetting the TV and DNS, forgetting the clone, deleting the proxy and rotating passwords cleared four remnants. The model name and zero-access-point claim preserve the author's wording, not version validation or a safety verdict. The new account dates the initial cleanup to November 1, while the older post was published November 2 Beijing time. Those time frames are not conflated, nor does a recollection without a timezone resolve the difference. Retrieval confirmed authorship and text, without endpoint files, DNS records, packet captures, router samples or independent rechecking. These additions do not answer the existing evidence challenges; counts and cleanup are not upgraded to facts.
+
 Original candidate snapshot: 15 likes, 353 views, 0 reposts. The 3.4GB, six/eight devices and file counts are author claims without logs.
-Current challenge snapshots: 17 likes/388 views/1 repost and 3 likes/59 views/0 reposts. Neither is independent technical validation or a conclusive debunk.
+Older challenge snapshots: 17 likes/388 views/1 repost and 3 likes/59 views/0 reposts. Neither is independent technical validation or a conclusive debunk.
+November 13 candidate: 13 likes, 540 views, 0 reposts, 4 replies. Nine transmissions, 1,264 requests and four cleared remnants are self-reported.
 
 ## Sources
 
 - [Suprik's Claude/Starlink netcache investigation account, November 2, 2026](https://x.com/i/status/2116962213327987170)
 - [Osiris2025 questions a mock video, HTTPS and evidence, November 2, 2026 at 17:32:32 Beijing time](https://x.com/i/status/2117188095787377090)
 - [skeptic requests firmware access, samples and remediation evidence, November 2, 2026 at 19:13:46 Beijing time](https://x.com/i/status/2117213572379951470)
+- [Suprik's added Fable 5.2 cross-device remnant-recheck account, November 13, 2026 at 06:27:58 Beijing time](https://x.com/i/status/2121007121852461554)
 
 [中文](../suprik-starlink-netcache-claude-investigation-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/hardware.md)
