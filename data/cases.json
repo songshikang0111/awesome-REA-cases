@@ -2547,17 +2547,66 @@
   {
     "id": "design-os-studio-figma-js-kiwi-rebuild",
     "title": "DESIGN:OS Studio：REA研究Figma JS与.fig格式，公开Rust本地设计工具",
-    "category": "apps", "rea": "REA", "status": "in-progress",
+    "category": "apps",
+    "rea": "REA",
+    "status": "in-progress",
     "summary": "固定规格记录REA6.7.0研究Figma JS；缺WABT／Ghidra时改用本地kiwi读器，并对照.fig样本变量绑定。Rust／wgpu工具提供本地.fig与Agent接口，仍有保存损失、Windows测试与source-available许可边界。",
-    "description": "2026年11月11日16:30:17（北京时间），yibie（@yibie）的每日清单介绍DESIGN:OS Studio，称它用REA研究Figma桌面JavaScript与.fig v106的kiwi schema，并重新实现桌面端。目标是拥有本地设计文件与可供Agent操作的原生设计工具，而不是恢复Figma全部源码。该帖另含MK64 PS3，是不同目标，单独收录。\n\n补查作者在yibie/awesome-rea的PR #7及固定规格E1-4。PR于11月10日22:51:19北京时间提出、11月11日13:35:36合并，均早于窗口；规格固定于11月10日21:44:10的df14c593e86edcc039adc2c67067bf8db64e9e84提交，内部研究注明10月18日，并有10月19日修订，不能把这些原始工作日期当本轮实验。规格明确REA6.7.0在提取的Figma缓存JS上运行analyze-javascript-application；本机没有WABT和Ghidra，wasm分析路线不可用，改以40行kiwi schema读器解析wasm数据段。作者报告653定义及一个v106、56625节点.fig样本，对照样式变量绑定；区分观察事实与fontStyle字符串绑定推断。没有取得完整REA原始报告或复算字段，规格中的事实仍为项目研究记录，不能称REA独自完成所有解析。\n\n另读固定提交1cc765bca900e187431d079f892f402cbaa200c7的README相关章节，提交于11月11日19:45:34北京时间，晚于候选。文档描述Rust／wgpu与tiny-skia、本地.fig读写、输出container v106、运行用户自己的Agent CLI的面板和stdio MCP。超过6000项macOS CI测试与大文件数据是项目自报，未审CI日志、源码实现或复跑。\n\nREADME写明没有实时多人云协作或企业云管理；已知.fig保存会丢编号列表格式，并把实例的继承／变量绑定paint写成固定值。发布说明与旧问题列表有局部不一致，不能据新增修复段落宣布所有保存问题已解决。v0.7.11 Windows CI失败，Windows测试为advisory，发布前以macOS验证为主，Linux包构建不等于试玩确认。Agent各自计费，不因Studio不用额外API key而免费。当前为PolyForm Shield 1.0.0 source-available，不泛称OSI开源；文档称旧版至v0.5.0保留MIT或Apache许可。未运行目标、安装依赖或比较Figma输出，不认定全功能等价。",
-    "sources": [{"label": "yibie清单：Figma JS、kiwi v106与REA研究转述，2026-11-11 16:30:17北京时间", "url": "https://x.com/i/status/2120433924434452690"}, {"label": "补充项目README功能与限制，固定2026-11-11 19:45:34北京时间提交", "url": "https://github.com/jangtrinh/design-os-studio/blob/1cc765bca900e187431d079f892f402cbaa200c7/README.md"}, {"label": "补充原始规格E1-4：10月18至19日REA研究，固定11月10日窗口前提交", "url": "https://github.com/jangtrinh/design-os-studio/blob/df14c593e86edcc039adc2c67067bf8db64e9e84/docs/specs/v0.6/E1-4-styles-hold-variable-aliases.md"}, {"label": "补充作者提交说明PR #7，2026-11-10提出、11-11窗口前合并", "url": "https://github.com/yibie/awesome-rea/pull/7"}],
-    "snapshot_date": "2026-11-11", "metadata": ["整条清单封存2赞、249浏览、0转发，不是单个项目热度；PR状态为本次读取快照，不作为完整功能验证。"],
+    "description": "2026年11月11日16:30:17（北京时间），yibie（@yibie）的每日清单介绍DESIGN:OS Studio，称它用REA研究Figma桌面JavaScript与.fig v106的kiwi schema，并重新实现桌面端。目标是拥有本地设计文件与可供Agent操作的原生设计工具，而不是恢复Figma全部源码。该帖另含MK64 PS3，是不同目标，单独收录。\n\n补查作者在yibie/awesome-rea的PR #7及固定规格E1-4。PR于11月10日22:51:19北京时间提出、11月11日13:35:36合并，均早于窗口；规格固定于11月10日21:44:10的df14c593e86edcc039adc2c67067bf8db64e9e84提交，内部研究注明10月18日，并有10月19日修订，不能把这些原始工作日期当本轮实验。规格明确REA6.7.0在提取的Figma缓存JS上运行analyze-javascript-application；本机没有WABT和Ghidra，wasm分析路线不可用，改以40行kiwi schema读器解析wasm数据段。作者报告653定义及一个v106、56625节点.fig样本，对照样式变量绑定；区分观察事实与fontStyle字符串绑定推断。维护者 Jang Trịnh 在本合集 PR #4 中确认，这项 Figma 工作使用了 REA。其提供的公开日志记录了已完成的 inspect-macho 和 analyze-javascript-application 调用。未审阅完整 REA 原始报告或独立复算字段，规格中的事实仍为项目研究记录，不能称REA独自完成所有解析。\n\n另读固定提交1cc765bca900e187431d079f892f402cbaa200c7的README相关章节，提交于11月11日19:45:34北京时间，晚于候选。文档描述Rust／wgpu与tiny-skia、本地.fig读写、输出container v106、运行用户自己的Agent CLI的面板和stdio MCP。超过6000项macOS CI测试与大文件数据是项目自报，未审CI日志、源码实现或复跑。\n\nREADME写明没有实时多人云协作或企业云管理；已知.fig保存会丢编号列表格式，并把实例的继承／变量绑定paint写成固定值。发布说明与旧问题列表有局部不一致，不能据新增修复段落宣布所有保存问题已解决。v0.7.11 Windows CI失败，Windows测试为advisory，发布前以macOS验证为主，Linux包构建不等于试玩确认。Agent各自计费，不因Studio不用额外API key而免费。当前为PolyForm Shield 1.0.0 source-available，不泛称OSI开源；文档称旧版至v0.5.0保留MIT或Apache许可。未运行目标、安装依赖或比较Figma输出，不认定全功能等价。",
+    "sources": [
+      {
+        "label": "yibie清单：Figma JS、kiwi v106与REA研究转述，2026-11-11 16:30:17北京时间",
+        "url": "https://x.com/i/status/2120433924434452690"
+      },
+      {
+        "label": "补充项目README功能与限制，固定2026-11-11 19:45:34北京时间提交",
+        "url": "https://github.com/jangtrinh/design-os-studio/blob/1cc765bca900e187431d079f892f402cbaa200c7/README.md"
+      },
+      {
+        "label": "补充原始规格E1-4：10月18至19日REA研究，固定11月10日窗口前提交",
+        "url": "https://github.com/jangtrinh/design-os-studio/blob/df14c593e86edcc039adc2c67067bf8db64e9e84/docs/specs/v0.6/E1-4-styles-hold-variable-aliases.md"
+      },
+      {
+        "label": "补充作者提交说明PR #7，2026-11-10提出、11-11窗口前合并",
+        "url": "https://github.com/yibie/awesome-rea/pull/7"
+      },
+      {
+        "label": "维护者 Jang Trịnh 的提交与 REA 使用确认（本合集 PR #4）",
+        "url": "https://github.com/songshikang0111/awesome-REA-cases/pull/4"
+      },
+      {
+        "label": "项目公开的 REA 命令行记录（固定提交）",
+        "url": "https://github.com/jangtrinh/design-os-studio/blob/df14c593e86edcc039adc2c67067bf8db64e9e84/plans/reports/agy-1277-shadow-knockout-evidence/step1-figma-re.log"
+      },
+      {
+        "label": "项目许可证 PolyForm Shield 1.0.0（固定提交）",
+        "url": "https://github.com/jangtrinh/design-os-studio/blob/df14c593e86edcc039adc2c67067bf8db64e9e84/LICENSE"
+      },
+      {
+        "label": "项目发布说明 v0.7.11",
+        "url": "https://github.com/jangtrinh/design-os-studio/releases/tag/v0.7.11"
+      }
+    ],
+    "snapshot_date": "2026-11-11",
+    "metadata": [
+      "整条清单封存2赞、249浏览、0转发，不是单个项目热度；PR状态为本次读取快照，不作为完整功能验证。"
+    ],
     "en": {
       "title": "DESIGN:OS Studio: reported REA research on Figma JS and .fig, with a public native Rust designer",
       "summary": "Pinned specs record REA 6.7.0 studying Figma JS, a local kiwi reader used without WABT/Ghidra, and .fig style-binding comparisons. The Rust/wgpu designer offers local .fig and agent interfaces, with save losses, Windows-test and source-available-license limits.",
-      "description": "At 16:30:17 Beijing time on November 11, 2026, yibie (@yibie) introduces DESIGN:OS Studio in a daily roundup, saying it used REA to study Figma desktop JavaScript and the .fig v106 kiwi schema before reimplementing the desktop tool. The goal is local design-file ownership and a native designer agents can operate, not recovery of all Figma source. The same post also covers MK64 on PS3, a separate target with its own record.\n\nSupplementary review covers the maintainer's PR #7 in yibie/awesome-rea and pinned E1-4 specification. The PR opened November 10 at 22:51:19 Beijing time and merged November 11 at 13:35:36, both before the window. The spec is pinned at df14c593e86edcc039adc2c67067bf8db64e9e84, committed November 10 at 21:44:10, with internal research dated October 18 and an October 19 revision. None is a new experiment in this window. It explicitly records REA 6.7.0 running analyze-javascript-application on extracted Figma cached JS. Without WABT or Ghidra, wasm analysis lanes were unavailable; a 40-line kiwi schema reader instead decoded the wasm data section. The author reports 653 definitions and a v106 .fig sample with 56,625 nodes, comparing style-variable bindings and separating observations from an inferred fontStyle string binding. Full raw REA reports were not obtained and fields were not recomputed. The spec's facts remain project research records, not proof REA alone performed all parsing.\n\nRelevant README sections were also read at 1cc765bca900e187431d079f892f402cbaa200c7, dated November 11 at 19:45:34 Beijing time, after the candidate. They describe Rust/wgpu and tiny-skia, local .fig read/write with container-v106 output, a panel running the user's own agent CLI and stdio MCP. More than 6,000 macOS CI tests and large-file measurements are project claims; CI logs, implementation and reruns were not audited.\n\nThe README states there is no real-time cloud multiplayer or enterprise cloud administration. Known .fig save losses include numbered-list formatting and inherited or variable-bound instance paints becoming fixed values. Release notes and older issue lists are partly inconsistent; newer fix paragraphs do not establish that all save issues are resolved. Windows CI failed for v0.7.11 and Windows testing is advisory; pre-release verification centers on macOS. Built Linux packages do not establish interactive testing. Agents bill through their own plans; no extra Studio API key does not mean free model use. The current license is source-available PolyForm Shield 1.0.0, not generically OSI open source; the docs say releases through v0.5.0 retain MIT or Apache terms. No target was run, dependencies installed or Figma outputs compared here, and full functional equivalence is not established.",
-      "metadata": ["Whole-roundup sealed snapshot: 2 likes, 249 views, 0 reposts, not this project's engagement. PR state is a retrieval snapshot, not full functional validation."],
-      "source_labels": ["yibie's roundup on Figma JS, kiwi v106 and REA research, November 11, 2026 at 16:30:17 Beijing time", "Supplementary project README features and limitations, pinned to November 11, 2026 at 19:45:34 Beijing time", "Supplementary E1-4 original specification: October 18–19 REA research, pinned to a pre-window November 10 commit", "Supplementary maintainer PR #7: opened November 10, 2026 and merged November 11 before the window"]
+      "description": "At 16:30:17 Beijing time on November 11, 2026, yibie (@yibie) introduces DESIGN:OS Studio in a daily roundup, saying it used REA to study Figma desktop JavaScript and the .fig v106 kiwi schema before reimplementing the desktop tool. The goal is local design-file ownership and a native designer agents can operate, not recovery of all Figma source. The same post also covers MK64 on PS3, a separate target with its own record.\n\nSupplementary review covers the maintainer's PR #7 in yibie/awesome-rea and pinned E1-4 specification. The PR opened November 10 at 22:51:19 Beijing time and merged November 11 at 13:35:36, both before the window. The spec is pinned at df14c593e86edcc039adc2c67067bf8db64e9e84, committed November 10 at 21:44:10, with internal research dated October 18 and an October 19 revision. None is a new experiment in this window. It explicitly records REA 6.7.0 running analyze-javascript-application on extracted Figma cached JS. Without WABT or Ghidra, wasm analysis lanes were unavailable; a 40-line kiwi schema reader instead decoded the wasm data section. The author reports 653 definitions and a v106 .fig sample with 56,625 nodes, comparing style-variable bindings and separating observations from an inferred fontStyle string binding. Maintainer Jang Trịnh confirmed in PR #4 to this collection that REA was used for this Figma work. The public log he provided records completed inspect-macho and analyze-javascript-application runs. The full raw REA reports were not reviewed and the fields were not independently recomputed. The spec's facts remain project research records, not proof REA alone performed all parsing.\n\nRelevant README sections were also read at 1cc765bca900e187431d079f892f402cbaa200c7, dated November 11 at 19:45:34 Beijing time, after the candidate. They describe Rust/wgpu and tiny-skia, local .fig read/write with container-v106 output, a panel running the user's own agent CLI and stdio MCP. More than 6,000 macOS CI tests and large-file measurements are project claims; CI logs, implementation and reruns were not audited.\n\nThe README states there is no real-time cloud multiplayer or enterprise cloud administration. Known .fig save losses include numbered-list formatting and inherited or variable-bound instance paints becoming fixed values. Release notes and older issue lists are partly inconsistent; newer fix paragraphs do not establish that all save issues are resolved. Windows CI failed for v0.7.11 and Windows testing is advisory; pre-release verification centers on macOS. Built Linux packages do not establish interactive testing. Agents bill through their own plans; no extra Studio API key does not mean free model use. The current license is source-available PolyForm Shield 1.0.0, not generically OSI open source; the docs say releases through v0.5.0 retain MIT or Apache terms. No target was run, dependencies installed or Figma outputs compared here, and full functional equivalence is not established.",
+      "metadata": [
+        "Whole-roundup sealed snapshot: 2 likes, 249 views, 0 reposts, not this project's engagement. PR state is a retrieval snapshot, not full functional validation."
+      ],
+      "source_labels": [
+        "yibie's roundup on Figma JS, kiwi v106 and REA research, November 11, 2026 at 16:30:17 Beijing time",
+        "Supplementary project README features and limitations, pinned to November 11, 2026 at 19:45:34 Beijing time",
+        "Supplementary E1-4 original specification: October 18–19 REA research, pinned to a pre-window November 10 commit",
+        "Supplementary maintainer PR #7: opened November 10, 2026 and merged November 11 before the window",
+        "Maintainer Jang Trịnh's contribution and confirmation of REA use (PR #4 in this collection)",
+        "Project's public REA CLI log (pinned commit)",
+        "Project's PolyForm Shield 1.0.0 license (pinned commit)",
+        "Project release notes for v0.7.11"
+      ]
     }
   },
   {
