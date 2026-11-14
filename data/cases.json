@@ -1,5 +1,117 @@
 [
   {
+    "id": "normyll-gamecube-ai-decompilation-attempt",
+    "title": "未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。",
+    "description": "2026年11月14日04:52:53（北京时间），Normyll（@n0rmyll）表示正在让AI反编译一款GameCube游戏，并好奇自己要介入多少。GameCube是任天堂的游戏主机；这里的具体尝试是从该平台游戏程序恢复可理解的代码，而非凭空生成新游戏。帖子表达正在进行的试验，没有宣称已经恢复游戏或做出移植。\n\n补读原串确认作者身份，并见同作者04:54:58的纯链接回复，但没有取得链接目的页。游戏名称、版本、模型、反编译工具、函数范围、人工反馈次数、构建和运行记录均未提供。人工介入量是待观察的问题，不是无人干预的成果。不因同为GameCube而与其他作者的龙珠原生化或编译器研究项目合并；后续若披露同一目标再追加证据。REA未提及，本合集未下载游戏或运行工具，保持进行中作者自述。",
+    "sources": [{"label": "Normyll的GameCube AI反编译尝试，2026-11-14 04:52:53北京时间", "url": "https://x.com/i/status/2121345578428723334"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照0赞、27浏览、0转发、1回复；回复数量不证明项目结果。"],
+    "en": {
+      "title": "An unnamed GameCube game: Normyll starts AI decompilation and watches for human intervention",
+      "summary": "Normyll says AI is decompiling a GameCube game and wonders how much human intervention it will need. No game title, toolchain, code or completion figure is supplied.",
+      "description": "At 04:52:53 Beijing time on November 14, 2026, Normyll (@n0rmyll) says they are having AI decompile a GameCube game and are curious how much they will need to step in. GameCube is Nintendo's game console; this is an attempt to recover understandable code from a game program for that platform, not generate a new game from scratch. The post describes an ongoing experiment, not a recovered game or completed port.\n\nSupplementary thread reading confirms the author and a link-only reply by the same author at 04:54:58, but the destination was not obtained. Game title, revision, model, decompilation tools, function scope, number of human interventions, build records and runtime records are absent. Human intervention is a question to investigate, not a demonstrated hands-off result. A shared GameCube platform does not justify merging this with other authors' Dragon Ball native builds or compiler studies; evidence can be appended if a shared target is later established. REA is unmentioned. This collection downloaded no game and ran no tools. Retained as an in-progress author account.",
+      "metadata": ["Candidate snapshot: 0 likes, 27 views, 0 reposts, 1 reply. A reply count does not establish a project result."],
+      "source_labels": ["Normyll's GameCube AI decompilation attempt, November 14, 2026 at 04:52:53 Beijing time"]
+    }
+  },
+  {
+    "id": "simon-gillespie-visionpro-riscv-agent-self-code-study",
+    "title": "VisionPro与RiscV Linux环境：Simon称Agent正在逆向自身代码",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "Simon Gillespie称在VisionPro的RiscV Linux环境中用Agent逆向代码，目标为Agent自身；未披露Agent名称、环境架构或产物。",
+    "description": "2026年11月14日05:05:56（北京时间），Simon Gillespie（@anjin_games）称正在VisionPro上的RiscV Linux环境里，用一个看起来优化不错的Agent逆向代码，并明确说Agent在逆向自己的源代码。此条记录的是作者所述的Agent代码自研究，不是另一位作者的Vision Pro控制器驱动移植，也不是通过这句描述确认设备原生支持某种Linux。\n\n作者未命名Agent、模型或工具，没有说明所谓自身源代码是现成可读源码、打包脚本、二进制恢复结果，还是更宽泛的表述。也没有环境搭建说明、虚拟化／模拟层、输出源码、对照测试或恢复率；VisionPro与RiscV Linux保留为原帖用语，不推断处理器架构或运行方式。不能据此认定自我改进、自我复制或完整源码恢复。补取原帖仅确认身份和文字，REA未提及，本合集未连接设备或运行代码，以进行中低细节报告收录。",
+    "sources": [{"label": "Simon Gillespie的Agent自身代码研究报告，2026-11-14 05:05:56北京时间", "url": "https://x.com/i/status/2121348862082244645"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照0赞、20浏览、0转发、0回复；VisionPro／RiscV Linux环境未经独立确认。"],
+    "en": {
+      "title": "VisionPro and a RiscV Linux environment: Simon says an agent is reversing its own code",
+      "summary": "Simon Gillespie reports an agent investigating its own code in a VisionPro/RiscV Linux environment. The agent, environment architecture and outputs are not disclosed.",
+      "description": "At 05:05:56 Beijing time on November 14, 2026, Simon Gillespie (@anjin_games) says he is using what seems to be a well-optimized agent to reverse-engineer code on VisionPro in RiscV Linux, explicitly calling the target the agent's own source code. This records the author's account of agent-code self-investigation, not another author's Vision Pro controller-driver port and not confirmation of native Linux support on the device.\n\nThe agent, model and tools are unnamed. It is unclear whether its own source means already-readable source, packaged scripts, code recovered from a binary or a broader expression. No environment setup, virtualization/emulation layer, output source, comparison tests or recovery rate is provided. VisionPro and RiscV Linux retain the post's terminology rather than implying a processor architecture or execution method. Self-improvement, self-replication and complete source recovery are not established. Supplementary retrieval confirms identity and text only. REA is unmentioned. No device connection or code execution was performed here; included as a low-detail in-progress account.",
+      "metadata": ["Candidate snapshot: 0 likes, 20 views, 0 reposts, 0 replies. The VisionPro/RiscV Linux environment is not independently confirmed."],
+      "source_labels": ["Simon Gillespie's report of agent self-code investigation, November 14, 2026 at 05:05:56 Beijing time"]
+    }
+  },
+  {
+    "id": "txc-rea-tiny-javascript-static-analysis-test",
+    "title": "自写微型JavaScript应用：TXC称只测试REA静态分析，不替全部能力背书",
+    "category": "apps", "rea": "REA", "status": "analysis-test",
+    "summary": "TXC报告在自写小型JavaScript应用上测试REA静态分析，称有命中也有漏项；正文未列具体发现，不能借用其他样本的成绩。",
+    "description": "2026年11月14日05:39:54（北京时间），TXC（@EricTXC）介绍一次针对自己编写的微型JavaScript应用的REA静态分析测试。作者特意将范围限定为静态分析，并非验证Reverse Engineer Anything宣传的所有能力，表示文章说明工具找到和漏掉的东西，并提醒只检查自有或获授权软件。其用途是用可控的小样本检查工具能从代码材料中识别什么，而不是恢复商业应用的完整后端。\n\n候选没有展开长文，也未列文件名、源码、REA版本、命令、具体命中、漏项或计时。补取原帖确认署名和相同正文，未取得短链目的页，因而没有可公开核认的命中率或具体缺陷清单。既有五文件846字节Electron自测、Electron Notes IPC测试的作者和样本各异，不能把它们的数字移植到本条，也不能仅因描述相近认定同一项目。保留为分析测试报告，但不把宣布测试当作全部能力验证；本合集未运行样本或复现结果。",
+    "sources": [{"label": "TXC的自写JavaScript应用REA静态测试介绍，2026-11-14 05:39:54北京时间", "url": "https://x.com/i/status/2121357411998945593"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照0赞、4浏览、0转发、0回复；未获得文章中的详细测试材料。"],
+    "en": {
+      "title": "A tiny JavaScript app written for testing: TXC limits the claim to REA static analysis",
+      "summary": "TXC reports testing REA static analysis on a small self-written JavaScript app, with both findings and misses. The post lists neither, and other samples' results cannot be borrowed.",
+      "description": "At 05:39:54 Beijing time on November 14, 2026, TXC (@EricTXC) introduces a REA static-analysis test on a tiny JavaScript app they wrote. The author explicitly limits the scope to static analysis rather than every capability advertised by Reverse Engineer Anything, says the article covers findings and misses, and advises inspecting only owned or authorized software. The purpose is to check what the tool identifies in a controlled small code sample, not recover a commercial application's complete backend.\n\nThe candidate does not expose the article or specify filenames, source, REA revision, commands, individual findings, omissions or timings. Supplementary retrieval confirms attribution and the same text, but the short-link destination was not obtained, so no hit rate or specific defect list can be established here. The existing five-file, 846-byte Electron test and Electron Notes IPC test have different authors and samples. Their numbers cannot be transferred here, nor does a similar description establish a shared project. Retained as an analysis-test report, not validation of all capabilities. This collection neither ran the sample nor reproduced the results.",
+      "metadata": ["Candidate snapshot: 0 likes, 4 views, 0 reposts, 0 replies. Detailed test materials from the article were not obtained."],
+      "source_labels": ["TXC introduces a REA static test on a self-written JavaScript app, November 14, 2026 at 05:39:54 Beijing time"]
+    }
+  },
+  {
+    "id": "nathan-broadbent-claude-ghidra-frida-desktop-harness",
+    "title": "桌面应用免手点控制：Nathan称Claude用Ghidra／Frida研究并搭起harness",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Nathan Broadbent称Claude借Ghidra与Frida研究一款桌面应用，建立无需自己点击或键入的控制harness；应用未具名，未审代码或覆盖范围。",
+    "description": "2026年11月14日05:53:25（北京时间），Nathan Broadbent（@ndbroadbent）称让Claude使用Ghidra和Frida逆向一款桌面应用，并自行搭建harness来控制整个应用，不再需要自己点击或键入。Ghidra用于程序静态研究，Frida常用于运行时观察和插桩；帖子明确点名两者，但没有列出本次各自恢复了哪些接口。harness在此指围绕目标程序搭建的控制层，不是重建其全部源码。\n\n作者由此感叹现在可为任意应用做自定义MCP，但正文没有证明已交付通用MCP服务或覆盖所有应用。这是一款未具名应用的控制结果自述；缺少应用与版本、操作系统、模型细分、hook位置、工具输出、harness代码、操作清单和失败案例，无法核认所谓整个应用的覆盖率或速度。没有工时数字，不补写数分钟完成。补取原帖确认作者，不运行桌面目标或注入工具。REA未提及，状态保持unverified；同串另一作者的Empire Earth 2引擎是独立目标，另行记录。",
+    "sources": [{"label": "Nathan Broadbent的Claude／Ghidra／Frida桌面控制报告，2026-11-14 05:53:25北京时间", "url": "https://x.com/i/status/2121360815257534508"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照5赞、337浏览、0转发、2回复；补查增长不覆盖封存快照，未见公开实现。"],
+    "en": {
+      "title": "Desktop control without manual clicks: Nathan reports a Claude/Ghidra/Frida harness",
+      "summary": "Nathan Broadbent says Claude studied a desktop app with Ghidra and Frida and built a control harness requiring no manual clicks or typing. The app is unnamed; code and coverage were not reviewed.",
+      "description": "At 05:53:25 Beijing time on November 14, 2026, Nathan Broadbent (@ndbroadbent) says he had Claude use Ghidra and Frida to reverse-engineer a desktop app and build its own harness to control the entire app without him clicking or typing. Ghidra supports static program investigation, while Frida is commonly used for runtime observation and instrumentation. Both are named, but the post does not identify which interfaces each recovered. Harness here means a control layer around the target, not reconstruction of all its source code.\n\nThe author extrapolates that a custom MCP can now be built for any app, but the text establishes neither delivery of a general MCP server nor coverage of every application. It is a control-result claim for one unnamed app. App name and revision, operating system, specific model, hook locations, tool outputs, harness code, operation list and failure cases are absent, so neither entire-app coverage nor speed is verified. No duration is given; completion in minutes is not invented. Supplementary retrieval confirms the author. No desktop target or injection tool was run here. REA is unmentioned and status remains unverified. Another author's Empire Earth 2 engine in the same conversation is an independent target, recorded separately.",
+      "metadata": ["Candidate snapshot: 5 likes, 337 views, 0 reposts, 2 replies. Later growth does not replace the sealed snapshot; no public implementation was reviewed."],
+      "source_labels": ["Nathan Broadbent's Claude/Ghidra/Frida desktop-control report, November 14, 2026 at 05:53:25 Beijing time"]
+    }
+  },
+  {
+    "id": "john-daniel-trask-empire-earth2-claude-engine-attempt",
+    "title": "Empire Earth 2现代引擎：John-Daniel Trask称Claude与Ghidra已研究数周",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "John-Daniel Trask称用Claude／Ghidra反汇编Empire Earth 2，想保留机制、复用游戏资产并改善现代PC体验；数周是研究时长，不是已完成引擎。",
+    "description": "2026年11月14日06:22:47（北京时间），John-Daniel Trask（@traskjd）回复桌面应用逆向讨论，称已让Claude运行数周，使用Ghidra反汇编即时战略游戏Empire Earth 2，目的是围绕原游戏资产建立现代引擎，同时尊重原有核心游戏机制。他说这是纯个人项目，希望老游戏在现代PC上更好玩，并对Claude没有像网上所述那样拒绝Ghidra或重建既有游戏感到意外。\n\n这是具名游戏、工具与兼容目的明确的进行中尝试；没有引擎仓库、源代码、构建、游戏画面、资产加载、机制对照或可玩范围，不能把数周运行写成已完成移植，也不把作者对原始机制的表述当作持有官方源码。REA未提及，模型细分和参与人工量未知。\n\n基线Protryon/empire_earth针对第一代Empire Earth: The Art of Conquest，已有混合联机和字节匹配报告；本条是另一作者的第二代目标，没有共享项目证据，不继承前者的函数、联机或测试成绩。补取原帖确认作者与父帖关系，本合集未取得游戏资产、执行代码或复现，保持in-progress。",
+    "sources": [{"label": "John-Daniel Trask的Empire Earth 2个人引擎研究报告，2026-11-14 06:22:47北京时间", "url": "https://x.com/i/status/2121368201850429923"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照4赞、130浏览、0转发、0回复；数周是作者报告的持续研究时间，非实测工时。"],
+    "en": {
+      "title": "A modern Empire Earth 2 engine: John-Daniel Trask reports weeks of Claude/Ghidra investigation",
+      "summary": "John-Daniel Trask says Claude/Ghidra is disassembling Empire Earth 2 to reuse its assets and preserve mechanics on modern PCs. Weeks describes investigation duration, not a completed engine.",
+      "description": "At 06:22:47 Beijing time on November 14, 2026, John-Daniel Trask (@traskjd) replies to a desktop-app reversing discussion, saying he has had Claude running for weeks with Ghidra to disassemble the real-time strategy game Empire Earth 2. His aim is a modern engine for the game's assets while honoring its core mechanics. He calls it a personal project to make the old game nicer on a modern PC and expresses surprise that Claude did not object to Ghidra or rebuilding an existing game as some online accounts suggest.\n\nThis is an ongoing attempt with a named game, tools and compatibility goal. No engine repository, source, build, gameplay images, asset-loading evidence, mechanics comparison or playable scope is provided. Weeks of operation is not a completed port, and the reference to original mechanics is not proof of possessing official source. REA is unmentioned; the specific model and amount of human participation are unknown.\n\nThe baseline Protryon/empire_earth project targets the first game's Empire Earth: The Art of Conquest and has separate mixed-multiplayer and byte-matching reports. This record concerns another author's second-game target, with no evidence of a shared project. It inherits none of the former's function counts, multiplayer results or tests. Supplementary retrieval confirms the author and parent relationship. This collection obtained no game assets, executed no code and reproduced no results. Status remains in-progress.",
+      "metadata": ["Candidate snapshot: 4 likes, 130 views, 0 reposts, 0 replies. Weeks is the author's elapsed investigation period, not measured labor."],
+      "source_labels": ["John-Daniel Trask's personal Empire Earth 2 engine investigation, November 14, 2026 at 06:22:47 Beijing time"]
+    }
+  },
+  {
+    "id": "iiix-claude-code-interruption-message-binary-study",
+    "title": "Claude Code中断消息研究：IIIX称让O55分析二进制后改变续答行为",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "IIIX称O55研究Claude Code二进制并发现可替换客户端中断消息，之后模型把中断当网络问题继续；没有证据表明服务端安全分类器被关闭。",
+    "description": "2026年11月14日06:44:54（北京时间），IIIX（@7day_dreaming）称因为Fable52不断触发截断，让O55去分析Claude Code CLI二进制，发现其中一条系统指令可改为自定义内容，并称桌面端cc也可替换。作者报告更换消息后，模型不再以被分类器拦截为由拒绝继续，而将中断视为网络问题并正常回复。这里记录的是AI辅助客户端消息与续答行为研究，不提供替换指令或操作步骤。\n\nFable52、O55和safety-1保留原帖标记，不擅自转换成已确认的官方模型或错误定义。没有客户端版本、二进制哈希、代码差异、完整前后会话、相同输入对照或服务端日志；补取仅确认作者和三张图片附件存在，未审图像内容。客户端消息变化与作者观察到的续答，不能证明分类器被移除、全部安全限制失效，或对任何输入都有效；CLI与桌面端的说法也没有独立验证。REA未提及，本合集未修改客户端或发送绕过请求，按未核验作者报告收录。",
+    "sources": [{"label": "IIIX的Claude Code二进制与中断消息研究自述，2026-11-14 06:44:54北京时间", "url": "https://x.com/i/status/2121373767637340279"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照18赞、526浏览、2转发、3回复；补查热度增长不覆盖快照，附件未审。"],
+    "en": {
+      "title": "Claude Code interruption messages: IIIX reports O55 binary analysis and changed continuation behavior",
+      "summary": "IIIX says O55 found a replaceable Claude Code interruption message, after which the model treated interruption as a network issue and continued. Disabling the server-side safety classifier is not established.",
+      "description": "At 06:44:54 Beijing time on November 14, 2026, IIIX (@7day_dreaming) says repeated Fable52 interruptions led them to ask O55 to analyze the Claude Code CLI binary. They report finding a system instruction replaceable with custom content and say desktop cc allows a similar replacement. After changing the message, the model reportedly stopped refusing to continue on the grounds of classifier interception and instead treated interruption as a network problem and resumed normally. This records AI-assisted investigation of client messages and continuation behavior, without replacement instructions or procedural steps.\n\nFable52, O55 and safety-1 retain the original post's labels rather than being converted into confirmed official models or error definitions. No client revision, binary hash, code diff, full before/after conversation, same-input comparison or server logs is supplied. Supplementary retrieval confirms the author and three attached photos only; image contents were not inspected. Changed client messages and reported continuation do not establish removal of a classifier, failure of every safety restriction or effectiveness for arbitrary inputs. The CLI and desktop claims are not independently verified either. REA is unmentioned. This collection neither modified clients nor sent bypass requests. Included as an unverified author report.",
+      "metadata": ["Candidate snapshot: 18 likes, 526 views, 2 reposts, 3 replies. Later engagement growth does not replace the snapshot; attachments were not inspected."],
+      "source_labels": ["IIIX's Claude Code binary and interruption-message investigation, November 14, 2026 at 06:44:54 Beijing time"]
+    }
+  },
+  {
+    "id": "apkscope-rust-apk-analysis-agent-mcp-project",
+    "title": "Apkscope：以Rust单程序与MCP连接Agent的APK研究工具介绍",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Big Bull介绍Apkscope提供Java反编译、交叉引用、API／secret侦察、APK差异与重签名，并以MCP供Agent调用；未核源码、毫秒级速度或具体样本结果。",
+    "description": "2026年11月14日06:53:27（北京时间），Big Bull（@BIGBULLapp）介绍Apkscope，称将Android APK研究集中到一个Rust可执行程序，避免传统流程中JVM、图形界面及dex2jar转换的切换成本。帖子列出带类型的Java反编译、交叉引用、API与secret线索侦察、APK差异、重签名、原生查看器，以及可让Agent使用同一分析能力的MCP服务。APK是Android应用包，MCP在此是Agent与分析工具的接口；相关项目的具体价值是给人工与AI提供共同的应用检查入口。\n\n本条是工具介绍，不是已用某个可疑APK验证的案例。作者所称毫秒级反编译没有样本规模、设备、版本、计时方法或对照结果；没有取得短链指向的项目源码、许可证、文档或测试，不能核认完整功能、正确率或无JVM依赖范围。secret侦察指功能宣传，不表示已发现有效密钥，本合集未访问凭据、下载APK、重签名或运行程序。补取原帖确认署名及一张附图存在，未审图像；REA未提及，保留为Agent辅助逆向相关项目而非已复现成果。",
+    "sources": [{"label": "Big Bull的Apkscope Rust／MCP APK工具介绍，2026-11-14 06:53:27北京时间", "url": "https://x.com/i/status/2121375920606847071"}],
+    "snapshot_date": "2026-11-14", "metadata": ["候选快照1赞、16浏览、0转发、0回复；毫秒级是未核验宣传，不是本合集测量。"],
+    "en": {
+      "title": "Apkscope: a reported single Rust APK-analysis executable with an agent MCP interface",
+      "summary": "Big Bull introduces Apkscope with Java decompilation, cross-references, API/secret recon, APK diffs, re-signing and MCP access for agents. Source, millisecond performance and sample results were not checked.",
+      "description": "At 06:53:27 Beijing time on November 14, 2026, Big Bull (@BIGBULLapp) introduces Apkscope as a single Rust executable for Android APK investigation, reducing switching among a JVM, graphical tools and dex2jar conversion. The post lists typed Java decompilation, cross-references, API and secret reconnaissance, APK diffing, re-signing, a native viewer and an MCP server giving agents the same analysis capabilities. APK is the Android application-package format; MCP here is the agent-to-analysis-tool interface. The concrete purpose is a shared inspection entry point for human and AI investigators.\n\nThis is a tool introduction, not a validated investigation of a particular suspicious APK. The millisecond-decompilation claim has no sample scale, hardware, revision, timing method or comparison results. The linked project's source, license, documentation and tests were not obtained, so feature completeness, accuracy and the scope of JVM independence are not established. Secret reconnaissance is an advertised capability, not discovery of working keys. This collection accessed no credentials, downloaded no APK, re-signed nothing and ran no program. Supplementary retrieval confirms attribution and one attached image, whose contents were not inspected. REA is unmentioned. Retained as an agent-assisted reversing related project, not a reproduced result.",
+      "metadata": ["Candidate snapshot: 1 like, 16 views, 0 reposts, 0 replies. Millisecond performance is unverified promotion, not a measurement by this collection."],
+      "source_labels": ["Big Bull's introduction to the Apkscope Rust/MCP APK tool, November 14, 2026 at 06:53:27 Beijing time"]
+    }
+  },
+  {
     "id": "polymarket-rea-top-ten-wallet-telegram-alert-report",
     "title": "Polymarket榜单到Telegram：REA／Claude追踪月榜前十钱包买入的报告",
     "category": "apps", "rea": "REA", "status": "unverified",

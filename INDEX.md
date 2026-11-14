@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2225 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2232 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（441）
+- [游戏与游戏保存](categories/games.md)（443）
 - [硬件与设备互通](categories/hardware.md)（595）
-- [应用与客户端](categories/apps.md)（923）
+- [应用与客户端](categories/apps.md)（928）
 - [算法与功能重建](categories/algorithms.md)（266）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量](cases/normyll-gamecube-ai-decompilation-attempt.md) — Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。 **[其他 AI 逆向 · 进行中]**
+- [Empire Earth 2现代引擎：John-Daniel Trask称Claude与Ghidra已研究数周](cases/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask称用Claude／Ghidra反汇编Empire Earth 2，想保留机制、复用游戏资产并改善现代PC体验；数周是研究时长，不是已完成引擎。 **[其他 AI 逆向 · 进行中]**
 - [GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音](cases/gta6-pc-claude-rea-dubbing-mod-idea.md) — 土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。 **[REA · 待验证]**
 - [decompdecomp：续接decomp.wtf的独立工作台，字节匹配不等于全游戏已恢复](cases/decompdecomp-local-agent-byte-matching-workbench.md) — 公开工作台让Agent写C／C++、原编译器重建并逐函数对比；文档明确尚无整款游戏完成，导出保留汇编兜底，所选远端模型仍可收到游戏材料。 **[其他 AI 逆向 · 进行中]**
 - [EVE本地离线AI研究：读者追问机器人扩展，父帖只给低细节自述](cases/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI询问EVE离线指令如何扩展；父帖rrfarmer自称用本地AI harness逆向EVE，没有客户端版本、恢复功能或可查产物。 **[其他 AI 逆向 · 待验证]**
@@ -1068,6 +1070,11 @@
 
 ### 应用与客户端
 
+- [VisionPro与RiscV Linux环境：Simon称Agent正在逆向自身代码](cases/simon-gillespie-visionpro-riscv-agent-self-code-study.md) — Simon Gillespie称在VisionPro的RiscV Linux环境中用Agent逆向代码，目标为Agent自身；未披露Agent名称、环境架构或产物。 **[其他 AI 逆向 · 进行中]**
+- [自写微型JavaScript应用：TXC称只测试REA静态分析，不替全部能力背书](cases/txc-rea-tiny-javascript-static-analysis-test.md) — TXC报告在自写小型JavaScript应用上测试REA静态分析，称有命中也有漏项；正文未列具体发现，不能借用其他样本的成绩。 **[REA · 分析测试]**
+- [桌面应用免手点控制：Nathan称Claude用Ghidra／Frida研究并搭起harness](cases/nathan-broadbent-claude-ghidra-frida-desktop-harness.md) — Nathan Broadbent称Claude借Ghidra与Frida研究一款桌面应用，建立无需自己点击或键入的控制harness；应用未具名，未审代码或覆盖范围。 **[其他 AI 逆向 · 待验证]**
+- [Claude Code中断消息研究：IIIX称让O55分析二进制后改变续答行为](cases/iiix-claude-code-interruption-message-binary-study.md) — IIIX称O55研究Claude Code二进制并发现可替换客户端中断消息，之后模型把中断当网络问题继续；没有证据表明服务端安全分类器被关闭。 **[其他 AI 逆向 · 待验证]**
+- [Apkscope：以Rust单程序与MCP连接Agent的APK研究工具介绍](cases/apkscope-rust-apk-analysis-agent-mcp-project.md) — Big Bull介绍Apkscope提供Java反编译、交叉引用、API／secret侦察、APK差异与重签名，并以MCP供Agent调用；未核源码、毫秒级速度或具体样本结果。 **[其他 AI 逆向 · 相关项目]**
 - [Polymarket榜单到Telegram：REA／Claude追踪月榜前十钱包买入的报告](cases/polymarket-rea-top-ten-wallet-telegram-alert-report.md) — 作者称REA研究榜单前端、Claude建机器人，每30秒检查月榜前十钱包，对大于500美元买入发Telegram提醒；没有代码、交易核验或盈利证据。 **[REA · 待验证]**
 - [项目链接到重建文档：读者回忆Gemini发请求推断架构再交Claude](cases/gemini-project-url-architecture-claude-handoff-report.md) — 葡语回复回忆在REA之前把项目链接交Gemini，由请求推断架构并整理文档供Claude复刻；没有项目名、原始请求或重建结果。 **[其他 AI 逆向 · 待验证]**
 - [研究Photoshop而非宣称破解：生成式填充、许可与隐藏功能的AI设想](cases/photoshop-ai-generative-fill-license-study-idea.md) — 作者设想让AI拆解Photoshop以理解生成式填充、许可检查及锁定／隐藏功能；未实施，不证明这些机制已恢复或能绕过加密。 **[其他 AI 逆向 · 待验证]**

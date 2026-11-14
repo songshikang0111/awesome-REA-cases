@@ -10,15 +10,15 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2225 entries**, organized by use case, without a Top-N or popularity threshold.
+**2232 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (441)
+- [Games and preservation](categories/en/games.md) (443)
 - [Hardware and interoperability](categories/en/hardware.md) (595)
-- [Applications and clients](categories/en/apps.md) (923)
+- [Applications and clients](categories/en/apps.md) (928)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (266)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -28,6 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [An unnamed GameCube game: Normyll starts AI decompilation and watches for human intervention](cases/en/normyll-gamecube-ai-decompilation-attempt.md) — Normyll says AI is decompiling a GameCube game and wonders how much human intervention it will need. No game title, toolchain, code or completion figure is supplied. **[Other AI-assisted work · In progress]**
+- [A modern Empire Earth 2 engine: John-Daniel Trask reports weeks of Claude/Ghidra investigation](cases/en/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask says Claude/Ghidra is disassembling Empire Earth 2 to reuse its assets and preserve mechanics on modern PCs. Weeks describes investigation duration, not a completed engine. **[Other AI-assisted work · In progress]**
 - [A GTA6 dubbing-mod wish: using Claude and REA to integrate voice tracks once a PC version exists](cases/en/gta6-pc-claude-rea-dubbing-mod-idea.md) — A Turkish reply in a GTA6 discussion proposes Claude/REA voice-track integration for PC. No language, audio, format study or implementation is supplied; this is not a PC-port achievement. **[REA · Needs verification]**
 - [decompdecomp: an independent decomp.wtf continuation where byte matching does not mean a whole game is recovered](cases/en/decompdecomp-local-agent-byte-matching-workbench.md) — Agents write C/C++, original compilers rebuild it and functions are compared. Docs explicitly say no whole game is decompiled, exports retain assembly fallbacks, and chosen remote models may receive game material. **[Other AI-assisted work · In progress]**
 - [EVE research with a local offline AI harness: a scaling question leads to a low-detail account](cases/en/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI asks how offline EVE bot directives scale. Parent poster rrfarmer claims local AI-harness reversing but supplies no client version, recovered feature or inspectable artifact. **[Other AI-assisted work · Needs verification]**
@@ -1070,6 +1072,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [VisionPro and a RiscV Linux environment: Simon says an agent is reversing its own code](cases/en/simon-gillespie-visionpro-riscv-agent-self-code-study.md) — Simon Gillespie reports an agent investigating its own code in a VisionPro/RiscV Linux environment. The agent, environment architecture and outputs are not disclosed. **[Other AI-assisted work · In progress]**
+- [A tiny JavaScript app written for testing: TXC limits the claim to REA static analysis](cases/en/txc-rea-tiny-javascript-static-analysis-test.md) — TXC reports testing REA static analysis on a small self-written JavaScript app, with both findings and misses. The post lists neither, and other samples' results cannot be borrowed. **[REA · Analysis test]**
+- [Desktop control without manual clicks: Nathan reports a Claude/Ghidra/Frida harness](cases/en/nathan-broadbent-claude-ghidra-frida-desktop-harness.md) — Nathan Broadbent says Claude studied a desktop app with Ghidra and Frida and built a control harness requiring no manual clicks or typing. The app is unnamed; code and coverage were not reviewed. **[Other AI-assisted work · Needs verification]**
+- [Claude Code interruption messages: IIIX reports O55 binary analysis and changed continuation behavior](cases/en/iiix-claude-code-interruption-message-binary-study.md) — IIIX says O55 found a replaceable Claude Code interruption message, after which the model treated interruption as a network issue and continued. Disabling the server-side safety classifier is not established. **[Other AI-assisted work · Needs verification]**
+- [Apkscope: a reported single Rust APK-analysis executable with an agent MCP interface](cases/en/apkscope-rust-apk-analysis-agent-mcp-project.md) — Big Bull introduces Apkscope with Java decompilation, cross-references, API/secret recon, APK diffs, re-signing and MCP access for agents. Source, millisecond performance and sample results were not checked. **[Other AI-assisted work · Related project]**
 - [Polymarket leaderboard to Telegram: reported REA/Claude alerts for the monthly top ten wallets](cases/en/polymarket-rea-top-ten-wallet-telegram-alert-report.md) — The author says REA studied the leaderboard frontend and Claude built a bot checking the monthly top ten wallets every 30 seconds, alerting on buys above $500. No code, trade verification or profit evidence is supplied. **[REA · Needs verification]**
 - [Project URL to rebuild notes: a reader recalls Gemini inferring architecture through requests for a Claude handoff](cases/en/gemini-project-url-architecture-claude-handoff-report.md) — A Portuguese reply recalls giving Gemini a project URL before REA, inferring architecture through requests and documenting it for Claude to replicate. No project, raw requests or rebuild outcome is provided. **[Other AI-assisted work · Needs verification]**
 - [Studying Photoshop, not claiming a crack: an AI idea for generative fill, licensing and hidden features](cases/en/photoshop-ai-generative-fill-license-study-idea.md) — The author imagines asking AI to inspect Photoshop's generative fill, licensing checks and locked versus hidden features. No study was performed or mechanism recovered, and understanding is not cryptographic bypass. **[Other AI-assisted work · Needs verification]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量](../cases/normyll-gamecube-ai-decompilation-attempt.md) — Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。 **[其他 AI 逆向 · 进行中]**
+- [Empire Earth 2现代引擎：John-Daniel Trask称Claude与Ghidra已研究数周](../cases/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask称用Claude／Ghidra反汇编Empire Earth 2，想保留机制、复用游戏资产并改善现代PC体验；数周是研究时长，不是已完成引擎。 **[其他 AI 逆向 · 进行中]**
 - [GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音](../cases/gta6-pc-claude-rea-dubbing-mod-idea.md) — 土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。 **[REA · 待验证]**
 - [decompdecomp：续接decomp.wtf的独立工作台，字节匹配不等于全游戏已恢复](../cases/decompdecomp-local-agent-byte-matching-workbench.md) — 公开工作台让Agent写C／C++、原编译器重建并逐函数对比；文档明确尚无整款游戏完成，导出保留汇编兜底，所选远端模型仍可收到游戏材料。 **[其他 AI 逆向 · 进行中]**
 - [EVE本地离线AI研究：读者追问机器人扩展，父帖只给低细节自述](../cases/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI询问EVE离线指令如何扩展；父帖rrfarmer自称用本地AI harness逆向EVE，没有客户端版本、恢复功能或可查产物。 **[其他 AI 逆向 · 待验证]**

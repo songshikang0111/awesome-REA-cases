@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2225 cases & projects
+# 2232 cases & projects
 
-**Latest case update:** November 14, 2026, 04:09 · **Last maintained:** November 14, 2026, 04:09 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 14, 2026, 08:09 · **Last maintained:** November 14, 2026, 08:09 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: probe a device, recover game behavior and distinguish a rebuild from complete source recovery. Author reports and documented limits sit alongside concrete uses. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: probe devices, recover game behavior and compare claims with documented tests. These picks favor concrete uses and visible evidence limits over broad capability promises. Dates identify sources or author updates, not collection dates.
 
 1. **[Ember mug: probe Bluetooth, build a personal controller](cases/en/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14` author report — Dmitriy says **Codex probed characteristics against the iOS app** and built temperature/light controls in about an hour. The author prohibited web lookup, not independently enforced; coffee-level accuracy and code unchecked. `Unverified here`
 2. **[Fujifilm X half: camera to Mac without the phone](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12` author report — **Opus reportedly identifies Bluetooth/Wi-Fi protocol differences** for JPEG imports and Google Photos uploads. Incremental camera tests, not an iteration-free build; code and traces unchecked here. `Unverified here`
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **441** |
+| [Games & preservation](categories/en/games.md) | **443** |
 | [Hardware & interoperability](categories/en/hardware.md) | **595** |
-| [Applications & clients](categories/en/apps.md) | **923** |
+| [Applications & clients](categories/en/apps.md) | **928** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **266** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
