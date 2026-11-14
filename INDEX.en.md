@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2236 entries**, organized by use case, without a Top-N or popularity threshold.
+**2240 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (444)
+- [Games and preservation](categories/en/games.md) (445)
 - [Hardware and interoperability](categories/en/hardware.md) (596)
-- [Applications and clients](categories/en/apps.md) (930)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (266)
+- [Applications and clients](categories/en/apps.md) (932)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (267)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Which FSR is in GTA on Xbox? Mike proposes Claude/REA file inspection, with the version still unconfirmed](cases/en/gta-xbox-fsr-version-claude-rea-inspection-idea.md) — During a GTA-on-Xbox FSR discussion, Mike proposes Claude/REA file inspection. The upstream author suspects 4.1.2 but explicitly lacks confirmation and says files were encrypted days earlier; no analysis result is reported. **[REA · Needs verification]**
 - [Fallout Van Buren tech-demo reconstruction: Kran gives REA six years of human research and credits earlier decompilation](cases/en/fallout-van-buren-kran-rea-human-guided-reconstruction.md) — Kran describes REA plus manual work, based on six years of research, shenmarukai's initial decompilation and a personal IDA database. Adam reports a DX9 migration; a 64-bit build is still a goal. **[REA · In progress]**
 - [An unnamed GameCube game: Normyll starts AI decompilation and watches for human intervention](cases/en/normyll-gamecube-ai-decompilation-attempt.md) — Normyll says AI is decompiling a GameCube game and wonders how much human intervention it will need. No game title, toolchain, code or completion figure is supplied. **[Other AI-assisted work · In progress]**
 - [A modern Empire Earth 2 engine: John-Daniel Trask reports weeks of Claude/Ghidra investigation](cases/en/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask says Claude/Ghidra is disassembling Empire Earth 2 to reuse its assets and preserve mechanics on modern PCs. Weeks describes investigation duration, not a completed engine. **[Other AI-assisted work · In progress]**
@@ -1074,6 +1075,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [REA as an agent test-ground builder: WquGuru reports 97 training environments from a Scale AI engineer](cases/en/rea-scale-engineer-97-agent-training-environments-report.md) — WquGuru credits a Scale AI engineer with 97 REA-built training environments and 68 issues/PRs. The proposed use is cheaper agent test grounds; inventories and acceptance results are unchecked. **[REA · Needs verification]**
+- [Olaz, a native Zalo client: SwiftUI hosts the official renderer, while Claude credit establishes only a visible patch attribution](cases/en/zalo-olaz-swift-official-renderer-interop-project.md) — AI Geek News introduces a native Swift Zalo client. Olaz documents reuse of the official app.asar and Electron-host emulation, not a rewritten protocol. A WebSocket fix credits Claude; a complete AI reversing workflow is not established. **[Other AI-assisted work · Related project]**
 - [ARTEX liveness-protocol reversing: a secondary MadPot account reports near-target attempts still rejected by the server](cases/en/artex-madpot-kyc-liveness-protocol-failed-attempts-report.md) — An Amazon decoy-record account describes ARTEX studying exchange liveness events and coordinates. The best recorded attempt was within 7 pixels yet failed; 11.5 fps describes a separate deepfake pipeline, not successful verification. **[Other AI-assisted work · Needs verification]**
 - [iOS 4 engineering build 8A218: a secondary account of ChatGPT-assisted QEMU booting a grid multitasking prototype](cases/en/ios4-8a218-qemu-chatgpt-prototype-report.md) — Chenfu relays Steve Troughton-Smith using ChatGPT to write/debug QEMU code and show grid multitasking in iPhone 4 engineering build 8A218. Patches, drivers and runtime records were not obtained. **[Other AI-assisted work · Needs verification]**
 - [VisionPro and a RiscV Linux environment: Simon says an agent is reversing its own code](cases/en/simon-gillespie-visionpro-riscv-agent-self-code-study.md) — Simon Gillespie reports an agent investigating its own code in a VisionPro/RiscV Linux environment. The agent, environment architecture and outputs are not disclosed. **[Other AI-assisted work · In progress]**
@@ -2007,6 +2010,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Why ChatGPT recommends Ramp: a reported black-box audit of 11 purchase questions and cited pages](cases/en/ramp-chatgpt-recommendation-blackbox-citation-audit.md) — A team uses ChatGPT queries and citations to infer Ramp's recommendation visibility, reporting appearances in 11 purchase-intent questions and a 67% versus 33% comparison with Brex. An AP-automation counterexample is retained; full samples and causal controls are absent. **[Other AI-assisted work · Analysis test]**
 - [Spider-Man opening to a 15-second clip: a reported rea-video analysis and Cue rebuild](cases/en/rea-video-spiderman-opening-cue-15second-rebuild.md) — The author says rea-video analyzed a Spider-Man opening and Cue rebuilt a 15-second video from it. Original-film revision, shot comparisons, prompts and fidelity were not checked. **[REA use unconfirmed · Needs verification]**
 - [Infer prompts and models from AI replies: a Grok scoring and blind-guess experiment idea](cases/en/grok-ai-replies-prompt-model-blind-guess-idea.md) — The author asks Grok to infer prompts from a set of AI replies, score them and guess their models before an answer reveal. Neither Grok's output nor the reveal was obtained. **[Other AI-assisted work · Needs verification]**
 - [Recover a brand kit from existing logos: a Claude audit and vector-reconstruction prompt idea](cases/en/claude-existing-logo-vector-brand-kit-prompt-idea.md) — The prompt audits existing company logos, extracts colors, flags font guesses, then requests faithful SVG/PDF/PNG reconstruction and print assets. No actual company files or completed example are supplied. **[Other AI-assisted work · Needs verification]**

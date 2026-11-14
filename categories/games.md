@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Xbox版GTA所用FSR：Mike建议Claude加REA检查文件，版本仍未确认](../cases/gta-xbox-fsr-version-claude-rea-inspection-idea.md) — 围绕Xbox版GTA采用哪个FSR版本的争论，Mike提出把文件交给Claude／REA；上游称疑似4.1.2但无确认，且此前文件加密，尚无分析结果。 **[REA · 待验证]**
 - [Fallout Van Buren技术演示重建：Kran把六年人工研究交给REA，保留前人反编译贡献](../cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md) — Kran称REA加人工重建Van Buren技术演示，以六年研究、shenmarukai初始反编译与自有IDA数据库为基础；Adam报告DX9迁移，64位仍是目标。 **[REA · 进行中]**
 - [未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量](../cases/normyll-gamecube-ai-decompilation-attempt.md) — Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。 **[其他 AI 逆向 · 进行中]**
 - [Empire Earth 2现代引擎：John-Daniel Trask称Claude与Ghidra已研究数周](../cases/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask称用Claude／Ghidra反汇编Empire Earth 2，想保留机制、复用游戏资产并改善现代PC体验；数周是研究时长，不是已完成引擎。 **[其他 AI 逆向 · 进行中]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [REA造Agent测试场：WquGuru称Scale AI工程师制作97个训练环境](../cases/rea-scale-engineer-97-agent-training-environments-report.md) — WquGuru称一位Scale AI工程师用REA制作97个训练环境、提交68个issue与PR；具体用途是为Agent提供低成本测试场，清单与验收未核。 **[REA · 待验证]**
+- [Olaz原生Zalo客户端：SwiftUI承接官方renderer，Claude署名只证明可见补丁归因](../cases/zalo-olaz-swift-official-renderer-interop-project.md) — AI极客新闻介绍Swift原生Zalo；公开Olaz文档实际复用官方app.asar并模拟Electron宿主，而非重写协议。WebSocket修复提交有Claude共同署名，完整AI逆向流程未证。 **[其他 AI 逆向 · 相关项目]**
 - [ARTEX活体检测协议逆向：MadPot二手调查称接近目标仍全部被服务端拒绝](../cases/artex-madpot-kyc-liveness-protocol-failed-attempts-report.md) — 转述Amazon诱捕记录：ARTEX研究交易所活体检测的事件流与坐标，最佳记录进入目标7像素以内仍未通过；11.5帧每秒是另一次深伪管线结果，不是验证成功率。 **[其他 AI 逆向 · 待验证]**
 - [iOS 4工程版8A218：二手报告称ChatGPT辅助QEMU启动九宫格多任务原型](../cases/ios4-8a218-qemu-chatgpt-prototype-report.md) — 沉浮转述Steve Troughton-Smith用ChatGPT辅助编写调试QEMU，让iPhone 4工程版8A218展示九宫格多任务；未取得补丁、驱动或运行记录。 **[其他 AI 逆向 · 待验证]**
 - [VisionPro与RiscV Linux环境：Simon称Agent正在逆向自身代码](../cases/simon-gillespie-visionpro-riscv-agent-self-code-study.md) — Simon Gillespie称在VisionPro的RiscV Linux环境中用Agent逆向代码，目标为Agent自身；未披露Agent名称、环境架构或产物。 **[其他 AI 逆向 · 进行中]**

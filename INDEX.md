@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2236 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2240 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（444）
+- [游戏与游戏保存](categories/games.md)（445）
 - [硬件与设备互通](categories/hardware.md)（596）
-- [应用与客户端](categories/apps.md)（930）
-- [算法与功能重建](categories/algorithms.md)（266）
+- [应用与客户端](categories/apps.md)（932）
+- [算法与功能重建](categories/algorithms.md)（267）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Xbox版GTA所用FSR：Mike建议Claude加REA检查文件，版本仍未确认](cases/gta-xbox-fsr-version-claude-rea-inspection-idea.md) — 围绕Xbox版GTA采用哪个FSR版本的争论，Mike提出把文件交给Claude／REA；上游称疑似4.1.2但无确认，且此前文件加密，尚无分析结果。 **[REA · 待验证]**
 - [Fallout Van Buren技术演示重建：Kran把六年人工研究交给REA，保留前人反编译贡献](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md) — Kran称REA加人工重建Van Buren技术演示，以六年研究、shenmarukai初始反编译与自有IDA数据库为基础；Adam报告DX9迁移，64位仍是目标。 **[REA · 进行中]**
 - [未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量](cases/normyll-gamecube-ai-decompilation-attempt.md) — Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。 **[其他 AI 逆向 · 进行中]**
 - [Empire Earth 2现代引擎：John-Daniel Trask称Claude与Ghidra已研究数周](cases/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask称用Claude／Ghidra反汇编Empire Earth 2，想保留机制、复用游戏资产并改善现代PC体验；数周是研究时长，不是已完成引擎。 **[其他 AI 逆向 · 进行中]**
@@ -1072,6 +1073,8 @@
 
 ### 应用与客户端
 
+- [REA造Agent测试场：WquGuru称Scale AI工程师制作97个训练环境](cases/rea-scale-engineer-97-agent-training-environments-report.md) — WquGuru称一位Scale AI工程师用REA制作97个训练环境、提交68个issue与PR；具体用途是为Agent提供低成本测试场，清单与验收未核。 **[REA · 待验证]**
+- [Olaz原生Zalo客户端：SwiftUI承接官方renderer，Claude署名只证明可见补丁归因](cases/zalo-olaz-swift-official-renderer-interop-project.md) — AI极客新闻介绍Swift原生Zalo；公开Olaz文档实际复用官方app.asar并模拟Electron宿主，而非重写协议。WebSocket修复提交有Claude共同署名，完整AI逆向流程未证。 **[其他 AI 逆向 · 相关项目]**
 - [ARTEX活体检测协议逆向：MadPot二手调查称接近目标仍全部被服务端拒绝](cases/artex-madpot-kyc-liveness-protocol-failed-attempts-report.md) — 转述Amazon诱捕记录：ARTEX研究交易所活体检测的事件流与坐标，最佳记录进入目标7像素以内仍未通过；11.5帧每秒是另一次深伪管线结果，不是验证成功率。 **[其他 AI 逆向 · 待验证]**
 - [iOS 4工程版8A218：二手报告称ChatGPT辅助QEMU启动九宫格多任务原型](cases/ios4-8a218-qemu-chatgpt-prototype-report.md) — 沉浮转述Steve Troughton-Smith用ChatGPT辅助编写调试QEMU，让iPhone 4工程版8A218展示九宫格多任务；未取得补丁、驱动或运行记录。 **[其他 AI 逆向 · 待验证]**
 - [VisionPro与RiscV Linux环境：Simon称Agent正在逆向自身代码](cases/simon-gillespie-visionpro-riscv-agent-self-code-study.md) — Simon Gillespie称在VisionPro的RiscV Linux环境中用Agent逆向代码，目标为Agent自身；未披露Agent名称、环境架构或产物。 **[其他 AI 逆向 · 进行中]**
@@ -2005,6 +2008,7 @@
 
 ### 算法与功能重建
 
+- [Ramp为何被ChatGPT推荐：11个购买问题与引用页面的黑箱审计自述](cases/ramp-chatgpt-recommendation-blackbox-citation-audit.md) — 作者用ChatGPT查询与引用路径反推Ramp的推荐曝光，称11个购买意向问题均出现Ramp、对比Brex为67%对33%；有AP自动化反例，但无完整样本或因果对照。 **[其他 AI 逆向 · 分析测试]**
 - [蜘蛛侠开场到15秒片段：作者称用rea-video拆镜头再交Cue复刻](cases/rea-video-spiderman-opening-cue-15second-rebuild.md) — 作者称rea-video分析蜘蛛侠开场、Cue按其结果重建15秒视频；未核原片版本、镜头对拍、提示词或成片匹配程度。 **[未确认使用 REA · 待验证]**
 - [由AI回复反推提示与模型：请求Grok评分、盲猜后再揭晓的实验idea](cases/grok-ai-replies-prompt-model-blind-guess-idea.md) — 作者向Grok提交一组AI回复，要求反推提示词、打分并猜模型，表示猜后提供答案；没有取得Grok输出或揭晓结果。 **[其他 AI 逆向 · 待验证]**
 - [从已有Logo反推品牌包：Claude文件审计与向量重建提示方案](cases/claude-existing-logo-vector-brand-kit-prompt-idea.md) — 提示方案先审计公司已有Logo，提取颜色、判断字体并标猜测，再按原比例重建SVG／PDF／PNG及印刷资产；没有实际公司文件或完成样例。 **[其他 AI 逆向 · 待验证]**
