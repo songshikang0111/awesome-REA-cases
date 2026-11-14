@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2257 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2268 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（449）
-- [硬件与设备互通](categories/hardware.md)（600）
-- [应用与客户端](categories/apps.md)（937）
-- [算法与功能重建](categories/algorithms.md)（271）
+- [硬件与设备互通](categories/hardware.md)（604）
+- [应用与客户端](categories/apps.md)（942）
+- [算法与功能重建](categories/algorithms.md)（273）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -478,6 +478,10 @@
 
 ### 硬件与设备互通
 
+- [Split60HE二手键盘连发：Matías称Claude解码flash校准记录后修复](cases/matias-split60he-claude-flash-calibration-repair-report.md) — Matías称Claude结合开源固件、KiCad和USB传感器数据，找到右半39键全按下的校准值问题；备份重刷v1.11后69键静止均0%，未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [Samsung NV3拍RAW：用Codex修改老数码相机固件的具体想法](cases/samsung-nv3-codex-raw-firmware-idea.md) — 西班牙语作者提出用Codex（原帖GPT6.1 Sol）修改Samsung NV3固件以拍RAW，未报告提取、补丁或成功照片。 **[其他 AI 逆向 · 待验证]**
+- [绕开libcuda构建NVRM生命周期：文章报告Codex与Anthropic拒答的受阻尝试](cases/nvrm-c11-libcuda-independent-lifecycle-ai-refusal-report.md) — 作者以C11直接分配NVRM client／device对象为例讨论GPU互通，称Codex和Anthropic安全限制阻止帮助；无代码或拒答日志，不接受其商业动机推断。 **[其他 AI 逆向 · 待验证]**
+- [约50美元合成器刷自定义固件：Soham转述AI逆向SDK，型号未确认](cases/soham-budget-synth-ai-reversed-sdk-secondary-report.md) — Soham称有人借AI逆向SDK，让低价合成器能刷自定义固件；没有型号、SDK、代码或刷机验证，只保留具体设备改造方向的二手报告。 **[其他 AI 逆向 · 待验证]**
 - [Sony Android TV外接蓝牙音箱：作者称Claude与Gemini研究原厂APK后做出手机App](cases/sony-android-tv-a2dp-gemini-claude-apk-report.md) — bonfix_fixer称电视具备A2DP却限制外接音箱，经Claude基础集成、Gemini Argon推理与原厂APK研究后做出手机App；多次试验且遭遇拒答，型号与代码未披露。 **[其他 AI 逆向 · 待验证]**
 - [Switch运行iPadOS与AirPods弹窗：Yukwun_Lam的AI逆向移植二手说法](cases/switch-ipados-airpods-ai-port-secondary-claim.md) — Yukwun_Lam称国内开发者借AI逆向把iPadOS装到Switch并显示AirPods弹窗；有附件记录但未取得原作者、启动链或源码，不认定原生移植成功。 **[其他 AI 逆向 · 待验证]**
 - [Canon相机固件未能进入：Chirag改用Claude微调现有设置](cases/chirag-canon-camera-claude-firmware-blocked-settings-report.md) — Chirag Mittal先宣布用Claude研究Canon相机，随后说固件完全锁住、未能进入；照片变好是现有设置调优的主观结果，不是固件Mod成果。 **[其他 AI 逆向 · 待验证]**
@@ -1081,6 +1085,11 @@
 
 ### 应用与客户端
 
+- [UnvibeCode：从代码库重建业务流程与风险，混合许可且AI分析可能外发代码](cases/unvibecode-source-business-workflow-analysis-project.md) — Micha(el) Bladowski介绍源码流程图、代码关系与有证据的风险分析；补读项目README确认Python3.11+，但官方包不全是Apache，免自备API key不等于离线。 **[其他 AI 逆向 · 相关项目]**
+- [家具厂Delphi转.NET：GA Red Clay称Claude Code重建业务系统，切换仍是计划](cases/ga-red-clay-furniture-delphi-dotnet-claude-migration.md) — 作者正从旧代码恢复零售、制造、会计、采购与库存流程，预计约一个月换系统，称AI费用约400美元；未提供迁移代码、验收或上线证明。 **[其他 AI 逆向 · 进行中]**
+- [Kampala：将Web／桌面应用研究成可编程API的二手项目介绍](cases/kampala-web-desktop-app-programmable-api-secondary-project.md) — Prasenjit Sarkar在REA评论中介绍Kampala的商业方向：把应用逆向成API；没有指定应用、接口或代码，不验证YC／融资归属或任意应用可转换。 **[未确认使用 REA · 待验证]**
+- [Wintermute cexdex合约：Zac从占位函数名推测AI逆向，不等于原源码公开](cases/wintermute-cexdex-selector-placeholder-ai-reversal-inference.md) — Zac指bot第86行注释称_xxxxxx函数名只是原selector占位，推测Etherscan所见Wintermute cexdex合约来自AI逆向；未核合约、字节码或AI归因。 **[未确认使用 REA · 待验证]**
+- [Bun可执行文件现场分析：tonbi发布REA新版格式演示报告](cases/tonbi-rea-bun-executable-live-demo-report.md) — tonbi称视频介绍REA新增格式并现场处理Bun executable；未披露目标文件、版本、分析输出或成功恢复范围，本合集未观看或运行演示。 **[REA · 分析测试]**
 - [Kwaro AI扫描harness：Ibrahim称研究旧扫描器架构后用DeepSeek报告SQLi等发现](cases/kwaro-ai-scanner-architecture-deepseek-harness-report.md) — Ibrahim Auwal称逆向一个未具名的传统漏洞扫描器学习架构，再向Kwaro Agent提供百余工具、书籍和公开报告；首轮DeepSeek低于30美元报1项SQLi与20余项发现，未见验证。 **[其他 AI 逆向 · 待验证]**
 - [borland-reborn：Exhume辅助重建Borland C++ 2.0，字节一致不是原始源码唯一恢复](cases/borland-reborn-bcc20-exhume-byte-matching.md) — 项目称1991年BCC.EXE与CPP.EXE重建后字节相同，保留C／手写汇编分工；Exhume提供Claude Code skills，改版另以1836次编译对照，未在本合集重跑。 **[其他 AI 逆向 · 待验证]**
 - [Electron目录静态侦察：丰收称REA给出20节点、26关系，未保证运行](cases/fengshou-rea-electron-20-node-static-inspection.md) — 丰收报告不用Ghidra或登录账号，以REA检查Electron应用目录，得到20节点26关系与零IPC／contextBridge；仅静态结构输出，非运行验证。 **[REA · 分析测试]**
@@ -1710,7 +1719,7 @@
 - [1992年 Windows 3.1 赞美诗软件：Ghidra 与 REA 的反编译自述](cases/windows31-1992-hymnal-ghidra-rea.md) — Glauber Lima 报告用 Ghidra 配合 REA 成功反编译老赞美诗程序，未给恢复内容或运行验证。 **[REA · 待验证]**
 - [剪映 AI 调用封装：余温用 REA 研究后暂缓公开](cases/jianying-gkxspace-rea-ai-control.md) — 余温称已将剪映大量功能封装为 AI 可调用操作，准备脱敏发布后又改为自用；未公开代码或功能清单核验。 **[REA · 进行中]**
 - [Windows 任务管理器：五分钟、两美元 AI 重建的待验证转述](cases/windows-task-manager-ai-five-minute-report.md) — Onchana01 转述任务管理器被快速逆向；没有原作者、代码或行为测试，保留明确目标而不采纳完成断言。 **[未确认使用 REA · 待验证]**
-- [Antigravity内部研究：旧隐藏模式转述与Jerry的Gemini辅助2.27.0枚举分析](cases/antigravity-hidden-agent-modes-report.md) — 旧帖称四个隐藏模式；Jerry新增2.27.0 language_server中的Argon、BYOM/BYOK与Jarvis枚举报告，后续确认Gemini分析；静态字段不证明已上线。 **[其他 AI 逆向 · 分析测试]**
+- [Antigravity内部研究：隐藏模式、Gemini枚举分析与swarm白板调度报告](cases/antigravity-hidden-agent-modes-report.md) — 保留旧隐藏模式与Jerry的Gemini辅助2.27.0枚举研究，新增はるか对swarm白板、worker唤醒和防死锁调度的解释；静态字段及架构评价均非功能或效率验证。 **[其他 AI 逆向 · 分析测试]**
 - [Awesome Reverse-Engineered：让 Agent 先查已有互通实现，再决定是否逆向](cases/awesome-reverse-engineered-agent-index.md) — 开源互通项目目录供Agent先查现成实现；10月30日新传播补充MCP入口，固定README列17,744项，提供搜索、项目详情与分类工具。目录数量不是可用性验证。 **[未确认使用 REA · 相关项目]**
 - [中国激光软件 EXE：Dan Nunn 用 Codex 持续恢复 Pascal 逻辑](cases/chinese-laser-exe-codex-pascal.md) — 作者报告已研究12天，目标是将激光软件可执行文件恢复为Pascal；未报告完成，也未给设备兼容或加工验证。 **[其他 AI 逆向 · 进行中]**
 - [GrapheneOS NFC 支付：让 AI 反编译相关实现的读者愿望](cases/grapheneos-ai-nfc-payments-idea.md) — 读者希望借助AI反编译让GrapheneOS支持所需NFC支付；没有协议、支付提供方或可行性测试。 **[其他 AI 逆向 · 相关项目]**
@@ -2021,6 +2030,8 @@
 
 ### 算法与功能重建
 
+- [Apple Health导出到/death-date：Phosphen的AI数据拆解，不是恢复Apple秘密寿命评分](cases/phosphen-apple-health-export-death-date-analysis-report.md) — 作者称Fable5.2分析Health导出，并用Claude Code skill把心率／VO2max套生命表；数据数量与死亡年份未经核验，不是医学预测或Apple内部算法恢复。 **[其他 AI 逆向 · 待验证]**
+- [FAA通信故障审计idea：Ariel Garbarz提出Inverse AI研究FTI，未取得技术记录](cases/garbarz-faa-fti-inverse-ai-failure-audit-idea.md) — Garbarz要求检查FAA／L3Harris FTI更新日志、版本、告警和时间线，并提自动系统逆向与决策重建；只是调查建议，不证明芝加哥起因或AI攻击。 **[未确认使用 REA · 待验证]**
 - [rea-toon：从短剧逐镜研究人物、台词与结构，导出剧本和VIDEO.md的Agent项目](cases/rea-toon-short-drama-shot-script-analysis-project.md) — JuneYaooo在rea-video上增加短剧人物、说话人、情绪与跨集结构层，文档称可回放逐镜证据并输出研读／剧本／分镜与VIDEO.md；尚未运行，非商业许可。 **[其他 AI 逆向 · 相关项目]**
 - [回测漏掉102个退市币：Meller称Claude Code拆解后交易优势消失](cases/meller-trading-bot-claude-backtest-delisted-coins-report.md) — Meller称让Claude Code拆解自有交易机器人回测，发现币种列表漏102个退市币；补回后原有优势消失，未给策略、代码或回测指标。 **[其他 AI 逆向 · 待验证]**
 - [Speak的AI搜索曝光：Era AI称89%引用来自非自有网站的黑箱研究](cases/speak-ai-search-third-party-citation-audit-report.md) — Era AI称研究语言学习应用Speak的AI搜索表现，89%引用来自非自有站点且无外链领先优势；没有查询样本、模型或原始统计，90天复制是营销建议。 **[未确认使用 REA · 待验证]**

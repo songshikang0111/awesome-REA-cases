@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [UnvibeCode：从代码库重建业务流程与风险，混合许可且AI分析可能外发代码](../cases/unvibecode-source-business-workflow-analysis-project.md) — Micha(el) Bladowski介绍源码流程图、代码关系与有证据的风险分析；补读项目README确认Python3.11+，但官方包不全是Apache，免自备API key不等于离线。 **[其他 AI 逆向 · 相关项目]**
+- [家具厂Delphi转.NET：GA Red Clay称Claude Code重建业务系统，切换仍是计划](../cases/ga-red-clay-furniture-delphi-dotnet-claude-migration.md) — 作者正从旧代码恢复零售、制造、会计、采购与库存流程，预计约一个月换系统，称AI费用约400美元；未提供迁移代码、验收或上线证明。 **[其他 AI 逆向 · 进行中]**
+- [Kampala：将Web／桌面应用研究成可编程API的二手项目介绍](../cases/kampala-web-desktop-app-programmable-api-secondary-project.md) — Prasenjit Sarkar在REA评论中介绍Kampala的商业方向：把应用逆向成API；没有指定应用、接口或代码，不验证YC／融资归属或任意应用可转换。 **[未确认使用 REA · 待验证]**
+- [Wintermute cexdex合约：Zac从占位函数名推测AI逆向，不等于原源码公开](../cases/wintermute-cexdex-selector-placeholder-ai-reversal-inference.md) — Zac指bot第86行注释称_xxxxxx函数名只是原selector占位，推测Etherscan所见Wintermute cexdex合约来自AI逆向；未核合约、字节码或AI归因。 **[未确认使用 REA · 待验证]**
+- [Bun可执行文件现场分析：tonbi发布REA新版格式演示报告](../cases/tonbi-rea-bun-executable-live-demo-report.md) — tonbi称视频介绍REA新增格式并现场处理Bun executable；未披露目标文件、版本、分析输出或成功恢复范围，本合集未观看或运行演示。 **[REA · 分析测试]**
 - [Kwaro AI扫描harness：Ibrahim称研究旧扫描器架构后用DeepSeek报告SQLi等发现](../cases/kwaro-ai-scanner-architecture-deepseek-harness-report.md) — Ibrahim Auwal称逆向一个未具名的传统漏洞扫描器学习架构，再向Kwaro Agent提供百余工具、书籍和公开报告；首轮DeepSeek低于30美元报1项SQLi与20余项发现，未见验证。 **[其他 AI 逆向 · 待验证]**
 - [borland-reborn：Exhume辅助重建Borland C++ 2.0，字节一致不是原始源码唯一恢复](../cases/borland-reborn-bcc20-exhume-byte-matching.md) — 项目称1991年BCC.EXE与CPP.EXE重建后字节相同，保留C／手写汇编分工；Exhume提供Claude Code skills，改版另以1836次编译对照，未在本合集重跑。 **[其他 AI 逆向 · 待验证]**
 - [Electron目录静态侦察：丰收称REA给出20节点、26关系，未保证运行](../cases/fengshou-rea-electron-20-node-static-inspection.md) — 丰收报告不用Ghidra或登录账号，以REA检查Electron应用目录，得到20节点26关系与零IPC／contextBridge；仅静态结构输出，非运行验证。 **[REA · 分析测试]**
@@ -631,7 +636,7 @@
 - [1992年 Windows 3.1 赞美诗软件：Ghidra 与 REA 的反编译自述](../cases/windows31-1992-hymnal-ghidra-rea.md) — Glauber Lima 报告用 Ghidra 配合 REA 成功反编译老赞美诗程序，未给恢复内容或运行验证。 **[REA · 待验证]**
 - [剪映 AI 调用封装：余温用 REA 研究后暂缓公开](../cases/jianying-gkxspace-rea-ai-control.md) — 余温称已将剪映大量功能封装为 AI 可调用操作，准备脱敏发布后又改为自用；未公开代码或功能清单核验。 **[REA · 进行中]**
 - [Windows 任务管理器：五分钟、两美元 AI 重建的待验证转述](../cases/windows-task-manager-ai-five-minute-report.md) — Onchana01 转述任务管理器被快速逆向；没有原作者、代码或行为测试，保留明确目标而不采纳完成断言。 **[未确认使用 REA · 待验证]**
-- [Antigravity内部研究：旧隐藏模式转述与Jerry的Gemini辅助2.27.0枚举分析](../cases/antigravity-hidden-agent-modes-report.md) — 旧帖称四个隐藏模式；Jerry新增2.27.0 language_server中的Argon、BYOM/BYOK与Jarvis枚举报告，后续确认Gemini分析；静态字段不证明已上线。 **[其他 AI 逆向 · 分析测试]**
+- [Antigravity内部研究：隐藏模式、Gemini枚举分析与swarm白板调度报告](../cases/antigravity-hidden-agent-modes-report.md) — 保留旧隐藏模式与Jerry的Gemini辅助2.27.0枚举研究，新增はるか对swarm白板、worker唤醒和防死锁调度的解释；静态字段及架构评价均非功能或效率验证。 **[其他 AI 逆向 · 分析测试]**
 - [Awesome Reverse-Engineered：让 Agent 先查已有互通实现，再决定是否逆向](../cases/awesome-reverse-engineered-agent-index.md) — 开源互通项目目录供Agent先查现成实现；10月30日新传播补充MCP入口，固定README列17,744项，提供搜索、项目详情与分类工具。目录数量不是可用性验证。 **[未确认使用 REA · 相关项目]**
 - [中国激光软件 EXE：Dan Nunn 用 Codex 持续恢复 Pascal 逻辑](../cases/chinese-laser-exe-codex-pascal.md) — 作者报告已研究12天，目标是将激光软件可执行文件恢复为Pascal；未报告完成，也未给设备兼容或加工验证。 **[其他 AI 逆向 · 进行中]**
 - [GrapheneOS NFC 支付：让 AI 反编译相关实现的读者愿望](../cases/grapheneos-ai-nfc-payments-idea.md) — 读者希望借助AI反编译让GrapheneOS支持所需NFC支付；没有协议、支付提供方或可行性测试。 **[其他 AI 逆向 · 相关项目]**

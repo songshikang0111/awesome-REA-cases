@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Apple Health导出到/death-date：Phosphen的AI数据拆解，不是恢复Apple秘密寿命评分](../cases/phosphen-apple-health-export-death-date-analysis-report.md) — 作者称Fable5.2分析Health导出，并用Claude Code skill把心率／VO2max套生命表；数据数量与死亡年份未经核验，不是医学预测或Apple内部算法恢复。 **[其他 AI 逆向 · 待验证]**
+- [FAA通信故障审计idea：Ariel Garbarz提出Inverse AI研究FTI，未取得技术记录](../cases/garbarz-faa-fti-inverse-ai-failure-audit-idea.md) — Garbarz要求检查FAA／L3Harris FTI更新日志、版本、告警和时间线，并提自动系统逆向与决策重建；只是调查建议，不证明芝加哥起因或AI攻击。 **[未确认使用 REA · 待验证]**
 - [rea-toon：从短剧逐镜研究人物、台词与结构，导出剧本和VIDEO.md的Agent项目](../cases/rea-toon-short-drama-shot-script-analysis-project.md) — JuneYaooo在rea-video上增加短剧人物、说话人、情绪与跨集结构层，文档称可回放逐镜证据并输出研读／剧本／分镜与VIDEO.md；尚未运行，非商业许可。 **[其他 AI 逆向 · 相关项目]**
 - [回测漏掉102个退市币：Meller称Claude Code拆解后交易优势消失](../cases/meller-trading-bot-claude-backtest-delisted-coins-report.md) — Meller称让Claude Code拆解自有交易机器人回测，发现币种列表漏102个退市币；补回后原有优势消失，未给策略、代码或回测指标。 **[其他 AI 逆向 · 待验证]**
 - [Speak的AI搜索曝光：Era AI称89%引用来自非自有网站的黑箱研究](../cases/speak-ai-search-third-party-citation-audit-report.md) — Era AI称研究语言学习应用Speak的AI搜索表现，89%引用来自非自有站点且无外链领先优势；没有查询样本、模型或原始统计，90天复制是营销建议。 **[未确认使用 REA · 待验证]**

@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Split60HE二手键盘连发：Matías称Claude解码flash校准记录后修复](../cases/matias-split60he-claude-flash-calibration-repair-report.md) — Matías称Claude结合开源固件、KiCad和USB传感器数据，找到右半39键全按下的校准值问题；备份重刷v1.11后69键静止均0%，未独立核验。 **[其他 AI 逆向 · 待验证]**
+- [Samsung NV3拍RAW：用Codex修改老数码相机固件的具体想法](../cases/samsung-nv3-codex-raw-firmware-idea.md) — 西班牙语作者提出用Codex（原帖GPT6.1 Sol）修改Samsung NV3固件以拍RAW，未报告提取、补丁或成功照片。 **[其他 AI 逆向 · 待验证]**
+- [绕开libcuda构建NVRM生命周期：文章报告Codex与Anthropic拒答的受阻尝试](../cases/nvrm-c11-libcuda-independent-lifecycle-ai-refusal-report.md) — 作者以C11直接分配NVRM client／device对象为例讨论GPU互通，称Codex和Anthropic安全限制阻止帮助；无代码或拒答日志，不接受其商业动机推断。 **[其他 AI 逆向 · 待验证]**
+- [约50美元合成器刷自定义固件：Soham转述AI逆向SDK，型号未确认](../cases/soham-budget-synth-ai-reversed-sdk-secondary-report.md) — Soham称有人借AI逆向SDK，让低价合成器能刷自定义固件；没有型号、SDK、代码或刷机验证，只保留具体设备改造方向的二手报告。 **[其他 AI 逆向 · 待验证]**
 - [Sony Android TV外接蓝牙音箱：作者称Claude与Gemini研究原厂APK后做出手机App](../cases/sony-android-tv-a2dp-gemini-claude-apk-report.md) — bonfix_fixer称电视具备A2DP却限制外接音箱，经Claude基础集成、Gemini Argon推理与原厂APK研究后做出手机App；多次试验且遭遇拒答，型号与代码未披露。 **[其他 AI 逆向 · 待验证]**
 - [Switch运行iPadOS与AirPods弹窗：Yukwun_Lam的AI逆向移植二手说法](../cases/switch-ipados-airpods-ai-port-secondary-claim.md) — Yukwun_Lam称国内开发者借AI逆向把iPadOS装到Switch并显示AirPods弹窗；有附件记录但未取得原作者、启动链或源码，不认定原生移植成功。 **[其他 AI 逆向 · 待验证]**
 - [Canon相机固件未能进入：Chirag改用Claude微调现有设置](../cases/chirag-canon-camera-claude-firmware-blocked-settings-report.md) — Chirag Mittal先宣布用Claude研究Canon相机，随后说固件完全锁住、未能进入；照片变好是现有设置调优的主观结果，不是固件Mod成果。 **[其他 AI 逆向 · 待验证]**
