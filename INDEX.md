@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2240 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2249 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（445）
-- [硬件与设备互通](categories/hardware.md)（596）
-- [应用与客户端](categories/apps.md)（932）
+- [游戏与游戏保存](categories/games.md)（449）
+- [硬件与设备互通](categories/hardware.md)（597）
+- [应用与客户端](categories/apps.md)（936）
 - [算法与功能重建](categories/algorithms.md)（267）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,10 @@
 
 ### 游戏与游戏保存
 
+- [Donkey Kong Bananza PC：Claude辅助静态重编译，仍有GPU崩溃与后段缺陷](cases/dkb-pc-recomp-claude-switch2-port.md) — DKB Recomp文档披露Claude Code写多数代码与文档，以实机运行和差分测试检查；Switch2 ARM64提前转C、NVN2接Vulkan，跨平台预览与后段稳定性未独立验收。 **[其他 AI 逆向 · 进行中]**
+- [Recompia：AI主导、人类监督的Pokémon Pokopia原生移植，联机与存档仍按项目报告](cases/recompia-pokopia-ai-supervised-native-port.md) — 候选介绍Recompia的AI监督披露；固定README指向Switch2 Pokopia到Windows／Linux，用户自备2.0.1a数据。联机、中继与图像功能有明确限制，未独立运行。 **[其他 AI 逆向 · 进行中]**
+- [Mario Kart World原生PC：Claude写多数代码，AArch64转C但不等于原始源码](cases/mkw-recomp-claude-aarch64-c-port.md) — mkw-recomp作者披露Claude在人类指导下约十天全职参与，结合逐次A/B、原机画面对比与离线着色器检查；Linux／Windows比赛可跑为项目报告，仍无在线联机且有GPU问题。 **[其他 AI 逆向 · 进行中]**
+- [GBA汉化失败：Ryou127称GPT6无法稳定替换无序文件内容](cases/gba-gpt6-localization-failed-unordered-files-report.md) — Ryou127报告让GPT6处理GBA游戏汉化时反复替换出错，花费不少token后停止；游戏、文件格式与失败日志未披露。 **[其他 AI 逆向 · 待验证]**
 - [Xbox版GTA所用FSR：Mike建议Claude加REA检查文件，版本仍未确认](cases/gta-xbox-fsr-version-claude-rea-inspection-idea.md) — 围绕Xbox版GTA采用哪个FSR版本的争论，Mike提出把文件交给Claude／REA；上游称疑似4.1.2但无确认，且此前文件加密，尚无分析结果。 **[REA · 待验证]**
 - [Fallout Van Buren技术演示重建：Kran把六年人工研究交给REA，保留前人反编译贡献](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md) — Kran称REA加人工重建Van Buren技术演示，以六年研究、shenmarukai初始反编译与自有IDA数据库为基础；Adam报告DX9迁移，64位仍是目标。 **[REA · 进行中]**
 - [未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量](cases/normyll-gamecube-ai-decompilation-attempt.md) — Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。 **[其他 AI 逆向 · 进行中]**
@@ -474,6 +478,7 @@
 
 ### 硬件与设备互通
 
+- [智能眼镜到YOLO识别：Opus逆向说法与WhatsApp／OBS转视频方案须分开](cases/smart-glasses-opus-yolo-whatsapp-vision-secondary-guide.md) — 二手帖把智能眼镜物体识别归于Opus5.5，但实际步骤经WhatsApp通话、OBS虚拟摄像头送Mac YOLO并语音回传；无具名眼镜、协议记录或实测。 **[其他 AI 逆向 · 待验证]**
 - [智能拼豆板脱离官方App：Labelray称Claude反编译APK并接入树莓派MCP](cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md) — Labelray不想用拼豆板官方App，称Claude从官方APK找协议，在树莓派上写MCP，让Agent按需点亮位置；未核型号、传输协议或代码。 **[其他 AI 逆向 · 待验证]**
 - [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
 - [Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea](cases/alienware17-r5-64gb-rea-bios-study-idea.md) — 读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。 **[REA · 待验证]**
@@ -522,7 +527,7 @@
 - [UAVHive监控互通：AI搭YOLOX／ONVIF系统并研究商业CCTV API](cases/uavhive-yolox-onvif-commercial-cctv-api.md) — UAVHive称AI构建YOLOX视觉系统配合ONVIF，并逆向商业监控API连接不同系统；厂商、模型、接口及实际互通范围未披露。 **[其他 AI 逆向 · 待验证]**
 - [空调遥控器到IR dongle：Aleksander Data称与Claude一晚完成研究](cases/alexdataa-claude-ac-remote-ir-dongle.md) — Aleksander Data自述借Claude研究空调遥控器并转到红外dongle，称一晚完成；未给型号、码表、代码或实际控制测试。 **[其他 AI 逆向 · 待验证]**
 - [REA Discord里的BMW：morluto回忆用户曾研究自己的车](cases/morluto-discord-bmw-reversing-recollection.md) — REA作者morluto回忆早期Discord成员在逆向自己的BMW；没有车型、模块、工具或成果，不能据社群归属认定已用REA控制汽车。 **[未确认使用 REA · 待验证]**
-- [32年Jeep：SCI诊断、燃油修正公式与过检不等于合规的边界](cases/zulali-32year-jeep-claude-control-report.md) — Muhammad的旧Jeep研究新增fly对SCI、固件换算公式与尾气检测的详细转述；保留诊断不等于自动驾驶，以及检测通过不能证明改写内容或合规的限制，未实车验证。 **[其他 AI 逆向 · 待验证]**
+- [32年Jeep：SCI诊断、燃油修正公式与过检不等于合规的边界](cases/zulali-32year-jeep-claude-control-report.md) — Muhammad的Jeep诊断项目补上xj-scanner固定文档：单车56030117测试、约15美元材料与既有开源贡献。保留燃油修正与尾气转述，过检不等于合规，未实车验证。 **[其他 AI 逆向 · 待验证]**
 - [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
 - [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
 - [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
@@ -1073,6 +1078,10 @@
 
 ### 应用与客户端
 
+- [borland-reborn：Exhume辅助重建Borland C++ 2.0，字节一致不是原始源码唯一恢复](cases/borland-reborn-bcc20-exhume-byte-matching.md) — 项目称1991年BCC.EXE与CPP.EXE重建后字节相同，保留C／手写汇编分工；Exhume提供Claude Code skills，改版另以1836次编译对照，未在本合集重跑。 **[其他 AI 逆向 · 待验证]**
+- [Electron目录静态侦察：丰收称REA给出20节点、26关系，未保证运行](cases/fengshou-rea-electron-20-node-static-inspection.md) — 丰收报告不用Ghidra或登录账号，以REA检查Electron应用目录，得到20节点26关系与零IPC／contextBridge；仅静态结构输出，非运行验证。 **[REA · 分析测试]**
+- [Antigravity原生ACP桥接：用户让Carbon通宵模拟工具调用，仍在调试](cases/carbon-antigravity-acp-tool-call-bridge-attempt.md) — 用户不满Antigravity各入口与反代体验，称让Carbon利用CLI原生ACP模拟工具调用做出一版，正在调试；没有接口逆向完成或稳定可用的证明。 **[其他 AI 逆向 · 进行中]**
+- [REA与gitleaks检查自有产物：73个map、五个假告警的作者自测](cases/rea-gitleaks-own-release-exposure-audit-report.md) — Archive称REA在五个自有构建中的三个找到73个source map，gitleaks检查33个仓库有五个告警但均非真泄漏；建议Claude辅助逐项判断，不是安全认证。 **[REA · 分析测试]**
 - [REA造Agent测试场：WquGuru称Scale AI工程师制作97个训练环境](cases/rea-scale-engineer-97-agent-training-environments-report.md) — WquGuru称一位Scale AI工程师用REA制作97个训练环境、提交68个issue与PR；具体用途是为Agent提供低成本测试场，清单与验收未核。 **[REA · 待验证]**
 - [Olaz原生Zalo客户端：SwiftUI承接官方renderer，Claude署名只证明可见补丁归因](cases/zalo-olaz-swift-official-renderer-interop-project.md) — AI极客新闻介绍Swift原生Zalo；公开Olaz文档实际复用官方app.asar并模拟Electron宿主，而非重写协议。WebSocket修复提交有Claude共同署名，完整AI逆向流程未证。 **[其他 AI 逆向 · 相关项目]**
 - [ARTEX活体检测协议逆向：MadPot二手调查称接近目标仍全部被服务端拒绝](cases/artex-madpot-kyc-liveness-protocol-failed-attempts-report.md) — 转述Amazon诱捕记录：ARTEX研究交易所活体检测的事件流与坐标，最佳记录进入目标7像素以内仍未通过；11.5帧每秒是另一次深伪管线结果，不是验证成功率。 **[其他 AI 逆向 · 待验证]**

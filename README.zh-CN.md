@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2240 个案例与项目
+# 2249 个案例与项目
 
-**最近案例更新：**2026 年 11 月 14 日 16:07 · **最近维护：**2026 年 11 月 14 日 16:07 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 14 日 20:15 · **最近维护：**2026 年 11 月 14 日 20:15 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,18 +22,18 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：探测设备，恢复游戏行为，把主张与项目测试放在一起看。优先看具体用途与可见的证据边界，不靠泛泛的能力承诺。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：控制自己的设备，保存老工具与游戏，也看清测试究竟证明了什么。下列日期为来源或作者更新日期，不是收录日期。
 
-1. **[Ember恒温杯：探测蓝牙，做自己的控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14`作者报告 — Dmitriy称**Codex探测特征并与iOS应用对照**，约一小时做出温度／灯控制。禁止查网是作者要求，不是独立隔离证明；杯量精度与代码未核。`未独立核验`
-2. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙／Wi-Fi协议差异**，做出JPEG导入和Google Photos上传。逐步实机试验，不是无迭代生成；代码与抓包未审。`未独立核验`
-3. **[Anker录音豆：让Agent找回上周的对话](cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12`作者报告 — **REA蓝牙研究与MCP录音检索**，可选千问本地ASR或在线转写。Berryxia计划调整测试后开源；代码与设备链路未核。`进行中`
-4. **[Fallout Van Buren：把六年研究交给REA](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14`作者串 — Kran明确归功于**人工研究、shenmarukai初始反编译与IDA数据库**，不是Agent从零发现。Adam报告DX9迁移，64位仍是目标；研究对象是技术演示，不是完整游戏。本合集未构建。`进行中`
-5. **[Windows95旅鼠：匹配函数，不夸大整包](cases/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12`介绍；`2026-11-09`固定文档 — 人类定架构，REA／Claude／Codex辅助，项目自报**八模块696／696函数匹配**。整EXE／DLL仍有差异，现代可移植构建与原编译器匹配分开；自备游戏资产，本合集未构建。`进行中`
-6. **[decompdecomp：字节匹配，也保留汇编兜底](cases/decompdecomp-local-agent-byte-matching-workbench.md)** · `2026-11-14`介绍；`2026-11-13`固定文档 — **Agent写C／C++，原编译器按字节判定。**独立续接decomp.wtf，文档明确尚无整款游戏完成；导出保留汇编，所选云模型可能收到游戏材料。本合集未运行。`进行中`
-7. **[ZigZag：把SVG送进Brother刺绣机](cases/kath-korevec-brother-chatgpt-embroidery-report.md)** · `2026-11-13`介绍与固定文档 — **Skitch PP1蓝牙上传与MCP辅助设计**，项目报告实机测试。NOTICE把协议归于Respira；早先ChatGPT起源故事仍是二手转述，不是独立发现。未运行。`未独立核验`
-8. **[MousePods：AirPods在Linux当鼠标与头追](cases/airpods3-claude-remotehid-linux-head-mouse-report.md)** · `2026-11-11`报道；`2026-11-10`固定文档 — **Claude辅助RemoteHID研究与自报AirPods 3／Pro 2实机检查。**不刷耳机，但Proton接入会改前缀。MTU／设备身份影响未隔离，本合集未运行。`未独立核验`
-9. **[智能拼豆板：从APK到树莓派控制端](cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md)** · `2026-11-14`作者报告与澄清 — Labelray称**Claude反编译官方APK找协议**，再写MCP工具按需点亮位置，不用原App。板子型号、连接方式与代码未披露，本合集未实机测试。`未独立核验`
-10. **[TimeSplitters 2：把PS2行为追进PC版](cases/destinity-timesplitters2-claude-native-pc-recompile.md)** · `2026-11-10`作者报告；`2026-11-09`固定文档 — **Claude辅助MIPS到C++，以PCSX2画面／状态对照**，自报Linux／Steam Deck首关通关。仍用PCSX2图形／音频，后续关卡与互联网联机待测；自备光盘，本合集未构建。`进行中`
+1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
+2. **[Ember恒温杯：探测蓝牙，做自己的控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14`作者报告 — Dmitriy称**Codex探测特征并与iOS应用对照**，约一小时做出温度／灯控制。禁止查网是作者要求；杯量精度与代码未核。`未独立核验`
+3. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙／Wi-Fi差异**，做出JPEG导入和Google Photos上传。逐步实机试验，不是无迭代生成；代码与抓包未审。`未独立核验`
+4. **[Anker录音豆：让Agent找回上周的对话](cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12`作者报告 — **REA蓝牙研究与MCP录音检索**，可选千问本地ASR或在线转写。计划调整测试后开源；代码与设备链路未核。`进行中`
+5. **[Fallout Van Buren：把六年研究交给REA](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14`作者串 — Kran归功于**人工研究、shenmarukai反编译与IDA数据库**，不是Agent从零发现。已报告DX9迁移，64位仍是技术演示的目标，不是完整游戏。本合集未构建。`进行中`
+6. **[Windows95旅鼠：匹配函数，不夸大整包](cases/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12`介绍；`2026-11-09`固定文档 — 人类定架构，REA／Claude／Codex辅助，自报**八模块696／696函数匹配**。整EXE／DLL仍有差异，现代构建与原编译器匹配分开；自备资产，本合集未构建。`进行中`
+7. **[Mario Kart World：转译代码，也逐项测改动](cases/mkw-recomp-claude-aarch64-c-port.md)** · `2026-11-14`介绍与固定文档 — **Claude辅助AArch64转C、同次运行A/B与原机图对照**，项目报告PC比赛可跑。不是原始源码恢复；菜单、AMD挂起与无在线联机仍有限制。自备游戏，本合集未构建。`进行中`
+8. **[Donkey Kong Bananza：把Switch2游戏带到PC](cases/dkb-pc-recomp-claude-switch2-port.md)** · `2026-11-14`介绍；`2026-11-13`固定文档 — **Claude Code工作以游戏运行和Unicorn对照检查**，建立于TotK Recomp及社区着色器研究。GPU崩溃、后段缺陷仍在，Linux／macOS为预览。自备游戏，本合集未构建。`进行中`
+9. **[decompdecomp：字节匹配，也保留汇编兜底](cases/decompdecomp-local-agent-byte-matching-workbench.md)** · `2026-11-14`介绍；`2026-11-13`固定文档 — **Agent写C／C++，原编译器按字节判定。**尚无整款游戏完成的报告；导出保留汇编，云模型可能收到游戏材料。本合集未运行。`进行中`
+10. **[智能拼豆板：从APK到树莓派控制端](cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md)** · `2026-11-14`作者报告与澄清 — Labelray称**Claude反编译官方APK找协议**，再写MCP工具按需点亮位置，不用原App。型号、连接方式与代码未披露，本合集未实机测试。`未独立核验`
 
 ## 经典案例
 
@@ -49,9 +49,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **445** |
-| [硬件与设备互通](categories/hardware.md) | **596** |
-| [应用与客户端](categories/apps.md) | **932** |
+| [游戏与游戏保存](categories/games.md) | **449** |
+| [硬件与设备互通](categories/hardware.md) | **597** |
+| [应用与客户端](categories/apps.md) | **936** |
 | [算法与功能重建](categories/algorithms.md) | **267** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

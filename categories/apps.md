@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [borland-reborn：Exhume辅助重建Borland C++ 2.0，字节一致不是原始源码唯一恢复](../cases/borland-reborn-bcc20-exhume-byte-matching.md) — 项目称1991年BCC.EXE与CPP.EXE重建后字节相同，保留C／手写汇编分工；Exhume提供Claude Code skills，改版另以1836次编译对照，未在本合集重跑。 **[其他 AI 逆向 · 待验证]**
+- [Electron目录静态侦察：丰收称REA给出20节点、26关系，未保证运行](../cases/fengshou-rea-electron-20-node-static-inspection.md) — 丰收报告不用Ghidra或登录账号，以REA检查Electron应用目录，得到20节点26关系与零IPC／contextBridge；仅静态结构输出，非运行验证。 **[REA · 分析测试]**
+- [Antigravity原生ACP桥接：用户让Carbon通宵模拟工具调用，仍在调试](../cases/carbon-antigravity-acp-tool-call-bridge-attempt.md) — 用户不满Antigravity各入口与反代体验，称让Carbon利用CLI原生ACP模拟工具调用做出一版，正在调试；没有接口逆向完成或稳定可用的证明。 **[其他 AI 逆向 · 进行中]**
+- [REA与gitleaks检查自有产物：73个map、五个假告警的作者自测](../cases/rea-gitleaks-own-release-exposure-audit-report.md) — Archive称REA在五个自有构建中的三个找到73个source map，gitleaks检查33个仓库有五个告警但均非真泄漏；建议Claude辅助逐项判断，不是安全认证。 **[REA · 分析测试]**
 - [REA造Agent测试场：WquGuru称Scale AI工程师制作97个训练环境](../cases/rea-scale-engineer-97-agent-training-environments-report.md) — WquGuru称一位Scale AI工程师用REA制作97个训练环境、提交68个issue与PR；具体用途是为Agent提供低成本测试场，清单与验收未核。 **[REA · 待验证]**
 - [Olaz原生Zalo客户端：SwiftUI承接官方renderer，Claude署名只证明可见补丁归因](../cases/zalo-olaz-swift-official-renderer-interop-project.md) — AI极客新闻介绍Swift原生Zalo；公开Olaz文档实际复用官方app.asar并模拟Electron宿主，而非重写协议。WebSocket修复提交有Claude共同署名，完整AI逆向流程未证。 **[其他 AI 逆向 · 相关项目]**
 - [ARTEX活体检测协议逆向：MadPot二手调查称接近目标仍全部被服务端拒绝](../cases/artex-madpot-kyc-liveness-protocol-failed-attempts-report.md) — 转述Amazon诱捕记录：ARTEX研究交易所活体检测的事件流与坐标，最佳记录进入目标7像素以内仍未通过；11.5帧每秒是另一次深伪管线结果，不是验证成功率。 **[其他 AI 逆向 · 待验证]**

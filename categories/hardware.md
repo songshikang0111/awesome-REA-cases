@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [智能眼镜到YOLO识别：Opus逆向说法与WhatsApp／OBS转视频方案须分开](../cases/smart-glasses-opus-yolo-whatsapp-vision-secondary-guide.md) — 二手帖把智能眼镜物体识别归于Opus5.5，但实际步骤经WhatsApp通话、OBS虚拟摄像头送Mac YOLO并语音回传；无具名眼镜、协议记录或实测。 **[其他 AI 逆向 · 待验证]**
 - [智能拼豆板脱离官方App：Labelray称Claude反编译APK并接入树莓派MCP](../cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md) — Labelray不想用拼豆板官方App，称Claude从官方APK找协议，在树莓派上写MCP，让Agent按需点亮位置；未核型号、传输协议或代码。 **[其他 AI 逆向 · 待验证]**
 - [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](../cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
 - [Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea](../cases/alienware17-r5-64gb-rea-bios-study-idea.md) — 读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。 **[REA · 待验证]**
@@ -50,7 +51,7 @@
 - [UAVHive监控互通：AI搭YOLOX／ONVIF系统并研究商业CCTV API](../cases/uavhive-yolox-onvif-commercial-cctv-api.md) — UAVHive称AI构建YOLOX视觉系统配合ONVIF，并逆向商业监控API连接不同系统；厂商、模型、接口及实际互通范围未披露。 **[其他 AI 逆向 · 待验证]**
 - [空调遥控器到IR dongle：Aleksander Data称与Claude一晚完成研究](../cases/alexdataa-claude-ac-remote-ir-dongle.md) — Aleksander Data自述借Claude研究空调遥控器并转到红外dongle，称一晚完成；未给型号、码表、代码或实际控制测试。 **[其他 AI 逆向 · 待验证]**
 - [REA Discord里的BMW：morluto回忆用户曾研究自己的车](../cases/morluto-discord-bmw-reversing-recollection.md) — REA作者morluto回忆早期Discord成员在逆向自己的BMW；没有车型、模块、工具或成果，不能据社群归属认定已用REA控制汽车。 **[未确认使用 REA · 待验证]**
-- [32年Jeep：SCI诊断、燃油修正公式与过检不等于合规的边界](../cases/zulali-32year-jeep-claude-control-report.md) — Muhammad的旧Jeep研究新增fly对SCI、固件换算公式与尾气检测的详细转述；保留诊断不等于自动驾驶，以及检测通过不能证明改写内容或合规的限制，未实车验证。 **[其他 AI 逆向 · 待验证]**
+- [32年Jeep：SCI诊断、燃油修正公式与过检不等于合规的边界](../cases/zulali-32year-jeep-claude-control-report.md) — Muhammad的Jeep诊断项目补上xj-scanner固定文档：单车56030117测试、约15美元材料与既有开源贡献。保留燃油修正与尾气转述，过检不等于合规，未实车验证。 **[其他 AI 逆向 · 待验证]**
 - [Pico 4面眼追踪：Croiyaki希望拿设备用AI研究的idea](../cases/pico4-face-eye-tracking-ai-reversing-wish.md) — Croiyaki希望拥有带面部与眼动追踪的Pico 4，并提到AI逆向机会；还只是设备研究意向，没有协议、驱动或实现。 **[其他 AI 逆向 · 进行中]**
 - [自有PCB固件调试：Thane Hunt称Claude追查传感器库与DRDY遗漏](../cases/thanehunt-claude-custom-pcb-sensor-library-debug.md) — 作者称向Claude提供原理图后完成板卡bring-up和蓝牙OTA，发现两家芯片厂商库缺陷及间歇DRDY问题；未给板名、库版本或测试日志。 **[其他 AI 逆向 · 相关项目]**
 - [Prusa Buddy固件：报道一周Claude Opus辅助测试发现23缺陷与Rickroll演示](../cases/prusa-buddy-claude-opus-firmware-defects.md) — Tom's Hardware称工程师以Claude Opus研究Prusa Buddy固件，一周报告23缺陷并通过远程代码执行让打印机播放Rickroll；未核对原始漏洞记录。 **[其他 AI 逆向 · 待验证]**
