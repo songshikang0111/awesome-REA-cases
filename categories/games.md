@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Fallout Van Buren技术演示重建：Kran把六年人工研究交给REA，保留前人反编译贡献](../cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md) — Kran称REA加人工重建Van Buren技术演示，以六年研究、shenmarukai初始反编译与自有IDA数据库为基础；Adam报告DX9迁移，64位仍是目标。 **[REA · 进行中]**
 - [未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量](../cases/normyll-gamecube-ai-decompilation-attempt.md) — Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。 **[其他 AI 逆向 · 进行中]**
 - [Empire Earth 2现代引擎：John-Daniel Trask称Claude与Ghidra已研究数周](../cases/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask称用Claude／Ghidra反汇编Empire Earth 2，想保留机制、复用游戏资产并改善现代PC体验；数周是研究时长，不是已完成引擎。 **[其他 AI 逆向 · 进行中]**
 - [GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音](../cases/gta6-pc-claude-rea-dubbing-mod-idea.md) — 土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。 **[REA · 待验证]**

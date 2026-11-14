@@ -10,15 +10,15 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2232 entries**, organized by use case, without a Top-N or popularity threshold.
+**2236 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (443)
-- [Hardware and interoperability](categories/en/hardware.md) (595)
-- [Applications and clients](categories/en/apps.md) (928)
+- [Games and preservation](categories/en/games.md) (444)
+- [Hardware and interoperability](categories/en/hardware.md) (596)
+- [Applications and clients](categories/en/apps.md) (930)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (266)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Fallout Van Buren tech-demo reconstruction: Kran gives REA six years of human research and credits earlier decompilation](cases/en/fallout-van-buren-kran-rea-human-guided-reconstruction.md) — Kran describes REA plus manual work, based on six years of research, shenmarukai's initial decompilation and a personal IDA database. Adam reports a DX9 migration; a 64-bit build is still a goal. **[REA · In progress]**
 - [An unnamed GameCube game: Normyll starts AI decompilation and watches for human intervention](cases/en/normyll-gamecube-ai-decompilation-attempt.md) — Normyll says AI is decompiling a GameCube game and wonders how much human intervention it will need. No game title, toolchain, code or completion figure is supplied. **[Other AI-assisted work · In progress]**
 - [A modern Empire Earth 2 engine: John-Daniel Trask reports weeks of Claude/Ghidra investigation](cases/en/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask says Claude/Ghidra is disassembling Empire Earth 2 to reuse its assets and preserve mechanics on modern PCs. Weeks describes investigation duration, not a completed engine. **[Other AI-assisted work · In progress]**
 - [A GTA6 dubbing-mod wish: using Claude and REA to integrate voice tracks once a PC version exists](cases/en/gta6-pc-claude-rea-dubbing-mod-idea.md) — A Turkish reply in a GTA6 discussion proposes Claude/REA voice-track integration for PC. No language, audio, format study or implementation is supplied; this is not a PC-port achievement. **[REA · Needs verification]**
@@ -474,10 +475,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [A smart bead board without its official app: Labelray reports Claude APK analysis and a Raspberry Pi MCP controller](cases/en/smart-bead-board-claude-raspberry-pi-mcp-control-report.md) — Avoiding the bead board's official app, Labelray says Claude found the protocol in its APK and wrote a Raspberry Pi MCP tool to light selected positions. Model, transport and code are unchecked. **[Other AI-assisted work · Needs verification]**
 - [Linux on an Apple laptop: Joshua reports an LLM adjusting brightness with human brighter-or-dimmer feedback](cases/en/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren says a remote agent adjusts firmware brightness settings on a wired Apple laptop and asks for visual feedback to support Linux. No model, code or completed driver is provided. **[Other AI-assisted work · In progress]**
 - [Alienware 17 R5 and 64GB RAM: a reader asks about researching the BIOS with REA](cases/en/alienware17-r5-64gb-rea-bios-study-idea.md) — After learning an Alienware 17 R5 may accept 64GB RAM, a reader asks whether REA could reverse-engineer its BIOS. No specific limitation, firmware revision or modification is established. **[REA · Needs verification]**
 - [Ember mug: Dmitriy reports Codex Bluetooth probing and a control app in about an hour](cases/en/dmitriy-ember-mug-codex-bluetooth-probing-report.md) — The author says Codex probed Bluetooth characteristics against a remotely controlled iOS app, producing temperature, light and coffee-level controls. Time and functionality are self-reported; code and measurement accuracy were not checked. **[Other AI-assisted work · Needs verification]**
-- [Coway purifier off-cloud: a secondary account of HTTP root certificates and AI-assisted Bluetooth setup](cases/en/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — An account describes Raspberry Pi isolation, mitmproxy and a substituted root certificate for local MQTT, then AI reconstruction of Bluetooth protobuf setup for Home Assistant. Device, code and the 20-minute timing are unchecked. **[Other AI-assisted work · Needs verification]**
+- [Coway Airmega IconS off-cloud: secondary accounts of HTTP root certificates, AI Bluetooth research and a Web Bluetooth installer](cases/en/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — Accounts describe substituting an HTTP-downloaded root certificate for local MQTT and AI research into Bluetooth protobuf setup. A new post names Airmega IconS and a Chrome Web Bluetooth installer; code and the 20-minute timing remain unchecked. **[Other AI-assisted work · Needs verification]**
 - [Let the fridge just cool: a reader proposes stripping unnecessary smart behavior with REA](cases/en/rea-smart-fridge-basic-cooling-only-idea.md) — A Portuguese reply proposes using REA to simplify smart hardware, using a refrigerator that only cools as the example. No model, firmware, procedure or result is given. **[REA · Needs verification]**
 - [Inaudible TV-to-phone communication: Stim-P proposes disabling it with REA](cases/en/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Replying to a claim about inaudible TV-to-phone communication, Stim-P suggests REA and an agent to disable it. No device, frequency or code is given, and the alleged mechanism is not established. **[REA · Needs verification]**
 - [Pixel 9 bigwave video decoder: an author says Claude continues after an ownership explanation](cases/en/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243 reports starting Claude-assisted research on Pixel 9's bigwave dedicated video decoder. Claude reportedly accepted the ownership explanation and Mali-community analogy; no driver or decoding result is reported. **[Other AI-assisted work · In progress]**
@@ -1072,6 +1074,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [ARTEX liveness-protocol reversing: a secondary MadPot account reports near-target attempts still rejected by the server](cases/en/artex-madpot-kyc-liveness-protocol-failed-attempts-report.md) — An Amazon decoy-record account describes ARTEX studying exchange liveness events and coordinates. The best recorded attempt was within 7 pixels yet failed; 11.5 fps describes a separate deepfake pipeline, not successful verification. **[Other AI-assisted work · Needs verification]**
+- [iOS 4 engineering build 8A218: a secondary account of ChatGPT-assisted QEMU booting a grid multitasking prototype](cases/en/ios4-8a218-qemu-chatgpt-prototype-report.md) — Chenfu relays Steve Troughton-Smith using ChatGPT to write/debug QEMU code and show grid multitasking in iPhone 4 engineering build 8A218. Patches, drivers and runtime records were not obtained. **[Other AI-assisted work · Needs verification]**
 - [VisionPro and a RiscV Linux environment: Simon says an agent is reversing its own code](cases/en/simon-gillespie-visionpro-riscv-agent-self-code-study.md) — Simon Gillespie reports an agent investigating its own code in a VisionPro/RiscV Linux environment. The agent, environment architecture and outputs are not disclosed. **[Other AI-assisted work · In progress]**
 - [A tiny JavaScript app written for testing: TXC limits the claim to REA static analysis](cases/en/txc-rea-tiny-javascript-static-analysis-test.md) — TXC reports testing REA static analysis on a small self-written JavaScript app, with both findings and misses. The post lists neither, and other samples' results cannot be borrowed. **[REA · Analysis test]**
 - [Desktop control without manual clicks: Nathan reports a Claude/Ghidra/Frida harness](cases/en/nathan-broadbent-claude-ghidra-frida-desktop-harness.md) — Nathan Broadbent says Claude studied a desktop app with Ghidra and Frida and built a control harness requiring no manual clicks or typing. The app is unnamed; code and coverage were not reviewed. **[Other AI-assisted work · Needs verification]**

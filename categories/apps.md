@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [ARTEX活体检测协议逆向：MadPot二手调查称接近目标仍全部被服务端拒绝](../cases/artex-madpot-kyc-liveness-protocol-failed-attempts-report.md) — 转述Amazon诱捕记录：ARTEX研究交易所活体检测的事件流与坐标，最佳记录进入目标7像素以内仍未通过；11.5帧每秒是另一次深伪管线结果，不是验证成功率。 **[其他 AI 逆向 · 待验证]**
+- [iOS 4工程版8A218：二手报告称ChatGPT辅助QEMU启动九宫格多任务原型](../cases/ios4-8a218-qemu-chatgpt-prototype-report.md) — 沉浮转述Steve Troughton-Smith用ChatGPT辅助编写调试QEMU，让iPhone 4工程版8A218展示九宫格多任务；未取得补丁、驱动或运行记录。 **[其他 AI 逆向 · 待验证]**
 - [VisionPro与RiscV Linux环境：Simon称Agent正在逆向自身代码](../cases/simon-gillespie-visionpro-riscv-agent-self-code-study.md) — Simon Gillespie称在VisionPro的RiscV Linux环境中用Agent逆向代码，目标为Agent自身；未披露Agent名称、环境架构或产物。 **[其他 AI 逆向 · 进行中]**
 - [自写微型JavaScript应用：TXC称只测试REA静态分析，不替全部能力背书](../cases/txc-rea-tiny-javascript-static-analysis-test.md) — TXC报告在自写小型JavaScript应用上测试REA静态分析，称有命中也有漏项；正文未列具体发现，不能借用其他样本的成绩。 **[REA · 分析测试]**
 - [桌面应用免手点控制：Nathan称Claude用Ghidra／Frida研究并搭起harness](../cases/nathan-broadbent-claude-ghidra-frida-desktop-harness.md) — Nathan Broadbent称Claude借Ghidra与Frida研究一款桌面应用，建立无需自己点击或键入的控制harness；应用未具名，未审代码或覆盖范围。 **[其他 AI 逆向 · 待验证]**

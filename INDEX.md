@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2232 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2236 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（443）
-- [硬件与设备互通](categories/hardware.md)（595）
-- [应用与客户端](categories/apps.md)（928）
+- [游戏与游戏保存](categories/games.md)（444）
+- [硬件与设备互通](categories/hardware.md)（596）
+- [应用与客户端](categories/apps.md)（930）
 - [算法与功能重建](categories/algorithms.md)（266）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Fallout Van Buren技术演示重建：Kran把六年人工研究交给REA，保留前人反编译贡献](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md) — Kran称REA加人工重建Van Buren技术演示，以六年研究、shenmarukai初始反编译与自有IDA数据库为基础；Adam报告DX9迁移，64位仍是目标。 **[REA · 进行中]**
 - [未具名GameCube游戏：Normyll开始AI反编译，观察人工介入量](cases/normyll-gamecube-ai-decompilation-attempt.md) — Normyll称正让AI反编译一款GameCube游戏，想知道还需多少人工介入；没有游戏名、工具链、代码或完成度。 **[其他 AI 逆向 · 进行中]**
 - [Empire Earth 2现代引擎：John-Daniel Trask称Claude与Ghidra已研究数周](cases/john-daniel-trask-empire-earth2-claude-engine-attempt.md) — John-Daniel Trask称用Claude／Ghidra反汇编Empire Earth 2，想保留机制、复用游戏资产并改善现代PC体验；数周是研究时长，不是已完成引擎。 **[其他 AI 逆向 · 进行中]**
 - [GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音](cases/gta6-pc-claude-rea-dubbing-mod-idea.md) — 土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。 **[REA · 待验证]**
@@ -472,10 +473,11 @@
 
 ### 硬件与设备互通
 
+- [智能拼豆板脱离官方App：Labelray称Claude反编译APK并接入树莓派MCP](cases/smart-bead-board-claude-raspberry-pi-mcp-control-report.md) — Labelray不想用拼豆板官方App，称Claude从官方APK找协议，在树莓派上写MCP，让Agent按需点亮位置；未核型号、传输协议或代码。 **[其他 AI 逆向 · 待验证]**
 - [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
 - [Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea](cases/alienware17-r5-64gb-rea-bios-study-idea.md) — 读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。 **[REA · 待验证]**
 - [Ember恒温杯：Dmitriy称Codex探测蓝牙并在约一小时内做出控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md) — 作者称Codex探测杯子的蓝牙特征、对照远控iOS应用，做出温度、灯和杯量显示；工时与功能为自述，未核代码或量测精度。 **[其他 AI 逆向 · 待验证]**
-- [Coway空气净化器脱云：HTTP根证书与AI辅助蓝牙配网的二手报告](cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称用树莓派隔离、mitmproxy和替换根证书接入本地MQTT，再由AI拼合蓝牙protobuf配网协议，接Home Assistant；未核设备、代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
+- [Coway Airmega IconS脱云：HTTP根证书、AI蓝牙研究与Web Bluetooth安装器的二手报告](cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称替换HTTP下载的根证书接本地MQTT，AI研究蓝牙protobuf配网；新帖点名Airmega IconS及Chrome Web Bluetooth安装器，仍未核代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
 - [让冰箱只制冷：读者提出用REA去除多余智能行为的idea](cases/rea-smart-fridge-basic-cooling-only-idea.md) — 葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。 **[REA · 待验证]**
 - [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
 - [Pixel9的bigwave视频解码器：作者称Claude接受设备归属说明后继续逆向](cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243称开始让Claude研究Pixel9的bigwave专用视频解码器；说明设备合法购入并援引Mali社区逆向后，Claude同意继续，未报告驱动或解码成果。 **[其他 AI 逆向 · 进行中]**
@@ -1070,6 +1072,8 @@
 
 ### 应用与客户端
 
+- [ARTEX活体检测协议逆向：MadPot二手调查称接近目标仍全部被服务端拒绝](cases/artex-madpot-kyc-liveness-protocol-failed-attempts-report.md) — 转述Amazon诱捕记录：ARTEX研究交易所活体检测的事件流与坐标，最佳记录进入目标7像素以内仍未通过；11.5帧每秒是另一次深伪管线结果，不是验证成功率。 **[其他 AI 逆向 · 待验证]**
+- [iOS 4工程版8A218：二手报告称ChatGPT辅助QEMU启动九宫格多任务原型](cases/ios4-8a218-qemu-chatgpt-prototype-report.md) — 沉浮转述Steve Troughton-Smith用ChatGPT辅助编写调试QEMU，让iPhone 4工程版8A218展示九宫格多任务；未取得补丁、驱动或运行记录。 **[其他 AI 逆向 · 待验证]**
 - [VisionPro与RiscV Linux环境：Simon称Agent正在逆向自身代码](cases/simon-gillespie-visionpro-riscv-agent-self-code-study.md) — Simon Gillespie称在VisionPro的RiscV Linux环境中用Agent逆向代码，目标为Agent自身；未披露Agent名称、环境架构或产物。 **[其他 AI 逆向 · 进行中]**
 - [自写微型JavaScript应用：TXC称只测试REA静态分析，不替全部能力背书](cases/txc-rea-tiny-javascript-static-analysis-test.md) — TXC报告在自写小型JavaScript应用上测试REA静态分析，称有命中也有漏项；正文未列具体发现，不能借用其他样本的成绩。 **[REA · 分析测试]**
 - [桌面应用免手点控制：Nathan称Claude用Ghidra／Frida研究并搭起harness](cases/nathan-broadbent-claude-ghidra-frida-desktop-harness.md) — Nathan Broadbent称Claude借Ghidra与Frida研究一款桌面应用，建立无需自己点击或键入的控制harness；应用未具名，未审代码或覆盖范围。 **[其他 AI 逆向 · 待验证]**
