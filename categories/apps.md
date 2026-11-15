@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [WebsiteBench：从浏览器探索重建全栈网站，以隐藏功能测试和视觉对照检验](../cases/websitebench-browser-only-fullstack-reconstruction-benchmark.md) — Johnnysama介绍浏览器黑箱网站重建评测；固定README确认70站、46916隐藏测试，功能通过且各视觉点SSIM达0.99才计通过。模型分数与成本仍为二手未核值。 **[其他 AI 逆向 · 分析测试]**
+- [端到端加密遇上推送通知：Kiro转述REA算法、密钥路径与明文旁路审计idea](../cases/rea-e2ee-push-notification-key-path-audit-idea.md) — Kiro介绍用REA检查聊天应用的加密算法、密钥来源、推送／链接预览与服务器AI处理；没有具名被测应用、执行轨迹或确认泄露，不把提示词当审计结果。 **[REA · 待验证]**
+- [CyberGate：Staream介绍用于本地二进制审计误拒问题的vLLM插件](../cases/cybergate-vllm-binary-audit-refusal-plugin-project.md) — Staream称CyberGate不改模型权重，面向本地LLM网络安全研究中的误拒；补读作者串确认名称，但未可靠对应源码，未验证审计质量或选择性安全边界。 **[其他 AI 逆向 · 相关项目]**
 - [UnvibeCode：从代码库重建业务流程与风险，混合许可且AI分析可能外发代码](../cases/unvibecode-source-business-workflow-analysis-project.md) — Micha(el) Bladowski介绍源码流程图、代码关系与有证据的风险分析；补读项目README确认Python3.11+，但官方包不全是Apache，免自备API key不等于离线。 **[其他 AI 逆向 · 相关项目]**
 - [家具厂Delphi转.NET：GA Red Clay称Claude Code重建业务系统，切换仍是计划](../cases/ga-red-clay-furniture-delphi-dotnet-claude-migration.md) — 作者正从旧代码恢复零售、制造、会计、采购与库存流程，预计约一个月换系统，称AI费用约400美元；未提供迁移代码、验收或上线证明。 **[其他 AI 逆向 · 进行中]**
 - [Kampala：将Web／桌面应用研究成可编程API的二手项目介绍](../cases/kampala-web-desktop-app-programmable-api-secondary-project.md) — Prasenjit Sarkar在REA评论中介绍Kampala的商业方向：把应用逆向成API；没有指定应用、接口或代码，不验证YC／融资归属或任意应用可转换。 **[未确认使用 REA · 待验证]**

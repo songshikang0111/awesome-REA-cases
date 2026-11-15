@@ -1,5 +1,133 @@
 [
   {
+    "id": "personal-thermostat-api-mcp-claude-project",
+    "title": "Mike Lembo的家庭恒温器：研究API，用MCP替代原厂界面的进行中项目",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Mike在Claude家庭项目清单中列出逆向恒温器API、改用MCP控制的工作；未给品牌、协议或成功控制记录，不把Home Assistant管理成果挪给恒温器。",
+    "description": "2026年11月15日04:45:54（北京时间），Mike Lembo（@mike_lembo）介绍只为自己和家人做的AI项目。他最喜欢的是让Claude维护Home Assistant集成健康、按常见用途整理界面，以减少家庭自动化的管理负担；另明确列出正在逆向自有恒温器API，想通过MCP控制而不用原厂界面。补取原帖确认作者身份，没有新增候选。\n\n具体逆向目标是恒温器接口，Home Assistant管理只是背景，帖子未证明两者已接通。Claude是该家庭项目组合中明确提到的工具，但没有给恒温器子项目的模型轨迹；REA未提及。日历Agent和棋类教程也在清单中，并不是此案例的逆向成果。\n\n没有品牌、型号、接口端点、鉴权方式、抓包、代码或成功调温记录。按作者进行中研究记录，不推断本地控制、云端独立、协议恢复完成或可用于其他家庭。原文以列表符号结束，但已提供足够明确的目标和目的，无需因结尾本身搁置。未连接设备、调用API或独立验证。",
+    "sources": [{"label": "Mike Lembo的Claude家庭项目与恒温器API／MCP计划，2026-11-15 04:45:54北京时间", "url": "https://x.com/i/status/2121706207887102010"}],
+    "snapshot_date": "2026-11-15", "metadata": ["封存候选4赞、78浏览、0转发、4回复；未报告工时或已完成的恒温器控制。"],
+    "en": {
+      "title": "Mike Lembo's home thermostat: an ongoing API investigation to replace the vendor interface with MCP control",
+      "summary": "Mike lists reversing his thermostat API for MCP control among his Claude-assisted family projects. No brand, protocol or successful control trace is supplied; Home Assistant administration is not transferred to the thermostat as a result.",
+      "description": "At 04:45:54 Beijing time on November 15, 2026, Mike Lembo (@mike_lembo) describes AI projects built just for himself and his family. His favorite uses Claude to maintain Home Assistant integrations and arrange the interface around common uses, reducing household administration. Separately, he explicitly lists reverse-engineering his thermostat's API so he can control it through MCP instead of the vendor interface. Retrieval confirms identity, without adding a candidate.\n\nThe reversing target is the thermostat interface. Home Assistant administration is background, not evidence that the thermostat has been integrated. Claude is explicitly named for the family-project portfolio, but no thermostat-specific model trace is supplied; REA is unmentioned. A local-events calendar agent and chess tutor also appear in the list but are not reversing results in this case.\n\nNo brand, model, endpoints, authentication method, captures, code or successful temperature-control record is supplied. Retained as the author's ongoing investigation, without inferring local control, cloud independence, completed protocol recovery or applicability to other homes. The source ends with a list marker, but still provides a usable target and purpose; that ending alone is not grounds to defer. No device was connected, API called or result independently verified here.",
+      "metadata": ["Sealed candidate: 4 likes, 78 views, 0 reposts, 4 replies. No working duration or completed thermostat control is reported."],
+      "source_labels": ["Mike Lembo's Claude family projects and thermostat API/MCP plan, November 15, 2026 at 04:45:54 Beijing time"]
+    }
+  },
+  {
+    "id": "marcus-eisele-opus-old-printer-scan-to-pc-report",
+    "title": "老激光打印机的Scan to PC：Marcus Eisele称Opus研究15年前ZIP以继续使用设备",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Marcus称Opus为Omarchy安装驱动，并在启动Windows后从15年前ZIP研究Scan to PC按键；未给型号、协议或扫描输出，不能认定已完成Linux按键互通。",
+    "description": "2026年11月15日05:12:39（北京时间），Marcus Eisele（@eiselems）称家中一台老激光打印机借助AI仍在使用。他不想自己在Omarchy安装合适驱动，交给Opus处理；为获得Scan to PC按键功能，又启动Windows，让Opus从一个15年前的ZIP研究它。补读原串确认署名，回复只有另一位用户的路由器维修感想，没有补出打印机型号或技术验证。\n\nScan to PC是从设备端发起扫描至电脑的功能，与能从电脑打印不是同一结果。帖子把驱动安装说成已完成，把按键研究描述为逆向，但未给ZIP内容、驱动版本、USB或网络协议、补丁、服务实现或扫描文件；不能从中推出Opus已恢复源码、已让该按键在Omarchy工作或可支持其他打印机。\n\n记录的是作者为继续使用旧设备所做的具体AI辅助研究，而非只讨论AI修理可能性。Opus具体版本未知，REA未提及。设备品牌未给出，不与既有Brother扫描按键项目合并。未下载旧驱动、运行目标或实机复现，保持unverified。",
+    "sources": [{"label": "Marcus Eisele的Opus／老打印机驱动和Scan to PC研究，2026-11-15 05:12:39北京时间", "url": "https://x.com/i/status/2121712942143943028"}],
+    "snapshot_date": "2026-11-15", "metadata": ["封存候选2赞、107浏览、1转发、1回复；15年指参考ZIP的年龄，不是研究工时。"],
+    "en": {
+      "title": "Scan to PC on an old laser printer: Marcus Eisele reports Opus studying a fifteen-year-old ZIP to keep hardware useful",
+      "summary": "Marcus says Opus installed a driver on Omarchy and investigated the Scan to PC button from an old ZIP after booting Windows. No model, protocol or scan output is supplied; completed Linux button interoperability is not established.",
+      "description": "At 05:12:39 Beijing time on November 15, 2026, Marcus Eisele (@eiselems) says an old home laser printer remains useful thanks to AI. He delegated installing a proper Omarchy driver to Opus. Wanting the Scan to PC button, he then booted Windows and had Opus reverse-engineer it from a fifteen-year-old ZIP. Supplementary thread reading confirms attribution; its reply is another user's router-repair anecdote, not printer identification or technical validation.\n\nScan to PC initiates scanning from the device to a computer, a different outcome from printing from the computer. The post presents driver installation as completed and describes the button investigation as reversing, but supplies no ZIP contents, driver revision, USB/network protocol, patch, service implementation or scan file. It does not establish source recovery, a working button on Omarchy or support for other printers.\n\nThis records a concrete AI-assisted investigation to keep old hardware useful, not merely a suggestion that AI might repair devices. The Opus version is unspecified and REA is unmentioned. No printer brand is supplied, so this is not merged with the existing Brother scan-button project. No legacy driver was downloaded, target run or hardware result reproduced here. Status remains unverified.",
+      "metadata": ["Sealed candidate: 2 likes, 107 views, 1 repost, 1 reply. Fifteen years describes the reference ZIP's age, not working time."],
+      "source_labels": ["Marcus Eisele's Opus/old-printer driver and Scan to PC investigation, November 15, 2026 at 05:12:39 Beijing time"]
+    }
+  },
+  {
+    "id": "chatgpt-blackbox-tokenizer-rediscovery-idea",
+    "title": "如果分词文档消失：ChatGPT辅助设计黑箱探测token边界的idea",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "作者贴出ChatGPT的方案：微扰输入、观察usage计数与logprobs，推断词片边界和候选切分；没有指定模型、采样记录或恢复出的词表。",
+    "description": "2026年11月15日05:22:06（北京时间），一位作者贴出ChatGPT对一个假设问题的长答：如果没人告诉你token是什么，能否只从模型行为发现内部离散文本单位？这是AI辅助设计的黑箱研究方案，不是已经恢复某商用模型tokenizer的报告。\n\n方案先比较cat／cats、空格与标点等微小变化，再看API的usage计数、成本与上下文长度；进一步探测罕见词、前后缀、数字、emoji、camelCase及代码片段。若可取得logprobs或下一token采样信息，则观察续写单位，再用最小扰动和候选分段逼近词表，猜测BPE或unigram一类机制。不同步骤需要不同观测权限，不能仅凭聊天输出承诺可精确恢复底层实现。\n\n全文将此称为可能的发现路径，明确精确tokenizer不一定立即可得。未指定待测模型或API、实验集、计数、分段准确率、词表或代码，也没有进行探测的报告。按具体逆向idea收录，ChatGPT是方案协助工具，不等于自身已经被测定；REA未提及。本合集未发送实验请求或验证算法。",
+    "sources": [{"label": "作者转贴ChatGPT关于黑箱重新发现token的研究方案，2026-11-15 05:22:06北京时间", "url": "https://x.com/i/status/2121715321749094697"}],
+    "snapshot_date": "2026-11-15", "metadata": ["封存候选0赞、20浏览、0转发、1回复；属于假设研究设计，无实测成绩。"],
+    "en": {
+      "title": "If tokenizer documentation vanished: a ChatGPT-assisted idea for probing token boundaries through a black box",
+      "summary": "A poster shares ChatGPT's proposal to perturb inputs and observe usage counts and logprobs to infer subword boundaries and candidate segmentations. No target model, experimental trace or recovered vocabulary is supplied.",
+      "description": "At 05:22:06 Beijing time on November 15, 2026, a poster shares a long ChatGPT response to a hypothetical question: if nobody explained tokens, could model behavior reveal discrete internal text units? This is an AI-assisted black-box research design, not a report of recovering a commercial model's tokenizer.\n\nThe proposal compares small changes such as cat/cats, spaces and punctuation, then examines API usage counts, costs and context lengths. Further probes cover rare words, affixes, numbers, emoji, camelCase and code fragments. If logprobs or next-token sampling are available, continuation units could provide more evidence. Minimal perturbations and candidate segmentations might approximate a vocabulary and suggest BPE, unigram or related mechanisms. These stages require different observation privileges; ordinary chat output alone does not promise exact implementation recovery.\n\nThe full text frames this as a possible discovery path and explicitly allows that the exact tokenizer may not be recovered immediately. No target model/API, test set, counts, segmentation accuracy, vocabulary, code or executed probing is reported. Included as a concrete reversing idea, with ChatGPT assisting the design rather than itself being experimentally characterized. REA is unmentioned. This collection sent no experimental requests and validated no algorithm.",
+      "metadata": ["Sealed candidate: 0 likes, 20 views, 0 reposts, 1 reply. Hypothetical research design, without measured results."],
+      "source_labels": ["Poster shares ChatGPT's proposal for rediscovering tokens through black-box behavior, November 15, 2026 at 05:22:06 Beijing time"]
+    }
+  },
+  {
+    "id": "websitebench-browser-only-fullstack-reconstruction-benchmark",
+    "title": "WebsiteBench：从浏览器探索重建全栈网站，以隐藏功能测试和视觉对照检验",
+    "category": "apps", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Johnnysama介绍浏览器黑箱网站重建评测；固定README确认70站、46916隐藏测试，功能通过且各视觉点SSIM达0.99才计通过。模型分数与成本仍为二手未核值。",
+    "description": "2026年11月15日06:02:13（北京时间），Johnnysama（@JohnnyS03832498）介绍WebsiteBench：Agent只从浏览器探索生产级网站，重建尽量匹配外观和行为的全栈实现，不只临摹截图。补查定位TIGER-AI-Lab/WebsiteBench并阅读固定README，提交3868d82d137f4ff8f5b2bd858ed8c279da3aeda1日期为2026年11月10日06:47:19 UTC，早于窗口；这是项目方法补证，不是新候选或本合集运行成绩。\n\n文档列70个网站、46916个隐藏测试，每任务302至2016个。一个测试须功能检查通过且每个视觉检查点的归一化SSIM达0.99才通过；任务reward为通过的测试比例，不是整个网站已被完整克隆的概率。文档给Harbor执行和参考解检查方式，但本合集未安装依赖、下载任务或执行评测。\n\n候选称Opus5.5隐藏测试通过26%、请求层面71%，Amazon56.8%、LeetCode最高74.2%；DeepSeek V4.1 Flash为13.5%、每任务4.6美元，Opus为305美元。这些是评论者的快照，所读README没有模型排行榜、请求指标定义、成本核算或单站结果，故未独立确认，不能混合两种百分比、推算完整复制率或可比成本降幅。没有REA实用证据；未加额外harness只是评论者推测。\n\nREADME称评测代码、任务定义和verifier为Apache-2.0；参考站点的第三方内容仍归原权利人，仅供非商业研究。未检查全部许可或参考实现，不意味着获得生产站点内容再分发权。按有公开评测方法的AI辅助黑箱功能重建案例收录，结果仍归项目或评论者，不是独立复现。",
+    "sources": [{"label": "Johnnysama介绍WebsiteBench及模型分数／成本，2026-11-15 06:02:13北京时间", "url": "https://x.com/i/status/2121725416557908217"}, {"label": "窗口前固定README：任务规模、SSIM评分与许可，提交2026-11-10 06:47:19 UTC", "url": "https://github.com/TIGER-AI-Lab/WebsiteBench/blob/3868d82d137f4ff8f5b2bd858ed8c279da3aeda1/README.md"}],
+    "snapshot_date": "2026-11-15", "metadata": ["封存候选2赞、72浏览、0转发、1回复；26%／71%属不同指标，模型版本、成本与单站成绩未据原始结果复核。"],
+    "en": {
+      "title": "WebsiteBench: browser-exploration full-stack reconstruction tested against hidden behavior and visual checks",
+      "summary": "Johnnysama introduces a black-box website reconstruction benchmark. A pinned README documents 70 sites and 46,916 hidden cases, requiring functional checks and 0.99 SSIM at every visual checkpoint. Model scores and costs remain unchecked secondary figures.",
+      "description": "At 06:02:13 Beijing time on November 15, 2026, Johnnysama (@JohnnyS03832498) introduces WebsiteBench: agents explore production-level websites through a browser and rebuild full-stack implementations matching appearance and behavior, not just screenshots. Supplementary research located TIGER-AI-Lab/WebsiteBench and read the README pinned at 3868d82d137f4ff8f5b2bd858ed8c279da3aeda1, committed November 10, 2026 at 06:47:19 UTC, before this window. It supports methodology, not another candidate or results produced here.\n\nDocumentation lists 70 websites and 46,916 hidden test cases, with 302 to 2,016 per task. A case passes only when functional checks pass and every visual checkpoint reaches normalized SSIM of 0.99. Task reward is the share of passing cases, not the probability that an entire website has been fully cloned. Harbor execution and reference-solution checks are documented; this collection installed no dependencies, downloaded no tasks and ran no benchmark.\n\nThe candidate reports Opus 5.5 at 26% hidden-test passes and 71% at the request level, Amazon at 56.8% and LeetCode as high as 74.2%. It gives DeepSeek V4.1 Flash 13.5% at $4.6 per task, versus $305 for Opus. These are the commentator's snapshot. The read README supplies no model leaderboard, request-metric definition, cost accounting or per-site results, so they remain unverified here. The percentages cannot be conflated, interpreted as complete cloning or used to calculate a comparable cost reduction. No actual REA use is established; absence of an extra harness is the commentator's inference.\n\nThe README licenses benchmark code, task definitions and verifier under Apache-2.0, while third-party reference-site content retains its owners' rights and is for non-commercial research only. Full licensing and reference implementations were not reviewed; production-site redistribution rights are not implied. Included as AI-assisted black-box functionality reconstruction with a public evaluation method, not independently reproduced results. Findings remain attributed to the project or commentator.",
+      "metadata": ["Sealed candidate: 2 likes, 72 views, 0 reposts, 1 reply. 26% and 71% are different metrics; model versions, costs and per-site results were not checked against raw results."],
+      "source_labels": ["Johnnysama introduces WebsiteBench and model scores/costs, November 15, 2026 at 06:02:13 Beijing time", "Pre-window pinned README: task scale, SSIM scoring and licensing, committed November 10, 2026 at 06:47:19 UTC"]
+    }
+  },
+  {
+    "id": "cloudyone-roli-keyboards-ai-software-revival-idea",
+    "title": "ROLI键盘软件续命：CloudyOne提出用AI逆向Agent修复Android体验的idea",
+    "category": "hardware", "rea": "unknown", "status": "unverified",
+    "summary": "CloudyOne因自有ROLI键盘配套Android应用有故障，提出把软件恢复作为AI逆向Agent任务；没有型号、代码或进展，公司经营判断只属作者担忧。",
+    "description": "2026年11月15日06:09:52（北京时间），CloudyOne（@CloudyOne）称自己购买的ROLI键盘很贵，Android应用有bug，想让AI逆向Agent首先为已经付费的硬件恢复软件可用性。目标是ROLI键盘配套软件生态，不是一般音乐生成或新键盘设计。补取原帖确认作者。\n\n作者认为公司似乎经营不下去，这只是个人判断，未核实其财务或服务终止状况，不能据此写成ROLI已经倒闭或所有软件停用。帖子没有具体键盘型号、Android应用名／版本、通信协议、模型、仓库、任务轨迹或故障复现；也没有说已经开始修改或解决问题。\n\n按有明确设备和用途的AI逆向idea收录，未确认使用REA，故为unknown。没有推断可离线、MIDI兼容、替代合成器或任何已恢复功能；本合集未接设备、提取应用或运行代码。",
+    "sources": [{"label": "CloudyOne的ROLI键盘／Android软件恢复构想，2026-11-15 06:09:52北京时间", "url": "https://x.com/i/status/2121727340564688972"}],
+    "snapshot_date": "2026-11-15", "metadata": ["封存候选0赞、4浏览、0转发、0回复；没有实施结果或工时。"],
+    "en": {
+      "title": "Keeping ROLI keyboards useful: CloudyOne's idea for AI reversing agents to revive buggy Android software",
+      "summary": "CloudyOne proposes restoring software for owned ROLI keyboards after encountering buggy Android apps. No model, code or progress is supplied; the company's financial outlook is only the author's concern.",
+      "description": "At 06:09:52 Beijing time on November 15, 2026, CloudyOne (@CloudyOne) says their ROLI keyboards were expensive and the Android apps are buggy. They propose making software revival for hardware already paid for a first task for AI reverse-engineering agents. The target is ROLI's companion-software ecosystem, not generic music generation or designing a new keyboard. Retrieval confirms attribution.\n\nThe author thinks the company looks like it is going under. That is personal speculation; finances and service discontinuation were not checked, so ROLI is not described as bankrupt or all software as discontinued. No keyboard model, Android app name/version, communication protocol, AI model, repository, task trace or reproducible fault is provided. The post does not report starting modifications or solving the problem.\n\nRetained as a concrete AI reversing idea with an identifiable device ecosystem and purpose. REA use is unknown. Offline operation, MIDI compatibility, a replacement synthesizer and recovered functions are not inferred. This collection connected no hardware, extracted no application and ran no code.",
+      "metadata": ["Sealed candidate: 0 likes, 4 views, 0 reposts, 0 replies. No implementation outcome or working duration is reported."],
+      "source_labels": ["CloudyOne's ROLI keyboard/Android software revival idea, November 15, 2026 at 06:09:52 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-e2ee-push-notification-key-path-audit-idea",
+    "title": "端到端加密遇上推送通知：Kiro转述REA算法、密钥路径与明文旁路审计idea",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Kiro介绍用REA检查聊天应用的加密算法、密钥来源、推送／链接预览与服务器AI处理；没有具名被测应用、执行轨迹或确认泄露，不把提示词当审计结果。",
+    "description": "2026年11月15日06:12:02（北京时间），Kiro（@0xk7ro）转述称REA创始人发布了审计提示词，关注应用的端到端加密声明是否在第一条推送通知时仍成立。补取原帖确认作者，但未取得其所指完整文章或原始提示词，不把创始人归属视为独立确认。\n\n帖中给出具体检查目标：识别实际加密方案（以libsodium、Signal和AES-ECB为例），追踪私钥在设备生成还是服务器下发，检查推送预览、链接预览和服务器端AI读取聊天的路径，并盘点谁与谁通信、时间和频次等元数据。这里列的是待研究维度，不是已经发现某产品使用弱密码或暴露明文；元数据与消息内容的保护范围也不同。\n\n没有被审应用、版本、密钥生命周期、通知配置、抓包、二进制、代码或审计报告。一次提示不能保证覆盖全部端点、证明端到端安全或证实漏洞；帖中130多个MCP工具也未核数量。按具体AI逆向审计idea而非隐私泄露事实收录。未运行REA、读取聊天、调用服务或进行加密验证。",
+    "sources": [{"label": "Kiro转述REA端到端加密／通知与密钥路径检查idea，2026-11-15 06:12:02北京时间", "url": "https://x.com/i/status/2121727887544033769"}],
+    "snapshot_date": "2026-11-15", "metadata": ["封存候选13赞、318浏览、0转发、0回复；没有确认漏洞，工具数量为未核宣传。"],
+    "en": {
+      "title": "When end-to-end encryption meets push notifications: Kiro's secondary REA cipher, key-path and plaintext-side-channel audit idea",
+      "summary": "Kiro describes using REA to examine chat-app ciphers, key origins, push/link previews and server-side AI processing. No named app, execution trace or confirmed disclosure is provided; a prompt is not an audit finding.",
+      "description": "At 06:12:02 Beijing time on November 15, 2026, Kiro (@0xk7ro) says REA's founder published an audit prompt asking whether an app's end-to-end encryption survives its first push notification. Retrieval confirms the poster, but the full referenced article and original prompt were not obtained; founder attribution is not independently confirmed.\n\nThe post lists concrete investigation dimensions: identify the actual encryption scheme, with libsodium, Signal and AES-ECB as examples; trace whether private keys originate on-device or arrive from a server; inspect push previews, link previews and server-side AI reading chats; and inventory who communicates with whom, when and how often. These are proposed checks, not findings that a particular product uses weak cryptography or leaks plaintext. Metadata and message contents also have different protection boundaries.\n\nNo app, version, key lifecycle, notification configuration, packet capture, binary, code or audit report is supplied. One prompt cannot guarantee endpoint coverage, prove end-to-end security or establish a vulnerability. The claimed 130-plus MCP tools were not counted. Retained as a concrete AI-assisted reversing audit idea, not a disclosure of an actual privacy leak. No REA execution, chat access, service calls or cryptographic validation was performed here.",
+      "metadata": ["Sealed candidate: 13 likes, 318 views, 0 reposts, 0 replies. No confirmed vulnerability; tool count is unchecked promotion."],
+      "source_labels": ["Kiro relays a REA end-to-end encryption/notification and key-path audit idea, November 15, 2026 at 06:12:02 Beijing time"]
+    }
+  },
+  {
+    "id": "ash-deepseek-ecu-ignition-table-investigation-report",
+    "title": "DeepSeek寻找ECU点火表：Jonathan Sandhu转述Ash的二进制调查，而非已完成车辆调校",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Jonathan称Ash让DeepSeek在发动机控制器二进制中寻找点火表，并强调候选表定位不等于安全改写；车辆、ECU版本、表地址和台架结果均未提供。",
+    "description": "2026年11月15日06:21:52（北京时间），Jonathan Sandhu（@SandhuJonathan）评论Ash把DeepSeek用于ECU二进制，要求定位点火表。ECU是发动机控制器，点火表用于控制点火时机；此处具体任务是研究其中的候选数据结构，不是已经证明可以安全调整发动机。补取原帖确认评论者署名，没有取得Ash原帖、模型会话或二进制。\n\n评论者明确区分定位候选map与安全标定：后者还要确认ECU定义、坐标轴、尺度、校验和及真实负载行为，并要求提供测功机结果。他提到每秒90 token，但未提供计时、硬件或测量记录，不用作逆向正确率或工程效率证据。\n\n没有车型、控制器型号、固件版本、表地址、提取结果、对照定义、修改文件、台架／实车测试或性能改善。按二手AI辅助二进制调查保留unverified，不写成已经刷车、完成重映射或取得安全标定，也不把该Ash认作现有其他ECU案例作者。REA未提及，本合集未取得固件、运行模型或向车辆发指令。",
+    "sources": [{"label": "Jonathan Sandhu转述Ash／DeepSeek寻找ECU点火表并区分调查与调校，2026-11-15 06:21:52北京时间", "url": "https://x.com/i/status/2121730362397376861"}],
+    "snapshot_date": "2026-11-15", "metadata": ["封存候选0赞、49浏览、0转发、0回复；90 token/s仅评论中的未核速度说法，无点火表正确性证据。"],
+    "en": {
+      "title": "DeepSeek searches for ECU ignition tables: Jonathan Sandhu relays Ash's binary investigation, not a completed vehicle remap",
+      "summary": "Jonathan says Ash asked DeepSeek to locate ignition tables in an engine-controller binary, distinguishing candidate-map discovery from safe calibration. No vehicle, ECU revision, table address or dyno result is supplied.",
+      "description": "At 06:21:52 Beijing time on November 15, 2026, Jonathan Sandhu (@SandhuJonathan) comments that Ash pointed DeepSeek at an ECU binary to locate ignition tables. An ECU is an engine control unit; ignition tables govern ignition timing. The concrete task here is investigating candidate data structures, not establishing a safe engine adjustment. Retrieval confirms the commentator's identity, but Ash's original post, model session and binary were not obtained.\n\nThe commentator explicitly distinguishes finding candidate maps from safe calibration. The latter requires the correct ECU definition, axes, scaling, checksums and behavior under real loads, and he asks for a dyno sheet. He mentions ninety tokens per second without timing, hardware or measurement records; this is not evidence of reversing accuracy or engineering productivity.\n\nNo vehicle, controller model, firmware revision, table address, extraction result, reference definition, modified file, bench/vehicle test or performance improvement is supplied. Retained as an unverified secondary AI-assisted binary-investigation report, not flashing, a completed remap or safe calibration. Ash is not assumed to be an author of another existing ECU case. REA is unmentioned. This collection obtained no firmware, ran no model and sent no vehicle commands.",
+      "metadata": ["Sealed candidate: 0 likes, 49 views, 0 reposts, 0 replies. Ninety tokens/s is an unchecked speed claim in commentary, not evidence of correct ignition-table identification."],
+      "source_labels": ["Jonathan Sandhu relays Ash/DeepSeek's ECU ignition-table search and distinguishes investigation from calibration, November 15, 2026 at 06:21:52 Beijing time"]
+    }
+  },
+  {
+    "id": "cybergate-vllm-binary-audit-refusal-plugin-project",
+    "title": "CyberGate：Staream介绍用于本地二进制审计误拒问题的vLLM插件",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Staream称CyberGate不改模型权重，面向本地LLM网络安全研究中的误拒；补读作者串确认名称，但未可靠对应源码，未验证审计质量或选择性安全边界。",
+    "description": "2026年11月15日06:54:09（北京时间），Staream（@wellingdoncrow）介绍一个vLLM插件，针对本地LLM在二进制审计、防御PoC和SQL注入测试等研究任务中的误拒。补读同作者06:56:12的回复，确认其称项目为CyberGate，并声称已经开源；这条回复为同窗口补充材料，不替换原候选。\n\n作者把它与永久修改权重的abliteration对比，称插件零权重修改（K=0.0），可选择性减少网安任务拒答，并主张权重消融可能损害代码、推理与工具调用质量或放开其他危险内容。这些是作者对两种方法的描述，未提供本次对照实验，不把“零改权重”当作已证明不损失能力、不会误放或符合所有模型许可的保证。\n\n候选只有GitHub短链接；公开名称检索未可靠对应作者仓库，未把同名安全工具或远控仓库冒认为此项目。没有所支持模型与vLLM版本、实现、测试样本、误拒率、二进制分析正确率或安全边界验证。按具体服务于AI辅助逆向的相关工具项目收录，而非已完成某个目标的逆向；REA未提及。未安装插件、修改推理服务或执行目标代码。",
+    "sources": [{"label": "Staream的vLLM插件与本地二进制审计介绍，2026-11-15 06:54:09北京时间", "url": "https://x.com/i/status/2121738485182923193"}, {"label": "同作者补充CyberGate名称、开源与零权重改动主张，06:56:12", "url": "https://x.com/i/status/2121739001468232103"}],
+    "snapshot_date": "2026-11-15", "metadata": ["封存候选0赞、17浏览、0转发、1回复；K=0.0为作者说法，没有审计准确率或安全性实测。"],
+    "en": {
+      "title": "CyberGate: Staream introduces a vLLM plugin addressing local binary-audit refusals",
+      "summary": "Staream says CyberGate leaves model weights unchanged while addressing refusals in local-LLM cybersecurity research. The author's thread confirms the name, but source attribution, audit quality and selective safety boundaries remain unverified.",
+      "description": "At 06:54:09 Beijing time on November 15, 2026, Staream (@wellingdoncrow) introduces a vLLM plugin aimed at local-LLM refusals during binary auditing, defensive proofs of concept and SQL-injection testing. A same-author reply at 06:56:12 names CyberGate and claims an open-source release. That reply is supplementary material within the window, not a replacement candidate.\n\nThe author contrasts the plugin with permanent weight modification through abliteration, claiming zero weight changes (K=0.0) and selective reduction of cybersecurity refusals. They argue weight removal may degrade coding, reasoning and tool calling or enable unrelated dangerous content. These are the author's descriptions, without a comparative experiment here. Unchanged weights do not establish preserved capability, absence of inappropriate responses or compatibility with every model license.\n\nThe candidate supplies only a GitHub short link. Public name search did not reliably identify the author's repository; unrelated same-name security tools or remote-access repositories are not substituted. No supported model/vLLM versions, implementation, test set, refusal rate, binary-analysis accuracy or safety-boundary validation was obtained. Included as a concrete supporting project for AI-assisted reversing, not a completed investigation of a target. REA is unmentioned. This collection installed no plugin, changed no inference service and ran no target code.",
+      "metadata": ["Sealed candidate: 0 likes, 17 views, 0 reposts, 1 reply. K=0.0 is the author's claim, without measured audit accuracy or safety results."],
+      "source_labels": ["Staream introduces a vLLM plugin and local binary-audit use, November 15, 2026 at 06:54:09 Beijing time", "Same-author supplement names CyberGate and claims open source/unchanged weights, 06:56:12"]
+    }
+  },
+  {
     "id": "matias-split60he-claude-flash-calibration-repair-report",
     "title": "Split60HE二手键盘连发：Matías称Claude解码flash校准记录后修复",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
@@ -2604,18 +2732,18 @@
   },
   {
     "id": "devsec-ai-tablet-36hour-rea-attempt",
-    "title": "一台未具名平板：Devsec AI称Agent辅助逆向已用36小时",
+    "title": "Devsec AI的未具名平板：36小时自述后，Omarchy性能与声音仍未解决",
     "category": "hardware", "rea": "unknown", "status": "in-progress",
-    "summary": "Devsec AI称在一台平板的rea工作上已花36小时，强调Agent虽加速，高质量结果仍需时间；设备、工具与成果未说明。",
-    "description": "2026年11月12日05:59:21（北京时间），Devsec AI（@devsec_ai）回复软件成本讨论，称自己在this tablet的rea上已花36小时，Agent可以加速，但高质量工作仍很费时间。补取原帖确认署名，父帖只是研究、构建与维护成本的通用论述，没有补出平板名称。\n\n按具体进行中平板逆向自述保留。小写rea可能指逆向活动，也可能指REA工具，正文不足以确定，分类为unknown而非确认REA。36小时是作者自报累计投入，不是模型运行时、节省工时或性能基准；未报告已恢复功能、驱动、固件或可用系统。\n\n同作者背景中另有2017 NVIDIA Shield项目，但没有证据表明this tablet是同一设备，故不把36小时归给旧项目。未审仓库、日志或设备型号，本合集未运行代码、访问设备或独立核验成果。",
-    "sources": [{"label": "Devsec AI的平板与36小时投入自述，2026-11-12 05:59:21北京时间", "url": "https://x.com/i/status/2120637530228023734"}],
-    "snapshot_date": "2026-11-12", "metadata": ["2026-11-12封存候选1赞、51浏览、1转发；补取不替换封存快照。"],
+    "summary": "Devsec AI此前称平板逆向已投入36小时，11月15日又报告Omarchy性能优化和声音仍有问题；设备型号、模型和修复实现未知，保持进行中。",
+    "description": "2026年11月12日05:59:21（北京时间），Devsec AI（@devsec_ai）回复软件成本讨论，称自己在this tablet的rea上已花36小时，Agent可以加速，但高质量工作仍很费时间。此前补取原帖确认署名，父帖只是研究、构建与维护成本的通用论述，没有补出平板名称。36小时是作者自报累计投入，不是模型运行时、节省工时或性能基准。\n\n11月15日06:45:12的新候选中，同作者说这台小而便宜的平板仍难以优化性能，声音也还不能正常工作，并标注Omarchy。补读原帖确认署名；没有可读的后续技术回复，也未从附图认定型号。按同作者平板工作的后续自述追加，补足具体问题与未解决结果；但没有跨帖设备标识，不能据此确认两帖一定是同一块物理硬件、把36小时扩算为连续三天，或说已完成驱动适配。\n\n新帖也使用REA字样，但不能排除只是指逆向活动，未给工具调用或模型，故仍为unknown而非确认REA引擎。作者背景另有2017 NVIDIA Shield项目，未证实是本平板，不合并。没有仓库、日志、硬件ID、固件、音频栈排查或修复测试；没有已解决性能／声音的证据，保持in-progress。本合集未运行代码、访问设备或独立核验成果。",
+    "sources": [{"label": "Devsec AI的平板与36小时投入自述，2026-11-12 05:59:21北京时间", "url": "https://x.com/i/status/2120637530228023734"}, {"label": "同作者后续：Omarchy平板性能与声音仍有问题，2026-11-15 06:45:12北京时间", "url": "https://x.com/i/status/2121736233131073923"}],
+    "snapshot_date": "2026-11-15", "metadata": ["2026-11-12封存候选1赞、51浏览、1转发；补取不替换封存快照。", "11月15日新候选封存5赞、163浏览、0转发、0回复；没有累计新工时或修复结果。"],
     "en": {
-      "title": "An unnamed tablet: Devsec AI reports 36 hours of agent-assisted reversing",
-      "summary": "Devsec AI says rea work on a tablet has taken 36 hours and that agents accelerate work but do not remove the time needed for quality. The device, tools and deliverables are unspecified.",
-      "description": "At 05:59:21 Beijing time on November 12, 2026, Devsec AI (@devsec_ai) replies to a software-cost discussion, saying rea on this tablet has already taken 36 hours. Agents speed up the work, but high quality still takes considerable time. Retrieval confirms attribution; the parent only discusses research, build and maintenance costs generally and does not identify the tablet.\n\nThis is retained as a concrete ongoing tablet-reversing report. Lowercase rea might mean reversing activity or the REA tool; the text is insufficient to decide, so attribution is unknown rather than confirmed REA use. Thirty-six hours is the author's reported investment, not model runtime, time saved or a performance benchmark. No recovered feature, driver, firmware or usable operating system is reported.\n\nA separate 2017 NVIDIA Shield project exists in the author's background, but nothing establishes that this tablet is that device. The 36 hours are not assigned to that older project. No repository, logs or model identification were reviewed. This collection ran no code, accessed no device and independently verified no result.",
-      "metadata": ["Sealed November 12, 2026 candidate: 1 like, 51 views, 1 repost. Retrieval does not replace the sealed snapshot."],
-      "source_labels": ["Devsec AI's tablet and 36-hour investment report, November 12, 2026 at 05:59:21 Beijing time"]
+      "title": "Devsec AI's unnamed tablet: Omarchy performance and sound remain unresolved after the earlier 36-hour report",
+      "summary": "After reporting 36 hours of tablet reversing, Devsec AI says on November 15 that Omarchy performance optimization and sound still have problems. Device identity, models and implementation remain unspecified; work stays in progress.",
+      "description": "At 05:59:21 Beijing time on November 12, 2026, Devsec AI (@devsec_ai) replies to a software-cost discussion, saying rea on this tablet has already taken 36 hours. Agents speed up the work, but quality still takes considerable time. Earlier retrieval confirms attribution; the parent only discusses research, build and maintenance costs generally and does not identify the tablet. Thirty-six hours is the author's reported investment, not model runtime, time saved or a performance benchmark.\n\nIn the new candidate at 06:45:12 on November 15, the same author says this small, cheap tablet still resists performance optimization and that sound is not working properly, tagging Omarchy. Retrieval confirms attribution. No readable follow-up technical replies add details, and the image was not used to identify a model. Added as a follow-up to the author's tablet work, supplying concrete problems and unresolved outcomes. Without cross-post device identifiers, this does not establish the same physical unit beyond doubt, extend 36 hours into three continuous days or demonstrate completed driver adaptation.\n\nThe new post also uses REA, but it may refer to reversing activity rather than the engine. No tool calls or model are supplied, so attribution remains unknown. A separate 2017 NVIDIA Shield project in the author's background is not established as this tablet and is not merged. No repository, logs, hardware IDs, firmware, audio-stack investigation or repair tests were reviewed. There is no evidence of resolved performance or sound; status remains in progress. This collection ran no code, accessed no device and independently verified no result.",
+      "metadata": ["Sealed November 12, 2026 candidate: 1 like, 51 views, 1 repost. Retrieval does not replace the sealed snapshot.", "New November 15 sealed candidate: 5 likes, 163 views, 0 reposts, 0 replies. No new cumulative working time or repair outcome is reported."],
+      "source_labels": ["Devsec AI's tablet and 36-hour investment report, November 12, 2026 at 05:59:21 Beijing time", "Same-author follow-up: Omarchy tablet performance and sound still have problems, November 15, 2026 at 06:45:12 Beijing time"]
     }
   },
   {

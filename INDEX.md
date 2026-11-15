@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2268 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2276 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（449）
-- [硬件与设备互通](categories/hardware.md)（604）
-- [应用与客户端](categories/apps.md)（942）
-- [算法与功能重建](categories/algorithms.md)（273）
+- [硬件与设备互通](categories/hardware.md)（608）
+- [应用与客户端](categories/apps.md)（945）
+- [算法与功能重建](categories/algorithms.md)（274）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -478,6 +478,10 @@
 
 ### 硬件与设备互通
 
+- [Mike Lembo的家庭恒温器：研究API，用MCP替代原厂界面的进行中项目](cases/personal-thermostat-api-mcp-claude-project.md) — Mike在Claude家庭项目清单中列出逆向恒温器API、改用MCP控制的工作；未给品牌、协议或成功控制记录，不把Home Assistant管理成果挪给恒温器。 **[其他 AI 逆向 · 进行中]**
+- [老激光打印机的Scan to PC：Marcus Eisele称Opus研究15年前ZIP以继续使用设备](cases/marcus-eisele-opus-old-printer-scan-to-pc-report.md) — Marcus称Opus为Omarchy安装驱动，并在启动Windows后从15年前ZIP研究Scan to PC按键；未给型号、协议或扫描输出，不能认定已完成Linux按键互通。 **[其他 AI 逆向 · 待验证]**
+- [ROLI键盘软件续命：CloudyOne提出用AI逆向Agent修复Android体验的idea](cases/cloudyone-roli-keyboards-ai-software-revival-idea.md) — CloudyOne因自有ROLI键盘配套Android应用有故障，提出把软件恢复作为AI逆向Agent任务；没有型号、代码或进展，公司经营判断只属作者担忧。 **[未确认使用 REA · 待验证]**
+- [DeepSeek寻找ECU点火表：Jonathan Sandhu转述Ash的二进制调查，而非已完成车辆调校](cases/ash-deepseek-ecu-ignition-table-investigation-report.md) — Jonathan称Ash让DeepSeek在发动机控制器二进制中寻找点火表，并强调候选表定位不等于安全改写；车辆、ECU版本、表地址和台架结果均未提供。 **[其他 AI 逆向 · 待验证]**
 - [Split60HE二手键盘连发：Matías称Claude解码flash校准记录后修复](cases/matias-split60he-claude-flash-calibration-repair-report.md) — Matías称Claude结合开源固件、KiCad和USB传感器数据，找到右半39键全按下的校准值问题；备份重刷v1.11后69键静止均0%，未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [Samsung NV3拍RAW：用Codex修改老数码相机固件的具体想法](cases/samsung-nv3-codex-raw-firmware-idea.md) — 西班牙语作者提出用Codex（原帖GPT6.1 Sol）修改Samsung NV3固件以拍RAW，未报告提取、补丁或成功照片。 **[其他 AI 逆向 · 待验证]**
 - [绕开libcuda构建NVRM生命周期：文章报告Codex与Anthropic拒答的受阻尝试](cases/nvrm-c11-libcuda-independent-lifecycle-ai-refusal-report.md) — 作者以C11直接分配NVRM client／device对象为例讨论GPU互通，称Codex和Anthropic安全限制阻止帮助；无代码或拒答日志，不接受其商业动机推断。 **[其他 AI 逆向 · 待验证]**
@@ -515,7 +519,7 @@
 - [Soundcore D3200到Mac输入法：让Agent改造实时取流客户端的idea](cases/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔提出让Agent改造tacshi/Soundcore，把录音豆用于Mac微信语音输入；项目文档支持蓝牙取流与可选转写，但光标粘贴仍是待补步骤，零延时未测。 **[其他 AI 逆向 · 进行中]**
 - [旧Ford的SYNC升3.4：Trevin Chow在REA语境下尝试车机升级](cases/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow以Reverse engineer anything开场，称尝试将旧Ford的SYNC升至3.4；未报告成功、车型、现有版本或具体工具调用。 **[未确认使用 REA · 进行中]**
 - [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**
-- [一台未具名平板：Devsec AI称Agent辅助逆向已用36小时](cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI称在一台平板的rea工作上已花36小时，强调Agent虽加速，高质量结果仍需时间；设备、工具与成果未说明。 **[未确认使用 REA · 进行中]**
+- [Devsec AI的未具名平板：36小时自述后，Omarchy性能与声音仍未解决](cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI此前称平板逆向已投入36小时，11月15日又报告Omarchy性能优化和声音仍有问题；设备型号、模型和修复实现未知，保持进行中。 **[未确认使用 REA · 进行中]**
 - [自家可视对讲：Claude研究Android协议，作者称CLI开门与视频只加密前64字节](cases/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT称Claude研究可视对讲Android应用与通信协议，用自制CLI开自家前门，并发现蜂窝网络视频每帧仅前64字节加密；无型号或抓包核验。 **[其他 AI 逆向 · 进行中]**
 - [云端停服后的Surfboard W161：作者称Codex识别USB接入引脚以进入路由器](cases/surfboard-w161-codex-usb-pin-access-report.md) — hello称Codex帮助研究失去厂商云端支持的Surfboard W161 WiFi路由器，用便宜USB适配器识别应接引脚以进入设备；未报告恢复联网或新固件。 **[其他 AI 逆向 · 进行中]**
 - [富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用](cases/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。 **[其他 AI 逆向 · 待验证]**
@@ -1085,6 +1089,9 @@
 
 ### 应用与客户端
 
+- [WebsiteBench：从浏览器探索重建全栈网站，以隐藏功能测试和视觉对照检验](cases/websitebench-browser-only-fullstack-reconstruction-benchmark.md) — Johnnysama介绍浏览器黑箱网站重建评测；固定README确认70站、46916隐藏测试，功能通过且各视觉点SSIM达0.99才计通过。模型分数与成本仍为二手未核值。 **[其他 AI 逆向 · 分析测试]**
+- [端到端加密遇上推送通知：Kiro转述REA算法、密钥路径与明文旁路审计idea](cases/rea-e2ee-push-notification-key-path-audit-idea.md) — Kiro介绍用REA检查聊天应用的加密算法、密钥来源、推送／链接预览与服务器AI处理；没有具名被测应用、执行轨迹或确认泄露，不把提示词当审计结果。 **[REA · 待验证]**
+- [CyberGate：Staream介绍用于本地二进制审计误拒问题的vLLM插件](cases/cybergate-vllm-binary-audit-refusal-plugin-project.md) — Staream称CyberGate不改模型权重，面向本地LLM网络安全研究中的误拒；补读作者串确认名称，但未可靠对应源码，未验证审计质量或选择性安全边界。 **[其他 AI 逆向 · 相关项目]**
 - [UnvibeCode：从代码库重建业务流程与风险，混合许可且AI分析可能外发代码](cases/unvibecode-source-business-workflow-analysis-project.md) — Micha(el) Bladowski介绍源码流程图、代码关系与有证据的风险分析；补读项目README确认Python3.11+，但官方包不全是Apache，免自备API key不等于离线。 **[其他 AI 逆向 · 相关项目]**
 - [家具厂Delphi转.NET：GA Red Clay称Claude Code重建业务系统，切换仍是计划](cases/ga-red-clay-furniture-delphi-dotnet-claude-migration.md) — 作者正从旧代码恢复零售、制造、会计、采购与库存流程，预计约一个月换系统，称AI费用约400美元；未提供迁移代码、验收或上线证明。 **[其他 AI 逆向 · 进行中]**
 - [Kampala：将Web／桌面应用研究成可编程API的二手项目介绍](cases/kampala-web-desktop-app-programmable-api-secondary-project.md) — Prasenjit Sarkar在REA评论中介绍Kampala的商业方向：把应用逆向成API；没有指定应用、接口或代码，不验证YC／融资归属或任意应用可转换。 **[未确认使用 REA · 待验证]**
@@ -2030,6 +2037,7 @@
 
 ### 算法与功能重建
 
+- [如果分词文档消失：ChatGPT辅助设计黑箱探测token边界的idea](cases/chatgpt-blackbox-tokenizer-rediscovery-idea.md) — 作者贴出ChatGPT的方案：微扰输入、观察usage计数与logprobs，推断词片边界和候选切分；没有指定模型、采样记录或恢复出的词表。 **[其他 AI 逆向 · 待验证]**
 - [Apple Health导出到/death-date：Phosphen的AI数据拆解，不是恢复Apple秘密寿命评分](cases/phosphen-apple-health-export-death-date-analysis-report.md) — 作者称Fable5.2分析Health导出，并用Claude Code skill把心率／VO2max套生命表；数据数量与死亡年份未经核验，不是医学预测或Apple内部算法恢复。 **[其他 AI 逆向 · 待验证]**
 - [FAA通信故障审计idea：Ariel Garbarz提出Inverse AI研究FTI，未取得技术记录](cases/garbarz-faa-fti-inverse-ai-failure-audit-idea.md) — Garbarz要求检查FAA／L3Harris FTI更新日志、版本、告警和时间线，并提自动系统逆向与决策重建；只是调查建议，不证明芝加哥起因或AI攻击。 **[未确认使用 REA · 待验证]**
 - [rea-toon：从短剧逐镜研究人物、台词与结构，导出剧本和VIDEO.md的Agent项目](cases/rea-toon-short-drama-shot-script-analysis-project.md) — JuneYaooo在rea-video上增加短剧人物、说话人、情绪与跨集结构层，文档称可回放逐镜证据并输出研读／剧本／分镜与VIDEO.md；尚未运行，非商业许可。 **[其他 AI 逆向 · 相关项目]**

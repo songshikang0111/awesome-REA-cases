@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Mike Lembo的家庭恒温器：研究API，用MCP替代原厂界面的进行中项目](../cases/personal-thermostat-api-mcp-claude-project.md) — Mike在Claude家庭项目清单中列出逆向恒温器API、改用MCP控制的工作；未给品牌、协议或成功控制记录，不把Home Assistant管理成果挪给恒温器。 **[其他 AI 逆向 · 进行中]**
+- [老激光打印机的Scan to PC：Marcus Eisele称Opus研究15年前ZIP以继续使用设备](../cases/marcus-eisele-opus-old-printer-scan-to-pc-report.md) — Marcus称Opus为Omarchy安装驱动，并在启动Windows后从15年前ZIP研究Scan to PC按键；未给型号、协议或扫描输出，不能认定已完成Linux按键互通。 **[其他 AI 逆向 · 待验证]**
+- [ROLI键盘软件续命：CloudyOne提出用AI逆向Agent修复Android体验的idea](../cases/cloudyone-roli-keyboards-ai-software-revival-idea.md) — CloudyOne因自有ROLI键盘配套Android应用有故障，提出把软件恢复作为AI逆向Agent任务；没有型号、代码或进展，公司经营判断只属作者担忧。 **[未确认使用 REA · 待验证]**
+- [DeepSeek寻找ECU点火表：Jonathan Sandhu转述Ash的二进制调查，而非已完成车辆调校](../cases/ash-deepseek-ecu-ignition-table-investigation-report.md) — Jonathan称Ash让DeepSeek在发动机控制器二进制中寻找点火表，并强调候选表定位不等于安全改写；车辆、ECU版本、表地址和台架结果均未提供。 **[其他 AI 逆向 · 待验证]**
 - [Split60HE二手键盘连发：Matías称Claude解码flash校准记录后修复](../cases/matias-split60he-claude-flash-calibration-repair-report.md) — Matías称Claude结合开源固件、KiCad和USB传感器数据，找到右半39键全按下的校准值问题；备份重刷v1.11后69键静止均0%，未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [Samsung NV3拍RAW：用Codex修改老数码相机固件的具体想法](../cases/samsung-nv3-codex-raw-firmware-idea.md) — 西班牙语作者提出用Codex（原帖GPT6.1 Sol）修改Samsung NV3固件以拍RAW，未报告提取、补丁或成功照片。 **[其他 AI 逆向 · 待验证]**
 - [绕开libcuda构建NVRM生命周期：文章报告Codex与Anthropic拒答的受阻尝试](../cases/nvrm-c11-libcuda-independent-lifecycle-ai-refusal-report.md) — 作者以C11直接分配NVRM client／device对象为例讨论GPU互通，称Codex和Anthropic安全限制阻止帮助；无代码或拒答日志，不接受其商业动机推断。 **[其他 AI 逆向 · 待验证]**
@@ -39,7 +43,7 @@
 - [Soundcore D3200到Mac输入法：让Agent改造实时取流客户端的idea](../cases/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔提出让Agent改造tacshi/Soundcore，把录音豆用于Mac微信语音输入；项目文档支持蓝牙取流与可选转写，但光标粘贴仍是待补步骤，零延时未测。 **[其他 AI 逆向 · 进行中]**
 - [旧Ford的SYNC升3.4：Trevin Chow在REA语境下尝试车机升级](../cases/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow以Reverse engineer anything开场，称尝试将旧Ford的SYNC升至3.4；未报告成功、车型、现有版本或具体工具调用。 **[未确认使用 REA · 进行中]**
 - [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](../cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**
-- [一台未具名平板：Devsec AI称Agent辅助逆向已用36小时](../cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI称在一台平板的rea工作上已花36小时，强调Agent虽加速，高质量结果仍需时间；设备、工具与成果未说明。 **[未确认使用 REA · 进行中]**
+- [Devsec AI的未具名平板：36小时自述后，Omarchy性能与声音仍未解决](../cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI此前称平板逆向已投入36小时，11月15日又报告Omarchy性能优化和声音仍有问题；设备型号、模型和修复实现未知，保持进行中。 **[未确认使用 REA · 进行中]**
 - [自家可视对讲：Claude研究Android协议，作者称CLI开门与视频只加密前64字节](../cases/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT称Claude研究可视对讲Android应用与通信协议，用自制CLI开自家前门，并发现蜂窝网络视频每帧仅前64字节加密；无型号或抓包核验。 **[其他 AI 逆向 · 进行中]**
 - [云端停服后的Surfboard W161：作者称Codex识别USB接入引脚以进入路由器](../cases/surfboard-w161-codex-usb-pin-access-report.md) — hello称Codex帮助研究失去厂商云端支持的Surfboard W161 WiFi路由器，用便宜USB适配器识别应接引脚以进入设备；未报告恢复联网或新固件。 **[其他 AI 逆向 · 进行中]**
 - [富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用](../cases/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。 **[其他 AI 逆向 · 待验证]**

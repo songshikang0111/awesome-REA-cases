@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [如果分词文档消失：ChatGPT辅助设计黑箱探测token边界的idea](../cases/chatgpt-blackbox-tokenizer-rediscovery-idea.md) — 作者贴出ChatGPT的方案：微扰输入、观察usage计数与logprobs，推断词片边界和候选切分；没有指定模型、采样记录或恢复出的词表。 **[其他 AI 逆向 · 待验证]**
 - [Apple Health导出到/death-date：Phosphen的AI数据拆解，不是恢复Apple秘密寿命评分](../cases/phosphen-apple-health-export-death-date-analysis-report.md) — 作者称Fable5.2分析Health导出，并用Claude Code skill把心率／VO2max套生命表；数据数量与死亡年份未经核验，不是医学预测或Apple内部算法恢复。 **[其他 AI 逆向 · 待验证]**
 - [FAA通信故障审计idea：Ariel Garbarz提出Inverse AI研究FTI，未取得技术记录](../cases/garbarz-faa-fti-inverse-ai-failure-audit-idea.md) — Garbarz要求检查FAA／L3Harris FTI更新日志、版本、告警和时间线，并提自动系统逆向与决策重建；只是调查建议，不证明芝加哥起因或AI攻击。 **[未确认使用 REA · 待验证]**
 - [rea-toon：从短剧逐镜研究人物、台词与结构，导出剧本和VIDEO.md的Agent项目](../cases/rea-toon-short-drama-shot-script-analysis-project.md) — JuneYaooo在rea-video上增加短剧人物、说话人、情绪与跨集结构层，文档称可回放逐镜证据并输出研读／剧本／分镜与VIDEO.md；尚未运行，非商业许可。 **[其他 AI 逆向 · 相关项目]**
