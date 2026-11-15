@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [OpenDesign：从参考截图提炼品牌规范，再交给编码Agent重建界面的工作台](../cases/opendesign-reference-screenshot-brand-spec-project.md) — AIWare介绍OpenDesign以截图／URL提炼DESIGN.md，向Claude Code、Codex等复用品牌规则；固定README确认该工作流，但未测提取准确性或重建一致性。 **[其他 AI 逆向 · 相关项目]**
+- [WindowsiOS：Gemini辅助ARM64翻译与Windows兼容环境，项目称在iPhone上运行Windows11](../cases/windowsios-gemini-arm64-windows-iphone-compatibility-project.md) — Andrew111转述Ammaar Reshi的Windows11／iOS演示；固定项目文档归功于Gemini4 Carbon与Henge等上游，描述JIT、4KB MMU与虚拟设备，不是裸机Windows或独立复现。 **[其他 AI 逆向 · 待验证]**
 - [WebsiteBench：从浏览器探索重建全栈网站，以隐藏功能测试和视觉对照检验](../cases/websitebench-browser-only-fullstack-reconstruction-benchmark.md) — Johnnysama介绍浏览器黑箱网站重建评测；固定README确认70站、46916隐藏测试，功能通过且各视觉点SSIM达0.99才计通过。模型分数与成本仍为二手未核值。 **[其他 AI 逆向 · 分析测试]**
 - [端到端加密遇上推送通知：Kiro转述REA算法、密钥路径与明文旁路审计idea](../cases/rea-e2ee-push-notification-key-path-audit-idea.md) — Kiro介绍用REA检查聊天应用的加密算法、密钥来源、推送／链接预览与服务器AI处理；没有具名被测应用、执行轨迹或确认泄露，不把提示词当审计结果。 **[REA · 待验证]**
 - [CyberGate：Staream介绍用于本地二进制审计误拒问题的vLLM插件](../cases/cybergate-vllm-binary-audit-refusal-plugin-project.md) — Staream称CyberGate不改模型权重，面向本地LLM网络安全研究中的误拒；补读作者串确认名称，但未可靠对应源码，未验证审计质量或选择性安全边界。 **[其他 AI 逆向 · 相关项目]**
