@@ -10,12 +10,12 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2278 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2279 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（449）
-- [硬件与设备互通](categories/hardware.md)（608）
+- [硬件与设备互通](categories/hardware.md)（609）
 - [应用与客户端](categories/apps.md)（947）
 - [算法与功能重建](categories/algorithms.md)（274）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
@@ -172,7 +172,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — 读者把AnyPS5描述为AI加速系统调用逆向的兼容层，并与Proton作类比；未提供源码、游戏测试或AI分工，不能确认无仿真或已可玩。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — 读者称AI加速AnyPS5系统调用研究；新帖描述PS5游戏重链接至Windows／Linux及Vulkan转换，但未核源码或可玩性，GTA6移植只是预测。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
@@ -478,6 +478,7 @@
 
 ### 硬件与设备互通
 
+- [Lumen电子书固件：AI辅助Go净室重写的二手报告，专利争议未核](cases/lumen-go-ai-ereader-firmware-secondary-report.md) — 老K旅途不沉默转述独立开发者用AI辅助以Go净室重写Lumen电子书阅读器固件，并称仓库因专利指控转私密；未取得源码、设备测试或法律材料。 **[其他 AI 逆向 · 待验证]**
 - [Mike Lembo的家庭恒温器：研究API，用MCP替代原厂界面的进行中项目](cases/personal-thermostat-api-mcp-claude-project.md) — Mike在Claude家庭项目清单中列出逆向恒温器API、改用MCP控制的工作；未给品牌、协议或成功控制记录，不把Home Assistant管理成果挪给恒温器。 **[其他 AI 逆向 · 进行中]**
 - [老激光打印机的Scan to PC：Marcus Eisele称Opus研究15年前ZIP以继续使用设备](cases/marcus-eisele-opus-old-printer-scan-to-pc-report.md) — Marcus称Opus为Omarchy安装驱动，并在启动Windows后从15年前ZIP研究Scan to PC按键；未给型号、协议或扫描输出，不能认定已完成Linux按键互通。 **[其他 AI 逆向 · 待验证]**
 - [ROLI键盘软件续命：CloudyOne提出用AI逆向Agent修复Android体验的idea](cases/cloudyone-roli-keyboards-ai-software-revival-idea.md) — CloudyOne因自有ROLI键盘配套Android应用有故障，提出把软件恢复作为AI逆向Agent任务；没有型号、代码或进展，公司经营判断只属作者担忧。 **[未确认使用 REA · 待验证]**
@@ -494,7 +495,7 @@
 - [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
 - [Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea](cases/alienware17-r5-64gb-rea-bios-study-idea.md) — 读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。 **[REA · 待验证]**
 - [Ember恒温杯：Dmitriy称Codex探测蓝牙并在约一小时内做出控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md) — 作者称Codex探测杯子的蓝牙特征、对照远控iOS应用，做出温度、灯和杯量显示；工时与功能为自述，未核代码或量测精度。 **[其他 AI 逆向 · 待验证]**
-- [Coway Airmega IconS脱云：HTTP根证书、AI蓝牙研究与Web Bluetooth安装器的二手报告](cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称替换HTTP下载的根证书接本地MQTT，AI研究蓝牙protobuf配网；新帖点名Airmega IconS及Chrome Web Bluetooth安装器，仍未核代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
+- [Coway Airmega IconS脱云：HTTP根证书、AI蓝牙研究与Web Bluetooth安装器的二手报告](cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — Coway脱云的转述称AI结合蓝牙日志与APK研究配网，浏览器可改指本地MQTT；新帖点名Scott Goldman和adb／HCI采集，代码、20分钟工时及实机互通仍未核。 **[其他 AI 逆向 · 待验证]**
 - [让冰箱只制冷：读者提出用REA去除多余智能行为的idea](cases/rea-smart-fridge-basic-cooling-only-idea.md) — 葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。 **[REA · 待验证]**
 - [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
 - [Pixel9的bigwave硬解：作者称Claude用Waydroid采集原厂解码数据，初步能跑但仍有问题](cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243先报告Claude接受Pixel9研究，次日称bigwave硬解初步能跑；方法是Claude在Waydroid环境采集Android原厂解码器数据，仍有不少问题、需要大量测试。 **[其他 AI 逆向 · 进行中]**
@@ -1199,7 +1200,7 @@
 - [LASIK：静态清除BLA诱饵，2100万到1.7万是读入量估算而非Agent实测](cases/lasik-bla-static-deblinding-cli-mcp.md) — LASIK提供CLI／MCP静态去保护；公开CrackMe与21格式自有样本报告大幅缩小读入体积，保留误删回归测试。没有实测REA解题、token账单或通用语义等价证明。 **[其他 AI 逆向 · 分析测试]**
 - [Humanizer DLL：Dennis Rongo称Claude Code／REA重建C#并通过170项测试](cases/codingmenace-humanizer-rea-csharp-rebuild-test.md) — Dennis Rongo报告只给.NET DLL、不提供源码，让Claude Code与REA重建Humanizer，得到C#与170测试通过；未提供测试来源或覆盖，不等于全部行为一致。 **[REA · 分析测试]**
 - [WinMerge重建：51项通过，但Dennis Rongo提醒测试也是Claude写的](cases/codingmenace-winmerge-rea-self-written-tests.md) — Dennis Rongo用Claude Code与REA研究无源码Windows应用WinMerge，报告51项测试通过并强调测试由Claude自编；没有原版差分或功能覆盖证据。 **[REA · 分析测试]**
-- [CTBC银行COBOL主机逆向：多Agent门禁与约8到2人日的PoC转述](cases/ctbc-bedrock-agentcore-mainframe-reverse-engineering.md) — 既有报道介绍CTBC用Bedrock AgentCore理解主机系统；Michael新增转述COBOL、一主管七子Agent、交接质量门禁及同输入PoC每份产物约8到2人日，未核一手材料。 **[其他 AI 逆向 · 待验证]**
+- [CTBC银行COBOL主机逆向：多Agent门禁与约8到2人日的PoC转述](cases/ctbc-bedrock-agentcore-mainframe-reverse-engineering.md) — CTBC的COBOL主机理解项目：既有转述称主管加七子Agent与交接门禁，新帖补充每份报告约8人日、单Agent约6人日、七Agent约2人日；仍未核一手PoC。 **[其他 AI 逆向 · 待验证]**
 - [Byte Downloader：Jones Byte称REA与Claude重建部分功能仍很不完整](cases/byte-downloader-rea-incomplete-recreation-tests.md) — 开发者以自己的下载与剪辑工具测试REA／Claude重建，报告结果不完整，强调生成代码与可交付产品的差别；无逐项对照或复跑记录。 **[REA · 分析测试]**
 - [Cindy中继检查：AI指出Node.js代码明文，用户再确认单租户relay开源](cases/cindy-relay-ai-plaintext-open-source-check.md) — 用户让AI研究Cindy中继并要求逆向，模型称代码是明文；用户随后在源码确认自部署单租户relay开源，明确不涵盖官方服务器。 **[其他 AI 逆向 · 分析测试]**
 - [Tokimi防御访问计划：先用Claude检查自己的数字信任产品与可疑文件](cases/tokimi-claude-defense-access-product-audit-plan.md) — 时见称获Anthropic Defense Access，计划先审Timestamp、IFF Apostille、Monitor等自身产品，并隔离分析可疑文件；未报告已完成逆向或漏洞发现。 **[其他 AI 逆向 · 进行中]**

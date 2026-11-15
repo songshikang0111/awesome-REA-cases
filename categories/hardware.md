@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Lumen电子书固件：AI辅助Go净室重写的二手报告，专利争议未核](../cases/lumen-go-ai-ereader-firmware-secondary-report.md) — 老K旅途不沉默转述独立开发者用AI辅助以Go净室重写Lumen电子书阅读器固件，并称仓库因专利指控转私密；未取得源码、设备测试或法律材料。 **[其他 AI 逆向 · 待验证]**
 - [Mike Lembo的家庭恒温器：研究API，用MCP替代原厂界面的进行中项目](../cases/personal-thermostat-api-mcp-claude-project.md) — Mike在Claude家庭项目清单中列出逆向恒温器API、改用MCP控制的工作；未给品牌、协议或成功控制记录，不把Home Assistant管理成果挪给恒温器。 **[其他 AI 逆向 · 进行中]**
 - [老激光打印机的Scan to PC：Marcus Eisele称Opus研究15年前ZIP以继续使用设备](../cases/marcus-eisele-opus-old-printer-scan-to-pc-report.md) — Marcus称Opus为Omarchy安装驱动，并在启动Windows后从15年前ZIP研究Scan to PC按键；未给型号、协议或扫描输出，不能认定已完成Linux按键互通。 **[其他 AI 逆向 · 待验证]**
 - [ROLI键盘软件续命：CloudyOne提出用AI逆向Agent修复Android体验的idea](../cases/cloudyone-roli-keyboards-ai-software-revival-idea.md) — CloudyOne因自有ROLI键盘配套Android应用有故障，提出把软件恢复作为AI逆向Agent任务；没有型号、代码或进展，公司经营判断只属作者担忧。 **[未确认使用 REA · 待验证]**
@@ -18,7 +19,7 @@
 - [Apple笔记本跑Linux：Joshua称让LLM改亮度设置并人工反馈明暗](../cases/joshua-warren-apple-laptop-linux-brightness-agent-study.md) — Joshua Warren称远端Agent通过线缆调整桌上Apple笔记本固件亮度，询问屏幕变亮或变暗，以支持Linux；未给型号、代码或完整驱动成果。 **[其他 AI 逆向 · 进行中]**
 - [Alienware 17 R5与64GB内存：读者询问用REA研究BIOS的idea](../cases/alienware17-r5-64gb-rea-bios-study-idea.md) — 读者得知Alienware 17 R5似乎可用64GB内存，询问能否用REA逆向BIOS；未说明具体限制、固件版本或实际修改。 **[REA · 待验证]**
 - [Ember恒温杯：Dmitriy称Codex探测蓝牙并在约一小时内做出控制端](../cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md) — 作者称Codex探测杯子的蓝牙特征、对照远控iOS应用，做出温度、灯和杯量显示；工时与功能为自述，未核代码或量测精度。 **[其他 AI 逆向 · 待验证]**
-- [Coway Airmega IconS脱云：HTTP根证书、AI蓝牙研究与Web Bluetooth安装器的二手报告](../cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — 转述称替换HTTP下载的根证书接本地MQTT，AI研究蓝牙protobuf配网；新帖点名Airmega IconS及Chrome Web Bluetooth安装器，仍未核代码与20分钟工时。 **[其他 AI 逆向 · 待验证]**
+- [Coway Airmega IconS脱云：HTTP根证书、AI蓝牙研究与Web Bluetooth安装器的二手报告](../cases/coway-iocare-ai-bluetooth-local-mqtt-secondary-report.md) — Coway脱云的转述称AI结合蓝牙日志与APK研究配网，浏览器可改指本地MQTT；新帖点名Scott Goldman和adb／HCI采集，代码、20分钟工时及实机互通仍未核。 **[其他 AI 逆向 · 待验证]**
 - [让冰箱只制冷：读者提出用REA去除多余智能行为的idea](../cases/rea-smart-fridge-basic-cooling-only-idea.md) — 葡语回复建议用REA把自作聪明的硬件变简单，以冰箱只制冷为例；未给型号、固件、实施步骤或结果。 **[REA · 待验证]**
 - [电视与手机的听不见声音通信：Stim-P建议REA关闭的隐私idea](../cases/stimm-rea-tv-phone-inaudible-tracking-disable-idea.md) — Stim-P回复电视可用不可闻声音与手机通信的说法，建议REA加Agent关闭；没有电视型号、频率或代码，不证明该追踪机制在任何设备上存在。 **[REA · 待验证]**
 - [Pixel9的bigwave硬解：作者称Claude用Waydroid采集原厂解码数据，初步能跑但仍有问题](../cases/llsswssw-pixel9-bigwave-claude-decoder-attempt.md) — llsswssw3243先报告Claude接受Pixel9研究，次日称bigwave硬解初步能跑；方法是Claude在Waydroid环境采集Android原厂解码器数据，仍有不少问题、需要大量测试。 **[其他 AI 逆向 · 进行中]**
