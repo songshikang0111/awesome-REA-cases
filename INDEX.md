@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2290 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2299 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（455）
-- [硬件与设备互通](categories/hardware.md)（612）
-- [应用与客户端](categories/apps.md)（949）
-- [算法与功能重建](categories/algorithms.md)（274）
+- [游戏与游戏保存](categories/games.md)（456）
+- [硬件与设备互通](categories/hardware.md)（614）
+- [应用与客户端](categories/apps.md)（952）
+- [算法与功能重建](categories/algorithms.md)（277）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [PES6补上传球力度条：Garabanda称用REA与Codex给周末老游戏加功能](cases/garabanda-pes6-rea-codex-pass-gauge.md) — Garabanda与好友常玩PES6，想要现代足球游戏的传球力度提示，报告用REA与Codex为传球、直塞和挑传加上量表；没有代码或兼容性验证。 **[REA · 待验证]**
 - [PocketPort Anything：AI辅助3DS移植研究框架，不是任意游戏转换器](cases/pocketport-anything-ai-3ds-porting-research-framework.md) — yibie介绍3DS移植研究流水线；固定文档将受限IR转C、主机测试、原生交叉编译与实机可玩分开，尚无完整商业游戏或物理3DS验证。 **[其他 AI 逆向 · 进行中]**
 - [TA Reborn：Claude参与的Rust横扫千军新引擎，复用自有游戏数据而非重编译原EXE](cases/ta-reborn-rust-total-annihilation-ai-engine.md) — yibie介绍TA Reborn；固定README明确Jared Woodruff主导、Claude Opus5.5开发、GPT6 Astra QA，基于社区格式研究重写Rust引擎，未独立核验玩法和两万单位宣传。 **[其他 AI 逆向 · 进行中]**
 - [Cyberpunk2077角色编辑器：ILemonsU用AI辅助逆向，尝试预览自定义发型](cases/ilemonsu-cyberpunk2077-hair-preview-character-editor.md) — 作者在2077 Mod工作中开发自定义角色编辑器，称用迂回RTT方式预览发型并使用AI逆向；Nexus发布仍是计划，模型和可运行代码未给。 **[其他 AI 逆向 · 进行中]**
@@ -484,6 +485,8 @@
 
 ### 硬件与设备互通
 
+- [Fireface UCX完整控制上Linux：Johan用REA与Claude研究Windows驱动，逐项接线实测](cases/johan-fireface-ucx-linux-rea-claude-driver.md) — Johan Yngman报告为第一代RME Fireface UCX重建Linux驱动、终端混音器及协议文档，48kHz经PipeWire往返3.5ms；仅一台设备测试，未独立复现。 **[REA · 待验证]**
+- [M4 Pro跑NixOS：Aizenn称与Claude写OCaml解码器恢复GPU固件布局，扬声器仍未处理](cases/aizenn-m4pro-claude-ocaml-gpu-firmware-decoder.md) — 作者称Apple在27.2改变GPU固件接口，借Claude编写AArch64固件解码器恢复布局并运行NixOS；同串归功于Aurora补丁，仍担心扬声器保护，未核源码。 **[其他 AI 逆向 · 进行中]**
 - [Litra Glow灯不装G HUB：Manuel Bieh称Claude做出约2MB菜单栏控制器](cases/manuelbieh-litra-glow-claude-usb-menubar-controller.md) — 作者报告Claude研究Logitech Litra Glow的USB控制，替换庞大G HUB；固定README确认USB HID与亮度／色温控制，同时归功于社区协议研究，未实机验证。 **[其他 AI 逆向 · 待验证]**
 - [iPhone镜像不认软件点击：sang jie用AI和ESP32-S3试做硬件鼠标，仍未完成](cases/sangjie-esp32s3-iphone-mirroring-mouse-attempt.md) — 作者为iPhone镜像研究真实鼠标输入，刷ESP32-S3固件并加点击前、中、后三阶段检查；报告串口、点击与虚假ok问题，AI额度耗尽仍未打通。 **[其他 AI 逆向 · 进行中]**
 - [GJ-11／GJ-21公开图像研究：C.Ed向Grok提出区分文档与猜测的idea](cases/ced-grok-gj11-gj21-public-imagery-study-idea.md) — C.Ed给Grok一组公开飞机资料研究提示，要求来源标记与图像比较；没有模型回答、测量或验证，本记录仅概述研究提案，不提供军用设计或性能结论。 **[其他 AI 逆向 · 待验证]**
@@ -1099,6 +1102,9 @@
 
 ### 应用与客户端
 
+- [Graphite：把APK调用链与数据流变成Agent可查的程序图，不需要源码](cases/graphite-apk-program-graph-agent-analysis.md) — Johnson Li介绍Graphite以程序图支持Agent查询APK的调用链和值来源；固定README确认字节码、Cypher与MCP路径，并警告反射和动态加载会留下缺口。 **[其他 AI 逆向 · 相关项目]**
+- [NT Next的REA隔离设想：把逆向Agent留在用户态，以人工授权控制提权](cases/nt-next-rea-userspace-oracle-isolation-idea.md) — 日语架构思想实验提出将REA作为边界外用户态worker，阻止内核自主改写与AI互相批准；0ns和15ns是未证实的设计宣称，不是OS实测。 **[REA · 待验证]**
+- [learn-harness-engineering：拆读Claude Code、Codex、DeepSeek与Pi的外围系统设计课程](cases/walkinglabs-harness-design-breakdowns-course.md) — 候选介绍四种Agent harness的设计拆读；固定课程文档确认记忆、工具、隔离与反馈机制比较及14讲8项目，但不是模型权重或闭源代码的完整恢复。 **[其他 AI 逆向 · 相关项目]**
 - [reverse-skill：给AI研究APK、二进制与固件选择方法的路由工作台](cases/reverse-skill-routing-ai-security-workbench.md) — 候选介绍routing.md技能包；固定README确认授权范围、工具检查、场景路由和证据报告流程，221个路由回归案例不等于221个目标被成功逆向。 **[其他 AI 逆向 · 相关项目]**
 - [BitMania的工作网站：Grok Bot真实使用清单中的REA漏洞研究自述](cases/thai-grokbot-rea-work-website-audit-report.md) — BitMania在泰文年度订阅使用清单中列出用REA查工作网站漏洞；是具体场景的低细节报告，没有漏洞、代码、报告或节省时间的测量。 **[REA · 待验证]**
 - [OpenDesign：从参考截图提炼品牌规范，再交给编码Agent重建界面的工作台](cases/opendesign-reference-screenshot-brand-spec-project.md) — AIWare介绍OpenDesign以截图／URL提炼DESIGN.md，向Claude Code、Codex等复用品牌规则；固定README确认该工作流，但未测提取准确性或重建一致性。 **[其他 AI 逆向 · 相关项目]**
@@ -2051,6 +2057,9 @@
 
 ### 算法与功能重建
 
+- [Buffett／Munger写作到选股规则：Jurgis称用Claude Code与Antigravity重建确定性评分器](cases/buffett-munger-claude-rubric-stock-scanner.md) — 本窗口转推链接到4月文章：Jurgis Pocius把六十年投资文字提炼成Python量表，自报929只股票17分钟、22项测试；模型只写叙述，不直接选股，未验证收益。 **[其他 AI 逆向 · 待验证]**
+- [爆火短视频复刻Agent：基于rea-video拆镜，仍在寻找保留与替换的交互方式](cases/rosie-rea-video-remake-agent-intent-project.md) — rosieblossom08链接的文章描述在rea-video上搭产品，自报能拆镜与给提示，难点是用户想原样复刻还是换人、产品、场景；不等同已做出稳定一键仿拍。 **[其他 AI 逆向 · 进行中]**
+- [Arvow的12个购买问题：从AI引用清单反推品牌曝光，70%不是排名或销量](cases/arvow-twelve-prompt-ai-citation-listicle-audit.md) — Arvow转述Vasco以非品牌购买问题查询五种AI答案，检查引用后同时改内容与付费加品牌，自报70%可见度；样本与来源打码，不能分离两动作效果。 **[其他 AI 逆向 · 待验证]**
 - [如果分词文档消失：ChatGPT辅助设计黑箱探测token边界的idea](cases/chatgpt-blackbox-tokenizer-rediscovery-idea.md) — 作者贴出ChatGPT的方案：微扰输入、观察usage计数与logprobs，推断词片边界和候选切分；没有指定模型、采样记录或恢复出的词表。 **[其他 AI 逆向 · 待验证]**
 - [Apple Health导出到/death-date：Phosphen的AI数据拆解，不是恢复Apple秘密寿命评分](cases/phosphen-apple-health-export-death-date-analysis-report.md) — 作者称Fable5.2分析Health导出，并用Claude Code skill把心率／VO2max套生命表；数据数量与死亡年份未经核验，不是医学预测或Apple内部算法恢复。 **[其他 AI 逆向 · 待验证]**
 - [FAA通信故障审计idea：Ariel Garbarz提出Inverse AI研究FTI，未取得技术记录](cases/garbarz-faa-fti-inverse-ai-failure-audit-idea.md) — Garbarz要求检查FAA／L3Harris FTI更新日志、版本、告警和时间线，并提自动系统逆向与决策重建；只是调查建议，不证明芝加哥起因或AI攻击。 **[未确认使用 REA · 待验证]**
@@ -2263,7 +2272,7 @@
 - [主经纪商仓位截图：用AI恢复时间序列来判断数据价值的自述](cases/prime-broker-positioning-screenshot-ai-timeseries.md) — 作者称可用AI把主经纪商仓位截图还原为底层时间序列，以区别有用数据与高盛营销材料；没有提供样本、模型或恢复误差。 **[其他 AI 逆向 · 待验证]**
 - [社交媒体爆款概率：Alin A提出REA研究推荐算法后放弃的想法](cases/social-media-viral-probability-rea-abandoned-idea.md) — Alin A设想研究推荐算法、提取爆款概率模型并循环出稿涨粉，但明确作罢；没有指定平台、数据或预测结果。 **[REA · 待验证]**
 - [小米运动热量累加：DeepSeek逆向后发现刷新重复计入的转述](cases/xiaomi-motion-deepseek-calorie-refresh-report.md) — 澜知AI转述DeepSeek研究小米运动算法，称同一分钟刷新会使40步热量从1.6变8.28卡；后续承认等待抓包与完整复现。 **[其他 AI 逆向 · 待验证]**
-- [CUDA：让 Agent 群尝试反编译的读者挑战](cases/cuda-agent-swarm-decompile-idea.md) — loveofdoing提议让Agent群反编译CUDA，没有指定组件、版本或兼容目标，也没有实施报告。 **[其他 AI 逆向 · 待验证]**
+- [CUDA：让 Agent 群尝试反编译的读者挑战](cases/cuda-agent-swarm-decompile-idea.md) — loveofdoing提议Agent群反编译CUDA；11月15日另有读者明确问AI能否让CUDA跑任意显卡，补充兼容愿望但没有组件、版本或实施结果。 **[其他 AI 逆向 · 待验证]**
 - [LLM4Decompile：恢复C函数，以及候选选择与难读化追加学习的研究转述](cases/llm4decompile-assembly-c-models.md) — 专用模型从汇编或Ghidra伪代码恢复C；新增吉川孝志对100候选选择与ExeBench-Obfuscated训练的转述，区分oracle上限、可用选择器及不同输入条件，未复现实验。 **[其他 AI 逆向 · 分析测试]**
 - [合约买入前检查台：Claude／Ghidra 分析卖出路径并纠正代理误报的自述](cases/claude-ghidra-contract-rug-check-desk.md) — 发布者报告用字节码红旗检查阻止买入，并称纠正一次 OpenZeppelin 代理误报；没有链地址、代码或日志可复核。 **[其他 AI 逆向 · 待验证]**
 - [Slice 金库调查：Sonnet 从反编译字节码定位外部返回值记账问题](cases/slice-vault-sonnet-decompiled-bytecode.md) — coffiasse称免费Sonnet 5.5不到两分钟定位漏洞函数，并确认用Claude处理字节码；约4.1万美元损失与可利用性未在此独立链上核验。 **[其他 AI 逆向 · 分析测试]**

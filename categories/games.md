@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [PES6补上传球力度条：Garabanda称用REA与Codex给周末老游戏加功能](../cases/garabanda-pes6-rea-codex-pass-gauge.md) — Garabanda与好友常玩PES6，想要现代足球游戏的传球力度提示，报告用REA与Codex为传球、直塞和挑传加上量表；没有代码或兼容性验证。 **[REA · 待验证]**
 - [PocketPort Anything：AI辅助3DS移植研究框架，不是任意游戏转换器](../cases/pocketport-anything-ai-3ds-porting-research-framework.md) — yibie介绍3DS移植研究流水线；固定文档将受限IR转C、主机测试、原生交叉编译与实机可玩分开，尚无完整商业游戏或物理3DS验证。 **[其他 AI 逆向 · 进行中]**
 - [TA Reborn：Claude参与的Rust横扫千军新引擎，复用自有游戏数据而非重编译原EXE](../cases/ta-reborn-rust-total-annihilation-ai-engine.md) — yibie介绍TA Reborn；固定README明确Jared Woodruff主导、Claude Opus5.5开发、GPT6 Astra QA，基于社区格式研究重写Rust引擎，未独立核验玩法和两万单位宣传。 **[其他 AI 逆向 · 进行中]**
 - [Cyberpunk2077角色编辑器：ILemonsU用AI辅助逆向，尝试预览自定义发型](../cases/ilemonsu-cyberpunk2077-hair-preview-character-editor.md) — 作者在2077 Mod工作中开发自定义角色编辑器，称用迂回RTT方式预览发型并使用AI逆向；Nexus发布仍是计划，模型和可运行代码未给。 **[其他 AI 逆向 · 进行中]**

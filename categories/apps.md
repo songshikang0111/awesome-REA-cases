@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Graphite：把APK调用链与数据流变成Agent可查的程序图，不需要源码](../cases/graphite-apk-program-graph-agent-analysis.md) — Johnson Li介绍Graphite以程序图支持Agent查询APK的调用链和值来源；固定README确认字节码、Cypher与MCP路径，并警告反射和动态加载会留下缺口。 **[其他 AI 逆向 · 相关项目]**
+- [NT Next的REA隔离设想：把逆向Agent留在用户态，以人工授权控制提权](../cases/nt-next-rea-userspace-oracle-isolation-idea.md) — 日语架构思想实验提出将REA作为边界外用户态worker，阻止内核自主改写与AI互相批准；0ns和15ns是未证实的设计宣称，不是OS实测。 **[REA · 待验证]**
+- [learn-harness-engineering：拆读Claude Code、Codex、DeepSeek与Pi的外围系统设计课程](../cases/walkinglabs-harness-design-breakdowns-course.md) — 候选介绍四种Agent harness的设计拆读；固定课程文档确认记忆、工具、隔离与反馈机制比较及14讲8项目，但不是模型权重或闭源代码的完整恢复。 **[其他 AI 逆向 · 相关项目]**
 - [reverse-skill：给AI研究APK、二进制与固件选择方法的路由工作台](../cases/reverse-skill-routing-ai-security-workbench.md) — 候选介绍routing.md技能包；固定README确认授权范围、工具检查、场景路由和证据报告流程，221个路由回归案例不等于221个目标被成功逆向。 **[其他 AI 逆向 · 相关项目]**
 - [BitMania的工作网站：Grok Bot真实使用清单中的REA漏洞研究自述](../cases/thai-grokbot-rea-work-website-audit-report.md) — BitMania在泰文年度订阅使用清单中列出用REA查工作网站漏洞；是具体场景的低细节报告，没有漏洞、代码、报告或节省时间的测量。 **[REA · 待验证]**
 - [OpenDesign：从参考截图提炼品牌规范，再交给编码Agent重建界面的工作台](../cases/opendesign-reference-screenshot-brand-spec-project.md) — AIWare介绍OpenDesign以截图／URL提炼DESIGN.md，向Claude Code、Codex等复用品牌规则；固定README确认该工作流，但未测提取准确性或重建一致性。 **[其他 AI 逆向 · 相关项目]**

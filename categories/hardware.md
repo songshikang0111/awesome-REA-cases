@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Fireface UCX完整控制上Linux：Johan用REA与Claude研究Windows驱动，逐项接线实测](../cases/johan-fireface-ucx-linux-rea-claude-driver.md) — Johan Yngman报告为第一代RME Fireface UCX重建Linux驱动、终端混音器及协议文档，48kHz经PipeWire往返3.5ms；仅一台设备测试，未独立复现。 **[REA · 待验证]**
+- [M4 Pro跑NixOS：Aizenn称与Claude写OCaml解码器恢复GPU固件布局，扬声器仍未处理](../cases/aizenn-m4pro-claude-ocaml-gpu-firmware-decoder.md) — 作者称Apple在27.2改变GPU固件接口，借Claude编写AArch64固件解码器恢复布局并运行NixOS；同串归功于Aurora补丁，仍担心扬声器保护，未核源码。 **[其他 AI 逆向 · 进行中]**
 - [Litra Glow灯不装G HUB：Manuel Bieh称Claude做出约2MB菜单栏控制器](../cases/manuelbieh-litra-glow-claude-usb-menubar-controller.md) — 作者报告Claude研究Logitech Litra Glow的USB控制，替换庞大G HUB；固定README确认USB HID与亮度／色温控制，同时归功于社区协议研究，未实机验证。 **[其他 AI 逆向 · 待验证]**
 - [iPhone镜像不认软件点击：sang jie用AI和ESP32-S3试做硬件鼠标，仍未完成](../cases/sangjie-esp32s3-iphone-mirroring-mouse-attempt.md) — 作者为iPhone镜像研究真实鼠标输入，刷ESP32-S3固件并加点击前、中、后三阶段检查；报告串口、点击与虚假ok问题，AI额度耗尽仍未打通。 **[其他 AI 逆向 · 进行中]**
 - [GJ-11／GJ-21公开图像研究：C.Ed向Grok提出区分文档与猜测的idea](../cases/ced-grok-gj11-gj21-public-imagery-study-idea.md) — C.Ed给Grok一组公开飞机资料研究提示，要求来源标记与图像比较；没有模型回答、测量或验证，本记录仅概述研究提案，不提供军用设计或性能结论。 **[其他 AI 逆向 · 待验证]**

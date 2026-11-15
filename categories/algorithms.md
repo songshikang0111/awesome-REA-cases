@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Buffett／Munger写作到选股规则：Jurgis称用Claude Code与Antigravity重建确定性评分器](../cases/buffett-munger-claude-rubric-stock-scanner.md) — 本窗口转推链接到4月文章：Jurgis Pocius把六十年投资文字提炼成Python量表，自报929只股票17分钟、22项测试；模型只写叙述，不直接选股，未验证收益。 **[其他 AI 逆向 · 待验证]**
+- [爆火短视频复刻Agent：基于rea-video拆镜，仍在寻找保留与替换的交互方式](../cases/rosie-rea-video-remake-agent-intent-project.md) — rosieblossom08链接的文章描述在rea-video上搭产品，自报能拆镜与给提示，难点是用户想原样复刻还是换人、产品、场景；不等同已做出稳定一键仿拍。 **[其他 AI 逆向 · 进行中]**
+- [Arvow的12个购买问题：从AI引用清单反推品牌曝光，70%不是排名或销量](../cases/arvow-twelve-prompt-ai-citation-listicle-audit.md) — Arvow转述Vasco以非品牌购买问题查询五种AI答案，检查引用后同时改内容与付费加品牌，自报70%可见度；样本与来源打码，不能分离两动作效果。 **[其他 AI 逆向 · 待验证]**
 - [如果分词文档消失：ChatGPT辅助设计黑箱探测token边界的idea](../cases/chatgpt-blackbox-tokenizer-rediscovery-idea.md) — 作者贴出ChatGPT的方案：微扰输入、观察usage计数与logprobs，推断词片边界和候选切分；没有指定模型、采样记录或恢复出的词表。 **[其他 AI 逆向 · 待验证]**
 - [Apple Health导出到/death-date：Phosphen的AI数据拆解，不是恢复Apple秘密寿命评分](../cases/phosphen-apple-health-export-death-date-analysis-report.md) — 作者称Fable5.2分析Health导出，并用Claude Code skill把心率／VO2max套生命表；数据数量与死亡年份未经核验，不是医学预测或Apple内部算法恢复。 **[其他 AI 逆向 · 待验证]**
 - [FAA通信故障审计idea：Ariel Garbarz提出Inverse AI研究FTI，未取得技术记录](../cases/garbarz-faa-fti-inverse-ai-failure-audit-idea.md) — Garbarz要求检查FAA／L3Harris FTI更新日志、版本、告警和时间线，并提自动系统逆向与决策重建；只是调查建议，不证明芝加哥起因或AI攻击。 **[未确认使用 REA · 待验证]**
@@ -214,7 +217,7 @@
 - [主经纪商仓位截图：用AI恢复时间序列来判断数据价值的自述](../cases/prime-broker-positioning-screenshot-ai-timeseries.md) — 作者称可用AI把主经纪商仓位截图还原为底层时间序列，以区别有用数据与高盛营销材料；没有提供样本、模型或恢复误差。 **[其他 AI 逆向 · 待验证]**
 - [社交媒体爆款概率：Alin A提出REA研究推荐算法后放弃的想法](../cases/social-media-viral-probability-rea-abandoned-idea.md) — Alin A设想研究推荐算法、提取爆款概率模型并循环出稿涨粉，但明确作罢；没有指定平台、数据或预测结果。 **[REA · 待验证]**
 - [小米运动热量累加：DeepSeek逆向后发现刷新重复计入的转述](../cases/xiaomi-motion-deepseek-calorie-refresh-report.md) — 澜知AI转述DeepSeek研究小米运动算法，称同一分钟刷新会使40步热量从1.6变8.28卡；后续承认等待抓包与完整复现。 **[其他 AI 逆向 · 待验证]**
-- [CUDA：让 Agent 群尝试反编译的读者挑战](../cases/cuda-agent-swarm-decompile-idea.md) — loveofdoing提议让Agent群反编译CUDA，没有指定组件、版本或兼容目标，也没有实施报告。 **[其他 AI 逆向 · 待验证]**
+- [CUDA：让 Agent 群尝试反编译的读者挑战](../cases/cuda-agent-swarm-decompile-idea.md) — loveofdoing提议Agent群反编译CUDA；11月15日另有读者明确问AI能否让CUDA跑任意显卡，补充兼容愿望但没有组件、版本或实施结果。 **[其他 AI 逆向 · 待验证]**
 - [LLM4Decompile：恢复C函数，以及候选选择与难读化追加学习的研究转述](../cases/llm4decompile-assembly-c-models.md) — 专用模型从汇编或Ghidra伪代码恢复C；新增吉川孝志对100候选选择与ExeBench-Obfuscated训练的转述，区分oracle上限、可用选择器及不同输入条件，未复现实验。 **[其他 AI 逆向 · 分析测试]**
 - [合约买入前检查台：Claude／Ghidra 分析卖出路径并纠正代理误报的自述](../cases/claude-ghidra-contract-rug-check-desk.md) — 发布者报告用字节码红旗检查阻止买入，并称纠正一次 OpenZeppelin 代理误报；没有链地址、代码或日志可复核。 **[其他 AI 逆向 · 待验证]**
 - [Slice 金库调查：Sonnet 从反编译字节码定位外部返回值记账问题](../cases/slice-vault-sonnet-decompiled-bytecode.md) — coffiasse称免费Sonnet 5.5不到两分钟定位漏洞函数，并确认用Claude处理字节码；约4.1万美元损失与可利用性未在此独立链上核验。 **[其他 AI 逆向 · 分析测试]**

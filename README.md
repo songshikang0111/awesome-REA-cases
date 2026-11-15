@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2290 cases & projects
+# 2299 cases & projects
 
-**Latest case update:** November 15, 2026, 20:19 · **Last maintained:** November 15, 2026, 20:19 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 16, 2026, 00:13 · **Last maintained:** November 16, 2026, 00:13 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: repair a keyboard, replace oversized device apps, and preserve old software while keeping tests and human contributions in view. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: recover an old compiler, repair a keyboard, and bring an audio interface's controls to Linux—with human testing and community research kept in view. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[Ember mug: probe Bluetooth, build a personal controller](cases/en/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14` author report — Dmitriy says **Codex probed characteristics against the iOS app** and built temperature/light controls in about an hour. The no-web rule was author-imposed; coffee-level accuracy and code unchecked. `Unverified here`
@@ -31,7 +31,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 5. **[Fallout Van Buren: six years of research meet REA](cases/en/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14` author thread — Kran credits **manual research, shenmarukai's decompilation and an IDA database**, not a from-zero agent. DX9 migration is reported; 64-bit remains a goal for this tech demo, not a complete game. Not built here. `In progress`
 6. **[Lemmings for Windows 95: match functions, not headlines](cases/en/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12` report; `2026-11-09` pinned docs — Human-led REA/Claude/Codex work reports **696/696 functions matched across eight modules**. Whole EXE/DLL files still differ; portable builds and original-compiler matching are separate. Own assets required; not built here. `In progress`
 7. **[Mario Kart World: translate code, measure each change](cases/en/mkw-recomp-claude-aarch64-c-port.md)** · `2026-11-14` report and pinned docs — **Claude-assisted AArch64-to-C, same-run A/B and console-image checks** bring reported PC racing. Not original-source recovery; menus, AMD hangs and no online play remain. Own game required; not built here. `In progress`
-8. **[Donkey Kong Bananza: a Switch 2 game on PC](cases/en/dkb-pc-recomp-claude-switch2-port.md)** · `2026-11-14` report; `2026-11-13` pinned docs — **Claude Code work checked with game runs and Unicorn comparisons**, built on TotK Recomp and community shader research. GPU crashes and later-area defects remain; Linux/macOS are previews. Own game required; not built here. `In progress`
+8. **[Fireface UCX: Linux control beyond basic USB audio](cases/en/johan-fireface-ucx-linux-rea-claude-driver.md)** · `2026-11-15` author article — Johan reports **REA/Claude driver research, a terminal mixer and 3.5 ms round-trip audio at 48 kHz**. Community command-format research and a week of hands-on checks matter; tested on one first-generation unit, not reproduced here. `Unverified here`
 9. **[Split60HE: stop a used keyboard from typing every key](cases/en/matias-split60he-claude-flash-calibration-repair-report.md)** · `2026-11-15` author thread — Matías says **Claude traced flash calibration using firmware, KiCad and live USB readings**. After backup and v1.11 flashing, all 69 keys reportedly read 0% at rest. Logs and repair unchecked here; calibration is device-specific. `Unverified here`
 10. **[Litra Glow: control a USB light without G HUB](cases/en/manuelbieh-litra-glow-claude-usb-menubar-controller.md)** · `2026-11-15` author report; `2026-10-25` pinned docs — Manuel Bieh reports a **roughly 2 MB Claude-assisted menu-bar app** for brightness, temperature and switching. Docs credit community USB HID research; app size and hardware behavior unchecked here. `Unverified here`
 
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **455** |
-| [Hardware & interoperability](categories/en/hardware.md) | **612** |
-| [Applications & clients](categories/en/apps.md) | **949** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **274** |
+| [Games & preservation](categories/en/games.md) | **456** |
+| [Hardware & interoperability](categories/en/hardware.md) | **614** |
+| [Applications & clients](categories/en/apps.md) | **952** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **277** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 
