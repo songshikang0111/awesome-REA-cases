@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [PocketPort Anything：AI辅助3DS移植研究框架，不是任意游戏转换器](../cases/pocketport-anything-ai-3ds-porting-research-framework.md) — yibie介绍3DS移植研究流水线；固定文档将受限IR转C、主机测试、原生交叉编译与实机可玩分开，尚无完整商业游戏或物理3DS验证。 **[其他 AI 逆向 · 进行中]**
+- [TA Reborn：Claude参与的Rust横扫千军新引擎，复用自有游戏数据而非重编译原EXE](../cases/ta-reborn-rust-total-annihilation-ai-engine.md) — yibie介绍TA Reborn；固定README明确Jared Woodruff主导、Claude Opus5.5开发、GPT6 Astra QA，基于社区格式研究重写Rust引擎，未独立核验玩法和两万单位宣传。 **[其他 AI 逆向 · 进行中]**
+- [Cyberpunk2077角色编辑器：ILemonsU用AI辅助逆向，尝试预览自定义发型](../cases/ilemonsu-cyberpunk2077-hair-preview-character-editor.md) — 作者在2077 Mod工作中开发自定义角色编辑器，称用迂回RTT方式预览发型并使用AI逆向；Nexus发布仍是计划，模型和可运行代码未给。 **[其他 AI 逆向 · 进行中]**
+- [Cyberpunk2077自定义任务框架：ILemonsU的AI辅助逆向进行中项目](../cases/ilemonsu-cyberpunk2077-custom-quest-framework.md) — ILemonsU在2077 Mod工作中另做自定义任务框架，并称用AI辅助逆向；没有任务接口、脚本演示、代码或已发布框架的证据。 **[其他 AI 逆向 · 进行中]**
+- [Rise of Nations原生Mac引擎：whyamas转述benw先写30多份规格再用Claude重建](../cases/benw-rise-of-nations-claude-native-mac-engine-report.md) — 二手帖称benw用Ghidra研究Rise of Nations，先整理30多份规格，再用Claude Code写约7万行C++原生Mac引擎；未取得原仓库、构建或功能验证。 **[其他 AI 逆向 · 待验证]**
+- [PS3高达Target in Sight／Crossfire到PC：读者的AI逆向移植愿望](../cases/gundam-target-in-sight-crossfire-ai-pc-port-idea.md) — 作者看到AI辅助主机游戏移植兴起，希望有人挑战PS3 Mobile Suit Gundam: Target in Sight；这是具名idea，没有已开始研究、代码或运行证据。 **[其他 AI 逆向 · 待验证]**
 - [Donkey Kong Bananza PC：Claude辅助静态重编译，仍有GPU崩溃与后段缺陷](../cases/dkb-pc-recomp-claude-switch2-port.md) — DKB Recomp文档披露Claude Code写多数代码与文档，以实机运行和差分测试检查；Switch2 ARM64提前转C、NVN2接Vulkan，跨平台预览与后段稳定性未独立验收。 **[其他 AI 逆向 · 进行中]**
 - [Recompia：AI主导、人类监督的Pokémon Pokopia原生移植，联机与存档仍按项目报告](../cases/recompia-pokopia-ai-supervised-native-port.md) — 候选介绍Recompia的AI监督披露；固定README指向Switch2 Pokopia到Windows／Linux，用户自备2.0.1a数据。联机、中继与图像功能有明确限制，未独立运行。 **[其他 AI 逆向 · 进行中]**
 - [Mario Kart World原生PC：Claude写多数代码，AArch64转C但不等于原始源码](../cases/mkw-recomp-claude-aarch64-c-port.md) — mkw-recomp作者披露Claude在人类指导下约十天全职参与，结合逐次A/B、原机画面对比与离线着色器检查；Linux／Windows比赛可跑为项目报告，仍无在线联机且有GPU问题。 **[其他 AI 逆向 · 进行中]**
@@ -13,7 +19,7 @@
 - [GTA6配音Mod愿望：读者想等PC版后用Claude与REA接入配音](../cases/gta6-pc-claude-rea-dubbing-mod-idea.md) — 土耳其语回复在GTA6讨论中提出用Claude与REA把配音接入PC版；没有语言、音轨、格式研究或实现，亦非PC版移植成果。 **[REA · 待验证]**
 - [decompdecomp：续接decomp.wtf的独立工作台，字节匹配不等于全游戏已恢复](../cases/decompdecomp-local-agent-byte-matching-workbench.md) — 公开工作台让Agent写C／C++、原编译器重建并逐函数对比；文档明确尚无整款游戏完成，导出保留汇编兜底，所选远端模型仍可收到游戏材料。 **[其他 AI 逆向 · 进行中]**
 - [EVE本地离线AI研究：读者追问机器人扩展，父帖只给低细节自述](../cases/eve-local-offline-ai-harness-reversing-report.md) — VisiveAI询问EVE离线指令如何扩展；父帖rrfarmer自称用本地AI harness逆向EVE，没有客户端版本、恢复功能或可查产物。 **[其他 AI 逆向 · 待验证]**
-- [Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目](../cases/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas称给Claude Amiga ADF镜像推进研究；新回复强调大量人工输入，读者识别F1 Grand Prix，但未独立确认题名、可运行移植或等价性。 **[其他 AI 逆向 · 进行中]**
+- [Amiga ADF逆向：Jonathan Thomas称把磁盘镜像交给Claude推进复古项目](../cases/retroracing-claude-amiga-adf-reverse-engineering-report.md) — Jonathan Thomas称给Claude Amiga ADF镜像推进研究，强调大量人工输入；11月15日补述C／68k背景与赛道分段吸附导致抖动的假说，未证明已修复或等价。 **[其他 AI 逆向 · 进行中]**
 - [未具名游戏客户端：Billionaire Vampire在AI开发讨论中自述逆向经历](../cases/billionairevamp-ai-game-client-reversing-report.md) — Billionaire Vampire称在此前不懂相关技术的情况下做过游戏服务器、管理面板、公开平台和客户端逆向；AI语境明确，但客户端、模型、方法与成果未披露。 **[其他 AI 逆向 · 待验证]**
 - [未具名作弊菜单：cazz为视频测试REA，并批评产物是AI slop](../cases/rea-unnamed-cheat-video-test-self-critique.md) — cazz在被批视觉难看后称该作弊产物是AI slop，只是在为新视频测试REA；父帖称让Fable5.2重设计菜单，未证明作弊功能有效。 **[REA · 分析测试]**
 - [预下载游戏开玩时间检查：Moke建议Grok加REA研究，并做提示备份](../cases/moke-grok-rea-game-release-time-check-idea.md) — Moke在游戏向服务器确认开玩时间的讨论下，建议Grok与REA禁用该部分，并做可分享的游戏提示作为备份；没有具名游戏、实现或可用绕过。 **[REA · 待验证]**

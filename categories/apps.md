@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [reverse-skill：给AI研究APK、二进制与固件选择方法的路由工作台](../cases/reverse-skill-routing-ai-security-workbench.md) — 候选介绍routing.md技能包；固定README确认授权范围、工具检查、场景路由和证据报告流程，221个路由回归案例不等于221个目标被成功逆向。 **[其他 AI 逆向 · 相关项目]**
+- [BitMania的工作网站：Grok Bot真实使用清单中的REA漏洞研究自述](../cases/thai-grokbot-rea-work-website-audit-report.md) — BitMania在泰文年度订阅使用清单中列出用REA查工作网站漏洞；是具体场景的低细节报告，没有漏洞、代码、报告或节省时间的测量。 **[REA · 待验证]**
 - [OpenDesign：从参考截图提炼品牌规范，再交给编码Agent重建界面的工作台](../cases/opendesign-reference-screenshot-brand-spec-project.md) — AIWare介绍OpenDesign以截图／URL提炼DESIGN.md，向Claude Code、Codex等复用品牌规则；固定README确认该工作流，但未测提取准确性或重建一致性。 **[其他 AI 逆向 · 相关项目]**
 - [WindowsiOS：Gemini辅助ARM64翻译与Windows兼容环境，项目称在iPhone上运行Windows11](../cases/windowsios-gemini-arm64-windows-iphone-compatibility-project.md) — Andrew111转述Ammaar Reshi的Windows11／iOS演示；固定项目文档归功于Gemini4 Carbon与Henge等上游，描述JIT、4KB MMU与虚拟设备，不是裸机Windows或独立复现。 **[其他 AI 逆向 · 待验证]**
 - [WebsiteBench：从浏览器探索重建全栈网站，以隐藏功能测试和视觉对照检验](../cases/websitebench-browser-only-fullstack-reconstruction-benchmark.md) — Johnnysama介绍浏览器黑箱网站重建评测；固定README确认70站、46916隐藏测试，功能通过且各视觉点SSIM达0.99才计通过。模型分数与成本仍为二手未核值。 **[其他 AI 逆向 · 分析测试]**

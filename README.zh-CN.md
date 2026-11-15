@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2279 个案例与项目
+# 2290 个案例与项目
 
-**最近案例更新：**2026 年 11 月 15 日 16:10 · **最近维护：**2026 年 11 月 15 日 16:10 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 15 日 20:19 · **最近维护：**2026 年 11 月 15 日 20:19 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：修好一把键盘，让设备重新好用，保存旧软件，也检验重建网站是否真的行为一致。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：修好一把键盘，替换臃肿的设备应用，保存旧软件，也看清测试与人工研究的作用。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[Ember恒温杯：探测蓝牙，做自己的控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14`作者报告 — Dmitriy称**Codex探测特征并与iOS应用对照**，约一小时做出温度／灯控制。禁止查网是作者要求；杯量精度与代码未核。`未独立核验`
@@ -33,7 +33,7 @@
 7. **[Mario Kart World：转译代码，也逐项测改动](cases/mkw-recomp-claude-aarch64-c-port.md)** · `2026-11-14`介绍与固定文档 — **Claude辅助AArch64转C、同次运行A/B与原机图对照**，项目报告PC比赛可跑。不是原始源码恢复；菜单、AMD挂起与无在线联机仍有限制。自备游戏，本合集未构建。`进行中`
 8. **[Donkey Kong Bananza：把Switch2游戏带到PC](cases/dkb-pc-recomp-claude-switch2-port.md)** · `2026-11-14`介绍；`2026-11-13`固定文档 — **Claude Code工作以游戏运行和Unicorn对照检查**，建立于TotK Recomp及社区着色器研究。GPU崩溃、后段缺陷仍在，Linux／macOS为预览。自备游戏，本合集未构建。`进行中`
 9. **[Split60HE：让二手键盘不再全键连发](cases/matias-split60he-claude-flash-calibration-repair-report.md)** · `2026-11-15`作者串 — Matías称**Claude结合固件、KiCad与USB读数，追到flash校准值**。备份重刷v1.11后，自报69键静止均为0%。日志与修复未核，校准值不通用。`未独立核验`
-10. **[WebsiteBench：不只截图像，行为也要对](cases/websitebench-browser-only-fullstack-reconstruction-benchmark.md)** · `2026-11-15`评论；`2026-11-10`固定文档 — 从浏览器探索重建网站，覆盖**70站、46916个隐藏测试**，功能通过且每个视觉点SSIM达0.99才计通过。模型分数／成本仍是二手说法，本合集未运行。`分析测试`
+10. **[Litra Glow：控制USB灯，不装G HUB](cases/manuelbieh-litra-glow-claude-usb-menubar-controller.md)** · `2026-11-15`作者报告；`2026-10-25`固定文档 — Manuel Bieh称**Claude辅助做出约2MB菜单栏应用**，调亮度、色温与开关。文档归功于社区USB HID协议研究；大小与实机行为未核。`未独立核验`
 
 ## 经典案例
 
@@ -49,9 +49,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **449** |
-| [硬件与设备互通](categories/hardware.md) | **609** |
-| [应用与客户端](categories/apps.md) | **947** |
+| [游戏与游戏保存](categories/games.md) | **455** |
+| [硬件与设备互通](categories/hardware.md) | **612** |
+| [应用与客户端](categories/apps.md) | **949** |
 | [算法与功能重建](categories/algorithms.md) | **274** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

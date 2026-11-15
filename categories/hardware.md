@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Litra Glow灯不装G HUB：Manuel Bieh称Claude做出约2MB菜单栏控制器](../cases/manuelbieh-litra-glow-claude-usb-menubar-controller.md) — 作者报告Claude研究Logitech Litra Glow的USB控制，替换庞大G HUB；固定README确认USB HID与亮度／色温控制，同时归功于社区协议研究，未实机验证。 **[其他 AI 逆向 · 待验证]**
+- [iPhone镜像不认软件点击：sang jie用AI和ESP32-S3试做硬件鼠标，仍未完成](../cases/sangjie-esp32s3-iphone-mirroring-mouse-attempt.md) — 作者为iPhone镜像研究真实鼠标输入，刷ESP32-S3固件并加点击前、中、后三阶段检查；报告串口、点击与虚假ok问题，AI额度耗尽仍未打通。 **[其他 AI 逆向 · 进行中]**
+- [GJ-11／GJ-21公开图像研究：C.Ed向Grok提出区分文档与猜测的idea](../cases/ced-grok-gj11-gj21-public-imagery-study-idea.md) — C.Ed给Grok一组公开飞机资料研究提示，要求来源标记与图像比较；没有模型回答、测量或验证，本记录仅概述研究提案，不提供军用设计或性能结论。 **[其他 AI 逆向 · 待验证]**
 - [Lumen电子书固件：AI辅助Go净室重写的二手报告，专利争议未核](../cases/lumen-go-ai-ereader-firmware-secondary-report.md) — 老K旅途不沉默转述独立开发者用AI辅助以Go净室重写Lumen电子书阅读器固件，并称仓库因专利指控转私密；未取得源码、设备测试或法律材料。 **[其他 AI 逆向 · 待验证]**
 - [Mike Lembo的家庭恒温器：研究API，用MCP替代原厂界面的进行中项目](../cases/personal-thermostat-api-mcp-claude-project.md) — Mike在Claude家庭项目清单中列出逆向恒温器API、改用MCP控制的工作；未给品牌、协议或成功控制记录，不把Home Assistant管理成果挪给恒温器。 **[其他 AI 逆向 · 进行中]**
 - [老激光打印机的Scan to PC：Marcus Eisele称Opus研究15年前ZIP以继续使用设备](../cases/marcus-eisele-opus-old-printer-scan-to-pc-report.md) — Marcus称Opus为Omarchy安装驱动，并在启动Windows后从15年前ZIP研究Scan to PC按键；未给型号、协议或扫描输出，不能认定已完成Linux按键互通。 **[其他 AI 逆向 · 待验证]**
