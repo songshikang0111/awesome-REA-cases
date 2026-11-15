@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [易下载APK：ruiluckiest让AI静态检查广告与统计SDK，没有安卓实测](../cases/ruiluckiest-yixiazai-apk-ai-static-sdk-check.md) — 作者称AI静态分析94KB的多平台视频下载APK，未发现广告和统计SDK；工具、包版本与报告未给，不能证明安全或下载功能可用。 **[其他 AI 逆向 · 分析测试]**
+- [REA合约检查后再模拟交易：winkle的五Agent memecoin方案idea](../cases/winkle-rea-five-agent-memecoin-audit-idea.md) — 方案把新币扫描、REA分析、判定、入场与退出分工，先用500美元模拟七天；没有实现或收益，CLEAN标签不代表合约安全。 **[REA · 待验证]**
+- [Antigravity原生上下文面板：Ahmet称逆向sidecar SDK补齐实时用量显示](../cases/ahmet-antigravity-sidecar-context-panel-report.md) — 作者称逆向sidecar SDK后显示Gemini上下文、缓存命中与MCP开销，零额外Token尚未测量；是AI工具互操作相关项目，未说明AI是否执行逆向。 **[未确认使用 REA · 相关项目]**
+- [Subjugated：Terry把本地LLM接入游戏REA工作台与Haiku任务队列](../cases/terry-subjugated-local-llm-rea-workbench.md) — 自制harness有独立CLI、Gamedev Workbench与Haiku委派三种模式；作者称用于游戏REA，未具名游戏或公开轨迹，200k到15k不是已验证节省。 **[REA · 相关项目]**
+- [建筑软件界面：FANCY LIVIN’用Astra出图，再让Fable图像逆向补功能](../cases/fancy-livin-construction-ui-image-skill-fable-report.md) — 作者从50轮开发后不满意的建筑软件UI出发，以dream loop对齐图稿，再用自制图像逆向skill推功能；主观改善，没有代码或前后对照。 **[其他 AI 逆向 · 进行中]**
 - [Graphite：把APK调用链与数据流变成Agent可查的程序图，不需要源码](../cases/graphite-apk-program-graph-agent-analysis.md) — Johnson Li介绍Graphite以程序图支持Agent查询APK的调用链和值来源；固定README确认字节码、Cypher与MCP路径，并警告反射和动态加载会留下缺口。 **[其他 AI 逆向 · 相关项目]**
 - [NT Next的REA隔离设想：把逆向Agent留在用户态，以人工授权控制提权](../cases/nt-next-rea-userspace-oracle-isolation-idea.md) — 日语架构思想实验提出将REA作为边界外用户态worker，阻止内核自主改写与AI互相批准；0ns和15ns是未证实的设计宣称，不是OS实测。 **[REA · 待验证]**
 - [learn-harness-engineering：拆读Claude Code、Codex、DeepSeek与Pi的外围系统设计课程](../cases/walkinglabs-harness-design-breakdowns-course.md) — 候选介绍四种Agent harness的设计拆读；固定课程文档确认记忆、工具、隔离与反馈机制比较及14讲8项目，但不是模型权重或闭源代码的完整恢复。 **[其他 AI 逆向 · 相关项目]**

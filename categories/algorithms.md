@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Polymarket五分钟BTC：Misato称用Grok Bot反推动量与半方差策略](../cases/misato-grok-polymarket-momentum-semivariance-report.md) — 作者给出30秒动量与上下行半方差过滤，报告七天84笔模拟交易；账户、费用和交易日志缺失，不证明复制了原策略或真实盈利。 **[其他 AI 逆向 · 待验证]**
 - [Buffett／Munger写作到选股规则：Jurgis称用Claude Code与Antigravity重建确定性评分器](../cases/buffett-munger-claude-rubric-stock-scanner.md) — 本窗口转推链接到4月文章：Jurgis Pocius把六十年投资文字提炼成Python量表，自报929只股票17分钟、22项测试；模型只写叙述，不直接选股，未验证收益。 **[其他 AI 逆向 · 待验证]**
 - [爆火短视频复刻Agent：基于rea-video拆镜，仍在寻找保留与替换的交互方式](../cases/rosie-rea-video-remake-agent-intent-project.md) — rosieblossom08链接的文章描述在rea-video上搭产品，自报能拆镜与给提示，难点是用户想原样复刻还是换人、产品、场景；不等同已做出稳定一键仿拍。 **[其他 AI 逆向 · 进行中]**
 - [Arvow的12个购买问题：从AI引用清单反推品牌曝光，70%不是排名或销量](../cases/arvow-twelve-prompt-ai-citation-listicle-audit.md) — Arvow转述Vasco以非品牌购买问题查询五种AI答案，检查引用后同时改内容与付费加品牌，自报70%可见度；样本与来源打码，不能分离两动作效果。 **[其他 AI 逆向 · 待验证]**

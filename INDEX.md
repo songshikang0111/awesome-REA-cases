@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2299 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2310 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（456）
-- [硬件与设备互通](categories/hardware.md)（614）
-- [应用与客户端](categories/apps.md)（952）
-- [算法与功能重建](categories/algorithms.md)（277）
+- [游戏与游戏保存](categories/games.md)（458）
+- [硬件与设备互通](categories/hardware.md)（617）
+- [应用与客户端](categories/apps.md)（957）
+- [算法与功能重建](categories/algorithms.md)（278）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Marvel vs. Capcom 2：Claude辅助字节匹配反编译与PC／3DS移植的二手报告](cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — Pixel Cherry Ninja转述同一源码树可逐字节构建NAOMI与Dreamcast版本，并有PC／3DS移植；100%和全机型60fps没有源码、日志或实机核验。 **[其他 AI 逆向 · 待验证]**
+- [MGSV弃置内容补完：El Glitch希望反编译后交AI续作的idea](cases/mgsv-ai-decompile-discarded-content-completion-idea.md) — 读者提出反编译Metal Gear Solid V并用AI补完最后弃置部分，没有实施、可用资产或可玩产物证据。 **[其他 AI 逆向 · 待验证]**
 - [PES6补上传球力度条：Garabanda称用REA与Codex给周末老游戏加功能](cases/garabanda-pes6-rea-codex-pass-gauge.md) — Garabanda与好友常玩PES6，想要现代足球游戏的传球力度提示，报告用REA与Codex为传球、直塞和挑传加上量表；没有代码或兼容性验证。 **[REA · 待验证]**
 - [PocketPort Anything：AI辅助3DS移植研究框架，不是任意游戏转换器](cases/pocketport-anything-ai-3ds-porting-research-framework.md) — yibie介绍3DS移植研究流水线；固定文档将受限IR转C、主机测试、原生交叉编译与实机可玩分开，尚无完整商业游戏或物理3DS验证。 **[其他 AI 逆向 · 进行中]**
 - [TA Reborn：Claude参与的Rust横扫千军新引擎，复用自有游戏数据而非重编译原EXE](cases/ta-reborn-rust-total-annihilation-ai-engine.md) — yibie介绍TA Reborn；固定README明确Jared Woodruff主导、Claude Opus5.5开发、GPT6 Astra QA，基于社区格式研究重写Rust引擎，未独立核验玩法和两万单位宣传。 **[其他 AI 逆向 · 进行中]**
@@ -237,7 +239,7 @@
 - [Resident Evil复古降级：Jame(Rez)建议AI反编译经典引擎](cases/resident-evil-classic-engine-ai-demake-idea.md) — 在把RE4/5/7/8/9做成初代风格的愿望下，Jame(Rez)建议AI反编译老游戏、重建引擎；没有开始实施或性能、兼容性证据。 **[其他 AI 逆向 · 待验证]**
 - [Harvester_ITA：带Claude/Opus标签的1996年冒险游戏意大利语本地化项目](cases/harvester-ita-claude-tagged-localization-report.md) — Sh0dan介绍Harvester意大利语补丁、手册与兼容性工程，列出Python/汇编/Shell分工；AI仅见标签，具体贡献和仓库尚未核验。 **[未确认使用 REA · 待验证]**
 - [FFVII或FFIX：用AI逆向与重编译做现代2D重制的idea](cases/ffvii-ffix-ai-modern-2d-remake-idea.md) — 读者问能否把原版Final Fantasy VII或IX的逆向/重编译成果用于现代2D重制；只有具体改编目标，没有实现或可行性验证。 **[未确认使用 REA · 待验证]**
-- [童年旧游戏：iamstalkholic称与Claude反编译，准备现代化重写](cases/iamstalkholic-claude-childhood-game-rewrite.md) — 作者称已与Claude反编译小时候玩的旧游戏，并计划重写；游戏名称、代码与运行情况未提供。 **[其他 AI 逆向 · 进行中]**
+- [iamstalkholic的旧游戏反编译：从现代化重写计划到虚拟化在线函数自述](cases/iamstalkholic-claude-childhood-game-rewrite.md) — 同作者新增Claude起初拒绝、约一周后反编译虚拟化在线函数的自述；游戏未具名，不能确认与旧帖同一二进制，未证明绕过反作弊或现代化重写完成。 **[其他 AI 逆向 · 进行中]**
 - [Fortnite 27.11风暴逻辑：Claude经MCP读IDA dump，尝试补服务端实现](cases/fortnite2711-claude-ida-storm-server-rebuild.md) — 作者称研究2023年11月OG版本，用Claude与IDA dump推断客户端已不再保存的风暴代码；常一次成功、节时90%均是经验自述。 **[其他 AI 逆向 · 进行中]**
 - [PS5 Overdrive商店：Claude构建与下线的二手报道，不是AI发现利用链](cases/overdrive-ps5-claude-storefront-secondary-report.md) — 候选援引eTeknix称Claude参与Overdrive商店，复用Relapse并索引外部游戏库，后被下线；未核验原报道、补丁或服务状态。 **[其他 AI 逆向 · 待验证]**
 - [Instance：按黑盒规格用Claude重建GameMaker8.1的Rust编辑器与引擎](cases/instance-gamemaker81-claude-blackbox-rust.md) — 二手报道称Claude Opus5.5按行为规格重写GameMaker8.1；公开Instance仓库有Rust编辑器、运行时、黑盒测试及浏览器入口，兼容性与工时未独立验证。 **[其他 AI 逆向 · 进行中]**
@@ -485,6 +487,9 @@
 
 ### 硬件与设备互通
 
+- [Deni的三星电视：Claude对照固件与24小时流量，再用DNS挡广告和ACR](cases/deni-samsung-tv-claude-firmware-dns-acr-report.md) — 作者称Claude分析对应型号官方固件、比对流量并区分必要服务与广告／观看追踪，不刷机而在DNS拦截；型号、域名与日志未给。 **[其他 AI 逆向 · 待验证]**
+- [X6200不用切回原厂系统：Claude辅助重建Xiegu基板升级流程，OpenX6X00已合并](cases/x6200-claude-base-firmware-upgrade-reimplementation.md) — PR259反汇编原厂1.0.8升级程序，在OpenX6X00中更新或回退基板固件；项目CI通过，作者报告单台三次刷写，恢复路径和全硬件可靠性未独立验证。 **[其他 AI 逆向 · 待验证]**
+- [旧手机变宠物摄像头：BuBBliK称接入Mac追踪三只狗并提示异常](cases/bubblik-old-phone-mac-ai-dog-camera-report.md) — 作者称把旧手机改成AI摄像头，提供逐狗ID、活动日志、提醒、直播与远程录像；未给手机型号、协议或AI逆向工具，不宣称固件已破解。 **[未确认使用 REA · 待验证]**
 - [Fireface UCX完整控制上Linux：Johan用REA与Claude研究Windows驱动，逐项接线实测](cases/johan-fireface-ucx-linux-rea-claude-driver.md) — Johan Yngman报告为第一代RME Fireface UCX重建Linux驱动、终端混音器及协议文档，48kHz经PipeWire往返3.5ms；仅一台设备测试，未独立复现。 **[REA · 待验证]**
 - [M4 Pro跑NixOS：Aizenn称与Claude写OCaml解码器恢复GPU固件布局，扬声器仍未处理](cases/aizenn-m4pro-claude-ocaml-gpu-firmware-decoder.md) — 作者称Apple在27.2改变GPU固件接口，借Claude编写AArch64固件解码器恢复布局并运行NixOS；同串归功于Aurora补丁，仍担心扬声器保护，未核源码。 **[其他 AI 逆向 · 进行中]**
 - [Litra Glow灯不装G HUB：Manuel Bieh称Claude做出约2MB菜单栏控制器](cases/manuelbieh-litra-glow-claude-usb-menubar-controller.md) — 作者报告Claude研究Logitech Litra Glow的USB控制，替换庞大G HUB；固定README确认USB HID与亮度／色温控制，同时归功于社区协议研究，未实机验证。 **[其他 AI 逆向 · 待验证]**
@@ -1102,6 +1107,11 @@
 
 ### 应用与客户端
 
+- [易下载APK：ruiluckiest让AI静态检查广告与统计SDK，没有安卓实测](cases/ruiluckiest-yixiazai-apk-ai-static-sdk-check.md) — 作者称AI静态分析94KB的多平台视频下载APK，未发现广告和统计SDK；工具、包版本与报告未给，不能证明安全或下载功能可用。 **[其他 AI 逆向 · 分析测试]**
+- [REA合约检查后再模拟交易：winkle的五Agent memecoin方案idea](cases/winkle-rea-five-agent-memecoin-audit-idea.md) — 方案把新币扫描、REA分析、判定、入场与退出分工，先用500美元模拟七天；没有实现或收益，CLEAN标签不代表合约安全。 **[REA · 待验证]**
+- [Antigravity原生上下文面板：Ahmet称逆向sidecar SDK补齐实时用量显示](cases/ahmet-antigravity-sidecar-context-panel-report.md) — 作者称逆向sidecar SDK后显示Gemini上下文、缓存命中与MCP开销，零额外Token尚未测量；是AI工具互操作相关项目，未说明AI是否执行逆向。 **[未确认使用 REA · 相关项目]**
+- [Subjugated：Terry把本地LLM接入游戏REA工作台与Haiku任务队列](cases/terry-subjugated-local-llm-rea-workbench.md) — 自制harness有独立CLI、Gamedev Workbench与Haiku委派三种模式；作者称用于游戏REA，未具名游戏或公开轨迹，200k到15k不是已验证节省。 **[REA · 相关项目]**
+- [建筑软件界面：FANCY LIVIN’用Astra出图，再让Fable图像逆向补功能](cases/fancy-livin-construction-ui-image-skill-fable-report.md) — 作者从50轮开发后不满意的建筑软件UI出发，以dream loop对齐图稿，再用自制图像逆向skill推功能；主观改善，没有代码或前后对照。 **[其他 AI 逆向 · 进行中]**
 - [Graphite：把APK调用链与数据流变成Agent可查的程序图，不需要源码](cases/graphite-apk-program-graph-agent-analysis.md) — Johnson Li介绍Graphite以程序图支持Agent查询APK的调用链和值来源；固定README确认字节码、Cypher与MCP路径，并警告反射和动态加载会留下缺口。 **[其他 AI 逆向 · 相关项目]**
 - [NT Next的REA隔离设想：把逆向Agent留在用户态，以人工授权控制提权](cases/nt-next-rea-userspace-oracle-isolation-idea.md) — 日语架构思想实验提出将REA作为边界外用户态worker，阻止内核自主改写与AI互相批准；0ns和15ns是未证实的设计宣称，不是OS实测。 **[REA · 待验证]**
 - [learn-harness-engineering：拆读Claude Code、Codex、DeepSeek与Pi的外围系统设计课程](cases/walkinglabs-harness-design-breakdowns-course.md) — 候选介绍四种Agent harness的设计拆读；固定课程文档确认记忆、工具、隔离与反馈机制比较及14讲8项目，但不是模型权重或闭源代码的完整恢复。 **[其他 AI 逆向 · 相关项目]**
@@ -2057,6 +2067,7 @@
 
 ### 算法与功能重建
 
+- [Polymarket五分钟BTC：Misato称用Grok Bot反推动量与半方差策略](cases/misato-grok-polymarket-momentum-semivariance-report.md) — 作者给出30秒动量与上下行半方差过滤，报告七天84笔模拟交易；账户、费用和交易日志缺失，不证明复制了原策略或真实盈利。 **[其他 AI 逆向 · 待验证]**
 - [Buffett／Munger写作到选股规则：Jurgis称用Claude Code与Antigravity重建确定性评分器](cases/buffett-munger-claude-rubric-stock-scanner.md) — 本窗口转推链接到4月文章：Jurgis Pocius把六十年投资文字提炼成Python量表，自报929只股票17分钟、22项测试；模型只写叙述，不直接选股，未验证收益。 **[其他 AI 逆向 · 待验证]**
 - [爆火短视频复刻Agent：基于rea-video拆镜，仍在寻找保留与替换的交互方式](cases/rosie-rea-video-remake-agent-intent-project.md) — rosieblossom08链接的文章描述在rea-video上搭产品，自报能拆镜与给提示，难点是用户想原样复刻还是换人、产品、场景；不等同已做出稳定一键仿拍。 **[其他 AI 逆向 · 进行中]**
 - [Arvow的12个购买问题：从AI引用清单反推品牌曝光，70%不是排名或销量](cases/arvow-twelve-prompt-ai-citation-listicle-audit.md) — Arvow转述Vasco以非品牌购买问题查询五种AI答案，检查引用后同时改内容与付费加品牌，自报70%可见度；样本与来源打码，不能分离两动作效果。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Deni的三星电视：Claude对照固件与24小时流量，再用DNS挡广告和ACR](../cases/deni-samsung-tv-claude-firmware-dns-acr-report.md) — 作者称Claude分析对应型号官方固件、比对流量并区分必要服务与广告／观看追踪，不刷机而在DNS拦截；型号、域名与日志未给。 **[其他 AI 逆向 · 待验证]**
+- [X6200不用切回原厂系统：Claude辅助重建Xiegu基板升级流程，OpenX6X00已合并](../cases/x6200-claude-base-firmware-upgrade-reimplementation.md) — PR259反汇编原厂1.0.8升级程序，在OpenX6X00中更新或回退基板固件；项目CI通过，作者报告单台三次刷写，恢复路径和全硬件可靠性未独立验证。 **[其他 AI 逆向 · 待验证]**
+- [旧手机变宠物摄像头：BuBBliK称接入Mac追踪三只狗并提示异常](../cases/bubblik-old-phone-mac-ai-dog-camera-report.md) — 作者称把旧手机改成AI摄像头，提供逐狗ID、活动日志、提醒、直播与远程录像；未给手机型号、协议或AI逆向工具，不宣称固件已破解。 **[未确认使用 REA · 待验证]**
 - [Fireface UCX完整控制上Linux：Johan用REA与Claude研究Windows驱动，逐项接线实测](../cases/johan-fireface-ucx-linux-rea-claude-driver.md) — Johan Yngman报告为第一代RME Fireface UCX重建Linux驱动、终端混音器及协议文档，48kHz经PipeWire往返3.5ms；仅一台设备测试，未独立复现。 **[REA · 待验证]**
 - [M4 Pro跑NixOS：Aizenn称与Claude写OCaml解码器恢复GPU固件布局，扬声器仍未处理](../cases/aizenn-m4pro-claude-ocaml-gpu-firmware-decoder.md) — 作者称Apple在27.2改变GPU固件接口，借Claude编写AArch64固件解码器恢复布局并运行NixOS；同串归功于Aurora补丁，仍担心扬声器保护，未核源码。 **[其他 AI 逆向 · 进行中]**
 - [Litra Glow灯不装G HUB：Manuel Bieh称Claude做出约2MB菜单栏控制器](../cases/manuelbieh-litra-glow-claude-usb-menubar-controller.md) — 作者报告Claude研究Logitech Litra Glow的USB控制，替换庞大G HUB；固定README确认USB HID与亮度／色温控制，同时归功于社区协议研究，未实机验证。 **[其他 AI 逆向 · 待验证]**
