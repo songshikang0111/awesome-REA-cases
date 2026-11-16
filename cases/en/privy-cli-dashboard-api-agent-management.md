@@ -1,10 +1,10 @@
 # Privy CLI: dashboard-request research exposes developer-account management to agents
 
-Category: Applications and clients · REA use unconfirmed
+Category: Applications and clients · Other AI-assisted work
 Record date: 2026-10-30
 Stage: Related project
 
-At 22:59:42 Beijing time on October 30, 2026, Samarth (@awesamarth_) announces @awesamarth/privy-cli, exposing Privy developer-dashboard APIs to agents for creating apps, configuring login methods, retrieving analytics and managing users. A candidate at 22:59:43 explains that the reverse engineering consists of analyzing dashboard-to-backend network requests and incorporating endpoints into a CLI inspired by Cloudflare cf and Stripe CLI. AI execution of the protocol research is not claimed, so rea is unknown; this is a related reverse-engineered interface project serving agents.
+At 22:59:42 Beijing time on October 30, 2026, Samarth (@awesamarth_) announces @awesamarth/privy-cli, exposing Privy developer-dashboard APIs to agents for creating apps, configuring login methods, retrieving analytics and managing users. A candidate at 22:59:43 explains that the reverse engineering consists of analyzing dashboard-to-backend network requests and incorporating endpoints into a CLI inspired by Cloudflare cf and Stripe CLI. The author later clarified in a correction PR that REA was not used: an AI coding agent drove a browser and analyzed the dashboard's network requests, so rea is other-ai. This is a related reverse-engineered interface project serving agents.
 
 A supplementary same-thread post distinguishes it from Privy's agent-wallet CLI: it manages Privy accounts. The author reports a workaround for the absence of device-code-style CLI authorization without explaining it in the candidates. Public npm metadata confirms 0.1.0 published at 2026-10-30T13:48:46.526Z and maps it to awesamarth/privy-cli. The README was read at commit 7662742e327cf1b39b270845113d487b8c67b277, dated 14:04:09Z. Both are inside the window but supplementary, not additional candidates.
 
