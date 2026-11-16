@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [北通BTOP-C033老震动手柄：Feng Yu称REA研究旧驱动后用Rust重写，恢复Win11与Steam使用](../cases/feng-yu-betop-btop-c033-rea-rust-win11-driver-report.md) — Feng Yu报告用REA＋omp研究十几年前北通BTOP-C033驱动，以Rust重写驱动与设置面板，称Win11、Steam识别与震动均恢复；实现和实机效果未核。 **[REA · 待验证]**
 - [Minimal Phone MP01：Josef Prusa研究电子墨水FPGA，将像素控制移到GPU](../cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md) — Josef Prusa报告重建Android、研究FPGA与位流工具链，把帧比较和像素电荷控制移到GPU，展示自称63fps的Doom／Sonic；AI分工未明，完整系统与代码尚待整理。 **[未确认使用 REA · 进行中]**
 - [CUDA++与Spark Secrets：Stapleton报告在GB10重建部分GPU用户态执行栈](../cases/stapleton-cudapp-gb10-user-stack-reconstruction-report.md) — 公开信把CUDA++置于人类指导Agent的GPU研究背景，报告九类FP32操作对照与1048576元素向量加法匹配；仍用NVIDIA内核模块和签名固件，不是完整CUDA替代。 **[其他 AI 逆向 · 待验证]**
 - [Omega在MI300X运行Qwen：Stapleton报告绕过AMD用户态运行时直连kfd](../cases/stapleton-omega-mi300x-qwen-direct-kfd-report.md) — 同一公开信报告Omega程序直接通过/dev/kfd在MI300X运行Qwen3.8-27B-FP8，公布中位26.7毫秒／token；后续16.226毫秒版未进入公共克隆，不能当成公开可复现结果。 **[其他 AI 逆向 · 待验证]**

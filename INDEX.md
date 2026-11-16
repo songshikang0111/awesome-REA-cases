@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2318 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2323 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（458）
-- [硬件与设备互通](categories/hardware.md)（621）
-- [应用与客户端](categories/apps.md)（961）
+- [游戏与游戏保存](categories/games.md)（459）
+- [硬件与设备互通](categories/hardware.md)（622）
+- [应用与客户端](categories/apps.md)（964）
 - [算法与功能重建](categories/algorithms.md)（278）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Order Up!! To Go离开鼓包iPad：Eddie称Codex把32位老游戏移植到WebAssembly并模拟旧服务](cases/eddie-order-up-to-go-codex-webassembly-preservation-report.md) — Eddie Monteiro为保留儿子玩的Order Up!! To Go，称Codex反编译并做成网页可玩版本，另模拟购币与成就服务；30fps是优化目标，两天为作者描述，代码和性能未核。 **[其他 AI 逆向 · 待验证]**
 - [Marvel vs. Capcom 2：Claude辅助字节匹配反编译与PC／3DS移植的二手报告](cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — Pixel Cherry Ninja转述同一源码树可逐字节构建NAOMI与Dreamcast版本，并有PC／3DS移植；100%和全机型60fps没有源码、日志或实机核验。 **[其他 AI 逆向 · 待验证]**
 - [MGSV弃置内容补完：El Glitch希望反编译后交AI续作的idea](cases/mgsv-ai-decompile-discarded-content-completion-idea.md) — 读者提出反编译Metal Gear Solid V并用AI补完最后弃置部分，没有实施、可用资产或可玩产物证据。 **[其他 AI 逆向 · 待验证]**
 - [PES6补上传球力度条：Garabanda称用REA与Codex给周末老游戏加功能](cases/garabanda-pes6-rea-codex-pass-gauge.md) — Garabanda与好友常玩PES6，想要现代足球游戏的传球力度提示，报告用REA与Codex为传球、直塞和挑传加上量表；没有代码或兼容性验证。 **[REA · 待验证]**
@@ -487,6 +488,7 @@
 
 ### 硬件与设备互通
 
+- [北通BTOP-C033老震动手柄：Feng Yu称REA研究旧驱动后用Rust重写，恢复Win11与Steam使用](cases/feng-yu-betop-btop-c033-rea-rust-win11-driver-report.md) — Feng Yu报告用REA＋omp研究十几年前北通BTOP-C033驱动，以Rust重写驱动与设置面板，称Win11、Steam识别与震动均恢复；实现和实机效果未核。 **[REA · 待验证]**
 - [Minimal Phone MP01：Josef Prusa研究电子墨水FPGA，将像素控制移到GPU](cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md) — Josef Prusa报告重建Android、研究FPGA与位流工具链，把帧比较和像素电荷控制移到GPU，展示自称63fps的Doom／Sonic；AI分工未明，完整系统与代码尚待整理。 **[未确认使用 REA · 进行中]**
 - [CUDA++与Spark Secrets：Stapleton报告在GB10重建部分GPU用户态执行栈](cases/stapleton-cudapp-gb10-user-stack-reconstruction-report.md) — 公开信把CUDA++置于人类指导Agent的GPU研究背景，报告九类FP32操作对照与1048576元素向量加法匹配；仍用NVIDIA内核模块和签名固件，不是完整CUDA替代。 **[其他 AI 逆向 · 待验证]**
 - [Omega在MI300X运行Qwen：Stapleton报告绕过AMD用户态运行时直连kfd](cases/stapleton-omega-mi300x-qwen-direct-kfd-report.md) — 同一公开信报告Omega程序直接通过/dev/kfd在MI300X运行Qwen3.8-27B-FP8，公布中位26.7毫秒／token；后续16.226毫秒版未进入公共克隆，不能当成公开可复现结果。 **[其他 AI 逆向 · 待验证]**
@@ -1111,6 +1113,9 @@
 
 ### 应用与客户端
 
+- [Enpass给Agent单独的保险库：Abhas称研究加密SQLite后经WebDAV与App共用](cases/abhas-enpass-agent-sqlite-webdav-vault-report.md) — Abhas称Agent研究Enpass加密SQLite中的TOTP、passkeys与附件，使用单独WebDAV vault添加密码及读取复制进去的条目；没有代码或安全审计，不等于破解加密。 **[其他 AI 逆向 · 待验证]**
+- [DeepSeek Harness＋REA重建3D网站：Vladimir Csombor分享教程入口，目标与成果未核](cases/vladimir-deepseek-rea-3d-website-cloning-tutorial.md) — Vladimir Csombor分享以DeepSeek Harness和REA克隆3D网站的教程主题；原帖未给网站名、步骤或成品，不能当作已验证的3D交互重建。 **[REA · 待验证]**
+- [匿名小程序与旧内部软件外包：Alin A转述REA配Claude Code拆包重建的工作流](cases/anonymous-rea-claude-miniprogram-legacy-outsourcing-report.md) — Alin A称一名认识的开发者用REA类工具与Claude Code研究小程序／旧软件包，重建样式和接口后定制交付；客户、目标、代码与账目均未核，不将收入宣传当验证。 **[REA · 待验证]**
 - [Nadim的视频编辑Agent：参考短片加原始素材，重建可编辑图层与动画](cases/ai-video-editor-reference-clip-editable-reconstruction.md) — Nadim测试自制视频编辑软件的Agent，称输入参考片和natecurtiss_yt原始素材即可得到可调整图层、关键帧、曲线及声音设计；仍在改进，模型和工程文件未核。 **[其他 AI 逆向 · 进行中]**
 - [Android满信号仍失败：JASPER想用REA研究ice的应用并修复](cases/ice-android-app-rea-mitmproxy-repair-idea.md) — JASPER因Android应用在满信号下拒绝工作，提出用REA与原文所写mitmxproxy研究ice的App；只是修复idea，应用身份、故障原因和代码均未确认。 **[REA · 待验证]**
 - [不再整包重写：pratham用Droid与Wine，再为音频AI服务做Linux实现](cases/pratham-droid-wine-audio-ai-service-linux-report.md) — pratham称完整桌面App逆向缺项且不准，改让Droid配Wine；只研究Wine不能运行的音频驱动AI服务，发现开源基础后写Linux实现，报告与Windows相同但未独立测试。 **[其他 AI 逆向 · 待验证]**
@@ -1402,7 +1407,7 @@
 - [Rust版WPS：宣传单窗口多格式阅读与AI命令行改文档](cases/rust-wps-multiformat-ai-cli-rebuild-report.md) — Jamba称一个Rust项目为WPS逆向版，支持五类文档与AI CLI修改；没有逆向过程或格式兼容测试。 **[未确认使用 REA · 相关项目]**
 - [本地AI联网前：日语作者称用REA列I/O做筛查](cases/local-ai-rea-io-prescreening-workflow.md) — 作者自述本地AI不接网络，需上线时先用REA列输入输出筛查；没有目标程序或审计记录。 **[REA · 待验证]**
 - [paper-figure-to-figma：把科研图片重建成可编辑矢量](cases/paper-figure-to-figma-editable-reconstruction-report.md) — 工具汇总介绍从论文图重建Figma文字、曲线和渐变，转述90%以上还原主张；未明确AI贡献。 **[未确认使用 REA · 待验证]**
-- [Antigravity百万上下文：转述256k压缩与二进制白名单分析](cases/antigravity-million-context-budget-binary-report.md) — 汇总称UI显示1M但模型侧约256k压缩，提default/512k/900k档位及白名单；未取得分析代码或验证。 **[未确认使用 REA · 待验证]**
+- [Antigravity上下文预算：256k压缩的旧分析与512K阈值的新转述](cases/antigravity-million-context-budget-binary-report.md) — 旧汇总称百万窗口却约256k压缩；11月16日新帖转述二进制研究与15575次调用，称社区阈值升至512K。没有版本、日志或原公告，不把旧阈值或新值当全账号现状。 **[未确认使用 REA · 待验证]**
 - [浏览器原型：作者称Agent建后端并从代码逆推架构图](cases/browser-prototype-agent-code-architecture-diagrams.md) — 荷语作者描述从浏览器端原型扩建后端、再从代码恢复架构图；没有图、代码或测试，完美架构仅作者评价。 **[其他 AI 逆向 · 待验证]**
 - [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
 - [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**

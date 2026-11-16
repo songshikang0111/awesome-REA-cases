@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2318 cases & projects
+# 2323 cases & projects
 
-**Latest case update:** November 16, 2026, 08:12 · **Last maintained:** November 16, 2026, 08:12 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 16, 2026, 12:12 · **Last maintained:** November 16, 2026, 12:12 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: recover an old compiler, revive an E-ink phone, or update a radio without returning to its stock system. Human testing and community research remain part of the story. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: recover an old compiler, revive an E-ink phone, or preserve a game beyond failing hardware. Human testing and community research remain part of the story. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[Minimal Phone MP01: move E-ink control from FPGA to GPU](cases/en/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md)** · `2026-11-16` author report — Josef Prusa reports **FPGA research, GPU pixel control and 63 'fps' Doom/Sonic demos**. He links the work to AI agents but leaves their tasks unspecified; no complete Android release, code or hardware test here. `In progress`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Mario Kart World: translate code, measure each change](cases/en/mkw-recomp-claude-aarch64-c-port.md)** · `2026-11-14` report and pinned docs — **Claude-assisted AArch64-to-C, same-run A/B and console-image checks** bring reported PC racing. Not original-source recovery; menus, AMD hangs and no online play remain. Own game required; not built here. `In progress`
 8. **[X6200: update the radio without swapping back to stock](cases/en/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16` report and PR merge — **Claude-assisted reconstruction of Xiegu's updater** reaches OpenX6X00. The project CI passed; the author reports upgrades and rollback on one radio. No flash readback, recovery not hardware-tested, and no reproduction here. `Unverified here`
 9. **[Fireface UCX: Linux control beyond basic USB audio](cases/en/johan-fireface-ucx-linux-rea-claude-driver.md)** · `2026-11-15` author article — Johan reports **REA/Claude driver research, a terminal mixer and 3.5 ms round-trip audio at 48 kHz**. Community command-format research and a week of hands-on checks matter; tested on one first-generation unit, not reproduced here. `Unverified here`
-10. **[Split60HE: stop a used keyboard from typing every key](cases/en/matias-split60he-claude-flash-calibration-repair-report.md)** · `2026-11-15` author thread — Matías says **Claude traced flash calibration using firmware, KiCad and live USB readings**. After backup and v1.11 flashing, all 69 keys reportedly read 0% at rest. Logs and repair unchecked here; calibration is device-specific. `Unverified here`
+10. **[Order Up!! To Go: leave the failing iPad, keep the game](cases/en/eddie-order-up-to-go-codex-webassembly-preservation-report.md)** · `2026-11-16` author report — Eddie Monteiro says **Codex brought the old 32-bit game to WebAssembly** and emulated coin/achievement services. Browser play is self-reported; 30 fps was a target, not a supplied final measurement. Code and performance unchecked here. `Unverified here`
 
 ## Classic cases
 
@@ -49,9 +49,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **458** |
-| [Hardware & interoperability](categories/en/hardware.md) | **621** |
-| [Applications & clients](categories/en/apps.md) | **961** |
+| [Games & preservation](categories/en/games.md) | **459** |
+| [Hardware & interoperability](categories/en/hardware.md) | **622** |
+| [Applications & clients](categories/en/apps.md) | **964** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **278** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
