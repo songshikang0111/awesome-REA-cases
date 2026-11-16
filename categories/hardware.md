@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [ClaudeWatch腕上审批：darkzodchi报告Apple Watch与Mac Agent桥接](../cases/claudewatch-fable-apple-watch-agent-bridge-report.md) — darkzodchi称逆向Apple Watch并装入Fable 5.2；所列步骤实际描述Bonjour、Node桥与Claude Code hooks，支持腕上看终端、审批和发语音，不能据此说模型本地运行。 **[未确认使用 REA · 待验证]**
+- [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](../cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 一则日语帖子分享FabScene对usb-rea的报道，称工具为依赖专用App的USB设备制作驱动；未读文章、仓库或设备验证，不由名称推定REA关联。 **[未确认使用 REA · 相关项目]**
+- [改装Meta眼镜重新导出照片：Marouane用Codex接入Sol与Darija语音](../cases/marouane-meta-glasses-codex-export-darija-report.md) — Marouane称拒绝更新使改装Meta眼镜面临停用，借Codex恢复照片／视频导出，加入GPT-6.1 Sol与摩洛哥Darija语音；代码与设备未核，关闭录像灯的改装不作推广。 **[其他 AI 逆向 · 待验证]**
+- [Seestar S50望远镜：Rafael称Opus 4.8在40分钟后给出固件与功能发现](../cases/rafael-seestar-s50-opus-firmware-analysis-report.md) — Rafael Silva称让Claude Opus 4.8研究Seestar S50，40分钟后得到root shell、固件转储与55项App没公开的功能；没有日志、功能列表或独立设备验证。 **[其他 AI 逆向 · 待验证]**
 - [Forescout检查十套TCP/IP栈：Claude漏洞报告仍需人工复核，也会漏报](../cases/forescout-claude-ten-tcpip-stacks-vulnerability-study-report.md) — Andrej Drats转述Forescout用Claude检查十套网络栈：362项原始发现经人工核为99个bug、66个新发现；82个已知bug只找回33个。停产AP固件还报告七项问题，未读原研究或复现。 **[其他 AI 逆向 · 待验证]**
 - [Vocci戒指录音到AI任务：John Allen称REA打通ai dot与Grok Bot／Claude Duet](../cases/vocci-ring-rea-ai-dot-task-routing-report.md) — John Allen称研究Vocci戒指后，按键录音能自动发给ai dot，再交Grok Bot或Claude Duet执行任务；没有协议、代码或端到端演示，不猜补音频链路。 **[REA · 待验证]**
 - [人在房间才开空调：cheaty称Sol与Fable研究BLE／Wi-Fi控制](../cases/sol-fable-ac-ble-wifi-presence-automation-report.md) — cheaty称先自行研究，再让GPT-6.1 Sol与Fable 5.2研究空调BLE／Wi-Fi，已能按房温、PC使用和人在房间自动开机；型号、感知方式与安全验证未明。 **[其他 AI 逆向 · 待验证]**

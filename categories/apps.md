@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Amethyst：Anuj Panchbhai介绍AI辅助可执行文件分析工具](../cases/amethyst-ai-binary-analysis-tool-introduction.md) — Anuj Panchbhai介绍Amethyst，宣传用AI拆解可执行文件、观察应用内部与软件行为；没有具体样本、分析报告或实现验证。 **[其他 AI 逆向 · 相关项目]**
+- [Hormozi内容生产体系：Mark Quadros称逐步拆解后用AI重建](../cases/mark-quadros-hormozi-content-machine-ai-rebuild-report.md) — Mark Quadros称拆解Hormozi内容体系每一步并以AI重建；约400万美元投入、年2.5亿美元以上为原品牌背景，非新系统成本与收入。 **[其他 AI 逆向 · 待验证]**
+- [exploit_agent：GTIG发现自主补丁逆向框架的二手安全报告](../cases/gtig-exploit-agent-autonomous-patch-reversing-secondary-report.md) — 帖子转述GTIG在服务器发现exploit_agent，称其自动分析补丁、生成并执行利用，曾针对法国网站；未读GTIG原报告或代码，不将自主性与实际成功当独立验证。 **[其他 AI 逆向 · 待验证]**
+- [INTNXT：用AI解释复杂代码库并生成架构蓝图的相关项目](../cases/intnxt-ai-codebase-architecture-documentation-project.md) — INTNXT宣传AI代码解释、自动技术文档与可视架构蓝图，目标是减少理解复杂代码库的调查负担；没有样本、输出或准确性验证。 **[其他 AI 逆向 · 相关项目]**
 - [同领域热门短片到动画：Varad用ChatGPT Images重建视频风格的工作流](../cases/chatgpt-images-niche-short-video-style-reconstruction-report.md) — Varad Thokal称先找高浏览量领域并研究头部视频，再用ChatGPT Images出图、拼接动画短片；没有参考片、成片、指标或成本账单，不当爆款复现。 **[其他 AI 逆向 · 待验证]**
 - [AI Meet Abuja课堂：用REA现场分析Android恶意软件的教学报告](../cases/ai-meet-abuja-rea-android-malware-live-analysis.md) — 1TalentAfrica报告aa__emmanuel在AI Meet Abuja从环境配置讲到REA现场分析Android恶意软件；样本、发现、命令与回放未提供，不证明分析准确率。 **[REA · 分析测试]**
 - [叭哥说产品建议：WquGuru用REA静态分析与Claude原型完成八页提案](../cases/bage-shuo-rea-static-analysis-product-proposal.md) — WquGuru报告对语音输入法叭哥说做REA静态分析、竞品比较和Claude Artifact原型，交八页PDF并获招募活动头奖；未核建议稿或实现结果。 **[REA · 待验证]**

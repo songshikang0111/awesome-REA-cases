@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [32KB无引擎游戏为何这么小：小梦梦想让AI拆解体积设计](../cases/xiaomeng-ai-32kb-no-engine-game-size-analysis-idea.md) — 小梦梦看到creativedash分享的游戏，建议让AI研究其32KB、无引擎的实现；这是针对具体游戏展示的分析idea，大小与实现未核。 **[其他 AI 逆向 · 待验证]**
+- [Amiga 500从CPU／ROM层重建：Scientific Brad报告Kickstart 1.3开始运行](../cases/scientific-brad-amiga500-mc68000-kickstart-ai-rebuild.md) — Scientific Brad报告投入数亿AI token重建Amiga 500：MC68000核心执行Kickstart 1.3，定制芯片开始输出图像；项目仍远未完成，未审代码或启动日志。 **[REA · 进行中]**
+- [Worms 2变实时联机：alikim.eth报告REA／Claude Code童年游戏改造](../cases/alikim-worms2-rea-claude-realtime-online-report.md) — alikim.eth称本周借REA与Claude Code把Worms 2逆向改为实时动作游戏，加入在线玩法并与兄弟试玩；没有源码、网络测试或独立复现。 **[REA · 待验证]**
 - [Horizon：AI辅助以Rust重建Minecraft Java行为，用差分测试对照原版](../cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md) — TechVerser介绍Horizon重建Minecraft Java 26.3及281套差分测试；固定README报告原版存档与联机兼容，提交有Codex署名。功能、性能和测试覆盖未在本合集复现。 **[其他 AI 逆向 · 进行中]**
 - [Order Up!! To Go离开鼓包iPad：Eddie称Codex把32位老游戏移植到WebAssembly并模拟旧服务](../cases/eddie-order-up-to-go-codex-webassembly-preservation-report.md) — Eddie Monteiro为保留儿子玩的Order Up!! To Go，称Codex反编译并做成网页可玩版本，另模拟购币与成就服务；30fps是优化目标，两天为作者描述，代码和性能未核。 **[其他 AI 逆向 · 待验证]**
 - [Marvel vs. Capcom 2：Claude辅助字节匹配反编译与PC／3DS移植的二手报告](../cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — Pixel Cherry Ninja转述同一源码树可逐字节构建NAOMI与Dreamcast版本，并有PC／3DS移植；100%和全机型60fps没有源码、日志或实机核验。 **[其他 AI 逆向 · 待验证]**

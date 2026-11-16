@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2337 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2349 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（460）
-- [硬件与设备互通](categories/hardware.md)（628）
-- [应用与客户端](categories/apps.md)（969）
-- [算法与功能重建](categories/algorithms.md)（280）
+- [游戏与游戏保存](categories/games.md)（463）
+- [硬件与设备互通](categories/hardware.md)（632）
+- [应用与客户端](categories/apps.md)（973）
+- [算法与功能重建](categories/algorithms.md)（281）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [32KB无引擎游戏为何这么小：小梦梦想让AI拆解体积设计](cases/xiaomeng-ai-32kb-no-engine-game-size-analysis-idea.md) — 小梦梦看到creativedash分享的游戏，建议让AI研究其32KB、无引擎的实现；这是针对具体游戏展示的分析idea，大小与实现未核。 **[其他 AI 逆向 · 待验证]**
+- [Amiga 500从CPU／ROM层重建：Scientific Brad报告Kickstart 1.3开始运行](cases/scientific-brad-amiga500-mc68000-kickstart-ai-rebuild.md) — Scientific Brad报告投入数亿AI token重建Amiga 500：MC68000核心执行Kickstart 1.3，定制芯片开始输出图像；项目仍远未完成，未审代码或启动日志。 **[REA · 进行中]**
+- [Worms 2变实时联机：alikim.eth报告REA／Claude Code童年游戏改造](cases/alikim-worms2-rea-claude-realtime-online-report.md) — alikim.eth称本周借REA与Claude Code把Worms 2逆向改为实时动作游戏，加入在线玩法并与兄弟试玩；没有源码、网络测试或独立复现。 **[REA · 待验证]**
 - [Horizon：AI辅助以Rust重建Minecraft Java行为，用差分测试对照原版](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md) — TechVerser介绍Horizon重建Minecraft Java 26.3及281套差分测试；固定README报告原版存档与联机兼容，提交有Codex署名。功能、性能和测试覆盖未在本合集复现。 **[其他 AI 逆向 · 进行中]**
 - [Order Up!! To Go离开鼓包iPad：Eddie称Codex把32位老游戏移植到WebAssembly并模拟旧服务](cases/eddie-order-up-to-go-codex-webassembly-preservation-report.md) — Eddie Monteiro为保留儿子玩的Order Up!! To Go，称Codex反编译并做成网页可玩版本，另模拟购币与成就服务；30fps是优化目标，两天为作者描述，代码和性能未核。 **[其他 AI 逆向 · 待验证]**
 - [Marvel vs. Capcom 2：Claude辅助字节匹配反编译与PC／3DS移植的二手报告](cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — Pixel Cherry Ninja转述同一源码树可逐字节构建NAOMI与Dreamcast版本，并有PC／3DS移植；100%和全机型60fps没有源码、日志或实机核验。 **[其他 AI 逆向 · 待验证]**
@@ -489,6 +492,10 @@
 
 ### 硬件与设备互通
 
+- [ClaudeWatch腕上审批：darkzodchi报告Apple Watch与Mac Agent桥接](cases/claudewatch-fable-apple-watch-agent-bridge-report.md) — darkzodchi称逆向Apple Watch并装入Fable 5.2；所列步骤实际描述Bonjour、Node桥与Claude Code hooks，支持腕上看终端、审批和发语音，不能据此说模型本地运行。 **[未确认使用 REA · 待验证]**
+- [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 一则日语帖子分享FabScene对usb-rea的报道，称工具为依赖专用App的USB设备制作驱动；未读文章、仓库或设备验证，不由名称推定REA关联。 **[未确认使用 REA · 相关项目]**
+- [改装Meta眼镜重新导出照片：Marouane用Codex接入Sol与Darija语音](cases/marouane-meta-glasses-codex-export-darija-report.md) — Marouane称拒绝更新使改装Meta眼镜面临停用，借Codex恢复照片／视频导出，加入GPT-6.1 Sol与摩洛哥Darija语音；代码与设备未核，关闭录像灯的改装不作推广。 **[其他 AI 逆向 · 待验证]**
+- [Seestar S50望远镜：Rafael称Opus 4.8在40分钟后给出固件与功能发现](cases/rafael-seestar-s50-opus-firmware-analysis-report.md) — Rafael Silva称让Claude Opus 4.8研究Seestar S50，40分钟后得到root shell、固件转储与55项App没公开的功能；没有日志、功能列表或独立设备验证。 **[其他 AI 逆向 · 待验证]**
 - [Forescout检查十套TCP/IP栈：Claude漏洞报告仍需人工复核，也会漏报](cases/forescout-claude-ten-tcpip-stacks-vulnerability-study-report.md) — Andrej Drats转述Forescout用Claude检查十套网络栈：362项原始发现经人工核为99个bug、66个新发现；82个已知bug只找回33个。停产AP固件还报告七项问题，未读原研究或复现。 **[其他 AI 逆向 · 待验证]**
 - [Vocci戒指录音到AI任务：John Allen称REA打通ai dot与Grok Bot／Claude Duet](cases/vocci-ring-rea-ai-dot-task-routing-report.md) — John Allen称研究Vocci戒指后，按键录音能自动发给ai dot，再交Grok Bot或Claude Duet执行任务；没有协议、代码或端到端演示，不猜补音频链路。 **[REA · 待验证]**
 - [人在房间才开空调：cheaty称Sol与Fable研究BLE／Wi-Fi控制](cases/sol-fable-ac-ble-wifi-presence-automation-report.md) — cheaty称先自行研究，再让GPT-6.1 Sol与Fable 5.2研究空调BLE／Wi-Fi，已能按房温、PC使用和人在房间自动开机；型号、感知方式与安全验证未明。 **[其他 AI 逆向 · 待验证]**
@@ -1120,6 +1127,10 @@
 
 ### 应用与客户端
 
+- [Amethyst：Anuj Panchbhai介绍AI辅助可执行文件分析工具](cases/amethyst-ai-binary-analysis-tool-introduction.md) — Anuj Panchbhai介绍Amethyst，宣传用AI拆解可执行文件、观察应用内部与软件行为；没有具体样本、分析报告或实现验证。 **[其他 AI 逆向 · 相关项目]**
+- [Hormozi内容生产体系：Mark Quadros称逐步拆解后用AI重建](cases/mark-quadros-hormozi-content-machine-ai-rebuild-report.md) — Mark Quadros称拆解Hormozi内容体系每一步并以AI重建；约400万美元投入、年2.5亿美元以上为原品牌背景，非新系统成本与收入。 **[其他 AI 逆向 · 待验证]**
+- [exploit_agent：GTIG发现自主补丁逆向框架的二手安全报告](cases/gtig-exploit-agent-autonomous-patch-reversing-secondary-report.md) — 帖子转述GTIG在服务器发现exploit_agent，称其自动分析补丁、生成并执行利用，曾针对法国网站；未读GTIG原报告或代码，不将自主性与实际成功当独立验证。 **[其他 AI 逆向 · 待验证]**
+- [INTNXT：用AI解释复杂代码库并生成架构蓝图的相关项目](cases/intnxt-ai-codebase-architecture-documentation-project.md) — INTNXT宣传AI代码解释、自动技术文档与可视架构蓝图，目标是减少理解复杂代码库的调查负担；没有样本、输出或准确性验证。 **[其他 AI 逆向 · 相关项目]**
 - [同领域热门短片到动画：Varad用ChatGPT Images重建视频风格的工作流](cases/chatgpt-images-niche-short-video-style-reconstruction-report.md) — Varad Thokal称先找高浏览量领域并研究头部视频，再用ChatGPT Images出图、拼接动画短片；没有参考片、成片、指标或成本账单，不当爆款复现。 **[其他 AI 逆向 · 待验证]**
 - [AI Meet Abuja课堂：用REA现场分析Android恶意软件的教学报告](cases/ai-meet-abuja-rea-android-malware-live-analysis.md) — 1TalentAfrica报告aa__emmanuel在AI Meet Abuja从环境配置讲到REA现场分析Android恶意软件；样本、发现、命令与回放未提供，不证明分析准确率。 **[REA · 分析测试]**
 - [叭哥说产品建议：WquGuru用REA静态分析与Claude原型完成八页提案](cases/bage-shuo-rea-static-analysis-product-proposal.md) — WquGuru报告对语音输入法叭哥说做REA静态分析、竞品比较和Claude Artifact原型，交八页PDF并获招募活动头奖；未核建议稿或实现结果。 **[REA · 待验证]**
@@ -2092,6 +2103,7 @@
 
 ### 算法与功能重建
 
+- [从AI图片反推提示：EdhiAitheEnti称试用了REA skills](cases/edhiaitheenti-rea-ai-image-prompt-inference-report.md) — EdhiAitheEnti称用REA skills找一张AI图片的提示词；没有参考图、恢复提示或重生成对照，不能把合理描述当原始提示已找回。 **[REA · 待验证]**
 - [CpcSketch魔数表从哪来：tison称Gemini 4 Carbon循OCaml注释复原生成逻辑](cases/gemini-carbon-datasketches-cpcsketch-magic-table-reconstruction.md) — tison报告用Gemini 4 Carbon Orchestrator＋Swarm复原Apache DataSketches CpcSketch所依赖的魔数表生成逻辑，线索是注释中的OCaml编译运行命令；生成代码与逐项对照未核。 **[其他 AI 逆向 · 待验证]**
 - [研究优秀交易者，再克隆为Agent：DYJ的AI策略重建idea](cases/dyj-ai-trader-behavior-agent-cloning-idea.md) — DYJ提出用AI反推优秀交易者并克隆成Agent；未给交易者、市场、数据或策略规则，作为具体行为重建idea，而非已实现或盈利的交易系统。 **[其他 AI 逆向 · 待验证]**
 - [Polymarket五分钟BTC：Misato称用Grok Bot反推动量与半方差策略](cases/misato-grok-polymarket-momentum-semivariance-report.md) — 作者给出30秒动量与上下行半方差过滤，报告七天84笔模拟交易；账户、费用和交易日志缺失，不证明复制了原策略或真实盈利。 **[其他 AI 逆向 · 待验证]**
@@ -2359,7 +2371,7 @@
 - [MoonBit：Claude 研究符号改名，让 VSCode 调试更易读](cases/moonbit-claude-debugger-demangling.md) — 作者称 Claude 逆向 name mangling 并写 customDescriptionGenerator 改善调试显示。 **[其他 AI 逆向 · 待验证]**
 - [CSV 导出验收器：三个故意改坏的实现如何逃过简单测试](cases/rea-csv-evaluator-mutation-test.md) — 作者称简单测试全绿，换成215组原版字节对照才发现三个错误实现。 **[REA · 分析测试]**
 - [混淆 JS 请求签名：REA 分析后恢复取数的作者报告](cases/rea-obfuscated-web-request-signature.md) — 作者称 REA 五分钟梳理动态签名，改几行代码后得到数据；网站与验证材料未公开。 **[REA · 待验证]**
-- [Polymarket Up/Down bot：REA回放与Claude复刻的未核验推广报告](cases/polymarket-updown-rea-replay-report.md) — 既有作者称REA／Opus逐tick回放；新增作者称Claude20分钟复刻BTC五分钟套利bot。策略、速度、风控和收益均未独立验证，不证明是同一个bot。 **[REA · 待验证]**
+- [Polymarket Up/Down bot：REA回放与Claude复刻的未核验推广报告](cases/polymarket-updown-rea-replay-report.md) — REA／Opus回放、Claude复刻与Barnabus Notes双边套利研究共用Up/Down方向，不认定同一bot；收益与风控均未核，FOK单笔约束不能证明两边原子成交。 **[REA · 待验证]**
 - [1977 年 DES 测试向量：Claude 追溯随机生成环境的报告](cases/des-1977-test-vectors-claude.md) — Steve Weis 称 Claude 将 NBS 的 DES S-box 测试向量追溯到 PDP-11 Unix V6 rand()。 **[其他 AI 逆向 · 待验证]**
 - [jq 与 Fossify Calculator：REA 定位函数和初步调查](cases/rea-jq-fossify-analysis-test.md) — 作者称在 stripped jq 1.8.2 中用 Ghidra 定位一个函数并回溯源码，尚未重建软件。 **[REA · 分析测试]**
 - [NIST ECDSA 曲线：Claude 追溯公开参数的随机生成过程](cases/nist-ecdsa-origin-claude-report.md) — Anthropic 报告从公开曲线种子识别 lrand48 与时间戳，并公开重算代码；不是破解 ECDSA。 **[其他 AI 逆向 · 分析测试]**

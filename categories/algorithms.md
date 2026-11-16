@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [从AI图片反推提示：EdhiAitheEnti称试用了REA skills](../cases/edhiaitheenti-rea-ai-image-prompt-inference-report.md) — EdhiAitheEnti称用REA skills找一张AI图片的提示词；没有参考图、恢复提示或重生成对照，不能把合理描述当原始提示已找回。 **[REA · 待验证]**
 - [CpcSketch魔数表从哪来：tison称Gemini 4 Carbon循OCaml注释复原生成逻辑](../cases/gemini-carbon-datasketches-cpcsketch-magic-table-reconstruction.md) — tison报告用Gemini 4 Carbon Orchestrator＋Swarm复原Apache DataSketches CpcSketch所依赖的魔数表生成逻辑，线索是注释中的OCaml编译运行命令；生成代码与逐项对照未核。 **[其他 AI 逆向 · 待验证]**
 - [研究优秀交易者，再克隆为Agent：DYJ的AI策略重建idea](../cases/dyj-ai-trader-behavior-agent-cloning-idea.md) — DYJ提出用AI反推优秀交易者并克隆成Agent；未给交易者、市场、数据或策略规则，作为具体行为重建idea，而非已实现或盈利的交易系统。 **[其他 AI 逆向 · 待验证]**
 - [Polymarket五分钟BTC：Misato称用Grok Bot反推动量与半方差策略](../cases/misato-grok-polymarket-momentum-semivariance-report.md) — 作者给出30秒动量与上下行半方差过滤，报告七天84笔模拟交易；账户、费用和交易日志缺失，不证明复制了原策略或真实盈利。 **[其他 AI 逆向 · 待验证]**
@@ -269,7 +270,7 @@
 - [MoonBit：Claude 研究符号改名，让 VSCode 调试更易读](../cases/moonbit-claude-debugger-demangling.md) — 作者称 Claude 逆向 name mangling 并写 customDescriptionGenerator 改善调试显示。 **[其他 AI 逆向 · 待验证]**
 - [CSV 导出验收器：三个故意改坏的实现如何逃过简单测试](../cases/rea-csv-evaluator-mutation-test.md) — 作者称简单测试全绿，换成215组原版字节对照才发现三个错误实现。 **[REA · 分析测试]**
 - [混淆 JS 请求签名：REA 分析后恢复取数的作者报告](../cases/rea-obfuscated-web-request-signature.md) — 作者称 REA 五分钟梳理动态签名，改几行代码后得到数据；网站与验证材料未公开。 **[REA · 待验证]**
-- [Polymarket Up/Down bot：REA回放与Claude复刻的未核验推广报告](../cases/polymarket-updown-rea-replay-report.md) — 既有作者称REA／Opus逐tick回放；新增作者称Claude20分钟复刻BTC五分钟套利bot。策略、速度、风控和收益均未独立验证，不证明是同一个bot。 **[REA · 待验证]**
+- [Polymarket Up/Down bot：REA回放与Claude复刻的未核验推广报告](../cases/polymarket-updown-rea-replay-report.md) — REA／Opus回放、Claude复刻与Barnabus Notes双边套利研究共用Up/Down方向，不认定同一bot；收益与风控均未核，FOK单笔约束不能证明两边原子成交。 **[REA · 待验证]**
 - [1977 年 DES 测试向量：Claude 追溯随机生成环境的报告](../cases/des-1977-test-vectors-claude.md) — Steve Weis 称 Claude 将 NBS 的 DES S-box 测试向量追溯到 PDP-11 Unix V6 rand()。 **[其他 AI 逆向 · 待验证]**
 - [jq 与 Fossify Calculator：REA 定位函数和初步调查](../cases/rea-jq-fossify-analysis-test.md) — 作者称在 stripped jq 1.8.2 中用 Ghidra 定位一个函数并回溯源码，尚未重建软件。 **[REA · 分析测试]**
 - [NIST ECDSA 曲线：Claude 追溯公开参数的随机生成过程](../cases/nist-ecdsa-origin-claude-report.md) — Anthropic 报告从公开曲线种子识别 lrand48 与时间戳，并公开重算代码；不是破解 ECDSA。 **[其他 AI 逆向 · 分析测试]**
