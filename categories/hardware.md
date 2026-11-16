@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Minimal Phone MP01：Josef Prusa研究电子墨水FPGA，将像素控制移到GPU](../cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md) — Josef Prusa报告重建Android、研究FPGA与位流工具链，把帧比较和像素电荷控制移到GPU，展示自称63fps的Doom／Sonic；AI分工未明，完整系统与代码尚待整理。 **[未确认使用 REA · 进行中]**
+- [CUDA++与Spark Secrets：Stapleton报告在GB10重建部分GPU用户态执行栈](../cases/stapleton-cudapp-gb10-user-stack-reconstruction-report.md) — 公开信把CUDA++置于人类指导Agent的GPU研究背景，报告九类FP32操作对照与1048576元素向量加法匹配；仍用NVIDIA内核模块和签名固件，不是完整CUDA替代。 **[其他 AI 逆向 · 待验证]**
+- [Omega在MI300X运行Qwen：Stapleton报告绕过AMD用户态运行时直连kfd](../cases/stapleton-omega-mi300x-qwen-direct-kfd-report.md) — 同一公开信报告Omega程序直接通过/dev/kfd在MI300X运行Qwen3.8-27B-FP8，公布中位26.7毫秒／token；后续16.226毫秒版未进入公共克隆，不能当成公开可复现结果。 **[其他 AI 逆向 · 待验证]**
+- [原文Ubicky USB认证设备：TANG在AI逆向自述中称已被攻破，型号与漏洞未明](../cases/tang-ubicky-usb-authentication-ai-reversing-claim.md) — TANG称借Astra与Gemini研究软件及FPGA、向厂商报CVE，并警告原文Ubicky认证USB设备已被逆向；未给厂商型号、编号、机制或复现，不能认定其他品牌或全体认证失效。 **[其他 AI 逆向 · 待验证]**
 - [Deni的三星电视：Claude对照固件与24小时流量，再用DNS挡广告和ACR](../cases/deni-samsung-tv-claude-firmware-dns-acr-report.md) — 作者称Claude分析对应型号官方固件、比对流量并区分必要服务与广告／观看追踪，不刷机而在DNS拦截；型号、域名与日志未给。 **[其他 AI 逆向 · 待验证]**
 - [X6200不用切回原厂系统：Claude辅助重建Xiegu基板升级流程，OpenX6X00已合并](../cases/x6200-claude-base-firmware-upgrade-reimplementation.md) — PR259反汇编原厂1.0.8升级程序，在OpenX6X00中更新或回退基板固件；项目CI通过，作者报告单台三次刷写，恢复路径和全硬件可靠性未独立验证。 **[其他 AI 逆向 · 待验证]**
 - [旧手机变宠物摄像头：BuBBliK称接入Mac追踪三只狗并提示异常](../cases/bubblik-old-phone-mac-ai-dog-camera-report.md) — 作者称把旧手机改成AI摄像头，提供逐狗ID、活动日志、提醒、直播与远程录像；未给手机型号、协议或AI逆向工具，不宣称固件已破解。 **[未确认使用 REA · 待验证]**

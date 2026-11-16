@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2310 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2318 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（458）
-- [硬件与设备互通](categories/hardware.md)（617）
-- [应用与客户端](categories/apps.md)（957）
+- [硬件与设备互通](categories/hardware.md)（621）
+- [应用与客户端](categories/apps.md)（961）
 - [算法与功能重建](categories/algorithms.md)（278）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -487,6 +487,10 @@
 
 ### 硬件与设备互通
 
+- [Minimal Phone MP01：Josef Prusa研究电子墨水FPGA，将像素控制移到GPU](cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md) — Josef Prusa报告重建Android、研究FPGA与位流工具链，把帧比较和像素电荷控制移到GPU，展示自称63fps的Doom／Sonic；AI分工未明，完整系统与代码尚待整理。 **[未确认使用 REA · 进行中]**
+- [CUDA++与Spark Secrets：Stapleton报告在GB10重建部分GPU用户态执行栈](cases/stapleton-cudapp-gb10-user-stack-reconstruction-report.md) — 公开信把CUDA++置于人类指导Agent的GPU研究背景，报告九类FP32操作对照与1048576元素向量加法匹配；仍用NVIDIA内核模块和签名固件，不是完整CUDA替代。 **[其他 AI 逆向 · 待验证]**
+- [Omega在MI300X运行Qwen：Stapleton报告绕过AMD用户态运行时直连kfd](cases/stapleton-omega-mi300x-qwen-direct-kfd-report.md) — 同一公开信报告Omega程序直接通过/dev/kfd在MI300X运行Qwen3.8-27B-FP8，公布中位26.7毫秒／token；后续16.226毫秒版未进入公共克隆，不能当成公开可复现结果。 **[其他 AI 逆向 · 待验证]**
+- [原文Ubicky USB认证设备：TANG在AI逆向自述中称已被攻破，型号与漏洞未明](cases/tang-ubicky-usb-authentication-ai-reversing-claim.md) — TANG称借Astra与Gemini研究软件及FPGA、向厂商报CVE，并警告原文Ubicky认证USB设备已被逆向；未给厂商型号、编号、机制或复现，不能认定其他品牌或全体认证失效。 **[其他 AI 逆向 · 待验证]**
 - [Deni的三星电视：Claude对照固件与24小时流量，再用DNS挡广告和ACR](cases/deni-samsung-tv-claude-firmware-dns-acr-report.md) — 作者称Claude分析对应型号官方固件、比对流量并区分必要服务与广告／观看追踪，不刷机而在DNS拦截；型号、域名与日志未给。 **[其他 AI 逆向 · 待验证]**
 - [X6200不用切回原厂系统：Claude辅助重建Xiegu基板升级流程，OpenX6X00已合并](cases/x6200-claude-base-firmware-upgrade-reimplementation.md) — PR259反汇编原厂1.0.8升级程序，在OpenX6X00中更新或回退基板固件；项目CI通过，作者报告单台三次刷写，恢复路径和全硬件可靠性未独立验证。 **[其他 AI 逆向 · 待验证]**
 - [旧手机变宠物摄像头：BuBBliK称接入Mac追踪三只狗并提示异常](cases/bubblik-old-phone-mac-ai-dog-camera-report.md) — 作者称把旧手机改成AI摄像头，提供逐狗ID、活动日志、提醒、直播与远程录像；未给手机型号、协议或AI逆向工具，不宣称固件已破解。 **[未确认使用 REA · 待验证]**
@@ -1107,6 +1111,10 @@
 
 ### 应用与客户端
 
+- [Nadim的视频编辑Agent：参考短片加原始素材，重建可编辑图层与动画](cases/ai-video-editor-reference-clip-editable-reconstruction.md) — Nadim测试自制视频编辑软件的Agent，称输入参考片和natecurtiss_yt原始素材即可得到可调整图层、关键帧、曲线及声音设计；仍在改进，模型和工程文件未核。 **[其他 AI 逆向 · 进行中]**
+- [Android满信号仍失败：JASPER想用REA研究ice的应用并修复](cases/ice-android-app-rea-mitmproxy-repair-idea.md) — JASPER因Android应用在满信号下拒绝工作，提出用REA与原文所写mitmxproxy研究ice的App；只是修复idea，应用身份、故障原因和代码均未确认。 **[REA · 待验证]**
+- [不再整包重写：pratham用Droid与Wine，再为音频AI服务做Linux实现](cases/pratham-droid-wine-audio-ai-service-linux-report.md) — pratham称完整桌面App逆向缺项且不准，改让Droid配Wine；只研究Wine不能运行的音频驱动AI服务，发现开源基础后写Linux实现，报告与Windows相同但未独立测试。 **[其他 AI 逆向 · 待验证]**
+- [LAYER8：研究侦察与权限组合，让受限Agent共建攻击图并隔离验证](cases/layer8-agent-attack-graph-privilege-chain-project.md) — Michael Fischer称研究自动侦察、攻击图与委托滥用后正在构建LAYER8：受限Agent共享身份和信任关系，候选权限链需隔离重放和证据，未展示实际测试或源码。 **[其他 AI 逆向 · 进行中]**
 - [易下载APK：ruiluckiest让AI静态检查广告与统计SDK，没有安卓实测](cases/ruiluckiest-yixiazai-apk-ai-static-sdk-check.md) — 作者称AI静态分析94KB的多平台视频下载APK，未发现广告和统计SDK；工具、包版本与报告未给，不能证明安全或下载功能可用。 **[其他 AI 逆向 · 分析测试]**
 - [REA合约检查后再模拟交易：winkle的五Agent memecoin方案idea](cases/winkle-rea-five-agent-memecoin-audit-idea.md) — 方案把新币扫描、REA分析、判定、入场与退出分工，先用500美元模拟七天；没有实现或收益，CLEAN标签不代表合约安全。 **[REA · 待验证]**
 - [Antigravity原生上下文面板：Ahmet称逆向sidecar SDK补齐实时用量显示](cases/ahmet-antigravity-sidecar-context-panel-report.md) — 作者称逆向sidecar SDK后显示Gemini上下文、缓存命中与MCP开销，零额外Token尚未测量；是AI工具互操作相关项目，未说明AI是否执行逆向。 **[未确认使用 REA · 相关项目]**
@@ -1176,7 +1184,7 @@
 - [Outlook研究idea：M建议Claude调用REA，没有报告具体功能或结果](cases/mura-outlook-claude-rea-idea.md) — M（@_mura）向Outlook及服务状态账号喊话，让Claude用REA研究Outlook；是具名应用idea，没有任务细节、运行或修复证据。 **[REA · 待验证]**
 - [笔记离线同步idea：ReignSwords想用REA研究编辑合并行为](cases/rea-personal-notes-offline-sync-investigation-idea.md) — ReignSwords介绍REA后称最想研究自己笔记应用的同步，不信任其离线编辑合并；应用未具名，没有分析或冲突测试。 **[REA · 待验证]**
 - [Latrodectus样本：九个Malspark Agent的84分钟恶意软件分析转述](cases/malspark-latrodectus-nine-agent-analysis-report.md) — Düzgün转述九个Malspark／Claude Haiku5.5 Agent以84分钟、8.24美元分析Latrodectus；对照八份人工分析的89项事实恢复84项且零错误，仅为所述基准结果。 **[其他 AI 逆向 · 分析测试]**
-- [log接入Hermes：matt称用REA寻找社交内部API，把会话交给Agent](cases/log-hermes-rea-social-internal-api-plugin.md) — matt宣布log与Hermes的开源插件整合，称结合Treg、Subquadratic与REA寻找社交网站内部API，从会话中发现机会；未核仓库、权限或实际控制范围。 **[REA · 进行中]**
+- [log接入Hermes：matt称本地处理会话，并以REA研究社交内部API](cases/log-hermes-rea-social-internal-api-plugin.md) — matt为log／Hermes插件补充本地模型重排、分段与嵌入会话，并称用REA反编译社交平台接内部API，配Treg找人与外联；平台覆盖、权限、代码和本地存储均未核。 **[REA · 进行中]**
 - [三天AI订阅商店：作者称REA分析商业站，提炼design.md后重建](cases/rea-designmd-ai-subscription-store-rebuild-report.md) — 作者报告用REA研究成熟商业站的结构、设计和交互，生成design.md重建订阅充值网站，并对接供货、订单、支付与交付；三天为自述，非官方渠道与收益承诺。 **[REA · 待验证]**
 - [EAC公开应用：Jhaddix转述XBOW Agent研究前端JS并报告未认证容器RCE](cases/xbow-eac-frontend-js-unauthenticated-rce-report.md) — Jhaddix在赞助帖中称XBOW Agent研究美国EAC某公开应用前端JavaScript，验证后端容器root代码执行并在11月3日前修补；未独立验证，不扩大为投票系统被攻破。 **[其他 AI 逆向 · 待验证]**
 - [Ableton13研究idea：So Me向Grimes建议Opus5.5加REA](cases/glitchedsomi-opus55-rea-ableton13-idea.md) — So Me回复Grimes，提出用Opus5.5与REA研究Ableton13；只有目标与工具组合，没有已开始任务、具体功能、代码或结果。 **[REA · 待验证]**

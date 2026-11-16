@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2310 个案例与项目
+# 2318 个案例与项目
 
-**最近案例更新：**2026 年 11 月 16 日 04:12 · **最近维护：**2026 年 11 月 16 日 04:12 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 16 日 08:12 · **最近维护：**2026 年 11 月 16 日 08:12 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,10 +22,10 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：重建老编译器，修好键盘，不切回原厂系统也能更新电台，也看清人工测试与社区研究的作用。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：重建老编译器，改善电子墨水手机，不切回原厂系统也能更新电台，也看清人工测试与社区研究的作用。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
-2. **[Ember恒温杯：探测蓝牙，做自己的控制端](cases/dmitriy-ember-mug-codex-bluetooth-probing-report.md)** · `2026-11-14`作者报告 — Dmitriy称**Codex探测特征并与iOS应用对照**，约一小时做出温度／灯控制。禁止查网是作者要求；杯量精度与代码未核。`未独立核验`
+2. **[Minimal Phone MP01：电子墨水控制从FPGA移到GPU](cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md)** · `2026-11-16`作者报告 — Josef Prusa报告**FPGA研究、GPU像素控制及63‘fps’的Doom／Sonic演示**。他联系到AI Agent，但未说明任务分工；没有完整Android发布，本合集未审代码或实机测试。`进行中`
 3. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙／Wi-Fi差异**，做出JPEG导入和Google Photos上传。逐步实机试验，不是无迭代生成；代码与抓包未审。`未独立核验`
 4. **[Anker录音豆：让Agent找回上周的对话](cases/berryxia-anker-recorder-rea-mcp-knowledge-app.md)** · `2026-11-12`作者报告 — **REA蓝牙研究与MCP录音检索**，可选千问本地ASR或在线转写。计划调整测试后开源；代码与设备链路未核。`进行中`
 5. **[Fallout Van Buren：把六年研究交给REA](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14`作者串 — Kran归功于**人工研究、shenmarukai反编译与IDA数据库**，不是Agent从零发现。已报告DX9迁移，64位仍是技术演示的目标，不是完整游戏。本合集未构建。`进行中`
@@ -50,8 +50,8 @@
 | 分类 | 数量 |
 | :--- | ---: |
 | [游戏与游戏保存](categories/games.md) | **458** |
-| [硬件与设备互通](categories/hardware.md) | **617** |
-| [应用与客户端](categories/apps.md) | **957** |
+| [硬件与设备互通](categories/hardware.md) | **621** |
+| [应用与客户端](categories/apps.md) | **961** |
 | [算法与功能重建](categories/algorithms.md) | **278** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
