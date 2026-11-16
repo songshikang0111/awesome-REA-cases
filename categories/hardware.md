@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [运营商路由器换OpenWrt：Chester称Antigravity经telnet完成刷写与配置迁移](../cases/chester-antigravity-router-openwrt-telnet-migration-report.md) — Chester称自己卡在运营商定制固件校验后，Antigravity经telnet取得root并刷OpenWrt、迁移配置；型号、校验处理和恢复测试未披露，不是已验证的新漏洞。 **[其他 AI 逆向 · 待验证]**
+- [Tidbyt显示Agent动态：Djinn615让Codex借Tronbyt复用旧像素屏](../cases/djinn615-tidbyt-tronbyt-codex-agent-status-display.md) — Djinn615让Codex用Tronbyt替换旧Tidbyt固件与云服务，目标是显示AI Agent在做什么、何时需人关注；未给显示程序、协议或完成演示。 **[其他 AI 逆向 · 进行中]**
 - [北通BTOP-C033老震动手柄：Feng Yu称REA研究旧驱动后用Rust重写，恢复Win11与Steam使用](../cases/feng-yu-betop-btop-c033-rea-rust-win11-driver-report.md) — Feng Yu报告用REA＋omp研究十几年前北通BTOP-C033驱动，以Rust重写驱动与设置面板，称Win11、Steam识别与震动均恢复；实现和实机效果未核。 **[REA · 待验证]**
 - [Minimal Phone MP01：Josef Prusa研究电子墨水FPGA，将像素控制移到GPU](../cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md) — Josef Prusa报告重建Android、研究FPGA与位流工具链，把帧比较和像素电荷控制移到GPU，展示自称63fps的Doom／Sonic；AI分工未明，完整系统与代码尚待整理。 **[未确认使用 REA · 进行中]**
 - [CUDA++与Spark Secrets：Stapleton报告在GB10重建部分GPU用户态执行栈](../cases/stapleton-cudapp-gb10-user-stack-reconstruction-report.md) — 公开信把CUDA++置于人类指导Agent的GPU研究背景，报告九类FP32操作对照与1048576元素向量加法匹配；仍用NVIDIA内核模块和签名固件，不是完整CUDA替代。 **[其他 AI 逆向 · 待验证]**

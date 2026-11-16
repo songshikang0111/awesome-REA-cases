@@ -1,5 +1,73 @@
 [
   {
+    "id": "horizon-minecraft-java-rust-ai-differential-reimplementation",
+    "title": "Horizon：AI辅助以Rust重建Minecraft Java行为，用差分测试对照原版",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "TechVerser介绍Horizon重建Minecraft Java 26.3及281套差分测试；固定README报告原版存档与联机兼容，提交有Codex署名。功能、性能和测试覆盖未在本合集复现。",
+    "description": "2026年11月16日14:32:49（北京时间），TechVerser（@realfxw）介绍horizon-rust/horizon：以Rust重建Minecraft: Java Edition 26.3的客户端和游戏行为，摆脱Java运行环境而保留原版玩法、存档和联机。帖子称Claude联合署名提交9900多个、Codex一千多个，并以281套差分测试对齐原版。这些计数未逐项审计；联合署名也不等于AI独立设计、人工零参与或源码原创性的证明。未提REA。\n\n补读公开仓库固定85b5bcca7c79bb470b90bdb5914b413aa66fe7ae的README和提交说明，提交时间为2026年11月16日01:32:47 UTC，即本窗口之前的项目背景，不是新候选。提交说明有OpenAI Codex联合署名，报告合并原生与Wasm mod API、保留分支历史，并称最终头部CI通过；本合集没有另读该CI日志，不能当独立测试通过。仓库公开简介也称281套差分测试，但本次未审测试清单、oracle、样本或逐项结果。\n\n固定README将项目归于Horizon Team，创始人为Ludovic Marie；自述支持生存、创造、极限模式、各维度地形、生物、村民、红石，直接打开存档，连接原版或Horizon服务器、局域网和邀请联机，并有自己的mod系统、光影包及最高1024区块远景。这些是项目功能承诺，非本合集运行确认；候选所说1.8到26.2存档无缝升级未由所读README具体证明，也不把自己的mod API推为兼容全部Java mod。\n\n文档图片文字报告相对装有Sodium、Lithium、FerriteCore和ImmediatelyFast的Java版启动快3.5倍、FPS高38%，限定Ryzen 7 9800X3D与RTX 5080；未读外链基准或重跑，不把候选所说老四核不卡、玩家帧率翻倍泛化成普遍性能。文档要求自有Minecraft Java副本、安装并启动26.3一次；项目称不分发Minecraft文件，而从用户购得游戏生成所需文件。本合集未审提取流程、登录安全或法律主张，候选对DMCA的猜测不是已发生下架。\n\nREADME称原创工作现用LGPL v3或以后版本，转许可前代码仍有MIT授权，依赖各保留许可；这不授权Mojang/Microsoft代码与资产。补取确认候选署名和文字，未观看图片、安装启动器、登录账号、下载游戏资产或执行目标代码。保留进行中，既不称完全等价，也不称找回原始源码。",
+    "sources": [
+      {"label": "TechVerser介绍Horizon及AI提交／差分测试，2026-11-16 14:32:49北京时间", "url": "https://x.com/i/status/2122216298549588224"},
+      {"label": "窗口前固定README：玩法、存档、性能条件与授权，2026-11-16 01:32:47 UTC提交", "url": "https://github.com/horizon-rust/horizon/blob/85b5bcca7c79bb470b90bdb5914b413aa66fe7ae/README.md"},
+      {"label": "同一固定提交：Codex联合署名及mod API合并自述，非独立CI复测", "url": "https://github.com/horizon-rust/horizon/commit/85b5bcca7c79bb470b90bdb5914b413aa66fe7ae"}
+    ],
+    "snapshot_date": "2026-11-16", "metadata": ["候选封存0赞、56浏览、0转发、1回复；约8.2k星为帖子文字快照，非功能验证。"],
+    "en": {
+      "title": "Horizon: AI-assisted Rust reconstruction of Minecraft Java behavior with differential checks against vanilla",
+      "summary": "TechVerser introduces Horizon's Minecraft Java 26.3 reconstruction and 281 differential harnesses. A pinned README reports save and multiplayer compatibility, and a commit credits Codex. Features, performance and test coverage were not reproduced here.",
+      "description": "At 14:32:49 Beijing time on November 16, 2026, TechVerser (@realfxw) introduces horizon-rust/horizon: a Rust reconstruction of the Minecraft: Java Edition 26.3 client and game behavior, leaving Java behind while retaining vanilla play, saves and multiplayer. The post cites more than 9,900 Claude-coauthored commits, over 1,000 for Codex, and 281 differential harnesses for vanilla alignment. Those counts were not audited individually. Coauthor credits do not establish autonomous AI design, no human work or source originality. REA is unmentioned.\n\nSupplementary reading covers the public README and commit message pinned at 85b5bcca7c79bb470b90bdb5914b413aa66fe7ae, dated November 16, 2026 at 01:32:47 UTC. This predates the window and is project background, not a new candidate. The message credits OpenAI Codex, describes merging native and Wasm mod APIs while preserving fork history, and says final-head CI passed. Its CI logs were not separately reviewed, so this is not an independent test pass. The public repository description also cites 281 differential harnesses; their inventory, oracles, samples and individual results were not examined.\n\nThe pinned README credits the Horizon Team and founder Ludovic Marie. It reports survival, creative and hardcore modes; all dimensions, terrain, mobs, villagers and redstone; opening existing saves; vanilla/Horizon servers, LAN and invite multiplayer; its own mod system, shader packs and terrain visibility up to 1,024 chunks away. These are project feature claims, not behavior run here. The post's specific seamless save upgrades from 1.8 through 26.2 are not established by the read README. A native mod API does not imply compatibility with every Java mod.\n\nText in the documentation's images reports 3.5 times faster startup and 38% more FPS than Java with Sodium, Lithium, FerriteCore and ImmediatelyFast, on a Ryzen 7 9800X3D and RTX 5080. The external benchmark page was not read and tests were not rerun; the post's old-quad-core smoothness and doubled-FPS anecdotes are not generalized. Documentation requires an owned Minecraft Java copy and installing/starting 26.3 once. The project says it ships no Minecraft files, building needed files from the purchased game. Extraction, login safety and legal claims were not audited. The candidate's DMCA speculation is not an actual takedown.\n\nThe README states LGPL version 3 or later for current original work, continued MIT availability for pre-relicensing code, and separate dependency licenses. None authorizes Mojang/Microsoft code or assets. Retrieval confirms the candidate's attribution and wording only. Images were not viewed, no launcher installed, account used, game asset downloaded or target code executed. Status remains in progress, not complete equivalence or recovery of original source.",
+      "metadata": ["Sealed candidate: 0 likes, 56 views, 0 reposts, 1 reply. Roughly 8.2K stars is a text snapshot in the post, not feature validation."],
+      "source_labels": ["TechVerser on Horizon, AI commits and differential testing, November 16, 2026 at 14:32:49 Beijing time", "Pre-window pinned README: play, saves, performance conditions and rights; commit November 16, 2026 at 01:32:47 UTC", "Same pinned commit: Codex coauthor credit and mod-API merge account, not an independent CI rerun"]
+    }
+  },
+  {
+    "id": "dyj-ai-trader-behavior-agent-cloning-idea",
+    "title": "研究优秀交易者，再克隆为Agent：DYJ的AI策略重建idea",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "DYJ提出用AI反推优秀交易者并克隆成Agent；未给交易者、市场、数据或策略规则，作为具体行为重建idea，而非已实现或盈利的交易系统。",
+    "description": "2026年11月16日13:30:15（北京时间），DYJ（@davidyjeong）写道正在用AI研究优秀交易者，并把他们克隆为Agent。可辨认的目标是从交易者行为反推可自动执行的策略，而不是软件二进制反编译；作者没有展开方法，因此按idea记录。\n\n原帖未点名交易者、市场、账户、数据源、AI模型、训练或推理方法、买卖规则、风控、回测或实盘结果。不能据此说已经恢复私人算法、复制收益，或能替代交易者。补取确认署名、文字与一张图片附件，但未观看图片或读取短链目标，不能用附件猜补策略。\n\n本合集没有访问任何交易账户、获取私人数据、运行Agent或交易；未提REA，保持unverified。这里的克隆保留为作者对行为模仿目标的说法，不是已证明功能等价。",
+    "sources": [{"label": "DYJ的AI研究交易者与Agent克隆idea，2026-11-16 13:30:15北京时间", "url": "https://x.com/i/status/2122200555380715661"}],
+    "snapshot_date": "2026-11-16", "metadata": ["封存候选34赞、2732浏览、0转发、3回复；没有工时或收益数字。"],
+    "en": {
+      "title": "Study good traders, then clone them as agents: DYJ's AI strategy-reconstruction idea",
+      "summary": "DYJ proposes using AI to infer good traders' behavior and clone them as agents. No trader, market, dataset or rules are supplied; this is a behavior-reconstruction idea, not an implemented or profitable trading system.",
+      "description": "At 13:30:15 Beijing time on November 16, 2026, DYJ (@davidyjeong) writes about using AI to reverse-engineer good traders and clone them as agents. The identifiable goal is inferring executable strategies from trader behavior, not decompiling software binaries. With no method elaborated, this is recorded as an idea.\n\nThe post names no trader, market, account, data source, AI model, training/inference method, trading rules, risk controls, backtest or live results. It does not establish recovery of private algorithms, replicated returns or replacement of traders. Retrieval confirms attribution, wording and one image attachment. The image and short-link target were not examined; no strategy is inferred from them.\n\nThis collection accessed no trading account or private data and ran no agent or trade. REA is unmentioned; status remains unverified. Cloning is retained as the author's description of the behavioral-imitation goal, not proven functional equivalence.",
+      "metadata": ["Sealed candidate: 34 likes, 2,732 views, 0 reposts, 3 replies. No development duration or returns are supplied."],
+      "source_labels": ["DYJ's AI trader-research and agent-cloning idea, November 16, 2026 at 13:30:15 Beijing time"]
+    }
+  },
+  {
+    "id": "chester-antigravity-router-openwrt-telnet-migration-report",
+    "title": "运营商路由器换OpenWrt：Chester称Antigravity经telnet完成刷写与配置迁移",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Chester称自己卡在运营商定制固件校验后，Antigravity经telnet取得root并刷OpenWrt、迁移配置；型号、校验处理和恢复测试未披露，不是已验证的新漏洞。",
+    "description": "2026年11月16日13:56:31（北京时间），Chester（@Chester_XCOM）报告本来准备自行给路由器换系统，但被运营商定制固件的校验步骤挡住，随后交给Antigravity。他称Agent通过telnet进入设备、取得root，并用telnet完成OpenWrt刷写和配置迁移，不需他手动操作路由器。目标是适配旧设备与迁移自选固件，不是重建OpenWrt本身。\n\n帖子没有路由器型号、运营商、原固件与OpenWrt版本，也未解释root如何取得、校验如何处理、是否采用已有研究或工具。因此只能确认AI辅助固件适配的自述，不能称AI发现新漏洞、破解签名或从零逆向全部固件；也不能将未手动操作理解为无需硬件接线或任何人类决策。\n\n补取确认作者和全文，未取得引用帖的具体型号、源码、终端日志、备份与校验记录、启动与恢复测试；不与现有H3C或小米案例强行归并。本合集未连接路由器、下载固件、执行telnet或刷写设备，REA未提及，保持unverified。",
+    "sources": [{"label": "Chester的Antigravity／telnet刷OpenWrt与迁移配置报告，2026-11-16 13:56:31北京时间", "url": "https://x.com/i/status/2122207164362326418"}],
+    "snapshot_date": "2026-11-16", "metadata": ["封存候选1赞、91浏览、0转发、2回复；无耗时或跨设备测试。"],
+    "en": {
+      "title": "An ISP router moves to OpenWrt: Chester reports Antigravity flashing and configuration migration over telnet",
+      "summary": "After an ISP-firmware validation obstacle, Chester says Antigravity obtained root over telnet, flashed OpenWrt and migrated settings. Model, validation handling and recovery tests are undisclosed; a verified new vulnerability is not established.",
+      "description": "At 13:56:31 Beijing time on November 16, 2026, Chester (@Chester_XCOM) reports planning to change a router's system manually, getting stuck at an ISP-customized firmware validation step, and handing the task to Antigravity. He says the agent entered over telnet, obtained root, flashed OpenWrt and migrated configuration through telnet without his manually operating the router. The goal is adapting an existing device and migrating to chosen firmware, not reconstructing OpenWrt itself.\n\nNo router model, ISP, original firmware or OpenWrt version is named. How root was obtained, how validation was handled and whether prior research or tools were used are unexplained. This supports an account of AI-assisted firmware adaptation, not a claim of a newly discovered vulnerability, signature bypass or reverse-engineering the entire firmware from scratch. No manual operation does not establish an absence of wiring or human decisions.\n\nRetrieval confirms attribution and full text. The quoted post's specific model, source, terminal logs, backup/hash records and boot/recovery tests were not obtained. It is not forcibly merged into existing H3C or Xiaomi cases. This collection connected no router, downloaded no firmware and executed no telnet or flashing operations. REA is unmentioned; status remains unverified.",
+      "metadata": ["Sealed candidate: 1 like, 91 views, 0 reposts, 2 replies. No duration or cross-device tests are supplied."],
+      "source_labels": ["Chester's Antigravity/telnet OpenWrt flashing and configuration-migration account, November 16, 2026 at 13:56:31 Beijing time"]
+    }
+  },
+  {
+    "id": "djinn615-tidbyt-tronbyt-codex-agent-status-display",
+    "title": "Tidbyt显示Agent动态：Djinn615让Codex借Tronbyt复用旧像素屏",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Djinn615让Codex用Tronbyt替换旧Tidbyt固件与云服务，目标是显示AI Agent在做什么、何时需人关注；未给显示程序、协议或完成演示。",
+    "description": "2026年11月16日14:55:59（北京时间），Djinn615（@Djinn615）称翻出旧Tidbyt，把重新使用它的工作交给Codex，采用Tronbyt这一开源固件与云服务替代方案。他明确的应用目标是让小型像素显示屏展示AI Agent在做什么，以及何时需要自己注意。\n\n这是利用社区替代实现复用既有设备的项目，不是Codex从零逆向、发明或重写Tronbyt。帖子的bringing it back to life表达方向，未给设备代次、固件版本、部署日志、状态协议、通知代码或已完成运行的演示，故保留进行中；不补写已实现的审批按钮、实时推送或完全离线链路。\n\n补取确认署名与全文，没有附件。本项目的作者及Agent状态显示用途不同于Sean Oliver的Claude／日历迁移、kobez的Codex／自定义固件API，不能借用他们的备份或测试结果。本合集未读取本项目代码、接设备或运行固件，REA未提及。",
+    "sources": [{"label": "Djinn615的Codex／Tronbyt复用Tidbyt与Agent状态屏目标，2026-11-16 14:55:59北京时间", "url": "https://x.com/i/status/2122222129085059484"}],
+    "snapshot_date": "2026-11-16", "metadata": ["封存候选1赞、17浏览、0转发、1回复；未给项目工时或显示延迟。"],
+    "en": {
+      "title": "Tidbyt as an agent-status display: Djinn615 puts Codex to work with Tronbyt",
+      "summary": "Djinn615 puts Codex to work reviving an old Tidbyt with Tronbyt's replacement firmware/cloud stack, aiming to show AI-agent activity and requests for attention. No display program, protocol or completed demo is supplied.",
+      "description": "At 14:55:59 Beijing time on November 16, 2026, Djinn615 (@Djinn615) says they dug out an old Tidbyt and put Codex to work reviving it with Tronbyt, an open-source replacement for its firmware and cloud service. The explicit goal is a small pixel display showing what AI agents are doing and when they need the user's attention.\n\nThis reuses an existing device through a community replacement implementation; it does not establish Codex inventing, reverse-engineering from scratch or rewriting Tronbyt. Bringing it back to life describes the direction, without a device generation, firmware version, deployment log, status protocol, notification code or completed running demo. Status remains in progress. Approval buttons, real-time pushes and an entirely offline chain are not filled in.\n\nRetrieval confirms attribution and full text, with no attachments. The author and agent-status purpose differ from Sean Oliver's Claude/calendar migration and kobez's Codex/custom-firmware API, so their backup and test results are not borrowed. This collection read no code for this project, connected no device and ran no firmware. REA is unmentioned.",
+      "metadata": ["Sealed candidate: 1 like, 17 views, 0 reposts, 1 reply. No project duration or display latency is supplied."],
+      "source_labels": ["Djinn615's Codex/Tronbyt Tidbyt revival and agent-status goal, November 16, 2026 at 14:55:59 Beijing time"]
+    }
+  },
+  {
     "id": "feng-yu-betop-btop-c033-rea-rust-win11-driver-report",
     "title": "北通BTOP-C033老震动手柄：Feng Yu称REA研究旧驱动后用Rust重写，恢复Win11与Steam使用",
     "category": "hardware", "rea": "REA", "status": "unverified",

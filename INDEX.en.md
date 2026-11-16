@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2323 entries**, organized by use case, without a Top-N or popularity threshold.
+**2327 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (459)
-- [Hardware and interoperability](categories/en/hardware.md) (622)
+- [Games and preservation](categories/en/games.md) (460)
+- [Hardware and interoperability](categories/en/hardware.md) (624)
 - [Applications and clients](categories/en/apps.md) (964)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (278)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (279)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Horizon: AI-assisted Rust reconstruction of Minecraft Java behavior with differential checks against vanilla](cases/en/horizon-minecraft-java-rust-ai-differential-reimplementation.md) — TechVerser introduces Horizon's Minecraft Java 26.3 reconstruction and 281 differential harnesses. A pinned README reports save and multiplayer compatibility, and a commit credits Codex. Features, performance and test coverage were not reproduced here. **[Other AI-assisted work · In progress]**
 - [Order Up!! To Go beyond a swollen-battery iPad: Eddie reports a Codex WebAssembly port and old-service emulation](cases/en/eddie-order-up-to-go-codex-webassembly-preservation-report.md) — To preserve his son's Order Up!! To Go, Eddie Monteiro says Codex decompiled it into a playable web version and emulated coin-purchase and achievement services. Thirty fps is an optimization goal and two days an author description; code and performance are unchecked. **[Other AI-assisted work · Needs verification]**
 - [Marvel vs. Capcom 2: a secondary report of Claude-assisted byte-matching decompilation and PC/3DS ports](cases/en/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — Pixel Cherry Ninja relays claims that one source tree rebuilds NAOMI and Dreamcast byte for byte and supports PC/3DS ports. Neither 100% matching nor 60 fps across every handheld was checked against code, logs or hardware here. **[Other AI-assisted work · Needs verification]**
 - [Completing discarded MGSV content: El Glitch's decompile-and-continue-with-AI idea](cases/en/mgsv-ai-decompile-discarded-content-completion-idea.md) — A reader proposes decompiling Metal Gear Solid V and using AI to finish its last discarded part. No implementation, available assets or playable result is demonstrated. **[Other AI-assisted work · Needs verification]**
@@ -490,6 +491,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [An ISP router moves to OpenWrt: Chester reports Antigravity flashing and configuration migration over telnet](cases/en/chester-antigravity-router-openwrt-telnet-migration-report.md) — After an ISP-firmware validation obstacle, Chester says Antigravity obtained root over telnet, flashed OpenWrt and migrated settings. Model, validation handling and recovery tests are undisclosed; a verified new vulnerability is not established. **[Other AI-assisted work · Needs verification]**
+- [Tidbyt as an agent-status display: Djinn615 puts Codex to work with Tronbyt](cases/en/djinn615-tidbyt-tronbyt-codex-agent-status-display.md) — Djinn615 puts Codex to work reviving an old Tidbyt with Tronbyt's replacement firmware/cloud stack, aiming to show AI-agent activity and requests for attention. No display program, protocol or completed demo is supplied. **[Other AI-assisted work · In progress]**
 - [Betop BTOP-C033: Feng Yu reports REA-assisted Rust driver and settings-panel rebuilding for Windows 11 and Steam](cases/en/feng-yu-betop-btop-c033-rea-rust-win11-driver-report.md) — Feng Yu reports using REA and omp to study an old Betop BTOP-C033 driver and rewrite the driver and settings panel in Rust, restoring Windows 11/Steam recognition and vibration. Implementation and hardware behavior are unchecked. **[REA · Needs verification]**
 - [Minimal Phone MP01: Josef Prusa studies the E-ink FPGA and moves pixel control to the GPU](cases/en/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md) — Josef Prusa reports rebuilding Android, studying the FPGA and bitstream toolchain, and moving frame comparison and pixel-charge control to the GPU, with claimed 63 fps Doom/Sonic demos. AI task allocation is unspecified; a full system and code release remain unfinished. **[REA use unconfirmed · In progress]**
 - [CUDA++ and Spark Secrets: Stapleton reports rebuilding parts of the GPU user-space execution stack on GB10](cases/en/stapleton-cudapp-gb10-user-stack-reconstruction-report.md) — An open letter places CUDA++ within human-directed agent GPU research, reporting nine FP32 operation comparisons and a matching 1,048,576-element vector add. NVIDIA kernel modules and signed firmware remain; this is not a complete CUDA replacement. **[Other AI-assisted work · Needs verification]**
@@ -2082,6 +2085,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Study good traders, then clone them as agents: DYJ's AI strategy-reconstruction idea](cases/en/dyj-ai-trader-behavior-agent-cloning-idea.md) — DYJ proposes using AI to infer good traders' behavior and clone them as agents. No trader, market, dataset or rules are supplied; this is a behavior-reconstruction idea, not an implemented or profitable trading system. **[Other AI-assisted work · Needs verification]**
 - [Polymarket five-minute BTC: Misato reports rebuilding momentum and semivariance rules with Grok Bot](cases/en/misato-grok-polymarket-momentum-semivariance-report.md) — The author describes a 30-second momentum signal and up/down semivariance filter, reporting 84 simulated trades over seven days. Accounts, fees and trade logs are absent; neither original-strategy recovery nor live profits are established. **[Other AI-assisted work · Needs verification]**
 - [Buffett/Munger writing to stock-scoring rules: Jurgis reports a deterministic scanner built with Claude Code and Antigravity](cases/en/buffett-munger-claude-rubric-stock-scanner.md) — A current-window post links an April account of distilling six decades of investment writing into Python rules: reportedly 929 stocks in 17 minutes and 22 tests. The model writes narrative, not stock picks; returns are unverified. **[Other AI-assisted work · Needs verification]**
 - [A viral-video remake agent: building on rea-video, with keep-versus-replace interaction still unresolved](cases/en/rosie-rea-video-remake-agent-intent-project.md) — An article linked by rosieblossom08 describes a rea-video-based product that reportedly breaks down shots and suggests prompts. Its unresolved question is what users want to preserve or replace, not a demonstrated reliable one-click remake. **[Other AI-assisted work · In progress]**

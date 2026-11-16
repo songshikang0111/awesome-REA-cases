@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2323 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2327 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（459）
-- [硬件与设备互通](categories/hardware.md)（622）
+- [游戏与游戏保存](categories/games.md)（460）
+- [硬件与设备互通](categories/hardware.md)（624）
 - [应用与客户端](categories/apps.md)（964）
-- [算法与功能重建](categories/algorithms.md)（278）
+- [算法与功能重建](categories/algorithms.md)（279）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Horizon：AI辅助以Rust重建Minecraft Java行为，用差分测试对照原版](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md) — TechVerser介绍Horizon重建Minecraft Java 26.3及281套差分测试；固定README报告原版存档与联机兼容，提交有Codex署名。功能、性能和测试覆盖未在本合集复现。 **[其他 AI 逆向 · 进行中]**
 - [Order Up!! To Go离开鼓包iPad：Eddie称Codex把32位老游戏移植到WebAssembly并模拟旧服务](cases/eddie-order-up-to-go-codex-webassembly-preservation-report.md) — Eddie Monteiro为保留儿子玩的Order Up!! To Go，称Codex反编译并做成网页可玩版本，另模拟购币与成就服务；30fps是优化目标，两天为作者描述，代码和性能未核。 **[其他 AI 逆向 · 待验证]**
 - [Marvel vs. Capcom 2：Claude辅助字节匹配反编译与PC／3DS移植的二手报告](cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — Pixel Cherry Ninja转述同一源码树可逐字节构建NAOMI与Dreamcast版本，并有PC／3DS移植；100%和全机型60fps没有源码、日志或实机核验。 **[其他 AI 逆向 · 待验证]**
 - [MGSV弃置内容补完：El Glitch希望反编译后交AI续作的idea](cases/mgsv-ai-decompile-discarded-content-completion-idea.md) — 读者提出反编译Metal Gear Solid V并用AI补完最后弃置部分，没有实施、可用资产或可玩产物证据。 **[其他 AI 逆向 · 待验证]**
@@ -488,6 +489,8 @@
 
 ### 硬件与设备互通
 
+- [运营商路由器换OpenWrt：Chester称Antigravity经telnet完成刷写与配置迁移](cases/chester-antigravity-router-openwrt-telnet-migration-report.md) — Chester称自己卡在运营商定制固件校验后，Antigravity经telnet取得root并刷OpenWrt、迁移配置；型号、校验处理和恢复测试未披露，不是已验证的新漏洞。 **[其他 AI 逆向 · 待验证]**
+- [Tidbyt显示Agent动态：Djinn615让Codex借Tronbyt复用旧像素屏](cases/djinn615-tidbyt-tronbyt-codex-agent-status-display.md) — Djinn615让Codex用Tronbyt替换旧Tidbyt固件与云服务，目标是显示AI Agent在做什么、何时需人关注；未给显示程序、协议或完成演示。 **[其他 AI 逆向 · 进行中]**
 - [北通BTOP-C033老震动手柄：Feng Yu称REA研究旧驱动后用Rust重写，恢复Win11与Steam使用](cases/feng-yu-betop-btop-c033-rea-rust-win11-driver-report.md) — Feng Yu报告用REA＋omp研究十几年前北通BTOP-C033驱动，以Rust重写驱动与设置面板，称Win11、Steam识别与震动均恢复；实现和实机效果未核。 **[REA · 待验证]**
 - [Minimal Phone MP01：Josef Prusa研究电子墨水FPGA，将像素控制移到GPU](cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md) — Josef Prusa报告重建Android、研究FPGA与位流工具链，把帧比较和像素电荷控制移到GPU，展示自称63fps的Doom／Sonic；AI分工未明，完整系统与代码尚待整理。 **[未确认使用 REA · 进行中]**
 - [CUDA++与Spark Secrets：Stapleton报告在GB10重建部分GPU用户态执行栈](cases/stapleton-cudapp-gb10-user-stack-reconstruction-report.md) — 公开信把CUDA++置于人类指导Agent的GPU研究背景，报告九类FP32操作对照与1048576元素向量加法匹配；仍用NVIDIA内核模块和签名固件，不是完整CUDA替代。 **[其他 AI 逆向 · 待验证]**
@@ -2080,6 +2083,7 @@
 
 ### 算法与功能重建
 
+- [研究优秀交易者，再克隆为Agent：DYJ的AI策略重建idea](cases/dyj-ai-trader-behavior-agent-cloning-idea.md) — DYJ提出用AI反推优秀交易者并克隆成Agent；未给交易者、市场、数据或策略规则，作为具体行为重建idea，而非已实现或盈利的交易系统。 **[其他 AI 逆向 · 待验证]**
 - [Polymarket五分钟BTC：Misato称用Grok Bot反推动量与半方差策略](cases/misato-grok-polymarket-momentum-semivariance-report.md) — 作者给出30秒动量与上下行半方差过滤，报告七天84笔模拟交易；账户、费用和交易日志缺失，不证明复制了原策略或真实盈利。 **[其他 AI 逆向 · 待验证]**
 - [Buffett／Munger写作到选股规则：Jurgis称用Claude Code与Antigravity重建确定性评分器](cases/buffett-munger-claude-rubric-stock-scanner.md) — 本窗口转推链接到4月文章：Jurgis Pocius把六十年投资文字提炼成Python量表，自报929只股票17分钟、22项测试；模型只写叙述，不直接选股，未验证收益。 **[其他 AI 逆向 · 待验证]**
 - [爆火短视频复刻Agent：基于rea-video拆镜，仍在寻找保留与替换的交互方式](cases/rosie-rea-video-remake-agent-intent-project.md) — rosieblossom08链接的文章描述在rea-video上搭产品，自报能拆镜与给提示，难点是用户想原样复刻还是换人、产品、场景；不等同已做出稳定一键仿拍。 **[其他 AI 逆向 · 进行中]**
