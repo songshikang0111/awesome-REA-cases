@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Forescout检查十套TCP/IP栈：Claude漏洞报告仍需人工复核，也会漏报](../cases/forescout-claude-ten-tcpip-stacks-vulnerability-study-report.md) — Andrej Drats转述Forescout用Claude检查十套网络栈：362项原始发现经人工核为99个bug、66个新发现；82个已知bug只找回33个。停产AP固件还报告七项问题，未读原研究或复现。 **[其他 AI 逆向 · 待验证]**
+- [Vocci戒指录音到AI任务：John Allen称REA打通ai dot与Grok Bot／Claude Duet](../cases/vocci-ring-rea-ai-dot-task-routing-report.md) — John Allen称研究Vocci戒指后，按键录音能自动发给ai dot，再交Grok Bot或Claude Duet执行任务；没有协议、代码或端到端演示，不猜补音频链路。 **[REA · 待验证]**
+- [人在房间才开空调：cheaty称Sol与Fable研究BLE／Wi-Fi控制](../cases/sol-fable-ac-ble-wifi-presence-automation-report.md) — cheaty称先自行研究，再让GPT-6.1 Sol与Fable 5.2研究空调BLE／Wi-Fi，已能按房温、PC使用和人在房间自动开机；型号、感知方式与安全验证未明。 **[其他 AI 逆向 · 待验证]**
+- [MOVESPEED U盘彩屏跑Doom：调试焊盘识别芯片与AI硬件分析的二手报告](../cases/movespeed-usb-lcd-doom-ai-hardware-analysis-report.md) — 涵希AI转述Aaron Christophel读取MOVESPEED U盘固件、识别被磨字的CCM4101并借AI研究，让428×142屏幕跑Doom；操控不完整，40.2MHz与200MHz差异未解释。 **[其他 AI 逆向 · 待验证]**
 - [运营商路由器换OpenWrt：Chester称Antigravity经telnet完成刷写与配置迁移](../cases/chester-antigravity-router-openwrt-telnet-migration-report.md) — Chester称自己卡在运营商定制固件校验后，Antigravity经telnet取得root并刷OpenWrt、迁移配置；型号、校验处理和恢复测试未披露，不是已验证的新漏洞。 **[其他 AI 逆向 · 待验证]**
 - [Tidbyt显示Agent动态：Djinn615让Codex借Tronbyt复用旧像素屏](../cases/djinn615-tidbyt-tronbyt-codex-agent-status-display.md) — Djinn615让Codex用Tronbyt替换旧Tidbyt固件与云服务，目标是显示AI Agent在做什么、何时需人关注；未给显示程序、协议或完成演示。 **[其他 AI 逆向 · 进行中]**
 - [北通BTOP-C033老震动手柄：Feng Yu称REA研究旧驱动后用Rust重写，恢复Win11与Steam使用](../cases/feng-yu-betop-btop-c033-rea-rust-win11-driver-report.md) — Feng Yu报告用REA＋omp研究十几年前北通BTOP-C033驱动，以Rust重写驱动与设置面板，称Win11、Steam识别与震动均恢复；实现和实机效果未核。 **[REA · 待验证]**

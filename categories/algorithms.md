@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [CpcSketch魔数表从哪来：tison称Gemini 4 Carbon循OCaml注释复原生成逻辑](../cases/gemini-carbon-datasketches-cpcsketch-magic-table-reconstruction.md) — tison报告用Gemini 4 Carbon Orchestrator＋Swarm复原Apache DataSketches CpcSketch所依赖的魔数表生成逻辑，线索是注释中的OCaml编译运行命令；生成代码与逐项对照未核。 **[其他 AI 逆向 · 待验证]**
 - [研究优秀交易者，再克隆为Agent：DYJ的AI策略重建idea](../cases/dyj-ai-trader-behavior-agent-cloning-idea.md) — DYJ提出用AI反推优秀交易者并克隆成Agent；未给交易者、市场、数据或策略规则，作为具体行为重建idea，而非已实现或盈利的交易系统。 **[其他 AI 逆向 · 待验证]**
 - [Polymarket五分钟BTC：Misato称用Grok Bot反推动量与半方差策略](../cases/misato-grok-polymarket-momentum-semivariance-report.md) — 作者给出30秒动量与上下行半方差过滤，报告七天84笔模拟交易；账户、费用和交易日志缺失，不证明复制了原策略或真实盈利。 **[其他 AI 逆向 · 待验证]**
 - [Buffett／Munger写作到选股规则：Jurgis称用Claude Code与Antigravity重建确定性评分器](../cases/buffett-munger-claude-rubric-stock-scanner.md) — 本窗口转推链接到4月文章：Jurgis Pocius把六十年投资文字提炼成Python量表，自报929只股票17分钟、22项测试；模型只写叙述，不直接选股，未验证收益。 **[其他 AI 逆向 · 待验证]**

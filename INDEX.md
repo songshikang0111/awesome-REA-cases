@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2327 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2337 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（460）
-- [硬件与设备互通](categories/hardware.md)（624）
-- [应用与客户端](categories/apps.md)（964）
-- [算法与功能重建](categories/algorithms.md)（279）
+- [硬件与设备互通](categories/hardware.md)（628）
+- [应用与客户端](categories/apps.md)（969）
+- [算法与功能重建](categories/algorithms.md)（280）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -489,6 +489,10 @@
 
 ### 硬件与设备互通
 
+- [Forescout检查十套TCP/IP栈：Claude漏洞报告仍需人工复核，也会漏报](cases/forescout-claude-ten-tcpip-stacks-vulnerability-study-report.md) — Andrej Drats转述Forescout用Claude检查十套网络栈：362项原始发现经人工核为99个bug、66个新发现；82个已知bug只找回33个。停产AP固件还报告七项问题，未读原研究或复现。 **[其他 AI 逆向 · 待验证]**
+- [Vocci戒指录音到AI任务：John Allen称REA打通ai dot与Grok Bot／Claude Duet](cases/vocci-ring-rea-ai-dot-task-routing-report.md) — John Allen称研究Vocci戒指后，按键录音能自动发给ai dot，再交Grok Bot或Claude Duet执行任务；没有协议、代码或端到端演示，不猜补音频链路。 **[REA · 待验证]**
+- [人在房间才开空调：cheaty称Sol与Fable研究BLE／Wi-Fi控制](cases/sol-fable-ac-ble-wifi-presence-automation-report.md) — cheaty称先自行研究，再让GPT-6.1 Sol与Fable 5.2研究空调BLE／Wi-Fi，已能按房温、PC使用和人在房间自动开机；型号、感知方式与安全验证未明。 **[其他 AI 逆向 · 待验证]**
+- [MOVESPEED U盘彩屏跑Doom：调试焊盘识别芯片与AI硬件分析的二手报告](cases/movespeed-usb-lcd-doom-ai-hardware-analysis-report.md) — 涵希AI转述Aaron Christophel读取MOVESPEED U盘固件、识别被磨字的CCM4101并借AI研究，让428×142屏幕跑Doom；操控不完整，40.2MHz与200MHz差异未解释。 **[其他 AI 逆向 · 待验证]**
 - [运营商路由器换OpenWrt：Chester称Antigravity经telnet完成刷写与配置迁移](cases/chester-antigravity-router-openwrt-telnet-migration-report.md) — Chester称自己卡在运营商定制固件校验后，Antigravity经telnet取得root并刷OpenWrt、迁移配置；型号、校验处理和恢复测试未披露，不是已验证的新漏洞。 **[其他 AI 逆向 · 待验证]**
 - [Tidbyt显示Agent动态：Djinn615让Codex借Tronbyt复用旧像素屏](cases/djinn615-tidbyt-tronbyt-codex-agent-status-display.md) — Djinn615让Codex用Tronbyt替换旧Tidbyt固件与云服务，目标是显示AI Agent在做什么、何时需人关注；未给显示程序、协议或完成演示。 **[其他 AI 逆向 · 进行中]**
 - [北通BTOP-C033老震动手柄：Feng Yu称REA研究旧驱动后用Rust重写，恢复Win11与Steam使用](cases/feng-yu-betop-btop-c033-rea-rust-win11-driver-report.md) — Feng Yu报告用REA＋omp研究十几年前北通BTOP-C033驱动，以Rust重写驱动与设置面板，称Win11、Steam识别与震动均恢复；实现和实机效果未核。 **[REA · 待验证]**
@@ -1116,6 +1120,11 @@
 
 ### 应用与客户端
 
+- [同领域热门短片到动画：Varad用ChatGPT Images重建视频风格的工作流](cases/chatgpt-images-niche-short-video-style-reconstruction-report.md) — Varad Thokal称先找高浏览量领域并研究头部视频，再用ChatGPT Images出图、拼接动画短片；没有参考片、成片、指标或成本账单，不当爆款复现。 **[其他 AI 逆向 · 待验证]**
+- [AI Meet Abuja课堂：用REA现场分析Android恶意软件的教学报告](cases/ai-meet-abuja-rea-android-malware-live-analysis.md) — 1TalentAfrica报告aa__emmanuel在AI Meet Abuja从环境配置讲到REA现场分析Android恶意软件；样本、发现、命令与回放未提供，不证明分析准确率。 **[REA · 分析测试]**
+- [叭哥说产品建议：WquGuru用REA静态分析与Claude原型完成八页提案](cases/bage-shuo-rea-static-analysis-product-proposal.md) — WquGuru报告对语音输入法叭哥说做REA静态分析、竞品比较和Claude Artifact原型，交八页PDF并获招募活动头奖；未核建议稿或实现结果。 **[REA · 待验证]**
+- [《逮捕令》旧屏保：篠竹首次借AI提取美术资源，现代系统运行仍是目标](cases/youre-under-arrest-win95-screensaver-ai-resource-recovery.md) — 篠竹尝试AI辅助研究《逮捕しちゃうぞ》特典屏保，称已提取美术资源，希望让旧Windows程序运行在现代系统；尚未报告兼容移植完成。 **[其他 AI 逆向 · 进行中]**
+- [既有模拟器项目遇到固件拒绝：Elim Garak称从Copilot Claude换回Sol后恢复运行](cases/gpt-sol-emulator-private-firmware-copilot-refusal-report.md) — Elim Garak说GPT-Sol构建的既有项目需使用模拟器，Copilot中的Claude因私有固件拒绝，换回Sol后立即启动；未指名目标，不能推定是哪台主机、破解或自制模拟器。 **[其他 AI 逆向 · 待验证]**
 - [Enpass给Agent单独的保险库：Abhas称研究加密SQLite后经WebDAV与App共用](cases/abhas-enpass-agent-sqlite-webdav-vault-report.md) — Abhas称Agent研究Enpass加密SQLite中的TOTP、passkeys与附件，使用单独WebDAV vault添加密码及读取复制进去的条目；没有代码或安全审计，不等于破解加密。 **[其他 AI 逆向 · 待验证]**
 - [DeepSeek Harness＋REA重建3D网站：Vladimir Csombor分享教程入口，目标与成果未核](cases/vladimir-deepseek-rea-3d-website-cloning-tutorial.md) — Vladimir Csombor分享以DeepSeek Harness和REA克隆3D网站的教程主题；原帖未给网站名、步骤或成品，不能当作已验证的3D交互重建。 **[REA · 待验证]**
 - [匿名小程序与旧内部软件外包：Alin A转述REA配Claude Code拆包重建的工作流](cases/anonymous-rea-claude-miniprogram-legacy-outsourcing-report.md) — Alin A称一名认识的开发者用REA类工具与Claude Code研究小程序／旧软件包，重建样式和接口后定制交付；客户、目标、代码与账目均未核，不将收入宣传当验证。 **[REA · 待验证]**
@@ -1410,7 +1419,7 @@
 - [Rust版WPS：宣传单窗口多格式阅读与AI命令行改文档](cases/rust-wps-multiformat-ai-cli-rebuild-report.md) — Jamba称一个Rust项目为WPS逆向版，支持五类文档与AI CLI修改；没有逆向过程或格式兼容测试。 **[未确认使用 REA · 相关项目]**
 - [本地AI联网前：日语作者称用REA列I/O做筛查](cases/local-ai-rea-io-prescreening-workflow.md) — 作者自述本地AI不接网络，需上线时先用REA列输入输出筛查；没有目标程序或审计记录。 **[REA · 待验证]**
 - [paper-figure-to-figma：把科研图片重建成可编辑矢量](cases/paper-figure-to-figma-editable-reconstruction-report.md) — 工具汇总介绍从论文图重建Figma文字、曲线和渐变，转述90%以上还原主张；未明确AI贡献。 **[未确认使用 REA · 待验证]**
-- [Antigravity上下文预算：256k压缩的旧分析与512K阈值的新转述](cases/antigravity-million-context-budget-binary-report.md) — 旧汇总称百万窗口却约256k压缩；11月16日新帖转述二进制研究与15575次调用，称社区阈值升至512K。没有版本、日志或原公告，不把旧阈值或新值当全账号现状。 **[未确认使用 REA · 待验证]**
+- [Antigravity上下文预算：阈值转述与AlexRz用REA研究自定义压缩长度的尝试](cases/antigravity-million-context-budget-binary-report.md) — 旧报告从256k压缩转述到512K阈值；AlexRz另称用REA研究自定义压缩长度，遭Antigravity/Gemini拒绝后换Deepseek Harness中的Qwen3.8 flash。未报告成功修改，既有调用数字也无原日志。 **[REA · 待验证]**
 - [浏览器原型：作者称Agent建后端并从代码逆推架构图](cases/browser-prototype-agent-code-architecture-diagrams.md) — 荷语作者描述从浏览器端原型扩建后端、再从代码恢复架构图；没有图、代码或测试，完美架构仅作者评价。 **[其他 AI 逆向 · 待验证]**
 - [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
 - [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**
@@ -2083,6 +2092,7 @@
 
 ### 算法与功能重建
 
+- [CpcSketch魔数表从哪来：tison称Gemini 4 Carbon循OCaml注释复原生成逻辑](cases/gemini-carbon-datasketches-cpcsketch-magic-table-reconstruction.md) — tison报告用Gemini 4 Carbon Orchestrator＋Swarm复原Apache DataSketches CpcSketch所依赖的魔数表生成逻辑，线索是注释中的OCaml编译运行命令；生成代码与逐项对照未核。 **[其他 AI 逆向 · 待验证]**
 - [研究优秀交易者，再克隆为Agent：DYJ的AI策略重建idea](cases/dyj-ai-trader-behavior-agent-cloning-idea.md) — DYJ提出用AI反推优秀交易者并克隆成Agent；未给交易者、市场、数据或策略规则，作为具体行为重建idea，而非已实现或盈利的交易系统。 **[其他 AI 逆向 · 待验证]**
 - [Polymarket五分钟BTC：Misato称用Grok Bot反推动量与半方差策略](cases/misato-grok-polymarket-momentum-semivariance-report.md) — 作者给出30秒动量与上下行半方差过滤，报告七天84笔模拟交易；账户、费用和交易日志缺失，不证明复制了原策略或真实盈利。 **[其他 AI 逆向 · 待验证]**
 - [Buffett／Munger写作到选股规则：Jurgis称用Claude Code与Antigravity重建确定性评分器](cases/buffett-munger-claude-rubric-stock-scanner.md) — 本窗口转推链接到4月文章：Jurgis Pocius把六十年投资文字提炼成Python量表，自报929只股票17分钟、22项测试；模型只写叙述，不直接选股，未验证收益。 **[其他 AI 逆向 · 待验证]**

@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2327 cases & projects
+# 2337 cases & projects
 
-**Latest case update:** November 16, 2026, 16:10 · **Last maintained:** November 16, 2026, 16:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 16, 2026, 20:14 · **Last maintained:** November 16, 2026, 20:14 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: recover an old compiler, revive an E-ink phone, or rebuild game behavior against a working reference. Human testing and community research remain part of the story. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: recover a compiler, regain control of a device, or preserve a game against a working reference. Read the reported result alongside what people still had to test. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[Minimal Phone MP01: move E-ink control from FPGA to GPU](cases/en/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md)** · `2026-11-16` author report — Josef Prusa reports **FPGA research, GPU pixel control and 63 'fps' Doom/Sonic demos**. He links the work to AI agents but leaves their tasks unspecified; no complete Android release, code or hardware test here. `In progress`
@@ -50,9 +50,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **460** |
-| [Hardware & interoperability](categories/en/hardware.md) | **624** |
-| [Applications & clients](categories/en/apps.md) | **964** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **279** |
+| [Hardware & interoperability](categories/en/hardware.md) | **628** |
+| [Applications & clients](categories/en/apps.md) | **969** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **280** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

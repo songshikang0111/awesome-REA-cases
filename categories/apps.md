@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [同领域热门短片到动画：Varad用ChatGPT Images重建视频风格的工作流](../cases/chatgpt-images-niche-short-video-style-reconstruction-report.md) — Varad Thokal称先找高浏览量领域并研究头部视频，再用ChatGPT Images出图、拼接动画短片；没有参考片、成片、指标或成本账单，不当爆款复现。 **[其他 AI 逆向 · 待验证]**
+- [AI Meet Abuja课堂：用REA现场分析Android恶意软件的教学报告](../cases/ai-meet-abuja-rea-android-malware-live-analysis.md) — 1TalentAfrica报告aa__emmanuel在AI Meet Abuja从环境配置讲到REA现场分析Android恶意软件；样本、发现、命令与回放未提供，不证明分析准确率。 **[REA · 分析测试]**
+- [叭哥说产品建议：WquGuru用REA静态分析与Claude原型完成八页提案](../cases/bage-shuo-rea-static-analysis-product-proposal.md) — WquGuru报告对语音输入法叭哥说做REA静态分析、竞品比较和Claude Artifact原型，交八页PDF并获招募活动头奖；未核建议稿或实现结果。 **[REA · 待验证]**
+- [《逮捕令》旧屏保：篠竹首次借AI提取美术资源，现代系统运行仍是目标](../cases/youre-under-arrest-win95-screensaver-ai-resource-recovery.md) — 篠竹尝试AI辅助研究《逮捕しちゃうぞ》特典屏保，称已提取美术资源，希望让旧Windows程序运行在现代系统；尚未报告兼容移植完成。 **[其他 AI 逆向 · 进行中]**
+- [既有模拟器项目遇到固件拒绝：Elim Garak称从Copilot Claude换回Sol后恢复运行](../cases/gpt-sol-emulator-private-firmware-copilot-refusal-report.md) — Elim Garak说GPT-Sol构建的既有项目需使用模拟器，Copilot中的Claude因私有固件拒绝，换回Sol后立即启动；未指名目标，不能推定是哪台主机、破解或自制模拟器。 **[其他 AI 逆向 · 待验证]**
 - [Enpass给Agent单独的保险库：Abhas称研究加密SQLite后经WebDAV与App共用](../cases/abhas-enpass-agent-sqlite-webdav-vault-report.md) — Abhas称Agent研究Enpass加密SQLite中的TOTP、passkeys与附件，使用单独WebDAV vault添加密码及读取复制进去的条目；没有代码或安全审计，不等于破解加密。 **[其他 AI 逆向 · 待验证]**
 - [DeepSeek Harness＋REA重建3D网站：Vladimir Csombor分享教程入口，目标与成果未核](../cases/vladimir-deepseek-rea-3d-website-cloning-tutorial.md) — Vladimir Csombor分享以DeepSeek Harness和REA克隆3D网站的教程主题；原帖未给网站名、步骤或成品，不能当作已验证的3D交互重建。 **[REA · 待验证]**
 - [匿名小程序与旧内部软件外包：Alin A转述REA配Claude Code拆包重建的工作流](../cases/anonymous-rea-claude-miniprogram-legacy-outsourcing-report.md) — Alin A称一名认识的开发者用REA类工具与Claude Code研究小程序／旧软件包，重建样式和接口后定制交付；客户、目标、代码与账目均未核，不将收入宣传当验证。 **[REA · 待验证]**
@@ -296,7 +301,7 @@
 - [Rust版WPS：宣传单窗口多格式阅读与AI命令行改文档](../cases/rust-wps-multiformat-ai-cli-rebuild-report.md) — Jamba称一个Rust项目为WPS逆向版，支持五类文档与AI CLI修改；没有逆向过程或格式兼容测试。 **[未确认使用 REA · 相关项目]**
 - [本地AI联网前：日语作者称用REA列I/O做筛查](../cases/local-ai-rea-io-prescreening-workflow.md) — 作者自述本地AI不接网络，需上线时先用REA列输入输出筛查；没有目标程序或审计记录。 **[REA · 待验证]**
 - [paper-figure-to-figma：把科研图片重建成可编辑矢量](../cases/paper-figure-to-figma-editable-reconstruction-report.md) — 工具汇总介绍从论文图重建Figma文字、曲线和渐变，转述90%以上还原主张；未明确AI贡献。 **[未确认使用 REA · 待验证]**
-- [Antigravity上下文预算：256k压缩的旧分析与512K阈值的新转述](../cases/antigravity-million-context-budget-binary-report.md) — 旧汇总称百万窗口却约256k压缩；11月16日新帖转述二进制研究与15575次调用，称社区阈值升至512K。没有版本、日志或原公告，不把旧阈值或新值当全账号现状。 **[未确认使用 REA · 待验证]**
+- [Antigravity上下文预算：阈值转述与AlexRz用REA研究自定义压缩长度的尝试](../cases/antigravity-million-context-budget-binary-report.md) — 旧报告从256k压缩转述到512K阈值；AlexRz另称用REA研究自定义压缩长度，遭Antigravity/Gemini拒绝后换Deepseek Harness中的Qwen3.8 flash。未报告成功修改，既有调用数字也无原日志。 **[REA · 待验证]**
 - [浏览器原型：作者称Agent建后端并从代码逆推架构图](../cases/browser-prototype-agent-code-architecture-diagrams.md) — 荷语作者描述从浏览器端原型扩建后端、再从代码恢复架构图；没有图、代码或测试，完美架构仅作者评价。 **[其他 AI 逆向 · 待验证]**
 - [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](../cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
 - [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](../cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**
