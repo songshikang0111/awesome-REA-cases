@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [假Kingston NV3的身份检查：Claude先误判，再查控制器与固件的转述](../cases/fake-kingston-nv3-ssd-claude-controller-identity-report.md) — Vaibhav Sisinty转述Reddit用户：Claude Code多次误判硬件坏，经人质疑后查Windows设备身份，发现Realtek控制器与固件不符，标4TB盘据称约256GB。 **[其他 AI 逆向 · 待验证]**
 - [ClaudeWatch腕上审批：darkzodchi报告Apple Watch与Mac Agent桥接](../cases/claudewatch-fable-apple-watch-agent-bridge-report.md) — darkzodchi称逆向Apple Watch并装入Fable 5.2；所列步骤实际描述Bonjour、Node桥与Claude Code hooks，支持腕上看终端、审批和发语音，不能据此说模型本地运行。 **[未确认使用 REA · 待验证]**
 - [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](../cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 一则日语帖子分享FabScene对usb-rea的报道，称工具为依赖专用App的USB设备制作驱动；未读文章、仓库或设备验证，不由名称推定REA关联。 **[未确认使用 REA · 相关项目]**
 - [改装Meta眼镜重新导出照片：Marouane用Codex接入Sol与Darija语音](../cases/marouane-meta-glasses-codex-export-darija-report.md) — Marouane称拒绝更新使改装Meta眼镜面临停用，借Codex恢复照片／视频导出，加入GPT-6.1 Sol与摩洛哥Darija语音；代码与设备未核，关闭录像灯的改装不作推广。 **[其他 AI 逆向 · 待验证]**

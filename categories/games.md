@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Spider-Man可见玩法到游戏：cranger报告Grok／Claude／ChatGPT分工与返修](../cases/cranger-spiderman-observable-mechanics-ai-team-report.md) — cranger称Grok研究参考玩法，Claude写可测需求和依赖，ChatGPT实现移动、摆荡与落地，人工反复试玩后完成；超过一周及1000美元以上token费未审计。 **[其他 AI 逆向 · 待验证]**
+- [Warzone 2100浏览器遭遇战：AGENC称REA配DeepSeek低峰约0.64美元](../cases/agenc-core-rea-deepseek-warzone2100-browser-skirmish-report.md) — AGENC宣传AgenC Core 0.19.36与DeepSeek／REA，称做出可玩的Warzone 2100浏览器遭遇战、低峰约0.64美元；未给源码、构建与计费记录。 **[REA · 待验证]**
+- [Zelda TotK局部研究：Épice de Pain称两天前用Claude逆向了一点](../cases/claude-zelda-totk-partial-reversing-author-report.md) — Épice de Pain在模型拒绝讨论中自述两天前用Claude逆向了一部分《塞尔达传说：王国之泪》；没有具体子系统、代码或结果，不是PC移植证明。 **[其他 AI 逆向 · 进行中]**
 - [32KB无引擎游戏为何这么小：小梦梦想让AI拆解体积设计](../cases/xiaomeng-ai-32kb-no-engine-game-size-analysis-idea.md) — 小梦梦看到creativedash分享的游戏，建议让AI研究其32KB、无引擎的实现；这是针对具体游戏展示的分析idea，大小与实现未核。 **[其他 AI 逆向 · 待验证]**
 - [Amiga 500从CPU／ROM层重建：Scientific Brad报告Kickstart 1.3开始运行](../cases/scientific-brad-amiga500-mc68000-kickstart-ai-rebuild.md) — Scientific Brad报告投入数亿AI token重建Amiga 500：MC68000核心执行Kickstart 1.3，定制芯片开始输出图像；项目仍远未完成，未审代码或启动日志。 **[REA · 进行中]**
 - [Worms 2变实时联机：alikim.eth报告REA／Claude Code童年游戏改造](../cases/alikim-worms2-rea-claude-realtime-online-report.md) — alikim.eth称本周借REA与Claude Code把Worms 2逆向改为实时动作游戏，加入在线玩法并与兄弟试玩；没有源码、网络测试或独立复现。 **[REA · 待验证]**

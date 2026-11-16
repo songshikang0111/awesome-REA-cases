@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2349 个案例与项目
+# 2358 个案例与项目
 
-**最近案例更新：**2026 年 11 月 17 日 00:13 · **最近维护：**2026 年 11 月 17 日 00:13 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 17 日 04:14 · **最近维护：**2026 年 11 月 17 日 04:14 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：重建编译器，拿回设备控制权，对照可运行的原版保存游戏；优先看具体成果与测试边界，而不是毫不费力的自动化承诺。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：重建编译器，拿回设备控制权，保存游戏，或从影像重建事件；看参考对照、返修过程与明确限制，不信毫不费力的自动化承诺。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[Minimal Phone MP01：电子墨水控制从FPGA移到GPU](cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md)** · `2026-11-16`作者报告 — Josef Prusa报告**FPGA研究、GPU像素控制及63‘fps’的Doom／Sonic演示**。他联系到AI Agent，但未说明任务分工；没有完整Android发布，本合集未审代码或实机测试。`进行中`
@@ -33,7 +33,7 @@
 7. **[Mario Kart World：转译代码，也逐项测改动](cases/mkw-recomp-claude-aarch64-c-port.md)** · `2026-11-14`介绍与固定文档 — **Claude辅助AArch64转C、同次运行A/B与原机图对照**，项目报告PC比赛可跑。不是原始源码恢复；菜单、AMD挂起与无在线联机仍有限制。自备游戏，本合集未构建。`进行中`
 8. **[X6200：更新电台，不必换回原厂系统](cases/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16`介绍与PR合并 — **Claude辅助重建Xiegu升级流程**，已进入OpenX6X00。项目CI通过，作者报告单台升级与回退；无法读回flash，恢复未实机测试，本合集未复现。`未独立核验`
 9. **[Fireface UCX：Linux不止能播放，还能完整控制](cases/johan-fireface-ucx-linux-rea-claude-driver.md)** · `2026-11-15`作者文章 — Johan报告**REA／Claude研究驱动、终端混音器及48kHz往返3.5ms**。社区指令格式研究与一周接线测试不可省略；仅测一台第一代设备，本合集未复现。`未独立核验`
-10. **[Order Up!! To Go：换掉故障iPad，留下老游戏](cases/eddie-order-up-to-go-codex-webassembly-preservation-report.md)** · `2026-11-16`作者报告 — Eddie Monteiro称**Codex把32位老游戏带到WebAssembly**，并模拟购币／成就服务。网页可玩为自述，30fps只是目标，未给最终测量；代码与性能未核。`未独立核验`
+10. **[星舰捕获：从视频到可切视角的三维重建](cases/mollick-starship-catch-video-threejs-reconstruction-report.md)** · `2026-11-16`作者串 — Mollick公开**Opus 5.5／Fable 5.2提示、切视角与同步回放要求**，用Three.js重建约40秒片段。多段返修不可省，尺寸多为估算，不是恢复工程图；本合集未运行或测精度。`未独立核验`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **463** |
-| [硬件与设备互通](categories/hardware.md) | **632** |
-| [应用与客户端](categories/apps.md) | **973** |
-| [算法与功能重建](categories/algorithms.md) | **281** |
+| [游戏与游戏保存](categories/games.md) | **466** |
+| [硬件与设备互通](categories/hardware.md) | **633** |
+| [应用与客户端](categories/apps.md) | **976** |
+| [算法与功能重建](categories/algorithms.md) | **283** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

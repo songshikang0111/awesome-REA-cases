@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2349 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2358 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（463）
-- [硬件与设备互通](categories/hardware.md)（632）
-- [应用与客户端](categories/apps.md)（973）
-- [算法与功能重建](categories/algorithms.md)（281）
+- [游戏与游戏保存](categories/games.md)（466）
+- [硬件与设备互通](categories/hardware.md)（633）
+- [应用与客户端](categories/apps.md)（976）
+- [算法与功能重建](categories/algorithms.md)（283）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [Spider-Man可见玩法到游戏：cranger报告Grok／Claude／ChatGPT分工与返修](cases/cranger-spiderman-observable-mechanics-ai-team-report.md) — cranger称Grok研究参考玩法，Claude写可测需求和依赖，ChatGPT实现移动、摆荡与落地，人工反复试玩后完成；超过一周及1000美元以上token费未审计。 **[其他 AI 逆向 · 待验证]**
+- [Warzone 2100浏览器遭遇战：AGENC称REA配DeepSeek低峰约0.64美元](cases/agenc-core-rea-deepseek-warzone2100-browser-skirmish-report.md) — AGENC宣传AgenC Core 0.19.36与DeepSeek／REA，称做出可玩的Warzone 2100浏览器遭遇战、低峰约0.64美元；未给源码、构建与计费记录。 **[REA · 待验证]**
+- [Zelda TotK局部研究：Épice de Pain称两天前用Claude逆向了一点](cases/claude-zelda-totk-partial-reversing-author-report.md) — Épice de Pain在模型拒绝讨论中自述两天前用Claude逆向了一部分《塞尔达传说：王国之泪》；没有具体子系统、代码或结果，不是PC移植证明。 **[其他 AI 逆向 · 进行中]**
 - [32KB无引擎游戏为何这么小：小梦梦想让AI拆解体积设计](cases/xiaomeng-ai-32kb-no-engine-game-size-analysis-idea.md) — 小梦梦看到creativedash分享的游戏，建议让AI研究其32KB、无引擎的实现；这是针对具体游戏展示的分析idea，大小与实现未核。 **[其他 AI 逆向 · 待验证]**
 - [Amiga 500从CPU／ROM层重建：Scientific Brad报告Kickstart 1.3开始运行](cases/scientific-brad-amiga500-mc68000-kickstart-ai-rebuild.md) — Scientific Brad报告投入数亿AI token重建Amiga 500：MC68000核心执行Kickstart 1.3，定制芯片开始输出图像；项目仍远未完成，未审代码或启动日志。 **[REA · 进行中]**
 - [Worms 2变实时联机：alikim.eth报告REA／Claude Code童年游戏改造](cases/alikim-worms2-rea-claude-realtime-online-report.md) — alikim.eth称本周借REA与Claude Code把Worms 2逆向改为实时动作游戏，加入在线玩法并与兄弟试玩；没有源码、网络测试或独立复现。 **[REA · 待验证]**
@@ -492,6 +495,7 @@
 
 ### 硬件与设备互通
 
+- [假Kingston NV3的身份检查：Claude先误判，再查控制器与固件的转述](cases/fake-kingston-nv3-ssd-claude-controller-identity-report.md) — Vaibhav Sisinty转述Reddit用户：Claude Code多次误判硬件坏，经人质疑后查Windows设备身份，发现Realtek控制器与固件不符，标4TB盘据称约256GB。 **[其他 AI 逆向 · 待验证]**
 - [ClaudeWatch腕上审批：darkzodchi报告Apple Watch与Mac Agent桥接](cases/claudewatch-fable-apple-watch-agent-bridge-report.md) — darkzodchi称逆向Apple Watch并装入Fable 5.2；所列步骤实际描述Bonjour、Node桥与Claude Code hooks，支持腕上看终端、审批和发语音，不能据此说模型本地运行。 **[未确认使用 REA · 待验证]**
 - [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 一则日语帖子分享FabScene对usb-rea的报道，称工具为依赖专用App的USB设备制作驱动；未读文章、仓库或设备验证，不由名称推定REA关联。 **[未确认使用 REA · 相关项目]**
 - [改装Meta眼镜重新导出照片：Marouane用Codex接入Sol与Darija语音](cases/marouane-meta-glasses-codex-export-darija-report.md) — Marouane称拒绝更新使改装Meta眼镜面临停用，借Codex恢复照片／视频导出，加入GPT-6.1 Sol与摩洛哥Darija语音；代码与设备未核，关闭录像灯的改装不作推广。 **[其他 AI 逆向 · 待验证]**
@@ -1127,6 +1131,9 @@
 
 ### 应用与客户端
 
+- [SuperBot：David Ondrej用Opus与Rust自托管重建Grok Bot的转述](cases/david-ondrej-superbot-grok-rust-opus-report.md) — 汇总与David Ondrej原帖称用Opus 5.5和Rust逆向重建Grok Bot、自托管在VPS，作者回复名为SuperBot；未读仓库或验证功能与开源许可。 **[其他 AI 逆向 · 待验证]**
+- [完整Xcode能否交给REA：syh计划在Claude额度重置前尝试](cases/rea-full-xcode-before-claude-reset-idea.md) — syh问能否直接对完整Xcode使用REA，并说会在Claude重置前试；具体目标明确，但没有已执行分析、范围或结果。 **[REA · 待验证]**
+- [Thales对抗AI逆向的软件保护：FutureCISO标题级发布线索](cases/thales-ai-led-reversing-software-protection-announcement.md) — Masayuki Hatta分享FutureCISO关于Thales发布对抗AI逆向软件保护的标题；未读正文、产品文档或测试，不推定保护有效。 **[未确认使用 REA · 相关项目]**
 - [Amethyst：Anuj Panchbhai介绍AI辅助可执行文件分析工具](cases/amethyst-ai-binary-analysis-tool-introduction.md) — Anuj Panchbhai介绍Amethyst，宣传用AI拆解可执行文件、观察应用内部与软件行为；没有具体样本、分析报告或实现验证。 **[其他 AI 逆向 · 相关项目]**
 - [Hormozi内容生产体系：Mark Quadros称逐步拆解后用AI重建](cases/mark-quadros-hormozi-content-machine-ai-rebuild-report.md) — Mark Quadros称拆解Hormozi内容体系每一步并以AI重建；约400万美元投入、年2.5亿美元以上为原品牌背景，非新系统成本与收入。 **[其他 AI 逆向 · 待验证]**
 - [exploit_agent：GTIG发现自主补丁逆向框架的二手安全报告](cases/gtig-exploit-agent-autonomous-patch-reversing-secondary-report.md) — 帖子转述GTIG在服务器发现exploit_agent，称其自动分析补丁、生成并执行利用，曾针对法国网站；未读GTIG原报告或代码，不将自主性与实际成功当独立验证。 **[其他 AI 逆向 · 待验证]**
@@ -1191,7 +1198,7 @@
 - [Shopify商店重建idea：客户听说REA后想自建，管理者劝先做销售](cases/shopify-store-rea-rebuild-client-dissuaded-idea.md) — 一位Shopify商店管理者称客户想用REA研究并自建替代，自己因时间精力成本劝阻；没有实施或迁移结果。 **[REA · 待验证]**
 - [PUP DMA软件停更：Pengchen转述AI反编译压力，因果与产物未核](cases/pup-dma-ai-decompilation-shutdown-secondary-report.md) — Pengchen称PUP停更且归因于AI反编译，另有附和回复；没有开发者声明、具体模型、反编译产物或停更因果证据。 **[其他 AI 逆向 · 待验证]**
 - [APK／Windows EXE到Python接口：codingrobot称让模型研究客户端以直接访问后端](cases/codingrobot-apk-exe-python-backend-api-report.md) — codingrobot自述把若干APK与EXE交给模型，生成直连后端API的Python脚本，不再依赖原应用；目标、代码与接口验证未公开。 **[其他 AI 逆向 · 待验证]**
-- [400函数菜单栏应用：starmex称Grok先标注、37个难点交Fable，成本未审计](cases/starmex-400-function-app-hybrid-rea-model-study.md) — 一篇REA配置文章自述对400函数应用做Grok／Fable分流，Grok单跑41分钟1.80美元，混合路线37个函数升级；没有目标名称、捕获日志或准确率对照。 **[REA · 分析测试]**
+- [400函数应用的Grok／Fable分流：旧约5美元与后续3.10美元报告分开看](cases/starmex-400-function-app-hybrid-rea-model-study.md) — starmex旧文与Ridark、Mojunel后续帖围绕400函数REA分析：37个升级到Fable，Ridark报告0.8门控、混合33分钟3.10美元及5个unknown；目标和准确率仍未核。 **[REA · 分析测试]**
 - [SlothNotes：Shakirul先用REA研究Bear行为，再用Swift／AppKit重建笔记应用](cases/slothnotes-bear-rea-swift-appkit-rebuild.md) — 作者称约一周完成Bear风格原生笔记应用，强调研究行为而非复制截图；公开Swift／AppKit项目有MIT许可，iCloud双实机往返仍未验证，本合集未构建。 **[REA · 待验证]**
 - [2TI SovereignAI：Tarek介绍本地优先AI工作台与应用反编译／重建入口](cases/2ti-sovereignai-rea-recreate-studio.md) — Tarek Tarabichi宣传SovereignAI与REA Recreate Studio；产品页描述本地分析插件连接Ghidra／Hopper／JADX／Frida和Agent聊天，但仍标Pilot且无已验证安装包。 **[未确认使用 REA · 进行中]**
 - [Hypersonic 2 VST：Loftwah想让Claude研究旧音源插件并做现代版本](cases/loftwah-hypersonic2-claude-modern-rompler-idea.md) — 候选回复指向Loftwah提出的Hypersonic 2逆向重建idea，目标是现代ROMpler；没有代码、音频对比、采样资产授权或实际运行结果。 **[其他 AI 逆向 · 待验证]**
@@ -1430,7 +1437,7 @@
 - [Rust版WPS：宣传单窗口多格式阅读与AI命令行改文档](cases/rust-wps-multiformat-ai-cli-rebuild-report.md) — Jamba称一个Rust项目为WPS逆向版，支持五类文档与AI CLI修改；没有逆向过程或格式兼容测试。 **[未确认使用 REA · 相关项目]**
 - [本地AI联网前：日语作者称用REA列I/O做筛查](cases/local-ai-rea-io-prescreening-workflow.md) — 作者自述本地AI不接网络，需上线时先用REA列输入输出筛查；没有目标程序或审计记录。 **[REA · 待验证]**
 - [paper-figure-to-figma：把科研图片重建成可编辑矢量](cases/paper-figure-to-figma-editable-reconstruction-report.md) — 工具汇总介绍从论文图重建Figma文字、曲线和渐变，转述90%以上还原主张；未明确AI贡献。 **[未确认使用 REA · 待验证]**
-- [Antigravity上下文预算：阈值转述与AlexRz用REA研究自定义压缩长度的尝试](cases/antigravity-million-context-budget-binary-report.md) — 旧报告从256k压缩转述到512K阈值；AlexRz另称用REA研究自定义压缩长度，遭Antigravity/Gemini拒绝后换Deepseek Harness中的Qwen3.8 flash。未报告成功修改，既有调用数字也无原日志。 **[REA · 待验证]**
+- [Antigravity上下文预算：阈值转述与AlexRz用REA研究自定义压缩长度的尝试](cases/antigravity-million-context-budget-binary-report.md) — 旧256k／512K阈值报告与AlexRz的REA自定义压缩尝试仍未验证；Soso fun另报告25MiB原始Protobuf上限提前清除轨迹，Gemini撰写时曾把一根因误拆多项，不能混同token限制。 **[REA · 待验证]**
 - [浏览器原型：作者称Agent建后端并从代码逆推架构图](cases/browser-prototype-agent-code-architecture-diagrams.md) — 荷语作者描述从浏览器端原型扩建后端、再从代码恢复架构图；没有图、代码或测试，完美架构仅作者评价。 **[其他 AI 逆向 · 待验证]**
 - [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
 - [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**
@@ -2103,6 +2110,8 @@
 
 ### 算法与功能重建
 
+- [星舰捕获视频到Three.js：Mollick公开Fable／Opus提示与估算边界](cases/mollick-starship-catch-video-threejs-reconstruction-report.md) — Mollick公开让Opus 5.5与Fable 5.2从星舰捕获视频重建约40秒Three.js场景、切换视角和同步回放的提示；几何多为估算，未用SpaceX工程图，未运行核验。 **[其他 AI 逆向 · 待验证]**
+- [15秒宣传片重做：benzy称Fable配rea-video等工具50分钟对比AE三天](cases/fable-rea-video-15second-promo-ae-comparison-report.md) — benzy自述同一15秒宣传片用After Effects花三天，Fable 5.2加15仓库花50分钟，五位朋友四人选后者；未审样片、流程或成本。 **[其他 AI 逆向 · 待验证]**
 - [从AI图片反推提示：EdhiAitheEnti称试用了REA skills](cases/edhiaitheenti-rea-ai-image-prompt-inference-report.md) — EdhiAitheEnti称用REA skills找一张AI图片的提示词；没有参考图、恢复提示或重生成对照，不能把合理描述当原始提示已找回。 **[REA · 待验证]**
 - [CpcSketch魔数表从哪来：tison称Gemini 4 Carbon循OCaml注释复原生成逻辑](cases/gemini-carbon-datasketches-cpcsketch-magic-table-reconstruction.md) — tison报告用Gemini 4 Carbon Orchestrator＋Swarm复原Apache DataSketches CpcSketch所依赖的魔数表生成逻辑，线索是注释中的OCaml编译运行命令；生成代码与逐项对照未核。 **[其他 AI 逆向 · 待验证]**
 - [研究优秀交易者，再克隆为Agent：DYJ的AI策略重建idea](cases/dyj-ai-trader-behavior-agent-cloning-idea.md) — DYJ提出用AI反推优秀交易者并克隆成Agent；未给交易者、市场、数据或策略规则，作为具体行为重建idea，而非已实现或盈利的交易系统。 **[其他 AI 逆向 · 待验证]**

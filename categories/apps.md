@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [SuperBot：David Ondrej用Opus与Rust自托管重建Grok Bot的转述](../cases/david-ondrej-superbot-grok-rust-opus-report.md) — 汇总与David Ondrej原帖称用Opus 5.5和Rust逆向重建Grok Bot、自托管在VPS，作者回复名为SuperBot；未读仓库或验证功能与开源许可。 **[其他 AI 逆向 · 待验证]**
+- [完整Xcode能否交给REA：syh计划在Claude额度重置前尝试](../cases/rea-full-xcode-before-claude-reset-idea.md) — syh问能否直接对完整Xcode使用REA，并说会在Claude重置前试；具体目标明确，但没有已执行分析、范围或结果。 **[REA · 待验证]**
+- [Thales对抗AI逆向的软件保护：FutureCISO标题级发布线索](../cases/thales-ai-led-reversing-software-protection-announcement.md) — Masayuki Hatta分享FutureCISO关于Thales发布对抗AI逆向软件保护的标题；未读正文、产品文档或测试，不推定保护有效。 **[未确认使用 REA · 相关项目]**
 - [Amethyst：Anuj Panchbhai介绍AI辅助可执行文件分析工具](../cases/amethyst-ai-binary-analysis-tool-introduction.md) — Anuj Panchbhai介绍Amethyst，宣传用AI拆解可执行文件、观察应用内部与软件行为；没有具体样本、分析报告或实现验证。 **[其他 AI 逆向 · 相关项目]**
 - [Hormozi内容生产体系：Mark Quadros称逐步拆解后用AI重建](../cases/mark-quadros-hormozi-content-machine-ai-rebuild-report.md) — Mark Quadros称拆解Hormozi内容体系每一步并以AI重建；约400万美元投入、年2.5亿美元以上为原品牌背景，非新系统成本与收入。 **[其他 AI 逆向 · 待验证]**
 - [exploit_agent：GTIG发现自主补丁逆向框架的二手安全报告](../cases/gtig-exploit-agent-autonomous-patch-reversing-secondary-report.md) — 帖子转述GTIG在服务器发现exploit_agent，称其自动分析补丁、生成并执行利用，曾针对法国网站；未读GTIG原报告或代码，不将自主性与实际成功当独立验证。 **[其他 AI 逆向 · 待验证]**
@@ -66,7 +69,7 @@
 - [Shopify商店重建idea：客户听说REA后想自建，管理者劝先做销售](../cases/shopify-store-rea-rebuild-client-dissuaded-idea.md) — 一位Shopify商店管理者称客户想用REA研究并自建替代，自己因时间精力成本劝阻；没有实施或迁移结果。 **[REA · 待验证]**
 - [PUP DMA软件停更：Pengchen转述AI反编译压力，因果与产物未核](../cases/pup-dma-ai-decompilation-shutdown-secondary-report.md) — Pengchen称PUP停更且归因于AI反编译，另有附和回复；没有开发者声明、具体模型、反编译产物或停更因果证据。 **[其他 AI 逆向 · 待验证]**
 - [APK／Windows EXE到Python接口：codingrobot称让模型研究客户端以直接访问后端](../cases/codingrobot-apk-exe-python-backend-api-report.md) — codingrobot自述把若干APK与EXE交给模型，生成直连后端API的Python脚本，不再依赖原应用；目标、代码与接口验证未公开。 **[其他 AI 逆向 · 待验证]**
-- [400函数菜单栏应用：starmex称Grok先标注、37个难点交Fable，成本未审计](../cases/starmex-400-function-app-hybrid-rea-model-study.md) — 一篇REA配置文章自述对400函数应用做Grok／Fable分流，Grok单跑41分钟1.80美元，混合路线37个函数升级；没有目标名称、捕获日志或准确率对照。 **[REA · 分析测试]**
+- [400函数应用的Grok／Fable分流：旧约5美元与后续3.10美元报告分开看](../cases/starmex-400-function-app-hybrid-rea-model-study.md) — starmex旧文与Ridark、Mojunel后续帖围绕400函数REA分析：37个升级到Fable，Ridark报告0.8门控、混合33分钟3.10美元及5个unknown；目标和准确率仍未核。 **[REA · 分析测试]**
 - [SlothNotes：Shakirul先用REA研究Bear行为，再用Swift／AppKit重建笔记应用](../cases/slothnotes-bear-rea-swift-appkit-rebuild.md) — 作者称约一周完成Bear风格原生笔记应用，强调研究行为而非复制截图；公开Swift／AppKit项目有MIT许可，iCloud双实机往返仍未验证，本合集未构建。 **[REA · 待验证]**
 - [2TI SovereignAI：Tarek介绍本地优先AI工作台与应用反编译／重建入口](../cases/2ti-sovereignai-rea-recreate-studio.md) — Tarek Tarabichi宣传SovereignAI与REA Recreate Studio；产品页描述本地分析插件连接Ghidra／Hopper／JADX／Frida和Agent聊天，但仍标Pilot且无已验证安装包。 **[未确认使用 REA · 进行中]**
 - [Hypersonic 2 VST：Loftwah想让Claude研究旧音源插件并做现代版本](../cases/loftwah-hypersonic2-claude-modern-rompler-idea.md) — 候选回复指向Loftwah提出的Hypersonic 2逆向重建idea，目标是现代ROMpler；没有代码、音频对比、采样资产授权或实际运行结果。 **[其他 AI 逆向 · 待验证]**
@@ -305,7 +308,7 @@
 - [Rust版WPS：宣传单窗口多格式阅读与AI命令行改文档](../cases/rust-wps-multiformat-ai-cli-rebuild-report.md) — Jamba称一个Rust项目为WPS逆向版，支持五类文档与AI CLI修改；没有逆向过程或格式兼容测试。 **[未确认使用 REA · 相关项目]**
 - [本地AI联网前：日语作者称用REA列I/O做筛查](../cases/local-ai-rea-io-prescreening-workflow.md) — 作者自述本地AI不接网络，需上线时先用REA列输入输出筛查；没有目标程序或审计记录。 **[REA · 待验证]**
 - [paper-figure-to-figma：把科研图片重建成可编辑矢量](../cases/paper-figure-to-figma-editable-reconstruction-report.md) — 工具汇总介绍从论文图重建Figma文字、曲线和渐变，转述90%以上还原主张；未明确AI贡献。 **[未确认使用 REA · 待验证]**
-- [Antigravity上下文预算：阈值转述与AlexRz用REA研究自定义压缩长度的尝试](../cases/antigravity-million-context-budget-binary-report.md) — 旧报告从256k压缩转述到512K阈值；AlexRz另称用REA研究自定义压缩长度，遭Antigravity/Gemini拒绝后换Deepseek Harness中的Qwen3.8 flash。未报告成功修改，既有调用数字也无原日志。 **[REA · 待验证]**
+- [Antigravity上下文预算：阈值转述与AlexRz用REA研究自定义压缩长度的尝试](../cases/antigravity-million-context-budget-binary-report.md) — 旧256k／512K阈值报告与AlexRz的REA自定义压缩尝试仍未验证；Soso fun另报告25MiB原始Protobuf上限提前清除轨迹，Gemini撰写时曾把一根因误拆多项，不能混同token限制。 **[REA · 待验证]**
 - [浏览器原型：作者称Agent建后端并从代码逆推架构图](../cases/browser-prototype-agent-code-architecture-diagrams.md) — 荷语作者描述从浏览器端原型扩建后端、再从代码恢复架构图；没有图、代码或测试，完美架构仅作者评价。 **[其他 AI 逆向 · 待验证]**
 - [USB DSC令牌签PDF：Kunal Jain称Agent研究PKCS#11驱动做发票自动签名](../cases/kunal-agent-usb-dsc-pkcs11-pdf-signing.md) — 作者期待安装GUI工具，称Agent改为研究USB安全令牌驱动并自动签发票；Windows PIN绕过说法不等于破解硬件或免授权。 **[其他 AI 逆向 · 待验证]**
 - [MacBook能耗仪表板：作者称Opus研究macOS已有统计并做本地Python页面](../cases/opus-macos-battery-traffic-local-dashboard-report.md) — 作者称15分钟做出无依赖本地仪表板，研究每App能耗、睡眠阻止与网络；不是电池固件逆向，跨进程归因和权限未验证。 **[其他 AI 逆向 · 待验证]**
