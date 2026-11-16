@@ -22,5 +22,6 @@ README要求Node.js22.18+和已解锁OS凭据库，说明直连HTTPS、多数管
 - [补充：同作者区分管理账号与Agent钱包CLI，22:59:43](https://x.com/i/status/2116183273793790210)
 - [补充：固定README，登录、确认与验证边界，10月30日提交](https://github.com/awesamarth/privy-cli/blob/7662742e327cf1b39b270845113d487b8c67b277/README.md)
 - [补充：npm发布元数据](https://registry.npmjs.org/@awesamarth/privy-cli)
+- [更正：作者在PR #5中说明未使用REA，研究由AI编码Agent经CDP分析控制台请求完成](https://github.com/songshikang0111/awesome-REA-cases/pull/5)
 
 [English](en/privy-cli-dashboard-api-agent-management.md) | [返回目录](../README.zh-CN.md)

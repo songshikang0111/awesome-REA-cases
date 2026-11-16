@@ -22,5 +22,6 @@ The 0.1.0 publication and pinned commit precede the candidates within this windo
 - [Supplementary: author distinguishes account management from the agent-wallet CLI, 22:59:43](https://x.com/i/status/2116183273793790210)
 - [Supplementary: pinned README with login, confirmation and verification boundaries, October 30 commit](https://github.com/awesamarth/privy-cli/blob/7662742e327cf1b39b270845113d487b8c67b277/README.md)
 - [Supplementary: npm publication metadata](https://registry.npmjs.org/@awesamarth/privy-cli)
+- [Correction: the author states in PR #5 that REA was not used and an AI coding agent analyzed dashboard requests over CDP](https://github.com/songshikang0111/awesome-REA-cases/pull/5)
 
 [中文](../privy-cli-dashboard-api-agent-management.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)
