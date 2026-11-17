@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2389 个案例与项目
+# 2406 个案例与项目
 
-**最近案例更新：**2026 年 11 月 17 日 20:27 · **最近维护：**2026 年 11 月 17 日 20:27 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 18 日 00:14 · **最近维护：**2026 年 11 月 18 日 00:14 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,10 +22,10 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：重建编译器，拿回设备控制权，保存游戏，或审计二进制；精选更看重具体对照与写清楚的限制，而不是标题里的还原度或速度。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：重建编译器，查询电路工程，拿回设备控制权，也看看AI解释在哪一步失效。精选更看重具体用途与写清楚的限制，而不是标题里的还原度或速度。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
-2. **[AWS AI-DLC：别只改语法，把优惠券也保留下来](cases/aws-ai-dlc-monolith-io-matrix-reconstruction-method.md)** · `2026-11-17`作者文章 — **AST数据流辅助AI写规格与生成测试**，演示十阶段C订单程序。作者报告旧金额、隐藏输入缺失两类注入缺陷被检出；虚构示例，不是真实客户迁移。已读全文，未复跑。`方法演示`
+2. **[Proteus：让Claude回答已有电路的问题](cases/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17`作者串 — Arpit研究**未文档化.pdsprj，制作MCP桥接**，报告可查原理图、追连线、改参数与生成物料清单。放元件和布线仍待做，无头仿真不返回波形。已读串文，未测代码与电路。`进行中`
 3. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙／Wi-Fi差异**，做出JPEG导入和Google Photos上传。逐步实机试验，不是无迭代生成；代码与抓包未审。`未独立核验`
 4. **[Horizon：用Rust重建Minecraft Java行为](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16`介绍与固定文档 — **AI辅助重建，自报281套差分测试**，可读旧存档、连原版服务器。已读公开文档与Codex署名提交，未审完整测试结果；性能宣称有硬件条件。自备游戏，本合集未构建。`进行中`
 5. **[Fallout Van Buren：把六年研究交给REA](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14`作者串 — Kran归功于**人工研究、shenmarukai反编译与IDA数据库**，不是Agent从零发现。已报告DX9迁移，64位仍是技术演示的目标，不是完整游戏。本合集未构建。`进行中`
@@ -33,7 +33,7 @@
 7. **[Mario Kart World：转译代码，也逐项测改动](cases/mkw-recomp-claude-aarch64-c-port.md)** · `2026-11-14`介绍与固定文档 — **Claude辅助AArch64转C、同次运行A/B与原机图对照**，项目报告PC比赛可跑。不是原始源码恢复；菜单、AMD挂起与无在线联机仍有限制。自备游戏，本合集未构建。`进行中`
 8. **[X6200：更新电台，不必换回原厂系统](cases/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16`介绍与PR合并 — **Claude辅助重建Xiegu升级流程**，已进入OpenX6X00。项目CI通过，作者报告单台升级与回退；无法读回flash，恢复未实机测试，本合集未复现。`未独立核验`
 9. **[Fireface UCX：Linux不止能播放，还能完整控制](cases/johan-fireface-ucx-linux-rea-claude-driver.md)** · `2026-11-15`作者文章 — Johan报告**REA／Claude研究驱动、终端混音器及48kHz往返3.5ms**。社区指令格式研究与一周接线测试不可省略；仅测一台第一代设备，本合集未复现。`未独立核验`
-10. **[OpenConche：四款巧克力经营游戏，一个新引擎](cases/openconche-chocolatier-ai-engine-reimplementation.md)** · `2026-11-17`介绍；`2026-11-14`固定文档 — **AI研究二进制／脚本，C++20／SDL3重建引擎**，让Chocolatier系列与外传面向现代桌面系统。字体按原生分辨率绘制，不是重制高清美术；需自备资产。本合集已读文档、未运行游戏，作者不承诺持续维护。`未独立核验`
+10. **[rea-video：解释得像样，仍没拆懂剪辑魔术](cases/pamela-rea-video-codex-food-video-analysis-failure.md)** · `2026-11-17`作者报告 — Pamela让**Codex拆吃播无痕取物**，再要拍摄示意图与实物图。来回多轮仍不明白具体拍法，她称模型也承认失败。只是一次自述尝试，不是工具总评；未审视频与完整会话。`失败实验`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **468** |
-| [硬件与设备互通](categories/hardware.md) | **640** |
-| [应用与客户端](categories/apps.md) | **994** |
-| [算法与功能重建](categories/algorithms.md) | **287** |
+| [游戏与游戏保存](categories/games.md) | **473** |
+| [硬件与设备互通](categories/hardware.md) | **642** |
+| [应用与客户端](categories/apps.md) | **1002** |
+| [算法与功能重建](categories/algorithms.md) | **289** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

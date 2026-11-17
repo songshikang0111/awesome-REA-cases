@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2389 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2406 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（468）
-- [硬件与设备互通](categories/hardware.md)（640）
-- [应用与客户端](categories/apps.md)（994）
-- [算法与功能重建](categories/algorithms.md)（287）
+- [游戏与游戏保存](categories/games.md)（473）
+- [硬件与设备互通](categories/hardware.md)（642）
+- [应用与客户端](categories/apps.md)（1002）
+- [算法与功能重建](categories/algorithms.md)（289）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,11 @@
 
 ### 游戏与游戏保存
 
+- [Super Meat Boy改画面：Xensley以玩笑式提示设想Claude反编译](cases/claude-super-meat-boy-graphics-rebuild-idea.md) — Xensley在批评Team Meat的讨论下写出让Claude反编译Super Meat Boy再改画面的提示；两小时后结果是修辞，没有构建、补丁或实测。 **[其他 AI 逆向 · 待验证]**
+- [GT1／2浏览器Scapes照片模式：旁观者称Claude参与逆向与渲染器](cases/gt12-browser-scapes-claude-renderer-secondary-report.md) — Pedro在Gran Turismo 1/2浏览器照片模式讨论中称Claude用于逆向和渲染器编写；上下文指向赛道mod kit，但没有已审仓库或开发者证实。 **[其他 AI 逆向 · 待验证]**
+- [把技能动画给Claude能否复现：Brian从rea-video提出的游戏动效问题](cases/claude-game-ability-animation-reconstruction-question.md) — Brian向游戏演示者询问是否给Claude看效果再复现，并想找类似rea-video的技能动画拆解工具；只是具体问题，不能归因对方已采用该方法。 **[其他 AI 逆向 · 待验证]**
+- [Dead Space 2激活上限：dmcrray9提出未来用AI反编译保留可玩性](cases/dead-space2-ai-activation-limit-preservation-idea.md) — 面对Dead Space 2激活额度和支持停止的讨论，dmcrray9称若游戏被停服就让AI反编译移除限制；是条件式保存idea，没有补丁或实测。 **[其他 AI 逆向 · 待验证]**
+- [未具名游戏的自动化研究：Kasmiri组合REA、Ghidra、Computer Use与私有MCP](cases/kasmiri-rea-ghidra-private-mcp-game-workflow.md) — Kasmiri称正在以REA调用Ghidra反编译游戏，用Computer Use找功能、私有MCP让Agent持久加入函数；没有游戏名、代码或测试，不外推任何游戏都能自动化。 **[REA · 进行中]**
 - [SM64、Animal Crossing与小马：Anonny受AI逆向潮启发的游戏idea](cases/anonny-sm64-animal-crossing-ponies-ai-idea.md) — Anonny想把SM64改造成Animal Crossing式、带小马的游戏，受AI逆向与跨游戏Mod启发，但因费用仍犹豫，未报告开工。 **[其他 AI 逆向 · 待验证]**
 - [OpenConche：AI参与研究四款Chocolatier游戏，以新引擎运行原始资产](cases/openconche-chocolatier-ai-engine-reimplementation.md) — OpenConche文档称几周AI驱动研究原二进制与脚本，以C++20／SDL3重建四款巧克力经营游戏引擎；可读研究记录与自备资产要求已核，运行未复现。 **[其他 AI 逆向 · 待验证]**
 - [Spider-Man可见玩法到游戏：cranger报告Grok／Claude／ChatGPT分工与返修](cases/cranger-spiderman-observable-mechanics-ai-team-report.md) — cranger称Grok研究参考玩法，Claude写可测需求和依赖，ChatGPT实现移动、摆荡与落地，人工反复试玩后完成；超过一周及1000美元以上token费未审计。 **[其他 AI 逆向 · 待验证]**
@@ -497,6 +502,8 @@
 
 ### 硬件与设备互通
 
+- [三菱设备本地接HA：j2rs称Claude给出ESP32采购清单、固件与集成](cases/j2rs-mitsubishi-claude-atom-lite-home-assistant-report.md) — j2rs称Mitsubishi设备可用Atom Lite／ESP32与一欧元线材本地控制，Claude提供清单、固件和Home Assistant集成；未见型号、协议分析或实机日志。 **[其他 AI 逆向 · 待验证]**
+- [ProcReverser：以执行反馈推进处理器黑箱微架构研究的多Agent项目介绍](cases/procreverser-multi-agent-microarchitecture-research-report.md) — AI Security Daily分享ProcReverser，称多Agent系统借执行反馈自动化处理器黑箱微架构逆向；正文可确认目标与方法，但没有已读论文、处理器清单或验证指标。 **[其他 AI 逆向 · 待验证]**
 - [CMP 170HX解锁转述：Pico 2控制稳压芯片，AI编写不可逆配置脚本](cases/cmp170hx-pico2-ai-configuration-script-report.md) — 天宫打工人转述玩家以Pico 2和四线连接研究CMP 170HX，AI编写一次性配置脚本，报告识别80GB和126组计算单元；未核源码、样卡或性能，不等于完整A100。 **[其他 AI 逆向 · 待验证]**
 - [31张SEM照片重建流片形貌：CosmosMind硅光工艺反馈的报道](cases/cosmosmind-sem-chip-as-built-geometry-reconstruction-report.md) — 署名编辑李希的报道说CosmosMind系统从31张电镜照片提取刻蚀边缘、重建三维形貌并校准35B工艺模型；这是制造实物到数字几何的重建自述，未审照片或量测。 **[其他 AI 逆向 · 待验证]**
 - [DDR3控制器内部跟踪：Kenta IDA称Claude自行用trace调查故障](cases/claude-ddr3-controller-internal-trace-debug-report.md) — Kenta IDA报告自制高速内部状态跟踪工具很快用于DDR3控制器故障调查，Claude自行读取trace；未给根因、修复或测试日志。 **[其他 AI 逆向 · 待验证]**
@@ -1140,6 +1147,14 @@
 
 ### 应用与客户端
 
+- [Proteus作业变成格式研究：Arpit以.pdsprj为Claude接入原理图](cases/arpit-proteus-pdsprj-mcp-project-research.md) — Arpit为大学作业研究未文档化.pdsprj，称proteus-mcp让Claude读原理图、追连线、改参数与生成BOM；放元件布线仍待做，无头模拟不返回波形。 **[其他 AI 逆向 · 进行中]**
+- [zniff：Rust抓包工具以MCP让Claude和Cursor查流、重放与改规则](cases/zniff-rust-mcp-http-traffic-research-tool.md) — vicanso发布基于Rust／NSH的HTTP(S)抓包调试工具，称内置MCP可让Claude／Cursor研究请求、重放并修改规则；协议与解码能力尚未实测。 **[其他 AI 逆向 · 相关项目]**
+- [云端agy研究竞品，再给Claude报告：niko的REA异步分工](cases/niko-agy-rea-competitor-research-claude-handoff.md) — niko自述让云端agy借REA静态与动态研究多个竞品，产出报告再交Claude；不适合作主力、速度期待低，竞品与结果未公开。 **[REA · 进行中]**
+- [为AI反编译仓库建站：Hetzer提出的托管idea，不是已上线服务](cases/ai-decompiled-software-repository-hosting-idea.md) — Hetzer建议盗版服务经营者托管AI反编译软件仓库及违反ToS的mod；未指名软件、站点或实现，不采纳其规避法律主张。 **[其他 AI 逆向 · 待验证]**
+- [EffectCraft配Claude剪视频：matt称以NumPy／OpenCV走After Effects式流程](cases/effectcraft-claude-python-video-editing-report.md) — matt称用Claude编辑视频、Treg生图，再用EffectCraft里的NumPy／OpenCV处理；将工具称作逆向的After Effects，但未提供内部机制或兼容性证据。 **[其他 AI 逆向 · 待验证]**
+- [红果短剧电视客户端：IAMAI提出用REA研究后按个人需求重建](cases/hongguo-rea-tv-client-reconstruction-idea.md) — IAMAI建议用REA反编译红果短剧，让AI按用户想要的样子做电视客户端；尚无实现或兼容证据，区别于既有手机端去广告案例。 **[REA · 待验证]**
+- [Grokee督促承诺事项：Gagan称Grok团队逆向了一款生产力应用](cases/gagan-grokee-productivity-followup-app-reconstruction.md) — Gagan称16个Grok Bot分工、Linear定任务、Mac上的Codex构建并共享GitHub上下文；其中还逆向了督促自己完成承诺事项的应用，名称和结果未公开。 **[其他 AI 逆向 · 待验证]**
+- [Cybercab接Grokbot：Micah想找MCP或Claude skill，尚未开始构建](cases/cybercab-grokbot-mcp-skill-integration-idea.md) — Micah Berkley想将Cybercab／Robotaxi接入Grokbot，未找到MCP或Claude skill，发帖询问并标记REA；未报告协议研究、叫车或车辆控制。 **[REA · 待验证]**
 - [OpenMotion：把参考宣传片拆成MOTION.md，供Agent换素材重建与继续编辑](cases/openmotion-ai-video-reference-reconstruction-project.md) — Tom Huang宣布OpenMotion，将参考宣传片的镜头、文字节奏、转场和声音写成Agent规范，以模板和可编辑工程重建；95%还原、14天47万行及资源数量均为未复测的作者宣称。 **[其他 AI 逆向 · 待验证]**
 - [Stride主动安全研究：演讲转录称AI反编译已上线程序，尚无逐项目验证记录](cases/solana-stride-ai-deployed-program-audit-report.md) — 黑柴整理Michael Coates的Solana安全演讲，称Stride框架结合形式验证、fuzzing和AI扫描，并以AI反编译已上线程序先找漏洞；500万美元潜在损失为演讲归因，不是已核收益。 **[其他 AI 逆向 · 待验证]**
 - [远程公司的服务都接CLI：ImL1s提出REA加CLI Anything桥接IM的idea](cases/iml1s-rea-company-services-im-cli-idea.md) — ImL1s提出进入全远程新公司后，把所用服务包括IM做成CLI接入AI Agent，点名REA与CLI Anything；未报告实施范围、授权、代码或运行结果。 **[REA · 待验证]**
@@ -2137,6 +2152,8 @@
 
 ### 算法与功能重建
 
+- [吃播无痕取物怎么拍：Pamela用Codex和rea-video多轮分析仍失败](cases/pamela-rea-video-codex-food-video-analysis-failure.md) — PamelaAI·H让Codex用rea-video拆吃播取物的无痕剪辑；文字解释、拍摄示意图与实物图来回多轮，仍没解决问题，作者称模型也承认未解析出制作方法。 **[其他 AI 逆向 · 分析测试]**
+- [COMSEC的IAI调查提案：用AI与逆向重建Agent行为，不预设事故归因](cases/comsec-iai-agent-incident-reconstruction-proposal.md) — Ariel Garbarz署名提议以Inverse Artificial Intelligence结合AI与逆向调查系统行为；FAA、银行和诉讼只是提案语境，文中也承认不能建立共同攻击或OpenAI归因。 **[其他 AI 逆向 · 待验证]**
 - [REA-Prompts：由成品图片或文案推断提示的结构化模板项目](cases/rea-prompts-image-copy-prompt-inference-tool.md) — 候选介绍REA-Prompts用结构化模板描述既有图片或文案，让模型推断提示并尝试重现；未核仓库、输入输出或提示恢复准确率，与REA软件工具的关联未确认。 **[其他 AI 逆向 · 相关项目]**
 - [把Rafale计算机交给Opus？AWACS Sky Keeper提出的未实施接口研究设想](cases/awacs-rafale-opus-interface-research-idea.md) — AWACS Sky Keeper讨论Rafale技术转让，猜想Opus 5.5可研究未公开计算机接口；仅高层idea，无目标接入、数据、步骤或结果。 **[其他 AI 逆向 · 待验证]**
 - [从色卡反推富士LUT：雪人提出把既有测量流程交给AI自动化](cases/fujifilm-color-chart-ai-lut-reconstruction-idea.md) — 雪人回忆固定灯光、色温和白平衡、多曝光拍色卡反推LUT的做法，提出有工作流就能由AI自动化；未报告自己实施或做出风格文件。 **[其他 AI 逆向 · 待验证]**
@@ -2328,7 +2345,7 @@
 - [Popularo／Captain Hook：作者用Claude Opus归纳社媒传播hook，网站已停托管](cases/popularo-captain-hook-claude-social-patterns.md) — AudioNervousSys称与Claude Code／Opus共同逆向社媒及meme hook，做过Popularo和高级组件Captain Hook；无输入输出或效果测试。 **[其他 AI 逆向 · 待验证]**
 - [Seedance舞蹈视频提示重建：AI art gallery保留逐秒动作与不匹配限制](cases/sandmrk-video-prompt-laugh-reconstruction.md) — sandmrk发布从视频反推的Seedance2.5逐秒舞蹈prompt，回复明确说生成不能完全匹配原视频、仍需优化。 **[其他 AI 逆向 · 进行中]**
 - [LLM文本水印：ETH／ICML2024研究的低成本逆向与伪造转述](cases/eth-icml2024-llm-text-watermark-spoofing-report.md) — 候选称ETH研究者可低于50美元逆向常见分布式文本水印、伪造成功率逾80%；未取得原论文与实验条件。 **[未确认使用 REA · 待验证]**
-- [ReGen：从广告画面推断可重做提示词的Chrome扩展介绍](cases/regen-ad-prompt-reconstruction-report.md) — 候选介绍ReGen为广告重建提示词；补查Amy Hua原帖确认Chrome扩展定位，但未证明恢复原始提示词或生成一致。 **[其他 AI 逆向 · 待验证]**
+- [ReGen：从广告推断可编辑配方，柿子报告香水换产品重生成](cases/regen-ad-prompt-reconstruction-report.md) — ReGen早期介绍从广告推断提示；柿子新增香水广告试用自述，称拆出角色、镜头、灯光和节奏后换产品重生成，承认并非原片一致，未审输出或模型。 **[其他 AI 逆向 · 待验证]**
 - [Vitruvius别墅体素重建：作者称AI从蓝图与图片恢复建筑](cases/voxel-vitruvius-villa-ai-blueprint-reconstruction.md) — 作者在自研C引擎中报告模拟Vitruvius按蓝图与图片重建别墅，称接近一比一；不是Minecraft源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [本机安全工具对照：作者称4模型360次零拒绝，固件检查正确性未明](cases/four-model-local-security-refusal-cost-test.md) — 作者在自有机器用4模型跑6类安全任务，称360次零拒绝、花1.48美元；包括路由器固件检查，但无任务成功率。 **[其他 AI 逆向 · 分析测试]**
 - [digital-human-koubo：从25个创作者视频归纳口播包装组件](cases/digital-human-koubo-video-packaging-reconstruction.md) — 项目汇总称digital-human-koubo把照片与一句话变成AI口播视频，含从25视频重建的48包装组件与5剪辑风格。 **[其他 AI 逆向 · 待验证]**

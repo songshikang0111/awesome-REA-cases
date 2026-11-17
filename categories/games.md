@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Super Meat Boy改画面：Xensley以玩笑式提示设想Claude反编译](../cases/claude-super-meat-boy-graphics-rebuild-idea.md) — Xensley在批评Team Meat的讨论下写出让Claude反编译Super Meat Boy再改画面的提示；两小时后结果是修辞，没有构建、补丁或实测。 **[其他 AI 逆向 · 待验证]**
+- [GT1／2浏览器Scapes照片模式：旁观者称Claude参与逆向与渲染器](../cases/gt12-browser-scapes-claude-renderer-secondary-report.md) — Pedro在Gran Turismo 1/2浏览器照片模式讨论中称Claude用于逆向和渲染器编写；上下文指向赛道mod kit，但没有已审仓库或开发者证实。 **[其他 AI 逆向 · 待验证]**
+- [把技能动画给Claude能否复现：Brian从rea-video提出的游戏动效问题](../cases/claude-game-ability-animation-reconstruction-question.md) — Brian向游戏演示者询问是否给Claude看效果再复现，并想找类似rea-video的技能动画拆解工具；只是具体问题，不能归因对方已采用该方法。 **[其他 AI 逆向 · 待验证]**
+- [Dead Space 2激活上限：dmcrray9提出未来用AI反编译保留可玩性](../cases/dead-space2-ai-activation-limit-preservation-idea.md) — 面对Dead Space 2激活额度和支持停止的讨论，dmcrray9称若游戏被停服就让AI反编译移除限制；是条件式保存idea，没有补丁或实测。 **[其他 AI 逆向 · 待验证]**
+- [未具名游戏的自动化研究：Kasmiri组合REA、Ghidra、Computer Use与私有MCP](../cases/kasmiri-rea-ghidra-private-mcp-game-workflow.md) — Kasmiri称正在以REA调用Ghidra反编译游戏，用Computer Use找功能、私有MCP让Agent持久加入函数；没有游戏名、代码或测试，不外推任何游戏都能自动化。 **[REA · 进行中]**
 - [SM64、Animal Crossing与小马：Anonny受AI逆向潮启发的游戏idea](../cases/anonny-sm64-animal-crossing-ponies-ai-idea.md) — Anonny想把SM64改造成Animal Crossing式、带小马的游戏，受AI逆向与跨游戏Mod启发，但因费用仍犹豫，未报告开工。 **[其他 AI 逆向 · 待验证]**
 - [OpenConche：AI参与研究四款Chocolatier游戏，以新引擎运行原始资产](../cases/openconche-chocolatier-ai-engine-reimplementation.md) — OpenConche文档称几周AI驱动研究原二进制与脚本，以C++20／SDL3重建四款巧克力经营游戏引擎；可读研究记录与自备资产要求已核，运行未复现。 **[其他 AI 逆向 · 待验证]**
 - [Spider-Man可见玩法到游戏：cranger报告Grok／Claude／ChatGPT分工与返修](../cases/cranger-spiderman-observable-mechanics-ai-team-report.md) — cranger称Grok研究参考玩法，Claude写可测需求和依赖，ChatGPT实现移动、摆荡与落地，人工反复试玩后完成；超过一周及1000美元以上token费未审计。 **[其他 AI 逆向 · 待验证]**

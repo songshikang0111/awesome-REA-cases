@@ -1,5 +1,287 @@
 [
   {
+    "id": "arpit-proteus-pdsprj-mcp-project-research",
+    "title": "Proteus作业变成格式研究：Arpit以.pdsprj为Claude接入原理图",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "Arpit为大学作业研究未文档化.pdsprj，称proteus-mcp让Claude读原理图、追连线、改参数与生成BOM；放元件布线仍待做，无头模拟不返回波形。",
+    "description": "2026年11月17日22:52:39（北京时间），Arpit Tembhekar（@0xAT8）说大学作业要求提交Proteus工程文件，自己想让AI自动化部分工作。Proteus是电路设计与仿真软件；补读同作者22:52:40至22:52:42的三条说明，他因未找到合适MCP服务器而研究未文档化.pdsprj工程格式，制作proteus-mcp，供Claude直接处理已有工程。\n\n作者报告可读取原理图、追踪连接、修改元件值、生成物料清单，减少对话框操作。也明确不是完整电路生成：放置元件、画线还在路线图，无头仿真可验证设计但不返回波形。这些是作者列出的当前能力和缺口，不是本合集验证过的功能覆盖或仿真正确性。不能把为AI制作接口写成Claude独立破解全部文件格式。\n\n已读原帖与完整四帖串，补充帖只解释同一项目，不算新候选。未确认与检索得到的同名仓库的归属，未检查代码、工程样本、仿真日志或图像，未安装或运行Proteus/MCP；没有模型版本、工时或成功率数据。保留进行中的作者报告。",
+    "sources": [
+      {"label":"Arpit的Proteus作业与格式研究，2026-11-17 22:52:39北京时间","url":"https://x.com/i/status/2122704474779345205"},
+      {"label":"补充同作者：MCP与未文档化.pdsprj，22:52:40","url":"https://x.com/i/status/2122704479611183581"},
+      {"label":"补充同作者：读取、连线查询、参数与BOM，22:52:41","url":"https://x.com/i/status/2122704484665295310"},
+      {"label":"补充同作者：放置布线与波形限制，22:52:42","url":"https://x.com/i/status/2122704489321054460"}
+    ],
+    "snapshot_date":"2026-11-17",
+    "metadata":["2026-11-17候选封存0赞、8浏览、0转发、1回复；未据低传播否定项目，也不把串文当测试记录。"],
+    "en": {
+      "title":"A Proteus assignment becomes format research: Arpit connects Claude to .pdsprj schematics",
+      "summary":"Arpit studies undocumented .pdsprj files for a college assignment and says proteus-mcp lets Claude read schematics, trace connections, edit values and generate a BOM. Placement and wiring remain planned; headless simulation returns no waveforms.",
+      "description":"At 22:52:39 Beijing time on November 17, 2026, Arpit Tembhekar (@0xAT8) says a college assignment required a Proteus project file and prompted him to explore AI-assisted automation. Proteus is circuit-design and simulation software. Three supplementary same-author posts from 22:52:40 to 22:52:42 explain that, after failing to find a suitable MCP server, he investigated the undocumented .pdsprj project format and built proteus-mcp so Claude could work directly with existing projects.\n\nHe reports reading schematics, tracing connections, editing component values and generating bills of materials to reduce dialog-box work. He explicitly distinguishes this from full circuit generation: placing parts and drawing wires remain on the roadmap, while headless simulation can validate designs but does not return waveforms. These are reported capabilities and gaps, not functionality coverage or simulation correctness verified here. Building an AI interface does not establish that Claude independently recovered the entire file format.\n\nThe original post and complete four-post thread were read; supplementary replies explain the same project and are not new candidates. Ownership of similarly named repositories found in search was not established. No source code, project samples, simulation logs or images were reviewed, and neither Proteus nor the MCP server was installed or run. No model revision, labor time or success rate is supplied. This remains an in-progress author report.",
+      "metadata":["November 17, 2026 sealed candidate: 0 likes, 8 views, 0 reposts, 1 reply. Low engagement does not invalidate the project, and thread claims are not test records."],
+      "source_labels":["Arpit's Proteus assignment and format research, November 17, 2026 at 22:52:39 Beijing time","Supplementary same-author MCP and undocumented .pdsprj account, 22:52:40","Supplementary same-author reading, connection queries, values and BOM account, 22:52:41","Supplementary same-author placement, wiring and waveform limits, 22:52:42"]
+    }
+  },
+  {
+    "id":"pamela-rea-video-codex-food-video-analysis-failure",
+    "title":"吃播无痕取物怎么拍：Pamela用Codex和rea-video多轮分析仍失败",
+    "category":"algorithms", "rea":"other-ai", "status":"analysis-test",
+    "summary":"PamelaAI·H让Codex用rea-video拆吃播取物的无痕剪辑；文字解释、拍摄示意图与实物图来回多轮，仍没解决问题，作者称模型也承认未解析出制作方法。",
+    "description":"2026年11月17日23:23:24（北京时间），PamelaAI·H（@pamelaaaaa1218）报告一次具体失败实验：吃播博主每次食物到手像变魔术，看不出剪辑痕迹，她想知道拍摄与衔接方法，于是把视频交给Codex并调用rea-video Skill。不是反编译视频软件，也不是模型已重拍出同一效果。\n\nCodex据报解释机位、拍摄角度、遮挡、动作衔接和剪辑。作者看文字想象不出，再要求拍摄示意图、较直观的实物图，往返好几轮仍没有真正理解；她称Codex也承认没有成功解析具体制作手法。失败的范围是这次问题未解决，不足以证明所有解释均错误、目标视频一定用了某种技术，或工具普遍无效。\n\n原帖已补查署名与全文，未审目标视频、附图、完整会话或可重现拍摄。项目一万多星与任何视频都能拆是帖子转述的宣传，不是本合集测量或保证。未调用模型、上传视频或运行项目；rea-video与morluto/rea不因名称相近被当作同一工具。按保留限制的分析测试收录。",
+    "sources":[{"label":"Pamela的Codex／rea-video吃播拆解失败报告，2026-11-17 23:23:24北京时间","url":"https://x.com/i/status/2122712213639307740"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存3赞、118浏览、0转发、1回复；多轮不是已量化工时，失败不等于独立反证整个工具。"],
+    "en":{
+      "title":"How was the seamless food trick filmed? Pamela reports a failed Codex/rea-video analysis",
+      "summary":"PamelaAI·H asks Codex and rea-video to explain seamless food-arrival edits. Several rounds of text, camera diagrams and more concrete images leave the question unresolved; she says the model also acknowledged failing to identify the technique.",
+      "description":"At 23:23:24 Beijing time on November 17, 2026, PamelaAI·H (@pamelaaaaa1218) reports a concrete failed experiment. A food-video creator appears to obtain food by magic, without visible edit seams. Wanting to understand the filming and transitions, she gave the video to Codex with the rea-video Skill. This is not decompilation of editing software or a model successfully reshooting the effect.\n\nCodex reportedly discussed camera placement, angles, occlusion, movement continuity and editing. Unable to visualize the text, she requested a filming diagram and then a more concrete image. Several rounds still did not give her an actual understanding; she says Codex also acknowledged failing to identify the precise production technique. The failure is that this question remained unresolved. It does not establish that every explanation was wrong, that the target necessarily used a particular technique, or that the tool is generally ineffective.\n\nRetrieval confirmed attribution and the full post. The target video, attached images, complete conversation and a reproducible shoot were not reviewed. Over 10,000 project stars and claims of analyzing any video are promotional statements relayed by the post, not measurements or guarantees here. No model was invoked, video uploaded or project run. Similar naming does not establish that rea-video and morluto/rea are the same tool. This is retained as an analysis test with its limits intact.",
+      "metadata":["November 17, 2026 sealed snapshot: 3 likes, 118 views, 0 reposts, 1 reply. Multiple rounds are not measured labor time; this failure is not an independent disproof of the whole tool."],
+      "source_labels":["Pamela's failed Codex/rea-video food-video analysis, November 17, 2026 at 23:23:24 Beijing time"]
+    }
+  },
+  {
+    "id":"zniff-rust-mcp-http-traffic-research-tool",
+    "title":"zniff：Rust抓包工具以MCP让Claude和Cursor查流、重放与改规则",
+    "category":"apps", "rea":"other-ai", "status":"related-project",
+    "summary":"vicanso发布基于Rust／NSH的HTTP(S)抓包调试工具，称内置MCP可让Claude／Cursor研究请求、重放并修改规则；协议与解码能力尚未实测。",
+    "description":"2026年11月17日21:12:56（北京时间），vicanso（@tree_xie）宣布zniff开源。目标是HTTP(S)流量观察、协议调试与规则修改，并把这些能力通过内置MCP交给Claude、Cursor。它是供AI研究应用通信的具体基础工具，不是已报告破解某个服务。\n\n作者称Rust代理核心与NSH原生跨平台UI可打包为单一二进制，也可编译WebAssembly，提供网页／Docker远程控制台。列出的协议包括HTTP/1.1、HTTP/2的ALPN协商、WebSocket、SSE；解码包括JSON、GraphQL、无模式Protobuf/gRPC、MessagePack与行内字段，并有Diff、瀑布图、时序图。作者还列15项改写规则与断点、多语言代码导出，MCP可查流、重放和改规则。保留为产品能力自述，不保证任意加密流量可解密或所有协议无损。\n\n已核对原帖作者与文字，未检查仓库、许可、代码、捕获样本或MCP会话，未安装代理、证书或目标依赖。没有性能或内存测量，不把告别Electron的表述当比较基准；REA未提及，状态为相关项目。",
+    "sources":[{"label":"vicanso发布zniff及MCP能力，2026-11-17 21:12:56北京时间","url":"https://x.com/i/status/2122679379734253648"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存2赞、45浏览、1转发、1回复；15项规则为作者列举，未经逐项核验。"],
+    "en":{
+      "title":"zniff: a Rust traffic debugger exposing flow queries, replay and rules to Claude/Cursor through MCP",
+      "summary":"vicanso announces a Rust/NSH HTTP(S) traffic debugger with MCP access for Claude/Cursor to inspect requests, replay traffic and edit rules. Protocol and decoding support were not tested here.",
+      "description":"At 21:12:56 Beijing time on November 17, 2026, vicanso (@tree_xie) announces the open-sourcing of zniff. It targets HTTP(S) traffic inspection, protocol debugging and rule changes, exposing these through built-in MCP to Claude and Cursor. This is concrete infrastructure for AI-assisted study of application communication, not a report of a particular service being cracked.\n\nThe author says its Rust proxy core and NSH native cross-platform UI package as one binary, with WebAssembly compilation and a web/Docker remote console. Listed protocols include HTTP/1.1, HTTP/2 ALPN negotiation, WebSocket and SSE. Listed decoding covers JSON, GraphQL, schema-less Protobuf/gRPC, MessagePack and inline fields, alongside diffs, waterfalls and sequence diagrams. The post also lists 15 rewrite rules/breakpoints, multilingual code export and MCP flow queries, replay and rule editing. These remain product claims, not a guarantee of decrypting arbitrary encrypted traffic or lossless support for every protocol.\n\nRetrieval confirmed the poster and wording. Repository, license, code, captures and MCP sessions were not reviewed; no proxy, certificates or target dependencies were installed. There are no performance or memory measurements, so the comparison with Electron is not treated as a benchmark. REA is unmentioned; status is related-project.",
+      "metadata":["November 17, 2026 sealed snapshot: 2 likes, 45 views, 1 repost, 1 reply. The 15-rule count is the author's, not an audited inventory."],
+      "source_labels":["vicanso announces zniff and MCP capabilities, November 17, 2026 at 21:12:56 Beijing time"]
+    }
+  },
+  {
+    "id":"niko-agy-rea-competitor-research-claude-handoff",
+    "title":"云端agy研究竞品，再给Claude报告：niko的REA异步分工",
+    "category":"apps", "rea":"REA", "status":"in-progress",
+    "summary":"niko自述让云端agy借REA静态与动态研究多个竞品，产出报告再交Claude；不适合作主力、速度期待低，竞品与结果未公开。",
+    "description":"2026年11月17日21:40:32（北京时间），niko（@niko70129972）说agy尚不能成为主力工作流，只当执行长期异步任务的脚本。具体例子是在云端用REA对多个竞品做静态、动态研究，再把调研设计报告给Claude；目标是借既有产品行为指导自己的设计与实现。帖子未展开agy名称，不能据缩写补定产品版本。\n\n作者对这条链路不要求快，只偶尔查看；认为agy的UI设计不如Claude，但交互甚至更好，并称Claude读报告后很多东西一把过。后两项是个人体验，无任务数、成功定义、测试或时间，不写成一次成功率或性能比较。竞品、二进制、具体功能和权限均未披露，不能推断完成复制或得到服务方授权。\n\n补取原帖确认署名与文本，未读调研报告、工具调用、代码或前后行为对照。本条记录具体异步研究与交接方法，不冒称已验证某个匿名产品的恢复程度；未访问任何竞品服务或执行目标。",
+    "sources":[{"label":"niko的agy／REA竞品研究与Claude交接，2026-11-17 21:40:32北京时间","url":"https://x.com/i/status/2122686326235381762"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存0赞、23浏览、0转发、0回复；一把过为作者体验，不是统计成功率。"],
+    "en":{
+      "title":"Cloud agy researches competitors, then hands Claude a report: niko's asynchronous REA workflow",
+      "summary":"niko reports cloud agy using REA for static and dynamic competitor research before handing reports to Claude. It is not the primary workflow, speed expectations are low, and targets and outputs remain undisclosed.",
+      "description":"At 21:40:32 Beijing time on November 17, 2026, niko (@niko70129972) says agy cannot yet serve as the primary workflow and is instead used like a script for long asynchronous tasks. The concrete example is cloud-based static and dynamic research into several competitors through REA, followed by research/design reports handed to Claude. The aim is to inform the author's own design and implementation from existing product behavior. The post does not expand agy, so no product revision is inferred from the abbreviation.\n\nThe author has low speed expectations and only checks occasionally. They consider agy's UI design weaker than Claude's but its interaction even better, and say many tasks pass in one attempt after Claude reads the reports. These are personal impressions without task counts, success criteria, tests or timing, not a measured success rate or performance comparison. Competitors, binaries, features and permissions are undisclosed; completed copying or provider authorization is not inferred.\n\nRetrieval confirmed attribution and text. Reports, tool calls, code and before/after behavior were not reviewed. This records a specific asynchronous research-and-handoff method, not a verified recovery level for an anonymous product. No competitor services were accessed or targets executed.",
+      "metadata":["November 17, 2026 sealed snapshot: 0 likes, 23 views, 0 reposts, 0 replies. One-attempt success is an impression, not a statistical rate."],
+      "source_labels":["niko's agy/REA competitor research and Claude handoff, November 17, 2026 at 21:40:32 Beijing time"]
+    }
+  },
+  {
+    "id":"j2rs-mitsubishi-claude-atom-lite-home-assistant-report",
+    "title":"三菱设备本地接HA：j2rs称Claude给出ESP32采购清单、固件与集成",
+    "category":"hardware", "rea":"other-ai", "status":"unverified",
+    "summary":"j2rs称Mitsubishi设备可用Atom Lite／ESP32与一欧元线材本地控制，Claude提供清单、固件和Home Assistant集成；未见型号、协议分析或实机日志。",
+    "description":"2026年11月17日22:15:58（北京时间），j2rs（@j2rs_off）回复本地热泵与空调讨论，说自己只是问Claude怎样本地控制，Claude就给出购物清单、固件及HA集成。补读他22:14:50的父回复确认自己用Mitsubishi、Atom Lite（ESP32）和一根一欧元线材；HA在此指Home Assistant。不能把上游另一人的LG热泵误写成他的研究对象，也不能把一欧元线材当全套成本。\n\n同作者22:17:05补称最难的是认清JST连接器的1脚方向。串文提供具体硬件互通背景和人工接线环节，但没有型号、协议研究过程、原创驱动归属、完整固件或控制结果日志。Claude可能使用已有生态方案；原文不证明从零恢复三菱协议，故不写成独立发现或完整脱云覆盖。\n\n补充帖用于消歧目标，均为同日上下文而不是替代候选。已读串文，未接设备、审固件、核对电气兼容性或复现实机控制；不复述接线步骤。保留未核验的作者报告与设备互通范围。",
+    "sources":[
+      {"label":"j2rs归功Claude提供本地控制清单、固件与HA，2026-11-17 22:15:58北京时间","url":"https://x.com/i/status/2122695242189042175"},
+      {"label":"补充同作者父回复：Mitsubishi、Atom Lite与线材，22:14:50","url":"https://x.com/i/status/2122694960289915041"},
+      {"label":"补充同作者：JST脚位辨认是人工难点，22:17:05","url":"https://x.com/i/status/2122695525845586142"}
+    ],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17候选封存0赞、5浏览、0转发、1回复；一欧元是线材说法，不是总成本。"],
+    "en":{
+      "title":"Local Mitsubishi control with Home Assistant: j2rs credits Claude for an ESP32 shopping list, firmware and integration",
+      "summary":"j2rs reports local Mitsubishi control using an Atom Lite/ESP32 and a €1 cable, with Claude supplying a list, firmware and Home Assistant integration. Model, protocol analysis and device logs are unavailable.",
+      "description":"At 22:15:58 Beijing time on November 17, 2026, j2rs (@j2rs_off) replies to a discussion of local heat-pump and air-conditioning control, saying he simply asked Claude how to control his equipment locally and received a shopping list, firmware and HA integration. His supplementary parent reply at 22:14:50 identifies Mitsubishi, an Atom Lite (ESP32) and a €1 cable. HA means Home Assistant here. Another participant's LG heat pump must not be substituted for his target, and €1 is not the total system cost.\n\nA same-author reply at 22:17:05 calls identifying pin 1 of a JST connector the hardest part. The thread supplies concrete interoperability context and a hands-on wiring step, but no model number, protocol-research procedure, original-driver attribution, full firmware or control logs. Claude may have used an existing ecosystem solution. The text does not establish from-scratch recovery of Mitsubishi's protocol, independent discovery or complete cloud-free coverage.\n\nSupplementary posts disambiguate the target and are same-day context, not replacement candidates. The thread was read, but no equipment was connected, firmware reviewed, electrical compatibility checked or device control reproduced. Wiring procedures are not repeated. This remains an unverified author report about device interoperability.",
+      "metadata":["November 17, 2026 sealed candidate: 0 likes, 5 views, 0 reposts, 1 reply. €1 describes the cable, not the total cost."],
+      "source_labels":["j2rs credits Claude for a local-control list, firmware and HA integration, November 17, 2026 at 22:15:58 Beijing time","Supplementary same-author parent: Mitsubishi, Atom Lite and cable, 22:14:50","Supplementary same-author JST pin-identification difficulty, 22:17:05"]
+    }
+  },
+  {
+    "id":"procreverser-multi-agent-microarchitecture-research-report",
+    "title":"ProcReverser：以执行反馈推进处理器黑箱微架构研究的多Agent项目介绍",
+    "category":"hardware", "rea":"other-ai", "status":"unverified",
+    "summary":"AI Security Daily分享ProcReverser，称多Agent系统借执行反馈自动化处理器黑箱微架构逆向；正文可确认目标与方法，但没有已读论文、处理器清单或验证指标。",
+    "description":"2026年11月17日21:36:39（北京时间），AI Security Daily（@sfofgalaxy）分享题为ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor…的研究介绍。可读文字说该多Agent系统自动化此过程，并使用执行反馈。目标是处理器内部微架构的黑箱行为研究，而不是已取得芯片完整设计或源代码。\n\n正文标题与说明以省略号结束，具体处理器、实验类型、反馈循环、模型、测量指标和结果未给出。仍可据明确命名的目标与执行反馈方法收录进行方向，不补全标题，不借安全标签推断漏洞已发现，也不把介绍中的we视为转发账号就是论文作者。\n\n原帖复查仍为同样文字。公开仓库按项目名检索未找到匹配，不据此认定没有源码；未读短链目标、论文、附图或原始实验，未运行任何微基准。保持二手未核验研究项目，不以缺少量化结果为由虚构成功率或完整自动化覆盖。",
+    "sources":[{"label":"AI Security Daily的ProcReverser研究介绍，2026-11-17 21:36:39北京时间","url":"https://x.com/i/status/2122685348971237416"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存0赞、7浏览、0转发、0回复；帖子没有可核验的规模或准确率数字。"],
+    "en":{
+      "title":"ProcReverser: a multi-agent processor black-box microarchitecture research introduction using execution feedback",
+      "summary":"AI Security Daily shares ProcReverser, describing a multi-agent system using execution feedback to automate black-box processor microarchitecture research. Target and method are readable, but no paper, processor list or validation metrics were reviewed.",
+      "description":"At 21:36:39 Beijing time on November 17, 2026, AI Security Daily (@sfofgalaxy) shares a research introduction titled 'ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor…'. Its readable text says a multi-agent system automates this process and uses execution feedback. The target is black-box study of internal processor microarchitectural behavior, not acquisition of a complete chip design or source code.\n\nThe title and account end in ellipses. Processor models, experiment types, feedback loop, model, metrics and results are not supplied. The named target and execution-feedback method still support a research-project entry. The missing title is not completed, security tags do not establish discovered vulnerabilities, and 'we' in the shared introduction does not make the sharing account a paper author.\n\nRetrieval returned the same wording. Public repository search by project name found no match, which does not establish that source is unavailable. Linked material, paper, images and original experiments were not reviewed, and no microbenchmarks were run. This remains an unverified secondary research-project account, without invented success rates or claims of complete automation coverage.",
+      "metadata":["November 17, 2026 sealed snapshot: 0 likes, 7 views, 0 reposts, 0 replies. The post supplies no verifiable scale or accuracy figures."],
+      "source_labels":["AI Security Daily's ProcReverser research introduction, November 17, 2026 at 21:36:39 Beijing time"]
+    }
+  },
+  {
+    "id":"claude-super-meat-boy-graphics-rebuild-idea",
+    "title":"Super Meat Boy改画面：Xensley以玩笑式提示设想Claude反编译",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"Xensley在批评Team Meat的讨论下写出让Claude反编译Super Meat Boy再改画面的提示；两小时后结果是修辞，没有构建、补丁或实测。",
+    "description":"2026年11月17日20:34:37（北京时间），Xensley（@Xensley_）回复一条批评Team Meat的帖子，写出让Claude反编译Super Meat Boy再更新画面的提示，并称两小时后结果如下。Super Meat Boy是Team Meat的平台跳跃游戏；这提供了明确目标和想改变的功能。\n\n补查父帖发布于11月17日01:51:46，只有对工作室的批评，未提供AI研究记录。候选语气具有玩笑／讽刺性质，正文无代码、视频、测试或成果说明，不能把两小时当真实工时、把提示式表达当已执行任务。仅收为作者提出的具体重建设想，不声称有可运行移植、恢复原始源码或获许可；未运行游戏或调用Claude，REA未提及。",
+    "sources":[{"label":"Xensley的Super Meat Boy／Claude改画面设想，2026-11-17 20:34:37北京时间","url":"https://x.com/i/status/2122669737750544608"},{"label":"窗口前父帖：Team Meat批评，2026-11-17 01:51:46北京时间，仅作语境","url":"https://x.com/i/status/2122387165447610819"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17候选封存0赞、299浏览、0转发、0回复；两小时是回复措辞，非测量。"],
+    "en":{
+      "title":"Updating Super Meat Boy's graphics: Xensley's joking Claude decompilation prompt",
+      "summary":"In a discussion criticizing Team Meat, Xensley proposes asking Claude to decompile Super Meat Boy and update its graphics. The two-hour result framing is rhetoric, without a build, patch or test.",
+      "description":"At 20:34:37 Beijing time on November 17, 2026, Xensley (@Xensley_) replies to criticism of Team Meat with a prompt asking Claude to decompile Super Meat Boy and update its graphics, followed by a 'results after 2 hours' framing. Super Meat Boy is Team Meat's platform game; the reply identifies a concrete target and intended change.\n\nThe retrieved parent, posted at 01:51:46 on November 17 before the window, only criticizes the studio and supplies no AI research record. The candidate has a joking or sarcastic tone and provides no code, video, tests or result description. Two hours is not treated as measured work, nor the prompt as an executed task. This is retained only as a specific reconstruction idea, without claims of a runnable port, original-source recovery or permission. No game was run or Claude invoked; REA is unmentioned.",
+      "metadata":["November 17, 2026 sealed candidate: 0 likes, 299 views, 0 reposts, 0 replies. Two hours is reply wording, not a measurement."],
+      "source_labels":["Xensley's Super Meat Boy/Claude graphics idea, November 17, 2026 at 20:34:37 Beijing time","Pre-window parent criticizing Team Meat, November 17, 2026 at 01:51:46 Beijing time; context only"]
+    }
+  },
+  {
+    "id":"ai-decompiled-software-repository-hosting-idea",
+    "title":"为AI反编译仓库建站：Hetzer提出的托管idea，不是已上线服务",
+    "category":"apps", "rea":"other-ai", "status":"unverified",
+    "summary":"Hetzer建议盗版服务经营者托管AI反编译软件仓库及违反ToS的mod；未指名软件、站点或实现，不采纳其规避法律主张。",
+    "description":"2026年11月17日20:38:42（北京时间），Hetzer（@DerHetzer1000）以AI反编译发展为背景，向俄罗斯盗版服务经营者提出建站机会：托管反编译软件仓库，也包括违反服务条款的mod。目标是为这类产物提供分发基础设施，而不是已报告某个软件被还原。\n\n原帖已核对署名与文字，没有站点名称、仓库样本、实现、目标软件或运行数据。按具体托管项目idea记录，不把设想改成已上线，也不认可不遵守美国法律即合法、可规避版权或无需授权；本合集不分发这些产物。没有技术成功率或收益证据，未访问盗版服务或下载软件，REA未提及。",
+    "sources":[{"label":"Hetzer关于AI反编译仓库与mod托管的设想，2026-11-17 20:38:42北京时间","url":"https://x.com/i/status/2122670766118285482"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存19赞、323浏览、4转发、0回复；传播不证明服务存在或法律可行。"],
+    "en":{
+      "title":"Hosting AI-decompiled repositories: Hetzer's website idea, not a live service",
+      "summary":"Hetzer suggests pirate-service operators host AI-decompiled software repositories and ToS-violating mods. No software, website or implementation is named; the legal-evasion premise is not endorsed.",
+      "description":"At 20:38:42 Beijing time on November 17, 2026, Hetzer (@DerHetzer1000) cites improving AI decompilation and suggests a website opportunity to Russian pirate-service operators: hosting decompiled software repositories and mods that violate terms of service. The target is distribution infrastructure for such outputs, not a report of a particular program being recovered.\n\nRetrieval confirmed attribution and text, but there is no site name, sample repository, implementation, target software or operating data. This is recorded as a concrete hosting-project idea, not a launched service. Disregarding American law is not treated as legality, a copyright exemption or authorization; this collection does not distribute those outputs. No technical success rates or returns are evidenced. No pirate service was accessed or software downloaded; REA is unmentioned.",
+      "metadata":["November 17, 2026 sealed snapshot: 19 likes, 323 views, 4 reposts, 0 replies. Engagement does not establish an existing service or legal feasibility."],
+      "source_labels":["Hetzer's AI-decompiled repository/mod hosting idea, November 17, 2026 at 20:38:42 Beijing time"]
+    }
+  },
+  {
+    "id":"effectcraft-claude-python-video-editing-report",
+    "title":"EffectCraft配Claude剪视频：matt称以NumPy／OpenCV走After Effects式流程",
+    "category":"apps", "rea":"other-ai", "status":"unverified",
+    "summary":"matt称用Claude编辑视频、Treg生图，再用EffectCraft里的NumPy／OpenCV处理；将工具称作逆向的After Effects，但未提供内部机制或兼容性证据。",
+    "description":"2026年11月17日20:39:01（北京时间），matt.（@matthewsoldit）分享自己用Claude编辑视频的流程，明确点名@treg_ai生成图片，以及@get_artcraft的EffectCraft内Python库NumPy与OpenCV。他把EffectCraft称为逆向的After Effects；After Effects是Adobe的动效与合成软件。\n\n可确认的是作者介绍AI与代码库结合的视频制作流程，不是已证明恢复Adobe源码、工程格式或全部特效。帖子没有指出逆向过哪个版本、具体效果、输入输出对照、项目代码或量化质量。已核对原帖，未审附视频、被引用内容或工具源码，未运行模型与编辑器。保留作者的逆向式替代工具归因和实际使用自述，不把expert edition或命名当能力认证；REA未提及。",
+    "sources":[{"label":"matt的Claude／Treg／EffectCraft视频流程，2026-11-17 20:39:01北京时间","url":"https://x.com/i/status/2122670844904386684"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存6赞、342浏览、0转发、5回复；无工时或效果还原度数据。"],
+    "en":{
+      "title":"Editing with Claude and EffectCraft: matt's NumPy/OpenCV workflow described as reverse-engineered After Effects",
+      "summary":"matt reports Claude video editing, Treg image generation and NumPy/OpenCV inside EffectCraft. He calls it reverse-engineered After Effects, without evidence of internal recovery or compatibility.",
+      "description":"At 20:39:01 Beijing time on November 17, 2026, matt. (@matthewsoldit) shares his Claude-assisted video-editing workflow, naming @treg_ai for image generation and the Python libraries NumPy and OpenCV within @get_artcraft's EffectCraft. He describes EffectCraft as reverse-engineered After Effects; After Effects is Adobe's motion-graphics and compositing application.\n\nThe text establishes a reported AI-and-code video workflow, not recovery of Adobe's source, project format or complete effect set. It identifies no reversed version, specific effect, input/output comparison, project source or measured quality. Retrieval confirmed the post; the attached video, quoted content and tool source were not reviewed, and no model or editor was run. The reverse-engineered-alternative characterization and usage remain the author's claims. 'Expert edition' and naming are not capability certification; REA is unmentioned.",
+      "metadata":["November 17, 2026 sealed snapshot: 6 likes, 342 views, 0 reposts, 5 replies. No labor-time or effect-fidelity data."],
+      "source_labels":["matt's Claude/Treg/EffectCraft video workflow, November 17, 2026 at 20:39:01 Beijing time"]
+    }
+  },
+  {
+    "id":"gt12-browser-scapes-claude-renderer-secondary-report",
+    "title":"GT1／2浏览器Scapes照片模式：旁观者称Claude参与逆向与渲染器",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"Pedro在Gran Turismo 1/2浏览器照片模式讨论中称Claude用于逆向和渲染器编写；上下文指向赛道mod kit，但没有已审仓库或开发者证实。",
+    "description":"2026年11月17日20:44:27（北京时间），Pedro Ló🐟（@pedrolj92）回复争论，称Claude参与编码、一些逆向和渲染引擎。补查窗口前06:44:52的会话起点，OLEGII（@Zakon_BY）介绍浏览器里的GT1/2 Scapes photomode，指Gran Turismo 1与2素材的照片模式，而非完整可玩的两款赛车游戏。\n\n同日14:26:58的另一位参与者称相关GitHub页面有Claude贡献者，还说用于赛道模型的mod kit也由Claude制作。这是旁观者归因，没有可确定的仓库身份、提交或开发者原始说明；不能据贡献者名字推断每段逆向由AI完成。候选末句泛称任何照片都是AI生成，属于争论修辞，不作为技术事实。\n\n仅补读对话以定位目标；补充日期早于窗口，不冒充新候选。未审仓库、模型提取、渲染代码、图片或实际浏览器行为，未运行游戏。按二手未核验报告收录，不声明原始源码恢复、资产授权或完整游戏重建，REA未提及。",
+    "sources":[{"label":"Pedro关于Claude逆向与渲染器的回复，2026-11-17 20:44:27北京时间","url":"https://x.com/i/status/2122672213660930053"},{"label":"窗口前会话起点：GT1/2浏览器Scapes介绍，2026-11-17 06:44:52北京时间","url":"https://x.com/i/status/2122460925269803375"},{"label":"窗口前参与者归因：Claude贡献与赛道mod kit，2026-11-17 14:26:58北京时间","url":"https://x.com/i/status/2122577214717800736"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17候选封存0赞、10浏览、0转发、0回复；补取上下文的热度不当作项目总量。"],
+    "en":{
+      "title":"GT1/2 browser Scapes photo mode: participants credit Claude with reversing and renderer work",
+      "summary":"Pedro credits Claude with reversing and renderer coding in a Gran Turismo 1/2 browser-photo-mode discussion. Context mentions a track mod kit, but no repository or developer confirmation was reviewed.",
+      "description":"At 20:44:27 Beijing time on November 17, 2026, Pedro Ló🐟 (@pedrolj92) says Claude was used for coding, some reversing and the rendering engine. The retrieved pre-window conversation starter at 06:44:52 that day has OLEGII (@Zakon_BY) introducing browser-based GT1/2 Scapes photomode: a photo mode involving Gran Turismo 1 and 2 material, not two complete playable racing games.\n\nAnother participant at 14:26:58 says associated GitHub pages list Claude as a contributor and that the mod kit used for track models was also made with Claude. This is participant attribution, without an identified repository, commit or primary developer account. A contributor name does not establish AI authorship of every reversing step. The candidate's claim that any photograph is AI-generated is debate rhetoric, not adopted as a technical fact.\n\nSupplementary conversation was read only to identify the target; those earlier dates are not new window candidates. Repositories, extraction, renderer code, images and browser behavior were not reviewed, and no game was run. This remains an unverified secondary report, without claims of original-source recovery, asset authorization or full-game reconstruction. REA is unmentioned.",
+      "metadata":["November 17, 2026 sealed candidate: 0 likes, 10 views, 0 reposts, 0 replies. Retrieved context engagement is not a project total."],
+      "source_labels":["Pedro's Claude reversing/renderer reply, November 17, 2026 at 20:44:27 Beijing time","Pre-window conversation starter: GT1/2 browser Scapes, November 17, 2026 at 06:44:52 Beijing time","Pre-window participant credits Claude and a track mod kit, November 17, 2026 at 14:26:58 Beijing time"]
+    }
+  },
+  {
+    "id":"claude-game-ability-animation-reconstruction-question",
+    "title":"把技能动画给Claude能否复现：Brian从rea-video提出的游戏动效问题",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"Brian向游戏演示者询问是否给Claude看效果再复现，并想找类似rea-video的技能动画拆解工具；只是具体问题，不能归因对方已采用该方法。",
+    "description":"2026年11月17日21:10:24（北京时间），Brian（@Brian__Nol）向@OhChadol询问怎样做出相同效果，是否展示给Claude并要求复现；他知道有按镜头拆视频的Reverse Engineer Anything类工具，想问技能动画有没有对应方案。目标是从可见游戏技能效果推导可重建的动效，不是已知游戏源码或动画资产恢复。\n\n补读当日13:31:38的窗口前父帖，演示者称做过尝试但质量不够做成Skill，暂时搁置、先专注自己的游戏；这不回答Brian是否使用Claude看参考的问题，也不能证明一个可用动画逆向Skill已经发布。未确认具体技能、输入视频、实现技术、源码或对照结果。按未实施／未回答的具体工具需求收录，未运行模型或提取游戏资产，不把rea-video与morluto/rea等同。",
+    "sources":[{"label":"Brian询问Claude复现技能动画与rea-video类工具，2026-11-17 21:10:24北京时间","url":"https://x.com/i/status/2122678743613194676"},{"label":"窗口前父帖：演示者称Skill质量不足、暂缓，2026-11-17 13:31:38北京时间","url":"https://x.com/i/status/2122563289611972970"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17候选封存1赞、164浏览、0转发、2回复；父帖热度不是这个idea的验证。"],
+    "en":{
+      "title":"Could Claude reproduce a game ability animation from a reference? Brian's rea-video-inspired question",
+      "summary":"Brian asks a game demonstrator whether Claude saw and reproduced an effect, and seeks a rea-video-like tool for ability animations. It is a concrete question, not evidence that the demonstrator used that method.",
+      "description":"At 21:10:24 Beijing time on November 17, 2026, Brian (@Brian__Nol) asks @OhChadol how similar effects were made: were they shown to Claude with a request to reproduce them? Knowing of a Reverse Engineer Anything-style tool that breaks videos into shots, he asks whether an equivalent exists for ability animations. The target is inferring reconstructible motion from a visible game effect, not established source or animation-asset recovery.\n\nThe pre-window parent at 13:31:38 that day says the demonstrator tried something but judged its quality insufficient for a Skill, temporarily shelving it to focus on their game. That does not answer Brian's reference-to-Claude question or establish a released animation-reversing Skill. No particular ability, input video, implementation, source or comparison was verified. This is retained as an unimplemented/unanswered concrete tool request. No model was run or game assets extracted, and rea-video is not equated with morluto/rea.",
+      "metadata":["November 17, 2026 sealed candidate: 1 like, 164 views, 0 reposts, 2 replies. Parent-post engagement does not validate this idea."],
+      "source_labels":["Brian asks about Claude ability-animation reconstruction and a rea-video-like tool, November 17, 2026 at 21:10:24 Beijing time","Pre-window parent says Skill quality was insufficient and work paused, November 17, 2026 at 13:31:38 Beijing time"]
+    }
+  },
+  {
+    "id":"hongguo-rea-tv-client-reconstruction-idea",
+    "title":"红果短剧电视客户端：IAMAI提出用REA研究后按个人需求重建",
+    "category":"apps", "rea":"REA", "status":"unverified",
+    "summary":"IAMAI建议用REA反编译红果短剧，让AI按用户想要的样子做电视客户端；尚无实现或兼容证据，区别于既有手机端去广告案例。",
+    "description":"2026年11月17日22:42:56（北京时间），IAMAI（@iamai_omni）说用户可用rea反编译，再让AI做出想要的红果短剧电视客户端。红果是短剧内容应用；此处目标是电视端观看和个人化客户端，而不是基线案例中对既有客户端去广告与悬浮窗。\n\n帖子是建议，没有说明已取得哪个安装包、研究哪些接口、完成播放或适配电视遥控器，也没有代码、演示、模型版本或测试。原帖已确认署名与文字；不把用户自己能做的预测升级为已完成，不推断绕过登录、版权或付费限制。未访问内容服务或运行目标，保留未核验idea。",
+    "sources":[{"label":"IAMAI的REA／红果电视客户端设想，2026-11-17 22:42:56北京时间","url":"https://x.com/i/status/2122702029323997690"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存0赞、1563浏览、0转发、0回复；无成功率或工时数据。"],
+    "en":{
+      "title":"A Hongguo short-drama TV client: IAMAI proposes REA research and personalized rebuilding",
+      "summary":"IAMAI suggests decompiling Hongguo with REA and having AI build a TV client to personal requirements. No implementation or compatibility evidence is supplied; this differs from the existing mobile ad-removal case.",
+      "description":"At 22:42:56 Beijing time on November 17, 2026, IAMAI (@iamai_omni) suggests using rea to decompile Hongguo and asking AI to create the desired TV client. Hongguo is a short-drama content app. The target here is television viewing and a personalized client, not the baseline case's removal of ads and floating overlays from an existing client.\n\nThis is a suggestion: no package, studied interface, working playback or remote-control adaptation is identified, and there is no code, demonstration, model revision or test. Retrieval confirmed attribution and text. A prediction that users can build it is not a completed result, nor evidence of login, copyright or paywall bypass. No content service was accessed or target run. Status remains unverified for an idea.",
+      "metadata":["November 17, 2026 sealed snapshot: 0 likes, 1,563 views, 0 reposts, 0 replies. No success-rate or labor-time data."],
+      "source_labels":["IAMAI's REA/Hongguo TV-client idea, November 17, 2026 at 22:42:56 Beijing time"]
+    }
+  },
+  {
+    "id":"comsec-iai-agent-incident-reconstruction-proposal",
+    "title":"COMSEC的IAI调查提案：用AI与逆向重建Agent行为，不预设事故归因",
+    "category":"algorithms", "rea":"other-ai", "status":"unverified",
+    "summary":"Ariel Garbarz署名提议以Inverse Artificial Intelligence结合AI与逆向调查系统行为；FAA、银行和诉讼只是提案语境，文中也承认不能建立共同攻击或OpenAI归因。",
+    "description":"2026年11月17日22:26:12（北京时间）的候选署名Ariel Garbarz，自称阿根廷UTN的COMSEC Lab主任，提出Inverse Artificial Intelligence（IAI）调查方法：结合AI与逆向，重建AI系统行为、识别弱点和核对安全机制，以技术证据区分故障与恶意行动。按一个具体调查提案收录，而不是把所列事件各算独立成果。\n\n作者将11月13日FAA通信故障、10月22日银行阻挡第三方Agent访问的报道及11月16日加州对OpenAI诉讼的说法并列。正文明确说FAA未发现网络攻击证据，事件之间共同漏洞或Agent作用只是待查假设，不能证明协调攻击或归因OpenAI。这里未核官方材料、诉状或事故记录，连这些背景说法也不当作合集已确认事实。\n\n已完整读候选全文，没有调查日志、数据集、工具、模型、重建结果或可复现方法；政策呼吁不是技术发现。署名职务也未另行认证，未访问任何受影响系统。保留未实施／未核验提案，不写成查明攻击或确定责任；REA未提及。",
+    "sources":[{"label":"署名Ariel Garbarz的COMSEC／IAI调查提案，2026-11-17 22:26:12北京时间","url":"https://x.com/i/status/2122697818980732983"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存9赞、242浏览、4转发、0回复；事件关联和机构署名均未独立核验。"],
+    "en":{
+      "title":"COMSEC's IAI investigation proposal: AI-assisted reconstruction of agent behavior without presumed incident attribution",
+      "summary":"A post signed Ariel Garbarz proposes Inverse Artificial Intelligence combining AI and reversing to study system behavior. FAA, banking and lawsuit claims are context, not established linked attacks or OpenAI attribution.",
+      "description":"A candidate at 22:26:12 Beijing time on November 17, 2026 is signed Ariel Garbarz, identifying him as director of COMSEC Lab at Argentina's UTN. It proposes Inverse Artificial Intelligence (IAI): combining AI and reverse engineering to reconstruct AI-system behavior, identify weaknesses and check safeguards, distinguishing failures from malicious actions through technical evidence. This is one concrete investigation proposal, not separate completed results for every listed incident.\n\nThe author juxtaposes a November 13 FAA telecommunications failure, October 22 reports of banks blocking third-party agents, and a purported November 16 California lawsuit against OpenAI. The text explicitly says the FAA found no cyberattack evidence and that shared vulnerabilities or agent involvement remain hypotheses, not proof of coordinated attacks or OpenAI attribution. Official material, pleadings and incident records were not checked here; even those contextual claims are not adopted as verified facts.\n\nThe full candidate was read. It contains no investigation logs, dataset, tools, model, reconstruction result or reproducible method. Policy advocacy is not a technical finding. The signed institutional role was not independently authenticated, and no affected systems were accessed. This remains an unimplemented/unverified proposal, not a solved attack or assignment of responsibility. REA is unmentioned.",
+      "metadata":["November 17, 2026 sealed snapshot: 9 likes, 242 views, 4 reposts, 0 replies. Incident links and institutional attribution were not independently verified."],
+      "source_labels":["COMSEC/IAI investigation proposal signed Ariel Garbarz, November 17, 2026 at 22:26:12 Beijing time"]
+    }
+  },
+  {
+    "id":"gagan-grokee-productivity-followup-app-reconstruction",
+    "title":"Grokee督促承诺事项：Gagan称Grok团队逆向了一款生产力应用",
+    "category":"apps", "rea":"other-ai", "status":"unverified",
+    "summary":"Gagan称16个Grok Bot分工、Linear定任务、Mac上的Codex构建并共享GitHub上下文；其中还逆向了督促自己完成承诺事项的应用，名称和结果未公开。",
+    "description":"2026年11月17日22:30:18（北京时间），Gagan Gehani（@GaganGehani）说以16个Grok Bot做研究、购物、YouTube增长、X信息过滤和日常提醒；Grok将任务写进Linear、交给Mac上的Codex构建，通过GitHub仓库共享上下文，只在受阻时找他。他称其为Grokee，并说它也逆向了一款会追问自己承诺事项的生产力应用。\n\n具体逆向用途是个人承诺跟进，不把团队其他通用工作都算逆向成果。帖子没有应用名、版本、分析方法、重建界面、代码、测试或提醒实际送达记录，也没交代Grok与Codex在该项中的准确分工。16个Bot是团队规模，不是16个Agent共同反编译的证据。补取原帖确认作者与文字，未访问仓库、应用或个人任务，未运行模型；保留未核验作者报告，REA未提及。",
+    "sources":[{"label":"Gagan的Grokee团队与生产力应用逆向自述，2026-11-17 22:30:18北京时间","url":"https://x.com/i/status/2122698851790540877"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存1赞、16浏览、0转发、0回复；16个Bot不等于该项目的逆向参与数。"],
+    "en":{
+      "title":"Grokee follows up on commitments: Gagan reports a Grok team's productivity-app reconstruction",
+      "summary":"Gagan reports 16 Grok Bots, Linear task scoping, Codex builds on a Mac and shared GitHub context. He says the team also reversed a productivity app that follows up on commitments; its identity and outputs are undisclosed.",
+      "description":"At 22:30:18 Beijing time on November 17, 2026, Gagan Gehani (@GaganGehani) describes 16 Grok Bots handling research, shopping, YouTube growth, X filtering and daily nudges. Grok scopes tasks into Linear and hands builds to Codex on his Mac, with context shared through a GitHub repository and human contact only when blocked. He calls it Grokee and says it also reverse-engineered a productivity app that follows up on things he said he would do.\n\nThe specific reversing purpose is personal commitment follow-up; the team's other general tasks are not all reversing results. The post supplies no app name, revision, analysis method, rebuilt interface, code, tests or delivered-reminder records, and does not allocate this task precisely between Grok and Codex. Sixteen Bots is team size, not evidence of sixteen agents jointly decompiling. Retrieval confirmed attribution and text. No repository, application or personal tasks were accessed and no model was run. This remains an unverified author report; REA is unmentioned.",
+      "metadata":["November 17, 2026 sealed snapshot: 1 like, 16 views, 0 reposts, 0 replies. Sixteen Bots is not the number of reversing participants on this project."],
+      "source_labels":["Gagan's Grokee team and productivity-app reversing account, November 17, 2026 at 22:30:18 Beijing time"]
+    }
+  },
+  {
+    "id":"cybercab-grokbot-mcp-skill-integration-idea",
+    "title":"Cybercab接Grokbot：Micah想找MCP或Claude skill，尚未开始构建",
+    "category":"apps", "rea":"REA", "status":"unverified",
+    "summary":"Micah Berkley想将Cybercab／Robotaxi接入Grokbot，未找到MCP或Claude skill，发帖询问并标记REA；未报告协议研究、叫车或车辆控制。",
+    "description":"2026年11月17日23:01:08（北京时间），Micah Berkley（@MicahBerkley）说需要将Cybercab／@robotaxi加入自己的Grokbot，在自己构建前询问是否已有方案，称找不到MCP或Claude skill，并使用REA标签。具体目标是让Agent接入机器人出租车相关服务；帖子没有明确是查询、叫车还是其他功能，不能替作者补成车辆底层控制。\n\n补取原帖确认署名与措辞。没有接口、代码、协议、授权范围或运行结果，也没有证明已经调用REA；工具标注仅表示作者点名的设想。作为未实施的具体互通idea收录，不宣称获得出行服务许可、自动驾驶能力或实际完成行程；未访问服务、账号或车辆。",
+    "sources":[{"label":"Micah提出Cybercab／Grokbot的MCP或skill需求，2026-11-17 23:01:08北京时间","url":"https://x.com/i/status/2122706610891973048"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存3赞、165浏览、0转发、0回复；REA只是候选明确使用的标签，不是执行证据。"],
+    "en":{
+      "title":"Cybercab access from Grokbot: Micah seeks an MCP or Claude skill before building",
+      "summary":"Micah Berkley wants Cybercab/Robotaxi access in Grokbot, asks about existing MCPs or Claude skills and tags REA. There is no reported protocol research, ride booking or vehicle control.",
+      "description":"At 23:01:08 Beijing time on November 17, 2026, Micah Berkley (@MicahBerkley) says he needs Cybercab/@robotaxi in his Grokbot, asks whether anyone has done it before he builds, and says he cannot find an MCP or Claude skill. He tags REA. The concrete target is agent access to a robotaxi-related service; the post does not specify queries, booking or other functions, so low-level vehicle control is not inferred.\n\nRetrieval confirmed attribution and wording. No interface, code, protocol, permission scope or running result is supplied, nor evidence that REA has already been invoked. The tool label records the author's proposed association only. This is an unimplemented interoperability idea, not service authorization, autonomous-driving capability or a completed ride. No service, account or vehicle was accessed.",
+      "metadata":["November 17, 2026 sealed snapshot: 3 likes, 165 views, 0 reposts, 0 replies. REA is an explicit candidate tag, not execution evidence."],
+      "source_labels":["Micah's Cybercab/Grokbot MCP-or-skill request, November 17, 2026 at 23:01:08 Beijing time"]
+    }
+  },
+  {
+    "id":"dead-space2-ai-activation-limit-preservation-idea",
+    "title":"Dead Space 2激活上限：dmcrray9提出未来用AI反编译保留可玩性",
+    "category":"games", "rea":"other-ai", "status":"unverified",
+    "summary":"面对Dead Space 2激活额度和支持停止的讨论，dmcrray9称若游戏被停服就让AI反编译移除限制；是条件式保存idea，没有补丁或实测。",
+    "description":"2026年11月17日23:08:40（北京时间），@dmcrray9回复FULU称，如果游戏已经sunset，就让AI反编译并移除激活上限。补查窗口前11月17日05:51:14的FULU父帖，将目标定位为EA的Dead Space 2：父帖称Steam仍售19.99美元、只能同时五次激活，重装系统或换盘消耗额度，客服不再重置，商店还宣传失效的撤销工具。价格与支持状态只是父帖报告，未核商店或EA政策。\n\n候选给出的动机是保留购买游戏的可玩性，但只是条件式意向，没有工具名、模型、补丁、反编译日志或运行结果。未证明已经移除DRM，也不对法律豁免、版权或授权作判断；不提供绕过步骤。补充父帖用于识别游戏而非新候选，未下载或运行游戏，REA未提及，状态为未核验idea。",
+    "sources":[{"label":"dmcrray9的AI反编译与移除激活上限意向，2026-11-17 23:08:40北京时间","url":"https://x.com/i/status/2122708507829150074"},{"label":"窗口前FULU父帖：Dead Space 2五次激活与支持争议，2026-11-17 05:51:14北京时间","url":"https://x.com/i/status/2122447426418069671"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17候选封存0赞、14浏览、0转发、0回复；19.99美元与五次限制是父帖说法，非当前独立核价。"],
+    "en":{
+      "title":"Dead Space 2 activation limits: dmcrray9's conditional AI-decompilation preservation idea",
+      "summary":"In a discussion of Dead Space 2 activation slots and discontinued support, dmcrray9 proposes using AI decompilation to remove the cap if the game is sunset. This is a preservation intention, without a patch or test.",
+      "description":"At 23:08:40 Beijing time on November 17, 2026, @dmcrray9 tells FULU that if the game is sunset, they will have AI decompile it and remove the activation limit. The retrieved pre-window FULU parent at 05:51:14 that day identifies EA's Dead Space 2. It reports a $19.99 Steam listing, five simultaneous activations, reinstallations or replacement drives consuming slots, support refusing resets, and a broken de-authorization tool still advertised. Price and support status are the parent's report, not checked against Steam or EA policy.\n\nThe candidate's motivation is preserving access to a purchased game, but this is a conditional intention without a tool, model, patch, decompilation log or running result. DRM removal is not established, and no legal exemption, copyright or authorization conclusion is made. No bypass procedure is supplied. The parent identifies the game and is not a new candidate. No game was downloaded or run; REA is unmentioned. Status remains unverified for an idea.",
+      "metadata":["November 17, 2026 sealed candidate: 0 likes, 14 views, 0 reposts, 0 replies. $19.99 and five activations are parent-post claims, not an independently checked current price."],
+      "source_labels":["dmcrray9's AI-decompilation/activation-cap intention, November 17, 2026 at 23:08:40 Beijing time","Pre-window FULU parent: Dead Space 2 activation/support dispute, November 17, 2026 at 05:51:14 Beijing time"]
+    }
+  },
+  {
+    "id":"kasmiri-rea-ghidra-private-mcp-game-workflow",
+    "title":"未具名游戏的自动化研究：Kasmiri组合REA、Ghidra、Computer Use与私有MCP",
+    "category":"games", "rea":"REA", "status":"in-progress",
+    "summary":"Kasmiri称正在以REA调用Ghidra反编译游戏，用Computer Use找功能、私有MCP让Agent持久加入函数；没有游戏名、代码或测试，不外推任何游戏都能自动化。",
+    "description":"2026年11月17日23:11:54（北京时间），Kasmiri（@torppis46）说正在逆向一款电子游戏：经REA调用Ghidra，把原生机器码反编译为可读伪代码；用Computer Use在游戏里探索、寻找目标；再以私有MCP让Agent在游戏内部持久添加函数。目标是把游戏行为分析和功能修改连接成自动化流程。\n\n帖子未公开游戏、平台、模型、函数内容、持久化机制、分析会话或运行测试。结尾说这些工具可自动化自己想要的游戏，是作者期望，不证明跨游戏兼容或完整功能覆盖。伪代码也不是恢复原始源码。补取原帖确认作者及文字，未访问私有MCP或下载游戏，没有独立验证功能已注入、可重启保留或安全可用；保留进行中的流程自述。",
+    "sources":[{"label":"Kasmiri的REA／Ghidra与私有MCP游戏研究流程，2026-11-17 23:11:54北京时间","url":"https://x.com/i/status/2122709318705254894"}],
+    "snapshot_date":"2026-11-17", "metadata":["2026-11-17封存1赞、18浏览、0转发、1回复；私有MCP能力和持久化尚未核验。"],
+    "en":{
+      "title":"Automating research into an unnamed game: Kasmiri combines REA, Ghidra, Computer Use and private MCP",
+      "summary":"Kasmiri reports REA/Ghidra decompilation, Computer Use exploration and private MCP for agent-added persistent functions. No game, code or tests are public; arbitrary-game automation is not established.",
+      "description":"At 23:11:54 Beijing time on November 17, 2026, Kasmiri (@torppis46) says they are reversing a videogame: REA calls Ghidra to turn native machine code into readable pseudocode, Computer Use explores the game to find targets, and private MCP lets the agent permanently add a function inside the game. The aim is a workflow linking game-behavior analysis to functional modification.\n\nThe game, platform, model, function, persistence mechanism, analysis session and running tests are undisclosed. The closing suggestion of automating any game the author wants is an aspiration, not cross-game compatibility or complete coverage. Pseudocode is not original-source recovery. Retrieval confirmed attribution and text. No private MCP was accessed or game downloaded; successful injection, persistence across restarts and safe operation were not independently checked. This remains an in-progress workflow report.",
+      "metadata":["November 17, 2026 sealed snapshot: 1 like, 18 views, 0 reposts, 1 reply. Private-MCP capabilities and persistence remain unverified."],
+      "source_labels":["Kasmiri's REA/Ghidra and private-MCP game-research workflow, November 17, 2026 at 23:11:54 Beijing time"]
+    }
+  },
+  {
     "id": "cmp170hx-pico2-ai-configuration-script-report",
     "title": "CMP 170HX解锁转述：Pico 2控制稳压芯片，AI编写不可逆配置脚本",
     "category": "hardware",
@@ -17663,13 +17945,20 @@
   },
   {
     "id": "regen-ad-prompt-reconstruction-report",
-    "title": "ReGen：从广告画面推断可重做提示词的Chrome扩展介绍",
+    "title": "ReGen：从广告推断可编辑配方，柿子报告香水换产品重生成",
     "category": "algorithms", "rea": "other-ai", "status": "unverified",
-    "summary": "候选介绍ReGen为广告重建提示词；补查Amy Hua原帖确认Chrome扩展定位，但未证明恢复原始提示词或生成一致。",
-    "description": "2026年10月28日00:46:21（北京时间），候选介绍ReGen可从广告取得提示词，再用于自己的产品。补查同日00:39:54的Amy Hua（@wenyanhh）原帖，作者称Chrome扩展能从Instagram、Pinterest、X和任意网站的广告提取prompt以重做；这是同窗口的补充来源，不替换原候选。\n\n具体用途是从可见广告反推生成描述，减少重新写提示词的工作，不是逆向这些平台的客户端或接口。没有模型、提取过程、输入/输出对照或可重复测试。所谓extract不证明取得广告真正用过的原始提示词，也不保证布局、品牌或生成结果一致。按广义AI视觉提示重建的未核验产品介绍收录，REA未用于该工具的证据；未安装扩展或上传广告。",
-    "sources": [{"label": "候选：ReGen广告提示词重建介绍，2026-10-28", "url": "https://x.com/i/status/2115122944477466721"}, {"label": "补充：Amy Hua的Chrome扩展原帖，同日00:39", "url": "https://x.com/i/status/2115121320837222677"}],
-    "snapshot_date": "2026-10-28", "metadata": ["候选快照28赞、3321浏览、1转发；补查热度不替换此快照。"],
-    "en": {"title": "ReGen: a Chrome extension pitching prompt reconstruction from advertisements", "summary": "The candidate introduces ReGen for recreating ads from inferred prompts. Amy Hua's original post confirms a Chrome-extension pitch, not recovery of the original prompt or equivalent outputs.", "description": "At 00:46:21 Beijing time on October 28, 2026, the candidate introduces ReGen as obtaining a prompt from an ad and remaking it for another product. Supplementary lookup of Amy Hua (@wenyanhh) at 00:39:54 that day confirms a Chrome-extension pitch claiming prompt extraction from ads on Instagram, Pinterest, X and any website. This is same-window supporting material, not a substitute candidate.\n\nThe concrete purpose is inferring a generative description from visible advertising to reduce prompt-writing work, not reversing those platforms' clients or APIs. No model, extraction procedure, input/output comparison or reproducible test is supplied. 'Extract' does not establish access to the actual original prompt, nor equivalent layout, branding or generated results. Included as an unverified broader AI visual-prompt reconstruction product introduction; REA use in the tool is not established. No extension was installed or ad uploaded.", "metadata": ["Candidate snapshot: 28 likes, 3,321 views, 1 repost. Later lookup engagement does not replace this snapshot."], "source_labels": ["Candidate: ReGen ad-prompt reconstruction introduction, October 28, 2026", "Supplement: Amy Hua's Chrome-extension post, 00:39 that day"]}
+    "summary": "ReGen早期介绍从广告推断提示；柿子新增香水广告试用自述，称拆出角色、镜头、灯光和节奏后换产品重生成，承认并非原片一致，未审输出或模型。",
+    "description": "2026年10月28日00:46:21（北京时间），早期候选介绍ReGen可从广告取得提示词，再用于自己的产品。此前补查同日00:39:54的Amy Hua（@wenyanhh）原帖，确认其Chrome扩展定位：从Instagram、Pinterest、X及其他网站的可见广告推断prompt再重做。它不是对这些平台客户端或接口的逆向，extract也不证明拿到真实原始提示。\n\n2026年11月17日21:11:32的新候选，超级个体｜柿子（@yaohui12138）介绍@frevana_ai的ReGen Agent App，并报告自己将一条慢镜头、光影与液体特写的香水广告交给工具，几分钟得到结构化、可编辑的角色设定、构图、灯光与分镜节奏参数，再点Regenerate进入编辑器，换成自己使用的香水，得到新广告片。原帖补查确认署名和全文，未审演示视频、输入片、生成配方或输出。\n\n作者说不会与原片一模一样，但自己认为视觉调性、镜头结构和节奏接近，宣传可批量换人物、话题、产品与语言，也称图片可分析、Chrome扩展和网页拖放可用。这补充具体试用自述，不证明恢复原片的生成过程、唯一提示、拍摄方法或可保证的投放效果。几分钟、传统团队数万元及一天几十条均未计时或核成本；不写成确定节省或收益。\n\n没有模型、完整推断机制、受控输入输出对照或可重复测试。早期Chrome扩展与新帖Agent App作为同名项目的产品介绍合并，不假定每个版本能力相同。未安装扩展、上传广告或运行项目，未确认素材授权或REA使用，保留unverified。",
+    "sources": [{"label": "早期候选：ReGen广告提示词重建介绍，2026-10-28", "url": "https://x.com/i/status/2115122944477466721"}, {"label": "此前补充：Amy Hua的Chrome扩展原帖，2026-10-28 00:39北京时间", "url": "https://x.com/i/status/2115121320837222677"}, {"label":"柿子的ReGen香水广告换产品试用自述，2026-11-17 21:11:32北京时间","url":"https://x.com/i/status/2122679028754665837"}],
+    "snapshot_date": "2026-11-17",
+    "metadata": ["2026-10-28早期候选快照28赞、3321浏览、1转发；补查热度不替换此快照。", "2026-11-17新候选封存87赞、11358浏览、12转发、58回复；不与旧快照累加，热度与效果宣称均非独立验证。"],
+    "en": {
+      "title":"ReGen: editable ad recipes and Shizi's reported perfume-product regeneration trial",
+      "summary":"Early ReGen posts pitch inferred ad prompts. Shizi now reports decomposing a perfume ad into character, shot, lighting and rhythm parameters, then regenerating it with another product. The output is not identical; models and outputs were not reviewed.",
+      "description":"At 00:46:21 Beijing time on October 28, 2026, an earlier candidate introduces ReGen as obtaining an ad prompt to remake it for another product. Earlier supplementary retrieval of Amy Hua (@wenyanhh) at 00:39:54 that day confirms a Chrome-extension pitch: infer prompts from visible ads on Instagram, Pinterest, X and other websites, then remake them. This is not reversing those platforms' clients or APIs, and 'extract' does not establish access to the actual original prompt.\n\nThe new candidate at 21:11:32 Beijing time on November 17, 2026 has Chaoji Geti | Shizi (@yaohui12138) introducing @frevana_ai's ReGen Agent App. The poster reports giving it a perfume ad with slow motion, lighting and liquid close-ups, receiving structured editable character, composition, lighting and shot-rhythm parameters within minutes, clicking Regenerate to enter the editor, substituting their own perfume and obtaining a new ad. Retrieval confirmed attribution and the full text, but the demonstration video, input, recipe and output were not reviewed.\n\nThe author acknowledges that it is not identical to the original, while personally judging visual tone, shot structure and rhythm close. They promote batch substitution of people, topics, products and languages, and claim image analysis, a Chrome extension and web drag-and-drop access. This adds a concrete usage report, not recovery of the original production process, unique prompt or filming technique, nor guaranteed advertising performance. Minutes, a conventional team's tens of thousands of yuan and dozens of daily outputs were not timed or cost-checked; no definite savings or returns are asserted.\n\nNo model, complete inference mechanism, controlled input/output comparison or reproducible test is available. The earlier extension and later Agent App are merged as same-named project accounts without assuming identical capabilities across versions. No extension was installed, ad uploaded or project run. Asset permission and REA use are unconfirmed; status remains unverified.",
+      "metadata":["October 28, 2026 earlier candidate snapshot: 28 likes, 3,321 views, 1 repost. Later lookup engagement does not replace it.","November 17, 2026 new sealed candidate: 87 likes, 11,358 views, 12 reposts, 58 replies. Snapshots are not summed; neither engagement nor effect claims are independent validation."],
+      "source_labels":["Earlier candidate: ReGen ad-prompt reconstruction introduction, October 28, 2026","Earlier supplement: Amy Hua's Chrome-extension post, October 28, 2026 at 00:39 Beijing time","Shizi's ReGen perfume-product substitution trial report, November 17, 2026 at 21:11:32 Beijing time"]
+    }
   },
   {
     "id": "rea-appllama-habit-tracker-swiftui-comparison",

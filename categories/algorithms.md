@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [吃播无痕取物怎么拍：Pamela用Codex和rea-video多轮分析仍失败](../cases/pamela-rea-video-codex-food-video-analysis-failure.md) — PamelaAI·H让Codex用rea-video拆吃播取物的无痕剪辑；文字解释、拍摄示意图与实物图来回多轮，仍没解决问题，作者称模型也承认未解析出制作方法。 **[其他 AI 逆向 · 分析测试]**
+- [COMSEC的IAI调查提案：用AI与逆向重建Agent行为，不预设事故归因](../cases/comsec-iai-agent-incident-reconstruction-proposal.md) — Ariel Garbarz署名提议以Inverse Artificial Intelligence结合AI与逆向调查系统行为；FAA、银行和诉讼只是提案语境，文中也承认不能建立共同攻击或OpenAI归因。 **[其他 AI 逆向 · 待验证]**
 - [REA-Prompts：由成品图片或文案推断提示的结构化模板项目](../cases/rea-prompts-image-copy-prompt-inference-tool.md) — 候选介绍REA-Prompts用结构化模板描述既有图片或文案，让模型推断提示并尝试重现；未核仓库、输入输出或提示恢复准确率，与REA软件工具的关联未确认。 **[其他 AI 逆向 · 相关项目]**
 - [把Rafale计算机交给Opus？AWACS Sky Keeper提出的未实施接口研究设想](../cases/awacs-rafale-opus-interface-research-idea.md) — AWACS Sky Keeper讨论Rafale技术转让，猜想Opus 5.5可研究未公开计算机接口；仅高层idea，无目标接入、数据、步骤或结果。 **[其他 AI 逆向 · 待验证]**
 - [从色卡反推富士LUT：雪人提出把既有测量流程交给AI自动化](../cases/fujifilm-color-chart-ai-lut-reconstruction-idea.md) — 雪人回忆固定灯光、色温和白平衡、多曝光拍色卡反推LUT的做法，提出有工作流就能由AI自动化；未报告自己实施或做出风格文件。 **[其他 AI 逆向 · 待验证]**
@@ -193,7 +195,7 @@
 - [Popularo／Captain Hook：作者用Claude Opus归纳社媒传播hook，网站已停托管](../cases/popularo-captain-hook-claude-social-patterns.md) — AudioNervousSys称与Claude Code／Opus共同逆向社媒及meme hook，做过Popularo和高级组件Captain Hook；无输入输出或效果测试。 **[其他 AI 逆向 · 待验证]**
 - [Seedance舞蹈视频提示重建：AI art gallery保留逐秒动作与不匹配限制](../cases/sandmrk-video-prompt-laugh-reconstruction.md) — sandmrk发布从视频反推的Seedance2.5逐秒舞蹈prompt，回复明确说生成不能完全匹配原视频、仍需优化。 **[其他 AI 逆向 · 进行中]**
 - [LLM文本水印：ETH／ICML2024研究的低成本逆向与伪造转述](../cases/eth-icml2024-llm-text-watermark-spoofing-report.md) — 候选称ETH研究者可低于50美元逆向常见分布式文本水印、伪造成功率逾80%；未取得原论文与实验条件。 **[未确认使用 REA · 待验证]**
-- [ReGen：从广告画面推断可重做提示词的Chrome扩展介绍](../cases/regen-ad-prompt-reconstruction-report.md) — 候选介绍ReGen为广告重建提示词；补查Amy Hua原帖确认Chrome扩展定位，但未证明恢复原始提示词或生成一致。 **[其他 AI 逆向 · 待验证]**
+- [ReGen：从广告推断可编辑配方，柿子报告香水换产品重生成](../cases/regen-ad-prompt-reconstruction-report.md) — ReGen早期介绍从广告推断提示；柿子新增香水广告试用自述，称拆出角色、镜头、灯光和节奏后换产品重生成，承认并非原片一致，未审输出或模型。 **[其他 AI 逆向 · 待验证]**
 - [Vitruvius别墅体素重建：作者称AI从蓝图与图片恢复建筑](../cases/voxel-vitruvius-villa-ai-blueprint-reconstruction.md) — 作者在自研C引擎中报告模拟Vitruvius按蓝图与图片重建别墅，称接近一比一；不是Minecraft源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [本机安全工具对照：作者称4模型360次零拒绝，固件检查正确性未明](../cases/four-model-local-security-refusal-cost-test.md) — 作者在自有机器用4模型跑6类安全任务，称360次零拒绝、花1.48美元；包括路由器固件检查，但无任务成功率。 **[其他 AI 逆向 · 分析测试]**
 - [digital-human-koubo：从25个创作者视频归纳口播包装组件](../cases/digital-human-koubo-video-packaging-reconstruction.md) — 项目汇总称digital-human-koubo把照片与一句话变成AI口播视频，含从25视频重建的48包装组件与5剪辑风格。 **[其他 AI 逆向 · 待验证]**

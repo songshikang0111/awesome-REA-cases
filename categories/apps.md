@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Proteus作业变成格式研究：Arpit以.pdsprj为Claude接入原理图](../cases/arpit-proteus-pdsprj-mcp-project-research.md) — Arpit为大学作业研究未文档化.pdsprj，称proteus-mcp让Claude读原理图、追连线、改参数与生成BOM；放元件布线仍待做，无头模拟不返回波形。 **[其他 AI 逆向 · 进行中]**
+- [zniff：Rust抓包工具以MCP让Claude和Cursor查流、重放与改规则](../cases/zniff-rust-mcp-http-traffic-research-tool.md) — vicanso发布基于Rust／NSH的HTTP(S)抓包调试工具，称内置MCP可让Claude／Cursor研究请求、重放并修改规则；协议与解码能力尚未实测。 **[其他 AI 逆向 · 相关项目]**
+- [云端agy研究竞品，再给Claude报告：niko的REA异步分工](../cases/niko-agy-rea-competitor-research-claude-handoff.md) — niko自述让云端agy借REA静态与动态研究多个竞品，产出报告再交Claude；不适合作主力、速度期待低，竞品与结果未公开。 **[REA · 进行中]**
+- [为AI反编译仓库建站：Hetzer提出的托管idea，不是已上线服务](../cases/ai-decompiled-software-repository-hosting-idea.md) — Hetzer建议盗版服务经营者托管AI反编译软件仓库及违反ToS的mod；未指名软件、站点或实现，不采纳其规避法律主张。 **[其他 AI 逆向 · 待验证]**
+- [EffectCraft配Claude剪视频：matt称以NumPy／OpenCV走After Effects式流程](../cases/effectcraft-claude-python-video-editing-report.md) — matt称用Claude编辑视频、Treg生图，再用EffectCraft里的NumPy／OpenCV处理；将工具称作逆向的After Effects，但未提供内部机制或兼容性证据。 **[其他 AI 逆向 · 待验证]**
+- [红果短剧电视客户端：IAMAI提出用REA研究后按个人需求重建](../cases/hongguo-rea-tv-client-reconstruction-idea.md) — IAMAI建议用REA反编译红果短剧，让AI按用户想要的样子做电视客户端；尚无实现或兼容证据，区别于既有手机端去广告案例。 **[REA · 待验证]**
+- [Grokee督促承诺事项：Gagan称Grok团队逆向了一款生产力应用](../cases/gagan-grokee-productivity-followup-app-reconstruction.md) — Gagan称16个Grok Bot分工、Linear定任务、Mac上的Codex构建并共享GitHub上下文；其中还逆向了督促自己完成承诺事项的应用，名称和结果未公开。 **[其他 AI 逆向 · 待验证]**
+- [Cybercab接Grokbot：Micah想找MCP或Claude skill，尚未开始构建](../cases/cybercab-grokbot-mcp-skill-integration-idea.md) — Micah Berkley想将Cybercab／Robotaxi接入Grokbot，未找到MCP或Claude skill，发帖询问并标记REA；未报告协议研究、叫车或车辆控制。 **[REA · 待验证]**
 - [OpenMotion：把参考宣传片拆成MOTION.md，供Agent换素材重建与继续编辑](../cases/openmotion-ai-video-reference-reconstruction-project.md) — Tom Huang宣布OpenMotion，将参考宣传片的镜头、文字节奏、转场和声音写成Agent规范，以模板和可编辑工程重建；95%还原、14天47万行及资源数量均为未复测的作者宣称。 **[其他 AI 逆向 · 待验证]**
 - [Stride主动安全研究：演讲转录称AI反编译已上线程序，尚无逐项目验证记录](../cases/solana-stride-ai-deployed-program-audit-report.md) — 黑柴整理Michael Coates的Solana安全演讲，称Stride框架结合形式验证、fuzzing和AI扫描，并以AI反编译已上线程序先找漏洞；500万美元潜在损失为演讲归因，不是已核收益。 **[其他 AI 逆向 · 待验证]**
 - [远程公司的服务都接CLI：ImL1s提出REA加CLI Anything桥接IM的idea](../cases/iml1s-rea-company-services-im-cli-idea.md) — ImL1s提出进入全远程新公司后，把所用服务包括IM做成CLI接入AI Agent，点名REA与CLI Anything；未报告实施范围、授权、代码或运行结果。 **[REA · 待验证]**
