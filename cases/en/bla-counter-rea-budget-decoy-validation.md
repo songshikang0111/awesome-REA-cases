@@ -1,7 +1,7 @@
 # BLA versus REA: public decoy and resource-budget tests, not a guarantee against reversing
 
 Category: Applications and clients · REA
-Record date: 2026-11-10
+Record date: 2026-11-17
 Stage: Analysis test
 
 At 15:45:00 Beijing time on October 29, 2026, 0xMarioNawfal (@RoundtableSpace) introduces BLA (Blind LLM Agents), claiming decoys and resource-consuming structures in release artifacts make REA fail or exceed budgets while preserving user behavior. npm metadata maps bla-agents to qybaihe/bla. This defends one's own software, not reconstructing a third-party application.
@@ -18,6 +18,7 @@ Earlier candidate: 10 likes, 10,035 views, 1 repost; November 1: 1 like, 457 vie
 Bounded sample analyzer paths; token/cost multipliers are estimates, not independently rerun.
 The October 27 report does not validate 3.0.0. November 7 candidate: 2 likes, 663 views, 1 repost.
 November 10 sealed additions respectively: 0 likes/15 views/0 reposts and 0 likes/7 views/0 reposts. Size and screenshot routes were not retested.
+The three-tool introduction at 14:13:10 Beijing time on November 17 warns of a pre-3.2.1 verify bug accepting broken files and recommends updating. Token costs are self-reported and hardening adds friction, not impossibility. This is a retelling; no corresponding repair commit or old/new validator rerun was checked, so the promotional promise of unchanged user behavior does not establish equivalence. Sealed candidate: 50 likes, 1,405 views, 10 reposts, 9 replies. Its Cloudflare section repeats the existing workflow; TruffleHog secret scanning is not a separate AI-reversing case.
 
 ## Sources
 
@@ -29,5 +30,6 @@ November 10 sealed additions respectively: 0 likes/15 views/0 reposts and 0 like
 - [KitPloit's bla-agents-3.0.0 introduction, November 7 at 10:40:42 Beijing time](https://x.com/i/status/2118896395687981497)
 - [New account: 607 B to 16.9 MiB and fake-credential review risks, November 10 at 01:55:31 Beijing time](https://x.com/i/status/2119851392353345740)
 - [New account: 17MB errors and screenshot-driven agent limits, November 10 at 03:15:20 Beijing time](https://x.com/i/status/2119871480838148149)
+- [Account of pre-3.2.1 verify accepting broken files and protection limits, November 17 at 14:13:10 Beijing time](https://x.com/i/status/2122573741725270445)
 
 [中文](../bla-counter-rea-budget-decoy-validation.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

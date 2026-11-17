@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [把Rafale计算机交给Opus？AWACS Sky Keeper提出的未实施接口研究设想](../cases/awacs-rafale-opus-interface-research-idea.md) — AWACS Sky Keeper讨论Rafale技术转让，猜想Opus 5.5可研究未公开计算机接口；仅高层idea，无目标接入、数据、步骤或结果。 **[其他 AI 逆向 · 待验证]**
 - [从色卡反推富士LUT：雪人提出把既有测量流程交给AI自动化](../cases/fujifilm-color-chart-ai-lut-reconstruction-idea.md) — 雪人回忆固定灯光、色温和白平衡、多曝光拍色卡反推LUT的做法，提出有工作流就能由AI自动化；未报告自己实施或做出风格文件。 **[其他 AI 逆向 · 待验证]**
 - [Higgsfield增长地图：Monid称Claude配Search1API用0.07美元重建事件时间线](../cases/monid-claude-higgsfield-growth-timeline-report.md) — Monid推广Claude研究Higgsfield增长路径，将免费活动、创作者推广、搜索页与融资放在一条时间线，自称0.07美元；是合作推广，未审结果。 **[其他 AI 逆向 · 待验证]**
 - [星舰捕获视频到Three.js：Mollick公开Fable／Opus提示与估算边界](../cases/mollick-starship-catch-video-threejs-reconstruction-report.md) — Mollick公开让Opus 5.5与Fable 5.2从星舰捕获视频重建约40秒Three.js场景、切换视角和同步回放的提示；几何多为估算，未用SpaceX工程图，未运行核验。 **[其他 AI 逆向 · 待验证]**

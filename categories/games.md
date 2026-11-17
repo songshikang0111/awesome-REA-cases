@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [SM64、Animal Crossing与小马：Anonny受AI逆向潮启发的游戏idea](../cases/anonny-sm64-animal-crossing-ponies-ai-idea.md) — Anonny想把SM64改造成Animal Crossing式、带小马的游戏，受AI逆向与跨游戏Mod启发，但因费用仍犹豫，未报告开工。 **[其他 AI 逆向 · 待验证]**
 - [OpenConche：AI参与研究四款Chocolatier游戏，以新引擎运行原始资产](../cases/openconche-chocolatier-ai-engine-reimplementation.md) — OpenConche文档称几周AI驱动研究原二进制与脚本，以C++20／SDL3重建四款巧克力经营游戏引擎；可读研究记录与自备资产要求已核，运行未复现。 **[其他 AI 逆向 · 待验证]**
 - [Spider-Man可见玩法到游戏：cranger报告Grok／Claude／ChatGPT分工与返修](../cases/cranger-spiderman-observable-mechanics-ai-team-report.md) — cranger称Grok研究参考玩法，Claude写可测需求和依赖，ChatGPT实现移动、摆荡与落地，人工反复试玩后完成；超过一周及1000美元以上token费未审计。 **[其他 AI 逆向 · 待验证]**
 - [Warzone 2100浏览器遭遇战：AGENC称REA配DeepSeek低峰约0.64美元](../cases/agenc-core-rea-deepseek-warzone2100-browser-skirmish-report.md) — AGENC宣传AgenC Core 0.19.36与DeepSeek／REA，称做出可玩的Warzone 2100浏览器遭遇战、低峰约0.64美元；未给源码、构建与计费记录。 **[REA · 待验证]**

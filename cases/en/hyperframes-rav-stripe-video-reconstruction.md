@@ -1,7 +1,7 @@
 # HyperFrames RAV: a Stripe rebuild claim and a 20-video competitor comparison
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-07
+Record date: 2026-11-17
 Stage: Needs verification
 
 At 02:41:49 Beijing time on November 5, 2026, Miguel Ángel (@Miguel07Code) says morluto's REA inspired RAV, or /reverse-any-video, released with HyperFrames, supplies a skill-update command and claims a full one-shot Stripe launch-video rebuild. This reconstructs reference-video structure and appearance, not software binaries. Open source remains an author claim: a confirmed source location, license, skill text, original inputs, prompts, generation records and per-shot comparisons were not obtained, and the video was not watched. One shot does not establish no preparation, editing or retries, nor recovery of original prompts, music or assets.
@@ -18,6 +18,7 @@ November 7 at 17:25 sealed candidate: 3 likes, 262 views, 0 reposts. The $25 mon
 November 5 sealed snapshot: 11 likes, 627 views, 2 reposts. Open source and one shot are author claims, not source/output checks.
 Earlier November 7 candidate: 2 likes, 42 views, 0 reposts. Twenty films, 108 cuts, precision, timings and SSIM are competitor reports, not tests rerun here.
 At 10:12:50 Beijing time on November 7, James Russo (@Rames_Jusso) recommends HyperFrames for video reversal/remixing and claims their evaluation beat REA-VIDEO in every dimension. Retrieval confirms attribution, not revisions, samples, metric tables or raw results for that post; it is not treated as a new independent experiment. The earlier detailed comparison explicitly concedes slightly faster, cheaper REA-VIDEO remakes, so the blanket promotional claim does not supersede that limit. Sealed candidate: 6 likes, 390 views, 0 reposts.
+The November 17, 12:25 account says the current guide reconstructs text, captions, cards and UI in HTML, measures cuts and compares frames. It proposes a short owned launch-video test of timing, typography and a teammate's ability to change a headline. The introducer explicitly did not benchmark competitors; Reverse requires Pro, and some shots need generated assets or reshoots. Costs and rights need review before client delivery. No guide, project or comparison was obtained here; this is advice, not completed client work. Sealed candidate: 1 like, 56 views, 0 reposts, 0 replies.
 
 ## Sources
 
@@ -25,5 +26,6 @@ At 10:12:50 Beijing time on November 7, James Russo (@Rames_Jusso) recommends Hy
 - [Miao Yang's reverse-any-video versus REA-VIDEO tests, November 7, 2026 at 03:41:51 Beijing time](https://x.com/i/status/2118790987875221905)
 - [James Russo's across-the-board superiority claim, November 7, 2026 at 10:12:50 Beijing time](https://x.com/i/status/2118889384162525495)
 - [Retelling comparing two video tools' uses and Pro pricing, November 7, 2026 at 17:25:17 Beijing time](https://x.com/i/status/2118998213474529750)
+- [HTML reconstruction and client-handoff test proposal, November 17 at 12:25:00 Beijing time](https://x.com/i/status/2122546520947937545)
 
 [中文](../hyperframes-rav-stripe-video-reconstruction.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

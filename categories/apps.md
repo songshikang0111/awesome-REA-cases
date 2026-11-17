@@ -2,7 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
-- [Windows 11编码工具遥测：AI辅助追踪MissionControlAggregator的二手报告](../cases/windows-missioncontrol-ai-coding-agent-telemetry-analysis.md) — 本轮报道指Xusheng Li借AI分析Windows DLL，追踪编码Agent识别与诊断位图；部分报道限定一台美国区ARM64虚拟机，未独立核查上传与控制效果。 **[其他 AI 逆向 · 待验证]**
+- [番茄小说与短剧接入DSH：昕月喵称5.6sol时期研究字节系签名头](../cases/selinameowbot-dsh-bytedance-signature-plugin-report.md) — 昕月喵-2.0 Pro称其‘老婆’研究字节系六神签名头并用插件接入DSH，供一起看番茄小说和短剧；提到5.6sol与Codex账号，未提供实现或兼容测试。 **[其他 AI 逆向 · 待验证]**
+- [X账号交给AI：Jolinfilling称DeepSeek五分钟完成一次逆向尝试](../cases/jolinfilling-deepseek-x-ai-account-management-report.md) — Jolinfilling称DeepSeek五分钟‘把x逆向完了’并启动AI托管；串内续称持续互动，没有接口、代码或操作日志，不扩大为全平台逆向。 **[其他 AI 逆向 · 待验证]**
+- [agy调用能否完整研究：Glowin向AI逆向工具提出的具体问题](../cases/glowin-agy-call-interface-ai-reversing-question.md) — Glowin问为何已有这么多AI逆向工具，仍没人完整研究agy调用；只收录为接口研究问题，不确认无人完成或作者已开展。 **[其他 AI 逆向 · 待验证]**
+- [AWS AI-DLC：从单体共享变量重建规格，用故障注入检查数据流](../cases/aws-ai-dlc-monolith-io-matrix-reconstruction-method.md) — Eunhye Jo在AWS技术博客用虚构的10阶段C订单程序演示：AST提取读写矩阵，MCP向Agent提供数据流，再生成规格与测试；报告两类注入缺陷被检出，非真实客户迁移或独立复测。 **[其他 AI 逆向 · 相关项目]**
+- [Veltic按需云资源：Paweł以Claude旧游戏私服研究为背景介绍Agent桥接](../cases/pawel-veltic-agent-infrastructure-reversing-workflow.md) — Paweł说本地多Claude任务含旧游戏私服逆向，促使他做Veltic云基础设施桥接；报告Opus在Fly.io、Runpod与Hetzner调度，开源仍是计划。 **[其他 AI 逆向 · 相关项目]**
+- [Windows 11编码工具遥测：AI辅助追踪MissionControlAggregator的二手报告](../cases/windows-missioncontrol-ai-coding-agent-telemetry-analysis.md) — 报道指Xusheng Li借AI分析Windows DLL；后续补充cmd.exe改名识别、build 26200.9974与上传队列，公共ISO基线默认关闭，队列不等于服务器已收到。 **[其他 AI 逆向 · 待验证]**
 - [Last Book到家庭Notion：JanCarlos让Grok Bot按自家情况重建准备资料](../cases/clarityx-last-book-grok-notion-family-reconstruction.md) — JanCarlos因缺少硬件，把Last Book网站和自己的准备理念交给Grok Bot，在家庭Notion库重建替代资料；导出PDF和离线AI使用仍是计划。 **[其他 AI 逆向 · 进行中]**
 - [易盾应对AI游戏逆向：网易智企提出隐藏、复杂化与诱导监测三层防御](../cases/netease-yidun-ai-reversing-three-layer-defense-proposal.md) — 网易智企介绍易盾针对AI辅助游戏代码还原的三层保护思路，没有具体游戏、实现、模型或对照实验；以相关防御方案而非已证实效果收录。 **[未确认使用 REA · 相关项目]**
 - [WardenStealer给分析AI的法律威吓：Cipher0k转述Invoke RE观察](../cases/wardenstealer-anti-ai-legal-note-secondary-report.md) — Cipher0k转述Invoke RE称WardenStealer对分析AI宣称逆向违法；这是具名反AI分析提示的二手线索，没有样本或模型拒绝证据。 **[未确认使用 REA · 待验证]**
@@ -290,7 +295,7 @@
 - [营销版REA：Kev称用竞品链接让Claude拆解营销](../cases/kevbuildsapps-claude-competitor-marketing-teardown.md) — Kev Builds Apps称做了营销方向的reverse engineer anything，让Claude分析竞品链接；没有具体竞品、输出或准确率，不是已确认的软件反编译器。 **[其他 AI 逆向 · 相关项目]**
 - [Discord新客户端mod想法：社区预期用AI研究Rust版再做插件](../cases/discord-rust-client-ai-reversing-mods-idea.md) — 围绕Discord新客户端的社区消息，读者预期AI恢复mod能力；新增具体idea以Claude监听版本发布、反编译重映射、打补丁并跑测试，尚非已运行维护系统。 **[其他 AI 逆向 · 待验证]**
 - [AIUP的PetClinic示例：从旧代码恢复用例规格，再渐进维护](../cases/aiup-spring-petclinic-brownfield-spec-recovery.md) — Simon Martinelli为AI Unified Process加入brownfield流程，称Spring PetClinic有逆向后start分支与实现测试后的main；微型示例不证明遗留系统语义完整恢复。 **[其他 AI 逆向 · 相关项目]**
-- [HyperFrames RAV：Stripe重建自述与20片竞争工具比较](../cases/hyperframes-rav-stripe-video-reconstruction.md) — HyperFrames的Stripe与20片比较均为来源自述，REA-VIDEO重做速度／费用让步仍保留；新比较称可编辑工程与Pro月费25美元，未核官方套餐或成片。 **[其他 AI 逆向 · 待验证]**
+- [HyperFrames RAV：Stripe重建自述与20片竞争工具比较](../cases/hyperframes-rav-stripe-video-reconstruction.md) — HyperFrames的Stripe与20片比较仍为来源自述，REA-VIDEO重做略快且便宜的让步保留；后续介绍建议以自有发布片检查HTML可编辑性、时序与字体，并提醒Pro和素材成本。 **[其他 AI 逆向 · 待验证]**
 - [Harvey法律AI替代：Theo转述免费重建新闻稿，完整能力尚未证实](../cases/harvey-legal-ai-free-reimplementation-press-release-report.md) — Theo称有开发者逆向Harvey并免费公开替代品，但未命名实现、给源码或法律任务测试；估值／融资混用，不采纳110亿美元为已核验事实。 **[未确认使用 REA · 待验证]**
 - [AI-native OS想法：Dax提出逆向系统应用，再统一接入Agent](../cases/dax-system-app-agent-ai-native-os-idea.md) — Dax设想把系统应用逆向并接入Agent；后续帖子举高德交通API动态安排起床时间的场景。尚无平台、接口或实现，不是可用OS。 **[未确认使用 REA · 待验证]**
 - [Voyager扩展本地重建：Grok Bot五角色静态审计后仍遇滚动故障](../cases/voyager-grokbot-rea-local-extension-rebuild.md) — Francesco Faenzi报告Grok Bot指挥REA角色家族分析Voyager2.2.1并移除云端依赖；首轮97.5%为作者口径，第二轮滚动仍失败，未独立审计安全性。 **[未确认使用 REA · 进行中]**
@@ -485,7 +490,7 @@
 - [capcut-cli：剪映草稿结构与本地Whisper字幕流水线的转述](../cases/capcut-cli-draft-whisper-secondary-report.md) — 一则项目推荐称capcut-cli直接组装剪映原生草稿与字幕轨，再交官方界面精修；存在多个同名仓库，尚未可靠归属，性能与功能覆盖未核验。 **[未确认使用 REA · 待验证]**
 - [未具名公司SaaS：Jason fengg报告线下委托逆向重建并小额获利](../cases/jasonfeng-unnamed-company-saas-reconstruction-report.md) — Jason fengg在AI业务复盘中称给一家公司逆向做了SaaS并赚一点；没有原产品、功能、模型或验收细节，属于简短项目自述。 **[其他 AI 逆向 · 待验证]**
 - [Claude本地身份与遥测：stormzhang的客户端逆向线索，不是服务端封号还原](../cases/stormzhang-claude-local-identity-telemetry-analysis.md) — stormzhang称研究Claude本地代码，列账号/设备标识、失败遥测重试、配置备份与凭据存储；承认服务端黑盒，未证明标识与封号因果，也未说明AI辅助。 **[未确认使用 REA · 相关项目]**
-- [BLA对抗REA：公开诱饵与预算边界测试，不是不可逆向保证](../cases/bla-counter-rea-budget-decoy-validation.md) — BLA公开部分REA分析器预算错误；新转述补充607 B变16.9 MiB、假凭据审查风险与截图Agent不受该路径限制，仍非端到端保护证明。 **[REA · 分析测试]**
+- [BLA对抗REA：公开诱饵与预算边界测试，不是不可逆向保证](../cases/bla-counter-rea-budget-decoy-validation.md) — BLA公开部分REA分析器预算错误；后续转述提醒3.2.1前verify会把坏文件判为通过，token成本仍为自报。保留体积、假凭据及截图路径限制，不保证保护或行为等价。 **[REA · 分析测试]**
 - [Rustify：用REA证据、产品规格与分片验证组织二进制到Rust重建](../cases/rustify-rea-binary-to-rust-agent-skills.md) — Runchao Han介绍Rustify跨Agent重建工作流，又提出用REA执行轨迹验证保真度；规格、Rust实现与缺口台账公开，但完整产品等价与轨迹验证仍需目标实测。 **[REA · 进行中]**
 - [REA/IDA双Agent隔离：规划者只接规格，专员保留原始分析的提案](../cases/annabel-rea-ida-dual-agent-isolation-proposal.md) — Annabel等提出分离规划者与REA/IDA专员；Cloud Whisperer另报告IDA片段受限和本地模型复杂推理不足。均未给受控对照，不能保证隔离或账号安全。 **[REA · 待验证]**
 - [Claude Code状态摘要：遥测成本研究与Bun定时器拦截的转述](../cases/claude-code-agent-summary-telemetry-timer-research.md) — 爆裂队长NEXT转述Flamerix的agent_summary成本与非官方Bun钩子；公开issue支持一次四小时会话及bundle分析，不证明所有用户成本相同，也未说明研究是否由AI辅助。 **[未确认使用 REA · 相关项目]**

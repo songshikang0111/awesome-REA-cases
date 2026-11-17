@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [31张SEM照片重建流片形貌：CosmosMind硅光工艺反馈的报道](../cases/cosmosmind-sem-chip-as-built-geometry-reconstruction-report.md) — 署名编辑李希的报道说CosmosMind系统从31张电镜照片提取刻蚀边缘、重建三维形貌并校准35B工艺模型；这是制造实物到数字几何的重建自述，未审照片或量测。 **[其他 AI 逆向 · 待验证]**
 - [DDR3控制器内部跟踪：Kenta IDA称Claude自行用trace调查故障](../cases/claude-ddr3-controller-internal-trace-debug-report.md) — Kenta IDA报告自制高速内部状态跟踪工具很快用于DDR3控制器故障调查，Claude自行读取trace；未给根因、修复或测试日志。 **[其他 AI 逆向 · 待验证]**
 - [SkyOC复活尝试：Hardware 360º称GPT Astra对比BIOS并修改，尚待测试](../cases/hardware360-gpt-astra-skyoc-bios-restoration-attempt.md) — Hardware 360º称GPT Astra比较华擎移除SkyOC前后BIOS，找到代码并修改自己的主板BIOS；作者明确仍待验证，没有新超频或性能结果。 **[其他 AI 逆向 · 进行中]**
 - [单DIN卡车收音机：Daniel Cook称LLM模拟固件，GLM 5.3数小时得到Hello World](../cases/daniel-cook-single-din-radio-qemu-glm53-report.md) — Daniel Cook报告让LLM在QEMU模拟自有廉价卡车收音机固件，再让GLM 5.3找缓冲区溢出并利用，几小时得到Hello World；未审代码或实机结果。 **[其他 AI 逆向 · 待验证]**
@@ -500,7 +501,7 @@
 - [Cricut 刻字机：用 AI 研究导入尺寸失真的修复 idea](../cases/cricut-ai-import-scaling-fix-idea.md) — Pipe42uk建议AI逆向解决刻字机UI问题；父帖明确Cricut导入会乱缩放、需每次添加尺寸基准，尚无修复。 **[其他 AI 逆向 · 待验证]**
 - [Roku OS 电视：REA 映射网络路由，再发送控制请求的自述](../cases/roku-tv-rea-network-route-control.md) — greco_dev称Roku电视控制已可用，同时明确这不是真正反编译：定位局域网IP，用REA映射路由后发请求。 **[REA · 待验证]**
 - [自有扫地机器人：让 Claude Code 检查远程窥视证据的调查提示词](../cases/robot-vacuum-claude-privacy-audit-prompt.md) — tezzarc给出从照片识别型号、核对摄像头权限与账户分享、查异常访问的具体流程；不是发现机器人被入侵的报告。 **[其他 AI 逆向 · 待验证]**
-- [M-VAVE FM-1：AI 固件玩法与价格变化的读者转述](../cases/mvave-fm1-ai-firmware-reader-report.md) — 早期FM-1价格观察新增社区固件两周45至154的转述；链接视频标题确认FM-1，但未核固件目录、AI分工、厂商开放范围或音频效果。 **[其他 AI 逆向 · 待验证]**
+- [M-VAVE FM-1：AI 固件玩法与价格变化的读者转述](../cases/mvave-fm1-ai-firmware-reader-report.md) — FM-1社区AI固件报告新增杰理资料稀缺、周末重建工具链及GPLv3开放的转述；保留两周45至154的未审计数字，未核厂商时间线、许可或音频效果。 **[其他 AI 逆向 · 待验证]**
 - [webOS 电视侧载 APK：平台表述仍待核实的 REA 改造自述](../cases/webos-rea-apk-sideload-claim.md) — Devcop101称用REA给webOS侧载APK并移除预装软件；APK与平台组合可疑，没有型号或日志佐证。 **[REA · 待验证]**
 - [MagicSwipe：Opus 研究 Magic Mouse，让 iPad 通用控制支持手势](../cases/magic-mouse-ipad-opus-virtual-hid.md) — saikumar公开MagicSwipe，以私有触摸接口和Karabiner虚拟HID把双指手势转成iPad快捷键；仅项目报告实机测试。 **[其他 AI 逆向 · 进行中]**
 - [Fuji 相机：逆向 App 后让 Claude 上传胶片模拟设置](../cases/fuji-claude-film-settings-upload.md) — max称研究Fuji应用后自动选择并上传胶片设置、筛选拍摄照片，另称已开源；仓库与实机结果尚未核实。 **[其他 AI 逆向 · 待验证]**

@@ -6,11 +6,11 @@
 
 ### Explore software and hardware with AI.
 
-A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, app rebuilding and game preservation—including failed attempts and author corrections.
+A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2376 cases & projects
+# 2384 cases & projects
 
-**Latest case update:** November 17, 2026, 12:11 · **Last maintained:** November 17, 2026, 12:11 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 17, 2026, 20:12 · **Last maintained:** November 17, 2026, 20:12 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -25,7 +25,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 **10 worth reading**: recover a compiler, regain device control, preserve a game, or audit a binary. Look for working references, repair loops and explicit limits—not promises of effortless automation. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
-2. **[Minimal Phone MP01: move E-ink control from FPGA to GPU](cases/en/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md)** · `2026-11-16` author report — Josef Prusa reports **FPGA research, GPU pixel control and 63 'fps' Doom/Sonic demos**. He links the work to AI agents but leaves their tasks unspecified; no complete Android release, code or hardware test here. `In progress`
+2. **[AWS AI-DLC: preserve the coupon, not just the syntax](cases/en/aws-ai-dlc-monolith-io-matrix-reconstruction-method.md)** · `2026-11-17` author article — **AST-derived data flows guide AI specifications and generated tests** for a ten-stage C order example. Injected stale-payment and missing-input defects reportedly fail checks; a fictional example, not a customer migration. Article read, not rerun here. `Method demo`
 3. **[Fujifilm X half: camera to Mac without the phone](cases/en/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12` author report — **Opus reportedly identifies Bluetooth/Wi-Fi differences** for JPEG imports and Google Photos uploads. Incremental camera tests, not an iteration-free build; code and traces unchecked here. `Unverified here`
 4. **[Horizon: Minecraft Java behavior, rebuilt in Rust](cases/en/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16` report and pinned docs — **AI-assisted reconstruction with 281 reported differential harnesses**, existing saves and vanilla multiplayer. Public docs and a Codex-credited commit were read, not the full test results; performance claims are hardware-specific. Own game required; not built here. `In progress`
 5. **[Fallout Van Buren: six years of research meet REA](cases/en/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14` author thread — Kran credits **manual research, shenmarukai's decompilation and an IDA database**, not a from-zero agent. DX9 migration is reported; 64-bit remains a goal for this tech demo, not a complete game. Not built here. `In progress`
@@ -49,10 +49,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **467** |
-| [Hardware & interoperability](categories/en/hardware.md) | **638** |
-| [Applications & clients](categories/en/apps.md) | **986** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **285** |
+| [Games & preservation](categories/en/games.md) | **468** |
+| [Hardware & interoperability](categories/en/hardware.md) | **639** |
+| [Applications & clients](categories/en/apps.md) | **991** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **286** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

@@ -6,11 +6,11 @@
 
 ### 用 AI 读懂软件与硬件。
 
-精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
+精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2376 个案例与项目
+# 2384 个案例与项目
 
-**最近案例更新：**2026 年 11 月 17 日 12:11 · **最近维护：**2026 年 11 月 17 日 12:11 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 17 日 20:12 · **最近维护：**2026 年 11 月 17 日 20:12 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -25,7 +25,7 @@
 **10 个值得读的案例**：重建编译器，拿回设备控制权，保存游戏，或审计二进制；看参考对照、返修过程与明确限制，不信毫不费力的自动化承诺。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
-2. **[Minimal Phone MP01：电子墨水控制从FPGA移到GPU](cases/josef-prusa-mp01-eink-fpga-gpu-63hz-report.md)** · `2026-11-16`作者报告 — Josef Prusa报告**FPGA研究、GPU像素控制及63‘fps’的Doom／Sonic演示**。他联系到AI Agent，但未说明任务分工；没有完整Android发布，本合集未审代码或实机测试。`进行中`
+2. **[AWS AI-DLC：别只改语法，把优惠券也保留下来](cases/aws-ai-dlc-monolith-io-matrix-reconstruction-method.md)** · `2026-11-17`作者文章 — **AST数据流辅助AI写规格与生成测试**，演示十阶段C订单程序。作者报告旧金额、隐藏输入缺失两类注入缺陷被检出；虚构示例，不是真实客户迁移。已读全文，未复跑。`方法演示`
 3. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙／Wi-Fi差异**，做出JPEG导入和Google Photos上传。逐步实机试验，不是无迭代生成；代码与抓包未审。`未独立核验`
 4. **[Horizon：用Rust重建Minecraft Java行为](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16`介绍与固定文档 — **AI辅助重建，自报281套差分测试**，可读旧存档、连原版服务器。已读公开文档与Codex署名提交，未审完整测试结果；性能宣称有硬件条件。自备游戏，本合集未构建。`进行中`
 5. **[Fallout Van Buren：把六年研究交给REA](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14`作者串 — Kran归功于**人工研究、shenmarukai反编译与IDA数据库**，不是Agent从零发现。已报告DX9迁移，64位仍是技术演示的目标，不是完整游戏。本合集未构建。`进行中`
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **467** |
-| [硬件与设备互通](categories/hardware.md) | **638** |
-| [应用与客户端](categories/apps.md) | **986** |
-| [算法与功能重建](categories/algorithms.md) | **285** |
+| [游戏与游戏保存](categories/games.md) | **468** |
+| [硬件与设备互通](categories/hardware.md) | **639** |
+| [应用与客户端](categories/apps.md) | **991** |
+| [算法与功能重建](categories/algorithms.md) | **286** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

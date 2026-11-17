@@ -12,6 +12,7 @@ Supplementary retrieval found Crackmes.one (@CrackmesOne) at 10:00:25 Beijing ti
 
 November 17 sealed candidates: 08:06 post, 1 like/53 views; 09:39 post, 0 likes/210 views. Engagement does not verify system behavior.
 The November 16 supplementary post had 3,087 likes, 110,211 views, 388 reposts and 111 replies when read on November 17. It is not a new-window candidate or independent verification.
+November 17 at 12:56:48: copying cmd.exe and renaming it codex.exe reportedly records Codex; the component subscribes to process events rather than enumerating processes and stores data in AggregatorStorage under ProgramData. The 14:35:47 account limits testing to an ARM64 VM, build 26200.9974, enabled there but disabled in a fresh public-ISO installation; allowing optional diagnostics reportedly puts the report in DiagTrack's upload queue. The 15:18:58 account distinguishes queuing from server receipt and from scanning every installed application. None was independently rerun, and the 12:56 post's extrapolation from US diagnostic defaults does not override feature-flag limits. The three sealed sources respectively have 0 likes/69 views, 28 likes/1,448 views and 3 likes/41 views.
 
 ## Sources
 
@@ -21,5 +22,8 @@ The November 16 supplementary post had 3,087 likes, 110,211 views, 388 reposts a
 - [US-region ARM64 VM and open questions, November 17 at 11:45:34 Beijing time](https://x.com/i/status/2122536597468090824)
 - [Secondary account of default-off state and server-side experiments, November 17 at 11:50:35 Beijing time](https://x.com/i/status/2122537858808557839)
 - [Pre-window supplement: Crackmes.one reports ETW bitsets in build 26200.9974, November 16 at 10:00:25 Beijing time](https://x.com/i/status/2122147747390468384)
+- [Renaming and process-event account, November 17 at 12:56:48 Beijing time](https://x.com/i/status/2122554525169205463)
+- [Build 26200.9974, public ISO and upload-queue account, November 17 at 14:35:47 Beijing time](https://x.com/i/status/2122579434934874409)
+- [Account distinguishing queuing from server receipt, November 17 at 15:18:58 Beijing time](https://x.com/i/status/2122590301357531552)
 
 [中文](../windows-missioncontrol-ai-coding-agent-telemetry-analysis.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)
