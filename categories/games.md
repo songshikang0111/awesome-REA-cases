@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [OpenConche：AI参与研究四款Chocolatier游戏，以新引擎运行原始资产](../cases/openconche-chocolatier-ai-engine-reimplementation.md) — OpenConche文档称几周AI驱动研究原二进制与脚本，以C++20／SDL3重建四款巧克力经营游戏引擎；可读研究记录与自备资产要求已核，运行未复现。 **[其他 AI 逆向 · 待验证]**
 - [Spider-Man可见玩法到游戏：cranger报告Grok／Claude／ChatGPT分工与返修](../cases/cranger-spiderman-observable-mechanics-ai-team-report.md) — cranger称Grok研究参考玩法，Claude写可测需求和依赖，ChatGPT实现移动、摆荡与落地，人工反复试玩后完成；超过一周及1000美元以上token费未审计。 **[其他 AI 逆向 · 待验证]**
 - [Warzone 2100浏览器遭遇战：AGENC称REA配DeepSeek低峰约0.64美元](../cases/agenc-core-rea-deepseek-warzone2100-browser-skirmish-report.md) — AGENC宣传AgenC Core 0.19.36与DeepSeek／REA，称做出可玩的Warzone 2100浏览器遭遇战、低峰约0.64美元；未给源码、构建与计费记录。 **[REA · 待验证]**
 - [Zelda TotK局部研究：Épice de Pain称两天前用Claude逆向了一点](../cases/claude-zelda-totk-partial-reversing-author-report.md) — Épice de Pain在模型拒绝讨论中自述两天前用Claude逆向了一部分《塞尔达传说：王国之泪》；没有具体子系统、代码或结果，不是PC移植证明。 **[其他 AI 逆向 · 进行中]**
@@ -10,7 +11,7 @@
 - [Worms 2变实时联机：alikim.eth报告REA／Claude Code童年游戏改造](../cases/alikim-worms2-rea-claude-realtime-online-report.md) — alikim.eth称本周借REA与Claude Code把Worms 2逆向改为实时动作游戏，加入在线玩法并与兄弟试玩；没有源码、网络测试或独立复现。 **[REA · 待验证]**
 - [Horizon：AI辅助以Rust重建Minecraft Java行为，用差分测试对照原版](../cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md) — TechVerser介绍Horizon重建Minecraft Java 26.3及281套差分测试；固定README报告原版存档与联机兼容，提交有Codex署名。功能、性能和测试覆盖未在本合集复现。 **[其他 AI 逆向 · 进行中]**
 - [Order Up!! To Go离开鼓包iPad：Eddie称Codex把32位老游戏移植到WebAssembly并模拟旧服务](../cases/eddie-order-up-to-go-codex-webassembly-preservation-report.md) — Eddie Monteiro为保留儿子玩的Order Up!! To Go，称Codex反编译并做成网页可玩版本，另模拟购币与成就服务；30fps是优化目标，两天为作者描述，代码和性能未核。 **[其他 AI 逆向 · 待验证]**
-- [Marvel vs. Capcom 2：Claude辅助字节匹配反编译与PC／3DS移植的二手报告](../cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — Pixel Cherry Ninja转述同一源码树可逐字节构建NAOMI与Dreamcast版本，并有PC／3DS移植；100%和全机型60fps没有源码、日志或实机核验。 **[其他 AI 逆向 · 待验证]**
+- [Marvel vs. Capcom 2：Claude辅助反编译，公开文档区分代码匹配、ROM复用与移植](../cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — MVC2新报道补开发者gibletto与v0.4；固定文档确认Claude署名、原编译器与哈希目标，并揭示复用SDK库和ROM片段、移植桩函数及音频模拟，不把100%宣传当全源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [MGSV弃置内容补完：El Glitch希望反编译后交AI续作的idea](../cases/mgsv-ai-decompile-discarded-content-completion-idea.md) — 读者提出反编译Metal Gear Solid V并用AI补完最后弃置部分，没有实施、可用资产或可玩产物证据。 **[其他 AI 逆向 · 待验证]**
 - [PES6补上传球力度条：Garabanda称用REA与Codex给周末老游戏加功能](../cases/garabanda-pes6-rea-codex-pass-gauge.md) — Garabanda与好友常玩PES6，想要现代足球游戏的传球力度提示，报告用REA与Codex为传球、直塞和挑传加上量表；没有代码或兼容性验证。 **[REA · 待验证]**
 - [PocketPort Anything：AI辅助3DS移植研究框架，不是任意游戏转换器](../cases/pocketport-anything-ai-3ds-porting-research-framework.md) — yibie介绍3DS移植研究流水线；固定文档将受限IR转C、主机测试、原生交叉编译与实机可玩分开，尚无完整商业游戏或物理3DS验证。 **[其他 AI 逆向 · 进行中]**

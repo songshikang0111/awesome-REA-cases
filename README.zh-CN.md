@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2369 个案例与项目
+# 2376 个案例与项目
 
-**最近案例更新：**2026 年 11 月 17 日 08:16 · **最近维护：**2026 年 11 月 17 日 08:16 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 17 日 12:11 · **最近维护：**2026 年 11 月 17 日 12:11 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -33,7 +33,7 @@
 7. **[Mario Kart World：转译代码，也逐项测改动](cases/mkw-recomp-claude-aarch64-c-port.md)** · `2026-11-14`介绍与固定文档 — **Claude辅助AArch64转C、同次运行A/B与原机图对照**，项目报告PC比赛可跑。不是原始源码恢复；菜单、AMD挂起与无在线联机仍有限制。自备游戏，本合集未构建。`进行中`
 8. **[X6200：更新电台，不必换回原厂系统](cases/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16`介绍与PR合并 — **Claude辅助重建Xiegu升级流程**，已进入OpenX6X00。项目CI通过，作者报告单台升级与回退；无法读回flash，恢复未实机测试，本合集未复现。`未独立核验`
 9. **[Fireface UCX：Linux不止能播放，还能完整控制](cases/johan-fireface-ucx-linux-rea-claude-driver.md)** · `2026-11-15`作者文章 — Johan报告**REA／Claude研究驱动、终端混音器及48kHz往返3.5ms**。社区指令格式研究与一周接线测试不可省略；仅测一台第一代设备，本合集未复现。`未独立核验`
-10. **[haruspex：二进制进入分层审计管线](cases/haruspex-ida-pseudocode-llm-triage-tool.md)** · `2026-11-13`作者文章；`2026-11-16`固定文档 — Marco Ivaldi串起**IDA导出、模式匹配、LLM初筛与人工确认**。自报Semgrep可解析99.1%的行，不是找漏洞准确率；性能同时包含工具与IDA升级。本合集已读文档，未测二进制。`相关项目`
+10. **[OpenConche：四款巧克力经营游戏，一个新引擎](cases/openconche-chocolatier-ai-engine-reimplementation.md)** · `2026-11-17`介绍；`2026-11-14`固定文档 — **AI研究二进制／脚本，C++20／SDL3重建引擎**，让Chocolatier系列与外传面向现代桌面系统。字体按原生分辨率绘制，不是重制高清美术；需自备资产。本合集已读文档、未运行游戏，作者不承诺持续维护。`未独立核验`
 
 ## 经典案例
 
@@ -49,10 +49,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **466** |
-| [硬件与设备互通](categories/hardware.md) | **636** |
-| [应用与客户端](categories/apps.md) | **983** |
-| [算法与功能重建](categories/algorithms.md) | **284** |
+| [游戏与游戏保存](categories/games.md) | **467** |
+| [硬件与设备互通](categories/hardware.md) | **638** |
+| [应用与客户端](categories/apps.md) | **986** |
+| [算法与功能重建](categories/algorithms.md) | **285** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

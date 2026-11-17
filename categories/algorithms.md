@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [从色卡反推富士LUT：雪人提出把既有测量流程交给AI自动化](../cases/fujifilm-color-chart-ai-lut-reconstruction-idea.md) — 雪人回忆固定灯光、色温和白平衡、多曝光拍色卡反推LUT的做法，提出有工作流就能由AI自动化；未报告自己实施或做出风格文件。 **[其他 AI 逆向 · 待验证]**
 - [Higgsfield增长地图：Monid称Claude配Search1API用0.07美元重建事件时间线](../cases/monid-claude-higgsfield-growth-timeline-report.md) — Monid推广Claude研究Higgsfield增长路径，将免费活动、创作者推广、搜索页与融资放在一条时间线，自称0.07美元；是合作推广，未审结果。 **[其他 AI 逆向 · 待验证]**
 - [星舰捕获视频到Three.js：Mollick公开Fable／Opus提示与估算边界](../cases/mollick-starship-catch-video-threejs-reconstruction-report.md) — Mollick公开让Opus 5.5与Fable 5.2从星舰捕获视频重建约40秒Three.js场景、切换视角和同步回放的提示；几何多为估算，未用SpaceX工程图，未运行核验。 **[其他 AI 逆向 · 待验证]**
 - [15秒宣传片重做：benzy称Fable配rea-video等工具50分钟对比AE三天](../cases/fable-rea-video-15second-promo-ae-comparison-report.md) — benzy自述同一15秒宣传片用After Effects花三天，Fable 5.2加15仓库花50分钟，五位朋友四人选后者；未审样片、流程或成本。 **[其他 AI 逆向 · 待验证]**

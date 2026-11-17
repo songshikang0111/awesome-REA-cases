@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Windows 11编码工具遥测：AI辅助追踪MissionControlAggregator的二手报告](../cases/windows-missioncontrol-ai-coding-agent-telemetry-analysis.md) — 本轮报道指Xusheng Li借AI分析Windows DLL，追踪编码Agent识别与诊断位图；部分报道限定一台美国区ARM64虚拟机，未独立核查上传与控制效果。 **[其他 AI 逆向 · 待验证]**
+- [Last Book到家庭Notion：JanCarlos让Grok Bot按自家情况重建准备资料](../cases/clarityx-last-book-grok-notion-family-reconstruction.md) — JanCarlos因缺少硬件，把Last Book网站和自己的准备理念交给Grok Bot，在家庭Notion库重建替代资料；导出PDF和离线AI使用仍是计划。 **[其他 AI 逆向 · 进行中]**
+- [易盾应对AI游戏逆向：网易智企提出隐藏、复杂化与诱导监测三层防御](../cases/netease-yidun-ai-reversing-three-layer-defense-proposal.md) — 网易智企介绍易盾针对AI辅助游戏代码还原的三层保护思路，没有具体游戏、实现、模型或对照实验；以相关防御方案而非已证实效果收录。 **[未确认使用 REA · 相关项目]**
 - [WardenStealer给分析AI的法律威吓：Cipher0k转述Invoke RE观察](../cases/wardenstealer-anti-ai-legal-note-secondary-report.md) — Cipher0k转述Invoke RE称WardenStealer对分析AI宣称逆向违法；这是具名反AI分析提示的二手线索，没有样本或模型拒绝证据。 **[未确认使用 REA · 待验证]**
 - [一个.claude目录串起研究与加固：Archive介绍graphify／REA／bla工作流](../cases/archive-claude-folder-map-reverse-harden-workflow.md) — Archive描述用graphify先建图、REA研究、bla加固自有软件，再由Explore、verifier与MEMORY衔接的Fable 5.2工作流；未给具体应用或运行证据。 **[REA · 相关项目]**
 - [云端Claude Code选项是否真用其harness：Thomas Reynaud的REA核查疑问](../cases/thomas-reynaud-rea-cloud-claude-pi-harness-audit-report.md) — Thomas Reynaud称运行REA后怀疑某云端app在选择Claude Code时仍用pi harness和用户凭据，请reasonmachines核实；产品名与风险均未确认。 **[REA · 待验证]**

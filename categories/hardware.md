@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [DDR3控制器内部跟踪：Kenta IDA称Claude自行用trace调查故障](../cases/claude-ddr3-controller-internal-trace-debug-report.md) — Kenta IDA报告自制高速内部状态跟踪工具很快用于DDR3控制器故障调查，Claude自行读取trace；未给根因、修复或测试日志。 **[其他 AI 逆向 · 待验证]**
+- [SkyOC复活尝试：Hardware 360º称GPT Astra对比BIOS并修改，尚待测试](../cases/hardware360-gpt-astra-skyoc-bios-restoration-attempt.md) — Hardware 360º称GPT Astra比较华擎移除SkyOC前后BIOS，找到代码并修改自己的主板BIOS；作者明确仍待验证，没有新超频或性能结果。 **[其他 AI 逆向 · 进行中]**
 - [单DIN卡车收音机：Daniel Cook称LLM模拟固件，GLM 5.3数小时得到Hello World](../cases/daniel-cook-single-din-radio-qemu-glm53-report.md) — Daniel Cook报告让LLM在QEMU模拟自有廉价卡车收音机固件，再让GLM 5.3找缓冲区溢出并利用，几小时得到Hello World；未审代码或实机结果。 **[其他 AI 逆向 · 待验证]**
 - [被厂商弃置的3D打印机：OnMyWay称Claude在15至20分钟更新界面](../cases/onmyway-claude-discarded-3d-printer-interface-report.md) — OnMyWay称一台因固件问题被3D打印机厂商弃置的设备，经Claude在15至20分钟更新了新界面；型号、逆向方式与实际打印未核实。 **[其他 AI 逆向 · 待验证]**
 - [Bugatti Jacqueline水壶接Home Assistant：Inna提出蓝牙研究，也质疑必要性](../cases/inna-bugatti-jacqueline-ble-home-assistant-idea.md) — Inna Babicka在AI家居自动化讨论中想到研究自有水壶蓝牙，经ESP32或自定义集成接Home Assistant，但已有定时器让她质疑用途；尚未实施。 **[未确认使用 REA · 待验证]**

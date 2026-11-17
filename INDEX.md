@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2369 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2376 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（466）
-- [硬件与设备互通](categories/hardware.md)（636）
-- [应用与客户端](categories/apps.md)（983）
-- [算法与功能重建](categories/algorithms.md)（284）
+- [游戏与游戏保存](categories/games.md)（467）
+- [硬件与设备互通](categories/hardware.md)（638）
+- [应用与客户端](categories/apps.md)（986）
+- [算法与功能重建](categories/algorithms.md)（285）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [OpenConche：AI参与研究四款Chocolatier游戏，以新引擎运行原始资产](cases/openconche-chocolatier-ai-engine-reimplementation.md) — OpenConche文档称几周AI驱动研究原二进制与脚本，以C++20／SDL3重建四款巧克力经营游戏引擎；可读研究记录与自备资产要求已核，运行未复现。 **[其他 AI 逆向 · 待验证]**
 - [Spider-Man可见玩法到游戏：cranger报告Grok／Claude／ChatGPT分工与返修](cases/cranger-spiderman-observable-mechanics-ai-team-report.md) — cranger称Grok研究参考玩法，Claude写可测需求和依赖，ChatGPT实现移动、摆荡与落地，人工反复试玩后完成；超过一周及1000美元以上token费未审计。 **[其他 AI 逆向 · 待验证]**
 - [Warzone 2100浏览器遭遇战：AGENC称REA配DeepSeek低峰约0.64美元](cases/agenc-core-rea-deepseek-warzone2100-browser-skirmish-report.md) — AGENC宣传AgenC Core 0.19.36与DeepSeek／REA，称做出可玩的Warzone 2100浏览器遭遇战、低峰约0.64美元；未给源码、构建与计费记录。 **[REA · 待验证]**
 - [Zelda TotK局部研究：Épice de Pain称两天前用Claude逆向了一点](cases/claude-zelda-totk-partial-reversing-author-report.md) — Épice de Pain在模型拒绝讨论中自述两天前用Claude逆向了一部分《塞尔达传说：王国之泪》；没有具体子系统、代码或结果，不是PC移植证明。 **[其他 AI 逆向 · 进行中]**
@@ -34,7 +35,7 @@
 - [Worms 2变实时联机：alikim.eth报告REA／Claude Code童年游戏改造](cases/alikim-worms2-rea-claude-realtime-online-report.md) — alikim.eth称本周借REA与Claude Code把Worms 2逆向改为实时动作游戏，加入在线玩法并与兄弟试玩；没有源码、网络测试或独立复现。 **[REA · 待验证]**
 - [Horizon：AI辅助以Rust重建Minecraft Java行为，用差分测试对照原版](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md) — TechVerser介绍Horizon重建Minecraft Java 26.3及281套差分测试；固定README报告原版存档与联机兼容，提交有Codex署名。功能、性能和测试覆盖未在本合集复现。 **[其他 AI 逆向 · 进行中]**
 - [Order Up!! To Go离开鼓包iPad：Eddie称Codex把32位老游戏移植到WebAssembly并模拟旧服务](cases/eddie-order-up-to-go-codex-webassembly-preservation-report.md) — Eddie Monteiro为保留儿子玩的Order Up!! To Go，称Codex反编译并做成网页可玩版本，另模拟购币与成就服务；30fps是优化目标，两天为作者描述，代码和性能未核。 **[其他 AI 逆向 · 待验证]**
-- [Marvel vs. Capcom 2：Claude辅助字节匹配反编译与PC／3DS移植的二手报告](cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — Pixel Cherry Ninja转述同一源码树可逐字节构建NAOMI与Dreamcast版本，并有PC／3DS移植；100%和全机型60fps没有源码、日志或实机核验。 **[其他 AI 逆向 · 待验证]**
+- [Marvel vs. Capcom 2：Claude辅助反编译，公开文档区分代码匹配、ROM复用与移植](cases/mvc2-naomi-dreamcast-claude-decomp-port-report.md) — MVC2新报道补开发者gibletto与v0.4；固定文档确认Claude署名、原编译器与哈希目标，并揭示复用SDK库和ROM片段、移植桩函数及音频模拟，不把100%宣传当全源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [MGSV弃置内容补完：El Glitch希望反编译后交AI续作的idea](cases/mgsv-ai-decompile-discarded-content-completion-idea.md) — 读者提出反编译Metal Gear Solid V并用AI补完最后弃置部分，没有实施、可用资产或可玩产物证据。 **[其他 AI 逆向 · 待验证]**
 - [PES6补上传球力度条：Garabanda称用REA与Codex给周末老游戏加功能](cases/garabanda-pes6-rea-codex-pass-gauge.md) — Garabanda与好友常玩PES6，想要现代足球游戏的传球力度提示，报告用REA与Codex为传球、直塞和挑传加上量表；没有代码或兼容性验证。 **[REA · 待验证]**
 - [PocketPort Anything：AI辅助3DS移植研究框架，不是任意游戏转换器](cases/pocketport-anything-ai-3ds-porting-research-framework.md) — yibie介绍3DS移植研究流水线；固定文档将受限IR转C、主机测试、原生交叉编译与实机可玩分开，尚无完整商业游戏或物理3DS验证。 **[其他 AI 逆向 · 进行中]**
@@ -495,6 +496,8 @@
 
 ### 硬件与设备互通
 
+- [DDR3控制器内部跟踪：Kenta IDA称Claude自行用trace调查故障](cases/claude-ddr3-controller-internal-trace-debug-report.md) — Kenta IDA报告自制高速内部状态跟踪工具很快用于DDR3控制器故障调查，Claude自行读取trace；未给根因、修复或测试日志。 **[其他 AI 逆向 · 待验证]**
+- [SkyOC复活尝试：Hardware 360º称GPT Astra对比BIOS并修改，尚待测试](cases/hardware360-gpt-astra-skyoc-bios-restoration-attempt.md) — Hardware 360º称GPT Astra比较华擎移除SkyOC前后BIOS，找到代码并修改自己的主板BIOS；作者明确仍待验证，没有新超频或性能结果。 **[其他 AI 逆向 · 进行中]**
 - [单DIN卡车收音机：Daniel Cook称LLM模拟固件，GLM 5.3数小时得到Hello World](cases/daniel-cook-single-din-radio-qemu-glm53-report.md) — Daniel Cook报告让LLM在QEMU模拟自有廉价卡车收音机固件，再让GLM 5.3找缓冲区溢出并利用，几小时得到Hello World；未审代码或实机结果。 **[其他 AI 逆向 · 待验证]**
 - [被厂商弃置的3D打印机：OnMyWay称Claude在15至20分钟更新界面](cases/onmyway-claude-discarded-3d-printer-interface-report.md) — OnMyWay称一台因固件问题被3D打印机厂商弃置的设备，经Claude在15至20分钟更新了新界面；型号、逆向方式与实际打印未核实。 **[其他 AI 逆向 · 待验证]**
 - [Bugatti Jacqueline水壶接Home Assistant：Inna提出蓝牙研究，也质疑必要性](cases/inna-bugatti-jacqueline-ble-home-assistant-idea.md) — Inna Babicka在AI家居自动化讨论中想到研究自有水壶蓝牙，经ESP32或自定义集成接Home Assistant，但已有定时器让她质疑用途；尚未实施。 **[未确认使用 REA · 待验证]**
@@ -1134,6 +1137,9 @@
 
 ### 应用与客户端
 
+- [Windows 11编码工具遥测：AI辅助追踪MissionControlAggregator的二手报告](cases/windows-missioncontrol-ai-coding-agent-telemetry-analysis.md) — 本轮报道指Xusheng Li借AI分析Windows DLL，追踪编码Agent识别与诊断位图；部分报道限定一台美国区ARM64虚拟机，未独立核查上传与控制效果。 **[其他 AI 逆向 · 待验证]**
+- [Last Book到家庭Notion：JanCarlos让Grok Bot按自家情况重建准备资料](cases/clarityx-last-book-grok-notion-family-reconstruction.md) — JanCarlos因缺少硬件，把Last Book网站和自己的准备理念交给Grok Bot，在家庭Notion库重建替代资料；导出PDF和离线AI使用仍是计划。 **[其他 AI 逆向 · 进行中]**
+- [易盾应对AI游戏逆向：网易智企提出隐藏、复杂化与诱导监测三层防御](cases/netease-yidun-ai-reversing-three-layer-defense-proposal.md) — 网易智企介绍易盾针对AI辅助游戏代码还原的三层保护思路，没有具体游戏、实现、模型或对照实验；以相关防御方案而非已证实效果收录。 **[未确认使用 REA · 相关项目]**
 - [WardenStealer给分析AI的法律威吓：Cipher0k转述Invoke RE观察](cases/wardenstealer-anti-ai-legal-note-secondary-report.md) — Cipher0k转述Invoke RE称WardenStealer对分析AI宣称逆向违法；这是具名反AI分析提示的二手线索，没有样本或模型拒绝证据。 **[未确认使用 REA · 待验证]**
 - [一个.claude目录串起研究与加固：Archive介绍graphify／REA／bla工作流](cases/archive-claude-folder-map-reverse-harden-workflow.md) — Archive描述用graphify先建图、REA研究、bla加固自有软件，再由Explore、verifier与MEMORY衔接的Fable 5.2工作流；未给具体应用或运行证据。 **[REA · 相关项目]**
 - [云端Claude Code选项是否真用其harness：Thomas Reynaud的REA核查疑问](cases/thomas-reynaud-rea-cloud-claude-pi-harness-audit-report.md) — Thomas Reynaud称运行REA后怀疑某云端app在选择Claude Code时仍用pi harness和用户凭据，请reasonmachines核实；产品名与风险均未确认。 **[REA · 待验证]**
@@ -2120,6 +2126,7 @@
 
 ### 算法与功能重建
 
+- [从色卡反推富士LUT：雪人提出把既有测量流程交给AI自动化](cases/fujifilm-color-chart-ai-lut-reconstruction-idea.md) — 雪人回忆固定灯光、色温和白平衡、多曝光拍色卡反推LUT的做法，提出有工作流就能由AI自动化；未报告自己实施或做出风格文件。 **[其他 AI 逆向 · 待验证]**
 - [Higgsfield增长地图：Monid称Claude配Search1API用0.07美元重建事件时间线](cases/monid-claude-higgsfield-growth-timeline-report.md) — Monid推广Claude研究Higgsfield增长路径，将免费活动、创作者推广、搜索页与融资放在一条时间线，自称0.07美元；是合作推广，未审结果。 **[其他 AI 逆向 · 待验证]**
 - [星舰捕获视频到Three.js：Mollick公开Fable／Opus提示与估算边界](cases/mollick-starship-catch-video-threejs-reconstruction-report.md) — Mollick公开让Opus 5.5与Fable 5.2从星舰捕获视频重建约40秒Three.js场景、切换视角和同步回放的提示；几何多为估算，未用SpaceX工程图，未运行核验。 **[其他 AI 逆向 · 待验证]**
 - [15秒宣传片重做：benzy称Fable配rea-video等工具50分钟对比AE三天](cases/fable-rea-video-15second-promo-ae-comparison-report.md) — benzy自述同一15秒宣传片用After Effects花三天，Fable 5.2加15仓库花50分钟，五位朋友四人选后者；未审样片、流程或成本。 **[其他 AI 逆向 · 待验证]**
