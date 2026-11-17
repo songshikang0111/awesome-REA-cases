@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Darmoshark TOP75接Mac：AI辅助研究Windows工具，再以IOKit验证蓝牙命令](../cases/darmoshark-top75-macos-ai-protocol-report.md) — Bedirhan称借AI研究Windows工具，以IOKit测试TOP75；固定文档记录USB／蓝牙命令、写后读回和回退，也保留宏写入重枚举、GIF未实机确认等限制。 **[其他 AI 逆向 · 待验证]**
+- [二手Echo 2刷LibreEcho：Roman报告本地模型选择与SSH，Codex连接仍失败](../cases/rzykov-libreecho-echo2-local-assistant-report.md) — Roman Zykov拆开二手Echo 2焊USB、刷LibreEcho，报告SSH可用、Codex连接失败；固定文档确认既有解锁研究与本地语音／可选LLM路线，不证明AI发现漏洞。 **[未确认使用 REA · 相关项目]**
 - [三菱设备本地接HA：j2rs称Claude给出ESP32采购清单、固件与集成](../cases/j2rs-mitsubishi-claude-atom-lite-home-assistant-report.md) — j2rs称Mitsubishi设备可用Atom Lite／ESP32与一欧元线材本地控制，Claude提供清单、固件和Home Assistant集成；未见型号、协议分析或实机日志。 **[其他 AI 逆向 · 待验证]**
 - [ProcReverser：以执行反馈推进处理器黑箱微架构研究的多Agent项目介绍](../cases/procreverser-multi-agent-microarchitecture-research-report.md) — AI Security Daily分享ProcReverser，称多Agent系统借执行反馈自动化处理器黑箱微架构逆向；正文可确认目标与方法，但没有已读论文、处理器清单或验证指标。 **[其他 AI 逆向 · 待验证]**
 - [CMP 170HX解锁转述：Pico 2控制稳压芯片，AI编写不可逆配置脚本](../cases/cmp170hx-pico2-ai-configuration-script-report.md) — 天宫打工人转述玩家以Pico 2和四线连接研究CMP 170HX，AI编写一次性配置脚本，报告识别80GB和126组计算单元；未核源码、样卡或性能，不等于完整A100。 **[其他 AI 逆向 · 待验证]**

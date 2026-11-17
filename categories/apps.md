@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Rafiki的FPL重建自述：AI辅助全功能克隆宣称，覆盖尚未核验](../cases/rafiki-fpl-ai-reconstruction-report.md) — Rafiki称逆向并以AI重建FPL所有功能，提供截图附件；没有公开模型、实现方法、代码或逐项对照，不确认完整克隆。 **[其他 AI 逆向 · 待验证]**
+- [隐私优先的简易输入法：Kun建议用AI编写并逆向，尚无实现](../cases/ai-simple-input-method-privacy-rebuild-idea.md) — Kun因担心输入记录提出用AI写简易输入法、配合逆向的idea；未指定目标或模型，不采纳所有输入法有后门或换工具保证安全的断言。 **[其他 AI 逆向 · 待验证]**
+- [Alchemy：Patrick称AI从实现恢复规格，再以数周日志回看功能价值](../cases/alchemy-ai-spec-recovery-outcome-evidence-loop.md) — Patrick Savalle称Alchemy反推规格，衔接假设、构建测试、用户效果与价值复审；数周日志是可用输入，不是已证明某功能产生价值的结果。 **[其他 AI 逆向 · 进行中]**
+- [Emerged介绍REA-Prompts：称C0d3Cr4zy提供26个二进制研究skill包](../cases/c0d3cr4zy-rea-prompts-26-binary-skill-packs-report.md) — Emerged称REA-Prompts用脚本为Claude Code、Codex或Hermes放入26个skill包，面向自有无源码软件；未确认仓库或与其他同名项目关系。 **[未确认使用 REA · 相关项目]**
+- [PaperCut NG／MF补丁差分：二手报道指AI在2026年9月用于推断漏洞](../cases/papercut-ng-mf-ai-patch-differential-secondary-report.md) — Alma Gentil转述Google观察，称LLM／Agent通过差分分析自动逆向PaperCut NG/MF补丁；未取得原报告、漏洞编号或日志，不确认利用成功或速度。 **[其他 AI 逆向 · 待验证]**
+- [Alan的逆向分工：Hermes编排，DeepSeek留研究上下文，Claude／Codex做实现](../cases/hermes-deepseek-claude-codex-reversing-handoff-report.md) — Alan称用Hermes编排无头Claude与Codex实现，由DeepSeek掌握逆向上下文；没有具名目标、产物或成功记录，不把上下文分离当能力或合规保证。 **[未确认使用 REA · 进行中]**
 - [Proteus作业变成格式研究：Arpit以.pdsprj为Claude接入原理图](../cases/arpit-proteus-pdsprj-mcp-project-research.md) — Arpit为大学作业研究未文档化.pdsprj，称proteus-mcp让Claude读原理图、追连线、改参数与生成BOM；放元件布线仍待做，无头模拟不返回波形。 **[其他 AI 逆向 · 进行中]**
 - [zniff：Rust抓包工具以MCP让Claude和Cursor查流、重放与改规则](../cases/zniff-rust-mcp-http-traffic-research-tool.md) — vicanso发布基于Rust／NSH的HTTP(S)抓包调试工具，称内置MCP可让Claude／Cursor研究请求、重放并修改规则；协议与解码能力尚未实测。 **[其他 AI 逆向 · 相关项目]**
 - [云端agy研究竞品，再给Claude报告：niko的REA异步分工](../cases/niko-agy-rea-competitor-research-claude-handoff.md) — niko自述让云端agy借REA静态与动态研究多个竞品，产出报告再交Claude；不适合作主力、速度期待低，竞品与结果未公开。 **[REA · 进行中]**

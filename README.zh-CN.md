@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2406 个案例与项目
+# 2416 个案例与项目
 
-**最近案例更新：**2026 年 11 月 18 日 00:14 · **最近维护：**2026 年 11 月 18 日 00:14 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 18 日 04:13 · **最近维护：**2026 年 11 月 18 日 04:13 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,11 +22,11 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：重建编译器，查询电路工程，拿回设备控制权，也看看AI解释在哪一步失效。精选更看重具体用途与写清楚的限制，而不是标题里的还原度或速度。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：重建编译器，查询电路工程，不用Windows工具也能控制键盘，也看看AI解释在哪一步失效。精选更看重具体用途与写清楚的限制，而不是标题里的还原度或速度。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[Proteus：让Claude回答已有电路的问题](cases/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17`作者串 — Arpit研究**未文档化.pdsprj，制作MCP桥接**，报告可查原理图、追连线、改参数与生成物料清单。放元件和布线仍待做，无头仿真不返回波形。已读串文，未测代码与电路。`进行中`
-3. **[富士X half：不用手机，照片直达Mac](cases/fujifilm-x-half-opus-wireless-mac-import-report.md)** · `2026-11-12`作者报告 — **Opus据报找到蓝牙／Wi-Fi差异**，做出JPEG导入和Google Photos上传。逐步实机试验，不是无迭代生成；代码与抓包未审。`未独立核验`
+3. **[Darmoshark TOP75：在Mac控制键盘](cases/darmoshark-top75-macos-ai-protocol-report.md)** · `2026-11-18`作者回复与固定文档 — **AI辅助研究Windows工具，再用IOKit实机检查**，支持蓝牙RGB、改键、宏与定时熄灯。项目文档记录读回、回退和丢写；显示上传走USB，GIF机上播放仍待验证。本合集未测试。`未独立核验`
 4. **[Horizon：用Rust重建Minecraft Java行为](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16`介绍与固定文档 — **AI辅助重建，自报281套差分测试**，可读旧存档、连原版服务器。已读公开文档与Codex署名提交，未审完整测试结果；性能宣称有硬件条件。自备游戏，本合集未构建。`进行中`
 5. **[Fallout Van Buren：把六年研究交给REA](cases/fallout-van-buren-kran-rea-human-guided-reconstruction.md)** · `2026-11-14`作者串 — Kran归功于**人工研究、shenmarukai反编译与IDA数据库**，不是Agent从零发现。已报告DX9迁移，64位仍是技术演示的目标，不是完整游戏。本合集未构建。`进行中`
 6. **[Windows95旅鼠：匹配函数，不夸大整包](cases/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12`介绍；`2026-11-09`固定文档 — 人类定架构，REA／Claude／Codex辅助，自报**八模块696／696函数匹配**。整EXE／DLL仍有差异，现代构建与原编译器匹配分开；自备资产，本合集未构建。`进行中`
@@ -50,9 +50,9 @@
 | 分类 | 数量 |
 | :--- | ---: |
 | [游戏与游戏保存](categories/games.md) | **473** |
-| [硬件与设备互通](categories/hardware.md) | **642** |
-| [应用与客户端](categories/apps.md) | **1002** |
-| [算法与功能重建](categories/algorithms.md) | **289** |
+| [硬件与设备互通](categories/hardware.md) | **644** |
+| [应用与客户端](categories/apps.md) | **1008** |
+| [算法与功能重建](categories/algorithms.md) | **291** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

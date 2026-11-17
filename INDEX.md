@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2406 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2416 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（473）
-- [硬件与设备互通](categories/hardware.md)（642）
-- [应用与客户端](categories/apps.md)（1002）
-- [算法与功能重建](categories/algorithms.md)（289）
+- [硬件与设备互通](categories/hardware.md)（644）
+- [应用与客户端](categories/apps.md)（1008）
+- [算法与功能重建](categories/algorithms.md)（291）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -405,7 +405,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植idea：Linux／Vulkan、DVD容量与Qwen／REA的PC版愿望](cases/gta6-ai-decompile-prediction.md) — GTA6的Linux／Vulkan与Qwen／REA愿望新增前Rockstar主管谈PS5到PC可能性的媒体转述；数万美元token仅预测，仍无样本、移植或已确认官方日期。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植idea：Linux／Vulkan、Qwen与Claude／REA本地Windows愿望](cases/gta6-ai-decompile-prediction.md) — GTA6移植愿望补上Kamikaze的Claude／REA原生Windows与本地服务器设想；既有Linux／Vulkan、Qwen路线与数万美元token预测均未变成移植结果。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**
@@ -502,6 +502,8 @@
 
 ### 硬件与设备互通
 
+- [Darmoshark TOP75接Mac：AI辅助研究Windows工具，再以IOKit验证蓝牙命令](cases/darmoshark-top75-macos-ai-protocol-report.md) — Bedirhan称借AI研究Windows工具，以IOKit测试TOP75；固定文档记录USB／蓝牙命令、写后读回和回退，也保留宏写入重枚举、GIF未实机确认等限制。 **[其他 AI 逆向 · 待验证]**
+- [二手Echo 2刷LibreEcho：Roman报告本地模型选择与SSH，Codex连接仍失败](cases/rzykov-libreecho-echo2-local-assistant-report.md) — Roman Zykov拆开二手Echo 2焊USB、刷LibreEcho，报告SSH可用、Codex连接失败；固定文档确认既有解锁研究与本地语音／可选LLM路线，不证明AI发现漏洞。 **[未确认使用 REA · 相关项目]**
 - [三菱设备本地接HA：j2rs称Claude给出ESP32采购清单、固件与集成](cases/j2rs-mitsubishi-claude-atom-lite-home-assistant-report.md) — j2rs称Mitsubishi设备可用Atom Lite／ESP32与一欧元线材本地控制，Claude提供清单、固件和Home Assistant集成；未见型号、协议分析或实机日志。 **[其他 AI 逆向 · 待验证]**
 - [ProcReverser：以执行反馈推进处理器黑箱微架构研究的多Agent项目介绍](cases/procreverser-multi-agent-microarchitecture-research-report.md) — AI Security Daily分享ProcReverser，称多Agent系统借执行反馈自动化处理器黑箱微架构逆向；正文可确认目标与方法，但没有已读论文、处理器清单或验证指标。 **[其他 AI 逆向 · 待验证]**
 - [CMP 170HX解锁转述：Pico 2控制稳压芯片，AI编写不可逆配置脚本](cases/cmp170hx-pico2-ai-configuration-script-report.md) — 天宫打工人转述玩家以Pico 2和四线连接研究CMP 170HX，AI编写一次性配置脚本，报告识别80GB和126组计算单元；未核源码、样卡或性能，不等于完整A100。 **[其他 AI 逆向 · 待验证]**
@@ -1147,6 +1149,12 @@
 
 ### 应用与客户端
 
+- [Rafiki的FPL重建自述：AI辅助全功能克隆宣称，覆盖尚未核验](cases/rafiki-fpl-ai-reconstruction-report.md) — Rafiki称逆向并以AI重建FPL所有功能，提供截图附件；没有公开模型、实现方法、代码或逐项对照，不确认完整克隆。 **[其他 AI 逆向 · 待验证]**
+- [隐私优先的简易输入法：Kun建议用AI编写并逆向，尚无实现](cases/ai-simple-input-method-privacy-rebuild-idea.md) — Kun因担心输入记录提出用AI写简易输入法、配合逆向的idea；未指定目标或模型，不采纳所有输入法有后门或换工具保证安全的断言。 **[其他 AI 逆向 · 待验证]**
+- [Alchemy：Patrick称AI从实现恢复规格，再以数周日志回看功能价值](cases/alchemy-ai-spec-recovery-outcome-evidence-loop.md) — Patrick Savalle称Alchemy反推规格，衔接假设、构建测试、用户效果与价值复审；数周日志是可用输入，不是已证明某功能产生价值的结果。 **[其他 AI 逆向 · 进行中]**
+- [Emerged介绍REA-Prompts：称C0d3Cr4zy提供26个二进制研究skill包](cases/c0d3cr4zy-rea-prompts-26-binary-skill-packs-report.md) — Emerged称REA-Prompts用脚本为Claude Code、Codex或Hermes放入26个skill包，面向自有无源码软件；未确认仓库或与其他同名项目关系。 **[未确认使用 REA · 相关项目]**
+- [PaperCut NG／MF补丁差分：二手报道指AI在2026年9月用于推断漏洞](cases/papercut-ng-mf-ai-patch-differential-secondary-report.md) — Alma Gentil转述Google观察，称LLM／Agent通过差分分析自动逆向PaperCut NG/MF补丁；未取得原报告、漏洞编号或日志，不确认利用成功或速度。 **[其他 AI 逆向 · 待验证]**
+- [Alan的逆向分工：Hermes编排，DeepSeek留研究上下文，Claude／Codex做实现](cases/hermes-deepseek-claude-codex-reversing-handoff-report.md) — Alan称用Hermes编排无头Claude与Codex实现，由DeepSeek掌握逆向上下文；没有具名目标、产物或成功记录，不把上下文分离当能力或合规保证。 **[未确认使用 REA · 进行中]**
 - [Proteus作业变成格式研究：Arpit以.pdsprj为Claude接入原理图](cases/arpit-proteus-pdsprj-mcp-project-research.md) — Arpit为大学作业研究未文档化.pdsprj，称proteus-mcp让Claude读原理图、追连线、改参数与生成BOM；放元件布线仍待做，无头模拟不返回波形。 **[其他 AI 逆向 · 进行中]**
 - [zniff：Rust抓包工具以MCP让Claude和Cursor查流、重放与改规则](cases/zniff-rust-mcp-http-traffic-research-tool.md) — vicanso发布基于Rust／NSH的HTTP(S)抓包调试工具，称内置MCP可让Claude／Cursor研究请求、重放并修改规则；协议与解码能力尚未实测。 **[其他 AI 逆向 · 相关项目]**
 - [云端agy研究竞品，再给Claude报告：niko的REA异步分工](cases/niko-agy-rea-competitor-research-claude-handoff.md) — niko自述让云端agy借REA静态与动态研究多个竞品，产出报告再交Claude；不适合作主力、速度期待低，竞品与结果未公开。 **[REA · 进行中]**
@@ -2152,6 +2160,8 @@
 
 ### 算法与功能重建
 
+- [爆款视频拆成新情景：Simone以逆向提示、Fable5.2与Seedance2.5重做](cases/fable-seedance-viral-video-prompt-reconstruction-report.md) — Simone称先用逆向提示拆视频，再让Fable5.2写新情景、Seedance2.5以480p生成后放大；3M观看与2.56美元未见对应统计或账单。 **[其他 AI 逆向 · 待验证]**
+- [80秒视频分十段重建：Gemini拆解、Antigravity生成、Claude Code质检的转述](cases/gemini-antigravity-80second-video-reconstruction-pipeline.md) — 章鱼8爪铺转述三指令流程：十段八秒视频按五层拆解，再生成与做剪映工程；80%通过、70分门槛是流程要求，不是本合集实测。 **[其他 AI 逆向 · 待验证]**
 - [吃播无痕取物怎么拍：Pamela用Codex和rea-video多轮分析仍失败](cases/pamela-rea-video-codex-food-video-analysis-failure.md) — PamelaAI·H让Codex用rea-video拆吃播取物的无痕剪辑；文字解释、拍摄示意图与实物图来回多轮，仍没解决问题，作者称模型也承认未解析出制作方法。 **[其他 AI 逆向 · 分析测试]**
 - [COMSEC的IAI调查提案：用AI与逆向重建Agent行为，不预设事故归因](cases/comsec-iai-agent-incident-reconstruction-proposal.md) — Ariel Garbarz署名提议以Inverse Artificial Intelligence结合AI与逆向调查系统行为；FAA、银行和诉讼只是提案语境，文中也承认不能建立共同攻击或OpenAI归因。 **[其他 AI 逆向 · 待验证]**
 - [REA-Prompts：由成品图片或文案推断提示的结构化模板项目](cases/rea-prompts-image-copy-prompt-inference-tool.md) — 候选介绍REA-Prompts用结构化模板描述既有图片或文案，让模型推断提示并尝试重现；未核仓库、输入输出或提示恢复准确率，与REA软件工具的关联未确认。 **[其他 AI 逆向 · 相关项目]**
