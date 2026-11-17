@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2384 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2389 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（468）
-- [硬件与设备互通](categories/hardware.md)（639）
-- [应用与客户端](categories/apps.md)（991）
-- [算法与功能重建](categories/algorithms.md)（286）
+- [硬件与设备互通](categories/hardware.md)（640）
+- [应用与客户端](categories/apps.md)（994）
+- [算法与功能重建](categories/algorithms.md)（287）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -497,6 +497,7 @@
 
 ### 硬件与设备互通
 
+- [CMP 170HX解锁转述：Pico 2控制稳压芯片，AI编写不可逆配置脚本](cases/cmp170hx-pico2-ai-configuration-script-report.md) — 天宫打工人转述玩家以Pico 2和四线连接研究CMP 170HX，AI编写一次性配置脚本，报告识别80GB和126组计算单元；未核源码、样卡或性能，不等于完整A100。 **[其他 AI 逆向 · 待验证]**
 - [31张SEM照片重建流片形貌：CosmosMind硅光工艺反馈的报道](cases/cosmosmind-sem-chip-as-built-geometry-reconstruction-report.md) — 署名编辑李希的报道说CosmosMind系统从31张电镜照片提取刻蚀边缘、重建三维形貌并校准35B工艺模型；这是制造实物到数字几何的重建自述，未审照片或量测。 **[其他 AI 逆向 · 待验证]**
 - [DDR3控制器内部跟踪：Kenta IDA称Claude自行用trace调查故障](cases/claude-ddr3-controller-internal-trace-debug-report.md) — Kenta IDA报告自制高速内部状态跟踪工具很快用于DDR3控制器故障调查，Claude自行读取trace；未给根因、修复或测试日志。 **[其他 AI 逆向 · 待验证]**
 - [SkyOC复活尝试：Hardware 360º称GPT Astra对比BIOS并修改，尚待测试](cases/hardware360-gpt-astra-skyoc-bios-restoration-attempt.md) — Hardware 360º称GPT Astra比较华擎移除SkyOC前后BIOS，找到代码并修改自己的主板BIOS；作者明确仍待验证，没有新超频或性能结果。 **[其他 AI 逆向 · 进行中]**
@@ -1139,12 +1140,15 @@
 
 ### 应用与客户端
 
+- [OpenMotion：把参考宣传片拆成MOTION.md，供Agent换素材重建与继续编辑](cases/openmotion-ai-video-reference-reconstruction-project.md) — Tom Huang宣布OpenMotion，将参考宣传片的镜头、文字节奏、转场和声音写成Agent规范，以模板和可编辑工程重建；95%还原、14天47万行及资源数量均为未复测的作者宣称。 **[其他 AI 逆向 · 待验证]**
+- [Stride主动安全研究：演讲转录称AI反编译已上线程序，尚无逐项目验证记录](cases/solana-stride-ai-deployed-program-audit-report.md) — 黑柴整理Michael Coates的Solana安全演讲，称Stride框架结合形式验证、fuzzing和AI扫描，并以AI反编译已上线程序先找漏洞；500万美元潜在损失为演讲归因，不是已核收益。 **[其他 AI 逆向 · 待验证]**
+- [远程公司的服务都接CLI：ImL1s提出REA加CLI Anything桥接IM的idea](cases/iml1s-rea-company-services-im-cli-idea.md) — ImL1s提出进入全远程新公司后，把所用服务包括IM做成CLI接入AI Agent，点名REA与CLI Anything；未报告实施范围、授权、代码或运行结果。 **[REA · 待验证]**
 - [番茄小说与短剧接入DSH：昕月喵称5.6sol时期研究字节系签名头](cases/selinameowbot-dsh-bytedance-signature-plugin-report.md) — 昕月喵-2.0 Pro称其‘老婆’研究字节系六神签名头并用插件接入DSH，供一起看番茄小说和短剧；提到5.6sol与Codex账号，未提供实现或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [X账号交给AI：Jolinfilling称DeepSeek五分钟完成一次逆向尝试](cases/jolinfilling-deepseek-x-ai-account-management-report.md) — Jolinfilling称DeepSeek五分钟‘把x逆向完了’并启动AI托管；串内续称持续互动，没有接口、代码或操作日志，不扩大为全平台逆向。 **[其他 AI 逆向 · 待验证]**
 - [agy调用能否完整研究：Glowin向AI逆向工具提出的具体问题](cases/glowin-agy-call-interface-ai-reversing-question.md) — Glowin问为何已有这么多AI逆向工具，仍没人完整研究agy调用；只收录为接口研究问题，不确认无人完成或作者已开展。 **[其他 AI 逆向 · 待验证]**
 - [AWS AI-DLC：从单体共享变量重建规格，用故障注入检查数据流](cases/aws-ai-dlc-monolith-io-matrix-reconstruction-method.md) — Eunhye Jo在AWS技术博客用虚构的10阶段C订单程序演示：AST提取读写矩阵，MCP向Agent提供数据流，再生成规格与测试；报告两类注入缺陷被检出，非真实客户迁移或独立复测。 **[其他 AI 逆向 · 相关项目]**
 - [Veltic按需云资源：Paweł以Claude旧游戏私服研究为背景介绍Agent桥接](cases/pawel-veltic-agent-infrastructure-reversing-workflow.md) — Paweł说本地多Claude任务含旧游戏私服逆向，促使他做Veltic云基础设施桥接；报告Opus在Fly.io、Runpod与Hetzner调度，开源仍是计划。 **[其他 AI 逆向 · 相关项目]**
-- [Windows 11编码工具遥测：AI辅助追踪MissionControlAggregator的二手报告](cases/windows-missioncontrol-ai-coding-agent-telemetry-analysis.md) — 报道指Xusheng Li借AI分析Windows DLL；后续补充cmd.exe改名识别、build 26200.9974与上传队列，公共ISO基线默认关闭，队列不等于服务器已收到。 **[其他 AI 逆向 · 待验证]**
+- [Windows 11编码工具遥测：AI辅助追踪MissionControlAggregator的二手报告](cases/windows-missioncontrol-ai-coding-agent-telemetry-analysis.md) — 二手报道指Xusheng Li借AI追踪Windows DLL；新转述区分工具分组的发布者校验、可选队列和服务器收取，明确未亲测；公共ISO功能默认关闭的限制不变。 **[其他 AI 逆向 · 待验证]**
 - [Last Book到家庭Notion：JanCarlos让Grok Bot按自家情况重建准备资料](cases/clarityx-last-book-grok-notion-family-reconstruction.md) — JanCarlos因缺少硬件，把Last Book网站和自己的准备理念交给Grok Bot，在家庭Notion库重建替代资料；导出PDF和离线AI使用仍是计划。 **[其他 AI 逆向 · 进行中]**
 - [易盾应对AI游戏逆向：网易智企提出隐藏、复杂化与诱导监测三层防御](cases/netease-yidun-ai-reversing-three-layer-defense-proposal.md) — 网易智企介绍易盾针对AI辅助游戏代码还原的三层保护思路，没有具体游戏、实现、模型或对照实验；以相关防御方案而非已证实效果收录。 **[未确认使用 REA · 相关项目]**
 - [WardenStealer给分析AI的法律威吓：Cipher0k转述Invoke RE观察](cases/wardenstealer-anti-ai-legal-note-secondary-report.md) — Cipher0k转述Invoke RE称WardenStealer对分析AI宣称逆向违法；这是具名反AI分析提示的二手线索，没有样本或模型拒绝证据。 **[未确认使用 REA · 待验证]**
@@ -1623,7 +1627,7 @@
 - [React生态迁到Solid：Savvas提出借AI重建缺失组件的idea](cases/savvas-ai-react-ecosystem-solid-rebuild-idea.md) — Savvas认为既然AI可用于软件反编译，也应能在Solid重建React生态的大块功能，以降低框架迁移阻力；未点名库、实现或测试。 **[其他 AI 逆向 · 待验证]**
 - [darkzodchi的逆向学习站：REA路线与假App十二课](cases/darkzodchi-rea-twelve-target-prompt-roadmap.md) — darkzodchi先介绍REA目标与提示路线，后称用Opus5.5做假App交互课程，练界面、网络、存储及规格重建；课程数量、免费与教学效果均未验收。 **[REA · 相关项目]**
 - [预测市场终端：Stingy询问Claude/REA能否研究跨平台交易界面](cases/stingy-prediction-market-terminal-rea-idea.md) — Stingy对一款跨Polymarket/Kalshi的预测市场终端询问能否用Claude配REA研究；父帖提供界面用途，但未给软件身份、源码或验证结果。 **[REA · 待验证]**
-- [Claude Android与Sift：钱多多转述APK采集字段研究，非封号算法还原](cases/claude-android-sift-secondary-analysis-report.md) — 钱多多称有人逆向Claude安卓包发现Sift及SIM、运营商、网络与应用字段；没有构建、样本或流量记录，AI辅助未知，不能证明静默上报或封号因果。 **[未确认使用 REA · 相关项目]**
+- [Claude Android与Sift：钱多多转述APK采集字段研究，非封号算法还原](cases/claude-android-sift-secondary-analysis-report.md) — 新转述点名Claude Android 1.260930.20的Sift字段与冷启动流量，区分SIM和网络国家码；原审计未读，AI参与及KYC因果仍未知。 **[未确认使用 REA · 相关项目]**
 - [capcut-cli：剪映草稿结构与本地Whisper字幕流水线的转述](cases/capcut-cli-draft-whisper-secondary-report.md) — 一则项目推荐称capcut-cli直接组装剪映原生草稿与字幕轨，再交官方界面精修；存在多个同名仓库，尚未可靠归属，性能与功能覆盖未核验。 **[未确认使用 REA · 待验证]**
 - [未具名公司SaaS：Jason fengg报告线下委托逆向重建并小额获利](cases/jasonfeng-unnamed-company-saas-reconstruction-report.md) — Jason fengg在AI业务复盘中称给一家公司逆向做了SaaS并赚一点；没有原产品、功能、模型或验收细节，属于简短项目自述。 **[其他 AI 逆向 · 待验证]**
 - [Claude本地身份与遥测：stormzhang的客户端逆向线索，不是服务端封号还原](cases/stormzhang-claude-local-identity-telemetry-analysis.md) — stormzhang称研究Claude本地代码，列账号/设备标识、失败遥测重试、配置备份与凭据存储；承认服务端黑盒，未证明标识与封号因果，也未说明AI辅助。 **[未确认使用 REA · 相关项目]**
@@ -2133,6 +2137,7 @@
 
 ### 算法与功能重建
 
+- [REA-Prompts：由成品图片或文案推断提示的结构化模板项目](cases/rea-prompts-image-copy-prompt-inference-tool.md) — 候选介绍REA-Prompts用结构化模板描述既有图片或文案，让模型推断提示并尝试重现；未核仓库、输入输出或提示恢复准确率，与REA软件工具的关联未确认。 **[其他 AI 逆向 · 相关项目]**
 - [把Rafale计算机交给Opus？AWACS Sky Keeper提出的未实施接口研究设想](cases/awacs-rafale-opus-interface-research-idea.md) — AWACS Sky Keeper讨论Rafale技术转让，猜想Opus 5.5可研究未公开计算机接口；仅高层idea，无目标接入、数据、步骤或结果。 **[其他 AI 逆向 · 待验证]**
 - [从色卡反推富士LUT：雪人提出把既有测量流程交给AI自动化](cases/fujifilm-color-chart-ai-lut-reconstruction-idea.md) — 雪人回忆固定灯光、色温和白平衡、多曝光拍色卡反推LUT的做法，提出有工作流就能由AI自动化；未报告自己实施或做出风格文件。 **[其他 AI 逆向 · 待验证]**
 - [Higgsfield增长地图：Monid称Claude配Search1API用0.07美元重建事件时间线](cases/monid-claude-higgsfield-growth-timeline-report.md) — Monid推广Claude研究Higgsfield增长路径，将免费活动、创作者推广、搜索页与融资放在一条时间线，自称0.07美元；是合作推广，未审结果。 **[其他 AI 逆向 · 待验证]**

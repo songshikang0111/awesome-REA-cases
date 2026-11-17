@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2384 cases & projects
+# 2389 cases & projects
 
-**Latest case update:** November 17, 2026, 20:12 · **Last maintained:** November 17, 2026, 20:12 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 17, 2026, 20:27 · **Last maintained:** November 17, 2026, 20:27 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: recover a compiler, regain device control, preserve a game, or audit a binary. Look for working references, repair loops and explicit limits—not promises of effortless automation. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: recover a compiler, regain device control, preserve a game, or audit a binary. These picks favor concrete comparisons and documented limits over headline fidelity or speed claims. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[AWS AI-DLC: preserve the coupon, not just the syntax](cases/en/aws-ai-dlc-monolith-io-matrix-reconstruction-method.md)** · `2026-11-17` author article — **AST-derived data flows guide AI specifications and generated tests** for a ten-stage C order example. Injected stale-payment and missing-input defects reportedly fail checks; a fictional example, not a customer migration. Article read, not rerun here. `Method demo`
@@ -50,9 +50,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **468** |
-| [Hardware & interoperability](categories/en/hardware.md) | **639** |
-| [Applications & clients](categories/en/apps.md) | **991** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **286** |
+| [Hardware & interoperability](categories/en/hardware.md) | **640** |
+| [Applications & clients](categories/en/apps.md) | **994** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **287** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 
