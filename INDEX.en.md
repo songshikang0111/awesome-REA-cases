@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2358 entries**, organized by use case, without a Top-N or popularity threshold.
+**2369 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
 - [Games and preservation](categories/en/games.md) (466)
-- [Hardware and interoperability](categories/en/hardware.md) (633)
-- [Applications and clients](categories/en/apps.md) (976)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (283)
+- [Hardware and interoperability](categories/en/hardware.md) (636)
+- [Applications and clients](categories/en/apps.md) (983)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (284)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -497,6 +497,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Single-DIN truck radio: Daniel Cook reports LLM firmware emulation and GLM 5.3 reaching Hello World in hours](cases/en/daniel-cook-single-din-radio-qemu-glm53-report.md) — Daniel Cook reports having an LLM emulate his inexpensive truck-radio firmware in QEMU, then asking GLM 5.3 to find and exploit a buffer overflow, reaching Hello World in a few hours. Code and hardware results were not reviewed. **[Other AI-assisted work · Needs verification]**
+- [A discarded 3D printer: OnMyWay reports a new interface from Claude in 15–20 minutes](cases/en/onmyway-claude-discarded-3d-printer-interface-report.md) — OnMyWay says Claude updated a printer discarded by its manufacturer over firmware problems with a new interface in 15–20 minutes. The model, reversing method and actual printing remain unverified. **[Other AI-assisted work · Needs verification]**
+- [Bugatti Jacqueline kettle to Home Assistant: Inna proposes Bluetooth research and questions its value](cases/en/inna-bugatti-jacqueline-ble-home-assistant-idea.md) — In an AI-home-automation discussion, Inna Babicka considers studying her kettle's Bluetooth protocol for an ESP32 or custom Home Assistant integration, but questions the need because it already has a timer. Nothing has been implemented. **[REA use unconfirmed · Needs verification]**
 - [Identifying a fake Kingston NV3: a report of Claude's initial misdiagnosis and later controller checks](cases/en/fake-kingston-nv3-ssd-claude-controller-identity-report.md) — Vaibhav Sisinty relays a Reddit user whose Claude Code repeatedly blamed failed hardware, then checked Windows device identity after human questioning. Realtek controller/firmware mismatches allegedly exposed a 4TB-labeled drive with about 256GB. **[Other AI-assisted work · Needs verification]**
 - [ClaudeWatch wrist approvals: darkzodchi reports an Apple Watch-to-Mac agent bridge](cases/en/claudewatch-fable-apple-watch-agent-bridge-report.md) — darkzodchi claims to reverse-engineer an Apple Watch and install Fable 5.2. The actual steps describe Bonjour, a Node bridge and Claude Code hooks for terminal viewing, approvals and voice—not demonstrated local model inference. **[REA use unconfirmed · Needs verification]**
 - [usb-rea: a reported tool for drivers for USB devices tied to vendor apps](cases/en/usb-rea-vendor-app-usb-driver-tool-report.md) — A Japanese post shares FabScene's usb-rea article, describing a tool for making drivers for app-dependent USB devices. Article, repository and hardware validation were not read; the name does not establish REA use. **[REA use unconfirmed · Related project]**
@@ -1133,6 +1136,13 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [WardenStealer's legal warning to analysis AI: Cipher0k relays an Invoke RE observation](cases/en/wardenstealer-anti-ai-legal-note-secondary-report.md) — Cipher0k relays Invoke RE's observation that WardenStealer tells analysis AI that reversing it is illegal. This is a secondary lead about a named anti-AI-analysis message, without a sample or evidence of model refusal. **[REA use unconfirmed · Needs verification]**
+- [A .claude folder for research and hardening: Archive's graphify/REA/bla workflow](cases/en/archive-claude-folder-map-reverse-harden-workflow.md) — Archive describes graphify mapping, REA research and bla hardening of one's own software, joined by Explore, verifier and MEMORY in a Fable 5.2 workflow. No specific target app or execution evidence is supplied. **[REA · Related project]**
+- [Does a cloud Claude Code option actually use that harness? Thomas Reynaud's REA audit question](cases/en/thomas-reynaud-rea-cloud-claude-pi-harness-audit-report.md) — Thomas Reynaud says REA led him to suspect an unnamed cloud app uses a pi harness and user credentials even when Claude Code is selected, asking reasonmachines to check. Product identity and risk remain unconfirmed. **[REA · Needs verification]**
+- [haruspex v1: IDA function pseudocode for pattern matching and LLM vulnerability triage](cases/en/haruspex-ida-pseudocode-llm-triage-tool.md) — Marco Ivaldi's IDA binary-audit pipeline uses haruspex to export pseudocode and types, Semgrep/weggli for initial triage, LLMs for closer review and humans for confirmation. The author article and pinned docs were read; no tool was run. **[Other AI-assisted work · Related project]**
+- [rhabdomancer v1: marking potentially risky API calls in IDA for further investigation](cases/en/rhabdomancer-ida-risky-api-triage-tool.md) — Rhabdomancer marks potentially risky API calls in IDA for LLM and human triage. The author article and pinned docs were read, but flagged locations are not confirmed vulnerabilities and the tool was not run. **[Other AI-assisted work · Related project]**
+- [augur v1: string-associated pseudocode and caching, with IDA-version limits on performance claims](cases/en/augur-ida-string-pseudocode-cache-tool.md) — Augur exports string-associated function pseudocode and types and reuses decompilation. Its author reports 36 AArch64 ELF binaries going from 39.3 minutes to 124 seconds while changing both tool and IDA versions. The original was read, not rerun. **[Other AI-assisted work · Related project]**
+- [Why did Daybreak eligibility fail? Aram reports an Anthropic-assisted public-email-domain inference](cases/en/aram-anthropic-daybreak-email-eligibility-analysis-report.md) — Aram Hăvărneanu says Anthropic helped study OpenAI Daybreak eligibility and infer that individual applicants need a public email domain. No method, code or official confirmation establishes this as a qualification rule. **[Other AI-assisted work · Needs verification]**
 - [SuperBot: a report of David Ondrej rebuilding Grok Bot with Opus and Rust for self-hosting](cases/en/david-ondrej-superbot-grok-rust-opus-report.md) — The roundup and David Ondrej's original post report reversing Grok Bot into a Rust/Opus 5.5 version self-hosted on a VPS, named SuperBot in his reply. Repository, functionality and open-source license were not checked. **[Other AI-assisted work · Needs verification]**
 - [Could REA tackle all of Xcode? syh plans a try before the Claude reset](cases/en/rea-full-xcode-before-claude-reset-idea.md) — syh asks whether REA can be used on full Xcode and plans to try before Claude resets. The target is specific, but executed analysis, scope and results are absent. **[REA · Needs verification]**
 - [Thales software protection against AI-led reversal: a headline-level FutureCISO announcement](cases/en/thales-ai-led-reversing-software-protection-announcement.md) — Masayuki Hatta shares a FutureCISO headline about Thales unveiling software protection against AI-led reverse engineering. Article, product documentation and tests were not read; effectiveness is not inferred. **[REA use unconfirmed · Related project]**
@@ -2112,6 +2122,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Higgsfield's growth map: Monid reports a $0.07 Claude/Search1API event timeline](cases/en/monid-claude-higgsfield-growth-timeline-report.md) — Monid promotes using Claude to reconstruct Higgsfield's growth through free-access windows, creator pushes, search pages and funding rounds on one timeline, claiming $0.07. It is a partnership promotion; results were not reviewed. **[Other AI-assisted work · Needs verification]**
 - [Starship catch video to Three.js: Mollick publishes Fable/Opus prompts and estimation limits](cases/en/mollick-starship-catch-video-threejs-reconstruction-report.md) — Mollick publishes prompts for Opus 5.5 and Fable 5.2 to reconstruct about 40 seconds of Starship-catch footage in Three.js, with switchable views and synchronized replay. Much geometry is estimated without SpaceX engineering drawings; nothing was run here. **[Other AI-assisted work · Needs verification]**
 - [Remaking a 15-second promo: benzy reports 50 minutes with Fable/rea-video tools versus three days in AE](cases/en/fable-rea-video-15second-promo-ae-comparison-report.md) — benzy reports two versions of a 15-second promo: three days in After Effects and 50 minutes with Fable 5.2 plus 15 repositories, with four of five friends preferring the latter. Clips, workflow and costs were not examined. **[Other AI-assisted work · Needs verification]**
 - [Inferring a prompt from an AI image: EdhiAitheEnti reports trying REA skills](cases/en/edhiaitheenti-rea-ai-image-prompt-inference-report.md) — EdhiAitheEnti says REA skills were used to find an AI image's prompt. Reference image, inferred prompt and regenerated comparison are absent; a plausible description is not established recovery of the original input. **[REA · Needs verification]**

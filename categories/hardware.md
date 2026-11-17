@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [单DIN卡车收音机：Daniel Cook称LLM模拟固件，GLM 5.3数小时得到Hello World](../cases/daniel-cook-single-din-radio-qemu-glm53-report.md) — Daniel Cook报告让LLM在QEMU模拟自有廉价卡车收音机固件，再让GLM 5.3找缓冲区溢出并利用，几小时得到Hello World；未审代码或实机结果。 **[其他 AI 逆向 · 待验证]**
+- [被厂商弃置的3D打印机：OnMyWay称Claude在15至20分钟更新界面](../cases/onmyway-claude-discarded-3d-printer-interface-report.md) — OnMyWay称一台因固件问题被3D打印机厂商弃置的设备，经Claude在15至20分钟更新了新界面；型号、逆向方式与实际打印未核实。 **[其他 AI 逆向 · 待验证]**
+- [Bugatti Jacqueline水壶接Home Assistant：Inna提出蓝牙研究，也质疑必要性](../cases/inna-bugatti-jacqueline-ble-home-assistant-idea.md) — Inna Babicka在AI家居自动化讨论中想到研究自有水壶蓝牙，经ESP32或自定义集成接Home Assistant，但已有定时器让她质疑用途；尚未实施。 **[未确认使用 REA · 待验证]**
 - [假Kingston NV3的身份检查：Claude先误判，再查控制器与固件的转述](../cases/fake-kingston-nv3-ssd-claude-controller-identity-report.md) — Vaibhav Sisinty转述Reddit用户：Claude Code多次误判硬件坏，经人质疑后查Windows设备身份，发现Realtek控制器与固件不符，标4TB盘据称约256GB。 **[其他 AI 逆向 · 待验证]**
 - [ClaudeWatch腕上审批：darkzodchi报告Apple Watch与Mac Agent桥接](../cases/claudewatch-fable-apple-watch-agent-bridge-report.md) — darkzodchi称逆向Apple Watch并装入Fable 5.2；所列步骤实际描述Bonjour、Node桥与Claude Code hooks，支持腕上看终端、审批和发语音，不能据此说模型本地运行。 **[未确认使用 REA · 待验证]**
 - [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](../cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 一则日语帖子分享FabScene对usb-rea的报道，称工具为依赖专用App的USB设备制作驱动；未读文章、仓库或设备验证，不由名称推定REA关联。 **[未确认使用 REA · 相关项目]**

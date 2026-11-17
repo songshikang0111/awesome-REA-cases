@@ -1,5 +1,182 @@
 [
   {
+    "id": "daniel-cook-single-din-radio-qemu-glm53-report",
+    "title": "单DIN卡车收音机：Daniel Cook称LLM模拟固件，GLM 5.3数小时得到Hello World",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Daniel Cook报告让LLM在QEMU模拟自有廉价卡车收音机固件，再让GLM 5.3找缓冲区溢出并利用，几小时得到Hello World；未审代码或实机结果。",
+    "description": "2026年11月17日07:35:18（北京时间），Daniel Cook（@danielcdev）称为自己的卡车买了一台廉价单DIN收音机，让LLM在QEMU中完整模拟其固件，又请GLM 5.3找缓冲区溢出并利用，几小时内得到Hello World。单DIN是车载音响安装尺寸规格，不是设备型号。目标是研究自有收音机固件并尝试执行自定义输出；‘完整模拟’与成功利用均为作者自述。\n\n补取原帖确认署名、正文及两张图片附件，未查看图片、展开短链、读取仓库、固件或测试记录，也未运行模拟器。品牌、型号、CPU、固件版本、模拟外设范围和Hello World究竟在模拟器还是实机出现均未核实。作者没有明确说构建模拟环境的LLM也是GLM 5.3，不合并两项模型归因；‘几小时’不是精确工时。未提供漏洞编号、修复状态或可复现日志，不补写攻击步骤，也不推成车辆其他系统被控制。REA未提及，保留unverified。",
+    "sources": [{"label": "Daniel Cook的QEMU／GLM 5.3收音机固件研究自述，2026-11-17 07:35:18北京时间", "url": "https://x.com/i/status/2122473618122699144"}],
+    "snapshot_date": "2026-11-17",
+    "metadata": ["候选封存0赞、13浏览、0转发、0回复；Hello World与几小时为作者报告，不是本合集复现。"],
+    "en": {
+      "title": "Single-DIN truck radio: Daniel Cook reports LLM firmware emulation and GLM 5.3 reaching Hello World in hours",
+      "summary": "Daniel Cook reports having an LLM emulate his inexpensive truck-radio firmware in QEMU, then asking GLM 5.3 to find and exploit a buffer overflow, reaching Hello World in a few hours. Code and hardware results were not reviewed.",
+      "description": "At 07:35:18 Beijing time on November 17, 2026, Daniel Cook (@danielcdev) says he bought an inexpensive single-DIN radio for his truck, had an LLM fully emulate its firmware in QEMU, and asked GLM 5.3 to find and exploit a buffer overflow. He reports Hello World within a few hours. Single-DIN is an in-dash audio mounting-size specification, not a model identifier. The aim is studying his own radio firmware and attempting custom output; full emulation and successful exploitation are author claims.\n\nRetrieval confirms attribution, text and two attached photos. The photos, short links, repository, firmware and test records were not reviewed, and no emulator was run. Brand, model, CPU, firmware revision, emulated-peripheral coverage and whether Hello World appeared in emulation or on hardware remain unverified. The author does not explicitly identify the emulation-building LLM as GLM 5.3; the two model attributions are not merged. A few hours is not exact labor accounting. No vulnerability identifier, remediation status or reproducible logs are supplied. No exploit procedure is added, nor control of other vehicle systems inferred. REA is unmentioned; status remains unverified.",
+      "metadata": ["Sealed candidate: 0 likes, 13 views, 0 reposts, 0 replies. Hello World and a few hours are author reports, not reproduction by this collection."],
+      "source_labels": ["Daniel Cook's QEMU/GLM 5.3 radio-firmware research account, November 17, 2026 at 07:35:18 Beijing time"]
+    }
+  },
+  {
+    "id": "onmyway-claude-discarded-3d-printer-interface-report",
+    "title": "被厂商弃置的3D打印机：OnMyWay称Claude在15至20分钟更新界面",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "OnMyWay称一台因固件问题被3D打印机厂商弃置的设备，经Claude在15至20分钟更新了新界面；型号、逆向方式与实际打印未核实。",
+    "description": "2026年11月17日04:06:16（北京时间），OnMyWay（@LoveisElse）回复@MelihKarakelle说，当天一台因固件原因被3D打印机厂商当废品处理的打印机，被Claude在15至20分钟内以新界面更新，接下来只需开始打印。收录的是AI辅助旧设备软件恢复的作者报告，不是已证实恢复原始固件源码。\n\n补取确认土耳其语正文、署名及照片附件，未查看照片、连接设备、读取固件、源码或构建日志。原句没有给品牌、型号、Claude版本，也没有说明是反编译、协议分析、修改已有开源固件还是重做控制界面；不能补写其逆向方法或断言成功修复全部固件。15至20分钟为作者所称更新耗时，不是完整诊断与维修工时；‘开始打印’是接下来要做的事，不是已给出成功打印测试。REA未提及，保留低细节的unverified设备恢复报告。",
+    "sources": [{"label": "OnMyWay的Claude／弃置3D打印机更新自述，2026-11-17 04:06:16北京时间", "url": "https://x.com/i/status/2122421010528104808"}],
+    "snapshot_date": "2026-11-17", "metadata": ["候选封存2赞、239浏览、0转发、0回复；15至20分钟未经计时或复现。"],
+    "en": {
+      "title": "A discarded 3D printer: OnMyWay reports a new interface from Claude in 15–20 minutes",
+      "summary": "OnMyWay says Claude updated a printer discarded by its manufacturer over firmware problems with a new interface in 15–20 minutes. The model, reversing method and actual printing remain unverified.",
+      "description": "At 04:06:16 Beijing time on November 17, 2026, OnMyWay (@LoveisElse) replies to @MelihKarakelle that Claude updated a printer its manufacturer had discarded over firmware problems with a new interface that day in 15–20 minutes, leaving them to start printing. This records an author-reported AI-assisted recovery of old-device software, not established recovery of original firmware source.\n\nRetrieval confirms the Turkish text, attribution and a photo attachment. The photo, hardware, firmware, source and build logs were not examined. The sentence supplies no brand, model or Claude revision and does not say whether the work involved decompilation, protocol analysis, modifying existing open-source firmware or rebuilding a control interface. Neither a reversing method nor a complete firmware repair is inferred. The 15–20 minutes describes the reported update, not total diagnosis and repair labor. Starting printing is the stated next step, not a supplied successful print test. REA is unmentioned; this remains a low-detail, unverified device-recovery report.",
+      "metadata": ["Sealed candidate: 2 likes, 239 views, 0 reposts, 0 replies. The 15–20 minutes was not timed or reproduced here."],
+      "source_labels": ["OnMyWay's Claude/discarded-3D-printer update account, November 17, 2026 at 04:06:16 Beijing time"]
+    }
+  },
+  {
+    "id": "wardenstealer-anti-ai-legal-note-secondary-report",
+    "title": "WardenStealer给分析AI的法律威吓：Cipher0k转述Invoke RE观察",
+    "category": "apps", "rea": "unknown", "status": "unverified",
+    "summary": "Cipher0k转述Invoke RE称WardenStealer对分析AI宣称逆向违法；这是具名反AI分析提示的二手线索，没有样本或模型拒绝证据。",
+    "description": "2026年11月17日04:17:18（北京时间），Cipher0k（@theaihacker）称WardenStealer恶意软件给分析者的AI留了一段话，按Invoke RE的观察，内容宣称逆向它违法。具体研究对象是恶意软件试图用面向AI的法律措辞干扰分析，而不是法律裁定；帖子调侃未说哪家法院，不据此判定任何司法事实。\n\n补取确认署名、正文与图片附件，未读图片、Invoke RE原始分析或样本，也未调用模型分析恶意软件。没有原始提示全文、嵌入位置、样本哈希、分析工具、模型版本、拒绝记录或对照实验，不能把‘存在威吓提示’升级成‘成功阻止逆向’或指定用了REA。仅以二手观察保留unverified，未下载、运行或传播恶意软件。",
+    "sources": [{"label": "Cipher0k转述Invoke RE的WardenStealer反AI分析法律提示，2026-11-17 04:17:18北京时间", "url": "https://x.com/i/status/2122423789514633617"}],
+    "snapshot_date": "2026-11-17", "metadata": ["候选封存0赞、22浏览、0转发、0回复；没有提示有效性的测试。"],
+    "en": {
+      "title": "WardenStealer's legal warning to analysis AI: Cipher0k relays an Invoke RE observation",
+      "summary": "Cipher0k relays Invoke RE's observation that WardenStealer tells analysis AI that reversing it is illegal. This is a secondary lead about a named anti-AI-analysis message, without a sample or evidence of model refusal.",
+      "description": "At 04:17:18 Beijing time on November 17, 2026, Cipher0k (@theaihacker) says WardenStealer malware leaves a note for the analyst's AI and, according to Invoke RE, tells AI tools that reversing it is illegal. The concrete subject is malware attempting to interfere with analysis through AI-directed legal language, not a legal ruling. The poster jokes that no court is identified; no judicial fact is inferred.\n\nRetrieval confirms attribution, text and a photo attachment. The image, Invoke RE's original analysis and malware sample were not read, nor was a model asked to analyze malware here. Full prompt text, embedded location, sample hash, analysis tool, model revision, refusal logs and controlled comparisons are absent. An alleged warning is not demonstrated successful obstruction, and REA use is unknown. This remains an unverified secondary observation. No malware was downloaded, executed or redistributed.",
+      "metadata": ["Sealed candidate: 0 likes, 22 views, 0 reposts, 0 replies. No test of the message's effectiveness is supplied."],
+      "source_labels": ["Cipher0k relays Invoke RE's WardenStealer anti-AI-analysis legal message, November 17, 2026 at 04:17:18 Beijing time"]
+    }
+  },
+  {
+    "id": "archive-claude-folder-map-reverse-harden-workflow",
+    "title": "一个.claude目录串起研究与加固：Archive介绍graphify／REA／bla工作流",
+    "category": "apps", "rea": "REA", "status": "related-project",
+    "summary": "Archive描述用graphify先建图、REA研究、bla加固自有软件，再由Explore、verifier与MEMORY衔接的Fable 5.2工作流；未给具体应用或运行证据。",
+    "description": "2026年11月17日05:03:01（北京时间），Archive（@ArchiveExplorer）推广一个.claude目录式工作流，声称来自一位Anthropic逆向工程师，在Fable 5.2上以安全团队般的速度研究付费应用。可辨认的项目是map→reverse→harden→verify→memory：skills/map-first用graphify先画图且称此步不用LLM；skills/reverse-and-harden用REA读应用、bla加固自己的应用；agents/Explore负责低成本探索，agents/verifier作完成检查，MEMORY.md存既有发现。\n\n这里把它作为组合研究与验证的相关工作流，不将工具名各自当成新独立案例，也不把‘REA读任何app’当兼容性证明。匿名工程师的雇主身份、完整安全团队速度、加固效果与省钱均无证据；没有具名目标、目录内容、命令、版本或测试。补取确认作者和主帖，05:03:33同作者纯链接回复属于此串；所链文章未展开，不能当已读配置或复现。未安装技能、运行目标或审计bla，保留related-project及全部宣传归因。",
+    "sources": [{"label": "Archive的.claude目录／graphify／REA／bla组合工作流，2026-11-17 05:03:01北京时间", "url": "https://x.com/i/status/2122435292510429690"}],
+    "snapshot_date": "2026-11-17", "metadata": ["候选封存26赞、787浏览、1转发、3回复；传播不验证匿名身份或团队级效率。"],
+    "en": {
+      "title": "A .claude folder for research and hardening: Archive's graphify/REA/bla workflow",
+      "summary": "Archive describes graphify mapping, REA research and bla hardening of one's own software, joined by Explore, verifier and MEMORY in a Fable 5.2 workflow. No specific target app or execution evidence is supplied.",
+      "description": "At 05:03:01 Beijing time on November 17, 2026, Archive (@ArchiveExplorer) promotes a .claude-folder workflow allegedly supplied by an Anthropic reverse engineer who studies paid apps at security-team speed with Fable 5.2. The identifiable project is map → reverse → harden → verify → memory: skills/map-first uses graphify to draw a graph first, reportedly without an LLM; skills/reverse-and-harden uses REA to read apps and bla to harden one's own; agents/Explore is the cheap scout, agents/verifier the completion gate, and MEMORY.md retains findings.\n\nThis is recorded as a combined research-and-verification workflow, not separate new cases for each named existing tool or proof that REA can read any app. The anonymous engineer's employer, team-level speed, hardening effectiveness and savings are unsupported. No named target, folder contents, commands, versions or tests are supplied. Retrieval confirms the author and main post; the same author's link-only reply at 05:03:33 belongs to this thread. The linked article was not expanded and is not treated as reviewed configuration or reproduction. No skills were installed, targets run or bla audited. Status remains related-project with promotional attribution retained.",
+      "metadata": ["Sealed candidate: 26 likes, 787 views, 1 repost, 3 replies. Engagement does not validate the anonymous identity or team-level efficiency."],
+      "source_labels": ["Archive's .claude-folder/graphify/REA/bla combined workflow, November 17, 2026 at 05:03:01 Beijing time"]
+    }
+  },
+  {
+    "id": "thomas-reynaud-rea-cloud-claude-pi-harness-audit-report",
+    "title": "云端Claude Code选项是否真用其harness：Thomas Reynaud的REA核查疑问",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Thomas Reynaud称运行REA后怀疑某云端app在选择Claude Code时仍用pi harness和用户凭据，请reasonmachines核实；产品名与风险均未确认。",
+    "description": "2026年11月17日05:20:55（北京时间），Thomas Reynaud（@thmsreynaud）说照建议对一个app运行了reverse engineer anything skill，感觉其Claude Code使用方式可疑：云端版本即使选择Claude Code，似乎仍在自己的pi harness里运行Claude，并使用用户自己的凭据。他点名@reasonmachines请求事实核查，并用‘如果属实’限定批评。目标是核对产品选项、实际执行框架和凭据使用是否一致。\n\n补取原帖与thread只取得这条自述，未找到明确产品名或回应；@reasonmachines是被询问对象，不能据此断言应用名称或运营主体。没有文件、调用链、网络记录、版本、账户条款或可复查结果，作者的‘有风险’也不是已证实泄露、盗用或违反条款。pi harness与Claude Code之间的差异按作者疑问记录，不是本合集技术审计。未访问凭据、运行app或连接云端，保留REA使用归因与unverified。",
+    "sources": [{"label": "Thomas Reynaud的REA云端Claude／pi harness核查自述与求证，2026-11-17 05:20:55北京时间", "url": "https://x.com/i/status/2122439795817234872"}],
+    "snapshot_date": "2026-11-17", "metadata": ["候选封存1赞、23浏览、0转发、0回复；未取得产品方确认或反驳，不作凭据安全结论。"],
+    "en": {
+      "title": "Does a cloud Claude Code option actually use that harness? Thomas Reynaud's REA audit question",
+      "summary": "Thomas Reynaud says REA led him to suspect an unnamed cloud app uses a pi harness and user credentials even when Claude Code is selected, asking reasonmachines to check. Product identity and risk remain unconfirmed.",
+      "description": "At 05:20:55 Beijing time on November 17, 2026, Thomas Reynaud (@thmsreynaud) says he followed advice and ran a reverse engineer anything skill on an app. He found its Claude Code usage suspicious: the cloud version seems to run Claude in its own pi harness with users' credentials even when Claude Code is selected. He asks @reasonmachines to fact-check and qualifies his criticism with 'if true.' The aim is checking consistency between a product option, the actual execution framework and credential use.\n\nRetrieving the post and thread yielded only this account, without an explicit product name or response. @reasonmachines is the party asked, not proof of the app's name or operator. No files, call chain, network trace, revision, account terms or reviewable results are supplied. The author's risk claim does not establish leakage, misuse or a terms violation. The pi/Claude Code harness distinction is recorded as his question, not a technical audit by this collection. No credentials were accessed, app run or cloud service connected. REA use remains attributed and status unverified.",
+      "metadata": ["Sealed candidate: 1 like, 23 views, 0 reposts, 0 replies. No product-side confirmation or rebuttal was obtained; no credential-security conclusion is drawn."],
+      "source_labels": ["Thomas Reynaud's REA cloud-Claude/pi-harness audit account and request for checking, November 17, 2026 at 05:20:55 Beijing time"]
+    }
+  },
+  {
+    "id": "inna-bugatti-jacqueline-ble-home-assistant-idea",
+    "title": "Bugatti Jacqueline水壶接Home Assistant：Inna提出蓝牙研究，也质疑必要性",
+    "category": "hardware", "rea": "unknown", "status": "unverified",
+    "summary": "Inna Babicka在AI家居自动化讨论中想到研究自有水壶蓝牙，经ESP32或自定义集成接Home Assistant，但已有定时器让她质疑用途；尚未实施。",
+    "description": "2026年11月17日06:30:39（北京时间），Inna Babicka（@innababicka）受近期AI家居自动化实验启发，检查自己能改造的设备。她的Bugatti Jacqueline水壶用蓝牙，提出可以逆向协议，通过ESP32或自定义集成连接Home Assistant；又说水壶已经有定时器，问这样做有什么意义。具体idea是让具名自有设备互通，不是已经完成的驱动或集成。\n\n作者还提到Miele现有API、冰箱摄像头找食物和来春温室自动化，但没有描述这些项目的协议研究，不另造逆向案例。AI仅是动机与家居讨论背景，作者没有说将用哪种模型做水壶逆向，不能指定REA或声称AI已解码。补取确认署名、正文与照片附件，未审协议、代码、抓包、设备或照片。没有温控、加热安全、兼容性或自动执行测试；保留作者自己的必要性质疑与unverified idea，不提供接线或控制操作。",
+    "sources": [{"label": "Inna Babicka的Bugatti Jacqueline蓝牙／Home Assistant设想，2026-11-17 06:30:39北京时间", "url": "https://x.com/i/status/2122457346672607636"}],
+    "snapshot_date": "2026-11-17", "metadata": ["候选封存0赞、19浏览、0转发、0回复；没有已执行研究或工时。"],
+    "en": {
+      "title": "Bugatti Jacqueline kettle to Home Assistant: Inna proposes Bluetooth research and questions its value",
+      "summary": "In an AI-home-automation discussion, Inna Babicka considers studying her kettle's Bluetooth protocol for an ESP32 or custom Home Assistant integration, but questions the need because it already has a timer. Nothing has been implemented.",
+      "description": "At 06:30:39 Beijing time on November 17, 2026, Inna Babicka (@innababicka), inspired by recent AI-home-automation experiments, considers her own appliances. Her Bugatti Jacqueline kettle uses Bluetooth; she suggests reverse-engineering its protocol and connecting it to Home Assistant through an ESP32 or custom integration. She then asks what the point would be when it already has a timer. The concrete idea is interoperability for a named, owned device, not a completed driver or integration.\n\nShe also mentions Miele's existing API, a fridge camera for locating food and greenhouse automation next spring, without protocol research for those projects; no extra reversing cases are invented. AI is the motivation and home-automation context only. She names no model for the kettle research, so neither REA nor completed AI decoding is inferred. Retrieval confirms attribution, text and a photo attachment, not a protocol, source, capture, hardware or photo review. Temperature control, heating safety, compatibility and automatic execution were not tested. Her own question about necessity is retained with unverified-idea status; no wiring or control procedure is supplied.",
+      "metadata": ["Sealed candidate: 0 likes, 19 views, 0 reposts, 0 replies. No executed research or labor duration is supplied."],
+      "source_labels": ["Inna Babicka's Bugatti Jacqueline Bluetooth/Home Assistant idea, November 17, 2026 at 06:30:39 Beijing time"]
+    }
+  },
+  {
+    "id": "monid-claude-higgsfield-growth-timeline-report",
+    "title": "Higgsfield增长地图：Monid称Claude配Search1API用0.07美元重建事件时间线",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Monid推广Claude研究Higgsfield增长路径，将免费活动、创作者推广、搜索页与融资放在一条时间线，自称0.07美元；是合作推广，未审结果。",
+    "description": "2026年11月17日06:33:29（北京时间），Monid（@MonidHQ）介绍‘Claude for growth reverse-engineering’，称用0.07美元研究Higgsfield的增长地图。其描述是一问、十个搜索引擎、一个key，把免费窗口、创作者推广、搜索页面和融资轮次合成时间线，并推广Monid上的Search1API五折优惠，明确与@search1api_dev合作。\n\n这是从公开事件重建商业增长路径的AI应用，不是入侵Higgsfield、提取模型或软件源码。目标公司与事件类型具体，但‘每一步增长动作’是推广承诺，帖子没有逐条引用、结果时间线、因果检验、请求数、模型版本或账单。0.07美元不能解释为全部Agent费用或任意公司的复现成本。补取确认署名、文字与视频附件，未观看演示、调用API或独立核对增长归因；热度不证明完整性，REA未提及，保持unverified。",
+    "sources": [{"label": "Monid的Claude／Search1API重建Higgsfield增长时间线合作推广，2026-11-17 06:33:29北京时间", "url": "https://x.com/i/status/2122458061470388306"}],
+    "snapshot_date": "2026-11-17", "metadata": ["候选封存50赞、8817浏览、3转发、14回复；0.07美元与十引擎为推广方自述，未核账单。"],
+    "en": {
+      "title": "Higgsfield's growth map: Monid reports a $0.07 Claude/Search1API event timeline",
+      "summary": "Monid promotes using Claude to reconstruct Higgsfield's growth through free-access windows, creator pushes, search pages and funding rounds on one timeline, claiming $0.07. It is a partnership promotion; results were not reviewed.",
+      "description": "At 06:33:29 Beijing time on November 17, 2026, Monid (@MonidHQ) introduces 'Claude for growth reverse-engineering,' claiming a $0.07 investigation of Higgsfield's growth map. The described workflow is one question, ten search engines and one key, placing free-access windows, creator pushes, search pages and funding rounds on a timeline. The post promotes a 50% Search1API discount on Monid and explicitly names a partnership with @search1api_dev.\n\nThis is an AI application reconstructing a business-growth path from public events, not intrusion into Higgsfield or extraction of models or software source. The company and event types are specific, but 'every move that grew it' is a promotional promise. Itemized citations, the resulting timeline, causal tests, request counts, model revision and bills are absent. The $0.07 is not established as total agent cost or a reproducible cost for any company. Retrieval confirms attribution, text and a video attachment; no demonstration was watched, API called or growth attribution independently checked. Engagement does not establish completeness. REA is unmentioned; status stays unverified.",
+      "metadata": ["Sealed candidate: 50 likes, 8,817 views, 3 reposts, 14 replies. The $0.07 and ten engines are promotional claims without a checked bill."],
+      "source_labels": ["Monid's Claude/Search1API partnership promotion for a Higgsfield growth timeline, November 17, 2026 at 06:33:29 Beijing time"]
+    }
+  },
+  {
+    "id": "haruspex-ida-pseudocode-llm-triage-tool",
+    "title": "haruspex v1：从IDA导出函数伪代码，供模式匹配与LLM漏洞初筛",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Marco Ivaldi的IDA二进制审计管线以haruspex导出伪代码和类型，Semgrep／weggli初筛、LLM细看、人再确认；补读作者文章与固定文档，未运行工具。",
+    "description": "2026年11月17日06:37:01（北京时间），吉川孝志（@MalwareBibleJP）整理Hex-Rays对三个IDA工具v1的介绍。其中haruspex利用无界面IDA的idalib Rust绑定，按函数导出反编译伪代码文件，供Semgrep或weggli匹配以初筛二进制漏洞候选，之后再由LLM细看、人做静态与动态验证。报道说haruspex与augur同时输出结构体、枚举等类型定义，并调整IDA新显示形式供后续分析工具读取，涉及IDA 9.5支持。\n\n补读Marco Ivaldi／HN Security在Hex-Rays的作者文章，发布日期2026年11月12日19:52:28 UTC，早于本窗口，仅作补证。作者明确描述上述LLM初筛链，并称用Claude辅助编写新单元、集成与回归测试。其MacBook Air M3自测：280个AArch64 ELF共14MB，工具v0.9.3／IDA 9.3的827秒，对v1.2.0／IDA 9.5的744秒，均从无既有IDB开始且包含初始分析；Semgrep 1.183.0可解析新版伪代码约99.1%的行，对旧版98.3%。这是语法可解析率，不是漏洞检测准确率。\n\n另读固定e41b312 README，提交2026年11月16日09:11:37 UTC，确认逐函数文件、全局与局部类型头文件及最新IDA版本支持；Semgrep／weggli更紧密集成仍在TODO。LLM联动增强与LibAFL自动确认也是作者未来计划，不把现有人工确认写成全自动。性能同时包含工具与IDA升级影响，不能隔离成模型加速；39.3分钟对124秒仅属augur。同帖另两个工具分别记录。已读原帖、作者文章与固定README，未审完整源码、测试输出或复跑，没有安装IDA或执行目标；REA未提及，保留related-project。",
+    "sources": [{"label": "吉川孝志转述Hex-Rays三工具v1，其中haruspex的伪代码与类型导出，2026-11-17 06:37:01北京时间", "url": "https://x.com/i/status/2122458950763499685"}, {"label": "窗口前补证：Marco Ivaldi作者文章与组合版本基准，2026-11-12 19:52:28 UTC", "url": "https://hex-rays.com/blog/divining-vulnerabilities-contributor-program"}, {"label": "窗口前补证：haruspex固定README，提交2026-11-16 09:11:37 UTC", "url": "https://github.com/0xdea/haruspex/blob/e41b312c0249854e894ce140c1103cebe3b23031/README.md"}],
+    "snapshot_date": "2026-11-17", "metadata": ["同一三工具候选封存4赞、414浏览、1转发、0回复；共用快照，不是各工具独立热度或漏洞验证。"],
+    "en": {
+      "title": "haruspex v1: IDA function pseudocode for pattern matching and LLM vulnerability triage",
+      "summary": "Marco Ivaldi's IDA binary-audit pipeline uses haruspex to export pseudocode and types, Semgrep/weggli for initial triage, LLMs for closer review and humans for confirmation. The author article and pinned docs were read; no tool was run.",
+      "description": "At 06:37:01 Beijing time on November 17, 2026, Takashi Yoshikawa (@MalwareBibleJP) summarizes Hex-Rays' introduction of v1 releases for three IDA tools. Among them, haruspex uses Rust bindings to headless IDA's idalib to export per-function decompiled pseudocode files. Semgrep or weggli can match these to identify binary vulnerability candidates, followed by closer LLM investigation and human static/dynamic checks. The account says haruspex and augur also export structures, enums and other types and adapt IDA's new display format for downstream analysis tools, with IDA 9.5 support discussed.\n\nSupplementary reading covers Marco Ivaldi/HN Security's author article on Hex-Rays, published November 12, 2026 at 19:52:28 UTC, before this window. It explicitly describes this LLM triage chain and credits Claude with helping write new unit, integration and regression tests. On his MacBook Air M3, he reports 280 AArch64 ELF binaries totaling 14 MB taking 827 seconds with tool v0.9.3/IDA 9.3 versus 744 seconds with v1.2.0/IDA 9.5. Runs began without existing IDBs and include initial analysis. Semgrep 1.183.0 reportedly parses about 99.1% of the new pseudocode lines versus 98.3% previously. This is syntactic parseability, not vulnerability-detection accuracy.\n\nA README pinned at e41b312, committed November 16, 2026 at 09:11:37 UTC, confirms per-function files, global/local type headers and latest-IDA support. Tighter Semgrep/weggli integration remains TODO. Stronger LLM integration and LibAFL automatic confirmation are also future plans; current human confirmation is not fully automated. Timings combine tool and IDA upgrades, not an isolated model speedup. The 39.3-minute versus 124-second result belongs only to augur. The other tools have separate entries. Posts, author article and pinned README were read, not full source or test outputs, and nothing was rerun. Neither IDA nor targets were installed or executed. REA is unmentioned; status remains related-project.",
+      "metadata": ["The shared three-tool candidate has 4 likes, 414 views, 1 repost and 0 replies at sealing. This is a common snapshot, not separate tool engagement or vulnerability validation."],
+      "source_labels": ["Takashi Yoshikawa relays Hex-Rays' three-tool v1 account, including haruspex pseudocode/type exports, November 17, 2026 at 06:37:01 Beijing time", "Pre-window supplement: Marco Ivaldi's author article and combined-version benchmarks, November 12, 2026 at 19:52:28 UTC", "Pre-window supplement: pinned haruspex README, committed November 16, 2026 at 09:11:37 UTC"]
+    }
+  },
+  {
+    "id": "rhabdomancer-ida-risky-api-triage-tool",
+    "title": "rhabdomancer v1：在IDA数据库标注潜在危险API调用供后续分析",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "rhabdomancer在IDA数据库标注潜在危险API调用，供LLM与人工研究初筛；已读作者文章与固定文档，不把风险位置当确认漏洞，未运行工具。",
+    "description": "2026年11月17日06:37:01（北京时间），吉川孝志（@MalwareBibleJP）整理Hex-Rays对haruspex、rhabdomancer与augur的v1介绍。rhabdomancer的独立任务是在IDA分析数据库中显示可能通向风险的API调用位置，让研究者聚焦可疑代码，再交LLM细看并由人静态、动态验证。\n\n补读Marco Ivaldi的Hex-Rays作者文章，发布2026年11月12日19:52:28 UTC，及rhabdomancer固定ffed414 README，提交11月16日09:11:44 UTC，均是窗口前补证。文档确认调用点打印到stdout并标记IDB、按三档风险优先级组织，可配置API列表；作者文章把LLM深度初筛放在人工确认之前，并称Claude帮助编写测试。文章自测280个AArch64 ELF共14MB，旧v0.9.3／IDA 9.3为356秒，新v1.2.0／IDA 9.5为342秒，同一MacBook Air M3、无既有IDB且计初始分析；工具与IDA都升级，不能隔离各自收益。\n\n危险API调用不自动等于可利用漏洞，工具也不是自主LLM Agent。函数导出属haruspex、字符串关联及39.3分钟对124秒属augur，不转移性能。LLM联动增强与LibAFL自动确认仍是作者计划。仅读原帖、作者文章与固定README，未审完整源码、配置规则或结果，也未运行IDA或目标；REA未提及，保留related-project。",
+    "sources": [{"label": "吉川孝志转述Hex-Rays三工具v1，其中rhabdomancer的API调用标注，2026-11-17 06:37:01北京时间", "url": "https://x.com/i/status/2122458950763499685"}, {"label": "窗口前补证：Marco Ivaldi的审计管线与组合版本比较，2026-11-12 19:52:28 UTC", "url": "https://hex-rays.com/blog/divining-vulnerabilities-contributor-program"}, {"label": "窗口前补证：rhabdomancer固定README，提交2026-11-16 09:11:44 UTC", "url": "https://github.com/0xdea/rhabdomancer/blob/ffed41482fd650e86b1256ae70146e5247aa8932/README.md"}],
+    "snapshot_date": "2026-11-17", "metadata": ["同一三工具候选封存4赞、414浏览、1转发、0回复；不是rhabdomancer单独测试或漏洞数量。"],
+    "en": {
+      "title": "rhabdomancer v1: marking potentially risky API calls in IDA for further investigation",
+      "summary": "Rhabdomancer marks potentially risky API calls in IDA for LLM and human triage. The author article and pinned docs were read, but flagged locations are not confirmed vulnerabilities and the tool was not run.",
+      "description": "At 06:37:01 Beijing time on November 17, 2026, Takashi Yoshikawa (@MalwareBibleJP) summarizes Hex-Rays' v1 introduction for haruspex, rhabdomancer and augur. The independent role of rhabdomancer is displaying potentially risky API call sites in an IDA analysis database, focusing researchers on suspicious code before closer LLM examination and human static/dynamic validation.\n\nSupplementary reading covers Marco Ivaldi's Hex-Rays author article published November 12, 2026 at 19:52:28 UTC and rhabdomancer's README pinned at ffed414, committed November 16 at 09:11:44 UTC, both pre-window evidence. The docs confirm call sites printed to stdout and marked in the IDB, three priority tiers and configurable API lists. The article places deeper LLM triage before human confirmation and credits Claude with helping write tests. Its 280 AArch64 ELF binaries totaling 14 MB take 356 seconds with old v0.9.3/IDA 9.3 versus 342 seconds with v1.2.0/IDA 9.5 on the same MacBook Air M3, starting without IDBs and including initial analysis. Tool and IDA both change; their effects cannot be isolated.\n\nA dangerous API call is not automatically an exploitable flaw, nor is the tool an autonomous LLM agent. Function exports belong to haruspex, while string associations and the 39.3-minute/124-second result belong to augur; performance is not transferred. Stronger LLM integration and LibAFL automatic confirmation remain plans. Only posts, the author article and pinned README were read, not full source, configuration rules or results. Neither IDA nor targets were run. REA is unmentioned; status remains related-project.",
+      "metadata": ["The shared three-tool candidate has 4 likes, 414 views, 1 repost and 0 replies at sealing. This is not a separate rhabdomancer test or vulnerability count."],
+      "source_labels": ["Takashi Yoshikawa relays Hex-Rays' three-tool v1 account, including rhabdomancer API-call marking, November 17, 2026 at 06:37:01 Beijing time", "Pre-window supplement: Marco Ivaldi's audit pipeline and combined-version comparison, November 12, 2026 at 19:52:28 UTC", "Pre-window supplement: pinned rhabdomancer README, committed November 16, 2026 at 09:11:44 UTC"]
+    }
+  },
+  {
+    "id": "augur-ida-string-pseudocode-cache-tool",
+    "title": "augur v1：字符串关联伪代码与缓存，报道保留IDA版本变化的性能边界",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "augur按字符串导出关联函数伪代码与类型并重用反编译；作者报告36个AArch64 ELF从39.3分钟到124秒，同时更换工具与IDA版本。已读原文，未复跑。",
+    "description": "2026年11月17日06:37:01（北京时间），吉川孝志（@MalwareBibleJP）整理Hex-Rays的三工具v1介绍，称augur提取字符串和关联函数伪代码，与haruspex一样输出结构体、枚举等类型，供后续静态工具与LLM研究，再由人验证。augur通过重用结果避免重复反编译同一函数；报道列开发者MacBook Air M3处理36个AArch64 ELF二进制，从39.3分钟缩到124秒。\n\n补读Marco Ivaldi的Hex-Rays作者文章，发布2026年11月12日19:52:28 UTC，及augur固定9178c4e README，提交11月16日09:11:12 UTC，均为窗口前补证。文档确认先反编译全部函数以恢复更多字符串，再按字符串组织引用函数与类型头文件；反编译基于haruspex API。文章确认36个文件共2.2MB，从无既有IDB开始、计入初始分析，旧v0.9.3／IDA 9.3对新v1.2.0／IDA 9.5；作者强调数字同时包含工具与IDA升级，少字符串引用的二进制可能付出预先全函数反编译成本，不能保证一律更快。\n\n文章描述LLM进一步初筛、人工静态动态确认，并称Claude帮助写测试；LLM更紧密集成与LibAFL自动确认仍在计划。没有逐样本核验或独立复跑，伪代码候选不是已确认漏洞，性能不能全归缓存或模型。同帖haruspex与rhabdomancer分别记录，不复制性能到它们。已读原帖、作者文章和固定README，未审完整源码或日志，未运行工具；REA未提及，保留related-project。",
+    "sources": [{"label": "吉川孝志转述Hex-Rays三工具v1，其中augur缓存与版本受限比较，2026-11-17 06:37:01北京时间", "url": "https://x.com/i/status/2122458950763499685"}, {"label": "窗口前补证：Marco Ivaldi作者文章与36文件组合版本基准，2026-11-12 19:52:28 UTC", "url": "https://hex-rays.com/blog/divining-vulnerabilities-contributor-program"}, {"label": "窗口前补证：augur固定README，提交2026-11-16 09:11:12 UTC", "url": "https://github.com/0xdea/augur/blob/9178c4e9546a80ac2342625fa2049cbd2fcb156b/README.md"}],
+    "snapshot_date": "2026-11-17", "metadata": ["同一三工具候选封存4赞、414浏览、1转发、0回复；36个文件与性能数值来自项目作者测量，经候选转述并补读原文，未独立核验。"],
+    "en": {
+      "title": "augur v1: string-associated pseudocode and caching, with IDA-version limits on performance claims",
+      "summary": "Augur exports string-associated function pseudocode and types and reuses decompilation. Its author reports 36 AArch64 ELF binaries going from 39.3 minutes to 124 seconds while changing both tool and IDA versions. The original was read, not rerun.",
+      "description": "At 06:37:01 Beijing time on November 17, 2026, Takashi Yoshikawa (@MalwareBibleJP) summarizes Hex-Rays' three-tool v1 introduction. Augur extracts strings and associated function pseudocode, exporting structures, enums and other types like haruspex, for downstream static tools and LLM research followed by human validation. It reuses results to avoid repeatedly decompiling the same function. The account reports 36 AArch64 ELF binaries on the developer's MacBook Air M3 going from 39.3 minutes to 124 seconds.\n\nSupplementary reading covers Marco Ivaldi's Hex-Rays author article published November 12, 2026 at 19:52:28 UTC and augur's README pinned at 9178c4e, committed November 16 at 09:11:12 UTC, both pre-window evidence. The docs confirm upfront decompilation of all functions to recover more strings, then organization of referencing functions and type headers by string; decompilation uses the haruspex API. The article confirms 36 files totaling 2.2 MB, starting without IDBs and including initial analysis, comparing old v0.9.3/IDA 9.3 with v1.2.0/IDA 9.5. The author stresses that timings combine code and IDA upgrades. Binaries with few string references may pay an upfront all-function cost; universally faster operation is not guaranteed.\n\nThe article describes deeper LLM triage followed by human static/dynamic confirmation and credits Claude with helping write tests. Tighter LLM integration and LibAFL automatic confirmation remain plans. There was no per-sample verification or independent rerun. Pseudocode candidates are not confirmed flaws, and timings cannot be credited entirely to caching or a model. Haruspex and rhabdomancer have separate entries; performance is not copied to them. Posts, the author article and pinned README were read, not full source or logs. No tool was run. REA is unmentioned; status remains related-project.",
+      "metadata": ["The shared three-tool candidate has 4 likes, 414 views, 1 repost and 0 replies at sealing. The 36 files and timings are project-author measurements, relayed by the candidate and checked against the original text, not independently verified."],
+      "source_labels": ["Takashi Yoshikawa relays Hex-Rays' three-tool v1 account, including augur caching and the version-limited comparison, November 17, 2026 at 06:37:01 Beijing time", "Pre-window supplement: Marco Ivaldi's author article and combined-version 36-file benchmark, November 12, 2026 at 19:52:28 UTC", "Pre-window supplement: pinned augur README, committed November 16, 2026 at 09:11:12 UTC"]
+    }
+  },
+  {
+    "id": "aram-anthropic-daybreak-email-eligibility-analysis-report",
+    "title": "Daybreak个人准入为何失败：Aram称Anthropic辅助推断公共邮箱域条件",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Aram Hăvărneanu称用Anthropic研究OpenAI Daybreak准入，推断个人申请必须使用公共邮箱域；没有方法、代码或官方确认，不能当资格规则。",
+    "description": "2026年11月17日06:53:29（北京时间），Aram Hăvărneanu（@aramh）抱怨OpenAI不解释为何不考虑自己的Daybreak访问资格，称Anthropic帮助逆向后自己知道了原因，推断个人申请需使用公共邮箱域。目标是理解访问申请的筛选机制，而非绕过准入、取得模型或改变账户。\n\n补取确认署名、文字与图片附件，未查看图片、表单、客户端脚本、接口、条款或官方文档。作者没有明确模型版本、输入材料、分析步骤、对照申请与返回结果；可能条件不是已核实规则，更不是OpenAI确认的拒绝原因。其关于Anthropic讨厌OpenAI的说法是情绪化归因，不当公司动机事实。‘公共邮箱域’按作者原文保留，不猜域名清单或提供绕过操作。REA未提及，未运行代码或提交申请，保留unverified的机制研究自述。",
+    "sources": [{"label": "Aram Hăvărneanu的Anthropic／Daybreak个人邮箱准入推断，2026-11-17 06:53:29北京时间", "url": "https://x.com/i/status/2122463091594072308"}],
+    "snapshot_date": "2026-11-17", "metadata": ["候选封存16赞、560浏览、1转发、3回复；没有官方资格确认或独立测试。"],
+    "en": {
+      "title": "Why did Daybreak eligibility fail? Aram reports an Anthropic-assisted public-email-domain inference",
+      "summary": "Aram Hăvărneanu says Anthropic helped study OpenAI Daybreak eligibility and infer that individual applicants need a public email domain. No method, code or official confirmation establishes this as a qualification rule.",
+      "description": "At 06:53:29 Beijing time on November 17, 2026, Aram Hăvărneanu (@aramh) complains that OpenAI will not explain why he is not considered for Daybreak access. He says Anthropic helped reverse-engineer the mechanism, leading him to infer that individuals must use a public email domain. The target is understanding application screening, not bypassing access, acquiring models or changing accounts.\n\nRetrieval confirms attribution, text and a photo attachment. The photo, form, client scripts, interfaces, terms and official documentation were not reviewed. The author supplies no exact model, input material, analysis procedure, controlled applications or responses. The possible condition is neither a verified rule nor OpenAI's confirmed reason for rejection. His claim that Anthropic hates OpenAI is emotional attribution, not an established corporate motive. 'Public email domain' retains his wording; no domain list or bypass procedure is invented. REA is unmentioned. No code was run or application submitted; status remains an unverified account of mechanism analysis.",
+      "metadata": ["Sealed candidate: 16 likes, 560 views, 1 repost, 3 replies. No official eligibility confirmation or independent test is supplied."],
+      "source_labels": ["Aram Hăvărneanu's Anthropic/Daybreak individual-email eligibility inference, November 17, 2026 at 06:53:29 Beijing time"]
+    }
+  },
+  {
     "id": "mollick-starship-catch-video-threejs-reconstruction-report",
     "title": "星舰捕获视频到Three.js：Mollick公开Fable／Opus提示与估算边界",
     "category": "algorithms", "rea": "other-ai", "status": "unverified",

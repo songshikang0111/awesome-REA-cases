@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2358 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2369 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（466）
-- [硬件与设备互通](categories/hardware.md)（633）
-- [应用与客户端](categories/apps.md)（976）
-- [算法与功能重建](categories/algorithms.md)（283）
+- [硬件与设备互通](categories/hardware.md)（636）
+- [应用与客户端](categories/apps.md)（983）
+- [算法与功能重建](categories/algorithms.md)（284）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -495,6 +495,9 @@
 
 ### 硬件与设备互通
 
+- [单DIN卡车收音机：Daniel Cook称LLM模拟固件，GLM 5.3数小时得到Hello World](cases/daniel-cook-single-din-radio-qemu-glm53-report.md) — Daniel Cook报告让LLM在QEMU模拟自有廉价卡车收音机固件，再让GLM 5.3找缓冲区溢出并利用，几小时得到Hello World；未审代码或实机结果。 **[其他 AI 逆向 · 待验证]**
+- [被厂商弃置的3D打印机：OnMyWay称Claude在15至20分钟更新界面](cases/onmyway-claude-discarded-3d-printer-interface-report.md) — OnMyWay称一台因固件问题被3D打印机厂商弃置的设备，经Claude在15至20分钟更新了新界面；型号、逆向方式与实际打印未核实。 **[其他 AI 逆向 · 待验证]**
+- [Bugatti Jacqueline水壶接Home Assistant：Inna提出蓝牙研究，也质疑必要性](cases/inna-bugatti-jacqueline-ble-home-assistant-idea.md) — Inna Babicka在AI家居自动化讨论中想到研究自有水壶蓝牙，经ESP32或自定义集成接Home Assistant，但已有定时器让她质疑用途；尚未实施。 **[未确认使用 REA · 待验证]**
 - [假Kingston NV3的身份检查：Claude先误判，再查控制器与固件的转述](cases/fake-kingston-nv3-ssd-claude-controller-identity-report.md) — Vaibhav Sisinty转述Reddit用户：Claude Code多次误判硬件坏，经人质疑后查Windows设备身份，发现Realtek控制器与固件不符，标4TB盘据称约256GB。 **[其他 AI 逆向 · 待验证]**
 - [ClaudeWatch腕上审批：darkzodchi报告Apple Watch与Mac Agent桥接](cases/claudewatch-fable-apple-watch-agent-bridge-report.md) — darkzodchi称逆向Apple Watch并装入Fable 5.2；所列步骤实际描述Bonjour、Node桥与Claude Code hooks，支持腕上看终端、审批和发语音，不能据此说模型本地运行。 **[未确认使用 REA · 待验证]**
 - [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 一则日语帖子分享FabScene对usb-rea的报道，称工具为依赖专用App的USB设备制作驱动；未读文章、仓库或设备验证，不由名称推定REA关联。 **[未确认使用 REA · 相关项目]**
@@ -1131,6 +1134,13 @@
 
 ### 应用与客户端
 
+- [WardenStealer给分析AI的法律威吓：Cipher0k转述Invoke RE观察](cases/wardenstealer-anti-ai-legal-note-secondary-report.md) — Cipher0k转述Invoke RE称WardenStealer对分析AI宣称逆向违法；这是具名反AI分析提示的二手线索，没有样本或模型拒绝证据。 **[未确认使用 REA · 待验证]**
+- [一个.claude目录串起研究与加固：Archive介绍graphify／REA／bla工作流](cases/archive-claude-folder-map-reverse-harden-workflow.md) — Archive描述用graphify先建图、REA研究、bla加固自有软件，再由Explore、verifier与MEMORY衔接的Fable 5.2工作流；未给具体应用或运行证据。 **[REA · 相关项目]**
+- [云端Claude Code选项是否真用其harness：Thomas Reynaud的REA核查疑问](cases/thomas-reynaud-rea-cloud-claude-pi-harness-audit-report.md) — Thomas Reynaud称运行REA后怀疑某云端app在选择Claude Code时仍用pi harness和用户凭据，请reasonmachines核实；产品名与风险均未确认。 **[REA · 待验证]**
+- [haruspex v1：从IDA导出函数伪代码，供模式匹配与LLM漏洞初筛](cases/haruspex-ida-pseudocode-llm-triage-tool.md) — Marco Ivaldi的IDA二进制审计管线以haruspex导出伪代码和类型，Semgrep／weggli初筛、LLM细看、人再确认；补读作者文章与固定文档，未运行工具。 **[其他 AI 逆向 · 相关项目]**
+- [rhabdomancer v1：在IDA数据库标注潜在危险API调用供后续分析](cases/rhabdomancer-ida-risky-api-triage-tool.md) — rhabdomancer在IDA数据库标注潜在危险API调用，供LLM与人工研究初筛；已读作者文章与固定文档，不把风险位置当确认漏洞，未运行工具。 **[其他 AI 逆向 · 相关项目]**
+- [augur v1：字符串关联伪代码与缓存，报道保留IDA版本变化的性能边界](cases/augur-ida-string-pseudocode-cache-tool.md) — augur按字符串导出关联函数伪代码与类型并重用反编译；作者报告36个AArch64 ELF从39.3分钟到124秒，同时更换工具与IDA版本。已读原文，未复跑。 **[其他 AI 逆向 · 相关项目]**
+- [Daybreak个人准入为何失败：Aram称Anthropic辅助推断公共邮箱域条件](cases/aram-anthropic-daybreak-email-eligibility-analysis-report.md) — Aram Hăvărneanu称用Anthropic研究OpenAI Daybreak准入，推断个人申请必须使用公共邮箱域；没有方法、代码或官方确认，不能当资格规则。 **[其他 AI 逆向 · 待验证]**
 - [SuperBot：David Ondrej用Opus与Rust自托管重建Grok Bot的转述](cases/david-ondrej-superbot-grok-rust-opus-report.md) — 汇总与David Ondrej原帖称用Opus 5.5和Rust逆向重建Grok Bot、自托管在VPS，作者回复名为SuperBot；未读仓库或验证功能与开源许可。 **[其他 AI 逆向 · 待验证]**
 - [完整Xcode能否交给REA：syh计划在Claude额度重置前尝试](cases/rea-full-xcode-before-claude-reset-idea.md) — syh问能否直接对完整Xcode使用REA，并说会在Claude重置前试；具体目标明确，但没有已执行分析、范围或结果。 **[REA · 待验证]**
 - [Thales对抗AI逆向的软件保护：FutureCISO标题级发布线索](cases/thales-ai-led-reversing-software-protection-announcement.md) — Masayuki Hatta分享FutureCISO关于Thales发布对抗AI逆向软件保护的标题；未读正文、产品文档或测试，不推定保护有效。 **[未确认使用 REA · 相关项目]**
@@ -2110,6 +2120,7 @@
 
 ### 算法与功能重建
 
+- [Higgsfield增长地图：Monid称Claude配Search1API用0.07美元重建事件时间线](cases/monid-claude-higgsfield-growth-timeline-report.md) — Monid推广Claude研究Higgsfield增长路径，将免费活动、创作者推广、搜索页与融资放在一条时间线，自称0.07美元；是合作推广，未审结果。 **[其他 AI 逆向 · 待验证]**
 - [星舰捕获视频到Three.js：Mollick公开Fable／Opus提示与估算边界](cases/mollick-starship-catch-video-threejs-reconstruction-report.md) — Mollick公开让Opus 5.5与Fable 5.2从星舰捕获视频重建约40秒Three.js场景、切换视角和同步回放的提示；几何多为估算，未用SpaceX工程图，未运行核验。 **[其他 AI 逆向 · 待验证]**
 - [15秒宣传片重做：benzy称Fable配rea-video等工具50分钟对比AE三天](cases/fable-rea-video-15second-promo-ae-comparison-report.md) — benzy自述同一15秒宣传片用After Effects花三天，Fable 5.2加15仓库花50分钟，五位朋友四人选后者；未审样片、流程或成本。 **[其他 AI 逆向 · 待验证]**
 - [从AI图片反推提示：EdhiAitheEnti称试用了REA skills](cases/edhiaitheenti-rea-ai-image-prompt-inference-report.md) — EdhiAitheEnti称用REA skills找一张AI图片的提示词；没有参考图、恢复提示或重生成对照，不能把合理描述当原始提示已找回。 **[REA · 待验证]**
