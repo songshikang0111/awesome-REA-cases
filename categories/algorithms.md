@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [京成Skyliner事件重建：hackerlogs称Opus配rea-sec生成攻击图，真实入口仍未知](../cases/hackerlogs-rea-sec-keisei-skyliner-public-incident-analysis.md) — hackerlogs称一提示让Opus 5.5与rea-sec在3分钟内从公开来源整理Skyliner泄露路径、ATT&CK映射与修复建议；入口未知，未核原报告或分析产物。 **[其他 AI 逆向 · 待验证]**
 - [Ava Studio MCP：从产品网站与参考发布片重建节拍，2000多片库仍待核](../cases/ava-studio-mcp-launch-video-reference-reconstruction.md) — 两条候选讨论Ava接Claude Code/Codex的发布视频重建；补查作者说输入产品网站、选参考片逐节拍换产品。未审库、MCP或成片，不把宣传当分发效果。 **[其他 AI 逆向 · 待验证]**
 - [爆款视频拆成新情景：Simone以逆向提示、Fable5.2与Seedance2.5重做](../cases/fable-seedance-viral-video-prompt-reconstruction-report.md) — Simone称先用逆向提示拆视频，再让Fable5.2写新情景、Seedance2.5以480p生成后放大；3M观看与2.56美元未见对应统计或账单。 **[其他 AI 逆向 · 待验证]**
 - [80秒视频分十段重建：Gemini拆解、Antigravity生成、Claude Code质检的转述](../cases/gemini-antigravity-80second-video-reconstruction-pipeline.md) — 章鱼8爪铺转述十段八秒的拆解、生成与质检流程；离岸工具包另称已跑通反推、定妆和配音。80%与70分为要求，两者都无可核输出或账单。 **[其他 AI 逆向 · 待验证]**
@@ -10,7 +11,7 @@
 - [REA-Prompts：由成品图片或文案推断提示的结构化模板项目](../cases/rea-prompts-image-copy-prompt-inference-tool.md) — 候选介绍REA-Prompts用结构化模板描述既有图片或文案，让模型推断提示并尝试重现；未核仓库、输入输出或提示恢复准确率，与REA软件工具的关联未确认。 **[其他 AI 逆向 · 相关项目]**
 - [把Rafale计算机交给Opus？AWACS Sky Keeper提出的未实施接口研究设想](../cases/awacs-rafale-opus-interface-research-idea.md) — AWACS Sky Keeper讨论Rafale技术转让，猜想Opus 5.5可研究未公开计算机接口；仅高层idea，无目标接入、数据、步骤或结果。 **[其他 AI 逆向 · 待验证]**
 - [从色卡反推富士LUT：雪人提出把既有测量流程交给AI自动化](../cases/fujifilm-color-chart-ai-lut-reconstruction-idea.md) — 雪人回忆固定灯光、色温和白平衡、多曝光拍色卡反推LUT的做法，提出有工作流就能由AI自动化；未报告自己实施或做出风格文件。 **[其他 AI 逆向 · 待验证]**
-- [Higgsfield增长地图：Monid称Claude配Search1API用0.07美元重建事件时间线](../cases/monid-claude-higgsfield-growth-timeline-report.md) — Monid推广Claude研究Higgsfield增长路径，将免费活动、创作者推广、搜索页与融资放在一条时间线，自称0.07美元；是合作推广，未审结果。 **[其他 AI 逆向 · 待验证]**
+- [Higgsfield增长地图：Monid称Claude配Search1API用0.07美元重建事件时间线](../cases/monid-claude-higgsfield-growth-timeline-report.md) — Monid推广用Claude与Search1API研究Higgsfield增长时间线；后续转述补充70次请求花0.07美元，明确只读公开新闻、不是Anthropic工具，未核账单或因果。 **[其他 AI 逆向 · 待验证]**
 - [星舰捕获视频到Three.js：Mollick公开Fable／Opus提示与估算边界](../cases/mollick-starship-catch-video-threejs-reconstruction-report.md) — Mollick公开让Opus 5.5与Fable 5.2从星舰捕获视频重建约40秒Three.js场景、切换视角和同步回放的提示；几何多为估算，未用SpaceX工程图，未运行核验。 **[其他 AI 逆向 · 待验证]**
 - [15秒宣传片重做：benzy称Fable配rea-video等工具50分钟对比AE三天](../cases/fable-rea-video-15second-promo-ae-comparison-report.md) — benzy自述同一15秒宣传片用After Effects花三天，Fable 5.2加15仓库花50分钟，五位朋友四人选后者；未审样片、流程或成本。 **[其他 AI 逆向 · 待验证]**
 - [从AI图片反推提示：EdhiAitheEnti称试用了REA skills](../cases/edhiaitheenti-rea-ai-image-prompt-inference-report.md) — EdhiAitheEnti称用REA skills找一张AI图片的提示词；没有参考图、恢复提示或重生成对照，不能把合理描述当原始提示已找回。 **[REA · 待验证]**

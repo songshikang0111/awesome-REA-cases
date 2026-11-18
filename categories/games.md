@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [New Vegas动力装甲：Momus称用Claude与社区反编译成果加入Fallout 4式玩法](../cases/momus-new-vegas-claude-power-armor-mod-report.md) — Momus Digital自述以Claude Opus 5.5及社区反编译成果，把Fallout 4式动力装甲加入New Vegas；未取得模组代码、玩法对照或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [Super Meat Boy改画面：Xensley以玩笑式提示设想Claude反编译](../cases/claude-super-meat-boy-graphics-rebuild-idea.md) — Xensley在批评Team Meat的讨论下写出让Claude反编译Super Meat Boy再改画面的提示；两小时后结果是修辞，没有构建、补丁或实测。 **[其他 AI 逆向 · 待验证]**
 - [GT1／2浏览器Scapes照片模式：旁观者称Claude参与逆向与渲染器](../cases/gt12-browser-scapes-claude-renderer-secondary-report.md) — Pedro在Gran Turismo 1/2浏览器照片模式讨论中称Claude用于逆向和渲染器编写；上下文指向赛道mod kit，但没有已审仓库或开发者证实。 **[其他 AI 逆向 · 待验证]**
 - [把技能动画给Claude能否复现：Brian从rea-video提出的游戏动效问题](../cases/claude-game-ability-animation-reconstruction-question.md) — Brian向游戏演示者询问是否给Claude看效果再复现，并想找类似rea-video的技能动画拆解工具；只是具体问题，不能归因对方已采用该方法。 **[其他 AI 逆向 · 待验证]**
