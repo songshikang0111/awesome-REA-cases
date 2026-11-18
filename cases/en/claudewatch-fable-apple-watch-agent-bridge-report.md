@@ -1,7 +1,7 @@
 # ClaudeWatch wrist approvals: darkzodchi reports an Apple Watch-to-Mac agent bridge
 
 Category: Hardware and interoperability · REA use unconfirmed
-Record date: 2026-11-16
+Record date: 2026-11-18
 Stage: Needs verification
 
 At 20:55:38 Beijing time on November 16, 2026, darkzodchi (@zodchiii) claims to have reverse-engineered an Apple Watch and installed Fable 5.2. The concrete goal is viewing terminal output, receiving vibrating prompts for file edits or commands, approving or denying them and sending voice instructions from the watch. Claude Code continues working on the Mac.
@@ -10,10 +10,14 @@ The approximately ten-minute setup describes Bonjour Mac discovery, a Node relay
 
 Retrieval confirms attribution and steps. A repository is said to be linked in comments, but its source, permission boundaries, pairing security and video demonstration were not examined here. Ten minutes is the author's estimate, not a measured setup time. The post suggests disabling Private Wi-Fi Address; this entry does not recommend weakening privacy settings. No app or hooks were installed, watch connected or command executed. Status remains an unverified AI-tool interoperability project.
 
+A Chinese retelling at 10:05:49 Beijing time on November 18 further describes hooks sending tool calls and permission requests to a Mac Node Bridge, then SSE delivering them to the iPhone/watch. Permission requests pause until a decision returns from the watch. It emphasizes continued human approval, initial Xcode signing/deployment and a shared watch/Mac Wi-Fi network. This is a reported architecture, not audited enforcement or a security guarantee. No new source, denied-command logs or disconnect tests are supplied, nor proof of Apple Watch reversing. The ten-minute estimate does not cover every user's signing and network preparation.
+
 Sealed candidate: 47 likes, 1,403 views, 2 reposts, 17 replies. Ten minutes and functionality are author reports.
+November 18 sealed candidate: 2 likes, 254 views, 0 reposts, 1 reply. Decision return and disconnect behavior are untested.
 
 ## Sources
 
 - [darkzodchi's ClaudeWatch/Mac bridge introduction, November 16, 2026 at 20:55:38 Beijing time](https://x.com/i/status/2122312640064352346)
+- [Chinese retelling: SSE, paused permissions and deployment conditions, November 18, 2026 at 10:05:49 Beijing time](https://x.com/i/status/2122873883544219767)
 
 [中文](../claudewatch-fable-apple-watch-agent-bridge-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/hardware.md)

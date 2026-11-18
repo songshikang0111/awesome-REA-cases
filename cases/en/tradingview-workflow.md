@@ -1,7 +1,7 @@
 # TradingView: evidence limits of reconstruction workflows and free-Premium download warnings
 
 Category: Applications and clients · REA
-Record date: 2026-11-08
+Record date: 2026-11-18
 Stage: Needs verification
 
 TradingView is a financial-charting platform. RohOnChain's widely circulated post describes a reconstruction workflow using REA. The available material does not establish successful access to or recovery of paid indicators, nor provide sufficient completed results, so it is included as a feature-reconstruction report needing verification. A separate post in the October 15, 16:00–20:00 window claims a personal quantitative terminal was rebuilt. It specifically describes observing symbol, timeframe, indicator, drawing and layout changes through the public interface, then using Opus 5.5 to write specifications and rebuild candlesticks, RSI, MACD, Bollinger Bands, watchlists and a backtesting engine accounting for fees, slippage and drawdown. These are more concrete targets and author claims of success, not replayable test evidence. The candidate supplies no code or comparison results. A list of standard technical indicators does not prove recovery of paid indicators, and profit guarantees are not accepted.
@@ -20,6 +20,7 @@ November 2 candidate snapshots: second post, 0 likes/10 views; closing post, 0 l
 Network activity does not prove password theft or exfiltration. The unidentified package cannot be linked to earlier projects or labeled confirmed malware.
 November 6 sealed candidate: 0 likes, 17 views, 0 reposts. About eight hours and completely reverse-engineered are author wording, without feature coverage or replayable validation.
 November 8, 04:45:58 combined guide: 20 likes, 645 views, 1 repost. $32,400 savings lack invoices; free feeds do not establish authorized coverage.
+At 09:46:47 Beijing time on November 18, 2026, Poor Wizard (@poor_wizard) asks someone to study it using the REA GitHub repository. Supplementary retrieval of ForexBlog News (@forexblog9ja) at 00:55:10 identifies TradingView and a motive: the parent's claimed limit of thirty drawings for free users. The parent precedes the 08:00 window and serves only as reference context; official plans and a limit change were not checked. The candidate supplies no started work, method, code or acceptance result. Server-side limit removal, recovered paid features and identity with older rebuilds are not established. Retained as a new motivation/idea for the same target. Sealed candidate: 0 likes, 71 views, 0 reposts, 0 replies.
 
 ## Sources
 
@@ -31,5 +32,7 @@ November 8, 04:45:58 combined guide: 20 likes, 645 views, 1 repost. $32,400 savi
 - [Same-thread closing candidate: AI-assisted recovery still took half a day, November 2, 2026](https://x.com/i/status/2117097968985931893)
 - [FideEtFortitudine's report of about eight hours with Codex/REA, November 6, 2026 at 14:15:24 Beijing time](https://x.com/i/status/2118588039224246402)
 - [Unverified TradingView/Bloomberg combined-terminal guide, November 8, 2026 at 04:45:58 Beijing time](https://x.com/i/status/2119169510221533489)
+- [Poor Wizard proposes REA research over drawing limits, November 18, 2026 at 09:46:47 Beijing time](https://x.com/i/status/2122869092478509379)
+- [Pre-window supplementary parent: ForexBlog claims a thirty-drawing free limit, November 18, 2026 at 00:55:10 Beijing time](https://x.com/i/status/2122735309389795601)
 
 [中文](../tradingview-workflow.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

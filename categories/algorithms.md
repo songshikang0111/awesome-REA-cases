@@ -2,8 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Ava Studio MCP：从产品网站与参考发布片重建节拍，2000多片库仍待核](../cases/ava-studio-mcp-launch-video-reference-reconstruction.md) — 两条候选讨论Ava接Claude Code/Codex的发布视频重建；补查作者说输入产品网站、选参考片逐节拍换产品。未审库、MCP或成片，不把宣传当分发效果。 **[其他 AI 逆向 · 待验证]**
 - [爆款视频拆成新情景：Simone以逆向提示、Fable5.2与Seedance2.5重做](../cases/fable-seedance-viral-video-prompt-reconstruction-report.md) — Simone称先用逆向提示拆视频，再让Fable5.2写新情景、Seedance2.5以480p生成后放大；3M观看与2.56美元未见对应统计或账单。 **[其他 AI 逆向 · 待验证]**
-- [80秒视频分十段重建：Gemini拆解、Antigravity生成、Claude Code质检的转述](../cases/gemini-antigravity-80second-video-reconstruction-pipeline.md) — 章鱼8爪铺转述三指令流程：十段八秒视频按五层拆解，再生成与做剪映工程；80%通过、70分门槛是流程要求，不是本合集实测。 **[其他 AI 逆向 · 待验证]**
+- [80秒视频分十段重建：Gemini拆解、Antigravity生成、Claude Code质检的转述](../cases/gemini-antigravity-80second-video-reconstruction-pipeline.md) — 章鱼8爪铺转述十段八秒的拆解、生成与质检流程；离岸工具包另称已跑通反推、定妆和配音。80%与70分为要求，两者都无可核输出或账单。 **[其他 AI 逆向 · 待验证]**
 - [吃播无痕取物怎么拍：Pamela用Codex和rea-video多轮分析仍失败](../cases/pamela-rea-video-codex-food-video-analysis-failure.md) — PamelaAI·H让Codex用rea-video拆吃播取物的无痕剪辑；文字解释、拍摄示意图与实物图来回多轮，仍没解决问题，作者称模型也承认未解析出制作方法。 **[其他 AI 逆向 · 分析测试]**
 - [COMSEC的IAI调查提案：用AI与逆向重建Agent行为，不预设事故归因](../cases/comsec-iai-agent-incident-reconstruction-proposal.md) — Ariel Garbarz署名提议以Inverse Artificial Intelligence结合AI与逆向调查系统行为；FAA、银行和诉讼只是提案语境，文中也承认不能建立共同攻击或OpenAI归因。 **[其他 AI 逆向 · 待验证]**
 - [REA-Prompts：由成品图片或文案推断提示的结构化模板项目](../cases/rea-prompts-image-copy-prompt-inference-tool.md) — 候选介绍REA-Prompts用结构化模板描述既有图片或文案，让模型推断提示并尝试重现；未核仓库、输入输出或提示恢复准确率，与REA软件工具的关联未确认。 **[其他 AI 逆向 · 相关项目]**
