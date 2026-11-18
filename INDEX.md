@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2416 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2418 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（473）
 - [硬件与设备互通](categories/hardware.md)（644）
-- [应用与客户端](categories/apps.md)（1008）
+- [应用与客户端](categories/apps.md)（1010）
 - [算法与功能重建](categories/algorithms.md)（291）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -1149,6 +1149,8 @@
 
 ### 应用与客户端
 
+- [给每次软件更新发签名分析报告：P Flodin的AI供应链公共登记簿idea](cases/ai-supply-chain-update-signed-analysis-register-idea.md) — P Flodin建议AI厂商扫描、反编译并分析供应链每次更新，公开带哈希、问题评分和签名的报告，供安装策略要求多个服务检查；尚无实现或评测。 **[其他 AI 逆向 · 待验证]**
+- [本地LLM接Ghidra：ベーグル报告RTX3060上的整合试错与响应等待](cases/baglesand-local-llm-ghidra-rtx3060-integration-trial.md) — ベーグル称休息日用于尝试本地LLM与Ghidra联动，学到不少，但RTX3060等待响应较久；未提供模型、目标程序、接法或分析正确率。 **[其他 AI 逆向 · 进行中]**
 - [Rafiki的FPL重建自述：AI辅助全功能克隆宣称，覆盖尚未核验](cases/rafiki-fpl-ai-reconstruction-report.md) — Rafiki称逆向并以AI重建FPL所有功能，提供截图附件；没有公开模型、实现方法、代码或逐项对照，不确认完整克隆。 **[其他 AI 逆向 · 待验证]**
 - [隐私优先的简易输入法：Kun建议用AI编写并逆向，尚无实现](cases/ai-simple-input-method-privacy-rebuild-idea.md) — Kun因担心输入记录提出用AI写简易输入法、配合逆向的idea；未指定目标或模型，不采纳所有输入法有后门或换工具保证安全的断言。 **[其他 AI 逆向 · 待验证]**
 - [Alchemy：Patrick称AI从实现恢复规格，再以数周日志回看功能价值](cases/alchemy-ai-spec-recovery-outcome-evidence-loop.md) — Patrick Savalle称Alchemy反推规格，衔接假设、构建测试、用户效果与价值复审；数周日志是可用输入，不是已证明某功能产生价值的结果。 **[其他 AI 逆向 · 进行中]**

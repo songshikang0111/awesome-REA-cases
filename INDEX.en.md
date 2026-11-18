@@ -10,7 +10,7 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2416 entries**, organized by use case, without a Top-N or popularity threshold.
+**2418 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
@@ -18,7 +18,7 @@ English case details and category pages are available throughout this reading pa
 
 - [Games and preservation](categories/en/games.md) (473)
 - [Hardware and interoperability](categories/en/hardware.md) (644)
-- [Applications and clients](categories/en/apps.md) (1008)
+- [Applications and clients](categories/en/apps.md) (1010)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (291)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -1151,6 +1151,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Signed analysis for every software update: P Flodin's AI supply-chain public-register idea](cases/en/ai-supply-chain-update-signed-analysis-register-idea.md) — P Flodin proposes AI scanning, decompilation and analysis of each supply-chain update, with public hashes, issue scores and signed reports that installation policies could require from multiple services. No implementation or evaluation is supplied. **[Other AI-assisted work · Needs verification]**
+- [A local LLM with Ghidra: baglesand reports integration trial and error and slow RTX3060 responses](cases/en/baglesand-local-llm-ghidra-rtx3060-integration-trial.md) — Baglesand says a day off went into local-LLM/Ghidra integration experiments, with useful learning but long waits for RTX3060 responses. Model, target binary, connection method and analysis accuracy are unspecified. **[Other AI-assisted work · In progress]**
 - [Rafiki's FPL rebuild: an AI-assisted complete-clone claim without verified coverage](cases/en/rafiki-fpl-ai-reconstruction-report.md) — Rafiki claims AI-assisted reverse engineering and reconstruction of every FPL feature, with image attachments. Model, method, code and feature-by-feature comparisons are absent; completeness is unverified. **[Other AI-assisted work · Needs verification]**
 - [A privacy-oriented simple input method: Kun proposes AI-assisted writing and reverse engineering](cases/en/ai-simple-input-method-privacy-rebuild-idea.md) — Concerned about typed-input privacy, Kun proposes an AI-written simple input method and reverse engineering. No target or model is specified; universal backdoor and guaranteed-safety claims are not adopted. **[Other AI-assisted work · Needs verification]**
 - [Alchemy: Patrick describes AI-recovered specifications and weeks of logs for reviewing feature value](cases/en/alchemy-ai-spec-recovery-outcome-evidence-loop.md) — Patrick Savalle says Alchemy reverse-engineers specifications and connects hypotheses, build tests, user outcomes and value reviews. Weeks of logs are an input, not proof that a feature produced value. **[Other AI-assisted work · In progress]**

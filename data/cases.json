@@ -1,5 +1,39 @@
 [
   {
+    "id":"ai-supply-chain-update-signed-analysis-register-idea",
+    "title":"给每次软件更新发签名分析报告：P Flodin的AI供应链公共登记簿idea",
+    "category":"apps", "rea":"other-ai", "status":"unverified",
+    "summary":"P Flodin建议AI厂商扫描、反编译并分析供应链每次更新，公开带哈希、问题评分和签名的报告，供安装策略要求多个服务检查；尚无实现或评测。",
+    "description":"2026年11月18日04:21:05（北京时间），P Flodin（@pflodin）向声称拥有强大未发布模型的AI厂商提出一个具体用途：不要只做数学证明，而是扫描、反编译和分析软件供应链的每次新更新，将结果放入公共登记簿。目标是让软件管理系统在决定安装什么时，有可引用的更新分析依据；帖子没有指定某款待分析软件。\n\n作者设想报告包括更新文件的哈希、按约定体系评估新增或修复问题的分数，并对报告签名。安装系统可以把这些结果作为策略输入，例如要求至少两个服务扫描过才允许安装。这是报告与安装决策衔接的idea，不是已经运行的公共扫描服务，也没有证明模型能识别全部问题。\n\n补查原帖确认署名与完整提案。没有公开实现、扫描样本、评分规范、签名方案、模型名称、误报率或实际部署；至少两个服务是作者的策略示例，不是已通过的安全门槛。REA未被提及。本合集没有下载软件更新或执行扫描，不把报告签名等同软件安全或独立验证，按未核验idea收录。",
+    "sources":[{"label":"P Flodin的软件更新AI分析与公共签名报告提案，2026-11-18 04:21:05北京时间","url":"https://x.com/i/status/2122787127339675668"}],
+    "snapshot_date":"2026-11-18",
+    "metadata":["2026-11-18候选封存1赞、82浏览、0转发、0回复；这是传播快照，不是方案实施或有效性证据。"],
+    "en":{
+      "title":"Signed analysis for every software update: P Flodin's AI supply-chain public-register idea",
+      "summary":"P Flodin proposes AI scanning, decompilation and analysis of each supply-chain update, with public hashes, issue scores and signed reports that installation policies could require from multiple services. No implementation or evaluation is supplied.",
+      "description":"At 04:21:05 Beijing time on November 18, 2026, P Flodin (@pflodin) proposes a concrete use for AI companies claiming to hold powerful unreleased models: rather than only producing mathematical proofs, scan, decompile and analyze every new software supply-chain update and publish the results in a public register. The aim is to give software-management systems citable update-analysis evidence when deciding what to install. No particular software target is named.\n\nThe proposed report would include the update's hash, an agreed scoring system covering newly introduced or fixed issues, and a signature. Installation systems could use this as a policy input, for example requiring scans by at least two services before allowing an update. This connects analysis reports with installation decisions as an idea; it is not an operating public scanning service or evidence that models can detect every problem.\n\nOriginal-post retrieval confirmed attribution and the full proposal. There is no public implementation, analyzed sample, scoring specification, signing scheme, model name, false-positive rate or deployment. At least two services is the author's policy example, not a validated security threshold. REA is not mentioned. No updates were downloaded or scanners run here. A signed report is not equated with software safety or independent verification; this remains an unverified idea.",
+      "metadata":["November 18, 2026 sealed candidate: 1 like, 82 views, 0 reposts, 0 replies. This is an engagement snapshot, not evidence of implementation or effectiveness."],
+      "source_labels":["P Flodin's AI update-analysis and public signed-report proposal, November 18, 2026 at 04:21:05 Beijing time"]
+    }
+  },
+  {
+    "id":"baglesand-local-llm-ghidra-rtx3060-integration-trial",
+    "title":"本地LLM接Ghidra：ベーグル报告RTX3060上的整合试错与响应等待",
+    "category":"apps", "rea":"other-ai", "status":"in-progress",
+    "summary":"ベーグル称休息日用于尝试本地LLM与Ghidra联动，学到不少，但RTX3060等待响应较久；未提供模型、目标程序、接法或分析正确率。",
+    "description":"2026年11月18日07:33:06（北京时间），ベーグル（@baglesand）报告自己为本地LLM与Ghidra的联动反复试错，休息日就这样过去了，不过学到不少。Ghidra是用于程序反汇编与反编译的分析工具，本条的具体项目是把本地语言模型接入它的工作流，而非某个已命名软件的源码恢复。\n\n作者说RTX3060负担较重，等回复要花较长时间。这是个人整合实验的定性性能观察，没有给出秒数、吞吐量、显存配置或比较基线，不能推成该显卡无法使用，或所有本地模型都慢。原帖也没有断言整合已完成、分析正确或发现漏洞。\n\n补查原帖确认署名与全文。未给模型名称、量化规格、插件、MCP或其他连接方式，也未指定待分析二进制、代码仓库、日志或测试结果；REA使用不明，不假定使用某个已有Ghidra项目。本合集未运行模型、安装插件或执行目标，按进行中的AI辅助分析工具整合实验保留，非独立复现。",
+    "sources":[{"label":"ベーグル的本地LLM／Ghidra整合与RTX3060响应观察，2026-11-18 07:33:06北京时间","url":"https://x.com/i/status/2122835449945468970"}],
+    "snapshot_date":"2026-11-18",
+    "metadata":["2026-11-18候选封存0赞、18浏览、0转发、0回复；休息日是作者对试错经历的描述，不是精确工时。"],
+    "en":{
+      "title":"A local LLM with Ghidra: baglesand reports integration trial and error and slow RTX3060 responses",
+      "summary":"Baglesand says a day off went into local-LLM/Ghidra integration experiments, with useful learning but long waits for RTX3060 responses. Model, target binary, connection method and analysis accuracy are unspecified.",
+      "description":"At 07:33:06 Beijing time on November 18, 2026, ベーグル (@baglesand) reports spending a day off on trial and error connecting a local LLM with Ghidra, while learning a great deal. Ghidra is a program-disassembly and decompilation analysis tool. The concrete project here is integrating a local language model into its workflow, not recovering the source of a named software product.\n\nThe author says the load is heavy for an RTX3060 and responses take quite a while. This is a qualitative performance observation from a personal integration experiment, without seconds, throughput, VRAM configuration or a comparison baseline. It does not establish that the GPU is unusable or all local models are slow. Nor does the post claim completed integration, correct analysis or a discovered vulnerability.\n\nOriginal-post retrieval confirmed attribution and full wording. No model, quantization specification, plugin, MCP or other connection method is named. Target binary, repository, logs and test results are also absent. REA use is unknown, and no particular existing Ghidra project is assumed. No models, plugins or targets were run here. Retained as an in-progress AI-assisted analysis-tool integration experiment, not an independent reproduction.",
+      "metadata":["November 18, 2026 sealed candidate: 0 likes, 18 views, 0 reposts, 0 replies. A day off describes the author's trial-and-error experience, not a precise effort measurement."],
+      "source_labels":["Baglesand's local-LLM/Ghidra integration and RTX3060 response observation, November 18, 2026 at 07:33:06 Beijing time"]
+    }
+  },
+  {
     "id":"darmoshark-top75-macos-ai-protocol-report",
     "title":"Darmoshark TOP75接Mac：AI辅助研究Windows工具，再以IOKit验证蓝牙命令",
     "category":"hardware", "rea":"other-ai", "status":"unverified",
