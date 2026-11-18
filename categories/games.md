@@ -388,7 +388,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](../cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](../cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](../cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植idea：Linux／Vulkan、Qwen与Claude／REA本地Windows愿望](../cases/gta6-ai-decompile-prediction.md) — GTA6移植愿望补上Kamikaze的Claude／REA原生Windows与本地服务器设想；既有Linux／Vulkan、Qwen路线与数万美元token预测均未变成移植结果。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植idea：Linux／Vulkan、Qwen与Claude／REA本地Windows愿望](../cases/gta6-ai-decompile-prediction.md) — GTA6的Linux／Vulkan、Qwen与Claude／REA移植愿望之外，Matthew Soro又称有人筹备众包AI反编译；六个月内PC发布仍是预测，没有项目仓库或构建结果。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](../cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](../cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](../cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**

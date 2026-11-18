@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [录屏到3D山体应用：Satty称一个Agent十分钟重建交互动作](../cases/screen-recording-mountain-3d-app-agent-reconstruction.md) — Satty报告一个Agent从单次录屏与游标动作重建3D山体应用，含相机控件、轨道追踪、大纲与时间线；十分钟和单提示均未有会话或代码核验。 **[其他 AI 逆向 · 待验证]**
+- [30秒宣传片到浏览器代码：zetabyte报告Gemini重建12场景与合成音效](../cases/zetabyte-gemini-promo-html-gsap-reconstruction.md) — zetabyte称Gemini 3.8 Flash high配Antigravity和自制插件重建参考宣传片：12场景、6027行HTML／CSS／GSAP，约90%画面为代码；尚未核对演示或实现。 **[其他 AI 逆向 · 待验证]**
 - [Java4Shell二手报告：Sam称Codex协助研究OpenJDK Base64内存越界](../cases/java4shell-codex-base64-secondary-report.md) — Sam将OpenJDK Base64问题归于Quang Luong与Codex，称一小时发现、两小时利用及不足200美元；无CVE、版本、补丁或原研究，不采纳普遍攻陷宣称。 **[其他 AI 逆向 · 待验证]**
 - [glyphmuseum应用去Google依赖：Jason建议用REA解决去谷歌手机兼容](../cases/glyphmuseum-rea-degoogle-app-idea.md) — Jason Fortezza称glyphmuseum应用不能在去Google手机工作，提出用REA剥离Google Play依赖；没有APK分析、依赖定位或可运行改版。 **[REA · 待验证]**
 - [Magpie中转API：Tmr比较三个模型追查prompt与tool注入](../cases/magpie-relay-api-model-injection-comparison.md) — Tmr称GPT与Sonnet四分钟找到部分注入，Gemini二十分钟追出混合反代与注入内容；无API样本或对照日志，不确认探测准确性。 **[其他 AI 逆向 · 待验证]**

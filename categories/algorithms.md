@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Emily Trim图画解码：用AI寻找基因编号，仍需排除事后巧合](../cases/emily-trim-illustrations-ai-symbol-decoding-experiment.md) — 发帖者用前沿AI整理Emily Trim首400幅图，尝试从元素图中读出TUFT1与CTSG编号；尚无固定解码规则或盲测，不是药物逆向或治疗发现。 **[其他 AI 逆向 · 分析测试]**
+- [PineScript经济序列行为：SolaFolda报告价差／SMA探索与后续AI协助](../cases/solafolda-pinescript-economic-series-ai-behavior-investigation.md) — SolaFolda研究TradingView价差序列与SMA显示行为，称后来由AI扩展指标想法；秒级图表不证明宏观数据秒级更新，收益与策略有效率均未验证。 **[其他 AI 逆向 · 待验证]**
 - [Glaskin广告逐帧重建：Claude三轮对照，作者称配音时差在0.3秒内](../cases/glaskin-claude-tiktok-ad-timing-reconstruction.md) — cicerougc称为Glaskin拆竞品26.9秒TikTok，用ChatGPT图片、本地TTS与Claude／Python重建，三轮修正配音；传播测试尚未开展，未审输出与QA。 **[其他 AI 逆向 · 待验证]**
 - [Tilo广告重做：Matin以REA Video、Claude与Higgsfield演示，也保留首轮不如意](../cases/tilo-rea-video-higgsfield-ad-remake.md) — Matin SenPai介绍Claude Fable5.2与Higgsfield MCP制作Tilo广告及REA Video参考片重做教程；明确首轮不满意、Higgsfield赞助，视频未独立审看。 **[其他 AI 逆向 · 待验证]**
 - [为什么AI不引用客户网站：TimSEO从Obsidian问题库反查三模型答案](../cases/timseo-obsidian-geo-answer-reverse-analysis.md) — TimSEO以客户沟通找1至5个关键词，Agent抓网并整理60个业务问题，同问ChatGPT、Gemini、Perplexity反推引用缺失；无流量或排名提升结果。 **[其他 AI 逆向 · 进行中]**

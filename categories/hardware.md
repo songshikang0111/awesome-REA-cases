@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [MapSleuth：Robbie用两台DGX Spark的本地AI研究ECU标定表](../cases/mapsleuth-local-ai-ecu-calibration-map-research.md) — Robbie Searles正在构建定位并解码汽车ECU固件标定表的MapSleuth；迁移推理后端后自报57 tok/s与0.18秒首token，不是标定识别准确率。 **[其他 AI 逆向 · 进行中]**
 - [让Claude做FSD等效模型再接comma：Josef的驾驶行为重建idea](../cases/atris-claude-fsd-comma-driving-model-idea.md) — Josef设想足够数据算力下让Claude训练比肩当下Tesla FSD的模型、经comma装车；无数据、训练、车载实现或安全验证。 **[其他 AI 逆向 · 待验证]**
 - [Thermomix也想研究：Lai Weil提出REA厨师机idea并询问Claude限制](../cases/laiweil-thermomix-rea-research-idea.md) — Lai Weil看另一Connect厨师机项目后想研究Thermomix，并称看到Claude阻止REA使用；没有自己设备的分析、代码或食谱结果。 **[REA · 待验证]**
 - [从服务器余热到热泵：Vik用本地Agent整合家庭设备，逆向互通仍进行中](../cases/vik-local-ai-heat-pump-home-interoperability.md) — Vik报告两台热泵、摄像头与继电器自动化，计划本地AI分区供暖并逆向不兼容设备；现有监控自述与未来能耗测试分开，尚无协议或能效数据。 **[其他 AI 逆向 · 进行中]**
@@ -13,7 +14,7 @@
 - [Darmoshark TOP75接Mac：AI辅助研究Windows工具，再以IOKit验证蓝牙命令](../cases/darmoshark-top75-macos-ai-protocol-report.md) — Bedirhan称借AI研究Windows工具，以IOKit测试TOP75；固定文档记录USB／蓝牙命令、写后读回和回退，也保留宏写入重枚举、GIF未实机确认等限制。 **[其他 AI 逆向 · 待验证]**
 - [二手Echo 2刷LibreEcho：Roman报告本地模型选择与SSH，Codex连接仍失败](../cases/rzykov-libreecho-echo2-local-assistant-report.md) — Roman Zykov拆开二手Echo 2焊USB、刷LibreEcho，报告SSH可用、Codex连接失败；固定文档确认既有解锁研究与本地语音／可选LLM路线，不证明AI发现漏洞。 **[未确认使用 REA · 相关项目]**
 - [三菱设备本地接HA：j2rs称Claude给出ESP32采购清单、固件与集成](../cases/j2rs-mitsubishi-claude-atom-lite-home-assistant-report.md) — j2rs称Mitsubishi设备可用Atom Lite／ESP32与一欧元线材本地控制，Claude提供清单、固件和Home Assistant集成；未见型号、协议分析或实机日志。 **[其他 AI 逆向 · 待验证]**
-- [ProcReverser：以执行反馈推进处理器黑箱微架构研究的多Agent项目介绍](../cases/procreverser-multi-agent-microarchitecture-research-report.md) — AI Security Daily分享ProcReverser，称多Agent系统借执行反馈自动化处理器黑箱微架构逆向；正文可确认目标与方法，但没有已读论文、处理器清单或验证指标。 **[其他 AI 逆向 · 待验证]**
+- [ProcReverser：以执行反馈推进处理器黑箱微架构研究的多Agent项目介绍](../cases/procreverser-multi-agent-microarchitecture-research-report.md) — ProcReverser以多Agent与执行反馈研究处理器黑箱微架构；11月19日目录帖补上完整题名、漏洞分析用途及七位作者，论文与实验仍未核验。 **[其他 AI 逆向 · 待验证]**
 - [CMP 170HX解锁转述：Pico 2控制稳压芯片，AI编写不可逆配置脚本](../cases/cmp170hx-pico2-ai-configuration-script-report.md) — 天宫打工人转述玩家以Pico 2和四线连接研究CMP 170HX，AI编写一次性配置脚本，报告识别80GB和126组计算单元；未核源码、样卡或性能，不等于完整A100。 **[其他 AI 逆向 · 待验证]**
 - [31张SEM照片重建流片形貌：CosmosMind硅光工艺反馈的报道](../cases/cosmosmind-sem-chip-as-built-geometry-reconstruction-report.md) — 署名编辑李希的报道说CosmosMind系统从31张电镜照片提取刻蚀边缘、重建三维形貌并校准35B工艺模型；这是制造实物到数字几何的重建自述，未审照片或量测。 **[其他 AI 逆向 · 待验证]**
 - [DDR3控制器内部跟踪：Kenta IDA称Claude自行用trace调查故障](../cases/claude-ddr3-controller-internal-trace-debug-report.md) — Kenta IDA报告自制高速内部状态跟踪工具很快用于DDR3控制器故障调查，Claude自行读取trace；未给根因、修复或测试日志。 **[其他 AI 逆向 · 待验证]**
