@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [点击A却执行B：以20个Windows漏洞设计AI行为判断与修复回归评测](../cases/windows-execution-target-confusion-ai-eval-idea.md) — 团队以整理的20个Windows漏洞为背景，提出向模型提供操作和程序行为证据，让其定位执行目标混淆并验证修复；是具体评测方案，非已测榜单。 **[其他 AI 逆向 · 相关项目]**
 - [京成Skyliner事件重建：hackerlogs称Opus配rea-sec生成攻击图，真实入口仍未知](../cases/hackerlogs-rea-sec-keisei-skyliner-public-incident-analysis.md) — hackerlogs称一提示让Opus 5.5与rea-sec在3分钟内从公开来源整理Skyliner泄露路径、ATT&CK映射与修复建议；入口未知，未核原报告或分析产物。 **[其他 AI 逆向 · 待验证]**
 - [Ava Studio MCP：从产品网站与参考发布片重建节拍，2000多片库仍待核](../cases/ava-studio-mcp-launch-video-reference-reconstruction.md) — 两条候选讨论Ava接Claude Code/Codex的发布视频重建；补查作者说输入产品网站、选参考片逐节拍换产品。未审库、MCP或成片，不把宣传当分发效果。 **[其他 AI 逆向 · 待验证]**
 - [爆款视频拆成新情景：Simone以逆向提示、Fable5.2与Seedance2.5重做](../cases/fable-seedance-viral-video-prompt-reconstruction-report.md) — Simone称先用逆向提示拆视频，再让Fable5.2写新情景、Seedance2.5以480p生成后放大；3M观看与2.56美元未见对应统计或账单。 **[其他 AI 逆向 · 待验证]**

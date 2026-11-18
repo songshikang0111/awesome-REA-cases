@@ -2,8 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [SwarmLabRE：pi驱动REA，把多Agent发现与文件字节核对后再写报告](../cases/swarmlabre-pi-rea-byte-checked-multi-agent-analysis.md) — SwarmLabRE让pi经REA分析ELF／PE／APK，并核对字节与工具日志、离线重建报告。已读固定README：alpha仅单台arm64，演示／golden均为mock，未测真实恶意软件。 **[REA · 进行中]**
+- [修/status别名却研究起Claude Code：Lee Penkman的DeepSeek调试尝试](../cases/lee-penkman-deepseek-claude-code-status-alias-research.md) — Lee Penkman让DeepSeek修/status别名，称模型自行研究Claude Code以找cldst故障；后续明确为omp fork及DeepSeek Flash，尚无修复验收。 **[其他 AI 逆向 · 进行中]**
+- [收到打包客户端却有bug：dk021称用Codex直接逆向修补](../cases/dk021-codex-packaged-client-bugfix-report.md) — dk021称其他团队交付的打包客户端有bug，自己让Codex逆向改掉；软件、缺陷、修补方式与授权未知，保留第一人称未核验自述。 **[其他 AI 逆向 · 待验证]**
 - [Replit Mission模式：Vini Lana转述一提示研究软件的入口，尚无目标演示](../cases/replit-mission-reverse-engineering-mode-secondary-report.md) — Vini Lana称Replit新增Mission逆向模式，并介绍微VM导入、SSH与shell背景；未给分析目标、文档或执行结果，任意软件与免配置均未核验。 **[其他 AI 逆向 · 相关项目]**
-- [rust-anything：先记录旧程序答案，再让Claude Code逐块重建Rust热点](../cases/rust-anything-claude-behavior-capture-rust-migration.md) — rust-anything以旧程序输入输出约束AI的Rust热点重建；后续帖列Node搜索20倍及3万余样本零不匹配，仍缺原始性能记录，网络和数据库副作用未获覆盖确认。 **[其他 AI 逆向 · 待验证]**
+- [rust-anything：先记录旧程序答案，再让Claude Code逐块重建Rust热点](../cases/rust-anything-claude-behavior-capture-rust-migration.md) — rust-anything以旧程序输入输出约束AI的Rust热点重建；新转述给出搜索143ms对6.9ms、38251样本零不匹配，仍无原始基准或网络／数据库副作用覆盖证明。 **[其他 AI 逆向 · 待验证]**
 - [沙箱谜题与评审规则：Michael转述Agent协作逆向，称未多拿分](../cases/openai-sandbox-agents-reviewer-reverse-engineering-retelling.md) — Michael转述OpenAI隔离Agent经共享存储协作、逆向谜题并试探评分器；1200个Agent、超7万消息和外部访问均缺原实验，结果只按二手叙述保留。 **[其他 AI 逆向 · 待验证]**
 - [重访X书签的bot：Kenzo要求Claude／REA研究fitz工具的idea](../cases/kenzo-rea-x-bookmark-bot-reconstruction-idea.md) — Kenzo回复fitz的X书签bot，要求Claude/REA研究；父帖说明要解决收藏后不再看的问题，没有研究开工、功能规格或重建结果。 **[REA · 待验证]**
 - [给每次软件更新发签名分析报告：P Flodin的AI供应链公共登记簿idea](../cases/ai-supply-chain-update-signed-analysis-register-idea.md) — P Flodin建议AI厂商扫描、反编译并分析供应链每次更新，公开带哈希、问题评分和签名的报告，供安装策略要求多个服务检查；尚无实现或评测。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Benwick的旧游戏：用Claude研究文件格式，搭SDL与OpenGL适配层](../cases/benwick-claude-old-game-sdl-opengl-format-research.md) — Benwick称已用Claude逆向一款未具名旧游戏数周，以SDL／OpenGL shim和文件格式为具体任务；没有报告可玩重建版或测试结果。 **[其他 AI 逆向 · 进行中]**
+- [《转运军团》未发售先遭复制：AI反编译小游戏的二手影响报告](../cases/zhuanyun-legion-ai-decompilation-copy-secondary-report.md) — 帖子称韩国独立游戏《转运军团》未发售前就被AI反编译复制成小游戏；没有克隆名称、代码或对照，不把原游戏销量与收入算成逆向项目成果。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas动力装甲：Momus称用Claude与社区反编译成果加入Fallout 4式玩法](../cases/momus-new-vegas-claude-power-armor-mod-report.md) — Momus Digital自述以Claude Opus 5.5及社区反编译成果，把Fallout 4式动力装甲加入New Vegas；未取得模组代码、玩法对照或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [Super Meat Boy改画面：Xensley以玩笑式提示设想Claude反编译](../cases/claude-super-meat-boy-graphics-rebuild-idea.md) — Xensley在批评Team Meat的讨论下写出让Claude反编译Super Meat Boy再改画面的提示；两小时后结果是修辞，没有构建、补丁或实测。 **[其他 AI 逆向 · 待验证]**
 - [GT1／2浏览器Scapes照片模式：旁观者称Claude参与逆向与渲染器](../cases/gt12-browser-scapes-claude-renderer-secondary-report.md) — Pedro在Gran Turismo 1/2浏览器照片模式讨论中称Claude用于逆向和渲染器编写；上下文指向赛道mod kit，但没有已审仓库或开发者证实。 **[其他 AI 逆向 · 待验证]**
@@ -225,7 +227,7 @@
 - [未具名游戏：咸鱼称REA十分钟完成逆向](../cases/nickling017-rea-ten-minute-unnamed-game-report.md) — 咸鱼报告REA十分钟帮自己完成游戏逆向；只确认作者自述及一张截图附件，游戏名、逆向范围和可运行成果未核验。 **[REA · 待验证]**
 - [Kega Fusion：用AI反编译模拟器、增加无边框窗口的愿望](../cases/kega-fusion-ai-decompile-borderless-idea.md) — 读者建议AI反编译Kega Fusion模拟器，加入无边框窗口等现代功能；尚无实现或测试。 **[其他 AI 逆向 · 待验证]**
 - [Street Fighter the Movie到SNES：Old Man Rukus称AI帮助Ghidra命名符号](../cases/oldmanrukus-sftm-ai-ghidra-snes-project.md) — Old Man Rukus澄清SFTM从AI主导转为约一半人工，AI通过Ghidra命名符号并帮助学习SNES；旧帖提及MSU-1与SD2SNES，未独立核验可玩移植。 **[其他 AI 逆向 · 进行中]**
-- [Super Turbo反编译：Old Man Rukus称先用AI，再转向个人SNES学习](../cases/oldmanrukus-super-turbo-ai-decompilation.md) — Old Man Rukus称用AI反编译Super Turbo，随后强调自己学习SNES而不继续依赖AI；没有给游戏版本、源码或可运行输出。 **[其他 AI 逆向 · 进行中]**
+- [Super Turbo：Old Man Rukus澄清LLM4Binary反编译、Qwen回归，编码由人完成](../cases/oldmanrukus-super-turbo-ai-decompilation.md) — Old Man Rukus在Super Turbo串明确LLM4Binary负责反编译、Qwen3.6负责回归测试，没有用AI编码；是作者分工说明，未取得匹配数据、测试日志或完整移植证据。 **[其他 AI 逆向 · 进行中]**
 - [Capcom vs SNK到SNES：Old Man Rukus计划AI反编译后亲自接手](../cases/oldmanrukus-capcom-vs-snk-ai-decompile-plan.md) — Old Man Rukus计划先用AI反编译Capcom vs SNK再自己开发；较早说明把它与SNES/MSU-1学习相连，没有已完成反编译或移植证据。 **[其他 AI 逆向 · 待验证]**
 - [Final Fantasy 7上SNES：Old Man Rukus以SD2SNES mkII为长期目标](../cases/oldmanrukus-ff7-snes-sd2snes-idea.md) — Old Man Rukus把AI辅助格斗游戏研究的长期动机归于SNES加SD2SNES mkII运行FF7的信念；没有技术验证，不同于现代二维重制idea。 **[未确认使用 REA · 待验证]**
 - [Resident Evil复古降级：Jame(Rez)建议AI反编译经典引擎](../cases/resident-evil-classic-engine-ai-demake-idea.md) — 在把RE4/5/7/8/9做成初代风格的愿望下，Jame(Rez)建议AI反编译老游戏、重建引擎；没有开始实施或性能、兼容性证据。 **[其他 AI 逆向 · 待验证]**

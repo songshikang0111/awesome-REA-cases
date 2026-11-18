@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Euro7车辆软件限制：以电视去广告类比AI改更新的读者idea](../cases/euro7-vehicle-software-ai-modification-idea.md) — QRCS_Analytics认为Euro7限制可借AI软件更新改变，以Samsung电视改固件去广告为类比；没有车辆、ECU、法规条款或实现，不确认技术与法律可行。 **[其他 AI 逆向 · 待验证]**
+- [遥控越野车照片到3D装配：OpenAI重建模型、动画与零件目录的二手报告](../cases/openai-rc-offroad-car-photo-manual-3d-reconstruction-report.md) — 帖子称OpenAI仅据公开照片和说明书生成遥控越野车3D模型、内部结构、装配动画及零件目录；车型、模型与尺寸精度未知，不能推成可制造零件。 **[其他 AI 逆向 · 待验证]**
 - [Darmoshark TOP75接Mac：AI辅助研究Windows工具，再以IOKit验证蓝牙命令](../cases/darmoshark-top75-macos-ai-protocol-report.md) — Bedirhan称借AI研究Windows工具，以IOKit测试TOP75；固定文档记录USB／蓝牙命令、写后读回和回退，也保留宏写入重枚举、GIF未实机确认等限制。 **[其他 AI 逆向 · 待验证]**
 - [二手Echo 2刷LibreEcho：Roman报告本地模型选择与SSH，Codex连接仍失败](../cases/rzykov-libreecho-echo2-local-assistant-report.md) — Roman Zykov拆开二手Echo 2焊USB、刷LibreEcho，报告SSH可用、Codex连接失败；固定文档确认既有解锁研究与本地语音／可选LLM路线，不证明AI发现漏洞。 **[未确认使用 REA · 相关项目]**
 - [三菱设备本地接HA：j2rs称Claude给出ESP32采购清单、固件与集成](../cases/j2rs-mitsubishi-claude-atom-lite-home-assistant-report.md) — j2rs称Mitsubishi设备可用Atom Lite／ESP32与一欧元线材本地控制，Claude提供清单、固件和Home Assistant集成；未见型号、协议分析或实机日志。 **[其他 AI 逆向 · 待验证]**

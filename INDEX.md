@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2425 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2433 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（474）
-- [硬件与设备互通](categories/hardware.md)（644）
-- [应用与客户端](categories/apps.md)（1014）
-- [算法与功能重建](categories/algorithms.md)（293）
+- [游戏与游戏保存](categories/games.md)（476）
+- [硬件与设备互通](categories/hardware.md)（646）
+- [应用与客户端](categories/apps.md)（1017）
+- [算法与功能重建](categories/algorithms.md)（294）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Benwick的旧游戏：用Claude研究文件格式，搭SDL与OpenGL适配层](cases/benwick-claude-old-game-sdl-opengl-format-research.md) — Benwick称已用Claude逆向一款未具名旧游戏数周，以SDL／OpenGL shim和文件格式为具体任务；没有报告可玩重建版或测试结果。 **[其他 AI 逆向 · 进行中]**
+- [《转运军团》未发售先遭复制：AI反编译小游戏的二手影响报告](cases/zhuanyun-legion-ai-decompilation-copy-secondary-report.md) — 帖子称韩国独立游戏《转运军团》未发售前就被AI反编译复制成小游戏；没有克隆名称、代码或对照，不把原游戏销量与收入算成逆向项目成果。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas动力装甲：Momus称用Claude与社区反编译成果加入Fallout 4式玩法](cases/momus-new-vegas-claude-power-armor-mod-report.md) — Momus Digital自述以Claude Opus 5.5及社区反编译成果，把Fallout 4式动力装甲加入New Vegas；未取得模组代码、玩法对照或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [Super Meat Boy改画面：Xensley以玩笑式提示设想Claude反编译](cases/claude-super-meat-boy-graphics-rebuild-idea.md) — Xensley在批评Team Meat的讨论下写出让Claude反编译Super Meat Boy再改画面的提示；两小时后结果是修辞，没有构建、补丁或实测。 **[其他 AI 逆向 · 待验证]**
 - [GT1／2浏览器Scapes照片模式：旁观者称Claude参与逆向与渲染器](cases/gt12-browser-scapes-claude-renderer-secondary-report.md) — Pedro在Gran Turismo 1/2浏览器照片模式讨论中称Claude用于逆向和渲染器编写；上下文指向赛道mod kit，但没有已审仓库或开发者证实。 **[其他 AI 逆向 · 待验证]**
@@ -249,7 +251,7 @@
 - [未具名游戏：咸鱼称REA十分钟完成逆向](cases/nickling017-rea-ten-minute-unnamed-game-report.md) — 咸鱼报告REA十分钟帮自己完成游戏逆向；只确认作者自述及一张截图附件，游戏名、逆向范围和可运行成果未核验。 **[REA · 待验证]**
 - [Kega Fusion：用AI反编译模拟器、增加无边框窗口的愿望](cases/kega-fusion-ai-decompile-borderless-idea.md) — 读者建议AI反编译Kega Fusion模拟器，加入无边框窗口等现代功能；尚无实现或测试。 **[其他 AI 逆向 · 待验证]**
 - [Street Fighter the Movie到SNES：Old Man Rukus称AI帮助Ghidra命名符号](cases/oldmanrukus-sftm-ai-ghidra-snes-project.md) — Old Man Rukus澄清SFTM从AI主导转为约一半人工，AI通过Ghidra命名符号并帮助学习SNES；旧帖提及MSU-1与SD2SNES，未独立核验可玩移植。 **[其他 AI 逆向 · 进行中]**
-- [Super Turbo反编译：Old Man Rukus称先用AI，再转向个人SNES学习](cases/oldmanrukus-super-turbo-ai-decompilation.md) — Old Man Rukus称用AI反编译Super Turbo，随后强调自己学习SNES而不继续依赖AI；没有给游戏版本、源码或可运行输出。 **[其他 AI 逆向 · 进行中]**
+- [Super Turbo：Old Man Rukus澄清LLM4Binary反编译、Qwen回归，编码由人完成](cases/oldmanrukus-super-turbo-ai-decompilation.md) — Old Man Rukus在Super Turbo串明确LLM4Binary负责反编译、Qwen3.6负责回归测试，没有用AI编码；是作者分工说明，未取得匹配数据、测试日志或完整移植证据。 **[其他 AI 逆向 · 进行中]**
 - [Capcom vs SNK到SNES：Old Man Rukus计划AI反编译后亲自接手](cases/oldmanrukus-capcom-vs-snk-ai-decompile-plan.md) — Old Man Rukus计划先用AI反编译Capcom vs SNK再自己开发；较早说明把它与SNES/MSU-1学习相连，没有已完成反编译或移植证据。 **[其他 AI 逆向 · 待验证]**
 - [Final Fantasy 7上SNES：Old Man Rukus以SD2SNES mkII为长期目标](cases/oldmanrukus-ff7-snes-sd2snes-idea.md) — Old Man Rukus把AI辅助格斗游戏研究的长期动机归于SNES加SD2SNES mkII运行FF7的信念；没有技术验证，不同于现代二维重制idea。 **[未确认使用 REA · 待验证]**
 - [Resident Evil复古降级：Jame(Rez)建议AI反编译经典引擎](cases/resident-evil-classic-engine-ai-demake-idea.md) — 在把RE4/5/7/8/9做成初代风格的愿望下，Jame(Rez)建议AI反编译老游戏、重建引擎；没有开始实施或性能、兼容性证据。 **[其他 AI 逆向 · 待验证]**
@@ -503,6 +505,8 @@
 
 ### 硬件与设备互通
 
+- [Euro7车辆软件限制：以电视去广告类比AI改更新的读者idea](cases/euro7-vehicle-software-ai-modification-idea.md) — QRCS_Analytics认为Euro7限制可借AI软件更新改变，以Samsung电视改固件去广告为类比；没有车辆、ECU、法规条款或实现，不确认技术与法律可行。 **[其他 AI 逆向 · 待验证]**
+- [遥控越野车照片到3D装配：OpenAI重建模型、动画与零件目录的二手报告](cases/openai-rc-offroad-car-photo-manual-3d-reconstruction-report.md) — 帖子称OpenAI仅据公开照片和说明书生成遥控越野车3D模型、内部结构、装配动画及零件目录；车型、模型与尺寸精度未知，不能推成可制造零件。 **[其他 AI 逆向 · 待验证]**
 - [Darmoshark TOP75接Mac：AI辅助研究Windows工具，再以IOKit验证蓝牙命令](cases/darmoshark-top75-macos-ai-protocol-report.md) — Bedirhan称借AI研究Windows工具，以IOKit测试TOP75；固定文档记录USB／蓝牙命令、写后读回和回退，也保留宏写入重枚举、GIF未实机确认等限制。 **[其他 AI 逆向 · 待验证]**
 - [二手Echo 2刷LibreEcho：Roman报告本地模型选择与SSH，Codex连接仍失败](cases/rzykov-libreecho-echo2-local-assistant-report.md) — Roman Zykov拆开二手Echo 2焊USB、刷LibreEcho，报告SSH可用、Codex连接失败；固定文档确认既有解锁研究与本地语音／可选LLM路线，不证明AI发现漏洞。 **[未确认使用 REA · 相关项目]**
 - [三菱设备本地接HA：j2rs称Claude给出ESP32采购清单、固件与集成](cases/j2rs-mitsubishi-claude-atom-lite-home-assistant-report.md) — j2rs称Mitsubishi设备可用Atom Lite／ESP32与一欧元线材本地控制，Claude提供清单、固件和Home Assistant集成；未见型号、协议分析或实机日志。 **[其他 AI 逆向 · 待验证]**
@@ -1150,8 +1154,11 @@
 
 ### 应用与客户端
 
+- [SwarmLabRE：pi驱动REA，把多Agent发现与文件字节核对后再写报告](cases/swarmlabre-pi-rea-byte-checked-multi-agent-analysis.md) — SwarmLabRE让pi经REA分析ELF／PE／APK，并核对字节与工具日志、离线重建报告。已读固定README：alpha仅单台arm64，演示／golden均为mock，未测真实恶意软件。 **[REA · 进行中]**
+- [修/status别名却研究起Claude Code：Lee Penkman的DeepSeek调试尝试](cases/lee-penkman-deepseek-claude-code-status-alias-research.md) — Lee Penkman让DeepSeek修/status别名，称模型自行研究Claude Code以找cldst故障；后续明确为omp fork及DeepSeek Flash，尚无修复验收。 **[其他 AI 逆向 · 进行中]**
+- [收到打包客户端却有bug：dk021称用Codex直接逆向修补](cases/dk021-codex-packaged-client-bugfix-report.md) — dk021称其他团队交付的打包客户端有bug，自己让Codex逆向改掉；软件、缺陷、修补方式与授权未知，保留第一人称未核验自述。 **[其他 AI 逆向 · 待验证]**
 - [Replit Mission模式：Vini Lana转述一提示研究软件的入口，尚无目标演示](cases/replit-mission-reverse-engineering-mode-secondary-report.md) — Vini Lana称Replit新增Mission逆向模式，并介绍微VM导入、SSH与shell背景；未给分析目标、文档或执行结果，任意软件与免配置均未核验。 **[其他 AI 逆向 · 相关项目]**
-- [rust-anything：先记录旧程序答案，再让Claude Code逐块重建Rust热点](cases/rust-anything-claude-behavior-capture-rust-migration.md) — rust-anything以旧程序输入输出约束AI的Rust热点重建；后续帖列Node搜索20倍及3万余样本零不匹配，仍缺原始性能记录，网络和数据库副作用未获覆盖确认。 **[其他 AI 逆向 · 待验证]**
+- [rust-anything：先记录旧程序答案，再让Claude Code逐块重建Rust热点](cases/rust-anything-claude-behavior-capture-rust-migration.md) — rust-anything以旧程序输入输出约束AI的Rust热点重建；新转述给出搜索143ms对6.9ms、38251样本零不匹配，仍无原始基准或网络／数据库副作用覆盖证明。 **[其他 AI 逆向 · 待验证]**
 - [沙箱谜题与评审规则：Michael转述Agent协作逆向，称未多拿分](cases/openai-sandbox-agents-reviewer-reverse-engineering-retelling.md) — Michael转述OpenAI隔离Agent经共享存储协作、逆向谜题并试探评分器；1200个Agent、超7万消息和外部访问均缺原实验，结果只按二手叙述保留。 **[其他 AI 逆向 · 待验证]**
 - [重访X书签的bot：Kenzo要求Claude／REA研究fitz工具的idea](cases/kenzo-rea-x-bookmark-bot-reconstruction-idea.md) — Kenzo回复fitz的X书签bot，要求Claude/REA研究；父帖说明要解决收藏后不再看的问题，没有研究开工、功能规格或重建结果。 **[REA · 待验证]**
 - [给每次软件更新发签名分析报告：P Flodin的AI供应链公共登记簿idea](cases/ai-supply-chain-update-signed-analysis-register-idea.md) — P Flodin建议AI厂商扫描、反编译并分析供应链每次更新，公开带哈希、问题评分和签名的报告，供安装策略要求多个服务检查；尚无实现或评测。 **[其他 AI 逆向 · 待验证]**
@@ -2167,6 +2174,7 @@
 
 ### 算法与功能重建
 
+- [点击A却执行B：以20个Windows漏洞设计AI行为判断与修复回归评测](cases/windows-execution-target-confusion-ai-eval-idea.md) — 团队以整理的20个Windows漏洞为背景，提出向模型提供操作和程序行为证据，让其定位执行目标混淆并验证修复；是具体评测方案，非已测榜单。 **[其他 AI 逆向 · 相关项目]**
 - [京成Skyliner事件重建：hackerlogs称Opus配rea-sec生成攻击图，真实入口仍未知](cases/hackerlogs-rea-sec-keisei-skyliner-public-incident-analysis.md) — hackerlogs称一提示让Opus 5.5与rea-sec在3分钟内从公开来源整理Skyliner泄露路径、ATT&CK映射与修复建议；入口未知，未核原报告或分析产物。 **[其他 AI 逆向 · 待验证]**
 - [Ava Studio MCP：从产品网站与参考发布片重建节拍，2000多片库仍待核](cases/ava-studio-mcp-launch-video-reference-reconstruction.md) — 两条候选讨论Ava接Claude Code/Codex的发布视频重建；补查作者说输入产品网站、选参考片逐节拍换产品。未审库、MCP或成片，不把宣传当分发效果。 **[其他 AI 逆向 · 待验证]**
 - [爆款视频拆成新情景：Simone以逆向提示、Fable5.2与Seedance2.5重做](cases/fable-seedance-viral-video-prompt-reconstruction-report.md) — Simone称先用逆向提示拆视频，再让Fable5.2写新情景、Seedance2.5以480p生成后放大；3M观看与2.56美元未见对应统计或账单。 **[其他 AI 逆向 · 待验证]**
