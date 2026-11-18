@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Glaskin广告逐帧重建：Claude三轮对照，作者称配音时差在0.3秒内](../cases/glaskin-claude-tiktok-ad-timing-reconstruction.md) — cicerougc称为Glaskin拆竞品26.9秒TikTok，用ChatGPT图片、本地TTS与Claude／Python重建，三轮修正配音；传播测试尚未开展，未审输出与QA。 **[其他 AI 逆向 · 待验证]**
+- [Tilo广告重做：Matin以REA Video、Claude与Higgsfield演示，也保留首轮不如意](../cases/tilo-rea-video-higgsfield-ad-remake.md) — Matin SenPai介绍Claude Fable5.2与Higgsfield MCP制作Tilo广告及REA Video参考片重做教程；明确首轮不满意、Higgsfield赞助，视频未独立审看。 **[其他 AI 逆向 · 待验证]**
+- [为什么AI不引用客户网站：TimSEO从Obsidian问题库反查三模型答案](../cases/timseo-obsidian-geo-answer-reverse-analysis.md) — TimSEO以客户沟通找1至5个关键词，Agent抓网并整理60个业务问题，同问ChatGPT、Gemini、Perplexity反推引用缺失；无流量或排名提升结果。 **[其他 AI 逆向 · 进行中]**
+- [Ali Abdaal短片到自己的口播：Raj用REA-video提炼style.md再生成剪辑](../cases/raj-ali-abdaal-rea-video-style-talking-head.md) — Raj报告逐镜拆Ali Abdaal Short成style.md，以Grokbot、Whisper、GSAP、Hyperframes与FFmpeg完成自有AI概念口播；未审片或独立验证风格匹配。 **[其他 AI 逆向 · 待验证]**
 - [点击A却执行B：以20个Windows漏洞设计AI行为判断与修复回归评测](../cases/windows-execution-target-confusion-ai-eval-idea.md) — 团队以整理的20个Windows漏洞为背景，提出向模型提供操作和程序行为证据，让其定位执行目标混淆并验证修复；是具体评测方案，非已测榜单。 **[其他 AI 逆向 · 相关项目]**
 - [京成Skyliner事件重建：hackerlogs称Opus配rea-sec生成攻击图，真实入口仍未知](../cases/hackerlogs-rea-sec-keisei-skyliner-public-incident-analysis.md) — hackerlogs称一提示让Opus 5.5与rea-sec在3分钟内从公开来源整理Skyliner泄露路径、ATT&CK映射与修复建议；入口未知，未核原报告或分析产物。 **[其他 AI 逆向 · 待验证]**
 - [Ava Studio MCP：从产品网站与参考发布片重建节拍，2000多片库仍待核](../cases/ava-studio-mcp-launch-video-reference-reconstruction.md) — 两条候选讨论Ava接Claude Code/Codex的发布视频重建；补查作者说输入产品网站、选参考片逐节拍换产品。未审库、MCP或成片，不把宣传当分发效果。 **[其他 AI 逆向 · 待验证]**
@@ -144,7 +148,7 @@
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](../cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
 - [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](../cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](../cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**
-- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](../cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth经Treg反推公开增长轨迹；新Lovable转述称徽章反链20132站、affiliate918站和葡语广告，保留Tesla／Treg窗口限制，数字不是内部策略或因果证明。 **[其他 AI 逆向 · 相关项目]**
+- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](../cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth经Treg反推公开增长轨迹；韩文新转述称Lovable高曝光90条Meta广告中72条复用两句文案，ChatGPT三问均列第一；数字是转述快照，不证明增长因果。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](../cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](../cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](../cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**

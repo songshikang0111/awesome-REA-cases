@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [.hack四部曲变真正网游：Cenewulf的AI反编译愿望](../cases/dot-hack-quadrilogy-ai-online-conversion-idea.md) — Cenewulf建议让AI反编译.hack四部曲并改为真正联网游戏；仅是明确目标的idea，没有代码、服务器或兼容性结果。 **[其他 AI 逆向 · 待验证]**
+- [Genesis游戏先交Ghidra再交Claude：UltimaWolf回应Matt Hughson的反编译求助](../cases/matthughson-genesis-ghidra-claude-decompile-idea.md) — Matt寻找Genesis／Mega Drive反编译工具，UltimaWolf建议主二进制先用Ghidra再让Claude接续；未命名游戏、执行或验证，不保证Claude接受或结果正确。 **[其他 AI 逆向 · 待验证]**
+- [Extended Match的AI归因更正：PhanpyBogard撤回vibecoded说法](../cases/extended-match-mod-ai-attribution-correction.md) — PhanpyBogard称Extended Match有社区Mod作者长期参与，AI可能仅用于调试；其撤回先前vibecoded说法是二手更正，不是开发者或代码审计结论。 **[未确认使用 REA · 待验证]**
+- [1999年游戏跑HD：汤包实验室的Claude Code逆向自述](../cases/matthewtang33-1999-game-hd-ai-report.md) — 汤包实验室称让AI逆向一款1999年游戏，令原引擎运行高清画面；游戏、分辨率、改动与构建未提供，不能当作已验证移植。 **[其他 AI 逆向 · 待验证]**
 - [Benwick的旧游戏：用Claude研究文件格式，搭SDL与OpenGL适配层](../cases/benwick-claude-old-game-sdl-opengl-format-research.md) — Benwick称已用Claude逆向一款未具名旧游戏数周，以SDL／OpenGL shim和文件格式为具体任务；没有报告可玩重建版或测试结果。 **[其他 AI 逆向 · 进行中]**
 - [《转运军团》未发售先遭复制：AI反编译小游戏的二手影响报告](../cases/zhuanyun-legion-ai-decompilation-copy-secondary-report.md) — 帖子称韩国独立游戏《转运军团》未发售前就被AI反编译复制成小游戏；没有克隆名称、代码或对照，不把原游戏销量与收入算成逆向项目成果。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas动力装甲：Momus称用Claude与社区反编译成果加入Fallout 4式玩法](../cases/momus-new-vegas-claude-power-armor-mod-report.md) — Momus Digital自述以Claude Opus 5.5及社区反编译成果，把Fallout 4式动力装甲加入New Vegas；未取得模组代码、玩法对照或兼容测试。 **[其他 AI 逆向 · 待验证]**

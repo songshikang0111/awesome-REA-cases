@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Java4Shell二手报告：Sam称Codex协助研究OpenJDK Base64内存越界](../cases/java4shell-codex-base64-secondary-report.md) — Sam将OpenJDK Base64问题归于Quang Luong与Codex，称一小时发现、两小时利用及不足200美元；无CVE、版本、补丁或原研究，不采纳普遍攻陷宣称。 **[其他 AI 逆向 · 待验证]**
+- [glyphmuseum应用去Google依赖：Jason建议用REA解决去谷歌手机兼容](../cases/glyphmuseum-rea-degoogle-app-idea.md) — Jason Fortezza称glyphmuseum应用不能在去Google手机工作，提出用REA剥离Google Play依赖；没有APK分析、依赖定位或可运行改版。 **[REA · 待验证]**
+- [Magpie中转API：Tmr比较三个模型追查prompt与tool注入](../cases/magpie-relay-api-model-injection-comparison.md) — Tmr称GPT与Sonnet四分钟找到部分注入，Gemini二十分钟追出混合反代与注入内容；无API样本或对照日志，不确认探测准确性。 **[其他 AI 逆向 · 待验证]**
+- [21个会话搬进DSH未成：黑铁研究zstd格式后改用Markdown交接](../cases/heitieya-dsh-zstd-session-migration-failure.md) — 黑铁称研究DSH会话格式、手写事件流导入21会话，被日志、迁移和投影缓存校验挡住，最后转22份Markdown；未明确AI参与逆向本身。 **[未确认使用 REA · 分析测试]**
+- [购买商业AI外挂再拆解：Armada报告Agent分析数百个反编译类](../cases/armada-commercial-ai-game-cheat-static-analysis.md) — Armada称威胁情报负责人购买号称AI驱动的商业游戏外挂，让Agent承担数百反编译类的静态分析，数周变数天；样本、发现与日志未公开核验。 **[其他 AI 逆向 · 待验证]**
+- [无限五代：jgy介绍带Ghidra与x64dbg桥接的AI逆向工具链](../cases/infinite-gen5-ghidra-x64dbg-agent-toolchain-report.md) — jgy长文将无限五代描述为含Ghidra、x64dbg桥接和/ig5命令的逆向工具链；没有目标分析或版本验证，不采纳破甲与普适放行保证。 **[其他 AI 逆向 · 相关项目]**
 - [SwarmLabRE：pi驱动REA，把多Agent发现与文件字节核对后再写报告](../cases/swarmlabre-pi-rea-byte-checked-multi-agent-analysis.md) — SwarmLabRE让pi经REA分析ELF／PE／APK，并核对字节与工具日志、离线重建报告。已读固定README：alpha仅单台arm64，演示／golden均为mock，未测真实恶意软件。 **[REA · 进行中]**
 - [修/status别名却研究起Claude Code：Lee Penkman的DeepSeek调试尝试](../cases/lee-penkman-deepseek-claude-code-status-alias-research.md) — Lee Penkman让DeepSeek修/status别名，称模型自行研究Claude Code以找cldst故障；后续明确为omp fork及DeepSeek Flash，尚无修复验收。 **[其他 AI 逆向 · 进行中]**
 - [收到打包客户端却有bug：dk021称用Codex直接逆向修补](../cases/dk021-codex-packaged-client-bugfix-report.md) — dk021称其他团队交付的打包客户端有bug，自己让Codex逆向改掉；软件、缺陷、修补方式与授权未知，保留第一人称未核验自述。 **[其他 AI 逆向 · 待验证]**

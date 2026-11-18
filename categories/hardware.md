@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [让Claude做FSD等效模型再接comma：Josef的驾驶行为重建idea](../cases/atris-claude-fsd-comma-driving-model-idea.md) — Josef设想足够数据算力下让Claude训练比肩当下Tesla FSD的模型、经comma装车；无数据、训练、车载实现或安全验证。 **[其他 AI 逆向 · 待验证]**
+- [Thermomix也想研究：Lai Weil提出REA厨师机idea并询问Claude限制](../cases/laiweil-thermomix-rea-research-idea.md) — Lai Weil看另一Connect厨师机项目后想研究Thermomix，并称看到Claude阻止REA使用；没有自己设备的分析、代码或食谱结果。 **[REA · 待验证]**
+- [从服务器余热到热泵：Vik用本地Agent整合家庭设备，逆向互通仍进行中](../cases/vik-local-ai-heat-pump-home-interoperability.md) — Vik报告两台热泵、摄像头与继电器自动化，计划本地AI分区供暖并逆向不兼容设备；现有监控自述与未来能耗测试分开，尚无协议或能效数据。 **[其他 AI 逆向 · 进行中]**
+- [酷开Android4.2.2老电视：AI写12KB守护，让Home约0.6秒回Aerial Lite](../cases/coocaa-8s51-android422-ai-launcher-guardian.md) — AsyncXBit报告CleanYourTV不兼容老电视后，用Aerial Lite和AI写无障碍守护避开锁定Home行为，不root不刷机；安全模式保留、播放器只测入口，未独立测试。 **[其他 AI 逆向 · 待验证]**
+- [APK到Python视频上传：Lucas称Hermes配REA研究，再部署Android Termux](../cases/luksamuk-hermes-rea-apk-video-upload-python.md) — Lucas Vieira称Hermes研究设备APK、写Python同功能脚本，再SSH放入Android Termux，已能给小设备上传视频；设备与协议未具名，未独立复现。 **[REA · 待验证]**
+- [开放原理图不等于理解设备：Sebastian报告Agent硬件逆向实验](../cases/sebuzdugan-open-hardware-agent-reversing-test.md) — Sebastian Buzdugan称测试开放硬件设计对编程Agent逆向的帮助，指出器件识别、连接理解与正确重建仍难；未给设备、模型或量化结果。 **[其他 AI 逆向 · 分析测试]**
 - [Euro7车辆软件限制：以电视去广告类比AI改更新的读者idea](../cases/euro7-vehicle-software-ai-modification-idea.md) — QRCS_Analytics认为Euro7限制可借AI软件更新改变，以Samsung电视改固件去广告为类比；没有车辆、ECU、法规条款或实现，不确认技术与法律可行。 **[其他 AI 逆向 · 待验证]**
 - [遥控越野车照片到3D装配：OpenAI重建模型、动画与零件目录的二手报告](../cases/openai-rc-offroad-car-photo-manual-3d-reconstruction-report.md) — 帖子称OpenAI仅据公开照片和说明书生成遥控越野车3D模型、内部结构、装配动画及零件目录；车型、模型与尺寸精度未知，不能推成可制造零件。 **[其他 AI 逆向 · 待验证]**
 - [Darmoshark TOP75接Mac：AI辅助研究Windows工具，再以IOKit验证蓝牙命令](../cases/darmoshark-top75-macos-ai-protocol-report.md) — Bedirhan称借AI研究Windows工具，以IOKit测试TOP75；固定文档记录USB／蓝牙命令、写后读回和回退，也保留宏写入重枚举、GIF未实机确认等限制。 **[其他 AI 逆向 · 待验证]**

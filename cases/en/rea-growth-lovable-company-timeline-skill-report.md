@@ -1,7 +1,7 @@
 # REA-growth: Lovable, Tesla and Treg growth teardowns with time-window and causality limits
 
 Category: Algorithms and feature recovery · Other AI-assisted work
-Record date: 2026-11-07
+Record date: 2026-11-18
 Stage: Related project
 
 At 15:32:10 Beijing time on November 1, 2026, an earlier post introduces the open-source agent skill /REA-growth: supply a company name to map SEO, AI search, advertising and social growth moves over time, with a reported $0.58 full Lovable analysis. Retained as related AI-assisted inference from public business traces, not binary reconstruction. A technical relationship with morluto/rea is unconfirmed.
@@ -18,9 +18,12 @@ No complete Lovable/Tesla evidence ledger, original API responses, confirmed rep
 
 At 18:34:12 Beijing time on November 7, Doc Bolt (@TheodoreGrek) describes a Lovable demo: 20,132 sites reportedly link through published-app badges and 918 through affiliate codes; founder milestone posts drew the most views, and new Portuguese Meta ads are interpreted as entry into Brazil. Treg data calls remain paid, and $0.58 is not a checked total including model cost. Suggested plays distinguish data-backed evidence from inference and include prompts. No ledger or query rerun was obtained, and Portuguese ads or correlated traffic alone do not establish market expansion or growth causation. The video was not watched.
 
+A new Korean account at 21:01:00 Beijing time on November 18 attributes the skill to Jason Zhou, repeats 20,132 badge-linking sites and $0.58 in data charges, and says 72 of 90 high-exposure Meta ads reuse just two copy lines. ChatGPT reportedly ranked Lovable first in all three questions about AI app builders for non-developer founders, with citations interpreted as the company's own A vs B comparison articles. Per-call Treg billing and an initial $1 free allowance are source claims, not permanent prices or checked totals including model costs. Ad samples, full questions, answers/citations, query dates and bills were not obtained. Stable ranking, copy-driven growth and all backlinks being genuine are not established. This addition conservatively summarizes the sealed candidate's secondary figures without rerunning queries.
+
 Earlier candidate: 2 likes, 87 views, 0 reposts. Supersocks candidate: 11 likes, 834 views, 0 reposts. Salman candidate: 3 likes, 137 views, 0 reposts.
 Costs, API counts, ads/traffic/audiences and channel figures are source-reported snapshots, not independently rechecked or proof of growth causation.
 At 18:34:12 Beijing time on November 7, 2026, Doc Bolt (@TheodoreGrek) adds a Lovable demo account: 20,132 sites reportedly link back through published-app badges and 918 through affiliate codes; founder milestone posts drew the most views, and new Portuguese Meta ads are interpreted as entry into Brazil. Suggested plays have prompts and are labeled data-backed or inferred. The $0.58 remains a Treg data-call charge claim, not total model cost. No ledger, query dates or causal validation were obtained; Portuguese alone does not establish market expansion. Retrieval confirms attribution and a video, not watched or rerun here. Sealed candidate: 1 like, 39 views, 1 repost.
+November 18 Korean sealed candidate: 10 likes, 427 views, 0 reposts, 1 reply. Ninety/seventy-two ads and first place in three questions were not independently queried, nor are they evidence of engagement or causation.
 
 ## Sources
 
@@ -28,5 +31,6 @@ At 18:34:12 Beijing time on November 7, 2026, Doc Bolt (@TheodoreGrek) adds a Lo
 - [Supersocks on workflow, partial Tesla analysis and window limits, November 1, 2026](https://x.com/i/status/2116888403270644185)
 - [Salman Bareesh's REA-growth analysis of Treg channels, November 1, 2026](https://x.com/i/status/2116890496350212361)
 - [Doc Bolt's Lovable growth-teardown account, November 7, 2026 at 18:34:12 Beijing time](https://x.com/i/status/2119015557475221790)
+- [New Korean account: Lovable ad-copy reuse and ChatGPT citations, November 18, 2026 at 21:01:00 Beijing time](https://x.com/i/status/2123038765166080001)
 
 [中文](../rea-growth-lovable-company-timeline-skill-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/algorithms.md)
