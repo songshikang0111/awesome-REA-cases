@@ -1,7 +1,7 @@
-# NetEase UU Remote: from a Claude/Codex Linux endpoint to a GPT-assisted Kylin connectivity report
+# NetEase UU Remote: Linux interoperability reports and a new REA/OpenUURemote idea
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-09
+Record date: 2026-11-19
 Stage: In progress
 
 On October 16, 2026, @ai_fengshou says Codex and Gemini can also reverse-engineer under Claude's guidance; a reply names Linux UU. Earlier posts identify the target: on October 13, most functionality of a native Rust version was reportedly implemented; on October 15 at 00:04 Beijing time, the author reports an open-source Linux controlled endpoint built with Claude and Codex, usable from official Mac, Windows and mobile clients. The motivation is a missing official Linux endpoint. The author calls it unofficial and noncommercial and says updates stop when an official Linux version appears. These earlier materials identify the project.
@@ -10,11 +10,14 @@ At 02:26:33 Beijing time on November 4, a new reader says they optimized someone
 
 At 09:35:50 Beijing time on November 9, 大小聪明 (@jianlai_cpa) says a work need led them to ask GPT to decompile NetEase UU Remote based on the REA project and rewrite it for Kylin Linux. They report completing the app in under an hour and successfully logging in and connecting their own device. Retrieval confirms attribution, text and two image attachments, whose technical contents were not inspected. Login and connectivity are author tests, not verified remote video, input, audio, persistent connections or full compatibility. Endpoint role, CPU architecture, language, repository, GPT model and REA invocation logs are unspecified; this is not established as a new branch of the earlier Rust project. It is appended as another user's account under the same target. The existing other-ai classification remains: based on the REA project does not establish actual REA invocation.
 
+At 12:54:06 on November 19, Maru Meow (@MaruXMeow) proposes using REA to reverse-engineer an OpenUURemote. Supplementary retrieval reads a pre-window parent at 11:48:27: 奶昔 relays a December 1 paid-service launch and a 1080p30 free-tier limit, questioning limits on P2P connections. This pricing/restriction context is a discussion participant's account, not an official announcement checked here. The new reply is an alternative-implementation idea for the same UU interoperability target, without code, platform, feature scope or tests. OpenUURemote is a proposed name, not a confirmed existing repository. Maru is not established as part of the older Rust project or as having removed quality limits; REA is only proposed.
+
 No checkable repository, protocol analysis, latency/frame-rate measurements, test matrix or security audit was obtained. Smoothness is subjective and under an hour is retrospective author-reported effort. Openness and full compatibility remain author reports, not assurances of safe remote access. No endpoint was installed or devices connected here.
 
 Earlier candidate: 2 likes, 148 views. November 4 candidate: 0 likes, 9 views, 0 reposts.
 The new reader identifies no branch/revision. Smoothness lacks benchmarks and does not establish the same Rust build.
 November 9 sealed candidate: 0 likes, 17 views, 0 reposts. Under an hour and login/connectivity are author reports, not full compatibility validation.
+November 19 candidate: 3 likes, 827 views, 0 reposts, 0 replies. An idea only, not new features in an existing implementation.
 
 ## Sources
 
@@ -23,5 +26,7 @@ November 9 sealed candidate: 0 likes, 17 views, 0 reposts. Under an hour and log
 - [October 13 Rust-version progress as historical background](https://x.com/i/status/2110012260085379216)
 - [New reader's Omarchy/old MacBook Pro optimization report, November 4, 2026](https://x.com/i/status/2117684875985924230)
 - [大小聪明 reports GPT/REA and Kylin login/connectivity, November 9, 2026 at 09:35:50 Beijing time](https://x.com/i/status/2119604848933163175)
+- [Maru Meow's REA/OpenUURemote idea, November 19, 2026 at 12:54:06 Beijing time](https://x.com/i/status/2123278621129560500)
+- [Pre-window parent: 奶昔 relays UU pricing and quality restrictions, background only, November 19, 2026 at 11:48:27 Beijing time](https://x.com/i/status/2123262098423910433)
 
 [中文](../uu-remote-linux-ai-client.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

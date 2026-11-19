@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [八种电影运镜到AI提示：Wujie AI的镜头轨迹重建串](../cases/wujie-ai-eight-cinematic-camera-moves-prompt-reconstruction.md) — Wujie AI发布八种电影运镜的时序、镜位与物理约束提示，并建议上传参考片分析轨迹；读到完整串文，但未观看演示或验证还原效果。 **[其他 AI 逆向 · 待验证]**
 - [轨道炮机器狗图片到3D运动系统：无岸转述Gemini与Three.js重建](../cases/railgun-robot-dog-gemini-threejs-reconstruction-report.md) — 无岸转述Gemini 4 Neon从机器狗参考图生成Three.js WebGPU模型、IK和步态系统，称有240Hz刚体模拟；动态是模型补全，不是恢复真实机械结构或原程序。 **[其他 AI 逆向 · 待验证]**
 - [Emily Trim图画解码：用AI寻找基因编号，仍需排除事后巧合](../cases/emily-trim-illustrations-ai-symbol-decoding-experiment.md) — 发帖者用前沿AI整理Emily Trim首400幅图，尝试从元素图中读出TUFT1与CTSG编号；尚无固定解码规则或盲测，不是药物逆向或治疗发现。 **[其他 AI 逆向 · 分析测试]**
 - [PineScript经济序列行为：SolaFolda报告价差／SMA探索与后续AI协助](../cases/solafolda-pinescript-economic-series-ai-behavior-investigation.md) — SolaFolda研究TradingView价差序列与SMA显示行为，称后来由AI扩展指标想法；秒级图表不证明宏观数据秒级更新，收益与策略有效率均未验证。 **[其他 AI 逆向 · 待验证]**

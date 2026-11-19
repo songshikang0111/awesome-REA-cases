@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [系统更新后键盘拒绝输入：铁线莲称AI协助一两小时修好](../cases/clematis-ai-keyboard-input-system-update-repair-report.md) — 铁线莲称自用电脑配套键盘在系统更新后不能输入，AI协助一两小时恢复；固件不规范是作者解释，没有型号、修复补丁或根因验证。 **[其他 AI 逆向 · 待验证]**
 - [5G路由器接入homelab：John Ruiz举例让Claude找隐藏API并写重启脚本](../cases/john-ruiz-5g-router-claude-homelab-restart-idea.md) — John Ruiz在版权讨论中用5G路由器举例：Claude研究隐藏API，生成PowerShell自动重启与Docker Compose以接入家庭实验室；这是假设场景，不是已完成报告。 **[其他 AI 逆向 · 待验证]**
 - [AI产出固件仍黑屏：White2dog在Mac的Ubuntu ARM虚机里尝试设备改造](../cases/white2dog-ai-device-firmware-usb-black-screen.md) — White2dog报告AI产出的固件从U盘引导一直黑屏，构建环境为Mac上的Ubuntu ARM虚机；无线调试已开，但固件问题与宿主环境关系未诊断。 **[其他 AI 逆向 · 分析测试]**
 - [AI解码脑间3D物体：SkywatcherXIII向Grok提出Neuralink／Blindsight设想](../cases/skywatcher-neuralink-ai-brain-to-brain-3d-idea.md) — SkywatcherXIII以Blindsight向视觉皮层写像素为假设，询问能否用AI解码在两名Neuralink用户间传3D物体；仅相关研究idea，没有信号、设备测试或可行性证据。 **[其他 AI 逆向 · 待验证]**

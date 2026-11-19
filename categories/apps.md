@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Clip Studio接Venice：用REA MCP研究闭源绘画工具的idea](../cases/clip-studio-rea-mcp-venice-integration-idea.md) — cthulhu_ftaghn提出用REA MCP研究Clip Studio并接入Venice，帮助创作者制作艺术；只是具体设想，没有接口、代码或效果验证。 **[REA · 待验证]**
+- [行情解说视频节奏：发财姐计划用rea-video拆两条参考片](../cases/rea-video-market-commentary-rhythm-trial-idea.md) — 发财姐准备把两条常看的行情解说视频交给rea-video，研究节奏与剪辑点；目前只是试用计划，不是已完成分析或复刻。 **[其他 AI 逆向 · 待验证]**
+- [Gemini-app2api v1.5.0：野鴨称pi扩展无需独立server接入Gemini](../cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨发布逆向Gemini-app2api的pi扩展，称可直接使用Hydrogen／Neon并走Gemini app额度；未读实现或测试，不保证账号安全与模型可用性。 **[未确认使用 REA · 相关项目]**
+- [ClaudeMom：本地兼容网关把第三方模型接入Claude Desktop登录式界面](../cases/claudemom-desktop-local-gateway-interoperability-project.md) — ClaudeMom以本地服务应答账号和功能请求、将对话转发到自选上游；固定v0.1.9 README列语音、Code会话与平台限制，未运行或核验全功能、安全与授权。 **[未确认使用 REA · 相关项目]**
 - [Ansys轴向磁通电机开发：TANG称用IDA研究操作入口，再让Claude与脚本全天操作](../cases/tang-ansys-ida-claude-axial-flux-motor-automation.md) — TANG称2026年初开始用AI与Ansys开发轴向磁通电机，通过IDA反汇编和脚本找到软件操作入口，再用Claude与脚本自动操作；未有模型、日志或电机验证。 **[其他 AI 逆向 · 待验证]**
 - [Edge Rewards脚本迭代：程序员Kun称先整理开源接口，再让AI扩展签到与批量管理](../cases/kun-edge-rewards-ai-interface-script-iteration.md) — 程序员Kun报告Edge内Rewards签到脚本从零交模型效果差，先参考开源项目整理接口并做初版后，再让AI逐项升级到多账号管理；没有代码、领取结果或合规核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenSea与Magic Eden到Agent市场：8Bit的Solana／Base互通项目自述](../cases/8bit-opensea-magic-eden-agent-native-market-report.md) — 8Bit称研究OpenSea和Magic Eden后做了面向Solana与Base的agent-native版本；按AI Agent互通相关项目保留，未确认AI参与逆向、具体交易功能或部署。 **[未确认使用 REA · 相关项目]**
@@ -13,7 +17,7 @@
 - [Magpie中转API：Tmr比较三个模型追查prompt与tool注入](../cases/magpie-relay-api-model-injection-comparison.md) — Tmr称GPT与Sonnet四分钟找到部分注入，Gemini二十分钟追出混合反代与注入内容；无API样本或对照日志，不确认探测准确性。 **[其他 AI 逆向 · 待验证]**
 - [21个会话搬进DSH未成：黑铁研究zstd格式后改用Markdown交接](../cases/heitieya-dsh-zstd-session-migration-failure.md) — 黑铁称研究DSH会话格式、手写事件流导入21会话，被日志、迁移和投影缓存校验挡住，最后转22份Markdown；未明确AI参与逆向本身。 **[未确认使用 REA · 分析测试]**
 - [购买商业AI外挂再拆解：Armada报告Agent分析数百个反编译类](../cases/armada-commercial-ai-game-cheat-static-analysis.md) — Armada称威胁情报负责人购买号称AI驱动的商业游戏外挂，让Agent承担数百反编译类的静态分析，数周变数天；样本、发现与日志未公开核验。 **[其他 AI 逆向 · 待验证]**
-- [无限五代：jgy介绍带Ghidra与x64dbg桥接的AI逆向工具链](../cases/infinite-gen5-ghidra-x64dbg-agent-toolchain-report.md) — jgy长文将无限五代描述为含Ghidra、x64dbg桥接和/ig5命令的逆向工具链；没有目标分析或版本验证，不采纳破甲与普适放行保证。 **[其他 AI 逆向 · 相关项目]**
+- [无限五代IG5：Ghidra／x64dbg桥接与单函数仿真的工具链介绍](../cases/infinite-gen5-ghidra-x64dbg-agent-toolchain-report.md) — IG5介绍新增DeepSeek Harness、单函数仿真与8／43工具两档说明，意在减少Agent逆向环境拼装；仍无目标测试、固定版本或实现核验，许可仅为转述。 **[其他 AI 逆向 · 相关项目]**
 - [SwarmLabRE：pi驱动REA，把多Agent发现与文件字节核对后再写报告](../cases/swarmlabre-pi-rea-byte-checked-multi-agent-analysis.md) — SwarmLabRE让pi经REA分析ELF／PE／APK，并核对字节与工具日志、离线重建报告。已读固定README：alpha仅单台arm64，演示／golden均为mock，未测真实恶意软件。 **[REA · 进行中]**
 - [修/status别名却研究起Claude Code：Lee Penkman的DeepSeek调试尝试](../cases/lee-penkman-deepseek-claude-code-status-alias-research.md) — Lee Penkman让DeepSeek修/status别名，称模型自行研究Claude Code以找cldst故障；后续明确为omp fork及DeepSeek Flash，尚无修复验收。 **[其他 AI 逆向 · 进行中]**
 - [收到打包客户端却有bug：dk021称用Codex直接逆向修补](../cases/dk021-codex-packaged-client-bugfix-report.md) — dk021称其他团队交付的打包客户端有bug，自己让Codex逆向改掉；软件、缺陷、修补方式与授权未知，保留第一人称未核验自述。 **[其他 AI 逆向 · 待验证]**
@@ -970,10 +974,10 @@
 - [Ledger Opus：声称研究 Claude for Finance 的金融 Agent 推广线索](../cases/ledger-opus-finance-agent-report.md) — 推广者称用 REA 制作加密资产、股票和记账助手，尚无可核对的逆向过程。 **[REA · 待验证]**
 - [OpenCodex / Antigravity：用 REA 调查多轮工具调用签名丢失](../cases/opencodex-antigravity-signature-fallback.md) — 作者称研究 Rust 工具与 Go language_server 后，为 Gemini 请求补上签名缺失兜底。 **[REA · 待验证]**
 - [扫雷与 B 站：REA 视频演示标题的二手汇总](../cases/rea-bilibili-minesweeper-demo-roundup.md) — 读者列出扫雷、B站及手机 App 的 REA 演示视频，实现和测试尚待核对。 **[REA · 待验证]**
-- [网易UU远程：从Claude／Codex的Linux被控端到GPT的银河麒麟互通报告](../cases/uu-remote-linux-ai-client.md) — UU非官方Linux互通报告新增银河麒麟路径：大小聪明称GPT根据REA研究后不到一小时可登录并连接自有设备；未证实与旧Rust被控端同一实现或完整兼容。 **[其他 AI 逆向 · 进行中]**
+- [网易UU远程：Linux互通自述与REA重建OpenUURemote的新idea](../cases/uu-remote-linux-ai-client.md) — 已有Claude／Codex Linux被控端和GPT银河麒麟登录连接自述；Maru Meow在收费讨论下新提REA研究OpenUURemote，尚无实现，不与旧项目合并成果。 **[其他 AI 逆向 · 进行中]**
 - [DexSQL：让 Agent 用 SQL 查询 APK 与 DEX 的调用关系](../cases/dexsql-agent-apk-query.md) — LSPosed 提供直接读取 DEX 的 CLI / MCP；公开 QQ 样本对照，但核心工具并非开源。 **[其他 AI 逆向 · 相关项目]**
 - [沉浸式翻译类扩展：用 Codex 研究自带 Token 的替代版本](../cases/codex-immersive-translation-extension.md) — 作者正在逆向 Chrome 翻译扩展，希望直接使用自己购买的模型 Token。 **[其他 AI 逆向 · 进行中]**
-- [ChatGPT Intelligent UI：交给 Codex 研究实现的尝试](../cases/chatgpt-intelligent-ui-codex-study.md) — 作者已让 Codex 调查 ChatGPT Intelligent UI 的实现，尚无技术结果。 **[其他 AI 逆向 · 进行中]**
+- [ChatGPT Intelligent UI：Codex研究请求与DIL状态界面重建自述](../cases/chatgpt-intelligent-ui-codex-study.md) — 早期作者请Codex研究ChatGPT Intelligent UI；JinmingYang新称在自用AI Chat App复刻React-like DIL state DSL，未给代码、官方架构证据或模型参与步骤。 **[其他 AI 逆向 · 进行中]**
 - [Claude Code 主页背景：REA 辅助重建宁静动画的报告](../cases/claude-code-home-animation-rea.md) — Henry Fan 称用 REA 检查软件，一次重建主页背景动画并开源；不等于开源 Claude Code。 **[REA · 待验证]**
 - [ChatGPT Work Cloud：通过自省提示研究云端 Agent 的工具边界](../cases/chatgpt-work-cloud-introspection-report.md) — 帖子转述 Simon Willison 的自省提示与自动建站测试，工具数量和安全机制尚未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [Indian Kanoon：Claude Code 辅助的法律检索集成自述](../cases/indian-kanoon-claude-legal-workflow.md) — 作者把 reverse engineering、Claude Code 与 Indian Kanoon API 联系到自己的法律检索流程，未公开实现。 **[其他 AI 逆向 · 待验证]**

@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2470 cases & projects
+# 2476 cases & projects
 
-**Latest case update:** November 19, 2026, 12:11 · **Last maintained:** November 19, 2026, 12:11 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 19, 2026, 16:08 · **Last maintained:** November 19, 2026, 16:08 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: recover a compiler, query an existing circuit, adapt an old TV's Home behavior—or learn from a failed video-analysis attempt. These picks favor specific engineering and candid limits over promises of effortless replacement. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: recover a compiler, query an existing circuit, adapt an old TV's Home behavior—or learn from a failed video-analysis attempt. Concrete work and candid limits take priority over tool-launch promises; newer ideas and related projects remain in the full index. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[Proteus: ask Claude about an existing circuit](cases/en/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17` author thread — Arpit researches **undocumented .pdsprj files for an MCP bridge**, reporting schematic queries, connection tracing, value edits and bills of materials. Placement and wiring remain planned; headless simulation returns no waveforms. Thread read, code and circuits not tested here. `In progress`
@@ -51,9 +51,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **483** |
-| [Hardware & interoperability](categories/en/hardware.md) | **657** |
-| [Applications & clients](categories/en/apps.md) | **1029** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **301** |
+| [Hardware & interoperability](categories/en/hardware.md) | **658** |
+| [Applications & clients](categories/en/apps.md) | **1033** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **302** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 
