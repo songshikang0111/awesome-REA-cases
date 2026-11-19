@@ -10,15 +10,15 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2458 entries**, organized by use case, without a Top-N or popularity threshold.
+**2462 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (480)
-- [Hardware and interoperability](categories/en/hardware.md) (653)
-- [Applications and clients](categories/en/apps.md) (1025)
+- [Games and preservation](categories/en/games.md) (481)
+- [Hardware and interoperability](categories/en/hardware.md) (654)
+- [Applications and clients](categories/en/apps.md) (1027)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (300)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Mario in GTA: ledatherockband proposes a REA cross-game character mod](cases/en/mario-gta-rea-character-transfer-idea.md) — ledatherockband proposes bringing the REA repository to put Mario in GTA. This is a specific cross-game character-mod wish, without game revisions, code or completion evidence. **[REA · Needs verification]**
 - [Make the .hack quadrilogy genuinely online: Cenewulf's AI-decompilation wish](cases/en/dot-hack-quadrilogy-ai-online-conversion-idea.md) — Cenewulf proposes AI decompilation of the .hack quadrilogy into a real online game. A concrete idea only, without code, servers or compatibility results. **[Other AI-assisted work · Needs verification]**
 - [Ghidra first, Claude next for a Genesis game: UltimaWolf answers Matt Hughson's decompilation question](cases/en/matthughson-genesis-ghidra-claude-decompile-idea.md) — Matt asks for Genesis/Mega Drive decompilation tools; UltimaWolf proposes a Ghidra pass over the main binary followed by Claude. No named game, execution or verification guarantees acceptance or correctness. **[Other AI-assisted work · Needs verification]**
 - [Correcting Extended Match's AI attribution: PhanpyBogard retracts the vibecoded claim](cases/en/extended-match-mod-ai-attribution-correction.md) — PhanpyBogard says established modders have worked on Extended Match since summer and AI may only have helped debugging. Retraction of a vibecoded claim is a secondary correction, not a developer statement or code audit. **[REA use unconfirmed · Needs verification]**
@@ -511,6 +512,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Changing models still did not unlock the phone: Angel Lindo's failed REA/OpenCode/DeepSeek/GLM attempt](cases/en/angel-lindo-rea-phone-unlock-failed-attempt.md) — Angel Lindo reports switching to OpenCode, DeepSeek and GLM 5.3 after Claude blocked a REA phone-unlocking task. He encountered no further cyber blocks, but none of the attempted options worked. **[REA · Analysis test]**
 - [MapSleuth: Robbie studies ECU calibration maps with local AI on two DGX Sparks](cases/en/mapsleuth-local-ai-ecu-calibration-map-research.md) — Robbie Searles is building MapSleuth to locate and decode calibration maps in automotive ECU firmware. His reported 57 tok/s and 0.18-second first token after a backend migration measure inference, not map-recognition accuracy. **[Other AI-assisted work · In progress]**
 - [Ask Claude for an FSD-equivalent model and install through comma: Josef's driving-behavior reconstruction idea](cases/en/atris-claude-fsd-comma-driving-model-idea.md) — Josef imagines enough data/compute letting Claude train a model matching current Tesla FSD and install it through comma. No dataset, training, vehicle implementation or safety validation is supplied. **[Other AI-assisted work · Needs verification]**
 - [Research Thermomix too: Lai Weil's REA kitchen-machine idea and question about Claude restrictions](cases/en/laiweil-thermomix-rea-research-idea.md) — After another Connect kitchen-machine project, Lai Weil wants to investigate Thermomix and says Claude appears to block REA. No analysis, code or recipe result for Lai's own device is reported. **[REA · Needs verification]**
@@ -1167,6 +1169,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [OpenSea and Magic Eden into an agent market: 8Bit's Solana/Base interoperability report](cases/en/8bit-opensea-magic-eden-agent-native-market-report.md) — 8Bit reports researching OpenSea and Magic Eden and building an agent-native version for Solana and Base. Retained as an AI-agent interoperability-related project, without established AI-assisted research, transaction features or deployment. **[REA use unconfirmed · Related project]**
+- [Starring in a Brad Pitt trailer: Alex remakes it with REA-video and the Higgsfield CLI](cases/en/alex-patrascu-rea-video-brad-pitt-trailer-remake.md) — Alex Patrascu reports feeding the latest Brad Pitt movie trailer to a REA-video agent and connecting the Higgsfield CLI to produce a version featuring himself. The film is unnamed; video quality and the full session were not checked. **[REA · Needs verification]**
 - [A screen recording into a 3D mountain app: Satty reports one agent reconstructing interactions in ten minutes](cases/en/screen-recording-mountain-3d-app-agent-reconstruction.md) — Satty reports one agent reconstructing a 3D mountain app from a recording and cursor movements, with camera controls, orbit tracking, an outliner and timeline. Ten minutes and one prompt are unverified without session or code records. **[Other AI-assisted work · Needs verification]**
 - [A 30-second promo into browser code: zetabyte reports 12 Gemini-rebuilt scenes and synthesized sound effects](cases/en/zetabyte-gemini-promo-html-gsap-reconstruction.md) — zetabyte reports Gemini 3.8 Flash high with Antigravity and custom plugins rebuilding a reference promo into 12 scenes and 6,027 lines of HTML/CSS/GSAP, with almost 90% code-rendered visuals. Demonstration and implementation remain unchecked. **[Other AI-assisted work · Needs verification]**
 - [A secondary Java4Shell report: Sam credits Codex with OpenJDK Base64 memory-bounds research](cases/en/java4shell-codex-base64-secondary-report.md) — Sam attributes an OpenJDK Base64 issue to Quang Luong and Codex, claiming one hour to discovery, two to exploitation and under $200. CVE, revisions, patches and original research are absent; broad compromise claims are not adopted. **[Other AI-assisted work · Needs verification]**

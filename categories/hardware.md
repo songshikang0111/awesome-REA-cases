@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [换模型仍没解开手机：Angel Lindo的REA、OpenCode与DeepSeek／GLM失败尝试](../cases/angel-lindo-rea-phone-unlock-failed-attempt.md) — Angel Lindo称Claude拒绝REA手机解锁任务后，改用OpenCode、DeepSeek和GLM 5.3继续研究；没有再遇到网络安全拦截，但所有方案均未成功。 **[REA · 分析测试]**
 - [MapSleuth：Robbie用两台DGX Spark的本地AI研究ECU标定表](../cases/mapsleuth-local-ai-ecu-calibration-map-research.md) — Robbie Searles正在构建定位并解码汽车ECU固件标定表的MapSleuth；迁移推理后端后自报57 tok/s与0.18秒首token，不是标定识别准确率。 **[其他 AI 逆向 · 进行中]**
 - [让Claude做FSD等效模型再接comma：Josef的驾驶行为重建idea](../cases/atris-claude-fsd-comma-driving-model-idea.md) — Josef设想足够数据算力下让Claude训练比肩当下Tesla FSD的模型、经comma装车；无数据、训练、车载实现或安全验证。 **[其他 AI 逆向 · 待验证]**
 - [Thermomix也想研究：Lai Weil提出REA厨师机idea并询问Claude限制](../cases/laiweil-thermomix-rea-research-idea.md) — Lai Weil看另一Connect厨师机项目后想研究Thermomix，并称看到Claude阻止REA使用；没有自己设备的分析、代码或食谱结果。 **[REA · 待验证]**

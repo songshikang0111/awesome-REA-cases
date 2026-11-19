@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2458 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2462 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（480）
-- [硬件与设备互通](categories/hardware.md)（653）
-- [应用与客户端](categories/apps.md)（1025）
+- [游戏与游戏保存](categories/games.md)（481）
+- [硬件与设备互通](categories/hardware.md)（654）
+- [应用与客户端](categories/apps.md)（1027）
 - [算法与功能重建](categories/algorithms.md)（300）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [把Mario放进GTA：ledatherockband提出REA跨游戏角色移植idea](cases/mario-gta-rea-character-transfer-idea.md) — ledatherockband回复称要带着REA仓库把Mario放进GTA；是具体角色跨游戏移植愿望，没有游戏版本、代码或完成证据。 **[REA · 待验证]**
 - [.hack四部曲变真正网游：Cenewulf的AI反编译愿望](cases/dot-hack-quadrilogy-ai-online-conversion-idea.md) — Cenewulf建议让AI反编译.hack四部曲并改为真正联网游戏；仅是明确目标的idea，没有代码、服务器或兼容性结果。 **[其他 AI 逆向 · 待验证]**
 - [Genesis游戏先交Ghidra再交Claude：UltimaWolf回应Matt Hughson的反编译求助](cases/matthughson-genesis-ghidra-claude-decompile-idea.md) — Matt寻找Genesis／Mega Drive反编译工具，UltimaWolf建议主二进制先用Ghidra再让Claude接续；未命名游戏、执行或验证，不保证Claude接受或结果正确。 **[其他 AI 逆向 · 待验证]**
 - [Extended Match的AI归因更正：PhanpyBogard撤回vibecoded说法](cases/extended-match-mod-ai-attribution-correction.md) — PhanpyBogard称Extended Match有社区Mod作者长期参与，AI可能仅用于调试；其撤回先前vibecoded说法是二手更正，不是开发者或代码审计结论。 **[未确认使用 REA · 待验证]**
@@ -509,6 +510,7 @@
 
 ### 硬件与设备互通
 
+- [换模型仍没解开手机：Angel Lindo的REA、OpenCode与DeepSeek／GLM失败尝试](cases/angel-lindo-rea-phone-unlock-failed-attempt.md) — Angel Lindo称Claude拒绝REA手机解锁任务后，改用OpenCode、DeepSeek和GLM 5.3继续研究；没有再遇到网络安全拦截，但所有方案均未成功。 **[REA · 分析测试]**
 - [MapSleuth：Robbie用两台DGX Spark的本地AI研究ECU标定表](cases/mapsleuth-local-ai-ecu-calibration-map-research.md) — Robbie Searles正在构建定位并解码汽车ECU固件标定表的MapSleuth；迁移推理后端后自报57 tok/s与0.18秒首token，不是标定识别准确率。 **[其他 AI 逆向 · 进行中]**
 - [让Claude做FSD等效模型再接comma：Josef的驾驶行为重建idea](cases/atris-claude-fsd-comma-driving-model-idea.md) — Josef设想足够数据算力下让Claude训练比肩当下Tesla FSD的模型、经comma装车；无数据、训练、车载实现或安全验证。 **[其他 AI 逆向 · 待验证]**
 - [Thermomix也想研究：Lai Weil提出REA厨师机idea并询问Claude限制](cases/laiweil-thermomix-rea-research-idea.md) — Lai Weil看另一Connect厨师机项目后想研究Thermomix，并称看到Claude阻止REA使用；没有自己设备的分析、代码或食谱结果。 **[REA · 待验证]**
@@ -1165,6 +1167,8 @@
 
 ### 应用与客户端
 
+- [OpenSea与Magic Eden到Agent市场：8Bit的Solana／Base互通项目自述](cases/8bit-opensea-magic-eden-agent-native-market-report.md) — 8Bit称研究OpenSea和Magic Eden后做了面向Solana与Base的agent-native版本；按AI Agent互通相关项目保留，未确认AI参与逆向、具体交易功能或部署。 **[未确认使用 REA · 相关项目]**
+- [把自己放进Brad Pitt电影预告：Alex用REA-video与Higgsfield CLI重做](cases/alex-patrascu-rea-video-brad-pitt-trailer-remake.md) — Alex Patrascu称把最新Brad Pitt电影预告交给REA-video的Agent并接Higgsfield CLI，得到自己出镜的版本；未指明片名，未核验视频质量或完整会话。 **[REA · 待验证]**
 - [录屏到3D山体应用：Satty称一个Agent十分钟重建交互动作](cases/screen-recording-mountain-3d-app-agent-reconstruction.md) — Satty报告一个Agent从单次录屏与游标动作重建3D山体应用，含相机控件、轨道追踪、大纲与时间线；十分钟和单提示均未有会话或代码核验。 **[其他 AI 逆向 · 待验证]**
 - [30秒宣传片到浏览器代码：zetabyte报告Gemini重建12场景与合成音效](cases/zetabyte-gemini-promo-html-gsap-reconstruction.md) — zetabyte称Gemini 3.8 Flash high配Antigravity和自制插件重建参考宣传片：12场景、6027行HTML／CSS／GSAP，约90%画面为代码；尚未核对演示或实现。 **[其他 AI 逆向 · 待验证]**
 - [Java4Shell二手报告：Sam称Codex协助研究OpenJDK Base64内存越界](cases/java4shell-codex-base64-secondary-report.md) — Sam将OpenJDK Base64问题归于Quang Luong与Codex，称一小时发现、两小时利用及不足200美元；无CVE、版本、补丁或原研究，不采纳普遍攻陷宣称。 **[其他 AI 逆向 · 待验证]**

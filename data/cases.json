@@ -1,5 +1,73 @@
 [
   {
+    "id": "8bit-opensea-magic-eden-agent-native-market-report",
+    "title": "OpenSea与Magic Eden到Agent市场：8Bit的Solana／Base互通项目自述",
+    "category": "apps", "rea": "unknown", "status": "related-project",
+    "summary": "8Bit称研究OpenSea和Magic Eden后做了面向Solana与Base的agent-native版本；按AI Agent互通相关项目保留，未确认AI参与逆向、具体交易功能或部署。",
+    "description": "2026年11月19日05:25:21（北京时间），8Bit（@0rdlibrary）称这就是自己做出的东西：逆向OpenSea与Magic Eden，并让它们面向Solana和Base成为agent-native。OpenSea与Magic Eden是NFT市场，Solana与Base是区块链网络；作者的具体目标是把既有市场体验改造成面向Agent的产品。\n\n帖子使用单一产物的说法，同时列出两个参考市场，未说明是两个独立实现，故保留一个相关项目。没有项目名、代码、接口规格、协议分析记录、部署地址或交易验证，不能据此认定调用了原市场私有API、实现跨链成交、上架、钱包签名或结算。回复中其他读者提到跨链上架和按请求付费，也不是作者已交付功能的证据。\n\n补取原帖与回复确认作者、文字和日期。agent-native确定的是目标用户，不证明AI曾参与逆向；REA也未在该帖提及，标unknown。按为AI Agent实现互通的相关项目收录，不与同作者既有Pump／Core反编译及REA机器人记录混同，也不将两者技术路线互相移植。未审图片、未解析短链接目的地、未读源码或操作钱包与交易；全部成果限于作者自述。",
+    "sources": [{"label": "8Bit的OpenSea／Magic Eden、Solana／Base agent-native市场自述，2026-11-19 05:25:21北京时间", "url": "https://x.com/i/status/2123165687938203812"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["候选封存10赞、418浏览、3转发、3回复；未核交易、安全性或上线状态。"],
+    "en": {
+      "title": "OpenSea and Magic Eden into an agent market: 8Bit's Solana/Base interoperability report",
+      "summary": "8Bit reports researching OpenSea and Magic Eden and building an agent-native version for Solana and Base. Retained as an AI-agent interoperability-related project, without established AI-assisted research, transaction features or deployment.",
+      "description": "At 05:25:21 Beijing time on November 19, 2026, 8Bit (@0rdlibrary) says this is what they built: reverse-engineering OpenSea and Magic Eden and making them agent-native for Solana and Base. OpenSea and Magic Eden are NFT marketplaces, while Solana and Base are blockchain networks. The specific target is adapting existing marketplace experiences into a product for agents.\n\nThe post describes a single output while naming two reference marketplaces. It does not establish two independent implementations, so this is one related project. Project name, code, interface specification, protocol-analysis records, deployment address and transaction verification are absent. Access to private marketplace APIs, cross-chain trades, listings, wallet signing and settlement are not established. Other readers' replies mentioning cross-chain listings and per-request payments are not evidence of features delivered by the author.\n\nRetrieval of the original post and replies confirms attribution, wording and date. Agent-native identifies the intended users, not whether AI participated in reverse engineering. REA is also unmentioned in this post, so the tool label is unknown. Retained as an interoperability project for AI agents, not conflated with the same author's existing Pump/Core decompiler and REA-bot record, and neither project's technical route is transferred to the other. Images were not reviewed, shortened-link destinations were not resolved, code was not read and no wallets or transactions were operated here. All results remain author reports.",
+      "metadata": ["Sealed candidate: 10 likes, 418 views, 3 reposts, 3 replies. Transactions, security and launch status were not checked."],
+      "source_labels": ["8Bit's OpenSea/Magic Eden agent-native marketplace report for Solana/Base, November 19, 2026 at 05:25:21 Beijing time"]
+    }
+  },
+  {
+    "id": "mario-gta-rea-character-transfer-idea",
+    "title": "把Mario放进GTA：ledatherockband提出REA跨游戏角色移植idea",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "ledatherockband回复称要带着REA仓库把Mario放进GTA；是具体角色跨游戏移植愿望，没有游戏版本、代码或完成证据。",
+    "description": "2026年11月19日06:09:18（北京时间），ledatherockband（@lda_trb）回复@dedene，称要用Reverse Engineer Anything仓库把Mario放进GTA。Mario是任天堂的游戏角色，GTA指Grand Theft Auto系列；帖子没有指定哪款Mario游戏、哪一代GTA或具体版本。目标是让既有游戏出现另一个系列的角色，而不是重新开发完整游戏。\n\n这是一句带玩笑口吻的具体Mod愿望。作者没有描述资产格式、角色骨骼、动作逻辑、工具调用或实际执行，也没有报告可玩的结果。不能据此说已提取任天堂资产、移植Mario玩法或完成GTA Mod；与既有Universal Modder的Minecraft到GTA V演示是不同目标组合，未确认关联。\n\n补取原帖确认署名、文字和日期，未补读父帖、取得目标游戏或运行分析。保留为unverified的idea；REA仅为作者拟用工具，不代表已使用成功。",
+    "sources": [{"label": "ledatherockband的Mario到GTA、REA仓库idea，2026-11-19 06:09:18北京时间", "url": "https://x.com/i/status/2123176748028481837"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["候选封存1赞、68浏览、0转发、0回复；无工时或完成率，后续补取不替换快照。"],
+    "en": {
+      "title": "Mario in GTA: ledatherockband proposes a REA cross-game character mod",
+      "summary": "ledatherockband proposes bringing the REA repository to put Mario in GTA. This is a specific cross-game character-mod wish, without game revisions, code or completion evidence.",
+      "description": "At 06:09:18 Beijing time on November 19, 2026, ledatherockband (@lda_trb) replies to @dedene, proposing to use the Reverse Engineer Anything repository to put Mario in GTA. Mario is Nintendo's game character and GTA refers to the Grand Theft Auto series. No particular Mario game, GTA installment or revision is specified. The target is adding another series' character to an existing game, not rebuilding an entire game.\n\nThis is a brief, jokingly phrased but specific mod wish. The author supplies no asset formats, character skeletons, movement logic, tool calls or executed work, and reports no playable result. It does not establish extraction of Nintendo assets, transfer of Mario gameplay or a completed GTA mod. Its target combination differs from the existing Universal Modder Minecraft-to-GTA V demonstration, and no connection is established.\n\nOriginal-post retrieval confirms attribution, wording and date. The parent was not read, no target game was obtained and no analysis was run here. Retained as an unverified idea; REA is the proposed tool, not evidence of successful use.",
+      "metadata": ["Sealed candidate: 1 like, 68 views, 0 reposts, 0 replies. No effort or completion percentage is reported; later retrieval does not replace the snapshot."],
+      "source_labels": ["ledatherockband's Mario-to-GTA idea using the REA repository, November 19, 2026 at 06:09:18 Beijing time"]
+    }
+  },
+  {
+    "id": "alex-patrascu-rea-video-brad-pitt-trailer-remake",
+    "title": "把自己放进Brad Pitt电影预告：Alex用REA-video与Higgsfield CLI重做",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Alex Patrascu称把最新Brad Pitt电影预告交给REA-video的Agent并接Higgsfield CLI，得到自己出镜的版本；未指明片名，未核验视频质量或完整会话。",
+    "description": "2026年11月19日06:44:11（北京时间），Alex Patrascu（@maxescu）报告自己因好奇而试用REA-video。他把所称最新的Brad Pitt电影预告交给Agent，接上Higgsfield CLI，让它生成由自己出镜的版本。这里的目标是从已有预告片进行视觉／内容重建与个人化改写，不是恢复电影原始工程或逆向电影软件。\n\n作者评价结果并不完美，但很好。帖子未给电影片名、预告版本、Agent模型、提示、拆镜规格、生成次数或耗时，也未说明具体保留了哪些镜头、节奏、音轨或台词，因此不补写这些功能，更不把主观评价当成相似度测试。不能把帖子发布时的最新一词用于猜定影片。\n\n补取原帖确认作者、完整文字、日期及附有演示视频；未观看或逐帧比较输入输出，未审会话、代码或运行Higgsfield。按作者自述的具体REA-video尝试收录为unverified，不代表本合集独立复现或授权使用电影素材。",
+    "sources": [{"label": "Alex Patrascu的REA-video与Higgsfield电影预告重做自述，2026-11-19 06:44:11北京时间", "url": "https://x.com/i/status/2123185527008751765"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["候选封存12赞、737浏览、0转发、1回复；作者主观评价不完美但很好，无相似度测量。"],
+    "en": {
+      "title": "Starring in a Brad Pitt trailer: Alex remakes it with REA-video and the Higgsfield CLI",
+      "summary": "Alex Patrascu reports feeding the latest Brad Pitt movie trailer to a REA-video agent and connecting the Higgsfield CLI to produce a version featuring himself. The film is unnamed; video quality and the full session were not checked.",
+      "description": "At 06:44:11 Beijing time on November 19, 2026, Alex Patrascu (@maxescu) reports trying REA-video out of curiosity. He feeds what he calls the latest Brad Pitt film trailer to an agent, connects the Higgsfield CLI and lets it produce a version featuring himself. The target is visual/content reconstruction and personalization from an existing trailer, not recovery of the film's original production project or reverse engineering of movie software.\n\nThe author describes the result as imperfect but very good. The post supplies no film title, trailer revision, agent model, prompt, shot specification, generation count or effort. It does not identify which shots, pacing, soundtrack or dialogue were retained. These features are not inferred, and a subjective appraisal is not a similarity test. The word latest at posting time is not used to guess the film.\n\nOriginal-post retrieval confirms attribution, complete wording, date and an attached demonstration video. The input and output were not watched or compared frame by frame here, the session and code were not reviewed and Higgsfield was not run. Retained as an unverified, concrete author-reported REA-video attempt, not independent reproduction or authorization to use film material.",
+      "metadata": ["Sealed candidate: 12 likes, 737 views, 0 reposts, 1 reply. Imperfect but very good is the author's subjective appraisal, without a similarity measurement."],
+      "source_labels": ["Alex Patrascu's REA-video/Higgsfield trailer-remake report, November 19, 2026 at 06:44:11 Beijing time"]
+    }
+  },
+  {
+    "id": "angel-lindo-rea-phone-unlock-failed-attempt",
+    "title": "换模型仍没解开手机：Angel Lindo的REA、OpenCode与DeepSeek／GLM失败尝试",
+    "category": "hardware", "rea": "REA", "status": "analysis-test",
+    "summary": "Angel Lindo称Claude拒绝REA手机解锁任务后，改用OpenCode、DeepSeek和GLM 5.3继续研究；没有再遇到网络安全拦截，但所有方案均未成功。",
+    "description": "2026年11月19日07:51:57（北京时间），Angel Lindo（@angellindom）回复@Da7_Tech，自述想用REA仓库解锁自己的手机，Claude阻止了该任务。随后他用OpenCode配DeepSeek与GLM 5.3继续逆向、尝试多种解锁选项，称没有被网络安全规则拦截，但也明确说没有一种奏效。\n\n手机品牌、型号、系统和固件版本均未给出，unlock也未区分屏幕锁、运营商锁或引导加载程序锁。没有样本、工具日志、具体方案或失败原因，不能据此判断属于哪类锁、确认已进入何种系统层，也不能宣称模型能绕过设备安全。GLM 5.3按作者所写保留，不独立认证型号或服务。\n\n这个案例记录的是具体失败实验，以及作者区分模型拒绝行为与实际解决问题能力的经历。未被拦截不等于成功，Claude拒绝一次也不代表所有合法手机研究都不可做。补取原帖确认署名、完整文字与日期；未访问手机、凭据或固件，未运行解锁代码，不提供绕过步骤。",
+    "sources": [{"label": "Angel Lindo的REA手机解锁失败与模型切换自述，2026-11-19 07:51:57北京时间", "url": "https://x.com/i/status/2123202583296692387"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["候选封存0赞、14浏览、0转发、0回复；没有一种方案成功为作者明确报告，未披露尝试数量或耗时。"],
+    "en": {
+      "title": "Changing models still did not unlock the phone: Angel Lindo's failed REA/OpenCode/DeepSeek/GLM attempt",
+      "summary": "Angel Lindo reports switching to OpenCode, DeepSeek and GLM 5.3 after Claude blocked a REA phone-unlocking task. He encountered no further cyber blocks, but none of the attempted options worked.",
+      "description": "At 07:51:57 Beijing time on November 19, 2026, Angel Lindo (@angellindom) replies to @Da7_Tech, reporting an attempt to unlock his own phone with the REA repository that Claude blocked. He then used OpenCode with DeepSeek and GLM 5.3 to continue reverse engineering and try multiple unlocking options. He reports no cyber-rule blocks, but explicitly says none of the options worked.\n\nPhone brand, model, operating system and firmware revision are absent. Unlock does not distinguish a screen lock, carrier lock or bootloader lock. There are no samples, tool logs, specific methods or diagnosed causes of failure. Neither the lock type nor access to a particular system layer can be inferred, and this does not establish an ability to bypass device security. GLM 5.3 preserves the author's wording without independently authenticating the model or service.\n\nThis records a concrete failed experiment and the author's experience of refusal behavior being separate from actual problem-solving ability. Not being blocked is not success, and one Claude refusal does not establish that all lawful phone research is impossible. Original-post retrieval confirms attribution, complete wording and date. No phone, credentials or firmware were accessed here, no unlocking code was run and no bypass instructions are provided.",
+      "metadata": ["Sealed candidate: 0 likes, 14 views, 0 reposts, 0 replies. The author explicitly reports that none worked, without an attempt count or effort figure."],
+      "source_labels": ["Angel Lindo's failed REA phone-unlocking and model-switching report, November 19, 2026 at 07:51:57 Beijing time"]
+    }
+  },
+  {
     "id": "mapsleuth-local-ai-ecu-calibration-map-research",
     "title": "MapSleuth：Robbie用两台DGX Spark的本地AI研究ECU标定表",
     "category": "hardware", "rea": "other-ai", "status": "in-progress",

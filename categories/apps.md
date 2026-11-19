@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [OpenSea与Magic Eden到Agent市场：8Bit的Solana／Base互通项目自述](../cases/8bit-opensea-magic-eden-agent-native-market-report.md) — 8Bit称研究OpenSea和Magic Eden后做了面向Solana与Base的agent-native版本；按AI Agent互通相关项目保留，未确认AI参与逆向、具体交易功能或部署。 **[未确认使用 REA · 相关项目]**
+- [把自己放进Brad Pitt电影预告：Alex用REA-video与Higgsfield CLI重做](../cases/alex-patrascu-rea-video-brad-pitt-trailer-remake.md) — Alex Patrascu称把最新Brad Pitt电影预告交给REA-video的Agent并接Higgsfield CLI，得到自己出镜的版本；未指明片名，未核验视频质量或完整会话。 **[REA · 待验证]**
 - [录屏到3D山体应用：Satty称一个Agent十分钟重建交互动作](../cases/screen-recording-mountain-3d-app-agent-reconstruction.md) — Satty报告一个Agent从单次录屏与游标动作重建3D山体应用，含相机控件、轨道追踪、大纲与时间线；十分钟和单提示均未有会话或代码核验。 **[其他 AI 逆向 · 待验证]**
 - [30秒宣传片到浏览器代码：zetabyte报告Gemini重建12场景与合成音效](../cases/zetabyte-gemini-promo-html-gsap-reconstruction.md) — zetabyte称Gemini 3.8 Flash high配Antigravity和自制插件重建参考宣传片：12场景、6027行HTML／CSS／GSAP，约90%画面为代码；尚未核对演示或实现。 **[其他 AI 逆向 · 待验证]**
 - [Java4Shell二手报告：Sam称Codex协助研究OpenJDK Base64内存越界](../cases/java4shell-codex-base64-secondary-report.md) — Sam将OpenJDK Base64问题归于Quang Luong与Codex，称一小时发现、两小时利用及不足200美元；无CVE、版本、补丁或原研究，不采纳普遍攻陷宣称。 **[其他 AI 逆向 · 待验证]**
