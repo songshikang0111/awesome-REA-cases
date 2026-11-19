@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2462 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2470 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（481）
-- [硬件与设备互通](categories/hardware.md)（654）
-- [应用与客户端](categories/apps.md)（1027）
-- [算法与功能重建](categories/algorithms.md)（300）
+- [游戏与游戏保存](categories/games.md)（483）
+- [硬件与设备互通](categories/hardware.md)（657）
+- [应用与客户端](categories/apps.md)（1029）
+- [算法与功能重建](categories/algorithms.md)（301）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [把游戏改作交给所有人：Moke提出REA研究后公开可编辑构建提示](cases/moke-wifeguy-game-rea-editable-build-prompt-idea.md) — Moke在shoe称WifeGuy Simulator的游戏讨论下，提议用REA修游戏，再变成任何人可编辑与构建的AI提示；真实游戏名和实现均未确认。 **[REA · 待验证]**
+- [GTA6改成1936年柏林：Gmoneyinthebank提出AI逆向的GTA1936想法](cases/gmoney-gta1936-berlin-ai-gta6-mod-idea.md) — Gmoneyinthebank以召集式玩笑提出AI逆向GTA6并发布柏林背景GTA1936；是有具体年代地点的改作愿望，没有实现或历史场景证据。 **[其他 AI 逆向 · 待验证]**
 - [把Mario放进GTA：ledatherockband提出REA跨游戏角色移植idea](cases/mario-gta-rea-character-transfer-idea.md) — ledatherockband回复称要带着REA仓库把Mario放进GTA；是具体角色跨游戏移植愿望，没有游戏版本、代码或完成证据。 **[REA · 待验证]**
 - [.hack四部曲变真正网游：Cenewulf的AI反编译愿望](cases/dot-hack-quadrilogy-ai-online-conversion-idea.md) — Cenewulf建议让AI反编译.hack四部曲并改为真正联网游戏；仅是明确目标的idea，没有代码、服务器或兼容性结果。 **[其他 AI 逆向 · 待验证]**
 - [Genesis游戏先交Ghidra再交Claude：UltimaWolf回应Matt Hughson的反编译求助](cases/matthughson-genesis-ghidra-claude-decompile-idea.md) — Matt寻找Genesis／Mega Drive反编译工具，UltimaWolf建议主二进制先用Ghidra再让Claude接续；未命名游戏、执行或验证，不保证Claude接受或结果正确。 **[其他 AI 逆向 · 待验证]**
@@ -510,6 +512,9 @@
 
 ### 硬件与设备互通
 
+- [5G路由器接入homelab：John Ruiz举例让Claude找隐藏API并写重启脚本](cases/john-ruiz-5g-router-claude-homelab-restart-idea.md) — John Ruiz在版权讨论中用5G路由器举例：Claude研究隐藏API，生成PowerShell自动重启与Docker Compose以接入家庭实验室；这是假设场景，不是已完成报告。 **[其他 AI 逆向 · 待验证]**
+- [AI产出固件仍黑屏：White2dog在Mac的Ubuntu ARM虚机里尝试设备改造](cases/white2dog-ai-device-firmware-usb-black-screen.md) — White2dog报告AI产出的固件从U盘引导一直黑屏，构建环境为Mac上的Ubuntu ARM虚机；无线调试已开，但固件问题与宿主环境关系未诊断。 **[其他 AI 逆向 · 分析测试]**
+- [AI解码脑间3D物体：SkywatcherXIII向Grok提出Neuralink／Blindsight设想](cases/skywatcher-neuralink-ai-brain-to-brain-3d-idea.md) — SkywatcherXIII以Blindsight向视觉皮层写像素为假设，询问能否用AI解码在两名Neuralink用户间传3D物体；仅相关研究idea，没有信号、设备测试或可行性证据。 **[其他 AI 逆向 · 待验证]**
 - [换模型仍没解开手机：Angel Lindo的REA、OpenCode与DeepSeek／GLM失败尝试](cases/angel-lindo-rea-phone-unlock-failed-attempt.md) — Angel Lindo称Claude拒绝REA手机解锁任务后，改用OpenCode、DeepSeek和GLM 5.3继续研究；没有再遇到网络安全拦截，但所有方案均未成功。 **[REA · 分析测试]**
 - [MapSleuth：Robbie用两台DGX Spark的本地AI研究ECU标定表](cases/mapsleuth-local-ai-ecu-calibration-map-research.md) — Robbie Searles正在构建定位并解码汽车ECU固件标定表的MapSleuth；迁移推理后端后自报57 tok/s与0.18秒首token，不是标定识别准确率。 **[其他 AI 逆向 · 进行中]**
 - [让Claude做FSD等效模型再接comma：Josef的驾驶行为重建idea](cases/atris-claude-fsd-comma-driving-model-idea.md) — Josef设想足够数据算力下让Claude训练比肩当下Tesla FSD的模型、经comma装车；无数据、训练、车载实现或安全验证。 **[其他 AI 逆向 · 待验证]**
@@ -1167,6 +1172,8 @@
 
 ### 应用与客户端
 
+- [Ansys轴向磁通电机开发：TANG称用IDA研究操作入口，再让Claude与脚本全天操作](cases/tang-ansys-ida-claude-axial-flux-motor-automation.md) — TANG称2026年初开始用AI与Ansys开发轴向磁通电机，通过IDA反汇编和脚本找到软件操作入口，再用Claude与脚本自动操作；未有模型、日志或电机验证。 **[其他 AI 逆向 · 待验证]**
+- [Edge Rewards脚本迭代：程序员Kun称先整理开源接口，再让AI扩展签到与批量管理](cases/kun-edge-rewards-ai-interface-script-iteration.md) — 程序员Kun报告Edge内Rewards签到脚本从零交模型效果差，先参考开源项目整理接口并做初版后，再让AI逐项升级到多账号管理；没有代码、领取结果或合规核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenSea与Magic Eden到Agent市场：8Bit的Solana／Base互通项目自述](cases/8bit-opensea-magic-eden-agent-native-market-report.md) — 8Bit称研究OpenSea和Magic Eden后做了面向Solana与Base的agent-native版本；按AI Agent互通相关项目保留，未确认AI参与逆向、具体交易功能或部署。 **[未确认使用 REA · 相关项目]**
 - [把自己放进Brad Pitt电影预告：Alex用REA-video与Higgsfield CLI重做](cases/alex-patrascu-rea-video-brad-pitt-trailer-remake.md) — Alex Patrascu称把最新Brad Pitt电影预告交给REA-video的Agent并接Higgsfield CLI，得到自己出镜的版本；未指明片名，未核验视频质量或完整会话。 **[REA · 待验证]**
 - [录屏到3D山体应用：Satty称一个Agent十分钟重建交互动作](cases/screen-recording-mountain-3d-app-agent-reconstruction.md) — Satty报告一个Agent从单次录屏与游标动作重建3D山体应用，含相机控件、轨道追踪、大纲与时间线；十分钟和单提示均未有会话或代码核验。 **[其他 AI 逆向 · 待验证]**
@@ -2176,7 +2183,7 @@
 - [RetroScope：用本地 LLM 辅助查看 ROM 指令引用](cases/retroscope-local-llm-rom-assist.md) — 作者正把断点寄存器、ROM 与指令交给 Python，找引用目标地址的其他指令；目前仅支持绝对地址。 **[其他 AI 逆向 · 进行中]**
 - [中国移动 App：AI 研究选号页与接口，准备本地筛选号码](cases/china-mobile-number-selection-ai-protocol.md) — 作者称在 root 安卓上开启无线调试，让 AI 测试选号接口，20多分钟后识别页面与协议；未给模型或代码。 **[其他 AI 逆向 · 待验证]**
 - [Serein 九 Bot 工作流：REA 行为规格交给隔离 Builder](cases/serein-grok-nine-bot-rea-workflow.md) — 转述 Grok 云电脑里九个专职 Bot 的产品流程，以 REA 提取行为、SPEC.md 和隔离构建衔接；没有独立验证。 **[REA · 待验证]**
-- [Chrome 版 LINE：AI 阅读 JS 后制作 TUI 与消息 API](cases/line-chrome-js-ai-tui-api.md) — @cwh_tw 称让 AI 参考 Chrome 版 LINE 的 JavaScript，制作终端界面和 API，用于客户消息分析与发送。 **[其他 AI 逆向 · 待验证]**
+- [LINE终端互通：Chrome JS制作TUI／API后，再设想模拟Android客户端](cases/line-chrome-js-ai-tui-api.md) — @cwh_tw此前称AI读Chrome版LINE的JS做TUI与消息API；11月19日又想研究Android版，在终端模拟客户端，避免一直放一台手机看消息。新路线仍为idea。 **[其他 AI 逆向 · 待验证]**
 - [Reverse Engineering Assistant：按文件生成离线分析报告的框架宣传](cases/kornas-reverse-engineering-assistant-report.md) — Dan Kornas 介绍一个同缩写 REA 的框架，称支持文件检测与 Markdown／PDF／JSON 报告；仓库身份未核实。 **[未确认使用 REA · 相关项目]**
 - [Zenith 多人编辑：读者询问能否用 REA 研究的 idea](cases/zenith-collaborative-ide-rea-idea.md) — 补读父帖将 this 识别为 Zenith 的多人编辑与 AI 项目上下文功能；目前只有 REA 适用性提问。 **[REA · 待验证]**
 - [Windows 内核：用 REA 研究免费操作系统的招募 idea](cases/windows-kernel-rea-free-os-idea.md) — 发帖者招募合作者逆向 Windows 内核并制作免费系统；没有源码恢复或系统构建成果。 **[REA · 待验证]**
@@ -2197,6 +2204,7 @@
 
 ### 算法与功能重建
 
+- [轨道炮机器狗图片到3D运动系统：无岸转述Gemini与Three.js重建](cases/railgun-robot-dog-gemini-threejs-reconstruction-report.md) — 无岸转述Gemini 4 Neon从机器狗参考图生成Three.js WebGPU模型、IK和步态系统，称有240Hz刚体模拟；动态是模型补全，不是恢复真实机械结构或原程序。 **[其他 AI 逆向 · 待验证]**
 - [Emily Trim图画解码：用AI寻找基因编号，仍需排除事后巧合](cases/emily-trim-illustrations-ai-symbol-decoding-experiment.md) — 发帖者用前沿AI整理Emily Trim首400幅图，尝试从元素图中读出TUFT1与CTSG编号；尚无固定解码规则或盲测，不是药物逆向或治疗发现。 **[其他 AI 逆向 · 分析测试]**
 - [PineScript经济序列行为：SolaFolda报告价差／SMA探索与后续AI协助](cases/solafolda-pinescript-economic-series-ai-behavior-investigation.md) — SolaFolda研究TradingView价差序列与SMA显示行为，称后来由AI扩展指标想法；秒级图表不证明宏观数据秒级更新，收益与策略有效率均未验证。 **[其他 AI 逆向 · 待验证]**
 - [Glaskin广告逐帧重建：Claude三轮对照，作者称配音时差在0.3秒内](cases/glaskin-claude-tiktok-ad-timing-reconstruction.md) — cicerougc称为Glaskin拆竞品26.9秒TikTok，用ChatGPT图片、本地TTS与Claude／Python重建，三轮修正配音；传播测试尚未开展，未审输出与QA。 **[其他 AI 逆向 · 待验证]**

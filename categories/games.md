@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [把游戏改作交给所有人：Moke提出REA研究后公开可编辑构建提示](../cases/moke-wifeguy-game-rea-editable-build-prompt-idea.md) — Moke在shoe称WifeGuy Simulator的游戏讨论下，提议用REA修游戏，再变成任何人可编辑与构建的AI提示；真实游戏名和实现均未确认。 **[REA · 待验证]**
+- [GTA6改成1936年柏林：Gmoneyinthebank提出AI逆向的GTA1936想法](../cases/gmoney-gta1936-berlin-ai-gta6-mod-idea.md) — Gmoneyinthebank以召集式玩笑提出AI逆向GTA6并发布柏林背景GTA1936；是有具体年代地点的改作愿望，没有实现或历史场景证据。 **[其他 AI 逆向 · 待验证]**
 - [把Mario放进GTA：ledatherockband提出REA跨游戏角色移植idea](../cases/mario-gta-rea-character-transfer-idea.md) — ledatherockband回复称要带着REA仓库把Mario放进GTA；是具体角色跨游戏移植愿望，没有游戏版本、代码或完成证据。 **[REA · 待验证]**
 - [.hack四部曲变真正网游：Cenewulf的AI反编译愿望](../cases/dot-hack-quadrilogy-ai-online-conversion-idea.md) — Cenewulf建议让AI反编译.hack四部曲并改为真正联网游戏；仅是明确目标的idea，没有代码、服务器或兼容性结果。 **[其他 AI 逆向 · 待验证]**
 - [Genesis游戏先交Ghidra再交Claude：UltimaWolf回应Matt Hughson的反编译求助](../cases/matthughson-genesis-ghidra-claude-decompile-idea.md) — Matt寻找Genesis／Mega Drive反编译工具，UltimaWolf建议主二进制先用Ghidra再让Claude接续；未命名游戏、执行或验证，不保证Claude接受或结果正确。 **[其他 AI 逆向 · 待验证]**

@@ -1,5 +1,150 @@
 [
   {
+    "id": "tang-ansys-ida-claude-axial-flux-motor-automation",
+    "title": "Ansys轴向磁通电机开发：TANG称用IDA研究操作入口，再让Claude与脚本全天操作",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "TANG称2026年初开始用AI与Ansys开发轴向磁通电机，通过IDA反汇编和脚本找到软件操作入口，再用Claude与脚本自动操作；未有模型、日志或电机验证。",
+    "description": "2026年11月19日08:52:04（北京时间），TANG（@roobtx）回复称，其团队从2026年初开始用AI与Ansys开发轴向磁通电机。Ansys是工程仿真软件；这里研究既有软件的目的，是取得可由脚本调用的操作入口，从而自动驱动工程工作流，而不是恢复电机制造商的固件或原始设计。\n\n作者说通过脚本和IDA直接反汇编、逆向官方软件，找到官方操作入口，再用脚本进行24/7自动开发，并认为Claude最擅长软件操作、Astra6最擅长理论／科学／数学执行。软件操作研究与AI执行相结合是其明确自述，但没有给Ansys具体产品、版本、入口类型、接口定义、脚本或模型会话；不能判断是GUI入口、内部函数还是已有公开API，也不能认定Claude独立完成了全部反汇编。Astra6按原帖保留，不独立认证模型型号或比较结论。\n\n24/7是作者对自动化运行方式的描述，不是已核验的连续运行时长、节省工时或设计周期。未给求解收敛、效率、扭矩、制造或实测电机结果，不将自动操作升级为已验证电机性能。补取原帖确认署名、文字、日期与附图；未审图片、源码、许可或日志，未运行软件或目标代码。REA未提及，按具体AI辅助软件互通／自动化研究报告保留为unverified。",
+    "sources": [{"label": "TANG的AI、IDA与Ansys电机开发自述，2026-11-19 08:52:04北京时间", "url": "https://x.com/i/status/2123217709882339338"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["2026-11-19候选封存2赞、38浏览、0转发、0回复；24/7为作者运行方式自述，不是核验工时。"],
+    "en": {
+      "title": "Ansys axial-flux motor development: TANG reports IDA research into operation entry points for Claude and script automation",
+      "summary": "TANG says AI and Ansys have supported axial-flux motor development since early 2026: IDA disassembly and scripts identify software operation entry points for Claude-led automation. Models, logs and motor validation were not checked.",
+      "description": "At 08:52:04 Beijing time on November 19, 2026, TANG (@roobtx) says their team began developing axial-flux motors with AI and Ansys in early 2026. Ansys is engineering simulation software. The purpose of researching the existing software is to identify operation entry points accessible to scripts and automate an engineering workflow, not to recover a motor manufacturer's firmware or original design.\n\nThe author says scripts and IDA directly disassemble and reverse-engineer the official software to find its operation entry points, followed by scripts driving 24/7 automated development. They consider Claude best at software operation and Astra6 strongest at theoretical, scientific and mathematical execution. Combining software research with AI operation is explicitly reported, but no Ansys product, revision, entry-point type, interface definition, script or model session is provided. It is unclear whether the entries are GUI actions, internal functions or existing public APIs. Claude is not established to have performed all disassembly independently. Astra6 preserves the post's wording without authenticating a model identity or adopting the comparison.\n\n24/7 describes the author's claimed mode of operation, not verified continuous runtime, saved labor or design duration. Solver convergence, efficiency, torque, manufacturing and measured motor results are absent; automated operation is not validated motor performance. Original-post retrieval confirms attribution, wording, date and an attached image. That image, source, licensing and logs were not reviewed, and neither software nor target code was run here. REA is unmentioned. Retained as an unverified, concrete AI-assisted software interoperability/automation research report.",
+      "metadata": ["November 19, 2026 sealed candidate: 2 likes, 38 views, 0 reposts, 0 replies. 24/7 is the author's description of operation, not verified effort."],
+      "source_labels": ["TANG's AI/IDA/Ansys motor-development report, November 19, 2026 at 08:52:04 Beijing time"]
+    }
+  },
+  {
+    "id": "moke-wifeguy-game-rea-editable-build-prompt-idea",
+    "title": "把游戏改作交给所有人：Moke提出REA研究后公开可编辑构建提示",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "Moke在shoe称WifeGuy Simulator的游戏讨论下，提议用REA修游戏，再变成任何人可编辑与构建的AI提示；真实游戏名和实现均未确认。",
+    "description": "2026年11月19日08:38:38（北京时间），Moke（@Moke1966758）回复shoe（@shoe0nhead），提出用REA研究游戏、修正它，再把改作转成任何人都能编辑和构建的AI提示。目标不是仅发布一个固定Mod，而是把重建／修改入口做成读者可继续编辑的提示。\n\n补读母帖：shoe在11月19日02:51:53称它为WifeGuy Simulator并附图。这个称呼是讨论中的昵称，不足以确认正式游戏名、版本或引擎；本合集没有审图片，不据此猜成GTA6或其他游戏。该母帖在本窗口之前，只用于说明候选回复的背景，不充当新候选。\n\nMoke明确以Idea开头，没有报告取得二进制、启动REA、修好具体缺陷、制作构建流程或发布提示。未说明要修什么，也没有代码、资源授权、测试或可玩结果。按具体的游戏改作与可编辑提示分享idea保留unverified，REA是拟用工具；不把祈使句写成已完成项目，也不将不同游戏作者的愿望拼为同一团队。",
+    "sources": [
+      {"label": "Moke的REA游戏修改与可编辑构建提示idea，2026-11-19 08:38:38北京时间", "url": "https://x.com/i/status/2123214329055220149"},
+      {"label": "窗口前母帖：shoe称WifeGuy Simulator，仅作背景，2026-11-19 02:51:53北京时间", "url": "https://x.com/i/status/2123127066145251366"}
+    ],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["2026-11-19候选封存0赞、37浏览、0转发、0回复；无工时或实现证据。"],
+    "en": {
+      "title": "Let everyone edit a game rebuild: Moke proposes REA research followed by a shared build prompt",
+      "summary": "Replying to shoe's WifeGuy Simulator discussion, Moke proposes using REA to fix the game and turning the result into an AI prompt anyone can edit and build. The official game title and implementation are unconfirmed.",
+      "description": "At 08:38:38 Beijing time on November 19, 2026, Moke (@Moke1966758) replies to shoe (@shoe0nhead), proposing to research the game with REA, fix it and turn the result into an AI prompt anyone can edit and build. The goal goes beyond releasing a fixed mod: readers would have an editable prompt as the entry point to reconstruction or modification.\n\nSupplementary parent retrieval finds shoe calling it WifeGuy Simulator at 02:51:53 on November 19, with an image. This is a conversational nickname, not sufficient identification of an official game title, revision or engine. The image was not reviewed here, and GTA 6 or another game is not guessed. The parent predates this window and supplies background only, not another candidate.\n\nMoke explicitly begins with Idea. There is no report of acquiring a binary, starting REA, fixing a particular defect, making a build workflow or publishing a prompt. What needs fixing is unspecified, and code, asset permissions, tests and playable results are absent. Retained as an unverified, concrete game-modification and editable-prompt-sharing idea; REA is the proposed tool. Imperatives are not presented as completed work, and different authors' game wishes are not combined into one team.",
+      "metadata": ["November 19, 2026 sealed candidate: 0 likes, 37 views, 0 reposts, 0 replies. No effort or implementation evidence."],
+      "source_labels": ["Moke's REA game-modification and editable-build-prompt idea, November 19, 2026 at 08:38:38 Beijing time", "Pre-window parent: shoe's WifeGuy Simulator nickname, background only, November 19, 2026 at 02:51:53 Beijing time"]
+    }
+  },
+  {
+    "id": "john-ruiz-5g-router-claude-homelab-restart-idea",
+    "title": "5G路由器接入homelab：John Ruiz举例让Claude找隐藏API并写重启脚本",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "John Ruiz在版权讨论中用5G路由器举例：Claude研究隐藏API，生成PowerShell自动重启与Docker Compose以接入家庭实验室；这是假设场景，不是已完成报告。",
+    "description": "2026年11月19日08:56:07（北京时间），John Ruiz（@glitch00）讨论AI、软件仿制和版权时，以普通用户自己的5G路由器为例，设想让Claude Opus 5.5发现隐藏API，再生成PowerShell自动重启脚本与自定义Docker Compose文件，改善设备与homelab（家庭实验室）的整合。这里的具体问题是厂商没有直接暴露的控制接口与日常设备自动化。\n\n该段用于对比家用互通与商业仿制，不是作者声明自己实施过的项目。没有路由器厂商、型号、固件、接口、代码、测试或实际重启结果；不推断已取得管理员权限、绕过认证、改善联网稳定性或完成容器部署。模型名按原文保留，不独立认证Claude Opus 5.5型号或其能力。\n\n补取原帖读到完整结尾并确认署名、日期。以具体idea收录为unverified，未访问路由器、凭据、接口或运行脚本。与既有DeepSeek／OpenCode研究5G路由空密码与API注入的案例不同，不能把那个项目的漏洞或结果移植到本条。作者的版权意见也不是本合集的法律结论，REA未提及。",
+    "sources": [{"label": "John Ruiz的5G路由隐藏API与homelab自动化假设例子，2026-11-19 08:56:07北京时间", "url": "https://x.com/i/status/2123218729295372409"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["2026-11-19候选封存2赞、39浏览、0转发、0回复；假设例子，不是作者完成记录。"],
+    "en": {
+      "title": "A 5G router in a homelab: John Ruiz imagines Claude finding hidden APIs and writing restart automation",
+      "summary": "In a copyright discussion, John Ruiz uses a 5G router as an example: Claude investigates hidden APIs and generates PowerShell restart automation and Docker Compose for a homelab. This is hypothetical, not completed work.",
+      "description": "At 08:56:07 Beijing time on November 19, 2026, John Ruiz (@glitch00) discusses AI, software copycats and copyright, using an ordinary user's own 5G router as an example. He imagines asking Claude Opus 5.5 to discover hidden APIs and generate a PowerShell auto-restart script and custom Docker Compose files for better integration with a homelab. The specific problem is access to controls the vendor does not directly expose and routine device automation.\n\nThe passage contrasts household interoperability with commercial copying; it is not an account of the author having implemented a project. Vendor, model, firmware, interfaces, code, tests and actual restart results are absent. Administrative access, authentication bypass, improved connectivity and completed container deployment are not inferred. The model name preserves the source without independently authenticating Claude Opus 5.5 or its capabilities.\n\nRetrieval of the original post includes its complete ending and confirms attribution and date. Retained as an unverified, concrete idea. No router, credentials or interfaces were accessed and no script was run here. This differs from the existing DeepSeek/OpenCode 5G-router empty-password and API-injection research case; that project's vulnerabilities and results are not transferred to this example. The author's copyright opinions are not legal conclusions of this collection. REA is unmentioned.",
+      "metadata": ["November 19, 2026 sealed candidate: 2 likes, 39 views, 0 reposts, 0 replies. A hypothetical example, not an author completion record."],
+      "source_labels": ["John Ruiz's hypothetical 5G-router hidden-API and homelab automation example, November 19, 2026 at 08:56:07 Beijing time"]
+    }
+  },
+  {
+    "id": "white2dog-ai-device-firmware-usb-black-screen",
+    "title": "AI产出固件仍黑屏：White2dog在Mac的Ubuntu ARM虚机里尝试设备改造",
+    "category": "hardware", "rea": "other-ai", "status": "analysis-test",
+    "summary": "White2dog报告AI产出的固件从U盘引导一直黑屏，构建环境为Mac上的Ubuntu ARM虚机；无线调试已开，但固件问题与宿主环境关系未诊断。",
+    "description": "2026年11月19日09:46:01（北京时间），White2dog（@White2dog1313）回复eastwood.net，报告改造同型号设备时的失败。他说重置系统后经输入法相关问题进入开发者模式并开启无线调试，但AI自己跑出的固件在U盘引导时一直黑屏。他在Mac上的Ubuntu ARM虚机中制作，怀疑可能与苹果环境有关，并询问可供测试的固件。\n\n补读11月17日至18日的父串：eastwood展示一台1920×1200屏设备，称适合跑Agent命令；White2dog说自己有同型号，先前有USB ADB连接与开发者模式问题。串文没有明确设备品牌、型号、处理器、固件版本或最终要启动的系统，不用虚机构架推定设备也是ARM，也不把eastwood的待机体验归给White2dog。这些窗口前来源只解释失败背景，不算新候选。\n\n补查还读到本窗口10:46:39的eastwood回复，建议让AI调试，并说社区反馈成功；White2dog在10:49答应尝试。两条只是补充串文，没有候选之外另行计数，也不证明该用户已经修复。没有启动日志、镜像、代码或故障定位，黑屏不能据此归咎于Mac、架构或AI。按AI辅助固件改造的失败实验保留，未确认是否做过反汇编或使用REA。未审图片、取得固件或访问设备，不提供进入受限模式的操作步骤。",
+    "sources": [
+      {"label": "White2dog的AI固件USB引导黑屏报告，2026-11-19 09:46:01北京时间", "url": "https://x.com/i/status/2123231286659805474"},
+      {"label": "窗口前设备展示，仅作背景，2026-11-17 12:22:51北京时间", "url": "https://x.com/i/status/2122545981560680450"},
+      {"label": "窗口前White2dog确认同型号及ADB问题，2026-11-18 19:32:57北京时间", "url": "https://x.com/i/status/2123016608465682743"},
+      {"label": "补充串文：eastwood建议继续调试，非修复验证，2026-11-19 10:46:39北京时间", "url": "https://x.com/i/status/2123246545755918372"},
+      {"label": "补充串文：White2dog仅答应尝试，2026-11-19 10:49:00北京时间", "url": "https://x.com/i/status/2123247136552939608"}
+    ],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["2026-11-19候选封存0赞、13浏览、0转发、1回复；没有修复结果或可归因的故障诊断。"],
+    "en": {
+      "title": "AI-produced firmware still boots to black: White2dog's device experiment in an Ubuntu ARM VM on a Mac",
+      "summary": "White2dog reports persistent black-screen USB boots with AI-produced firmware, made in an Ubuntu ARM virtual machine on a Mac. Wireless debugging is available, but neither the firmware fault nor any host-environment connection is diagnosed.",
+      "description": "At 09:46:01 Beijing time on November 19, 2026, White2dog (@White2dog1313) replies to eastwood.net about a failed modification of the same model of device. After a reset, they say an input-method-related issue allowed developer-mode access and wireless debugging. However, firmware produced by AI consistently boots from USB to a black screen. It was made in an Ubuntu ARM VM on a Mac; they wonder whether the Apple environment matters and ask for firmware to test.\n\nSupplementary November 17–18 parent posts show eastwood displaying a device with a 1920×1200 screen and describing it as suitable for agent commands. White2dog says they have the same model and previously had USB ADB and developer-mode difficulties. The thread does not explicitly identify the brand, model, processor, firmware revision or intended boot operating system. The VM architecture does not establish an ARM target, and eastwood's battery experience is not attributed to White2dog. These pre-window sources only explain the failure background and are not new candidates.\n\nSupplementary retrieval also finds eastwood's 10:46:39 reply within this window suggesting further AI debugging and claiming community successes. White2dog agrees to try at 10:49. These are supporting thread posts, not additional candidates or proof this user's problem was fixed. There are no boot logs, images, code or fault isolation; the black screen cannot be attributed to the Mac, an architecture mismatch or AI on this evidence. Retained as a failed AI-assisted firmware-modification experiment. Disassembly and REA use are unconfirmed. Images were not reviewed, no firmware was acquired and no device was accessed here. No steps for entering restricted modes are supplied.",
+      "metadata": ["November 19, 2026 sealed candidate: 0 likes, 13 views, 0 reposts, 1 reply. No fix or attributable fault diagnosis."],
+      "source_labels": ["White2dog's AI-firmware USB black-screen report, November 19, 2026 at 09:46:01 Beijing time", "Pre-window device presentation, background only, November 17, 2026 at 12:22:51 Beijing time", "Pre-window White2dog confirmation of the same model and ADB problems, November 18, 2026 at 19:32:57 Beijing time", "Supporting thread: eastwood suggests further debugging, not fix verification, November 19, 2026 at 10:46:39 Beijing time", "Supporting thread: White2dog only agrees to try, November 19, 2026 at 10:49:00 Beijing time"]
+    }
+  },
+  {
+    "id": "skywatcher-neuralink-ai-brain-to-brain-3d-idea",
+    "title": "AI解码脑间3D物体：SkywatcherXIII向Grok提出Neuralink／Blindsight设想",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "SkywatcherXIII以Blindsight向视觉皮层写像素为假设，询问能否用AI解码在两名Neuralink用户间传3D物体；仅相关研究idea，没有信号、设备测试或可行性证据。",
+    "description": "2026年11月19日10:05:52（北京时间），C.Ed | SkywatcherXIII（@SkywatcherXIII）向Grok提出所谓真正的逆向问题：如果Blindsight能把像素写入V1，离两个Neuralink用户之间传输完整3D物体、由AI在中间解码信号还有多远。V1指初级视觉皮层；帖子把脑机接口的视觉编码与AI信号解码联系起来，目标是脑间视觉信息互通。\n\n这是以如果开头的技术愿望，不是Blindsight能力、Neuralink带宽或AI重建精度的证据。作者没有电极数据、编码方案、3D表示、设备版本、实验、代码或Grok的实质回答；不能宣称已重建视觉皮层编码、实现脑间流式传输或具备医疗用途。AI在这里是拟议的解码组件，Grok是被询问的助手，REA未提及。\n\n同帖还要求查能夹在普通眼镜上的AR／VR显示器专利，并生成火星宇航员视频。专利检索是另一请求，不据此声称已有可逆向的具体眼镜、原型或低于2000美元的替代产品，也不拆成无证据的独立项目。补取原帖确认署名、日期和完整文字；未读取专利、神经数据或测试设备。按广义AI辅助信号研究的具体相关idea收录为unverified，不是成功案例或医学建议。",
+    "sources": [{"label": "SkywatcherXIII的Neuralink／Blindsight与AI解码提问，2026-11-19 10:05:52北京时间", "url": "https://x.com/i/status/2123236283967570278"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["2026-11-19候选封存0赞、15浏览、0转发、1回复；2000美元是眼镜请求中的费用语境，不是项目成本。"],
+    "en": {
+      "title": "AI decoding of brain-to-brain 3D objects: SkywatcherXIII asks Grok about Neuralink and Blindsight",
+      "summary": "Assuming Blindsight can write pixels to visual cortex, SkywatcherXIII asks whether AI could decode signals to stream 3D objects between Neuralink users. A related research idea only, without signals, device tests or feasibility evidence.",
+      "description": "At 10:05:52 Beijing time on November 19, 2026, C.Ed | SkywatcherXIII (@SkywatcherXIII) asks Grok what they call a real reverse-engineering question: if Blindsight can write pixels into V1, how far away is streaming full 3D objects between two Neuralink users, with AI decoding signals in between? V1 is the primary visual cortex. The post connects visual coding in brain-computer interfaces with AI signal decoding, aiming at brain-to-brain visual information interoperability.\n\nThis is a conditional technical wish, not evidence of Blindsight capability, Neuralink bandwidth or AI reconstruction accuracy. Electrode data, encoding schemes, 3D representations, device revisions, experiments, code and a substantive Grok answer are absent. Recovery of visual-cortex encoding, brain-to-brain streaming and medical utility are not established. AI is the proposed decoder and Grok the assistant being asked; REA is unmentioned.\n\nThe same post requests patents for AR/VR displays that clip onto ordinary glasses and an animated Martian-astronaut video. Patent retrieval is another request, not evidence of a specific pair of glasses being reverse-engineered, a prototype or a sub-$2,000 replacement. It is not split into an unsupported independent project. Retrieval confirms attribution, date and complete wording. No patents or neural data were read and no devices were tested here. Retained as an unverified, concrete related idea in broader AI-assisted signal research, not a successful result or medical advice.",
+      "metadata": ["November 19, 2026 sealed candidate: 0 likes, 15 views, 0 reposts, 1 reply. $2,000 is cost context in the glasses request, not project expenditure."],
+      "source_labels": ["SkywatcherXIII's Neuralink/Blindsight and AI-decoding question, November 19, 2026 at 10:05:52 Beijing time"]
+    }
+  },
+  {
+    "id": "kun-edge-rewards-ai-interface-script-iteration",
+    "title": "Edge Rewards脚本迭代：程序员Kun称先整理开源接口，再让AI扩展签到与批量管理",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "程序员Kun报告Edge内Rewards签到脚本从零交模型效果差，先参考开源项目整理接口并做初版后，再让AI逐项升级到多账号管理；没有代码、领取结果或合规核验。",
+    "description": "2026年11月19日10:16:01（北京时间），程序员Kun（@JiaChenUid）用最近制作Edge内Rewards自动签到／奖励脚本的经历，解释自己认为AI更擅长从已有骨架继续迭代，而非直接从零开始。目标是重建已有服务的调用与管理流程，不是开发新的奖励平台。\n\n作者说最初直接让模型做没有做成，换小模型效果也不好；后来根据开源项目整理接口，准备一个已有基础功能的初版，再把简单扩展和升级交给AI，逐步做到多账号与批量管理。他没有命名参考仓库、具体接口、使用的模型或测试，没有给实际领取、稳定性、账号数量、耗时或收益。完整地干下去是作者对迭代可继续的评价，不是本合集验证全部功能。\n\n同帖泛谈ARTEX、deva及模型限制，但不能据此认定这次Edge脚本实际用了这两个工具、发现了隐藏接口或使用REA。记录开源参考到初版再迭代的具体实践，不转载规避模型安全规则、账号限制或批量薅奖励的步骤。补取确认作者、文字和日期；未读源码、访问账号、发送请求或核实服务条款，不将作者操作视为获平台授权，状态为unverified。",
+    "sources": [{"label": "程序员Kun的Edge Rewards接口与AI迭代自述，2026-11-19 10:16:01北京时间", "url": "https://x.com/i/status/2123238838747419077"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["2026-11-19候选封存0赞、16浏览、0转发、0回复；没有账号数、奖励金额或功能测试记录。"],
+    "en": {
+      "title": "Iterating an Edge Rewards script: Kun reports organizing open-source interfaces before AI expands check-ins and batch management",
+      "summary": "Kun says starting an Edge Rewards check-in script directly with models worked poorly. After organizing interfaces from open-source projects and making a basic version, AI expanded it toward multi-account management. Code, claims and compliance were not checked.",
+      "description": "At 10:16:01 Beijing time on November 19, 2026, programmer Kun (@JiaChenUid) describes recent work on an automatic check-in/rewards script for Rewards in Edge, arguing that AI is better at iterating on a skeleton than starting from nothing. The target is reconstructing an existing service's calling and management workflow, not creating a new rewards platform.\n\nThe author says the initial direct model attempt did not work and a smaller model also performed poorly. They then organized interfaces from open-source projects, prepared a basic functional version and assigned simple extensions and upgrades to AI, gradually reaching multi-account and batch management. Reference repositories, specific interfaces, models and tests are unnamed. Actual reward claims, stability, account counts, effort and earnings are not supplied. Being able to carry on is the author's assessment of iteration, not this collection's validation of every feature.\n\nThe same post generally discusses ARTEX, deva and model restrictions. It does not establish that either tool was used for this Edge script, that hidden interfaces were discovered or that REA was involved. This records a concrete open-source-reference-to-prototype-to-iteration experience without reproducing steps for evading model safeguards, account limits or mass reward farming. Retrieval confirms attribution, wording and date. Source was not reviewed, no accounts were accessed or requests sent and service terms were not checked. Platform authorization is not inferred. Status remains unverified.",
+      "metadata": ["November 19, 2026 sealed candidate: 0 likes, 16 views, 0 reposts, 0 replies. No account count, reward amount or functional test record."],
+      "source_labels": ["Kun's Edge Rewards interface and AI-iteration report, November 19, 2026 at 10:16:01 Beijing time"]
+    }
+  },
+  {
+    "id": "gmoney-gta1936-berlin-ai-gta6-mod-idea",
+    "title": "GTA6改成1936年柏林：Gmoneyinthebank提出AI逆向的GTA1936想法",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Gmoneyinthebank以召集式玩笑提出AI逆向GTA6并发布柏林背景GTA1936；是有具体年代地点的改作愿望，没有实现或历史场景证据。",
+    "description": "2026年11月19日10:29:00（北京时间），Gmoneyinthebank（@Gmoneyinbank）写道启动AI，要逆向GTA6并发布设定在柏林的GTA1936。GTA6指Grand Theft Auto系列游戏；GTA1936是帖子给拟议改作的称呼，标题中的年代与柏林是具体创作目标，不是已公开发行的项目身份。\n\n帖子只有这一召集式、带玩笑口吻的说法，没有二进制、团队、仓库、模型、地图、角色、任务或构建结果。不把现在时我们正在做当成可核验的项目启动，也不推断任何历史政治内容、玩法、资产获取或发布许可。与既有GTA6 PC移植预测不同，这里明确要改成另一个时代和城市，故保留独立idea而不声称合作。\n\n补取原帖确认署名、日期和完整文字；未取得游戏、审代码或测试场景。保留为unverified的具体AI辅助游戏改作愿望，REA没有提及，未将热情表达升级为反编译进度或可玩版本。",
+    "sources": [{"label": "Gmoneyinthebank的GTA1936柏林改作idea，2026-11-19 10:29:00北京时间", "url": "https://x.com/i/status/2123242106613268739"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["2026-11-19候选封存3赞、74浏览、0转发、0回复；无工时、完成比例或构建。"],
+    "en": {
+      "title": "GTA 6 into 1936 Berlin: Gmoneyinthebank proposes an AI-reversed GTA1936",
+      "summary": "Gmoneyinthebank jokingly calls for AI reverse engineering of GTA 6 and a Berlin-set GTA1936. A remake wish with a specific period and location, without implementation or historical-scene evidence.",
+      "description": "At 10:29:00 Beijing time on November 19, 2026, Gmoneyinthebank (@Gmoneyinbank) calls for firing up AI, reverse-engineering GTA 6 and releasing GTA1936 set in Berlin. GTA 6 refers to the Grand Theft Auto series game. GTA1936 is the proposed remake's name in the post: its period and Berlin are specific creative targets, not identification of an already released project.\n\nThis is a short, jokingly phrased call, without binaries, a team, repository, model, map, characters, missions or builds. The present-tense statement about what we are doing does not establish a verifiably started effort. Historical political content, gameplay, asset acquisition and release permissions are not inferred. Unlike existing GTA 6 PC-port predictions, this explicitly proposes another period and city, so it is retained as a separate idea without implying collaboration.\n\nOriginal-post retrieval confirms attribution, date and complete wording. No game was acquired, code reviewed or scene tested here. Retained as an unverified, concrete AI-assisted game-remaking wish. REA is unmentioned; enthusiasm is not decompilation progress or a playable release.",
+      "metadata": ["November 19, 2026 sealed candidate: 3 likes, 74 views, 0 reposts, 0 replies. No effort, completion percentage or build."],
+      "source_labels": ["Gmoneyinthebank's GTA1936 Berlin remake idea, November 19, 2026 at 10:29:00 Beijing time"]
+    }
+  },
+  {
+    "id": "railgun-robot-dog-gemini-threejs-reconstruction-report",
+    "title": "轨道炮机器狗图片到3D运动系统：无岸转述Gemini与Three.js重建",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "无岸转述Gemini 4 Neon从机器狗参考图生成Three.js WebGPU模型、IK和步态系统，称有240Hz刚体模拟；动态是模型补全，不是恢复真实机械结构或原程序。",
+    "description": "2026年11月19日10:30:15（北京时间），无岸（@wuan2026）转述一位未具名开发者的实验：只提供一张装备轨道炮的机器狗图片，请其称为Gemini 4 Neon的模型做成3D模型，得到基于Three.js WebGPU的运动系统。按图片驱动的视觉／行为重建报告保留，而不是把逆向运动学一词等同于软件逆向。\n\n介绍者列出240Hz刚体模拟、四足地面反作用力、3D逆向运动学（IK）、行走／慢跑／奔跑周期、动态脊柱弯曲，以及随后坐力调整的头尾物理效果。他说没有逐项给物理规则和动作需求，模型自行补全；这恰好限制了证据含义：一张图不能验证隐藏结构或运动规律，生成动态不等于真实机器狗、原工程或仿真代码的恢复。240Hz也不是本合集测得的帧率或物理精度。\n\nGemini 4 Neon与用于速度对比的Gemini 4 Carbon均按介绍者原话记录，不独立认证型号；没有原开发者身份、提示、代码、测试条件或时间测量。与既有机器狗照片生成爆炸图的案例不同，这次描述的是带运动系统的轨道炮图像重建，未确认项目关联。补取原帖确认署名、日期、完整文字与附视频，但未观看视频、比较原图、读源码或运行引擎。保留二手unverified报告，不把夸张评价当工程验收，REA未提及。",
+    "sources": [{"label": "无岸转述机器狗图片到Three.js运动系统，2026-11-19 10:30:15北京时间", "url": "https://x.com/i/status/2123242421165453607"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["2026-11-19候选封存1赞、128浏览、0转发、1回复；240Hz为转述宣称，无运行测量或真实设备验证。"],
+    "en": {
+      "title": "A railgun robot-dog image into a 3D motion system: Wuan relays a Gemini/Three.js reconstruction",
+      "summary": "Wuan relays a claim that Gemini 4 Neon turns a robot-dog reference image into a Three.js WebGPU model, IK and gait system with 240 Hz rigid-body simulation. Dynamics are model-invented, not recovered real mechanics or original software.",
+      "description": "At 10:30:15 Beijing time on November 19, 2026, Wuan (@wuan2026) relays an unnamed developer's experiment: a single image of a railgun-equipped robot dog was supplied to a model called Gemini 4 Neon to make a 3D model, reportedly producing a Three.js WebGPU motion system. Retained as an image-driven visual/behavior reconstruction report, not because inverse kinematics is equivalent to software reverse engineering.\n\nThe introducer lists 240 Hz rigid-body simulation, quadruped ground-reaction forces, 3D inverse kinematics (IK), walking/jogging/running cycles, dynamic spine bending and recoil-responsive head and tail physics. They say detailed physical rules and movement requirements were not individually supplied, so the model filled them in. That limits the evidence: one image cannot validate hidden structures or movement laws, and generated dynamics do not recover a real robot dog, original engineering project or simulation code. Nor is 240 Hz a frame rate or physical accuracy measured by this collection.\n\nGemini 4 Neon and the speed-comparison model Gemini 4 Carbon preserve the introducer's wording without independently authenticating model identities. Original developer identity, prompt, code, test conditions and timing measurements are absent. This differs from the existing robot-dog-photo exploded-view case by describing a railgun image and a motion system; no project connection is established. Retrieval confirms attribution, date, complete wording and an attached video. The video was not watched, the original image was not compared, source was not reviewed and the engine was not run here. Retained as an unverified secondary report, not acceptance of promotional praise as engineering validation. REA is unmentioned.",
+      "metadata": ["November 19, 2026 sealed candidate: 1 like, 128 views, 0 reposts, 1 reply. 240 Hz is a relayed claim, without runtime measurements or real-device validation."],
+      "source_labels": ["Wuan's account of a robot-dog image becoming a Three.js motion system, November 19, 2026 at 10:30:15 Beijing time"]
+    }
+  },
+  {
     "id": "8bit-opensea-magic-eden-agent-native-market-report",
     "title": "OpenSea与Magic Eden到Agent市场：8Bit的Solana／Base互通项目自述",
     "category": "apps", "rea": "unknown", "status": "related-project",
@@ -38741,21 +38886,21 @@
   },
   {
     "id": "line-chrome-js-ai-tui-api",
-    "title": "Chrome 版 LINE：AI 阅读 JS 后制作 TUI 与消息 API",
+    "title": "LINE终端互通：Chrome JS制作TUI／API后，再设想模拟Android客户端",
     "category": "apps",
     "rea": "other-ai",
     "status": "unverified",
-    "summary": "@cwh_tw 称让 AI 参考 Chrome 版 LINE 的 JavaScript，制作终端界面和 API，用于客户消息分析与发送。",
-    "description": "2026年10月17日15:59（北京时间），@cwh_tw 在 LINE 精简客户端讨论下补充自己的实际尝试：此前让 AI 参考 Chrome 版 LINE 的 JavaScript，做出 TUI（终端文字界面）和 API，并称现在 AI 正帮他分析客户消息、发送消息。作者说这份 JS 比较容易读，不需要很深入的逆向；因此本条准确记录已有客户端代码阅读与接口制作，不包装成破解 LINE 服务端。\n\n这是不同于既有 LINE Desktop 精简版 idea 的 Chrome 版本实践。来源未给仓库、工具或模型、认证处理、API 覆盖范围、运行日志或消息投递验证。作者听说 Chrome 版将关闭，并表示届时再请 AI 认真逆向；关闭时间与后续逆向都不是已确认事实。未确认 REA，也未访问客户消息、发送消息或独立复现。",
-    "sources": [{"label": "作者关于 Chrome LINE JS、TUI 与 API 的回复", "url": "https://x.com/i/status/2111366415639064608"}],
-    "snapshot_date": "2026-10-17",
-    "metadata": ["客户端代码阅读的使用自述；无代码或投递验证，不证明服务端兼容性。"],
+    "summary": "@cwh_tw此前称AI读Chrome版LINE的JS做TUI与消息API；11月19日又想研究Android版，在终端模拟客户端，避免一直放一台手机看消息。新路线仍为idea。",
+    "description": "2026年10月17日15:59（北京时间），@cwh_tw 在 LINE 精简客户端讨论下补充自己的实际尝试：此前让 AI 参考 Chrome 版 LINE 的 JavaScript，做出 TUI（终端文字界面）和 API，并称现在 AI 正帮他分析客户消息、发送消息。作者说这份 JS 比较容易读，不需要很深入的逆向；因此本条准确记录已有客户端代码阅读与接口制作，不包装成破解 LINE 服务端。\n\n这是不同于既有 LINE Desktop 精简版 idea 的 Chrome 版本实践。来源未给仓库、工具或模型、认证处理、API 覆盖范围、运行日志或消息投递验证。作者听说 Chrome 版将关闭，并表示届时再请 AI 认真逆向；关闭时间与后续逆向都不是已确认事实。\n\n2026年11月19日09:29:33（北京时间），同一作者一定iPad溫開水（@cwh_tw）回复@g9164312，说需要常放一台Android查看消息很麻烦，想找时间看看AI能否逆向LINE，让terminal直接模拟Android上的LINE。补取原帖确认署名、文字、日期；新增的是同一终端互通目标的后续客户端路线，不是Android原型已经完成，也不证明Chrome路线停用。没有APK版本、协议分析、登录、消息收发或设备替代测试，不能把10月Chrome自述的成果迁移到Android。保留原ID与旧来源，追加这项具体idea，REA仍未确认。未访问客户消息、账号、设备、发送消息或独立复现。",
+    "sources": [{"label": "作者关于 Chrome LINE JS、TUI 与 API 的回复", "url": "https://x.com/i/status/2111366415639064608"}, {"label": "同作者的Android LINE终端模拟idea，2026-11-19 09:29:33北京时间", "url": "https://x.com/i/status/2123227142586863677"}],
+    "snapshot_date": "2026-11-19",
+    "metadata": ["客户端代码阅读的使用自述；无代码或投递验证，不证明服务端兼容性。", "2026-11-19候选封存3赞、109浏览、0转发、1回复；Android路线仅想法，不是已替代常驻手机。"],
     "en": {
-      "title": "Chrome LINE: AI reads JavaScript to build a TUI and messaging API",
-      "summary": "@cwh_tw says AI used Chrome LINE's JavaScript to make a terminal interface and API for analyzing and sending customer messages.",
-      "description": "At 15:59 Beijing time on October 17, 2026, @cwh_tw adds an actual attempt to a discussion of a lighter LINE client: they previously had AI refer to the Chrome version's JavaScript and make a TUI, a terminal text interface, plus an API. They say AI now helps analyze customer messages and send replies. The author calls this JS relatively easy to read and says deep reverse engineering was unnecessary; this is recorded as client-code reading and interface construction, not a LINE server compromise.\n\nThis Chrome-version practice differs from the existing LINE Desktop lightweight-client idea. No repository, tools/model, authentication handling, API coverage, execution logs or message-delivery checks are supplied. The author heard the Chrome version might close and plans more serious AI reverse engineering then; neither the closure date nor later research is established. REA use is unconfirmed. This collection accessed no customer messages, sent no messages and did not independently reproduce the work.",
-      "metadata": ["A usage account based on client-code reading; no code or delivery verification, not proof of server compatibility."],
-      "source_labels": ["Author's reply about Chrome LINE JS, a TUI and an API"]
+      "title": "LINE terminal interoperability: a Chrome-JS TUI/API report followed by an Android-client simulation idea",
+      "summary": "@cwh_tw previously reported AI reading Chrome LINE's JavaScript to make a TUI and messaging API. On November 19 they propose researching Android LINE for terminal simulation, avoiding a constantly available phone. The new route is only an idea.",
+      "description": "At 15:59 Beijing time on October 17, 2026, @cwh_tw adds an actual attempt to a discussion of a lighter LINE client: they previously had AI refer to the Chrome version's JavaScript and make a TUI, a terminal text interface, plus an API. They say AI now helps analyze customer messages and send replies. The author calls this JS relatively easy to read and says deep reverse engineering was unnecessary; this is recorded as client-code reading and interface construction, not a LINE server compromise.\n\nThis Chrome-version practice differs from the existing LINE Desktop lightweight-client idea. No repository, tools/model, authentication handling, API coverage, execution logs or message-delivery checks are supplied. The author heard the Chrome version might close and plans more serious AI reverse engineering then; neither the closure date nor later research is established.\n\nAt 09:29:33 Beijing time on November 19, 2026, the same author, 一定iPad溫開水 (@cwh_tw), replies to @g9164312 that keeping an Android phone available to check messages is inconvenient. They want to find time to see whether AI can reverse-engineer LINE so a terminal directly simulates the Android client. Original-post retrieval confirms attribution, wording and date. This adds a subsequent client route toward the same terminal-interoperability goal, not a completed Android prototype or evidence the Chrome route has stopped working. APK revision, protocol analysis, login, message-exchange and phone-replacement tests are absent. The October Chrome claims do not transfer to Android. The original ID and source are preserved while adding this concrete idea; REA use remains unconfirmed. No customer messages, accounts or devices were accessed, no messages were sent and no work was independently reproduced here.",
+      "metadata": ["A usage account based on client-code reading; no code or delivery verification, not proof of server compatibility.", "November 19, 2026 sealed candidate: 3 likes, 109 views, 0 reposts, 1 reply. The Android route is only an idea, not a replacement for an always-available phone."],
+      "source_labels": ["Author's reply about Chrome LINE JS, a TUI and an API", "Same author's Android LINE terminal-simulation idea, November 19, 2026 at 09:29:33 Beijing time"]
     }
   },
   {

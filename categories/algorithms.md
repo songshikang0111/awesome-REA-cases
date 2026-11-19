@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [轨道炮机器狗图片到3D运动系统：无岸转述Gemini与Three.js重建](../cases/railgun-robot-dog-gemini-threejs-reconstruction-report.md) — 无岸转述Gemini 4 Neon从机器狗参考图生成Three.js WebGPU模型、IK和步态系统，称有240Hz刚体模拟；动态是模型补全，不是恢复真实机械结构或原程序。 **[其他 AI 逆向 · 待验证]**
 - [Emily Trim图画解码：用AI寻找基因编号，仍需排除事后巧合](../cases/emily-trim-illustrations-ai-symbol-decoding-experiment.md) — 发帖者用前沿AI整理Emily Trim首400幅图，尝试从元素图中读出TUFT1与CTSG编号；尚无固定解码规则或盲测，不是药物逆向或治疗发现。 **[其他 AI 逆向 · 分析测试]**
 - [PineScript经济序列行为：SolaFolda报告价差／SMA探索与后续AI协助](../cases/solafolda-pinescript-economic-series-ai-behavior-investigation.md) — SolaFolda研究TradingView价差序列与SMA显示行为，称后来由AI扩展指标想法；秒级图表不证明宏观数据秒级更新，收益与策略有效率均未验证。 **[其他 AI 逆向 · 待验证]**
 - [Glaskin广告逐帧重建：Claude三轮对照，作者称配音时差在0.3秒内](../cases/glaskin-claude-tiktok-ad-timing-reconstruction.md) — cicerougc称为Glaskin拆竞品26.9秒TikTok，用ChatGPT图片、本地TTS与Claude／Python重建，三轮修正配音；传播测试尚未开展，未审输出与QA。 **[其他 AI 逆向 · 待验证]**

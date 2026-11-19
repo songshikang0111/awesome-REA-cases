@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Ansys轴向磁通电机开发：TANG称用IDA研究操作入口，再让Claude与脚本全天操作](../cases/tang-ansys-ida-claude-axial-flux-motor-automation.md) — TANG称2026年初开始用AI与Ansys开发轴向磁通电机，通过IDA反汇编和脚本找到软件操作入口，再用Claude与脚本自动操作；未有模型、日志或电机验证。 **[其他 AI 逆向 · 待验证]**
+- [Edge Rewards脚本迭代：程序员Kun称先整理开源接口，再让AI扩展签到与批量管理](../cases/kun-edge-rewards-ai-interface-script-iteration.md) — 程序员Kun报告Edge内Rewards签到脚本从零交模型效果差，先参考开源项目整理接口并做初版后，再让AI逐项升级到多账号管理；没有代码、领取结果或合规核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenSea与Magic Eden到Agent市场：8Bit的Solana／Base互通项目自述](../cases/8bit-opensea-magic-eden-agent-native-market-report.md) — 8Bit称研究OpenSea和Magic Eden后做了面向Solana与Base的agent-native版本；按AI Agent互通相关项目保留，未确认AI参与逆向、具体交易功能或部署。 **[未确认使用 REA · 相关项目]**
 - [把自己放进Brad Pitt电影预告：Alex用REA-video与Higgsfield CLI重做](../cases/alex-patrascu-rea-video-brad-pitt-trailer-remake.md) — Alex Patrascu称把最新Brad Pitt电影预告交给REA-video的Agent并接Higgsfield CLI，得到自己出镜的版本；未指明片名，未核验视频质量或完整会话。 **[REA · 待验证]**
 - [录屏到3D山体应用：Satty称一个Agent十分钟重建交互动作](../cases/screen-recording-mountain-3d-app-agent-reconstruction.md) — Satty报告一个Agent从单次录屏与游标动作重建3D山体应用，含相机控件、轨道追踪、大纲与时间线；十分钟和单提示均未有会话或代码核验。 **[其他 AI 逆向 · 待验证]**
@@ -1011,7 +1013,7 @@
 - [RetroScope：用本地 LLM 辅助查看 ROM 指令引用](../cases/retroscope-local-llm-rom-assist.md) — 作者正把断点寄存器、ROM 与指令交给 Python，找引用目标地址的其他指令；目前仅支持绝对地址。 **[其他 AI 逆向 · 进行中]**
 - [中国移动 App：AI 研究选号页与接口，准备本地筛选号码](../cases/china-mobile-number-selection-ai-protocol.md) — 作者称在 root 安卓上开启无线调试，让 AI 测试选号接口，20多分钟后识别页面与协议；未给模型或代码。 **[其他 AI 逆向 · 待验证]**
 - [Serein 九 Bot 工作流：REA 行为规格交给隔离 Builder](../cases/serein-grok-nine-bot-rea-workflow.md) — 转述 Grok 云电脑里九个专职 Bot 的产品流程，以 REA 提取行为、SPEC.md 和隔离构建衔接；没有独立验证。 **[REA · 待验证]**
-- [Chrome 版 LINE：AI 阅读 JS 后制作 TUI 与消息 API](../cases/line-chrome-js-ai-tui-api.md) — @cwh_tw 称让 AI 参考 Chrome 版 LINE 的 JavaScript，制作终端界面和 API，用于客户消息分析与发送。 **[其他 AI 逆向 · 待验证]**
+- [LINE终端互通：Chrome JS制作TUI／API后，再设想模拟Android客户端](../cases/line-chrome-js-ai-tui-api.md) — @cwh_tw此前称AI读Chrome版LINE的JS做TUI与消息API；11月19日又想研究Android版，在终端模拟客户端，避免一直放一台手机看消息。新路线仍为idea。 **[其他 AI 逆向 · 待验证]**
 - [Reverse Engineering Assistant：按文件生成离线分析报告的框架宣传](../cases/kornas-reverse-engineering-assistant-report.md) — Dan Kornas 介绍一个同缩写 REA 的框架，称支持文件检测与 Markdown／PDF／JSON 报告；仓库身份未核实。 **[未确认使用 REA · 相关项目]**
 - [Zenith 多人编辑：读者询问能否用 REA 研究的 idea](../cases/zenith-collaborative-ide-rea-idea.md) — 补读父帖将 this 识别为 Zenith 的多人编辑与 AI 项目上下文功能；目前只有 REA 适用性提问。 **[REA · 待验证]**
 - [Windows 内核：用 REA 研究免费操作系统的招募 idea](../cases/windows-kernel-rea-free-os-idea.md) — 发帖者招募合作者逆向 Windows 内核并制作免费系统；没有源码恢复或系统构建成果。 **[REA · 待验证]**
