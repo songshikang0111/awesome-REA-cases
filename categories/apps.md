@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [ArcMap到Mac应用：sailor-malagis称用REA重建GIS工作流](../cases/sailor-malagis-arcmap-rea-mac-rebuild-report.md) — 作者称REA与DeepSeek辅助做出Mac版ArcMap式应用，可开mxd、导入FileGDB并处理图层和导出，API约50元；无代码、文件样本或兼容测试。 **[REA · 待验证]**
+- [Darling运行Notes与iMessage：Gemini提示Catalyst后，进程启动但仍不可用](../cases/magherusan-darling-gemini-catalyst-macos-apps-linux.md) — Cristian称Gemini Argon指出Catalyst／UIKit依赖，再与Claude推进Darling适配；进程与SQLite库开始创建，仍需实现多项服务。 **[其他 AI 逆向 · 进行中]**
+- [Apple共享剪贴板到Omarchy：Gemini辅助加密协议研究的初步自述](../cases/magherusan-gemini-apple-clipboard-omarchy-protocol.md) — Cristian称用Gemini Argon研究macOS与iPhone共享剪贴板协议，凌晨传出部分数据到Linux MacBook；仍需打磨，无代码或互通测试。 **[其他 AI 逆向 · 进行中]**
+- [Claude Code研究自己的流式输出：Clarrycy的学习实验](../cases/clarrycy-claude-code-self-streaming-output-study.md) — Clarrycy称让Claude Code逆向自己，学习流式输出实现；未给分析记录、具体架构结论或可运行重建。 **[其他 AI 逆向 · 分析测试]**
+- [Typefully／Hypefury外部行为到四个原型：Ensō用Opus重做自用排程功能](../cases/enso-typefully-hypefury-opus-scheduler-prototypes.md) — Ensō报告约25分钟以公开页面与评价写规格，再让Opus做四种设计和12项浏览器测试；自动发布不在范围，持久草稿与免费发布尚待做。 **[其他 AI 逆向 · 进行中]**
+- [Mountain标签视频重做：lightcity列REA-video与ChatCut的尝试](../cases/lightcity-rea-video-chatcut-mountain-remake-report.md) — lightcity发布my video链接并列rea-video、ChatCut与Claude标签，提出从研究到重做；未辨原片、流程或输出保真度。 **[其他 AI 逆向 · 待验证]**
 - [公司零信任客户端到Linux：BinariCat称GPT协助研究Windows版并连通](../cases/binaricat-gpt-zero-trust-windows-linux-client-report.md) — BinariCat报告GPT-6-astra辅助研究公司Windows零信任软件、做Linux版并连接，换6.2后被拒；厂商、授权、实现与连接记录未公开。 **[其他 AI 逆向 · 待验证]**
 - [Claude Code统计移到顶部插件：澜知AI转述Antigravity包研究](../cases/antigravity-claude-code-topbar-token-port-secondary-report.md) — 澜知AI称社区作者让Antigravity研究Claude Code包，移植上下文与Token统计；原开发者、插件实现和统计准确性未核实，另一个FPS demo不是逆向验证。 **[其他 AI 逆向 · 待验证]**
 - [给Antigravity换Agent内核：Kxians建议研究Claude Code架构](../cases/kxians-claude-code-antigravity-agent-core-idea.md) — Kxians在比较模型与客户端体验时，建议Google工程师研究Claude Code并向Antigravity移植Agent内核；是具体架构idea，没有实施或兼容性证明。 **[未确认使用 REA · 待验证]**

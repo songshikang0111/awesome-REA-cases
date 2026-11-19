@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2488 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2500 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（487）
-- [硬件与设备互通](categories/hardware.md)（659）
-- [应用与客户端](categories/apps.md)（1038）
-- [算法与功能重建](categories/algorithms.md)（304）
+- [硬件与设备互通](categories/hardware.md)（664）
+- [应用与客户端](categories/apps.md)（1044）
+- [算法与功能重建](categories/algorithms.md)（305）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -516,6 +516,11 @@
 
 ### 硬件与设备互通
 
+- [AlphaSmart NEO：ioma8的AI辅助研究二手报告](cases/ioma8-alphasmart-neo-ai-research-report.md) — 布佳糖美式转述ioma8用DeepSeek、Ghidra与radare2研究AlphaSmart NEO；只称破解，没有功能、源码或验证记录。 **[其他 AI 逆向 · 待验证]**
+- [Sony A7 III无线摄像头：ioma8的AI协议研究转述](cases/ioma8-sony-a7iii-ai-wireless-webcam-report.md) — 候选转述ioma8用AI摸清Sony A7III通信协议并改作无线摄像头，另帖强调单假设测试；没有协议文档、客户端或延迟测量。 **[其他 AI 逆向 · 待验证]**
+- [MiniFreak固件：ioma8的AI辅助合成器研究转述](cases/ioma8-minifreak-ai-firmware-secondary-report.md) — MiniFreak被列为ioma8借AI制作固件的目标，介绍给出笔记与单假设测试流程，但未公开固件功能、代码或刷写结果。 **[其他 AI 逆向 · 待验证]**
+- [OP-Z固件：ioma8的AI辅助研究二手线索](cases/ioma8-op-z-ai-firmware-secondary-report.md) — 布佳糖美式将OP-Z列入ioma8的AI固件项目，没有具体功能或实机记录；厂商背景仅用于解释便携合成器与音序器。 **[其他 AI 逆向 · 待验证]**
+- [AULA F75的ABNT2固件：Cabureta让Claude尝试修复](cases/cabureta-aula-f75-claude-abnt2-firmware-repair.md) — Cabureta抱怨自己的AULA F75巴西ABNT2布局固件质量，让Claude修；没有故障细节、固件产物或成功结果。 **[其他 AI 逆向 · 进行中]**
 - [AirPlay通宵研究：Armin称Agent半夜放大音量作麦克风验证](cases/ronacher-airplay-agent-acoustic-verification-report.md) — Armin Ronacher称Agent研究AirPlay时用笔记本麦克风听客厅播放，凌晨3点调大音量；新回复质疑是否复用已有项目，既无协议原创性也无完整兼容验证。 **[其他 AI 逆向 · 待验证]**
 - [系统更新后键盘拒绝输入：铁线莲称AI协助一两小时修好](cases/clematis-ai-keyboard-input-system-update-repair-report.md) — 铁线莲称自用电脑配套键盘在系统更新后不能输入，AI协助一两小时恢复；固件不规范是作者解释，没有型号、修复补丁或根因验证。 **[其他 AI 逆向 · 待验证]**
 - [5G路由器接入homelab：John Ruiz举例让Claude找隐藏API并写重启脚本](cases/john-ruiz-5g-router-claude-homelab-restart-idea.md) — John Ruiz在版权讨论中用5G路由器举例：Claude研究隐藏API，生成PowerShell自动重启与Docker Compose以接入家庭实验室；这是假设场景，不是已完成报告。 **[其他 AI 逆向 · 待验证]**
@@ -1178,6 +1183,12 @@
 
 ### 应用与客户端
 
+- [ArcMap到Mac应用：sailor-malagis称用REA重建GIS工作流](cases/sailor-malagis-arcmap-rea-mac-rebuild-report.md) — 作者称REA与DeepSeek辅助做出Mac版ArcMap式应用，可开mxd、导入FileGDB并处理图层和导出，API约50元；无代码、文件样本或兼容测试。 **[REA · 待验证]**
+- [Darling运行Notes与iMessage：Gemini提示Catalyst后，进程启动但仍不可用](cases/magherusan-darling-gemini-catalyst-macos-apps-linux.md) — Cristian称Gemini Argon指出Catalyst／UIKit依赖，再与Claude推进Darling适配；进程与SQLite库开始创建，仍需实现多项服务。 **[其他 AI 逆向 · 进行中]**
+- [Apple共享剪贴板到Omarchy：Gemini辅助加密协议研究的初步自述](cases/magherusan-gemini-apple-clipboard-omarchy-protocol.md) — Cristian称用Gemini Argon研究macOS与iPhone共享剪贴板协议，凌晨传出部分数据到Linux MacBook；仍需打磨，无代码或互通测试。 **[其他 AI 逆向 · 进行中]**
+- [Claude Code研究自己的流式输出：Clarrycy的学习实验](cases/clarrycy-claude-code-self-streaming-output-study.md) — Clarrycy称让Claude Code逆向自己，学习流式输出实现；未给分析记录、具体架构结论或可运行重建。 **[其他 AI 逆向 · 分析测试]**
+- [Typefully／Hypefury外部行为到四个原型：Ensō用Opus重做自用排程功能](cases/enso-typefully-hypefury-opus-scheduler-prototypes.md) — Ensō报告约25分钟以公开页面与评价写规格，再让Opus做四种设计和12项浏览器测试；自动发布不在范围，持久草稿与免费发布尚待做。 **[其他 AI 逆向 · 进行中]**
+- [Mountain标签视频重做：lightcity列REA-video与ChatCut的尝试](cases/lightcity-rea-video-chatcut-mountain-remake-report.md) — lightcity发布my video链接并列rea-video、ChatCut与Claude标签，提出从研究到重做；未辨原片、流程或输出保真度。 **[其他 AI 逆向 · 待验证]**
 - [公司零信任客户端到Linux：BinariCat称GPT协助研究Windows版并连通](cases/binaricat-gpt-zero-trust-windows-linux-client-report.md) — BinariCat报告GPT-6-astra辅助研究公司Windows零信任软件、做Linux版并连接，换6.2后被拒；厂商、授权、实现与连接记录未公开。 **[其他 AI 逆向 · 待验证]**
 - [Claude Code统计移到顶部插件：澜知AI转述Antigravity包研究](cases/antigravity-claude-code-topbar-token-port-secondary-report.md) — 澜知AI称社区作者让Antigravity研究Claude Code包，移植上下文与Token统计；原开发者、插件实现和统计准确性未核实，另一个FPS demo不是逆向验证。 **[其他 AI 逆向 · 待验证]**
 - [给Antigravity换Agent内核：Kxians建议研究Claude Code架构](cases/kxians-claude-code-antigravity-agent-core-idea.md) — Kxians在比较模型与客户端体验时，建议Google工程师研究Claude Code并向Antigravity移植Agent内核；是具体架构idea，没有实施或兼容性证明。 **[未确认使用 REA · 待验证]**
@@ -2219,6 +2230,7 @@
 
 ### 算法与功能重建
 
+- [机械章鱼图到Three.js装配体：Nathan转述Claude Skill的视觉重建](cases/nathan-claude-mechanical-octopus-image-threejs-reconstruction.md) — Nathan AI Lab介绍单张ChatGPT章鱼图与octopus提示生成Three.js机械装配与定时拆解；10片光圈、48齿等是生成宣称，不是真实结构恢复。 **[其他 AI 逆向 · 待验证]**
 - [RYFTCORP动画系统：研究既有模型训练、以NVIDIA为标杆的设想](cases/ryftcorp-ai-animation-training-reconstruction-ambition.md) — 候选转述RYFTCORP想研究最佳动画模型如何训练并自建AI动画系统，目标优于NVIDIA某动画系统；没有具名基准、训练细节或结果。 **[未确认使用 REA · 待验证]**
 - [DecBench：用结构、类型与重编译相似度分别评估LLM反编译](cases/decbench-llm-decompiler-exactness-benchmark.md) — yibie介绍DecBench；固定README确认比较传统反编译器与LLM，Union只要求三指标之一完美，重编译指标含fixup与归一化，不能等同原始源码完全恢复。 **[其他 AI 逆向 · 分析测试]**
 - [八种电影运镜到AI提示：Wujie AI的镜头轨迹重建串](cases/wujie-ai-eight-cinematic-camera-moves-prompt-reconstruction.md) — Wujie AI发布八种电影运镜的时序、镜位与物理约束提示，并建议上传参考片分析轨迹；读到完整串文，但未观看演示或验证还原效果。 **[其他 AI 逆向 · 待验证]**

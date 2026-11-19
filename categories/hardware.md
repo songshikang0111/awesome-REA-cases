@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [AlphaSmart NEO：ioma8的AI辅助研究二手报告](../cases/ioma8-alphasmart-neo-ai-research-report.md) — 布佳糖美式转述ioma8用DeepSeek、Ghidra与radare2研究AlphaSmart NEO；只称破解，没有功能、源码或验证记录。 **[其他 AI 逆向 · 待验证]**
+- [Sony A7 III无线摄像头：ioma8的AI协议研究转述](../cases/ioma8-sony-a7iii-ai-wireless-webcam-report.md) — 候选转述ioma8用AI摸清Sony A7III通信协议并改作无线摄像头，另帖强调单假设测试；没有协议文档、客户端或延迟测量。 **[其他 AI 逆向 · 待验证]**
+- [MiniFreak固件：ioma8的AI辅助合成器研究转述](../cases/ioma8-minifreak-ai-firmware-secondary-report.md) — MiniFreak被列为ioma8借AI制作固件的目标，介绍给出笔记与单假设测试流程，但未公开固件功能、代码或刷写结果。 **[其他 AI 逆向 · 待验证]**
+- [OP-Z固件：ioma8的AI辅助研究二手线索](../cases/ioma8-op-z-ai-firmware-secondary-report.md) — 布佳糖美式将OP-Z列入ioma8的AI固件项目，没有具体功能或实机记录；厂商背景仅用于解释便携合成器与音序器。 **[其他 AI 逆向 · 待验证]**
+- [AULA F75的ABNT2固件：Cabureta让Claude尝试修复](../cases/cabureta-aula-f75-claude-abnt2-firmware-repair.md) — Cabureta抱怨自己的AULA F75巴西ABNT2布局固件质量，让Claude修；没有故障细节、固件产物或成功结果。 **[其他 AI 逆向 · 进行中]**
 - [AirPlay通宵研究：Armin称Agent半夜放大音量作麦克风验证](../cases/ronacher-airplay-agent-acoustic-verification-report.md) — Armin Ronacher称Agent研究AirPlay时用笔记本麦克风听客厅播放，凌晨3点调大音量；新回复质疑是否复用已有项目，既无协议原创性也无完整兼容验证。 **[其他 AI 逆向 · 待验证]**
 - [系统更新后键盘拒绝输入：铁线莲称AI协助一两小时修好](../cases/clematis-ai-keyboard-input-system-update-repair-report.md) — 铁线莲称自用电脑配套键盘在系统更新后不能输入，AI协助一两小时恢复；固件不规范是作者解释，没有型号、修复补丁或根因验证。 **[其他 AI 逆向 · 待验证]**
 - [5G路由器接入homelab：John Ruiz举例让Claude找隐藏API并写重启脚本](../cases/john-ruiz-5g-router-claude-homelab-restart-idea.md) — John Ruiz在版权讨论中用5G路由器举例：Claude研究隐藏API，生成PowerShell自动重启与Docker Compose以接入家庭实验室；这是假设场景，不是已完成报告。 **[其他 AI 逆向 · 待验证]**

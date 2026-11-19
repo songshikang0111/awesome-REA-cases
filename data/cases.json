@@ -1,5 +1,187 @@
 [
   {
+    "id": "sailor-malagis-arcmap-rea-mac-rebuild-report",
+    "title": "ArcMap到Mac应用：sailor-malagis称用REA重建GIS工作流",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "作者称REA与DeepSeek辅助做出Mac版ArcMap式应用，可开mxd、导入FileGDB并处理图层和导出，API约50元；无代码、文件样本或兼容测试。",
+    "description": "2026年11月19日23:19:22（北京时间），sailor-malagis（@sailor_malagis）报告用REA研究ArcMap并重做成Mac应用。ArcMap是桌面GIS工具；帖子指向的用途是让Mac处理既有地图文档与地理数据，而不是证明Esri原始代码或完整产品被移植。\n\n作者列出的功能是打开.mxd、切换与编辑图层、导入FileGDB、处理符号／标签／布局，以及导出PDF、PNG、SVG。他称DeepSeek API耗费约50元人民币。没有说明模型版本、研究步骤、ArcMap版本、测试文件、编辑与导出的细项覆盖，也没有账单；约50元仅为API支出自述，不是完整开发成本或耗时。\n\n补取原帖确认署名与全文，但未获得源码、Mac应用包、合法样本文件、对照截图或测试日志。不能把列出的功能写成任意mxd无损兼容、完整FileGDB支持或Esri授权。未下载或运行目标，不访问凭据；保持unverified。",
+    "sources": [{"label":"sailor-malagis的REA／ArcMap Mac重建自述，2026-11-19 23:19:22北京时间","url":"https://x.com/i/status/2123435975749870025"}],
+    "snapshot_date": "2026-11-19", "metadata": ["2026-11-19候选封存0赞、20浏览、0转发、1回复；约50元为作者报告的DeepSeek API费用，未核账单。"],
+    "en": {
+      "title": "ArcMap workflows on Mac: sailor-malagis reports a REA-assisted GIS rebuild",
+      "summary": "The author says REA and DeepSeek helped build a Mac ArcMap-style app with mxd opening, FileGDB import, layers and export for about RMB 50 in API charges. Code, sample files and compatibility tests are absent.",
+      "description": "At 23:19:22 Beijing time on November 19, 2026, sailor-malagis (@sailor_malagis) reports using REA to investigate ArcMap and rebuild it as a Mac app. ArcMap is a desktop GIS tool. The stated purpose is handling existing map documents and geographic data on Mac, not proof that Esri's original source or complete product was ported.\n\nClaimed features are opening .mxd files, toggling/editing layers, importing FileGDB, handling symbols, labels and layouts, and exporting PDF, PNG and SVG. The author reports about RMB 50 spent on the DeepSeek API. Model revision, research steps, ArcMap revision, test files, detailed editing/export coverage and bills are absent. RMB 50 is only an API-expense claim, not total development cost or duration.\n\nOriginal-post retrieval confirms attribution and full wording, but source, a Mac application package, legally obtained sample files, comparison screenshots and test logs were not obtained. Listed features do not establish lossless compatibility with arbitrary mxd files, complete FileGDB support or Esri authorization. No target was downloaded or run, and no credentials were accessed. Status remains unverified.",
+      "metadata": ["November 19, 2026 sealed candidate: 0 likes, 20 views, 0 reposts, 1 reply. About RMB 50 is the author's DeepSeek API expense claim; no bill was checked."],
+      "source_labels": ["sailor-malagis's REA/ArcMap Mac-rebuild account, November 19, 2026 at 23:19:22 Beijing time"]
+    }
+  },
+  {
+    "id": "ioma8-alphasmart-neo-ai-research-report",
+    "title": "AlphaSmart NEO：ioma8的AI辅助研究二手报告",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "布佳糖美式转述ioma8用DeepSeek、Ghidra与radare2研究AlphaSmart NEO；只称破解，没有功能、源码或验证记录。",
+    "description": "2026年11月19日20:30:17（北京时间），布佳糖美式（@BujiasAmericano）转述ioma8的AI逆向经历，列出AlphaSmart NEO为半年内研究的目标之一。NEO属于便携文字输入设备；补读AlphaSmart背景页只用于解释设备类别，不作为本次研究成果的证据。\n\n转述称其把DeepSeek v4.1 Flash接到Ghidra、MCP桥与radare2，每条线索写入MD，一次只验证一个假设，将结果记入CSV。NEO部分仅用“破解”概括，没有说明修改了哪些功能、固件版本、输出代码或测试。不能补写中文输入、USB改造或完整固件重建。二十年经验、半年和每项原需数年均为转述中的作者估量，不是可比较的工时测量。\n\n补查原帖确认介绍者署名；未找到ioma8的直接技术记录，未下载设备固件或运行目标代码。按未独立核验的二手报告保留；未提REA。背景页于11月20日维护时补读，页面原始发布日期未确定，与11月19日窗口候选分开。",
+    "sources": [{"label":"布佳糖美式转述ioma8多设备AI研究，2026-11-19 20:30:17北京时间","url":"https://x.com/i/status/2123393425173000391"},{"label":"补充设备背景：AlphaSmart条目，2026-11-20阅读，原始发布日期未确定","url":"https://en.wikipedia.org/wiki/AlphaSmart"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "AlphaSmart NEO: a secondary account of ioma8's AI-assisted research",
+      "summary": "BujiasAmericano relays ioma8 using DeepSeek, Ghidra and radare2 to investigate AlphaSmart NEO. The account only says it was cracked, without features, source or verification records.",
+      "description": "At 20:30:17 Beijing time on November 19, 2026, BujiasAmericano (@BujiasAmericano) relays ioma8's AI reversing work, listing AlphaSmart NEO among targets investigated over six months. NEO is a portable writing device. A supplementary AlphaSmart background page only explains the device category; it is not evidence for this research outcome.\n\nThe account says DeepSeek v4.1 Flash was connected to Ghidra, an MCP bridge and radare2. Each lead was recorded in Markdown, one hypothesis was tested at a time, and results were logged in CSV. For NEO it only says cracked, without specifying changed features, firmware revision, output code or tests. Chinese input, USB modifications and complete firmware reconstruction must not be inferred. Twenty years of experience, six months and years per project without AI are the author's estimates as relayed, not comparable measured work times.\n\nOriginal-post retrieval confirms the introducer's attribution. No direct technical records from ioma8 were located; no firmware was downloaded or target code run. Retained as an unverified secondary report; REA is unmentioned. The background page was read during November 20 maintenance, with its original publication date undetermined, separately from the November 19 window candidate.",
+      "metadata": [], "source_labels": ["BujiasAmericano relays ioma8's multi-device AI research, November 19, 2026 at 20:30:17 Beijing time","Supplementary device background: AlphaSmart entry, read November 20, 2026; original publication date undetermined"]
+    }
+  },
+  {
+    "id": "ioma8-sony-a7iii-ai-wireless-webcam-report",
+    "title": "Sony A7 III无线摄像头：ioma8的AI协议研究转述",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "候选转述ioma8用AI摸清Sony A7III通信协议并改作无线摄像头，另帖强调单假设测试；没有协议文档、客户端或延迟测量。",
+    "description": "2026年11月19日20:30:17（北京时间），布佳糖美式（@BujiasAmericano）转述ioma8研究Sony A7III相机通信协议、将其变为无线摄像头。该目标是相机与电脑的视频互通，不等同于已有A7C II图像配置解锁案例。\n\n介绍者称共用流程为DeepSeek v4.1 Flash接Ghidra、MCP桥和radare2，每条发现写入MD、一次测试一个假设、结果登记CSV。没有将某个工具明确对应到相机的具体操作，不能推断用到全部工具或获得原厂源码。22:39:31另一候选再次转述Sony A7 III无线摄像头，并主张借用单假设调试；它不是第二台设备的复现。\n\n尚无ioma8直接文章、协议规格、连接方式、固件版本、客户端、分辨率或延迟结果。半年做多项目与以前每项数年是二手估量，不能算作量化提效。本合集只补查介绍帖署名，未连接相机、下载固件或运行实现；结果保持unverified，未提REA。",
+    "sources": [{"label":"布佳糖美式转述Sony A7III无线摄像头，2026-11-19 20:30:17北京时间","url":"https://x.com/i/status/2123393425173000391"},{"label":"再次转述Sony A7 III与单假设测试，2026-11-19 22:39:31北京时间","url":"https://x.com/i/status/2123425944144929109"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "Sony A7 III as a wireless webcam: a retelling of ioma8's AI protocol research",
+      "summary": "Candidates relay ioma8 investigating Sony A7III communications with AI and turning it into a wireless webcam; a later post highlights single-hypothesis tests. No protocol, client or latency measurements are supplied.",
+      "description": "At 20:30:17 Beijing time on November 19, 2026, BujiasAmericano (@BujiasAmericano) relays ioma8 investigating the Sony A7III camera's communication protocol and turning it into a wireless webcam. This concerns camera-to-computer video interoperability, not the existing A7C II image-profile unlocking cases.\n\nThe reported shared workflow connects DeepSeek v4.1 Flash to Ghidra, an MCP bridge and radare2, records findings in Markdown, tests one hypothesis at a time and logs results in CSV. Individual tools are not mapped to camera-specific operations, so use of every tool or acquisition of original source cannot be inferred. Another candidate at 22:39:31 again relays the Sony A7 III wireless-webcam claim and recommends single-hypothesis debugging. It is not reproduction on a second device.\n\nNo direct ioma8 article, protocol specification, connection method, firmware revision, client, resolution or latency results are available. Six months across multiple projects and previously years for each are secondary estimates, not measured efficiency gains. Only the introducer's attribution was retrieved here; no camera was connected, firmware downloaded or implementation run. Status remains unverified; REA is unmentioned.",
+      "metadata": [], "source_labels": ["BujiasAmericano relays the Sony A7III wireless-webcam work, November 19, 2026 at 20:30:17 Beijing time","Another retelling of Sony A7 III and single-hypothesis tests, November 19 at 22:39:31 Beijing time"]
+    }
+  },
+  {
+    "id": "ioma8-minifreak-ai-firmware-secondary-report",
+    "title": "MiniFreak固件：ioma8的AI辅助合成器研究转述",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "MiniFreak被列为ioma8借AI制作固件的目标，介绍给出笔记与单假设测试流程，但未公开固件功能、代码或刷写结果。",
+    "description": "2026年11月19日20:30:17（北京时间），布佳糖美式（@BujiasAmericano）转述ioma8借AI为MiniFreak等合成器制作固件。MiniFreak是Arturia的复音混合键盘合成器；维护时补读厂商产品页只确认设备背景，不证明第三方固件可用。\n\n介绍称DeepSeek v4.1 Flash接Ghidra、MCP桥、radare2，MD保存发现、CSV保存一次一个假设的测试结果。它没有给MiniFreak专属分析步骤、改动功能、硬件批次、固件版本、源码或音频与刷写测试，故不写成已获稳定定制固件，也不把型号与其他廉价合成器故事合并。\n\n半年多项目、每项原需数年是转述估量，不是逐项目的测量。原帖署名已核，ioma8原始技术记录未获；未下载或刷写固件。保持二手unverified，REA未提。厂商背景页于11月20日补读，原始发布日期未确定，不是本轮新候选或AI成果来源。",
+    "sources": [{"label":"布佳糖美式转述MiniFreak固件研究，2026-11-19 20:30:17北京时间","url":"https://x.com/i/status/2123393425173000391"},{"label":"补充背景：Arturia MiniFreak产品页，2026-11-20阅读，原始发布日期未确定","url":"https://www.arturia.com/products/hardware-synths/minifreak/overview"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "MiniFreak firmware: a secondary account of ioma8's AI-assisted synth research",
+      "summary": "MiniFreak is listed among ioma8's AI-assisted firmware targets. The account describes notes and single-hypothesis tests, but no firmware features, source or flashing results.",
+      "description": "At 20:30:17 Beijing time on November 19, 2026, BujiasAmericano (@BujiasAmericano) relays ioma8 making firmware for MiniFreak and other synthesizers with AI. MiniFreak is Arturia's polyphonic hybrid keyboard synthesizer. Its manufacturer page was read only for device background, not as validation of third-party firmware.\n\nThe account connects DeepSeek v4.1 Flash to Ghidra, an MCP bridge and radare2, storing findings in Markdown and one-hypothesis-at-a-time test results in CSV. It supplies no MiniFreak-specific analysis steps, changed features, hardware batch, firmware revision, source, audio tests or flashing tests. This does not establish stable custom firmware, and the named device is not merged with other cheap-synth stories.\n\nSix months across multiple projects and years per project previously are relayed estimates, not per-project measurements. Original-post attribution was checked, not ioma8's underlying technical records. No firmware was downloaded or flashed. Status remains an unverified secondary report; REA is unmentioned. The manufacturer background page was read on November 20, with its original publication date undetermined; it is neither a new window candidate nor an AI-outcome source.",
+      "metadata": [], "source_labels": ["BujiasAmericano relays MiniFreak firmware research, November 19, 2026 at 20:30:17 Beijing time","Supplementary background: Arturia MiniFreak product page, read November 20, 2026; original publication date undetermined"]
+    }
+  },
+  {
+    "id": "ioma8-op-z-ai-firmware-secondary-report",
+    "title": "OP-Z固件：ioma8的AI辅助研究二手线索",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "布佳糖美式将OP-Z列入ioma8的AI固件项目，没有具体功能或实机记录；厂商背景仅用于解释便携合成器与音序器。",
+    "description": "2026年11月19日20:30:17（北京时间），布佳糖美式（@BujiasAmericano）转述ioma8让AI辅助软硬件逆向，将OP-Z列为做过固件的合成器。OP-Z是teenage engineering的便携合成器与16轨音序器，背景来自维护时补读的厂商产品页，不是厂商确认本次项目。\n\n共同方法据称为DeepSeek v4.1 Flash、Ghidra、MCP桥与radare2配合，MD记线索、一次验证一个假设、CSV登记结果。OP-Z只被点名，没有专属功能、固件版本、源码、刷写日志或声音测试。按独立设备目标保留二手线索，不声称恢复原始源码、解锁某功能或适用所有OP-Z。\n\n二十年经验、半年多项目、纯手工每项数年的估量不能证明因果提效。介绍帖署名已补查，ioma8直接技术材料未获；未运行目标或刷写设备，REA未提。产品页于11月20日补读，原始发布日期未确定，只作背景，不计本轮候选。",
+    "sources": [{"label":"布佳糖美式转述OP-Z的AI固件研究，2026-11-19 20:30:17北京时间","url":"https://x.com/i/status/2123393425173000391"},{"label":"补充背景：OP-Z厂商产品页，2026-11-20阅读，原始发布日期未确定","url":"https://teenage.engineering/products/op-z"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "OP-Z firmware: a secondary lead on ioma8's AI-assisted research",
+      "summary": "BujiasAmericano lists OP-Z among ioma8's AI firmware projects, without features or hardware records. Manufacturer background only explains the portable synthesizer/sequencer.",
+      "description": "At 20:30:17 Beijing time on November 19, 2026, BujiasAmericano (@BujiasAmericano) relays ioma8's AI-assisted hardware/software reversing, listing OP-Z among synthesizers for which firmware was made. OP-Z is teenage engineering's portable synthesizer and sixteen-track sequencer. This background comes from a manufacturer page read during maintenance, not manufacturer confirmation of this project.\n\nThe shared method reportedly combines DeepSeek v4.1 Flash, Ghidra, an MCP bridge and radare2, records leads in Markdown, tests one hypothesis at a time and logs results in CSV. OP-Z is only named: no specific features, firmware revision, source, flashing logs or audio tests are supplied. Retained as a separate device-target lead, not a claim of recovered original source, a particular unlocked feature or compatibility with every OP-Z.\n\nTwenty years of experience, six months across projects and years per project manually are estimates, not proof of causal speedup. Attribution of the introducing post was retrieved, but direct ioma8 technical material was not obtained. No target was run or device flashed; REA is unmentioned. The product page was read on November 20, with original publication date undetermined, for background only and is not another window candidate.",
+      "metadata": [], "source_labels": ["BujiasAmericano relays OP-Z AI firmware research, November 19, 2026 at 20:30:17 Beijing time","Supplementary background: OP-Z manufacturer page, read November 20, 2026; original publication date undetermined"]
+    }
+  },
+  {
+    "id": "magherusan-darling-gemini-catalyst-macos-apps-linux",
+    "title": "Darling运行Notes与iMessage：Gemini提示Catalyst后，进程启动但仍不可用",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "Cristian称Gemini Argon指出Catalyst／UIKit依赖，再与Claude推进Darling适配；进程与SQLite库开始创建，仍需实现多项服务。",
+    "description": "2026年11月19日21:30:42（北京时间），Cristian Măgherușan-Stanciu（@magheru_san）报告在Linux用Darling运行macOS原装应用（Notes、iMessage等）的进展。Darling是macOS应用的Linux运行兼容环境，不是把整个macOS虚拟化。补读项目README确认这层背景；README未用于验证作者的具体应用实验。\n\n作者说Claude额度耗尽后改用其称为Gemini Argon的模型，模型指出这些应用的Catalyst／UIKit依赖，而不是他和Claude原先着眼的AppKit／Cocoa。把线索告诉Claude Opus后，已推进到应用进程启动、创建SQLite数据库，但要变得可用还缺多项服务，需在Darling中实现。框架判断为作者对所测应用的说法，不扩展到所有macOS应用。\n\n没有应用与系统版本、补丁、启动日志、数据库记录或功能测试，不能写成Notes或iMessage已可用。模型名称保持作者原话，未独立认证。原帖署名已读，未构建Darling或运行Apple程序；REA未提。同帖的共享剪贴板为另一目标，另立记录。Darling未固定版本README于11月20日补读，原始发布日期未确定，只作补充背景，与窗口候选分开。",
+    "sources": [{"label":"Cristian的Darling／Catalyst与AI研究自述，2026-11-19 21:30:42北京时间","url":"https://x.com/i/status/2123408626203111602"},{"label":"补充背景：Darling README，2026-11-20阅读，未固定版本、原始发布日期未确定","url":"https://github.com/darlinghq/darling/blob/master/README.md"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "Notes and iMessage through Darling: Gemini's Catalyst lead reaches processes, not usable apps",
+      "summary": "Cristian says Gemini Argon identified Catalyst/UIKit dependencies, helping Claude advance Darling compatibility. Processes and SQLite databases reportedly start, but several services still need implementation.",
+      "description": "At 21:30:42 Beijing time on November 19, 2026, Cristian Măgherușan-Stanciu (@magheru_san) reports progress running stock macOS applications, including Notes and iMessage, on Linux through Darling. Darling is a Linux compatibility runtime for macOS apps, not virtualization of all macOS. Its README was read for that background, not as verification of the author's specific app experiment.\n\nAfter running out of Claude quota, the author says a model they call Gemini Argon identified these apps' Catalyst/UIKit dependencies rather than the AppKit/Cocoa direction considered by them and Claude. After telling Claude Opus, they reportedly reached running application processes and SQLite database creation. Several services still need implementation in Darling before the apps can become usable. The framework identification is the author's statement about their tested apps, not all macOS applications.\n\nApp/system revisions, patches, startup logs, database records and functional tests are absent; Notes and iMessage are not described as usable. Model names preserve the author's wording without independent authentication. Original attribution was read, but Darling was not built and Apple programs were not run here. REA is unmentioned. Clipboard sharing in the same post is a separate target and record. Darling's unpinned README was read on November 20, with original publication date undetermined, for supplementary background separately from the window candidate.",
+      "metadata": [], "source_labels": ["Cristian's Darling/Catalyst and AI research account, November 19, 2026 at 21:30:42 Beijing time","Supplementary background: unpinned Darling README, read November 20, 2026; original publication date undetermined"]
+    }
+  },
+  {
+    "id": "magherusan-gemini-apple-clipboard-omarchy-protocol",
+    "title": "Apple共享剪贴板到Omarchy：Gemini辅助加密协议研究的初步自述",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "Cristian称用Gemini Argon研究macOS与iPhone共享剪贴板协议，凌晨传出部分数据到Linux MacBook；仍需打磨，无代码或互通测试。",
+    "description": "2026年11月19日21:30:42（北京时间），Cristian Măgherușan-Stanciu（@magheru_san）在Darling进展回复中另报告研究Apple的macOS／iPhone共享剪贴板协议，目标让装Omarchy Linux的MacBook参与互通。它不是自行设计一个跨平台剪贴板替代品，因而不合并已有ClipShare记录。\n\n作者称前一天让Gemini Argon深入底层加密，到其所说的昨夜凌晨2点已把部分剪贴板数据传到自己的Linux MacBook，准备Claude额度重置后继续打磨。凌晨2点为作者相对时间陈述，未提供时区、会话或日志，不强行换算成精确实验日期。\n\n没有协议格式、密钥协商说明、源码、系统版本、配对条件、双向文字／图片测试或稳定性数据。部分数据传输不等于完整Universal Clipboard兼容或无认证需求。模型名按原话保留；只补取原帖确认归因，未接触账号、凭据或设备，未复现。REA未提，保持进行中；与同帖Darling应用兼容实验分开。",
+    "sources": [{"label":"Cristian的Apple共享剪贴板加密研究与部分传输自述，2026-11-19 21:30:42北京时间","url":"https://x.com/i/status/2123408626203111602"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "Apple clipboard sharing on Omarchy: an initial Gemini-assisted encrypted-protocol account",
+      "summary": "Cristian says Gemini Argon investigated macOS/iPhone clipboard sharing and passed some data to a Linux MacBook by 2 a.m. Further polishing remains; code and interoperability tests are absent.",
+      "description": "At 21:30:42 Beijing time on November 19, 2026, Cristian Măgherușan-Stanciu (@magheru_san) separately reports investigating Apple's macOS/iPhone clipboard-sharing protocol in a reply about Darling. The goal is interoperability with a MacBook running Omarchy Linux, not a newly designed cross-platform clipboard replacement, so it is not merged with the existing ClipShare record.\n\nThe author says they used Gemini Argon the previous day to investigate the underlying encryption, passing some clipboard data to their Linux MacBook by what they call 2 a.m. last night. They plan to polish it after Claude quota resets. The 2 a.m. statement is relative, without a timezone, session or logs, and is not forced into an exact experiment date.\n\nProtocol formats, key-exchange details, source, system revisions, pairing conditions, bidirectional text/image tests and stability results are absent. Passing some data is not complete Universal Clipboard compatibility or evidence that authentication is unnecessary. Model naming preserves the author's wording. Original-post retrieval confirms attribution, not reproduction; no accounts, credentials or devices were accessed. REA is unmentioned. Retained as in progress, separately from the same post's Darling app-compatibility experiment.",
+      "metadata": [], "source_labels": ["Cristian's Apple clipboard-encryption research and partial-transfer account, November 19, 2026 at 21:30:42 Beijing time"]
+    }
+  },
+  {
+    "id": "cabureta-aula-f75-claude-abnt2-firmware-repair",
+    "title": "AULA F75的ABNT2固件：Cabureta让Claude尝试修复",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Cabureta抱怨自己的AULA F75巴西ABNT2布局固件质量，让Claude修；没有故障细节、固件产物或成功结果。",
+    "description": "2026年11月19日22:04:32（北京时间），Cabureta（@cabureta）用葡语表示自己AULA F75键盘的ABNT2固件做得很差，正让Claude修复。ABNT2是巴西葡语键盘布局；具体目标是已有键盘固件的修复，而非从零设计键盘。\n\n作者没有说明按键错误、固件版本、分析输入、使用的调试工具、改动代码或实机刷写与回归结果。原帖包含图片链接，但本合集未审图、未读固件，也不能从“正在让它修”写成已修好或恢复源码。按宽松的AI辅助既有设备改造尝试保留in-progress；是否实际反编译或使用REA未知。补取原帖只核实署名和文字，未运行目标或安装依赖。",
+    "sources": [{"label":"Cabureta的AULA F75 ABNT2固件修复尝试，2026-11-19 22:04:32北京时间","url":"https://x.com/i/status/2123417141483651270"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "AULA F75 ABNT2 firmware: Cabureta asks Claude to attempt a repair",
+      "summary": "Cabureta complains about the firmware for their AULA F75's Brazilian ABNT2 layout and is letting Claude fix it. Fault details, firmware artifacts and successful results are absent.",
+      "description": "At 22:04:32 Beijing time on November 19, 2026, Cabureta (@cabureta) says in Portuguese that the ABNT2 firmware for their AULA F75 keyboard is poorly made and that they are letting Claude repair it. ABNT2 is a Brazilian Portuguese keyboard layout. The target is repairing existing keyboard firmware, not designing a keyboard from scratch.\n\nThe author does not specify wrong keys, firmware revision, analysis inputs, debugging tools, changed code, hardware flashing or regression results. The post includes an image link, but the image and firmware were not examined here. Letting Claude try does not establish a completed repair or recovered source. Broadly retained as an in-progress AI-assisted modification attempt on an existing device. Actual decompilation and REA use are unknown. Retrieval only confirms attribution and wording; no target was run or dependencies installed.",
+      "metadata": [], "source_labels": ["Cabureta's AULA F75 ABNT2 firmware-repair attempt, November 19, 2026 at 22:04:32 Beijing time"]
+    }
+  },
+  {
+    "id": "clarrycy-claude-code-self-streaming-output-study",
+    "title": "Claude Code研究自己的流式输出：Clarrycy的学习实验",
+    "category": "apps", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Clarrycy称让Claude Code逆向自己，学习流式输出实现；未给分析记录、具体架构结论或可运行重建。",
+    "description": "2026年11月19日22:05:40（北京时间），Clarrycy（@Clarrycy）说让Claude Code“逆向了一下自己”，目的是严肃学习它的流式输出怎样实现。这里的目标是客户端持续显示生成内容的机制，不是模型权重或训练方式，也不是此前把Token统计移到顶部插件的目标。\n\n已补取原帖确认归因，但没有可读分析正文、Claude Code版本、输入文件、调用轨迹、实现结论或复现代码。附链接未展开，不能据此补写SSE、终端渲染架构或自修改能力。按作者报告的analysis-test保留，不把学习尝试写成完整重建；未运行客户端或下载目标，REA未提。",
+    "sources": [{"label":"Clarrycy的Claude Code流式输出自研究，2026-11-19 22:05:40北京时间","url":"https://x.com/i/status/2123417425723191471"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "Claude Code investigates its own streaming output: Clarrycy's learning experiment",
+      "summary": "Clarrycy says they had Claude Code reverse-engineer itself to learn its streaming-output implementation. Analysis records, architectural findings and runnable reconstruction are absent.",
+      "description": "At 22:05:40 Beijing time on November 19, 2026, Clarrycy (@Clarrycy) says they had Claude Code reverse-engineer itself, seriously studying how its streaming output works. The target is the client mechanism for continuously displaying generated content, not model weights or training, and differs from the earlier top-bar token-statistics plugin target.\n\nOriginal-post retrieval confirms attribution, not a readable analysis report, Claude Code revision, input files, call traces, implementation findings or reproduction code. The attached link was not expanded; SSE, terminal-rendering architecture and self-modification capabilities cannot be inferred. Retained as an author-reported analysis test, not a complete reconstruction. No client was run or target downloaded; REA is unmentioned.",
+      "metadata": [], "source_labels": ["Clarrycy's Claude Code streaming-output self-investigation, November 19, 2026 at 22:05:40 Beijing time"]
+    }
+  },
+  {
+    "id": "enso-typefully-hypefury-opus-scheduler-prototypes",
+    "title": "Typefully／Hypefury外部行为到四个原型：Ensō用Opus重做自用排程功能",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "Ensō报告约25分钟以公开页面与评价写规格，再让Opus做四种设计和12项浏览器测试；自动发布不在范围，持久草稿与免费发布尚待做。",
+    "description": "2026年11月19日22:11:15（北京时间），Ensō（@OxEnsooo）称自己每年付99美元却只用X排程工具的五项功能，于是让Opus 5.5以Typefully、Hypefury为外部行为参考，写需求、规格并做自用替代原型。两者是一个替代应用的参考，不是两个独立重建项目。作者称仅读公开页面与用户评价，未读对方源码；clean room是作者给方法的名称，不是本合集对法律或隔离流程的认证。\n\n五项范围是发帖预览、按X字符规则拆串、草稿、每周队列、开头文案辅助；作者给出的规则为链接23字符、emoji 2字符，未核官方规则。另加自己的文案检查器，示例自评分37／100、9个问题。四种设计Margin、Console、Hook Lab、Week共用同一数据，便于对比。作者称总计约25分钟，Headless Chrome点击输入、Fix、开头与排程等，12／12测试通过；此前一轮Console队列为空、解析时表格坏掉。测试均为作者报告，未获脚本、浏览器日志或原型运行。\n\n自动发布与分析需付费X API，自动私信与自动转发被主动排除，对方品牌与文案不复制。选择最终设计、将草稿持久保存在本机并免费发布仍为后续工作，不能称已替代完整订阅服务。原帖已完整补读；未部署、操作账号或运行目标，REA未提。",
+    "sources": [{"label":"Ensō的外部行为规格、四原型与12项测试自述，2026-11-19 22:11:15北京时间","url":"https://x.com/i/status/2123418830516961354"}],
+    "snapshot_date": "2026-11-19", "metadata": ["2026-11-19候选快照5赞、159浏览、0转发、3回复；25分钟与12／12均为作者自报，不是独立测量。"],
+    "en": {
+      "title": "Typefully/Hypefury behavior into four prototypes: Ensō uses Opus for a personal scheduler",
+      "summary": "Ensō reports about 25 minutes from public pages/reviews to a specification, four Opus designs and twelve browser checks. Auto-posting is excluded; persistent drafts and a free release remain future work.",
+      "description": "At 22:11:15 Beijing time on November 19, 2026, Ensō (@OxEnsooo) says they pay $99 yearly but use only five features of an X scheduling tool, so they asked Opus 5.5 to study Typefully and Hypefury's external behavior, write a brief/specification and prototype a personal replacement. Both are references for one replacement app, not two independent reconstruction projects. The author says only public pages and reviews were read, not competitor source. Clean room is the author's method label, not this collection's legal or isolation-process certification.\n\nThe five features are post previews, thread splitting under X character rules, drafts, a weekly queue and opening-line assistance. The stated rules are 23 characters for links and two for emoji; official rules were not checked. An added checker based on the author's writing rules scores their own sample 37/100 with nine problems. Four designs—Margin, Console, Hook Lab and Week—share the same data for comparison. About 25 minutes and twelve of twelve Headless Chrome checks of typing, Fix, openers and scheduling are reported. A prior run failed because Console's weekly queue was empty and a table broke during parsing. All tests remain author reports; scripts, browser logs and running prototypes were not obtained.\n\nAuto-posting and analytics require paid X API access and are excluded, as are auto-DMs and auto-retweets. Competitor branding and copy are not reused. Selecting a final design, saving drafts persistently on the local machine and releasing it free remain future work, so it is not a complete subscription-service replacement. The full original post was read. Nothing was deployed, no accounts were operated and no target was run here. REA is unmentioned.",
+      "metadata": ["November 19, 2026 candidate snapshot: 5 likes, 159 views, 0 reposts, 3 replies. Twenty-five minutes and 12/12 are author reports, not independent measurements."],
+      "source_labels": ["Ensō's external-behavior specification, four prototypes and twelve-check account, November 19, 2026 at 22:11:15 Beijing time"]
+    }
+  },
+  {
+    "id": "nathan-claude-mechanical-octopus-image-threejs-reconstruction",
+    "title": "机械章鱼图到Three.js装配体：Nathan转述Claude Skill的视觉重建",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Nathan AI Lab介绍单张ChatGPT章鱼图与octopus提示生成Three.js机械装配与定时拆解；10片光圈、48齿等是生成宣称，不是真实结构恢复。",
+    "description": "2026年11月19日23:08:02（北京时间），Nathan AI Lab（@KOF97AI）介绍一位未具名国外开发者的Claude Skill，称用一张ChatGPT生成的机械章鱼概念图和octopus提示，重建纯代码Three.js交互式装配体。叙述以“实测”描述演示，但没有足够材料确认是介绍者亲测还是对原开发者测试的转述，故不写成独立复现。\n\n帖子列出10片机械光圈、62mm发光环、可升起翻转的4mm玻璃穹顶；8条触手各有双排吸盘齿轮和16节末端链环，48齿主轴，16根柔性导管展开。又称每3秒脱开一个模块，到第19秒完成爆炸拆解，并称章鱼不是技能的三种预设动物之一。这些数值来自介绍，未审源码、原图、配置、时间轴或画面，不是测得的物理精度。\n\n目标是把可见概念图转成可编辑、可交互的视觉模型，不是恢复真实机械章鱼的内部机构、可制造尺寸或原始CAD；隐藏部件与动态可能由模型补全。技能名称、作者、开源许可与安装目标未核，不执行附安装信息。原帖文字与归因已补取，REA未提，保持unverified。",
+    "sources": [{"label":"Nathan AI Lab的单图机械章鱼到Three.js转述，2026-11-19 23:08:02北京时间","url":"https://x.com/i/status/2123433121597260186"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "A mechanical-octopus image into a Three.js assembly: Nathan relays a Claude Skill reconstruction",
+      "summary": "Nathan AI Lab describes a single ChatGPT octopus image and an octopus prompt producing a Three.js mechanical assembly with timed disassembly. Ten iris blades and 48 teeth are generation claims, not recovered real mechanics.",
+      "description": "At 23:08:02 Beijing time on November 19, 2026, Nathan AI Lab (@KOF97AI) introduces an unnamed foreign developer's Claude Skill, saying one ChatGPT-generated mechanical-octopus concept image and the prompt octopus produced an interactive assembly in handwritten Three.js code. The account calls the demonstration a test, but available material does not establish whether the introducer ran it or relays the developer's test. It is not treated as independent reproduction.\n\nThe post lists a ten-blade mechanical iris, a 62 mm glowing ring and a 4 mm glass dome that rises and flips; eight tentacles with double rows of suction-cup gears and sixteen-link terminal chains, a 48-tooth main shaft and sixteen spreading flexible tubes. It claims one module detaches every three seconds and the exploded disassembly is complete at second nineteen, and says the octopus is not one of the skill's three preset animals. These numbers come from the account; source, reference image, configuration, timeline and footage were not examined. They are not measured physical accuracy.\n\nThe target is translating a visible concept image into an editable interactive visual model, not recovering a real mechanical octopus's internals, manufacturable dimensions or original CAD. Hidden parts and dynamics may be model-invented. Skill name, author, open-source license and installation target remain unchecked; linked installation information was not executed. Original wording and attribution were retrieved. REA is unmentioned; status remains unverified.",
+      "metadata": [], "source_labels": ["Nathan AI Lab's single-image mechanical-octopus-to-Three.js account, November 19, 2026 at 23:08:02 Beijing time"]
+    }
+  },
+  {
+    "id": "lightcity-rea-video-chatcut-mountain-remake-report",
+    "title": "Mountain标签视频重做：lightcity列REA-video与ChatCut的尝试",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "lightcity发布my video链接并列rea-video、ChatCut与Claude标签，提出从研究到重做；未辨原片、流程或输出保真度。",
+    "description": "2026年11月19日23:49:11（北京时间），lightcity（@lightcityfran）以“别再问怎么做，开始重做”为题，链接自己的视频，列出rea-video与ChatCut，并带Mountain、VIDEO、Claude标签。按作者报告的具体视频重做尝试收录，而非只因工具名出现；Mountain只是作者标签，不能据此确定片名、地点或素材内容。\n\n原帖没有原参考片的可辨名称、逐镜拆解、提示词、编辑步骤、费用或对照结果。未观看链接视频，也未获VIDEO.md、可编辑工程或完整会话；不能声称找回原拍法、原提示或重做已精确成功。补取原帖确认署名与链接结构，只将视频归为作者提供的输出线索。未执行工具、下载目标或核实版权，保留unverified；rea-video不等同已确认使用morluto/rea。",
+    "sources": [{"label":"lightcity的my video与REA-video／ChatCut工具清单，2026-11-19 23:49:11北京时间","url":"https://x.com/i/status/2123443476478275649"}],
+    "snapshot_date": "2026-11-19", "metadata": [],
+    "en": {
+      "title": "A Mountain-tagged video remake: lightcity lists REA-video and ChatCut",
+      "summary": "lightcity links my video, names rea-video and ChatCut, and tags Claude, urging a move from investigation to remaking. The reference, workflow and output fidelity are unidentified.",
+      "description": "At 23:49:11 Beijing time on November 19, 2026, lightcity (@lightcityfran) posts Stop asking how it was made. Start remaking it, links their own video, lists rea-video and ChatCut and includes Mountain, VIDEO and Claude tags. Retained as an author-reported specific video-remake attempt, not solely a tool mention. Mountain is only the author's tag, not a verified title, location or description of the footage.\n\nThe post provides no identifiable reference-film name, shot breakdown, prompts, editing steps, costs or comparison results. The linked video was not watched; VIDEO.md, an editable project and a complete session were not obtained. Original filming methods, original prompts and an accurately successful remake are not established. Original-post retrieval confirms attribution and link structure, with the video treated only as an author-supplied output lead. No tool was executed, target downloaded or rights verified. Status remains unverified; rea-video does not establish use of morluto/rea.",
+      "metadata": [], "source_labels": ["lightcity's my video and REA-video/ChatCut tool list, November 19, 2026 at 23:49:11 Beijing time"]
+    }
+  },
+  {
     "id": "razeden-gta6-hud-opus-police-behavior-analysis",
     "title": "GTA VI警察行为：RazeDen称用Opus逐读50帧HUD推断追捕规则",
     "category": "games", "rea": "other-ai", "status": "analysis-test",

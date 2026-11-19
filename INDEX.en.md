@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2488 entries**, organized by use case, without a Top-N or popularity threshold.
+**2500 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
 - [Games and preservation](categories/en/games.md) (487)
-- [Hardware and interoperability](categories/en/hardware.md) (659)
-- [Applications and clients](categories/en/apps.md) (1038)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (304)
+- [Hardware and interoperability](categories/en/hardware.md) (664)
+- [Applications and clients](categories/en/apps.md) (1044)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (305)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -518,6 +518,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [AlphaSmart NEO: a secondary account of ioma8's AI-assisted research](cases/en/ioma8-alphasmart-neo-ai-research-report.md) — BujiasAmericano relays ioma8 using DeepSeek, Ghidra and radare2 to investigate AlphaSmart NEO. The account only says it was cracked, without features, source or verification records. **[Other AI-assisted work · Needs verification]**
+- [Sony A7 III as a wireless webcam: a retelling of ioma8's AI protocol research](cases/en/ioma8-sony-a7iii-ai-wireless-webcam-report.md) — Candidates relay ioma8 investigating Sony A7III communications with AI and turning it into a wireless webcam; a later post highlights single-hypothesis tests. No protocol, client or latency measurements are supplied. **[Other AI-assisted work · Needs verification]**
+- [MiniFreak firmware: a secondary account of ioma8's AI-assisted synth research](cases/en/ioma8-minifreak-ai-firmware-secondary-report.md) — MiniFreak is listed among ioma8's AI-assisted firmware targets. The account describes notes and single-hypothesis tests, but no firmware features, source or flashing results. **[Other AI-assisted work · Needs verification]**
+- [OP-Z firmware: a secondary lead on ioma8's AI-assisted research](cases/en/ioma8-op-z-ai-firmware-secondary-report.md) — BujiasAmericano lists OP-Z among ioma8's AI firmware projects, without features or hardware records. Manufacturer background only explains the portable synthesizer/sequencer. **[Other AI-assisted work · Needs verification]**
+- [AULA F75 ABNT2 firmware: Cabureta asks Claude to attempt a repair](cases/en/cabureta-aula-f75-claude-abnt2-firmware-repair.md) — Cabureta complains about the firmware for their AULA F75's Brazilian ABNT2 layout and is letting Claude fix it. Fault details, firmware artifacts and successful results are absent. **[Other AI-assisted work · In progress]**
 - [Overnight AirPlay research: Armin reports an agent raising volume for microphone verification](cases/en/ronacher-airplay-agent-acoustic-verification-report.md) — Armin Ronacher says an AirPlay-research agent used a laptop microphone to hear living-room playback and raised volume at 3 AM. A new reply questions reuse of existing projects; novelty and full compatibility are unestablished. **[Other AI-assisted work · Needs verification]**
 - [Keyboard input rejected after a system update: 铁线莲 reports an AI-assisted fix in one or two hours](cases/en/clematis-ai-keyboard-input-system-update-repair-report.md) — 铁线莲 says a supplied keyboard stopped accepting input after a system update and AI helped restore it in one or two hours. Nonconforming firmware is the author's explanation; model, patch and root cause are unverified. **[Other AI-assisted work · Needs verification]**
 - [A 5G router in a homelab: John Ruiz imagines Claude finding hidden APIs and writing restart automation](cases/en/john-ruiz-5g-router-claude-homelab-restart-idea.md) — In a copyright discussion, John Ruiz uses a 5G router as an example: Claude investigates hidden APIs and generates PowerShell restart automation and Docker Compose for a homelab. This is hypothetical, not completed work. **[Other AI-assisted work · Needs verification]**
@@ -1180,6 +1185,12 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [ArcMap workflows on Mac: sailor-malagis reports a REA-assisted GIS rebuild](cases/en/sailor-malagis-arcmap-rea-mac-rebuild-report.md) — The author says REA and DeepSeek helped build a Mac ArcMap-style app with mxd opening, FileGDB import, layers and export for about RMB 50 in API charges. Code, sample files and compatibility tests are absent. **[REA · Needs verification]**
+- [Notes and iMessage through Darling: Gemini's Catalyst lead reaches processes, not usable apps](cases/en/magherusan-darling-gemini-catalyst-macos-apps-linux.md) — Cristian says Gemini Argon identified Catalyst/UIKit dependencies, helping Claude advance Darling compatibility. Processes and SQLite databases reportedly start, but several services still need implementation. **[Other AI-assisted work · In progress]**
+- [Apple clipboard sharing on Omarchy: an initial Gemini-assisted encrypted-protocol account](cases/en/magherusan-gemini-apple-clipboard-omarchy-protocol.md) — Cristian says Gemini Argon investigated macOS/iPhone clipboard sharing and passed some data to a Linux MacBook by 2 a.m. Further polishing remains; code and interoperability tests are absent. **[Other AI-assisted work · In progress]**
+- [Claude Code investigates its own streaming output: Clarrycy's learning experiment](cases/en/clarrycy-claude-code-self-streaming-output-study.md) — Clarrycy says they had Claude Code reverse-engineer itself to learn its streaming-output implementation. Analysis records, architectural findings and runnable reconstruction are absent. **[Other AI-assisted work · Analysis test]**
+- [Typefully/Hypefury behavior into four prototypes: Ensō uses Opus for a personal scheduler](cases/en/enso-typefully-hypefury-opus-scheduler-prototypes.md) — Ensō reports about 25 minutes from public pages/reviews to a specification, four Opus designs and twelve browser checks. Auto-posting is excluded; persistent drafts and a free release remain future work. **[Other AI-assisted work · In progress]**
+- [A Mountain-tagged video remake: lightcity lists REA-video and ChatCut](cases/en/lightcity-rea-video-chatcut-mountain-remake-report.md) — lightcity links my video, names rea-video and ChatCut, and tags Claude, urging a move from investigation to remaking. The reference, workflow and output fidelity are unidentified. **[Other AI-assisted work · Needs verification]**
 - [A company zero-trust client on Linux: BinariCat reports GPT-assisted Windows research and connectivity](cases/en/binaricat-gpt-zero-trust-windows-linux-client-report.md) — BinariCat says GPT-6-astra helped investigate a company Windows zero-trust client and make a working Linux version, but 6.2 later refused. Vendor, permission, implementation and connection logs are undisclosed. **[Other AI-assisted work · Needs verification]**
 - [Claude Code usage in a top-bar plugin: 澜知AI retells Antigravity package research](cases/en/antigravity-claude-code-topbar-token-port-secondary-report.md) — 澜知AI says a community developer used Antigravity to inspect Claude Code and port context/token statistics. Developer identity, implementation and accuracy are unchecked; a separate FPS demo is not verification. **[Other AI-assisted work · Needs verification]**
 - [An agent-core transplant for Antigravity: Kxians proposes researching Claude Code's architecture](cases/en/kxians-claude-code-antigravity-agent-core-idea.md) — Comparing models and client experience, Kxians suggests Google engineers investigate Claude Code and port its agent core to Antigravity. A specific architectural idea, without implementation or compatibility evidence. **[REA use unconfirmed · Needs verification]**
@@ -2221,6 +2232,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [A mechanical-octopus image into a Three.js assembly: Nathan relays a Claude Skill reconstruction](cases/en/nathan-claude-mechanical-octopus-image-threejs-reconstruction.md) — Nathan AI Lab describes a single ChatGPT octopus image and an octopus prompt producing a Three.js mechanical assembly with timed disassembly. Ten iris blades and 48 teeth are generation claims, not recovered real mechanics. **[Other AI-assisted work · Needs verification]**
 - [RYFTCORP animation: an ambition to reconstruct model-training approaches with an NVIDIA benchmark](cases/en/ryftcorp-ai-animation-training-reconstruction-ambition.md) — A candidate describes RYFTCORP investigating how leading animation models train and building its own AI animation system, aiming to outperform an unspecified NVIDIA system. No named benchmark, training details or results are provided. **[REA use unconfirmed · Needs verification]**
 - [DecBench: separating structure, type recovery and recompilation similarity in LLM decompilation](cases/en/decbench-llm-decompiler-exactness-benchmark.md) — yibie highlights DecBench; pinned docs compare decompilers and LLMs. Union requires perfection on only one metric, and recompilation includes fixups and normalization—not complete original-source recovery. **[Other AI-assisted work · Analysis test]**
 - [Eight cinematic camera moves into AI prompts: Wujie AI's camera-trajectory reconstruction thread](cases/en/wujie-ai-eight-cinematic-camera-moves-prompt-reconstruction.md) — Wujie AI publishes timing, camera positions and physical constraints for eight cinematic moves and proposes reference-clip trajectory analysis. The thread was read, but demos and fidelity were not checked. **[Other AI-assisted work · Needs verification]**

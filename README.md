@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2488 cases & projects
+# 2500 cases & projects
 
-**Latest case update:** November 20, 2026, 00:07 · **Last maintained:** November 20, 2026, 00:07 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 20, 2026, 00:20 · **Last maintained:** November 20, 2026, 00:20 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: rebuild old binaries, distinguish decompilation metrics, query a circuit and make devices usable. Concrete work and candid limits take priority over launch promises; the full index also includes ideas and failed attempts. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: rebuild old binaries, query a circuit, make devices usable and test a smaller app replacement. Concrete work and candid limits take priority over launch promises; the full index also includes ideas and failed attempts. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[Proteus: ask Claude about an existing circuit](cases/en/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17` author thread — Arpit researches **undocumented .pdsprj files for an MCP bridge**, reporting schematic queries, connection tracing, value edits and bills of materials. Placement and wiring remain planned; headless simulation returns no waveforms. Thread read, code and circuits not tested here. `In progress`
@@ -32,7 +32,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 6. **[Lemmings for Windows 95: match functions, not headlines](cases/en/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12` report; `2026-11-09` pinned docs — Human-led REA/Claude/Codex work reports **696/696 functions matched across eight modules**. Whole EXE/DLL files still differ; portable builds and original-compiler matching are separate. Own assets required; not built here. `In progress`
 7. **[DecBench: what does “exact” decompilation measure?](cases/en/decbench-llm-decompiler-exactness-benchmark.md)** · `2026-11-19` report; `2026-11-11` pinned docs — Compare **control flow, types and normalized recompilation** separately. Union means perfect on any one metric, not all three or a byte-identical executable. Fixups matter; the live leaderboard and benchmark were not verified here. `Analysis / test`
 8. **[X6200: update the radio without swapping back to stock](cases/en/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16` report and PR merge — **Claude-assisted reconstruction of Xiegu's updater** reaches OpenX6X00. The project CI passed; the author reports upgrades and rollback on one radio. No flash readback, recovery not hardware-tested, and no reproduction here. `Unverified here`
-9. **[Coocaa Android 4.2.2: make Home return to a usable launcher](cases/en/coocaa-8s51-android422-ai-launcher-guardian.md)** · `2026-11-18` author account — After CleanYourTV incompatibility, AsyncXBit reports **a 12KB AI-written accessibility guardian returning to Aerial Lite in about 0.6 seconds**, including reboot startup. No root or flashing claimed; a brief flash and safe-mode label remain. One TV, no source or device tests checked here. `Unverified here`
+9. **[A smaller Typefully/Hypefury replacement](cases/en/enso-typefully-hypefury-opus-scheduler-prototypes.md)** · `2026-11-19` author account — Ensō studies public behavior, writes a spec and asks Opus for **four scheduler prototypes and twelve browser checks**, reportedly passing after an empty-queue failure. Auto-posting is excluded; persistent drafts and release remain future work. Tests not rerun here. `In progress`
 10. **[rea-video: a convincing explanation still did not explain the trick](cases/en/pamela-rea-video-codex-food-video-analysis-failure.md)** · `2026-11-17` author report — Pamela asks **Codex to decode seamless food-video edits**, then requests diagrams and more concrete images. Several rounds leave the filming method unresolved; she says the model also admits failure. One reported attempt, not a general verdict; video and session unchecked here. `Failed attempt`
 
 ## Classic cases
@@ -51,9 +51,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **487** |
-| [Hardware & interoperability](categories/en/hardware.md) | **659** |
-| [Applications & clients](categories/en/apps.md) | **1038** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **304** |
+| [Hardware & interoperability](categories/en/hardware.md) | **664** |
+| [Applications & clients](categories/en/apps.md) | **1044** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **305** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 
