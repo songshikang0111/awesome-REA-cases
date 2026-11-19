@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [NotTheInstagram：FLEX给Codex指路，用REA给无限刷加阻力](../cases/nottheinstagram-rea-codex-flex-friction-hooks.md) — Kunal用Codex、REA、Hopper与FLEX研究iOS Instagram，注入框架限制信息流与Reels；源码支持签名检查，实机效果仍为作者报告。 **[REA · 待验证]**
+- [微信输入法：Xiao用AI反编译后对私有API的简短观察](../cases/xiao-wechat-input-ai-decompilation-private-api-report.md) — Xiao称AI反编译微信输入法，并感叹私有API；没有平台、版本、接口名或调用验证，按有限研究报告保留。 **[其他 AI 逆向 · 待验证]**
+- [Renfe CLI：研究网页API，让Agent查西班牙火车与延误](../cases/renfe-cli-undocumented-web-api-agent-interoperability.md) — Luis以未文档化Renfe API制作JSON优先CLI，供Agent查车次、票价和延误；Hugo正做MCP，未在此调用铁路服务。 **[未确认使用 REA · 进行中]**
+- [Microsoft 3D Movie Maker：Lynn以Agent配Zig工具做首个行为重建测试](../cases/lynn-3d-movie-maker-zig-feature-reconstruction.md) — Lynn称把测输出、推行为的Zig重建工具与Agent配合，首测1995年3D Movie Maker；没给具体功能、代码或通过结果。 **[其他 AI 逆向 · 进行中]**
+- [MakeHuman：Lynn用Agent与Zig尝试抽取并改造功能](../cases/lynn-makehuman-zig-feature-mutation.md) — Lynn把MakeHuman列为第二个Zig行为重建测试，目标是抽取带变体的功能，而非搬运整个角色建模应用；未给完成证据。 **[其他 AI 逆向 · 进行中]**
+- [Blender局部重建：Lynn尝试抽取顶点创建、整合与权重绘制](../cases/lynn-blender-zig-vertex-weight-paint-reconstruction.md) — Lynn称Agent与Zig行为重建工具第三测针对Blender顶点与权重绘制功能，没有样本、实现或对照日志。 **[其他 AI 逆向 · 进行中]**
+- [Texturecraft到Zig的idea：Lynn计划研究3D纹理与颜色逻辑](../cases/lynn-texturecraft-zig-texture-color-reconstruction-idea.md) — Lynn计划待三个测试完成后研究Texturecraft，重建纹理与颜色逻辑；仍是具体下一步想法，不是已实现移植。 **[其他 AI 逆向 · 进行中]**
 - [ArcMap到Mac应用：sailor-malagis称用REA重建GIS工作流](../cases/sailor-malagis-arcmap-rea-mac-rebuild-report.md) — 作者称REA与DeepSeek辅助做出Mac版ArcMap式应用，可开mxd、导入FileGDB并处理图层和导出，API约50元；无代码、文件样本或兼容测试。 **[REA · 待验证]**
 - [Darling运行Notes与iMessage：Gemini提示Catalyst后，进程启动但仍不可用](../cases/magherusan-darling-gemini-catalyst-macos-apps-linux.md) — Cristian称Gemini Argon指出Catalyst／UIKit依赖，再与Claude推进Darling适配；进程与SQLite库开始创建，仍需实现多项服务。 **[其他 AI 逆向 · 进行中]**
 - [Apple共享剪贴板到Omarchy：Gemini辅助加密协议研究的初步自述](../cases/magherusan-gemini-apple-clipboard-omarchy-protocol.md) — Cristian称用Gemini Argon研究macOS与iPhone共享剪贴板协议，凌晨传出部分数据到Linux MacBook；仍需打磨，无代码或互通测试。 **[其他 AI 逆向 · 进行中]**
@@ -204,7 +211,7 @@
 - [Muse里的Posting HQ：Javy称研究Buffer以集中查看发布计划](../cases/javy-muse-buffer-posting-hq-study.md) — Javy称让Muse REA Buffer，为跨平台每周内容看板重建参考行为；未说明REA工具调用、接口、实现与实际发布。 **[未确认使用 REA · 进行中]**
 - [Muse研究Repurpose：Javy为跨平台内容工作台寻找参考](../cases/javy-muse-repurpose-posting-hq-study.md) — Javy把Repurpose与Buffer列为Muse研究对象，用于自己的Posting HQ；没有提供重建实现、内容转换或跨平台同步测试。 **[未确认使用 REA · 进行中]**
 - [自写天气应用静态检查：岩崎哲也用Claude Code／REA解释通信与存储](../cases/iwasaki-weather-app-rea-static-network-storage-test.md) — 岩崎哲也称REA分析自写小天气应用，解释一个通信目的地、气温风时刻与浏览器本地存储；作者明确只是读代码，未验证运行行为。 **[REA · 分析测试]**
-- [0sec Labs的0／0verse：连接Ghidra、angr与AFL++的AI安全研究框架](../cases/0sec-zero-0verse-ai-binary-security-harness.md) — Bobo介绍0安全harness的Web、CLI与MCP，以及0verse二进制分析链路；明确未亲测、默认主机shell和模型计费，不把团队零日成果归给工具。 **[其他 AI 逆向 · 相关项目]**
+- [0sec Labs的0／0verse：连接Ghidra、angr与AFL++的AI安全研究框架](../cases/0sec-zero-0verse-ai-binary-security-harness.md) — 0／0verse连接Agent与Ghidra、angr、AFL++；新介绍补充独立会话复核与证据分级，仍是二手描述，不把团队CVE或多次成功并集当本工具实测。 **[其他 AI 逆向 · 相关项目]**
 - [视频demo到前端原型：Nathan称Carbon结构还原好，动效审美仍有差距](../cases/carbon-video-demo-frontend-reconstruction-report.md) — Nathan AI Lab第一人称报告Gemini 4 Carbon从视频重建网页，适合打样但依赖清晰参考与详尽提示；无原站、代码和对照测试，不当源码恢复。 **[其他 AI 逆向 · 待验证]**
 - [LASIK：静态清除BLA诱饵，2100万到1.7万是读入量估算而非Agent实测](../cases/lasik-bla-static-deblinding-cli-mcp.md) — LASIK提供CLI／MCP静态去保护；公开CrackMe与21格式自有样本报告大幅缩小读入体积，保留误删回归测试。没有实测REA解题、token账单或通用语义等价证明。 **[其他 AI 逆向 · 分析测试]**
 - [Humanizer DLL：Dennis Rongo称Claude Code／REA重建C#并通过170项测试](../cases/codingmenace-humanizer-rea-csharp-rebuild-test.md) — Dennis Rongo报告只给.NET DLL、不提供源码，让Claude Code与REA重建Humanizer，得到C#与170测试通过；未提供测试来源或覆盖，不等于全部行为一致。 **[REA · 分析测试]**

@@ -1,19 +1,22 @@
 # 0sec Labs' 0/0verse: an AI security harness connecting Ghidra, angr and AFL++
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-11
+Record date: 2026-11-20
 Stage: Related project
 
-At 11:07:13 Beijing time on November 11, 2026, Bobo (@okeyccronald) introduces 0sec Labs' open-source AI security harness 0 as a control plane over an existing model, not a model itself, with local web console, headless CLI and MCP. The reported 0verse binary engine connects Ghidra, angr and AFL++; setup locates Ghidra/Java, installs Python analysis dependencies and checks the decompiler. This retains a concrete AI-reversing related project, not generic pentest advertising as a completed case.
+At 11:07:13 Beijing time on November 11, 2026, Bobo (@okeyccronald) introduces 0sec Labs' 0 as a security-research control plane over existing models, not a model itself, with local web, headless CLI and MCP. Its reported 0verse binary engine connects Ghidra, angr and AFL++. The account lists fourteen providers or Claude/Codex/Gemini CLI, Apple Silicon macOS, x64/ARM64 Linux and containers, with MIT OR Apache-2.0 licensing. Bobo explicitly has not tested it hands-on; features and licensing remain attributed claims.
 
-The post lists fourteen providers or Claude/Codex/Gemini CLI runtimes, Apple Silicon macOS, x64/ARM64 Linux and container routes, with MIT OR Apache-2.0 licensing. The poster claims comparison with official README/site but explicitly has not tested it hands-on. This collection retrieved the post only, without reading the repository, license text, implementation, official research page or actual analysis outputs. Interfaces, compatibility and licensing remain attributed reports.
+At 01:46:27 Beijing time on November 20, 美濃加茂まむ (@superdoccimo) adds a Plan, Discover, Attack, Triage, Verify, Report workflow. Verify reportedly reruns candidates in a separate session, with up to five turns per finding, and proof grades range from candidate to impact-proven. 0verse reportedly exposes nine local MCP tools. Original-post retrieval supplied material omitted at the candidate's ending, but is not implementation auditing or runtime verification here.
 
-Important limits: research preview is not production readiness. Its shell runs on the host by default; untrusted targets need isolation and a scope plugin, whose name does not guarantee sandboxing. Free tools do not mean free models. Roughly $5.20 per XBOW challenge is a relayed team example, not a cost benchmark for this binary engine. A team page listing thirty-plus merged Linux-kernel zero-days does not establish discovery by 0/0verse. Authorized targets only; no specific binary or reproduced result is supplied. REA is unmentioned. This collection installed no dependencies, executed no targets and scanned no services.
+The new post lists CVE-2026-68124, a Linux MCTP serial zero-length-frame buffer overflow, CVE-2026-63801, a TIPC asynchronous-decryption use-after-free, and other findings, attributing them to 0sec automated tools. Original CVE records, patches and reproduction logs were not read here. Team-tool attribution cannot be narrowed to the public 0/0verse binary pipeline. Reported XBOW 93/95, black-box union 81/104, cold run 45/104, Cybench 36/40 and npm-audit F1 are self-reported or relayed, not pass@1; they are not generalized into this tool's success rate.
 
-Sealed candidate: 0 likes, 57 views, 0 reposts. The poster's claim of checking official material is not this collection's audit or rerun.
+Limits remain research-preview status, default host-shell execution, isolation of untrusted targets and authorized scope. A scope plugin's name does not guarantee sandboxing. Free tooling does not mean free models, and approximately $5.20 per XBOW challenge is not a binary-task cost benchmark. Official code, license text and research pages have not been read here. No dependencies were installed, targets executed or services scanned. REA is unmentioned; status remains related-project.
+
+November 11 sealed candidate: 0 likes, 57 views, 0 reposts. November 20 candidate: 1 like, 233 views, 0 reposts, 0 replies. A source claiming comparison with official material is not this collection's audit or rerun.
 
 ## Sources
 
-- [Bobo on 0/0verse, no-hands-on testing, safety and cost limits, November 11, 2026](https://x.com/i/status/2120352619826753760)
+- [Bobo on 0/0verse, no hands-on testing, safety and cost limits, November 11, 2026](https://x.com/i/status/2120352619826753760)
+- [superdoccimo on verification, proof grades and reported results, November 20, 2026](https://x.com/i/status/2123472988192276897)
 
 [中文](../0sec-zero-0verse-ai-binary-security-harness.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

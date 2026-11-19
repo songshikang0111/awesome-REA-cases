@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [旧Kindle稍后读：Weiran用Codex做保存文章下载应用](../cases/weiran-kindle-codex-read-later-app.md) — Weiran称越狱旧Kindle后用Codex做稍后读应用；本轮转述的KOReader／wallabag方案不是他的原实现。 **[其他 AI 逆向 · 待验证]**
 - [AlphaSmart NEO：ioma8的AI辅助研究二手报告](../cases/ioma8-alphasmart-neo-ai-research-report.md) — 布佳糖美式转述ioma8用DeepSeek、Ghidra与radare2研究AlphaSmart NEO；只称破解，没有功能、源码或验证记录。 **[其他 AI 逆向 · 待验证]**
 - [Sony A7 III无线摄像头：ioma8的AI协议研究转述](../cases/ioma8-sony-a7iii-ai-wireless-webcam-report.md) — 候选转述ioma8用AI摸清Sony A7III通信协议并改作无线摄像头，另帖强调单假设测试；没有协议文档、客户端或延迟测量。 **[其他 AI 逆向 · 待验证]**
 - [MiniFreak固件：ioma8的AI辅助合成器研究转述](../cases/ioma8-minifreak-ai-firmware-secondary-report.md) — MiniFreak被列为ioma8借AI制作固件的目标，介绍给出笔记与单假设测试流程，但未公开固件功能、代码或刷写结果。 **[其他 AI 逆向 · 待验证]**

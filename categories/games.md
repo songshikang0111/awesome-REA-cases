@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Underworld Exhumed：Exhume的Claude Code技能辅助重建两部Ultima Underworld](../cases/underworld-exhumed-ultima-claude-skills-byte-matching.md) — Ultima Codex介绍两作字节匹配反编译与原生／Web移植；项目报告两份EXE一致和17／13段DOS回放对照，本合集未重跑。 **[其他 AI 逆向 · 待验证]**
+- [GTA6预加载分析：Murr转述用AI筛查212GB文件与真假线索](../cases/murr-gta6-ai-preload-signal-analysis-report.md) — Murr称有人用AI扫描GTA6的212GB预加载文件以区分线索与伪造，未给模型、脚本或具体核查结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI警察行为：RazeDen称用Opus逐读50帧HUD推断追捕规则](../cases/razeden-gta6-hud-opus-police-behavior-analysis.md) — RazeDen报告PS5 Remote Play、ffmpeg与Claude Code／Opus 5.5分析100秒追逐的50帧HUD，列12秒计时等推断；没有原始帧、会话或账单，不是恢复代码。 **[其他 AI 逆向 · 分析测试]**
 - [DanceDanceRevolution：Gemini整理DWARF结构，再用IDA补无符号版本](../cases/ddr-gemini-dwarf-ida-structure-reconstruction.md) — DankNDerpyGamer称用Gemini整理残留DWARF结构与字节大小，再结合IDA伪代码补其他DDR版本的数据结构；没有结构表、代码或匹配测试。 **[其他 AI 逆向 · 进行中]**
 - [LEGO Island：Claude署名提交与三文件字节一致重建报告](../cases/lego-island-claude-credited-reprobit-decompilation.md) — 固定README报告英语1.1版CONFIG.EXE、ISLE.EXE与LEGO1.DLL经ReproBit字节一致；已读Claude署名提交，但未下载验证报告或本地重建，不把多年项目全归AI。 **[其他 AI 逆向 · 待验证]**
