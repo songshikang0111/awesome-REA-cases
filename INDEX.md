@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2476 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2488 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（483）
-- [硬件与设备互通](categories/hardware.md)（658）
-- [应用与客户端](categories/apps.md)（1033）
-- [算法与功能重建](categories/algorithms.md)（302）
+- [游戏与游戏保存](categories/games.md)（487）
+- [硬件与设备互通](categories/hardware.md)（659）
+- [应用与客户端](categories/apps.md)（1038）
+- [算法与功能重建](categories/algorithms.md)（304）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,10 @@
 
 ### 游戏与游戏保存
 
+- [GTA VI警察行为：RazeDen称用Opus逐读50帧HUD推断追捕规则](cases/razeden-gta6-hud-opus-police-behavior-analysis.md) — RazeDen报告PS5 Remote Play、ffmpeg与Claude Code／Opus 5.5分析100秒追逐的50帧HUD，列12秒计时等推断；没有原始帧、会话或账单，不是恢复代码。 **[其他 AI 逆向 · 分析测试]**
+- [DanceDanceRevolution：Gemini整理DWARF结构，再用IDA补无符号版本](cases/ddr-gemini-dwarf-ida-structure-reconstruction.md) — DankNDerpyGamer称用Gemini整理残留DWARF结构与字节大小，再结合IDA伪代码补其他DDR版本的数据结构；没有结构表、代码或匹配测试。 **[其他 AI 逆向 · 进行中]**
+- [LEGO Island：Claude署名提交与三文件字节一致重建报告](cases/lego-island-claude-credited-reprobit-decompilation.md) — 固定README报告英语1.1版CONFIG.EXE、ISLE.EXE与LEGO1.DLL经ReproBit字节一致；已读Claude署名提交，但未下载验证报告或本地重建，不把多年项目全归AI。 **[其他 AI 逆向 · 待验证]**
+- [Mario Kart 64匹配反编译：yibie报告少数提交含AI，尚未定位署名](cases/mk64-decompilation-yibie-ai-credit-report.md) — yibie把n64decomp/mk64列为少数提交有AI参与的项目；固定README确认C源码与三版本构建，但所取30条提交未见Claude文本，AI归因仍只属转述。 **[其他 AI 逆向 · 待验证]**
 - [把游戏改作交给所有人：Moke提出REA研究后公开可编辑构建提示](cases/moke-wifeguy-game-rea-editable-build-prompt-idea.md) — Moke在shoe称WifeGuy Simulator的游戏讨论下，提议用REA修游戏，再变成任何人可编辑与构建的AI提示；真实游戏名和实现均未确认。 **[REA · 待验证]**
 - [GTA6改成1936年柏林：Gmoneyinthebank提出AI逆向的GTA1936想法](cases/gmoney-gta1936-berlin-ai-gta6-mod-idea.md) — Gmoneyinthebank以召集式玩笑提出AI逆向GTA6并发布柏林背景GTA1936；是有具体年代地点的改作愿望，没有实现或历史场景证据。 **[其他 AI 逆向 · 待验证]**
 - [把Mario放进GTA：ledatherockband提出REA跨游戏角色移植idea](cases/mario-gta-rea-character-transfer-idea.md) — ledatherockband回复称要带着REA仓库把Mario放进GTA；是具体角色跨游戏移植愿望，没有游戏版本、代码或完成证据。 **[REA · 待验证]**
@@ -512,6 +516,7 @@
 
 ### 硬件与设备互通
 
+- [AirPlay通宵研究：Armin称Agent半夜放大音量作麦克风验证](cases/ronacher-airplay-agent-acoustic-verification-report.md) — Armin Ronacher称Agent研究AirPlay时用笔记本麦克风听客厅播放，凌晨3点调大音量；新回复质疑是否复用已有项目，既无协议原创性也无完整兼容验证。 **[其他 AI 逆向 · 待验证]**
 - [系统更新后键盘拒绝输入：铁线莲称AI协助一两小时修好](cases/clematis-ai-keyboard-input-system-update-repair-report.md) — 铁线莲称自用电脑配套键盘在系统更新后不能输入，AI协助一两小时恢复；固件不规范是作者解释，没有型号、修复补丁或根因验证。 **[其他 AI 逆向 · 待验证]**
 - [5G路由器接入homelab：John Ruiz举例让Claude找隐藏API并写重启脚本](cases/john-ruiz-5g-router-claude-homelab-restart-idea.md) — John Ruiz在版权讨论中用5G路由器举例：Claude研究隐藏API，生成PowerShell自动重启与Docker Compose以接入家庭实验室；这是假设场景，不是已完成报告。 **[其他 AI 逆向 · 待验证]**
 - [AI产出固件仍黑屏：White2dog在Mac的Ubuntu ARM虚机里尝试设备改造](cases/white2dog-ai-device-firmware-usb-black-screen.md) — White2dog报告AI产出的固件从U盘引导一直黑屏，构建环境为Mac上的Ubuntu ARM虚机；无线调试已开，但固件问题与宿主环境关系未诊断。 **[其他 AI 逆向 · 分析测试]**
@@ -846,7 +851,7 @@
 - [扫地机夜巡：Martin称用Opus与Valetudo改为识别宠物的家庭守卫](cases/vacuum-opus-valetudo-night-guard-report.md) — Martin称root自有扫地机，让Claude Code检查Valetudo与本地相机，再组合YOLO和巡逻规划；没有型号、代码或延迟实测。 **[其他 AI 逆向 · 待验证]**
 - [小米15运行iOS16：读者转述AI逆向移植，尚无启动验证](cases/xiaomi15-ios16-ai-port-secondary-report.md) — 读者称刷到小米15可运行iOS16的AI移植说法；没有开发者、仓库或启动记录，不认定可刷机。 **[其他 AI 逆向 · 待验证]**
 - [Ray-Ban Meta赛道教练：REA读相机、Claude理解Spa画面的未验证宣称](cases/rayban-meta-rea-spa-race-coach-report.md) — 帖子称REA让Agent读取眼镜30fps画面、Claude给路线和刹车提示；未证明实时管线、眼镜显示或真实驾驶测试。 **[REA · 待验证]**
-- [Sony FX3／FX30／A7 IV：AI／REA软件限制研究与机内双重曝光愿望](cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 原作者建议用AI／REA研究三款Sony相机的软件限制；新读者进一步希望A7 IV支持机内双重曝光。仍只有idea，没有固件补丁或解锁结果。 **[REA · 待验证]**
+- [Sony FX3／FX30／A7 IV：软件限制idea与Claude辅助FX30语言解锁报告](cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 保留三款Sony的软件限制研究与A7 IV双重曝光愿望；Seb Monty另称Claude按已有仓库步骤为FX30恢复40种语言，第二次成功、20分钟，未核代码或相机。 **[REA · 待验证]**
 - [低功耗Broadcom Linux：建议AI反编译固件路径，进一步压缩间歇启动耗时](cases/broadcom-linux-ai-firmware-fast-boot-idea.md) — 读者在电池/太阳能Linux项目讨论中建议让AI研究固件路径以缩短启动；父串3.5秒是既有背景，不是AI成果。 **[其他 AI 逆向 · 待验证]**
 - [自有路由器配置与流量：Claude只读分析远程支持程序、DNS和转发规则](cases/router-config-claude-remote-support-audit-report.md) — 作者称给Claude配置导出与一小时流量，发现远程管理、未知支持程序及NAS转发；无原始记录，不把DNS查询等同解密全部浏览。 **[其他 AI 逆向 · 待验证]**
 - [米遥MI-AO：Codex协作研究遥控器BLE，把按住说话送入Mac任务](cases/fanxeon-mi-ao-xiaomi-remote-codex.md) — MI-AO读取小米2Pro的ATVV音频，经ADPCM与本地Whisper送入Codex；作者报告固件2671端到端测试，macOS14+源码优先beta。 **[其他 AI 逆向 · 进行中]**
@@ -1173,6 +1178,11 @@
 
 ### 应用与客户端
 
+- [公司零信任客户端到Linux：BinariCat称GPT协助研究Windows版并连通](cases/binaricat-gpt-zero-trust-windows-linux-client-report.md) — BinariCat报告GPT-6-astra辅助研究公司Windows零信任软件、做Linux版并连接，换6.2后被拒；厂商、授权、实现与连接记录未公开。 **[其他 AI 逆向 · 待验证]**
+- [Claude Code统计移到顶部插件：澜知AI转述Antigravity包研究](cases/antigravity-claude-code-topbar-token-port-secondary-report.md) — 澜知AI称社区作者让Antigravity研究Claude Code包，移植上下文与Token统计；原开发者、插件实现和统计准确性未核实，另一个FPS demo不是逆向验证。 **[其他 AI 逆向 · 待验证]**
+- [给Antigravity换Agent内核：Kxians建议研究Claude Code架构](cases/kxians-claude-code-antigravity-agent-core-idea.md) — Kxians在比较模型与客户端体验时，建议Google工程师研究Claude Code并向Antigravity移植Agent内核；是具体架构idea，没有实施或兼容性证明。 **[未确认使用 REA · 待验证]**
+- [Avocado Remake：视频逐场景重建HTML／GSAP，再逐帧对照](cases/avocado-remake-video-html-gsap-frame-comparison.md) — Wanderson Jackson发布Avocado Remake，称92秒宣传片重建18场景、视觉匹配89%；串文可读，但未取得评分方法、代码或复现，不认定胜过竞品。 **[其他 AI 逆向 · 待验证]**
+- [Renoise数字人：知识猫体验后想用REA研究的idea](cases/geekcat-renoise-digital-human-rea-idea.md) — 知识猫在Renoise视频制作讨论中称喜欢其数字人，想用REA研究；只有功能目标和使用感受，没有实际分析、接口或重建。 **[REA · 待验证]**
 - [Clip Studio接Venice：用REA MCP研究闭源绘画工具的idea](cases/clip-studio-rea-mcp-venice-integration-idea.md) — cthulhu_ftaghn提出用REA MCP研究Clip Studio并接入Venice，帮助创作者制作艺术；只是具体设想，没有接口、代码或效果验证。 **[REA · 待验证]**
 - [行情解说视频节奏：发财姐计划用rea-video拆两条参考片](cases/rea-video-market-commentary-rhythm-trial-idea.md) — 发财姐准备把两条常看的行情解说视频交给rea-video，研究节奏与剪辑点；目前只是试用计划，不是已完成分析或复刻。 **[其他 AI 逆向 · 待验证]**
 - [Gemini-app2api v1.5.0：野鴨称pi扩展无需独立server接入Gemini](cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨发布逆向Gemini-app2api的pi扩展，称可直接使用Hydrogen／Neon并走Gemini app额度；未读实现或测试，不保证账号安全与模型可用性。 **[未确认使用 REA · 相关项目]**
@@ -2209,6 +2219,8 @@
 
 ### 算法与功能重建
 
+- [RYFTCORP动画系统：研究既有模型训练、以NVIDIA为标杆的设想](cases/ryftcorp-ai-animation-training-reconstruction-ambition.md) — 候选转述RYFTCORP想研究最佳动画模型如何训练并自建AI动画系统，目标优于NVIDIA某动画系统；没有具名基准、训练细节或结果。 **[未确认使用 REA · 待验证]**
+- [DecBench：用结构、类型与重编译相似度分别评估LLM反编译](cases/decbench-llm-decompiler-exactness-benchmark.md) — yibie介绍DecBench；固定README确认比较传统反编译器与LLM，Union只要求三指标之一完美，重编译指标含fixup与归一化，不能等同原始源码完全恢复。 **[其他 AI 逆向 · 分析测试]**
 - [八种电影运镜到AI提示：Wujie AI的镜头轨迹重建串](cases/wujie-ai-eight-cinematic-camera-moves-prompt-reconstruction.md) — Wujie AI发布八种电影运镜的时序、镜位与物理约束提示，并建议上传参考片分析轨迹；读到完整串文，但未观看演示或验证还原效果。 **[其他 AI 逆向 · 待验证]**
 - [轨道炮机器狗图片到3D运动系统：无岸转述Gemini与Three.js重建](cases/railgun-robot-dog-gemini-threejs-reconstruction-report.md) — 无岸转述Gemini 4 Neon从机器狗参考图生成Three.js WebGPU模型、IK和步态系统，称有240Hz刚体模拟；动态是模型补全，不是恢复真实机械结构或原程序。 **[其他 AI 逆向 · 待验证]**
 - [Emily Trim图画解码：用AI寻找基因编号，仍需排除事后巧合](cases/emily-trim-illustrations-ai-symbol-decoding-experiment.md) — 发帖者用前沿AI整理Emily Trim首400幅图，尝试从元素图中读出TUFT1与CTSG编号；尚无固定解码规则或盲测，不是药物逆向或治疗发现。 **[其他 AI 逆向 · 分析测试]**

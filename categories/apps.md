@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [公司零信任客户端到Linux：BinariCat称GPT协助研究Windows版并连通](../cases/binaricat-gpt-zero-trust-windows-linux-client-report.md) — BinariCat报告GPT-6-astra辅助研究公司Windows零信任软件、做Linux版并连接，换6.2后被拒；厂商、授权、实现与连接记录未公开。 **[其他 AI 逆向 · 待验证]**
+- [Claude Code统计移到顶部插件：澜知AI转述Antigravity包研究](../cases/antigravity-claude-code-topbar-token-port-secondary-report.md) — 澜知AI称社区作者让Antigravity研究Claude Code包，移植上下文与Token统计；原开发者、插件实现和统计准确性未核实，另一个FPS demo不是逆向验证。 **[其他 AI 逆向 · 待验证]**
+- [给Antigravity换Agent内核：Kxians建议研究Claude Code架构](../cases/kxians-claude-code-antigravity-agent-core-idea.md) — Kxians在比较模型与客户端体验时，建议Google工程师研究Claude Code并向Antigravity移植Agent内核；是具体架构idea，没有实施或兼容性证明。 **[未确认使用 REA · 待验证]**
+- [Avocado Remake：视频逐场景重建HTML／GSAP，再逐帧对照](../cases/avocado-remake-video-html-gsap-frame-comparison.md) — Wanderson Jackson发布Avocado Remake，称92秒宣传片重建18场景、视觉匹配89%；串文可读，但未取得评分方法、代码或复现，不认定胜过竞品。 **[其他 AI 逆向 · 待验证]**
+- [Renoise数字人：知识猫体验后想用REA研究的idea](../cases/geekcat-renoise-digital-human-rea-idea.md) — 知识猫在Renoise视频制作讨论中称喜欢其数字人，想用REA研究；只有功能目标和使用感受，没有实际分析、接口或重建。 **[REA · 待验证]**
 - [Clip Studio接Venice：用REA MCP研究闭源绘画工具的idea](../cases/clip-studio-rea-mcp-venice-integration-idea.md) — cthulhu_ftaghn提出用REA MCP研究Clip Studio并接入Venice，帮助创作者制作艺术；只是具体设想，没有接口、代码或效果验证。 **[REA · 待验证]**
 - [行情解说视频节奏：发财姐计划用rea-video拆两条参考片](../cases/rea-video-market-commentary-rhythm-trial-idea.md) — 发财姐准备把两条常看的行情解说视频交给rea-video，研究节奏与剪辑点；目前只是试用计划，不是已完成分析或复刻。 **[其他 AI 逆向 · 待验证]**
 - [Gemini-app2api v1.5.0：野鴨称pi扩展无需独立server接入Gemini](../cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨发布逆向Gemini-app2api的pi扩展，称可直接使用Hydrogen／Neon并走Gemini app额度；未读实现或测试，不保证账号安全与模型可用性。 **[未确认使用 REA · 相关项目]**

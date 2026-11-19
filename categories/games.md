@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [GTA VI警察行为：RazeDen称用Opus逐读50帧HUD推断追捕规则](../cases/razeden-gta6-hud-opus-police-behavior-analysis.md) — RazeDen报告PS5 Remote Play、ffmpeg与Claude Code／Opus 5.5分析100秒追逐的50帧HUD，列12秒计时等推断；没有原始帧、会话或账单，不是恢复代码。 **[其他 AI 逆向 · 分析测试]**
+- [DanceDanceRevolution：Gemini整理DWARF结构，再用IDA补无符号版本](../cases/ddr-gemini-dwarf-ida-structure-reconstruction.md) — DankNDerpyGamer称用Gemini整理残留DWARF结构与字节大小，再结合IDA伪代码补其他DDR版本的数据结构；没有结构表、代码或匹配测试。 **[其他 AI 逆向 · 进行中]**
+- [LEGO Island：Claude署名提交与三文件字节一致重建报告](../cases/lego-island-claude-credited-reprobit-decompilation.md) — 固定README报告英语1.1版CONFIG.EXE、ISLE.EXE与LEGO1.DLL经ReproBit字节一致；已读Claude署名提交，但未下载验证报告或本地重建，不把多年项目全归AI。 **[其他 AI 逆向 · 待验证]**
+- [Mario Kart 64匹配反编译：yibie报告少数提交含AI，尚未定位署名](../cases/mk64-decompilation-yibie-ai-credit-report.md) — yibie把n64decomp/mk64列为少数提交有AI参与的项目；固定README确认C源码与三版本构建，但所取30条提交未见Claude文本，AI归因仍只属转述。 **[其他 AI 逆向 · 待验证]**
 - [把游戏改作交给所有人：Moke提出REA研究后公开可编辑构建提示](../cases/moke-wifeguy-game-rea-editable-build-prompt-idea.md) — Moke在shoe称WifeGuy Simulator的游戏讨论下，提议用REA修游戏，再变成任何人可编辑与构建的AI提示；真实游戏名和实现均未确认。 **[REA · 待验证]**
 - [GTA6改成1936年柏林：Gmoneyinthebank提出AI逆向的GTA1936想法](../cases/gmoney-gta1936-berlin-ai-gta6-mod-idea.md) — Gmoneyinthebank以召集式玩笑提出AI逆向GTA6并发布柏林背景GTA1936；是有具体年代地点的改作愿望，没有实现或历史场景证据。 **[其他 AI 逆向 · 待验证]**
 - [把Mario放进GTA：ledatherockband提出REA跨游戏角色移植idea](../cases/mario-gta-rea-character-transfer-idea.md) — ledatherockband回复称要带着REA仓库把Mario放进GTA；是具体角色跨游戏移植愿望，没有游戏版本、代码或完成证据。 **[REA · 待验证]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [AirPlay通宵研究：Armin称Agent半夜放大音量作麦克风验证](../cases/ronacher-airplay-agent-acoustic-verification-report.md) — Armin Ronacher称Agent研究AirPlay时用笔记本麦克风听客厅播放，凌晨3点调大音量；新回复质疑是否复用已有项目，既无协议原创性也无完整兼容验证。 **[其他 AI 逆向 · 待验证]**
 - [系统更新后键盘拒绝输入：铁线莲称AI协助一两小时修好](../cases/clematis-ai-keyboard-input-system-update-repair-report.md) — 铁线莲称自用电脑配套键盘在系统更新后不能输入，AI协助一两小时恢复；固件不规范是作者解释，没有型号、修复补丁或根因验证。 **[其他 AI 逆向 · 待验证]**
 - [5G路由器接入homelab：John Ruiz举例让Claude找隐藏API并写重启脚本](../cases/john-ruiz-5g-router-claude-homelab-restart-idea.md) — John Ruiz在版权讨论中用5G路由器举例：Claude研究隐藏API，生成PowerShell自动重启与Docker Compose以接入家庭实验室；这是假设场景，不是已完成报告。 **[其他 AI 逆向 · 待验证]**
 - [AI产出固件仍黑屏：White2dog在Mac的Ubuntu ARM虚机里尝试设备改造](../cases/white2dog-ai-device-firmware-usb-black-screen.md) — White2dog报告AI产出的固件从U盘引导一直黑屏，构建环境为Mac上的Ubuntu ARM虚机；无线调试已开，但固件问题与宿主环境关系未诊断。 **[其他 AI 逆向 · 分析测试]**
@@ -336,7 +337,7 @@
 - [扫地机夜巡：Martin称用Opus与Valetudo改为识别宠物的家庭守卫](../cases/vacuum-opus-valetudo-night-guard-report.md) — Martin称root自有扫地机，让Claude Code检查Valetudo与本地相机，再组合YOLO和巡逻规划；没有型号、代码或延迟实测。 **[其他 AI 逆向 · 待验证]**
 - [小米15运行iOS16：读者转述AI逆向移植，尚无启动验证](../cases/xiaomi15-ios16-ai-port-secondary-report.md) — 读者称刷到小米15可运行iOS16的AI移植说法；没有开发者、仓库或启动记录，不认定可刷机。 **[其他 AI 逆向 · 待验证]**
 - [Ray-Ban Meta赛道教练：REA读相机、Claude理解Spa画面的未验证宣称](../cases/rayban-meta-rea-spa-race-coach-report.md) — 帖子称REA让Agent读取眼镜30fps画面、Claude给路线和刹车提示；未证明实时管线、眼镜显示或真实驾驶测试。 **[REA · 待验证]**
-- [Sony FX3／FX30／A7 IV：AI／REA软件限制研究与机内双重曝光愿望](../cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 原作者建议用AI／REA研究三款Sony相机的软件限制；新读者进一步希望A7 IV支持机内双重曝光。仍只有idea，没有固件补丁或解锁结果。 **[REA · 待验证]**
+- [Sony FX3／FX30／A7 IV：软件限制idea与Claude辅助FX30语言解锁报告](../cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 保留三款Sony的软件限制研究与A7 IV双重曝光愿望；Seb Monty另称Claude按已有仓库步骤为FX30恢复40种语言，第二次成功、20分钟，未核代码或相机。 **[REA · 待验证]**
 - [低功耗Broadcom Linux：建议AI反编译固件路径，进一步压缩间歇启动耗时](../cases/broadcom-linux-ai-firmware-fast-boot-idea.md) — 读者在电池/太阳能Linux项目讨论中建议让AI研究固件路径以缩短启动；父串3.5秒是既有背景，不是AI成果。 **[其他 AI 逆向 · 待验证]**
 - [自有路由器配置与流量：Claude只读分析远程支持程序、DNS和转发规则](../cases/router-config-claude-remote-support-audit-report.md) — 作者称给Claude配置导出与一小时流量，发现远程管理、未知支持程序及NAS转发；无原始记录，不把DNS查询等同解密全部浏览。 **[其他 AI 逆向 · 待验证]**
 - [米遥MI-AO：Codex协作研究遥控器BLE，把按住说话送入Mac任务](../cases/fanxeon-mi-ao-xiaomi-remote-codex.md) — MI-AO读取小米2Pro的ATVV音频，经ADPCM与本地Whisper送入Codex；作者报告固件2671端到端测试，macOS14+源码优先beta。 **[其他 AI 逆向 · 进行中]**
