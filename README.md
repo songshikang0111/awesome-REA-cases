@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2514 cases & projects
+# 2522 cases & projects
 
-**Latest case update:** November 20, 2026, 08:06 · **Last maintained:** November 20, 2026, 08:06 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 20, 2026, 12:13 · **Last maintained:** November 20, 2026, 12:13 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -29,7 +29,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 3. **[Darmoshark TOP75: keyboard control on Mac](cases/en/darmoshark-top75-macos-ai-protocol-report.md)** · `2026-11-18` author reply and pinned docs — **AI-assisted Windows-utility research plus IOKit checks** support RGB, remapping, macros and lights-off scheduling over Bluetooth. Project docs record readback, rollback and failed writes; display uploads use USB and on-device GIF playback remains unvalidated. Not tested here. `Unverified here`
 4. **[Horizon: Minecraft Java behavior, rebuilt in Rust](cases/en/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16` report and pinned docs — **AI-assisted reconstruction with 281 reported differential harnesses**, existing saves and vanilla multiplayer. Public docs and a Codex-credited commit were read, not the full test results; performance claims are hardware-specific. Own game required; not built here. `In progress`
 5. **[Underworld Exhumed: preserve two DOS worlds](cases/en/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20` introduction; `2026-11-17` pinned docs — Exhume's Claude Code skills support **reported byte-identical UW.EXE/UW2.EXE rebuilds**, plus native/web ports checked against 17/13 DOS recordings. Project reports, not checks rerun here; native ports need your own game data. `Unverified here`
-6. **[Lemmings for Windows 95: match functions, not headlines](cases/en/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12` report; `2026-11-09` pinned docs — Human-led REA/Claude/Codex work reports **696/696 functions matched across eight modules**. Whole EXE/DLL files still differ; portable builds and original-compiler matching are separate. Own assets required; not built here. `In progress`
+6. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-20` report and pinned docs — Agents write Rust against recorded behavior. The project reports **17,224 byte-identical runs, only 15,837 fully in Rust**; others fall back to Prettier. Roughly 19× CLI speedup includes process startup, versus 4.2× warmed in-process on the stated M4 test. Not rerun here. `Unverified here`
 7. **[DecBench: what does “exact” decompilation measure?](cases/en/decbench-llm-decompiler-exactness-benchmark.md)** · `2026-11-19` report; `2026-11-11` pinned docs — Compare **control flow, types and normalized recompilation** separately. Union means perfect on any one metric, not all three or a byte-identical executable. Fixups matter; the live leaderboard and benchmark were not verified here. `Analysis / test`
 8. **[X6200: update the radio without swapping back to stock](cases/en/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16` report and PR merge — **Claude-assisted reconstruction of Xiegu's updater** reaches OpenX6X00. The project CI passed; the author reports upgrades and rollback on one radio. No flash readback, recovery not hardware-tested, and no reproduction here. `Unverified here`
 9. **[NotTheInstagram: make endless scrolling less effortless](cases/en/nottheinstagram-rea-codex-flex-friction-hooks.md)** · `2026-11-15` author article and pinned code — **FLEX gives Codex a map; REA connects Hopper** to find hooks adding three-post waits and a two-minute Reels pause. Signature checks are visible in code; individual device checks remain incomplete. Instagram 455.0.0 only reported tested; modified-client risks remain. `Unverified here`
@@ -50,10 +50,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **492** |
-| [Hardware & interoperability](categories/en/hardware.md) | **665** |
-| [Applications & clients](categories/en/apps.md) | **1052** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **305** |
+| [Games & preservation](categories/en/games.md) | **494** |
+| [Hardware & interoperability](categories/en/hardware.md) | **668** |
+| [Applications & clients](categories/en/apps.md) | **1054** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **306** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

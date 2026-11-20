@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Claude Desktop到Antigravity：读者建议Gemini4逆向功能的idea](../cases/gemini4-claude-desktop-antigravity-feature-idea.md) — xMopf7RF在Antigravity版本发布下建议让Gemini4逆向Claude Desktop借鉴功能；未列具体功能，也未报告开工。 **[其他 AI 逆向 · 待验证]**
+- [课程API与指南边界：kedaya转述DeepSeek逆向、GPT删假进度内容](../cases/kedaya-deepseek-course-api-gpt-guide-boundary-report.md) — kedaya称DeepSeek已研究课程API，GPT读批量选择脚本后从指南删去假进度部分；平台不明，不能确认API调用或进度修改成功。 **[其他 AI 逆向 · 待验证]**
 - [Agent-Kernel-Toolbox：用结构化观察降低AI理解软件的交互开销](../cases/agent-kernel-toolbox-structured-ai-program-analysis.md) — Āpaceum介绍测试版工具包，以MCP与Skills给AI读取网页、原生控件和运行信息，并称支持静态／动态逆向、解包与局部虚拟化；未实测功能或token收益。 **[其他 AI 逆向 · 相关项目]**
 - [NotTheInstagram：FLEX给Codex指路，用REA给无限刷加阻力](../cases/nottheinstagram-rea-codex-flex-friction-hooks.md) — Kunal用Codex、REA、Hopper与FLEX研究iOS Instagram，注入框架限制信息流与Reels；源码支持签名检查，实机效果仍为作者报告。 **[REA · 待验证]**
 - [微信输入法：Xiao用AI反编译后对私有API的简短观察](../cases/xiao-wechat-input-ai-decompilation-private-api-report.md) — Xiao称AI反编译微信输入法，并感叹私有API；没有平台、版本、接口名或调用验证，按有限研究报告保留。 **[其他 AI 逆向 · 待验证]**
@@ -41,7 +43,7 @@
 - [修/status别名却研究起Claude Code：Lee Penkman的DeepSeek调试尝试](../cases/lee-penkman-deepseek-claude-code-status-alias-research.md) — Lee Penkman让DeepSeek修/status别名，称模型自行研究Claude Code以找cldst故障；后续明确为omp fork及DeepSeek Flash，尚无修复验收。 **[其他 AI 逆向 · 进行中]**
 - [收到打包客户端却有bug：dk021称用Codex直接逆向修补](../cases/dk021-codex-packaged-client-bugfix-report.md) — dk021称其他团队交付的打包客户端有bug，自己让Codex逆向改掉；软件、缺陷、修补方式与授权未知，保留第一人称未核验自述。 **[其他 AI 逆向 · 待验证]**
 - [Replit Mission模式：Vini Lana转述一提示研究软件的入口，尚无目标演示](../cases/replit-mission-reverse-engineering-mode-secondary-report.md) — Vini Lana称Replit新增Mission逆向模式，并介绍微VM导入、SSH与shell背景；未给分析目标、文档或执行结果，任意软件与免配置均未核验。 **[其他 AI 逆向 · 相关项目]**
-- [rust-anything：先记录旧程序答案，再让Claude Code逐块重建Rust热点](../cases/rust-anything-claude-behavior-capture-rust-migration.md) — rust-anything以旧程序输入输出约束AI的Rust热点重建；新转述给出搜索143ms对6.9ms、38251样本零不匹配，仍无原始基准或网络／数据库副作用覆盖证明。 **[其他 AI 逆向 · 待验证]**
+- [rust-anything：先记录旧程序答案，再让Claude Code逐块重建Rust热点](../cases/rust-anything-claude-behavior-capture-rust-migration.md) — rust-anything约束Agent逐块重建Rust行为；项目报告Prettier17224次输出一致，但仅15837次全在Rust，其余回退原版，未独立重跑。 **[其他 AI 逆向 · 待验证]**
 - [沙箱谜题与评审规则：Michael转述Agent协作逆向，称未多拿分](../cases/openai-sandbox-agents-reviewer-reverse-engineering-retelling.md) — Michael转述OpenAI隔离Agent经共享存储协作、逆向谜题并试探评分器；1200个Agent、超7万消息和外部访问均缺原实验，结果只按二手叙述保留。 **[其他 AI 逆向 · 待验证]**
 - [重访X书签的bot：Kenzo要求Claude／REA研究fitz工具的idea](../cases/kenzo-rea-x-bookmark-bot-reconstruction-idea.md) — Kenzo回复fitz的X书签bot，要求Claude/REA研究；父帖说明要解决收藏后不再看的问题，没有研究开工、功能规格或重建结果。 **[REA · 待验证]**
 - [给每次软件更新发签名分析报告：P Flodin的AI供应链公共登记簿idea](../cases/ai-supply-chain-update-signed-analysis-register-idea.md) — P Flodin建议AI厂商扫描、反编译并分析供应链每次更新，公开带哈希、问题评分和签名的报告，供安装策略要求多个服务检查；尚无实现或评测。 **[其他 AI 逆向 · 待验证]**
@@ -300,7 +302,7 @@
 - [Claude Desktop每日任务关不掉：Murat用Antigravity检查应用代码定位文件](../cases/antigravity-claude-desktop-recurring-task-removal.md) — Murat Umutlu称Claude与Codex没能关掉每日任务，Antigravity通过研究Claude Desktop代码找到任务文件并删除；没有路径、代码或停跑日志。 **[其他 AI 逆向 · 待验证]**
 - [Merlin 1D手势演示：转述Perplexity从视频重建Web 3D交互](../cases/perplexity-merlin1d-video-webcam-3d-reconstruction.md) — 谁是藏镜人称Perplexity研究2013年发动机演示，做出7677线段与WebCam旋转缩放；没有源码或几何对照，不是恢复真实发动机CAD。 **[其他 AI 逆向 · 待验证]**
 - [pumpfunbots-reverse：研究666个钱包后让Claude先读策略再配机器人](../cases/pumpfunbots-reverse-wallet-study-agent-workflow.md) — zostaff公开七机器人与链上行为研究，帖子建议Claude先读strategy-research；固定README能核对文档与dry-run示例，不能证明收益或AI完成全部逆向。 **[其他 AI 逆向 · 进行中]**
-- [oh my hermes：HOPE称研究记忆系统以增强Hermes长期保留](../cases/oh-my-hermes-memory-system-research-harness.md) — HOPE介绍Hermes原生harness，称研究既有记忆系统、内置协作规范及150余技能；源码短链与保留率未核验，token数字不能当性能证据。 **[其他 AI 逆向 · 进行中]**
+- [oh my hermes：HOPE称研究记忆系统以增强Hermes长期保留](../cases/oh-my-hermes-memory-system-research-harness.md) — HOPE建议把oh-my-hermes仓库交给Agent拆读并移植所需功能；文档描述路由、记忆与验证门，零开销及长期保留改善仍未测。 **[其他 AI 逆向 · 进行中]**
 - [android-ad-cleaner：让Agent关闭国产Android广告开关的可回滚流程](../cases/android-ad-cleaner-agent-reversible-settings-workflow.md) — 候选介绍不用root、不刷固件的广告开关清理，提供桌面端和Agent执行路径；公开同名仓库匹配用途，但测试机型与回滚效果未独立验证。 **[未确认使用 REA · 相关项目]**
 - [XRP异常铸币漏洞：AI研究旧代码并写验证的未核验转述](../cases/xrp-ai-agent-minting-bug-secondary-report.md) — VK_ROXy转述Agent研究XRP相关旧代码，称发现单笔可生成18万亿XRP的问题并写验证；未给团队、编号或测试环境，后接REA推广不证明用REA发现。 **[其他 AI 逆向 · 待验证]**
 - [GCSA Agent：CyberGym Level1达91.3%的安全研究转述](../cases/gcsa-agent-cybergym-security-research-report.md) — GCSA Agent的91.3% CyberGym Level1成绩仍是转述；后帖补充漏洞版触发、修复版不触发的成功定义，以及调查与交易回放背景，未取得评测提交或日志。 **[其他 AI 逆向 · 待验证]**

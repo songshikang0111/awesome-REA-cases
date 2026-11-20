@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [LOCA：把网表分成逻辑锥，让LLM恢复并证明等价RTL](../cases/loca-llm-logic-cone-netlist-rtl-recovery.md) — 研究摘要转述称LOCA以分组逻辑锥和并行Agent恢复RTL，21个模型／设计组合成功17个，对照6个；只读摘要帖，未审论文或复跑证明。 **[其他 AI 逆向 · 分析测试]**
 - [机械章鱼图到Three.js装配体：Nathan转述Claude Skill的视觉重建](../cases/nathan-claude-mechanical-octopus-image-threejs-reconstruction.md) — Nathan AI Lab介绍单张ChatGPT章鱼图与octopus提示生成Three.js机械装配与定时拆解；10片光圈、48齿等是生成宣称，不是真实结构恢复。 **[其他 AI 逆向 · 待验证]**
 - [RYFTCORP动画系统：研究既有模型训练、以NVIDIA为标杆的设想](../cases/ryftcorp-ai-animation-training-reconstruction-ambition.md) — 候选转述RYFTCORP想研究最佳动画模型如何训练并自建AI动画系统，目标优于NVIDIA某动画系统；没有具名基准、训练细节或结果。 **[未确认使用 REA · 待验证]**
 - [DecBench：用结构、类型与重编译相似度分别评估LLM反编译](../cases/decbench-llm-decompiler-exactness-benchmark.md) — yibie介绍DecBench；固定README确认比较传统反编译器与LLM，Union只要求三指标之一完美，重编译指标含fixup与归一化，不能等同原始源码完全恢复。 **[其他 AI 逆向 · 分析测试]**

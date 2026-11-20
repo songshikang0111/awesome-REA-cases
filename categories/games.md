@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Doom Dark Ages低配优化：Morpheus提出AI逆向助跑Steam Deck的idea](../cases/doom-dark-ages-ai-low-end-optimization-idea.md) — Morpheus询问能否用AI与逆向把Doom Dark Ages优化到Steam Deck60fps或GTX1050Ti30fps；这些是愿望指标，不是测量。 **[其他 AI 逆向 · 待验证]**
+- [Fallout4第二GPU放大Mod：AHS称用Claude完成的改造](../cases/ahs-fallout4-claude-second-gpu-upscaling-mod.md) — AHS称用Claude给Fallout4做Mod，把放大工作交给第二块GPU；未公开代码、显卡型号或性能测量，不等于双GPU渲染。 **[其他 AI 逆向 · 待验证]**
 - [Kirby到PPSSPP：XITRIX用REA研究GameShare启动调用](../cases/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md) — XITRIX称用REA研究Kirby如何调用系统SDK启动GameShare，再从PPSSPP homebrew调用相同API；双实例与共享游玩是作者报告，未实机核验。 **[REA · 待验证]**
 - [Into The Shadows演示版：RetroHQ提出Ghidra配Claude恢复引擎的idea](../cases/into-the-shadows-demo-ghidra-claude-engine-idea.md) — RetroHQ建议用Ghidra与Claude恢复1995年Into The Shadows演示版引擎，并补充仅指demo，不是找回未发行完整游戏；未报告实施。 **[其他 AI 逆向 · 待验证]**
 - [GTA6自动通关：Illya以逆向加MCP连接Codex／Claude作反问式idea](../cases/gta6-mcp-codex-claude-autoplay-rhetorical-idea.md) — Illya Bakurov设想逆向GTA6、建MCP并让Codex或Claude Code代玩通关，用来讨论人们想委托什么；原帖明确说无人完成，没有开工或成果证据。 **[其他 AI 逆向 · 待验证]**
@@ -470,7 +472,7 @@
 - [Decompwtf：让 AI Agent 重建游戏 C/C++ 并对照机器码](../cases/decompwtf-agent-game-decompilation.md) — 本地 AI 反编译与编译对比的项目转述；停更、归档及使用请求仍未核实作者原文。 **[其他 AI 逆向 · 相关项目]**
 - [Immersive Portals：AI 辅助适配 Minecraft JE 26.2 的报告](../cases/immersive-portals-ai-je262.md) — 作者称兼容新版 Minecraft、Fabric 与着色器，明说演示不是首次尝试。 **[其他 AI 逆向 · 待验证]**
 - [老游戏混淆：Claude 转伪 C 后猜错结构体尺寸的报告](../cases/claude-obfuscated-game-struct-size-failure.md) — 作者称转伪 C 很快，但遇混淆会猜结构体大小，仍须人工用 IDA 复核。 **[其他 AI 逆向 · 分析测试]**
-- [Saturn《Sonic 3D Blast》：字节匹配反编译与原生 PC 移植](../cases/sonic-3d-blast-saturn-opus-port.md) — 作者澄清是基于反编译源码的原生移植，而非静态重编译；AI加速过程历时数月。 **[其他 AI 逆向 · 进行中]**
+- [Saturn《Sonic 3D Blast》：字节匹配反编译与原生 PC 移植](../cases/sonic-3d-blast-saturn-opus-port.md) — Mr.Matt再次确认从Saturn二进制起就使用Agent AI，称原生移植经大量人工审核并能跑2008年Atom上网本；未独立测试或确认发行。 **[其他 AI 逆向 · 进行中]**
 - [Spectrum《Stonkers》：用 AI 反编译修复崩溃的 idea](../cases/stonkers-spectrum-ai-crash-fix-idea.md) — Martin Scott 提议从老游戏代码找出并修复崩溃问题，未报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Stunts：AI 逆向后重做浏览器赛车的二手线索](../cases/stunts-ai-browser-remake-report.md) — 读者称有人用 AI 重做 Stunts，改善浏览器画面与帧率；无可核验性能数据。 **[其他 AI 逆向 · 待验证]**
 - [Halo 3 Reforged：AI 反编译与128人对战的读者说法](../cases/halo3-reforged-ai-decompile-report.md) — 读者以 Halo 3 Reforged 举例声称 AI 可绕开原开发者改造经典游戏，具体 AI 贡献未证实。 **[其他 AI 逆向 · 待验证]**

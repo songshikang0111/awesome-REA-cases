@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2514 个案例与项目
+# 2522 个案例与项目
 
-**最近案例更新：**2026 年 11 月 20 日 08:06 · **最近维护：**2026 年 11 月 20 日 08:06 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 20 日 12:13 · **最近维护：**2026 年 11 月 20 日 12:13 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -29,7 +29,7 @@
 3. **[Darmoshark TOP75：在Mac控制键盘](cases/darmoshark-top75-macos-ai-protocol-report.md)** · `2026-11-18`作者回复与固定文档 — **AI辅助研究Windows工具，再用IOKit实机检查**，支持蓝牙RGB、改键、宏与定时熄灯。项目文档记录读回、回退和丢写；显示上传走USB，GIF机上播放仍待验证。本合集未测试。`未独立核验`
 4. **[Horizon：用Rust重建Minecraft Java行为](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16`介绍与固定文档 — **AI辅助重建，自报281套差分测试**，可读旧存档、连原版服务器。已读公开文档与Codex署名提交，未审完整测试结果；性能宣称有硬件条件。自备游戏，本合集未构建。`进行中`
 5. **[Underworld Exhumed：保存两部DOS地下世界](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20`介绍；`2026-11-17`固定文档 — Exhume的Claude Code技能辅助，项目报告**UW.EXE／UW2.EXE整文件字节一致**，原生与Web移植以17／13段DOS录制回放检查。均为项目报告，本合集未重跑；原生版自备游戏数据。`未独立核验`
-6. **[Windows95旅鼠：匹配函数，不夸大整包](cases/lemmings-win95-human-led-ai-reconstruction-report.md)** · `2026-11-12`介绍；`2026-11-09`固定文档 — 人类定架构，REA／Claude／Codex辅助，自报**八模块696／696函数匹配**。整EXE／DLL仍有差异，现代构建与原编译器匹配分开；自备资产，本合集未构建。`进行中`
+6. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-20`介绍与固定文档 — Agent按录制行为写Rust，项目报告**17224次字节一致，仅15837次全在Rust**，其余回退Prettier。所列M4测试中CLI约19倍含进程启动优势，预热进程内为4.2倍；本合集未重跑。`未独立核验`
 7. **[DecBench：反编译的“精确”究竟测什么？](cases/decbench-llm-decompiler-exactness-benchmark.md)** · `2026-11-19`介绍；`2026-11-11`固定文档 — 分别比较**控制流、类型与归一化重编译**。Union是任一指标完美，不是三项同时正确或整文件字节一致；还有fixup修正，未核实时榜单或运行基准。`分析测试`
 8. **[X6200：更新电台，不必换回原厂系统](cases/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16`介绍与PR合并 — **Claude辅助重建Xiegu升级流程**，已进入OpenX6X00。项目CI通过，作者报告单台升级与回退；无法读回flash，恢复未实机测试，本合集未复现。`未独立核验`
 9. **[NotTheInstagram：给无限刷加一点阻力](cases/nottheinstagram-rea-codex-flex-friction-hooks.md)** · `2026-11-15`作者文章与固定代码 — **FLEX给Codex地图，REA连接Hopper**找hook，实现每三帖等待与Reels入口两分钟暂停的自述。源码可见签名检查，实机细项仍未全确认；仅报告测试Instagram455.0.0，修改客户端有风险。`未独立核验`
@@ -50,10 +50,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **492** |
-| [硬件与设备互通](categories/hardware.md) | **665** |
-| [应用与客户端](categories/apps.md) | **1052** |
-| [算法与功能重建](categories/algorithms.md) | **305** |
+| [游戏与游戏保存](categories/games.md) | **494** |
+| [硬件与设备互通](categories/hardware.md) | **668** |
+| [应用与客户端](categories/apps.md) | **1054** |
+| [算法与功能重建](categories/algorithms.md) | **306** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

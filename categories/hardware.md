@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Meta Audio眼镜：David Rose以BLE和AirShield接入自建语音Agent](../cases/drose-meta-audio-airshield-custom-agent.md) — David Rose称逆向Meta Audio眼镜，以iPhone应用经BLE连接Grok Voice及家庭Pi／Gemini Agent；协议和实机效果未独立核验。 **[未确认使用 REA · 待验证]**
+- [RTP084与Agilex7：TANG报告AI辅助架构、DMA与100G光链路研究](../cases/tang-rtp084-agilex7-ai-dma-optical-link-report.md) — TANG将RTP084示波器架构与Agilex7 F-Tile光互连实测列为AI工业研究，称逆向双DMA并验证4587万帧零丢包；无原始测量可复核。 **[其他 AI 逆向 · 待验证]**
+- [六厂商FPGA／EDA：TANG称GPT与Gemini辅助比特流逆向及Z3证明](../cases/tang-fpga-eda-gpt-gemini-z3-vulnerability-report.md) — TANG称GPT/Codex与Gemini支撑六厂商FPGA／EDA研究，报告299项漏洞与CERT/CC标识；没有厂商清单、公告或证明可独立核验。 **[其他 AI 逆向 · 待验证]**
 - [旧Kindle稍后读：Weiran用Codex做保存文章下载应用](../cases/weiran-kindle-codex-read-later-app.md) — Weiran称越狱旧Kindle后用Codex做稍后读应用；本轮转述的KOReader／wallabag方案不是他的原实现。 **[其他 AI 逆向 · 待验证]**
 - [AlphaSmart NEO：ioma8的AI辅助研究二手报告](../cases/ioma8-alphasmart-neo-ai-research-report.md) — 布佳糖美式转述ioma8用DeepSeek、Ghidra与radare2研究AlphaSmart NEO；只称破解，没有功能、源码或验证记录。 **[其他 AI 逆向 · 待验证]**
 - [Sony A7 III无线摄像头：ioma8的AI协议研究转述](../cases/ioma8-sony-a7iii-ai-wireless-webcam-report.md) — 多帖转述ioma8用AI研究Sony A7III协议并改作无线摄像头；su8补充Ghidra MCP、Markdown／CSV验证与Rust改造流程，仍无客户端或实机测量。 **[其他 AI 逆向 · 待验证]**
