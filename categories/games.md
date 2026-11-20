@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Kirby到PPSSPP：XITRIX用REA研究GameShare启动调用](../cases/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md) — XITRIX称用REA研究Kirby如何调用系统SDK启动GameShare，再从PPSSPP homebrew调用相同API；双实例与共享游玩是作者报告，未实机核验。 **[REA · 待验证]**
+- [Into The Shadows演示版：RetroHQ提出Ghidra配Claude恢复引擎的idea](../cases/into-the-shadows-demo-ghidra-claude-engine-idea.md) — RetroHQ建议用Ghidra与Claude恢复1995年Into The Shadows演示版引擎，并补充仅指demo，不是找回未发行完整游戏；未报告实施。 **[其他 AI 逆向 · 待验证]**
+- [GTA6自动通关：Illya以逆向加MCP连接Codex／Claude作反问式idea](../cases/gta6-mcp-codex-claude-autoplay-rhetorical-idea.md) — Illya Bakurov设想逆向GTA6、建MCP并让Codex或Claude Code代玩通关，用来讨论人们想委托什么；原帖明确说无人完成，没有开工或成果证据。 **[其他 AI 逆向 · 待验证]**
 - [Underworld Exhumed：Exhume的Claude Code技能辅助重建两部Ultima Underworld](../cases/underworld-exhumed-ultima-claude-skills-byte-matching.md) — Ultima Codex介绍两作字节匹配反编译与原生／Web移植；项目报告两份EXE一致和17／13段DOS回放对照，本合集未重跑。 **[其他 AI 逆向 · 待验证]**
 - [GTA6预加载分析：Murr转述用AI筛查212GB文件与真假线索](../cases/murr-gta6-ai-preload-signal-analysis-report.md) — Murr称有人用AI扫描GTA6的212GB预加载文件以区分线索与伪造，未给模型、脚本或具体核查结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI警察行为：RazeDen称用Opus逐读50帧HUD推断追捕规则](../cases/razeden-gta6-hud-opus-police-behavior-analysis.md) — RazeDen报告PS5 Remote Play、ffmpeg与Claude Code／Opus 5.5分析100秒追逐的50帧HUD，列12秒计时等推断；没有原始帧、会话或账单，不是恢复代码。 **[其他 AI 逆向 · 分析测试]**

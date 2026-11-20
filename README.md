@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2510 cases & projects
+# 2514 cases & projects
 
-**Latest case update:** November 20, 2026, 04:13 · **Last maintained:** November 20, 2026, 04:13 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 20, 2026, 08:06 · **Last maintained:** November 20, 2026, 08:06 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: rebuild old binaries, query a circuit, make devices usable and slow an endless feed. Concrete work and candid limits take priority over launch promises; the full index also includes ideas and failed attempts. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: rebuild old binaries, query a circuit, share a game and make devices usable. Concrete work and candid limits take priority over launch promises; the full index also includes ideas and failed attempts. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[Proteus: ask Claude about an existing circuit](cases/en/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17` author thread — Arpit researches **undocumented .pdsprj files for an MCP bridge**, reporting schematic queries, connection tracing, value edits and bills of materials. Placement and wiring remain planned; headless simulation returns no waveforms. Thread read, code and circuits not tested here. `In progress`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[DecBench: what does “exact” decompilation measure?](cases/en/decbench-llm-decompiler-exactness-benchmark.md)** · `2026-11-19` report; `2026-11-11` pinned docs — Compare **control flow, types and normalized recompilation** separately. Union means perfect on any one metric, not all three or a byte-identical executable. Fixups matter; the live leaderboard and benchmark were not verified here. `Analysis / test`
 8. **[X6200: update the radio without swapping back to stock](cases/en/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16` report and PR merge — **Claude-assisted reconstruction of Xiegu's updater** reaches OpenX6X00. The project CI passed; the author reports upgrades and rollback on one radio. No flash readback, recovery not hardware-tested, and no reproduction here. `Unverified here`
 9. **[NotTheInstagram: make endless scrolling less effortless](cases/en/nottheinstagram-rea-codex-flex-friction-hooks.md)** · `2026-11-15` author article and pinned code — **FLEX gives Codex a map; REA connects Hopper** to find hooks adding three-post waits and a two-minute Reels pause. Signature checks are visible in code; individual device checks remain incomplete. Instagram 455.0.0 only reported tested; modified-client risks remain. `Unverified here`
-10. **[rea-video: a convincing explanation still did not explain the trick](cases/en/pamela-rea-video-codex-food-video-analysis-failure.md)** · `2026-11-17` author report — Pamela asks **Codex to decode seamless food-video edits**, then requests diagrams and more concrete images. Several rounds leave the filming method unresolved; she says the model also admits failure. One reported attempt, not a general verdict; video and session unchecked here. `Failed attempt`
+10. **[Kirby to PPSSPP: reuse GameShare from homebrew](cases/en/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md)** · `2026-11-20` author thread — XITRIX says **REA revealed Kirby's system-SDK startup calls**, reused to share a second PPSSPP instance with another Switch. A concrete interoperability report, not full Kirby source recovery; API code, demo and consoles not tested here. `Unverified here`
 
 ## Classic cases
 
@@ -50,9 +50,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **489** |
+| [Games & preservation](categories/en/games.md) | **492** |
 | [Hardware & interoperability](categories/en/hardware.md) | **665** |
-| [Applications & clients](categories/en/apps.md) | **1051** |
+| [Applications & clients](categories/en/apps.md) | **1052** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **305** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

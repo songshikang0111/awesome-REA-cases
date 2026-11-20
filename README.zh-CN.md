@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2510 个案例与项目
+# 2514 个案例与项目
 
-**最近案例更新：**2026 年 11 月 20 日 04:13 · **最近维护：**2026 年 11 月 20 日 04:13 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 20 日 08:06 · **最近维护：**2026 年 11 月 20 日 08:06 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：重建旧二进制，查询已有电路，让设备更好用，也让无限刷不再那么顺手。具体工程与坦诚的边界优先于发布承诺，完整目录也保留 idea 与失败尝试。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：重建旧二进制，查询已有电路，分享游戏，让设备更好用。具体工程与坦诚的边界优先于发布承诺，完整目录也保留 idea 与失败尝试。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[Proteus：让Claude回答已有电路的问题](cases/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17`作者串 — Arpit研究**未文档化.pdsprj，制作MCP桥接**，报告可查原理图、追连线、改参数与生成物料清单。放元件和布线仍待做，无头仿真不返回波形。已读串文，未测代码与电路。`进行中`
@@ -33,7 +33,7 @@
 7. **[DecBench：反编译的“精确”究竟测什么？](cases/decbench-llm-decompiler-exactness-benchmark.md)** · `2026-11-19`介绍；`2026-11-11`固定文档 — 分别比较**控制流、类型与归一化重编译**。Union是任一指标完美，不是三项同时正确或整文件字节一致；还有fixup修正，未核实时榜单或运行基准。`分析测试`
 8. **[X6200：更新电台，不必换回原厂系统](cases/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16`介绍与PR合并 — **Claude辅助重建Xiegu升级流程**，已进入OpenX6X00。项目CI通过，作者报告单台升级与回退；无法读回flash，恢复未实机测试，本合集未复现。`未独立核验`
 9. **[NotTheInstagram：给无限刷加一点阻力](cases/nottheinstagram-rea-codex-flex-friction-hooks.md)** · `2026-11-15`作者文章与固定代码 — **FLEX给Codex地图，REA连接Hopper**找hook，实现每三帖等待与Reels入口两分钟暂停的自述。源码可见签名检查，实机细项仍未全确认；仅报告测试Instagram455.0.0，修改客户端有风险。`未独立核验`
-10. **[rea-video：解释得像样，仍没拆懂剪辑魔术](cases/pamela-rea-video-codex-food-video-analysis-failure.md)** · `2026-11-17`作者报告 — Pamela让**Codex拆吃播无痕取物**，再要拍摄示意图与实物图。来回多轮仍不明白具体拍法，她称模型也承认失败。只是一次自述尝试，不是工具总评；未审视频与完整会话。`失败实验`
+10. **[Kirby到PPSSPP：让homebrew复用GameShare](cases/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md)** · `2026-11-20`作者串 — XITRIX称**REA找出Kirby启动系统SDK的调用**，再用于把第二个PPSSPP实例分享给另一台Switch。是具体互通报告，不是找回整部Kirby源码；未核验API代码、演示与主机。`未独立核验`
 
 ## 经典案例
 
@@ -50,9 +50,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **489** |
+| [游戏与游戏保存](categories/games.md) | **492** |
 | [硬件与设备互通](categories/hardware.md) | **665** |
-| [应用与客户端](categories/apps.md) | **1051** |
+| [应用与客户端](categories/apps.md) | **1052** |
 | [算法与功能重建](categories/algorithms.md) | **305** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

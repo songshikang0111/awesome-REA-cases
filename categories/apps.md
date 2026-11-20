@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Agent-Kernel-Toolbox：用结构化观察降低AI理解软件的交互开销](../cases/agent-kernel-toolbox-structured-ai-program-analysis.md) — Āpaceum介绍测试版工具包，以MCP与Skills给AI读取网页、原生控件和运行信息，并称支持静态／动态逆向、解包与局部虚拟化；未实测功能或token收益。 **[其他 AI 逆向 · 相关项目]**
 - [NotTheInstagram：FLEX给Codex指路，用REA给无限刷加阻力](../cases/nottheinstagram-rea-codex-flex-friction-hooks.md) — Kunal用Codex、REA、Hopper与FLEX研究iOS Instagram，注入框架限制信息流与Reels；源码支持签名检查，实机效果仍为作者报告。 **[REA · 待验证]**
 - [微信输入法：Xiao用AI反编译后对私有API的简短观察](../cases/xiao-wechat-input-ai-decompilation-private-api-report.md) — Xiao称AI反编译微信输入法，并感叹私有API；没有平台、版本、接口名或调用验证，按有限研究报告保留。 **[其他 AI 逆向 · 待验证]**
 - [Renfe CLI：研究网页API，让Agent查西班牙火车与延误](../cases/renfe-cli-undocumented-web-api-agent-interoperability.md) — Luis以未文档化Renfe API制作JSON优先CLI，供Agent查车次、票价和延误；Hugo正做MCP，未在此调用铁路服务。 **[未确认使用 REA · 进行中]**

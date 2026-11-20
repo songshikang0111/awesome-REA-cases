@@ -55,7 +55,7 @@
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](../cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
 - [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](../cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**
 - [一段素材做30条试投短片：REA反推视频格式与剪辑风格的idea](../cases/rea-video-trial-reel-format-tournament-idea.md) — ericosiu建议用面向视频的Reverse engineer anything复制格式和剪辑风格，再将素材剪成30种开头、结构与时长试投；未给工具实现或真实投放结果。 **[REA · 待验证]**
-- [仅作者持源码的剥符号程序：Kimmmmmm称REA约28秒恢复逻辑](../cases/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm称REA正确重建一个仅自己持源码的剥符号程序逻辑，耗时约28秒，并提醒深入分析依赖较重的Ghidra安装；没有样本或对照结果。 **[REA · 分析测试]**
+- [Kimmmmmm的REA自测：约28秒恢复报告与后续有无工具成本对照](../cases/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm先称REA约28秒恢复私有剥符号程序逻辑，后报告同AI同目标有无REA均正确、REA约三倍成本；样本关联及计费口径未公开。 **[REA · 分析测试]**
 - [AGENTS.md与记忆冲突：Sparshith用小样本黑盒实验反推Claude Code／Codex优先级](../cases/sparsamp-agent-memory-agents-md-conflict-probes.md) — Sparshith Sampath每设置五次，比较CSV／JSON、相差15天的偏好与3美元付费许可；称Codex始终依AGENTS.md，Claude会考虑新旧和更安全选择，未区分模型与harness原因。 **[其他 AI 逆向 · 分析测试]**
 - [BLADE：Noah Zixin Zhang宣布对抗BLA，让REA继续分析](../cases/noah-blade-anti-bla-rea-project.md) — Noah Zixin Zhang在同晚两帖宣布BLADE，后给出Bypass LLM Agent Defense Engine全名；目标是对抗BLA阻碍Agent分析的防御，尚无已审源码或测试。 **[REA · 待验证]**
 - [CyberBinGym：补丁二进制帮助Agent恢复漏洞，但88%恢复不等于20%利用](../cases/cyberbingym-stripped-binary-patch-agent-benchmark.md) — 100个真实漏洞任务只给去符号的新旧二进制，论文报告最强Agent恢复88%、利用20%；补丁与加固对照只在限定子集，未独立复跑。 **[其他 AI 逆向 · 分析测试]**

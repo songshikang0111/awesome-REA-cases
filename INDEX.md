@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2510 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2514 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（489）
+- [游戏与游戏保存](categories/games.md)（492）
 - [硬件与设备互通](categories/hardware.md)（665）
-- [应用与客户端](categories/apps.md)（1051）
+- [应用与客户端](categories/apps.md)（1052）
 - [算法与功能重建](categories/algorithms.md)（305）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [Kirby到PPSSPP：XITRIX用REA研究GameShare启动调用](cases/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md) — XITRIX称用REA研究Kirby如何调用系统SDK启动GameShare，再从PPSSPP homebrew调用相同API；双实例与共享游玩是作者报告，未实机核验。 **[REA · 待验证]**
+- [Into The Shadows演示版：RetroHQ提出Ghidra配Claude恢复引擎的idea](cases/into-the-shadows-demo-ghidra-claude-engine-idea.md) — RetroHQ建议用Ghidra与Claude恢复1995年Into The Shadows演示版引擎，并补充仅指demo，不是找回未发行完整游戏；未报告实施。 **[其他 AI 逆向 · 待验证]**
+- [GTA6自动通关：Illya以逆向加MCP连接Codex／Claude作反问式idea](cases/gta6-mcp-codex-claude-autoplay-rhetorical-idea.md) — Illya Bakurov设想逆向GTA6、建MCP并让Codex或Claude Code代玩通关，用来讨论人们想委托什么；原帖明确说无人完成，没有开工或成果证据。 **[其他 AI 逆向 · 待验证]**
 - [Underworld Exhumed：Exhume的Claude Code技能辅助重建两部Ultima Underworld](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md) — Ultima Codex介绍两作字节匹配反编译与原生／Web移植；项目报告两份EXE一致和17／13段DOS回放对照，本合集未重跑。 **[其他 AI 逆向 · 待验证]**
 - [GTA6预加载分析：Murr转述用AI筛查212GB文件与真假线索](cases/murr-gta6-ai-preload-signal-analysis-report.md) — Murr称有人用AI扫描GTA6的212GB预加载文件以区分线索与伪造，未给模型、脚本或具体核查结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI警察行为：RazeDen称用Opus逐读50帧HUD推断追捕规则](cases/razeden-gta6-hud-opus-police-behavior-analysis.md) — RazeDen报告PS5 Remote Play、ffmpeg与Claude Code／Opus 5.5分析100秒追逐的50帧HUD，列12秒计时等推断；没有原始帧、会话或账单，不是恢复代码。 **[其他 AI 逆向 · 分析测试]**
@@ -520,7 +523,7 @@
 
 - [旧Kindle稍后读：Weiran用Codex做保存文章下载应用](cases/weiran-kindle-codex-read-later-app.md) — Weiran称越狱旧Kindle后用Codex做稍后读应用；本轮转述的KOReader／wallabag方案不是他的原实现。 **[其他 AI 逆向 · 待验证]**
 - [AlphaSmart NEO：ioma8的AI辅助研究二手报告](cases/ioma8-alphasmart-neo-ai-research-report.md) — 布佳糖美式转述ioma8用DeepSeek、Ghidra与radare2研究AlphaSmart NEO；只称破解，没有功能、源码或验证记录。 **[其他 AI 逆向 · 待验证]**
-- [Sony A7 III无线摄像头：ioma8的AI协议研究转述](cases/ioma8-sony-a7iii-ai-wireless-webcam-report.md) — 候选转述ioma8用AI摸清Sony A7III通信协议并改作无线摄像头，另帖强调单假设测试；没有协议文档、客户端或延迟测量。 **[其他 AI 逆向 · 待验证]**
+- [Sony A7 III无线摄像头：ioma8的AI协议研究转述](cases/ioma8-sony-a7iii-ai-wireless-webcam-report.md) — 多帖转述ioma8用AI研究Sony A7III协议并改作无线摄像头；su8补充Ghidra MCP、Markdown／CSV验证与Rust改造流程，仍无客户端或实机测量。 **[其他 AI 逆向 · 待验证]**
 - [MiniFreak固件：ioma8的AI辅助合成器研究转述](cases/ioma8-minifreak-ai-firmware-secondary-report.md) — MiniFreak被列为ioma8借AI制作固件的目标，介绍给出笔记与单假设测试流程，但未公开固件功能、代码或刷写结果。 **[其他 AI 逆向 · 待验证]**
 - [OP-Z固件：ioma8的AI辅助研究二手线索](cases/ioma8-op-z-ai-firmware-secondary-report.md) — 布佳糖美式将OP-Z列入ioma8的AI固件项目，没有具体功能或实机记录；厂商背景仅用于解释便携合成器与音序器。 **[其他 AI 逆向 · 待验证]**
 - [AULA F75的ABNT2固件：Cabureta让Claude尝试修复](cases/cabureta-aula-f75-claude-abnt2-firmware-repair.md) — Cabureta抱怨自己的AULA F75巴西ABNT2布局固件质量，让Claude修；没有故障细节、固件产物或成功结果。 **[其他 AI 逆向 · 进行中]**
@@ -1186,6 +1189,7 @@
 
 ### 应用与客户端
 
+- [Agent-Kernel-Toolbox：用结构化观察降低AI理解软件的交互开销](cases/agent-kernel-toolbox-structured-ai-program-analysis.md) — Āpaceum介绍测试版工具包，以MCP与Skills给AI读取网页、原生控件和运行信息，并称支持静态／动态逆向、解包与局部虚拟化；未实测功能或token收益。 **[其他 AI 逆向 · 相关项目]**
 - [NotTheInstagram：FLEX给Codex指路，用REA给无限刷加阻力](cases/nottheinstagram-rea-codex-flex-friction-hooks.md) — Kunal用Codex、REA、Hopper与FLEX研究iOS Instagram，注入框架限制信息流与Reels；源码支持签名检查，实机效果仍为作者报告。 **[REA · 待验证]**
 - [微信输入法：Xiao用AI反编译后对私有API的简短观察](cases/xiao-wechat-input-ai-decompilation-private-api-report.md) — Xiao称AI反编译微信输入法，并感叹私有API；没有平台、版本、接口名或调用验证，按有限研究报告保留。 **[其他 AI 逆向 · 待验证]**
 - [Renfe CLI：研究网页API，让Agent查西班牙火车与延误](cases/renfe-cli-undocumented-web-api-agent-interoperability.md) — Luis以未文档化Renfe API制作JSON优先CLI，供Agent查车次、票价和延误；Hugo正做MCP，未在此调用铁路服务。 **[未确认使用 REA · 进行中]**
@@ -2293,7 +2297,7 @@
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
 - [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**
 - [一段素材做30条试投短片：REA反推视频格式与剪辑风格的idea](cases/rea-video-trial-reel-format-tournament-idea.md) — ericosiu建议用面向视频的Reverse engineer anything复制格式和剪辑风格，再将素材剪成30种开头、结构与时长试投；未给工具实现或真实投放结果。 **[REA · 待验证]**
-- [仅作者持源码的剥符号程序：Kimmmmmm称REA约28秒恢复逻辑](cases/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm称REA正确重建一个仅自己持源码的剥符号程序逻辑，耗时约28秒，并提醒深入分析依赖较重的Ghidra安装；没有样本或对照结果。 **[REA · 分析测试]**
+- [Kimmmmmm的REA自测：约28秒恢复报告与后续有无工具成本对照](cases/kimwong-rea-private-stripped-program-28s-test.md) — Kimmmmmm先称REA约28秒恢复私有剥符号程序逻辑，后报告同AI同目标有无REA均正确、REA约三倍成本；样本关联及计费口径未公开。 **[REA · 分析测试]**
 - [AGENTS.md与记忆冲突：Sparshith用小样本黑盒实验反推Claude Code／Codex优先级](cases/sparsamp-agent-memory-agents-md-conflict-probes.md) — Sparshith Sampath每设置五次，比较CSV／JSON、相差15天的偏好与3美元付费许可；称Codex始终依AGENTS.md，Claude会考虑新旧和更安全选择，未区分模型与harness原因。 **[其他 AI 逆向 · 分析测试]**
 - [BLADE：Noah Zixin Zhang宣布对抗BLA，让REA继续分析](cases/noah-blade-anti-bla-rea-project.md) — Noah Zixin Zhang在同晚两帖宣布BLADE，后给出Bypass LLM Agent Defense Engine全名；目标是对抗BLA阻碍Agent分析的防御，尚无已审源码或测试。 **[REA · 待验证]**
 - [CyberBinGym：补丁二进制帮助Agent恢复漏洞，但88%恢复不等于20%利用](cases/cyberbingym-stripped-binary-patch-agent-benchmark.md) — 100个真实漏洞任务只给去符号的新旧二进制，论文报告最强Agent恢复88%、利用20%；补丁与加固对照只在限定子集，未独立复跑。 **[其他 AI 逆向 · 分析测试]**
