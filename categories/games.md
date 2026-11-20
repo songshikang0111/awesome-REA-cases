@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [GTA VI文件研究idea：monokern把本地Strata模型接入Hermes](../cases/monokern-gta6-local-strata-hermes-file-research-idea.md) — monokern称在M4 Pro用Strata本地运行模型并连接Hermes，想找GTA VI文件与删减过场；只报告搭环境，没有文件提取、反编译或PC移植结果。 **[其他 AI 逆向 · 待验证]**
 - [Yoda Stories：Ghidra配Claude转写引擎，字节匹配暂停、SDL仍在推进](../cases/yoda-stories-ghidra-claude-engine-transcription.md) — whyamas介绍ShinyQuagsire的Yodecomp；固定README报告100%引擎转写C++并可构建EXE，但字节匹配因停滞暂停。作者手工监督命名与Ghidra记录，非全自动完成。 **[其他 AI 逆向 · 进行中]**
 - [Tiger Woods PGA Tour 2004：项目报告7647函数匹配，Claude参与后续维护](../cases/tiger-woods-pga2004-claude-matching-decompilation.md) — whyamas称GameCube版7647函数字节一致；固定README支持项目的完整匹配声明，Claude署名提交可见维护工作，不证明全由AI完成或已独立重建。 **[其他 AI 逆向 · 待验证]**
 - [Xenogears PC：匹配反编译之上的原生移植与Claude署名维护](../cases/xenogears-claude-native-port-report.md) — whyamas称EtherAura做Linux／Windows原生版、70提交中68署名Claude；文档与抽读提交支持项目与AI参与，未复核68计数或实机玩法。 **[其他 AI 逆向 · 进行中]**
@@ -409,7 +410,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](../cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](../cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](../cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植idea：Linux／Vulkan、Qwen与Claude／REA本地Windows愿望](../cases/gta6-ai-decompile-prediction.md) — GTA6的Linux／Vulkan、Qwen与Claude／REA移植愿望之外，Matthew Soro又称有人筹备众包AI反编译；六个月内PC发布仍是预测，没有项目仓库或构建结果。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](../cases/gta6-ai-decompile-prediction.md) — 既有Linux／Vulkan、Qwen、Claude／REA移植愿望后，ViceDEV称已重编译GTA VI文件，完整视频却以传播门槛延后；没有仓库、构建日志或可玩PC版，众包与期限预测也未核实。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](../cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](../cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](../cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**

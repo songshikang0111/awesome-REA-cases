@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2562 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2569 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（501）
-- [硬件与设备互通](categories/hardware.md)（673）
-- [应用与客户端](categories/apps.md)（1065）
+- [游戏与游戏保存](categories/games.md)（502）
+- [硬件与设备互通](categories/hardware.md)（674）
+- [应用与客户端](categories/apps.md)（1070）
 - [算法与功能重建](categories/algorithms.md)（323）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [GTA VI文件研究idea：monokern把本地Strata模型接入Hermes](cases/monokern-gta6-local-strata-hermes-file-research-idea.md) — monokern称在M4 Pro用Strata本地运行模型并连接Hermes，想找GTA VI文件与删减过场；只报告搭环境，没有文件提取、反编译或PC移植结果。 **[其他 AI 逆向 · 待验证]**
 - [Yoda Stories：Ghidra配Claude转写引擎，字节匹配暂停、SDL仍在推进](cases/yoda-stories-ghidra-claude-engine-transcription.md) — whyamas介绍ShinyQuagsire的Yodecomp；固定README报告100%引擎转写C++并可构建EXE，但字节匹配因停滞暂停。作者手工监督命名与Ghidra记录，非全自动完成。 **[其他 AI 逆向 · 进行中]**
 - [Tiger Woods PGA Tour 2004：项目报告7647函数匹配，Claude参与后续维护](cases/tiger-woods-pga2004-claude-matching-decompilation.md) — whyamas称GameCube版7647函数字节一致；固定README支持项目的完整匹配声明，Claude署名提交可见维护工作，不证明全由AI完成或已独立重建。 **[其他 AI 逆向 · 待验证]**
 - [Xenogears PC：匹配反编译之上的原生移植与Claude署名维护](cases/xenogears-claude-native-port-report.md) — whyamas称EtherAura做Linux／Windows原生版、70提交中68署名Claude；文档与抽读提交支持项目与AI参与，未复核68计数或实机玩法。 **[其他 AI 逆向 · 进行中]**
@@ -433,7 +434,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植idea：Linux／Vulkan、Qwen与Claude／REA本地Windows愿望](cases/gta6-ai-decompile-prediction.md) — GTA6的Linux／Vulkan、Qwen与Claude／REA移植愿望之外，Matthew Soro又称有人筹备众包AI反编译；六个月内PC发布仍是预测，没有项目仓库或构建结果。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](cases/gta6-ai-decompile-prediction.md) — 既有Linux／Vulkan、Qwen、Claude／REA移植愿望后，ViceDEV称已重编译GTA VI文件，完整视频却以传播门槛延后；没有仓库、构建日志或可玩PC版，众包与期限预测也未核实。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**
@@ -530,6 +531,7 @@
 
 ### 硬件与设备互通
 
+- [Garmin固件研究受阻：pintail称请Claude查看手表后遭模型降档](cases/pintail-garmin-firmware-claude-access-friction.md) — pintail称让Claude看自己的Garmin手表固件时被降到Opus4.8；是受阻体验，没有型号、拒绝记录、固件发现或服务原因核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenWrt指定网关：Codex参考华硕交互，重做按设备配置入口](cases/openwrt-codex-asus-gateway-workflow-rebuild.md) — 小京蛇称让Codex做华硕式指定网关插件；固定文档用LuCI维护dnsmasq标签，只报一台ImmortalWrt实测，25.12的apk固件不能直接装现有IPK。 **[其他 AI 逆向 · 待验证]**
 - [PicPak电子墨水相框：Claude辅助固件与自托管替代，项目仍进行中](cases/igottz-eink-frame-claude-selfhosted-firmware.md) — whyamas转述GottZ用Claude研究云绑定相框；open-PicPak文档报告BLE与图像管线研究、WiFi拉图及恢复保护，固件与后端仍进行中，未实机复现。 **[其他 AI 逆向 · 进行中]**
 - [锅炉室外温度补偿：loganb让GPT从APK与FCC材料研究服务口](cases/loganb-gpt-boiler-service-port-outdoor-reset.md) — loganb想配置outdoor reset，称GPT正从Android APK与FCC资料逆向锅炉服务接口；尚未完成，不是已安全控制锅炉或有节能实测。 **[其他 AI 逆向 · 进行中]**
@@ -636,7 +638,7 @@
 - [Soundcore D3200到Mac输入法：让Agent改造实时取流客户端的idea](cases/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔提出让Agent改造tacshi/Soundcore，把录音豆用于Mac微信语音输入；项目文档支持蓝牙取流与可选转写，但光标粘贴仍是待补步骤，零延时未测。 **[其他 AI 逆向 · 进行中]**
 - [旧Ford的SYNC升3.4：Trevin Chow在REA语境下尝试车机升级](cases/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow以Reverse engineer anything开场，称尝试将旧Ford的SYNC升至3.4；未报告成功、车型、现有版本或具体工具调用。 **[未确认使用 REA · 进行中]**
 - [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**
-- [Devsec AI的未具名平板：36小时自述后，Omarchy性能与声音仍未解决](cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI此前称平板逆向已投入36小时，11月15日又报告Omarchy性能优化和声音仍有问题；设备型号、模型和修复实现未知，保持进行中。 **[未确认使用 REA · 进行中]**
+- [Devsec AI的Omarchy平板：8／11英寸待发布，13英寸仍开发](cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI在36小时与声音／性能受阻自述后，称8／11英寸4GB版本将发布、13英寸Snapdragon仍开发；无仓库或修复测试，不能确认旧问题已解决。 **[未确认使用 REA · 进行中]**
 - [自家可视对讲：Claude研究Android协议，作者称CLI开门与视频只加密前64字节](cases/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT称Claude研究可视对讲Android应用与通信协议，用自制CLI开自家前门，并发现蜂窝网络视频每帧仅前64字节加密；无型号或抓包核验。 **[其他 AI 逆向 · 进行中]**
 - [云端停服后的Surfboard W161：作者称Codex识别USB接入引脚以进入路由器](cases/surfboard-w161-codex-usb-pin-access-report.md) — hello称Codex帮助研究失去厂商云端支持的Surfboard W161 WiFi路由器，用便宜USB适配器识别应接引脚以进入设备；未报告恢复联网或新固件。 **[其他 AI 逆向 · 进行中]**
 - [富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用](cases/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。 **[其他 AI 逆向 · 待验证]**
@@ -1206,6 +1208,11 @@
 
 ### 应用与客户端
 
+- [LiberNT：AI辅助Windows 11黑箱兼容研究，仍是测试用预发布系统](cases/libernt-ai-windows11-blackbox-compatibility.md) — HKEPC介绍LiberNT；固定项目文档确认AI辅助文档与实现行为对照，使用SDK／WDK、公开符号与Windows 11黑箱测试。性能宣传未复查，不等于日常可用的Windows替代。 **[其他 AI 逆向 · 进行中]**
+- [internetvin的链接到本机工具按钮：重建后推送GitHub的工作流自述](cases/internetvin-link-to-local-tool-button-workflow.md) — internetvin称贴链接按按钮即可理解内容、重建本机工具并推GitHub，供后续扩展；未给目标清单、仓库或测试，不采信任意链接都能逆向。 **[未确认使用 REA · 进行中]**
+- [Windows自写软件的INI研究：Kimi通过SSH却先启动REA技能](cases/broke-ddn-kimi-windows-ini-rea-detour.md) — Дима Давыдов称Claude对数据采集任务受阻后改用Kimi Code，让其研究Windows软件INI配置，结果Agent先调用reverse-engineer-anything；未报告配置成功。 **[REA · 分析测试]**
+- [antiloki的REA团队：浏览器复建SaaS前用human gate等待人工登录](cases/antiloki-browser-rea-team-human-gate-project.md) — DanJ称antiloki以YAML复用团队，用浏览器控制与human gate组织SaaS研究／复建；没有具名目标验收、代码或token测试，开源邀请仍待发布。 **[未确认使用 REA · 进行中]**
+- [离线Roblox Studio尝试：Astolfo-Lock称sol6.2只下载了GitHub项目](cases/astolfolock-roblox-studio-offline-rea-mismatch.md) — Astolfo-Lock要求离线Roblox Studio，告知可用REA与Ghidra；作者称sol6.2实际只下载了GitHub项目，没有逆向或离线验收结果。 **[未确认使用 REA · 分析测试]**
 - [Breaktweaker反编译：b_mccarthy报告Claude称不可行的受阻尝试](cases/breaktweaker-claude-decompile-attempt.md) — b_mccarthy称因Breaktweaker停产而尝试反编译，但Claude告诉他不可行；没有成功恢复源码、构建或运行结果。 **[其他 AI 逆向 · 进行中]**
 - [smolagents：Gaso称用REA与DeepSeek Harness拆解开源Agent框架](cases/deepseek-rea-smolagents-analysis-report.md) — Gaso把Hugging Face的smolagents列为REA接DeepSeek Harness的三个分析目标之一，称输出证据文件；未读视频，不填具体架构发现。 **[REA · 分析测试]**
 - [Puck页面构建器：REA与DeepSeek Harness的具名分析实验](cases/deepseek-rea-puck-analysis-report.md) — Gaso称DeepSeek V4.1 Flash经REA与Harness拆解Puck并生成证据材料；没有读到报告或视频，不宣称已复刻编辑器。 **[REA · 分析测试]**

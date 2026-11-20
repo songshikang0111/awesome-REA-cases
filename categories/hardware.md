@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Garmin固件研究受阻：pintail称请Claude查看手表后遭模型降档](../cases/pintail-garmin-firmware-claude-access-friction.md) — pintail称让Claude看自己的Garmin手表固件时被降到Opus4.8；是受阻体验，没有型号、拒绝记录、固件发现或服务原因核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenWrt指定网关：Codex参考华硕交互，重做按设备配置入口](../cases/openwrt-codex-asus-gateway-workflow-rebuild.md) — 小京蛇称让Codex做华硕式指定网关插件；固定文档用LuCI维护dnsmasq标签，只报一台ImmortalWrt实测，25.12的apk固件不能直接装现有IPK。 **[其他 AI 逆向 · 待验证]**
 - [PicPak电子墨水相框：Claude辅助固件与自托管替代，项目仍进行中](../cases/igottz-eink-frame-claude-selfhosted-firmware.md) — whyamas转述GottZ用Claude研究云绑定相框；open-PicPak文档报告BLE与图像管线研究、WiFi拉图及恢复保护，固件与后端仍进行中，未实机复现。 **[其他 AI 逆向 · 进行中]**
 - [锅炉室外温度补偿：loganb让GPT从APK与FCC材料研究服务口](../cases/loganb-gpt-boiler-service-port-outdoor-reset.md) — loganb想配置outdoor reset，称GPT正从Android APK与FCC资料逆向锅炉服务接口；尚未完成，不是已安全控制锅炉或有节能实测。 **[其他 AI 逆向 · 进行中]**
@@ -108,7 +109,7 @@
 - [Soundcore D3200到Mac输入法：让Agent改造实时取流客户端的idea](../cases/soundcore-d3200-agent-mac-dictation-adaptation-idea.md) — AI产品黄叔提出让Agent改造tacshi/Soundcore，把录音豆用于Mac微信语音输入；项目文档支持蓝牙取流与可选转写，但光标粘贴仍是待补步骤，零延时未测。 **[其他 AI 逆向 · 进行中]**
 - [旧Ford的SYNC升3.4：Trevin Chow在REA语境下尝试车机升级](../cases/ford-sync34-rea-upgrade-attempt.md) — Trevin Chow以Reverse engineer anything开场，称尝试将旧Ford的SYNC升至3.4；未报告成功、车型、现有版本或具体工具调用。 **[未确认使用 REA · 进行中]**
 - [ESP32固件自测：Phosphen称REA6.9拆出五段并验证校验和与SHA-256](../cases/phosphen-rea69-esp32-five-segment-test.md) — Phosphen称给自建REA6.9输入ESP32镜像后得到五个segment及校验和、SHA-256验证；未给镜像、分区含义或分析日志，不代表固件语义已恢复。 **[REA · 分析测试]**
-- [Devsec AI的未具名平板：36小时自述后，Omarchy性能与声音仍未解决](../cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI此前称平板逆向已投入36小时，11月15日又报告Omarchy性能优化和声音仍有问题；设备型号、模型和修复实现未知，保持进行中。 **[未确认使用 REA · 进行中]**
+- [Devsec AI的Omarchy平板：8／11英寸待发布，13英寸仍开发](../cases/devsec-ai-tablet-36hour-rea-attempt.md) — Devsec AI在36小时与声音／性能受阻自述后，称8／11英寸4GB版本将发布、13英寸Snapdragon仍开发；无仓库或修复测试，不能确认旧问题已解决。 **[未确认使用 REA · 进行中]**
 - [自家可视对讲：Claude研究Android协议，作者称CLI开门与视频只加密前64字节](../cases/iaimforgoat-claude-video-intercom-protocol-report.md) — @IaimforGOAT称Claude研究可视对讲Android应用与通信协议，用自制CLI开自家前门，并发现蜂窝网络视频每帧仅前64字节加密；无型号或抓包核验。 **[其他 AI 逆向 · 进行中]**
 - [云端停服后的Surfboard W161：作者称Codex识别USB接入引脚以进入路由器](../cases/surfboard-w161-codex-usb-pin-access-report.md) — hello称Codex帮助研究失去厂商云端支持的Surfboard W161 WiFi路由器，用便宜USB适配器识别应接引脚以进入设备；未报告恢复联网或新固件。 **[其他 AI 逆向 · 进行中]**
 - [富士X half无线导图：sneha称Opus研究旧协议后制作Mac应用](../cases/fujifilm-x-half-opus-wireless-mac-import-report.md) — sneha称Opus5.5参考旧富士开源逆向项目、逐步测试自己的X half，发现蓝牙时间槽与Wi-Fi启动码差异，做出Mac导入全分辨率JPEG及上传Google Photos的应用。 **[其他 AI 逆向 · 待验证]**

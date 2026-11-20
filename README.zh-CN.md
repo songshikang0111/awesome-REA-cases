@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2562 个案例与项目
+# 2569 个案例与项目
 
-**最近案例更新：**2026 年 11 月 21 日 00:17 · **最近维护：**2026 年 11 月 21 日 00:17 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 21 日 04:18 · **最近维护：**2026 年 11 月 21 日 04:18 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：重建旧二进制，对照街机时序，查询已有电路，让设备更好用。具体方法与坦诚的测试边界比发布宣称更重要；完整目录也保留早期 idea 与失败尝试。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：重建旧二进制，对照Windows行为与街机时序，让设备更好用。具体方法与坦诚的测试边界比发布宣称更重要；完整目录也保留早期 idea 与失败尝试。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[Proteus：让Claude回答已有电路的问题](cases/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17`作者串 — Arpit研究**未文档化.pdsprj，制作MCP桥接**，报告可查原理图、追连线、改参数与生成物料清单。放元件和布线仍待做，无头仿真不返回波形。已读串文，未测代码与电路。`进行中`
@@ -31,7 +31,7 @@
 5. **[Underworld Exhumed：保存两部DOS地下世界](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20`介绍；`2026-11-17`固定文档 — Exhume的Claude Code技能辅助，项目报告**UW.EXE／UW2.EXE整文件字节一致**，原生与Web移植以17／13段DOS录制回放检查。均为项目报告，本合集未重跑；原生版自备游戏数据。`未独立核验`
 6. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-20`介绍与固定文档 — Agent按录制行为写Rust，项目报告**17224次字节一致，仅15837次全在Rust**，其余回退Prettier。所列M4测试中CLI约19倍含进程启动优势，预热进程内为4.2倍；本合集未重跑。`未独立核验`
 7. **[CPS-2 Recomp：原生街机，还要对照时序](cases/cps2recomp-claude-native-arcade-recompilation.md)** · `2026-11-20`介绍与固定文档 — **Claude署名参与C++原生移植**，在训练和回滚联机之外补板级等待与DMA时序。项目报告SFA2工作RAM **5634／5671帧匹配参考**，仍有11帧偏移，另一游戏会分歧；参考是模型而非实机，harness尚未公开。自备ROM，本合集未运行。`进行中`
-8. **[Yoda Stories：让Claude推进，也要纠正它的猜测](cases/yoda-stories-ghidra-claude-engine-transcription.md)** · `2026-11-20`介绍；`2026-09-09`固定文档 — **Ghidra与可接续计划辅助，项目报告引擎转写C++**。作者纠正命名、要求结构写回Ghidra；字节匹配停滞，SDL仍推进。自备资产，本合集未构建。`进行中`
+8. **[LiberNT：研究Windows行为，不照抄代码](cases/libernt-ai-windows11-blackbox-compatibility.md)** · `2026-11-21`报道；`2026-11-19`固定文档 — 这个ReactOS分支以**AI辅助文档／行为对照和Windows 11黑箱测试**研究应用兼容。文档要求人工审查，不等于证明每次测试都通过；目前为Debug预发布，非日常替代，性能宣传未复查。`进行中`
 9. **[NotTheInstagram：给无限刷加一点阻力](cases/nottheinstagram-rea-codex-flex-friction-hooks.md)** · `2026-11-15`作者文章与固定代码 — **FLEX给Codex地图，REA连接Hopper**找hook，实现每三帖等待与Reels入口两分钟暂停的自述。源码可见签名检查，实机细项仍未全确认；仅报告测试Instagram455.0.0，修改客户端有风险。`未独立核验`
 10. **[Kirby到PPSSPP：让homebrew复用GameShare](cases/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md)** · `2026-11-20`作者串 — XITRIX称**REA找出Kirby启动系统SDK的调用**，再用于把第二个PPSSPP实例分享给另一台Switch。是具体互通报告，不是找回整部Kirby源码；未核验API代码、演示与主机。`未独立核验`
 
@@ -50,9 +50,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **501** |
-| [硬件与设备互通](categories/hardware.md) | **673** |
-| [应用与客户端](categories/apps.md) | **1065** |
+| [游戏与游戏保存](categories/games.md) | **502** |
+| [硬件与设备互通](categories/hardware.md) | **674** |
+| [应用与客户端](categories/apps.md) | **1070** |
 | [算法与功能重建](categories/algorithms.md) | **323** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

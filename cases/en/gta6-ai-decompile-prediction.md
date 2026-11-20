@@ -1,7 +1,7 @@
-# GTA 6 port ideas: Linux/Vulkan, Qwen and a Claude/REA local Windows wish
+# GTA 6 port wishes and a claimed file recompilation: still no evidence of a playable PC version
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-19
+Record date: 2026-11-21
 Stage: Needs verification
 
 At 14:59 Beijing time on October 18, 2026, a poster bets AI agents can reverse about 50% of GTA 6 in three months after an executable dump, speculating the disc requires PS5 firmware that blocks current jailbreaks and delays binary access. No sample or started agent is reported. Fifty percent has no defined function, byte, system or gameplay scope; three months is not measured effort and firmware behavior is speculation, not a leak or PS5 compromise.
@@ -16,12 +16,15 @@ At 02:45:50 Beijing time on November 18, Kamikaze (@zKamikaze_) supplies a promp
 
 At 01:10:29 Beijing time on November 19, Matthew Soro (@MatthewSoroVC) says work is underway to get a crowdsourced AI-decompilation effort off the ground, predicting decompilation and a PC release in six months or less. Supplementary retrieval of the parent, dated November 18 at 13:15:10 Beijing time, confirms a complaint about GTA 6 lacking a day-one PC release. That parent only disambiguates the target and is not a new candidate. The reply supplies no project name, organizer, repository, AI model or build. It does not establish a verifiably started project, and the deadline is not engineering progress. This adds only a crowdsourcing proposal and a reader's prediction, not evidence that all these wishes belong to one team.
 
+At 03:52:16 Beijing time on November 21, ViceDEV (@Budzcario) claims to have recompiled GTA VI files with GitHub recomp and rea repositories plus AI. A full video is promised after the post reaches 1M views and 10k, whose unit is unspecified. Retrieval confirms attribution and three attached images; their execution content was not verified. No exact repository, filenames, input provenance, authorization, commands, logs, output hashes, model or playable demonstration is supplied. Claimed file recompilation does not establish a whole game, native PC port, defeated encryption or authentic data. Engagement gates are not engineering progress. This adds a new unverified claim about the existing target without presenting different posters as one team or borrowing AnyPS5's architecture/results as proof. No game was downloaded or run; status remains unverified.
+
 October 18 candidate snapshot: 22 likes, 498 views; 50% and three months are predictions, not results.
 October 28 candidate snapshot: 0 likes, 11 views, 0 reposts. DVD capacity is a joking idea, not a measurement.
 November 5 candidate: 0 likes, 137 views, 0 reposts. Qwen/REA is a future route, not a started port.
 A media retelling at 18:47:57 Beijing time on November 7, 2026 attributes to former Rockstar technical director Obbe Vermeij a Rock Paper Shotgun comment: AI might turn the PS5 version into a PC port at a cost of tens of thousands of dollars in tokens, probably below official quality but adequate for some players, potentially pressuring an earlier official release. He left Rockstar in 2009, so this is not an internal roadmap. The post's Q1 2027 claim lacks an official source and is not adopted as a confirmed date. The interview, code and cost records were not obtained; this is a prediction, not a started port. Sealed candidate: 0 likes, 18 views, 0 reposts.
 November 18 sealed candidate: 0 likes, 20 views, 0 reposts, 0 replies. Prompt-like Windows/local-server wish, without builds or networking tests.
 November 19 sealed candidate: 1 like, 16 views, 0 reposts, 0 replies. Six months is a reader prediction, not a project delivery deadline.
+November 21 sealed candidate: 0 likes, 67 views, 0 reposts, 0 replies. The 1M views and 10k are unmet promotion conditions, not technical acceptance.
 
 ## Sources
 
@@ -33,5 +36,6 @@ November 19 sealed candidate: 1 like, 16 views, 0 reposts, 0 replies. Six months
 - [Pre-window thread disambiguating GTA 6, November 17, 2026 at 23:34:17 Beijing time](https://x.com/i/status/2122714954314756481)
 - [Matthew Soro's crowdsourcing claim and six-month prediction, November 19, 2026 at 01:10:29 Beijing time](https://x.com/i/status/2123101548880539883)
 - [Pre-window parent solely disambiguating GTA 6, November 18, 2026 at 13:15:10 Beijing time](https://x.com/i/status/2122921536596455819)
+- [ViceDEV's file-recompilation claim and engagement-gated video, November 21, 2026 at 03:52:16 Beijing time](https://x.com/i/status/2123867038590304290)
 
 [中文](../gta6-ai-decompile-prediction.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)
