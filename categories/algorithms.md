@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [异瞳猫追逐片：Leaf Yeah用Antigravity拆镜与Omni分段重建的报告](../cases/leaf-antigravity-omni-cat-chase-video-reconstruction.md) — Leaf Yeah称Gemini Hydrogen拆解猫追逐参考片，再调用Omni1.2 Flash分两段换猫生成；18秒先压速再恢复，未核画面保真或拼接结果。 **[其他 AI 逆向 · 待验证]**
+- [Polymarket匿名Bot：Crypto.Sol建议Claude／Grok反推YES与NO套利逻辑](../cases/cryptosol-polymarket-yes-no-ai-strategy-study-idea.md) — Crypto.Sol建议用Claude或Grok研究匿名Polymarket机器人的跨市场双边买入逻辑；130万美元累计收益及30天4.9万多美元未核，不是已完成重建。 **[其他 AI 逆向 · 待验证]**
+- [雨夜城市剪影重建：打工战士试图像到Muse Image提示工具，保留三处失真](../cases/dagongai-muse-image-rainy-city-prompt-reconstruction.md) — 打工战士称用工具分析颜色、亮度和构图，生成Muse Image提示重做雨夜城市例图；位置大致保留，窗户过密、月亮过亮和竖线条码化仍需修。 **[其他 AI 逆向 · 待验证]**
 - [LOCA：把网表分成逻辑锥，让LLM恢复并证明等价RTL](../cases/loca-llm-logic-cone-netlist-rtl-recovery.md) — 研究摘要转述称LOCA以分组逻辑锥和并行Agent恢复RTL，21个模型／设计组合成功17个，对照6个；只读摘要帖，未审论文或复跑证明。 **[其他 AI 逆向 · 分析测试]**
 - [机械章鱼图到Three.js装配体：Nathan转述Claude Skill的视觉重建](../cases/nathan-claude-mechanical-octopus-image-threejs-reconstruction.md) — Nathan AI Lab介绍单张ChatGPT章鱼图与octopus提示生成Three.js机械装配与定时拆解；10片光圈、48齿等是生成宣称，不是真实结构恢复。 **[其他 AI 逆向 · 待验证]**
 - [RYFTCORP动画系统：研究既有模型训练、以NVIDIA为标杆的设想](../cases/ryftcorp-ai-animation-training-reconstruction-ambition.md) — 候选转述RYFTCORP想研究最佳动画模型如何训练并自建AI动画系统，目标优于NVIDIA某动画系统；没有具名基准、训练细节或结果。 **[未确认使用 REA · 待验证]**

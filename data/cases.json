@@ -1,5 +1,97 @@
 [
   {
+    "id": "leaf-antigravity-omni-cat-chase-video-reconstruction",
+    "title": "异瞳猫追逐片：Leaf Yeah用Antigravity拆镜与Omni分段重建的报告",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Leaf Yeah称Gemini Hydrogen拆解猫追逐参考片，再调用Omni1.2 Flash分两段换猫生成；18秒先压速再恢复，未核画面保真或拼接结果。",
+    "description": "2026年11月20日15:59:00（北京时间），Leaf Yeah!（@leaf_sanren）称在Antigravity中用Gemini4 Hydrogen拆解参考视频、逆推提示，再自行调用Omni1.2 Flash生成。具体目标是一段高架公路上白猫与红甲机车追兵的片段：保留镜头、环境与追逐动作，只把猫替换为浅奶白、圆脸、蓝琥珀异瞳的形象。REA只是‘视频界的REA’的比喻，未说明实际使用morluto/rea。\n\n帖子列模型字符串gemini-omni-1.2-flash、后台视频生成、16:9、360p和8s输出请求，输入依次为无声参考段、猫定妆图、红衣追兵参考帧和提示。两段提示覆盖0至8.08秒、7.0至15.08秒，后一段包含末尾张嘴特写，要求猫保持腾空、爪子前举、脚不落地。EXACT和1-to-1均是提示中的要求，不是实际相似度或帧级一致性的测量。\n\n作者补充所用Omni输入小于10秒、输出小于15秒的限制，因此先将原片18秒加速压到15秒以内，生成后再恢复原速。按作者工作流解释保留这些时长，包括提示第二段15.08秒终点与口头‘15秒以内’的近似表述，不自行修正时间轴，也不推定已无缝拼接。它们不是本合集核实的官方服务限制。\n\n补取原帖确认署名与完整结尾，存在视频附件但未观看，所列POST短链未展开。未核接口、模型服务身份、实际返回、画面对照、音轨或最终成片；参数只是作者请求，不是成功回执。与同作者旧车内自拍视频重建的输入与目标不同，本条单列有限成果自述，未调用生成接口或运行代码。",
+    "sources": [{"label": "Leaf Yeah的Antigravity／Omni猫追逐片工作流与提示，2026-11-20 15:59:00北京时间", "url": "https://x.com/i/status/2123687539642933402"}],
+    "snapshot_date": "2026-11-20", "metadata": ["候选封存0赞、7浏览、0转发、0回复；补取时热度变化未回填，不是成片验证。"],
+    "en": {
+      "title": "A heterochromia cat chase: Leaf Yeah reports Antigravity analysis and segmented Omni reconstruction",
+      "summary": "Leaf Yeah says Gemini Hydrogen analyzes a cat-chase reference before Omni 1.2 Flash generates two replacement-cat segments. An 18-second clip is sped up then restored; fidelity and stitching are unchecked.",
+      "description": "At 15:59:00 Beijing time on November 20, 2026, Leaf Yeah! (@leaf_sanren) says Gemini 4 Hydrogen inside Antigravity analyzed a reference video, inferred prompts and autonomously called Omni 1.2 Flash to generate footage. The concrete target is a white cat pursued by a red-armored cyber-biker on a highway overpass: retain shots, surroundings and pursuit action while replacing only the cat with a pale cream-white, round-faced character with blue and amber eyes. Calling Gemini the REA of video is an analogy, not reported use of morluto/rea.\n\nThe post lists the model string gemini-omni-1.2-flash, background video generation and a request for 16:9, 360p, eight-second output. Inputs are a silent reference segment, a cat character image, a red-biker reference frame and a prompt, in that order. Two prompts cover 0–8.08 seconds and 7.0–15.08 seconds, the latter including the final mouth-opening close-up. They require the cat to remain airborne with paws forward and feet off the ground. EXACT and 1-to-1 are prompt instructions, not measured similarity or frame-level agreement.\n\nThe author adds that their Omni input is limited to less than ten seconds and output to less than fifteen seconds, so the original eighteen-second clip was accelerated to under fifteen seconds before generation and restored to its original speed afterward. These timings remain the author's workflow account, including the second prompt's 15.08-second endpoint and the approximate verbal under-fifteen-seconds description. The timeline is not silently corrected and seamless stitching is not assumed. The stated service limits were not checked against official documentation here.\n\nOriginal-post retrieval confirms attribution and the complete ending. A video attachment exists but was not watched; the POST short link was not expanded. The interface, model-service identity, actual responses, image comparisons, audio and final output were not verified. Parameters describe a request, not a success receipt. The input and goal differ from the same author's older in-car selfie reconstruction, so this is a separate limited result report. No generation endpoint or code was run here.",
+      "metadata": ["Sealed candidate: 0 likes, 7 views, 0 reposts, 0 replies. Later engagement changes do not replace it and are not output verification."],
+      "source_labels": ["Leaf Yeah's Antigravity/Omni cat-chase workflow and prompts, November 20, 2026 at 15:59:00 Beijing time"]
+    }
+  },
+  {
+    "id": "wuthering-waves-ai-frame-capture-character-rendering",
+    "title": "鸣潮角色渲染：KORVA报告AI辅助逆向与抓帧分析",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "KORVA称以AI配合逆向和抓帧提取鸣潮角色渲染效果，并强调对齐帧与状态；未提供shader源码、运行工程或画面对照。",
+    "description": "2026年11月20日12:05:28（北京时间），KORVA（@Jocker_zero）称通过逆向与抓帧，把鸣潮的角色渲染效果‘扒下来了’，并问读者猜所用AI模型。目标是理解这款游戏的角色画面如何形成；正文带GPT62、shader标签，但未直接说明具体模型、版本、提示或模型负责的环节，不能仅凭标签确认GPT-6.2参与。\n\n补读同作者13:21:40的回复：最费时的往往不是读代码，而是对齐渲染前后帧与状态变化；先复现一条输入到画面的链路，再拆shader才有依据。这是方法补充，不是完整渲染管线已经重建的证明。该回复虽也在本窗口内，但不在提供的候选列表，只作补充来源。\n\n原帖有三张图片附件，补取确认署名与串文，未技术核验图片；未取得shader源码、抓帧文件、状态记录、游戏版本、独立渲染工程或误差对照。‘扒下来’按作者成果自述保留，不扩写为找回原始源码、可复用素材或已复现全部角色效果；未运行游戏或代码，REA未提。",
+    "sources": [{"label": "KORVA的鸣潮角色渲染与AI自述，2026-11-20 12:05:28北京时间", "url": "https://x.com/i/status/2123628769336553577"}, {"label": "补充同作者：对齐帧、状态与输入到画面链路，2026-11-20 13:21:40北京时间；非候选", "url": "https://x.com/i/status/2123647945858048314"}],
+    "snapshot_date": "2026-11-20", "metadata": ["候选封存0赞、47浏览、0转发、1回复；不代表渲染效果已验证。"],
+    "en": {
+      "title": "Wuthering Waves character rendering: KORVA reports AI-assisted reversing and frame capture",
+      "summary": "KORVA says AI, reversing and frame capture helped extract Wuthering Waves character-rendering effects, stressing frame/state alignment. Shader source, runnable projects and image comparisons are unavailable here.",
+      "description": "At 12:05:28 Beijing time on November 20, 2026, KORVA (@Jocker_zero) says reversing and frame capture let them extract character-rendering effects from Wuthering Waves, asking readers to guess the AI model used. The target is understanding how this game's character imagery is produced. GPT62 and shader appear as tags, but the text does not identify a specific model, revision, prompt or division of work. A tag alone does not confirm GPT-6.2 participation.\n\nA supplementary reply by the same author at 13:21:40 says the time-consuming part is often aligning frames before and after rendering with state changes, rather than reading code: first reproduce one input-to-image path to ground subsequent shader analysis. This adds a method, not proof of a fully rebuilt rendering pipeline. Although also inside the window, the reply is not among the supplied candidates and is used only as supplementary evidence.\n\nThe original has three attached images. Retrieval confirms attribution and thread text, not technical validation of those images. Shader source, capture files, state logs, game revision, standalone rendering projects and error comparisons were not obtained. Extraction remains the author's reported result, not recovery of original source, reusable assets or reproduction of every character effect. No game or code was run here; REA is unmentioned.",
+      "metadata": ["Sealed candidate: 0 likes, 47 views, 0 reposts, 1 reply; not validation of the rendering effect."],
+      "source_labels": ["KORVA reports Wuthering Waves character rendering and AI use, November 20, 2026 at 12:05:28 Beijing time", "Supplementary author reply on frames, state and an input-to-image path, November 20, 2026 at 13:21:40 Beijing time; not a candidate"]
+    }
+  },
+  {
+    "id": "unnamed-android-app-claude-free-tier-script-comparison",
+    "title": "未具名安卓App：boris1993称免费额度比较中仅Claude实际写逆向脚本",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "boris1993回忆让三个免费额度模型研究一个安卓App，称只有Claude实际写脚本、另外两个胡编；目标与脚本未公开，不证明逆向完成。",
+    "description": "2026年11月20日12:19:41（北京时间），boris1993（@ClockWorkMe）在模型使用讨论中回忆，让三家免费额度模型帮助逆向同一个安卓App时，只有Claude认真写脚本干活，另外两家胡编。这是针对实际App研究的工具行为与失败经验，不是笼统榜单；具体功能目标和当时发生日期未交代。\n\n作者说自己目前主力用Codex，到期后想试Grok或Gemini，但没有把那次实验中的‘另外两家’逐一对应到这些产品，也没列模型版本、免费配额、提示、反编译工具、脚本内容或执行输出。本条不猜两家的身份，不将写脚本升级为脚本可运行、接口已恢复或App已逆向成功。\n\n补取原帖确认署名；未具名目标无法与既有Android项目可靠合并，按有限的一手比较自述保留。没有可重复实验或独立验证，不据此得出Claude全面优于其他模型；REA未提，未下载App或执行脚本。",
+    "sources": [{"label": "boris1993的安卓App免费额度模型比较回忆，2026-11-20 12:19:41北京时间", "url": "https://x.com/i/status/2123632347082092597"}],
+    "snapshot_date": "2026-11-20", "metadata": [],
+    "en": {
+      "title": "An unnamed Android app: boris1993 says only Claude wrote reversing scripts in a free-tier comparison",
+      "summary": "boris1993 recalls asking three free-tier models to investigate one Android app, saying only Claude wrote scripts while the others fabricated responses. Neither target nor scripts are public; completed reversing is not established.",
+      "description": "At 12:19:41 Beijing time on November 20, 2026, boris1993 (@ClockWorkMe), discussing model usage, recalls asking three models on free allowances to help reverse engineer the same Android app. Only Claude reportedly wrote scripts and did the work, while the other two fabricated responses. This is tool behavior and a failure experience tied to an actual app investigation, not a generic leaderboard. The specific feature sought and the date of the earlier experiment are unstated.\n\nThe author currently mainly uses Codex and plans to try Grok or Gemini after the subscription expires, but does not map the other two models in that experiment to these products. Model revisions, free allowances, prompts, decompilers, script contents and execution output are absent. Their identities are not guessed, and writing scripts is not upgraded into runnable code, recovered interfaces or successful app reversal.\n\nRetrieval confirms attribution. The unnamed target cannot reliably be merged with an existing Android project; this remains a limited firsthand comparison report. There is no reproducible experiment or independent validation and no basis for general Claude superiority. REA is unmentioned. No app was downloaded or scripts executed here.",
+      "metadata": [], "source_labels": ["boris1993 recalls an Android-app free-tier model comparison, November 20, 2026 at 12:19:41 Beijing time"]
+    }
+  },
+  {
+    "id": "8bit-cursor-cloud-reverse-engineer-anything-bot",
+    "title": "Reverse engineer anything bot：8Bit介绍Cursor云Agent团队研究网站与合约",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "8Bit介绍给bot配置Cursor云Agent团队来研究网站和智能合约的工具；没有实例、代码或验证记录，anything只是宣传范围。",
+    "description": "2026年11月20日13:07:32（北京时间），8Bit（@0rdlibrary）介绍名为Reverse engineer anything的bot：给它启动一支Cursor云Agent团队，再提供网站、智能合约或任务，让团队执行逆向。目标是把具体在线软件或合约的研究交给可调度的Agent工具，而非要求用户自己逐项分析；按相关项目介绍收录。\n\n原帖未给已研究的网站、合约地址、输入样例、代码、任务分工、输出或成功标准。没有证据确认它能处理‘任何’任务，是否取得网站源码、是否只读公开合约，或是否使用morluto/rea；产品名不证明REA关联，不能将宣传的any website/contract写成已验证兼容范围。\n\n补取确认署名，所附短链内容未读取，未安装bot、调用云Agent或访问合约。具体执行成本、授权范围、隔离方式与研究结果均未知；这是可辨认的工具方案，不是已完成逆向的实例。",
+    "sources": [{"label": "8Bit的Cursor云Agent逆向bot介绍，2026-11-20 13:07:32北京时间", "url": "https://x.com/i/status/2123644387469246718"}],
+    "snapshot_date": "2026-11-20", "metadata": [],
+    "en": {
+      "title": "Reverse engineer anything bot: 8Bit describes Cursor cloud-agent teams for websites and contracts",
+      "summary": "8Bit introduces a bot configured with Cursor cloud-agent teams to investigate websites and smart contracts. Examples, code and verification records are absent; anything is a promotional scope claim.",
+      "description": "At 13:07:32 Beijing time on November 20, 2026, 8Bit (@0rdlibrary) introduces a bot called Reverse engineer anything: start a team of Cursor cloud agents, supply a website, smart contract or task, and let the team reverse engineer it. The aim is delegating investigation of online software or contracts to orchestrated agents rather than manually analyzing each part. Retained as a related-project introduction.\n\nNo investigated website, contract address, sample input, code, task allocation, output or acceptance standard is supplied. The post does not establish support for arbitrary tasks, recovery of website source, read-only investigation of public contracts or use of morluto/rea. The product name does not establish REA affiliation, and any-website/contract promotion is not a verified compatibility list.\n\nRetrieval confirms attribution. The attached short link was not read. No bot was installed, cloud agent called or contract accessed here. Execution cost, authorized scope, isolation and actual results remain unknown. This is an identifiable tool proposal, not an example of completed reverse engineering.",
+      "metadata": [], "source_labels": ["8Bit introduces a Cursor cloud-agent reversing bot, November 20, 2026 at 13:07:32 Beijing time"]
+    }
+  },
+  {
+    "id": "cryptosol-polymarket-yes-no-ai-strategy-study-idea",
+    "title": "Polymarket匿名Bot：Crypto.Sol建议Claude／Grok反推YES与NO套利逻辑",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Crypto.Sol建议用Claude或Grok研究匿名Polymarket机器人的跨市场双边买入逻辑；130万美元累计收益及30天4.9万多美元未核，不是已完成重建。",
+    "description": "2026年11月20日13:07:40（北京时间），Crypto.Sol（@cryptoxxw）称一名匿名Polymarket交易者以机器人在数百个二元预测市场持续捕捉价差：YES和NO价格之和低于1美元时进入，靠大量小额交易积累收益。作者建议用Claude或Grok一晚上逆向拆解这套逻辑；这是具备市场和策略目标的研究idea，不是他已调用模型、写好Bot或完成回测的报告。\n\n帖子转述累计盈利超过130万美元、过去30天4.9万多美元，并称机会低风险、新手可搭同款。钱包只给短链，本合集未展开，也未读交易流水或技术实现。这些数字不作核算后净收益，‘一晚上’不是实际工时，不能推导保证盈利、无风险、双边一定同时成交或可复刻表现；缺手续费、滑点、流动性与结算条件。\n\n补取原帖确认署名，未观看所附视频；同为YES/NO合价套利不证明与已有Crypto老鹰的体育市场Opus报告是同一个钱包或项目，不合并其7877笔交易与61.9万美元等旧数字。本条只保留本作者的独立研究建议，REA未提，未执行模型、Bot、交易或钱包操作。",
+    "sources": [{"label": "Crypto.Sol的Polymarket策略反推建议与未核收益转述，2026-11-20 13:07:40北京时间", "url": "https://x.com/i/status/2123644422068048179"}],
+    "snapshot_date": "2026-11-20", "metadata": [],
+    "en": {
+      "title": "An anonymous Polymarket bot: Crypto.Sol proposes Claude/Grok research into YES/NO arbitrage",
+      "summary": "Crypto.Sol suggests Claude or Grok investigate an anonymous Polymarket bot's cross-market two-sided buying logic. Claimed cumulative profit above $1.3 million and over $49,000 in 30 days are unchecked, not completed reconstruction.",
+      "description": "At 13:07:40 Beijing time on November 20, 2026, Crypto.Sol (@cryptoxxw) describes an anonymous Polymarket trader using a bot across hundreds of binary prediction markets, entering when YES and NO prices sum to less than $1 and accumulating small gains through many trades. The author suggests reverse engineering the logic with Claude or Grok in one evening. This is a research idea with a concrete market and strategy target, not a report of already calling a model, implementing a bot or completing a backtest.\n\nThe post relays more than $1.3 million cumulative profit and over $49,000 in the past 30 days, calling opportunities low-risk and the bot reproducible by beginners. The wallet is only a short link, not expanded here, and no trade ledger or implementation was read. These figures are not reconciled net returns, and one evening is not measured work time. Guaranteed profit, risk-free trading, simultaneous two-sided fills and reproducible returns are not established. Fees, slippage, liquidity and settlement conditions are missing.\n\nRetrieval confirms attribution, but the attached video was not watched. Shared YES/NO sum arbitrage does not establish the same wallet or project as the existing Crypto Laoying sports-market Opus account; its 7,877 trades, $619,000 and other figures are not imported. This entry retains only this author's independent research suggestion. REA is unmentioned, and no models, bots, trades or wallet operations were run here.",
+      "metadata": [], "source_labels": ["Crypto.Sol proposes Polymarket strategy inference and relays unchecked returns, November 20, 2026 at 13:07:40 Beijing time"]
+    }
+  },
+  {
+    "id": "dagongai-muse-image-rainy-city-prompt-reconstruction",
+    "title": "雨夜城市剪影重建：打工战士试图像到Muse Image提示工具，保留三处失真",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "打工战士称用工具分析颜色、亮度和构图，生成Muse Image提示重做雨夜城市例图；位置大致保留，窗户过密、月亮过亮和竖线条码化仍需修。",
+    "description": "2026年11月20日13:10:54（北京时间），打工战士（@DagongAI）报告试用名为‘Prompt逆向工程’的开源小工具：输入参考图，先计算颜色、亮度和构图，再按Muse Image格式拼出提示词。目标是把以往凭感觉写提示的画风复刻，变成有参考图分析的生成起稿。项目开源是作者说法，未提供可辨认仓库名称或许可文本。\n\n作者称实际跑了工具自带的雨夜扁平风城市剪影例图，并以返回提示重新生成一张图：楼群、雨线、橙色招牌与圆月都在，位置未跑偏；同时明确窗户比原图密、月亮过亮、底部竖线像条码。按一次带缺陷的试用报告收录，不写成精确恢复原始提示、普遍保持构图或自动复制所有画风。\n\n补取确认作者，串内还有只含短链的作者回复，未展开；未技术核验原帖图片、实际输入输出、生成提示、模型版本或可重跑记录。本合集未运行工具或Muse Image。已有REA-Prompts条目只描述通用模板，缺乏共同仓库证据，不能把两者合并为同项目；REA未提。",
+    "sources": [{"label": "打工战士的雨夜城市例图重建试用与缺陷报告，2026-11-20 13:10:54北京时间", "url": "https://x.com/i/status/2123645237641847271"}],
+    "snapshot_date": "2026-11-20", "metadata": [],
+    "en": {
+      "title": "Rebuilding a rainy city silhouette: DagongAI tries image-to-Muse prompts and reports three defects",
+      "summary": "DagongAI says a tool analyzes color, brightness and composition to produce Muse Image prompts for a rainy-city sample. Layout reportedly survives, but dense windows, an overbright moon and barcode-like lines need repair.",
+      "description": "At 13:10:54 Beijing time on November 20, 2026, 打工战士 (@DagongAI) reports trying a small open-source tool called Prompt Reverse Engineering: a reference image is analyzed for color, brightness and composition, then assembled into a Muse Image-format prompt. The goal is moving from intuitive prompting for style imitation to a draft grounded in reference-image analysis. Open source is the author's claim; no identifiable repository name or license text is provided.\n\nThe author says they actually ran the bundled flat-style rainy-night city silhouette example and generated another image with the returned prompt. Buildings, rain lines, an orange sign and a full moon reportedly remain in place, but windows are denser, the moon too bright and the bottom vertical lines look like a barcode. This is a single trial with reported defects, not exact recovery of the original prompt, general composition preservation or automatic reproduction of every style.\n\nRetrieval confirms attribution. An author reply contains only a short link, not expanded here. The original image, actual input/output pair, generated prompt, model revision and replayable records were not technically checked. Neither the tool nor Muse Image was run here. The existing REA-Prompts entry describes generic templates; without a shared repository, the two are not assumed to be the same project. REA is unmentioned.",
+      "metadata": [], "source_labels": ["DagongAI reports a rainy-city sample reconstruction trial and defects, November 20, 2026 at 13:10:54 Beijing time"]
+    }
+  },
+  {
     "id":"drose-meta-audio-airshield-custom-agent",
     "title":"Meta Audio眼镜：David Rose以BLE和AirShield接入自建语音Agent",
     "category":"hardware", "rea":"unknown", "status":"unverified",
@@ -466,17 +558,17 @@
   },
   {
     "id": "kxians-claude-code-antigravity-agent-core-idea",
-    "title": "给Antigravity换Agent内核：Kxians建议研究Claude Code架构",
-    "category": "apps", "rea": "unknown", "status": "unverified",
-    "summary": "Kxians在比较模型与客户端体验时，建议Google工程师研究Claude Code并向Antigravity移植Agent内核；是具体架构idea，没有实施或兼容性证明。",
-    "description": "2026年11月19日19:00:52（北京时间），Kxians（@xulijian1994）认为Gemini模型能力已足够强，但Antigravity的协作体验拖累模型表现，因此建议Google找工程师逆向Claude Code，给Antigravity做一次内核移植。他的目的在于重建编程Agent的协调与交互架构，不是移植模型权重。\n\n补取原帖确认归因。价格和榜单数字是作者论证背景，未另核官方数据，不用来证明此方案可行。没有包分析、接口、架构规格、代码、授权或移植测试，也没有说AI已实际执行逆向，REA未知。按unverified的具体AI客户端研究idea保留，不把对Google的建议写成Google已开展项目；与上下文统计插件的二手报告分开，目标范围不同。",
-    "sources": [{"label":"Kxians的Claude Code到Antigravity内核移植建议，2026-11-19 19:00:52北京时间","url":"https://x.com/i/status/2123370922854035920"}],
-    "snapshot_date": "2026-11-19", "metadata": [],
+    "title": "给Antigravity改Agent内核：从Claude Code架构建议到REA研究竞品的idea",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Kxians建议研究Claude Code并移植Agent内核；启明破晓再提REA拆解Claude Code／Codex的功能、工作流与交互，均无实施证据，一周只是预测。",
+    "description": "2026年11月19日19:00:52（北京时间），Kxians（@xulijian1994）认为Gemini模型能力已足够强，但Antigravity的协作体验拖累模型表现，因此建议Google找工程师逆向Claude Code，给Antigravity做一次内核移植。他的目的在于重建编程Agent的协调与交互架构，不是移植模型权重。\n\n此前补取原帖确认归因。价格和榜单数字是作者论证背景，未另核官方数据，不用来证明此方案可行。没有包分析、接口、架构规格、代码、授权或移植测试，也没有说AI已实际执行逆向；原建议未确认REA。按unverified的具体AI客户端研究idea保留，不把对Google的建议写成Google已开展项目；与上下文统计插件的二手报告分开，目标范围不同。\n\n11月20日15:33:05，启明破晓（@hiwise_aigc）针对同一Antigravity harness改进目标，明确建议用REA分别研究Claude Code与Codex的功能、工作流、交互，再由Google最强模型驱动迭代。他预测不到一周能做出独特产品，没有报告已分析包、调用REA或完成实现。本轮补取确认该帖署名，保留旧ID与来源追加为同目标的另一位读者建议，不证明两位合作，也不把‘悄悄干活’解释为取得授权。REA标签表示新建议拟使用工具，不是已实际运行；未执行客户端或模型。",
+    "sources": [{"label":"Kxians的Claude Code到Antigravity内核移植建议，2026-11-19 19:00:52北京时间","url":"https://x.com/i/status/2123370922854035920"}, {"label":"启明破晓建议REA研究Claude Code／Codex以改进Antigravity，2026-11-20 15:33:05北京时间","url":"https://x.com/i/status/2123681019052318886"}],
+    "snapshot_date": "2026-11-20", "metadata": [],
     "en": {
-      "title": "An agent-core transplant for Antigravity: Kxians proposes researching Claude Code's architecture",
-      "summary": "Comparing models and client experience, Kxians suggests Google engineers investigate Claude Code and port its agent core to Antigravity. A specific architectural idea, without implementation or compatibility evidence.",
-      "description": "At 19:00:52 Beijing time on November 19, 2026, Kxians (@xulijian1994) argues that Gemini's capability is strong enough but Antigravity's collaboration experience holds it back. They suggest Google engineers reverse-engineer Claude Code and transplant its core into Antigravity. The goal concerns a coding agent's coordination and interaction architecture, not model weights.\n\nOriginal-post retrieval confirms attribution. Pricing and benchmark numbers are the author's context, not independently checked official data or proof the proposal is feasible. No package analysis, interfaces, architectural specification, code, permission or porting tests are supplied. Actual AI participation in reversing is not stated, and REA use is unknown. Retained as an unverified concrete AI-client research idea, not a project Google is known to have started. Separate from the secondary context-statistics-plugin report because its target scope differs.",
-      "metadata": [], "source_labels": ["Kxians proposes a Claude Code-to-Antigravity agent-core transplant, November 19, 2026 at 19:00:52 Beijing time"]
+      "title": "Improving Antigravity's agent core: Claude Code architecture and a REA competitor-research idea",
+      "summary": "Kxians proposes studying Claude Code and transplanting its agent core. hiwise_aigc adds REA research into Claude Code/Codex features, workflows and interaction. Neither has implementation evidence; a week is a prediction.",
+      "description": "At 19:00:52 Beijing time on November 19, 2026, Kxians (@xulijian1994) argues that Gemini's capability is strong enough but Antigravity's collaboration experience holds it back. They suggest Google engineers reverse-engineer Claude Code and transplant its core into Antigravity. The goal concerns a coding agent's coordination and interaction architecture, not model weights.\n\nEarlier original-post retrieval confirmed attribution. Pricing and benchmark numbers are the author's context, not independently checked official data or proof the proposal is feasible. No package analysis, interfaces, architectural specification, code, permission or porting tests are supplied. Actual AI participation in reversing is not stated, and the original idea did not confirm REA. Retained as an unverified concrete AI-client research idea, not a project Google is known to have started. Separate from the secondary context-statistics-plugin report because its target scope differs.\n\nAt 15:33:05 Beijing time on November 20, 启明破晓 (@hiwise_aigc) addresses the same Antigravity harness-improvement goal, explicitly proposing REA to study Claude Code and Codex features, workflows and interaction, followed by iteration driven by Google's strongest model. They predict a distinctive product in under a week but report no analyzed packages, REA calls or implementation. Retrieval in this review confirms attribution. The existing ID and source are retained, adding another reader's suggestion for the same goal without implying collaboration between the two authors. Working quietly is not interpreted as authorization. The REA label records the proposed tool, not actual execution; no clients or models were run here.",
+      "metadata": [], "source_labels": ["Kxians proposes a Claude Code-to-Antigravity agent-core transplant, November 19, 2026 at 19:00:52 Beijing time", "hiwise_aigc proposes REA research into Claude Code/Codex to improve Antigravity, November 20, 2026 at 15:33:05 Beijing time"]
     }
   },
   {

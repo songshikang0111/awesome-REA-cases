@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2522 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2528 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（494）
+- [游戏与游戏保存](categories/games.md)（495）
 - [硬件与设备互通](categories/hardware.md)（668）
-- [应用与客户端](categories/apps.md)（1054）
-- [算法与功能重建](categories/algorithms.md)（306）
+- [应用与客户端](categories/apps.md)（1056）
+- [算法与功能重建](categories/algorithms.md)（309）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [鸣潮角色渲染：KORVA报告AI辅助逆向与抓帧分析](cases/wuthering-waves-ai-frame-capture-character-rendering.md) — KORVA称以AI配合逆向和抓帧提取鸣潮角色渲染效果，并强调对齐帧与状态；未提供shader源码、运行工程或画面对照。 **[其他 AI 逆向 · 待验证]**
 - [Doom Dark Ages低配优化：Morpheus提出AI逆向助跑Steam Deck的idea](cases/doom-dark-ages-ai-low-end-optimization-idea.md) — Morpheus询问能否用AI与逆向把Doom Dark Ages优化到Steam Deck60fps或GTX1050Ti30fps；这些是愿望指标，不是测量。 **[其他 AI 逆向 · 待验证]**
 - [Fallout4第二GPU放大Mod：AHS称用Claude完成的改造](cases/ahs-fallout4-claude-second-gpu-upscaling-mod.md) — AHS称用Claude给Fallout4做Mod，把放大工作交给第二块GPU；未公开代码、显卡型号或性能测量，不等于双GPU渲染。 **[其他 AI 逆向 · 待验证]**
 - [Kirby到PPSSPP：XITRIX用REA研究GameShare启动调用](cases/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md) — XITRIX称用REA研究Kirby如何调用系统SDK启动GameShare，再从PPSSPP homebrew调用相同API；双实例与共享游玩是作者报告，未实机核验。 **[REA · 待验证]**
@@ -1194,6 +1195,8 @@
 
 ### 应用与客户端
 
+- [未具名安卓App：boris1993称免费额度比较中仅Claude实际写逆向脚本](cases/unnamed-android-app-claude-free-tier-script-comparison.md) — boris1993回忆让三个免费额度模型研究一个安卓App，称只有Claude实际写脚本、另外两个胡编；目标与脚本未公开，不证明逆向完成。 **[其他 AI 逆向 · 待验证]**
+- [Reverse engineer anything bot：8Bit介绍Cursor云Agent团队研究网站与合约](cases/8bit-cursor-cloud-reverse-engineer-anything-bot.md) — 8Bit介绍给bot配置Cursor云Agent团队来研究网站和智能合约的工具；没有实例、代码或验证记录，anything只是宣传范围。 **[其他 AI 逆向 · 相关项目]**
 - [Claude Desktop到Antigravity：读者建议Gemini4逆向功能的idea](cases/gemini4-claude-desktop-antigravity-feature-idea.md) — xMopf7RF在Antigravity版本发布下建议让Gemini4逆向Claude Desktop借鉴功能；未列具体功能，也未报告开工。 **[其他 AI 逆向 · 待验证]**
 - [课程API与指南边界：kedaya转述DeepSeek逆向、GPT删假进度内容](cases/kedaya-deepseek-course-api-gpt-guide-boundary-report.md) — kedaya称DeepSeek已研究课程API，GPT读批量选择脚本后从指南删去假进度部分；平台不明，不能确认API调用或进度修改成功。 **[其他 AI 逆向 · 待验证]**
 - [Agent-Kernel-Toolbox：用结构化观察降低AI理解软件的交互开销](cases/agent-kernel-toolbox-structured-ai-program-analysis.md) — Āpaceum介绍测试版工具包，以MCP与Skills给AI读取网页、原生控件和运行信息，并称支持静态／动态逆向、解包与局部虚拟化；未实测功能或token收益。 **[其他 AI 逆向 · 相关项目]**
@@ -1212,7 +1215,7 @@
 - [Mountain标签视频重做：lightcity列REA-video与ChatCut的尝试](cases/lightcity-rea-video-chatcut-mountain-remake-report.md) — lightcity发布my video链接并列rea-video、ChatCut与Claude标签，提出从研究到重做；未辨原片、流程或输出保真度。 **[其他 AI 逆向 · 待验证]**
 - [公司零信任客户端到Linux：BinariCat称GPT协助研究Windows版并连通](cases/binaricat-gpt-zero-trust-windows-linux-client-report.md) — BinariCat报告GPT-6-astra辅助研究公司Windows零信任软件、做Linux版并连接，换6.2后被拒；厂商、授权、实现与连接记录未公开。 **[其他 AI 逆向 · 待验证]**
 - [Claude Code统计移到顶部插件：澜知AI转述Antigravity包研究](cases/antigravity-claude-code-topbar-token-port-secondary-report.md) — 澜知AI称社区作者让Antigravity研究Claude Code包，移植上下文与Token统计；原开发者、插件实现和统计准确性未核实，另一个FPS demo不是逆向验证。 **[其他 AI 逆向 · 待验证]**
-- [给Antigravity换Agent内核：Kxians建议研究Claude Code架构](cases/kxians-claude-code-antigravity-agent-core-idea.md) — Kxians在比较模型与客户端体验时，建议Google工程师研究Claude Code并向Antigravity移植Agent内核；是具体架构idea，没有实施或兼容性证明。 **[未确认使用 REA · 待验证]**
+- [给Antigravity改Agent内核：从Claude Code架构建议到REA研究竞品的idea](cases/kxians-claude-code-antigravity-agent-core-idea.md) — Kxians建议研究Claude Code并移植Agent内核；启明破晓再提REA拆解Claude Code／Codex的功能、工作流与交互，均无实施证据，一周只是预测。 **[REA · 待验证]**
 - [Avocado Remake：视频逐场景重建HTML／GSAP，再逐帧对照](cases/avocado-remake-video-html-gsap-frame-comparison.md) — Wanderson Jackson发布Avocado Remake，称92秒宣传片重建18场景、视觉匹配89%；串文可读，但未取得评分方法、代码或复现，不认定胜过竞品。 **[其他 AI 逆向 · 待验证]**
 - [Renoise数字人：知识猫体验后想用REA研究的idea](cases/geekcat-renoise-digital-human-rea-idea.md) — 知识猫在Renoise视频制作讨论中称喜欢其数字人，想用REA研究；只有功能目标和使用感受，没有实际分析、接口或重建。 **[REA · 待验证]**
 - [Clip Studio接Venice：用REA MCP研究闭源绘画工具的idea](cases/clip-studio-rea-mcp-venice-integration-idea.md) — cthulhu_ftaghn提出用REA MCP研究Clip Studio并接入Venice，帮助创作者制作艺术；只是具体设想，没有接口、代码或效果验证。 **[REA · 待验证]**
@@ -2251,6 +2254,9 @@
 
 ### 算法与功能重建
 
+- [异瞳猫追逐片：Leaf Yeah用Antigravity拆镜与Omni分段重建的报告](cases/leaf-antigravity-omni-cat-chase-video-reconstruction.md) — Leaf Yeah称Gemini Hydrogen拆解猫追逐参考片，再调用Omni1.2 Flash分两段换猫生成；18秒先压速再恢复，未核画面保真或拼接结果。 **[其他 AI 逆向 · 待验证]**
+- [Polymarket匿名Bot：Crypto.Sol建议Claude／Grok反推YES与NO套利逻辑](cases/cryptosol-polymarket-yes-no-ai-strategy-study-idea.md) — Crypto.Sol建议用Claude或Grok研究匿名Polymarket机器人的跨市场双边买入逻辑；130万美元累计收益及30天4.9万多美元未核，不是已完成重建。 **[其他 AI 逆向 · 待验证]**
+- [雨夜城市剪影重建：打工战士试图像到Muse Image提示工具，保留三处失真](cases/dagongai-muse-image-rainy-city-prompt-reconstruction.md) — 打工战士称用工具分析颜色、亮度和构图，生成Muse Image提示重做雨夜城市例图；位置大致保留，窗户过密、月亮过亮和竖线条码化仍需修。 **[其他 AI 逆向 · 待验证]**
 - [LOCA：把网表分成逻辑锥，让LLM恢复并证明等价RTL](cases/loca-llm-logic-cone-netlist-rtl-recovery.md) — 研究摘要转述称LOCA以分组逻辑锥和并行Agent恢复RTL，21个模型／设计组合成功17个，对照6个；只读摘要帖，未审论文或复跑证明。 **[其他 AI 逆向 · 分析测试]**
 - [机械章鱼图到Three.js装配体：Nathan转述Claude Skill的视觉重建](cases/nathan-claude-mechanical-octopus-image-threejs-reconstruction.md) — Nathan AI Lab介绍单张ChatGPT章鱼图与octopus提示生成Three.js机械装配与定时拆解；10片光圈、48齿等是生成宣称，不是真实结构恢复。 **[其他 AI 逆向 · 待验证]**
 - [RYFTCORP动画系统：研究既有模型训练、以NVIDIA为标杆的设想](cases/ryftcorp-ai-animation-training-reconstruction-ambition.md) — 候选转述RYFTCORP想研究最佳动画模型如何训练并自建AI动画系统，目标优于NVIDIA某动画系统；没有具名基准、训练细节或结果。 **[未确认使用 REA · 待验证]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [鸣潮角色渲染：KORVA报告AI辅助逆向与抓帧分析](../cases/wuthering-waves-ai-frame-capture-character-rendering.md) — KORVA称以AI配合逆向和抓帧提取鸣潮角色渲染效果，并强调对齐帧与状态；未提供shader源码、运行工程或画面对照。 **[其他 AI 逆向 · 待验证]**
 - [Doom Dark Ages低配优化：Morpheus提出AI逆向助跑Steam Deck的idea](../cases/doom-dark-ages-ai-low-end-optimization-idea.md) — Morpheus询问能否用AI与逆向把Doom Dark Ages优化到Steam Deck60fps或GTX1050Ti30fps；这些是愿望指标，不是测量。 **[其他 AI 逆向 · 待验证]**
 - [Fallout4第二GPU放大Mod：AHS称用Claude完成的改造](../cases/ahs-fallout4-claude-second-gpu-upscaling-mod.md) — AHS称用Claude给Fallout4做Mod，把放大工作交给第二块GPU；未公开代码、显卡型号或性能测量，不等于双GPU渲染。 **[其他 AI 逆向 · 待验证]**
 - [Kirby到PPSSPP：XITRIX用REA研究GameShare启动调用](../cases/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md) — XITRIX称用REA研究Kirby如何调用系统SDK启动GameShare，再从PPSSPP homebrew调用相同API；双实例与共享游玩是作者报告，未实机核验。 **[REA · 待验证]**

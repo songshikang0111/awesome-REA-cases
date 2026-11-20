@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [未具名安卓App：boris1993称免费额度比较中仅Claude实际写逆向脚本](../cases/unnamed-android-app-claude-free-tier-script-comparison.md) — boris1993回忆让三个免费额度模型研究一个安卓App，称只有Claude实际写脚本、另外两个胡编；目标与脚本未公开，不证明逆向完成。 **[其他 AI 逆向 · 待验证]**
+- [Reverse engineer anything bot：8Bit介绍Cursor云Agent团队研究网站与合约](../cases/8bit-cursor-cloud-reverse-engineer-anything-bot.md) — 8Bit介绍给bot配置Cursor云Agent团队来研究网站和智能合约的工具；没有实例、代码或验证记录，anything只是宣传范围。 **[其他 AI 逆向 · 相关项目]**
 - [Claude Desktop到Antigravity：读者建议Gemini4逆向功能的idea](../cases/gemini4-claude-desktop-antigravity-feature-idea.md) — xMopf7RF在Antigravity版本发布下建议让Gemini4逆向Claude Desktop借鉴功能；未列具体功能，也未报告开工。 **[其他 AI 逆向 · 待验证]**
 - [课程API与指南边界：kedaya转述DeepSeek逆向、GPT删假进度内容](../cases/kedaya-deepseek-course-api-gpt-guide-boundary-report.md) — kedaya称DeepSeek已研究课程API，GPT读批量选择脚本后从指南删去假进度部分；平台不明，不能确认API调用或进度修改成功。 **[其他 AI 逆向 · 待验证]**
 - [Agent-Kernel-Toolbox：用结构化观察降低AI理解软件的交互开销](../cases/agent-kernel-toolbox-structured-ai-program-analysis.md) — Āpaceum介绍测试版工具包，以MCP与Skills给AI读取网页、原生控件和运行信息，并称支持静态／动态逆向、解包与局部虚拟化；未实测功能或token收益。 **[其他 AI 逆向 · 相关项目]**
@@ -20,7 +22,7 @@
 - [Mountain标签视频重做：lightcity列REA-video与ChatCut的尝试](../cases/lightcity-rea-video-chatcut-mountain-remake-report.md) — lightcity发布my video链接并列rea-video、ChatCut与Claude标签，提出从研究到重做；未辨原片、流程或输出保真度。 **[其他 AI 逆向 · 待验证]**
 - [公司零信任客户端到Linux：BinariCat称GPT协助研究Windows版并连通](../cases/binaricat-gpt-zero-trust-windows-linux-client-report.md) — BinariCat报告GPT-6-astra辅助研究公司Windows零信任软件、做Linux版并连接，换6.2后被拒；厂商、授权、实现与连接记录未公开。 **[其他 AI 逆向 · 待验证]**
 - [Claude Code统计移到顶部插件：澜知AI转述Antigravity包研究](../cases/antigravity-claude-code-topbar-token-port-secondary-report.md) — 澜知AI称社区作者让Antigravity研究Claude Code包，移植上下文与Token统计；原开发者、插件实现和统计准确性未核实，另一个FPS demo不是逆向验证。 **[其他 AI 逆向 · 待验证]**
-- [给Antigravity换Agent内核：Kxians建议研究Claude Code架构](../cases/kxians-claude-code-antigravity-agent-core-idea.md) — Kxians在比较模型与客户端体验时，建议Google工程师研究Claude Code并向Antigravity移植Agent内核；是具体架构idea，没有实施或兼容性证明。 **[未确认使用 REA · 待验证]**
+- [给Antigravity改Agent内核：从Claude Code架构建议到REA研究竞品的idea](../cases/kxians-claude-code-antigravity-agent-core-idea.md) — Kxians建议研究Claude Code并移植Agent内核；启明破晓再提REA拆解Claude Code／Codex的功能、工作流与交互，均无实施证据，一周只是预测。 **[REA · 待验证]**
 - [Avocado Remake：视频逐场景重建HTML／GSAP，再逐帧对照](../cases/avocado-remake-video-html-gsap-frame-comparison.md) — Wanderson Jackson发布Avocado Remake，称92秒宣传片重建18场景、视觉匹配89%；串文可读，但未取得评分方法、代码或复现，不认定胜过竞品。 **[其他 AI 逆向 · 待验证]**
 - [Renoise数字人：知识猫体验后想用REA研究的idea](../cases/geekcat-renoise-digital-human-rea-idea.md) — 知识猫在Renoise视频制作讨论中称喜欢其数字人，想用REA研究；只有功能目标和使用感受，没有实际分析、接口或重建。 **[REA · 待验证]**
 - [Clip Studio接Venice：用REA MCP研究闭源绘画工具的idea](../cases/clip-studio-rea-mcp-venice-integration-idea.md) — cthulhu_ftaghn提出用REA MCP研究Clip Studio并接入Venice，帮助创作者制作艺术；只是具体设想，没有接口、代码或效果验证。 **[REA · 待验证]**
