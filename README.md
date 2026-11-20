@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2543 cases & projects
+# 2562 cases & projects
 
-**Latest case update:** November 20, 2026, 20:17 · **Last maintained:** November 20, 2026, 20:17 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 21, 2026, 00:17 · **Last maintained:** November 21, 2026, 00:17 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -31,7 +31,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 5. **[Underworld Exhumed: preserve two DOS worlds](cases/en/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20` introduction; `2026-11-17` pinned docs — Exhume's Claude Code skills support **reported byte-identical UW.EXE/UW2.EXE rebuilds**, plus native/web ports checked against 17/13 DOS recordings. Project reports, not checks rerun here; native ports need your own game data. `Unverified here`
 6. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-20` report and pinned docs — Agents write Rust against recorded behavior. The project reports **17,224 byte-identical runs, only 15,837 fully in Rust**; others fall back to Prettier. Roughly 19× CLI speedup includes process startup, versus 4.2× warmed in-process on the stated M4 test. Not rerun here. `Unverified here`
 7. **[CPS-2 Recomp: arcade games, with timing checked](cases/en/cps2recomp-claude-native-arcade-recompilation.md)** · `2026-11-20` report and pinned docs — **Claude-credited work on native C++ ports** adds board waits and DMA timing alongside training and rollback play. SFA2 reportedly matches reference work RAM on **5,634/5,671 frames**, with an eleven-frame offset; another game diverges. The reference is a model, not hardware, and the harness is not public. Own ROMs required; not run here. `In progress`
-8. **[X6200: update the radio without swapping back to stock](cases/en/x6200-claude-base-firmware-upgrade-reimplementation.md)** · `2026-11-16` report and PR merge — **Claude-assisted reconstruction of Xiegu's updater** reaches OpenX6X00. The project CI passed; the author reports upgrades and rollback on one radio. No flash readback, recovery not hardware-tested, and no reproduction here. `Unverified here`
+8. **[Yoda Stories: let Claude steer, but correct its guesses](cases/en/yoda-stories-ghidra-claude-engine-transcription.md)** · `2026-11-20` report; `2026-09-09` pinned docs — **Ghidra plus a pickup plan reportedly transcribed the engine to C++**. The author corrected names and kept structures in Ghidra; byte matching stalled and SDL work continues. Own assets required; no build here. `In progress`
 9. **[NotTheInstagram: make endless scrolling less effortless](cases/en/nottheinstagram-rea-codex-flex-friction-hooks.md)** · `2026-11-15` author article and pinned code — **FLEX gives Codex a map; REA connects Hopper** to find hooks adding three-post waits and a two-minute Reels pause. Signature checks are visible in code; individual device checks remain incomplete. Instagram 455.0.0 only reported tested; modified-client risks remain. `Unverified here`
 10. **[Kirby to PPSSPP: reuse GameShare from homebrew](cases/en/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md)** · `2026-11-20` author thread — XITRIX says **REA revealed Kirby's system-SDK startup calls**, reused to share a second PPSSPP instance with another Switch. A concrete interoperability report, not full Kirby source recovery; API code, demo and consoles not tested here. `Unverified here`
 
@@ -50,10 +50,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **497** |
-| [Hardware & interoperability](categories/en/hardware.md) | **670** |
-| [Applications & clients](categories/en/apps.md) | **1059** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **317** |
+| [Games & preservation](categories/en/games.md) | **501** |
+| [Hardware & interoperability](categories/en/hardware.md) | **673** |
+| [Applications & clients](categories/en/apps.md) | **1065** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **323** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

@@ -10,12 +10,16 @@ At 19:03:25 on November 20, Treg (@treg_ai) launches /REA-marketing, claiming we
 
 This records inference from public commercial traces, not binary decompilation, internal-algorithm recovery or causal growth proof. Every and contribution are promotional scope claims, not acceptance of complete ad-library coverage or causality. Retrieval confirms the launch thread's attribution. The complete report, source and raw API responses were not obtained; no skill was installed, service called, fees/credits checked or analysis rerun. REA in the name has no confirmed technical relationship to morluto/rea. AI-agent work is classified other-ai and status remains related-project.
 
+At 22:31:03 on November 20, Wyatt Brocato (@thewyattbrocato) says he pointed the actual REA tool at the promoted REA marketing skill and found everything going through the poster's paid service, advising products to market only what they deliver. This adds an audit account about a named skill, not independent confirmation of every call path: no repository, pinned version, audit output, network logs or fees are supplied. Retrieval confirmed attribution and text, not an executed audit here. Treg's skill name must remain separate from morluto/rea; Wyatt using REA to inspect it does not mean the skill itself calls REA.
+
 November 13 sealed snapshot: 0 likes, 29 views, 0 reposts, 0 replies. The $0.58 is sample data cost; $1 credit and the 4.0/5 rating are unchecked.
 November 20 launch snapshot: 197 likes, 11,284 views, 17 reposts, 43 replies. Engagement is not evidence of accuracy or complete coverage.
+Wyatt audit post: 1 like, 12 views, 0 reposts, 0 replies at sealing. No audit artifact was obtained; source verification is not claimed.
 
 ## Sources
 
 - [Treg REA for Growth skill and sample-data-cost introduction, November 13, 2026 Beijing time](https://x.com/i/status/2120929648800661747)
 - [Treg's REA-marketing launch and weekly-analysis scope, November 20, 2026 at 19:03:25 Beijing time](https://x.com/i/status/2123733950308974993)
+- [Wyatt reports an REA audit of REA marketing's paid-data dependence, November 20, 2026 at 22:31:03 Beijing time](https://x.com/i/status/2123786204067881434)
 
 [中文](../treg-rea-for-growth-competitor-teardown-skill.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/algorithms.md)

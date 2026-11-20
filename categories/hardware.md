@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [OpenWrt指定网关：Codex参考华硕交互，重做按设备配置入口](../cases/openwrt-codex-asus-gateway-workflow-rebuild.md) — 小京蛇称让Codex做华硕式指定网关插件；固定文档用LuCI维护dnsmasq标签，只报一台ImmortalWrt实测，25.12的apk固件不能直接装现有IPK。 **[其他 AI 逆向 · 待验证]**
+- [PicPak电子墨水相框：Claude辅助固件与自托管替代，项目仍进行中](../cases/igottz-eink-frame-claude-selfhosted-firmware.md) — whyamas转述GottZ用Claude研究云绑定相框；open-PicPak文档报告BLE与图像管线研究、WiFi拉图及恢复保护，固件与后端仍进行中，未实机复现。 **[其他 AI 逆向 · 进行中]**
+- [锅炉室外温度补偿：loganb让GPT从APK与FCC材料研究服务口](../cases/loganb-gpt-boiler-service-port-outdoor-reset.md) — loganb想配置outdoor reset，称GPT正从Android APK与FCC资料逆向锅炉服务接口；尚未完成，不是已安全控制锅炉或有节能实测。 **[其他 AI 逆向 · 进行中]**
 - [Polar臂带传感器：antirez称更新失败后经USB与蓝牙让Claude修复](../cases/antirez-polar-arm-sensor-claude-usb-bt-recovery.md) — antirez报告Polar臂带心率传感器更新出错后连接USB和蓝牙交给Claude修复；未说明型号、协议研究或恢复验证，不能推成通用解砖方法。 **[其他 AI 逆向 · 待验证]**
 - [打印机隐藏校准：Sparky300转述ChatGPT Dot拆固件的发现](../cases/sparky300-chatgpt-dot-printer-hidden-calibration-report.md) — Sparky300在Agent日常用途清单中转述ChatGPT Dot分析3D打印机固件找出隐藏校准；未具名设备、提供原始操作者或验证记录。 **[其他 AI 逆向 · 待验证]**
 - [Meta Audio眼镜：David Rose以BLE和AirShield接入自建语音Agent](../cases/drose-meta-audio-airshield-custom-agent.md) — David Rose称逆向Meta Audio眼镜，以iPhone应用经BLE连接Grok Voice及家庭Pi／Gemini Agent；协议和实机效果未独立核验。 **[未确认使用 REA · 待验证]**
@@ -416,7 +419,7 @@
 - [torne原厂固件：ほげ用AI／Ghidra研究后报告卡在密钥环节](../cases/hogehoge61-torne-stock-firmware-ai-ghidra-investigation.md) — ほげ在torne电视调谐硬件串中介绍AI／LLM配合Ghidra分析，补充称已做静态分析与真机测试、转储RAM／ROM，却卡在一处密钥；可用coax不等于原厂固件分析成功。 **[其他 AI 逆向 · 进行中]**
 - [Tinfoil安全隔区固件：以约300行汇编替代OVMF，并纳入模型审查](../cases/tinfoil-minimal-enclave-firmware-model-review-report.md) — Tinfoil称把安全隔区最先运行、接收不可信主机指令的固件，从约百万行OVMF C代码替换为约300行零依赖汇编，并把前沿模型审查与fuzzing列为安全实践；形式分析仍计划中。 **[其他 AI 逆向 · 相关项目]**
 - [A7C II Tools 3.0：AI逆向报道与QAQLeonard的单机验证边界](../cases/sony-a7cii-ai-fl2-fl3-lut-firmware-report.md) — 候选称AI辅助Sony A7C II固件改装；补查QAQLeonard公开文档限定ILCE-7CM2／2.01，报告单台Windows环境下FL2／FL3、自定义外观与恢复验证。AI分工仍为转述，macOS USB未验、颜色为拟合近似，不保证恢复或刷机安全。 **[其他 AI 逆向 · 待验证]**
-- [Kindle微信读书：丁洪Liam把既有越狱、KOReader与SimpleUI串成Agent安装Skill](../cases/ding-liam-kindle-weread-agent-installation-skill.md) — 丁洪Liam报告用Agent安装KOReader、社区微信读书插件与乔木SimpleUI；公开Skill明确仅一台KP3/5.16.2.1.1实测，不是AI发现新越狱或移植Android。 **[其他 AI 逆向 · 相关项目]**
+- [Kindle微信读书：丁洪Liam把既有越狱、KOReader与SimpleUI串成Agent安装Skill](../cases/ding-liam-kindle-weread-agent-installation-skill.md) — 丁洪Liam的Skill串接社区越狱、KOReader与SimpleUI；Nana补旧屏推书与AI聊天体验，但型号未明，不扩大原KP3/5.16.2.1.1单机验证或宣称新漏洞。 **[其他 AI 逆向 · 相关项目]**
 - [播放设备自定义固件：orcachillin考虑AI反编译、人工实现播放记录](../cases/orcachillin-ai-decompile-play-logging-firmware-idea.md) — orcachillin在为播放设备加lfm记录时手工损坏更新模块，随后考虑用AI反编译现有固件、自己写新固件；明确不信任AI生成固件。补串补足动机但未确认设备型号或AI实验结果。 **[其他 AI 逆向 · 待验证]**
 - [旧遥控吊扇：stevegodlewski报告用AI研究既有控制方式](../cases/stevegodlewski-ai-remote-ceiling-fan-report.md) — stevegodlewski称用AI逆向房屋原配遥控吊扇，避免更换智能吊扇或昂贵开关；所读串未展开仓库、品牌或协议，保留为作者自述，不确认控制效果。 **[其他 AI 逆向 · 待验证]**
 - [HackTheNorth徽章：Codex协作固件，把ESP32变成NES与Gameboy掌机](../cases/hackthenorth-esp32-codex-emulator-badge.md) — Mika Vohl报告用Codex编写HackTheNorth ESP32徽章的C/C++固件并移植NES与Gameboy模拟器，在160MHz、4MB闪存限制下通过Wi-Fi从自有服务器取游戏；未独立运行。 **[其他 AI 逆向 · 待验证]**
