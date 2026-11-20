@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [DSH渗透与逆向预设：CyHawk质疑默认授权，后续版本加入范围门禁](../cases/dsh-spenetration-reverse-engineering-preset-scope-review.md) — CyHawk审查suixin406的DSH预设；旧PROMPT确实把提供目标当授权，19:54版本改声明默认拒绝门禁。逆向、APK与前端分析工具属项目文档能力，未运行验证。 **[其他 AI 逆向 · 相关项目]**
+- [自用Strava替代：TheoFylrx在REA讨论中转述朋友已做出应用](../cases/theofylrx-rea-strava-private-rebuild-report.md) — TheoFylrx提到REA并说朋友已有免费自用Strava应用，未给操作者、代码或功能；不证明恢复原源码、付费功能可用或绕过授权。 **[REA · 待验证]**
+- [REA可视画布：khaled称制作执行前控制结果的专用canvas](../cases/khaled-rea-visual-canvas-preexecution-control.md) — khaled称自制canvas可在REA执行前可视化控制结果，强调修改与个人设计；没有演示、仓库或具名目标，保留工具界面项目自述。 **[REA · 相关项目]**
 - [未具名安卓App：boris1993称免费额度比较中仅Claude实际写逆向脚本](../cases/unnamed-android-app-claude-free-tier-script-comparison.md) — boris1993回忆让三个免费额度模型研究一个安卓App，称只有Claude实际写脚本、另外两个胡编；目标与脚本未公开，不证明逆向完成。 **[其他 AI 逆向 · 待验证]**
 - [Reverse engineer anything bot：8Bit介绍Cursor云Agent团队研究网站与合约](../cases/8bit-cursor-cloud-reverse-engineer-anything-bot.md) — 8Bit介绍给bot配置Cursor云Agent团队来研究网站和智能合约的工具；没有实例、代码或验证记录，anything只是宣传范围。 **[其他 AI 逆向 · 相关项目]**
 - [Claude Desktop到Antigravity：读者建议Gemini4逆向功能的idea](../cases/gemini4-claude-desktop-antigravity-feature-idea.md) — xMopf7RF在Antigravity版本发布下建议让Gemini4逆向Claude Desktop借鉴功能；未列具体功能，也未报告开工。 **[其他 AI 逆向 · 待验证]**
@@ -164,7 +167,7 @@
 - [不装完整Xcode做WidgetKit：Caitlyn让AI研究Apple小组件入口](../cases/y2karyl-ai-widgetkit-without-full-xcode.md) — Caitlyn Momochi称256GB双系统盘装不下Xcode，令AI研究Apple小组件行为，找到入口并强制编译器设置；自报做出小组件，未核构建命令或兼容性。 **[其他 AI 逆向 · 待验证]**
 - [Paranoia：Dopax介绍本地Rust逆向平台与可选AI／MCP入口](../cases/paranoia-rust-local-reverse-engineering-ai-platform.md) — Dopax介绍Paranoia的PE/ELF/Mach-O分析、反汇编、CFG、x86/x64伪代码与调试，另有可选AI及MCP；默认离线、许可证及安装包边界均为转述，未审源码。 **[其他 AI 逆向 · 相关项目]**
 - [Apps-in-Toss重建idea：录两至三轮应用流程，让AI整理奖励与广告时机](../cases/apps-in-toss-iphone-recording-ai-flow-rebuild-idea.md) — pixy7建议用Mac的iPhone镜像录Apps-in-Toss热门应用两至三轮，交AI整理画面与广告时机，可用REA深入；再用不同题材实现，未报告实际产物。 **[REA · 待验证]**
-- [Surge授权与VLESS：鱼乐转述AI逆向传闻，未取得实现或官方因果证据](../cases/surge-ai-license-vless-rumor-report.md) — 鱼乐转述有人用AI研究Surge授权并添加VLESS的传闻，进一步归因官方更新受其推动；没有研究者、代码、日志或官方说明，破解与因果均未核实。 **[其他 AI 逆向 · 待验证]**
+- [Surge授权传闻与Surge7重建idea：均未取得实现证据](../cases/surge-ai-license-vless-rumor-report.md) — 鱼乐转述Surge授权与VLESS的AI逆向传闻；好困新增让AI重建免费Surge7的idea。两者不是成功实现或同一研究团队，破解与官方更新因果仍未核实。 **[其他 AI 逆向 · 待验证]**
 - [中型应用重构：Michael Tomlinson称AI辅助逆向，测试先行后一周完成](../cases/mikejt4-medium-app-ai-test-first-rearchitecture-report.md) — Michael Tomlinson在讨论xAI重写时自述逆向并重新架构一款中型应用，先写测试再分步重构，一周完成；手工三至四个月是其反事实估计，应用未具名。 **[其他 AI 逆向 · 待验证]**
 - [两室四Agent工作流：Dark Factor转述REA研究到隔离容器重建的设置](../cases/darkfactor-rea-two-room-four-agent-workflow-report.md) — Dark Factor描述四个Agent文件、两室及至多三轮脚本：REA研究生成去原名规格，无REA容器实现再并排比对；没有目标、代码或实测匹配率。 **[REA · 待验证]**
 - [Outlook研究idea：M建议Claude调用REA，没有报告具体功能或结果](../cases/mura-outlook-claude-rea-idea.md) — M（@_mura）向Outlook及服务状态账号喊话，让Claude用REA研究Outlook；是具名应用idea，没有任务细节、运行或修复证据。 **[REA · 待验证]**

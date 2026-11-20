@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [LEGO Racers：Claude署名提交参与1999年游戏的匹配反编译](../cases/lego-racers-claude-matching-decompilation.md) — isledecomp重建LEGO Racers与GolDP，Claude署名提交报告具体函数匹配改善；项目称已可玩但软件渲染未完成，不是整文件字节一致或跨平台移植完成。 **[其他 AI 逆向 · 进行中]**
+- [CPS-2 Recomp：Claude署名参与街机原生重编译，时序对照仍有缺口](../cases/cps2recomp-claude-native-arcade-recompilation.md) — 项目把卡普空街机68000程序提前译为C++，提供多平台启动器、训练与回滚联机；Claude署名时序修改有模型对照，但并非所有游戏、声画或实机已验证。 **[其他 AI 逆向 · 进行中]**
 - [鸣潮角色渲染：KORVA报告AI辅助逆向与抓帧分析](../cases/wuthering-waves-ai-frame-capture-character-rendering.md) — KORVA称以AI配合逆向和抓帧提取鸣潮角色渲染效果，并强调对齐帧与状态；未提供shader源码、运行工程或画面对照。 **[其他 AI 逆向 · 待验证]**
 - [Doom Dark Ages低配优化：Morpheus提出AI逆向助跑Steam Deck的idea](../cases/doom-dark-ages-ai-low-end-optimization-idea.md) — Morpheus询问能否用AI与逆向把Doom Dark Ages优化到Steam Deck60fps或GTX1050Ti30fps；这些是愿望指标，不是测量。 **[其他 AI 逆向 · 待验证]**
 - [Fallout4第二GPU放大Mod：AHS称用Claude完成的改造](../cases/ahs-fallout4-claude-second-gpu-upscaling-mod.md) — AHS称用Claude给Fallout4做Mod，把放大工作交给第二块GPU；未公开代码、显卡型号或性能测量，不等于双GPU渲染。 **[其他 AI 逆向 · 待验证]**
@@ -194,7 +196,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](../cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](../cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](../cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — 读者称AI加速AnyPS5系统调用研究；新帖描述PS5游戏重链接至Windows／Linux及Vulkan转换，但未核源码或可玩性，GTA6移植只是预测。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新转述称400次提交中82次署名Claude、着色器覆盖52%到100%，并列Minecraft运行与Wolverine启动；未核代码测试，GTA6仍缺dump，不是已完成移植。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](../cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](../cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](../cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**

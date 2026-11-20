@@ -1,21 +1,25 @@
 # AnyPS5: readers credit AI with PS5 syscall research; compatibility and playability remain unverified
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-15
+Record date: 2026-11-20
 Stage: Needs verification
 
-At 11:02:42 Beijing time on November 1, 2026, a participant compares the work with Valve's years developing Proton. They say independently reverse-engineering PS5 system calls and reaching a playable compatibility layer would otherwise take years, but AnyPS5 used AI to speed that process dramatically. The claim that there should be no real software emulation is the reader's architectural judgment, not a finding established from source or execution traces.
+At 11:02:42 Beijing time on November 1, 2026, a participant compares AnyPS5 with Valve's years on Proton, crediting AI with accelerating PS5 syscall research and compatibility-layer work. No real software emulation is their judgment, not a source or trace finding. A November 15 account at 14:58:45 describes relinking games into native Windows/Linux programs and converting graphics commands to Vulkan, listing syscalls, graphics, encryption and compatibility as obstacles. The 54,000 stars were unchecked; a future GTA 6 port remained a prediction.
 
-A new secondary account at 14:58:45 on November 15 describes a route that does not emulate an entire PS5, instead attempting to relink games into native Windows/Linux programs and translate graphics commands to Vulkan. It lists system calls, graphics interfaces, encryption and compatibility as difficulties and argues that AI can accelerate analysis and implementation. This is still a commentator's methodological outline, not a source audit or AI task trace. The claimed 54,000 GitHub stars were not checked. Belief that someone will try porting GTA 6 after release is a future prediction, not an existing PC version, project commitment or compatibility test.
+A new candidate at 18:21:00 on November 20 says the poster cloned the repository and inspected git log: 82 of the latest 400 commits reportedly carry Co-Authored-By: Claude, naming Sonnet 5.5, Opus 5.5 and Fable 5.2 and claiming this work landed in about fifteen hours. Another video window reportedly shows a PS5-to-Vulkan shader recompiler whose coverage rose from 52% to 100% over months. Those are different timing claims, not an entire project completed in fifteen hours. No coverage definition, test set or implementation validation is supplied.
 
-The earlier post supplies no repository; the new one supplies only a short link. This collection obtained no confirmed repository and pinned revision, developer confirmation, syscall coverage, tested game list, frame rates, environment, logs or AI model/task division. Native execution of PS5 games, absence of all emulation, a complete compatibility layer and legal authorization are not established. It is not merged with different PS5 jailbreak, storefront or kernel-security targets. Retained as an unverified report about a named project; REA is not mentioned, and this collection did not download or run it.
+The new post also says Minecraft runs and Wolverine boots to logos. A clean GTA 6 dump from the latest firmware is still missing: someone claimed extraction two days before launch but no files were available. Its GTA VI PC port is already built headline is not a result: there is no game-running record or complete input, and Wolverine logos do not establish playability. The 57,700 stars are unchecked; Rockstar's supposed 2027 PC plans are the poster's background claim, not a release date verified here.
 
-November 1 candidate snapshot: 0 likes, 42 views, 0 reposts. The Proton analogy is not architecture or playability evidence.
-November 15 candidate snapshot: 0 likes, 89 views, 0 reposts, 0 replies. The post's 54,000-star claim is unchecked and does not establish completed functionality.
+Architecture, AI counts and game progress remain attributed secondary reports. No confirmed repository, pinned revision, original commit set, coverage report, developer confirmation, frame rates, environment or logs were obtained. Named models do not mean AI task traces were audited here. The video was not watched and the project was not downloaded or run. Absence of all emulation, complete compatibility and legal authorization are unestablished. This is not merged with PS5 jailbreak, storefront or kernel cases. REA is unmentioned and status remains unverified.
+
+November 1 candidate: 0 likes, 42 views, 0 reposts. The Proton analogy is not architecture or playability evidence.
+November 15 candidate: 0 likes, 89 views, 0 reposts, 0 replies; 54,000 stars unchecked.
+November 20 candidate: 90 likes, 12,365 views, 8 reposts, 9 replies. The 82/400 credits, fifteen hours, 52%-to-100% coverage and 57,700 stars are secondary claims, not evidence GTA 6 runs.
 
 ## Sources
 
 - [Reader's AnyPS5 and AI-accelerated syscall-research account, November 1, 2026](https://x.com/i/status/2116727605550358804)
 - [New secondary account: Windows/Linux relinking and Vulkan; GTA 6 is only a prediction, November 15, 2026 at 14:58:45 Beijing time](https://x.com/i/status/2121860438623232306)
+- [New account: Claude commits, shader coverage and game-boot limits, November 20, 2026 at 18:21:00 Beijing time](https://x.com/i/status/2123723274987114504)
 
 [中文](../anyps5-ai-syscall-compatibility-layer-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

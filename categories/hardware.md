@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Polar臂带传感器：antirez称更新失败后经USB与蓝牙让Claude修复](../cases/antirez-polar-arm-sensor-claude-usb-bt-recovery.md) — antirez报告Polar臂带心率传感器更新出错后连接USB和蓝牙交给Claude修复；未说明型号、协议研究或恢复验证，不能推成通用解砖方法。 **[其他 AI 逆向 · 待验证]**
+- [打印机隐藏校准：Sparky300转述ChatGPT Dot拆固件的发现](../cases/sparky300-chatgpt-dot-printer-hidden-calibration-report.md) — Sparky300在Agent日常用途清单中转述ChatGPT Dot分析3D打印机固件找出隐藏校准；未具名设备、提供原始操作者或验证记录。 **[其他 AI 逆向 · 待验证]**
 - [Meta Audio眼镜：David Rose以BLE和AirShield接入自建语音Agent](../cases/drose-meta-audio-airshield-custom-agent.md) — David Rose称逆向Meta Audio眼镜，以iPhone应用经BLE连接Grok Voice及家庭Pi／Gemini Agent；协议和实机效果未独立核验。 **[未确认使用 REA · 待验证]**
 - [RTP084与Agilex7：TANG报告AI辅助架构、DMA与100G光链路研究](../cases/tang-rtp084-agilex7-ai-dma-optical-link-report.md) — TANG将RTP084示波器架构与Agilex7 F-Tile光互连实测列为AI工业研究，称逆向双DMA并验证4587万帧零丢包；无原始测量可复核。 **[其他 AI 逆向 · 待验证]**
 - [六厂商FPGA／EDA：TANG称GPT与Gemini辅助比特流逆向及Z3证明](../cases/tang-fpga-eda-gpt-gemini-z3-vulnerability-report.md) — TANG称GPT/Codex与Gemini支撑六厂商FPGA／EDA研究，报告299项漏洞与CERT/CC标识；没有厂商清单、公告或证明可独立核验。 **[其他 AI 逆向 · 待验证]**

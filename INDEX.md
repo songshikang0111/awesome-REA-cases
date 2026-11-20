@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2528 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2543 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（495）
-- [硬件与设备互通](categories/hardware.md)（668）
-- [应用与客户端](categories/apps.md)（1056）
-- [算法与功能重建](categories/algorithms.md)（309）
+- [游戏与游戏保存](categories/games.md)（497）
+- [硬件与设备互通](categories/hardware.md)（670）
+- [应用与客户端](categories/apps.md)（1059）
+- [算法与功能重建](categories/algorithms.md)（317）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [LEGO Racers：Claude署名提交参与1999年游戏的匹配反编译](cases/lego-racers-claude-matching-decompilation.md) — isledecomp重建LEGO Racers与GolDP，Claude署名提交报告具体函数匹配改善；项目称已可玩但软件渲染未完成，不是整文件字节一致或跨平台移植完成。 **[其他 AI 逆向 · 进行中]**
+- [CPS-2 Recomp：Claude署名参与街机原生重编译，时序对照仍有缺口](cases/cps2recomp-claude-native-arcade-recompilation.md) — 项目把卡普空街机68000程序提前译为C++，提供多平台启动器、训练与回滚联机；Claude署名时序修改有模型对照，但并非所有游戏、声画或实机已验证。 **[其他 AI 逆向 · 进行中]**
 - [鸣潮角色渲染：KORVA报告AI辅助逆向与抓帧分析](cases/wuthering-waves-ai-frame-capture-character-rendering.md) — KORVA称以AI配合逆向和抓帧提取鸣潮角色渲染效果，并强调对齐帧与状态；未提供shader源码、运行工程或画面对照。 **[其他 AI 逆向 · 待验证]**
 - [Doom Dark Ages低配优化：Morpheus提出AI逆向助跑Steam Deck的idea](cases/doom-dark-ages-ai-low-end-optimization-idea.md) — Morpheus询问能否用AI与逆向把Doom Dark Ages优化到Steam Deck60fps或GTX1050Ti30fps；这些是愿望指标，不是测量。 **[其他 AI 逆向 · 待验证]**
 - [Fallout4第二GPU放大Mod：AHS称用Claude完成的改造](cases/ahs-fallout4-claude-second-gpu-upscaling-mod.md) — AHS称用Claude给Fallout4做Mod，把放大工作交给第二块GPU；未公开代码、显卡型号或性能测量，不等于双GPU渲染。 **[其他 AI 逆向 · 待验证]**
@@ -218,7 +220,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — 读者称AI加速AnyPS5系统调用研究；新帖描述PS5游戏重链接至Windows／Linux及Vulkan转换，但未核源码或可玩性，GTA6移植只是预测。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新转述称400次提交中82次署名Claude、着色器覆盖52%到100%，并列Minecraft运行与Wolverine启动；未核代码测试，GTA6仍缺dump，不是已完成移植。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
@@ -524,6 +526,8 @@
 
 ### 硬件与设备互通
 
+- [Polar臂带传感器：antirez称更新失败后经USB与蓝牙让Claude修复](cases/antirez-polar-arm-sensor-claude-usb-bt-recovery.md) — antirez报告Polar臂带心率传感器更新出错后连接USB和蓝牙交给Claude修复；未说明型号、协议研究或恢复验证，不能推成通用解砖方法。 **[其他 AI 逆向 · 待验证]**
+- [打印机隐藏校准：Sparky300转述ChatGPT Dot拆固件的发现](cases/sparky300-chatgpt-dot-printer-hidden-calibration-report.md) — Sparky300在Agent日常用途清单中转述ChatGPT Dot分析3D打印机固件找出隐藏校准；未具名设备、提供原始操作者或验证记录。 **[其他 AI 逆向 · 待验证]**
 - [Meta Audio眼镜：David Rose以BLE和AirShield接入自建语音Agent](cases/drose-meta-audio-airshield-custom-agent.md) — David Rose称逆向Meta Audio眼镜，以iPhone应用经BLE连接Grok Voice及家庭Pi／Gemini Agent；协议和实机效果未独立核验。 **[未确认使用 REA · 待验证]**
 - [RTP084与Agilex7：TANG报告AI辅助架构、DMA与100G光链路研究](cases/tang-rtp084-agilex7-ai-dma-optical-link-report.md) — TANG将RTP084示波器架构与Agilex7 F-Tile光互连实测列为AI工业研究，称逆向双DMA并验证4587万帧零丢包；无原始测量可复核。 **[其他 AI 逆向 · 待验证]**
 - [六厂商FPGA／EDA：TANG称GPT与Gemini辅助比特流逆向及Z3证明](cases/tang-fpga-eda-gpt-gemini-z3-vulnerability-report.md) — TANG称GPT/Codex与Gemini支撑六厂商FPGA／EDA研究，报告299项漏洞与CERT/CC标识；没有厂商清单、公告或证明可独立核验。 **[其他 AI 逆向 · 待验证]**
@@ -1195,6 +1199,9 @@
 
 ### 应用与客户端
 
+- [DSH渗透与逆向预设：CyHawk质疑默认授权，后续版本加入范围门禁](cases/dsh-spenetration-reverse-engineering-preset-scope-review.md) — CyHawk审查suixin406的DSH预设；旧PROMPT确实把提供目标当授权，19:54版本改声明默认拒绝门禁。逆向、APK与前端分析工具属项目文档能力，未运行验证。 **[其他 AI 逆向 · 相关项目]**
+- [自用Strava替代：TheoFylrx在REA讨论中转述朋友已做出应用](cases/theofylrx-rea-strava-private-rebuild-report.md) — TheoFylrx提到REA并说朋友已有免费自用Strava应用，未给操作者、代码或功能；不证明恢复原源码、付费功能可用或绕过授权。 **[REA · 待验证]**
+- [REA可视画布：khaled称制作执行前控制结果的专用canvas](cases/khaled-rea-visual-canvas-preexecution-control.md) — khaled称自制canvas可在REA执行前可视化控制结果，强调修改与个人设计；没有演示、仓库或具名目标，保留工具界面项目自述。 **[REA · 相关项目]**
 - [未具名安卓App：boris1993称免费额度比较中仅Claude实际写逆向脚本](cases/unnamed-android-app-claude-free-tier-script-comparison.md) — boris1993回忆让三个免费额度模型研究一个安卓App，称只有Claude实际写脚本、另外两个胡编；目标与脚本未公开，不证明逆向完成。 **[其他 AI 逆向 · 待验证]**
 - [Reverse engineer anything bot：8Bit介绍Cursor云Agent团队研究网站与合约](cases/8bit-cursor-cloud-reverse-engineer-anything-bot.md) — 8Bit介绍给bot配置Cursor云Agent团队来研究网站和智能合约的工具；没有实例、代码或验证记录，anything只是宣传范围。 **[其他 AI 逆向 · 相关项目]**
 - [Claude Desktop到Antigravity：读者建议Gemini4逆向功能的idea](cases/gemini4-claude-desktop-antigravity-feature-idea.md) — xMopf7RF在Antigravity版本发布下建议让Gemini4逆向Claude Desktop借鉴功能；未列具体功能，也未报告开工。 **[其他 AI 逆向 · 待验证]**
@@ -1357,7 +1364,7 @@
 - [不装完整Xcode做WidgetKit：Caitlyn让AI研究Apple小组件入口](cases/y2karyl-ai-widgetkit-without-full-xcode.md) — Caitlyn Momochi称256GB双系统盘装不下Xcode，令AI研究Apple小组件行为，找到入口并强制编译器设置；自报做出小组件，未核构建命令或兼容性。 **[其他 AI 逆向 · 待验证]**
 - [Paranoia：Dopax介绍本地Rust逆向平台与可选AI／MCP入口](cases/paranoia-rust-local-reverse-engineering-ai-platform.md) — Dopax介绍Paranoia的PE/ELF/Mach-O分析、反汇编、CFG、x86/x64伪代码与调试，另有可选AI及MCP；默认离线、许可证及安装包边界均为转述，未审源码。 **[其他 AI 逆向 · 相关项目]**
 - [Apps-in-Toss重建idea：录两至三轮应用流程，让AI整理奖励与广告时机](cases/apps-in-toss-iphone-recording-ai-flow-rebuild-idea.md) — pixy7建议用Mac的iPhone镜像录Apps-in-Toss热门应用两至三轮，交AI整理画面与广告时机，可用REA深入；再用不同题材实现，未报告实际产物。 **[REA · 待验证]**
-- [Surge授权与VLESS：鱼乐转述AI逆向传闻，未取得实现或官方因果证据](cases/surge-ai-license-vless-rumor-report.md) — 鱼乐转述有人用AI研究Surge授权并添加VLESS的传闻，进一步归因官方更新受其推动；没有研究者、代码、日志或官方说明，破解与因果均未核实。 **[其他 AI 逆向 · 待验证]**
+- [Surge授权传闻与Surge7重建idea：均未取得实现证据](cases/surge-ai-license-vless-rumor-report.md) — 鱼乐转述Surge授权与VLESS的AI逆向传闻；好困新增让AI重建免费Surge7的idea。两者不是成功实现或同一研究团队，破解与官方更新因果仍未核实。 **[其他 AI 逆向 · 待验证]**
 - [中型应用重构：Michael Tomlinson称AI辅助逆向，测试先行后一周完成](cases/mikejt4-medium-app-ai-test-first-rearchitecture-report.md) — Michael Tomlinson在讨论xAI重写时自述逆向并重新架构一款中型应用，先写测试再分步重构，一周完成；手工三至四个月是其反事实估计，应用未具名。 **[其他 AI 逆向 · 待验证]**
 - [两室四Agent工作流：Dark Factor转述REA研究到隔离容器重建的设置](cases/darkfactor-rea-two-room-four-agent-workflow-report.md) — Dark Factor描述四个Agent文件、两室及至多三轮脚本：REA研究生成去原名规格，无REA容器实现再并排比对；没有目标、代码或实测匹配率。 **[REA · 待验证]**
 - [Outlook研究idea：M建议Claude调用REA，没有报告具体功能或结果](cases/mura-outlook-claude-rea-idea.md) — M（@_mura）向Outlook及服务状态账号喊话，让Claude用REA研究Outlook；是具名应用idea，没有任务细节、运行或修复证据。 **[REA · 待验证]**
@@ -2254,6 +2261,14 @@
 
 ### 算法与功能重建
 
+- [Notion黑五营销：Artyom用Claude Code与Treg反推公开投放节奏](cases/artyom-treg-notion-black-friday-marketing-teardown.md) — Artyom称REA-marketing查到Notion89条Meta广告、25条免费试用优惠且零折扣，花0.04美元数据费；是公开渠道分析，不是恢复Notion内部策略。 **[其他 AI 逆向 · 待验证]**
+- [Dyson黑五：Harshit用Treg技能研究搜索、广告库与TikTok销售线索](cases/harshit-treg-dyson-black-friday-marketing-teardown.md) — Harshit自报AI分析Dyson花0.22美元数据费，列22590关键词、美国Meta库零广告及TikTok数据；他明确太早下结论，数字未独立重查。 **[其他 AI 逆向 · 待验证]**
+- [DJI黑五：Elion称用Treg拆解218条广告与173次创作者合作](cases/elion-treg-dji-black-friday-marketing-teardown.md) — Elion称REA-marketing将DJI黑五拆成218条Meta广告与173次创作者合作，解释品牌自有社交偏产品、创作者带销售；没有原始计数与转化验证。 **[其他 AI 逆向 · 待验证]**
+- [ElevenLabs黑五：gianmauric用Treg反推年费促销与广告节奏](cases/gianmauric-treg-elevenlabs-black-friday-teardown.md) — gianmauric称Treg分析ElevenLabs促销从1美元首月改为99美元年费，提前11天、年费55%折扣；78万美元月Google广告费是估算，分析费用不足0.10美元。 **[其他 AI 逆向 · 待验证]**
+- [Anthropic一年营销：Sahil称用Treg技能做0.43美元拆解](cases/sahil-treg-anthropic-year-marketing-teardown.md) — Sahil想核查Anthropic增长是否主要自然获得，称用Treg反推一年营销数据、花0.43美元；正文未给具体渠道发现或证明增长因果。 **[其他 AI 逆向 · 进行中]**
+- [Replit黑五：Amit称一条Claude Code提示拆出周度营销安排](cases/amit-treg-replit-black-friday-marketing-teardown.md) — Amit称Treg技能在Claude Code整理Replit黑五的广告、创作者合作、优惠与时机，注意到促销前已有大量准备；未给原始数据或效果验证。 **[其他 AI 逆向 · 待验证]**
+- [Brighton球员招募模型：Ron Dor提出用Fable5.2反推的idea](cases/ron-dor-brighton-fable-recruitment-model-idea.md) — Ron Dor设想Fable5.2可反推Brighton的数据化球员招募模型，让其他俱乐部仿用；未给数据、方法或输出，属于idea而非已恢复算法。 **[其他 AI 逆向 · 待验证]**
+- [Como球员招募模型：Ron Dor的Fable5.2策略反推idea](cases/ron-dor-como-fable-recruitment-model-idea.md) — Ron Dor把Como列为可由Fable5.2反推招募逻辑的俱乐部，担忧策略趋同；未给实际分析、数据与回测，不是成功复现。 **[其他 AI 逆向 · 待验证]**
 - [异瞳猫追逐片：Leaf Yeah用Antigravity拆镜与Omni分段重建的报告](cases/leaf-antigravity-omni-cat-chase-video-reconstruction.md) — Leaf Yeah称Gemini Hydrogen拆解猫追逐参考片，再调用Omni1.2 Flash分两段换猫生成；18秒先压速再恢复，未核画面保真或拼接结果。 **[其他 AI 逆向 · 待验证]**
 - [Polymarket匿名Bot：Crypto.Sol建议Claude／Grok反推YES与NO套利逻辑](cases/cryptosol-polymarket-yes-no-ai-strategy-study-idea.md) — Crypto.Sol建议用Claude或Grok研究匿名Polymarket机器人的跨市场双边买入逻辑；130万美元累计收益及30天4.9万多美元未核，不是已完成重建。 **[其他 AI 逆向 · 待验证]**
 - [雨夜城市剪影重建：打工战士试图像到Muse Image提示工具，保留三处失真](cases/dagongai-muse-image-rainy-city-prompt-reconstruction.md) — 打工战士称用工具分析颜色、亮度和构图，生成Muse Image提示重做雨夜城市例图；位置大致保留，窗户过密、月亮过亮和竖线条码化仍需修。 **[其他 AI 逆向 · 待验证]**
@@ -2306,7 +2321,7 @@
 - [精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5](cases/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。 **[其他 AI 逆向 · 待验证]**
 - [十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站](cases/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。 **[其他 AI 逆向 · 分析测试]**
 - [LinkedIn爆款到原创X草稿：崔棉转述Claude拆主题与互动驱动的营销idea](cases/mastercui-claude-linkedin-post-pattern-study-idea.md) — 一篇零预算营销指南建议给Claude主题与社区列表，研究高互动LinkedIn帖子后重写原创X草稿，可扩到Reddit；未给实际样本与前后传播测试。 **[其他 AI 逆向 · 待验证]**
-- [REA for Growth：用竞品流量、广告与招聘反推增长的早期技能](cases/treg-rea-for-growth-competitor-teardown-skill.md) — 候选介绍Treg的免费REA for Growth技能，让Agent研究竞品多种增长信号；宣称样例数据成本0.58美元、提供1美元试用额度，未核完整报告与复现。 **[未确认使用 REA · 相关项目]**
+- [Treg增长拆解技能：从REA for Growth到黑五REA-marketing发布](cases/treg-rea-for-growth-competitor-teardown-skill.md) — Treg介绍让Agent研究竞品增长信号；新REA-marketing发布按周拆广告、创作者合作和优惠。推广称解释触达、支出与销售，但未验证因果、覆盖或完整报告。 **[其他 AI 逆向 · 相关项目]**
 - [月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配](cases/sandmrk-moonlit-peony-portrait-prompt-reconstruction.md) — sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。 **[其他 AI 逆向 · 待验证]**
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
 - [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**
@@ -2411,7 +2426,7 @@
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
 - [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**
-- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth经Treg反推公开增长轨迹；韩文新转述称Lovable高曝光90条Meta广告中72条复用两句文案，ChatGPT三问均列第一；数字是转述快照，不证明增长因果。 **[其他 AI 逆向 · 相关项目]**
+- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth／marketing经Treg研究公开增长；新操作者称Lovable黑五前一周441广告、零条写黑五、分析花0.18美元。与旧90／72条广告是不同快照，不证明全渠道或增长因果。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**

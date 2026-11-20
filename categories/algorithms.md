@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Notion黑五营销：Artyom用Claude Code与Treg反推公开投放节奏](../cases/artyom-treg-notion-black-friday-marketing-teardown.md) — Artyom称REA-marketing查到Notion89条Meta广告、25条免费试用优惠且零折扣，花0.04美元数据费；是公开渠道分析，不是恢复Notion内部策略。 **[其他 AI 逆向 · 待验证]**
+- [Dyson黑五：Harshit用Treg技能研究搜索、广告库与TikTok销售线索](../cases/harshit-treg-dyson-black-friday-marketing-teardown.md) — Harshit自报AI分析Dyson花0.22美元数据费，列22590关键词、美国Meta库零广告及TikTok数据；他明确太早下结论，数字未独立重查。 **[其他 AI 逆向 · 待验证]**
+- [DJI黑五：Elion称用Treg拆解218条广告与173次创作者合作](../cases/elion-treg-dji-black-friday-marketing-teardown.md) — Elion称REA-marketing将DJI黑五拆成218条Meta广告与173次创作者合作，解释品牌自有社交偏产品、创作者带销售；没有原始计数与转化验证。 **[其他 AI 逆向 · 待验证]**
+- [ElevenLabs黑五：gianmauric用Treg反推年费促销与广告节奏](../cases/gianmauric-treg-elevenlabs-black-friday-teardown.md) — gianmauric称Treg分析ElevenLabs促销从1美元首月改为99美元年费，提前11天、年费55%折扣；78万美元月Google广告费是估算，分析费用不足0.10美元。 **[其他 AI 逆向 · 待验证]**
+- [Anthropic一年营销：Sahil称用Treg技能做0.43美元拆解](../cases/sahil-treg-anthropic-year-marketing-teardown.md) — Sahil想核查Anthropic增长是否主要自然获得，称用Treg反推一年营销数据、花0.43美元；正文未给具体渠道发现或证明增长因果。 **[其他 AI 逆向 · 进行中]**
+- [Replit黑五：Amit称一条Claude Code提示拆出周度营销安排](../cases/amit-treg-replit-black-friday-marketing-teardown.md) — Amit称Treg技能在Claude Code整理Replit黑五的广告、创作者合作、优惠与时机，注意到促销前已有大量准备；未给原始数据或效果验证。 **[其他 AI 逆向 · 待验证]**
+- [Brighton球员招募模型：Ron Dor提出用Fable5.2反推的idea](../cases/ron-dor-brighton-fable-recruitment-model-idea.md) — Ron Dor设想Fable5.2可反推Brighton的数据化球员招募模型，让其他俱乐部仿用；未给数据、方法或输出，属于idea而非已恢复算法。 **[其他 AI 逆向 · 待验证]**
+- [Como球员招募模型：Ron Dor的Fable5.2策略反推idea](../cases/ron-dor-como-fable-recruitment-model-idea.md) — Ron Dor把Como列为可由Fable5.2反推招募逻辑的俱乐部，担忧策略趋同；未给实际分析、数据与回测，不是成功复现。 **[其他 AI 逆向 · 待验证]**
 - [异瞳猫追逐片：Leaf Yeah用Antigravity拆镜与Omni分段重建的报告](../cases/leaf-antigravity-omni-cat-chase-video-reconstruction.md) — Leaf Yeah称Gemini Hydrogen拆解猫追逐参考片，再调用Omni1.2 Flash分两段换猫生成；18秒先压速再恢复，未核画面保真或拼接结果。 **[其他 AI 逆向 · 待验证]**
 - [Polymarket匿名Bot：Crypto.Sol建议Claude／Grok反推YES与NO套利逻辑](../cases/cryptosol-polymarket-yes-no-ai-strategy-study-idea.md) — Crypto.Sol建议用Claude或Grok研究匿名Polymarket机器人的跨市场双边买入逻辑；130万美元累计收益及30天4.9万多美元未核，不是已完成重建。 **[其他 AI 逆向 · 待验证]**
 - [雨夜城市剪影重建：打工战士试图像到Muse Image提示工具，保留三处失真](../cases/dagongai-muse-image-rainy-city-prompt-reconstruction.md) — 打工战士称用工具分析颜色、亮度和构图，生成Muse Image提示重做雨夜城市例图；位置大致保留，窗户过密、月亮过亮和竖线条码化仍需修。 **[其他 AI 逆向 · 待验证]**
@@ -54,7 +62,7 @@
 - [精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5](../cases/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。 **[其他 AI 逆向 · 待验证]**
 - [十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站](../cases/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。 **[其他 AI 逆向 · 分析测试]**
 - [LinkedIn爆款到原创X草稿：崔棉转述Claude拆主题与互动驱动的营销idea](../cases/mastercui-claude-linkedin-post-pattern-study-idea.md) — 一篇零预算营销指南建议给Claude主题与社区列表，研究高互动LinkedIn帖子后重写原创X草稿，可扩到Reddit；未给实际样本与前后传播测试。 **[其他 AI 逆向 · 待验证]**
-- [REA for Growth：用竞品流量、广告与招聘反推增长的早期技能](../cases/treg-rea-for-growth-competitor-teardown-skill.md) — 候选介绍Treg的免费REA for Growth技能，让Agent研究竞品多种增长信号；宣称样例数据成本0.58美元、提供1美元试用额度，未核完整报告与复现。 **[未确认使用 REA · 相关项目]**
+- [Treg增长拆解技能：从REA for Growth到黑五REA-marketing发布](../cases/treg-rea-for-growth-competitor-teardown-skill.md) — Treg介绍让Agent研究竞品增长信号；新REA-marketing发布按周拆广告、创作者合作和优惠。推广称解释触达、支出与销售，但未验证因果、覆盖或完整报告。 **[其他 AI 逆向 · 相关项目]**
 - [月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配](../cases/sandmrk-moonlit-peony-portrait-prompt-reconstruction.md) — sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。 **[其他 AI 逆向 · 待验证]**
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](../cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
 - [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](../cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**
@@ -159,7 +167,7 @@
 - [Danny Bones人物制作拆解：George Pygall用Claude研究受众，再做自有AI角色](../cases/george-pygall-danny-bones-ai-persona-reconstruction.md) — George称从AI说唱人物反推persona、声音与视频制作路线；公开串给Claude研究、角色图、语音和口播工具，但未恢复原作者内部流程。 **[其他 AI 逆向 · 待验证]**
 - [Claude组件设计规范：Gabe称是社区从产物反推，不是官方提示词泄露](../cases/claude-widget-design-rules-community-inference.md) — Gabe纠正一份Claude组件设计规范合集的来源；父帖列出流式HTML、图标、字体和暗色模式约束，但没有证实官方内部提示词。 **[未确认使用 REA · 待验证]**
 - [冰龙驭使短片：sandmrk反推Muse的26.4秒分镜，承认生成仍不匹配](../cases/sandmrk-muse-ice-dragon-video-prompt-reconstruction.md) — sandmrk把冰雪人物、白龙与雷击场景拆成Muse生成规格，约束镜头、比例和角色一致性；是视频表现重建提示，不是恢复模型或原始提示词。 **[其他 AI 逆向 · 待验证]**
-- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](../cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth经Treg反推公开增长轨迹；韩文新转述称Lovable高曝光90条Meta广告中72条复用两句文案，ChatGPT三问均列第一；数字是转述快照，不证明增长因果。 **[其他 AI 逆向 · 相关项目]**
+- [REA-growth：从Lovable到Tesla／Treg的增长拆解，保留时间窗口与因果限制](../cases/rea-growth-lovable-company-timeline-skill-report.md) — REA-growth／marketing经Treg研究公开增长；新操作者称Lovable黑五前一周441广告、零条写黑五、分析花0.18美元。与旧90／72条广告是不同快照，不证明全渠道或增长因果。 **[其他 AI 逆向 · 相关项目]**
 - [RETROGRADE：用生成程序与行为执行评估逆向Agent，Round0结果待发布](../cases/retrograde-generated-reverse-engineering-agent-benchmark.md) — celeste介绍由IR生成目标与真值的基准，覆盖15工作负载、4语言、6 ISA并惩罚过度自信；现有材料是方法与示例分数，不是模型排名。 **[其他 AI 逆向 · 进行中]**
 - [Grok盗币逻辑分析：作者称14分钟研究两类事件，缺少样本与日志](../cases/grok-crypto-theft-logic-fourteen-minute-analysis-report.md) — 作者声称用Grok分析币安授权与Polymarket脚本劫持，提出三层AI防御；未给交易、代码或分析记录，不采纳损失金额和漏洞机制为已证实事实。 **[其他 AI 逆向 · 待验证]**
 - [rea-brand：Aditya用Treg分析Dan Koe跨平台个人品牌模式](../cases/treg-rea-brand-dankoe-analysis-skill.md) — Aditya Umale发布个人品牌逆向Skill，称分析Dan Koe花0.081美元；串中区分SEEN／INFERRED，但未核实输出或增长效果。 **[其他 AI 逆向 · 相关项目]**

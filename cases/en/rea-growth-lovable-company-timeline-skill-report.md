@@ -1,7 +1,7 @@
 # REA-growth: Lovable, Tesla and Treg growth teardowns with time-window and causality limits
 
 Category: Algorithms and feature recovery · Other AI-assisted work
-Record date: 2026-11-18
+Record date: 2026-11-20
 Stage: Related project
 
 At 15:32:10 Beijing time on November 1, 2026, an earlier post introduces the open-source agent skill /REA-growth: supply a company name to map SEO, AI search, advertising and social growth moves over time, with a reported $0.58 full Lovable analysis. Retained as related AI-assisted inference from public business traces, not binary reconstruction. A technical relationship with morluto/rea is unconfirmed.
@@ -24,6 +24,7 @@ Earlier candidate: 2 likes, 87 views, 0 reposts. Supersocks candidate: 11 likes,
 Costs, API counts, ads/traffic/audiences and channel figures are source-reported snapshots, not independently rechecked or proof of growth causation.
 At 18:34:12 Beijing time on November 7, 2026, Doc Bolt (@TheodoreGrek) adds a Lovable demo account: 20,132 sites reportedly link back through published-app badges and 918 through affiliate codes; founder milestone posts drew the most views, and new Portuguese Meta ads are interpreted as entry into Brazil. Suggested plays have prompts and are labeled data-backed or inferred. The $0.58 remains a Treg data-call charge claim, not total model cost. No ledger, query dates or causal validation were obtained; Portuguese alone does not establish market expansion. Retrieval confirms attribution and a video, not watched or rerun here. Sealed candidate: 1 like, 39 views, 1 repost.
 November 18 Korean sealed candidate: 10 likes, 427 views, 0 reposts, 1 reply. Ninety/seventy-two ads and first place in three questions were not independently queried, nor are they evidence of engagement or causation.
+At 19:43:53 Beijing time on November 20, 2026, @athrix_codes says Treg's /rea-marketing inferred Lovable's marketing: 441 active ads a week before Black Friday, none mentioning it, for $0.18. Retrieval confirms attribution. No ad-library platform, region, IDs, raw responses, full report or invoice are supplied, and total model costs are not explicitly included. The scope differs from the older 90 high-exposure ads, so no ad-growth multiple, all-channel absence of promotions or internal-strategy recovery is inferred. No skill execution or query rerun occurred here. Sealed candidate: 16 likes, 174 views, 1 repost, 4 replies.
 
 ## Sources
 
@@ -32,5 +33,6 @@ November 18 Korean sealed candidate: 10 likes, 427 views, 0 reposts, 1 reply. Ni
 - [Salman Bareesh's REA-growth analysis of Treg channels, November 1, 2026](https://x.com/i/status/2116890496350212361)
 - [Doc Bolt's Lovable growth-teardown account, November 7, 2026 at 18:34:12 Beijing time](https://x.com/i/status/2119015557475221790)
 - [New Korean account: Lovable ad-copy reuse and ChatGPT citations, November 18, 2026 at 21:01:00 Beijing time](https://x.com/i/status/2123038765166080001)
+- [athrix_codes on a Lovable Black Friday ad snapshot and $0.18 analysis, November 20, 2026 at 19:43:53 Beijing time](https://x.com/i/status/2123744134448263504)
 
 [中文](../rea-growth-lovable-company-timeline-skill-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/algorithms.md)
