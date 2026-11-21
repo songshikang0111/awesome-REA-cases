@@ -1,5 +1,22 @@
 [
   {
+    "id": "pleumkungz-be550-claude-unifi-firmware-report",
+    "title": "TP-Link BE550：Pleumkungz称Claude改原厂固件，加入UniFi agent后刷写通过",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "为避免另买AP，Pleumkungz因拆壳与UART困难放弃U7 Pro OpenWrt移植，改请Claude修改BE550的TP-Link固件，加入unifi agent与fakectrl；只自报刷写通过，未证明完整UniFi互通。",
+    "description": "2026年11月21日14:24:29（北京时间），Pleumkungz（@pleumkungz_t）用泰语报告一项路由器固件改造：不想另外买无线接入点（AP），原先尝试把U7 Pro的OpenWrt固件移植到BE550，但设备很难拆开，为接UART串口可能得破坏外壳。他因此改走修改TP-Link原厂固件的路线，而不是继续原先的移植方案。\n\n作者明确称使用Claude Mythos 5.2修改固件，塞入unifi agent并制作fakectrl，最后说刷写也通过了。这里保留原帖组件名称与模型标注，不把fakectrl解释为已核实的某种控制器实现，也不将最初的OpenWrt移植写成完成。具体目标是让已有BE550承接所需接入点／UniFi相关功能；从现有固件做互通改造属于宽泛AI辅助逆向项目，但原帖没有说明反汇编、协议分析或REA调用。\n\n补取原帖确认作者与完整措辞。未提供硬件修订、固件版本、源代码、补丁、控制器版本、运行日志、联网演示或恢复测试。刷写通过只是作者报告的阶段结果，不证明正常启动、成功采用到UniFi控制器、无线功能、升级兼容或长期稳定；不能推断它已等同U7 Pro。未访问设备、下载固件、执行项目或验证组件来源，本合集不提供刷写步骤；保留unverified与作者自述边界。",
+    "sources": [{"label": "Pleumkungz的BE550固件改造与刷写自述，2026-11-21 14:24:29北京时间", "url": "https://x.com/i/status/2124026142160245105"}],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日候选封存快照：0赞、11浏览、0转发、0回复；热度不代表固件或互通验证。", "唯一结果为作者称刷写通过；未取得启动、控制器采用或联网测试，未独立复现。"],
+    "en": {
+      "title": "TP-Link BE550: Pleumkungz reports Claude-modified stock firmware with a UniFi agent and a successful flash",
+      "summary": "To avoid buying another AP, Pleumkungz abandons a U7 Pro OpenWrt port because opening the BE550 for UART is difficult, then asks Claude to modify TP-Link firmware with unifi agent and fakectrl. Only flashing is reported, not complete UniFi interoperability.",
+      "description": "At 14:24:29 Beijing time on November 21, 2026, Pleumkungz (@pleumkungz_t) reports a router-firmware modification in Thai. To avoid buying another wireless access point (AP), the author first tried porting U7 Pro OpenWrt firmware to a BE550. Opening the device was difficult, and reaching the UART serial interface might require damaging the enclosure. The author therefore switched to modifying TP-Link stock firmware rather than continuing that port.\n\nThe post explicitly names Claude Mythos 5.2 for modifying the firmware, adding unifi agent and making fakectrl, and says flashing succeeded. Component names and the model label are preserved as written. The role or implementation of fakectrl is not independently established, and the initial OpenWrt port is not presented as completed. The concrete goal is to repurpose the existing BE550 for the desired AP/UniFi-related functionality. Modifying existing firmware for interoperability fits the broader AI-assisted reverse-engineering scope, but the post describes no disassembly, protocol analysis or REA invocation.\n\nRetrieving the original confirms attribution and the complete wording. No hardware revision, firmware version, source, patch, controller version, runtime logs, networking demonstration or recovery test is supplied. Successful flashing is only an author-reported intermediate result: it does not establish a normal boot, adoption by a UniFi controller, wireless functionality, upgrade compatibility or long-term stability. Equivalence to a U7 Pro cannot be inferred. This collection accessed no device, downloaded no firmware, executed no project and did not verify component provenance; no flashing procedure is provided. Status remains unverified with the author-report boundary intact.",
+      "metadata": ["November 21 sealed candidate snapshot: 0 likes, 11 views, 0 reposts, 0 replies. Engagement is not firmware or interoperability validation.", "The only outcome is the author's successful-flash report. No boot, controller-adoption or networking test was obtained; not independently reproduced."],
+      "source_labels": ["Pleumkungz's BE550 firmware-modification and flashing report, November 21, 2026 at 14:24:29 Beijing time"]
+    }
+  },
+  {
     "id": "consessus-rea-mac-agent-app-interoperability",
     "title": "Consessus：用REA研究四款Mac编程助手的本机通信，让已有会话互发消息",
     "category": "apps", "rea": "REA", "status": "in-progress",

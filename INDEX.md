@@ -10,12 +10,12 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2584 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2585 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（506）
-- [硬件与设备互通](categories/hardware.md)（678）
+- [硬件与设备互通](categories/hardware.md)（679）
 - [应用与客户端](categories/apps.md)（1077）
 - [算法与功能重建](categories/algorithms.md)（323）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
@@ -535,6 +535,7 @@
 
 ### 硬件与设备互通
 
+- [TP-Link BE550：Pleumkungz称Claude改原厂固件，加入UniFi agent后刷写通过](cases/pleumkungz-be550-claude-unifi-firmware-report.md) — 为避免另买AP，Pleumkungz因拆壳与UART困难放弃U7 Pro OpenWrt移植，改请Claude修改BE550的TP-Link固件，加入unifi agent与fakectrl；只自报刷写通过，未证明完整UniFi互通。 **[其他 AI 逆向 · 待验证]**
 - [PS5手柄代玩GTA：D.O.C.I提出先用REA理解控制器的idea](cases/ps5-controller-rea-gta-playing-idea.md) — D.O.C.I提议用REA研究PS5控制器，再教AI使用并代玩GTA；是玩笑语气的具体控制接口想法，没有协议成果、自动游玩或通关记录。 **[REA · 待验证]**
 - [同一路由器固件测四模型：knowlet记录拒绝中断与Sol完成自述](cases/router-firmware-four-ai-models-refusal-comparison.md) — knowlet比较DeepSeek、Grok、Astra与Sol研究同一固件的体验，称Sol最终实现想开通的功能；路由器及功能未具名，没有复现或统一评测。 **[REA · 分析测试]**
 - [Ecovacs N8 Pro：dronus称Codex研究固件并延长回站排空时间](cases/ecovacs-n8-pro-codex-empty-time-firmware-report.md) — dronus称用Codex研究自有N8 Pro，网上找固件、开源工具分析，并延长清扫每20分钟回站时的排空时间；未给改动值与实机对照。 **[其他 AI 逆向 · 待验证]**
