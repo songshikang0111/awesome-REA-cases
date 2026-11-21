@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Gemin加Muse重做短片：鱼鳞对比ChatGPT抽帧方法的个人体验](../cases/gemin-muse-video-reconstruction-frame-method-comparison.md) — 鱼鳞今天AI了吗称以Gemin加Muse复刻一段视频，比此前ChatGPT抽帧法更满意；未提供片名、提示、逐帧对照或可重跑记录。 **[其他 AI 逆向 · 待验证]**
 - [grokBot增长拆解：antinertia用Claude与Treg研究创作者投放](../cases/treg-grokbot-growth-playbook-report.md) — antinertia称一条Claude提示反推grokBot增长，报告X共18.4亿浏览与1000多条Meta广告；未取得完整报告，不是内部增长算法恢复。 **[其他 AI 逆向 · 待验证]**
 - [Mailcheap：Paarangat用Treg反推以既有X受众获客的路径](../cases/treg-mailcheap-growth-teardown.md) — Paarangat的七产品比较中称Mailcheap月经常收入3200美元、零广告、向现有X粉丝发帖；渠道和收入均未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [redak：Treg比较研究中的LinkedIn获客自述](../cases/treg-redak-linkedin-growth-teardown.md) — Paarangat用Treg比较七产品，称redak月经常收入13700美元、零广告、只发LinkedIn；没有收入或渠道原始记录。 **[其他 AI 逆向 · 待验证]**
@@ -17,7 +18,7 @@
 - [Brighton球员招募模型：Ron Dor提出用Fable5.2反推的idea](../cases/ron-dor-brighton-fable-recruitment-model-idea.md) — Ron Dor设想Fable5.2可反推Brighton的数据化球员招募模型，让其他俱乐部仿用；未给数据、方法或输出，属于idea而非已恢复算法。 **[其他 AI 逆向 · 待验证]**
 - [Como球员招募模型：Ron Dor的Fable5.2策略反推idea](../cases/ron-dor-como-fable-recruitment-model-idea.md) — Ron Dor把Como列为可由Fable5.2反推招募逻辑的俱乐部，担忧策略趋同；未给实际分析、数据与回测，不是成功复现。 **[其他 AI 逆向 · 待验证]**
 - [异瞳猫追逐片：Leaf Yeah用Antigravity拆镜与Omni分段重建的报告](../cases/leaf-antigravity-omni-cat-chase-video-reconstruction.md) — Leaf Yeah称Gemini Hydrogen拆解猫追逐参考片，再调用Omni1.2 Flash分两段换猫生成；18秒先压速再恢复，未核画面保真或拼接结果。 **[其他 AI 逆向 · 待验证]**
-- [Polymarket匿名Bot：Crypto.Sol建议Claude／Grok反推YES与NO套利逻辑](../cases/cryptosol-polymarket-yes-no-ai-strategy-study-idea.md) — Crypto.Sol建议用Claude或Grok研究匿名Polymarket机器人的跨市场双边买入逻辑；130万美元累计收益及30天4.9万多美元未核，不是已完成重建。 **[其他 AI 逆向 · 待验证]**
+- [Polymarket匿名Bot：从Claude／Grok反推建议到成交时序与双边数量研究清单](../cases/cryptosol-polymarket-yes-no-ai-strategy-study-idea.md) — Crypto.Sol提Claude／Grok研究匿名双边套利Bot；0x_Miko补充成交间隔、实际价格、数量匹配和市场重复等观察项。收益未核，未有实现或回测，也未确认同一钱包。 **[其他 AI 逆向 · 待验证]**
 - [雨夜城市剪影重建：打工战士试图像到Muse Image提示工具，保留三处失真](../cases/dagongai-muse-image-rainy-city-prompt-reconstruction.md) — 打工战士称用工具分析颜色、亮度和构图，生成Muse Image提示重做雨夜城市例图；位置大致保留，窗户过密、月亮过亮和竖线条码化仍需修。 **[其他 AI 逆向 · 待验证]**
 - [LOCA：把网表分成逻辑锥，让LLM恢复并证明等价RTL](../cases/loca-llm-logic-cone-netlist-rtl-recovery.md) — 研究摘要转述称LOCA以分组逻辑锥和并行Agent恢复RTL，21个模型／设计组合成功17个，对照6个；只读摘要帖，未审论文或复跑证明。 **[其他 AI 逆向 · 分析测试]**
 - [机械章鱼图到Three.js装配体：Nathan转述Claude Skill的视觉重建](../cases/nathan-claude-mechanical-octopus-image-threejs-reconstruction.md) — Nathan AI Lab介绍单张ChatGPT章鱼图与octopus提示生成Three.js机械装配与定时拆解；10片光圈、48齿等是生成宣称，不是真实结构恢复。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [hydrogen与Gemini：CRIMINAL MONSTER提出skill.md音乐改造，效果未核](../cases/gemini-hydrogen-skill-music-integration-idea.md) — CRIMINAL MONSTER称和Gemini用skill.md改造hydrogen，贴六段音乐编排并考虑HTH引擎；未确定目标产品身份或取得代码、接口与音频结果，仅作整合idea。 **[其他 AI 逆向 · 待验证]**
+- [RealRederaLLM：Hakeem介绍模型网关与逆向开发平台，尚无目标分析记录](../cases/realrederallm-ai-gateway-reverse-development-platform.md) — Hakeem Jones将RealRederaLLM称为开源AI API网关及逆向开发平台，列多模型路由、编程Agent、软件分析与本地AI；未取得源码或具体目标的分析输出。 **[其他 AI 逆向 · 相关项目]**
 - [Consessus：用REA研究四款Mac编程助手的本机通信，让已有会话互发消息](../cases/consessus-rea-mac-agent-app-interoperability.md) — ns称用rea研究Claude、Codex、Antigravity与OpenCode的本机接口，做成跨应用会话CLI；固定文档记录单机往返与房间测试，也明确桌面版例外及未测分支。 **[REA · 进行中]**
 - [产品短片工作流idea：Claude统筹Rea-Video拆镜与代码动画重建](../cases/claude-rea-video-product-film-pipeline-idea.md) — 日语帖子将13个工具组织为视频制作流程：Rea-Video分析参考片，再以代码与生成素材组装产品片；是可试组合，不是已跑通电影工作室。 **[其他 AI 逆向 · 待验证]**
 - [vogel的iOS研究：称Agent正在逆向，尚无子系统或结果](../cases/agent-ios-reverse-engineering-in-progress-report.md) — vogel回复称有Agent正在逆向iOS；仅有系统级目标与进行中自述，没有模型、版本、方法或发现，不与其Wyze固件项目混同。 **[未确认使用 REA · 进行中]**

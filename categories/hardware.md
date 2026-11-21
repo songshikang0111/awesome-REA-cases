@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [PS5 14.10固件研究：Myttle转述Claude署名提交，未确认仓库与突破](../cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle称公开PS5 14.10研究仓库五周3218次提交、195次Claude署名及31位参与者；未给可核仓库，不证明越狱完成，更不等于GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**
+- [iPod固件与配套软件：Wilf Lin称因使用不爽借AI自行重写](../cases/wilf-lin-ipod-ai-firmware-companion-rewrite.md) — Wilf Lin称AI让自己能为不满意的iPod重写固件和配套软件；没有设备代次、模型、代码、刷写或功能验证，不能视为已替代原厂固件。 **[其他 AI 逆向 · 待验证]**
 - [TP-Link BE550：Pleumkungz称Claude改原厂固件，加入UniFi agent后刷写通过](../cases/pleumkungz-be550-claude-unifi-firmware-report.md) — 为避免另买AP，Pleumkungz因拆壳与UART困难放弃U7 Pro OpenWrt移植，改请Claude修改BE550的TP-Link固件，加入unifi agent与fakectrl；只自报刷写通过，未证明完整UniFi互通。 **[其他 AI 逆向 · 待验证]**
 - [PS5手柄代玩GTA：D.O.C.I提出先用REA理解控制器的idea](../cases/ps5-controller-rea-gta-playing-idea.md) — D.O.C.I提议用REA研究PS5控制器，再教AI使用并代玩GTA；是玩笑语气的具体控制接口想法，没有协议成果、自动游玩或通关记录。 **[REA · 待验证]**
 - [同一路由器固件测四模型：knowlet记录拒绝中断与Sol完成自述](../cases/router-firmware-four-ai-models-refusal-comparison.md) — knowlet比较DeepSeek、Grok、Astra与Sol研究同一固件的体验，称Sol最终实现想开通的功能；路由器及功能未具名，没有复现或统一评测。 **[REA · 分析测试]**

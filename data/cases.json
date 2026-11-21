@@ -1,5 +1,145 @@
 [
   {
+    "id": "gemini-hydrogen-skill-music-integration-idea",
+    "title": "hydrogen与Gemini：CRIMINAL MONSTER提出skill.md音乐改造，效果未核",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "CRIMINAL MONSTER称和Gemini用skill.md改造hydrogen，贴六段音乐编排并考虑HTH引擎；未确定目标产品身份或取得代码、接口与音频结果，仅作整合idea。",
+    "description": "2026年11月21日16:39:53（北京时间），CRIMINAL MONSTER（@alexale15864366）用意大利语说，自己和Gemini决定用skill.md改造hydrogen，同时等待给Gemini的Flow引擎。正文列出AIE FACTORY的六段器乐编排：工业Techno／EBM、Dark Ritual Gospel与Emotional Dark Electronic的组合，134 BPM、F小调，分列打击乐、低音、合成器与人声空间。音乐计划说明预期用途，不证明软件已能执行这些编排。\n\n完整结尾说已允许Gemini访问自己的Drive项目，称只是编程／reverse engineering，并说还要核实能否使用自己的HTH引擎。保留为对具名hydrogen目标的AI辅助技能化／整合想法，未确定它是否指同名鼓机软件或作者自有组件；不擅自认定反编译了某产品、绕过接口、已连接Flow或HTH。12个月全天工作的说法也不是本目标的可核工时。\n\n补取确认署名与正文；没有仓库、skill.md、目标版本、接口说明、改动差异、运行日志或音频输出，未读所附图片，未访问Drive或执行项目。除作者自称reverse engineering外，具体分析方法未交代；只收录提出的改造方向，不将编曲文本当成实现结果，状态unverified，REA未提。",
+    "sources": [{"label": "CRIMINAL MONSTER的Gemini、hydrogen与skill.md音乐整合想法，2026-11-21 16:39:53北京时间", "url": "https://x.com/i/status/2124060217981771829"}],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日封存快照：0赞、17浏览、0转发、0回复；Flow／HTH仍属等待或待确认，未验证任何音频或软件输出。"],
+    "en": {
+      "title": "hydrogen and Gemini: CRIMINAL MONSTER proposes a skill.md music adaptation without verified output",
+      "summary": "CRIMINAL MONSTER describes adapting hydrogen with Gemini and skill.md, supplies a six-part arrangement and considers HTH engines. Target identity, code, interfaces and audio results are unverified; this is an integration idea.",
+      "description": "At 16:39:53 Beijing time on November 21, 2026, CRIMINAL MONSTER (@alexale15864366) says in Italian that the author and Gemini decided to transform hydrogen using skill.md while waiting for a Flow engine for Gemini. The post lists a six-part AIE FACTORY instrumental arrangement combining Industrial Techno/EBM, Dark Ritual Gospel and Emotional Dark Electronic at 134 BPM in F minor, specifying percussion, bass, synths and vocal space. This music plan illustrates intended use, not software execution of the arrangement.\n\nThe complete ending says Gemini has permission to access the author's Drive projects, calls the work programming/reverse engineering, and says use of the author's HTH engines still needs checking. Retained as an AI-assisted skill/integration idea around the named hydrogen target. It is unclear whether that means the drum-machine application or the author's own component. Decompilation of a particular product, interface bypass and completed Flow or HTH connections are not inferred. A claim of twelve months working around the clock is not verifiable labor for this target.\n\nRetrieval confirms attribution and text. No repository, skill.md, target revision, interface description, change diff, runtime log or audio output was obtained. The attached image was not read, Drive was not accessed and no project was executed. Beyond the author's reverse-engineering label, analysis methods are unspecified. Only the proposed adaptation is included; arrangement text is not an implementation result. Status is unverified and REA is unmentioned.",
+      "metadata": ["November 21 sealed snapshot: 0 likes, 17 views, 0 reposts, 0 replies. Flow/HTH remain awaited or to be checked; no audio or software output was verified."],
+      "source_labels": ["CRIMINAL MONSTER's Gemini, hydrogen and skill.md music-integration idea, November 21, 2026 at 16:39:53 Beijing time"]
+    }
+  },
+  {
+    "id": "gemin-muse-video-reconstruction-frame-method-comparison",
+    "title": "Gemin加Muse重做短片：鱼鳞对比ChatGPT抽帧方法的个人体验",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "鱼鳞今天AI了吗称以Gemin加Muse复刻一段视频，比此前ChatGPT抽帧法更满意；未提供片名、提示、逐帧对照或可重跑记录。",
+    "description": "2026年11月21日16:30:43（北京时间），鱼鳞今天AI了吗（@yulin0211）报告用‘Gemin+Muse’复刻了一段视频，并解释之前用Chatgpt一直采用抽帧方法，效果不尽人意，因此认为G老师更擅长逆向视频。这是从参考片推断生成方案再重做的个人实验，具体解决的是抽取静帧后难以获得满意动态结果的问题，而不是软件二进制反编译。\n\n工具名称保留原帖的Gemin写法，不擅自改成已核实的Gemini版本；Muse的具体产品、模型和版本也未确定。文字只支持作者做过一段重做、对旧方法不满意及对新方法的主观好评，不能推断自动抽取运镜、音轨、完整提示、原始工程或恢复原Prompt。原帖附视频，补取确认署名与附件存在，但本合集未观看原片或成片。\n\n没有参考片标题、时长、链接对应关系、输入提示、抽帧频率、参数、运行日志或质量指标，无法分辨改善来自分析、生成模型还是人工调整。没有相同目标证据，不并入其他Muse视频案例；未运行模型或下载素材，保持unverified，不把个人偏好写成模型排名。",
+    "sources": [{"label": "鱼鳞的Gemin／Muse重做与ChatGPT抽帧方法对比，2026-11-21 16:30:43北京时间", "url": "https://x.com/i/status/2124057912016503078"}],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日封存快照：1赞、10浏览、0转发、0回复；满意度不是相似度测试。"],
+    "en": {
+      "title": "Gemin plus Muse for a video remake: Yulin compares a personal trial with ChatGPT frame extraction",
+      "summary": "Yulin reports remaking a clip with Gemin plus Muse and preferring it to earlier ChatGPT frame-extraction attempts. No clip title, prompts, frame comparison or reproducible record is supplied.",
+      "description": "At 16:30:43 Beijing time on November 21, 2026, 鱼鳞今天AI了吗 (@yulin0211, Yulin) reports remaking a video segment with 'Gemin+Muse'. The author says earlier Chatgpt attempts consistently used extracted frames and produced unsatisfactory results, and now praises G teacher's video reverse engineering. This is a personal reference-to-generation reconstruction experiment addressing dissatisfaction with dynamic results derived from still frames, not software-binary decompilation.\n\nGemin is preserved as written, not silently expanded into a verified Gemini version; the specific Muse product, model and version are also unknown. The text supports one reported remake, dissatisfaction with the earlier method and a subjective preference for the new route. It does not establish automatic recovery of camera motion, audio, complete prompts, an original project or the original prompt. Retrieval confirms attribution and a video attachment, but neither reference nor output was watched here.\n\nNo reference title, duration, input/output link mapping, prompts, frame-sampling frequency, parameters, logs or quality metric is available. Improvement cannot be assigned to analysis, generation models or manual adjustments. Without evidence of a shared target, this is not merged with other Muse cases. No models were run or media downloaded; status remains unverified, and personal preference is not a model ranking.",
+      "metadata": ["November 21 sealed snapshot: 1 like, 10 views, 0 reposts, 0 replies. Satisfaction is not a similarity test."],
+      "source_labels": ["Yulin's Gemin/Muse remake and ChatGPT frame-method comparison, November 21, 2026 at 16:30:43 Beijing time"]
+    }
+  },
+  {
+    "id": "iss-pro2-cleanroom-agent-football-recreation",
+    "title": "ISS Pro 2式足球游戏：Salvatore用隔离实现Agent尝试重建乐趣",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "Salvatore Zappalà称用clean-room逆向做一款像ISS Pro 2一样好玩的游戏，实现Agent不看代码；作者发现做出乐趣更难，未报告等价性或完成移植。",
+    "description": "2026年11月21日17:48:31（北京时间），Salvatore Zappalà（@salvozappa）报告正在尝试用clean-room逆向制作一款像ISS Pro 2一样好玩的游戏。ISS Pro 2在这里是足球游戏参考目标；作者没有声称找回其原始源码，也没有明确说做逐字节匹配的移植。目标是重建值得游玩的体验，而不只是画出相似界面。\n\n作者给出的唯一具体隔离条件是实现Agent从不看代码。他说学到三点：让游戏好玩比预想难、可能性很多且过程有趣、模型在这件事上能力很强。前两点保留为进行中的设计反馈，最后一点只是个人评价，不当作功能通过率或独立模型基准。原帖未说明研究角色如何观察游戏、如何写规格、向实现角色传递哪些信息，因而不能认证完整clean-room合规性。\n\n补取确认作者、时间与视频附件；未观看视频，没有取得仓库、规格、参考版本、平台、模型名称、控制手感对照、比赛逻辑或测试日志。没有移植完成、可玩范围或性能验收记录。REA未提及，本合集未运行游戏或Agent，保留in-progress。",
+    "sources": [{"label": "Salvatore的ISS Pro 2式游戏与隔离实现Agent自述，2026-11-21 17:48:31北京时间", "url": "https://x.com/i/status/2124077488166871079"}],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日封存快照：1赞、26浏览、0转发、0回复；clean-room为作者所称流程，不是法律或代码独立性认证。"],
+    "en": {
+      "title": "An ISS Pro 2-style football game: Salvatore tries to recreate the fun with an isolated implementer agent",
+      "summary": "Salvatore Zappalà reports clean-room work on a game as enjoyable as ISS Pro 2, with an implementer agent that never sees code. Making it fun proved harder than expected; no equivalence or completed port is reported.",
+      "description": "At 17:48:31 Beijing time on November 21, 2026, Salvatore Zappalà (@salvozappa) reports trying to recreate a game as fun to play as ISS Pro 2 through clean-room reverse engineering. ISS Pro 2 is the football-game reference here. The author does not claim original-source recovery or explicitly describe a byte-matching port. The goal is a worthwhile playing experience, not merely a similar interface.\n\nThe only concrete isolation condition supplied is that the implementer agent never sees the code. The author lists three lessons: making it fun is harder than expected, the possibilities and process are enjoyable, and models are extremely capable at the task. The first two remain ongoing design feedback; the last is personal praise, not a functional pass rate or independent model benchmark. The post does not explain how a researcher observes the game, writes specifications or passes information to the implementer, so a complete clean-room process cannot be certified.\n\nRetrieval confirms attribution, timing and a video attachment. The video was not watched. No repository, specification, reference version, platform, model name, control-feel comparison, match-logic test or logs were obtained. There is no completed-port, playable-scope or performance acceptance record. REA is unmentioned; no game or agent was run here. Status remains in-progress.",
+      "metadata": ["November 21 sealed snapshot: 1 like, 26 views, 0 reposts, 0 replies. Clean-room describes the author's stated process, not legal or code-independence certification."],
+      "source_labels": ["Salvatore's ISS Pro 2-style game and isolated implementer-agent report, November 21, 2026 at 17:48:31 Beijing time"]
+    }
+  },
+  {
+    "id": "realrederallm-ai-gateway-reverse-development-platform",
+    "title": "RealRederaLLM：Hakeem介绍模型网关与逆向开发平台，尚无目标分析记录",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Hakeem Jones将RealRederaLLM称为开源AI API网关及逆向开发平台，列多模型路由、编程Agent、软件分析与本地AI；未取得源码或具体目标的分析输出。",
+    "description": "2026年11月21日18:09:29（北京时间），Hakeem Jones（@HakeemVeli）介绍RealRederaLLM，称其为开源AI API网关与逆向开发平台，集成安全API key、多模型路由、编程Agent、软件分析和本地AI。帖子另用Real Redesign decode engine、reverse engineer anything等措辞，声称playground有700个不同model id。保留平台名称及原始说法，不把这些短语擅自解释为REA兼容引擎、特定解码器或700个经过测试的模型。\n\n该项目的具体定位是将模型接入和软件研究放进同一开发平台，作为AI辅助逆向相关工具收录；不是已经完成某个二进制、协议或应用重建的成果。补取只确认作者、正文和两张图片附件；未读取截图、公开源码、API文档、许可或模型列表，也没有指定目标、分析报告、测试与演示日志。安全、开源与本地集成均仍是发帖者宣称，不能认证密钥管理或隔离性。\n\n没有使用、请求或检查任何API key，未接入服务、安装依赖或执行目标；没有证据说明调用morluto/rea。保持related-project，平台能力未经本合集核验。",
+    "sources": [{"label": "Hakeem Jones的RealRederaLLM平台介绍，2026-11-21 18:09:29北京时间", "url": "https://x.com/i/status/2124082766849441926"}],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日封存快照：0赞、14浏览、0转发、0回复；700 model id为文字宣称，不是已验证可用数量。"],
+    "en": {
+      "title": "RealRederaLLM: Hakeem introduces an AI gateway and reversing-development platform without target-analysis records",
+      "summary": "Hakeem Jones calls RealRederaLLM an open-source AI API gateway and reverse-engineering platform with routing, coding agents, software analysis and local AI. Source code and a concrete target's analysis output were not obtained.",
+      "description": "At 18:09:29 Beijing time on November 21, 2026, Hakeem Jones (@HakeemVeli) introduces RealRederaLLM as an open-source AI API gateway and reverse-engineering development platform featuring secure API keys, multi-model routing, coding agents, software analysis and local AI integration. The post also uses 'Real Redesign decode engine' and 'reverse engineer anything', claiming a playground with 700 different model IDs. Names and wording are preserved rather than interpreted as a REA-compatible engine, a specific decoder or 700 tested models.\n\nIts concrete positioning combines model access and software investigation in one development platform, making it a related AI-assisted reversing tool, not a completed binary, protocol or app reconstruction. Retrieval confirms attribution, text and two image attachments only. Screenshots, public source, API documentation, licensing and model inventory were not reviewed. There is no named target, analysis report, test or demonstration log. Security, open-source availability and local integration remain the poster's claims; key management and isolation are not certified.\n\nNo API key was used, requested or inspected; no service was connected, dependency installed or target executed. There is no evidence of morluto/rea use. Status remains related-project with platform capabilities unverified by this collection.",
+      "metadata": ["November 21 sealed snapshot: 0 likes, 14 views, 0 reposts, 0 replies. 700 model IDs is a text claim, not a verified usable-model count."],
+      "source_labels": ["Hakeem Jones introduces RealRederaLLM, November 21, 2026 at 18:09:29 Beijing time"]
+    }
+  },
+  {
+    "id": "ps5-1410-claude-firmware-research-secondary-report",
+    "title": "PS5 14.10固件研究：Myttle转述Claude署名提交，未确认仓库与突破",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Myttle称公开PS5 14.10研究仓库五周3218次提交、195次Claude署名及31位参与者；未给可核仓库，不证明越狱完成，更不等于GTA VI PC移植。",
+    "description": "2026年11月21日18:21:00（北京时间），Myttle（@xmyttle）称自己克隆了一个研究PS5 14.10固件的公开仓库，视频上窗为Git历史，下窗为研究笔记。他把研究动机描述为跨越公开越狱停在13.60、GTA VI需要更新固件的差距；这些固件适用性和游戏前提均是作者背景说法，本合集未核官方记录。\n\n帖子称五周3218次提交，其中195次含Co-Authored-By: Claude，31人参与；另有CLAUDE.md从581行缩到162行以省Token的提交。这里能记录的是具备固件目标、AI归因和文档改动的第三方研究报告，不是本合集查出的提交统计。署名不等于AI独立完成所有代码，文档缩短也没有实际Token或效率对照；原帖没有可识别的仓库地址、固定提交、模型、漏洞编号或成功日志。\n\n补取原帖与返回的串文确认署名和视频附件，评论没有提供仓库或可复现验证。未观看视频、读取目标固件、源码或利用链，也未操作主机。不能将所谓最后一道锁写成已越狱、已提取合法游戏输入或只差此步就能在PC运行GTA VI。与AnyPS5重链接兼容层及旧Jordy赏金报道缺乏同一项目证据，不合并其结果或计数；REA未提，保持unverified，不提供破解步骤。",
+    "sources": [{"label": "Myttle的PS5 14.10固件仓库与Claude署名转述，2026-11-21 18:21:00北京时间", "url": "https://x.com/i/status/2124085662798205336"}],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日封存快照：42赞、4516浏览、0转发、3回复；3218／195提交、五周、31人及581到162行均未据仓库复算。"],
+    "en": {
+      "title": "PS5 14.10 firmware research: Myttle relays Claude-credited commits without a confirmed repository or breakthrough",
+      "summary": "Myttle claims 3,218 commits in five weeks, 195 Claude credits and 31 contributors in a public PS5 14.10 research repository. No verifiable repository is identified; this proves neither a completed jailbreak nor a GTA VI PC port.",
+      "description": "At 18:21:00 Beijing time on November 21, 2026, Myttle (@xmyttle) says they cloned a public repository researching PS5 firmware 14.10, with Git history above and research notes below in a video. The stated motivation is bridging a public jailbreak allegedly stopping at 13.60 and GTA VI requiring newer firmware. Firmware applicability and those game prerequisites are the author's background claims, not official records checked here.\n\nThe post claims 3,218 commits over five weeks, 195 containing Co-Authored-By: Claude, and 31 contributors. It also describes a commit reducing CLAUDE.md from 581 to 162 lines to save tokens. This supports recording a secondary research report with a firmware target, AI attribution and a documentation change, not a commit audit performed by this collection. Credits do not mean AI independently wrote all code; shorter documentation has no measured token or efficiency comparison. No identifiable repository URL, pinned commit, model, vulnerability identifier or successful-run log is supplied.\n\nRetrieving the original and returned thread confirms attribution and a video attachment; comments supply no repository or reproducible validation. The video, target firmware, source and exploit chain were not reviewed, and no console was operated. The supposed final lock is not presented as a completed jailbreak, legally obtained game input or the only remaining obstacle to GTA VI on PC. No shared-project evidence links it to AnyPS5's relinking layer or older Jordy bounty reports, so their outcomes and counts are not merged. REA is unmentioned. Status remains unverified; no cracking steps are provided.",
+      "metadata": ["November 21 sealed snapshot: 42 likes, 4,516 views, 0 reposts, 3 replies. The 3,218/195 commits, five weeks, 31 people and 581-to-162 lines were not recounted from a repository."],
+      "source_labels": ["Myttle's PS5 14.10 firmware repository and Claude-credit report, November 21, 2026 at 18:21:00 Beijing time"]
+    }
+  },
+  {
+    "id": "siya-flappy-bird-apk-codex-chromatic-port",
+    "title": "Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。",
+    "description": "2026年11月21日18:45:20（北京时间），Siya（@siyabuilt）报告找到一个旧版Android Flappy Bird APK，使用Codex逆向后移植到@modretro的Chromatic。逆向输入与输出设备明确：从移动端应用研究游戏行为／实现，重建到另一游戏平台，而不是继续已有Claude研究Flappy Bird的未具名实验。没有共同作者、代码或目标版本证据，故不把两个项目合并。\n\n作者直接称已经移植，并附视频；本合集补取确认署名与附件存在，未观看附件、访问主机或取得工程。帖子未说明APK版本、如何提取玩法、是否复用素材、模型版本、开发工具、目标格式、物理参数、计分与碰撞对照或可玩范围。不能补写逐字节源码恢复、原作行为完全一致、已发布ROM或可分发资产。\n\n保留为具体跨平台逆向移植的作者自述，不把兴奋评价当质量测试。REA未提，没有运行Codex、安装APK或执行目标代码，状态unverified；合法输入和素材授权仍需由复现者自行确认。",
+    "sources": [{"label": "Siya的Flappy Bird APK、Codex与Chromatic移植自述，2026-11-21 18:45:20北京时间", "url": "https://x.com/i/status/2124091786750578957"}],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日封存快照：7赞、329浏览、0转发、0回复；视频存在不代表本合集验证了移植。"],
+    "en": {
+      "title": "An old Flappy Bird APK to Chromatic: Siya reports Codex-assisted reverse engineering and a port",
+      "summary": "Siya says an old Android Flappy Bird APK was reverse engineered with Codex and ported to ModRetro Chromatic. A video is attached, but source, builds, behavior comparisons and hardware-validation records are absent.",
+      "description": "At 18:45:20 Beijing time on November 21, 2026, Siya (@siyabuilt) reports finding an old Android Flappy Bird APK, reverse engineering it with Codex and porting it to @modretro's Chromatic. Both the input and output device are explicit: study a mobile game's behavior/implementation and reconstruct it on another gaming platform. This is not treated as a continuation of an existing unnamed Claude Flappy Bird experiment; no shared author, code or target-version evidence supports merging them.\n\nThe author directly claims a port and attaches a video. Retrieval confirms attribution and the attachment, but the video was not watched, hardware accessed or a project obtained. The post specifies no APK version, gameplay-extraction method, asset reuse, model version, development tools, target format, physics parameters, scoring/collision comparison or playable scope. Byte-level original-source recovery, exact original behavior, a released ROM and asset-redistribution rights are not inferred.\n\nRetained as an author's concrete cross-platform reversing-and-porting report. Excitement is not a quality test. REA is unmentioned; Codex was not run, the APK was not installed and no target code was executed. Status is unverified. Reproduction still requires checking lawful inputs and asset permissions.",
+      "metadata": ["November 21 sealed snapshot: 7 likes, 329 views, 0 reposts, 0 replies. An attached video does not mean the port was verified here."],
+      "source_labels": ["Siya's Flappy Bird APK, Codex and Chromatic port report, November 21, 2026 at 18:45:20 Beijing time"]
+    }
+  },
+  {
+    "id": "gta6-claude-screen-observation-bounty-claim",
+    "title": "GTA6看屏找bug：Noisy称Claude发现电话界面问题获1.7万美元，串内质疑付款说法",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Noisy称Fable5.2旁观GTA6游玩47分钟发现电话bug并获17000美元；同串给通用观察提示，Liam质疑邮件写支付系统与5至7工作日，未核付款或漏洞。",
+    "description": "2026年11月21日19:04:44（北京时间），Noisy（@noisyb0y1）称让Claude Code中的Fable 5.2只看屏、不操作，自己继续玩GTA6剧情，47分钟后Agent发现游戏内电话的bug并写出复现步骤。他说自己取两张截图、用自己的话重写，发到Rockstar安全邮箱，十分钟收到索要银行账户的回复，几小时后收到17000美元；另两小时后Agent又找到两个问题，尚在等批准。所有时间、漏洞和赏金均仅为作者宣称。\n\n补读同串19:05:00作者提示，内容是旁观画面、查视觉错误、逻辑、交易、物理和UI异常，重点钱、购买与游戏经济，输出安全团队可重现的说明。它明确了黑箱观察与行为排障的用途，但没有游戏电话问题本身、漏洞机制、具体复现步骤或报告编号；不能由通用提示推断存在安全漏洞或属于官方赏金范围，更不能证明所谓零技能保证收入。没有反汇编、源码恢复或REA证据。\n\n同串19:47:12的Liam.（@LiamBussines）指出，正文写游戏内电话与数小时到账，截图邮件却写支付系统和5至7个工作日，并要求作者解释。本合集只读该评论，未读截图中的邮件，因此这是具名读者指出的矛盾，不是已认证造假；返回串内未见作者回应这一问题。补充回复保留原日期，只用于判断候选可信度，不另算候选。\n\n未取得披露、邮件原件、付款证明、可复现错误或Rockstar确认，未操作游戏、读取银行信息或发送报告；无法确认真实性或赏金因果。以具体但有争议的AI黑箱观察报告收录，保留unverified，不作为成功赏金案例推荐。",
+    "sources": [
+      {"label": "Noisy的GTA6看屏找bug与17000美元宣称，2026-11-21 19:04:44北京时间", "url": "https://x.com/i/status/2124096670447145125"},
+      {"label": "补充作者回复：旁观画面和记录异常的通用提示，2026-11-21 19:05:00北京时间", "url": "https://x.com/i/status/2124096735748247827"},
+      {"label": "补充Liam质疑电话／支付系统与到账时间矛盾，2026-11-21 19:47:12北京时间", "url": "https://x.com/i/status/2124107357949145310"}
+    ],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日候选封存：21赞、861浏览、1转发、7回复；传播不证明漏洞或付款，截图内容仅由评论者转述。"],
+    "en": {
+      "title": "Watching GTA 6 for bugs: Noisy claims a $17,000 Claude-found phone issue; a reader questions the payment account",
+      "summary": "Noisy says Fable 5.2 found a GTA 6 phone bug after 47 minutes of watching and earned $17,000. A generic observation prompt is supplied; Liam questions an email naming payments and 5–7 business days. Neither bug nor payment is verified.",
+      "description": "At 19:04:44 Beijing time on November 21, 2026, Noisy (@noisyb0y1) says Fable 5.2 in Claude Code was told only to watch the screen, not operate controls, while the author played GTA 6's story. The agent allegedly found an in-game phone bug after 47 minutes and wrote reproduction steps. The author claims to have taken two screenshots, rewritten the report, emailed Rockstar security, received a request for bank details within ten minutes and received $17,000 within hours. Two further bugs allegedly followed two hours later and await approval. All times, bugs and payments remain the author's claims.\n\nA supplementary 19:05:00 author reply supplies a prompt to observe visual, logic, transaction, physics and UI anomalies, especially money, purchases and the game economy, then document reproducible behavior for a security team. This clarifies a black-box observation/debugging use, but supplies no actual phone issue, mechanism, reproduction steps or report identifier. A generic prompt establishes neither a security vulnerability nor official bounty eligibility, much less guaranteed zero-skill income. No disassembly, source recovery or REA use is evidenced.\n\nAt 19:47:12, Liam. (@LiamBussines) points out that the post names an in-game phone and payment within hours, whereas the screenshot's email allegedly names a payment system and 5–7 business days, asking for an explanation. This collection read the comment, not the email screenshot, so this is a named reader's reported inconsistency, not authenticated evidence of fabrication. The returned thread contains no author response to that question. Supplementary replies retain their original dates and inform credibility rather than becoming additional candidates.\n\nNo disclosure, original email, payment proof, reproducible bug or Rockstar confirmation was obtained. No game was operated, banking information read or report sent. Authenticity and bounty causality cannot be confirmed. Included as a concrete but disputed AI black-box observation report, with unverified status and no recommendation as a successful bounty case.",
+      "metadata": ["November 21 sealed candidate: 21 likes, 861 views, 1 repost, 7 replies. Engagement does not establish a bug or payment; screenshot contents are only relayed by a commenter."],
+      "source_labels": ["Noisy's GTA 6 screen-observation and $17,000 claim, November 21, 2026 at 19:04:44 Beijing time", "Supplementary author reply: generic screen-observation and anomaly-recording prompt, November 21, 2026 at 19:05:00 Beijing time", "Supplementary Liam comment questioning phone/payment-system and payment-timing inconsistencies, November 21, 2026 at 19:47:12 Beijing time"]
+    }
+  },
+  {
+    "id": "wilf-lin-ipod-ai-firmware-companion-rewrite",
+    "title": "iPod固件与配套软件：Wilf Lin称因使用不爽借AI自行重写",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Wilf Lin称AI让自己能为不满意的iPod重写固件和配套软件；没有设备代次、模型、代码、刷写或功能验证，不能视为已替代原厂固件。",
+    "description": "2026年11月21日19:50:58（北京时间），Wilf Lin（@Wilf_Lin）说有AI之前不敢想象这种事，现在可以因为自己的iPod用着不爽，就自行重写固件和配套软件。具体目标是改善已有播放器的个人使用体验，覆盖设备固件与配套工具，配套软件运行平台未说明；帖子使用完成式措辞，但没有解释重写范围与结果。\n\n补取确认作者、文字和一张图片附件，未读图片内容。原帖没有iPod代次、芯片、原厂版本、AI模型、逆向方法、源代码、硬件访问、刷写、启动、音频播放、同步或恢复测试。不能补写已破解引导、替代全部固件、兼容所有iPod，亦不能推定使用Rockbox、REA或某个现有开源项目。\n\n这是围绕现有硬件的AI辅助固件／软件重建自述，尚无可独立检验的实施材料；与macOS仿iPod外观或Ruizu仿iPod菜单并非同一目标，不混用其成果。没有运行代码、连接设备或安装固件；状态unverified，完成说法仍只归作者。",
+    "sources": [{"label": "Wilf Lin的iPod固件及配套软件重写自述，2026-11-21 19:50:58北京时间", "url": "https://x.com/i/status/2124108306201395479"}],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日封存快照：0赞、24浏览、0转发、0回复；没有取得启动、播放或同步验证记录。"],
+    "en": {
+      "title": "iPod firmware and companion software: Wilf Lin credits AI with enabling a personal rewrite",
+      "summary": "Wilf Lin says dissatisfaction with an iPod led to an AI-enabled firmware and companion-software rewrite. No generation, model, source, flashing or functional checks are given; replacement of stock firmware is not established.",
+      "description": "At 19:50:58 Beijing time on November 21, 2026, Wilf Lin (@Wilf_Lin) says this would have been unimaginable before AI: dissatisfaction with their iPod now leads them to rewrite its firmware and companion software. The concrete goal is improving personal use of an existing player, covering device firmware and companion tooling; the companion software's platform is unspecified. The post uses completion language but explains neither scope nor results.\n\nRetrieval confirms attribution, wording and one image attachment; the image was not read. There is no iPod generation, chip, stock revision, AI model, reversing method, source, hardware-access record, flashing, boot, audio playback, synchronization or recovery test. Defeating a boot mechanism, replacing all firmware and compatibility with every iPod are not inferred, nor use of Rockbox, REA or any existing open-source project.\n\nThis is an AI-assisted firmware/software reconstruction report around existing hardware, without independently inspectable implementation materials. It is not the same target as a macOS iPod-lookalike or a Ruizu iPod-style menu, and their results are not imported. No code was executed, device connected or firmware installed. Status is unverified; completion remains solely the author's account.",
+      "metadata": ["November 21 sealed snapshot: 0 likes, 24 views, 0 reposts, 0 replies. Boot, playback and synchronization validation records were not obtained."],
+      "source_labels": ["Wilf Lin's iPod firmware and companion-software rewrite report, November 21, 2026 at 19:50:58 Beijing time"]
+    }
+  },
+  {
     "id": "pleumkungz-be550-claude-unifi-firmware-report",
     "title": "TP-Link BE550：Pleumkungz称Claude改原厂固件，加入UniFi agent后刷写通过",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
@@ -1031,17 +1171,21 @@
   },
   {
     "id": "cryptosol-polymarket-yes-no-ai-strategy-study-idea",
-    "title": "Polymarket匿名Bot：Crypto.Sol建议Claude／Grok反推YES与NO套利逻辑",
+    "title": "Polymarket匿名Bot：从Claude／Grok反推建议到成交时序与双边数量研究清单",
     "category": "algorithms", "rea": "other-ai", "status": "unverified",
-    "summary": "Crypto.Sol建议用Claude或Grok研究匿名Polymarket机器人的跨市场双边买入逻辑；130万美元累计收益及30天4.9万多美元未核，不是已完成重建。",
-    "description": "2026年11月20日13:07:40（北京时间），Crypto.Sol（@cryptoxxw）称一名匿名Polymarket交易者以机器人在数百个二元预测市场持续捕捉价差：YES和NO价格之和低于1美元时进入，靠大量小额交易积累收益。作者建议用Claude或Grok一晚上逆向拆解这套逻辑；这是具备市场和策略目标的研究idea，不是他已调用模型、写好Bot或完成回测的报告。\n\n帖子转述累计盈利超过130万美元、过去30天4.9万多美元，并称机会低风险、新手可搭同款。钱包只给短链，本合集未展开，也未读交易流水或技术实现。这些数字不作核算后净收益，‘一晚上’不是实际工时，不能推导保证盈利、无风险、双边一定同时成交或可复刻表现；缺手续费、滑点、流动性与结算条件。\n\n补取原帖确认署名，未观看所附视频；同为YES/NO合价套利不证明与已有Crypto老鹰的体育市场Opus报告是同一个钱包或项目，不合并其7877笔交易与61.9万美元等旧数字。本条只保留本作者的独立研究建议，REA未提，未执行模型、Bot、交易或钱包操作。",
-    "sources": [{"label": "Crypto.Sol的Polymarket策略反推建议与未核收益转述，2026-11-20 13:07:40北京时间", "url": "https://x.com/i/status/2123644422068048179"}],
-    "snapshot_date": "2026-11-20", "metadata": [],
+    "summary": "Crypto.Sol提Claude／Grok研究匿名双边套利Bot；0x_Miko补充成交间隔、实际价格、数量匹配和市场重复等观察项。收益未核，未有实现或回测，也未确认同一钱包。",
+    "description": "2026年11月20日13:07:40（北京时间），Crypto.Sol（@cryptoxxw）称一名匿名Polymarket交易者以机器人在数百个二元预测市场持续捕捉价差：YES和NO价格之和低于1美元时进入，靠大量小额交易积累收益。作者建议用Claude或Grok一晚上逆向拆解这套逻辑；这是具备市场和策略目标的研究idea，不是他已调用模型、写好Bot或完成回测的报告。\n\n帖子转述累计盈利超过130万美元、过去30天4.9万多美元，并称机会低风险、新手可搭同款。钱包只给短链，本合集未展开，也未读交易流水或技术实现。这些数字不作核算后净收益，‘一晚上’不是实际工时，不能推导保证盈利、无风险、双边一定同时成交或可复刻表现；缺手续费、滑点、流动性与结算条件。\n\n补取原帖确认署名，未观看所附视频；同为YES/NO合价套利不证明与已有Crypto老鹰的体育市场Opus报告是同一个钱包或项目，不合并其7877笔交易与61.9万美元等旧数字。\n\n11月21日17:54:40，0x_Miko（@Mikocrypto11）对同类130万美元匿名Bot研究建议补充具体观察清单：将交易记录交给Claude，检查成交时间间隔、YES／NO实际成交价格、双边数量是否匹配、哪些市场重复出现机会，以及交易规模与盈利的关系。他以46美分加52美分的等量双边买入说明毛价差，明确条件是不计手续费和滑点，且只有一边成交会留下敞口；单凭链上记录未必能重建完整Bot。此段是另一作者的方法建议，不是已跑分析、已测策略或核算利润；未给钱包标识，不声称与Crypto.Sol所指为同一账户，仅在相同策略研究条目下补充方法，不另造一个已识别Bot项目。\n\n新帖补取确认署名与正文，未观看附件、读取流水、运行模型或交易。REA未提；保留unverified，收益与执行优势均未独立核验。",
+    "sources": [
+      {"label": "Crypto.Sol的Polymarket策略反推建议与未核收益转述，2026-11-20 13:07:40北京时间", "url": "https://x.com/i/status/2123644422068048179"},
+      {"label": "0x_Miko补充成交时序、双边数量与执行风险研究清单，2026-11-21 17:54:40北京时间", "url": "https://x.com/i/status/2124079035672322102"}
+    ],
+    "snapshot_date": "2026-11-21", "metadata": ["11月21日0x_Miko候选封存0赞、258浏览、0转发、1回复；清单是研究建议，无钱包识别或回测。"],
     "en": {
-      "title": "An anonymous Polymarket bot: Crypto.Sol proposes Claude/Grok research into YES/NO arbitrage",
-      "summary": "Crypto.Sol suggests Claude or Grok investigate an anonymous Polymarket bot's cross-market two-sided buying logic. Claimed cumulative profit above $1.3 million and over $49,000 in 30 days are unchecked, not completed reconstruction.",
-      "description": "At 13:07:40 Beijing time on November 20, 2026, Crypto.Sol (@cryptoxxw) describes an anonymous Polymarket trader using a bot across hundreds of binary prediction markets, entering when YES and NO prices sum to less than $1 and accumulating small gains through many trades. The author suggests reverse engineering the logic with Claude or Grok in one evening. This is a research idea with a concrete market and strategy target, not a report of already calling a model, implementing a bot or completing a backtest.\n\nThe post relays more than $1.3 million cumulative profit and over $49,000 in the past 30 days, calling opportunities low-risk and the bot reproducible by beginners. The wallet is only a short link, not expanded here, and no trade ledger or implementation was read. These figures are not reconciled net returns, and one evening is not measured work time. Guaranteed profit, risk-free trading, simultaneous two-sided fills and reproducible returns are not established. Fees, slippage, liquidity and settlement conditions are missing.\n\nRetrieval confirms attribution, but the attached video was not watched. Shared YES/NO sum arbitrage does not establish the same wallet or project as the existing Crypto Laoying sports-market Opus account; its 7,877 trades, $619,000 and other figures are not imported. This entry retains only this author's independent research suggestion. REA is unmentioned, and no models, bots, trades or wallet operations were run here.",
-      "metadata": [], "source_labels": ["Crypto.Sol proposes Polymarket strategy inference and relays unchecked returns, November 20, 2026 at 13:07:40 Beijing time"]
+      "title": "Anonymous Polymarket bots: from Claude/Grok inference proposals to trade-timing and paired-size research",
+      "summary": "Crypto.Sol proposes Claude/Grok research into an anonymous paired-arbitrage bot; 0x_Miko adds timing, actual prices, size matching and recurring-market checks. Returns, implementation and backtesting are unverified, as is a shared wallet identity.",
+      "description": "At 13:07:40 Beijing time on November 20, 2026, Crypto.Sol (@cryptoxxw) describes an anonymous Polymarket trader using a bot across hundreds of binary prediction markets, entering when YES and NO prices sum to less than $1 and accumulating small gains through many trades. The author suggests reverse engineering the logic with Claude or Grok in one evening. This is a research idea with a concrete market and strategy target, not a report of already calling a model, implementing a bot or completing a backtest.\n\nThe post relays more than $1.3 million cumulative profit and over $49,000 in the past 30 days, calling opportunities low-risk and the bot reproducible by beginners. The wallet is only a short link, not expanded here, and no trade ledger or implementation was read. These figures are not reconciled net returns, and one evening is not measured work time. Guaranteed profit, risk-free trading, simultaneous two-sided fills and reproducible returns are not established. Fees, slippage, liquidity and settlement conditions are missing.\n\nRetrieval confirms attribution, but the attached video was not watched. Shared YES/NO sum arbitrage does not establish the same wallet or project as the existing Crypto Laoying sports-market Opus account; its 7,877 trades, $619,000 and other figures are not imported.\n\nAt 17:54:40 on November 21, 0x_Miko (@Mikocrypto11) adds a concrete checklist to a similar $1.3 million anonymous-bot research proposal: give trade records to Claude and examine execution intervals, actual YES/NO fill prices, whether paired quantities match, recurring opportunity markets, and relationships between scale and profit. A 46-cent plus 52-cent equal-sized pair illustrates a gross spread, explicitly excluding fees and slippage; a single-sided fill leaves exposure. On-chain records alone may not reconstruct a complete bot. This is another author's method proposal, not completed analysis, a tested strategy or reconciled returns. No wallet identifier is supplied, so identity with Crypto.Sol's account is not claimed. Methods are appended under the same strategy-research entry rather than inventing another identified bot project.\n\nRetrieving the new post confirms attribution and text. No attachment was watched, ledger read, model run or trade executed. REA is unmentioned. Status remains unverified; returns and execution advantages have not been independently checked.",
+      "metadata": ["November 21 sealed 0x_Miko candidate: 0 likes, 258 views, 0 reposts, 1 reply. The checklist is a research proposal, without wallet identification or backtesting."],
+      "source_labels": ["Crypto.Sol proposes Polymarket strategy inference and relays unchecked returns, November 20, 2026 at 13:07:40 Beijing time", "0x_Miko adds trade-timing, paired-size and execution-risk checks, November 21, 2026 at 17:54:40 Beijing time"]
     }
   },
   {

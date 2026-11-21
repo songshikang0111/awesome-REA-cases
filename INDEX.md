@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2585 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2593 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（506）
-- [硬件与设备互通](categories/hardware.md)（679）
-- [应用与客户端](categories/apps.md)（1077）
-- [算法与功能重建](categories/algorithms.md)（323）
+- [游戏与游戏保存](categories/games.md)（509）
+- [硬件与设备互通](categories/hardware.md)（681）
+- [应用与客户端](categories/apps.md)（1079）
+- [算法与功能重建](categories/algorithms.md)（324）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [ISS Pro 2式足球游戏：Salvatore用隔离实现Agent尝试重建乐趣](cases/iss-pro2-cleanroom-agent-football-recreation.md) — Salvatore Zappalà称用clean-room逆向做一款像ISS Pro 2一样好玩的游戏，实现Agent不看代码；作者发现做出乐趣更难，未报告等价性或完成移植。 **[其他 AI 逆向 · 进行中]**
+- [Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植](cases/siya-flappy-bird-apk-codex-chromatic-port.md) — Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。 **[其他 AI 逆向 · 待验证]**
+- [GTA6看屏找bug：Noisy称Claude发现电话界面问题获1.7万美元，串内质疑付款说法](cases/gta6-claude-screen-observation-bounty-claim.md) — Noisy称Fable5.2旁观GTA6游玩47分钟发现电话bug并获17000美元；同串给通用观察提示，Liam质疑邮件写支付系统与5至7工作日，未核付款或漏洞。 **[其他 AI 逆向 · 待验证]**
 - [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑](cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
@@ -535,6 +538,8 @@
 
 ### 硬件与设备互通
 
+- [PS5 14.10固件研究：Myttle转述Claude署名提交，未确认仓库与突破](cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle称公开PS5 14.10研究仓库五周3218次提交、195次Claude署名及31位参与者；未给可核仓库，不证明越狱完成，更不等于GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**
+- [iPod固件与配套软件：Wilf Lin称因使用不爽借AI自行重写](cases/wilf-lin-ipod-ai-firmware-companion-rewrite.md) — Wilf Lin称AI让自己能为不满意的iPod重写固件和配套软件；没有设备代次、模型、代码、刷写或功能验证，不能视为已替代原厂固件。 **[其他 AI 逆向 · 待验证]**
 - [TP-Link BE550：Pleumkungz称Claude改原厂固件，加入UniFi agent后刷写通过](cases/pleumkungz-be550-claude-unifi-firmware-report.md) — 为避免另买AP，Pleumkungz因拆壳与UART困难放弃U7 Pro OpenWrt移植，改请Claude修改BE550的TP-Link固件，加入unifi agent与fakectrl；只自报刷写通过，未证明完整UniFi互通。 **[其他 AI 逆向 · 待验证]**
 - [PS5手柄代玩GTA：D.O.C.I提出先用REA理解控制器的idea](cases/ps5-controller-rea-gta-playing-idea.md) — D.O.C.I提议用REA研究PS5控制器，再教AI使用并代玩GTA；是玩笑语气的具体控制接口想法，没有协议成果、自动游玩或通关记录。 **[REA · 待验证]**
 - [同一路由器固件测四模型：knowlet记录拒绝中断与Sol完成自述](cases/router-firmware-four-ai-models-refusal-comparison.md) — knowlet比较DeepSeek、Grok、Astra与Sol研究同一固件的体验，称Sol最终实现想开通的功能；路由器及功能未具名，没有复现或统一评测。 **[REA · 分析测试]**
@@ -1217,6 +1222,8 @@
 
 ### 应用与客户端
 
+- [hydrogen与Gemini：CRIMINAL MONSTER提出skill.md音乐改造，效果未核](cases/gemini-hydrogen-skill-music-integration-idea.md) — CRIMINAL MONSTER称和Gemini用skill.md改造hydrogen，贴六段音乐编排并考虑HTH引擎；未确定目标产品身份或取得代码、接口与音频结果，仅作整合idea。 **[其他 AI 逆向 · 待验证]**
+- [RealRederaLLM：Hakeem介绍模型网关与逆向开发平台，尚无目标分析记录](cases/realrederallm-ai-gateway-reverse-development-platform.md) — Hakeem Jones将RealRederaLLM称为开源AI API网关及逆向开发平台，列多模型路由、编程Agent、软件分析与本地AI；未取得源码或具体目标的分析输出。 **[其他 AI 逆向 · 相关项目]**
 - [Consessus：用REA研究四款Mac编程助手的本机通信，让已有会话互发消息](cases/consessus-rea-mac-agent-app-interoperability.md) — ns称用rea研究Claude、Codex、Antigravity与OpenCode的本机接口，做成跨应用会话CLI；固定文档记录单机往返与房间测试，也明确桌面版例外及未测分支。 **[REA · 进行中]**
 - [产品短片工作流idea：Claude统筹Rea-Video拆镜与代码动画重建](cases/claude-rea-video-product-film-pipeline-idea.md) — 日语帖子将13个工具组织为视频制作流程：Rea-Video分析参考片，再以代码与生成素材组装产品片；是可试组合，不是已跑通电影工作室。 **[其他 AI 逆向 · 待验证]**
 - [vogel的iOS研究：称Agent正在逆向，尚无子系统或结果](cases/agent-ios-reverse-engineering-in-progress-report.md) — vogel回复称有Agent正在逆向iOS；仅有系统级目标与进行中自述，没有模型、版本、方法或发现，不与其Wyze固件项目混同。 **[未确认使用 REA · 进行中]**
@@ -2297,6 +2304,7 @@
 
 ### 算法与功能重建
 
+- [Gemin加Muse重做短片：鱼鳞对比ChatGPT抽帧方法的个人体验](cases/gemin-muse-video-reconstruction-frame-method-comparison.md) — 鱼鳞今天AI了吗称以Gemin加Muse复刻一段视频，比此前ChatGPT抽帧法更满意；未提供片名、提示、逐帧对照或可重跑记录。 **[其他 AI 逆向 · 待验证]**
 - [grokBot增长拆解：antinertia用Claude与Treg研究创作者投放](cases/treg-grokbot-growth-playbook-report.md) — antinertia称一条Claude提示反推grokBot增长，报告X共18.4亿浏览与1000多条Meta广告；未取得完整报告，不是内部增长算法恢复。 **[其他 AI 逆向 · 待验证]**
 - [Mailcheap：Paarangat用Treg反推以既有X受众获客的路径](cases/treg-mailcheap-growth-teardown.md) — Paarangat的七产品比较中称Mailcheap月经常收入3200美元、零广告、向现有X粉丝发帖；渠道和收入均未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [redak：Treg比较研究中的LinkedIn获客自述](cases/treg-redak-linkedin-growth-teardown.md) — Paarangat用Treg比较七产品，称redak月经常收入13700美元、零广告、只发LinkedIn；没有收入或渠道原始记录。 **[其他 AI 逆向 · 待验证]**
@@ -2312,7 +2320,7 @@
 - [Brighton球员招募模型：Ron Dor提出用Fable5.2反推的idea](cases/ron-dor-brighton-fable-recruitment-model-idea.md) — Ron Dor设想Fable5.2可反推Brighton的数据化球员招募模型，让其他俱乐部仿用；未给数据、方法或输出，属于idea而非已恢复算法。 **[其他 AI 逆向 · 待验证]**
 - [Como球员招募模型：Ron Dor的Fable5.2策略反推idea](cases/ron-dor-como-fable-recruitment-model-idea.md) — Ron Dor把Como列为可由Fable5.2反推招募逻辑的俱乐部，担忧策略趋同；未给实际分析、数据与回测，不是成功复现。 **[其他 AI 逆向 · 待验证]**
 - [异瞳猫追逐片：Leaf Yeah用Antigravity拆镜与Omni分段重建的报告](cases/leaf-antigravity-omni-cat-chase-video-reconstruction.md) — Leaf Yeah称Gemini Hydrogen拆解猫追逐参考片，再调用Omni1.2 Flash分两段换猫生成；18秒先压速再恢复，未核画面保真或拼接结果。 **[其他 AI 逆向 · 待验证]**
-- [Polymarket匿名Bot：Crypto.Sol建议Claude／Grok反推YES与NO套利逻辑](cases/cryptosol-polymarket-yes-no-ai-strategy-study-idea.md) — Crypto.Sol建议用Claude或Grok研究匿名Polymarket机器人的跨市场双边买入逻辑；130万美元累计收益及30天4.9万多美元未核，不是已完成重建。 **[其他 AI 逆向 · 待验证]**
+- [Polymarket匿名Bot：从Claude／Grok反推建议到成交时序与双边数量研究清单](cases/cryptosol-polymarket-yes-no-ai-strategy-study-idea.md) — Crypto.Sol提Claude／Grok研究匿名双边套利Bot；0x_Miko补充成交间隔、实际价格、数量匹配和市场重复等观察项。收益未核，未有实现或回测，也未确认同一钱包。 **[其他 AI 逆向 · 待验证]**
 - [雨夜城市剪影重建：打工战士试图像到Muse Image提示工具，保留三处失真](cases/dagongai-muse-image-rainy-city-prompt-reconstruction.md) — 打工战士称用工具分析颜色、亮度和构图，生成Muse Image提示重做雨夜城市例图；位置大致保留，窗户过密、月亮过亮和竖线条码化仍需修。 **[其他 AI 逆向 · 待验证]**
 - [LOCA：把网表分成逻辑锥，让LLM恢复并证明等价RTL](cases/loca-llm-logic-cone-netlist-rtl-recovery.md) — 研究摘要转述称LOCA以分组逻辑锥和并行Agent恢复RTL，21个模型／设计组合成功17个，对照6个；只读摘要帖，未审论文或复跑证明。 **[其他 AI 逆向 · 分析测试]**
 - [机械章鱼图到Three.js装配体：Nathan转述Claude Skill的视觉重建](cases/nathan-claude-mechanical-octopus-image-threejs-reconstruction.md) — Nathan AI Lab介绍单张ChatGPT章鱼图与octopus提示生成Three.js机械装配与定时拆解；10片光圈、48齿等是生成宣称，不是真实结构恢复。 **[其他 AI 逆向 · 待验证]**
