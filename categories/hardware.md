@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [同一路由器固件测四模型：knowlet记录拒绝中断与Sol完成自述](../cases/router-firmware-four-ai-models-refusal-comparison.md) — knowlet比较DeepSeek、Grok、Astra与Sol研究同一固件的体验，称Sol最终实现想开通的功能；路由器及功能未具名，没有复现或统一评测。 **[REA · 分析测试]**
+- [Ecovacs N8 Pro：dronus称Codex研究固件并延长回站排空时间](../cases/ecovacs-n8-pro-codex-empty-time-firmware-report.md) — dronus称用Codex研究自有N8 Pro，网上找固件、开源工具分析，并延长清扫每20分钟回站时的排空时间；未给改动值与实机对照。 **[其他 AI 逆向 · 待验证]**
+- [2012 Model S分流器：Christopher读到电流，计划让Claude整理SPI寄存器](../cases/tesla-2012-shunt-claude-spi-register-research.md) — Christopher Kalitin报告读出2012 Tesla Model S分流器电流，下一步探索并让Claude记录剩余SPI寄存器，特别是校准项；已有读数不等于AI已完成寄存器研究。 **[其他 AI 逆向 · 进行中]**
 - [Garmin固件研究受阻：pintail称请Claude查看手表后遭模型降档](../cases/pintail-garmin-firmware-claude-access-friction.md) — pintail称让Claude看自己的Garmin手表固件时被降到Opus4.8；是受阻体验，没有型号、拒绝记录、固件发现或服务原因核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenWrt指定网关：Codex参考华硕交互，重做按设备配置入口](../cases/openwrt-codex-asus-gateway-workflow-rebuild.md) — 小京蛇称让Codex做华硕式指定网关插件；固定文档用LuCI维护dnsmasq标签，只报一台ImmortalWrt实测，25.12的apk固件不能直接装现有IPK。 **[其他 AI 逆向 · 待验证]**
 - [PicPak电子墨水相框：Claude辅助固件与自托管替代，项目仍进行中](../cases/igottz-eink-frame-claude-selfhosted-firmware.md) — whyamas转述GottZ用Claude研究云绑定相框；open-PicPak文档报告BLE与图像管线研究、WiFi拉图及恢复保护，固件与后端仍进行中，未实机复现。 **[其他 AI 逆向 · 进行中]**

@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑](../cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。 **[其他 AI 逆向 · 待验证]**
+- [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](../cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
+- [Megabonk到Android：Martin明确说是GPT Terra重制，不是可靠反编译](../cases/megabonk-gpt-terra-android-remake-report.md) — Martin称用GPT Terra将Windows的Megabonk重制到Android，可在手机不用手柄玩；消耗两三次Codex周限额，不是已核验反编译或实际费用测量。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI文件研究idea：monokern把本地Strata模型接入Hermes](../cases/monokern-gta6-local-strata-hermes-file-research-idea.md) — monokern称在M4 Pro用Strata本地运行模型并连接Hermes，想找GTA VI文件与删减过场；只报告搭环境，没有文件提取、反编译或PC移植结果。 **[其他 AI 逆向 · 待验证]**
 - [Yoda Stories：Ghidra配Claude转写引擎，字节匹配暂停、SDL仍在推进](../cases/yoda-stories-ghidra-claude-engine-transcription.md) — whyamas介绍ShinyQuagsire的Yodecomp；固定README报告100%引擎转写C++并可构建EXE，但字节匹配因停滞暂停。作者手工监督命名与Ghidra记录，非全自动完成。 **[其他 AI 逆向 · 进行中]**
 - [Tiger Woods PGA Tour 2004：项目报告7647函数匹配，Claude参与后续维护](../cases/tiger-woods-pga2004-claude-matching-decompilation.md) — whyamas称GameCube版7647函数字节一致；固定README支持项目的完整匹配声明，Claude署名提交可见维护工作，不证明全由AI完成或已独立重建。 **[其他 AI 逆向 · 待验证]**

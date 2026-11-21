@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2569 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2581 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（502）
-- [硬件与设备互通](categories/hardware.md)（674）
-- [应用与客户端](categories/apps.md)（1070）
+- [游戏与游戏保存](categories/games.md)（505）
+- [硬件与设备互通](categories/hardware.md)（677）
+- [应用与客户端](categories/apps.md)（1076）
 - [算法与功能重建](categories/algorithms.md)（323）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑](cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。 **[其他 AI 逆向 · 待验证]**
+- [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
+- [Megabonk到Android：Martin明确说是GPT Terra重制，不是可靠反编译](cases/megabonk-gpt-terra-android-remake-report.md) — Martin称用GPT Terra将Windows的Megabonk重制到Android，可在手机不用手柄玩；消耗两三次Codex周限额，不是已核验反编译或实际费用测量。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI文件研究idea：monokern把本地Strata模型接入Hermes](cases/monokern-gta6-local-strata-hermes-file-research-idea.md) — monokern称在M4 Pro用Strata本地运行模型并连接Hermes，想找GTA VI文件与删减过场；只报告搭环境，没有文件提取、反编译或PC移植结果。 **[其他 AI 逆向 · 待验证]**
 - [Yoda Stories：Ghidra配Claude转写引擎，字节匹配暂停、SDL仍在推进](cases/yoda-stories-ghidra-claude-engine-transcription.md) — whyamas介绍ShinyQuagsire的Yodecomp；固定README报告100%引擎转写C++并可构建EXE，但字节匹配因停滞暂停。作者手工监督命名与Ghidra记录，非全自动完成。 **[其他 AI 逆向 · 进行中]**
 - [Tiger Woods PGA Tour 2004：项目报告7647函数匹配，Claude参与后续维护](cases/tiger-woods-pga2004-claude-matching-decompilation.md) — whyamas称GameCube版7647函数字节一致；固定README支持项目的完整匹配声明，Claude署名提交可见维护工作，不证明全由AI完成或已独立重建。 **[其他 AI 逆向 · 待验证]**
@@ -531,6 +534,9 @@
 
 ### 硬件与设备互通
 
+- [同一路由器固件测四模型：knowlet记录拒绝中断与Sol完成自述](cases/router-firmware-four-ai-models-refusal-comparison.md) — knowlet比较DeepSeek、Grok、Astra与Sol研究同一固件的体验，称Sol最终实现想开通的功能；路由器及功能未具名，没有复现或统一评测。 **[REA · 分析测试]**
+- [Ecovacs N8 Pro：dronus称Codex研究固件并延长回站排空时间](cases/ecovacs-n8-pro-codex-empty-time-firmware-report.md) — dronus称用Codex研究自有N8 Pro，网上找固件、开源工具分析，并延长清扫每20分钟回站时的排空时间；未给改动值与实机对照。 **[其他 AI 逆向 · 待验证]**
+- [2012 Model S分流器：Christopher读到电流，计划让Claude整理SPI寄存器](cases/tesla-2012-shunt-claude-spi-register-research.md) — Christopher Kalitin报告读出2012 Tesla Model S分流器电流，下一步探索并让Claude记录剩余SPI寄存器，特别是校准项；已有读数不等于AI已完成寄存器研究。 **[其他 AI 逆向 · 进行中]**
 - [Garmin固件研究受阻：pintail称请Claude查看手表后遭模型降档](cases/pintail-garmin-firmware-claude-access-friction.md) — pintail称让Claude看自己的Garmin手表固件时被降到Opus4.8；是受阻体验，没有型号、拒绝记录、固件发现或服务原因核验。 **[其他 AI 逆向 · 待验证]**
 - [OpenWrt指定网关：Codex参考华硕交互，重做按设备配置入口](cases/openwrt-codex-asus-gateway-workflow-rebuild.md) — 小京蛇称让Codex做华硕式指定网关插件；固定文档用LuCI维护dnsmasq标签，只报一台ImmortalWrt实测，25.12的apk固件不能直接装现有IPK。 **[其他 AI 逆向 · 待验证]**
 - [PicPak电子墨水相框：Claude辅助固件与自托管替代，项目仍进行中](cases/igottz-eink-frame-claude-selfhosted-firmware.md) — whyamas转述GottZ用Claude研究云绑定相框；open-PicPak文档报告BLE与图像管线研究、WiFi拉图及恢复保护，固件与后端仍进行中，未实机复现。 **[其他 AI 逆向 · 进行中]**
@@ -1208,10 +1214,16 @@
 
 ### 应用与客户端
 
+- [产品短片工作流idea：Claude统筹Rea-Video拆镜与代码动画重建](cases/claude-rea-video-product-film-pipeline-idea.md) — 日语帖子将13个工具组织为视频制作流程：Rea-Video分析参考片，再以代码与生成素材组装产品片；是可试组合，不是已跑通电影工作室。 **[其他 AI 逆向 · 待验证]**
+- [vogel的iOS研究：称Agent正在逆向，尚无子系统或结果](cases/agent-ios-reverse-engineering-in-progress-report.md) — vogel回复称有Agent正在逆向iOS；仅有系统级目标与进行中自述，没有模型、版本、方法或发现，不与其Wyze固件项目混同。 **[未确认使用 REA · 进行中]**
+- [旧服务端逆向重构：Ye An称opencode跑七小时后可启动](cases/opencode-6astra-legacy-server-reconstruction-report.md) — Ye An报告opencode配6／astra重构旧项目，运行七小时后多模型审查未发现bug，服务端可启动；项目未具名，零发现不等于零缺陷。 **[其他 AI 逆向 · 待验证]**
+- [STM32轻量开发环境：Christopher考虑用Claude做CubeIDE／CubeMX开源替代](cases/claude-stm32-cubeide-lightweight-alternative-idea.md) — Christopher称Claude能绕开CubeIDE／CubeMX写STM32固件，因此考虑投入token做轻量开源替代；尚无工具仓库、兼容功能清单或实机验证。 **[其他 AI 逆向 · 待验证]**
+- [REA加bughunter：先映射自有构建，再按披露报告做审计的流程idea](cases/rea-bughunter-owned-build-audit-workflow-idea.md) — 帖子建议在Claude Code给自有构建装REA和bughunter，先理解再检查；681份披露报告与胜过漏洞赏金的说法未核，没有具名漏洞结果。 **[REA · 待验证]**
+- [Apple Watch滚球外观重建：Claude提示生成普通watchOS应用，不是系统表盘破解](cases/apple-watch-tilt-balls-claude-app-recreation-idea.md) — 帖子给出Claude Code提示，用SwiftUI、SpriteKit与重力数据重做腕倾滚球时钟；虽称逆向Apple Watch，实际文字只支持应用级外观重建idea。 **[其他 AI 逆向 · 待验证]**
 - [LiberNT：AI辅助Windows 11黑箱兼容研究，仍是测试用预发布系统](cases/libernt-ai-windows11-blackbox-compatibility.md) — HKEPC介绍LiberNT；固定项目文档确认AI辅助文档与实现行为对照，使用SDK／WDK、公开符号与Windows 11黑箱测试。性能宣传未复查，不等于日常可用的Windows替代。 **[其他 AI 逆向 · 进行中]**
 - [internetvin的链接到本机工具按钮：重建后推送GitHub的工作流自述](cases/internetvin-link-to-local-tool-button-workflow.md) — internetvin称贴链接按按钮即可理解内容、重建本机工具并推GitHub，供后续扩展；未给目标清单、仓库或测试，不采信任意链接都能逆向。 **[未确认使用 REA · 进行中]**
 - [Windows自写软件的INI研究：Kimi通过SSH却先启动REA技能](cases/broke-ddn-kimi-windows-ini-rea-detour.md) — Дима Давыдов称Claude对数据采集任务受阻后改用Kimi Code，让其研究Windows软件INI配置，结果Agent先调用reverse-engineer-anything；未报告配置成功。 **[REA · 分析测试]**
-- [antiloki的REA团队：浏览器复建SaaS前用human gate等待人工登录](cases/antiloki-browser-rea-team-human-gate-project.md) — DanJ称antiloki以YAML复用团队，用浏览器控制与human gate组织SaaS研究／复建；没有具名目标验收、代码或token测试，开源邀请仍待发布。 **[未确认使用 REA · 进行中]**
+- [antiloki的REA团队：浏览器复建SaaS前用human gate等待人工登录](cases/antiloki-browser-rea-team-human-gate-project.md) — DanJ的antiloki用YAML团队、浏览器与human gate组织SaaS研究；新帖具名Linear、GitHub、Notion，称主要Haiku5.5每次几美分，尚无费用凭据或目标验收。 **[未确认使用 REA · 进行中]**
 - [离线Roblox Studio尝试：Astolfo-Lock称sol6.2只下载了GitHub项目](cases/astolfolock-roblox-studio-offline-rea-mismatch.md) — Astolfo-Lock要求离线Roblox Studio，告知可用REA与Ghidra；作者称sol6.2实际只下载了GitHub项目，没有逆向或离线验收结果。 **[未确认使用 REA · 分析测试]**
 - [Breaktweaker反编译：b_mccarthy报告Claude称不可行的受阻尝试](cases/breaktweaker-claude-decompile-attempt.md) — b_mccarthy称因Breaktweaker停产而尝试反编译，但Claude告诉他不可行；没有成功恢复源码、构建或运行结果。 **[其他 AI 逆向 · 进行中]**
 - [smolagents：Gaso称用REA与DeepSeek Harness拆解开源Agent框架](cases/deepseek-rea-smolagents-analysis-report.md) — Gaso把Hugging Face的smolagents列为REA接DeepSeek Harness的三个分析目标之一，称输出证据文件；未读视频，不填具体架构发现。 **[REA · 分析测试]**
