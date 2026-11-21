@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2581 cases & projects
+# 2584 cases & projects
 
-**Latest case update:** November 21, 2026, 08:12 · **Last maintained:** November 21, 2026, 08:12 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 21, 2026, 12:10 · **Last maintained:** November 21, 2026, 12:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: rebuild old binaries, compare Windows behavior, check arcade timing and make devices usable. A playable remake is not necessarily a faithful decompilation; specific methods and candid test limits matter more than launch claims. Early ideas and disputed reports remain in the full index. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: rebuild old binaries, compare Windows behavior, check arcade timing and connect devices or existing agent chats. Specific methods and candid test limits matter more than launch claims. Early ideas and disputed reports remain in the full index. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[Proteus: ask Claude about an existing circuit](cases/en/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17` author thread — Arpit researches **undocumented .pdsprj files for an MCP bridge**, reporting schematic queries, connection tracing, value edits and bills of materials. Placement and wiring remain planned; headless simulation returns no waveforms. Thread read, code and circuits not tested here. `In progress`
@@ -32,7 +32,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 6. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-20` report and pinned docs — Agents write Rust against recorded behavior. The project reports **17,224 byte-identical runs, only 15,837 fully in Rust**; others fall back to Prettier. Roughly 19× CLI speedup includes process startup, versus 4.2× warmed in-process on the stated M4 test. Not rerun here. `Unverified here`
 7. **[CPS-2 Recomp: arcade games, with timing checked](cases/en/cps2recomp-claude-native-arcade-recompilation.md)** · `2026-11-20` report and pinned docs — **Claude-credited work on native C++ ports** adds board waits and DMA timing alongside training and rollback play. SFA2 reportedly matches reference work RAM on **5,634/5,671 frames**, with an eleven-frame offset; another game diverges. The reference is a model, not hardware, and the harness is not public. Own ROMs required; not run here. `In progress`
 8. **[LiberNT: study Windows behavior, not copy its code](cases/en/libernt-ai-windows11-blackbox-compatibility.md)** · `2026-11-21` report; `2026-11-19` pinned docs — This ReactOS fork describes **AI-assisted documentation/behavior comparisons and Windows 11 black-box tests** for application compatibility. Docs require human review; that is not proof every test passed. Debug pre-releases, not a daily-use replacement; performance promotion unchecked here. `In progress`
-9. **[NotTheInstagram: make endless scrolling less effortless](cases/en/nottheinstagram-rea-codex-flex-friction-hooks.md)** · `2026-11-15` author article and pinned code — **FLEX gives Codex a map; REA connects Hopper** to find hooks adding three-post waits and a two-minute Reels pause. Signature checks are visible in code; individual device checks remain incomplete. Instagram 455.0.0 only reported tested; modified-client risks remain. `Unverified here`
+9. **[Consessus: let existing agent chats talk](cases/en/consessus-rea-mac-agent-app-interoperability.md)** · `2026-11-21` author thread and pinned docs — **REA-assisted research into four Mac apps' local channels** yields a session-messaging CLI. Project docs report round trips and four-task/four-answer rooms on one Mac; OpenCode desktop needs an in-session listener, and some paths remain fake-only tests. Undocumented interfaces can break; not run here. `In progress`
 10. **[Kirby to PPSSPP: reuse GameShare from homebrew](cases/en/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md)** · `2026-11-20` author thread — XITRIX says **REA revealed Kirby's system-SDK startup calls**, reused to share a second PPSSPP instance with another Switch. A concrete interoperability report, not full Kirby source recovery; API code, demo and consoles not tested here. `Unverified here`
 
 ## Classic cases
@@ -50,9 +50,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **505** |
-| [Hardware & interoperability](categories/en/hardware.md) | **677** |
-| [Applications & clients](categories/en/apps.md) | **1076** |
+| [Games & preservation](categories/en/games.md) | **506** |
+| [Hardware & interoperability](categories/en/hardware.md) | **678** |
+| [Applications & clients](categories/en/apps.md) | **1077** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **323** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

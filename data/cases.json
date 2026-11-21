@@ -1,5 +1,64 @@
 [
   {
+    "id": "consessus-rea-mac-agent-app-interoperability",
+    "title": "Consessus：用REA研究四款Mac编程助手的本机通信，让已有会话互发消息",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "ns称用rea研究Claude、Codex、Antigravity与OpenCode的本机接口，做成跨应用会话CLI；固定文档记录单机往返与房间测试，也明确桌面版例外及未测分支。",
+    "description": "2026年11月21日08:53:23（北京时间），ns（@ns0bj）介绍开源项目Consessus：逐个研究Mac上Claude Code、Codex桌面应用、Antigravity和OpenCode如何通信，再把已有聊天连接起来，使一个应用的会话能给另一个发消息并读回答案。08:53:44的方法回复明确说使用自己的逆向Agent rea，列出Codex的长度前缀JSON本地IPC socket、Antigravity语言服务器的Connect-RPC、OpenCode本地HTTP服务器与Claude Code的peer socket。这是本机应用互通，不是重新训练四个模型或恢复整个应用源码。\n\n补读同串08:53:46的说明，作者还报告统一会话列表、同一命令发送并读回、同目录项目房间及有限轮次讨论。另读取固定提交fd0874fe94457adb0ca0f68eedda40f7f8431c56（2026年11月21日09:04:46北京时间）的README相关章节、完整兼容表与协议笔记，作为补充项目文档而非独立候选。文档称11月19日在一台Mac上构建测试，11月20日跑过Antigravity、Codex与OpenCode CLI的发送／读回、四应用房间、轮流讨论，以及四任务四回答的分配；这些均是项目自记，不是本合集复现。\n\n必须保留应用版本与路径区别：文档所列环境为Apple Silicon上的macOS 27.2，Claude Code 2.1.294、Claude Desktop 5.11492.5、Codex桌面26.1111.71025、OpenCode CLI 2.3.2与Antigravity应用2.33.0。OpenCode桌面1.19.5只能在会话内启动listener，不能用统一send直接寻址或读回答案，因此原帖“应用内不用安装任何东西”不能当成无例外保证。Codex CLI终端会话、Gemini CLI、Cursor CLI未覆盖；Antigravity IDE 2.6.0的新路径未实机测试。Claude直接send读回命令本身未跑实机，虽同一reader在房间内有自报测试；free讨论与room lead／set仍只用假对象测试。\n\n项目明确依赖未文档化、易随升级变化的本机行为；socket写入、应用接受、模型读到与实际回答是不同证据。不同权限模式可能被接收端hold、拒绝或过期；peer数据不授予人类指令权限，也不改变应用审批模式。安全说明承认同一OS用户下的恶意进程不在隔离保证内，且有十项todo加固测试；README和兼容表对部分手改房间状态边界的描述也不完全一致，不能据此认证其安全。本合集只读来源，未安装项目、运行目标、联系本机会话、查看凭据或独立验证往返；保留in-progress。",
+    "sources": [
+      {"label": "ns介绍Consessus跨应用会话互通，2026-11-21 08:53:23北京时间", "url": "https://x.com/i/status/2123942816397291683"},
+      {"label": "作者说明rea与四款应用通信入口，2026-11-21 08:53:44北京时间", "url": "https://x.com/i/status/2123942908319424668"},
+      {"label": "补充作者串：会话列表与项目房间，2026-11-21 08:53:46北京时间", "url": "https://x.com/i/status/2123942914501853479"},
+      {"label": "固定README相关章节，提交于2026-11-21 09:04:46北京时间；项目自报11月19至20日测试", "url": "https://github.com/nsozturk/consessus/blob/fd0874fe94457adb0ca0f68eedda40f7f8431c56/README.md"},
+      {"label": "同一固定提交的完整兼容表：实机、未测与已知限制", "url": "https://github.com/nsozturk/consessus/blob/fd0874fe94457adb0ca0f68eedda40f7f8431c56/docs/COMPATIBILITY.md"},
+      {"label": "同一固定提交的Claude本机peer协议历史笔记", "url": "https://github.com/nsozturk/consessus/blob/fd0874fe94457adb0ca0f68eedda40f7f8431c56/docs/discovery.md"}
+    ],
+    "snapshot_date": "2026-11-21",
+    "metadata": ["11月21日封存快照：介绍帖0赞、24浏览、0转发、1回复；方法帖1赞、26浏览、0转发、1回复。", "本合集未运行项目测试；项目自报live仅限所列版本与一台Mac，不证明全方向兼容或安全隔离。"],
+    "en": {
+      "title": "Consessus: REA research into four Mac coding apps' local channels connects existing chats",
+      "summary": "ns reports using rea to study local interfaces in Claude, Codex, Antigravity and OpenCode and build a cross-app session CLI. Pinned docs record one-Mac round trips and room tests, with desktop exceptions and untested paths.",
+      "description": "At 08:53:23 Beijing time on November 21, 2026, ns (@ns0bj) introduces the open-source Consessus project: inspect how Claude Code, the Codex desktop app, Antigravity and OpenCode communicate on a Mac, one at a time, then connect existing chats so one app's session can message another and read its answer. The 08:53:44 methods reply explicitly credits the author's reverse-engineering agent rea and identifies Codex's local IPC socket with length-prefixed JSON, the Antigravity language server's Connect-RPC, OpenCode's local HTTP server and Claude Code's peer socket. This is local application interoperability, not retraining four models or recovering their entire source.\n\nThe supplementary 08:53:46 thread reply adds a unified session list, sending and reading in one command, same-folder project rooms and bounded discussions. Relevant README sections, the complete compatibility table and protocol notes were also read at pinned commit fd0874fe94457adb0ca0f68eedda40f7f8431c56, dated November 21, 2026 at 09:04:46 Beijing time. These are supplementary project documents, not additional candidates. They report building and testing on one Mac on November 19, then November 20 live send/read round trips for Antigravity, Codex and OpenCode CLI, a four-app room, turn-based discussion and four assigned tasks with four answers. These are project records, not reproductions by this collection.\n\nVersion and path distinctions matter. The documented environment is macOS 27.2 on Apple Silicon, Claude Code 2.1.294, Claude Desktop 5.11492.5, Codex desktop 26.1111.71025, OpenCode CLI 2.3.2 and Antigravity app 2.33.0. OpenCode desktop 1.19.5 requires a listener started inside its session and cannot be addressed or have replies read by the unified send command. Thus the post's statement that nothing is installed inside apps is not an exception-free guarantee. Codex CLI terminal sessions, Gemini CLI and Cursor CLI are not covered; the newer path for Antigravity IDE 2.6.0 was not tested live. The direct Claude send/read command itself was not run live, although its reader reportedly ran inside rooms. Free discussion and room lead/set remain fake-only tests.\n\nThe project explicitly depends on undocumented local behavior that app updates may change. A socket write, application acceptance, a model reading a message and an actual answer are distinct evidence. Different permission modes can cause recipient holds, denials or expiry; peer data grants no human-instruction authority and changes no application approval mode. Security notes acknowledge that malicious processes under the same OS user are outside the isolation guarantee, and ten hardening tests remain todo. README and compatibility descriptions of some hand-edited room-state boundaries are also not fully consistent, so they do not certify safety. This collection only read sources: it did not install the project, run targets, contact local sessions, inspect credentials or independently verify a round trip. Status remains in-progress.",
+      "metadata": ["November 21 sealed snapshot: introduction 0 likes, 24 views, 0 reposts, 1 reply; methods reply 1 like, 26 views, 0 reposts, 1 reply.", "Project tests were not run here. Reported live results apply only to the listed versions and one Mac, not all-direction compatibility or security isolation."],
+      "source_labels": ["ns introduces cross-app Consessus sessions, November 21, 2026 at 08:53:23 Beijing time", "Author identifies rea and four application channels, November 21, 2026 at 08:53:44 Beijing time", "Supplementary author reply: session list and project rooms, November 21, 2026 at 08:53:46 Beijing time", "Pinned README sections, commit dated November 21, 2026 at 09:04:46 Beijing time; project-reported November 19–20 tests", "Complete compatibility table at the same commit: live, untested and known limits", "Historical local Claude peer-protocol notes at the same commit"]
+    }
+  },
+  {
+    "id": "armored-core-v-ai-emulator-fix-request",
+    "title": "Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。",
+    "description": "2026年11月21日08:42:49（北京时间），krihstuhfur_（@Mazhaa2）回复@Order0fEcclesia，希望有AI逆向知识的人把问题修好，理由是别人已用AI修过不少东西。候选本身没有写游戏名；补读同串07:00:55的父帖，才识别讨论对象为Armored Core V，父帖问是否用RPCS3，并说看到Xenia有许多问题。父帖早于本轮08:00窗口，仅用于识别目标，不冒充新候选或独立兼容测量。\n\n用途是让这部机甲游戏在模拟环境中更好运行。候选没有选定模拟器、描述具体故障、版本或复现步骤，没有模型、工具、代码、开始实施者或修复演示；“人们用AI修过东西”不是本目标已成功的证据。以具名游戏兼容修复请求／idea收录，不推断已做反编译、PC原生移植或修复完成。REA未提及，本合集未运行游戏或模拟器，保持unverified。",
+    "sources": [
+      {"label": "krihstuhfur_请求AI逆向修复，2026-11-21 08:42:49北京时间", "url": "https://x.com/i/status/2123940160370778280"},
+      {"label": "补充：识别Armored Core V、RPCS3与Xenia的窗口外父帖，2026-11-21 07:00:55北京时间", "url": "https://x.com/i/status/2123914515813384616"}
+    ],
+    "snapshot_date": "2026-11-21", "metadata": ["11月21日候选封存快照：0赞、89浏览、0转发、0回复；没有修复或标准化兼容测试。"],
+    "en": {
+      "title": "An Armored Core V emulation-fix request: use AI reverse engineering to improve compatibility",
+      "summary": "krihstuhfur_ asks someone with AI reversing knowledge to fix Armored Core V emulation. The parent compares RPCS3 and Xenia; this is a specific request without a developer, patch or performance result.",
+      "description": "At 08:42:49 Beijing time on November 21, 2026, krihstuhfur_ (@Mazhaa2) replies to @Order0fEcclesia asking someone with AI reverse-engineering knowledge to fix the problem, because people have used AI to fix other things. The candidate itself does not name the game. Reading the 07:00:55 parent identifies Armored Core V: the parent asks whether RPCS3 is being used and says Xenia appears to have many issues. That parent predates this window's 08:00 start and is used only to identify the target, not as a new candidate or an independent compatibility measurement.\n\nThe purpose is to make this mech game run better in an emulated environment. The candidate chooses no emulator and supplies no specific failure, version, reproduction steps, model, tool, code, implementer or fix demonstration. Other people having fixed things with AI is not evidence of success on this target. Retained as a named-game compatibility request/idea, without inferring decompilation, a native PC port or a completed fix. REA is unmentioned; this collection ran neither game nor emulator. Status remains unverified.",
+      "metadata": ["November 21 sealed candidate snapshot: 0 likes, 89 views, 0 reposts, 0 replies. No patch or standardized compatibility test."],
+      "source_labels": ["krihstuhfur_'s AI reverse-engineering fix request, November 21, 2026 at 08:42:49 Beijing time", "Supplementary out-of-window parent identifying Armored Core V, RPCS3 and Xenia, November 21, 2026 at 07:00:55 Beijing time"]
+    }
+  },
+  {
+    "id": "ps5-controller-rea-gta-playing-idea",
+    "title": "PS5手柄代玩GTA：D.O.C.I提出先用REA理解控制器的idea",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "D.O.C.I提议用REA研究PS5控制器，再教AI使用并代玩GTA；是玩笑语气的具体控制接口想法，没有协议成果、自动游玩或通关记录。",
+    "description": "2026年11月21日09:44:38（北京时间），D.O.C.I（@OffSalty）回复@make_claude，提出“REA the ps5 controller”，接着说教AI使用它并替自己玩GTA，末尾有笑脸。保留为具体idea：逆向目标是PS5手柄，意图是给AI提供可操控的游戏输入，不是宣称控制器已被分析或GTA已自动通关。\n\n补取原帖确认作者与措辞。原帖未指定GTA版本、主机或PC运行环境，也未说USB、蓝牙、反馈读取或决策回路；没有控制器型号细分、协议记录、模型、代码、测试或实施时间。不能把既有GTA6游戏本体逆向加MCP的想法当作这个手柄方案的实现，亦不推断需绕过平台安全。REA是作者明确提出的工具方向而非已核验调用。本合集未操作设备或游戏，保持unverified。",
+    "sources": [{"label": "D.O.C.I的PS5手柄REA与GTA代玩idea，2026-11-21 09:44:38北京时间", "url": "https://x.com/i/status/2123955715928932515"}],
+    "snapshot_date": "2026-11-21", "metadata": ["11月21日封存快照：0赞、269浏览、0转发、0回复；仅idea，不是实作记录。"],
+    "en": {
+      "title": "A PS5-controller route to GTA autoplay: D.O.C.I proposes understanding the controller with REA",
+      "summary": "D.O.C.I proposes using REA on a PS5 controller, teaching AI to use it and having it play GTA. A joking but specific input-interface idea, with no protocol result, autonomous play or completion record.",
+      "description": "At 09:44:38 Beijing time on November 21, 2026, D.O.C.I (@OffSalty) replies to @make_claude with REA the ps5 controller, then proposes teaching AI to use it and play GTA for the author, ending with a laughing emoji. Retained as a concrete idea: the reverse-engineering target is a PS5 controller and the purpose is controllable game input for AI, not a claim that the controller has been analyzed or GTA completed autonomously.\n\nRetrieving the original confirms attribution and wording. It specifies no GTA version, console or PC environment, USB or Bluetooth transport, feedback observation or decision loop. There is no controller submodel, protocol record, model, code, test or implementation timeline. The existing idea of reversing GTA6 itself and adding MCP is not an implementation of this controller approach; no platform-security bypass is inferred. REA is an explicitly proposed tool direction, not an audited invocation. This collection operated neither device nor game. Status remains unverified.",
+      "metadata": ["November 21 sealed snapshot: 0 likes, 269 views, 0 reposts, 0 replies. An idea only, not an implementation record."],
+      "source_labels": ["D.O.C.I's PS5-controller REA/GTA autoplay idea, November 21, 2026 at 09:44:38 Beijing time"]
+    }
+  },
+  {
     "id": "gta6-cyberleek-claude-missing-executable-claim",
     "title": "GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑",
     "category": "games", "rea": "other-ai", "status": "unverified",

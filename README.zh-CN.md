@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2581 个案例与项目
+# 2584 个案例与项目
 
-**最近案例更新：**2026 年 11 月 21 日 08:12 · **最近维护：**2026 年 11 月 21 日 08:12 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 21 日 12:10 · **最近维护：**2026 年 11 月 21 日 12:10 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：重建旧二进制，对照Windows行为与街机时序，让设备更好用。能玩的重制不一定是忠实反编译，具体方法与坦诚的测试边界比发布宣称更重要；早期 idea 与有争议报告仍可在完整目录找到。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：重建旧二进制，对照Windows行为与街机时序，连通设备或已有Agent会话。具体方法与坦诚的测试边界比发布宣称更重要；早期idea与有争议报告仍可在完整目录找到。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[Proteus：让Claude回答已有电路的问题](cases/arpit-proteus-pdsprj-mcp-project-research.md)** · `2026-11-17`作者串 — Arpit研究**未文档化.pdsprj，制作MCP桥接**，报告可查原理图、追连线、改参数与生成物料清单。放元件和布线仍待做，无头仿真不返回波形。已读串文，未测代码与电路。`进行中`
@@ -32,7 +32,7 @@
 6. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-20`介绍与固定文档 — Agent按录制行为写Rust，项目报告**17224次字节一致，仅15837次全在Rust**，其余回退Prettier。所列M4测试中CLI约19倍含进程启动优势，预热进程内为4.2倍；本合集未重跑。`未独立核验`
 7. **[CPS-2 Recomp：原生街机，还要对照时序](cases/cps2recomp-claude-native-arcade-recompilation.md)** · `2026-11-20`介绍与固定文档 — **Claude署名参与C++原生移植**，在训练和回滚联机之外补板级等待与DMA时序。项目报告SFA2工作RAM **5634／5671帧匹配参考**，仍有11帧偏移，另一游戏会分歧；参考是模型而非实机，harness尚未公开。自备ROM，本合集未运行。`进行中`
 8. **[LiberNT：研究Windows行为，不照抄代码](cases/libernt-ai-windows11-blackbox-compatibility.md)** · `2026-11-21`报道；`2026-11-19`固定文档 — 这个ReactOS分支以**AI辅助文档／行为对照和Windows 11黑箱测试**研究应用兼容。文档要求人工审查，不等于证明每次测试都通过；目前为Debug预发布，非日常替代，性能宣传未复查。`进行中`
-9. **[NotTheInstagram：给无限刷加一点阻力](cases/nottheinstagram-rea-codex-flex-friction-hooks.md)** · `2026-11-15`作者文章与固定代码 — **FLEX给Codex地图，REA连接Hopper**找hook，实现每三帖等待与Reels入口两分钟暂停的自述。源码可见签名检查，实机细项仍未全确认；仅报告测试Instagram455.0.0，修改客户端有风险。`未独立核验`
+9. **[Consessus：让已有Agent聊天互通](cases/consessus-rea-mac-agent-app-interoperability.md)** · `2026-11-21`作者串与固定文档 — **REA研究四款Mac应用的本机通信**，做成会话消息CLI。项目报告单台Mac往返与四任务四回答的房间测试；OpenCode桌面版须在会话内开listener，部分路径只测假对象。未文档化接口可能随升级失效，本合集未运行。`进行中`
 10. **[Kirby到PPSSPP：让homebrew复用GameShare](cases/xitrix-kirby-rea-gameshare-ppsspp-homebrew.md)** · `2026-11-20`作者串 — XITRIX称**REA找出Kirby启动系统SDK的调用**，再用于把第二个PPSSPP实例分享给另一台Switch。是具体互通报告，不是找回整部Kirby源码；未核验API代码、演示与主机。`未独立核验`
 
 ## 经典案例
@@ -50,9 +50,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **505** |
-| [硬件与设备互通](categories/hardware.md) | **677** |
-| [应用与客户端](categories/apps.md) | **1076** |
+| [游戏与游戏保存](categories/games.md) | **506** |
+| [硬件与设备互通](categories/hardware.md) | **678** |
+| [应用与客户端](categories/apps.md) | **1077** |
 | [算法与功能重建](categories/algorithms.md) | **323** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

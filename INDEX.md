@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2581 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2584 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（505）
-- [硬件与设备互通](categories/hardware.md)（677）
-- [应用与客户端](categories/apps.md)（1076）
+- [游戏与游戏保存](categories/games.md)（506）
+- [硬件与设备互通](categories/hardware.md)（678）
+- [应用与客户端](categories/apps.md)（1077）
 - [算法与功能重建](categories/algorithms.md)（323）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑](cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
 - [Megabonk到Android：Martin明确说是GPT Terra重制，不是可靠反编译](cases/megabonk-gpt-terra-android-remake-report.md) — Martin称用GPT Terra将Windows的Megabonk重制到Android，可在手机不用手柄玩；消耗两三次Codex周限额，不是已核验反编译或实际费用测量。 **[其他 AI 逆向 · 待验证]**
@@ -534,6 +535,7 @@
 
 ### 硬件与设备互通
 
+- [PS5手柄代玩GTA：D.O.C.I提出先用REA理解控制器的idea](cases/ps5-controller-rea-gta-playing-idea.md) — D.O.C.I提议用REA研究PS5控制器，再教AI使用并代玩GTA；是玩笑语气的具体控制接口想法，没有协议成果、自动游玩或通关记录。 **[REA · 待验证]**
 - [同一路由器固件测四模型：knowlet记录拒绝中断与Sol完成自述](cases/router-firmware-four-ai-models-refusal-comparison.md) — knowlet比较DeepSeek、Grok、Astra与Sol研究同一固件的体验，称Sol最终实现想开通的功能；路由器及功能未具名，没有复现或统一评测。 **[REA · 分析测试]**
 - [Ecovacs N8 Pro：dronus称Codex研究固件并延长回站排空时间](cases/ecovacs-n8-pro-codex-empty-time-firmware-report.md) — dronus称用Codex研究自有N8 Pro，网上找固件、开源工具分析，并延长清扫每20分钟回站时的排空时间；未给改动值与实机对照。 **[其他 AI 逆向 · 待验证]**
 - [2012 Model S分流器：Christopher读到电流，计划让Claude整理SPI寄存器](cases/tesla-2012-shunt-claude-spi-register-research.md) — Christopher Kalitin报告读出2012 Tesla Model S分流器电流，下一步探索并让Claude记录剩余SPI寄存器，特别是校准项；已有读数不等于AI已完成寄存器研究。 **[其他 AI 逆向 · 进行中]**
@@ -1214,6 +1216,7 @@
 
 ### 应用与客户端
 
+- [Consessus：用REA研究四款Mac编程助手的本机通信，让已有会话互发消息](cases/consessus-rea-mac-agent-app-interoperability.md) — ns称用rea研究Claude、Codex、Antigravity与OpenCode的本机接口，做成跨应用会话CLI；固定文档记录单机往返与房间测试，也明确桌面版例外及未测分支。 **[REA · 进行中]**
 - [产品短片工作流idea：Claude统筹Rea-Video拆镜与代码动画重建](cases/claude-rea-video-product-film-pipeline-idea.md) — 日语帖子将13个工具组织为视频制作流程：Rea-Video分析参考片，再以代码与生成素材组装产品片；是可试组合，不是已跑通电影工作室。 **[其他 AI 逆向 · 待验证]**
 - [vogel的iOS研究：称Agent正在逆向，尚无子系统或结果](cases/agent-ios-reverse-engineering-in-progress-report.md) — vogel回复称有Agent正在逆向iOS；仅有系统级目标与进行中自述，没有模型、版本、方法或发现，不与其Wyze固件项目混同。 **[未确认使用 REA · 进行中]**
 - [旧服务端逆向重构：Ye An称opencode跑七小时后可启动](cases/opencode-6astra-legacy-server-reconstruction-report.md) — Ye An报告opencode配6／astra重构旧项目，运行七小时后多模型审查未发现bug，服务端可启动；项目未具名，零发现不等于零缺陷。 **[其他 AI 逆向 · 待验证]**

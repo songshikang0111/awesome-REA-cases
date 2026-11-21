@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Consessus：用REA研究四款Mac编程助手的本机通信，让已有会话互发消息](../cases/consessus-rea-mac-agent-app-interoperability.md) — ns称用rea研究Claude、Codex、Antigravity与OpenCode的本机接口，做成跨应用会话CLI；固定文档记录单机往返与房间测试，也明确桌面版例外及未测分支。 **[REA · 进行中]**
 - [产品短片工作流idea：Claude统筹Rea-Video拆镜与代码动画重建](../cases/claude-rea-video-product-film-pipeline-idea.md) — 日语帖子将13个工具组织为视频制作流程：Rea-Video分析参考片，再以代码与生成素材组装产品片；是可试组合，不是已跑通电影工作室。 **[其他 AI 逆向 · 待验证]**
 - [vogel的iOS研究：称Agent正在逆向，尚无子系统或结果](../cases/agent-ios-reverse-engineering-in-progress-report.md) — vogel回复称有Agent正在逆向iOS；仅有系统级目标与进行中自述，没有模型、版本、方法或发现，不与其Wyze固件项目混同。 **[未确认使用 REA · 进行中]**
 - [旧服务端逆向重构：Ye An称opencode跑七小时后可启动](../cases/opencode-6astra-legacy-server-reconstruction-report.md) — Ye An报告opencode配6／astra重构旧项目，运行七小时后多模型审查未发现bug，服务端可启动；项目未具名，零发现不等于零缺陷。 **[其他 AI 逆向 · 待验证]**

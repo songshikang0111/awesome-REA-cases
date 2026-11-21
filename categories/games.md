@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](../cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑](../cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](../cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
 - [Megabonk到Android：Martin明确说是GPT Terra重制，不是可靠反编译](../cases/megabonk-gpt-terra-android-remake-report.md) — Martin称用GPT Terra将Windows的Megabonk重制到Android，可在手机不用手柄玩；消耗两三次Codex周限额，不是已核验反编译或实际费用测量。 **[其他 AI 逆向 · 待验证]**

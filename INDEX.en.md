@@ -10,15 +10,15 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2581 entries**, organized by use case, without a Top-N or popularity threshold.
+**2584 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (505)
-- [Hardware and interoperability](categories/en/hardware.md) (677)
-- [Applications and clients](categories/en/apps.md) (1076)
+- [Games and preservation](categories/en/games.md) (506)
+- [Hardware and interoperability](categories/en/hardware.md) (678)
+- [Applications and clients](categories/en/apps.md) (1077)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (323)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [An Armored Core V emulation-fix request: use AI reverse engineering to improve compatibility](cases/en/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_ asks someone with AI reversing knowledge to fix Armored Core V emulation. The parent compares RPCS3 and Xenia; this is a specific request without a developer, patch or performance result. **[Other AI-assisted work · Needs verification]**
 - [GTA 6's missing executable: st1ne claims a twenty-hour Claude rebuild, challenged in the thread](cases/en/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne claims Claude rebuilt a GTA 6 launcher from incomplete Cyberleek files and entered the world. Twenty hours and 50–60 FPS are unchecked; readers question video overlays, without source or reproducible records. **[Other AI-assisted work · Needs verification]**
 - [A GTA 6 co-op mod idea: playing with a partner through proposed AI decompilation](cases/en/gta6-ai-decompile-couple-coop-mod-idea.md) — The author says their wife wanted co-op in GTA 6's couple story and predicts someone will decompile and mod it with AI within a week. No implementation or multiplayer synchronization result is reported. **[Other AI-assisted work · Needs verification]**
 - [Megabonk on Android: Martin calls it a GPT Terra remake, not reliable decompilation](cases/en/megabonk-gpt-terra-android-remake-report.md) — Martin reports remaking Windows game Megabonk for Android with GPT Terra, playable without a controller. Two or three Codex weekly limits are reported, not verified decompilation or measured spending. **[Other AI-assisted work · Needs verification]**
@@ -536,6 +537,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [A PS5-controller route to GTA autoplay: D.O.C.I proposes understanding the controller with REA](cases/en/ps5-controller-rea-gta-playing-idea.md) — D.O.C.I proposes using REA on a PS5 controller, teaching AI to use it and having it play GTA. A joking but specific input-interface idea, with no protocol result, autonomous play or completion record. **[REA · Needs verification]**
 - [Four models on one router firmware: knowlet reports refusal interruptions and a Sol completion](cases/en/router-firmware-four-ai-models-refusal-comparison.md) — knowlet compares DeepSeek, Grok, Astra and Sol on the same firmware, saying Sol ultimately enabled a wanted feature. The router and feature are unnamed, with no reproduction or controlled benchmark. **[REA · Analysis test]**
 - [Ecovacs N8 Pro: dronus credits Codex with firmware research and a longer dock-emptying time](cases/en/ecovacs-n8-pro-codex-empty-time-firmware-report.md) — dronus reports Codex research on an owned N8 Pro, online firmware and an open-source inspection tool to extend emptying when it docks every twenty minutes during cleaning. No changed values or device comparison are supplied. **[Other AI-assisted work · Needs verification]**
 - [2012 Model S shunt: Christopher reads current and plans Claude-assisted SPI register documentation](cases/en/tesla-2012-shunt-claude-spi-register-research.md) — Christopher Kalitin reports current readings from a 2012 Tesla Model S shunt, with remaining SPI registers, especially calibration, next for discovery and Claude documentation. Readings do not mean AI has finished the register research. **[Other AI-assisted work · In progress]**
@@ -1216,6 +1218,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Consessus: REA research into four Mac coding apps' local channels connects existing chats](cases/en/consessus-rea-mac-agent-app-interoperability.md) — ns reports using rea to study local interfaces in Claude, Codex, Antigravity and OpenCode and build a cross-app session CLI. Pinned docs record one-Mac round trips and room tests, with desktop exceptions and untested paths. **[REA · In progress]**
 - [A product-film pipeline idea: Claude coordinates Rea-Video shot analysis and code-based animation](cases/en/claude-rea-video-product-film-pipeline-idea.md) — A Japanese post arranges thirteen tools into a video workflow, analyzing references with Rea-Video before assembling product films from code and generated assets. A proposed combination, not a proven film studio. **[Other AI-assisted work · Needs verification]**
 - [vogel's iOS research: an agent reportedly reversing it, without a subsystem or result](cases/en/agent-ios-reverse-engineering-in-progress-report.md) — vogel says an agent is currently reverse-engineering iOS. This is only an OS-level target and in-progress account, without model, version, method or findings, separate from their Wyze firmware project. **[REA use unconfirmed · In progress]**
 - [Reconstructing a legacy server: Ye An reports a bootable result after seven hours in opencode](cases/en/opencode-6astra-legacy-server-reconstruction-report.md) — Ye An reports legacy-project reconstruction with opencode and 6/astra, followed by multi-model review finding no bugs and a server that starts. The project is unnamed; no findings do not establish no defects. **[Other AI-assisted work · Needs verification]**
