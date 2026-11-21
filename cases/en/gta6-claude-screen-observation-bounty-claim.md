@@ -1,7 +1,7 @@
-# Watching GTA 6 for bugs: Noisy claims a $17,000 Claude-found phone issue; a reader questions the payment account
+# Watching GTA 6 for bugs: Noisy claims $17,000; Kaiju instead reports HackerOne review without payment
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-21
+Record date: 2026-11-22
 Stage: Needs verification
 
 At 19:04:44 Beijing time on November 21, 2026, Noisy (@noisyb0y1) says Fable 5.2 in Claude Code was told only to watch the screen, not operate controls, while the author played GTA 6's story. The agent allegedly found an in-game phone bug after 47 minutes and wrote reproduction steps. The author claims to have taken two screenshots, rewritten the report, emailed Rockstar security, received a request for bank details within ten minutes and received $17,000 within hours. Two further bugs allegedly followed two hours later and await approval. All times, bugs and payments remain the author's claims.
@@ -10,14 +10,18 @@ A supplementary 19:05:00 author reply supplies a prompt to observe visual, logic
 
 At 19:47:12, Liam. (@LiamBussines) points out that the post names an in-game phone and payment within hours, whereas the screenshot's email allegedly names a payment system and 5–7 business days, asking for an explanation. This collection read the comment, not the email screenshot, so this is a named reader's reported inconsistency, not authenticated evidence of fabrication. The returned thread contains no author response to that question. Supplementary replies retain their original dates and inform credibility rather than becoming additional candidates.
 
+At 02:50:55 on November 22, Kaiju (@kaijucode) publishes the same narrative elements—Claude watching, a phone anomaly, two screenshots and a submitted report—but says discovery took five minutes, reproduction starts from a clean save, and submission was through Rockstar's official HackerOne bounty, still under review with no payout. Retrieval confirms attribution and text, not the attached screenshot or report. This is a different account's new version, not Noisy retracting a claim, proof both found the same bug or independent reproduction. Calling the route official does not authenticate Rockstar acceptance or bounty scope. Its differences from the 47-minute, emailed, already-paid version are preserved.
+
 No disclosure, original email, payment proof, reproducible bug or Rockstar confirmation was obtained. No game was operated, banking information read or report sent. Authenticity and bounty causality cannot be confirmed. Included as a concrete but disputed AI black-box observation report, with unverified status and no recommendation as a successful bounty case.
 
 November 21 sealed candidate: 21 likes, 861 views, 1 repost, 7 replies. Engagement does not establish a bug or payment; screenshot contents are only relayed by a commenter.
+November 22 Kaiju sealed candidate: 16 likes, 314 views, 0 reposts, 1 reply. This is a different account from Noisy; its no-payment version is not an original-author correction.
 
 ## Sources
 
 - [Noisy's GTA 6 screen-observation and $17,000 claim, November 21, 2026 at 19:04:44 Beijing time](https://x.com/i/status/2124096670447145125)
 - [Supplementary author reply: generic screen-observation and anomaly-recording prompt, November 21, 2026 at 19:05:00 Beijing time](https://x.com/i/status/2124096735748247827)
 - [Supplementary Liam comment questioning phone/payment-system and payment-timing inconsistencies, November 21, 2026 at 19:47:12 Beijing time](https://x.com/i/status/2124107357949145310)
+- [Kaiju's new version: five minutes, HackerOne review and no payment, November 22, 2026 at 02:50:55 Beijing time](https://x.com/i/status/2124213987902369812)
 
 [中文](../gta6-claude-screen-observation-bounty-claim.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

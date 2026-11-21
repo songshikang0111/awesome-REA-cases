@@ -2,11 +2,15 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [GTA6遥测审计idea：用AI反编译盘点行为采集面，而非认证画像传言](../cases/gta6-ai-telemetry-surface-audit-idea.md) — 读者建议发售后用AI反编译GTA6、列出遥测面与采集粒度；其对心理画像和外部滥用的推测没有技术证据。 **[其他 AI 逆向 · 待验证]**
+- [芝加哥版GTA6：两组各一万Agent十天重建的提问式idea](../cases/gta6-chicago-two-model-agent-teams-rebuild-idea.md) — 作者问先逆向GTA6后，各一万Claude Fable5.2和GPT6.2 Astra Agent能否十天分别做出芝加哥版同级游戏；未有实现或可行性证据。 **[其他 AI 逆向 · 待验证]**
+- [未公布游戏的字节匹配反编译：Johnny D.C.称AI辅助完成](../cases/johnnydc-ai-unnamed-game-byte-matching-report.md) — Johnny D.C.称完成喜爱游戏的byte-for-byte反编译，强调不是port或recomp，稍后公布；游戏名、匹配范围和构建哈希未获。 **[其他 AI 逆向 · 待验证]**
+- [Fortnite蓝图到Verse：两万多个蓝图转换的AI迁移转述](../cases/fortnite-blueprint-verse-ai-migration-secondary-report.md) — 帖子称Epic用AI把Fortnite两万多个蓝图转成三百万行Verse原型；未取得官方来源或行为对照，不据此认定UE6废弃蓝图。 **[其他 AI 逆向 · 待验证]**
 - [Bloodlines匹配反编译：özerk aslan称多数函数由AI Agent编写](../cases/bloodlines-ai-agent-matching-decompilation-report.md) — özerk aslan介绍Vampire: The Masquerade – Bloodlines匹配反编译项目，称多数函数由AI Agent写，须自备游戏；未获匹配比例或构建验证。 **[其他 AI 逆向 · 进行中]**
 - [C++ RTS引擎转Rust：二手审计称AI以clone与锁换取编译通过](../cases/cpp-rts-rust-ai-migration-clone-lock-audit-report.md) — 帖子转述12000行C++即时战略引擎迁移Rust：能渲染与寻路，但热路径深拷贝和共享锁导致开销；未给原审计、仓库或性能数据。 **[其他 AI 逆向 · 待验证]**
 - [ISS Pro 2式足球游戏：Salvatore用隔离实现Agent尝试重建乐趣](../cases/iss-pro2-cleanroom-agent-football-recreation.md) — Salvatore Zappalà称用clean-room逆向做一款像ISS Pro 2一样好玩的游戏，实现Agent不看代码；作者发现做出乐趣更难，未报告等价性或完成移植。 **[其他 AI 逆向 · 进行中]**
 - [Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植](../cases/siya-flappy-bird-apk-codex-chromatic-port.md) — Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。 **[其他 AI 逆向 · 待验证]**
-- [GTA6看屏找bug：Noisy称Claude发现电话界面问题获1.7万美元，串内质疑付款说法](../cases/gta6-claude-screen-observation-bounty-claim.md) — Noisy称Fable5.2旁观GTA6游玩47分钟发现电话bug并获17000美元；同串给通用观察提示，Liam质疑邮件写支付系统与5至7工作日，未核付款或漏洞。 **[其他 AI 逆向 · 待验证]**
+- [GTA6看屏找bug：Noisy称获1.7万美元，Kaiju另称HackerOne待审无付款](../cases/gta6-claude-screen-observation-bounty-claim.md) — Noisy的47分钟／17000美元说法受Liam质疑；Kaiju传播版本改为5分钟、HackerOne待审且无付款。不同作者版本不互相验证，漏洞与赏金仍未核。 **[其他 AI 逆向 · 待验证]**
 - [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](../cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑](../cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](../cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**

@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2605 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2624 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（511）
-- [硬件与设备互通](categories/hardware.md)（683）
-- [应用与客户端](categories/apps.md)（1084）
-- [算法与功能重建](categories/algorithms.md)（327）
+- [游戏与游戏保存](categories/games.md)（515）
+- [硬件与设备互通](categories/hardware.md)（690）
+- [应用与客户端](categories/apps.md)（1089）
+- [算法与功能重建](categories/algorithms.md)（330）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,11 +26,15 @@
 
 ### 游戏与游戏保存
 
+- [GTA6遥测审计idea：用AI反编译盘点行为采集面，而非认证画像传言](cases/gta6-ai-telemetry-surface-audit-idea.md) — 读者建议发售后用AI反编译GTA6、列出遥测面与采集粒度；其对心理画像和外部滥用的推测没有技术证据。 **[其他 AI 逆向 · 待验证]**
+- [芝加哥版GTA6：两组各一万Agent十天重建的提问式idea](cases/gta6-chicago-two-model-agent-teams-rebuild-idea.md) — 作者问先逆向GTA6后，各一万Claude Fable5.2和GPT6.2 Astra Agent能否十天分别做出芝加哥版同级游戏；未有实现或可行性证据。 **[其他 AI 逆向 · 待验证]**
+- [未公布游戏的字节匹配反编译：Johnny D.C.称AI辅助完成](cases/johnnydc-ai-unnamed-game-byte-matching-report.md) — Johnny D.C.称完成喜爱游戏的byte-for-byte反编译，强调不是port或recomp，稍后公布；游戏名、匹配范围和构建哈希未获。 **[其他 AI 逆向 · 待验证]**
+- [Fortnite蓝图到Verse：两万多个蓝图转换的AI迁移转述](cases/fortnite-blueprint-verse-ai-migration-secondary-report.md) — 帖子称Epic用AI把Fortnite两万多个蓝图转成三百万行Verse原型；未取得官方来源或行为对照，不据此认定UE6废弃蓝图。 **[其他 AI 逆向 · 待验证]**
 - [Bloodlines匹配反编译：özerk aslan称多数函数由AI Agent编写](cases/bloodlines-ai-agent-matching-decompilation-report.md) — özerk aslan介绍Vampire: The Masquerade – Bloodlines匹配反编译项目，称多数函数由AI Agent写，须自备游戏；未获匹配比例或构建验证。 **[其他 AI 逆向 · 进行中]**
 - [C++ RTS引擎转Rust：二手审计称AI以clone与锁换取编译通过](cases/cpp-rts-rust-ai-migration-clone-lock-audit-report.md) — 帖子转述12000行C++即时战略引擎迁移Rust：能渲染与寻路，但热路径深拷贝和共享锁导致开销；未给原审计、仓库或性能数据。 **[其他 AI 逆向 · 待验证]**
 - [ISS Pro 2式足球游戏：Salvatore用隔离实现Agent尝试重建乐趣](cases/iss-pro2-cleanroom-agent-football-recreation.md) — Salvatore Zappalà称用clean-room逆向做一款像ISS Pro 2一样好玩的游戏，实现Agent不看代码；作者发现做出乐趣更难，未报告等价性或完成移植。 **[其他 AI 逆向 · 进行中]**
 - [Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植](cases/siya-flappy-bird-apk-codex-chromatic-port.md) — Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。 **[其他 AI 逆向 · 待验证]**
-- [GTA6看屏找bug：Noisy称Claude发现电话界面问题获1.7万美元，串内质疑付款说法](cases/gta6-claude-screen-observation-bounty-claim.md) — Noisy称Fable5.2旁观GTA6游玩47分钟发现电话bug并获17000美元；同串给通用观察提示，Liam质疑邮件写支付系统与5至7工作日，未核付款或漏洞。 **[其他 AI 逆向 · 待验证]**
+- [GTA6看屏找bug：Noisy称获1.7万美元，Kaiju另称HackerOne待审无付款](cases/gta6-claude-screen-observation-bounty-claim.md) — Noisy的47分钟／17000美元说法受Liam质疑；Kaiju传播版本改为5分钟、HackerOne待审且无付款。不同作者版本不互相验证，漏洞与赏金仍未核。 **[其他 AI 逆向 · 待验证]**
 - [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑](cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
@@ -540,6 +544,13 @@
 
 ### 硬件与设备互通
 
+- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — RetroChainer转述PopaSpinka用Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466 AMOLED板；两晚、60fps与零撕裂未复测。 **[其他 AI 逆向 · 待验证]**
+- [矿机固件与ASIC优势：Promoted问何时用LLM研究闭源固件](cases/bitcoin-miner-firmware-llm-research-idea.md) — Promoted在Bitmain及同行固件/IP争论中提出用LLM逆向，未实际研究；旧串只是开放固件与芯片效率的背景，不证实IP或性能结论。 **[其他 AI 逆向 · 待验证]**
+- [OpenGlass Go：Kimi研究裸眼3D屏，Gemini收尾Armbian替代固件](cases/openglass-go-kimi-gemini-armbian-firmware.md) — Megabits为Looking Glass Go做开源Armbian固件，称Kimi负责多数逆向和初期代码、Gemini Neon收尾；公开文档支持H618与STM32控制方案，未实机复测。 **[其他 AI 逆向 · 进行中]**
+- [Audi MMI接GPT Live：Cristian研究语音按钮和音频，让原车主机控制家居](cases/cristian-audi-mmi-gpt-live-voice-home-automation.md) — Cristian称研究Audi MMI语音按钮与音频后，主机自运行应用接GPT Live、家居和天气查询，原车麦克风与扬声器工作；未取得实现或实车测试。 **[其他 AI 逆向 · 待验证]**
+- [Crush80键盘：Gemini Neon辅助原厂固件与VIA驱动修补自述](cases/crush80-gemini-neon-stock-firmware-driver-patch.md) — おやつが好き称Crush80的VIA支持是闭源仿真层，借Gemini4 Neon补原厂固件、加功能并完善驱动；未提供补丁或兼容性验证。 **[其他 AI 逆向 · 待验证]**
+- [打印机恢复：Kostya称Claude直接传固件后又能打印](cases/kostya-claude-printer-direct-firmware-recovery-report.md) — Kostya Farber说Claude建议直接在线路上传固件且工作了，同串补充又能打印；型号、传输协议与是否需要逆向未确定。 **[其他 AI 逆向 · 待验证]**
+- [佳能5D3胶片模拟：Kevin Gu提出刷AI逆向固件的想法](cases/canon-5d3-ai-film-simulation-firmware-idea.md) — Kevin Gu提出给佳能5D3刷胶片模拟的AI逆向固件；未取得固件身份、开发记录或成像测试，不称已成功刷写。 **[其他 AI 逆向 · 待验证]**
 - [z8魔改固件：凡称借AI用上slog3，未核色彩与实现](cases/z8-ai-modified-firmware-slog3-report.md) — 凡称z8装魔改固件后用上slog3并感谢AI；没有固件、开发过程或画面验证，不据简称推断具体厂商与兼容性。 **[其他 AI 逆向 · 待验证]**
 - [照片与点云到Parasolid：Luke提出AI逆向接制造工作流的方向](cases/ai-photos-pointcloud-parasolid-manufacturing-idea.md) — Luke提出AI把照片、点云或描述逆向为Parasolid CAD模型，衔接可制造性检查、报价和CAM刀路；只是具体方向，未给实物、模型或加工验证。 **[其他 AI 逆向 · 待验证]**
 - [PS5 14.10固件研究：Myttle转述Claude署名提交，未确认仓库与突破](cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle称公开PS5 14.10研究仓库五周3218次提交、195次Claude署名及31位参与者；未给可核仓库，不证明越狱完成，更不等于GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**
@@ -1226,6 +1237,11 @@
 
 ### 应用与客户端
 
+- [RhinoAI：让Claude／Codex研究已有几何并编辑Grasshopper定义的转述](cases/rhinoai-mcp-existing-geometry-grasshopper-report.md) — Marko称RhinoAI通过MCP让Agent操作几何、插件与Grasshopper图，演示含草图到参数模型和已有几何逆向；未核发布版本或几何准确率。 **[其他 AI 逆向 · 相关项目]**
+- [人在园艺，Claude做反编译：Markov的低细节进行中自述](cases/markov-claude-decompilation-optimization-gardening-report.md) — Markov说当天自己园艺时让Claude Code做反编译和优化；未指明软件、结果或测试，不与其他项目合并。 **[其他 AI 逆向 · 进行中]**
+- [三层视差动态壁纸：Claude提示重建Android倾斜效果，而非APK破解](cases/android-parallax-wallpaper-claude-behavior-recreation-idea.md) — 帖子给Claude写Kotlin WallpaperService的具体提示，三图层按倾斜反向移动、低通平滑与呼吸光效；只是公开API的行为复建方向，未展示运行。 **[其他 AI 逆向 · 待验证]**
+- [CLI-Anything：分析软件源码，为Agent生成命令行操作层](cases/cli-anything-source-analysis-agent-cli-pipeline.md) — 中文帖子介绍HKUDS CLI-Anything从源码分析到Click CLI、测试与SKILL.md的七步流程，供Agent调用真实软件后端；测试数量与兼容范围为转述。 **[其他 AI 逆向 · 相关项目]**
+- [六种Ghidra MCP比较：whyamas按连接、安装与许可选择Agent入口](cases/six-ghidra-mcp-servers-comparison-guide.md) — whyamas称比较六种Ghidra MCP服务，建议GhidraMCP快速接Claude Code、pyghidra-mcp或ReVa做无头分析、REA处理非原生目标；未读完整对照文或安装验证。 **[未确认使用 REA · 相关项目]**
 - [Bridge Anything：用REA映射无API旧软件的数据，再做REST／MCP／CLI桥接](cases/bridge-anything-rea-legacy-data-adapters.md) — Viho.AI介绍Artesiana的bridge-anything技能：授权安装副本上找数据、单次操作差分并对照界面，再建薄适配层；公开README支持流程设计，未验证实际客户桥接。 **[REA · 相关项目]**
 - [DeepSeek Flash绕圈四小时：梦报告逆向仍需人工纠偏](cases/deepseek-flash-four-hour-reversing-loop-report.md) — 梦称DeepSeek Flash逆向时绕圈四小时，随后自己纠偏；没有给目标名或纠偏后成功结果，保留受阻实验。 **[其他 AI 逆向 · 分析测试]**
 - [按需重建托管SaaS：小安转述dannypostma希望自行掌握营销与笔记数据](cases/dannypostma-claude-selfhosted-saas-data-control-report.md) — 小安Anleo转述dannypostma用Claude按需逆向自建工具，动机是数据可供营销与笔记共同使用，不只接受HubSpot式按需查询；无原作者实现记录。 **[其他 AI 逆向 · 待验证]**
@@ -2313,6 +2329,9 @@
 
 ### 算法与功能重建
 
+- [把Lean巨型证明反编译成人能读的论证：AI解释重建idea](cases/lean-proof-human-readable-ai-reconstruction-idea.md) — 帖子设想AI将所谓1700万行Lean证明压缩为人可理解的论证，避免世纪级阅读；没有算法、实现或正确性验证。 **[其他 AI 逆向 · 待验证]**
+- [反推levelsio回复检查器再训练LLM：父帖其实只谈封锁名单的idea](cases/levelsio-ai-reply-checker-llm-reconstruction-idea.md) — Vladimir Kosenko问能否逆向levelsio的AI回复检查器并训练LLM；原串只确认mass block list讨论，没有证明存在可复建分类器。 **[其他 AI 逆向 · 待验证]**
+- [只读十六进制的二进制研究：ministat错误、机器码生成与单个恶意样本](cases/hex-only-binary-analysis-ministat-malware-study.md) — Xiao Tan转述GPT6.1 Sol不调用工具读十六进制，发现ministat统计表问题，并做二进制生成、修改和单恶意样本分析；未取得原论文或重跑实验。 **[其他 AI 逆向 · 分析测试]**
 - [MSVC决策观察器：Noah称Claude写hook，辅助Fallout匹配反编译](cases/noah-claude-msvc-register-scheduling-hook.md) — Noah把观察微软C++编译器寄存器选择与指令调度的工具归功Claude，称Fallout匹配反编译团队在使用；版本与97%／98%准确率为作者自报。 **[其他 AI 逆向 · 待验证]**
 - [用CSV记录假设再实验：進藤こだま转述DeepSeek与Ghidra逆向流程](cases/deepseek-ghidra-csv-hypothesis-debugging-workflow.md) — 進藤こだま介绍DeepSeek Harness通过MCP连Ghidra、Markdown写报告、卡住时用CSV列假设再实验的流程，意在避免盲目重试；未给具体目标或结果。 **[其他 AI 逆向 · 待验证]**
 - [一个函数十几轮未还原：finish2.0对比DSH加REA与Codex](cases/rea-dsh-codex-unnamed-function-recovery-comparison.md) — finish2.0称DSH用REA逆向某函数十几轮仍失败，Codex一轮还原；没有目标、源码或等价测试，不当作模型排名。 **[REA · 分析测试]**

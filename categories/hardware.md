@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](../cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — RetroChainer转述PopaSpinka用Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466 AMOLED板；两晚、60fps与零撕裂未复测。 **[其他 AI 逆向 · 待验证]**
+- [矿机固件与ASIC优势：Promoted问何时用LLM研究闭源固件](../cases/bitcoin-miner-firmware-llm-research-idea.md) — Promoted在Bitmain及同行固件/IP争论中提出用LLM逆向，未实际研究；旧串只是开放固件与芯片效率的背景，不证实IP或性能结论。 **[其他 AI 逆向 · 待验证]**
+- [OpenGlass Go：Kimi研究裸眼3D屏，Gemini收尾Armbian替代固件](../cases/openglass-go-kimi-gemini-armbian-firmware.md) — Megabits为Looking Glass Go做开源Armbian固件，称Kimi负责多数逆向和初期代码、Gemini Neon收尾；公开文档支持H618与STM32控制方案，未实机复测。 **[其他 AI 逆向 · 进行中]**
+- [Audi MMI接GPT Live：Cristian研究语音按钮和音频，让原车主机控制家居](../cases/cristian-audi-mmi-gpt-live-voice-home-automation.md) — Cristian称研究Audi MMI语音按钮与音频后，主机自运行应用接GPT Live、家居和天气查询，原车麦克风与扬声器工作；未取得实现或实车测试。 **[其他 AI 逆向 · 待验证]**
+- [Crush80键盘：Gemini Neon辅助原厂固件与VIA驱动修补自述](../cases/crush80-gemini-neon-stock-firmware-driver-patch.md) — おやつが好き称Crush80的VIA支持是闭源仿真层，借Gemini4 Neon补原厂固件、加功能并完善驱动；未提供补丁或兼容性验证。 **[其他 AI 逆向 · 待验证]**
+- [打印机恢复：Kostya称Claude直接传固件后又能打印](../cases/kostya-claude-printer-direct-firmware-recovery-report.md) — Kostya Farber说Claude建议直接在线路上传固件且工作了，同串补充又能打印；型号、传输协议与是否需要逆向未确定。 **[其他 AI 逆向 · 待验证]**
+- [佳能5D3胶片模拟：Kevin Gu提出刷AI逆向固件的想法](../cases/canon-5d3-ai-film-simulation-firmware-idea.md) — Kevin Gu提出给佳能5D3刷胶片模拟的AI逆向固件；未取得固件身份、开发记录或成像测试，不称已成功刷写。 **[其他 AI 逆向 · 待验证]**
 - [z8魔改固件：凡称借AI用上slog3，未核色彩与实现](../cases/z8-ai-modified-firmware-slog3-report.md) — 凡称z8装魔改固件后用上slog3并感谢AI；没有固件、开发过程或画面验证，不据简称推断具体厂商与兼容性。 **[其他 AI 逆向 · 待验证]**
 - [照片与点云到Parasolid：Luke提出AI逆向接制造工作流的方向](../cases/ai-photos-pointcloud-parasolid-manufacturing-idea.md) — Luke提出AI把照片、点云或描述逆向为Parasolid CAD模型，衔接可制造性检查、报价和CAM刀路；只是具体方向，未给实物、模型或加工验证。 **[其他 AI 逆向 · 待验证]**
 - [PS5 14.10固件研究：Myttle转述Claude署名提交，未确认仓库与突破](../cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle称公开PS5 14.10研究仓库五周3218次提交、195次Claude署名及31位参与者；未给可核仓库，不证明越狱完成，更不等于GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**

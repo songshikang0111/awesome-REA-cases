@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [RhinoAI：让Claude／Codex研究已有几何并编辑Grasshopper定义的转述](../cases/rhinoai-mcp-existing-geometry-grasshopper-report.md) — Marko称RhinoAI通过MCP让Agent操作几何、插件与Grasshopper图，演示含草图到参数模型和已有几何逆向；未核发布版本或几何准确率。 **[其他 AI 逆向 · 相关项目]**
+- [人在园艺，Claude做反编译：Markov的低细节进行中自述](../cases/markov-claude-decompilation-optimization-gardening-report.md) — Markov说当天自己园艺时让Claude Code做反编译和优化；未指明软件、结果或测试，不与其他项目合并。 **[其他 AI 逆向 · 进行中]**
+- [三层视差动态壁纸：Claude提示重建Android倾斜效果，而非APK破解](../cases/android-parallax-wallpaper-claude-behavior-recreation-idea.md) — 帖子给Claude写Kotlin WallpaperService的具体提示，三图层按倾斜反向移动、低通平滑与呼吸光效；只是公开API的行为复建方向，未展示运行。 **[其他 AI 逆向 · 待验证]**
+- [CLI-Anything：分析软件源码，为Agent生成命令行操作层](../cases/cli-anything-source-analysis-agent-cli-pipeline.md) — 中文帖子介绍HKUDS CLI-Anything从源码分析到Click CLI、测试与SKILL.md的七步流程，供Agent调用真实软件后端；测试数量与兼容范围为转述。 **[其他 AI 逆向 · 相关项目]**
+- [六种Ghidra MCP比较：whyamas按连接、安装与许可选择Agent入口](../cases/six-ghidra-mcp-servers-comparison-guide.md) — whyamas称比较六种Ghidra MCP服务，建议GhidraMCP快速接Claude Code、pyghidra-mcp或ReVa做无头分析、REA处理非原生目标；未读完整对照文或安装验证。 **[未确认使用 REA · 相关项目]**
 - [Bridge Anything：用REA映射无API旧软件的数据，再做REST／MCP／CLI桥接](../cases/bridge-anything-rea-legacy-data-adapters.md) — Viho.AI介绍Artesiana的bridge-anything技能：授权安装副本上找数据、单次操作差分并对照界面，再建薄适配层；公开README支持流程设计，未验证实际客户桥接。 **[REA · 相关项目]**
 - [DeepSeek Flash绕圈四小时：梦报告逆向仍需人工纠偏](../cases/deepseek-flash-four-hour-reversing-loop-report.md) — 梦称DeepSeek Flash逆向时绕圈四小时，随后自己纠偏；没有给目标名或纠偏后成功结果，保留受阻实验。 **[其他 AI 逆向 · 分析测试]**
 - [按需重建托管SaaS：小安转述dannypostma希望自行掌握营销与笔记数据](../cases/dannypostma-claude-selfhosted-saas-data-control-report.md) — 小安Anleo转述dannypostma用Claude按需逆向自建工具，动机是数据可供营销与笔记共同使用，不只接受HubSpot式按需查询；无原作者实现记录。 **[其他 AI 逆向 · 待验证]**
