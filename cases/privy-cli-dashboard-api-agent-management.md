@@ -1,10 +1,10 @@
 # Privy CLI：从控制台请求恢复接口，供Agent管理开发账号
 
-分类：应用与客户端 · 未确认使用 REA
+分类：应用与客户端 · 其他 AI 逆向
 记录日期：2026-10-30
 阶段：相关项目
 
-2026年10月30日22:59:42（北京时间），Samarth（@awesamarth_）发布@awesamarth/privy-cli，称把Privy开发者控制台的API提供给Agent，可创建应用、配置登录方式、取分析数据与管理用户。22:59:43后续候选解释逆向实际是分析控制台到后端的网络请求并纳入CLI，灵感来自Cloudflare cf与Stripe CLI；没有说AI执行了协议研究，rea记unknown，按服务Agent的逆向接口相关项目收录。
+2026年10月30日22:59:42（北京时间），Samarth（@awesamarth_）发布@awesamarth/privy-cli，称把Privy开发者控制台的API提供给Agent，可创建应用、配置登录方式、取分析数据与管理用户。22:59:43后续候选解释逆向实际是分析控制台到后端的网络请求并纳入CLI，灵感来自Cloudflare cf与Stripe CLI；作者随后在更正PR中说明：未使用REA，这项控制台网络请求研究由AI编码Agent操控浏览器、分析控制台请求完成，因此rea记other-ai；按服务Agent的逆向接口相关项目收录。
 
 同串补充明确它不是Privy的Agent钱包CLI，而是管理Privy账号；声称因缺少设备码式CLI授权路径做了workaround，但候选未解释细节。公开npm元数据确认0.1.0发布于2026-10-30T13:48:46.526Z并指向awesamarth/privy-cli。补读固定提交7662742e327cf1b39b270845113d487b8c67b277的README，提交14:04:09Z，均在本窗口内但仅为补充证据，不另算候选。
 
@@ -22,5 +22,6 @@ README要求Node.js22.18+和已解锁OS凭据库，说明直连HTTPS、多数管
 - [补充：同作者区分管理账号与Agent钱包CLI，22:59:43](https://x.com/i/status/2116183273793790210)
 - [补充：固定README，登录、确认与验证边界，10月30日提交](https://github.com/awesamarth/privy-cli/blob/7662742e327cf1b39b270845113d487b8c67b277/README.md)
 - [补充：npm发布元数据](https://registry.npmjs.org/@awesamarth/privy-cli)
+- [更正：作者在PR #5中说明未使用REA，研究由AI编码Agent经CDP分析控制台请求完成](https://github.com/songshikang0111/awesome-REA-cases/pull/5)
 
 [English](en/privy-cli-dashboard-api-agent-management.md) | [返回目录](../README.zh-CN.md)
