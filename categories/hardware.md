@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [z8魔改固件：凡称借AI用上slog3，未核色彩与实现](../cases/z8-ai-modified-firmware-slog3-report.md) — 凡称z8装魔改固件后用上slog3并感谢AI；没有固件、开发过程或画面验证，不据简称推断具体厂商与兼容性。 **[其他 AI 逆向 · 待验证]**
+- [照片与点云到Parasolid：Luke提出AI逆向接制造工作流的方向](../cases/ai-photos-pointcloud-parasolid-manufacturing-idea.md) — Luke提出AI把照片、点云或描述逆向为Parasolid CAD模型，衔接可制造性检查、报价和CAM刀路；只是具体方向，未给实物、模型或加工验证。 **[其他 AI 逆向 · 待验证]**
 - [PS5 14.10固件研究：Myttle转述Claude署名提交，未确认仓库与突破](../cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle称公开PS5 14.10研究仓库五周3218次提交、195次Claude署名及31位参与者；未给可核仓库，不证明越狱完成，更不等于GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**
 - [iPod固件与配套软件：Wilf Lin称因使用不爽借AI自行重写](../cases/wilf-lin-ipod-ai-firmware-companion-rewrite.md) — Wilf Lin称AI让自己能为不满意的iPod重写固件和配套软件；没有设备代次、模型、代码、刷写或功能验证，不能视为已替代原厂固件。 **[其他 AI 逆向 · 待验证]**
 - [TP-Link BE550：Pleumkungz称Claude改原厂固件，加入UniFi agent后刷写通过](../cases/pleumkungz-be550-claude-unifi-firmware-report.md) — 为避免另买AP，Pleumkungz因拆壳与UART困难放弃U7 Pro OpenWrt移植，改请Claude修改BE550的TP-Link固件，加入unifi agent与fakectrl；只自报刷写通过，未证明完整UniFi互通。 **[其他 AI 逆向 · 待验证]**

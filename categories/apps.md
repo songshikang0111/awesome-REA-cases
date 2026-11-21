@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Bridge Anything：用REA映射无API旧软件的数据，再做REST／MCP／CLI桥接](../cases/bridge-anything-rea-legacy-data-adapters.md) — Viho.AI介绍Artesiana的bridge-anything技能：授权安装副本上找数据、单次操作差分并对照界面，再建薄适配层；公开README支持流程设计，未验证实际客户桥接。 **[REA · 相关项目]**
+- [DeepSeek Flash绕圈四小时：梦报告逆向仍需人工纠偏](../cases/deepseek-flash-four-hour-reversing-loop-report.md) — 梦称DeepSeek Flash逆向时绕圈四小时，随后自己纠偏；没有给目标名或纠偏后成功结果，保留受阻实验。 **[其他 AI 逆向 · 分析测试]**
+- [按需重建托管SaaS：小安转述dannypostma希望自行掌握营销与笔记数据](../cases/dannypostma-claude-selfhosted-saas-data-control-report.md) — 小安Anleo转述dannypostma用Claude按需逆向自建工具，动机是数据可供营销与笔记共同使用，不只接受HubSpot式按需查询；无原作者实现记录。 **[其他 AI 逆向 · 待验证]**
+- [自有二进制防逆向研究：用户抱怨Anthropic设限，未报告实现](../cases/anthropic-owned-binary-anti-reversing-research-friction.md) — 一位用户向Anthropic抱怨研究保护自己已部署软件免遭逆向的方法受到限制，并谈及转向本地AI；目标、拒绝记录和保护效果未提供。 **[其他 AI 逆向 · 待验证]**
+- [从创始人旧公开仓库研究技术栈：Publius McDeere的Agent家庭实验自述](../cases/agents-archived-founder-repos-stack-reconstruction.md) — Publius McDeere称让Agent从网页归档找创业公司创始人的短暂公开仓库，约一小时逆向整套技术栈；目标匿名、无重建或OSS归属证据。 **[其他 AI 逆向 · 待验证]**
 - [hydrogen与Gemini：CRIMINAL MONSTER提出skill.md音乐改造，效果未核](../cases/gemini-hydrogen-skill-music-integration-idea.md) — CRIMINAL MONSTER称和Gemini用skill.md改造hydrogen，贴六段音乐编排并考虑HTH引擎；未确定目标产品身份或取得代码、接口与音频结果，仅作整合idea。 **[其他 AI 逆向 · 待验证]**
 - [RealRederaLLM：Hakeem介绍模型网关与逆向开发平台，尚无目标分析记录](../cases/realrederallm-ai-gateway-reverse-development-platform.md) — Hakeem Jones将RealRederaLLM称为开源AI API网关及逆向开发平台，列多模型路由、编程Agent、软件分析与本地AI；未取得源码或具体目标的分析输出。 **[其他 AI 逆向 · 相关项目]**
 - [Consessus：用REA研究四款Mac编程助手的本机通信，让已有会话互发消息](../cases/consessus-rea-mac-agent-app-interoperability.md) — ns称用rea研究Claude、Codex、Antigravity与OpenCode的本机接口，做成跨应用会话CLI；固定文档记录单机往返与房间测试，也明确桌面版例外及未测分支。 **[REA · 进行中]**

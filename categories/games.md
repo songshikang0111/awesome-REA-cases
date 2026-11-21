@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Bloodlines匹配反编译：özerk aslan称多数函数由AI Agent编写](../cases/bloodlines-ai-agent-matching-decompilation-report.md) — özerk aslan介绍Vampire: The Masquerade – Bloodlines匹配反编译项目，称多数函数由AI Agent写，须自备游戏；未获匹配比例或构建验证。 **[其他 AI 逆向 · 进行中]**
+- [C++ RTS引擎转Rust：二手审计称AI以clone与锁换取编译通过](../cases/cpp-rts-rust-ai-migration-clone-lock-audit-report.md) — 帖子转述12000行C++即时战略引擎迁移Rust：能渲染与寻路，但热路径深拷贝和共享锁导致开销；未给原审计、仓库或性能数据。 **[其他 AI 逆向 · 待验证]**
 - [ISS Pro 2式足球游戏：Salvatore用隔离实现Agent尝试重建乐趣](../cases/iss-pro2-cleanroom-agent-football-recreation.md) — Salvatore Zappalà称用clean-room逆向做一款像ISS Pro 2一样好玩的游戏，实现Agent不看代码；作者发现做出乐趣更难，未报告等价性或完成移植。 **[其他 AI 逆向 · 进行中]**
 - [Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植](../cases/siya-flappy-bird-apk-codex-chromatic-port.md) — Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6看屏找bug：Noisy称Claude发现电话界面问题获1.7万美元，串内质疑付款说法](../cases/gta6-claude-screen-observation-bounty-claim.md) — Noisy称Fable5.2旁观GTA6游玩47分钟发现电话bug并获17000美元；同串给通用观察提示，Liam质疑邮件写支付系统与5至7工作日，未核付款或漏洞。 **[其他 AI 逆向 · 待验证]**
@@ -487,7 +489,7 @@
 - [Decompwtf：让 AI Agent 重建游戏 C/C++ 并对照机器码](../cases/decompwtf-agent-game-decompilation.md) — 本地 AI 反编译与编译对比的项目转述；停更、归档及使用请求仍未核实作者原文。 **[其他 AI 逆向 · 相关项目]**
 - [Immersive Portals：AI 辅助适配 Minecraft JE 26.2 的报告](../cases/immersive-portals-ai-je262.md) — 作者称兼容新版 Minecraft、Fabric 与着色器，明说演示不是首次尝试。 **[其他 AI 逆向 · 待验证]**
 - [老游戏混淆：Claude 转伪 C 后猜错结构体尺寸的报告](../cases/claude-obfuscated-game-struct-size-failure.md) — 作者称转伪 C 很快，但遇混淆会猜结构体大小，仍须人工用 IDA 复核。 **[其他 AI 逆向 · 分析测试]**
-- [Saturn《Sonic 3D Blast》：字节匹配反编译与原生 PC 移植](../cases/sonic-3d-blast-saturn-opus-port.md) — Mr.Matt再次确认从Saturn二进制起就使用Agent AI，称原生移植经大量人工审核并能跑2008年Atom上网本；未独立测试或确认发行。 **[其他 AI 逆向 · 进行中]**
+- [OpenSpindrift：Saturn《Sonic 3D Blast》字节匹配反编译与原生移植](../cases/sonic-3d-blast-saturn-opus-port.md) — Mr.Matt公告OpenSpindrift首版2026.11.20，支持Windows、Linux与Android，须自备Saturn CHD；David24称AI辅助逆向后全部人工审修，源码与CI在公告时尚待整理。 **[其他 AI 逆向 · 进行中]**
 - [Spectrum《Stonkers》：用 AI 反编译修复崩溃的 idea](../cases/stonkers-spectrum-ai-crash-fix-idea.md) — Martin Scott 提议从老游戏代码找出并修复崩溃问题，未报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Stunts：AI 逆向后重做浏览器赛车的二手线索](../cases/stunts-ai-browser-remake-report.md) — 读者称有人用 AI 重做 Stunts，改善浏览器画面与帧率；无可核验性能数据。 **[其他 AI 逆向 · 待验证]**
 - [Halo 3 Reforged：AI 反编译与128人对战的读者说法](../cases/halo3-reforged-ai-decompile-report.md) — 读者以 Halo 3 Reforged 举例声称 AI 可绕开原开发者改造经典游戏，具体 AI 贡献未证实。 **[其他 AI 逆向 · 待验证]**

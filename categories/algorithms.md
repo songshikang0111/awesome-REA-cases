@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [MSVC决策观察器：Noah称Claude写hook，辅助Fallout匹配反编译](../cases/noah-claude-msvc-register-scheduling-hook.md) — Noah把观察微软C++编译器寄存器选择与指令调度的工具归功Claude，称Fallout匹配反编译团队在使用；版本与97%／98%准确率为作者自报。 **[其他 AI 逆向 · 待验证]**
+- [用CSV记录假设再实验：進藤こだま转述DeepSeek与Ghidra逆向流程](../cases/deepseek-ghidra-csv-hypothesis-debugging-workflow.md) — 進藤こだま介绍DeepSeek Harness通过MCP连Ghidra、Markdown写报告、卡住时用CSV列假设再实验的流程，意在避免盲目重试；未给具体目标或结果。 **[其他 AI 逆向 · 待验证]**
+- [一个函数十几轮未还原：finish2.0对比DSH加REA与Codex](../cases/rea-dsh-codex-unnamed-function-recovery-comparison.md) — finish2.0称DSH用REA逆向某函数十几轮仍失败，Codex一轮还原；没有目标、源码或等价测试，不当作模型排名。 **[REA · 分析测试]**
 - [Gemin加Muse重做短片：鱼鳞对比ChatGPT抽帧方法的个人体验](../cases/gemin-muse-video-reconstruction-frame-method-comparison.md) — 鱼鳞今天AI了吗称以Gemin加Muse复刻一段视频，比此前ChatGPT抽帧法更满意；未提供片名、提示、逐帧对照或可重跑记录。 **[其他 AI 逆向 · 待验证]**
 - [grokBot增长拆解：antinertia用Claude与Treg研究创作者投放](../cases/treg-grokbot-growth-playbook-report.md) — antinertia称一条Claude提示反推grokBot增长，报告X共18.4亿浏览与1000多条Meta广告；未取得完整报告，不是内部增长算法恢复。 **[其他 AI 逆向 · 待验证]**
 - [Mailcheap：Paarangat用Treg反推以既有X受众获客的路径](../cases/treg-mailcheap-growth-teardown.md) — Paarangat的七产品比较中称Mailcheap月经常收入3200美元、零广告、向现有X粉丝发帖；渠道和收入均未独立核验。 **[其他 AI 逆向 · 待验证]**
