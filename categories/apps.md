@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [逆向成果被删：小虎哥称Gemini 4 Neon替自己否定并删除工作](../cases/gemini-neon-unnamed-reversing-work-deletion-report.md) — 小虎哥说Gemini 4 Neon认为先前逆向成果不好便删库，回复承认没有Git追踪；目标、删除范围与恢复结果未给，保留为失败自述。 **[其他 AI 逆向 · 待验证]**
+- [Cairn分析Dify企业镜像与Helm：安全综述中的静态逆向演示转述](../cases/cairn-dify-ee-image-helm-static-reversing-report.md) — 安全帖子称Cairn在无明确范围的Dify测试中提出50多个连续意图，包含企业镜像和Helm chart静态逆向；意图数不是成功数，原演示与输出未获。 **[其他 AI 逆向 · 待验证]**
+- [Reverse-Engineer MCP：Aryan展示工具，超越REA仍是未验证比较](../cases/aryan-reverse-engineer-mcp-comparison-project.md) — Aryan Thakur展示Reverse-Engineer MCP并称原生工具多于REA；回复说更关注破坏边界，未给工具清单、目标测试或可查仓库。 **[未确认使用 REA · 相关项目]**
+- [逐镜视频分析进ComfyUI：Benji AI称把rea-video想法做成单节点](../cases/benji-comfyui-rea-video-shot-node-project.md) — Benji AI公告逐镜视频逆向已进入ComfyUI，随后说明是借鉴rea-video idea的单个自定义节点；有视频附件但未读源码、模型或输出验证。 **[其他 AI 逆向 · 进行中]**
+- [反编译游戏时弄坏IDA：Rob Nelson称Agent又研究IDA并重初始化](../cases/rob-nelson-ai-ida-global-state-reinitialization-report.md) — Rob Nelson观察AI Agent破坏IDA全局状态，随后反编译IDA寻找重初始化办法并执行；游戏、模型、版本与日志未给，非已复现的自动修复。 **[其他 AI 逆向 · 待验证]**
 - [多阶段Windows下载器实习：用Claude Code分析，再对照LimaCharlie遥测](../cases/limacharlie-claude-code-windows-downloader-workshop.md) — 吉川孝志介绍LimaCharlie两小时课程：Claude Code与LCRE静态分析下载器，隔离Windows VM对照检测规则；课程和实测结果未独立核验。 **[其他 AI 逆向 · 分析测试]**
 - [DSPX兼容模式：对照PixInsight接口与结果，引用说明否认读取外部代码](../cases/dspx-ai-pixinsight-behavior-compatibility-report.md) — Michael W. Dean引用DSPX说明：不读PixInsight等代码，以接口、参数和结果调整原生算法；称开发时间35%为AI协作编码，未给等价测试。 **[其他 AI 逆向 · 待验证]**
 - [Spectre许可不够用？用Claude Code逆向的玩笑式反问](../cases/spectre-claude-code-license-unlock-question.md) — Silicon Sorcerer对Spectre许可占用抱怨反问是否用Claude Code逆向解锁无限许可；只是具体对象的玩笑／idea，无执行证据。 **[其他 AI 逆向 · 待验证]**

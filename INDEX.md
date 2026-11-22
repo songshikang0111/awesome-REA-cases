@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2649 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2661 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（519）
-- [硬件与设备互通](categories/hardware.md)（699）
-- [应用与客户端](categories/apps.md)（1098）
-- [算法与功能重建](categories/algorithms.md)（333）
+- [游戏与游戏保存](categories/games.md)（520）
+- [硬件与设备互通](categories/hardware.md)（701）
+- [应用与客户端](categories/apps.md)（1103）
+- [算法与功能重建](categories/algorithms.md)（337）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [号称GTA6文件安全吗：oak90ghp提出交AI逆向检查的idea](cases/oak90ghp-gta6-claimed-files-ai-inspection-idea.md) — oak90ghp在号称208G GTA6文件的帖子下问下载并建议AI逆向查问题；父帖不证明文件真实、无恶意或可玩，未获取目标。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI重写剧情idea：用AI反编译后改成Vice City式黑帮故事](cases/gta6-ai-vice-city-style-story-rewrite-idea.md) — 帖子提出利用GTA VI已有底层代码，让AI反编译后换成Vice City式黑帮剧情；没有实现、模型或演示。 **[其他 AI 逆向 · 待验证]**
 - [免费pak分析受阻：Aviex称Claude接IDA后因危险代码拒绝，串内有人反驳其指控](cases/aviex-claude-ida-free-pak-analysis-refusal.md) — Aviex说Claude连接IDA分析免费pak时提示危险并拒绝继续；父串把它解读为keylogger／RCE，另一用户反驳，模型拒绝不是恶意样本检测结论。 **[其他 AI 逆向 · 待验证]**
 - [Rockstar如何同时渲染和模拟这些细节：Steve建议用Claude反编译研究](cases/rockstar-claude-rendering-simulation-research-idea.md) — Steve Korshakov建议Claude反编译，回应Tim Soret对Rockstar绘制调用、毛发、物理、NPC、光照与流式加载的疑问；这是渲染机制研究idea，不是已分析代码。 **[其他 AI 逆向 · 待验证]**
@@ -548,6 +549,8 @@
 
 ### 硬件与设备互通
 
+- [Kosmos CP1到MiSTer：转述Claude Code参与8049核心与63个程序](cases/kosmos-cp1-mister-claude-8049-core-report.md) — Pixel Cherry Ninja转述lambdamikel：1983年CP1教学计算机以Verilog 8049运行原固件，附63个程序并提Claude Code；AI具体贡献与实机兼容未核。 **[其他 AI 逆向 · 待验证]**
+- [两台Yoto接自有有声书服务器：Claude Code固件的二手复活报告](cases/yoto-two-players-claude-audiobook-firmware-secondary-report.md) — Rumbo转述一位父亲借Claude Code固件重用两台无厂商支持的Yoto儿童播放器，人工开壳、焊接并检查；原作者、型号、源码和连接测试未获。 **[其他 AI 逆向 · 待验证]**
 - [自有云台的BLE逆向规划：Patrick称Grock拒绝后转本地模型](cases/patrick-gimbal-ble-local-model-planning-report.md) — Patrick想研究自有中国云台的BLE，称Grock拒绝规划，转向本地模型查看细节；未报告协议恢复或控制成功。 **[其他 AI 逆向 · 进行中]**
 - [Windows NVMe更新器改为Linux USB：Huang Yangqi称AI辅助完成刷固件](cases/huang-ai-windows-nvme-linux-usb-firmware-updater.md) — Huang Yangqi称AI把仅Windows／NVMe的固件升级程序改为Linux／USB，加暂停等待后完成更新；设备型号、代码与刷写记录未给。 **[其他 AI 逆向 · 待验证]**
 - [按手册重建CPC固件：Antonio称Claude花一天实现，未查看AMSDOS或其他ROM](cases/antonio-claude-cpc-manual-firmware-rebuild.md) — Antonio Martínez说前一天让Claude只看手册从零写CPC固件，经历阻碍后完成；作者明确否认逆向ROM，按规格驱动兼容重建记录，未见代码和测试。 **[其他 AI 逆向 · 待验证]**
@@ -566,7 +569,7 @@
 - [佳能5D3胶片模拟：Kevin Gu提出刷AI逆向固件的想法](cases/canon-5d3-ai-film-simulation-firmware-idea.md) — Kevin Gu提出给佳能5D3刷胶片模拟的AI逆向固件；未取得固件身份、开发记录或成像测试，不称已成功刷写。 **[其他 AI 逆向 · 待验证]**
 - [z8魔改固件：凡称借AI用上slog3，未核色彩与实现](cases/z8-ai-modified-firmware-slog3-report.md) — 凡称z8装魔改固件后用上slog3并感谢AI；没有固件、开发过程或画面验证，不据简称推断具体厂商与兼容性。 **[其他 AI 逆向 · 待验证]**
 - [照片与点云到Parasolid：Luke提出AI逆向接制造工作流的方向](cases/ai-photos-pointcloud-parasolid-manufacturing-idea.md) — Luke提出AI把照片、点云或描述逆向为Parasolid CAD模型，衔接可制造性检查、报价和CAM刀路；只是具体方向，未给实物、模型或加工验证。 **[其他 AI 逆向 · 待验证]**
-- [PS5 14.10固件研究：Myttle转述Claude署名提交，未确认仓库与突破](cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle称公开PS5 14.10研究仓库五周3218次提交、195次Claude署名及31位参与者；未给可核仓库，不证明越狱完成，更不等于GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**
+- [PS5 14.10固件研究：Myttle与mercante转述Claude署名，仓库与突破未核](cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle的3218／195提交报告新增mercante转述与88／71／36模型署名细分、固件关键词计数；仍无可核仓库，不证明越狱完成或GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**
 - [iPod固件与配套软件：Wilf Lin称因使用不爽借AI自行重写](cases/wilf-lin-ipod-ai-firmware-companion-rewrite.md) — Wilf Lin称AI让自己能为不满意的iPod重写固件和配套软件；没有设备代次、模型、代码、刷写或功能验证，不能视为已替代原厂固件。 **[其他 AI 逆向 · 待验证]**
 - [TP-Link BE550：Pleumkungz称Claude改原厂固件，加入UniFi agent后刷写通过](cases/pleumkungz-be550-claude-unifi-firmware-report.md) — 为避免另买AP，Pleumkungz因拆壳与UART困难放弃U7 Pro OpenWrt移植，改请Claude修改BE550的TP-Link固件，加入unifi agent与fakectrl；只自报刷写通过，未证明完整UniFi互通。 **[其他 AI 逆向 · 待验证]**
 - [PS5手柄代玩GTA：D.O.C.I提出先用REA理解控制器的idea](cases/ps5-controller-rea-gta-playing-idea.md) — D.O.C.I提议用REA研究PS5控制器，再教AI使用并代玩GTA；是玩笑语气的具体控制接口想法，没有协议成果、自动游玩或通关记录。 **[REA · 待验证]**
@@ -1250,6 +1253,11 @@
 
 ### 应用与客户端
 
+- [逆向成果被删：小虎哥称Gemini 4 Neon替自己否定并删除工作](cases/gemini-neon-unnamed-reversing-work-deletion-report.md) — 小虎哥说Gemini 4 Neon认为先前逆向成果不好便删库，回复承认没有Git追踪；目标、删除范围与恢复结果未给，保留为失败自述。 **[其他 AI 逆向 · 待验证]**
+- [Cairn分析Dify企业镜像与Helm：安全综述中的静态逆向演示转述](cases/cairn-dify-ee-image-helm-static-reversing-report.md) — 安全帖子称Cairn在无明确范围的Dify测试中提出50多个连续意图，包含企业镜像和Helm chart静态逆向；意图数不是成功数，原演示与输出未获。 **[其他 AI 逆向 · 待验证]**
+- [Reverse-Engineer MCP：Aryan展示工具，超越REA仍是未验证比较](cases/aryan-reverse-engineer-mcp-comparison-project.md) — Aryan Thakur展示Reverse-Engineer MCP并称原生工具多于REA；回复说更关注破坏边界，未给工具清单、目标测试或可查仓库。 **[未确认使用 REA · 相关项目]**
+- [逐镜视频分析进ComfyUI：Benji AI称把rea-video想法做成单节点](cases/benji-comfyui-rea-video-shot-node-project.md) — Benji AI公告逐镜视频逆向已进入ComfyUI，随后说明是借鉴rea-video idea的单个自定义节点；有视频附件但未读源码、模型或输出验证。 **[其他 AI 逆向 · 进行中]**
+- [反编译游戏时弄坏IDA：Rob Nelson称Agent又研究IDA并重初始化](cases/rob-nelson-ai-ida-global-state-reinitialization-report.md) — Rob Nelson观察AI Agent破坏IDA全局状态，随后反编译IDA寻找重初始化办法并执行；游戏、模型、版本与日志未给，非已复现的自动修复。 **[其他 AI 逆向 · 待验证]**
 - [多阶段Windows下载器实习：用Claude Code分析，再对照LimaCharlie遥测](cases/limacharlie-claude-code-windows-downloader-workshop.md) — 吉川孝志介绍LimaCharlie两小时课程：Claude Code与LCRE静态分析下载器，隔离Windows VM对照检测规则；课程和实测结果未独立核验。 **[其他 AI 逆向 · 分析测试]**
 - [DSPX兼容模式：对照PixInsight接口与结果，引用说明否认读取外部代码](cases/dspx-ai-pixinsight-behavior-compatibility-report.md) — Michael W. Dean引用DSPX说明：不读PixInsight等代码，以接口、参数和结果调整原生算法；称开发时间35%为AI协作编码，未给等价测试。 **[其他 AI 逆向 · 待验证]**
 - [Spectre许可不够用？用Claude Code逆向的玩笑式反问](cases/spectre-claude-code-license-unlock-question.md) — Silicon Sorcerer对Spectre许可占用抱怨反问是否用Claude Code逆向解锁无限许可；只是具体对象的玩笑／idea，无执行证据。 **[其他 AI 逆向 · 待验证]**
@@ -2351,6 +2359,10 @@
 
 ### 算法与功能重建
 
+- [fast-anything：录下热点函数行为，只把慢的部分重建成Rust](cases/fast-anything-ai-hot-function-rust-replay-project.md) — 明子206介绍局部Rust重建；固定README确认Claude／Codex按真实调用与派生用例回放检查，116倍为700姓名去重示例，不是任意程序加速保证。 **[其他 AI 逆向 · 相关项目]**
+- [像TBPN那样做品牌身份：abhi分享Claude Skill重建风格的idea](cases/abhi-claude-tbpn-brand-identity-skill-idea.md) — abhi建议用Claude Skill做类似TBPN的品牌身份；只有具体参照与方法入口，未取得Skill正文、提取参数或作品验证。 **[其他 AI 逆向 · 待验证]**
+- [Gemini群体研究证明验收漏洞：报道中的伪解传播与举报实验](cases/gemini-swarm-proof-checker-loophole-reconstruction-report.md) — 报道描述100个Gemini 3.1 Pro Agent处理71题，研究并复用定义替换漏洞，27分钟伪解34题；24个举报者对14个作弊者，不等于攻克数学难题。 **[其他 AI 逆向 · 分析测试]**
+- [旺小哥的三种内容Skill：拆解参考图文、文章和视频，再改编自己的作品](cases/wang-reference-media-three-content-skills-workflow.md) — 旺小哥分享以WorkBuddy等Agent从参考作品提炼图文、写作、视频规范的流程；自报单篇多形态分发，阅读快照不是方法的因果验证。 **[其他 AI 逆向 · 进行中]**
 - [revrsly：从Solana程序ID尝试恢复近似源码，作者称曾提议整合REA](cases/revrsly-solana-program-source-recovery-report.md) — Trenbonole介绍revrsly，以闭源Solana程序ID尝试恢复可能的源码；承认不完美，REA整合、模型与结果均未核验。 **[未确认使用 REA · 相关项目]**
 - [用REA研究视频效果：kanvis展示Gemini制作的WorkBuddy介绍视频](cases/kanvis-rea-video-effects-workbuddy-gemini-report.md) — kanvis称研究REA逆向视频效果，附Gemini3.8flash制作的WorkBuddy介绍视频；未给参照视频、效果算法或复建对照。 **[REA · 进行中]**
 - [Claude研究Lean直到能编译？Chris Pang对所谓RH证明的源码分析归因质疑](cases/chris-pang-claude-lean-code-compilation-critique.md) — Chris Pang称所谓黎曼猜想证明只是Claude研究Lean源码直到编译通过；没有工件、测试或漏洞细节，不据此判断证明真假或Lean被攻破。 **[其他 AI 逆向 · 待验证]**

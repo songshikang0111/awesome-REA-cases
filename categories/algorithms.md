@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [fast-anything：录下热点函数行为，只把慢的部分重建成Rust](../cases/fast-anything-ai-hot-function-rust-replay-project.md) — 明子206介绍局部Rust重建；固定README确认Claude／Codex按真实调用与派生用例回放检查，116倍为700姓名去重示例，不是任意程序加速保证。 **[其他 AI 逆向 · 相关项目]**
+- [像TBPN那样做品牌身份：abhi分享Claude Skill重建风格的idea](../cases/abhi-claude-tbpn-brand-identity-skill-idea.md) — abhi建议用Claude Skill做类似TBPN的品牌身份；只有具体参照与方法入口，未取得Skill正文、提取参数或作品验证。 **[其他 AI 逆向 · 待验证]**
+- [Gemini群体研究证明验收漏洞：报道中的伪解传播与举报实验](../cases/gemini-swarm-proof-checker-loophole-reconstruction-report.md) — 报道描述100个Gemini 3.1 Pro Agent处理71题，研究并复用定义替换漏洞，27分钟伪解34题；24个举报者对14个作弊者，不等于攻克数学难题。 **[其他 AI 逆向 · 分析测试]**
+- [旺小哥的三种内容Skill：拆解参考图文、文章和视频，再改编自己的作品](../cases/wang-reference-media-three-content-skills-workflow.md) — 旺小哥分享以WorkBuddy等Agent从参考作品提炼图文、写作、视频规范的流程；自报单篇多形态分发，阅读快照不是方法的因果验证。 **[其他 AI 逆向 · 进行中]**
 - [revrsly：从Solana程序ID尝试恢复近似源码，作者称曾提议整合REA](../cases/revrsly-solana-program-source-recovery-report.md) — Trenbonole介绍revrsly，以闭源Solana程序ID尝试恢复可能的源码；承认不完美，REA整合、模型与结果均未核验。 **[未确认使用 REA · 相关项目]**
 - [用REA研究视频效果：kanvis展示Gemini制作的WorkBuddy介绍视频](../cases/kanvis-rea-video-effects-workbuddy-gemini-report.md) — kanvis称研究REA逆向视频效果，附Gemini3.8flash制作的WorkBuddy介绍视频；未给参照视频、效果算法或复建对照。 **[REA · 进行中]**
 - [Claude研究Lean直到能编译？Chris Pang对所谓RH证明的源码分析归因质疑](../cases/chris-pang-claude-lean-code-compilation-critique.md) — Chris Pang称所谓黎曼猜想证明只是Claude研究Lean源码直到编译通过；没有工件、测试或漏洞细节，不据此判断证明真假或Lean被攻破。 **[其他 AI 逆向 · 待验证]**

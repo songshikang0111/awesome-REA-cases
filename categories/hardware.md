@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Kosmos CP1到MiSTer：转述Claude Code参与8049核心与63个程序](../cases/kosmos-cp1-mister-claude-8049-core-report.md) — Pixel Cherry Ninja转述lambdamikel：1983年CP1教学计算机以Verilog 8049运行原固件，附63个程序并提Claude Code；AI具体贡献与实机兼容未核。 **[其他 AI 逆向 · 待验证]**
+- [两台Yoto接自有有声书服务器：Claude Code固件的二手复活报告](../cases/yoto-two-players-claude-audiobook-firmware-secondary-report.md) — Rumbo转述一位父亲借Claude Code固件重用两台无厂商支持的Yoto儿童播放器，人工开壳、焊接并检查；原作者、型号、源码和连接测试未获。 **[其他 AI 逆向 · 待验证]**
 - [自有云台的BLE逆向规划：Patrick称Grock拒绝后转本地模型](../cases/patrick-gimbal-ble-local-model-planning-report.md) — Patrick想研究自有中国云台的BLE，称Grock拒绝规划，转向本地模型查看细节；未报告协议恢复或控制成功。 **[其他 AI 逆向 · 进行中]**
 - [Windows NVMe更新器改为Linux USB：Huang Yangqi称AI辅助完成刷固件](../cases/huang-ai-windows-nvme-linux-usb-firmware-updater.md) — Huang Yangqi称AI把仅Windows／NVMe的固件升级程序改为Linux／USB，加暂停等待后完成更新；设备型号、代码与刷写记录未给。 **[其他 AI 逆向 · 待验证]**
 - [按手册重建CPC固件：Antonio称Claude花一天实现，未查看AMSDOS或其他ROM](../cases/antonio-claude-cpc-manual-firmware-rebuild.md) — Antonio Martínez说前一天让Claude只看手册从零写CPC固件，经历阻碍后完成；作者明确否认逆向ROM，按规格驱动兼容重建记录，未见代码和测试。 **[其他 AI 逆向 · 待验证]**
@@ -20,7 +22,7 @@
 - [佳能5D3胶片模拟：Kevin Gu提出刷AI逆向固件的想法](../cases/canon-5d3-ai-film-simulation-firmware-idea.md) — Kevin Gu提出给佳能5D3刷胶片模拟的AI逆向固件；未取得固件身份、开发记录或成像测试，不称已成功刷写。 **[其他 AI 逆向 · 待验证]**
 - [z8魔改固件：凡称借AI用上slog3，未核色彩与实现](../cases/z8-ai-modified-firmware-slog3-report.md) — 凡称z8装魔改固件后用上slog3并感谢AI；没有固件、开发过程或画面验证，不据简称推断具体厂商与兼容性。 **[其他 AI 逆向 · 待验证]**
 - [照片与点云到Parasolid：Luke提出AI逆向接制造工作流的方向](../cases/ai-photos-pointcloud-parasolid-manufacturing-idea.md) — Luke提出AI把照片、点云或描述逆向为Parasolid CAD模型，衔接可制造性检查、报价和CAM刀路；只是具体方向，未给实物、模型或加工验证。 **[其他 AI 逆向 · 待验证]**
-- [PS5 14.10固件研究：Myttle转述Claude署名提交，未确认仓库与突破](../cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle称公开PS5 14.10研究仓库五周3218次提交、195次Claude署名及31位参与者；未给可核仓库，不证明越狱完成，更不等于GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**
+- [PS5 14.10固件研究：Myttle与mercante转述Claude署名，仓库与突破未核](../cases/ps5-1410-claude-firmware-research-secondary-report.md) — Myttle的3218／195提交报告新增mercante转述与88／71／36模型署名细分、固件关键词计数；仍无可核仓库，不证明越狱完成或GTA VI PC移植。 **[其他 AI 逆向 · 待验证]**
 - [iPod固件与配套软件：Wilf Lin称因使用不爽借AI自行重写](../cases/wilf-lin-ipod-ai-firmware-companion-rewrite.md) — Wilf Lin称AI让自己能为不满意的iPod重写固件和配套软件；没有设备代次、模型、代码、刷写或功能验证，不能视为已替代原厂固件。 **[其他 AI 逆向 · 待验证]**
 - [TP-Link BE550：Pleumkungz称Claude改原厂固件，加入UniFi agent后刷写通过](../cases/pleumkungz-be550-claude-unifi-firmware-report.md) — 为避免另买AP，Pleumkungz因拆壳与UART困难放弃U7 Pro OpenWrt移植，改请Claude修改BE550的TP-Link固件，加入unifi agent与fakectrl；只自报刷写通过，未证明完整UniFi互通。 **[其他 AI 逆向 · 待验证]**
 - [PS5手柄代玩GTA：D.O.C.I提出先用REA理解控制器的idea](../cases/ps5-controller-rea-gta-playing-idea.md) — D.O.C.I提议用REA研究PS5控制器，再教AI使用并代玩GTA；是玩笑语气的具体控制接口想法，没有协议成果、自动游玩或通关记录。 **[REA · 待验证]**
