@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [revrsly：从Solana程序ID尝试恢复近似源码，作者称曾提议整合REA](../cases/revrsly-solana-program-source-recovery-report.md) — Trenbonole介绍revrsly，以闭源Solana程序ID尝试恢复可能的源码；承认不完美，REA整合、模型与结果均未核验。 **[未确认使用 REA · 相关项目]**
+- [用REA研究视频效果：kanvis展示Gemini制作的WorkBuddy介绍视频](../cases/kanvis-rea-video-effects-workbuddy-gemini-report.md) — kanvis称研究REA逆向视频效果，附Gemini3.8flash制作的WorkBuddy介绍视频；未给参照视频、效果算法或复建对照。 **[REA · 进行中]**
 - [Claude研究Lean直到能编译？Chris Pang对所谓RH证明的源码分析归因质疑](../cases/chris-pang-claude-lean-code-compilation-critique.md) — Chris Pang称所谓黎曼猜想证明只是Claude研究Lean源码直到编译通过；没有工件、测试或漏洞细节，不据此判断证明真假或Lean被攻破。 **[其他 AI 逆向 · 待验证]**
 - [把Lean巨型证明反编译成人能读的论证：AI解释重建idea](../cases/lean-proof-human-readable-ai-reconstruction-idea.md) — 读者设想AI把巨型Lean证明变成人可理解的论证；新增回复建议分块用AI研究，但没有实现、依赖合并或语义保持验证，证明成功宣传也未核实。 **[其他 AI 逆向 · 待验证]**
 - [反推levelsio回复检查器再训练LLM：父帖其实只谈封锁名单的idea](../cases/levelsio-ai-reply-checker-llm-reconstruction-idea.md) — Vladimir Kosenko问能否逆向levelsio的AI回复检查器并训练LLM；原串只确认mass block list讨论，没有证明存在可复建分类器。 **[其他 AI 逆向 · 待验证]**

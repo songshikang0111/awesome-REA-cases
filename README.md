@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2641 cases & projects
+# 2649 cases & projects
 
-**Latest case update:** November 22, 2026, 12:08 · **Last maintained:** November 22, 2026, 12:08 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 22, 2026, 16:11 · **Last maintained:** November 22, 2026, 16:11 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -29,7 +29,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 3. **[Darmoshark TOP75: keyboard control on Mac](cases/en/darmoshark-top75-macos-ai-protocol-report.md)** · `2026-11-18` author reply and pinned docs — **AI-assisted Windows-utility research plus IOKit checks** support RGB, remapping, macros and lights-off scheduling over Bluetooth. Project docs record readback, rollback and failed writes; display uploads use USB and on-device GIF playback remains unvalidated. Not tested here. `Unverified here`
 4. **[Horizon: Minecraft Java behavior, rebuilt in Rust](cases/en/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16` report and pinned docs — **AI-assisted reconstruction with 281 reported differential harnesses**, existing saves and vanilla multiplayer. Public docs and a Codex-credited commit were read, not the full test results; performance claims are hardware-specific. Own game required; not built here. `In progress`
 5. **[Underworld Exhumed: preserve two DOS worlds](cases/en/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20` introduction; `2026-11-17` pinned docs — Exhume's Claude Code skills support **reported byte-identical UW.EXE/UW2.EXE rebuilds**, plus native/web ports checked against 17/13 DOS recordings. Project reports, not checks rerun here; native ports need your own game data. `Unverified here`
-6. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-20` report and pinned docs — Agents write Rust against recorded behavior. The project reports **17,224 byte-identical runs, only 15,837 fully in Rust**; others fall back to Prettier. Roughly 19× CLI speedup includes process startup, versus 4.2× warmed in-process on the stated M4 test. Not rerun here. `Unverified here`
+6. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22` report and pinned docs — Agents write Rust against recorded behavior. Updated project docs report **17,224 byte-identical runs, 15,861 fully in Rust**; the rest fall back. The earlier M4 benchmark's roughly 19× CLI gain includes process startup, versus 4.2× warmed in-process. Recording runs real side effects; use isolated copies. Not rerun here. `Unverified here`
 7. **[CPS-2 Recomp: arcade games, with timing checked](cases/en/cps2recomp-claude-native-arcade-recompilation.md)** · `2026-11-20` report and pinned docs — **Claude-credited work on native C++ ports** adds board waits and DMA timing alongside training and rollback play. SFA2 reportedly matches reference work RAM on **5,634/5,671 frames**, with an eleven-frame offset; another game diverges. The reference is a model, not hardware, and the harness is not public. Own ROMs required; not run here. `In progress`
 8. **[LiberNT: study Windows behavior, not copy its code](cases/en/libernt-ai-windows11-blackbox-compatibility.md)** · `2026-11-21` report; `2026-11-19` pinned docs — This ReactOS fork describes **AI-assisted documentation/behavior comparisons and Windows 11 black-box tests** for application compatibility. Docs require human review; that is not proof every test passed. Debug pre-releases, not a daily-use replacement; performance promotion unchecked here. `In progress`
 9. **[Consessus: let existing agent chats talk](cases/en/consessus-rea-mac-agent-app-interoperability.md)** · `2026-11-21` author thread and pinned docs — **REA-assisted research into four Mac apps' local channels** yields a session-messaging CLI. Project docs report round trips and four-task/four-answer rooms on one Mac; OpenCode desktop needs an in-session listener, and some paths remain fake-only tests. Undocumented interfaces can break; not run here. `In progress`
@@ -50,10 +50,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **518** |
-| [Hardware & interoperability](categories/en/hardware.md) | **697** |
-| [Applications & clients](categories/en/apps.md) | **1095** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **331** |
+| [Games & preservation](categories/en/games.md) | **519** |
+| [Hardware & interoperability](categories/en/hardware.md) | **699** |
+| [Applications & clients](categories/en/apps.md) | **1098** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **333** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

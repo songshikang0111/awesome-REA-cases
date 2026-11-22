@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [多阶段Windows下载器实习：用Claude Code分析，再对照LimaCharlie遥测](../cases/limacharlie-claude-code-windows-downloader-workshop.md) — 吉川孝志介绍LimaCharlie两小时课程：Claude Code与LCRE静态分析下载器，隔离Windows VM对照检测规则；课程和实测结果未独立核验。 **[其他 AI 逆向 · 分析测试]**
+- [DSPX兼容模式：对照PixInsight接口与结果，引用说明否认读取外部代码](../cases/dspx-ai-pixinsight-behavior-compatibility-report.md) — Michael W. Dean引用DSPX说明：不读PixInsight等代码，以接口、参数和结果调整原生算法；称开发时间35%为AI协作编码，未给等价测试。 **[其他 AI 逆向 · 待验证]**
+- [Spectre许可不够用？用Claude Code逆向的玩笑式反问](../cases/spectre-claude-code-license-unlock-question.md) — Silicon Sorcerer对Spectre许可占用抱怨反问是否用Claude Code逆向解锁无限许可；只是具体对象的玩笑／idea，无执行证据。 **[其他 AI 逆向 · 待验证]**
 - [MG遥测应用改版后：prthamesh称Gemini Neon用API研究替代截图提取](../cases/mg-telemetry-gemini-neon-api-rebuild.md) — prthamesh称MG改版后让Gemini Neon重建遥测应用，从截图提取再计算改为研究API并加功能；未提供端点、代码或对照测试。 **[其他 AI 逆向 · 待验证]**
 - [删除组件就闪退：Zod称用Claude反编译未命名应用后尝试去监控](../cases/zod-claude-unnamed-app-component-removal-crash.md) — Zod称Claude反编译软件后看到其称为监控的组件，删任一条都会报错闪退；没有应用名、组件清单或网络证据，保留失败结果而不认证监控指控。 **[其他 AI 逆向 · 待验证]**
 - [用Claude重建游戏化弹窗？Chris Zimmerman向低成本自建方案提出的逆向问题](../cases/claude-gamified-popup-reconstruction-question.md) — Chris Zimmerman问一款Claude游戏化弹窗方案是否来自逆向；父帖称可替代每月1750美元工具、每月20美元托管，但未确认逆向、成本或转化率。 **[其他 AI 逆向 · 待验证]**
@@ -84,7 +87,7 @@
 - [修/status别名却研究起Claude Code：Lee Penkman的DeepSeek调试尝试](../cases/lee-penkman-deepseek-claude-code-status-alias-research.md) — Lee Penkman让DeepSeek修/status别名，称模型自行研究Claude Code以找cldst故障；后续明确为omp fork及DeepSeek Flash，尚无修复验收。 **[其他 AI 逆向 · 进行中]**
 - [收到打包客户端却有bug：dk021称用Codex直接逆向修补](../cases/dk021-codex-packaged-client-bugfix-report.md) — dk021称其他团队交付的打包客户端有bug，自己让Codex逆向改掉；软件、缺陷、修补方式与授权未知，保留第一人称未核验自述。 **[其他 AI 逆向 · 待验证]**
 - [Replit Mission模式：Vini Lana转述一提示研究软件的入口，尚无目标演示](../cases/replit-mission-reverse-engineering-mode-secondary-report.md) — Vini Lana称Replit新增Mission逆向模式，并介绍微VM导入、SSH与shell背景；未给分析目标、文档或执行结果，任意软件与免配置均未核验。 **[其他 AI 逆向 · 相关项目]**
-- [rust-anything：先记录旧程序答案，再让Claude Code逐块重建Rust热点](../cases/rust-anything-claude-behavior-capture-rust-migration.md) — rust-anything约束Agent逐块重建Rust行为；项目报告Prettier17224次输出一致，但仅15837次全在Rust，其余回退原版，未独立重跑。 **[其他 AI 逆向 · 待验证]**
+- [rust-anything：先记录旧程序答案，再让Claude Code逐块重建Rust热点](../cases/rust-anything-claude-behavior-capture-rust-migration.md) — rust-anything约束Agent重建Rust行为；11月22日固定文档报告Prettier17224次一致、15861次全在Rust，其余回退；v3.1.0已发布，录制会真执行副作用，未重跑。 **[其他 AI 逆向 · 待验证]**
 - [沙箱谜题与评审规则：Michael转述Agent协作逆向，称未多拿分](../cases/openai-sandbox-agents-reviewer-reverse-engineering-retelling.md) — Michael转述OpenAI隔离Agent经共享存储协作、逆向谜题并试探评分器；1200个Agent、超7万消息和外部访问均缺原实验，结果只按二手叙述保留。 **[其他 AI 逆向 · 待验证]**
 - [重访X书签的bot：Kenzo要求Claude／REA研究fitz工具的idea](../cases/kenzo-rea-x-bookmark-bot-reconstruction-idea.md) — Kenzo回复fitz的X书签bot，要求Claude/REA研究；父帖说明要解决收藏后不再看的问题，没有研究开工、功能规格或重建结果。 **[REA · 待验证]**
 - [给每次软件更新发签名分析报告：P Flodin的AI供应链公共登记簿idea](../cases/ai-supply-chain-update-signed-analysis-register-idea.md) — P Flodin建议AI厂商扫描、反编译并分析供应链每次更新，公开带哈希、问题评分和签名的报告，供安装策略要求多个服务检查；尚无实现或评测。 **[其他 AI 逆向 · 待验证]**

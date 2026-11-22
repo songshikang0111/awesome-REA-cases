@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2641 个案例与项目
+# 2649 个案例与项目
 
-**最近案例更新：**2026 年 11 月 22 日 12:08 · **最近维护：**2026 年 11 月 22 日 12:08 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 22 日 16:11 · **最近维护：**2026 年 11 月 22 日 16:11 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -29,7 +29,7 @@
 3. **[Darmoshark TOP75：在Mac控制键盘](cases/darmoshark-top75-macos-ai-protocol-report.md)** · `2026-11-18`作者回复与固定文档 — **AI辅助研究Windows工具，再用IOKit实机检查**，支持蓝牙RGB、改键、宏与定时熄灯。项目文档记录读回、回退和丢写；显示上传走USB，GIF机上播放仍待验证。本合集未测试。`未独立核验`
 4. **[Horizon：用Rust重建Minecraft Java行为](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16`介绍与固定文档 — **AI辅助重建，自报281套差分测试**，可读旧存档、连原版服务器。已读公开文档与Codex署名提交，未审完整测试结果；性能宣称有硬件条件。自备游戏，本合集未构建。`进行中`
 5. **[Underworld Exhumed：保存两部DOS地下世界](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20`介绍；`2026-11-17`固定文档 — Exhume的Claude Code技能辅助，项目报告**UW.EXE／UW2.EXE整文件字节一致**，原生与Web移植以17／13段DOS录制回放检查。均为项目报告，本合集未重跑；原生版自备游戏数据。`未独立核验`
-6. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-20`介绍与固定文档 — Agent按录制行为写Rust，项目报告**17224次字节一致，仅15837次全在Rust**，其余回退Prettier。所列M4测试中CLI约19倍含进程启动优势，预热进程内为4.2倍；本合集未重跑。`未独立核验`
+6. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22`介绍与固定文档 — Agent按录制行为写Rust，新文档报告**17224次字节一致，15861次全在Rust**，其余回退。此前M4基准中CLI约19倍含进程启动优势，预热进程内为4.2倍。录制会真实执行副作用，须用隔离副本；本合集未重跑。`未独立核验`
 7. **[CPS-2 Recomp：原生街机，还要对照时序](cases/cps2recomp-claude-native-arcade-recompilation.md)** · `2026-11-20`介绍与固定文档 — **Claude署名参与C++原生移植**，在训练和回滚联机之外补板级等待与DMA时序。项目报告SFA2工作RAM **5634／5671帧匹配参考**，仍有11帧偏移，另一游戏会分歧；参考是模型而非实机，harness尚未公开。自备ROM，本合集未运行。`进行中`
 8. **[LiberNT：研究Windows行为，不照抄代码](cases/libernt-ai-windows11-blackbox-compatibility.md)** · `2026-11-21`报道；`2026-11-19`固定文档 — 这个ReactOS分支以**AI辅助文档／行为对照和Windows 11黑箱测试**研究应用兼容。文档要求人工审查，不等于证明每次测试都通过；目前为Debug预发布，非日常替代，性能宣传未复查。`进行中`
 9. **[Consessus：让已有Agent聊天互通](cases/consessus-rea-mac-agent-app-interoperability.md)** · `2026-11-21`作者串与固定文档 — **REA研究四款Mac应用的本机通信**，做成会话消息CLI。项目报告单台Mac往返与四任务四回答的房间测试；OpenCode桌面版须在会话内开listener，部分路径只测假对象。未文档化接口可能随升级失效，本合集未运行。`进行中`
@@ -50,10 +50,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **518** |
-| [硬件与设备互通](categories/hardware.md) | **697** |
-| [应用与客户端](categories/apps.md) | **1095** |
-| [算法与功能重建](categories/algorithms.md) | **331** |
+| [游戏与游戏保存](categories/games.md) | **519** |
+| [硬件与设备互通](categories/hardware.md) | **699** |
+| [应用与客户端](categories/apps.md) | **1098** |
+| [算法与功能重建](categories/algorithms.md) | **333** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
