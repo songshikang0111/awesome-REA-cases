@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2635 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2641 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（516）
-- [硬件与设备互通](categories/hardware.md)（696）
-- [应用与客户端](categories/apps.md)（1092）
+- [游戏与游戏保存](categories/games.md)（518）
+- [硬件与设备互通](categories/hardware.md)（697）
+- [应用与客户端](categories/apps.md)（1095）
 - [算法与功能重建](categories/algorithms.md)（331）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [免费pak分析受阻：Aviex称Claude接IDA后因危险代码拒绝，串内有人反驳其指控](cases/aviex-claude-ida-free-pak-analysis-refusal.md) — Aviex说Claude连接IDA分析免费pak时提示危险并拒绝继续；父串把它解读为keylogger／RCE，另一用户反驳，模型拒绝不是恶意样本检测结论。 **[其他 AI 逆向 · 待验证]**
+- [Rockstar如何同时渲染和模拟这些细节：Steve建议用Claude反编译研究](cases/rockstar-claude-rendering-simulation-research-idea.md) — Steve Korshakov建议Claude反编译，回应Tim Soret对Rockstar绘制调用、毛发、物理、NPC、光照与流式加载的疑问；这是渲染机制研究idea，不是已分析代码。 **[其他 AI 逆向 · 待验证]**
 - [把GTA6重做成北京：REA研究后重建朝阳大悦城与西直门桥的idea](cases/gta6-beijing-rea-scene-rebuild-idea.md) — 作者请求用Reverse Engineer Anything研究GTA6、重做场景为北京，让玩家提前体验朝阳大悦城和西直门桥驾驶；没有实现、素材或工时证据。 **[REA · 待验证]**
 - [GTA6遥测审计idea：用AI反编译盘点行为采集面，而非认证画像传言](cases/gta6-ai-telemetry-surface-audit-idea.md) — 读者建议发售后用AI反编译GTA6、列出遥测面与采集粒度；其对心理画像和外部滥用的推测没有技术证据。 **[其他 AI 逆向 · 待验证]**
 - [芝加哥版GTA6：两组各一万Agent十天重建的提问式idea](cases/gta6-chicago-two-model-agent-teams-rebuild-idea.md) — 作者问先逆向GTA6后，各一万Claude Fable5.2和GPT6.2 Astra Agent能否十天分别做出芝加哥版同级游戏；未有实现或可行性证据。 **[其他 AI 逆向 · 待验证]**
@@ -545,6 +547,7 @@
 
 ### 硬件与设备互通
 
+- [按手册重建CPC固件：Antonio称Claude花一天实现，未查看AMSDOS或其他ROM](cases/antonio-claude-cpc-manual-firmware-rebuild.md) — Antonio Martínez说前一天让Claude只看手册从零写CPC固件，经历阻碍后完成；作者明确否认逆向ROM，按规格驱动兼容重建记录，未见代码和测试。 **[其他 AI 逆向 · 待验证]**
 - [音箱到家居控制：fomoebka转述Karpathy的本地模型逆向经历](cases/fomoebka-karpathy-speakers-local-model-report.md) — fomoebka引述Karpathy说模型用几个提示研究音箱，随后控制家居；没有设备型号、协议、代码或原始访谈核对，不认证整屋能力与身份标签。 **[其他 AI 逆向 · 待验证]**
 - [NullMoth实验平台：Ady称用REA、Ghidra与AI修补x86-64 macOS组合](cases/ady-nullmoth-x86-macos-rea-ghidra-poc.md) — AdyLovelace称在Core Ultra 5 245KF和RTX50平台测试OpenCore／NullMoth组合，并以REA、Ghidra和AI做修补；作者不准备发布补丁，没有驱动覆盖或复现记录。 **[REA · 待验证]**
 - [IC-705数字模式固件：otti测试改版，但AI／Ghidra与完整源码仍是猜测](cases/otti-ic705-ai-ghidra-firmware-source-uncertainty.md) — otti在sq6emm的IC-705改固件测试串中猜测AI与Ghidra可能只修补部分而非恢复全源码；根帖只确认其报告数字模式测试，没有验证AI流程。 **[其他 AI 逆向 · 待验证]**
@@ -1244,6 +1247,9 @@
 
 ### 应用与客户端
 
+- [MG遥测应用改版后：prthamesh称Gemini Neon用API研究替代截图提取](cases/mg-telemetry-gemini-neon-api-rebuild.md) — prthamesh称MG改版后让Gemini Neon重建遥测应用，从截图提取再计算改为研究API并加功能；未提供端点、代码或对照测试。 **[其他 AI 逆向 · 待验证]**
+- [删除组件就闪退：Zod称用Claude反编译未命名应用后尝试去监控](cases/zod-claude-unnamed-app-component-removal-crash.md) — Zod称Claude反编译软件后看到其称为监控的组件，删任一条都会报错闪退；没有应用名、组件清单或网络证据，保留失败结果而不认证监控指控。 **[其他 AI 逆向 · 待验证]**
+- [用Claude重建游戏化弹窗？Chris Zimmerman向低成本自建方案提出的逆向问题](cases/claude-gamified-popup-reconstruction-question.md) — Chris Zimmerman问一款Claude游戏化弹窗方案是否来自逆向；父帖称可替代每月1750美元工具、每月20美元托管，但未确认逆向、成本或转化率。 **[其他 AI 逆向 · 待验证]**
 - [用raea重建1917年柏林：Claude读地址簿，地图与照片变成可编码场景](cases/raea-1917-berlin-records-code-reconstruction.md) — Shane说从住房照片出发，用历史地图、楼高、地址簿与下水道图在raea复建柏林，剪成9分半纪录片；Claude负责读地址簿，历史准确性与开源工件未核。 **[其他 AI 逆向 · 相关项目]**
 - [从截图复建卡片导出器：三模型分工与失败回送的工作流idea](cases/ai-card-exporter-observed-behavior-rebuild-workflow-idea.md) — 帖子建议Grok研究、Claude写规格、ChatGPT实现，用卡片导出器示范数量、顺序、尺寸和文字检查；不是已重建具名App或跑通的Agent团队。 **[其他 AI 逆向 · 待验证]**
 - [GTA6作弊码伴侣App：COCOLEMON建议REA／Claude复建，不是破解游戏](cases/gta6-cheat-code-companion-rea-copy-idea.md) — COCOLEMON在GTA6作弊码App收益宣传下说用/rea让Claude复制；父帖明确应用类型，但无应用名、实现或已核收入。 **[REA · 待验证]**
@@ -2340,7 +2346,7 @@
 ### 算法与功能重建
 
 - [Claude研究Lean直到能编译？Chris Pang对所谓RH证明的源码分析归因质疑](cases/chris-pang-claude-lean-code-compilation-critique.md) — Chris Pang称所谓黎曼猜想证明只是Claude研究Lean源码直到编译通过；没有工件、测试或漏洞细节，不据此判断证明真假或Lean被攻破。 **[其他 AI 逆向 · 待验证]**
-- [把Lean巨型证明反编译成人能读的论证：AI解释重建idea](cases/lean-proof-human-readable-ai-reconstruction-idea.md) — 帖子设想AI将所谓1700万行Lean证明压缩为人可理解的论证，避免世纪级阅读；没有算法、实现或正确性验证。 **[其他 AI 逆向 · 待验证]**
+- [把Lean巨型证明反编译成人能读的论证：AI解释重建idea](cases/lean-proof-human-readable-ai-reconstruction-idea.md) — 读者设想AI把巨型Lean证明变成人可理解的论证；新增回复建议分块用AI研究，但没有实现、依赖合并或语义保持验证，证明成功宣传也未核实。 **[其他 AI 逆向 · 待验证]**
 - [反推levelsio回复检查器再训练LLM：父帖其实只谈封锁名单的idea](cases/levelsio-ai-reply-checker-llm-reconstruction-idea.md) — Vladimir Kosenko问能否逆向levelsio的AI回复检查器并训练LLM；原串只确认mass block list讨论，没有证明存在可复建分类器。 **[其他 AI 逆向 · 待验证]**
 - [只读十六进制的二进制研究：ministat错误、机器码生成与单个恶意样本](cases/hex-only-binary-analysis-ministat-malware-study.md) — Xiao Tan转述GPT6.1 Sol不调用工具读十六进制，发现ministat统计表问题，并做二进制生成、修改和单恶意样本分析；未取得原论文或重跑实验。 **[其他 AI 逆向 · 分析测试]**
 - [MSVC决策观察器：Noah称Claude写hook，辅助Fallout匹配反编译](cases/noah-claude-msvc-register-scheduling-hook.md) — Noah把观察微软C++编译器寄存器选择与指令调度的工具归功Claude，称Fallout匹配反编译团队在使用；版本与97%／98%准确率为作者自报。 **[其他 AI 逆向 · 待验证]**

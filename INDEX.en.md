@@ -10,15 +10,15 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2635 entries**, organized by use case, without a Top-N or popularity threshold.
+**2641 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (516)
-- [Hardware and interoperability](categories/en/hardware.md) (696)
-- [Applications and clients](categories/en/apps.md) (1092)
+- [Games and preservation](categories/en/games.md) (518)
+- [Hardware and interoperability](categories/en/hardware.md) (697)
+- [Applications and clients](categories/en/apps.md) (1095)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (331)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
@@ -28,6 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [A free pak analysis stalls: Aviex reports a Claude/IDA refusal, with the accusation disputed in the thread](cases/en/aviex-claude-ida-free-pak-analysis-refusal.md) — Aviex says Claude connected to IDA flagged a free pak as dangerous and refused to continue. The parent alleges a keylogger/RCE and another user disputes it; a model refusal is not a malware finding. **[Other AI-assisted work · Needs verification]**
+- [How Rockstar renders and simulates all those details: Steve proposes studying it through Claude decompilation](cases/en/rockstar-claude-rendering-simulation-research-idea.md) — Steve Korshakov suggests Claude decompilation in response to Tim Soret's questions about Rockstar draw calls, hair, physics, NPCs, lighting and streaming. This is a rendering-research idea, not analyzed code. **[Other AI-assisted work · Needs verification]**
 - [Rebuild GTA 6 as Beijing: an REA idea for Chaoyang Joy City and Xizhimen Bridge driving](cases/en/gta6-beijing-rea-scene-rebuild-idea.md) — A poster asks for Reverse Engineer Anything research on GTA 6 followed by Beijing scene rebuilding, specifically driving around Chaoyang Joy City and Xizhimen Bridge. No implementation, assets or work-time evidence is provided. **[REA · Needs verification]**
 - [A GTA 6 telemetry-audit idea: use AI decompilation to map collection surfaces, not validate profiling rumors](cases/en/gta6-ai-telemetry-surface-audit-idea.md) — A reader proposes AI decompilation after release to identify GTA 6 telemetry surfaces and granularity. Psychological profiling and external misuse remain speculation without technical evidence. **[Other AI-assisted work · Needs verification]**
 - [A Chicago GTA 6 idea: two 10,000-agent teams and a hypothetical ten-day rebuild](cases/en/gta6-chicago-two-model-agent-teams-rebuild-idea.md) — A poster asks whether 10,000 Claude Fable 5.2 and 10,000 GPT-6.2 Astra agents could separately make Chicago-set GTA 6-level games in ten days after studying GTA 6. No implementation or feasibility evidence is supplied. **[Other AI-assisted work · Needs verification]**
@@ -547,6 +549,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Rebuilding CPC firmware from manuals: Antonio says Claude spent a day without consulting AMSDOS or other ROMs](cases/en/antonio-claude-cpc-manual-firmware-rebuild.md) — Antonio Martínez says Claude wrote CPC firmware from manuals the previous day, overcoming roadblocks. He explicitly rules out ROM reverse engineering; this is an unverified specification-driven compatibility rebuild with no code or tests inspected. **[Other AI-assisted work · Needs verification]**
 - [From speakers to home control: fomoebka relays Karpathy's local-model reversing account](cases/en/fomoebka-karpathy-speakers-local-model-report.md) — fomoebka quotes Karpathy saying a model reversed speakers in a few prompts and now controls the home. Device, protocol, code and original interview were not checked; whole-home capability and the employment label are unverified. **[Other AI-assisted work · Needs verification]**
 - [A NullMoth lab setup: Ady reports REA/Ghidra/AI fixes for an x86-64 macOS combination](cases/en/ady-nullmoth-x86-macos-rea-ghidra-poc.md) — AdyLovelace reports testing OpenCore/NullMoth on a Core Ultra 5 245KF and RTX 50 setup with REA/Ghidra/AI fixes. Patches will not be published; driver coverage and reproduction records are absent. **[REA · Needs verification]**
 - [IC-705 digital-mode firmware: otti reports tests, while AI/Ghidra and full source remain guesses](cases/en/otti-ic705-ai-ghidra-firmware-source-uncertainty.md) — In a thread testing sq6emm's modified IC-705 firmware, otti guesses AI/Ghidra may have patched parts rather than recovered all source. The root establishes only reported digital-mode testing, not an AI workflow. **[Other AI-assisted work · Needs verification]**
@@ -1246,6 +1249,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [After MG changes its app: prthamesh reports Gemini Neon API research replacing screenshot extraction](cases/en/mg-telemetry-gemini-neon-api-rebuild.md) — prthamesh says Gemini Neon rebuilt an MG telemetry app after an update, moving from screenshot extraction and metric calculation to API research and added features. No endpoints, code or comparison tests are supplied. **[Other AI-assisted work · Needs verification]**
+- [Removing components crashes the app: Zod reports Claude decompilation and an unsuccessful monitoring-removal attempt](cases/en/zod-claude-unnamed-app-component-removal-crash.md) — Zod says Claude decompilation exposed components they call monitoring, but removing any one produces errors and crashes. No app name, component inventory or traffic evidence is supplied; the failure is retained without validating the allegation. **[Other AI-assisted work · Needs verification]**
+- [Rebuild gamified pop-ups with Claude? Chris Zimmerman's reverse-engineering question about a low-cost alternative](cases/en/claude-gamified-popup-reconstruction-question.md) — Chris Zimmerman asks whether a Claude-based gamified pop-up setup was reverse engineered. Its parent claims $20/month hosting instead of a $1,750/month tool, but reversing, costs and conversion rates are unverified. **[Other AI-assisted work · Needs verification]**
 - [Rebuilding 1917 Berlin in raea: Claude reads an address book for a coded historical scene](cases/en/raea-1917-berlin-records-code-reconstruction.md) — Shane describes reconstructing Berlin from housing photos, maps, building heights, an address book and a sewer atlas, producing a 9½-minute documentary. Claude reads the directory; historical accuracy and open-source artifacts remain unchecked. **[Other AI-assisted work · Related project]**
 - [Rebuild a card exporter from screenshots: a three-model handoff and repair-loop idea](cases/en/ai-card-exporter-observed-behavior-rebuild-workflow-idea.md) — A post proposes Grok research, Claude specifications and ChatGPT implementation, illustrating checks for card-export count, order, size and text. This is not a rebuilt named app or a demonstrated agent team. **[Other AI-assisted work · Needs verification]**
 - [A GTA 6 cheat-code companion app: COCOLEMON proposes REA/Claude copying, not a game crack](cases/en/gta6-cheat-code-companion-rea-copy-idea.md) — COCOLEMON suggests /rea and Claude under promotion of a GTA 6 cheat-code app. The parent identifies the app type, not its name, an implementation or verified revenue. **[REA · Needs verification]**
@@ -2342,7 +2348,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 ### Algorithms and feature recovery
 
 - [Claude studying Lean until compilation? Chris Pang questions the source-analysis basis of an RH proof claim](cases/en/chris-pang-claude-lean-code-compilation-critique.md) — Chris Pang alleges a purported Riemann Hypothesis proof merely involved Claude studying Lean code until it compiled. No artifact, tests or vulnerability detail establishes the proof's validity or a Lean compromise. **[Other AI-assisted work · Needs verification]**
-- [Decompile a huge Lean proof into a readable argument: an AI explanation-reconstruction idea](cases/en/lean-proof-human-readable-ai-reconstruction-idea.md) — A post imagines AI condensing a purported 17-million-line Lean proof into an argument people can follow without centuries of work. No method, implementation or correctness validation is supplied. **[Other AI-assisted work · Needs verification]**
+- [Decompile a huge Lean proof into a readable argument: an AI explanation-reconstruction idea](cases/en/lean-proof-human-readable-ai-reconstruction-idea.md) — Readers imagine AI making a huge Lean proof understandable. A new reply proposes piecemeal AI study, but no implementation, dependency integration or semantic-preservation validation is supplied; proof-success promotion is also unchecked. **[Other AI-assisted work · Needs verification]**
 - [Reverse levelsio's reply checker and train an LLM? An idea whose parent only mentions a block list](cases/en/levelsio-ai-reply-checker-llm-reconstruction-idea.md) — Vladimir Kosenko proposes reversing levelsio's AI-reply checker to train an LLM. The parent establishes only a mass-block-list discussion, not an available classifier to reconstruct. **[Other AI-assisted work · Needs verification]**
 - [Hex-only binary research: a ministat issue, machine-code generation and one malware sample](cases/en/hex-only-binary-analysis-ministat-malware-study.md) — Xiao Tan describes GPT-6.1 Sol reading hex without tools to identify a ministat table issue, generate/modify binaries and analyze one malware sample. The original study and reruns were not obtained. **[Other AI-assisted work · Analysis test]**
 - [An MSVC decision observer: Noah credits Claude with a hook used for Fallout matching decompilation](cases/en/noah-claude-msvc-register-scheduling-hook.md) — Noah credits Claude with a tool observing register selection and instruction scheduling in Microsoft's C++ compiler, reportedly used by the Fallout matching team. Version coverage and 97%/98% accuracy are author claims. **[Other AI-assisted work · Needs verification]**

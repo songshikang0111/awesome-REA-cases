@@ -1,5 +1,107 @@
 [
   {
+    "id": "mg-telemetry-gemini-neon-api-rebuild",
+    "title": "MG遥测应用改版后：prthamesh称Gemini Neon用API研究替代截图提取",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "prthamesh称MG改版后让Gemini Neon重建遥测应用，从截图提取再计算改为研究API并加功能；未提供端点、代码或对照测试。",
+    "description": "2026年11月22日10:32:33（北京时间），prthamesh（@pratos_）说MG最近修改了应用，自己于是让Gemini Neon重建MG遥测应用。原先v1的路径是应用截图、提取信息、再计算指标；作者称Neon逆向了API并加入新东西，因此不再只靠原来的截图提取路线。具体方向是恢复改版后车辆信息的获取和指标计算，但帖子没有列车型、地区、官方应用版本、指标名称或新增功能清单。\n\n作者评价模型容易引导，并称消耗了能用Neon的最低套餐15%额度。这是套餐额度自述，不是15%的固定token量、价格或实测工时；也未说明分母和统计周期。补取原帖确认署名与四张图片附件，但未检查图片内容，没有取得API端点、认证流程、源码、真实车辆读数或旧新路径对照测试。API研究、功能加入和可用性均为作者报告，不能扩写为全车型支持、车辆控制或已经验证的数据准确性。未确认REA，未调用车辆服务、运行代码或使用账号，保留unverified。",
+    "sources": [{"label": "prthamesh的MG遥测应用、Gemini Neon与API研究自述，2026-11-22 10:32:33北京时间", "url": "https://x.com/i/status/2124330162041029041"}],
+    "snapshot_date": "2026-11-22",
+    "metadata": ["本窗口候选封存0赞、20浏览、0转发、0回复；额度15%为作者自述，不据此推算成本。"],
+    "en": {
+      "title": "After MG changes its app: prthamesh reports Gemini Neon API research replacing screenshot extraction",
+      "summary": "prthamesh says Gemini Neon rebuilt an MG telemetry app after an update, moving from screenshot extraction and metric calculation to API research and added features. No endpoints, code or comparison tests are supplied.",
+      "description": "At 10:32:33 Beijing time on November 22, 2026, prthamesh (@pratos_) says MG recently changed its app and they asked Gemini Neon to rebuild an MG telemetry application. Version 1 took app screenshots, extracted information and calculated metrics. The author says Neon reverse engineered the APIs and added new things, moving beyond that screenshot-extraction route. The concrete direction is recovering vehicle-information access and metric calculation after an app change, but no vehicle model, region, official app version, metric names or added-feature inventory is given.\n\nThe author calls the model steerable and reports spending 15% of the quota on the lowest plan offering Neon. This is a plan-quota claim, not a fixed token count, price or measured work time; its denominator and accounting period are unspecified. Retrieval confirms attribution and four image attachments, not their contents. No API endpoints, authentication flow, source, real vehicle readings or old-versus-new comparison tests were obtained. API research, added features and usability remain author reports, not all-model support, vehicle control or established data accuracy. REA is unconfirmed. No vehicle service was called, code run or account used; status remains unverified.",
+      "metadata": ["Sealed candidate in this window: 0 likes, 20 views, 0 reposts, 0 replies. The 15% quota figure is the author's report and is not converted into a cost."],
+      "source_labels": ["prthamesh on the MG telemetry app, Gemini Neon and API research, November 22, 2026 at 10:32:33 Beijing time"]
+    }
+  },
+  {
+    "id": "antonio-claude-cpc-manual-firmware-rebuild",
+    "title": "按手册重建CPC固件：Antonio称Claude花一天实现，未查看AMSDOS或其他ROM",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Antonio Martínez说前一天让Claude只看手册从零写CPC固件，经历阻碍后完成；作者明确否认逆向ROM，按规格驱动兼容重建记录，未见代码和测试。",
+    "description": "2026年11月22日09:14:38（北京时间），Antonio Martínez（@nonomartinezm）在讨论串中说，前一天要求Claude从零写CPC固件，只遵循手册。CPC在这里是AMSDOS／ROM语境下的家用计算机固件目标；作者没有给具体机型、手册版本或固件覆盖范围。目的与操作是按既有机器文档重建固件，而不是生成一个没有参考目标的新嵌入式程序。\n\n作者称花了一整天、遇到几处阻碍，最后完成，且明确说没有做逆向、没有偷看AMSDOS或其他ROM。因此收录为广义AI辅助的规格／兼容行为重建，不改写成AI反编译AMSDOS、字节匹配或净室流程已获审计。一天是作者对前一天工作的回顾，不是本合集计时。补取只确认作者与原帖，没有源码、构建记录、启动演示、硬件或模拟器测试，也不清楚完成是何种验收标准。Claude具体型号和REA均未提，未运行固件，状态unverified。",
+    "sources": [{"label": "Antonio的Claude按手册写CPC固件自述，2026-11-22 09:14:38北京时间；工作称发生于前一天", "url": "https://x.com/i/status/2124310555259257052"}],
+    "snapshot_date": "2026-11-22", "metadata": [],
+    "en": {
+      "title": "Rebuilding CPC firmware from manuals: Antonio says Claude spent a day without consulting AMSDOS or other ROMs",
+      "summary": "Antonio Martínez says Claude wrote CPC firmware from manuals the previous day, overcoming roadblocks. He explicitly rules out ROM reverse engineering; this is an unverified specification-driven compatibility rebuild with no code or tests inspected.",
+      "description": "At 09:14:38 Beijing time on November 22, 2026, Antonio Martínez (@nonomartinezm) says in a reply that the previous day he asked Claude to write CPC firmware from scratch using only manuals. CPC is a home-computer firmware target in the post's AMSDOS/ROM context; no specific machine, manual version or firmware coverage is given. The task is rebuilding firmware against documentation for an existing machine, rather than writing a new embedded program without a reference target.\n\nThe author reports an entire day of work, several roadblocks and eventual completion, explicitly without reverse engineering or peeking at AMSDOS or other ROMs. It is included as broad AI-assisted specification/compatibility reconstruction, not AI decompilation of AMSDOS, byte matching or an audited clean-room process. A day is the author's retrospective description, not time measured here. Retrieval confirms attribution and the post, but no source, build records, boot demonstration, hardware or emulator tests were obtained; the completion criterion is unspecified. No Claude model or REA use is identified. Firmware was not run and status remains unverified.",
+      "metadata": [], "source_labels": ["Antonio's account of Claude writing CPC firmware from manuals, November 22, 2026 at 09:14:38 Beijing time; work reportedly took place the previous day"]
+    }
+  },
+  {
+    "id": "aviex-claude-ida-free-pak-analysis-refusal",
+    "title": "免费pak分析受阻：Aviex称Claude接IDA后因危险代码拒绝，串内有人反驳其指控",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Aviex说Claude连接IDA分析免费pak时提示危险并拒绝继续；父串把它解读为keylogger／RCE，另一用户反驳，模型拒绝不是恶意样本检测结论。",
+    "description": "2026年11月22日11:02:19（北京时间），Aviex（@Aviex）回复说，一个免费pak让其连接IDA的Claude无法继续：模型称文件危险、包含恶意代码。IDA是用于分析二进制的反汇编工具，pak在串中指分发的游戏mod包；具体游戏、文件名、版本、哈希及分析的内部文件没有披露。作者希望调查免费mod是否含危险行为，但只报告模型拒绝，没有给函数、调用链或运行证据。\n\n补取同日10:30:45父帖，Aviex指控免费包中有keylogger与RCE，并说Claude因伦理规则受阻；10:56:51的Tone（@ToneToneSahur）回复称用过对方许多项目，认为说法不实。这两条早于候选但仍在同一窗口，是追溯该候选争议的补充来源，不作为额外候选。为避免把无工件指控扩散成事实，不采纳父帖对地域或作者群体的归因。\n\n可记录的具体结果只有一次Claude／IDA分析受阻的用户自述；拒绝提示既不能证明存在恶意代码，也不能证明安全。未取得样本、模型轨迹、IDA工程或独立检测，未运行mod，未确认REA和Claude版本。按未核实的失败分析经历保存，不把它升级为漏洞披露或已确认的远程代码执行。",
+    "sources": [
+      {"label": "Aviex称Claude接IDA分析免费pak时拒绝，2026-11-22 11:02:19北京时间", "url": "https://x.com/i/status/2124337654091108549"},
+      {"label": "补充父帖：Aviex的恶意包指控，2026-11-22 10:30:45北京时间", "url": "https://x.com/i/status/2124329710771384652"},
+      {"label": "补充回复：Tone表示用过项目并反驳，2026-11-22 10:56:51北京时间", "url": "https://x.com/i/status/2124336276405170308"}
+    ],
+    "snapshot_date": "2026-11-22", "metadata": [],
+    "en": {
+      "title": "A free pak analysis stalls: Aviex reports a Claude/IDA refusal, with the accusation disputed in the thread",
+      "summary": "Aviex says Claude connected to IDA flagged a free pak as dangerous and refused to continue. The parent alleges a keylogger/RCE and another user disputes it; a model refusal is not a malware finding.",
+      "description": "At 11:02:19 Beijing time on November 22, 2026, Aviex (@Aviex) says in a reply that a free pak stopped Claude connected to IDA: the model said the file was dangerous and contained malicious code. IDA is a binary disassembler; pak refers in the thread to a distributed game-mod package. The game, filename, version, hash and internal file being analyzed are not disclosed. The author seeks to investigate potentially dangerous behavior in a free mod but reports only a model refusal, without functions, call chains or execution evidence.\n\nSupplementary retrieval found the same-day parent at 10:30:45, in which Aviex alleges keyloggers and RCE in free packages and says Claude was blocked by ethical rules. At 10:56:51, Tone (@ToneToneSahur) replies that they have used many of the other person's projects and disputes the claim. Both precede the candidate within the same window and serve as context, not additional candidates. The parent's geographical or group attribution is not adopted, avoiding amplification of an artifact-free accusation as fact.\n\nThe concrete recorded result is only a user's account of a blocked Claude/IDA analysis. A refusal proves neither malicious code nor safety. No sample, model transcript, IDA project or independent detection was obtained. No mod was executed and neither REA use nor the Claude version is established. Retained as an unverified unsuccessful analysis, not a vulnerability disclosure or confirmed remote-code-execution finding.",
+      "metadata": [], "source_labels": ["Aviex reports Claude connected to IDA refusing a free pak, November 22, 2026 at 11:02:19 Beijing time", "Supplementary parent: Aviex's malicious-package accusation, November 22, 2026 at 10:30:45 Beijing time", "Supplementary reply: Tone reports using the projects and disputes the accusation, November 22, 2026 at 10:56:51 Beijing time"]
+    }
+  },
+  {
+    "id": "zod-claude-unnamed-app-component-removal-crash",
+    "title": "删除组件就闪退：Zod称用Claude反编译未命名应用后尝试去监控",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Zod称Claude反编译软件后看到其称为监控的组件，删任一条都会报错闪退；没有应用名、组件清单或网络证据，保留失败结果而不认证监控指控。",
+    "description": "2026年11月22日11:38:23（北京时间），Zod（@unique211u）报告用Claude反编译一款未命名软件，看到一堆其称为监控的组件；作者又说任何一条都不能删除，删除就报错闪退。具体工作是分析既有应用并尝试移除被认为涉及监控的部分，遇到应用不能继续运行的结果，而非成功净化或重建客户端。\n\n补取原帖确认署名，正文未给应用名、平台、版本、组件或SDK标识、错误栈、二进制差异、网络流量及代码。因而无法判定组件的真实用途、删改范围、是否有完整性检查或仅为依赖缺失，不推断闪退原因，也不把作者对软件来源和监控的评价当调查结论。Claude型号、REA和工时均未说明；未下载或执行目标，按低细节但有明确尝试与失败结果的作者自述保留unverified。",
+    "sources": [{"label": "Zod的Claude反编译与删组件闪退自述，2026-11-22 11:38:23北京时间", "url": "https://x.com/i/status/2124346727813853442"}],
+    "snapshot_date": "2026-11-22", "metadata": [],
+    "en": {
+      "title": "Removing components crashes the app: Zod reports Claude decompilation and an unsuccessful monitoring-removal attempt",
+      "summary": "Zod says Claude decompilation exposed components they call monitoring, but removing any one produces errors and crashes. No app name, component inventory or traffic evidence is supplied; the failure is retained without validating the allegation.",
+      "description": "At 11:38:23 Beijing time on November 22, 2026, Zod (@unique211u) reports decompiling unnamed software with Claude and finding numerous components they call monitoring. The author says none can be removed: deleting any one causes an error and crash. The concrete work is analyzing an existing app and attempting to remove allegedly monitoring-related parts, with a reported inability to keep the app running, not successful cleaning or client reconstruction.\n\nRetrieval confirms attribution. The post supplies no app name, platform, version, component or SDK identifiers, error stack, binary diff, traffic capture or code. The components' actual purpose, edit scope and whether crashes reflect integrity checks or simply missing dependencies cannot be determined. No crash cause is inferred, and the author's judgments about software origin and monitoring are not treated as investigative findings. No Claude model, REA use or work time is stated. No target was downloaded or executed. Retained as an unverified, low-detail author account with a concrete attempt and failure outcome.",
+      "metadata": [], "source_labels": ["Zod's account of Claude decompilation and crashes after component removal, November 22, 2026 at 11:38:23 Beijing time"]
+    }
+  },
+  {
+    "id": "claude-gamified-popup-reconstruction-question",
+    "title": "用Claude重建游戏化弹窗？Chris Zimmerman向低成本自建方案提出的逆向问题",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Chris Zimmerman问一款Claude游戏化弹窗方案是否来自逆向；父帖称可替代每月1750美元工具、每月20美元托管，但未确认逆向、成本或转化率。",
+    "description": "2026年11月22日10:07:27（北京时间），Chris Zimmerman（@TheChrisZim）问DTC Midas：是否用Claude逆向了它？补取父帖可确认对象是用于获取注册的游戏化网页弹窗，而不是聊天客户端或模型本身。这个问题提供以Claude研究／重建商业弹窗功能的具体方向，不能当作作者已经承认使用逆向。\n\n作为窗口前背景，DTC Midas在11月18日22:34:43（北京时间）称方案运行在Claude中，可以设置不同游戏化弹窗、测试并得到准确数据；宣传双位数注册率、无需每月1750美元的弹窗工具，只需每月20美元托管。这些是父帖的比较与自报，不是本窗口新候选或独立成本／转化测量，原商业工具也未具名。没有补到确认逆向的回答、目标版本、实现源码或A/B测试记录；不据此推断破解付费服务、功能完整替代或准确率。按提问式功能重建idea保留unverified，未使用REA、执行代码或验证数据。",
+    "sources": [
+      {"label": "Chris Zimmerman询问是否Claude逆向，2026-11-22 10:07:27北京时间", "url": "https://x.com/i/status/2124323845205057701"},
+      {"label": "补充父帖：DTC Midas的游戏化弹窗与价格宣称，2026-11-18 22:34:43北京时间，早于本窗口", "url": "https://x.com/i/status/2123062351180284315"}
+    ],
+    "snapshot_date": "2026-11-22", "metadata": [],
+    "en": {
+      "title": "Rebuild gamified pop-ups with Claude? Chris Zimmerman's reverse-engineering question about a low-cost alternative",
+      "summary": "Chris Zimmerman asks whether a Claude-based gamified pop-up setup was reverse engineered. Its parent claims $20/month hosting instead of a $1,750/month tool, but reversing, costs and conversion rates are unverified.",
+      "description": "At 10:07:27 Beijing time on November 22, 2026, Chris Zimmerman (@TheChrisZim) asks DTC Midas whether it was reverse engineered with Claude. Retrieval of the parent identifies gamified website pop-ups for acquiring registrations as the target, not a chat client or model itself. The question supplies a concrete direction for Claude-assisted study/reconstruction of commercial pop-up functionality, not an admission by its developer that reversing occurred.\n\nAs pre-window context, DTC Midas says at 22:34:43 Beijing time on November 18 that the setup runs in Claude, can configure different gamified pop-ups, run tests and yield accurate data. The parent promotes a double-digit sign-up rate, no need for a $1,750/month pop-up tool and only $20/month hosting. These are the parent's comparisons and self-reports, not new-window candidates or independent cost/conversion measurements; the original commercial tool is unnamed. No answer confirming reversing, target revision, source or A/B-test records was obtained. Paid-service cracking, complete feature replacement and data accuracy are not inferred. Retained as an unverified question-form feature-reconstruction idea. No REA use is reported and no code or data was tested here.",
+      "metadata": [], "source_labels": ["Chris Zimmerman asks whether Claude reverse engineering was used, November 22, 2026 at 10:07:27 Beijing time", "Supplementary parent: DTC Midas on gamified pop-ups and prices, November 18, 2026 at 22:34:43 Beijing time, before this window"]
+    }
+  },
+  {
+    "id": "rockstar-claude-rendering-simulation-research-idea",
+    "title": "Rockstar如何同时渲染和模拟这些细节：Steve建议用Claude反编译研究",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Steve Korshakov建议Claude反编译，回应Tim Soret对Rockstar绘制调用、毛发、物理、NPC、光照与流式加载的疑问；这是渲染机制研究idea，不是已分析代码。",
+    "description": "2026年11月22日10:08:45（北京时间），Steve Korshakov（@Ex3NDR）对Tim Soret说，既然是2026年，就用Claude反编译来找答案。补取11月21日22:47:38（北京时间）的父帖，问题是Rockstar如何在同一画面中处理大量绘制调用与材质、毛发模拟、体积光、刚体、带寻路／语音／动画的NPC、全局光照、光追反射和无缝数据流。父帖把Red Dead Redemption 2作为技术先例，但可取正文没有明确当前作品名，未核其引用附件，故不直接认定为GTA6；回复没有提供可执行文件或实际分析。\n\n将其保留为Rockstar游戏渲染／模拟技术的AI研究idea，与已有移植、PC版重建、遥测审计和城市mod愿望分开。父帖所谓原生1440p、无动态分辨率、低噪声和高细节都是发帖者的观察与评价，没有帧捕获、性能测量或二进制依据；补取用于恢复问题背景，不认证这些参数或游戏内部实现。Claude反编译是建议，不是已经取得代码或找到优化方法；未说明REA、模型版本、合法副本或验证路线，未运行游戏或模型，状态unverified。",
+    "sources": [
+      {"label": "Steve建议Claude反编译研究技术问题，2026-11-22 10:08:45北京时间", "url": "https://x.com/i/status/2124324173074063438"},
+      {"label": "补充父帖：Tim Soret列Rockstar渲染／模拟问题，2026-11-21 22:47:38北京时间，早于窗口", "url": "https://x.com/i/status/2124152765890842789"}
+    ],
+    "snapshot_date": "2026-11-22", "metadata": [],
+    "en": {
+      "title": "How Rockstar renders and simulates all those details: Steve proposes studying it through Claude decompilation",
+      "summary": "Steve Korshakov suggests Claude decompilation in response to Tim Soret's questions about Rockstar draw calls, hair, physics, NPCs, lighting and streaming. This is a rendering-research idea, not analyzed code.",
+      "description": "At 10:08:45 Beijing time on November 22, 2026, Steve Korshakov (@Ex3NDR) tells Tim Soret that it is 2026 and he should decompile it with Claude to find out. The retrieved parent, dated November 21 at 22:47:38 Beijing time, asks how Rockstar simultaneously handles numerous draw calls and materials, hair simulations, volumetric lights, rigidbodies, NPCs with pathfinding/voices/animation, global illumination, ray-traced reflections and seamless data streaming. It cites Red Dead Redemption 2 as a technical precedent, but the available text does not name the current game. Its quoted attachment was not checked, so the target is not directly identified as GTA 6. The reply supplies neither an executable nor actual analysis.\n\nRetained as an AI research idea about Rockstar game rendering/simulation, distinct from existing porting, PC-rebuild, telemetry-audit and city-mod wishes. The parent's native 1440p, no dynamic resolution, low noise and high detail are its author's observations and evaluations, unsupported by frame captures, performance measurements or binary evidence. Retrieval restores the question's context, not validation of those parameters or internal implementation. Claude decompilation is a suggestion, not acquired code or a discovered optimization. No REA, model revision, lawful copy or validation plan is given. No game or model was run; status remains unverified.",
+      "metadata": [], "source_labels": ["Steve proposes Claude decompilation to investigate the technical questions, November 22, 2026 at 10:08:45 Beijing time", "Supplementary parent: Tim Soret lists Rockstar rendering/simulation questions, November 21, 2026 at 22:47:38 Beijing time, before the window"]
+    }
+  },
+  {
     "id":"fomoebka-karpathy-speakers-local-model-report",
     "title":"音箱到家居控制：fomoebka转述Karpathy的本地模型逆向经历",
     "category":"hardware","rea":"other-ai","status":"unverified",
@@ -158,10 +260,20 @@
     "id":"lean-proof-human-readable-ai-reconstruction-idea",
     "title":"把Lean巨型证明反编译成人能读的论证：AI解释重建idea",
     "category":"algorithms","rea":"other-ai","status":"unverified",
-    "summary":"帖子设想AI将所谓1700万行Lean证明压缩为人可理解的论证，避免世纪级阅读；没有算法、实现或正确性验证。",
-    "description":"2026年11月22日03:24:03（北京时间），一则帖子设想AI能够反编译一份1700万行Lean证明，把它浓缩成人能跟上的论证，不需数百年工作。目标是从机器可检验证明恢复解释结构，属于广义算法／知识表达重建，而不是机器码反编译。\n\n帖子未给证明文件、转换策略、模型、依赖提取、人类可读性或语义保持验证。1700万行来自设想背景，不认证相应数学声明真实，也不把AI能理解证明当作已实现。没有运行Lean、读取该证明或执行模型，REA未提；作为具体解释工具idea保存unverified。",
-    "sources":[{"label":"AI将巨型Lean证明重建成人类论证的设想，2026-11-22 03:24:03北京时间","url":"https://x.com/i/status/2124222325944099186"}],"snapshot_date":"2026-11-22","metadata":[],
-    "en":{"title":"Decompile a huge Lean proof into a readable argument: an AI explanation-reconstruction idea","summary":"A post imagines AI condensing a purported 17-million-line Lean proof into an argument people can follow without centuries of work. No method, implementation or correctness validation is supplied.","description":"At 03:24:03 Beijing time on November 22, 2026, a post imagines AI decompiling a 17-million-line Lean proof and condensing it into an argument a human can follow without centuries of work. The target is reconstructing explanatory structure from a machine-checkable proof, a broad algorithm/knowledge-representation reconstruction idea rather than machine-code decompilation.\n\nNo proof artifact, conversion method, model, dependency extraction, readability evaluation or semantic-preservation check is provided. Seventeen million lines is background to the proposal, not validation of any associated mathematical claim or an implemented ability to understand the proof. No Lean execution, proof inspection or model run took place and REA is unmentioned. Retained as an unverified concrete explanation-tool idea.","metadata":[],"source_labels":["Proposal for AI to reconstruct a huge Lean proof as a human argument, November 22, 2026 at 03:24:03 Beijing time"]}
+    "summary":"读者设想AI把巨型Lean证明变成人可理解的论证；新增回复建议分块用AI研究，但没有实现、依赖合并或语义保持验证，证明成功宣传也未核实。",
+    "description":"2026年11月22日03:24:03（北京时间），一则帖子设想AI能够反编译一份1700万行Lean证明，把它浓缩成人能跟上的论证，不需数百年工作。目标是从机器可检验证明恢复解释结构，属于广义算法／知识表达重建，而不是机器码反编译。\n\n同日11:22:41的新候选中，R（@Why__Knot）建议可分块用AI做逆向，并认为问题关注度会吸引许多研究者。补取其父帖确认仍在讨论Claude生成Lean证明如何被人理解，而非软件移植；这是对同一解释重建目标追加的分块路径，不另建案例。父帖由Alexey Fateev于11月21日17:11:06（北京时间）发布，早于本窗口，声称黎曼猜想已形式验证、175k模块编译、61.6GB证明导出通过独立检查，同时说人仍需理解思想。该帖只用于识别问题背景，未核实数学声明、模块数、文件体积、标准公理或独立检查，不能当作本合集认证黎曼猜想已证明。\n\n两条idea均未给转换实现、分块依赖合并方法、人类可读性或语义保持验证。1700万行来自旧设想背景，不认证对应数学声明，也不把AI能理解证明当已实现。没有运行Lean、读取证明文件或执行模型，REA未提；保持unverified。",
+    "sources":[
+      {"label":"AI将巨型Lean证明重建成人类论证的设想，2026-11-22 03:24:03北京时间","url":"https://x.com/i/status/2124222325944099186"},
+      {"label":"R建议分块用AI逆向理解证明，2026-11-22 11:22:41北京时间","url":"https://x.com/i/status/2124342780717940820"},
+      {"label":"补充父帖：Alexey Fateev的Lean证明宣传与解释问题，2026-11-21 17:11:06北京时间，早于本窗口","url":"https://x.com/i/status/2124188867263664287"}
+    ],"snapshot_date":"2026-11-22","metadata":[],
+    "en":{
+      "title":"Decompile a huge Lean proof into a readable argument: an AI explanation-reconstruction idea",
+      "summary":"Readers imagine AI making a huge Lean proof understandable. A new reply proposes piecemeal AI study, but no implementation, dependency integration or semantic-preservation validation is supplied; proof-success promotion is also unchecked.",
+      "description":"At 03:24:03 Beijing time on November 22, 2026, a post imagines AI decompiling a 17-million-line Lean proof and condensing it into an argument a human can follow without centuries of work. The target is reconstructing explanatory structure from a machine-checkable proof, a broad algorithm/knowledge-representation reconstruction idea rather than machine-code decompilation.\n\nIn a new candidate at 11:22:41 the same day, R (@Why__Knot) suggests reverse engineering piecemeal with AI and expects the problem's high profile to attract researchers. Retrieving the parent confirms that this is about people understanding a Claude-generated Lean proof, not software porting. It adds a piecemeal approach to the same explanation-reconstruction target rather than a separate case. The parent by Alexey Fateev, dated November 21 at 17:11:06 Beijing time before this window, claims formal verification of the Riemann Hypothesis, compilation of 175k modules and independent checks of a 61.6 GB proof export, while saying humans still need to understand the ideas. It is used only to identify the background question. The mathematics, module count, file size, standard axioms and independent checks were not verified; it is not this collection certifying that the Riemann Hypothesis has been proved.\n\nNeither idea provides a conversion implementation, a method for combining dependencies across pieces, a readability evaluation or a semantic-preservation check. Seventeen million lines is the earlier proposal's background, not validation of its associated mathematical claim or an implemented ability to understand the proof. No Lean execution, proof-file inspection or model run took place and REA is unmentioned. Status remains unverified.",
+      "metadata":[],
+      "source_labels":["Proposal for AI to reconstruct a huge Lean proof as a human argument, November 22, 2026 at 03:24:03 Beijing time","R proposes piecemeal AI reverse engineering to understand the proof, November 22, 2026 at 11:22:41 Beijing time","Supplementary parent: Alexey Fateev's Lean-proof promotion and interpretation question, November 21, 2026 at 17:11:06 Beijing time, before this window"]
+    }
   },
   {
     "id":"android-parallax-wallpaper-claude-behavior-recreation-idea",

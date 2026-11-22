@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [按手册重建CPC固件：Antonio称Claude花一天实现，未查看AMSDOS或其他ROM](../cases/antonio-claude-cpc-manual-firmware-rebuild.md) — Antonio Martínez说前一天让Claude只看手册从零写CPC固件，经历阻碍后完成；作者明确否认逆向ROM，按规格驱动兼容重建记录，未见代码和测试。 **[其他 AI 逆向 · 待验证]**
 - [音箱到家居控制：fomoebka转述Karpathy的本地模型逆向经历](../cases/fomoebka-karpathy-speakers-local-model-report.md) — fomoebka引述Karpathy说模型用几个提示研究音箱，随后控制家居；没有设备型号、协议、代码或原始访谈核对，不认证整屋能力与身份标签。 **[其他 AI 逆向 · 待验证]**
 - [NullMoth实验平台：Ady称用REA、Ghidra与AI修补x86-64 macOS组合](../cases/ady-nullmoth-x86-macos-rea-ghidra-poc.md) — AdyLovelace称在Core Ultra 5 245KF和RTX50平台测试OpenCore／NullMoth组合，并以REA、Ghidra和AI做修补；作者不准备发布补丁，没有驱动覆盖或复现记录。 **[REA · 待验证]**
 - [IC-705数字模式固件：otti测试改版，但AI／Ghidra与完整源码仍是猜测](../cases/otti-ic705-ai-ghidra-firmware-source-uncertainty.md) — otti在sq6emm的IC-705改固件测试串中猜测AI与Ghidra可能只修补部分而非恢复全源码；根帖只确认其报告数字模式测试，没有验证AI流程。 **[其他 AI 逆向 · 待验证]**

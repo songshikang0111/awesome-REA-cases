@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [MG遥测应用改版后：prthamesh称Gemini Neon用API研究替代截图提取](../cases/mg-telemetry-gemini-neon-api-rebuild.md) — prthamesh称MG改版后让Gemini Neon重建遥测应用，从截图提取再计算改为研究API并加功能；未提供端点、代码或对照测试。 **[其他 AI 逆向 · 待验证]**
+- [删除组件就闪退：Zod称用Claude反编译未命名应用后尝试去监控](../cases/zod-claude-unnamed-app-component-removal-crash.md) — Zod称Claude反编译软件后看到其称为监控的组件，删任一条都会报错闪退；没有应用名、组件清单或网络证据，保留失败结果而不认证监控指控。 **[其他 AI 逆向 · 待验证]**
+- [用Claude重建游戏化弹窗？Chris Zimmerman向低成本自建方案提出的逆向问题](../cases/claude-gamified-popup-reconstruction-question.md) — Chris Zimmerman问一款Claude游戏化弹窗方案是否来自逆向；父帖称可替代每月1750美元工具、每月20美元托管，但未确认逆向、成本或转化率。 **[其他 AI 逆向 · 待验证]**
 - [用raea重建1917年柏林：Claude读地址簿，地图与照片变成可编码场景](../cases/raea-1917-berlin-records-code-reconstruction.md) — Shane说从住房照片出发，用历史地图、楼高、地址簿与下水道图在raea复建柏林，剪成9分半纪录片；Claude负责读地址簿，历史准确性与开源工件未核。 **[其他 AI 逆向 · 相关项目]**
 - [从截图复建卡片导出器：三模型分工与失败回送的工作流idea](../cases/ai-card-exporter-observed-behavior-rebuild-workflow-idea.md) — 帖子建议Grok研究、Claude写规格、ChatGPT实现，用卡片导出器示范数量、顺序、尺寸和文字检查；不是已重建具名App或跑通的Agent团队。 **[其他 AI 逆向 · 待验证]**
 - [GTA6作弊码伴侣App：COCOLEMON建议REA／Claude复建，不是破解游戏](../cases/gta6-cheat-code-companion-rea-copy-idea.md) — COCOLEMON在GTA6作弊码App收益宣传下说用/rea让Claude复制；父帖明确应用类型，但无应用名、实现或已核收入。 **[REA · 待验证]**
