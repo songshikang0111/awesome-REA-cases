@@ -1,7 +1,7 @@
 # Craft Anything: a Rust study-and-rebuild workbench with explicit limits on project-reported checks
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-09
+Record date: 2026-11-23
 Stage: In progress
 
 At 09:51:48 Beijing time on November 2, 2026, Smartpig (@Smartpigai) introduces Craft Anything studying websites, apps or games, then having AI build and compare iterations. At 11:15:23 mingzi206 (@mingzi206) promotes full automatic hooking, symbolic-execution architecture graphs and completion in minutes. Earlier supplementary review read README/STATUS at 32b80be89061896921d370e8f4f952ab707e2270, committed November 2 at 11:40:37; its October 18 runs and October 23 audit are older. The pure-Rust workbench then claimed 314 CLI/MCP tools, 298 in the engine. Later counts do not overwrite that revision.
@@ -29,6 +29,7 @@ November 7 candidate: 0 likes, 10 views, 0 reposts. The negative game experience
 The November 8, 00:21:06 candidate says November 6's v0.5.0 added a restricted MCP engine that can disable tools operating on the machine or accessing the network, and proposes study/build/compare/refine as behavioral regression for legacy rewrites. That revision's implementation and tests were not reviewed; restricted mode is not a security-isolation guarantee or resolution of older pinned-version game-validation gaps. Claims of 17,000+ stars in a week, 3,122 forks, 356 merged PRs and first place on Trendshift's weekly list were not independently checked and do not establish effectiveness. Sealed candidate: 2 likes, 60 views, 0 reposts.
 November 8 at 18:55:51 candidate: 3 likes, 577 views, 0 reposts. Issue 1156 is an earlier user record; 90-second screenshot/self-test timeouts and a healthy doctor check do not establish completed reconstruction. Not rerun here.
 November 9 marovole sealed candidate: 1 like, 81 views, 0 reposts. 321/107 tools, extraction counts and the SSIM method are user reports; 52 unverified tools is not a checked complete total.
+At 02:43:38 Beijing time on November 23, 2026, Fumi Shingai (@FumiShingai) proposes a specific idea for migrating legacy systems without specifications: first observe whether selecting refrigerated delivery reveals a temperature input, then check the same condition after rebuilding to avoid missing business interactions. The author also suggests comparing mobile layouts and menus when moving an owned website to another CMS. No named system, check records, artifact or runtime comparison is supplied; this is advice, not a completed migration. The post repeats Rust, Clean room/Deep and MCP architecture; about 40,000 stars is an unchecked secondary claim, not resolution of older static/dynamic validation limits. Retrieval confirms attribution and wording; attachments were not watched and tools were not run. Post snapshot: 0 likes, 33 views, 0 reposts, 0 replies.
 
 ## Sources
 
@@ -44,5 +45,6 @@ November 9 marovole sealed candidate: 1 like, 81 views, 0 reposts. 321/107 tools
 - [marovole's macOS v0.5.0 CLI report and three-width SSIM method, November 9, 2026 at 12:18:00 Beijing time](https://x.com/i/status/2119645656595804470)
 - [Supplementary pinned tool-status, committed November 9, 2026 at 15:31:49 Beijing time, containing older audit records](https://github.com/storytold/craft-anything/blob/e101fa5ba0a832412780010c23711c7fb7c488ac/docs/tool-status.md)
 - [Supporting candidate: secondary report of a 2048 rebuild and a score of 78, November 10, 2026 at 17:09:15 Beijing time](https://x.com/i/status/2120081341551350260)
+- [Fumi Shingai's legacy-system conditional-interaction regression idea, November 23, 2026 at 02:43:38 Beijing time](https://x.com/i/status/2124574541817245977)
 
 [中文](../craft-anything-agent-study-rebuild-compare-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [MiniMax内部模型研究密码构造：新闻汇编转述自动化密码分析](../cases/minimax-internal-model-cryptanalysis-secondary-report.md) — 阳明AI转述MiniMax用内部模型找现代密码构造缺陷，并称将理论攻击推进到秒至分钟；没有算法名、论文、挑战记录或测试，不能认定通用破密能力。 **[其他 AI 逆向 · 待验证]**
+- [按自己的文章调优write-like-mike：Mike Taylor的留出测试与双稿评审方法](../cases/mike-taylor-own-writing-style-skill-test-report.md) — Mike Taylor以自有文章调优/write-like-mike；Every公开周报列12至25篇、留出集、同brief双稿与交换顺序评审。约一小时成稿仍需作者及编辑修改，未复跑评分。 **[其他 AI 逆向 · 待验证]**
 - [想学喜欢的博主怎么拍：hjdiandian提出REA拆解视频号与抖音技巧](../cases/rea-reference-creator-shoot-edit-learning-idea.md) — hjdiandian想经营视频号和抖音号，问能否让REA研究喜欢博主的拍摄、剪辑和素材；尚未提供参考视频或试做结果，Grok回复也非功能验证。 **[REA · 待验证]**
 - [参考视频到新提示：Codex逐帧拆解、MiniMax或Seedance生成的idea](../cases/codex-video-frame-prompt-minimax-seedance-idea.md) — 1roudanchongji建议Codex本地逐帧研究参考视频、反推提示，交MiniMax h3或Seedance生成，再回Codex调色；没有成片或相似度结果。 **[其他 AI 逆向 · 待验证]**
 - [fast-anything：录下热点函数行为，只把慢的部分重建成Rust](../cases/fast-anything-ai-hot-function-rust-replay-project.md) — 明子206介绍局部Rust重建；固定README确认Claude／Codex按真实调用与派生用例回放检查，116倍为700姓名去重示例，不是任意程序加速保证。 **[其他 AI 逆向 · 相关项目]**

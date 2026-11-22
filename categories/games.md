@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](../cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
+- [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](../cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
+- [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](../cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**
 - [号称GTA6文件安全吗：oak90ghp提出交AI逆向检查的idea](../cases/oak90ghp-gta6-claimed-files-ai-inspection-idea.md) — oak90ghp在号称208G GTA6文件的帖子下问下载并建议AI逆向查问题；父帖不证明文件真实、无恶意或可玩，未获取目标。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI重写剧情idea：用AI反编译后改成Vice City式黑帮故事](../cases/gta6-ai-vice-city-style-story-rewrite-idea.md) — 帖子提出利用GTA VI已有底层代码，让AI反编译后换成Vice City式黑帮剧情；没有实现、模型或演示。 **[其他 AI 逆向 · 待验证]**
 - [免费pak分析受阻：Aviex称Claude接IDA后因危险代码拒绝，串内有人反驳其指控](../cases/aviex-claude-ida-free-pak-analysis-refusal.md) — Aviex说Claude连接IDA分析免费pak时提示危险并拒绝继续；父串把它解读为keylogger／RCE，另一用户反驳，模型拒绝不是恶意样本检测结论。 **[其他 AI 逆向 · 待验证]**
