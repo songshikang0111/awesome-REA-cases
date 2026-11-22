@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Vita3K里的固件研究：Farenain尝试用hypercall连接LLM分析与内部fuzz驱动](../cases/llm-firmware-emulator-hypercall-fuzzing-idea.md) — Farenain称启动Vita3K的PS Vita内部库fuzz项目，建议仿真器外LLM接反汇编器、内部driver执行测试；未报告接通、覆盖率或漏洞。 **[其他 AI 逆向 · 进行中]**
+- [十年旧键盘换QMK-VIA：eastwoodnet称AI辅助加RGB效果](../cases/ten-year-keyboard-ai-qmk-via-rgb-report.md) — eastwoodnet称给用了十年的键盘改上QMK-VIA固件并添加RGB；没有型号、矩阵、源码或刷写测试，不推断AI恢复了原厂协议。 **[其他 AI 逆向 · 待验证]**
 - [Kosmos CP1到MiSTer：转述Claude Code参与8049核心与63个程序](../cases/kosmos-cp1-mister-claude-8049-core-report.md) — Pixel Cherry Ninja转述lambdamikel：1983年CP1教学计算机以Verilog 8049运行原固件，附63个程序并提Claude Code；AI具体贡献与实机兼容未核。 **[其他 AI 逆向 · 待验证]**
 - [两台Yoto接自有有声书服务器：Claude Code固件的二手复活报告](../cases/yoto-two-players-claude-audiobook-firmware-secondary-report.md) — Rumbo转述一位父亲借Claude Code固件重用两台无厂商支持的Yoto儿童播放器，人工开壳、焊接并检查；原作者、型号、源码和连接测试未获。 **[其他 AI 逆向 · 待验证]**
 - [自有云台的BLE逆向规划：Patrick称Grock拒绝后转本地模型](../cases/patrick-gimbal-ble-local-model-planning-report.md) — Patrick想研究自有中国云台的BLE，称Grock拒绝规划，转向本地模型查看细节；未报告协议恢复或控制成功。 **[其他 AI 逆向 · 进行中]**

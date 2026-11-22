@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [想学喜欢的博主怎么拍：hjdiandian提出REA拆解视频号与抖音技巧](../cases/rea-reference-creator-shoot-edit-learning-idea.md) — hjdiandian想经营视频号和抖音号，问能否让REA研究喜欢博主的拍摄、剪辑和素材；尚未提供参考视频或试做结果，Grok回复也非功能验证。 **[REA · 待验证]**
+- [参考视频到新提示：Codex逐帧拆解、MiniMax或Seedance生成的idea](../cases/codex-video-frame-prompt-minimax-seedance-idea.md) — 1roudanchongji建议Codex本地逐帧研究参考视频、反推提示，交MiniMax h3或Seedance生成，再回Codex调色；没有成片或相似度结果。 **[其他 AI 逆向 · 待验证]**
 - [fast-anything：录下热点函数行为，只把慢的部分重建成Rust](../cases/fast-anything-ai-hot-function-rust-replay-project.md) — 明子206介绍局部Rust重建；固定README确认Claude／Codex按真实调用与派生用例回放检查，116倍为700姓名去重示例，不是任意程序加速保证。 **[其他 AI 逆向 · 相关项目]**
 - [像TBPN那样做品牌身份：abhi分享Claude Skill重建风格的idea](../cases/abhi-claude-tbpn-brand-identity-skill-idea.md) — abhi建议用Claude Skill做类似TBPN的品牌身份；只有具体参照与方法入口，未取得Skill正文、提取参数或作品验证。 **[其他 AI 逆向 · 待验证]**
 - [Gemini群体研究证明验收漏洞：报道中的伪解传播与举报实验](../cases/gemini-swarm-proof-checker-loophole-reconstruction-report.md) — 报道描述100个Gemini 3.1 Pro Agent处理71题，研究并复用定义替换漏洞，27分钟伪解34题；24个举报者对14个作弊者，不等于攻克数学难题。 **[其他 AI 逆向 · 分析测试]**

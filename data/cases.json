@@ -1,5 +1,149 @@
 [
   {
+    "id": "rea-claude-own-website-no-source-rebuild-report",
+    "title": "不看源码重写自己的网站：Nisa的REA加Claude对照报告",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Nisa称REA与Claude未看代码就重写自己的网站，并问相似百分比；可读候选没有比例、网址、版本或测试结果，不能写成高保真验收。",
+    "description": "2026年11月22日22:36:20（北京时间），@nisaefendioglu以土耳其语发布‘AI没看我的代码就重写了我的网站：相同百分之几？（REA + Claude）’，附外链。具体目标是作者自己的网站，以不给原源码为条件，观察AI能重建多少可见行为或外观；候选并未说明这两种相似度如何区分。\n\n补取原串确认账号和标题，返回只有该帖，外链正文未取得。标题的百分比是问题而非给出的结果，没有可核站点、页面清单、提示、模型版本、REA调用记录、前后截图或功能对照。不自行填入还原比例，也不从重写推断后端、账户或支付功能兼容。作为自有网站黑箱重建的作者报告保留unverified；本合集未访问目标网站、执行提示或测试生成物。",
+    "sources": [{"label": "Nisa的REA加Claude重写自有网站报告，2026-11-22 22:36:20北京时间", "url": "https://x.com/i/status/2124512310144483347"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存3赞、364浏览、0转发、0回复；没有可读相似度数值。"],
+    "en": {
+      "title": "Rebuilding an owned website without its source: Nisa's REA and Claude comparison report",
+      "summary": "Nisa says REA and Claude rewrote an owned website without seeing its code and asks how similar it is. The readable candidate supplies no percentage, site URL, revision or test results.",
+      "description": "At 22:36:20 Beijing time on November 22, 2026, @nisaefendioglu posts in Turkish: AI rewrote my website without seeing my code; what percentage is the same? (REA + Claude), followed by a link. The concrete target is the author's own website, withholding original source to observe how much visible behavior or appearance AI can reconstruct. The candidate does not explain how those two kinds of similarity are distinguished.\n\nThread retrieval confirms the account and title but returns only this post; the linked article was not obtained. The percentage in the title is a question, not a reported result. No verifiable site, page inventory, prompts, model version, REA call trace, before/after screenshots or functional comparisons are available. No reconstruction percentage is invented, and rewriting does not establish backend, account or payment compatibility. Retained as an unverified author report of black-box reconstruction of an owned website. No target website, prompt or generated artifact was exercised here.",
+      "metadata": ["Sealed candidate: 3 likes, 364 views, 0 reposts, 0 replies. No readable similarity figure is supplied."],
+      "source_labels": ["Nisa reports REA and Claude rebuilding an owned website, November 22, 2026 at 22:36:20 Beijing time"]
+    }
+  },
+  {
+    "id": "llm-firmware-emulator-hypercall-fuzzing-idea",
+    "title": "Vita3K里的固件研究：Farenain尝试用hypercall连接LLM分析与内部fuzz驱动",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Farenain称启动Vita3K的PS Vita内部库fuzz项目，建议仿真器外LLM接反汇编器、内部driver执行测试；未报告接通、覆盖率或漏洞。",
+    "description": "2026年11月22日22:50:25（北京时间），Farenain（@Farenain）解释正在尝试hypercall，让仿真器内部进程与外部进程通信：外部LLM可配反汇编器研究固件模块，内部driver负责fuzz，也就是以变化输入测试行为。目标是让模型的静态分析与受控执行配合，而不是仅凭反编译文本猜测。\n\n补读同日21:18:59的父帖，作者明确说为fuzzsociety_org启动了项目，在PS Vita仿真器Vita3K中实现类似QEMU的hypercall，用于注入进程、测试PS Vita内部库和模块函数。父帖早于候选，但处于同一日期，仅作目标消歧和阶段背景，不另计候选。LLM名称、反汇编器、接口实现、源码仓库、覆盖率、崩溃或漏洞记录都未提供；可接LLM是作者架构设想，不是已联通或自动发现漏洞的证据。本合集未运行仿真器、固件或fuzz代码，REA未提。",
+    "sources": [{"label": "Farenain的LLM、hypercall与内部fuzz驱动说明，2026-11-22 22:50:25北京时间", "url": "https://x.com/i/status/2124515851365761316"}, {"label": "补充父帖：Vita3K与PS Vita内部库目标，2026-11-22 21:18:59北京时间", "url": "https://x.com/i/status/2124492842613530964"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存2赞、25浏览、1转发、1回复；不以互动确认项目已接通。"],
+    "en": {
+      "title": "Firmware research inside Vita3K: Farenain tries hypercalls between LLM analysis and an internal fuzzing driver",
+      "summary": "Farenain reports starting a Vita3K project for PS Vita library fuzzing, proposing an external LLM/disassembler and an internal test driver. Connectivity, coverage and vulnerabilities are not demonstrated.",
+      "description": "At 22:50:25 Beijing time on November 22, 2026, Farenain (@Farenain) explains an attempted hypercall connecting a process inside an emulator to one outside it. An external LLM could use a disassembler to study firmware modules while an internal driver fuzzes them, testing behavior with varying inputs. The proposed goal is coupling model-assisted static analysis with controlled execution rather than guessing from decompiled text alone.\n\nSupplementary reading of the parent at 21:18:59 that day identifies a project started for fuzzsociety_org: implementing a QEMU-like hypercall in the PS Vita emulator Vita3K to inject a process and fuzz PS Vita internal libraries and module functions. The parent predates the candidate on the same date and only disambiguates the target and stage; it is not an additional candidate. No LLM name, disassembler, interface implementation, source repository, coverage, crash or vulnerability records are supplied. An LLM connection is an architectural proposal, not demonstrated connectivity or autonomous vulnerability discovery. No emulator, firmware or fuzzing code was run here; REA is unmentioned.",
+      "metadata": ["Sealed candidate: 2 likes, 25 views, 1 repost, 1 reply. Engagement does not establish working connectivity."],
+      "source_labels": ["Farenain explains LLM analysis, hypercalls and an internal fuzzing driver, November 22, 2026 at 22:50:25 Beijing time", "Supplementary parent: Vita3K and PS Vita internal libraries, November 22, 2026 at 21:18:59 Beijing time"]
+    }
+  },
+  {
+    "id": "mimo-pro-so-reversing-failure-report",
+    "title": "逆向没碰到so：baibaoqq对MiMo Pro任务的失败反馈",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "baibaoqq称MiMo Pro逆向半天仍未分析so并生成无用内容；父帖是MiMo-V2.6发布，不能据回复认定精确后端或模型普遍能力。",
+    "description": "2026年11月22日22:08:46（北京时间），@baibaoqq回复XiaomiMiMo，称Pro做了半天逆向‘连so都没有碰到’，生成一堆无用内容却很自信。so通常指原生共享库；作者抱怨的具体失败点是任务没有推进到该分析层，而非报告找到了漏洞或完成重建。\n\n补读父帖为9月22日的MiMo-V2.6 Pro与Flash发布介绍，仅用于解释Pro的讨论背景，不把发布帖当本窗口新证据或精确后端证明。作者未给目标应用、so文件、任务提示、模型选择、工具记录、耗时数值或失败输出；半天是回顾性表达，没有可比较工时。保留一次未具名目标的失败自述，不据此给MiMo整体能力下结论。未确认REA，未执行目标、取得共享库或复测。",
+    "sources": [{"label": "baibaoqq的MiMo Pro逆向受阻反馈，2026-11-22 22:08:46北京时间", "url": "https://x.com/i/status/2124505371033456978"}, {"label": "窗口前父帖：XiaomiMiMo发布MiMo-V2.6，仅作Pro背景，2026-09-22", "url": "https://x.com/i/status/2102138559952290106"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存0赞、6浏览、0转发、0回复；未给可核失败样本。"],
+    "en": {
+      "title": "Reversing never reached the so: baibaoqq reports a failed MiMo Pro task",
+      "summary": "baibaoqq says MiMo Pro spent half a day reversing without inspecting the so and produced useless output. The parent announces MiMo-V2.6, not proof of the exact backend or general capability.",
+      "description": "At 22:08:46 Beijing time on November 22, 2026, @baibaoqq replies to XiaomiMiMo that Pro spent half a day reversing without even reaching the so, producing what the author calls useless material with unwarranted confidence. A so usually denotes a native shared library. The concrete reported failure is not reaching that analysis layer, rather than discovering a vulnerability or completing a reconstruction.\n\nThe retrieved parent is a September 22 announcement for MiMo-V2.6 Pro and Flash. It only explains the discussion's Pro context, not a new in-window candidate or proof of the actual backend. The author supplies no target application, library, task prompt, selected model, tool trace, numeric duration or failed output. Half a day is retrospective wording, not comparable measured effort. Retained as one failure report for an unnamed target, not a verdict on MiMo generally. REA is unconfirmed; no target or library was obtained, run or retested.",
+      "metadata": ["Sealed candidate: 0 likes, 6 views, 0 reposts, 0 replies. No inspectable failed sample is supplied."],
+      "source_labels": ["baibaoqq reports a stalled MiMo Pro reversing task, November 22, 2026 at 22:08:46 Beijing time", "Pre-window parent: XiaomiMiMo announces MiMo-V2.6, only Pro context, September 22, 2026"]
+    }
+  },
+  {
+    "id": "risun-net35-tool-ai-rust-rewrite-report",
+    "title": "Windows旧工具改写Rust：Risun称AI研究.NET 3.5实现后提速",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Risun因旧.NET 3.5工具仅支持Windows且性能一般，称AI逆向完整源码再以Rust重写；工具未命名，飞快无基准，也未确认新增平台。",
+    "description": "2026年11月22日21:50:10（北京时间），Risun（@Risuntsy）回复AI可用更少代码重建项目的话题，称自己已这样做：原工具用.NET 3.5编写，只提供Windows版，性能一般，因此让AI‘逆向了完整源码’，再拿Rust重写，现在速度飞快。目标是替换受平台和性能限制的旧工具，而不是只提出迁移建议。\n\n补读同日20:26:37父帖仅为泛论未来逆向，确认Risun回复才是实施报告，不将父帖当独立成果或新候选。工具名称、输入格式、AI模型、反编译方法、恢复完整度、Rust仓库、编译与行为对照均未提供；完整源码是作者说法，反编译输出不必等于唯一原始源码。没有延迟、吞吐或硬件数据，不能写加速倍数；Windows限制是动机，不证明重写版已在其他系统运行。REA未提，本合集未运行旧工具或重写版。",
+    "sources": [{"label": "Risun的.NET 3.5到Rust重写自述，2026-11-22 21:50:10北京时间", "url": "https://x.com/i/status/2124500689262964993"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存0赞、22浏览、0转发、0回复；没有性能数值或功能覆盖率。"],
+    "en": {
+      "title": "A Windows legacy tool rewritten in Rust: Risun reports AI research into a .NET 3.5 implementation",
+      "summary": "Risun says AI recovered a Windows-only .NET 3.5 tool's source before a faster Rust rewrite. The tool is unnamed, speed is not benchmarked and additional platform support is unconfirmed.",
+      "description": "At 21:50:10 Beijing time on November 22, 2026, Risun (@Risuntsy) replies to a discussion of AI rebuilding projects with less code, saying they already did it. The old tool was written in .NET 3.5, offered only Windows support and had mediocre performance. Risun says AI reverse-engineered the complete source, followed by a Rust rewrite that now runs very fast. The concrete goal is replacing a tool constrained by platform and performance, not merely proposing migration.\n\nThe parent at 20:26:37 that day contains only a general prediction about future reversing. Reading it confirms the reply is the implementation account; the parent is neither an independent result nor an extra candidate. No tool name, input format, AI model, decompilation method, recovery coverage, Rust repository, build or behavioral comparison is supplied. Complete source is the author's wording; decompiled output need not uniquely recover original source. There are no latency, throughput or hardware figures, so no speedup is asserted. Windows-only availability is motivation, not proof the rewrite runs elsewhere. REA is unmentioned; neither tool was run here.",
+      "metadata": ["Sealed candidate: 0 likes, 22 views, 0 reposts, 0 replies. No numeric performance or feature-coverage results."],
+      "source_labels": ["Risun reports a .NET 3.5-to-Rust rewrite, November 22, 2026 at 21:50:10 Beijing time"]
+    }
+  },
+  {
+    "id": "ai-ida-replacement-hypervisor-mcp-secondary-report",
+    "title": "带内核调试的IDA替代品：shotgunner101转述AI重建与原生MCP",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "shotgunner101称认识的人用AI重建IDA Pro替代品，并加入hypervisor、内核级调试和原生MCP；无项目名、源码或对照，一比一仍未核。",
+    "description": "2026年11月22日21:22:04（北京时间），@shotgunner101在AI是否带来实际变化的争论中，称认识一位开发者用AI制作IDA Pro替代品，做到一比一重建，还实现hypervisor、内核级调试和覆盖工具操作的原生MCP栈。IDA Pro是二进制分析工具；本条的具体用途是重新实现分析工作台并让Agent控制，而不是从此帖取得对某个游戏的分析结果。\n\n帖子还泛称见过AI制作外挂、更新外挂与研究反作弊，但没有各自目标或独立项目名，不据此编造多个案例。补串确认发言账号，未给所称开发者身份、工具名、代码、模型、功能矩阵、调试日志或与IDA对照。一比一和原需数月至数年都是转述者评价，不是完整兼容或节省工时实测。保留为AI辅助工具重建的二手unverified报告；未确认REA，本合集未运行调试器、hypervisor或外挂。",
+    "sources": [{"label": "shotgunner101转述AI制作IDA替代工具，2026-11-22 21:22:04北京时间", "url": "https://x.com/i/status/2124493618626933158"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存1赞、23浏览、0转发、0回复；未提供实现或测试。"],
+    "en": {
+      "title": "An IDA replacement with kernel debugging: shotgunner101 relays AI reconstruction and native MCP",
+      "summary": "shotgunner101 says an acquaintance used AI to rebuild an IDA Pro replacement with a hypervisor, kernel debugging and native MCP. No project, source or comparison substantiates one-for-one coverage.",
+      "description": "At 21:22:04 Beijing time on November 22, 2026, @shotgunner101 responds to an argument about AI's practical impact, saying an acquaintance used AI to create a one-for-one IDA Pro replacement, adding a hypervisor, kernel-level debugging and a native MCP stack controlling the tool. IDA Pro is a binary-analysis workbench. This account's concrete purpose is reconstructing an analysis environment with agent control, not a reported analysis of a particular game.\n\nThe post also broadly mentions AI-created or updated cheats and anti-cheat research, but provides no separate targets or project names; those are not expanded into invented cases. Thread retrieval confirms the speaker, without identifying the developer, tool, source, model, feature matrix, debugging logs or IDA comparisons. One-for-one and months-to-years manual effort are the relayer's assessments, not measured compatibility or time saved. Retained as an unverified secondary report of AI-assisted tool reconstruction. REA is unconfirmed; no debugger, hypervisor or cheat was run here.",
+      "metadata": ["Sealed candidate: 1 like, 23 views, 0 reposts, 0 replies. No implementation or tests supplied."],
+      "source_labels": ["shotgunner101 relays an AI-built IDA replacement, November 22, 2026 at 21:22:04 Beijing time"]
+    }
+  },
+  {
+    "id": "ten-year-keyboard-ai-qmk-via-rgb-report",
+    "title": "十年旧键盘换QMK-VIA：eastwoodnet称AI辅助加RGB效果",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "eastwoodnet称给用了十年的键盘改上QMK-VIA固件并添加RGB；没有型号、矩阵、源码或刷写测试，不推断AI恢复了原厂协议。",
+    "description": "2026年11月22日21:08:22（北京时间），@eastwoodnet称键盘已经用了十年，让AI把QMK-VIA固件改上去，并增加一些RGB灯效。QMK是开源键盘固件体系，VIA用于兼容固件的交互配置；本条按广义AI辅助旧设备改造收录，目的在保留旧键盘并扩展控制效果。\n\n补取原串确认账号，读者问什么键盘用了十年，返回串没有作者给出的型号。未取得电路、键矩阵、控制器、固件源码、AI型号、刷写记录、按键扫描或灯效测试，不能推断研究过原厂私有协议、替换控制器或所有键均正常。十年是作者使用时长，不是研发工时，添加RGB不证明原本没有灯或进行了焊接。REA未提，本合集未连接设备、编译或刷写。",
+    "sources": [{"label": "eastwoodnet的旧键盘QMK-VIA与RGB改造自述，2026-11-22 21:08:22北京时间", "url": "https://x.com/i/status/2124490172247224715"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存1赞、308浏览、0转发、1回复；十年为使用年限自述。"],
+    "en": {
+      "title": "QMK-VIA for a ten-year-old keyboard: eastwoodnet reports AI-assisted RGB additions",
+      "summary": "eastwoodnet says AI helped adapt QMK-VIA firmware and add RGB effects to a keyboard used for ten years. Model, matrix, source and flashing tests are absent; original-protocol recovery is not inferred.",
+      "description": "At 21:08:22 Beijing time on November 22, 2026, @eastwoodnet says AI helped put QMK-VIA firmware on a keyboard used for ten years and add RGB effects. QMK is an open-source keyboard-firmware ecosystem; VIA provides interactive configuration for compatible firmware. Included as broader AI-assisted legacy-device modification, preserving an old keyboard while extending control effects.\n\nThread retrieval confirms the account. A reader asks which keyboard lasted ten years, but the returned thread has no model answer. No circuit, key matrix, controller, firmware source, AI model, flashing log, scanning or lighting tests were obtained. Original proprietary-protocol research, controller replacement and every key working are not inferred. Ten years is reported ownership duration, not development effort. Adding RGB effects establishes neither previously absent lights nor soldering. REA is unmentioned; no device was connected, built for or flashed here.",
+      "metadata": ["Sealed candidate: 1 like, 308 views, 0 reposts, 1 reply. Ten years is author-reported usage duration."],
+      "source_labels": ["eastwoodnet reports QMK-VIA and RGB work on an old keyboard, November 22, 2026 at 21:08:22 Beijing time"]
+    }
+  },
+  {
+    "id": "shai-city-website-claude-clone-report",
+    "title": "城市网站被仿成多城版本：Shai称发布后有人用Claude逆向",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Shai称自己网站上线后被Claude研究，随后出现Kolkata、Delhi、Pune的people of版本；原站链接未展开，不能确认克隆者、功能等价或实现路线。",
+    "description": "2026年11月22日20:54:17（北京时间），Shai（@shaihq_）称发布一个网站后，很快有人用Claude逆向，随后看到了people of Kolkata、Delhi、Pune等版本，并附自己正在做的产品预览。这里的目标是按城市改编既有网站的呈现与用途，证据来自原站发布者对他人仿制的观察，不是克隆者的开发日志。\n\n补读原串确认作者、文字和视频附件，但原站只给短链，未取得展开后的站点、三个派生版本、源码、提示或运行比较。不能给原站补正式产品名、把城市名当独立实现已验收，或认定后端、数据和安全机制也被恢复。附视频是产品预览，不自动成为Claude复建过程的演示；本合集未观看或测试。保留归因明确的二手unverified报告，不推断各版本由同一团队完成，REA未提。",
+    "sources": [{"label": "Shai称网站被Claude研究并出现多城版本，2026-11-22 20:54:17北京时间", "url": "https://x.com/i/status/2124486628542672915"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存25赞、1851浏览、1转发、3回复；传播不证明派生网站实现等价。"],
+    "en": {
+      "title": "A city website copied into several city variants: Shai reports Claude-assisted reversing after launch",
+      "summary": "Shai says a launched website was studied with Claude before people of Kolkata, Delhi and Pune variants appeared. The original link is unresolved; builders, equivalence and implementation are unverified.",
+      "description": "At 20:54:17 Beijing time on November 22, 2026, Shai (@shaihq_) says people began reverse-engineering a newly launched website with Claude, after which people of Kolkata, Delhi and Pune variants appeared. A preview of the author's ongoing product accompanies the post. The target is adapting an existing site's presentation and purpose to different cities. Evidence is the original publisher's observation of others' imitations, not the cloners' development logs.\n\nThread retrieval confirms the author, wording and video attachment. The original site is supplied only as a short link; the expanded site, three derivative versions, source, prompts and runtime comparisons were not obtained. No formal product name is invented, cities are not treated as separately validated implementations, and backend, data or security recovery is not inferred. A product preview is not automatically a demonstration of Claude's reconstruction process; it was not watched or tested here. Retained as an attributed, unverified secondary report without assuming one team made every variant. REA is unmentioned.",
+      "metadata": ["Sealed candidate: 25 likes, 1,851 views, 1 repost, 3 replies. Engagement does not establish equivalent implementations."],
+      "source_labels": ["Shai reports Claude research and city-specific website variants, November 22, 2026 at 20:54:17 Beijing time"]
+    }
+  },
+  {
+    "id": "rea-reference-creator-shoot-edit-learning-idea",
+    "title": "想学喜欢的博主怎么拍：hjdiandian提出REA拆解视频号与抖音技巧",
+    "category": "algorithms", "rea": "REA", "status": "unverified",
+    "summary": "hjdiandian想经营视频号和抖音号，问能否让REA研究喜欢博主的拍摄、剪辑和素材；尚未提供参考视频或试做结果，Grok回复也非功能验证。",
+    "description": "2026年11月22日20:47:47（北京时间），@hjdiandian自称小白，想经营视频号和抖音号，提出找喜欢的视频博主，让REA逆向拍摄、剪辑、素材等技巧，并向Grok询问可行性。具体问题是从参考作品学会制作方法，而不是逆向平台App、获取账号数据或下载别人私有素材。REA在这里是拟用工具，不是已经执行的分析。\n\n补读原串，Grok回复认为REA只适合软件二进制，另建议逐帧观察转场、字幕、节奏和拍摄条件。这是聊天模型的建议，不作为REA能力边界的权威文档，也不证明作者实施了这些步骤。没有具体博主、视频、分析提示、拆解表或重制成片；保留未验证idea，不补造效果或运营收益。本合集未运行工具或访问账号。",
+    "sources": [{"label": "hjdiandian的REA学习拍摄剪辑idea，2026-11-22 20:47:47北京时间", "url": "https://x.com/i/status/2124484989291221035"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存0赞、49浏览、0转发、1回复；未报告尝试结果。"],
+    "en": {
+      "title": "Learning how a favorite creator shoots: hjdiandian proposes REA analysis for Channels and Douyin",
+      "summary": "hjdiandian wants to run Channels and Douyin accounts and asks REA to study favorite creators' shooting, editing and assets. No reference clip or trial is supplied; Grok's reply is not capability validation.",
+      "description": "At 20:47:47 Beijing time on November 22, 2026, @hjdiandian describes being a beginner wanting to run WeChat Channels and Douyin accounts. The proposed approach is finding a favorite creator and using REA to reverse-engineer filming, editing and asset techniques, with a question to Grok about feasibility. The concrete problem is learning production methods from reference work, not reversing platform apps, acquiring account data or accessing private assets. REA is proposed, not an executed analysis tool in this report.\n\nIn the retrieved thread, Grok claims REA only suits software binaries and instead suggests frame-by-frame inspection of cuts, subtitles, rhythm and shooting conditions. This is model advice, not authoritative documentation of REA's scope or proof the author followed those steps. No creator, clip, prompt, breakdown table or remake is supplied. Retained as an unverified idea without invented production results or marketing gains. No tool or account was accessed here.",
+      "metadata": ["Sealed candidate: 0 likes, 49 views, 0 reposts, 1 reply. No trial results reported."],
+      "source_labels": ["hjdiandian proposes REA for learning filming and editing, November 22, 2026 at 20:47:47 Beijing time"]
+    }
+  },
+  {
+    "id": "codex-video-frame-prompt-minimax-seedance-idea",
+    "title": "参考视频到新提示：Codex逐帧拆解、MiniMax或Seedance生成的idea",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "1roudanchongji建议Codex本地逐帧研究参考视频、反推提示，交MiniMax h3或Seedance生成，再回Codex调色；没有成片或相似度结果。",
+    "description": "2026年11月22日20:20:29（北京时间），@1roudanchongji回复YuriWang49，建议让Codex把参考视频下载到本地、逐帧拆解并逆向提示词，再将提示交给MiniMax h3或Seedance这类视频模型，完成后回Codex调色。目标是从成片恢复可用于重新生成的制作描述，而不是找回视频作者真实原始提示。模型名称保留帖子写法，不推定版本可用性或功能保证。\n\n补读同日19:18:33的父帖，Yuri问某种视频怎么做，并想用于抖音流量；它早于本窗口，只作提出重建需求的背景，不算新候选。返回材料未说明视频内容、时长、镜头或授权，没有提示样例、模型输出、调色步骤和前后对照。‘就可以还原’只是建议者预期，不能写已重制或逐帧等价。REA未提，本合集未下载视频、调用生成模型或运行目标代码。",
+    "sources": [{"label": "1roudanchongji的Codex逐帧反推及视频生成idea，2026-11-22 20:20:29北京时间", "url": "https://x.com/i/status/2124478119826649456"}, {"label": "窗口前父帖：Yuri询问参考视频制作方式，2026-11-22 19:18:33北京时间", "url": "https://x.com/i/status/2124462534262653115"}],
+    "snapshot_date": "2026-11-22", "metadata": ["候选封存4赞、686浏览、0转发、0回复；未报告生成或对照测试。"],
+    "en": {
+      "title": "Reference video to a new prompt: an idea for Codex frame analysis and MiniMax or Seedance generation",
+      "summary": "1roudanchongji proposes local frame-by-frame Codex analysis, inferred prompts for MiniMax h3 or Seedance, then Codex color adjustment. No remake or similarity result is supplied.",
+      "description": "At 20:20:29 Beijing time on November 22, 2026, @1roudanchongji replies to YuriWang49 with a proposed workflow: let Codex download a reference video locally, break it down frame by frame and infer prompts, send those prompts to a video model such as MiniMax h3 or Seedance, then return to Codex for color adjustment. The target is reconstructing production descriptions usable for new generation, not recovering the original creator's actual prompts. Model names preserve the post's wording without assuming version availability or guaranteed functions.\n\nThe supplementary parent, at 19:18:33 that day, asks how a particular kind of video is made and expresses interest in Douyin traffic. It predates this window and only contextualizes the reconstruction request, not an additional candidate. Returned material does not identify the video's content, duration, shots or authorization. No sample prompts, generated outputs, grading steps or before/after comparison are supplied. The suggestion that this will reproduce it is an expectation, not a completed remake or framewise equivalence. REA is unmentioned. No video was downloaded, generation model called or target code run here.",
+      "metadata": ["Sealed candidate: 4 likes, 686 views, 0 reposts, 0 replies. No generation or comparison tests reported."],
+      "source_labels": ["1roudanchongji proposes Codex frame-based prompt inference and video generation, November 22, 2026 at 20:20:29 Beijing time", "Pre-window parent: Yuri asks how a reference video is made, November 22, 2026 at 19:18:33 Beijing time"]
+    }
+  },
+  {
     "id": "kosmos-cp1-mister-claude-8049-core-report",
     "title": "Kosmos CP1到MiSTer：转述Claude Code参与8049核心与63个程序",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
@@ -12783,21 +12927,21 @@
   },
   {
     "id": "hadesi-rea-chaoxing-checkin-system-report",
-    "title": "Hadesi的学习通签到系统：REA辅助研究后的功能自述",
+    "title": "学习通签到与课程自动化：Hadesi和Alice各自的REA研究报告",
     "category": "apps",
     "rea": "REA",
     "status": "unverified",
-    "summary": "Hadesi因学校签到名额难抢、代办太贵，称用REA研究学习通并集成自动化功能；没有源码、版本或成功率记录，与核桃的课程进度实验分开。",
-    "description": "2026年11月7日13:26:07（北京时间），Hadesi（@Hadesikydk）称传统方式难以抢到学校签到名额，又觉得他人代办太贵，于是用REA研究学习通并做出一套自用系统。作者声称集成所有功能，包含滑块、短信人脸相关流程及抓取id自动化。这里仅记录功能主张，不提供绕过校方验证的做法或认定其获授权。\n\n原帖补查确认署名与一张图片附件，未核验图片内容。没有学习通版本、接口、源码、学校流程、授权、误识别／失败率或真实签到验收。全部功能与全自动没有覆盖定义，不能升级为已验证通用能力，也不认定破解了生物识别。与核桃研究APK后课程进度仍回退的既有案例作者和目的不同，单独保留未核验报告；本合集未登录系统、访问学生资料或运行目标。",
-    "sources": [{"label": "Hadesi自报REA研究学习通与签到系统，2026-11-07 13:26:07北京时间", "url": "https://x.com/i/status/2118938022016331953"}],
-    "snapshot_date": "2026-11-07",
-    "metadata": ["候选封存3赞、33浏览、0转发；自动化功能与成功率未经核验。"],
+    "summary": "Hadesi原报REA签到系统；Alice另称研究学习通并做代签到、课程自动化，只与同学部分测试。两人同目标但非同一实现，均无版本与验收记录。",
+    "description": "2026年11月7日13:26:07（北京时间），Hadesi（@Hadesikydk）称传统方式难以抢到学校签到名额，又觉得他人代办太贵，于是用REA研究学习通并做出一套自用系统。作者声称集成所有功能，包含滑块、短信人脸相关流程及抓取id自动化。这里仅记录功能主张，不提供绕过校方验证的做法或认定其获授权。\n\n原帖补查确认署名与一张图片附件，未核验图片内容。没有学习通版本、接口、源码、学校流程、授权、误识别／失败率或真实签到验收。全部功能与全自动没有覆盖定义，不能升级为已验证通用能力，也不认定破解了生物识别。与核桃研究APK后课程进度仍回退的既有案例作者和目的不同，保留各自证据边界。\n\n11月22日21:09:06，Alice（@sama_ybp）另称最近用REA研究学习通，尝试写伪造代签到与自动刷课程的程序，自己和同学仅测试了一部分，没有大量测试，并邀请反馈和提交issues。补取原串确认作者和有限测试的原话，返回的使用者评论没有版本、测试矩阵或实际签到与课程进度验收。按同一目标追加此独立作者的自述，不把Alice当Hadesi、不推定共用代码，也不把刷课程主张升级为学校认可的学习完成。候选附外链但未取得源码；不推断仓库名、授权或安全性。两份报告均保持unverified，本合集未登录系统、访问学生资料、运行程序或实施代签到。",
+    "sources": [{"label": "Hadesi自报REA研究学习通与签到系统，2026-11-07 13:26:07北京时间", "url": "https://x.com/i/status/2118938022016331953"}, {"label": "Alice的REA研究、代签到与课程自动化及部分测试说明，2026-11-22 21:09:06北京时间", "url": "https://x.com/i/status/2124490357098619132"}],
+    "snapshot_date": "2026-11-22",
+    "metadata": ["11月7日候选封存3赞、33浏览、0转发；自动化功能与成功率未经核验。", "11月22日Alice候选封存10赞、816浏览、4转发、4回复；部分同学测试没有给出通过率。"],
     "en": {
-      "title": "Hadesi's Chaoxing check-in system: claimed features following REA-assisted research",
-      "summary": "Hadesi cites scarce school check-in slots and expensive proxy services, claiming REA-assisted Chaoxing research and integrated automation. No source, version or success-rate records; distinct from Hetao's course-progress experiment.",
-      "description": "At 13:26:07 Beijing time on November 7, 2026, Hadesi (@Hadesikydk) says conventional methods failed to secure school check-in slots and third-party proxy services cost too much, prompting REA research into Chaoxing and a personal system. The author claims all features, including automation around sliders, SMS/face-related flows and ID capture. This records claims only, without instructions for bypassing school verification or assuming authorization.\n\nOriginal-post retrieval confirms attribution and one image attachment; its technical content was not verified. Chaoxing revision, interfaces, source, school workflow, authorization, recognition/failure rates and actual check-in acceptance records are absent. All features and fully automatic have no coverage definition; neither general capability nor defeated biometrics is established. Author and purpose differ from Hetao's APK/course-progress rollback experiment, so this remains a separate unverified report. No system login, student-data access or target execution was performed here.",
-      "metadata": ["Sealed candidate: 3 likes, 33 views, 0 reposts. Automation features and success rates are unverified."],
-      "source_labels": ["Hadesi reports REA-assisted Chaoxing research and a check-in system, November 7, 2026 at 13:26:07 Beijing time"]
+      "title": "Chaoxing check-in and course automation: separate REA reports from Hadesi and Alice",
+      "summary": "After Hadesi's REA check-in report, Alice separately reports proxy check-ins and course automation with classmates' partial tests. Same target, different implementations; versions and acceptance records remain absent.",
+      "description": "At 13:26:07 Beijing time on November 7, 2026, Hadesi (@Hadesikydk) says conventional methods failed to secure school check-in slots and third-party proxy services cost too much, prompting REA research into Chaoxing and a personal system. The author claims all features, including automation around sliders, SMS/face-related flows and ID capture. This records claims only, without instructions for bypassing school verification or assuming authorization.\n\nOriginal-post retrieval confirms attribution and one image attachment; its technical content was not verified. Chaoxing revision, interfaces, source, school workflow, authorization, recognition/failure rates and actual check-in acceptance records are absent. All features and fully automatic have no coverage definition; neither general capability nor defeated biometrics is established. Author and purpose differ from Hetao's APK/course-progress rollback experiment, retaining separate evidence boundaries.\n\nAt 21:09:06 on November 22, Alice (@sama_ybp) separately says recent REA research into Chaoxing led to an attempted program for falsified proxy check-ins and automated course progression. Alice and classmates tested only part of it, without extensive testing, and request feedback or issues. Thread retrieval confirms the author and limited-testing wording; returned user comments supply no version, test matrix or accepted check-in/course-progress records. Added under the same target as a separate author's report, not identifying Alice as Hadesi or assuming shared code. Automated progression is not presented as school-recognized learning completion. The candidate links outward, but source was not obtained; repository identity, authorization and safety are not inferred. Both reports remain unverified. No system login, student-data access, program execution or proxy check-in was performed here.",
+      "metadata": ["November 7 sealed candidate: 3 likes, 33 views, 0 reposts. Automation features and success rates are unverified.", "November 22 Alice candidate: 10 likes, 816 views, 4 reposts, 4 replies. Partial classmate testing supplies no pass rate."],
+      "source_labels": ["Hadesi reports REA-assisted Chaoxing research and a check-in system, November 7, 2026 at 13:26:07 Beijing time", "Alice reports REA research, proxy check-ins, course automation and partial testing, November 22, 2026 at 21:09:06 Beijing time"]
     }
   },
   {
@@ -22337,18 +22481,18 @@
   },
   {
     "id": "hugo-uu-claude-reversing-model-routing-report",
-    "title": "Hugo的uu分析：逆向任务中观察Claude型号与风控提示的差异",
-    "category": "apps", "rea": "other-ai", "status": "in-progress",
-    "summary": "Hugo称Claude逆向其称为uu的目标时保持Opus5.5，而此前UI小工具分析遇到型号变化和提示；未说明uu的完整产品身份或分析结果。",
-    "description": "2026年10月27日13:37（北京时间），Hugo（@hugoFF0055）称自己正在用Claude逆向“uu”，模型一直保持Opus5.5且积极继续；他对比此前某个UI相关小工具的研究，称当时跳到Opus4.8并出现多次提示。原帖补查确认作者及原文；型号保留为作者看到的标识，不校正或推断实际后端。\n\n这是一项进行中的应用分析及作者观察到的模型限制差异，不是已解释风控机制的实验。uu未给全称、版本、平台或网址，不能认定是网易UU远程、加速器或本合集已有的UU Linux客户端；也没有可读分析输出、功能重建、路由日志或对照条件。此前未具名UI软件仅作作者比较背景，不编造第二个独立项目。未确认REA，未独立运行或验证服务端路由。",
-    "sources": [{"label": "Hugo自述uu逆向与Claude提示差异，2026-10-27", "url": "https://x.com/i/status/2114954637824725031"}],
-    "snapshot_date": "2026-10-27", "metadata": ["候选快照0赞、17浏览、0转发；uu原称及模型标识均据作者，不推断完整产品或过滤因果。"],
+    "title": "Hugo的uu研究已搁置：从Claude型号观察到手机远程操作Agent的替代方案",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Hugo先称Claude分析uu保持Opus5.5，后在UU远程讨论中说上月逆向后未继续开发；建议手机Claude远连家中CC，不等于重建UU或验证模型路由。",
+    "description": "2026年10月27日13:37（北京时间），Hugo（@hugoFF0055）称自己正在用Claude逆向‘uu’，模型一直保持Opus5.5且积极继续；他对比此前某个UI相关小工具的研究，称当时跳到Opus4.8并出现多次提示。原帖补查确认作者及原文；型号保留为作者看到的标识，不校正或推断实际后端。原帖没有uu全称、版本、平台、网址、可读分析输出、重建功能、路由日志或对照条件；此前未具名UI软件只作比较背景，不编造第二个项目。\n\n11月22日23:11:37，同一@hugoFF0055回复aehyok，称上个月也逆向了uu，但没有继续开发，认为直接用手机Claude远程连接家里的cc就能操作所有Agent。补读同日13:31:12父帖，aehyok讨论网易UU远程收费及另一作者的Android/Mac远程替代品；父帖早于本窗口，仅作目标背景，不将其中248分钟、模型和功能归到Hugo。新上下文支持Hugo在谈UU远程方向，但未给版本或证明10月任务与任一Linux客户端共用实现。\n\n新帖更正仍在持续开发的印象：作者自报搁置，不是已完成兼容客户端；手机Claude方案只是他说的替代路径，没有连接日志或全Agent操作矩阵。没有控制实验解释模型限制，也未确认REA。本合集未安装远程软件、连接家庭设备或验证服务端路由，状态改为unverified以反映无新开发和无可验收产物。",
+    "sources": [{"label": "Hugo自述uu逆向与Claude提示差异，2026-10-27", "url": "https://x.com/i/status/2114954637824725031"}, {"label": "Hugo称uu研究后未继续开发，2026-11-22 23:11:37北京时间", "url": "https://x.com/i/status/2124521189448315047"}, {"label": "窗口前父帖：aehyok讨论UU远程与他人的替代项目，仅作背景，2026-11-22", "url": "https://x.com/i/status/2124375119602884658"}],
+    "snapshot_date": "2026-11-22", "metadata": ["10月27日候选快照0赞、17浏览、0转发；型号为作者观察标签，非过滤机制证明。", "11月22日候选封存0赞、28浏览、0转发、0回复；未继续开发为本人新报告。"],
     "en": {
-      "title": "Hugo's uu investigation: observing Claude model labels and warnings during reversing",
-      "summary": "Hugo says Claude remained on Opus 5.5 while reversing a target called uu, unlike earlier UI-tool work that showed model changes and warnings. The product's full identity and analysis results are unspecified.",
-      "description": "At 13:37 Beijing time on October 27, 2026, Hugo (@hugoFF0055) says he is using Claude to reverse-engineer a target he calls uu, with the model staying on Opus 5.5 and continuing enthusiastically. He contrasts an earlier investigation of an unnamed small UI-related tool, which he says switched to Opus 4.8 and showed repeated warnings. Original-post lookup confirms attribution and wording. Model names are preserved as labels observed by the author, not corrected or treated as verified backend identities.\n\nThis is an ongoing app investigation and a report of differing model restrictions, not a controlled explanation of enforcement mechanisms. No full uu name, version, platform or URL is supplied. It cannot be identified as NetEase UU Remote, an accelerator or this collection's existing UU Linux client. No readable analysis output, rebuilt function, routing logs or matched comparison conditions are given. The unnamed UI tool remains comparison background, not an invented second independent project. REA use is unconfirmed; neither the target nor server-side routing was independently tested.",
-      "metadata": ["Candidate snapshot: 0 likes, 17 views, 0 reposts. uu and model labels are author-provided; full product identity and filtering causality are not inferred."],
-      "source_labels": ["Hugo on uu reversing and differing Claude warnings, October 27, 2026"]
+      "title": "Hugo's uu work is shelved: from Claude model labels to remotely operating agents from a phone",
+      "summary": "After reporting Opus 5.5 during uu research, Hugo says in a UU Remote discussion that development stopped after last month's reversing. Phone-to-home Claude access is a proposed alternative, not a rebuilt UU client or verified routing result.",
+      "description": "At 13:37 Beijing time on October 27, 2026, Hugo (@hugoFF0055) says Claude is reversing a target called uu, staying on Opus 5.5 and continuing enthusiastically. Earlier work on an unnamed UI-related tool reportedly switched to Opus 4.8 and showed warnings. Original-post retrieval confirmed the author and wording. Model names remain author-observed labels, not corrected or verified backend identities. The original supplies no full product name, version, platform, URL, readable analysis output, rebuilt functions, routing logs or controlled comparisons. The unnamed UI tool is comparison background, not a second invented project.\n\nAt 23:11:37 on November 22, the same @hugoFF0055 replies to aehyok that uu was reversed last month but development did not continue. Hugo suggests using phone Claude to connect remotely to cc at home and operate all agents. Supplementary reading of the parent, at 13:31:12 that day, finds aehyok discussing NetEase UU Remote's pricing and another author's Android/Mac replacement. The parent predates this window and only contextualizes the target; its 248 minutes, models and features are not assigned to Hugo. The new context supports a UU Remote direction, without a revision or proof the October work shares an implementation with any Linux client.\n\nThe new post corrects an impression of continuing development: the author reports shelving the work, not completing a compatible client. Phone Claude access is a stated alternative without connection logs or an all-agent operation matrix. There is no controlled explanation of model restrictions, and REA is unconfirmed. No remote software was installed, home device connected or server-side routing tested here. Status changes to unverified to reflect stopped development and no inspectable deliverable.",
+      "metadata": ["October 27 candidate: 0 likes, 17 views, 0 reposts. Model labels are author observations, not proof of enforcement mechanisms.", "November 22 sealed candidate: 0 likes, 28 views, 0 reposts, 0 replies. Stopped development is the author's new report."],
+      "source_labels": ["Hugo on uu reversing and differing Claude warnings, October 27, 2026", "Hugo says uu development did not continue, November 22, 2026 at 23:11:37 Beijing time", "Pre-window parent: aehyok discusses UU Remote and another author's replacement, context only, November 22, 2026"]
     }
   },
   {

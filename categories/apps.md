@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [不看源码重写自己的网站：Nisa的REA加Claude对照报告](../cases/rea-claude-own-website-no-source-rebuild-report.md) — Nisa称REA与Claude未看代码就重写自己的网站，并问相似百分比；可读候选没有比例、网址、版本或测试结果，不能写成高保真验收。 **[REA · 待验证]**
+- [逆向没碰到so：baibaoqq对MiMo Pro任务的失败反馈](../cases/mimo-pro-so-reversing-failure-report.md) — baibaoqq称MiMo Pro逆向半天仍未分析so并生成无用内容；父帖是MiMo-V2.6发布，不能据回复认定精确后端或模型普遍能力。 **[其他 AI 逆向 · 待验证]**
+- [Windows旧工具改写Rust：Risun称AI研究.NET 3.5实现后提速](../cases/risun-net35-tool-ai-rust-rewrite-report.md) — Risun因旧.NET 3.5工具仅支持Windows且性能一般，称AI逆向完整源码再以Rust重写；工具未命名，飞快无基准，也未确认新增平台。 **[其他 AI 逆向 · 待验证]**
+- [带内核调试的IDA替代品：shotgunner101转述AI重建与原生MCP](../cases/ai-ida-replacement-hypervisor-mcp-secondary-report.md) — shotgunner101称认识的人用AI重建IDA Pro替代品，并加入hypervisor、内核级调试和原生MCP；无项目名、源码或对照，一比一仍未核。 **[其他 AI 逆向 · 待验证]**
+- [城市网站被仿成多城版本：Shai称发布后有人用Claude逆向](../cases/shai-city-website-claude-clone-report.md) — Shai称自己网站上线后被Claude研究，随后出现Kolkata、Delhi、Pune的people of版本；原站链接未展开，不能确认克隆者、功能等价或实现路线。 **[其他 AI 逆向 · 待验证]**
 - [逆向成果被删：小虎哥称Gemini 4 Neon替自己否定并删除工作](../cases/gemini-neon-unnamed-reversing-work-deletion-report.md) — 小虎哥说Gemini 4 Neon认为先前逆向成果不好便删库，回复承认没有Git追踪；目标、删除范围与恢复结果未给，保留为失败自述。 **[其他 AI 逆向 · 待验证]**
 - [Cairn分析Dify企业镜像与Helm：安全综述中的静态逆向演示转述](../cases/cairn-dify-ee-image-helm-static-reversing-report.md) — 安全帖子称Cairn在无明确范围的Dify测试中提出50多个连续意图，包含企业镜像和Helm chart静态逆向；意图数不是成功数，原演示与输出未获。 **[其他 AI 逆向 · 待验证]**
 - [Reverse-Engineer MCP：Aryan展示工具，超越REA仍是未验证比较](../cases/aryan-reverse-engineer-mcp-comparison-project.md) — Aryan Thakur展示Reverse-Engineer MCP并称原生工具多于REA；回复说更关注破坏边界，未给工具清单、目标测试或可查仓库。 **[未确认使用 REA · 相关项目]**
@@ -342,7 +347,7 @@
 - [ERP从桌面到Web：Mahmut描述REA分析旧流程辅助回归验收](../cases/mahmut-erp-desktop-web-rea-regression-testing.md) — 作者介绍工程师将人工测试、REA旧流程分析、新版缺失功能检查和自主测试循环结合；没有产品名或缺陷清单。 **[REA · 进行中]**
 - [Elastic Security检测规则：苏糖称两模型五天研究并公开产物](../cases/sutang-elastic-security-ai-detection-rule-extraction-report.md) — 苏糖称Opus5.5与GPT-6 Astra最大设置跑五天，研究Elastic Security并提取全部规则；未取得规则集、许可或覆盖定义。 **[其他 AI 逆向 · 待验证]**
 - [DemoFork：参考demo的剪辑节奏，加三张产品截图生成新视频](../cases/demofork-magichour-demo-pacing-three-screenshots.md) — 候选回复指向Rayan Ali的DemoFork：输入参考demo和三张产品截图，以MagicHour AI借用节奏制作新片；未验证视频质量或不复制素材的实现。 **[其他 AI 逆向 · 进行中]**
-- [Hadesi的学习通签到系统：REA辅助研究后的功能自述](../cases/hadesi-rea-chaoxing-checkin-system-report.md) — Hadesi因学校签到名额难抢、代办太贵，称用REA研究学习通并集成自动化功能；没有源码、版本或成功率记录，与核桃的课程进度实验分开。 **[REA · 待验证]**
+- [学习通签到与课程自动化：Hadesi和Alice各自的REA研究报告](../cases/hadesi-rea-chaoxing-checkin-system-report.md) — Hadesi原报REA签到系统；Alice另称研究学习通并做代签到、课程自动化，只与同学部分测试。两人同目标但非同一实现，均无版本与验收记录。 **[REA · 待验证]**
 - [二旬老汉的抢券流量研究：手机操作留给人，包与脚本交给AI](../cases/leeking420-ai-mcp-mobile-coupon-traffic-analysis.md) — 二旬老汉称将手机抓包软件经MCP接AI、无线ADB连接，自己操作手机而让AI分析包与脚本；未具名平台、模型或实际抢券成果。 **[其他 AI 逆向 · 进行中]**
 - [阿杭的剪映Codex版：先澄清需求，再研究并组装剪辑能力](../cases/ahang-codex-jianying-intent-clarification-rebuild.md) — 阿杭报告Codex研究与自用剪辑，后公开完整Plan提示：独立编辑器、AI确认后执行及可编辑工程兼容；这些是验收目标，尚无源码或完整功能对照。 **[其他 AI 逆向 · 进行中]**
 - [OpenMontage：参考片节奏到Transformer科普前10秒的具体设想](../cases/openmontage-reference-edit-transformer-ten-second-idea.md) — 参考视频结构研究与Transformer前10秒idea新增生产管线说明：人工创意检查点、Piper离线配音和本地合成；介绍者只看演示，未运行，不能当零成本或变现验证。 **[其他 AI 逆向 · 相关项目]**
@@ -671,7 +676,7 @@
 - [停运旧App：leftmeonbread称Opus拆开已购APK并使用Ghidra](../cases/leftmeonbread-opus-defunct-apk-ghidra.md) — leftmeonbread称让Opus分析早年购买、现已停运App的APK，模型开始使用Ghidra；没有公开App身份、分析输出或功能恢复结果。 **[其他 AI 逆向 · 进行中]**
 - [Nicholas Michael Kloster的逆向工具：以Sonnet 4.6开发，称Kimi更适合后续需求](../cases/showxlate-claude-sonnet-reversing-tool.md) — @showxlate称用Claude Code Sonnet4.6构建自己的逆向工具，因此保留其贡献者署名；当前偏好Kimi，但未给工具名、代码或对照测试。 **[其他 AI 逆向 · 相关项目]**
 - [RoxSkin开发前的参考站研究：Tim Grassin让Claude Code分析HYROX赞助网站](../cases/timgrassin-roxskin-hyrox-site-claude-study.md) — Tim Grassin称在开发RoxSkin前，调用逆向skill让Claude Code研究Marc Lou的HYROX赞助网站；没有公开分析报告或功能等价验证。 **[其他 AI 逆向 · 待验证]**
-- [Hugo的uu分析：逆向任务中观察Claude型号与风控提示的差异](../cases/hugo-uu-claude-reversing-model-routing-report.md) — Hugo称Claude逆向其称为uu的目标时保持Opus5.5，而此前UI小工具分析遇到型号变化和提示；未说明uu的完整产品身份或分析结果。 **[其他 AI 逆向 · 进行中]**
+- [Hugo的uu研究已搁置：从Claude型号观察到手机远程操作Agent的替代方案](../cases/hugo-uu-claude-reversing-model-routing-report.md) — Hugo先称Claude分析uu保持Opus5.5，后在UU远程讨论中说上月逆向后未继续开发；建议手机Claude远连家中CC，不等于重建UU或验证模型路由。 **[其他 AI 逆向 · 待验证]**
 - [QuixiDesk：Eric Hartford以REA研究Claude Desktop，重建可换模型的Rust客户端](../cases/quixiai-quixidesk-rea-claude-desktop-recreation.md) — Eric Hartford称用REA逆向Claude Desktop，公开QuixiDesk原生Rust替代客户端，支持本地与云模型；固定README及Cargo清单可读，但完整功能等价和安全边界未经独立测试。 **[REA · 进行中]**
 - [Malvex：用REA／MCP组织恶意软件分析，要求模型猜测回到静态或运行证据](../cases/malvex-ai-malware-analysis-evidence-workflow.md) — 日文介绍Malvex六阶段Agent分析框架；公开README描述REA及其他MCP后端、证据门和异构系统动态分析限制。文档功能及数量口径不一，未运行样本，不能将框架规则视为可靠性证明。 **[REA · 相关项目]**
 - [米修斯的微信本地数据库：称Grokbot解密后每日整理工作待办与花销](../cases/grokbot-wechat-local-database-tasks-spending-report.md) — 米修斯称让Grokbot解密自己电脑的微信数据库，并每日汇总工作聊天待办和支出；无版本、工具、代码或准确率，保留为作者自述，不等于破解微信全部协议。 **[其他 AI 逆向 · 待验证]**
