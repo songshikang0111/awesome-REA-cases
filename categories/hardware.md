@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [音箱到家居控制：fomoebka转述Karpathy的本地模型逆向经历](../cases/fomoebka-karpathy-speakers-local-model-report.md) — fomoebka引述Karpathy说模型用几个提示研究音箱，随后控制家居；没有设备型号、协议、代码或原始访谈核对，不认证整屋能力与身份标签。 **[其他 AI 逆向 · 待验证]**
+- [NullMoth实验平台：Ady称用REA、Ghidra与AI修补x86-64 macOS组合](../cases/ady-nullmoth-x86-macos-rea-ghidra-poc.md) — AdyLovelace称在Core Ultra 5 245KF和RTX50平台测试OpenCore／NullMoth组合，并以REA、Ghidra和AI做修补；作者不准备发布补丁，没有驱动覆盖或复现记录。 **[REA · 待验证]**
+- [IC-705数字模式固件：otti测试改版，但AI／Ghidra与完整源码仍是猜测](../cases/otti-ic705-ai-ghidra-firmware-source-uncertainty.md) — otti在sq6emm的IC-705改固件测试串中猜测AI与Ghidra可能只修补部分而非恢复全源码；根帖只确认其报告数字模式测试，没有验证AI流程。 **[其他 AI 逆向 · 待验证]**
+- [打印机墨盒检查：读者问Claude能否改固件，Epson只警告作为对照](../cases/claude-printer-firmware-cartridge-check-removal-idea.md) — 在第三方墨盒被固件拒绝的讨论中，读者问Claude能否移除墨盒检查，称自用Epson只警告不阻止；没有实际改动或测试。 **[其他 AI 逆向 · 待验证]**
+- [旧打印机墨盒限制：Jules自称用REA改固件，设备只写canon laserjet](../cases/jollyroger-rea-canon-printer-firmware-cartridge-report.md) — Jules在墨盒芯片限制讨论中说刚用修改模型和REA移除旧打印机固件限制；canon laserjet命名保留原样，缺型号、补丁和打印验证。 **[REA · 待验证]**
+- [旧Redmi Note10 Pro Max再利用：Bhuvanesh称Claude找无gApps ROM并备份侧载](../cases/bhuvanesh-redmi-note10-pro-max-claude-rom-rescue.md) — Mehdi评论Claude救活旧Redmi，父帖Bhuvanesh说模型完成ROM查找、下载与备份侧载；没有ROM名称和设备验证，不当AI反编译固件。 **[其他 AI 逆向 · 相关项目]**
 - [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](../cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — RetroChainer转述PopaSpinka用Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466 AMOLED板；两晚、60fps与零撕裂未复测。 **[其他 AI 逆向 · 待验证]**
 - [矿机固件与ASIC优势：Promoted问何时用LLM研究闭源固件](../cases/bitcoin-miner-firmware-llm-research-idea.md) — Promoted在Bitmain及同行固件/IP争论中提出用LLM逆向，未实际研究；旧串只是开放固件与芯片效率的背景，不证实IP或性能结论。 **[其他 AI 逆向 · 待验证]**
 - [OpenGlass Go：Kimi研究裸眼3D屏，Gemini收尾Armbian替代固件](../cases/openglass-go-kimi-gemini-armbian-firmware.md) — Megabits为Looking Glass Go做开源Armbian固件，称Kimi负责多数逆向和初期代码、Gemini Neon收尾；公开文档支持H618与STM32控制方案，未实机复测。 **[其他 AI 逆向 · 进行中]**

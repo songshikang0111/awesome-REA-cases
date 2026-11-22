@@ -1,7 +1,7 @@
 # AnyPS5: readers credit AI with PS5 syscall research; compatibility and playability remain unverified
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-21
+Record date: 2026-11-22
 Stage: Needs verification
 
 At 11:02:42 Beijing time on November 1, 2026, a participant compares AnyPS5 with Valve's years on Proton, crediting AI with accelerating PS5 syscall research and compatibility-layer work. No real software emulation is their judgment, not a source or trace finding. A November 15 account at 14:58:45 describes relinking games into native Windows/Linux programs and converting graphics commands to Vulkan, listing syscalls, graphics, encryption and compatibility as obstacles. The 54,000 stars were unchecked; a future GTA 6 port remained a prediction.
@@ -18,11 +18,14 @@ Earlier supplementary README review identified boykopovar/AnyPS5 at 84e16538d401
 
 A November 21 candidate at 04:16:28 repeats the 82/400 credits and game-boot claims, with over 58,000 stars. At 05:27:37, mercante (@merccante) says the 400 commits span fifteen hours two minutes, 82 credits represent 20.5%, and shaders cover 1,284/1,284 modules with zero fallbacks, up from 52% in July to 100% now. Retrieving the latter confirmed attribution and video presence. Neither post supplies a reconstructable commit list or module test set, so they do not resolve Vibefold's earlier counting difference; module totals do not prove correct graphics in all games. Stars and an early-2027 Rockstar plan remain unchecked. Missing a dump does not mean only one file separates the project from complete game acceptance. This remains separate from another author's missing-exe reconstruction claim in this round.
 
+A November 22 post at 05:26:38 repeats the promotion and additionally claims a chunk of GTA VI source structure, covering Leonida world props, the wanted system and character scripts, with Claude Code untangling dependencies. No graph, files, revision or performance data is supplied, while the same post still says a clean dump is missing; genuine source possession is not established. Another post at 05:42:23 claims 171 GPU mentions and forty cards in git log, naming RTX 4090, RX 6700 XT and RTX 3060 plus Radeon 860M, Radeon 660M and Intel UHD 770. There is no commit list, query, environment, game test or frame-rate record. Mentioning a GPU does not prove GTA 6 runs on it, and the supposed leaked minimum requirements remain unchecked. Both additions record secondary claims and limits, not a replacement for the credit-count dispute or pinned README scope.
+
 November 1 candidate: 0 likes, 42 views, 0 reposts. The Proton analogy is not architecture or playability evidence.
 November 15 candidate: 0 likes, 89 views, 0 reposts, 0 replies; 54,000 stars unchecked.
 November 20 candidate: 90 likes, 12,365 views, 8 reposts, 9 replies. The 82/400 credits, fifteen hours, 52%-to-100% coverage and 57,700 stars are secondary claims, not evidence GTA 6 runs.
 Vibefold candidate: 1 like, 48 views, 0 reposts, 0 replies. The 52/185 and model breakdown are another reader's count; the original set was not reconstructed here.
 November 21 sealed snapshots: 04:16 post has 14 likes, 1,947 views, 1 repost, 10 replies; 05:27 post has 10 likes, 1,388 views, 0 reposts, 0 replies. Fifteen hours two minutes and 1,284 modules were not independently checked.
+November 22 snapshots: 05:26 post has 33 likes, 2,330 views, 3 reposts, 10 replies; 05:42 post has 21 likes, 3,564 views, 3 reposts, 4 replies. No structure graph or GPU test record was obtained.
 
 ## Sources
 
@@ -33,5 +36,7 @@ November 21 sealed snapshots: 04:16 post has 14 likes, 1,947 views, 1 repost, 10
 - [Supplement: post-comment README pinned at 23:59:07, architecture and counting scope](https://github.com/boykopovar/AnyPS5/blob/84e16538d401370f92b31f36a7e92fb1bbc92360/README.md)
 - [New account: Claude commits and a still-missing dump, November 21, 2026 at 04:16:28 Beijing time](https://x.com/i/status/2123873131987079260)
 - [mercante adds commit timing and 1,284-module claims, November 21, 2026 at 05:27:37 Beijing time](https://x.com/i/status/2123891035441111217)
+- [Unchecked GTA 6 structure and Claude dependency-graph account, November 22, 2026 at 05:26:38 Beijing time](https://x.com/i/status/2124253175645409437)
+- [Account of 171 GPU log mentions and forty cards, November 22, 2026 at 05:42:23 Beijing time](https://x.com/i/status/2124257137660699130)
 
 [中文](../anyps5-ai-syscall-compatibility-layer-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Claude研究Lean直到能编译？Chris Pang对所谓RH证明的源码分析归因质疑](../cases/chris-pang-claude-lean-code-compilation-critique.md) — Chris Pang称所谓黎曼猜想证明只是Claude研究Lean源码直到编译通过；没有工件、测试或漏洞细节，不据此判断证明真假或Lean被攻破。 **[其他 AI 逆向 · 待验证]**
 - [把Lean巨型证明反编译成人能读的论证：AI解释重建idea](../cases/lean-proof-human-readable-ai-reconstruction-idea.md) — 帖子设想AI将所谓1700万行Lean证明压缩为人可理解的论证，避免世纪级阅读；没有算法、实现或正确性验证。 **[其他 AI 逆向 · 待验证]**
 - [反推levelsio回复检查器再训练LLM：父帖其实只谈封锁名单的idea](../cases/levelsio-ai-reply-checker-llm-reconstruction-idea.md) — Vladimir Kosenko问能否逆向levelsio的AI回复检查器并训练LLM；原串只确认mass block list讨论，没有证明存在可复建分类器。 **[其他 AI 逆向 · 待验证]**
 - [只读十六进制的二进制研究：ministat错误、机器码生成与单个恶意样本](../cases/hex-only-binary-analysis-ministat-malware-study.md) — Xiao Tan转述GPT6.1 Sol不调用工具读十六进制，发现ministat统计表问题，并做二进制生成、修改和单恶意样本分析；未取得原论文或重跑实验。 **[其他 AI 逆向 · 分析测试]**
@@ -75,7 +76,7 @@
 - [精确恢复动画提示的挑战：OscarAI要求反推Midjourney sref与Seedance2.5](../cases/oscarai-exact-sref-seedance-animation-challenge.md) — OscarAI要求任意AI从动画恢复精确风格引用与提示并完美复现，以反驳逆向万能论；这是未完成的挑战，未给原始参数或逐帧验证。 **[其他 AI 逆向 · 待验证]**
 - [十类付费SEO报告的逻辑重建：Paul用Fable5.2与真实数据研究自己的ChatSEO站](../cases/paul-fable52-ten-seo-report-logic-rebuild.md) — Paul报告一轮Agent会话重建审计、关键词／外链差距等十类报表，单站数据费用低于1美元；未逐行对照付费套件，也未实施建议或测量流量增益。 **[其他 AI 逆向 · 分析测试]**
 - [LinkedIn爆款到原创X草稿：崔棉转述Claude拆主题与互动驱动的营销idea](../cases/mastercui-claude-linkedin-post-pattern-study-idea.md) — 一篇零预算营销指南建议给Claude主题与社区列表，研究高互动LinkedIn帖子后重写原创X草稿，可扩到Reddit；未给实际样本与前后传播测试。 **[其他 AI 逆向 · 待验证]**
-- [Treg增长拆解技能：从REA for Growth到黑五REA-marketing发布](../cases/treg-rea-for-growth-competitor-teardown-skill.md) — Treg的REA-marketing从公开数据拆广告、合作与优惠；Wyatt称用真正REA审查后发现走其付费服务。技能名称不代表软件逆向或morluto引擎，服务依赖与因果均未独立核。 **[其他 AI 逆向 · 相关项目]**
+- [Treg增长拆解技能：从REA for Growth到黑五REA-marketing发布](../cases/treg-rea-for-growth-competitor-teardown-skill.md) — Treg增长拆解新增Hermes接入介绍、SEEN／INFERRED标记及约3美元品牌预算上限；Wyatt此前指其依赖付费服务。均未复跑，不将公开痕迹推断当因果或完整覆盖证明。 **[其他 AI 逆向 · 相关项目]**
 - [月夜牡丹园人像：sandmrk反推构图、汉服与双色光提示，承认仍不匹配](../cases/sandmrk-moonlit-peony-portrait-prompt-reconstruction.md) — sandmrk为月夜牡丹园栏杆前人物反推16:9图像提示词，给出画面坐标、服饰与色板；作者明确生成结果不能完全匹配原图，仍需优化。 **[其他 AI 逆向 · 待验证]**
 - [Shape JavaScript虚拟机：BottingRocks发布AI辅助开发的Rust逆向工具包](../cases/bottingrocks-shape-security-rust-ai-toolkit.md) — BottingRocks称把多年Shape虚拟机研究整理为Rust工具包，近期由AI coding agents加速；固定README确认去混淆、追踪与信号编解码定位，同时限定构建／会话匹配及不支持编辑的拒绝行为。 **[其他 AI 逆向 · 待验证]**
 - [Dance Motion Chain Library：反推舞蹈姿态提示词与娜嘉角色动作的推广报告](../cases/dance-motion-chain-library-nadja-prompt-report.md) — Nathan AI Lab介绍把热门舞蹈拆为姿态提示词链，提及《明日的娜嘉》角色还原；库、输入视频、模型与输出对照未审，不认可能保证修复肢体变形。 **[其他 AI 逆向 · 待验证]**

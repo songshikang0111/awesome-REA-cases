@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [用raea重建1917年柏林：Claude读地址簿，地图与照片变成可编码场景](../cases/raea-1917-berlin-records-code-reconstruction.md) — Shane说从住房照片出发，用历史地图、楼高、地址簿与下水道图在raea复建柏林，剪成9分半纪录片；Claude负责读地址簿，历史准确性与开源工件未核。 **[其他 AI 逆向 · 相关项目]**
+- [从截图复建卡片导出器：三模型分工与失败回送的工作流idea](../cases/ai-card-exporter-observed-behavior-rebuild-workflow-idea.md) — 帖子建议Grok研究、Claude写规格、ChatGPT实现，用卡片导出器示范数量、顺序、尺寸和文字检查；不是已重建具名App或跑通的Agent团队。 **[其他 AI 逆向 · 待验证]**
+- [GTA6作弊码伴侣App：COCOLEMON建议REA／Claude复建，不是破解游戏](../cases/gta6-cheat-code-companion-rea-copy-idea.md) — COCOLEMON在GTA6作弊码App收益宣传下说用/rea让Claude复制；父帖明确应用类型，但无应用名、实现或已核收入。 **[REA · 待验证]**
 - [RhinoAI：让Claude／Codex研究已有几何并编辑Grasshopper定义的转述](../cases/rhinoai-mcp-existing-geometry-grasshopper-report.md) — Marko称RhinoAI通过MCP让Agent操作几何、插件与Grasshopper图，演示含草图到参数模型和已有几何逆向；未核发布版本或几何准确率。 **[其他 AI 逆向 · 相关项目]**
 - [人在园艺，Claude做反编译：Markov的低细节进行中自述](../cases/markov-claude-decompilation-optimization-gardening-report.md) — Markov说当天自己园艺时让Claude Code做反编译和优化；未指明软件、结果或测试，不与其他项目合并。 **[其他 AI 逆向 · 进行中]**
 - [三层视差动态壁纸：Claude提示重建Android倾斜效果，而非APK破解](../cases/android-parallax-wallpaper-claude-behavior-recreation-idea.md) — 帖子给Claude写Kotlin WallpaperService的具体提示，三图层按倾斜反向移动、低通平滑与呼吸光效；只是公开API的行为复建方向，未展示运行。 **[其他 AI 逆向 · 待验证]**
@@ -15,7 +18,7 @@
 - [hydrogen与Gemini：CRIMINAL MONSTER提出skill.md音乐改造，效果未核](../cases/gemini-hydrogen-skill-music-integration-idea.md) — CRIMINAL MONSTER称和Gemini用skill.md改造hydrogen，贴六段音乐编排并考虑HTH引擎；未确定目标产品身份或取得代码、接口与音频结果，仅作整合idea。 **[其他 AI 逆向 · 待验证]**
 - [RealRederaLLM：Hakeem介绍模型网关与逆向开发平台，尚无目标分析记录](../cases/realrederallm-ai-gateway-reverse-development-platform.md) — Hakeem Jones将RealRederaLLM称为开源AI API网关及逆向开发平台，列多模型路由、编程Agent、软件分析与本地AI；未取得源码或具体目标的分析输出。 **[其他 AI 逆向 · 相关项目]**
 - [Consessus：用REA研究四款Mac编程助手的本机通信，让已有会话互发消息](../cases/consessus-rea-mac-agent-app-interoperability.md) — ns称用rea研究Claude、Codex、Antigravity与OpenCode的本机接口，做成跨应用会话CLI；固定文档记录单机往返与房间测试，也明确桌面版例外及未测分支。 **[REA · 进行中]**
-- [产品短片工作流idea：Claude统筹Rea-Video拆镜与代码动画重建](../cases/claude-rea-video-product-film-pipeline-idea.md) — 日语帖子将13个工具组织为视频制作流程：Rea-Video分析参考片，再以代码与生成素材组装产品片；是可试组合，不是已跑通电影工作室。 **[其他 AI 逆向 · 待验证]**
+- [产品短片工作流idea：Claude统筹Rea-Video拆镜与代码动画重建](../cases/claude-rea-video-product-film-pipeline-idea.md) — 13工具视频工作流新增精简试验计划：Rea-Video拆参考片，Remotion写字幕片头，先验收60秒样片；未展示完成结果或整线验证。 **[其他 AI 逆向 · 待验证]**
 - [vogel的iOS研究：称Agent正在逆向，尚无子系统或结果](../cases/agent-ios-reverse-engineering-in-progress-report.md) — vogel回复称有Agent正在逆向iOS；仅有系统级目标与进行中自述，没有模型、版本、方法或发现，不与其Wyze固件项目混同。 **[未确认使用 REA · 进行中]**
 - [旧服务端逆向重构：Ye An称opencode跑七小时后可启动](../cases/opencode-6astra-legacy-server-reconstruction-report.md) — Ye An报告opencode配6／astra重构旧项目，运行七小时后多模型审查未发现bug，服务端可启动；项目未具名，零发现不等于零缺陷。 **[其他 AI 逆向 · 待验证]**
 - [STM32轻量开发环境：Christopher考虑用Claude做CubeIDE／CubeMX开源替代](../cases/claude-stm32-cubeide-lightweight-alternative-idea.md) — Christopher称Claude能绕开CubeIDE／CubeMX写STM32固件，因此考虑投入token做轻量开源替代；尚无工具仓库、兼容功能清单或实机验证。 **[其他 AI 逆向 · 待验证]**
