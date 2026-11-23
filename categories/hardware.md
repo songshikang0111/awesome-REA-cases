@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Mjolnir：让Agent按项目威胁模型研究信任根固件与RTL漏洞](../cases/mjolnir-root-of-trust-project-grounded-agents.md) — 研究摘要称Mjolnir向发现与怀疑性复核Agent提供项目规则，再以原工具链PoC研究Caliptra、OpenTitan和OpenPRoT六个目标；64个新问题获维护者确认是摘要自报，未读原论文或复测。 **[其他 AI 逆向 · 分析测试]**
+- [蓝牙连接逆向被叫停：Hendrik Nieweg的Claude Code护栏受阻报告](../cases/hendrik-nieweg-bluetooth-claude-safeguard-failure.md) — Hendrik Nieweg称前一天研究一条蓝牙连接时触发Claude Code护栏，工具表示不再继续；设备、协议和拒绝理由未公开，没有后续成功结果。 **[其他 AI 逆向 · 待验证]**
 - [DualSense变BTC行情指示器：gisu分享Claude Code灯条与扳机提示方案](../cases/gisu-dualsense-claude-bitcoin-ticker-idea.md) — gisu称用Claude Code把PS5手柄改成Bitcoin行情指示器，并给USB加pydualsense提示；现成库集成不等于新协议逆向，30分钟与演示未核。 **[其他 AI 逆向 · 待验证]**
 - [KVM修复交回厂商：Elias Puurunen回顾AI相关逆向与完整说明](../cases/elias-puurunen-ai-kvm-bugfix-report.md) — Elias Puurunen在AI用途回复中称逆向一台KVM、修复bug并将补丁与完整说明交给制造商；未提供型号、缺陷或厂商接收记录。 **[其他 AI 逆向 · 待验证]**
 - [NDI相机固件改进：Elias Puurunen的AI相关逆向回顾](../cases/elias-puurunen-ai-ndi-camera-firmware-report.md) — Elias Puurunen称研究一款NDI相机固件并制作更好的固件；没有机型、改进项、源码或对照，不能扩写为协议破解或完整替代固件。 **[其他 AI 逆向 · 待验证]**
@@ -517,7 +519,7 @@
 - [Samsung电视语音遥控：Codez称Opus研究局域网API后接入Grok Bot](../cases/codez-samsung-opus-grokbot-netflix-remote.md) — Codez称Opus 5.5研究Samsung电视控制接口，制作打开Netflix、移动和选择三工具插件，由Grok Bot处理语音；未给型号或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [楼宇门铃实时画面：Mattia用REA与Ghidra研究固件，以树莓派替代室内屏](../cases/mattia-doorbell-rea-ghidra-rust-live-view.md) — Mattia Righetti报告从门口机ARM固件恢复UDP/XML通话机制，以树莓派接收视频，再由Rust服务与FFmpeg向浏览器提供实时画面；品牌、源码和测试日志未取得。 **[REA · 待验证]**
 - [Ride Relay：OpenCode与DeepSeek把Google Maps转向提示送到Pulsar NS200仪表](../cases/ride-relay-pulsar-ns200-google-maps.md) — Manovikram K称研究Bajaj应用后做出Android桥接，从Google Maps通知提取方向与距离并转为蓝牙包，报告实车可用，不需root或改官方APK。 **[其他 AI 逆向 · 待验证]**
-- [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](../cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；11月5日第三方补述STL测量、CAD偏差、壁厚与STEP实体重建，尚无尺寸精度或实现核验。 **[其他 AI 逆向 · 进行中]**
+- [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](../cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；Firworks另报告用CNC Kitchen的本地扫描工具重定向扫描，未称自己已用AI重建CAD，尺寸精度与实现仍未核验。 **[其他 AI 逆向 · 进行中]**
 - [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](../cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid报告Codex协助Switch 2研究，明确两周大量人工投入与自动目标失败；11月11日二手报道又称23.5.0封堵逃逸，未实机核验。 **[其他 AI 逆向 · 进行中]**
 - [工程机麦克风链路：Carlos Gong称Codex调固件驱动后一小时内可录音](../cases/codex-engineering-unit-microphone-path-repair.md) — Carlos Gong称Codex在工程机上修复麦克风收音链路，自己提供多次录音反馈；低底噪为主观报告，新增优化算法只是猜测。 **[其他 AI 逆向 · 待验证]**
 - [Noir M1：REA与Opus研究Windows应用，在Mac增加手势的自述](../cases/noir-m1-rea-opus-mac-gestures.md) — ARES称用REA与Opus 5.5研究Noir M1仅有Windows版的配套应用，在Mac增加手势并报告可用；硬件类型、协议与兼容范围未核。 **[REA · 待验证]**

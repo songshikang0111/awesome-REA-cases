@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2692 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2696 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（527）
-- [硬件与设备互通](categories/hardware.md)（710）
-- [应用与客户端](categories/apps.md)（1112）
+- [游戏与游戏保存](categories/games.md)（528）
+- [硬件与设备互通](categories/hardware.md)（712）
+- [应用与客户端](categories/apps.md)（1113）
 - [算法与功能重建](categories/algorithms.md)（343）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [ZombiU与Steam Deck下屏：AI反编译建议之后，玩家纠正真正难点](cases/zombiu-ai-decompile-steam-deck-gamepad-idea.md) — Gr4v1TyEXcell建议先让AI反编译ZombiU；父串目标是让Steam Deck当Wii U GamePad、笔记本当主屏，玩家随后澄清游戏早能跑，问题是下屏连接。未实施idea。 **[其他 AI 逆向 · 待验证]**
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
@@ -34,7 +35,7 @@
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**
 - [号称GTA6文件安全吗：oak90ghp提出交AI逆向检查的idea](cases/oak90ghp-gta6-claimed-files-ai-inspection-idea.md) — oak90ghp在号称208G GTA6文件的帖子下问下载并建议AI逆向查问题；父帖不证明文件真实、无恶意或可玩，未获取目标。 **[其他 AI 逆向 · 待验证]**
-- [GTA VI重写剧情idea：用AI反编译后改成Vice City式黑帮故事](cases/gta6-ai-vice-city-style-story-rewrite-idea.md) — 帖子提出利用GTA VI已有底层代码，让AI反编译后换成Vice City式黑帮剧情；没有实现、模型或演示。 **[其他 AI 逆向 · 待验证]**
+- [GTA VI重写剧情idea：用AI反编译后改成Vice City式黑帮故事](cases/gta6-ai-vice-city-style-story-rewrite-idea.md) — 已有AI反编译GTA VI再改Vice City式剧情的idea，Cybrnut另建议用REA重建CV storyline；没有实施、模型或演示，两帖不证明来自同一团队。 **[其他 AI 逆向 · 待验证]**
 - [免费pak分析受阻：Aviex称Claude接IDA后因危险代码拒绝，串内有人反驳其指控](cases/aviex-claude-ida-free-pak-analysis-refusal.md) — Aviex说Claude连接IDA分析免费pak时提示危险并拒绝继续；父串把它解读为keylogger／RCE，另一用户反驳，模型拒绝不是恶意样本检测结论。 **[其他 AI 逆向 · 待验证]**
 - [Rockstar如何同时渲染和模拟这些细节：Steve建议用Claude反编译研究](cases/rockstar-claude-rendering-simulation-research-idea.md) — Steve Korshakov建议Claude反编译，回应Tim Soret对Rockstar绘制调用、毛发、物理、NPC、光照与流式加载的疑问；这是渲染机制研究idea，不是已分析代码。 **[其他 AI 逆向 · 待验证]**
 - [把GTA6重做成北京：REA研究后重建朝阳大悦城与西直门桥的idea](cases/gta6-beijing-rea-scene-rebuild-idea.md) — 作者请求用Reverse Engineer Anything研究GTA6、重做场景为北京，让玩家提前体验朝阳大悦城和西直门桥驾驶；没有实现、素材或工时证据。 **[REA · 待验证]**
@@ -459,7 +460,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](cases/gta6-ai-decompile-prediction.md) — 既有Linux／Vulkan、Qwen、Claude／REA移植愿望后，ViceDEV称已重编译GTA VI文件，完整视频却以传播门槛延后；没有仓库、构建日志或可玩PC版，众包与期限预测也未核实。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](cases/gta6-ai-decompile-prediction.md) — GTA6 PC移植愿望与ViceDEV文件重编译自称之后，Yumzlef又宣称三模型实时补丁、RTX3060锁60fps；仍无具名仓库、构建或性能日志，不是已核可玩PC版。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**
@@ -556,6 +557,8 @@
 
 ### 硬件与设备互通
 
+- [Mjolnir：让Agent按项目威胁模型研究信任根固件与RTL漏洞](cases/mjolnir-root-of-trust-project-grounded-agents.md) — 研究摘要称Mjolnir向发现与怀疑性复核Agent提供项目规则，再以原工具链PoC研究Caliptra、OpenTitan和OpenPRoT六个目标；64个新问题获维护者确认是摘要自报，未读原论文或复测。 **[其他 AI 逆向 · 分析测试]**
+- [蓝牙连接逆向被叫停：Hendrik Nieweg的Claude Code护栏受阻报告](cases/hendrik-nieweg-bluetooth-claude-safeguard-failure.md) — Hendrik Nieweg称前一天研究一条蓝牙连接时触发Claude Code护栏，工具表示不再继续；设备、协议和拒绝理由未公开，没有后续成功结果。 **[其他 AI 逆向 · 待验证]**
 - [DualSense变BTC行情指示器：gisu分享Claude Code灯条与扳机提示方案](cases/gisu-dualsense-claude-bitcoin-ticker-idea.md) — gisu称用Claude Code把PS5手柄改成Bitcoin行情指示器，并给USB加pydualsense提示；现成库集成不等于新协议逆向，30分钟与演示未核。 **[其他 AI 逆向 · 待验证]**
 - [KVM修复交回厂商：Elias Puurunen回顾AI相关逆向与完整说明](cases/elias-puurunen-ai-kvm-bugfix-report.md) — Elias Puurunen在AI用途回复中称逆向一台KVM、修复bug并将补丁与完整说明交给制造商；未提供型号、缺陷或厂商接收记录。 **[其他 AI 逆向 · 待验证]**
 - [NDI相机固件改进：Elias Puurunen的AI相关逆向回顾](cases/elias-puurunen-ai-ndi-camera-firmware-report.md) — Elias Puurunen称研究一款NDI相机固件并制作更好的固件；没有机型、改进项、源码或对照，不能扩写为协议破解或完整替代固件。 **[其他 AI 逆向 · 待验证]**
@@ -1071,7 +1074,7 @@
 - [Samsung电视语音遥控：Codez称Opus研究局域网API后接入Grok Bot](cases/codez-samsung-opus-grokbot-netflix-remote.md) — Codez称Opus 5.5研究Samsung电视控制接口，制作打开Netflix、移动和选择三工具插件，由Grok Bot处理语音；未给型号或兼容测试。 **[其他 AI 逆向 · 待验证]**
 - [楼宇门铃实时画面：Mattia用REA与Ghidra研究固件，以树莓派替代室内屏](cases/mattia-doorbell-rea-ghidra-rust-live-view.md) — Mattia Righetti报告从门口机ARM固件恢复UDP/XML通话机制，以树莓派接收视频，再由Rust服务与FFmpeg向浏览器提供实时画面；品牌、源码和测试日志未取得。 **[REA · 待验证]**
 - [Ride Relay：OpenCode与DeepSeek把Google Maps转向提示送到Pulsar NS200仪表](cases/ride-relay-pulsar-ns200-google-maps.md) — Manovikram K称研究Bajaj应用后做出Android桥接，从Google Maps通知提取方向与距离并转为蓝牙包，报告实车可用，不需root或改官方APK。 **[其他 AI 逆向 · 待验证]**
-- [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；11月5日第三方补述STL测量、CAD偏差、壁厚与STEP实体重建，尚无尺寸精度或实现核验。 **[其他 AI 逆向 · 进行中]**
+- [ScanRuler：CNC Kitchen用AI与MCP从GoPro夹具扫描重建几何](cases/scanruler-gopro-clamp-ai-mcp.md) — Stefan以AI／MCP从GoPro夹具扫描恢复几何；Firworks另报告用CNC Kitchen的本地扫描工具重定向扫描，未称自己已用AI重建CAD，尺寸精度与实现仍未核验。 **[其他 AI 逆向 · 进行中]**
 - [ns2jb：Codex辅助Switch 2研究，作者更正“一句话全自动越狱”](cases/ns2jb-codex-switch2-human-directed-research.md) — Sammy Hajhamid报告Codex协助Switch 2研究，明确两周大量人工投入与自动目标失败；11月11日二手报道又称23.5.0封堵逃逸，未实机核验。 **[其他 AI 逆向 · 进行中]**
 - [工程机麦克风链路：Carlos Gong称Codex调固件驱动后一小时内可录音](cases/codex-engineering-unit-microphone-path-repair.md) — Carlos Gong称Codex在工程机上修复麦克风收音链路，自己提供多次录音反馈；低底噪为主观报告，新增优化算法只是猜测。 **[其他 AI 逆向 · 待验证]**
 - [Noir M1：REA与Opus研究Windows应用，在Mac增加手势的自述](cases/noir-m1-rea-opus-mac-gestures.md) — ARES称用REA与Opus 5.5研究Noir M1仅有Windows版的配套应用，在Mac增加手势并报告可用；硬件类型、协议与兼容范围未核。 **[REA · 待验证]**
@@ -1269,6 +1272,7 @@
 
 ### 应用与客户端
 
+- [证券情绪App接口：krex称三模型协助研究并接入实时和历史数据](cases/krex-ai-securities-app-data-interface-report.md) — krex回顾Gemini、ChatGPT与Claude协助逆向一款未命名证券情绪App，通过接口同步实时与历史数据，并介绍自己的量化系统；未提供代码、授权或对照，REA只是后来提及。 **[其他 AI 逆向 · 待验证]**
 - [PHP应用改成Agent报告接口：Mike Majara的分页失败与computer use回退](cases/php-webapp-agent-reports-pagination-failure.md) — Mike Majara尝试研究PHP应用，把五个主页面变成报告、过滤与查询以省token；多数尝试失败，最终computer use不到十分钟完成原任务但仍耗大量token。 **[其他 AI 逆向 · 待验证]**
 - [闭源Electron到独立客户端：Patch称REA与Claude四分钟梳理IPC及WebSocket](cases/patch-rea-electron-websocket-client-report.md) — Patch称Claude Code经REA MCP研究闭源Electron应用的IPC和隐藏WebSocket API并写出客户端；未命名软件、公开代码或验证clean-room及四分钟说法。 **[REA · 待验证]**
 - [从合同到job级财务：Stephen Genusa称三周研究新旧系统恢复细粒度数据](cases/stephen-genusa-legacy-financial-job-level-reconstruction.md) — Stephen Genusa在AI辅助工作回顾中称研究几十年累积的新旧财务系统，得到原来只到合同层的job级财务；没有系统名、数据血缘或校验，不推断恢复源码或节省多少工时。 **[其他 AI 逆向 · 待验证]**
@@ -1277,7 +1281,7 @@
 - [逆向没碰到so：baibaoqq对MiMo Pro任务的失败反馈](cases/mimo-pro-so-reversing-failure-report.md) — baibaoqq称MiMo Pro逆向半天仍未分析so并生成无用内容；父帖是MiMo-V2.6发布，不能据回复认定精确后端或模型普遍能力。 **[其他 AI 逆向 · 待验证]**
 - [Windows旧工具改写Rust：Risun称AI研究.NET 3.5实现后提速](cases/risun-net35-tool-ai-rust-rewrite-report.md) — Risun因旧.NET 3.5工具仅支持Windows且性能一般，称AI逆向完整源码再以Rust重写；工具未命名，飞快无基准，也未确认新增平台。 **[其他 AI 逆向 · 待验证]**
 - [带内核调试的IDA替代品：shotgunner101转述AI重建与原生MCP](cases/ai-ida-replacement-hypervisor-mcp-secondary-report.md) — shotgunner101称认识的人用AI重建IDA Pro替代品，并加入hypervisor、内核级调试和原生MCP；无项目名、源码或对照，一比一仍未核。 **[其他 AI 逆向 · 待验证]**
-- [peopleofbengaluru多城改编争议：Shai与Chennai开发者对Claude复建的不同说法](cases/shai-city-website-claude-clone-report.md) — Shai称城市网站遭Claude仿制；Kishor称只是提示Claude做Chennai版以减少审批。父串补明peopleofbengaluru及作者开源意愿，但未核代码来源、等价或权利争议。 **[其他 AI 逆向 · 待验证]**
+- [peopleofbengaluru多城改编争议：Shai与Chennai开发者对Claude复建的不同说法](cases/shai-city-website-claude-clone-report.md) — Kishor称提示Claude改做Chennai版；Shai新指72%代码重合、24文件逐字节一致，并称曾解释后下架。保留双方归因，未取得比对文档，不裁定代码来源或侵权。 **[其他 AI 逆向 · 待验证]**
 - [逆向成果被删：小虎哥称Gemini 4 Neon替自己否定并删除工作](cases/gemini-neon-unnamed-reversing-work-deletion-report.md) — 小虎哥说Gemini 4 Neon认为先前逆向成果不好便删库，回复承认没有Git追踪；目标、删除范围与恢复结果未给，保留为失败自述。 **[其他 AI 逆向 · 待验证]**
 - [Cairn分析Dify企业镜像与Helm：安全综述中的静态逆向演示转述](cases/cairn-dify-ee-image-helm-static-reversing-report.md) — 安全帖子称Cairn在无明确范围的Dify测试中提出50多个连续意图，包含企业镜像和Helm chart静态逆向；意图数不是成功数，原演示与输出未获。 **[其他 AI 逆向 · 待验证]**
 - [Reverse-Engineer MCP：Aryan展示工具，超越REA仍是未验证比较](cases/aryan-reverse-engineer-mcp-comparison-project.md) — Aryan Thakur展示Reverse-Engineer MCP并称原生工具多于REA；回复说更关注破坏边界，未给工具清单、目标测试或可查仓库。 **[未确认使用 REA · 相关项目]**
@@ -1848,7 +1852,7 @@
 - [Safarier：多模型辅助研究Safari隐私模式的macOS多环境浏览器](cases/safarier-ai-safari-private-webkit-browser.md) — 范飒锡Leo转述Gemini/GPT/Opus参与Safarier；公开Swift/WebKit项目文档提供多环境隔离、sing-box和本地Agent桥，但逆向方法与指纹保护效果未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [ASC：Dopax介绍给Agent按需读取APK的反编译器](cases/asc-agent-android-decompiler-digest-report.md) — Dopax称ASC把APK当只读库、按需提取而不全量索引，面向Agent查询xref与单类反编译；性能、仓库身份和rust_ASC关系未核验。 **[其他 AI 逆向 · 待验证]**
 - [Ghidra MCP：Dopax转述200余工具的Agent分析服务](cases/ghidra-mcp-200-tools-digest-report.md) — Dopax介绍支持GUI/headless的Ghidra MCP，声称200余工具覆盖反编译、P-code数据流、调试与结构恢复；未确认精确实现，不把production-grade视为认证。 **[其他 AI 逆向 · 待验证]**
-- [Servicepipe指纹脚本：危险词义函数名干扰AI分析的二手测试报告](cases/servicepipe-ai-analysis-decoy-script-report.md) — 实践哥Li检查Servicepipe脚本；lifcc另转述veritas比较Astra/Daybreak与GLM5.3的分析表现。开发者是否故意布置拒绝陷阱、模型测试是否可重复均未核验。 **[其他 AI 逆向 · 待验证]**
+- [Servicepipe指纹脚本：危险词义函数名干扰AI分析的二手测试报告](cases/servicepipe-ai-analysis-decoy-script-report.md) — Servicepipe危险函数命名的模型拒绝转述后，lifcc讨论命名加提示注入的双层idea及AST预处理反论；没有新实测，不能采纳0%存活或普遍有效结论。 **[其他 AI 逆向 · 待验证]**
 - [Antigravity：Gemini Argon发现bug后推荐社区逆向补丁的自述](cases/neko-antigravity-gemini-community-patch-report.md) — 毒猫猫称Gemini Argon在工作中发现Antigravity bug并推荐社区逆向patch；没有bug身份、链接或安装结果，不能认定AI亲自编写修复。 **[其他 AI 逆向 · 待验证]**
 - [理想播客客户端：Moebius设想用REA综合三款应用](cases/moebius-rea-three-podcast-apps-combination-idea.md) — Moebius在创新争论中设想用REA研究三款播客应用，再组合自己的理想客户端；仅条件式idea，没有选定应用或实现。 **[REA · 待验证]**
 - [28应用组合：DigitalGoldTalk自称19天REA/Claude研究后进入testnet](cases/digitalgoldtalk-28-apps-rea-testnet-report.md) — DigitalGoldTalk称研究通信、社交、支付和媒体共28款应用，从Photoshop起步，现处testnet；没有完整应用表、代码或兼容测试。 **[REA · 待验证]**
@@ -2399,7 +2403,7 @@
 - [Claude研究Lean直到能编译？Chris Pang对所谓RH证明的源码分析归因质疑](cases/chris-pang-claude-lean-code-compilation-critique.md) — Chris Pang称所谓黎曼猜想证明只是Claude研究Lean源码直到编译通过；没有工件、测试或漏洞细节，不据此判断证明真假或Lean被攻破。 **[其他 AI 逆向 · 待验证]**
 - [把Lean巨型证明反编译成人能读的论证：AI解释重建idea](cases/lean-proof-human-readable-ai-reconstruction-idea.md) — 读者设想AI把巨型Lean证明变成人可理解的论证；新增回复建议分块用AI研究，但没有实现、依赖合并或语义保持验证，证明成功宣传也未核实。 **[其他 AI 逆向 · 待验证]**
 - [反推levelsio回复检查器再训练LLM：父帖其实只谈封锁名单的idea](cases/levelsio-ai-reply-checker-llm-reconstruction-idea.md) — Vladimir Kosenko问能否逆向levelsio的AI回复检查器并训练LLM；原串只确认mass block list讨论，没有证明存在可复建分类器。 **[其他 AI 逆向 · 待验证]**
-- [只读十六进制的二进制研究：ministat错误、机器码生成与单个恶意样本](cases/hex-only-binary-analysis-ministat-malware-study.md) — Xiao Tan转述GPT6.1 Sol不调用工具读十六进制，发现ministat统计表问题，并做二进制生成、修改和单恶意样本分析；未取得原论文或重跑实验。 **[其他 AI 逆向 · 分析测试]**
+- [只读十六进制的二进制研究：ministat错误、机器码生成与单个恶意样本](cases/hex-only-binary-analysis-ministat-malware-study.md) — Xiao Tan转述无工具十六进制实验中的ministat错误、生成/修改二进制及单恶意样本；Lira补述四程序识别、八选项和wordcount/记账补丁。未取得原论文或重跑。 **[其他 AI 逆向 · 分析测试]**
 - [MSVC决策观察器：Noah称Claude写hook，辅助Fallout匹配反编译](cases/noah-claude-msvc-register-scheduling-hook.md) — Noah把观察微软C++编译器寄存器选择与指令调度的工具归功Claude，称Fallout匹配反编译团队在使用；版本与97%／98%准确率为作者自报。 **[其他 AI 逆向 · 待验证]**
 - [用CSV记录假设再实验：進藤こだま转述DeepSeek与Ghidra逆向流程](cases/deepseek-ghidra-csv-hypothesis-debugging-workflow.md) — 進藤こだま介绍DeepSeek Harness通过MCP连Ghidra、Markdown写报告、卡住时用CSV列假设再实验的流程，意在避免盲目重试；未给具体目标或结果。 **[其他 AI 逆向 · 待验证]**
 - [一个函数十几轮未还原：finish2.0对比DSH加REA与Codex](cases/rea-dsh-codex-unnamed-function-recovery-comparison.md) — finish2.0称DSH用REA逆向某函数十几轮仍失败，Codex一轮还原；没有目标、源码或等价测试，不当作模型排名。 **[REA · 分析测试]**

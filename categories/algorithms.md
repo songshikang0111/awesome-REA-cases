@@ -17,7 +17,7 @@
 - [Claude研究Lean直到能编译？Chris Pang对所谓RH证明的源码分析归因质疑](../cases/chris-pang-claude-lean-code-compilation-critique.md) — Chris Pang称所谓黎曼猜想证明只是Claude研究Lean源码直到编译通过；没有工件、测试或漏洞细节，不据此判断证明真假或Lean被攻破。 **[其他 AI 逆向 · 待验证]**
 - [把Lean巨型证明反编译成人能读的论证：AI解释重建idea](../cases/lean-proof-human-readable-ai-reconstruction-idea.md) — 读者设想AI把巨型Lean证明变成人可理解的论证；新增回复建议分块用AI研究，但没有实现、依赖合并或语义保持验证，证明成功宣传也未核实。 **[其他 AI 逆向 · 待验证]**
 - [反推levelsio回复检查器再训练LLM：父帖其实只谈封锁名单的idea](../cases/levelsio-ai-reply-checker-llm-reconstruction-idea.md) — Vladimir Kosenko问能否逆向levelsio的AI回复检查器并训练LLM；原串只确认mass block list讨论，没有证明存在可复建分类器。 **[其他 AI 逆向 · 待验证]**
-- [只读十六进制的二进制研究：ministat错误、机器码生成与单个恶意样本](../cases/hex-only-binary-analysis-ministat-malware-study.md) — Xiao Tan转述GPT6.1 Sol不调用工具读十六进制，发现ministat统计表问题，并做二进制生成、修改和单恶意样本分析；未取得原论文或重跑实验。 **[其他 AI 逆向 · 分析测试]**
+- [只读十六进制的二进制研究：ministat错误、机器码生成与单个恶意样本](../cases/hex-only-binary-analysis-ministat-malware-study.md) — Xiao Tan转述无工具十六进制实验中的ministat错误、生成/修改二进制及单恶意样本；Lira补述四程序识别、八选项和wordcount/记账补丁。未取得原论文或重跑。 **[其他 AI 逆向 · 分析测试]**
 - [MSVC决策观察器：Noah称Claude写hook，辅助Fallout匹配反编译](../cases/noah-claude-msvc-register-scheduling-hook.md) — Noah把观察微软C++编译器寄存器选择与指令调度的工具归功Claude，称Fallout匹配反编译团队在使用；版本与97%／98%准确率为作者自报。 **[其他 AI 逆向 · 待验证]**
 - [用CSV记录假设再实验：進藤こだま转述DeepSeek与Ghidra逆向流程](../cases/deepseek-ghidra-csv-hypothesis-debugging-workflow.md) — 進藤こだま介绍DeepSeek Harness通过MCP连Ghidra、Markdown写报告、卡住时用CSV列假设再实验的流程，意在避免盲目重试；未给具体目标或结果。 **[其他 AI 逆向 · 待验证]**
 - [一个函数十几轮未还原：finish2.0对比DSH加REA与Codex](../cases/rea-dsh-codex-unnamed-function-recovery-comparison.md) — finish2.0称DSH用REA逆向某函数十几轮仍失败，Codex一轮还原；没有目标、源码或等价测试，不当作模型排名。 **[REA · 分析测试]**

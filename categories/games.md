@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [ZombiU与Steam Deck下屏：AI反编译建议之后，玩家纠正真正难点](../cases/zombiu-ai-decompile-steam-deck-gamepad-idea.md) — Gr4v1TyEXcell建议先让AI反编译ZombiU；父串目标是让Steam Deck当Wii U GamePad、笔记本当主屏，玩家随后澄清游戏早能跑，问题是下屏连接。未实施idea。 **[其他 AI 逆向 · 待验证]**
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](../cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](../cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](../cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
@@ -10,7 +11,7 @@
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](../cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](../cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**
 - [号称GTA6文件安全吗：oak90ghp提出交AI逆向检查的idea](../cases/oak90ghp-gta6-claimed-files-ai-inspection-idea.md) — oak90ghp在号称208G GTA6文件的帖子下问下载并建议AI逆向查问题；父帖不证明文件真实、无恶意或可玩，未获取目标。 **[其他 AI 逆向 · 待验证]**
-- [GTA VI重写剧情idea：用AI反编译后改成Vice City式黑帮故事](../cases/gta6-ai-vice-city-style-story-rewrite-idea.md) — 帖子提出利用GTA VI已有底层代码，让AI反编译后换成Vice City式黑帮剧情；没有实现、模型或演示。 **[其他 AI 逆向 · 待验证]**
+- [GTA VI重写剧情idea：用AI反编译后改成Vice City式黑帮故事](../cases/gta6-ai-vice-city-style-story-rewrite-idea.md) — 已有AI反编译GTA VI再改Vice City式剧情的idea，Cybrnut另建议用REA重建CV storyline；没有实施、模型或演示，两帖不证明来自同一团队。 **[其他 AI 逆向 · 待验证]**
 - [免费pak分析受阻：Aviex称Claude接IDA后因危险代码拒绝，串内有人反驳其指控](../cases/aviex-claude-ida-free-pak-analysis-refusal.md) — Aviex说Claude连接IDA分析免费pak时提示危险并拒绝继续；父串把它解读为keylogger／RCE，另一用户反驳，模型拒绝不是恶意样本检测结论。 **[其他 AI 逆向 · 待验证]**
 - [Rockstar如何同时渲染和模拟这些细节：Steve建议用Claude反编译研究](../cases/rockstar-claude-rendering-simulation-research-idea.md) — Steve Korshakov建议Claude反编译，回应Tim Soret对Rockstar绘制调用、毛发、物理、NPC、光照与流式加载的疑问；这是渲染机制研究idea，不是已分析代码。 **[其他 AI 逆向 · 待验证]**
 - [把GTA6重做成北京：REA研究后重建朝阳大悦城与西直门桥的idea](../cases/gta6-beijing-rea-scene-rebuild-idea.md) — 作者请求用Reverse Engineer Anything研究GTA6、重做场景为北京，让玩家提前体验朝阳大悦城和西直门桥驾驶；没有实现、素材或工时证据。 **[REA · 待验证]**
@@ -435,7 +436,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](../cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](../cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](../cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](../cases/gta6-ai-decompile-prediction.md) — 既有Linux／Vulkan、Qwen、Claude／REA移植愿望后，ViceDEV称已重编译GTA VI文件，完整视频却以传播门槛延后；没有仓库、构建日志或可玩PC版，众包与期限预测也未核实。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](../cases/gta6-ai-decompile-prediction.md) — GTA6 PC移植愿望与ViceDEV文件重编译自称之后，Yumzlef又宣称三模型实时补丁、RTX3060锁60fps；仍无具名仓库、构建或性能日志，不是已核可玩PC版。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](../cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](../cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](../cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**

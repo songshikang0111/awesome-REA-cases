@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [证券情绪App接口：krex称三模型协助研究并接入实时和历史数据](../cases/krex-ai-securities-app-data-interface-report.md) — krex回顾Gemini、ChatGPT与Claude协助逆向一款未命名证券情绪App，通过接口同步实时与历史数据，并介绍自己的量化系统；未提供代码、授权或对照，REA只是后来提及。 **[其他 AI 逆向 · 待验证]**
 - [PHP应用改成Agent报告接口：Mike Majara的分页失败与computer use回退](../cases/php-webapp-agent-reports-pagination-failure.md) — Mike Majara尝试研究PHP应用，把五个主页面变成报告、过滤与查询以省token；多数尝试失败，最终computer use不到十分钟完成原任务但仍耗大量token。 **[其他 AI 逆向 · 待验证]**
 - [闭源Electron到独立客户端：Patch称REA与Claude四分钟梳理IPC及WebSocket](../cases/patch-rea-electron-websocket-client-report.md) — Patch称Claude Code经REA MCP研究闭源Electron应用的IPC和隐藏WebSocket API并写出客户端；未命名软件、公开代码或验证clean-room及四分钟说法。 **[REA · 待验证]**
 - [从合同到job级财务：Stephen Genusa称三周研究新旧系统恢复细粒度数据](../cases/stephen-genusa-legacy-financial-job-level-reconstruction.md) — Stephen Genusa在AI辅助工作回顾中称研究几十年累积的新旧财务系统，得到原来只到合同层的job级财务；没有系统名、数据血缘或校验，不推断恢复源码或节省多少工时。 **[其他 AI 逆向 · 待验证]**
@@ -10,7 +11,7 @@
 - [逆向没碰到so：baibaoqq对MiMo Pro任务的失败反馈](../cases/mimo-pro-so-reversing-failure-report.md) — baibaoqq称MiMo Pro逆向半天仍未分析so并生成无用内容；父帖是MiMo-V2.6发布，不能据回复认定精确后端或模型普遍能力。 **[其他 AI 逆向 · 待验证]**
 - [Windows旧工具改写Rust：Risun称AI研究.NET 3.5实现后提速](../cases/risun-net35-tool-ai-rust-rewrite-report.md) — Risun因旧.NET 3.5工具仅支持Windows且性能一般，称AI逆向完整源码再以Rust重写；工具未命名，飞快无基准，也未确认新增平台。 **[其他 AI 逆向 · 待验证]**
 - [带内核调试的IDA替代品：shotgunner101转述AI重建与原生MCP](../cases/ai-ida-replacement-hypervisor-mcp-secondary-report.md) — shotgunner101称认识的人用AI重建IDA Pro替代品，并加入hypervisor、内核级调试和原生MCP；无项目名、源码或对照，一比一仍未核。 **[其他 AI 逆向 · 待验证]**
-- [peopleofbengaluru多城改编争议：Shai与Chennai开发者对Claude复建的不同说法](../cases/shai-city-website-claude-clone-report.md) — Shai称城市网站遭Claude仿制；Kishor称只是提示Claude做Chennai版以减少审批。父串补明peopleofbengaluru及作者开源意愿，但未核代码来源、等价或权利争议。 **[其他 AI 逆向 · 待验证]**
+- [peopleofbengaluru多城改编争议：Shai与Chennai开发者对Claude复建的不同说法](../cases/shai-city-website-claude-clone-report.md) — Kishor称提示Claude改做Chennai版；Shai新指72%代码重合、24文件逐字节一致，并称曾解释后下架。保留双方归因，未取得比对文档，不裁定代码来源或侵权。 **[其他 AI 逆向 · 待验证]**
 - [逆向成果被删：小虎哥称Gemini 4 Neon替自己否定并删除工作](../cases/gemini-neon-unnamed-reversing-work-deletion-report.md) — 小虎哥说Gemini 4 Neon认为先前逆向成果不好便删库，回复承认没有Git追踪；目标、删除范围与恢复结果未给，保留为失败自述。 **[其他 AI 逆向 · 待验证]**
 - [Cairn分析Dify企业镜像与Helm：安全综述中的静态逆向演示转述](../cases/cairn-dify-ee-image-helm-static-reversing-report.md) — 安全帖子称Cairn在无明确范围的Dify测试中提出50多个连续意图，包含企业镜像和Helm chart静态逆向；意图数不是成功数，原演示与输出未获。 **[其他 AI 逆向 · 待验证]**
 - [Reverse-Engineer MCP：Aryan展示工具，超越REA仍是未验证比较](../cases/aryan-reverse-engineer-mcp-comparison-project.md) — Aryan Thakur展示Reverse-Engineer MCP并称原生工具多于REA；回复说更关注破坏边界，未给工具清单、目标测试或可查仓库。 **[未确认使用 REA · 相关项目]**
@@ -581,7 +582,7 @@
 - [Safarier：多模型辅助研究Safari隐私模式的macOS多环境浏览器](../cases/safarier-ai-safari-private-webkit-browser.md) — 范飒锡Leo转述Gemini/GPT/Opus参与Safarier；公开Swift/WebKit项目文档提供多环境隔离、sing-box和本地Agent桥，但逆向方法与指纹保护效果未独立核验。 **[其他 AI 逆向 · 进行中]**
 - [ASC：Dopax介绍给Agent按需读取APK的反编译器](../cases/asc-agent-android-decompiler-digest-report.md) — Dopax称ASC把APK当只读库、按需提取而不全量索引，面向Agent查询xref与单类反编译；性能、仓库身份和rust_ASC关系未核验。 **[其他 AI 逆向 · 待验证]**
 - [Ghidra MCP：Dopax转述200余工具的Agent分析服务](../cases/ghidra-mcp-200-tools-digest-report.md) — Dopax介绍支持GUI/headless的Ghidra MCP，声称200余工具覆盖反编译、P-code数据流、调试与结构恢复；未确认精确实现，不把production-grade视为认证。 **[其他 AI 逆向 · 待验证]**
-- [Servicepipe指纹脚本：危险词义函数名干扰AI分析的二手测试报告](../cases/servicepipe-ai-analysis-decoy-script-report.md) — 实践哥Li检查Servicepipe脚本；lifcc另转述veritas比较Astra/Daybreak与GLM5.3的分析表现。开发者是否故意布置拒绝陷阱、模型测试是否可重复均未核验。 **[其他 AI 逆向 · 待验证]**
+- [Servicepipe指纹脚本：危险词义函数名干扰AI分析的二手测试报告](../cases/servicepipe-ai-analysis-decoy-script-report.md) — Servicepipe危险函数命名的模型拒绝转述后，lifcc讨论命名加提示注入的双层idea及AST预处理反论；没有新实测，不能采纳0%存活或普遍有效结论。 **[其他 AI 逆向 · 待验证]**
 - [Antigravity：Gemini Argon发现bug后推荐社区逆向补丁的自述](../cases/neko-antigravity-gemini-community-patch-report.md) — 毒猫猫称Gemini Argon在工作中发现Antigravity bug并推荐社区逆向patch；没有bug身份、链接或安装结果，不能认定AI亲自编写修复。 **[其他 AI 逆向 · 待验证]**
 - [理想播客客户端：Moebius设想用REA综合三款应用](../cases/moebius-rea-three-podcast-apps-combination-idea.md) — Moebius在创新争论中设想用REA研究三款播客应用，再组合自己的理想客户端；仅条件式idea，没有选定应用或实现。 **[REA · 待验证]**
 - [28应用组合：DigitalGoldTalk自称19天REA/Claude研究后进入testnet](../cases/digitalgoldtalk-28-apps-rea-testnet-report.md) — DigitalGoldTalk称研究通信、社交、支付和媒体共28款应用，从Photoshop起步，现处testnet；没有完整应用表、代码或兼容测试。 **[REA · 待验证]**
