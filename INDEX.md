@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2707 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2716 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（528）
-- [硬件与设备互通](categories/hardware.md)（714）
-- [应用与客户端](categories/apps.md)（1121）
-- [算法与功能重建](categories/algorithms.md)（344）
+- [游戏与游戏保存](categories/games.md)（529）
+- [硬件与设备互通](categories/hardware.md)（716）
+- [应用与客户端](categories/apps.md)（1126）
+- [算法与功能重建](categories/algorithms.md)（345）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Racing Lagoon：从手拼23份地图截图，到AI读游戏数据的建议](cases/racing-lagoon-ai-data-export-idea.md) — Tim Soret建议Codex／Claude解Racing Lagoon数据并导入Three.js或Blender；另一读者希望AI重建PS2级画面。均为idea，原演示实际是手工拼图。 **[其他 AI 逆向 · 待验证]**
 - [ZombiU与Steam Deck下屏：AI反编译建议之后，玩家纠正真正难点](cases/zombiu-ai-decompile-steam-deck-gamepad-idea.md) — Gr4v1TyEXcell建议先让AI反编译ZombiU；父串目标是让Steam Deck当Wii U GamePad、笔记本当主屏，玩家随后澄清游戏早能跑，问题是下屏连接。未实施idea。 **[其他 AI 逆向 · 待验证]**
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
@@ -557,6 +558,8 @@
 
 ### 硬件与设备互通
 
+- [Elecbrakes拖车制动：Claude读安卓字节码，研究者实测认证缺口并协调修补](cases/elecbrakes-claude-android-brake-audit-report.md) — Element Digital原文确认Patrick Forck与Jeremy McCarthy借Claude读安卓字节码、做蓝牙研究工具，在自有设备验证制动认证缺口；CVE登记可查，未在本合集复现。 **[其他 AI 逆向 · 待验证]**
+- [MXOS接EverDrive X3：Mauro Xavier将闭源固件研究归功AI](cases/mxos-everdrive-x3-ai-firmware-research.md) — Mauro Xavier称为Mega Drive上的MXOS借AI研究未开放的EverDrive X3固件；原串报告桌面、多任务与SD文件，真机运行和功能尚未独立复现。 **[其他 AI 逆向 · 进行中]**
 - [NIZ键盘接WebHID：GuGu Bai称AI研究固件后读出按键计数](cases/gugu-bai-niz-webhid-key-count-demo.md) — 官方固件工具只支持Windows，GuGu Bai称借AI研究NIZ固件并做浏览器Demo，读出一年半约400万次按键统计；没有刷写或计数准确性验证。 **[其他 AI 逆向 · 待验证]**
 - [中兴SR1010接ImmortalWrt：转述AI读闭源模块、重写主线驱动](cases/zte-sr1010-ai-kernel-module-immortalwrt-port-report.md) — EnoTZ转述SR1010适配者借AI读原厂内核模块，重写ZX279133驱动并发布ImmortalWrt25.12的1.2.0；双槽回退与约700Mbps组播均未实测。 **[其他 AI 逆向 · 待验证]**
 - [Mjolnir：让Agent按项目威胁模型研究信任根固件与RTL漏洞](cases/mjolnir-root-of-trust-project-grounded-agents.md) — 研究摘要称Mjolnir向发现与怀疑性复核Agent提供项目规则，再以原工具链PoC研究Caliptra、OpenTitan和OpenPRoT六个目标；64个新问题获维护者确认是摘要自报，未读原论文或复测。 **[其他 AI 逆向 · 分析测试]**
@@ -1274,6 +1277,11 @@
 
 ### 应用与客户端
 
+- [Instinct架构没拆全：Vaibhaav用REA与Claude探索后修正记忆直觉](cases/instinct-rea-claude-architecture-exploration-failure.md) — Vaibhaav称以多场景试验、REA skills、Claude和资料检索研究Instinct，仍未恢复完整架构；读团队记忆文章后承认此前方向不对。 **[REA · 进行中]**
+- [指纹JS里的假思考：Vincent称Claude识别注入后继续拆VM](cases/vincent-claude-fingerprint-js-injection-report.md) — Vincent称Claude Code分析疑似腾讯页面指纹脚本，识别伪装内部思考的提示注入，继续还原125696个整数单元；样本归属和正确性未核。 **[其他 AI 逆向 · 待验证]**
+- [Veeza模糊工具：Aly Moursy称用REA解决GPT修图的AI标记困扰](cases/veeza-rea-photo-blur-tool-report.md) — Aly Moursy称用REA做Veeza照片模糊工具，动机是GPT Image修图触发AI生成标记及现有工具难用；算法、研究对象和输出效果未核。 **[REA · 待验证]**
+- [Shopify主题搬到Cloudflare：YT称Claude读备份后复建组件](cases/mayur-shopify-claude-theme-cloudflare-rebuild.md) — YT称下载Shopify主题备份，让Claude阅读、逆向并做替代组件以迁移Cloudflare；三小时、免费托管与年省22000卢比均未核，完整商店等价性不明。 **[其他 AI 逆向 · 待验证]**
+- [Goodnotes APK：让Agent研究Web层与提取JS的未执行idea](cases/goodnotes-apk-agent-js-extraction-idea.md) — 候选想让Agent修改Goodnotes APK或反编译提取JS，称其本质是Web应用；没有执行、代码、付费校验或授权证据，不提供购买绕过方法。 **[其他 AI 逆向 · 待验证]**
 - [抖音类RPA再包装：作者称AI逆向后推广小工具，授权与效果均未核](cases/douyin-rpa-ai-repackaging-commercial-self-report.md) — 候选把Codex／DSH逆向订阅RPA再包装售卖作为商业方案，并称自己的抖音类工具发五篇推广便有人咨询；没有目标名、代码、成交或授权证据。 **[其他 AI 逆向 · 待验证]**
 - [ghidra-decompile：先导入、再按地址让Agent研究单个函数](cases/ghidra-decompile-skill-targeted-function-analysis.md) — Laurent Cheylus介绍ioma8的Ghidra技能与22个脚本；项目文档报告114MB去符号AArch64镜像单函数反编译3.3秒，不是整镜像分析耗时，未复跑。 **[其他 AI 逆向 · 相关项目]**
 - [XCrun的Web逆向skill：把抓包与调用栈收集交给Agent](cases/xcrun-web-reversing-capture-skill-report.md) — XCrun称公开日常Web逆向技能，让AI收集网络通信与调用栈，再处理混淆和遥测；没有可读实现或具名目标验收，省时仅是预期。 **[其他 AI 逆向 · 相关项目]**
@@ -2398,6 +2406,7 @@
 
 ### 算法与功能重建
 
+- [GPT-4旧图表重建：Gemini归一化转述与HumanEval横轴待核](cases/gpt4-chart-gemini-carbon-loss-reconstruction-report.md) — 候选转述Gemini 4 Carbon研究2023 GPT-4图表，并讨论单位与41mnat校正；后续SVG反算HumanEval横轴1.76e25等效FLOPs，仍需原始数据。 **[其他 AI 逆向 · 待验证]**
 - [骑行片的提示词重建：松声慢语用Muse改两版，找回动感](cases/jinsong-muse-cycling-video-prompt-reconstruction.md) — 松声慢语称从AI骑行视频反推提示词，针对运镜、城堡漂移与轮辐融化改两版；首版太僵，第二版低机位跟拍并恢复速度感，没有逐帧对照。 **[其他 AI 逆向 · 待验证]**
 - [分布式爬虫里的AI签名攻坚层：dragon的分工与路由架构idea](cases/ai-native-distributed-crawler-signature-research-idea.md) — dragon设想规划、路由、采集、解析Agent配AI签名逆向层，后帖加Vibe Coding代码生成；没有站点、签名样本或成功结果。 **[其他 AI 逆向 · 待验证]**
 - [Content Rewards在AI搜索里如何被引用：dawood46的18问黑盒审计](cases/dawood46-content-rewards-ai-search-blackbox-audit.md) — dawood46用18个买方问题探测三类AI搜索，结合网页结构研究Content Rewards的曝光、Whop身份混淆与功能漏引；不是恢复模型内部排序，也非流量增长因果验证。 **[其他 AI 逆向 · 分析测试]**

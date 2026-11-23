@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Instinct架构没拆全：Vaibhaav用REA与Claude探索后修正记忆直觉](../cases/instinct-rea-claude-architecture-exploration-failure.md) — Vaibhaav称以多场景试验、REA skills、Claude和资料检索研究Instinct，仍未恢复完整架构；读团队记忆文章后承认此前方向不对。 **[REA · 进行中]**
+- [指纹JS里的假思考：Vincent称Claude识别注入后继续拆VM](../cases/vincent-claude-fingerprint-js-injection-report.md) — Vincent称Claude Code分析疑似腾讯页面指纹脚本，识别伪装内部思考的提示注入，继续还原125696个整数单元；样本归属和正确性未核。 **[其他 AI 逆向 · 待验证]**
+- [Veeza模糊工具：Aly Moursy称用REA解决GPT修图的AI标记困扰](../cases/veeza-rea-photo-blur-tool-report.md) — Aly Moursy称用REA做Veeza照片模糊工具，动机是GPT Image修图触发AI生成标记及现有工具难用；算法、研究对象和输出效果未核。 **[REA · 待验证]**
+- [Shopify主题搬到Cloudflare：YT称Claude读备份后复建组件](../cases/mayur-shopify-claude-theme-cloudflare-rebuild.md) — YT称下载Shopify主题备份，让Claude阅读、逆向并做替代组件以迁移Cloudflare；三小时、免费托管与年省22000卢比均未核，完整商店等价性不明。 **[其他 AI 逆向 · 待验证]**
+- [Goodnotes APK：让Agent研究Web层与提取JS的未执行idea](../cases/goodnotes-apk-agent-js-extraction-idea.md) — 候选想让Agent修改Goodnotes APK或反编译提取JS，称其本质是Web应用；没有执行、代码、付费校验或授权证据，不提供购买绕过方法。 **[其他 AI 逆向 · 待验证]**
 - [抖音类RPA再包装：作者称AI逆向后推广小工具，授权与效果均未核](../cases/douyin-rpa-ai-repackaging-commercial-self-report.md) — 候选把Codex／DSH逆向订阅RPA再包装售卖作为商业方案，并称自己的抖音类工具发五篇推广便有人咨询；没有目标名、代码、成交或授权证据。 **[其他 AI 逆向 · 待验证]**
 - [ghidra-decompile：先导入、再按地址让Agent研究单个函数](../cases/ghidra-decompile-skill-targeted-function-analysis.md) — Laurent Cheylus介绍ioma8的Ghidra技能与22个脚本；项目文档报告114MB去符号AArch64镜像单函数反编译3.3秒，不是整镜像分析耗时，未复跑。 **[其他 AI 逆向 · 相关项目]**
 - [XCrun的Web逆向skill：把抓包与调用栈收集交给Agent](../cases/xcrun-web-reversing-capture-skill-report.md) — XCrun称公开日常Web逆向技能，让AI收集网络通信与调用栈，再处理混淆和遥测；没有可读实现或具名目标验收，省时仅是预期。 **[其他 AI 逆向 · 相关项目]**

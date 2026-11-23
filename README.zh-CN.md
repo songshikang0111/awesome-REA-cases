@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2707 个案例与项目
+# 2716 个案例与项目
 
-**最近案例更新：**2026 年 11 月 23 日 20:11 · **最近维护：**2026 年 11 月 23 日 20:11 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 24 日 00:14 · **最近维护：**2026 年 11 月 24 日 00:14 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,14 +22,14 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：恢复编译器、保存游戏、回放慢函数、连通设备与Agent会话，或检查模型对二进制的猜测。优先看可检查的具体对照与坦诚保留的缺口，不追逐包办一切的宣称。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：恢复编译器、保存游戏、调查拖车制动、连通设备与Agent会话，或检查模型对二进制的猜测。优先看有文档的具体对照与坦诚保留的缺口，不追逐包办一切的宣称。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[OpenGlass Go：重新开放裸眼3D屏](cases/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22`作者串与固定构建文档 — Megabits将**逆向和初期代码归功Kimi，Armbian固件收尾归功Gemini Neon**。公开文档列3D媒体播放、文件传输与STM32控制；真机测试为项目自报，内核bug仍待提交。本合集未构建或刷写。`进行中`
 3. **[Darmoshark TOP75：在Mac控制键盘](cases/darmoshark-top75-macos-ai-protocol-report.md)** · `2026-11-18`作者回复与固定文档 — **AI辅助研究Windows工具，再用IOKit实机检查**，支持蓝牙RGB、改键、宏与定时熄灯。项目文档记录读回、回退和丢写；显示上传走USB，GIF机上播放仍待验证。本合集未测试。`未独立核验`
 4. **[Horizon：用Rust重建Minecraft Java行为](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16`介绍与固定文档 — **AI辅助重建，自报281套差分测试**，可读旧存档、连原版服务器。已读公开文档与Codex署名提交，未审完整测试结果；性能宣称有硬件条件。自备游戏，本合集未构建。`进行中`
 5. **[Underworld Exhumed：保存两部DOS地下世界](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20`介绍；`2026-11-17`固定文档 — Exhume的Claude Code技能辅助，项目报告**UW.EXE／UW2.EXE整文件字节一致**，原生与Web移植以17／13段DOS录制回放检查。均为项目报告，本合集未重跑；原生版自备游戏数据。`未独立核验`
-6. **[fast-anything：只重建慢的函数](cases/fast-anything-ai-hot-function-rust-replay-project.md)** · `2026-11-22`介绍与固定文档 — Claude／Codex把热点改写Rust，以**至多500次录制调用及派生用例**检查。700姓名的Python去重示例自报4.91秒到42毫秒，不是任意应用都快116倍。浮点容差与有限输入限制等价结论，录制会运行原程序；本合集未测性能。`相关项目`
+6. **[Elecbrakes：研究拖车的蓝牙刹车](cases/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19`研究者原文；`2026-11-20`CVE登记 — Forck与McCarthy用**Claude读字节码、做研究工具**，再报告自有硬件测试。EB2／VM1修复有文档，旧ELBC 2000截至原文无修复；固件静态分析没有证明恶意刷写。本合集未复现。`未独立核验`
 7. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22`介绍与固定文档 — Agent按录制行为写Rust，新文档报告**17224次字节一致，15861次全在Rust**，其余回退。此前M4基准中CLI约19倍含进程启动优势，预热进程内为4.2倍。录制会真实执行副作用，须用隔离副本；本合集未重跑。`未独立核验`
 8. **[CPS-2 Recomp：原生街机，还要对照时序](cases/cps2recomp-claude-native-arcade-recompilation.md)** · `2026-11-20`介绍与固定文档 — **Claude署名参与C++原生移植**，在训练和回滚联机之外补板级等待与DMA时序。项目报告SFA2工作RAM **5634／5671帧匹配参考**，仍有11帧偏移，另一游戏会分歧；参考是模型而非实机，harness尚未公开。自备ROM，本合集未运行。`进行中`
 9. **[Consessus：让已有Agent聊天互通](cases/consessus-rea-mac-agent-app-interoperability.md)** · `2026-11-21`作者串与固定文档 — **REA研究四款Mac应用的本机通信**，做成会话消息CLI。项目报告单台Mac往返与四任务四回答的房间测试；OpenCode桌面版须在会话内开listener，部分路径只测假对象。未文档化接口可能随升级失效，本合集未运行。`进行中`
@@ -50,10 +50,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **528** |
-| [硬件与设备互通](categories/hardware.md) | **714** |
-| [应用与客户端](categories/apps.md) | **1121** |
-| [算法与功能重建](categories/algorithms.md) | **344** |
+| [游戏与游戏保存](categories/games.md) | **529** |
+| [硬件与设备互通](categories/hardware.md) | **716** |
+| [应用与客户端](categories/apps.md) | **1126** |
+| [算法与功能重建](categories/algorithms.md) | **345** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

@@ -12,11 +12,13 @@ An in-window candidate at 05:26:00 on November 23 by Prince does AI (@princedoes
 
 The two older sealed snapshots are 0 likes/32 views and 1 like/15 views; both have 0 reposts, with 1 and 0 replies respectively. An attachment does not establish reproduced functionality.
 November 23 supplementary discussion snapshot: 0 likes, 56 views, 0 reposts, 1 reply. Optical flow, per-shot prompts and version correspondence were not checked.
+A new candidate at 22:35:31 Beijing time on November 23, 2026 names ComfyUI-ReaVideoBreakdown, describing per-shot analysis by a local vision-language encoder, optical-flow pan speed and zoom rate, VIDEO.md-style reports, JSON and English/Chinese prompts. It claims no external API calls, audio analysis, on-screen text reading or subtitle export; ordinary SD1.5/SDXL CLIP cannot see frames. MIT licensing, two dependencies and features are secondary claims. Repository, code and exact correspondence to Benji's version remain unchecked; nothing was installed or run. Sealed snapshot: 0 likes, 14 views, 0 reposts, 0 replies.
 
 ## Sources
 
 - [Benji AI's ComfyUI shot-analysis announcement, November 22, 2026 at 19:41:15 Beijing time](https://x.com/i/status/2124468246489477576)
 - [Benji AI's follow-up specifies one node and the rea-video idea, November 22, 2026 at 19:41:49 Beijing time](https://x.com/i/status/2124468390576414723)
 - [Prince does AI describes ComfyUI per-shot prompts and optical-flow camera-motion measurement, November 23, 2026 at 05:26:00 Beijing time](https://x.com/i/status/2124615403095601301)
+- [Secondary account of ComfyUI-ReaVideoBreakdown features and exclusions, November 23, 2026 at 22:35 Beijing time](https://x.com/i/status/2124874492736577951)
 
 [中文](../benji-comfyui-rea-video-shot-node-project.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Elecbrakes拖车制动：Claude读安卓字节码，研究者实测认证缺口并协调修补](../cases/elecbrakes-claude-android-brake-audit-report.md) — Element Digital原文确认Patrick Forck与Jeremy McCarthy借Claude读安卓字节码、做蓝牙研究工具，在自有设备验证制动认证缺口；CVE登记可查，未在本合集复现。 **[其他 AI 逆向 · 待验证]**
+- [MXOS接EverDrive X3：Mauro Xavier将闭源固件研究归功AI](../cases/mxos-everdrive-x3-ai-firmware-research.md) — Mauro Xavier称为Mega Drive上的MXOS借AI研究未开放的EverDrive X3固件；原串报告桌面、多任务与SD文件，真机运行和功能尚未独立复现。 **[其他 AI 逆向 · 进行中]**
 - [NIZ键盘接WebHID：GuGu Bai称AI研究固件后读出按键计数](../cases/gugu-bai-niz-webhid-key-count-demo.md) — 官方固件工具只支持Windows，GuGu Bai称借AI研究NIZ固件并做浏览器Demo，读出一年半约400万次按键统计；没有刷写或计数准确性验证。 **[其他 AI 逆向 · 待验证]**
 - [中兴SR1010接ImmortalWrt：转述AI读闭源模块、重写主线驱动](../cases/zte-sr1010-ai-kernel-module-immortalwrt-port-report.md) — EnoTZ转述SR1010适配者借AI读原厂内核模块，重写ZX279133驱动并发布ImmortalWrt25.12的1.2.0；双槽回退与约700Mbps组播均未实测。 **[其他 AI 逆向 · 待验证]**
 - [Mjolnir：让Agent按项目威胁模型研究信任根固件与RTL漏洞](../cases/mjolnir-root-of-trust-project-grounded-agents.md) — 研究摘要称Mjolnir向发现与怀疑性复核Agent提供项目规则，再以原工具链PoC研究Caliptra、OpenTitan和OpenPRoT六个目标；64个新问题获维护者确认是摘要自报，未读原论文或复测。 **[其他 AI 逆向 · 分析测试]**

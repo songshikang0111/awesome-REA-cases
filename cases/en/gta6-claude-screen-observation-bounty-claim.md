@@ -1,7 +1,7 @@
 # Watching GTA 6 for bugs: Noisy claims $17,000; Kaiju instead reports HackerOne review without payment
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-22
+Record date: 2026-11-23
 Stage: Needs verification
 
 At 19:04:44 Beijing time on November 21, 2026, Noisy (@noisyb0y1) says Fable 5.2 in Claude Code was told only to watch the screen, not operate controls, while the author played GTA 6's story. The agent allegedly found an in-game phone bug after 47 minutes and wrote reproduction steps. The author claims to have taken two screenshots, rewritten the report, emailed Rockstar security, received a request for bank details within ten minutes and received $17,000 within hours. Two further bugs allegedly followed two hours later and await approval. All times, bugs and payments remain the author's claims.
@@ -16,6 +16,7 @@ No disclosure, original email, payment proof, reproducible bug or Rockstar confi
 
 November 21 sealed candidate: 21 likes, 861 views, 1 repost, 7 replies. Engagement does not establish a bug or payment; screenshot contents are only relayed by a commenter.
 November 22 Kaiju sealed candidate: 16 likes, 314 views, 0 reposts, 1 reply. This is a different account from Noisy; its no-payment version is not an original-author correction.
+At 21:08:04 Beijing time on November 23, HodlReaper (@HodlReaper) circulates another account of Fable 5.2 observing GTA VI, retesting anomalies and reporting to Rockstar, explicitly without coding or code reversal. The same post opens with a $25,000 payment and later says $5,000 was approved, an internal contradiction without vulnerability details, a report identifier or payment evidence. Retrieval confirms attribution, text and an image attachment only; the image was not read. A different account proves neither the same bug, independent reproduction nor an earlier author's retraction. This supplements the same-target screen-observation bounty narrative rather than creating another success case. Sealed snapshot: 25 likes, 434 views, 0 reposts, 12 replies.
 
 ## Sources
 
@@ -23,5 +24,6 @@ November 22 Kaiju sealed candidate: 16 likes, 314 views, 0 reposts, 1 reply. Thi
 - [Supplementary author reply: generic screen-observation and anomaly-recording prompt, November 21, 2026 at 19:05:00 Beijing time](https://x.com/i/status/2124096735748247827)
 - [Supplementary Liam comment questioning phone/payment-system and payment-timing inconsistencies, November 21, 2026 at 19:47:12 Beijing time](https://x.com/i/status/2124107357949145310)
 - [Kaiju's new version: five minutes, HackerOne review and no payment, November 22, 2026 at 02:50:55 Beijing time](https://x.com/i/status/2124213987902369812)
+- [HodlReaper's Fable 5.2 observation account and conflicting $25,000/$5,000 amounts, November 23, 2026 at 21:08 Beijing time](https://x.com/i/status/2124852484178927753)
 
 [中文](../gta6-claude-screen-observation-bounty-claim.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

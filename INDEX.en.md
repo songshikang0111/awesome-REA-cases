@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2707 entries**, organized by use case, without a Top-N or popularity threshold.
+**2716 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (528)
-- [Hardware and interoperability](categories/en/hardware.md) (714)
-- [Applications and clients](categories/en/apps.md) (1121)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (344)
+- [Games and preservation](categories/en/games.md) (529)
+- [Hardware and interoperability](categories/en/hardware.md) (716)
+- [Applications and clients](categories/en/apps.md) (1126)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (345)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Racing Lagoon: from 23 manually stitched map captures to an AI data-export suggestion](cases/en/racing-lagoon-ai-data-export-idea.md) — Tim Soret suggests Codex/Claude decoding Racing Lagoon data for Three.js or Blender; another reader imagines a PS2-quality rebuild. Both are ideas; the original demo was manually assembled. **[Other AI-assisted work · Needs verification]**
 - [ZombiU and a Steam Deck lower screen: an AI-decompilation suggestion meets a player's correction](cases/en/zombiu-ai-decompile-steam-deck-gamepad-idea.md) — Gr4v1TyEXcell suggests asking AI to decompile ZombiU. The thread concerns using a Steam Deck as a Wii U GamePad and a laptop as the main display; the player clarifies the game already runs and the lower-screen connection is the problem. An unimplemented idea. **[Other AI-assisted work · Needs verification]**
 - [GTA6 in Roblox? Gabezin' suggests REA plugins while doubting a greenscreen demonstration](cases/en/gta6-roblox-rea-plugin-port-idea.md) — Gabezin' suggests REA plus small plugins could bring GTA6 to Roblox, while doubting another person's demonstration. No plugins, code or execution evidence are supplied; this remains a speculative idea. **[REA · Needs verification]**
 - [Change engines to make games easier to mod: Cooliniau's LLM rebuilding idea and terminology correction](cases/en/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau imagines LLM-assisted one-for-one rebuilding in Unreal, Unity or Godot for mods and fangame frameworks. The author questions the word decompilation and acknowledges the engine remains a middle layer. **[Other AI-assisted work · Needs verification]**
@@ -559,6 +560,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Elecbrakes trailer braking: Claude reads Android bytecode, researchers test an authentication gap and coordinate fixes](cases/en/elecbrakes-claude-android-brake-audit-report.md) — Element Digital's original account confirms Patrick Forck and Jeremy McCarthy used Claude for Android-bytecode analysis and Bluetooth tooling, then tested their own hardware. A public CVE record corroborates the issue; not reproduced here. **[Other AI-assisted work · Needs verification]**
+- [Connecting MXOS to EverDrive X3: Mauro Xavier credits AI with closed-firmware research](cases/en/mxos-everdrive-x3-ai-firmware-research.md) — Mauro Xavier says AI helped investigate non-open EverDrive X3 firmware for MXOS on Mega Drive. The thread reports a desktop, multitasking and SD files; hardware operation and features were not independently reproduced. **[Other AI-assisted work · In progress]**
 - [NIZ through WebHID: GuGu Bai reports AI-assisted firmware research and key counts](cases/en/gugu-bai-niz-webhid-key-count-demo.md) — With the vendor updater limited to Windows, GuGu Bai reports an AI-assisted NIZ firmware investigation and browser demo showing roughly four million keystrokes over eighteen months. Flashing and counter accuracy were not verified. **[Other AI-assisted work · Needs verification]**
 - [ImmortalWrt on the ZTE SR1010: a report of AI-assisted closed-module research and driver rewriting](cases/en/zte-sr1010-ai-kernel-module-immortalwrt-port-report.md) — EnoTZ relays an SR1010 porter's account of using AI to read vendor kernel modules and rewrite ZX279133 drivers for an ImmortalWrt 25.12-based 1.2.0 release. Dual-slot rollback and roughly 700 Mbps multicast were not tested. **[Other AI-assisted work · Needs verification]**
 - [Mjolnir: project-grounded agents investigate root-of-trust firmware and RTL vulnerabilities](cases/en/mjolnir-root-of-trust-project-grounded-agents.md) — A research abstract describes threat-model-grounded discovery and skeptical review, followed by native-toolchain PoCs on six Caliptra, OpenTitan and OpenPRoT targets. Its claim of 64 maintainer-confirmed new issues was not checked against the paper or rerun. **[Other AI-assisted work · Analysis test]**
@@ -1276,6 +1279,11 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Instinct's architecture remains incomplete: Vaibhaav revises his memory intuition after REA/Claude exploration](cases/en/instinct-rea-claude-architecture-exploration-failure.md) — Vaibhaav reports multi-scenario experiments, REA skills, Claude and article research into Instinct, without recovering its full architecture. Reading the team's memory article made him reconsider his direction. **[REA · In progress]**
+- [Fake thinking inside fingerprinting JS: Vincent says Claude spotted injection and continued decoding a VM](cases/en/vincent-claude-fingerprint-js-injection-report.md) — Vincent reports Claude Code identifying fake internal-thinking instructions in a fingerprinting script allegedly loaded by a Tencent page, then recovering 125,696 integer units. Attribution and correctness remain unchecked. **[Other AI-assisted work · Needs verification]**
+- [Veeza photo blur: Aly Moursy credits REA while describing frustration with GPT-edited photos' AI labels](cases/en/veeza-rea-photo-blur-tool-report.md) — Aly Moursy says he built Veeza's photo-blur tool with REA after GPT Image edits triggered AI-made labels and other tools frustrated him. Algorithm, research target and output behavior remain unchecked. **[REA · Needs verification]**
+- [Moving a Shopify theme to Cloudflare: YT says Claude read a backup and rebuilt components](cases/en/mayur-shopify-claude-theme-cloudflare-rebuild.md) — YT reports downloading a Shopify theme backup and having Claude inspect, reverse-engineer and reproduce components for Cloudflare. Three hours, free hosting and ₹22,000 annual savings are unchecked; full-store equivalence is unknown. **[Other AI-assisted work · Needs verification]**
+- [Goodnotes APK: an unexecuted idea for agent investigation of its web layer and JavaScript](cases/en/goodnotes-apk-agent-js-extraction-idea.md) — A candidate plans to have an agent modify Goodnotes' APK or decompile and extract JS, calling it a web app. Execution, code, payment checks and permission are unproven; no purchase-bypass method is provided. **[Other AI-assisted work · Needs verification]**
 - [Repackaging Douyin-category RPA with AI: a commercial self-report without verified permission or results](cases/en/douyin-rpa-ai-repackaging-commercial-self-report.md) — A candidate promotes Codex/DSH-assisted reversing and resale of subscription RPA, claiming five promotional posts attracted inquiries for a Douyin-category tool. Target, code, sales and authorization evidence are absent. **[Other AI-assisted work · Needs verification]**
 - [ghidra-decompile: import once, then let agents investigate exact function addresses](cases/en/ghidra-decompile-skill-targeted-function-analysis.md) — Laurent Cheylus introduces ioma8's Ghidra skill and 22 scripts. Documentation reports 3.3 seconds for one function in a 114 MB stripped AArch64 image, not whole-image analysis; not rerun here. **[Other AI-assisted work · Related project]**
 - [XCrun's web-reversing skill: delegate traffic and call-stack collection to an agent](cases/en/xcrun-web-reversing-capture-skill-report.md) — XCrun announces a personal web-reversing skill for gathering traffic and stacks before investigating obfuscation and telemetry. No readable implementation or named-target acceptance was obtained; time savings remain an expectation. **[Other AI-assisted work · Related project]**
@@ -2400,6 +2408,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Reconstructing old GPT-4 charts: a Gemini normalization account and an unresolved HumanEval x-axis](cases/en/gpt4-chart-gemini-carbon-loss-reconstruction-report.md) — A candidate credits Gemini 4 Carbon with studying 2023 GPT-4 charts and discusses units and a 41 mnat correction. A later SVG-based estimate of 1.76e25 equivalent FLOPs for HumanEval still needs original data. **[Other AI-assisted work · Needs verification]**
 - [Reconstructing a cycling video's prompt: Jinsong iterates twice in Muse to restore motion](cases/en/jinsong-muse-cycling-video-prompt-reconstruction.md) — Jinsong reports inferring a cycling-video prompt and revising camera shake, castle drift and melting spokes. A rigid first version gives way to low tracking shots and speed in the second, without frame-by-frame comparisons here. **[Other AI-assisted work · Needs verification]**
 - [An AI signature-research layer in distributed crawling: dragon's division-of-work and routing idea](cases/en/ai-native-distributed-crawler-signature-research-idea.md) — dragon proposes planning, routing, collection and parsing agents plus an AI signature-reversing layer, adding Vibe Coding generation in a later post. No site, signature samples or successful recovery are supplied. **[Other AI-assisted work · Needs verification]**
 - [How AI search cites Content Rewards: dawood46's eighteen-question black-box audit](cases/en/dawood46-content-rewards-ai-search-blackbox-audit.md) — dawood46 probes three AI search surfaces with eighteen buyer questions, combining website analysis with observations of citations, Whop confusion and missing feature mentions. This is neither internal ranking recovery nor causal proof of traffic growth. **[Other AI-assisted work · Analysis test]**

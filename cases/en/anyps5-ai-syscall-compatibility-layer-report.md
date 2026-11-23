@@ -1,7 +1,7 @@
 # AnyPS5: readers credit AI with PS5 syscall research; compatibility and playability remain unverified
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-22
+Record date: 2026-11-23
 Stage: Needs verification
 
 At 11:02:42 Beijing time on November 1, 2026, a participant compares AnyPS5 with Valve's years on Proton, crediting AI with accelerating PS5 syscall research and compatibility-layer work. No real software emulation is their judgment, not a source or trace finding. A November 15 account at 14:58:45 describes relinking games into native Windows/Linux programs and converting graphics commands to Vulkan, listing syscalls, graphics, encryption and compatibility as obstacles. The 54,000 stars were unchecked; a future GTA 6 port remained a prediction.
@@ -26,6 +26,8 @@ November 20 candidate: 90 likes, 12,365 views, 8 reposts, 9 replies. The 82/400 
 Vibefold candidate: 1 like, 48 views, 0 reposts, 0 replies. The 52/185 and model breakdown are another reader's count; the original set was not reconstructed here.
 November 21 sealed snapshots: 04:16 post has 14 likes, 1,947 views, 1 repost, 10 replies; 05:27 post has 10 likes, 1,388 views, 0 reposts, 0 replies. Fifteen hours two minutes and 1,284 modules were not independently checked.
 November 22 snapshots: 05:26 post has 33 likes, 2,330 views, 3 reposts, 10 replies; 05:42 post has 21 likes, 3,564 views, 3 reposts, 4 replies. No structure graph or GPU test record was obtained.
+A November 23 account at 20:23:12 repeats the PS5 relinking/replacement-library/Vulkan route, credits Claude Code and claims 96% of tracked GPU instructions, 55,000 stars and 44,000 commits, plus GTA V at 60 fps on RX 6750 XT. But it simultaneously says GTA VI is unsupported with no public build booting it and claims driving at 28.8 fps with zero crashes. This contradiction is not accepted as GTA VI execution evidence. Sealed snapshot: 31 likes, 1,449 views, 0 reposts, 9 replies.
+A candidate at 23:13:50 on November 23 explicitly names AnyPS5, claiming 1,166/1,166 tracked RDNA instructions, about 85% of known/declared system functions, playable Minecraft, GTA V testing branches limited to the prologue and some open world, and Wolverine logos. GTA VI reportedly still lacks a public dump for 14.22+, alongside Gezine's extraction claim, a 14.23 update and public jailbreaks near 13.60. Hundreds of Claude commits, over 60,000 stars and an official Q1 2027 PC plan remain unchecked. The 1,166 instructions and earlier 1,284 modules use different denominators; percentages are not game acceptance. No code, commits or game tests were rechecked. Sealed snapshot: 8 likes, 713 views, 0 reposts, 1 reply.
 
 ## Sources
 
@@ -38,5 +40,7 @@ November 22 snapshots: 05:26 post has 33 likes, 2,330 views, 3 reposts, 10 repli
 - [mercante adds commit timing and 1,284-module claims, November 21, 2026 at 05:27:37 Beijing time](https://x.com/i/status/2123891035441111217)
 - [Unchecked GTA 6 structure and Claude dependency-graph account, November 22, 2026 at 05:26:38 Beijing time](https://x.com/i/status/2124253175645409437)
 - [Account of 171 GPU log mentions and forty cards, November 22, 2026 at 05:42:23 Beijing time](https://x.com/i/status/2124257137660699130)
+- [Conflicting GTA VI unsupported/28 fps account, November 23, 2026 at 20:23 Beijing time](https://x.com/i/status/2124841193020252668)
+- [AnyPS5 instruction/library scope, GTA V testing branches and missing-dump account, November 23, 2026 at 23:13 Beijing time](https://x.com/i/status/2124884133541204289)
 
 [中文](../anyps5-ai-syscall-compatibility-layer-report.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

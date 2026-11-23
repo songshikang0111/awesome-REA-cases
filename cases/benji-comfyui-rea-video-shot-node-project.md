@@ -12,11 +12,13 @@
 
 两条旧封存快照分别0赞／32浏览与1赞／15浏览；均0转发，回复分别1与0。附件存在不表示功能已复现。
 11月23日新增讨论快照0赞、56浏览、0转发、1回复；光流、逐镜提示与版本对应未核。
+2026年11月23日22:35:31（北京时间）新候选具名ComfyUI-ReaVideoBreakdown，称本地视觉语言编码器分析每镜、光流测pan速度和zoom率，输出VIDEO.md风格报告、JSON及中英文提示，不调用外部API，也不分析音频、读屏幕文字或导出字幕；普通SD1.5／SDXL CLIP不能看帧。MIT、两项依赖与功能均为转述，尚未核仓库、源码及与Benji版本的精确对应，未安装或运行。封存0赞、14浏览、0转发、0回复。
 
 ## 来源
 
 - [Benji AI的ComfyUI逐镜分析公告，2026-11-22 19:41:15北京时间](https://x.com/i/status/2124468246489477576)
 - [Benji AI后续说明单节点与rea-video idea，2026-11-22 19:41:49北京时间](https://x.com/i/status/2124468390576414723)
 - [Prince does AI转述ComfyUI逐镜提示与光流测运镜，2026-11-23 05:26:00北京时间](https://x.com/i/status/2124615403095601301)
+- [ComfyUI-ReaVideoBreakdown功能与缺项转述，2026-11-23 22:35北京时间](https://x.com/i/status/2124874492736577951)
 
 [English](en/benji-comfyui-rea-video-shot-node-project.md) | [返回目录](../README.zh-CN.md)
