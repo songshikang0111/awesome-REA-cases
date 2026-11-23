@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [NIZ键盘接WebHID：GuGu Bai称AI研究固件后读出按键计数](../cases/gugu-bai-niz-webhid-key-count-demo.md) — 官方固件工具只支持Windows，GuGu Bai称借AI研究NIZ固件并做浏览器Demo，读出一年半约400万次按键统计；没有刷写或计数准确性验证。 **[其他 AI 逆向 · 待验证]**
+- [中兴SR1010接ImmortalWrt：转述AI读闭源模块、重写主线驱动](../cases/zte-sr1010-ai-kernel-module-immortalwrt-port-report.md) — EnoTZ转述SR1010适配者借AI读原厂内核模块，重写ZX279133驱动并发布ImmortalWrt25.12的1.2.0；双槽回退与约700Mbps组播均未实测。 **[其他 AI 逆向 · 待验证]**
 - [Mjolnir：让Agent按项目威胁模型研究信任根固件与RTL漏洞](../cases/mjolnir-root-of-trust-project-grounded-agents.md) — 研究摘要称Mjolnir向发现与怀疑性复核Agent提供项目规则，再以原工具链PoC研究Caliptra、OpenTitan和OpenPRoT六个目标；64个新问题获维护者确认是摘要自报，未读原论文或复测。 **[其他 AI 逆向 · 分析测试]**
 - [蓝牙连接逆向被叫停：Hendrik Nieweg的Claude Code护栏受阻报告](../cases/hendrik-nieweg-bluetooth-claude-safeguard-failure.md) — Hendrik Nieweg称前一天研究一条蓝牙连接时触发Claude Code护栏，工具表示不再继续；设备、协议和拒绝理由未公开，没有后续成功结果。 **[其他 AI 逆向 · 待验证]**
 - [DualSense变BTC行情指示器：gisu分享Claude Code灯条与扳机提示方案](../cases/gisu-dualsense-claude-bitcoin-ticker-idea.md) — gisu称用Claude Code把PS5手柄改成Bitcoin行情指示器，并给USB加pydualsense提示；现成库集成不等于新协议逆向，30分钟与演示未核。 **[其他 AI 逆向 · 待验证]**

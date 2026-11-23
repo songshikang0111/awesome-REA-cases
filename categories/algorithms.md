@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [骑行片的提示词重建：松声慢语用Muse改两版，找回动感](../cases/jinsong-muse-cycling-video-prompt-reconstruction.md) — 松声慢语称从AI骑行视频反推提示词，针对运镜、城堡漂移与轮辐融化改两版；首版太僵，第二版低机位跟拍并恢复速度感，没有逐帧对照。 **[其他 AI 逆向 · 待验证]**
 - [分布式爬虫里的AI签名攻坚层：dragon的分工与路由架构idea](../cases/ai-native-distributed-crawler-signature-research-idea.md) — dragon设想规划、路由、采集、解析Agent配AI签名逆向层，后帖加Vibe Coding代码生成；没有站点、签名样本或成功结果。 **[其他 AI 逆向 · 待验证]**
 - [Content Rewards在AI搜索里如何被引用：dawood46的18问黑盒审计](../cases/dawood46-content-rewards-ai-search-blackbox-audit.md) — dawood46用18个买方问题探测三类AI搜索，结合网页结构研究Content Rewards的曝光、Whop身份混淆与功能漏引；不是恢复模型内部排序，也非流量增长因果验证。 **[其他 AI 逆向 · 分析测试]**
 - [MiniMax内部模型研究密码构造：新闻汇编转述自动化密码分析](../cases/minimax-internal-model-cryptanalysis-secondary-report.md) — 阳明AI转述MiniMax用内部模型找现代密码构造缺陷，并称将理论攻击推进到秒至分钟；没有算法名、论文、挑战记录或测试，不能认定通用破密能力。 **[其他 AI 逆向 · 待验证]**

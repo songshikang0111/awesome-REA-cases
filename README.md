@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2696 cases & projects
+# 2707 cases & projects
 
-**Latest case update:** November 23, 2026, 16:19 · **Last maintained:** November 23, 2026, 16:19 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 23, 2026, 20:11 · **Last maintained:** November 23, 2026, 20:11 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: recover a compiler, preserve games, replay slow functions, or reconnect displays, keyboards and agent chats. These picks favor inspectable comparisons and candid gaps over sweeping claims. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: recover a compiler, preserve games, replay slow functions, reconnect devices and agent chats, or check a model's binary claims. These picks favor inspectable comparisons and candid gaps over sweeping claims. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[OpenGlass Go: reopen a glasses-free 3D display](cases/en/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22` author thread and pinned builder docs — Megabits credits **Kimi for reversing and early code, Gemini Neon for finishing Armbian firmware**. Public docs describe 3D media playback, file transfer and STM32 control. Hardware testing is project-reported; the kernel bug awaits submission. Not built or flashed here. `In progress`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22` report and pinned docs — Agents write Rust against recorded behavior. Updated project docs report **17,224 byte-identical runs, 15,861 fully in Rust**; the rest fall back. The earlier M4 benchmark's roughly 19× CLI gain includes process startup, versus 4.2× warmed in-process. Recording runs real side effects; use isolated copies. Not rerun here. `Unverified here`
 8. **[CPS-2 Recomp: arcade games, with timing checked](cases/en/cps2recomp-claude-native-arcade-recompilation.md)** · `2026-11-20` report and pinned docs — **Claude-credited work on native C++ ports** adds board waits and DMA timing alongside training and rollback play. SFA2 reportedly matches reference work RAM on **5,634/5,671 frames**, with an eleven-frame offset; another game diverges. The reference is a model, not hardware, and the harness is not public. Own ROMs required; not run here. `In progress`
 9. **[Consessus: let existing agent chats talk](cases/en/consessus-rea-mac-agent-app-interoperability.md)** · `2026-11-21` author thread and pinned docs — **REA-assisted research into four Mac apps' local channels** yields a session-messaging CLI. Project docs report round trips and four-task/four-answer rooms on one Mac; OpenCode desktop needs an in-session listener, and some paths remain fake-only tests. Undocumented interfaces can break; not run here. `In progress`
-10. **[OpenSpindrift: Saturn Sonic 3D Blast, native on PC](cases/en/sonic-3d-blast-saturn-opus-port.md)** · `2026-11-21` author announcement and reply thread — Mr. Matt announces **a first release for Windows, Linux and Android** from AI-assisted decompilation. David24 describes manual review and fixes, not autonomous completion. Source cleanup and CI were pending at announcement; own Saturn CHD required, release not tested here. `In progress`
+10. **[Reverify: check the model against the bytes](cases/en/reverify-binary-claims-deterministic-verifier.md)** · `2026-11-23` introduction; `2026-09-07` pinned docs — **Deterministic checks of proposed binary facts**, with an important benchmark correction: 69/71 Windows files reject a blindly applied textbook prologue, not 97% of all model answers. The project reports zero false acceptances in that test; raw records and tests were not checked here. `Analysis test`
 
 ## Classic cases
 
@@ -51,9 +51,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | Category | Entries |
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **528** |
-| [Hardware & interoperability](categories/en/hardware.md) | **712** |
-| [Applications & clients](categories/en/apps.md) | **1113** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **343** |
+| [Hardware & interoperability](categories/en/hardware.md) | **714** |
+| [Applications & clients](categories/en/apps.md) | **1121** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **344** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

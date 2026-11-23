@@ -2,6 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [抖音类RPA再包装：作者称AI逆向后推广小工具，授权与效果均未核](../cases/douyin-rpa-ai-repackaging-commercial-self-report.md) — 候选把Codex／DSH逆向订阅RPA再包装售卖作为商业方案，并称自己的抖音类工具发五篇推广便有人咨询；没有目标名、代码、成交或授权证据。 **[其他 AI 逆向 · 待验证]**
+- [ghidra-decompile：先导入、再按地址让Agent研究单个函数](../cases/ghidra-decompile-skill-targeted-function-analysis.md) — Laurent Cheylus介绍ioma8的Ghidra技能与22个脚本；项目文档报告114MB去符号AArch64镜像单函数反编译3.3秒，不是整镜像分析耗时，未复跑。 **[其他 AI 逆向 · 相关项目]**
+- [XCrun的Web逆向skill：把抓包与调用栈收集交给Agent](../cases/xcrun-web-reversing-capture-skill-report.md) — XCrun称公开日常Web逆向技能，让AI收集网络通信与调用栈，再处理混淆和遥测；没有可读实现或具名目标验收，省时仅是预期。 **[其他 AI 逆向 · 相关项目]**
+- [Open Claude UI：用REA研究Claude桌面设计系统，再做组件库](../cases/open-claude-ui-rea-desktop-design-system-reconstruction.md) — Caho1/open-claude-ui文档把REA静态研究与只读运行时观察归为取证路径，提供37个代码文件和设计系统手册；不含Claude后端，本合集未验证视觉与交互等价。 **[REA · 进行中]**
+- [3SENN的AI浏览器：把付费Web工具重建成本地应用的自述](../cases/3senn-ai-browser-local-saas-rebuild-project.md) — 3SENN借Arc结束服务的背景介绍开源AI浏览器，称可研究付费Web工具并重建本地可分享应用；没有具名目标、源码或行为对照核验。 **[未确认使用 REA · 进行中]**
+- [APK研究85分钟没补丁：Kxians回顾GLM-5.4任务发散](../cases/kxians-glm54-apk-analysis-no-patch-report.md) — Kxians称GLM-5.4研究未具名APK的广告SDK、奖励、金币与VIP85分钟却未写补丁；帖子另引KingBench，不能把该基准token与时间套到APK实验。 **[其他 AI 逆向 · 分析测试]**
+- [美容外科旧系统接CRM：Leonard称逆向互通后术前清单工作量剩五分之一](../cases/schmedding-clinic-legacy-crm-preop-integration.md) — Leonard M. Schmedding在AI项目回顾中称为美容外科做独立CRM，逆向接入无开放接口的旧软件，使术前清单结构化；五分之一工作量为客户项目自述，无测量定义。 **[未确认使用 REA · 待验证]**
+- [Reverify：让工具检查Agent对二进制的猜测，97%不是所有模型错误率](../cases/reverify-binary-claims-deterministic-verifier.md) — Reverify把模型提出的字节、结构与行为声明交给确定性工具核对；71个Windows文件的97%来自盲套教科书函数序言的实验，不是实测所有AI逆向回答。 **[其他 AI 逆向 · 分析测试]**
 - [证券情绪App接口：krex称三模型协助研究并接入实时和历史数据](../cases/krex-ai-securities-app-data-interface-report.md) — krex回顾Gemini、ChatGPT与Claude协助逆向一款未命名证券情绪App，通过接口同步实时与历史数据，并介绍自己的量化系统；未提供代码、授权或对照，REA只是后来提及。 **[其他 AI 逆向 · 待验证]**
 - [PHP应用改成Agent报告接口：Mike Majara的分页失败与computer use回退](../cases/php-webapp-agent-reports-pagination-failure.md) — Mike Majara尝试研究PHP应用，把五个主页面变成报告、过滤与查询以省token；多数尝试失败，最终computer use不到十分钟完成原任务但仍耗大量token。 **[其他 AI 逆向 · 待验证]**
 - [闭源Electron到独立客户端：Patch称REA与Claude四分钟梳理IPC及WebSocket](../cases/patch-rea-electron-websocket-client-report.md) — Patch称Claude Code经REA MCP研究闭源Electron应用的IPC和隐藏WebSocket API并写出客户端；未命名软件、公开代码或验证clean-room及四分钟说法。 **[REA · 待验证]**
@@ -84,7 +92,7 @@
 - [Renoise数字人：知识猫体验后想用REA研究的idea](../cases/geekcat-renoise-digital-human-rea-idea.md) — 知识猫在Renoise视频制作讨论中称喜欢其数字人，想用REA研究；只有功能目标和使用感受，没有实际分析、接口或重建。 **[REA · 待验证]**
 - [Clip Studio接Venice：用REA MCP研究闭源绘画工具的idea](../cases/clip-studio-rea-mcp-venice-integration-idea.md) — cthulhu_ftaghn提出用REA MCP研究Clip Studio并接入Venice，帮助创作者制作艺术；只是具体设想，没有接口、代码或效果验证。 **[REA · 待验证]**
 - [行情解说视频节奏：发财姐计划用rea-video拆两条参考片](../cases/rea-video-market-commentary-rhythm-trial-idea.md) — 发财姐准备把两条常看的行情解说视频交给rea-video，研究节奏与剪辑点；目前只是试用计划，不是已完成分析或复刻。 **[其他 AI 逆向 · 待验证]**
-- [Gemini-app2api v1.5.0：野鴨称pi扩展无需独立server接入Gemini](../cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨发布逆向Gemini-app2api的pi扩展，称可直接使用Hydrogen／Neon并走Gemini app额度；未读实现或测试，不保证账号安全与模型可用性。 **[未确认使用 REA · 相关项目]**
+- [Gemini-app2api：pi扩展之后，作者澄清tool call与harness的边界](../cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨发布Gemini-app2api的pi扩展，后称研究反代以补回tool call、harness交由调用者；v1.6.5四小时百余图片是窗口前作者测试，未核源码、模型或账号安全。 **[未确认使用 REA · 相关项目]**
 - [ClaudeMom：本地兼容网关把第三方模型接入Claude Desktop登录式界面](../cases/claudemom-desktop-local-gateway-interoperability-project.md) — ClaudeMom以本地服务应答账号和功能请求、将对话转发到自选上游；固定v0.1.9 README列语音、Code会话与平台限制，未运行或核验全功能、安全与授权。 **[未确认使用 REA · 相关项目]**
 - [Ansys轴向磁通电机开发：TANG称用IDA研究操作入口，再让Claude与脚本全天操作](../cases/tang-ansys-ida-claude-axial-flux-motor-automation.md) — TANG称2026年初开始用AI与Ansys开发轴向磁通电机，通过IDA反汇编和脚本找到软件操作入口，再用Claude与脚本自动操作；未有模型、日志或电机验证。 **[其他 AI 逆向 · 待验证]**
 - [Edge Rewards脚本迭代：程序员Kun称先整理开源接口，再让AI扩展签到与批量管理](../cases/kun-edge-rewards-ai-interface-script-iteration.md) — 程序员Kun报告Edge内Rewards签到脚本从零交模型效果差，先参考开源项目整理接口并做初版后，再让AI逐项升级到多账号管理；没有代码、领取结果或合规核验。 **[其他 AI 逆向 · 待验证]**
