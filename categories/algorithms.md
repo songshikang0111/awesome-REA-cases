@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Content Rewards在AI搜索里如何被引用：dawood46的18问黑盒审计](../cases/dawood46-content-rewards-ai-search-blackbox-audit.md) — dawood46用18个买方问题探测三类AI搜索，结合网页结构研究Content Rewards的曝光、Whop身份混淆与功能漏引；不是恢复模型内部排序，也非流量增长因果验证。 **[其他 AI 逆向 · 分析测试]**
 - [MiniMax内部模型研究密码构造：新闻汇编转述自动化密码分析](../cases/minimax-internal-model-cryptanalysis-secondary-report.md) — 阳明AI转述MiniMax用内部模型找现代密码构造缺陷，并称将理论攻击推进到秒至分钟；没有算法名、论文、挑战记录或测试，不能认定通用破密能力。 **[其他 AI 逆向 · 待验证]**
 - [按自己的文章调优write-like-mike：Mike Taylor的留出测试与双稿评审方法](../cases/mike-taylor-own-writing-style-skill-test-report.md) — Mike Taylor以自有文章调优/write-like-mike；Every公开周报列12至25篇、留出集、同brief双稿与交换顺序评审。约一小时成稿仍需作者及编辑修改，未复跑评分。 **[其他 AI 逆向 · 待验证]**
 - [想学喜欢的博主怎么拍：hjdiandian提出REA拆解视频号与抖音技巧](../cases/rea-reference-creator-shoot-edit-learning-idea.md) — hjdiandian想经营视频号和抖音号，问能否让REA研究喜欢博主的拍摄、剪辑和素材；尚未提供参考视频或试做结果，Grok回复也非功能验证。 **[REA · 待验证]**

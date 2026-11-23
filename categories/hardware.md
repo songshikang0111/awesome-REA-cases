@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [DualSense变BTC行情指示器：gisu分享Claude Code灯条与扳机提示方案](../cases/gisu-dualsense-claude-bitcoin-ticker-idea.md) — gisu称用Claude Code把PS5手柄改成Bitcoin行情指示器，并给USB加pydualsense提示；现成库集成不等于新协议逆向，30分钟与演示未核。 **[其他 AI 逆向 · 待验证]**
+- [KVM修复交回厂商：Elias Puurunen回顾AI相关逆向与完整说明](../cases/elias-puurunen-ai-kvm-bugfix-report.md) — Elias Puurunen在AI用途回复中称逆向一台KVM、修复bug并将补丁与完整说明交给制造商；未提供型号、缺陷或厂商接收记录。 **[其他 AI 逆向 · 待验证]**
+- [NDI相机固件改进：Elias Puurunen的AI相关逆向回顾](../cases/elias-puurunen-ai-ndi-camera-firmware-report.md) — Elias Puurunen称研究一款NDI相机固件并制作更好的固件；没有机型、改进项、源码或对照，不能扩写为协议破解或完整替代固件。 **[其他 AI 逆向 · 待验证]**
+- [不等耳机厂商更新：SeanMombo提出Claude写固件启用LC3的idea](../cases/seanmombo-claude-headphone-lc3-firmware-idea.md) — SeanMombo在蓝牙耳机选购串中，以Momentum 5仍等LC3固件为背景，问能否让Claude自行写固件；未开工，也未确认芯片、签名与功能可行性。 **[其他 AI 逆向 · 待验证]**
+- [16英寸M5 Pro跑Omarchy：Julian Arango称Claude辅助修安装器与Wi-Fi](../cases/julian-arango-16inch-m5-pro-omarchy-claude-report.md) — Julian Arango报告一个周末用Claude Code适配16英寸MacBook Pro M5 Pro，修设备树等待与WPA混合模式；音频、GPU、相机仍待修，未审上游补丁。 **[其他 AI 逆向 · 进行中]**
+- [自有HP M283fdw驱动与固件：Simon报告开始使用REA研究](../cases/closedntwrk-rea-hp-m283fdw-driver-firmware-project.md) — Simon／ClosedNtwrk称正在用REA逆向自己的HP Color LaserJet MFP M283fdw驱动和固件；目标明确，尚无改动、测试或功能结果。 **[REA · 进行中]**
 - [LTO8迁移与Linux HBA：作者称AI加Ghidra修复磁带设备内核崩溃](../cases/as400-lto8-linux-hba-ai-ghidra-debug-report.md) — 为AS/400客户迁移大量数据，作者称AI找Linux磁带支持缺口、人工保留设备操作码，再让Claude测电源循环，最后结合Ghidra修内核崩溃；补丁与设备矩阵未公开。 **[其他 AI 逆向 · 待验证]**
 - [Vita3K里的固件研究：Farenain尝试用hypercall连接LLM分析与内部fuzz驱动](../cases/llm-firmware-emulator-hypercall-fuzzing-idea.md) — Farenain称启动Vita3K的PS Vita内部库fuzz项目，建议仿真器外LLM接反汇编器、内部driver执行测试；未报告接通、覆盖率或漏洞。 **[其他 AI 逆向 · 进行中]**
 - [十年旧键盘换QMK-VIA：eastwoodnet称AI辅助加RGB效果](../cases/ten-year-keyboard-ai-qmk-via-rgb-report.md) — eastwoodnet称给用了十年的键盘改上QMK-VIA固件并添加RGB；没有型号、矩阵、源码或刷写测试，不推断AI恢复了原厂协议。 **[其他 AI 逆向 · 待验证]**

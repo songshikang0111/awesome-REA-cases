@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2678 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2686 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（523）
-- [硬件与设备互通](categories/hardware.md)（704）
-- [应用与客户端](categories/apps.md)（1110）
-- [算法与功能重建](categories/algorithms.md)（341）
+- [硬件与设备互通](categories/hardware.md)（710）
+- [应用与客户端](categories/apps.md)（1111）
+- [算法与功能重建](categories/algorithms.md)（342）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -552,6 +552,12 @@
 
 ### 硬件与设备互通
 
+- [DualSense变BTC行情指示器：gisu分享Claude Code灯条与扳机提示方案](cases/gisu-dualsense-claude-bitcoin-ticker-idea.md) — gisu称用Claude Code把PS5手柄改成Bitcoin行情指示器，并给USB加pydualsense提示；现成库集成不等于新协议逆向，30分钟与演示未核。 **[其他 AI 逆向 · 待验证]**
+- [KVM修复交回厂商：Elias Puurunen回顾AI相关逆向与完整说明](cases/elias-puurunen-ai-kvm-bugfix-report.md) — Elias Puurunen在AI用途回复中称逆向一台KVM、修复bug并将补丁与完整说明交给制造商；未提供型号、缺陷或厂商接收记录。 **[其他 AI 逆向 · 待验证]**
+- [NDI相机固件改进：Elias Puurunen的AI相关逆向回顾](cases/elias-puurunen-ai-ndi-camera-firmware-report.md) — Elias Puurunen称研究一款NDI相机固件并制作更好的固件；没有机型、改进项、源码或对照，不能扩写为协议破解或完整替代固件。 **[其他 AI 逆向 · 待验证]**
+- [不等耳机厂商更新：SeanMombo提出Claude写固件启用LC3的idea](cases/seanmombo-claude-headphone-lc3-firmware-idea.md) — SeanMombo在蓝牙耳机选购串中，以Momentum 5仍等LC3固件为背景，问能否让Claude自行写固件；未开工，也未确认芯片、签名与功能可行性。 **[其他 AI 逆向 · 待验证]**
+- [16英寸M5 Pro跑Omarchy：Julian Arango称Claude辅助修安装器与Wi-Fi](cases/julian-arango-16inch-m5-pro-omarchy-claude-report.md) — Julian Arango报告一个周末用Claude Code适配16英寸MacBook Pro M5 Pro，修设备树等待与WPA混合模式；音频、GPU、相机仍待修，未审上游补丁。 **[其他 AI 逆向 · 进行中]**
+- [自有HP M283fdw驱动与固件：Simon报告开始使用REA研究](cases/closedntwrk-rea-hp-m283fdw-driver-firmware-project.md) — Simon／ClosedNtwrk称正在用REA逆向自己的HP Color LaserJet MFP M283fdw驱动和固件；目标明确，尚无改动、测试或功能结果。 **[REA · 进行中]**
 - [LTO8迁移与Linux HBA：作者称AI加Ghidra修复磁带设备内核崩溃](cases/as400-lto8-linux-hba-ai-ghidra-debug-report.md) — 为AS/400客户迁移大量数据，作者称AI找Linux磁带支持缺口、人工保留设备操作码，再让Claude测电源循环，最后结合Ghidra修内核崩溃；补丁与设备矩阵未公开。 **[其他 AI 逆向 · 待验证]**
 - [Vita3K里的固件研究：Farenain尝试用hypercall连接LLM分析与内部fuzz驱动](cases/llm-firmware-emulator-hypercall-fuzzing-idea.md) — Farenain称启动Vita3K的PS Vita内部库fuzz项目，建议仿真器外LLM接反汇编器、内部driver执行测试；未报告接通、覆盖率或漏洞。 **[其他 AI 逆向 · 进行中]**
 - [十年旧键盘换QMK-VIA：eastwoodnet称AI辅助加RGB效果](cases/ten-year-keyboard-ai-qmk-via-rgb-report.md) — eastwoodnet称给用了十年的键盘改上QMK-VIA固件并添加RGB；没有型号、矩阵、源码或刷写测试，不推断AI恢复了原厂协议。 **[其他 AI 逆向 · 待验证]**
@@ -1259,6 +1265,7 @@
 
 ### 应用与客户端
 
+- [闭源Electron到独立客户端：Patch称REA与Claude四分钟梳理IPC及WebSocket](cases/patch-rea-electron-websocket-client-report.md) — Patch称Claude Code经REA MCP研究闭源Electron应用的IPC和隐藏WebSocket API并写出客户端；未命名软件、公开代码或验证clean-room及四分钟说法。 **[REA · 待验证]**
 - [从合同到job级财务：Stephen Genusa称三周研究新旧系统恢复细粒度数据](cases/stephen-genusa-legacy-financial-job-level-reconstruction.md) — Stephen Genusa在AI辅助工作回顾中称研究几十年累积的新旧财务系统，得到原来只到合同层的job级财务；没有系统名、数据血缘或校验，不推断恢复源码或节省多少工时。 **[其他 AI 逆向 · 待验证]**
 - [WCDB研究后指导DeepSeek：koeri称半小时验证想法并导出微信聊天](cases/koeri-deepseek-wcdb-wechat-export-report.md) — koeri0721称先研究WCDB并提出三种取key设想，再指导DeepSeek实验，半小时取到AES key并导出微信记录；没有客户端版本、授权范围或测试，不证明远程读取或通用方案。 **[其他 AI 逆向 · 待验证]**
 - [不看源码重写自己的网站：Nisa的REA加Claude对照报告](cases/rea-claude-own-website-no-source-rebuild-report.md) — Nisa称REA与Claude未看代码就重写自己的网站，并问相似百分比；可读候选没有比例、网址、版本或测试结果，不能写成高保真验收。 **[REA · 待验证]**
@@ -1269,7 +1276,7 @@
 - [逆向成果被删：小虎哥称Gemini 4 Neon替自己否定并删除工作](cases/gemini-neon-unnamed-reversing-work-deletion-report.md) — 小虎哥说Gemini 4 Neon认为先前逆向成果不好便删库，回复承认没有Git追踪；目标、删除范围与恢复结果未给，保留为失败自述。 **[其他 AI 逆向 · 待验证]**
 - [Cairn分析Dify企业镜像与Helm：安全综述中的静态逆向演示转述](cases/cairn-dify-ee-image-helm-static-reversing-report.md) — 安全帖子称Cairn在无明确范围的Dify测试中提出50多个连续意图，包含企业镜像和Helm chart静态逆向；意图数不是成功数，原演示与输出未获。 **[其他 AI 逆向 · 待验证]**
 - [Reverse-Engineer MCP：Aryan展示工具，超越REA仍是未验证比较](cases/aryan-reverse-engineer-mcp-comparison-project.md) — Aryan Thakur展示Reverse-Engineer MCP并称原生工具多于REA；回复说更关注破坏边界，未给工具清单、目标测试或可查仓库。 **[未确认使用 REA · 相关项目]**
-- [逐镜视频分析进ComfyUI：Benji AI称把rea-video想法做成单节点](cases/benji-comfyui-rea-video-shot-node-project.md) — Benji AI公告逐镜视频逆向已进入ComfyUI，随后说明是借鉴rea-video idea的单个自定义节点；有视频附件但未读源码、模型或输出验证。 **[其他 AI 逆向 · 进行中]**
+- [逐镜视频分析进ComfyUI：Benji AI称把rea-video想法做成单节点](cases/benji-comfyui-rea-video-shot-node-project.md) — Benji AI称将rea-video想法整合为ComfyUI单节点；Prince does AI另述逐镜提示与光流测运镜。后者为转述，尚未核代码、版本对应与输出质量。 **[其他 AI 逆向 · 进行中]**
 - [反编译游戏时弄坏IDA：Rob Nelson称Agent又研究IDA并重初始化](cases/rob-nelson-ai-ida-global-state-reinitialization-report.md) — Rob Nelson观察AI Agent破坏IDA全局状态，随后反编译IDA寻找重初始化办法并执行；游戏、模型、版本与日志未给，非已复现的自动修复。 **[其他 AI 逆向 · 待验证]**
 - [多阶段Windows下载器实习：用Claude Code分析，再对照LimaCharlie遥测](cases/limacharlie-claude-code-windows-downloader-workshop.md) — 吉川孝志介绍LimaCharlie两小时课程：Claude Code与LCRE静态分析下载器，隔离Windows VM对照检测规则；课程和实测结果未独立核验。 **[其他 AI 逆向 · 分析测试]**
 - [DSPX兼容模式：对照PixInsight接口与结果，引用说明否认读取外部代码](cases/dspx-ai-pixinsight-behavior-compatibility-report.md) — Michael W. Dean引用DSPX说明：不读PixInsight等代码，以接口、参数和结果调整原生算法；称开发时间35%为AI协作编码，未给等价测试。 **[其他 AI 逆向 · 待验证]**
@@ -2372,6 +2379,7 @@
 
 ### 算法与功能重建
 
+- [Content Rewards在AI搜索里如何被引用：dawood46的18问黑盒审计](cases/dawood46-content-rewards-ai-search-blackbox-audit.md) — dawood46用18个买方问题探测三类AI搜索，结合网页结构研究Content Rewards的曝光、Whop身份混淆与功能漏引；不是恢复模型内部排序，也非流量增长因果验证。 **[其他 AI 逆向 · 分析测试]**
 - [MiniMax内部模型研究密码构造：新闻汇编转述自动化密码分析](cases/minimax-internal-model-cryptanalysis-secondary-report.md) — 阳明AI转述MiniMax用内部模型找现代密码构造缺陷，并称将理论攻击推进到秒至分钟；没有算法名、论文、挑战记录或测试，不能认定通用破密能力。 **[其他 AI 逆向 · 待验证]**
 - [按自己的文章调优write-like-mike：Mike Taylor的留出测试与双稿评审方法](cases/mike-taylor-own-writing-style-skill-test-report.md) — Mike Taylor以自有文章调优/write-like-mike；Every公开周报列12至25篇、留出集、同brief双稿与交换顺序评审。约一小时成稿仍需作者及编辑修改，未复跑评分。 **[其他 AI 逆向 · 待验证]**
 - [想学喜欢的博主怎么拍：hjdiandian提出REA拆解视频号与抖音技巧](cases/rea-reference-creator-shoot-edit-learning-idea.md) — hjdiandian想经营视频号和抖音号，问能否让REA研究喜欢博主的拍摄、剪辑和素材；尚未提供参考视频或试做结果，Grok回复也非功能验证。 **[REA · 待验证]**
