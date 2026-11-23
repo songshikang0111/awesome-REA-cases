@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](../cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
+- [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](../cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
+- [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](../cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
+- [Leonida的GTA VI原生运行时：Claude署名参与，但项目明确游戏尚不能启动](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox Series版GTA VI的系统兼容层、RDNA2到SPIR-V与资产工具；固定README明确不能启动，Claude署名提交存在，不代表多数PR或完整游戏已验收。 **[其他 AI 逆向 · 进行中]**
 - [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](../cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](../cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](../cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**

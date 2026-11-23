@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [PHP应用改成Agent报告接口：Mike Majara的分页失败与computer use回退](../cases/php-webapp-agent-reports-pagination-failure.md) — Mike Majara尝试研究PHP应用，把五个主页面变成报告、过滤与查询以省token；多数尝试失败，最终computer use不到十分钟完成原任务但仍耗大量token。 **[其他 AI 逆向 · 待验证]**
 - [闭源Electron到独立客户端：Patch称REA与Claude四分钟梳理IPC及WebSocket](../cases/patch-rea-electron-websocket-client-report.md) — Patch称Claude Code经REA MCP研究闭源Electron应用的IPC和隐藏WebSocket API并写出客户端；未命名软件、公开代码或验证clean-room及四分钟说法。 **[REA · 待验证]**
 - [从合同到job级财务：Stephen Genusa称三周研究新旧系统恢复细粒度数据](../cases/stephen-genusa-legacy-financial-job-level-reconstruction.md) — Stephen Genusa在AI辅助工作回顾中称研究几十年累积的新旧财务系统，得到原来只到合同层的job级财务；没有系统名、数据血缘或校验，不推断恢复源码或节省多少工时。 **[其他 AI 逆向 · 待验证]**
 - [WCDB研究后指导DeepSeek：koeri称半小时验证想法并导出微信聊天](../cases/koeri-deepseek-wcdb-wechat-export-report.md) — koeri0721称先研究WCDB并提出三种取key设想，再指导DeepSeek实验，半小时取到AES key并导出微信记录；没有客户端版本、授权范围或测试，不证明远程读取或通用方案。 **[其他 AI 逆向 · 待验证]**
@@ -9,7 +10,7 @@
 - [逆向没碰到so：baibaoqq对MiMo Pro任务的失败反馈](../cases/mimo-pro-so-reversing-failure-report.md) — baibaoqq称MiMo Pro逆向半天仍未分析so并生成无用内容；父帖是MiMo-V2.6发布，不能据回复认定精确后端或模型普遍能力。 **[其他 AI 逆向 · 待验证]**
 - [Windows旧工具改写Rust：Risun称AI研究.NET 3.5实现后提速](../cases/risun-net35-tool-ai-rust-rewrite-report.md) — Risun因旧.NET 3.5工具仅支持Windows且性能一般，称AI逆向完整源码再以Rust重写；工具未命名，飞快无基准，也未确认新增平台。 **[其他 AI 逆向 · 待验证]**
 - [带内核调试的IDA替代品：shotgunner101转述AI重建与原生MCP](../cases/ai-ida-replacement-hypervisor-mcp-secondary-report.md) — shotgunner101称认识的人用AI重建IDA Pro替代品，并加入hypervisor、内核级调试和原生MCP；无项目名、源码或对照，一比一仍未核。 **[其他 AI 逆向 · 待验证]**
-- [城市网站被仿成多城版本：Shai称发布后有人用Claude逆向](../cases/shai-city-website-claude-clone-report.md) — Shai称自己网站上线后被Claude研究，随后出现Kolkata、Delhi、Pune的people of版本；原站链接未展开，不能确认克隆者、功能等价或实现路线。 **[其他 AI 逆向 · 待验证]**
+- [peopleofbengaluru多城改编争议：Shai与Chennai开发者对Claude复建的不同说法](../cases/shai-city-website-claude-clone-report.md) — Shai称城市网站遭Claude仿制；Kishor称只是提示Claude做Chennai版以减少审批。父串补明peopleofbengaluru及作者开源意愿，但未核代码来源、等价或权利争议。 **[其他 AI 逆向 · 待验证]**
 - [逆向成果被删：小虎哥称Gemini 4 Neon替自己否定并删除工作](../cases/gemini-neon-unnamed-reversing-work-deletion-report.md) — 小虎哥说Gemini 4 Neon认为先前逆向成果不好便删库，回复承认没有Git追踪；目标、删除范围与恢复结果未给，保留为失败自述。 **[其他 AI 逆向 · 待验证]**
 - [Cairn分析Dify企业镜像与Helm：安全综述中的静态逆向演示转述](../cases/cairn-dify-ee-image-helm-static-reversing-report.md) — 安全帖子称Cairn在无明确范围的Dify测试中提出50多个连续意图，包含企业镜像和Helm chart静态逆向；意图数不是成功数，原演示与输出未获。 **[其他 AI 逆向 · 待验证]**
 - [Reverse-Engineer MCP：Aryan展示工具，超越REA仍是未验证比较](../cases/aryan-reverse-engineer-mcp-comparison-project.md) — Aryan Thakur展示Reverse-Engineer MCP并称原生工具多于REA；回复说更关注破坏边界，未给工具清单、目标测试或可查仓库。 **[未确认使用 REA · 相关项目]**
@@ -875,7 +876,7 @@
 - [HyperFrames editor：从小Lin说到12期Vox模板，生成不同主题的视频](../cases/hyperframes-xiaolin-video-template.md) — Miao Yang报告从小Lin说及12期Vox节目提取制作模板，生成9分34秒泰国经济及9分钟公共厕所主题视频；未验证逐帧一致性或授权。 **[其他 AI 逆向 · 待验证]**
 - [Blackbox／opnblckbox：Agent 群交付可运行重建源码的服务宣称与质疑](../cases/blackbox-opnblckbox-source-service-claim.md) — 父帖将双入口匿名逆向服务识别为Blackbox；价目与删除承诺仍为二手介绍，Larpcheck Bot质疑交付，双方均未提供可核任务记录。 **[未确认使用 REA · 待验证]**
 - [逆向合成器的界面：用 AI 一次生成 raylib / raygui GUI 的自述](../cases/synthesizer-ai-raylib-raygui-interface.md) — povverpoint称为自己逆向的合成器用AI制作GUI；AI在界面实现中的角色明确，不能推断其完成合成算法逆向。 **[其他 AI 逆向 · 待验证]**
-- [TermiX REA：带证据哈希与 BNB 托管结算的合约／二进制分析服务宣传](../cases/termix-rea-escrow-analysis-service.md) — TermiX宣传带证据的合约／二进制分析；既有24函数核对自述后，新市场走查报REA约10 USDC挂牌，但挂牌不证明完成交付或安全审计。 **[未确认使用 REA · 相关项目]**
+- [TermiX REA：带证据哈希与 BNB 托管结算的合约／二进制分析服务宣传](../cases/termix-rea-escrow-analysis-service.md) — TermiX宣传证据化逆向服务；Polo补称Jason卖家4单、Pass rate 100%，并列排除APK及不保证恢复源码。挂牌与自报履约数仍非独立交付或审计验证。 **[未确认使用 REA · 相关项目]**
 - [Kindle 与 ZenOS：Codex 研究系统后做 Apple Books／微信读书 EPUB 投递界面](../cases/kindle-zenos-codex-epub-sync.md) — 郭宇称让Codex研究ZenOS与Kindle原系统，制作统一书架与一键EPUB投递界面；未给系统版本、代码或传输验证。 **[其他 AI 逆向 · 待验证]**
 - [Fuji XApp：为相机与 iPhone 稳定同步提出 AI 逆向替代端 idea](../cases/fuji-xapp-ai-iphone-sync-idea.md) — GeekPlux抱怨XApp连接失败与传输慢，ThinkerZhang建议AI研究官方App再做更快同步端；尚无实现报告。 **[其他 AI 逆向 · 待验证]**
 - [Kestrel：研究 MuMuPlayer Pro，为 Apple Silicon 做原生 Android 游戏播放器](../cases/kestrel-colate-rea-mac-android-player.md) — Himansh Raj 的公开 Swift 项目在 Google Android Emulator 上加 Metal 播放器与键鼠映射；报告 BGMI 可玩，但当前公开 CI 的 Swift 测试失败。 **[REA · 进行中]**
