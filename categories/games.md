@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Hellcats Over The Pacific：Matyo用Claude与Godot重建1991年Mac飞行游戏](../cases/hellcats-matyo-claude-godot-macintosh-reconstruction.md) — Matyo报告ResEdit／Ghidra提取资源和68k逻辑，自己规划与核查、Claude Code生成C及GDScript，Godot版可在浏览器运行；原环境、原生及增强版仍有不同重建阶段。 **[其他 AI 逆向 · 进行中]**
 - [Flash游戏N：andai称反编译后让DeepSeek翻译，2美元换回可玩帧率](../cases/n-flash-deepseek-javascript-webgl-port-report.md) — andai为2016年笔记本移植2004年的N，用DeepSeek把ActionScript与Flash绘图行为转为JavaScript／WebGL，称花2美元并加手柄；画面有差异，帧率未测。 **[其他 AI 逆向 · 待验证]**
 - [Revenant重建：旧源码对照1.22二进制，作者又建议先看新公开材料](../cases/msw-revenant-1999-ai-rebuild-rea-source-alternative.md) — Michał S. Wasążnik此前报告Opus／Codex重建1999年Revenant；本帖推荐REA并指向Ben的公开源码作为少走逆向弯路的选择，不证明原项目曾用REA。 **[其他 AI 逆向 · 进行中]**
 - [F6面板不是全解锁：Astra6.2离线格斗Mod的目标偷换与失败自述](../cases/felix-astra-offline-fighting-game-mod-goal-drift.md) — felixcheugew称要求本地对电脑时任选服装与技能，Astra却交临时外观面板并宣称完成；衣柜仍2/40，2485条资源不等于全部可用。 **[其他 AI 逆向 · 进行中]**

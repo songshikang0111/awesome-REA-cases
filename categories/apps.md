@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Beekeeper Studio CSV导出：REA重建末端90项匹配，上游规格仍有缺口](../cases/saikumaresh-beekeeper-rea-csv-behavioral-parity-test.md) — Sai Kumaresh用四个隔离Agent研究Beekeeper Studio导出，报告18个边界用例及五方言90项字节匹配；整包分析失败，规格漏列可见列、5万行上限与过滤传递，非端到端等价。 **[REA · 分析测试]**
+- [Pixel 7a的原生Linux叫车应用：Theo Paris的Omarchy迁移与AI逆向idea](../cases/theoparis-ridehailing-native-linux-omarchy-pixel7a-idea.md) — Theo Paris想在Pixel7a使用Omarchy Mobile，却依赖Uber／Lyft，认为原生Linux叫车适配可能需要大量AI逆向并涉及服务条款；没有开始开发的报告。 **[其他 AI 逆向 · 待验证]**
+- [Muse注册协议研究：Felix称自用skill让AI收集通信、调用栈并读混淆](../cases/felix-muse-registration-protocol-ai-skill-report.md) — Felix以Muse注册协议为对象，介绍自用注册工具skill，称AI自动收集网络通信与调用栈并分析混淆、遥测、埋点；未审源码或核验注册成功。 **[其他 AI 逆向 · 待验证]**
 - [旧QBasic音序器与Buzz文件：Tristram想让Claude找回自己的音乐](../cases/qbasic-sequencer-claude-personal-music-recovery-idea.md) — Tristram翻旧硬盘没找到高中MIDI作品，只剩自己写的QBasic音序器exe与Buzz bmx文件，提出用Claude反编译的恢复idea，未报告执行。 **[其他 AI 逆向 · 待验证]**
 - [Netflix让IntelliJ索引服务Agent：减少JAR反编译后的盲目文本搜索](../cases/netflix-intellij-headless-java-agent-navigation-report.md) — eltc9584转述Netflix给Claude Code／Codex接无界面IntelliJ索引daemon与CLI，研究Java依赖；20—30%与最佳约65%效率改善为二手基准快照，非独立复测。 **[其他 AI 逆向 · 分析测试]**
 - [WorkBuddy与hy4Flash接管Chrome：作者称逆向接口并尝试定时发帖](../cases/workbuddy-hy4flash-chrome-posting-interface-research.md) — 0xfoxai报告两小时WorkBuddy＋hy4Flash体验：接管Chrome、研究发帖接口、遇坑调整方案；未说明平台、接口或实际发帖验证。 **[其他 AI 逆向 · 待验证]**
@@ -506,7 +509,7 @@
 - [REI Reverse Engineer：从12项技能到Rust桌面与双MCP证据桥](../cases/rei-skills-evidence-first-reverse-engineering-pack.md) — Batuhan的REI工作台新增Craft Anything授权分叉桌面与上游REA桥；项目报告同一八字节WASM经Python识别和REA熵分析，248路由不等于逐项验证。 **[REA · 进行中]**
 - [Grok Bot／REA自测：Paone称五文件追踪8／8步骤，但未运行应用](../cases/paone-grokbot-rea-five-file-static-test.md) — Paone补充REA6.8.0与Export notes的八步静态调用链、Downloads路径和main.js定位；8／8仍是作者证据标签，应用一次未运行。 **[REA · 分析测试]**
 - [Apple Watch的WHOOP式App：Codez称Opus两小时重建恢复、负荷与睡眠界面](../cases/codez-opus-whoop-style-apple-watch-app.md) — Codez称取消199美元年费后以Opus 5.5制作开源iPhone／Watch替代品；列出健康分数与端侧教练，但未核实仓库、隐私或与WHOOP算法等价。 **[其他 AI 逆向 · 待验证]**
-- [Anthropic系统提示学习：作者称让Agent逐行分析公开泄漏文本](../cases/agent-anthropic-system-prompt-line-analysis-report.md) — 作者描述新模型发布后搜寻泄漏system prompt并让Agent解释每行作用的个人工作流；无版本、文本或结果，不能认定官方提示已提取。 **[其他 AI 逆向 · 待验证]**
+- [让Agent读系统提示：从Anthropic逐行学习，到跨厂商语料比较idea](../cases/agent-anthropic-system-prompt-line-analysis-report.md) — 已有作者让Agent逐行解读Anthropic提示；福叔新增用本地模型读asgeirtj语料、比较版本行为的idea。没有提示真实性、因果效果或产品复刻验证。 **[其他 AI 逆向 · 待验证]**
 - [EDA工具：读者提议用AI与REA研究电子设计自动化软件](../cases/ai-rea-eda-tool-research-idea.md) — 一句话提出用AI／REA逆向EDA工具；目标领域明确，但未点名产品、格式或实施任务，保留为早期idea。 **[REA · 待验证]**
 - [同花顺API：GPT导出封装错位，读者补充Codex协议研究经历](../cases/gpt-tonghuashun-api-history-export-mismatch.md) — 原作者发现GPT只封装历史导出，未解决AI盯盘目标；同串4Real补充数月前用Codex研究特殊协议和包的经历，两者均未证明实时交易接口恢复。 **[其他 AI 逆向 · 待验证]**
 - [uTools旧插件：李不凯用Codex与REA修功能并接MCP](../cases/codex-rea-utools-legacy-plugin-customization.md) — 李不凯称研究几款长期未更新的常用uTools插件，修正功能并加MCP，让图形工具也可在Codex调用；插件名、实现与测试未给。 **[REA · 待验证]**

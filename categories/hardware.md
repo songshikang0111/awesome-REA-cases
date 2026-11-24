@@ -2,6 +2,13 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [SignMaster割字机到Mac：氣球柯男称Claude研究驱动并补自动定位](../cases/signmaster-balloonconan-claude-macos-vinyl-cutter.md) — 氣球柯男不满Windows版SignMaster，用Claude研究软件并提取驱动，报告在Mac控制割字机、加入远程与自动定位；设备型号、协议和实现未公开说明。 **[其他 AI 逆向 · 待验证]**
+- [电子烟每小时限次数：jac0xb.sol称Gemini重建Cortex-M4F的Wasm模拟器](../cases/jacobdotsol-vape-gemini-cortex-m4f-wasm-rate-limiter.md) — jac0xb.sol研究自己的电子烟固件，报告模拟器用于滚动限吸入次数，回复把Cortex-M4F的Wasm模拟器重建归功Gemini 4 Neon；未证明刷回真机或健康效果。 **[其他 AI 逆向 · 进行中]**
+- [U-Boot、校准与固件合成：eastwood.net称AI接手旧设备刷写准备](../cases/eastwoodnet-ai-uboot-calibration-firmware-rebuild-report.md) — eastwood.net把过去手工找U-Boot、提校准、改MAC和合成固件再用编程器刷写的流程交给AI，报告一句话后合成刷好；设备与模型未说明。 **[其他 AI 逆向 · 待验证]**
+- [TraderSwift的三张V100：Jignesh Davda想让Agent改固件服务XGBoost研究](../cases/traderswift-v100-agent-custom-firmware-xgboost-idea.md) — Jignesh Davda称已购三张V100，想让既有多模型Agent工作流改写自定义固件，利用旧GPU研究XGBoost交易模型；还在找服务器，未报告实施或兼容成果。 **[其他 AI 逆向 · 待验证]**
+- [替代ASUS风扇与RGB软件：Makkath提出AI逆向idea](../cases/makkath-asus-fan-rgb-ai-vendor-software-replacement-idea.md) — 重装ASUS整机后仍需厂商软件控制风扇和灯光，Makkath希望AI逆向替代；补读会话确定目标，未开始开发或报告安全验证。 **[其他 AI 逆向 · 待验证]**
+- [厂商说明书到家电控制：Oliver称让Agent研究非米家设备互通](../cases/oliver-home-device-manual-agent-interoperability-report.md) — Oliver自述上月把家中多台设备交给Agent控制，米家较开放，其他品牌则按型号下载说明书让Agent研究；没有具体型号、协议或测试。 **[其他 AI 逆向 · 待验证]**
+- [旧手机管录制装备：铁锤人称AI逆向后统一灯光、提词与录像](../cases/lxfater-ai-recording-rig-old-phone-control-report.md) — 铁锤人自报3小时研究录制设备，让老手机控制灯光、提词和录像，并开发自动上传；ASR口播稿自动切换仍是下一步设想，型号与实现未披露。 **[其他 AI 逆向 · 进行中]**
 - [echo-dot-assist：Claude参与替换Alexa，保留旧Echo的麦克风与唤醒](../cases/echo-dot-assist-claude-hassmic-home-assistant.md) — Julian Imhof的hassmic将旧Echo接入Home Assistant，保留原音频前端；README明确Claude参与、每型号仅一台测试且未经审计，解锁利用来自R0rt1z2。 **[其他 AI 逆向 · 进行中]**
 - [把稍后读送到Xteink X4：Rafael称Fable改固件并接三款Agent的MCP](../cases/rafael-xteink-x4-fable-mcp-reading-transfer.md) — Rafael Quintanilha称借Fable更新Xteink X4固件，从Grok Bot、Claude与Codex经MCP发送书籍、文章和推文；接口、格式与真机结果未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [1998年的LightLink重新亮起：Claude读旧固件与电路图，人类换控制器并纠线](../cases/larry-pesce-lightlink-1998-claude-controller-revival.md) — Larry Pesce借Claude研究旧LightLink显示板，以ESP8266替换封闭控制器；作者报告面包板实机成功，KiCad新板仅通过DRC，尚未制造。 **[其他 AI 逆向 · 待验证]**
