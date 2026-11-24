@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Mac单线三屏：Christian Domínguez称用Claude研究扩展坞](../cases/mac-dock-claude-single-cable-triple-monitor-report.md) — Christian Domínguez说Mac无法同时使用扩展坞上的两台外接屏，借Claude逆向后实现一根线连接的三屏配置；未公开型号或驱动实现。 **[其他 AI 逆向 · 待验证]**
+- [爱快ikuaios：圆桌骑士称刚用REA做了逆向研究](../cases/ikuaios-rea-routing-system-investigation-report.md) — 圆桌骑士在REA介绍帖里说刚逆向了ikuaios；目标可识别为爱快路由系统，但未披露分析内容、版本或成果。 **[REA · 待验证]**
+- [Rabbit R1接个人Jarvis：Samin Yasar的定制操作系统自述](../cases/samin-yasar-rabbit-r1-personal-os-jarvis.md) — Samin Yasar称不满意Rabbit R1原软件，逆向所需部分并自建系统，想按键对话Jarvis、控制电脑；AI编程串未明确该硬件项目用的模型或REA。 **[未确认使用 REA · 待验证]**
 - [中兴路由器后台重做：Bob Shen用WorkBuddy研究静态绑定](../cases/zte-router-workbuddy-hy4-static-binding-ui.md) — Bob Shen称用WorkBuddy的hy4逆向并重做中兴后台，把设备列表与静态绑定放到一起，避免换网关时反复手输IP；设备型号与实现未披露。 **[其他 AI 逆向 · 待验证]**
 - [让SNES显示NES画面：Kenta IDA把FPGA与PPU带宽问题交给Claude](../cases/ciniml-claude-nes-on-snes-ppu-bandwidth-study.md) — Kenta IDA说已把NES／SNES互通设想交给Claude；父串讨论FPGA模拟与SNES图像处理器传输带宽，尚未验证能否覆盖目标分辨率和颜色。 **[其他 AI 逆向 · 进行中]**
 - [长虹电视跟小米盒子关机：dance与AI用HDMI信号丢失绕开CEC待机缺口](../cases/dance-changhong-xiaomi-hdmi-standby-ai-workaround.md) — dance报告AI协作排查长虹不响应小米盒子CEC待机，改以HDMI失信号触发电视约3秒关机，并把被桌面遮住的HDMI画面拉回；仅一组设备测试。 **[其他 AI 逆向 · 待验证]**

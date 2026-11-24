@@ -1,5 +1,120 @@
 [
   {
+    "id": "mac-dock-claude-single-cable-triple-monitor-report",
+    "title": "Mac单线三屏：Christian Domínguez称用Claude研究扩展坞",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Christian Domínguez说Mac无法同时使用扩展坞上的两台外接屏，借Claude逆向后实现一根线连接的三屏配置；未公开型号或驱动实现。",
+    "description": "2026年11月24日20:08:50（北京时间），Christian Domínguez（@elkrispis）报告自己的Mac不能同时使用接在扩展坞上的两台外接显示器，于是用Claude逆向扩展坞，称已让单线三屏配置工作。目标是修复现有桌面设备的显示互通，而不是从零生成显示器产品。补取原帖确认作者身份、文字与两张照片附件存在；本合集未查看照片或接入硬件。\n\n帖子未给Mac与扩展坞型号、macOS版本、显示器连接方式、源码、分析日志或具体修改。不清楚第三块屏幕是否为内置屏，也无法判断走DisplayLink、MST、Thunderbolt或其他路径，不能擅自补成某种协议或驱动突破。成功仍是作者自述，不证明任意Mac均可支持两台外接屏；未提REA，也没有工时或性能数据。",
+    "sources": [{"label": "Christian Domínguez的Claude扩展坞逆向自述，2026-11-24 20:08:50北京时间", "url": "https://x.com/i/status/2125199964796305899"}],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、39浏览、0转发、0回复；照片存在不等于本合集完成显示输出核验。"],
+    "en": {
+      "title": "One cable, three screens on a Mac: Christian Domínguez reports studying a dock with Claude",
+      "summary": "Christian Domínguez says his Mac could not use both external monitors attached to a dock. He credits Claude-assisted reversing with a working single-cable, triple-monitor setup, without disclosing models or a driver implementation.",
+      "description": "At 20:08:50 Beijing time on November 24, 2026, Christian Domínguez (@elkrispis) reports that his Mac could not use both external monitors connected to its docking station. He says he reverse-engineered the dock with Claude and got a triple-monitor setup working through one cable. The goal is display interoperability for an existing desktop setup, not generating a new display product. Supplementary retrieval confirms attribution, text and two photo attachments. Neither the photos nor hardware were examined here.\n\nThe post supplies no Mac or dock model, macOS version, display wiring, source code, analysis logs or specific changes. Whether the third screen is built in is unclear. DisplayLink, MST, Thunderbolt and other paths cannot be distinguished, so no particular protocol or driver breakthrough is inferred. Success remains an author report, not evidence that any Mac supports two external displays. REA is unmentioned, and no duration or performance figures are supplied.",
+      "metadata": ["Sealed candidate: 0 likes, 39 views, 0 reposts, 0 replies. Photo attachment presence does not amount to display-output verification by this collection."],
+      "source_labels": ["Christian Domínguez reports Claude-assisted dock reversing, November 24, 2026 at 20:08:50 Beijing time"]
+    }
+  },
+  {
+    "id": "ikuaios-rea-routing-system-investigation-report",
+    "title": "爱快ikuaios：圆桌骑士称刚用REA做了逆向研究",
+    "category": "hardware", "rea": "REA", "status": "unverified",
+    "summary": "圆桌骑士在REA介绍帖里说刚逆向了ikuaios；目标可识别为爱快路由系统，但未披露分析内容、版本或成果。",
+    "description": "2026年11月24日20:48:09（北京时间），圆桌骑士（@zkishngddejing1）在介绍Reverse Engineer Anything的帖子中补充我刚逆向了ikuaios、不错。ikuaios指爱快路由系统，故保留为具体系统目标的REA使用自述，而不是把整段逆向一切的宣传当成功证据。补取原帖确认署名与这句报告。\n\n作者没有说明是固件、后台、二进制还是配置研究，也没给设备型号、系统版本、代理模型、方法、代码或验收。不错只表达个人感受，不能推导恢复了驱动、移除授权、解锁功能或完成固件移植。本合集未读取或运行目标，也未验证任何网络配置改变；保持未核验的尝试记录。",
+    "sources": [{"label": "圆桌骑士的REA／ikuaios自述，2026-11-24 20:48:09北京时间", "url": "https://x.com/i/status/2125209857066418571"}],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、35浏览、0转发、1回复；没有可核算的工时或功能覆盖。"],
+    "en": {
+      "title": "iKuaiOS: zkishngddejing1 reports a recent REA investigation",
+      "summary": "In a REA introduction, zkishngddejing1 says they have just reverse-engineered ikuaios. The iKuai routing-system target is identifiable, but analysis scope, version and deliverables are undisclosed.",
+      "description": "At 20:48:09 Beijing time on November 24, 2026, zkishngddejing1, whose display name is Round Table Knight, adds to an introduction to Reverse Engineer Anything that they have just reverse-engineered ikuaios and found it good. The name identifies the iKuai routing system, so this is retained as a REA-use report with a concrete system target, not as evidence for the surrounding reverse-everything promotion. Supplementary retrieval confirms attribution and this statement.\n\nThe author does not say whether the subject was firmware, the dashboard, binaries or configuration. No device model, system version, agent model, method, code or acceptance test is supplied. Good is a personal reaction, not evidence for recovered drivers, removed licensing, unlocked features or a completed firmware port. This collection neither read nor ran the target and verified no network-configuration change. The attempted investigation remains unverified.",
+      "metadata": ["Sealed candidate: 0 likes, 35 views, 0 reposts, 1 reply. No auditable duration or feature coverage is supplied."],
+      "source_labels": ["zkishngddejing1 reports using REA on ikuaios, November 24, 2026 at 20:48:09 Beijing time"]
+    }
+  },
+  {
+    "id": "nict-a2b-ai-assisted-mobile-backend-analysis-report",
+    "title": "从APK反推后端：Tech Athletes转述NICT的A2B调查与AI分析成本",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Tech Athletes转述NICT的App-to-Backend调查：反编译日本公开App提取接口后针对后端攻击，并称AI降低分析成本；未取得原报告或具体AI运行证据。",
+    "description": "2026年11月24日21:26:40（北京时间），Tech Athletes（@IT_makesUsHappy）介绍App-to-Backend（A2B）攻击：从日本Google Play公开App入手，反编译并提取API主机、端点、参数与响应，再按每个后端定制攻击。作者称AI使这类分析更便宜，涉及SSRF、远程代码执行、SQL注入及IDOR／BOLA对象授权缺陷。目标是解释为什么客户端已加固仍不能替代服务端授权，而不是发布某款App的利用代码。\n\n帖子将观察归于NICT的2026年10月13日报告，并转述JPCERT/CC于10月23日更新的案例类型：公开App中的端点／密钥、UI不可达接口、角色或账户操作、盲NoSQL注入及其他系统泄露的API密钥。建议盘点新旧API与测试环境、检查自8月以来日志、核查权限和注入、关闭闲置接口、限流并轮换暴露密钥。上述日期是作者引用的较早材料，不是本轮新抓取帖日期。\n\n补取原帖确认署名，但未取得机构原文、受影响App名称、模型、提示词、分析记录或成本对照。无法确认哪次实际入侵用了AI，亦不能把整波泄漏归因为AI；只保留作者转述的具体研究路径与成本主张。没有请求后端、测试漏洞或执行APK；未提REA，状态未核验。",
+    "sources": [{"label": "Tech Athletes的A2B调查转述，2026-11-24；引用NICT 10月13日与JPCERT/CC 10月23日材料", "url": "https://x.com/i/status/2125219553592685034"}],
+    "snapshot_date": "2026-11-24", "metadata": ["封存0赞、48浏览、0转发、0回复；AI成本下降为发帖者表述，不是量化实验。"],
+    "en": {
+      "title": "From an APK to its backend: Tech Athletes relays NICT's A2B investigation and an AI-cost claim",
+      "summary": "Tech Athletes relays NICT's App-to-Backend investigation: decompile public Japanese apps to map APIs and tailor backend attacks, with AI said to reduce analysis costs. Original reports and concrete AI-run evidence were not obtained.",
+      "description": "At 21:26:40 Beijing time on November 24, 2026, Tech Athletes (@IT_makesUsHappy) describes App-to-Backend (A2B) attacks: start with apps publicly available on Google Play in Japan, decompile them, extract API hosts, endpoints, parameters and responses, then tailor an attack to each backend. The writer says AI makes this analysis cheaper, mentioning SSRF, remote code execution, SQL injection and IDOR/BOLA object-authorization failures. The purpose is to explain why a hardened client cannot replace server-side authorization, not to publish exploitation code for a named app.\n\nThe post attributes the observations to NICT's October 13, 2026 report and relays categories from a JPCERT/CC update on October 23: endpoints/keys in public apps, interfaces unreachable through the UI, role or account operations, blind NoSQL injection and API keys leaked from other systems. It recommends inventorying new and old APIs and test environments, reviewing logs from August, checking authorization and injection, shutting unused interfaces, rate limiting and rotating exposed keys. These are dates of earlier material cited by the writer, not the date of this window's candidate.\n\nSupplementary retrieval confirms attribution. The institutional originals, affected app names, models, prompts, analysis records and cost comparisons were not obtained. Actual AI use in a particular intrusion cannot be confirmed, nor can the entire leak wave be attributed to AI. This retains only the writer's relayed research path and cost claim. No backend requests, vulnerability tests or APK execution were performed. REA is unmentioned; status remains unverified.",
+      "metadata": ["Sealed candidate: 0 likes, 48 views, 0 reposts, 0 replies. Reduced AI-analysis cost is the poster's statement, not a quantified experiment."],
+      "source_labels": ["Tech Athletes relays A2B research, November 24, 2026, citing NICT on October 13 and JPCERT/CC on October 23"]
+    }
+  },
+  {
+    "id": "samin-yasar-vitals-rea-claude-mac-clone",
+    "title": "Vitals本地克隆：Samin Yasar称REA与Claude Code约半小时重建Mac应用",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Samin Yasar称把本机Vitals交给REA和Claude Code研究并克隆，约30分钟后得到外观略有不同但自称功能够用的版本；未提供仓库URL或覆盖测试。",
+    "description": "2026年11月24日22:26:22（北京时间），Samin Yasar（@SaminXD）以自己约30分钟重建Mac应用Vitals的经历介绍按个人需求重做本地功能。补取完整原帖后确认：他在Claude桌面应用中打开Claude Code，要求设置REA，再克隆电脑上的Vitals；REA让Agent调用逆向工具研究本地行为，随后重建并与原程序比较。作者列Ghidra、Hopper、IDA为工具能力举例，没有给日志证明本次逐一用了它们。\n\n作者称克隆版外观稍异，能做原版能做的事，并已建GitHub仓库分享给社群。帖子未给仓库URL、Vitals开发者或版本、功能清单、比较输出、测试日志、授权文本或计时记录；约30分钟、功能相当与已分享均为作者自述，不是本合集确认的完整复刻或许可证结论。作者自己强调本地反编译不等于拿到私有后端、模型或数据库，亦不恢复唯一的原始源码。\n\n同帖还谈Rabbit R1操作系统，那是另一个目标，单独记录；不能把Mac克隆工时套到硬件项目。本合集仅阅读公开文字，未观看视频、运行目标、克隆仓库或复建。",
+    "sources": [{"label": "Samin Yasar的完整Vitals／REA／Claude Code工作流，2026-11-24 22:26:22北京时间", "url": "https://x.com/i/status/2125234575244693805"}],
+    "snapshot_date": "2026-11-24", "metadata": ["2026年11月24日封存快照：1赞、129浏览、0转发、2回复；约30分钟没有独立计时。"],
+    "en": {
+      "title": "A local Vitals clone: Samin Yasar reports rebuilding a Mac app with REA and Claude Code in about half an hour",
+      "summary": "Samin Yasar says REA and Claude Code studied and cloned his local Vitals app in about 30 minutes, producing a slightly different-looking version he considers functionally sufficient. No repository URL or coverage tests are supplied.",
+      "description": "At 22:26:22 Beijing time on November 24, 2026, Samin Yasar (@SaminXD) uses his reported roughly 30-minute rebuild of the Mac app Vitals to explain recreating local features around personal needs. Supplementary retrieval of the complete post confirms that he opened Claude Code inside the Claude desktop app, asked it to set up REA and clone Vitals on his computer, and used REA's reverse-engineering access to investigate local behavior before rebuilding and comparing it with the original. He lists Ghidra, Hopper and IDA as examples of tool capabilities, without logs establishing that all three were used in this run.\n\nHe says the clone looks slightly different, does everything he could do with the original, and was made into a GitHub repository shared with his community. The post supplies no repository URL, Vitals developer or revision, feature inventory, comparison outputs, test logs, license text or timing records. About 30 minutes, functional equivalence and sharing remain author reports, not a complete recreation or license determination confirmed here. The author explicitly distinguishes local decompilation from obtaining a private backend, model or database; it also does not recover uniquely original source.\n\nThe same post discusses a Rabbit R1 operating system, a separate target recorded separately. The Mac-clone duration must not be assigned to that hardware project. Only public text was read here: no video viewing, target execution, repository cloning or rebuilding.",
+      "metadata": ["Sealed snapshot on November 24, 2026: 1 like, 129 views, 0 reposts, 2 replies. About 30 minutes was not independently timed."],
+      "source_labels": ["Samin Yasar's complete Vitals/REA/Claude Code workflow, November 24, 2026 at 22:26:22 Beijing time"]
+    }
+  },
+  {
+    "id": "samin-yasar-rabbit-r1-personal-os-jarvis",
+    "title": "Rabbit R1接个人Jarvis：Samin Yasar的定制操作系统自述",
+    "category": "hardware", "rea": "unknown", "status": "unverified",
+    "summary": "Samin Yasar称不满意Rabbit R1原软件，逆向所需部分并自建系统，想按键对话Jarvis、控制电脑；AI编程串未明确该硬件项目用的模型或REA。",
+    "description": "2026年11月24日22:26:22（北京时间），Samin Yasar（@SaminXD）在REA／Claude Code的个人软件重建介绍中说，喜欢Rabbit R1硬件却不喜欢软件，于是逆向自己需要的部分，围绕按一下按钮、对话Jarvis并控制电脑的目标自建操作系统。他也提出若别人需要，可以按许可证许可打包出售、用Polar管理私有GitHub访问；这是产品化设想，不是已售出产品或收入。\n\n补查同作者2026年11月23日22:30:20的帖子，仅作窗口前架构背景：他称Rabbit上的Jarvis、手机、手表和其他机器经T3 Code连到一台Mac Ultra主节点，计算与工具集中在那里，分成context、tools、automations与interface四层。这解释Rabbit作为入口而不是所有计算都在掌机上；其快、本地、安全与不节流仍是自述，未核网络路径或隐私。\n\n候选没有给替换镜像、代码、启动链、兼容范围、刷写步骤或实机验证，亦未明确Rabbit项目所用AI模型或REA。不能把同帖Vitals的Claude／REA工具及约30分钟挪给Rabbit，也不能从自建系统推断重写了内核或实现全部原厂云功能。按AI工作流语境中的具体逆向项目保留、归unknown，未独立复现；没有连接或改写设备。",
+    "sources": [
+      {"label": "候选：Samin Yasar的Rabbit R1逆向与个人系统自述，2026-11-24 22:26:22北京时间", "url": "https://x.com/i/status/2125234575244693805"},
+      {"label": "窗口前补充：Rabbit Jarvis与Mac Ultra主节点架构，2026-11-23 22:30:20北京时间", "url": "https://x.com/i/status/2124873187905114507"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存1赞、129浏览、0转发、2回复；同一候选的Vitals另列案例，不重复计算帖子。补充帖不作本轮新候选。"],
+    "en": {
+      "title": "Rabbit R1 as a personal Jarvis interface: Samin Yasar's custom operating-system report",
+      "summary": "Samin Yasar says dissatisfaction with Rabbit R1 software led him to reverse the parts he needed and build a system for button-press Jarvis conversations and computer control. The AI-coding thread does not identify this hardware project's model or REA usage.",
+      "description": "At 22:26:22 Beijing time on November 24, 2026, Samin Yasar (@SaminXD) says in a REA/Claude Code personal-software rebuilding post that he liked Rabbit R1 hardware but not its software. He reports reversing the parts he needed and building his own operating system around pressing a button, talking to Jarvis and controlling his computer. He also proposes packaging it for others if licensing permits, using Polar to manage private GitHub access. That is a productization idea, not an existing sale or revenue result.\n\nA supplementary same-author post at 22:30:20 Beijing time on November 23, 2026 provides pre-window architectural context only. He says Jarvis on the Rabbit, his phone, watch and other machines connect through T3 Code to a Mac Ultra master node, centralizing computation and tools in four layers: context, tools, automations and interface. This describes the Rabbit as an access point rather than the location of all computation. Fast, local, secure and no throttling remain personal claims; network routes and privacy were not verified.\n\nThe candidate provides no replacement image, code, boot chain, compatibility scope, flashing steps or hardware verification, and does not identify the Rabbit project's AI model or REA stack. Claude/REA usage and about 30 minutes from the same post's Vitals example must not be transferred here. Building a personal operating system establishes neither a rewritten kernel nor all original cloud functionality. This is retained as a concrete reversing project in an AI-workflow context with unknown tool attribution, not an independently reproduced result. No device was connected or modified.",
+      "metadata": ["Sealed candidate: 1 like, 129 views, 0 reposts, 2 replies. Vitals from the same candidate is a separate case, not a second post. The supplementary post is not a new candidate in this window."],
+      "source_labels": ["Candidate: Samin Yasar reports Rabbit R1 reversing and a personal system, November 24, 2026 at 22:26:22 Beijing time", "Pre-window supplement: Rabbit Jarvis and Mac Ultra master-node architecture, November 23, 2026 at 22:30:20 Beijing time"]
+    }
+  },
+  {
+    "id": "android-rea-claude-static-proxy-privacy-rebuild-idea",
+    "title": "Android隐私删减版idea：Sad HAM Society建议REA静态分析加代理流量对照",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "Sad HAM Society提出Claude Code连Android手机、REA反编译App并与代理流量比较，再尝试重编删减版；没有命名App、抓包或修改结果。",
+    "description": "2026年11月24日23:22:12（北京时间），Sad HAM Society（@Sad_HAMs_）给出Android应用隐私研究的具体工作流idea：让Claude Code连接开启调试的手机，取得感兴趣的App，用REA反编译并列出发送的数据与目的地，再代理实际通信、对照同一问题。其用途是把静态代码中可能发送的数据与运行时观察分开，不是已经完成某个App的隐私审计。\n\n作者进一步建议重编译、改名并删除不希望的数据采集，再安装回手机。帖子没有给应用名称、源码、模型版本、抓包、证书环境、补丁或安装验证，不能保证全部流量可见、隐私逻辑被完整移除或修改版能通过签名与完整性检查。补取原帖确认署名，未执行其调试、代理或重编步骤；不把提议变成普遍可行的教程或授权结论。",
+    "sources": [{"label": "Sad HAM Society的REA／Claude Code手机隐私研究与重编idea，2026-11-24 23:22:12北京时间", "url": "https://x.com/i/status/2125248628004413798"}],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存84赞、925浏览、7转发、4回复；补取计数已变，保留封存快照。热度不等于实验完成。"],
+    "en": {
+      "title": "An Android privacy-reduced build idea: Sad HAM Society proposes REA static analysis plus proxied traffic",
+      "summary": "Sad HAM Society proposes connecting Claude Code to an Android phone, decompiling an app with REA, comparing it with proxied traffic and trying a reduced rebuild. No app, capture or modified result is identified.",
+      "description": "At 23:22:12 Beijing time on November 24, 2026, Sad HAM Society (@Sad_HAMs_) proposes a concrete Android-app privacy-research workflow: connect Claude Code to a phone with debugging enabled, obtain an app of interest, use REA to decompile it and list transmitted data and destinations, then proxy actual communication and compare the same questions. The purpose is to distinguish potential transmission paths in static code from runtime observations, not to claim a completed privacy audit of a particular app.\n\nThe author further suggests recompiling, renaming and removing unwanted data collection before reinstalling it. No app name, source, model version, packet capture, certificate setup, patch or installation verification is supplied. Complete traffic visibility, complete removal of privacy-invasive logic and passage through signature or integrity checks are not established. Supplementary retrieval confirms attribution. Debugging, proxying and recompilation were not performed here; this proposal is not presented as a universally workable tutorial or an authorization determination.",
+      "metadata": ["Sealed candidate: 84 likes, 925 views, 7 reposts, 4 replies. Retrieval counts changed; the sealed snapshot is retained. Engagement does not establish a completed experiment."],
+      "source_labels": ["Sad HAM Society's REA/Claude Code phone-privacy and rebuilding idea, November 24, 2026 at 23:22:12 Beijing time"]
+    }
+  },
+  {
+    "id": "the-afu-deepseek-harness-app-signature-reconstruction",
+    "title": "未命名App的加密签名：THE A-FU称DeepSeek Harness协助复刻规则",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "THE A-FU称DeepSeek Harness陪同逆向一个App，并复刻其中加密签名规则；没有披露目标、规则、代码或验证样本。",
+    "description": "2026年11月24日23:27:31（北京时间），THE A-FU（@zjdsy2）报告DeepSeek Harness协助逆向一个App，称其中加密签名规则全都复刻出来了。虽然应用未命名，但任务具体到既有程序的加密签名行为重建，因此保留为算法层面的作者报告，不把对Codex的负面比较当受控模型评测。补取原帖确认署名，正文没有更多细节。\n\n未取得应用版本、算法名称、输入输出样本、调用路径、源码、harness日志或成功请求；不清楚签名是接口请求、文件还是其他用途，不能补成伪造应用发布签名或取得私钥。全都只是作者措辞，没有完整覆盖证明，也未说明DeepSeek模型版本或REA参与。本合集未执行目标、请求接口或验证规则；保持unverified，不公布或猜测目标身份。",
+    "sources": [{"label": "THE A-FU的DeepSeek Harness签名规则重建自述，2026-11-24 23:27:31北京时间", "url": "https://x.com/i/status/2125249962883887397"}],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、9浏览、0转发、0回复；没有有来源的工时或性能数值。"],
+    "en": {
+      "title": "An unnamed app's cryptographic signing rules: THE A-FU reports reconstruction with DeepSeek Harness",
+      "summary": "THE A-FU says DeepSeek Harness helped reverse-engineer an app and reproduce its cryptographic signing rules. The target, rules, code and validation samples are undisclosed.",
+      "description": "At 23:27:31 Beijing time on November 24, 2026, THE A-FU (@zjdsy2) reports that DeepSeek Harness helped reverse-engineer an app and reproduce all of its cryptographic signing rules. Although the application is unnamed, the task specifically concerns reconstructing signing behavior in an existing program, so it is retained as an algorithm-level author report. The negative comparison with Codex is not treated as a controlled model evaluation. Supplementary retrieval confirms attribution; the post contains no further detail.\n\nNo application revision, algorithm name, input/output sample, call path, source, harness log or successful request was obtained. Whether signing concerns API requests, files or something else is unclear; application-release signature forgery or access to a private key must not be inferred. All is the author's wording, not established complete coverage. Neither a DeepSeek model version nor REA involvement is specified. No target execution, API request or rule validation was performed here. Status remains unverified and the target's identity is neither published nor guessed.",
+      "metadata": ["Sealed candidate: 0 likes, 9 views, 0 reposts, 0 replies. No sourced duration or performance figures are supplied."],
+      "source_labels": ["THE A-FU reports signing-rule reconstruction with DeepSeek Harness, November 24, 2026 at 23:27:31 Beijing time"]
+    }
+  },
+  {
     "id": "zte-router-workbuddy-hy4-static-binding-ui",
     "title": "中兴路由器后台重做：Bob Shen用WorkBuddy研究静态绑定",
     "category": "hardware", "rea": "other-ai", "status": "unverified",
@@ -2727,22 +2842,24 @@
   },
   {
     "id": "gta6-cyberleek-claude-missing-executable-claim",
-    "title": "GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑",
+    "title": "GTA6的AI逆向宣称：st1ne重建争议与后续PC启动阶段转述",
     "category": "games", "rea": "other-ai", "status": "unverified",
-    "summary": "st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。",
-    "description": "2026年11月21日05:45:27（北京时间），st1ne（@SolSt1ne）声称从Cyberleek取得的GTA6材料没有可执行文件，只有数据、资产与归档，于是让Claude研究现有二进制／库、恢复入口与缺失部分，二十小时后生成可启动的文件。他称能进主菜单与世界，仍偶尔冻结，在Ryzen 9 9950X3D与5080上有50至60FPS，并询问是否应上传，表示自己尚未分享exe。这是缺失执行逻辑重建的具体但有争议宣称，不是本合集确认的PC移植。\n\n补取原帖确认身份与视频存在，另完整阅读工具返回的原串。11月21日06:13:21的MechaShithead评论讽刺演示只是播放GTA6视频、叠加无意义GUI与遥测；07:11:38的ham也质疑只是视频加脚本窗口。其他读者质疑没有exe不能从资产恢复整部游戏，另有人说自己的Claude会拒绝。这些评论是质疑，不构成技术证伪；作者的haha回复也不能单独认定承认造假或讽刺意图。\n\n没有取得代码、构建日志、输入清单、视频来源对照或可复现实验，本合集未观看视频或验证帧率，无法区分真实重建、外观演示、玩笑或误导。补充评论保留原始时间，仅作候选可信度背景，不另算候选。不下载所谓泄露文件、可执行程序或游戏资产，不鼓励上传；文件真实性与授权均未确认，数字只归作者，保持unverified且不作成功案例推荐。",
+    "summary": "st1ne的20小时、50至60FPS宣称仍有争议；11月24日另有媒体转述称AI辅助PC尝试仅到设置页及2至3FPS片段、Leonida下线，不能相互验证或视为可玩移植。",
+    "description": "2026年11月21日05:45:27（北京时间），st1ne（@SolSt1ne）声称从Cyberleek取得的GTA6材料没有可执行文件，只有数据、资产与归档，于是让Claude研究现有二进制／库、恢复入口与缺失部分，二十小时后生成可启动的文件。他称能进主菜单与世界，仍偶尔冻结，在Ryzen 9 9950X3D与5080上有50至60FPS，并询问是否应上传，表示自己尚未分享exe。这是缺失执行逻辑重建的具体但有争议宣称，不是本合集确认的PC移植。\n\n补取原帖确认身份与视频存在，另完整阅读工具返回的原串。11月21日06:13:21的MechaShithead评论讽刺演示只是播放GTA6视频、叠加无意义GUI与遥测；07:11:38的ham也质疑只是视频加脚本窗口。其他读者质疑没有exe不能从资产恢复整部游戏，另有人说自己的Claude会拒绝。这些评论是质疑，不构成技术证伪；作者的haha回复也不能单独认定承认造假或讽刺意图。\n\n11月24日21:50:20的另一帖子引述TweakTown并归因@chasm从开发者直播提取提示词，称缺失的Xbox可执行文件于11月23日流出后约3小时出现PC设置页与启动提示，片段标注2FPS过场、3FPS暗室；其称AI工具包括Claude，85%完成片段没有可检查构建，并引用参与者所说尚无可玩版本、警惕假下载。这是媒体与直播的二手转述，本合集未读媒体原文或观看片段。不能用后来取得exe的群体尝试证实st1ne此前从缺失exe材料重建的宣称，也不能把两个不同阶段的帧率当同条件性能对照。\n\n同日22:38:33的另帖也称约3小时仅达设置与法律页面、无玩法，并称Leonida等移植项目在exe发布一天后下线。它同时讲泄露包209GB、迷因币1500万美元门槛、Take-Two回应和Anthropic政策，均未取得第一方资料，本合集不据此确认文件、法律行动或模型政策。保留项目可访问性与阶段的转述，不认定下线原因或所有团队是同一实现。\n\n没有取得代码、构建日志、输入清单、视频来源对照或可复现实验，本合集未观看视频或验证帧率，无法区分真实重建、外观演示、玩笑或误导。较早评论只作原宣称的可信度背景；新转述也不是独立复现。不下载所谓泄露文件、可执行程序或游戏资产，不鼓励上传；文件真实性与授权均未确认，数字只归来源，保持unverified且不作成功案例推荐。",
     "sources": [
       {"label": "st1ne的Claude重建GTA6 exe宣称，2026-11-21 05:45:27北京时间", "url": "https://x.com/i/status/2123895522499150034"},
       {"label": "补充：读者质疑视频GUI与遥测，2026-11-21 06:13:21北京时间", "url": "https://x.com/i/status/2123902546158764091"},
-      {"label": "补充：ham质疑视频叠窗，2026-11-21 07:11:38北京时间", "url": "https://x.com/i/status/2123917213812048282"}
+      {"label": "补充：ham质疑视频叠窗，2026-11-21 07:11:38北京时间", "url": "https://x.com/i/status/2123917213812048282"},
+      {"label": "候选转述TweakTown与直播：设置页、2至3FPS片段及无可检查构建，2026-11-24 21:50:20北京时间", "url": "https://x.com/i/status/2125225509906792694"},
+      {"label": "候选转述PC启动阶段与Leonida等项目下线，2026-11-24 22:38:33北京时间", "url": "https://x.com/i/status/2125237643134828771"}
     ],
-    "snapshot_date": "2026-11-21", "metadata": ["候选封存171赞、30097浏览、7转发、26回复；热度不是可执行程序真实性证据，补取时计数已变化但仍使用封存快照。"],
+    "snapshot_date": "2026-11-24", "metadata": ["11月21日候选封存171赞、30097浏览、7转发、26回复；热度不是可执行程序真实性证据，补取时计数已变化但仍使用封存快照。", "11月24日21:50候选5赞、2446浏览、0转发、3回复；22:38候选2赞、765浏览、1转发、0回复。均为封存快照，不是移植质量或帧率测量。"],
     "en": {
-      "title": "GTA 6's missing executable: st1ne claims a twenty-hour Claude rebuild, challenged in the thread",
-      "summary": "st1ne claims Claude rebuilt a GTA 6 launcher from incomplete Cyberleek files and entered the world. Twenty hours and 50–60 FPS are unchecked; readers question video overlays, without source or reproducible records.",
-      "description": "At 05:45:27 Beijing time on November 21, 2026, st1ne (@SolSt1ne) claims GTA 6 material from Cyberleek lacked an executable and contained only data, assets and archives. He says Claude examined existing binaries/libraries, reconstructed entry points and missing parts, and generated a bootable file after twenty hours. He reports reaching the menu and world, occasional freezes and 50–60 FPS on a Ryzen 9 9950X3D with a 5080. He asks whether to upload it and says he has not shared the exe. This is a concrete but disputed claim about rebuilding missing execution logic, not a PC port confirmed by this collection.\n\nRetrieval confirmed attribution and video presence, followed by reading the complete thread returned by the tool. At 06:13:21 on November 21, MechaShithead sarcastically suggests it only plays GTA 6 video with meaningless GUI/telemetry overlays. At 07:11:38, ham likewise questions script windows over video. Others question reconstructing a whole game from assets without an executable; one reports their own Claude refusing. Comments are challenges, not technical disproof. The author's haha reply alone establishes neither an admission of fabrication nor satirical intent.\n\nNo code, build logs, input inventory, video-provenance comparison or reproducible experiment was obtained. The video was not watched and frame rates were not checked here. Genuine reconstruction, an appearance-only demo, a joke and misleading promotion cannot be distinguished. Supplementary comments retain original times and only contextualize this candidate's credibility; they are not additional candidates. No alleged leaked files, executables or assets were downloaded, and uploading is not encouraged. File authenticity and authorization remain unconfirmed. Figures remain author claims, status is unverified, and this is not recommended as a success case.",
-      "metadata": ["Sealed candidate: 171 likes, 30,097 views, 7 reposts, 26 replies. Engagement does not authenticate an executable. Retrieval counts had changed; the sealed snapshot is retained."],
-      "source_labels": ["st1ne's Claude-built GTA 6 exe claim, November 21, 2026 at 05:45:27 Beijing time", "Supplement: reader questions video GUI and telemetry, November 21, 2026 at 06:13:21 Beijing time", "Supplement: ham questions video overlays, November 21, 2026 at 07:11:38 Beijing time"]
+      "title": "GTA 6 AI-reversing claims: st1ne's disputed rebuild and later reports of early PC startup",
+      "summary": "st1ne's twenty-hour, 50–60 FPS claim remains disputed. November 24 relays describe separate AI-assisted PC attempts reaching setup screens and 2–3 FPS clips, plus Leonida going offline. These do not validate one another or establish a playable port.",
+      "description": "At 05:45:27 Beijing time on November 21, 2026, st1ne (@SolSt1ne) claims GTA 6 material from Cyberleek lacked an executable and contained only data, assets and archives. He says Claude examined existing binaries/libraries, reconstructed entry points and missing parts, and generated a bootable file after twenty hours. He reports reaching the menu and world, occasional freezes and 50–60 FPS on a Ryzen 9 9950X3D with a 5080. He asks whether to upload it and says he has not shared the exe. This is a concrete but disputed claim about rebuilding missing execution logic, not a PC port confirmed by this collection.\n\nRetrieval confirmed attribution and video presence, followed by reading the complete thread returned by the tool. At 06:13:21 on November 21, MechaShithead sarcastically suggests it only plays GTA 6 video with meaningless GUI/telemetry overlays. At 07:11:38, ham likewise questions script windows over video. Others question reconstructing a whole game from assets without an executable; one reports their own Claude refusing. Comments are challenges, not technical disproof. The author's haha reply alone establishes neither an admission of fabrication nor satirical intent.\n\nA separate post at 21:50:20 Beijing time on November 24 cites TweakTown and credits @chasm with extracting prompts from developers' streams. It says the missing Xbox executable surfaced on November 23, with PC settings and startup notices appearing roughly three hours later, and describes clips labeled 2 FPS for a cutscene and 3 FPS for a dark room. It names Claude among AI tools, says an 85%-complete clip lacks a checkable build, and quotes a participant saying nothing is playable and warning against fake downloads. This is a secondary relay of reporting and streams; neither the media original nor footage was examined here. Later community attempts with an available exe do not validate st1ne's earlier claim to reconstruct one from incomplete material, and frame rates from different stages are not a same-condition performance comparison.\n\nAnother post at 22:38:33 that day likewise reports only setup/legal screens after roughly three hours, no gameplay, and says port projects including Leonida went offline a day after the exe appeared. It also discusses a 209 GB leaked package, a $15 million meme-coin threshold, Take-Two statements and Anthropic policy. First-party material was not obtained, so file details, legal action and model policy are not confirmed here. The accessibility and stage reports are retained without assigning a shutdown cause or treating all teams as one implementation.\n\nNo code, build logs, input inventory, video-provenance comparison or reproducible experiment was obtained. The video was not watched and frame rates were not checked here. Genuine reconstruction, an appearance-only demo, a joke and misleading promotion cannot be distinguished. Earlier comments only contextualize the original claim; new relays are not independent reproduction either. No alleged leaked files, executables or assets were downloaded, and uploading is not encouraged. File authenticity and authorization remain unconfirmed. Figures remain source claims, status is unverified, and this is not recommended as a success case.",
+      "metadata": ["November 21 sealed candidate: 171 likes, 30,097 views, 7 reposts, 26 replies. Engagement does not authenticate an executable. Retrieval counts had changed; the sealed snapshot is retained.", "November 24 sealed candidates: 21:50, 5 likes, 2,446 views, 0 reposts, 3 replies; 22:38, 2 likes, 765 views, 1 repost, 0 replies. These snapshots do not measure port quality or frame rates."],
+      "source_labels": ["st1ne's Claude-built GTA 6 exe claim, November 21, 2026 at 05:45:27 Beijing time", "Supplement: reader questions video GUI and telemetry, November 21, 2026 at 06:13:21 Beijing time", "Supplement: ham questions video overlays, November 21, 2026 at 07:11:38 Beijing time", "Candidate relays TweakTown and streams: setup, 2–3 FPS clips and no checkable build, November 24, 2026 at 21:50:20 Beijing time", "Candidate relays early PC startup and port projects including Leonida going offline, November 24, 2026 at 22:38:33 Beijing time"]
     }
   },
   {
@@ -35918,8 +36035,8 @@
     "category": "algorithms",
     "status": "unverified",
     "rea": "unknown",
-    "summary": "计划测试目标文件中的文字能否污染 AI 逆向结论。",
-    "description": "riyoway 提出在分析目标的字符串、资源或死代码中放置面向 AI 的指令，观察 REA 一类 LLM 逆向工具是否会将其当指令而污染分析结果。目标是评估 AI 逆向链路的间接提示注入边界；作者只说考虑实验，没有样本、测试或成功证据。本合集未制作或执行注入目标，不将该构想写成已有效的防护方案。\n\n后续测试（作者自述）：作者用 REA 6.5.0 的 JavaScript 分析器分析自制 Electron 玩具应用，未接入 agent，并在报告中搜索九条无害标记。九条中六条出现在报告的不同部分；注释及 package.json description 未出现，部分字符串、对象键、IPC 名、URL 和文件名出现。只含摘要/统计/局限的切片和窗口设置切片未包含这些标记，窗口切片仍呈现 nodeIntegration 开启、contextIsolation 关闭。作者据此建议先核对数字与标志，并将含名称或 URL 的切片视为目标文本。此结果仅说明哪些样本文字进入静态分析输出，不证明模型会听从指令，也不能推广到其他命令或应用。",
+    "summary": "从二进制嵌入指令的idea到REA静态报告标记测试，未验证模型服从；11月24日另有双层字符串加密与本机密钥检查设想，仍无防护有效性证据。",
+    "description": "riyoway 提出在分析目标的字符串、资源或死代码中放置面向 AI 的指令，观察 REA 一类 LLM 逆向工具是否会将其当指令而污染分析结果。目标是评估 AI 逆向链路的间接提示注入边界；作者只说考虑实验，没有样本、测试或成功证据。本合集未制作或执行注入目标，不将该构想写成已有效的防护方案。\n\n后续测试（作者自述）：作者用 REA 6.5.0 的 JavaScript 分析器分析自制 Electron 玩具应用，未接入 agent，并在报告中搜索九条无害标记。九条中六条出现在报告的不同部分；注释及 package.json description 未出现，部分字符串、对象键、IPC 名、URL 和文件名出现。只含摘要/统计/局限的切片和窗口设置切片未包含这些标记，窗口切片仍呈现 nodeIntegration 开启、contextIsolation 关闭。作者据此建议先核对数字与标志，并将含名称或 URL 的切片视为目标文本。此结果仅说明哪些样本文字进入静态分析输出，不证明模型会听从指令，也不能推广到其他命令或应用。\n\n2026年11月24日21:00:53（北京时间），AI in Practice（@ai_kra_name）另提出对可执行文件字符串做双层加密、加入提示注入文字来误导AI逆向，并检查只在开发者机器上的密钥、比较其SHA-256哈希。补取原帖确认署名，内容为第三人称概述，没有指名原提出者、目标程序或实现；不是riyoway的新实验。未给样本、密钥管理设计、测试模型、对照或绕过结果，不能据此证明模型会服从、加密阻止分析或本机密钥检查构成可靠防护。本合集仅补记这一具体组合idea，未制作或执行它；本条仍区分静态文字进入报告与模型被诱导两个不同命题。",
     "sources": [
       {
         "label": "本周期作者报告",
@@ -35932,29 +36049,36 @@
       {
         "label": "另一用户的嵌入提示词干扰设想（未测试）",
         "url": "https://x.com/i/status/2110709861042503706"
+      },
+      {
+        "label": "AI in Practice转述双层字符串加密、提示注入与本机密钥哈希idea，2026-11-24 21:00:53北京时间",
+        "url": "https://x.com/i/status/2125213061610885475"
       }
     ],
-    "snapshot_date": "2026-10-13",
+    "snapshot_date": "2026-11-24",
     "metadata": [
       "发帖：2026-10-12T23:42:14+08:00（北京时间）",
       "热度快照（2026-10-13）：1 赞｜14 浏览｜0 转发",
       "REA 6.5.0；作者自制 Electron 玩具应用；未接入 agent，未测试模型是否服从植入文本。",
-      "10月15日20:30另一用户提出在自己的软件里嵌入要求模型先大量重复感叹词的文字，作为被AI逆向时的干扰。本条只补充具体设想，非早前实验作者的新结果，也没有证明Agent服从或防护有效；候选快照36赞、1450浏览，记录于10月16日。"
+      "10月15日20:30另一用户提出在自己的软件里嵌入要求模型先大量重复感叹词的文字，作为被AI逆向时的干扰。本条只补充具体设想，非早前实验作者的新结果，也没有证明Agent服从或防护有效；候选快照36赞、1450浏览，记录于10月16日。",
+      "11月24日候选封存0赞、5浏览、0转发、0回复；没有模型服从性或加密效果测试。"
     ],
     "en": {
       "title": "REA analysis: a binary prompt-injection test idea",
-      "summary": "An embedded-instruction idea followed by an author's static analyzer test on a toy Electron app: some markers reach reports, but model obedience and protective effectiveness were not tested.",
-      "description": "riyoway proposes placing AI-directed instructions in target strings, resources or dead code to observe whether LLM reverse-engineering tools such as REA treat them as instructions and contaminate analysis. The aim is to assess indirect prompt-injection boundaries in AI reverse-engineering workflows. Initially the author only considered an experiment, with no sample, test or success evidence. This collection did not create or execute an injected target, and the proposal is not presented as an effective defense.\n\nLater test (author report): the author used REA 6.5.0's JavaScript analyzer on a self-made toy Electron app without connecting an agent and searched reports for nine harmless markers. Six appeared in different report sections. Comments and package.json description did not appear; some strings, object keys, IPC names, URLs and filenames did. Slices containing only summary/statistics/limitations and window settings lacked the markers, while the window slice still showed nodeIntegration enabled and contextIsolation disabled. The author consequently recommends checking numbers and flags first and treating slices with names or URLs as target text. This shows only which sample text enters static-analysis output, not that a model follows instructions, and cannot be generalized to other commands or apps.",
+      "summary": "Embedded binary instructions led to a REA static-report marker test, not demonstrated model obedience. A November 24 relay adds double string encryption and local-key checks as ideas, still without evidence of protective effectiveness.",
+      "description": "riyoway proposes placing AI-directed instructions in target strings, resources or dead code to observe whether LLM reverse-engineering tools such as REA treat them as instructions and contaminate analysis. The aim is to assess indirect prompt-injection boundaries in AI reverse-engineering workflows. Initially the author only considered an experiment, with no sample, test or success evidence. This collection did not create or execute an injected target, and the proposal is not presented as an effective defense.\n\nLater test (author report): the author used REA 6.5.0's JavaScript analyzer on a self-made toy Electron app without connecting an agent and searched reports for nine harmless markers. Six appeared in different report sections. Comments and package.json description did not appear; some strings, object keys, IPC names, URLs and filenames did. Slices containing only summary/statistics/limitations and window settings lacked the markers, while the window slice still showed nodeIntegration enabled and contextIsolation disabled. The author consequently recommends checking numbers and flags first and treating slices with names or URLs as target text. This shows only which sample text enters static-analysis output, not that a model follows instructions, and cannot be generalized to other commands or apps.\n\nAt 21:00:53 Beijing time on November 24, 2026, AI in Practice (@ai_kra_name) separately proposes double-encrypting executable strings and adding prompt-injection text to mislead AI reversing, alongside checking a key available only on the developer's machine and comparing its SHA-256 hash. Supplementary retrieval confirms attribution. The content is a third-person summary without identifying the original proposer, target program or implementation; it is not a new riyoway experiment. No sample, key-management design, tested model, comparison or bypass result is supplied. Model obedience, encryption preventing analysis and a reliable local-key defense are not established. This collection only records the specific combined idea without creating or executing it, maintaining the distinction between static text reaching a report and a model being induced to obey it.",
       "metadata": [
         "Posted: 2026-10-12T23:42:14+08:00 (Beijing time)",
         "Engagement snapshot (2026-10-13): 1 like | 14 views | 0 reposts",
         "REA 6.5.0; author's self-made toy Electron app; no agent connected and no test of model obedience to embedded text.",
-        "At 20:30 on October 15, another user proposed embedding text in their own software requiring a model to repeat interjections many times as interference against AI reverse engineering. This adds only a concrete idea, not new results from the earlier experiment's author, and establishes neither agent obedience nor an effective defense. Candidate snapshot: 36 likes and 1,450 views, recorded October 16."
+        "At 20:30 on October 15, another user proposed embedding text in their own software requiring a model to repeat interjections many times as interference against AI reverse engineering. This adds only a concrete idea, not new results from the earlier experiment's author, and establishes neither agent obedience nor an effective defense. Candidate snapshot: 36 likes and 1,450 views, recorded October 16.",
+        "November 24 sealed candidate: 0 likes, 5 views, 0 reposts, 0 replies. Neither model obedience nor encryption effectiveness was tested."
       ],
       "source_labels": [
         "Author report from this review",
         "Author's REA 6.5.0 toy-app static-analysis test (model obedience untested)",
-        "Another user's embedded-prompt interference idea (untested)"
+        "Another user's embedded-prompt interference idea (untested)",
+        "AI in Practice relays double string encryption, prompt injection and a local-key hash idea, November 24, 2026 at 21:00:53 Beijing time"
       ]
     }
   },

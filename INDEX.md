@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2764 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2771 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（537）
-- [硬件与设备互通](categories/hardware.md)（730）
-- [应用与客户端](categories/apps.md)（1142）
-- [算法与功能重建](categories/algorithms.md)（355）
+- [硬件与设备互通](categories/hardware.md)（733）
+- [应用与客户端](categories/apps.md)（1145）
+- [算法与功能重建](categories/algorithms.md)（356）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -58,7 +58,7 @@
 - [Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植](cases/siya-flappy-bird-apk-codex-chromatic-port.md) — Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6看屏找bug：Noisy称获1.7万美元，Kaiju另称HackerOne待审无付款](cases/gta6-claude-screen-observation-bounty-claim.md) — Noisy的47分钟／17000美元说法受Liam质疑；Kaiju传播版本改为5分钟、HackerOne待审且无付款。不同作者版本不互相验证，漏洞与赏金仍未核。 **[其他 AI 逆向 · 待验证]**
 - [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
-- [GTA6缺失可执行文件：st1ne称Claude二十小时重建，原串多人质疑](cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne称Claude从Cyberleek不完整文件重建GTA6启动程序并进世界，20小时、50至60FPS均未核；原串质疑视频叠窗，无源码或可复现记录。 **[其他 AI 逆向 · 待验证]**
+- [GTA6的AI逆向宣称：st1ne重建争议与后续PC启动阶段转述](cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne的20小时、50至60FPS宣称仍有争议；11月24日另有媒体转述称AI辅助PC尝试仅到设置页及2至3FPS片段、Leonida下线，不能相互验证或视为可玩移植。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
 - [Megabonk到Android：Martin明确说是GPT Terra重制，不是可靠反编译](cases/megabonk-gpt-terra-android-remake-report.md) — Martin称用GPT Terra将Windows的Megabonk重制到Android，可在手机不用手柄玩；消耗两三次Codex周限额，不是已核验反编译或实际费用测量。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI文件研究idea：monokern把本地Strata模型接入Hermes](cases/monokern-gta6-local-strata-hermes-file-research-idea.md) — monokern称在M4 Pro用Strata本地运行模型并连接Hermes，想找GTA VI文件与删减过场；只报告搭环境，没有文件提取、反编译或PC移植结果。 **[其他 AI 逆向 · 待验证]**
@@ -566,6 +566,9 @@
 
 ### 硬件与设备互通
 
+- [Mac单线三屏：Christian Domínguez称用Claude研究扩展坞](cases/mac-dock-claude-single-cable-triple-monitor-report.md) — Christian Domínguez说Mac无法同时使用扩展坞上的两台外接屏，借Claude逆向后实现一根线连接的三屏配置；未公开型号或驱动实现。 **[其他 AI 逆向 · 待验证]**
+- [爱快ikuaios：圆桌骑士称刚用REA做了逆向研究](cases/ikuaios-rea-routing-system-investigation-report.md) — 圆桌骑士在REA介绍帖里说刚逆向了ikuaios；目标可识别为爱快路由系统，但未披露分析内容、版本或成果。 **[REA · 待验证]**
+- [Rabbit R1接个人Jarvis：Samin Yasar的定制操作系统自述](cases/samin-yasar-rabbit-r1-personal-os-jarvis.md) — Samin Yasar称不满意Rabbit R1原软件，逆向所需部分并自建系统，想按键对话Jarvis、控制电脑；AI编程串未明确该硬件项目用的模型或REA。 **[未确认使用 REA · 待验证]**
 - [中兴路由器后台重做：Bob Shen用WorkBuddy研究静态绑定](cases/zte-router-workbuddy-hy4-static-binding-ui.md) — Bob Shen称用WorkBuddy的hy4逆向并重做中兴后台，把设备列表与静态绑定放到一起，避免换网关时反复手输IP；设备型号与实现未披露。 **[其他 AI 逆向 · 待验证]**
 - [让SNES显示NES画面：Kenta IDA把FPGA与PPU带宽问题交给Claude](cases/ciniml-claude-nes-on-snes-ppu-bandwidth-study.md) — Kenta IDA说已把NES／SNES互通设想交给Claude；父串讨论FPGA模拟与SNES图像处理器传输带宽，尚未验证能否覆盖目标分辨率和颜色。 **[其他 AI 逆向 · 进行中]**
 - [长虹电视跟小米盒子关机：dance与AI用HDMI信号丢失绕开CEC待机缺口](cases/dance-changhong-xiaomi-hdmi-standby-ai-workaround.md) — dance报告AI协作排查长虹不响应小米盒子CEC待机，改以HDMI失信号触发电视约3秒关机，并把被桌面遮住的HDMI画面拉回；仅一组设备测试。 **[其他 AI 逆向 · 待验证]**
@@ -1299,6 +1302,9 @@
 
 ### 应用与客户端
 
+- [从APK反推后端：Tech Athletes转述NICT的A2B调查与AI分析成本](cases/nict-a2b-ai-assisted-mobile-backend-analysis-report.md) — Tech Athletes转述NICT的App-to-Backend调查：反编译日本公开App提取接口后针对后端攻击，并称AI降低分析成本；未取得原报告或具体AI运行证据。 **[其他 AI 逆向 · 待验证]**
+- [Vitals本地克隆：Samin Yasar称REA与Claude Code约半小时重建Mac应用](cases/samin-yasar-vitals-rea-claude-mac-clone.md) — Samin Yasar称把本机Vitals交给REA和Claude Code研究并克隆，约30分钟后得到外观略有不同但自称功能够用的版本；未提供仓库URL或覆盖测试。 **[REA · 待验证]**
+- [Android隐私删减版idea：Sad HAM Society建议REA静态分析加代理流量对照](cases/android-rea-claude-static-proxy-privacy-rebuild-idea.md) — Sad HAM Society提出Claude Code连Android手机、REA反编译App并与代理流量比较，再尝试重编删减版；没有命名App、抓包或修改结果。 **[REA · 待验证]**
 - [Antigravity地区限制研究被拒：迪丽热酒的Codex失败自述](cases/liushuaikobe-codex-antigravity-region-refusal.md) — 迪丽热酒在讨论Antigravity检测与T3 Code接入的串里，报告Codex拒绝逆向突破限制；未披露提示词、版本或补丁，不推导模型统一政策。 **[其他 AI 逆向 · 待验证]**
 - [Iran Laravel的网站重建服务：从公开页面推流程、表单与数据模型](cases/iran-laravel-ai-public-website-reconstruction-service.md) — 候选短链指向Iran Laravel服务页：AI与工程师分析参考网站的页面、表单及用户流，再以Laravel和波斯语CMS重建；未列已交付目标或对照测试。 **[其他 AI 逆向 · 相关项目]**
 - [notebooklm-py：把未公开Google接口接到Claude Code与Codex的技能](cases/notebooklm-py-undocumented-api-agent-skill-integration.md) — 候选介绍非官方Python／CLI及Agent技能，用逆向接口编排Gemini Notebook音视频与资料工作流；项目文档确认未公开API风险，16分钟录音与30秒摘要说法未核。 **[未确认使用 REA · 相关项目]**
@@ -2444,6 +2450,7 @@
 
 ### 算法与功能重建
 
+- [未命名App的加密签名：THE A-FU称DeepSeek Harness协助复刻规则](cases/the-afu-deepseek-harness-app-signature-reconstruction.md) — THE A-FU称DeepSeek Harness陪同逆向一个App，并复刻其中加密签名规则；没有披露目标、规则、代码或验证样本。 **[其他 AI 逆向 · 待验证]**
 - [neuronvisuals火柴人画风：Claude按参考帧重建Python动画的教程转述](cases/neuronvisuals-postiz-claude-stick-animation-reconstruction.md) — S1哥转述Nevo David的教程：拆neuronvisuals的黑底双人对比、最后变黄等规则，让Claude写PIL动画并逐帧比较修改；批量渲染与传播数字均未重跑核算。 **[其他 AI 逆向 · 待验证]**
 - [《风起，城行》：GPT 6Pro参与哈尔移动城堡三维重建，Blender版仍有画风差异](cases/howls-moving-castle-gpt6pro-threejs-blender-reconstruction.md) — d!l3+ttant3报告把以哈尔城堡为参考的程序动画从Three.js转到Blender，渲约十小时并称60帧导出；仓库介绍为60秒1080p／24fps，规格不能混同。 **[其他 AI 逆向 · 待验证]**
 - [Shot Reader v2镜头反推：Heba AI指出B-25误称喷气机与手持摇晃漏检](cases/shot-reader-v2-heba-camera-motion-comparison.md) — Heba AI比较Shot Reader v2与Claude＋REA：首镜推近和CG风格判断被认可，但B-25被叫作jets，第13镜手持式摇晃被判静止；无公开输入或完整评测。 **[其他 AI 逆向 · 分析测试]**
@@ -2765,7 +2772,7 @@
 - [Windows 计算器：还原百分号在不同运算中的规则](cases/windows-calculator-percent.md) — 分析已安装计算器 DLL，解释并重建加法与乘法的百分号行为。 **[REA]**
 - [自制 JS / .NET 样本：对照有无 REA 的函数重建](cases/codex-rea-controlled-samples.md) — 同模型六次运行、360 用例验收，研究 REA 的线索价值而非宣称提速。 **[REA · 分析测试]**
 - [DLSS：重实现计算着色器以在 AMD 显卡运行的报告](cases/dlss-amd-compute-report.md) — 讨论明确提出 AI 辅助重实现 DLSS，具体开发归属仍待核验。 **[未确认使用 REA · 待验证]**
-- [REA 分析链路：测试二进制内提示注入的 idea](cases/rea-binary-injection-test-idea.md) — 计划测试目标文件中的文字能否污染 AI 逆向结论。 **[未确认使用 REA · 待验证]**
+- [REA 分析链路：测试二进制内提示注入的 idea](cases/rea-binary-injection-test-idea.md) — 从二进制嵌入指令的idea到REA静态报告标记测试，未验证模型服从；11月24日另有双层字符串加密与本机密钥检查设想，仍无防护有效性证据。 **[未确认使用 REA · 待验证]**
 - [CapCut 动态字幕：从模板 DSL 重建渲染器的 idea](cases/capcut-subtitle-renderer-idea.md) — 研究字幕模板、Shader 与 SDF 渲染，再以图片 diff 验证。 **[未确认使用 REA · 待验证]**
 - [16 个笔记文件：有无 REA 的解码对照实验转述](cases/sixteen-note-files-decoder-report.md) — 长文转述对16个笔记文件的限时解码比较，两条语言版本合并。 **[REA · 待验证]**
 - [CPU kernels：REA 汇编优化研究与多模型复查流程](cases/rea-cpu-kernel-optimization.md) — 原作者用Claude Code管理Astra研究计算内核；新增读者提出先反编译、对照指令集并征询多模型的流程，10%不是实测。 **[REA · 进行中]**

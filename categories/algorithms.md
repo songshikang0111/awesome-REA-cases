@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [未命名App的加密签名：THE A-FU称DeepSeek Harness协助复刻规则](../cases/the-afu-deepseek-harness-app-signature-reconstruction.md) — THE A-FU称DeepSeek Harness陪同逆向一个App，并复刻其中加密签名规则；没有披露目标、规则、代码或验证样本。 **[其他 AI 逆向 · 待验证]**
 - [neuronvisuals火柴人画风：Claude按参考帧重建Python动画的教程转述](../cases/neuronvisuals-postiz-claude-stick-animation-reconstruction.md) — S1哥转述Nevo David的教程：拆neuronvisuals的黑底双人对比、最后变黄等规则，让Claude写PIL动画并逐帧比较修改；批量渲染与传播数字均未重跑核算。 **[其他 AI 逆向 · 待验证]**
 - [《风起，城行》：GPT 6Pro参与哈尔移动城堡三维重建，Blender版仍有画风差异](../cases/howls-moving-castle-gpt6pro-threejs-blender-reconstruction.md) — d!l3+ttant3报告把以哈尔城堡为参考的程序动画从Three.js转到Blender，渲约十小时并称60帧导出；仓库介绍为60秒1080p／24fps，规格不能混同。 **[其他 AI 逆向 · 待验证]**
 - [Shot Reader v2镜头反推：Heba AI指出B-25误称喷气机与手持摇晃漏检](../cases/shot-reader-v2-heba-camera-motion-comparison.md) — Heba AI比较Shot Reader v2与Claude＋REA：首镜推近和CG风格判断被认可，但B-25被叫作jets，第13镜手持式摇晃被判静止；无公开输入或完整评测。 **[其他 AI 逆向 · 分析测试]**
@@ -323,7 +324,7 @@
 - [Windows 计算器：还原百分号在不同运算中的规则](../cases/windows-calculator-percent.md) — 分析已安装计算器 DLL，解释并重建加法与乘法的百分号行为。 **[REA]**
 - [自制 JS / .NET 样本：对照有无 REA 的函数重建](../cases/codex-rea-controlled-samples.md) — 同模型六次运行、360 用例验收，研究 REA 的线索价值而非宣称提速。 **[REA · 分析测试]**
 - [DLSS：重实现计算着色器以在 AMD 显卡运行的报告](../cases/dlss-amd-compute-report.md) — 讨论明确提出 AI 辅助重实现 DLSS，具体开发归属仍待核验。 **[未确认使用 REA · 待验证]**
-- [REA 分析链路：测试二进制内提示注入的 idea](../cases/rea-binary-injection-test-idea.md) — 计划测试目标文件中的文字能否污染 AI 逆向结论。 **[未确认使用 REA · 待验证]**
+- [REA 分析链路：测试二进制内提示注入的 idea](../cases/rea-binary-injection-test-idea.md) — 从二进制嵌入指令的idea到REA静态报告标记测试，未验证模型服从；11月24日另有双层字符串加密与本机密钥检查设想，仍无防护有效性证据。 **[未确认使用 REA · 待验证]**
 - [CapCut 动态字幕：从模板 DSL 重建渲染器的 idea](../cases/capcut-subtitle-renderer-idea.md) — 研究字幕模板、Shader 与 SDF 渲染，再以图片 diff 验证。 **[未确认使用 REA · 待验证]**
 - [16 个笔记文件：有无 REA 的解码对照实验转述](../cases/sixteen-note-files-decoder-report.md) — 长文转述对16个笔记文件的限时解码比较，两条语言版本合并。 **[REA · 待验证]**
 - [CPU kernels：REA 汇编优化研究与多模型复查流程](../cases/rea-cpu-kernel-optimization.md) — 原作者用Claude Code管理Astra研究计算内核；新增读者提出先反编译、对照指令集并征询多模型的流程，10%不是实测。 **[REA · 进行中]**

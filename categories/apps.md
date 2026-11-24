@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [从APK反推后端：Tech Athletes转述NICT的A2B调查与AI分析成本](../cases/nict-a2b-ai-assisted-mobile-backend-analysis-report.md) — Tech Athletes转述NICT的App-to-Backend调查：反编译日本公开App提取接口后针对后端攻击，并称AI降低分析成本；未取得原报告或具体AI运行证据。 **[其他 AI 逆向 · 待验证]**
+- [Vitals本地克隆：Samin Yasar称REA与Claude Code约半小时重建Mac应用](../cases/samin-yasar-vitals-rea-claude-mac-clone.md) — Samin Yasar称把本机Vitals交给REA和Claude Code研究并克隆，约30分钟后得到外观略有不同但自称功能够用的版本；未提供仓库URL或覆盖测试。 **[REA · 待验证]**
+- [Android隐私删减版idea：Sad HAM Society建议REA静态分析加代理流量对照](../cases/android-rea-claude-static-proxy-privacy-rebuild-idea.md) — Sad HAM Society提出Claude Code连Android手机、REA反编译App并与代理流量比较，再尝试重编删减版；没有命名App、抓包或修改结果。 **[REA · 待验证]**
 - [Antigravity地区限制研究被拒：迪丽热酒的Codex失败自述](../cases/liushuaikobe-codex-antigravity-region-refusal.md) — 迪丽热酒在讨论Antigravity检测与T3 Code接入的串里，报告Codex拒绝逆向突破限制；未披露提示词、版本或补丁，不推导模型统一政策。 **[其他 AI 逆向 · 待验证]**
 - [Iran Laravel的网站重建服务：从公开页面推流程、表单与数据模型](../cases/iran-laravel-ai-public-website-reconstruction-service.md) — 候选短链指向Iran Laravel服务页：AI与工程师分析参考网站的页面、表单及用户流，再以Laravel和波斯语CMS重建；未列已交付目标或对照测试。 **[其他 AI 逆向 · 相关项目]**
 - [notebooklm-py：把未公开Google接口接到Claude Code与Codex的技能](../cases/notebooklm-py-undocumented-api-agent-skill-integration.md) — 候选介绍非官方Python／CLI及Agent技能，用逆向接口编排Gemini Notebook音视频与资料工作流；项目文档确认未公开API风险，16分钟录音与30秒摘要说法未核。 **[未确认使用 REA · 相关项目]**
