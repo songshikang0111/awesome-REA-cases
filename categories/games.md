@@ -230,7 +230,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](../cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](../cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](../cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增GTA6结构依赖图与40款GPU日志提及的转述，均无工件；82／400与52／185署名口径仍未解决，文档与日志不能证明GTA6已可玩。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5的AI原创逆向说法新增来源质疑：Arvīds Kokins称部分提交移植OpenAGC／KytyPS5功能。未审其所指diff；署名争议与GTA6可玩性仍未解决。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](../cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](../cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](../cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
@@ -449,7 +449,7 @@
 - [Firefighter：把老 DOS 游戏恢复成可维护的 Rust 代码](../cases/firefighter-rust.md) — 从旧 DOS 二进制恢复 Pascal，再转写为 Rust。 **[其他 AI 逆向]**
 - [《现代战争 2》：用多 Agent 重建游戏代码](../cases/mw2-decompilation.md) — 多 Agent 反编译游戏，以原二进制核对恢复函数。 **[其他 AI 逆向]**
 - [Urban Terror：把桌面多人射击游戏移植到浏览器](../cases/urban-terror-web.md) — 定位引擎与字节码布局差异，将游戏移植到浏览器。 **[其他 AI 逆向]**
-- [DX-Ball：从声像函数到270个游戏函数匹配，新增原生Windows构建记录](../cases/dx-ball-sound-pan.md) — Codex通过REA／Ghidra重建DX-Ball 1.07；公开项目报告270个自有游戏函数、84968字节匹配及141单元Windows构建，原版50关全流程仍待测。 **[REA]**
+- [DX-Ball：270函数匹配与原生构建之外，Claude把声像规则做成WASM教学演示](../cases/dx-ball-sound-pan.md) — 项目报告REA／Codex重建270函数、84968字节匹配与141单元构建；Benoît另称Claude用声像规则写WASM并改一字节反向。教学演示未核，原版50关仍待测。 **[REA]**
 - [《东方幻想乡》：恢复环形弹幕的角度计算](../cases/th04-bullet-ring.md) — 恢复《东方幻想乡》环形弹幕的角度计算。 **[REA]**
 - [东方系列：用 Agent 重建旧游戏，并迁移到新平台](../cases/touhou-reconstruction.md) — 重建东方系列代码并迁移平台；新增浮点常量漏验的历史修复证据。 **[REA]**
 - [Dinosaur：解释网页跑酷游戏如何逐渐加速](../cases/dinosaur-speed.md) — 读网页脚本，实验验证跑酷游戏的加速规则。 **[REA]**

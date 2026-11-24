@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2725 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2729 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（531）
-- [硬件与设备互通](categories/hardware.md)（718）
-- [应用与客户端](categories/apps.md)（1129）
-- [算法与功能重建](categories/algorithms.md)（347）
+- [硬件与设备互通](categories/hardware.md)（719）
+- [应用与客户端](categories/apps.md)（1130）
+- [算法与功能重建](categories/algorithms.md)（349）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -254,7 +254,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增GTA6结构依赖图与40款GPU日志提及的转述，均无工件；82／400与52／185署名口径仍未解决，文档与日志不能证明GTA6已可玩。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5的AI原创逆向说法新增来源质疑：Arvīds Kokins称部分提交移植OpenAGC／KytyPS5功能。未审其所指diff；署名争议与GTA6可玩性仍未解决。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
@@ -473,7 +473,7 @@
 - [Firefighter：把老 DOS 游戏恢复成可维护的 Rust 代码](cases/firefighter-rust.md) — 从旧 DOS 二进制恢复 Pascal，再转写为 Rust。 **[其他 AI 逆向]**
 - [《现代战争 2》：用多 Agent 重建游戏代码](cases/mw2-decompilation.md) — 多 Agent 反编译游戏，以原二进制核对恢复函数。 **[其他 AI 逆向]**
 - [Urban Terror：把桌面多人射击游戏移植到浏览器](cases/urban-terror-web.md) — 定位引擎与字节码布局差异，将游戏移植到浏览器。 **[其他 AI 逆向]**
-- [DX-Ball：从声像函数到270个游戏函数匹配，新增原生Windows构建记录](cases/dx-ball-sound-pan.md) — Codex通过REA／Ghidra重建DX-Ball 1.07；公开项目报告270个自有游戏函数、84968字节匹配及141单元Windows构建，原版50关全流程仍待测。 **[REA]**
+- [DX-Ball：270函数匹配与原生构建之外，Claude把声像规则做成WASM教学演示](cases/dx-ball-sound-pan.md) — 项目报告REA／Codex重建270函数、84968字节匹配与141单元构建；Benoît另称Claude用声像规则写WASM并改一字节反向。教学演示未核，原版50关仍待测。 **[REA]**
 - [《东方幻想乡》：恢复环形弹幕的角度计算](cases/th04-bullet-ring.md) — 恢复《东方幻想乡》环形弹幕的角度计算。 **[REA]**
 - [东方系列：用 Agent 重建旧游戏，并迁移到新平台](cases/touhou-reconstruction.md) — 重建东方系列代码并迁移平台；新增浮点常量漏验的历史修复证据。 **[REA]**
 - [Dinosaur：解释网页跑酷游戏如何逐渐加速](cases/dinosaur-speed.md) — 读网页脚本，实验验证跑酷游戏的加速规则。 **[REA]**
@@ -560,6 +560,7 @@
 
 ### 硬件与设备互通
 
+- [把稍后读送到Xteink X4：Rafael称Fable改固件并接三款Agent的MCP](cases/rafael-xteink-x4-fable-mcp-reading-transfer.md) — Rafael Quintanilha称借Fable更新Xteink X4固件，从Grok Bot、Claude与Codex经MCP发送书籍、文章和推文；接口、格式与真机结果未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [1998年的LightLink重新亮起：Claude读旧固件与电路图，人类换控制器并纠线](cases/larry-pesce-lightlink-1998-claude-controller-revival.md) — Larry Pesce借Claude研究旧LightLink显示板，以ESP8266替换封闭控制器；作者报告面包板实机成功，KiCad新板仅通过DRC，尚未制造。 **[其他 AI 逆向 · 待验证]**
 - [街边监控变iPhone实时游戏：Sherman称Gemini研究底层并做车辆特效](cases/sherman-gemini-street-camera-iphone-game.md) — Sherman称低层研究自家街道监控摄像头，Gemini 4 Neon写出iPhone游戏，在真实车流上擦除并爆破车辆；120fps与零延迟未测。 **[其他 AI 逆向 · 待验证]**
 - [Elecbrakes拖车制动：Claude读安卓字节码，研究者实测认证缺口并协调修补](cases/elecbrakes-claude-android-brake-audit-report.md) — Element Digital原文确认Patrick Forck与Jeremy McCarthy借Claude读安卓字节码、做蓝牙研究工具，在自有设备验证制动认证缺口；CVE登记可查，未在本合集复现。 **[其他 AI 逆向 · 待验证]**
@@ -588,7 +589,7 @@
 - [打印机墨盒检查：读者问Claude能否改固件，Epson只警告作为对照](cases/claude-printer-firmware-cartridge-check-removal-idea.md) — 在第三方墨盒被固件拒绝的讨论中，读者问Claude能否移除墨盒检查，称自用Epson只警告不阻止；没有实际改动或测试。 **[其他 AI 逆向 · 待验证]**
 - [旧打印机墨盒限制：Jules自称用REA改固件，设备只写canon laserjet](cases/jollyroger-rea-canon-printer-firmware-cartridge-report.md) — Jules在墨盒芯片限制讨论中说刚用修改模型和REA移除旧打印机固件限制；canon laserjet命名保留原样，缺型号、补丁和打印验证。 **[REA · 待验证]**
 - [旧Redmi Note10 Pro Max再利用：Bhuvanesh称Claude找无gApps ROM并备份侧载](cases/bhuvanesh-redmi-note10-pro-max-claude-rom-rescue.md) — Mehdi评论Claude救活旧Redmi，父帖Bhuvanesh说模型完成ROM查找、下载与备份侧载；没有ROM名称和设备验证，不当AI反编译固件。 **[其他 AI 逆向 · 相关项目]**
-- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — RetroChainer转述PopaSpinka用Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466 AMOLED板；两晚、60fps与零撕裂未复测。 **[其他 AI 逆向 · 待验证]**
+- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — 转述称Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466板；新教程补具体板型与控制器接口，两晚、60fps与零撕裂仍未复测。 **[其他 AI 逆向 · 待验证]**
 - [矿机固件与ASIC优势：Promoted问何时用LLM研究闭源固件](cases/bitcoin-miner-firmware-llm-research-idea.md) — Promoted在Bitmain及同行固件/IP争论中提出用LLM逆向，未实际研究；旧串只是开放固件与芯片效率的背景，不证实IP或性能结论。 **[其他 AI 逆向 · 待验证]**
 - [OpenGlass Go：Kimi研究裸眼3D屏，Gemini收尾Armbian替代固件](cases/openglass-go-kimi-gemini-armbian-firmware.md) — Megabits为Looking Glass Go做开源Armbian固件，称Kimi负责多数逆向和初期代码、Gemini Neon收尾；公开文档支持H618与STM32控制方案，未实机复测。 **[其他 AI 逆向 · 进行中]**
 - [Audi MMI接GPT Live：Cristian研究语音按钮和音频，让原车主机控制家居](cases/cristian-audi-mmi-gpt-live-voice-home-automation.md) — Cristian称研究Audi MMI语音按钮与音频后，主机自运行应用接GPT Live、家居和天气查询，原车麦克风与扬声器工作；未取得实现或实车测试。 **[其他 AI 逆向 · 待验证]**
@@ -1281,6 +1282,7 @@
 
 ### 应用与客户端
 
+- [Ollama黑盒重建：MultiMax.ai称Ghidra与REA让编码任务快1.48倍](cases/ollama-ghidra-rea-black-box-rebuild-report.md) — MultiMax.ai报告用Ghidra／REA黑盒研究Ollama并重建，声称编码任务1.48倍快；未给版本、改动、模型或基准，不能当已测性能。 **[REA · 待验证]**
 - [为X编辑做的Bloomberg式终端：Arron Knight用Hermes找、查、评分，自己写](cases/arron-knight-hermes-x-editorial-research-terminal.md) — Arron Knight称Hermes在本机筛新闻、核前三条来源，再把稿件与14000帖中的50个近邻比较；Bloomberg是用途类比，不是恢复其专有协议。 **[其他 AI 逆向 · 待验证]**
 - [Grok Bot、Muse与Instinct的比较拆解：sarah讲记忆、主动性和Agent自己的电脑](cases/sarah-agent-memory-proactivity-comparative-teardown.md) — sarah以一支比较教学视频自称研究多款个人Agent，列记忆、dreaming、iMessage及浏览器接入；未取得机制说明或独立重建验证。 **[未确认使用 REA · 待验证]**
 - [GTA6标签下的Web清单：Scientific Brad用REA盘点Rockstar相关入口](cases/scientific-brad-rea-rockstar-web-surface-inventory.md) — Scientific Brad称REA找到126子域、289 URL、19 API路由和13微前端注册映射；这是Web表面研究，不是游戏反编译或漏洞验证。 **[REA · 待验证]**
@@ -2413,6 +2415,8 @@
 
 ### 算法与功能重建
 
+- [学习一个动态效果：李博比较三款模型的逆向完成与拒绝体验](cases/leeeboo-dynamic-effect-ai-model-comparison.md) — 李博称为理解动态效果实现做逆向，同问题中GPT 6.2 SOL部分完成且偶有拒绝，GPT 6.0 SOL和Opus 5.5则主观评为100%完成；没有参考或对照工件。 **[其他 AI 逆向 · 待验证]**
+- [私有公式的黑盒恢复：DarkFlare称Fable 5.2达到0.99贴合，指标未定义](cases/darkflare-fable-private-formula-reconstruction.md) — DarkFlare称用Fable 5.2恢复多未知输入的私有公式，得到0.99 accuracy，此前手工尝试四年；未披露公式领域、样本或指标，不等于99%独立验证。 **[其他 AI 逆向 · 待验证]**
 - [反推环境感知动态字幕：Pradeep Kapoor给编程Agent的两级提示指南](cases/pradeep-kapoor-dynamic-captions-agent-reconstruction.md) — Pradeep Kapoor称逆向研究短视频里会移动、呼应环境的字幕，用编程Agent重做；提供简短与全流程提示及免版税素材样例，效果未复跑。 **[其他 AI 逆向 · 待验证]**
 - [caramel-1模型审计：aniketh用REA核张量与源码，保留训练来源缺口](cases/aniketh-caramel1-rea-tensor-source-audit.md) — aniketh称REA核对caramel-1权重哈希、137张量与413198848参数，并发现配置源码哈希不同于公开版本；静态匹配不证明训练史或对话质量。 **[REA · 分析测试]**
 - [GPT-4旧图表重建：Gemini归一化转述与HumanEval横轴待核](cases/gpt4-chart-gemini-carbon-loss-reconstruction-report.md) — 候选转述Gemini 4 Carbon研究2023 GPT-4图表，并讨论单位与41mnat校正；后续SVG反算HumanEval横轴1.76e25等效FLOPs，仍需原始数据。 **[其他 AI 逆向 · 待验证]**
@@ -2528,7 +2532,7 @@
 - [两部手机作前端：0xwhippa的多模型固件读取器实验](cases/two-phone-multi-model-firmware-reader-report.md) — 0xwhippa称电脑调度Sonnet写固件读取程序、四个Haiku并行搜索、Opus终审；固件、代码与验收未公开，两部手机只是输入和监看。 **[其他 AI 逆向 · 待验证]**
 - [Ella与恶魔：sandmrk为Muse反推七段短片，约束道具与变身连续性](cases/sandmrk-muse-ella-demon-continuity-prompt.md) — sandmrk发布瓷偶贵族与恶魔短片的Muse分镜提示，明确生成仍不匹配原片；同串镜头数与时长存在内部不一致。 **[其他 AI 逆向 · 待验证]**
 - [Decision Transformer训练数据：Roasted Phoenix称Agent反推scaffolding后测试耗额失控](cases/roasted-phoenix-decision-transformer-scaffold-token-budget.md) — 作者研究用于合成训练数据的目标scaffolding，称bot随后测试消耗周额度3–5%才被叫停；模型训练和逆向正确性未验收。 **[其他 AI 逆向 · 进行中]**
-- [RDNA着色器研究idea：Sebastian Aaltonen建议经SPIR-V转源码再让AI命名变量](cases/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — 提出复用PS5模拟器的RDNA ISA→SPIR-V转换，再到HLSL／GLSL／Metal并让AI命名变量；没有具名实现、输入样本或语义正确性测试。 **[其他 AI 逆向 · 进行中]**
+- [从SPIR-V研究idea到自有着色器恢复：Sebastian Aaltonen报告输出一致](cases/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — Aaltonen先建议RDNA→SPIR-V→源码与AI命名，后报告已AI逆向自己的全部着色器且SPIR-V相同、代码清晰；没有公开样本或逐项比较，不证明GTA6可玩。 **[其他 AI 逆向 · 进行中]**
 - [参考视频到定制skill：eback_4u预告Claude Code视频风格反推服务](cases/eback4u-claude-reference-video-custom-skill-preview.md) — 视频编辑者eback_4u称在用Claude Code反推参考片风格，拟开放10个按用户视频定制skill的名额；仍是发布预告，未提供代码或复刻验收。 **[其他 AI 逆向 · 进行中]**
 - [CODEGATE 2026自主Agent：KAIST团队简介自报六类26题中解决22题](cases/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON预告Donghyeon Kim与Insu Yun的全自动CTF Agent；官网自述Codex／Claude管理环境并解决22/26题，未提供逐题逆向成果或独立赛绩核验。 **[其他 AI 逆向 · 相关项目]**
 - [Neon Dreamscapes赛博打斗：sandmrk反推Muse镜头提示，保留串脸修复与不匹配声明](cases/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk把双人剑盾打斗、翻栏和无人机镜头写成Muse提示，通过单脸锚和特征排除修复角色混淆；明确生成结果仍不能完全匹配原视频。 **[其他 AI 逆向 · 待验证]**

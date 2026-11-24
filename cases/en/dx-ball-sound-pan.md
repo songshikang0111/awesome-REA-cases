@@ -1,7 +1,7 @@
-# DX-Ball: from a panning function to 270 matching game functions and a native Windows build record
+# DX-Ball: beyond 270 matching functions and a native build, Claude turns its panning rule into a WASM teaching demo
 
 Category: Games and preservation · REA
-Record date: 2026-11-01
+Record date: 2026-11-24
 
 DX-Ball is a 1990s Windows brick-breaking game. An early REA contribution recovered its horizontal-position stereo-panning algorithm by following playback calls and using assembly, constants and callers to reconstruct C. The evidence records 3,205 differential tests against original x86 and recompilation matching the complete 63-byte function. This was one-function validation, not a complete game reconstruction at that time.
 
@@ -15,9 +15,12 @@ The October 31 report uses Europe/Berlin (UTC+1), so its 20261101 directory labe
 
 The older function-level finding and newer game-wide progress coexist with dates. These are project records and reporting, not this collection's independent reproduction. Only documents were read; no game acquisition, VC4 compilation, differential-test rerun or play occurred here.
 
-New candidate snapshot: 0 likes, 124 views, 0 reposts. The game-function denominator excludes runtime code.
+At 04:31:55 Beijing time on November 24, Benoît (@benoitc) says he gave Claude the sound rule the REA team found in DX-Ball. Claude reportedly wrote a small WASM program making a beep follow a ball from left to right; when asked to reverse the sound direction, it changed one byte. Retrieval confirms attribution and text. The short-linked demo was not opened, WASM not inspected and audio not tested. This is a separate educational use of the recovered rule, not a one-byte patch to the original DX-Ball binary, another set of 3,205 differential tests, a 63-byte function match or whole-game acceptance. No particular modified instruction is inferred.
+
+November 1 candidate snapshot: 0 likes, 124 views, 0 reposts. The game-function denominator excludes runtime code.
 270 functions and 84,968 bytes are project matching results. The original fifty-board campaign and other checks remain pending; no independent rerun.
 Supplementary project material predates this window. The 18-byte timestamp-only comparison is against the October 22 reconstructed test executable, not the original EXE.
+November 24 teaching-demo snapshot: 1 like, 113 views, 0 reposts, 2 replies. The one-byte change refers only to the author's WASM demo, not an original-game patch.
 
 ## Sources
 
@@ -27,5 +30,6 @@ Supplementary project material predates this window. The 18-byte timestamp-only 
 - [Tuoba Shu reports 270 matching functions and a native Windows build, November 1, 2026](https://x.com/i/status/2116754242870645169)
 - [Supplementary: pinned README, commit October 31 at 18:31:16 UTC, before this window](https://github.com/N0zoM1z0/dx-ball/blob/36856cb0ab246e8727bed5ae9d58bf5ab5a72de7/README.md)
 - [Supplementary: October 31 Europe/Berlin build and windowed-play report, pinned commit](https://github.com/N0zoM1z0/dx-ball/blob/36856cb0ab246e8727bed5ae9d58bf5ab5a72de7/docs/research/PLAYABILITY_20261031.md)
+- [Benoît's Claude/WASM panning tutorial-demo account, November 24, 2026 at 04:31:55 Beijing time](https://x.com/i/status/2124964180709277913)
 
 [中文](../dx-ball-sound-pan.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [把稍后读送到Xteink X4：Rafael称Fable改固件并接三款Agent的MCP](../cases/rafael-xteink-x4-fable-mcp-reading-transfer.md) — Rafael Quintanilha称借Fable更新Xteink X4固件，从Grok Bot、Claude与Codex经MCP发送书籍、文章和推文；接口、格式与真机结果未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [1998年的LightLink重新亮起：Claude读旧固件与电路图，人类换控制器并纠线](../cases/larry-pesce-lightlink-1998-claude-controller-revival.md) — Larry Pesce借Claude研究旧LightLink显示板，以ESP8266替换封闭控制器；作者报告面包板实机成功，KiCad新板仅通过DRC，尚未制造。 **[其他 AI 逆向 · 待验证]**
 - [街边监控变iPhone实时游戏：Sherman称Gemini研究底层并做车辆特效](../cases/sherman-gemini-street-camera-iphone-game.md) — Sherman称低层研究自家街道监控摄像头，Gemini 4 Neon写出iPhone游戏，在真实车流上擦除并爆破车辆；120fps与零延迟未测。 **[其他 AI 逆向 · 待验证]**
 - [Elecbrakes拖车制动：Claude读安卓字节码，研究者实测认证缺口并协调修补](../cases/elecbrakes-claude-android-brake-audit-report.md) — Element Digital原文确认Patrick Forck与Jeremy McCarthy借Claude读安卓字节码、做蓝牙研究工具，在自有设备验证制动认证缺口；CVE登记可查，未在本合集复现。 **[其他 AI 逆向 · 待验证]**
@@ -30,7 +31,7 @@
 - [打印机墨盒检查：读者问Claude能否改固件，Epson只警告作为对照](../cases/claude-printer-firmware-cartridge-check-removal-idea.md) — 在第三方墨盒被固件拒绝的讨论中，读者问Claude能否移除墨盒检查，称自用Epson只警告不阻止；没有实际改动或测试。 **[其他 AI 逆向 · 待验证]**
 - [旧打印机墨盒限制：Jules自称用REA改固件，设备只写canon laserjet](../cases/jollyroger-rea-canon-printer-firmware-cartridge-report.md) — Jules在墨盒芯片限制讨论中说刚用修改模型和REA移除旧打印机固件限制；canon laserjet命名保留原样，缺型号、补丁和打印验证。 **[REA · 待验证]**
 - [旧Redmi Note10 Pro Max再利用：Bhuvanesh称Claude找无gApps ROM并备份侧载](../cases/bhuvanesh-redmi-note10-pro-max-claude-rom-rescue.md) — Mehdi评论Claude救活旧Redmi，父帖Bhuvanesh说模型完成ROM查找、下载与备份侧载；没有ROM名称和设备验证，不当AI反编译固件。 **[其他 AI 逆向 · 相关项目]**
-- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](../cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — RetroChainer转述PopaSpinka用Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466 AMOLED板；两晚、60fps与零撕裂未复测。 **[其他 AI 逆向 · 待验证]**
+- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](../cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — 转述称Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466板；新教程补具体板型与控制器接口，两晚、60fps与零撕裂仍未复测。 **[其他 AI 逆向 · 待验证]**
 - [矿机固件与ASIC优势：Promoted问何时用LLM研究闭源固件](../cases/bitcoin-miner-firmware-llm-research-idea.md) — Promoted在Bitmain及同行固件/IP争论中提出用LLM逆向，未实际研究；旧串只是开放固件与芯片效率的背景，不证实IP或性能结论。 **[其他 AI 逆向 · 待验证]**
 - [OpenGlass Go：Kimi研究裸眼3D屏，Gemini收尾Armbian替代固件](../cases/openglass-go-kimi-gemini-armbian-firmware.md) — Megabits为Looking Glass Go做开源Armbian固件，称Kimi负责多数逆向和初期代码、Gemini Neon收尾；公开文档支持H618与STM32控制方案，未实机复测。 **[其他 AI 逆向 · 进行中]**
 - [Audi MMI接GPT Live：Cristian研究语音按钮和音频，让原车主机控制家居](../cases/cristian-audi-mmi-gpt-live-voice-home-automation.md) — Cristian称研究Audi MMI语音按钮与音频后，主机自运行应用接GPT Live、家居和天气查询，原车麦克风与扬声器工作；未取得实现或实车测试。 **[其他 AI 逆向 · 待验证]**

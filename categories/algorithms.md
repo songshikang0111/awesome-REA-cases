@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [学习一个动态效果：李博比较三款模型的逆向完成与拒绝体验](../cases/leeeboo-dynamic-effect-ai-model-comparison.md) — 李博称为理解动态效果实现做逆向，同问题中GPT 6.2 SOL部分完成且偶有拒绝，GPT 6.0 SOL和Opus 5.5则主观评为100%完成；没有参考或对照工件。 **[其他 AI 逆向 · 待验证]**
+- [私有公式的黑盒恢复：DarkFlare称Fable 5.2达到0.99贴合，指标未定义](../cases/darkflare-fable-private-formula-reconstruction.md) — DarkFlare称用Fable 5.2恢复多未知输入的私有公式，得到0.99 accuracy，此前手工尝试四年；未披露公式领域、样本或指标，不等于99%独立验证。 **[其他 AI 逆向 · 待验证]**
 - [反推环境感知动态字幕：Pradeep Kapoor给编程Agent的两级提示指南](../cases/pradeep-kapoor-dynamic-captions-agent-reconstruction.md) — Pradeep Kapoor称逆向研究短视频里会移动、呼应环境的字幕，用编程Agent重做；提供简短与全流程提示及免版税素材样例，效果未复跑。 **[其他 AI 逆向 · 待验证]**
 - [caramel-1模型审计：aniketh用REA核张量与源码，保留训练来源缺口](../cases/aniketh-caramel1-rea-tensor-source-audit.md) — aniketh称REA核对caramel-1权重哈希、137张量与413198848参数，并发现配置源码哈希不同于公开版本；静态匹配不证明训练史或对话质量。 **[REA · 分析测试]**
 - [GPT-4旧图表重建：Gemini归一化转述与HumanEval横轴待核](../cases/gpt4-chart-gemini-carbon-loss-reconstruction-report.md) — 候选转述Gemini 4 Carbon研究2023 GPT-4图表，并讨论单位与41mnat校正；后续SVG反算HumanEval横轴1.76e25等效FLOPs，仍需原始数据。 **[其他 AI 逆向 · 待验证]**
@@ -117,7 +119,7 @@
 - [两部手机作前端：0xwhippa的多模型固件读取器实验](../cases/two-phone-multi-model-firmware-reader-report.md) — 0xwhippa称电脑调度Sonnet写固件读取程序、四个Haiku并行搜索、Opus终审；固件、代码与验收未公开，两部手机只是输入和监看。 **[其他 AI 逆向 · 待验证]**
 - [Ella与恶魔：sandmrk为Muse反推七段短片，约束道具与变身连续性](../cases/sandmrk-muse-ella-demon-continuity-prompt.md) — sandmrk发布瓷偶贵族与恶魔短片的Muse分镜提示，明确生成仍不匹配原片；同串镜头数与时长存在内部不一致。 **[其他 AI 逆向 · 待验证]**
 - [Decision Transformer训练数据：Roasted Phoenix称Agent反推scaffolding后测试耗额失控](../cases/roasted-phoenix-decision-transformer-scaffold-token-budget.md) — 作者研究用于合成训练数据的目标scaffolding，称bot随后测试消耗周额度3–5%才被叫停；模型训练和逆向正确性未验收。 **[其他 AI 逆向 · 进行中]**
-- [RDNA着色器研究idea：Sebastian Aaltonen建议经SPIR-V转源码再让AI命名变量](../cases/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — 提出复用PS5模拟器的RDNA ISA→SPIR-V转换，再到HLSL／GLSL／Metal并让AI命名变量；没有具名实现、输入样本或语义正确性测试。 **[其他 AI 逆向 · 进行中]**
+- [从SPIR-V研究idea到自有着色器恢复：Sebastian Aaltonen报告输出一致](../cases/ps5-rdna-spirv-ai-shader-variable-recovery-idea.md) — Aaltonen先建议RDNA→SPIR-V→源码与AI命名，后报告已AI逆向自己的全部着色器且SPIR-V相同、代码清晰；没有公开样本或逐项比较，不证明GTA6可玩。 **[其他 AI 逆向 · 进行中]**
 - [参考视频到定制skill：eback_4u预告Claude Code视频风格反推服务](../cases/eback4u-claude-reference-video-custom-skill-preview.md) — 视频编辑者eback_4u称在用Claude Code反推参考片风格，拟开放10个按用户视频定制skill的名额；仍是发布预告，未提供代码或复刻验收。 **[其他 AI 逆向 · 进行中]**
 - [CODEGATE 2026自主Agent：KAIST团队简介自报六类26题中解决22题](../cases/vxcon-kaist-codegate2026-autonomous-agent.md) — VXCON预告Donghyeon Kim与Insu Yun的全自动CTF Agent；官网自述Codex／Claude管理环境并解决22/26题，未提供逐题逆向成果或独立赛绩核验。 **[其他 AI 逆向 · 相关项目]**
 - [Neon Dreamscapes赛博打斗：sandmrk反推Muse镜头提示，保留串脸修复与不匹配声明](../cases/sandmrk-neon-dreamscapes-muse-fight-prompt.md) — sandmrk把双人剑盾打斗、翻栏和无人机镜头写成Muse提示，通过单脸锚和特征排除修复角色混淆；明确生成结果仍不能完全匹配原视频。 **[其他 AI 逆向 · 待验证]**

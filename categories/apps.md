@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Ollama黑盒重建：MultiMax.ai称Ghidra与REA让编码任务快1.48倍](../cases/ollama-ghidra-rea-black-box-rebuild-report.md) — MultiMax.ai报告用Ghidra／REA黑盒研究Ollama并重建，声称编码任务1.48倍快；未给版本、改动、模型或基准，不能当已测性能。 **[REA · 待验证]**
 - [为X编辑做的Bloomberg式终端：Arron Knight用Hermes找、查、评分，自己写](../cases/arron-knight-hermes-x-editorial-research-terminal.md) — Arron Knight称Hermes在本机筛新闻、核前三条来源，再把稿件与14000帖中的50个近邻比较；Bloomberg是用途类比，不是恢复其专有协议。 **[其他 AI 逆向 · 待验证]**
 - [Grok Bot、Muse与Instinct的比较拆解：sarah讲记忆、主动性和Agent自己的电脑](../cases/sarah-agent-memory-proactivity-comparative-teardown.md) — sarah以一支比较教学视频自称研究多款个人Agent，列记忆、dreaming、iMessage及浏览器接入；未取得机制说明或独立重建验证。 **[未确认使用 REA · 待验证]**
 - [GTA6标签下的Web清单：Scientific Brad用REA盘点Rockstar相关入口](../cases/scientific-brad-rea-rockstar-web-surface-inventory.md) — Scientific Brad称REA找到126子域、289 URL、19 API路由和13微前端注册映射；这是Web表面研究，不是游戏反编译或漏洞验证。 **[REA · 待验证]**
