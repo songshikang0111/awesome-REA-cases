@@ -1,7 +1,7 @@
 # GTA 6 port wishes and a claimed file recompilation: still no evidence of a playable PC version
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-21
+Record date: 2026-11-24
 Stage: Needs verification
 
 At 14:59 Beijing time on October 18, 2026, a poster bets AI agents can reverse about 50% of GTA 6 in three months after an executable dump, speculating the disc requires PS5 firmware that blocks current jailbreaks and delays binary access. No sample or started agent is reported. Fifty percent has no defined function, byte, system or gameplay scope; three months is not measured effort and firmware behavior is speculation, not a leak or PS5 compromise.
@@ -27,6 +27,9 @@ A media retelling at 18:47:57 Beijing time on November 7, 2026 attributes to for
 November 18 sealed candidate: 0 likes, 20 views, 0 reposts, 0 replies. Prompt-like Windows/local-server wish, without builds or networking tests.
 November 19 sealed candidate: 1 like, 16 views, 0 reposts, 0 replies. Six months is a reader prediction, not a project delivery deadline.
 November 21 sealed candidate: 0 likes, 67 views, 0 reposts, 0 replies. The 1M views and 10k are unmet promotion conditions, not technical acceptance.
+A community retelling at 00:54:55 Beijing time on November 24 claims an Xbox release of 209GB and its .exe leaked, Claude/Codex are porting it, someone reached a black screen with audio dropouts, and playability may follow in a week. No named implementation, authenticated sample, build or logs support it. A black screen is not successful startup, 209GB is not an authenticated size, and a week is not measured effort. This is not joined to earlier 60 fps rumors as continuous progress. Sealed candidate: 3 likes, 3,797 views, 2 reposts, 1 reply.
+At 02:20:16 Beijing time on November 24, Sinajet (@Sinajet1) proposes giving eboot.elf to an AI spelled cloude in the post for decryption, suggesting REA too. Supplementary retrieval of the 01:31:40 parent only identifies the PS5 GTA6 target; its claim of a still-encrypted 540GB is also unauthenticated. At 02:56:40 the same author admits he does not dump games, has not done this and does not know the required reverse engineering. Thus It work everytime is an unexecuted assertion, not proof of AI key recovery or defeated encryption. No authorization-bypass instructions are supplied. The two candidates have sealed snapshots of 5 likes/759 views/0 reposts/2 replies and 0 likes/57 views/0 reposts/1 reply respectively. The supplementary parent is not an additional candidate.
+At 03:35:55 Beijing time on November 24, a comment emphasizes that shared x86-64 does not automatically make an Xbox build compatible with Windows; an unofficial port might still incur overhead, instability, bugs and crashes. Its claims that AI research is underway, will be faster, and may provoke an official response are also retellings and predictions without named engineering evidence. This constrains the same-target one-week hype, not an independent compatibility test. Sealed candidate: 0 likes, 259 views, 0 reposts, 0 replies. No game was downloaded or executed.
 
 ## Sources
 
@@ -40,5 +43,10 @@ November 21 sealed candidate: 0 likes, 67 views, 0 reposts, 0 replies. The 1M vi
 - [Pre-window parent solely disambiguating GTA 6, November 18, 2026 at 13:15:10 Beijing time](https://x.com/i/status/2122921536596455819)
 - [ViceDEV's file-recompilation claim and engagement-gated video, November 21, 2026 at 03:52:16 Beijing time](https://x.com/i/status/2123867038590304290)
 - [Yumzlef's unverified RTX 3060/60 fps and live three-model patching claim, November 23, 2026 at 15:06:00 Beijing time](https://x.com/i/status/2124761365726261318)
+- [Community retelling of 209GB, Claude/Codex and a black screen with audio dropouts, November 24, 2026 at 00:54:55 Beijing time](https://x.com/i/status/2124909573677191472)
+- [Sinajet's cloude/REA eboot.elf decryption idea, November 24, 2026 at 02:20:16 Beijing time](https://x.com/i/status/2124931049826275635)
+- [Supplementary parent only identifies the PS5 GTA6 target, November 24, 2026 at 01:31:40 Beijing time](https://x.com/i/status/2124918818447532046)
+- [Sinajet admits not executing the idea or knowing the required reversing, November 24, 2026 at 02:56:40 Beijing time](https://x.com/i/status/2124940212681809982)
+- [Comment distinguishing shared x86-64 from Windows compatibility, November 24, 2026 at 03:35:55 Beijing time](https://x.com/i/status/2124950090661929450)
 
 [中文](../gta6-ai-decompile-prediction.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

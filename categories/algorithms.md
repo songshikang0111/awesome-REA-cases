@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [反推环境感知动态字幕：Pradeep Kapoor给编程Agent的两级提示指南](../cases/pradeep-kapoor-dynamic-captions-agent-reconstruction.md) — Pradeep Kapoor称逆向研究短视频里会移动、呼应环境的字幕，用编程Agent重做；提供简短与全流程提示及免版税素材样例，效果未复跑。 **[其他 AI 逆向 · 待验证]**
+- [caramel-1模型审计：aniketh用REA核张量与源码，保留训练来源缺口](../cases/aniketh-caramel1-rea-tensor-source-audit.md) — aniketh称REA核对caramel-1权重哈希、137张量与413198848参数，并发现配置源码哈希不同于公开版本；静态匹配不证明训练史或对话质量。 **[REA · 分析测试]**
 - [GPT-4旧图表重建：Gemini归一化转述与HumanEval横轴待核](../cases/gpt4-chart-gemini-carbon-loss-reconstruction-report.md) — 候选转述Gemini 4 Carbon研究2023 GPT-4图表，并讨论单位与41mnat校正；后续SVG反算HumanEval横轴1.76e25等效FLOPs，仍需原始数据。 **[其他 AI 逆向 · 待验证]**
 - [骑行片的提示词重建：松声慢语用Muse改两版，找回动感](../cases/jinsong-muse-cycling-video-prompt-reconstruction.md) — 松声慢语称从AI骑行视频反推提示词，针对运镜、城堡漂移与轮辐融化改两版；首版太僵，第二版低机位跟拍并恢复速度感，没有逐帧对照。 **[其他 AI 逆向 · 待验证]**
 - [分布式爬虫里的AI签名攻坚层：dragon的分工与路由架构idea](../cases/ai-native-distributed-crawler-signature-research-idea.md) — dragon设想规划、路由、采集、解析Agent配AI签名逆向层，后帖加Vibe Coding代码生成；没有站点、签名样本或成功结果。 **[其他 AI 逆向 · 待验证]**

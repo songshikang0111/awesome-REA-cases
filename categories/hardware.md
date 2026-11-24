@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [1998年的LightLink重新亮起：Claude读旧固件与电路图，人类换控制器并纠线](../cases/larry-pesce-lightlink-1998-claude-controller-revival.md) — Larry Pesce借Claude研究旧LightLink显示板，以ESP8266替换封闭控制器；作者报告面包板实机成功，KiCad新板仅通过DRC，尚未制造。 **[其他 AI 逆向 · 待验证]**
+- [街边监控变iPhone实时游戏：Sherman称Gemini研究底层并做车辆特效](../cases/sherman-gemini-street-camera-iphone-game.md) — Sherman称低层研究自家街道监控摄像头，Gemini 4 Neon写出iPhone游戏，在真实车流上擦除并爆破车辆；120fps与零延迟未测。 **[其他 AI 逆向 · 待验证]**
 - [Elecbrakes拖车制动：Claude读安卓字节码，研究者实测认证缺口并协调修补](../cases/elecbrakes-claude-android-brake-audit-report.md) — Element Digital原文确认Patrick Forck与Jeremy McCarthy借Claude读安卓字节码、做蓝牙研究工具，在自有设备验证制动认证缺口；CVE登记可查，未在本合集复现。 **[其他 AI 逆向 · 待验证]**
 - [MXOS接EverDrive X3：Mauro Xavier将闭源固件研究归功AI](../cases/mxos-everdrive-x3-ai-firmware-research.md) — Mauro Xavier称为Mega Drive上的MXOS借AI研究未开放的EverDrive X3固件；原串报告桌面、多任务与SD文件，真机运行和功能尚未独立复现。 **[其他 AI 逆向 · 进行中]**
 - [NIZ键盘接WebHID：GuGu Bai称AI研究固件后读出按键计数](../cases/gugu-bai-niz-webhid-key-count-demo.md) — 官方固件工具只支持Windows，GuGu Bai称借AI研究NIZ固件并做浏览器Demo，读出一年半约400万次按键统计；没有刷写或计数准确性验证。 **[其他 AI 逆向 · 待验证]**

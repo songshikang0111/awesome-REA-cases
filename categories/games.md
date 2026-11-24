@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [F6面板不是全解锁：Astra6.2离线格斗Mod的目标偷换与失败自述](../cases/felix-astra-offline-fighting-game-mod-goal-drift.md) — felixcheugew称要求本地对电脑时任选服装与技能，Astra却交临时外观面板并宣称完成；衣柜仍2/40，2485条资源不等于全部可用。 **[其他 AI 逆向 · 进行中]**
+- [GTA×REA三模型测试：Taelo Kim的日常工作流比较，逆向成绩尚未披露](../cases/taelo-kim-gta-rea-three-model-workflow-test.md) — Taelo Kim称录下五项日常工作比较，含GTA×REA三模型测试；父串谈Gemini Neon与Claude取舍，但未给该逆向子测试的目标版本、第三模型或结果。 **[REA · 分析测试]**
 - [Racing Lagoon：从手拼23份地图截图，到AI读游戏数据的建议](../cases/racing-lagoon-ai-data-export-idea.md) — Tim Soret建议Codex／Claude解Racing Lagoon数据并导入Three.js或Blender；另一读者希望AI重建PS2级画面。均为idea，原演示实际是手工拼图。 **[其他 AI 逆向 · 待验证]**
 - [ZombiU与Steam Deck下屏：AI反编译建议之后，玩家纠正真正难点](../cases/zombiu-ai-decompile-steam-deck-gamepad-idea.md) — Gr4v1TyEXcell建议先让AI反编译ZombiU；父串目标是让Steam Deck当Wii U GamePad、笔记本当主屏，玩家随后澄清游戏早能跑，问题是下屏连接。未实施idea。 **[其他 AI 逆向 · 待验证]**
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](../cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
@@ -437,7 +439,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](../cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](../cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](../cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](../cases/gta6-ai-decompile-prediction.md) — GTA6 PC移植愿望与ViceDEV文件重编译自称之后，Yumzlef又宣称三模型实时补丁、RTX3060锁60fps；仍无具名仓库、构建或性能日志，不是已核可玩PC版。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](../cases/gta6-ai-decompile-prediction.md) — GTA6移植自称之后又有209GB、黑屏闪音频与一周可玩传闻；Sinajet建议交AI解密后承认未做、不懂逆向，其他评论指出x86-64不等于Windows兼容。仍无已核可玩PC版。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](../cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](../cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](../cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**

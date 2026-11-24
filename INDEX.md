@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2716 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2725 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（529）
-- [硬件与设备互通](categories/hardware.md)（716）
-- [应用与客户端](categories/apps.md)（1126）
-- [算法与功能重建](categories/algorithms.md)（345）
+- [游戏与游戏保存](categories/games.md)（531）
+- [硬件与设备互通](categories/hardware.md)（718）
+- [应用与客户端](categories/apps.md)（1129）
+- [算法与功能重建](categories/algorithms.md)（347）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [F6面板不是全解锁：Astra6.2离线格斗Mod的目标偷换与失败自述](cases/felix-astra-offline-fighting-game-mod-goal-drift.md) — felixcheugew称要求本地对电脑时任选服装与技能，Astra却交临时外观面板并宣称完成；衣柜仍2/40，2485条资源不等于全部可用。 **[其他 AI 逆向 · 进行中]**
+- [GTA×REA三模型测试：Taelo Kim的日常工作流比较，逆向成绩尚未披露](cases/taelo-kim-gta-rea-three-model-workflow-test.md) — Taelo Kim称录下五项日常工作比较，含GTA×REA三模型测试；父串谈Gemini Neon与Claude取舍，但未给该逆向子测试的目标版本、第三模型或结果。 **[REA · 分析测试]**
 - [Racing Lagoon：从手拼23份地图截图，到AI读游戏数据的建议](cases/racing-lagoon-ai-data-export-idea.md) — Tim Soret建议Codex／Claude解Racing Lagoon数据并导入Three.js或Blender；另一读者希望AI重建PS2级画面。均为idea，原演示实际是手工拼图。 **[其他 AI 逆向 · 待验证]**
 - [ZombiU与Steam Deck下屏：AI反编译建议之后，玩家纠正真正难点](cases/zombiu-ai-decompile-steam-deck-gamepad-idea.md) — Gr4v1TyEXcell建议先让AI反编译ZombiU；父串目标是让Steam Deck当Wii U GamePad、笔记本当主屏，玩家随后澄清游戏早能跑，问题是下屏连接。未实施idea。 **[其他 AI 逆向 · 待验证]**
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
@@ -461,7 +463,7 @@
 - [Slay The Spire：在反编译成果上用 Claude 改玩法的报告](cases/slay-spire-claude-gameplay-report.md) — maya 自述借已有反编译成果改 Boss、画面、UI 和构筑；未确认 Claude 参与原始反编译。 **[其他 AI 逆向 · 待验证]**
 - [New Vegas：希望 AI 逆向带来可 Mod 的重制版](cases/new-vegas-ai-moddable-remaster-idea.md) — 读者希望 AI 逆向带来可修改的 New Vegas 重制版，而非更多云游戏；没有项目或成果。 **[其他 AI 逆向 · 待验证]**
 - [Battlefield／Frostbite：让玩家获得开放实现的 AI 逆向设想](cases/battlefield-frostbite-ai-open-idea.md) — 读者猜想有人可能正在用 AI 逆向 Battlefield 或 Frostbite，以做玩家想要的游戏；没有项目证据。 **[其他 AI 逆向 · 待验证]**
-- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](cases/gta6-ai-decompile-prediction.md) — GTA6 PC移植愿望与ViceDEV文件重编译自称之后，Yumzlef又宣称三模型实时补丁、RTX3060锁60fps；仍无具名仓库、构建或性能日志，不是已核可玩PC版。 **[其他 AI 逆向 · 待验证]**
+- [GTA 6移植愿望与文件重编译自称：仍无可玩PC版证据](cases/gta6-ai-decompile-prediction.md) — GTA6移植自称之后又有209GB、黑屏闪音频与一周可玩传闻；Sinajet建议交AI解密后承认未做、不懂逆向，其他评论指出x86-64不等于Windows兼容。仍无已核可玩PC版。 **[其他 AI 逆向 · 待验证]**
 - [Pre-CU Star Wars Galaxies：用 AI 加速模拟器逆向的 idea](cases/swg-precu-ai-emulator-idea.md) — 读者问 AI 能否缩短旧版 Star Wars Galaxies 模拟器的多年逆向工作；没有报告实施。 **[其他 AI 逆向 · 待验证]**
 - [Animal Jam / Burrow：Claude 反编译的未确认转述](cases/animal-jam-burrow-claude-report.md) — 多位社区读者将AI作用限定为Animal Jam辅助逆向，而非生成整个游戏；仍无开发者确认或正式安全审计。 **[其他 AI 逆向 · 待验证]**
 - [LittleBigPlanet：为可修改的原生 PC 版提出 AI 反编译 idea](cases/littlebigplanet-ai-native-port-idea.md) — duggsby 希望通过 AI 反编译获得可修改的原生 PC 版；同串声称见过 LBP1 产物的回复仍无项目来源。 **[其他 AI 逆向 · 待验证]**
@@ -558,6 +560,8 @@
 
 ### 硬件与设备互通
 
+- [1998年的LightLink重新亮起：Claude读旧固件与电路图，人类换控制器并纠线](cases/larry-pesce-lightlink-1998-claude-controller-revival.md) — Larry Pesce借Claude研究旧LightLink显示板，以ESP8266替换封闭控制器；作者报告面包板实机成功，KiCad新板仅通过DRC，尚未制造。 **[其他 AI 逆向 · 待验证]**
+- [街边监控变iPhone实时游戏：Sherman称Gemini研究底层并做车辆特效](cases/sherman-gemini-street-camera-iphone-game.md) — Sherman称低层研究自家街道监控摄像头，Gemini 4 Neon写出iPhone游戏，在真实车流上擦除并爆破车辆；120fps与零延迟未测。 **[其他 AI 逆向 · 待验证]**
 - [Elecbrakes拖车制动：Claude读安卓字节码，研究者实测认证缺口并协调修补](cases/elecbrakes-claude-android-brake-audit-report.md) — Element Digital原文确认Patrick Forck与Jeremy McCarthy借Claude读安卓字节码、做蓝牙研究工具，在自有设备验证制动认证缺口；CVE登记可查，未在本合集复现。 **[其他 AI 逆向 · 待验证]**
 - [MXOS接EverDrive X3：Mauro Xavier将闭源固件研究归功AI](cases/mxos-everdrive-x3-ai-firmware-research.md) — Mauro Xavier称为Mega Drive上的MXOS借AI研究未开放的EverDrive X3固件；原串报告桌面、多任务与SD文件，真机运行和功能尚未独立复现。 **[其他 AI 逆向 · 进行中]**
 - [NIZ键盘接WebHID：GuGu Bai称AI研究固件后读出按键计数](cases/gugu-bai-niz-webhid-key-count-demo.md) — 官方固件工具只支持Windows，GuGu Bai称借AI研究NIZ固件并做浏览器Demo，读出一年半约400万次按键统计；没有刷写或计数准确性验证。 **[其他 AI 逆向 · 待验证]**
@@ -1277,6 +1281,9 @@
 
 ### 应用与客户端
 
+- [为X编辑做的Bloomberg式终端：Arron Knight用Hermes找、查、评分，自己写](cases/arron-knight-hermes-x-editorial-research-terminal.md) — Arron Knight称Hermes在本机筛新闻、核前三条来源，再把稿件与14000帖中的50个近邻比较；Bloomberg是用途类比，不是恢复其专有协议。 **[其他 AI 逆向 · 待验证]**
+- [Grok Bot、Muse与Instinct的比较拆解：sarah讲记忆、主动性和Agent自己的电脑](cases/sarah-agent-memory-proactivity-comparative-teardown.md) — sarah以一支比较教学视频自称研究多款个人Agent，列记忆、dreaming、iMessage及浏览器接入；未取得机制说明或独立重建验证。 **[未确认使用 REA · 待验证]**
+- [GTA6标签下的Web清单：Scientific Brad用REA盘点Rockstar相关入口](cases/scientific-brad-rea-rockstar-web-surface-inventory.md) — Scientific Brad称REA找到126子域、289 URL、19 API路由和13微前端注册映射；这是Web表面研究，不是游戏反编译或漏洞验证。 **[REA · 待验证]**
 - [Instinct架构没拆全：Vaibhaav用REA与Claude探索后修正记忆直觉](cases/instinct-rea-claude-architecture-exploration-failure.md) — Vaibhaav称以多场景试验、REA skills、Claude和资料检索研究Instinct，仍未恢复完整架构；读团队记忆文章后承认此前方向不对。 **[REA · 进行中]**
 - [指纹JS里的假思考：Vincent称Claude识别注入后继续拆VM](cases/vincent-claude-fingerprint-js-injection-report.md) — Vincent称Claude Code分析疑似腾讯页面指纹脚本，识别伪装内部思考的提示注入，继续还原125696个整数单元；样本归属和正确性未核。 **[其他 AI 逆向 · 待验证]**
 - [Veeza模糊工具：Aly Moursy称用REA解决GPT修图的AI标记困扰](cases/veeza-rea-photo-blur-tool-report.md) — Aly Moursy称用REA做Veeza照片模糊工具，动机是GPT Image修图触发AI生成标记及现有工具难用；算法、研究对象和输出效果未核。 **[REA · 待验证]**
@@ -2406,6 +2413,8 @@
 
 ### 算法与功能重建
 
+- [反推环境感知动态字幕：Pradeep Kapoor给编程Agent的两级提示指南](cases/pradeep-kapoor-dynamic-captions-agent-reconstruction.md) — Pradeep Kapoor称逆向研究短视频里会移动、呼应环境的字幕，用编程Agent重做；提供简短与全流程提示及免版税素材样例，效果未复跑。 **[其他 AI 逆向 · 待验证]**
+- [caramel-1模型审计：aniketh用REA核张量与源码，保留训练来源缺口](cases/aniketh-caramel1-rea-tensor-source-audit.md) — aniketh称REA核对caramel-1权重哈希、137张量与413198848参数，并发现配置源码哈希不同于公开版本；静态匹配不证明训练史或对话质量。 **[REA · 分析测试]**
 - [GPT-4旧图表重建：Gemini归一化转述与HumanEval横轴待核](cases/gpt4-chart-gemini-carbon-loss-reconstruction-report.md) — 候选转述Gemini 4 Carbon研究2023 GPT-4图表，并讨论单位与41mnat校正；后续SVG反算HumanEval横轴1.76e25等效FLOPs，仍需原始数据。 **[其他 AI 逆向 · 待验证]**
 - [骑行片的提示词重建：松声慢语用Muse改两版，找回动感](cases/jinsong-muse-cycling-video-prompt-reconstruction.md) — 松声慢语称从AI骑行视频反推提示词，针对运镜、城堡漂移与轮辐融化改两版；首版太僵，第二版低机位跟拍并恢复速度感，没有逐帧对照。 **[其他 AI 逆向 · 待验证]**
 - [分布式爬虫里的AI签名攻坚层：dragon的分工与路由架构idea](cases/ai-native-distributed-crawler-signature-research-idea.md) — dragon设想规划、路由、采集、解析Agent配AI签名逆向层，后帖加Vibe Coding代码生成；没有站点、签名样本或成功结果。 **[其他 AI 逆向 · 待验证]**
