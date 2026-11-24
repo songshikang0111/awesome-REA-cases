@@ -1,7 +1,7 @@
 # 逐镜视频分析进ComfyUI：Benji AI称把rea-video想法做成单节点
 
 分类：应用与客户端 · 其他 AI 逆向
-记录日期：2026-11-23
+记录日期：2026-11-25
 阶段：进行中
 
 2026年11月22日19:41:15（北京时间），Benji AI（@AIfutureBenji）公告Shot-by-shot video reverse engineering Now In ComfyUI，并附视频。19:41:49同作者的后续帖进一步说明：将rea-video的idea做成单个ComfyUI自定义节点。ComfyUI是节点工作流环境；具体目标是将逐镜视频结构分析纳入已有工作流，而非要求用户另用独立视频分析入口。
@@ -13,6 +13,7 @@
 两条旧封存快照分别0赞／32浏览与1赞／15浏览；均0转发，回复分别1与0。附件存在不表示功能已复现。
 11月23日新增讨论快照0赞、56浏览、0转发、1回复；光流、逐镜提示与版本对应未核。
 2026年11月23日22:35:31（北京时间）新候选具名ComfyUI-ReaVideoBreakdown，称本地视觉语言编码器分析每镜、光流测pan速度和zoom率，输出VIDEO.md风格报告、JSON及中英文提示，不调用外部API，也不分析音频、读屏幕文字或导出字幕；普通SD1.5／SDXL CLIP不能看帧。MIT、两项依赖与功能均为转述，尚未核仓库、源码及与Benji版本的精确对应，未安装或运行。封存0赞、14浏览、0转发、0回复。
+2026年11月25日00:29:05的新介绍点名benjiyaya的ComfyUI-ReaVideoBreakdown：称用HSV直方图／像素差找切点，Lucas–Kanade光流加RANSAC量每秒水平／垂直像素与每秒缩放百分比、区分静止／平滑／手持；输出VIDEO.md、JSON、逐镜提示与关键帧预览。另称第二节点将分镜与最多九张参考图合成MiniMax H3 Ref2VA换主体提示，MIT许可。第二提示节点不等于本工具生成视频；没有源码、版本、输入输出或量测误差验证，也未解决与Benji公告的精确版本对应。保留旧音频／读字／字幕缺项，不从本帖省略推成已新增。候选封存1赞、139浏览、0转发、0回复；同帖另外两项目分别归其既有记录，非三次独立测试。
 
 ## 来源
 
@@ -20,5 +21,6 @@
 - [Benji AI后续说明单节点与rea-video idea，2026-11-22 19:41:49北京时间](https://x.com/i/status/2124468390576414723)
 - [Prince does AI转述ComfyUI逐镜提示与光流测运镜，2026-11-23 05:26:00北京时间](https://x.com/i/status/2124615403095601301)
 - [ComfyUI-ReaVideoBreakdown功能与缺项转述，2026-11-23 22:35北京时间](https://x.com/i/status/2124874492736577951)
+- [三工具介绍中的ComfyUI光流与第二提示节点转述，2026-11-25 00:29:05北京时间](https://x.com/i/status/2125265457892536420)
 
 [English](en/benji-comfyui-rea-video-shot-node-project.md) | [返回目录](../README.zh-CN.md)

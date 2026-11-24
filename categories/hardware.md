@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [便携盖革计数器克隆版：Guilhem称Codex重做中文固件](../cases/geiger-counter-clone-codex-firmware-rebuild.md) — Guilhem Lettron买的便携盖革计数器带中文固件，虽有开源替代但自己的型号是克隆版，称Codex为其重做全部固件；刷写与计量未核验。 **[其他 AI 逆向 · 待验证]**
+- [KEF LSX II菜单栏客户端：Zach让Claude参考Python协议并查实机差异](../cases/zach-alberico-kef-claude-swift-lan-client.md) — Zach Alberico称Claude参考pykefcontrol写原生Swift客户端，实机发现4430端口、连接复用和输入状态问题；没有抓KEF Connect的包。 **[其他 AI 逆向 · 待验证]**
 - [Mac单线三屏：Christian Domínguez称用Claude研究扩展坞](../cases/mac-dock-claude-single-cable-triple-monitor-report.md) — Christian Domínguez说Mac无法同时使用扩展坞上的两台外接屏，借Claude逆向后实现一根线连接的三屏配置；未公开型号或驱动实现。 **[其他 AI 逆向 · 待验证]**
 - [爱快ikuaios：圆桌骑士称刚用REA做了逆向研究](../cases/ikuaios-rea-routing-system-investigation-report.md) — 圆桌骑士在REA介绍帖里说刚逆向了ikuaios；目标可识别为爱快路由系统，但未披露分析内容、版本或成果。 **[REA · 待验证]**
 - [Rabbit R1接个人Jarvis：Samin Yasar的定制操作系统自述](../cases/samin-yasar-rabbit-r1-personal-os-jarvis.md) — Samin Yasar称不满意Rabbit R1原软件，逆向所需部分并自建系统，想按键对话Jarvis、控制电脑；AI编程串未明确该硬件项目用的模型或REA。 **[未确认使用 REA · 待验证]**

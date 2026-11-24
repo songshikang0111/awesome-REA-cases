@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [Cloudflare指纹差异难找：Elnyx称GPT未能有效协助协议研究](../cases/cloudflare-gpt-fingerprint-environment-comparison-failure.md) — Elnyx报告逆向Cloudflare协议时GPT不能很好比较上百份指纹采集的环境差异；未报告成功绕过或提供样本。 **[其他 AI 逆向 · 分析测试]**
+- [S1Mal静态恶意软件研究：Ghidra／capa文本先拆成32个行为问题](../cases/s1mal-system-one-ghidra-capa-malware-detection-study.md) — 吉川孝志转述预印本：不执行Windows样本，以Ghidra／capa提特征，32个行为问题比只问是否恶意更有效；S1Mal的检测率随误报阈值变化，未复跑。 **[其他 AI 逆向 · 分析测试]**
 - [未命名App的加密签名：THE A-FU称DeepSeek Harness协助复刻规则](../cases/the-afu-deepseek-harness-app-signature-reconstruction.md) — THE A-FU称DeepSeek Harness陪同逆向一个App，并复刻其中加密签名规则；没有披露目标、规则、代码或验证样本。 **[其他 AI 逆向 · 待验证]**
 - [neuronvisuals火柴人画风：Claude按参考帧重建Python动画的教程转述](../cases/neuronvisuals-postiz-claude-stick-animation-reconstruction.md) — S1哥转述Nevo David的教程：拆neuronvisuals的黑底双人对比、最后变黄等规则，让Claude写PIL动画并逐帧比较修改；批量渲染与传播数字均未重跑核算。 **[其他 AI 逆向 · 待验证]**
 - [《风起，城行》：GPT 6Pro参与哈尔移动城堡三维重建，Blender版仍有画风差异](../cases/howls-moving-castle-gpt6pro-threejs-blender-reconstruction.md) — d!l3+ttant3报告把以哈尔城堡为参考的程序动画从Three.js转到Blender，渲约十小时并称60帧导出；仓库介绍为60秒1080p／24fps，规格不能混同。 **[其他 AI 逆向 · 待验证]**

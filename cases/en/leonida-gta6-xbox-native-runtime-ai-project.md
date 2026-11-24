@@ -1,7 +1,7 @@
-# Leonida's native GTA VI runtime: older docs say no boot; a new setup-screen report remains unverified
+# Leonida's GTA VI runtime: older boot limits and new collaboration/removal accounts
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-24
+Record date: 2026-11-25
 Stage: In progress
 
 At 11:27:26 Beijing time on November 23, 2026, lei'zi (@lis1091fu) introduces Leonida, saying work independent of the game executable is done, most PRs are Claude-coauthored and playability might precede an official PC release. This is a secondary introduction; the hardest part being over and the playability timeline are not acceptance results.
@@ -16,6 +16,8 @@ This review's public GitHub API lookup returned 404 for an unknown reason, not p
 
 November 23 sealed candidate: 8 likes, 490 views, 3 reposts, 0 replies. README results are project-reported; tests and the share of Claude-credited PRs were not checked here.
 November 24 sealed candidate: 0 likes, 162 views, 0 reposts, 0 replies. The 57 MB, three hours, 350 GB, 32,000 stars and over 500 contributors are relayed claims, not independently verified.
+At 02:22:45 Beijing time on November 25, 2026, uudon (@uudonX) says Leonida assigns issues to agents, citing 9,262 PRs, 1,096 PR authors, 10,958 commits and 65,000 agent comments over about 70 hours, averaging one PR per eleven seconds, then a same-day 404. Retrieval confirms attribution, not queries, time boundaries, the original set or AI-credit auditing. All written by agents is not established, and PR count is not completed-task count. Cyberleek withholding the main executable and a $15 million meme-coin condition are the post's background claims; leaked files were neither verified nor obtained here. Sealed candidate: 0 likes, 417 views, 0 reposts, 0 replies.
+At 02:27:04 the same day, Morty (@hollinkp8t) says Project Leonida uses Claude-assisted translation, reaches only graphics initialization on some devices and black screens on most. The post invokes GamesRadar/VGC investigations, a 209 GB leak, a 180,000-member Discord, DMCA removal, and NotRexed stopping development and being fifteen. Retrieval confirms attribution, not media originals, developer posts, notices, membership counts, the package or runtime logs. These consequential legal/identity claims are not authenticated facts. Removal reasons and stopped development still lack first-party evidence; the technical project's in-progress record is retained, without inferring infringement from 404 or certifying playability. Sealed candidate: 5 likes, 1,075 views, 0 reposts, 4 replies.
 
 ## Sources
 
@@ -23,5 +25,7 @@ November 24 sealed candidate: 0 likes, 162 views, 0 reposts, 0 replies. The 57 M
 - [Supplementary pinned project README: design, no boot and testing limits; revision dated November 23, 2026 at 11:56:15 Beijing time](https://github.com/ItsNotRexed/Leonida/blob/3eb4410b8de7a6d28cb81557e7bca6de864fda56/README.md)
 - [Supplementary within-window commit: static PE tool, synthetic tests and Claude Opus 5.5 coauthor credit, November 23, 2026 at 11:56:15 Beijing time](https://github.com/ItsNotRexed/Leonida/commit/3eb4410b8de7a6d28cb81557e7bca6de864fda56)
 - [sideways' secondhand setup-screen, no-gameplay and AI-collaboration update, November 24, 2026 at 08:14:33 Beijing time; no first-party verification](https://x.com/i/status/2125020209857835470)
+- [uudon's 70-hour agent collaboration figures and 404 account, November 25, 2026 at 02:22:45 Beijing time](https://x.com/i/status/2125294061695431122)
+- [Morty's secondhand graphics-initialization, black-screen and shutdown/DMCA account, November 25, 2026 at 02:27:04 Beijing time](https://x.com/i/status/2125295151870575057)
 
 [中文](../leonida-gta6-xbox-native-runtime-ai-project.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

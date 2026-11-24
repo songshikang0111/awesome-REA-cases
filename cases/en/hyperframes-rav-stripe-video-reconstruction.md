@@ -1,7 +1,7 @@
 # HyperFrames RAV: a Stripe rebuild claim and a 20-video competitor comparison
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-18
+Record date: 2026-11-25
 Stage: Needs verification
 
 At 02:41:49 Beijing time on November 5, 2026, Miguel Ángel (@Miguel07Code) says morluto's REA inspired RAV, or /reverse-any-video, released with HyperFrames, supplies a skill-update command and claims a full one-shot Stripe launch-video rebuild. This reconstructs reference-video structure and appearance, not software binaries. Open source remains an author claim: a confirmed source location, license, skill text, original inputs, prompts, generation records and per-shot comparisons were not obtained, and the video was not watched. One shot does not establish no preparation, editing or retries, nor recovery of original prompts, music or assets.
@@ -14,6 +14,7 @@ REA is inspiration, not confirmed execution tooling. HyperFrames editor's Xiaoli
 
 A new comparison post at 17:25:17 Beijing time on November 7 recommends HyperFrames for direct reconstruction, claiming editable projects, shot/subtitle/motion-graphics rebuilding and frame-by-frame comparisons for product promos, complex motion and talking-head edits; it recommends REA-VIDEO for production-method breakdowns. It also calls reverse-any-video Pro-only at $25 per month. No sample project, revision, official plan page or invoice is supplied. These remain the introducer's claims, not verified editability, fidelity or current pricing. REA-VIDEO's free/open-source code does not remove model and generation charges.
 
+A new account at 00:29:05 Beijing time on November 25, 2026 says HeyGen HyperFrames' reverse-any-video detects cuts and exact frame timings, rebuilds typography, layers, overlays and animations as an HTML project, then renders and checks missing elements, cuts and timing frame by frame for motion graphics, talking heads, live footage and mixed media. It explicitly calls Reverse a Pro feature and says the 20-times advantage lacks a verified public comparison. No skill text, project, frame comparisons or new experiment was obtained. Older competitor-reported twenty-video tests and their slower/costlier-remake concession are retained; neither the current plan nor complete fidelity is certified. Sealed snapshot: 1 like, 139 views, 0 reposts, 0 replies. Three projects in one post receive supplementary evidence, not three separate tests.
 November 7 at 17:25 sealed candidate: 3 likes, 262 views, 0 reposts. The $25 monthly price is a retelling not checked against an official plan.
 November 5 sealed snapshot: 11 likes, 627 views, 2 reposts. Open source and one shot are author claims, not source/output checks.
 Earlier November 7 candidate: 2 likes, 42 views, 0 reposts. Twenty films, 108 cuts, precision, timings and SSIM are competitor reports, not tests rerun here.
@@ -29,5 +30,6 @@ At 12:22:32 Beijing time on November 18, Miguel Ángel (@Miguel07Code) says Hype
 - [Retelling comparing two video tools' uses and Pro pricing, November 7, 2026 at 17:25:17 Beijing time](https://x.com/i/status/2118998213474529750)
 - [HTML reconstruction and client-handoff test proposal, November 17 at 12:25:00 Beijing time](https://x.com/i/status/2122546520947937545)
 - [Miguel Ángel's additional timing and SSIM comparison report, November 18 at 12:22:32 Beijing time](https://x.com/i/status/2122908287008153871)
+- [HyperFrames editable reconstruction and comparison limits in a three-tool account, November 25, 2026 at 00:29:05 Beijing time](https://x.com/i/status/2125265457892536420)
 
 [中文](../hyperframes-rav-stripe-video-reconstruction.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)

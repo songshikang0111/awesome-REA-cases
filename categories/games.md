@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [城市二进制与8路Worker：Rayan转述REA映射并建议双模型路由](../cases/rayan-city-binary-rea-multimodel-routing-report.md) — Rayan称Claude Code／REA让8个Worker映射城市二进制、142座塔和调用图，并提Grok／Fable分工；没有游戏版本、日志或性能证据，价格例子不当实付。 **[REA · 待验证]**
 - [Baldi's Basics Plus改IL2CPP后呢：hexadexx提出AI仍可反编译的idea](../cases/baldis-basics-plus-il2cpp-ai-decompile-idea.md) — 在Baldi's Basics Plus 0.14.7讨论串里，有人建议改IL2CPP提高逆向门槛，hexadexx回应AI仍可反编译；仅为针对具名游戏的推测，未执行。 **[其他 AI 逆向 · 待验证]**
 - [Dead Rising合作Mod中止：Serina称Claude中途不再调用REA](../cases/serina-dead-rising-rea-coop-mod-abandoned.md) — Serina报告曾用REA做Dead Rising合作Mod，但Claude中途停止调用且无法解释如何恢复，遂放弃；未有日志，不确认是护栏、工具故障或上下文问题。 **[REA · 待验证]**
 - [Slotbound试玩版到手机仿品：白先生转述作者怀疑AI反编译，方法未证实](../cases/slotbound-mobile-clones-ai-decompilation-allegation.md) — 白先生转述Slotbound作者认为抖音与微信仿品由AI反编译PC demo而来，含《斯洛托战记》；有具体目标与争议，但未获得原作者取证、代码或AI参与证明。 **[其他 AI 逆向 · 待验证]**
@@ -15,7 +16,7 @@
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](../cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](../cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](../cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
-- [Leonida的GTA VI原生运行时：旧文档不能启动，新设置界面说法仍未核验](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层与着色器翻译。11月23日固定文档称不能启动；24日sideways转述进入设置但仍不可游玩，未获一手日志，保留进行中。 **[其他 AI 逆向 · 进行中]**
+- [Leonida的GTA VI运行时：旧启动限制与新增协作量、下架转述](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层；新增70小时协作量、图形初始化与中止／DMCA转述均未核一手，旧不能启动与设置界面报告分层保留，不认证可玩。 **[其他 AI 逆向 · 进行中]**
 - [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](../cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](../cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](../cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**
@@ -32,7 +33,7 @@
 - [C++ RTS引擎转Rust：二手审计称AI以clone与锁换取编译通过](../cases/cpp-rts-rust-ai-migration-clone-lock-audit-report.md) — 帖子转述12000行C++即时战略引擎迁移Rust：能渲染与寻路，但热路径深拷贝和共享锁导致开销；未给原审计、仓库或性能数据。 **[其他 AI 逆向 · 待验证]**
 - [ISS Pro 2式足球游戏：Salvatore用隔离实现Agent尝试重建乐趣](../cases/iss-pro2-cleanroom-agent-football-recreation.md) — Salvatore Zappalà称用clean-room逆向做一款像ISS Pro 2一样好玩的游戏，实现Agent不看代码；作者发现做出乐趣更难，未报告等价性或完成移植。 **[其他 AI 逆向 · 进行中]**
 - [Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植](../cases/siya-flappy-bird-apk-codex-chromatic-port.md) — Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。 **[其他 AI 逆向 · 待验证]**
-- [GTA6看屏找bug：Noisy称获1.7万美元，Kaiju另称HackerOne待审无付款](../cases/gta6-claude-screen-observation-bounty-claim.md) — Noisy的47分钟／17000美元说法受Liam质疑；Kaiju传播版本改为5分钟、HackerOne待审且无付款。不同作者版本不互相验证，漏洞与赏金仍未核。 **[其他 AI 逆向 · 待验证]**
+- [GTA6看屏找bug：Noisy称获1.7万美元，Kaiju另称HackerOne待审无付款](../cases/gta6-claude-screen-observation-bounty-claim.md) — GTA6看屏赏金故事新增52分钟／9步骤／13000美元版本，与旧47分钟／17000美元、5分钟未付款及金额自相矛盾版本不互证；新帖也提醒普通游戏bug不在公开计划范围。 **[其他 AI 逆向 · 待验证]**
 - [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](../cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
 - [GTA6的AI逆向宣称：st1ne重建争议与后续PC启动阶段转述](../cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne的20小时、50至60FPS宣称仍有争议；11月24日另有媒体转述称AI辅助PC尝试仅到设置页及2至3FPS片段、Leonida下线，不能相互验证或视为可玩移植。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](../cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
