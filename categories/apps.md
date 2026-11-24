@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Antigravity地区限制研究被拒：迪丽热酒的Codex失败自述](../cases/liushuaikobe-codex-antigravity-region-refusal.md) — 迪丽热酒在讨论Antigravity检测与T3 Code接入的串里，报告Codex拒绝逆向突破限制；未披露提示词、版本或补丁，不推导模型统一政策。 **[其他 AI 逆向 · 待验证]**
+- [Iran Laravel的网站重建服务：从公开页面推流程、表单与数据模型](../cases/iran-laravel-ai-public-website-reconstruction-service.md) — 候选短链指向Iran Laravel服务页：AI与工程师分析参考网站的页面、表单及用户流，再以Laravel和波斯语CMS重建；未列已交付目标或对照测试。 **[其他 AI 逆向 · 相关项目]**
+- [notebooklm-py：把未公开Google接口接到Claude Code与Codex的技能](../cases/notebooklm-py-undocumented-api-agent-skill-integration.md) — 候选介绍非官方Python／CLI及Agent技能，用逆向接口编排Gemini Notebook音视频与资料工作流；项目文档确认未公开API风险，16分钟录音与30秒摘要说法未核。 **[未确认使用 REA · 相关项目]**
+- [先研究SEO／GEO站点再改自己的：kongwen的Codex＋REA工作流](../cases/codex-rea-seo-geo-reference-site-optimization.md) — kongwen称Codex调用REA研究市面SEO／GEO站点规则，再按所学优化自己的站点；没有公开域名、分析报告或排名与引用变化，效果未核。 **[REA · 待验证]**
 - [Beekeeper Studio CSV导出：REA重建末端90项匹配，上游规格仍有缺口](../cases/saikumaresh-beekeeper-rea-csv-behavioral-parity-test.md) — Sai Kumaresh用四个隔离Agent研究Beekeeper Studio导出，报告18个边界用例及五方言90项字节匹配；整包分析失败，规格漏列可见列、5万行上限与过滤传递，非端到端等价。 **[REA · 分析测试]**
 - [Pixel 7a的原生Linux叫车应用：Theo Paris的Omarchy迁移与AI逆向idea](../cases/theoparis-ridehailing-native-linux-omarchy-pixel7a-idea.md) — Theo Paris想在Pixel7a使用Omarchy Mobile，却依赖Uber／Lyft，认为原生Linux叫车适配可能需要大量AI逆向并涉及服务条款；没有开始开发的报告。 **[其他 AI 逆向 · 待验证]**
 - [Muse注册协议研究：Felix称自用skill让AI收集通信、调用栈并读混淆](../cases/felix-muse-registration-protocol-ai-skill-report.md) — Felix以Muse注册协议为对象，介绍自用注册工具skill，称AI自动收集网络通信与调用栈并分析混淆、遥测、埋点；未审源码或核验注册成功。 **[其他 AI 逆向 · 待验证]**

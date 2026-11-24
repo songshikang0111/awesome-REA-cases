@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Baldi's Basics Plus改IL2CPP后呢：hexadexx提出AI仍可反编译的idea](../cases/baldis-basics-plus-il2cpp-ai-decompile-idea.md) — 在Baldi's Basics Plus 0.14.7讨论串里，有人建议改IL2CPP提高逆向门槛，hexadexx回应AI仍可反编译；仅为针对具名游戏的推测，未执行。 **[其他 AI 逆向 · 待验证]**
+- [Dead Rising合作Mod中止：Serina称Claude中途不再调用REA](../cases/serina-dead-rising-rea-coop-mod-abandoned.md) — Serina报告曾用REA做Dead Rising合作Mod，但Claude中途停止调用且无法解释如何恢复，遂放弃；未有日志，不确认是护栏、工具故障或上下文问题。 **[REA · 待验证]**
+- [Slotbound试玩版到手机仿品：白先生转述作者怀疑AI反编译，方法未证实](../cases/slotbound-mobile-clones-ai-decompilation-allegation.md) — 白先生转述Slotbound作者认为抖音与微信仿品由AI反编译PC demo而来，含《斯洛托战记》；有具体目标与争议，但未获得原作者取证、代码或AI参与证明。 **[其他 AI 逆向 · 待验证]**
 - [Hellcats Over The Pacific：Matyo用Claude与Godot重建1991年Mac飞行游戏](../cases/hellcats-matyo-claude-godot-macintosh-reconstruction.md) — Matyo报告ResEdit／Ghidra提取资源和68k逻辑，自己规划与核查、Claude Code生成C及GDScript，Godot版可在浏览器运行；原环境、原生及增强版仍有不同重建阶段。 **[其他 AI 逆向 · 进行中]**
 - [Flash游戏N：andai称反编译后让DeepSeek翻译，2美元换回可玩帧率](../cases/n-flash-deepseek-javascript-webgl-port-report.md) — andai为2016年笔记本移植2004年的N，用DeepSeek把ActionScript与Flash绘图行为转为JavaScript／WebGL，称花2美元并加手柄；画面有差异，帧率未测。 **[其他 AI 逆向 · 待验证]**
 - [Revenant重建：旧源码对照1.22二进制，作者又建议先看新公开材料](../cases/msw-revenant-1999-ai-rebuild-rea-source-alternative.md) — Michał S. Wasążnik此前报告Opus／Codex重建1999年Revenant；本帖推荐REA并指向Ben的公开源码作为少走逆向弯路的选择，不证明原项目曾用REA。 **[其他 AI 逆向 · 进行中]**

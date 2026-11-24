@@ -1,5 +1,292 @@
 [
   {
+    "id": "zte-router-workbuddy-hy4-static-binding-ui",
+    "title": "中兴路由器后台重做：Bob Shen用WorkBuddy研究静态绑定",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Bob Shen称用WorkBuddy的hy4逆向并重做中兴后台，把设备列表与静态绑定放到一起，避免换网关时反复手输IP；设备型号与实现未披露。",
+    "description": "2026年11月24日16:21:21（北京时间），Bob Shen（@bob_shen）报告让AI逆向并重做自己中兴路由器的管理界面。原后台把设备列表和设备绑定分在不同页面，每次给设备换网关都要手动输入IP；他只保留最需要的静态绑定，称现在可以一键完成。作者点名WorkBuddy中免费的hy4，未提REA。\n\n这是针对已有设备管理行为的界面重建，而非换路由器固件或重写驱动。帖子没有给型号、固件版本、接口请求、代码、权限安排或操作对照，本合集未观看附件或接入设备；不能据此断言支持所有中兴路由器、配置写入安全或网关切换普遍成功。署名由补取原帖确认，效果仍是作者自述。",
+    "sources": [{"label": "Bob Shen的中兴后台重建自述，2026-11-24 16:21:21北京时间", "url": "https://x.com/i/status/2125142714538995823"}],
+    "snapshot_date": "2026-11-24", "metadata": ["封存1赞、26浏览、0转发、1回复；无独立实测。"],
+    "en": {
+      "title": "A smaller ZTE router dashboard: Bob Shen uses WorkBuddy to study static bindings",
+      "summary": "Bob Shen credits WorkBuddy's hy4 with reversing and rebuilding a ZTE dashboard, bringing device lists and static bindings together to avoid retyping IPs when changing gateways. Model and implementation are undisclosed.",
+      "description": "At 16:21:21 Beijing time on November 24, 2026, Bob Shen (@bob_shen) reports asking AI to reverse engineer and rebuild his ZTE router's management interface. The original places the device list and binding controls on separate pages, requiring manual IP entry whenever he changes a device's gateway. He retains only the static-binding feature he needs and reports doing this in one click. He names the free hy4 option in WorkBuddy, not REA.\n\nThis is a UI reconstruction around existing device-management behavior, not replacement router firmware or a rewritten driver. The post supplies no model, firmware version, request traces, source code, permission design or operation comparisons. Neither its attachment nor a device was exercised here. Support for all ZTE routers, safe configuration writes and generally successful gateway switching are not established. Supplementary retrieval confirms attribution; the result remains the author's report.",
+      "metadata": ["Sealed snapshot: 1 like, 26 views, 0 reposts, 1 reply; no independent device test."],
+      "source_labels": ["Bob Shen reports rebuilding the ZTE dashboard, November 24, 2026 at 16:21:21 Beijing time"]
+    }
+  },
+  {
+    "id": "neuronvisuals-postiz-claude-stick-animation-reconstruction",
+    "title": "neuronvisuals火柴人画风：Claude按参考帧重建Python动画的教程转述",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "S1哥转述Nevo David的教程：拆neuronvisuals的黑底双人对比、最后变黄等规则，让Claude写PIL动画并逐帧比较修改；批量渲染与传播数字均未重跑核算。",
+    "description": "2026年11月24日16:25:46（北京时间）的候选由S1哥编译，归因于Postiz创始人Nevo David在11月21日发布的教程，并称玩法最早来自Mau Baron。目标是研究Instagram账号neuronvisuals的火柴人短片格式，再制作自己的对比故事，不是反编译其原工程。\n\n教程先逐帧观察十条高播放视频，归纳黑底、两个粗圆白色小人、宽字距标签、8至16秒无声叙事，以及末两秒赢家变黄举手。Claude按WALL、STAIRS、DOORS三个模板写30个场景JSON，再生成1080×1920、30帧/秒、每条11秒的Python／PIL动画，通过FFmpeg编码。人把参考帧和输出并排交给Claude，一次纠正手脚粗细、文字位置或光晕等一处差异；人仍选画风、审脚本、审批发布。\n\n转述称首轮调试花大半个下午，单条在MacBook渲染2至3分钟，六路并行30条约13分钟；还转述原账号三条一周2.28亿播放，以及教程作者21条共61.9万播放。不同账号、时段与流程的数字不能混为同一实验，播放不等于收益或复建准确率。本合集完整读候选，未取得原教程、JSON、渲染脚本或分析账号数据，也未生成或发布视频；不确认所称模型Fable 5.2、费用、渲染工时或商业结果。保留转述归因与未核验状态，Postiz仅为教程的排期环节。",
+    "sources": [{"label": "S1哥转述Nevo David的neuronvisuals格式重建教程，2026-11-24；教程称原发11月21日", "url": "https://x.com/i/status/2125143828646461479"}],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存1赞、426浏览、0转发、5回复；教程中的账号播放量并非此帖热度。"],
+    "en": {
+      "title": "Reconstructing neuronvisuals' stick-figure style: a relayed Claude/Python animation tutorial",
+      "summary": "S1 Ge relays Nevo David's tutorial: infer neuronvisuals' black-background paired stories and yellow ending, ask Claude for PIL animation, and compare reference frames iteratively. Batch-rendering and engagement claims were not rerun or reconciled.",
+      "description": "The candidate at 16:25:46 Beijing time on November 24, 2026 is compiled by S1 Ge and attributed to a November 21 tutorial by Postiz founder Nevo David, with the original approach credited to Mau Baron. It studies Instagram account neuronvisuals' stick-figure format to make new comparison stories, not to decompile its original project.\n\nThe tutorial examines ten high-view videos frame by frame, extracting a black background, two rounded white figures, widely spaced labels, an 8–16-second silent story and a winner turning yellow and raising its arms in the final two seconds. Claude writes 30 JSON scenes using WALL, STAIRS and DOORS templates, then Python/PIL animation at 1080×1920, 30 frames per second and 11 seconds per clip, encoded with FFmpeg. A human submits output beside reference frames and corrects one difference at a time, such as limb thickness, label placement or glow. Humans still choose style, review scripts and approve posts.\n\nThe relay claims most of an afternoon for initial tuning, 2–3 minutes per clip on a MacBook and about 13 minutes for 30 clips with six concurrent renders. It also relays 228 million views for three reference-account clips in one week and 619,000 views across the tutorial author's 21 clips. Different accounts, periods and workflows are not one experiment; views are neither revenue nor reconstruction accuracy. The complete candidate was read, but the original tutorial, JSON, renderer and account analytics were not obtained. No video was generated or posted. The claimed Fable 5.2 model, costs, rendering durations and business results are unverified. Attribution and unverified status remain; Postiz is only the scheduling stage of this tutorial.",
+      "metadata": ["Sealed candidate: 1 like, 426 views, 0 reposts, 5 replies. Account view counts in the tutorial are not engagement on this post."],
+      "source_labels": ["S1 Ge relays Nevo David's neuronvisuals-format tutorial, November 24, 2026; the tutorial is said to date to November 21"]
+    }
+  },
+  {
+    "id": "ciniml-claude-nes-on-snes-ppu-bandwidth-study",
+    "title": "让SNES显示NES画面：Kenta IDA把FPGA与PPU带宽问题交给Claude",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Kenta IDA说已把NES／SNES互通设想交给Claude；父串讨论FPGA模拟与SNES图像处理器传输带宽，尚未验证能否覆盖目标分辨率和颜色。",
+    "description": "2026年11月24日16:11:38（北京时间），Kenta IDA（@ciniml）回复PentliumEE（@7GHz），说已把问题交给Claude，等待结果。补读同日15:38:40父帖，目标是用FPGA实现NES／Famicom内容在SNES／Super Famicom显示，作者自己也不熟悉两边规格，并担心最后变成仅用SNES显示的NES模拟器。它与作者此前QSPI卡带随机读取时序研究不同，不合并为同一硬件目标。\n\n16:09:30的回复指出SNES的PPU（图像处理器）连接带宽可能不足，讨论利用垂直／水平消隐和隔行扫描；发言者猜2bpp可能全分辨率，但认为NES所需颜色会迫使采用4bpp，并明确没有验证。16:13:04又建议让AI在一份外部资料中找PPU视频传输章节。以上是参与者的技术假设与资料建议，不是测量或已实现设计。\n\n仅据原串确认Claude参与调查，未取得FPGA设计、具体游戏、带宽预算、代码或实机演示；不声称完成兼容、正确解释全部颜色规格或得出不可行结论。REA未提，本合集未运行模型或接硬件。",
+    "sources": [
+      {"label": "候选：Kenta IDA说已交Claude调查，2026-11-24 16:11:38北京时间", "url": "https://x.com/i/status/2125140272715813250"},
+      {"label": "补充父帖：FPGA与NES在SNES显示的设想，15:38:40", "url": "https://x.com/i/status/2125131974184743418"},
+      {"label": "补充回复：PPU带宽、消隐与色深假设，16:09:30，未经验证", "url": "https://x.com/i/status/2125139735916286155"},
+      {"label": "补充回复：建议AI检索视频传输资料，16:13:04", "url": "https://x.com/i/status/2125140630443860315"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、43浏览、0转发、1回复；2bpp／4bpp是讨论假设，非本合集核准规格。"],
+    "en": {
+      "title": "Displaying NES content through SNES: Kenta IDA asks Claude about FPGA and PPU bandwidth",
+      "summary": "Kenta IDA says the NES/SNES interoperability idea is with Claude. The parent thread considers FPGA emulation and SNES picture-processor transfer bandwidth; target resolution and color coverage remain untested.",
+      "description": "At 16:11:38 Beijing time on November 24, 2026, Kenta IDA (@ciniml) tells PentliumEE (@7GHz) that the problem has been passed to Claude and awaits a result. A supplementary parent from 15:38:40 identifies the idea: use an FPGA to display NES/Famicom content through SNES/Super Famicom. The author is unfamiliar with both specifications and worries it might effectively become an NES emulator using SNES only for display. This differs from the author's earlier QSPI cartridge random-read timing investigation and is not merged into that hardware target.\n\nA 16:09:30 reply warns that bandwidth into the SNES PPU, its picture processing unit, may be insufficient and considers vertical/horizontal blanking and interlacing. The participant speculates that 2bpp might allow full resolution but the NES color requirements might force 4bpp, explicitly without testing. At 16:13:04 the same participant suggests asking AI to find the video-transfer section in an external reference. These are participants' hypotheses and research suggestions, not measurements or an implemented design.\n\nThe thread establishes only Claude's involvement in investigation. No FPGA design, specific game, bandwidth budget, code or hardware demonstration was obtained. Compatibility, the correctness of every color-specification assumption and impossibility are not established. REA is unmentioned; neither a model nor hardware was exercised here.",
+      "metadata": ["Sealed candidate: 0 likes, 43 views, 0 reposts, 1 reply. The 2bpp/4bpp discussion is hypothetical, not a specification validated by this collection."],
+      "source_labels": ["Candidate: Kenta IDA passes the investigation to Claude, November 24, 2026 at 16:11:38 Beijing time", "Supplementary parent: FPGA and NES display through SNES, 15:38:40", "Supplementary reply: untested PPU bandwidth, blanking and color-depth hypotheses, 16:09:30", "Supplementary reply: suggested AI search for video-transfer documentation, 16:13:04"]
+    }
+  },
+  {
+    "id": "dance-changhong-xiaomi-hdmi-standby-ai-workaround",
+    "title": "长虹电视跟小米盒子关机：dance与AI用HDMI信号丢失绕开CEC待机缺口",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "dance报告AI协作排查长虹不响应小米盒子CEC待机，改以HDMI失信号触发电视约3秒关机，并把被桌面遮住的HDMI画面拉回；仅一组设备测试。",
+    "description": "2026年11月24日16:21:50（北京时间），dance（@dancej60）的候选是三帖串的末条，明确AI编程助手参与排查，且只在一台电视、一个盒子、一个固件上测试。补读16:21:14与16:21:30父帖：作者想只用小米遥控器控制长虹电视加小米盒子，开机直接进入盒子画面，盒子关机后电视约3秒跟着关。\n\n作者称这台电视不理会盒子的CEC待机指令，因此改为检测HDMI信号丢失。针对开机后长虹桌面盖住盒子画面的问题，方案监听桌面窗口并把HDMI画面拉回前台，稳定6秒后停止干预。这是针对实际设备互通行为的AI协作诊断与补偿方案，不是已破解CEC协议，也不证明对其他电视有效。\n\n原串说代码与排查记录开源，仓库README含备份恢复步骤；本合集只读串，未展开仓库、审源码或接设备。需要修改系统配置及无障碍设置，有误配置风险；模型、型号与固件版本未披露。保留作者自测和单机限制，不把约3秒及6秒当独立测量。",
+    "sources": [
+      {"label": "候选：dance说明AI参与、单组设备测试和配置风险，2026-11-24 16:21:50北京时间", "url": "https://x.com/i/status/2125142837201424389"},
+      {"label": "补充父帖：长虹／小米盒子CEC待机与HDMI替代方案，16:21:14", "url": "https://x.com/i/status/2125142687838036176"},
+      {"label": "补充作者串：桌面遮挡与6秒稳定后停止干预，16:21:30", "url": "https://x.com/i/status/2125142752753242176"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、2浏览、0转发、0回复；代码开源与恢复文档为作者说法，本合集未读取仓库。"],
+    "en": {
+      "title": "A Changhong TV follows a Xiaomi box to standby: dance and AI work around missing CEC behavior",
+      "summary": "dance reports AI-assisted diagnosis of a Changhong TV ignoring Xiaomi-box CEC standby, using HDMI signal loss for roughly three-second shutdown and restoring HDMI when the launcher covers it. Only one device/firmware combination was tested.",
+      "description": "The candidate at 16:21:50 Beijing time on November 24, 2026 is the final post of a three-part thread by dance (@dancej60). It explicitly credits an AI coding assistant with troubleshooting and limits testing to one TV, one box and one firmware. Supplementary parents at 16:21:14 and 16:21:30 explain the goal: use only the Xiaomi remote for a Changhong TV and Xiaomi box, enter the box's picture on startup and shut the TV down about three seconds after the box.\n\nThe author says this TV ignores the box's CEC standby instruction, so the workaround detects loss of HDMI signal instead. For the Changhong launcher covering the box on startup, it watches for launcher windows and brings HDMI back to the foreground, stopping intervention after six stable seconds. This is AI-assisted diagnosis and compensation for actual interoperability behavior, not a cracked CEC protocol or proof for other TVs.\n\nThe thread says code and troubleshooting notes are open source and the repository README provides backup and recovery steps. Only the thread was read here; the repository was not opened, code audited or devices connected. System configuration and accessibility settings must be changed and can be misconfigured. Model, exact hardware and firmware versions are undisclosed. The author's testing and single-setup limits remain; the three- and six-second values are not independent measurements.",
+      "metadata": ["Sealed candidate: 0 likes, 2 views, 0 reposts, 0 replies. Open code and recovery documentation are author claims; the repository was not read here."],
+      "source_labels": ["Candidate: dance credits AI and describes single-setup testing and configuration risks, November 24, 2026 at 16:21:50 Beijing time", "Supplementary parent: Changhong/Xiaomi CEC standby and HDMI workaround, 16:21:14", "Supplementary author thread: launcher interference and stopping after six stable seconds, 16:21:30"]
+    }
+  },
+  {
+    "id": "liushuaikobe-codex-antigravity-region-refusal",
+    "title": "Antigravity地区限制研究被拒：迪丽热酒的Codex失败自述",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "迪丽热酒在讨论Antigravity检测与T3 Code接入的串里，报告Codex拒绝逆向突破限制；未披露提示词、版本或补丁，不推导模型统一政策。",
+    "description": "2026年11月24日16:35:28（北京时间），迪丽热酒（@liushuaikobe）说Codex拒绝其逆向突破限制的任务。补读父串识别目标为Antigravity的地区限制：11月16日原帖讨论T3 Code经ACP接入，11月22日John称曾让Codex改内置地区检测。两条旧帖只提供该候选的任务背景，不是本轮新候选，也不证明受限任务实际成功。\n\n候选本身只报告拒绝，没有贴提示词、拒绝原文、软件版本、授权范围或代码。作为一个目标可识别的失败尝试保留，不能写成已绕过地区限制、官方允许某种接入方式或Codex对全部逆向一律拒绝。本合集未尝试补丁、登录目标或改变地区设置；REA未提。",
+    "sources": [
+      {"label": "候选：迪丽热酒报告Codex拒绝，2026-11-24 16:35:28北京时间", "url": "https://x.com/i/status/2125146269572284790"},
+      {"label": "补充父帖：John谈Antigravity内置地区检测，2026-11-22，非本轮候选", "url": "https://x.com/i/status/2124414887569092785"},
+      {"label": "补充原串：T3 Code与ACP讨论，2026-11-16，非本轮候选", "url": "https://x.com/i/status/2122259824222294291"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["封存0赞、11浏览、0转发、1回复；拒绝原因和实际执行记录未取得。"],
+    "en": {
+      "title": "Codex declines Antigravity region-restriction research: a failed-attempt report by liushuaikobe",
+      "summary": "In a thread about Antigravity checks and T3 Code access, liushuaikobe reports Codex refusing a reverse-engineering task to get past restrictions. No prompt, version or patch is supplied; this does not establish a universal model policy.",
+      "description": "At 16:35:28 Beijing time on November 24, 2026, liushuaikobe (@liushuaikobe; display name Dili Rejiu) reports that Codex refused a task to reverse engineer and get past restrictions. Supplementary parents identify Antigravity region restrictions: the November 16 root discusses T3 Code access through ACP, and on November 22 John claims to have asked Codex to change built-in region detection. These older posts only identify this candidate's context; they are not new candidates or proof of successful restricted access.\n\nThe candidate itself reports only refusal, without the prompt, refusal text, software version, authorization scope or code. It is retained as an identifiable failed attempt, not as a successful region bypass, official approval of an integration method or a policy that Codex refuses all reversing. No patch, target login or regional setting was attempted here. REA is unmentioned.",
+      "metadata": ["Sealed snapshot: 0 likes, 11 views, 0 reposts, 1 reply. The cause of refusal and execution records were not obtained."],
+      "source_labels": ["Candidate: liushuaikobe reports a Codex refusal, November 24, 2026 at 16:35:28 Beijing time", "Supplementary parent: John on Antigravity region detection, November 22, 2026; not a current candidate", "Supplementary root: T3 Code and ACP discussion, November 16, 2026; not a current candidate"]
+    }
+  },
+  {
+    "id": "howls-moving-castle-gpt6pro-threejs-blender-reconstruction",
+    "title": "《风起，城行》：GPT 6Pro参与哈尔移动城堡三维重建，Blender版仍有画风差异",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "d!l3+ttant3报告把以哈尔城堡为参考的程序动画从Three.js转到Blender，渲约十小时并称60帧导出；仓库介绍为60秒1080p／24fps，规格不能混同。",
+    "description": "2026年11月24日16:48:22（北京时间），d!l3+ttant3（@N1n3VASthR33H）称与GPT 6Pro重新渲染一段小动画，转用Blender、调整跟随镜头与收尾，渲染约十小时，并写‘以60帧重新导出’。补读17:24:51的作者提示词，目标是以《哈尔的移动城堡》造型为参考，恢复城堡机械腿、翼帆、烟囱与伙伴角色，按乌鸦跟拍、厨房、四季、起飞和晨光收尾的时间线制作三维短片；不是取得原电影源码或原始模型。\n\n补充读取作者同日给出的公开仓库vvvvvvvvvashhh/howls-moving-castle，README标题为《风起，城行》，介绍Three.js r170与Blender／Cycles的60秒、1080p／24fps作品：共享导演时间轴，将程序化场景导入Blender，保留可编辑机件与人物。网页提供播放、暂停、章节跳转、时间轴与自由环视。这些是项目文档描述，未启动网页或渲染。主帖‘60帧’与仓库24fps未统一，不能改写为已核实的60fps成片。\n\n作者在17:28:11与17:49:14承认更喜欢Three.js草地的一致性，Blender立体感过强但细节更好；画风和一致性仍有差异。补充提示词中的步态、逆向运动学、锚点和采样建议属于规格，不是已通过的测试清单。仓库未固定提交，本合集未下载目标工程、审代码、核算十小时或逐帧比较，GPT云电脑能力也仅为作者体验，不当作普遍可用功能。",
+    "sources": [
+      {"label": "候选：d!l3+ttant3报告GPT 6Pro与Blender重渲，2026-11-24 16:48:22北京时间", "url": "https://x.com/i/status/2125149514080358536"},
+      {"label": "补充作者提示词：哈尔城堡参考、动作与双工程规格，17:24:51", "url": "https://x.com/i/status/2125158698712715373"},
+      {"label": "补充项目README：风起，城行，11月24日读取的可变文档", "url": "https://github.com/vvvvvvvvvashhh/howls-moving-castle"},
+      {"label": "补充作者反馈：Three.js草地一致性更好，17:28:11", "url": "https://x.com/i/status/2125159536688549943"},
+      {"label": "补充作者反馈：Blender立体感过强但细节更好，17:49:14", "url": "https://x.com/i/status/2125164831804416421"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存36赞、1327浏览、4转发、18回复；十小时和60帧为主帖自述，非独立测量。"],
+    "en": {
+      "title": "Where the Wind Takes Us: GPT 6Pro-assisted Howl's castle reconstruction, with Blender style differences remaining",
+      "summary": "d!l3+ttant3 reports moving a Howl-inspired procedural animation from Three.js to Blender, roughly ten hours of rendering and a '60-frame' export. Repository documentation describes 60 seconds at 1080p/24fps; these specifications must not be conflated.",
+      "description": "At 16:48:22 Beijing time on November 24, 2026, d!l3+ttant3 (@N1n3VASthR33H) credits GPT 6Pro with re-rendering an animation in Blender, adjusting camera following and the ending, taking about ten hours and exporting at what the Chinese post calls '60 frames.' A supplementary prompt at 17:24:51 identifies the reference as Howl's Moving Castle: reconstruct its mechanical legs, sails, chimneys and companion characters along a timeline of following a crow, a kitchen, four seasons, takeoff and a dawn ending. This is not recovery of the film's original source or models.\n\nThe public repository vvvvvvvvvashhh/howls-moving-castle, linked by the author that day, was read as supplementary documentation. Its README titles the work Where the Wind Takes Us and describes a 60-second 1080p/24fps short using Three.js r170 and Blender/Cycles: a shared director timeline exports the procedural scene into Blender while retaining editable mechanisms and characters. The web player offers playback, pause, chapter navigation, a timeline and free viewing. These are project descriptions, not a player or render run here. The main post's '60 frames' and the repository's 24fps are unreconciled and are not rewritten as verified 60fps output.\n\nAt 17:28:11 and 17:49:14 the author says Three.js grass is more consistent and Blender feels too three-dimensional despite better detail; style and consistency differences remain. Gait, inverse kinematics, anchors and sampling instructions in the supplementary prompt are specifications, not passed tests. The repository was not pinned to a commit. No project was downloaded, source audited, ten-hour duration checked or frame-by-frame comparison performed here. GPT's cloud-computer capability is also only the author's experience, not an established generally available feature.",
+      "metadata": ["Sealed candidate: 36 likes, 1,327 views, 4 reposts, 18 replies. Ten hours and '60 frames' are main-post claims, not independent measurements."],
+      "source_labels": ["Candidate: d!l3+ttant3 reports GPT 6Pro and Blender rendering, November 24, 2026 at 16:48:22 Beijing time", "Supplementary author prompt: Howl's castle reference, animation and two-project specifications, 17:24:51", "Supplementary project README: Where the Wind Takes Us, mutable documentation read November 24", "Supplementary author feedback: more consistent Three.js grass, 17:28:11", "Supplementary author feedback: stronger-than-desired Blender depth but better detail, 17:49:14"]
+    }
+  },
+  {
+    "id": "shot-reader-v2-heba-camera-motion-comparison",
+    "title": "Shot Reader v2镜头反推：Heba AI指出B-25误称喷气机与手持摇晃漏检",
+    "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Heba AI比较Shot Reader v2与Claude＋REA：首镜推近和CG风格判断被认可，但B-25被叫作jets，第13镜手持式摇晃被判静止；无公开输入或完整评测。",
+    "description": "2026年11月24日17:12:28（北京时间），Heba AI（@SubarcticRec）在Shot Reader v2介绍帖下给出具体错误反馈。补读11月24日03:43:00的Machine Delusions介绍：该模型从镜头推断相机、镜头、人物调度与布景，以可供Blender重建的JSON输出，号称能区分变焦与摄影机移动，并称开放权重、Apache 2.0。仅确认这是介绍帖的说法，未读权重、代码或许可证。\n\nHeba AI认为它不如Claude＋REA：镜头001的推近判断置信度0.98、CG风格均正确，却把停放的B-25轰炸机称为喷气机；镜头013是枪管视角并有手持式摇晃，却被判为静止且非手持，而REA标出手持。这是两处具体观察的用户比较，不是可计算总体准确率的基准，0.98是模型置信度而非98%正确率。\n\n输入影片、模型版本、参数、Claude型号、REA具体配置和完整输出未提供，本合集未看原片、重建场景或重跑。反馈可能指rea-video，但短回复仅写REA，不强行确认其引擎或将此变成另一独立工具的验证。记录以Shot Reader v2的视觉制作参数反推测试为目标，保留分析测试与来源归因。",
+    "sources": [
+      {"label": "候选：Heba AI的两镜错误与Claude＋REA比较，2026-11-24 17:12:28北京时间", "url": "https://x.com/i/status/2125155581157589254"},
+      {"label": "补充父帖：Machine Delusions介绍Shot Reader v2，2026-11-24 03:43北京时间", "url": "https://x.com/i/status/2124951870032798187"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、17浏览、0转发、0回复；两处反馈不代表总体性能。"],
+    "en": {
+      "title": "Shot Reader v2 camera inference: Heba AI reports B-25 miscaptioning and missed handheld shake",
+      "summary": "Heba AI compares Shot Reader v2 with Claude + REA: the first shot's push-in and CG style are judged right, but B-25s are called jets and handheld-style shake in shot 013 is classified as static. Inputs and a full evaluation are unavailable.",
+      "description": "At 17:12:28 Beijing time on November 24, 2026, Heba AI (@SubarcticRec) provides specific error feedback under an introduction to Shot Reader v2. The supplementary Machine Delusions post, dated 03:43 that day in Beijing, describes inferring camera, lens, blocking and set from a shot as JSON for rebuilding in Blender, claims it can distinguish zoom from camera movement, and calls the weights open under Apache 2.0. These are introduction-post claims only; weights, source and license were not read.\n\nHeba AI judges it worse than Claude + REA: shot 001's push-in at 0.98 confidence and CG style are correct, but the caption calls parked B-25 bombers jets. Shot 013 has a gun-barrel point of view and handheld-style shake, yet is classified as static and not handheld, while REA flags handheld movement. This is a user's comparison of two concrete observations, not a benchmark from which overall accuracy can be computed. The 0.98 is model confidence, not 98% correctness.\n\nThe input film, model revision, parameters, Claude model, exact REA configuration and complete output are unavailable. No footage was watched, scene rebuilt or test rerun here. The reply may mean rea-video, but says only REA, so its engine is not asserted and this is not turned into verification of a separate independent tool. The target of the record is Shot Reader v2's visual production-parameter inference test, retaining analysis-test status and attribution.",
+      "metadata": ["Sealed candidate: 0 likes, 17 views, 0 reposts, 0 replies. Two observations do not establish overall performance."],
+      "source_labels": ["Candidate: Heba AI reports two shot errors and compares Claude + REA, November 24, 2026 at 17:12:28 Beijing time", "Supplementary parent: Machine Delusions introduces Shot Reader v2, November 24, 2026 at 03:43 Beijing time"]
+    }
+  },
+  {
+    "id": "iran-laravel-ai-public-website-reconstruction-service",
+    "title": "Iran Laravel的网站重建服务：从公开页面推流程、表单与数据模型",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "候选短链指向Iran Laravel服务页：AI与工程师分析参考网站的页面、表单及用户流，再以Laravel和波斯语CMS重建；未列已交付目标或对照测试。",
+    "description": "2026年11月24日18:01:58（北京时间）的候选只有短链接。展开后读取Iran Laravel的公开‘AI网站逆向工程’服务页，内容提供了可识别的项目形态：客户给参考站点、企业门户或管理面板，团队结合AI分析和工程师复核，提取页面层级、导航、表单校验与错误状态、用户流程，并从可见行为推断实体与数据关系，再用Laravel和自有波斯语CMS重建。\n\n服务页提出先取得所有权或重建许可，交付新的品牌界面、代码和内容，明确不复制他人专有源码、模板、版权内容或商标，不访问私人数据、账号或登录后区域。这是供应商宣称的工作范围，不是本合集审计过的合规认证。\n\n没有给具体客户、参考域名、模型、代码、验收记录或已完成案例。页面的3倍初步分析速度和100%自有代码／内容缺少测量基线，不作已验证结果；本合集未提交需求、咨询或执行目标代码。按具体AI辅助行为重建服务项目收录，不称已成功复制任意网站；服务页未注明原始发布日期，候选发布时间不冒充页面发布时间。",
+    "sources": [
+      {"label": "候选短链入口，2026-11-24 18:01:58北京时间", "url": "https://x.com/i/status/2125168035770126543"},
+      {"label": "补充公开服务页：Iran Laravel的AI网站逆向范围，11月24日读取，原发布日期未标", "url": "https://portal.iranlaravel.ir/pages/ai-website-reverse-engineering"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、5浏览、0转发、0回复；供应商页面非独立交付验证。"],
+    "en": {
+      "title": "Iran Laravel's website-rebuilding service: inferring flows, forms and data models from public pages",
+      "summary": "The candidate links Iran Laravel's service page: AI and engineers analyze a reference site's pages, forms and user flows, then rebuild with Laravel and a Persian CMS. No delivered target or comparison test is named.",
+      "description": "The candidate at 18:01:58 Beijing time on November 24, 2026 contains only a short link. Its destination, Iran Laravel's public AI website reverse-engineering service page, was read and identifies a concrete project offering. Customers supply a reference website, enterprise portal or panel; AI analysis plus engineer review extracts page hierarchies, navigation, form validation and error states, and user flows, inferring entities and data relationships from visible behavior before rebuilding with Laravel and a proprietary Persian CMS.\n\nThe page says ownership or rebuilding permission is obtained first and that new branded interfaces, code and content are delivered. It excludes copying proprietary source, templates, copyrighted content or trademarks and accessing private data, accounts or areas behind login. This is the vendor's declared scope, not a compliance certification audited by this collection.\n\nNo customer, reference domain, model, source code, acceptance record or completed example is identified. Claims of three-times initial-analysis speed and 100% original code/content lack a measurement baseline and are not verified results. No request or consultation was submitted and no target code executed here. This is retained as a specific AI-assisted behavioral reconstruction service project, not successful copying of arbitrary websites. The page gives no original publication date; the candidate's timestamp is not substituted for it.",
+      "metadata": ["Sealed candidate: 0 likes, 5 views, 0 reposts, 0 replies. The vendor's page is not independent delivery verification."],
+      "source_labels": ["Candidate short-link entry point, November 24, 2026 at 18:01:58 Beijing time", "Supplementary public service page: Iran Laravel's AI website-reversing scope, read November 24; original date unspecified"]
+    }
+  },
+  {
+    "id": "notebooklm-py-undocumented-api-agent-skill-integration",
+    "title": "notebooklm-py：把未公开Google接口接到Claude Code与Codex的技能",
+    "category": "apps", "rea": "unknown", "status": "related-project",
+    "summary": "候选介绍非官方Python／CLI及Agent技能，用逆向接口编排Gemini Notebook音视频与资料工作流；项目文档确认未公开API风险，16分钟录音与30秒摘要说法未核。",
+    "description": "2026年11月24日18:12:12（北京时间）的候选介绍teng-lin/notebooklm-py，用非官方Python接口、CLI和技能让Claude Code、Codex等Agent调用Google的Gemini Notebook（原NotebookLM），批量处理资料并生成、下载音频、视频等产物。这里收录的是为AI Agent打通既有服务接口的互通项目，不声称Claude替作者完成了接口逆向。\n\n补读公开仓库README，确认项目将自身定义为未公开Google API的社区客户端，列出Agent技能、资料导入、带引用问答、Audio／Video Overview及多格式下载，并警告端点可随时变化、限流和重度使用被节流。README说适合原型、研究和个人项目，非Google官方，也不是官方稳定API承诺。页面为11月24日读取的可变文档，未固定提交。\n\n候选把‘16分钟会议录音、30秒变播客’与后文‘30秒摘要’混写，未交代30秒是产物时长还是处理耗时；不能写成已验证的30秒生成速度。20361星和各格式数量只属候选快照，本合集未核对历史星数、提交音频、读取账号会话、安装依赖或运行命令。REA未确认，保留相关项目与接口兼容风险。",
+    "sources": [
+      {"label": "候选：notebooklm-py与音频／Agent技能介绍，2026-11-24 18:12:12北京时间", "url": "https://x.com/i/status/2125170610825527782"},
+      {"label": "补充项目README：未公开API与互通范围，11月24日读取，非固定版本", "url": "https://github.com/teng-lin/notebooklm-py"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存2赞、124浏览、0转发、2回复；未确认AI参与接口逆向本身。"],
+    "en": {
+      "title": "notebooklm-py: connecting undocumented Google APIs to Claude Code and Codex skills",
+      "summary": "The candidate describes an unofficial Python/CLI client and agent skill orchestrating Gemini Notebook media and source workflows through reverse-engineered endpoints. Documentation confirms undocumented-API risks; the 16-minute recording/30-second summary claim is unverified.",
+      "description": "The candidate at 18:12:12 Beijing time on November 24, 2026 introduces teng-lin/notebooklm-py, an unofficial Python interface, CLI and skill allowing Claude Code, Codex and other agents to use Google's Gemini Notebook, formerly NotebookLM, for bulk source processing and media generation/download. This is an interoperability project connecting existing service endpoints to AI agents, not a claim that Claude reverse engineered those endpoints for the author.\n\nThe public repository README was read as supplementary evidence. It defines the project as a community client for undocumented Google APIs, lists agent skills, source import, cited answers, Audio/Video Overviews and multi-format downloads, and warns that endpoints can change without notice, rate limits apply and heavy use may be throttled. It recommends prototypes, research and personal projects; it is neither official Google software nor a stable-API commitment. This mutable documentation was read November 24 without pinning a commit.\n\nThe candidate mixes 'a 16-minute meeting recording becomes a podcast in 30 seconds' with a later '30-second summary,' without establishing whether 30 seconds is output duration or processing time. Verified 30-second generation is not asserted. Its 20,361 stars and format counts are candidate-snapshot claims; historical stars were not checked, audio submitted, account sessions read, dependencies installed or commands run. REA use is unconfirmed; related-project status and endpoint-compatibility risks remain.",
+      "metadata": ["Sealed candidate: 2 likes, 124 views, 0 reposts, 2 replies. AI participation in reverse engineering the endpoints themselves is unconfirmed."],
+      "source_labels": ["Candidate: notebooklm-py audio and agent-skill introduction, November 24, 2026 at 18:12:12 Beijing time", "Supplementary project README: undocumented APIs and interoperability scope, read November 24; not a pinned version"]
+    }
+  },
+  {
+    "id": "promon-q42026-ai-mobile-protection-harness-benchmark",
+    "title": "Promon的AI逆向实验：容器研究恶意软件，再用重复基准与红蓝迭代测加固",
+    "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Promon报告Claude Code／Codex容器harness研究Coretax等目标，并用四种方法评测保护、迭代加固；单目标每版五次的成本变化非普适安全保证，AI修补仍须人审。",
+    "description": "2026年11月24日18:25:30（北京时间），JikGuard（@JikGuardTech）引用Promon的11月23日Q4 2026 App Threat Report，谈加固如何提高AI攻击成本。补读其18:25:32来源帖与Promon研究负责人Benjamin Adolphi署名的公开全文，确认这是供应商自己的研究项目，不是独立安全认证。\n\n团队把Claude Code或Codex、IDA Pro／Ghidra／gdb／Frida及目标放入一次性隔离容器，用固定工具、技能和MCP服务做移动安全分析，也可连接受控设备与模拟器。与REA对比是架构说明，不代表其harness调用REA。公开例子为Coretax安卓恶意软件：打包、混淆资源名与大型Go二进制隐藏网络逻辑，Agent辅助找到命令控制路径并记录机械分析。团队称很多任务超过80%的工作由Agent完成，人主要验证与引导；没有给可核算的工作量定义、逐任务日志或独立复现，不将80%当准确率或精确节时。\n\n同一项目的重复基准按静态、模拟、动态和不限方法四路控制工具与权限，外部脚本评分，不让Agent看评判代码、保护版本和项目信息。一个含受保护秘密的小二进制例子，在同目标、模型、提示和不限方法下每版五次，报告加固使成本约升一个数量级、耗时超过一个数量级，并从每次成功变为部分成功。文章没有披露模型名、目标二进制或逐次原始记录；不是已发行应用三分钟就可破解，也不证明保护不可破。并行资源争用、工具、任务切分、公开训练材料与Agent策略都会影响结果。\n\n红蓝迭代让红队研究弱点、蓝队读取保护器源码修改，再重新保护目标；测试无先验、可读前轮报告、可读报告及源码三个知识层级。团队称几轮后部分红队运行3至5小时、花数百美元仍失败，但AI常只封堵单个技巧，甚至改目标而非保护器。它仍是原型实验，不是无人审查的生产发布管线。作者也明确，设备上解密后存在内存中的秘密不能靠客户端加固绝对隐藏。\n\n本合集阅读候选、补充串与11月23日公开报告，未取得或执行harness、样本、基准和补丁；没有攻击设备或读取凭据。全部成本、耗时和效果是项目自报，保留分析测试、样本规模与人审边界。",
+    "sources": [
+      {"label": "候选：JikGuard引用AI攻击成本研究，2026-11-24 18:25:30北京时间", "url": "https://x.com/i/status/2125173961780830323"},
+      {"label": "补充来源帖：明确Promon Q4报告，18:25:32", "url": "https://x.com/i/status/2125173967254442084"},
+      {"label": "补充第一方报告：Benjamin Adolphi，2026-11-23，harness、基准及加固实验", "url": "https://promon.io/security-news/app-threat-report-q4-2026-using-ai-to-break-and-harden-app-protection-at-speed"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、2浏览、0转发、1回复；报告公开日期11月23日，不是本窗口新发的报告。"],
+    "en": {
+      "title": "Promon's AI reversing experiments: containerized malware research, repeated protection benchmarks and red/blue hardening",
+      "summary": "Promon reports a Claude Code/Codex container harness for targets such as Coretax, four-method protection benchmarks and iterative hardening. Five runs per version on one target do not establish general safety; AI fixes still require human review.",
+      "description": "At 18:25:30 Beijing time on November 24, 2026, JikGuard (@JikGuardTech) cites Promon's November 23 Q4 2026 App Threat Report on hardening and AI attack costs. Its 18:25:32 source reply and the full public report by head of security research Benjamin Adolphi were read as supplementary evidence. This is a vendor's own research project, not independent security certification.\n\nThe team puts Claude Code or Codex, IDA Pro/Ghidra/gdb/Frida and the target inside a disposable isolated container, using fixed tools, skills and MCP services for mobile-security analysis, with controlled devices and emulators available. The comparison with REA explains architecture, not use of the REA engine. One public example is Coretax Android malware: packing, obfuscated resource names and a large Go binary hide network logic, and the agent helps locate command-and-control behavior and document mechanical analysis. The team says agents did over 80% of the work in many tasks while humans validated and guided. No auditable work-quantity definition, per-task logs or independent reproduction is supplied, so 80% is not accuracy or precisely measured time savings.\n\nThe same project's repeated benchmark controls tools and permissions for static, emulation, dynamic and unrestricted methods. External scripts grade results; judging code, protection revision and project identity are hidden from the agent. In a small binary containing a protected secret, five runs per version with the same target, model, prompt and unrestricted methodology reportedly show roughly an order-of-magnitude cost increase and more than an order-of-magnitude time increase after hardening, with success changing from every run to some runs. Model identity, target binaries and raw trial records are undisclosed. This does not mean a shipped app can be broken in three minutes or that protection is unbreakable. Parallel resource contention, tools, task scope, public training material and agent strategy all affect outcomes.\n\nA red/blue loop has red agents investigate weaknesses, blue agents edit protector source, and the target protected again. Three attacker-knowledge levels cover no prior information, prior reports, and reports plus source. After a handful of rounds, some red-agent runs reportedly spend three to five hours and hundreds of dollars without succeeding, but AI often blocks just one trick or changes the target rather than the protector. This remains a prototype, not an unreviewed production-release pipeline. The author also explicitly acknowledges that a secret decrypted into device memory cannot be made absolutely inaccessible by client-side hardening.\n\nThe candidate, supplementary thread and November 23 public report were read here. No harness, sample, benchmark or patch was obtained or executed; no device was attacked or credentials read. All costs, durations and effectiveness claims are project reports. Analysis-test status, sample-size limits and required human review remain.",
+      "metadata": ["Sealed candidate: 0 likes, 2 views, 0 reposts, 1 reply. The report was published November 23, not newly published within this candidate window."],
+      "source_labels": ["Candidate: JikGuard cites AI attack-cost research, November 24, 2026 at 18:25:30 Beijing time", "Supplementary source reply naming Promon's Q4 report, 18:25:32", "Supplementary first-party report: Benjamin Adolphi, November 23, 2026, on the harness, benchmark and hardening experiments"]
+    }
+  },
+  {
+    "id": "rea-viral-igor-sanz-founder-post-format-analysis",
+    "title": "REA Viral研究1661条独立创始人帖子：按作者自身基线拆格式而非承诺爆款",
+    "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Igor Sanz用REA Viral比较1661条X帖子与创作者日常表现，报告列表格式等相对倍数；这是内容形式反推，不是恢复X推荐源码，样本与因果未独立核验。",
+    "description": "2026年11月24日18:44:33（北京时间），Igor Sanz（@mr_igor_sanz）介绍REA Viral是供AI Agent使用的开源skill，可给领域、账号或单帖，按作者自己的日常表现评分，输出格式、钩子、异常高低表现与制作配方。补读18:44:29和18:44:32父帖：他报告分析独立创始人领域1661条X帖子，短观点引用帖197条且仅0.93倍基线，列表格式在14位创作者中9位上有2.68倍，首行写自身收入的格式在5位创作者中有2.71倍。\n\n这些是作者归类与样本相对表现，不是平台算法源码、随机实验或未来传播保证；2.68倍并非全体1661条的统一效果，收入数字也不是本工具带来的收入。\n\n补充读取wpsoul/rea-viral的公开README：项目由指令与小型Python脚本组成，Agent用自己已有的公开材料读取工具，计算作者基线、查看有关视频，再交付HTML和ACCOUNT／POST／NICHE等报告与数据。文档要求分开MEASURED、SEEN和INFERRED，并列未读材料；缺历史关注数时不能把估计写成新增粉丝数，跨创作者格式至少三位才算领域模式。它不内置数据商，也不自行发帖；这些是文档约束，未经本合集运行验证。\n\n仓库名称含REA不证明使用morluto/rea引擎，归other-ai。未固定提交、读取1661条原始样本、检查评分实现、重跑数字或发布内容。本合集仅核对作者串与可变文档，保留分析测试与观察性证据边界。",
+    "sources": [
+      {"label": "候选：Igor Sanz介绍REA Viral技能，2026-11-24 18:44:33北京时间", "url": "https://x.com/i/status/2125178752141328688"},
+      {"label": "补充作者父帖：1661条独立创始人样本，18:44:29", "url": "https://x.com/i/status/2125178739050832364"},
+      {"label": "补充作者串：各格式相对自身基线表现，18:44:32", "url": "https://x.com/i/status/2125178748026679643"},
+      {"label": "补充项目README：报告、脚本与证据标签，11月24日读取的可变文档", "url": "https://github.com/wpsoul/rea-viral"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、11浏览、0转发、0回复；样本倍数为作者分析，非独立传播实验。"],
+    "en": {
+      "title": "REA Viral studies 1,661 solo-founder posts: infer formats against each creator's baseline, not guaranteed virality",
+      "summary": "Igor Sanz uses REA Viral to compare 1,661 X posts with creators' usual performance, reporting relative multiples for formats such as lists. This infers content structure, not X's recommendation source; samples and causality are unverified.",
+      "description": "At 18:44:33 Beijing time on November 24, 2026, Igor Sanz (@mr_igor_sanz) introduces REA Viral as an open-source AI-agent skill taking a niche, account or post, scoring against the creator's own usual performance and reporting formats, hooks, outliers, flops and recipes. Supplementary parents at 18:44:29 and 18:44:32 report analysis of 1,661 X posts in the solo-founder niche: 197 short-take quotes at 0.93 times baseline, a list format at 2.68 times across nine of fourteen creators and an own-revenue first-line format at 2.71 times across five creators.\n\nThese are the author's classifications and observational relative performance, not platform-algorithm source recovery, a randomized experiment or guaranteed future reach. The 2.68 multiple is not one uniform effect across all 1,661 posts, and revenue mentioned in posts is not income generated by the tool.\n\nThe public wpsoul/rea-viral README was read as supplementary evidence. Instructions and small Python scripts guide an agent using its existing public-content readers to compute creator baselines, watch relevant videos and deliver HTML plus ACCOUNT/POST/NICHE reports and supporting data. Documentation requires MEASURED, SEEN and INFERRED labels and unread-material disclosures. Without historical follower counts, estimates must not become acquired-follower counts; a niche-level format needs at least three creators. It bundles no data provider and posts nothing. These are documented rules, not behavior tested here.\n\nThe REA name does not establish use of morluto/rea, so the record is other-ai. No commit was pinned, raw 1,661-post dataset read, scoring implementation audited, numbers rerun or content posted. Only the author thread and mutable documentation were checked; analysis-test status and observational evidence limits remain.",
+      "metadata": ["Sealed candidate: 0 likes, 11 views, 0 reposts, 0 replies. Sample multiples are author analyses, not an independent engagement experiment."],
+      "source_labels": ["Candidate: Igor Sanz introduces the REA Viral skill, November 24, 2026 at 18:44:33 Beijing time", "Supplementary author parent: 1,661 solo-founder posts, 18:44:29", "Supplementary author thread: format performance relative to creator baselines, 18:44:32", "Supplementary project README: reports, scripts and evidence labels, mutable documentation read November 24"]
+    }
+  },
+  {
+    "id": "baldis-basics-plus-il2cpp-ai-decompile-idea",
+    "title": "Baldi's Basics Plus改IL2CPP后呢：hexadexx提出AI仍可反编译的idea",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "在Baldi's Basics Plus 0.14.7讨论串里，有人建议改IL2CPP提高逆向门槛，hexadexx回应AI仍可反编译；仅为针对具名游戏的推测，未执行。",
+    "description": "2026年11月24日19:01:08（北京时间），hexadexx（@hexadexx）说AI仍可反编译‘那个’。补读父串确认背景为Baldi's Basics Plus 0.14.7的消息变化：参与者ChemicalMRN建议开发者改用Unity的IL2CPP构建，把中间语言转成原生代码以提高反编译门槛，同时承认会增加Mod难度。\n\n候选是在这个假设之上说AI仍能处理，随后作者又说自己并不支持这种做法。它不是游戏已使用IL2CPP的证据，也不是AI已恢复源码或制作Mod。未给模型、二进制、方法、代码或结果，本合集未下载游戏或运行分析；只保留具名目标和技术迁移背景下的未执行idea，REA未确认。",
+    "sources": [
+      {"label": "候选：hexadexx提出AI仍能反编译，2026-11-24 19:01:08北京时间", "url": "https://x.com/i/status/2125182929299001401"},
+      {"label": "补充父帖：Baldi's Basics Plus 0.14.7背景，2026-11-24 07:58:38北京时间", "url": "https://x.com/i/status/2125016204935135325"},
+      {"label": "补充讨论：建议IL2CPP并提示Mod代价，2026-11-24 11:34:03北京时间", "url": "https://x.com/i/status/2125070414175252857"},
+      {"label": "补充候选作者：不支持此做法的态度，19:01:29", "url": "https://x.com/i/status/2125183015621951504"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["封存0赞、10浏览、0转发、1回复；没有已执行反编译证据。"],
+    "en": {
+      "title": "What if Baldi's Basics Plus used IL2CPP? hexadexx suggests AI could still decompile it",
+      "summary": "In a Baldi's Basics Plus 0.14.7 thread, one participant proposes IL2CPP to raise reversing costs and hexadexx says AI could still decompile it. This is an unexecuted idea about a named game.",
+      "description": "At 19:01:08 Beijing time on November 24, 2026, hexadexx (@hexadexx) says AI could decompile 'that.' Supplementary parents identify a discussion of a message change in Baldi's Basics Plus 0.14.7. ChemicalMRN proposes that the developer use Unity's IL2CPP build path, which converts intermediate language to native code, to raise decompilation difficulty, while acknowledging harder modding.\n\nThe candidate speculates that AI could still handle this hypothetical change; a follow-up says the author does not support doing so. It is not evidence that the game uses IL2CPP or that AI recovered source or made a mod. No model, binary, method, code or result is supplied. No game was downloaded or analysis run here. Only an unexecuted idea with a named target and technical migration context is retained; REA use is unconfirmed.",
+      "metadata": ["Sealed snapshot: 0 likes, 10 views, 0 reposts, 1 reply. No executed decompilation is evidenced."],
+      "source_labels": ["Candidate: hexadexx suggests AI could still decompile it, November 24, 2026 at 19:01:08 Beijing time", "Supplementary parent: Baldi's Basics Plus 0.14.7 context, November 24, 2026 at 07:58:38 Beijing time", "Supplementary discussion: IL2CPP proposal and modding cost, November 24, 2026 at 11:34:03 Beijing time", "Supplementary candidate-author reply expressing disapproval, 19:01:29"]
+    }
+  },
+  {
+    "id": "serina-dead-rising-rea-coop-mod-abandoned",
+    "title": "Dead Rising合作Mod中止：Serina称Claude中途不再调用REA",
+    "category": "games", "rea": "REA", "status": "unverified",
+    "summary": "Serina报告曾用REA做Dead Rising合作Mod，但Claude中途停止调用且无法解释如何恢复，遂放弃；未有日志，不确认是护栏、工具故障或上下文问题。",
+    "description": "2026年11月24日19:10:55（北京时间），Serina（@SerinaXCom）在讨论Claude体验的串中说，自己正在做一个针对Dead Rising的REA合作模式Mod项目，却因Claude中途停用REA而不得不放弃。她说模型声称不知道为什么停止，也不知道为何不能再次调用。\n\n目标是给具名游戏加合作玩法，失败点是Agent无法继续使用逆向工具，而非作者已证明游戏技术上不能支持合作。帖子没有说明哪一代或哪个版本、平台、模型、调用错误、日志、代码或已完成程度。不能把作者的因果理解升级为Anthropic封禁REA的政策，也不能确定是安全拒绝、MCP／CLI故障或会话状态问题。\n\n补取原串确认作者与自述，没有取得可复查故障记录或Mod，本合集未下载游戏、运行代码或尝试解除限制。按已中止的实际尝试收录，unverified表示证据未核，不表示仍在开发或已发布可玩合作版。",
+    "sources": [{"label": "Serina的Dead Rising合作Mod与REA中断自述，2026-11-24 19:10:55北京时间", "url": "https://x.com/i/status/2125185389627330614"}],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、8浏览、0转发、0回复；未取得调用日志或实现。"],
+    "en": {
+      "title": "A Dead Rising co-op mod abandoned: Serina says Claude stopped calling REA mid-task",
+      "summary": "Serina reports using REA for a Dead Rising co-op mod, then dropping it when Claude stopped invoking the tool and could not explain how to resume. No logs establish whether safeguards, tooling or context caused it.",
+      "description": "At 19:10:55 Beijing time on November 24, 2026, Serina (@SerinaXCom) says in a discussion of Claude experiences that she was working on a Dead Rising co-op mod with REA but had to abandon it when Claude stopped using REA mid-task. She reports the model saying it did not know why it stopped or why it could not call the tool again.\n\nThe goal is adding co-op play to a named game. The reported failure is the agent's inability to continue using reversing tools, not proof that the game cannot technically support co-op. The post gives no installment/version, platform, model, invocation error, logs, code or completion level. The author's causal interpretation is not upgraded into an Anthropic policy banning REA, and safeguards, MCP/CLI failures and conversation-state issues cannot be distinguished.\n\nSupplementary thread retrieval confirms attribution and the account but provides no reviewable failure record or mod. No game was downloaded, code run or restriction removed here. It is retained as an abandoned actual attempt; unverified describes the evidence, not active development or a published playable co-op version.",
+      "metadata": ["Sealed candidate: 0 likes, 8 views, 0 reposts, 0 replies. No invocation logs or implementation were obtained."],
+      "source_labels": ["Serina reports the Dead Rising co-op mod and REA interruption, November 24, 2026 at 19:10:55 Beijing time"]
+    }
+  },
+  {
+    "id": "slotbound-mobile-clones-ai-decompilation-allegation",
+    "title": "Slotbound试玩版到手机仿品：白先生转述作者怀疑AI反编译，方法未证实",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "白先生转述Slotbound作者认为抖音与微信仿品由AI反编译PC demo而来，含《斯洛托战记》；有具体目标与争议，但未获得原作者取证、代码或AI参与证明。",
+    "description": "2026年11月24日19:45:17（北京时间），MrWhite白先生（@neuronxwhite）转述：Slotbound作者认为两款手机仿品都是用AI反编译没有源码的PC demo做出的。补读19:45:16至19:45:20作者串，识别目标为Slotbound：帖子称7月公开demo后不到两个月抖音小游戏出现照搬UI与美术的收费版本，10月微信又出现《斯洛托战记》。这里以同一试玩目标的两次仿制指控合并记录，不凭外观相似认定同一开发者或已证实使用AI。\n\n串中称消息来自GameLook，并说两款仿品经中国玩家举报下架，原作者因没有中国手机号无法自行投诉；还提11月13日Steam发售、六天20万套、10万愿望单和v1.0.3。这些是二手报道中的市场与处置数字，本合集未核对商店、平台下架通知或销售数据，也不将商业成功作为逆向方法证据。\n\n未取得GameLook原文、原作者技术分析、仿品代码、二进制或AI调用记录，补充来源链接未取得正文。无法区分反编译、视觉重做、素材挪用或其他实现；因此仅记录作者怀疑经白先生转述，不断言AI确已反编译或认定法律侵权。没有下载原游戏或仿品。",
+    "sources": [
+      {"label": "候选：白先生转述《斯洛托战记》及AI反编译怀疑，2026-11-24 19:45:17北京时间", "url": "https://x.com/i/status/2125194036713828710"},
+      {"label": "补充作者父帖：Slotbound与抖音仿品背景，19:45:16", "url": "https://x.com/i/status/2125194032595058775"},
+      {"label": "补充作者串：试玩与发售版本区别，19:45:18", "url": "https://x.com/i/status/2125194043789619579"},
+      {"label": "补充作者串：GameLook归因与举报下架说法，19:45:20", "url": "https://x.com/i/status/2125194050953461968"}
+    ],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、9浏览、0转发、1回复；AI参与和反编译方法均为未证实指控。"],
+    "en": {
+      "title": "From Slotbound's PC demo to mobile lookalikes: MrWhite relays an unproven AI-decompilation allegation",
+      "summary": "MrWhite relays the Slotbound creator's suspicion that Douyin and WeChat lookalikes, including Siluotuo Zhanji, were AI-decompiled from the PC demo. The target and dispute are concrete, but original forensics, source and AI involvement are unverified.",
+      "description": "At 19:45:17 Beijing time on November 24, 2026, MrWhite (@neuronxwhite) relays the Slotbound creator's belief that two mobile lookalikes were made by AI decompiling a PC demo without source access. Supplementary posts from 19:45:16 to 19:45:20 identify Slotbound: allegedly less than two months after its July demo, a paid Douyin minigame copied its UI and art, followed in October by WeChat's Siluotuo Zhanji (斯洛托战记). These are grouped as allegations about two imitations of the same demo target, without inferring the same developer or proven AI use from visual similarity.\n\nThe thread attributes the account to GameLook and says Chinese players had both lookalikes removed after reports, while the original creator lacked a Chinese phone number to complain directly. It also mentions a November 13 Steam release, 200,000 sales in six days, 100,000 wishlists and v1.0.3. These are secondary-report market and enforcement figures. Store data, takedown notices and sales were not checked here, and commercial success is not evidence of a reversing method.\n\nThe GameLook article, original creator's technical analysis, clone source, binaries and AI invocation records were not obtained; the supplementary source link's body was unavailable. Decompilation, visual reconstruction, asset copying and other methods cannot be distinguished. Only the creator's suspicion as relayed by MrWhite is recorded, not proven AI decompilation or a legal infringement finding. Neither the original game nor lookalikes were downloaded.",
+      "metadata": ["Sealed candidate: 0 likes, 9 views, 0 reposts, 1 reply. AI participation and the decompilation method remain unproven allegations."],
+      "source_labels": ["Candidate: MrWhite relays Siluotuo Zhanji and suspected AI decompilation, November 24, 2026 at 19:45:17 Beijing time", "Supplementary author parent: Slotbound and Douyin lookalike context, 19:45:16", "Supplementary author thread: demo versus release versions, 19:45:18", "Supplementary author thread: GameLook attribution and reported takedowns, 19:45:20"]
+    }
+  },
+  {
+    "id": "codex-rea-seo-geo-reference-site-optimization",
+    "title": "先研究SEO／GEO站点再改自己的：kongwen的Codex＋REA工作流",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "kongwen称Codex调用REA研究市面SEO／GEO站点规则，再按所学优化自己的站点；没有公开域名、分析报告或排名与引用变化，效果未核。",
+    "description": "2026年11月24日19:34:22（北京时间），kongwen（@blune66）报告用Codex结合REA分析市面上一些SEO和GEO站点，学习其规则，再把自己的站点交给Codex按所学优化。SEO指搜索引擎优化，GEO在该语境指面向生成式搜索或回答引擎的内容可见性优化。\n\n作者描述了‘分析参考站点—学习规则—修改自有站点’的实际操作链，目标是把观察到的站点做法用于自有网站，不是恢复搜索引擎的私有排名源码。参考站与自有站域名、规则细节、修改diff、模型版本、分析产物和优化前后排名、流量或AI引用均未提供。\n\n补取原帖确认署名，未访问目标站点、运行REA或检查线上效果。该实例不同于基线ChatSEO十类报告重建或Obsidian问题库答案反查，不能把它们的成果套用；仅记录这个独立作者的未核验工作流，不承诺SEO或GEO提升。",
+    "sources": [{"label": "kongwen的Codex／REA站点研究与优化自述，2026-11-24 19:34:22北京时间", "url": "https://x.com/i/status/2125191288677110061"}],
+    "snapshot_date": "2026-11-24", "metadata": ["候选封存0赞、3浏览、0转发、0回复；无前后测量或实现材料。"],
+    "en": {
+      "title": "Study SEO/GEO sites before changing your own: kongwen's Codex + REA workflow",
+      "summary": "kongwen says Codex uses REA to study rules in existing SEO/GEO sites and then optimize their own. No domains, report, ranking changes or citation measurements are supplied; effectiveness is unverified.",
+      "description": "At 19:34:22 Beijing time on November 24, 2026, kongwen (@blune66) reports using Codex with REA to analyze existing SEO and GEO sites, learn their rules and then optimize their own site accordingly. SEO means search engine optimization; in this context GEO concerns visibility in generative search or answer engines.\n\nThe author describes an actual chain of studying reference sites, extracting rules and modifying an owned site. The goal is applying observed website practices, not recovering private search-engine ranking source. Reference and owned domains, rule details, code diffs, model version, analysis artifacts and before/after rankings, traffic or AI citations are not supplied.\n\nSupplementary retrieval confirms attribution. No target site was visited, REA run or online result checked here. This differs from the baseline ChatSEO ten-report reconstruction and Obsidian question-bank answer analysis; their outcomes are not imported. Only this independent author's unverified workflow is recorded, with no promise of SEO or GEO gains.",
+      "metadata": ["Sealed candidate: 0 likes, 3 views, 0 reposts, 0 replies. No before/after measurement or implementation artifacts."],
+      "source_labels": ["kongwen reports Codex/REA website study and optimization, November 24, 2026 at 19:34:22 Beijing time"]
+    }
+  },
+  {
     "id": "saikumaresh-beekeeper-rea-csv-behavioral-parity-test",
     "title": "Beekeeper Studio CSV导出：REA重建末端90项匹配，上游规格仍有缺口",
     "category": "apps", "rea": "REA", "status": "analysis-test",

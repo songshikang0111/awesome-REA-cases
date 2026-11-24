@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [neuronvisuals火柴人画风：Claude按参考帧重建Python动画的教程转述](../cases/neuronvisuals-postiz-claude-stick-animation-reconstruction.md) — S1哥转述Nevo David的教程：拆neuronvisuals的黑底双人对比、最后变黄等规则，让Claude写PIL动画并逐帧比较修改；批量渲染与传播数字均未重跑核算。 **[其他 AI 逆向 · 待验证]**
+- [《风起，城行》：GPT 6Pro参与哈尔移动城堡三维重建，Blender版仍有画风差异](../cases/howls-moving-castle-gpt6pro-threejs-blender-reconstruction.md) — d!l3+ttant3报告把以哈尔城堡为参考的程序动画从Three.js转到Blender，渲约十小时并称60帧导出；仓库介绍为60秒1080p／24fps，规格不能混同。 **[其他 AI 逆向 · 待验证]**
+- [Shot Reader v2镜头反推：Heba AI指出B-25误称喷气机与手持摇晃漏检](../cases/shot-reader-v2-heba-camera-motion-comparison.md) — Heba AI比较Shot Reader v2与Claude＋REA：首镜推近和CG风格判断被认可，但B-25被叫作jets，第13镜手持式摇晃被判静止；无公开输入或完整评测。 **[其他 AI 逆向 · 分析测试]**
+- [Promon的AI逆向实验：容器研究恶意软件，再用重复基准与红蓝迭代测加固](../cases/promon-q42026-ai-mobile-protection-harness-benchmark.md) — Promon报告Claude Code／Codex容器harness研究Coretax等目标，并用四种方法评测保护、迭代加固；单目标每版五次的成本变化非普适安全保证，AI修补仍须人审。 **[其他 AI 逆向 · 分析测试]**
+- [REA Viral研究1661条独立创始人帖子：按作者自身基线拆格式而非承诺爆款](../cases/rea-viral-igor-sanz-founder-post-format-analysis.md) — Igor Sanz用REA Viral比较1661条X帖子与创作者日常表现，报告列表格式等相对倍数；这是内容形式反推，不是恢复X推荐源码，样本与因果未独立核验。 **[其他 AI 逆向 · 分析测试]**
 - [X图片里的面碗越过栏杆：Grok Bot拆尺寸、切片与透明通道](../cases/grokbot-x-transparent-panel-visual-effect-analysis.md) — Untethered_X称让Grok Bot研究人物突破图片边框的效果，识别736×882原图、五条竖切片与PNG透明栏杆，并交付ZIP；未复现平台排版。 **[其他 AI 逆向 · 待验证]**
 - [学习一个动态效果：李博比较三款模型的逆向完成与拒绝体验](../cases/leeeboo-dynamic-effect-ai-model-comparison.md) — 李博称为理解动态效果实现做逆向，同问题中GPT 6.2 SOL部分完成且偶有拒绝，GPT 6.0 SOL和Opus 5.5则主观评为100%完成；没有参考或对照工件。 **[其他 AI 逆向 · 待验证]**
 - [私有公式的黑盒恢复：DarkFlare称Fable 5.2达到0.99贴合，指标未定义](../cases/darkflare-fable-private-formula-reconstruction.md) — DarkFlare称用Fable 5.2恢复多未知输入的私有公式，得到0.99 accuracy，此前手工尝试四年；未披露公式领域、样本或指标，不等于99%独立验证。 **[其他 AI 逆向 · 待验证]**

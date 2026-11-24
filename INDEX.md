@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2749 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2764 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（534）
-- [硬件与设备互通](categories/hardware.md)（727）
-- [应用与客户端](categories/apps.md)（1138）
-- [算法与功能重建](categories/algorithms.md)（350）
+- [游戏与游戏保存](categories/games.md)（537）
+- [硬件与设备互通](categories/hardware.md)（730）
+- [应用与客户端](categories/apps.md)（1142）
+- [算法与功能重建](categories/algorithms.md)（355）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [Baldi's Basics Plus改IL2CPP后呢：hexadexx提出AI仍可反编译的idea](cases/baldis-basics-plus-il2cpp-ai-decompile-idea.md) — 在Baldi's Basics Plus 0.14.7讨论串里，有人建议改IL2CPP提高逆向门槛，hexadexx回应AI仍可反编译；仅为针对具名游戏的推测，未执行。 **[其他 AI 逆向 · 待验证]**
+- [Dead Rising合作Mod中止：Serina称Claude中途不再调用REA](cases/serina-dead-rising-rea-coop-mod-abandoned.md) — Serina报告曾用REA做Dead Rising合作Mod，但Claude中途停止调用且无法解释如何恢复，遂放弃；未有日志，不确认是护栏、工具故障或上下文问题。 **[REA · 待验证]**
+- [Slotbound试玩版到手机仿品：白先生转述作者怀疑AI反编译，方法未证实](cases/slotbound-mobile-clones-ai-decompilation-allegation.md) — 白先生转述Slotbound作者认为抖音与微信仿品由AI反编译PC demo而来，含《斯洛托战记》；有具体目标与争议，但未获得原作者取证、代码或AI参与证明。 **[其他 AI 逆向 · 待验证]**
 - [Hellcats Over The Pacific：Matyo用Claude与Godot重建1991年Mac飞行游戏](cases/hellcats-matyo-claude-godot-macintosh-reconstruction.md) — Matyo报告ResEdit／Ghidra提取资源和68k逻辑，自己规划与核查、Claude Code生成C及GDScript，Godot版可在浏览器运行；原环境、原生及增强版仍有不同重建阶段。 **[其他 AI 逆向 · 进行中]**
 - [Flash游戏N：andai称反编译后让DeepSeek翻译，2美元换回可玩帧率](cases/n-flash-deepseek-javascript-webgl-port-report.md) — andai为2016年笔记本移植2004年的N，用DeepSeek把ActionScript与Flash绘图行为转为JavaScript／WebGL，称花2美元并加手柄；画面有差异，帧率未测。 **[其他 AI 逆向 · 待验证]**
 - [Revenant重建：旧源码对照1.22二进制，作者又建议先看新公开材料](cases/msw-revenant-1999-ai-rebuild-rea-source-alternative.md) — Michał S. Wasążnik此前报告Opus／Codex重建1999年Revenant；本帖推荐REA并指向Ben的公开源码作为少走逆向弯路的选择，不证明原项目曾用REA。 **[其他 AI 逆向 · 进行中]**
@@ -563,6 +566,9 @@
 
 ### 硬件与设备互通
 
+- [中兴路由器后台重做：Bob Shen用WorkBuddy研究静态绑定](cases/zte-router-workbuddy-hy4-static-binding-ui.md) — Bob Shen称用WorkBuddy的hy4逆向并重做中兴后台，把设备列表与静态绑定放到一起，避免换网关时反复手输IP；设备型号与实现未披露。 **[其他 AI 逆向 · 待验证]**
+- [让SNES显示NES画面：Kenta IDA把FPGA与PPU带宽问题交给Claude](cases/ciniml-claude-nes-on-snes-ppu-bandwidth-study.md) — Kenta IDA说已把NES／SNES互通设想交给Claude；父串讨论FPGA模拟与SNES图像处理器传输带宽，尚未验证能否覆盖目标分辨率和颜色。 **[其他 AI 逆向 · 进行中]**
+- [长虹电视跟小米盒子关机：dance与AI用HDMI信号丢失绕开CEC待机缺口](cases/dance-changhong-xiaomi-hdmi-standby-ai-workaround.md) — dance报告AI协作排查长虹不响应小米盒子CEC待机，改以HDMI失信号触发电视约3秒关机，并把被桌面遮住的HDMI画面拉回；仅一组设备测试。 **[其他 AI 逆向 · 待验证]**
 - [SignMaster割字机到Mac：氣球柯男称Claude研究驱动并补自动定位](cases/signmaster-balloonconan-claude-macos-vinyl-cutter.md) — 氣球柯男不满Windows版SignMaster，用Claude研究软件并提取驱动，报告在Mac控制割字机、加入远程与自动定位；设备型号、协议和实现未公开说明。 **[其他 AI 逆向 · 待验证]**
 - [电子烟每小时限次数：jac0xb.sol称Gemini重建Cortex-M4F的Wasm模拟器](cases/jacobdotsol-vape-gemini-cortex-m4f-wasm-rate-limiter.md) — jac0xb.sol研究自己的电子烟固件，报告模拟器用于滚动限吸入次数，回复把Cortex-M4F的Wasm模拟器重建归功Gemini 4 Neon；未证明刷回真机或健康效果。 **[其他 AI 逆向 · 进行中]**
 - [U-Boot、校准与固件合成：eastwood.net称AI接手旧设备刷写准备](cases/eastwoodnet-ai-uboot-calibration-firmware-rebuild-report.md) — eastwood.net把过去手工找U-Boot、提校准、改MAC和合成固件再用编程器刷写的流程交给AI，报告一句话后合成刷好；设备与模型未说明。 **[其他 AI 逆向 · 待验证]**
@@ -1293,6 +1299,10 @@
 
 ### 应用与客户端
 
+- [Antigravity地区限制研究被拒：迪丽热酒的Codex失败自述](cases/liushuaikobe-codex-antigravity-region-refusal.md) — 迪丽热酒在讨论Antigravity检测与T3 Code接入的串里，报告Codex拒绝逆向突破限制；未披露提示词、版本或补丁，不推导模型统一政策。 **[其他 AI 逆向 · 待验证]**
+- [Iran Laravel的网站重建服务：从公开页面推流程、表单与数据模型](cases/iran-laravel-ai-public-website-reconstruction-service.md) — 候选短链指向Iran Laravel服务页：AI与工程师分析参考网站的页面、表单及用户流，再以Laravel和波斯语CMS重建；未列已交付目标或对照测试。 **[其他 AI 逆向 · 相关项目]**
+- [notebooklm-py：把未公开Google接口接到Claude Code与Codex的技能](cases/notebooklm-py-undocumented-api-agent-skill-integration.md) — 候选介绍非官方Python／CLI及Agent技能，用逆向接口编排Gemini Notebook音视频与资料工作流；项目文档确认未公开API风险，16分钟录音与30秒摘要说法未核。 **[未确认使用 REA · 相关项目]**
+- [先研究SEO／GEO站点再改自己的：kongwen的Codex＋REA工作流](cases/codex-rea-seo-geo-reference-site-optimization.md) — kongwen称Codex调用REA研究市面SEO／GEO站点规则，再按所学优化自己的站点；没有公开域名、分析报告或排名与引用变化，效果未核。 **[REA · 待验证]**
 - [Beekeeper Studio CSV导出：REA重建末端90项匹配，上游规格仍有缺口](cases/saikumaresh-beekeeper-rea-csv-behavioral-parity-test.md) — Sai Kumaresh用四个隔离Agent研究Beekeeper Studio导出，报告18个边界用例及五方言90项字节匹配；整包分析失败，规格漏列可见列、5万行上限与过滤传递，非端到端等价。 **[REA · 分析测试]**
 - [Pixel 7a的原生Linux叫车应用：Theo Paris的Omarchy迁移与AI逆向idea](cases/theoparis-ridehailing-native-linux-omarchy-pixel7a-idea.md) — Theo Paris想在Pixel7a使用Omarchy Mobile，却依赖Uber／Lyft，认为原生Linux叫车适配可能需要大量AI逆向并涉及服务条款；没有开始开发的报告。 **[其他 AI 逆向 · 待验证]**
 - [Muse注册协议研究：Felix称自用skill让AI收集通信、调用栈并读混淆](cases/felix-muse-registration-protocol-ai-skill-report.md) — Felix以Muse注册协议为对象，介绍自用注册工具skill，称AI自动收集网络通信与调用栈并分析混淆、遥测、埋点；未审源码或核验注册成功。 **[其他 AI 逆向 · 待验证]**
@@ -2434,6 +2444,11 @@
 
 ### 算法与功能重建
 
+- [neuronvisuals火柴人画风：Claude按参考帧重建Python动画的教程转述](cases/neuronvisuals-postiz-claude-stick-animation-reconstruction.md) — S1哥转述Nevo David的教程：拆neuronvisuals的黑底双人对比、最后变黄等规则，让Claude写PIL动画并逐帧比较修改；批量渲染与传播数字均未重跑核算。 **[其他 AI 逆向 · 待验证]**
+- [《风起，城行》：GPT 6Pro参与哈尔移动城堡三维重建，Blender版仍有画风差异](cases/howls-moving-castle-gpt6pro-threejs-blender-reconstruction.md) — d!l3+ttant3报告把以哈尔城堡为参考的程序动画从Three.js转到Blender，渲约十小时并称60帧导出；仓库介绍为60秒1080p／24fps，规格不能混同。 **[其他 AI 逆向 · 待验证]**
+- [Shot Reader v2镜头反推：Heba AI指出B-25误称喷气机与手持摇晃漏检](cases/shot-reader-v2-heba-camera-motion-comparison.md) — Heba AI比较Shot Reader v2与Claude＋REA：首镜推近和CG风格判断被认可，但B-25被叫作jets，第13镜手持式摇晃被判静止；无公开输入或完整评测。 **[其他 AI 逆向 · 分析测试]**
+- [Promon的AI逆向实验：容器研究恶意软件，再用重复基准与红蓝迭代测加固](cases/promon-q42026-ai-mobile-protection-harness-benchmark.md) — Promon报告Claude Code／Codex容器harness研究Coretax等目标，并用四种方法评测保护、迭代加固；单目标每版五次的成本变化非普适安全保证，AI修补仍须人审。 **[其他 AI 逆向 · 分析测试]**
+- [REA Viral研究1661条独立创始人帖子：按作者自身基线拆格式而非承诺爆款](cases/rea-viral-igor-sanz-founder-post-format-analysis.md) — Igor Sanz用REA Viral比较1661条X帖子与创作者日常表现，报告列表格式等相对倍数；这是内容形式反推，不是恢复X推荐源码，样本与因果未独立核验。 **[其他 AI 逆向 · 分析测试]**
 - [X图片里的面碗越过栏杆：Grok Bot拆尺寸、切片与透明通道](cases/grokbot-x-transparent-panel-visual-effect-analysis.md) — Untethered_X称让Grok Bot研究人物突破图片边框的效果，识别736×882原图、五条竖切片与PNG透明栏杆，并交付ZIP；未复现平台排版。 **[其他 AI 逆向 · 待验证]**
 - [学习一个动态效果：李博比较三款模型的逆向完成与拒绝体验](cases/leeeboo-dynamic-effect-ai-model-comparison.md) — 李博称为理解动态效果实现做逆向，同问题中GPT 6.2 SOL部分完成且偶有拒绝，GPT 6.0 SOL和Opus 5.5则主观评为100%完成；没有参考或对照工件。 **[其他 AI 逆向 · 待验证]**
 - [私有公式的黑盒恢复：DarkFlare称Fable 5.2达到0.99贴合，指标未定义](cases/darkflare-fable-private-formula-reconstruction.md) — DarkFlare称用Fable 5.2恢复多未知输入的私有公式，得到0.99 accuracy，此前手工尝试四年；未披露公式领域、样本或指标，不等于99%独立验证。 **[其他 AI 逆向 · 待验证]**

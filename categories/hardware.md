@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [中兴路由器后台重做：Bob Shen用WorkBuddy研究静态绑定](../cases/zte-router-workbuddy-hy4-static-binding-ui.md) — Bob Shen称用WorkBuddy的hy4逆向并重做中兴后台，把设备列表与静态绑定放到一起，避免换网关时反复手输IP；设备型号与实现未披露。 **[其他 AI 逆向 · 待验证]**
+- [让SNES显示NES画面：Kenta IDA把FPGA与PPU带宽问题交给Claude](../cases/ciniml-claude-nes-on-snes-ppu-bandwidth-study.md) — Kenta IDA说已把NES／SNES互通设想交给Claude；父串讨论FPGA模拟与SNES图像处理器传输带宽，尚未验证能否覆盖目标分辨率和颜色。 **[其他 AI 逆向 · 进行中]**
+- [长虹电视跟小米盒子关机：dance与AI用HDMI信号丢失绕开CEC待机缺口](../cases/dance-changhong-xiaomi-hdmi-standby-ai-workaround.md) — dance报告AI协作排查长虹不响应小米盒子CEC待机，改以HDMI失信号触发电视约3秒关机，并把被桌面遮住的HDMI画面拉回；仅一组设备测试。 **[其他 AI 逆向 · 待验证]**
 - [SignMaster割字机到Mac：氣球柯男称Claude研究驱动并补自动定位](../cases/signmaster-balloonconan-claude-macos-vinyl-cutter.md) — 氣球柯男不满Windows版SignMaster，用Claude研究软件并提取驱动，报告在Mac控制割字机、加入远程与自动定位；设备型号、协议和实现未公开说明。 **[其他 AI 逆向 · 待验证]**
 - [电子烟每小时限次数：jac0xb.sol称Gemini重建Cortex-M4F的Wasm模拟器](../cases/jacobdotsol-vape-gemini-cortex-m4f-wasm-rate-limiter.md) — jac0xb.sol研究自己的电子烟固件，报告模拟器用于滚动限吸入次数，回复把Cortex-M4F的Wasm模拟器重建归功Gemini 4 Neon；未证明刷回真机或健康效果。 **[其他 AI 逆向 · 进行中]**
 - [U-Boot、校准与固件合成：eastwood.net称AI接手旧设备刷写准备](../cases/eastwoodnet-ai-uboot-calibration-firmware-rebuild-report.md) — eastwood.net把过去手工找U-Boot、提校准、改MAC和合成固件再用编程器刷写的流程交给AI，报告一句话后合成刷好；设备与模型未说明。 **[其他 AI 逆向 · 待验证]**
