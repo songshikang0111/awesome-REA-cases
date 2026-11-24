@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [echo-dot-assist：Claude参与替换Alexa，保留旧Echo的麦克风与唤醒](../cases/echo-dot-assist-claude-hassmic-home-assistant.md) — Julian Imhof的hassmic将旧Echo接入Home Assistant，保留原音频前端；README明确Claude参与、每型号仅一台测试且未经审计，解锁利用来自R0rt1z2。 **[其他 AI 逆向 · 进行中]**
 - [把稍后读送到Xteink X4：Rafael称Fable改固件并接三款Agent的MCP](../cases/rafael-xteink-x4-fable-mcp-reading-transfer.md) — Rafael Quintanilha称借Fable更新Xteink X4固件，从Grok Bot、Claude与Codex经MCP发送书籍、文章和推文；接口、格式与真机结果未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [1998年的LightLink重新亮起：Claude读旧固件与电路图，人类换控制器并纠线](../cases/larry-pesce-lightlink-1998-claude-controller-revival.md) — Larry Pesce借Claude研究旧LightLink显示板，以ESP8266替换封闭控制器；作者报告面包板实机成功，KiCad新板仅通过DRC，尚未制造。 **[其他 AI 逆向 · 待验证]**
 - [街边监控变iPhone实时游戏：Sherman称Gemini研究底层并做车辆特效](../cases/sherman-gemini-street-camera-iphone-game.md) — Sherman称低层研究自家街道监控摄像头，Gemini 4 Neon写出iPhone游戏，在真实车流上擦除并爆破车辆；120fps与零延迟未测。 **[其他 AI 逆向 · 待验证]**

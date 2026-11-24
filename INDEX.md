@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2729 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2738 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（531）
-- [硬件与设备互通](categories/hardware.md)（719）
-- [应用与客户端](categories/apps.md)（1130）
-- [算法与功能重建](categories/algorithms.md)（349）
+- [游戏与游戏保存](categories/games.md)（533）
+- [硬件与设备互通](categories/hardware.md)（720）
+- [应用与客户端](categories/apps.md)（1135）
+- [算法与功能重建](categories/algorithms.md)（350）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Flash游戏N：andai称反编译后让DeepSeek翻译，2美元换回可玩帧率](cases/n-flash-deepseek-javascript-webgl-port-report.md) — andai为2016年笔记本移植2004年的N，用DeepSeek把ActionScript与Flash绘图行为转为JavaScript／WebGL，称花2美元并加手柄；画面有差异，帧率未测。 **[其他 AI 逆向 · 待验证]**
+- [Revenant重建：旧源码对照1.22二进制，作者又建议先看新公开材料](cases/msw-revenant-1999-ai-rebuild-rea-source-alternative.md) — Michał S. Wasążnik此前报告Opus／Codex重建1999年Revenant；本帖推荐REA并指向Ben的公开源码作为少走逆向弯路的选择，不证明原项目曾用REA。 **[其他 AI 逆向 · 进行中]**
 - [F6面板不是全解锁：Astra6.2离线格斗Mod的目标偷换与失败自述](cases/felix-astra-offline-fighting-game-mod-goal-drift.md) — felixcheugew称要求本地对电脑时任选服装与技能，Astra却交临时外观面板并宣称完成；衣柜仍2/40，2485条资源不等于全部可用。 **[其他 AI 逆向 · 进行中]**
 - [GTA×REA三模型测试：Taelo Kim的日常工作流比较，逆向成绩尚未披露](cases/taelo-kim-gta-rea-three-model-workflow-test.md) — Taelo Kim称录下五项日常工作比较，含GTA×REA三模型测试；父串谈Gemini Neon与Claude取舍，但未给该逆向子测试的目标版本、第三模型或结果。 **[REA · 分析测试]**
 - [Racing Lagoon：从手拼23份地图截图，到AI读游戏数据的建议](cases/racing-lagoon-ai-data-export-idea.md) — Tim Soret建议Codex／Claude解Racing Lagoon数据并导入Three.js或Blender；另一读者希望AI重建PS2级画面。均为idea，原演示实际是手工拼图。 **[其他 AI 逆向 · 待验证]**
@@ -33,7 +35,7 @@
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
-- [Leonida的GTA VI原生运行时：Claude署名参与，但项目明确游戏尚不能启动](cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox Series版GTA VI的系统兼容层、RDNA2到SPIR-V与资产工具；固定README明确不能启动，Claude署名提交存在，不代表多数PR或完整游戏已验收。 **[其他 AI 逆向 · 进行中]**
+- [Leonida的GTA VI原生运行时：旧文档不能启动，新设置界面说法仍未核验](cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层与着色器翻译。11月23日固定文档称不能启动；24日sideways转述进入设置但仍不可游玩，未获一手日志，保留进行中。 **[其他 AI 逆向 · 进行中]**
 - [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**
@@ -560,6 +562,7 @@
 
 ### 硬件与设备互通
 
+- [echo-dot-assist：Claude参与替换Alexa，保留旧Echo的麦克风与唤醒](cases/echo-dot-assist-claude-hassmic-home-assistant.md) — Julian Imhof的hassmic将旧Echo接入Home Assistant，保留原音频前端；README明确Claude参与、每型号仅一台测试且未经审计，解锁利用来自R0rt1z2。 **[其他 AI 逆向 · 进行中]**
 - [把稍后读送到Xteink X4：Rafael称Fable改固件并接三款Agent的MCP](cases/rafael-xteink-x4-fable-mcp-reading-transfer.md) — Rafael Quintanilha称借Fable更新Xteink X4固件，从Grok Bot、Claude与Codex经MCP发送书籍、文章和推文；接口、格式与真机结果未独立核验。 **[其他 AI 逆向 · 待验证]**
 - [1998年的LightLink重新亮起：Claude读旧固件与电路图，人类换控制器并纠线](cases/larry-pesce-lightlink-1998-claude-controller-revival.md) — Larry Pesce借Claude研究旧LightLink显示板，以ESP8266替换封闭控制器；作者报告面包板实机成功，KiCad新板仅通过DRC，尚未制造。 **[其他 AI 逆向 · 待验证]**
 - [街边监控变iPhone实时游戏：Sherman称Gemini研究底层并做车辆特效](cases/sherman-gemini-street-camera-iphone-game.md) — Sherman称低层研究自家街道监控摄像头，Gemini 4 Neon写出iPhone游戏，在真实车流上擦除并爆破车辆；120fps与零延迟未测。 **[其他 AI 逆向 · 待验证]**
@@ -1282,6 +1285,11 @@
 
 ### 应用与客户端
 
+- [旧QBasic音序器与Buzz文件：Tristram想让Claude找回自己的音乐](cases/qbasic-sequencer-claude-personal-music-recovery-idea.md) — Tristram翻旧硬盘没找到高中MIDI作品，只剩自己写的QBasic音序器exe与Buzz bmx文件，提出用Claude反编译的恢复idea，未报告执行。 **[其他 AI 逆向 · 待验证]**
+- [Netflix让IntelliJ索引服务Agent：减少JAR反编译后的盲目文本搜索](cases/netflix-intellij-headless-java-agent-navigation-report.md) — eltc9584转述Netflix给Claude Code／Codex接无界面IntelliJ索引daemon与CLI，研究Java依赖；20—30%与最佳约65%效率改善为二手基准快照，非独立复测。 **[其他 AI 逆向 · 分析测试]**
+- [WorkBuddy与hy4Flash接管Chrome：作者称逆向接口并尝试定时发帖](cases/workbuddy-hy4flash-chrome-posting-interface-research.md) — 0xfoxai报告两小时WorkBuddy＋hy4Flash体验：接管Chrome、研究发帖接口、遇坑调整方案；未说明平台、接口或实际发帖验证。 **[其他 AI 逆向 · 待验证]**
+- [重做Claude Projects记忆与主动性：raroque的周末实验仍不够好](cases/t3-claude-projects-memory-proactivity-weekend-rebuild.md) — raroque从T3 Code裁剪转为重写协调器／线程系统，借他人逆向Claude Projects的材料降复杂度；承认不如原版、无发布计划，模型贡献与REA未说明。 **[未确认使用 REA · 进行中]**
+- [ARTEX研究自有Juice Shop：DeepSeek报10条finding，范围门控仍需网络隔离](cases/artex-deepseek-juice-shop-scope-evidence-lab-test.md) — pingfengjj报告ARTEX＋deepseek-v4-pro在自有Juice Shop约27分钟给出10条finding，但存在重复且默认无流量录制；读源码发现target gate不约束Bash扫描器。 **[其他 AI 逆向 · 分析测试]**
 - [Ollama黑盒重建：MultiMax.ai称Ghidra与REA让编码任务快1.48倍](cases/ollama-ghidra-rea-black-box-rebuild-report.md) — MultiMax.ai报告用Ghidra／REA黑盒研究Ollama并重建，声称编码任务1.48倍快；未给版本、改动、模型或基准，不能当已测性能。 **[REA · 待验证]**
 - [为X编辑做的Bloomberg式终端：Arron Knight用Hermes找、查、评分，自己写](cases/arron-knight-hermes-x-editorial-research-terminal.md) — Arron Knight称Hermes在本机筛新闻、核前三条来源，再把稿件与14000帖中的50个近邻比较；Bloomberg是用途类比，不是恢复其专有协议。 **[其他 AI 逆向 · 待验证]**
 - [Grok Bot、Muse与Instinct的比较拆解：sarah讲记忆、主动性和Agent自己的电脑](cases/sarah-agent-memory-proactivity-comparative-teardown.md) — sarah以一支比较教学视频自称研究多款个人Agent，列记忆、dreaming、iMessage及浏览器接入；未取得机制说明或独立重建验证。 **[未确认使用 REA · 待验证]**
@@ -2415,6 +2423,7 @@
 
 ### 算法与功能重建
 
+- [X图片里的面碗越过栏杆：Grok Bot拆尺寸、切片与透明通道](cases/grokbot-x-transparent-panel-visual-effect-analysis.md) — Untethered_X称让Grok Bot研究人物突破图片边框的效果，识别736×882原图、五条竖切片与PNG透明栏杆，并交付ZIP；未复现平台排版。 **[其他 AI 逆向 · 待验证]**
 - [学习一个动态效果：李博比较三款模型的逆向完成与拒绝体验](cases/leeeboo-dynamic-effect-ai-model-comparison.md) — 李博称为理解动态效果实现做逆向，同问题中GPT 6.2 SOL部分完成且偶有拒绝，GPT 6.0 SOL和Opus 5.5则主观评为100%完成；没有参考或对照工件。 **[其他 AI 逆向 · 待验证]**
 - [私有公式的黑盒恢复：DarkFlare称Fable 5.2达到0.99贴合，指标未定义](cases/darkflare-fable-private-formula-reconstruction.md) — DarkFlare称用Fable 5.2恢复多未知输入的私有公式，得到0.99 accuracy，此前手工尝试四年；未披露公式领域、样本或指标，不等于99%独立验证。 **[其他 AI 逆向 · 待验证]**
 - [反推环境感知动态字幕：Pradeep Kapoor给编程Agent的两级提示指南](cases/pradeep-kapoor-dynamic-captions-agent-reconstruction.md) — Pradeep Kapoor称逆向研究短视频里会移动、呼应环境的字幕，用编程Agent重做；提供简短与全流程提示及免版税素材样例，效果未复跑。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [旧QBasic音序器与Buzz文件：Tristram想让Claude找回自己的音乐](../cases/qbasic-sequencer-claude-personal-music-recovery-idea.md) — Tristram翻旧硬盘没找到高中MIDI作品，只剩自己写的QBasic音序器exe与Buzz bmx文件，提出用Claude反编译的恢复idea，未报告执行。 **[其他 AI 逆向 · 待验证]**
+- [Netflix让IntelliJ索引服务Agent：减少JAR反编译后的盲目文本搜索](../cases/netflix-intellij-headless-java-agent-navigation-report.md) — eltc9584转述Netflix给Claude Code／Codex接无界面IntelliJ索引daemon与CLI，研究Java依赖；20—30%与最佳约65%效率改善为二手基准快照，非独立复测。 **[其他 AI 逆向 · 分析测试]**
+- [WorkBuddy与hy4Flash接管Chrome：作者称逆向接口并尝试定时发帖](../cases/workbuddy-hy4flash-chrome-posting-interface-research.md) — 0xfoxai报告两小时WorkBuddy＋hy4Flash体验：接管Chrome、研究发帖接口、遇坑调整方案；未说明平台、接口或实际发帖验证。 **[其他 AI 逆向 · 待验证]**
+- [重做Claude Projects记忆与主动性：raroque的周末实验仍不够好](../cases/t3-claude-projects-memory-proactivity-weekend-rebuild.md) — raroque从T3 Code裁剪转为重写协调器／线程系统，借他人逆向Claude Projects的材料降复杂度；承认不如原版、无发布计划，模型贡献与REA未说明。 **[未确认使用 REA · 进行中]**
+- [ARTEX研究自有Juice Shop：DeepSeek报10条finding，范围门控仍需网络隔离](../cases/artex-deepseek-juice-shop-scope-evidence-lab-test.md) — pingfengjj报告ARTEX＋deepseek-v4-pro在自有Juice Shop约27分钟给出10条finding，但存在重复且默认无流量录制；读源码发现target gate不约束Bash扫描器。 **[其他 AI 逆向 · 分析测试]**
 - [Ollama黑盒重建：MultiMax.ai称Ghidra与REA让编码任务快1.48倍](../cases/ollama-ghidra-rea-black-box-rebuild-report.md) — MultiMax.ai报告用Ghidra／REA黑盒研究Ollama并重建，声称编码任务1.48倍快；未给版本、改动、模型或基准，不能当已测性能。 **[REA · 待验证]**
 - [为X编辑做的Bloomberg式终端：Arron Knight用Hermes找、查、评分，自己写](../cases/arron-knight-hermes-x-editorial-research-terminal.md) — Arron Knight称Hermes在本机筛新闻、核前三条来源，再把稿件与14000帖中的50个近邻比较；Bloomberg是用途类比，不是恢复其专有协议。 **[其他 AI 逆向 · 待验证]**
 - [Grok Bot、Muse与Instinct的比较拆解：sarah讲记忆、主动性和Agent自己的电脑](../cases/sarah-agent-memory-proactivity-comparative-teardown.md) — sarah以一支比较教学视频自称研究多款个人Agent，列记忆、dreaming、iMessage及浏览器接入；未取得机制说明或独立重建验证。 **[未确认使用 REA · 待验证]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Flash游戏N：andai称反编译后让DeepSeek翻译，2美元换回可玩帧率](../cases/n-flash-deepseek-javascript-webgl-port-report.md) — andai为2016年笔记本移植2004年的N，用DeepSeek把ActionScript与Flash绘图行为转为JavaScript／WebGL，称花2美元并加手柄；画面有差异，帧率未测。 **[其他 AI 逆向 · 待验证]**
+- [Revenant重建：旧源码对照1.22二进制，作者又建议先看新公开材料](../cases/msw-revenant-1999-ai-rebuild-rea-source-alternative.md) — Michał S. Wasążnik此前报告Opus／Codex重建1999年Revenant；本帖推荐REA并指向Ben的公开源码作为少走逆向弯路的选择，不证明原项目曾用REA。 **[其他 AI 逆向 · 进行中]**
 - [F6面板不是全解锁：Astra6.2离线格斗Mod的目标偷换与失败自述](../cases/felix-astra-offline-fighting-game-mod-goal-drift.md) — felixcheugew称要求本地对电脑时任选服装与技能，Astra却交临时外观面板并宣称完成；衣柜仍2/40，2485条资源不等于全部可用。 **[其他 AI 逆向 · 进行中]**
 - [GTA×REA三模型测试：Taelo Kim的日常工作流比较，逆向成绩尚未披露](../cases/taelo-kim-gta-rea-three-model-workflow-test.md) — Taelo Kim称录下五项日常工作比较，含GTA×REA三模型测试；父串谈Gemini Neon与Claude取舍，但未给该逆向子测试的目标版本、第三模型或结果。 **[REA · 分析测试]**
 - [Racing Lagoon：从手拼23份地图截图，到AI读游戏数据的建议](../cases/racing-lagoon-ai-data-export-idea.md) — Tim Soret建议Codex／Claude解Racing Lagoon数据并导入Three.js或Blender；另一读者希望AI重建PS2级画面。均为idea，原演示实际是手工拼图。 **[其他 AI 逆向 · 待验证]**
@@ -9,7 +11,7 @@
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](../cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](../cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](../cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
-- [Leonida的GTA VI原生运行时：Claude署名参与，但项目明确游戏尚不能启动](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox Series版GTA VI的系统兼容层、RDNA2到SPIR-V与资产工具；固定README明确不能启动，Claude署名提交存在，不代表多数PR或完整游戏已验收。 **[其他 AI 逆向 · 进行中]**
+- [Leonida的GTA VI原生运行时：旧文档不能启动，新设置界面说法仍未核验](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层与着色器翻译。11月23日固定文档称不能启动；24日sideways转述进入设置但仍不可游玩，未获一手日志，保留进行中。 **[其他 AI 逆向 · 进行中]**
 - [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](../cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](../cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](../cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [X图片里的面碗越过栏杆：Grok Bot拆尺寸、切片与透明通道](../cases/grokbot-x-transparent-panel-visual-effect-analysis.md) — Untethered_X称让Grok Bot研究人物突破图片边框的效果，识别736×882原图、五条竖切片与PNG透明栏杆，并交付ZIP；未复现平台排版。 **[其他 AI 逆向 · 待验证]**
 - [学习一个动态效果：李博比较三款模型的逆向完成与拒绝体验](../cases/leeeboo-dynamic-effect-ai-model-comparison.md) — 李博称为理解动态效果实现做逆向，同问题中GPT 6.2 SOL部分完成且偶有拒绝，GPT 6.0 SOL和Opus 5.5则主观评为100%完成；没有参考或对照工件。 **[其他 AI 逆向 · 待验证]**
 - [私有公式的黑盒恢复：DarkFlare称Fable 5.2达到0.99贴合，指标未定义](../cases/darkflare-fable-private-formula-reconstruction.md) — DarkFlare称用Fable 5.2恢复多未知输入的私有公式，得到0.99 accuracy，此前手工尝试四年；未披露公式领域、样本或指标，不等于99%独立验证。 **[其他 AI 逆向 · 待验证]**
 - [反推环境感知动态字幕：Pradeep Kapoor给编程Agent的两级提示指南](../cases/pradeep-kapoor-dynamic-captions-agent-reconstruction.md) — Pradeep Kapoor称逆向研究短视频里会移动、呼应环境的字幕，用编程Agent重做；提供简短与全流程提示及免版税素材样例，效果未复跑。 **[其他 AI 逆向 · 待验证]**
