@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [gflow-cli接AI助手使用Flow积分：私有接口研究与真实浏览器限制](../cases/gflow-cli-flow-private-api-agent-integration.md) — Leonard.AI介绍ffroliva/gflow-cli的CLI／MCP生成媒体路线；补读README纠正纯接口直调印象：默认真实Chrome加Playwright，纯HTTP视频仍受验证码阻碍。 **[未确认使用 REA · 相关项目]**
+- [AI逆向系统架构受阻：sin遇到Nacos与生产数据库配置权限](../cases/sin-ai-architecture-nacos-db-config-boundary.md) — sin报告用AI研究系统架构时，配置在Nacos与生产数据库中、权限难取得；没有系统名、模型或恢复成果，保留配置不可见的实际边界。 **[其他 AI 逆向 · 进行中]**
 - [MS-DOS的65xxx交叉汇编器到Go：koitsu称Claude移植时发现旧bug](../cases/koitsu-dos-65xxx-assembler-claude-go-port.md) — koitsu称用Claude Code、常用Opus 5.5研究90年代软件，把旧MS-DOS 65xxx交叉汇编器移植Go并发现原版很多bug；没有汇编器名称或输出对照。 **[其他 AI 逆向 · 待验证]**
 - [重读约1993年自己的代码：koitsu用Claude逆向demogroup旧作](../cases/koitsu-1993-demogroup-code-claude-recovery.md) — koitsu称让Claude逆向自己约1993年的代码，还能从反汇编辨出自己与搭档Brian的段落；未给程序名称或恢复结果。 **[其他 AI 逆向 · 待验证]**
 - [NAM A2 amp JI：rrr00bb称Claude需求建模、LeanFM研究后从Rust移到Zig](../cases/rrr00bb-nam-a2-leanfm-rust-zig-reconstruction.md) — rrr00bb称在Claude Desktop内用MCP写需求再生成Rust应用，以LeanFM逆向后移植Zig；目标名照写NAM A2 amp JI，未核功能或等价性。 **[其他 AI 逆向 · 待验证]**
@@ -75,7 +77,7 @@
 - [RhinoAI：让Claude／Codex研究已有几何并编辑Grasshopper定义的转述](../cases/rhinoai-mcp-existing-geometry-grasshopper-report.md) — Marko称RhinoAI通过MCP让Agent操作几何、插件与Grasshopper图，演示含草图到参数模型和已有几何逆向；未核发布版本或几何准确率。 **[其他 AI 逆向 · 相关项目]**
 - [人在园艺，Claude做反编译：Markov的低细节进行中自述](../cases/markov-claude-decompilation-optimization-gardening-report.md) — Markov说当天自己园艺时让Claude Code做反编译和优化；未指明软件、结果或测试，不与其他项目合并。 **[其他 AI 逆向 · 进行中]**
 - [三层视差动态壁纸：Claude提示重建Android倾斜效果，而非APK破解](../cases/android-parallax-wallpaper-claude-behavior-recreation-idea.md) — 帖子给Claude写Kotlin WallpaperService的具体提示，三图层按倾斜反向移动、低通平滑与呼吸光效；只是公开API的行为复建方向，未展示运行。 **[其他 AI 逆向 · 待验证]**
-- [CLI-Anything：分析软件源码，为Agent生成命令行操作层](../cases/cli-anything-source-analysis-agent-cli-pipeline.md) — 中文帖子介绍HKUDS CLI-Anything从源码分析到Click CLI、测试与SKILL.md的七步流程，供Agent调用真实软件后端；测试数量与兼容范围为转述。 **[其他 AI 逆向 · 相关项目]**
+- [CLI-Anything：从源码生成Agent命令行层，补充运行与遥测边界](../cases/cli-anything-source-analysis-agent-cli-pipeline.md) — HKUDS CLI-Anything用AI分析源码、生成操作真实后端的CLI；Felix补述源码、本机应用、强模型和refine前提，以及PostHog关闭选项，明确未亲测。 **[其他 AI 逆向 · 相关项目]**
 - [六种Ghidra MCP比较：whyamas按连接、安装与许可选择Agent入口](../cases/six-ghidra-mcp-servers-comparison-guide.md) — whyamas称比较六种Ghidra MCP服务，建议GhidraMCP快速接Claude Code、pyghidra-mcp或ReVa做无头分析、REA处理非原生目标；未读完整对照文或安装验证。 **[未确认使用 REA · 相关项目]**
 - [Bridge Anything：用REA映射无API旧软件的数据，再做REST／MCP／CLI桥接](../cases/bridge-anything-rea-legacy-data-adapters.md) — Viho.AI介绍Artesiana的bridge-anything技能：授权安装副本上找数据、单次操作差分并对照界面，再建薄适配层；公开README支持流程设计，未验证实际客户桥接。 **[REA · 相关项目]**
 - [DeepSeek Flash绕圈四小时：梦报告逆向仍需人工纠偏](../cases/deepseek-flash-four-hour-reversing-loop-report.md) — 梦称DeepSeek Flash逆向时绕圈四小时，随后自己纠偏；没有给目标名或纠偏后成功结果，保留受阻实验。 **[其他 AI 逆向 · 分析测试]**

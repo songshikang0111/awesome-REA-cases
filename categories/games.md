@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](../cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍rea-games，称Claude重建2048、Chrome Dino与Canvas Bird；补充2048变异测试和Dino录制帧数，只有作者报告，不等于任意游戏等价证明。 **[未确认使用 REA · 待验证]**
+- [Project Stardust：Super Stardust HD的AI辅助PS3到PC静态重编译alpha](../cases/project-stardust-super-stardust-hd-ai-recompilation.md) — The Gaming Emporium转述thelastant的v0.1.0-alpha.2：PowerPC／SPU转C、Vulkan运行时，开发中已游玩但约三分钟冻结，未验证通关或画面准确。 **[未确认使用 REA · 进行中]**
+- [把Link放进King of Dragons：Ghidra与LLM的不到20分钟改模自述](../cases/king-of-dragons-link-ghidra-llm-mod.md) — Lmaoist Manlord称用Ghidra和LLM把Link加入King of Dragons，从想法到游玩少于20分钟；没有模型名、补丁或游戏版本。 **[其他 AI 逆向 · 待验证]**
 - [Angry Birds Reloaded反编译：Milk-San向Claude Code提出的玩笑式idea](../cases/angry-birds-reloaded-claude-decompilation-idea.md) — Milk-San希望Claude Code反编译Angry Birds Reloaded，只有一句请求；没有开始执行、源码恢复或移植证据。 **[其他 AI 逆向 · 待验证]**
 - [炉石卡牌效果与状态重建：fountain__relay称模拟Claude对Chat](../cases/hearthstone-card-effects-ai-state-simulation-report.md) — fountain__relay称建了逆向《炉石传说》卡牌效果、追踪游戏状态的架构，能模拟当前环境Claude对Chat；没有引擎、卡牌覆盖或对局记录。 **[其他 AI 逆向 · 待验证]**
 - [城市二进制与8路Worker：Rayan转述REA映射并建议双模型路由](../cases/rayan-city-binary-rea-multimodel-routing-report.md) — Rayan称Claude Code／REA让8个Worker映射城市二进制、142座塔和调用图，并提Grok／Fable分工；没有游戏版本、日志或性能证据，价格例子不当实付。 **[REA · 待验证]**
@@ -18,7 +21,7 @@
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](../cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](../cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](../cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
-- [Leonida的GTA VI运行时：旧启动限制与新增协作量、下架转述](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层；新增70小时协作量、图形初始化与中止／DMCA转述均未核一手，旧不能启动与设置界面报告分层保留，不认证可玩。 **[其他 AI 逆向 · 进行中]**
+- [Leonida的GTA VI运行时：启动、下架与仍在开发的冲突报告](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层；Gabe新增无法启动、缺主exe且仓库仍活跃的纠错说法，与旧设置界面和中止转述冲突，未得一手当前记录，不认证可玩或下架结论。 **[其他 AI 逆向 · 进行中]**
 - [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](../cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](../cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](../cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**

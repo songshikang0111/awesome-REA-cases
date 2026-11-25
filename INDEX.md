@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2796 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2805 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（540）
-- [硬件与设备互通](categories/hardware.md)（737）
-- [应用与客户端](categories/apps.md)（1159）
-- [算法与功能重建](categories/algorithms.md)（360）
+- [游戏与游戏保存](categories/games.md)（543）
+- [硬件与设备互通](categories/hardware.md)（739）
+- [应用与客户端](categories/apps.md)（1161）
+- [算法与功能重建](categories/algorithms.md)（362）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍rea-games，称Claude重建2048、Chrome Dino与Canvas Bird；补充2048变异测试和Dino录制帧数，只有作者报告，不等于任意游戏等价证明。 **[未确认使用 REA · 待验证]**
+- [Project Stardust：Super Stardust HD的AI辅助PS3到PC静态重编译alpha](cases/project-stardust-super-stardust-hd-ai-recompilation.md) — The Gaming Emporium转述thelastant的v0.1.0-alpha.2：PowerPC／SPU转C、Vulkan运行时，开发中已游玩但约三分钟冻结，未验证通关或画面准确。 **[未确认使用 REA · 进行中]**
+- [把Link放进King of Dragons：Ghidra与LLM的不到20分钟改模自述](cases/king-of-dragons-link-ghidra-llm-mod.md) — Lmaoist Manlord称用Ghidra和LLM把Link加入King of Dragons，从想法到游玩少于20分钟；没有模型名、补丁或游戏版本。 **[其他 AI 逆向 · 待验证]**
 - [Angry Birds Reloaded反编译：Milk-San向Claude Code提出的玩笑式idea](cases/angry-birds-reloaded-claude-decompilation-idea.md) — Milk-San希望Claude Code反编译Angry Birds Reloaded，只有一句请求；没有开始执行、源码恢复或移植证据。 **[其他 AI 逆向 · 待验证]**
 - [炉石卡牌效果与状态重建：fountain__relay称模拟Claude对Chat](cases/hearthstone-card-effects-ai-state-simulation-report.md) — fountain__relay称建了逆向《炉石传说》卡牌效果、追踪游戏状态的架构，能模拟当前环境Claude对Chat；没有引擎、卡牌覆盖或对局记录。 **[其他 AI 逆向 · 待验证]**
 - [城市二进制与8路Worker：Rayan转述REA映射并建议双模型路由](cases/rayan-city-binary-rea-multimodel-routing-report.md) — Rayan称Claude Code／REA让8个Worker映射城市二进制、142座塔和调用图，并提Grok／Fable分工；没有游戏版本、日志或性能证据，价格例子不当实付。 **[REA · 待验证]**
@@ -42,7 +45,7 @@
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
-- [Leonida的GTA VI运行时：旧启动限制与新增协作量、下架转述](cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层；新增70小时协作量、图形初始化与中止／DMCA转述均未核一手，旧不能启动与设置界面报告分层保留，不认证可玩。 **[其他 AI 逆向 · 进行中]**
+- [Leonida的GTA VI运行时：启动、下架与仍在开发的冲突报告](cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层；Gabe新增无法启动、缺主exe且仓库仍活跃的纠错说法，与旧设置界面和中止转述冲突，未得一手当前记录，不认证可玩或下架结论。 **[其他 AI 逆向 · 进行中]**
 - [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**
@@ -569,6 +572,8 @@
 
 ### 硬件与设备互通
 
+- [骁龙笔记本跑macOS 27：lifcc转述Ghidra与Coding Agent移植](cases/lifcc-snapdragon-macos27-agent-port-report.md) — lifcc把骁龙笔记本上的macOS 27运行归于Ghidra反编译上下文加Coding Agent，只有二手短述，未给设备型号、原作者或启动日志。 **[其他 AI 逆向 · 待验证]**
+- [RK3588与Mali跑macOS 27.2 Beta：lifcc的Agent移植二手报告](cases/lifcc-rk3588-macos272-mali-agent-port-report.md) — lifcc称玩家以Ghidra上下文加Coding Agent，在RK3588开发板配Mali驱动跑通macOS 27.2 Beta；未见具体补丁、板卡型号或图形验证。 **[其他 AI 逆向 · 待验证]**
 - [自有电熏炉研究：Jason Short称Claude正在逆向](cases/jason-short-claude-electric-smoker-study.md) — Jason Short称Claude正在逆向自己的电熏炉，对进展满意；未给品牌、协议、固件或控制成果。 **[其他 AI 逆向 · 进行中]**
 - [DJI离线登录困扰：Punished Dan提出用Claude Code逆向后自制固件的idea](cases/dji-offline-login-claude-replacement-firmware-idea.md) — 针对DJI无人机离线时被注销及区域提示的抱怨，Punished Dan建议借Claude Code逆向并自制固件；只是读者愿望，没有型号、实现或飞行验证。 **[其他 AI 逆向 · 待验证]**
 - [便携盖革计数器克隆版：Guilhem称Codex重做中文固件](cases/geiger-counter-clone-codex-firmware-rebuild.md) — Guilhem Lettron买的便携盖革计数器带中文固件，虽有开源替代但自己的型号是克隆版，称Codex为其重做全部固件；刷写与计量未核验。 **[其他 AI 逆向 · 待验证]**
@@ -1309,6 +1314,8 @@
 
 ### 应用与客户端
 
+- [gflow-cli接AI助手使用Flow积分：私有接口研究与真实浏览器限制](cases/gflow-cli-flow-private-api-agent-integration.md) — Leonard.AI介绍ffroliva/gflow-cli的CLI／MCP生成媒体路线；补读README纠正纯接口直调印象：默认真实Chrome加Playwright，纯HTTP视频仍受验证码阻碍。 **[未确认使用 REA · 相关项目]**
+- [AI逆向系统架构受阻：sin遇到Nacos与生产数据库配置权限](cases/sin-ai-architecture-nacos-db-config-boundary.md) — sin报告用AI研究系统架构时，配置在Nacos与生产数据库中、权限难取得；没有系统名、模型或恢复成果，保留配置不可见的实际边界。 **[其他 AI 逆向 · 进行中]**
 - [MS-DOS的65xxx交叉汇编器到Go：koitsu称Claude移植时发现旧bug](cases/koitsu-dos-65xxx-assembler-claude-go-port.md) — koitsu称用Claude Code、常用Opus 5.5研究90年代软件，把旧MS-DOS 65xxx交叉汇编器移植Go并发现原版很多bug；没有汇编器名称或输出对照。 **[其他 AI 逆向 · 待验证]**
 - [重读约1993年自己的代码：koitsu用Claude逆向demogroup旧作](cases/koitsu-1993-demogroup-code-claude-recovery.md) — koitsu称让Claude逆向自己约1993年的代码，还能从反汇编辨出自己与搭档Brian的段落；未给程序名称或恢复结果。 **[其他 AI 逆向 · 待验证]**
 - [NAM A2 amp JI：rrr00bb称Claude需求建模、LeanFM研究后从Rust移到Zig](cases/rrr00bb-nam-a2-leanfm-rust-zig-reconstruction.md) — rrr00bb称在Claude Desktop内用MCP写需求再生成Rust应用，以LeanFM逆向后移植Zig；目标名照写NAM A2 amp JI，未核功能或等价性。 **[其他 AI 逆向 · 待验证]**
@@ -1382,7 +1389,7 @@
 - [RhinoAI：让Claude／Codex研究已有几何并编辑Grasshopper定义的转述](cases/rhinoai-mcp-existing-geometry-grasshopper-report.md) — Marko称RhinoAI通过MCP让Agent操作几何、插件与Grasshopper图，演示含草图到参数模型和已有几何逆向；未核发布版本或几何准确率。 **[其他 AI 逆向 · 相关项目]**
 - [人在园艺，Claude做反编译：Markov的低细节进行中自述](cases/markov-claude-decompilation-optimization-gardening-report.md) — Markov说当天自己园艺时让Claude Code做反编译和优化；未指明软件、结果或测试，不与其他项目合并。 **[其他 AI 逆向 · 进行中]**
 - [三层视差动态壁纸：Claude提示重建Android倾斜效果，而非APK破解](cases/android-parallax-wallpaper-claude-behavior-recreation-idea.md) — 帖子给Claude写Kotlin WallpaperService的具体提示，三图层按倾斜反向移动、低通平滑与呼吸光效；只是公开API的行为复建方向，未展示运行。 **[其他 AI 逆向 · 待验证]**
-- [CLI-Anything：分析软件源码，为Agent生成命令行操作层](cases/cli-anything-source-analysis-agent-cli-pipeline.md) — 中文帖子介绍HKUDS CLI-Anything从源码分析到Click CLI、测试与SKILL.md的七步流程，供Agent调用真实软件后端；测试数量与兼容范围为转述。 **[其他 AI 逆向 · 相关项目]**
+- [CLI-Anything：从源码生成Agent命令行层，补充运行与遥测边界](cases/cli-anything-source-analysis-agent-cli-pipeline.md) — HKUDS CLI-Anything用AI分析源码、生成操作真实后端的CLI；Felix补述源码、本机应用、强模型和refine前提，以及PostHog关闭选项，明确未亲测。 **[其他 AI 逆向 · 相关项目]**
 - [六种Ghidra MCP比较：whyamas按连接、安装与许可选择Agent入口](cases/six-ghidra-mcp-servers-comparison-guide.md) — whyamas称比较六种Ghidra MCP服务，建议GhidraMCP快速接Claude Code、pyghidra-mcp或ReVa做无头分析、REA处理非原生目标；未读完整对照文或安装验证。 **[未确认使用 REA · 相关项目]**
 - [Bridge Anything：用REA映射无API旧软件的数据，再做REST／MCP／CLI桥接](cases/bridge-anything-rea-legacy-data-adapters.md) — Viho.AI介绍Artesiana的bridge-anything技能：授权安装副本上找数据、单次操作差分并对照界面，再建薄适配层；公开README支持流程设计，未验证实际客户桥接。 **[REA · 相关项目]**
 - [DeepSeek Flash绕圈四小时：梦报告逆向仍需人工纠偏](cases/deepseek-flash-four-hour-reversing-loop-report.md) — 梦称DeepSeek Flash逆向时绕圈四小时，随后自己纠偏；没有给目标名或纠偏后成功结果，保留受阻实验。 **[其他 AI 逆向 · 分析测试]**
@@ -2471,6 +2478,8 @@
 
 ### 算法与功能重建
 
+- [用Git排反编译任务：Niall O’Higgins的轻量Agent协作idea](cases/niall-git-agent-decompilation-job-queue.md) — Niall O’Higgins建议在Git中协调Agent工作队列，举asm到C++约五分钟的反编译任务；没有指定二进制、实现仓库或质量对照。 **[其他 AI 逆向 · 待验证]**
+- [参考动画逐帧拆解：Dipo用Claude skill与FFmpeg重建创作线索](cases/dipo-claude-ffmpeg-reference-animation-breakdown.md) — Dipo介绍Claude分析参考视频、FFmpeg逐帧提取，再迭代脚本、hook与故事的具体流程；没有恢复原工程或成片质量验证。 **[其他 AI 逆向 · 相关项目]**
 - [把美国税法重建成Lean规则：Lexifina引用检查与税款对照的转述](cases/lexifina-us-tax-lean-rule-reconstruction-report.md) — Kxians转述Lexifina把税法XML与2025所得税规则形式化到Lean，称发现138处文本问题、5000户中4993户匹配PolicyEngine；原始证明与AI参与细节未核。 **[其他 AI 逆向 · 待验证]**
 - [陌生机器指令挑战：Greg Chew转述GPT-5.5逆向耗时与费用](cases/aisi-unfamiliar-machine-gpt55-secondary-benchmark.md) — Greg Chew在安全评论中转述AISI挑战：仅从指令理解陌生机器，专家12小时，GPT-5.5为10分22秒、1.73美元；没有原题或原始评测，不能外推通用逆向能力。 **[其他 AI 逆向 · 待验证]**
 - [Cloudflare指纹差异难找：Elnyx称GPT未能有效协助协议研究](cases/cloudflare-gpt-fingerprint-environment-comparison-failure.md) — Elnyx报告逆向Cloudflare协议时GPT不能很好比较上百份指纹采集的环境差异；未报告成功绕过或提供样本。 **[其他 AI 逆向 · 分析测试]**

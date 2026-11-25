@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [骁龙笔记本跑macOS 27：lifcc转述Ghidra与Coding Agent移植](../cases/lifcc-snapdragon-macos27-agent-port-report.md) — lifcc把骁龙笔记本上的macOS 27运行归于Ghidra反编译上下文加Coding Agent，只有二手短述，未给设备型号、原作者或启动日志。 **[其他 AI 逆向 · 待验证]**
+- [RK3588与Mali跑macOS 27.2 Beta：lifcc的Agent移植二手报告](../cases/lifcc-rk3588-macos272-mali-agent-port-report.md) — lifcc称玩家以Ghidra上下文加Coding Agent，在RK3588开发板配Mali驱动跑通macOS 27.2 Beta；未见具体补丁、板卡型号或图形验证。 **[其他 AI 逆向 · 待验证]**
 - [自有电熏炉研究：Jason Short称Claude正在逆向](../cases/jason-short-claude-electric-smoker-study.md) — Jason Short称Claude正在逆向自己的电熏炉，对进展满意；未给品牌、协议、固件或控制成果。 **[其他 AI 逆向 · 进行中]**
 - [DJI离线登录困扰：Punished Dan提出用Claude Code逆向后自制固件的idea](../cases/dji-offline-login-claude-replacement-firmware-idea.md) — 针对DJI无人机离线时被注销及区域提示的抱怨，Punished Dan建议借Claude Code逆向并自制固件；只是读者愿望，没有型号、实现或飞行验证。 **[其他 AI 逆向 · 待验证]**
 - [便携盖革计数器克隆版：Guilhem称Codex重做中文固件](../cases/geiger-counter-clone-codex-firmware-rebuild.md) — Guilhem Lettron买的便携盖革计数器带中文固件，虽有开源替代但自己的型号是克隆版，称Codex为其重做全部固件；刷写与计量未核验。 **[其他 AI 逆向 · 待验证]**

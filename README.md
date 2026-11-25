@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2796 cases & projects
+# 2805 cases & projects
 
-**Latest case update:** November 25, 2026, 12:18 · **Last maintained:** November 25, 2026, 12:18 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 25, 2026, 16:13 · **Last maintained:** November 25, 2026, 16:13 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Elecbrakes: audit a trailer's Bluetooth brakes](cases/en/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19` researcher account; `2026-11-20` CVE record — Forck and McCarthy credit **Claude with bytecode analysis and research tooling**, then report tests on their own hardware. EB2/VM1 fixes are documented; older ELBC 2000 had no fix at publication. Static firmware analysis did not demonstrate malicious flashing. Not reproduced here. `Unverified here`
 8. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22` report and pinned docs — Agents write Rust against recorded behavior. Updated project docs report **17,224 byte-identical runs, 15,861 fully in Rust**; the rest fall back. The earlier M4 benchmark's roughly 19× CLI gain includes process startup, versus 4.2× warmed in-process. Recording runs real side effects; use isolated copies. Not rerun here. `Unverified here`
 9. **[echo-dot-assist: keep the microphones, replace Alexa](cases/en/echo-dot-assist-claude-hassmic-home-assistant.md)** · `2026-11-24` introduction and pinned README — **Claude-credited hassmic connects old Echos to Home Assistant**, keeping the original audio front end. Unlocking research belongs to R0rt1z2. Only one unit per model was tested by the project; code is unaudited and installation can wipe or brick a device. Network isolation is not verified here. `In progress`
-10. **[LightLink: revive a 1998 LED sign](cases/en/larry-pesce-lightlink-1998-claude-controller-revival.md)** · `2026-11-23` first-party account — Larry Pesce credits **Claude with reading old PIC firmware and Eagle schematics to recover panel pinouts**, then writing ESP8266 replacement firmware. He reports working breadboard hardware after fixing a miswired jumper; the original network protocol remains bypassed, not cracked. The PCB passed DRC but has not been fabricated. Not reproduced here. `Unverified here`
+10. **[rea-games: test a game rebuild, not just its appearance](cases/en/rea-games-claude-cross-engine-recorded-behavior-rebuild.md)** · `2026-11-25` author thread — erKam reports **19 recorded 2048 games and 24,044 inputs** compared across rebuilds; changing tile odds leaves only 3/19 passing. Dino adds 29 recorded runs. These are finite behavior checks, not proof for every game or frame; code and harness not reviewed or rerun here. `Unverified here`
 
 ## Classic cases
 
@@ -50,10 +50,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **540** |
-| [Hardware & interoperability](categories/en/hardware.md) | **737** |
-| [Applications & clients](categories/en/apps.md) | **1159** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **360** |
+| [Games & preservation](categories/en/games.md) | **543** |
+| [Hardware & interoperability](categories/en/hardware.md) | **739** |
+| [Applications & clients](categories/en/apps.md) | **1161** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **362** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

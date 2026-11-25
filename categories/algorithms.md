@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [用Git排反编译任务：Niall O’Higgins的轻量Agent协作idea](../cases/niall-git-agent-decompilation-job-queue.md) — Niall O’Higgins建议在Git中协调Agent工作队列，举asm到C++约五分钟的反编译任务；没有指定二进制、实现仓库或质量对照。 **[其他 AI 逆向 · 待验证]**
+- [参考动画逐帧拆解：Dipo用Claude skill与FFmpeg重建创作线索](../cases/dipo-claude-ffmpeg-reference-animation-breakdown.md) — Dipo介绍Claude分析参考视频、FFmpeg逐帧提取，再迭代脚本、hook与故事的具体流程；没有恢复原工程或成片质量验证。 **[其他 AI 逆向 · 相关项目]**
 - [把美国税法重建成Lean规则：Lexifina引用检查与税款对照的转述](../cases/lexifina-us-tax-lean-rule-reconstruction-report.md) — Kxians转述Lexifina把税法XML与2025所得税规则形式化到Lean，称发现138处文本问题、5000户中4993户匹配PolicyEngine；原始证明与AI参与细节未核。 **[其他 AI 逆向 · 待验证]**
 - [陌生机器指令挑战：Greg Chew转述GPT-5.5逆向耗时与费用](../cases/aisi-unfamiliar-machine-gpt55-secondary-benchmark.md) — Greg Chew在安全评论中转述AISI挑战：仅从指令理解陌生机器，专家12小时，GPT-5.5为10分22秒、1.73美元；没有原题或原始评测，不能外推通用逆向能力。 **[其他 AI 逆向 · 待验证]**
 - [Cloudflare指纹差异难找：Elnyx称GPT未能有效协助协议研究](../cases/cloudflare-gpt-fingerprint-environment-comparison-failure.md) — Elnyx报告逆向Cloudflare协议时GPT不能很好比较上百份指纹采集的环境差异；未报告成功绕过或提供样本。 **[其他 AI 逆向 · 分析测试]**
