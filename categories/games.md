@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [炉石卡牌效果与状态重建：fountain__relay称模拟Claude对Chat](../cases/hearthstone-card-effects-ai-state-simulation-report.md) — fountain__relay称建了逆向《炉石传说》卡牌效果、追踪游戏状态的架构，能模拟当前环境Claude对Chat；没有引擎、卡牌覆盖或对局记录。 **[其他 AI 逆向 · 待验证]**
 - [城市二进制与8路Worker：Rayan转述REA映射并建议双模型路由](../cases/rayan-city-binary-rea-multimodel-routing-report.md) — Rayan称Claude Code／REA让8个Worker映射城市二进制、142座塔和调用图，并提Grok／Fable分工；没有游戏版本、日志或性能证据，价格例子不当实付。 **[REA · 待验证]**
 - [Baldi's Basics Plus改IL2CPP后呢：hexadexx提出AI仍可反编译的idea](../cases/baldis-basics-plus-il2cpp-ai-decompile-idea.md) — 在Baldi's Basics Plus 0.14.7讨论串里，有人建议改IL2CPP提高逆向门槛，hexadexx回应AI仍可反编译；仅为针对具名游戏的推测，未执行。 **[其他 AI 逆向 · 待验证]**
 - [Dead Rising合作Mod中止：Serina称Claude中途不再调用REA](../cases/serina-dead-rising-rea-coop-mod-abandoned.md) — Serina报告曾用REA做Dead Rising合作Mod，但Claude中途停止调用且无法解释如何恢复，遂放弃；未有日志，不确认是护栏、工具故障或上下文问题。 **[REA · 待验证]**

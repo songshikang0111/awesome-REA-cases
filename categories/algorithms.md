@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [陌生机器指令挑战：Greg Chew转述GPT-5.5逆向耗时与费用](../cases/aisi-unfamiliar-machine-gpt55-secondary-benchmark.md) — Greg Chew在安全评论中转述AISI挑战：仅从指令理解陌生机器，专家12小时，GPT-5.5为10分22秒、1.73美元；没有原题或原始评测，不能外推通用逆向能力。 **[其他 AI 逆向 · 待验证]**
 - [Cloudflare指纹差异难找：Elnyx称GPT未能有效协助协议研究](../cases/cloudflare-gpt-fingerprint-environment-comparison-failure.md) — Elnyx报告逆向Cloudflare协议时GPT不能很好比较上百份指纹采集的环境差异；未报告成功绕过或提供样本。 **[其他 AI 逆向 · 分析测试]**
 - [S1Mal静态恶意软件研究：Ghidra／capa文本先拆成32个行为问题](../cases/s1mal-system-one-ghidra-capa-malware-detection-study.md) — 吉川孝志转述预印本：不执行Windows样本，以Ghidra／capa提特征，32个行为问题比只问是否恶意更有效；S1Mal的检测率随误报阈值变化，未复跑。 **[其他 AI 逆向 · 分析测试]**
 - [未命名App的加密签名：THE A-FU称DeepSeek Harness协助复刻规则](../cases/the-afu-deepseek-harness-app-signature-reconstruction.md) — THE A-FU称DeepSeek Harness陪同逆向一个App，并复刻其中加密签名规则；没有披露目标、规则、代码或验证样本。 **[其他 AI 逆向 · 待验证]**
@@ -298,7 +299,7 @@
 - [主经纪商仓位截图：用AI恢复时间序列来判断数据价值的自述](../cases/prime-broker-positioning-screenshot-ai-timeseries.md) — 作者称可用AI把主经纪商仓位截图还原为底层时间序列，以区别有用数据与高盛营销材料；没有提供样本、模型或恢复误差。 **[其他 AI 逆向 · 待验证]**
 - [社交媒体爆款概率：Alin A提出REA研究推荐算法后放弃的想法](../cases/social-media-viral-probability-rea-abandoned-idea.md) — Alin A设想研究推荐算法、提取爆款概率模型并循环出稿涨粉，但明确作罢；没有指定平台、数据或预测结果。 **[REA · 待验证]**
 - [小米运动热量累加：DeepSeek逆向后发现刷新重复计入的转述](../cases/xiaomi-motion-deepseek-calorie-refresh-report.md) — 澜知AI转述DeepSeek研究小米运动算法，称同一分钟刷新会使40步热量从1.6变8.28卡；后续承认等待抓包与完整复现。 **[其他 AI 逆向 · 待验证]**
-- [CUDA：让 Agent 群尝试反编译的读者挑战](../cases/cuda-agent-swarm-decompile-idea.md) — CUDA的Agent反编译挑战新增AMD与Apple M系列兼容愿望；不同读者提出同一目标，没有指定组件、方法、代码或运行结果。 **[其他 AI 逆向 · 待验证]**
+- [CUDA逆向idea：从Agent群兼容愿望到Eric S. Raymond的风险审查提问](../cases/cuda-agent-swarm-decompile-idea.md) — CUDA的AI反编译愿望已有AMD／Apple M兼容方向；Eric S. Raymond另提反编译二进制与固件后用AI审视法律风险。尚无实施，匿名传闻不是侵权证据。 **[其他 AI 逆向 · 待验证]**
 - [LLM4Decompile：恢复C函数，以及候选选择与难读化追加学习的研究转述](../cases/llm4decompile-assembly-c-models.md) — 专用模型从汇编或Ghidra伪代码恢复C；新增吉川孝志对100候选选择与ExeBench-Obfuscated训练的转述，区分oracle上限、可用选择器及不同输入条件，未复现实验。 **[其他 AI 逆向 · 分析测试]**
 - [合约买入前检查台：Claude／Ghidra 分析卖出路径并纠正代理误报的自述](../cases/claude-ghidra-contract-rug-check-desk.md) — 发布者报告用字节码红旗检查阻止买入，并称纠正一次 OpenZeppelin 代理误报；没有链地址、代码或日志可复核。 **[其他 AI 逆向 · 待验证]**
 - [Slice 金库调查：Sonnet 从反编译字节码定位外部返回值记账问题](../cases/slice-vault-sonnet-decompiled-bytecode.md) — coffiasse称免费Sonnet 5.5不到两分钟定位漏洞函数，并确认用Claude处理字节码；约4.1万美元损失与可利用性未在此独立链上核验。 **[其他 AI 逆向 · 分析测试]**

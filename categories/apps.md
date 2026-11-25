@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Windows 11 25H2主题资源：Minedows拟用AI Agent与msstyleeditor定位偏移](../cases/minedows-win11-25h2-msstyle-ai-offset-study.md) — Minedows称与AI Agent用逆向和msstyleeditor推进官方Windows 11 25H2主题运行，父回复明确资源已在、仍要找字节和偏移；未报告完成兼容。 **[其他 AI 逆向 · 进行中]**
 - [旧Movie Maker界面重建失败：ヤーマン称Claude分析后仍只像基本布局](../cases/ya-man-movie-maker-claude-rea-ui-rebuild-failure.md) — ヤーマン喜欢旧Movie Maker的UI，要求Claude用REA MCP分析真程序再做简化重建，称结果完全不同，仅基本布局相似；没有版本或对照文件。 **[REA · 分析测试]**
 - [让Claude研究Claude Code桌面端：Legend的REA请求短帖](../cases/claude-code-desktop-rea-self-inspection-request.md) — Legend写下让Claude用REA研究Claude Code桌面应用的具体请求并附视频；正文没有报告发现或结果，不推断模型拒绝或克隆成功。 **[REA · 待验证]**
 - [REA接Trail of Bits技能：Archive建议先读发布二进制再做七类审计](../cases/rea-trailofbits-release-binary-audit-workflow-idea.md) — Archive提出REA打开自有发布构建，再接DWARF、内存清零、APK、Burp、常量时间、上下文与YARA技能；公开README支持技能存在，不证明组合已跑通。 **[REA · 待验证]**
@@ -11,7 +12,7 @@
 - [反编译移植中途被拒后：Jayce称换Claude两天完成](../cases/jayce-neal-claude-unnamed-source-port-report.md) — Jayce Neal说一个反编译与source port项目进行一半才遭模型拒绝，转Claude后两天完成；未命名目标或给代码与运行测试。 **[其他 AI 逆向 · 待验证]**
 - [从APK反推后端：Tech Athletes转述NICT的A2B调查与AI分析成本](../cases/nict-a2b-ai-assisted-mobile-backend-analysis-report.md) — Tech Athletes转述NICT的App-to-Backend调查：反编译日本公开App提取接口后针对后端攻击，并称AI降低分析成本；未取得原报告或具体AI运行证据。 **[其他 AI 逆向 · 待验证]**
 - [Vitals本地克隆：Samin Yasar称REA与Claude Code约半小时重建Mac应用](../cases/samin-yasar-vitals-rea-claude-mac-clone.md) — Samin Yasar称把本机Vitals交给REA和Claude Code研究并克隆，约30分钟后得到外观略有不同但自称功能够用的版本；未提供仓库URL或覆盖测试。 **[REA · 待验证]**
-- [Android隐私删减版idea：Sad HAM Society建议REA静态分析加代理流量对照](../cases/android-rea-claude-static-proxy-privacy-rebuild-idea.md) — Sad HAM Society提出Claude Code连Android手机、REA反编译App并与代理流量比较，再尝试重编删减版；没有命名App、抓包或修改结果。 **[REA · 待验证]**
+- [Android隐私重建工作流：从REA与代理对照idea到眼镜语音助手自述](../cases/android-rea-claude-static-proxy-privacy-rebuild-idea.md) — Sad HAM Society先提REA反编译与代理流量对照，后称能经HUD眼镜语音让自建AI助手取出、修改、重编手机App并以Tailscale回传；读者质疑Claude拒绝，双方均未给日志。 **[REA · 待验证]**
 - [Antigravity地区限制研究被拒：迪丽热酒的Codex失败自述](../cases/liushuaikobe-codex-antigravity-region-refusal.md) — 迪丽热酒在讨论Antigravity检测与T3 Code接入的串里，报告Codex拒绝逆向突破限制；未披露提示词、版本或补丁，不推导模型统一政策。 **[其他 AI 逆向 · 待验证]**
 - [Iran Laravel的网站重建服务：从公开页面推流程、表单与数据模型](../cases/iran-laravel-ai-public-website-reconstruction-service.md) — 候选短链指向Iran Laravel服务页：AI与工程师分析参考网站的页面、表单及用户流，再以Laravel和波斯语CMS重建；未列已交付目标或对照测试。 **[其他 AI 逆向 · 相关项目]**
 - [notebooklm-py：把未公开Google接口接到Claude Code与Codex的技能](../cases/notebooklm-py-undocumented-api-agent-skill-integration.md) — 候选介绍非官方Python／CLI及Agent技能，用逆向接口编排Gemini Notebook音视频与资料工作流；项目文档确认未公开API风险，16分钟录音与30秒摘要说法未核。 **[未确认使用 REA · 相关项目]**
