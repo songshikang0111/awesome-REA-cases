@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2810 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2817 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（544）
-- [硬件与设备互通](categories/hardware.md)（741）
-- [应用与客户端](categories/apps.md)（1162）
+- [游戏与游戏保存](categories/games.md)（545）
+- [硬件与设备互通](categories/hardware.md)（743）
+- [应用与客户端](categories/apps.md)（1166）
 - [算法与功能重建](categories/algorithms.md)（363）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [旧游戏模拟器与OOT：Mason Blake报告Claude协助，目标版本未明](cases/mason-blake-claude-old-game-emulator-oot-report.md) — Mason Blake称仍能让Claude协助开发旧游戏模拟器，并提到OOT、the new one；未说明具体游戏版本、模拟平台或可玩结果。 **[其他 AI 逆向 · 进行中]**
 - [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
 - [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍Claude跨引擎重建小游戏与2048变异检查；新转述补充GAME.md、状态重放和Blocks示例，仍非独立验证或任意游戏等价证明。 **[未确认使用 REA · 待验证]**
 - [Project Stardust：Super Stardust HD的AI辅助PS3到PC静态重编译alpha](cases/project-stardust-super-stardust-hd-ai-recompilation.md) — The Gaming Emporium转述thelastant的v0.1.0-alpha.2：PowerPC／SPU转C、Vulkan运行时，开发中已游玩但约三分钟冻结，未验证通关或画面准确。 **[未确认使用 REA · 进行中]**
@@ -573,6 +574,8 @@
 
 ### 硬件与设备互通
 
+- [Fire TV固件研究：The Web Talk Show转述有人用AI逆向](cases/web-talk-show-fire-tv-ai-firmware-reversing-report.md) — The Web Talk Show播客宣传称有人用AI逆向Fire TV固件；没有研究者姓名、设备代际、技术方法或改造成果。 **[其他 AI 逆向 · 待验证]**
+- [六针引脚没认出来：risent用GPT与万用表研究旧小电器元件](cases/risent-gpt-small-appliance-six-pin-reuse-failed-study.md) — risent想把停业品牌小电器拆出的元件接到现有主板做新样机，借GPT、嵌入式同学和万用表研究6PIN功能，一晚仍未弄明白。 **[其他 AI 逆向 · 进行中]**
 - [Alpine iLX-F511车机：Compass报告AI辅助逆向与Pwn2Own未认证root执行](cases/compass-alpine-ilxf511-ai-pwn2own-report.md) — Compass Security称在Pwn2Own Automotive 2026通过AI辅助逆向拿到Alpine iLX-F511未认证root RCE与一万美元奖金；未读技术长文或赛事验证记录。 **[其他 AI 逆向 · 待验证]**
 - [让行车记录仪少卡顿：reddy2go提出AI逆向调优idea](cases/ai-dashcam-efficiency-sluggishness-idea.md) — reddy2go问是否有人已用AI逆向行车记录仪，以提高效率、降低卡顿；尚无具体型号、实现或测速。 **[其他 AI 逆向 · 待验证]**
 - [骁龙笔记本跑macOS 27：lifcc转述Ghidra与Coding Agent移植](cases/lifcc-snapdragon-macos27-agent-port-report.md) — lifcc把骁龙笔记本上的macOS 27运行归于Ghidra反编译上下文加Coding Agent，只有二手短述，未给设备型号、原作者或启动日志。 **[其他 AI 逆向 · 待验证]**
@@ -624,7 +627,7 @@
 - [打印机墨盒检查：读者问Claude能否改固件，Epson只警告作为对照](cases/claude-printer-firmware-cartridge-check-removal-idea.md) — 在第三方墨盒被固件拒绝的讨论中，读者问Claude能否移除墨盒检查，称自用Epson只警告不阻止；没有实际改动或测试。 **[其他 AI 逆向 · 待验证]**
 - [旧打印机墨盒限制：Jules自称用REA改固件，设备只写canon laserjet](cases/jollyroger-rea-canon-printer-firmware-cartridge-report.md) — Jules在墨盒芯片限制讨论中说刚用修改模型和REA移除旧打印机固件限制；canon laserjet命名保留原样，缺型号、补丁和打印验证。 **[REA · 待验证]**
 - [旧Redmi Note10 Pro Max再利用：Bhuvanesh称Claude找无gApps ROM并备份侧载](cases/bhuvanesh-redmi-note10-pro-max-claude-rom-rescue.md) — Mehdi评论Claude救活旧Redmi，父帖Bhuvanesh说模型完成ROM查找、下载与备份侧载；没有ROM名称和设备验证，不当AI反编译固件。 **[其他 AI 逆向 · 相关项目]**
-- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — 转述称Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466板；新教程补具体板型与控制器接口，两晚、60fps与零撕裂仍未复测。 **[其他 AI 逆向 · 待验证]**
+- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — Claude驱动与开放Wear OS样例重建466×466圆屏界面；新转述把HaloWatch限定为无Wi-Fi、样例天气和随机时钟的demo，PopkaStudio另供真实天气，两晚与60fps未复测。 **[其他 AI 逆向 · 待验证]**
 - [矿机固件与ASIC优势：Promoted问何时用LLM研究闭源固件](cases/bitcoin-miner-firmware-llm-research-idea.md) — Promoted在Bitmain及同行固件/IP争论中提出用LLM逆向，未实际研究；旧串只是开放固件与芯片效率的背景，不证实IP或性能结论。 **[其他 AI 逆向 · 待验证]**
 - [OpenGlass Go：Kimi研究裸眼3D屏，Gemini收尾Armbian替代固件](cases/openglass-go-kimi-gemini-armbian-firmware.md) — Megabits为Looking Glass Go做开源Armbian固件，称Kimi负责多数逆向和初期代码、Gemini Neon收尾；公开文档支持H618与STM32控制方案，未实机复测。 **[其他 AI 逆向 · 进行中]**
 - [Audi MMI接GPT Live：Cristian研究语音按钮和音频，让原车主机控制家居](cases/cristian-audi-mmi-gpt-live-voice-home-automation.md) — Cristian称研究Audi MMI语音按钮与音频后，主机自运行应用接GPT Live、家居和天气查询，原车麦克风与扬声器工作；未取得实现或实车测试。 **[其他 AI 逆向 · 待验证]**
@@ -1317,6 +1320,10 @@
 
 ### 应用与客户端
 
+- [Open Prompt OS：从参考图六轴拆解到Gemini Neon再生成](cases/open-prompt-os-image-six-axis-prompt-reconstruction.md) — Subin Chella发布Open Prompt OS，称输入图片可得到六轴拆解和提示词，再用Gemini Neon生成对照图；没有恢复原始提示词或相似度测量。 **[其他 AI 逆向 · 待验证]**
+- [Windows应用在Mac上用：Roberto向Claude提出DTools相关互通研究](cases/roberto-dtools-claude-windows-mac-interoperability.md) — Roberto请Claude逆向自己使用的Windows应用以在Mac使用；模型答复提DTools许可与自有文件互通，尚无移植、格式分析或运行结果。 **[其他 AI 逆向 · 进行中]**
+- [让Claude对clacky做REA并取提示词：André的玩笑式idea](cases/andre-clacky-claude-rea-prompt-extraction-idea.md) — André Felipe Souza回复称如今可以让Claude对clacky做REA并拉出所有prompts；只是具体目标的玩笑式建议，没有实施或提取结果。 **[未确认使用 REA · 待验证]**
+- [办公室自建CRM替代企业产品：Kyriakos在AI软件讨论中的逆向自述](cases/kyriakos-office-enterprise-crm-ai-reconstruction-report.md) — Kyriakos Attouni称办公室已用自己逆向重建的CRM替代企业级CRM，质量相近、成本大降；没有产品名、AI工具、金额或迁移验证。 **[未确认使用 REA · 待验证]**
 - [小豆APK静态分析：AskClaw展示Devin提取与jadx准备阶段](cases/askclaw-devin-xiaodou-apk-static-analysis.md) — AskClaw展示Devin SWE-2.1提取小豆APK后准备Java／jadx的待办记录，拟检查权限、组件、native库与混淆；未报告完成反编译。 **[其他 AI 逆向 · 进行中]**
 - [gflow-cli接AI助手使用Flow积分：私有接口研究与真实浏览器限制](cases/gflow-cli-flow-private-api-agent-integration.md) — Leonard.AI介绍ffroliva/gflow-cli的CLI／MCP生成媒体路线；补读README纠正纯接口直调印象：默认真实Chrome加Playwright，纯HTTP视频仍受验证码阻碍。 **[未确认使用 REA · 相关项目]**
 - [AI逆向系统架构受阻：sin遇到Nacos与生产数据库配置权限](cases/sin-ai-architecture-nacos-db-config-boundary.md) — sin报告用AI研究系统架构时，配置在Nacos与生产数据库中、权限难取得；没有系统名、模型或恢复成果，保留配置不可见的实际边界。 **[其他 AI 逆向 · 进行中]**

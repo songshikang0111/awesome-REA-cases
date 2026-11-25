@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Fire TV固件研究：The Web Talk Show转述有人用AI逆向](../cases/web-talk-show-fire-tv-ai-firmware-reversing-report.md) — The Web Talk Show播客宣传称有人用AI逆向Fire TV固件；没有研究者姓名、设备代际、技术方法或改造成果。 **[其他 AI 逆向 · 待验证]**
+- [六针引脚没认出来：risent用GPT与万用表研究旧小电器元件](../cases/risent-gpt-small-appliance-six-pin-reuse-failed-study.md) — risent想把停业品牌小电器拆出的元件接到现有主板做新样机，借GPT、嵌入式同学和万用表研究6PIN功能，一晚仍未弄明白。 **[其他 AI 逆向 · 进行中]**
 - [Alpine iLX-F511车机：Compass报告AI辅助逆向与Pwn2Own未认证root执行](../cases/compass-alpine-ilxf511-ai-pwn2own-report.md) — Compass Security称在Pwn2Own Automotive 2026通过AI辅助逆向拿到Alpine iLX-F511未认证root RCE与一万美元奖金；未读技术长文或赛事验证记录。 **[其他 AI 逆向 · 待验证]**
 - [让行车记录仪少卡顿：reddy2go提出AI逆向调优idea](../cases/ai-dashcam-efficiency-sluggishness-idea.md) — reddy2go问是否有人已用AI逆向行车记录仪，以提高效率、降低卡顿；尚无具体型号、实现或测速。 **[其他 AI 逆向 · 待验证]**
 - [骁龙笔记本跑macOS 27：lifcc转述Ghidra与Coding Agent移植](../cases/lifcc-snapdragon-macos27-agent-port-report.md) — lifcc把骁龙笔记本上的macOS 27运行归于Ghidra反编译上下文加Coding Agent，只有二手短述，未给设备型号、原作者或启动日志。 **[其他 AI 逆向 · 待验证]**
@@ -53,7 +55,7 @@
 - [打印机墨盒检查：读者问Claude能否改固件，Epson只警告作为对照](../cases/claude-printer-firmware-cartridge-check-removal-idea.md) — 在第三方墨盒被固件拒绝的讨论中，读者问Claude能否移除墨盒检查，称自用Epson只警告不阻止；没有实际改动或测试。 **[其他 AI 逆向 · 待验证]**
 - [旧打印机墨盒限制：Jules自称用REA改固件，设备只写canon laserjet](../cases/jollyroger-rea-canon-printer-firmware-cartridge-report.md) — Jules在墨盒芯片限制讨论中说刚用修改模型和REA移除旧打印机固件限制；canon laserjet命名保留原样，缺型号、补丁和打印验证。 **[REA · 待验证]**
 - [旧Redmi Note10 Pro Max再利用：Bhuvanesh称Claude找无gApps ROM并备份侧载](../cases/bhuvanesh-redmi-note10-pro-max-claude-rom-rescue.md) — Mehdi评论Claude救活旧Redmi，父帖Bhuvanesh说模型完成ROM查找、下载与备份侧载；没有ROM名称和设备验证，不当AI反编译固件。 **[其他 AI 逆向 · 相关项目]**
-- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](../cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — 转述称Claude自写显示／触摸驱动，把开放Wear OS样例移到466×466板；新教程补具体板型与控制器接口，两晚、60fps与零撕裂仍未复测。 **[其他 AI 逆向 · 待验证]**
+- [ESP32-S3圆屏重建Wear OS界面：PopaSpinka的Claude驱动与样例移植转述](../cases/popaspinka-esp32s3-wearos-ui-claude-report.md) — Claude驱动与开放Wear OS样例重建466×466圆屏界面；新转述把HaloWatch限定为无Wi-Fi、样例天气和随机时钟的demo，PopkaStudio另供真实天气，两晚与60fps未复测。 **[其他 AI 逆向 · 待验证]**
 - [矿机固件与ASIC优势：Promoted问何时用LLM研究闭源固件](../cases/bitcoin-miner-firmware-llm-research-idea.md) — Promoted在Bitmain及同行固件/IP争论中提出用LLM逆向，未实际研究；旧串只是开放固件与芯片效率的背景，不证实IP或性能结论。 **[其他 AI 逆向 · 待验证]**
 - [OpenGlass Go：Kimi研究裸眼3D屏，Gemini收尾Armbian替代固件](../cases/openglass-go-kimi-gemini-armbian-firmware.md) — Megabits为Looking Glass Go做开源Armbian固件，称Kimi负责多数逆向和初期代码、Gemini Neon收尾；公开文档支持H618与STM32控制方案，未实机复测。 **[其他 AI 逆向 · 进行中]**
 - [Audi MMI接GPT Live：Cristian研究语音按钮和音频，让原车主机控制家居](../cases/cristian-audi-mmi-gpt-live-voice-home-automation.md) — Cristian称研究Audi MMI语音按钮与音频后，主机自运行应用接GPT Live、家居和天气查询，原车麦克风与扬声器工作；未取得实现或实车测试。 **[其他 AI 逆向 · 待验证]**

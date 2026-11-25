@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Open Prompt OS：从参考图六轴拆解到Gemini Neon再生成](../cases/open-prompt-os-image-six-axis-prompt-reconstruction.md) — Subin Chella发布Open Prompt OS，称输入图片可得到六轴拆解和提示词，再用Gemini Neon生成对照图；没有恢复原始提示词或相似度测量。 **[其他 AI 逆向 · 待验证]**
+- [Windows应用在Mac上用：Roberto向Claude提出DTools相关互通研究](../cases/roberto-dtools-claude-windows-mac-interoperability.md) — Roberto请Claude逆向自己使用的Windows应用以在Mac使用；模型答复提DTools许可与自有文件互通，尚无移植、格式分析或运行结果。 **[其他 AI 逆向 · 进行中]**
+- [让Claude对clacky做REA并取提示词：André的玩笑式idea](../cases/andre-clacky-claude-rea-prompt-extraction-idea.md) — André Felipe Souza回复称如今可以让Claude对clacky做REA并拉出所有prompts；只是具体目标的玩笑式建议，没有实施或提取结果。 **[未确认使用 REA · 待验证]**
+- [办公室自建CRM替代企业产品：Kyriakos在AI软件讨论中的逆向自述](../cases/kyriakos-office-enterprise-crm-ai-reconstruction-report.md) — Kyriakos Attouni称办公室已用自己逆向重建的CRM替代企业级CRM，质量相近、成本大降；没有产品名、AI工具、金额或迁移验证。 **[未确认使用 REA · 待验证]**
 - [小豆APK静态分析：AskClaw展示Devin提取与jadx准备阶段](../cases/askclaw-devin-xiaodou-apk-static-analysis.md) — AskClaw展示Devin SWE-2.1提取小豆APK后准备Java／jadx的待办记录，拟检查权限、组件、native库与混淆；未报告完成反编译。 **[其他 AI 逆向 · 进行中]**
 - [gflow-cli接AI助手使用Flow积分：私有接口研究与真实浏览器限制](../cases/gflow-cli-flow-private-api-agent-integration.md) — Leonard.AI介绍ffroliva/gflow-cli的CLI／MCP生成媒体路线；补读README纠正纯接口直调印象：默认真实Chrome加Playwright，纯HTTP视频仍受验证码阻碍。 **[未确认使用 REA · 相关项目]**
 - [AI逆向系统架构受阻：sin遇到Nacos与生产数据库配置权限](../cases/sin-ai-architecture-nacos-db-config-boundary.md) — sin报告用AI研究系统架构时，配置在Nacos与生产数据库中、权限难取得；没有系统名、模型或恢复成果，保留配置不可见的实际边界。 **[其他 AI 逆向 · 进行中]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [旧游戏模拟器与OOT：Mason Blake报告Claude协助，目标版本未明](../cases/mason-blake-claude-old-game-emulator-oot-report.md) — Mason Blake称仍能让Claude协助开发旧游戏模拟器，并提到OOT、the new one；未说明具体游戏版本、模拟平台或可玩结果。 **[其他 AI 逆向 · 进行中]**
 - [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](../cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
 - [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](../cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍Claude跨引擎重建小游戏与2048变异检查；新转述补充GAME.md、状态重放和Blocks示例，仍非独立验证或任意游戏等价证明。 **[未确认使用 REA · 待验证]**
 - [Project Stardust：Super Stardust HD的AI辅助PS3到PC静态重编译alpha](../cases/project-stardust-super-stardust-hd-ai-recompilation.md) — The Gaming Emporium转述thelastant的v0.1.0-alpha.2：PowerPC／SPU转C、Vulkan运行时，开发中已游玩但约三分钟冻结，未验证通关或画面准确。 **[未确认使用 REA · 进行中]**
