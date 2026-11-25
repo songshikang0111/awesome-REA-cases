@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [小豆APK静态分析：AskClaw展示Devin提取与jadx准备阶段](../cases/askclaw-devin-xiaodou-apk-static-analysis.md) — AskClaw展示Devin SWE-2.1提取小豆APK后准备Java／jadx的待办记录，拟检查权限、组件、native库与混淆；未报告完成反编译。 **[其他 AI 逆向 · 进行中]**
 - [gflow-cli接AI助手使用Flow积分：私有接口研究与真实浏览器限制](../cases/gflow-cli-flow-private-api-agent-integration.md) — Leonard.AI介绍ffroliva/gflow-cli的CLI／MCP生成媒体路线；补读README纠正纯接口直调印象：默认真实Chrome加Playwright，纯HTTP视频仍受验证码阻碍。 **[未确认使用 REA · 相关项目]**
 - [AI逆向系统架构受阻：sin遇到Nacos与生产数据库配置权限](../cases/sin-ai-architecture-nacos-db-config-boundary.md) — sin报告用AI研究系统架构时，配置在Nacos与生产数据库中、权限难取得；没有系统名、模型或恢复成果，保留配置不可见的实际边界。 **[其他 AI 逆向 · 进行中]**
 - [MS-DOS的65xxx交叉汇编器到Go：koitsu称Claude移植时发现旧bug](../cases/koitsu-dos-65xxx-assembler-claude-go-port.md) — koitsu称用Claude Code、常用Opus 5.5研究90年代软件，把旧MS-DOS 65xxx交叉汇编器移植Go并发现原版很多bug；没有汇编器名称或输出对照。 **[其他 AI 逆向 · 待验证]**
@@ -577,7 +578,7 @@
 - [mika：黄小木提出Codex研究包名与service改名的未验证建议](../cases/mika-codex-package-service-rename-idea.md) — 黄小木担心mika自动控制微信／小红书会触发风控，建议用Codex研究并换标识；无实施或降低风险的证据。 **[其他 AI 逆向 · 待验证]**
 - [Kensho Momentum仪表盘：Payal建议用REA／Claude Code研究替代](../cases/kensho-momentum-dashboard-rea-claude-idea.md) — Payal Mantry回应付费股票研究仪表盘推广，建议用REA与Claude Code逆向；父帖可识别目标，但没有重建或数据接入结果。 **[REA · 待验证]**
 - [Elementor Pro：Aakash希望用REA做轻量快速的主题构建器](../cases/elementor-pro-rea-lightweight-theme-builder-idea.md) — Aakash Kavaiya请求REA辅助的Elementor Pro替代品，保留广泛定制又更轻更快；没有实现、性能或兼容性结果。 **[REA · 待验证]**
-- [mcp-reverse：把静态分析、外部调试器与多AI协作接到同一MCP入口](../cases/mcp-reverse-multi-client-binary-analysis-orchestration.md) — MalwareBibleJP介绍mcp-reverse 5.0.1编排Claude／Codex／Cursor与二进制工具；公开README可查，但后端、权限与简单模拟器边界不等于完成任意逆向。 **[其他 AI 逆向 · 相关项目]**
+- [mcp-reverse现名Decompile：把二进制分析与多AI协作接到同一MCP入口](../cases/mcp-reverse-multi-client-binary-analysis-orchestration.md) — mcp-reverse已更名Decompile，公开API确认为同一仓库；新介绍增加UE pak解析与常量定位用途，数量及安全边界仍未经运行审计。 **[其他 AI 逆向 · 相关项目]**
 - [SolidCraft：AI时代CAD替代品的转述，项目称依据公开文档独立设计](../cases/solidcraft-ai-era-cad-alternative-report.md) — genZ_Tigers将SolidCraft与AI逆向联系；公开Rust参数化CAD提供MCP，但README说按公开文档、CAD惯例和用户反馈设计，不证明反编译Fusion或SolidWorks。 **[其他 AI 逆向 · 相关项目]**
 - [Exoframe／Nova：编排REA与可替换语义助手的本地优先设计](../cases/exoframe-nova-local-rea-orchestration-design.md) — Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。 **[REA · 进行中]**
 - [注视加语音改软件：UltimApe提出REA辅助交互idea](../cases/rea-gaze-voice-software-improvement-idea.md) — UltimApe设想接通视线检测后，由AI定位自己正在看的软件，再按口述添加改进；尚无实现或测试。 **[REA · 待验证]**

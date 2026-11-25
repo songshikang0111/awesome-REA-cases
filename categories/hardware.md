@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Alpine iLX-F511车机：Compass报告AI辅助逆向与Pwn2Own未认证root执行](../cases/compass-alpine-ilxf511-ai-pwn2own-report.md) — Compass Security称在Pwn2Own Automotive 2026通过AI辅助逆向拿到Alpine iLX-F511未认证root RCE与一万美元奖金；未读技术长文或赛事验证记录。 **[其他 AI 逆向 · 待验证]**
+- [让行车记录仪少卡顿：reddy2go提出AI逆向调优idea](../cases/ai-dashcam-efficiency-sluggishness-idea.md) — reddy2go问是否有人已用AI逆向行车记录仪，以提高效率、降低卡顿；尚无具体型号、实现或测速。 **[其他 AI 逆向 · 待验证]**
 - [骁龙笔记本跑macOS 27：lifcc转述Ghidra与Coding Agent移植](../cases/lifcc-snapdragon-macos27-agent-port-report.md) — lifcc把骁龙笔记本上的macOS 27运行归于Ghidra反编译上下文加Coding Agent，只有二手短述，未给设备型号、原作者或启动日志。 **[其他 AI 逆向 · 待验证]**
 - [RK3588与Mali跑macOS 27.2 Beta：lifcc的Agent移植二手报告](../cases/lifcc-rk3588-macos272-mali-agent-port-report.md) — lifcc称玩家以Ghidra上下文加Coding Agent，在RK3588开发板配Mali驱动跑通macOS 27.2 Beta；未见具体补丁、板卡型号或图形验证。 **[其他 AI 逆向 · 待验证]**
 - [自有电熏炉研究：Jason Short称Claude正在逆向](../cases/jason-short-claude-electric-smoker-study.md) — Jason Short称Claude正在逆向自己的电熏炉，对进展满意；未给品牌、协议、固件或控制成果。 **[其他 AI 逆向 · 进行中]**

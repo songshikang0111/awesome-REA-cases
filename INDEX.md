@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2805 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2810 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（543）
-- [硬件与设备互通](categories/hardware.md)（739）
-- [应用与客户端](categories/apps.md)（1161）
-- [算法与功能重建](categories/algorithms.md)（362）
+- [游戏与游戏保存](categories/games.md)（544）
+- [硬件与设备互通](categories/hardware.md)（741）
+- [应用与客户端](categories/apps.md)（1162）
+- [算法与功能重建](categories/algorithms.md)（363）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,7 +26,8 @@
 
 ### 游戏与游戏保存
 
-- [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍rea-games，称Claude重建2048、Chrome Dino与Canvas Bird；补充2048变异测试和Dino录制帧数，只有作者报告，不等于任意游戏等价证明。 **[未确认使用 REA · 待验证]**
+- [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
+- [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍Claude跨引擎重建小游戏与2048变异检查；新转述补充GAME.md、状态重放和Blocks示例，仍非独立验证或任意游戏等价证明。 **[未确认使用 REA · 待验证]**
 - [Project Stardust：Super Stardust HD的AI辅助PS3到PC静态重编译alpha](cases/project-stardust-super-stardust-hd-ai-recompilation.md) — The Gaming Emporium转述thelastant的v0.1.0-alpha.2：PowerPC／SPU转C、Vulkan运行时，开发中已游玩但约三分钟冻结，未验证通关或画面准确。 **[未确认使用 REA · 进行中]**
 - [把Link放进King of Dragons：Ghidra与LLM的不到20分钟改模自述](cases/king-of-dragons-link-ghidra-llm-mod.md) — Lmaoist Manlord称用Ghidra和LLM把Link加入King of Dragons，从想法到游玩少于20分钟；没有模型名、补丁或游戏版本。 **[其他 AI 逆向 · 待验证]**
 - [Angry Birds Reloaded反编译：Milk-San向Claude Code提出的玩笑式idea](cases/angry-birds-reloaded-claude-decompilation-idea.md) — Milk-San希望Claude Code反编译Angry Birds Reloaded，只有一句请求；没有开始执行、源码恢复或移植证据。 **[其他 AI 逆向 · 待验证]**
@@ -572,6 +573,8 @@
 
 ### 硬件与设备互通
 
+- [Alpine iLX-F511车机：Compass报告AI辅助逆向与Pwn2Own未认证root执行](cases/compass-alpine-ilxf511-ai-pwn2own-report.md) — Compass Security称在Pwn2Own Automotive 2026通过AI辅助逆向拿到Alpine iLX-F511未认证root RCE与一万美元奖金；未读技术长文或赛事验证记录。 **[其他 AI 逆向 · 待验证]**
+- [让行车记录仪少卡顿：reddy2go提出AI逆向调优idea](cases/ai-dashcam-efficiency-sluggishness-idea.md) — reddy2go问是否有人已用AI逆向行车记录仪，以提高效率、降低卡顿；尚无具体型号、实现或测速。 **[其他 AI 逆向 · 待验证]**
 - [骁龙笔记本跑macOS 27：lifcc转述Ghidra与Coding Agent移植](cases/lifcc-snapdragon-macos27-agent-port-report.md) — lifcc把骁龙笔记本上的macOS 27运行归于Ghidra反编译上下文加Coding Agent，只有二手短述，未给设备型号、原作者或启动日志。 **[其他 AI 逆向 · 待验证]**
 - [RK3588与Mali跑macOS 27.2 Beta：lifcc的Agent移植二手报告](cases/lifcc-rk3588-macos272-mali-agent-port-report.md) — lifcc称玩家以Ghidra上下文加Coding Agent，在RK3588开发板配Mali驱动跑通macOS 27.2 Beta；未见具体补丁、板卡型号或图形验证。 **[其他 AI 逆向 · 待验证]**
 - [自有电熏炉研究：Jason Short称Claude正在逆向](cases/jason-short-claude-electric-smoker-study.md) — Jason Short称Claude正在逆向自己的电熏炉，对进展满意；未给品牌、协议、固件或控制成果。 **[其他 AI 逆向 · 进行中]**
@@ -1314,6 +1317,7 @@
 
 ### 应用与客户端
 
+- [小豆APK静态分析：AskClaw展示Devin提取与jadx准备阶段](cases/askclaw-devin-xiaodou-apk-static-analysis.md) — AskClaw展示Devin SWE-2.1提取小豆APK后准备Java／jadx的待办记录，拟检查权限、组件、native库与混淆；未报告完成反编译。 **[其他 AI 逆向 · 进行中]**
 - [gflow-cli接AI助手使用Flow积分：私有接口研究与真实浏览器限制](cases/gflow-cli-flow-private-api-agent-integration.md) — Leonard.AI介绍ffroliva/gflow-cli的CLI／MCP生成媒体路线；补读README纠正纯接口直调印象：默认真实Chrome加Playwright，纯HTTP视频仍受验证码阻碍。 **[未确认使用 REA · 相关项目]**
 - [AI逆向系统架构受阻：sin遇到Nacos与生产数据库配置权限](cases/sin-ai-architecture-nacos-db-config-boundary.md) — sin报告用AI研究系统架构时，配置在Nacos与生产数据库中、权限难取得；没有系统名、模型或恢复成果，保留配置不可见的实际边界。 **[其他 AI 逆向 · 进行中]**
 - [MS-DOS的65xxx交叉汇编器到Go：koitsu称Claude移植时发现旧bug](cases/koitsu-dos-65xxx-assembler-claude-go-port.md) — koitsu称用Claude Code、常用Opus 5.5研究90年代软件，把旧MS-DOS 65xxx交叉汇编器移植Go并发现原版很多bug；没有汇编器名称或输出对照。 **[其他 AI 逆向 · 待验证]**
@@ -1889,7 +1893,7 @@
 - [mika：黄小木提出Codex研究包名与service改名的未验证建议](cases/mika-codex-package-service-rename-idea.md) — 黄小木担心mika自动控制微信／小红书会触发风控，建议用Codex研究并换标识；无实施或降低风险的证据。 **[其他 AI 逆向 · 待验证]**
 - [Kensho Momentum仪表盘：Payal建议用REA／Claude Code研究替代](cases/kensho-momentum-dashboard-rea-claude-idea.md) — Payal Mantry回应付费股票研究仪表盘推广，建议用REA与Claude Code逆向；父帖可识别目标，但没有重建或数据接入结果。 **[REA · 待验证]**
 - [Elementor Pro：Aakash希望用REA做轻量快速的主题构建器](cases/elementor-pro-rea-lightweight-theme-builder-idea.md) — Aakash Kavaiya请求REA辅助的Elementor Pro替代品，保留广泛定制又更轻更快；没有实现、性能或兼容性结果。 **[REA · 待验证]**
-- [mcp-reverse：把静态分析、外部调试器与多AI协作接到同一MCP入口](cases/mcp-reverse-multi-client-binary-analysis-orchestration.md) — MalwareBibleJP介绍mcp-reverse 5.0.1编排Claude／Codex／Cursor与二进制工具；公开README可查，但后端、权限与简单模拟器边界不等于完成任意逆向。 **[其他 AI 逆向 · 相关项目]**
+- [mcp-reverse现名Decompile：把二进制分析与多AI协作接到同一MCP入口](cases/mcp-reverse-multi-client-binary-analysis-orchestration.md) — mcp-reverse已更名Decompile，公开API确认为同一仓库；新介绍增加UE pak解析与常量定位用途，数量及安全边界仍未经运行审计。 **[其他 AI 逆向 · 相关项目]**
 - [SolidCraft：AI时代CAD替代品的转述，项目称依据公开文档独立设计](cases/solidcraft-ai-era-cad-alternative-report.md) — genZ_Tigers将SolidCraft与AI逆向联系；公开Rust参数化CAD提供MCP，但README说按公开文档、CAD惯例和用户反馈设计，不证明反编译Fusion或SolidWorks。 **[其他 AI 逆向 · 相关项目]**
 - [Exoframe／Nova：编排REA与可替换语义助手的本地优先设计](cases/exoframe-nova-local-rea-orchestration-design.md) — Nova账号介绍Exoframe协调上下文、工具执行、持续工作与恢复，REA承担应用分析；完整本地闭环仍待集成和测试。 **[REA · 进行中]**
 - [注视加语音改软件：UltimApe提出REA辅助交互idea](cases/rea-gaze-voice-software-improvement-idea.md) — UltimApe设想接通视线检测后，由AI定位自己正在看的软件，再按口述添加改进；尚无实现或测试。 **[REA · 待验证]**
@@ -2478,6 +2482,7 @@
 
 ### 算法与功能重建
 
+- [多设备AI分析的记忆与假设管理：Masato的Markdown、CSV与Rust流程](cases/masato-ai-device-analysis-markdown-csv-rust-workflow.md) — Masato报告六个月多设备分析中，AI遇阻会反复猜测、会话压缩会丢发现；他整理Markdown持久化、CSV逐项假设实验与Rust类型检查流程。 **[其他 AI 逆向 · 待验证]**
 - [用Git排反编译任务：Niall O’Higgins的轻量Agent协作idea](cases/niall-git-agent-decompilation-job-queue.md) — Niall O’Higgins建议在Git中协调Agent工作队列，举asm到C++约五分钟的反编译任务；没有指定二进制、实现仓库或质量对照。 **[其他 AI 逆向 · 待验证]**
 - [参考动画逐帧拆解：Dipo用Claude skill与FFmpeg重建创作线索](cases/dipo-claude-ffmpeg-reference-animation-breakdown.md) — Dipo介绍Claude分析参考视频、FFmpeg逐帧提取，再迭代脚本、hook与故事的具体流程；没有恢复原工程或成片质量验证。 **[其他 AI 逆向 · 相关项目]**
 - [把美国税法重建成Lean规则：Lexifina引用检查与税款对照的转述](cases/lexifina-us-tax-lean-rule-reconstruction-report.md) — Kxians转述Lexifina把税法XML与2025所得税规则形式化到Lean，称发现138处文本问题、5000户中4993户匹配PolicyEngine；原始证明与AI参与细节未核。 **[其他 AI 逆向 · 待验证]**

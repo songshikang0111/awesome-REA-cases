@@ -2,7 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
-- [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](../cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍rea-games，称Claude重建2048、Chrome Dino与Canvas Bird；补充2048变异测试和Dino录制帧数，只有作者报告，不等于任意游戏等价证明。 **[未确认使用 REA · 待验证]**
+- [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](../cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
+- [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](../cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍Claude跨引擎重建小游戏与2048变异检查；新转述补充GAME.md、状态重放和Blocks示例，仍非独立验证或任意游戏等价证明。 **[未确认使用 REA · 待验证]**
 - [Project Stardust：Super Stardust HD的AI辅助PS3到PC静态重编译alpha](../cases/project-stardust-super-stardust-hd-ai-recompilation.md) — The Gaming Emporium转述thelastant的v0.1.0-alpha.2：PowerPC／SPU转C、Vulkan运行时，开发中已游玩但约三分钟冻结，未验证通关或画面准确。 **[未确认使用 REA · 进行中]**
 - [把Link放进King of Dragons：Ghidra与LLM的不到20分钟改模自述](../cases/king-of-dragons-link-ghidra-llm-mod.md) — Lmaoist Manlord称用Ghidra和LLM把Link加入King of Dragons，从想法到游玩少于20分钟；没有模型名、补丁或游戏版本。 **[其他 AI 逆向 · 待验证]**
 - [Angry Birds Reloaded反编译：Milk-San向Claude Code提出的玩笑式idea](../cases/angry-birds-reloaded-claude-decompilation-idea.md) — Milk-San希望Claude Code反编译Angry Birds Reloaded，只有一句请求；没有开始执行、源码恢复或移植证据。 **[其他 AI 逆向 · 待验证]**

@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2805 entries**, organized by use case, without a Top-N or popularity threshold.
+**2810 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (543)
-- [Hardware and interoperability](categories/en/hardware.md) (739)
-- [Applications and clients](categories/en/apps.md) (1161)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (362)
+- [Games and preservation](categories/en/games.md) (544)
+- [Hardware and interoperability](categories/en/hardware.md) (741)
+- [Applications and clients](categories/en/apps.md) (1162)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (363)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,7 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
-- [rea-games: Claude rebuilds open-source games across engines and compares recorded behavior frame by frame](cases/en/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam introduces rea-games for Claude-assisted 2048, Chrome Dino and Canvas Bird rebuilds, with a 2048 mutation check and recorded Dino frame counts. These are author reports, not proofs of equivalence for arbitrary games. **[REA use unconfirmed · Needs verification]**
+- [Local player mods for NetEase's football app: a parent reports a month with MT and DeepSeek](cases/en/netease-football-deepseek-mt-local-player-mod-report.md) — Fentix says their son spent a month using MT, DeepSeek and tutorials to modify player attributes and appearances in a local version of NetEase's football app, then shared it for multiplayer. No revision, patch or runtime validation is available. **[Other AI-assisted work · Needs verification]**
+- [rea-games: Claude rebuilds open-source games across engines and compares recorded behavior frame by frame](cases/en/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam describes Claude-assisted cross-engine game rebuilding and a 2048 mutation check. A new secondary account adds GAME.md, state replay and Blocks; neither independent validation nor equivalence for arbitrary games is established. **[REA use unconfirmed · Needs verification]**
 - [Project Stardust: an AI-assisted PS3-to-PC static-recompilation alpha for Super Stardust HD](cases/en/project-stardust-super-stardust-hd-ai-recompilation.md) — The Gaming Emporium describes thelastant's v0.1.0-alpha.2: PowerPC/SPU-to-C translation and a Vulkan runtime. Gameplay was reached during development, but an approximately three-minute freeze remains; completion and graphics accuracy are unverified. **[REA use unconfirmed · In progress]**
 - [Link in King of Dragons: a reported under-twenty-minute Ghidra/LLM mod](cases/en/king-of-dragons-link-ghidra-llm-mod.md) — Lmaoist Manlord says Ghidra and an LLM put Link in King of Dragons, taking under twenty minutes from idea to play. No model name, patch or game revision is supplied. **[Other AI-assisted work · Needs verification]**
 - [An Angry Birds Reloaded decompilation: Milk-San's joking Claude Code proposal](cases/en/angry-birds-reloaded-claude-decompilation-idea.md) — Milk-San asks Claude Code for an Angry Birds Reloaded decompilation. This is a one-line request, not evidence of execution, source recovery or a port. **[Other AI-assisted work · Needs verification]**
@@ -574,6 +575,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Alpine iLX-F511 head unit: Compass reports AI-assisted reversing and unauthenticated root execution at Pwn2Own](cases/en/compass-alpine-ilxf511-ai-pwn2own-report.md) — Compass Security reports AI-assisted reversing of the Alpine iLX-F511 at Pwn2Own Automotive 2026, unauthenticated root RCE and a $10,000 bounty. The technical article and competition validation records were not read. **[Other AI-assisted work · Needs verification]**
+- [Make dashcams less sluggish: reddy2go proposes AI-assisted reversing for efficiency](cases/en/ai-dashcam-efficiency-sluggishness-idea.md) — reddy2go asks whether anyone has used AI to reverse-engineer dashcams to improve efficiency and reduce sluggishness. No model, implementation or measurements are supplied. **[Other AI-assisted work · Needs verification]**
 - [macOS 27 on a Snapdragon laptop: lifcc relays a Ghidra/coding-agent port account](cases/en/lifcc-snapdragon-macos27-agent-port-report.md) — lifcc attributes macOS 27 running on a Snapdragon laptop to Ghidra decompiler context plus a coding agent. This short secondary account names no device model, original developer or boot logs. **[Other AI-assisted work · Needs verification]**
 - [RK3588, Mali and macOS 27.2 Beta: lifcc's secondary coding-agent port report](cases/en/lifcc-rk3588-macos272-mali-agent-port-report.md) — lifcc says hobbyists used Ghidra context and a coding agent to configure Mali drivers and run macOS 27.2 Beta on an RK3588 board. No patch, board model or graphics validation is available. **[Other AI-assisted work · Needs verification]**
 - [Studying an owned electric smoker: Jason Short says Claude is reversing it](cases/en/jason-short-claude-electric-smoker-study.md) — Jason Short says Claude is reverse-engineering his electric smoker and he is pleased with progress. No brand, protocol, firmware or control result is supplied. **[Other AI-assisted work · In progress]**
@@ -1316,6 +1319,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [Xiaodou APK static analysis: AskClaw shows Devin at extraction and jadx preparation](cases/en/askclaw-devin-xiaodou-apk-static-analysis.md) — AskClaw shows a Devin SWE-2.1 checklist with Xiaodou APK extraction marked complete and Java/jadx setup underway, planning permission, component, native-library and obfuscation checks. Completed decompilation is not reported. **[Other AI-assisted work · In progress]**
 - [gflow-cli connects AI assistants to Flow credits: private-interface research with a real-browser constraint](cases/en/gflow-cli-flow-private-api-agent-integration.md) — Leonard.AI describes ffroliva/gflow-cli's CLI/MCP media workflow. Supplementary README reading corrects a pure-API impression: production uses real Chrome with Playwright, while pure-HTTP video remains blocked by verification. **[REA use unconfirmed · Related project]**
 - [AI architecture reconstruction hits a boundary: sin encounters Nacos and production-database configuration permissions](cases/en/sin-ai-architecture-nacos-db-config-boundary.md) — sin reports that AI-assisted system-architecture investigation encountered configuration in Nacos and a production database with difficult-to-obtain access. No system, model or recovery result is named; the concrete limit is unavailable configuration. **[Other AI-assisted work · In progress]**
 - [An MS-DOS 65xxx cross-assembler in Go: koitsu credits Claude with a port and finding old bugs](cases/en/koitsu-dos-65xxx-assembler-claude-go-port.md) — koitsu says Claude Code, usually with Opus 5.5, helped study 1990s software, port an old MS-DOS 65xxx cross-assembler to Go and find bugs in the original. The assembler and output comparisons are unavailable. **[Other AI-assisted work · Needs verification]**
@@ -1891,7 +1895,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [mika: Huang Xiaomu proposes unverified Codex-assisted package/service renaming](cases/en/mika-codex-package-service-rename-idea.md) — Concerned that mika automation of WeChat/Xiaohongshu may trigger platform enforcement, Huang Xiaomu suggests Codex-assisted identifier changes. Implementation and risk reduction are unproven. **[Other AI-assisted work · Needs verification]**
 - [Kensho Momentum Dashboard: Payal proposes REA/Claude Code research for an alternative](cases/en/kensho-momentum-dashboard-rea-claude-idea.md) — Payal Mantry responds to a paid stock-research dashboard promotion by suggesting REA and Claude Code. The parent identifies the target, but no reconstruction or data integration is reported. **[REA · Needs verification]**
 - [Elementor Pro: Aakash asks for a lightweight, fast REA-assisted theme builder](cases/en/elementor-pro-rea-lightweight-theme-builder-idea.md) — Aakash Kavaiya wants an Elementor Pro alternative with broad customization and lower weight/higher speed. No implementation, performance or compatibility results are supplied. **[REA · Needs verification]**
-- [mcp-reverse: one MCP entry for static analysis, external debuggers and multiple AI clients](cases/en/mcp-reverse-multi-client-binary-analysis-orchestration.md) — MalwareBibleJP describes mcp-reverse 5.0.1 orchestrating Claude/Codex/Cursor and binary tools. A public README is inspectable, but backend, permission and small-emulator limits do not establish arbitrary successful reversing. **[Other AI-assisted work · Related project]**
+- [mcp-reverse, now Decompile: one MCP entry for binary analysis and multiple AI clients](cases/en/mcp-reverse-multi-client-binary-analysis-orchestration.md) — Public API identity confirms mcp-reverse was renamed Decompile. A new account adds UE pak parsing and constant-location uses, while counts and safety boundaries remain unaudited at runtime. **[Other AI-assisted work · Related project]**
 - [SolidCraft: an AI-era CAD alternative report, with public-documentation-based independent design](cases/en/solidcraft-ai-era-cad-alternative-report.md) — genZ_Tigers associates SolidCraft with AI reversing. The public Rust parametric CAD offers MCP, but its README describes public-documentation, CAD-convention and user-feedback-based design, not proven decompilation of Fusion or SolidWorks. **[Other AI-assisted work · Related project]**
 - [Exoframe/Nova: a local-first design orchestrating REA and replaceable semantic helpers](cases/en/exoframe-nova-local-rea-orchestration-design.md) — The Nova account describes Exoframe coordinating context, tool execution, ongoing work and recovery, with REA handling app analysis. The complete local loop still needs integration and testing. **[REA · In progress]**
 - [Gaze and voice to change software: UltimApe's REA-assisted interaction idea](cases/en/rea-gaze-voice-software-improvement-idea.md) — UltimApe imagines enabling gaze detection so AI can identify the software being viewed and add spoken improvements. No implementation or test is shown. **[REA · Needs verification]**
@@ -2480,6 +2484,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Memory and hypothesis management for AI device analysis: Masato's Markdown, CSV and Rust workflow](cases/en/masato-ai-device-analysis-markdown-csv-rust-workflow.md) — Masato describes six months analyzing multiple devices: AI repeats guesses when stuck and loses findings during conversation compaction. The reported workflow persists Markdown findings, tests CSV hypotheses and uses Rust type checks. **[Other AI-assisted work · Needs verification]**
 - [Git queues for decompilation: Niall O'Higgins' lightweight agent-coordination idea](cases/en/niall-git-agent-decompilation-job-queue.md) — Niall O'Higgins proposes coordinating agent job queues in Git, citing approximately five-minute assembly-to-C++ decompilation tasks. No binary, implementation repository or quality comparison is named. **[Other AI-assisted work · Needs verification]**
 - [Breaking reference animation into frames: Dipo's Claude-skill/FFmpeg creative reconstruction workflow](cases/en/dipo-claude-ffmpeg-reference-animation-breakdown.md) — Dipo describes Claude analyzing reference video and FFmpeg extracting frames before iterating scripts, hooks and story. This is a concrete workflow, not verified recovery of an original project or finished-output quality. **[Other AI-assisted work · Related project]**
 - [Reconstructing US tax rules in Lean: a report of Lexifina's references and calculation comparisons](cases/en/lexifina-us-tax-lean-rule-reconstruction-report.md) — Kxians relays Lexifina's Lean formalization of tax-law XML and 2025 income-tax rules, claiming 138 textual issues and PolicyEngine matches for 4,993 of 5,000 households. Original proofs and AI involvement details were not checked. **[Other AI-assisted work · Needs verification]**
