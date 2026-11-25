@@ -1,7 +1,7 @@
 # GTA 6 AI-reversing claims: disputed reconstruction, PC startup and PS5-save compatibility reports
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-25
+Record date: 2026-11-26
 Stage: Needs verification
 
 At 05:45:27 Beijing time on November 21, 2026, st1ne (@SolSt1ne) claims GTA 6 material from Cyberleek lacked an executable and contained only data, assets and archives. He says Claude examined existing binaries/libraries, reconstructed entry points and missing parts, and generated a bootable file after twenty hours. He reports reaching the menu and world, occasional freezes and 50–60 FPS on a Ryzen 9 9950X3D with a 5080. He asks whether to upload it and says he has not shared the exe. This is a concrete but disputed claim about rebuilding missing execution logic, not a PC port confirmed by this collection.
@@ -21,6 +21,7 @@ These are new secondary claims about save compatibility and startup stages. They
 November 25 sealed candidates: 11:43, 64 likes, 2,746 views, 1 repost, 5 replies; 11:58, 8 likes, 158 views, 1 repost, 1 reply. Retrieval counts changed; sealed figures remain. These do not validate saves or streams.
 November 21 sealed candidate: 171 likes, 30,097 views, 7 reposts, 26 replies. Engagement does not authenticate an executable. Retrieval counts had changed; the sealed snapshot is retained.
 November 24 sealed candidates: 21:50, 5 likes, 2,446 views, 0 reposts, 3 replies; 22:38, 2 likes, 765 views, 1 repost, 0 replies. These snapshots do not measure port quality or frame rates.
+A new secondary update at 01:45:16 Beijing time on November 26, 2026 claims Belobug reaches Chapter 1 at 3–5 FPS, Neptune has unstable continuous footage, ZETTROX controls Lucia in the prologue at about 2 FPS, and CGBJ supports walking, dialogue and menus at about 4 FPS. Rendering, shaders and crashes are described as the remaining obstacles. The post says some participants use AI reversing but does not identify each team's AI contribution; the teams are not assumed to share an implementation or benchmark conditions. Team originals, streams, code, builds, GPU configurations and frame-time logs were not read. Functions and figures remain this post's claims and do not validate st1ne's older account. More than three thousand repository takedowns and December/next-year predictions are unchecked, not facts or delivery guarantees. The fake portable-package warning is retained without download links. Sealed snapshot: 2 likes, 503 views, 0 reposts, 6 replies.
 
 ## Sources
 
@@ -31,5 +32,6 @@ November 24 sealed candidates: 21:50, 5 likes, 2,446 views, 0 reposts, 3 replies
 - [Supplement: ham questions video overlays, November 21, 2026 at 07:11:38 Beijing time](https://x.com/i/status/2123917213812048282)
 - [Candidate relays TweakTown and streams: setup, 2–3 FPS clips and no checkable build, November 24, 2026 at 21:50:20 Beijing time](https://x.com/i/status/2125225509906792694)
 - [Candidate relays early PC startup and port projects including Leonida going offline, November 24, 2026 at 22:38:33 Beijing time](https://x.com/i/status/2125237643134828771)
+- [New account of low frame rates, team stages and shader bottlenecks, November 26, 2026 at 01:45:16 Beijing time](https://x.com/i/status/2125647020094521493)
 
 [中文](../gta6-cyberleek-claude-missing-executable-claim.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

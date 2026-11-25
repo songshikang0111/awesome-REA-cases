@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [牧场物语去限时：DarkJDL建议AI反编译再放回SNES烧录卡](../cases/darkjdl-harvest-moon-ai-remove-time-limit-idea.md) — 面对Harvest Moon限时带来的压力，DarkJDL提出AI反编译、去限时再编译并用SD2Snes玩的idea；没有补丁或实施。 **[其他 AI 逆向 · 待验证]**
+- [Fruit Ninja实时玩法：Ao Qu的Agent原生接口研究演示自述](../cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — Ao Qu以Fruit Ninja说明Agent研究软件后二进制接MCP、无须看屏操作，称实时专家级玩法；没有成绩表或演示检查。 **[其他 AI 逆向 · 分析测试]**
+- [Apex Legends Mobile社区复活：codmINTEL的AI逆向转述](../cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区以AI逆向复活Apex Legends Mobile，附视频；未给团队、仓库、服务器机制或测试，不确认可玩性。 **[其他 AI 逆向 · 待验证]**
 - [旧游戏模拟器与OOT：Mason Blake报告Claude协助，目标版本未明](../cases/mason-blake-claude-old-game-emulator-oot-report.md) — Mason Blake称仍能让Claude协助开发旧游戏模拟器，并提到OOT、the new one；未说明具体游戏版本、模拟平台或可玩结果。 **[其他 AI 逆向 · 进行中]**
 - [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](../cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
 - [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](../cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍Claude跨引擎重建小游戏与2048变异检查；新转述补充GAME.md、状态重放和Blocks示例，仍非独立验证或任意游戏等价证明。 **[未确认使用 REA · 待验证]**
@@ -42,7 +45,7 @@
 - [Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植](../cases/siya-flappy-bird-apk-codex-chromatic-port.md) — Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6看屏找bug：Noisy称获1.7万美元，Kaiju另称HackerOne待审无付款](../cases/gta6-claude-screen-observation-bounty-claim.md) — GTA6看屏赏金故事新增52分钟／9步骤／13000美元版本，与旧47分钟／17000美元、5分钟未付款及金额自相矛盾版本不互证；新帖也提醒普通游戏bug不在公开计划范围。 **[其他 AI 逆向 · 待验证]**
 - [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](../cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
-- [GTA6的AI逆向宣称：重建争议、PC启动与PS5存档兼容转述](../cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne旧重建宣称仍有争议；11月25日另有PS5存档接Xbox构建与RTX3050地图可访问的转述，没有存档、构建或直播验证，不等于可玩PC移植。 **[其他 AI 逆向 · 待验证]**
+- [GTA6的AI逆向宣称：重建争议、PC启动与PS5存档兼容转述](../cases/gta6-cyberleek-claude-missing-executable-claim.md) — GTA6的旧重建与PS5存档兼容宣称仍未核验；新转述列多团队约2至5FPS及渲染、着色器瓶颈，不等于稳定可玩PC移植。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](../cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
 - [Megabonk到Android：Martin明确说是GPT Terra重制，不是可靠反编译](../cases/megabonk-gpt-terra-android-remake-report.md) — Martin称用GPT Terra将Windows的Megabonk重制到Android，可在手机不用手柄玩；消耗两三次Codex周限额，不是已核验反编译或实际费用测量。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI文件研究idea：monokern把本地Strata模型接入Hermes](../cases/monokern-gta6-local-strata-hermes-file-research-idea.md) — monokern称在M4 Pro用Strata本地运行模型并连接Hermes，想找GTA VI文件与删减过场；只报告搭环境，没有文件提取、反编译或PC移植结果。 **[其他 AI 逆向 · 待验证]**
@@ -244,7 +247,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](../cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](../cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](../cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5的AI原创逆向说法新增来源质疑：Arvīds Kokins称部分提交移植OpenAGC／KytyPS5功能。未审其所指diff；署名争议与GTA6可玩性仍未解决。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增另一读者21／400个Claude署名与44款GPU的计数；没有固定提交集合，不解决旧计数及OpenAGC／KytyPS5来源争议，也不证明GTA6可玩。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](../cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](../cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](../cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
@@ -446,7 +449,7 @@
 - [炉石传说 macOS：为大模型操作研究游戏，再做卡组与逐盘反思](../cases/hearthstone-macos-ai-control-report.md) — Roge 报告为 AI 操作逆向 Mac 版炉石，结合贪心卡组优化及100盘逐局反思；没有胜率或补丁。 **[其他 AI 逆向 · 待验证]**
 - [TTT2：读者称已有 Steam 版，计划试用 AI 移植成果](../cases/ttt2-ai-steam-port-reader-report.md) — K1xkstart 把 TTT2 Steam 版放在 AI 反编译移植讨论中，尚未亲自试用；游戏全名与项目未确认。 **[其他 AI 逆向 · 待验证]**
 - [GTA5：读者希望用 REA 制作个人定制版本](../cases/gta5-rea-personalization-idea.md) — 读者看过REA介绍后提出定制GTA5的idea，未列出具体Mod机制或实施结果。 **[REA · 待验证]**
-- [Bloodborne_pc：Opus 参与重编译与图形优化的读者转述](../cases/bloodborne-pc-opus-recompile-reader-report.md) — 父帖展示Jgamrot/Supermedo的Bloodborne_pc画面，回复者称Opus做了大量逆向优化；未核验架构与运行记录。 **[其他 AI 逆向 · 待验证]**
+- [Bloodborne_pc：Opus 参与重编译与图形优化的读者转述](../cases/bloodborne-pc-opus-recompile-reader-report.md) — Bloodborne的AI移植转述新增读者称自己PC跑100FPS；没有硬件、版本与运行记录，不确认原生移植，也不与旧1440p展示混作基准。 **[其他 AI 逆向 · 待验证]**
 - [T6 rollback：AI 辅助恢复旧游戏在线功能的社区讨论](../cases/t6-ai-rollback-online-restoration-report.md) — 补审确认讨论目标为T6 rollback；回复者描述AI辅助社区逆向，但未提供代码、测试或发布。 **[其他 AI 逆向 · 待验证]**
 - [PD Saga：反编译后用自有资产重做的 Claude idea](../cases/pd-saga-claude-remake-idea.md) — 读者建议将 PD Saga 交给 Claude 反编译，再用自选引擎和自有资产重做；没有实施报告。 **[其他 AI 逆向 · 待验证]**
 - [Skyrim：Codex 调整瑟拉娜召唤外观并排查 Mod 故障](../cases/skyrim-codex-serana-mod-report.md) — 旧作者报告Codex修复瑟拉娜与随从Mod；另一读者新提AI反编译后加入Morrowind式自定法术与悬浮，两人的引擎设想均未实现验证。 **[其他 AI 逆向 · 待验证]**

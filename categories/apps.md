@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [隔离读、写与验证：Tauhid的Claude／REA净室仪表盘宣称](../cases/tauhid-claude-rea-isolated-room-oracle-dashboard.md) — Tauhid IQ展示Opus 5.5／REA分室研究和重建仪表盘，自报697／697匹配、捕获5／5植错；原目标与测试未披露。 **[REA · 待验证]**
+- [从遥测重建Theo的T3 Code协作方式：Codez的多模型配置idea](../cases/codez-theo-t3-telemetry-agent-workflow-reconstruction.md) — Codez从号称100MB以上公开遥测归纳Theo的调度方式，建议交Opus复建；明确不是恢复AGENTS.md，未审原始遥测或实际复建。 **[其他 AI 逆向 · 待验证]**
+- [Orchid模拟器下载可信吗：Ark建议Claude与REA先查恶意软件](../cases/ark-orchid-ps5-claimed-emulator-rea-malware-check-idea.md) — 在所谓Orchid PS5模拟器运行GTA6的争议串中，Ark建议用Claude与REA检查可疑exe；只是防御idea，没有扫描或安全结论。 **[REA · 待验证]**
+- [FreeCAD不用看屏操作：Ao Qu报告Agent逆向后二进制接MCP](../cases/aoqu-agent-native-freecad-binary-mcp-computer-use.md) — Ao Qu称Agent研究软件二进制并重接交互为MCP，FreeCAD对照报告55倍速度与35倍少Token；基线、任务集及测试未核。 **[其他 AI 逆向 · 分析测试]**
+- [从结果输出理解BVAS／IReV通信：Unusual Oscar向Claude提的idea](../cases/unusual-oscar-bvas-irev-claude-output-protocol-study-idea.md) — Unusual Oscar建议用Claude从数据输出研究BVAS与IReV如何通信；父帖是选举结果上传争议，尚无协议分析或舞弊结论。 **[其他 AI 逆向 · 待验证]**
+- [Qoder逆向注入到Codex本地分流：透明远程工具接管项目](../cases/yummypyrus-qoder-codex-transparent-remote-tool-routing.md) — yummypyrus称同一远程接管工作流从Qoder扩展到Codex：前者改Bash／fs，后者官方远程执行器加本地proxy；没有代码或验收。 **[未确认使用 REA · 进行中]**
 - [Open Prompt OS：从参考图六轴拆解到Gemini Neon再生成](../cases/open-prompt-os-image-six-axis-prompt-reconstruction.md) — Subin Chella发布Open Prompt OS，称输入图片可得到六轴拆解和提示词，再用Gemini Neon生成对照图；没有恢复原始提示词或相似度测量。 **[其他 AI 逆向 · 待验证]**
 - [Windows应用在Mac上用：Roberto向Claude提出DTools相关互通研究](../cases/roberto-dtools-claude-windows-mac-interoperability.md) — Roberto请Claude逆向自己使用的Windows应用以在Mac使用；模型答复提DTools许可与自有文件互通，尚无移植、格式分析或运行结果。 **[其他 AI 逆向 · 进行中]**
 - [让Claude对clacky做REA并取提示词：André的玩笑式idea](../cases/andre-clacky-claude-rea-prompt-extraction-idea.md) — André Felipe Souza回复称如今可以让Claude对clacky做REA并拉出所有prompts；只是具体目标的玩笑式建议，没有实施或提取结果。 **[未确认使用 REA · 待验证]**
