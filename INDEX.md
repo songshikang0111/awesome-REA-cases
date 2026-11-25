@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2787 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2796 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（539）
-- [硬件与设备互通](categories/hardware.md)（736）
-- [应用与客户端](categories/apps.md)（1153）
-- [算法与功能重建](categories/algorithms.md)（359）
+- [游戏与游戏保存](categories/games.md)（540）
+- [硬件与设备互通](categories/hardware.md)（737）
+- [应用与客户端](categories/apps.md)（1159）
+- [算法与功能重建](categories/algorithms.md)（360）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Angry Birds Reloaded反编译：Milk-San向Claude Code提出的玩笑式idea](cases/angry-birds-reloaded-claude-decompilation-idea.md) — Milk-San希望Claude Code反编译Angry Birds Reloaded，只有一句请求；没有开始执行、源码恢复或移植证据。 **[其他 AI 逆向 · 待验证]**
 - [炉石卡牌效果与状态重建：fountain__relay称模拟Claude对Chat](cases/hearthstone-card-effects-ai-state-simulation-report.md) — fountain__relay称建了逆向《炉石传说》卡牌效果、追踪游戏状态的架构，能模拟当前环境Claude对Chat；没有引擎、卡牌覆盖或对局记录。 **[其他 AI 逆向 · 待验证]**
 - [城市二进制与8路Worker：Rayan转述REA映射并建议双模型路由](cases/rayan-city-binary-rea-multimodel-routing-report.md) — Rayan称Claude Code／REA让8个Worker映射城市二进制、142座塔和调用图，并提Grok／Fable分工；没有游戏版本、日志或性能证据，价格例子不当实付。 **[REA · 待验证]**
 - [Baldi's Basics Plus改IL2CPP后呢：hexadexx提出AI仍可反编译的idea](cases/baldis-basics-plus-il2cpp-ai-decompile-idea.md) — 在Baldi's Basics Plus 0.14.7讨论串里，有人建议改IL2CPP提高逆向门槛，hexadexx回应AI仍可反编译；仅为针对具名游戏的推测，未执行。 **[其他 AI 逆向 · 待验证]**
@@ -60,7 +61,7 @@
 - [Flappy Bird旧APK到Chromatic：Siya称用Codex逆向并移植](cases/siya-flappy-bird-apk-codex-chromatic-port.md) — Siya称找到Android旧Flappy Bird APK，用Codex逆向后移植到ModRetro Chromatic；原帖附视频，但没有源码、构建、行为对照或实机验证记录。 **[其他 AI 逆向 · 待验证]**
 - [GTA6看屏找bug：Noisy称获1.7万美元，Kaiju另称HackerOne待审无付款](cases/gta6-claude-screen-observation-bounty-claim.md) — GTA6看屏赏金故事新增52分钟／9步骤／13000美元版本，与旧47分钟／17000美元、5分钟未付款及金额自相矛盾版本不互证；新帖也提醒普通游戏bug不在公开计划范围。 **[其他 AI 逆向 · 待验证]**
 - [Armored Core V模拟修复愿望：读者请求用AI逆向改善兼容问题](cases/armored-core-v-ai-emulator-fix-request.md) — krihstuhfur_希望懂AI逆向的人修复Armored Core V的模拟问题；父帖比较RPCS3与Xenia，只有具体需求，未有开发者、修复或性能结果。 **[其他 AI 逆向 · 待验证]**
-- [GTA6的AI逆向宣称：st1ne重建争议与后续PC启动阶段转述](cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne的20小时、50至60FPS宣称仍有争议；11月24日另有媒体转述称AI辅助PC尝试仅到设置页及2至3FPS片段、Leonida下线，不能相互验证或视为可玩移植。 **[其他 AI 逆向 · 待验证]**
+- [GTA6的AI逆向宣称：重建争议、PC启动与PS5存档兼容转述](cases/gta6-cyberleek-claude-missing-executable-claim.md) — st1ne旧重建宣称仍有争议；11月25日另有PS5存档接Xbox构建与RTX3050地图可访问的转述，没有存档、构建或直播验证，不等于可玩PC移植。 **[其他 AI 逆向 · 待验证]**
 - [GTA6双人合作Mod：由伴侣同玩愿望引出的AI反编译idea](cases/gta6-ai-decompile-couple-coop-mod-idea.md) — 作者称妻子失望GTA6情侣故事没有合作模式，猜会有人一周内用AI反编译并Mod；没有开始实施或多人同步成果。 **[其他 AI 逆向 · 待验证]**
 - [Megabonk到Android：Martin明确说是GPT Terra重制，不是可靠反编译](cases/megabonk-gpt-terra-android-remake-report.md) — Martin称用GPT Terra将Windows的Megabonk重制到Android，可在手机不用手柄玩；消耗两三次Codex周限额，不是已核验反编译或实际费用测量。 **[其他 AI 逆向 · 待验证]**
 - [GTA VI文件研究idea：monokern把本地Strata模型接入Hermes](cases/monokern-gta6-local-strata-hermes-file-research-idea.md) — monokern称在M4 Pro用Strata本地运行模型并连接Hermes，想找GTA VI文件与删减过场；只报告搭环境，没有文件提取、反编译或PC移植结果。 **[其他 AI 逆向 · 待验证]**
@@ -568,6 +569,7 @@
 
 ### 硬件与设备互通
 
+- [自有电熏炉研究：Jason Short称Claude正在逆向](cases/jason-short-claude-electric-smoker-study.md) — Jason Short称Claude正在逆向自己的电熏炉，对进展满意；未给品牌、协议、固件或控制成果。 **[其他 AI 逆向 · 进行中]**
 - [DJI离线登录困扰：Punished Dan提出用Claude Code逆向后自制固件的idea](cases/dji-offline-login-claude-replacement-firmware-idea.md) — 针对DJI无人机离线时被注销及区域提示的抱怨，Punished Dan建议借Claude Code逆向并自制固件；只是读者愿望，没有型号、实现或飞行验证。 **[其他 AI 逆向 · 待验证]**
 - [便携盖革计数器克隆版：Guilhem称Codex重做中文固件](cases/geiger-counter-clone-codex-firmware-rebuild.md) — Guilhem Lettron买的便携盖革计数器带中文固件，虽有开源替代但自己的型号是克隆版，称Codex为其重做全部固件；刷写与计量未核验。 **[其他 AI 逆向 · 待验证]**
 - [KEF LSX II菜单栏客户端：Zach让Claude参考Python协议并查实机差异](cases/zach-alberico-kef-claude-swift-lan-client.md) — Zach Alberico称Claude参考pykefcontrol写原生Swift客户端，实机发现4430端口、连接复用和输入状态问题；没有抓KEF Connect的包。 **[其他 AI 逆向 · 待验证]**
@@ -1307,6 +1309,12 @@
 
 ### 应用与客户端
 
+- [MS-DOS的65xxx交叉汇编器到Go：koitsu称Claude移植时发现旧bug](cases/koitsu-dos-65xxx-assembler-claude-go-port.md) — koitsu称用Claude Code、常用Opus 5.5研究90年代软件，把旧MS-DOS 65xxx交叉汇编器移植Go并发现原版很多bug；没有汇编器名称或输出对照。 **[其他 AI 逆向 · 待验证]**
+- [重读约1993年自己的代码：koitsu用Claude逆向demogroup旧作](cases/koitsu-1993-demogroup-code-claude-recovery.md) — koitsu称让Claude逆向自己约1993年的代码，还能从反汇编辨出自己与搭档Brian的段落；未给程序名称或恢复结果。 **[其他 AI 逆向 · 待验证]**
+- [NAM A2 amp JI：rrr00bb称Claude需求建模、LeanFM研究后从Rust移到Zig](cases/rrr00bb-nam-a2-leanfm-rust-zig-reconstruction.md) — rrr00bb称在Claude Desktop内用MCP写需求再生成Rust应用，以LeanFM逆向后移植Zig；目标名照写NAM A2 amp JI，未核功能或等价性。 **[其他 AI 逆向 · 待验证]**
+- [Cairn研究MONAI Label接口：AI Radar转述约11分钟越界写入路径](cases/cairn-monai-label-api-blackbox-secondary-report.md) — 柠檬头.sol转述Amazon与Ars：Cairn从识别MONAI Label框架、测绘API到文件名路径越界约11分钟，后续会话再获shell；不是11分钟完成全部攻击的独立复现。 **[其他 AI 逆向 · 待验证]**
+- [Drost里的GLM-5.4：原作者报告私有实验室黑盒信任链研究](cases/glm54-drost-private-lab-blackbox-chain-report.md) — AI Radar引出Migel Tissera的GLM-5.4／Drost实验；补读原作者确认从认证上传研究字幕、数据库与任务链，报告gVisor内非root执行与用户接管路径，未独立复现。 **[其他 AI 逆向 · 待验证]**
+- [本地模型研究竞品更新：Danny的opencode与REA工作流自述](cases/danny-local-model-opencode-rea-competitor-study.md) — Danny称在M5U 256GB用本地模型经opencode与REA理解竞品逻辑、比较更新，约20分钟；竞品与输出未公开，模型名和尺寸照原文不作验证。 **[REA · 待验证]**
 - [Windows 11 25H2主题资源：Minedows拟用AI Agent与msstyleeditor定位偏移](cases/minedows-win11-25h2-msstyle-ai-offset-study.md) — Minedows称与AI Agent用逆向和msstyleeditor推进官方Windows 11 25H2主题运行，父回复明确资源已在、仍要找字节和偏移；未报告完成兼容。 **[其他 AI 逆向 · 进行中]**
 - [旧Movie Maker界面重建失败：ヤーマン称Claude分析后仍只像基本布局](cases/ya-man-movie-maker-claude-rea-ui-rebuild-failure.md) — ヤーマン喜欢旧Movie Maker的UI，要求Claude用REA MCP分析真程序再做简化重建，称结果完全不同，仅基本布局相似；没有版本或对照文件。 **[REA · 分析测试]**
 - [让Claude研究Claude Code桌面端：Legend的REA请求短帖](cases/claude-code-desktop-rea-self-inspection-request.md) — Legend写下让Claude用REA研究Claude Code桌面应用的具体请求并附视频；正文没有报告发现或结果，不推断模型拒绝或克隆成功。 **[REA · 待验证]**
@@ -1811,7 +1819,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO把参考视频拆成制作研究报告与VIDEO.md，新增转述列HTML／PDF、元数据／视觉证据和MiniMax H3重做计划；制作来源仍是推断，非找回原Prompt或自动成片。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO拆解逐镜制作方法；0xPing新报七片跑通六片判对、一段实拍加入视觉模型后翻转判定。报告与输入未读，不能外推检测准确率或恢复原Prompt。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**
@@ -2463,6 +2471,7 @@
 
 ### 算法与功能重建
 
+- [把美国税法重建成Lean规则：Lexifina引用检查与税款对照的转述](cases/lexifina-us-tax-lean-rule-reconstruction-report.md) — Kxians转述Lexifina把税法XML与2025所得税规则形式化到Lean，称发现138处文本问题、5000户中4993户匹配PolicyEngine；原始证明与AI参与细节未核。 **[其他 AI 逆向 · 待验证]**
 - [陌生机器指令挑战：Greg Chew转述GPT-5.5逆向耗时与费用](cases/aisi-unfamiliar-machine-gpt55-secondary-benchmark.md) — Greg Chew在安全评论中转述AISI挑战：仅从指令理解陌生机器，专家12小时，GPT-5.5为10分22秒、1.73美元；没有原题或原始评测，不能外推通用逆向能力。 **[其他 AI 逆向 · 待验证]**
 - [Cloudflare指纹差异难找：Elnyx称GPT未能有效协助协议研究](cases/cloudflare-gpt-fingerprint-environment-comparison-failure.md) — Elnyx报告逆向Cloudflare协议时GPT不能很好比较上百份指纹采集的环境差异；未报告成功绕过或提供样本。 **[其他 AI 逆向 · 分析测试]**
 - [S1Mal静态恶意软件研究：Ghidra／capa文本先拆成32个行为问题](cases/s1mal-system-one-ghidra-capa-malware-detection-study.md) — 吉川孝志转述预印本：不执行Windows样本，以Ghidra／capa提特征，32个行为问题比只问是否恶意更有效；S1Mal的检测率随误报阈值变化，未复跑。 **[其他 AI 逆向 · 分析测试]**

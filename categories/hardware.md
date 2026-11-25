@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [自有电熏炉研究：Jason Short称Claude正在逆向](../cases/jason-short-claude-electric-smoker-study.md) — Jason Short称Claude正在逆向自己的电熏炉，对进展满意；未给品牌、协议、固件或控制成果。 **[其他 AI 逆向 · 进行中]**
 - [DJI离线登录困扰：Punished Dan提出用Claude Code逆向后自制固件的idea](../cases/dji-offline-login-claude-replacement-firmware-idea.md) — 针对DJI无人机离线时被注销及区域提示的抱怨，Punished Dan建议借Claude Code逆向并自制固件；只是读者愿望，没有型号、实现或飞行验证。 **[其他 AI 逆向 · 待验证]**
 - [便携盖革计数器克隆版：Guilhem称Codex重做中文固件](../cases/geiger-counter-clone-codex-firmware-rebuild.md) — Guilhem Lettron买的便携盖革计数器带中文固件，虽有开源替代但自己的型号是克隆版，称Codex为其重做全部固件；刷写与计量未核验。 **[其他 AI 逆向 · 待验证]**
 - [KEF LSX II菜单栏客户端：Zach让Claude参考Python协议并查实机差异](../cases/zach-alberico-kef-claude-swift-lan-client.md) — Zach Alberico称Claude参考pykefcontrol写原生Swift客户端，实机发现4430端口、连接复用和输入状态问题；没有抓KEF Connect的包。 **[其他 AI 逆向 · 待验证]**

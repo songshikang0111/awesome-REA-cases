@@ -1,7 +1,7 @@
 # REA-VIDEO: shot-by-shot production research, user feedback and competitor-comparison limits
 
 Category: Applications and clients · Other AI-assisted work
-Record date: 2026-11-20
+Record date: 2026-11-25
 Stage: Related project
 
 A November 3, 2026 roundup at 09:19 Beijing time introduces REA-VIDEO breaking down visuals, styled text, editing and sound to recover visible production structure, not decompile software. A 20:32:06 account cites a product-swapped TikTok's eight shots batched into three generations; filmed camera positions, framing, motion, twelve lighting setups and grading; a 70-second promo at 83% code suitable for Remotion; and SRT/ASS, BPM and effect timing. None is footage analyzed here.
@@ -34,6 +34,11 @@ At 13:46:05 on November 11, 草帽哥 (@harrisonzhuanf) adds that he finally mad
 
 At 20:13:55 Beijing time on November 20, 2026, Archive (@ArchiveExplorer) proposes a local REA-video + ffmpeg-skill + pixelfx pipeline: analyze shots into VIDEO.md, separately use ffmpeg-skill for cuts, captions, reframing and export, then pixelfx for styling, preserving beats with owned or authorized footage. Claims of 42 ffmpeg tools, 244 effects and 28,000 combined stars were not inventoried. No cloud/no keys describes the editing component, not free agents or vision models throughout. No input, VIDEO.md, final video, configuration or logs were obtained, nor the promised configuration below. This is a concrete integration proposal, not proof of base-tool rendering, end-to-end success or original-prompt recovery, and does not override prior errors.
 
+At 11:11:34 Beijing time on November 25, 2026, 0xPing (@pingfengjj) reports deploying rea-video on a server and testing seven videos with known answers: all seven ran and six were classified correctly. A 19-second mixed clip was labeled 59% code rendering and 41% AI video; the author also reports identification of 8.2 seconds of real screen recording and a UI screenshot, with ten shot boundaries matching a manual count. These statements are retained without normalization: whether the proportions and screen recording use the same accounting level is unspecified. A separate platform-downloaded live-action clip reportedly changed from 100% AI without a vision model to 100% live action after adding one. That is a single-clip reversal, not proof that all seven were rerun successfully or a general detection problem was fixed.
+
+The 11:11:35 English reply repeats the same experiment and links a write-up; it is not a second test. Retrieval confirmed attribution and the Chinese text, but the write-up, seven inputs, reports, model name, tool revision and logs were not obtained, and no test was rerun here. Twelve thousand stars and 1.8 thousand forks are the author's contemporaneous claims, not measurements by this collection. The new user report remains separate from older project tests, music errors and competitor comparisons. Production origins are inferred, not recovered original prompts.
+
+November 25, 2026 at 11:11:34 sealed candidate: 3 likes, 89 views, 0 reposts, 5 replies. English reply: 0 likes, 33 views, 0 reposts, 0 replies. Seven clips is a user report, not a rerun here.
 November 11 at 13:46:05 sealed candidate: 2 likes, 89 views, 0 reposts. Satisfaction and costs are author-reported; the video and bills were not checked.
 November 10 at 10:50:49 sealed candidate: 3 likes, 58 views, 0 reposts. Original footage and the analysis report were not read.
 November 10 at 07:31:11 sealed candidate: 38 likes, 2,936 views, 1 repost. The Fable trial has no replayable materials; training uses are speculation only.
@@ -53,6 +58,8 @@ A three-tool account at 00:29:05 Beijing time on November 25, 2026 positions Jun
 
 ## Sources
 
+- [0xPing reports seven-clip testing, a live-action misclassification and reversal with vision, November 25, 2026 at 11:11:34 Beijing time](https://x.com/i/status/2125427144344187142)
+- [The same author's English reply about the same test, November 25, 2026 at 11:11:35 Beijing time; not a second experiment](https://x.com/i/status/2125427149633208502)
 - [REA-Video dual reports and production-origin inference limits in a three-tool account, November 25, 2026 at 00:29:05 Beijing time](https://x.com/i/status/2125265457892536420)
 - [REA-VIDEO's purpose in a Chinese roundup, November 3, 2026](https://x.com/i/status/2117426330451259859)
 - [REA-VIDEO uses, self-test sets and licensing caution, November 3, 2026, 20:32:06 Beijing time](https://x.com/i/status/2117595672497291411)

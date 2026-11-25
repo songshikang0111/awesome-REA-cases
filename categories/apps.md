@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [MS-DOS的65xxx交叉汇编器到Go：koitsu称Claude移植时发现旧bug](../cases/koitsu-dos-65xxx-assembler-claude-go-port.md) — koitsu称用Claude Code、常用Opus 5.5研究90年代软件，把旧MS-DOS 65xxx交叉汇编器移植Go并发现原版很多bug；没有汇编器名称或输出对照。 **[其他 AI 逆向 · 待验证]**
+- [重读约1993年自己的代码：koitsu用Claude逆向demogroup旧作](../cases/koitsu-1993-demogroup-code-claude-recovery.md) — koitsu称让Claude逆向自己约1993年的代码，还能从反汇编辨出自己与搭档Brian的段落；未给程序名称或恢复结果。 **[其他 AI 逆向 · 待验证]**
+- [NAM A2 amp JI：rrr00bb称Claude需求建模、LeanFM研究后从Rust移到Zig](../cases/rrr00bb-nam-a2-leanfm-rust-zig-reconstruction.md) — rrr00bb称在Claude Desktop内用MCP写需求再生成Rust应用，以LeanFM逆向后移植Zig；目标名照写NAM A2 amp JI，未核功能或等价性。 **[其他 AI 逆向 · 待验证]**
+- [Cairn研究MONAI Label接口：AI Radar转述约11分钟越界写入路径](../cases/cairn-monai-label-api-blackbox-secondary-report.md) — 柠檬头.sol转述Amazon与Ars：Cairn从识别MONAI Label框架、测绘API到文件名路径越界约11分钟，后续会话再获shell；不是11分钟完成全部攻击的独立复现。 **[其他 AI 逆向 · 待验证]**
+- [Drost里的GLM-5.4：原作者报告私有实验室黑盒信任链研究](../cases/glm54-drost-private-lab-blackbox-chain-report.md) — AI Radar引出Migel Tissera的GLM-5.4／Drost实验；补读原作者确认从认证上传研究字幕、数据库与任务链，报告gVisor内非root执行与用户接管路径，未独立复现。 **[其他 AI 逆向 · 待验证]**
+- [本地模型研究竞品更新：Danny的opencode与REA工作流自述](../cases/danny-local-model-opencode-rea-competitor-study.md) — Danny称在M5U 256GB用本地模型经opencode与REA理解竞品逻辑、比较更新，约20分钟；竞品与输出未公开，模型名和尺寸照原文不作验证。 **[REA · 待验证]**
 - [Windows 11 25H2主题资源：Minedows拟用AI Agent与msstyleeditor定位偏移](../cases/minedows-win11-25h2-msstyle-ai-offset-study.md) — Minedows称与AI Agent用逆向和msstyleeditor推进官方Windows 11 25H2主题运行，父回复明确资源已在、仍要找字节和偏移；未报告完成兼容。 **[其他 AI 逆向 · 进行中]**
 - [旧Movie Maker界面重建失败：ヤーマン称Claude分析后仍只像基本布局](../cases/ya-man-movie-maker-claude-rea-ui-rebuild-failure.md) — ヤーマン喜欢旧Movie Maker的UI，要求Claude用REA MCP分析真程序再做简化重建，称结果完全不同，仅基本布局相似；没有版本或对照文件。 **[REA · 分析测试]**
 - [让Claude研究Claude Code桌面端：Legend的REA请求短帖](../cases/claude-code-desktop-rea-self-inspection-request.md) — Legend写下让Claude用REA研究Claude Code桌面应用的具体请求并附视频；正文没有报告发现或结果，不推断模型拒绝或克隆成功。 **[REA · 待验证]**
@@ -506,7 +512,7 @@
 - [EngineerAnything：把网站观察整理为Agent可读Markdown与API的转述](../cases/engineeranything-rea-website-markdown-api-report.md) — Alpha_Ninja称EngineerAnything基于REA，扫描DOM、脚本、依赖、路由、网络与存储，输出单一Markdown；公开源码与API是帖文宣称，未取得对应文档或执行扫描。 **[REA · 相关项目]**
 - [iPhone主机侧AI防御idea：从MVT线索到REA辅助审计的推测方案](../cases/iphone-host-local-llm-forensics-hardening-idea.md) — 三条回复设想在外部Mac/Linux主机用本地LLM、MVT与REA做iPhone取证和闭环防御；没有可运行项目、设备测试或SEP访问证据，不是可用清除方案。 **[REA · 待验证]**
 - [Phison自有代码分析：转述新版Opus拒绝、旧版继续的受阻对照](../cases/phison-own-code-opus-refusal-secondary-report.md) — ZHU YAJUN转述Phison工程师研究自家代码遭Opus 5.5拒绝，切回4.8继续；没有工程师原帖、提示或二进制，不能证明具体政策因果或版本优劣。 **[其他 AI 逆向 · 待验证]**
-- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO把参考视频拆成制作研究报告与VIDEO.md，新增转述列HTML／PDF、元数据／视觉证据和MiniMax H3重做计划；制作来源仍是推断，非找回原Prompt或自动成片。 **[其他 AI 逆向 · 相关项目]**
+- [REA-VIDEO：逐镜制作研究、使用者反馈与竞争方比较边界](../cases/rea-video-shot-breakdown-rebuild-report.md) — REA-VIDEO拆解逐镜制作方法；0xPing新报七片跑通六片判对、一段实拍加入视觉模型后翻转判定。报告与输入未读，不能外推检测准确率或恢复原Prompt。 **[其他 AI 逆向 · 相关项目]**
 - [chameleon：Oracle自称在做oracle7驱动的REA卫星模型](../cases/chameleon-oracle7-rea-satellite-report.md) — Oracle把chameleon列为自己的satellite models之一，并称其为oracle7版REA；没有架构、代码、目标测试或可用接口。 **[REA · 进行中]**
 - [搜狗输入法：用AI研究断网、禁更新与禁广告脚本的转述idea](../cases/sogou-input-ai-offline-adblock-script-idea.md) — 三项AI话题清单点名研究搜狗输入法并制作一键脚本，发布者自承未核实功能；没有脚本、版本或测试，不宣称隐私与离线能力已实现。 **[其他 AI 逆向 · 待验证]**
 - [上海AI算力中转刑案：转述AI脚本与签名滥用的法律风险](../cases/shanghai-ai-api-signature-abuse-court-report.md) — 帖文转述宗某某借AI研究未公开接口、批量账号与伪造签名转售算力，被判三年缓刑；未取得判决或原始技术记录，只作风险案例，不提供绕过方法。 **[其他 AI 逆向 · 待验证]**

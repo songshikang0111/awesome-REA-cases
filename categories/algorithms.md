@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [把美国税法重建成Lean规则：Lexifina引用检查与税款对照的转述](../cases/lexifina-us-tax-lean-rule-reconstruction-report.md) — Kxians转述Lexifina把税法XML与2025所得税规则形式化到Lean，称发现138处文本问题、5000户中4993户匹配PolicyEngine；原始证明与AI参与细节未核。 **[其他 AI 逆向 · 待验证]**
 - [陌生机器指令挑战：Greg Chew转述GPT-5.5逆向耗时与费用](../cases/aisi-unfamiliar-machine-gpt55-secondary-benchmark.md) — Greg Chew在安全评论中转述AISI挑战：仅从指令理解陌生机器，专家12小时，GPT-5.5为10分22秒、1.73美元；没有原题或原始评测，不能外推通用逆向能力。 **[其他 AI 逆向 · 待验证]**
 - [Cloudflare指纹差异难找：Elnyx称GPT未能有效协助协议研究](../cases/cloudflare-gpt-fingerprint-environment-comparison-failure.md) — Elnyx报告逆向Cloudflare协议时GPT不能很好比较上百份指纹采集的环境差异；未报告成功绕过或提供样本。 **[其他 AI 逆向 · 分析测试]**
 - [S1Mal静态恶意软件研究：Ghidra／capa文本先拆成32个行为问题](../cases/s1mal-system-one-ghidra-capa-malware-detection-study.md) — 吉川孝志转述预印本：不执行Windows样本，以Ghidra／capa提特征，32个行为问题比只问是否恶意更有效；S1Mal的检测率随误报阈值变化，未复跑。 **[其他 AI 逆向 · 分析测试]**
