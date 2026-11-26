@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2877 个案例与项目
+# 2887 个案例与项目
 
-**最近案例更新：**2026 年 11 月 27 日 00:16 · **最近维护：**2026 年 11 月 27 日 00:16 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 27 日 04:11 · **最近维护：**2026 年 11 月 27 日 04:11 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：恢复编译器、对照应用行为、保存游戏，让设备重新互通。看的是具体方法和作者报告的检查，不是一张 AI 能力排行榜。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：恢复编译器、追查重试行为、保存游戏，让设备重新互通。具体方法和作者报告的检查，比笼统的 AI 能力宣称更值得看。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[OpenGlass Go：重新开放裸眼3D屏](cases/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22`作者串与固定构建文档 — Megabits将**逆向和初期代码归功Kimi，Armbian固件收尾归功Gemini Neon**。公开文档列3D媒体播放、文件传输与STM32控制；真机测试为项目自报，内核bug仍待提交。本合集未构建或刷写。`进行中`
@@ -33,7 +33,7 @@
 7. **[Elecbrakes：研究拖车的蓝牙刹车](cases/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19`研究者原文；`2026-11-20`CVE登记 — Forck与McCarthy用**Claude读字节码、做研究工具**，再报告自有硬件测试。EB2／VM1修复有文档，旧ELBC 2000截至原文无修复；固件静态分析没有证明恶意刷写。本合集未复现。`未独立核验`
 8. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22`介绍与固定文档 — Agent按录制行为写Rust，新文档报告**17224次字节一致，15861次全在Rust**，其余回退。此前M4基准中CLI约19倍含进程启动优势，预热进程内为4.2倍。录制会真实执行副作用，须用隔离副本；本合集未重跑。`未独立核验`
 9. **[echo-dot-assist：保留麦克风，换掉Alexa](cases/echo-dot-assist-claude-hassmic-home-assistant.md)** · `2026-11-24`介绍与固定README — **Claude参与的hassmic让旧Echo接Home Assistant**，保留原音频前端；解锁研究归R0rt1z2。项目每型号仅测一台，代码未经审计，安装会清空设备且可能变砖；本合集未验证网络隔离。`进行中`
-10. **[rea-games：重建行为，再故意改坏检查](cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md)** · `2026-11-26`转述与固定文档 — **Claude／Codex流程，自报六款Web游戏录制对照通过**，四款另有Rust／Godot检查。故意改规则会失败，但录制状态匹配不等于所有输入或画面等价；Godot外观未查，Dino的Bevy窗口未游玩。已读文档，未重跑。`未独立核验`
+10. **[curl.exe：查清请求何时重试](cases/nate-brooks-curl-retry-claude-rea-analysis.md)** · `2026-11-27`作者串 — Nate报告**Claude／REA用8次工具调用**，随后将8种HTTP状态码、退避常量与源码对照，并用本地服务器检查。目标修订与完整日志未公开；这是作者报告的对照，不是本合集重跑。`分析测试`
 
 ## 经典案例
 
@@ -50,10 +50,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **562** |
-| [硬件与设备互通](categories/hardware.md) | **758** |
-| [应用与客户端](categories/apps.md) | **1189** |
-| [算法与功能重建](categories/algorithms.md) | **368** |
+| [游戏与游戏保存](categories/games.md) | **564** |
+| [硬件与设备互通](categories/hardware.md) | **760** |
+| [应用与客户端](categories/apps.md) | **1194** |
+| [算法与功能重建](categories/algorithms.md) | **369** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

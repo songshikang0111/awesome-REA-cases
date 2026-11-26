@@ -2,8 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Brother激光打印机掉线：Matt Kelch用Gemini Neon继续固件研究](../cases/matt-kelch-brother-laser-lan-firmware-ai-debugging.md) — Matt研究约20年旧Brother打印机一段时间后离开LAN的问题，称Opus 5.5与Sol 6.2反复触发安全过滤，Gemini 4 Neon暂未触发；没有修复结论。 **[其他 AI 逆向 · 进行中]**
+- [Nikon SDK：Alex Barashkov在AI工作流中报告进行中的逆向研究](../cases/alex-barashkov-nikon-sdk-ai-research.md) — Alex在回答夜间Agent用途时列出Nikon SDK逆向；未说明相机型号、接口、功能目标或成果，不推断相机控制已实现。 **[其他 AI 逆向 · 进行中]**
 - [不用戴手表的睡眠追踪：Pixel Gamer称Gemini研究声学扫描后提出idea](../cases/pixelgamer-gemini-acoustic-room-sleep-tracker-idea.md) — Pixel Gamer 4k将高频不可闻声音的研究归于Gemini 4 Neon，计划制作非穿戴睡眠追踪器；Meta房间扫描说法和测量能力未核。 **[其他 AI 逆向 · 待验证]**
-- [心力球绕开原App：凌晨4点扑克脸提出Gemini辅助协议研究与独立客户端idea](../cases/xinli-ball-ai-app-protocol-independent-client-idea.md) — 作者称Gemini给出研究心力球App、可能抓蓝牙流量并自制客户端的思路，自己未用过设备；连接方式与驱动源码恢复均未证实。 **[其他 AI 逆向 · 待验证]**
+- [心力球音频互通idea：Gemini协议建议与借录音硬件经验研究的两条路径](../cases/xinli-ball-ai-app-protocol-independent-client-idea.md) — 原有Gemini辅助App／协议idea新增张立行的建议：让AI学习录音硬件逆向经验，回应非root安卓获取心力球音频的失败求助；均无连通验证。 **[其他 AI 逆向 · 待验证]**
 - [从SL6801经验到TS47：转述Claude复用技能，4小时移植Rockbox](../cases/rockbox-ts47-claude-reused-porting-skills-report.md) — 中文转述称先把9美元播放器的Rockbox移植经验封装成技能，再让Claude用4小时适配另一台TS47；无原始开发记录或实机验证，不能继承SL6801硬件参数。 **[其他 AI 逆向 · 待验证]**
 - [先Windows再Mac：Mukshud称用Claude Code与Ghidra自学驱动研究](../cases/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud说先在Windows用逆向工具、自制检查和Claude Code／Ghidra学习驱动，再研究Mac驱动层；未给驱动目标或产物。 **[其他 AI 逆向 · 待验证]**
 - [键盘轮询固件：猿子称Agent查串口资料、写Mac脚本并刷写](../cases/motoko-keyboard-agent-serial-mac-polling-firmware.md) — 猿子称Agent从GitHub查串口信息，写可在Mac运行的小脚本并刷改版轮询固件，半小时完成；键盘型号、源码与检查未给。 **[其他 AI 逆向 · 待验证]**

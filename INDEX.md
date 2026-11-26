@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2877 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2887 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（562）
-- [硬件与设备互通](categories/hardware.md)（758）
-- [应用与客户端](categories/apps.md)（1189）
-- [算法与功能重建](categories/algorithms.md)（368）
+- [游戏与游戏保存](categories/games.md)（564）
+- [硬件与设备互通](categories/hardware.md)（760）
+- [应用与客户端](categories/apps.md)（1194）
+- [算法与功能重建](categories/algorithms.md)（369）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Emerald NX：AI辅助Switch原生移植的介绍，首次真机启动仍待测](cases/emerald-nx-ai-assisted-switch-native-port.md) — The Gaming Emporium介绍eonlynx的Emerald NX v0.5.0并转述大量AI辅助；公开README与审计报告构建和静态检查完成，但明确首次Switch真机启动待测。 **[其他 AI 逆向 · 进行中]**
+- [Sonic Rush宽屏PC移植：Kyle的进行中演示与Claude匹配反编译归因](cases/sonic-rush-kyle-claude-decompilation-pc-port-report.md) — 候选讨论Sonic Rush反编译的AI归因；补读Kyle的11月24日原帖，作者称宽屏PC版已运行并采用Claude辅助100%匹配反编译，未核代码或测试。 **[其他 AI 逆向 · 进行中]**
 - [Victory的GTA6兼容研究：添财转述序章画面与仍严重的着色器问题](cases/victory-gta6-ai-pc-compatibility-secondary-report.md) — 添财称Victory借AI推进Xbox到PC兼容，已显示序章、人物和城市但着色器／纹理问题严重；48小时可玩仅预期，无原始实现验收。 **[其他 AI 逆向 · 待验证]**
 - [NES马里奥改配色：两帖转述GigaChat 4修改ROM并在M4 Mac启动](cases/gigachat4-nes-mario-palette-binary-edit-demo-report.md) — 两篇中文介绍称GigaChat 4演示直接改NES超级马里奥ROM调色板、反转颜色再启动；未取得原演示、样本与补丁，不等于完整反编译。 **[其他 AI 逆向 · 待验证]**
 - [找不到互动入口：Rynco称用Codex解包与反编译研究一款成人游戏](cases/codex-adult-game-interaction-discovery-report.md) — Rynco因游戏互动内容难以发现，称动用Codex解包和反编译寻找地点、项目与进入方式；游戏未具名，没有整理出的入口或验证输出。 **[其他 AI 逆向 · 待验证]**
@@ -591,8 +593,10 @@
 
 ### 硬件与设备互通
 
+- [Brother激光打印机掉线：Matt Kelch用Gemini Neon继续固件研究](cases/matt-kelch-brother-laser-lan-firmware-ai-debugging.md) — Matt研究约20年旧Brother打印机一段时间后离开LAN的问题，称Opus 5.5与Sol 6.2反复触发安全过滤，Gemini 4 Neon暂未触发；没有修复结论。 **[其他 AI 逆向 · 进行中]**
+- [Nikon SDK：Alex Barashkov在AI工作流中报告进行中的逆向研究](cases/alex-barashkov-nikon-sdk-ai-research.md) — Alex在回答夜间Agent用途时列出Nikon SDK逆向；未说明相机型号、接口、功能目标或成果，不推断相机控制已实现。 **[其他 AI 逆向 · 进行中]**
 - [不用戴手表的睡眠追踪：Pixel Gamer称Gemini研究声学扫描后提出idea](cases/pixelgamer-gemini-acoustic-room-sleep-tracker-idea.md) — Pixel Gamer 4k将高频不可闻声音的研究归于Gemini 4 Neon，计划制作非穿戴睡眠追踪器；Meta房间扫描说法和测量能力未核。 **[其他 AI 逆向 · 待验证]**
-- [心力球绕开原App：凌晨4点扑克脸提出Gemini辅助协议研究与独立客户端idea](cases/xinli-ball-ai-app-protocol-independent-client-idea.md) — 作者称Gemini给出研究心力球App、可能抓蓝牙流量并自制客户端的思路，自己未用过设备；连接方式与驱动源码恢复均未证实。 **[其他 AI 逆向 · 待验证]**
+- [心力球音频互通idea：Gemini协议建议与借录音硬件经验研究的两条路径](cases/xinli-ball-ai-app-protocol-independent-client-idea.md) — 原有Gemini辅助App／协议idea新增张立行的建议：让AI学习录音硬件逆向经验，回应非root安卓获取心力球音频的失败求助；均无连通验证。 **[其他 AI 逆向 · 待验证]**
 - [从SL6801经验到TS47：转述Claude复用技能，4小时移植Rockbox](cases/rockbox-ts47-claude-reused-porting-skills-report.md) — 中文转述称先把9美元播放器的Rockbox移植经验封装成技能，再让Claude用4小时适配另一台TS47；无原始开发记录或实机验证，不能继承SL6801硬件参数。 **[其他 AI 逆向 · 待验证]**
 - [先Windows再Mac：Mukshud称用Claude Code与Ghidra自学驱动研究](cases/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud说先在Windows用逆向工具、自制检查和Claude Code／Ghidra学习驱动，再研究Mac驱动层；未给驱动目标或产物。 **[其他 AI 逆向 · 待验证]**
 - [键盘轮询固件：猿子称Agent查串口资料、写Mac脚本并刷写](cases/motoko-keyboard-agent-serial-mac-polling-firmware.md) — 猿子称Agent从GitHub查串口信息，写可在Mac运行的小脚本并刷改版轮询固件，半小时完成；键盘型号、源码与检查未给。 **[其他 AI 逆向 · 待验证]**
@@ -1352,6 +1356,11 @@
 
 ### 应用与客户端
 
+- [curl.exe何时重试：Nate Brooks报告Claude／REA定位逻辑并对照源码与服务器](cases/nate-brooks-curl-retry-claude-rea-analysis.md) — Nate称Claude Code经REA用8次工具调用研究Windows curl.exe的--retry，报告8种HTTP状态码与退避常量匹配源码，另做服务器测试；未独立复跑。 **[REA · 分析测试]**
+- [不重写旧EXE：Tugser Okur称本地LLM接REA分析，再以DLL／hook扩展](cases/tugser-okur-local-llm-rea-legacy-exe-dll-hooks.md) — 作者称让本地模型经REA MCP用反编译与调用分析找旧Windows程序的关键函数，以DLL／hook加入新功能；未公开程序名、功能或验收。 **[REA · 待验证]**
+- [Sketch画布性能：Alex Barashkov把实现研究纳入AI设计工作流](cases/alex-barashkov-sketch-canvas-ai-research.md) — Alex在回答夜间Agent任务时称研究Sketch画布实现，希望自家应用达到类似性能；没有分析细节、模型或基准。 **[其他 AI 逆向 · 进行中]**
+- [Chrome／Dia组件状态：Alex Barashkov以AI辅助研究补齐自家应用的UX设计](cases/alex-barashkov-chrome-dia-ux-state-research.md) — Alex称研究Chrome与Dia的对应组件，确保自己设计覆盖状态；后续解释AI帮助研究，设计与收尾由人负责，未公开状态清单或验收。 **[其他 AI 逆向 · 进行中]**
+- [从Blender教程到Web效果：Alex Barashkov报告AI工作流中的拆解与转换](cases/alex-barashkov-blender-effects-web-research.md) — Alex称研究Blender教程与文件，把其中效果转换到Web；这是效果重建目标，不是Blender程序反编译，未展示具体效果或实现。 **[其他 AI 逆向 · 进行中]**
 - [给vikingmute的建议：小学弟提出用AI研究Codex computer-use](cases/vikingmute-codex-computer-use-ai-bridge-suggestion.md) — 小学弟建议用AI逆向Codex桌面操作能力；只是一条具体工具研究idea，没有桥接、实现或运行结果。 **[其他 AI 逆向 · 待验证]**
 - [Messages API转Rust：HenryPeng转述Claude重建与匿名差异指纹验证](cases/anthropic-messages-api-rust-shadow-parity-report.md) — 转述Anthropic用Claude迁移Python API到Rust，以输出重放和匿名差异指纹查行为偏差；测试约98%通过不等于生产匹配，性能未独立复核。 **[其他 AI 逆向 · 待验证]**
 - [Binary Ninja MCP：shibazuke介绍让Agent查询IL、改类型与打补丁的插件](cases/binary-ninja-mcp-shibazuke-tool-introduction.md) — shibazuke介绍Binary Ninja MCP插件，可向Claude Code／Cursor提供反编译、IL、交叉引用与编辑接口；原仓库未定位，不能继承同帖另一工具的试用结果。 **[其他 AI 逆向 · 相关项目]**
@@ -2363,7 +2372,7 @@
 - [Notion：追清复制文字和图片的内部链路](cases/notion-clipboard.md) — 追踪桌面客户端复制文字和图片的实现路径。 **[REA]**
 - [Flutter App：从安装包识别运行时和编译结构](cases/flutter-aot.md) — 识别 Flutter APK 的运行时、构建与 AOT 结构。 **[REA]**
 - [网站重建订单：作者自述的交付报告](cases/website-rebuild-report.md) — 作者称以 REA 辅助网站重建，缺少具体项目与验证。 **[REA · 待验证]**
-- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](cases/tradingview-workflow.md) — TradingView重建报告与安装风险分开保留；Poor Wizard因据称免费绘图限30个再提REA研究idea，未开工。组合终端的免费行情与年省32400美元仍未核。 **[REA · 待验证]**
+- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](cases/tradingview-workflow.md) — TradingView重建与安装风险分开保留；Roshan新增REA研究、Claude／ChatGPT接独立Level 2订阅的idea，未给实现。免费行情、付费功能及年省32400美元仍未核。 **[REA · 待验证]**
 - [WHOOP：分析健康追踪设备的 Android App](cases/whoop-apk.md) — APK 分析线索新增 Zhoop / NOOP 替代客户端的二手报告，尚未独立验证。 **[未确认使用 REA · 待验证]**
 - [ArtCraft：不要把从零开发写成逆向 Adobe](cases/artcraft-boundary.md) — ArtCraft为从零重建的早期创作/Office套件；峰会转述称24小时得到Photoshop近似、约10倍启动速度，同时明确未100%等价，非反编译完成证明。 **[其他 AI 逆向 · 相关项目]**
 - [Obsidian：真实桌面包的大规模分析测试](cases/obsidian-asar.md) — 用户确认原 ASAR 包可完成分析，但没有具体功能重建。 **[REA · 分析测试]**
@@ -2544,6 +2553,7 @@
 
 ### 算法与功能重建
 
+- [Real2SimLab：把视频反推仿真程序交回原基准评分器的统一评测平台](cases/real2simlab-agent-simulation-benchmark-pipeline.md) — Zefan Cai介绍Real2SimLab统一Agent生成仿真的运行、原评分器评测和训练标注；公开README解释冻结程序、离线重跑与去重边界，规模不是准确率。 **[其他 AI 逆向 · 分析测试]**
 - [13场景、43节拍：Miles李用rea-video拆解Opus动画PPT的声画与按键](cases/miles-rea-video-animated-ppt-thirteen-scenes.md) — Miles李称用rea-video研究一套Claude Opus5.6动画PPT，拆成13场景、43节拍并整理中文资料；还原步骤与交互尚未复核，不等于已重建幻灯片软件。 **[REA · 分析测试]**
 - [alien_signals与Dart AOT：Seven Du用Opus5.5反编译检查内存访问再改代码](cases/seven-du-alien-signals-dart-aot-claude-decompilation.md) — Seven Du称Claude Opus5.5反编译研究变量复制与直接内存访问的区别并实现修改；大规模本地基准观察尚无最小复现，HEAD无法复现的疑问保留。 **[其他 AI 逆向 · 待验证]**
 - [Solana钱包到六角色Agent：explos1ve的Claude策略重建与未核收益报告](cases/explos1ve-solana-wallet-six-agent-strategy-report.md) — explos1ve称研究Solana盈利钱包后做六Agent交易台，列筛选与风控提示并要求先纸面试跑；263到9398美元、35.7倍等未经流水或源码核验。 **[其他 AI 逆向 · 待验证]**

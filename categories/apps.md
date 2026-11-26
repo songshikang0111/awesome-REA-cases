@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [curl.exe何时重试：Nate Brooks报告Claude／REA定位逻辑并对照源码与服务器](../cases/nate-brooks-curl-retry-claude-rea-analysis.md) — Nate称Claude Code经REA用8次工具调用研究Windows curl.exe的--retry，报告8种HTTP状态码与退避常量匹配源码，另做服务器测试；未独立复跑。 **[REA · 分析测试]**
+- [不重写旧EXE：Tugser Okur称本地LLM接REA分析，再以DLL／hook扩展](../cases/tugser-okur-local-llm-rea-legacy-exe-dll-hooks.md) — 作者称让本地模型经REA MCP用反编译与调用分析找旧Windows程序的关键函数，以DLL／hook加入新功能；未公开程序名、功能或验收。 **[REA · 待验证]**
+- [Sketch画布性能：Alex Barashkov把实现研究纳入AI设计工作流](../cases/alex-barashkov-sketch-canvas-ai-research.md) — Alex在回答夜间Agent任务时称研究Sketch画布实现，希望自家应用达到类似性能；没有分析细节、模型或基准。 **[其他 AI 逆向 · 进行中]**
+- [Chrome／Dia组件状态：Alex Barashkov以AI辅助研究补齐自家应用的UX设计](../cases/alex-barashkov-chrome-dia-ux-state-research.md) — Alex称研究Chrome与Dia的对应组件，确保自己设计覆盖状态；后续解释AI帮助研究，设计与收尾由人负责，未公开状态清单或验收。 **[其他 AI 逆向 · 进行中]**
+- [从Blender教程到Web效果：Alex Barashkov报告AI工作流中的拆解与转换](../cases/alex-barashkov-blender-effects-web-research.md) — Alex称研究Blender教程与文件，把其中效果转换到Web；这是效果重建目标，不是Blender程序反编译，未展示具体效果或实现。 **[其他 AI 逆向 · 进行中]**
 - [给vikingmute的建议：小学弟提出用AI研究Codex computer-use](../cases/vikingmute-codex-computer-use-ai-bridge-suggestion.md) — 小学弟建议用AI逆向Codex桌面操作能力；只是一条具体工具研究idea，没有桥接、实现或运行结果。 **[其他 AI 逆向 · 待验证]**
 - [Messages API转Rust：HenryPeng转述Claude重建与匿名差异指纹验证](../cases/anthropic-messages-api-rust-shadow-parity-report.md) — 转述Anthropic用Claude迁移Python API到Rust，以输出重放和匿名差异指纹查行为偏差；测试约98%通过不等于生产匹配，性能未独立复核。 **[其他 AI 逆向 · 待验证]**
 - [Binary Ninja MCP：shibazuke介绍让Agent查询IL、改类型与打补丁的插件](../cases/binary-ninja-mcp-shibazuke-tool-introduction.md) — shibazuke介绍Binary Ninja MCP插件，可向Claude Code／Cursor提供反编译、IL、交叉引用与编辑接口；原仓库未定位，不能继承同帖另一工具的试用结果。 **[其他 AI 逆向 · 相关项目]**
@@ -1013,7 +1018,7 @@
 - [Notion：追清复制文字和图片的内部链路](../cases/notion-clipboard.md) — 追踪桌面客户端复制文字和图片的实现路径。 **[REA]**
 - [Flutter App：从安装包识别运行时和编译结构](../cases/flutter-aot.md) — 识别 Flutter APK 的运行时、构建与 AOT 结构。 **[REA]**
 - [网站重建订单：作者自述的交付报告](../cases/website-rebuild-report.md) — 作者称以 REA 辅助网站重建，缺少具体项目与验证。 **[REA · 待验证]**
-- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](../cases/tradingview-workflow.md) — TradingView重建报告与安装风险分开保留；Poor Wizard因据称免费绘图限30个再提REA研究idea，未开工。组合终端的免费行情与年省32400美元仍未核。 **[REA · 待验证]**
+- [TradingView：复刻流程与免费 Premium 下载风险的证据边界](../cases/tradingview-workflow.md) — TradingView重建与安装风险分开保留；Roshan新增REA研究、Claude／ChatGPT接独立Level 2订阅的idea，未给实现。免费行情、付费功能及年省32400美元仍未核。 **[REA · 待验证]**
 - [WHOOP：分析健康追踪设备的 Android App](../cases/whoop-apk.md) — APK 分析线索新增 Zhoop / NOOP 替代客户端的二手报告，尚未独立验证。 **[未确认使用 REA · 待验证]**
 - [ArtCraft：不要把从零开发写成逆向 Adobe](../cases/artcraft-boundary.md) — ArtCraft为从零重建的早期创作/Office套件；峰会转述称24小时得到Photoshop近似、约10倍启动速度，同时明确未100%等价，非反编译完成证明。 **[其他 AI 逆向 · 相关项目]**
 - [Obsidian：真实桌面包的大规模分析测试](../cases/obsidian-asar.md) — 用户确认原 ASAR 包可完成分析，但没有具体功能重建。 **[REA · 分析测试]**
