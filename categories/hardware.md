@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [从SL6801经验到TS47：转述Claude复用技能，4小时移植Rockbox](../cases/rockbox-ts47-claude-reused-porting-skills-report.md) — 中文转述称先把9美元播放器的Rockbox移植经验封装成技能，再让Claude用4小时适配另一台TS47；无原始开发记录或实机验证，不能继承SL6801硬件参数。 **[其他 AI 逆向 · 待验证]**
 - [先Windows再Mac：Mukshud称用Claude Code与Ghidra自学驱动研究](../cases/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud说先在Windows用逆向工具、自制检查和Claude Code／Ghidra学习驱动，再研究Mac驱动层；未给驱动目标或产物。 **[其他 AI 逆向 · 待验证]**
 - [键盘轮询固件：猿子称Agent查串口资料、写Mac脚本并刷写](../cases/motoko-keyboard-agent-serial-mac-polling-firmware.md) — 猿子称Agent从GitHub查串口信息，写可在Mac运行的小脚本并刷改版轮询固件，半小时完成；键盘型号、源码与检查未给。 **[其他 AI 逆向 · 待验证]**
 - [尼康固件与定制LUT：把AI逆向用在垂直相机产品的idea](../cases/nikon-ai-firmware-custom-lut-product-idea.md) — 作者转述评论区以AI研究尼康固件、解锁隐藏功能及定制LUT为垂直产品方向；没有型号或实现，不等同于既有D2X报告。 **[其他 AI 逆向 · 待验证]**

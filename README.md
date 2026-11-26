@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2860 cases & projects
+# 2866 cases & projects
 
-**Latest case update:** November 26, 2026, 16:15 · **Last maintained:** November 26, 2026, 16:15 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 26, 2026, 20:08 · **Last maintained:** November 26, 2026, 20:08 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -29,7 +29,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 3. **[FreeCAD: build an interface instead of clicking](cases/en/aoqu-agent-native-freecad-binary-mcp-computer-use.md)** · `2026-11-26` author update and pinned study — **DeepSeek/REA exposes FreeCAD through MCP**; five tasks, three runs per setup reportedly pass every check. The 55× speed/35× token demo excludes 30–85-minute server builds, not a universal CAD speedup. Methods read, tests not rerun. `Analysis test`
 4. **[Horizon: Minecraft Java behavior, rebuilt in Rust](cases/en/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16` report and pinned docs — **AI-assisted reconstruction with 281 reported differential harnesses**, existing saves and vanilla multiplayer. Public docs and a Codex-credited commit were read, not the full test results; performance claims are hardware-specific. Own game required; not built here. `In progress`
 5. **[Underworld Exhumed: preserve two DOS worlds](cases/en/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20` introduction; `2026-11-17` pinned docs — Exhume's Claude Code skills support **reported byte-identical UW.EXE/UW2.EXE rebuilds**, plus native/web ports checked against 17/13 DOS recordings. Project reports, not checks rerun here; native ports need your own game data. `Unverified here`
-6. **[Promon: measure what app hardening changes](cases/en/promon-q42026-ai-mobile-protection-harness-benchmark.md)** · `2026-11-23` first-party report — **Claude Code/Codex in disposable containers** help study mobile malware and test protected binaries. Five runs per version on one narrow target reportedly show roughly **10× attack cost** after hardening, not an unbreakable app. Red/blue fixes remain experimental and human-reviewed; no tests rerun here. `Analysis test`
+6. **[Capcom vs. SNK 2: matching code, then porting the game](cases/en/cvs2-naomi-dc-claude-decompilation-native-ports.md)** · `2026-11-26` report and pinned docs — gibletto discloses **Claude-assisted reconstruction of three arcade/Dreamcast programs**, with reported byte matches and five-platform ports. Disc assets and many SDK modules are reused; matching originals does not verify port visuals or sound. Network features remain unavailable. Docs read, no builds rerun. `Unverified here`
 7. **[Elecbrakes: audit a trailer's Bluetooth brakes](cases/en/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19` researcher account; `2026-11-20` CVE record — Forck and McCarthy credit **Claude with bytecode analysis and research tooling**, then report tests on their own hardware. EB2/VM1 fixes are documented; older ELBC 2000 had no fix at publication. Static firmware analysis did not demonstrate malicious flashing. Not reproduced here. `Unverified here`
 8. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22` report and pinned docs — Agents write Rust against recorded behavior. Updated project docs report **17,224 byte-identical runs, 15,861 fully in Rust**; the rest fall back. The earlier M4 benchmark's roughly 19× CLI gain includes process startup, versus 4.2× warmed in-process. Recording runs real side effects; use isolated copies. Not rerun here. `Unverified here`
 9. **[echo-dot-assist: keep the microphones, replace Alexa](cases/en/echo-dot-assist-claude-hassmic-home-assistant.md)** · `2026-11-24` introduction and pinned README — **Claude-credited hassmic connects old Echos to Home Assistant**, keeping the original audio front end. Unlocking research belongs to R0rt1z2. Only one unit per model was tested by the project; code is unaudited and installation can wipe or brick a device. Network isolation is not verified here. `In progress`
@@ -50,10 +50,10 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **558** |
-| [Hardware & interoperability](categories/en/hardware.md) | **755** |
-| [Applications & clients](categories/en/apps.md) | **1182** |
-| [Algorithms & feature recovery](categories/en/algorithms.md) | **365** |
+| [Games & preservation](categories/en/games.md) | **559** |
+| [Hardware & interoperability](categories/en/hardware.md) | **756** |
+| [Applications & clients](categories/en/apps.md) | **1183** |
+| [Algorithms & feature recovery](categories/en/algorithms.md) | **368** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
 

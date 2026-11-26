@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Capcom vs. SNK 2：Claude辅助三版本反编译，字节匹配与跨平台移植分开看](../cases/cvs2-naomi-dc-claude-decompilation-native-ports.md) — gibletto公开文档披露Claude参与，将CvS2三版SH-4程序重写为C／汇编，报告字节匹配并提供五平台移植；游戏数据、SDK复用与移植缺口仍保留。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Adventure 2：Andrew Omori转述多Agent反编译与现代化](../cases/andrew-omori-sonic-adventure2-agent-decompilation-report.md) — Andrew Omori称协调Agent群反编译Sonic Adventure 2，100%恢复并现代化；没有项目、平台版本、源码或匹配报告。 **[其他 AI 逆向 · 待验证]**
 - [GTA6 PC内存占用：Satwik建议Claude研究Xbox资源与着色器优化](../cases/satwik-gta6-xbox-claude-memory-optimization-idea.md) — Satwik Hegde建议先稳定GTA6 PC项目，再让Claude研究Xbox优化来减少资源／着色器内存；并承认资产本身体积可能限制收益，尚未实施。 **[其他 AI 逆向 · 待验证]**
 - [游戏逆向别猜偏移：Neon长提示词与Claude三种加载入口](../cases/neon-claude-game-reversing-ground-truth-prompt.md) — 游戏逆向提示词要求实测偏移、引擎分流及编译／真机检查；新评论指出角色冲突和无工具时的保证不可信，未验证jailbreak效果。 **[其他 AI 逆向 · 相关项目]**

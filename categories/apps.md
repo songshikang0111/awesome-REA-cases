@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [YummyOrange：Furqan Ali称花1000万Token与5天，用Claude研究Tangerine应用](../cases/furqan-yummyorange-tangerine-claude-reconstruction.md) — Furqan Ali称用Claude逆向Tangerine并命名重建项目YummyOrange，报告1000万Token与5天，附视频及应用／GitHub链接回复；功能等价未经检查。 **[其他 AI 逆向 · 待验证]**
 - [旧SDK伪代码读到一半：ai2face称Agent虚构函数名，仍须Ghidra核对](../cases/ai2face-old-sdk-agent-function-name-hallucination.md) — ai2face报告Agent研究旧SDK时开始虚构函数名，自己须对Ghidra核对；保留一次具体失败环节，不做模型排名。 **[其他 AI 逆向 · 待验证]**
 - [从交易前端请求恢复API：cryppi的Claude／ChatGPT辅助研究idea](../cases/cryppi-trading-frontend-ai-api-reconstruction-idea.md) — cryppi建议用AI观察前端请求，恢复端点、参数与响应格式以获得交易接口；没有具名平台、实现或请求记录。 **[其他 AI 逆向 · 待验证]**
 - [编码工具会上传忽略文件吗：Kiro转述REA索引器与隐私模式审计idea](../cases/kiro-rea-coding-indexer-privacy-canary-audit-idea.md) — Kiro建议追踪编码工具索引器读文件、用假密钥对照请求体，并检查隐私模式遥测和命令审批；没有具名工具、报告或执行日志。 **[REA · 待验证]**

@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2860 entries**, organized by use case, without a Top-N or popularity threshold.
+**2866 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (558)
-- [Hardware and interoperability](categories/en/hardware.md) (755)
-- [Applications and clients](categories/en/apps.md) (1182)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (365)
+- [Games and preservation](categories/en/games.md) (559)
+- [Hardware and interoperability](categories/en/hardware.md) (756)
+- [Applications and clients](categories/en/apps.md) (1183)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (368)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Capcom vs. SNK 2: Claude-assisted three-version decompilation, separating byte matching from native ports](cases/en/cvs2-naomi-dc-claude-decompilation-native-ports.md) — gibletto's public documentation discloses Claude use and reports three SH-4 programs rewritten as C/assembly with byte matches and five-platform ports. Disc-data/SDK reuse and port limitations remain explicit. **[Other AI-assisted work · Needs verification]**
 - [Sonic Adventure 2: Andrew Omori relays multi-agent decompilation and modernization](cases/en/andrew-omori-sonic-adventure2-agent-decompilation-report.md) — Andrew Omori cites agent fleets decompiling Sonic Adventure 2, claiming 100% recovery and modernization. Project identity, platform revision, source and matching reports are absent. **[Other AI-assisted work · Needs verification]**
 - [GTA6 PC memory use: Satwik proposes Claude study of Xbox asset and shader optimizations](cases/en/satwik-gta6-xbox-claude-memory-optimization-idea.md) — Satwik Hegde suggests stabilizing a GTA6 PC project before Claude studies Xbox optimizations to reduce asset/shader memory use, while noting limits from asset size. No implementation is reported. **[Other AI-assisted work · Needs verification]**
 - [Do not guess game offsets: Neon/Claude reversing prompts and a critique of unsupported guarantees](cases/en/neon-claude-game-reversing-ground-truth-prompt.md) — Game-reversing prompts ask for measured offsets, engine-specific paths and build/runtime checks. A new comment identifies role conflicts and unsupported guarantees without tools; jailbreak efficacy is untested. **[Other AI-assisted work · Related project]**
@@ -589,6 +590,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [From SL6801 experience to TS47: a report of Claude reusing skills for a four-hour Rockbox port](cases/en/rockbox-ts47-claude-reused-porting-skills-report.md) — A Chinese account says skills distilled from a $9 player's Rockbox port let Claude adapt a second TS47 player in four hours. Original development and hardware checks are absent; SL6801 specifications do not transfer to TS47. **[Other AI-assisted work · Needs verification]**
 - [Windows before Mac: Mukshud reports learning driver research with Claude Code and Ghidra](cases/en/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud says reverse-engineering tools, custom checks and Claude Code/Ghidra supported Windows driver learning before Mac driver-layer work. Target driver and artifacts are absent. **[Other AI-assisted work · Needs verification]**
 - [Keyboard polling firmware: Motoko reports an agent finding serial information, writing a Mac script and flashing](cases/en/motoko-keyboard-agent-serial-mac-polling-firmware.md) — Motoko says an agent found serial information on GitHub, wrote a Mac-compatible script and flashed modified polling firmware in half an hour. Keyboard model, code and checks are absent. **[Other AI-assisted work · Needs verification]**
 - [Nikon firmware and custom LUTs: an AI-reversing idea for a focused camera product](cases/en/nikon-ai-firmware-custom-lut-product-idea.md) — The writer relays Nikon firmware research, hidden-feature unlocking and custom LUTs as a focused product direction. No model or implementation is given; it is not identified with the existing D2X report. **[Other AI-assisted work · Needs verification]**
@@ -1347,6 +1349,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [YummyOrange: Furqan Ali reports 10 million tokens and five days researching Tangerine with Claude](cases/en/furqan-yummyorange-tangerine-claude-reconstruction.md) — Furqan Ali says Claude supported reversing Tangerine into YummyOrange, reporting 10 million tokens and five days. A video and app/GitHub-link replies exist, but functional equivalence was not checked. **[Other AI-assisted work · Needs verification]**
 - [Halfway through an old SDK's pseudocode: ai2face reports invented function names and manual Ghidra checks](cases/en/ai2face-old-sdk-agent-function-name-hallucination.md) — ai2face says an agent invented function names while researching an old SDK, requiring manual comparison with Ghidra. This records one concrete failure mode, not a model ranking. **[Other AI-assisted work · Needs verification]**
 - [Recovering APIs from trading-front-end requests: cryppi's Claude/ChatGPT research idea](cases/en/cryppi-trading-frontend-ai-api-reconstruction-idea.md) — cryppi proposes AI inspection of front-end requests to reconstruct endpoints, parameters and response formats for trading access. No named platform, implementation or request records are supplied. **[Other AI-assisted work · Needs verification]**
 - [Do coding tools upload ignored files? Kiro's REA indexer and privacy-mode audit idea](cases/en/kiro-rea-coding-indexer-privacy-canary-audit-idea.md) — Kiro proposes tracing indexer reads, comparing fake keys against request bodies, and checking privacy-mode telemetry and command approval. No named tool, findings or execution logs are supplied. **[REA · Needs verification]**
@@ -2532,6 +2535,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [13 scenes and 43 beats: Miles Li uses rea-video to analyze an Opus animated presentation](cases/en/miles-rea-video-animated-ppt-thirteen-scenes.md) — Miles Li reports using rea-video on a Claude Opus 5.6 animated presentation, producing Chinese notes with 13 scenes and 43 beats. Reconstruction steps and interaction remain unchecked; no slide-editor rebuild is established. **[REA · Analysis test]**
+- [alien_signals and Dart AOT: Seven Du reports Opus 5.5 decompilation of memory access before a code change](cases/en/seven-du-alien-signals-dart-aot-claude-decompilation.md) — Seven Du says Claude Opus 5.5 decompiled code to study variable copying versus direct memory access and implemented a change. Large local benchmarks lack a minimal reproducer; a HEAD non-reproduction remains unresolved. **[Other AI-assisted work · Needs verification]**
+- [Solana wallets into six agents: explos1ve's Claude strategy-reconstruction and unchecked-return report](cases/en/explos1ve-solana-wallet-six-agent-strategy-report.md) — explos1ve claims to infer a six-agent trading desk from profitable Solana wallets, with screening/risk prompts and a paper-first instruction. $263 to $9,398 and 35.7x lack ledger or source verification. **[Other AI-assisted work · Needs verification]**
 - [Rebuilding a cycling sketch film: Gemini analyzes parallax and transitions, Claude handles storyboards and music](cases/en/iced83113143-antigravity-parallax-cycling-reference-rebuild.md) — Keep Calm and Pedal On reports an Antigravity workflow studying a reference film: Gemini analyzes ten-scene parallax, Claude designs storyboards and 44.1 kHz music, then models generate a cycling short. Video and scripts were not checked. **[Other AI-assisted work · Needs verification]**
 - [Extracting 5.6SOL behavior from collaboration history: JiaShen's first Soul Engraving update](cases/en/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen reports 120 logged historical sources, 85 candidate structures and 13 clusters in five layers to carry 5.6SOL's working methods into a new model. Migration is unfinished. **[Other AI-assisted work · In progress]**
 - [Memory and hypothesis management for AI device analysis: Masato's Markdown, CSV and Rust workflow](cases/en/masato-ai-device-analysis-markdown-csv-rust-workflow.md) — Masato describes six months analyzing multiple devices: AI repeats guesses when stuck and loses findings during conversation compaction. The reported workflow persists Markdown findings, tests CSV hypotheses and uses Rust type checks. **[Other AI-assisted work · Needs verification]**

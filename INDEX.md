@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2860 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2866 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（558）
-- [硬件与设备互通](categories/hardware.md)（755）
-- [应用与客户端](categories/apps.md)（1182）
-- [算法与功能重建](categories/algorithms.md)（365）
+- [游戏与游戏保存](categories/games.md)（559）
+- [硬件与设备互通](categories/hardware.md)（756）
+- [应用与客户端](categories/apps.md)（1183）
+- [算法与功能重建](categories/algorithms.md)（368）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Capcom vs. SNK 2：Claude辅助三版本反编译，字节匹配与跨平台移植分开看](cases/cvs2-naomi-dc-claude-decompilation-native-ports.md) — gibletto公开文档披露Claude参与，将CvS2三版SH-4程序重写为C／汇编，报告字节匹配并提供五平台移植；游戏数据、SDK复用与移植缺口仍保留。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Adventure 2：Andrew Omori转述多Agent反编译与现代化](cases/andrew-omori-sonic-adventure2-agent-decompilation-report.md) — Andrew Omori称协调Agent群反编译Sonic Adventure 2，100%恢复并现代化；没有项目、平台版本、源码或匹配报告。 **[其他 AI 逆向 · 待验证]**
 - [GTA6 PC内存占用：Satwik建议Claude研究Xbox资源与着色器优化](cases/satwik-gta6-xbox-claude-memory-optimization-idea.md) — Satwik Hegde建议先稳定GTA6 PC项目，再让Claude研究Xbox优化来减少资源／着色器内存；并承认资产本身体积可能限制收益，尚未实施。 **[其他 AI 逆向 · 待验证]**
 - [游戏逆向别猜偏移：Neon长提示词与Claude三种加载入口](cases/neon-claude-game-reversing-ground-truth-prompt.md) — 游戏逆向提示词要求实测偏移、引擎分流及编译／真机检查；新评论指出角色冲突和无工具时的保证不可信，未验证jailbreak效果。 **[其他 AI 逆向 · 相关项目]**
@@ -587,6 +588,7 @@
 
 ### 硬件与设备互通
 
+- [从SL6801经验到TS47：转述Claude复用技能，4小时移植Rockbox](cases/rockbox-ts47-claude-reused-porting-skills-report.md) — 中文转述称先把9美元播放器的Rockbox移植经验封装成技能，再让Claude用4小时适配另一台TS47；无原始开发记录或实机验证，不能继承SL6801硬件参数。 **[其他 AI 逆向 · 待验证]**
 - [先Windows再Mac：Mukshud称用Claude Code与Ghidra自学驱动研究](cases/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud说先在Windows用逆向工具、自制检查和Claude Code／Ghidra学习驱动，再研究Mac驱动层；未给驱动目标或产物。 **[其他 AI 逆向 · 待验证]**
 - [键盘轮询固件：猿子称Agent查串口资料、写Mac脚本并刷写](cases/motoko-keyboard-agent-serial-mac-polling-firmware.md) — 猿子称Agent从GitHub查串口信息，写可在Mac运行的小脚本并刷改版轮询固件，半小时完成；键盘型号、源码与检查未给。 **[其他 AI 逆向 · 待验证]**
 - [尼康固件与定制LUT：把AI逆向用在垂直相机产品的idea](cases/nikon-ai-firmware-custom-lut-product-idea.md) — 作者转述评论区以AI研究尼康固件、解锁隐藏功能及定制LUT为垂直产品方向；没有型号或实现，不等同于既有D2X报告。 **[其他 AI 逆向 · 待验证]**
@@ -1345,6 +1347,7 @@
 
 ### 应用与客户端
 
+- [YummyOrange：Furqan Ali称花1000万Token与5天，用Claude研究Tangerine应用](cases/furqan-yummyorange-tangerine-claude-reconstruction.md) — Furqan Ali称用Claude逆向Tangerine并命名重建项目YummyOrange，报告1000万Token与5天，附视频及应用／GitHub链接回复；功能等价未经检查。 **[其他 AI 逆向 · 待验证]**
 - [旧SDK伪代码读到一半：ai2face称Agent虚构函数名，仍须Ghidra核对](cases/ai2face-old-sdk-agent-function-name-hallucination.md) — ai2face报告Agent研究旧SDK时开始虚构函数名，自己须对Ghidra核对；保留一次具体失败环节，不做模型排名。 **[其他 AI 逆向 · 待验证]**
 - [从交易前端请求恢复API：cryppi的Claude／ChatGPT辅助研究idea](cases/cryppi-trading-frontend-ai-api-reconstruction-idea.md) — cryppi建议用AI观察前端请求，恢复端点、参数与响应格式以获得交易接口；没有具名平台、实现或请求记录。 **[其他 AI 逆向 · 待验证]**
 - [编码工具会上传忽略文件吗：Kiro转述REA索引器与隐私模式审计idea](cases/kiro-rea-coding-indexer-privacy-canary-audit-idea.md) — Kiro建议追踪编码工具索引器读文件、用假密钥对照请求体，并检查隐私模式遥测和命令审批；没有具名工具、报告或执行日志。 **[REA · 待验证]**
@@ -2530,6 +2533,9 @@
 
 ### 算法与功能重建
 
+- [13场景、43节拍：Miles李用rea-video拆解Opus动画PPT的声画与按键](cases/miles-rea-video-animated-ppt-thirteen-scenes.md) — Miles李称用rea-video研究一套Claude Opus5.6动画PPT，拆成13场景、43节拍并整理中文资料；还原步骤与交互尚未复核，不等于已重建幻灯片软件。 **[REA · 分析测试]**
+- [alien_signals与Dart AOT：Seven Du用Opus5.5反编译检查内存访问再改代码](cases/seven-du-alien-signals-dart-aot-claude-decompilation.md) — Seven Du称Claude Opus5.5反编译研究变量复制与直接内存访问的区别并实现修改；大规模本地基准观察尚无最小复现，HEAD无法复现的疑问保留。 **[其他 AI 逆向 · 待验证]**
+- [Solana钱包到六角色Agent：explos1ve的Claude策略重建与未核收益报告](cases/explos1ve-solana-wallet-six-agent-strategy-report.md) — explos1ve称研究Solana盈利钱包后做六Agent交易台，列筛选与风控提示并要求先纸面试跑；263到9398美元、35.7倍等未经流水或源码核验。 **[其他 AI 逆向 · 待验证]**
 - [骑行速写短片重建：Gemini拆视差与转场，Claude做分镜和配乐](cases/iced83113143-antigravity-parallax-cycling-reference-rebuild.md) — Keep Calm and Pedal On报告在Antigravity参考原片，Gemini拆十幕视差、Claude设计分镜和44.1kHz配乐，再生成骑行短片；未核视频或脚本。 **[其他 AI 逆向 · 待验证]**
 - [从协作历史提取5.6SOL行为：JiaShen的Soul Engraving首日进度](cases/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen称登记120份历史来源、提取85个候选结构并归成13簇五层，尝试让新模型延续5.6SOL的工作方式；迁移尚未完成。 **[其他 AI 逆向 · 进行中]**
 - [多设备AI分析的记忆与假设管理：Masato的Markdown、CSV与Rust流程](cases/masato-ai-device-analysis-markdown-csv-rust-workflow.md) — Masato报告六个月多设备分析中，AI遇阻会反复猜测、会话压缩会丢发现；他整理Markdown持久化、CSV逐项假设实验与Rust类型检查流程。 **[其他 AI 逆向 · 待验证]**
