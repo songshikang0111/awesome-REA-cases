@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2830 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2845 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（548）
-- [硬件与设备互通](categories/hardware.md)（746）
-- [应用与客户端](categories/apps.md)（1172）
+- [游戏与游戏保存](categories/games.md)（553）
+- [硬件与设备互通](categories/hardware.md)（752）
+- [应用与客户端](categories/apps.md)（1176）
 - [算法与功能重建](categories/algorithms.md)（364）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,11 @@
 
 ### 游戏与游戏保存
 
+- [只给交互直播画面也能重建？Darkside提出REA式MCP游戏复建idea](cases/darkside-streamed-game-ai-mcp-reconstruction-idea.md) — Darkside建议用AI从游戏流画面重建游戏，再用类似REA的MCP支持；作者承认可能消耗大量Token，没有实施。 **[REA · 待验证]**
+- [Astra指导Neon研究游戏：彳亍的未具名逆向比较自述](cases/chichu-astra-neon-unnamed-game-reversing-report.md) — 彳亍称让模型逆向一个游戏，Astra看出问题并指导做完；父帖是Neon使用评价，未给游戏、代码或检查。 **[其他 AI 逆向 · 待验证]**
+- [用Claude梳理Cyberpunk工具链：Tepri的室内空间与C++模拟Mod](cases/tepri-cyberpunk-red4ext-interior-simulation-mod.md) — Tepri说明redscript钩子、WolvenKit任务资源与RED4ext C++模拟，称AI帮助开放大部分室内空间；未披露Mod代码与性能测试。 **[其他 AI 逆向 · 进行中]**
+- [OpenMCM2：Claude辅助Rust重建Motocross Madness 2与免费替代素材](cases/openmcm2-rust-claude-motocross-madness2-recreation.md) — The Gaming Emporium介绍OpenMCM2 v0.8.3；固定README确认Claude Code参与、逐次与原作试骑比较及38条新赛道素材包，未构建或实测。 **[其他 AI 逆向 · 进行中]**
+- [Project Reclaimer：测试账号区分AI反编译辅助与人工开发测试](cases/project-reclaimer-ai-human-decompilation-report.md) — Project Reclaimer Test Account称AI大量辅助编码和反编译，但开发者仍做人工开发、测试与修整；旧背景帖将项目描述为Halo 3独立启动器。 **[其他 AI 逆向 · 待验证]**
 - [牧场物语去限时：DarkJDL建议AI反编译再放回SNES烧录卡](cases/darkjdl-harvest-moon-ai-remove-time-limit-idea.md) — 面对Harvest Moon限时带来的压力，DarkJDL提出AI反编译、去限时再编译并用SD2Snes玩的idea；没有补丁或实施。 **[其他 AI 逆向 · 待验证]**
 - [Fruit Ninja实时玩法：Ao Qu的Agent原生接口研究演示自述](cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — Ao Qu以Fruit Ninja说明Agent研究软件后二进制接MCP、无须看屏操作，称实时专家级玩法；没有成绩表或演示检查。 **[其他 AI 逆向 · 分析测试]**
 - [Apex Legends Mobile社区复活：codmINTEL的AI逆向转述](cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区以AI逆向复活Apex Legends Mobile，附视频；未给团队、仓库、服务器机制或测试，不确认可玩性。 **[其他 AI 逆向 · 待验证]**
@@ -577,6 +582,12 @@
 
 ### 硬件与设备互通
 
+- [9美元SL6801播放器跑Rockbox：AI研究原固件与低内存移植的转述](cases/rockbox-sl6801-nine-dollar-player-ai-port.md) — 两帖转述Claude／Agent把Rockbox移植到512KiB SRAM的SL6801播放器，借Ghidra-MCP和实机反馈研究；未读原始开发记录或跑测试。 **[其他 AI 逆向 · 待验证]**
+- [ReliableSite的BMC原生AI接口：Radic Davydov报告硬件级computer use](cases/reliablesite-bmc-native-ai-harness-report.md) — Radic Davydov称研究ReliableSite所用各厂商BMC，再经自建AI harness直接操作硬件；厂商、协议、权限和验证未披露。 **[其他 AI 逆向 · 待验证]**
+- [智能窗帘留在手机里的功能：Paul Tisl拟用REA补Home Assistant互通](cases/paul-tisl-smart-blinds-ha-rea-app-functions-idea.md) — Paul Tisl称AI已修好智能窗帘的HA集成，计划让REA补仅手机app支持的功能；品牌、实现和实际补齐结果未给。 **[REA · 待验证]**
+- [几张照片重建自行车铃：Jason Bilyeu展示Claude辅助产品逆向](cases/jason-bilyeu-claude-photo-bicycle-bell-reconstruction.md) — Jason Bilyeu称Claude从数张照片重建自行车铃，评价不完美但不差；未看附图、未核尺寸、制造与发声效果。 **[其他 AI 逆向 · 待验证]**
+- [开放自有NPU与Ghidra日志：Mukshud的Claude研究回顾宣称](cases/mukshud-claude-npu-ghidra-research-claim.md) — Mukshud称Claude帮助检查自有代码、曾打开NPU并分享Ghidra日志，后改用Mythos 5.2；没有型号、仓库或漏洞细节。 **[其他 AI 逆向 · 待验证]**
+- [自有Reolink固件：0xca0a称本地模型群找到问题，但尚无RCE](cases/0xca0a-reolink-local-model-swarm-firmware-research.md) — 0xca0a因不满固件限制，转用本地模型群研究自有Reolink设备；自报数个漏洞但尚无远程代码执行，未给型号或测试。 **[其他 AI 逆向 · 进行中]**
 - [SafePal被改固件与额外芯片？leopardracer的Claude调查宣称](cases/leopardracer-safepal-claude-firmware-chain-investigation-claim.md) — leopardracer称Claude Code追查钱包转账、比对固件并发现供应链篡改；没有地址、哈希、芯片鉴定或日志，不确认事件及其归因。 **[其他 AI 逆向 · 待验证]**
 - [卡顿竟跟RGB同步：51972用AI研究技嘉GCC的二手报告](cases/51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation.md) — UNIKO's Hardware转述51972逆向技嘉GCC，称RGB MCU通信与Nvidia驱动595.71渲染修复争用；没有原代码、时间线或性能复测。 **[其他 AI 逆向 · 待验证]**
 - [PS5 14.00至14.23：Yemeni hacker称AI辅助研究仍在私测](cases/yemeni-hacker-ps5-1400-1423-ai-private-research-claim.md) — Yemeni hacker称用户态入口稳定、内核交互部分成功，最终链仍在拼接且不公开；只有作者进度宣称，不是确认可用越狱。 **[其他 AI 逆向 · 进行中]**
@@ -1326,10 +1337,14 @@
 
 ### 应用与客户端
 
+- [训练容器里的缓存代码：AI Council转述Codex团队观察到的反编译捷径](cases/calvin-codex-training-container-cached-code-decompilation.md) — AI Council转述Calvin French-Owen：训练中的模型未写Python，转而反编译容器残留缓存代码；没有缓存格式、任务或日志。 **[其他 AI 逆向 · 待验证]**
+- [从手机取出的TripIt：Sad HAM Society展示Opus 5／REA静态与流量分析](cases/sad-hams-tripit-opus5-rea-static-live-traffic.md) — 作者称用Claude Code的Opus 5、自建助手和REA分析TripIt，包含静态分析与实时抓流量，15至20分钟无拒绝；视频未观看。 **[REA · 分析测试]**
+- [更新自制逆向软件时遇警告：Charles的Claude开发经历自述](cases/unsignedbytes-custom-re-software-claude-warning-report.md) — Charles称更新自制RE软件时收到警告，并指CVP允许逆向；未核截图内容、工具名或封号，关于盗用代码的说法仅玩笑式猜测。 **[其他 AI 逆向 · 进行中]**
+- [让Claude改自己的本地提示：Sad HAM Society的REA反汇编重编译宣称](cases/sad-hams-rea-claude-code-prompt-edit-recompile-claim.md) — 作者称让Claude用REA反汇编Claude Code、展示提示、修改并重编译；没有版本、补丁或运行证明，不代表改变服务端策略。 **[REA · 待验证]**
 - [隔离读、写与验证：Tauhid的Claude／REA净室仪表盘宣称](cases/tauhid-claude-rea-isolated-room-oracle-dashboard.md) — Tauhid IQ展示Opus 5.5／REA分室研究和重建仪表盘，自报697／697匹配、捕获5／5植错；原目标与测试未披露。 **[REA · 待验证]**
 - [从遥测重建Theo的T3 Code协作方式：Codez的多模型配置idea](cases/codez-theo-t3-telemetry-agent-workflow-reconstruction.md) — Codez从号称100MB以上公开遥测归纳Theo的调度方式，建议交Opus复建；明确不是恢复AGENTS.md，未审原始遥测或实际复建。 **[其他 AI 逆向 · 待验证]**
 - [Orchid模拟器下载可信吗：Ark建议Claude与REA先查恶意软件](cases/ark-orchid-ps5-claimed-emulator-rea-malware-check-idea.md) — 在所谓Orchid PS5模拟器运行GTA6的争议串中，Ark建议用Claude与REA检查可疑exe；只是防御idea，没有扫描或安全结论。 **[REA · 待验证]**
-- [FreeCAD不用看屏操作：Ao Qu报告Agent逆向后二进制接MCP](cases/aoqu-agent-native-freecad-binary-mcp-computer-use.md) — Ao Qu称Agent研究软件二进制并重接交互为MCP，FreeCAD对照报告55倍速度与35倍少Token；基线、任务集及测试未核。 **[其他 AI 逆向 · 分析测试]**
+- [FreeCAD二进制到MCP：DeepSeek／REA研究原生接口的五任务对照](cases/aoqu-agent-native-freecad-binary-mcp-computer-use.md) — 固定研究博客明确DeepSeek V4.1 Flash用REA／Frida研究FreeCAD 0.20.2，五任务各三次自报全检查通过；55倍／35倍只是一项演示且不含接口构建成本。 **[REA · 分析测试]**
 - [从结果输出理解BVAS／IReV通信：Unusual Oscar向Claude提的idea](cases/unusual-oscar-bvas-irev-claude-output-protocol-study-idea.md) — Unusual Oscar建议用Claude从数据输出研究BVAS与IReV如何通信；父帖是选举结果上传争议，尚无协议分析或舞弊结论。 **[其他 AI 逆向 · 待验证]**
 - [Qoder逆向注入到Codex本地分流：透明远程工具接管项目](cases/yummypyrus-qoder-codex-transparent-remote-tool-routing.md) — yummypyrus称同一远程接管工作流从Qoder扩展到Codex：前者改Bash／fs，后者官方远程执行器加本地proxy；没有代码或验收。 **[未确认使用 REA · 进行中]**
 - [Open Prompt OS：从参考图六轴拆解到Gemini Neon再生成](cases/open-prompt-os-image-six-axis-prompt-reconstruction.md) — Subin Chella发布Open Prompt OS，称输入图片可得到六轴拆解和提示词，再用Gemini Neon生成对照图；没有恢复原始提示词或相似度测量。 **[其他 AI 逆向 · 待验证]**
@@ -2501,7 +2516,7 @@
 
 ### 算法与功能重建
 
-- [把5.6SOL风格留在本地再研究4o：JiaShen的行为保留idea](cases/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen称做28天逆向以保留5.6SOL的思考风格，本地尝试成功后再研究4o；没有模型产物、权重或行为对照。 **[其他 AI 逆向 · 待验证]**
+- [从协作历史提取5.6SOL行为：JiaShen的Soul Engraving首日进度](cases/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen称登记120份历史来源、提取85个候选结构并归成13簇五层，尝试让新模型延续5.6SOL的工作方式；迁移尚未完成。 **[其他 AI 逆向 · 进行中]**
 - [多设备AI分析的记忆与假设管理：Masato的Markdown、CSV与Rust流程](cases/masato-ai-device-analysis-markdown-csv-rust-workflow.md) — Masato报告六个月多设备分析中，AI遇阻会反复猜测、会话压缩会丢发现；他整理Markdown持久化、CSV逐项假设实验与Rust类型检查流程。 **[其他 AI 逆向 · 待验证]**
 - [用Git排反编译任务：Niall O’Higgins的轻量Agent协作idea](cases/niall-git-agent-decompilation-job-queue.md) — Niall O’Higgins建议在Git中协调Agent工作队列，举asm到C++约五分钟的反编译任务；没有指定二进制、实现仓库或质量对照。 **[其他 AI 逆向 · 待验证]**
 - [参考动画逐帧拆解：Dipo用Claude skill与FFmpeg重建创作线索](cases/dipo-claude-ffmpeg-reference-animation-breakdown.md) — Dipo介绍Claude分析参考视频、FFmpeg逐帧提取，再迭代脚本、hook与故事的具体流程；没有恢复原工程或成片质量验证。 **[其他 AI 逆向 · 相关项目]**

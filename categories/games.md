@@ -2,6 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [只给交互直播画面也能重建？Darkside提出REA式MCP游戏复建idea](../cases/darkside-streamed-game-ai-mcp-reconstruction-idea.md) — Darkside建议用AI从游戏流画面重建游戏，再用类似REA的MCP支持；作者承认可能消耗大量Token，没有实施。 **[REA · 待验证]**
+- [Astra指导Neon研究游戏：彳亍的未具名逆向比较自述](../cases/chichu-astra-neon-unnamed-game-reversing-report.md) — 彳亍称让模型逆向一个游戏，Astra看出问题并指导做完；父帖是Neon使用评价，未给游戏、代码或检查。 **[其他 AI 逆向 · 待验证]**
+- [用Claude梳理Cyberpunk工具链：Tepri的室内空间与C++模拟Mod](../cases/tepri-cyberpunk-red4ext-interior-simulation-mod.md) — Tepri说明redscript钩子、WolvenKit任务资源与RED4ext C++模拟，称AI帮助开放大部分室内空间；未披露Mod代码与性能测试。 **[其他 AI 逆向 · 进行中]**
+- [OpenMCM2：Claude辅助Rust重建Motocross Madness 2与免费替代素材](../cases/openmcm2-rust-claude-motocross-madness2-recreation.md) — The Gaming Emporium介绍OpenMCM2 v0.8.3；固定README确认Claude Code参与、逐次与原作试骑比较及38条新赛道素材包，未构建或实测。 **[其他 AI 逆向 · 进行中]**
+- [Project Reclaimer：测试账号区分AI反编译辅助与人工开发测试](../cases/project-reclaimer-ai-human-decompilation-report.md) — Project Reclaimer Test Account称AI大量辅助编码和反编译，但开发者仍做人工开发、测试与修整；旧背景帖将项目描述为Halo 3独立启动器。 **[其他 AI 逆向 · 待验证]**
 - [牧场物语去限时：DarkJDL建议AI反编译再放回SNES烧录卡](../cases/darkjdl-harvest-moon-ai-remove-time-limit-idea.md) — 面对Harvest Moon限时带来的压力，DarkJDL提出AI反编译、去限时再编译并用SD2Snes玩的idea；没有补丁或实施。 **[其他 AI 逆向 · 待验证]**
 - [Fruit Ninja实时玩法：Ao Qu的Agent原生接口研究演示自述](../cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — Ao Qu以Fruit Ninja说明Agent研究软件后二进制接MCP、无须看屏操作，称实时专家级玩法；没有成绩表或演示检查。 **[其他 AI 逆向 · 分析测试]**
 - [Apex Legends Mobile社区复活：codmINTEL的AI逆向转述](../cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区以AI逆向复活Apex Legends Mobile，附视频；未给团队、仓库、服务器机制或测试，不确认可玩性。 **[其他 AI 逆向 · 待验证]**

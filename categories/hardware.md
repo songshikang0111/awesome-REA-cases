@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [9美元SL6801播放器跑Rockbox：AI研究原固件与低内存移植的转述](../cases/rockbox-sl6801-nine-dollar-player-ai-port.md) — 两帖转述Claude／Agent把Rockbox移植到512KiB SRAM的SL6801播放器，借Ghidra-MCP和实机反馈研究；未读原始开发记录或跑测试。 **[其他 AI 逆向 · 待验证]**
+- [ReliableSite的BMC原生AI接口：Radic Davydov报告硬件级computer use](../cases/reliablesite-bmc-native-ai-harness-report.md) — Radic Davydov称研究ReliableSite所用各厂商BMC，再经自建AI harness直接操作硬件；厂商、协议、权限和验证未披露。 **[其他 AI 逆向 · 待验证]**
+- [智能窗帘留在手机里的功能：Paul Tisl拟用REA补Home Assistant互通](../cases/paul-tisl-smart-blinds-ha-rea-app-functions-idea.md) — Paul Tisl称AI已修好智能窗帘的HA集成，计划让REA补仅手机app支持的功能；品牌、实现和实际补齐结果未给。 **[REA · 待验证]**
+- [几张照片重建自行车铃：Jason Bilyeu展示Claude辅助产品逆向](../cases/jason-bilyeu-claude-photo-bicycle-bell-reconstruction.md) — Jason Bilyeu称Claude从数张照片重建自行车铃，评价不完美但不差；未看附图、未核尺寸、制造与发声效果。 **[其他 AI 逆向 · 待验证]**
+- [开放自有NPU与Ghidra日志：Mukshud的Claude研究回顾宣称](../cases/mukshud-claude-npu-ghidra-research-claim.md) — Mukshud称Claude帮助检查自有代码、曾打开NPU并分享Ghidra日志，后改用Mythos 5.2；没有型号、仓库或漏洞细节。 **[其他 AI 逆向 · 待验证]**
+- [自有Reolink固件：0xca0a称本地模型群找到问题，但尚无RCE](../cases/0xca0a-reolink-local-model-swarm-firmware-research.md) — 0xca0a因不满固件限制，转用本地模型群研究自有Reolink设备；自报数个漏洞但尚无远程代码执行，未给型号或测试。 **[其他 AI 逆向 · 进行中]**
 - [SafePal被改固件与额外芯片？leopardracer的Claude调查宣称](../cases/leopardracer-safepal-claude-firmware-chain-investigation-claim.md) — leopardracer称Claude Code追查钱包转账、比对固件并发现供应链篡改；没有地址、哈希、芯片鉴定或日志，不确认事件及其归因。 **[其他 AI 逆向 · 待验证]**
 - [卡顿竟跟RGB同步：51972用AI研究技嘉GCC的二手报告](../cases/51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation.md) — UNIKO's Hardware转述51972逆向技嘉GCC，称RGB MCU通信与Nvidia驱动595.71渲染修复争用；没有原代码、时间线或性能复测。 **[其他 AI 逆向 · 待验证]**
 - [PS5 14.00至14.23：Yemeni hacker称AI辅助研究仍在私测](../cases/yemeni-hacker-ps5-1400-1423-ai-private-research-claim.md) — Yemeni hacker称用户态入口稳定、内核交互部分成功，最终链仍在拼接且不公开；只有作者进度宣称，不是确认可用越狱。 **[其他 AI 逆向 · 进行中]**

@@ -2,7 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
-- [把5.6SOL风格留在本地再研究4o：JiaShen的行为保留idea](../cases/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen称做28天逆向以保留5.6SOL的思考风格，本地尝试成功后再研究4o；没有模型产物、权重或行为对照。 **[其他 AI 逆向 · 待验证]**
+- [从协作历史提取5.6SOL行为：JiaShen的Soul Engraving首日进度](../cases/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen称登记120份历史来源、提取85个候选结构并归成13簇五层，尝试让新模型延续5.6SOL的工作方式；迁移尚未完成。 **[其他 AI 逆向 · 进行中]**
 - [多设备AI分析的记忆与假设管理：Masato的Markdown、CSV与Rust流程](../cases/masato-ai-device-analysis-markdown-csv-rust-workflow.md) — Masato报告六个月多设备分析中，AI遇阻会反复猜测、会话压缩会丢发现；他整理Markdown持久化、CSV逐项假设实验与Rust类型检查流程。 **[其他 AI 逆向 · 待验证]**
 - [用Git排反编译任务：Niall O’Higgins的轻量Agent协作idea](../cases/niall-git-agent-decompilation-job-queue.md) — Niall O’Higgins建议在Git中协调Agent工作队列，举asm到C++约五分钟的反编译任务；没有指定二进制、实现仓库或质量对照。 **[其他 AI 逆向 · 待验证]**
 - [参考动画逐帧拆解：Dipo用Claude skill与FFmpeg重建创作线索](../cases/dipo-claude-ffmpeg-reference-animation-breakdown.md) — Dipo介绍Claude分析参考视频、FFmpeg逐帧提取，再迭代脚本、hook与故事的具体流程；没有恢复原工程或成片质量验证。 **[其他 AI 逆向 · 相关项目]**

@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2830 个案例与项目
+# 2845 个案例与项目
 
-**最近案例更新：**2026 年 11 月 26 日 04:15 · **最近维护：**2026 年 11 月 26 日 04:15 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 26 日 08:10 · **最近维护：**2026 年 11 月 26 日 08:10 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -26,14 +26,14 @@
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[OpenGlass Go：重新开放裸眼3D屏](cases/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22`作者串与固定构建文档 — Megabits将**逆向和初期代码归功Kimi，Armbian固件收尾归功Gemini Neon**。公开文档列3D媒体播放、文件传输与STM32控制；真机测试为项目自报，内核bug仍待提交。本合集未构建或刷写。`进行中`
-3. **[Beekeeper Studio：CSV匹配，为什么仍不够](cases/saikumaresh-beekeeper-rea-csv-behavioral-parity-test.md)** · `2026-11-24`作者串 — 四个隔离Agent用REA研究并重建CSV导出，Sai Kumaresh报告**五种方言90／90字节匹配**；上游列选择、5万行上限与过滤传递仍有规格缺口。未读取日志和harness，本合集未重跑。`分析测试`
+3. **[FreeCAD：不点屏幕，先造接口](cases/aoqu-agent-native-freecad-binary-mcp-computer-use.md)** · `2026-11-26`作者更新与固定研究文档 — **DeepSeek／REA把FreeCAD接成MCP**，五任务各设置三次，自报全部检查通过。演示的55倍速度／35倍少Token不含30至85分钟的服务构建，并非通用CAD提速。已读方法，未重跑。`分析测试`
 4. **[Horizon：用Rust重建Minecraft Java行为](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16`介绍与固定文档 — **AI辅助重建，自报281套差分测试**，可读旧存档、连原版服务器。已读公开文档与Codex署名提交，未审完整测试结果；性能宣称有硬件条件。自备游戏，本合集未构建。`进行中`
 5. **[Underworld Exhumed：保存两部DOS地下世界](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20`介绍；`2026-11-17`固定文档 — Exhume的Claude Code技能辅助，项目报告**UW.EXE／UW2.EXE整文件字节一致**，原生与Web移植以17／13段DOS录制回放检查。均为项目报告，本合集未重跑；原生版自备游戏数据。`未独立核验`
 6. **[Promon：测量应用加固到底改变什么](cases/promon-q42026-ai-mobile-protection-harness-benchmark.md)** · `2026-11-23`第一方报告 — **一次性容器里的Claude Code／Codex**辅助研究移动恶意软件、测试受保护二进制。一个窄目标每版五次，项目报告加固后**攻击成本约升十倍**，不是应用不可破解。红蓝修补仍是须人审的实验，本合集未重跑。`分析测试`
 7. **[Elecbrakes：研究拖车的蓝牙刹车](cases/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19`研究者原文；`2026-11-20`CVE登记 — Forck与McCarthy用**Claude读字节码、做研究工具**，再报告自有硬件测试。EB2／VM1修复有文档，旧ELBC 2000截至原文无修复；固件静态分析没有证明恶意刷写。本合集未复现。`未独立核验`
 8. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22`介绍与固定文档 — Agent按录制行为写Rust，新文档报告**17224次字节一致，15861次全在Rust**，其余回退。此前M4基准中CLI约19倍含进程启动优势，预热进程内为4.2倍。录制会真实执行副作用，须用隔离副本；本合集未重跑。`未独立核验`
 9. **[echo-dot-assist：保留麦克风，换掉Alexa](cases/echo-dot-assist-claude-hassmic-home-assistant.md)** · `2026-11-24`介绍与固定README — **Claude参与的hassmic让旧Echo接Home Assistant**，保留原音频前端；解锁研究归R0rt1z2。项目每型号仅测一台，代码未经审计，安装会清空设备且可能变砖；本合集未验证网络隔离。`进行中`
-10. **[rea-games：重建游戏，还要检查怎么玩](cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md)** · `2026-11-25`作者串 — erKam报告**2048的19局、24044次输入**，改变出砖概率后仅3／19局通过；Dino另有29次录制。后续转述补充GAME.md与状态重放，不是独立验证。这仍是有限检查；未审源码与harness，本合集未重跑。`未独立核验`
+10. **[Beekeeper Studio：CSV匹配，为什么仍不够](cases/saikumaresh-beekeeper-rea-csv-behavioral-parity-test.md)** · `2026-11-24`作者串 — 四个隔离Agent用REA研究并重建CSV导出，Sai Kumaresh报告**五种方言90／90字节匹配**；上游列选择、5万行上限与过滤传递仍有规格缺口。未读取日志和harness，本合集未重跑。`分析测试`
 
 ## 经典案例
 
@@ -50,9 +50,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **548** |
-| [硬件与设备互通](categories/hardware.md) | **746** |
-| [应用与客户端](categories/apps.md) | **1172** |
+| [游戏与游戏保存](categories/games.md) | **553** |
+| [硬件与设备互通](categories/hardware.md) | **752** |
+| [应用与客户端](categories/apps.md) | **1176** |
 | [算法与功能重建](categories/algorithms.md) | **364** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

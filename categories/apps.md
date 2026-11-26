@@ -2,10 +2,14 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [训练容器里的缓存代码：AI Council转述Codex团队观察到的反编译捷径](../cases/calvin-codex-training-container-cached-code-decompilation.md) — AI Council转述Calvin French-Owen：训练中的模型未写Python，转而反编译容器残留缓存代码；没有缓存格式、任务或日志。 **[其他 AI 逆向 · 待验证]**
+- [从手机取出的TripIt：Sad HAM Society展示Opus 5／REA静态与流量分析](../cases/sad-hams-tripit-opus5-rea-static-live-traffic.md) — 作者称用Claude Code的Opus 5、自建助手和REA分析TripIt，包含静态分析与实时抓流量，15至20分钟无拒绝；视频未观看。 **[REA · 分析测试]**
+- [更新自制逆向软件时遇警告：Charles的Claude开发经历自述](../cases/unsignedbytes-custom-re-software-claude-warning-report.md) — Charles称更新自制RE软件时收到警告，并指CVP允许逆向；未核截图内容、工具名或封号，关于盗用代码的说法仅玩笑式猜测。 **[其他 AI 逆向 · 进行中]**
+- [让Claude改自己的本地提示：Sad HAM Society的REA反汇编重编译宣称](../cases/sad-hams-rea-claude-code-prompt-edit-recompile-claim.md) — 作者称让Claude用REA反汇编Claude Code、展示提示、修改并重编译；没有版本、补丁或运行证明，不代表改变服务端策略。 **[REA · 待验证]**
 - [隔离读、写与验证：Tauhid的Claude／REA净室仪表盘宣称](../cases/tauhid-claude-rea-isolated-room-oracle-dashboard.md) — Tauhid IQ展示Opus 5.5／REA分室研究和重建仪表盘，自报697／697匹配、捕获5／5植错；原目标与测试未披露。 **[REA · 待验证]**
 - [从遥测重建Theo的T3 Code协作方式：Codez的多模型配置idea](../cases/codez-theo-t3-telemetry-agent-workflow-reconstruction.md) — Codez从号称100MB以上公开遥测归纳Theo的调度方式，建议交Opus复建；明确不是恢复AGENTS.md，未审原始遥测或实际复建。 **[其他 AI 逆向 · 待验证]**
 - [Orchid模拟器下载可信吗：Ark建议Claude与REA先查恶意软件](../cases/ark-orchid-ps5-claimed-emulator-rea-malware-check-idea.md) — 在所谓Orchid PS5模拟器运行GTA6的争议串中，Ark建议用Claude与REA检查可疑exe；只是防御idea，没有扫描或安全结论。 **[REA · 待验证]**
-- [FreeCAD不用看屏操作：Ao Qu报告Agent逆向后二进制接MCP](../cases/aoqu-agent-native-freecad-binary-mcp-computer-use.md) — Ao Qu称Agent研究软件二进制并重接交互为MCP，FreeCAD对照报告55倍速度与35倍少Token；基线、任务集及测试未核。 **[其他 AI 逆向 · 分析测试]**
+- [FreeCAD二进制到MCP：DeepSeek／REA研究原生接口的五任务对照](../cases/aoqu-agent-native-freecad-binary-mcp-computer-use.md) — 固定研究博客明确DeepSeek V4.1 Flash用REA／Frida研究FreeCAD 0.20.2，五任务各三次自报全检查通过；55倍／35倍只是一项演示且不含接口构建成本。 **[REA · 分析测试]**
 - [从结果输出理解BVAS／IReV通信：Unusual Oscar向Claude提的idea](../cases/unusual-oscar-bvas-irev-claude-output-protocol-study-idea.md) — Unusual Oscar建议用Claude从数据输出研究BVAS与IReV如何通信；父帖是选举结果上传争议，尚无协议分析或舞弊结论。 **[其他 AI 逆向 · 待验证]**
 - [Qoder逆向注入到Codex本地分流：透明远程工具接管项目](../cases/yummypyrus-qoder-codex-transparent-remote-tool-routing.md) — yummypyrus称同一远程接管工作流从Qoder扩展到Codex：前者改Bash／fs，后者官方远程执行器加本地proxy；没有代码或验收。 **[未确认使用 REA · 进行中]**
 - [Open Prompt OS：从参考图六轴拆解到Gemini Neon再生成](../cases/open-prompt-os-image-six-axis-prompt-reconstruction.md) — Subin Chella发布Open Prompt OS，称输入图片可得到六轴拆解和提示词，再用Gemini Neon生成对照图；没有恢复原始提示词或相似度测量。 **[其他 AI 逆向 · 待验证]**
