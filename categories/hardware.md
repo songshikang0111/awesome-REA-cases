@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [先Windows再Mac：Mukshud称用Claude Code与Ghidra自学驱动研究](../cases/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud说先在Windows用逆向工具、自制检查和Claude Code／Ghidra学习驱动，再研究Mac驱动层；未给驱动目标或产物。 **[其他 AI 逆向 · 待验证]**
+- [键盘轮询固件：猿子称Agent查串口资料、写Mac脚本并刷写](../cases/motoko-keyboard-agent-serial-mac-polling-firmware.md) — 猿子称Agent从GitHub查串口信息，写可在Mac运行的小脚本并刷改版轮询固件，半小时完成；键盘型号、源码与检查未给。 **[其他 AI 逆向 · 待验证]**
+- [尼康固件与定制LUT：把AI逆向用在垂直相机产品的idea](../cases/nikon-ai-firmware-custom-lut-product-idea.md) — 作者转述评论区以AI研究尼康固件、解锁隐藏功能及定制LUT为垂直产品方向；没有型号或实现，不等同于既有D2X报告。 **[其他 AI 逆向 · 待验证]**
 - [9美元SL6801播放器跑Rockbox：AI研究原固件与低内存移植的转述](../cases/rockbox-sl6801-nine-dollar-player-ai-port.md) — 两帖转述Claude／Agent把Rockbox移植到512KiB SRAM的SL6801播放器，借Ghidra-MCP和实机反馈研究；未读原始开发记录或跑测试。 **[其他 AI 逆向 · 待验证]**
 - [ReliableSite的BMC原生AI接口：Radic Davydov报告硬件级computer use](../cases/reliablesite-bmc-native-ai-harness-report.md) — Radic Davydov称研究ReliableSite所用各厂商BMC，再经自建AI harness直接操作硬件；厂商、协议、权限和验证未披露。 **[其他 AI 逆向 · 待验证]**
 - [智能窗帘留在手机里的功能：Paul Tisl拟用REA补Home Assistant互通](../cases/paul-tisl-smart-blinds-ha-rea-app-functions-idea.md) — Paul Tisl称AI已修好智能窗帘的HA集成，计划让REA补仅手机app支持的功能；品牌、实现和实际补齐结果未给。 **[REA · 待验证]**
@@ -430,7 +433,7 @@
 - [扫地机夜巡：Martin称用Opus与Valetudo改为识别宠物的家庭守卫](../cases/vacuum-opus-valetudo-night-guard-report.md) — Martin称root自有扫地机，让Claude Code检查Valetudo与本地相机，再组合YOLO和巡逻规划；没有型号、代码或延迟实测。 **[其他 AI 逆向 · 待验证]**
 - [小米15运行iOS16：读者转述AI逆向移植，尚无启动验证](../cases/xiaomi15-ios16-ai-port-secondary-report.md) — 读者称刷到小米15可运行iOS16的AI移植说法；没有开发者、仓库或启动记录，不认定可刷机。 **[其他 AI 逆向 · 待验证]**
 - [Ray-Ban Meta赛道教练：REA读相机、Claude理解Spa画面的未验证宣称](../cases/rayban-meta-rea-spa-race-coach-report.md) — 帖子称REA让Agent读取眼镜30fps画面、Claude给路线和刹车提示；未证明实时管线、眼镜显示或真实驾驶测试。 **[REA · 待验证]**
-- [Sony FX3／FX30／A7 IV：软件限制idea与Claude辅助FX30语言解锁报告](../cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 保留三款Sony的软件限制研究与A7 IV双重曝光愿望；Seb Monty另称Claude按已有仓库步骤为FX30恢复40种语言，第二次成功、20分钟，未核代码或相机。 **[REA · 待验证]**
+- [Sony FX3／FX30／A7 IV：限制研究、FX30语言自述与Open Gate转述](../cases/sony-fx3-fx30-a7iv-ai-restrictions-idea.md) — 保留三款Sony限制idea、A7 IV双重曝光愿望与Seb的FX30语言解锁自述；新帖称Claude开放FX3全传感器录制，但无固件或实机记录。 **[REA · 待验证]**
 - [低功耗Broadcom Linux：建议AI反编译固件路径，进一步压缩间歇启动耗时](../cases/broadcom-linux-ai-firmware-fast-boot-idea.md) — 读者在电池/太阳能Linux项目讨论中建议让AI研究固件路径以缩短启动；父串3.5秒是既有背景，不是AI成果。 **[其他 AI 逆向 · 待验证]**
 - [自有路由器配置与流量：Claude只读分析远程支持程序、DNS和转发规则](../cases/router-config-claude-remote-support-audit-report.md) — 作者称给Claude配置导出与一小时流量，发现远程管理、未知支持程序及NAS转发；无原始记录，不把DNS查询等同解密全部浏览。 **[其他 AI 逆向 · 待验证]**
 - [米遥MI-AO：Codex协作研究遥控器BLE，把按住说话送入Mac任务](../cases/fanxeon-mi-ao-xiaomi-remote-codex.md) — MI-AO读取小米2Pro的ATVV音频，经ADPCM与本地Whisper送入Codex；作者报告固件2671端到端测试，macOS14+源码优先beta。 **[其他 AI 逆向 · 进行中]**

@@ -2,7 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
-- [游戏逆向别猜偏移：Neon长提示词与Claude三种加载入口](../cases/neon-claude-game-reversing-ground-truth-prompt.md) — 两帖介绍游戏逆向系统提示词：实测偏移、引擎分流、区分编译与真机验证；Neon全文与Claude入口说明并非同字节模板，未验证破解效果。 **[其他 AI 逆向 · 相关项目]**
+- [Sonic Adventure 2：Andrew Omori转述多Agent反编译与现代化](../cases/andrew-omori-sonic-adventure2-agent-decompilation-report.md) — Andrew Omori称协调Agent群反编译Sonic Adventure 2，100%恢复并现代化；没有项目、平台版本、源码或匹配报告。 **[其他 AI 逆向 · 待验证]**
+- [GTA6 PC内存占用：Satwik建议Claude研究Xbox资源与着色器优化](../cases/satwik-gta6-xbox-claude-memory-optimization-idea.md) — Satwik Hegde建议先稳定GTA6 PC项目，再让Claude研究Xbox优化来减少资源／着色器内存；并承认资产本身体积可能限制收益，尚未实施。 **[其他 AI 逆向 · 待验证]**
+- [游戏逆向别猜偏移：Neon长提示词与Claude三种加载入口](../cases/neon-claude-game-reversing-ground-truth-prompt.md) — 游戏逆向提示词要求实测偏移、引擎分流及编译／真机检查；新评论指出角色冲突和无工具时的保证不可信，未验证jailbreak效果。 **[其他 AI 逆向 · 相关项目]**
 - [从GBA合成引擎恢复MIDI：Werewolf Freak的AI辅助研究自述](../cases/werewolf-gba-krawell-ai-midi-recovery-report.md) — Werewolf Freak称AI帮助从GBA游戏的krawell合成引擎反编译MIDI，同时提到自己做N64重编译；游戏、模型、文件和对照未给。 **[其他 AI 逆向 · 待验证]**
 - [Belobug的GTA6 PC画面：Martin转述Claude Code与Gemini参与兼容研究](../cases/belobug-gta6-claude-gemini-pc-runtime-report.md) — Martin称Belobug借Claude Code和Gemini让Xbox版GTA6在PC显示世界、车辆与行人；未取得README、仓库或运行记录，不认证可玩性。 **[其他 AI 逆向 · 待验证]**
 - [只给交互直播画面也能重建？Darkside提出REA式MCP游戏复建idea](../cases/darkside-streamed-game-ai-mcp-reconstruction-idea.md) — Darkside建议用AI从游戏流画面重建游戏，再用类似REA的MCP支持；作者承认可能消耗大量Token，没有实施。 **[REA · 待验证]**
@@ -15,7 +17,7 @@
 - [Apex Legends Mobile社区复活：codmINTEL的AI逆向转述](../cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区以AI逆向复活Apex Legends Mobile，附视频；未给团队、仓库、服务器机制或测试，不确认可玩性。 **[其他 AI 逆向 · 待验证]**
 - [旧游戏模拟器与OOT：Mason Blake报告Claude协助，目标版本未明](../cases/mason-blake-claude-old-game-emulator-oot-report.md) — Mason Blake称仍能让Claude协助开发旧游戏模拟器，并提到OOT、the new one；未说明具体游戏版本、模拟平台或可玩结果。 **[其他 AI 逆向 · 进行中]**
 - [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](../cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
-- [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](../cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — erKam介绍Claude跨引擎重建小游戏与2048变异检查；新转述补充GAME.md、状态重放和Blocks示例，仍非独立验证或任意游戏等价证明。 **[未确认使用 REA · 待验证]**
+- [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](../cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — Claude／Codex插件按GAME.md重建游戏，固定文档自报六款Web录制对照通过、四款有Rust／Godot逻辑检查；随机数带和负对照不等于全输入或画面等价。 **[未确认使用 REA · 待验证]**
 - [Project Stardust：Super Stardust HD的AI辅助PS3到PC静态重编译alpha](../cases/project-stardust-super-stardust-hd-ai-recompilation.md) — The Gaming Emporium转述thelastant的v0.1.0-alpha.2：PowerPC／SPU转C、Vulkan运行时，开发中已游玩但约三分钟冻结，未验证通关或画面准确。 **[未确认使用 REA · 进行中]**
 - [把Link放进King of Dragons：Ghidra与LLM的不到20分钟改模自述](../cases/king-of-dragons-link-ghidra-llm-mod.md) — Lmaoist Manlord称用Ghidra和LLM把Link加入King of Dragons，从想法到游玩少于20分钟；没有模型名、补丁或游戏版本。 **[其他 AI 逆向 · 待验证]**
 - [Angry Birds Reloaded反编译：Milk-San向Claude Code提出的玩笑式idea](../cases/angry-birds-reloaded-claude-decompilation-idea.md) — Milk-San希望Claude Code反编译Angry Birds Reloaded，只有一句请求；没有开始执行、源码恢复或移植证据。 **[其他 AI 逆向 · 待验证]**
@@ -321,7 +323,7 @@
 - [SNES逻辑与时序：JSONB让Agent驱动模拟器检查字节一致性](../cases/vyrotek-snes-asm-agent-emulator-parity.md) — JSONB称从SNES汇编dump逆向游戏逻辑和时序，再让Agent操作模拟器确认精确字节一致；游戏与对照范围未披露。 **[其他 AI 逆向 · 进行中]**
 - [The Sims 4：Sérgei用AI追踪编译Python与XML调校依赖](../cases/frooot-simmer-sims4-ai-python-xml-research.md) — Sérgei称AI帮助理解Sims4跨编译Python与XML的逻辑和依赖，减少手工研究负担；未给具名Mod或测试。 **[其他 AI 逆向 · 进行中]**
 - [mugen-unleashed：从2013年M.U.G.E.N引擎恢复C，提交披露Claude协作](../cases/zxmarcos-mugen-unleashed-claude-c-reconstruction.md) — zxmarcos公开M.U.G.E.N1.1 Beta1的C重建，初始提交署名Claude Opus5.5；项目称逐函数差分和多场景日志一致，未独立运行。 **[其他 AI 逆向 · 进行中]**
-- [Tokyo Mirage Sessions：AI浪潮下的PC反编译移植报道，60至120帧未核验](../cases/tokyo-mirage-sessions-ai-pc-port-secondary-report.md) — playswave称Tokyo Mirage Sessions已有粉丝PC反编译移植、60至120FPS，并将其与AI编程关联；没有作者技术记录。 **[其他 AI 逆向 · 待验证]**
+- [Tokyo Mirage Sessions／TMSRecomp：Claude署名静态重编译，测试到第二章](../cases/tokyo-mirage-sessions-ai-pc-port-secondary-report.md) — TMSRecomp文档称Claude Code写逆向、工具与代码，人指导测试审阅；ARM转C、Windows／Vulkan，beta仅报告测到第二章，4K／240FPS非本合集跑分。 **[其他 AI 逆向 · 进行中]**
 - [ql：Bismuth提出用AI逆向，替代不满意的Steam版](../cases/bismuth-ql-ai-steam-alternative-idea.md) — 800IQ(Bismuth)希望有人用AI逆向ql，以摆脱其不满意的Steam版本；只是具体目标的读者idea。 **[其他 AI 逆向 · 待验证]**
 - [Tormentis混淆自测：开发者称AI恢复可读名称，但只是预测](../cases/tormentis-ai-obfuscated-name-recovery-test.md) — TormentisGame称以自有高混淆游戏测试AI，得到可理解的反编译命名；明确承认名称是预测，未展示对照。 **[其他 AI 逆向 · 分析测试]**
 - [Age of Empires Castle Siege：用REA研究停运旧版，计划浏览器与Android复活](../cases/castle-siege-rea-browser-android-revival.md) — criptoejesus420称正在逆向自己怀念的Castle Siege，准备在ChainLensNFT arcade浏览器及侧载Android APK中可玩；无构建或演示。 **[REA · 进行中]**

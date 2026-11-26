@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [旧SDK伪代码读到一半：ai2face称Agent虚构函数名，仍须Ghidra核对](../cases/ai2face-old-sdk-agent-function-name-hallucination.md) — ai2face报告Agent研究旧SDK时开始虚构函数名，自己须对Ghidra核对；保留一次具体失败环节，不做模型排名。 **[其他 AI 逆向 · 待验证]**
+- [从交易前端请求恢复API：cryppi的Claude／ChatGPT辅助研究idea](../cases/cryppi-trading-frontend-ai-api-reconstruction-idea.md) — cryppi建议用AI观察前端请求，恢复端点、参数与响应格式以获得交易接口；没有具名平台、实现或请求记录。 **[其他 AI 逆向 · 待验证]**
 - [编码工具会上传忽略文件吗：Kiro转述REA索引器与隐私模式审计idea](../cases/kiro-rea-coding-indexer-privacy-canary-audit-idea.md) — Kiro建议追踪编码工具索引器读文件、用假密钥对照请求体，并检查隐私模式遥测和命令审批；没有具名工具、报告或执行日志。 **[REA · 待验证]**
 - [争议游戏项目的exe安全吗：vyvanse建议Claude与REA检查文件](../cases/vyvanse-disputed-game-executable-rea-malware-audit-idea.md) — vyvanse在下载安全争论中建议把exe或文件交Claude／REA检查；父串有盗密指控但无样本或检测，不能把AI分析当安全保证。 **[REA · 待验证]**
 - [IDA伪代码交给Gemini：Kenan Sulayman的AI Studio提示词工作流](../cases/kenan-gemini-ai-studio-ida-pseudocode-prompt-report.md) — Kenan称自己在AI Studio用Gemini分析IDA伪代码转储，并分享system prompt入口；未取得提示词正文、目标二进制或分析结果。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [骑行速写短片重建：Gemini拆视差与转场，Claude做分镜和配乐](../cases/iced83113143-antigravity-parallax-cycling-reference-rebuild.md) — Keep Calm and Pedal On报告在Antigravity参考原片，Gemini拆十幕视差、Claude设计分镜和44.1kHz配乐，再生成骑行短片；未核视频或脚本。 **[其他 AI 逆向 · 待验证]**
 - [从协作历史提取5.6SOL行为：JiaShen的Soul Engraving首日进度](../cases/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen称登记120份历史来源、提取85个候选结构并归成13簇五层，尝试让新模型延续5.6SOL的工作方式；迁移尚未完成。 **[其他 AI 逆向 · 进行中]**
 - [多设备AI分析的记忆与假设管理：Masato的Markdown、CSV与Rust流程](../cases/masato-ai-device-analysis-markdown-csv-rust-workflow.md) — Masato报告六个月多设备分析中，AI遇阻会反复猜测、会话压缩会丢发现；他整理Markdown持久化、CSV逐项假设实验与Rust类型检查流程。 **[其他 AI 逆向 · 待验证]**
 - [用Git排反编译任务：Niall O’Higgins的轻量Agent协作idea](../cases/niall-git-agent-decompilation-job-queue.md) — Niall O’Higgins建议在Git中协调Agent工作队列，举asm到C++约五分钟的反编译任务；没有指定二进制、实现仓库或质量对照。 **[其他 AI 逆向 · 待验证]**
