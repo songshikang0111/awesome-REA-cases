@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Victory的GTA6兼容研究：添财转述序章画面与仍严重的着色器问题](../cases/victory-gta6-ai-pc-compatibility-secondary-report.md) — 添财称Victory借AI推进Xbox到PC兼容，已显示序章、人物和城市但着色器／纹理问题严重；48小时可玩仅预期，无原始实现验收。 **[其他 AI 逆向 · 待验证]**
+- [NES马里奥改配色：两帖转述GigaChat 4修改ROM并在M4 Mac启动](../cases/gigachat4-nes-mario-palette-binary-edit-demo-report.md) — 两篇中文介绍称GigaChat 4演示直接改NES超级马里奥ROM调色板、反转颜色再启动；未取得原演示、样本与补丁，不等于完整反编译。 **[其他 AI 逆向 · 待验证]**
+- [找不到互动入口：Rynco称用Codex解包与反编译研究一款成人游戏](../cases/codex-adult-game-interaction-discovery-report.md) — Rynco因游戏互动内容难以发现，称动用Codex解包和反编译寻找地点、项目与进入方式；游戏未具名，没有整理出的入口或验证输出。 **[其他 AI 逆向 · 待验证]**
 - [Capcom vs. SNK 2：Claude辅助三版本反编译，字节匹配与跨平台移植分开看](../cases/cvs2-naomi-dc-claude-decompilation-native-ports.md) — gibletto公开文档披露Claude参与，将CvS2三版SH-4程序重写为C／汇编，报告字节匹配并提供五平台移植；游戏数据、SDK复用与移植缺口仍保留。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Adventure 2：Andrew Omori转述多Agent反编译与现代化](../cases/andrew-omori-sonic-adventure2-agent-decompilation-report.md) — Andrew Omori称协调Agent群反编译Sonic Adventure 2，100%恢复并现代化；没有项目、平台版本、源码或匹配报告。 **[其他 AI 逆向 · 待验证]**
 - [GTA6 PC内存占用：Satwik建议Claude研究Xbox资源与着色器优化](../cases/satwik-gta6-xbox-claude-memory-optimization-idea.md) — Satwik Hegde建议先稳定GTA6 PC项目，再让Claude研究Xbox优化来减少资源／着色器内存；并承认资产本身体积可能限制收益，尚未实施。 **[其他 AI 逆向 · 待验证]**
@@ -37,7 +40,7 @@
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](../cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](../cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](../cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
-- [Leonida的GTA VI运行时：启动、下架与仍在开发的冲突报告](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层；Gabe新增无法启动、缺主exe且仓库仍活跃的纠错说法，与旧设置界面和中止转述冲突，未得一手当前记录，不认证可玩或下架结论。 **[其他 AI 逆向 · 进行中]**
+- [Leonida的GTA VI运行时：启动、下架与仍在开发的冲突报告](../cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida的Xbox兼容研究保留启动／中止冲突；11月26日又称3007仓库下架、发起人仍幕后开发，通知及原帖未核，不认证可玩或法律结论。 **[其他 AI 逆向 · 进行中]**
 - [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](../cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](../cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](../cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**
@@ -258,7 +261,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](../cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](../cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](../cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增另一读者21／400个Claude署名与44款GPU的计数；没有固定提交集合，不解决旧计数及OpenAGC／KytyPS5来源争议，也不证明GTA6可玩。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增11月26日贡献者与Claude署名全库快照转述；旧21／400等计数仍缺固定集合，来源争议未解，少数游戏演示也不证明GTA6可玩。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](../cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](../cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](../cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**

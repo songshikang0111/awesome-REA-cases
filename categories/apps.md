@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [给vikingmute的建议：小学弟提出用AI研究Codex computer-use](../cases/vikingmute-codex-computer-use-ai-bridge-suggestion.md) — 小学弟建议用AI逆向Codex桌面操作能力；只是一条具体工具研究idea，没有桥接、实现或运行结果。 **[其他 AI 逆向 · 待验证]**
+- [Messages API转Rust：HenryPeng转述Claude重建与匿名差异指纹验证](../cases/anthropic-messages-api-rust-shadow-parity-report.md) — 转述Anthropic用Claude迁移Python API到Rust，以输出重放和匿名差异指纹查行为偏差；测试约98%通过不等于生产匹配，性能未独立复核。 **[其他 AI 逆向 · 待验证]**
+- [Binary Ninja MCP：shibazuke介绍让Agent查询IL、改类型与打补丁的插件](../cases/binary-ninja-mcp-shibazuke-tool-introduction.md) — shibazuke介绍Binary Ninja MCP插件，可向Claude Code／Cursor提供反编译、IL、交叉引用与编辑接口；原仓库未定位，不能继承同帖另一工具的试用结果。 **[其他 AI 逆向 · 相关项目]**
+- [mecha_ghidra：shibazuke报告Docker接MCP自动读二进制，文档补足分析边界](../cases/mecha-ghidra-shibazuke-headless-analysis-report.md) — shibazuke称headless Ghidra接Agent后自动加载、反编译与分析；固定README说明PyGhidra、多目标、BSim和人工接手，但加载不等于已分析。 **[其他 AI 逆向 · 待验证]**
+- [Google Play可读源码：GrapheneOS称用GPT-6.2 Astra完成逆向](../cases/grapheneos-google-play-gpt-astra-readable-source-report.md) — GrapheneOS账号称GPT-6.2 Astra将Google Play逆向为可读源码，未给组件版本、源码或重建测试；模型访问与Claude限制也只是账号自述。 **[其他 AI 逆向 · 待验证]**
+- [圣诞愿望里的Plex：Alan Amato提出REA与Claude研究idea](../cases/plex-rea-claude-christmas-reader-idea.md) — Alan Amato想有人用REA与Claude研究Plex；没有客户端、服务器版本或所需功能，不当作PlxNative的新增实现。 **[REA · 待验证]**
 - [YummyOrange：Furqan Ali称花1000万Token与5天，用Claude研究Tangerine应用](../cases/furqan-yummyorange-tangerine-claude-reconstruction.md) — Furqan Ali称用Claude逆向Tangerine并命名重建项目YummyOrange，报告1000万Token与5天，附视频及应用／GitHub链接回复；功能等价未经检查。 **[其他 AI 逆向 · 待验证]**
 - [旧SDK伪代码读到一半：ai2face称Agent虚构函数名，仍须Ghidra核对](../cases/ai2face-old-sdk-agent-function-name-hallucination.md) — ai2face报告Agent研究旧SDK时开始虚构函数名，自己须对Ghidra核对；保留一次具体失败环节，不做模型排名。 **[其他 AI 逆向 · 待验证]**
 - [从交易前端请求恢复API：cryppi的Claude／ChatGPT辅助研究idea](../cases/cryppi-trading-frontend-ai-api-reconstruction-idea.md) — cryppi建议用AI观察前端请求，恢复端点、参数与响应格式以获得交易接口；没有具名平台、实现或请求记录。 **[其他 AI 逆向 · 待验证]**

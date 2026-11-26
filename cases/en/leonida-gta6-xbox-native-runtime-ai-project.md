@@ -1,7 +1,7 @@
 # Leonida's GTA VI runtime: conflicting accounts of booting, removal and continued development
 
 Category: Games and preservation · Other AI-assisted work
-Record date: 2026-11-25
+Record date: 2026-11-26
 Stage: In progress
 
 At 11:27:26 Beijing time on November 23, 2026, lei'zi (@lis1091fu) introduces Leonida, saying work independent of the game executable is done, most PRs are Claude-coauthored and playability might precede an official PC release. This is a secondary introduction; the hardest part being over and the playability timeline are not acceptance results.
@@ -16,6 +16,7 @@ At 15:07:02 on November 25, Gabe (@fishjar) says he read the repository and disp
 
 An earlier public GitHub API lookup returned 404. This window's attempt to read the original repository's public main README also returned 404, with cause unknown. Neither establishes permanent removal, infringement or failure, nor confirms Gabe's claim of continuing active development. Original URLs and older shutdown/DMCA accounts in metadata are retained without authenticating consequential legal or identity narratives. Full GPU/corpus records were not read, no game, script or target was run, and no assets or dependencies were downloaded or installed. REA is unmentioned. In-progress records the research stage, not a claim that developers are currently still committing.
 
+At 23:12:26 Beijing time on November 26, 2026, the candidate says a November 24 Take-Two DMCA led GitHub to remove Leonida and forks totaling 3,007 projects, Discord closed, and the initiator first quit then claimed continued work behind the scenes. It repeats reports of a setup screen. The original notice, repository inventory, quit/continuation statements and runtime logs were not obtained. Infringement, permanent cessation, current activity and boot authenticity remain undecided. The 3,007 is a relayed count, not one reconciled here; removal is not proof of technical failure. Sealed snapshot: 0 likes, 72 views, 0 reposts, 0 replies.
 November 25 15:07 sealed candidate: 1 like, 414 views, 1 repost, 2 replies. Gabe's referenced revision, model count and star count lack first-party verification; a newer retelling does not overwrite older conflicting accounts.
 November 23 sealed candidate: 8 likes, 490 views, 3 reposts, 0 replies. README results are project-reported; tests and the share of Claude-credited PRs were not checked here.
 November 24 sealed candidate: 0 likes, 162 views, 0 reposts, 0 replies. The 57 MB, three hours, 350 GB, 32,000 stars and over 500 contributors are relayed claims, not independently verified.
@@ -31,5 +32,6 @@ At 02:27:04 the same day, Morty (@hollinkp8t) says Project Leonida uses Claude-a
 - [uudon's 70-hour agent collaboration figures and 404 account, November 25, 2026 at 02:22:45 Beijing time](https://x.com/i/status/2125294061695431122)
 - [Morty's secondhand graphics-initialization, black-screen and shutdown/DMCA account, November 25, 2026 at 02:27:04 Beijing time](https://x.com/i/status/2125295151870575057)
 - [Gabe's secondary correction disputing setup-screen and wiped-repository stories, November 25, 2026 at 15:07:02 Beijing time; referenced revision unverified](https://x.com/i/status/2125486402624438350)
+- [Secondary account of 3,007 repositories and continued work behind the scenes, November 26, 2026 at 23:12:26 Beijing time; original notice unchecked](https://x.com/i/status/2125970942799360185)
 
 [中文](../leonida-gta6-xbox-native-runtime-ai-project.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/games.md)

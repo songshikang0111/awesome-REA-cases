@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [不用戴手表的睡眠追踪：Pixel Gamer称Gemini研究声学扫描后提出idea](../cases/pixelgamer-gemini-acoustic-room-sleep-tracker-idea.md) — Pixel Gamer 4k将高频不可闻声音的研究归于Gemini 4 Neon，计划制作非穿戴睡眠追踪器；Meta房间扫描说法和测量能力未核。 **[其他 AI 逆向 · 待验证]**
+- [心力球绕开原App：凌晨4点扑克脸提出Gemini辅助协议研究与独立客户端idea](../cases/xinli-ball-ai-app-protocol-independent-client-idea.md) — 作者称Gemini给出研究心力球App、可能抓蓝牙流量并自制客户端的思路，自己未用过设备；连接方式与驱动源码恢复均未证实。 **[其他 AI 逆向 · 待验证]**
 - [从SL6801经验到TS47：转述Claude复用技能，4小时移植Rockbox](../cases/rockbox-ts47-claude-reused-porting-skills-report.md) — 中文转述称先把9美元播放器的Rockbox移植经验封装成技能，再让Claude用4小时适配另一台TS47；无原始开发记录或实机验证，不能继承SL6801硬件参数。 **[其他 AI 逆向 · 待验证]**
 - [先Windows再Mac：Mukshud称用Claude Code与Ghidra自学驱动研究](../cases/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud说先在Windows用逆向工具、自制检查和Claude Code／Ghidra学习驱动，再研究Mac驱动层；未给驱动目标或产物。 **[其他 AI 逆向 · 待验证]**
 - [键盘轮询固件：猿子称Agent查串口资料、写Mac脚本并刷写](../cases/motoko-keyboard-agent-serial-mac-polling-firmware.md) — 猿子称Agent从GitHub查串口信息，写可在Mac运行的小脚本并刷改版轮询固件，半小时完成；键盘型号、源码与检查未给。 **[其他 AI 逆向 · 待验证]**
@@ -717,7 +719,7 @@
 - [WHOOP / Zhoop：保留手环，用自己的 iPhone 应用读数据](../cases/whoop-noop-zhoop-ios.md) — 转述 Guru 沿用 NOOP 蓝牙逆向实现，制作健康 Agent 的 iPhone 数据入口。 **[未确认使用 REA · 待验证]**
 - [Ricoh GXR：把现代 GR recipe 带进旧相机固件的 idea](../cases/ricoh-gxr-modern-gr-recipes-idea.md) — 作者受 REA 热潮启发，希望为旧相机加入现代成像配方。 **[未确认使用 REA · 进行中]**
 - [Watch5 Pro：用 Claude + REA 添加健康传感器应用的报告](../cases/watch5-pro-rea-health-app.md) — 作者称研究手表后安装自有应用，使用 Samsung Health 所用传感器。 **[REA · 待验证]**
-- [QUICKSURFACE AI：从 3D 扫描恢复参数 CAD 的产品预告](../cases/quicksurface-ai-scan-parametric-cad.md) — 公告称将随 Pro 2027 提供扫描到可编辑模型的 AI 自动化，尚未验证。 **[其他 AI 逆向 · 相关项目]**
+- [QUICKSURFACE AI：从扫描恢复参数CAD，新增Pro 2027已提供的说法](../cases/quicksurface-ai-scan-parametric-cad.md) — 旧公告预定11月17日上线，11月26日德语通讯称Pro 2027自该日起已提供AI；从扫描到参数CAD的效果仍无样本或精度验证。 **[其他 AI 逆向 · 相关项目]**
 - [湿度读数：Agent 逆向蓝牙协议后制作个人 App](../cases/bluetooth-humidity-agent-app.md) — 作者用读数比较加湿方式，并称应用完全由 Agent 研究蓝牙协议制作。 **[其他 AI 逆向 · 待验证]**
 - [Roborock：Agent 研究固件与 App 后重建家庭云的简报](../cases/roborock-agent-local-cloud-report.md) — 回复称Agent研究石头设备固件和应用，以在家运行云端替代服务。 **[其他 AI 逆向 · 待验证]**
 - [读板仪滤光轮：Claude 研究设备通信与固件重置的报告](../cases/plate-reader-filter-wheel-claude-repair.md) — 机械与光学检查正常却自检失败，作者称Claude通信、重置固件并建立监测脚本。 **[其他 AI 逆向 · 待验证]**

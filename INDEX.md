@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2866 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2877 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（559）
-- [硬件与设备互通](categories/hardware.md)（756）
-- [应用与客户端](categories/apps.md)（1183）
+- [游戏与游戏保存](categories/games.md)（562）
+- [硬件与设备互通](categories/hardware.md)（758）
+- [应用与客户端](categories/apps.md)（1189）
 - [算法与功能重建](categories/algorithms.md)（368）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,9 @@
 
 ### 游戏与游戏保存
 
+- [Victory的GTA6兼容研究：添财转述序章画面与仍严重的着色器问题](cases/victory-gta6-ai-pc-compatibility-secondary-report.md) — 添财称Victory借AI推进Xbox到PC兼容，已显示序章、人物和城市但着色器／纹理问题严重；48小时可玩仅预期，无原始实现验收。 **[其他 AI 逆向 · 待验证]**
+- [NES马里奥改配色：两帖转述GigaChat 4修改ROM并在M4 Mac启动](cases/gigachat4-nes-mario-palette-binary-edit-demo-report.md) — 两篇中文介绍称GigaChat 4演示直接改NES超级马里奥ROM调色板、反转颜色再启动；未取得原演示、样本与补丁，不等于完整反编译。 **[其他 AI 逆向 · 待验证]**
+- [找不到互动入口：Rynco称用Codex解包与反编译研究一款成人游戏](cases/codex-adult-game-interaction-discovery-report.md) — Rynco因游戏互动内容难以发现，称动用Codex解包和反编译寻找地点、项目与进入方式；游戏未具名，没有整理出的入口或验证输出。 **[其他 AI 逆向 · 待验证]**
 - [Capcom vs. SNK 2：Claude辅助三版本反编译，字节匹配与跨平台移植分开看](cases/cvs2-naomi-dc-claude-decompilation-native-ports.md) — gibletto公开文档披露Claude参与，将CvS2三版SH-4程序重写为C／汇编，报告字节匹配并提供五平台移植；游戏数据、SDK复用与移植缺口仍保留。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Adventure 2：Andrew Omori转述多Agent反编译与现代化](cases/andrew-omori-sonic-adventure2-agent-decompilation-report.md) — Andrew Omori称协调Agent群反编译Sonic Adventure 2，100%恢复并现代化；没有项目、平台版本、源码或匹配报告。 **[其他 AI 逆向 · 待验证]**
 - [GTA6 PC内存占用：Satwik建议Claude研究Xbox资源与着色器优化](cases/satwik-gta6-xbox-claude-memory-optimization-idea.md) — Satwik Hegde建议先稳定GTA6 PC项目，再让Claude研究Xbox优化来减少资源／着色器内存；并承认资产本身体积可能限制收益，尚未实施。 **[其他 AI 逆向 · 待验证]**
@@ -61,7 +64,7 @@
 - [GTA6进Roblox？Gabezin’提出REA插件idea，也怀疑演示是绿幕](cases/gta6-roblox-rea-plugin-port-idea.md) — Gabezin’建议REA加小插件把GTA6放到Roblox，同时质疑他人演示；没有插件名、代码或运行证据，保留推测性idea。 **[REA · 待验证]**
 - [换引擎让游戏更好改：Cooliniau的LLM一比一复建idea与术语自纠](cases/cooliniau-llm-cross-engine-game-rebuild-idea.md) — Cooliniau设想LLM把游戏在Unreal、Unity或Godot中重建，供mod与同人框架参考；同串承认不一定该叫反编译，引擎仍是中间层。 **[其他 AI 逆向 · 待验证]**
 - [Minecraft Java能否转成JS：Ganfan_man在容器误认串里的AI移植idea](cases/ganfan-minecraft-java-to-js-ai-idea.md) — Ganfan_man认为AI可能把Minecraft Java翻成JavaScript；父帖明确所见其实是付费Cloudflare Container，并非已完成AI网页移植。 **[其他 AI 逆向 · 待验证]**
-- [Leonida的GTA VI运行时：启动、下架与仍在开发的冲突报告](cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida研究Xbox版GTA VI兼容层；Gabe新增无法启动、缺主exe且仓库仍活跃的纠错说法，与旧设置界面和中止转述冲突，未得一手当前记录，不认证可玩或下架结论。 **[其他 AI 逆向 · 进行中]**
+- [Leonida的GTA VI运行时：启动、下架与仍在开发的冲突报告](cases/leonida-gta6-xbox-native-runtime-ai-project.md) — Leonida的Xbox兼容研究保留启动／中止冲突；11月26日又称3007仓库下架、发起人仍幕后开发，通知及原帖未核，不认证可玩或法律结论。 **[其他 AI 逆向 · 进行中]**
 - [ReaBoy模拟器升级：Scientific Brad称Codex沿途做了13个版本](cases/reaboy-codex-emulator-upgrade-report.md) — Scientific Brad两次以为ReaBoy构建出错，随后称Codex实际升级了模拟器，并留下13个版本和推送；没有提交列表、目标机型或兼容测试。 **[未确认使用 REA · 进行中]**
 - [传称Xbox版GTA VI到Windows：Claude Code辅助兼容研究的推测性idea](cases/gta6-alleged-xbox-build-claude-compatibility-idea.md) — MajorityRight提出用Claude Code分析传称Xbox版GTA VI的格式、DX12与依赖；原帖明确没有已确认PC移植，209GB与1.0.2.1也只是传言。 **[其他 AI 逆向 · 待验证]**
 - [PS2 R5900到LLVM IR：Donkey Developer报告AI分阶段实现与首次渲染](cases/donkeydeveloper-ps2-r5900-llvm-ir-ai-lifter.md) — Donkey Developer称以GPT-6.2 Sol和GitHub CI推进MIPS到LLVM IR再到C，已首次渲染、还未到C；新回复说明设目标、分阶段、测试与日志反馈的人工迭代。 **[其他 AI 逆向 · 进行中]**
@@ -282,7 +285,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增另一读者21／400个Claude署名与44款GPU的计数；没有固定提交集合，不解决旧计数及OpenAGC／KytyPS5来源争议，也不证明GTA6可玩。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增11月26日贡献者与Claude署名全库快照转述；旧21／400等计数仍缺固定集合，来源争议未解，少数游戏演示也不证明GTA6可玩。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**
@@ -588,6 +591,8 @@
 
 ### 硬件与设备互通
 
+- [不用戴手表的睡眠追踪：Pixel Gamer称Gemini研究声学扫描后提出idea](cases/pixelgamer-gemini-acoustic-room-sleep-tracker-idea.md) — Pixel Gamer 4k将高频不可闻声音的研究归于Gemini 4 Neon，计划制作非穿戴睡眠追踪器；Meta房间扫描说法和测量能力未核。 **[其他 AI 逆向 · 待验证]**
+- [心力球绕开原App：凌晨4点扑克脸提出Gemini辅助协议研究与独立客户端idea](cases/xinli-ball-ai-app-protocol-independent-client-idea.md) — 作者称Gemini给出研究心力球App、可能抓蓝牙流量并自制客户端的思路，自己未用过设备；连接方式与驱动源码恢复均未证实。 **[其他 AI 逆向 · 待验证]**
 - [从SL6801经验到TS47：转述Claude复用技能，4小时移植Rockbox](cases/rockbox-ts47-claude-reused-porting-skills-report.md) — 中文转述称先把9美元播放器的Rockbox移植经验封装成技能，再让Claude用4小时适配另一台TS47；无原始开发记录或实机验证，不能继承SL6801硬件参数。 **[其他 AI 逆向 · 待验证]**
 - [先Windows再Mac：Mukshud称用Claude Code与Ghidra自学驱动研究](cases/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud说先在Windows用逆向工具、自制检查和Claude Code／Ghidra学习驱动，再研究Mac驱动层；未给驱动目标或产物。 **[其他 AI 逆向 · 待验证]**
 - [键盘轮询固件：猿子称Agent查串口资料、写Mac脚本并刷写](cases/motoko-keyboard-agent-serial-mac-polling-firmware.md) — 猿子称Agent从GitHub查串口信息，写可在Mac运行的小脚本并刷改版轮询固件，半小时完成；键盘型号、源码与检查未给。 **[其他 AI 逆向 · 待验证]**
@@ -1303,7 +1308,7 @@
 - [WHOOP / Zhoop：保留手环，用自己的 iPhone 应用读数据](cases/whoop-noop-zhoop-ios.md) — 转述 Guru 沿用 NOOP 蓝牙逆向实现，制作健康 Agent 的 iPhone 数据入口。 **[未确认使用 REA · 待验证]**
 - [Ricoh GXR：把现代 GR recipe 带进旧相机固件的 idea](cases/ricoh-gxr-modern-gr-recipes-idea.md) — 作者受 REA 热潮启发，希望为旧相机加入现代成像配方。 **[未确认使用 REA · 进行中]**
 - [Watch5 Pro：用 Claude + REA 添加健康传感器应用的报告](cases/watch5-pro-rea-health-app.md) — 作者称研究手表后安装自有应用，使用 Samsung Health 所用传感器。 **[REA · 待验证]**
-- [QUICKSURFACE AI：从 3D 扫描恢复参数 CAD 的产品预告](cases/quicksurface-ai-scan-parametric-cad.md) — 公告称将随 Pro 2027 提供扫描到可编辑模型的 AI 自动化，尚未验证。 **[其他 AI 逆向 · 相关项目]**
+- [QUICKSURFACE AI：从扫描恢复参数CAD，新增Pro 2027已提供的说法](cases/quicksurface-ai-scan-parametric-cad.md) — 旧公告预定11月17日上线，11月26日德语通讯称Pro 2027自该日起已提供AI；从扫描到参数CAD的效果仍无样本或精度验证。 **[其他 AI 逆向 · 相关项目]**
 - [湿度读数：Agent 逆向蓝牙协议后制作个人 App](cases/bluetooth-humidity-agent-app.md) — 作者用读数比较加湿方式，并称应用完全由 Agent 研究蓝牙协议制作。 **[其他 AI 逆向 · 待验证]**
 - [Roborock：Agent 研究固件与 App 后重建家庭云的简报](cases/roborock-agent-local-cloud-report.md) — 回复称Agent研究石头设备固件和应用，以在家运行云端替代服务。 **[其他 AI 逆向 · 待验证]**
 - [读板仪滤光轮：Claude 研究设备通信与固件重置的报告](cases/plate-reader-filter-wheel-claude-repair.md) — 机械与光学检查正常却自检失败，作者称Claude通信、重置固件并建立监测脚本。 **[其他 AI 逆向 · 待验证]**
@@ -1347,6 +1352,12 @@
 
 ### 应用与客户端
 
+- [给vikingmute的建议：小学弟提出用AI研究Codex computer-use](cases/vikingmute-codex-computer-use-ai-bridge-suggestion.md) — 小学弟建议用AI逆向Codex桌面操作能力；只是一条具体工具研究idea，没有桥接、实现或运行结果。 **[其他 AI 逆向 · 待验证]**
+- [Messages API转Rust：HenryPeng转述Claude重建与匿名差异指纹验证](cases/anthropic-messages-api-rust-shadow-parity-report.md) — 转述Anthropic用Claude迁移Python API到Rust，以输出重放和匿名差异指纹查行为偏差；测试约98%通过不等于生产匹配，性能未独立复核。 **[其他 AI 逆向 · 待验证]**
+- [Binary Ninja MCP：shibazuke介绍让Agent查询IL、改类型与打补丁的插件](cases/binary-ninja-mcp-shibazuke-tool-introduction.md) — shibazuke介绍Binary Ninja MCP插件，可向Claude Code／Cursor提供反编译、IL、交叉引用与编辑接口；原仓库未定位，不能继承同帖另一工具的试用结果。 **[其他 AI 逆向 · 相关项目]**
+- [mecha_ghidra：shibazuke报告Docker接MCP自动读二进制，文档补足分析边界](cases/mecha-ghidra-shibazuke-headless-analysis-report.md) — shibazuke称headless Ghidra接Agent后自动加载、反编译与分析；固定README说明PyGhidra、多目标、BSim和人工接手，但加载不等于已分析。 **[其他 AI 逆向 · 待验证]**
+- [Google Play可读源码：GrapheneOS称用GPT-6.2 Astra完成逆向](cases/grapheneos-google-play-gpt-astra-readable-source-report.md) — GrapheneOS账号称GPT-6.2 Astra将Google Play逆向为可读源码，未给组件版本、源码或重建测试；模型访问与Claude限制也只是账号自述。 **[其他 AI 逆向 · 待验证]**
+- [圣诞愿望里的Plex：Alan Amato提出REA与Claude研究idea](cases/plex-rea-claude-christmas-reader-idea.md) — Alan Amato想有人用REA与Claude研究Plex；没有客户端、服务器版本或所需功能，不当作PlxNative的新增实现。 **[REA · 待验证]**
 - [YummyOrange：Furqan Ali称花1000万Token与5天，用Claude研究Tangerine应用](cases/furqan-yummyorange-tangerine-claude-reconstruction.md) — Furqan Ali称用Claude逆向Tangerine并命名重建项目YummyOrange，报告1000万Token与5天，附视频及应用／GitHub链接回复；功能等价未经检查。 **[其他 AI 逆向 · 待验证]**
 - [旧SDK伪代码读到一半：ai2face称Agent虚构函数名，仍须Ghidra核对](cases/ai2face-old-sdk-agent-function-name-hallucination.md) — ai2face报告Agent研究旧SDK时开始虚构函数名，自己须对Ghidra核对；保留一次具体失败环节，不做模型排名。 **[其他 AI 逆向 · 待验证]**
 - [从交易前端请求恢复API：cryppi的Claude／ChatGPT辅助研究idea](cases/cryppi-trading-frontend-ai-api-reconstruction-idea.md) — cryppi建议用AI观察前端请求，恢复端点、参数与响应格式以获得交易接口；没有具名平台、实现或请求记录。 **[其他 AI 逆向 · 待验证]**

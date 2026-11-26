@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2866 cases & projects
+# 2877 cases & projects
 
-**Latest case update:** November 26, 2026, 20:08 · **Last maintained:** November 26, 2026, 20:08 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 27, 2026, 00:16 · **Last maintained:** November 27, 2026, 00:16 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -50,9 +50,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **559** |
-| [Hardware & interoperability](categories/en/hardware.md) | **756** |
-| [Applications & clients](categories/en/apps.md) | **1183** |
+| [Games & preservation](categories/en/games.md) | **562** |
+| [Hardware & interoperability](categories/en/hardware.md) | **758** |
+| [Applications & clients](categories/en/apps.md) | **1189** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **368** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
