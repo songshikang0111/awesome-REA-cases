@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2845 个案例与项目
+# 2852 个案例与项目
 
-**最近案例更新：**2026 年 11 月 26 日 08:10 · **最近维护：**2026 年 11 月 26 日 08:10 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 26 日 12:11 · **最近维护：**2026 年 11 月 26 日 12:11 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -33,7 +33,7 @@
 7. **[Elecbrakes：研究拖车的蓝牙刹车](cases/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19`研究者原文；`2026-11-20`CVE登记 — Forck与McCarthy用**Claude读字节码、做研究工具**，再报告自有硬件测试。EB2／VM1修复有文档，旧ELBC 2000截至原文无修复；固件静态分析没有证明恶意刷写。本合集未复现。`未独立核验`
 8. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22`介绍与固定文档 — Agent按录制行为写Rust，新文档报告**17224次字节一致，15861次全在Rust**，其余回退。此前M4基准中CLI约19倍含进程启动优势，预热进程内为4.2倍。录制会真实执行副作用，须用隔离副本；本合集未重跑。`未独立核验`
 9. **[echo-dot-assist：保留麦克风，换掉Alexa](cases/echo-dot-assist-claude-hassmic-home-assistant.md)** · `2026-11-24`介绍与固定README — **Claude参与的hassmic让旧Echo接Home Assistant**，保留原音频前端；解锁研究归R0rt1z2。项目每型号仅测一台，代码未经审计，安装会清空设备且可能变砖；本合集未验证网络隔离。`进行中`
-10. **[Beekeeper Studio：CSV匹配，为什么仍不够](cases/saikumaresh-beekeeper-rea-csv-behavioral-parity-test.md)** · `2026-11-24`作者串 — 四个隔离Agent用REA研究并重建CSV导出，Sai Kumaresh报告**五种方言90／90字节匹配**；上游列选择、5万行上限与过滤传递仍有规格缺口。未读取日志和harness，本合集未重跑。`分析测试`
+10. **[Fruit Ninja：把实时挥砍移进工具](cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md)** · `2026-11-26`研究与转述 — **Kimi K3／REA自建MCP服务**，项目报告三局总分均值304.7对67.7，扣除终局奖励为225对6。是服务读内存、自行挥砍，模型一局仅调用一至三次。已读方法，未复跑。`分析测试`
 
 ## 经典案例
 
@@ -50,9 +50,9 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **553** |
+| [游戏与游戏保存](categories/games.md) | **556** |
 | [硬件与设备互通](categories/hardware.md) | **752** |
-| [应用与客户端](categories/apps.md) | **1176** |
+| [应用与客户端](categories/apps.md) | **1180** |
 | [算法与功能重建](categories/algorithms.md) | **364** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

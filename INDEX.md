@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2845 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2852 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（553）
+- [游戏与游戏保存](categories/games.md)（556）
 - [硬件与设备互通](categories/hardware.md)（752）
-- [应用与客户端](categories/apps.md)（1176）
+- [应用与客户端](categories/apps.md)（1180）
 - [算法与功能重建](categories/algorithms.md)（364）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,13 +26,16 @@
 
 ### 游戏与游戏保存
 
+- [游戏逆向别猜偏移：Neon长提示词与Claude三种加载入口](cases/neon-claude-game-reversing-ground-truth-prompt.md) — 两帖介绍游戏逆向系统提示词：实测偏移、引擎分流、区分编译与真机验证；Neon全文与Claude入口说明并非同字节模板，未验证破解效果。 **[其他 AI 逆向 · 相关项目]**
+- [从GBA合成引擎恢复MIDI：Werewolf Freak的AI辅助研究自述](cases/werewolf-gba-krawell-ai-midi-recovery-report.md) — Werewolf Freak称AI帮助从GBA游戏的krawell合成引擎反编译MIDI，同时提到自己做N64重编译；游戏、模型、文件和对照未给。 **[其他 AI 逆向 · 待验证]**
+- [Belobug的GTA6 PC画面：Martin转述Claude Code与Gemini参与兼容研究](cases/belobug-gta6-claude-gemini-pc-runtime-report.md) — Martin称Belobug借Claude Code和Gemini让Xbox版GTA6在PC显示世界、车辆与行人；未取得README、仓库或运行记录，不认证可玩性。 **[其他 AI 逆向 · 待验证]**
 - [只给交互直播画面也能重建？Darkside提出REA式MCP游戏复建idea](cases/darkside-streamed-game-ai-mcp-reconstruction-idea.md) — Darkside建议用AI从游戏流画面重建游戏，再用类似REA的MCP支持；作者承认可能消耗大量Token，没有实施。 **[REA · 待验证]**
 - [Astra指导Neon研究游戏：彳亍的未具名逆向比较自述](cases/chichu-astra-neon-unnamed-game-reversing-report.md) — 彳亍称让模型逆向一个游戏，Astra看出问题并指导做完；父帖是Neon使用评价，未给游戏、代码或检查。 **[其他 AI 逆向 · 待验证]**
 - [用Claude梳理Cyberpunk工具链：Tepri的室内空间与C++模拟Mod](cases/tepri-cyberpunk-red4ext-interior-simulation-mod.md) — Tepri说明redscript钩子、WolvenKit任务资源与RED4ext C++模拟，称AI帮助开放大部分室内空间；未披露Mod代码与性能测试。 **[其他 AI 逆向 · 进行中]**
 - [OpenMCM2：Claude辅助Rust重建Motocross Madness 2与免费替代素材](cases/openmcm2-rust-claude-motocross-madness2-recreation.md) — The Gaming Emporium介绍OpenMCM2 v0.8.3；固定README确认Claude Code参与、逐次与原作试骑比较及38条新赛道素材包，未构建或实测。 **[其他 AI 逆向 · 进行中]**
 - [Project Reclaimer：测试账号区分AI反编译辅助与人工开发测试](cases/project-reclaimer-ai-human-decompilation-report.md) — Project Reclaimer Test Account称AI大量辅助编码和反编译，但开发者仍做人工开发、测试与修整；旧背景帖将项目描述为Halo 3独立启动器。 **[其他 AI 逆向 · 待验证]**
 - [牧场物语去限时：DarkJDL建议AI反编译再放回SNES烧录卡](cases/darkjdl-harvest-moon-ai-remove-time-limit-idea.md) — 面对Harvest Moon限时带来的压力，DarkJDL提出AI反编译、去限时再编译并用SD2Snes玩的idea；没有补丁或实施。 **[其他 AI 逆向 · 待验证]**
-- [Fruit Ninja实时玩法：Ao Qu的Agent原生接口研究演示自述](cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — Ao Qu以Fruit Ninja说明Agent研究软件后二进制接MCP、无须看屏操作，称实时专家级玩法；没有成绩表或演示检查。 **[其他 AI 逆向 · 分析测试]**
+- [Fruit Ninja二进制到MCP：Kimi K3把实时挥砍移入auto_play的三局对照](cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — 研究文档报告Kimi K3用REA建MCP，三局均分304.7对看屏67.7；去除终局奖励为225对6，auto_play每秒多次读内存挥砍，非模型逐刀决策。 **[REA · 分析测试]**
 - [Apex Legends Mobile社区复活：codmINTEL的AI逆向转述](cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区以AI逆向复活Apex Legends Mobile，附视频；未给团队、仓库、服务器机制或测试，不确认可玩性。 **[其他 AI 逆向 · 待验证]**
 - [旧游戏模拟器与OOT：Mason Blake报告Claude协助，目标版本未明](cases/mason-blake-claude-old-game-emulator-oot-report.md) — Mason Blake称仍能让Claude协助开发旧游戏模拟器，并提到OOT、the new one；未说明具体游戏版本、模拟平台或可玩结果。 **[其他 AI 逆向 · 进行中]**
 - [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
@@ -1337,6 +1340,10 @@
 
 ### 应用与客户端
 
+- [编码工具会上传忽略文件吗：Kiro转述REA索引器与隐私模式审计idea](cases/kiro-rea-coding-indexer-privacy-canary-audit-idea.md) — Kiro建议追踪编码工具索引器读文件、用假密钥对照请求体，并检查隐私模式遥测和命令审批；没有具名工具、报告或执行日志。 **[REA · 待验证]**
+- [争议游戏项目的exe安全吗：vyvanse建议Claude与REA检查文件](cases/vyvanse-disputed-game-executable-rea-malware-audit-idea.md) — vyvanse在下载安全争论中建议把exe或文件交Claude／REA检查；父串有盗密指控但无样本或检测，不能把AI分析当安全保证。 **[REA · 待验证]**
+- [IDA伪代码交给Gemini：Kenan Sulayman的AI Studio提示词工作流](cases/kenan-gemini-ai-studio-ida-pseudocode-prompt-report.md) — Kenan称自己在AI Studio用Gemini分析IDA伪代码转储，并分享system prompt入口；未取得提示词正文、目标二进制或分析结果。 **[其他 AI 逆向 · 待验证]**
+- [Muse与Grokbot都变CLI：Yangyi提出AI协议研究后的单Agent聚合idea](cases/yangyi-muse-grokbot-protocol-cli-aggregation-idea.md) — Yangyi建议让AI逐个研究Muse、Grokbot等产品通信协议，再CLI化接入一个Agent；没有实现、协议记录或跨平台演示。 **[其他 AI 逆向 · 待验证]**
 - [训练容器里的缓存代码：AI Council转述Codex团队观察到的反编译捷径](cases/calvin-codex-training-container-cached-code-decompilation.md) — AI Council转述Calvin French-Owen：训练中的模型未写Python，转而反编译容器残留缓存代码；没有缓存格式、任务或日志。 **[其他 AI 逆向 · 待验证]**
 - [从手机取出的TripIt：Sad HAM Society展示Opus 5／REA静态与流量分析](cases/sad-hams-tripit-opus5-rea-static-live-traffic.md) — 作者称用Claude Code的Opus 5、自建助手和REA分析TripIt，包含静态分析与实时抓流量，15至20分钟无拒绝；视频未观看。 **[REA · 分析测试]**
 - [更新自制逆向软件时遇警告：Charles的Claude开发经历自述](cases/unsignedbytes-custom-re-software-claude-warning-report.md) — Charles称更新自制RE软件时收到警告，并指CVP允许逆向；未核截图内容、工具名或封号，关于盗用代码的说法仅玩笑式猜测。 **[其他 AI 逆向 · 进行中]**
@@ -1404,7 +1411,7 @@
 - [PHP应用改成Agent报告接口：Mike Majara的分页失败与computer use回退](cases/php-webapp-agent-reports-pagination-failure.md) — Mike Majara尝试研究PHP应用，把五个主页面变成报告、过滤与查询以省token；多数尝试失败，最终computer use不到十分钟完成原任务但仍耗大量token。 **[其他 AI 逆向 · 待验证]**
 - [闭源Electron到独立客户端：Patch称REA与Claude四分钟梳理IPC及WebSocket](cases/patch-rea-electron-websocket-client-report.md) — Patch称Claude Code经REA MCP研究闭源Electron应用的IPC和隐藏WebSocket API并写出客户端；未命名软件、公开代码或验证clean-room及四分钟说法。 **[REA · 待验证]**
 - [从合同到job级财务：Stephen Genusa称三周研究新旧系统恢复细粒度数据](cases/stephen-genusa-legacy-financial-job-level-reconstruction.md) — Stephen Genusa在AI辅助工作回顾中称研究几十年累积的新旧财务系统，得到原来只到合同层的job级财务；没有系统名、数据血缘或校验，不推断恢复源码或节省多少工时。 **[其他 AI 逆向 · 待验证]**
-- [WCDB研究后指导DeepSeek：koeri称半小时验证想法并导出微信聊天](cases/koeri-deepseek-wcdb-wechat-export-report.md) — koeri0721称先研究WCDB并提出三种取key设想，再指导DeepSeek实验，半小时取到AES key并导出微信记录；没有客户端版本、授权范围或测试，不证明远程读取或通用方案。 **[其他 AI 逆向 · 待验证]**
+- [WCDB研究后指导DeepSeek：koeri称半小时验证想法并导出微信聊天](cases/koeri-deepseek-wcdb-wechat-export-report.md) — koeri称指导DeepSeek半小时完成微信数据库实验与聊天导出，随后强调解密建立在前人研究上；版本、授权和输出未核，不证明远程读取或通用绕防护。 **[其他 AI 逆向 · 待验证]**
 - [不看源码重写自己的网站：Nisa的REA加Claude对照报告](cases/rea-claude-own-website-no-source-rebuild-report.md) — Nisa称REA与Claude未看代码就重写自己的网站，并问相似百分比；可读候选没有比例、网址、版本或测试结果，不能写成高保真验收。 **[REA · 待验证]**
 - [逆向没碰到so：baibaoqq对MiMo Pro任务的失败反馈](cases/mimo-pro-so-reversing-failure-report.md) — baibaoqq称MiMo Pro逆向半天仍未分析so并生成无用内容；父帖是MiMo-V2.6发布，不能据回复认定精确后端或模型普遍能力。 **[其他 AI 逆向 · 待验证]**
 - [Windows旧工具改写Rust：Risun称AI研究.NET 3.5实现后提速](cases/risun-net35-tool-ai-rust-rewrite-report.md) — Risun因旧.NET 3.5工具仅支持Windows且性能一般，称AI逆向完整源码再以Rust重写；工具未命名，飞快无基准，也未确认新增平台。 **[其他 AI 逆向 · 待验证]**

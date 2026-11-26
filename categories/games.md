@@ -2,13 +2,16 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [游戏逆向别猜偏移：Neon长提示词与Claude三种加载入口](../cases/neon-claude-game-reversing-ground-truth-prompt.md) — 两帖介绍游戏逆向系统提示词：实测偏移、引擎分流、区分编译与真机验证；Neon全文与Claude入口说明并非同字节模板，未验证破解效果。 **[其他 AI 逆向 · 相关项目]**
+- [从GBA合成引擎恢复MIDI：Werewolf Freak的AI辅助研究自述](../cases/werewolf-gba-krawell-ai-midi-recovery-report.md) — Werewolf Freak称AI帮助从GBA游戏的krawell合成引擎反编译MIDI，同时提到自己做N64重编译；游戏、模型、文件和对照未给。 **[其他 AI 逆向 · 待验证]**
+- [Belobug的GTA6 PC画面：Martin转述Claude Code与Gemini参与兼容研究](../cases/belobug-gta6-claude-gemini-pc-runtime-report.md) — Martin称Belobug借Claude Code和Gemini让Xbox版GTA6在PC显示世界、车辆与行人；未取得README、仓库或运行记录，不认证可玩性。 **[其他 AI 逆向 · 待验证]**
 - [只给交互直播画面也能重建？Darkside提出REA式MCP游戏复建idea](../cases/darkside-streamed-game-ai-mcp-reconstruction-idea.md) — Darkside建议用AI从游戏流画面重建游戏，再用类似REA的MCP支持；作者承认可能消耗大量Token，没有实施。 **[REA · 待验证]**
 - [Astra指导Neon研究游戏：彳亍的未具名逆向比较自述](../cases/chichu-astra-neon-unnamed-game-reversing-report.md) — 彳亍称让模型逆向一个游戏，Astra看出问题并指导做完；父帖是Neon使用评价，未给游戏、代码或检查。 **[其他 AI 逆向 · 待验证]**
 - [用Claude梳理Cyberpunk工具链：Tepri的室内空间与C++模拟Mod](../cases/tepri-cyberpunk-red4ext-interior-simulation-mod.md) — Tepri说明redscript钩子、WolvenKit任务资源与RED4ext C++模拟，称AI帮助开放大部分室内空间；未披露Mod代码与性能测试。 **[其他 AI 逆向 · 进行中]**
 - [OpenMCM2：Claude辅助Rust重建Motocross Madness 2与免费替代素材](../cases/openmcm2-rust-claude-motocross-madness2-recreation.md) — The Gaming Emporium介绍OpenMCM2 v0.8.3；固定README确认Claude Code参与、逐次与原作试骑比较及38条新赛道素材包，未构建或实测。 **[其他 AI 逆向 · 进行中]**
 - [Project Reclaimer：测试账号区分AI反编译辅助与人工开发测试](../cases/project-reclaimer-ai-human-decompilation-report.md) — Project Reclaimer Test Account称AI大量辅助编码和反编译，但开发者仍做人工开发、测试与修整；旧背景帖将项目描述为Halo 3独立启动器。 **[其他 AI 逆向 · 待验证]**
 - [牧场物语去限时：DarkJDL建议AI反编译再放回SNES烧录卡](../cases/darkjdl-harvest-moon-ai-remove-time-limit-idea.md) — 面对Harvest Moon限时带来的压力，DarkJDL提出AI反编译、去限时再编译并用SD2Snes玩的idea；没有补丁或实施。 **[其他 AI 逆向 · 待验证]**
-- [Fruit Ninja实时玩法：Ao Qu的Agent原生接口研究演示自述](../cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — Ao Qu以Fruit Ninja说明Agent研究软件后二进制接MCP、无须看屏操作，称实时专家级玩法；没有成绩表或演示检查。 **[其他 AI 逆向 · 分析测试]**
+- [Fruit Ninja二进制到MCP：Kimi K3把实时挥砍移入auto_play的三局对照](../cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — 研究文档报告Kimi K3用REA建MCP，三局均分304.7对看屏67.7；去除终局奖励为225对6，auto_play每秒多次读内存挥砍，非模型逐刀决策。 **[REA · 分析测试]**
 - [Apex Legends Mobile社区复活：codmINTEL的AI逆向转述](../cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区以AI逆向复活Apex Legends Mobile，附视频；未给团队、仓库、服务器机制或测试，不确认可玩性。 **[其他 AI 逆向 · 待验证]**
 - [旧游戏模拟器与OOT：Mason Blake报告Claude协助，目标版本未明](../cases/mason-blake-claude-old-game-emulator-oot-report.md) — Mason Blake称仍能让Claude协助开发旧游戏模拟器，并提到OOT、the new one；未说明具体游戏版本、模拟平台或可玩结果。 **[其他 AI 逆向 · 进行中]**
 - [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](../cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**

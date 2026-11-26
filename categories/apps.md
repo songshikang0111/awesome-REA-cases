@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [编码工具会上传忽略文件吗：Kiro转述REA索引器与隐私模式审计idea](../cases/kiro-rea-coding-indexer-privacy-canary-audit-idea.md) — Kiro建议追踪编码工具索引器读文件、用假密钥对照请求体，并检查隐私模式遥测和命令审批；没有具名工具、报告或执行日志。 **[REA · 待验证]**
+- [争议游戏项目的exe安全吗：vyvanse建议Claude与REA检查文件](../cases/vyvanse-disputed-game-executable-rea-malware-audit-idea.md) — vyvanse在下载安全争论中建议把exe或文件交Claude／REA检查；父串有盗密指控但无样本或检测，不能把AI分析当安全保证。 **[REA · 待验证]**
+- [IDA伪代码交给Gemini：Kenan Sulayman的AI Studio提示词工作流](../cases/kenan-gemini-ai-studio-ida-pseudocode-prompt-report.md) — Kenan称自己在AI Studio用Gemini分析IDA伪代码转储，并分享system prompt入口；未取得提示词正文、目标二进制或分析结果。 **[其他 AI 逆向 · 待验证]**
+- [Muse与Grokbot都变CLI：Yangyi提出AI协议研究后的单Agent聚合idea](../cases/yangyi-muse-grokbot-protocol-cli-aggregation-idea.md) — Yangyi建议让AI逐个研究Muse、Grokbot等产品通信协议，再CLI化接入一个Agent；没有实现、协议记录或跨平台演示。 **[其他 AI 逆向 · 待验证]**
 - [训练容器里的缓存代码：AI Council转述Codex团队观察到的反编译捷径](../cases/calvin-codex-training-container-cached-code-decompilation.md) — AI Council转述Calvin French-Owen：训练中的模型未写Python，转而反编译容器残留缓存代码；没有缓存格式、任务或日志。 **[其他 AI 逆向 · 待验证]**
 - [从手机取出的TripIt：Sad HAM Society展示Opus 5／REA静态与流量分析](../cases/sad-hams-tripit-opus5-rea-static-live-traffic.md) — 作者称用Claude Code的Opus 5、自建助手和REA分析TripIt，包含静态分析与实时抓流量，15至20分钟无拒绝；视频未观看。 **[REA · 分析测试]**
 - [更新自制逆向软件时遇警告：Charles的Claude开发经历自述](../cases/unsignedbytes-custom-re-software-claude-warning-report.md) — Charles称更新自制RE软件时收到警告，并指CVP允许逆向；未核截图内容、工具名或封号，关于盗用代码的说法仅玩笑式猜测。 **[其他 AI 逆向 · 进行中]**
@@ -69,7 +73,7 @@
 - [PHP应用改成Agent报告接口：Mike Majara的分页失败与computer use回退](../cases/php-webapp-agent-reports-pagination-failure.md) — Mike Majara尝试研究PHP应用，把五个主页面变成报告、过滤与查询以省token；多数尝试失败，最终computer use不到十分钟完成原任务但仍耗大量token。 **[其他 AI 逆向 · 待验证]**
 - [闭源Electron到独立客户端：Patch称REA与Claude四分钟梳理IPC及WebSocket](../cases/patch-rea-electron-websocket-client-report.md) — Patch称Claude Code经REA MCP研究闭源Electron应用的IPC和隐藏WebSocket API并写出客户端；未命名软件、公开代码或验证clean-room及四分钟说法。 **[REA · 待验证]**
 - [从合同到job级财务：Stephen Genusa称三周研究新旧系统恢复细粒度数据](../cases/stephen-genusa-legacy-financial-job-level-reconstruction.md) — Stephen Genusa在AI辅助工作回顾中称研究几十年累积的新旧财务系统，得到原来只到合同层的job级财务；没有系统名、数据血缘或校验，不推断恢复源码或节省多少工时。 **[其他 AI 逆向 · 待验证]**
-- [WCDB研究后指导DeepSeek：koeri称半小时验证想法并导出微信聊天](../cases/koeri-deepseek-wcdb-wechat-export-report.md) — koeri0721称先研究WCDB并提出三种取key设想，再指导DeepSeek实验，半小时取到AES key并导出微信记录；没有客户端版本、授权范围或测试，不证明远程读取或通用方案。 **[其他 AI 逆向 · 待验证]**
+- [WCDB研究后指导DeepSeek：koeri称半小时验证想法并导出微信聊天](../cases/koeri-deepseek-wcdb-wechat-export-report.md) — koeri称指导DeepSeek半小时完成微信数据库实验与聊天导出，随后强调解密建立在前人研究上；版本、授权和输出未核，不证明远程读取或通用绕防护。 **[其他 AI 逆向 · 待验证]**
 - [不看源码重写自己的网站：Nisa的REA加Claude对照报告](../cases/rea-claude-own-website-no-source-rebuild-report.md) — Nisa称REA与Claude未看代码就重写自己的网站，并问相似百分比；可读候选没有比例、网址、版本或测试结果，不能写成高保真验收。 **[REA · 待验证]**
 - [逆向没碰到so：baibaoqq对MiMo Pro任务的失败反馈](../cases/mimo-pro-so-reversing-failure-report.md) — baibaoqq称MiMo Pro逆向半天仍未分析so并生成无用内容；父帖是MiMo-V2.6发布，不能据回复认定精确后端或模型普遍能力。 **[其他 AI 逆向 · 待验证]**
 - [Windows旧工具改写Rust：Risun称AI研究.NET 3.5实现后提速](../cases/risun-net35-tool-ai-rust-rewrite-report.md) — Risun因旧.NET 3.5工具仅支持Windows且性能一般，称AI逆向完整源码再以Rust重写；工具未命名，飞快无基准，也未确认新增平台。 **[其他 AI 逆向 · 待验证]**

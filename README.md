@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2845 cases & projects
+# 2852 cases & projects
 
-**Latest case update:** November 26, 2026, 08:10 · **Last maintained:** November 26, 2026, 08:10 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 26, 2026, 12:11 · **Last maintained:** November 26, 2026, 12:11 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Elecbrakes: audit a trailer's Bluetooth brakes](cases/en/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19` researcher account; `2026-11-20` CVE record — Forck and McCarthy credit **Claude with bytecode analysis and research tooling**, then report tests on their own hardware. EB2/VM1 fixes are documented; older ELBC 2000 had no fix at publication. Static firmware analysis did not demonstrate malicious flashing. Not reproduced here. `Unverified here`
 8. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22` report and pinned docs — Agents write Rust against recorded behavior. Updated project docs report **17,224 byte-identical runs, 15,861 fully in Rust**; the rest fall back. The earlier M4 benchmark's roughly 19× CLI gain includes process startup, versus 4.2× warmed in-process. Recording runs real side effects; use isolated copies. Not rerun here. `Unverified here`
 9. **[echo-dot-assist: keep the microphones, replace Alexa](cases/en/echo-dot-assist-claude-hassmic-home-assistant.md)** · `2026-11-24` introduction and pinned README — **Claude-credited hassmic connects old Echos to Home Assistant**, keeping the original audio front end. Unlocking research belongs to R0rt1z2. Only one unit per model was tested by the project; code is unaudited and installation can wipe or brick a device. Network isolation is not verified here. `In progress`
-10. **[Beekeeper Studio: when matching CSV is not enough](cases/en/saikumaresh-beekeeper-rea-csv-behavioral-parity-test.md)** · `2026-11-24` author thread — Four isolated agents use REA to study and rebuild CSV export. Sai Kumaresh reports **90/90 byte matches across five dialects**, but upstream column selection, a 50,000-row cap and filters remain specification gaps. Logs and harness not read; not rerun here. `Analysis test`
+10. **[Fruit Ninja: move real-time play into the tool](cases/en/aoqu-agent-native-fruit-ninja-binary-mcp-play.md)** · `2026-11-26` study and secondary report — **Kimi K3/REA builds an MCP server**, reportedly averaging 304.7 versus 67.7 points over three rounds. Without end bonuses: 225 versus 6. The server reads memory and slashes; the model calls it only one to three times per round. Methods read, tests not rerun. `Analysis test`
 
 ## Classic cases
 
@@ -50,9 +50,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **553** |
+| [Games & preservation](categories/en/games.md) | **556** |
 | [Hardware & interoperability](categories/en/hardware.md) | **752** |
-| [Applications & clients](categories/en/apps.md) | **1176** |
+| [Applications & clients](categories/en/apps.md) | **1180** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **364** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)
