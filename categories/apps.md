@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Reloc的iOS定位实现：Jan建议让Agent审视源码](../cases/jan-reloc-ios-location-agent-source-review-idea.md) — Jan介绍Reloc的回环连接、后台保活与坐标扰动，并建议让Agent审视源码；这是具体源码研究idea，不是AI开发归因或定位绕过实测。 **[未确认使用 REA · 待验证]**
+- [诊所开票接入AI：momo称花一周研究现有发票软件](../cases/momo-clinic-invoice-software-ai-integration-report.md) — momo称已花一周逆向诊所的开票软件，背景是诊所想让AI也开票；没有明确AI承担逆向步骤或已完成接入与账务验证。 **[未确认使用 REA · 进行中]**
+- [rev-skills：把逆向工作流整理成可供八种AI工具使用的技能库](../cases/rev-skills-cross-tool-reverse-engineering-library.md) — 大卫介绍rev-skills；补读固定README确认入口分流、技能导航和八种工具适配说明。122项是文档口径，不是122个已成功逆向目标，未安装或执行。 **[其他 AI 逆向 · 相关项目]**
 - [只研究自己用的QuickBooks功能：Phil推荐AI skill的idea](../cases/phil-quickbooks-used-features-ai-skill-idea.md) — Phil建议用一个skill逆向QuickBooks中实际使用的部分；是有具体软件目标的功能研究idea，没有报告已开发替代品。 **[其他 AI 逆向 · 待验证]**
 - [Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC](../cases/adylovelace-project-fusion-filefault2-revoz-rea.md) — AdyLovelace称在macOS 27.3 AArch64上以REA、Ghidra和AI Agent研究Abyss／MysticalCore，产出FileFault 2 REVoz PoC；机制与验证未公开。 **[REA · 待验证]**
 - [先写无品牌规格，Claude仍要看原App：Annie的Mac GUI重建尝试](../cases/annie-mac-gui-reconstruction-claude-spec-plan.md) — Annie称人工研究闭源Mac应用GUI并写成不提原App的规格，交给Claude后模型仍计划对照真实应用；尚无实现或效果报告。 **[其他 AI 逆向 · 进行中]**
@@ -173,7 +176,7 @@
 - [Renoise数字人：知识猫体验后想用REA研究的idea](../cases/geekcat-renoise-digital-human-rea-idea.md) — 知识猫在Renoise视频制作讨论中称喜欢其数字人，想用REA研究；只有功能目标和使用感受，没有实际分析、接口或重建。 **[REA · 待验证]**
 - [Clip Studio接Venice：用REA MCP研究闭源绘画工具的idea](../cases/clip-studio-rea-mcp-venice-integration-idea.md) — cthulhu_ftaghn提出用REA MCP研究Clip Studio并接入Venice，帮助创作者制作艺术；只是具体设想，没有接口、代码或效果验证。 **[REA · 待验证]**
 - [行情解说视频节奏：发财姐计划用rea-video拆两条参考片](../cases/rea-video-market-commentary-rhythm-trial-idea.md) — 发财姐准备把两条常看的行情解说视频交给rea-video，研究节奏与剪辑点；目前只是试用计划，不是已完成分析或复刻。 **[其他 AI 逆向 · 待验证]**
-- [Gemini-app2api：pi扩展之后，作者澄清tool call与harness的边界](../cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨发布Gemini-app2api的pi扩展，后称研究反代以补回tool call、harness交由调用者；v1.6.5四小时百余图片是窗口前作者测试，未核源码、模型或账号安全。 **[未确认使用 REA · 相关项目]**
+- [Gemini-app2api：v1.9.0扩展互通入口，满血模型仍是作者宣称](../cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨的v1.9.0介绍列出原生HTTP/2、OpenAI兼容多账号gateway及六类接入；未核源码、模型能力或账号安全，不能把新版满血宣传当作解除旧证据限制。 **[未确认使用 REA · 相关项目]**
 - [ClaudeMom：本地兼容网关把第三方模型接入Claude Desktop登录式界面](../cases/claudemom-desktop-local-gateway-interoperability-project.md) — ClaudeMom以本地服务应答账号和功能请求、将对话转发到自选上游；固定v0.1.9 README列语音、Code会话与平台限制，未运行或核验全功能、安全与授权。 **[未确认使用 REA · 相关项目]**
 - [Ansys轴向磁通电机开发：TANG称用IDA研究操作入口，再让Claude与脚本全天操作](../cases/tang-ansys-ida-claude-axial-flux-motor-automation.md) — TANG称2026年初开始用AI与Ansys开发轴向磁通电机，通过IDA反汇编和脚本找到软件操作入口，再用Claude与脚本自动操作；未有模型、日志或电机验证。 **[其他 AI 逆向 · 待验证]**
 - [Edge Rewards脚本迭代：程序员Kun称先整理开源接口，再让AI扩展签到与批量管理](../cases/kun-edge-rewards-ai-interface-script-iteration.md) — 程序员Kun报告Edge内Rewards签到脚本从零交模型效果差，先参考开源项目整理接口并做初版后，再让AI逐项升级到多账号管理；没有代码、领取结果或合规核验。 **[其他 AI 逆向 · 待验证]**

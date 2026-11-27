@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2900 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2904 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（567）
 - [硬件与设备互通](categories/hardware.md)（762）
-- [应用与客户端](categories/apps.md)（1202）
-- [算法与功能重建](categories/algorithms.md)（369）
+- [应用与客户端](categories/apps.md)（1205）
+- [算法与功能重建](categories/algorithms.md)（370）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -727,7 +727,7 @@
 - [Bugatti Jacqueline水壶接Home Assistant：Inna提出蓝牙研究，也质疑必要性](cases/inna-bugatti-jacqueline-ble-home-assistant-idea.md) — Inna Babicka在AI家居自动化讨论中想到研究自有水壶蓝牙，经ESP32或自定义集成接Home Assistant，但已有定时器让她质疑用途；尚未实施。 **[未确认使用 REA · 待验证]**
 - [假Kingston NV3的身份检查：Claude先误判，再查控制器与固件的转述](cases/fake-kingston-nv3-ssd-claude-controller-identity-report.md) — Vaibhav Sisinty转述Reddit用户：Claude Code多次误判硬件坏，经人质疑后查Windows设备身份，发现Realtek控制器与固件不符，标4TB盘据称约256GB。 **[其他 AI 逆向 · 待验证]**
 - [ClaudeWatch腕上审批：darkzodchi报告Apple Watch与Mac Agent桥接](cases/claudewatch-fable-apple-watch-agent-bridge-report.md) — ClaudeWatch通过Bonjour、Node桥和Claude Code hooks做腕上终端、审批和语音；新转述补SSE与暂停等待决定，不证明表上推理或watchOS逆向，配对安全未审。 **[未确认使用 REA · 待验证]**
-- [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 一则日语帖子分享FabScene对usb-rea的报道，称工具为依赖专用App的USB设备制作驱动；未读文章、仓库或设备验证，不由名称推定REA关联。 **[未确认使用 REA · 相关项目]**
+- [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 新介绍补充usb-rea从Windows厂商App操作抓取并标注USB流量，推导字段、CRC并输出协议报告和Linux驱动；仍无设备测试、仓库核验或明确AI分工。 **[未确认使用 REA · 相关项目]**
 - [改装Meta眼镜重新导出照片：Marouane用Codex接入Sol与Darija语音](cases/marouane-meta-glasses-codex-export-darija-report.md) — Marouane称拒绝更新使改装Meta眼镜面临停用，借Codex恢复照片／视频导出，加入GPT-6.1 Sol与摩洛哥Darija语音；代码与设备未核，关闭录像灯的改装不作推广。 **[其他 AI 逆向 · 待验证]**
 - [Seestar S50望远镜：Rafael称Opus 4.8在40分钟后给出固件与功能发现](cases/rafael-seestar-s50-opus-firmware-analysis-report.md) — Rafael Silva称让Claude Opus 4.8研究Seestar S50，40分钟后得到root shell、固件转储与55项App没公开的功能；没有日志、功能列表或独立设备验证。 **[其他 AI 逆向 · 待验证]**
 - [Forescout检查十套TCP/IP栈：Claude漏洞报告仍需人工复核，也会漏报](cases/forescout-claude-ten-tcpip-stacks-vulnerability-study-report.md) — Andrej Drats转述Forescout用Claude检查十套网络栈：362项原始发现经人工核为99个bug、66个新发现；82个已知bug只找回33个。停产AP固件还报告七项问题，未读原研究或复现。 **[其他 AI 逆向 · 待验证]**
@@ -957,7 +957,7 @@
 - [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
 - [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**
-- [车辆订阅功能与追踪：读者希望AI逆向从智能电视扩展到汽车](cases/ai-vehicle-subscription-telemetry-research-idea.md) — 读者点名BMW、GM、Honda，期待AI逆向研究订阅锁定功能和出厂追踪软件；无车型、操作或结果，合为车辆系统研究idea。 **[其他 AI 逆向 · 待验证]**
+- [车辆订阅功能与追踪：读者希望AI逆向从智能电视扩展到汽车](cases/ai-vehicle-subscription-telemetry-research-idea.md) — 读者希望AI研究车辆订阅功能与追踪；新帖以付费座椅加热代码为具体例子，仍无车型、操作、解锁或安全测试。 **[其他 AI 逆向 · 待验证]**
 - [光枪跟踪：xenesed称Claude优化固件并写轨迹叠加层](cases/claude-unnamed-lightgun-tracking-firmware-report.md) — 作者不满新购光枪的软件，称Claude改善跟踪、消除抖动并制作激光轨迹overlay；60%改善缺测量定义，型号与研究方法未披露。 **[其他 AI 逆向 · 待验证]**
 - [BRP的CarPlay：作者称花几天用AI辅助解锁研究](cases/brp-carplay-ai-jailbreak-research-report.md) — 作者称为启用CarPlay花数日研究BRP，认为AI显著降低难度；车型、组件、模型、固件和实际运行证据均未给。 **[其他 AI 逆向 · 待验证]**
 - [电视代码审计：读者建议让Claude调用REA检查](cases/claude-rea-tv-code-check-idea.md) — 一条回复建议连接Claude、研究电视代码以检查疑问；目标品牌与具体行为未给，是代码审计idea，不是发现漏洞或隐私问题。 **[REA · 待验证]**
@@ -1361,6 +1361,9 @@
 
 ### 应用与客户端
 
+- [Reloc的iOS定位实现：Jan建议让Agent审视源码](cases/jan-reloc-ios-location-agent-source-review-idea.md) — Jan介绍Reloc的回环连接、后台保活与坐标扰动，并建议让Agent审视源码；这是具体源码研究idea，不是AI开发归因或定位绕过实测。 **[未确认使用 REA · 待验证]**
+- [诊所开票接入AI：momo称花一周研究现有发票软件](cases/momo-clinic-invoice-software-ai-integration-report.md) — momo称已花一周逆向诊所的开票软件，背景是诊所想让AI也开票；没有明确AI承担逆向步骤或已完成接入与账务验证。 **[未确认使用 REA · 进行中]**
+- [rev-skills：把逆向工作流整理成可供八种AI工具使用的技能库](cases/rev-skills-cross-tool-reverse-engineering-library.md) — 大卫介绍rev-skills；补读固定README确认入口分流、技能导航和八种工具适配说明。122项是文档口径，不是122个已成功逆向目标，未安装或执行。 **[其他 AI 逆向 · 相关项目]**
 - [只研究自己用的QuickBooks功能：Phil推荐AI skill的idea](cases/phil-quickbooks-used-features-ai-skill-idea.md) — Phil建议用一个skill逆向QuickBooks中实际使用的部分；是有具体软件目标的功能研究idea，没有报告已开发替代品。 **[其他 AI 逆向 · 待验证]**
 - [Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC](cases/adylovelace-project-fusion-filefault2-revoz-rea.md) — AdyLovelace称在macOS 27.3 AArch64上以REA、Ghidra和AI Agent研究Abyss／MysticalCore，产出FileFault 2 REVoz PoC；机制与验证未公开。 **[REA · 待验证]**
 - [先写无品牌规格，Claude仍要看原App：Annie的Mac GUI重建尝试](cases/annie-mac-gui-reconstruction-claude-spec-plan.md) — Annie称人工研究闭源Mac应用GUI并写成不提原App的规格，交给Claude后模型仍计划对照真实应用；尚无实现或效果报告。 **[其他 AI 逆向 · 进行中]**
@@ -1532,7 +1535,7 @@
 - [Renoise数字人：知识猫体验后想用REA研究的idea](cases/geekcat-renoise-digital-human-rea-idea.md) — 知识猫在Renoise视频制作讨论中称喜欢其数字人，想用REA研究；只有功能目标和使用感受，没有实际分析、接口或重建。 **[REA · 待验证]**
 - [Clip Studio接Venice：用REA MCP研究闭源绘画工具的idea](cases/clip-studio-rea-mcp-venice-integration-idea.md) — cthulhu_ftaghn提出用REA MCP研究Clip Studio并接入Venice，帮助创作者制作艺术；只是具体设想，没有接口、代码或效果验证。 **[REA · 待验证]**
 - [行情解说视频节奏：发财姐计划用rea-video拆两条参考片](cases/rea-video-market-commentary-rhythm-trial-idea.md) — 发财姐准备把两条常看的行情解说视频交给rea-video，研究节奏与剪辑点；目前只是试用计划，不是已完成分析或复刻。 **[其他 AI 逆向 · 待验证]**
-- [Gemini-app2api：pi扩展之后，作者澄清tool call与harness的边界](cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨发布Gemini-app2api的pi扩展，后称研究反代以补回tool call、harness交由调用者；v1.6.5四小时百余图片是窗口前作者测试，未核源码、模型或账号安全。 **[未确认使用 REA · 相关项目]**
+- [Gemini-app2api：v1.9.0扩展互通入口，满血模型仍是作者宣称](cases/gemini-app2api-v150-pi-extension-report.md) — 野鴨的v1.9.0介绍列出原生HTTP/2、OpenAI兼容多账号gateway及六类接入；未核源码、模型能力或账号安全，不能把新版满血宣传当作解除旧证据限制。 **[未确认使用 REA · 相关项目]**
 - [ClaudeMom：本地兼容网关把第三方模型接入Claude Desktop登录式界面](cases/claudemom-desktop-local-gateway-interoperability-project.md) — ClaudeMom以本地服务应答账号和功能请求、将对话转发到自选上游；固定v0.1.9 README列语音、Code会话与平台限制，未运行或核验全功能、安全与授权。 **[未确认使用 REA · 相关项目]**
 - [Ansys轴向磁通电机开发：TANG称用IDA研究操作入口，再让Claude与脚本全天操作](cases/tang-ansys-ida-claude-axial-flux-motor-automation.md) — TANG称2026年初开始用AI与Ansys开发轴向磁通电机，通过IDA反汇编和脚本找到软件操作入口，再用Claude与脚本自动操作；未有模型、日志或电机验证。 **[其他 AI 逆向 · 待验证]**
 - [Edge Rewards脚本迭代：程序员Kun称先整理开源接口，再让AI扩展签到与批量管理](cases/kun-edge-rewards-ai-interface-script-iteration.md) — 程序员Kun报告Edge内Rewards签到脚本从零交模型效果差，先参考开源项目整理接口并做初版后，再让AI逐项升级到多账号管理；没有代码、领取结果或合规核验。 **[其他 AI 逆向 · 待验证]**
@@ -2566,6 +2569,7 @@
 
 ### 算法与功能重建
 
+- [不用加密壳而改函数名：Clark Kent的AI拒答防分析idea](cases/clark-kent-function-name-keywords-anti-ai-analysis-idea.md) — Clark Kent提出将函数名改成违禁词，企图让AI逆向时拒答或触发封号；没有实现、模型对照或封号证据，不能视为有效代码保护。 **[其他 AI 逆向 · 待验证]**
 - [Real2SimLab：把视频反推仿真程序交回原基准评分器的统一评测平台](cases/real2simlab-agent-simulation-benchmark-pipeline.md) — Zefan Cai介绍Real2SimLab统一Agent生成仿真的运行、原评分器评测和训练标注；公开README解释冻结程序、离线重跑与去重边界，规模不是准确率。 **[其他 AI 逆向 · 分析测试]**
 - [13场景、43节拍：Miles李用rea-video拆解Opus动画PPT的声画与按键](cases/miles-rea-video-animated-ppt-thirteen-scenes.md) — Miles李称用rea-video研究一套Claude Opus5.6动画PPT，拆成13场景、43节拍并整理中文资料；还原步骤与交互尚未复核，不等于已重建幻灯片软件。 **[REA · 分析测试]**
 - [alien_signals与Dart AOT：Seven Du用Opus5.5反编译检查内存访问再改代码](cases/seven-du-alien-signals-dart-aot-claude-decompilation.md) — Seven Du称Claude Opus5.5反编译研究变量复制与直接内存访问的区别并实现修改；大规模本地基准观察尚无最小复现，HEAD无法复现的疑问保留。 **[其他 AI 逆向 · 待验证]**

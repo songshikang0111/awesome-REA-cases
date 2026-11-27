@@ -133,7 +133,7 @@
 - [Bugatti Jacqueline水壶接Home Assistant：Inna提出蓝牙研究，也质疑必要性](../cases/inna-bugatti-jacqueline-ble-home-assistant-idea.md) — Inna Babicka在AI家居自动化讨论中想到研究自有水壶蓝牙，经ESP32或自定义集成接Home Assistant，但已有定时器让她质疑用途；尚未实施。 **[未确认使用 REA · 待验证]**
 - [假Kingston NV3的身份检查：Claude先误判，再查控制器与固件的转述](../cases/fake-kingston-nv3-ssd-claude-controller-identity-report.md) — Vaibhav Sisinty转述Reddit用户：Claude Code多次误判硬件坏，经人质疑后查Windows设备身份，发现Realtek控制器与固件不符，标4TB盘据称约256GB。 **[其他 AI 逆向 · 待验证]**
 - [ClaudeWatch腕上审批：darkzodchi报告Apple Watch与Mac Agent桥接](../cases/claudewatch-fable-apple-watch-agent-bridge-report.md) — ClaudeWatch通过Bonjour、Node桥和Claude Code hooks做腕上终端、审批和语音；新转述补SSE与暂停等待决定，不证明表上推理或watchOS逆向，配对安全未审。 **[未确认使用 REA · 待验证]**
-- [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](../cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 一则日语帖子分享FabScene对usb-rea的报道，称工具为依赖专用App的USB设备制作驱动；未读文章、仓库或设备验证，不由名称推定REA关联。 **[未确认使用 REA · 相关项目]**
+- [usb-rea：为依赖专用App的USB设备制作驱动的工具报道](../cases/usb-rea-vendor-app-usb-driver-tool-report.md) — 新介绍补充usb-rea从Windows厂商App操作抓取并标注USB流量，推导字段、CRC并输出协议报告和Linux驱动；仍无设备测试、仓库核验或明确AI分工。 **[未确认使用 REA · 相关项目]**
 - [改装Meta眼镜重新导出照片：Marouane用Codex接入Sol与Darija语音](../cases/marouane-meta-glasses-codex-export-darija-report.md) — Marouane称拒绝更新使改装Meta眼镜面临停用，借Codex恢复照片／视频导出，加入GPT-6.1 Sol与摩洛哥Darija语音；代码与设备未核，关闭录像灯的改装不作推广。 **[其他 AI 逆向 · 待验证]**
 - [Seestar S50望远镜：Rafael称Opus 4.8在40分钟后给出固件与功能发现](../cases/rafael-seestar-s50-opus-firmware-analysis-report.md) — Rafael Silva称让Claude Opus 4.8研究Seestar S50，40分钟后得到root shell、固件转储与55项App没公开的功能；没有日志、功能列表或独立设备验证。 **[其他 AI 逆向 · 待验证]**
 - [Forescout检查十套TCP/IP栈：Claude漏洞报告仍需人工复核，也会漏报](../cases/forescout-claude-ten-tcpip-stacks-vulnerability-study-report.md) — Andrej Drats转述Forescout用Claude检查十套网络栈：362项原始发现经人工核为99个bug、66个新发现；82个已知bug只找回33个。停产AP固件还报告七项问题，未读原研究或复现。 **[其他 AI 逆向 · 待验证]**
@@ -363,7 +363,7 @@
 - [昂贵设备固件：将REA用于编程器、测量仪器与3D打印机的研究设想](../cases/rea-expensive-equipment-firmware-research-idea.md) — 读者建议探索昂贵硬件的固件，举编程器、测量仪器和3D打印机为例；只是一项研究方向，没有型号、开始执行或替代固件结果。 **[REA · 待验证]**
 - [蓝牙设备MCP桥接：QloveDudu复用Toy-Relay与sosexy协议，提供Agent辅助部署框架](../cases/qlovedudu-ble-mcp-bridge-protocol-reuse.md) — 作者介绍成人蓝牙设备的多品牌MCP控制框架，明确云端／手机中继与协议来自前人逆向；Claude Code／Codex用于辅助部署，不冒认新的AI协议恢复。 **[其他 AI 逆向 · 相关项目]**
 - [WHOOP个人App：Heryad称Claude逆向传感器访问并加入摇动／敲击手势](../cases/heryad-claude-whoop-sensor-gesture-app.md) — Heryad称以无需订阅的自制App访问WHOOP传感器并加手势，正接AI趋势分析；未公开代码，不能等同NOOP／Zhoop或官方健康算法。 **[其他 AI 逆向 · 待验证]**
-- [车辆订阅功能与追踪：读者希望AI逆向从智能电视扩展到汽车](../cases/ai-vehicle-subscription-telemetry-research-idea.md) — 读者点名BMW、GM、Honda，期待AI逆向研究订阅锁定功能和出厂追踪软件；无车型、操作或结果，合为车辆系统研究idea。 **[其他 AI 逆向 · 待验证]**
+- [车辆订阅功能与追踪：读者希望AI逆向从智能电视扩展到汽车](../cases/ai-vehicle-subscription-telemetry-research-idea.md) — 读者希望AI研究车辆订阅功能与追踪；新帖以付费座椅加热代码为具体例子，仍无车型、操作、解锁或安全测试。 **[其他 AI 逆向 · 待验证]**
 - [光枪跟踪：xenesed称Claude优化固件并写轨迹叠加层](../cases/claude-unnamed-lightgun-tracking-firmware-report.md) — 作者不满新购光枪的软件，称Claude改善跟踪、消除抖动并制作激光轨迹overlay；60%改善缺测量定义，型号与研究方法未披露。 **[其他 AI 逆向 · 待验证]**
 - [BRP的CarPlay：作者称花几天用AI辅助解锁研究](../cases/brp-carplay-ai-jailbreak-research-report.md) — 作者称为启用CarPlay花数日研究BRP，认为AI显著降低难度；车型、组件、模型、固件和实际运行证据均未给。 **[其他 AI 逆向 · 待验证]**
 - [电视代码审计：读者建议让Claude调用REA检查](../cases/claude-rea-tv-code-check-idea.md) — 一条回复建议连接Claude、研究电视代码以检查疑问；目标品牌与具体行为未给，是代码审计idea，不是发现漏洞或隐私问题。 **[REA · 待验证]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [不用加密壳而改函数名：Clark Kent的AI拒答防分析idea](../cases/clark-kent-function-name-keywords-anti-ai-analysis-idea.md) — Clark Kent提出将函数名改成违禁词，企图让AI逆向时拒答或触发封号；没有实现、模型对照或封号证据，不能视为有效代码保护。 **[其他 AI 逆向 · 待验证]**
 - [Real2SimLab：把视频反推仿真程序交回原基准评分器的统一评测平台](../cases/real2simlab-agent-simulation-benchmark-pipeline.md) — Zefan Cai介绍Real2SimLab统一Agent生成仿真的运行、原评分器评测和训练标注；公开README解释冻结程序、离线重跑与去重边界，规模不是准确率。 **[其他 AI 逆向 · 分析测试]**
 - [13场景、43节拍：Miles李用rea-video拆解Opus动画PPT的声画与按键](../cases/miles-rea-video-animated-ppt-thirteen-scenes.md) — Miles李称用rea-video研究一套Claude Opus5.6动画PPT，拆成13场景、43节拍并整理中文资料；还原步骤与交互尚未复核，不等于已重建幻灯片软件。 **[REA · 分析测试]**
 - [alien_signals与Dart AOT：Seven Du用Opus5.5反编译检查内存访问再改代码](../cases/seven-du-alien-signals-dart-aot-claude-decompilation.md) — Seven Du称Claude Opus5.5反编译研究变量复制与直接内存访问的区别并实现修改；大规模本地基准观察尚无最小复现，HEAD无法复现的疑问保留。 **[其他 AI 逆向 · 待验证]**
