@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [号称可玩GTA6的g6m发布：RealLuaCat称Codex／REA发现安全异常](../cases/realluacat-g6m-gta6-build-codex-rea-safety-check.md) — RealLuaCat在警告g6m的GTA6 PC发布后称Codex调用REA发现不少red flags；无样本哈希、分析细节或日志，不能认证恶意软件或可玩性。 **[REA · 待验证]**
+- [先辨目标再挑工具：陈跑跑介绍代码Agent的逆向导航项目](../cases/hgg1668-ai-reverse-engineering-navigation-project.md) — 陈跑跑介绍面向APK、二进制、网页加密和CTF的Agent导航：先识别目标、盘点工具、写明授权与范围，再保留分析记录；未核读仓库或测试。 **[未确认使用 REA · 相关项目]**
+- [只重建常用功能：Bonny提出五指令订阅应用研究与复建流程](../cases/bonny-subscription-app-five-command-rebuild-prompt.md) — Bonny推荐Claude、Gemini或ChatGPT从链接、截图、录屏分析应用，再筛选常用功能、实现和对照测试；是提示词工作流idea，没有实际替代应用。 **[其他 AI 逆向 · 待验证]**
+- [已订阅播客仍无法接入：feoh报告Claude经Pi拒绝FairPlay研究](../cases/feoh-apple-podcasts-fairplay-claude-pi-refusal.md) — feoh想播放自己付费订阅的Apple Podcasts内容，称Claude经Pi拒绝建立FairPlay解密路径，并贴出拒绝文本；没有成功互通或解密报告。 **[其他 AI 逆向 · 待验证]**
 - [curl.exe何时重试：Nate Brooks报告Claude／REA定位逻辑并对照源码与服务器](../cases/nate-brooks-curl-retry-claude-rea-analysis.md) — Nate称Claude Code经REA用8次工具调用研究Windows curl.exe的--retry，报告8种HTTP状态码与退避常量匹配源码，另做服务器测试；未独立复跑。 **[REA · 分析测试]**
 - [不重写旧EXE：Tugser Okur称本地LLM接REA分析，再以DLL／hook扩展](../cases/tugser-okur-local-llm-rea-legacy-exe-dll-hooks.md) — 作者称让本地模型经REA MCP用反编译与调用分析找旧Windows程序的关键函数，以DLL／hook加入新功能；未公开程序名、功能或验收。 **[REA · 待验证]**
 - [Sketch画布性能：Alex Barashkov把实现研究纳入AI设计工作流](../cases/alex-barashkov-sketch-canvas-ai-research.md) — Alex在回答夜间Agent任务时称研究Sketch画布实现，希望自家应用达到类似性能；没有分析细节、模型或基准。 **[其他 AI 逆向 · 进行中]**

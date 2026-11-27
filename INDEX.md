@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2887 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2895 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（564）
-- [硬件与设备互通](categories/hardware.md)（760）
-- [应用与客户端](categories/apps.md)（1194）
+- [游戏与游戏保存](categories/games.md)（566）
+- [硬件与设备互通](categories/hardware.md)（762）
+- [应用与客户端](categories/apps.md)（1198）
 - [算法与功能重建](categories/algorithms.md)（369）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,9 +26,11 @@
 
 ### 游戏与游戏保存
 
+- [把GTA VI重写成Rust再开源：Jhoan给Claude／REA的愿望式idea](cases/jhoan-gta-vi-claude-rea-rust-rewrite-idea.md) — Jhoan H. Magno以命令式玩笑提出Claude用REA重写GTA VI为Rust并开源；没有报告已运行Agent、恢复源码或完成移植。 **[REA · 待验证]**
+- [SF2X Online：ESPARTACO披露AI辅助反编译，推出Windows对战beta](cases/sf2x-online-espartaco-ai-assisted-decompilation-beta.md) — Gisleno ESPARTACO称SF2X Online基于其AI辅助反编译，发布免费Windows beta，介绍回滚网络与TURBO 3；多人模式及训练功能须区分目标与验收。 **[其他 AI 逆向 · 进行中]**
 - [Emerald NX：AI辅助Switch原生移植的介绍，首次真机启动仍待测](cases/emerald-nx-ai-assisted-switch-native-port.md) — The Gaming Emporium介绍eonlynx的Emerald NX v0.5.0并转述大量AI辅助；公开README与审计报告构建和静态检查完成，但明确首次Switch真机启动待测。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Rush宽屏PC移植：Kyle的进行中演示与Claude匹配反编译归因](cases/sonic-rush-kyle-claude-decompilation-pc-port-report.md) — 候选讨论Sonic Rush反编译的AI归因；补读Kyle的11月24日原帖，作者称宽屏PC版已运行并采用Claude辅助100%匹配反编译，未核代码或测试。 **[其他 AI 逆向 · 进行中]**
-- [Victory的GTA6兼容研究：添财转述序章画面与仍严重的着色器问题](cases/victory-gta6-ai-pc-compatibility-secondary-report.md) — 添财称Victory借AI推进Xbox到PC兼容，已显示序章、人物和城市但着色器／纹理问题严重；48小时可玩仅预期，无原始实现验收。 **[其他 AI 逆向 · 待验证]**
+- [VIctory兼容研究：AvatarManz分支的Claude归因、单机性能与图形缺陷](cases/victory-gta6-ai-pc-compatibility-secondary-report.md) — 新报道转述AvatarManz的25至30FPS与Claude署名；固定VIctory分支README确认Claude Code参与，但单机表中4K输出／1440p绘制开光追仅约9至10FPS，30FPS仍为目标。 **[其他 AI 逆向 · 待验证]**
 - [NES马里奥改配色：两帖转述GigaChat 4修改ROM并在M4 Mac启动](cases/gigachat4-nes-mario-palette-binary-edit-demo-report.md) — 两篇中文介绍称GigaChat 4演示直接改NES超级马里奥ROM调色板、反转颜色再启动；未取得原演示、样本与补丁，不等于完整反编译。 **[其他 AI 逆向 · 待验证]**
 - [找不到互动入口：Rynco称用Codex解包与反编译研究一款成人游戏](cases/codex-adult-game-interaction-discovery-report.md) — Rynco因游戏互动内容难以发现，称动用Codex解包和反编译寻找地点、项目与进入方式；游戏未具名，没有整理出的入口或验证输出。 **[其他 AI 逆向 · 待验证]**
 - [Capcom vs. SNK 2：Claude辅助三版本反编译，字节匹配与跨平台移植分开看](cases/cvs2-naomi-dc-claude-decompilation-native-ports.md) — gibletto公开文档披露Claude参与，将CvS2三版SH-4程序重写为C／汇编，报告字节匹配并提供五平台移植；游戏数据、SDK复用与移植缺口仍保留。 **[其他 AI 逆向 · 待验证]**
@@ -593,6 +595,8 @@
 
 ### 硬件与设备互通
 
+- [百年车床换齿机构：LinkBelt报告AI对机械结构的解释失真](cases/linkbelt-antique-lathe-change-gear-ai-failure.md) — LinkBelt称请AI解释百年金属车床的换齿机构却得到不符实物的齿轮传动理解，附两张比较图；未说明型号、模型或具体齿比。 **[其他 AI 逆向 · 分析测试]**
+- [给Chromatic接相机：Kenta IDA称Claude辅助转换板、FPGA与GBC软件](cases/ciniml-chromatic-fpga-camera-claude-project.md) — Kenta IDA介绍Chromatic连接TangPrimer25K和Pcam5C的拍摄项目，称转换板、外壳、FPGA与GBC软件交给Claude完成；未审代码或硬件验证。 **[其他 AI 逆向 · 相关项目]**
 - [Brother激光打印机掉线：Matt Kelch用Gemini Neon继续固件研究](cases/matt-kelch-brother-laser-lan-firmware-ai-debugging.md) — Matt研究约20年旧Brother打印机一段时间后离开LAN的问题，称Opus 5.5与Sol 6.2反复触发安全过滤，Gemini 4 Neon暂未触发；没有修复结论。 **[其他 AI 逆向 · 进行中]**
 - [Nikon SDK：Alex Barashkov在AI工作流中报告进行中的逆向研究](cases/alex-barashkov-nikon-sdk-ai-research.md) — Alex在回答夜间Agent用途时列出Nikon SDK逆向；未说明相机型号、接口、功能目标或成果，不推断相机控制已实现。 **[其他 AI 逆向 · 进行中]**
 - [不用戴手表的睡眠追踪：Pixel Gamer称Gemini研究声学扫描后提出idea](cases/pixelgamer-gemini-acoustic-room-sleep-tracker-idea.md) — Pixel Gamer 4k将高频不可闻声音的研究归于Gemini 4 Neon，计划制作非穿戴睡眠追踪器；Meta房间扫描说法和测量能力未核。 **[其他 AI 逆向 · 待验证]**
@@ -830,7 +834,7 @@
 - [SOLIDWORKS LEO：官方称从STEP／IGES恢复可编辑参数特征树](cases/solidworks-leo-step-iges-parametric-tree-report.md) — SOLIDWORKS称AI Virtual Companion LEO把静态BREP变成原生特征树，用于供应商旧零件；没有版本、零件样本或几何误差，不证明恢复原设计意图。 **[其他 AI 逆向 · 相关项目]**
 - [Divoom Pixoo：Joel称研究原App的Wi-Fi通信后用ChatGPT与MCP控制像素屏](cases/joel-carpenter-divoom-pixoo-chatgpt-mcp.md) — Joel Carpenter原想让Claude root并刷固件，实际报告只研究原App通信就做了连接器，让ChatGPT显示日历、照片和表格指标；三分钟与纯本地能力未测。 **[其他 AI 逆向 · 待验证]**
 - [出租屋LG电视：Kevin Theo用Claude做欢迎页与Pi重置，发现PlayReady残留登录](cases/kevin-theo-lg-webos-rental-reset-playready.md) — Kevin Theo报告三台已停更LG电视显示六语欢迎页，Pi在两三分钟内清除上一位住客登录；Netflix还需处理隐藏PlayReady存储。代码与实机测试由AI和人分工，未独立重跑。 **[其他 AI 逆向 · 进行中]**
-- [ZX Spectrum重建：Scientific Brad称REA恢复Z80与硬件，50FPS仍要等磁带](cases/scientificbrad-zx-spectrum-z80-rea-reconstruction.md) — Scientific Brad称用百万量级AI token和现代处理器重建Z80与ZX Spectrum硬件、达到50FPS，仍保留磁带加载等待；没有指令、时序或兼容测试。 **[REA · 待验证]**
+- [ZX Spectrum模拟器：Scientific Brad补充REA／AI归因与15分钟加载说法](cases/scientificbrad-zx-spectrum-z80-rea-reconstruction.md) — Scientific Brad此前称REA重建Z80／ZX Spectrum、50FPS仍等磁带；11月27日明确称是REA skill与AI制作的ZX模拟器，玩笑称加载要15分钟，未有时序或兼容验证。 **[REA · 待验证]**
 - [FutureBit矿机固件idea：Takuri计划用Claude Code让从机菊花链连接主机](cases/futurebit-appollo-claude-daisychain-firmware-idea.md) — Takuri打算为现有FutureBit矿机写自定义固件，让从机与主机菊花链协作；只是具体互通目标，未报告固件分析、实现或刷写结果。 **[其他 AI 逆向 · 待验证]**
 - [Razer Basilisk X：Agent研究更新器后在Mac刷固件，蓝牙仍不能配对](cases/razer-basilisk-x-mac-agent-updater-reflash.md) — Kiryl Y报告Agent逆向仅Windows提供的Razer更新器，在Mac重刷Basilisk X HyperSpeed，但没有修好蓝牙重连；配对状态存储位置仍是作者推断。 **[未确认使用 REA · 进行中]**
 - [2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home](cases/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted称Codex修改旧Kindle显示转换与Home钩子，软件翻页响应中位数约430降至330–340毫秒；为单机自测，非独立复现或整机刷新保证。 **[其他 AI 逆向 · 进行中]**
@@ -1356,6 +1360,10 @@
 
 ### 应用与客户端
 
+- [号称可玩GTA6的g6m发布：RealLuaCat称Codex／REA发现安全异常](cases/realluacat-g6m-gta6-build-codex-rea-safety-check.md) — RealLuaCat在警告g6m的GTA6 PC发布后称Codex调用REA发现不少red flags；无样本哈希、分析细节或日志，不能认证恶意软件或可玩性。 **[REA · 待验证]**
+- [先辨目标再挑工具：陈跑跑介绍代码Agent的逆向导航项目](cases/hgg1668-ai-reverse-engineering-navigation-project.md) — 陈跑跑介绍面向APK、二进制、网页加密和CTF的Agent导航：先识别目标、盘点工具、写明授权与范围，再保留分析记录；未核读仓库或测试。 **[未确认使用 REA · 相关项目]**
+- [只重建常用功能：Bonny提出五指令订阅应用研究与复建流程](cases/bonny-subscription-app-five-command-rebuild-prompt.md) — Bonny推荐Claude、Gemini或ChatGPT从链接、截图、录屏分析应用，再筛选常用功能、实现和对照测试；是提示词工作流idea，没有实际替代应用。 **[其他 AI 逆向 · 待验证]**
+- [已订阅播客仍无法接入：feoh报告Claude经Pi拒绝FairPlay研究](cases/feoh-apple-podcasts-fairplay-claude-pi-refusal.md) — feoh想播放自己付费订阅的Apple Podcasts内容，称Claude经Pi拒绝建立FairPlay解密路径，并贴出拒绝文本；没有成功互通或解密报告。 **[其他 AI 逆向 · 待验证]**
 - [curl.exe何时重试：Nate Brooks报告Claude／REA定位逻辑并对照源码与服务器](cases/nate-brooks-curl-retry-claude-rea-analysis.md) — Nate称Claude Code经REA用8次工具调用研究Windows curl.exe的--retry，报告8种HTTP状态码与退避常量匹配源码，另做服务器测试；未独立复跑。 **[REA · 分析测试]**
 - [不重写旧EXE：Tugser Okur称本地LLM接REA分析，再以DLL／hook扩展](cases/tugser-okur-local-llm-rea-legacy-exe-dll-hooks.md) — 作者称让本地模型经REA MCP用反编译与调用分析找旧Windows程序的关键函数，以DLL／hook加入新功能；未公开程序名、功能或验收。 **[REA · 待验证]**
 - [Sketch画布性能：Alex Barashkov把实现研究纳入AI设计工作流](cases/alex-barashkov-sketch-canvas-ai-research.md) — Alex在回答夜间Agent任务时称研究Sketch画布实现，希望自家应用达到类似性能；没有分析细节、模型或基准。 **[其他 AI 逆向 · 进行中]**
@@ -2920,7 +2928,7 @@
 - [JavaScript divergence：格式化后换游戏，误导 AI 逆向的 idea](cases/javascript-divergence-agent-decoy.md) — 转述 Robert Vähhi 的处理器差异研究：让清理后的 JS 变成可运行诱饵，作为人类与 AI 分析的防御设想。 **[其他 AI 逆向 · 相关项目]**
 - [三模型二进制研究：函数图、双假说与原程序裁判的 idea](cases/three-model-binary-evidence-workflow-idea.md) — 从自建 record.c 实验样本开始，让不同模型分工映射、解释和挑错；尚无可核实运行记录。 **[其他 AI 逆向 · 待验证]**
 - [Eidolon：多 Agent 从演示二进制到 Rust 的对照报告](cases/eidolon-rust-multiagent-report.md) — Rovshan 报告解包 64 KB 级演示程序、恢复着色器与合成器，重写 Rust 并比较 27,000 帧和音频；日志未核验。 **[其他 AI 逆向 · 待验证]**
-- [Frontkick 与 Rikugan：两项密码二进制任务中的提示词混杂因素](cases/synacktiv-frontkick-rikugan-crebench.md) — Synacktiv 比较 CodeAct 与 ToolAgent；逐次结果有差异，但可用库提示不对等，不能证明架构优越。 **[其他 AI 逆向 · 分析测试]**
+- [Frontkick与Rikugan：旧密码任务的提示词混杂与Rikugan 2.0重写报告](cases/synacktiv-frontkick-rikugan-crebench.md) — 旧Synacktiv比较存在库提示不对等，不能证明CodeAct优越；Buzzer于11月27日报告Rikugan 2.0以C++和omc重写、接IDA与Binary Ninja，未复测新版。 **[其他 AI 逆向 · 分析测试]**
 - [EVM 合约：用 REA 研究状态修改入口的审计 idea](cases/evm-rea-state-change-audit-idea.md) — 88n77n 提出让 Claude Code 从字节码检查增发、黑名单与可变费用，要求区分观察与推断。 **[REA · 待验证]**
 
 ## 贡献与收录

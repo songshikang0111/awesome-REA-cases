@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [百年车床换齿机构：LinkBelt报告AI对机械结构的解释失真](../cases/linkbelt-antique-lathe-change-gear-ai-failure.md) — LinkBelt称请AI解释百年金属车床的换齿机构却得到不符实物的齿轮传动理解，附两张比较图；未说明型号、模型或具体齿比。 **[其他 AI 逆向 · 分析测试]**
+- [给Chromatic接相机：Kenta IDA称Claude辅助转换板、FPGA与GBC软件](../cases/ciniml-chromatic-fpga-camera-claude-project.md) — Kenta IDA介绍Chromatic连接TangPrimer25K和Pcam5C的拍摄项目，称转换板、外壳、FPGA与GBC软件交给Claude完成；未审代码或硬件验证。 **[其他 AI 逆向 · 相关项目]**
 - [Brother激光打印机掉线：Matt Kelch用Gemini Neon继续固件研究](../cases/matt-kelch-brother-laser-lan-firmware-ai-debugging.md) — Matt研究约20年旧Brother打印机一段时间后离开LAN的问题，称Opus 5.5与Sol 6.2反复触发安全过滤，Gemini 4 Neon暂未触发；没有修复结论。 **[其他 AI 逆向 · 进行中]**
 - [Nikon SDK：Alex Barashkov在AI工作流中报告进行中的逆向研究](../cases/alex-barashkov-nikon-sdk-ai-research.md) — Alex在回答夜间Agent用途时列出Nikon SDK逆向；未说明相机型号、接口、功能目标或成果，不推断相机控制已实现。 **[其他 AI 逆向 · 进行中]**
 - [不用戴手表的睡眠追踪：Pixel Gamer称Gemini研究声学扫描后提出idea](../cases/pixelgamer-gemini-acoustic-room-sleep-tracker-idea.md) — Pixel Gamer 4k将高频不可闻声音的研究归于Gemini 4 Neon，计划制作非穿戴睡眠追踪器；Meta房间扫描说法和测量能力未核。 **[其他 AI 逆向 · 待验证]**
@@ -239,7 +241,7 @@
 - [SOLIDWORKS LEO：官方称从STEP／IGES恢复可编辑参数特征树](../cases/solidworks-leo-step-iges-parametric-tree-report.md) — SOLIDWORKS称AI Virtual Companion LEO把静态BREP变成原生特征树，用于供应商旧零件；没有版本、零件样本或几何误差，不证明恢复原设计意图。 **[其他 AI 逆向 · 相关项目]**
 - [Divoom Pixoo：Joel称研究原App的Wi-Fi通信后用ChatGPT与MCP控制像素屏](../cases/joel-carpenter-divoom-pixoo-chatgpt-mcp.md) — Joel Carpenter原想让Claude root并刷固件，实际报告只研究原App通信就做了连接器，让ChatGPT显示日历、照片和表格指标；三分钟与纯本地能力未测。 **[其他 AI 逆向 · 待验证]**
 - [出租屋LG电视：Kevin Theo用Claude做欢迎页与Pi重置，发现PlayReady残留登录](../cases/kevin-theo-lg-webos-rental-reset-playready.md) — Kevin Theo报告三台已停更LG电视显示六语欢迎页，Pi在两三分钟内清除上一位住客登录；Netflix还需处理隐藏PlayReady存储。代码与实机测试由AI和人分工，未独立重跑。 **[其他 AI 逆向 · 进行中]**
-- [ZX Spectrum重建：Scientific Brad称REA恢复Z80与硬件，50FPS仍要等磁带](../cases/scientificbrad-zx-spectrum-z80-rea-reconstruction.md) — Scientific Brad称用百万量级AI token和现代处理器重建Z80与ZX Spectrum硬件、达到50FPS，仍保留磁带加载等待；没有指令、时序或兼容测试。 **[REA · 待验证]**
+- [ZX Spectrum模拟器：Scientific Brad补充REA／AI归因与15分钟加载说法](../cases/scientificbrad-zx-spectrum-z80-rea-reconstruction.md) — Scientific Brad此前称REA重建Z80／ZX Spectrum、50FPS仍等磁带；11月27日明确称是REA skill与AI制作的ZX模拟器，玩笑称加载要15分钟，未有时序或兼容验证。 **[REA · 待验证]**
 - [FutureBit矿机固件idea：Takuri计划用Claude Code让从机菊花链连接主机](../cases/futurebit-appollo-claude-daisychain-firmware-idea.md) — Takuri打算为现有FutureBit矿机写自定义固件，让从机与主机菊花链协作；只是具体互通目标，未报告固件分析、实现或刷写结果。 **[其他 AI 逆向 · 待验证]**
 - [Razer Basilisk X：Agent研究更新器后在Mac刷固件，蓝牙仍不能配对](../cases/razer-basilisk-x-mac-agent-updater-reflash.md) — Kiryl Y报告Agent逆向仅Windows提供的Razer更新器，在Mac重刷Basilisk X HyperSpeed，但没有修好蓝牙重连；配对状态存储位置仍是作者推断。 **[未确认使用 REA · 进行中]**
 - [2009 Kindle 2：Codex优化4bpp驱动、局部刷新与封面Home](../cases/kindle2-codex-4bpp-refresh-home-hooks.md) — Radacted称Codex修改旧Kindle显示转换与Home钩子，软件翻页响应中位数约430降至330–340毫秒；为单机自测，非独立复现或整机刷新保证。 **[其他 AI 逆向 · 进行中]**

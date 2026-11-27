@@ -2,9 +2,11 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [把GTA VI重写成Rust再开源：Jhoan给Claude／REA的愿望式idea](../cases/jhoan-gta-vi-claude-rea-rust-rewrite-idea.md) — Jhoan H. Magno以命令式玩笑提出Claude用REA重写GTA VI为Rust并开源；没有报告已运行Agent、恢复源码或完成移植。 **[REA · 待验证]**
+- [SF2X Online：ESPARTACO披露AI辅助反编译，推出Windows对战beta](../cases/sf2x-online-espartaco-ai-assisted-decompilation-beta.md) — Gisleno ESPARTACO称SF2X Online基于其AI辅助反编译，发布免费Windows beta，介绍回滚网络与TURBO 3；多人模式及训练功能须区分目标与验收。 **[其他 AI 逆向 · 进行中]**
 - [Emerald NX：AI辅助Switch原生移植的介绍，首次真机启动仍待测](../cases/emerald-nx-ai-assisted-switch-native-port.md) — The Gaming Emporium介绍eonlynx的Emerald NX v0.5.0并转述大量AI辅助；公开README与审计报告构建和静态检查完成，但明确首次Switch真机启动待测。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Rush宽屏PC移植：Kyle的进行中演示与Claude匹配反编译归因](../cases/sonic-rush-kyle-claude-decompilation-pc-port-report.md) — 候选讨论Sonic Rush反编译的AI归因；补读Kyle的11月24日原帖，作者称宽屏PC版已运行并采用Claude辅助100%匹配反编译，未核代码或测试。 **[其他 AI 逆向 · 进行中]**
-- [Victory的GTA6兼容研究：添财转述序章画面与仍严重的着色器问题](../cases/victory-gta6-ai-pc-compatibility-secondary-report.md) — 添财称Victory借AI推进Xbox到PC兼容，已显示序章、人物和城市但着色器／纹理问题严重；48小时可玩仅预期，无原始实现验收。 **[其他 AI 逆向 · 待验证]**
+- [VIctory兼容研究：AvatarManz分支的Claude归因、单机性能与图形缺陷](../cases/victory-gta6-ai-pc-compatibility-secondary-report.md) — 新报道转述AvatarManz的25至30FPS与Claude署名；固定VIctory分支README确认Claude Code参与，但单机表中4K输出／1440p绘制开光追仅约9至10FPS，30FPS仍为目标。 **[其他 AI 逆向 · 待验证]**
 - [NES马里奥改配色：两帖转述GigaChat 4修改ROM并在M4 Mac启动](../cases/gigachat4-nes-mario-palette-binary-edit-demo-report.md) — 两篇中文介绍称GigaChat 4演示直接改NES超级马里奥ROM调色板、反转颜色再启动；未取得原演示、样本与补丁，不等于完整反编译。 **[其他 AI 逆向 · 待验证]**
 - [找不到互动入口：Rynco称用Codex解包与反编译研究一款成人游戏](../cases/codex-adult-game-interaction-discovery-report.md) — Rynco因游戏互动内容难以发现，称动用Codex解包和反编译寻找地点、项目与进入方式；游戏未具名，没有整理出的入口或验证输出。 **[其他 AI 逆向 · 待验证]**
 - [Capcom vs. SNK 2：Claude辅助三版本反编译，字节匹配与跨平台移植分开看](../cases/cvs2-naomi-dc-claude-decompilation-native-ports.md) — gibletto公开文档披露Claude参与，将CvS2三版SH-4程序重写为C／汇编，报告字节匹配并提供五平台移植；游戏数据、SDK复用与移植缺口仍保留。 **[其他 AI 逆向 · 待验证]**
