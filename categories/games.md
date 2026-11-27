@@ -22,7 +22,7 @@
 - [Project Reclaimer：测试账号区分AI反编译辅助与人工开发测试](../cases/project-reclaimer-ai-human-decompilation-report.md) — Project Reclaimer Test Account称AI大量辅助编码和反编译，但开发者仍做人工开发、测试与修整；旧背景帖将项目描述为Halo 3独立启动器。 **[其他 AI 逆向 · 待验证]**
 - [牧场物语去限时：DarkJDL建议AI反编译再放回SNES烧录卡](../cases/darkjdl-harvest-moon-ai-remove-time-limit-idea.md) — 面对Harvest Moon限时带来的压力，DarkJDL提出AI反编译、去限时再编译并用SD2Snes玩的idea；没有补丁或实施。 **[其他 AI 逆向 · 待验证]**
 - [Fruit Ninja二进制到MCP：Kimi K3把实时挥砍移入auto_play的三局对照](../cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — 研究文档报告Kimi K3用REA建MCP，三局均分304.7对看屏67.7；去除终局奖励为225对6，auto_play每秒多次读内存挥砍，非模型逐刀决策。 **[REA · 分析测试]**
-- [Apex Legends Mobile社区复活：codmINTEL的AI逆向转述](../cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区以AI逆向复活Apex Legends Mobile，附视频；未给团队、仓库、服务器机制或测试，不确认可玩性。 **[其他 AI 逆向 · 待验证]**
+- [Apex Legends Mobile社区研究：AI复活转述与仅训练场的范围质疑](../cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区用AI逆向复活Apex Legends Mobile；MrxFlip随后称并无服务器，只是手机训练场单人活动。两者均二手说法，未核实现。 **[其他 AI 逆向 · 待验证]**
 - [旧游戏模拟器与OOT：Mason Blake报告Claude协助，目标版本未明](../cases/mason-blake-claude-old-game-emulator-oot-report.md) — Mason Blake称仍能让Claude协助开发旧游戏模拟器，并提到OOT、the new one；未说明具体游戏版本、模拟平台或可玩结果。 **[其他 AI 逆向 · 进行中]**
 - [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](../cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
 - [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](../cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — Claude／Codex插件按GAME.md重建游戏，固定文档自报六款Web录制对照通过、四款有Rust／Godot逻辑检查；随机数带和负对照不等于全输入或画面等价。 **[未确认使用 REA · 待验证]**
@@ -312,7 +312,7 @@
 - [GTA6机制重建：SANGOD的idea与tekario六Agent宣称，尚无实现证据](../cases/sangod-gta6-mechanics-ai-rebuild-idea.md) — 保留SANGOD的机制复用idea，补充tekario称REA/Opus六Agent在47分钟内做Godot重建；无代码、规格或完整测试，不认定GTA6已被还原。 **[REA · 待验证]**
 - [GOG版MDK2：Mr. K.称用REA提示修复高帧率抖动与挂起](../cases/sirstripy-mdk2-gog-rea-jitter-fix-report.md) — Mr. K.购入GOG版MDK2后报告约1600fps但抖动挂起，称几条REA提示后修好；没有补丁、版本或修复后测量。 **[REA · 待验证]**
 - [怒之铁拳：RuiNelson借LLM分析与RageDecompiler把68000逻辑重编译为C++](../cases/ruinelson-streets-of-rage-ai-static-recompilation.md) — 公开项目将初代Streets of Rage的游戏逻辑转为C++，保留SDL3硬件模拟，并以逆向状态机支持符号AI玩家；开发者致谢Claude、ChatGPT和Grok，不是完整原生重写或独立通关验证。 **[其他 AI 逆向 · 进行中]**
-- [Forza Motorsport 4：AI辅助静态重编译，公开限定硬件的帧率对照](../cases/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev以ShiftGlue和Pinyon Shift为基础将Xbox360的FM4带到Windows，公开承认AI辅助逆向；项目测试把5K与240fps分开，不能理解为5K下240fps。 **[其他 AI 逆向 · 进行中]**
+- [Forza Motorsport 4：AI辅助重编译，新增Apple Silicon预览与受限性能对照](../cases/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev以ShiftGlue／Pinyon Shift静态重编译Xbox360 FM4，披露AI辅助逆向；固定0.3.3文档新增实验Apple Silicon支持、Rev1盘与更多离线测试，5K仍不是240fps。 **[其他 AI 逆向 · 进行中]**
 - [老友重建旧游戏：HumanProbably考虑分摊AI额度](../cases/friends-shared-ai-credits-old-game-clone-idea.md) — HumanProbably与朋友考虑平摊AI额度，重建几十年前一起玩的游戏；游戏未具名，没有开工或可玩版本。 **[其他 AI 逆向 · 待验证]**
 - [未具名游戏：咸鱼称REA十分钟完成逆向](../cases/nickling017-rea-ten-minute-unnamed-game-report.md) — 咸鱼报告REA十分钟帮自己完成游戏逆向；只确认作者自述及一张截图附件，游戏名、逆向范围和可运行成果未核验。 **[REA · 待验证]**
 - [Kega Fusion：用AI反编译模拟器、增加无边框窗口的愿望](../cases/kega-fusion-ai-decompile-borderless-idea.md) — 读者建议AI反编译Kega Fusion模拟器，加入无边框窗口等现代功能；尚无实现或测试。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [只研究自己用的QuickBooks功能：Phil推荐AI skill的idea](../cases/phil-quickbooks-used-features-ai-skill-idea.md) — Phil建议用一个skill逆向QuickBooks中实际使用的部分；是有具体软件目标的功能研究idea，没有报告已开发替代品。 **[其他 AI 逆向 · 待验证]**
+- [Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC](../cases/adylovelace-project-fusion-filefault2-revoz-rea.md) — AdyLovelace称在macOS 27.3 AArch64上以REA、Ghidra和AI Agent研究Abyss／MysticalCore，产出FileFault 2 REVoz PoC；机制与验证未公开。 **[REA · 待验证]**
+- [先写无品牌规格，Claude仍要看原App：Annie的Mac GUI重建尝试](../cases/annie-mac-gui-reconstruction-claude-spec-plan.md) — Annie称人工研究闭源Mac应用GUI并写成不提原App的规格，交给Claude后模型仍计划对照真实应用；尚无实现或效果报告。 **[其他 AI 逆向 · 进行中]**
+- [T3 Code隐私审计idea：嗯哌AI给Agent的只读源码检查清单](../cases/npieai-t3code-readonly-privacy-audit-prompt.md) — 嗯哌AI提供T3 Code源码审计prompt，要求逐行追踪遥测、身份读取、外联、更新与依赖，并另做运行时观察；不是已完成的隐私审计报告。 **[其他 AI 逆向 · 待验证]**
 - [号称可玩GTA6的g6m发布：RealLuaCat称Codex／REA发现安全异常](../cases/realluacat-g6m-gta6-build-codex-rea-safety-check.md) — RealLuaCat在警告g6m的GTA6 PC发布后称Codex调用REA发现不少red flags；无样本哈希、分析细节或日志，不能认证恶意软件或可玩性。 **[REA · 待验证]**
 - [先辨目标再挑工具：陈跑跑介绍代码Agent的逆向导航项目](../cases/hgg1668-ai-reverse-engineering-navigation-project.md) — 陈跑跑介绍面向APK、二进制、网页加密和CTF的Agent导航：先识别目标、盘点工具、写明授权与范围，再保留分析记录；未核读仓库或测试。 **[未确认使用 REA · 相关项目]**
 - [只重建常用功能：Bonny提出五指令订阅应用研究与复建流程](../cases/bonny-subscription-app-five-command-rebuild-prompt.md) — Bonny推荐Claude、Gemini或ChatGPT从链接、截图、录屏分析应用，再筛选常用功能、实现和对照测试；是提示词工作流idea，没有实际替代应用。 **[其他 AI 逆向 · 待验证]**

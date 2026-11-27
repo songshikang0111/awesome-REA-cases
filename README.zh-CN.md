@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2895 个案例与项目
+# 2899 个案例与项目
 
-**最近案例更新：**2026 年 11 月 27 日 08:17 · **最近维护：**2026 年 11 月 27 日 08:17 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 27 日 12:15 · **最近维护：**2026 年 11 月 27 日 12:15 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -27,7 +27,7 @@
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[OpenGlass Go：重新开放裸眼3D屏](cases/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22`作者串与固定构建文档 — Megabits将**逆向和初期代码归功Kimi，Armbian固件收尾归功Gemini Neon**。公开文档列3D媒体播放、文件传输与STM32控制；真机测试为项目自报，内核bug仍待提交。本合集未构建或刷写。`进行中`
 3. **[FreeCAD：不点屏幕，先造接口](cases/aoqu-agent-native-freecad-binary-mcp-computer-use.md)** · `2026-11-26`作者更新与固定研究文档 — **DeepSeek／REA把FreeCAD接成MCP**，五任务各设置三次，自报全部检查通过。演示的55倍速度／35倍少Token不含30至85分钟的服务构建，并非通用CAD提速。已读方法，未重跑。`分析测试`
-4. **[Horizon：用Rust重建Minecraft Java行为](cases/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16`介绍与固定文档 — **AI辅助重建，自报281套差分测试**，可读旧存档、连原版服务器。已读公开文档与Codex署名提交，未审完整测试结果；性能宣称有硬件条件。自备游戏，本合集未构建。`进行中`
+4. **[Forza Motorsport 4：Xbox赛车到Windows与Mac](cases/i2kiselev-forza4-ai-static-recompilation.md)** · `2026-11-27`介绍；`2026-11-15`固定文档 — **AI辅助静态重编译新增Apple Silicon预览**，贡献者报告M1 Max／M3的Free Play测试。Windows单机5K为102fps，不是5K240fps或Mac性能。须自备游戏盘；macOS14本身及部分Mac功能仍未测，本合集未构建。`进行中`
 5. **[Underworld Exhumed：保存两部DOS地下世界](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20`介绍；`2026-11-17`固定文档 — Exhume的Claude Code技能辅助，项目报告**UW.EXE／UW2.EXE整文件字节一致**，原生与Web移植以17／13段DOS录制回放检查。均为项目报告，本合集未重跑；原生版自备游戏数据。`未独立核验`
 6. **[Capcom vs. SNK 2：先匹配程序，再移植游戏](cases/cvs2-naomi-dc-claude-decompilation-native-ports.md)** · `2026-11-26`介绍与固定文档 — gibletto披露**Claude辅助重建三版街机／Dreamcast程序**，项目报告字节一致与五平台移植。游戏资产和大量SDK模块仍复用，原程序匹配不等于新移植声画等价；网络功能仍不可用。已读文档，未重建。`未独立核验`
 7. **[Elecbrakes：研究拖车的蓝牙刹车](cases/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19`研究者原文；`2026-11-20`CVE登记 — Forck与McCarthy用**Claude读字节码、做研究工具**，再报告自有硬件测试。EB2／VM1修复有文档，旧ELBC 2000截至原文无修复；固件静态分析没有证明恶意刷写。本合集未复现。`未独立核验`
@@ -52,7 +52,7 @@
 | :--- | ---: |
 | [游戏与游戏保存](categories/games.md) | **566** |
 | [硬件与设备互通](categories/hardware.md) | **762** |
-| [应用与客户端](categories/apps.md) | **1198** |
+| [应用与客户端](categories/apps.md) | **1202** |
 | [算法与功能重建](categories/algorithms.md) | **369** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)

@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2895 cases & projects
+# 2899 cases & projects
 
-**Latest case update:** November 27, 2026, 08:17 · **Last maintained:** November 27, 2026, 08:17 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 27, 2026, 12:15 · **Last maintained:** November 27, 2026, 12:15 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -27,7 +27,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[OpenGlass Go: reopen a glasses-free 3D display](cases/en/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22` author thread and pinned builder docs — Megabits credits **Kimi for reversing and early code, Gemini Neon for finishing Armbian firmware**. Public docs describe 3D media playback, file transfer and STM32 control. Hardware testing is project-reported; the kernel bug awaits submission. Not built or flashed here. `In progress`
 3. **[FreeCAD: build an interface instead of clicking](cases/en/aoqu-agent-native-freecad-binary-mcp-computer-use.md)** · `2026-11-26` author update and pinned study — **DeepSeek/REA exposes FreeCAD through MCP**; five tasks, three runs per setup reportedly pass every check. The 55× speed/35× token demo excludes 30–85-minute server builds, not a universal CAD speedup. Methods read, tests not rerun. `Analysis test`
-4. **[Horizon: Minecraft Java behavior, rebuilt in Rust](cases/en/horizon-minecraft-java-rust-ai-differential-reimplementation.md)** · `2026-11-16` report and pinned docs — **AI-assisted reconstruction with 281 reported differential harnesses**, existing saves and vanilla multiplayer. Public docs and a Codex-credited commit were read, not the full test results; performance claims are hardware-specific. Own game required; not built here. `In progress`
+4. **[Forza Motorsport 4: an Xbox racer on Windows and Mac](cases/en/i2kiselev-forza4-ai-static-recompilation.md)** · `2026-11-27` report; `2026-11-15` pinned docs — **AI-assisted static recompilation adds an Apple Silicon preview**, with contributor-reported M1 Max/M3 Free Play tests. Windows 5K at 102 fps is one PC's benchmark, not 5K at 240 fps or Mac performance. Own disc required; macOS 14 and some Mac features remain untested. Not built here. `In progress`
 5. **[Underworld Exhumed: preserve two DOS worlds](cases/en/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20` introduction; `2026-11-17` pinned docs — Exhume's Claude Code skills support **reported byte-identical UW.EXE/UW2.EXE rebuilds**, plus native/web ports checked against 17/13 DOS recordings. Project reports, not checks rerun here; native ports need your own game data. `Unverified here`
 6. **[Capcom vs. SNK 2: matching code, then porting the game](cases/en/cvs2-naomi-dc-claude-decompilation-native-ports.md)** · `2026-11-26` report and pinned docs — gibletto discloses **Claude-assisted reconstruction of three arcade/Dreamcast programs**, with reported byte matches and five-platform ports. Disc assets and many SDK modules are reused; matching originals does not verify port visuals or sound. Network features remain unavailable. Docs read, no builds rerun. `Unverified here`
 7. **[Elecbrakes: audit a trailer's Bluetooth brakes](cases/en/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19` researcher account; `2026-11-20` CVE record — Forck and McCarthy credit **Claude with bytecode analysis and research tooling**, then report tests on their own hardware. EB2/VM1 fixes are documented; older ELBC 2000 had no fix at publication. Static firmware analysis did not demonstrate malicious flashing. Not reproduced here. `Unverified here`
@@ -52,7 +52,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 | :--- | ---: |
 | [Games & preservation](categories/en/games.md) | **566** |
 | [Hardware & interoperability](categories/en/hardware.md) | **762** |
-| [Applications & clients](categories/en/apps.md) | **1198** |
+| [Applications & clients](categories/en/apps.md) | **1202** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **369** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

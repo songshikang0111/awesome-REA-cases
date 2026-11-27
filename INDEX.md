@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2895 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2899 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
 - [游戏与游戏保存](categories/games.md)（566）
 - [硬件与设备互通](categories/hardware.md)（762）
-- [应用与客户端](categories/apps.md)（1198）
+- [应用与客户端](categories/apps.md)（1202）
 - [算法与功能重建](categories/algorithms.md)（369）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -46,7 +46,7 @@
 - [Project Reclaimer：测试账号区分AI反编译辅助与人工开发测试](cases/project-reclaimer-ai-human-decompilation-report.md) — Project Reclaimer Test Account称AI大量辅助编码和反编译，但开发者仍做人工开发、测试与修整；旧背景帖将项目描述为Halo 3独立启动器。 **[其他 AI 逆向 · 待验证]**
 - [牧场物语去限时：DarkJDL建议AI反编译再放回SNES烧录卡](cases/darkjdl-harvest-moon-ai-remove-time-limit-idea.md) — 面对Harvest Moon限时带来的压力，DarkJDL提出AI反编译、去限时再编译并用SD2Snes玩的idea；没有补丁或实施。 **[其他 AI 逆向 · 待验证]**
 - [Fruit Ninja二进制到MCP：Kimi K3把实时挥砍移入auto_play的三局对照](cases/aoqu-agent-native-fruit-ninja-binary-mcp-play.md) — 研究文档报告Kimi K3用REA建MCP，三局均分304.7对看屏67.7；去除终局奖励为225对6，auto_play每秒多次读内存挥砍，非模型逐刀决策。 **[REA · 分析测试]**
-- [Apex Legends Mobile社区复活：codmINTEL的AI逆向转述](cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区以AI逆向复活Apex Legends Mobile，附视频；未给团队、仓库、服务器机制或测试，不确认可玩性。 **[其他 AI 逆向 · 待验证]**
+- [Apex Legends Mobile社区研究：AI复活转述与仅训练场的范围质疑](cases/apex-legends-mobile-community-ai-revival-secondary-report.md) — codmINTEL称社区用AI逆向复活Apex Legends Mobile；MrxFlip随后称并无服务器，只是手机训练场单人活动。两者均二手说法，未核实现。 **[其他 AI 逆向 · 待验证]**
 - [旧游戏模拟器与OOT：Mason Blake报告Claude协助，目标版本未明](cases/mason-blake-claude-old-game-emulator-oot-report.md) — Mason Blake称仍能让Claude协助开发旧游戏模拟器，并提到OOT、the new one；未说明具体游戏版本、模拟平台或可玩结果。 **[其他 AI 逆向 · 进行中]**
 - [网易实况足球本地改球员：家长转述MT与DeepSeek的一个月研究](cases/netease-football-deepseek-mt-local-player-mod-report.md) — 饭特稀称儿子借助MT、DeepSeek与教程，用一个月修改网易实况足球本地版的球员数值和外观，并分享给朋友联机；未见版本、补丁或运行验证。 **[其他 AI 逆向 · 待验证]**
 - [rea-games：Claude跨引擎重建开源小游戏，以录制输入逐帧对照](cases/rea-games-claude-cross-engine-recorded-behavior-rebuild.md) — Claude／Codex插件按GAME.md重建游戏，固定文档自报六款Web录制对照通过、四款有Rust／Godot逻辑检查；随机数带和负对照不等于全输入或画面等价。 **[未确认使用 REA · 待验证]**
@@ -336,7 +336,7 @@
 - [GTA6机制重建：SANGOD的idea与tekario六Agent宣称，尚无实现证据](cases/sangod-gta6-mechanics-ai-rebuild-idea.md) — 保留SANGOD的机制复用idea，补充tekario称REA/Opus六Agent在47分钟内做Godot重建；无代码、规格或完整测试，不认定GTA6已被还原。 **[REA · 待验证]**
 - [GOG版MDK2：Mr. K.称用REA提示修复高帧率抖动与挂起](cases/sirstripy-mdk2-gog-rea-jitter-fix-report.md) — Mr. K.购入GOG版MDK2后报告约1600fps但抖动挂起，称几条REA提示后修好；没有补丁、版本或修复后测量。 **[REA · 待验证]**
 - [怒之铁拳：RuiNelson借LLM分析与RageDecompiler把68000逻辑重编译为C++](cases/ruinelson-streets-of-rage-ai-static-recompilation.md) — 公开项目将初代Streets of Rage的游戏逻辑转为C++，保留SDL3硬件模拟，并以逆向状态机支持符号AI玩家；开发者致谢Claude、ChatGPT和Grok，不是完整原生重写或独立通关验证。 **[其他 AI 逆向 · 进行中]**
-- [Forza Motorsport 4：AI辅助静态重编译，公开限定硬件的帧率对照](cases/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev以ShiftGlue和Pinyon Shift为基础将Xbox360的FM4带到Windows，公开承认AI辅助逆向；项目测试把5K与240fps分开，不能理解为5K下240fps。 **[其他 AI 逆向 · 进行中]**
+- [Forza Motorsport 4：AI辅助重编译，新增Apple Silicon预览与受限性能对照](cases/i2kiselev-forza4-ai-static-recompilation.md) — i2kiselev以ShiftGlue／Pinyon Shift静态重编译Xbox360 FM4，披露AI辅助逆向；固定0.3.3文档新增实验Apple Silicon支持、Rev1盘与更多离线测试，5K仍不是240fps。 **[其他 AI 逆向 · 进行中]**
 - [老友重建旧游戏：HumanProbably考虑分摊AI额度](cases/friends-shared-ai-credits-old-game-clone-idea.md) — HumanProbably与朋友考虑平摊AI额度，重建几十年前一起玩的游戏；游戏未具名，没有开工或可玩版本。 **[其他 AI 逆向 · 待验证]**
 - [未具名游戏：咸鱼称REA十分钟完成逆向](cases/nickling017-rea-ten-minute-unnamed-game-report.md) — 咸鱼报告REA十分钟帮自己完成游戏逆向；只确认作者自述及一张截图附件，游戏名、逆向范围和可运行成果未核验。 **[REA · 待验证]**
 - [Kega Fusion：用AI反编译模拟器、增加无边框窗口的愿望](cases/kega-fusion-ai-decompile-borderless-idea.md) — 读者建议AI反编译Kega Fusion模拟器，加入无边框窗口等现代功能；尚无实现或测试。 **[其他 AI 逆向 · 待验证]**
@@ -600,7 +600,7 @@
 - [Brother激光打印机掉线：Matt Kelch用Gemini Neon继续固件研究](cases/matt-kelch-brother-laser-lan-firmware-ai-debugging.md) — Matt研究约20年旧Brother打印机一段时间后离开LAN的问题，称Opus 5.5与Sol 6.2反复触发安全过滤，Gemini 4 Neon暂未触发；没有修复结论。 **[其他 AI 逆向 · 进行中]**
 - [Nikon SDK：Alex Barashkov在AI工作流中报告进行中的逆向研究](cases/alex-barashkov-nikon-sdk-ai-research.md) — Alex在回答夜间Agent用途时列出Nikon SDK逆向；未说明相机型号、接口、功能目标或成果，不推断相机控制已实现。 **[其他 AI 逆向 · 进行中]**
 - [不用戴手表的睡眠追踪：Pixel Gamer称Gemini研究声学扫描后提出idea](cases/pixelgamer-gemini-acoustic-room-sleep-tracker-idea.md) — Pixel Gamer 4k将高频不可闻声音的研究归于Gemini 4 Neon，计划制作非穿戴睡眠追踪器；Meta房间扫描说法和测量能力未核。 **[其他 AI 逆向 · 待验证]**
-- [心力球音频互通idea：Gemini协议建议与借录音硬件经验研究的两条路径](cases/xinli-ball-ai-app-protocol-independent-client-idea.md) — 原有Gemini辅助App／协议idea新增张立行的建议：让AI学习录音硬件逆向经验，回应非root安卓获取心力球音频的失败求助；均无连通验证。 **[其他 AI 逆向 · 待验证]**
+- [心力球音频互通idea后续：升级后方案未通，作者改用Anker与端侧转写](cases/xinli-ball-ai-app-protocol-independent-client-idea.md) — Gemini辅助心力球App／协议研究idea未获连通验证；原求助者称固件升级后评论方案均不可用，转向Anker录音豆、Android本地转写与Mac同步。 **[其他 AI 逆向 · 待验证]**
 - [从SL6801经验到TS47：转述Claude复用技能，4小时移植Rockbox](cases/rockbox-ts47-claude-reused-porting-skills-report.md) — 中文转述称先把9美元播放器的Rockbox移植经验封装成技能，再让Claude用4小时适配另一台TS47；无原始开发记录或实机验证，不能继承SL6801硬件参数。 **[其他 AI 逆向 · 待验证]**
 - [先Windows再Mac：Mukshud称用Claude Code与Ghidra自学驱动研究](cases/mukshud-windows-driver-claude-ghidra-learning-report.md) — Mukshud说先在Windows用逆向工具、自制检查和Claude Code／Ghidra学习驱动，再研究Mac驱动层；未给驱动目标或产物。 **[其他 AI 逆向 · 待验证]**
 - [键盘轮询固件：猿子称Agent查串口资料、写Mac脚本并刷写](cases/motoko-keyboard-agent-serial-mac-polling-firmware.md) — 猿子称Agent从GitHub查串口信息，写可在Mac运行的小脚本并刷改版轮询固件，半小时完成；键盘型号、源码与检查未给。 **[其他 AI 逆向 · 待验证]**
@@ -1360,6 +1360,10 @@
 
 ### 应用与客户端
 
+- [只研究自己用的QuickBooks功能：Phil推荐AI skill的idea](cases/phil-quickbooks-used-features-ai-skill-idea.md) — Phil建议用一个skill逆向QuickBooks中实际使用的部分；是有具体软件目标的功能研究idea，没有报告已开发替代品。 **[其他 AI 逆向 · 待验证]**
+- [Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC](cases/adylovelace-project-fusion-filefault2-revoz-rea.md) — AdyLovelace称在macOS 27.3 AArch64上以REA、Ghidra和AI Agent研究Abyss／MysticalCore，产出FileFault 2 REVoz PoC；机制与验证未公开。 **[REA · 待验证]**
+- [先写无品牌规格，Claude仍要看原App：Annie的Mac GUI重建尝试](cases/annie-mac-gui-reconstruction-claude-spec-plan.md) — Annie称人工研究闭源Mac应用GUI并写成不提原App的规格，交给Claude后模型仍计划对照真实应用；尚无实现或效果报告。 **[其他 AI 逆向 · 进行中]**
+- [T3 Code隐私审计idea：嗯哌AI给Agent的只读源码检查清单](cases/npieai-t3code-readonly-privacy-audit-prompt.md) — 嗯哌AI提供T3 Code源码审计prompt，要求逐行追踪遥测、身份读取、外联、更新与依赖，并另做运行时观察；不是已完成的隐私审计报告。 **[其他 AI 逆向 · 待验证]**
 - [号称可玩GTA6的g6m发布：RealLuaCat称Codex／REA发现安全异常](cases/realluacat-g6m-gta6-build-codex-rea-safety-check.md) — RealLuaCat在警告g6m的GTA6 PC发布后称Codex调用REA发现不少red flags；无样本哈希、分析细节或日志，不能认证恶意软件或可玩性。 **[REA · 待验证]**
 - [先辨目标再挑工具：陈跑跑介绍代码Agent的逆向导航项目](cases/hgg1668-ai-reverse-engineering-navigation-project.md) — 陈跑跑介绍面向APK、二进制、网页加密和CTF的Agent导航：先识别目标、盘点工具、写明授权与范围，再保留分析记录；未核读仓库或测试。 **[未确认使用 REA · 相关项目]**
 - [只重建常用功能：Bonny提出五指令订阅应用研究与复建流程](cases/bonny-subscription-app-five-command-rebuild-prompt.md) — Bonny推荐Claude、Gemini或ChatGPT从链接、截图、录屏分析应用，再筛选常用功能、实现和对照测试；是提示词工作流idea，没有实际替代应用。 **[其他 AI 逆向 · 待验证]**
@@ -2566,7 +2570,7 @@
 - [alien_signals与Dart AOT：Seven Du用Opus5.5反编译检查内存访问再改代码](cases/seven-du-alien-signals-dart-aot-claude-decompilation.md) — Seven Du称Claude Opus5.5反编译研究变量复制与直接内存访问的区别并实现修改；大规模本地基准观察尚无最小复现，HEAD无法复现的疑问保留。 **[其他 AI 逆向 · 待验证]**
 - [Solana钱包到六角色Agent：explos1ve的Claude策略重建与未核收益报告](cases/explos1ve-solana-wallet-six-agent-strategy-report.md) — explos1ve称研究Solana盈利钱包后做六Agent交易台，列筛选与风控提示并要求先纸面试跑；263到9398美元、35.7倍等未经流水或源码核验。 **[其他 AI 逆向 · 待验证]**
 - [骑行速写短片重建：Gemini拆视差与转场，Claude做分镜和配乐](cases/iced83113143-antigravity-parallax-cycling-reference-rebuild.md) — Keep Calm and Pedal On报告在Antigravity参考原片，Gemini拆十幕视差、Claude设计分镜和44.1kHz配乐，再生成骑行短片；未核视频或脚本。 **[其他 AI 逆向 · 待验证]**
-- [从协作历史提取5.6SOL行为：JiaShen的Soul Engraving首日进度](cases/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen称登记120份历史来源、提取85个候选结构并归成13簇五层，尝试让新模型延续5.6SOL的工作方式；迁移尚未完成。 **[其他 AI 逆向 · 进行中]**
+- [从特征到运行关系：JiaShen的5.6SOL行为重建第二日进度](cases/sol56-local-persona-preservation-4o-reconstruction-idea.md) — JiaShen报告Soul Engraving第二日登记134份历史来源，保留85候选结构、13簇，建立四种候选运行关系并产出五文档；迁移及行为延续仍待验证。 **[其他 AI 逆向 · 进行中]**
 - [多设备AI分析的记忆与假设管理：Masato的Markdown、CSV与Rust流程](cases/masato-ai-device-analysis-markdown-csv-rust-workflow.md) — Masato报告六个月多设备分析中，AI遇阻会反复猜测、会话压缩会丢发现；他整理Markdown持久化、CSV逐项假设实验与Rust类型检查流程。 **[其他 AI 逆向 · 待验证]**
 - [用Git排反编译任务：Niall O’Higgins的轻量Agent协作idea](cases/niall-git-agent-decompilation-job-queue.md) — Niall O’Higgins建议在Git中协调Agent工作队列，举asm到C++约五分钟的反编译任务；没有指定二进制、实现仓库或质量对照。 **[其他 AI 逆向 · 待验证]**
 - [参考动画逐帧拆解：Dipo用Claude skill与FFmpeg重建创作线索](cases/dipo-claude-ffmpeg-reference-animation-breakdown.md) — Dipo介绍Claude分析参考视频、FFmpeg逐帧提取，再迭代脚本、hook与故事的具体流程；没有恢复原工程或成片质量验证。 **[其他 AI 逆向 · 相关项目]**
