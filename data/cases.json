@@ -16,6 +16,37 @@
     }
   },
   {
+    "id": "portwatch-vi-claude-reverse-project-evidence-tracker",
+    "title": "PortWatch VI：让Claude辅助读仓库与标记GTA VI移植宣称的追踪站",
+    "category": "games",
+    "rea": "other-ai",
+    "status": "related-project",
+    "summary": "Kaiku介绍GTA VI社区移植追踪站；固定文档描述Claude读README与提交、辅助筛候选和评分。它追踪逆向进展，不反编译游戏，分数和倒计时不是可玩性验证。",
+    "description": "2026年11月27日15:00:01（北京时间），Kaiku（@kaikubuilds）在工具清单中介绍4lwayz/portwatch-vi：把GTA VI社区重编译、模拟与PC移植努力放在同一进度阶梯，减少读者反复翻仓库、把假安装包或作者宣称误当成果的问题。同帖的CLI-Anything已有独立记录，其余抓取、下载和剪辑工具不据此当成逆向项目。PortWatch VI作为AI辅助逆向研究的信息整理相关项目收录，不是新游戏移植成果。\n\n补充阅读固定提交54eb2fa8091ee27f47f584c066821825b45c9bb3的README；该提交为2026年11月27日15:37:54北京时间，晚于候选帖子，是补充项目文档而非第二条窗口候选。文档称静态GitHub Pages站每三小时刷新仓库、README变动与公开线索，显示各项目的已做工作、阻碍、候选名单和假下载警告。它将可执行文件运行、首帧、菜单、进入游戏、30FPS和稳定运行分别放在25、40、55、70、85和100的阶梯上；这些是编辑评分定义，不是相应里程碑已经通过。\n\n具体AI环节在文档中是可选的Claude review：有API配置时，Claude（文档模型名claude-opus-5-5）读取变动README和最近提交，重评已追踪项目、接纳或拒绝新候选。文档声称只有能引用仓库中实际存在文字的GTA VI里程碑才计分，基础工作每次最多增加0.3，每次最多12项review，单次费用粗估0.05至0.20美元。没有配置时仍能抓取免密钥来源，但新候选等待复核；因此不能把站点自动刷新等同于每次都做了AI审核。另有Claude搜索并写短新闻及维护者电脑上日常编辑的文档路径，均未在此执行。\n\n项目明确说分数只是根据公开README、提交与issue作出的编辑估计，作者自报宣称会标记未核验；倒计时是预期，不保证发布日期、可执行文件存在或可玩性。README承诺不托管或链接游戏文件、密钥和可执行文件，但本合集未审完整站点输出或逐一检查外链，不能把承诺写成已完成安全审计。本次仅核作者文字与固定文档，未审scout实现、模型会话、评分准确性或追踪项目的实际启动，也未运行网站、安装依赖、下载游戏或配置API。候选所说5754星、单日新增1314星未核GitHub历史，不当质量或逆向成功证据。",
+    "sources": [
+      {"label": "Kaiku的工具清单：PortWatch VI追踪目标与里程碑阶梯，2026-11-27 15:00:01北京时间", "url": "https://x.com/i/status/2126209413086388717"},
+      {"label": "补充固定README：Claude审核、候选筛选及编辑评分限制，提交2026-11-27 15:37:54北京时间；非执行验证", "url": "https://github.com/4lwayz/portwatch-vi/blob/54eb2fa8091ee27f47f584c066821825b45c9bb3/README.md"}
+    ],
+    "snapshot_date": "2026-11-27",
+    "metadata": [
+      "候选封存0赞、618浏览、0转发、1回复；为整条五工具清单热度，不是PortWatch VI单独热度或使用测试。",
+      "Claude参与及限制依据固定项目文档，未核部署是否开启AI审核；未确认调用morluto/rea。"
+    ],
+    "en": {
+      "title": "PortWatch VI: Claude-assisted repository reading and claim tracking for GTA VI ports",
+      "summary": "Kaiku introduces a tracker for community GTA VI port efforts. Pinned docs describe Claude reading READMEs and commits to help review candidates and scores. It tracks reverse-engineering work, not decompiles the game; scores and countdowns do not verify playability.",
+      "description": "At 15:00:01 Beijing time on November 27, 2026, Kaiku (@kaikubuilds) introduces 4lwayz/portwatch-vi in a tool roundup: a common progress ladder for community GTA VI recompilation, emulation and PC-port efforts. Its purpose is to reduce repeated repository checking and confusion between fake installers, author claims and demonstrated progress. CLI-Anything from the same roundup already has its own record; the other scraping, downloading and editing tools are not thereby reverse-engineering projects. PortWatch VI is included as a related information-organizing project for AI-assisted reverse-engineering research, not a new game-port accomplishment.\n\nSupplementary reading pins README to commit 54eb2fa8091ee27f47f584c066821825b45c9bb3, dated November 27, 2026 at 15:37:54 Beijing time. It postdates the candidate and is supplementary project documentation, not a second window candidate. The docs describe a static GitHub Pages site refreshing repositories, README changes and public leads every three hours, with groundwork, blockers, candidates and fake-download warnings. Executable runs, first frame, menu, in-game, 30 FPS and stability occupy ladder positions 25, 40, 55, 70, 85 and 100. These define editorial scoring; they do not show that those milestones have been achieved.\n\nThe documented AI component is optional Claude review: with API configuration, Claude, named claude-opus-5-5 in the docs, reads changed READMEs and recent commits, re-scores tracked efforts and promotes or rejects new candidates. The project says GTA VI milestones count only when backed by quotations actually present in the repository, groundwork can rise at most 0.3 per run, and reviews are capped at twelve per run, with a rough cost estimate of $0.05–$0.20 each. Without configuration, keyless discovery still runs but candidates wait for review; automatic refreshing must not be equated with AI review on every run. Docs also describe Claude searching and writing short news articles and a daily editing route on the maintainer's PC. None was executed here.\n\nThe project explicitly calls scores editorial estimates based on public READMEs, commits and issues and labels self-reported claims unverified. The countdown expresses an expectation, not a guaranteed release date, an existing executable or verified playability. README promises not to host or link game files, keys or executables, but this collection did not audit the complete site output or every external link; that promise is not a completed security audit. Review was limited to the attributed post and pinned docs. The scout implementation, model sessions, scoring accuracy and actual launches of tracked projects were not checked. No site was run, dependencies installed, game downloaded or API configured. The candidate's 5,754 stars and 1,314 added in one day were not checked against GitHub history and are not evidence of quality or successful reverse engineering.",
+      "metadata": [
+        "Sealed candidate: 0 likes, 618 views, 0 reposts, 1 reply. This measures the whole five-tool roundup, not engagement or a usage test specific to PortWatch VI.",
+        "Claude participation and limitations come from pinned project docs; whether deployment enables AI review was not checked. Actual morluto/rea use is unconfirmed."
+      ],
+      "source_labels": [
+        "Kaiku's tool roundup: PortWatch VI's tracking target and milestone ladder, November 27, 2026 at 15:00:01 Beijing time",
+        "Supplementary pinned README: Claude review, candidate filtering and editorial-score limits, committed November 27, 2026 at 15:37:54 Beijing time; not execution validation"
+      ]
+    }
+  },
+  {
     "id": "adylovelace-project-fusion-filefault2-revoz-rea",
     "title": "Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC",
     "category": "apps", "rea": "REA", "status": "unverified",

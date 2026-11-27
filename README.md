@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2899 cases & projects
+# 2900 cases & projects
 
-**Latest case update:** November 27, 2026, 12:15 · **Last maintained:** November 27, 2026, 12:15 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 27, 2026, 16:05 · **Last maintained:** November 27, 2026, 16:05 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: recover a compiler, trace retry behavior, preserve a game or reopen a device. Start with the concrete methods and reported checks, not a headline's promise of a complete clone. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: recover a compiler, trace retry behavior, preserve a game or reopen a device. Read the reported checks and their limits: a matching binary, a working port and a progress score are different claims. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[OpenGlass Go: reopen a glasses-free 3D display](cases/en/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22` author thread and pinned builder docs — Megabits credits **Kimi for reversing and early code, Gemini Neon for finishing Armbian firmware**. Public docs describe 3D media playback, file transfer and STM32 control. Hardware testing is project-reported; the kernel bug awaits submission. Not built or flashed here. `In progress`
@@ -50,7 +50,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **566** |
+| [Games & preservation](categories/en/games.md) | **567** |
 | [Hardware & interoperability](categories/en/hardware.md) | **762** |
 | [Applications & clients](categories/en/apps.md) | **1202** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **369** |

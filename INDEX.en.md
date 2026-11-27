@@ -10,13 +10,13 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2899 entries**, organized by use case, without a Top-N or popularity threshold.
+**2900 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (566)
+- [Games and preservation](categories/en/games.md) (567)
 - [Hardware and interoperability](categories/en/hardware.md) (762)
 - [Applications and clients](categories/en/apps.md) (1202)
 - [Algorithms and feature recovery](categories/en/algorithms.md) (369)
@@ -28,6 +28,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [PortWatch VI: Claude-assisted repository reading and claim tracking for GTA VI ports](cases/en/portwatch-vi-claude-reverse-project-evidence-tracker.md) — Kaiku introduces a tracker for community GTA VI port efforts. Pinned docs describe Claude reading READMEs and commits to help review candidates and scores. It tracks reverse-engineering work, not decompiles the game; scores and countdowns do not verify playability. **[Other AI-assisted work · Related project]**
 - [Rewrite GTA VI in Rust and open-source it: Jhoan's wish for Claude and REA](cases/en/jhoan-gta-vi-claude-rea-rust-rewrite-idea.md) — Jhoan H. Magno jokingly asks Claude to use REA to rewrite GTA VI in Rust and open-source it. No agent run, recovered source or completed port is reported. **[REA · Needs verification]**
 - [SF2X Online: ESPARTACO discloses AI-assisted decompilation for a Windows fighting-game beta](cases/en/sf2x-online-espartaco-ai-assisted-decompilation-beta.md) — Gisleno ESPARTACO says SF2X Online is based on his AI-assisted decompilation and offers a free Windows beta with rollback networking and TURBO 3 claims. Planned multiplayer and training features are not acceptance results. **[Other AI-assisted work · In progress]**
 - [Emerald NX: an AI-assisted native Switch port introduction, with first hardware boot still pending](cases/en/emerald-nx-ai-assisted-switch-native-port.md) — The Gaming Emporium introduces eonlynx's Emerald NX v0.5.0 and relays extensive AI assistance. Public docs report builds and static checks, but explicitly say the first Switch hardware boot is pending. **[Other AI-assisted work · In progress]**
