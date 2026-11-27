@@ -1,5 +1,149 @@
 [
   {
+    "id": "packingprotons-softimage-rea-refusal-attempt",
+    "title": "Softimage保存尝试：Packing Protons称REA接Claude仍遭拒绝",
+    "category": "apps", "rea": "REA", "status": "in-progress",
+    "summary": "Packing Protons想用REA重建Softimage，称接入Claude等工具后都不肯继续；是受阻的具体软件保存尝试，不是已完成克隆。",
+    "description": "2026年11月28日00:32:21（北京时间），Packing Protons（@PackingProtons）向Matthew Berman求助，称正在逆向Softimage，但把REA接到Claude等工具后都被拒绝。Softimage是作者希望恢复的旧3D制作软件；他认为Autodesk不会再使用它，因而想一比一重建。这些停用动机与潜在受众是作者判断，不是厂商意图或百万用户需求的核实。\n\n实际报告仅是目标明确的尝试与拒绝，没有具体版本、模块、提示词、原始会话、分析输出、源码或测试；不清楚拒绝发生在读取、分析还是复制要求。不能据此判断所有模型的政策、REA无法分析该软件，或存在可用替代品。保留受阻阶段，不给出规避拒绝方法，也不因旧软件而推定复制许可。补取原帖确认账号与文字，本合集未取得或执行目标。",
+    "sources": [{"label": "Packing Protons的Softimage／REA受阻自述，2026-11-28 00:32:21北京时间", "url": "https://x.com/i/status/2126353445833621763"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照0赞、20浏览、0转发、0回复；没有拒绝会话或重建成果。"],
+    "en": {
+      "title": "Preserving Softimage: Packing Protons reports refusals despite connecting REA to Claude",
+      "summary": "Packing Protons wants to rebuild Softimage with REA but says Claude and other connected tools refuse. A blocked software-preservation attempt, not a completed clone.",
+      "description": "At 00:32:21 Beijing time on November 28, 2026, Packing Protons (@PackingProtons) asks Matthew Berman for help: the author is trying to reverse-engineer Softimage but says tools such as Claude refuse even when connected to REA. Softimage is the legacy 3D-production application the author wants to revive one-to-one. The belief that Autodesk will never use it again motivates the attempt; neither vendor intentions nor claimed demand from millions of users was verified.\n\nThe actual report establishes only a concrete target, an attempt and refusals. No edition, module, prompt, original conversation, analysis output, source or test is supplied. It is unclear whether reading, analysis or copying was refused. The post establishes neither policies across all models, REA's inability to analyze Softimage nor an available replacement. The blocked stage is preserved without refusal-evasion instructions; age does not establish permission to copy software. Supplementary retrieval confirmed account and wording. No target was obtained or executed here.",
+      "metadata": ["November 28, 2026 candidate snapshot: 0 likes, 20 views, 0 reposts, 0 replies. No refusal transcript or reconstructed artifact."],
+      "source_labels": ["Packing Protons reports a blocked Softimage/REA attempt, November 28, 2026 at 00:32:21 Beijing time"]
+    }
+  },
+  {
+    "id": "pneumatic-yote-claude-ghidra-game-rendering-study",
+    "title": "想弄懂游戏渲染：Yote用Claude与Ghidra研究未具名游戏",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "Yote称一直用Claude、Ghidra等工具研究一款游戏的渲染，目前没遇到拒绝；游戏与研究发现未公开。",
+    "description": "2026年11月28日01:24:45（北京时间），Yote（@Pneumatic_Yote）在模型是否愿意逆向的讨论中称，自己正在用Claude及Ghidra等工具研究一款游戏，至今没有遇到问题。动机是弄明白渲染如何工作，公开结果只是很远以后的考虑，而非制作移植、作弊或重建完整游戏的宣称。\n\n没有命名游戏、平台、版本、渲染环节或其他工具，也没有代码、分析报告、画面对照或性能数字；“没有问题”在语境中是作者对使用过程和拒绝的评价，不证明分析正确或功能恢复。不能将这个未具名目标和讨论中的Halo或GTA合并。补取只确认作者与完整文字，末句Claude can tell不影响已经明确的研究动机；未运行目标或重做分析，REA未提及。",
+    "sources": [{"label": "Yote的Claude／Ghidra游戏渲染研究自述，2026-11-28 01:24:45北京时间", "url": "https://x.com/i/status/2126366632998228434"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照1赞、144浏览、0转发、0回复；未公开具体游戏或研究结果。"],
+    "en": {
+      "title": "Understanding game rendering: Yote studies an unnamed game with Claude and Ghidra",
+      "summary": "Yote reports studying a game's rendering with Claude, Ghidra and other tools without refusals so far. The game and findings are not disclosed.",
+      "description": "At 01:24:45 Beijing time on November 28, 2026, Yote (@Pneumatic_Yote) replies in a discussion about model willingness to reverse-engineer, saying a game is being studied with Claude, Ghidra and other tools without problems so far. The motivation is understanding how rendering works; publishing results is a distant afterthought, not a claim of a port, cheat or full-game reconstruction.\n\nThe game, platform, revision, rendering subsystem and other tools are unnamed. No code, analysis report, visual comparison or performance figures are supplied. Having no trouble is the author's assessment of the workflow and refusals in context, not evidence of correct analysis or restored functionality. This unnamed target is not conflated with Halo or GTA from surrounding discussions. Retrieval confirmed attribution and full wording; the closing phrase 'Claude can tell' does not negate the explicit research motivation. No target was run or analysis repeated here. REA is unmentioned.",
+      "metadata": ["November 28, 2026 candidate snapshot: 1 like, 144 views, 0 reposts, 0 replies. Neither the game nor research results are public in this account."],
+      "source_labels": ["Yote's Claude/Ghidra game-rendering study, November 28, 2026 at 01:24:45 Beijing time"]
+    }
+  },
+  {
+    "id": "composio-gtm-startup-basketball-growth-research",
+    "title": "Composio增长研究：投篮选公司，再让Agent反推获客路径",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "Thomas Trimoreau介绍Composio以篮球界面选100家YC公司，结合流量、搜索和X信号交Agent研究增长；0.20美元为宣传口径，非本合集实测。",
+    "description": "2026年11月28日01:25:20（北京时间），Thomas Trimoreau（@TTrimoreau）介绍Composio的增长研究项目：把公司logo投进篮筐，取得网站流量、Google排名、X活动及高赞帖，再将配套reverse-engineering提示交给AI Agent反推增长playbook。介绍称覆盖100家增长中的YC创业公司，每次约0.20美元。这里的逆向指从公开信号推断商业获客路径，不是反编译这100家公司的软件。\n\n收录为有具体数据输入、交互与AI分析步骤的相关项目，而非证明增长因果已经恢复。原帖没有完整公司名单、数据商、日期范围、提示词、模型、代码或计费记录；没有实际执行来确认覆盖和价格，结果也不能揭示私有转化、归因或真实收入。补取确认作者与文字，未审附视频、注册服务、调用付费API或安装工具，未提REA。",
+    "sources": [{"label": "Thomas Trimoreau介绍Composio篮球界面与Agent增长研究，2026-11-28 01:25:20北京时间", "url": "https://x.com/i/status/2126366778980704624"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照16赞、536浏览、0转发、5回复；100家公司和0.20美元为介绍者口径，不是核实的覆盖或账单。"],
+    "en": {
+      "title": "Composio growth research: shoot a startup logo, then ask an agent to infer acquisition paths",
+      "summary": "Thomas Trimoreau describes a basketball interface for 100 YC startups, handing traffic, search and X signals to an agent. The $0.20 price is promotional wording, not measured here.",
+      "description": "At 01:25:20 Beijing time on November 28, 2026, Thomas Trimoreau (@TTrimoreau) introduces a Composio growth-research project: shoot a company's logo into a basketball hoop, retrieve website traffic, Google rankings, X activity and most-liked posts, then run its reverse-engineering prompt in an AI agent to infer a growth playbook. The introduction claims 100 fast-growing YC startups and approximately $0.20 per run. Reverse engineering here means inferring commercial acquisition paths from public signals, not decompiling those companies' software.\n\nIncluded as a related project with concrete data inputs, interaction and AI-analysis steps, not proof of recovered growth causality. The complete company list, data providers, time ranges, prompt, model, code and billing record are not supplied. Coverage and price were not checked through execution; outputs cannot establish private conversions, attribution or actual revenue. Retrieval confirmed attribution and wording. The attached video was not examined, no service registered, paid API invoked or tool installed here. REA is unmentioned.",
+      "metadata": ["November 28, 2026 candidate snapshot: 16 likes, 536 views, 0 reposts, 5 replies. The 100-company and $0.20 figures are introductory claims, not verified coverage or billing."],
+      "source_labels": ["Thomas Trimoreau introduces Composio's basketball interface and agent-assisted growth research, November 28, 2026 at 01:25:20 Beijing time"]
+    }
+  },
+  {
+    "id": "agentday-n8n-switch-node-memory-reconstruction",
+    "title": "误删n8n节点后：Paul Olusola用Agentday快照重建分支规则",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Paul Olusola称从Agentday系统记忆快照在AI聊天中恢复28节点流程里误删的Switch及路由，报告20秒；无前后JSON或流程测试。",
+    "description": "2026年11月28日01:30:20（北京时间），Paul Olusola（@OlusolaPaul8）称误删了自己28节点n8n自动化工作流里的Switch节点。他没有重新从剩余流程推导逻辑，而是把Agentday的system_memory快照贴进AI聊天，称20秒内恢复原节点和路由规则。目标是恢复自己已有的自动化分支行为；资料来自预存系统记忆，不是从无资料状态自动反编译n8n。\n\n“完全一样”与20秒都是作者自述，没有删除前后工作流JSON、快照内容、提示词、模型、分支测试、执行日志或失败情形。不能由节点数或时长推断整个流程被重建、生产运行正确或普遍节省工时；也不把推广记忆工具的评价当独立对照。补取确认账号与文字，未读取用户工作流或运行自动化，REA未提及。",
+    "sources": [{"label": "Paul Olusola的n8n Switch与路由恢复自述，2026-11-28 01:30:20北京时间", "url": "https://x.com/i/status/2126368037120942107"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照1赞、100浏览、0转发、0回复；28节点和20秒为作者报告，不是独立测量。"],
+    "en": {
+      "title": "After deleting an n8n node: Paul Olusola reconstructs branch rules from an Agentday snapshot",
+      "summary": "Paul Olusola reports restoring a deleted Switch and routing in a 28-node workflow through AI chat using Agentday memory, claiming 20 seconds. Before/after JSON and workflow tests are absent.",
+      "description": "At 01:30:20 Beijing time on November 28, 2026, Paul Olusola (@OlusolaPaul8) says a Switch node was accidentally deleted from a 28-node n8n automation workflow. Instead of inferring logic again from what remained, the author pasted an Agentday system_memory snapshot into an AI chat and reports rebuilding the exact node and routing rules in 20 seconds. The target is restoring existing personal automation branches from retained system memory, not automatically decompiling n8n without reference material.\n\nExactness and 20 seconds are author claims. Before/after workflow JSON, snapshot contents, prompts, model, branch tests, execution logs and failure cases are not supplied. Node count and duration establish neither reconstruction of the whole workflow, correct production execution nor general labor savings. Promotion of the memory tool is not an independent comparison. Retrieval confirmed attribution and wording; no user workflow was read or automation run here. REA is unmentioned.",
+      "metadata": ["November 28, 2026 candidate snapshot: 1 like, 100 views, 0 reposts, 0 replies. The 28 nodes and 20 seconds are author-reported, not independently measured."],
+      "source_labels": ["Paul Olusola reports restoring an n8n Switch and routing, November 28, 2026 at 01:30:20 Beijing time"]
+    }
+  },
+  {
+    "id": "ethan-composio-pocket-growth-playbook-analysis",
+    "title": "Pocket增长拆解：Ethan用Composio查多API，再生成HTML轮播",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Ethan Walkrman称Agent借Composio Instant查15余付费API，以约0.20美元研究Pocket流量、广告和搜索，再转为HTML幻灯；指标未独立核实。",
+    "description": "2026年11月28日01:33:39（北京时间），Ethan Walkrman（@ethanwalkerman）报告用单条提示词让Agent经Composio Instant查询15余付费API，反推竞争者Pocket的增长路径，成本约0.20美元。随后追加X carousel HTML提示，把数据输出变成便于截图的轮播。这个案例是公开市场信号的AI辅助策略重建，不是Pocket软件或私有算法的源码恢复。\n\n作者列出的结果包括270万访问量、被报道的1亿美元run rate、95条广告创意样本中的49.1%付费流量、对竞争词Plaud Note Pro的自然排名第一，以及未雇首名外呼销售前已有七位数入站B2B run rate。没有说明访问量周期、run rate定义、币种之外的口径或流量与创意样本的关系；保留为作者报告，不将其换算为已审计年收入或认定排名挟持。未取得API原始返回、采样清单、账单、提示词、完整HTML或因果对照，不能证明增长归因或工具价格稳定。补取确认署名与全文，未审视频、调用API或运行代码；REA未提及。",
+    "sources": [{"label": "Ethan的Pocket／Composio增长拆解与HTML输出自述，2026-11-28 01:33:39北京时间", "url": "https://x.com/i/status/2126368871980614078"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照8赞、359浏览、4转发、4回复；所有经营与流量数字均为帖子中的报告，不是本合集核实事实。"],
+    "en": {
+      "title": "Pocket growth teardown: Ethan queries APIs through Composio, then creates an HTML carousel",
+      "summary": "Ethan Walkrman reports an agent querying 15+ paid APIs through Composio Instant for about $0.20 to study Pocket's traffic, ads and search, then output HTML slides. Metrics were not independently checked.",
+      "description": "At 01:33:39 Beijing time on November 28, 2026, Ethan Walkrman (@ethanwalkerman) reports using a single prompt to have an agent query more than fifteen paid APIs through Composio Instant and infer competitor Pocket's growth playbook for about $0.20. An additional 'X carousel HTML' prompt turns the data into screenshot-ready slides. This is AI-assisted strategy reconstruction from market signals, not recovery of Pocket software or private-algorithm source.\n\nReported findings include 2.7 million visits, a reported $100 million run rate, 49.1% paid traffic across 95 sampled creatives, a number-one organic rank for competitor 'Plaud Note Pro' searches, and a seven-figure inbound B2B run rate before the first outbound sales hire. The visit period, run-rate definition and relationship between traffic share and creative samples are unspecified. These remain the author's account, not audited annual revenue or an established finding of search hijacking. Raw API responses, sample inventory, bill, prompts, full HTML and causal comparisons were not obtained, so growth attribution and stable pricing are not established. Retrieval confirmed attribution and full wording; no video was examined, API called or code run here. REA is unmentioned.",
+      "metadata": ["November 28, 2026 candidate snapshot: 8 likes, 359 views, 4 reposts, 4 replies. Business and traffic figures are reported in the post, not independently verified facts."],
+      "source_labels": ["Ethan's Pocket/Composio growth teardown and HTML-output account, November 28, 2026 at 01:33:39 Beijing time"]
+    }
+  },
+  {
+    "id": "haris-composio-hyper-ai-growth-playbook",
+    "title": "Hyper AI增长研究：Haris报告Composio与Agent跑出playbook",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Haris称用Composio投篮界面取Hyper AI数据，再让Agent重建增长playbook，花0.153美元；未公开具体结论或账单。",
+    "description": "2026年11月28日01:52:54（北京时间），Haris（@harisahmad59）称用Composio研究Hyper AI的增长playbook，成本0.153美元。他描述把创业公司logo投进篮球框，拿到分析数据和现成提示词，再由带Composio的Agent反推增长路径。目标是具名公司的商业策略，非研究其模型权重或软件实现，也不凭名称确定Hyper AI的具体法人或产品网址。\n\n作者报告任务已做，但未列流量、渠道或实际策略结论，亦未给数据周期、API返回、模型、提示词、账单或可读研究产物。0.153美元仅为单次自报，不能外推通用成本或认为所有增长机制均被恢复。补取确认署名与全文，未审所附视频、注册服务、调用付费接口或运行分析；REA未提及。",
+    "sources": [{"label": "Haris的Hyper AI／Composio增长研究自述，2026-11-28 01:52:54北京时间", "url": "https://x.com/i/status/2126373715168690234"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照13赞、749浏览、1转发、3回复；0.153美元为作者自报，没有成本核验。"],
+    "en": {
+      "title": "Hyper AI growth research: Haris reports a Composio-and-agent playbook run",
+      "summary": "Haris reports using Composio's basketball interface for Hyper AI data and an agent to reconstruct a growth playbook for $0.153. Findings and a bill are not supplied.",
+      "description": "At 01:52:54 Beijing time on November 28, 2026, Haris (@harisahmad59) says Hyper AI's growth playbook was reverse-engineered using Composio for $0.153. The workflow shoots a startup logo into a basketball hoop, obtains analytics and a ready-made prompt, then gives it to an agent with Composio to infer growth paths. The target is a named company's commercial strategy, not its model weights or software implementation. The name alone does not establish a legal entity or product URL.\n\nThe author reports having done the task but supplies no traffic figures, channels or actual strategic findings, data period, API responses, model, prompt, bill or readable research artifact. The $0.153 figure is a single reported run, not general pricing or evidence that every growth mechanism was recovered. Retrieval confirmed attribution and full wording; the attached video was not examined, no service registered, paid API called or analysis run here. REA is unmentioned.",
+      "metadata": ["November 28, 2026 candidate snapshot: 13 likes, 749 views, 1 repost, 3 replies. The $0.153 cost is author-reported without billing verification."],
+      "source_labels": ["Haris's Hyper AI/Composio growth-research account, November 28, 2026 at 01:52:54 Beijing time"]
+    }
+  },
+  {
+    "id": "dncipnci-agent-mouse-oem-feature-extension",
+    "title": "鼠标增加原厂没有的功能：danci的Agent逆向自述",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "danci称不熟悉逆向，但自己的Agent研究了鼠标并添加OEM固件没有的功能；未给型号、功能或实现。",
+    "description": "2026年11月28日01:55:49（北京时间），danci（@dncipnci）在反AI争论中说，自己不懂逆向，但Agent已经逆向其鼠标，并使它拥有OEM固件没有的功能。具体目标是扩展自有输入设备的能力，而非只泛赞AI会写代码；同时不能把没有命名的功能补成RGB、DPI、按键映射或连发。\n\n未提供品牌、型号、固件版本、Agent或模型名、连接方式、逆向输入、代码、演示或测试。不清楚改的是固件、主机驱动还是控制应用，也无法确认新增功能是否稳定或原厂确实不存在。作者的完成语气只作自述，不能等同刷写成功或独立复现。补取确认账号与文字，未接触设备、执行代码或测试硬件，REA未提及。",
+    "sources": [{"label": "danci的Agent鼠标逆向与功能扩展自述，2026-11-28 01:55:49北京时间", "url": "https://x.com/i/status/2126374449695862966"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照0赞、23浏览、0转发、1回复；功能扩展只见简短作者报告。"],
+    "en": {
+      "title": "Mouse features beyond the OEM: danci's agent-assisted reversing account",
+      "summary": "danci says an agent reverse-engineered a personal mouse and enabled features absent from OEM firmware despite the author's lack of reversing knowledge. Model, features and implementation are unspecified.",
+      "description": "At 01:55:49 Beijing time on November 28, 2026, danci (@dncipnci) replies in an anti-AI debate, saying that despite not knowing reverse engineering, the author's agent reversed a personal mouse and enabled features the OEM firmware does not provide. The concrete target is expanding an owned input device, not merely praising AI coding. Unnamed features must not be filled in as RGB, DPI, button mapping or rapid fire.\n\nThe brand, model, firmware revision, agent/model, connection method, analysis inputs, code, demonstration and tests are absent. It is unclear whether firmware, a host driver or a control application was changed, whether added functions are stable or whether the OEM truly lacks them. Completion wording is an author report, not proof of successful flashing or independent reproduction. Retrieval confirmed account and wording. No device was accessed, code executed or hardware tested here. REA is unmentioned.",
+      "metadata": ["November 28, 2026 candidate snapshot: 0 likes, 23 views, 0 reposts, 1 reply. Feature extension appears only in a brief author account."],
+      "source_labels": ["danci reports agent-assisted mouse reversing and feature extension, November 28, 2026 at 01:55:49 Beijing time"]
+    }
+  },
+  {
+    "id": "shadowfr94-gta6-claude-offline-decompilation-report",
+    "title": "GTA6断网反编译：Shadow称使用Claude，也警告别把传闻当正式版",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "Shadow在GTA6 PC运行讨论下称用Claude、在断网PC上反编译，并批评代码质量；未给样本、过程或测试，不能确认恶意代码或硬件损坏。",
+    "description": "2026年11月28日02:39:51（北京时间），Shadow（@shadowfr94）回复Léo - TechMaker的GTA6 PC及Online画面帖，提到Claude AI，称幸好自己在断网电脑上反编译，抱怨里面有很多问题，建议等待正式版本。他还预测显卡和CPU撑不过两周。目标语境由补取的11月27日22:31:03父帖确认；父帖只作为语境来源，不是本轮新候选，也未审其视频。\n\n保留为一则自称在断网环境用Claude研究传称GTA6程序的个人报告，不据此建立另一个已命名移植项目。没有样本版本、来源合法性、文件哈希、工具会话、分析发现、恶意行为证据或硬件测量。质量抱怨不等于发现恶意代码，断网不证明全面隔离，两周的预测也不是损坏测试；不认证原帖的可玩性或Online能力。未下载游戏、分析可执行文件或运行代码，REA未提及。",
+    "sources": [{"label": "Shadow在GTA6讨论中的Claude／断网反编译自述，2026-11-28 02:39:51北京时间", "url": "https://x.com/i/status/2126385528836968748"}, {"label": "补充父帖确认GTA6 PC与Online讨论语境，2026-11-27 22:31:03北京时间，早于本轮窗口；未审视频", "url": "https://x.com/i/status/2126322916841144679"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照0赞、236浏览、0转发、0回复；不将评论的风险预测当安全或性能测量。"],
+    "en": {
+      "title": "GTA6 decompilation offline: Shadow mentions Claude and advises waiting for the official version",
+      "summary": "In a GTA6-on-PC discussion, Shadow mentions Claude and decompiling on an offline PC while criticizing code quality. No sample, process or tests establish malware or hardware damage.",
+      "description": "At 02:39:51 Beijing time on November 28, 2026, Shadow (@shadowfr94) replies to Léo - TechMaker's GTA6 PC/Online footage post, mentioning Claude AI and saying it is fortunate the author decompiles on a disconnected computer. The reply complains about problems inside, advises waiting for the official version and predicts the GPU and CPU will not last two weeks. A supplementary parent post dated November 27 at 22:31:03 confirms the target context; it is context only, predates this window and is not another candidate. Its video was not examined.\n\nRetained as an individual claim of using Claude in an offline investigation of an alleged GTA6 program, not another named port project. No sample revision, lawful provenance, file hash, tool conversation, analysis finding, malicious-behavior evidence or hardware measurement is supplied. Quality complaints do not establish malware, disconnection does not prove comprehensive isolation, and the two-week prediction is not a damage test. Neither the parent's playability nor Online claims are endorsed. No game was downloaded, executable analyzed or code run here. REA is unmentioned.",
+      "metadata": ["November 28, 2026 candidate snapshot: 0 likes, 236 views, 0 reposts, 0 replies. Risk predictions in a comment are not security or performance measurements."],
+      "source_labels": ["Shadow's Claude/offline-decompilation account in a GTA6 discussion, November 28, 2026 at 02:39:51 Beijing time", "Supplementary parent confirms GTA6 PC/Online context, November 27, 2026 at 22:31:03 Beijing time, before this window; video not examined"]
+    }
+  },
+  {
+    "id": "maxrozen-fujifilm-xf10-claude-codex-firmware-attempt",
+    "title": "Fujifilm XF10固件改进尝试：Max Rozen称Claude拒读，Codex较愿推进",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "Max Rozen想改善自有XF10相机固件，称Claude不愿看文件，Codex较愿尝试；尚无固件分析结果、修改或刷写测试。",
+    "description": "2026年11月28日03:37:00（北京时间），Max Rozen（@RozenMD）称Claude拒绝查看固件文件，而Codex在反复说明设备由自己购买、只想写更好的固件后似乎更愿意尝试。补取同串03时前的父帖：11月28日02:58:05，他明确称正在耗Token研究如何修改自己的Fujifilm XF10固件，以改善使用体验。父帖用于识别相机和动机，不替换本轮候选。\n\n目标是具名相机的固件改进，但没有指出要修的功能、固件版本、分析工具、模型版本、读取输出、代码、补丁或刷写记录。Codex较愿意不是任务成功，拒绝也不能证明所有Claude都不能研究该设备；耗Token没有数值，不能推算成本。所有权陈述不是本合集对固件修改许可的判定。补取确认账号、回复关系与文字，未下载固件、执行目标或测试规避；REA未提及。",
+    "sources": [{"label": "Max Rozen报告Claude与Codex对固件研究的不同反应，2026-11-28 03:37:00北京时间", "url": "https://x.com/i/status/2126399911553864001"}, {"label": "补充同串父帖识别Fujifilm XF10与改善固件目标，2026-11-28 02:58:05北京时间；非新增候选", "url": "https://x.com/i/status/2126390119737528497"}],
+    "snapshot_date": "2026-11-28", "metadata": ["2026-11-28候选快照0赞、27浏览、0转发、0回复；拒绝与模型意愿为作者自述，没有完成结果。"],
+    "en": {
+      "title": "Fujifilm XF10 firmware improvements: Max Rozen reports Claude refusing and Codex being more willing",
+      "summary": "Max Rozen wants better firmware for an owned XF10 camera and says Claude refuses to inspect files while Codex is more willing. No analysis result, modification or flashing test is reported.",
+      "description": "At 03:37:00 Beijing time on November 28, 2026, Max Rozen (@RozenMD) says Claude refuses even to inspect firmware files, while Codex seems more willing when repeatedly reminded that the device was purchased and the aim is better firmware. A supplementary parent posted at 02:58:05 on November 28 explicitly identifies the author's Fujifilm XF10 and says tokens are being spent figuring out how to improve its firmware. The parent identifies the camera and motivation; it does not replace the candidate.\n\nThe target is firmware improvement for a named camera, but desired fixes, firmware revision, analysis tools, model versions, reading outputs, code, patch and flashing records are absent. Codex's willingness is not task success; refusal does not establish that all Claude setups cannot study the device. Token expenditure has no stated amount and establishes no cost. Ownership wording is not this collection's determination of modification permissions. Retrieval confirmed account, reply relationship and wording. No firmware was downloaded, target run or evasion tested here. REA is unmentioned.",
+      "metadata": ["November 28, 2026 candidate snapshot: 0 likes, 27 views, 0 reposts, 0 replies. Refusal and model willingness are author reports without a completed result."],
+      "source_labels": ["Max Rozen reports Claude/Codex responses to firmware research, November 28, 2026 at 03:37:00 Beijing time", "Supplementary parent identifies the Fujifilm XF10 and better-firmware goal, November 28, 2026 at 02:58:05 Beijing time; not an additional candidate"]
+    }
+  },
+  {
     "id": "cxjwin-claude-code-reverse-multimodel-review",
     "title": "码良研究Claude Code：跨栈修改后让Gemini与GPT交叉审查",
     "category": "apps", "rea": "other-ai", "status": "in-progress",
@@ -115,16 +259,16 @@
     "id": "bdcraft-blu-disc-studio-claude-rea-alternative-idea",
     "title": "BDCraft：用Claude与REA研究Blu-Disc Studio的开源替代idea",
     "category": "apps", "rea": "REA", "status": "unverified",
-    "summary": "@caybymails询问能否用Claude／REA研究Blu-Disc Studio Lite或UHD，做名为BDCraft的开源替代；没有实现。",
-    "description": "2026年11月27日22:58:14（北京时间），@caybymails提出能否使用Claude与REA研究Blu-Disc Studio的Lite或UHD版本，并创建名为BDCraft的开源替代。原目标是蓝光光盘创作软件，动机是得到开放实现；原帖没有指定菜单编辑、编码、光盘映像或播放兼容等具体范围，不能自行补成完整支持UHD的工具。\n\n这是提问式具体idea，BDCraft只是作者拟定的名称，没有仓库、研究步骤、模型版本、原软件版本、代码或生成光盘测试。REA是建议使用的工具，不是已确认执行；也不从开源意图推断复制专有内容的许可或兼容性。补取确认账号与原文，未解析所附短链、下载目标或运行光盘制作。",
-    "sources": [{"label": "@caybymails提出BDCraft开源替代idea，2026-11-27 22:58:14北京时间", "url": "https://x.com/i/status/2126329759193805151"}],
-    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存0赞、23浏览、0转发、0回复；REA参与仅是设想，无实现或兼容测试。"],
+    "summary": "@caybymails提议用Claude／REA做Blu-Disc Studio的开源替代BDCraft；新帖改写目标为MX或UHD，仍无实现。",
+    "description": "2026年11月27日22:58:14（北京时间），@caybymails提出能否使用Claude与REA研究Blu-Disc Studio的Lite或UHD版本，创建名为BDCraft的开源替代。11月28日02:01:59，同一作者再次征求挑战者，这次原文明写MX或UHD；保留两次措辞差异，不擅自把Lite修正成MX，也不认定二者是同一版本。目标是蓝光光盘创作软件，动机是得到开放实现；两帖均未指定菜单编辑、编码、光盘映像或播放兼容的具体范围。\n\n仍是提问式idea，BDCraft只是拟定名称，没有仓库、研究步骤、模型版本、目标修订、代码或生成光盘测试。REA是建议工具，不是实际调用；新版提案不是项目已启动或完整支持UHD的证据。开源意图也不证明复制许可或兼容性。补取新帖确认同一账号和原文，未审图片或展开短链，未下载目标或运行光盘制作。",
+    "sources": [{"label": "@caybymails提出BDCraft开源替代idea，2026-11-27 22:58:14北京时间", "url": "https://x.com/i/status/2126329759193805151"}, {"label": "同一作者新提案明确写MX或UHD，2026-11-28 02:01:59北京时间；仍无实现", "url": "https://x.com/i/status/2126375999998775392"}],
+    "snapshot_date": "2026-11-28", "metadata": ["旧帖2026-11-27封存0赞、23浏览、0转发、0回复；新帖2026-11-28封存0赞、16浏览、1转发、0回复。REA参与仅为设想，无兼容测试。"],
     "en": {
       "title": "BDCraft: an idea to study Blu-Disc Studio with Claude and REA for an open-source alternative",
-      "summary": "@caybymails asks whether Claude/REA could study Blu-Disc Studio Lite or UHD and produce an open-source alternative called BDCraft. No implementation is reported.",
-      "description": "At 22:58:14 Beijing time on November 27, 2026, @caybymails asks whether Claude and REA could reverse-engineer Blu-Disc Studio Lite or UHD to create an open-source alternative named BDCraft. The reference is Blu-ray disc-authoring software and the motivation is an open implementation. No scope for menu editing, encoding, disc images or playback compatibility is specified; a complete UHD-capable tool must not be inferred.\n\nThis is a question-form concrete idea. BDCraft is a proposed name, without a repository, research steps, model version, target revision, code or authored-disc tests. REA is proposed, not confirmed to have run. Open-source intent establishes neither permission to copy proprietary material nor compatibility. Retrieval confirmed the account and wording. The attached short link was not expanded, no target downloaded and no disc-authoring process run here.",
-      "metadata": ["Sealed November 27, 2026 snapshot: 0 likes, 23 views, 0 reposts, 0 replies. REA involvement is proposed only, without implementation or compatibility tests."],
-      "source_labels": ["@caybymails proposes the open-source BDCraft alternative, November 27, 2026 at 22:58:14 Beijing time"]
+      "summary": "@caybymails proposes BDCraft, an open-source Blu-Disc Studio alternative using Claude/REA. A new post names MX or UHD instead, still without implementation.",
+      "description": "At 22:58:14 Beijing time on November 27, 2026, @caybymails asks whether Claude and REA could study Blu-Disc Studio Lite or UHD to create an open-source alternative called BDCraft. At 02:01:59 on November 28, the same author again invites someone to take on the challenge, now explicitly naming MX or UHD. Both wordings are preserved: Lite is not silently corrected to MX, nor are they assumed to be the same edition. The reference is Blu-ray disc-authoring software and the motivation an open implementation. Neither post specifies menu editing, encoding, disc-image or playback-compatibility scope.\n\nThis remains a question-form idea. BDCraft is only a proposed name, without a repository, research steps, model version, target revision, code or authored-disc tests. REA is a proposed tool, not a confirmed invocation. A renewed proposal does not establish a started project or full UHD support. Open-source intent establishes neither copying permissions nor compatibility. Retrieval confirmed the new post's account and wording; images and short-link contents were not examined. No target was downloaded or disc-authoring process run here.",
+      "metadata": ["Old post, sealed November 27, 2026: 0 likes, 23 views, 0 reposts, 0 replies. New post, sealed November 28: 0 likes, 16 views, 1 repost, 0 replies. REA is proposed only; no compatibility tests."],
+      "source_labels": ["@caybymails proposes the open-source BDCraft alternative, November 27, 2026 at 22:58:14 Beijing time", "Same author's new proposal explicitly names MX or UHD, November 28, 2026 at 02:01:59 Beijing time; no implementation"]
     }
   },
   {
@@ -293,16 +437,16 @@
     "id": "adylovelace-project-fusion-filefault2-revoz-rea",
     "title": "Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC",
     "category": "apps", "rea": "REA", "status": "unverified",
-    "summary": "AdyLovelace称在macOS 27.3 AArch64上以REA、Ghidra和AI Agent研究Abyss／MysticalCore，产出FileFault 2 REVoz PoC；机制与验证未公开。",
-    "description": "2026年11月27日08:51:03（北京时间），Qυεεn Λδγ Lονεlαcε（@AdyLovelace）发布Project Fusion，称在macOS 27.3（AArch64）上研究Abyss与MysticalCore，得到FileFault 2 REVoz PoC。作者明确归因REA、Ghidra、AI Agents，以及借Craft Anything、Cláudio dos Códigos、ChatzinGePeTo开发的自定义本地分析流程。名称和系统版本按作者原文保留，不将这些昵称擅自对应商业模型，也不猜Abyss或MysticalCore的产品、组件或漏洞身份。\n\n可确认的是具名系统环境、研究代号、工具链和PoC产出的作者自述。原帖附图片且为引用帖，补取未提供被引正文，未读图片；未获得源码、样本、哈希、漏洞机制、权限条件、调用日志、成功标准或修复信息。因此不能将FileFault名称认定为FileVault绕过、解密成功、提权、已登记漏洞或真实设备上的独立复现，也不能说明PoC具体解决了哪种故障。按未核验的进行研究报告收录，保留背景缺口，不提供可执行攻击步骤。本合集未下载样本、执行PoC或操作系统保护。",
-    "sources": [{"label": "AdyLovelace的Project Fusion与REA／Ghidra归因，2026-11-27 08:51:03北京时间", "url": "https://x.com/i/status/2126116558028108138"}],
-    "snapshot_date": "2026-11-27", "metadata": ["封存1赞、53浏览、0转发、0回复；PoC名称不是功能、安全结论或成功证明。"],
+    "summary": "AdyLovelace补述FileFault 2 REVoz的FileVault背景、MacBook Air M5与Abyss／MysticalCore合并时间线，归因REA／Ghidra；不公开机制，未核验解密或绕过。",
+    "description": "2026年11月27日08:51:03（北京时间），Qυεεn Λδγ Lονεlαcε（@AdyLovelace）发布Project Fusion，称用REA、Ghidra、AI Agents研究Abyss与MysticalCore，在macOS 27.3 AArch64得到FileFault 2 REVoz PoC。旧帖还提到借Craft Anything、Cláudio dos Códigos、ChatzinGePeTo开发自定义本地分析流程；保留昵称，不擅自对应商业模型。\n\n11月28日00:57:11的新帖补足原先不明的FileVault 2背景。作者称2021年6月29日为Roland UA-25EX在macOS Big Sur上的兼容测试偶然发现方法，2025年9月2日在macOS 26 Tahoe x86-64测试中调整为阻止启用FileVault 2，11月4日分享给Universo Hackintosh以整合进EFI Base。又称2026年9月2日建MysticalCore，迁至自有MacBook Air M5 Midnight的macOS 27 Golden Gate AArch64环境，11月26日在27.3合并Abyss与MysticalCore为PoC。她将Abyss描述为造成KernelKit／KASAN fatal crash的阶段，明确不公开实现，材料限Kira's Lab内部研究与自有硬件。系统、组件和日期均为作者原文口径，不是本合集核实的系统发布史或机制。\n\n新帖确实明确提到FileVault，故不能继续将其背景写成完全未知；但“再次打破FileVault”的自述不等于成功解密、绕过已加密磁盘、提权或已登记漏洞。阻止启用加密和破解已有加密也不同。未得到源码、样本、哈希、权限条件、调用日志、成功标准或修复信息；未审图片、运行PoC、下载目标或改变系统保护。保留未核验报告，不提供可执行攻击步骤。",
+    "sources": [{"label": "AdyLovelace的Project Fusion与REA／Ghidra归因，2026-11-27 08:51:03北京时间", "url": "https://x.com/i/status/2126116558028108138"}, {"label": "同一作者补述FileVault背景、时间线和不公开计划，2026-11-28 00:57:11北京时间", "url": "https://x.com/i/status/2126359694402781459"}],
+    "snapshot_date": "2026-11-28", "metadata": ["旧帖2026-11-27封存1赞、53浏览、0转发、0回复；新帖2026-11-28封存0赞、44浏览、0转发、0回复。PoC名称与作者成功措辞均不是独立验证。"],
     "en": {
       "title": "Project Fusion: AdyLovelace reports REA/Ghidra research and a FileFault 2 REVoz PoC",
-      "summary": "AdyLovelace says REA, Ghidra and AI agents were used to study Abyss/MysticalCore on macOS 27.3 AArch64, resulting in a FileFault 2 REVoz PoC. Mechanism and validation are not supplied.",
-      "description": "At 08:51:03 Beijing time on November 27, 2026, Qυεεn Λδγ Lονεlαcε (@AdyLovelace) introduces Project Fusion, saying research on Abyss and MysticalCore on macOS 27.3 (AArch64) resulted in the FileFault 2 REVoz PoC. The author explicitly credits REA, Ghidra, AI Agents and custom local analysis workflows developed with Craft Anything, Cláudio dos Códigos and ChatzinGePeTo. Names and the system version are preserved as written, without mapping nicknames to commercial models or guessing the products, components or vulnerabilities behind Abyss/MysticalCore.\n\nWhat is available is the author's account of a named environment, research codenames, toolchain and PoC output. The post contains an image and quotes another post, whose body retrieval did not supply; the image was not inspected. Source code, samples, hashes, mechanism, privilege prerequisites, tool logs, success criteria and remediation details were not obtained. FileFault is therefore not identified as a FileVault bypass, successful decryption, privilege escalation, registered vulnerability or independently reproduced device result; the specific fault the PoC addresses remains unknown. Retained as an unverified research report with its context gaps explicit, without executable attack steps. This collection downloaded no samples, executed no PoC and changed no system protections.",
-      "metadata": ["Sealed snapshot: 1 like, 53 views, 0 reposts, 0 replies. A PoC name establishes neither functionality, a safety finding nor success."],
-      "source_labels": ["AdyLovelace's Project Fusion report and REA/Ghidra attribution, November 27, 2026 at 08:51:03 Beijing time"]
+      "summary": "AdyLovelace adds FileVault context, a MacBook Air M5 and the Abyss/MysticalCore merger timeline for FileFault 2 REVoz, crediting REA/Ghidra. Mechanisms remain private; decryption or bypass is unverified.",
+      "description": "At 08:51:03 Beijing time on November 27, 2026, Qυεεn Λδγ Lονεlαcε (@AdyLovelace) introduces Project Fusion, reporting REA, Ghidra and AI Agents research on Abyss and MysticalCore that produced FileFault 2 REVoz on macOS 27.3 AArch64. The earlier post also credits custom local analysis workflows developed with Craft Anything, Cláudio dos Códigos and ChatzinGePeTo. Nicknames are preserved without mapping them to commercial models.\n\nA new post at 00:57:11 on November 28 supplies the previously missing FileVault 2 context. The author says the method was discovered accidentally on June 29, 2021 while testing Roland UA-25EX compatibility on macOS Big Sur, adapted on September 2, 2025 to prevent FileVault 2 activation in macOS 26 Tahoe x86-64 tests, and shared with Universo Hackintosh on November 4 for EFI Base integration. MysticalCore was reportedly created on September 2, 2026, moved to macOS 27 Golden Gate AArch64 on the author's MacBook Air M5 Midnight, and merged with Abyss on November 26 in 27.3 to form the PoC. Abyss is described as the stage causing a KernelKit/KASAN fatal crash. Implementation will not be published: materials are for Kira's Lab internal research and the author's own hardware. System/component names and dates preserve the author's account, not independently checked release history or mechanism.\n\nThe new post explicitly names FileVault, so its context is no longer described as entirely unknown. However, the claim of breaking FileVault again does not establish successful decryption, bypassing an already encrypted disk, privilege escalation or a registered vulnerability. Preventing encryption activation differs from cracking existing encryption. Source code, samples, hashes, privilege requirements, tool logs, success criteria and remediation details were not obtained. Images were not examined, no PoC run, target downloaded or system protection changed. Retained as an unverified report without executable attack steps.",
+      "metadata": ["Old post, sealed November 27, 2026: 1 like, 53 views, 0 reposts, 0 replies. New post, sealed November 28: 0 likes, 44 views, 0 reposts, 0 replies. Neither a PoC name nor success wording is independent verification."],
+      "source_labels": ["AdyLovelace's Project Fusion report and REA/Ghidra attribution, November 27, 2026 at 08:51:03 Beijing time", "Same author adds FileVault context, timeline and a non-publication plan, November 28, 2026 at 00:57:11 Beijing time"]
     }
   },
   {

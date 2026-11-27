@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2915 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2924 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（568）
-- [硬件与设备互通](categories/hardware.md)（765）
-- [应用与客户端](categories/apps.md)（1211）
-- [算法与功能重建](categories/algorithms.md)（371）
+- [游戏与游戏保存](categories/games.md)（570）
+- [硬件与设备互通](categories/hardware.md)（767）
+- [应用与客户端](categories/apps.md)（1214）
+- [算法与功能重建](categories/algorithms.md)（373）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [想弄懂游戏渲染：Yote用Claude与Ghidra研究未具名游戏](cases/pneumatic-yote-claude-ghidra-game-rendering-study.md) — Yote称一直用Claude、Ghidra等工具研究一款游戏的渲染，目前没遇到拒绝；游戏与研究发现未公开。 **[其他 AI 逆向 · 进行中]**
+- [GTA6断网反编译：Shadow称使用Claude，也警告别把传闻当正式版](cases/shadowfr94-gta6-claude-offline-decompilation-report.md) — Shadow在GTA6 PC运行讨论下称用Claude、在断网PC上反编译，并批评代码质量；未给样本、过程或测试，不能确认恶意代码或硬件损坏。 **[其他 AI 逆向 · 待验证]**
 - [Halo Wars接Halo 3：AI辅助重写引擎、实现太空到地面战役的idea](cases/halo-wars-halo3-ai-orbit-to-ground-campaign-idea.md) — @outofwritings设想AI继续辅助反编译并重写引擎，把Halo Wars接入Halo 3，形成Battlefront 2式轨道到地面战役；没有实施。 **[其他 AI 逆向 · 待验证]**
 - [PortWatch VI：让Claude辅助读仓库与标记GTA VI移植宣称的追踪站](cases/portwatch-vi-claude-reverse-project-evidence-tracker.md) — Kaiku介绍GTA VI社区移植追踪站；固定文档描述Claude读README与提交、辅助筛候选和评分。它追踪逆向进展，不反编译游戏，分数和倒计时不是可玩性验证。 **[其他 AI 逆向 · 相关项目]**
 - [把GTA VI重写成Rust再开源：Jhoan给Claude／REA的愿望式idea](cases/jhoan-gta-vi-claude-rea-rust-rewrite-idea.md) — Jhoan H. Magno以命令式玩笑提出Claude用REA重写GTA VI为Rust并开源；没有报告已运行Agent、恢复源码或完成移植。 **[REA · 待验证]**
@@ -597,6 +599,8 @@
 
 ### 硬件与设备互通
 
+- [鼠标增加原厂没有的功能：danci的Agent逆向自述](cases/dncipnci-agent-mouse-oem-feature-extension.md) — danci称不熟悉逆向，但自己的Agent研究了鼠标并添加OEM固件没有的功能；未给型号、功能或实现。 **[其他 AI 逆向 · 待验证]**
+- [Fujifilm XF10固件改进尝试：Max Rozen称Claude拒读，Codex较愿推进](cases/maxrozen-fujifilm-xf10-claude-codex-firmware-attempt.md) — Max Rozen想改善自有XF10相机固件，称Claude不愿看文件，Codex较愿尝试；尚无固件分析结果、修改或刷写测试。 **[其他 AI 逆向 · 进行中]**
 - [Samsung Music Frame连不上：Parth Patil报告Neon经ADB追查信道与插件](cases/ppatil-samsung-music-frame-neon-adb-diagnostics.md) — Parth Patil称Neon／Antigravity分析手机BLE日志、对比Wi-Fi信道并修SmartThings数据，让新Music Frame连上5GHz和Q-Symphony；无独立复测。 **[其他 AI 逆向 · 待验证]**
 - [死机也写不出转储：@hov8a用Claude研究笔记本唤醒冻结](cases/claude-laptop-wake-freeze-missing-dump-investigation.md) — @hov8a称Claude读日志发现773次唤醒中31次冻结；BIOS升级与强制转储未解决，关闭相关链路节电后仍待100次唤醒观察。 **[其他 AI 逆向 · 进行中]**
 - [@adriandlam_的Kindle USB越狱：一则Claude辅助操作转述](cases/adriandlam-kindle-claude-usb-jailbreak-secondary-report.md) — 葡文回复转述@adriandlam_通过USB用Claude Code辅助越狱Kindle，称依固件而定；未取得原作者记录或确认Amazon功能保留。 **[其他 AI 逆向 · 待验证]**
@@ -1365,17 +1369,20 @@
 
 ### 应用与客户端
 
+- [Softimage保存尝试：Packing Protons称REA接Claude仍遭拒绝](cases/packingprotons-softimage-rea-refusal-attempt.md) — Packing Protons想用REA重建Softimage，称接入Claude等工具后都不肯继续；是受阻的具体软件保存尝试，不是已完成克隆。 **[REA · 进行中]**
+- [Composio增长研究：投篮选公司，再让Agent反推获客路径](cases/composio-gtm-startup-basketball-growth-research.md) — Thomas Trimoreau介绍Composio以篮球界面选100家YC公司，结合流量、搜索和X信号交Agent研究增长；0.20美元为宣传口径，非本合集实测。 **[其他 AI 逆向 · 相关项目]**
+- [误删n8n节点后：Paul Olusola用Agentday快照重建分支规则](cases/agentday-n8n-switch-node-memory-reconstruction.md) — Paul Olusola称从Agentday系统记忆快照在AI聊天中恢复28节点流程里误删的Switch及路由，报告20秒；无前后JSON或流程测试。 **[其他 AI 逆向 · 待验证]**
 - [码良研究Claude Code：跨栈修改后让Gemini与GPT交叉审查](cases/cxjwin-claude-code-reverse-multimodel-review.md) — 码良称研究最新版Claude Code并修改代码，再用Gemini两轮、GPT一轮审查发现问题；没有公开实现或完成验证。 **[其他 AI 逆向 · 进行中]**
 - [信息流跑了一小时：Aron厚玉的AI逆向尝试尚未出结果](cases/aronhouyu-ai-feed-reconstruction-in-progress.md) — Aron厚玉称让AI逆向一条信息流，运行一小时后仍在等待，也承认自己不清楚具体细节；没有结果或平台归属。 **[其他 AI 逆向 · 进行中]**
 - [小红书封面到分层PSD：@fksmrsk称GPT两条提示词完成反推](cases/gpt-xiaohongshu-cover-layered-psd-reconstruction.md) — @fksmrsk称GPT两条提示词还原小红书热门封面的字体与PSD分层，一次成型；未取得PSD、提示词或视觉对照。 **[其他 AI 逆向 · 待验证]**
 - [熊猫烧香到肥鱼烧香桌宠：一则AI逆向重制的二手介绍](cases/panda-incense-ai-fatfish-desktop-pet-secondary-report.md) — @ppmmzzcn转帖标题称用AI研究熊猫烧香并做肥鱼烧香桌宠；未给原作者、分析过程或安全验证，不证明恢复病毒逻辑。 **[其他 AI 逆向 · 待验证]**
-- [BDCraft：用Claude与REA研究Blu-Disc Studio的开源替代idea](cases/bdcraft-blu-disc-studio-claude-rea-alternative-idea.md) — @caybymails询问能否用Claude／REA研究Blu-Disc Studio Lite或UHD，做名为BDCraft的开源替代；没有实现。 **[REA · 待验证]**
+- [BDCraft：用Claude与REA研究Blu-Disc Studio的开源替代idea](cases/bdcraft-blu-disc-studio-claude-rea-alternative-idea.md) — @caybymails提议用Claude／REA做Blu-Disc Studio的开源替代BDCraft；新帖改写目标为MX或UHD，仍无实现。 **[REA · 待验证]**
 - [CleanMyMac研究被拒：@L1muff0追问REA或Craft Anything是否必要](cases/l1muff0-cleanmymac-claude-proprietary-code-refusal.md) — @L1muff0称尝试同类CleanMyMac研究时，Claude以专有代码为由拒绝，因而询问别人用了什么skill；未确认使用REA。 **[其他 AI 逆向 · 待验证]**
 - [Reloc的iOS定位实现：Jan建议让Agent审视源码](cases/jan-reloc-ios-location-agent-source-review-idea.md) — Jan介绍Reloc的回环连接、后台保活与坐标扰动，并建议让Agent审视源码；这是具体源码研究idea，不是AI开发归因或定位绕过实测。 **[未确认使用 REA · 待验证]**
 - [诊所开票接入AI：momo称花一周研究现有发票软件](cases/momo-clinic-invoice-software-ai-integration-report.md) — momo称已花一周逆向诊所的开票软件，背景是诊所想让AI也开票；没有明确AI承担逆向步骤或已完成接入与账务验证。 **[未确认使用 REA · 进行中]**
 - [rev-skills：把逆向工作流整理成可供八种AI工具使用的技能库](cases/rev-skills-cross-tool-reverse-engineering-library.md) — 大卫介绍rev-skills；补读固定README确认入口分流、技能导航和八种工具适配说明。122项是文档口径，不是122个已成功逆向目标，未安装或执行。 **[其他 AI 逆向 · 相关项目]**
 - [只研究自己用的QuickBooks功能：Phil推荐AI skill的idea](cases/phil-quickbooks-used-features-ai-skill-idea.md) — Phil建议用一个skill逆向QuickBooks中实际使用的部分；是有具体软件目标的功能研究idea，没有报告已开发替代品。 **[其他 AI 逆向 · 待验证]**
-- [Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC](cases/adylovelace-project-fusion-filefault2-revoz-rea.md) — AdyLovelace称在macOS 27.3 AArch64上以REA、Ghidra和AI Agent研究Abyss／MysticalCore，产出FileFault 2 REVoz PoC；机制与验证未公开。 **[REA · 待验证]**
+- [Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC](cases/adylovelace-project-fusion-filefault2-revoz-rea.md) — AdyLovelace补述FileFault 2 REVoz的FileVault背景、MacBook Air M5与Abyss／MysticalCore合并时间线，归因REA／Ghidra；不公开机制，未核验解密或绕过。 **[REA · 待验证]**
 - [先写无品牌规格，Claude仍要看原App：Annie的Mac GUI重建尝试](cases/annie-mac-gui-reconstruction-claude-spec-plan.md) — Annie称人工研究闭源Mac应用GUI并写成不提原App的规格，交给Claude后模型仍计划对照真实应用；尚无实现或效果报告。 **[其他 AI 逆向 · 进行中]**
 - [T3 Code隐私审计idea：嗯哌AI给Agent的只读源码检查清单](cases/npieai-t3code-readonly-privacy-audit-prompt.md) — 嗯哌AI提供T3 Code源码审计prompt，要求逐行追踪遥测、身份读取、外联、更新与依赖，并另做运行时观察；不是已完成的隐私审计报告。 **[其他 AI 逆向 · 待验证]**
 - [号称可玩GTA6的g6m发布：RealLuaCat称Codex／REA发现安全异常](cases/realluacat-g6m-gta6-build-codex-rea-safety-check.md) — RealLuaCat在警告g6m的GTA6 PC发布后称Codex调用REA发现不少red flags；无样本哈希、分析细节或日志，不能认证恶意软件或可玩性。 **[REA · 待验证]**
@@ -2579,6 +2586,8 @@
 
 ### 算法与功能重建
 
+- [Pocket增长拆解：Ethan用Composio查多API，再生成HTML轮播](cases/ethan-composio-pocket-growth-playbook-analysis.md) — Ethan Walkrman称Agent借Composio Instant查15余付费API，以约0.20美元研究Pocket流量、广告和搜索，再转为HTML幻灯；指标未独立核实。 **[其他 AI 逆向 · 待验证]**
+- [Hyper AI增长研究：Haris报告Composio与Agent跑出playbook](cases/haris-composio-hyper-ai-growth-playbook.md) — Haris称用Composio投篮界面取Hyper AI数据，再让Agent重建增长playbook，花0.153美元；未公开具体结论或账单。 **[其他 AI 逆向 · 待验证]**
 - [真机视频反推具身环境：Techub_News介绍的AI机器人训练方向](cases/techub-ai-real-robot-video-environment-reconstruction.md) — Techub_News称AI可从真实机器人视频反推并生成万套训练环境；只取得简短介绍，没有项目、论文或规模验证。 **[其他 AI 逆向 · 待验证]**
 - [不用加密壳而改函数名：Clark Kent的AI拒答防分析idea](cases/clark-kent-function-name-keywords-anti-ai-analysis-idea.md) — Clark Kent提出将函数名改成违禁词，企图让AI逆向时拒答或触发封号；没有实现、模型对照或封号证据，不能视为有效代码保护。 **[其他 AI 逆向 · 待验证]**
 - [Real2SimLab：把视频反推仿真程序交回原基准评分器的统一评测平台](cases/real2simlab-agent-simulation-benchmark-pipeline.md) — Zefan Cai介绍Real2SimLab统一Agent生成仿真的运行、原评分器评测和训练标注；公开README解释冻结程序、离线重跑与去重边界，规模不是准确率。 **[其他 AI 逆向 · 分析测试]**

@@ -2,17 +2,20 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Softimage保存尝试：Packing Protons称REA接Claude仍遭拒绝](../cases/packingprotons-softimage-rea-refusal-attempt.md) — Packing Protons想用REA重建Softimage，称接入Claude等工具后都不肯继续；是受阻的具体软件保存尝试，不是已完成克隆。 **[REA · 进行中]**
+- [Composio增长研究：投篮选公司，再让Agent反推获客路径](../cases/composio-gtm-startup-basketball-growth-research.md) — Thomas Trimoreau介绍Composio以篮球界面选100家YC公司，结合流量、搜索和X信号交Agent研究增长；0.20美元为宣传口径，非本合集实测。 **[其他 AI 逆向 · 相关项目]**
+- [误删n8n节点后：Paul Olusola用Agentday快照重建分支规则](../cases/agentday-n8n-switch-node-memory-reconstruction.md) — Paul Olusola称从Agentday系统记忆快照在AI聊天中恢复28节点流程里误删的Switch及路由，报告20秒；无前后JSON或流程测试。 **[其他 AI 逆向 · 待验证]**
 - [码良研究Claude Code：跨栈修改后让Gemini与GPT交叉审查](../cases/cxjwin-claude-code-reverse-multimodel-review.md) — 码良称研究最新版Claude Code并修改代码，再用Gemini两轮、GPT一轮审查发现问题；没有公开实现或完成验证。 **[其他 AI 逆向 · 进行中]**
 - [信息流跑了一小时：Aron厚玉的AI逆向尝试尚未出结果](../cases/aronhouyu-ai-feed-reconstruction-in-progress.md) — Aron厚玉称让AI逆向一条信息流，运行一小时后仍在等待，也承认自己不清楚具体细节；没有结果或平台归属。 **[其他 AI 逆向 · 进行中]**
 - [小红书封面到分层PSD：@fksmrsk称GPT两条提示词完成反推](../cases/gpt-xiaohongshu-cover-layered-psd-reconstruction.md) — @fksmrsk称GPT两条提示词还原小红书热门封面的字体与PSD分层，一次成型；未取得PSD、提示词或视觉对照。 **[其他 AI 逆向 · 待验证]**
 - [熊猫烧香到肥鱼烧香桌宠：一则AI逆向重制的二手介绍](../cases/panda-incense-ai-fatfish-desktop-pet-secondary-report.md) — @ppmmzzcn转帖标题称用AI研究熊猫烧香并做肥鱼烧香桌宠；未给原作者、分析过程或安全验证，不证明恢复病毒逻辑。 **[其他 AI 逆向 · 待验证]**
-- [BDCraft：用Claude与REA研究Blu-Disc Studio的开源替代idea](../cases/bdcraft-blu-disc-studio-claude-rea-alternative-idea.md) — @caybymails询问能否用Claude／REA研究Blu-Disc Studio Lite或UHD，做名为BDCraft的开源替代；没有实现。 **[REA · 待验证]**
+- [BDCraft：用Claude与REA研究Blu-Disc Studio的开源替代idea](../cases/bdcraft-blu-disc-studio-claude-rea-alternative-idea.md) — @caybymails提议用Claude／REA做Blu-Disc Studio的开源替代BDCraft；新帖改写目标为MX或UHD，仍无实现。 **[REA · 待验证]**
 - [CleanMyMac研究被拒：@L1muff0追问REA或Craft Anything是否必要](../cases/l1muff0-cleanmymac-claude-proprietary-code-refusal.md) — @L1muff0称尝试同类CleanMyMac研究时，Claude以专有代码为由拒绝，因而询问别人用了什么skill；未确认使用REA。 **[其他 AI 逆向 · 待验证]**
 - [Reloc的iOS定位实现：Jan建议让Agent审视源码](../cases/jan-reloc-ios-location-agent-source-review-idea.md) — Jan介绍Reloc的回环连接、后台保活与坐标扰动，并建议让Agent审视源码；这是具体源码研究idea，不是AI开发归因或定位绕过实测。 **[未确认使用 REA · 待验证]**
 - [诊所开票接入AI：momo称花一周研究现有发票软件](../cases/momo-clinic-invoice-software-ai-integration-report.md) — momo称已花一周逆向诊所的开票软件，背景是诊所想让AI也开票；没有明确AI承担逆向步骤或已完成接入与账务验证。 **[未确认使用 REA · 进行中]**
 - [rev-skills：把逆向工作流整理成可供八种AI工具使用的技能库](../cases/rev-skills-cross-tool-reverse-engineering-library.md) — 大卫介绍rev-skills；补读固定README确认入口分流、技能导航和八种工具适配说明。122项是文档口径，不是122个已成功逆向目标，未安装或执行。 **[其他 AI 逆向 · 相关项目]**
 - [只研究自己用的QuickBooks功能：Phil推荐AI skill的idea](../cases/phil-quickbooks-used-features-ai-skill-idea.md) — Phil建议用一个skill逆向QuickBooks中实际使用的部分；是有具体软件目标的功能研究idea，没有报告已开发替代品。 **[其他 AI 逆向 · 待验证]**
-- [Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC](../cases/adylovelace-project-fusion-filefault2-revoz-rea.md) — AdyLovelace称在macOS 27.3 AArch64上以REA、Ghidra和AI Agent研究Abyss／MysticalCore，产出FileFault 2 REVoz PoC；机制与验证未公开。 **[REA · 待验证]**
+- [Project Fusion：AdyLovelace报告REA／Ghidra研究与FileFault 2 REVoz PoC](../cases/adylovelace-project-fusion-filefault2-revoz-rea.md) — AdyLovelace补述FileFault 2 REVoz的FileVault背景、MacBook Air M5与Abyss／MysticalCore合并时间线，归因REA／Ghidra；不公开机制，未核验解密或绕过。 **[REA · 待验证]**
 - [先写无品牌规格，Claude仍要看原App：Annie的Mac GUI重建尝试](../cases/annie-mac-gui-reconstruction-claude-spec-plan.md) — Annie称人工研究闭源Mac应用GUI并写成不提原App的规格，交给Claude后模型仍计划对照真实应用；尚无实现或效果报告。 **[其他 AI 逆向 · 进行中]**
 - [T3 Code隐私审计idea：嗯哌AI给Agent的只读源码检查清单](../cases/npieai-t3code-readonly-privacy-audit-prompt.md) — 嗯哌AI提供T3 Code源码审计prompt，要求逐行追踪遥测、身份读取、外联、更新与依赖，并另做运行时观察；不是已完成的隐私审计报告。 **[其他 AI 逆向 · 待验证]**
 - [号称可玩GTA6的g6m发布：RealLuaCat称Codex／REA发现安全异常](../cases/realluacat-g6m-gta6-build-codex-rea-safety-check.md) — RealLuaCat在警告g6m的GTA6 PC发布后称Codex调用REA发现不少red flags；无样本哈希、分析细节或日志，不能认证恶意软件或可玩性。 **[REA · 待验证]**

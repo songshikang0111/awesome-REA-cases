@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [鼠标增加原厂没有的功能：danci的Agent逆向自述](../cases/dncipnci-agent-mouse-oem-feature-extension.md) — danci称不熟悉逆向，但自己的Agent研究了鼠标并添加OEM固件没有的功能；未给型号、功能或实现。 **[其他 AI 逆向 · 待验证]**
+- [Fujifilm XF10固件改进尝试：Max Rozen称Claude拒读，Codex较愿推进](../cases/maxrozen-fujifilm-xf10-claude-codex-firmware-attempt.md) — Max Rozen想改善自有XF10相机固件，称Claude不愿看文件，Codex较愿尝试；尚无固件分析结果、修改或刷写测试。 **[其他 AI 逆向 · 进行中]**
 - [Samsung Music Frame连不上：Parth Patil报告Neon经ADB追查信道与插件](../cases/ppatil-samsung-music-frame-neon-adb-diagnostics.md) — Parth Patil称Neon／Antigravity分析手机BLE日志、对比Wi-Fi信道并修SmartThings数据，让新Music Frame连上5GHz和Q-Symphony；无独立复测。 **[其他 AI 逆向 · 待验证]**
 - [死机也写不出转储：@hov8a用Claude研究笔记本唤醒冻结](../cases/claude-laptop-wake-freeze-missing-dump-investigation.md) — @hov8a称Claude读日志发现773次唤醒中31次冻结；BIOS升级与强制转储未解决，关闭相关链路节电后仍待100次唤醒观察。 **[其他 AI 逆向 · 进行中]**
 - [@adriandlam_的Kindle USB越狱：一则Claude辅助操作转述](../cases/adriandlam-kindle-claude-usb-jailbreak-secondary-report.md) — 葡文回复转述@adriandlam_通过USB用Claude Code辅助越狱Kindle，称依固件而定；未取得原作者记录或确认Amazon功能保留。 **[其他 AI 逆向 · 待验证]**
