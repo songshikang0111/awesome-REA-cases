@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Samsung Music Frame连不上：Parth Patil报告Neon经ADB追查信道与插件](../cases/ppatil-samsung-music-frame-neon-adb-diagnostics.md) — Parth Patil称Neon／Antigravity分析手机BLE日志、对比Wi-Fi信道并修SmartThings数据，让新Music Frame连上5GHz和Q-Symphony；无独立复测。 **[其他 AI 逆向 · 待验证]**
+- [死机也写不出转储：@hov8a用Claude研究笔记本唤醒冻结](../cases/claude-laptop-wake-freeze-missing-dump-investigation.md) — @hov8a称Claude读日志发现773次唤醒中31次冻结；BIOS升级与强制转储未解决，关闭相关链路节电后仍待100次唤醒观察。 **[其他 AI 逆向 · 进行中]**
+- [@adriandlam_的Kindle USB越狱：一则Claude辅助操作转述](../cases/adriandlam-kindle-claude-usb-jailbreak-secondary-report.md) — 葡文回复转述@adriandlam_通过USB用Claude Code辅助越狱Kindle，称依固件而定；未取得原作者记录或确认Amazon功能保留。 **[其他 AI 逆向 · 待验证]**
 - [百年车床换齿机构：LinkBelt报告AI对机械结构的解释失真](../cases/linkbelt-antique-lathe-change-gear-ai-failure.md) — LinkBelt称请AI解释百年金属车床的换齿机构却得到不符实物的齿轮传动理解，附两张比较图；未说明型号、模型或具体齿比。 **[其他 AI 逆向 · 分析测试]**
 - [给Chromatic接相机：Kenta IDA称Claude辅助转换板、FPGA与GBC软件](../cases/ciniml-chromatic-fpga-camera-claude-project.md) — Kenta IDA介绍Chromatic连接TangPrimer25K和Pcam5C的拍摄项目，称转换板、外壳、FPGA与GBC软件交给Claude完成；未审代码或硬件验证。 **[其他 AI 逆向 · 相关项目]**
 - [Brother激光打印机掉线：Matt Kelch用Gemini Neon继续固件研究](../cases/matt-kelch-brother-laser-lan-firmware-ai-debugging.md) — Matt研究约20年旧Brother打印机一段时间后离开LAN的问题，称Opus 5.5与Sol 6.2反复触发安全过滤，Gemini 4 Neon暂未触发；没有修复结论。 **[其他 AI 逆向 · 进行中]**
@@ -19,7 +22,7 @@
 - [开放自有NPU与Ghidra日志：Mukshud的Claude研究回顾宣称](../cases/mukshud-claude-npu-ghidra-research-claim.md) — Mukshud称Claude帮助检查自有代码、曾打开NPU并分享Ghidra日志，后改用Mythos 5.2；没有型号、仓库或漏洞细节。 **[其他 AI 逆向 · 待验证]**
 - [自有Reolink固件：0xca0a称本地模型群找到问题，但尚无RCE](../cases/0xca0a-reolink-local-model-swarm-firmware-research.md) — 0xca0a因不满固件限制，转用本地模型群研究自有Reolink设备；自报数个漏洞但尚无远程代码执行，未给型号或测试。 **[其他 AI 逆向 · 进行中]**
 - [SafePal被改固件与额外芯片？leopardracer的Claude调查宣称](../cases/leopardracer-safepal-claude-firmware-chain-investigation-claim.md) — leopardracer称Claude Code追查钱包转账、比对固件并发现供应链篡改；没有地址、哈希、芯片鉴定或日志，不确认事件及其归因。 **[其他 AI 逆向 · 待验证]**
-- [卡顿竟跟RGB同步：51972用AI研究技嘉GCC的二手报告](../cases/51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation.md) — UNIKO's Hardware转述51972逆向技嘉GCC，称RGB MCU通信与Nvidia驱动595.71渲染修复争用；没有原代码、时间线或性能复测。 **[其他 AI 逆向 · 待验证]**
+- [卡顿竟跟RGB同步：51972用AI研究技嘉GCC的二手报告](../cases/51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation.md) — UNIKO's Hardware转述51972用AI研究GCC的RGB通信争用，Pirat_Nation随后扩大传播；仍无原代码、帧时间复测或厂商修复／人事确认。 **[其他 AI 逆向 · 待验证]**
 - [PS5 14.00至14.23：Yemeni hacker称AI辅助研究仍在私测](../cases/yemeni-hacker-ps5-1400-1423-ai-private-research-claim.md) — Yemeni hacker称用户态入口稳定、内核交互部分成功，最终链仍在拼接且不公开；只有作者进度宣称，不是确认可用越狱。 **[其他 AI 逆向 · 进行中]**
 - [Fire TV固件研究：The Web Talk Show转述有人用AI逆向](../cases/web-talk-show-fire-tv-ai-firmware-reversing-report.md) — The Web Talk Show播客宣传称有人用AI逆向Fire TV固件；没有研究者姓名、设备代际、技术方法或改造成果。 **[其他 AI 逆向 · 待验证]**
 - [六针引脚没认出来：risent用GPT与万用表研究旧小电器元件](../cases/risent-gpt-small-appliance-six-pin-reuse-failed-study.md) — risent想把停业品牌小电器拆出的元件接到现有主板做新样机，借GPT、嵌入式同学和万用表研究6PIN功能，一晚仍未弄明白。 **[其他 AI 逆向 · 进行中]**

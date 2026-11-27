@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2904 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2915 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（567）
-- [硬件与设备互通](categories/hardware.md)（762）
-- [应用与客户端](categories/apps.md)（1205）
-- [算法与功能重建](categories/algorithms.md)（370）
+- [游戏与游戏保存](categories/games.md)（568）
+- [硬件与设备互通](categories/hardware.md)（765）
+- [应用与客户端](categories/apps.md)（1211）
+- [算法与功能重建](categories/algorithms.md)（371）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [Halo Wars接Halo 3：AI辅助重写引擎、实现太空到地面战役的idea](cases/halo-wars-halo3-ai-orbit-to-ground-campaign-idea.md) — @outofwritings设想AI继续辅助反编译并重写引擎，把Halo Wars接入Halo 3，形成Battlefront 2式轨道到地面战役；没有实施。 **[其他 AI 逆向 · 待验证]**
 - [PortWatch VI：让Claude辅助读仓库与标记GTA VI移植宣称的追踪站](cases/portwatch-vi-claude-reverse-project-evidence-tracker.md) — Kaiku介绍GTA VI社区移植追踪站；固定文档描述Claude读README与提交、辅助筛候选和评分。它追踪逆向进展，不反编译游戏，分数和倒计时不是可玩性验证。 **[其他 AI 逆向 · 相关项目]**
 - [把GTA VI重写成Rust再开源：Jhoan给Claude／REA的愿望式idea](cases/jhoan-gta-vi-claude-rea-rust-rewrite-idea.md) — Jhoan H. Magno以命令式玩笑提出Claude用REA重写GTA VI为Rust并开源；没有报告已运行Agent、恢复源码或完成移植。 **[REA · 待验证]**
 - [SF2X Online：ESPARTACO披露AI辅助反编译，推出Windows对战beta](cases/sf2x-online-espartaco-ai-assisted-decompilation-beta.md) — Gisleno ESPARTACO称SF2X Online基于其AI辅助反编译，发布免费Windows beta，介绍回滚网络与TURBO 3；多人模式及训练功能须区分目标与验收。 **[其他 AI 逆向 · 进行中]**
@@ -596,6 +597,9 @@
 
 ### 硬件与设备互通
 
+- [Samsung Music Frame连不上：Parth Patil报告Neon经ADB追查信道与插件](cases/ppatil-samsung-music-frame-neon-adb-diagnostics.md) — Parth Patil称Neon／Antigravity分析手机BLE日志、对比Wi-Fi信道并修SmartThings数据，让新Music Frame连上5GHz和Q-Symphony；无独立复测。 **[其他 AI 逆向 · 待验证]**
+- [死机也写不出转储：@hov8a用Claude研究笔记本唤醒冻结](cases/claude-laptop-wake-freeze-missing-dump-investigation.md) — @hov8a称Claude读日志发现773次唤醒中31次冻结；BIOS升级与强制转储未解决，关闭相关链路节电后仍待100次唤醒观察。 **[其他 AI 逆向 · 进行中]**
+- [@adriandlam_的Kindle USB越狱：一则Claude辅助操作转述](cases/adriandlam-kindle-claude-usb-jailbreak-secondary-report.md) — 葡文回复转述@adriandlam_通过USB用Claude Code辅助越狱Kindle，称依固件而定；未取得原作者记录或确认Amazon功能保留。 **[其他 AI 逆向 · 待验证]**
 - [百年车床换齿机构：LinkBelt报告AI对机械结构的解释失真](cases/linkbelt-antique-lathe-change-gear-ai-failure.md) — LinkBelt称请AI解释百年金属车床的换齿机构却得到不符实物的齿轮传动理解，附两张比较图；未说明型号、模型或具体齿比。 **[其他 AI 逆向 · 分析测试]**
 - [给Chromatic接相机：Kenta IDA称Claude辅助转换板、FPGA与GBC软件](cases/ciniml-chromatic-fpga-camera-claude-project.md) — Kenta IDA介绍Chromatic连接TangPrimer25K和Pcam5C的拍摄项目，称转换板、外壳、FPGA与GBC软件交给Claude完成；未审代码或硬件验证。 **[其他 AI 逆向 · 相关项目]**
 - [Brother激光打印机掉线：Matt Kelch用Gemini Neon继续固件研究](cases/matt-kelch-brother-laser-lan-firmware-ai-debugging.md) — Matt研究约20年旧Brother打印机一段时间后离开LAN的问题，称Opus 5.5与Sol 6.2反复触发安全过滤，Gemini 4 Neon暂未触发；没有修复结论。 **[其他 AI 逆向 · 进行中]**
@@ -613,7 +617,7 @@
 - [开放自有NPU与Ghidra日志：Mukshud的Claude研究回顾宣称](cases/mukshud-claude-npu-ghidra-research-claim.md) — Mukshud称Claude帮助检查自有代码、曾打开NPU并分享Ghidra日志，后改用Mythos 5.2；没有型号、仓库或漏洞细节。 **[其他 AI 逆向 · 待验证]**
 - [自有Reolink固件：0xca0a称本地模型群找到问题，但尚无RCE](cases/0xca0a-reolink-local-model-swarm-firmware-research.md) — 0xca0a因不满固件限制，转用本地模型群研究自有Reolink设备；自报数个漏洞但尚无远程代码执行，未给型号或测试。 **[其他 AI 逆向 · 进行中]**
 - [SafePal被改固件与额外芯片？leopardracer的Claude调查宣称](cases/leopardracer-safepal-claude-firmware-chain-investigation-claim.md) — leopardracer称Claude Code追查钱包转账、比对固件并发现供应链篡改；没有地址、哈希、芯片鉴定或日志，不确认事件及其归因。 **[其他 AI 逆向 · 待验证]**
-- [卡顿竟跟RGB同步：51972用AI研究技嘉GCC的二手报告](cases/51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation.md) — UNIKO's Hardware转述51972逆向技嘉GCC，称RGB MCU通信与Nvidia驱动595.71渲染修复争用；没有原代码、时间线或性能复测。 **[其他 AI 逆向 · 待验证]**
+- [卡顿竟跟RGB同步：51972用AI研究技嘉GCC的二手报告](cases/51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation.md) — UNIKO's Hardware转述51972用AI研究GCC的RGB通信争用，Pirat_Nation随后扩大传播；仍无原代码、帧时间复测或厂商修复／人事确认。 **[其他 AI 逆向 · 待验证]**
 - [PS5 14.00至14.23：Yemeni hacker称AI辅助研究仍在私测](cases/yemeni-hacker-ps5-1400-1423-ai-private-research-claim.md) — Yemeni hacker称用户态入口稳定、内核交互部分成功，最终链仍在拼接且不公开；只有作者进度宣称，不是确认可用越狱。 **[其他 AI 逆向 · 进行中]**
 - [Fire TV固件研究：The Web Talk Show转述有人用AI逆向](cases/web-talk-show-fire-tv-ai-firmware-reversing-report.md) — The Web Talk Show播客宣传称有人用AI逆向Fire TV固件；没有研究者姓名、设备代际、技术方法或改造成果。 **[其他 AI 逆向 · 待验证]**
 - [六针引脚没认出来：risent用GPT与万用表研究旧小电器元件](cases/risent-gpt-small-appliance-six-pin-reuse-failed-study.md) — risent想把停业品牌小电器拆出的元件接到现有主板做新样机，借GPT、嵌入式同学和万用表研究6PIN功能，一晚仍未弄明白。 **[其他 AI 逆向 · 进行中]**
@@ -1361,6 +1365,12 @@
 
 ### 应用与客户端
 
+- [码良研究Claude Code：跨栈修改后让Gemini与GPT交叉审查](cases/cxjwin-claude-code-reverse-multimodel-review.md) — 码良称研究最新版Claude Code并修改代码，再用Gemini两轮、GPT一轮审查发现问题；没有公开实现或完成验证。 **[其他 AI 逆向 · 进行中]**
+- [信息流跑了一小时：Aron厚玉的AI逆向尝试尚未出结果](cases/aronhouyu-ai-feed-reconstruction-in-progress.md) — Aron厚玉称让AI逆向一条信息流，运行一小时后仍在等待，也承认自己不清楚具体细节；没有结果或平台归属。 **[其他 AI 逆向 · 进行中]**
+- [小红书封面到分层PSD：@fksmrsk称GPT两条提示词完成反推](cases/gpt-xiaohongshu-cover-layered-psd-reconstruction.md) — @fksmrsk称GPT两条提示词还原小红书热门封面的字体与PSD分层，一次成型；未取得PSD、提示词或视觉对照。 **[其他 AI 逆向 · 待验证]**
+- [熊猫烧香到肥鱼烧香桌宠：一则AI逆向重制的二手介绍](cases/panda-incense-ai-fatfish-desktop-pet-secondary-report.md) — @ppmmzzcn转帖标题称用AI研究熊猫烧香并做肥鱼烧香桌宠；未给原作者、分析过程或安全验证，不证明恢复病毒逻辑。 **[其他 AI 逆向 · 待验证]**
+- [BDCraft：用Claude与REA研究Blu-Disc Studio的开源替代idea](cases/bdcraft-blu-disc-studio-claude-rea-alternative-idea.md) — @caybymails询问能否用Claude／REA研究Blu-Disc Studio Lite或UHD，做名为BDCraft的开源替代；没有实现。 **[REA · 待验证]**
+- [CleanMyMac研究被拒：@L1muff0追问REA或Craft Anything是否必要](cases/l1muff0-cleanmymac-claude-proprietary-code-refusal.md) — @L1muff0称尝试同类CleanMyMac研究时，Claude以专有代码为由拒绝，因而询问别人用了什么skill；未确认使用REA。 **[其他 AI 逆向 · 待验证]**
 - [Reloc的iOS定位实现：Jan建议让Agent审视源码](cases/jan-reloc-ios-location-agent-source-review-idea.md) — Jan介绍Reloc的回环连接、后台保活与坐标扰动，并建议让Agent审视源码；这是具体源码研究idea，不是AI开发归因或定位绕过实测。 **[未确认使用 REA · 待验证]**
 - [诊所开票接入AI：momo称花一周研究现有发票软件](cases/momo-clinic-invoice-software-ai-integration-report.md) — momo称已花一周逆向诊所的开票软件，背景是诊所想让AI也开票；没有明确AI承担逆向步骤或已完成接入与账务验证。 **[未确认使用 REA · 进行中]**
 - [rev-skills：把逆向工作流整理成可供八种AI工具使用的技能库](cases/rev-skills-cross-tool-reverse-engineering-library.md) — 大卫介绍rev-skills；补读固定README确认入口分流、技能导航和八种工具适配说明。122项是文档口径，不是122个已成功逆向目标，未安装或执行。 **[其他 AI 逆向 · 相关项目]**
@@ -2569,6 +2579,7 @@
 
 ### 算法与功能重建
 
+- [真机视频反推具身环境：Techub_News介绍的AI机器人训练方向](cases/techub-ai-real-robot-video-environment-reconstruction.md) — Techub_News称AI可从真实机器人视频反推并生成万套训练环境；只取得简短介绍，没有项目、论文或规模验证。 **[其他 AI 逆向 · 待验证]**
 - [不用加密壳而改函数名：Clark Kent的AI拒答防分析idea](cases/clark-kent-function-name-keywords-anti-ai-analysis-idea.md) — Clark Kent提出将函数名改成违禁词，企图让AI逆向时拒答或触发封号；没有实现、模型对照或封号证据，不能视为有效代码保护。 **[其他 AI 逆向 · 待验证]**
 - [Real2SimLab：把视频反推仿真程序交回原基准评分器的统一评测平台](cases/real2simlab-agent-simulation-benchmark-pipeline.md) — Zefan Cai介绍Real2SimLab统一Agent生成仿真的运行、原评分器评测和训练标注；公开README解释冻结程序、离线重跑与去重边界，规模不是准确率。 **[其他 AI 逆向 · 分析测试]**
 - [13场景、43节拍：Miles李用rea-video拆解Opus动画PPT的声画与按键](cases/miles-rea-video-animated-ppt-thirteen-scenes.md) — Miles李称用rea-video研究一套Claude Opus5.6动画PPT，拆成13场景、43节拍并整理中文资料；还原步骤与交互尚未复核，不等于已重建幻灯片软件。 **[REA · 分析测试]**

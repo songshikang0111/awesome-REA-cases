@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [真机视频反推具身环境：Techub_News介绍的AI机器人训练方向](../cases/techub-ai-real-robot-video-environment-reconstruction.md) — Techub_News称AI可从真实机器人视频反推并生成万套训练环境；只取得简短介绍，没有项目、论文或规模验证。 **[其他 AI 逆向 · 待验证]**
 - [不用加密壳而改函数名：Clark Kent的AI拒答防分析idea](../cases/clark-kent-function-name-keywords-anti-ai-analysis-idea.md) — Clark Kent提出将函数名改成违禁词，企图让AI逆向时拒答或触发封号；没有实现、模型对照或封号证据，不能视为有效代码保护。 **[其他 AI 逆向 · 待验证]**
 - [Real2SimLab：把视频反推仿真程序交回原基准评分器的统一评测平台](../cases/real2simlab-agent-simulation-benchmark-pipeline.md) — Zefan Cai介绍Real2SimLab统一Agent生成仿真的运行、原评分器评测和训练标注；公开README解释冻结程序、离线重跑与去重边界，规模不是准确率。 **[其他 AI 逆向 · 分析测试]**
 - [13场景、43节拍：Miles李用rea-video拆解Opus动画PPT的声画与按键](../cases/miles-rea-video-animated-ppt-thirteen-scenes.md) — Miles李称用rea-video研究一套Claude Opus5.6动画PPT，拆成13场景、43节拍并整理中文资料；还原步骤与交互尚未复核，不等于已重建幻灯片软件。 **[REA · 分析测试]**

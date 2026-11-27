@@ -1,5 +1,181 @@
 [
   {
+    "id": "cxjwin-claude-code-reverse-multimodel-review",
+    "title": "码良研究Claude Code：跨栈修改后让Gemini与GPT交叉审查",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "码良称研究最新版Claude Code并修改代码，再用Gemini两轮、GPT一轮审查发现问题；没有公开实现或完成验证。",
+    "description": "2026年11月27日20:41:29（北京时间），码良（@cxjwin）在转向Agent开发的第四天记录，下午尝试逆向最新版Claude Code，已经改了不少代码。研究对象是现有编程Agent，背景是跨技术栈开发，作者承认AI生成的许多代码自己读起来也吃力。未说明具体研究了Claude Code的哪个模块、要实现什么替代功能，也没有指定逆向工具。\n\n他称先让Gemini 4 Carbon做两轮Code Review，再让GPT 6.2 Astra Max审一轮，后者又发现不少问题；这些模型名按作者原文保留，不作为本合集对产品版本的核验。作者认为GPT的防御性倾向在审查场景有用。报告的结果是修改与问题发现，不是审查后全部修好、兼容Claude Code或可发布的Agent。没有仓库、版本号、差异、缺陷样例、测试或工时对照，不能据轮数推断审查质量或模型优劣。仅补取原帖确认署名与文字，未运行目标，REA未确认。",
+    "sources": [{"label": "码良的Claude Code研究与多模型审查记录，2026-11-27 20:41:29北京时间", "url": "https://x.com/i/status/2126295344262836493"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存快照：2赞、260浏览、0转发、2回复；两轮加一轮为作者自述，不是测试通过数。"],
+    "en": {
+      "title": "Studying Claude Code across stacks: cxjwin uses Gemini and GPT to review modifications",
+      "summary": "cxjwin reports modifying code while reversing the latest Claude Code, then finding problems through two Gemini reviews and one GPT review. No implementation or completion checks are public.",
+      "description": "At 20:41:29 Beijing time on November 27, 2026, cxjwin (@cxjwin) records day four of moving into agent development: an afternoon spent trying to reverse-engineer the latest Claude Code and modifying substantial code. The target is an existing coding agent, in the context of working across technology stacks. The author admits struggling to understand much of the AI-generated code. No particular Claude Code module, replacement feature or reversing tool is identified.\n\nThe author reports two Code Review rounds with Gemini 4 Carbon followed by one with GPT 6.2 Astra Max, which found further issues. Model names preserve the author's wording, not product-version verification by this collection. The author considers GPT's defensive tendencies useful for review. The reported outcome is modifications and issue discovery, not all issues fixed, Claude Code compatibility or a releasable agent. No repository, revision, diff, example defect, tests or effort comparison establishes review quality or model superiority from round counts. Supplementary post retrieval confirmed attribution and wording only. No target was run; REA use is unconfirmed.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 2 likes, 260 views, 0 reposts, 2 replies. Two plus one reviews are author-reported rounds, not passing-test counts."],
+      "source_labels": ["cxjwin's Claude Code research and multi-model review account, November 27, 2026 at 20:41:29 Beijing time"]
+    }
+  },
+  {
+    "id": "aronhouyu-ai-feed-reconstruction-in-progress",
+    "title": "信息流跑了一小时：Aron厚玉的AI逆向尝试尚未出结果",
+    "category": "apps", "rea": "other-ai", "status": "in-progress",
+    "summary": "Aron厚玉称让AI逆向一条信息流，运行一小时后仍在等待，也承认自己不清楚具体细节；没有结果或平台归属。",
+    "description": "2026年11月27日21:54:19（北京时间），Aron厚玉（@aronhouyu）称正在让AI逆向一个信息流，已经跑了一小时，自己喝咖啡等任务结束。他同时说自己也不知道细节是什么。具体目标是研究现有信息流的实现或表现，但帖子没有命名平台、App、数据来源或要重建的功能，不能擅自写成推荐算法恢复、抓取接口或广告投放分析。\n\n这是明确正在发生的作者尝试，而非完成演示。一小时是发帖时报告的运行时间，不是总工时或省下的人工时间；原帖没有模型、工具、提示词、代码、研究输出或验收。补查仅确认署名与原文字，未审附件。按进行中保留，REA不明，不把等待任务升级为已读懂信息流或已成功复建。",
+    "sources": [{"label": "Aron厚玉的信息流AI研究进行中自述，2026-11-27 21:54:19北京时间", "url": "https://x.com/i/status/2126313672565998043"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存4赞、400浏览、0转发、0回复；一小时为发帖时运行时长，没有完成记录。"],
+    "en": {
+      "title": "An hour into a feed investigation: Aron Houyu's AI reversing attempt awaits results",
+      "summary": "Aron Houyu reports asking AI to reverse-engineer a feed and waiting after an hour, while admitting the details are unclear. Neither results nor a platform are identified.",
+      "description": "At 21:54:19 Beijing time on November 27, 2026, Aron Houyu (@aronhouyu) says AI has been reverse-engineering a feed for an hour while the author drinks coffee and waits for completion. The author also admits not knowing the details. The concrete target is an existing feed's implementation or presentation, but no platform, app, data source or feature to rebuild is identified. Recommendation-algorithm recovery, API scraping or advertising analysis must not be inferred.\n\nThis is an explicit ongoing attempt, not a completed demonstration. One hour is reported runtime at publication, not total effort or saved human labor. No model, tool, prompt, code, research output or acceptance checks are supplied. Supplementary retrieval confirmed attribution and wording only; attachments were not examined. Retained as in progress with REA unconfirmed, not evidence that the feed was understood or rebuilt.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 4 likes, 400 views, 0 reposts, 0 replies. One hour is runtime at publication, without a completion record."],
+      "source_labels": ["Aron Houyu's ongoing AI feed investigation, November 27, 2026 at 21:54:19 Beijing time"]
+    }
+  },
+  {
+    "id": "ppatil-samsung-music-frame-neon-adb-diagnostics",
+    "title": "Samsung Music Frame连不上：Parth Patil报告Neon经ADB追查信道与插件",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "Parth Patil称Neon／Antigravity分析手机BLE日志、对比Wi-Fi信道并修SmartThings数据，让新Music Frame连上5GHz和Q-Symphony；无独立复测。",
+    "description": "2026年11月27日22:00:31（北京时间），Parth Patil（@ppatil）报告，新Samsung Music Frame音箱无法连接5GHz Wi-Fi，也不能与75英寸电视进行Q-Symphony配对，而另一台旧的同型号音箱正常。他把手机经USB ADB接到笔记本，先用Claude Code中的Fable 5.2排查超过两小时，称进展缓慢且未解决，随后将相同USB环境交给Antigravity中的Gemini Neon。模型名与对比均按作者叙述，不是受控评测。\n\n据作者看事后报告所得，Neon读取原始BLE扫描日志，认为新音箱在信号为-37dBm时仍看不到5GHz UNII-1的36信道；以手机149信道热点与Deco路由器36信道访客网络并列对照，再把Deco X50-PoE固件从1.6.1升级至1.7.5以获得手动选信道并固定149。他另称通过Offline Diagnostics绕过崩溃的SmartThings插件，让Q-Symphony工作，并把350毫秒后的Sound Settings崩溃定位到本地插件数据损坏后修复。\n\n作者称没有读任何日志或指导技术步骤，所有过程来自Agent事后总结，不能等同作者逐项检查或本合集复现。未取得文章正文、ADB原始日志、固件说明、区域/型号细分、命令、对照录像或持续稳定性测试。无法确认信道不可见的硬件根因，也不能外推同型号所有设备、地区或固件；超过两小时是作者报告的先前尝试，不是Neon耗时。作为通过日志与行为对照研究设备互通的案例收录，不称新协议破解或固件逆向成果。仅补取帖子，未升级设备或执行代码，未提REA。",
+    "sources": [{"label": "Parth Patil的Music Frame／ADB诊断自述，2026-11-27 22:00:31北京时间", "url": "https://x.com/i/status/2126315233002275161"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27候选快照1赞、45浏览、0转发、0回复；具体诊断与修复均为作者转述Agent事后报告。"],
+    "en": {
+      "title": "Samsung Music Frame connectivity: Parth Patil reports Neon tracing channels and plugins over ADB",
+      "summary": "Parth Patil says Neon/Antigravity studied phone BLE logs, compared Wi-Fi channels and repaired SmartThings data to connect a new Music Frame over 5 GHz and Q-Symphony. Not independently retested.",
+      "description": "At 22:00:31 Beijing time on November 27, 2026, Parth Patil (@ppatil) reports that a new Samsung Music Frame speaker would neither join 5 GHz Wi-Fi nor pair with a 75-inch television over Q-Symphony, while an older identical speaker worked. A phone was connected to a laptop over USB ADB. Claude Code with Fable 5.2 reportedly made slow progress for more than two hours without solving it, before the same USB environment was given to Gemini Neon in Antigravity. Model names and the comparison are the author's account, not a controlled evaluation.\n\nAccording to the agent's postmortem as relayed by the author, Neon pulled raw BLE scan logs and concluded the speaker could not see 5 GHz UNII-1 channel 36 even at -37 dBm. It compared a phone hotspot on channel 149 against a Deco guest network on channel 36, then upgraded a Deco X50-PoE from firmware 1.6.1 to 1.7.5 to enable manual channel selection and fixed it to 149. The author also reports using Offline Diagnostics to bypass a crashing SmartThings plugin and activate Q-Symphony, and tracing a Sound Settings crash after 350 ms to corrupted local plugin data and repairing it.\n\nThe author says no logs were personally read and no technical steps guided; the process comes from an agent-written postmortem, not step-by-step human verification or reproduction by this collection. The linked article body, raw ADB logs, firmware notes, region/model details, commands, comparison video and sustained-stability tests were not obtained. The hardware cause of channel invisibility is unconfirmed and cannot be generalized to every device, region or firmware. More than two hours describes the earlier attempt, not Neon's duration. Included as device-interoperability research using logs and behavioral comparisons, not a newly broken protocol or firmware-reversing accomplishment. Only the post was retrieved; no device update or code execution was performed here. REA is unmentioned.",
+      "metadata": ["November 27, 2026 candidate snapshot: 1 like, 45 views, 0 reposts, 0 replies. Diagnosis and fixes are the author's account of an agent-written postmortem."],
+      "source_labels": ["Parth Patil's Music Frame/ADB diagnostic account, November 27, 2026 at 22:00:31 Beijing time"]
+    }
+  },
+  {
+    "id": "claude-laptop-wake-freeze-missing-dump-investigation",
+    "title": "死机也写不出转储：@hov8a用Claude研究笔记本唤醒冻结",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "@hov8a称Claude读日志发现773次唤醒中31次冻结；BIOS升级与强制转储未解决，关闭相关链路节电后仍待100次唤醒观察。",
+    "description": "2026年11月27日22:10:51（北京时间），@hov8a记录自9月起笔记本反复唤醒后冻结的调查：据Claude Code读取日志所得，773次唤醒中31次约在90秒后完全停住，没有蓝屏或错误码，日志直接中断。目标是理解没有故障记录的机器为何冻结，而非宣称已恢复固件源码。设备型号、操作系统和Claude版本未给出。\n\n作者称BIOS从1.47升至1.49后固件错误消失，但冻结仍在；驱动已经是可取得的最新版。让Claude设置长按电源键时写转储后，又冻结7次，仍无输出；两次尝试记录解释却无法写盘，作者怀疑负责写入的链路也未响应。当晚关闭该链路的节电，计划等待100次唤醒再看是否改善。帖子未命名存储总线或具体参数，不能补成已定位某个NVMe／PCIe问题。\n\n这些计数、因果线索与操作均为作者自述，无原始日志、转储、补丁或后续100次结果。怀疑被入侵是一句猜测，不是安全事件证据。保留失败与进行中阶段，不把固件错误消失当成死机已修复，亦不将缺少日志当成没有故障。补查确认账号与全文，未操作设备或复跑排查，REA未提及。",
+    "sources": [{"label": "@hov8a的Claude唤醒冻结调查记录，2026-11-27 22:10:51北京时间", "url": "https://x.com/i/status/2126317833776943201"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存0赞、8浏览、0转发、0回复；773／31／7与100次观察计划来自原帖，未取得测试结果。"],
+    "en": {
+      "title": "A freeze that cannot write its dump: @hov8a investigates laptop wake failures with Claude",
+      "summary": "@hov8a reports Claude finding 31 freezes in 773 wakes. A BIOS update and forced dumps did not solve them; disabling link power saving awaits 100 more wakes.",
+      "description": "At 22:10:51 Beijing time on November 27, 2026, @hov8a describes a laptop repeatedly freezing after wake since September. Claude Code reportedly read logs showing 31 of 773 wakes ending in a complete freeze after about 90 seconds, without a blue screen or error code: the logs simply stop. The target is understanding a machine failure that leaves no record, not recovering firmware source. The device, operating system and Claude version are unnamed.\n\nThe author says upgrading BIOS 1.47 to 1.49 removed firmware errors but not freezes, and drivers were already the latest available. After configuring dumps on a long power-button press with Claude, seven more freezes produced nothing. Two attempts to explain the failure could not write to disk, suggesting the recording link itself was unresponsive. Link power saving was disabled that evening, with a plan to wait for 100 wakes before judging improvement. No storage bus or parameter is identified, so a particular NVMe/PCIe defect must not be inferred.\n\nCounts, causal leads and actions are author reports without raw logs, dumps, patches or the subsequent 100-wake result. A joking suspicion of being hacked is not evidence of a security incident. Retains failed attempts and an in-progress status: vanished firmware errors do not mean freezing is fixed, and absent logs do not mean absent faults. Supplementary retrieval confirmed account and full wording. No device was operated or investigation rerun here; REA is unmentioned.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 0 likes, 8 views, 0 reposts, 0 replies. Counts 773/31/7 and the planned 100-wake observation come from the post; results were not obtained."],
+      "source_labels": ["@hov8a's Claude-assisted wake-freeze investigation, November 27, 2026 at 22:10:51 Beijing time"]
+    }
+  },
+  {
+    "id": "gpt-xiaohongshu-cover-layered-psd-reconstruction",
+    "title": "小红书封面到分层PSD：@fksmrsk称GPT两条提示词完成反推",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "@fksmrsk称GPT两条提示词还原小红书热门封面的字体与PSD分层，一次成型；未取得PSD、提示词或视觉对照。",
+    "description": "2026年11月27日22:12:44（北京时间），@fksmrsk以GPT和Claude设计能力的争论为背景，称用两句提示词逆向一个小红书热门封面PSD，认为字体还原和图层规范都一次完成得很好。目标是从既有视觉设计恢复可编辑的封面结构，保留为具体设计重建报告，而非软件二进制反编译。\n\n原帖未给原始封面出处、GPT版本、两条提示词、PSD文件、字体授权、图层清单或对照测量；不清楚输入是平面图还是已有设计文件。一次成型与完美是作者评价，不是本合集对视觉一致性、可编辑性或排版质量的验证，也不能由两句提示词推算用时或成本。补取确认账号与文字，未审附件、下载PSD或运行图像重建，REA未提及。",
+    "sources": [{"label": "@fksmrsk的小红书封面PSD反推自述，2026-11-27 22:12:44北京时间", "url": "https://x.com/i/status/2126318310468026685"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存0赞、23浏览、0转发、0回复；两条提示词、一次成型均为作者自述。"],
+    "en": {
+      "title": "A Xiaohongshu cover as a layered PSD: @fksmrsk reports reconstruction with two GPT prompts",
+      "summary": "@fksmrsk credits two GPT prompts with first-pass font and layer reconstruction of a popular Xiaohongshu cover. The PSD, prompts and visual comparisons were not obtained.",
+      "description": "At 22:12:44 Beijing time on November 27, 2026, @fksmrsk invokes debate over GPT versus Claude design abilities and says two prompts reverse-engineered a popular Xiaohongshu cover PSD, praising first-pass font fidelity and organized layers. The target is recovering an editable cover structure from an existing visual design, included as a concrete design-reconstruction report rather than binary decompilation.\n\nNo original cover attribution, GPT version, prompt text, PSD, font permissions, layer list or comparative measurements are supplied. It is unclear whether the input was a flat image or an existing design file. First-pass success and perfection are the author's judgments, not this collection's verification of visual equivalence, editability or typography. Two prompts establish neither elapsed time nor cost. Retrieval confirmed the account and wording; attachments were not examined, no PSD downloaded and no reconstruction run here. REA is unmentioned.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 0 likes, 23 views, 0 reposts, 0 replies. Two prompts and first-pass completion are author reports."],
+      "source_labels": ["@fksmrsk's Xiaohongshu cover PSD reconstruction account, November 27, 2026 at 22:12:44 Beijing time"]
+    }
+  },
+  {
+    "id": "panda-incense-ai-fatfish-desktop-pet-secondary-report",
+    "title": "熊猫烧香到肥鱼烧香桌宠：一则AI逆向重制的二手介绍",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "@ppmmzzcn转帖标题称用AI研究熊猫烧香并做肥鱼烧香桌宠；未给原作者、分析过程或安全验证，不证明恢复病毒逻辑。",
+    "description": "2026年11月27日22:35:29（北京时间），@ppmmzzcn以B站热门形式转述标题：用AI逆向熊猫烧香，做出肥鱼烧香。正文将产物称为经典桌宠，同时夹杂平台积分、邀请码和咖啡活动营销。熊猫烧香是被借用名称与视觉意象的历史病毒背景；帖子未说明它究竟研究了可执行文件、桌面动作还是只重做造型，不能替作者补成恶意代码分析。\n\n能保留的具体线索是以旧程序为参考的AI辅助桌宠重制宣称，而非已复原病毒传播、感染功能或已证明安全的软件。没有原视频作者、B站原链接、源码、模型、工具、分析记录、可运行产物或安全审计；营销权益不作为研究结果。补查只确认转帖账号与全文，未跟随推广链接、注册、下载或执行任何文件。按未核验二手报告记录，不将标题中的第一人称归给转帖者，也未确认REA参与。",
+    "sources": [{"label": "@ppmmzzcn转述AI逆向与肥鱼烧香桌宠标题，2026-11-27 22:35:29北京时间", "url": "https://x.com/i/status/2126324032924762528"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存0赞、21浏览、0转发、0回复；原标题与营销正文不是实现或安全验证。"],
+    "en": {
+      "title": "From Panda Burning Incense to a Fat Fish desktop pet: a secondary AI-reconstruction claim",
+      "summary": "@ppmmzzcn relays a title claiming AI reversing of Panda Burning Incense to make a Fat Fish desktop pet. No original author, analysis or safety checks establish recovered virus logic.",
+      "description": "At 22:35:29 Beijing time on November 27, 2026, @ppmmzzcn posts a bilibili-popular title claiming AI was used to reverse-engineer Panda Burning Incense and create Fat Fish Burning Incense. The body calls the result a classic desktop pet, mixed with platform credits, referral codes and coffee promotions. Panda Burning Incense supplies the historical-virus name and visual reference, but the post does not establish whether an executable, desktop behavior or only appearance was studied. Malware analysis must not be inferred.\n\nThe concrete lead is an AI-assisted desktop-pet reconstruction claim using an old program as a reference, not recovered propagation/infection behavior or proven-safe software. No original video author, original bilibili link, source, model, tools, analysis record, runnable artifact or safety audit is supplied; promotional benefits are not research results. Retrieval confirmed the reposting account and full text only. No promotional link was followed, account registered or file downloaded or executed. Retained as an unverified secondary report: the title's first person is not attributed to the reposter, and REA involvement is unconfirmed.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 0 likes, 21 views, 0 reposts, 0 replies. A title and promotional body are not implementation or safety validation."],
+      "source_labels": ["@ppmmzzcn relays an AI-reversing/Fat Fish desktop-pet title, November 27, 2026 at 22:35:29 Beijing time"]
+    }
+  },
+  {
+    "id": "techub-ai-real-robot-video-environment-reconstruction",
+    "title": "真机视频反推具身环境：Techub_News介绍的AI机器人训练方向",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "Techub_News称AI可从真实机器人视频反推并生成万套训练环境；只取得简短介绍，没有项目、论文或规模验证。",
+    "description": "2026年11月27日22:44:47（北京时间），Techub_News（@Techub_News）以中英文短帖介绍，用AI逆向真机机器人视频，生成大量具身环境供训练。具体方向是从已录制的真实机器人观察重建训练场景，尝试把现实样本转成可用于机器人学习的环境，而不是传统客户端反编译。\n\n中文称万套，英文称thousands；保留两种原文口径，不将它们合并为精确数量或实测数据。帖内没有项目名、研究者、论文、代码、模型、场景生成方法、物理一致性、训练收益或仿真到现实评估。补取确认媒体账号与文字，未解析短链正文，因此这里记录的是具体研究方向的二手介绍，不确认某套系统已达到所述规模或可用性。没有运行模型或生成环境，REA未提及。",
+    "sources": [{"label": "Techub_News关于视频反推机器人训练环境的简讯，2026-11-27 22:44:47北京时间", "url": "https://x.com/i/status/2126326374633808047"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存1赞、66浏览、0转发、1回复；中文万套／英文thousands均为介绍性宣称，没有原始计数。"],
+    "en": {
+      "title": "Reconstructing embodied environments from real robot videos: an AI training direction relayed by Techub_News",
+      "summary": "Techub_News describes AI reconstructing many training environments from real robot videos. Only a short introduction was obtained, without a named project, paper or scale validation.",
+      "description": "At 22:44:47 Beijing time on November 27, 2026, Techub_News (@Techub_News) introduces in Chinese and English the use of AI to reverse-engineer real robot videos and generate many embodied environments for training. The specific direction is reconstructing training scenes from recorded real-robot observations, turning real-world samples into environments for robot learning rather than decompiling a client application.\n\nThe Chinese text says ten thousand environments while the English says thousands. Both original formulations are retained, not collapsed into an exact or measured count. No project, researcher, paper, code, model, generation method, physical-consistency check, training benefit or sim-to-real evaluation is named. Retrieval confirmed the media account and wording; the short-link article was not obtained. This records a secondary introduction to a concrete research direction, not confirmation that a system attained the claimed scale or usability. No model was run or environment generated here; REA is unmentioned.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 1 like, 66 views, 0 reposts, 1 reply. Chinese ten thousand / English thousands are introductory claims without original counts."],
+      "source_labels": ["Techub_News's brief on reconstructing robot-training environments from video, November 27, 2026 at 22:44:47 Beijing time"]
+    }
+  },
+  {
+    "id": "bdcraft-blu-disc-studio-claude-rea-alternative-idea",
+    "title": "BDCraft：用Claude与REA研究Blu-Disc Studio的开源替代idea",
+    "category": "apps", "rea": "REA", "status": "unverified",
+    "summary": "@caybymails询问能否用Claude／REA研究Blu-Disc Studio Lite或UHD，做名为BDCraft的开源替代；没有实现。",
+    "description": "2026年11月27日22:58:14（北京时间），@caybymails提出能否使用Claude与REA研究Blu-Disc Studio的Lite或UHD版本，并创建名为BDCraft的开源替代。原目标是蓝光光盘创作软件，动机是得到开放实现；原帖没有指定菜单编辑、编码、光盘映像或播放兼容等具体范围，不能自行补成完整支持UHD的工具。\n\n这是提问式具体idea，BDCraft只是作者拟定的名称，没有仓库、研究步骤、模型版本、原软件版本、代码或生成光盘测试。REA是建议使用的工具，不是已确认执行；也不从开源意图推断复制专有内容的许可或兼容性。补取确认账号与原文，未解析所附短链、下载目标或运行光盘制作。",
+    "sources": [{"label": "@caybymails提出BDCraft开源替代idea，2026-11-27 22:58:14北京时间", "url": "https://x.com/i/status/2126329759193805151"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存0赞、23浏览、0转发、0回复；REA参与仅是设想，无实现或兼容测试。"],
+    "en": {
+      "title": "BDCraft: an idea to study Blu-Disc Studio with Claude and REA for an open-source alternative",
+      "summary": "@caybymails asks whether Claude/REA could study Blu-Disc Studio Lite or UHD and produce an open-source alternative called BDCraft. No implementation is reported.",
+      "description": "At 22:58:14 Beijing time on November 27, 2026, @caybymails asks whether Claude and REA could reverse-engineer Blu-Disc Studio Lite or UHD to create an open-source alternative named BDCraft. The reference is Blu-ray disc-authoring software and the motivation is an open implementation. No scope for menu editing, encoding, disc images or playback compatibility is specified; a complete UHD-capable tool must not be inferred.\n\nThis is a question-form concrete idea. BDCraft is a proposed name, without a repository, research steps, model version, target revision, code or authored-disc tests. REA is proposed, not confirmed to have run. Open-source intent establishes neither permission to copy proprietary material nor compatibility. Retrieval confirmed the account and wording. The attached short link was not expanded, no target downloaded and no disc-authoring process run here.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 0 likes, 23 views, 0 reposts, 0 replies. REA involvement is proposed only, without implementation or compatibility tests."],
+      "source_labels": ["@caybymails proposes the open-source BDCraft alternative, November 27, 2026 at 22:58:14 Beijing time"]
+    }
+  },
+  {
+    "id": "halo-wars-halo3-ai-orbit-to-ground-campaign-idea",
+    "title": "Halo Wars接Halo 3：AI辅助重写引擎、实现太空到地面战役的idea",
+    "category": "games", "rea": "other-ai", "status": "unverified",
+    "summary": "@outofwritings设想AI继续辅助反编译并重写引擎，把Halo Wars接入Halo 3，形成Battlefront 2式轨道到地面战役；没有实施。",
+    "description": "2026年11月27日23:50:48（北京时间），@outofwritings回复Niles Sankey，展望随着AI发展，可在反编译基础上继续重写游戏引擎，将Halo Wars与Halo 3衔接起来，做出类似Battlefront 2的orbit-to-dirt战役。Halo Wars为即时战略，Halo 3为第一人称射击；作者想象的用途是跨游戏、跨尺度的轨道至地面战役，而不是仅让旧游戏在新平台启动。\n\n这是未来可能性的愿望式idea，未说明哪一作引擎、底层反编译项目、模型、接口、关卡资产或战役切换设计，也没有仓库、代码或运行结果。Battlefront 2只是作者给出的体验类比，不证明机制或资产可直接移植；不把对Niles的回复当成共同项目。补取确认账号与完整文字，未访问游戏文件或执行代码，REA未提及。",
+    "sources": [{"label": "@outofwritings的Halo跨游戏AI重建设想，2026-11-27 23:50:48北京时间", "url": "https://x.com/i/status/2126342989085901246"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存0赞、6浏览、0转发、1回复；仅为未来idea，没有项目实施或授权验证。"],
+    "en": {
+      "title": "Halo Wars meets Halo 3: an AI-assisted engine-rewrite idea for an orbit-to-ground campaign",
+      "summary": "@outofwritings imagines AI-assisted further decompilation and engine rewriting to bridge Halo Wars and Halo 3 into a Battlefront 2-style orbit-to-ground campaign. No implementation is reported.",
+      "description": "At 23:50:48 Beijing time on November 27, 2026, @outofwritings replies to Niles Sankey, imagining that advancing AI could support further engine rewriting through decompilation to bridge Halo Wars into Halo 3, producing a Battlefront 2-style orbit-to-dirt campaign. Halo Wars is real-time strategy and Halo 3 a first-person shooter; the envisioned use is a cross-game, cross-scale orbital-to-ground campaign, not merely booting an old game on another platform.\n\nThis is a future possibility expressed as a wish. No particular engine, underlying decompilation project, model, interface, level assets or campaign-transition design is identified, and no repository, code or running result is supplied. Battlefront 2 is an experiential analogy, not evidence that mechanisms or assets transfer directly. A reply to Niles does not establish a joint project. Retrieval confirmed the account and full wording. No game files were accessed or code executed here; REA is unmentioned.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 0 likes, 6 views, 0 reposts, 1 reply. Future idea only, without implementation or permissions verification."],
+      "source_labels": ["@outofwritings's cross-game AI Halo reconstruction idea, November 27, 2026 at 23:50:48 Beijing time"]
+    }
+  },
+  {
+    "id": "l1muff0-cleanmymac-claude-proprietary-code-refusal",
+    "title": "CleanMyMac研究被拒：@L1muff0追问REA或Craft Anything是否必要",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "@L1muff0称尝试同类CleanMyMac研究时，Claude以专有代码为由拒绝，因而询问别人用了什么skill；未确认使用REA。",
+    "description": "2026年11月27日23:56:09（北京时间），@L1muff0向@odecamnet与@adriano_viana询问是否用了特定skill，例如REA或Craft Anything，解释自己尝试做相同事情时，Claude称CleanMyMac包含专有代码而拒绝。CleanMyMac是Mac清理与维护软件；上下文指向研究或重建其能力，但帖子没有列出具体清理功能，不能补成已分析二进制、扫描规则或做出替代产品。\n\n可确认的是一次目标明确的拒答自述，与其他作者成功重建清理器的案例不同，不将其并入成功经历。没有原始会话、提示词、模型或harness版本、目标版本、代码或后续重试；无法判定是何种访问或复制要求触发拒绝，也不能据此概括所有Claude或证明使用REA即可继续。REA和Craft Anything在原文是询问中的工具名，不是实际调用。补取确认账号和文字，未执行目标、测试规避或联系被提及账号。",
+    "sources": [{"label": "@L1muff0报告Claude拒绝CleanMyMac研究并询问skill，2026-11-27 23:56:09北京时间", "url": "https://x.com/i/status/2126344333674643778"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存0赞、浏览数未提供、0转发、0回复；拒答为作者自述，没有原始会话。"],
+    "en": {
+      "title": "CleanMyMac study refused: @L1muff0 asks whether REA or Craft Anything was needed",
+      "summary": "@L1muff0 says Claude refused a similar CleanMyMac attempt because of proprietary code and asks which skill others used. Actual REA use is not established.",
+      "description": "At 23:56:09 Beijing time on November 27, 2026, @L1muff0 asks @odecamnet and @adriano_viana whether they used a particular skill such as REA or Craft Anything, explaining that Claude refused the author's own similar attempt because CleanMyMac contains proprietary code. CleanMyMac is Mac cleaning and maintenance software. The context points to studying or rebuilding its capabilities, but no particular cleaning feature is listed. Binary analysis, recovered scanning rules or a replacement product must not be inferred.\n\nThe concrete evidence is a target-specific author-reported refusal, distinct from other authors' successful cleaner reconstructions and not merged into those success accounts. No original conversation, prompt, model/harness version, target revision, code or retry is supplied. The triggering access or copying request is unknown; the post neither generalizes to all Claude use nor proves REA would permit continuation. REA and Craft Anything are tools in a question, not confirmed calls. Retrieval confirmed the account and wording. No target was run, evasion tested or mentioned account contacted here.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 0 likes, views unavailable, 0 reposts, 0 replies. Refusal is author-reported without the original conversation."],
+      "source_labels": ["@L1muff0 reports Claude's CleanMyMac refusal and asks about skills, November 27, 2026 at 23:56:09 Beijing time"]
+    }
+  },
+  {
+    "id": "adriandlam-kindle-claude-usb-jailbreak-secondary-report",
+    "title": "@adriandlam_的Kindle USB越狱：一则Claude辅助操作转述",
+    "category": "hardware", "rea": "other-ai", "status": "unverified",
+    "summary": "葡文回复转述@adriandlam_通过USB用Claude Code辅助越狱Kindle，称依固件而定；未取得原作者记录或确认Amazon功能保留。",
+    "description": "2026年11月27日23:36:57（北京时间），一则葡文回复在解释Kindle停止更新不等于不能购买或传送电子书时，称进一步的越狱取决于固件，@adriandlam_曾通过USB用Claude Code完成，并表示商店与Kindle Unlimited仍可保留。这里的具体线索是让编码Agent辅助旧阅读器的USB越狱操作，不是证明发现了新漏洞或AI逆向了全部固件。\n\n未取得@adriandlam_原始页面、设备型号、固件版本、利用工具、Claude会话、命令或运行测试，无法区分Agent指导已有方法与新的逆向开发；不能确认任意Kindle均可用、无风险或Amazon服务在所有环境保留。回复中的维护状态与功能保留同样只是转述，不认证厂商现行政策。补取原帖确认文字；未解析短链、连接设备、下载固件或运行越狱。REA未提及，按未核验二手报告保留。",
+    "sources": [{"label": "葡文回复转述@adriandlam_的Claude／USB Kindle越狱，2026-11-27 23:36:57北京时间", "url": "https://x.com/i/status/2126339500892910024"}],
+    "snapshot_date": "2026-11-27", "metadata": ["2026-11-27封存1赞、14浏览、0转发、0回复；没有设备与固件版本，未核原作者页面。"],
+    "en": {
+      "title": "@adriandlam_'s Kindle USB jailbreak: a secondary account of Claude-assisted operation",
+      "summary": "A Portuguese reply says @adriandlam_ used Claude Code for a USB Kindle jailbreak depending on firmware. Original records and retained Amazon functions were not verified.",
+      "description": "At 23:36:57 Beijing time on November 27, 2026, a Portuguese reply explains that ending Kindle updates does not prevent buying or sending ebooks, then says further jailbreaking depends on firmware and cites @adriandlam_ doing it over USB with Claude Code. It says the store and Kindle Unlimited can remain available. The concrete lead is a coding agent assisting USB jailbreaking of a reader, not a new vulnerability discovery or AI reversing of all firmware.\n\nThe original @adriandlam_ page, device model, firmware revision, exploit tool, Claude conversation, commands and tests were not obtained. Guidance using existing methods cannot be distinguished from new reversing work. Universal Kindle support, safety or preservation of Amazon services in every environment is not established. Maintenance status and retained functionality are also relayed claims, not verification of current vendor policy. Retrieval confirmed the post's wording; no short link was expanded, device connected, firmware downloaded or jailbreak run here. REA is unmentioned. Retained as an unverified secondary report.",
+      "metadata": ["Sealed November 27, 2026 snapshot: 1 like, 14 views, 0 reposts, 0 replies. Device/firmware versions and the original author's page are unverified."],
+      "source_labels": ["Portuguese reply relaying @adriandlam_'s Claude/USB Kindle jailbreak, November 27, 2026 at 23:36:57 Beijing time"]
+    }
+  },
+  {
     "id": "jan-reloc-ios-location-agent-source-review-idea",
     "title": "Reloc的iOS定位实现：Jan建议让Agent审视源码",
     "category": "apps", "rea": "unknown", "status": "unverified",
@@ -892,16 +1068,16 @@
     "id":"51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation",
     "title":"卡顿竟跟RGB同步：51972用AI研究技嘉GCC的二手报告",
     "category":"hardware", "rea":"other-ai", "status":"unverified",
-    "summary":"UNIKO's Hardware转述51972逆向技嘉GCC，称RGB MCU通信与Nvidia驱动595.71渲染修复争用；没有原代码、时间线或性能复测。",
-    "description":"2026年11月26日01:32:13（北京时间），UNIKO's Hardware（@unikoshardware）转述B站51972团队调查所谓amdip卡顿一个月，认为不是9800X3D，而是Nvidia新驱动、技嘉GCC控制软件及带RGB和屏幕的技嘉显卡组合所致。GCC在这里是技嘉配套控制软件，不是GNU编译器。帖子称595.71驱动为修The Ascent偶发黑条调整渲染序列，放大GCC与GPU微控制器通信的开销；团队观察卡顿节奏与灯效一致，并用AI工具逆向GCC，改变RGB控制的争用路径，让命令更快通过。\n\n来源还称技嘉新版已修复、下代将换控制工具，并转述中国区代表谈原GCC团队人事。这些没有第一方版本说明或声明，不据此确认厂商修复时间、人事事实或所有显卡受影响。补取确认发帖者、全文、图片和视频附件，未看附件或B站原片，也未取得补丁、函数分析、具体AI模型、帧时间曲线或同条件对照。一个月是转述调查时长，非本合集计时；因果和改善均是二手研究报告，不是独立定位或跑分。未执行软件、驱动或固件，REA未提。",
-    "sources":[{"label":"UNIKO's Hardware转述51972的GCC／RGB卡顿调查，2026-11-26 01:32:13北京时间","url":"https://x.com/i/status/2125643733752590836"}],
-    "snapshot_date":"2026-11-26", "metadata":["封存9赞、424浏览、0转发、0回复；未观看视频，未核驱动与GCC版本修复。"],
+    "summary":"UNIKO's Hardware转述51972用AI研究GCC的RGB通信争用，Pirat_Nation随后扩大传播；仍无原代码、帧时间复测或厂商修复／人事确认。",
+    "description":"2026年11月26日01:32:13（北京时间），UNIKO's Hardware（@unikoshardware）转述B站51972团队调查所谓amdip卡顿一个月，认为不是9800X3D，而是Nvidia新驱动、技嘉GCC控制软件及带RGB和屏幕的技嘉显卡组合所致。GCC在这里是技嘉配套控制软件，不是GNU编译器。帖子称595.71驱动为修The Ascent偶发黑条调整渲染序列，放大GCC与GPU微控制器通信的开销；团队观察卡顿节奏与灯效一致，并用AI工具逆向GCC，改变RGB控制的争用路径，让命令更快通过。\n\n来源还称技嘉新版已修复、下代将换控制工具，并转述中国区代表谈原GCC团队人事。这些没有第一方版本说明或声明，不据此确认厂商修复时间、人事事实或所有显卡受影响。补取确认发帖者、全文、图片和视频附件，未看附件或B站原片，也未取得补丁、函数分析、具体AI模型、帧时间曲线或同条件对照。一个月是转述调查时长，非本合集计时；因果和改善均是二手研究报告，不是独立定位或跑分。\n\n11月27日22:01:00，Pirat_Nation（@Pirat_Nation）另发摘要，称研究者用AI和逆向花一个月找到修复，并称技嘉更新已修、整个Control Center团队被解雇。该帖封存2269赞、93858浏览、75转发、75回复，体现这一调查的传播，不是新增独立复现。新帖没有补厂商声明、修复版本或技术记录，因此不将其更强的人事措辞确认为事实，也不把两个转述账号当作两次独立实验。补取仅确认账号与全文。未执行软件、驱动或固件，REA未提，状态仍为未核验。",
+    "sources":[{"label":"UNIKO's Hardware转述51972的GCC／RGB卡顿调查，2026-11-26 01:32:13北京时间","url":"https://x.com/i/status/2125643733752590836"},{"label":"Pirat_Nation的二手摘要与传播快照，2026-11-27 22:01:00北京时间，未补第一方验证","url":"https://x.com/i/status/2126315355874132154"}],
+    "snapshot_date":"2026-11-27", "metadata":["11月26日封存9赞、424浏览、0转发、0回复；未观看视频，未核驱动与GCC版本修复。","11月27日Pirat_Nation候选封存2269赞、93858浏览、75转发、75回复；这是传播快照，不验证解雇或修复宣称。"],
     "en":{
       "title":"Stutters synchronized with RGB: a secondary account of 51972's AI-assisted Gigabyte GCC research",
-      "summary":"UNIKO's Hardware relays 51972's GCC reversing, attributing stutter to RGB-MCU communication contending with an Nvidia 595.71 rendering fix. Original code, chronology and performance retesting are absent.",
-      "description":"At 01:32:13 Beijing time on November 26, 2026, UNIKO's Hardware (@unikoshardware) relays a month-long investigation by bilibili's 51972 team into alleged amdip stutter. The account blames a combination of a new Nvidia driver, Gigabyte GCC and a Gigabyte GPU with RGB and a screen, rather than the 9800X3D. GCC means Gigabyte's control software here, not the GNU compiler. Driver 595.71 reportedly changes rendering order to fix intermittent black bars in The Ascent, amplifying time spent by GCC communicating with the GPU microcontroller. The team reportedly matches stutter cadence to lighting effects and uses AI tools to reverse GCC, changing RGB-control contention so commands pass faster.\n\nThe source also claims a new GCC release fixes the issue, a replacement tool is planned for the next generation and a Chinese representative discussed staffing of the former GCC team. No first-party version notes or statements establish the fix chronology, personnel claims or all-GPU impact. Retrieval confirms attribution, full wording and image/video presence, not a viewing of attachments or the bilibili original. No patch, function analysis, model identity, frame-time traces or controlled comparison was obtained. One month is relayed investigation time, not timing here. Causality and improvement remain secondary research claims, not an independent diagnosis or benchmark. No software, driver or firmware was run; REA is unmentioned.",
-      "metadata":["Sealed snapshot: 9 likes, 424 views, 0 reposts, 0 replies. Video not watched; driver/GCC release fixes unchecked."],
-      "source_labels":["UNIKO's Hardware relays 51972's GCC/RGB stutter investigation, November 26, 2026 at 01:32:13 Beijing time"]
+      "summary":"UNIKO's Hardware relays 51972's AI-assisted study of GCC RGB communication contention; Pirat_Nation later amplifies it. Original code, frame-time retesting and vendor confirmation of fixes or staffing remain absent.",
+      "description":"At 01:32:13 Beijing time on November 26, 2026, UNIKO's Hardware (@unikoshardware) relays a month-long investigation by bilibili's 51972 team into alleged amdip stutter. The account blames a combination of a new Nvidia driver, Gigabyte GCC and a Gigabyte GPU with RGB and a screen, rather than the 9800X3D. GCC means Gigabyte's control software here, not the GNU compiler. Driver 595.71 reportedly changes rendering order to fix intermittent black bars in The Ascent, amplifying time spent by GCC communicating with the GPU microcontroller. The team reportedly matches stutter cadence to lighting effects and uses AI tools to reverse GCC, changing RGB-control contention so commands pass faster.\n\nThe source also claims a new GCC release fixes the issue, a replacement tool is planned for the next generation and a Chinese representative discussed staffing of the former GCC team. No first-party version notes or statements establish the fix chronology, personnel claims or all-GPU impact. Retrieval confirms attribution, full wording and image/video presence, not a viewing of attachments or the bilibili original. No patch, function analysis, model identity, frame-time traces or controlled comparison was obtained. One month is relayed investigation time, not timing here. Causality and improvement remain secondary research claims, not an independent diagnosis or benchmark.\n\nAt 22:01:00 on November 27, Pirat_Nation (@Pirat_Nation) posts a separate summary claiming a researcher used AI and reverse engineering for a month to find a fix, that Gigabyte's update fixed it and that the entire Control Center team was fired. Its sealed 2,269 likes, 93,858 views, 75 reposts and 75 replies document circulation of the investigation, not another independent reproduction. No vendor statement, fix revision or technical record accompanies it, so the stronger staffing wording is not accepted as fact and two relaying accounts are not two independent experiments. Retrieval confirmed account and full wording only. No software, driver or firmware was run; REA is unmentioned and status remains unverified.",
+      "metadata":["November 26 sealed snapshot: 9 likes, 424 views, 0 reposts, 0 replies. Video not watched; driver/GCC release fixes unchecked.","November 27 Pirat_Nation candidate snapshot: 2,269 likes, 93,858 views, 75 reposts, 75 replies. Circulation does not validate firing or fix claims."],
+      "source_labels":["UNIKO's Hardware relays 51972's GCC/RGB stutter investigation, November 26, 2026 at 01:32:13 Beijing time","Pirat_Nation's secondary summary and circulation snapshot, November 27, 2026 at 22:01:00 Beijing time; no first-party verification added"]
     }
   },
   {

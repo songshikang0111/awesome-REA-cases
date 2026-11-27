@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2904 个案例与项目
+# 2915 个案例与项目
 
-**最近案例更新：**2026 年 11 月 27 日 20:12 · **最近维护：**2026 年 11 月 27 日 20:12 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 28 日 00:12 · **最近维护：**2026 年 11 月 28 日 00:12 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,7 +22,7 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：恢复编译器、追查重试行为、保存游戏，让设备重新互通。先看作者报告的检查与限制：字节匹配、可用移植和进度评分不是同一种结论。下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：恢复编译器、追查跟着灯效走的卡顿、保存游戏，让设备重新互通。先看检查与限制：字节匹配、项目测试和广泛传播的报告不是同一种证据。下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[OpenGlass Go：重新开放裸眼3D屏](cases/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22`作者串与固定构建文档 — Megabits将**逆向和初期代码归功Kimi，Armbian固件收尾归功Gemini Neon**。公开文档列3D媒体播放、文件传输与STM32控制；真机测试为项目自报，内核bug仍待提交。本合集未构建或刷写。`进行中`
@@ -33,7 +33,7 @@
 7. **[Elecbrakes：研究拖车的蓝牙刹车](cases/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19`研究者原文；`2026-11-20`CVE登记 — Forck与McCarthy用**Claude读字节码、做研究工具**，再报告自有硬件测试。EB2／VM1修复有文档，旧ELBC 2000截至原文无修复；固件静态分析没有证明恶意刷写。本合集未复现。`未独立核验`
 8. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22`介绍与固定文档 — Agent按录制行为写Rust，新文档报告**17224次字节一致，15861次全在Rust**，其余回退。此前M4基准中CLI约19倍含进程启动优势，预热进程内为4.2倍。录制会真实执行副作用，须用隔离副本；本合集未重跑。`未独立核验`
 9. **[echo-dot-assist：保留麦克风，换掉Alexa](cases/echo-dot-assist-claude-hassmic-home-assistant.md)** · `2026-11-24`介绍与固定README — **Claude参与的hassmic让旧Echo接Home Assistant**，保留原音频前端；解锁研究归R0rt1z2。项目每型号仅测一台，代码未经审计，安装会清空设备且可能变砖；本合集未验证网络隔离。`进行中`
-10. **[curl.exe：查清请求何时重试](cases/nate-brooks-curl-retry-claude-rea-analysis.md)** · `2026-11-27`作者串 — Nate报告**Claude／REA用8次工具调用**，随后将8种HTTP状态码、退避常量与源码对照，并用本地服务器检查。目标修订与完整日志未公开；这是作者报告的对照，不是本合集重跑。`分析测试`
+10. **[技嘉GCC：游戏卡顿为何跟着RGB灯走](cases/51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation.md)** · `2026-11-26`研究转述；`2026-11-27`二手更新 — 报道将**RGB与GPU通信争用的AI辅助调查归功51972**，而非单独归咎CPU。未取得补丁或帧时间对照；广传的修复与人事说法没有厂商确认，本合集未复现。`二手报告`
 
 ## 经典案例
 
@@ -50,10 +50,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **567** |
-| [硬件与设备互通](categories/hardware.md) | **762** |
-| [应用与客户端](categories/apps.md) | **1205** |
-| [算法与功能重建](categories/algorithms.md) | **370** |
+| [游戏与游戏保存](categories/games.md) | **568** |
+| [硬件与设备互通](categories/hardware.md) | **765** |
+| [应用与客户端](categories/apps.md) | **1211** |
+| [算法与功能重建](categories/algorithms.md) | **371** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Halo Wars接Halo 3：AI辅助重写引擎、实现太空到地面战役的idea](../cases/halo-wars-halo3-ai-orbit-to-ground-campaign-idea.md) — @outofwritings设想AI继续辅助反编译并重写引擎，把Halo Wars接入Halo 3，形成Battlefront 2式轨道到地面战役；没有实施。 **[其他 AI 逆向 · 待验证]**
 - [PortWatch VI：让Claude辅助读仓库与标记GTA VI移植宣称的追踪站](../cases/portwatch-vi-claude-reverse-project-evidence-tracker.md) — Kaiku介绍GTA VI社区移植追踪站；固定文档描述Claude读README与提交、辅助筛候选和评分。它追踪逆向进展，不反编译游戏，分数和倒计时不是可玩性验证。 **[其他 AI 逆向 · 相关项目]**
 - [把GTA VI重写成Rust再开源：Jhoan给Claude／REA的愿望式idea](../cases/jhoan-gta-vi-claude-rea-rust-rewrite-idea.md) — Jhoan H. Magno以命令式玩笑提出Claude用REA重写GTA VI为Rust并开源；没有报告已运行Agent、恢复源码或完成移植。 **[REA · 待验证]**
 - [SF2X Online：ESPARTACO披露AI辅助反编译，推出Windows对战beta](../cases/sf2x-online-espartaco-ai-assisted-decompilation-beta.md) — Gisleno ESPARTACO称SF2X Online基于其AI辅助反编译，发布免费Windows beta，介绍回滚网络与TURBO 3；多人模式及训练功能须区分目标与验收。 **[其他 AI 逆向 · 进行中]**
