@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [WallStreet Forex Robot：从2016年黑箱重建回忆提出多AI Agent研究idea](../cases/wallstreet-forex-robot-multiagent-blackbox-idea.md) — EA Forex LAB回忆论坛合作分析夜间剥头皮EA，提出数百AI Agent分析行为与验证假设；未报告AI方案已实施或盈利验证。 **[其他 AI 逆向 · 待验证]**
 - [Pocket增长拆解：Ethan用Composio查多API，再生成HTML轮播](../cases/ethan-composio-pocket-growth-playbook-analysis.md) — Ethan Walkrman称Agent借Composio Instant查15余付费API，以约0.20美元研究Pocket流量、广告和搜索，再转为HTML幻灯；指标未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [Hyper AI增长研究：Haris报告Composio与Agent跑出playbook](../cases/haris-composio-hyper-ai-growth-playbook.md) — Haris称用Composio投篮界面取Hyper AI数据，再让Agent重建增长playbook，花0.153美元；未公开具体结论或账单。 **[其他 AI 逆向 · 待验证]**
 - [真机视频反推具身环境：Techub_News介绍的AI机器人训练方向](../cases/techub-ai-real-robot-video-environment-reconstruction.md) — Techub_News称AI可从真实机器人视频反推并生成万套训练环境；只取得简短介绍，没有项目、论文或规模验证。 **[其他 AI 逆向 · 待验证]**

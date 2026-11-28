@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Open Ultima 8 v0.5.8：Claude辅助Rust重建《创世纪VIII》引擎的转述](../cases/open-ultima8-rust-claude-engine-v058.md) — The Gaming Emporium转述fswolf的Claude辅助Rust引擎；固定README明确复用Pentagram／ScummVM知识、读取U8.EXE武器表及存档sidecar，未验证全流程可玩。 **[其他 AI 逆向 · 待验证]**
+- [冷启动退全屏：Gemini分析metadata与汉化DLL的修复转述](../cases/gemini-unity-versiondll-fullscreen-localization-fix.md) — JJBond转述Gemini解析global-metadata.dat，定位汉化插件version.dll并补丁后重启验证；游戏未具名，没有可核补丁或独立回归。 **[其他 AI 逆向 · 待验证]**
 - [Network Quest：以逆向Sierra代码为灵感，用AI循环制作网络分层冒险游戏](../cases/capobianco-network-quest-sierra-code-ai-project.md) — John Capobianco称以逆向Sierra代码为灵感，用Astra GPT 6.2等制作Network Quest；当前聚焦物理层，七层关卡与开源仍属计划。 **[其他 AI 逆向 · 进行中]**
 - [C64魔界村到浏览器：dgerogpt报告Codex、GPT-6.2与Ghidra半小时实验](../cases/dgerogpt-c64-ghosts-goblins-codex-ghidra-browser.md) — dgerogpt称逆向1986年C64魔界村并做出无需模拟器的浏览器版，约半小时；没有源码、匹配检查或独立实玩记录。 **[其他 AI 逆向 · 待验证]**
 - [224GB所谓GTA VI构建的静态调查：rootcmoi承认用AI，也遭全量分析质疑](../cases/rootcmoi-alleged-gta6-build-ai-ghidra-static-review.md) — 本窗口两条评论质疑Claude／Ghidra筛查224GB的范围；rootcmoi解释自动化PE解析和完整性检查，只读研究未识别恶意代码不等于安全。 **[其他 AI 逆向 · 分析测试]**
@@ -273,7 +275,7 @@
 - [Weely的游戏研究分工：Claude负责逆向，ChatGPT处理其余工作](../cases/weely-claude-chatgpt-game-reversing-division-report.md) — Weely在Super Wrestlemania展示串中称Claude帮助逆向、ChatGPT更适合其他工作；尚不能确认两者是同一项目或已有可玩产物。 **[其他 AI 逆向 · 待验证]**
 - [Sonic Unleashed：Claude辅助粉丝反编译与PC移植预告](../cases/sonic-unleashed-claude-fan-decompilation-announcement.md) — 发布者宣布Claude辅助的Sonic Unleashed反编译与PC移植，称昼夜关卡、Werehog与boost玩法将来PC；没有可核验构建或完成证据。 **[其他 AI 逆向 · 进行中]**
 - [GameFrame：转述REA／Ghidra／Unicorn旧游戏重建技能链与POD测试边界](../cases/gameframe-legacy-game-agent-reconstruction-skills.md) — 新介绍把GameFrame具体化为Agent技能链，称底层使用REA、Ghidra与Unicorn；兼容DLL仅报告Wine下POD测试，不代表全平台游戏已重建。 **[REA · 相关项目]**
-- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增11月26日贡献者与Claude署名全库快照转述；旧21／400等计数仍缺固定集合，来源争议未解，少数游戏演示也不证明GTA6可玩。 **[其他 AI 逆向 · 待验证]**
+- [AnyPS5：读者称AI加速PS5系统调用研究，兼容层与可玩性未核验](../cases/anyps5-ai-syscall-compatibility-layer-report.md) — AnyPS5新增11月28日系统库47.63%与两组着色器解码口径转述；与旧覆盖数不可直接比较，署名集合及来源争议未解，不证明GTA6可玩。 **[其他 AI 逆向 · 待验证]**
 - [Eden-NS2：Switch 2社区模拟器兼容性转述，AI具体贡献未确认](../cases/eden-ns2-switch2-ai-era-emulator-report.md) — 帖子称Eden社区分支新增Switch2游戏支持，列Donkey Kong、Mario Kart等兼容与图形缺陷；仅泛称AI时代，未证明AI直接参与开发或性能。 **[未确认使用 REA · 待验证]**
 - [荣誉勋章欧洲战役：Claude辅助Xbox静态重编译，作者自测Windows移植](../cases/moh-european-assault-xbox-claude-pc-port.md) — 公开项目称Claude互动逆向、作者真机测试，把Xbox版移植Windows并改鼠标、渲染和音频；主体不开源，高帧率与部分Mod仍有限制。 **[其他 AI 逆向 · 进行中]**
 - [Sonic Adventure日版：Claude与Codex辅助Dreamcast匹配反编译及GCC移植](../cases/sonic-adventure-dreamcast-claude-codex-decompilation.md) — Kyle Mayer报告四周AI辅助反编译并花数百小时打磨；公开项目报告247个二进制匹配，另有GCC移植，未在此重建光盘。 **[其他 AI 逆向 · 分析测试]**

@@ -2,6 +2,12 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [Keeper匹配偏好去了哪里：Neon反查Claude代码与Agent日志的二手审计报告](../cases/keeper-neon-matching-preference-code-audit-report.md) — lifcc转述Keeper用Neon从代码、Slack、PR与Agent日志还原偏好过滤，约6.5%样本整组偏好丢失；未独立审代码，不能证明蓄意投毒或完全隐瞒。 **[其他 AI 逆向 · 分析测试]**
+- [stealthprint网关研究：lifcc审读Claude日志，区分方案省略与代码暗改](../cases/stealthprint-claude-gateway-protocol-log-audit.md) — lifcc称扫描165个Claude会话，回查stealthprint模型指纹与CLI协议研究；报告两次方案过滤，但明确代码写入与提交干净，未证实投毒。 **[其他 AI 逆向 · 分析测试]**
+- [Lumzel 0.4.5：私有用量API与官方CLI执行分开处理](../cases/lumzel-045-private-usage-api-cli-bridge.md) — Lumzel介绍用非公开Agent接口查用量／重置次数，以全局开关应对风控风险；实际Agent任务仍走官方CLI，Codex另用ACP。 **[未确认使用 REA · 相关项目]**
+- [Codex 0.169.0控屏架构：源码观察与闭源执行器转述分开看](../cases/codex-01690-cua-repl-source-architecture-analysis.md) — 作者报告阅读Codex d32063f9源码，把常驻cua_repl、批量JS与安全壳同社区对Sky执行器的逆向区分；提出可复用harness思路，未验证客户端实现。 **[未确认使用 REA · 分析测试]**
+- [ChatGPT广告与引用：Aryan报告变体、IP定位及Reddit检索差异](../cases/aryan-chatgpt-ad-variants-ip-citation-investigation.md) — Aryan称研究ChatGPT后看到多广告版本仅展示一个、广告随IP定位，以及Reddit检索136次零引用；方法、地区与样本未给，不能泛化。 **[未确认使用 REA · 待验证]**
+- [Kimi逆向root工具：Megabits报告Gemini拒改后又接受修改](../cases/megabits-kimi-root-tool-gemini-revision-report.md) — Megabits称用Kimi逆向制作root工具，Gemini先拒绝改进，关键词脱敏后又修改；平台、漏洞与结果未给，不并入OpenGlass固件。 **[其他 AI 逆向 · 待验证]**
 - [仅存Pascal可执行文件的Lsystem程序：Guygies想用REA恢复](../cases/guygies-pascal-lsystem-rea-preservation-idea.md) — Guygies拥有停更Lsystem程序的旧Pascal可执行文件，想到交给REA研究；是具体保存idea，尚无分析或重建结果。 **[REA · 待验证]**
 - [blue-harness：给自有原生程序加固，以单次7B模型实验衡量AI逆向成本](../cases/blue-harness-native-ai-reversing-defense-benchmark.md) — Python Hub介绍blue-harness审计、加固与验证；固定文档报告小型4-bit 7B模型一次前后对照，未破解加固样本不等于抵挡强模型。 **[其他 AI 逆向 · 分析测试]**
 - [Thumbwise：研究iOS主屏布局存储，再让Claude／Codex经MCP整理应用](../cases/thumbwise-ios-home-screen-reverse-mcp-agent-layout.md) — Drake称逆向iOS主屏存储做出Thumbwise，并开放MCP给Agent；网站说明授权读布局与使用数据、人工确认后Apply，未证AI参与底层逆向。 **[其他 AI 逆向 · 相关项目]**
@@ -133,7 +139,7 @@
 - [RhinoAI：让Claude／Codex研究已有几何并编辑Grasshopper定义的转述](../cases/rhinoai-mcp-existing-geometry-grasshopper-report.md) — Marko称RhinoAI通过MCP让Agent操作几何、插件与Grasshopper图，演示含草图到参数模型和已有几何逆向；未核发布版本或几何准确率。 **[其他 AI 逆向 · 相关项目]**
 - [人在园艺，Claude做反编译：Markov的低细节进行中自述](../cases/markov-claude-decompilation-optimization-gardening-report.md) — Markov说当天自己园艺时让Claude Code做反编译和优化；未指明软件、结果或测试，不与其他项目合并。 **[其他 AI 逆向 · 进行中]**
 - [三层视差动态壁纸：Claude提示重建Android倾斜效果，而非APK破解](../cases/android-parallax-wallpaper-claude-behavior-recreation-idea.md) — 帖子给Claude写Kotlin WallpaperService的具体提示，三图层按倾斜反向移动、低通平滑与呼吸光效；只是公开API的行为复建方向，未展示运行。 **[其他 AI 逆向 · 待验证]**
-- [CLI-Anything：从源码生成Agent命令行层，补充运行与遥测边界](../cases/cli-anything-source-analysis-agent-cli-pipeline.md) — HKUDS CLI-Anything用AI分析源码、生成操作真实后端的CLI；Felix补述源码、本机应用、强模型和refine前提，以及PostHog关闭选项，明确未亲测。 **[其他 AI 逆向 · 相关项目]**
+- [CLI-Anything：从源码生成Agent命令行层，补充运行与遥测边界](../cases/cli-anything-source-analysis-agent-cli-pipeline.md) — HKUDS CLI-Anything用AI分析源码、为真实后端造CLI；新介绍转述约79个registry CLI与30套harness的2464项测试，保留源码、模型、refine与本机执行风险。 **[其他 AI 逆向 · 相关项目]**
 - [六种Ghidra MCP比较：whyamas按连接、安装与许可选择Agent入口](../cases/six-ghidra-mcp-servers-comparison-guide.md) — whyamas称比较六种Ghidra MCP服务，建议GhidraMCP快速接Claude Code、pyghidra-mcp或ReVa做无头分析、REA处理非原生目标；未读完整对照文或安装验证。 **[未确认使用 REA · 相关项目]**
 - [Bridge Anything：用REA映射无API旧软件的数据，再做REST／MCP／CLI桥接](../cases/bridge-anything-rea-legacy-data-adapters.md) — Viho.AI介绍Artesiana的bridge-anything技能：授权安装副本上找数据、单次操作差分并对照界面，再建薄适配层；公开README支持流程设计，未验证实际客户桥接。 **[REA · 相关项目]**
 - [DeepSeek Flash绕圈四小时：梦报告逆向仍需人工纠偏](../cases/deepseek-flash-four-hour-reversing-loop-report.md) — 梦称DeepSeek Flash逆向时绕圈四小时，随后自己纠偏；没有给目标名或纠偏后成功结果，保留受阻实验。 **[其他 AI 逆向 · 分析测试]**

@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Roomba e5换电池后报错：wangtangkiki想找REA研究路径](../cases/roomba-e5-rea-battery-error11-error17-idea.md) — 作者称Roomba e5从错误11变为换电池后的17，猜测非原厂电池问题并征求REA帮助；尚无诊断或修复。 **[REA · 待验证]**
+- [Alpha手机系统：Shaw以Pixel设备树为起点，提醒AI移植可能变砖](../cases/pixel-device-tree-ai-phone-deployment-progress.md) — Shaw回应旧Android支持问题，称Alpha先做已有设备树的Pixel，其他设备须公开或逆向设备树；跨机型部署仍是作者意图。 **[其他 AI 逆向 · 进行中]**
 - [nvdriver：Eric Hartford用REA研究V100驱动，项目报告Rust重建与真机对照](../cases/quixiai-nvdriver-v100-rea-rust-driver-research.md) — Eric Hartford因V100不能使用NVIDIA开放驱动而研究驱动；nvdriver文档报告Rust重建580.178.04与V100测试，其他架构仍主要离线验证。 **[REA · 进行中]**
 - [Tesla节能模式开不了空调：Codex固件热补丁建议尚未执行](../cases/engelhardt-tesla-ble-climate-codex-hotpatch-idea.md) — Christoph Engelhardt报告Tesla BLE的Climate thermostat ON在节能模式失败，称Codex建议固件热补丁；只是一则求解与idea。 **[其他 AI 逆向 · 待验证]**
 - [鼠标增加原厂没有的功能：danci的Agent逆向自述](../cases/dncipnci-agent-mouse-oem-feature-extension.md) — danci称不熟悉逆向，但自己的Agent研究了鼠标并添加OEM固件没有的功能；未给型号、功能或实现。 **[其他 AI 逆向 · 待验证]**
