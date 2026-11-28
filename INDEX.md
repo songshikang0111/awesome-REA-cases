@@ -2051,7 +2051,7 @@
 - [Clean Room：PixelRainbow以REA输出行为规格与隔离会话重建提示的bot](cases/clean-room-rea-behavior-spec-prompt-bot.md) — REA行为规格与新会话提示交接bot；作者新增函数级Swarm、混淆研究与50输入默认对照要求，明确模板裁判已更新而live bot仍旧，未给执行验收。 **[REA · 相关项目]**
 - [SAP：读者提出用REA逆向企业软件的愿望](cases/sap-rea-reverse-engineering-wish.md) — 作者问还要多久才有人逆向SAP，并附REA标签；具体到企业软件产品家族，但没有模块、版本、方案或已启动证据。 **[REA · 待验证]**
 - [Electron隐藏网络调用：作者报告REA在30秒内命中自建样本答案](cases/rea-electron-hidden-network-call-blind-test.md) — 既有自建Electron样本报告30秒命中结构与隐藏调用；11月2日新帖补充真实100MB应用有漏项，两类说法均未独立重跑。 **[REA · 分析测试]**
-- [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[未确认使用 REA · 相关项目]**
+- [Privy CLI：从控制台请求恢复接口，供Agent管理开发账号](cases/privy-cli-dashboard-api-agent-management.md) — Samarth公开非官方Privy管理CLI，将控制台网络请求整理为Agent可用命令；npm确认0.1.0已发布，文档明确不是钱包签名工具、未文档化接口会变，未运行验收。 **[其他 AI 逆向 · 相关项目]**
 - [Mac听写应用：Chrome转述REA／Hopper先写行为规格再重建](cases/chromium-rea-hopper-mac-dictation-rebuild-report.md) — Chrome转述三部分教程，以Hopper输出辨识Mac听写应用的热键、录音和本地转写，再按文字规格构建自己的版本；软件名称、源码与等价测试未给出。 **[REA · 待验证]**
 - [浏览器连回Omarchy：Patrick称Grok Bot与Claude研究Google远程桌面](cases/journeydeck-google-remote-desktop-claude-omarchy.md) — Patrick称只用浏览器与Cloudflare账号连回家中Omarchy电脑；后续承认延迟很差，仅用于Claude、复制粘贴与终端，安全性未验证。 **[其他 AI 逆向 · 待验证]**
 - [Blademap：James提出截图加行情订阅的AI重建想法](cases/blademap-ai-screenshot-market-data-rebuild-idea.md) — James建议用Blademap界面截图和已有市场数据订阅让AI重建产品，并声称可反编译获取更多后端数据；没有实施、授权或数据可取得的证据。 **[其他 AI 逆向 · 待验证]**
