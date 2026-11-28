@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [nvdriver：Eric Hartford用REA研究V100驱动，项目报告Rust重建与真机对照](../cases/quixiai-nvdriver-v100-rea-rust-driver-research.md) — Eric Hartford因V100不能使用NVIDIA开放驱动而研究驱动；nvdriver文档报告Rust重建580.178.04与V100测试，其他架构仍主要离线验证。 **[REA · 进行中]**
+- [Tesla节能模式开不了空调：Codex固件热补丁建议尚未执行](../cases/engelhardt-tesla-ble-climate-codex-hotpatch-idea.md) — Christoph Engelhardt报告Tesla BLE的Climate thermostat ON在节能模式失败，称Codex建议固件热补丁；只是一则求解与idea。 **[其他 AI 逆向 · 待验证]**
 - [鼠标增加原厂没有的功能：danci的Agent逆向自述](../cases/dncipnci-agent-mouse-oem-feature-extension.md) — danci称不熟悉逆向，但自己的Agent研究了鼠标并添加OEM固件没有的功能；未给型号、功能或实现。 **[其他 AI 逆向 · 待验证]**
 - [Fujifilm XF10固件改进尝试：Max Rozen称Claude拒读，Codex较愿推进](../cases/maxrozen-fujifilm-xf10-claude-codex-firmware-attempt.md) — Max Rozen想改善自有XF10相机固件，称Claude不愿看文件，Codex较愿尝试；尚无固件分析结果、修改或刷写测试。 **[其他 AI 逆向 · 进行中]**
 - [Samsung Music Frame连不上：Parth Patil报告Neon经ADB追查信道与插件](../cases/ppatil-samsung-music-frame-neon-adb-diagnostics.md) — Parth Patil称Neon／Antigravity分析手机BLE日志、对比Wi-Fi信道并修SmartThings数据，让新Music Frame连上5GHz和Q-Symphony；无独立复测。 **[其他 AI 逆向 · 待验证]**
@@ -66,7 +68,7 @@
 - [16英寸M5 Pro跑Omarchy：Julian Arango称Claude辅助修安装器与Wi-Fi](../cases/julian-arango-16inch-m5-pro-omarchy-claude-report.md) — Julian Arango报告一个周末用Claude Code适配16英寸MacBook Pro M5 Pro，修设备树等待与WPA混合模式；音频、GPU、相机仍待修，未审上游补丁。 **[其他 AI 逆向 · 进行中]**
 - [自有HP M283fdw驱动与固件：Simon报告开始使用REA研究](../cases/closedntwrk-rea-hp-m283fdw-driver-firmware-project.md) — Simon／ClosedNtwrk称正在用REA逆向自己的HP Color LaserJet MFP M283fdw驱动和固件；目标明确，尚无改动、测试或功能结果。 **[REA · 进行中]**
 - [LTO8迁移与Linux HBA：作者称AI加Ghidra修复磁带设备内核崩溃](../cases/as400-lto8-linux-hba-ai-ghidra-debug-report.md) — 为AS/400客户迁移大量数据，作者称AI找Linux磁带支持缺口、人工保留设备操作码，再让Claude测电源循环，最后结合Ghidra修内核崩溃；补丁与设备矩阵未公开。 **[其他 AI 逆向 · 待验证]**
-- [Vita3K里的固件研究：Farenain尝试用hypercall连接LLM分析与内部fuzz驱动](../cases/llm-firmware-emulator-hypercall-fuzzing-idea.md) — Farenain称启动Vita3K的PS Vita内部库fuzz项目，建议仿真器外LLM接反汇编器、内部driver执行测试；未报告接通、覆盖率或漏洞。 **[其他 AI 逆向 · 进行中]**
+- [Vita3K里的固件研究：Farenain尝试用hypercall连接LLM分析与内部fuzz驱动](../cases/llm-firmware-emulator-hypercall-fuzzing-idea.md) — Farenain更新Vita3K固件fuzz项目：用ChatGPT推进，称LLM已反汇编固件并为内部driver选测试函数；没有端到端执行、覆盖率或漏洞记录。 **[其他 AI 逆向 · 进行中]**
 - [十年旧键盘换QMK-VIA：eastwoodnet称AI辅助加RGB效果](../cases/ten-year-keyboard-ai-qmk-via-rgb-report.md) — eastwoodnet称给用了十年的键盘改上QMK-VIA固件并添加RGB；没有型号、矩阵、源码或刷写测试，不推断AI恢复了原厂协议。 **[其他 AI 逆向 · 待验证]**
 - [Kosmos CP1到MiSTer：转述Claude Code参与8049核心与63个程序](../cases/kosmos-cp1-mister-claude-8049-core-report.md) — Pixel Cherry Ninja转述lambdamikel：1983年CP1教学计算机以Verilog 8049运行原固件，附63个程序并提Claude Code；AI具体贡献与实机兼容未核。 **[其他 AI 逆向 · 待验证]**
 - [两台Yoto接自有有声书服务器：Claude Code固件的二手复活报告](../cases/yoto-two-players-claude-audiobook-firmware-secondary-report.md) — Rumbo转述一位父亲借Claude Code固件重用两台无厂商支持的Yoto儿童播放器，人工开壳、焊接并检查；原作者、型号、源码和连接测试未获。 **[其他 AI 逆向 · 待验证]**

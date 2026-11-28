@@ -8,9 +8,9 @@
 
 A curated collection of **AI-assisted reverse-engineering projects, experiments, and ideas** for device interoperability, behavior-preserving app rebuilding and game preservation—including failed attempts and author corrections.
 
-# 2924 cases & projects
+# 2933 cases & projects
 
-**Latest case update:** November 28, 2026, 04:05 · **Last maintained:** November 28, 2026, 04:05 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
+**Latest case update:** November 28, 2026, 08:06 · **Last maintained:** November 28, 2026, 08:06 · Beijing time (UTC+8). Counts as of this maintenance; source dates and the continuous evidence cutoff are separate.
 
 Updates **6× daily** · [Full index](INDEX.en.md) · [Browse categories](#browse-by-category)
 
@@ -22,7 +22,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 ## Recent picks
 
-**10 worth reading**: recover a compiler, investigate RGB-linked stutter, preserve a game or reopen a device. Read the checks and their limits: byte matches, project tests and widely shared reports are different evidence. Dates identify sources or author updates, not collection dates.
+**10 worth reading**: recover a compiler, reopen a GPU driver, preserve a game or reconnect a device. Read the checks and their limits: byte matches, project tests and hardware reports are different evidence. Dates identify sources or author updates, not collection dates.
 
 1. **[borland-reborn: recover a 1991 compiler](cases/en/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14` report and pinned docs — Exhume's Claude Code skills support **reportedly byte-identical BCC.EXE/CPP.EXE rebuilds**. A separate modding build has 1,836 compile comparisons and 83% coverage, not every path or uniquely recovered original source. Not rebuilt here. `Unverified here`
 2. **[OpenGlass Go: reopen a glasses-free 3D display](cases/en/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22` author thread and pinned builder docs — Megabits credits **Kimi for reversing and early code, Gemini Neon for finishing Armbian firmware**. Public docs describe 3D media playback, file transfer and STM32 control. Hardware testing is project-reported; the kernel bug awaits submission. Not built or flashed here. `In progress`
@@ -33,7 +33,7 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 7. **[Elecbrakes: audit a trailer's Bluetooth brakes](cases/en/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19` researcher account; `2026-11-20` CVE record — Forck and McCarthy credit **Claude with bytecode analysis and research tooling**, then report tests on their own hardware. EB2/VM1 fixes are documented; older ELBC 2000 had no fix at publication. Static firmware analysis did not demonstrate malicious flashing. Not reproduced here. `Unverified here`
 8. **[rust-anything: rebuild Prettier without guessing its output](cases/en/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22` report and pinned docs — Agents write Rust against recorded behavior. Updated project docs report **17,224 byte-identical runs, 15,861 fully in Rust**; the rest fall back. The earlier M4 benchmark's roughly 19× CLI gain includes process startup, versus 4.2× warmed in-process. Recording runs real side effects; use isolated copies. Not rerun here. `Unverified here`
 9. **[echo-dot-assist: keep the microphones, replace Alexa](cases/en/echo-dot-assist-claude-hassmic-home-assistant.md)** · `2026-11-24` introduction and pinned README — **Claude-credited hassmic connects old Echos to Home Assistant**, keeping the original audio front end. Unlocking research belongs to R0rt1z2. Only one unit per model was tested by the project; code is unaudited and installation can wipe or brick a device. Network isolation is not verified here. `In progress`
-10. **[Gigabyte GCC: when game stutter follows the RGB lights](cases/en/51972-gigabyte-gcc-ai-rgb-driver-stutter-investigation.md)** · `2026-11-26` research account; `2026-11-27` secondary update — Reports credit **51972's AI-assisted investigation of RGB/GPU communication contention**, rather than blaming the CPU alone. No patch or frame-time comparison was obtained; viral repair and staffing claims lack vendor confirmation. Not reproduced here. `Secondary report`
+10. **[nvdriver: take control of a V100 driver](cases/en/quixiai-nvdriver-v100-rea-rust-driver-research.md)** · `2026-11-28` author report and pinned docs — Eric Hartford credits **REA for a Rust reconstruction of NVIDIA 580.178.04**. The project reports eight-V100 comparisons; a four-card PyTorch/NCCL record was read, not rerun. Other architectures remain offline-checked, not hardware-proven. Vendor-motive claims are the author's interpretation. `In progress`
 
 ## Classic cases
 
@@ -50,9 +50,9 @@ Covers [REA](https://github.com/morluto/rea) and other AI-assisted work. REA con
 
 | Category | Entries |
 | :--- | ---: |
-| [Games & preservation](categories/en/games.md) | **570** |
-| [Hardware & interoperability](categories/en/hardware.md) | **767** |
-| [Applications & clients](categories/en/apps.md) | **1214** |
+| [Games & preservation](categories/en/games.md) | **574** |
+| [Hardware & interoperability](categories/en/hardware.md) | **769** |
+| [Applications & clients](categories/en/apps.md) | **1217** |
 | [Algorithms & feature recovery](categories/en/algorithms.md) | **373** |
 
 [**View all cases →**](INDEX.en.md) · [Contribute (中文)](CONTRIBUTING.md) · [Maintenance (中文)](MAINTENANCE.md)

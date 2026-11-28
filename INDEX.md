@@ -10,13 +10,13 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2924 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2933 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（570）
-- [硬件与设备互通](categories/hardware.md)（767）
-- [应用与客户端](categories/apps.md)（1214）
+- [游戏与游戏保存](categories/games.md)（574）
+- [硬件与设备互通](categories/hardware.md)（769）
+- [应用与客户端](categories/apps.md)（1217）
 - [算法与功能重建](categories/algorithms.md)（373）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
@@ -26,6 +26,10 @@
 
 ### 游戏与游戏保存
 
+- [Network Quest：以逆向Sierra代码为灵感，用AI循环制作网络分层冒险游戏](cases/capobianco-network-quest-sierra-code-ai-project.md) — John Capobianco称以逆向Sierra代码为灵感，用Astra GPT 6.2等制作Network Quest；当前聚焦物理层，七层关卡与开源仍属计划。 **[其他 AI 逆向 · 进行中]**
+- [C64魔界村到浏览器：dgerogpt报告Codex、GPT-6.2与Ghidra半小时实验](cases/dgerogpt-c64-ghosts-goblins-codex-ghidra-browser.md) — dgerogpt称逆向1986年C64魔界村并做出无需模拟器的浏览器版，约半小时；没有源码、匹配检查或独立实玩记录。 **[其他 AI 逆向 · 待验证]**
+- [224GB所谓GTA VI构建的静态调查：rootcmoi承认用AI，也遭全量分析质疑](cases/rootcmoi-alleged-gta6-build-ai-ghidra-static-review.md) — 本窗口两条评论质疑Claude／Ghidra筛查224GB的范围；rootcmoi解释自动化PE解析和完整性检查，只读研究未识别恶意代码不等于安全。 **[其他 AI 逆向 · 分析测试]**
+- [给妈妈重建iOS游戏却丢进度：zombodb的AI反编译侧载自述](cases/zombodb-ios-game-ipa-ai-rebuild-progress-loss-report.md) — zombodb称AI把IPA反编译成C++、建Xcode工程并去广告侧载，但母亲从6000关回到1关；诙谐自述无代码或验证，游戏身份未确认。 **[其他 AI 逆向 · 待验证]**
 - [想弄懂游戏渲染：Yote用Claude与Ghidra研究未具名游戏](cases/pneumatic-yote-claude-ghidra-game-rendering-study.md) — Yote称一直用Claude、Ghidra等工具研究一款游戏的渲染，目前没遇到拒绝；游戏与研究发现未公开。 **[其他 AI 逆向 · 进行中]**
 - [GTA6断网反编译：Shadow称使用Claude，也警告别把传闻当正式版](cases/shadowfr94-gta6-claude-offline-decompilation-report.md) — Shadow在GTA6 PC运行讨论下称用Claude、在断网PC上反编译，并批评代码质量；未给样本、过程或测试，不能确认恶意代码或硬件损坏。 **[其他 AI 逆向 · 待验证]**
 - [Halo Wars接Halo 3：AI辅助重写引擎、实现太空到地面战役的idea](cases/halo-wars-halo3-ai-orbit-to-ground-campaign-idea.md) — @outofwritings设想AI继续辅助反编译并重写引擎，把Halo Wars接入Halo 3，形成Battlefront 2式轨道到地面战役；没有实施。 **[其他 AI 逆向 · 待验证]**
@@ -599,6 +603,8 @@
 
 ### 硬件与设备互通
 
+- [nvdriver：Eric Hartford用REA研究V100驱动，项目报告Rust重建与真机对照](cases/quixiai-nvdriver-v100-rea-rust-driver-research.md) — Eric Hartford因V100不能使用NVIDIA开放驱动而研究驱动；nvdriver文档报告Rust重建580.178.04与V100测试，其他架构仍主要离线验证。 **[REA · 进行中]**
+- [Tesla节能模式开不了空调：Codex固件热补丁建议尚未执行](cases/engelhardt-tesla-ble-climate-codex-hotpatch-idea.md) — Christoph Engelhardt报告Tesla BLE的Climate thermostat ON在节能模式失败，称Codex建议固件热补丁；只是一则求解与idea。 **[其他 AI 逆向 · 待验证]**
 - [鼠标增加原厂没有的功能：danci的Agent逆向自述](cases/dncipnci-agent-mouse-oem-feature-extension.md) — danci称不熟悉逆向，但自己的Agent研究了鼠标并添加OEM固件没有的功能；未给型号、功能或实现。 **[其他 AI 逆向 · 待验证]**
 - [Fujifilm XF10固件改进尝试：Max Rozen称Claude拒读，Codex较愿推进](cases/maxrozen-fujifilm-xf10-claude-codex-firmware-attempt.md) — Max Rozen想改善自有XF10相机固件，称Claude不愿看文件，Codex较愿尝试；尚无固件分析结果、修改或刷写测试。 **[其他 AI 逆向 · 进行中]**
 - [Samsung Music Frame连不上：Parth Patil报告Neon经ADB追查信道与插件](cases/ppatil-samsung-music-frame-neon-adb-diagnostics.md) — Parth Patil称Neon／Antigravity分析手机BLE日志、对比Wi-Fi信道并修SmartThings数据，让新Music Frame连上5GHz和Q-Symphony；无独立复测。 **[其他 AI 逆向 · 待验证]**
@@ -663,7 +669,7 @@
 - [16英寸M5 Pro跑Omarchy：Julian Arango称Claude辅助修安装器与Wi-Fi](cases/julian-arango-16inch-m5-pro-omarchy-claude-report.md) — Julian Arango报告一个周末用Claude Code适配16英寸MacBook Pro M5 Pro，修设备树等待与WPA混合模式；音频、GPU、相机仍待修，未审上游补丁。 **[其他 AI 逆向 · 进行中]**
 - [自有HP M283fdw驱动与固件：Simon报告开始使用REA研究](cases/closedntwrk-rea-hp-m283fdw-driver-firmware-project.md) — Simon／ClosedNtwrk称正在用REA逆向自己的HP Color LaserJet MFP M283fdw驱动和固件；目标明确，尚无改动、测试或功能结果。 **[REA · 进行中]**
 - [LTO8迁移与Linux HBA：作者称AI加Ghidra修复磁带设备内核崩溃](cases/as400-lto8-linux-hba-ai-ghidra-debug-report.md) — 为AS/400客户迁移大量数据，作者称AI找Linux磁带支持缺口、人工保留设备操作码，再让Claude测电源循环，最后结合Ghidra修内核崩溃；补丁与设备矩阵未公开。 **[其他 AI 逆向 · 待验证]**
-- [Vita3K里的固件研究：Farenain尝试用hypercall连接LLM分析与内部fuzz驱动](cases/llm-firmware-emulator-hypercall-fuzzing-idea.md) — Farenain称启动Vita3K的PS Vita内部库fuzz项目，建议仿真器外LLM接反汇编器、内部driver执行测试；未报告接通、覆盖率或漏洞。 **[其他 AI 逆向 · 进行中]**
+- [Vita3K里的固件研究：Farenain尝试用hypercall连接LLM分析与内部fuzz驱动](cases/llm-firmware-emulator-hypercall-fuzzing-idea.md) — Farenain更新Vita3K固件fuzz项目：用ChatGPT推进，称LLM已反汇编固件并为内部driver选测试函数；没有端到端执行、覆盖率或漏洞记录。 **[其他 AI 逆向 · 进行中]**
 - [十年旧键盘换QMK-VIA：eastwoodnet称AI辅助加RGB效果](cases/ten-year-keyboard-ai-qmk-via-rgb-report.md) — eastwoodnet称给用了十年的键盘改上QMK-VIA固件并添加RGB；没有型号、矩阵、源码或刷写测试，不推断AI恢复了原厂协议。 **[其他 AI 逆向 · 待验证]**
 - [Kosmos CP1到MiSTer：转述Claude Code参与8049核心与63个程序](cases/kosmos-cp1-mister-claude-8049-core-report.md) — Pixel Cherry Ninja转述lambdamikel：1983年CP1教学计算机以Verilog 8049运行原固件，附63个程序并提Claude Code；AI具体贡献与实机兼容未核。 **[其他 AI 逆向 · 待验证]**
 - [两台Yoto接自有有声书服务器：Claude Code固件的二手复活报告](cases/yoto-two-players-claude-audiobook-firmware-secondary-report.md) — Rumbo转述一位父亲借Claude Code固件重用两台无厂商支持的Yoto儿童播放器，人工开壳、焊接并检查；原作者、型号、源码和连接测试未获。 **[其他 AI 逆向 · 待验证]**
@@ -1369,6 +1375,9 @@
 
 ### 应用与客户端
 
+- [仅存Pascal可执行文件的Lsystem程序：Guygies想用REA恢复](cases/guygies-pascal-lsystem-rea-preservation-idea.md) — Guygies拥有停更Lsystem程序的旧Pascal可执行文件，想到交给REA研究；是具体保存idea，尚无分析或重建结果。 **[REA · 待验证]**
+- [blue-harness：给自有原生程序加固，以单次7B模型实验衡量AI逆向成本](cases/blue-harness-native-ai-reversing-defense-benchmark.md) — Python Hub介绍blue-harness审计、加固与验证；固定文档报告小型4-bit 7B模型一次前后对照，未破解加固样本不等于抵挡强模型。 **[其他 AI 逆向 · 分析测试]**
+- [Thumbwise：研究iOS主屏布局存储，再让Claude／Codex经MCP整理应用](cases/thumbwise-ios-home-screen-reverse-mcp-agent-layout.md) — Drake称逆向iOS主屏存储做出Thumbwise，并开放MCP给Agent；网站说明授权读布局与使用数据、人工确认后Apply，未证AI参与底层逆向。 **[其他 AI 逆向 · 相关项目]**
 - [Softimage保存尝试：Packing Protons称REA接Claude仍遭拒绝](cases/packingprotons-softimage-rea-refusal-attempt.md) — Packing Protons想用REA重建Softimage，称接入Claude等工具后都不肯继续；是受阻的具体软件保存尝试，不是已完成克隆。 **[REA · 进行中]**
 - [Composio增长研究：投篮选公司，再让Agent反推获客路径](cases/composio-gtm-startup-basketball-growth-research.md) — Thomas Trimoreau介绍Composio以篮球界面选100家YC公司，结合流量、搜索和X信号交Agent研究增长；0.20美元为宣传口径，非本合集实测。 **[其他 AI 逆向 · 相关项目]**
 - [误删n8n节点后：Paul Olusola用Agentday快照重建分支规则](cases/agentday-n8n-switch-node-memory-reconstruction.md) — Paul Olusola称从Agentday系统记忆快照在AI聊天中恢复28节点流程里误删的Switch及路由，报告20秒；无前后JSON或流程测试。 **[其他 AI 逆向 · 待验证]**

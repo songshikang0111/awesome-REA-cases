@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [仅存Pascal可执行文件的Lsystem程序：Guygies想用REA恢复](../cases/guygies-pascal-lsystem-rea-preservation-idea.md) — Guygies拥有停更Lsystem程序的旧Pascal可执行文件，想到交给REA研究；是具体保存idea，尚无分析或重建结果。 **[REA · 待验证]**
+- [blue-harness：给自有原生程序加固，以单次7B模型实验衡量AI逆向成本](../cases/blue-harness-native-ai-reversing-defense-benchmark.md) — Python Hub介绍blue-harness审计、加固与验证；固定文档报告小型4-bit 7B模型一次前后对照，未破解加固样本不等于抵挡强模型。 **[其他 AI 逆向 · 分析测试]**
+- [Thumbwise：研究iOS主屏布局存储，再让Claude／Codex经MCP整理应用](../cases/thumbwise-ios-home-screen-reverse-mcp-agent-layout.md) — Drake称逆向iOS主屏存储做出Thumbwise，并开放MCP给Agent；网站说明授权读布局与使用数据、人工确认后Apply，未证AI参与底层逆向。 **[其他 AI 逆向 · 相关项目]**
 - [Softimage保存尝试：Packing Protons称REA接Claude仍遭拒绝](../cases/packingprotons-softimage-rea-refusal-attempt.md) — Packing Protons想用REA重建Softimage，称接入Claude等工具后都不肯继续；是受阻的具体软件保存尝试，不是已完成克隆。 **[REA · 进行中]**
 - [Composio增长研究：投篮选公司，再让Agent反推获客路径](../cases/composio-gtm-startup-basketball-growth-research.md) — Thomas Trimoreau介绍Composio以篮球界面选100家YC公司，结合流量、搜索和X信号交Agent研究增长；0.20美元为宣传口径，非本合集实测。 **[其他 AI 逆向 · 相关项目]**
 - [误删n8n节点后：Paul Olusola用Agentday快照重建分支规则](../cases/agentday-n8n-switch-node-memory-reconstruction.md) — Paul Olusola称从Agentday系统记忆快照在AI聊天中恢复28节点流程里误删的Switch及路由，报告20秒；无前后JSON或流程测试。 **[其他 AI 逆向 · 待验证]**

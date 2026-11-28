@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Network Quest：以逆向Sierra代码为灵感，用AI循环制作网络分层冒险游戏](../cases/capobianco-network-quest-sierra-code-ai-project.md) — John Capobianco称以逆向Sierra代码为灵感，用Astra GPT 6.2等制作Network Quest；当前聚焦物理层，七层关卡与开源仍属计划。 **[其他 AI 逆向 · 进行中]**
+- [C64魔界村到浏览器：dgerogpt报告Codex、GPT-6.2与Ghidra半小时实验](../cases/dgerogpt-c64-ghosts-goblins-codex-ghidra-browser.md) — dgerogpt称逆向1986年C64魔界村并做出无需模拟器的浏览器版，约半小时；没有源码、匹配检查或独立实玩记录。 **[其他 AI 逆向 · 待验证]**
+- [224GB所谓GTA VI构建的静态调查：rootcmoi承认用AI，也遭全量分析质疑](../cases/rootcmoi-alleged-gta6-build-ai-ghidra-static-review.md) — 本窗口两条评论质疑Claude／Ghidra筛查224GB的范围；rootcmoi解释自动化PE解析和完整性检查，只读研究未识别恶意代码不等于安全。 **[其他 AI 逆向 · 分析测试]**
+- [给妈妈重建iOS游戏却丢进度：zombodb的AI反编译侧载自述](../cases/zombodb-ios-game-ipa-ai-rebuild-progress-loss-report.md) — zombodb称AI把IPA反编译成C++、建Xcode工程并去广告侧载，但母亲从6000关回到1关；诙谐自述无代码或验证，游戏身份未确认。 **[其他 AI 逆向 · 待验证]**
 - [想弄懂游戏渲染：Yote用Claude与Ghidra研究未具名游戏](../cases/pneumatic-yote-claude-ghidra-game-rendering-study.md) — Yote称一直用Claude、Ghidra等工具研究一款游戏的渲染，目前没遇到拒绝；游戏与研究发现未公开。 **[其他 AI 逆向 · 进行中]**
 - [GTA6断网反编译：Shadow称使用Claude，也警告别把传闻当正式版](../cases/shadowfr94-gta6-claude-offline-decompilation-report.md) — Shadow在GTA6 PC运行讨论下称用Claude、在断网PC上反编译，并批评代码质量；未给样本、过程或测试，不能确认恶意代码或硬件损坏。 **[其他 AI 逆向 · 待验证]**
 - [Halo Wars接Halo 3：AI辅助重写引擎、实现太空到地面战役的idea](../cases/halo-wars-halo3-ai-orbit-to-ground-campaign-idea.md) — @outofwritings设想AI继续辅助反编译并重写引擎，把Halo Wars接入Halo 3，形成Battlefront 2式轨道到地面战役；没有实施。 **[其他 AI 逆向 · 待验证]**
