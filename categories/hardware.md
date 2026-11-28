@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [Keychron磁轴仍异常：suxb201让AI改开源固件做同步校准](../cases/suxb201-keychron-ai-magnetic-calibration-firmware.md) — 换PCB仍有问题后，作者称AI修改Keychron固件，多键同时磁场变化时触发校准；未给键盘型号、补丁或修复测试。 **[其他 AI 逆向 · 进行中]**
 - [开源微控制器与固件仿真停滞：YaboiJosh报告Claude／DeepSeek反编译尝试](../cases/yaboijosh-claude-deepseek-microcontroller-emulation-stall.md) — 作者称使用Claude与DeepSeek反编译、仿真已开源的微控制器和固件，但反复无进展；对Claude设障的解释未有代码或日志支持。 **[其他 AI 逆向 · 进行中]**
 - [旧webOS遥测屏蔽受阻：T0mmy让Codex读固件、经SSH反复试探](../cases/lightmare8-webos-codex-firmware-ssh-telemetry-attempt.md) — T0mmy称Codex从固件推测规格并循环经SSH试命令，但陷入死路；背景是旧webOS缺iptables，遥测屏蔽尚未报告完成。 **[其他 AI 逆向 · 进行中]**
 - [刺激贴片不再靠原App：Shashank称Claude辅助读BLE协议、重写Flutter客户端](../cases/shashank-vagus-patch-claude-ble-flutter-app.md) — Shashank Mayya报告以blutter与logcat对照刺激贴片BLE协议，重写后台保活与健康数据界面；200多测试与真机端到端测试均为自报，不证明电刺激安全或疗效。 **[其他 AI 逆向 · 待验证]**

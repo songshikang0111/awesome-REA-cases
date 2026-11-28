@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [DRIG：AI辅助把Race Driver: GRID行为重建到Rust与Bevy](../cases/drig-grid-rust-bevy-ai-behavior-reimplementation.md) — PipeKnight披露AI编程Agent参与GRID引擎重建，以原版驾驶、AI和音频轨迹及局部字节对照检查；仍有崩溃、物理与画面差异。 **[其他 AI 逆向 · 进行中]**
+- [Marathon Recompiled：Sonic 2006静态重编译与AI提交署名转述](../cases/marathon-sonic2006-static-recompilation-ai-credit-report.md) — yibie称Sonic 2006项目近期30提交有17处AI相关trailer；固定文档确认Xbox 360到三平台的重编译路线，但未披露AI分工。 **[未确认使用 REA · 相关项目]**
+- [Cosmic Supremacy重连服务器：GenAI辅助解码旧客户端，项目仍为多人beta](../cases/cosmic-supremacy-resurgence-genai-server-reconstruction.md) — rsfutch77披露GenAI协助理解失落服务端命令并编写替代服务器；文档称多人仅一座沙盒星系、玩家消息未通，对手为规则AI而非强化学习。 **[其他 AI 逆向 · 进行中]**
+- [Xenosaga Trilogy Port：Claude辅助整合PS2反编译到Linux，第三部仍未开放](../cases/xenosaga-trilogy-linux-claude-opokxeno-port.md) — 作者将Linux移植、启动器与工具归功Claude Code和OpokXeno反编译；自报第一部可玩、第二部测试中，第三部coming soon，许可仍有边界。 **[其他 AI 逆向 · 进行中]**
 - [bouncemarket弹珠预测：Claude机器人报告146／181局出手全中，并非开局预知](../cases/bouncemarket-claude-physics-prediction-report.md) — 二手帖称Claude逆向弹珠物理146局全中；HN作者原评论实际为181局中选146局、算不及时跳过，随机种子恢复仍是未解决尝试。 **[其他 AI 逆向 · 待验证]**
 - [Open Ultima 8 v0.5.8：Claude辅助Rust重建《创世纪VIII》引擎的转述](../cases/open-ultima8-rust-claude-engine-v058.md) — The Gaming Emporium转述fswolf的Claude辅助Rust引擎；固定README明确复用Pentagram／ScummVM知识、读取U8.EXE武器表及存档sidecar，未验证全流程可玩。 **[其他 AI 逆向 · 待验证]**
 - [冷启动退全屏：Gemini分析metadata与汉化DLL的修复转述](../cases/gemini-unity-versiondll-fullscreen-localization-fix.md) — JJBond转述Gemini解析global-metadata.dat，定位汉化插件version.dll并补丁后重启验证；游戏未具名，没有可核补丁或独立回归。 **[其他 AI 逆向 · 待验证]**

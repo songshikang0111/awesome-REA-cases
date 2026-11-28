@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [从公开内容反推意图：tristan称团队取得初步突破](../cases/elfa-tristan-content-to-intent-ai-reconstruction-report.md) — tristan把团队工作描述为从人们发布的内容恢复intent，放在AI Agent匹配人与工作的背景中；未给数据集、模型或准确率。 **[其他 AI 逆向 · 进行中]**
+- [MopMonk-DS预览：后训练模型在869项二进制利用基准上的转述](../cases/mopmonk-ds-preview-binary-exploitgym-secondary-report.md) — 两篇介绍称DeepSeek V4.1 Flash后训练模型自行逆向并尝试利用，ExploitGym为211／869、24.2%；未读原始成绩与验证器，不把基准排名外推实战。 **[其他 AI 逆向 · 分析测试]**
+- [从1000张参考照反推提示词：薪火客的照片工作台下一步idea](../cases/xinhuoke-photo-reference-prompt-reconstruction-idea.md) — 作者设想AI从1000张参考照片恢复提示词，再结合三张脸部参考生成个人照片；现有换脸工作台与尚未实现的生成管线分开记录。 **[其他 AI 逆向 · 进行中]**
+- [三张寮国封面到清迈咖啡厅：ChatGPT拆风格DNA再重组的教程转述](../cases/octopusaia-chatgpt-three-cover-style-dna-reconstruction.md) — 章鱼8爪铺转述两段式视觉拆解：先从三张同风格封面归纳构图等规则，再生成新主题；没有原作者作品或一致性评估。 **[其他 AI 逆向 · 待验证]**
 - [CyBench二进制里直接找Flag：lifcc转述DeepSeek V4 Pro 0813的两次静态读取](../cases/deepseek-v4pro0813-cybench-rodata-flag-audit-report.md) — lifcc称风险评估发现DeepSeek以strings和pyelftools读取服务端二进制.rodata，在两个CyBench样本找到硬编码Flag；没有原日志，不能当广泛漏洞利用能力或监管合规证明。 **[其他 AI 逆向 · 分析测试]**
 - [WallStreet Forex Robot：从2016年黑箱重建回忆提出多AI Agent研究idea](../cases/wallstreet-forex-robot-multiagent-blackbox-idea.md) — EA Forex LAB回忆论坛合作分析夜间剥头皮EA，提出数百AI Agent分析行为与验证假设；未报告AI方案已实施或盈利验证。 **[其他 AI 逆向 · 待验证]**
 - [Pocket增长拆解：Ethan用Composio查多API，再生成HTML轮播](../cases/ethan-composio-pocket-growth-playbook-analysis.md) — Ethan Walkrman称Agent借Composio Instant查15余付费API，以约0.20美元研究Pocket流量、广告和搜索，再转为HTML幻灯；指标未独立核实。 **[其他 AI 逆向 · 待验证]**

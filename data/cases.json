@@ -1,5 +1,231 @@
 [
   {
+    "id": "milky-custom-antibot-frontier-model-reversing-report",
+    "title": "未具名反机器人系统：Milky报告前沿AI辅助红队逆向",
+    "category": "apps", "rea": "other-ai", "status": "unverified",
+    "summary": "Milky称刚逆向另一套行业定制antibot系统，并强调红队专家与前沿模型配合；未公开目标、方法或成功判据。",
+    "description": "2026年11月28日19:36:48（北京时间），Milky（@milkyontheblock）称刚逆向另一套定制反机器人系统，称其保护一个数十亿美元规模、尚少被开发的行业，并强调红队专家配合前沿AI模型的影响。可辨目标是自定义antibot实现，属于作者的AI辅助逆向自述，而非行业营收或通用破解能力的证明。\n\n系统、行业、模型和授权范围均未命名，也未给协议细节、输入输出、代码、日志、可重放测试或成功判据。不能认定已绕过服务防护、实现大规模自动化或取得商业收益；未读附件，不扩充攻击方法。以unverified保留这次具体但细节稀少的报告，不与其他作者的指纹研究合并，REA未提。",
+    "sources": [{"label": "Milky的定制antibot与AI红队逆向自述，2026-11-28 19:36:48北京时间", "url": "https://x.com/i/status/2126641454210515065"}],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照0赞、15浏览、0转发、0回复；没有独立成功证据。"],
+    "en": {
+      "title": "An unnamed custom antibot system: Milky reports frontier-model-assisted red-team reversing",
+      "summary": "Milky reports reversing another industry-specific antibot system and emphasizes combining red-team expertise with a frontier model. Target, methods and success criteria are not disclosed.",
+      "description": "At 19:36:48 Beijing time on November 28, 2026, Milky (@milkyontheblock) says another custom antibot system was just reverse-engineered, describing its protected industry as worth multiple billions of dollars and largely untapped, and stressing the impact of a red-team expert with a frontier AI model. The identifiable target is a custom antibot implementation, an author-reported AI-assisted investigation rather than evidence of industry revenue or general cracking capability.\n\nThe system, industry, model and authorization scope are unnamed. Protocol details, input/output, code, logs, replayable tests and success criteria are absent. Service-protection bypass, large-scale automation and commercial revenue are not established. Attachments were not inspected and attack methods are not expanded. Retained as an unverified, specific but sparse report, not merged with another author's fingerprinting research. REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 0 likes, 15 views, 0 reposts, 0 replies. No independent evidence of success."],
+      "source_labels": ["Milky's custom-antibot and AI red-team reversing account, November 28, 2026 at 19:36:48 Beijing time"]
+    }
+  },
+  {
+    "id": "drig-grid-rust-bevy-ai-behavior-reimplementation",
+    "title": "DRIG：AI辅助把Race Driver: GRID行为重建到Rust与Bevy",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "PipeKnight披露AI编程Agent参与GRID引擎重建，以原版驾驶、AI和音频轨迹及局部字节对照检查；仍有崩溃、物理与画面差异。",
+    "description": "2026年11月28日16:30:09（北京时间），yibie在列表更新中介绍DRIG：研究Codemasters的2008年赛车游戏Race Driver: GRID，以Rust和Bevy重建引擎，游戏数据由玩家自己的PC安装提供。候选同时介绍另一个Sonic 2006项目，两者是不同目标。\n\n补读PipeKnight/drig-race-driver固定8b360088b4f250871d8380d564613ef0231e1fc2 README，提交2026年11月27日20:50:23 UTC、早于窗口。作者明确多数代码由AI编程Agent编写，并提到Claude订阅；研究grid.exe使用Ghidra等工具，再将行为写成Rust，以原版驾驶、AI、音频录制轨迹及个别例程的bit-exact对照检查。文档报告驾驶、赛事、损伤、职业与回放等已可用，但称仍是早期实验，可能崩溃、物理失控、缺功能或画面不同；部分回放音效仍缺。Linux仅报告WSLg测试，不等于原生Linux真机已测。\n\n目标是一比一行为，不是已证明整游戏字节匹配。backlog完成比例和固定无头场景通过比例不涵盖全部画面、音频或交互赛事，文档亦保留未自动化驾驶场景。本合集只读文档，未构建、运行或重放测试。新版本文档称GPL-3.0-or-later，旧Apache 2.0版本保留旧条款；原游戏数据须合法自备，不由本合集分发。",
+    "sources": [
+      {"label": "yibie介绍DRIG与Sonic 2006，2026-11-28 16:30:09北京时间", "url": "https://x.com/i/status/2126594483777323455"},
+      {"label": "窗口前固定README：AI归因、轨迹对照、状态与平台限制，2026-11-27 20:50:23 UTC", "url": "https://github.com/PipeKnight/drig-race-driver/blob/8b360088b4f250871d8380d564613ef0231e1fc2/README.md"}
+    ],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照0赞、176浏览、0转发、0回复；4005文件为介绍口径，不代表完成度。"],
+    "en": {
+      "title": "DRIG: AI-assisted Rust/Bevy reconstruction of Race Driver: GRID behavior",
+      "summary": "PipeKnight discloses AI coding agents rebuilding GRID's engine, checked against original driving, AI and audio traces and individual routine comparisons. Crashes, physics and visual differences remain.",
+      "description": "At 16:30:09 Beijing time on November 28, 2026, yibie's list update introduces DRIG: a Rust/Bevy engine reconstruction of Codemasters' 2008 racing game Race Driver: GRID, reading data from the player's own PC installation. The same candidate also introduces Sonic 2006, a separate target.\n\nSupplementary reading covers PipeKnight/drig-race-driver's README at 8b360088b4f250871d8380d564613ef0231e1fc2, committed November 27 at 20:50:23 UTC, before the window. The author explicitly credits AI coding agents with most code and mentions a Claude subscription. The workflow studies grid.exe using Ghidra and other tools, rewrites behavior in Rust, and compares original driving, AI and audio recordings plus individual bit-exact routines. Documentation reports driving, events, damage, career and replays working, but calls the project early and experimental, with possible crashes, physics blow-ups, missing features and visual differences. Some replay audio remains missing. Linux testing is reported only under WSLg, not native Linux hardware.\n\nOne-to-one behavior is the goal, not established whole-game byte matching. Backlog completion and fixed headless-scenario pass percentages exclude full graphics, audio and interactive races; some driving scenarios still lack automated checks. This collection read documentation only, without building, running or replaying tests. New versions are described as GPL-3.0-or-later, while older Apache 2.0 releases retain those terms. Original game data must be legally supplied by the player and is not distributed here.",
+      "metadata": ["Candidate snapshot: 0 likes, 176 views, 0 reposts, 0 replies. The introduction's 4,005 files do not measure completion."],
+      "source_labels": ["yibie introduces DRIG and Sonic 2006, November 28, 2026 at 16:30:09 Beijing time", "Pre-window pinned README: AI attribution, trace comparisons, status and platform limits, November 27, 2026 at 20:50:23 UTC"]
+    }
+  },
+  {
+    "id": "marathon-sonic2006-static-recompilation-ai-credit-report",
+    "title": "Marathon Recompiled：Sonic 2006静态重编译与AI提交署名转述",
+    "category": "games", "rea": "unknown", "status": "related-project",
+    "summary": "yibie称Sonic 2006项目近期30提交有17处AI相关trailer；固定文档确认Xbox 360到三平台的重编译路线，但未披露AI分工。",
+    "description": "2026年11月28日16:30:09（北京时间），yibie介绍Sonic the Hedgehog 2006的PC重编译项目，称最近30提交有17处trailer、1004星，README未提AI。补读其awesome-rea列表确认链接是sonicnext-dev/MarathonRecomp，而不是其他Sonic移植。\n\n固定6b33a0bd87dbfd3f020ad60f99cc6b64b26b8b09 README，提交2026年11月27日07:50:27 UTC、早于窗口，描述使用XenonRecomp将Xbox 360 PowerPC代码转C++、XenosRecomp将着色器转HLSL，支持Windows、Linux与macOS。玩家须自备合法取得且未修改的Xbox 360数据，PS3拷贝不适用；原版bug多保留，另有可选修补。\n\n文档确认具体保存目标与方法，不确认17处署名的内容或模型贡献。本合集未重建30提交集合、核星数或运行游戏，不能把trailer计数当AI代码占比或整项目由AI完成；因此保留unknown与related-project，不补写REA使用或已独立验收。",
+    "sources": [
+      {"label": "yibie列表更新中的Sonic 2006署名统计，2026-11-28 16:30:09北京时间", "url": "https://x.com/i/status/2126594483777323455"},
+      {"label": "窗口前固定README：重编译器、平台与自备数据要求，2026-11-27 07:50:27 UTC", "url": "https://github.com/sonicnext-dev/MarathonRecomp/blob/6b33a0bd87dbfd3f020ad60f99cc6b64b26b8b09/README.md"}
+    ],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照0赞、176浏览、0转发、0回复；17处trailer不是17次逆向成功。"],
+    "en": {
+      "title": "Marathon Recompiled: Sonic 2006 static recompilation and reported AI commit credits",
+      "summary": "yibie reports 17 AI-related trailers across 30 recent commits. Pinned documentation confirms Xbox 360 recompilation for three platforms but does not disclose AI's role.",
+      "description": "At 16:30:09 Beijing time on November 28, 2026, yibie introduces a Sonic the Hedgehog 2006 PC recompilation, reporting 17 trailers across 30 recent commits and 1,004 stars, with no AI mention in its README. Supplementary reading of the author's awesome-rea list identifies sonicnext-dev/MarathonRecomp, not another Sonic port.\n\nThe README pinned at 6b33a0bd87dbfd3f020ad60f99cc6b64b26b8b09, committed November 27 at 07:50:27 UTC before the window, describes XenonRecomp translating Xbox 360 PowerPC code into C++ and XenosRecomp translating shaders into HLSL for Windows, Linux and macOS. Players must supply legally obtained, unmodified Xbox 360 data; PS3 copies do not work. Original bugs are largely preserved, alongside optional fixes.\n\nDocumentation confirms a specific preservation target and method, not the contents of the 17 credits or model contributions. This collection did not reconstruct the 30-commit sample, check stars or run the game. Trailer counts are not AI-written code shares or evidence that AI built the whole project. Classification remains unknown and related-project, without invented REA use or independent acceptance.",
+      "metadata": ["Candidate snapshot: 0 likes, 176 views, 0 reposts, 0 replies. Seventeen trailers are not seventeen successful reversing tasks."],
+      "source_labels": ["yibie's Sonic 2006 commit-credit account, November 28, 2026 at 16:30:09 Beijing time", "Pre-window pinned README: recompilers, platforms and own-data requirements, November 27, 2026 at 07:50:27 UTC"]
+    }
+  },
+  {
+    "id": "web-deck-last-boring-slide-agent-skill-reconstruction",
+    "title": "web-deck：把The Last Boring Slide拆成离线WebGL2演示技能",
+    "category": "apps", "rea": "other-ai", "status": "related-project",
+    "summary": "那纸ol把参考演示的架构整理为Agent技能；项目自报1027.3KB单HTML与七关键帧检查，真实宿主自动发现及跨系统安装仍未测。",
+    "description": "2026年11月28日16:33:26（北京时间），那纸ol（@Renzexi01）介绍web-deck：从@fluxxrider用Claude Opus制作的The Last Boring Slide研究设计与架构，再供Claude Code、Codex、Cursor按主题生成离线WebGL2演示。目的不是复制原作者素材，而是把平面幻灯片走入三维世界的做法变成可复用Agent技能。\n\n补读固定a3189907b3ddada58f20dffe74334facd98a0918 README，提交2026年11月28日07:40:00 UTC、早于窗口。文档列Three.js、GLSL、共享相机gl.scissor分屏、媒介转换、字体与音效流程，报告Windows 11加Node.js生成1027.3KB单HTML，七个节拍关键帧的无头Chrome QA、2倍HiDPI MAD=0、Errors=0。这是starter样本的项目报告，不是与参考作品逐像素一致或任意主题都正确。\n\n文档称Ubuntu／Windows CI有构建与语法检查，但真实Claude Code、Codex、Cursor会话的macOS／Linux技能自动发现，以及远程安装脚本端到端仍未测。无版本Release或tag；未在本合集安装、执行下载脚本、构建或重跑QA。约1MB和离线零请求是该构建／文档口径，不延伸为宿主模型不联网。",
+    "sources": [
+      {"label": "那纸ol的web-deck介绍，2026-11-28 16:33:26北京时间", "url": "https://x.com/i/status/2126595309841306072"},
+      {"label": "窗口前固定README：设计归属、样本QA与未测安装边界，2026-11-28 07:40:00 UTC", "url": "https://github.com/RZX00/web-deck/blob/a3189907b3ddada58f20dffe74334facd98a0918/README.md"}
+    ],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照1赞、3042浏览、0转发、1回复；未观看参考帧或独立复现。"],
+    "en": {
+      "title": "web-deck: reconstructing The Last Boring Slide as an offline WebGL2 agent skill",
+      "summary": "Renzexi01 packages a reference deck's architecture into a skill. The project reports a 1,027.3 KB single HTML and seven-keyframe checks; live-host discovery and cross-system installation remain untested.",
+      "description": "At 16:33:26 Beijing time on November 28, 2026, 那纸ol (@Renzexi01) introduces web-deck: studying the design and architecture of @fluxxrider's Claude Opus-created The Last Boring Slide, then enabling Claude Code, Codex and Cursor to produce offline WebGL2 presentations from a topic. The purpose is to make flat-slide-to-3D-world techniques reusable in an agent skill, not claim authorship of the reference assets.\n\nSupplementary reading covers README a3189907b3ddada58f20dffe74334facd98a0918, committed November 28 at 07:40:00 UTC before the window. It lists Three.js, GLSL, shared-camera gl.scissor splits, medium transitions, typography and sound workflows. Windows 11 plus Node.js reportedly produced a 1,027.3 KB single HTML; headless Chrome QA checks seven beat keyframes with 2× HiDPI MAD=0 and Errors=0. These are project-reported starter-sample checks, not pixel identity with the reference or correctness for arbitrary topics.\n\nThe document reports Ubuntu/Windows build and syntax CI but leaves live Claude Code, Codex and Cursor skill discovery on macOS/Linux, and remote installer end-to-end execution, untested. There are no versioned releases or tags. This collection installed nothing, executed no downloaded installer, built nothing and did not rerun QA. Roughly 1 MB and offline zero requests describe that build/documentation, not a claim that the host model never uses the network.",
+      "metadata": ["Candidate snapshot: 1 like, 3,042 views, 0 reposts, 1 reply. Reference frames were not inspected and results were not independently reproduced."],
+      "source_labels": ["Renzexi01 introduces web-deck, November 28, 2026 at 16:33:26 Beijing time", "Pre-window pinned README: design attribution, sample QA and installation limits, November 28, 2026 at 07:40:00 UTC"]
+    }
+  },
+  {
+    "id": "cosmic-supremacy-resurgence-genai-server-reconstruction",
+    "title": "Cosmic Supremacy重连服务器：GenAI辅助解码旧客户端，项目仍为多人beta",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "rsfutch77披露GenAI协助理解失落服务端命令并编写替代服务器；文档称多人仅一座沙盒星系、玩家消息未通，对手为规则AI而非强化学习。",
+    "description": "2026年11月28日16:36:54（北京时间），The Gaming Emporium介绍Cosmic Supremacy: Resurgence，称社区逆向原Windows客户端、重建已停服4X太空策略游戏的后端，并宣传强化学习对手。\n\n补读rsfutch77固定0c6da67184ca04535b60f7b6d5b2c354ac69d37b README，提交2026年11月26日08:53:24 UTC、早于窗口。作者说自己是原玩家，旧服务器丢失，使用GenAI帮助理解原服务器如何运作、发送哪些命令，并编写新服务器及工具；游戏本身仍是原代码加最少必要补丁，不是AI重写整个客户端。文档称教程、演示与单人本机离线运行，多人为一座沙盒星系的beta，舰队、生产、外交等已通，但玩家间消息未通。\n\n明确更正候选宣传：文档称Resurgence AI是规则对手，不用GenAI，也未称强化学习。安全checklist与作者说明不是独立审计。新服务器、启动器与工具称MIT，原二进制和星系文件仍属原作者，文档承认另行保留权利并可依请求移除；本合集不分发这些文件，也不把公开仓库当授权证明。仅阅读文档，未下载发行包、登录游戏或测试多人。",
+    "sources": [
+      {"label": "The Gaming Emporium的复活介绍，2026-11-28 16:36:54北京时间", "url": "https://x.com/i/status/2126596179244859761"},
+      {"label": "窗口前固定README：GenAI用途、规则对手与多人beta边界，2026-11-26 08:53:24 UTC", "url": "https://github.com/rsfutch77/Cosmic-Supremacy-Resurgence/blob/0c6da67184ca04535b60f7b6d5b2c354ac69d37b/README.md"}
+    ],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照0赞、129浏览、0转发、0回复；未验证服务可用性或客户端安全。"],
+    "en": {
+      "title": "Cosmic Supremacy reconnects: GenAI-assisted server reconstruction remains a multiplayer beta",
+      "summary": "rsfutch77 credits GenAI with decoding lost-server commands and writing a replacement. Documentation limits multiplayer to one sandbox galaxy without player messages; opponents are rules-based, not reinforcement learning.",
+      "description": "At 16:36:54 Beijing time on November 28, 2026, The Gaming Emporium introduces Cosmic Supremacy: Resurgence, saying a community reversed the original Windows client and rebuilt the backend of a discontinued multiplayer 4X space strategy game, while advertising reinforcement-learning opponents.\n\nSupplementary reading covers rsfutch77's README at 0c6da67184ca04535b60f7b6d5b2c354ac69d37b, committed November 26 at 08:53:24 UTC before the window. A former player, the author says the old server was lost and GenAI helped decode how it worked and which commands it sent, and helped write the replacement server and tools. The game remains original code with minimal necessary patches, not an AI rewrite of the whole client. Documentation says tutorial, demo and single-player run locally offline. Multiplayer is a beta on one sandbox galaxy: fleets, production and diplomacy reportedly work, but player-to-player messages do not yet.\n\nThis corrects the candidate's promotion: the README calls Resurgence AI a rules-based opponent, without GenAI or a reinforcement-learning claim. Security checklists and author assurances are not independent audits. The new server, launcher and tools are described as MIT, while original binaries and galaxy files retain their creator's rights; the document acknowledges separate ownership and removal on request. This collection distributes none of those files and does not treat a public repository as authorization. Only documentation was read; no release was downloaded, game login performed or multiplayer tested.",
+      "metadata": ["Candidate snapshot: 0 likes, 129 views, 0 reposts, 0 replies. Service availability and client safety were not verified."],
+      "source_labels": ["The Gaming Emporium's restoration introduction, November 28, 2026 at 16:36:54 Beijing time", "Pre-window pinned README: GenAI role, rules-based opponents and multiplayer beta limits, November 26, 2026 at 08:53:24 UTC"]
+    }
+  },
+  {
+    "id": "elfa-tristan-content-to-intent-ai-reconstruction-report",
+    "title": "从公开内容反推意图：tristan称团队取得初步突破",
+    "category": "algorithms", "rea": "other-ai", "status": "in-progress",
+    "summary": "tristan把团队工作描述为从人们发布的内容恢复intent，放在AI Agent匹配人与工作的背景中；未给数据集、模型或准确率。",
+    "description": "2026年11月28日17:14:36（北京时间），tristan | elfa.ai（@hypetris_）在讨论Instagram广告意图及CRM／获客需求时，称团队最近在从人们发布的内容反推intent上有突破。上下文提出AI Agent可代表用户表达意图，以连接想认识的人或想做的工作；具体研究目标是从内容推断意图，不是读取Instagram内部推荐算法。\n\n帖子未给出产品功能、数据来源、同意机制、标注标准、模型、样例、准确率或实际匹配效果。将其作为早期算法重建方向与作者自述收录，不把突破一词升级为可用系统、可可靠推知个人心理或获客收益；未测试产品，REA未提及。",
+    "sources": [{"label": "tristan的内容到intent团队进展，2026-11-28 17:14:36北京时间", "url": "https://x.com/i/status/2126605670778810801"}],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照9赞、320浏览、0转发、4回复；没有公开评估。"],
+    "en": {
+      "title": "Inferring intent from published content: tristan reports an early team breakthrough",
+      "summary": "tristan describes recovering intent from people's posts in the context of agent-mediated connections and work. No dataset, model or accuracy is provided.",
+      "description": "At 17:14:36 Beijing time on November 28, 2026, tristan | elfa.ai (@hypetris_) discusses Instagram ad intent and CRM/go-to-market demand, saying the team recently made a breakthrough in reverse-engineering people's published content into intent. The context proposes AI agents expressing intent on users' behalf to connect them with people or jobs. The specific research objective is inferring intent from content, not accessing Instagram's internal recommendation algorithm.\n\nThe post supplies no product functionality, data provenance, consent mechanism, labeling standard, model, examples, accuracy or matching outcomes. Included as an early algorithm-reconstruction direction and author report, without upgrading 'breakthrough' into a working system, reliable access to private mental states or acquisition revenue. No product was tested; REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 9 likes, 320 views, 0 reposts, 4 replies. No public evaluation is supplied."],
+      "source_labels": ["tristan's content-to-intent team progress, November 28, 2026 at 17:14:36 Beijing time"]
+    }
+  },
+  {
+    "id": "mopmonk-ds-preview-binary-exploitgym-secondary-report",
+    "title": "MopMonk-DS预览：后训练模型在869项二进制利用基准上的转述",
+    "category": "algorithms", "rea": "other-ai", "status": "analysis-test",
+    "summary": "两篇介绍称DeepSeek V4.1 Flash后训练模型自行逆向并尝试利用，ExploitGym为211／869、24.2%；未读原始成绩与验证器，不把基准排名外推实战。",
+    "description": "2026年11月28日17:17:47及18:01:48（北京时间）的两条候选介绍扫地僧MopMonk-DS-1.0-Preview，称以DeepSeek V4.1 Flash后训练，目标不只是找漏洞，还要在隔离基准内自己逆向二进制、反复试错、编写利用并取得flag。首帖转述869项ExploitGym中211分、24.2%，基座15.3%，称相对提升58%；这是报道口径，不是本合集计算或复跑的成绩。\n\n两帖称使用240B+持续预训练语料、以提示而非直接答案产生训练轨迹，以及专门训练长对话压缩以保留利用状态。第二帖另称安全语料占31%、解题轨迹54亿token、Web漏洞发现57.1%对19.0%、已知漏洞复现92.5%对90.0%，并称利用后打补丁再验证失效。Web与已知漏洞项目是同一模型的其他基准，不混入869项二进制分母。\n\n没有在本轮取得原始技术报告、任务清单、隔离配置、逐题日志或验证器，排行榜对手分数与国产第一均只是帖子转述。不能由此认证真实生产目标的成功率、完全无人干预、样本无污染或模型安全性。保留analysis-test与明确归因，不提供利用步骤，未安装模型或运行任何目标；REA未提。",
+    "sources": [
+      {"label": "MopMonk-DS模型与ExploitGym介绍，2026-11-28 17:17:47北京时间", "url": "https://x.com/i/status/2126606469437215115"},
+      {"label": "补充二进制、Web与已知漏洞基准及训练口径，2026-11-28 18:01:48北京时间", "url": "https://x.com/i/status/2126617545121943814"}
+    ],
+    "snapshot_date": "2026-11-28", "metadata": ["首帖候选48赞、4723浏览、8转发、32回复；第二帖57赞、4646浏览、5转发、43回复，均为封存快照。"],
+    "en": {
+      "title": "MopMonk-DS preview: secondary accounts of a post-trained model on 869 binary exploitation tasks",
+      "summary": "Two introductions say the DeepSeek V4.1 Flash-based model autonomously reverses binaries and attempts exploitation, reporting 211/869 and 24.2% on ExploitGym. Original scores and validators were not read; rankings are not production success rates.",
+      "description": "Two candidates at 17:17:47 and 18:01:48 Beijing time on November 28, 2026 introduce MopMonk-DS-1.0-Preview, reportedly post-trained from DeepSeek V4.1 Flash. Its objective extends beyond vulnerability discovery to reverse-engineering binaries, iterating on failures, writing exploits and obtaining flags inside isolated benchmarks. The first reports 211 points across 869 ExploitGym tasks, 24.2% versus the base model's 15.3%, calling this a 58% relative improvement. These are reported figures, not results calculated or rerun by this collection.\n\nThe accounts describe 240B+ tokens of continued pretraining, training trajectories produced with hints rather than direct answers, and dedicated long-conversation compression training to retain exploitation state. The second adds a 31% security-data share, 5.4 billion trajectory tokens, Web vulnerability discovery at 57.1% versus 19.0%, and known-vulnerability reproduction at 92.5% versus 90.0%, plus a claimed patch-and-retest check after successful exploitation. Web and known-vulnerability tasks are separate benchmarks for the same model, not part of the 869-binary denominator.\n\nThis round did not obtain the original technical report, task inventory, isolation configuration, per-task logs or validator. Competitor scores and domestic-leading claims remain secondary accounts. They do not establish production-target success rates, complete absence of human intervention, uncontaminated samples or model safety. Retained as analysis-test with attribution, without exploitation instructions. No model was installed or target run; REA is unmentioned.",
+      "metadata": ["Sealed snapshots: first post 48 likes, 4,723 views, 8 reposts, 32 replies; second 57 likes, 4,646 views, 5 reposts, 43 replies."],
+      "source_labels": ["MopMonk-DS and ExploitGym introduction, November 28, 2026 at 17:17:47 Beijing time", "Additional binary, Web and known-vulnerability benchmarks and training figures, November 28, 2026 at 18:01:48 Beijing time"]
+    }
+  },
+  {
+    "id": "agy-powertools-antigravity-ai-source-compliance-review",
+    "title": "Agy Powertools源码检查：Logan用Antigravity区分本地增强与协议改写",
+    "category": "apps", "rea": "other-ai", "status": "analysis-test",
+    "summary": "Logan报告AI辅助读源码并按凭据、多账号、protobuf请求与本地UI分风险；条款和封号判断未获官方或独立验证。",
+    "description": "2026年11月28日17:47:47（北京时间），Logan Lu（@loganlu51268）称用Antigravity分析Agy Powertools合规性。研究目标是识别增强工具实际如何操作原客户端，而非仅看宣传：帖文按源码文件描述凭据库与多账号切换、运行时拦截内部protobuf请求以调整上下文和提示词、翻译接口，以及CDP注入和纯本地数据库／UI功能的区别。\n\n作者将凭据轮换和请求改写评为较高风险，将本地只读、CSS／DOM和标准代理参数评为较低风险，并建议优先使用官方Rules。这里是作者与AI的源码解读及条款判断，不是Google批准、安全审计或封号因果证明；本轮没有仓库固定版本、diff、条款原文或运行流量核验，不能确认列出的默认开关状态、所有接口行为或所谓基本合规。仅保留具体代码审查案例，不披露凭据或操作账号，不执行注入／转接，REA未提。",
+    "sources": [{"label": "Logan的Antigravity辅助源码风险梳理，2026-11-28 17:47:47北京时间", "url": "https://x.com/i/status/2126614020484698597"}],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照1赞、107浏览、0转发、1回复；作者的风险分级不是官方裁定。"],
+    "en": {
+      "title": "Agy Powertools source review: Logan uses Antigravity to distinguish local enhancements from protocol changes",
+      "summary": "Logan reports AI-assisted source reading, separating credential rotation, protobuf requests and local UI risks. Terms-of-service and ban predictions lack official or independent confirmation.",
+      "description": "At 17:47:47 Beijing time on November 28, 2026, Logan Lu (@loganlu51268) says Antigravity helped analyze Agy Powertools compliance. The objective is understanding what the enhancement tool actually does to its client rather than accepting promotional descriptions. The post describes source files for credential storage and account switching, runtime interception of internal protobuf requests to alter context and prompts, translation interfaces, and distinctions between CDP injection and local database/UI features.\n\nThe author rates credential rotation and request rewriting as higher risk, local read-only functions, CSS/DOM changes and standard proxy parameters as lower risk, and suggests official Rules instead. These are the author's AI-assisted source interpretations and terms judgments, not Google approval, a security audit or proof of ban causation. No pinned repository revision, diff, original terms or runtime traffic was checked this round. Listed defaults, complete interface behavior and 'basically compliant' assessments remain unconfirmed. Retained as a specific code-review case, without exposing credentials, operating accounts or executing injection/bridging. REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 1 like, 107 views, 0 reposts, 1 reply. The risk categories are not official rulings."],
+      "source_labels": ["Logan's Antigravity-assisted source-risk review, November 28, 2026 at 17:47:47 Beijing time"]
+    }
+  },
+  {
+    "id": "suxb201-keychron-ai-magnetic-calibration-firmware",
+    "title": "Keychron磁轴仍异常：suxb201让AI改开源固件做同步校准",
+    "category": "hardware", "rea": "other-ai", "status": "in-progress",
+    "summary": "换PCB仍有问题后，作者称AI修改Keychron固件，多键同时磁场变化时触发校准；未给键盘型号、补丁或修复测试。",
+    "description": "2026年11月28日17:48:09（北京时间），suxb201（@suxb201）称磁轴键盘换PCB后仍有问题，发现Keychron固件开源，于是让AI改一版：多键同时发现磁场变化时自动校准，依据是人通常不会同时按下太多键或向上拔键。目标是从既有固件行为入手绕开磁场漂移问题，不是已证明硬件被修复。\n\n帖子没有具体型号、磁场读数、阈值、固件仓库、代码或刷写后对照，开源与方案有效性均是作者陈述。多人／多键输入等情况下是否误触发尚未知，不补写成功率或长期稳定性。作为AI辅助既有设备固件改造的进行中记录；未构建、刷写或接入设备，REA和模型未提。",
+    "sources": [{"label": "suxb201的Keychron固件修改自述，2026-11-28 17:48:09北京时间", "url": "https://x.com/i/status/2126614111480107473"}],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照0赞、78浏览、0转发、0回复；未报告修改后的测量。"],
+    "en": {
+      "title": "Keychron magnetic-switch issues persist: suxb201 has AI modify calibration firmware",
+      "summary": "After replacing the PCB failed to solve the issue, the author reports modifying Keychron firmware with AI to calibrate simultaneous magnetic changes across keys. Model, patch and repair tests are absent.",
+      "description": "At 17:48:09 Beijing time on November 28, 2026, suxb201 (@suxb201) says a magnetic-switch keyboard still has problems after a PCB replacement. Discovering Keychron's firmware was open source, the author had AI change it to trigger calibration when many keys detect magnetic changes simultaneously, reasoning that people ordinarily neither press too many keys together nor pull keys upward. The goal is modifying existing firmware behavior to work around magnetic drift, not a demonstrated hardware repair.\n\nNo keyboard model, magnetic readings, threshold, repository, code or post-flash comparison is supplied. Open-source availability and effectiveness remain author statements. False triggers during multi-key or multi-person input remain unknown; success rates and long-term stability are not invented. Included as in-progress AI-assisted modification of an existing device's firmware. No build, flashing or device connection was performed here; neither REA nor the model is named.",
+      "metadata": ["Candidate snapshot: 0 likes, 78 views, 0 reposts, 0 replies. No post-change measurement is reported."],
+      "source_labels": ["suxb201's Keychron firmware-modification account, November 28, 2026 at 17:48:09 Beijing time"]
+    }
+  },
+  {
+    "id": "xinhuoke-photo-reference-prompt-reconstruction-idea",
+    "title": "从1000张参考照反推提示词：薪火客的照片工作台下一步idea",
+    "category": "algorithms", "rea": "other-ai", "status": "in-progress",
+    "summary": "作者设想AI从1000张参考照片恢复提示词，再结合三张脸部参考生成个人照片；现有换脸工作台与尚未实现的生成管线分开记录。",
+    "description": "2026年11月28日18:26:29（北京时间），薪火客（@xinhuoke）称不到24小时完成换脸工作台，提出下一步：收集1000张参考照片，让AI反推提示词，按用户自然语言匹配和融合，并参考用户三张不同角度脸部照，分析五官比例、姿势与拍摄角度，生成照片而不再寻找换脸底图。\n\n作者明确用如果能做出来描述新管线，因此1000张是拟用规模，不是已收集或训练完成的数量；不到24小时只属于此前工作台的自报耗时，不是提示词恢复或整个产品完成时间。没有模型、实现、数据授权、提示词恢复评估、身份一致性或隐私测试，不能认定能恢复原生成提示或可靠评判面部特征。按具体参考图重建idea收录，不提供个人照片、不访问服务，REA未提。",
+    "sources": [{"label": "薪火客的参考照到提示词管线idea，2026-11-28 18:26:29北京时间", "url": "https://x.com/i/status/2126623757477548068"}],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照6赞、458浏览、2转发、2回复；未验证前置工作台或后续管线。"],
+    "en": {
+      "title": "Recover prompts from 1,000 reference photos: xinhuoke's next-step portrait-workbench idea",
+      "summary": "The author proposes inferring prompts from 1,000 reference photos, then generating portraits using three facial references. The reported existing face-swap workbench is separate from this unimplemented pipeline.",
+      "description": "At 18:26:29 Beijing time on November 28, 2026, 薪火客 (@xinhuoke) reports finishing a face-swap workbench in under 24 hours and proposes the next step: collect 1,000 reference photos, have AI infer prompts, match and fuse them from natural-language requests, and use three differently angled facial references to analyze proportions, poses and camera angles. The goal is generating portraits without searching for face-swap base images.\n\nThe author explicitly says 'if this product can be made,' so 1,000 is a proposed scale, not a completed collection or training run. Under 24 hours is the earlier workbench's reported effort, not the prompt-recovery pipeline or full product duration. No model, implementation, data authorization, prompt-recovery evaluation, identity-consistency or privacy test is supplied. Original generation prompts and reliable facial assessments are not established. Included as a concrete reference-image reconstruction idea. No personal photos were provided or service accessed; REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 6 likes, 458 views, 2 reposts, 2 replies. Neither the preceding workbench nor the proposed pipeline was verified."],
+      "source_labels": ["xinhuoke's reference-photo-to-prompt pipeline idea, November 28, 2026 at 18:26:29 Beijing time"]
+    }
+  },
+  {
+    "id": "francis-entry-claude-install-artifact-interoperability",
+    "title": "Claude安装产物到Entry：Francis称研究后让其他模型制作原生桌面应用",
+    "category": "apps", "rea": "unknown", "status": "unverified",
+    "summary": "Francis自述研究Claude安装产物，使Gemini Neon、Grok Bot及ChatGPT也能制作原生桌面应用，并称做了四个例子；机制与演示未核。",
+    "description": "2026年11月28日19:11:44（北京时间），Francis（@francisluz）称逆向Claude的install artifacts，让Gemini Neon、Grok Bot和ChatGPT也可制作原生桌面应用，并能在Entry托管；作者说已制作四个应用探索原生OS能力等用途。具体目标是把原本关联Claude的安装产物／交付方式用于其他模型的应用制作与分发互通。\n\n帖子未解释安装产物格式、平台、权限、打包机制、代码、模型在逆向步骤中的分工或四应用详情。本轮只确认作者和文字，未观看附件或测试Entry，不能认定所有模型和系统均可安装、安全或具有相同原生能力。保留AI工具互通项目的作者报告，REA与AI是否亲自完成逆向均未确认，标unknown／unverified，不补写功能或用户量。",
+    "sources": [{"label": "Francis的安装产物与Entry互通自述，2026-11-28 19:11:44北京时间", "url": "https://x.com/i/status/2126635147369889923"}],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照0赞、30浏览、0转发、0回复；四应用为作者自报数量。"],
+    "en": {
+      "title": "Claude installation artifacts to Entry: Francis reports native desktop-app interoperability for other models",
+      "summary": "Francis says reversing Claude's installation artifacts enables Gemini Neon, Grok Bot and ChatGPT to create native desktop apps, with four examples. Mechanisms and demonstrations remain unchecked.",
+      "description": "At 19:11:44 Beijing time on November 28, 2026, Francis (@francisluz) says reverse-engineering Claude's install artifacts lets Gemini Neon, Grok Bot and ChatGPT create native desktop apps that can be hosted on Entry. The author reports making four apps to explore native OS features and other possibilities. The concrete objective is reusing a Claude-associated installation/delivery mechanism for cross-model app creation and distribution.\n\nThe post does not explain artifact formats, platforms, permissions, packaging, code, AI's role in the reversing steps or the four apps' details. This round confirmed author and wording only, without viewing attachments or testing Entry. Universal installation, safety and equal native capabilities across models and systems are not established. Retained as an author-reported AI-tool interoperability project. REA and AI's direct role in reversing remain unconfirmed, hence unknown/unverified, without invented features or user counts.",
+      "metadata": ["Candidate snapshot: 0 likes, 30 views, 0 reposts, 0 replies. Four apps is the author's reported count."],
+      "source_labels": ["Francis's installation-artifact and Entry interoperability account, November 28, 2026 at 19:11:44 Beijing time"]
+    }
+  },
+  {
+    "id": "octopusaia-chatgpt-three-cover-style-dna-reconstruction",
+    "title": "三张寮国封面到清迈咖啡厅：ChatGPT拆风格DNA再重组的教程转述",
+    "category": "algorithms", "rea": "other-ai", "status": "unverified",
+    "summary": "章鱼8爪铺转述两段式视觉拆解：先从三张同风格封面归纳构图等规则，再生成新主题；没有原作者作品或一致性评估。",
+    "description": "2026年11月28日19:35:00（北京时间），章鱼8爪铺（@octopusaia）转述一位近十年UI／UX经验设计师的方法，用ChatGPT从参考作品恢复可重用设计规则，而不是直接说高级感。案例语境是把三张寮国系列封面拆出风格DNA，再做清迈咖啡厅封面。\n\n第一段让模型仅分析，不生成，按构图与留白、字体层级、色彩、摄影质感和情绪整理共同规律；第二段给新主题和用途，让它提出三个视觉决策并转成英文生图提示。正文另列十个观察维度及3至5张参考建议，三张为示例规模，不是证明三张总能恢复独特风格。\n\n这是二手教程及具体设计重建用法，没有原设计师姓名、原封面、新结果、提示输出或对照评估，不认证其作品质量、原创性或可恢复原始提示词。按作者转述保留unverified，未生成图片或复测，REA未提。",
+    "sources": [{"label": "章鱼8爪铺转述ChatGPT风格DNA拆解与封面重组，2026-11-28 19:35:00北京时间", "url": "https://x.com/i/status/2126641001137869285"}],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照0赞、36浏览、0转发、0回复；经验年限和示例均来自转述。"],
+    "en": {
+      "title": "Three Laos covers to a Chiang Mai café: a secondary ChatGPT style-DNA reconstruction tutorial",
+      "summary": "octopusaia describes a two-stage workflow: infer composition and other shared rules from three covers, then recombine them for a new topic. Original works and consistency evaluations are absent.",
+      "description": "At 19:35:00 Beijing time on November 28, 2026, 章鱼8爪铺 (@octopusaia) relays a method attributed to a designer with nearly ten years in UI/UX. ChatGPT infers reusable design rules from reference works instead of receiving vague requests for a premium look. The example extracts style DNA from three Laos-series covers and uses it for a Chiang Mai café cover.\n\nThe first prompt asks for analysis without generation, organizing shared composition/whitespace, type hierarchy, color, photographic treatment and mood. The second supplies a new theme and purpose, asking for three visual decisions translated into English image-generation prompts. The text also lists ten observation dimensions and suggests three to five references. Three is the example size, not proof that three images always recover a unique style.\n\nThis is a secondary tutorial with a specific reconstruction use case. It lacks the original designer's name, reference covers, new output, prompt responses and comparative evaluation. Quality, originality and recovery of original prompts are not certified. Retained as unverified with attribution; no images were generated or tests repeated. REA is unmentioned.",
+      "metadata": ["Candidate snapshot: 0 likes, 36 views, 0 reposts, 0 replies. Experience and examples come from the retelling."],
+      "source_labels": ["octopusaia's account of ChatGPT style-DNA analysis and cover recombination, November 28, 2026 at 19:35:00 Beijing time"]
+    }
+  },
+  {
+    "id": "xenosaga-trilogy-linux-claude-opokxeno-port",
+    "title": "Xenosaga Trilogy Port：Claude辅助整合PS2反编译到Linux，第三部仍未开放",
+    "category": "games", "rea": "other-ai", "status": "in-progress",
+    "summary": "作者将Linux移植、启动器与工具归功Claude Code和OpokXeno反编译；自报第一部可玩、第二部测试中，第三部coming soon，许可仍有边界。",
+    "description": "2026年11月28日19:51:11（北京时间），The Gaming Emporium介绍xenosagaport的Xenosaga Trilogy Port：把PS2三部曲整合为一个Linux启动器和AppImage，称使用Claude Code辅助开发。\n\n补读固定5e3b605eef3cbda937aed0775efa87cc3cf42d4d README，提交2026年11月28日11:28:36 UTC、早于候选且在本轮窗口内。作者明确移植、启动器和工具由Claude／Claude Code辅助，基础是OpokXeno的三部反编译，并称上游亦用AI。第一部自报可玩，第二部可玩但仍有问题和测试，第三部尚未来临；Windows只是计划。文档列真16:9、第一部速度与战斗动画跳过、Event Theatre、可选HD包和跨部共享记忆卡，不能据一个统一启动器认定三部全完成。\n\n须自备合法NTSC-U光盘镜像，不需要BIOS。构建与发布检查声称从用户盘读取所需VU微码、检查hash及32字节以上共享片段，并允许源码显式表格或通用库表格等例外；这是项目流程，非本合集验证无版权字节。README还承认上游反编译当时无license文件，不将开放代码升级为任意再许可授权。没有GitHub Actions构建，因为匹配PS2构建需要游戏数据。仅阅读文档，未下载游戏、发行包或运行测试；几周开发为作者估计，不是测得工时。",
+    "sources": [
+      {"label": "The Gaming Emporium的三部曲移植介绍，2026-11-28 19:51:11北京时间", "url": "https://x.com/i/status/2126645074289205710"},
+      {"label": "窗口内候选前固定README：AI归属、分部状态与许可／数据检查边界，2026-11-28 11:28:36 UTC", "url": "https://github.com/xenosagaport/xenosaga-trilogy-port/blob/5e3b605eef3cbda937aed0775efa87cc3cf42d4d/README.md"}
+    ],
+    "snapshot_date": "2026-11-28", "metadata": ["候选快照1赞、37浏览、1转发、0回复；可玩性均是项目报告。"],
+    "en": {
+      "title": "Xenosaga Trilogy Port: Claude-assisted PS2 decompilation ports for Linux, with Episode III still unavailable",
+      "summary": "The author credits Claude Code and OpokXeno decompilations for the ports, launcher and tools. Episode I is reportedly playable, II in testing and III coming soon; licensing limits remain.",
+      "description": "At 19:51:11 Beijing time on November 28, 2026, The Gaming Emporium introduces xenosagaport's Xenosaga Trilogy Port, combining the PS2 trilogy into one Linux launcher and AppImage and crediting Claude Code-assisted development.\n\nSupplementary reading covers README 5e3b605eef3cbda937aed0775efa87cc3cf42d4d, committed November 28 at 11:28:36 UTC, before the candidate and inside this window. The author explicitly credits Claude/Claude Code for the ports, launcher and tools, built on OpokXeno's three decompilations, which the document also describes as AI-assisted. Episode I is reportedly playable, II playable but still with issues and in testing, and III coming soon. Windows is only planned. Listed features include true 16:9, Episode I speed and battle-animation skipping, an Event Theatre, optional HD packs and shared memory cards. One unified launcher does not mean all three games are complete.\n\nPlayers need their own legally obtained NTSC-U disc images; no BIOS is required. Build/release checks reportedly read needed VU microcode from user discs, verify hashes and detect shared runs of 32 or more bytes, with exceptions for source-explicit tables and standard library tables. This is a project process, not independent verification that copyrighted bytes are absent. The README acknowledges upstream decompilations lack license files as of writing; open visibility is not unrestricted relicensing permission. There is no GitHub Actions build because matching PS2 builds require game data. Only documentation was read; no games or releases were downloaded and no tests run. Several weeks of development is the author's estimate, not measured effort.",
+      "metadata": ["Candidate snapshot: 1 like, 37 views, 1 repost, 0 replies. Playability is project-reported."],
+      "source_labels": ["The Gaming Emporium's trilogy-port introduction, November 28, 2026 at 19:51:11 Beijing time", "In-window, pre-candidate pinned README: AI credit, per-episode status and licensing/data-check limits, November 28, 2026 at 11:28:36 UTC"]
+    }
+  },
+  {
     "id": "yaboijosh-claude-deepseek-microcontroller-emulation-stall",
     "title": "开源微控制器与固件仿真停滞：YaboiJosh报告Claude／DeepSeek反编译尝试",
     "category": "hardware", "rea": "other-ai", "status": "in-progress",

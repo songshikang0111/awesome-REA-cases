@@ -2,6 +2,10 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [未具名反机器人系统：Milky报告前沿AI辅助红队逆向](../cases/milky-custom-antibot-frontier-model-reversing-report.md) — Milky称刚逆向另一套行业定制antibot系统，并强调红队专家与前沿模型配合；未公开目标、方法或成功判据。 **[其他 AI 逆向 · 待验证]**
+- [web-deck：把The Last Boring Slide拆成离线WebGL2演示技能](../cases/web-deck-last-boring-slide-agent-skill-reconstruction.md) — 那纸ol把参考演示的架构整理为Agent技能；项目自报1027.3KB单HTML与七关键帧检查，真实宿主自动发现及跨系统安装仍未测。 **[其他 AI 逆向 · 相关项目]**
+- [Agy Powertools源码检查：Logan用Antigravity区分本地增强与协议改写](../cases/agy-powertools-antigravity-ai-source-compliance-review.md) — Logan报告AI辅助读源码并按凭据、多账号、protobuf请求与本地UI分风险；条款和封号判断未获官方或独立验证。 **[其他 AI 逆向 · 分析测试]**
+- [Claude安装产物到Entry：Francis称研究后让其他模型制作原生桌面应用](../cases/francis-entry-claude-install-artifact-interoperability.md) — Francis自述研究Claude安装产物，使Gemini Neon、Grok Bot及ChatGPT也能制作原生桌面应用，并称做了四个例子；机制与演示未核。 **[未确认使用 REA · 待验证]**
 - [上传可执行文件看REA结果：WquGuru用Claude Code循环开发小站](../cases/wquguru-rea-executable-upload-site-loop-project.md) — WquGuru称已开Claude Code /loop，搭配Fable5.2制作可执行文件上传分析站；发帖时仍期待回家验收，没有上线或分析正确性的结果。 **[REA · 进行中]**
 - [Safari时间戳到底表示什么：Sprog建议用REA研究同版本浏览器行为](../cases/sprog-safari-browserstate-wal-rea-behavior-idea.md) — Sprog提出在越狱设备上用REA研究特定Safari版本，以理解标签状态写入；只是一项取证行为研究idea，没有执行或支持争议任一方的结果。 **[REA · 待验证]**
 - [Keeper匹配偏好去了哪里：Neon反查Claude代码与Agent日志的二手审计报告](../cases/keeper-neon-matching-preference-code-audit-report.md) — lifcc转述Keeper用Neon从代码、Slack、PR与Agent日志还原偏好过滤，约6.5%样本整组偏好丢失；未独立审代码，不能证明蓄意投毒或完全隐瞒。 **[其他 AI 逆向 · 分析测试]**

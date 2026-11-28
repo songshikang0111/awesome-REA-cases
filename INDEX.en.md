@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2951 entries**, organized by use case, without a Top-N or popularity threshold.
+**2964 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (577)
-- [Hardware and interoperability](categories/en/hardware.md) (774)
-- [Applications and clients](categories/en/apps.md) (1225)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (375)
+- [Games and preservation](categories/en/games.md) (581)
+- [Hardware and interoperability](categories/en/hardware.md) (775)
+- [Applications and clients](categories/en/apps.md) (1229)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (379)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,10 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [DRIG: AI-assisted Rust/Bevy reconstruction of Race Driver: GRID behavior](cases/en/drig-grid-rust-bevy-ai-behavior-reimplementation.md) — PipeKnight discloses AI coding agents rebuilding GRID's engine, checked against original driving, AI and audio traces and individual routine comparisons. Crashes, physics and visual differences remain. **[Other AI-assisted work · In progress]**
+- [Marathon Recompiled: Sonic 2006 static recompilation and reported AI commit credits](cases/en/marathon-sonic2006-static-recompilation-ai-credit-report.md) — yibie reports 17 AI-related trailers across 30 recent commits. Pinned documentation confirms Xbox 360 recompilation for three platforms but does not disclose AI's role. **[REA use unconfirmed · Related project]**
+- [Cosmic Supremacy reconnects: GenAI-assisted server reconstruction remains a multiplayer beta](cases/en/cosmic-supremacy-resurgence-genai-server-reconstruction.md) — rsfutch77 credits GenAI with decoding lost-server commands and writing a replacement. Documentation limits multiplayer to one sandbox galaxy without player messages; opponents are rules-based, not reinforcement learning. **[Other AI-assisted work · In progress]**
+- [Xenosaga Trilogy Port: Claude-assisted PS2 decompilation ports for Linux, with Episode III still unavailable](cases/en/xenosaga-trilogy-linux-claude-opokxeno-port.md) — The author credits Claude Code and OpokXeno decompilations for the ports, launcher and tools. Episode I is reportedly playable, II in testing and III coming soon; licensing limits remain. **[Other AI-assisted work · In progress]**
 - [bouncemarket ball prediction: a Claude bot reports correct calls on 146 of 181 rounds, not advance knowledge of every round](cases/en/bouncemarket-claude-physics-prediction-report.md) — A secondary post reports 146 perfect Claude-assisted physics predictions. The original HN comment says the bot called 146 of 181 rounds, skipped slow calculations and had not solved advance seed recovery. **[Other AI-assisted work · Needs verification]**
 - [Open Ultima 8 v0.5.8: a report of Claude-assisted Rust reconstruction of the Ultima VIII engine](cases/en/open-ultima8-rust-claude-engine-v058.md) — The Gaming Emporium reports fswolf's Claude-assisted Rust engine. Pinned documentation credits Pentagram/ScummVM, requires U8.EXE's weapon table and uses save sidecars; full-game playability was not verified here. **[Other AI-assisted work · Needs verification]**
 - [Leaving fullscreen on cold start: a reported Gemini metadata and localization-DLL repair](cases/en/gemini-unity-versiondll-fullscreen-localization-fix.md) — JJBond relays Gemini parsing global-metadata.dat, identifying localization plugin version.dll and testing a patch after reboot. The game is unnamed; no reviewable patch or independent regression test was obtained. **[Other AI-assisted work · Needs verification]**
@@ -608,6 +612,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [Keychron magnetic-switch issues persist: suxb201 has AI modify calibration firmware](cases/en/suxb201-keychron-ai-magnetic-calibration-firmware.md) — After replacing the PCB failed to solve the issue, the author reports modifying Keychron firmware with AI to calibrate simultaneous magnetic changes across keys. Model, patch and repair tests are absent. **[Other AI-assisted work · In progress]**
 - [Open-source microcontroller and firmware emulation stalls: YaboiJosh reports Claude/DeepSeek decompilation work](cases/en/yaboijosh-claude-deepseek-microcontroller-emulation-stall.md) — The author reports using Claude and DeepSeek to decompile and emulate already open-sourced microcontrollers and firmware, without progress. Claims that Claude introduced barriers lack code or logs. **[Other AI-assisted work · In progress]**
 - [Old webOS telemetry blocking stalls: T0mmy has Codex inspect firmware and iterate over SSH](cases/en/lightmare8-webos-codex-firmware-ssh-telemetry-attempt.md) — T0mmy says Codex infers specifications from firmware and repeatedly tries SSH commands, but hits a dead end. The background is missing iptables on old webOS; completed telemetry blocking is not reported. **[Other AI-assisted work · In progress]**
 - [Replacing a stimulation patch's app: Shashank credits Claude with BLE research and a Flutter client](cases/en/shashank-vagus-patch-claude-ble-flutter-app.md) — Shashank Mayya reports comparing blutter output with logcat BLE logs and rebuilding background sessions and health-data views. Over 200 tests and device end-to-end runs are author reports, not electrical-safety or efficacy evidence. **[Other AI-assisted work · Needs verification]**
@@ -1385,6 +1390,10 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [An unnamed custom antibot system: Milky reports frontier-model-assisted red-team reversing](cases/en/milky-custom-antibot-frontier-model-reversing-report.md) — Milky reports reversing another industry-specific antibot system and emphasizes combining red-team expertise with a frontier model. Target, methods and success criteria are not disclosed. **[Other AI-assisted work · Needs verification]**
+- [web-deck: reconstructing The Last Boring Slide as an offline WebGL2 agent skill](cases/en/web-deck-last-boring-slide-agent-skill-reconstruction.md) — Renzexi01 packages a reference deck's architecture into a skill. The project reports a 1,027.3 KB single HTML and seven-keyframe checks; live-host discovery and cross-system installation remain untested. **[Other AI-assisted work · Related project]**
+- [Agy Powertools source review: Logan uses Antigravity to distinguish local enhancements from protocol changes](cases/en/agy-powertools-antigravity-ai-source-compliance-review.md) — Logan reports AI-assisted source reading, separating credential rotation, protobuf requests and local UI risks. Terms-of-service and ban predictions lack official or independent confirmation. **[Other AI-assisted work · Analysis test]**
+- [Claude installation artifacts to Entry: Francis reports native desktop-app interoperability for other models](cases/en/francis-entry-claude-install-artifact-interoperability.md) — Francis says reversing Claude's installation artifacts enables Gemini Neon, Grok Bot and ChatGPT to create native desktop apps, with four examples. Mechanisms and demonstrations remain unchecked. **[REA use unconfirmed · Needs verification]**
 - [Upload an executable for REA results: WquGuru starts a Claude Code loop to build a small site](cases/en/wquguru-rea-executable-upload-site-loop-project.md) — WquGuru starts Claude Code /loop with a model called Fable5.2 to build an executable-upload analysis site. The post anticipates checking it after returning home, not a launch or verified analysis result. **[REA · In progress]**
 - [What does a Safari timestamp mean? Sprog proposes REA research on the matching browser version](cases/en/sprog-safari-browserstate-wal-rea-behavior-idea.md) — Sprog suggests using REA on a jailbroken device to study a particular Safari version and its tab-state writes. This is a forensic-behavior research idea, not an executed investigation or support for either side of a dispute. **[REA · Needs verification]**
 - [Where did Keeper's matching preferences go? A secondary account of Neon tracing Claude code and agent logs](cases/en/keeper-neon-matching-preference-code-audit-report.md) — lifcc relays a Keeper audit using Neon across code, Slack, PRs and agent logs, claiming complete preference loss in about 6.5% of a sample. Code was not independently reviewed; deliberate poisoning or total concealment is not established. **[Other AI-assisted work · Analysis test]**
@@ -2613,6 +2622,10 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [Inferring intent from published content: tristan reports an early team breakthrough](cases/en/elfa-tristan-content-to-intent-ai-reconstruction-report.md) — tristan describes recovering intent from people's posts in the context of agent-mediated connections and work. No dataset, model or accuracy is provided. **[Other AI-assisted work · In progress]**
+- [MopMonk-DS preview: secondary accounts of a post-trained model on 869 binary exploitation tasks](cases/en/mopmonk-ds-preview-binary-exploitgym-secondary-report.md) — Two introductions say the DeepSeek V4.1 Flash-based model autonomously reverses binaries and attempts exploitation, reporting 211/869 and 24.2% on ExploitGym. Original scores and validators were not read; rankings are not production success rates. **[Other AI-assisted work · Analysis test]**
+- [Recover prompts from 1,000 reference photos: xinhuoke's next-step portrait-workbench idea](cases/en/xinhuoke-photo-reference-prompt-reconstruction-idea.md) — The author proposes inferring prompts from 1,000 reference photos, then generating portraits using three facial references. The reported existing face-swap workbench is separate from this unimplemented pipeline. **[Other AI-assisted work · In progress]**
+- [Three Laos covers to a Chiang Mai café: a secondary ChatGPT style-DNA reconstruction tutorial](cases/en/octopusaia-chatgpt-three-cover-style-dna-reconstruction.md) — octopusaia describes a two-stage workflow: infer composition and other shared rules from three covers, then recombine them for a new topic. Original works and consistency evaluations are absent. **[Other AI-assisted work · Needs verification]**
 - [Finding flags directly in CyBench binaries: lifcc relays two static reads by DeepSeek V4 Pro 0813](cases/en/deepseek-v4pro0813-cybench-rodata-flag-audit-report.md) — lifcc says a risk evaluation found DeepSeek using strings and pyelftools on server binaries' .rodata to extract hardcoded flags in two CyBench samples. Without original logs, this does not establish general exploitation ability or regulatory compliance. **[Other AI-assisted work · Analysis test]**
 - [WallStreet Forex Robot: a 2016 black-box reconstruction recollection inspires a multi-AI-agent idea](cases/en/wallstreet-forex-robot-multiagent-blackbox-idea.md) — EA Forex LAB recalls a forum effort to reconstruct a night-scalping EA and proposes hundreds of AI agents analyzing behavior and testing hypotheses. No implemented AI system or validated profitability is reported. **[Other AI-assisted work · Needs verification]**
 - [Pocket growth teardown: Ethan queries APIs through Composio, then creates an HTML carousel](cases/en/ethan-composio-pocket-growth-playbook-analysis.md) — Ethan Walkrman reports an agent querying 15+ paid APIs through Composio Instant for about $0.20 to study Pocket's traffic, ads and search, then output HTML slides. Metrics were not independently checked. **[Other AI-assisted work · Needs verification]**

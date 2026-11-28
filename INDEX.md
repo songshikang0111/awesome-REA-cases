@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2951 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2964 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（577）
-- [硬件与设备互通](categories/hardware.md)（774）
-- [应用与客户端](categories/apps.md)（1225）
-- [算法与功能重建](categories/algorithms.md)（375）
+- [游戏与游戏保存](categories/games.md)（581）
+- [硬件与设备互通](categories/hardware.md)（775）
+- [应用与客户端](categories/apps.md)（1229）
+- [算法与功能重建](categories/algorithms.md)（379）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,10 @@
 
 ### 游戏与游戏保存
 
+- [DRIG：AI辅助把Race Driver: GRID行为重建到Rust与Bevy](cases/drig-grid-rust-bevy-ai-behavior-reimplementation.md) — PipeKnight披露AI编程Agent参与GRID引擎重建，以原版驾驶、AI和音频轨迹及局部字节对照检查；仍有崩溃、物理与画面差异。 **[其他 AI 逆向 · 进行中]**
+- [Marathon Recompiled：Sonic 2006静态重编译与AI提交署名转述](cases/marathon-sonic2006-static-recompilation-ai-credit-report.md) — yibie称Sonic 2006项目近期30提交有17处AI相关trailer；固定文档确认Xbox 360到三平台的重编译路线，但未披露AI分工。 **[未确认使用 REA · 相关项目]**
+- [Cosmic Supremacy重连服务器：GenAI辅助解码旧客户端，项目仍为多人beta](cases/cosmic-supremacy-resurgence-genai-server-reconstruction.md) — rsfutch77披露GenAI协助理解失落服务端命令并编写替代服务器；文档称多人仅一座沙盒星系、玩家消息未通，对手为规则AI而非强化学习。 **[其他 AI 逆向 · 进行中]**
+- [Xenosaga Trilogy Port：Claude辅助整合PS2反编译到Linux，第三部仍未开放](cases/xenosaga-trilogy-linux-claude-opokxeno-port.md) — 作者将Linux移植、启动器与工具归功Claude Code和OpokXeno反编译；自报第一部可玩、第二部测试中，第三部coming soon，许可仍有边界。 **[其他 AI 逆向 · 进行中]**
 - [bouncemarket弹珠预测：Claude机器人报告146／181局出手全中，并非开局预知](cases/bouncemarket-claude-physics-prediction-report.md) — 二手帖称Claude逆向弹珠物理146局全中；HN作者原评论实际为181局中选146局、算不及时跳过，随机种子恢复仍是未解决尝试。 **[其他 AI 逆向 · 待验证]**
 - [Open Ultima 8 v0.5.8：Claude辅助Rust重建《创世纪VIII》引擎的转述](cases/open-ultima8-rust-claude-engine-v058.md) — The Gaming Emporium转述fswolf的Claude辅助Rust引擎；固定README明确复用Pentagram／ScummVM知识、读取U8.EXE武器表及存档sidecar，未验证全流程可玩。 **[其他 AI 逆向 · 待验证]**
 - [冷启动退全屏：Gemini分析metadata与汉化DLL的修复转述](cases/gemini-unity-versiondll-fullscreen-localization-fix.md) — JJBond转述Gemini解析global-metadata.dat，定位汉化插件version.dll并补丁后重启验证；游戏未具名，没有可核补丁或独立回归。 **[其他 AI 逆向 · 待验证]**
@@ -606,6 +610,7 @@
 
 ### 硬件与设备互通
 
+- [Keychron磁轴仍异常：suxb201让AI改开源固件做同步校准](cases/suxb201-keychron-ai-magnetic-calibration-firmware.md) — 换PCB仍有问题后，作者称AI修改Keychron固件，多键同时磁场变化时触发校准；未给键盘型号、补丁或修复测试。 **[其他 AI 逆向 · 进行中]**
 - [开源微控制器与固件仿真停滞：YaboiJosh报告Claude／DeepSeek反编译尝试](cases/yaboijosh-claude-deepseek-microcontroller-emulation-stall.md) — 作者称使用Claude与DeepSeek反编译、仿真已开源的微控制器和固件，但反复无进展；对Claude设障的解释未有代码或日志支持。 **[其他 AI 逆向 · 进行中]**
 - [旧webOS遥测屏蔽受阻：T0mmy让Codex读固件、经SSH反复试探](cases/lightmare8-webos-codex-firmware-ssh-telemetry-attempt.md) — T0mmy称Codex从固件推测规格并循环经SSH试命令，但陷入死路；背景是旧webOS缺iptables，遥测屏蔽尚未报告完成。 **[其他 AI 逆向 · 进行中]**
 - [刺激贴片不再靠原App：Shashank称Claude辅助读BLE协议、重写Flutter客户端](cases/shashank-vagus-patch-claude-ble-flutter-app.md) — Shashank Mayya报告以blutter与logcat对照刺激贴片BLE协议，重写后台保活与健康数据界面；200多测试与真机端到端测试均为自报，不证明电刺激安全或疗效。 **[其他 AI 逆向 · 待验证]**
@@ -1383,6 +1388,10 @@
 
 ### 应用与客户端
 
+- [未具名反机器人系统：Milky报告前沿AI辅助红队逆向](cases/milky-custom-antibot-frontier-model-reversing-report.md) — Milky称刚逆向另一套行业定制antibot系统，并强调红队专家与前沿模型配合；未公开目标、方法或成功判据。 **[其他 AI 逆向 · 待验证]**
+- [web-deck：把The Last Boring Slide拆成离线WebGL2演示技能](cases/web-deck-last-boring-slide-agent-skill-reconstruction.md) — 那纸ol把参考演示的架构整理为Agent技能；项目自报1027.3KB单HTML与七关键帧检查，真实宿主自动发现及跨系统安装仍未测。 **[其他 AI 逆向 · 相关项目]**
+- [Agy Powertools源码检查：Logan用Antigravity区分本地增强与协议改写](cases/agy-powertools-antigravity-ai-source-compliance-review.md) — Logan报告AI辅助读源码并按凭据、多账号、protobuf请求与本地UI分风险；条款和封号判断未获官方或独立验证。 **[其他 AI 逆向 · 分析测试]**
+- [Claude安装产物到Entry：Francis称研究后让其他模型制作原生桌面应用](cases/francis-entry-claude-install-artifact-interoperability.md) — Francis自述研究Claude安装产物，使Gemini Neon、Grok Bot及ChatGPT也能制作原生桌面应用，并称做了四个例子；机制与演示未核。 **[未确认使用 REA · 待验证]**
 - [上传可执行文件看REA结果：WquGuru用Claude Code循环开发小站](cases/wquguru-rea-executable-upload-site-loop-project.md) — WquGuru称已开Claude Code /loop，搭配Fable5.2制作可执行文件上传分析站；发帖时仍期待回家验收，没有上线或分析正确性的结果。 **[REA · 进行中]**
 - [Safari时间戳到底表示什么：Sprog建议用REA研究同版本浏览器行为](cases/sprog-safari-browserstate-wal-rea-behavior-idea.md) — Sprog提出在越狱设备上用REA研究特定Safari版本，以理解标签状态写入；只是一项取证行为研究idea，没有执行或支持争议任一方的结果。 **[REA · 待验证]**
 - [Keeper匹配偏好去了哪里：Neon反查Claude代码与Agent日志的二手审计报告](cases/keeper-neon-matching-preference-code-audit-report.md) — lifcc转述Keeper用Neon从代码、Slack、PR与Agent日志还原偏好过滤，约6.5%样本整组偏好丢失；未独立审代码，不能证明蓄意投毒或完全隐瞒。 **[其他 AI 逆向 · 分析测试]**
@@ -2611,6 +2620,10 @@
 
 ### 算法与功能重建
 
+- [从公开内容反推意图：tristan称团队取得初步突破](cases/elfa-tristan-content-to-intent-ai-reconstruction-report.md) — tristan把团队工作描述为从人们发布的内容恢复intent，放在AI Agent匹配人与工作的背景中；未给数据集、模型或准确率。 **[其他 AI 逆向 · 进行中]**
+- [MopMonk-DS预览：后训练模型在869项二进制利用基准上的转述](cases/mopmonk-ds-preview-binary-exploitgym-secondary-report.md) — 两篇介绍称DeepSeek V4.1 Flash后训练模型自行逆向并尝试利用，ExploitGym为211／869、24.2%；未读原始成绩与验证器，不把基准排名外推实战。 **[其他 AI 逆向 · 分析测试]**
+- [从1000张参考照反推提示词：薪火客的照片工作台下一步idea](cases/xinhuoke-photo-reference-prompt-reconstruction-idea.md) — 作者设想AI从1000张参考照片恢复提示词，再结合三张脸部参考生成个人照片；现有换脸工作台与尚未实现的生成管线分开记录。 **[其他 AI 逆向 · 进行中]**
+- [三张寮国封面到清迈咖啡厅：ChatGPT拆风格DNA再重组的教程转述](cases/octopusaia-chatgpt-three-cover-style-dna-reconstruction.md) — 章鱼8爪铺转述两段式视觉拆解：先从三张同风格封面归纳构图等规则，再生成新主题；没有原作者作品或一致性评估。 **[其他 AI 逆向 · 待验证]**
 - [CyBench二进制里直接找Flag：lifcc转述DeepSeek V4 Pro 0813的两次静态读取](cases/deepseek-v4pro0813-cybench-rodata-flag-audit-report.md) — lifcc称风险评估发现DeepSeek以strings和pyelftools读取服务端二进制.rodata，在两个CyBench样本找到硬编码Flag；没有原日志，不能当广泛漏洞利用能力或监管合规证明。 **[其他 AI 逆向 · 分析测试]**
 - [WallStreet Forex Robot：从2016年黑箱重建回忆提出多AI Agent研究idea](cases/wallstreet-forex-robot-multiagent-blackbox-idea.md) — EA Forex LAB回忆论坛合作分析夜间剥头皮EA，提出数百AI Agent分析行为与验证假设；未报告AI方案已实施或盈利验证。 **[其他 AI 逆向 · 待验证]**
 - [Pocket增长拆解：Ethan用Composio查多API，再生成HTML轮播](cases/ethan-composio-pocket-growth-playbook-analysis.md) — Ethan Walkrman称Agent借Composio Instant查15余付费API，以约0.20美元研究Pocket流量、广告和搜索，再转为HTML幻灯；指标未独立核实。 **[其他 AI 逆向 · 待验证]**
