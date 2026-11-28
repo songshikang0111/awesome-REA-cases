@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [MiniMax的VM保护逻辑还原：100个内部样本的项目自评](../cases/minimax-internal-vmprotect-themida-devirtualization-report.md) — MiniMax原文报告内部模型研究VMProtect／Themida保护：100样本单次70%、验证器反馈加八次采样94%；不是公开榜或通用脱壳保证。 **[其他 AI 逆向 · 分析测试]**
 - [从公开内容反推意图：tristan称团队取得初步突破](../cases/elfa-tristan-content-to-intent-ai-reconstruction-report.md) — tristan把团队工作描述为从人们发布的内容恢复intent，放在AI Agent匹配人与工作的背景中；未给数据集、模型或准确率。 **[其他 AI 逆向 · 进行中]**
 - [MopMonk-DS预览：后训练模型在869项二进制利用基准上的转述](../cases/mopmonk-ds-preview-binary-exploitgym-secondary-report.md) — 两篇介绍称DeepSeek V4.1 Flash后训练模型自行逆向并尝试利用，ExploitGym为211／869、24.2%；未读原始成绩与验证器，不把基准排名外推实战。 **[其他 AI 逆向 · 分析测试]**
 - [从1000张参考照反推提示词：薪火客的照片工作台下一步idea](../cases/xinhuoke-photo-reference-prompt-reconstruction-idea.md) — 作者设想AI从1000张参考照片恢复提示词，再结合三张脸部参考生成个人照片；现有换脸工作台与尚未实现的生成管线分开记录。 **[其他 AI 逆向 · 进行中]**

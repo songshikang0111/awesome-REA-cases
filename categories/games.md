@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [Word Play被AI重建：新闻摘要转述Mark Brown的经历](../cases/word-play-mark-brown-ai-recreation-secondary-report.md) — 一则称引自BBC的摘要说GMTK的Mark Brown看到自己的Word Play被重建；没有重建者、代码、模型、版本或行为对照。 **[其他 AI 逆向 · 待验证]**
+- [204Snake未发售就被复制：AI游戏重建的新闻转述](../cases/204snake-prelaunch-ai-copy-secondary-report.md) — 一则称引自BBC的摘要把204Snake列为发售前遭AI复制的独立游戏；未说明输入材料、模型、复制者或等价检查。 **[其他 AI 逆向 · 待验证]**
 - [DRIG：AI辅助把Race Driver: GRID行为重建到Rust与Bevy](../cases/drig-grid-rust-bevy-ai-behavior-reimplementation.md) — PipeKnight披露AI编程Agent参与GRID引擎重建，以原版驾驶、AI和音频轨迹及局部字节对照检查；仍有崩溃、物理与画面差异。 **[其他 AI 逆向 · 进行中]**
 - [Marathon Recompiled：Sonic 2006静态重编译与AI提交署名转述](../cases/marathon-sonic2006-static-recompilation-ai-credit-report.md) — yibie称Sonic 2006项目近期30提交有17处AI相关trailer；固定文档确认Xbox 360到三平台的重编译路线，但未披露AI分工。 **[未确认使用 REA · 相关项目]**
 - [Cosmic Supremacy重连服务器：GenAI辅助解码旧客户端，项目仍为多人beta](../cases/cosmic-supremacy-resurgence-genai-server-reconstruction.md) — rsfutch77披露GenAI协助理解失落服务端命令并编写替代服务器；文档称多人仅一座沙盒星系、玩家消息未通，对手为规则AI而非强化学习。 **[其他 AI 逆向 · 进行中]**

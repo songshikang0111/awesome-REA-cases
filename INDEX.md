@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2964 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2971 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（581）
-- [硬件与设备互通](categories/hardware.md)（775）
-- [应用与客户端](categories/apps.md)（1229）
-- [算法与功能重建](categories/algorithms.md)（379）
+- [游戏与游戏保存](categories/games.md)（583）
+- [硬件与设备互通](categories/hardware.md)（778）
+- [应用与客户端](categories/apps.md)（1230）
+- [算法与功能重建](categories/algorithms.md)（380）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,8 @@
 
 ### 游戏与游戏保存
 
+- [Word Play被AI重建：新闻摘要转述Mark Brown的经历](cases/word-play-mark-brown-ai-recreation-secondary-report.md) — 一则称引自BBC的摘要说GMTK的Mark Brown看到自己的Word Play被重建；没有重建者、代码、模型、版本或行为对照。 **[其他 AI 逆向 · 待验证]**
+- [204Snake未发售就被复制：AI游戏重建的新闻转述](cases/204snake-prelaunch-ai-copy-secondary-report.md) — 一则称引自BBC的摘要把204Snake列为发售前遭AI复制的独立游戏；未说明输入材料、模型、复制者或等价检查。 **[其他 AI 逆向 · 待验证]**
 - [DRIG：AI辅助把Race Driver: GRID行为重建到Rust与Bevy](cases/drig-grid-rust-bevy-ai-behavior-reimplementation.md) — PipeKnight披露AI编程Agent参与GRID引擎重建，以原版驾驶、AI和音频轨迹及局部字节对照检查；仍有崩溃、物理与画面差异。 **[其他 AI 逆向 · 进行中]**
 - [Marathon Recompiled：Sonic 2006静态重编译与AI提交署名转述](cases/marathon-sonic2006-static-recompilation-ai-credit-report.md) — yibie称Sonic 2006项目近期30提交有17处AI相关trailer；固定文档确认Xbox 360到三平台的重编译路线，但未披露AI分工。 **[未确认使用 REA · 相关项目]**
 - [Cosmic Supremacy重连服务器：GenAI辅助解码旧客户端，项目仍为多人beta](cases/cosmic-supremacy-resurgence-genai-server-reconstruction.md) — rsfutch77披露GenAI协助理解失落服务端命令并编写替代服务器；文档称多人仅一座沙盒星系、玩家消息未通，对手为规则AI而非强化学习。 **[其他 AI 逆向 · 进行中]**
@@ -610,6 +612,9 @@
 
 ### 硬件与设备互通
 
+- [ReFS到Linux：读者转述Claude辅助逆向的只读文件系统驱动](cases/refs-linux-claude-readonly-driver-secondary-report.md) — Mathias Klassen称新Linux ReFS驱动的开发者披露Claude帮助逆向，并指出只读、尚无BitLocker；未取得实现或运行记录。 **[其他 AI 逆向 · 待验证]**
+- [扫描件该从哪里切：Rusty报告Ada先识别特征并规划截面](cases/rusty-ada-scanned-part-cross-section-planning.md) — Rusty称AI工程助手Ada识别扫描零件特征，选择有信息量的截面位置；尚在等待截面推论，没有尺寸、CAD或成品验证。 **[其他 AI 逆向 · 进行中]**
+- [约80天重建十万美元软硬件产品：朋友使用Claude的未具名转述](cases/claude-unnamed-100k-hardware-software-eighty-day-report.md) — 土耳其语帖子称朋友借Claude重建含硬件与软件的十万美元产品，约80天、每天约10小时后全功能运行；目标、产物与验证均未公开。 **[其他 AI 逆向 · 待验证]**
 - [Keychron磁轴仍异常：suxb201让AI改开源固件做同步校准](cases/suxb201-keychron-ai-magnetic-calibration-firmware.md) — 换PCB仍有问题后，作者称AI修改Keychron固件，多键同时磁场变化时触发校准；未给键盘型号、补丁或修复测试。 **[其他 AI 逆向 · 进行中]**
 - [开源微控制器与固件仿真停滞：YaboiJosh报告Claude／DeepSeek反编译尝试](cases/yaboijosh-claude-deepseek-microcontroller-emulation-stall.md) — 作者称使用Claude与DeepSeek反编译、仿真已开源的微控制器和固件，但反复无进展；对Claude设障的解释未有代码或日志支持。 **[其他 AI 逆向 · 进行中]**
 - [旧webOS遥测屏蔽受阻：T0mmy让Codex读固件、经SSH反复试探](cases/lightmare8-webos-codex-firmware-ssh-telemetry-attempt.md) — T0mmy称Codex从固件推测规格并循环经SSH试命令，但陷入死路；背景是旧webOS缺iptables，遥测屏蔽尚未报告完成。 **[其他 AI 逆向 · 进行中]**
@@ -1388,6 +1393,7 @@
 
 ### 应用与客户端
 
+- [MiniMax内部反编译器实验：Rust核心库回插原宿主](cases/minimax-internal-decompiler-rust-core-replacement-report.md) — MiniMax原文报告内部模型重建未具名反编译器核心，检查CLI／API、独立UI及共享库回插；200万行是实验代码，不是成熟商业产品。 **[其他 AI 逆向 · 分析测试]**
 - [未具名反机器人系统：Milky报告前沿AI辅助红队逆向](cases/milky-custom-antibot-frontier-model-reversing-report.md) — Milky称刚逆向另一套行业定制antibot系统，并强调红队专家与前沿模型配合；未公开目标、方法或成功判据。 **[其他 AI 逆向 · 待验证]**
 - [web-deck：把The Last Boring Slide拆成离线WebGL2演示技能](cases/web-deck-last-boring-slide-agent-skill-reconstruction.md) — 那纸ol把参考演示的架构整理为Agent技能；项目自报1027.3KB单HTML与七关键帧检查，真实宿主自动发现及跨系统安装仍未测。 **[其他 AI 逆向 · 相关项目]**
 - [Agy Powertools源码检查：Logan用Antigravity区分本地增强与协议改写](cases/agy-powertools-antigravity-ai-source-compliance-review.md) — Logan报告AI辅助读源码并按凭据、多账号、protobuf请求与本地UI分风险；条款和封号判断未获官方或独立验证。 **[其他 AI 逆向 · 分析测试]**
@@ -2499,7 +2505,7 @@
 - [GTM 工具：用 REA 构建线索与邮件营销工作流](cases/rea-gtm-tool.md) — 作者称用 REA 构建获客工具，涵盖线索管理与邮件活动；未提供实现或测试细节。 **[REA · 待验证]**
 - [茶叶出海网站：REA 辅助的本地重建报告](cases/tea-site-rea-rebuild-report.md) — 作者称用 Codex + REA 逆向参考网站，并在约 40 分钟内本地部署重建版。 **[REA · 待验证]**
 - [iTerm：借助 REA 规格实现阿拉伯语文本绘制](cases/arabic-terminal-rendering.md) — 作者自述用 REA 分析 iTerm，再按规格制作并在设备上测试阿拉伯语绘制支持；实现与测试尚无独立核验。 **[REA · 待验证]**
-- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](cases/bloomberg-style-research-terminal.md) — 新增REA／Opus把Bloomberg命令与TradingView图表、提醒及布局合成终端的指南；不等于专有数据或完整服务，年省32400美元与免费运行仍未核验。 **[REA · 待验证]**
+- [Bloomberg 风格研究终端：用 REA 与 Claude 构建独立数据工作站](cases/bloomberg-style-research-terminal.md) — Govind新增Gobi Terminal工作流重建自述，列财务、持仓、盈利、宏观和指向数据的AI研究框；无产物或对照，不能视为Bloomberg专有数据或完整服务替代。 **[REA · 待验证]**
 - [闭源 Coding Agent：逆向多模型协同逻辑并制作 pi 插件](cases/closed-agent-pi-plugin.md) — 作者自述用 REA 研究闭源 Coding Agent 的多模型协同逻辑，并据此开发 pi 插件；目标与实现尚未公开核验。 **[REA · 待验证]**
 - [ChatGPT App：用 REA 分析并为聊天窗口添加渐变背景](cases/chatgpt-app-gradient-background.md) — 作者称用 ChatGPT 与 REA 分析 Electron 应用，并为右侧聊天窗口注入渐变背景。 **[REA · 待验证]**
 - [Ledger Reborn：研究 QuickBooks 后制作独立记账应用](cases/ledger-reborn-accounting-app.md) — 第三方报告称REA／Ghidra研究QuickBooks后制作Python／SQLite记账应用；11月1日新增Mac2024版、逐账户到分对照三张报表的说法，仍无独立审计。 **[REA · 相关项目]**
@@ -2620,6 +2626,7 @@
 
 ### 算法与功能重建
 
+- [MiniMax的VM保护逻辑还原：100个内部样本的项目自评](cases/minimax-internal-vmprotect-themida-devirtualization-report.md) — MiniMax原文报告内部模型研究VMProtect／Themida保护：100样本单次70%、验证器反馈加八次采样94%；不是公开榜或通用脱壳保证。 **[其他 AI 逆向 · 分析测试]**
 - [从公开内容反推意图：tristan称团队取得初步突破](cases/elfa-tristan-content-to-intent-ai-reconstruction-report.md) — tristan把团队工作描述为从人们发布的内容恢复intent，放在AI Agent匹配人与工作的背景中；未给数据集、模型或准确率。 **[其他 AI 逆向 · 进行中]**
 - [MopMonk-DS预览：后训练模型在869项二进制利用基准上的转述](cases/mopmonk-ds-preview-binary-exploitgym-secondary-report.md) — 两篇介绍称DeepSeek V4.1 Flash后训练模型自行逆向并尝试利用，ExploitGym为211／869、24.2%；未读原始成绩与验证器，不把基准排名外推实战。 **[其他 AI 逆向 · 分析测试]**
 - [从1000张参考照反推提示词：薪火客的照片工作台下一步idea](cases/xinhuoke-photo-reference-prompt-reconstruction-idea.md) — 作者设想AI从1000张参考照片恢复提示词，再结合三张脸部参考生成个人照片；现有换脸工作台与尚未实现的生成管线分开记录。 **[其他 AI 逆向 · 进行中]**

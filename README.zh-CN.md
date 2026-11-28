@@ -8,9 +8,9 @@
 
 精选 **AI 辅助逆向的项目、实验与具体想法**：让设备互通，保留旧行为重建应用，保存游戏，也记录失败尝试与作者对旧结论的更正。
 
-# 2964 个案例与项目
+# 2971 个案例与项目
 
-**最近案例更新：**2026 年 11 月 28 日 20:10 · **最近维护：**2026 年 11 月 28 日 20:10 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
+**最近案例更新：**2026 年 11 月 29 日 00:13 · **最近维护：**2026 年 11 月 29 日 00:13 · 北京时间（UTC+8）；数量统计截至此次维护，来源日期与连续证据截止另行标明。
 
 **每天更新 6 次** · [完整目录](INDEX.md) · [按分类浏览](#分类浏览)
 
@@ -22,13 +22,13 @@
 
 ## 近期精选
 
-**10 个值得读的案例**：恢复编译器、重新开放GPU驱动，也按录制行为重建赛车模拟。比起“全自动”的宣称，更看重具体目标与可读证据。字节匹配、项目测试和轨迹对照不是同一种检查；下列日期为来源或作者更新日期，不是收录日期。
+**10 个值得读的案例**：恢复编译器、替换反编译器核心，也按录制行为重建赛车模拟。比起“全自动”的宣称，更看重具体工作与可读证据。字节匹配、接口检查和轨迹对照回答不同问题；下列日期为来源或作者更新日期，不是收录日期。
 
 1. **[borland-reborn：重建1991年的编译器](cases/borland-reborn-bcc20-exhume-byte-matching.md)** · `2026-11-14`介绍与固定文档 — Exhume的Claude Code skills辅助，项目报告**BCC.EXE／CPP.EXE整文件字节一致**。另有改版构建的1836次编译对照、83%覆盖，不代表所有路径或唯一原始源码。本合集未重建。`未独立核验`
 2. **[OpenGlass Go：重新开放裸眼3D屏](cases/openglass-go-kimi-gemini-armbian-firmware.md)** · `2026-11-22`作者串与固定构建文档 — Megabits将**逆向和初期代码归功Kimi，Armbian固件收尾归功Gemini Neon**。公开文档列3D媒体播放、文件传输与STM32控制；真机测试为项目自报，内核bug仍待提交。本合集未构建或刷写。`进行中`
 3. **[FreeCAD：不点屏幕，先造接口](cases/aoqu-agent-native-freecad-binary-mcp-computer-use.md)** · `2026-11-26`作者更新与固定研究文档 — **DeepSeek／REA把FreeCAD接成MCP**，五任务各设置三次，自报全部检查通过。演示的55倍速度／35倍少Token不含30至85分钟的服务构建，并非通用CAD提速。已读方法，未重跑。`分析测试`
 4. **[Forza Motorsport 4：Xbox赛车到Windows与Mac](cases/i2kiselev-forza4-ai-static-recompilation.md)** · `2026-11-27`介绍；`2026-11-15`固定文档 — **AI辅助静态重编译新增Apple Silicon预览**，贡献者报告M1 Max／M3的Free Play测试。Windows单机5K为102fps，不是5K240fps或Mac性能。须自备游戏盘；macOS14本身及部分Mac功能仍未测，本合集未构建。`进行中`
-5. **[Underworld Exhumed：保存两部DOS地下世界](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md)** · `2026-11-20`介绍；`2026-11-17`固定文档 — Exhume的Claude Code技能辅助，项目报告**UW.EXE／UW2.EXE整文件字节一致**，原生与Web移植以17／13段DOS录制回放检查。均为项目报告，本合集未重跑；原生版自备游戏数据。`未独立核验`
+5. **[MiniMax：把重写核心放回原程序](cases/minimax-internal-decompiler-rust-core-replacement-report.md)** · `2026-11-28`公司原文 — 未公开模型用Rust重建未具名反编译器核心，项目称**替换共享库后，原GUI仍能加载文件并反编译**，另检查CLI／API与独立UI。200万行是实验代码，不是成品；样本与日志未取得。已读原文，未复现。`内部评估`
 6. **[Capcom vs. SNK 2：先匹配程序，再移植游戏](cases/cvs2-naomi-dc-claude-decompilation-native-ports.md)** · `2026-11-26`介绍与固定文档 — gibletto披露**Claude辅助重建三版街机／Dreamcast程序**，项目报告字节一致与五平台移植。游戏资产和大量SDK模块仍复用，原程序匹配不等于新移植声画等价；网络功能仍不可用。已读文档，未重建。`未独立核验`
 7. **[Elecbrakes：研究拖车的蓝牙刹车](cases/elecbrakes-claude-android-brake-audit-report.md)** · `2026-11-19`研究者原文；`2026-11-20`CVE登记 — Forck与McCarthy用**Claude读字节码、做研究工具**，再报告自有硬件测试。EB2／VM1修复有文档，旧ELBC 2000截至原文无修复；固件静态分析没有证明恶意刷写。本合集未复现。`未独立核验`
 8. **[rust-anything：重建Prettier，不猜输出](cases/rust-anything-claude-behavior-capture-rust-migration.md)** · `2026-11-22`介绍与固定文档 — Agent按录制行为写Rust，新文档报告**17224次字节一致，15861次全在Rust**，其余回退。此前M4基准中CLI约19倍含进程启动优势，预热进程内为4.2倍。录制会真实执行副作用，须用隔离副本；本合集未重跑。`未独立核验`
@@ -39,6 +39,7 @@
 
 - **[Universal Modder](cases/universal-modder.md)** — AI 辅助跨游戏 Mod，把 Minecraft 内容放进 GTA V 等游戏。
 - **[Firefighter：DOS 二进制到 Rust](cases/firefighter-rust.md)** — 作者报告先恢复 Pascal 逻辑，再转写为 Rust。
+- **[Underworld Exhumed](cases/underworld-exhumed-ultima-claude-skills-byte-matching.md)** — Claude技能辅助重建两部DOS游戏，字节一致为项目报告；原生／Web移植另按录制行为检查，本合集未重跑。
 - **[《现代战争 2》](cases/mw2-decompilation.md)** — 作者报告多 Agent 重建，**83% 函数字节级匹配**；代码未公开，未独立复现。
 - **[Mac 菜单栏控制智能马桶](cases/smart-toilet.md)** — 作者报告研究蓝牙通信，并扩展到其他家居设备。
 - **[Apple TV 遥控器接入 Linux](cases/siri-remote-linux.md)** — 蓝牙互通与公开实现，未确认使用 REA。
@@ -50,10 +51,10 @@
 
 | 分类 | 数量 |
 | :--- | ---: |
-| [游戏与游戏保存](categories/games.md) | **581** |
-| [硬件与设备互通](categories/hardware.md) | **775** |
-| [应用与客户端](categories/apps.md) | **1229** |
-| [算法与功能重建](categories/algorithms.md) | **379** |
+| [游戏与游戏保存](categories/games.md) | **583** |
+| [硬件与设备互通](categories/hardware.md) | **778** |
+| [应用与客户端](categories/apps.md) | **1230** |
+| [算法与功能重建](categories/algorithms.md) | **380** |
 
 [**查看全部案例 →**](INDEX.md) · [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 

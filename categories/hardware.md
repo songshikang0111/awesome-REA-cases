@@ -2,6 +2,9 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/hardware.md)
 
+- [ReFS到Linux：读者转述Claude辅助逆向的只读文件系统驱动](../cases/refs-linux-claude-readonly-driver-secondary-report.md) — Mathias Klassen称新Linux ReFS驱动的开发者披露Claude帮助逆向，并指出只读、尚无BitLocker；未取得实现或运行记录。 **[其他 AI 逆向 · 待验证]**
+- [扫描件该从哪里切：Rusty报告Ada先识别特征并规划截面](../cases/rusty-ada-scanned-part-cross-section-planning.md) — Rusty称AI工程助手Ada识别扫描零件特征，选择有信息量的截面位置；尚在等待截面推论，没有尺寸、CAD或成品验证。 **[其他 AI 逆向 · 进行中]**
+- [约80天重建十万美元软硬件产品：朋友使用Claude的未具名转述](../cases/claude-unnamed-100k-hardware-software-eighty-day-report.md) — 土耳其语帖子称朋友借Claude重建含硬件与软件的十万美元产品，约80天、每天约10小时后全功能运行；目标、产物与验证均未公开。 **[其他 AI 逆向 · 待验证]**
 - [Keychron磁轴仍异常：suxb201让AI改开源固件做同步校准](../cases/suxb201-keychron-ai-magnetic-calibration-firmware.md) — 换PCB仍有问题后，作者称AI修改Keychron固件，多键同时磁场变化时触发校准；未给键盘型号、补丁或修复测试。 **[其他 AI 逆向 · 进行中]**
 - [开源微控制器与固件仿真停滞：YaboiJosh报告Claude／DeepSeek反编译尝试](../cases/yaboijosh-claude-deepseek-microcontroller-emulation-stall.md) — 作者称使用Claude与DeepSeek反编译、仿真已开源的微控制器和固件，但反复无进展；对Claude设障的解释未有代码或日志支持。 **[其他 AI 逆向 · 进行中]**
 - [旧webOS遥测屏蔽受阻：T0mmy让Codex读固件、经SSH反复试探](../cases/lightmare8-webos-codex-firmware-ssh-telemetry-attempt.md) — T0mmy称Codex从固件推测规格并循环经SSH试命令，但陷入死路；背景是旧webOS缺iptables，遥测屏蔽尚未报告完成。 **[其他 AI 逆向 · 进行中]**

@@ -10,16 +10,16 @@ A collection of REA and AI reverse-engineering cases and projects, covering game
 
 [REA](https://github.com/morluto/rea) (Reverse Engineer Anything) lets coding agents call local reverse-engineering tools through CLI and MCP interfaces. This collection also includes work with other AI tools and interoperability projects built for AI agents.
 
-**2964 entries**, organized by use case, without a Top-N or popularity threshold.
+**2971 entries**, organized by use case, without a Top-N or popularity threshold.
 
 English case details and category pages are available throughout this reading path. Contribution and maintenance guides are in Chinese.
 
 ## Contents
 
-- [Games and preservation](categories/en/games.md) (581)
-- [Hardware and interoperability](categories/en/hardware.md) (775)
-- [Applications and clients](categories/en/apps.md) (1229)
-- [Algorithms and feature recovery](categories/en/algorithms.md) (379)
+- [Games and preservation](categories/en/games.md) (583)
+- [Hardware and interoperability](categories/en/hardware.md) (778)
+- [Applications and clients](categories/en/apps.md) (1230)
+- [Algorithms and feature recovery](categories/en/algorithms.md) (380)
 - [Contribute a case (Chinese)](CONTRIBUTING.md) · [Maintenance (Chinese)](MAINTENANCE.md)
 
 Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage labels—Needs verification, In progress, Analysis test, and Related project—keep all entries discoverable without presenting them as completed results.
@@ -28,6 +28,8 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Games and preservation
 
+- [Word Play reportedly recreated with AI: a news summary of Mark Brown's experience](cases/en/word-play-mark-brown-ai-recreation-secondary-report.md) — A summary citing the BBC says GMTK's Mark Brown saw his Word Play recreated. It identifies no builder, code, model, revision or behavioral comparison. **[Other AI-assisted work · Needs verification]**
+- [204Snake reportedly copied before launch: a secondary AI-game-reconstruction account](cases/en/204snake-prelaunch-ai-copy-secondary-report.md) — A summary citing the BBC lists indie game 204Snake as copied with AI before release. Reference material, model, builder and equivalence checks are unspecified. **[Other AI-assisted work · Needs verification]**
 - [DRIG: AI-assisted Rust/Bevy reconstruction of Race Driver: GRID behavior](cases/en/drig-grid-rust-bevy-ai-behavior-reimplementation.md) — PipeKnight discloses AI coding agents rebuilding GRID's engine, checked against original driving, AI and audio traces and individual routine comparisons. Crashes, physics and visual differences remain. **[Other AI-assisted work · In progress]**
 - [Marathon Recompiled: Sonic 2006 static recompilation and reported AI commit credits](cases/en/marathon-sonic2006-static-recompilation-ai-credit-report.md) — yibie reports 17 AI-related trailers across 30 recent commits. Pinned documentation confirms Xbox 360 recompilation for three platforms but does not disclose AI's role. **[REA use unconfirmed · Related project]**
 - [Cosmic Supremacy reconnects: GenAI-assisted server reconstruction remains a multiplayer beta](cases/en/cosmic-supremacy-resurgence-genai-server-reconstruction.md) — rsfutch77 credits GenAI with decoding lost-server commands and writing a replacement. Documentation limits multiplayer to one sandbox galaxy without player messages; opponents are rules-based, not reinforcement learning. **[Other AI-assisted work · In progress]**
@@ -612,6 +614,9 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Hardware and interoperability
 
+- [ReFS on Linux: a reader reports a Claude-assisted read-only filesystem driver](cases/en/refs-linux-claude-readonly-driver-secondary-report.md) — Mathias Klassen says the new Linux ReFS driver's developer disclosed Claude-assisted reversing, noting read-only operation and no BitLocker yet. Implementation and runtime records were not obtained. **[Other AI-assisted work · Needs verification]**
+- [Where to section a scanned part: Rusty reports Ada identifying features and planning cuts](cases/en/rusty-ada-scanned-part-cross-section-planning.md) — Rusty says AI engineering assistant Ada identified scanned-part features and selected informative cross-sections. Conclusions are still awaited; dimensions, CAD and manufactured output are unverified. **[Other AI-assisted work · In progress]**
+- [About 80 days to rebuild an unnamed $100,000 hardware/software product: a friend's Claude account](cases/en/claude-unnamed-100k-hardware-software-eighty-day-report.md) — A Turkish post says a friend used Claude to rebuild a $100,000 hardware/software product, reporting full operation after about 80 days at roughly ten hours daily. Target, artifacts and verification are undisclosed. **[Other AI-assisted work · Needs verification]**
 - [Keychron magnetic-switch issues persist: suxb201 has AI modify calibration firmware](cases/en/suxb201-keychron-ai-magnetic-calibration-firmware.md) — After replacing the PCB failed to solve the issue, the author reports modifying Keychron firmware with AI to calibrate simultaneous magnetic changes across keys. Model, patch and repair tests are absent. **[Other AI-assisted work · In progress]**
 - [Open-source microcontroller and firmware emulation stalls: YaboiJosh reports Claude/DeepSeek decompilation work](cases/en/yaboijosh-claude-deepseek-microcontroller-emulation-stall.md) — The author reports using Claude and DeepSeek to decompile and emulate already open-sourced microcontrollers and firmware, without progress. Claims that Claude introduced barriers lack code or logs. **[Other AI-assisted work · In progress]**
 - [Old webOS telemetry blocking stalls: T0mmy has Codex inspect firmware and iterate over SSH](cases/en/lightmare8-webos-codex-firmware-ssh-telemetry-attempt.md) — T0mmy says Codex infers specifications from firmware and repeatedly tries SSH commands, but hits a dead end. The background is missing iptables on old webOS; completed telemetry blocking is not reported. **[Other AI-assisted work · In progress]**
@@ -1390,6 +1395,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Applications and clients
 
+- [MiniMax's internal decompiler experiment: reinserting a Rust core into the original host](cases/en/minimax-internal-decompiler-rust-core-replacement-report.md) — MiniMax's report describes an internal model rebuilding an unnamed decompiler core, checked through CLI/API, a standalone UI and shared-library reinsertion. Two million lines are experimental code, not a mature commercial product. **[Other AI-assisted work · Analysis test]**
 - [An unnamed custom antibot system: Milky reports frontier-model-assisted red-team reversing](cases/en/milky-custom-antibot-frontier-model-reversing-report.md) — Milky reports reversing another industry-specific antibot system and emphasizes combining red-team expertise with a frontier model. Target, methods and success criteria are not disclosed. **[Other AI-assisted work · Needs verification]**
 - [web-deck: reconstructing The Last Boring Slide as an offline WebGL2 agent skill](cases/en/web-deck-last-boring-slide-agent-skill-reconstruction.md) — Renzexi01 packages a reference deck's architecture into a skill. The project reports a 1,027.3 KB single HTML and seven-keyframe checks; live-host discovery and cross-system installation remain untested. **[Other AI-assisted work · Related project]**
 - [Agy Powertools source review: Logan uses Antigravity to distinguish local enhancements from protocol changes](cases/en/agy-powertools-antigravity-ai-source-compliance-review.md) — Logan reports AI-assisted source reading, separating credential rotation, protobuf requests and local UI risks. Terms-of-service and ban predictions lack official or independent confirmation. **[Other AI-assisted work · Analysis test]**
@@ -2501,7 +2507,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 - [GTM tool: a reported REA-assisted lead and email workflow](cases/en/rea-gtm-tool.md) — The author says REA was used to build a GTM tool for lead generation, management and email campaigns; implementation and operation are unverified. **[REA · Needs verification]**
 - [Tea-export website: reported REA-assisted rebuild](cases/en/tea-site-rea-rebuild-report.md) — The author reports using Codex and REA to investigate a reference website and deploy a local rebuild in about 40 minutes; the target and functional parity are unverified. **[REA · Needs verification]**
 - [iTerm: Arabic text rendering informed by REA](cases/en/arabic-terminal-rendering.md) — The poster says REA was used to analyze iTerm, then specifications guided a separate implementation tested on their device; the result is unverified. **[REA · Needs verification]**
-- [Bloomberg-style research terminal: a reported REA/Claude build](cases/en/bloomberg-style-research-terminal.md) — A new REA/Opus guide combines Bloomberg commands with TradingView charts, alerts and layouts. Proprietary data and complete services are not established; $32,400 savings and free operation remain unverified. **[REA · Needs verification]**
+- [Bloomberg-style research terminal: a reported REA/Claude build](cases/en/bloomberg-style-research-terminal.md) — Govind adds a Gobi Terminal workflow-rebuilding account with financials, ownership, earnings, macro and an AI research box pointing to data. Artifacts and comparisons are absent; proprietary Bloomberg data and full-service replacement are not established. **[REA · Needs verification]**
 - [Closed-source coding agent: reverse-engineered collaboration logic and a pi plugin](cases/en/closed-agent-pi-plugin.md) — The poster says they used REA to study an unnamed agent's multi-model collaboration logic and developed a pi plugin; target and implementation are unverified. **[REA · Needs verification]**
 - [ChatGPT app: a reported REA-assisted gradient-background modification](cases/en/chatgpt-app-gradient-background.md) — The poster says ChatGPT and REA were used to add a gradient to the Electron app's right chat pane; implementation and result are not independently verified. **[REA · Needs verification]**
 - [Ledger Reborn: An Independent Accounting App Informed by QuickBooks Study](cases/en/ledger-reborn-accounting-app.md) — Third-party accounts describe a Python/SQLite accounting app informed by REA/Ghidra study of QuickBooks. A November 1 post adds Mac 2024 and cent-level per-account comparisons of three reports, still without an independent audit. **[REA · Related project]**
@@ -2622,6 +2628,7 @@ Tool labels distinguish REA, other AI work, and unconfirmed REA use. Stage label
 
 ### Algorithms and feature recovery
 
+- [MiniMax's VM-protection logic recovery: a project evaluation on 100 internal samples](cases/en/minimax-internal-vmprotect-themida-devirtualization-report.md) — MiniMax reports its internal VMProtect/Themida evaluation: 70% in one attempt on 100 samples and 94% with verifier feedback and eight samples. This is neither a public leaderboard nor a general unpacking guarantee. **[Other AI-assisted work · Analysis test]**
 - [Inferring intent from published content: tristan reports an early team breakthrough](cases/en/elfa-tristan-content-to-intent-ai-reconstruction-report.md) — tristan describes recovering intent from people's posts in the context of agent-mediated connections and work. No dataset, model or accuracy is provided. **[Other AI-assisted work · In progress]**
 - [MopMonk-DS preview: secondary accounts of a post-trained model on 869 binary exploitation tasks](cases/en/mopmonk-ds-preview-binary-exploitgym-secondary-report.md) — Two introductions say the DeepSeek V4.1 Flash-based model autonomously reverses binaries and attempts exploitation, reporting 211/869 and 24.2% on ExploitGym. Original scores and validators were not read; rankings are not production success rates. **[Other AI-assisted work · Analysis test]**
 - [Recover prompts from 1,000 reference photos: xinhuoke's next-step portrait-workbench idea](cases/en/xinhuoke-photo-reference-prompt-reconstruction-idea.md) — The author proposes inferring prompts from 1,000 reference photos, then generating portraits using three facial references. The reported existing face-swap workbench is separate from this unimplemented pipeline. **[Other AI-assisted work · In progress]**

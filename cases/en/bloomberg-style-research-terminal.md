@@ -1,10 +1,12 @@
 # Bloomberg-style research terminal: a reported REA/Claude build
 
 Category: Applications and clients · REA
-Record date: 2026-11-08
+Record date: 2026-11-28
 Stage: Needs verification
 
-The poster reports firsthand building a Bloomberg-style financial-research workstation with REA MCP and Claude Opus 5.5. The described workflow observes publicly visible financial dashboards, charts and workflows; designs quotes, watchlists, financial statements, news, charting and portfolio analysis; connects free market-data APIs; and builds backtesting and analysis features. The author explicitly says Bloomberg's proprietary data was not unlocked and independent data sources were used. The evidence is the author's completion claim and build guide, without workstation code, an accessible product or test records. It remains unverified, without assuming all listed features are complete or equivalent to Bloomberg. REA use is directly reported in the post; this collection did not independently retest.
+At 22:54:55 Beijing time on November 28, 2026, Govind (@GovindGoel01) says he reverse-engineered a Bloomberg-style research workflow and built Gobi Terminal, listing financials, ownership, earnings, macro and an AI research box pointing back to its data, with a link to the workflow and remaining work. Retrieval confirms attribution and full wording, but the linked explanation, product, code and tests were not read. The post does not say whether AI assisted the reverse engineering itself and does not mention REA. This is a named new implementation report for the same type of target, not confirmation of earlier authors' code. Earlier features, feeds and savings are not inherited. Proprietary Bloomberg access, citation correctness and functional equivalence are not established.
+
+Earlier reports and their dated evidence limits follow. The poster reports firsthand building a Bloomberg-style financial-research workstation with REA MCP and Claude Opus 5.5. The described workflow observes publicly visible financial dashboards, charts and workflows; designs quotes, watchlists, financial statements, news, charting and portfolio analysis; connects free market-data APIs; and builds backtesting and analysis features. The author explicitly says Bloomberg's proprietary data was not unlocked and independent data sources were used. The evidence is the author's completion claim and build guide, without workstation code, an accessible product or test records. It remains unverified, without assuming all listed features are complete or equivalent to Bloomberg. REA use is directly reported in the post; this collection did not independently retest.
 
 A separate October 16 promotional post says an 18-year-old used REA and Opus to rebuild the alerts subset of a $32,000-per-year terminal in one evening: enter stocks and coins, connect Telegram, and receive weekday 8:00 reports of portfolio movements and reasons with sources and timestamps, allegedly reading around 23 sources for one question. This adds a use on the same target, not confirmation that it is the original author's implementation. Although the promotion claims tracing the real app, writing a specification and copying no code, it also starts with choosing a model in an unnamed market app. No original author, code, network evidence or tests are supplied, so actual reverse engineering cannot be distinguished from a generic AI market assistant. Age, annual fee, labor and source count remain solely that post's claims, not evidence of proprietary-data access or a trading advantage.
 
@@ -30,6 +32,7 @@ October 24 source update: 01:48:40 Beijing time; candidate snapshot: 40 likes, 2
 November 2 at 23:46:45 comment snapshot: 0 likes, 40 views, 0 reposts. The week-long evaluation is only planned; feed-cost and delay examples are unverified.
 November 4, 05:55:42 proposal snapshot: 15 likes, 816 views, 2 reposts. Eleven skills and 10,000 outcomes are post settings, not validated performance or returns.
 November 8, 04:45:58 combined guide: 20 likes, 645 views, 1 repost. $32,400 savings lack invoices; free feeds do not establish authorized coverage.
+November 28 Gobi sealed candidate: 0 likes, 17 views, 0 reposts, 1 reply. The named implementation and AI research box are author-reported; citation accuracy and reversing-tool attribution are absent.
 
 ## Sources
 
@@ -41,5 +44,6 @@ November 8, 04:45:58 combined guide: 20 likes, 645 views, 1 repost. $32,400 savi
 - [November 2 comment on data quality and a planned week-long latency evaluation, without results](https://x.com/i/status/2117282272890237381)
 - [November 4 Day Trader Skill/REA 11-skill terminal proposal, unverified](https://x.com/i/status/2117737509476024752)
 - [Unverified TradingView/Bloomberg combined-terminal guide, November 8, 2026 at 04:45:58 Beijing time](https://x.com/i/status/2119169510221533489)
+- [Govind's Gobi Terminal workflow-rebuilding account, November 28, 2026 at 22:54:55 Beijing time](https://x.com/i/status/2126691310954557643)
 
 [中文](../bloomberg-style-research-terminal.md) | [Back to editor picks](../../README.md) | [Full index](../../INDEX.en.md) | [Category](../../categories/en/apps.md)
