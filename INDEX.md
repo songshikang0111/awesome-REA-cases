@@ -10,14 +10,14 @@
 
 [REA](https://github.com/morluto/rea)（Reverse Engineer Anything）通过 CLI / MCP，让编程 Agent 调用本地逆向分析工具。本集合不局限于 REA，也收录其他 AI 辅助逆向和为 AI 工具实现互通的项目。
 
-当前收录 **2944 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
+当前收录 **2951 个案例与项目**，按用途分类，不设 Top N 或热度门槛。
 
 ## 目录
 
-- [游戏与游戏保存](categories/games.md)（576）
-- [硬件与设备互通](categories/hardware.md)（771）
-- [应用与客户端](categories/apps.md)（1223）
-- [算法与功能重建](categories/algorithms.md)（374）
+- [游戏与游戏保存](categories/games.md)（577）
+- [硬件与设备互通](categories/hardware.md)（774）
+- [应用与客户端](categories/apps.md)（1225）
+- [算法与功能重建](categories/algorithms.md)（375）
 - [贡献案例](CONTRIBUTING.md) · [维护方法](MAINTENANCE.md)
 
 工具标注：`REA` / `其他 AI 逆向` / `未确认使用 REA`。阶段标注：`待验证` / `进行中` / `分析测试` / `相关项目`；有标注的也列在主目录，但不等同于已完成成果。
@@ -26,6 +26,7 @@
 
 ### 游戏与游戏保存
 
+- [bouncemarket弹珠预测：Claude机器人报告146／181局出手全中，并非开局预知](cases/bouncemarket-claude-physics-prediction-report.md) — 二手帖称Claude逆向弹珠物理146局全中；HN作者原评论实际为181局中选146局、算不及时跳过，随机种子恢复仍是未解决尝试。 **[其他 AI 逆向 · 待验证]**
 - [Open Ultima 8 v0.5.8：Claude辅助Rust重建《创世纪VIII》引擎的转述](cases/open-ultima8-rust-claude-engine-v058.md) — The Gaming Emporium转述fswolf的Claude辅助Rust引擎；固定README明确复用Pentagram／ScummVM知识、读取U8.EXE武器表及存档sidecar，未验证全流程可玩。 **[其他 AI 逆向 · 待验证]**
 - [冷启动退全屏：Gemini分析metadata与汉化DLL的修复转述](cases/gemini-unity-versiondll-fullscreen-localization-fix.md) — JJBond转述Gemini解析global-metadata.dat，定位汉化插件version.dll并补丁后重启验证；游戏未具名，没有可核补丁或独立回归。 **[其他 AI 逆向 · 待验证]**
 - [Network Quest：以逆向Sierra代码为灵感，用AI循环制作网络分层冒险游戏](cases/capobianco-network-quest-sierra-code-ai-project.md) — John Capobianco称以逆向Sierra代码为灵感，用Astra GPT 6.2等制作Network Quest；当前聚焦物理层，七层关卡与开源仍属计划。 **[其他 AI 逆向 · 进行中]**
@@ -605,6 +606,9 @@
 
 ### 硬件与设备互通
 
+- [开源微控制器与固件仿真停滞：YaboiJosh报告Claude／DeepSeek反编译尝试](cases/yaboijosh-claude-deepseek-microcontroller-emulation-stall.md) — 作者称使用Claude与DeepSeek反编译、仿真已开源的微控制器和固件，但反复无进展；对Claude设障的解释未有代码或日志支持。 **[其他 AI 逆向 · 进行中]**
+- [旧webOS遥测屏蔽受阻：T0mmy让Codex读固件、经SSH反复试探](cases/lightmare8-webos-codex-firmware-ssh-telemetry-attempt.md) — T0mmy称Codex从固件推测规格并循环经SSH试命令，但陷入死路；背景是旧webOS缺iptables，遥测屏蔽尚未报告完成。 **[其他 AI 逆向 · 进行中]**
+- [刺激贴片不再靠原App：Shashank称Claude辅助读BLE协议、重写Flutter客户端](cases/shashank-vagus-patch-claude-ble-flutter-app.md) — Shashank Mayya报告以blutter与logcat对照刺激贴片BLE协议，重写后台保活与健康数据界面；200多测试与真机端到端测试均为自报，不证明电刺激安全或疗效。 **[其他 AI 逆向 · 待验证]**
 - [Roomba e5换电池后报错：wangtangkiki想找REA研究路径](cases/roomba-e5-rea-battery-error11-error17-idea.md) — 作者称Roomba e5从错误11变为换电池后的17，猜测非原厂电池问题并征求REA帮助；尚无诊断或修复。 **[REA · 待验证]**
 - [Alpha手机系统：Shaw以Pixel设备树为起点，提醒AI移植可能变砖](cases/pixel-device-tree-ai-phone-deployment-progress.md) — Shaw回应旧Android支持问题，称Alpha先做已有设备树的Pixel，其他设备须公开或逆向设备树；跨机型部署仍是作者意图。 **[其他 AI 逆向 · 进行中]**
 - [nvdriver：Eric Hartford用REA研究V100驱动，项目报告Rust重建与真机对照](cases/quixiai-nvdriver-v100-rea-rust-driver-research.md) — Eric Hartford因V100不能使用NVIDIA开放驱动而研究驱动；nvdriver文档报告Rust重建580.178.04与V100测试，其他架构仍主要离线验证。 **[REA · 进行中]**
@@ -1379,6 +1383,8 @@
 
 ### 应用与客户端
 
+- [上传可执行文件看REA结果：WquGuru用Claude Code循环开发小站](cases/wquguru-rea-executable-upload-site-loop-project.md) — WquGuru称已开Claude Code /loop，搭配Fable5.2制作可执行文件上传分析站；发帖时仍期待回家验收，没有上线或分析正确性的结果。 **[REA · 进行中]**
+- [Safari时间戳到底表示什么：Sprog建议用REA研究同版本浏览器行为](cases/sprog-safari-browserstate-wal-rea-behavior-idea.md) — Sprog提出在越狱设备上用REA研究特定Safari版本，以理解标签状态写入；只是一项取证行为研究idea，没有执行或支持争议任一方的结果。 **[REA · 待验证]**
 - [Keeper匹配偏好去了哪里：Neon反查Claude代码与Agent日志的二手审计报告](cases/keeper-neon-matching-preference-code-audit-report.md) — lifcc转述Keeper用Neon从代码、Slack、PR与Agent日志还原偏好过滤，约6.5%样本整组偏好丢失；未独立审代码，不能证明蓄意投毒或完全隐瞒。 **[其他 AI 逆向 · 分析测试]**
 - [stealthprint网关研究：lifcc审读Claude日志，区分方案省略与代码暗改](cases/stealthprint-claude-gateway-protocol-log-audit.md) — lifcc称扫描165个Claude会话，回查stealthprint模型指纹与CLI协议研究；报告两次方案过滤，但明确代码写入与提交干净，未证实投毒。 **[其他 AI 逆向 · 分析测试]**
 - [Lumzel 0.4.5：私有用量API与官方CLI执行分开处理](cases/lumzel-045-private-usage-api-cli-bridge.md) — Lumzel介绍用非公开Agent接口查用量／重置次数，以全局开关应对风控风险；实际Agent任务仍走官方CLI，Codex另用ACP。 **[未确认使用 REA · 相关项目]**
@@ -1832,7 +1838,7 @@
 - [抖音端侧推荐：WangNextDoor转述AI逆向的模型与行为预测线索](cases/douyin-ondevice-models-ai-reverse-secondary-report.md) — 转述称AI分析发现25个以上模型、50多个变量和预缓存；未提供原始分析，不能视作已证实的数据收集行为。 **[其他 AI 逆向 · 待验证]**
 - [macOS上的iPod重建：Alexis称Fable纠正旧Claude版本的行为失真](cases/alexis-ipod-macos-fable-behavior-fidelity-review.md) — 作者把一年前Claude写的iPod应用交Fable复查，报告修正屏幕、背光和音量交互并减少代码；未取得原固件对照或仓库。 **[其他 AI 逆向 · 进行中]**
 - [未具名杀毒软件：0xedgerunner称DeepSeek辅助逆向发现两项系统级写删问题](cases/0xedgerunner-deepseek-antivirus-system-write-delete-report.md) — 作者称人工在环研究12小时发现两项系统级任意写／删，约400M token花约2美元；没有软件版本、日志或厂商确认，费用也未核验。 **[其他 AI 逆向 · 待验证]**
-- [Deva：把逆向与特殊提示配置放到独立桌面Agent工作台](cases/deva-desktop-agent-reverse-research-workbench.md) — Kxians介绍面向AI逆向与安全研究的Deva，主张与日常开发环境分开；未取得可读仓库或具体目标实验。 **[其他 AI 逆向 · 待验证]**
+- [Deva：把逆向与特殊提示配置放到独立桌面Agent工作台](cases/deva-desktop-agent-reverse-research-workbench.md) — Kxians介绍独立逆向Agent工作台；Isk真白补充Deva／小码酱角色、缓存断点与CheckPoint，但仍没有目标实验或绕过效果核验。 **[其他 AI 逆向 · 待验证]**
 - [techie007用Claude Code研究Claude Desktop：未发布功能与VM线索](cases/techie007-claude-desktop-code-unreleased-feature-study.md) — 作者报告Claude Code分析客户端，称发现10GB Linux VM、42工具、72代号与教学录制入口；代码线索不证明功能上线。 **[其他 AI 逆向 · 分析测试]**
 - [飞牛OS漏洞研究：李天才称Muse跑三天三夜仍无发现](cases/lniosytest-muse-fnos-three-day-no-finding.md) — 李天才自述Muse研究飞牛OS三天三夜没出漏洞，并询问时间主要花在读代码还是搭环境复现；不等于系统安全证明。 **[其他 AI 逆向 · 分析测试]**
 - [Kakao T广告规则：XODUD称网页GPT分析XAPK里的AdFit主机](cases/xodud-kakao-t-adfit-xapk-gpt-adaway-study.md) — 作者为韩国出行App要AdAway列表，称GPT解包XAPK、从整数数组识别主机并写九条启用规则；未报最终阻断测试。 **[其他 AI 逆向 · 进行中]**
@@ -2605,6 +2611,7 @@
 
 ### 算法与功能重建
 
+- [CyBench二进制里直接找Flag：lifcc转述DeepSeek V4 Pro 0813的两次静态读取](cases/deepseek-v4pro0813-cybench-rodata-flag-audit-report.md) — lifcc称风险评估发现DeepSeek以strings和pyelftools读取服务端二进制.rodata，在两个CyBench样本找到硬编码Flag；没有原日志，不能当广泛漏洞利用能力或监管合规证明。 **[其他 AI 逆向 · 分析测试]**
 - [WallStreet Forex Robot：从2016年黑箱重建回忆提出多AI Agent研究idea](cases/wallstreet-forex-robot-multiagent-blackbox-idea.md) — EA Forex LAB回忆论坛合作分析夜间剥头皮EA，提出数百AI Agent分析行为与验证假设；未报告AI方案已实施或盈利验证。 **[其他 AI 逆向 · 待验证]**
 - [Pocket增长拆解：Ethan用Composio查多API，再生成HTML轮播](cases/ethan-composio-pocket-growth-playbook-analysis.md) — Ethan Walkrman称Agent借Composio Instant查15余付费API，以约0.20美元研究Pocket流量、广告和搜索，再转为HTML幻灯；指标未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [Hyper AI增长研究：Haris报告Composio与Agent跑出playbook](cases/haris-composio-hyper-ai-growth-playbook.md) — Haris称用Composio投篮界面取Hyper AI数据，再让Agent重建增长playbook，花0.153美元；未公开具体结论或账单。 **[其他 AI 逆向 · 待验证]**

@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/games.md)
 
+- [bouncemarket弹珠预测：Claude机器人报告146／181局出手全中，并非开局预知](../cases/bouncemarket-claude-physics-prediction-report.md) — 二手帖称Claude逆向弹珠物理146局全中；HN作者原评论实际为181局中选146局、算不及时跳过，随机种子恢复仍是未解决尝试。 **[其他 AI 逆向 · 待验证]**
 - [Open Ultima 8 v0.5.8：Claude辅助Rust重建《创世纪VIII》引擎的转述](../cases/open-ultima8-rust-claude-engine-v058.md) — The Gaming Emporium转述fswolf的Claude辅助Rust引擎；固定README明确复用Pentagram／ScummVM知识、读取U8.EXE武器表及存档sidecar，未验证全流程可玩。 **[其他 AI 逆向 · 待验证]**
 - [冷启动退全屏：Gemini分析metadata与汉化DLL的修复转述](../cases/gemini-unity-versiondll-fullscreen-localization-fix.md) — JJBond转述Gemini解析global-metadata.dat，定位汉化插件version.dll并补丁后重启验证；游戏未具名，没有可核补丁或独立回归。 **[其他 AI 逆向 · 待验证]**
 - [Network Quest：以逆向Sierra代码为灵感，用AI循环制作网络分层冒险游戏](../cases/capobianco-network-quest-sierra-code-ai-project.md) — John Capobianco称以逆向Sierra代码为灵感，用Astra GPT 6.2等制作Network Quest；当前聚焦物理层，七层关卡与开源仍属计划。 **[其他 AI 逆向 · 进行中]**

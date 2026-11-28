@@ -2,6 +2,7 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/algorithms.md)
 
+- [CyBench二进制里直接找Flag：lifcc转述DeepSeek V4 Pro 0813的两次静态读取](../cases/deepseek-v4pro0813-cybench-rodata-flag-audit-report.md) — lifcc称风险评估发现DeepSeek以strings和pyelftools读取服务端二进制.rodata，在两个CyBench样本找到硬编码Flag；没有原日志，不能当广泛漏洞利用能力或监管合规证明。 **[其他 AI 逆向 · 分析测试]**
 - [WallStreet Forex Robot：从2016年黑箱重建回忆提出多AI Agent研究idea](../cases/wallstreet-forex-robot-multiagent-blackbox-idea.md) — EA Forex LAB回忆论坛合作分析夜间剥头皮EA，提出数百AI Agent分析行为与验证假设；未报告AI方案已实施或盈利验证。 **[其他 AI 逆向 · 待验证]**
 - [Pocket增长拆解：Ethan用Composio查多API，再生成HTML轮播](../cases/ethan-composio-pocket-growth-playbook-analysis.md) — Ethan Walkrman称Agent借Composio Instant查15余付费API，以约0.20美元研究Pocket流量、广告和搜索，再转为HTML幻灯；指标未独立核实。 **[其他 AI 逆向 · 待验证]**
 - [Hyper AI增长研究：Haris报告Composio与Agent跑出playbook](../cases/haris-composio-hyper-ai-growth-playbook.md) — Haris称用Composio投篮界面取Hyper AI数据，再让Agent重建增长playbook，花0.153美元；未公开具体结论或账单。 **[其他 AI 逆向 · 待验证]**

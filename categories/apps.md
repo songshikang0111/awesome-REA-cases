@@ -2,6 +2,8 @@
 
 [返回主目录](../README.zh-CN.md) | [English](en/apps.md)
 
+- [上传可执行文件看REA结果：WquGuru用Claude Code循环开发小站](../cases/wquguru-rea-executable-upload-site-loop-project.md) — WquGuru称已开Claude Code /loop，搭配Fable5.2制作可执行文件上传分析站；发帖时仍期待回家验收，没有上线或分析正确性的结果。 **[REA · 进行中]**
+- [Safari时间戳到底表示什么：Sprog建议用REA研究同版本浏览器行为](../cases/sprog-safari-browserstate-wal-rea-behavior-idea.md) — Sprog提出在越狱设备上用REA研究特定Safari版本，以理解标签状态写入；只是一项取证行为研究idea，没有执行或支持争议任一方的结果。 **[REA · 待验证]**
 - [Keeper匹配偏好去了哪里：Neon反查Claude代码与Agent日志的二手审计报告](../cases/keeper-neon-matching-preference-code-audit-report.md) — lifcc转述Keeper用Neon从代码、Slack、PR与Agent日志还原偏好过滤，约6.5%样本整组偏好丢失；未独立审代码，不能证明蓄意投毒或完全隐瞒。 **[其他 AI 逆向 · 分析测试]**
 - [stealthprint网关研究：lifcc审读Claude日志，区分方案省略与代码暗改](../cases/stealthprint-claude-gateway-protocol-log-audit.md) — lifcc称扫描165个Claude会话，回查stealthprint模型指纹与CLI协议研究；报告两次方案过滤，但明确代码写入与提交干净，未证实投毒。 **[其他 AI 逆向 · 分析测试]**
 - [Lumzel 0.4.5：私有用量API与官方CLI执行分开处理](../cases/lumzel-045-private-usage-api-cli-bridge.md) — Lumzel介绍用非公开Agent接口查用量／重置次数，以全局开关应对风控风险；实际Agent任务仍走官方CLI，Codex另用ACP。 **[未确认使用 REA · 相关项目]**
@@ -455,7 +457,7 @@
 - [抖音端侧推荐：WangNextDoor转述AI逆向的模型与行为预测线索](../cases/douyin-ondevice-models-ai-reverse-secondary-report.md) — 转述称AI分析发现25个以上模型、50多个变量和预缓存；未提供原始分析，不能视作已证实的数据收集行为。 **[其他 AI 逆向 · 待验证]**
 - [macOS上的iPod重建：Alexis称Fable纠正旧Claude版本的行为失真](../cases/alexis-ipod-macos-fable-behavior-fidelity-review.md) — 作者把一年前Claude写的iPod应用交Fable复查，报告修正屏幕、背光和音量交互并减少代码；未取得原固件对照或仓库。 **[其他 AI 逆向 · 进行中]**
 - [未具名杀毒软件：0xedgerunner称DeepSeek辅助逆向发现两项系统级写删问题](../cases/0xedgerunner-deepseek-antivirus-system-write-delete-report.md) — 作者称人工在环研究12小时发现两项系统级任意写／删，约400M token花约2美元；没有软件版本、日志或厂商确认，费用也未核验。 **[其他 AI 逆向 · 待验证]**
-- [Deva：把逆向与特殊提示配置放到独立桌面Agent工作台](../cases/deva-desktop-agent-reverse-research-workbench.md) — Kxians介绍面向AI逆向与安全研究的Deva，主张与日常开发环境分开；未取得可读仓库或具体目标实验。 **[其他 AI 逆向 · 待验证]**
+- [Deva：把逆向与特殊提示配置放到独立桌面Agent工作台](../cases/deva-desktop-agent-reverse-research-workbench.md) — Kxians介绍独立逆向Agent工作台；Isk真白补充Deva／小码酱角色、缓存断点与CheckPoint，但仍没有目标实验或绕过效果核验。 **[其他 AI 逆向 · 待验证]**
 - [techie007用Claude Code研究Claude Desktop：未发布功能与VM线索](../cases/techie007-claude-desktop-code-unreleased-feature-study.md) — 作者报告Claude Code分析客户端，称发现10GB Linux VM、42工具、72代号与教学录制入口；代码线索不证明功能上线。 **[其他 AI 逆向 · 分析测试]**
 - [飞牛OS漏洞研究：李天才称Muse跑三天三夜仍无发现](../cases/lniosytest-muse-fnos-three-day-no-finding.md) — 李天才自述Muse研究飞牛OS三天三夜没出漏洞，并询问时间主要花在读代码还是搭环境复现；不等于系统安全证明。 **[其他 AI 逆向 · 分析测试]**
 - [Kakao T广告规则：XODUD称网页GPT分析XAPK里的AdFit主机](../cases/xodud-kakao-t-adfit-xapk-gpt-adaway-study.md) — 作者为韩国出行App要AdAway列表，称GPT解包XAPK、从整数数组识别主机并写九条启用规则；未报最终阻断测试。 **[其他 AI 逆向 · 进行中]**
