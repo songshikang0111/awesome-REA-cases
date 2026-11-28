@@ -2,6 +2,8 @@
 
 # Awesome REA Cases
 
+[![Featured by Awesome REA](https://raw.githubusercontent.com/reacher-z/Awesome-REA/main/assets/featured-by-awesome-rea-inline.svg)](https://github.com/reacher-z/Awesome-REA)
+
 **English (default)** | [简体中文](README.zh-CN.md)
 
 ### Explore software and hardware with AI.
